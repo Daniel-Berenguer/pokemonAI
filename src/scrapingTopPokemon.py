@@ -26,7 +26,7 @@ class Move:
         self.priority = priority
 
     def __str__(self):
-        return self.name + " "  + self.type + " "  + self.clase + " "  + str(self.power) + " "  + str(self.accuracy) + " "  + str(self.priority)
+        return self.name + ","  + self.type + ","  + self.clase + ","  + str(self.power) + ","  + str(self.accuracy) + ","  + str(self.priority)
 
 moves = []
 move_names = set([])
