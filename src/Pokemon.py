@@ -15,6 +15,10 @@ class Pokemon:
         self.hp = 100
         self.tera = False
         self.saltCure = False
+        self.justProtected = False
+        self.sub = [False, 0]
+        self.lostItem = False
+        self.fnt = False
 
 
     def __str__(self):
