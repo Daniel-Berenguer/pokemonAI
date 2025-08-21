@@ -1,0 +1,167 @@
+|j|☆Reg H merchant
+|j|☆BackPAC
+|html|Reg H merchantBackPAC    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755487602
+|gametype|doubles
+|player|p1|Reg H merchant|hilbert|1242
+|player|p2|BackPAC|burglar|1315
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Dragapult, L50, F|
+|teampreview|4
+|showteam|p1|Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Protect|||M|||50|,,,,,Dragon]Sneasler||PsychicSeed|Unburden|DireClaw,ThroatChop,CloseCombat,Protect|||F|||50|,,,,,Dark]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Indeedee||FocusSash|PsychicSurge|ExpandingForce,Protect,TrickRoom,HelpingHand|||M|||50|,,,,,Psychic]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Protect,Haze|||M|||50|,,,,,Fairy
+|showteam|p2|Whimsicott||CovertCloak|Prankster|Tailwind,Taunt,BeatUp,Moonblast|||F|||50|,,,,,Water]Annihilape||SafetyGoggles|Defiant|Protect,BulkUp,RageFist,DrainPunch|||F|||50|,,,,,Water]Sneasler||FocusSash|Unburden|Protect,Coaching,CloseCombat,DireClaw|||M|||50|,,,,,Stellar]Archaludon||PowerHerb|Sturdy|Protect,ElectroShot,DragonPulse,FlashCannon|||F|||50|,,,,,Stellar]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,HighHorsepower,WoodHammer|||M|||50|,,,,,Fire]Dragapult||ChoiceBand|ClearBody|Uturn,TeraBlast,DragonDarts,PhantomForce|||F|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Reg H merchant)
+|
+|t:|1755487641
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Dragapult|Dragapult, L50, F|100/100
+|turn|1
+|inactive|Reg H merchant has 30 seconds left.
+|inactive|Reg H merchant has 20 seconds left.
+|inactive|Reg H merchant has 15 seconds left.
+|
+|t:|1755487683
+|-terastallize|p1b: Ursaluna|Normal
+|move|p1a: Electabuzz|Protect|p1a: Electabuzz
+|-singleturn|p1a: Electabuzz|Protect
+|move|p2a: Whimsicott|Taunt|p1a: Electabuzz
+|-activate|p1a: Electabuzz|move: Protect
+|move|p2b: Dragapult|Dragon Darts|p1b: Ursaluna
+|-damage|p1b: Ursaluna|72/100
+|-anim|p2b: Dragapult|Dragon Darts|p1b: Ursaluna
+|-damage|p1b: Ursaluna|41/100
+|move|p1b: Ursaluna|Blood Moon|p2b: Dragapult
+|-damage|p2b: Dragapult|0 fnt
+|faint|p2b: Dragapult
+|-damage|p1b: Ursaluna|32/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1755487697
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|2
+|inactive|Reg H merchant has 30 seconds left.
+|
+|t:|1755487723
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: BackPAC|move: Tailwind
+|move|p2b: Rillaboom|High Horsepower|p1a: Electabuzz
+|-supereffective|p1a: Electabuzz
+|-damage|p1a: Electabuzz|31/100
+|move|p1a: Electabuzz|Electroweb|p2a: Whimsicott|[spread] p2a,p2b
+|-resisted|p2a: Whimsicott
+|-resisted|p2b: Rillaboom
+|-damage|p2a: Whimsicott|93/100
+|-damage|p2b: Rillaboom|96/100
+|-unboost|p2b: Rillaboom|spe|1
+|
+|upkeep
+|turn|3
+|
+|t:|1755487741
+|move|p1a: Electabuzz|Follow Me|p1a: Electabuzz
+|-singleturn|p1a: Electabuzz|move: Follow Me
+|move|p2a: Whimsicott|Moonblast|p1a: Electabuzz
+|-damage|p1a: Electabuzz|6/100
+|move|p2b: Rillaboom|Wood Hammer|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|-damage|p2b: Rillaboom|94/100|[from] Recoil
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|upkeep
+|
+|t:|1755487751
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M, tera:Normal|32/100
+|turn|4
+|
+|t:|1755487764
+|move|p1a: Ursaluna|Blood Moon|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|-damage|p1a: Ursaluna|22/100|[from] item: Life Orb
+|move|p1b: Indeedee|Expanding Force|p2a: Whimsicott
+|-damage|p2a: Whimsicott|11/100
+|move|p2a: Whimsicott|Moonblast|p1b: Indeedee
+|-damage|p1b: Indeedee|61/100
+|-unboost|p1b: Indeedee|spa|1
+|
+|upkeep
+|
+|t:|1755487767
+|switch|p2b: Annihilape|Annihilape, L50, F|100/100
+|turn|5
+|
+|t:|1755487785
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p1b: Indeedee|Expanding Force|p2b: Annihilape|[spread] p2a,p2b
+|-supereffective|p2b: Annihilape
+|-damage|p2a: Whimsicott|0 fnt
+|-damage|p2b: Annihilape|34/100
+|faint|p2a: Whimsicott
+|move|p2b: Annihilape|Drain Punch|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|-heal|p2b: Annihilape|55/100|[from] drain|[of] p1b: Indeedee
+|faint|p1b: Indeedee
+|
+|-sideend|p2: BackPAC|move: Tailwind
+|upkeep
+|
+|t:|1755487792
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|6
+|
+|t:|1755487807
+|move|p2b: Annihilape|Protect|p2b: Annihilape
+|-singleturn|p2b: Annihilape|Protect
+|move|p1a: Ursaluna|Blood Moon|p2b: Annihilape
+|-activate|p2b: Annihilape|move: Protect
+|move|p1b: Sneasler|Throat Chop|p2b: Annihilape
+|-activate|p2b: Annihilape|move: Protect
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|7
+|
+|t:|1755487827
+|move|p2b: Annihilape|Protect||[still]
+|-fail|p2b: Annihilape
+|move|p1a: Ursaluna|Hyper Voice|p2b: Annihilape
+|-damage|p2b: Annihilape|0 fnt
+|faint|p2b: Annihilape
+|-damage|p1a: Ursaluna|13/100|[from] item: Life Orb
+|
+|win|Reg H merchant
+|raw|Reg H merchant's rating: 1242 → 1272(+30 for winning)
+|raw|BackPAC's rating: 1315 → 1291(-24 for losing)
+|l|☆Reg H merchant
+|player|p1|

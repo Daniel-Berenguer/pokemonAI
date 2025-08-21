@@ -1,9 +1,12 @@
 from bs4 import BeautifulSoup
 import requests
-import pickle
 
-with open("pokemon-name-list", "rb") as file:
-    pokemonNames = pickle.load(file)
+pokemonNames = []
+
+with open("data/pokemon.csv", "r") as file:
+    for line in file.read().split("\n"):
+        pokemonNames.append(line)
+
 
 missing_pokemon = []
 pokemon = {}
@@ -31,7 +34,9 @@ for name in pokemonNames:
         TABS = {"Calyrex-Shadow" : 2, "Calyrex-Ice" : 1, "Urshifu-Rapid-Strike" : 1, "Urshifu-Single-Strike" : 0,
                 "Zamazenta-Crowned" : 1, "Zacian-Crowned" : 1, "Ogerpon-Wellspring" : 1, "Ogerpon-Hearthflame" : 2,
                 "Ogerpon-Cornerstone" : 3, "Indeedee-M" : 0, "Indeedee-F" : 1, "Ursaluna-Bloodmoon" : 1, "Necrozma-Dawn-Wings" : 2,
-                "Necrozma-Dusk-Mane" : 1, "Kyurem-White" : 1, "Kyurem-Black" : 2
+                "Necrozma-Dusk-Mane" : 1, "Kyurem-White" : 1, "Kyurem-Black" : 2, "Rotom-Heat" : 1, "Rotom-Wash" : 2, "Rotom-Frost" : 3,
+                "Rotom-Fan" : 4, "Rotom-Mow" : 5, "Tauros-Paldea-Aqua" : 3, "Tauros-Paldea-Blaze" : 2, "Basculegion-M" : 0,
+                "Basculegion-F" : 1, "Oricorio-Pom-Pom" : 1, "Oricorio-Sensu" : 3, "Slowbro-Galar" : 2
                 }
 
         tab_list = soup.find("div", class_="sv-tabs-panel-list")
@@ -80,5 +85,11 @@ print(f"Nº Pokemon: {len(pokemon)}")
 print("Missing: ")
 print(missing_pokemon)
 
-with open("pokemon", "wb") as file:
-    pickle.dump(pokemon, file)
+with open("data/pokemon-stats.csv", 'w') as file:
+    text = ""
+    for poke in pokemon:
+        text += poke
+        for stat in pokemon[poke]:
+            text += "," + stat
+        text += "\n"
+    file.write(text.strip("\n"))

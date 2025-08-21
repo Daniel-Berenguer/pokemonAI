@@ -1,0 +1,169 @@
+|j|☆shminki
+|j|☆BeigeGorilla
+|html|shminkiBeigeGorilla    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755733191
+|gametype|doubles
+|player|p1|shminki|ethan|1237
+|player|p2|BeigeGorilla|170|1297
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,Tailwind,RagePowder|||F|||50|,,,,,Water]Charizard||ChoiceSpecs|SolarPower|DragonPulse,HeatWave,Overheat,WeatherBall|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|ClearSmog,Eruption,Overheat,Protect|||M|||50|,,,,,Fire]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting
+|showteam|p2|Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Protect,Earthquake|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|RagePowder,SunnyDay,Tailwind,SleepPowder|||F|||50|,,,,,Fire]Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,DragonPulse|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Overheat,Eruption,HelpingHand,Protect|||M|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by shminki)
+|inactive|BeigeGorilla has 60 seconds left.
+|
+|t:|1755733240
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Torkoal|atk|1
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|-enditem|p2b: Torkoal|Eject Pack
+|
+|t:|1755733264
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|atk|1
+|turn|1
+|
+|t:|1755733289
+|-terastallize|p1a: Charizard|Ghost
+|move|p1a: Charizard|Weather Ball|p2b: Porygon2
+|-damage|p2b: Porygon2|5/100
+|move|p1b: Incineroar|Knock Off|p2b: Porygon2
+|-damage|p2b: Porygon2|0 fnt
+|-enditem|p2b: Porygon2|Eviolite|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2b: Porygon2
+|move|p2a: Incineroar|Knock Off|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|18/100
+|-enditem|p1a: Charizard|Choice Specs|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|6/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+|
+|t:|1755733309
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|2
+|
+|t:|1755733332
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1a: Charizard|Dragon Pulse|p2a: Torkoal
+|-damage|p2a: Torkoal|50/100
+|move|p1b: Incineroar|Knock Off|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|0 fnt|[from] ability: Solar Power|[of] p1a: Charizard
+|faint|p1a: Charizard
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1755733336
+|switch|p1a: Jumpluff|Jumpluff, L50, F|100/100
+|turn|3
+|inactive|BeigeGorilla has 30 seconds left.
+|inactive|shminki has 30 seconds left.
+|inactive|BeigeGorilla has 20 seconds left.
+|
+|t:|1755733375
+|move|p2a: Torkoal|Helping Hand|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Helping Hand|[of] p2a: Torkoal
+|move|p1a: Jumpluff|Tailwind|p1a: Jumpluff
+|-sidestart|p1: shminki|move: Tailwind
+|move|p1b: Incineroar|Flare Blitz|p2b: Ursaluna
+|-damage|p2b: Ursaluna|62/100 brn
+|-damage|p1b: Incineroar|86/100|[from] Recoil
+|move|p2b: Ursaluna|Facade|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|57/100 brn|[from] brn
+|upkeep
+|
+|t:|1755733381
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|4
+|c|☆BeigeGorilla|crit def mattered last game lol
+|inactive|BeigeGorilla has 30 seconds left.
+|inactive|BeigeGorilla has 20 seconds left.
+|c|☆shminki|ah rip
+|inactive|BeigeGorilla has 15 seconds left.
+|inactive|BeigeGorilla has 10 seconds left.
+|
+|t:|1755733426
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Jumpluff|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|move|p1a: Jumpluff|Rage Powder|p1a: Jumpluff
+|-singleturn|p1a: Jumpluff|move: Rage Powder
+|move|p1b: Ursaluna|Earthquake|p2a: Incineroar|[spread] p2a,p2b
+|-immune|p1a: Jumpluff
+|-supereffective|p2a: Incineroar
+|-crit|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Ursaluna|32/100 brn
+|faint|p2a: Incineroar
+|move|p2b: Ursaluna|Facade|p1a: Jumpluff
+|-damage|p1a: Jumpluff|0 fnt
+|faint|p1a: Jumpluff
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|27/100 brn|[from] brn
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1755733443
+|switch|p2a: Torkoal|Torkoal, L50, M|50/100
+|turn|5
+|c|☆BeigeGorilla|not again
+|c|☆shminki|deja vu
+|inactive|BeigeGorilla has 30 seconds left.
+|
+|t:|1755733471
+|move|p1b: Ursaluna|Earthquake|p2b: Ursaluna|[spread] p2a,p2b
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2a: Torkoal
+|faint|p2b: Ursaluna
+|
+|win|shminki
+|raw|shminki's rating: 1237 → 1266(+29 for winning)
+|raw|BeigeGorilla's rating: 1297 → 1268(-29 for losing)
+|c|☆BeigeGorilla|ggf
+|c|☆shminki|ggs
+|c|☆shminki|fun matches
+|c|☆BeigeGorilla|yeah it was fun

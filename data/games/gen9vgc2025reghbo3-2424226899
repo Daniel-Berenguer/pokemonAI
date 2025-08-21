@@ -1,0 +1,120 @@
+|j|☆fsucia
+|j|☆dominicex
+|html|fsuciadominicex    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755569007
+|gametype|doubles
+|player|p1|fsucia|102|1446
+|player|p2|dominicex|pokemonranger-gen4|1357
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Primarina, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Kilowattrel, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|showteam|p1|Primarina||ThroatSpray|LiquidVoice|Haze,Moonblast,Protect,HyperVoice|||F|||50|,,,,,Steel]Garchomp||LifeOrb|SandVeil|Protect,Earthquake,StompingTantrum,DragonClaw|||F|||50|,,,,,Fire]Gholdengo||MetalCoat|GoodasGold|Protect,NastyPlot,ShadowBall,MakeItRain||||||50|,,,,,Flying]Talonflame||CovertCloak|GaleWings|BraveBird,Tailwind,WillOWisp,Taunt|||M|||50|,,,,,Flying]Tyranitar||AssaultVest|SandStream|KnockOff,TeraBlast,LowKick,RockSlide|||M|||50|,,,,,Flying]Amoonguss||SitrusBerry|Regenerator|RagePowder,Spore,PollenPuff,Protect|||F|||50|,,,,,Water
+|showteam|p2|Kilowattrel||FocusSash|Competitive|Thunderbolt,AirSlash,Tailwind,Protect|||F|||50|,,,,,Fairy]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||F|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Flying]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost
+|
+|t:|1755569021
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Talonflame|Talonflame, L50, M|100/100
+|switch|p1b: Primarina|Primarina, L50, F|100/100
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|atk|1
+|turn|1
+|
+|t:|1755569042
+|move|p2a: Amoonguss|Protect|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|Protect
+|move|p1a: Talonflame|Taunt|p2a: Amoonguss
+|-activate|p2a: Amoonguss|move: Protect
+|move|p1b: Primarina|Hyper Voice|p2b: Porygon2|[spread] p2b
+|-activate|p2a: Amoonguss|move: Protect
+|-damage|p2b: Porygon2|80/100
+|-enditem|p1b: Primarina|Throat Spray
+|-boost|p1b: Primarina|spa|1|[from] item: Throat Spray
+|move|p2b: Porygon2|Trick Room|p2b: Porygon2
+|-fieldstart|move: Trick Room|[of] p2b: Porygon2
+|
+|upkeep
+|turn|2
+|
+|t:|1755569063
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Talonflame|atk|1
+|-unboost|p1b: Primarina|atk|1
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|move|p2a: Amoonguss|Spore|p1b: Primarina
+|-status|p1b: Primarina|slp|[from] move: Spore
+|cant|p1b: Primarina|slp
+|
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fsucia)
+|
+|t:|1755569110
+|switch|p2a: Porygon2|Porygon2, L50|80/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|atk|1
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|-curestatus|p1b: Primarina|slp|[msg]
+|move|p1b: Primarina|Hyper Voice|p2a: Porygon2|[spread] p2a,p2b
+|-supereffective|p2b: Incineroar
+|-damage|p2a: Porygon2|53/100
+|-damage|p2b: Incineroar|10/100
+|move|p2b: Incineroar|Parting Shot|p1b: Primarina
+|-unboost|p1b: Primarina|atk|1
+|-unboost|p1b: Primarina|spa|1
+|
+|t:|1755569120
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100|[from] Parting Shot
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|inactive|dominicex has 30 seconds left.
+|inactive|dominicex has 20 seconds left.
+|
+|t:|1755569158
+|-terastallize|p1b: Primarina|Steel
+|move|p2a: Porygon2|Ice Beam|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|86/100
+|move|p2b: Ursaluna|Facade|p1b: Primarina
+|-resisted|p1b: Primarina
+|-damage|p1b: Primarina|27/100
+|move|p1b: Primarina|Hyper Voice|p2a: Porygon2|[spread] p2a,p2b
+|-supereffective|p2b: Ursaluna
+|-damage|p2a: Porygon2|34/100
+|-damage|p2b: Ursaluna|31/100 brn
+|move|p1a: Gholdengo|Make It Rain|p2b: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Porygon2|1/100
+|-damage|p2b: Ursaluna|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2b: Ursaluna
+|
+|upkeep
+|-message|dominicex forfeited.
+|
+|win|fsucia
+|raw|fsucia's rating: 1446 → 1461(+15 for winning)
+|raw|dominicex's rating: 1357 → 1342(-15 for losing)

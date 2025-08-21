@@ -1,0 +1,209 @@
+|j|☆JoshMcTest
+|j|☆MidoMidori
+|html|JoshMcTestMidoMidori    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755721614
+|gametype|doubles
+|player|p1|JoshMcTest|1|1290
+|player|p2|MidoMidori|roxanne-gen6|1280
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Maushold, L50|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Klefki, L50, F|
+|teampreview|4
+|showteam|p1|Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Psychic]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,FlipTurn,LastRespects,AquaJet|||M|||50|,,,,,Water]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Ground]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|ElectroShot,FlashCannon,DracoMeteor,BodyPress|||F|||50|,,,,,Bug
+|showteam|p2|Annihilape||Leftovers|Defiant|RageFist,DrainPunch,BulkUp,Protect|||M|||50|,,,,,Fire]Maushold||SafetyGoggles|FriendGuard|FollowMe,BeatUp,Taunt,Protect||||||50|,,,,,Ghost]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,ShadowBall,TrickRoom,RagePowder||||||50|,,,,,Fire]Ninetales-Alola||FocusSash|SnowWarning|Encore,Blizzard,FreezeDry,Protect|||M|||50|,,,,,Ice]Garchomp||ClearAmulet|RoughSkin|StompingTantrum,DragonClaw,SwordsDance,Protect|||M|||50|,,,,,Water]Klefki||LightClay|Prankster|Reflect,LightScreen,MistyTerrain,FoulPlay|||F|||50|,,,,,Ghost
+|
+|t:|1755721656
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Garchomp|Garchomp, L50, M|100/100
+|switch|p2b: Maushold|Maushold, L50|100/100
+|turn|1
+|
+|t:|1755721682
+|-terastallize|p2a: Garchomp|Water
+|move|p2b: Maushold|Protect|p2b: Maushold
+|-singleturn|p2b: Maushold|Protect
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|move|p1a: Basculegion|Flip Turn|p2b: Maushold
+|-activate|p2b: Maushold|move: Protect
+|move|p1b: Amoonguss|Spore|p2a: Garchomp
+|-status|p2a: Garchomp|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1755721695
+|move|p1b: Amoonguss|Protect|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|Protect
+|move|p2b: Maushold|Taunt|p1b: Amoonguss
+|-activate|p1b: Amoonguss|move: Protect
+|cant|p2a: Garchomp|slp
+|move|p1a: Basculegion|Flip Turn|p2b: Maushold
+|-damage|p2b: Maushold|42/100
+|
+|t:|1755721702
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|3
+|
+|t:|1755721718
+|move|p2b: Maushold|Protect|p2b: Maushold
+|-singleturn|p2b: Maushold|Protect
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p1a: Gholdengo|Make It Rain|p2a: Garchomp|[spread] p2a
+|-activate|p2b: Maushold|move: Protect
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|77/100 slp
+|-unboost|p1a: Gholdengo|spa|1
+|-damage|p1a: Gholdengo|91/100|[from] item: Life Orb
+|-curestatus|p2a: Garchomp|slp|[msg]
+|move|p2a: Garchomp|Stomping Tantrum|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|
+|upkeep
+|
+|t:|1755721727
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|turn|4
+|
+|t:|1755721737
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2b: Maushold|Protect|p2b: Maushold
+|-singleturn|p2b: Maushold|Protect
+|move|p1b: Basculegion|Flip Turn|p2b: Maushold
+|-activate|p2b: Maushold|move: Protect
+|move|p2a: Garchomp|Dragon Claw|p1b: Basculegion
+|-damage|p1b: Basculegion|7/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1755721747
+|switch|p2b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|move|p2a: Garchomp|Stomping Tantrum|p1b: Basculegion
+|-damage|p1b: Basculegion|0 fnt
+|faint|p1b: Basculegion
+|move|p1a: Pelipper|Hurricane|p2a: Garchomp
+|-damage|p2a: Garchomp|29/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1755721749
+|switch|p1b: Gholdengo|Gholdengo, L50|91/100
+|turn|6
+|
+|t:|1755721765
+|-terastallize|p1b: Gholdengo|Water
+|move|p1a: Pelipper|Protect|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Protect
+|move|p2b: Ninetales|Freeze-Dry|p1a: Pelipper
+|-activate|p1a: Pelipper|move: Protect
+|move|p1b: Gholdengo|Make It Rain|p2a: Garchomp|[spread] p2a,p2b
+|-resisted|p2a: Garchomp
+|-supereffective|p2b: Ninetales
+|-damage|p2a: Garchomp|3/100
+|-enditem|p2b: Ninetales|Focus Sash
+|-damage|p2b: Ninetales|1/100
+|-unboost|p1b: Gholdengo|spa|1
+|-damage|p1b: Gholdengo|82/100|[from] item: Life Orb
+|move|p2a: Garchomp|Dragon Claw|p1a: Pelipper
+|-activate|p1a: Pelipper|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1755721780
+|move|p1a: Pelipper|Protect||[still]
+|-fail|p1a: Pelipper
+|move|p2b: Ninetales|Freeze-Dry|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-enditem|p1a: Pelipper|Focus Sash
+|-damage|p1a: Pelipper|1/100
+|-status|p1a: Pelipper|frz
+|move|p1b: Gholdengo|Make It Rain|p2b: Ninetales|[spread] p2a,p2b
+|-resisted|p2a: Garchomp
+|-supereffective|p2b: Ninetales
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p2b: Ninetales|0 fnt
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2a: Garchomp
+|faint|p2b: Ninetales
+|-damage|p1b: Gholdengo|72/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1755721784
+|switch|p2b: Maushold|Maushold, L50|42/100
+|switch|p2a: Sinistcha|Sinistcha, L50|100/100
+|-heal|p2b: Maushold|67/100|[from] ability: Hospitality|[of] p2a: Sinistcha
+|turn|8
+|
+|t:|1755721796
+|cant|p1a: Pelipper|frz
+|move|p2b: Maushold|Beat Up|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|-hitcount|p1: Pelipper|1
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|move|p2a: Sinistcha|Trick Room|p2a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2a: Sinistcha
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1755721806
+|move|p1b: Gholdengo|Protect|p1b: Gholdengo
+|-singleturn|p1b: Gholdengo|Protect
+|move|p2b: Maushold|Follow Me|p2b: Maushold
+|-singleturn|p2b: Maushold|move: Follow Me
+|move|p2a: Sinistcha|Matcha Gotcha|p1b: Gholdengo
+|-activate|p1b: Gholdengo|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1755721810
+|move|p2b: Maushold|Follow Me|p2b: Maushold
+|-singleturn|p2b: Maushold|move: Follow Me
+|move|p2a: Sinistcha|Matcha Gotcha|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|
+|win|MidoMidori
+|raw|JoshMcTest's rating: 1290 → 1264(-26 for losing)
+|raw|MidoMidori's rating: 1280 → 1306(+26 for winning)
+|l|☆JoshMcTest
+|player|p1|

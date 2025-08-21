@@ -1,0 +1,111 @@
+|j|☆Nacos
+|j|☆Jzvictini
+|html|NacosJzvictini    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1755472096
+|gametype|doubles
+|player|p1|Nacos|170|1367
+|player|p2|Jzvictini|265|1322
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Dragapult, L50, M|
+|poke|p2|Milotic, L50, F|
+|teampreview|4
+|showteam|p1|Pelipper||CovertCloak|Drizzle|Tailwind,Protect,WeatherBall,Hurricane|||F|||50|,,,,,Steel]Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,FlashCannon,BodyPress|||M|||50|,,,,,Grass]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,FlipTurn,AquaJet|||M|||50|,,,,,Water]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,Taunt,PartingShot|||F|||50|,,,,,Water]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,Imprison,Protect|||M|||50|,,,,,Fairy
+|showteam|p2|Gallade||ClearAmulet|Sharpness|WideGuard,SacredSword,PsychoCut,TrickRoom|||M|||50|,,,,,Fire]Indeedee-F||EjectButton|PsychicSurge|FollowMe,HelpingHand,TrickRoom,Psychic|||F|||50|,,,,,Steel]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,ClearSmog|||F|||50|,,,,,Fire]Hatterene||LifeOrb|MagicBounce|TrickRoom,DazzlingGleam,Psychic,ExpandingForce|||F|||50|,,,,,Psychic]Dragapult||ChoiceBand|ClearBody|DragonDarts,Uturn,Outrage,BreakingSwipe|||M|||50|,,,,,Dragon]Milotic||CovertCloak|Competitive|Protect,Haze,Scald,IceBeam|||F|||50|,,,,,Water
+|
+|t:|1755472123
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Dragapult|Dragapult, L50, M|100/100
+|switch|p2b: Gallade|Gallade, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1755472146
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-terastallize|p2a: Dragapult|Dragon
+|move|p1b: Sneasler|Dire Claw|p2a: Dragapult
+|-damage|p2a: Dragapult|41/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Pelipper
+|-damage|p1a: Pelipper|30/100
+|-anim|p2a: Dragapult|Dragon Darts|p1b: Sneasler
+|-damage|p1b: Sneasler|2/100
+|move|p2b: Gallade|Trick Room|p2b: Gallade
+|-fieldstart|move: Trick Room|[of] p2b: Gallade
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1755472167
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Hatterene|Hatterene, L50, F|100/100
+|move|p2b: Gallade|Sacred Sword|p1b: Sneasler
+|-resisted|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1755472171
+|switch|p1b: Pelipper|Pelipper, L50, F|30/100
+|turn|3
+|
+|t:|1755472177
+|-terastallize|p1a: Indeedee|Fairy
+|move|p1b: Pelipper|Protect|p1b: Pelipper
+|-singleturn|p1b: Pelipper|Protect
+|move|p2a: Hatterene|Expanding Force|p1a: Indeedee|[spread] p1a
+|-activate|p1b: Pelipper|move: Protect
+|-enditem|p1a: Indeedee|Focus Sash
+|-damage|p1a: Indeedee|1/100
+|-damage|p2a: Hatterene|91/100|[from] item: Life Orb
+|move|p2b: Gallade|Sacred Sword|p1a: Indeedee
+|-resisted|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1755472185
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|turn|4
+|
+|t:|1755472190
+|move|p2a: Hatterene|Expanding Force|p1a: Basculegion|[spread] p1a,p1b
+|-damage|p1a: Basculegion|6/100
+|-damage|p1b: Pelipper|0 fnt
+|faint|p1b: Pelipper
+|-damage|p2a: Hatterene|81/100|[from] item: Life Orb
+|move|p2b: Gallade|Psycho Cut|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|win|Jzvictini
+|raw|Nacos's rating: 1367 → 1344(-23 for losing)
+|raw|Jzvictini's rating: 1322 → 1345(+23 for winning)
+|l|☆Jzvictini
+|player|p2|

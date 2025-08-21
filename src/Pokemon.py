@@ -16,9 +16,13 @@ class Pokemon:
         self.tera = False
         self.saltCure = False
         self.justProtected = False
-        self.sub = [False, 0]
+        self.sub = False
         self.lostItem = False
         self.fnt = False
+
+
+    def updateBoost(self,stat, change):
+        self.boosts[stat-1] += change
 
 
     def __str__(self):

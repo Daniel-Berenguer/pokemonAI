@@ -1,0 +1,207 @@
+|j|☆A Regu1ar Guy
+|j|☆testy accounty 2
+|html|A Regu1ar Guytesty accounty 2    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755237125
+|gametype|doubles
+|player|p1|A Regu1ar Guy|elesa|1312
+|player|p2|testy accounty 2|169|1245
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Electabuzz, L50, F|
+|poke|p1|Primarina, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Dragapult, L50, M|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Magmar, L50, M|
+|teampreview|4
+|showteam|p1|Volcarona||GrassySeed|FlameBody|HeatWave,GigaDrain,QuiverDance,Protect|||F|||50|,,,,,Grass]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,HighHorsepower|||F|||50|,,,,,Fire]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,FollowMe,Taunt,Protect|||F|||50|,,,,,Ghost]Primarina||ThroatSpray|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||M|||50|,,,,,Poison]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Farigiraf||SitrusBerry|ArmorTail|Psychic,DazzlingGleam,TrickRoom,HelpingHand|||M|||50|,,,,,Fairy
+|showteam|p2|Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,FakeOut,Protect|||M|||50|,,,,,Stellar]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,PhantomForce,Uturn|||M|||50|,,,,,Dragon]Primarina||SitrusBerry|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||M|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||F|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Ghost]Magmar||Eviolite|VitalSpirit|Overheat,WillOWisp,FollowMe,Protect|||M|||50|,,,,,Ghost
+|
+|t:|1755237154
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Volcarona|Volcarona, L50, F, shiny|100/100
+|switch|p1b: Electabuzz|Electabuzz, L50, F|100/100
+|switch|p2a: Dragapult|Dragapult, L50, M|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p1a: Volcarona|Grassy Seed
+|-boost|p1a: Volcarona|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1755237182
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|move|p1b: Electabuzz|Protect|p1b: Electabuzz
+|-singleturn|p1b: Electabuzz|Protect
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p2a: Dragapult|Dragon Darts|p1a: Volcarona
+|-activate|p1b: Electabuzz|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1755237205
+|-terastallize|p2a: Dragapult|Dragon
+|-terastallize|p1b: Electabuzz|Ghost
+|move|p1b: Electabuzz|Follow Me|p1b: Electabuzz
+|-singleturn|p1b: Electabuzz|move: Follow Me
+|move|p2a: Dragapult|Dragon Darts|p1b: Electabuzz
+|-damage|p1b: Electabuzz|59/100
+|-anim|p2a: Dragapult|Dragon Darts|p1b: Electabuzz
+|-damage|p1b: Electabuzz|13/100
+|move|p2b: Sneasler|Dire Claw|p1b: Electabuzz
+|-resisted|p1b: Electabuzz
+|-damage|p1b: Electabuzz|0 fnt
+|faint|p1b: Electabuzz
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|upkeep
+|
+|t:|1755237216
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|turn|3
+|
+|t:|1755237227
+|move|p1b: Rillaboom|Grassy Glide|p2b: Sneasler
+|-resisted|p2b: Sneasler
+|-damage|p2b: Sneasler|68/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Volcarona
+|-damage|p1a: Volcarona|63/100
+|-anim|p2a: Dragapult|Dragon Darts|p1b: Rillaboom
+|-damage|p1b: Rillaboom|54/100
+|move|p1a: Volcarona|Heat Wave|p2b: Sneasler|[spread] p2a,p2b
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|62/100
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|-heal|p2a: Dragapult|68/100|[from] Grassy Terrain
+|-heal|p1a: Volcarona|69/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|60/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1755237242
+|switch|p2b: Primarina|Primarina, L50, M|100/100
+|turn|4
+|
+|t:|1755237258
+|move|p2b: Primarina|Protect|p2b: Primarina
+|-singleturn|p2b: Primarina|Protect
+|move|p2a: Dragapult|Dragon Darts|p1a: Volcarona
+|-damage|p1a: Volcarona|34/100
+|-anim|p2a: Dragapult|Dragon Darts|p1b: Rillaboom
+|-damage|p1b: Rillaboom|17/100
+|move|p1a: Volcarona|Heat Wave|p2b: Primarina|[spread] p2a
+|-activate|p2b: Primarina|move: Protect
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|32/100
+|-status|p2a: Dragapult|brn
+|move|p1b: Rillaboom|Wood Hammer|p2b: Primarina
+|-activate|p2b: Primarina|move: Protect
+|
+|-heal|p2a: Dragapult|39/100 brn|[from] Grassy Terrain
+|-heal|p1a: Volcarona|40/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|23/100|[from] Grassy Terrain
+|-damage|p2a: Dragapult|32/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1755237278
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|move|p2a: Dragapult|Dragon Darts|p1a: Volcarona
+|-damage|p1a: Volcarona|22/100
+|-anim|p2a: Dragapult|Dragon Darts|p1b: Rillaboom
+|-damage|p1b: Rillaboom|2/100
+|move|p1a: Volcarona|Heat Wave|p2b: Rillaboom|[spread] p2b
+|-miss|p1a: Volcarona|p2a: Dragapult
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|20/100
+|move|p1b: Rillaboom|Wood Hammer|p2b: Rillaboom
+|-resisted|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt|[from] Recoil
+|faint|p1b: Rillaboom
+|
+|-heal|p2a: Dragapult|39/100 brn|[from] Grassy Terrain
+|-heal|p1a: Volcarona|29/100|[from] Grassy Terrain
+|-damage|p2a: Dragapult|32/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1755237285
+|switch|p2b: Primarina|Primarina, L50, M|100/100
+|switch|p1b: Primarina|Primarina, L50, M|100/100
+|turn|6
+|
+|t:|1755237298
+|move|p2a: Dragapult|Dragon Darts|p1a: Volcarona
+|-damage|p1a: Volcarona|10/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|move|p1b: Primarina|Moonblast|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|move|p2b: Primarina|Moonblast|p1b: Primarina
+|-damage|p1b: Primarina|63/100
+|
+|upkeep
+|turn|7
+|
+|t:|1755237316
+|move|p2b: Primarina|Protect|p2b: Primarina
+|-singleturn|p2b: Primarina|Protect
+|move|p1b: Primarina|Hyper Voice|p2b: Primarina
+|-activate|p2b: Primarina|move: Protect
+|
+|upkeep
+|turn|8
+|
+|t:|1755237323
+|move|p1b: Primarina|Hyper Voice|p2b: Primarina
+|-resisted|p2b: Primarina
+|-damage|p2b: Primarina|81/100
+|-enditem|p1b: Primarina|Throat Spray
+|-boost|p1b: Primarina|spa|1|[from] item: Throat Spray
+|move|p2b: Primarina|Moonblast|p1b: Primarina
+|-damage|p1b: Primarina|25/100
+|
+|upkeep
+|turn|9
+|
+|t:|1755237332
+|move|p1b: Primarina|Moonblast|p2b: Primarina
+|-damage|p2b: Primarina|19/100
+|-enditem|p2b: Primarina|Sitrus Berry|[eat]
+|-heal|p2b: Primarina|44/100|[from] item: Sitrus Berry
+|move|p2b: Primarina|Moonblast|p1b: Primarina
+|-damage|p1b: Primarina|0 fnt
+|faint|p1b: Primarina
+|
+|win|testy accounty 2
+|raw|A Regu1ar Guy's rating: 1312 → 1288(-24 for losing)
+|raw|testy accounty 2's rating: 1245 → 1275(+30 for winning)
+|l|☆A Regu1ar Guy
+|player|p1|
+|l|☆testy accounty 2
+|player|p2|
+|j|☆testy accounty 2
+|player|p2|testy accounty 2|169|

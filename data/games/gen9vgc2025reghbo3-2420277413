@@ -1,0 +1,200 @@
+|j|☆A_TerroneVGC
+|j|☆beckybug
+|html|A_TerroneVGCbeckybug    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1755017722
+|gametype|doubles
+|player|p1|A_TerroneVGC|102|1369
+|player|p2|beckybug|briar|1295
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Gallade, L50, M|
+|teampreview|4
+|showteam|p1|Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,FlipTurn,AquaJet|||M|||50|,,,,,Grass]Archaludon||AssaultVest|Stamina|FlashCannon,DracoMeteor,ElectroShot,BodyPress|||M|||50|,,,,,Fairy]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark]Rillaboom||LoadedDice|GrassySurge|BulletSeed,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Ghost]Electabuzz||Eviolite|VitalSpirit|Electroweb,Taunt,FollowMe,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Indeedee-F||SafetyGoggles|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Fairy]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Armarouge||LifeOrb|FlashFire|ExpandingForce,ArmorCannon,TrickRoom,Protect|||F|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,EarthPower,Protect|||F|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|CloseCombat,SolarBlade,IceSpinner,AfterYou|||F|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Steel
+|
+|t:|1755017755
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1755017780
+|move|p1a: Electabuzz|Follow Me|p1a: Electabuzz
+|-singleturn|p1a: Electabuzz|move: Follow Me
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Sneasler|Throat Chop|p1a: Electabuzz
+|-damage|p1a: Electabuzz|79/100
+|-start|p1a: Electabuzz|Throat Chop|[silent]
+|move|p1b: Basculegion|Flip Turn|p2a: Indeedee
+|-damage|p2a: Indeedee|58/100
+|
+|t:|1755017788
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100|[from] Flip Turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|
+|-heal|p1a: Electabuzz|85/100|[from] Grassy Terrain
+|-heal|p2a: Indeedee|64/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1755017818
+|switch|p2a: Armarouge|Armarouge, L50, F|100/100
+|move|p1b: Rillaboom|Fake Out|p2b: Sneasler
+|-damage|p2b: Sneasler|77/100
+|cant|p2b: Sneasler|flinch
+|move|p1a: Electabuzz|Taunt|p2a: Armarouge
+|-start|p2a: Armarouge|move: Taunt
+|
+|-heal|p2b: Sneasler|83/100|[from] Grassy Terrain
+|-heal|p1a: Electabuzz|91/100|[from] Grassy Terrain
+|-end|p1a: Electabuzz|Throat Chop|[silent]
+|upkeep
+|turn|3
+|
+|t:|1755017850
+|-terastallize|p1b: Rillaboom|Fire
+|-terastallize|p2a: Armarouge|Grass
+|move|p2b: Sneasler|Dire Claw|p1b: Rillaboom
+|-damage|p1b: Rillaboom|58/100
+|-status|p1b: Rillaboom|par
+|move|p1a: Electabuzz|Electroweb|p2a: Armarouge|[spread] p2a,p2b
+|-resisted|p2a: Armarouge
+|-damage|p2a: Armarouge|93/100
+|-damage|p2b: Sneasler|71/100
+|-unboost|p2a: Armarouge|spe|1
+|-unboost|p2b: Sneasler|spe|1
+|move|p2a: Armarouge|Expanding Force|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|-damage|p2a: Armarouge|84/100|[from] item: Life Orb
+|
+|-heal|p2b: Sneasler|77/100|[from] Grassy Terrain
+|-heal|p1a: Electabuzz|97/100|[from] Grassy Terrain
+|-heal|p2a: Armarouge|89/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1755017872
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|turn|4
+|
+|t:|1755017896
+|switch|p2b: Indeedee|Indeedee-F, L50, F|64/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|move|p1a: Electabuzz|Follow Me|p1a: Electabuzz
+|-singleturn|p1a: Electabuzz|move: Follow Me
+|move|p1b: Basculegion|Last Respects|p2a: Armarouge
+|-damage|p2a: Armarouge|18/100
+|move|p2a: Armarouge|Expanding Force|p1b: Basculegion|[spread] p1a,p1b
+|-damage|p1a: Electabuzz|36/100
+|-damage|p1b: Basculegion|0 fnt
+|faint|p1b: Basculegion
+|-damage|p2a: Armarouge|8/100|[from] item: Life Orb
+|
+|-end|p2a: Armarouge|move: Taunt
+|upkeep
+|
+|t:|1755017907
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|turn|5
+|
+|t:|1755017923
+|move|p2a: Armarouge|Protect|p2a: Armarouge
+|-singleturn|p2a: Armarouge|Protect
+|move|p1a: Electabuzz|Electroweb|p2a: Armarouge|[spread] p2b
+|-activate|p2a: Armarouge|move: Protect
+|-damage|p2b: Indeedee|51/100
+|-unboost|p2b: Indeedee|spe|1
+|move|p1b: Pelipper|Weather Ball|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1755017934
+|switch|p2b: Sneasler|Sneasler, L50, F|77/100
+|turn|6
+|
+|t:|1755017946
+|move|p2b: Sneasler|Close Combat|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1a: Electabuzz
+|move|p1b: Pelipper|Hurricane|p2b: Sneasler
+|-supereffective|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|move|p2a: Armarouge|Trick Room|p2a: Armarouge
+|-fieldstart|move: Trick Room|[of] p2a: Armarouge
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1755017949
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|turn|7
+|
+|t:|1755017963
+|move|p1b: Pelipper|Protect|p1b: Pelipper
+|-singleturn|p1b: Pelipper|Protect
+|move|p2a: Armarouge|Expanding Force|p1b: Pelipper
+|-activate|p1b: Pelipper|move: Protect
+|move|p2b: Gallade|Psycho Cut|p1b: Pelipper
+|-activate|p1b: Pelipper|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1755017972
+|move|p1b: Pelipper|Protect|p1b: Pelipper
+|-singleturn|p1b: Pelipper|Protect
+|move|p2a: Armarouge|Expanding Force|p1b: Pelipper
+|-activate|p1b: Pelipper|move: Protect
+|move|p2b: Gallade|Psycho Cut|p1b: Pelipper
+|-activate|p1b: Pelipper|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|9
+|
+|t:|1755017982
+|move|p2a: Armarouge|Expanding Force|p1b: Pelipper
+|-enditem|p1b: Pelipper|Focus Sash
+|-damage|p1b: Pelipper|1/100
+|-damage|p2a: Armarouge|0 fnt|[from] item: Life Orb
+|faint|p2a: Armarouge
+|move|p2b: Gallade|Psycho Cut|p1b: Pelipper
+|-damage|p1b: Pelipper|0 fnt
+|faint|p1b: Pelipper
+|
+|win|beckybug
+|raw|A_TerroneVGC's rating: 1369 → 1345(-24 for losing)
+|raw|beckybug's rating: 1295 → 1325(+30 for winning)

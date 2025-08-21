@@ -1,0 +1,230 @@
+|j|☆huntr/x rumi
+|j|☆dominicex
+|html|huntr/x rumidominicex    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755572116
+|gametype|doubles
+|player|p1|huntr/x rumi|flannery|1314
+|player|p2|dominicex|pokemonranger-gen4|1381
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Kilowattrel, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Kilowattrel||FocusSash|Competitive|Thunderbolt,AirSlash,Tailwind,Protect|||M|||50|,,,,,Fairy]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||F|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Flying]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost
+|
+|t:|1755572137
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p1b: Porygon2|Porygon2, L50|100/100
+|switch|p2a: Kilowattrel|Kilowattrel, L50, M|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|spa|1
+|turn|1
+|
+|t:|1755572162
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|move|p2a: Kilowattrel|Air Slash|p1a: Ursaluna|[miss]
+|-miss|p2a: Kilowattrel|p1a: Ursaluna
+|move|p1b: Porygon2|Ice Beam|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|28/100
+|-enditem|p2b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2b: Amoonguss|53/100|[from] item: Sitrus Berry
+|move|p2b: Amoonguss|Spore|p1b: Porygon2
+|-status|p1b: Porygon2|slp|[from] move: Spore
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1755572186
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1b: Porygon2|atk|1
+|move|p2a: Kilowattrel|Air Slash|p1a: Ursaluna
+|-damage|p1a: Ursaluna|66/100 brn
+|move|p1a: Ursaluna|Facade|p2b: Incineroar
+|-damage|p2b: Incineroar|17/100
+|cant|p1b: Porygon2|slp
+|
+|-damage|p1a: Ursaluna|61/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1755572203
+|move|p2a: Kilowattrel|Air Slash|p1a: Ursaluna
+|-damage|p1a: Ursaluna|29/100 brn
+|move|p2b: Incineroar|Parting Shot|p1b: Porygon2
+|-unboost|p1b: Porygon2|atk|1
+|-unboost|p1b: Porygon2|spa|1
+|
+|t:|1755572208
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100|[from] Parting Shot
+|move|p1a: Ursaluna|Facade|p2a: Kilowattrel
+|-enditem|p2a: Kilowattrel|Focus Sash
+|-damage|p2a: Kilowattrel|1/100
+|-curestatus|p1b: Porygon2|slp|[msg]
+|move|p1b: Porygon2|Trick Room|p1b: Porygon2
+|-fieldstart|move: Trick Room|[of] p1b: Porygon2
+|
+|-damage|p1a: Ursaluna|23/100 brn|[from] brn
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1755572231
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1b: Porygon2|Ice Beam|p2a: Kilowattrel
+|-supereffective|p2a: Kilowattrel
+|-damage|p2a: Kilowattrel|0 fnt
+|faint|p2a: Kilowattrel
+|move|p1a: Ursaluna|Headlong Rush|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|
+|-damage|p1a: Ursaluna|18/100 brn|[from] brn
+|-damage|p2b: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1755572239
+|switch|p2a: Amoonguss|Amoonguss, L50, F|86/100
+|turn|5
+|
+|t:|1755572253
+|switch|p1b: Jumpluff|Jumpluff, L50, M|100/100
+|move|p2a: Amoonguss|Spore|p1b: Jumpluff
+|-immune|p1b: Jumpluff
+|move|p1a: Ursaluna|Earthquake|p2a: Amoonguss|[spread] p2a,p2b
+|-immune|p1b: Jumpluff
+|-damage|p2a: Amoonguss|48/100
+|-damage|p2b: Ursaluna|57/100 brn
+|move|p2b: Ursaluna|Facade|p1b: Jumpluff
+|-damage|p1b: Jumpluff|0 fnt
+|faint|p1b: Jumpluff
+|
+|-damage|p1a: Ursaluna|12/100 brn|[from] brn
+|-damage|p2b: Ursaluna|50/100 brn|[from] brn
+|upkeep
+|
+|t:|1755572262
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|6
+|
+|t:|1755572281
+|move|p2a: Amoonguss|Protect|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|Protect
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1b: Torkoal|Eruption|p2a: Amoonguss|[spread] 
+|-activate|p2a: Amoonguss|move: Protect
+|-activate|p2b: Ursaluna|move: Protect
+|move|p1a: Ursaluna|Facade|p2a: Amoonguss
+|-activate|p2a: Amoonguss|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|6/100 brn|[from] brn
+|-damage|p2b: Ursaluna|44/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1755572292
+|switch|p1a: Porygon2|Porygon2, L50|100/100
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|switch|p2b: Incineroar|Incineroar, L50, F|17/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Porygon2|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|-enditem|p1b: Torkoal|Eject Pack
+|
+|t:|1755572300
+|switch|p1b: Ursaluna|Ursaluna, L50, M|6/100 brn
+|move|p2a: Amoonguss|Pollen Puff|p1a: Porygon2
+|-damage|p1a: Porygon2|89/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Ursaluna|0 fnt|[from] brn
+|faint|p1b: Ursaluna
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1755572302
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|turn|8
+|
+|t:|1755572318
+|-terastallize|p2a: Amoonguss|Water
+|move|p2b: Incineroar|Fake Out|p1a: Porygon2
+|-damage|p1a: Porygon2|81/100
+|cant|p1a: Porygon2|flinch
+|move|p2a: Amoonguss|Pollen Puff|p2b: Incineroar
+|-heal|p2b: Incineroar|67/100
+|move|p1b: Torkoal|Eruption|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Amoonguss
+|-resisted|p2b: Incineroar
+|-damage|p2a: Amoonguss|18/100
+|-damage|p2b: Incineroar|30/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1755572342
+|move|p1b: Torkoal|Protect|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Protect
+|move|p2b: Incineroar|Knock Off|p1a: Porygon2
+|-damage|p1a: Porygon2|50/100
+|-enditem|p1a: Porygon2|Eviolite|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1a: Porygon2|Tera Blast|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1755572350
+|switch|p2a: Ursaluna|Ursaluna, L50, M|44/100 brn
+|turn|10
+|
+|t:|1755572370
+|-terastallize|p1a: Porygon2|Fighting
+|move|p2b: Incineroar|Flare Blitz|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|-damage|p2b: Incineroar|15/100|[from] Recoil
+|move|p2a: Ursaluna|Headlong Rush|p1b: Torkoal
+|-supereffective|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1b: Torkoal
+|
+|win|dominicex
+|raw|huntr/x rumi's rating: 1314 → 1298(-16 for losing)
+|raw|dominicex's rating: 1381 → 1397(+16 for winning)
+|c|☆huntr/x rumi|got me again
+|c|☆huntr/x rumi|ggs!
+|c|☆dominicex|ggs!
+|l|☆dominicex
+|player|p2|

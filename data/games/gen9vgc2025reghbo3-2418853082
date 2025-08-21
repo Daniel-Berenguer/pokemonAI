@@ -1,0 +1,173 @@
+|j|☆ronansting
+|j|☆sebtct
+|html|ronanstingsebtct    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1754821713
+|gametype|doubles
+|player|p1|ronansting|baker|1308
+|player|p2|sebtct|170|1287
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Hydreigon, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Hawlucha, L50, F|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Hydreigon, L50, F|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,BodyPress,FlashCannon|||F|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Ghost]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,DazzlingGleam|||M|||50|,,,,,Ground]Amoonguss||SitrusBerry|Regenerator|Spore,SludgeBomb,Protect,RagePowder|||F|||50|,,,,,Water]Basculegion||ChoiceBand|SwiftSwim|FlipTurn,WaveCrash,LastRespects,AquaJet|||M|||50|,,,,,Poison]Hydreigon||CovertCloak|Levitate|Taunt,Snarl,DracoMeteor,EarthPower|||M|||50|,,,,,Fairy
+|showteam|p2|Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,Imprison,TeraBlast|||M|||50|,,,,,Ground]Hawlucha||PsychicSeed|Unburden|CloseCombat,Acrobatics,RockTomb,Protect|||F|||50|,,,,,Flying]Annihilape||ChoiceScarf|Defiant|FinalGambit,CloseCombat,RageFist,Uturn|||F|||50|,,,,,Grass]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,ClearSmog|||M|||50|,,,,,Water]Ninetales-Alola||NeverMeltIce|SnowWarning|Blizzard,FreezeDry,Encore,Protect|||F|||50|,,,,,Ice]Hydreigon||AssaultVest|Levitate|DarkPulse,DracoMeteor,EarthPower,FlashCannon|||F|||50|,,,,,Ghost
+|
+|t:|1754821739
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Empire|Basculegion, L50, M|100/100
+|switch|p1b: Schmooner|Amoonguss, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Hawlucha|Hawlucha, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Hawlucha|Psychic Seed
+|-boost|p2b: Hawlucha|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1754821759
+|-terastallize|p1b: Schmooner|Water
+|move|p2b: Hawlucha|Protect|p2b: Hawlucha
+|-singleturn|p2b: Hawlucha|Protect
+|move|p2a: Indeedee|Expanding Force|p1b: Schmooner|[spread] p1a,p1b
+|-damage|p1a: Empire|39/100
+|-damage|p1b: Schmooner|57/100
+|move|p1a: Empire|Flip Turn|p2a: Indeedee
+|-damage|p2a: Indeedee|18/100
+|
+|t:|1754821768
+|switch|p1a: Arching|Archaludon, L50, F|100/100|[from] Flip Turn
+|move|p1b: Schmooner|Sludge Bomb|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1754821775
+|switch|p2a: Annihilape|Annihilape, L50, F|100/100
+|turn|2
+|
+|t:|1754821814
+|switch|p1a: Empire|Basculegion, L50, M|39/100
+|move|p2b: Hawlucha|Acrobatics|p1b: Schmooner
+|-damage|p1b: Schmooner|11/100
+|-enditem|p1b: Schmooner|Sitrus Berry|[eat]
+|-heal|p1b: Schmooner|36/100|[from] item: Sitrus Berry
+|move|p2a: Annihilape|Final Gambit|p1a: Empire
+|-immune|p1a: Empire
+|move|p1b: Schmooner|Spore|p2b: Hawlucha
+|-status|p2b: Hawlucha|slp|[from] move: Spore
+|
+|upkeep
+|turn|3
+|
+|t:|1754821831
+|switch|p2a: Hydreigon|Hydreigon, L50, F|100/100
+|switch|p1b: Smellypper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Smellypper
+|cant|p2b: Hawlucha|slp
+|move|p1a: Empire|Wave Crash|p2b: Hawlucha
+|-damage|p2b: Hawlucha|0 fnt
+|faint|p2b: Hawlucha
+|-damage|p1a: Empire|13/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1754821842
+|switch|p2b: Annihilape|Annihilape, L50, F|100/100
+|turn|4
+|
+|t:|1754821855
+|switch|p1a: Schmooner|Amoonguss, L50, F, tera:Water|69/100
+|move|p2b: Annihilape|Rage Fist|p1a: Schmooner
+|-damage|p1a: Schmooner|53/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Schmooner
+|-damage|p1a: Schmooner|17/100
+|move|p1b: Smellypper|Hurricane|p2b: Annihilape
+|-supereffective|p2b: Annihilape
+|-damage|p2b: Annihilape|6/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1754821873
+|move|p1a: Schmooner|Rage Powder|p1a: Schmooner
+|-singleturn|p1a: Schmooner|move: Rage Powder
+|move|p2b: Annihilape|Rage Fist|p1a: Schmooner
+|-damage|p1a: Schmooner|0 fnt
+|faint|p1a: Schmooner
+|move|p2a: Hydreigon|Dark Pulse|p1b: Smellypper
+|-damage|p1b: Smellypper|30/100
+|move|p1b: Smellypper|Weather Ball|p2b: Annihilape
+|-damage|p2b: Annihilape|0 fnt
+|faint|p2b: Annihilape
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1754821878
+|switch|p1a: Arching|Archaludon, L50, F|100/100
+|turn|6
+|c|☆ronansting|gg
+|c|☆sebtct|i hate you
+|c|☆ronansting|why?
+|c|☆sebtct|for beating me
+|c|☆sebtct|and taking advantage of me
+|c|☆ronansting|ah yes
+|c|☆ronansting|taking advantage
+|c|☆ronansting|how exactly
+|
+|t:|1754821932
+|move|p2a: Hydreigon|Earth Power|p1a: Arching
+|-supereffective|p1a: Arching
+|-damage|p1a: Arching|63/100
+|-ability|p1a: Arching|Stamina|boost
+|-boost|p1a: Arching|def|1
+|move|p1b: Smellypper|Hurricane|p2a: Hydreigon
+|-crit|p2a: Hydreigon
+|-damage|p2a: Hydreigon|47/100
+|move|p1a: Arching|Draco Meteor|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-unboost|p1a: Arching|spa|2
+|faint|p2a: Hydreigon
+|
+|win|ronansting
+|raw|ronansting's rating: 1308 → 1327(+19 for winning)
+|raw|sebtct's rating: 1287 → 1264(-23 for losing)
+|c|☆sebtct|auto losing to amoonguss
+|c|☆ronansting|i meannnnn
+|c|☆ronansting|that's kinda on you
+|c|☆ronansting|not on me
+|c|☆ronansting|also how tf do you auto loose to amoonguss
+|c|☆sebtct|dude im not being serious
+|c|☆ronansting|i know
+|c|☆sebtct|i played bad also
+|c|☆ronansting|eh it's fine
+|c|☆sebtct|let my goat hawlucha cook
+|c|☆ronansting|i have a fairly solid gameplan vs sneasler deedee
+|c|☆ronansting|hawlucha is just bad sadly
+|c|☆ronansting|it's bad sneasler
+|c|☆sebtct|i peaked 1326 with it then lost twice
+|c|☆ronansting|i peaked 1415 with this
+|c|☆ronansting|then i lost like 5 billion times
+|c|☆ronansting|and now i am going back up

@@ -1,68 +1,90 @@
 from Board import Board
 
-with open("data/games/game", encoding="utf-8") as file:
-    text = file.read()
 
-lines = text.split("\n")
+def processGame(filename):
+    with open(f"data/games/{filename}", encoding="utf-8") as file:
+        text = file.read()
 
-# i -> Line index
+    lines = text.split("\n")
 
-board = Board()
+    # i -> Line index
 
-# First we get the winner
-p1 = None
-p2 = None
-for line in lines:
-    if line.startswith("|player|p1|"):
-        p1 = line.split("|")[2]
-    elif line.startswith("|player|p2|"):
-        p2 = line.split("|")
-    elif line.startswith("|win|"):
-        winnerName = line.split("|")[1]
-        if winnerName == p1:
-            board.winner = 0
-        else:
-            board.winner = 1
+    board = Board()
+
+    # First we get the winner
+    p1 = None
+    p2 = None
+    for line in lines:
+        if line.startswith("|player|p1|"):
+            p1 = line.split("|")[2]
+        elif line.startswith("|player|p2|"):
+            p2 = line.split("|")
+        elif line.startswith("|win|"):
+            winnerName = line.split("|")[1]
+            if winnerName == p1:
+                board.winner = 0
+            else:
+                board.winner = 1
 
 
-for line in lines:
-    if line.startswith("|showteam|"):
-        board.loadPokemon(line)
+    for line in lines:
+        if line.startswith("|showteam|"):
+            board.loadPokemon(line)
 
-    if line.startswith("|switch|"):
-        board.switch(line.strip("|switch|"))
+        if line.startswith("|switch|"):
+            board.switch(line[len("|switch|"):])
 
-    if line.startswith("|-fieldstart|"):
-        board.startField(line.strip("|-fieldstart|"))
+        if line.startswith("|-fieldstart|"):
+            board.startField(line[len("|-fieldstart|"):])
 
-    if line.startswith("|-sidestart|"):
-        board.startSide(line.strip("|-sidestart|"))
+        if line.startswith("|-sidestart|"):
+            board.updateSide(line[len("|-sidestart|"):], True)
 
-    if line.startswith("|-weather|"):
-        board.startWeather(line.strip("|-weather|"))
+        if line.startswith("|-sideend|"):
+            board.updateSide(line[len("|-sideend|"):], False)
 
-    if line.startswith("|-boost|"):
-        board.boost(line.strip("|-boost|"))
+        if line.startswith("|-weather|"):
+            board.startWeather(line[len("|-weather|"):])
 
-    if line.startswith("|-unboost|"):
-        board.boost(line.strip("|-unboost|"))
+        if line.startswith("|-boost|"):
+            board.boost(line[len("|-boost|"):])
 
-    if line.startswith("|-damage|"):
-        board.updateHP(line.strip("|-damage|"))
+        if line.startswith("|-unboost|"):
+            board.boost(line[len("|-unboost|"):])
 
-    if line.startswith("|-heal|"):
-        board.updateHP(line.strip("|-heal|"))
+        if line.startswith("|-damage|"):
+            board.updateHP(line[len("|-damage|"):])
 
-    if line.startswith("|-enditem|"):
-        board.endItem(line.strip("|-enditem|"))
+        if line.startswith("|-heal|"):
+            board.updateHP(line[len("|-heal|"):])
 
-    if line.startswith("|-fieldend|"):
-        board.endItem(line.strip("|-fieldend|"))
+        if line.startswith("|-enditem|"):
+            board.endItem(line[len("|-enditem|"):])
 
-    if line.startswith("|-singleturn|") and "Protect" in line:
-        board.protected(line.strip("|-singleturn|"))
+        if line.startswith("|-fieldend|"):
+            board.endItem(line[len("|-fieldend|"):])
 
-for i, pokemons in enumerate(board.pokemon):
-    print(f"Player: {i}")
-    for poke in pokemons:
-        print(poke)
+        if line.startswith("|-singleturn|") and "Protect" in line:
+            board.protected(line[len("|-singleturn|"):])
+
+        if line.startswith("-terastallize"):
+            board.tera(line[len("-terastallize"):])
+
+        if line.startswith("|-start|") and "Substitute" in line:
+            board.startSub(line[len("|-singleturn|"):])
+
+        if line.startswith("|-end|") and "Substitute" in line:
+            board.endSub(line[len("|-singleturn|"):])
+
+        if line.startswith("|turn|"):
+            board.nextTurn()
+
+import os
+i = 1
+for filename in os.listdir("data/games")[:80]:
+    print(i)
+    i += 1
+    try:
+        processGame(filename)
+    except Exception as e:
+        print(e)

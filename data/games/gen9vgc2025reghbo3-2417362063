@@ -1,0 +1,148 @@
+|j|☆Slackermaru
+|j|☆guyq
+|html|Slackermaruguyq    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1754602842
+|gametype|doubles
+|player|p1|Slackermaru|workerice|1344
+|player|p2|guyq|briar|1310
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Porygon2, L50|
+|poke|p1|Hydreigon, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Gallade, L50, M|
+|teampreview|4
+|showteam|p1|Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Hydreigon||SafetyGoggles|Levitate|Snarl,DracoMeteor,Tailwind,Protect|||F|||50|,,,,,Ghost]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Grass]Garchomp||LoadedDice|RoughSkin|ScaleShot,Earthquake,StompingTantrum,Protect|||M|||50|,,,,,Fire]Amoonguss||CovertCloak|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Fire]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Flying
+|showteam|p2|Indeedee-F||SafetyGoggles|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Fairy]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Armarouge||LifeOrb|FlashFire|ExpandingForce,ArmorCannon,TrickRoom,Protect|||F|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,EarthPower,Protect|||F|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|CloseCombat,SolarBlade,IceSpinner,AfterYou|||F|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Steel
+|
+|t:|1754602882
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Garchomp|Garchomp, L50, M, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-fail|p2b: Gallade|unboost|[from] item: Clear Amulet|[of] p2b: Gallade
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1754602909
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|move|p1b: Incineroar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|25/100
+|-enditem|p2a: Indeedee|Safety Goggles|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2b: Gallade|Sacred Sword|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|
+|t:|1754602919
+|switch|p1b: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|turn|2
+|
+|t:|1754602929
+|-terastallize|p1b: Amoonguss|Fire
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Amoonguss|Spore|p2a: Indeedee
+|-status|p2a: Indeedee|slp|[from] move: Spore
+|move|p2b: Gallade|Psycho Cut|p1b: Amoonguss
+|-damage|p1b: Amoonguss|31/100
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|upkeep
+|turn|3
+|
+|t:|1754602949
+|cant|p2a: Indeedee|slp
+|move|p1b: Amoonguss|Spore|p2b: Gallade
+|-status|p2b: Gallade|slp|[from] move: Spore
+|cant|p2b: Gallade|slp
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|upkeep
+|turn|4
+|
+|t:|1754602959
+|move|p1b: Amoonguss|Pollen Puff|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-curestatus|p2b: Gallade|slp|[msg]
+|move|p2b: Gallade|Psycho Cut|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|63/100
+|move|p1a: Gholdengo|Shadow Ball|p2b: Gallade
+|-supereffective|p2b: Gallade
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|
+|upkeep
+|
+|t:|1754602970
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|switch|p2a: Armarouge|Armarouge, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|5
+|
+|t:|1754602987
+|move|p1b: Amoonguss|Protect|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|Protect
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2b: Torkoal|Eruption|p1a: Gholdengo|[spread] 
+|-activate|p1a: Gholdengo|move: Protect
+|-activate|p1b: Amoonguss|move: Protect
+|move|p2a: Armarouge|Expanding Force|p1b: Amoonguss|[spread] 
+|-activate|p1a: Gholdengo|move: Protect
+|-activate|p1b: Amoonguss|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1754603002
+|-terastallize|p2a: Armarouge|Grass
+|move|p2b: Torkoal|Protect|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Protect
+|move|p1a: Gholdengo|Shadow Ball|p2a: Armarouge
+|-damage|p2a: Armarouge|0 fnt
+|faint|p2a: Armarouge
+|move|p1b: Amoonguss|Spore|p2b: Torkoal
+|-activate|p2b: Torkoal|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|-message|guyq forfeited.
+|
+|win|Slackermaru
+|raw|Slackermaru's rating: 1344 → 1362(+18 for winning)
+|raw|guyq's rating: 1310 → 1292(-18 for losing)
+|l|☆guyq
+|player|p2|

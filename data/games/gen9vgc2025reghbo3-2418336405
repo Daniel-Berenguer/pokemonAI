@@ -1,0 +1,138 @@
+|j|☆WestyLiam
+|j|☆nontelo
+|html|WestyLiamnontelo    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1754746662
+|gametype|doubles
+|player|p1|WestyLiam|1|1387
+|player|p2|nontelo|cress|1331
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Magmar, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Delphox, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Ninetales-Alola||LifeOrb|SnowWarning|Blizzard,FreezeDry,Encore,Protect|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|WoodHammer,FakeOut,Uturn,GrassyGlide|||F|||50|,,,,,Ghost]Magmar||Eviolite|VitalSpirit|Protect,HeatWave,WillOWisp,FollowMe|||F|||50|,,,,,Ghost]Sneasler||FocusSash|PoisonTouch|FakeOut,DireClaw,CloseCombat,Protect|||M|||50|,,,,,Ghost]Kingambit||BlackGlasses|Defiant|KowtowCleave,SwordsDance,SuckerPunch,Protect|||F|||50|,,,,,Fire]Basculegion||ChoiceScarf|Adaptability|WaveCrash,FlipTurn,TeraBlast,LastRespects|||M|||50|,,,,,Fighting
+|showteam|p2|Ursaluna||FlameOrb|Guts|Earthquake,HeadlongRush,Facade,Protect|||F|||50|,,,,,Ghost]Delphox||LifeOrb|Blaze|HeatWave,ExpandingForce,TeraBlast,Protect|||F|||50|,,,,,Fighting]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,SacredSword,WideGuard|||M|||50|,,,,,Steel]Lilligant-Hisui||FocusSash|Chlorophyll|LeafBlade,SleepPowder,CloseCombat,AfterYou|||F|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,TrickRoom,FollowMe,HelpingHand|||F|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,ClearSmog,WeatherBall,Protect|||M|||50|,,,,,Fire
+|
+|t:|1754746684
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kingambit|Kingambit, L50, F|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Gallade|Gallade, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nontelo)
+|
+|t:|1754746689
+|-terastallize|p1a: Kingambit|Fire
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Sneasler|Close Combat|p2b: Indeedee
+|-damage|p2b: Indeedee|45/100
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|-status|p2b: Indeedee|psn|[from] ability: Poison Touch|[of] p1b: Sneasler
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p2a: Gallade|Trick Room|p2a: Gallade
+|-fieldstart|move: Trick Room|[of] p2a: Gallade
+|
+|upkeep
+|
+|t:|1754746705
+|switch|p2b: Ursaluna|Ursaluna, L50, F, shiny|100/100
+|turn|2
+|
+|t:|1754746719
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2b: Ursaluna|Headlong Rush|p1a: Kingambit
+|-activate|p1a: Kingambit|move: Protect
+|move|p1b: Sneasler|Close Combat|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|faint|p2b: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1754746726
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|turn|3
+|
+|t:|1754746738
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-terastallize|p2a: Torkoal|Fire
+|move|p1b: Sneasler|Protect|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Protect
+|move|p2a: Torkoal|Eruption|p1a: Rillaboom|[spread] p1a
+|-activate|p1b: Sneasler|move: Protect
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|move|p2b: Gallade|Sacred Sword|p1b: Sneasler
+|-activate|p1b: Sneasler|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1754746752
+|switch|p1a: Kingambit|Kingambit, L50, F, tera:Fire|100/100
+|turn|4
+|inactive|nontelo has 30 seconds left.
+|
+|t:|1754746779
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2a: Torkoal|Eruption|p1b: Sneasler|[spread] p1b
+|-activate|p1a: Kingambit|move: Protect
+|-enditem|p1b: Sneasler|Focus Sash
+|-damage|p1b: Sneasler|1/100
+|move|p2b: Gallade|Sacred Sword|p1a: Kingambit
+|-activate|p1a: Kingambit|move: Protect
+|move|p1b: Sneasler|Dire Claw|p2a: Torkoal
+|-damage|p2a: Torkoal|66/100
+|-status|p2a: Torkoal|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Torkoal|72/100 par|[from] Grassy Terrain
+|-heal|p1b: Sneasler|7/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|-message|nontelo forfeited.
+|
+|win|WestyLiam
+|raw|WestyLiam's rating: 1387 → 1404(+17 for winning)
+|raw|nontelo's rating: 1331 → 1314(-17 for losing)
+|l|☆nontelo
+|player|p2|
+|l|☆WestyLiam
+|player|p1|
+|j|☆WestyLiam
+|player|p1|WestyLiam|1|

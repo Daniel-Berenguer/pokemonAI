@@ -1,0 +1,180 @@
+|j|☆Mirokart 8 Deluxe
+|j|☆fsucia
+|html|Mirokart 8 Deluxefsucia    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755619488
+|gametype|doubles
+|player|p1|Mirokart 8 Deluxe|2|1441
+|player|p2|fsucia|169|1433
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Primarina, L50, M|
+|poke|p1|Electabuzz, L50, F|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Talonflame, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|showteam|p1|Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,Uturn|||M|||50|,,,,,Fire]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Dark]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,Uturn,PhantomForce|||F|||50|,,,,,Dragon]Sneasler||FocusSash|PoisonTouch|DireClaw,CloseCombat,FakeOut,Protect|||F|||50|,,,,,Stellar]Primarina||ThroatSpray|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||M|||50|,,,,,Poison]Electabuzz||Eviolite|VitalSpirit|FollowMe,Taunt,Electroweb,Protect|||F|||50|,,,,,Fairy
+|showteam|p2|Primarina||ThroatSpray|LiquidVoice|Haze,Moonblast,Protect,HyperVoice|||F|||50|,,,,,Steel]Garchomp||LifeOrb|SandVeil|Protect,Earthquake,StompingTantrum,DragonClaw|||F|||50|,,,,,Fire]Gholdengo||MetalCoat|GoodasGold|Protect,NastyPlot,ShadowBall,MakeItRain||||||50|,,,,,Flying]Talonflame||CovertCloak|GaleWings|BraveBird,Tailwind,WillOWisp,Taunt|||F|||50|,,,,,Flying]Tyranitar||AssaultVest|SandStream|KnockOff,TeraBlast,LowKick,RockSlide|||M|||50|,,,,,Flying]Amoonguss||SitrusBerry|Regenerator|RagePowder,Spore,PollenPuff,Protect|||F|||50|,,,,,Water
+|
+|t:|1755619510
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kingambit|Kingambit, L50, F|100/100
+|switch|p1b: Electabuzz|Electabuzz, L50, F|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Talonflame|Talonflame, L50, F|100/100
+|turn|1
+|
+|t:|1755619523
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|move|p1b: Electabuzz|Follow Me|p1b: Electabuzz
+|-singleturn|p1b: Electabuzz|move: Follow Me
+|move|p2b: Talonflame|Will-O-Wisp|p1b: Electabuzz
+|-status|p1b: Electabuzz|brn
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-damage|p1b: Electabuzz|95/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1755619539
+|-terastallize|p1a: Kingambit|Dark
+|move|p1b: Electabuzz|Follow Me|p1b: Electabuzz
+|-singleturn|p1b: Electabuzz|move: Follow Me
+|move|p2b: Talonflame|Tailwind|p2b: Talonflame
+|-sidestart|p2: fsucia|move: Tailwind
+|move|p1a: Kingambit|Sucker Punch|p2a: Garchomp
+|-damage|p2a: Garchomp|1/100
+|move|p2a: Garchomp|Earthquake|p1b: Electabuzz|[spread] p1a,p1b
+|-immune|p2b: Talonflame
+|-supereffective|p1b: Electabuzz
+|-damage|p1a: Kingambit|60/100
+|-damage|p1b: Electabuzz|17/100 brn
+|-damage|p2a: Garchomp|0 fnt|[from] item: Life Orb
+|faint|p2a: Garchomp
+|
+|-damage|p1b: Electabuzz|12/100 brn|[from] brn
+|upkeep
+|
+|t:|1755619546
+|switch|p2a: Primarina|Primarina, L50, F|100/100
+|turn|3
+|
+|t:|1755619558
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2b: Talonflame|Brave Bird|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|10/100
+|-damage|p2b: Talonflame|60/100|[from] Recoil
+|move|p2a: Primarina|Moonblast|p1a: Kingambit
+|-activate|p1a: Kingambit|move: Protect
+|
+|-heal|p1b: Rillaboom|15/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|66/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1755619571
+|move|p2a: Primarina|Protect|p2a: Primarina
+|-singleturn|p2a: Primarina|Protect
+|move|p1b: Rillaboom|Fake Out|p2a: Primarina
+|-activate|p2a: Primarina|move: Protect
+|move|p2b: Talonflame|Will-O-Wisp|p1a: Kingambit
+|-status|p1a: Kingambit|brn
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Talonflame
+|-damage|p2b: Talonflame|0 fnt
+|faint|p2b: Talonflame
+|
+|-heal|p1b: Rillaboom|21/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|72/100 brn|[from] Grassy Terrain
+|-damage|p1a: Kingambit|66/100 brn|[from] brn
+|upkeep
+|
+|t:|1755619580
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|turn|5
+|
+|t:|1755619595
+|switch|p1b: Electabuzz|Electabuzz, L50, F|12/100 brn
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p2a: Primarina|Moonblast|p1a: Kingambit
+|-activate|p1a: Kingambit|move: Protect
+|
+|-heal|p1b: Electabuzz|17/100 brn|[from] Grassy Terrain
+|-heal|p1a: Kingambit|72/100 brn|[from] Grassy Terrain
+|-damage|p1b: Electabuzz|12/100 brn|[from] brn
+|-damage|p1a: Kingambit|66/100 brn|[from] brn
+|-sideend|p2: fsucia|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1755619618
+|-terastallize|p2b: Gholdengo|Flying
+|move|p2a: Primarina|Protect|p2a: Primarina
+|-singleturn|p2a: Primarina|Protect
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2b: Gholdengo|Make It Rain|p1a: Kingambit|[spread] p1a,p1b
+|-resisted|p1b: Electabuzz
+|-damage|p1a: Kingambit|0 fnt
+|-damage|p1b: Electabuzz|0 fnt
+|-unboost|p2b: Gholdengo|spa|1
+|faint|p1a: Kingambit
+|faint|p1b: Electabuzz
+|
+|upkeep
+|
+|t:|1755619623
+|switch|p1b: Rillaboom|Rillaboom, L50, M|21/100
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|turn|7
+|
+|t:|1755619628
+|move|p1b: Rillaboom|Fake Out|p2b: Gholdengo
+|-crit|p2b: Gholdengo
+|-damage|p2b: Gholdengo|75/100
+|move|p1a: Sneasler|Dire Claw|p2a: Primarina
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|cant|p2b: Gholdengo|flinch
+|
+|-heal|p1b: Rillaboom|27/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1755619638
+|move|p1a: Sneasler|Dire Claw|p2b: Gholdengo
+|-damage|p2b: Gholdengo|18/100
+|-status|p2b: Gholdengo|slp
+|cant|p2b: Gholdengo|slp
+|move|p1b: Rillaboom|Wood Hammer|p2b: Gholdengo
+|-resisted|p2b: Gholdengo
+|-damage|p2b: Gholdengo|0 fnt
+|faint|p2b: Gholdengo
+|-damage|p1b: Rillaboom|23/100|[from] Recoil
+|
+|win|Mirokart 8 Deluxe
+|raw|Mirokart 8 Deluxe's rating: 1441 → 1461(+20 for winning)
+|raw|fsucia's rating: 1433 → 1413(-20 for losing)
