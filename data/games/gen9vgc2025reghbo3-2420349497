@@ -1,0 +1,167 @@
+|j|☆Jzvictini
+|j|☆KKirby
+|html|JzvictiniKKirby    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755025319
+|gametype|doubles
+|player|p1|Jzvictini|2|1267
+|player|p2|KKirby|169|1209
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gallade, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Slowbro, L50, F|
+|poke|p1|Smeargle, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Dragapult, L50, F|
+|teampreview|4
+|showteam|p1|Gallade||ClearAmulet|Sharpness|WideGuard,SacredSword,PsychoCut,TrickRoom|||M|||50|,,,,,Fire]Indeedee-F||EjectButton|PsychicSurge|FollowMe,HelpingHand,TrickRoom,Psychic|||F|||50|,,,,,Steel]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,ClearSmog|||F|||50|,,,,,Fire]Hatterene||LifeOrb|MagicBounce|TrickRoom,DazzlingGleam,Psychic,ExpandingForce|||F|||50|,,,,,Psychic]Slowbro||WiseGlasses|Oblivious|TrickRoom,ExpandingForce,WeatherBall,Scald|||F|||50|,,,,,Water]Smeargle||FocusSash|Moody|FakeOut,Spore,FollowMe,Haze|||M|||50|,,,,,Ghost
+|showteam|p2|Whimsicott||CovertCloak|Prankster|Tailwind,LightScreen,Encore,Moonblast|||M|||50|,,,,,Steel]Gholdengo||GrassySeed|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|DrumBeating,GrassyGlide,Uturn,FakeOut|||F|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Water]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,Outrage,Uturn|||F|||50|,,,,,Dragon
+|
+|t:|1755025351
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Slowbro|Slowbro, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Slowbro|unboost|Attack|[from] ability: Oblivious|[of] p1a: Slowbro
+|-unboost|p1b: Indeedee|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1755025375
+|switch|p1b: Gallade|Gallade, L50, M, shiny|100/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p2b: Incineroar|Parting Shot|p1a: Slowbro
+|-unboost|p1a: Slowbro|atk|1
+|-unboost|p1a: Slowbro|spa|1
+|
+|t:|1755025383
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100|[from] Parting Shot
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p2a: Gholdengo|Grassy Seed
+|-boost|p2a: Gholdengo|def|1|[from] item: Grassy Seed
+|move|p1a: Slowbro|Trick Room|p1a: Slowbro
+|-fieldstart|move: Trick Room|[of] p1a: Slowbro
+|
+|upkeep
+|turn|2
+|
+|t:|1755025404
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p1b: Gallade|Sacred Sword|p2b: Rillaboom
+|-damage|p2b: Rillaboom|23/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Indeedee
+|-immune|p1a: Indeedee
+|move|p2b: Rillaboom|U-turn|p1b: Gallade
+|-damage|p1b: Gallade|70/100
+|
+|t:|1755025414
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100|[from] U-turn
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-fail|p1b: Gallade|unboost|[from] item: Clear Amulet|[of] p1b: Gallade
+|
+|upkeep
+|turn|3
+|
+|t:|1755025436
+|-terastallize|p2b: Incineroar|Grass
+|move|p1a: Indeedee|Helping Hand|p1b: Gallade
+|-singleturn|p1b: Gallade|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Gallade|Sacred Sword|p2b: Incineroar
+|-damage|p2b: Incineroar|2/100
+|move|p2b: Incineroar|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|15/100
+|-enditem|p1a: Indeedee|Eject Button|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p2a: Gholdengo|Make It Rain|p1a: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Gallade|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Indeedee
+|faint|p1b: Gallade
+|
+|upkeep
+|
+|t:|1755025444
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|switch|p1a: Slowbro|Slowbro, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|4
+|
+|t:|1755025457
+|switch|p2b: Rillaboom|Rillaboom, L50, F|23/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-terastallize|p1b: Torkoal|Fire
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1b: Torkoal|Eruption|p2a: Gholdengo|[spread] p2b
+|-activate|p2a: Gholdengo|move: Protect
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|move|p1a: Slowbro|Weather Ball|p2a: Gholdengo
+|-activate|p2a: Gholdengo|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1755025466
+|switch|p2b: Incineroar|Incineroar, L50, M, tera:Grass|2/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Slowbro|unboost|Attack|[from] ability: Oblivious|[of] p1a: Slowbro
+|-unboost|p1b: Torkoal|atk|1
+|turn|5
+|
+|t:|1755025475
+|move|p2b: Incineroar|Fake Out|p1b: Torkoal
+|-damage|p1b: Torkoal|91/100
+|cant|p1b: Torkoal|flinch
+|move|p1a: Slowbro|Weather Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|2/100
+|move|p2a: Gholdengo|Shadow Ball|p1a: Slowbro
+|-supereffective|p1a: Slowbro
+|-damage|p1a: Slowbro|0 fnt
+|faint|p1a: Slowbro
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Torkoal|98/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|8/100|[from] Grassy Terrain
+|-heal|p2a: Gholdengo|7/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1755025491
+|move|p2a: Gholdengo|Shadow Ball|p1b: Torkoal
+|-crit|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|
+|win|KKirby
+|raw|Jzvictini's rating: 1267 → 1238(-29 for losing)
+|raw|KKirby's rating: 1209 → 1238(+29 for winning)
+|c|☆KKirby|ggwp
+|l|☆Jzvictini
+|player|p1|
+|l|☆KKirby
+|player|p2|
+|j|☆KKirby
+|player|p2|KKirby|169|

@@ -1,0 +1,109 @@
+|j|☆Beep-boop12345
+|j|☆orizor
+|html|Beep-boop12345orizor    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755899691
+|gametype|doubles
+|player|p1|Beep-boop12345|169|1157
+|player|p2|orizor|169|1244
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Dragapult, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|teampreview|4
+|showteam|p1|Armarouge||LifeOrb|FlashFire|ArmorCannon,ExpandingForce,TrickRoom,Protect|||M|||50|,,,,,Grass]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||F|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,WideGuard,TrickRoom|||M|||50|,,,,,Fire]Torkoal||Charcoal|Drought|Eruption,HeatWave,WeatherBall,ClearSmog|||F|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,CloseCombat,AfterYou,SleepPowder|||F|||50|,,,,,Stellar
+|showteam|p2|Incineroar||MirrorHerb|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Grass]Farigiraf||ThroatSpray|ArmorTail|HyperVoice,Psychic,TrickRoom,HelpingHand|||F|||50|,,,,,Fairy]Dragapult||ChoiceBand|ClearBody|DragonDarts,TeraBlast,Uturn,PhantomForce|||M|||50|,,,,,Ghost]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Kingambit||AssaultVest|Defiant|KowtowCleave,SuckerPunch,IronHead,LowKick|||M|||50|,,,,,Dark]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,Moonblast,AuroraVeil,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1755899734
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-fail|p1b: Gallade|unboost|[from] item: Clear Amulet|[of] p1b: Gallade
+|-enditem|p2b: Incineroar|Mirror Herb
+|-boost|p2b: Incineroar|spd|1|[from] item: Mirror Herb
+|turn|1
+|j| teamthief420
+|
+|t:|1755899774
+|-terastallize|p2a: Ursaluna|Normal
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Incineroar|Flare Blitz|p1a: Indeedee
+|-damage|p1a: Indeedee|54/100
+|-damage|p2b: Incineroar|87/100|[from] Recoil
+|move|p2a: Ursaluna|Blood Moon|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|-damage|p2a: Ursaluna|91/100|[from] item: Life Orb
+|move|p1b: Gallade|Trick Room|p1b: Gallade
+|-fieldstart|move: Trick Room|[of] p1b: Gallade
+|
+|upkeep
+|
+|t:|1755899795
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|turn|2
+|
+|t:|1755899817
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p1b: Gallade|Sacred Sword|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|move|p2b: Incineroar|Knock Off|p1b: Gallade
+|-damage|p1b: Gallade|34/100
+|-enditem|p1b: Gallade|Clear Amulet|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1755899827
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|turn|3
+|
+|t:|1755899841
+|move|p1a: Ursaluna|Facade|p2a: Farigiraf
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|move|p1b: Gallade|Sacred Sword|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|j| spicy rider
+|l| spicy rider
+|
+|t:|1755899847
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|turn|4
+|-message|orizor forfeited.
+|
+|win|Beep-boop12345
+|raw|Beep-boop12345's rating: 1157 → 1188(+31 for winning)
+|raw|orizor's rating: 1244 → 1213(-31 for losing)

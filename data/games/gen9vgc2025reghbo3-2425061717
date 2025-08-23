@@ -1,0 +1,180 @@
+|j|☆belinvgc
+|j|☆gimunino
+|html|belinvgcgimunino    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1755703045
+|gametype|doubles
+|player|p1|belinvgc|102|1269
+|player|p2|gimunino|blue|1327
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Revavroom, L50, M|
+|poke|p1|Gastrodon, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Bellibolt, L50, M|
+|poke|p1|Dusclops, L50, M|
+|poke|p1|Malamar, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Revavroom||ClearAmulet|Overcoat|Protect,Curse,PoisonJab,SpinOut|||M|||50|,,,,,Dragon]Gastrodon||SitrusBerry|StormDrain|EarthPower,MuddyWater,Yawn,ClearSmog|||F|||50|,,,,,Fire]Amoonguss||MentalHerb|Regenerator|PollenPuff,RagePowder,Spore,Protect|||M|||50|,,,,,Water]Bellibolt||Leftovers|Electromorphosis|ParabolicCharge,HyperVoice,Protect,Endure|||M|||50|,,,,,Electric]Dusclops||Eviolite|Pressure|NightShade,PainSplit,WillOWisp,TrickRoom|||M|||50|,,,,,Dark]Malamar||SafetyGoggles|Contrary|Superpower,PsychoCut,Taunt,TrickRoom|||M|||50|,,,,,Steel
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|TeraBlast,ExpandingForce,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||M|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,FinalGambit,RageFist,Taunt|||M|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||M|||50|,,,,,Flying
+|
+|t:|1755703120
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p1b: Malamar|Malamar, L50, M|100/100
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1755703158
+|-terastallize|p1a: Amoonguss|Water
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p2b: Indeedee|Trick|p1a: Amoonguss
+|-activate|p2b: Indeedee|move: Trick|[of] p1a: Amoonguss
+|-item|p1a: Amoonguss|Choice Scarf|[from] move: Trick
+|-item|p2b: Indeedee|Mental Herb|[from] move: Trick
+|move|p2a: Ursaluna|Blood Moon|p1a: Amoonguss
+|-damage|p1a: Amoonguss|10/100
+|-damage|p2a: Ursaluna|91/100|[from] item: Life Orb
+|move|p1b: Malamar|Trick Room|p1b: Malamar
+|-fieldstart|move: Trick Room|[of] p1b: Malamar
+|
+|upkeep
+|turn|2
+|
+|t:|1755703192
+|move|p1a: Amoonguss|Spore|p2b: Indeedee
+|-status|p2b: Indeedee|slp|[from] move: Spore
+|move|p1b: Malamar|Superpower|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|30/100
+|-boost|p1b: Malamar|atk|1
+|-boost|p1b: Malamar|def|1
+|move|p2a: Ursaluna|Hyper Voice|p1a: Amoonguss|[spread] p1a,p1b
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p1b: Malamar|47/100
+|faint|p1a: Amoonguss
+|-damage|p2a: Ursaluna|20/100|[from] item: Life Orb
+|cant|p2b: Indeedee|slp
+|
+|upkeep
+|
+|t:|1755703213
+|switch|p1a: Bellibolt|Bellibolt, L50, M|100/100
+|turn|3
+|
+|t:|1755703244
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|cant|p2b: Indeedee|slp
+|move|p1a: Bellibolt|Hyper Voice|p2b: Indeedee|[spread] p2b
+|-activate|p2a: Ursaluna|move: Protect
+|-damage|p2b: Indeedee|70/100 slp
+|move|p1b: Malamar|Superpower|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-boost|p1b: Malamar|atk|1
+|-boost|p1b: Malamar|def|1
+|faint|p2b: Indeedee
+|
+|upkeep
+|
+|t:|1755703262
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|4
+|
+|t:|1755703284
+|switch|p1a: Dusclops|Dusclops, L50, M|100/100
+|-ability|p1a: Dusclops|Pressure
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|-terastallize|p2b: Sneasler|Dark
+|move|p1b: Malamar|Superpower|p2a: Annihilape
+|-immune|p2a: Annihilape
+|move|p2b: Sneasler|Dire Claw|p1a: Dusclops
+|-resisted|p1a: Dusclops
+|-damage|p1a: Dusclops|88/100
+|
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gimunino)
+|
+|t:|1755703378
+|move|p1a: Dusclops|Will-O-Wisp|p2a: Annihilape|[miss]
+|-miss|p1a: Dusclops|p2a: Annihilape
+|move|p1b: Malamar|Superpower|p2b: Sneasler
+|-supereffective|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|-boost|p1b: Malamar|atk|1
+|-boost|p1b: Malamar|def|1
+|faint|p2b: Sneasler
+|move|p2a: Annihilape|Taunt|p1a: Dusclops
+|-start|p1a: Dusclops|move: Taunt
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1755703386
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|20/100
+|turn|6
+|inactive|belinvgc has 30 seconds left.
+|inactive|belinvgc has 20 seconds left.
+|inactive|belinvgc has 15 seconds left.
+|inactive|belinvgc has 10 seconds left.
+|inactive|belinvgc has 5 seconds left.
+|
+|t:|1755703441
+|move|p2a: Annihilape|Rage Fist|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|66/100
+|move|p2b: Ursaluna|Hyper Voice|p1b: Malamar|[spread] p1a,p1b
+|-damage|p1a: Dusclops|34/100
+|-damage|p1b: Malamar|0 fnt
+|faint|p1b: Malamar
+|-damage|p2b: Ursaluna|11/100|[from] item: Life Orb
+|move|p1a: Dusclops|Night Shade|p2a: Annihilape
+|-damage|p2a: Annihilape|77/100
+|
+|upkeep
+|
+|t:|1755703456
+|switch|p1b: Bellibolt|Bellibolt, L50, M|100/100
+|turn|7
+|
+|t:|1755703473
+|move|p2a: Annihilape|Rage Fist|p1b: Bellibolt
+|-damage|p1b: Bellibolt|59/100
+|-start|p1b: Bellibolt|Charge|Rage Fist|[from] ability: Electromorphosis
+|move|p2b: Ursaluna|Earth Power|p1b: Bellibolt
+|-supereffective|p1b: Bellibolt
+|-damage|p1b: Bellibolt|0 fnt
+|faint|p1b: Bellibolt
+|-damage|p2b: Ursaluna|1/100|[from] item: Life Orb
+|move|p1a: Dusclops|Night Shade|p2b: Ursaluna
+|-immune|p2b: Ursaluna
+|
+|upkeep
+|turn|8
+|-message|belinvgc forfeited.
+|
+|win|gimunino
+||gimunino is ready for game 2.
+|l|☆belinvgc
+|player|p1|
+|raw|belinvgc's rating: 1269 → 1248(-21 for losing)
+|raw|gimunino's rating: 1327 → 1344(+17 for winning)

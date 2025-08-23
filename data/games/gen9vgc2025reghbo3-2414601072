@@ -1,0 +1,256 @@
+|j|â˜†tedidn
+|j|â˜†TailwindMakeItRain
+|html|tedidnTailwindMakeItRain    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1754239807
+|gametype|doubles
+|player|p1|tedidn|marshal|1235
+|player|p2|TailwindMakeItRain|iris|1246
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each PokÃ©mon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Mienshao, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Tyranitar, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|showteam|p1|Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Mienshao||FocusSash|InnerFocus|CloseCombat,KnockOff,FakeOut,WideGuard|||F|||50|,,,,,Stellar]Amoonguss||RockyHelmet|Regenerator|PollenPuff,RagePowder,Spore,Protect|||M|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|WillOWisp,FakeOut,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,Recover,IceBeam,TrickRoom||||||50|,,,,,Fighting]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||M|||50|,,,,,Flying
+|showteam|p2|Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|PartingShot,FlareBlitz,KnockOff,FakeOut|||F|||50|,,,,,Ghost]Sneasler||GrassySeed|Unburden|DireClaw,CloseCombat,Acrobatics,Protect|||F|||50|,,,,,Flying]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||M|||50|,,,,,Fairy]Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,EarthPower,HyperVoice,VacuumWave|||M|||50|,,,,,Water]Rillaboom||ClearAmulet|GrassySurge|WoodHammer,GrassyGlide,FakeOut,Taunt|||F|||50|,,,,,Fire
+|
+|t:|1754239839
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Daquavion|Porygon2, L50|100/100
+|switch|p1b: Tigress|Mienshao, L50, F|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-ability|p1a: Daquavion|Download|boost
+|-boost|p1a: Daquavion|atk|1
+|turn|1
+|
+|t:|1754239868
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Daquavion|atk|1
+|-fail|p1b: Tigress|unboost|Attack|[from] ability: Inner Focus|[of] p1b: Tigress
+|switch|p1a: Kingston|Incineroar, L50, M|100/100
+|-ability|p1a: Kingston|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-fail|p2b: Rillaboom|unboost|[from] item: Clear Amulet|[of] p2b: Rillaboom
+|move|p2b: Rillaboom|Grassy Glide|p1b: Tigress
+|-damage|p1b: Tigress|36/100
+|move|p1b: Tigress|Knock Off|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|84/100
+|-enditem|p2a: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p1b: Tigress
+|
+|-heal|p1b: Tigress|42/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|90/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1754239882
+|move|p1a: Kingston|Fake Out|p2b: Rillaboom
+|-damage|p2b: Rillaboom|89/100
+|move|p2a: Incineroar|Fake Out|p1a: Kingston
+|-damage|p1a: Kingston|94/100
+|cant|p2b: Rillaboom|flinch
+|move|p1b: Tigress|Close Combat|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-unboost|p1b: Tigress|def|1
+|-unboost|p1b: Tigress|spd|1
+|faint|p2a: Incineroar
+|
+|-heal|p1b: Tigress|48/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|95/100|[from] Grassy Terrain
+|-heal|p1a: Kingston|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1754239887
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|-enditem|p2a: Sneasler|Grassy Seed
+|-boost|p2a: Sneasler|def|1|[from] item: Grassy Seed
+|turn|3
+|
+|t:|1754239899
+|switch|p1b: Daquavion|Porygon2, L50|100/100
+|-ability|p1b: Daquavion|Download|boost
+|-boost|p1b: Daquavion|spa|1
+|move|p2a: Sneasler|Acrobatics|p1b: Daquavion
+|-damage|p1b: Daquavion|74/100
+|move|p2b: Rillaboom|Taunt|p1a: Kingston
+|-start|p1a: Kingston|move: Taunt
+|cant|p1a: Kingston|move: Taunt|Parting Shot
+|
+|-heal|p2b: Rillaboom|100/100|[from] Grassy Terrain
+|-heal|p1b: Daquavion|80/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1754239926
+|switch|p1a: Tigress|Mienshao, L50, F|48/100
+|switch|p1b: Mr.Bigbucks|Gholdengo, L50|100/100
+|move|p2a: Sneasler|Close Combat|p1b: Mr.Bigbucks
+|-immune|p1b: Mr.Bigbucks
+|move|p2b: Rillaboom|Wood Hammer|p1b: Mr.Bigbucks
+|-resisted|p1b: Mr.Bigbucks
+|-damage|p1b: Mr.Bigbucks|66/100
+|-damage|p2b: Rillaboom|90/100|[from] Recoil
+|
+|-heal|p1a: Tigress|53/100|[from] Grassy Terrain
+|-heal|p1b: Mr.Bigbucks|72/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|96/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1754239947
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|move|p1a: Tigress|Fake Out|p2b: Gholdengo
+|-immune|p2b: Gholdengo
+|move|p2a: Sneasler|Acrobatics|p1a: Tigress
+|-supereffective|p1a: Tigress
+|-damage|p1a: Tigress|0 fnt
+|faint|p1a: Tigress
+|move|p1b: Mr.Bigbucks|Nasty Plot|p1b: Mr.Bigbucks
+|-boost|p1b: Mr.Bigbucks|spa|2
+|
+|-heal|p1b: Mr.Bigbucks|78/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1754239955
+|switch|p1a: Kingston|Incineroar, L50, M|100/100
+|-ability|p1a: Kingston|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2b: Gholdengo|atk|1
+|turn|6
+|
+|t:|1754239962
+|-terastallize|p1b: Mr.Bigbucks|Dragon
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1b: Mr.Bigbucks|Make It Rain|p2a: Sneasler|[spread] 
+|-activate|p2a: Sneasler|move: Protect
+|-activate|p2b: Gholdengo|move: Protect
+|move|p1a: Kingston|Knock Off|p2b: Gholdengo
+|-activate|p2b: Gholdengo|move: Protect
+|
+|upkeep
+|turn|7
+|
+|t:|1754239983
+|-terastallize|p2b: Gholdengo|Water
+|move|p2a: Sneasler|Close Combat|p1b: Mr.Bigbucks
+|-damage|p1b: Mr.Bigbucks|35/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|move|p2b: Gholdengo|Shadow Ball|p1b: Mr.Bigbucks
+|-damage|p1b: Mr.Bigbucks|0 fnt
+|faint|p1b: Mr.Bigbucks
+|-damage|p2b: Gholdengo|91/100|[from] item: Life Orb
+|move|p1a: Kingston|Parting Shot|p2a: Sneasler
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2a: Sneasler|spa|1
+|
+|t:|1754239987
+|switch|p1a: Daquavion|Porygon2, L50|80/100|[from] Parting Shot
+|-ability|p1a: Daquavion|Download|boost
+|-boost|p1a: Daquavion|spa|1
+|
+|upkeep
+|
+|t:|1754239990
+|switch|p1b: Kingston|Incineroar, L50, M|100/100
+|-ability|p1b: Kingston|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2b: Gholdengo|atk|1
+|turn|8
+|
+|t:|1754239997
+|switch|p2a: Rillaboom|Rillaboom, L50, F|96/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1b: Kingston|Fake Out|p2b: Gholdengo
+|-damage|p2b: Gholdengo|79/100
+|cant|p2b: Gholdengo|flinch
+|move|p1a: Daquavion|Ice Beam|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|25/100
+|
+|-heal|p2b: Gholdengo|85/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|31/100|[from] Grassy Terrain
+|-heal|p1a: Daquavion|85/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1754240007
+|move|p2a: Rillaboom|Fake Out|p1a: Daquavion
+|-damage|p1a: Daquavion|78/100
+|move|p2b: Gholdengo|Make It Rain|p1b: Kingston|[spread] p1a,p1b
+|-resisted|p1b: Kingston
+|-damage|p1a: Daquavion|43/100
+|-damage|p1b: Kingston|75/100
+|-unboost|p2b: Gholdengo|spa|1
+|-damage|p2b: Gholdengo|76/100|[from] item: Life Orb
+|move|p1b: Kingston|Knock Off|p2b: Gholdengo
+|-damage|p2b: Gholdengo|35/100
+|-enditem|p2b: Gholdengo|Life Orb|[from] move: Knock Off|[of] p1b: Kingston
+|cant|p1a: Daquavion|flinch
+|
+|-heal|p2b: Gholdengo|41/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|37/100|[from] Grassy Terrain
+|-heal|p1b: Kingston|81/100|[from] Grassy Terrain
+|-heal|p1a: Daquavion|49/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1754240022
+|move|p2b: Gholdengo|Make It Rain|p1a: Daquavion|[spread] p1a,p1b
+|-resisted|p1b: Kingston
+|-damage|p1a: Daquavion|32/100
+|-damage|p1b: Kingston|67/100
+|-unboost|p2b: Gholdengo|spa|1
+|move|p2a: Rillaboom|Wood Hammer|p1a: Daquavion
+|-damage|p1a: Daquavion|0 fnt
+|faint|p1a: Daquavion
+|-damage|p2a: Rillaboom|27/100|[from] Recoil
+|move|p1b: Kingston|Knock Off|p2a: Rillaboom
+|-crit|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-enditem|p2a: Rillaboom|Clear Amulet|[from] move: Knock Off|[of] p1b: Kingston
+|faint|p2a: Rillaboom
+|
+|-heal|p2b: Gholdengo|47/100|[from] Grassy Terrain
+|-heal|p1b: Kingston|73/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1754240024
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|turn|11
+|
+|t:|1754240027
+|move|p2a: Sneasler|Close Combat|p1b: Kingston
+|-supereffective|p1b: Kingston
+|-damage|p1b: Kingston|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1b: Kingston
+|
+|win|TailwindMakeItRain
+|raw|tedidn's rating: 1235 → 1211(-24 for losing)
+|raw|TailwindMakeItRain's rating: 1246 → 1270(+24 for winning)

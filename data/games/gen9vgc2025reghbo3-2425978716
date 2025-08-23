@@ -1,0 +1,180 @@
+|j|☆Blitzball Ace
+|j|☆luckstat10
+|html|Blitzball Aceluckstat10    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755813203
+|gametype|doubles
+|player|p1|Blitzball Ace|kamado-armor|1322
+|player|p2|luckstat10|2|1244
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Vivillon-Polar, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Dondozo, L50, M|
+|teampreview|4
+|showteam|p1|Garchomp||ChoiceBand|RoughSkin|Earthquake,DragonClaw,StompingTantrum,PoisonJab|||M|||50|,,,,,Ground]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Vivillon-Polar||FocusSash|CompoundEyes|Hurricane,SleepPowder,Protect,RagePowder|||F|||50|,,,,,Ghost]Sneasler||WhiteHerb|Unburden|FakeOut,Coaching,DireClaw,CloseCombat|||F|||50|,,,,,Flying]Basculegion||ChoiceScarf|Adaptability|WaveCrash,FlipTurn,LastRespects,TeraBlast|||M|||50|,,,,,Fairy
+|showteam|p2|Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,HighHorsepower|||M|||50|,,,,,Fire]Sneasler||GrassySeed|Unburden|FakeOut,CloseCombat,DireClaw,Protect|||F|||50|,,,,,Stellar]Gholdengo||LifeOrb|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water]Ninetales-Alola||FocusSash|SnowWarning|AuroraVeil,IcyWind,Moonblast,Protect|||M|||50|,,,,,Poison]Volcarona||CovertCloak|FlameBody|QuiverDance,FieryDance,GigaDrain,Protect|||F|||50|,,,,,Grass]Dondozo||Leftovers|Unaware|Curse,WaveCrash,Yawn,Protect|||M|||50|,,,,,Grass
+|
+|t:|1755813224
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2a: Mothra|Volcarona, L50, F, shiny|100/100
+|switch|p2b: Esdeath|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Esdeath
+|turn|1
+|
+|t:|1755813246
+|switch|p1a: Dalinar|Incineroar, L50, M, shiny|100/100
+|-ability|p1a: Dalinar|Intimidate|boost
+|-unboost|p2a: Mothra|atk|1
+|-unboost|p2b: Esdeath|atk|1
+|move|p2a: Mothra|Protect|p2a: Mothra
+|-singleturn|p2a: Mothra|Protect
+|move|p2b: Esdeath|Icy Wind|p1a: Dalinar|[spread] p1a,p1b
+|-resisted|p1a: Dalinar
+|-crit|p1a: Dalinar
+|-damage|p1a: Dalinar|92/100
+|-damage|p1b: Sneasler|79/100
+|-unboost|p1a: Dalinar|spe|1
+|-unboost|p1b: Sneasler|spe|1
+|-enditem|p1b: Sneasler|White Herb
+|-clearnegativeboost|p1b: Sneasler|[silent]
+|move|p1b: Sneasler|Coaching|p1a: Dalinar
+|-boost|p1a: Dalinar|atk|1
+|-boost|p1a: Dalinar|def|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1755813274
+|switch|p2a: Dondozo|Dondozo, L50, M|100/100
+|move|p1b: Sneasler|Dire Claw|p2b: Esdeath
+|-supereffective|p2b: Esdeath
+|-damage|p2b: Esdeath|12/100
+|move|p2b: Esdeath|Aurora Veil|p2b: Esdeath
+|-sidestart|p2: luckstat10|move: Aurora Veil
+|move|p1a: Dalinar|Knock Off|p2a: Dondozo
+|-damage|p2a: Dondozo|80/100
+|-enditem|p2a: Dondozo|Leftovers|[from] move: Knock Off|[of] p1a: Dalinar
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1755813318
+|move|p1b: Sneasler|Dire Claw|p2a: Dondozo
+|-damage|p2a: Dondozo|60/100
+|-status|p2a: Dondozo|slp
+|move|p2b: Esdeath|Icy Wind|p1b: Sneasler|[spread] p1a,p1b
+|-resisted|p1a: Dalinar
+|-damage|p1a: Dalinar|86/100
+|-damage|p1b: Sneasler|61/100
+|-unboost|p1a: Dalinar|spe|1
+|-unboost|p1b: Sneasler|spe|1
+|cant|p2a: Dondozo|slp
+|move|p1a: Dalinar|Parting Shot|p2a: Dondozo
+|-unboost|p2a: Dondozo|atk|1
+|-unboost|p2a: Dondozo|spa|1
+|
+|t:|1755813327
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100|[from] Parting Shot
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1755813353
+|move|p1b: Sneasler|Close Combat|p2a: Dondozo
+|-damage|p2a: Dondozo|32/100 slp
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|move|p1a: Basculegion|Flip Turn|p2b: Esdeath
+|-damage|p2b: Esdeath|0 fnt
+|faint|p2b: Esdeath
+|
+|t:|1755813357
+|switch|p1a: Dalinar|Incineroar, L50, M, shiny|86/100|[from] Flip Turn
+|-ability|p1a: Dalinar|Intimidate|boost
+|-unboost|p2a: Dondozo|atk|1
+|-curestatus|p2a: Dondozo|slp|[msg]
+|move|p2a: Dondozo|Curse|p2a: Dondozo
+|-unboost|p2a: Dondozo|spe|1
+|-boost|p2a: Dondozo|atk|1
+|-boost|p2a: Dondozo|def|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1755813364
+|switch|p2b: Dare|Sneasler, L50, F|100/100
+|turn|5
+|
+|t:|1755813391
+|switch|p1a: Adolin|Gholdengo, L50|100/100
+|move|p2a: Dondozo|Protect|p2a: Dondozo
+|-singleturn|p2a: Dondozo|Protect
+|move|p2b: Dare|Fake Out|p1b: Sneasler
+|-crit|p1b: Sneasler
+|-damage|p1b: Sneasler|1/100
+|cant|p1b: Sneasler|flinch
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1755813414
+|move|p2a: Dondozo|Protect||[still]
+|-fail|p2a: Dondozo
+|move|p1b: Sneasler|Dire Claw|p2a: Dondozo
+|-damage|p2a: Dondozo|19/100
+|move|p2b: Dare|Close Combat|p1b: Sneasler
+|-resisted|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|-unboost|p2b: Dare|def|1
+|-unboost|p2b: Dare|spd|1
+|faint|p1b: Sneasler
+|move|p1a: Adolin|Nasty Plot|p1a: Adolin
+|-boost|p1a: Adolin|spa|2
+|
+|-sideend|p2: luckstat10|move: Aurora Veil
+|upkeep
+|
+|t:|1755813427
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|turn|7
+|
+|t:|1755813435
+|move|p1b: Basculegion|Wave Crash|p2b: Dare
+|-damage|p2b: Dare|0 fnt
+|faint|p2b: Dare
+|-damage|p1b: Basculegion|74/100|[from] Recoil
+|move|p1a: Adolin|Make It Rain|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|-unboost|p1a: Adolin|spa|1
+|faint|p2a: Dondozo
+|-damage|p1a: Adolin|91/100|[from] item: Life Orb
+|
+|upkeep
+|-message|luckstat10 forfeited.
+|raw|Blitzball Ace's rating: 1322 → 1338(+16 for winning)
+|raw|luckstat10's rating: 1244 → 1225(-19 for losing)
+|
+|win|Blitzball Ace

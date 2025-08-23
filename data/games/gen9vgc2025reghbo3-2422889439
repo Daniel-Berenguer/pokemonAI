@@ -1,0 +1,161 @@
+|j|☆Jideo
+|j|☆bdogplatinum
+|html|Jideobdogplatinum    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1755378908
+|gametype|doubles
+|player|p1|Jideo|265|1202
+|player|p2|bdogplatinum|lucas|1348
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Toxicroak, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Abomasnow, L50, M|
+|poke|p2|Hawlucha, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Dragapult, L50, M|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|ElectroShot,Snarl,DragonPulse,BodyPress|||F|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Protect,Tailwind|||M|||50|,,,,,Stellar]Basculegion||MysticWater|SwiftSwim|Protect,WaveCrash,FlipTurn,LastRespects|||M|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Toxicroak||LifeOrb|DrySkin|FakeOut,CloseCombat,PoisonJab,SuckerPunch|||M|||50|,,,,,Dark]Amoonguss||CovertCloak|Regenerator|Protect,PollenPuff,RagePowder,Spore|||M|||50|,,,,,Fairy
+|showteam|p2|Armarouge||LifeOrb|FlashFire|Protect,TrickRoom,ArmorCannon,ExpandingForce|||M|||50|,,,,,Grass]Indeedee-F||SafetyGoggles|PsychicSurge|TrickRoom,FollowMe,HelpingHand,AlluringVoice|||F|||50|,,,,,Water]Abomasnow||FocusSash|SnowWarning|Protect,EarthPower,Blizzard,LeafStorm|||M|||50|,,,,,Ice]Hawlucha||PsychicSeed|Unburden|Protect,SwordsDance,DualWingbeat,CloseCombat|||F|||50|,,,,,Steel]Ursaluna||FlameOrb|Guts|Protect,Facade,Earthquake,HeadlongRush|||M|||50|,,,,,Ghost]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,Outrage,Uturn|||M|||50|,,,,,Dragon
+|
+|t:|1755378927
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|switch|p2a: Dragapult|Dragapult, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
+|-unboost|p2b: Indeedee|atk|1
+|turn|1
+|
+|t:|1755378959
+|-terastallize|p2a: Dragapult|Dragon
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Dragapult|Outrage|p1b: Archaludon
+|-damage|p1b: Archaludon|10/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p1b: Archaludon|Snarl|p2b: Indeedee|[spread] p2a,p2b
+|-supereffective|p2b: Indeedee
+|-damage|p2a: Dragapult|83/100
+|-damage|p2b: Indeedee|76/100
+|-unboost|p2b: Indeedee|spa|1
+|move|p1a: Incineroar|Parting Shot|p2b: Indeedee
+|-unboost|p2b: Indeedee|atk|1
+|-unboost|p2b: Indeedee|spa|1
+|
+|t:|1755378974
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|2
+|
+|t:|1755378987
+|switch|p2b: Hawlucha|Hawlucha, L50, F|100/100
+|-enditem|p2b: Hawlucha|Psychic Seed
+|-boost|p2b: Hawlucha|spd|1|[from] item: Psychic Seed
+|-terastallize|p1a: Amoonguss|Fairy
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p2a: Dragapult|Outrage|p1a: Amoonguss|[from] lockedmove
+|-immune|p1a: Amoonguss
+|-start|p2a: Dragapult|confusion|[fatigue]
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|
+|upkeep
+|turn|3
+|
+|t:|1755379011
+|switch|p2a: Indeedee|Indeedee-F, L50, F|76/100
+|move|p2b: Hawlucha|Protect|p2b: Hawlucha
+|-singleturn|p2b: Hawlucha|Protect
+|move|p1b: Archaludon|Electro Shot|p2a: Indeedee|[from] lockedmove
+|-damage|p2a: Indeedee|23/100
+|move|p1a: Amoonguss|Pollen Puff|p1b: Archaludon
+|-heal|p1b: Archaludon|60/100
+|
+|upkeep
+|turn|4
+|
+|t:|1755379053
+|switch|p2a: Dragapult|Dragapult, L50, M, tera:Dragon|83/100
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2b: Hawlucha|Swords Dance|p2b: Hawlucha
+|-boost|p2b: Hawlucha|atk|2
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2b: Hawlucha
+|-supereffective|p2b: Hawlucha
+|-crit|p2b: Hawlucha
+|-damage|p2b: Hawlucha|0 fnt
+|faint|p2b: Hawlucha
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1755379068
+|switch|p2b: Abomasnow|Abomasnow, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Abomasnow
+|turn|5
+|
+|t:|1755379091
+|move|p2a: Dragapult|Outrage|p1a: Pelipper
+|-enditem|p1a: Pelipper|Focus Sash
+|-damage|p1a: Pelipper|1/100
+|move|p1a: Pelipper|Weather Ball|p2b: Abomasnow
+|-damage|p2b: Abomasnow|70/100
+|move|p1b: Archaludon|Dragon Pulse|p2b: Abomasnow
+|-damage|p2b: Abomasnow|0 fnt
+|faint|p2b: Abomasnow
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1755379103
+|switch|p2b: Indeedee|Indeedee-F, L50, F|23/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|6
+|
+|t:|1755379109
+|move|p2a: Dragapult|Outrage|p1a: Pelipper|[from] lockedmove
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|-start|p2a: Dragapult|confusion|[fatigue]
+|move|p1b: Archaludon|Dragon Pulse|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1755379111
+|switch|p1a: Amoonguss|Amoonguss, L50, M, tera:Fairy|100/100
+|turn|7
+|-message|bdogplatinum forfeited.
+|
+|win|Jideo
+|raw|Jideo's rating: 1202 → 1237(+35 for winning)
+|raw|bdogplatinum's rating: 1348 → 1320(-28 for losing)
+|l|☆bdogplatinum
+|player|p2|
+|c|☆Jideo|Gg

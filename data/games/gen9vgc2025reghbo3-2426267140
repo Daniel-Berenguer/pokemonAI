@@ -1,0 +1,137 @@
+|j|☆Il Mule
+|j|☆Sammy Chung
+|html|Il MuleSammy Chung    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1755855667
+|gametype|doubles
+|player|p1|Il Mule|salvatore|1391
+|player|p2|Sammy Chung|2|1437
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Corviknight, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Pelipper, L50, M|
+|teampreview|4
+|showteam|p1|Corviknight||CovertCloak|MirrorArmor|BraveBird,Taunt,Roost,Tailwind|||M|||50|,,,,,Dragon]Garchomp||ClearAmulet|RoughSkin|Earthquake,DragonClaw,StompingTantrum,Protect|||M|||50|,,,,,Ground]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Sneasler||WhiteHerb|Unburden|DireClaw,CloseCombat,Coaching,Protect|||M|||50|,,,,,Ghost]Incineroar||SitrusBerry|Intimidate|FlareBlitz,WillOWisp,PartingShot,FakeOut|||M|||50|,,,,,Grass
+|showteam|p2|Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||F|||50|,,,,,Fire]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||M|||50|,,,,,Fairy]Archaludon||PowerHerb|Sturdy|ElectroShot,DragonPulse,FlashCannon,Protect|||M|||50|,,,,,Electric]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Stellar
+|
+|t:|1755855691
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|switch|p2a: Archaludon|Archaludon, L50, M, shiny|100/100
+|switch|p2b: Dragonite|Dragonite, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Archaludon|atk|1
+|-unboost|p2b: Dragonite|atk|1
+|turn|1
+|
+|t:|1755855703
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|move|p2a: Archaludon|Protect|p2a: Archaludon
+|-singleturn|p2a: Archaludon|Protect
+|move|p2b: Dragonite|Protect|p2b: Dragonite
+|-singleturn|p2b: Dragonite|Protect
+|move|p1b: Garchomp|Stomping Tantrum|p2a: Archaludon
+|-activate|p2a: Archaludon|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1755855716
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Sneasler|Dire Claw|p2b: Dragonite
+|-damage|p2b: Dragonite|77/100
+|-status|p2b: Dragonite|slp
+|move|p1b: Garchomp|Dragon Claw|p2b: Dragonite
+|-supereffective|p2b: Dragonite
+|-damage|p2b: Dragonite|0 fnt
+|faint|p2b: Dragonite
+|
+|upkeep
+|
+|t:|1755855720
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|3
+|
+|t:|1755855740
+|move|p2a: Rillaboom|Fake Out|p1b: Garchomp
+|-damage|p1b: Garchomp|87/100
+|-damage|p2a: Rillaboom|88/100|[from] ability: Rough Skin|[of] p1b: Garchomp
+|move|p1a: Sneasler|Dire Claw|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|12/100
+|cant|p1b: Garchomp|flinch
+|move|p2b: Pelipper|Tailwind|p2b: Pelipper
+|-sidestart|p2: Sammy Chung|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|18/100|[from] Grassy Terrain
+|-heal|p1b: Garchomp|93/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1755855754
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p2a: Rillaboom|High Horsepower|p1a: Sneasler
+|-activate|p1a: Sneasler|move: Protect
+|move|p2b: Pelipper|Weather Ball|p1b: Garchomp
+|-activate|p1b: Garchomp|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|24/100|[from] Grassy Terrain
+|-heal|p1b: Garchomp|99/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1755855774
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Rillaboom|Wood Hammer|p1b: Garchomp
+|-damage|p1b: Garchomp|29/100
+|-damage|p2a: Rillaboom|12/100|[from] ability: Rough Skin|[of] p1b: Garchomp
+|-damage|p2a: Rillaboom|0 fnt|[from] Recoil
+|faint|p2a: Rillaboom
+|move|p2b: Pelipper|Weather Ball|p1b: Garchomp
+|-resisted|p1b: Garchomp
+|-damage|p1b: Garchomp|11/100
+|move|p1b: Garchomp|Dragon Claw|p2b: Pelipper
+|-damage|p2b: Pelipper|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Pelipper|40/100|[from] Sandstorm
+|-heal|p1b: Garchomp|17/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1755855782
+|switch|p2a: Archaludon|Archaludon, L50, M, shiny|100/100
+|turn|6
+|-message|Sammy Chung forfeited.
+|
+|win|Il Mule
+|raw|Il Mule's rating: 1391 → 1414(+23 for winning)
+|raw|Sammy Chung's rating: 1437 → 1414(-23 for losing)
+|l|☆Sammy Chung
+|player|p2|
+|j|☆Sammy Chung
+|player|p2|Sammy Chung|2|

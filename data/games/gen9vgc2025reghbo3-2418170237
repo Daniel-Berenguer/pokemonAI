@@ -1,0 +1,201 @@
+|j|☆takeshivgc-test
+|j|☆R1xohBilbao
+|html|takeshivgc-testR1xohBilbao    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1754714565
+|gametype|doubles
+|player|p1|takeshivgc-test|101|1160
+|player|p2|R1xohBilbao|265|1302
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Talonflame, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Electabuzz, L50, F|
+|teampreview|4
+|showteam|p1|Armarouge||PowerHerb|FlashFire|ArmorCannon,ExpandingForce,TrickRoom,MeteorBeam|||M|||50|,,,,,Grass]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,TrickRoom,FollowMe|||F|||50|,,,,,Fairy]Torkoal||Charcoal|Drought|Eruption,Protect,WeatherBall,HeatWave|||F|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|CloseCombat,SolarBlade,SleepPowder,AfterYou|||F|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Talonflame||CovertCloak|GaleWings|DualWingbeat,Tailwind,WillOWisp,Taunt|||M|||50|,,,,,Ghost]Ursaluna-Bloodmoon||LifeOrb|MindsEye|EarthPower,BloodMoon,HyperVoice,Protect|||M|||50|,,,,,Ghost]Ninetales-Alola||SafetyGoggles|SnowWarning|Blizzard,FreezeDry,Encore,Protect|||F|||50|,,,,,Fire]Sneasler||FocusSash|Unburden|FakeOut,CloseCombat,DireClaw,Protect|||M|||50|,,,,,Stellar]Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,Protect,SwordsDance|||F|||50|,,,,,Dark]Electabuzz||Eviolite|VitalSpirit|Protect,FollowMe,Taunt,VoltSwitch|||F|||50|,,,,,Ghost
+|
+|t:|1754714596
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Armarouge|Armarouge, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2b: Talonflame|Talonflame, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1754714615
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p2b: Talonflame|Taunt|p1b: Indeedee
+|-start|p1b: Indeedee|move: Taunt
+|move|p1a: Armarouge|Meteor Beam||[still]
+|-prepare|p1a: Armarouge|Meteor Beam
+|-boost|p1a: Armarouge|spa|1
+|-enditem|p1a: Armarouge|Power Herb
+|-anim|p1a: Armarouge|Meteor Beam|p2b: Talonflame
+|-supereffective|p2b: Talonflame
+|-damage|p2b: Talonflame|0 fnt
+|faint|p2b: Talonflame
+|move|p1b: Indeedee|Psychic|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|
+|upkeep
+|
+|t:|1754714629
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|turn|2
+|
+|t:|1754714638
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2b: Ninetales|Encore||[still]
+|-fail|p2b: Ninetales
+|move|p1b: Indeedee|Psychic|p2a: Ursaluna
+|-damage|p2a: Ursaluna|56/100
+|move|p2a: Ursaluna|Hyper Voice|p1b: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Torkoal|38/100
+|-damage|p1b: Indeedee|69/100
+|-damage|p2a: Ursaluna|46/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1754714667
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2b: Ninetales|Freeze-Dry|p1b: Indeedee
+|-damage|p1b: Indeedee|53/100
+|move|p1b: Indeedee|Psychic|p2b: Ninetales
+|-damage|p2b: Ninetales|51/100
+|move|p2a: Ursaluna|Hyper Voice|p1a: Torkoal|[spread] p1b
+|-activate|p1a: Torkoal|move: Protect
+|-damage|p1b: Indeedee|20/100
+|-damage|p2a: Ursaluna|36/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1b: Indeedee|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1754714701
+|switch|p1b: Armarouge|Armarouge, L50, M|100/100
+|switch|p2a: Kingambit|Kingambit, L50, F|100/100
+|move|p2b: Ninetales|Encore|p1a: Torkoal
+|-start|p1a: Torkoal|Encore
+|move|p1a: Torkoal|Protect||[still]
+|-fail|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1754714729
+|switch|p1a: Gallade|Gallade, L50, M|100/100
+|-terastallize|p2a: Kingambit|Dark
+|move|p2b: Ninetales|Protect|p2b: Ninetales
+|-singleturn|p2b: Ninetales|Protect
+|move|p1b: Armarouge|Armor Cannon|p2a: Kingambit
+|-damage|p2a: Kingambit|12/100
+|-unboost|p1b: Armarouge|def|1
+|-unboost|p1b: Armarouge|spd|1
+|move|p2a: Kingambit|Kowtow Cleave|p1b: Armarouge
+|-supereffective|p1b: Armarouge
+|-damage|p1b: Armarouge|0 fnt
+|faint|p1b: Armarouge
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1754714743
+|switch|p1b: Indeedee|Indeedee-F, L50, F|20/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|6
+|
+|t:|1754714763
+|move|p2a: Kingambit|Protect|p2a: Kingambit
+|-singleturn|p2a: Kingambit|Protect
+|move|p2b: Ninetales|Blizzard|p1b: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Gallade|74/100
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p1a: Gallade|Sacred Sword|p2a: Kingambit
+|-activate|p2a: Kingambit|move: Protect
+|
+|-weather|none
+|upkeep
+|
+|t:|1754714771
+|switch|p1b: Torkoal|Torkoal, L50, F|38/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|7
+|
+|t:|1754714827
+|move|p2b: Ninetales|Protect|p2b: Ninetales
+|-singleturn|p2b: Ninetales|Protect
+|move|p1a: Gallade|Sacred Sword|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|move|p1b: Torkoal|Weather Ball|p2b: Ninetales
+|-activate|p2b: Ninetales|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1754714832
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|36/100
+|turn|8
+|
+|t:|1754714849
+|move|p2b: Ninetales|Protect||[still]
+|-fail|p2b: Ninetales
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Gallade|Sacred Sword|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|move|p1b: Torkoal|Weather Ball|p2b: Ninetales
+|-supereffective|p2b: Ninetales
+|-damage|p2b: Ninetales|0 fnt
+|faint|p2b: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|c|☆takeshivgc-test|gg wp
+|
+|t:|1754714868
+|move|p1a: Gallade|Sacred Sword|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|win|takeshivgc-test
+|raw|takeshivgc-test's rating: 1160 → 1195(+35 for winning)
+|raw|R1xohBilbao's rating: 1302 → 1274(-28 for losing)
+|l|☆R1xohBilbao
+|player|p2|
+|l|☆takeshivgc-test
+|player|p1|
+|j|☆takeshivgc-test
+|player|p1|takeshivgc-test|101|

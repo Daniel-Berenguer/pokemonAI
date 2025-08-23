@@ -1,0 +1,154 @@
+|j|☆breaking swiper
+|j|☆i miss wicked..
+|html|breaking swiperi miss wicked..    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755588368
+|gametype|doubles
+|player|p1|breaking swiper|1|1200
+|player|p2|i miss wicked..|clemont|1367
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Azumarill, L50, F|
+|poke|p1|Gothitelle, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Gengar, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Arcanine-Hisui, L50, M|
+|teampreview|4
+|showteam|p1|Azumarill||MentalHerb|SapSipper|AlluringVoice,Encore,PerishSong,Protect|||F|||50|,,,,,Normal]Gothitelle||SitrusBerry|ShadowTag|ExpandingForce,FakeOut,TrickRoom,Protect|||F|||50|,,,,,Dark]Incineroar||SafetyGoggles|Intimidate|KnockOff,FakeOut,PartingShot,Protect|||F|||50|,,,,,Ghost]Amoonguss||EjectButton|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Fire]Archaludon||PowerHerb|Sturdy|DragonPulse,FlashCannon,ElectroShot,Protect|||M|||50|,,,,,Electric]Gengar||FocusSash|CursedBody|SludgeBomb,ShadowBall,PerishSong,Protect|||M|||50|,,,,,Stellar
+|showteam|p2|Gholdengo||GrassySeed|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,Coaching,Protect|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,DrumBeating,HighHorsepower|||M|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,StompingTantrum,Protect|||F|||50|,,,,,Ground]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,IcyWind,Encore,AuroraVeil|||F|||50|,,,,,Ghost]Arcanine-Hisui||ClearAmulet|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||M|||50|,,,,,Water
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by breaking swiper)
+|inactive|i miss wicked.. also wants the timer to be on.
+|
+|t:|1755588391
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p2a: Gholdengo|Grassy Seed
+|-boost|p2a: Gholdengo|def|1|[from] item: Grassy Seed
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Gholdengo|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|turn|1
+|
+|t:|1755588404
+|move|p1a: Archaludon|Protect|p1a: Archaludon
+|-singleturn|p1a: Archaludon|Protect
+|move|p2b: Rillaboom|Fake Out|p1a: Archaludon
+|-activate|p1a: Archaludon|move: Protect
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1b: Incineroar|Parting Shot|p2b: Rillaboom
+|-unboost|p2b: Rillaboom|atk|1
+|-unboost|p2b: Rillaboom|spa|1
+|
+|t:|1755588410
+|switch|p1b: Gothitelle|Gothitelle, L50, F|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|2
+|
+|t:|1755588422
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1b: Gothitelle|Fake Out|p2b: Rillaboom
+|-damage|p2b: Rillaboom|95/100
+|move|p1a: Archaludon|Dragon Pulse|p2b: Rillaboom
+|-damage|p2b: Rillaboom|58/100
+|cant|p2b: Rillaboom|flinch
+|
+|-heal|p2b: Rillaboom|64/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1755588432
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Gholdengo|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|-terastallize|p1a: Archaludon|Electric
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-enditem|p1a: Archaludon|Power Herb
+|-anim|p1a: Archaludon|Electro Shot|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|move|p2b: Rillaboom|Drum Beating|p1a: Archaludon
+|-damage|p1a: Archaludon|84/100
+|-unboost|p1a: Archaludon|spe|1
+|
+|-heal|p2b: Rillaboom|70/100|[from] Grassy Terrain
+|-heal|p1a: Archaludon|90/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1755588440
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|turn|4
+|
+|t:|1755588454
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|switch|p1b: Gothitelle|Gothitelle, L50, F|100/100
+|-terastallize|p2a: Sneasler|Ghost
+|move|p2a: Sneasler|Close Combat|p1b: Gothitelle
+|-resisted|p1b: Gothitelle
+|-damage|p1b: Gothitelle|73/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|move|p1a: Archaludon|Dragon Pulse|p2a: Sneasler
+|-damage|p2a: Sneasler|17/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Sneasler|24/100|[from] Grassy Terrain
+|-heal|p1a: Archaludon|96/100|[from] Grassy Terrain
+|-heal|p1b: Gothitelle|79/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1755588470
+|move|p1b: Gothitelle|Fake Out|p2b: Ninetales
+|-damage|p2b: Ninetales|94/100
+|move|p2a: Sneasler|Dire Claw|p1a: Archaludon
+|-damage|p1a: Archaludon|59/100
+|cant|p2b: Ninetales|flinch
+|move|p1a: Archaludon|Flash Cannon|p2b: Ninetales
+|-supereffective|p2b: Ninetales
+|-damage|p2b: Ninetales|0 fnt
+|faint|p2b: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Sneasler|30/100|[from] Grassy Terrain
+|-heal|p1a: Archaludon|65/100|[from] Grassy Terrain
+|-heal|p1b: Gothitelle|85/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1755588477
+|switch|p2b: Rillaboom|Rillaboom, L50, M|70/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|6
+|-message|i miss wicked.. forfeited.
+|raw|breaking swiper's rating: 1200 → 1236(+36 for winning)
+|raw|i miss wicked..'s rating: 1367 → 1338(-29 for losing)
+|
+|win|breaking swiper
+|l|☆i miss wicked..
+|player|p2|

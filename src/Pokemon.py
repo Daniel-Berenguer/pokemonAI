@@ -1,7 +1,7 @@
 class Pokemon:
-    def __init__(self, text, pokemon_stats, move_dict):
+    def __init__(self, name, text, pokemon_stats, move_dict):
         text = text.split("|")
-        self.name = text[0].replace(" ", "-")
+        self.name = name
         self.item = text[2]
         self.ability = text[3]
         self.moves = []
@@ -9,6 +9,8 @@ class Pokemon:
         moveNames = text[4].split(",")
         for moveName in moveNames:
             self.moves.append([moveName] + move_dict[moveName])
+        while len(self.moves) < 4:
+            self.moves.append(["Nothing"] + move_dict["Nothing"])
         self.teratype = text[11].strip(",")
         self.boosts = [0, 0, 0, 0, 0]
         self.status = "None"
@@ -19,7 +21,21 @@ class Pokemon:
         self.sub = False
         self.lostItem = False
         self.fnt = False
+        self.perish = 0
 
+    def switchOut(self):
+        self.perish = 0
+        self.sub = False
+        self.saltCure = False
+        self.justProtected = False
+        self.boosts = [0, 0, 0, 0, 0]
+
+    def updateHp(self, hp):
+        self.hp = hp
+        if hp == 0:
+            self.fnt = True
+        else:
+            self.fnt = False
 
     def updateBoost(self,stat, change):
         self.boosts[stat-1] += change

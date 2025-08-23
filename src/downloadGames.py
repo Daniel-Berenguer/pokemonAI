@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 import time
 
-for p in range(1,10):
+for p in range(1,30):
     driver = webdriver.Chrome()
     driver.get(f"https://replay.pokemonshowdown.com/?format=%5BGen%209%5D%20VGC%202025%20Reg%20H%20(Bo3)&page={p}&sort=rating")
 

@@ -1,7 +1,9 @@
 from Board import Board
+from boardToTensors import board2tensor
+import torch
+import pickle
 
-
-def processGame(filename):
+def processGame(filename, tensors, labels):
     with open(f"data/games/{filename}", encoding="utf-8") as file:
         text = file.read()
 
@@ -11,16 +13,18 @@ def processGame(filename):
 
     board = Board()
 
+    firstTurn = True
+
     # First we get the winner
     p1 = None
     p2 = None
     for line in lines:
         if line.startswith("|player|p1|"):
-            p1 = line.split("|")[2]
+            p1 = line.split("|")[3]
         elif line.startswith("|player|p2|"):
-            p2 = line.split("|")
+            p2 = line.split("|")[3]
         elif line.startswith("|win|"):
-            winnerName = line.split("|")[1]
+            winnerName = line.split("|")[2]
             if winnerName == p1:
                 board.winner = 0
             else:
@@ -71,20 +75,51 @@ def processGame(filename):
             board.tera(line[len("-terastallize"):])
 
         if line.startswith("|-start|") and "Substitute" in line:
-            board.startSub(line[len("|-singleturn|"):])
+            board.startSub(line[len("|-start|"):])
 
         if line.startswith("|-end|") and "Substitute" in line:
-            board.endSub(line[len("|-singleturn|"):])
+            board.endSub(line[len("|-end|"):])
+
+        if line.startswith("|-start|") and "perish" in line:
+            board.perish(line[len("|-start|"):])
+
 
         if line.startswith("|turn|"):
-            board.nextTurn()
+            if not firstTurn:
+                board.nextTurn()
+            else:
+                firstTurn = False
+            t = board2tensor(board)
+            if t.shape[0] == 27889:
+                tensors.append(t)
+                labels.append(torch.tensor(board.winner))
+            else:
+                print(f"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALGO RARO HAY CON {filename}")
+        
 
 import os
-i = 1
-for filename in os.listdir("data/games")[:80]:
-    print(i)
-    i += 1
-    try:
-        processGame(filename)
-    except Exception as e:
-        print(e)
+total = 0
+errors = 0
+tensors = []
+labels = []
+for filename in os.listdir("data/games"):
+    print(filename)
+    total += 1
+    if filename != "gen9vgc2025reghbo3-2416755957":
+        try:
+            processGame(filename, tensors, labels)
+        except Exception as e:
+            print(e)
+            errors += 1
+
+processed = total-errors
+
+print(f"Processed {processed}/{total}")
+print(f"{processed/total:.2%}")
+print(f"Data points: {len(tensors)}")
+
+X = torch.stack(tensors)
+Y = torch.stack(labels)
+
+with open("data/data.pickle", "wb") as file:
+    pickle.dump([X, Y], file)

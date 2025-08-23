@@ -1,0 +1,152 @@
+|j|☆palle synchro
+|j|‽WestyLiam
+|html|palle synchroWestyLiam    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1754223948
+|gametype|doubles
+|player|p1|palle synchro|volkner|1258
+|player|p2|WestyLiam|266|1325
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Arcanine-Hisui, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|teampreview|4
+|showteam|p1|Whimsicott||CovertCloak|Prankster|Moonblast,Taunt,Tailwind,FakeTears|||F|||50|,,,,,Water]Arcanine-Hisui||ClearAmulet|Intimidate|FlareBlitz,RockSlide,HeadSmash,Protect|||F|||50|,,,,,Ghost]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,Imprison,TrickRoom|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Archaludon||PowerHerb|Sturdy|ElectroShot,DragonPulse,Thunderbolt,Protect|||M|||50|,,,,,Electric
+|showteam|p2|Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,Earthquake,Protect|||F|||50|,,,,,Fairy]Jumpluff||CovertCloak|Chlorophyll|LeafStorm,SleepPowder,Encore,Tailwind|||M|||50|,,,,,Poison]Torkoal||EjectPack|Drought|Overheat,BurningJealousy,HelpingHand,Protect|||M|||50|,,,,,Flying]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,IceSpinner,Protect|||F|||50|,,,,,Fairy]Kingambit||AssaultVest|Defiant|IronHead,SuckerPunch,Assurance,LowKick|||F|||50|,,,,,Flying]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,ShadowBall,HeatWave,Overheat|||M|||50|,,,,,Fire
+|
+|t:|1754223963
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|1
+|
+|t:|1754223968
+|-terastallize|p2a: Jumpluff|Poison
+|move|p2a: Jumpluff|Sleep Powder|p1a: Indeedee
+|-status|p1a: Indeedee|slp|[from] move: Sleep Powder
+|move|p1b: Sneasler|Dire Claw|p2a: Jumpluff
+|-resisted|p2a: Jumpluff
+|-damage|p2a: Jumpluff|75/100
+|cant|p1a: Indeedee|slp
+|move|p2b: Torkoal|Overheat|p1a: Indeedee
+|-enditem|p1a: Indeedee|Focus Sash
+|-damage|p1a: Indeedee|1/100 slp
+|-unboost|p2b: Torkoal|spa|2
+|-enditem|p2b: Torkoal|Eject Pack
+|
+|t:|1754223980
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1754223987
+|move|p2a: Jumpluff|Tailwind|p2a: Jumpluff
+|-sidestart|p2: WestyLiam|move: Tailwind
+|move|p1b: Sneasler|Close Combat|p2a: Jumpluff
+|-resisted|p2a: Jumpluff
+|-damage|p2a: Jumpluff|36/100
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|move|p2b: Garchomp|Stomping Tantrum|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|-damage|p2b: Garchomp|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1754223995
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|turn|3
+|
+|t:|1754224002
+|switch|p2a: Dragonite|Dragonite, L50, F|100/100
+|-terastallize|p1b: Sneasler|Dark
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: palle synchro|move: Tailwind
+|move|p1b: Sneasler|Throat Chop|p2a: Dragonite
+|-damage|p2a: Dragonite|78/100
+|-start|p2a: Dragonite|Throat Chop|[silent]
+|move|p2b: Garchomp|Earthquake|p1a: Whimsicott|[spread] p1a,p1b
+|-immune|p2a: Dragonite
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|68/100
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|-damage|p2b: Garchomp|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1754224007
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|4
+|
+|t:|1754224021
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p1a: Whimsicott|Moonblast|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|15/100
+|-unboost|p2a: Dragonite|spa|1
+|move|p2b: Garchomp|Earthquake|p1a: Whimsicott|[spread] p1a
+|-activate|p1b: Ursaluna|move: Protect
+|-immune|p2a: Dragonite
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|37/100
+|-damage|p2b: Garchomp|71/100|[from] item: Life Orb
+|move|p2a: Dragonite|Ice Spinner|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|-fieldend|move: Psychic Terrain
+|faint|p1a: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Dragonite|Throat Chop|[silent]
+|upkeep
+|turn|5
+|
+|t:|1754224039
+|move|p1b: Ursaluna|Protect||[still]
+|-fail|p1b: Ursaluna
+|move|p2b: Garchomp|Earthquake|p1b: Ursaluna|[spread] p1b
+|-immune|p2a: Dragonite
+|-damage|p1b: Ursaluna|61/100
+|-damage|p2b: Garchomp|61/100|[from] item: Life Orb
+|move|p2a: Dragonite|Ice Spinner|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|13/100
+|
+|-weather|none
+|-sideend|p2: WestyLiam|move: Tailwind
+|upkeep
+|turn|6
+|-message|palle synchro forfeited.
+|
+|win|WestyLiam
+|raw|palle synchro's rating: 1258 → 1238(-20 for losing)
+|raw|WestyLiam's rating: 1325 → 1341(+16 for winning)

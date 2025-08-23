@@ -1,0 +1,110 @@
+|j|☆Tusking Chusking
+|j|☆That_Leek
+|html|Tusking ChuskingThat_Leek    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1755740888
+|gametype|doubles
+|player|p1|Tusking Chusking|iris-gen5bw2|1281
+|player|p2|That_Leek|blue-masters|1294
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Exeggutor, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Zoroark-Hisui, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Gallade, L50, M|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Protect,Facade,Earthquake,HeadlongRush|||M|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,Psychic,FollowMe,HelpingHand|||F|||50|,,,,,Grass]Exeggutor||FocusSash|Chlorophyll|TrickRoom,ExpandingForce,EnergyBall,SleepPowder|||F|||50|,,,,,Psychic]Torkoal||Charcoal|Drought|Eruption,WeatherBall,Protect,ClearSmog|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,Flamethrower,ShadowBall,TeraBlast|||F|||50|,,,,,Stellar
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Dragonite||LoadedDice|Multiscale|Tailwind,StompingTantrum,ScaleShot,Protect|||M|||50|,,,,,Fairy]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Fairy]Ursaluna-Bloodmoon||AssaultVest|MindsEye|VacuumWave,BloodMoon,HyperVoice,EarthPower|||M|||50|,,,,,Ghost]Gallade||FocusSash|Sharpness|TrickRoom,SacredSword,WideGuard,PsychoCut|||M|||50|,,,,,Fairy
+|
+|t:|1755740917
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Gallade|Gallade, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-fail|p1b: Gallade|unboost|[from] item: Clear Amulet|[of] p1b: Gallade
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1755740930
+|move|p2a: Gallade|Sacred Sword|p1a: Indeedee
+|-damage|p1a: Indeedee|27/100
+|move|p2b: Incineroar|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|move|p1b: Gallade|Psycho Cut|p2a: Gallade
+|-enditem|p2a: Gallade|Focus Sash
+|-damage|p2a: Gallade|1/100
+|
+|upkeep
+|
+|t:|1755740935
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|2
+|
+|t:|1755740947
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Gallade|Psycho Cut|p1b: Gallade
+|-damage|p1b: Gallade|0 fnt
+|faint|p1b: Gallade
+|move|p2b: Incineroar|Flare Blitz|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1755740949
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|3
+|
+|t:|1755740959
+|switch|p2b: Dragonite|Dragonite, L50, M|100/100
+|-terastallize|p1a: Ursaluna|Ghost
+|move|p1b: Torkoal|Protect|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Protect
+|move|p2a: Gallade|Sacred Sword|p1b: Torkoal
+|-activate|p1b: Torkoal|move: Protect
+|move|p1a: Ursaluna|Earthquake|p2a: Gallade|[spread] p2a
+|-activate|p1b: Torkoal|move: Protect
+|-immune|p2b: Dragonite
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1755740965
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|turn|4
+|-message|Tusking Chusking forfeited.
+|
+|win|That_Leek
+|raw|Tusking Chusking's rating: 1281 → 1257(-24 for losing)
+|raw|That_Leek's rating: 1294 → 1318(+24 for winning)
+|l|☆Tusking Chusking
+|player|p1|

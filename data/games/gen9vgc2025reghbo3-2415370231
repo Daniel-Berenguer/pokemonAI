@@ -1,0 +1,164 @@
+|j|☆ronansting
+|j|☆lenvegecer
+|html|ronanstinglenvegecer    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1754340803
+|gametype|doubles
+|player|p1|ronansting|baker|1294
+|player|p2|lenvegecer|1|1251
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Hydreigon, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,BodyPress,FlashCannon|||M|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Ghost]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,DazzlingGleam|||M|||50|,,,,,Ground]Amoonguss||SitrusBerry|Regenerator|Spore,SludgeBomb,Protect,RagePowder|||F|||50|,,,,,Water]Basculegion||ChoiceBand|SwiftSwim|FlipTurn,WaveCrash,LastRespects,AquaJet|||M|||50|,,,,,Poison]Hydreigon||CovertCloak|Levitate|Taunt,Snarl,DracoMeteor,EarthPower|||M|||50|,,,,,Ghost
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Psychic]Torkoal||Charcoal|Drought|Eruption,WeatherBall,EarthPower,ClearSmog|||M|||50|,,,,,Fire]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,LowKick,SwordsDance|||M|||50|,,,,,Dark]Armarouge||PowerHerb|FlashFire|ExpandingForce,HeatWave,MeteorBeam,TrickRoom|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||ThroatSpray|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal
+|
+|t:|1754340822
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Empire|Basculegion, L50, M|100/100
+|switch|p1b: Piedragon|Hydreigon, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1754340857
+|move|p2a: Indeedee|Helping Hand|p2b: Hatterene
+|-singleturn|p2b: Hatterene|Helping Hand|[of] p2a: Indeedee
+|move|p1b: Piedragon|Taunt|p2a: Indeedee
+|-start|p2a: Indeedee|move: Taunt
+|move|p1a: Empire|Flip Turn|p2b: Hatterene
+|-damage|p2b: Hatterene|50/100
+|
+|t:|1754340865
+|switch|p1a: Arching|Archaludon, L50, M|100/100|[from] Flip Turn
+|move|p2b: Hatterene|Dazzling Gleam|p1a: Arching|[spread] p1a,p1b
+|-supereffective|p1b: Piedragon
+|-damage|p1a: Arching|52/100
+|-damage|p1b: Piedragon|0 fnt
+|-ability|p1a: Arching|Stamina|boost
+|-boost|p1a: Arching|def|1
+|faint|p1b: Piedragon
+|-damage|p2b: Hatterene|40/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1754340871
+|switch|p1b: Empire|Basculegion, L50, M|100/100
+|turn|2
+|
+|t:|1754340902
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p2b: Hatterene|Protect|p2b: Hatterene
+|-singleturn|p2b: Hatterene|Protect
+|move|p1b: Empire|Wave Crash|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-crit|p2a: Torkoal
+|-damage|p2a: Torkoal|4/100
+|-damage|p1b: Empire|72/100|[from] Recoil
+|move|p1a: Arching|Flash Cannon|p2b: Hatterene
+|-activate|p2b: Hatterene|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1754340930
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|move|p1b: Empire|Wave Crash|p2a: Indeedee
+|-damage|p2a: Indeedee|61/100
+|-damage|p1b: Empire|60/100|[from] Recoil
+|move|p1a: Arching|Flash Cannon|p2b: Hatterene
+|-supereffective|p2b: Hatterene
+|-damage|p2b: Hatterene|0 fnt
+|faint|p2b: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1754340946
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|4
+|
+|t:|1754340962
+|-terastallize|p2b: Ursaluna|Normal
+|move|p1b: Empire|Wave Crash|p2a: Indeedee
+|-damage|p2a: Indeedee|23/100
+|-damage|p1b: Empire|49/100|[from] Recoil
+|move|p1a: Arching|Body Press|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|move|p2b: Ursaluna|Hyper Voice|p1a: Arching|[spread] p1a,p1b
+|-resisted|p1a: Arching
+|-damage|p1a: Arching|36/100
+|-damage|p1b: Empire|0 fnt
+|-ability|p1a: Arching|Stamina|boost
+|-boost|p1a: Arching|def|1
+|faint|p1b: Empire
+|-enditem|p2b: Ursaluna|Throat Spray
+|-boost|p2b: Ursaluna|spa|1|[from] item: Throat Spray
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1754340977
+|switch|p1b: Smellypper|Pelipper, L50, F|100/100
+|switch|p2a: Torkoal|Torkoal, L50, M|4/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Smellypper
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|5
+|
+|t:|1754341001
+|move|p1b: Smellypper|Weather Ball|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|move|p1a: Arching|Body Press|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|33/100
+|move|p2b: Ursaluna|Hyper Voice|p1b: Smellypper|[spread] p1a,p1b
+|-resisted|p1a: Arching
+|-damage|p1a: Arching|11/100
+|-enditem|p1b: Smellypper|Focus Sash
+|-damage|p1b: Smellypper|1/100
+|-ability|p1a: Arching|Stamina|boost
+|-boost|p1a: Arching|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|c|☆ronansting|sorry for that crit
+|
+|t:|1754341022
+|move|p1b: Smellypper|Weather Ball|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|
+|win|ronansting
+|raw|ronansting's rating: 1294 → 1316(+22 for winning)
+|raw|lenvegecer's rating: 1251 → 1229(-22 for losing)
+|c|☆lenvegecer|no problem, gg
+|c|☆ronansting|gg
+|l|☆lenvegecer
+|player|p2|

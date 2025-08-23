@@ -1,0 +1,192 @@
+|j|☆The median voter
+|j|☆FastForwardMyGame
+|html|The median voterFastForwardMyGame    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1754524365
+|gametype|doubles
+|player|p1|The median voter|scientist-gen4dp|1207
+|player|p2|FastForwardMyGame|cyclist|1146
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kommo-o, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Arcanine-Hisui, L50, F|
+|poke|p2|Sunflora, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Hatterene, L50, F|
+|teampreview|4
+|showteam|p1|Kommo-o||GrassySeed|Overcoat|BodyPress,IronDefense,Protect,Flamethrower|||M|||50|,,,,,Fire]Volcarona||SitrusBerry|FlameBody|HeatWave,GigaDrain,QuiverDance,Protect|||M|||50|,,,,,Grass]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,HighHorsepower|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Flying]Ninetales-Alola||LifeOrb|SnowWarning|Blizzard,Protect,Encore,FreezeDry|||M|||50|,,,,,Ghost]Arcanine-Hisui||FocusSash|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Sunflora||LifeOrb|SolarPower|EarthPower,WeatherBall,EnergyBall,Protect|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Protect,Crunch|||F|||50|,,,,,Fairy]Indeedee-F||EjectButton|PsychicSurge|FollowMe,HelpingHand,TrickRoom,TeraBlast|||F|||50|,,,,,Dark]Torkoal||EjectPack|Drought|Eruption,HelpingHand,SunnyDay,Overheat|||M|||50|,,,,,Grass]Gallade||PsychicSeed|Sharpness|TrickRoom,SacredSword,PsychoCut,WideGuard|||M|||50|,,,,,Fire]Hatterene||CovertCloak|MagicBounce|TrickRoom,Quash,DazzlingGleam,Psychic|||F|||50|,,,,,Water
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FastForwardMyGame)
+|
+|t:|1754524387
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Arcanine|Arcanine-Hisui, L50, F|100/100
+|switch|p1b: Volcarona|Volcarona, L50, M|100/100
+|switch|p2a: Amiable|Indeedee-F, L50, F|100/100
+|switch|p2b: Another|Gallade, L50, M, shiny|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Amiable|atk|1
+|-unboost|p2b: Another|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Amiable
+|-enditem|p2b: Another|Psychic Seed
+|-boost|p2b: Another|spd|1|[from] item: Psychic Seed
+|turn|1
+|inactive|The median voter has 30 seconds left.
+|
+|t:|1754524412
+|-terastallize|p2b: Another|Fire
+|move|p2a: Amiable|Follow Me|p2a: Amiable
+|-singleturn|p2a: Amiable|move: Follow Me
+|move|p1a: Arcanine|Flare Blitz|p2a: Amiable
+|-crit|p2a: Amiable
+|-damage|p2a: Amiable|17/100
+|-damage|p1a: Arcanine|72/100|[from] Recoil
+|-enditem|p2a: Amiable|Eject Button
+|
+|t:|1754524421
+|switch|p2a: Ancient|Ursaluna, L50, F|100/100
+|move|p1b: Volcarona|Quiver Dance|p1b: Volcarona
+|-boost|p1b: Volcarona|spa|1
+|-boost|p1b: Volcarona|spd|1
+|-boost|p1b: Volcarona|spe|1
+|move|p2b: Another|Trick Room|p2b: Another
+|-fieldstart|move: Trick Room|[of] p2b: Another
+|
+|-status|p2a: Ancient|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1754524437
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p1b: Volcarona|Protect|p1b: Volcarona
+|-singleturn|p1b: Volcarona|Protect
+|move|p2a: Ancient|Facade|p1b: Volcarona
+|-activate|p1b: Volcarona|move: Protect
+|move|p2b: Another|Sacred Sword|p1a: Rillaboom
+|-damage|p1a: Rillaboom|56/100
+|
+|-heal|p1a: Rillaboom|61/100|[from] Grassy Terrain
+|-damage|p2a: Ancient|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|inactive|FastForwardMyGame has 30 seconds left.
+|
+|t:|1754524471
+|switch|p2b: Amiable|Indeedee-F, L50, F|17/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Amiable
+|-terastallize|p1b: Volcarona|Grass
+|move|p2a: Ancient|Facade|p1b: Volcarona
+|-damage|p1b: Volcarona|0 fnt
+|faint|p1b: Volcarona
+|move|p1a: Rillaboom|Wood Hammer|p2a: Ancient
+|-supereffective|p2a: Ancient
+|-damage|p2a: Ancient|0 fnt
+|faint|p2a: Ancient
+|-damage|p1a: Rillaboom|29/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1754524484
+|switch|p2a: Anger|Torkoal, L50, M|100/100
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Anger
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|turn|4
+|
+|t:|1754524491
+|switch|p1a: Arcanine|Arcanine-Hisui, L50, F|72/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Anger|atk|1
+|-unboost|p2b: Amiable|atk|1
+|-enditem|p2a: Anger|Eject Pack
+|
+|t:|1754524495
+|switch|p2a: Another|Gallade, L50, M, shiny, tera:Fire|100/100
+|move|p2b: Amiable|Helping Hand|p2a: Another
+|-singleturn|p2a: Another|Helping Hand|[of] p2b: Amiable
+|move|p1b: Ninetales|Protect||[still]
+|-fail|p1b: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1754524517
+|move|p1a: Arcanine|Protect|p1a: Arcanine
+|-singleturn|p1a: Arcanine|Protect
+|move|p1b: Ninetales|Protect|p1b: Ninetales
+|-singleturn|p1b: Ninetales|Protect
+|move|p2b: Amiable|Trick Room|p2b: Amiable
+|-fieldend|move: Trick Room
+|move|p2a: Another|Trick Room|p2a: Another
+|-fieldstart|move: Trick Room|[of] p2a: Another
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|inactive|The median voter has 30 seconds left.
+|inactive|The median voter has 20 seconds left.
+|
+|t:|1754524556
+|switch|p2b: Anger|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Anger
+|switch|p1a: Rillaboom|Rillaboom, L50, M|29/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Another|Sacred Sword|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|move|p1b: Ninetales|Blizzard|p2b: Anger|[spread] p2a
+|-miss|p1b: Ninetales|p2b: Anger
+|-resisted|p2a: Another
+|-damage|p2a: Another|84/100
+|-damage|p1b: Ninetales|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Another|90/100|[from] Grassy Terrain
+|-heal|p1b: Ninetales|97/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1754524573
+|switch|p1a: Arcanine|Arcanine-Hisui, L50, F|72/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Another|atk|1
+|-unboost|p2b: Anger|atk|1
+|turn|7
+|
+|t:|1754524580
+|move|p1b: Ninetales|Protect|p1b: Ninetales
+|-singleturn|p1b: Ninetales|Protect
+|move|p2b: Anger|Eruption|p1a: Arcanine|[spread] p1a
+|-activate|p1b: Ninetales|move: Protect
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|48/100
+|move|p2a: Another|Sacred Sword|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Another|96/100|[from] Grassy Terrain
+|-heal|p1b: Ninetales|100/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|c|☆FastForwardMyGame|gg wp
+|-message|The median voter forfeited.
+|
+|win|FastForwardMyGame
+|raw|The median voter's rating: 1207 → 1178(-29 for losing)
+|raw|FastForwardMyGame's rating: 1146 → 1175(+29 for winning)

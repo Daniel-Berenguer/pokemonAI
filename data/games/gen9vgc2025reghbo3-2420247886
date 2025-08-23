@@ -1,0 +1,134 @@
+|j|☆LearningtoLearn
+|j|☆Practibot
+|html|LearningtoLearnPractibot    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1755014654
+|gametype|doubles
+|player|p1|LearningtoLearn|pokemonbreeder-gen4|1236
+|player|p2|Practibot|bugcatcher-gen4dp|1210
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Tauros-Paldea-Aqua, L50, M|
+|poke|p1|Sylveon, L50, M|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Gastrodon, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Chandelure, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Smeargle||FocusSash|Moody|Spore,FollowMe,FakeOut,Decorate|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,EarthPower,VacuumWave,HyperVoice|||M|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy]Volcarona||Leftovers|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||F|||50|,,,,,Fairy]Tauros-Paldea-Aqua||SitrusBerry|Intimidate|WaveCrash,AquaJet,CloseCombat,Protect|||M|||50|,,,,,Water]Sylveon||ChoiceSpecs|Pixilate|HyperVoice,ShadowBall,HyperBeam,Psychic|||M|||50|,,,,,Ghost
+|showteam|p2|Garchomp||ClearAmulet|RoughSkin|RockSlide,StompingTantrum,Protect,SwordsDance|||F|||50|,,,,,Fairy]Gastrodon||Leftovers|StormDrain|MuddyWater,EarthPower,Protect,ClearSmog|||F|||50|,,,,,Poison]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,Uturn|||M|||50|,,,,,Poison]Chandelure||FocusSash|FlashFire|HeatWave,ShadowBall,Haze,TrickRoom|||F|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Facade,Earthquake,Protect,PlayRough|||F|||50|,,,,,Normal]Sneasler||GrassySeed|Unburden|DireClaw,CloseCombat,Protect,ThroatChop|||M|||50|,,,,,Dark
+|
+|t:|1755014702
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Smeargle|Smeargle, L50, F|100/100
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|1
+|
+|t:|1755014734
+|switch|p2a: Chandelure|Chandelure, L50, F|100/100
+|-terastallize|p1b: Volcarona|Fairy
+|move|p1a: Smeargle|Fake Out|p2b: Rillaboom
+|-damage|p2b: Rillaboom|96/100
+|cant|p2b: Rillaboom|flinch
+|move|p1b: Volcarona|Quiver Dance|p1b: Volcarona
+|-boost|p1b: Volcarona|spa|1
+|-boost|p1b: Volcarona|spd|1
+|-boost|p1b: Volcarona|spe|1
+|
+|-heal|p2b: Rillaboom|100/100|[from] Grassy Terrain
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|atk|2
+|-unboost|p1a: Smeargle|spd|1
+|upkeep
+|turn|2
+|
+|t:|1755014760
+|-terastallize|p2a: Chandelure|Grass
+|move|p1a: Smeargle|Follow Me|p1a: Smeargle
+|-singleturn|p1a: Smeargle|move: Follow Me
+|move|p2b: Rillaboom|Grassy Glide|p1a: Smeargle
+|-damage|p1a: Smeargle|6/100
+|move|p1b: Volcarona|Tera Blast|p2a: Chandelure|[anim] Tera Blast Fairy
+|-damage|p2a: Chandelure|30/100
+|move|p2a: Chandelure|Haze|p2a: Chandelure
+|-clearallboost
+|
+|-heal|p1a: Smeargle|11/100|[from] Grassy Terrain
+|-heal|p2a: Chandelure|36/100|[from] Grassy Terrain
+|-ability|p1a: Smeargle|Moody|boost
+|-boost|p1a: Smeargle|def|2
+|-unboost|p1a: Smeargle|spd|1
+|upkeep
+|turn|3
+|
+|t:|1755014782
+|move|p1a: Smeargle|Follow Me|p1a: Smeargle
+|-singleturn|p1a: Smeargle|move: Follow Me
+|move|p2b: Rillaboom|Grassy Glide|p1a: Smeargle
+|-damage|p1a: Smeargle|0 fnt
+|faint|p1a: Smeargle
+|move|p1b: Volcarona|Heat Wave|p2b: Rillaboom|[spread] p2b
+|-start|p2a: Chandelure|ability: Flash Fire
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|47/100
+|move|p2a: Chandelure|Heat Wave|p1b: Volcarona
+|-damage|p1b: Volcarona|15/100
+|
+|-heal|p1b: Volcarona|21/100|[from] Grassy Terrain
+|-heal|p1b: Volcarona|28/100|[from] item: Leftovers
+|-heal|p2b: Rillaboom|53/100|[from] Grassy Terrain
+|-heal|p2a: Chandelure|42/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1755014791
+|switch|p1a: Sylveon|Sylveon, L50, M|100/100
+|turn|4
+|
+|t:|1755014814
+|move|p2b: Rillaboom|Grassy Glide|p1a: Sylveon
+|-damage|p1a: Sylveon|56/100
+|move|p1b: Volcarona|Heat Wave|p2a: Chandelure|[spread] p2b
+|-immune|p2a: Chandelure|[from] ability: Flash Fire
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|move|p2a: Chandelure|Heat Wave|p1a: Sylveon|[spread] p1a,p1b
+|-damage|p1a: Sylveon|0 fnt
+|-damage|p1b: Volcarona|0 fnt
+|faint|p1a: Sylveon
+|faint|p1b: Volcarona
+|
+|-heal|p2a: Chandelure|48/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1755014828
+|switch|p1b: Tauros|Tauros-Paldea-Aqua, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-ability|p1b: Tauros|Intimidate|boost
+|-unboost|p2a: Chandelure|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|-enditem|p2b: Sneasler|Grassy Seed
+|-boost|p2b: Sneasler|def|1|[from] item: Grassy Seed
+|turn|5
+|-message|LearningtoLearn forfeited.
+|
+|win|Practibot
+|raw|LearningtoLearn's rating: 1236 → 1209(-27 for losing)
+|raw|Practibot's rating: 1210 → 1237(+27 for winning)
+|l|☆LearningtoLearn
+|player|p1|

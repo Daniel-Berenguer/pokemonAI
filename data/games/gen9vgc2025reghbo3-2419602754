@@ -1,0 +1,115 @@
+|j|☆namboyVGC
+|j|☆TR Setter
+|html|namboyVGCTR Setter    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1754928311
+|gametype|doubles
+|player|p1|namboyVGC|pokemonranger-gen4|1276
+|player|p2|TR Setter|zinzolin|1370
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Excadrill, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Kingambit, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,DazzlingGleam|||M|||50|,,,,,Fire]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||F|||50|,,,,,Grass]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||M|||50|,,,,,Psychic]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|HighHorsepower,Earthquake,IronHead,Protect|||M|||50|,,,,,Ground
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|HelpingHand,Psychic,TrickRoom,FollowMe|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,WideGuard,TrickRoom|||M|||50|,,,,,Steel]Annihilape||ChoiceScarf|Defiant|FinalGambit,CloseCombat,RageFist,Uturn|||F|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,Protect,EarthPower|||M|||50|,,,,,Fire]Kingambit||SafetyGoggles|Defiant|SuckerPunch,KowtowCleave,LowKick,Protect|||M|||50|,,,,,Dark
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by namboyVGC)
+|
+|t:|1754928320
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|switch|p2a: Gallade|Gallade, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1754928341
+|-terastallize|p1a: Tyranitar|Flying
+|-terastallize|p2a: Gallade|Steel
+|move|p1b: Annihilape|Final Gambit|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p1b: Annihilape
+|faint|p2b: Indeedee
+|move|p1a: Tyranitar|Tera Blast|p2a: Gallade|[anim] Tera Blast Flying
+|-resisted|p2a: Gallade
+|-damage|p2a: Gallade|71/100
+|move|p2a: Gallade|Sacred Sword|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|62/100|[from] Sandstorm
+|upkeep
+|
+|t:|1754928351
+|switch|p1b: Excadrill|Excadrill, L50, M|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|turn|2
+|
+|t:|1754928361
+|move|p2a: Gallade|Wide Guard|p2a: Gallade
+|-singleturn|p2a: Gallade|Wide Guard
+|move|p1b: Excadrill|Earthquake|p2a: Gallade|[spread] 
+|-activate|p2a: Gallade|move: Wide Guard
+|-activate|p2b: Hatterene|move: Wide Guard
+|-immune|p1a: Tyranitar
+|move|p1a: Tyranitar|Low Kick|p2a: Gallade
+|-supereffective|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|move|p2b: Hatterene|Trick Room|p2b: Hatterene
+|-fieldstart|move: Trick Room|[of] p2b: Hatterene
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Hatterene|94/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|56/100|[from] Sandstorm
+|upkeep
+|
+|t:|1754928369
+|switch|p2a: Kingambit|Kingambit, L50, M|100/100
+|turn|3
+|inactive|namboyVGC has 30 seconds left.
+|
+|t:|1754928395
+|move|p2b: Hatterene|Expanding Force|p1a: Tyranitar|[spread] p1a,p1b
+|-resisted|p1b: Excadrill
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p1b: Excadrill|42/100
+|faint|p1a: Tyranitar
+|-damage|p2b: Hatterene|85/100|[from] item: Life Orb
+|move|p2a: Kingambit|Kowtow Cleave|p1b: Excadrill
+|-damage|p1b: Excadrill|0 fnt
+|faint|p1b: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Hatterene|79/100|[from] Sandstorm
+|upkeep
+|-message|namboyVGC forfeited.
+|
+|win|TR Setter
+|raw|namboyVGC's rating: 1276 → 1258(-18 for losing)
+|raw|TR Setter's rating: 1370 → 1385(+15 for winning)
+|l|☆namboyVGC
+|player|p1|
+|j|☆namboyVGC
+|player|p1|namboyVGC|pokemonranger-gen4|

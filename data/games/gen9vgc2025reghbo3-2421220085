@@ -1,0 +1,191 @@
+|j|☆Sores
+|j|☆spearow's nest
+|html|Soresspearow's nest    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755139243
+|gametype|doubles
+|player|p1|Sores|veteran|1230
+|player|p2|spearow's nest|lance|1284
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Baxcalibur, L50, M|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Dusclops, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Magmar, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|teampreview|4
+|showteam|p1|Baxcalibur||LoadedDice|ThermalExchange|IcicleSpear,DragonDance,GlaiveRush,Protect|||M|||50|,,,,,Poison]Ninetales-Alola||ChoiceSpecs|SnowWarning|Blizzard,Moonblast,FreezeDry,IceBeam|||M|||50|,,,,,Ice]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Dark]Dusclops||Eviolite|Pressure|TrickRoom,WillOWisp,PainSplit,NightShade|||M|||50|,,,,,Dark]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee-F||RockyHelmet|PsychicSurge|FollowMe,Protect,HelpingHand,Psychic|||F|||50|,,,,,Grass
+|showteam|p2|Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,FakeOut,Protect|||F|||50|,,,,,Stellar]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,Uturn,FakeOut|||M|||50|,,,,,Ghost]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Ghost]Magmar||Eviolite|VitalSpirit|Overheat,Taunt,FollowMe,Protect|||F|||50|,,,,,Ghost]Basculegion||ChoiceScarf|Adaptability|WaveCrash,TeraBlast,FlipTurn,LastRespects|||M|||50|,,,,,Fighting]Ninetales-Alola||LifeOrb|SnowWarning|Blizzard,FreezeDry,Encore,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1755139265
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Slasher|Sneasler, L50, M|100/100
+|switch|p2a: Magmar|Magmar, L50, F|100/100
+|switch|p2b: Kingambit|Kingambit, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1b: Slasher|Psychic Seed
+|-boost|p1b: Slasher|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1755139283
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-terastallize|p2b: Kingambit|Ghost
+|move|p1b: Slasher|Close Combat|p2b: Kingambit
+|-immune|p2b: Kingambit
+|move|p1a: Indeedee|Psychic|p2a: Rillaboom
+|-damage|p2a: Rillaboom|77/100
+|move|p2b: Kingambit|Kowtow Cleave|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p2b: Kingambit|84/100|[from] item: Rocky Helmet|[of] p1a: Indeedee
+|faint|p1a: Indeedee
+|
+|-heal|p2a: Rillaboom|83/100|[from] Grassy Terrain
+|-heal|p2b: Kingambit|90/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1755139296
+|switch|p1a: Yamato|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Yamato
+|turn|2
+|
+|t:|1755139313
+|move|p2a: Rillaboom|Fake Out|p1a: Yamato
+|-damage|p1a: Yamato|85/100
+|move|p1b: Slasher|Throat Chop|p2b: Kingambit
+|-supereffective|p2b: Kingambit
+|-damage|p2b: Kingambit|47/100
+|-start|p2b: Kingambit|Throat Chop|[silent]
+|cant|p1a: Yamato|flinch
+|move|p2b: Kingambit|Swords Dance|p2b: Kingambit
+|-boost|p2b: Kingambit|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Yamato|91/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|89/100|[from] Grassy Terrain
+|-heal|p2b: Kingambit|53/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1755139333
+|-terastallize|p1a: Yamato|Ice
+|move|p2a: Rillaboom|Grassy Glide|p1b: Slasher
+|-resisted|p1b: Slasher
+|-damage|p1b: Slasher|72/100
+|move|p2b: Kingambit|Sucker Punch|p1b: Slasher
+|-resisted|p1b: Slasher
+|-damage|p1b: Slasher|0 fnt
+|faint|p1b: Slasher
+|move|p1a: Yamato|Blizzard|p2b: Kingambit|[spread] p2a,p2b
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2a: Rillaboom
+|faint|p2b: Kingambit
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Yamato|97/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1755139346
+|switch|p1b: Kaido|Baxcalibur, L50, M|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Magmar|Magmar, L50, F|100/100
+|turn|4
+|
+|t:|1755139370
+|move|p2a: Basculegion|Last Respects|p1b: Kaido
+|-damage|p1b: Kaido|41/100
+|move|p1a: Yamato|Blizzard|p2a: Basculegion|[spread] p2a,p2b
+|-resisted|p2a: Basculegion
+|-resisted|p2b: Magmar
+|-damage|p2a: Basculegion|63/100
+|-damage|p2b: Magmar|78/100
+|move|p1b: Kaido|Glaive Rush|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|-singlemove|p1b: Kaido|Glaive Rush|[silent]
+|faint|p2a: Basculegion
+|move|p2b: Magmar|Overheat|p1a: Yamato
+|-supereffective|p1a: Yamato
+|-damage|p1a: Yamato|0 fnt
+|-unboost|p2b: Magmar|spa|2
+|faint|p1a: Yamato
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Kaido|47/100|[from] Grassy Terrain
+|-heal|p2b: Magmar|84/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1755139392
+|move|p1b: Kaido|Protect|p1b: Kaido
+|-singleturn|p1b: Kaido|Protect
+|move|p2b: Magmar|Overheat|p1b: Kaido
+|-activate|p1b: Kaido|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Kaido|53/100|[from] Grassy Terrain
+|-heal|p2b: Magmar|89/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1755139404
+|move|p1b: Kaido|Dragon Dance|p1b: Kaido
+|-boost|p1b: Kaido|atk|1
+|-boost|p1b: Kaido|spe|1
+|move|p2b: Magmar|Overheat|p1b: Kaido
+|-damage|p1b: Kaido|28/100
+|-unboost|p2b: Magmar|spa|2
+|-ability|p1b: Kaido|Thermal Exchange|boost
+|-boost|p1b: Kaido|atk|1
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1755139421
+|move|p1b: Kaido|Dragon Dance|p1b: Kaido
+|-boost|p1b: Kaido|atk|1
+|-boost|p1b: Kaido|spe|1
+|move|p2b: Magmar|Overheat|p1b: Kaido
+|-damage|p1b: Kaido|11/100
+|-unboost|p2b: Magmar|spa|2
+|-ability|p1b: Kaido|Thermal Exchange|boost
+|-boost|p1b: Kaido|atk|1
+|
+|upkeep
+|turn|8
+|c|☆spearow's nest|nasty work
+|c|☆spearow's nest|what if you got crit 😭
+|c|☆spearow's nest|gg
+|
+|t:|1755139452
+|move|p1b: Kaido|Glaive Rush|p2b: Magmar
+|-damage|p2b: Magmar|0 fnt
+|-singlemove|p1b: Kaido|Glaive Rush|[silent]
+|faint|p2b: Magmar
+|
+|win|Sores
+|raw|Sores's rating: 1230 → 1259(+29 for winning)
+|raw|spearow's nest's rating: 1284 → 1255(-29 for losing)
+|c|☆Sores|ggs
+|l|☆spearow's nest
+|player|p2|
+|j|☆spearow's nest
+|player|p2|spearow's nest|lance|

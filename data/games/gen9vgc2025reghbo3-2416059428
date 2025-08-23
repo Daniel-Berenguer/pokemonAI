@@ -1,0 +1,158 @@
+|j|☆TR Setter
+|j|☆marcosdeltasena31
+|html|TR Settermarcosdeltasena31    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1754430233
+|gametype|doubles
+|player|p1|TR Setter|zinzolin|1201
+|player|p2|marcosdeltasena31|hilbert|1227
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Electabuzz, L50, F|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|HelpingHand,Psychic,TrickRoom,FollowMe|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,WideGuard,TrickRoom|||M|||50|,,,,,Steel]Annihilape||ChoiceScarf|Defiant|FinalGambit,CloseCombat,RageFist,Uturn|||F|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,Protect,EarthPower|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,LowKick,Protect|||M|||50|,,,,,Dark
+|showteam|p2|Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||F|||50|,,,,,Fairy]Sneasler||FocusSash|PoisonTouch|DireClaw,CloseCombat,FakeOut,Coaching|||F|||50|,,,,,Ghost]Volcarona||CovertCloak|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||F|||50|,,,,,Fairy]Rillaboom||AssaultVest|GrassySurge|WoodHammer,FakeOut,GrassyGlide,HighHorsepower|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SwordsDance,SuckerPunch,Protect|||F|||50|,,,,,Dark]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1754430285
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Dragonite|Dragonite, L50, F|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|turn|1
+|
+|t:|1754430323
+|move|p1b: Hatterene|Protect|p1b: Hatterene
+|-singleturn|p1b: Hatterene|Protect
+|move|p2a: Dragonite|Extreme Speed|p1b: Hatterene
+|-activate|p1b: Hatterene|move: Protect
+|move|p1a: Annihilape|Final Gambit|p2b: Sneasler
+|-enditem|p2b: Sneasler|Focus Sash
+|-damage|p2b: Sneasler|1/100
+|faint|p1a: Annihilape
+|move|p2b: Sneasler|Dire Claw|p1b: Hatterene
+|-activate|p1b: Hatterene|move: Protect
+|
+|upkeep
+|
+|t:|1754430332
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|2
+|
+|t:|1754430357
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|move|p2b: Sneasler|Dire Claw|p1b: Torkoal
+|-damage|p1b: Torkoal|68/100
+|-status|p1b: Torkoal|psn
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Torkoal|74/100 psn|[from] Grassy Terrain
+|-heal|p2b: Sneasler|7/100|[from] Grassy Terrain
+|-damage|p1b: Torkoal|62/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1754430387
+|switch|p2b: Kingambit|Kingambit, L50, F|100/100
+|move|p2a: Rillaboom|Fake Out|p1b: Torkoal
+|-damage|p1b: Torkoal|51/100 psn
+|cant|p1b: Torkoal|flinch
+|move|p1a: Indeedee|Psychic|p2b: Kingambit
+|-immune|p2b: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Torkoal|58/100 psn|[from] Grassy Terrain
+|-damage|p1b: Torkoal|45/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1754430402
+|switch|p2a: Sneasler|Sneasler, L50, F|7/100
+|-terastallize|p1b: Torkoal|Fire
+|move|p2b: Kingambit|Protect|p2b: Kingambit
+|-singleturn|p2b: Kingambit|Protect
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Torkoal|Weather Ball|p2b: Kingambit
+|-activate|p2b: Kingambit|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Torkoal|51/100 psn|[from] Grassy Terrain
+|-heal|p2a: Sneasler|13/100|[from] Grassy Terrain
+|-damage|p1b: Torkoal|39/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1754430420
+|-terastallize|p2b: Kingambit|Dark
+|move|p2a: Sneasler|Fake Out|p1b: Torkoal
+|-damage|p1b: Torkoal|28/100 psn
+|cant|p1b: Torkoal|flinch
+|move|p2b: Kingambit|Kowtow Cleave|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Torkoal|34/100 psn|[from] Grassy Terrain
+|-heal|p2a: Sneasler|19/100|[from] Grassy Terrain
+|-damage|p1b: Torkoal|22/100 psn|[from] psn
+|upkeep
+|
+|t:|1754430427
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|turn|6
+|
+|t:|1754430448
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|move|p2b: Kingambit|Protect|p2b: Kingambit
+|-singleturn|p2b: Kingambit|Protect
+|move|p1b: Torkoal|Weather Ball|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|move|p1a: Hatterene|Dazzling Gleam|p2b: Kingambit
+|-activate|p2b: Kingambit|move: Protect
+|
+|-weather|none
+|-heal|p1b: Torkoal|28/100 psn|[from] Grassy Terrain
+|-damage|p1b: Torkoal|16/100 psn|[from] psn
+|-fieldend|move: Trick Room
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1754430465
+|switch|p2a: Sneasler|Sneasler, L50, F|19/100
+|turn|7
+|-message|TR Setter forfeited.
+|
+|win|marcosdeltasena31
+|raw|TR Setter's rating: 1201 → 1178(-23 for losing)
+|raw|marcosdeltasena31's rating: 1227 → 1250(+23 for winning)
+|l|☆TR Setter
+|player|p1|

@@ -1,0 +1,224 @@
+|j|☆wade connects
+|j|☆IneverfinishedOR
+|html|wade connectsIneverfinishedOR    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1755392668
+|gametype|doubles
+|player|p1|wade connects|102|1245
+|player|p2|IneverfinishedOR|1|1334
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Malamar, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Delphox, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Murkrow, L50, F|
+|poke|p2|Rotom-Wash, L50|
+|teampreview|4
+|showteam|p1|Malamar||SafetyGoggles|Contrary|Protect,TrickRoom,Superpower,KnockOff|||M|||50|,,,,,Water]Indeedee-F||PsychicSeed|PsychicSurge|Protect,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|Protect,TrickRoom,ExpandingForce,DazzlingGleam|||F|||50|,,,,,Water]Torkoal||Charcoal|Drought|Protect,Overheat,Eruption,HeatWave|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Protect,Facade,HeadlongRush,SwordsDance|||F|||50|,,,,,Ghost]Lilligant-Hisui||FocusSash|Chlorophyll|AfterYou,SleepPowder,LeafBlade,CloseCombat|||F|||50|,,,,,Ghost
+|showteam|p2|Indeedee-F||RockyHelmet|PsychicSurge|FollowMe,HelpingHand,Imprison,TrickRoom|||F|||50|,,,,,Fairy]Delphox||LifeOrb|Blaze|Protect,NastyPlot,HeatWave,ExpandingForce|||F|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|Protect,CloseCombat,DireClaw,ThroatChop|||M|||50|,,,,,Dark]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Murkrow||Eviolite|Prankster|FoulPlay,SunnyDay,Haze,Tailwind|||F|||50|,,,,,Ghost]Rotom-Wash||Leftovers|Levitate|Protect,HydroPump,Thunderbolt,WillOWisp||||||50|,,,,,Fire
+|
+|t:|1755392700
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|1
+|
+|t:|1755392717
+|move|p1b: Torkoal|Protect|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Protect
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Sneasler|Dire Claw|p1b: Torkoal
+|-activate|p1b: Torkoal|move: Protect
+|move|p1a: Lilligant|Sleep Powder|p2a: Indeedee|[miss]
+|-miss|p1a: Lilligant|p2a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1755392741
+|switch|p1b: Malamar|Malamar, L50, M, shiny|100/100
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Lilligant|Sleep Powder|p2a: Indeedee
+|-status|p2a: Indeedee|slp|[from] move: Sleep Powder
+|move|p2b: Sneasler|Dire Claw|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-enditem|p1a: Lilligant|Focus Sash
+|-damage|p1a: Lilligant|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1755392759
+|move|p2b: Sneasler|Dire Claw|p1b: Malamar
+|-damage|p1b: Malamar|58/100
+|-status|p1b: Malamar|slp
+|move|p1a: Lilligant|Sleep Powder|p2b: Sneasler
+|-status|p2b: Sneasler|slp|[from] move: Sleep Powder
+|cant|p2a: Indeedee|slp
+|cant|p1b: Malamar|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1755392773
+|move|p1a: Lilligant|After You|p1b: Malamar
+|-activate|p1b: Malamar|move: After You
+|cant|p1b: Malamar|slp
+|cant|p2b: Sneasler|slp
+|cant|p2a: Indeedee|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1755392791
+|-curestatus|p2b: Sneasler|slp|[msg]
+|move|p2b: Sneasler|Dire Claw|p1b: Malamar
+|-damage|p1b: Malamar|16/100 slp
+|move|p1a: Lilligant|After You|p1b: Malamar
+|-activate|p1b: Malamar|move: After You
+|cant|p1b: Malamar|slp
+|cant|p2a: Indeedee|slp
+|
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1755392820
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|move|p1a: Lilligant|Sleep Powder|p2b: Sneasler
+|-status|p2b: Sneasler|slp|[from] move: Sleep Powder
+|cant|p2b: Sneasler|slp
+|-curestatus|p2a: Indeedee|slp|[msg]
+|move|p2a: Indeedee|Imprison|p2a: Indeedee
+|-start|p2a: Indeedee|move: Imprison
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1755392839
+|-terastallize|p1b: Torkoal|Fire
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|cant|p2b: Sneasler|slp
+|move|p1a: Lilligant|Sleep Powder|p2a: Indeedee
+|-status|p2a: Indeedee|slp|[from] move: Sleep Powder
+|move|p1b: Torkoal|Eruption|p2b: Sneasler|[spread] p2a,p2b
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Sneasler|2/100 slp
+|faint|p2a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1755392850
+|switch|p2a: Delphox|Delphox, L50, F|100/100
+|turn|8
+|
+|t:|1755392855
+|cant|p2b: Sneasler|slp
+|move|p1a: Lilligant|After You|p1b: Torkoal
+|-activate|p1b: Torkoal|move: After You
+|move|p1b: Torkoal|Eruption|p2a: Delphox|[spread] p2a,p2b
+|-resisted|p2a: Delphox
+|-damage|p2a: Delphox|34/100
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|move|p2a: Delphox|Expanding Force|p1b: Torkoal
+|-damage|p1b: Torkoal|37/100
+|-damage|p2a: Delphox|24/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1755392861
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Lilligant|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|turn|9
+|
+|t:|1755392876
+|switch|p1a: Malamar|Malamar, L50, M, shiny|16/100 slp
+|move|p1b: Torkoal|Protect|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Malamar
+|-damage|p1a: Malamar|5/100 slp
+|move|p2a: Delphox|Expanding Force|p1b: Torkoal
+|-activate|p1b: Torkoal|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1755392891
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|move|p2a: Delphox|Heat Wave|p1b: Hatterene|[spread] p1a,p1b
+|-damage|p1a: Malamar|0 fnt
+|-damage|p1b: Hatterene|3/100
+|faint|p1a: Malamar
+|-damage|p2a: Delphox|14/100|[from] item: Life Orb
+|move|p2b: Incineroar|Knock Off|p1b: Hatterene
+|-damage|p1b: Hatterene|0 fnt
+|-enditem|p1b: Hatterene|Life Orb|[from] move: Knock Off|[of] p2b: Incineroar
+|faint|p1b: Hatterene
+|
+|-weather|none
+|upkeep
+|
+|t:|1755392904
+|switch|p1a: Torkoal|Torkoal, L50, M, tera:Fire|37/100
+|switch|p1b: Lilligant|Lilligant-Hisui, L50, F|1/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|11
+|
+|t:|1755392935
+|-terastallize|p2b: Incineroar|Ghost
+|move|p2a: Delphox|Protect|p2a: Delphox
+|-singleturn|p2a: Delphox|Protect
+|move|p1b: Lilligant|Close Combat|p2b: Incineroar
+|-immune|p2b: Incineroar
+|move|p2b: Incineroar|Knock Off|p1b: Lilligant
+|-resisted|p1b: Lilligant
+|-damage|p1b: Lilligant|0 fnt
+|faint|p1b: Lilligant
+|move|p1a: Torkoal|Heat Wave|p2a: Delphox|[spread] p2b
+|-activate|p2a: Delphox|move: Protect
+|-damage|p2b: Incineroar|34/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|n|!IneverfinishedOR|ineverfinishedor
+|-message|wade connects forfeited.
+|raw|wade connects's rating: 1245 → 1226(-19 for losing)
+|raw|IneverfinishedOR's rating: 1334 → 1349(+15 for winning)
+|
+|win|IneverfinishedOR

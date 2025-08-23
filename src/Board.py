@@ -1,4 +1,3 @@
-import pickle
 from Pokemon import Pokemon
 
 with open("data/moves.csv", "r") as file:
@@ -61,24 +60,43 @@ class Board:
               return 4
           else:
               return 5
+     
+     @staticmethod
+     def processName(name):
+          name = name.replace(" ", "-")
+          if name in pokemon_stats:
+               return name
+          else:
+               names = name.split("-")
+               if names[0] in pokemon_stats:
+                    return names[0]
+               else:
+                    raise Exception(f"KEY ERROR: {name}")
           
      def j2pokemon(self, i, j):
-          return self.active[i][j] 
+          return self.active[i][j]
 
      def loadPokemon(self, line):
           line = line.split("]")
           player = int(line[0].split("|")[2][1])-1
           line[0] = line[0][13:]
           for i,poke in enumerate(line):
-               pokemon = Pokemon(poke, pokemon_stats, move_dict)
+               name = Board.processName(poke.split("|")[0])
+               pokemon = Pokemon(name, poke, pokemon_stats, move_dict)
                self.pokemon[player].append(pokemon)
-               self.name2Indicies[player][pokemon.name] = i
+               self.name2Indicies[player][name] = i
 
      def switch(self, line):
           line = line.split("|")
           line[0] = line[0].split(" ")
           i,j = Board.player2indicies(line[0][0])
-          poke = line[0][1]
+
+          # Switch out pokemon
+          if self.active[i][j] is not None:
+               k = self.j2pokemon(i, j)
+               self.pokemon[i][k].switchOut()
+
+          poke = Board.processName(line[1].split(",")[0])
           if poke in self.name2Indicies[i]:
                self.active[i][j] = self.name2Indicies[i][poke]
           else:
@@ -86,21 +104,19 @@ class Board:
                poke = line[1].split(",")[0]
                self.active[i][j] = self.name2Indicies[i][poke]
           self.shown[i][self.active[i][j]] = True
-          health = int(line[2].split("/")[0])
-          if health != self.pokemon[i][self.active[i][j]].hp:
-              print("ALGO RARO PASA AQUI")
-              print(poke)
-              print(health)
-              print(self.pokemon[i][self.active[i][j]].hp)
+          hp = int(line[2].split("/")[0])
+          if hp != self.pokemon[i][self.active[i][j]].hp:
+              print(f"Creo que amoonguss: {poke}")
+          self.pokemon[i][self.active[i][j]].updateHp(hp)
          
      def startField(self, line):
-          terrain = line.split("|")[0].split(" ")[1]
-          self.terrain[0] = terrain
+          terrain = line.split("|")[0].split(":")[1][1:]
           if terrain == "Trick Room":
                self.trickroom = 5
           elif terrain == "Gravity":
                self.gravity = 5
           else:
+               self.terrain[0] = terrain
                self.terrain[1] = 0
 
      def endField(self, line):
@@ -121,18 +137,22 @@ class Board:
      def updateSide(self, line, start):
           line = line.split("|")
           player, _ = Board.player2indicies(line[0])
-          effect = line[1].split(":")[1][1:]
-          if effect == "Aurora Veil":
-               self.auroraveils[player] = [start, 0]
-          elif effect == "Light Screen":
-               self.lightscreens[player] = [start, 0]
-          elif effect == "Reflect":
+          if line[1] == "Reflect":
                self.reflects[player] = [start, 0]
-          elif effect == "Tailwind":
-               if start:
-                    self.tailwinds[player] = 4
           else:
-               print(f"UNKNOWN EFFECT:{effect}")
+               splitted = line[1].split(":")
+               if len(splitted) <= 1:
+                    raise Exception(f"UNKNOWN EFFECT: {line[1]}")
+               effect = splitted[1][1:]
+               if effect == "Aurora Veil":
+                    self.auroraveils[player] = [start, 0]
+               elif effect == "Light Screen":
+                    self.lightscreens[player] = [start, 0]  
+               elif effect == "Tailwind":
+                    if start:
+                         self.tailwinds[player] = 4
+               else:
+                    raise Exception(f"UNKNOWN EFFECT: {effect}")
 
      def boost(self, line):
           line = line.split("|")
@@ -153,13 +173,17 @@ class Board:
      def updateHP(self, line):
           line = line.split("|")
           i, j = Board.player2indicies(line[0])
-          j = self.j2pokemon(i, j)
+          if line[0][2] == ":":
+               # J value is garbage (must lookup manually)
+               name = Board.processName(line[0].split(" ")[1])
+               j = self.name2Indicies[i][name]
+          else:
+               j = self.j2pokemon(i, j)
           if line[1] == "0 fnt":
-               self.pokemon[i][j].fnt = True
-               self.pokemon[i][j].hp = 0
+               self.pokemon[i][j].updateHp(0)
           else:
                hp = int(line[1].split("/")[0])
-               self.pokemon[i][j].hp = hp
+               self.pokemon[i][j].updateHp(hp)
               
 
      def endItem(self, line):
@@ -192,6 +216,13 @@ class Board:
           i,k = Board.player2indicies(line[0])
           j = self.j2pokemon(i, k)
           self.pokemon[i][j].sub = False
+
+     def perish(self, line):
+          line = line.split("|")
+          i,k = Board.player2indicies(line[0])
+          j = self.j2pokemon(i, k)
+          perishIx = 4 - int(line[1][-1])
+          self.pokemon[i][j].perish = perishIx
 
      def nextTurn(self):
           if self.weather[0] != "none":

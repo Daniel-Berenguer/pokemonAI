@@ -1,0 +1,137 @@
+|j|☆ogden2
+|j|☆dialghite
+|html|ogden2dialghite    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1755871204
+|gametype|doubles
+|player|p1|ogden2|gambler|1304
+|player|p2|dialghite|volkner|1418
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tauros-Paldea-Aqua, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Electabuzz, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Archaludon, L50, M|
+|teampreview|4
+|showteam|p1|Tauros-Paldea-Aqua||ChoiceBand|Intimidate|WaveCrash,AquaJet,CloseCombat,HighHorsepower|||M|||50|,,,,,Grass]Volcarona||GrassySeed|FlameBody|QuiverDance,HeatWave,GigaDrain,Protect|||M|||50|,,,,,Grass]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,FakeOut,Uturn|||F|||50|,,,,,Fire]Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,RockSlide,Protect|||F|||50|,,,,,Steel]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,Protect,SwordsDance|||F|||50|,,,,,Dark]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Whimsicott||CovertCloak|Prankster|Moonblast,Taunt,Tailwind,FakeTears|||M|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Haze,Protect|||F|||50|,,,,,Steel]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,Imprison,TrickRoom|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Archaludon||PowerHerb|Stalwart|ElectroShot,DragonPulse,Thunderbolt,Protect|||M|||50|,,,,,Electric
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dialghite)
+|
+|t:|1755871232
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p1b: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|1
+|
+|t:|1755871239
+|-terastallize|p2b: Ursaluna|Normal
+|move|p1b: Electabuzz|Follow Me|p1b: Electabuzz
+|-singleturn|p1b: Electabuzz|move: Follow Me
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: dialghite|move: Tailwind
+|move|p2b: Ursaluna|Blood Moon|p1b: Electabuzz
+|-damage|p1b: Electabuzz|13/100
+|-damage|p2b: Ursaluna|91/100|[from] item: Life Orb
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1755871269
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-enditem|p1a: Volcarona|Grassy Seed
+|-boost|p1a: Volcarona|def|1|[from] item: Grassy Seed
+|move|p2a: Whimsicott|Taunt|p1a: Volcarona
+|-start|p1a: Volcarona|move: Taunt
+|move|p2b: Ursaluna|Hyper Voice|p1a: Volcarona|[spread] p1a,p1b
+|-damage|p1a: Volcarona|58/100
+|-damage|p1b: Rillaboom|58/100
+|-damage|p2b: Ursaluna|81/100|[from] item: Life Orb
+|cant|p1a: Volcarona|move: Taunt|Quiver Dance
+|
+|-heal|p2b: Ursaluna|87/100|[from] Grassy Terrain
+|-heal|p1a: Volcarona|65/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|64/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1755871287
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1b: Rillaboom|Fake Out|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Psychic Terrain
+|move|p2b: Ursaluna|Blood Moon|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|-damage|p2b: Ursaluna|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1755871290
+|switch|p1a: Kingambit|Kingambit, L50, F|100/100
+|turn|4
+|
+|t:|1755871304
+|switch|p1b: Electabuzz|Electabuzz, L50, M|13/100
+|-terastallize|p1a: Kingambit|Dark
+|move|p2a: Indeedee|Expanding Force|p1b: Electabuzz|[spread] p1b
+|-immune|p1a: Kingambit
+|-damage|p1b: Electabuzz|0 fnt
+|faint|p1b: Electabuzz
+|move|p2b: Ursaluna|Hyper Voice|p1a: Kingambit
+|-damage|p1a: Kingambit|21/100
+|-damage|p2b: Ursaluna|68/100|[from] item: Life Orb
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|
+|-sideend|p2: dialghite|move: Tailwind
+|upkeep
+|
+|t:|1755871317
+|switch|p1b: Rillaboom|Rillaboom, L50, F|64/100
+|switch|p2b: Whimsicott|Whimsicott, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|5
+|
+|t:|1755871334
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2b: Whimsicott|Moonblast|p1a: Kingambit
+|-activate|p1a: Kingambit|move: Protect
+|move|p1b: Rillaboom|Wood Hammer|p2b: Whimsicott
+|-resisted|p2b: Whimsicott
+|-damage|p2b: Whimsicott|49/100
+|-damage|p1b: Rillaboom|50/100|[from] Recoil
+|
+|-heal|p2b: Whimsicott|55/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|56/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|27/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|-message|ogden2 forfeited.
+|raw|ogden2's rating: 1304 → 1290(-14 for losing)
+|raw|dialghite's rating: 1418 → 1432(+14 for winning)
+|
+|win|dialghite

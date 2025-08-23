@@ -1,0 +1,137 @@
+|j|☆takeshivgc-test
+|j|☆Piccius
+|html|takeshivgc-testPiccius    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1754758530
+|gametype|doubles
+|player|p1|takeshivgc-test|102|1206
+|player|p2|Piccius|rancher|1228
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Sneasler, L50, F|
+|teampreview|4
+|showteam|p1|Armarouge||PowerHerb|FlashFire|ArmorCannon,ExpandingForce,TrickRoom,MeteorBeam|||M|||50|,,,,,Grass]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,TrickRoom,FollowMe|||F|||50|,,,,,Fairy]Torkoal||Charcoal|Drought|Eruption,Protect,WeatherBall,HeatWave|||M|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|CloseCombat,SolarBlade,SleepPowder,AfterYou|||F|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Archaludon||AssaultVest|Stamina|DracoMeteor,ElectroShot,FlashCannon,BodyPress|||M|||50|,,,,,Bug]Pelipper||CovertCloak|Drizzle|Hurricane,WeatherBall,Tailwind,WideGuard|||M|||50|,,,,,Ghost]Basculegion||ChoiceScarf|Adaptability|AquaJet,WaveCrash,LastRespects,FlipTurn|||M|||50|,,,,,Water]Gholdengo||Leftovers|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Rillaboom||LoadedDice|GrassySurge|BulletSeed,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Grass]Sneasler||GrassySeed|Unburden|ThroatChop,DireClaw,CloseCombat,Protect|||F|||50|,,,,,Dark
+|
+|t:|1754758578
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Armarouge|Armarouge, L50, M|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1754758622
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Basculegion|Flip Turn|p1a: Indeedee
+|-damage|p1a: Indeedee|46/100
+|
+|t:|1754758627
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100|[from] Flip Turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p2b: Pelipper|Hurricane|p1a: Indeedee
+|-damage|p1a: Indeedee|15/100
+|-start|p1a: Indeedee|confusion
+|move|p1b: Armarouge|Meteor Beam||[still]
+|-prepare|p1b: Armarouge|Meteor Beam
+|-boost|p1b: Armarouge|spa|1
+|-enditem|p1b: Armarouge|Power Herb
+|-anim|p1b: Armarouge|Meteor Beam|p2b: Pelipper
+|-supereffective|p2b: Pelipper
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Indeedee|21/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1754758640
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|turn|2
+|
+|t:|1754758668
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|-terastallize|p2b: Basculegion|Water
+|-terastallize|p1b: Armarouge|Grass
+|move|p2a: Rillaboom|Grassy Glide|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|37/100
+|move|p2b: Basculegion|Wave Crash|p1b: Armarouge
+|-resisted|p1b: Armarouge
+|-damage|p1b: Armarouge|44/100
+|-damage|p2b: Basculegion|82/100|[from] Recoil
+|move|p1b: Armarouge|Trick Room|p1b: Armarouge
+|-fieldstart|move: Trick Room|[of] p1b: Armarouge
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ursaluna|43/100|[from] Grassy Terrain
+|-heal|p1b: Armarouge|50/100|[from] Grassy Terrain
+|-heal|p2b: Basculegion|88/100|[from] Grassy Terrain
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1754758696
+|switch|p1a: Indeedee|Indeedee-F, L50, F|21/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100
+|move|p1b: Armarouge|Expanding Force|p2a: Rillaboom|[spread] p2a,p2b
+|-resisted|p2b: Archaludon
+|-damage|p2a: Rillaboom|0 fnt
+|-damage|p2b: Archaludon|63/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|faint|p2a: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1754758698
+|switch|p2a: Basculegion|Basculegion, L50, M, tera:Water|88/100
+|turn|4
+|
+|t:|1754758716
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Armarouge|Expanding Force|p2a: Basculegion|[spread] p2a,p2b
+|-resisted|p2b: Archaludon
+|-damage|p2a: Basculegion|0 fnt
+|-damage|p2b: Archaludon|20/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|faint|p2a: Basculegion
+|move|p2b: Archaludon|Body Press|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|Piccius forfeited.
+|raw|takeshivgc-test's rating: 1206 → 1233(+27 for winning)
+|raw|Piccius's rating: 1228 → 1201(-27 for losing)
+|
+|win|takeshivgc-test
+|l|☆Piccius
+|player|p2|

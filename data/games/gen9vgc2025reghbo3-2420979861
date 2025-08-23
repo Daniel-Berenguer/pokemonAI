@@ -1,0 +1,181 @@
+|j|☆nuclearnutz321
+|j|☆HeracrossVGC
+|html|nuclearnutz321HeracrossVGC    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1755110343
+|gametype|doubles
+|player|p1|nuclearnutz321|pokemonrangerf|1165
+|player|p2|HeracrossVGC|170|1203
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Chesnaught, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Maushold, L50|
+|poke|p1|Arcanine-Hisui, L50, F|
+|poke|p1|Milotic, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Arcanine-Hisui, L50, M|
+|teampreview|4
+|showteam|p1|Chesnaught||SitrusBerry|Bulletproof|BellyDrum,GrassyGlide,DrainPunch,SpikyShield|||F|||50|,,,,,Fire]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,Uturn|||F|||50|,,,,,Water]Gholdengo||GrassySeed|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Maushold||CovertCloak|FriendGuard|FollowMe,PopulationBomb,Taunt,Protect||||||50|,,,,,Ghost]Arcanine-Hisui||ClearAmulet|Intimidate|ExtremeSpeed,FlareBlitz,RockSlide,Protect|||F|||50|,,,,,Normal]Milotic||Leftovers|Competitive|Scald,Recover,Protect,IceBeam|||F|||50|,,,,,Grass
+|showteam|p2|Gholdengo||GrassySeed|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,Coaching,Protect|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,DrumBeating,HighHorsepower|||M|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||F|||50|,,,,,Ground]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,IcyWind,Encore,AuroraVeil|||M|||50|,,,,,Ghost]Arcanine-Hisui||ClearAmulet|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||M|||50|,,,,,Water
+|
+|t:|1755110366
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Chesnaught|Chesnaught, L50, F|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p1a: Gholdengo|Grassy Seed
+|-boost|p1a: Gholdengo|def|1|[from] item: Grassy Seed
+|-enditem|p2b: Gholdengo|Grassy Seed
+|-boost|p2b: Gholdengo|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1755110402
+|switch|p2a: Arcanine|Arcanine-Hisui, L50, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Gholdengo|atk|1
+|-unboost|p1b: Chesnaught|atk|1
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2b: Gholdengo|Shadow Ball|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|move|p1b: Chesnaught|Belly Drum|p1b: Chesnaught
+|-damage|p1b: Chesnaught|50/100
+|-setboost|p1b: Chesnaught|atk|6|[from] move: Belly Drum
+|-enditem|p1b: Chesnaught|Sitrus Berry|[eat]
+|-heal|p1b: Chesnaught|75/100|[from] item: Sitrus Berry
+|
+|-heal|p1b: Chesnaught|82/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1755110426
+|switch|p1a: Arcanine|Arcanine-Hisui, L50, F|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-fail|p2a: Arcanine|unboost|[from] item: Clear Amulet|[of] p2a: Arcanine
+|-unboost|p2b: Gholdengo|atk|1
+|turn|2
+|
+|t:|1755110464
+|switch|p2b: Dragonite|Dragonite, L50, F|100/100
+|-terastallize|p1b: Chesnaught|Fire
+|move|p2a: Arcanine|Protect|p2a: Arcanine
+|-singleturn|p2a: Arcanine|Protect
+|move|p1b: Chesnaught|Grassy Glide|p2a: Arcanine
+|-activate|p2a: Arcanine|move: Protect
+|move|p1a: Arcanine|Flare Blitz|p2b: Dragonite
+|-resisted|p2b: Dragonite
+|-damage|p2b: Dragonite|84/100
+|-damage|p1a: Arcanine|96/100|[from] Recoil
+|
+|-heal|p1a: Arcanine|100/100|[from] Grassy Terrain
+|-heal|p1b: Chesnaught|88/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1755110519
+|move|p2a: Arcanine|Extreme Speed|p1b: Chesnaught
+|-damage|p1b: Chesnaught|69/100
+|move|p1b: Chesnaught|Grassy Glide|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|move|p2b: Dragonite|Scale Shot|p1b: Chesnaught
+|-damage|p1b: Chesnaught|56/100
+|-damage|p1b: Chesnaught|43/100
+|-damage|p1b: Chesnaught|31/100
+|-damage|p1b: Chesnaught|18/100
+|-damage|p1b: Chesnaught|7/100
+|-hitcount|p1b: Chesnaught|5
+|-unboost|p2b: Dragonite|def|1
+|-boost|p2b: Dragonite|spe|1
+|move|p1a: Arcanine|Rock Slide|p2b: Dragonite
+|-supereffective|p2b: Dragonite
+|-damage|p2b: Dragonite|0 fnt
+|faint|p2b: Dragonite
+|
+|-heal|p1b: Chesnaught|14/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1755110533
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|turn|4
+|
+|t:|1755110552
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-terastallize|p2a: Gholdengo|Water
+|move|p1b: Chesnaught|Spiky Shield|p1b: Chesnaught
+|-singleturn|p1b: Chesnaught|move: Protect
+|move|p2b: Rillaboom|Fake Out|p1b: Chesnaught
+|-activate|p1b: Chesnaught|move: Protect
+|-damage|p2b: Rillaboom|88/100|[from] Spiky Shield|[of] p1b: Chesnaught
+|move|p2a: Gholdengo|Make It Rain|p1a: Rillaboom|[spread] p1a
+|-activate|p1b: Chesnaught|move: Protect
+|-damage|p1a: Rillaboom|73/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|-heal|p2b: Rillaboom|94/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|80/100|[from] Grassy Terrain
+|-heal|p1b: Chesnaught|20/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1755110576
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1a: Rillaboom|Fake Out|p2b: Rillaboom
+|-damage|p2b: Rillaboom|81/100
+|cant|p2b: Rillaboom|flinch
+|move|p1b: Chesnaught|Drain Punch|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|-heal|p1b: Chesnaught|60/100|[from] drain|[of] p2b: Rillaboom
+|faint|p2b: Rillaboom
+|
+|-heal|p1a: Rillaboom|86/100|[from] Grassy Terrain
+|-heal|p1b: Chesnaught|66/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by nuclearnutz321)
+|c|☆nuclearnutz321|gg?
+|c|☆nuclearnutz321|I think?
+|
+|t:|1755110666
+|switch|p1a: Arcanine|Arcanine-Hisui, L50, F|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Gholdengo|atk|1
+|move|p1b: Chesnaught|Spiky Shield|p1b: Chesnaught
+|-singleturn|p1b: Chesnaught|move: Protect
+|move|p2a: Gholdengo|Shadow Ball|p1b: Chesnaught
+|-activate|p1b: Chesnaught|move: Protect
+|
+|upkeep
+|turn|7
+|l|☆HeracrossVGC
+|inactive|HeracrossVGC disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|HeracrossVGC has 30 seconds left.
+|inactive|HeracrossVGC has 20 seconds left.
+|inactive|HeracrossVGC has 15 seconds left.
+|inactive|HeracrossVGC has 10 seconds left.
+|inactive|HeracrossVGC has 5 seconds left.
+|-message|HeracrossVGC lost due to inactivity.
+|
+|win|nuclearnutz321
+|raw|nuclearnutz321's rating: 1165 → 1193(+28 for winning)
+|raw|HeracrossVGC's rating: 1203 → 1175(-28 for losing)

@@ -1,0 +1,135 @@
+|j|☆TR Setter
+|j|☆garlandttv
+|html|TR Settergarlandttv    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1754257187
+|gametype|doubles
+|player|p1|TR Setter|zinzolin|1253
+|player|p2|garlandttv|cheren-gen5bw2|1157
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|HelpingHand,Psychic,TrickRoom,FollowMe|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,WideGuard,TrickRoom|||M|||50|,,,,,Steel]Annihilape||ChoiceScarf|Defiant|FinalGambit,CloseCombat,RageFist,Uturn|||F|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,Protect,EarthPower|||M|||50|,,,,,Fire]Kingambit||SafetyGoggles|Defiant|SuckerPunch,KowtowCleave,LowKick,Protect|||M|||50|,,,,,Dark
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1754257213
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|switch|p2b: Charizard|Charizard, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1754257239
+|-terastallize|p1b: Hatterene|Fire
+|move|p2a: Torkoal|Helping Hand|p2b: Charizard
+|-singleturn|p2b: Charizard|Helping Hand|[of] p2a: Torkoal
+|move|p2b: Charizard|Heat Wave|p1b: Hatterene|[spread] p1a,p1b
+|-resisted|p1b: Hatterene
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Hatterene|8/100
+|faint|p1a: Indeedee
+|move|p1b: Hatterene|Trick Room|p1b: Hatterene
+|-fieldstart|move: Trick Room|[of] p1b: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|88/100|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|
+|t:|1754257244
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|turn|2
+|
+|t:|1754257272
+|move|p1b: Hatterene|Protect|p1b: Hatterene
+|-singleturn|p1b: Hatterene|Protect
+|move|p1a: Torkoal|Eruption|p2b: Charizard|[spread] p2a,p2b
+|-resisted|p2a: Torkoal
+|-resisted|p2b: Charizard
+|-damage|p2a: Torkoal|41/100
+|-damage|p2b: Charizard|29/100
+|move|p2a: Torkoal|Eruption|p1a: Torkoal|[spread] p1a
+|-activate|p1b: Hatterene|move: Protect
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|82/100
+|move|p2b: Charizard|Heat Wave|p1a: Torkoal|[spread] p1a
+|-activate|p1b: Hatterene|move: Protect
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|9/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|16/100|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|turn|3
+|
+|t:|1754257291
+|move|p1a: Torkoal|Earth Power|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|move|p1b: Hatterene|Expanding Force|p2b: Charizard
+|-damage|p2b: Charizard|0 fnt
+|faint|p2b: Charizard
+|-damage|p1b: Hatterene|0 fnt|[from] item: Life Orb
+|faint|p1b: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1754257302
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|turn|4
+|
+|t:|1754257322
+|-terastallize|p2a: Porygon2|Fighting
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1a: Torkoal|Weather Ball|p2a: Porygon2
+|-crit|p2a: Porygon2
+|-damage|p2a: Porygon2|29/100
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Porygon2
+|-resisted|p2a: Porygon2
+|-damage|p2a: Porygon2|11/100
+|move|p2a: Porygon2|Tera Blast|p1b: Kingambit|[anim] Tera Blast Fighting
+|-supereffective|p1b: Kingambit
+|-damage|p1b: Kingambit|0 fnt
+|faint|p1b: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|c|☆TR Setter|gg
+|-message|TR Setter forfeited.
+|
+|win|garlandttv
+|raw|TR Setter's rating: 1253 → 1221(-32 for losing)
+|raw|garlandttv's rating: 1157 → 1189(+32 for winning)
+|l|☆TR Setter
+|player|p1|

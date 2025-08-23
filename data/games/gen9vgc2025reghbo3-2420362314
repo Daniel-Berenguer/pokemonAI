@@ -1,0 +1,300 @@
+|j|☆sorrysoda
+|j|☆bogging
+|html|sorrysodabogging    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755026693
+|gametype|doubles
+|player|p1|sorrysoda|169|1190
+|player|p2|bogging|bugcatcher-gen4dp|1354
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Arcanine-Hisui, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|showteam|p1|Arcanine-Hisui||ClearAmulet|Intimidate|FlareBlitz,RockSlide,ExtremeSpeed,Protect|||M|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|DrumBeating,GrassyGlide,HighHorsepower,FakeOut|||F|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,StompingTantrum,Protect|||M|||50|,,,,,Ground]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,Coaching,Protect|||F|||50|,,,,,Ghost]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,Encore,IcyWind,AuroraVeil|||M|||50|,,,,,Ghost]Gholdengo||GrassySeed|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water
+|showteam|p2|Volcarona||GrassySeed|FlameBody|QuiverDance,FieryDance,GigaDrain,Protect|||M|||50|,,,,,Grass]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,Uturn,FakeOut|||M|||50|,,,,,Poison]Incineroar||SafetyGoggles|Intimidate|KnockOff,PartingShot,FakeOut,FlareBlitz|||F|||50|,,,,,Ghost]Primarina||ThroatSpray|LiquidVoice|HyperVoice,Moonblast,Protect,Encore|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|EarthPower,BloodMoon,HyperVoice,Protect|||M|||50|,,,,,Normal]Farigiraf||LumBerry|ArmorTail|HelpingHand,Psychic,TrickRoom,Protect|||M|||50|,,,,,Water
+|
+|t:|1755026760
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Arcanine|Arcanine-Hisui, L50, M|100/100
+|switch|p2a: Volcarona|Volcarona, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Arcanine|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|-fail|p1b: Arcanine|unboost|[from] item: Clear Amulet|[of] p1b: Arcanine
+|-enditem|p1a: Sneasler|White Herb
+|-clearnegativeboost|p1a: Sneasler|[silent]
+|turn|1
+|
+|t:|1755026796
+|move|p2b: Incineroar|Fake Out|p1b: Arcanine
+|-resisted|p1b: Arcanine
+|-damage|p1b: Arcanine|96/100
+|move|p1a: Sneasler|Dire Claw|p2a: Volcarona
+|-damage|p2a: Volcarona|47/100
+|-status|p2a: Volcarona|psn
+|cant|p1b: Arcanine|flinch
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-damage|p2a: Volcarona|34/100 psn|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1755026819
+|-terastallize|p2b: Incineroar|Ghost
+|move|p2a: Volcarona|Protect|p2a: Volcarona
+|-singleturn|p2a: Volcarona|Protect
+|move|p1b: Arcanine|Protect|p1b: Arcanine
+|-singleturn|p1b: Arcanine|Protect
+|move|p1a: Sneasler|Coaching|p1b: Arcanine
+|-boost|p1b: Arcanine|atk|1
+|-boost|p1b: Arcanine|def|1
+|move|p2b: Incineroar|Parting Shot|p1a: Sneasler
+|-unboost|p1a: Sneasler|atk|1
+|-unboost|p1a: Sneasler|spa|1
+|
+|t:|1755026825
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100|[from] Parting Shot
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p2a: Volcarona|Grassy Seed
+|-boost|p2a: Volcarona|def|1|[from] item: Grassy Seed
+|
+|-heal|p2a: Volcarona|40/100 psn|[from] Grassy Terrain
+|-heal|p1b: Arcanine|100/100|[from] Grassy Terrain
+|-damage|p2a: Volcarona|28/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1755026846
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|-enditem|p1b: Gholdengo|Grassy Seed
+|-boost|p1b: Gholdengo|def|1|[from] item: Grassy Seed
+|move|p2b: Rillaboom|Fake Out|p1b: Gholdengo
+|-immune|p1b: Gholdengo
+|move|p1a: Sneasler|Dire Claw|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|53/100
+|-status|p2b: Rillaboom|par
+|move|p2a: Volcarona|Giga Drain|p1b: Gholdengo
+|-resisted|p1b: Gholdengo
+|-damage|p1b: Gholdengo|75/100
+|-heal|p2a: Volcarona|42/100 psn|[from] drain|[of] p1b: Gholdengo
+|
+|-heal|p2a: Volcarona|48/100 psn|[from] Grassy Terrain
+|-heal|p1b: Gholdengo|82/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|59/100 par|[from] Grassy Terrain
+|-damage|p2a: Volcarona|35/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1755026902
+|switch|p2b: Incineroar|Incineroar, L50, F, tera:Ghost|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|-unboost|p1b: Gholdengo|atk|1
+|move|p1a: Sneasler|Dire Claw|p2a: Volcarona
+|-damage|p2a: Volcarona|17/100 psn
+|-status|p1a: Sneasler|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|move|p2a: Volcarona|Giga Drain|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|69/100 brn
+|-heal|p2a: Volcarona|32/100 psn|[from] drain|[of] p1a: Sneasler
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|
+|-heal|p1a: Sneasler|76/100 brn|[from] Grassy Terrain
+|-heal|p2a: Volcarona|38/100 psn|[from] Grassy Terrain
+|-heal|p1b: Gholdengo|88/100|[from] Grassy Terrain
+|-damage|p2a: Volcarona|26/100 psn|[from] psn
+|-damage|p1a: Sneasler|69/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1755026930
+|move|p1b: Gholdengo|Protect|p1b: Gholdengo
+|-singleturn|p1b: Gholdengo|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Gholdengo
+|-activate|p1b: Gholdengo|move: Protect
+|move|p1a: Sneasler|Dire Claw|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|97/100
+|move|p2a: Volcarona|Fiery Dance|p1b: Gholdengo
+|-activate|p1b: Gholdengo|move: Protect
+|
+|-heal|p1a: Sneasler|76/100 brn|[from] Grassy Terrain
+|-heal|p2a: Volcarona|32/100 psn|[from] Grassy Terrain
+|-heal|p1b: Gholdengo|94/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|100/100|[from] Grassy Terrain
+|-damage|p2a: Volcarona|20/100 psn|[from] psn
+|-damage|p1a: Sneasler|69/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1755026972
+|move|p1a: Sneasler|Dire Claw|p2a: Volcarona
+|-damage|p2a: Volcarona|12/100 psn
+|move|p2a: Volcarona|Fiery Dance|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1b: Gholdengo
+|move|p2b: Incineroar|Parting Shot|p1a: Sneasler
+|-unboost|p1a: Sneasler|atk|1
+|-unboost|p1a: Sneasler|spa|1
+|
+|t:|1755026978
+|switch|p2b: Rillaboom|Rillaboom, L50, M|59/100 par|[from] Parting Shot
+|
+|-heal|p1a: Sneasler|76/100 brn|[from] Grassy Terrain
+|-heal|p2a: Volcarona|18/100 psn|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|65/100 par|[from] Grassy Terrain
+|-damage|p2a: Volcarona|5/100 psn|[from] psn
+|-damage|p1a: Sneasler|69/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1755026995
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|7
+|
+|t:|1755027005
+|switch|p2a: Incineroar|Incineroar, L50, F, tera:Ghost|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|switch|p2b: Primarina|Primarina, L50, F|100/100
+|move|p1b: Rillaboom|Fake Out|p2a: Incineroar
+|-immune|p2a: Incineroar
+|move|p1a: Sneasler|Coaching|p1b: Rillaboom
+|-boost|p1b: Rillaboom|atk|1
+|-boost|p1b: Rillaboom|def|1
+|
+|-heal|p1a: Sneasler|76/100 brn|[from] Grassy Terrain
+|-damage|p1a: Sneasler|69/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1755027055
+|move|p2b: Primarina|Protect|p2b: Primarina
+|-singleturn|p2b: Primarina|Protect
+|move|p1a: Sneasler|Dire Claw|p2b: Primarina
+|-activate|p2b: Primarina|move: Protect
+|move|p1b: Rillaboom|Drum Beating|p2b: Primarina
+|-activate|p2b: Primarina|move: Protect
+|move|p2a: Incineroar|Parting Shot|p1b: Rillaboom
+|-unboost|p1b: Rillaboom|atk|1
+|-unboost|p1b: Rillaboom|spa|1
+|
+|t:|1755027063
+|switch|p2a: Rillaboom|Rillaboom, L50, M|65/100 par|[from] Parting Shot
+|
+|-heal|p1a: Sneasler|76/100 brn|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|71/100 par|[from] Grassy Terrain
+|-damage|p1a: Sneasler|69/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1755027078
+|switch|p1a: Arcanine|Arcanine-Hisui, L50, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2b: Primarina|atk|1
+|switch|p2a: Incineroar|Incineroar, L50, F, tera:Ghost|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Arcanine|unboost|[from] item: Clear Amulet|[of] p1a: Arcanine
+|-unboost|p1b: Rillaboom|atk|1
+|move|p1b: Rillaboom|Drum Beating|p2b: Primarina
+|-supereffective|p2b: Primarina
+|-damage|p2b: Primarina|45/100
+|-unboost|p2b: Primarina|spe|1
+|move|p2b: Primarina|Hyper Voice|p1b: Rillaboom|[spread] p1a,p1b
+|-supereffective|p1a: Arcanine
+|-resisted|p1b: Rillaboom
+|-damage|p1a: Arcanine|0 fnt
+|-damage|p1b: Rillaboom|88/100
+|faint|p1a: Arcanine
+|-enditem|p2b: Primarina|Throat Spray
+|-boost|p2b: Primarina|spa|1|[from] item: Throat Spray
+|
+|-heal|p1b: Rillaboom|94/100|[from] Grassy Terrain
+|-heal|p2b: Primarina|51/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1755027092
+|switch|p1a: Sneasler|Sneasler, L50, F|69/100 brn
+|turn|10
+|
+|t:|1755027109
+|move|p2a: Incineroar|Fake Out|p1a: Sneasler
+|-damage|p1a: Sneasler|55/100 brn
+|cant|p1a: Sneasler|flinch
+|move|p1b: Rillaboom|Drum Beating|p2a: Incineroar
+|-damage|p2a: Incineroar|82/100
+|-unboost|p2a: Incineroar|spe|1
+|move|p2b: Primarina|Moonblast|p1b: Rillaboom
+|-damage|p1b: Rillaboom|41/100
+|
+|-heal|p1a: Sneasler|62/100 brn|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|47/100|[from] Grassy Terrain
+|-heal|p2b: Primarina|57/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|88/100|[from] Grassy Terrain
+|-damage|p1a: Sneasler|55/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1755027136
+|move|p1a: Sneasler|Dire Claw|p2b: Primarina
+|-supereffective|p2b: Primarina
+|-damage|p2b: Primarina|13/100
+|-status|p2b: Primarina|slp
+|move|p1b: Rillaboom|Drum Beating|p2a: Incineroar
+|-damage|p2a: Incineroar|69/100
+|-unboost|p2a: Incineroar|spe|1
+|cant|p2b: Primarina|slp
+|move|p2a: Incineroar|Flare Blitz|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|-damage|p2a: Incineroar|53/100|[from] Recoil
+|
+|-heal|p1b: Rillaboom|52/100|[from] Grassy Terrain
+|-heal|p2b: Primarina|19/100 slp|[from] Grassy Terrain
+|-heal|p2a: Incineroar|59/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1755027153
+|move|p1b: Rillaboom|High Horsepower|p2a: Incineroar
+|-damage|p2a: Incineroar|48/100
+|-curestatus|p2b: Primarina|slp|[msg]
+|move|p2b: Primarina|Moonblast|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|
+|win|bogging
+|raw|sorrysoda's rating: 1190 → 1176(-14 for losing)
+|raw|bogging's rating: 1354 → 1365(+11 for winning)

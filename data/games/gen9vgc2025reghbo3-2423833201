@@ -1,0 +1,221 @@
+|j|☆maish
+|j|☆bogging
+|html|maishbogging    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755525891
+|gametype|doubles
+|player|p1|maish|roxie|1220
+|player|p2|bogging|bugcatcher-gen4dp|1284
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Typhlosion-Hisui, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,HeatWave,ShadowBall,Flamethrower|||F|||50|,,,,,Fire]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Garchomp||ClearAmulet|RoughSkin|DragonClaw,Protect,Earthquake,StompingTantrum|||F|||50|,,,,,Steel]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,StompingTantrum,Protect|||M|||50|,,,,,Fairy]Kingambit||AssaultVest|Defiant|SuckerPunch,KowtowCleave,IronHead,LowKick|||F|||50|,,,,,Flying
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|KnockOff,PartingShot,FakeOut,Taunt|||F|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,FlashCannon,DragonPulse|||M|||50|,,,,,Bug]Pelipper||FocusSash|Drizzle|WeatherBall,Tailwind,Hurricane,Protect|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|Spore,PollenPuff,RagePowder,Protect|||F|||50|,,,,,Water]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,FlipTurn,AquaJet|||M|||50|,,,,,Water
+|
+|t:|1755525934
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jumpluff|Jumpluff, L50, M, shiny|100/100
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Jumpluff|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|-enditem|p1b: Torkoal|Eject Pack
+|
+|t:|1755525946
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|turn|1
+|
+|t:|1755525960
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Garchomp
+|-damage|p1b: Garchomp|89/100
+|-damage|p2b: Incineroar|88/100|[from] ability: Rough Skin|[of] p1b: Garchomp
+|move|p1a: Jumpluff|Tailwind|p1a: Jumpluff
+|-sidestart|p1: maish|move: Tailwind
+|cant|p1b: Garchomp|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1755525990
+|move|p1a: Jumpluff|Rage Powder|p1a: Jumpluff
+|-singleturn|p1a: Jumpluff|move: Rage Powder
+|move|p1b: Garchomp|Earthquake|p2a: Ursaluna|[spread] p2a,p2b
+|-immune|p1a: Jumpluff
+|-supereffective|p2b: Incineroar
+|-crit|p2b: Incineroar
+|-damage|p2a: Ursaluna|71/100 brn
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Ursaluna|Headlong Rush|p1a: Jumpluff
+|-immune|p1a: Jumpluff
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|65/100 brn|[from] brn
+|upkeep
+|
+|t:|1755526003
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100
+|turn|3
+|
+|t:|1755526019
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|-terastallize|p2b: Archaludon|Bug
+|move|p1a: Jumpluff|Sleep Powder|p2b: Archaludon
+|-status|p2b: Archaludon|slp|[from] move: Sleep Powder
+|cant|p2b: Archaludon|slp
+|move|p2a: Ursaluna|Facade|p1a: Jumpluff
+|-damage|p1a: Jumpluff|0 fnt
+|faint|p1a: Jumpluff
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|59/100 brn|[from] brn
+|upkeep
+|
+|t:|1755526027
+|switch|p1a: Garchomp|Garchomp, L50, F|89/100
+|turn|4
+|
+|t:|1755526045
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Garchomp|Dragon Claw|p2a: Pelipper
+|-damage|p2a: Pelipper|38/100
+|move|p1b: Dragonite|Scale Shot|p2b: Archaludon|[miss]
+|-miss|p1b: Dragonite|p2b: Archaludon
+|cant|p2b: Archaludon|slp
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: maish|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1755526078
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Pelipper|Protect|p2a: Pelipper
+|-singleturn|p2a: Pelipper|Protect
+|move|p1b: Dragonite|Extreme Speed|p2a: Pelipper
+|-activate|p2a: Pelipper|move: Protect
+|-curestatus|p2b: Archaludon|slp|[msg]
+|move|p2b: Archaludon|Dragon Pulse|p1a: Torkoal
+|-damage|p1a: Torkoal|37/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1755526091
+|switch|p2a: Ursaluna|Ursaluna, L50, M|59/100 brn
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p1b: Dragonite|Scale Shot|p2a: Ursaluna
+|-damage|p2a: Ursaluna|47/100 brn
+|-damage|p2a: Ursaluna|35/100 brn
+|-damage|p2a: Ursaluna|23/100 brn
+|-damage|p2a: Ursaluna|12/100 brn
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|-hitcount|p2: Ursaluna|5
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|move|p2b: Archaludon|Dragon Pulse|p1a: Torkoal
+|-activate|p1a: Torkoal|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1755526097
+|switch|p2a: Pelipper|Pelipper, L50, M|38/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|7
+|
+|t:|1755526107
+|switch|p1a: Garchomp|Garchomp, L50, F|89/100
+|move|p1b: Dragonite|Protect|p1b: Dragonite
+|-singleturn|p1b: Dragonite|Protect
+|move|p2a: Pelipper|Protect|p2a: Pelipper
+|-singleturn|p2a: Pelipper|Protect
+|move|p2b: Archaludon|Dragon Pulse|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1755526116
+|switch|p1a: Torkoal|Torkoal, L50, M|37/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|8
+|
+|t:|1755526136
+|move|p2a: Pelipper|Protect||[still]
+|-fail|p2a: Pelipper
+|move|p1b: Dragonite|Extreme Speed|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|move|p2b: Archaludon|Dragon Pulse|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1755526165
+|-terastallize|p1b: Dragonite|Fairy
+|move|p1b: Dragonite|Scale Shot|p2b: Archaludon
+|-damage|p2b: Archaludon|90/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|-damage|p2b: Archaludon|82/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|-damage|p2b: Archaludon|76/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|-damage|p2b: Archaludon|72/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|-damage|p2b: Archaludon|68/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|-hitcount|p2b: Archaludon|5
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|move|p2b: Archaludon|Dragon Pulse|p1b: Dragonite
+|-immune|p1b: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|-message|maish forfeited.
+|
+|win|bogging
+|raw|maish's rating: 1220 → 1200(-20 for losing)
+|raw|bogging's rating: 1284 → 1304(+20 for winning)

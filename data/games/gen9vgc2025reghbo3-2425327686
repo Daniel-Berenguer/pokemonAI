@@ -1,0 +1,138 @@
+|j|☆InkynVG
+|j|☆shminki
+|html|InkynVGshminki    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755730065
+|gametype|doubles
+|player|p1|InkynVG|shadowtriad|1200
+|player|p2|shminki|ethan|1219
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Maushold-Four, L50|
+|poke|p1|Murkrow, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Dragapult, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Porygon2, L50|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|DragonPulse,ElectroShot,BodyPress,FlashCannon|||M|||50|,,,,,Bug]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Maushold-Four||WideLens|Technician|FollowMe,PopulationBomb,Taunt,Protect||||||50|,,,,,Ghost]Murkrow||Eviolite|Prankster|Tailwind,RainDance,Haze,FoulPlay|||F|||50|,,,,,Ghost]Ursaluna-Bloodmoon||LifeOrb|MindsEye|EarthPower,BloodMoon,HyperVoice,Protect|||M|||50|,,,,,Ghost]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,PhantomForce,Uturn|||M|||50|,,,,,Dragon
+|showteam|p2|Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,Tailwind,RagePowder|||F|||50|,,,,,Water]Charizard||ChoiceSpecs|SolarPower|DragonPulse,HeatWave,Overheat,WeatherBall|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|ClearSmog,Eruption,Overheat,Protect|||M|||50|,,,,,Fire]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by shminki)
+|
+|t:|1755730084
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1b: Dragapult|Dragapult, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|-fail|p1b: Dragapult|unboost|[from] ability: Clear Body|[of] p1b: Dragapult
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|spa|1
+|turn|1
+|
+|t:|1755730102
+|-terastallize|p1a: Ursaluna|Ghost
+|-terastallize|p2a: Incineroar|Ghost
+|move|p1b: Dragapult|Dragon Darts|p2a: Incineroar
+|-damage|p2a: Incineroar|58/100
+|-anim|p1b: Dragapult|Dragon Darts|p2b: Porygon2
+|-damage|p2b: Porygon2|75/100
+|move|p1a: Ursaluna|Blood Moon|p2b: Porygon2
+|-damage|p2b: Porygon2|8/100
+|-damage|p1a: Ursaluna|91/100|[from] item: Life Orb
+|move|p2a: Incineroar|Knock Off|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|27/100
+|-enditem|p1a: Ursaluna|Life Orb|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p2b: Porygon2|Trick Room|p2b: Porygon2
+|-fieldstart|move: Trick Room|[of] p2b: Porygon2
+|
+|upkeep
+|turn|2
+|
+|t:|1755730123
+|move|p2b: Porygon2|Ice Beam|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|move|p2a: Incineroar|Knock Off|p1b: Dragapult
+|-supereffective|p1b: Dragapult
+|-damage|p1b: Dragapult|0 fnt
+|-enditem|p1b: Dragapult|Choice Band|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1b: Dragapult
+|
+|upkeep
+|
+|t:|1755730126
+|switch|p1a: Murkrow|Murkrow, L50, F|100/100
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|turn|3
+|
+|t:|1755730136
+|move|p1a: Murkrow|Rain Dance|p1a: Murkrow
+|-weather|RainDance
+|move|p2b: Porygon2|Ice Beam|p1a: Murkrow
+|-supereffective|p1a: Murkrow
+|-damage|p1a: Murkrow|30/100
+|move|p2a: Incineroar|Knock Off|p1b: Archaludon
+|-damage|p1b: Archaludon|74/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|-enditem|p1b: Archaludon|Assault Vest|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2b: Porygon2
+|-damage|p2b: Porygon2|0 fnt
+|faint|p2b: Porygon2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1755730142
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|4
+|
+|t:|1755730154
+|move|p2a: Incineroar|Parting Shot|p1b: Archaludon
+|-unboost|p1b: Archaludon|atk|1
+|-unboost|p1b: Archaludon|spa|1
+|
+|t:|1755730155
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p2b: Ursaluna|Facade|p1a: Murkrow
+|-damage|p1a: Murkrow|0 fnt
+|faint|p1a: Murkrow
+|move|p1b: Archaludon|Body Press|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1755730165
+|move|p2a: Torkoal|Eruption|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|faint|p1b: Archaludon
+|
+|win|shminki
+|raw|InkynVG's rating: 1200 → 1176(-24 for losing)
+|raw|shminki's rating: 1219 → 1243(+24 for winning)
+|l|☆InkynVG
+|player|p1|

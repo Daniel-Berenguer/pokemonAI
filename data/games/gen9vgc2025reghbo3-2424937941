@@ -1,0 +1,135 @@
+|j|☆UntilBreakingFree
+|j|☆GetaJobApplication
+|html|UntilBreakingFreeGetaJobApplication    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755688566
+|gametype|doubles
+|player|p1|UntilBreakingFree|gambler|1309
+|player|p2|GetaJobApplication|pokemaniac|1172
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Dragapult, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Magmar, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,SolarBeam|||M|||50|,,,,,Ghost]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,PhantomForce,Uturn|||M|||50|,,,,,Dragon]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Whimsicott||CovertCloak|Prankster|Moonblast,Tailwind,Encore,SunnyDay|||F|||50|,,,,,Poison
+|showteam|p2|Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,FakeOut,Uturn|||M|||50|,,,,,Ghost]Magmar||Eviolite|FlameBody|Overheat,FollowMe,Taunt,Protect|||F|||50|,,,,,Ghost]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Fire]Ninetales-Alola||LifeOrb|SnowWarning|Blizzard,FreezeDry,Encore,Protect|||M|||50|,,,,,Ghost]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,TeraBlast|||M|||50|,,,,,Fighting]Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,FakeOut,Protect|||M|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GetaJobApplication)
+|
+|t:|1755688601
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rudra|Dragapult, L50, M|100/100
+|switch|p1b: Gamma|Porygon2, L50|100/100
+|switch|p2a: Kingambit|Kingambit, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-ability|p1b: Gamma|Download|boost
+|-boost|p1b: Gamma|spa|1
+|turn|1
+|
+|t:|1755688622
+|-terastallize|p1a: Rudra|Dragon
+|move|p2b: Sneasler|Fake Out|p1a: Rudra
+|-damage|p1a: Rudra|80/100
+|cant|p1a: Rudra|flinch
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|move|p1b: Gamma|Trick Room|p1b: Gamma
+|-fieldstart|move: Trick Room|[of] p1b: Gamma
+|
+|upkeep
+|turn|2
+|inactive|GetaJobApplication has 30 seconds left.
+|
+|t:|1755688649
+|-terastallize|p2a: Kingambit|Fire
+|move|p1b: Gamma|Tera Blast|p2b: Sneasler
+|-damage|p2b: Sneasler|31/100
+|move|p2a: Kingambit|Kowtow Cleave|p1b: Gamma
+|-damage|p1b: Gamma|32/100
+|move|p2b: Sneasler|Close Combat|p1b: Gamma
+|-supereffective|p1b: Gamma
+|-damage|p1b: Gamma|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1b: Gamma
+|move|p1a: Rudra|Dragon Darts|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|-anim|p1a: Rudra|Dragon Darts|p2a: Kingambit
+|-damage|p2a: Kingambit|55/100
+|faint|p2b: Sneasler
+|
+|upkeep
+|
+|t:|1755688668
+|switch|p1b: Kazan|Ursaluna, L50, M|100/100
+|switch|p2b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|turn|3
+|
+|t:|1755688687
+|move|p2a: Kingambit|Protect|p2a: Kingambit
+|-singleturn|p2a: Kingambit|Protect
+|move|p1b: Kazan|Earthquake|p2b: Ninetales|[spread] p1a,p2b
+|-activate|p2a: Kingambit|move: Protect
+|-damage|p1a: Rudra|21/100
+|-damage|p2b: Ninetales|52/100
+|move|p2b: Ninetales|Blizzard|p1b: Kazan|[spread] p1a,p1b
+|-supereffective|p1a: Rudra
+|-supereffective|p1b: Kazan
+|-damage|p1a: Rudra|0 fnt
+|-damage|p1b: Kazan|23/100
+|faint|p1a: Rudra
+|-damage|p2b: Ninetales|43/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|-status|p1b: Kazan|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1755688689
+|switch|p1a: Puss|Incineroar, L50, M|100/100
+|-ability|p1a: Puss|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|-ability|p2a: Kingambit|Defiant|boost
+|-boost|p2a: Kingambit|atk|2
+|-unboost|p2b: Ninetales|atk|1
+|turn|4
+|
+|t:|1755688708
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|move|p2b: Ninetales|Protect|p2b: Ninetales
+|-singleturn|p2b: Ninetales|Protect
+|move|p1a: Puss|Fake Out|p2a: Basculegion
+|-immune|p2a: Basculegion
+|move|p1b: Kazan|Earthquake|p2b: Ninetales|[spread] p1a,p2a
+|-activate|p2b: Ninetales|move: Protect
+|-supereffective|p1a: Puss
+|-damage|p1a: Puss|0 fnt
+|-damage|p2a: Basculegion|13/100
+|faint|p1a: Puss
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1b: Kazan|18/100 brn|[from] brn
+|upkeep
+|turn|5
+|-message|UntilBreakingFree forfeited.
+|
+|win|GetaJobApplication
+|raw|UntilBreakingFree's rating: 1309 → 1281(-28 for losing)
+|raw|GetaJobApplication's rating: 1172 → 1206(+34 for winning)
+|l|☆UntilBreakingFree
+|player|p1|

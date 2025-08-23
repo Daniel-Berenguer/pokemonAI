@@ -1,0 +1,124 @@
+|j|☆quecle
+|j|☆IngeVGC
+|html|quecleIngeVGC    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755874811
+|gametype|doubles
+|player|p1|quecle|gambler|1255
+|player|p2|IngeVGC|fisherman-gen4|1325
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Maushold, L50|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Dragonite, L50, F|
+|teampreview|4
+|showteam|p1|Hatterene||CovertCloak|MagicBounce|ExpandingForce,DazzlingGleam,TeraBlast,TrickRoom|||F|||50|,,,,,Fire]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Water]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,EarthPower,WeatherBall|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||M|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Maushold||WideLens|Technician|PopulationBomb,FollowMe,Taunt,Protect||||||50|,,,,,Poison
+|showteam|p2|Kingambit||BlackGlasses|Defiant|Protect,KowtowCleave,SuckerPunch,SwordsDance|||F|||50|,,,,,Dark]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Electabuzz||Eviolite|VitalSpirit|Protect,Thunderbolt,HelpingHand,FollowMe|||M|||50|,,,,,Ghost]Volcarona||CovertCloak|FlameBody|Protect,HeatWave,TeraBlast,QuiverDance|||F|||50|,,,,,Fairy]Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,Coaching,FakeOut|||F|||50|,,,,,Stellar]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,ExtremeSpeed,Protect|||F|||50|,,,,,Fairy
+|
+|t:|1755874853
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Nobunaga|Kingambit, L50, F, shiny|100/100
+|switch|p2b: Vanessa|Sneasler, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1755874882
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|-terastallize|p1b: Hatterene|Fire
+|move|p2b: Vanessa|Dire Claw|p1b: Hatterene
+|-damage|p1b: Hatterene|56/100
+|move|p2a: Nobunaga|Kowtow Cleave|p1a: Ursaluna
+|-damage|p1a: Ursaluna|60/100
+|move|p1b: Hatterene|Trick Room|p1b: Hatterene
+|-fieldstart|move: Trick Room|[of] p1b: Hatterene
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1755874904
+|switch|p2b: Kerchak|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Kerchak
+|-terastallize|p2a: Nobunaga|Dark
+|move|p2a: Nobunaga|Sucker Punch|p1a: Ursaluna
+|-damage|p1a: Ursaluna|14/100 brn
+|move|p1b: Hatterene|Dazzling Gleam|p2b: Kerchak|[spread] p2a,p2b
+|-supereffective|p2a: Nobunaga
+|-damage|p2a: Nobunaga|27/100
+|-damage|p2b: Kerchak|75/100
+|move|p1a: Ursaluna|Facade|p2b: Kerchak
+|-damage|p2b: Kerchak|0 fnt
+|faint|p2b: Kerchak
+|
+|-heal|p1b: Hatterene|62/100|[from] Grassy Terrain
+|-heal|p1a: Ursaluna|20/100 brn|[from] Grassy Terrain
+|-heal|p2a: Nobunaga|33/100|[from] Grassy Terrain
+|-damage|p1a: Ursaluna|14/100 brn|[from] brn
+|upkeep
+|
+|t:|1755874918
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|turn|3
+|
+|t:|1755874937
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p2b: Volcarona|Protect|p2b: Volcarona
+|-singleturn|p2b: Volcarona|Protect
+|move|p1a: Ursaluna|Earthquake|p2a: Nobunaga|[spread] p1b,p2a
+|-activate|p2b: Volcarona|move: Protect
+|-damage|p1b: Indeedee|35/100
+|-damage|p2a: Nobunaga|0 fnt
+|faint|p2a: Nobunaga
+|
+|-damage|p1a: Ursaluna|9/100 brn|[from] brn
+|upkeep
+|
+|t:|1755874948
+|switch|p2a: Vanessa|Sneasler, L50, F|100/100
+|turn|4
+|
+|t:|1755874959
+|move|p1a: Ursaluna|Facade|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|faint|p2b: Volcarona
+|move|p1b: Indeedee|Psychic|p2a: Vanessa
+|-supereffective|p2a: Vanessa
+|-enditem|p2a: Vanessa|Focus Sash
+|-damage|p2a: Vanessa|1/100
+|move|p2a: Vanessa|Dire Claw|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|
+|-damage|p1a: Ursaluna|3/100 brn|[from] brn
+|upkeep
+|-message|IngeVGC forfeited.
+|raw|quecle's rating: 1255 → 1285(+30 for winning)
+|raw|IngeVGC's rating: 1325 → 1301(-24 for losing)
+|
+|win|quecle
+|l|☆IngeVGC
+|player|p2|
+|j|☆IngeVGC
+|player|p2|IngeVGC|fisherman-gen4|
+|l|☆quecle
+|player|p1|

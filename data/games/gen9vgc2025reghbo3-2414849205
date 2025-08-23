@@ -1,0 +1,111 @@
+|j|☆Fairtree
+|j|☆Spottedwoot
+|html|FairtreeSpottedwoot    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1754269528
+|gametype|doubles
+|player|p1|Fairtree|supernerd|1236
+|player|p2|Spottedwoot|169|1376
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Salamence, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Garchomp, L50, F|
+|teampreview|4
+|showteam|p1|Archaludon||PowerHerb|Stalwart|ElectroShot,DragonPulse,Thunderbolt,Protect|||F|||50|,,,,,Electric]Tyranitar||AssaultVest|SandStream|RockSlide,LowKick,KnockOff,StoneEdge|||M|||50|,,,,,Fighting]Dragonite||LoadedDice|InnerFocus|ScaleShot,Tailwind,StompingTantrum,Protect|||F|||50|,,,,,Steel]Amoonguss||MentalHerb|Regenerator|SludgeBomb,Spore,RagePowder,Protect|||F|||50|,,,,,Psychic]Annihilape||FocusSash|Defiant|CloseCombat,Coaching,Taunt,RageFist|||M|||50|,,,,,Stellar]Incineroar||MirrorHerb|Intimidate|KnockOff,FakeOut,PartingShot,FlareBlitz|||M|||50|,,,,,Fairy
+|showteam|p2|Kingambit||SafetyGoggles|Defiant|KowtowCleave,Protect,SuckerPunch,SwordsDance|||M|||50|,,,,,Dark]Primarina||ThroatSpray|LiquidVoice|Haze,HyperVoice,Protect,Moonblast|||M|||50|,,,,,Poison]Salamence||LifeOrb|Intimidate|Tailwind,Protect,DracoMeteor,Hurricane|||F|||50|,,,,,Fairy]Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,Trick,ShadowBall,FocusBlast||||||50|,,,,,Steel]Sneasler||FocusSash|Unburden|FakeOut,Protect,CloseCombat,DireClaw|||F|||50|,,,,,Steel]Garchomp||ClearAmulet|RoughSkin|DragonClaw,Earthquake,Protect,StompingTantrum|||F|||50|,,,,,Ground
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Fairtree)
+|
+|t:|1754269547
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Salamence|Salamence, L50, F|100/100
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-fail|p1a: Dragonite|unboost|Attack|[from] ability: Inner Focus|[of] p1a: Dragonite
+|-unboost|p1b: Incineroar|atk|1
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Salamence|atk|1
+|-fail|p2b: Garchomp|unboost|[from] item: Clear Amulet|[of] p2b: Garchomp
+|turn|1
+|inactive|Fairtree has 30 seconds left.
+|
+|t:|1754269573
+|-terastallize|p1a: Dragonite|Steel
+|move|p1b: Incineroar|Fake Out|p2b: Garchomp
+|-damage|p2b: Garchomp|92/100
+|-damage|p1b: Incineroar|88/100|[from] ability: Rough Skin|[of] p2b: Garchomp
+|cant|p2b: Garchomp|flinch
+|move|p2a: Salamence|Tailwind|p2a: Salamence
+|-sidestart|p2: Spottedwoot|move: Tailwind
+|move|p1a: Dragonite|Tailwind|p1a: Dragonite
+|-sidestart|p1: Fairtree|move: Tailwind
+|
+|upkeep
+|turn|2
+|
+|t:|1754269585
+|-terastallize|p2b: Garchomp|Ground
+|move|p1a: Dragonite|Protect|p1a: Dragonite
+|-singleturn|p1a: Dragonite|Protect
+|move|p2b: Garchomp|Earthquake|p1a: Dragonite|[spread] p1b
+|-activate|p1a: Dragonite|move: Protect
+|-immune|p2a: Salamence
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p2a: Salamence|Hurricane|p1a: Dragonite
+|-activate|p1a: Dragonite|move: Protect
+|
+|upkeep
+|
+|t:|1754269589
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|turn|3
+|
+|t:|1754269599
+|move|p2b: Garchomp|Earthquake|p1b: Archaludon|[spread] p1a,p1b
+|-immune|p2a: Salamence
+|-supereffective|p1a: Dragonite
+|-supereffective|p1b: Archaludon
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1b: Archaludon|7/100
+|faint|p1a: Dragonite
+|move|p2a: Salamence|Draco Meteor|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|-unboost|p2a: Salamence|spa|2
+|faint|p1b: Archaludon
+|-damage|p2a: Salamence|90/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1754269615
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|turn|4
+|-message|Fairtree forfeited.
+|
+|win|Spottedwoot
+|raw|Fairtree's rating: 1236 → 1221(-15 for losing)
+|raw|Spottedwoot's rating: 1376 → 1388(+12 for winning)
+|l|☆Spottedwoot
+|player|p2|
+|j|☆Spottedwoot
+|player|p2|Spottedwoot|169|
+|l|☆Fairtree
+|player|p1|
