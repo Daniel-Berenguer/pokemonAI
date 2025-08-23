@@ -68,57 +68,97 @@ def onehot(size, ix):
     arr[ix] = 1
     return arr
 
+
 def board2tensor(board: Board):
     array = []
-    sides = []
-    tailwinds = [onehot(6, board.tailwinds[0]), onehot(6, board.tailwinds[1])]
+    arrayInt = []
 
-    trickroom = onehot(6, board.trickroom)
+    append(arrayInt, board.tailwinds) # 2 ints (0-5)
+    append(arrayInt, board.trickroom) # 1 int (0-5)
+    append(arrayInt, weather2ix[board.weather[0]]) # 1 int (0-4)
+    append(arrayInt, terrain2ix[board.terrain[0]]) # 1 int (0-4)
+    
+    append(array, board.gravity/5)
+    append(array, board.weather[1]/8)
+    append(array, board.terrain[1]/8)
+    append(array, [x[1]/8 for x in board.auroraveils])
+    append(array, [x[0] for x in board.auroraveils])
+    append(array, [x[1]/8 for x in board.reflects])
+    append(array, [x[0] for x in board.reflects])
+    append(array, [x[1]/8 for x in board.lightscreens])
+    append(array, [x[0] for x in board.lightscreens])
 
-    append(array, tailwinds)
-    append(array, trickroom)
-    sides[0].append()
-    append(array, board.gravity)
-    append(array, onehot(len(weather2ix), weather2ix[board.weather[0]]))
-    append(array, board.weather[1])
-    append(array, onehot(len(terrain2ix), terrain2ix[board.terrain[0]]))
-    append(array, board.terrain[1])
-    append(array, board.trickroom)
-    append(array, board.gravity)
-    append(array, board.auroraveils)
-    append(array, board.reflects)
-    append(array, board.lightscreens)
-    append(array, board.shown)
-    for team in board.pokemon:
+
+    
+
+    moveFeats = []
+    moveInts = []
+    pokeInts = []
+    pokeFeats = []
+    for i,team in enumerate(board.pokemon):
+        moveFeats.append([])
+        moveInts.append([])
+        pokeFeats.append([])
+        pokeInts.append([])
         for poke in team:
-            append(array, pokemon2array(poke))
-    tensor = torch.tensor(array)
-    return tensor
+            pokeInt, pokeFeat, moveInt, moveFeat = pokemon2array(poke)
+            moveFeats[i].append(moveFeat)
+            moveInts[i].append(moveInt)
+            pokeInts[i].append(pokeInt)
+            pokeFeats[i].append(pokeFeat)
+
+    boardIntTensor = torch.tensor(arrayInt, dtype=torch.long) # Shape (5) [tw1, tw2, tr, weather, terrain]
+    boardTensor = torch.tensor(array, dtype=torch.float) # Shape (boardFDim=15)
+    pokeIntsTensor = torch.tensor(pokeInts, dtype=torch.long) # Shape (2, 6, 6) [poke, item, ab, typ1, typ2, tera]
+    pokeFeatsTensor = torch.tensor(pokeFeats, dtype=torch.float) # Shape (2, 6, pokeFeatDim=17)
+    moveIntsTensor = torch.tensor(moveInts, dtype=torch.long) # Move Types (2, 6, 4, 2) [moveName, moveType]
+    moveFeatsTensor = torch.tensor(moveFeats, dtype=torch.float) # Move Features (2, 6, 4, moveFeatDim)
+
+    return (boardIntTensor, boardTensor, pokeIntsTensor, pokeFeatsTensor, moveFeatsTensor, moveIntsTensor)
 
 
 def pokemon2array(poke: Pokemon):
-    array = []
-    append(array, onehot(len(pokemon2ix), pokemon2ix[poke.name]))
-    append(array, onehot(len(items2ix), items2ix[poke.item]))
-    append(array, onehot(len(ab2ix), ab2ix[poke.ability]))
+    intFeats = []
+    feats = []
+
+    intFeats.append(pokemon2ix[poke.name])
+    intFeats.append(items2ix[poke.item])
+    intFeats.append(ab2ix[poke.ability])
+    intFeats += [type2ix[poke.stats[0]], type2ix[poke.stats[1]], type2ix[poke.teratype]]
+    stats = poke.stats[2:]
+    # [HP, ATK, DEF, SPA, SPD, SPE]
+    dividers = [255, 190, 230, 195, 230, 200]
+    for i, div in enumerate(dividers):
+        stats[i] = int(stats[i]) / div
+
+    append(feats, stats)
+    boosts = poke.boosts
+    for i, _ in enumerate(boosts):
+        boosts[i] /= 6
+    append(feats, boosts)
+    feats.append(poke.hp/100)
+    feats.append(poke.tera)
+    feats.append(poke.justProtected)
+    feats.append(poke.fnt)
+    feats.append(poke.sub)
+    feats.append(poke.lostItem)
+
+    moveFeats = []
+    moveInts = []
+
     for move in poke.moves:
-        append(array, onehot(len(moves2ix), moves2ix[move[0]]))
-        append(array, onehot(len(type2ix), type2ix[move[1]]))
-        append(array, onehot(len(class2ix), class2ix[move[2]]))
-        append(array, move[3:])
-    append(array, onehot(len(type2ix), type2ix[poke.stats[0]]))
-    append(array, onehot(len(type2ix), type2ix[poke.stats[1]]))
-    append(array, poke.stats[2:])
-    append(array, poke.boosts)
-    append(array, poke.hp)
-    append(array, onehot(len(type2ix), type2ix[poke.teratype]))
-    append(array, poke.tera)
-    append(array, poke.justProtected)
-    append(array, poke.fnt)
-    append(array, poke.sub)
-    append(array, onehot(4, poke.perish))
-    append(array, poke.lostItem)
-    return array
+        mvFt = []
+        mvInt = []
+        mvInt.append(moves2ix[move[0]])
+        mvInt.append(type2ix[move[1]])
+        append(mvFt, onehot(len(class2ix), class2ix[move[2]]))
+        mvFt.append(int(move[3])/150)
+        mvFt.append(int(move[4])/100)
+        mvFt.append(int(move[5])/8)
+        moveFeats.append(mvFt)
+        moveInts.append(mvInt)
+    
+    return intFeats, feats, moveInts, moveFeats
 
 
 if __name__ == "__main__":

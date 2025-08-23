@@ -90,17 +90,15 @@ def processGame(filename, tensors, labels):
             else:
                 firstTurn = False
             t = board2tensor(board)
-            if t.shape[0] == 27889:
-                tensors.append(t)
+            for i, tensor in enumerate(t):
+                tensors[i].append(tensor)
                 labels.append(torch.tensor(board.winner))
-            else:
-                print(f"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAALGO RARO HAY CON {filename}")
         
 
 import os
 total = 0
 errors = 0
-tensors = []
+tensors = [[],[],[],[],[],[]]
 labels = []
 for filename in os.listdir("data/games"):
     print(filename)
@@ -116,9 +114,9 @@ processed = total-errors
 
 print(f"Processed {processed}/{total}")
 print(f"{processed/total:.2%}")
-print(f"Data points: {len(tensors)}")
+print(f"Data points: {len(tensors[0])}")
 
-X = torch.stack(tensors)
+X = [torch.stack(tensor) for tensor in tensors]
 Y = torch.stack(labels)
 
 with open("data/data.pickle", "wb") as file:

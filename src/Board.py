@@ -30,7 +30,6 @@ class Board:
           self.pokemon = [[], []]
           self.name2Indicies = [dict(), dict()]
           self.winner = None
-          self.shown = [[False]*6, [False]*6]
           self.active = [[None, None], [None, None]]
           self.justProtected = [[False, False], [False, False]]
 
@@ -85,6 +84,8 @@ class Board:
                pokemon = Pokemon(name, poke, pokemon_stats, move_dict)
                self.pokemon[player].append(pokemon)
                self.name2Indicies[player][name] = i
+          if len(self.pokemon[player]) < 6:
+               raise Exception("TO FEW POKEMON")
 
      def switch(self, line):
           line = line.split("|")
@@ -103,7 +104,7 @@ class Board:
                # Alternate name
                poke = line[1].split(",")[0]
                self.active[i][j] = self.name2Indicies[i][poke]
-          self.shown[i][self.active[i][j]] = True
+          self.pokemon[i][self.active[i][j]].shown = True
           hp = int(line[2].split("/")[0])
           if hp != self.pokemon[i][self.active[i][j]].hp:
               print(f"Creo que amoonguss: {poke}")

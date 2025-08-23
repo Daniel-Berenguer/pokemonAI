@@ -21,6 +21,7 @@ class Pokemon:
         self.sub = False
         self.lostItem = False
         self.fnt = False
+        self.shown = False
         self.perish = 0
 
     def switchOut(self):
