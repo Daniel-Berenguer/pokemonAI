@@ -34,6 +34,27 @@ class Board:
           self.justProtected = [[False, False], [False, False]]
 
      @staticmethod
+     def switchArr(arr):
+          temp = arr[0]
+          arr[0] = arr[1]
+          arr[1] = temp
+
+     def switchSides(self):
+          self.switchArr(self.tailwinds)
+          self.switchArr(self.auroraveils)
+          self.switchArr(self.lightscreens)
+          self.switchArr(self.reflects)
+          self.switchArr(self.stealthrocks)
+          self.switchArr(self.spikes)
+          self.switchArr(self.toxicspikes)
+          self.switchArr(self.pokemon)
+          self.switchArr(self.name2Indicies)
+          self.switchArr(self.active)
+          self.switchArr(self.justProtected)
+          self.winner = 1 - self.winner
+
+
+     @staticmethod
      def player2indicies(word):
           if word[1] == "1":
                i = 0

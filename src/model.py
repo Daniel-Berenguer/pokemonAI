@@ -171,7 +171,8 @@ model = Model().to(cuda)
 nEl = 0
 for p in model.parameters():
     nEl += p.numel()
-print(nEl)
+print(f"Number of params: {nEl}")
+
 
 
 BATCH_SIZE = 16
@@ -186,6 +187,7 @@ for i, tens in enumerate(X):
 Y = Y[indices]
 
 n = int(Y.size(0)*0.85)
+print(f"Dataset size: {Y.size(0)}")
 
 X_train = [X[i][:n] for i in range(len(X))]
 Y_train = Y[:n]
