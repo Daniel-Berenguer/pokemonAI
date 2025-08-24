@@ -25,9 +25,9 @@ class LinearRELU(nn.Module):
 class Model(nn.Module):
     def __init__(self) -> None:
         super().__init__()
-        self.lin1 = LinearRELU(27889, 8192)
-        self.lin2 = LinearRELU(8192, 4096)
-        self.lin3 = LinearRELU(4096, 1024)
+        self.lin1 = LinearRELU(680, 1024)
+        self.lin2 = LinearRELU(1024, 2048)
+        self.lin3 = LinearRELU(2048, 1024)
         self.lin4 = LinearRELU(1024, 256)
         self.lin5 = LinearRELU(256, 64)
         self.linear = [self.lin1, self.lin2, self.lin3, self.lin4, self.lin5]
@@ -40,12 +40,18 @@ class Model(nn.Module):
             x = linear.forward(x)
         return x @ self.W + self.b
     
+model = Model().to(cuda)
+nEl = 0
+for p in model.parameters():
+    nEl += p.numel()
+
+print(nEl)
+
 with open("data/data.pickle", "rb") as file:
     X, Y = pickle.load(file)
-    X = X.float()
-    Y = Y.float()
+    X = torch.cat([T.flatten(start_dim=1).float() for T in X], dim=-1) 
 
-model = Model().to(cuda)
+
 
 BATCH_SIZE = 16
 
@@ -57,13 +63,19 @@ indices = torch.randperm(X.size(0))  # random permutation of indices
 X_shuffled = X[indices]
 Y_shuffled = Y[indices]
 
-n = int(Y.size(0)*0.85)
+n = int(Y_shuffled.size(0)*0.85)
+
+print(X_shuffled.shape)
+print(Y_shuffled.shape)
+print(n)
 
 X_train = X_shuffled[:n]
 Y_train = Y_shuffled[:n]
 X_test = X_shuffled[n:]
 Y_test = Y_shuffled[n:]
 
+print(Y_train.shape)
+print(Y_test.shape)
 
 EPOCHS = 15
 ITERS = int((n * EPOCHS)/BATCH_SIZE)
@@ -100,4 +112,5 @@ with torch.no_grad():
     predicts = torch.round(probs)
     correct = torch.eq(predicts, Y_test).sum()
     acc = correct / Y_test.size(0)
+    print(probs)
     print(f"Test accuracy: {acc.item():.4f}")

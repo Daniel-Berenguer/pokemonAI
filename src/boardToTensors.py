@@ -114,7 +114,7 @@ def board2tensor(board: Board):
     moveIntsTensor = torch.tensor(moveInts, dtype=torch.long) # Move Types (2, 6, 4, 2) [moveName, moveType]
     moveFeatsTensor = torch.tensor(moveFeats, dtype=torch.float) # Move Features (2, 6, 4, moveFeatDim)
 
-    return (boardIntTensor, boardTensor, pokeIntsTensor, pokeFeatsTensor, moveFeatsTensor, moveIntsTensor)
+    return (boardIntTensor, boardTensor, pokeIntsTensor, pokeFeatsTensor, moveIntsTensor, moveFeatsTensor)
 
 
 def pokemon2array(poke: Pokemon):

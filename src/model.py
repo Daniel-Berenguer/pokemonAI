@@ -12,7 +12,8 @@ cuda = torch.device('cuda')
 #moveIntsTensor (2, 6, 4, 2) [moveName, moveType]
 #moveFeatsTensor (2, 6, 4, moveFeatDim)
 
-class typeEncoder(nn.Module):
+
+class TypeEncoder(nn.Module):
     NUM_TYPES = 20
     def __init__(self, nhidden=10):
         super().__init__()
@@ -22,62 +23,174 @@ class typeEncoder(nn.Module):
         return self.emb(x)
     
 
-class moveEncoder(nn.Module):
+class MoveEncoder(nn.Module):
     NUM_MOVES = 382
     MOVE_FEATS_SIZE = 6
-    def __init__(self, nhidden=128, typeEmbeddingSize=10):
+    MOVE_DIM = 64
+    def __init__(self, nhidden=256, typeEmbeddingSize=10):
         super().__init__()
-        self.emb = nn.Embedding(self.NUM_MOVES, nhidden) # Embeds move (move name, to capture effects I have not included in features)
-        self.U = nn.Parameter(torch.randn(typeEmbeddingSize, nhidden)) # Multiplies type embedding before adding to move embedding
-        self.W = nn.Parameter(torch.randn(self.MOVE_FEATS_SIZE, nhidden)) # Multiplies move features (e.g power) before adding to move embedding
+        self.emb = nn.Embedding(self.NUM_MOVES, self.MOVE_DIM) # Embeds move (move name, to capture effects I have not included in features)
+        self.U = nn.Parameter(torch.randn(typeEmbeddingSize, self.MOVE_DIM)) # Multiplies type embedding before adding to move embedding
+        self.W = nn.Parameter(torch.randn(self.MOVE_FEATS_SIZE, self.MOVE_DIM)) # Multiplies move features (e.g power) before adding to move embedding
+        self.lin = nn.Linear(self.MOVE_DIM, nhidden)
 
-    def forward(self, moveInts, moveFeats, typeEncoder : typeEncoder):
-        move_name = moveInts[:, :, :, 0]
-        move_type = moveInts[:, :, :, 1]
-        return self.emb(move_name) + typeEncoder.forward(move_type) @ self.U + moveFeats @ self.W
+    def forward(self, moveInts, moveFeats, typeEncoder : TypeEncoder):
+        move_name = moveInts[:, :, :, :, 0]
+        move_type = moveInts[:, :, :, :, 1]
+        comb = torch.relu(self.emb(move_name) + typeEncoder.forward(move_type) @ self.U + moveFeats @ self.W)
+        return torch.relu(self.lin(comb)).sum(dim=3)
     
+class PokeEncoder(nn.Module):
+    N_POKES = 256
+    N_ABS = 212
+    N_ITEMS = 133
+    FEATS_DIM = 17
+
+    POKE_EMB = 64
+    AB_EMB = 128
+    ITEM_EMB = 64
+
+    def __init__(self, nhidden=512, moveHidden=256, typeEmb=10):
+        super().__init__()
+
+        self.pokeEmb = nn.Embedding(self.N_POKES, self.POKE_EMB)
+        self.abEmb = nn.Embedding(self.N_ABS, self.AB_EMB)
+        self.itemEmb = nn.Embedding(self.N_ITEMS, self.ITEM_EMB)
+
+        self.moveEncoder = MoveEncoder(nhidden=moveHidden, typeEmbeddingSize=typeEmb)
+        self.typeEncoder = TypeEncoder(nhidden=typeEmb)
+
+        """self.typeW = nn.Parameter(torch.randn(typeEmb, nhidden))
+        nn.init.kaiming_normal_(self.typeW)
+        self.teraW = nn.Parameter(torch.randn(typeEmb, nhidden))
+        nn.init.kaiming_normal_(self.teraW)
+        self.featsW = nn.Parameter(torch.randn(self.FEATS_DIM, nhidden))
+        nn.init.kaiming_normal_(self.featsW)"""
+
+        concatDim = moveHidden + self.POKE_EMB + self.ITEM_EMB + self.AB_EMB + typeEmb*3 + self.FEATS_DIM
+        self.linear = nn.Linear(concatDim, nhidden)
+
+    def forward(self, pokeInts, pokeFeats, moveInts, moveFeats):
+        # Encodes Moves
+        moves = self.moveEncoder.forward(moveInts, moveFeats, self.typeEncoder)
+        
+        # Embeds Rest
+        # pokeInts (BATCH, 2, 6, 6) [poke, item, ab, typ1, typ2, tera]
+        poke = self.pokeEmb(pokeInts[:, :, :, 0])
+        item = self.itemEmb(pokeInts[:, :, :, 1])
+        ab = self.abEmb(pokeInts[:, :, :, 2])
+        types = self.typeEncoder(pokeInts[:, :, :, 3:6]).flatten(start_dim=3)
+
+        # Concatenate everything
+        concat = torch.cat([poke, item, ab, types, pokeFeats, moves], dim=-1)
+        
+        return torch.relu(self.linear(concat))
+
+    
+class BoardEncoder(nn.Module):
+    NTURNS = 5
+    NWEATHERS = 5
+    NTERRAINS = 5
+    NEMB = 3
+    NFEATS = 15
+    def __init__(self, nhidden):
+        super().__init__()
+        self.twEmb = nn.Embedding(self.NTURNS, 3)
+        self.trEmb = nn.Embedding(self.NTURNS, 3)
+        self.weatherEmb = nn.Embedding(self.NWEATHERS, 3)
+        self.terrainEmb = nn.Embedding(self.NTERRAINS, 3)
+
+        newDim = self.NEMB*3 + self.NEMB + self.NEMB + self.NFEATS
+
+        self.bn = nn.BatchNorm1d(newDim)
+        self.lin = nn.Linear(newDim, nhidden)
+
+    def forward(self, boardInts, boardFeats):
+        # Embeds Ints 
+        tws = torch.flatten(self.twEmb(boardInts[:, 0:2]), start_dim=1)
+        tr = self.trEmb(boardInts[:, 2])
+        weather = self.weatherEmb(boardInts[:, 3])
+        terrain = self.terrainEmb(boardInts[:, 4])
+
+        # Concats
+        comb = torch.cat([tws, tr, weather, terrain, boardFeats], dim=-1)
+
+        return torch.relu(self.lin(self.bn(comb)))
+
 #boardIntTensor (5) [tw1, tw2, tr, weather, terrain]
 #boardTensor (boardFDim=15)
 #pokeIntsTensor (2, 6, 6) [poke, item, ab, typ1, typ2, tera]
 #pokeFeatsTensor (2, 6, pokeFeatDim=17)
 #moveIntsTensor (2, 6, 4, 2) [moveName, moveType]
 #moveFeatsTensor (2, 6, 4, moveFeatDim)
+class Model(nn.Module):
+    BOARD_HIDDEN = 64
+    TYPE_EMB = 10
+    POKE_HIDDEN = 512
+    MOVE_HIDDEN = 256
 
-class PokeEncoder(nn.Module):
-    N_POKES = 256
-    N_ABS = 212
-    N_ITEMS = 133
-    def __init__(self, nhidden=128, typeEmb=10):
+    def __init__(self):
         super().__init__()
-        self.pokeEmb = nn.Embedding(self.N_POKES, nhidden)
-        self.abEmb = nn.Embedding(self.N_ABS, nhidden)
-        self.itemEmb = nn.Embedding(self.N_ITEMS, nhidden)
+        self.boardEncoder = BoardEncoder(nhidden=self.BOARD_HIDDEN)
+        self.pokeEncoder = PokeEncoder(nhidden=self.POKE_HIDDEN, moveHidden=self.MOVE_HIDDEN, typeEmb=self.TYPE_EMB)
+
+        self.pokeW = nn.Parameter(torch.randn(self.POKE_HIDDEN, self.POKE_HIDDEN*4))
+        nn.init.kaiming_normal_(self.pokeW)
+
+        concatDim = self.POKE_HIDDEN * 8 + self.BOARD_HIDDEN
+
+        self.linearLayers = nn.ModuleList([nn.Linear(concatDim, 512), nn.Linear(512, 256), nn.Linear(256, 64), nn.Linear(64, 16)])
+        self.bns = nn.ModuleList([nn.BatchNorm1d(concatDim), nn.BatchNorm1d(512), nn.BatchNorm1d(256), nn.BatchNorm1d(64)])
+                                 
+        self.finalLinear = nn.Linear(16, 1)
+
+    def forward(self, boardInts, boardFeats, pokeInts, pokeFeats, moveInts, moveFeats):
+        board = self.boardEncoder.forward(boardInts, boardFeats)
+        pokes = self.pokeEncoder.forward(pokeInts, pokeFeats, moveInts, moveFeats)
+        
+        # pokes shape is (BATCH, 2, 6, pokeDIM)
+        teams = (pokes @ self.pokeW).sum(dim=2).flatten(start_dim=1)
+        x = torch.cat([board, teams], dim=-1)
+        # x shape is (BATCH, pokeDIM*4*2 + boardDIm)
+
+        for bn,linear in zip(self.bns,self.linearLayers):
+            x = torch.relu(linear(bn(x)))
+
+
+        return self.finalLinear(x).reshape(-1)
+
 
 
 
 with open("data/data.pickle", "rb") as file:
+    # X is boardIntTensor, boardTensor, pokeIntsTensor, pokeFeatsTensor, moveFeatsTensor, moveIntsTensor
     X, Y = pickle.load(file)
-    X = X.float()
-    Y = Y.float()
+
 
 model = Model().to(cuda)
+nEl = 0
+for p in model.parameters():
+    nEl += p.numel()
+print(nEl)
+
 
 BATCH_SIZE = 16
 
-optimizer = torch.optim.Adam(model.parameters())
+optimizer = torch.optim.Adam(model.parameters(), lr=0.0001)
 
 
 # Shuffle
-indices = torch.randperm(X.size(0))  # random permutation of indices
-X_shuffled = X[indices]
-Y_shuffled = Y[indices]
+indices = torch.randperm(X[0].size(0))  # random permutation of indices
+for i, tens in enumerate(X):
+    X[i] = tens[indices]
+Y = Y[indices]
 
 n = int(Y.size(0)*0.85)
 
-X_train = X_shuffled[:n]
-Y_train = Y_shuffled[:n]
-X_test = X_shuffled[n:]
-Y_test = Y_shuffled[n:]
+X_train = [X[i][:n] for i in range(len(X))]
+Y_train = Y[:n]
+X_test =  [X[i][n:] for i in range(len(X))]
+Y_test = Y[n:]
 
 
 EPOCHS = 15
@@ -85,12 +198,19 @@ ITERS = int((n * EPOCHS)/BATCH_SIZE)
 
 loss_avg = 0
 
-for i in range(1201):
-    ix = torch.randint(0, X_train.size(0), (BATCH_SIZE,))  # random indices
-    X_batch = X_train[ix].to(cuda)
+for i in range(ITERS):
+    ix = torch.randint(0, Y_train.size(0), (BATCH_SIZE,))  # random indices
+    #boardIntTensor, boardTensor, pokeIntsTensor, pokeFeatsTensor, moveFeatsTensor, moveIntsTensor
+    boardIntBatch = X_train[0][ix].to(cuda)
+    boardFeatBatch = X_train[1][ix].to(cuda)
+    pokeIntBatch = X_train[2][ix].to(cuda)
+    pokeFeatBatch = X_train[3][ix].to(cuda)
+    moveIntBatch = X_train[4][ix].to(cuda)
+    moveFeatBatch = X_train[5][ix].to(cuda)
+
     Y_batch = Y_train[ix].to(cuda)
 
-    logits = model.forward(X_batch)
+    logits = model.forward(boardIntBatch, boardFeatBatch, pokeIntBatch, pokeFeatBatch, moveIntBatch, moveFeatBatch)
 
     loss = F.binary_cross_entropy_with_logits(logits, Y_batch)
 
@@ -106,9 +226,14 @@ for i in range(1201):
 
 # Test loss
 with torch.no_grad():
-    X_test = X_test.to(cuda)
+    boardIntTest = X_test[0].to(cuda)
+    boardFeatTest = X_test[1].to(cuda)
+    pokeIntTest = X_test[2].to(cuda)
+    pokeFeatTest = X_test[3].to(cuda)
+    moveIntTest = X_test[4].to(cuda)
+    moveFeatTest = X_test[5].to(cuda)
     Y_test = Y_test.to(cuda)
-    logits = model.forward(X_test)
+    logits = model.forward(boardIntTest, boardFeatTest, pokeIntTest, pokeFeatTest, moveIntTest, moveFeatTest)
     loss = F.binary_cross_entropy_with_logits(logits, Y_test)
     print(f"Test loss: {loss.item():.4f}")
     probs = F.sigmoid(logits)

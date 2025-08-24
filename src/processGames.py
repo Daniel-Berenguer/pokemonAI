@@ -92,7 +92,7 @@ def processGame(filename, tensors, labels):
             t = board2tensor(board)
             for i, tensor in enumerate(t):
                 tensors[i].append(tensor)
-                labels.append(torch.tensor(board.winner))
+            labels.append(torch.tensor(board.winner))
         
 
 import os
@@ -117,7 +117,10 @@ print(f"{processed/total:.2%}")
 print(f"Data points: {len(tensors[0])}")
 
 X = [torch.stack(tensor) for tensor in tensors]
-Y = torch.stack(labels)
+Y = torch.stack(labels).float()
+
+print(X[0].shape)
+print(Y.shape)
 
 with open("data/data.pickle", "wb") as file:
     pickle.dump([X, Y], file)
