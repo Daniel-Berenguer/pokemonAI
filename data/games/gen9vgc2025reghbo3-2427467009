@@ -1,0 +1,116 @@
+|j|☆TheMarrsterVGC
+|j|☆Quill86
+|html|TheMarrsterVGCQuill86    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756011841
+|gametype|doubles
+|player|p1|TheMarrsterVGC|266|1353
+|player|p2|Quill86|lucas|1215
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Porygon2, L50|
+|poke|p1|Hydreigon, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Maushold, L50|
+|poke|p2|Hatterene, L50, F|
+|teampreview|4
+|showteam|p1|Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Hydreigon||SafetyGoggles|Levitate|Snarl,DracoMeteor,Tailwind,Protect|||F|||50|,,,,,Ghost]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Grass]Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,StompingTantrum,Protect|||M|||50|,,,,,Fire]Amoonguss||CovertCloak|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Fire]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Flying
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,TrickRoom,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,WeatherBall,EarthPower,HeatWave|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Protect,HeadlongRush,Facade,Earthquake|||M|||50|,,,,,Ghost]Maushold||WideLens|Technician|PopulationBomb,FollowMe,Taunt,Protect||||||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|DazzlingGleam,ExpandingForce,MysticalFire,TrickRoom|||F|||50|,,,,,Fire
+|
+|t:|1756011858
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Garchomp|Garchomp, L50, M, shiny|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50, shiny|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756011877
+|-terastallize|p1b: Gholdengo|Flying
+|move|p2b: Gallade|Wide Guard|p2b: Gallade
+|-singleturn|p2b: Gallade|Wide Guard
+|move|p1a: Garchomp|Earthquake|p2a: Indeedee|[spread] 
+|-activate|p2a: Indeedee|move: Wide Guard
+|-activate|p2b: Gallade|move: Wide Guard
+|-immune|p1b: Gholdengo
+|move|p1b: Gholdengo|Make It Rain|p2b: Gallade|[spread] 
+|-activate|p2a: Indeedee|move: Wide Guard
+|-activate|p2b: Gallade|move: Wide Guard
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1756011893
+|move|p2a: Indeedee|Helping Hand|p2b: Gallade
+|-singleturn|p2b: Gallade|Helping Hand|[of] p2a: Indeedee
+|move|p2b: Gallade|Psycho Cut|p1b: Gholdengo
+|-crit|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|move|p1a: Garchomp|Stomping Tantrum|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-damage|p1a: Garchomp|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756011906
+|switch|p2a: Hatterene|Hatterene, L50, F|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|turn|3
+|
+|t:|1756011922
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Hatterene|atk|1
+|-fail|p2b: Gallade|unboost|[from] item: Clear Amulet|[of] p2b: Gallade
+|-terastallize|p2b: Gallade|Grass
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2a: Hatterene|Expanding Force|p1a: Garchomp|[spread] 
+|-activate|p1a: Garchomp|move: Protect
+|-immune|p1b: Incineroar
+|move|p2b: Gallade|Psycho Cut|p1b: Incineroar
+|-immune|p1b: Incineroar
+|
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Quill86)
+|
+|t:|1756011980
+|switch|p1a: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|move|p2a: Hatterene|Expanding Force|p1a: Amoonguss|[spread] p1a
+|-immune|p1b: Incineroar
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|-damage|p2a: Hatterene|91/100|[from] item: Life Orb
+|move|p2b: Gallade|Sacred Sword|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|upkeep
+|-message|TheMarrsterVGC forfeited.
+|
+|win|Quill86
+|raw|TheMarrsterVGC's rating: 1353 → 1325(-28 for losing)
+|raw|Quill86's rating: 1215 → 1249(+34 for winning)

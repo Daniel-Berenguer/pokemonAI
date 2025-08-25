@@ -41,7 +41,7 @@ class MoveEncoder(nn.Module):
         return torch.relu(self.lin(comb)).sum(dim=3)
     
 class PokeEncoder(nn.Module):
-    N_POKES = 256
+    N_POKES = 261
     N_ABS = 212
     N_ITEMS = 133
     FEATS_DIM = 17
@@ -91,14 +91,14 @@ class BoardEncoder(nn.Module):
     NTURNS = 5
     NWEATHERS = 5
     NTERRAINS = 5
-    NEMB = 3
+    NEMB = 4
     NFEATS = 15
     def __init__(self, nhidden):
         super().__init__()
-        self.twEmb = nn.Embedding(self.NTURNS, 3)
-        self.trEmb = nn.Embedding(self.NTURNS, 3)
-        self.weatherEmb = nn.Embedding(self.NWEATHERS, 3)
-        self.terrainEmb = nn.Embedding(self.NTERRAINS, 3)
+        self.twEmb = nn.Embedding(self.NTURNS, self.NEMB)
+        self.trEmb = nn.Embedding(self.NTURNS, self.NEMB)
+        self.weatherEmb = nn.Embedding(self.NWEATHERS, self.NEMB)
+        self.terrainEmb = nn.Embedding(self.NTERRAINS, self.NEMB)
 
         newDim = self.NEMB*3 + self.NEMB + self.NEMB + self.NFEATS
 
@@ -128,6 +128,7 @@ class Model(nn.Module):
     TYPE_EMB = 10
     POKE_HIDDEN = 512
     MOVE_HIDDEN = 256
+    DROPOUT_PROB = 0.3
 
     def __init__(self):
         super().__init__()
@@ -141,6 +142,14 @@ class Model(nn.Module):
 
         self.linearLayers = nn.ModuleList([nn.Linear(concatDim, 512), nn.Linear(512, 256), nn.Linear(256, 64), nn.Linear(64, 16)])
         self.bns = nn.ModuleList([nn.BatchNorm1d(concatDim), nn.BatchNorm1d(512), nn.BatchNorm1d(256), nn.BatchNorm1d(64)])
+        
+        # Add Dropout layers
+        self.dropouts = nn.ModuleList([
+            nn.Dropout(p=self.DROPOUT_PROB),
+            nn.Dropout(p=self.DROPOUT_PROB),
+            nn.Dropout(p=self.DROPOUT_PROB),
+            nn.Dropout(p=self.DROPOUT_PROB)
+        ])
                                  
         self.finalLinear = nn.Linear(16, 1)
 
@@ -153,93 +162,98 @@ class Model(nn.Module):
         x = torch.cat([board, teams], dim=-1)
         # x shape is (BATCH, pokeDIM*4*2 + boardDIm)
 
-        for bn,linear in zip(self.bns,self.linearLayers):
+        for bn,linear,drop in zip(self.bns,self.linearLayers,self.dropouts):
             x = torch.relu(linear(bn(x)))
+            x = drop(x)
 
 
         return self.finalLinear(x).reshape(-1)
 
 
+if __name__ == "__main__":
+
+    with open("data/data.pickle", "rb") as file:
+        # X is boardIntTensor, boardTensor, pokeIntsTensor, pokeFeatsTensor, moveFeatsTensor, moveIntsTensor
+        X, Y = pickle.load(file)
 
 
-with open("data/data.pickle", "rb") as file:
-    # X is boardIntTensor, boardTensor, pokeIntsTensor, pokeFeatsTensor, moveFeatsTensor, moveIntsTensor
-    X, Y = pickle.load(file)
+    model = Model().to(cuda)
+    nEl = 0
+    for p in model.parameters():
+        nEl += p.numel()
+    print(f"Number of params: {nEl}")
 
 
-model = Model().to(cuda)
-nEl = 0
-for p in model.parameters():
-    nEl += p.numel()
-print(f"Number of params: {nEl}")
+    optimizer = torch.optim.Adam(model.parameters(), lr=0.0001)
 
 
+    # Shuffle
+    indices = torch.randperm(X[0].size(0))  # random permutation of indices
+    for i, tens in enumerate(X):
+        X[i] = tens[indices]
+    Y = Y[indices]
 
-BATCH_SIZE = 16
+    n = int(Y.size(0)*0.85)
+    print(f"Dataset size: {Y.size(0)}")
 
-optimizer = torch.optim.Adam(model.parameters(), lr=0.0001)
-
-
-# Shuffle
-indices = torch.randperm(X[0].size(0))  # random permutation of indices
-for i, tens in enumerate(X):
-    X[i] = tens[indices]
-Y = Y[indices]
-
-n = int(Y.size(0)*0.85)
-print(f"Dataset size: {Y.size(0)}")
-
-X_train = [X[i][:n] for i in range(len(X))]
-Y_train = Y[:n]
-X_test =  [X[i][n:] for i in range(len(X))]
-Y_test = Y[n:]
+    X_train = [X[i][:n] for i in range(len(X))]
+    Y_train = Y[:n]
+    X_test =  [X[i][n:] for i in range(len(X))]
+    Y_test = Y[n:]
 
 
-EPOCHS = 15
-ITERS = int((n * EPOCHS)/BATCH_SIZE)
+    EPOCHS = 20
+    BATCH_SIZE = 16
+    ITERS = int((n * EPOCHS)/BATCH_SIZE)
+    CHECK_INTERVAL = 100
+    
 
-loss_avg = 0
+    loss_avg = 0
 
-for i in range(ITERS):
-    ix = torch.randint(0, Y_train.size(0), (BATCH_SIZE,))  # random indices
-    #boardIntTensor, boardTensor, pokeIntsTensor, pokeFeatsTensor, moveFeatsTensor, moveIntsTensor
-    boardIntBatch = X_train[0][ix].to(cuda)
-    boardFeatBatch = X_train[1][ix].to(cuda)
-    pokeIntBatch = X_train[2][ix].to(cuda)
-    pokeFeatBatch = X_train[3][ix].to(cuda)
-    moveIntBatch = X_train[4][ix].to(cuda)
-    moveFeatBatch = X_train[5][ix].to(cuda)
+    for i in range(ITERS+1):
+        ix = torch.randint(0, Y_train.size(0), (BATCH_SIZE,))  # random indices
+        #boardIntTensor, boardTensor, pokeIntsTensor, pokeFeatsTensor, moveFeatsTensor, moveIntsTensor
+        boardIntBatch = X_train[0][ix].to(cuda)
+        boardFeatBatch = X_train[1][ix].to(cuda)
+        pokeIntBatch = X_train[2][ix].to(cuda)
+        pokeFeatBatch = X_train[3][ix].to(cuda)
+        moveIntBatch = X_train[4][ix].to(cuda)
+        moveFeatBatch = X_train[5][ix].to(cuda)
 
-    Y_batch = Y_train[ix].to(cuda)
+        Y_batch = Y_train[ix].to(cuda)
 
-    logits = model.forward(boardIntBatch, boardFeatBatch, pokeIntBatch, pokeFeatBatch, moveIntBatch, moveFeatBatch)
+        logits = model.forward(boardIntBatch, boardFeatBatch, pokeIntBatch, pokeFeatBatch, moveIntBatch, moveFeatBatch)
 
-    loss = F.binary_cross_entropy_with_logits(logits, Y_batch)
+        loss = F.binary_cross_entropy_with_logits(logits, Y_batch)
 
-    optimizer.zero_grad()
-    loss.backward()
-    optimizer.step()
-    loss_avg += loss.item()
-    if i % 10 == 0:
-        loss_avg /= 10
-        print(f'Iteration [{i}/{ITERS}], Loss: {loss_avg:.4f}')
-        loss_avg = 0
+        optimizer.zero_grad()
+        loss.backward()
+        optimizer.step()
+        loss_avg += loss.item()
+        if i % CHECK_INTERVAL == 0 or i == ITERS:
+            if i != 0:
+                loss_avg /= CHECK_INTERVAL
+            print(f'Iteration [{i}/{ITERS}], Loss: {loss_avg:.4f}')
+            loss_avg = 0
 
 
-# Test loss
-with torch.no_grad():
-    boardIntTest = X_test[0].to(cuda)
-    boardFeatTest = X_test[1].to(cuda)
-    pokeIntTest = X_test[2].to(cuda)
-    pokeFeatTest = X_test[3].to(cuda)
-    moveIntTest = X_test[4].to(cuda)
-    moveFeatTest = X_test[5].to(cuda)
-    Y_test = Y_test.to(cuda)
-    logits = model.forward(boardIntTest, boardFeatTest, pokeIntTest, pokeFeatTest, moveIntTest, moveFeatTest)
-    loss = F.binary_cross_entropy_with_logits(logits, Y_test)
-    print(f"Test loss: {loss.item():.4f}")
-    probs = F.sigmoid(logits)
-    predicts = torch.round(probs)
-    correct = torch.eq(predicts, Y_test).sum()
-    acc = correct / Y_test.size(0)
-    print(f"Test accuracy: {acc.item():.4f}")
+    # Test loss
+    with torch.no_grad():
+        boardIntTest = X_test[0].to(cuda)
+        boardFeatTest = X_test[1].to(cuda)
+        pokeIntTest = X_test[2].to(cuda)
+        pokeFeatTest = X_test[3].to(cuda)
+        moveIntTest = X_test[4].to(cuda)
+        moveFeatTest = X_test[5].to(cuda)
+        Y_test = Y_test.to(cuda)
+        logits = model.forward(boardIntTest, boardFeatTest, pokeIntTest, pokeFeatTest, moveIntTest, moveFeatTest)
+        loss = F.binary_cross_entropy_with_logits(logits, Y_test)
+        print(f"Test loss: {loss.item():.4f}")
+        probs = F.sigmoid(logits)
+        predicts = torch.round(probs)
+        correct = torch.eq(predicts, Y_test).sum()
+        acc = correct / Y_test.size(0)
+        print(f"Test accuracy: {acc.item():.4f}")
+
+    with open("data/model_state_dict", "wb") as file:
+        torch.save(model.state_dict(), file)

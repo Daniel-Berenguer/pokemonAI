@@ -3,9 +3,8 @@ from boardToTensors import board2tensor
 import torch
 import pickle
 
-def processGame(filename, tensors, labels):
-    with open(f"data/games/{filename}", encoding="utf-8") as file:
-        text = file.read()
+def processGame(text, tensors, labels, augment=True):
+    
 
     lines = text.split("\n")
 
@@ -89,38 +88,52 @@ def processGame(filename, tensors, labels):
                 board.nextTurn()
             else:
                 firstTurn = False
+            
+            # Converts board to tensor and adds to data
             t = board2tensor(board)
             for i, tensor in enumerate(t):
                 tensors[i].append(tensor)
             labels.append(torch.tensor(board.winner))
+            if augment:
+                # Switches sides of board (data augmentation)
+                board.switchSides()
+                # Tensorizes and stores
+                h = board2tensor(board)
+                for i, tensor in enumerate(h):
+                    tensors[i].append(tensor)
+                labels.append(torch.tensor(board.winner))
+                # Switches back
+                board.switchSides()
         
 
-import os
-total = 0
-errors = 0
-tensors = [[],[],[],[],[],[]]
-labels = []
-for filename in os.listdir("data/games"):
-    print(filename)
-    total += 1
-    if filename != "gen9vgc2025reghbo3-2416755957":
+if __name__ == "__main__":
+    import os
+    total = 0
+    errors = 0
+    tensors = [[],[],[],[],[],[]]
+    labels = []
+    for filename in os.listdir("data/games"):
+        with open(f"data/games/{filename}", encoding="utf-8") as file:
+            text = file.read()
+        print(filename)
+        total += 1
         try:
-            processGame(filename, tensors, labels)
+            processGame(text, tensors, labels)
         except Exception as e:
             print(e)
             errors += 1
 
-processed = total-errors
+    processed = total-errors
 
-print(f"Processed {processed}/{total}")
-print(f"{processed/total:.2%}")
-print(f"Data points: {len(tensors[0])}")
+    print(f"Processed {processed}/{total}")
+    print(f"{processed/total:.2%}")
+    print(f"Data points: {len(tensors[0])}")
 
-X = [torch.stack(tensor) for tensor in tensors]
-Y = torch.stack(labels).float()
+    X = [torch.stack(tensor) for tensor in tensors]
+    Y = torch.stack(labels).float()
 
-print(X[0].shape)
-print(Y.shape)
+    print(X[0].shape)
+    print(Y.shape)
 
-with open("data/data.pickle", "wb") as file:
-    pickle.dump([X, Y], file)
+    with open("data/data.pickle", "wb") as file:
+        pickle.dump([X, Y], file)

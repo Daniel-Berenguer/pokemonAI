@@ -1,0 +1,230 @@
+|j|â˜†Gozante
+|j|â˜†TailwindMakeItRain
+|html|GozanteTailwindMakeItRain    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755920151
+|gametype|doubles
+|player|p1|Gozante|266|1307
+|player|p2|TailwindMakeItRain|iris|1501
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each PokÃ©mon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Magmar, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|showteam|p1|Annihilape||Leftovers|Defiant|BulkUp,Protect,DrainPunch,RageFist|||M|||50|,,,,,Fire]Ninetales-Alola||LightClay|SnowWarning|IcicleSpear,AuroraVeil,Blizzard,IcyWind|||F|||50|,,,,,Ghost]Rillaboom||MiracleSeed|GrassySurge|WoodHammer,FakeOut,Protect,GrassyGlide|||F|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|Tailwind,ScaleShot,ExtremeSpeed,Protect|||M|||50|,,,,,Fairy]Magmar||Eviolite|VitalSpirit|ClearSmog,HeatWave,Protect,FollowMe|||M|||50|,,,,,Dragon]Gholdengo||GrassySeed|GoodasGold|MakeItRain,ShadowBall,Protect,NastyPlot||||||50|,,,,,Water
+|showteam|p2|Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|PartingShot,FlareBlitz,KnockOff,FakeOut|||M|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Psychic]Sneasler||FocusSash|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Stellar]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||F|||50|,,,,,Fairy]Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,EarthPower,HyperVoice,VacuumWave|||M|||50|,,,,,Water
+|
+|t:|1755920204
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1755920234
+|switch|p1a: Magmar|Magmar, L50, M|100/100
+|move|p1b: Annihilape|Protect|p1b: Annihilape
+|-singleturn|p1b: Annihilape|Protect
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p2b: Amoonguss|Pollen Puff|p2a: Gholdengo
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1755920249
+|-terastallize|p1b: Annihilape|Fire
+|move|p1b: Annihilape|Bulk Up|p1b: Annihilape
+|-boost|p1b: Annihilape|atk|1
+|-boost|p1b: Annihilape|def|1
+|move|p2a: Gholdengo|Shadow Ball|p1b: Annihilape
+|-damage|p1b: Annihilape|12/100
+|-damage|p2a: Gholdengo|91/100|[from] item: Life Orb
+|move|p1a: Magmar|Heat Wave|p2a: Gholdengo|[spread] p2a,p2b
+|-supereffective|p2a: Gholdengo
+|-supereffective|p2b: Amoonguss
+|-damage|p2a: Gholdengo|37/100
+|-damage|p2b: Amoonguss|61/100
+|move|p2b: Amoonguss|Spore|p1b: Annihilape
+|-status|p1b: Annihilape|slp|[from] move: Spore
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Annihilape|18/100 slp|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1755920271
+|-terastallize|p2a: Gholdengo|Water
+|cant|p1b: Annihilape|slp
+|move|p2a: Gholdengo|Make It Rain|p1b: Annihilape|[spread] p1a,p1b
+|-resisted|p1a: Magmar
+|-resisted|p1b: Annihilape
+|-damage|p1a: Magmar|56/100
+|-damage|p1b: Annihilape|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1b: Annihilape
+|-damage|p2a: Gholdengo|27/100|[from] item: Life Orb
+|move|p1a: Magmar|Heat Wave|p2b: Amoonguss|[spread] p2b
+|-miss|p1a: Magmar|p2a: Gholdengo
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|22/100
+|-enditem|p2b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2b: Amoonguss|47/100|[from] item: Sitrus Berry
+|move|p2b: Amoonguss|Pollen Puff|p2a: Gholdengo
+|-heal|p2a: Gholdengo|77/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1755920275
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|4
+|
+|t:|1755920302
+|switch|p2b: Dragonite|Dragonite, L50, F|100/100
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1b: Rillaboom|Wood Hammer|p2b: Dragonite
+|-resisted|p2b: Dragonite
+|-damage|p2b: Dragonite|87/100
+|-damage|p1b: Rillaboom|97/100|[from] Recoil
+|move|p1a: Magmar|Heat Wave|p2a: Gholdengo|[spread] p2b
+|-activate|p2a: Gholdengo|move: Protect
+|-resisted|p2b: Dragonite
+|-damage|p2b: Dragonite|74/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gholdengo|83/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|100/100|[from] Grassy Terrain
+|-heal|p1a: Magmar|62/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1755920321
+|switch|p2a: Amoonguss|Amoonguss, L50, F, shiny|80/100
+|move|p1b: Rillaboom|Grassy Glide|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|71/100
+|move|p2b: Dragonite|Scale Shot|p1b: Rillaboom
+|-damage|p1b: Rillaboom|86/100
+|-damage|p1b: Rillaboom|70/100
+|-damage|p1b: Rillaboom|54/100
+|-damage|p1b: Rillaboom|40/100
+|-hitcount|p1b: Rillaboom|4
+|-unboost|p2b: Dragonite|def|1
+|-boost|p2b: Dragonite|spe|1
+|move|p1a: Magmar|Heat Wave|p2b: Dragonite|[spread] p2a,p2b
+|-supereffective|p2a: Amoonguss
+|-resisted|p2b: Dragonite
+|-damage|p2a: Amoonguss|29/100
+|-damage|p2b: Dragonite|61/100
+|
+|-weather|none
+|-heal|p1b: Rillaboom|45/100|[from] Grassy Terrain
+|-heal|p1a: Magmar|67/100|[from] Grassy Terrain
+|-heal|p2a: Amoonguss|35/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1755920359
+|switch|p1b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|move|p1a: Magmar|Protect|p1a: Magmar
+|-singleturn|p1a: Magmar|Protect
+|move|p2b: Dragonite|Scale Shot|p1a: Magmar
+|-activate|p1a: Magmar|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Magmar|73/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1755920395
+|move|p1a: Magmar|Follow Me|p1a: Magmar
+|-singleturn|p1a: Magmar|move: Follow Me
+|move|p2b: Dragonite|Tailwind|p2b: Dragonite
+|-sidestart|p2: TailwindMakeItRain|move: Tailwind
+|move|p1b: Ninetales|Icy Wind|p2b: Dragonite|[spread] p2a,p2b
+|-supereffective|p2a: Ursaluna
+|-supereffective|p2b: Dragonite
+|-damage|p2a: Ursaluna|83/100
+|-damage|p2b: Dragonite|1/100
+|-unboost|p2a: Ursaluna|spe|1
+|-unboost|p2b: Dragonite|spe|1
+|move|p2a: Ursaluna|Blood Moon|p1a: Magmar
+|-damage|p1a: Magmar|19/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Magmar|25/100|[from] Grassy Terrain
+|-heal|p2a: Ursaluna|89/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1755920422
+|switch|p2a: Gholdengo|Gholdengo, L50, tera:Water|83/100
+|move|p2b: Dragonite|Protect|p2b: Dragonite
+|-singleturn|p2b: Dragonite|Protect
+|move|p1a: Magmar|Protect|p1a: Magmar
+|-singleturn|p1a: Magmar|Protect
+|move|p1b: Ninetales|Blizzard|p2b: Dragonite|[spread] p2a
+|-activate|p2b: Dragonite|move: Protect
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|68/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Gholdengo|74/100|[from] Grassy Terrain
+|-heal|p1a: Magmar|31/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1755920446
+|move|p2a: Gholdengo|Make It Rain|p1b: Ninetales|[spread] p1a,p1b
+|-resisted|p1a: Magmar
+|-supereffective|p1b: Ninetales
+|-damage|p1a: Magmar|9/100
+|-damage|p1b: Ninetales|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1b: Ninetales
+|-damage|p2a: Gholdengo|64/100|[from] item: Life Orb
+|move|p2b: Dragonite|Scale Shot|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|faint|p1a: Magmar
+|-hitcount|p1: Magmar|1
+|-unboost|p2b: Dragonite|def|1
+|-boost|p2b: Dragonite|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|-message|Gozante forfeited.
+|
+|win|TailwindMakeItRain
+|raw|Gozante's rating: 1307 → 1297(-10 for losing)
+|raw|TailwindMakeItRain's rating: 1501 → 1511(+10 for winning)
+|l|â˜†Gozante
+|player|p1|
+|l|â˜†TailwindMakeItRain
+|player|p2|
+|j|â˜†TailwindMakeItRain
+|player|p2|TailwindMakeItRain|iris|

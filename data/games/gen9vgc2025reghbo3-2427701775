@@ -1,0 +1,220 @@
+|j|☆HappyDuckJJ
+|j|☆nicven
+|html|HappyDuckJJnicven    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756050702
+|gametype|doubles
+|player|p1|HappyDuckJJ|ash|1373
+|player|p2|nicven|265|1415
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Magmar, L50, F|
+|teampreview|4
+|showteam|p1|Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||M|||50|,,,,,Fairy]Annihilape||FocusSash|Defiant|CloseCombat,RageFist,Coaching,Taunt|||M|||50|,,,,,Stellar]Gholdengo||SitrusBerry|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,HighHorsepower|||M|||50|,,,,,Fire]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,Electroweb,FollowMe,Protect|||M|||50|,,,,,Dragon]Incineroar||MirrorHerb|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost
+|showteam|p2|Gholdengo||GrassySeed|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|DrumBeating,GrassyGlide,FakeOut,HighHorsepower|||M|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Tailwind,Protect|||F|||50|,,,,,Ground]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,AuroraVeil,Encore,IcyWind|||F|||50|,,,,,Ghost]Annihilape||SafetyGoggles|Defiant|RageFist,DrainPunch,BulkUp,Protect|||F|||50|,,,,,Water]Magmar||Eviolite|FlameBody|HeatWave,Taunt,FollowMe,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1756050722
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p2a: Gholdengo|Grassy Seed
+|-boost|p2a: Gholdengo|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1756050768
+|-terastallize|p2a: Gholdengo|Water
+|move|p2b: Rillaboom|Fake Out|p1a: Dragonite
+|-damage|p1a: Dragonite|94/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1b: Gholdengo|Shadow Ball|p2a: Gholdengo
+|-damage|p2a: Gholdengo|59/100
+|cant|p1a: Dragonite|flinch
+|
+|-heal|p2a: Gholdengo|65/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756050805
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Gholdengo|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|move|p1a: Dragonite|Protect|p1a: Dragonite
+|-singleturn|p1a: Dragonite|Protect
+|move|p2b: Rillaboom|Drum Beating|p1a: Dragonite
+|-activate|p1a: Dragonite|move: Protect
+|move|p2a: Gholdengo|Shadow Ball|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|62/100
+|
+|-heal|p2a: Gholdengo|71/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|68/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756050825
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Gholdengo
+|-activate|p2a: Gholdengo|move: Protect
+|move|p1a: Dragonite|Tailwind|p1a: Dragonite
+|-sidestart|p1: HappyDuckJJ|move: Tailwind
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Incineroar|74/100|[from] Grassy Terrain
+|-heal|p2a: Gholdengo|77/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756050866
+|move|p1a: Dragonite|Scale Shot|p2a: Gholdengo
+|-damage|p2a: Gholdengo|66/100
+|-damage|p2a: Gholdengo|56/100
+|-damage|p2a: Gholdengo|46/100
+|-damage|p2a: Gholdengo|36/100
+|-hitcount|p2a: Gholdengo|4
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|move|p1b: Incineroar|Flare Blitz|p2b: Ninetales
+|-supereffective|p2b: Ninetales
+|-damage|p2b: Ninetales|11/100
+|-damage|p1b: Incineroar|52/100|[from] Recoil
+|move|p2b: Ninetales|Aurora Veil|p2b: Ninetales
+|-sidestart|p2: nicven|move: Aurora Veil
+|move|p2a: Gholdengo|Make It Rain|p1b: Incineroar|[spread] p1a,p1b
+|-crit|p1a: Dragonite
+|-resisted|p1b: Incineroar
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1b: Incineroar|4/100
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Dragonite
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Incineroar|10/100|[from] Grassy Terrain
+|-heal|p2b: Ninetales|17/100|[from] Grassy Terrain
+|-heal|p2a: Gholdengo|42/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756050877
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|turn|5
+|
+|t:|1756050904
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1a: Rillaboom|Wood Hammer|p2b: Ninetales
+|-damage|p2b: Ninetales|0 fnt
+|faint|p2b: Ninetales
+|-damage|p1a: Rillaboom|97/100|[from] Recoil
+|move|p1b: Incineroar|Flare Blitz|p2a: Gholdengo
+|-activate|p2a: Gholdengo|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Rillaboom|100/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|16/100|[from] Grassy Terrain
+|-heal|p2a: Gholdengo|48/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756050924
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|6
+|
+|t:|1756050951
+|move|p2b: Rillaboom|Fake Out|p1a: Rillaboom
+|-damage|p1a: Rillaboom|88/100
+|cant|p1a: Rillaboom|flinch
+|move|p1b: Incineroar|Parting Shot|p2b: Rillaboom
+|-unboost|p2b: Rillaboom|atk|1
+|-unboost|p2b: Rillaboom|spa|1
+|
+|t:|1756050955
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100|[from] Parting Shot
+|move|p2a: Gholdengo|Make It Rain|p1b: Gholdengo|[spread] p1a,p1b
+|-resisted|p1b: Gholdengo
+|-damage|p1a: Rillaboom|36/100
+|-damage|p1b: Gholdengo|68/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Gholdengo|74/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|42/100|[from] Grassy Terrain
+|-heal|p2a: Gholdengo|54/100|[from] Grassy Terrain
+|-sideend|p1: HappyDuckJJ|move: Tailwind
+|upkeep
+|turn|7
+|
+|t:|1756050996
+|switch|p1a: Incineroar|Incineroar, L50, M|16/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Gholdengo|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|-terastallize|p1b: Gholdengo|Water
+|move|p2b: Rillaboom|Drum Beating|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo
+|-damage|p1b: Gholdengo|27/100
+|-unboost|p1b: Gholdengo|spe|1
+|-enditem|p1b: Gholdengo|Sitrus Berry|[eat]
+|-heal|p1b: Gholdengo|52/100|[from] item: Sitrus Berry
+|move|p2a: Gholdengo|Shadow Ball|p1b: Gholdengo
+|-damage|p1b: Gholdengo|9/100
+|-unboost|p1b: Gholdengo|spd|1
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|
+|-weather|none
+|-heal|p2a: Gholdengo|60/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|22/100|[from] Grassy Terrain
+|-heal|p1b: Gholdengo|16/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1756051034
+|move|p2b: Rillaboom|Drum Beating|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|move|p2a: Gholdengo|Shadow Ball|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|3/100
+|move|p1a: Incineroar|Flare Blitz|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|36/100
+|-damage|p1a: Incineroar|0 fnt|[from] Recoil
+|faint|p1a: Incineroar
+|
+|-heal|p2b: Rillaboom|42/100|[from] Grassy Terrain
+|-heal|p2a: Gholdengo|65/100|[from] Grassy Terrain
+|-sideend|p2: nicven|move: Aurora Veil
+|upkeep
+|-message|HappyDuckJJ forfeited.
+|raw|HappyDuckJJ's rating: 1373 → 1355(-18 for losing)
+|raw|nicven's rating: 1415 → 1433(+18 for winning)
+|
+|win|nicven
+|l|☆HappyDuckJJ
+|player|p1|

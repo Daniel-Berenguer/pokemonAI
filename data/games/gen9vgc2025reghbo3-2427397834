@@ -1,0 +1,149 @@
+|j|☆Squ1dge_
+|j|‽LiamDerWeste
+|html|Squ1dge_LiamDerWeste    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756001949
+|gametype|doubles
+|player|p1|Squ1dge_|266|1345
+|player|p2|LiamDerWeste|169|1326
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Arcanine-Hisui, L50, M|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Typhlosion-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Gholdengo||GrassySeed|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,Coaching,Protect|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,DrumBeating,HighHorsepower|||F|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Tailwind,Protect|||M|||50|,,,,,Ground]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,IcyWind,Encore,AuroraVeil|||F|||50|,,,,,Ghost]Arcanine-Hisui||ClearAmulet|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||M|||50|,,,,,Water
+|showteam|p2|Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,Earthquake,Protect|||F|||50|,,,,,Fairy]Jumpluff||CovertCloak|Chlorophyll|LeafStorm,SleepPowder,Encore,Tailwind|||M|||50|,,,,,Poison]Torkoal||EjectPack|Drought|Overheat,BurningJealousy,HelpingHand,Protect|||M|||50|,,,,,Flying]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,IceSpinner,Protect|||F|||50|,,,,,Fairy]Kingambit||AssaultVest|Defiant|IronHead,SuckerPunch,Assurance,LowKick|||M|||50|,,,,,Flying]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,ShadowBall,HeatWave,Overheat|||F|||50|,,,,,Fire
+|
+|t:|1756001960
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-enditem|p1a: Gholdengo|Grassy Seed
+|-boost|p1a: Gholdengo|def|1|[from] item: Grassy Seed
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|1
+|
+|t:|1756001977
+|move|p1b: Rillaboom|Fake Out|p2b: Torkoal
+|-damage|p2b: Torkoal|90/100
+|move|p2a: Jumpluff|Leaf Storm|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|85/100
+|-unboost|p2a: Jumpluff|spa|2
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|cant|p2b: Torkoal|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gholdengo|92/100|[from] Grassy Terrain
+|-heal|p2b: Torkoal|96/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756001998
+|move|p2a: Jumpluff|Encore|p1b: Rillaboom
+|-start|p1b: Rillaboom|Encore
+|move|p1b: Rillaboom|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1b: Rillaboom
+|move|p1a: Gholdengo|Shadow Ball|p2b: Torkoal
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gholdengo|98/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756002005
+|switch|p2b: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|turn|3
+|
+|t:|1756002014
+|switch|p1b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|-terastallize|p2b: Typhlosion|Fire
+|-terastallize|p1a: Gholdengo|Water
+|move|p2a: Jumpluff|Sleep Powder|p1b: Ninetales
+|-status|p1b: Ninetales|slp|[from] move: Sleep Powder
+|move|p2b: Typhlosion|Overheat|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|31/100
+|-unboost|p2b: Typhlosion|spa|2
+|move|p1a: Gholdengo|Shadow Ball|p2b: Typhlosion
+|-damage|p2b: Typhlosion|0 fnt
+|faint|p2b: Typhlosion
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Gholdengo|37/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756002024
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|turn|4
+|
+|t:|1756002043
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2a: Jumpluff|Leaf Storm|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|move|p2b: Garchomp|Dragon Claw|p1b: Rillaboom
+|-damage|p1b: Rillaboom|49/100
+|-damage|p2b: Garchomp|91/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Garchomp|97/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|55/100|[from] Grassy Terrain
+|-heal|p1a: Gholdengo|43/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756002078
+|move|p1b: Rillaboom|Fake Out|p2b: Garchomp
+|-damage|p2b: Garchomp|83/100
+|-damage|p1b: Rillaboom|43/100|[from] ability: Rough Skin|[of] p2b: Garchomp
+|move|p2a: Jumpluff|Leaf Storm|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|15/100
+|-unboost|p2a: Jumpluff|spa|2
+|cant|p2b: Garchomp|flinch
+|move|p1a: Gholdengo|Make It Rain|p2a: Jumpluff|[spread] p2a,p2b
+|-damage|p2a: Jumpluff|4/100
+|-damage|p2b: Garchomp|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2b: Garchomp
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Rillaboom|49/100|[from] Grassy Terrain
+|-heal|p1a: Gholdengo|21/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|-message|LiamDerWeste forfeited.
+|raw|Squ1dge_'s rating: 1345 → 1364(+19 for winning)
+|raw|LiamDerWeste's rating: 1326 → 1307(-19 for losing)
+|
+|win|Squ1dge_
+|l|☆Squ1dge_
+|player|p1|
+|j|☆Squ1dge_
+|player|p1|Squ1dge_|266|

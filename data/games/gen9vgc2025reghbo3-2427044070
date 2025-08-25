@@ -1,0 +1,189 @@
+|j|☆TailwindMakeItRain
+|j|☆Jzvictini
+|html|TailwindMakeItRainJzvictini    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755959650
+|gametype|doubles
+|player|p1|TailwindMakeItRain|iris|1505
+|player|p2|Jzvictini|266|1400
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Maushold-Four, L50|
+|teampreview|4
+|showteam|p1|Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|PartingShot,FlareBlitz,KnockOff,FakeOut|||F|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Psychic]Sneasler||FocusSash|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Stellar]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy]Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,EarthPower,HyperVoice,VacuumWave|||M|||50|,,,,,Water
+|showteam|p2|Gallade||ClearAmulet|Sharpness|WideGuard,SacredSword,PsychoCut,TrickRoom|||M|||50|,,,,,Fire]Indeedee-F||RockyHelmet|PsychicSurge|FollowMe,HelpingHand,TrickRoom,Psychic|||F|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,ClearSmog|||M|||50|,,,,,Fire]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,Psychic,TrickRoom|||F|||50|,,,,,Psychic]Ursaluna-Bloodmoon||CovertCloak|MindsEye|Protect,HyperVoice,BloodMoon,EarthPower|||M|||50|,,,,,Normal]Maushold-Four||WideLens|Technician|Protect,FollowMe,PopulationBomb,Taunt||||||50|,,,,,Ghost
+|
+|t:|1755959664
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Gallade|Gallade, L50, M, shiny|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Gallade|unboost|[from] item: Clear Amulet|[of] p2a: Gallade
+|-unboost|p2b: Indeedee|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1755959674
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p1b: Incineroar|Parting Shot|p2b: Indeedee
+|-unboost|p2b: Indeedee|atk|1
+|-unboost|p2b: Indeedee|spa|1
+|
+|t:|1755959677
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100|[from] Parting Shot
+|move|p2a: Gallade|Trick Room|p2a: Gallade
+|-fieldstart|move: Trick Room|[of] p2a: Gallade
+|
+|upkeep
+|turn|2
+|
+|t:|1755959694
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Gallade|Psycho Cut|p1b: Dragonite
+|-damage|p1b: Dragonite|61/100
+|move|p1b: Dragonite|Scale Shot|p2b: Indeedee|[miss]
+|-miss|p1b: Dragonite|p2b: Indeedee
+|move|p1a: Gholdengo|Make It Rain|p2b: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Gallade|0 fnt
+|-damage|p2b: Indeedee|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Gallade
+|faint|p2b: Indeedee
+|-damage|p1a: Gholdengo|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1755959701
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|3
+|
+|t:|1755959711
+|-terastallize|p2a: Ursaluna|Normal
+|move|p1b: Dragonite|Protect|p1b: Dragonite
+|-singleturn|p1b: Dragonite|Protect
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2b: Torkoal|Eruption|p1a: Gholdengo|[spread] 
+|-activate|p1a: Gholdengo|move: Protect
+|-activate|p1b: Dragonite|move: Protect
+|move|p2a: Ursaluna|Hyper Voice|p1a: Gholdengo|[spread] 
+|-activate|p1a: Gholdengo|move: Protect
+|-activate|p1b: Dragonite|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1755959745
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2b: Torkoal|atk|1
+|move|p1a: Gholdengo|Protect||[still]
+|-fail|p1a: Gholdengo
+|move|p2b: Torkoal|Eruption|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Gholdengo
+|-resisted|p1b: Incineroar
+|-damage|p1a: Gholdengo|0 fnt
+|-damage|p1b: Incineroar|51/100
+|faint|p1a: Gholdengo
+|move|p2a: Ursaluna|Hyper Voice|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1755959748
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p1a: Dragonite|Dragonite, L50, M|61/100
+|turn|5
+|
+|t:|1755959760
+|move|p1a: Dragonite|Protect|p1a: Dragonite
+|-singleturn|p1a: Dragonite|Protect
+|move|p1b: Sneasler|Protect|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Protect
+|move|p2b: Torkoal|Eruption|p1a: Dragonite|[spread] 
+|-activate|p1a: Dragonite|move: Protect
+|-activate|p1b: Sneasler|move: Protect
+|move|p2a: Ursaluna|Hyper Voice|p1b: Sneasler|[spread] 
+|-activate|p1a: Dragonite|move: Protect
+|-activate|p1b: Sneasler|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1755959769
+|-terastallize|p1b: Sneasler|Stellar
+|move|p1b: Sneasler|Close Combat|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|faint|p2a: Ursaluna
+|move|p1a: Dragonite|Scale Shot|p2b: Torkoal
+|-damage|p2b: Torkoal|89/100
+|-damage|p2b: Torkoal|78/100
+|-damage|p2b: Torkoal|66/100
+|-damage|p2b: Torkoal|55/100
+|-hitcount|p2b: Torkoal|4
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2b: Torkoal|Eruption|p1b: Sneasler|[spread] p1a,p1b
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|28/100
+|-enditem|p1b: Sneasler|Focus Sash
+|-damage|p1b: Sneasler|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1755959779
+|move|p1b: Sneasler|Protect|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Protect
+|move|p1a: Dragonite|Protect|p1a: Dragonite
+|-singleturn|p1a: Dragonite|Protect
+|move|p2b: Torkoal|Eruption|p1a: Dragonite|[spread] 
+|-activate|p1a: Dragonite|move: Protect
+|-activate|p1b: Sneasler|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|8
+|-message|Jzvictini forfeited.
+|
+|win|TailwindMakeItRain
+|raw|TailwindMakeItRain's rating: 1505 → 1519(+14 for winning)
+|raw|Jzvictini's rating: 1400 → 1386(-14 for losing)
+|l|☆Jzvictini
+|player|p2|

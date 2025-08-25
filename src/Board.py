@@ -106,7 +106,7 @@ class Board:
                self.pokemon[player].append(pokemon)
                self.name2Indicies[player][name] = i
           if len(self.pokemon[player]) < 6:
-               raise Exception("TO FEW POKEMON")
+               raise Exception("TOO FEW POKEMON")
 
      def switch(self, line):
           line = line.split("|")

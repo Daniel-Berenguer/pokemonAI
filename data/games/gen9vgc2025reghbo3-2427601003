@@ -1,0 +1,115 @@
+|j|☆Gozante
+|j|☆Astterio
+|html|GozanteAstterio    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756037395
+|gametype|doubles
+|player|p1|Gozante|170|1454
+|player|p2|Astterio|eusine|1362
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Armarouge, L50, F|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|Psychic,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Water]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,EarthPower,WeatherBall|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||M|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Lilligant-Hisui||FocusSash|Chlorophyll|AfterYou,CloseCombat,SolarBlade,SleepPowder|||F|||50|,,,,,Ghost]Armarouge||PowerHerb|FlashFire|ArmorCannon,ExpandingForce,TrickRoom,MeteorBeam|||F|||50|,,,,,Grass
+|showteam|p2|Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||M|||50|,,,,,Steel]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost]Annihilape||FocusSash|Defiant|CloseCombat,Coaching,FinalGambit,RageFist|||F|||50|,,,,,Stellar]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,KnockOff,FlareBlitz|||M|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Astterio)
+|
+|t:|1756037408
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-fail|p1b: Gallade|unboost|[from] item: Clear Amulet|[of] p1b: Gallade
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756037419
+|switch|p2b: Annihilape|Annihilape, L50, F|100/100
+|move|p1b: Gallade|Sacred Sword|p2b: Annihilape
+|-immune|p2b: Annihilape
+|move|p2a: Ursaluna|Headlong Rush|p1b: Gallade
+|-damage|p1b: Gallade|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1b: Gallade
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756037425
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|2
+|
+|t:|1756037444
+|-terastallize|p1b: Torkoal|Fire
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1b: Torkoal|Eruption|p2a: Ursaluna|[spread] p2b
+|-activate|p2a: Ursaluna|move: Protect
+|-enditem|p2b: Annihilape|Focus Sash
+|-damage|p2b: Annihilape|1/100
+|move|p1a: Indeedee|Psychic|p2b: Annihilape
+|-supereffective|p2b: Annihilape
+|-damage|p2b: Annihilape|0 fnt
+|faint|p2b: Annihilape
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1756037449
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|spa|1
+|turn|3
+|
+|t:|1756037460
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|-terastallize|p2b: Porygon2|Ghost
+|move|p1a: Indeedee|Helping Hand|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Torkoal|Eruption|p2b: Porygon2|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|13/100
+|-damage|p2b: Porygon2|0 fnt
+|faint|p2b: Porygon2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Astterio forfeited.
+|
+|win|Gozante
+|raw|Gozante's rating: 1454 → 1469(+15 for winning)
+|raw|Astterio's rating: 1362 → 1347(-15 for losing)
+|l|☆Astterio
+|player|p2|
+|j|☆Astterio
+|player|p2|Astterio|eusine|
