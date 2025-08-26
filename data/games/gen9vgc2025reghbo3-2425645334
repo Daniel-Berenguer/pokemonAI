@@ -1,0 +1,170 @@
+|j|☆InkynVG
+|j|☆kemaho
+|html|InkynVGkemaho    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755778298
+|gametype|doubles
+|player|p1|InkynVG|shadowtriad|1234
+|player|p2|kemaho|clerk|1188
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Electabuzz, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Flamigo, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Maushold-Four, L50|
+|teampreview|4
+|showteam|p1|Volcarona||Leftovers|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||M|||50|,,,,,Fairy]Electabuzz||Eviolite|VitalSpirit|FollowMe,Taunt,Electroweb,Protect|||F|||50|,,,,,Ghost]Ursaluna-Bloodmoon||LifeOrb|MindsEye|EarthPower,BloodMoon,HyperVoice,Protect|||M|||50|,,,,,Ghost]Rillaboom||LoadedDice|GrassySurge|FakeOut,GrassyGlide,BulletSeed,Uturn|||F|||50|,,,,,Fire]Archaludon||AssaultVest|Stamina|DragonPulse,ElectroShot,BodyPress,FlashCannon|||M|||50|,,,,,Bug]Flamigo||FocusSash|Scrappy|CloseCombat,DualWingbeat,Tailwind,WideGuard|||M|||50|,,,,,Ghost
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Armarouge||LifeOrb|FlashFire|ExpandingForce,ArmorCannon,TrickRoom,Protect|||M|||50|,,,,,Grass]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,LowKick,SwordsDance|||F|||50|,,,,,Dark]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HeatWave,Protect|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Maushold-Four||WideLens|Technician|PopulationBomb,Taunt,FollowMe,Protect||||||50|,,,,,Ghost
+|
+|t:|1755778318
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Electabuzz|Electabuzz, L50, F|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Maushold|Maushold-Four, L50|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|turn|1
+|
+|t:|1755778341
+|-terastallize|p1a: Electabuzz|Ghost
+|move|p1a: Electabuzz|Follow Me|p1a: Electabuzz
+|-singleturn|p1a: Electabuzz|move: Follow Me
+|move|p2a: Maushold|Population Bomb|p1a: Electabuzz
+|-immune|p1a: Electabuzz
+|move|p1b: Ursaluna|Blood Moon|p2b: Gallade
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|-damage|p1b: Ursaluna|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1755778351
+|switch|p2b: Armarouge|Armarouge, L50, M|100/100
+|turn|2
+|
+|t:|1755778360
+|move|p2a: Maushold|Follow Me|p2a: Maushold
+|-singleturn|p2a: Maushold|move: Follow Me
+|move|p1a: Electabuzz|Follow Me|p1a: Electabuzz
+|-singleturn|p1a: Electabuzz|move: Follow Me
+|move|p1b: Ursaluna|Earth Power|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|faint|p2a: Maushold
+|-damage|p1b: Ursaluna|81/100|[from] item: Life Orb
+|move|p2b: Armarouge|Trick Room|p2b: Armarouge
+|-fieldstart|move: Trick Room|[of] p2b: Armarouge
+|
+|upkeep
+|
+|t:|1755778369
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|3
+|
+|t:|1755778388
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p2a: Indeedee|Helping Hand|p2b: Armarouge
+|-singleturn|p2b: Armarouge|Helping Hand|[of] p2a: Indeedee
+|move|p1a: Electabuzz|Follow Me|p1a: Electabuzz
+|-singleturn|p1a: Electabuzz|move: Follow Me
+|move|p2b: Armarouge|Expanding Force|p1a: Electabuzz
+|-damage|p1a: Electabuzz|38/100
+|-damage|p2b: Armarouge|91/100|[from] item: Life Orb
+|
+|-heal|p2b: Armarouge|97/100|[from] Grassy Terrain
+|-heal|p1a: Electabuzz|44/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1755778413
+|move|p2b: Armarouge|Protect|p2b: Armarouge
+|-singleturn|p2b: Armarouge|Protect
+|move|p1a: Electabuzz|Follow Me|p1a: Electabuzz
+|-singleturn|p1a: Electabuzz|move: Follow Me
+|move|p2a: Indeedee|Psychic|p1a: Electabuzz
+|-damage|p1a: Electabuzz|21/100
+|move|p1b: Rillaboom|U-turn|p2b: Armarouge
+|-activate|p2b: Armarouge|move: Protect
+|
+|-heal|p2b: Armarouge|100/100|[from] Grassy Terrain
+|-heal|p1a: Electabuzz|27/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1755778432
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Electabuzz|Follow Me|p1a: Electabuzz
+|-singleturn|p1a: Electabuzz|move: Follow Me
+|move|p2b: Armarouge|Expanding Force|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|-damage|p2b: Armarouge|91/100|[from] item: Life Orb
+|move|p1b: Rillaboom|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|50/100
+|
+|t:|1755778445
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|81/100|[from] U-turn
+|
+|-heal|p2b: Armarouge|97/100|[from] Grassy Terrain
+|-heal|p2a: Indeedee|56/100|[from] Grassy Terrain
+|-heal|p1b: Ursaluna|87/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1755778447
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|turn|6
+|
+|t:|1755778459
+|-terastallize|p2a: Indeedee|Grass
+|move|p2b: Armarouge|Protect|p2b: Armarouge
+|-singleturn|p2b: Armarouge|Protect
+|move|p1a: Rillaboom|Fake Out|p2b: Armarouge
+|-activate|p2b: Armarouge|move: Protect
+|move|p2a: Indeedee|Psychic|p1b: Ursaluna
+|-damage|p1b: Ursaluna|48/100
+|move|p1b: Ursaluna|Blood Moon|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-damage|p1b: Ursaluna|39/100|[from] item: Life Orb
+|
+|-heal|p2b: Armarouge|100/100|[from] Grassy Terrain
+|-heal|p1b: Ursaluna|45/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1755778473
+|move|p1a: Rillaboom|U-turn|p2b: Armarouge
+|-damage|p2b: Armarouge|77/100
+|
+|t:|1755778476
+|switch|p1a: Flamigo|Flamigo, L50, M|100/100|[from] U-turn
+|move|p1b: Ursaluna|Earth Power|p2b: Armarouge
+|-supereffective|p2b: Armarouge
+|-damage|p2b: Armarouge|0 fnt
+|faint|p2b: Armarouge
+|-damage|p1b: Ursaluna|35/100|[from] item: Life Orb
+|
+|win|InkynVG
+|raw|InkynVG's rating: 1234 → 1256(+22 for winning)
+|raw|kemaho's rating: 1188 → 1166(-22 for losing)
+|l|☆InkynVG
+|player|p1|

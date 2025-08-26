@@ -1,0 +1,155 @@
+|j|☆Vuultur
+|j|☆skywalkingchris
+|html|Vuulturskywalkingchris    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756150387
+|gametype|doubles
+|player|p1|Vuultur|hilbert-wonderlauncher|1238
+|player|p2|skywalkingchris|102|1213
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Maushold, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Murkrow, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|showteam|p1|Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Protect,Tailwind|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,FlashCannon,BodyPress|||M|||50|,,,,,Grass]Annihilape||SafetyGoggles|Defiant|RageFist,DrainPunch,BulkUp,Protect|||F|||50|,,,,,Fire]Maushold||SitrusBerry|FriendGuard|BeatUp,FollowMe,Taunt,Protect||||||50|,,,,,Ghost]Rillaboom||MiracleSeed|GrassySurge|FakeOut,GrassyGlide,WoodHammer,Uturn|||M|||50|,,,,,Fire]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,AquaJet,LastRespects,FlipTurn|||M|||50|,,,,,Water
+|showteam|p2|Murkrow||Eviolite|Prankster|Haze,Tailwind,RainDance,BraveBird|||M|||50|,,,,,Ghost]Sneasler||PsychicSeed|Unburden|Protect,ThroatChop,CloseCombat,DireClaw|||F|||50|,,,,,Dark]Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,FlashCannon,DragonPulse|||F|||50|,,,,,Bug]Indeedee||FocusSash|PsychicSurge|Imprison,TrickRoom,DazzlingGleam,ExpandingForce|||M|||50|,,,,,Psychic]Gholdengo||ChoiceSpecs|GoodasGold|Trick,TeraBlast,ShadowBall,MakeItRain||||||50|,,,,,Water]Grimmsnarl||LightClay|Prankster|Reflect,LightScreen,ThunderWave,SpiritBreak|||M|||50|,,,,,Steel
+|
+|t:|1756150401
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Maushold|Maushold, L50|100/100
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756150429
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-terastallize|p1b: Annihilape|Fire
+|move|p2a: Sneasler|Dire Claw|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|15/100
+|move|p2b: Indeedee|Expanding Force|p1b: Annihilape
+|-damage|p1b: Annihilape|75/100
+|move|p1b: Annihilape|Drain Punch|p2b: Indeedee
+|-damage|p2b: Indeedee|36/100
+|-heal|p1b: Annihilape|97/100|[from] drain|[of] p2b: Indeedee
+|
+|-heal|p2b: Indeedee|42/100|[from] Grassy Terrain
+|-heal|p1b: Annihilape|100/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|21/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Vuultur)
+|
+|t:|1756150456
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1a: Rillaboom|Fake Out|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Protect
+|move|p1b: Annihilape|Bulk Up|p1b: Annihilape
+|-boost|p1b: Annihilape|atk|1
+|-boost|p1b: Annihilape|def|1
+|
+|-heal|p1a: Rillaboom|27/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756150471
+|switch|p1a: Maushold|Maushold, L50|100/100
+|-terastallize|p2b: Gholdengo|Water
+|move|p2a: Sneasler|Dire Claw|p1a: Maushold
+|-damage|p1a: Maushold|60/100
+|-status|p1a: Maushold|slp
+|move|p2b: Gholdengo|Tera Blast|p1b: Annihilape|[anim] Tera Blast Water
+|-supereffective|p1b: Annihilape
+|-damage|p1b: Annihilape|27/100
+|move|p1b: Annihilape|Rage Fist|p2b: Gholdengo
+|-damage|p2b: Gholdengo|7/100
+|
+|-heal|p1a: Maushold|66/100 slp|[from] Grassy Terrain
+|-heal|p2b: Gholdengo|13/100|[from] Grassy Terrain
+|-heal|p1b: Annihilape|33/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|inactive|Vuultur has 30 seconds left.
+|
+|t:|1756150498
+|move|p1b: Annihilape|Protect|p1b: Annihilape
+|-singleturn|p1b: Annihilape|Protect
+|move|p2a: Sneasler|Close Combat|p1a: Maushold
+|-supereffective|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Maushold
+|move|p2b: Gholdengo|Tera Blast|p1b: Annihilape|[anim] Tera Blast Water
+|-activate|p1b: Annihilape|move: Protect
+|
+|-heal|p2b: Gholdengo|20/100|[from] Grassy Terrain
+|-heal|p1b: Annihilape|39/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756150503
+|switch|p1a: Rillaboom|Rillaboom, L50, M|27/100
+|turn|5
+|
+|t:|1756150524
+|switch|p2b: Murkrow|Murkrow, L50, M|100/100
+|switch|p1b: Archaludon|Archaludon, L50, M, shiny|100/100
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1a: Rillaboom|U-turn|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Protect
+|
+|-heal|p1a: Rillaboom|33/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756150542
+|switch|p1a: Annihilape|Annihilape, L50, F, tera:Fire|39/100
+|move|p2a: Sneasler|Close Combat|p1b: Archaludon
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|6/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p2b: Murkrow|Brave Bird|p1a: Annihilape
+|-damage|p1a: Annihilape|0 fnt
+|faint|p1a: Annihilape
+|-damage|p2b: Murkrow|82/100|[from] Recoil
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|
+|upkeep
+|-message|Vuultur forfeited.
+|
+|win|skywalkingchris
+|raw|Vuultur's rating: 1238 → 1211(-27 for losing)
+|raw|skywalkingchris's rating: 1213 → 1240(+27 for winning)
+|l|☆Vuultur
+|player|p1|
+|c|☆skywalkingchris|gg!

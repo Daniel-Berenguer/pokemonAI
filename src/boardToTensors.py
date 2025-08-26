@@ -52,6 +52,14 @@ class2ix = {"Status" : 0,
             "Physical" : 1,
             "Special" : 2}
 
+status2ix = {"none" : 0,
+             "brn" : 1,
+             "par" : 2,
+             "slp" : 3,
+             "frz" : 4,
+             "psn" : 5,
+             "tox" : 6}
+
 
 def append(array, x):
     if isinstance(x, list):
@@ -110,7 +118,7 @@ def board2tensor(board: Board):
     boardIntTensor = torch.tensor(arrayInt, dtype=torch.long) # Shape (5) [tw1, tw2, tr, weather, terrain]
     boardTensor = torch.tensor(array, dtype=torch.float) # Shape (boardFDim=15)
     pokeIntsTensor = torch.tensor(pokeInts, dtype=torch.long) # Shape (2, 6, 6) [poke, item, ab, typ1, typ2, tera]
-    pokeFeatsTensor = torch.tensor(pokeFeats, dtype=torch.float) # Shape (2, 6, pokeFeatDim=17)
+    pokeFeatsTensor = torch.tensor(pokeFeats, dtype=torch.float) # Shape (2, 6, pokeFeatDim=24)
     moveIntsTensor = torch.tensor(moveInts, dtype=torch.long) # Move Types (2, 6, 4, 2) [moveName, moveType]
     moveFeatsTensor = torch.tensor(moveFeats, dtype=torch.float) # Move Features (2, 6, 4, moveFeatDim)
 
@@ -142,6 +150,8 @@ def pokemon2array(poke: Pokemon):
     feats.append(poke.fnt)
     feats.append(poke.sub)
     feats.append(poke.lostItem)
+    feats.append(poke.team)
+    append(feats, onehot(len(status2ix), status2ix[poke.status]))
 
     moveFeats = []
     moveInts = []

@@ -8,14 +8,15 @@ import os
 existing_games = os.listdir("data/games/")
 print(existing_games)
 
-for p in range(1,30):
+for p in range(1,46):
+    print("Page number: ", p)
     options = Options()
     options.add_argument("--headless=new") 
     driver = webdriver.Chrome(options=options)
     options.add_argument("--headless=new")
     driver.get(f"https://replay.pokemonshowdown.com/?format=%5BGen%209%5D%20VGC%202025%20Reg%20H%20(Bo3)&page={p}&sort=rating")
 
-    time.sleep(1)
+    time.sleep(3)
 
     html = driver.page_source
     soup = BeautifulSoup(html, "html.parser")

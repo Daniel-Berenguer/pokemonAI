@@ -1,0 +1,216 @@
+|j|☆Volanvgc
+|j|☆Jakobtc
+|html|VolanvgcJakobtc    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1754329691
+|gametype|doubles
+|player|p1|Volanvgc|veteranf|1248
+|player|p2|Jakobtc|riley|1121
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Krookodile, L50, M|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Primarina, L50, F|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|BodyPress,Snarl,ElectroShot,FlashCannon|||M|||50|,,,,,Grass]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,TeraBlast,Trick||||||50|,,,,,Water]Sinistcha-Masterpiece||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,LifeDew||||||50|,,,,,Dark]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,ExtremeSpeed,Haze|||F|||50|,,,,,Steel]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,WideGuard,Protect|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Dragonite||AssaultVest|InnerFocus|TeraBlast,IceSpinner,DragonClaw,StompingTantrum|||M|||50|,,,,,Flying]Krookodile||ClearAmulet|Intimidate|ScaleShot,HighHorsepower,KnockOff,Protect|||M|||50|,,,,,Poison]Smeargle||FocusSash|Moody|FakeOut,Spore,FollowMe,Decorate|||M|||50|,,,,,Ghost]Whimsicott||CovertCloak|Prankster|Tailwind,Moonblast,Encore,Taunt|||M|||50|,,,,,Dark]Volcarona||Leftovers|FlameBody|HeatWave,GigaDrain,QuiverDance,Protect|||M|||50|,,,,,Grass]Primarina||SitrusBerry|LiquidVoice|HyperVoice,Moonblast,LifeDew,Protect|||F|||50|,,,,,Bug
+|
+|t:|1754329724
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Volcarona|Volcarona, L50, M|100/100
+|switch|p2b: Smeargle|Smeargle, L50, M|100/100
+|turn|1
+|
+|t:|1754329757
+|move|p1b: Gholdengo|Trick|p2a: Volcarona
+|-activate|p1b: Gholdengo|move: Trick|[of] p2a: Volcarona
+|-item|p2a: Volcarona|Choice Scarf|[from] move: Trick
+|-item|p1b: Gholdengo|Leftovers|[from] move: Trick
+|move|p2a: Volcarona|Heat Wave|p1a: Archaludon|[spread] p1b
+|-miss|p2a: Volcarona|p1a: Archaludon
+|-supereffective|p1b: Gholdengo
+|-damage|p1b: Gholdengo|15/100
+|move|p2b: Smeargle|Decorate|p2a: Volcarona
+|-boost|p2a: Volcarona|atk|2
+|-boost|p2a: Volcarona|spa|2
+|move|p1a: Archaludon|Snarl|p2a: Volcarona|[spread] p2a,p2b
+|-damage|p2a: Volcarona|90/100
+|-damage|p2b: Smeargle|76/100
+|-unboost|p2a: Volcarona|spa|1
+|-unboost|p2b: Smeargle|spa|1
+|
+|-heal|p1b: Gholdengo|21/100|[from] item: Leftovers
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spa|2
+|-unboost|p2b: Smeargle|spd|1
+|upkeep
+|turn|2
+|
+|t:|1754329785
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|-terastallize|p1a: Archaludon|Grass
+|move|p2a: Volcarona|Heat Wave|p1a: Archaludon|[spread] p1b
+|-miss|p2a: Volcarona|p1a: Archaludon
+|-resisted|p1b: Pelipper
+|-damage|p1b: Pelipper|78/100
+|move|p2b: Smeargle|Spore|p1a: Archaludon
+|-immune|p1a: Archaludon
+|move|p1a: Archaludon|Snarl|p2b: Smeargle|[spread] p2a,p2b
+|-damage|p2a: Volcarona|80/100
+|-damage|p2b: Smeargle|37/100
+|-unboost|p2a: Volcarona|spa|1
+|-unboost|p2b: Smeargle|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|atk|2
+|-unboost|p2b: Smeargle|spe|1
+|upkeep
+|turn|3
+|
+|t:|1754329813
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Krookodile|Krookodile, L50, M|100/100
+|-ability|p2b: Krookodile|Intimidate|boost
+|-unboost|p1a: Archaludon|atk|1
+|-unboost|p1b: Pelipper|atk|1
+|move|p1b: Pelipper|Hurricane|p2b: Krookodile
+|-damage|p2b: Krookodile|44/100
+|-start|p2b: Krookodile|confusion
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|62/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1754329832
+|move|p2a: Whimsicott|Moonblast|p1b: Pelipper
+|-damage|p1b: Pelipper|31/100
+|-activate|p2b: Krookodile|confusion
+|move|p2b: Krookodile|Knock Off|p1b: Pelipper
+|-damage|p1b: Pelipper|0 fnt
+|-enditem|p1b: Pelipper|Focus Sash|[from] move: Knock Off|[of] p2b: Krookodile
+|faint|p1b: Pelipper
+|move|p1a: Archaludon|Body Press|p2b: Krookodile
+|-supereffective|p2b: Krookodile
+|-damage|p2b: Krookodile|0 fnt
+|faint|p2b: Krookodile
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1754329847
+|switch|p2b: Volcarona|Volcarona, L50, M|80/100
+|switch|p1b: Gholdengo|Gholdengo, L50|21/100
+|turn|5
+|
+|t:|1754329868
+|move|p2a: Whimsicott|Encore|p1a: Archaludon
+|-start|p1a: Archaludon|Encore
+|move|p2b: Volcarona|Heat Wave|p1a: Archaludon|[spread] p1a,p1b
+|-supereffective|p1a: Archaludon
+|-supereffective|p1b: Gholdengo
+|-damage|p1a: Archaludon|73/100
+|-damage|p1b: Gholdengo|0 fnt
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|faint|p1b: Gholdengo
+|move|p1a: Archaludon|Body Press|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|37/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1754329877
+|switch|p1b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-heal|p1a: Archaludon|98/100|[from] ability: Hospitality|[of] p1b: Sinistcha
+|turn|6
+|
+|t:|1754329900
+|switch|p2b: Smeargle|Smeargle, L50, M|37/100
+|move|p2a: Whimsicott|Taunt|p1b: Sinistcha
+|-start|p1b: Sinistcha|move: Taunt
+|move|p1a: Archaludon|Body Press|p2b: Smeargle
+|-supereffective|p2b: Smeargle
+|-damage|p2b: Smeargle|0 fnt
+|faint|p2b: Smeargle
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Whimsicott
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|18/100
+|
+|-weather|none
+|upkeep
+|
+|t:|1754329913
+|switch|p2b: Volcarona|Volcarona, L50, M|80/100
+|turn|7
+|
+|t:|1754329925
+|move|p2b: Volcarona|Heat Wave|p1b: Sinistcha|[spread] p1a,p1b
+|-supereffective|p1a: Archaludon
+|-supereffective|p1b: Sinistcha
+|-damage|p1a: Archaludon|36/100
+|-damage|p1b: Sinistcha|40/100
+|-status|p1b: Sinistcha|brn
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|-enditem|p1b: Sinistcha|Sitrus Berry|[eat]
+|-heal|p1b: Sinistcha|65/100 brn|[from] item: Sitrus Berry
+|move|p2a: Whimsicott|Moonblast|p1b: Sinistcha
+|-damage|p1b: Sinistcha|39/100 brn
+|move|p1a: Archaludon|Body Press|p2b: Volcarona
+|-resisted|p2b: Volcarona
+|-damage|p2b: Volcarona|47/100
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Whimsicott|[spread] p2a,p2b
+|-resisted|p2a: Whimsicott
+|-resisted|p2b: Volcarona
+|-damage|p2a: Whimsicott|4/100
+|-heal|p1b: Sinistcha|45/100 brn|[from] drain|[of] p2a: Whimsicott
+|-damage|p2b: Volcarona|41/100
+|-heal|p1b: Sinistcha|49/100 brn|[from] drain|[of] p2b: Volcarona
+|
+|-damage|p1b: Sinistcha|43/100 brn|[from] brn
+|-end|p1a: Archaludon|Encore
+|upkeep
+|turn|8
+|
+|t:|1754329949
+|move|p2a: Whimsicott|Encore|p1a: Archaludon
+|-start|p1a: Archaludon|Encore
+|move|p2b: Volcarona|Heat Wave|p1a: Archaludon|[spread] p1a,p1b
+|-supereffective|p1a: Archaludon
+|-supereffective|p1b: Sinistcha
+|-damage|p1a: Archaludon|0 fnt
+|-damage|p1b: Sinistcha|0 fnt
+|faint|p1a: Archaludon
+|faint|p1b: Sinistcha
+|
+|win|Jakobtc
+|raw|Volanvgc's rating: 1248 → 1214(-34 for losing)
+|raw|Jakobtc's rating: 1121 → 1155(+34 for winning)
+|l|☆Volanvgc
+|player|p1|

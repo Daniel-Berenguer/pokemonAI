@@ -1,0 +1,102 @@
+|j|☆jacre22
+|j|☆ThierryVGC
+|html|jacre22ThierryVGC    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756078928
+|gametype|doubles
+|player|p1|jacre22|iris-gen5bw2|1234
+|player|p2|ThierryVGC|1|1180
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gallade, L50, M|
+|teampreview|4
+|showteam|p1|Whimsicott||FocusSash|Prankster|Moonblast,Tailwind,Encore,Protect|||M|||50|,,,,,Ghost]Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,StompingTantrum,Protect|||M|||50|,,,,,Ground]Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,ShadowBall,Trick,PowerGem||||||50|,,,,,Steel]Incineroar||AssaultVest|Intimidate|FakeOut,FlareBlitz,KnockOff,Uturn|||F|||50|,,,,,Grass]Sneasler||WhiteHerb|Unburden|FakeOut,DireClaw,CloseCombat,Protect|||M|||50|,,,,,Stellar]Dragonite||ChoiceBand|InnerFocus|ExtremeSpeed,Outrage,IceSpinner,StompingTantrum|||M|||50|,,,,,Normal
+|showteam|p2|Lilligant-Hisui||FocusSash|Chlorophyll|LeafBlade,AfterYou,CloseCombat,SleepPowder|||F|||50|,,,,,Ghost]Hatterene||CovertCloak|MagicBounce|DazzlingGleam,ExpandingForce,TrickRoom,MysticalFire|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,TrickRoom,HelpingHand,FollowMe|||F|||50|,,,,,Fairy]Torkoal||ChoiceSpecs|Drought|Eruption,WeatherBall,HeatWave,EarthPower|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Grass
+|
+|t:|1756079018
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756079057
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|-terastallize|p1b: Garchomp|Ground
+|move|p1b: Garchomp|Earthquake|p2b: Hatterene|[spread] p2a,p2b
+|-immune|p1a: Dragonite
+|-damage|p2a: Ursaluna|49/100
+|-damage|p2b: Hatterene|19/100
+|-damage|p1b: Garchomp|91/100|[from] item: Life Orb
+|move|p1a: Dragonite|Ice Spinner|p2b: Hatterene
+|-damage|p2b: Hatterene|0 fnt
+|-fieldend|move: Psychic Terrain
+|faint|p2b: Hatterene
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756079071
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|2
+|
+|t:|1756079076
+|move|p1b: Garchomp|Earthquake|p2a: Ursaluna|[spread] p2a,p2b
+|-immune|p1a: Dragonite
+|-crit|p2b: Indeedee
+|-damage|p2a: Ursaluna|4/100 brn
+|-damage|p2b: Indeedee|11/100
+|-damage|p1b: Garchomp|81/100|[from] item: Life Orb
+|move|p1a: Dragonite|Ice Spinner|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-fieldend|move: Psychic Terrain
+|faint|p2b: Indeedee
+|move|p2a: Ursaluna|Earthquake|p1a: Dragonite|[spread] p1b
+|-immune|p1a: Dragonite
+|-damage|p1b: Garchomp|7/100
+|
+|-damage|p2a: Ursaluna|0 fnt|[from] brn
+|faint|p2a: Ursaluna
+|upkeep
+|
+|t:|1756079081
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|3
+|
+|t:|1756079095
+|move|p1b: Garchomp|Stomping Tantrum|p2b: Torkoal
+|-supereffective|p2b: Torkoal
+|-crit|p2b: Torkoal
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|-damage|p1b: Garchomp|0 fnt|[from] item: Life Orb
+|faint|p1b: Garchomp
+|
+|win|jacre22
+|raw|jacre22's rating: 1234 → 1255(+21 for winning)
+|raw|ThierryVGC's rating: 1180 → 1159(-21 for losing)
+|c|☆jacre22|ggs
+|c|☆ThierryVGC|Lol gg

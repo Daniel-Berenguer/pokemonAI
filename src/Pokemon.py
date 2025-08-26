@@ -1,5 +1,5 @@
 class Pokemon:
-    def __init__(self, name, text, pokemon_stats, move_dict):
+    def __init__(self, name, player, text, pokemon_stats, move_dict):
         text = text.split("|")
         self.name = name
         self.item = text[2]
@@ -23,6 +23,8 @@ class Pokemon:
         self.fnt = False
         self.shown = False
         self.perish = 0
+        self.status = "none"
+        self.team = player
 
     def switchOut(self):
         self.perish = 0

@@ -1,0 +1,228 @@
+|j|☆orizor
+|j|☆perenniumfalcon
+|html|orizorperenniumfalcon    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1755543342
+|gametype|doubles
+|player|p1|orizor|265|1201
+|player|p2|perenniumfalcon|265|1180
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p2|Clefable, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Incineroar||MirrorHerb|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Grass]Farigiraf||ThroatSpray|ArmorTail|HyperVoice,Psychic,TrickRoom,Protect|||M|||50|,,,,,Fairy]Dragapult||ChoiceBand|ClearBody|DragonDarts,TeraBlast,Uturn,PhantomForce|||F|||50|,,,,,Ghost]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Kingambit||AssaultVest|Defiant|KowtowCleave,SuckerPunch,IronHead,LowKick|||M|||50|,,,,,Dark]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,Moonblast,AuroraVeil,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Clefable||SafetyGoggles|Unaware|FollowMe,Moonblast,HelpingHand,Protect|||M|||50|,,,,,Water]Volcarona||SitrusBerry|FlameBody|HeatWave,QuiverDance,BugBuzz,Protect|||F|||50|,,,,,Dragon]Archaludon||PowerHerb|Sturdy|ElectroShot,Thunderbolt,DragonPulse,Protect|||M|||50|,,,,,Electric]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,HighHorsepower,GrassyGlide|||M|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Protect,StompingTantrum|||M|||50|,,,,,Fairy]Sneasler||FocusSash|PoisonTouch|FakeOut,DireClaw,CloseCombat,Protect|||M|||50|,,,,,Ghost
+|
+|t:|1755543392
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Clefable|Clefable, L50, M|100/100
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Clefable|atk|1
+|-unboost|p2b: Archaludon|atk|1
+|turn|1
+|
+|t:|1755543408
+|-terastallize|p1a: Ursaluna|Normal
+|move|p2b: Archaludon|Protect|p2b: Archaludon
+|-singleturn|p2b: Archaludon|Protect
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Clefable
+|-activate|p2a: Clefable|move: Protect
+|move|p1a: Ursaluna|Hyper Voice|p2a: Clefable|[spread] 
+|-activate|p2a: Clefable|move: Protect
+|-activate|p2b: Archaludon|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1755543425
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Clefable|Follow Me|p2a: Clefable
+|-singleturn|p2a: Clefable|move: Follow Me
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-enditem|p2b: Archaludon|Power Herb
+|-anim|p2b: Archaludon|Electro Shot|p1b: Incineroar
+|-damage|p1b: Incineroar|48/100
+|-enditem|p1b: Incineroar|Mirror Herb
+|-boost|p1b: Incineroar|spa|1|[from] item: Mirror Herb
+|move|p1b: Incineroar|Parting Shot|p2a: Clefable
+|-unboost|p2a: Clefable|atk|1
+|-unboost|p2a: Clefable|spa|1
+|
+|t:|1755543440
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100|[from] Parting Shot
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1755543448
+|-terastallize|p2b: Archaludon|Electric
+|move|p2a: Clefable|Helping Hand|p2b: Archaludon
+|-singleturn|p2b: Archaludon|Helping Hand|[of] p2a: Clefable
+|move|p1b: Ninetales|Aurora Veil|p1b: Ninetales
+|-sidestart|p1: orizor|move: Aurora Veil
+|move|p2b: Archaludon|Thunderbolt|p1a: Ursaluna
+|-damage|p1a: Ursaluna|15/100
+|move|p1a: Ursaluna|Hyper Voice|p2b: Archaludon|[spread] p2a,p2b
+|-damage|p2a: Clefable|45/100
+|-ability|p2b: Archaludon|Sturdy
+|-damage|p2b: Archaludon|1/100
+|-damage|p1a: Ursaluna|6/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1755543469
+|switch|p1a: Incineroar|Incineroar, L50, M|48/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Clefable|atk|1
+|-unboost|p2b: Archaludon|atk|1
+|move|p2b: Archaludon|Protect|p2b: Archaludon
+|-singleturn|p2b: Archaludon|Protect
+|move|p1b: Ninetales|Blizzard|p2a: Clefable|[spread] p2a
+|-activate|p2b: Archaludon|move: Protect
+|-crit|p2a: Clefable
+|-damage|p2a: Clefable|8/100
+|move|p2a: Clefable|Moonblast|p1b: Ninetales
+|-damage|p1b: Ninetales|84/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1755543491
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1b: Ninetales|Blizzard|p2b: Sneasler|[spread] p2b
+|-activate|p2a: Clefable|move: Protect
+|-damage|p2b: Sneasler|57/100
+|move|p1a: Incineroar|Knock Off|p2b: Sneasler
+|-resisted|p2b: Sneasler
+|-damage|p2b: Sneasler|19/100
+|-enditem|p2b: Sneasler|Focus Sash|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1755543508
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|move|p2a: Clefable|Follow Me|p2a: Clefable
+|-singleturn|p2a: Clefable|move: Follow Me
+|move|p2b: Sneasler|Dire Claw|p1b: Ninetales
+|-supereffective|p1b: Ninetales
+|-damage|p1b: Ninetales|33/100
+|-status|p1b: Ninetales|slp
+|cant|p1b: Ninetales|slp
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1755543523
+|move|p2b: Sneasler|Dire Claw|p1b: Ninetales
+|-supereffective|p1b: Ninetales
+|-damage|p1b: Ninetales|0 fnt
+|faint|p1b: Ninetales
+|move|p2a: Clefable|Moonblast|p1a: Farigiraf
+|-damage|p1a: Farigiraf|85/100
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|-sideend|p1: orizor|move: Aurora Veil
+|upkeep
+|
+|t:|1755543529
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M, tera:Normal|6/100
+|turn|8
+|
+|t:|1755543539
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2a: Clefable|Protect|p2a: Clefable
+|-singleturn|p2a: Clefable|Protect
+|move|p1a: Farigiraf|Hyper Voice|p2b: Sneasler|[spread] p2b
+|-activate|p2a: Clefable|move: Protect
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|-enditem|p1a: Farigiraf|Throat Spray
+|-boost|p1a: Farigiraf|spa|1|[from] item: Throat Spray
+|
+|upkeep
+|
+|t:|1755543544
+|switch|p2b: Archaludon|Archaludon, L50, M, tera:Electric|1/100
+|turn|9
+|
+|t:|1755543554
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p1a: Farigiraf|Hyper Voice|p2a: Clefable|[spread] p2a,p2b
+|-damage|p2a: Clefable|0 fnt
+|-damage|p2b: Archaludon|0 fnt
+|faint|p2a: Clefable
+|faint|p2b: Archaludon
+|
+|upkeep
+|
+|t:|1755543558
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|turn|10
+|
+|t:|1755543561
+|move|p2b: Volcarona|Protect|p2b: Volcarona
+|-singleturn|p2b: Volcarona|Protect
+|move|p1b: Ursaluna|Blood Moon|p2b: Volcarona
+|-activate|p2b: Volcarona|move: Protect
+|move|p1a: Farigiraf|Psychic|p2b: Volcarona
+|-activate|p2b: Volcarona|move: Protect
+|
+|upkeep
+|turn|11
+|
+|t:|1755543566
+|move|p2b: Volcarona|Protect||[still]
+|-fail|p2b: Volcarona
+|move|p1b: Ursaluna|Hyper Voice|p2b: Volcarona
+|-damage|p2b: Volcarona|15/100
+|-enditem|p2b: Volcarona|Sitrus Berry|[eat]
+|-heal|p2b: Volcarona|40/100|[from] item: Sitrus Berry
+|-damage|p1b: Ursaluna|0 fnt|[from] item: Life Orb
+|faint|p1b: Ursaluna
+|move|p1a: Farigiraf|Hyper Voice|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|faint|p2b: Volcarona
+|
+|win|orizor
+|raw|orizor's rating: 1201 → 1224(+23 for winning)
+|raw|perenniumfalcon's rating: 1180 → 1157(-23 for losing)
+|l|☆perenniumfalcon
+|player|p2|

@@ -1,0 +1,157 @@
+|j|☆Gozante
+|j|☆no_dupes
+|html|Gozanteno_dupes    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756151959
+|gametype|doubles
+|player|p1|Gozante|101|1376
+|player|p2|no_dupes|brock-gen2|1291
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Pelipper||FocusSash|Drizzle|MuddyWater,Hurricane,Protect,Tailwind|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|FlashCannon,BodyPress,ElectroShot,Snarl|||F|||50|,,,,,Bug]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom||||||50|,,,,,Dark]Ursaluna||FlameOrb|Guts|Protect,Facade,HeadlongRush,Earthquake|||M|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|Protect,ScaleShot,Haze,Tailwind|||M|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,KnockOff,FlareBlitz|||F|||50|,,,,,Ghost
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||M|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||F|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|
+|t:|1756151975
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sinistcha|Sinistcha, L50|100/100
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|switch|p2a: Alfred|Indeedee, L50, M|100/100
+|switch|p2b: Caesar|Annihilape, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Alfred
+|turn|1
+|
+|t:|1756151986
+|move|p2a: Alfred|Trick|p1a: Sinistcha
+|-activate|p2a: Alfred|move: Trick|[of] p1a: Sinistcha
+|-item|p1a: Sinistcha|Choice Scarf|[from] move: Trick
+|-item|p2a: Alfred|Sitrus Berry|[from] move: Trick
+|move|p2b: Caesar|Final Gambit|p1b: Dragonite
+|-damage|p1b: Dragonite|0 fnt
+|faint|p2b: Caesar
+|faint|p1b: Dragonite
+|move|p1a: Sinistcha|Trick Room|p1a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p1a: Sinistcha
+|
+|upkeep
+|
+|t:|1756151997
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|turn|2
+|
+|t:|1756152028
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Tyranitar|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|28/100
+|-enditem|p1a: Pelipper|Focus Sash|[from] move: Knock Off|[of] p2b: Tyranitar
+|move|p2a: Alfred|Tera Blast|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756152037
+|switch|p1a: Sinistcha|Sinistcha, L50|100/100
+|turn|3
+|
+|t:|1756152047
+|switch|p2b: Volcarona|Volcarona, L50, M, shiny|100/100
+|move|p2a: Alfred|Protect|p2a: Alfred
+|-singleturn|p2a: Alfred|Protect
+|move|p1b: Ursaluna|Facade|p2a: Alfred
+|-activate|p2a: Alfred|move: Protect
+|move|p1a: Sinistcha|Life Dew||[still]|[still]|[spread] 
+|-fail|p1a: Sinistcha|heal
+|-fail|p1b: Ursaluna|heal
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1756152085
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1b: Ursaluna|Earthquake|p2a: Tyranitar|[spread] p1a,p2a,p2b
+|-resisted|p1a: Sinistcha
+|-supereffective|p2a: Tyranitar
+|-damage|p1a: Sinistcha|68/100
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p2b: Volcarona|22/100
+|-enditem|p2b: Volcarona|Sitrus Berry|[eat]
+|-heal|p2b: Volcarona|47/100|[from] item: Sitrus Berry
+|faint|p2a: Tyranitar
+|move|p1a: Sinistcha|Life Dew|p1a: Sinistcha|[spread] p1a,p1b
+|-heal|p1a: Sinistcha|94/100
+|-heal|p1b: Ursaluna|100/100 brn
+|move|p2b: Volcarona|Overheat|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|-unboost|p2b: Volcarona|spa|2
+|faint|p1a: Sinistcha
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Volcarona|41/100|[from] Sandstorm
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756152086
+|switch|p2a: Alfred|Indeedee, L50, M|100/100
+|turn|5
+|
+|t:|1756152128
+|-terastallize|p2b: Volcarona|Grass
+|move|p2a: Alfred|Protect|p2a: Alfred
+|-singleturn|p2a: Alfred|Protect
+|move|p2b: Volcarona|Rage Powder|p2b: Volcarona
+|-singleturn|p2b: Volcarona|move: Rage Powder
+|move|p1b: Ursaluna|Earthquake|p2b: Volcarona|[spread] p2b
+|-activate|p2a: Alfred|move: Protect
+|-resisted|p2b: Volcarona
+|-damage|p2b: Volcarona|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Alfred|95/100|[from] Sandstorm
+|-damage|p2b: Volcarona|0 fnt|[from] Sandstorm
+|faint|p2b: Volcarona
+|-damage|p1b: Ursaluna|89/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756152139
+|move|p2a: Alfred|Tera Blast|p1b: Ursaluna
+|-damage|p1b: Ursaluna|47/100 brn
+|move|p1b: Ursaluna|Facade|p2a: Alfred
+|-damage|p2a: Alfred|0 fnt
+|faint|p2a: Alfred
+|
+|win|Gozante
+|raw|Gozante's rating: 1376 → 1391(+15 for winning)
+|raw|no_dupes's rating: 1291 → 1272(-19 for losing)

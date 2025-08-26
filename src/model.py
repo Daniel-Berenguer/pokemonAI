@@ -24,7 +24,7 @@ class TypeEncoder(nn.Module):
     
 
 class MoveEncoder(nn.Module):
-    NUM_MOVES = 382
+    NUM_MOVES = 388
     MOVE_FEATS_SIZE = 6
     MOVE_DIM = 64
     def __init__(self, nhidden=256, typeEmbeddingSize=10):
@@ -43,8 +43,8 @@ class MoveEncoder(nn.Module):
 class PokeEncoder(nn.Module):
     N_POKES = 261
     N_ABS = 212
-    N_ITEMS = 133
-    FEATS_DIM = 17
+    N_ITEMS = 134
+    FEATS_DIM = 25
 
     POKE_EMB = 64
     AB_EMB = 128
@@ -102,7 +102,7 @@ class BoardEncoder(nn.Module):
 
         newDim = self.NEMB*3 + self.NEMB + self.NEMB + self.NFEATS
 
-        self.bn = nn.BatchNorm1d(newDim)
+        self.ln = nn.LayerNorm(newDim)
         self.lin = nn.Linear(newDim, nhidden)
 
     def forward(self, boardInts, boardFeats):
@@ -115,8 +115,59 @@ class BoardEncoder(nn.Module):
         # Concats
         comb = torch.cat([tws, tr, weather, terrain, boardFeats], dim=-1)
 
-        return torch.relu(self.lin(self.bn(comb)))
+        return torch.relu(self.lin(self.ln(comb)))
 
+
+class AttentionHead(nn.Module):
+    def __init__(self, input_dim, KQ_dim, dropout=0.05):
+        super().__init__()
+        self.keys = nn.Linear(input_dim, KQ_dim, bias=False)
+        self.queries = nn.Linear(input_dim, KQ_dim, bias=False)
+        self.values = nn.Linear(input_dim, KQ_dim, bias=False)
+        self.dropout = nn.Dropout(dropout)
+
+    def forward(self, x):
+        # x is (B, 12, pokedim)
+        k = self.keys(x) # (B, 12, KQdim)
+        q = self.queries(x) # (B, 12, KQdim)
+        v = self.values(x) # (B, 12, KQdim)
+
+        scale = q.size(-1) ** 0.5
+
+        aff = torch.softmax((q @ k.transpose(-2, -1)) / scale, dim=-1)
+        aff = self.dropout(aff)
+        out = aff @ v
+
+        return out
+    
+
+class MultiHeadAttention(nn.Module):
+    def __init__(self, inpDim, nHeads, headDim, outSize):
+        super().__init__()
+        self.heads = nn.ModuleList([AttentionHead(inpDim, headDim) for _ in range(nHeads)])
+        self.proj = nn.Linear(nHeads * headDim, outSize)
+
+    def forward(self, x):
+        out = torch.cat([h(x) for h in self.heads], dim=-1)
+        return self.proj(out)
+    
+
+class Block(nn.Module):
+    def __init__(self, nHeads, headDim, inpSize):
+        super().__init__()
+        self.ln1 = nn.LayerNorm(inpSize)
+        self.mha = MultiHeadAttention(inpSize, nHeads, headDim, inpSize)
+        self.ln2 = nn.LayerNorm(inpSize)
+        self.linear = nn.Linear(inpSize, 2*inpSize)
+        self.proj = nn.Linear(2*inpSize, inpSize)
+
+
+    def forward(self, x):
+        x = x + self.mha(self.ln1(x))
+        x = x + self.proj(torch.relu(self.linear(self.ln2(x))))
+        return x
+        
+        
 #boardIntTensor (5) [tw1, tw2, tr, weather, terrain]
 #boardTensor (boardFDim=15)
 #pokeIntsTensor (2, 6, 6) [poke, item, ab, typ1, typ2, tera]
@@ -128,20 +179,26 @@ class Model(nn.Module):
     TYPE_EMB = 10
     POKE_HIDDEN = 512
     MOVE_HIDDEN = 256
-    DROPOUT_PROB = 0.3
+    DROPOUT_PROB = 0.05
 
     def __init__(self):
         super().__init__()
         self.boardEncoder = BoardEncoder(nhidden=self.BOARD_HIDDEN)
         self.pokeEncoder = PokeEncoder(nhidden=self.POKE_HIDDEN, moveHidden=self.MOVE_HIDDEN, typeEmb=self.TYPE_EMB)
 
-        self.pokeW = nn.Parameter(torch.randn(self.POKE_HIDDEN, self.POKE_HIDDEN*4))
-        nn.init.kaiming_normal_(self.pokeW)
+        #self.pokeW = nn.Parameter(torch.randn(self.POKE_HIDDEN, self.POKE_HIDDEN*4))
+        #nn.init.kaiming_normal_(self.pokeW)
 
-        concatDim = self.POKE_HIDDEN * 8 + self.BOARD_HIDDEN
+        concatDim = 2*self.POKE_HIDDEN + self.BOARD_HIDDEN
 
-        self.linearLayers = nn.ModuleList([nn.Linear(concatDim, 512), nn.Linear(512, 256), nn.Linear(256, 64), nn.Linear(64, 16)])
-        self.bns = nn.ModuleList([nn.BatchNorm1d(concatDim), nn.BatchNorm1d(512), nn.BatchNorm1d(256), nn.BatchNorm1d(64)])
+        self.block1 = Block(8, self.POKE_HIDDEN//8, self.POKE_HIDDEN)
+        self.block2 = Block(8, self.POKE_HIDDEN//8, self.POKE_HIDDEN)
+        self.block3 = Block(8, self.POKE_HIDDEN//8, self.POKE_HIDDEN)
+
+        self.attn_pool = nn.Linear(self.POKE_HIDDEN, 1)
+
+        self.linearLayers = nn.ModuleList([nn.Linear(concatDim, 1024), nn.Linear(1024, 256), nn.Linear(256, 64), nn.Linear(64, 16)])
+        self.lns = nn.ModuleList([nn.BatchNorm1d(concatDim), nn.BatchNorm1d(1024), nn.BatchNorm1d(256), nn.BatchNorm1d(64)])
         
         # Add Dropout layers
         self.dropouts = nn.ModuleList([
@@ -154,17 +211,29 @@ class Model(nn.Module):
         self.finalLinear = nn.Linear(16, 1)
 
     def forward(self, boardInts, boardFeats, pokeInts, pokeFeats, moveInts, moveFeats):
+        # Encodes
         board = self.boardEncoder.forward(boardInts, boardFeats)
         pokes = self.pokeEncoder.forward(pokeInts, pokeFeats, moveInts, moveFeats)
         
-        # pokes shape is (BATCH, 2, 6, pokeDIM)
-        teams = (pokes @ self.pokeW).sum(dim=2).flatten(start_dim=1)
-        x = torch.cat([board, teams], dim=-1)
-        # x shape is (BATCH, pokeDIM*4*2 + boardDIm)
+        # Flattens and feeds into transformer
+        pokes = pokes.flatten(start_dim=1, end_dim=2) # (B, 2, 6, pokeDim) --> (B, 12, pokeDim)
+        pokes = self.block1(pokes)
+        pokes = self.block2(pokes)
+        pokes = self.block3(pokes)
+        # Transforms back into teams
+        pokes = pokes.reshape(-1, 2, 6, self.POKE_HIDDEN)
 
-        for bn,linear,drop in zip(self.bns,self.linearLayers,self.dropouts):
-            x = torch.relu(linear(bn(x)))
-            x = drop(x)
+        # Attention Pooling
+        attn_scores = self.attn_pool(pokes)  # (B, 2, 6, 1)
+        attn_weights = torch.softmax(attn_scores, dim=2) # (B, 2, 6, 1)
+        pooled = torch.sum(pokes * attn_weights, dim=2) # (B, 2, pokedim)
+
+        # Concats with board information
+        x = torch.concat([pooled.flatten(start_dim=1), board], dim=-1)
+
+        # Final MLP phase
+        for ln,linear,drop in zip(self.lns,self.linearLayers,self.dropouts):
+            x = drop(torch.relu(linear(ln(x))))
 
 
         return self.finalLinear(x).reshape(-1)
@@ -202,7 +271,7 @@ if __name__ == "__main__":
     Y_test = Y[n:]
 
 
-    EPOCHS = 20
+    EPOCHS = 25
     BATCH_SIZE = 16
     ITERS = int((n * EPOCHS)/BATCH_SIZE)
     CHECK_INTERVAL = 100

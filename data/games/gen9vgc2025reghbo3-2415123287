@@ -1,0 +1,171 @@
+|j|☆thymianthorsten
+|j|☆AndrewsWho
+|html|thymianthorstenAndrewsWho    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1754314132
+|gametype|doubles
+|player|p1|thymianthorsten|170|1231
+|player|p2|AndrewsWho|infielder|1143
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Water]Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,Coaching,Protect|||F|||50|,,,,,Stellar]Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Encore,Protect|||M|||50|,,,,,Ground]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Ground]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Taunt|||M|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||M|||50|,,,,,Fairy]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|DracoMeteor,ElectroShot,FlashCannon,BodyPress|||F|||50|,,,,,Grass]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,AquaJet,FlipTurn,LastRespects|||M|||50|,,,,,Grass
+|
+|t:|1754314166
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p1b: Porygon2|Porygon2, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|-unboost|p1b: Porygon2|atk|1
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|spa|1
+|turn|1
+|
+|t:|1754314179
+|move|p2b: Pelipper|Hurricane|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|12/100
+|-enditem|p1a: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1a: Amoonguss|37/100|[from] item: Sitrus Berry
+|move|p2a: Incineroar|Taunt|p1b: Porygon2
+|-start|p1b: Porygon2|move: Taunt
+|move|p1a: Amoonguss|Spore|p2b: Pelipper
+|-status|p2b: Pelipper|slp|[from] move: Spore
+|cant|p1b: Porygon2|move: Taunt|Trick Room
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1754314211
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|cant|p2b: Pelipper|slp
+|move|p2a: Incineroar|Knock Off|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|23/100
+|-enditem|p1a: Gholdengo|Life Orb|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1b: Porygon2|Tera Blast|p2b: Pelipper
+|-damage|p2b: Pelipper|13/100 slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1754314228
+|-terastallize|p1b: Porygon2|Ground
+|move|p1a: Gholdengo|Make It Rain|p2b: Pelipper|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-resisted|p2b: Pelipper
+|-damage|p2a: Incineroar|80/100
+|-damage|p2b: Pelipper|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2b: Pelipper
+|move|p2a: Incineroar|Parting Shot|p1b: Porygon2
+|-unboost|p1b: Porygon2|atk|1
+|-unboost|p1b: Porygon2|spa|1
+|
+|t:|1754314238
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100|[from] Parting Shot
+|move|p1b: Porygon2|Tera Blast|p2a: Basculegion|[anim] Tera Blast Ground
+|-damage|p2a: Basculegion|61/100
+|
+|-weather|RainDance|[upkeep]
+|-end|p1b: Porygon2|move: Taunt
+|upkeep
+|
+|t:|1754314245
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by thymianthorsten)
+|
+|t:|1754314274
+|switch|p1b: Amoonguss|Amoonguss, L50, M|70/100
+|move|p2a: Basculegion|Wave Crash|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|18/100
+|-damage|p2a: Basculegion|42/100|[from] Recoil
+|move|p1a: Gholdengo|Shadow Ball|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1754314289
+|switch|p2a: Incineroar|Incineroar, L50, M|80/100
+|switch|p1a: Porygon2|Porygon2, L50, tera:Ground|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Porygon2|atk|1
+|-unboost|p1b: Amoonguss|atk|1
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|turn|5
+|
+|t:|1754314307
+|move|p2a: Incineroar|Fake Out|p1a: Porygon2
+|-damage|p1a: Porygon2|93/100
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|cant|p1a: Porygon2|flinch
+|
+|-weather|none
+|upkeep
+|
+|t:|1754314311
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|turn|6
+|
+|t:|1754314333
+|-terastallize|p2a: Incineroar|Ghost
+|move|p1b: Dragonite|Stomping Tantrum|p2a: Incineroar
+|-damage|p2a: Incineroar|56/100
+|move|p2b: Archaludon|Draco Meteor|p1a: Porygon2
+|-damage|p1a: Porygon2|23/100
+|-unboost|p2b: Archaludon|spa|2
+|move|p2a: Incineroar|Knock Off|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|-enditem|p1a: Porygon2|Eviolite|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1a: Porygon2
+|
+|upkeep
+|turn|7
+|-message|thymianthorsten forfeited.
+|
+|win|AndrewsWho
+|raw|thymianthorsten's rating: 1231 → 1200(-31 for losing)
+|raw|AndrewsWho's rating: 1143 → 1174(+31 for winning)

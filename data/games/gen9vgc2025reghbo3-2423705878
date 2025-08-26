@@ -1,0 +1,144 @@
+|j|☆tiramisaurus
+|j|☆gargatest
+|html|tiramisaurusgargatest    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755505425
+|gametype|doubles
+|player|p1|tiramisaurus|169|1262
+|player|p2|gargatest|cyclist|1178
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Kilowattrel, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p2|Gyarados, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Ceruledge, L50, F|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Abomasnow, L50, M|
+|teampreview|4
+|showteam|p1|Ninetales-Alola||NeverMeltIce|SnowWarning|Blizzard,FreezeDry,AuroraVeil,Protect|||M|||50|,,,,,Water]Kilowattrel||FocusSash|Competitive|Discharge,Protect,Tailwind,AirSlash|||F|||50|,,,,,Electric]Garchomp||ChoiceBand|RoughSkin|Earthquake,TeraBlast,StompingTantrum,DragonClaw|||M|||50|,,,,,Steel]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Taunt|||F|||50|,,,,,Ghost]Volcarona||SitrusBerry|FlameBody|BugBuzz,QuiverDance,HeatWave,Protect|||F|||50|,,,,,Water]Sinistcha||MentalHerb|Hospitality|MatchaGotcha,RagePowder,TrickRoom,StrengthSap||||||50|,,,,,Dark
+|showteam|p2|Gyarados||SitrusBerry|Intimidate|Waterfall,TemperFlare,Protect,DragonDance|||F|||50|,,,,,Fire]Garchomp||LoadedDice|RoughSkin|StompingTantrum,ScaleShot,Earthquake,Protect|||F|||50|,,,,,Fairy]Sneasler||FocusSash|Unburden|DireClaw,CloseCombat,Coaching,Protect|||M|||50|,,,,,Flying]Ceruledge||AssaultVest|FlashFire|BitterBlade,CloseCombat,Poltergeist,ShadowSneak|||F|||50|,,,,,Grass]Kingambit||SafetyGoggles|Defiant|KowtowCleave,Protect,SwordsDance,SuckerPunch|||F|||50|,,,,,Dark]Abomasnow||LifeOrb|SnowWarning|Protect,AuroraVeil,Blizzard,LeafStorm|||M|||50|,,,,,Ice
+|
+|t:|1755505460
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100
+|switch|p1b: Kilowattrel|Kilowattrel, L50, F|100/100
+|switch|p2a: Kingambit|Kingambit, L50, F|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|turn|1
+|
+|t:|1755505484
+|move|p2a: Kingambit|Protect|p2a: Kingambit
+|-singleturn|p2a: Kingambit|Protect
+|move|p1b: Kilowattrel|Discharge|p2b: Sneasler|[spread] p2b
+|-activate|p2a: Kingambit|move: Protect
+|-immune|p1a: Garchomp
+|-damage|p2b: Sneasler|64/100
+|-status|p2b: Sneasler|par
+|move|p1a: Garchomp|Earthquake|p2b: Sneasler|[spread] p2b
+|-activate|p2a: Kingambit|move: Protect
+|-immune|p1b: Kilowattrel
+|-supereffective|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|upkeep
+|
+|t:|1755505497
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|turn|2
+|
+|t:|1755505532
+|move|p2a: Kingambit|Sucker Punch|p1a: Garchomp
+|-damage|p1a: Garchomp|63/100
+|-damage|p2a: Kingambit|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|move|p1b: Kilowattrel|Tailwind|p1b: Kilowattrel
+|-sidestart|p1: tiramisaurus|move: Tailwind
+|move|p1a: Garchomp|Earthquake|p2b: Garchomp|[spread] p2a,p2b
+|-immune|p1b: Kilowattrel
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|7/100
+|-damage|p2b: Garchomp|41/100
+|move|p2b: Garchomp|Stomping Tantrum|p1a: Garchomp
+|-damage|p1a: Garchomp|20/100
+|-damage|p2b: Garchomp|28/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|upkeep
+|turn|3
+|
+|t:|1755505569
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|-ability|p2a: Kingambit|Defiant|boost
+|-boost|p2a: Kingambit|atk|2
+|-unboost|p2b: Garchomp|atk|1
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1b: Kilowattrel|Air Slash|p2b: Garchomp
+|-damage|p2b: Garchomp|0 fnt
+|faint|p2b: Garchomp
+|
+|upkeep
+|
+|t:|1755505575
+|switch|p2b: Ceruledge|Ceruledge, L50, F|100/100
+|turn|4
+|
+|t:|1755505592
+|move|p2a: Kingambit|Protect|p2a: Kingambit
+|-singleturn|p2a: Kingambit|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Kingambit
+|-activate|p2a: Kingambit|move: Protect
+|move|p1b: Kilowattrel|Air Slash|p2b: Ceruledge
+|-crit|p2b: Ceruledge
+|-damage|p2b: Ceruledge|59/100
+|move|p2b: Ceruledge|Bitter Blade|p1b: Kilowattrel
+|-damage|p1b: Kilowattrel|11/100
+|-heal|p2b: Ceruledge|99/100|[from] drain|[of] p1b: Kilowattrel
+|
+|upkeep
+|turn|5
+|
+|t:|1755505618
+|move|p2a: Kingambit|Sucker Punch|p1b: Kilowattrel
+|-damage|p1b: Kilowattrel|0 fnt
+|faint|p1b: Kilowattrel
+|move|p1a: Incineroar|Knock Off|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-enditem|p2a: Kingambit|Safety Goggles|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2a: Kingambit
+|move|p2b: Ceruledge|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|18/100
+|-unboost|p2b: Ceruledge|def|1
+|-unboost|p2b: Ceruledge|spd|1
+|
+|-sideend|p1: tiramisaurus|move: Tailwind
+|upkeep
+|
+|t:|1755505633
+|switch|p1b: Garchomp|Garchomp, L50, M|20/100
+|turn|6
+|
+|t:|1755505670
+|-terastallize|p2b: Ceruledge|Grass
+|move|p1b: Garchomp|Dragon Claw|p2b: Ceruledge
+|-damage|p2b: Ceruledge|0 fnt
+|faint|p2b: Ceruledge
+|
+|win|tiramisaurus
+|raw|tiramisaurus's rating: 1262 → 1281(+19 for winning)
+|raw|gargatest's rating: 1178 → 1159(-19 for losing)

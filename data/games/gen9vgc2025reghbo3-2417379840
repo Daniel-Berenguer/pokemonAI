@@ -1,0 +1,164 @@
+|j|☆Volanvgc
+|j|☆Wooperdooperpooper
+|html|VolanvgcWooperdooperpooper    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1754604989
+|gametype|doubles
+|player|p1|Volanvgc|veteranf|1199
+|player|p2|Wooperdooperpooper|1|1152
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Hatterene, L50, F|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|BodyPress,Snarl,ElectroShot,FlashCannon|||F|||50|,,,,,Grass]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,TeraBlast,Trick||||||50|,,,,,Water]Sinistcha-Masterpiece||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,LifeDew||||||50|,,,,,Dark]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Tailwind,Haze|||M|||50|,,,,,Steel]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Charizard||ChoiceScarf|SolarPower|HeatWave,Overheat,WeatherBall,ScorchingSands|||M|||50|,,,,,Fire]Indeedee-F||SafetyGoggles|PsychicSurge|DazzlingGleam,FollowMe,TrickRoom,HelpingHand|||F|||50|,,,,,Fairy]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,RockSlide,Protect|||M|||50|,,,,,Dragon]Torkoal||Charcoal|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,TrickRoom,WideGuard|||M|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Water
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Wooperdooperpooper)
+|
+|t:|1754605004
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Pelipper|Pelipper, L50, F|100/100
+|switch|p2a: Gallade|Gallade, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1754605028
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Gholdengo|Trick|p2b: Indeedee
+|-activate|p1a: Gholdengo|move: Trick|[of] p2b: Indeedee
+|-item|p2b: Indeedee|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Safety Goggles|[from] move: Trick
+|move|p1b: Pelipper|Weather Ball|p2b: Indeedee
+|-damage|p2b: Indeedee|42/100
+|move|p2a: Gallade|Trick Room|p2a: Gallade
+|-fieldstart|move: Trick Room|[of] p2a: Gallade
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|inactive|Volanvgc has 30 seconds left.
+|
+|t:|1754605056
+|move|p1b: Pelipper|Protect|p1b: Pelipper
+|-singleturn|p1b: Pelipper|Protect
+|move|p2a: Gallade|Psycho Cut|p1b: Pelipper
+|-activate|p1b: Pelipper|move: Protect
+|move|p2b: Indeedee|Dazzling Gleam|p1a: Gholdengo|[spread] p1a
+|-activate|p1b: Pelipper|move: Protect
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|93/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Gallade|[spread] p2a,p2b
+|-damage|p2a: Gallade|60/100
+|-damage|p2b: Indeedee|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2b: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1754605064
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|turn|3
+|
+|t:|1754605081
+|-terastallize|p2b: Hatterene|Water
+|move|p2b: Hatterene|Expanding Force|p1b: Pelipper|[spread] p1a,p1b
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|43/100
+|-enditem|p1b: Pelipper|Focus Sash
+|-damage|p1b: Pelipper|1/100
+|-damage|p2b: Hatterene|91/100|[from] item: Life Orb
+|move|p2a: Gallade|Sacred Sword|p1b: Pelipper
+|-resisted|p1b: Pelipper
+|-damage|p1b: Pelipper|0 fnt
+|faint|p1b: Pelipper
+|move|p1a: Gholdengo|Make It Rain|p2a: Gallade|[spread] p2a,p2b
+|-resisted|p2b: Hatterene
+|-damage|p2a: Gallade|32/100
+|-damage|p2b: Hatterene|74/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1754605090
+|switch|p1b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-heal|p1a: Gholdengo|68/100|[from] ability: Hospitality|[of] p1b: Sinistcha
+|turn|4
+|
+|t:|1754605106
+|-terastallize|p1b: Sinistcha|Dark
+|move|p2b: Hatterene|Expanding Force|p1a: Gholdengo|[spread] p1a
+|-immune|p1b: Sinistcha
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|17/100
+|-damage|p2b: Hatterene|64/100|[from] item: Life Orb
+|move|p2a: Gallade|Sacred Sword|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha
+|-damage|p1b: Sinistcha|0 fnt
+|faint|p1b: Sinistcha
+|move|p1a: Gholdengo|Make It Rain|p2a: Gallade|[spread] p2a,p2b
+|-resisted|p2b: Hatterene
+|-damage|p2a: Gallade|12/100
+|-damage|p2b: Hatterene|51/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1754605108
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|5
+|inactive|Volanvgc has 30 seconds left.
+|
+|t:|1754605134
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Hatterene|Expanding Force|p1b: Ursaluna|[spread] p1a
+|-activate|p1b: Ursaluna|move: Protect
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|-damage|p2b: Hatterene|41/100|[from] item: Life Orb
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1754605143
+|move|p1b: Ursaluna|Facade|p2a: Ursaluna
+|-damage|p2a: Ursaluna|6/100 brn
+|move|p2a: Ursaluna|Facade|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|
+|win|Wooperdooperpooper
+|raw|Volanvgc's rating: 1199 → 1171(-28 for losing)
+|raw|Wooperdooperpooper's rating: 1152 → 1180(+28 for winning)
+|l|☆Wooperdooperpooper
+|player|p2|

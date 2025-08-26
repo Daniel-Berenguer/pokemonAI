@@ -1,0 +1,171 @@
+|j|☆snailboss
+|j|☆Dwsliver
+|html|snailbossDwsliver    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755363486
+|gametype|doubles
+|player|p1|snailboss|265|1182
+|player|p2|Dwsliver|102|1178
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Zoroark-Hisui, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Tauros-Paldea-Aqua, L50, M|
+|poke|p1|Clefable, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Archaludon, L50, F|
+|teampreview|4
+|showteam|p1|Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,SwordsDance,Protect|||M|||50|,,,,,Ghost]Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,ShadowBall,HyperBeam,Flamethrower|||F|||50|,,,,,Normal]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,HighHorsepower|||F|||50|,,,,,Fire]Volcarona||CovertCloak|FlameBody|QuiverDance,HeatWave,GigaDrain,Protect|||M|||50|,,,,,Grass]Tauros-Paldea-Aqua||GrassySeed|Intimidate|WaveCrash,BodyPress,Protect,AquaJet|||M|||50|,,,,,Fire]Clefable||SafetyGoggles|Unaware|Moonblast,FollowMe,Protect,HelpingHand|||F|||50|,,,,,Ghost
+|showteam|p2|Whimsicott||CovertCloak|Prankster|Taunt,Tailwind,Encore,Moonblast|||M|||50|,,,,,Steel]Pelipper||FocusSash|Drizzle|Tailwind,Protect,Hurricane,WeatherBall|||F|||50|,,,,,Grass]Incineroar||SafetyGoggles|Intimidate|Uturn,FakeOut,KnockOff,FlareBlitz|||F|||50|,,,,,Ghost]Indeedee||PsychicSeed|PsychicSurge|ExpandingForce,TeraBlast,Imprison,TrickRoom|||M|||50|,,,,,Ground]Basculegion||LifeOrb|SwiftSwim|WaveCrash,LastRespects,FlipTurn,Protect|||M|||50|,,,,,Water]Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,DracoMeteor,Snarl|||F|||50|,,,,,Fighting
+|
+|t:|1755363515
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|switch|p2a: Pelipper|Pelipper, L50, F, shiny|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1755363536
+|switch|p2a: Indeedee|Indeedee, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p1b: Kingambit|Protect|p1b: Kingambit
+|-singleturn|p1b: Kingambit|Protect
+|move|p2b: Basculegion|Wave Crash|p1b: Kingambit
+|-activate|p1b: Kingambit|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1755363568
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-terastallize|p2b: Basculegion|Water
+|-terastallize|p1a: Volcarona|Grass
+|move|p2b: Basculegion|Wave Crash|p1b: Rillaboom
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|20/100
+|-damage|p2b: Basculegion|73/100|[from] Recoil
+|-damage|p2b: Basculegion|63/100|[from] item: Life Orb
+|move|p1a: Volcarona|Giga Drain|p2b: Basculegion
+|-supereffective|p2b: Basculegion
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|move|p2a: Indeedee|Tera Blast|p1a: Volcarona
+|-damage|p1a: Volcarona|66/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcarona|72/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|25/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1755363589
+|switch|p2b: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|turn|3
+|
+|t:|1755363606
+|switch|p2a: Pelipper|Pelipper, L50, F, shiny|100/100
+|move|p1b: Rillaboom|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|90/100
+|cant|p2b: Incineroar|flinch
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcarona|77/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|31/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|96/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1755363626
+|move|p1b: Rillaboom|Grassy Glide|p2a: Pelipper
+|-damage|p2a: Pelipper|66/100
+|move|p1a: Volcarona|Giga Drain|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|-heal|p1a: Volcarona|100/100|[from] drain|[of] p2a: Pelipper
+|faint|p2a: Pelipper
+|move|p2b: Incineroar|Flare Blitz|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|35/100
+|-damage|p2b: Incineroar|75/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Volcarona|40/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|37/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|81/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1755363639
+|switch|p2a: Indeedee|Indeedee, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|5
+|
+|t:|1755363655
+|move|p1a: Volcarona|Giga Drain|p2a: Indeedee
+|-damage|p2a: Indeedee|42/100
+|-heal|p1a: Volcarona|66/100|[from] drain|[of] p2a: Indeedee
+|move|p1b: Rillaboom|Wood Hammer|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-damage|p1b: Rillaboom|26/100|[from] Recoil
+|move|p2b: Incineroar|Flare Blitz|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|-damage|p2b: Incineroar|61/100|[from] Recoil
+|
+|-weather|none
+|upkeep
+|
+|t:|1755363666
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|turn|6
+|
+|t:|1755363675
+|switch|p1b: Tauros|Tauros-Paldea-Aqua, L50, M|100/100
+|-ability|p1b: Tauros|Intimidate|boost
+|-unboost|p2b: Incineroar|atk|1
+|move|p2b: Incineroar|Flare Blitz|p1b: Tauros
+|-resisted|p1b: Tauros
+|-damage|p1b: Tauros|85/100
+|-damage|p2b: Incineroar|57/100|[from] Recoil
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1755363689
+|move|p1b: Tauros|Wave Crash|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|-damage|p1b: Tauros|61/100|[from] Recoil
+|
+|win|snailboss
+|raw|snailboss's rating: 1182 → 1207(+25 for winning)
+|raw|Dwsliver's rating: 1178 → 1153(-25 for losing)

@@ -1,0 +1,167 @@
+|j|☆myv_382
+|j|☆The median voter
+|html|myv_382The median voter    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1755219744
+|gametype|doubles
+|player|p1|myv_382|169|1189
+|player|p2|The median voter|scientist-gen4dp|1189
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|DragonPulse,ElectroShot,FlashCannon,BodyPress|||M|||50|,,,,,Bug]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Ground]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,AquaJet,FlipTurn|||M|||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Fairy]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Incineroar||RockyHelmet|Intimidate|KnockOff,Taunt,PartingShot,FakeOut|||F|||50|,,,,,Ghost
+|showteam|p2|Garchomp||LifeOrb|RoughSkin|StompingTantrum,Earthquake,Protect,DragonClaw|||F|||50|,,,,,Ground]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,TeraBlast,Imprison|||M|||50|,,,,,Psychic]Annihilape||SafetyGoggles|Defiant|RageFist,CloseCombat,Taunt,Protect|||M|||50|,,,,,Steel]Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,Haze,ExtremeSpeed|||F|||50|,,,,,Steel]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,Protect,Coaching|||M|||50|,,,,,Dark
+|
+|t:|1755219797
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1755219837
+|move|p1a: Pelipper|Protect|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Protect
+|move|p1b: Basculegion|Flip Turn|p2a: Indeedee
+|-enditem|p2a: Indeedee|Focus Sash
+|-damage|p2a: Indeedee|1/100
+|
+|t:|1755219848
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100|[from] Flip Turn
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Garchomp|atk|1
+|move|p2b: Garchomp|Dragon Claw|p1a: Pelipper
+|-activate|p1a: Pelipper|move: Protect
+|move|p2a: Indeedee|Expanding Force|p1b: Incineroar|[spread] 
+|-activate|p1a: Pelipper|move: Protect
+|-immune|p1b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1755219881
+|-terastallize|p2a: Indeedee|Psychic
+|move|p2b: Garchomp|Dragon Claw|p1a: Pelipper
+|-damage|p1a: Pelipper|50/100
+|-damage|p2b: Garchomp|91/100|[from] item: Life Orb
+|move|p2a: Indeedee|Expanding Force|p1a: Pelipper|[spread] p1a
+|-immune|p1b: Incineroar
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|move|p1b: Incineroar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1755219903
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|3
+|
+|t:|1755219939
+|-terastallize|p1b: Incineroar|Ghost
+|move|p2a: Sneasler|Coaching|p2b: Garchomp
+|-boost|p2b: Garchomp|atk|1
+|-boost|p2b: Garchomp|def|1
+|move|p1a: Basculegion|Flip Turn|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|t:|1755219948
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100|[from] Flip Turn
+|move|p2b: Garchomp|Earthquake|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Archaludon
+|-damage|p1a: Archaludon|35/100
+|-damage|p1b: Incineroar|55/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|-damage|p2b: Garchomp|81/100|[from] item: Life Orb
+|move|p1b: Incineroar|Parting Shot|p2b: Garchomp
+|-unboost|p2b: Garchomp|atk|1
+|-unboost|p2b: Garchomp|spa|1
+|
+|t:|1755219960
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100|[from] Parting Shot
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1755219962
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|4
+|
+|t:|1755219980
+|switch|p1b: Incineroar|Incineroar, L50, F, tera:Ghost|55/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2b: Garchomp|atk|1
+|move|p2b: Garchomp|Stomping Tantrum|p1a: Archaludon
+|-supereffective|p1a: Archaludon
+|-damage|p1a: Archaludon|10/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|-damage|p2b: Garchomp|71/100|[from] item: Life Orb
+|move|p1a: Archaludon|Body Press|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Incineroar|50/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1755220004
+|move|p1b: Incineroar|Fake Out|p2b: Garchomp
+|-activate|p2b: Garchomp|move: Psychic Terrain
+|move|p2b: Garchomp|Earthquake|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Archaludon
+|-damage|p1a: Archaludon|0 fnt
+|-damage|p1b: Incineroar|28/100
+|faint|p1a: Archaludon
+|-damage|p2b: Garchomp|61/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Incineroar|22/100|[from] Sandstorm
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1755220013
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|turn|6
+|-message|The median voter forfeited.
+|
+|win|myv_382
+|raw|myv_382's rating: 1189 → 1214(+25 for winning)
+|raw|The median voter's rating: 1189 → 1164(-25 for losing)
+|l|☆The median voter
+|player|p2|

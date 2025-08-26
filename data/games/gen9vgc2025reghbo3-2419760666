@@ -1,0 +1,129 @@
+|j|☆prof.jirofales
+|j|☆Lemonade Insurance
+|html|prof.jirofalesLemonade Insurance    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1754944973
+|gametype|doubles
+|player|p1|prof.jirofales|102|1241
+|player|p2|Lemonade Insurance|101|1123
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|HeadlongRush,Earthquake,Facade,Protect|||M|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||F|||50|,,,,,Fairy]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,FakeOut|||F|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|TeraBlast,ExpandingForce,TrickRoom,Protect|||M|||50|,,,,,Fighting]Basculegion||ChoiceScarf|Adaptability|FlipTurn,WaveCrash,LastRespects,TeraBlast|||M|||50|,,,,,Flying]Volcarona||Leftovers|FlameBody|HeatWave,GigaDrain,QuiverDance,Protect|||F|||50|,,,,,Grass
+|showteam|p2|Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||F|||50|,,,,,Water]Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lemonade Insurance)
+|
+|t:|1754944990
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Scat Pack|Incineroar, L50, F|100/100
+|switch|p2b: Analyst|Porygon2, L50, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|-ability|p2a: Scat Pack|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|-ability|p2b: Analyst|Download|boost
+|-boost|p2b: Analyst|atk|1
+|turn|1
+|
+|t:|1754945007
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|move|p1b: Indeedee|Protect|p1b: Indeedee
+|-singleturn|p1b: Indeedee|Protect
+|move|p2a: Scat Pack|Knock Off|p1b: Indeedee
+|-activate|p1b: Indeedee|move: Protect
+|move|p2b: Analyst|Ice Beam|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|47/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1754945030
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100
+|-terastallize|p2b: Analyst|Fighting
+|move|p2a: Scat Pack|Knock Off|p1b: Dragonite
+|-damage|p1b: Dragonite|77/100
+|-enditem|p1b: Dragonite|Loaded Dice|[from] move: Knock Off|[of] p2a: Scat Pack
+|move|p1a: Ursaluna|Earthquake|p2a: Scat Pack|[spread] p2a,p2b
+|-immune|p1b: Dragonite
+|-supereffective|p2a: Scat Pack
+|-damage|p2a: Scat Pack|0 fnt
+|-damage|p2b: Analyst|61/100
+|faint|p2a: Scat Pack
+|move|p2b: Analyst|Trick Room|p2b: Analyst
+|-fieldstart|move: Trick Room|[of] p2b: Analyst
+|
+|-damage|p1a: Ursaluna|40/100 brn|[from] brn
+|upkeep
+|
+|t:|1754945044
+|switch|p2a: Asylum|Torkoal, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Asylum
+|turn|3
+|
+|t:|1754945059
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Asylum|Eruption|p1b: Dragonite|[spread] p1b
+|-activate|p1a: Ursaluna|move: Protect
+|-resisted|p1b: Dragonite
+|-damage|p1b: Dragonite|39/100
+|move|p2b: Analyst|Ice Beam|p1b: Dragonite
+|-supereffective|p1b: Dragonite
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1b: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|34/100 brn|[from] brn
+|upkeep
+|
+|t:|1754945071
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|turn|4
+|
+|t:|1754945079
+|move|p2a: Asylum|Eruption|p1a: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|0 fnt
+|-enditem|p1b: Indeedee|Focus Sash
+|-damage|p1b: Indeedee|1/100
+|faint|p1a: Ursaluna
+|move|p2b: Analyst|Ice Beam|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1754945090
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|turn|5
+|-message|prof.jirofales forfeited.
+|
+|win|Lemonade Insurance
+|raw|prof.jirofales's rating: 1241 → 1208(-33 for losing)
+|raw|Lemonade Insurance's rating: 1123 → 1156(+33 for winning)
+|l|☆prof.jirofales
+|player|p1|

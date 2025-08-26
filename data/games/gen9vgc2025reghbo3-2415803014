@@ -1,0 +1,177 @@
+|j|☆mysteriousmothman
+|j|☆WestyLiam
+|html|mysteriousmothmanWestyLiam    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1754403580
+|gametype|doubles
+|player|p1|mysteriousmothman|skier|1124
+|player|p2|WestyLiam|101|1309
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Porygon2, L50|
+|poke|p1|Hydreigon, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Archaludon, L50, F|
+|teampreview|4
+|showteam|p1|Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Hydreigon||SafetyGoggles|Levitate|Snarl,DracoMeteor,Tailwind,Protect|||F|||50|,,,,,Ghost]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Grass]Garchomp||LoadedDice|RoughSkin|ScaleShot,Earthquake,StompingTantrum,Protect|||M|||50|,,,,,Fire]Amoonguss||CovertCloak|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Fire]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Flying
+|showteam|p2|Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Psychic]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,FlipTurn,LastRespects,AquaJet|||M|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Ground]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|ElectroShot,FlashCannon,DracoMeteor,BodyPress|||F|||50|,,,,,Bug
+|
+|t:|1754403634
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hydreigon|Hydreigon, L50, F, shiny|100/100
+|switch|p1b: Porygon2|Porygon2, L50, shiny|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|spa|1
+|turn|1
+|
+|t:|1754403670
+|switch|p1a: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|-unboost|p1b: Porygon2|atk|1
+|-terastallize|p2b: Archaludon|Bug
+|move|p2b: Archaludon|Draco Meteor|p1a: Amoonguss|[miss]
+|-miss|p2b: Archaludon|p1a: Amoonguss
+|move|p1b: Porygon2|Trick Room|p1b: Porygon2
+|-fieldstart|move: Trick Room|[of] p1b: Porygon2
+|
+|upkeep
+|turn|2
+|
+|t:|1754403704
+|-terastallize|p1b: Porygon2|Fighting
+|move|p1a: Amoonguss|Spore|p2b: Archaludon
+|-status|p2b: Archaludon|slp|[from] move: Spore
+|move|p1b: Porygon2|Tera Blast|p2a: Incineroar|[anim] Tera Blast Fighting
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|11/100
+|move|p2a: Incineroar|Parting Shot|p1b: Porygon2
+|-unboost|p1b: Porygon2|atk|1
+|-unboost|p1b: Porygon2|spa|1
+|
+|t:|1754403710
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100|[from] Parting Shot
+|cant|p2b: Archaludon|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1754403720
+|switch|p1b: Gholdengo|Gholdengo, L50, shiny|100/100
+|move|p1a: Amoonguss|Spore|p2a: Basculegion
+|-status|p2a: Basculegion|slp|[from] move: Spore
+|cant|p2b: Archaludon|slp
+|cant|p2a: Basculegion|slp
+|
+|upkeep
+|turn|4
+|
+|t:|1754403739
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|-curestatus|p2b: Archaludon|slp|[msg]
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|78/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1754403772
+|switch|p2b: Incineroar|Incineroar, L50, M|11/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|-unboost|p1b: Gholdengo|atk|1
+|move|p2a: Pelipper|Protect|p2a: Pelipper
+|-singleturn|p2a: Pelipper|Protect
+|move|p1a: Amoonguss|Spore|p2b: Incineroar
+|-activate|p2b: Incineroar|item: Safety Goggles|Spore
+|move|p1b: Gholdengo|Shadow Ball|p2a: Pelipper
+|-activate|p2a: Pelipper|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1754403825
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100 slp
+|switch|p1a: Porygon2|Porygon2, L50, shiny, tera:Fighting|100/100
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: WestyLiam|move: Tailwind
+|move|p1b: Gholdengo|Make It Rain|p2b: Basculegion|[spread] p2a,p2b
+|-resisted|p2a: Pelipper
+|-resisted|p2b: Basculegion
+|-enditem|p2a: Pelipper|Focus Sash
+|-damage|p2a: Pelipper|1/100
+|-damage|p2b: Basculegion|26/100 slp
+|-unboost|p1b: Gholdengo|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1754403852
+|cant|p2b: Basculegion|slp
+|move|p2a: Pelipper|Hurricane|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|41/100
+|-start|p1a: Porygon2|confusion
+|move|p1b: Gholdengo|Make It Rain|p2a: Pelipper|[spread] p2a,p2b
+|-resisted|p2a: Pelipper
+|-resisted|p2b: Basculegion
+|-damage|p2a: Pelipper|0 fnt
+|-damage|p2b: Basculegion|0 fnt
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2a: Pelipper
+|faint|p2b: Basculegion
+|-activate|p1a: Porygon2|confusion
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1754403857
+|switch|p2a: Archaludon|Archaludon, L50, F, tera:Bug|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|11/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Porygon2|atk|1
+|-unboost|p1b: Gholdengo|atk|1
+|turn|8
+|-message|WestyLiam forfeited.
+|raw|mysteriousmothman's rating: 1124 → 1161(+37 for winning)
+|raw|WestyLiam's rating: 1309 → 1279(-30 for losing)
+|
+|win|mysteriousmothman
+|c|☆mysteriousmothman|ggs
+|l|☆WestyLiam
+|player|p2|
+|c|☆mysteriousmothman|lol

@@ -67,6 +67,12 @@ def processGame(text, tensors, labels, augment=True):
         if line.startswith("|-fieldend|"):
             board.endItem(line[len("|-fieldend|"):])
 
+        if line.startswith("|-status|"):
+            board.startStatus(line[len("|-status|"):])
+
+        if line.startswith("|-curestatus|"):
+            board.endStatus(line[len("|-curestatus|"):])
+
         if line.startswith("|-singleturn|") and "Protect" in line:
             board.protected(line[len("|-singleturn|"):])
 

@@ -1,0 +1,107 @@
+|j|☆struggling bug
+|j|☆Cyberman152
+|html|struggling bugCyberman152    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1754698724
+|gametype|doubles
+|player|p1|struggling bug|winona|1170
+|player|p2|Cyberman152|266|1306
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Magmar, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Volcarona, L50, F|
+|teampreview|4
+|showteam|p1|Ninetales-Alola||CovertCloak|SnowWarning|IcyWind,Blizzard,AuroraVeil,Encore|||F|||50|,,,,,Water]Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,EarthPower,HyperVoice,VacuumWave|||M|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|Protect,NastyPlot,MakeItRain,ShadowBall||||||50|,,,,,Water]Magmar||Eviolite|FlameBody|FollowMe,WillOWisp,Overheat,Protect|||M|||50|,,,,,Ghost]Annihilape||Leftovers|Defiant|RageFist,BulkUp,DrainPunch,Protect|||F|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy
+|showteam|p2|Archaludon||AssaultVest|Stamina|FlashCannon,DragonPulse,ElectroShot,BodyPress|||M|||50|,,,,,Bug]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Stellar]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,FlipTurn,AquaJet,LastRespects|||M|||50|,,,,,Grass]Incineroar||SafetyGoggles|Intimidate|KnockOff,FakeOut,Taunt,PartingShot|||M|||50|,,,,,Ghost]Rillaboom||LoadedDice|GrassySurge|BulletSeed,GrassyGlide,FakeOut,Protect|||M|||50|,,,,,Fire]Volcarona||GrassySeed|FlameBody|FieryDance,TeraBlast,QuiverDance,Protect|||F|||50|,,,,,Fairy
+|
+|t:|1754698752
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Volcarona|Volcarona, L50, F, shiny|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p2a: Volcarona|Grassy Seed
+|-boost|p2a: Volcarona|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1754698764
+|-terastallize|p1b: Ursaluna|Ghost
+|move|p1a: Dragonite|Protect|p1a: Dragonite
+|-singleturn|p1a: Dragonite|Protect
+|move|p2b: Rillaboom|Fake Out|p1a: Dragonite
+|-activate|p1a: Dragonite|move: Protect
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1b: Ursaluna|Blood Moon|p2a: Volcarona
+|-damage|p2a: Volcarona|61/100
+|
+|-heal|p2a: Volcarona|68/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1754698782
+|-terastallize|p2a: Volcarona|Fairy
+|move|p2b: Rillaboom|Grassy Glide|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|95/100
+|move|p2a: Volcarona|Tera Blast|p1a: Dragonite|[anim] Tera Blast Fairy
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|move|p1b: Ursaluna|Hyper Voice|p2a: Volcarona|[spread] p2a,p2b
+|-damage|p2a: Volcarona|48/100
+|-damage|p2b: Rillaboom|62/100
+|
+|-heal|p2a: Volcarona|55/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|68/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1754698791
+|switch|p1a: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|3
+|
+|t:|1754698811
+|move|p2a: Volcarona|Fiery Dance|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1a: Ninetales
+|move|p2b: Rillaboom|Bullet Seed|p1b: Ursaluna
+|-damage|p1b: Ursaluna|88/100
+|-damage|p1b: Ursaluna|77/100
+|-damage|p1b: Ursaluna|64/100
+|-damage|p1b: Ursaluna|50/100
+|-hitcount|p1b: Ursaluna|4
+|move|p1b: Ursaluna|Blood Moon|p2a: Volcarona
+|-damage|p2a: Volcarona|10/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Volcarona|17/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|74/100|[from] Grassy Terrain
+|-heal|p1b: Ursaluna|57/100|[from] Grassy Terrain
+|upkeep
+|-message|struggling bug forfeited.
+|
+|win|Cyberman152
+|raw|struggling bug's rating: 1170 → 1154(-16 for losing)
+|raw|Cyberman152's rating: 1306 → 1319(+13 for winning)

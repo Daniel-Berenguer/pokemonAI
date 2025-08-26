@@ -102,7 +102,7 @@ class Board:
           line[0] = line[0][13:]
           for i,poke in enumerate(line):
                name = Board.processName(poke.split("|")[0])
-               pokemon = Pokemon(name, poke, pokemon_stats, move_dict)
+               pokemon = Pokemon(name, player, poke, pokemon_stats, move_dict)
                self.pokemon[player].append(pokemon)
                self.name2Indicies[player][name] = i
           if len(self.pokemon[player]) < 6:
@@ -173,6 +173,18 @@ class Board:
                elif effect == "Tailwind":
                     if start:
                          self.tailwinds[player] = 4
+               elif effect == "Toxic Spikes":
+                    if start:
+                         self.toxicspikes[player] += 1
+                    else:
+                         self.toxicspikes[player] = 0
+               elif effect == "Spikes":
+                    if start:
+                         self.spikes[player] += 1
+                    else:
+                         self.spikes[player] = 0
+               elif effect == "Stealth Rock":
+                    self.stealthrocks[player] = start
                else:
                     raise Exception(f"UNKNOWN EFFECT: {effect}")
 
@@ -213,6 +225,18 @@ class Board:
           i, j = Board.player2indicies(line[0])
           j = self.j2pokemon(i, j)
           self.pokemon[i][j].lostItem = True
+
+     def startStatus(self, line):
+          line = line.split("|")
+          i, j = Board.player2indicies(line[0])
+          j = self.j2pokemon(i, j)
+          self.pokemon[i][j].status = line[1]
+
+     def endStatus(self, line):
+          line = line.split("|")
+          i, j = Board.player2indicies(line[0])
+          j = self.j2pokemon(i, j)
+          self.pokemon[i][j].status = "none"
 
      def tera(self, line):
           line = line.split("|")
