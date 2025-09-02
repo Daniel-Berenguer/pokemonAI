@@ -1,0 +1,137 @@
+|j|☆dialghite
+|j|☆incartamene2etti
+|html|dialghiteincartamene2etti    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756739355
+|gametype|doubles
+|player|p1|dialghite|volkner|
+|player|p2|incartamene2etti|plasmagrunt|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Corviknight, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||F|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|Earthquake,IronHead,HighHorsepower,Protect|||M|||50|,,,,,Ground]Corviknight||Leftovers|MirrorArmor|BraveBird,Tailwind,Roost,BulkUp|||M|||50|,,,,,Dragon]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,FinalGambit,Taunt|||F|||50|,,,,,Water
+|showteam|p2|Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|ElectroShot,DragonPulse,BodyPress,FlashCannon|||F|||50|,,,,,Grass]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,AquaJet,LastRespects,FlipTurn|||M|||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|Spore,Protect,RagePowder,PollenPuff|||F|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FakeOut,Taunt,PartingShot,KnockOff|||M|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water
+|
+|t:|1756739403
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100
+|switch|p1b: Excadrill|Excadrill, L50, M|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|turn|1
+|
+|t:|1756739436
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1a: Annihilape|Taunt|p2b: Amoonguss
+|-start|p2b: Amoonguss|move: Taunt
+|move|p2a: Gholdengo|Shadow Ball|p1b: Excadrill
+|-damage|p1b: Excadrill|31/100
+|-damage|p2a: Gholdengo|91/100|[from] item: Life Orb
+|move|p1b: Excadrill|High Horsepower|p2b: Amoonguss|[miss]
+|-miss|p1b: Excadrill|p2b: Amoonguss
+|
+|upkeep
+|turn|2
+|
+|t:|1756739474
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1b: Excadrill|atk|1
+|-terastallize|p2a: Gholdengo|Water
+|move|p1b: Excadrill|Protect|p1b: Excadrill
+|-singleturn|p1b: Excadrill|Protect
+|move|p2a: Gholdengo|Make It Rain|p1b: Excadrill|[spread] p1a
+|-activate|p1b: Excadrill|move: Protect
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|48/100
+|-unboost|p2a: Gholdengo|spa|1
+|-damage|p2a: Gholdengo|81/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gholdengo|75/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1756739519
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2b: Incineroar|Fake Out|p1a: Indeedee
+|-activate|p1a: Indeedee|move: Psychic Terrain
+|move|p1b: Excadrill|High Horsepower|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|42/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Indeedee|95/100|[from] Sandstorm
+|-damage|p2a: Gholdengo|69/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1756739583
+|move|p1b: Excadrill|High Horsepower|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p1a: Indeedee|Expanding Force|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Indeedee|89/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756739592
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|turn|5
+|
+|t:|1756739688
+|-terastallize|p1a: Indeedee|Psychic
+|move|p2a: Amoonguss|Protect|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|Protect
+|move|p1b: Excadrill|High Horsepower|p2b: Archaludon
+|-supereffective|p2b: Archaludon
+|-damage|p2b: Archaludon|43/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p1a: Indeedee|Expanding Force|p2a: Amoonguss|[spread] p2b
+|-activate|p2a: Amoonguss|move: Protect
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|17/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2b: Archaludon|Body Press|p1a: Indeedee
+|-resisted|p1a: Indeedee
+|-damage|p1a: Indeedee|44/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Indeedee|38/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|95/100|[from] Sandstorm
+|upkeep
+|turn|6
+|-message|incartamene2etti forfeited.
+|
+|win|dialghite

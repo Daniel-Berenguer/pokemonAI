@@ -1,0 +1,225 @@
+|j|☆Joeltheboss12
+|j|☆gobra
+|html|Joeltheboss12gobra    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756700582
+|gametype|doubles
+|player|p1|Joeltheboss12|102|1037
+|player|p2|gobra|zinzolin|1010
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kleavor, L50, M|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Venusaur, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Dragonite, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Gastrodon-East, L50, M|
+|teampreview|4
+|showteam|p1|Kleavor||CovertCloak|Sharpness|CloseCombat,NightSlash,XScissor,Protect|||M|||50|,,,,,Dragon]Smeargle||FocusSash|Moody|Decorate,SpikyShield,Spore,FakeOut|||F|||50|,,,,,Ghost]Venusaur||Leftovers|Chlorophyll|LeechSeed,Protect,EnergyBall,SludgeBomb|||M|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Annihilape||SitrusBerry|Defiant|BulkUp,DrainPunch,RageFist,Protect|||F|||50|,,,,,Fairy]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,ExtremeSpeed,Protect|||F|||50|,,,,,Fairy
+|showteam|p2|Torkoal||EjectPack|Drought|Protect,BodyPress,Overheat,HelpingHand|||F|||50|,,,,,Water]Lilligant-Hisui||FocusSash|Chlorophyll|SleepPowder,SolarBlade,Encore,CloseCombat|||F|||50|,,,,,Dragon]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Indeedee-F||SitrusBerry|PsychicSurge|FollowMe,Psychic,TrickRoom,HelpingHand|||F|||50|,,,,,Ghost]Armarouge||SafetyGoggles|FlashFire|ArmorCannon,TrickRoom,ExpandingForce,WideGuard|||M|||50|,,,,,Psychic]Gastrodon-East||Leftovers|StormDrain|IceBeam,EarthPower,Protect,Recover|||M|||50|,,,,,Grass
+|
+|t:|1756700612
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kleavor|Kleavor, L50, M|100/100
+|switch|p1b: Smeargle|Smeargle, L50, F|100/100
+|switch|p2a: Torkoal|Torkoal, L50, F, shiny|100/100
+|switch|p2b: Lilligant|Lilligant-Hisui, L50, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1756700651
+|-terastallize|p1a: Kleavor|Dragon
+|move|p1b: Smeargle|Fake Out|p2a: Torkoal
+|-damage|p2a: Torkoal|97/100
+|move|p2b: Lilligant|Sleep Powder|p1b: Smeargle|[miss]
+|-miss|p2b: Lilligant|p1b: Smeargle
+|move|p1a: Kleavor|X-Scissor|p2b: Lilligant
+|-damage|p2b: Lilligant|5/100
+|cant|p2a: Torkoal|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spe|2
+|-unboost|p1b: Smeargle|spa|1
+|upkeep
+|turn|2
+|
+|t:|1756700674
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Lilligant|atk|1
+|-enditem|p2a: Torkoal|Eject Pack
+|
+|t:|1756700681
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Kleavor|Protect|p1a: Kleavor
+|-singleturn|p1a: Kleavor|Protect
+|move|p2b: Lilligant|Close Combat|p1a: Kleavor
+|-activate|p1a: Kleavor|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756700746
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Lilligant|Encore|p1a: Kleavor
+|-start|p1a: Kleavor|Encore
+|move|p1a: Kleavor|Protect||[still]
+|-fail|p1a: Kleavor
+|move|p1b: Incineroar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|4/100
+|-enditem|p2a: Indeedee|Sitrus Berry|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756700783
+|switch|p1a: Venusaur|Venusaur, L50, M|100/100
+|switch|p1b: Smeargle|Smeargle, L50, F|100/100
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Lilligant|Close Combat|p1b: Smeargle
+|-supereffective|p1b: Smeargle
+|-enditem|p1b: Smeargle|Focus Sash
+|-damage|p1b: Smeargle|1/100
+|-unboost|p2b: Lilligant|def|1
+|-unboost|p2b: Lilligant|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spe|2
+|-unboost|p1b: Smeargle|atk|1
+|upkeep
+|turn|5
+|
+|t:|1756700833
+|move|p2b: Lilligant|Solar Blade||[still]
+|-prepare|p2b: Lilligant|Solar Blade
+|-anim|p2b: Lilligant|Solar Blade|p1b: Smeargle
+|-damage|p1b: Smeargle|0 fnt
+|faint|p1b: Smeargle
+|move|p1a: Venusaur|Sludge Bomb|p2b: Lilligant
+|-supereffective|p2b: Lilligant
+|-damage|p2b: Lilligant|0 fnt
+|faint|p2b: Lilligant
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-weather|none
+|upkeep
+|
+|t:|1756700848
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Armarouge|Armarouge, L50, M, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Armarouge|atk|1
+|turn|6
+|
+|t:|1756700867
+|switch|p2a: Torkoal|Torkoal, L50, F, shiny|97/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-terastallize|p2b: Armarouge|Psychic
+|move|p1a: Venusaur|Protect|p1a: Venusaur
+|-singleturn|p1a: Venusaur|Protect
+|move|p1b: Incineroar|Knock Off|p2b: Armarouge
+|-supereffective|p2b: Armarouge
+|-damage|p2b: Armarouge|30/100
+|-enditem|p2b: Armarouge|Safety Goggles|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2b: Armarouge|Expanding Force|p1a: Venusaur|[spread] 
+|-activate|p1a: Venusaur|move: Protect
+|-immune|p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|7
+|
+|t:|1756700899
+|move|p2a: Torkoal|Body Press|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|48/100
+|move|p1b: Incineroar|Knock Off|p2b: Armarouge
+|-supereffective|p2b: Armarouge
+|-damage|p2b: Armarouge|0 fnt
+|faint|p2b: Armarouge
+|move|p1a: Venusaur|Sludge Bomb|p2a: Torkoal
+|-damage|p2a: Torkoal|51/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756700905
+|switch|p2b: Indeedee|Indeedee-F, L50, F|4/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|8
+|
+|t:|1756700935
+|move|p1a: Venusaur|Protect|p1a: Venusaur
+|-singleturn|p1a: Venusaur|Protect
+|move|p2a: Torkoal|Body Press|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p2b: Indeedee|Psychic|p1a: Venusaur
+|-activate|p1a: Venusaur|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756700942
+|switch|p1b: Kleavor|Kleavor, L50, M, tera:Dragon|100/100
+|turn|9
+|
+|t:|1756700965
+|move|p2b: Indeedee|Helping Hand|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Helping Hand|[of] p2b: Indeedee
+|move|p2a: Torkoal|Overheat|p1a: Venusaur
+|-supereffective|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|-unboost|p2a: Torkoal|spa|2
+|faint|p1a: Venusaur
+|move|p1b: Kleavor|Close Combat|p2a: Torkoal
+|-damage|p2a: Torkoal|28/100
+|-unboost|p1b: Kleavor|def|1
+|-unboost|p1b: Kleavor|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|10
+|
+|t:|1756701003
+|move|p2a: Torkoal|Helping Hand|p2b: Indeedee
+|-singleturn|p2b: Indeedee|Helping Hand|[of] p2a: Torkoal
+|move|p1b: Kleavor|Night Slash|p2a: Torkoal
+|-crit|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|move|p2b: Indeedee|Psychic|p1b: Kleavor
+|-damage|p1b: Kleavor|0 fnt
+|faint|p1b: Kleavor
+|
+|win|gobra
+|raw|Joeltheboss12's rating: 1037 → 1020(-17 for losing)
+|raw|gobra's rating: 1010 → 1051(+41 for winning)
+|l|☆Joeltheboss12
+|player|p1|

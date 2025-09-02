@@ -1,0 +1,115 @@
+|j|☆snailboss
+|j|☆Quill86
+|html|snailbossQuill86    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756784521
+|gametype|doubles
+|player|p1|snailboss|hilda-wonderlauncher|1162
+|player|p2|Quill86|lucas|1275
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zoroark-Hisui, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Excadrill, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Noivern, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Smeargle, L50, F|
+|teampreview|4
+|showteam|p1|Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,Flamethrower,ShadowBall,HyperBeam|||M|||50|,,,,,Normal]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|IronHead,Protect,SwordsDance,Earthquake|||F|||50|,,,,,Ground]Indeedee-F||SafetyGoggles|PsychicSurge|TrickRoom,FollowMe,Psychic,HelpingHand|||F|||50|,,,,,Water]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,WideGuard,SacredSword|||M|||50|,,,,,Grass]Noivern||CovertCloak|Telepathy|SuperFang,Tailwind,Taunt,DracoMeteor|||M|||50|,,,,,Fairy
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,TrickRoom,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|SacredSword,WideGuard,TrickRoom,PsychoCut|||M|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,WeatherBall,EarthPower,HeatWave|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Protect,HeadlongRush,Facade,Earthquake|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|DazzlingGleam,ExpandingForce,MysticalFire,TrickRoom|||F|||50|,,,,,Fire]Smeargle||FocusSash|Moody|FakeOut,Spore,Instruct,FollowMe|||F|||50|,,,,,Ghost
+|
+|t:|1756784551
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dr. Drills|Excadrill, L50, F|100/100
+|switch|p1b: Butter|Indeedee-F, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Quill86)
+|
+|t:|1756784577
+|switch|p1b: Alice|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Alice
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Dr. Drills|Shadow Ball|p2a: Indeedee
+|-immune|p2a: Indeedee
+|move|p2b: Gallade|Trick Room|p2b: Gallade
+|-fieldstart|move: Trick Room|[of] p2b: Gallade
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Gallade|95/100|[from] Sandstorm
+|-damage|p2a: Indeedee|94/100|[from] Sandstorm
+|-damage|p1a: Dr. Drills|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1756784597
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|switch|p1a: Butter|Indeedee-F, L50, F|100/100
+|-terastallize|p1b: Alice|Flying
+|move|p2b: Gallade|Psycho Cut|p1a: Butter
+|-resisted|p1a: Butter
+|-damage|p1a: Butter|62/100
+|move|p1b: Alice|Tera Blast|p2b: Gallade|[anim] Tera Blast Flying
+|-supereffective|p2b: Gallade
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756784604
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|turn|3
+|
+|t:|1756784620
+|-terastallize|p2a: Torkoal|Fire
+|move|p2a: Torkoal|Eruption|p1a: Butter|[spread] p1a,p1b
+|-damage|p1a: Butter|0 fnt
+|-damage|p1b: Alice|0 fnt
+|faint|p1a: Butter
+|faint|p1b: Alice
+|move|p2b: Hatterene|Expanding Force|p1: Butter|[notarget]
+|-fail|p2b: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756784624
+|switch|p1a: Dr. Drills|Excadrill, L50, F|94/100
+|switch|p1b: Dr. Drills|Excadrill, L50, F|100/100
+|turn|4
+|
+|t:|1756784630
+|move|p2a: Torkoal|Eruption|p1a: Dr. Drills|[spread] p1a,p1b
+|-supereffective|p1b: Dr. Drills
+|-damage|p1a: Dr. Drills|0 fnt
+|-enditem|p1b: Dr. Drills|Focus Sash
+|-damage|p1b: Dr. Drills|1/100
+|replace|p1a: Zoroark|Zoroark-Hisui, L50, M
+|-end|p1a: Zoroark|Illusion
+|faint|p1a: Zoroark
+|move|p2b: Hatterene|Expanding Force|p1b: Dr. Drills
+|-resisted|p1b: Dr. Drills
+|-damage|p1b: Dr. Drills|0 fnt
+|faint|p1b: Dr. Drills
+|-damage|p2b: Hatterene|91/100|[from] item: Life Orb
+|
+|win|Quill86

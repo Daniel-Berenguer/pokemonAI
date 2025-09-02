@@ -1,0 +1,131 @@
+|j|☆bascisdozo
+|j|☆spellbreakvgc
+|html|bascisdozospellbreakvgc    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756716902
+|gametype|doubles
+|player|p1|bascisdozo|265|
+|player|p2|spellbreakvgc|lance|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Electabuzz, L50, F|
+|poke|p1|Volcarona, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Typhlosion-Hisui, L50, F|
+|poke|p2|Dragapult, L50, M|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Rillaboom||AssaultVest|GrassySurge|FakeOut,HighHorsepower,WoodHammer,GrassyGlide|||F|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ExtremeSpeed,ScaleShot,Protect,Haze|||F|||50|,,,,,Steel]Sneasler||FocusSash|PoisonTouch|DireClaw,CloseCombat,FakeOut,Coaching|||F|||50|,,,,,Stellar]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Dark]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,Taunt,FollowMe,Protect|||F|||50|,,,,,Ghost]Volcarona||Leftovers|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||F|||50|,,,,,Fairy
+|showteam|p2|Whimsicott||CovertCloak|Prankster|Tailwind,SunnyDay,Encore,Moonblast|||M|||50|,,,,,Steel]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,HeatWave,ShadowBall,Overheat|||F|||50|,,,,,Fire]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,SuckerPunch,Uturn|||M|||50|,,,,,Dragon]Electabuzz||Eviolite|VitalSpirit|VoltSwitch,FollowMe,Feint,Protect|||M|||50|,,,,,Ghost]Torkoal||LifeOrb|Drought|Eruption,HeatWave,WeatherBall,Protect|||F|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|CloseCombat,SleepPowder,AfterYou,LeafBlade|||F|||50|,,,,,Ghost
+|
+|t:|1756716916
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, F|100/100
+|switch|p1b: Electabuzz|Electabuzz, L50, F|100/100
+|switch|p2a: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p2b: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|turn|1
+|
+|t:|1756716927
+|-terastallize|p2b: Typhlosion|Fire
+|move|p2a: Electabuzz|Volt Switch|p1a: Dragonite
+|-damage|p1a: Dragonite|88/100
+|
+|t:|1756716932
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100|[from] Volt Switch
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p2b: Typhlosion|Eruption|p1b: Electabuzz|[spread] p1a,p1b
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1b: Electabuzz|0 fnt
+|faint|p1a: Dragonite
+|faint|p1b: Electabuzz
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756716949
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|switch|p1a: Kingambit|Kingambit, L50, F|100/100
+|turn|2
+|
+|t:|1756717004
+|-terastallize|p1a: Kingambit|Dark
+|move|p1a: Kingambit|Sucker Punch|p2b: Typhlosion
+|-damage|p2b: Typhlosion|0 fnt
+|faint|p2b: Typhlosion
+|move|p1b: Volcarona|Quiver Dance|p1b: Volcarona
+|-boost|p1b: Volcarona|spa|1
+|-boost|p1b: Volcarona|spd|1
+|-boost|p1b: Volcarona|spe|1
+|move|p2a: Torkoal|Eruption|p1a: Kingambit|[spread] p1a,p1b
+|-damage|p1a: Kingambit|13/100
+|-damage|p1b: Volcarona|43/100
+|-damage|p2a: Torkoal|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Volcarona|49/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756717026
+|switch|p2b: Electabuzz|Electabuzz, L50, M|100/100
+|turn|3
+|
+|t:|1756717045
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2b: Electabuzz|Follow Me|p2b: Electabuzz
+|-singleturn|p2b: Electabuzz|move: Follow Me
+|move|p1b: Volcarona|Heat Wave|p2a: Torkoal|[spread] p2a,p2b
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|39/100
+|-damage|p2b: Electabuzz|34/100
+|move|p2a: Torkoal|Heat Wave|p1a: Kingambit|[spread] p1b
+|-activate|p1a: Kingambit|move: Protect
+|-damage|p1b: Volcarona|9/100
+|-damage|p2a: Torkoal|30/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Volcarona|15/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1756717079
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p2b: Electabuzz|Follow Me|p2b: Electabuzz
+|-singleturn|p2b: Electabuzz|move: Follow Me
+|move|p1b: Volcarona|Quiver Dance|p1b: Volcarona
+|-boost|p1b: Volcarona|spa|1
+|-boost|p1b: Volcarona|spd|1
+|-boost|p1b: Volcarona|spe|1
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Electabuzz
+|-damage|p2b: Electabuzz|0 fnt
+|faint|p2b: Electabuzz
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Volcarona|22/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756717083
+|switch|p2b: Whimsicott|Whimsicott, L50, M|100/100
+|turn|5
+|-message|bascisdozo forfeited.
+|
+|win|spellbreakvgc
+|l|☆bascisdozo
+|player|p1|
+||bascisdozo is ready for game 3.
+||spellbreakvgc is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

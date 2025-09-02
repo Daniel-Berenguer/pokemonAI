@@ -1,0 +1,193 @@
+|j|☆Lacossg
+|j|☆horsecargo
+|html|Lacossghorsecargo    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756652500
+|gametype|doubles
+|player|p1|Lacossg|170|1086
+|player|p2|horsecargo|1|1086
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Chesnaught, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Delphox, L50, F|
+|teampreview|4
+|showteam|p1|Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,Trick,Psyshock||||||50|,,,,,Fairy]Chesnaught||Leftovers|Bulletproof|WideGuard,BodyPress,Protect,IronDefense|||M|||50|,,,,,Fairy]Tyranitar||FocusSash|SandStream|RockSlide,KnockOff,Taunt,Protect|||F|||50|,,,,,Grass]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Ground]Volcarona||SitrusBerry|FlameBody|QuiverDance,FieryDance,GigaDrain,Protect|||F|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Substitute,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Primarina||ThroatSpray|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||F|||50|,,,,,Poison]Sneasler||GrassySeed|PoisonTouch|DireClaw,CloseCombat,Protect,FakeOut|||F|||50|,,,,,Dark]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,HighHorsepower|||F|||50|,,,,,Fire]Electabuzz||Eviolite|VitalSpirit|FollowMe,Taunt,Protect,Thunderbolt|||M|||50|,,,,,Ghost]Indeedee-F||FocusSash|PsychicSurge|FollowMe,TrickRoom,Psychic,Protect|||F|||50|,,,,,Dark]Delphox||ChoiceSpecs|Blaze|ExpandingForce,Flamethrower,Overheat,DazzlingGleam|||F|||50|,,,,,Psychic
+|
+|t:|1756652523
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Porygon2|Porygon2, L50|100/100
+|switch|p2a: Primarina|Primarina, L50, F|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|atk|1
+|turn|1
+|
+|t:|1756652545
+|move|p2a: Primarina|Protect|p2a: Primarina
+|-singleturn|p2a: Primarina|Protect
+|move|p1a: Gholdengo|Make It Rain|p2b: Rillaboom|[spread] p2b
+|-activate|p2a: Primarina|move: Protect
+|-damage|p2b: Rillaboom|61/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2b: Rillaboom|High Horsepower|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|23/100
+|move|p1b: Porygon2|Trick Room|p1b: Porygon2
+|-fieldstart|move: Trick Room|[of] p1b: Porygon2
+|
+|-heal|p2b: Rillaboom|67/100|[from] Grassy Terrain
+|-heal|p1a: Gholdengo|29/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756652569
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|move|p1b: Porygon2|Ice Beam|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|27/100
+|move|p2a: Primarina|Hyper Voice|p1a: Ursaluna|[spread] p1a,p1b
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|42/100
+|-damage|p1b: Porygon2|77/100
+|-enditem|p2a: Primarina|Throat Spray
+|-boost|p2a: Primarina|spa|1|[from] item: Throat Spray
+|move|p2b: Rillaboom|High Horsepower|p1a: Ursaluna
+|-damage|p1a: Ursaluna|21/100
+|
+|-heal|p1a: Ursaluna|27/100|[from] Grassy Terrain
+|-heal|p1b: Porygon2|83/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|33/100|[from] Grassy Terrain
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1756652590
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Primarina|Protect|p2a: Primarina
+|-singleturn|p2a: Primarina|Protect
+|move|p1b: Porygon2|Ice Beam|p2b: Indeedee
+|-damage|p2b: Indeedee|84/100
+|
+|-damage|p1a: Ursaluna|21/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1756652605
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Ursaluna|Facade|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p1b: Porygon2|Tera Blast|p2a: Primarina
+|-damage|p2a: Primarina|70/100
+|move|p2a: Primarina|Hyper Voice|p1b: Porygon2|[spread] p1a,p1b
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-damage|p1b: Porygon2|48/100
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1756652621
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, F|33/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|5
+|
+|t:|1756652633
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2b: Rillaboom|Fake Out|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Protect
+|move|p1b: Porygon2|Recover|p1b: Porygon2
+|-heal|p1b: Porygon2|98/100
+|move|p2a: Primarina|Hyper Voice|p1a: Tyranitar|[spread] p1b
+|-activate|p1a: Tyranitar|move: Protect
+|-damage|p1b: Porygon2|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Porygon2|59/100|[from] Sandstorm
+|-damage|p2a: Primarina|64/100|[from] Sandstorm
+|-damage|p2b: Rillaboom|27/100|[from] Sandstorm
+|-heal|p1b: Porygon2|65/100|[from] Grassy Terrain
+|-heal|p2a: Primarina|70/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|33/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1756652665
+|move|p2b: Rillaboom|Wood Hammer|p1b: Porygon2
+|-damage|p1b: Porygon2|17/100
+|-damage|p2b: Rillaboom|18/100|[from] Recoil
+|move|p1a: Tyranitar|Rock Slide|p2a: Primarina|[spread] p2a,p2b
+|-damage|p2a: Primarina|39/100
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|cant|p2a: Primarina|flinch
+|move|p1b: Porygon2|Tera Blast|p2a: Primarina
+|-damage|p2a: Primarina|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Primarina|4/100|[from] Sandstorm
+|-damage|p1b: Porygon2|10/100|[from] Sandstorm
+|-heal|p2a: Primarina|10/100|[from] Grassy Terrain
+|-heal|p1b: Porygon2|17/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756652677
+|switch|p2b: Delphox|Delphox, L50, F|100/100
+|turn|7
+|
+|t:|1756652691
+|-terastallize|p2b: Delphox|Psychic
+|move|p2b: Delphox|Dazzling Gleam|p1b: Porygon2|[spread] p1a,p1b
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|62/100
+|-damage|p1b: Porygon2|0 fnt
+|faint|p1b: Porygon2
+|move|p1a: Tyranitar|Rock Slide|p2b: Delphox|[spread] p2a,p2b
+|-damage|p2a: Primarina|0 fnt
+|-damage|p2b: Delphox|56/100
+|faint|p2a: Primarina
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Delphox|50/100|[from] Sandstorm
+|-heal|p2b: Delphox|56/100|[from] Grassy Terrain
+|-heal|p1a: Tyranitar|68/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756652695
+|switch|p1b: Gholdengo|Gholdengo, L50|29/100
+|turn|8
+|
+|t:|1756652705
+|move|p1b: Gholdengo|Shadow Ball|p2b: Delphox
+|-supereffective|p2b: Delphox
+|-damage|p2b: Delphox|0 fnt
+|faint|p2b: Delphox
+|
+|win|Lacossg

@@ -1,0 +1,200 @@
+|j|☆Interceptor555
+|j|☆Shadow of metrunui
+|html|Interceptor555Shadow of metrunui    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756682970
+|gametype|doubles
+|player|p1|Interceptor555|steven|
+|player|p2|Shadow of metrunui|170|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Sceptile, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Beartic, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Hydreigon, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Mienshao, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Dragonite||WeaknessPolicy|InnerFocus|ExtremeSpeed,IceSpinner,Protect,Tailwind|||F|||50|,,,,,Normal]Sceptile||FocusSash|Unburden|DragonCheer,UpperHand,Acrobatics,Protect|||M|||50|,,,,,Flying]Archaludon||AssaultVest|Stamina|BodyPress,DracoMeteor,ElectroShot,FlashCannon|||F|||50|,,,,,Stellar]Pelipper||SafetyGoggles|Drizzle|Hurricane,WeatherBall,WideGuard,Uturn|||M|||50|,,,,,Ground]Beartic||ClearAmulet|SwiftSwim|CloseCombat,Liquidation,IcicleCrash,Protect|||F|||50|,,,,,Water]Farigiraf||Leftovers|ArmorTail|PsychicNoise,Protect,TrickRoom,Imprison|||M|||50|,,,,,Dark
+|showteam|p2|Whimsicott||CovertCloak|Prankster|Tailwind,Taunt,Moonblast,Encore|||M|||50|,,,,,Ghost]Hydreigon||SafetyGoggles|Levitate|DragonPulse,Snarl,Protect,HeatWave|||F|||50|,,,,,Steel]Garchomp||LifeOrb|RoughSkin|Earthquake,StompingTantrum,Protect,DragonClaw|||F|||50|,,,,,Grass]Mienshao||FocusSash|InnerFocus|CloseCombat,FakeOut,IceSpinner,Protect|||M|||50|,,,,,Grass]Incineroar||RockyHelmet|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Gholdengo||MetalCoat|GoodasGold|MakeItRain,Protect,ShadowBall,NastyPlot||||||50|,,,,,Steel
+|
+|t:|1756683022
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|switch|p2a: Mienshao|Mienshao, L50, M|100/100
+|switch|p2b: Hydreigon|Hydreigon, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1756683080
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|-terastallize|p2b: Hydreigon|Steel
+|-terastallize|p1b: Archaludon|Stellar
+|move|p2a: Mienshao|Ice Spinner|p1a: Farigiraf
+|-damage|p1a: Farigiraf|75/100
+|move|p2b: Hydreigon|Heat Wave|p1a: Farigiraf|[spread] p1a
+|-miss|p2b: Hydreigon|p1b: Archaludon
+|-damage|p1a: Farigiraf|65/100
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Mienshao
+|-enditem|p2a: Mienshao|Focus Sash
+|-damage|p2a: Mienshao|1/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Farigiraf|71/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1756683127
+|move|p2a: Mienshao|Close Combat|p1b: Archaludon
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|14/100
+|-unboost|p2a: Mienshao|def|1
+|-unboost|p2a: Mienshao|spd|1
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p2b: Hydreigon|Snarl|p1b: Archaludon|[spread] p1a,p1b
+|-supereffective|p1a: Farigiraf
+|-damage|p1a: Farigiraf|38/100
+|-damage|p1b: Archaludon|2/100
+|-unboost|p1a: Farigiraf|spa|1
+|-unboost|p1b: Archaludon|spa|1
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p1b: Archaludon|Draco Meteor|p2b: Hydreigon
+|-resisted|p2b: Hydreigon
+|-damage|p2b: Hydreigon|55/100
+|-unboost|p1b: Archaludon|spa|2
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Farigiraf|45/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1756683158
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Farigiraf|atk|1
+|-unboost|p1b: Archaludon|atk|1
+|move|p2b: Hydreigon|Protect|p2b: Hydreigon
+|-singleturn|p2b: Hydreigon|Protect
+|move|p1a: Farigiraf|Psychic Noise|p2a: Incineroar
+|-immune|p2a: Incineroar
+|move|p1b: Archaludon|Body Press|p2b: Hydreigon
+|-activate|p2b: Hydreigon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Farigiraf|51/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1756683198
+|switch|p1a: Sceptile|Sceptile, L50, M|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|move|p2a: Incineroar|Knock Off|p1a: Sceptile
+|-damage|p1a: Sceptile|24/100
+|-enditem|p1a: Sceptile|Focus Sash|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1b: Archaludon|Body Press|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p1b: Archaludon|0 fnt|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|faint|p2a: Incineroar
+|faint|p1b: Archaludon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756683223
+|switch|p2a: Hydreigon|Hydreigon, L50, F, tera:Steel|55/100
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100
+|turn|5
+|
+|t:|1756683252
+|move|p2a: Hydreigon|Protect|p2a: Hydreigon
+|-singleturn|p2a: Hydreigon|Protect
+|move|p1b: Pelipper|Wide Guard|p1b: Pelipper
+|-singleturn|p1b: Pelipper|Wide Guard
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p1a: Sceptile|Dragon Cheer|p1b: Pelipper
+|-start|p1b: Pelipper|move: Dragon Cheer
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1756683286
+|move|p1a: Sceptile|Protect|p1a: Sceptile
+|-singleturn|p1a: Sceptile|Protect
+|move|p1b: Pelipper|Hurricane|p2b: Gholdengo
+|-resisted|p2b: Gholdengo
+|-damage|p2b: Gholdengo|77/100
+|move|p2b: Gholdengo|Shadow Ball|p1a: Sceptile
+|-activate|p1a: Sceptile|move: Protect
+|move|p2a: Hydreigon|Dragon Pulse|p1b: Pelipper
+|-damage|p1b: Pelipper|46/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1756683322
+|switch|p1b: Farigiraf|Farigiraf, L50, M|51/100
+|move|p1a: Sceptile|Acrobatics|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|38/100
+|move|p2a: Hydreigon|Dragon Pulse|p1b: Farigiraf
+|-damage|p1b: Farigiraf|18/100
+|move|p2b: Gholdengo|Shadow Ball|p1a: Sceptile
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|
+|-heal|p1b: Farigiraf|24/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756683334
+|switch|p1a: Pelipper|Pelipper, L50, M|46/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|8
+|
+|t:|1756683358
+|move|p2a: Hydreigon|Dragon Pulse|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p1b: Farigiraf|Psychic Noise|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|21/100
+|-start|p2a: Hydreigon|move: Heal Block
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Farigiraf|30/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1756683374
+|move|p2a: Hydreigon|Snarl|p1b: Farigiraf
+|-supereffective|p1b: Farigiraf
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|
+|win|Shadow of metrunui
+||Interceptor555 is ready for game 2.
+|inactive|Shadow of metrunui has 30 seconds to confirm battle start!

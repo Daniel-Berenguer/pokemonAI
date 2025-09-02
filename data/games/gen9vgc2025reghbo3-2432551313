@@ -1,0 +1,183 @@
+|j|☆tedidn
+|j|☆The median voter
+|html|tedidnThe median voter    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756672750
+|gametype|doubles
+|player|p1|tedidn|marshal|1286
+|player|p2|The median voter|scientist-gen4dp|1252
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, M|
+|teampreview|4
+|showteam|p1|Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||M|||50|,,,,,Normal]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,FakeOut,Uturn|||M|||50|,,,,,Fire]Sneasler||FocusSash|Unburden|CloseCombat,Coaching,DireClaw,FakeOut|||F|||50|,,,,,Stellar]Volcarona||GrassySeed|FlameBody|Flamethrower,QuiverDance,GigaDrain,Protect|||M|||50|,,,,,Grass]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,Taunt,FollowMe,Protect|||M|||50|,,,,,Ghost]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,SkillSwap|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||M|||50|,,,,,Grass]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||F|||50|,,,,,Fire]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|IronHead,Protect,Earthquake,HighHorsepower|||M|||50|,,,,,Ground
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tedidn)
+|
+|t:|1756672771
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Douglass|Dragonite, L50, M|100/100
+|switch|p1b: Michael|Electabuzz, L50, M|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756672789
+|-terastallize|p1b: Michael|Ghost
+|move|p1b: Michael|Follow Me|p1b: Michael
+|-singleturn|p1b: Michael|move: Follow Me
+|move|p2a: Sneasler|Dire Claw|p1b: Michael
+|-resisted|p1b: Michael
+|-damage|p1b: Michael|85/100
+|move|p2b: Indeedee|Trick|p1b: Michael
+|-activate|p2b: Indeedee|move: Trick|[of] p1b: Michael
+|-item|p1b: Michael|Choice Scarf|[from] move: Trick
+|-item|p2b: Indeedee|Eviolite|[from] move: Trick
+|move|p1a: Douglass|Scale Shot|p2b: Indeedee
+|-damage|p2b: Indeedee|69/100
+|-damage|p2b: Indeedee|40/100
+|-damage|p2b: Indeedee|7/100
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|-hitcount|p2: Indeedee|4
+|-unboost|p1a: Douglass|def|1
+|-boost|p1a: Douglass|spe|1
+|
+|upkeep
+|
+|t:|1756672799
+|switch|p2b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|turn|2
+|
+|t:|1756672812
+|switch|p1b: Harambe|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Harambe
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1a: Douglass|Protect|p1a: Douglass
+|-singleturn|p1a: Douglass|Protect
+|move|p2b: Tyranitar|Rock Slide|p1a: Douglass|[spread] p1b
+|-activate|p1a: Douglass|move: Protect
+|-crit|p1b: Harambe
+|-damage|p1b: Harambe|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sneasler|95/100|[from] Sandstorm
+|-damage|p1a: Douglass|95/100|[from] Sandstorm
+|-damage|p1b: Harambe|40/100|[from] Sandstorm
+|-heal|p2a: Sneasler|100/100|[from] Grassy Terrain
+|-heal|p1b: Harambe|46/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756672824
+|move|p1b: Harambe|Fake Out|p2b: Tyranitar
+|-resisted|p2b: Tyranitar
+|-damage|p2b: Tyranitar|94/100
+|move|p2a: Sneasler|Dire Claw|p1b: Harambe
+|-supereffective|p1b: Harambe
+|-damage|p1b: Harambe|0 fnt
+|faint|p1b: Harambe
+|move|p1a: Douglass|Scale Shot|p2a: Sneasler
+|-damage|p2a: Sneasler|75/100
+|-damage|p2a: Sneasler|50/100
+|-damage|p2a: Sneasler|26/100
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|-hitcount|p2: Sneasler|4
+|-unboost|p1a: Douglass|def|1
+|-boost|p1a: Douglass|spe|1
+|cant|p2b: Tyranitar|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Douglass|89/100|[from] Sandstorm
+|-heal|p2b: Tyranitar|99/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756672830
+|switch|p2a: Excadrill|Excadrill, L50, M|100/100
+|switch|p1b: Michael|Electabuzz, L50, M, tera:Ghost|85/100
+|turn|4
+|
+|t:|1756672845
+|move|p1b: Michael|Follow Me|p1b: Michael
+|-singleturn|p1b: Michael|move: Follow Me
+|move|p2a: Excadrill|Iron Head|p1b: Michael
+|-damage|p1b: Michael|33/100
+|move|p1a: Douglass|Scale Shot|p2b: Tyranitar
+|-crit|p2b: Tyranitar
+|-damage|p2b: Tyranitar|81/100
+|-damage|p2b: Tyranitar|68/100
+|-crit|p2b: Tyranitar
+|-damage|p2b: Tyranitar|47/100
+|-damage|p2b: Tyranitar|34/100
+|-damage|p2b: Tyranitar|21/100
+|-hitcount|p2b: Tyranitar|5
+|-unboost|p1a: Douglass|def|1
+|-boost|p1a: Douglass|spe|1
+|move|p2b: Tyranitar|Knock Off|p1b: Michael
+|-supereffective|p1b: Michael
+|-damage|p1b: Michael|0 fnt
+|-enditem|p1b: Michael|Choice Scarf|[from] move: Knock Off|[of] p2b: Tyranitar
+|faint|p1b: Michael
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Douglass|83/100|[from] Sandstorm
+|-heal|p2b: Tyranitar|27/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756672853
+|switch|p1b: Tokugawa|Kingambit, L50, M|100/100
+|turn|5
+|inactive|The median voter has 30 seconds left.
+|
+|t:|1756672878
+|move|p1a: Douglass|Scale Shot|p2b: Tyranitar
+|-damage|p2b: Tyranitar|14/100
+|-damage|p2b: Tyranitar|0 fnt
+|faint|p2b: Tyranitar
+|-hitcount|p2: Tyranitar|2
+|-unboost|p1a: Douglass|def|1
+|-boost|p1a: Douglass|spe|1
+|move|p2a: Excadrill|Iron Head|p1a: Douglass
+|-damage|p1a: Douglass|0 fnt
+|faint|p1a: Douglass
+|move|p1b: Tokugawa|Swords Dance|p1b: Tokugawa
+|-boost|p1b: Tokugawa|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1756672889
+|-terastallize|p2a: Excadrill|Ground
+|move|p2a: Excadrill|High Horsepower|p1b: Tokugawa
+|-supereffective|p1b: Tokugawa
+|-damage|p1b: Tokugawa|0 fnt
+|faint|p1b: Tokugawa
+|
+|win|The median voter
+||tedidn is ready for game 2.
+||The median voter is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

@@ -1,0 +1,179 @@
+|j|☆Pickle315
+|j|☆shalewell
+|html|Pickle315shalewell    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756770664
+|gametype|doubles
+|player|p1|Pickle315|hilbert|1099
+|player|p2|shalewell|265|1020
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Dragapult, L50, F|
+|poke|p2|Weezing-Galar, L50, M|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Decidueye-Hisui, L50, M|
+|poke|p2|Kilowattrel, L50, F|
+|teampreview|4
+|showteam|p1|Torkoal||SafetyGoggles|Drought|BodyPress,HeatWave,HelpingHand,WillOWisp|||F|||50|,,,,,Fighting]Amoonguss||RockyHelmet|Regenerator|PollenPuff,RagePowder,Spore,Synthesis|||F|||50|,,,,,Water]Charizard||LifeOrb|SolarPower|TeraBlast,HeatWave,Protect,SolarBeam|||F|||50|,,,,,Flying]Kingambit||AssaultVest|Defiant|KowtowCleave,IronHead,SuckerPunch,BrickBreak|||M|||50|,,,,,Ghost]Rillaboom||SitrusBerry|GrassySurge|HighHorsepower,GrassyGlide,SolarBlade,FakeOut|||F|||50|,,,,,Electric]Dragapult||FocusSash|ClearBody|SunnyDay,Protect,DracoMeteor,Thunderbolt|||F|||50|,,,,,Dragon
+|showteam|p2|Weezing-Galar||FocusSash|NeutralizingGas|StrangeSteam,SludgeBomb,Protect,WillOWisp|||M|||50|,,,,,Flying]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,SuckerPunch,Uturn|||F|||50|,,,,,Dragon]Decidueye-Hisui||AbilityShield|Scrappy|TripleArrows,LeafBlade,Protect,Uturn|||M|||50|,,,,,Fire]Kilowattrel||CovertCloak|Competitive|Thunderbolt,AirSlash,Protect,Tailwind|||F|||50|,,,,,Steel
+|
+|t:|1756770721
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p1b: Dragapult|Dragapult, L50, F|100/100
+|switch|p2a: Kilowattrel|Kilowattrel, L50, F, shiny|100/100
+|switch|p2b: Weezing|Weezing-Galar, L50, M|100/100
+|-ability|p2b: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1756770757
+|move|p2a: Kilowattrel|Tailwind|p2a: Kilowattrel
+|-sidestart|p2: shalewell|move: Tailwind
+|move|p1b: Dragapult|Sunny Day|p1b: Dragapult
+|-weather|SunnyDay
+|move|p2b: Weezing|Will-O-Wisp|p1b: Dragapult
+|-status|p1b: Dragapult|brn
+|move|p1a: Amoonguss|Spore|p2a: Kilowattrel
+|-status|p2a: Kilowattrel|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Dragapult|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1756770800
+|switch|p1b: Charizard|Charizard, L50, F|100/100
+|cant|p2a: Kilowattrel|slp
+|move|p2b: Weezing|Sludge Bomb|p1a: Amoonguss
+|-damage|p1a: Amoonguss|82/100
+|move|p1a: Amoonguss|Spore|p2b: Weezing
+|-status|p2b: Weezing|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756770817
+|cant|p2b: Weezing|slp
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|-curestatus|p2a: Kilowattrel|slp|[msg]
+|move|p2a: Kilowattrel|Thunderbolt|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|69/100
+|move|p1b: Charizard|Heat Wave|p2a: Kilowattrel|[spread] p2a,p2b
+|-damage|p2a: Kilowattrel|0 fnt
+|-damage|p2b: Weezing|29/100 slp
+|faint|p2a: Kilowattrel
+|-damage|p1b: Charizard|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756770837
+|switch|p2a: Dragapult|Dragapult, L50, F|100/100
+|turn|4
+|
+|t:|1756770849
+|-terastallize|p2a: Dragapult|Dragon
+|cant|p2b: Weezing|slp
+|move|p2a: Dragapult|Dragon Darts|p1b: Charizard
+|-damage|p1b: Charizard|8/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Amoonguss
+|-damage|p1a: Amoonguss|15/100
+|move|p1b: Charizard|Heat Wave|p2b: Weezing|[spread] p2a,p2b
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|59/100
+|-damage|p2b: Weezing|0 fnt
+|faint|p2b: Weezing
+|-end|p2b: Weezing|ability: Neutralizing Gas
+|-damage|p1b: Charizard|0 fnt|[from] item: Life Orb
+|faint|p1b: Charizard
+|move|p1a: Amoonguss|Spore|p2a: Dragapult
+|-status|p2a: Dragapult|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: shalewell|move: Tailwind
+|upkeep
+|
+|t:|1756770866
+|switch|p1b: Dragapult|Dragapult, L50, F|94/100 brn
+|switch|p2b: Decidueye|Decidueye-Hisui, L50, M|100/100
+|turn|5
+|
+|t:|1756770882
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|cant|p2a: Dragapult|slp
+|move|p1b: Dragapult|Draco Meteor|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-unboost|p1b: Dragapult|spa|2
+|faint|p2a: Dragapult
+|move|p2b: Decidueye|U-turn|p1a: Kingambit
+|-damage|p1a: Kingambit|85/100
+|
+|-weather|none
+|-damage|p1b: Dragapult|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1756770900
+|switch|p1b: Amoonguss|Amoonguss, L50, F|48/100
+|-terastallize|p1a: Kingambit|Ghost
+|move|p2b: Decidueye|Triple Arrows|p1a: Kingambit
+|-damage|p1a: Kingambit|54/100
+|cant|p1a: Kingambit|flinch
+|
+|upkeep
+|turn|7
+|
+|t:|1756770932
+|switch|p1b: Dragapult|Dragapult, L50, F|88/100 brn
+|move|p2b: Decidueye|U-turn|p1b: Dragapult
+|-resisted|p1b: Dragapult
+|-damage|p1b: Dragapult|77/100 brn
+|move|p1a: Kingambit|Iron Head|p2b: Decidueye
+|-damage|p2b: Decidueye|58/100
+|
+|-damage|p1b: Dragapult|71/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1756770957
+|move|p2b: Decidueye|Protect|p2b: Decidueye
+|-singleturn|p2b: Decidueye|Protect
+|move|p1b: Dragapult|Draco Meteor|p2b: Decidueye
+|-activate|p2b: Decidueye|move: Protect
+|move|p1a: Kingambit|Iron Head|p2b: Decidueye
+|-activate|p2b: Decidueye|move: Protect
+|
+|-damage|p1b: Dragapult|65/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1756770970
+|move|p1b: Dragapult|Draco Meteor|p2b: Decidueye
+|-damage|p2b: Decidueye|13/100
+|-unboost|p1b: Dragapult|spa|2
+|move|p2b: Decidueye|Leaf Blade|p1a: Kingambit
+|-damage|p1a: Kingambit|26/100
+|move|p1a: Kingambit|Iron Head|p2b: Decidueye
+|-damage|p2b: Decidueye|0 fnt
+|faint|p2b: Decidueye
+|
+|win|Pickle315
+||Pickle315 is ready for game 2.
+|inactive|shalewell has 30 seconds to confirm battle start!
+||shalewell is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

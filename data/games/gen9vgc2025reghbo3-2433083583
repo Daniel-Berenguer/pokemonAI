@@ -1,0 +1,254 @@
+|j|☆EllaNoDejoDeCreer
+|j|☆Zero_BlazeVGC
+|html|EllaNoDejoDeCreerZero_BlazeVGC    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756745313
+|gametype|doubles
+|player|p1|EllaNoDejoDeCreer|265|1209
+|player|p2|Zero_BlazeVGC|flint|1301
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Armarouge, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Psychic]Torkoal||Charcoal|Drought|Eruption,WeatherBall,EarthPower,Protect|||M|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,CloseCombat,SleepPowder,AfterYou|||F|||50|,,,,,Ghost]Armarouge||PowerHerb|FlashFire|ExpandingForce,ArmorCannon,MeteorBeam,TrickRoom|||F|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Substitute,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Gholdengo||LifeOrb|GoodasGold|Protect,NastyPlot,MakeItRain,ShadowBall||||||50|,,,,,Water]Pelipper||FocusSash|Drizzle|Protect,Tailwind,MuddyWater,Hurricane|||M|||50|,,,,,Stellar]Basculegion||ChoiceBand|SwiftSwim|AquaJet,WaveCrash,FlipTurn,LastRespects|||M|||50|,,,,,Fairy]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||F|||50|,,,,,Fairy]Archaludon||AssaultVest|Stamina|ElectroShot,Snarl,FlashCannon,BodyPress|||M|||50|,,,,,Bug]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Taunt|||M|||50|,,,,,Ghost
+|
+|t:|1756745378
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Armarouge|Armarouge, L50, F|100/100
+|switch|p2a: Metalman|Archaludon, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Armarouge|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756745403
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Metalman|Snarl|p1b: Armarouge|[spread] p1b
+|-miss|p2a: Metalman|p1a: Indeedee
+|-supereffective|p1b: Armarouge
+|-crit|p1b: Armarouge
+|-damage|p1b: Armarouge|56/100
+|-unboost|p1b: Armarouge|spa|1
+|move|p2b: Incineroar|Taunt|p1a: Indeedee
+|-start|p1a: Indeedee|move: Taunt
+|move|p1b: Armarouge|Trick Room|p1b: Armarouge
+|-fieldstart|move: Trick Room|[of] p1b: Armarouge
+|
+|upkeep
+|turn|2
+|
+|t:|1756745442
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|move|p2b: Incineroar|Knock Off|p1b: Torkoal
+|-damage|p1b: Torkoal|70/100
+|-enditem|p1b: Torkoal|Charcoal|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p2a: Metalman|Snarl|p1b: Torkoal|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|91/100
+|-damage|p1b: Torkoal|55/100
+|-unboost|p1a: Ursaluna|spa|1
+|-unboost|p1b: Torkoal|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1756745489
+|switch|p1b: Armarouge|Armarouge, L50, F|56/100
+|switch|p2a: Berry Delite|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Berry Delite
+|move|p1a: Ursaluna|Headlong Rush|p2a: Berry Delite
+|-immune|p2a: Berry Delite
+|move|p2b: Incineroar|Knock Off|p1a: Ursaluna
+|-damage|p1a: Ursaluna|60/100 brn
+|-enditem|p1a: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|54/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1756745536
+|switch|p2a: Omega|Gholdengo, L50|100/100
+|-terastallize|p1b: Armarouge|Grass
+|move|p1a: Ursaluna|Headlong Rush|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2b: Incineroar
+|move|p1b: Armarouge|Meteor Beam||[still]
+|-prepare|p1b: Armarouge|Meteor Beam
+|-boost|p1b: Armarouge|spa|1
+|-enditem|p1b: Armarouge|Power Herb
+|-anim|p1b: Armarouge|Meteor Beam|p2a: Omega|[miss]
+|-miss|p1b: Armarouge|p2a: Omega
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|48/100 brn|[from] brn
+|upkeep
+|
+|t:|1756745564
+|switch|p2b: Berry Delite|Pelipper, L50, M|100/100
+|turn|5
+|
+|t:|1756745605
+|switch|p2b: Metalman|Archaludon, L50, M|100/100
+|move|p2a: Omega|Protect|p2a: Omega
+|-singleturn|p2a: Omega|Protect
+|move|p1a: Ursaluna|Substitute|p1a: Ursaluna
+|-start|p1a: Ursaluna|Substitute
+|-damage|p1a: Ursaluna|23/100 brn
+|move|p1b: Armarouge|Expanding Force|p2b: Metalman|[spread] p2b
+|-activate|p2a: Omega|move: Protect
+|-resisted|p2b: Metalman
+|-damage|p2b: Metalman|60/100
+|-ability|p2b: Metalman|Stamina|boost
+|-boost|p2b: Metalman|def|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|18/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756745631
+|move|p2b: Metalman|Snarl|p1a: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|4/100 brn
+|-damage|p1b: Armarouge|43/100
+|-unboost|p1a: Ursaluna|spa|1
+|-unboost|p1b: Armarouge|spa|1
+|move|p2a: Omega|Make It Rain|p1a: Ursaluna|[spread] p1a,p1b
+|-end|p1a: Ursaluna|Substitute
+|-damage|p1b: Armarouge|0 fnt
+|-unboost|p2a: Omega|spa|1
+|faint|p1b: Armarouge
+|-damage|p2a: Omega|91/100|[from] item: Life Orb
+|move|p1a: Ursaluna|Headlong Rush|p2b: Metalman
+|-supereffective|p2b: Metalman
+|-damage|p2b: Metalman|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2b: Metalman
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|0 fnt|[from] brn
+|faint|p1a: Ursaluna
+|upkeep
+|
+|t:|1756745651
+|switch|p2b: Berry Delite|Pelipper, L50, M|100/100
+|switch|p1b: Torkoal|Torkoal, L50, M|55/100
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|7
+|
+|t:|1756745668
+|-terastallize|p2a: Omega|Water
+|move|p1b: Torkoal|Protect|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Protect
+|move|p2a: Omega|Make It Rain|p1b: Torkoal|[spread] p1a
+|-activate|p1b: Torkoal|move: Protect
+|-damage|p1a: Indeedee|62/100
+|-unboost|p2a: Omega|spa|1
+|-damage|p2a: Omega|81/100|[from] item: Life Orb
+|move|p2b: Berry Delite|Muddy Water|p1a: Indeedee|[spread] p1a
+|-activate|p1b: Torkoal|move: Protect
+|-damage|p1a: Indeedee|49/100
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1756745711
+|move|p2b: Berry Delite|Protect|p2b: Berry Delite
+|-singleturn|p2b: Berry Delite|Protect
+|move|p2a: Omega|Protect|p2a: Omega
+|-singleturn|p2a: Omega|Protect
+|move|p1b: Torkoal|Eruption|p2b: Berry Delite|[spread] 
+|-activate|p2a: Omega|move: Protect
+|-activate|p2b: Berry Delite|move: Protect
+|move|p1a: Indeedee|Psychic|p2b: Berry Delite
+|-activate|p2b: Berry Delite|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1756745736
+|move|p1b: Torkoal|Eruption|p2b: Berry Delite|[spread] p2a,p2b
+|-resisted|p2a: Omega
+|-resisted|p2b: Berry Delite
+|-damage|p2a: Omega|57/100
+|-damage|p2b: Berry Delite|63/100
+|move|p1a: Indeedee|Psychic|p2b: Berry Delite
+|-damage|p2b: Berry Delite|0 fnt
+|faint|p2b: Berry Delite
+|move|p2a: Omega|Make It Rain|p1a: Indeedee|[spread] p1a,p1b
+|-resisted|p1b: Torkoal
+|-damage|p1a: Indeedee|23/100
+|-damage|p1b: Torkoal|34/100
+|-unboost|p2a: Omega|spa|1
+|-damage|p2a: Omega|47/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1756745757
+|move|p2a: Omega|Protect|p2a: Omega
+|-singleturn|p2a: Omega|Protect
+|move|p1b: Torkoal|Weather Ball|p2a: Omega
+|-activate|p2a: Omega|move: Protect
+|move|p1a: Indeedee|Psychic|p2a: Omega
+|-activate|p2a: Omega|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1756745768
+|move|p1b: Torkoal|Weather Ball|p2a: Omega
+|-resisted|p2a: Omega
+|-damage|p2a: Omega|8/100
+|move|p1a: Indeedee|Psychic|p2a: Omega
+|-damage|p2a: Omega|0 fnt
+|faint|p2a: Omega
+|
+|win|EllaNoDejoDeCreer
+||EllaNoDejoDeCreer is ready for game 2.
+|inactive|Zero_BlazeVGC has 30 seconds to confirm battle start!
+||Zero_BlazeVGC is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆EllaNoDejoDeCreer
+|player|p1|

@@ -1,0 +1,130 @@
+|j|☆okkoso
+|j|☆Strom spriggan
+|html|okkosoStrom spriggan    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756650832
+|gametype|doubles
+|player|p1|okkoso|waiter-gen4dp|1085
+|player|p2|Strom spriggan|lacey|1013
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Baxcalibur, L50, F|
+|poke|p2|Gallade, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||RockyHelmet|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Armarouge||PowerHerb|FlashFire|ExpandingForce,ArmorCannon,MeteorBeam,TrickRoom|||M|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HeatWave,Protect|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Substitute,Protect|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Psychic]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,CloseCombat,SleepPowder,AfterYou|||F|||50|,,,,,Ghost
+|showteam|p2|Gholdengo||SitrusBerry|GoodasGold|ShadowBall,MakeItRain,NastyPlot,TeraBlast||||||50|,,,,,Water]Incineroar||CovertCloak|Intimidate|FlareBlitz,FakeOut,KnockOff,Uturn|||F|||50|,,,,,Ghost]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,Protect,EarthPower,HyperVoice|||M|||50|,,,,,Normal]Porygon2||Eviolite|Download|TeraBlast,Recover,TrickRoom,ShadowBall||||||50|,,,,,Normal]Baxcalibur||LoadedDice|ThermalExchange|IcicleSpear,ScaleShot,GlaiveRush,Protect|||F|||50|,,,,,Fire]Gallade||ChoiceScarf|Sharpness|PsychoCut,AquaCutter,SacredSword,NightSlash|||M|||50|,,,,,Psychic
+|
+|t:|1756650898
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Armarouge|Armarouge, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Armarouge|atk|1
+|turn|1
+|
+|t:|1756650924
+|-terastallize|p2a: Incineroar|Ghost
+|move|p1a: Indeedee|Helping Hand|p1b: Armarouge
+|-singleturn|p1b: Armarouge|Helping Hand|[of] p1a: Indeedee
+|move|p2b: Gholdengo|Shadow Ball|p1a: Indeedee
+|-immune|p1a: Indeedee
+|move|p2a: Incineroar|Knock Off|p1b: Armarouge
+|-supereffective|p1b: Armarouge
+|-damage|p1b: Armarouge|4/100
+|-enditem|p1b: Armarouge|Power Herb|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1b: Armarouge|Meteor Beam||[still]
+|-prepare|p1b: Armarouge|Meteor Beam
+|-boost|p1b: Armarouge|spa|1
+|
+|upkeep
+|turn|2
+|
+|t:|1756650958
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p2a: Incineroar|U-turn|p1b: Armarouge
+|-damage|p1b: Armarouge|0 fnt
+|faint|p1b: Armarouge
+|
+|t:|1756650966
+|switch|p2a: Gallade|Gallade, L50, M|100/100|[from] U-turn
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|
+|t:|1756650969
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|3
+|
+|t:|1756651013
+|switch|p2b: Incineroar|Incineroar, L50, F, tera:Ghost|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|-terastallize|p1b: Torkoal|Fire
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Torkoal|Eruption|p2b: Incineroar|[spread] p2a,p2b
+|-crit|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2a: Gallade
+|faint|p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756651024
+|switch|p2b: Baxcalibur|Baxcalibur, L50, F|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|turn|4
+|
+|t:|1756651038
+|move|p2b: Baxcalibur|Protect|p2b: Baxcalibur
+|-singleturn|p2b: Baxcalibur|Protect
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Torkoal|Eruption|p2b: Baxcalibur|[spread] p2a
+|-activate|p2b: Baxcalibur|move: Protect
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1756651050
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Torkoal|Eruption|p2b: Baxcalibur
+|-damage|p2b: Baxcalibur|0 fnt
+|faint|p2b: Baxcalibur
+|
+|win|okkoso
+||Strom spriggan is ready for game 2.
+|inactive|okkoso has 30 seconds to confirm battle start!
+||okkoso is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

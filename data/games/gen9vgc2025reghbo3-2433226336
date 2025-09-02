@@ -1,0 +1,156 @@
+|j|☆ErTest25
+|j|☆BoloinaBox
+|html|ErTest25BoloinaBox    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756759799
+|gametype|doubles
+|player|p1|ErTest25|infielder|1147
+|player|p2|BoloinaBox|101|1084
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Abomasnow, L50, M|
+|poke|p2|Murkrow, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Sneasler, L50, F|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|FlashCannon,ElectroShot,BodyPress,Snarl|||M|||50|,,,,,Fighting]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,PowerGem,Trick||||||50|,,,,,Flying]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Water]Pelipper||SafetyGoggles|Drizzle|MuddyWater,Hurricane,Tailwind,Protect|||F|||50|,,,,,Steel]Sinistcha-Masterpiece||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom||||||50|,,,,,Dark]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy
+|showteam|p2|Abomasnow||AssaultVest|SnowWarning|LeafStorm,Blizzard,WeatherBall,EarthPower|||M|||50|,,,,,Fire]Murkrow||Eviolite|Prankster|FoulPlay,Haze,Tailwind,Protect|||F|||50|,,,,,Ghost]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,TrickRoom,Imprison|||M|||50|,,,,,Fighting]Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,SteelBeam,ShadowBall,Trick||||||50|,,,,,Steel]Basculegion||ChoiceScarf|Adaptability|AquaJet,WaveCrash,LastRespects,FlipTurn|||M|||50|,,,,,Grass]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BoloinaBox)
+|inactive|ErTest25 has 60 seconds left.
+|inactive|BoloinaBox has 60 seconds left.
+|inactive|BoloinaBox has 30 seconds left.
+|
+|t:|1756759859
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|inactive|ErTest25 has 30 seconds left.
+|inactive|BoloinaBox has 30 seconds left.
+|inactive|BoloinaBox has 20 seconds left.
+|
+|t:|1756759894
+|move|p2b: Sneasler|Close Combat|p1b: Archaludon
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|14/100
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p1a: Gholdengo|Trick|p2a: Indeedee
+|-activate|p1a: Gholdengo|move: Trick|[of] p2a: Indeedee
+|-item|p2a: Indeedee|Choice Scarf|[from] move: Trick
+|-item|p1a: Gholdengo|Focus Sash|[from] move: Trick
+|move|p1b: Archaludon|Snarl|p2b: Sneasler|[spread] p2a,p2b
+|-supereffective|p2a: Indeedee
+|-resisted|p2b: Sneasler
+|-damage|p2a: Indeedee|68/100
+|-damage|p2b: Sneasler|92/100
+|-unboost|p2a: Indeedee|spa|1
+|-unboost|p2b: Sneasler|spa|1
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|turn|2
+|inactive|ErTest25 has 30 seconds left.
+|inactive|BoloinaBox has 30 seconds left.
+|
+|t:|1756759925
+|switch|p2a: Murkrow|Murkrow, L50, F|100/100
+|move|p1b: Archaludon|Flash Cannon|p2b: Sneasler
+|-damage|p2b: Sneasler|47/100
+|move|p1a: Gholdengo|Make It Rain|p2b: Sneasler|[spread] p2a,p2b
+|-damage|p2a: Murkrow|46/100
+|-damage|p2b: Sneasler|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2b: Sneasler
+|
+|upkeep
+|
+|t:|1756759933
+|switch|p2b: Abomasnow|Abomasnow, L50, M, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Abomasnow
+|turn|3
+|inactive|ErTest25 has 30 seconds left.
+|inactive|BoloinaBox has 30 seconds left.
+|
+|t:|1756759962
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-terastallize|p2b: Abomasnow|Fire
+|move|p2b: Abomasnow|Blizzard|p1b: Archaludon|[spread] 
+|-miss|p2b: Abomasnow|p1a: Pelipper
+|-miss|p2b: Abomasnow|p1b: Archaludon
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Murkrow
+|-supereffective|p2a: Murkrow
+|-damage|p2a: Murkrow|0 fnt
+|faint|p2a: Murkrow
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756759974
+|switch|p2a: Indeedee|Indeedee, L50, M|68/100
+|turn|4
+|
+|t:|1756759984
+|move|p2b: Abomasnow|Blizzard|p1b: Archaludon|[spread] p1a,p1b
+|-damage|p1a: Pelipper|41/100
+|-damage|p1b: Archaludon|0 fnt
+|faint|p1b: Archaludon
+|move|p1a: Pelipper|Muddy Water|p2a: Indeedee|[spread] p2a,p2b
+|-supereffective|p2b: Abomasnow
+|-crit|p2b: Abomasnow
+|-damage|p2a: Indeedee|14/100
+|-damage|p2b: Abomasnow|16/100
+|move|p2a: Indeedee|Expanding Force|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756759992
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|turn|5
+|
+|t:|1756760006
+|-terastallize|p1b: Ursaluna|Water
+|move|p2b: Abomasnow|Earth Power|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|36/100
+|move|p1b: Ursaluna|Earthquake|p2b: Abomasnow|[spread] p1a,p2a,p2b
+|-supereffective|p1a: Gholdengo
+|-supereffective|p2b: Abomasnow
+|-damage|p1a: Gholdengo|0 fnt
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Abomasnow|0 fnt
+|faint|p1a: Gholdengo
+|faint|p2a: Indeedee
+|faint|p2b: Abomasnow
+|
+|win|ErTest25

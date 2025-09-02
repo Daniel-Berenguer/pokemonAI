@@ -1,0 +1,202 @@
+|j|☆FlareIsSolar
+|j|☆TISS 0'28
+|html|FlareIsSolarTISS 0'28    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756736343
+|gametype|doubles
+|player|p1|FlareIsSolar|volkner|1214
+|player|p2|TISS 0'28|hilbert|1101
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Excadrill, L50, F|
+|poke|p1|Kommo-o, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Arcanine-Hisui, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Altaria, L50, M|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|KnockOff,RockSlide,LowKick,TeraBlast|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|Earthquake,HighHorsepower,IronHead,Protect|||F|||50|,,,,,Ground]Kommo-o||ThroatSpray|Overcoat|ClangorousSoul,ClangingScales,AuraSphere,Protect|||F|||50|,,,,,Steel]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,AquaJet|||M|||50|,,,,,Grass]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||F|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|KnockOff,FlareBlitz,PartingShot,FakeOut|||F|||50|,,,,,Ghost
+|showteam|p2|Annihilape||MistySeed|Defiant|Protect,BulkUp,DrainPunch,RageFist|||M|||50|,,,,,Water]Ursaluna-Bloodmoon||LifeOrb|MindsEye|Protect,EarthPower,HyperVoice,BloodMoon|||M|||50|,,,,,Normal]Farigiraf||ThroatSpray|ArmorTail|Protect,TrickRoom,HyperVoice,Psychic|||M|||50|,,,,,Dragon]Arcanine-Hisui||ChoiceBand|Intimidate|FlareBlitz,RockSlide,ExtremeSpeed,WildCharge|||F|||50|,,,,,Grass]Whimsicott||CovertCloak|Prankster|Tailwind,MistyTerrain,Moonblast,Encore|||F|||50|,,,,,Fire]Altaria||SitrusBerry|CloudNine|Protect,Haze,Thief,HelpingHand|||M|||50|,,,,,Steel
+|
+|t:|1756736371
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Excadrill|Excadrill, L50, F|100/100
+|switch|p1b: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Arcanine|Arcanine-Hisui, L50, F|100/100
+|-ability|p2b: Arcanine|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|-unboost|p1b: Tyranitar|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|1
+|
+|t:|1756736401
+|switch|p2b: Altaria|Altaria, L50, M|100/100
+|-ability|p2b: Altaria|Cloud Nine
+|-terastallize|p1b: Tyranitar|Flying
+|move|p2a: Whimsicott|Moonblast|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|81/100
+|-unboost|p1a: Excadrill|spa|1
+|move|p1a: Excadrill|Earthquake|p2b: Altaria|[spread] p2a
+|-immune|p1b: Tyranitar
+|-immune|p2b: Altaria
+|-resisted|p2a: Whimsicott
+|-damage|p2a: Whimsicott|82/100
+|move|p1b: Tyranitar|Tera Blast|p2b: Altaria|[anim] Tera Blast Flying
+|-damage|p2b: Altaria|67/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756736431
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: TISS 0'28|move: Tailwind
+|move|p2b: Altaria|Thief|p1b: Tyranitar
+|-damage|p1b: Tyranitar|92/100
+|move|p1a: Excadrill|Iron Head|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|move|p1b: Tyranitar|Rock Slide|p2b: Altaria
+|-supereffective|p2b: Altaria
+|-damage|p2b: Altaria|2/100
+|-enditem|p2b: Altaria|Sitrus Berry|[eat]
+|-heal|p2b: Altaria|27/100|[from] item: Sitrus Berry
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1756736446
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|turn|3
+|
+|t:|1756736468
+|switch|p1a: Amoonguss|Amoonguss, L50, F|100/100
+|-terastallize|p2a: Annihilape|Water
+|move|p2a: Annihilape|Bulk Up|p2a: Annihilape
+|-boost|p2a: Annihilape|atk|1
+|-boost|p2a: Annihilape|def|1
+|move|p2b: Altaria|Thief|p1b: Tyranitar
+|-damage|p1b: Tyranitar|85/100
+|-enditem|p1b: Tyranitar|Assault Vest|[silent]|[from] move: Thief|[of] p2b: Altaria
+|-item|p2b: Altaria|Assault Vest|[from] move: Thief|[of] p1b: Tyranitar
+|move|p1b: Tyranitar|Tera Blast|p2a: Annihilape|[anim] Tera Blast Flying
+|-damage|p2a: Annihilape|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756736504
+|switch|p2b: Arcanine|Arcanine-Hisui, L50, F|100/100
+|-ability|p2b: Arcanine|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|-unboost|p1b: Tyranitar|atk|1
+|move|p2a: Annihilape|Protect|p2a: Annihilape
+|-singleturn|p2a: Annihilape|Protect
+|move|p1b: Tyranitar|Knock Off|p2a: Annihilape
+|-activate|p2a: Annihilape|move: Protect
+|move|p1a: Amoonguss|Spore|p2a: Annihilape
+|-activate|p2a: Annihilape|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Annihilape|72/100|[from] Sandstorm
+|-damage|p1b: Tyranitar|79/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|95/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1756736527
+|switch|p1b: Excadrill|Excadrill, L50, F|81/100
+|move|p1a: Amoonguss|Protect|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|Protect
+|move|p2a: Annihilape|Bulk Up|p2a: Annihilape
+|-boost|p2a: Annihilape|atk|1
+|-boost|p2a: Annihilape|def|1
+|move|p2b: Arcanine|Flare Blitz|p1a: Amoonguss
+|-activate|p1a: Amoonguss|move: Protect
+|
+|-weather|none
+|-sideend|p2: TISS 0'28|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1756736537
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p1b: Excadrill|Earthquake|p2b: Arcanine|[spread] p1a,p2a,p2b
+|-supereffective|p2b: Arcanine
+|-damage|p1a: Amoonguss|56/100
+|-damage|p2a: Annihilape|48/100
+|-damage|p2b: Arcanine|0 fnt
+|faint|p2b: Arcanine
+|move|p2a: Annihilape|Drain Punch|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|21/100
+|-heal|p2a: Annihilape|68/100|[from] drain|[of] p1a: Amoonguss
+|-enditem|p1a: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1a: Amoonguss|46/100|[from] item: Sitrus Berry
+|
+|upkeep
+|
+|t:|1756736547
+|switch|p2b: Altaria|Altaria, L50, M|27/100
+|-ability|p2b: Altaria|Cloud Nine
+|turn|7
+|
+|t:|1756736564
+|move|p1b: Excadrill|Protect|p1b: Excadrill
+|-singleturn|p1b: Excadrill|Protect
+|move|p2a: Annihilape|Rage Fist|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|move|p2b: Altaria|Thief|p1b: Excadrill
+|-activate|p1b: Excadrill|move: Protect
+|
+|upkeep
+|
+|t:|1756736570
+|switch|p1a: Tyranitar|Tyranitar, L50, M, tera:Flying|79/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|8
+|
+|t:|1756736597
+|move|p1b: Excadrill|Iron Head|p2b: Altaria
+|-damage|p2b: Altaria|0 fnt
+|faint|p2b: Altaria
+|move|p2a: Annihilape|Rage Fist|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Annihilape|62/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756736606
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|turn|9
+|
+|t:|1756736627
+|move|p1b: Excadrill|High Horsepower|p2a: Annihilape
+|-damage|p2a: Annihilape|32/100
+|move|p1a: Basculegion|Last Respects|p2a: Annihilape
+|-damage|p2a: Annihilape|0 fnt
+|faint|p2a: Annihilape
+|
+|win|FlareIsSolar
+|raw|FlareIsSolar's rating: 1214 → 1231(+17 for winning)
+|raw|TISS 0'28's rating: 1101 → 1084(-17 for losing)

@@ -1,0 +1,107 @@
+|j|☆bascisdozo
+|j|☆spellbreakvgc
+|html|bascisdozospellbreakvgc    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756715972
+|gametype|doubles
+|player|p1|bascisdozo|265|
+|player|p2|spellbreakvgc|lance|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Rillaboom||AssaultVest|GrassySurge|FakeOut,HighHorsepower,WoodHammer,GrassyGlide|||M|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ExtremeSpeed,ScaleShot,Protect,Haze|||F|||50|,,,,,Steel]Sneasler||FocusSash|PoisonTouch|DireClaw,CloseCombat,FakeOut,Coaching|||F|||50|,,,,,Stellar]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Dark]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,Taunt,FollowMe,Protect|||M|||50|,,,,,Ghost]Volcarona||Leftovers|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||M|||50|,,,,,Fairy
+|showteam|p2|Whimsicott||CovertCloak|Prankster|Tailwind,SunnyDay,Encore,Moonblast|||F|||50|,,,,,Steel]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,HeatWave,ShadowBall,Overheat|||M|||50|,,,,,Fire]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,SuckerPunch,Uturn|||F|||50|,,,,,Dragon]Electabuzz||Eviolite|VitalSpirit|VoltSwitch,FollowMe,Feint,Protect|||M|||50|,,,,,Ghost]Torkoal||LifeOrb|Drought|Eruption,HeatWave,WeatherBall,Protect|||F|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|CloseCombat,SleepPowder,AfterYou,LeafBlade|||F|||50|,,,,,Ghost
+|
+|t:|1756715983
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, F|100/100
+|switch|p1b: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p2a: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p2b: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|turn|1
+|
+|t:|1756715997
+|-terastallize|p2b: Typhlosion|Fire
+|move|p2a: Electabuzz|Volt Switch|p1a: Dragonite
+|-damage|p1a: Dragonite|89/100
+|
+|t:|1756716007
+|switch|p2a: Dragapult|Dragapult, L50, F|100/100|[from] Volt Switch
+|move|p2b: Typhlosion|Eruption|p1b: Electabuzz|[spread] p1a,p1b
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|35/100
+|-damage|p1b: Electabuzz|15/100
+|move|p1b: Electabuzz|Taunt|p2a: Dragapult
+|-start|p2a: Dragapult|move: Taunt
+|move|p1a: Dragonite|Scale Shot|p2b: Typhlosion
+|-crit|p2b: Typhlosion
+|-damage|p2b: Typhlosion|70/100
+|-damage|p2b: Typhlosion|48/100
+|-crit|p2b: Typhlosion
+|-damage|p2b: Typhlosion|15/100
+|-damage|p2b: Typhlosion|0 fnt
+|faint|p2b: Typhlosion
+|-hitcount|p2: Typhlosion|4
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|
+|t:|1756716025
+|switch|p2b: Whimsicott|Whimsicott, L50, F|100/100
+|turn|2
+|
+|t:|1756716060
+|switch|p1a: Kingambit|Kingambit, L50, F|100/100
+|switch|p1b: Volcarona|Volcarona, L50, M|100/100
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: spellbreakvgc|move: Tailwind
+|move|p2a: Dragapult|Dragon Darts|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|87/100
+|-anim|p2a: Dragapult|Dragon Darts|p1b: Volcarona
+|-damage|p1b: Volcarona|58/100
+|
+|-heal|p1b: Volcarona|64/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1756716095
+|-terastallize|p1a: Kingambit|Dark
+|move|p1a: Kingambit|Sucker Punch|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|move|p2b: Whimsicott|Moonblast|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|31/100
+|-unboost|p1a: Kingambit|spa|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|move|p1b: Volcarona|Quiver Dance|p1b: Volcarona
+|-boost|p1b: Volcarona|spa|1
+|-boost|p1b: Volcarona|spd|1
+|-boost|p1b: Volcarona|spe|1
+|
+|-heal|p1b: Volcarona|70/100|[from] item: Leftovers
+|upkeep
+|-message|spellbreakvgc forfeited.
+|
+|win|bascisdozo

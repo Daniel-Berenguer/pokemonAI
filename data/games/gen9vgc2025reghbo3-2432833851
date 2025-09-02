@@ -1,0 +1,96 @@
+|j|☆Llama_Llord
+|j|☆violetredlin
+|html|Llama_Llordvioletredlin    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756709883
+|gametype|doubles
+|player|p1|Llama_Llord|266|1102
+|player|p2|violetredlin|hilda-wonderlauncher|1115
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Meowscarada, L50, F|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Tatsugiri, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Maushold, L50|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+|showteam|p1|Meowscarada||FocusSash|Overgrow|GrassPledge,KnockOff,FlowerTrick,Protect|||F|||50|,,,,,Fairy]Primarina||LifeOrb|LiquidVoice|WaterPledge,HyperVoice,Moonblast,Protect|||F|||50|,,,,,Poison]Indeedee||SafetyGoggles|PsychicSurge|ExpandingForce,Imprison,TrickRoom,Protect|||M|||50|,,,,,Fire]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Stellar]Tatsugiri||AssaultVest|StormDrain|DracoMeteor,IcyWind,TeraBlast,Surf|||F|||50|,,,,,Ground]Kingambit||BlackGlasses|Defiant|KowtowCleave,IronHead,SuckerPunch,Protect|||M|||50|,,,,,Dark
+|showteam|p2|Maushold||WideLens|Technician|PopulationBomb,FollowMe,Taunt,BeatUp||||||50|,,,,,Ghost]Basculegion||ChoiceBand|SwiftSwim|FlipTurn,LastRespects,WaveCrash,PsychicFangs|||M|||50|,,,,,Water]Archaludon||AssaultVest|Stamina|DracoMeteor,ElectroShot,BodyPress,MeteorBeam|||M|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,WideGuard,Tailwind|||F|||50|,,,,,Water]Dragonite||LoadedDice|InnerFocus|ExtremeSpeed,ScaleShot,TeraBlast,Protect|||M|||50|,,,,,Normal]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||M|||50|,,,,,Water
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Llama_Llord)
+|
+|t:|1756709903
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|1
+|
+|t:|1756709921
+|switch|p1a: Tatsugiri|Tatsugiri, L50, F|100/100
+|move|p1b: Sneasler|Dire Claw|p2b: Pelipper
+|-damage|p2b: Pelipper|54/100
+|move|p2a: Basculegion|Flip Turn|p1a: Tatsugiri
+|-ability|p1a: Tatsugiri|Storm Drain|boost
+|-boost|p1a: Tatsugiri|spa|1
+|move|p2b: Pelipper|Hurricane|p1a: Tatsugiri
+|-damage|p1a: Tatsugiri|61/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756709939
+|-terastallize|p1a: Tatsugiri|Ground
+|move|p1b: Sneasler|Throat Chop|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-crit|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|move|p1a: Tatsugiri|Tera Blast|p2b: Pelipper|[anim] Tera Blast Ground
+|-immune|p2b: Pelipper
+|move|p2b: Pelipper|Hurricane|p1b: Sneasler
+|-supereffective|p1b: Sneasler
+|-damage|p1b: Sneasler|19/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756709961
+|switch|p2a: Dragonite|Dragonite, L50, M|100/100
+|turn|3
+|
+|t:|1756709982
+|-terastallize|p2a: Dragonite|Normal
+|move|p2a: Dragonite|Extreme Speed|p1b: Sneasler
+|-activate|p1b: Sneasler|move: Psychic Terrain
+|move|p1b: Sneasler|Dire Claw|p2b: Pelipper
+|-damage|p2b: Pelipper|8/100
+|move|p1a: Tatsugiri|Icy Wind|p2b: Pelipper|[spread] p2a,p2b
+|-damage|p2a: Dragonite|78/100
+|-damage|p2b: Pelipper|0 fnt
+|-unboost|p2a: Dragonite|spe|1
+|faint|p2b: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|violetredlin forfeited.
+|
+|win|Llama_Llord

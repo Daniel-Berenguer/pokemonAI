@@ -1,0 +1,158 @@
+|j|☆snailboss
+|j|☆Qwqwanan
+|html|snailbossQwqwanan    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756765249
+|gametype|doubles
+|player|p1|snailboss|hilda-wonderlauncher|1122
+|player|p2|Qwqwanan|fisherman-gen4|1105
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zoroark-Hisui, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Noivern, L50, M|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Electabuzz, L50, M|
+|teampreview|4
+|showteam|p1|Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,Flamethrower,ShadowBall,HyperBeam|||M|||50|,,,,,Normal]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|IronHead,Protect,SwordsDance,Earthquake|||M|||50|,,,,,Ground]Indeedee-F||SafetyGoggles|PsychicSurge|TrickRoom,FollowMe,Psychic,HelpingHand|||F|||50|,,,,,Water]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,WideGuard,SacredSword|||M|||50|,,,,,Grass]Noivern||CovertCloak|Telepathy|SuperFang,Tailwind,Taunt,DracoMeteor|||M|||50|,,,,,Fairy
+|showteam|p2|Typhlosion-Hisui||ChoiceSpecs|Blaze|FocusBlast,ShadowBall,HeatWave,Eruption|||M|||50|,,,,,Fire]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,Uturn,SuckerPunch|||F|||50|,,,,,Dragon]Torkoal||LifeOrb|Drought|HeatWave,Eruption,Protect,WeatherBall|||M|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|SleepPowder,CloseCombat,AfterYou,LeafBlade|||F|||50|,,,,,Grass]Whimsicott||CovertCloak|Prankster|Tailwind,TrickRoom,Moonblast,SunnyDay|||M|||50|,,,,,Grass]Electabuzz||Eviolite|Static|Feint,FollowMe,Protect,VoltSwitch|||M|||50|,,,,,Electric
+|
+|t:|1756765270
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Noivern|Noivern, L50, M|100/100
+|switch|p1b: Butter|Indeedee-F, L50, F|100/100
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|switch|p2b: Dragapult|Dragapult, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Butter
+|turn|1
+|
+|t:|1756765282
+|-terastallize|p2a: Typhlosion|Fire
+|move|p1b: Butter|Follow Me|p1b: Butter
+|-singleturn|p1b: Butter|move: Follow Me
+|move|p2b: Dragapult|U-turn|p1b: Butter
+|-supereffective|p1b: Butter
+|-damage|p1b: Butter|25/100
+|
+|t:|1756765289
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|move|p1a: Noivern|Tailwind|p1a: Noivern
+|-sidestart|p1: snailboss|move: Tailwind
+|move|p2a: Typhlosion|Eruption|p1b: Butter|[spread] p1a,p1b
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|8/100
+|-damage|p1b: Butter|0 fnt
+|faint|p1b: Butter
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756765301
+|switch|p1b: Dr. Drills|Excadrill, L50, M|100/100
+|turn|2
+|
+|t:|1756765311
+|move|p2b: Torkoal|Protect|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Protect
+|move|p1a: Noivern|Super Fang|p2b: Torkoal
+|-activate|p2b: Torkoal|move: Protect
+|move|p1b: Dr. Drills|Earthquake|p2a: Typhlosion|[spread] p2a
+|-activate|p2b: Torkoal|move: Protect
+|-activate|p1a: Noivern|ability: Telepathy
+|-supereffective|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756765322
+|switch|p2a: Lilligant|Lilligant-Hisui, L50, F|100/100
+|turn|3
+|
+|t:|1756765349
+|switch|p1b: Alice|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Alice
+|move|p1a: Noivern|Draco Meteor|p2a: Lilligant
+|-damage|p2a: Lilligant|24/100
+|-unboost|p1a: Noivern|spa|2
+|move|p2a: Lilligant|Close Combat|p1b: Alice
+|-supereffective|p1b: Alice
+|-damage|p1b: Alice|0 fnt
+|-unboost|p2a: Lilligant|def|1
+|-unboost|p2a: Lilligant|spd|1
+|faint|p1b: Alice
+|move|p2b: Torkoal|Eruption|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|-damage|p2b: Torkoal|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Lilligant|18/100|[from] Sandstorm
+|-damage|p2b: Torkoal|85/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756765363
+|switch|p1b: Dr. Drills|Excadrill, L50, M|100/100
+|turn|4
+|
+|t:|1756765378
+|switch|p2a: Dragapult|Dragapult, L50, F|100/100
+|-terastallize|p1b: Dr. Drills|Ground
+|move|p2b: Torkoal|Protect|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Protect
+|move|p1b: Dr. Drills|Earthquake|p2b: Torkoal|[spread] p2a
+|-activate|p2b: Torkoal|move: Protect
+|-damage|p2a: Dragapult|17/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|11/100|[from] Sandstorm
+|-damage|p2b: Torkoal|78/100|[from] Sandstorm
+|-sideend|p1: snailboss|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1756765399
+|switch|p2b: Lilligant|Lilligant-Hisui, L50, F|18/100
+|move|p1b: Dr. Drills|Earthquake|p2b: Lilligant|[spread] p2a,p2b
+|-resisted|p2b: Lilligant
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p2b: Lilligant|0 fnt
+|faint|p2a: Dragapult
+|faint|p2b: Lilligant
+|
+|-weather|Sandstorm|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756765405
+|switch|p2b: Torkoal|Torkoal, L50, M|78/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|6
+|
+|t:|1756765413
+|move|p1b: Dr. Drills|Earthquake|p2b: Torkoal
+|-supereffective|p2b: Torkoal
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|
+|win|snailboss
+|raw|snailboss's rating: 1122 → 1146(+24 for winning)
+|raw|Qwqwanan's rating: 1105 → 1081(-24 for losing)
+|l|☆Qwqwanan
+|player|p2|

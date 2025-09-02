@@ -1,0 +1,110 @@
+|j|☆CorkscrewRacer
+|j|☆31415thon
+|html|CorkscrewRacer31415thon    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756683994
+|gametype|doubles
+|player|p1|CorkscrewRacer|169|1146
+|player|p2|31415thon|265|1148
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Dondozo, L50, F|
+|poke|p1|Tatsugiri, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p2|Tatsugiri, L50, M|
+|poke|p2|Dondozo, L50, F|
+|poke|p2|Murkrow, L50, M|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,Protect,ThroatChop|||M|||50|,,,,,Dark]Dondozo||Leftovers|Unaware|WaveCrash,HeavySlam,OrderUp,Protect|||F|||50|,,,,,Grass]Tatsugiri||ChoiceScarf|Commander|DracoMeteor,MuddyWater,IcyWind,DragonPulse|||M|||50|,,,,,Stellar]Indeedee||FocusSash|PsychicSurge|ExpandingForce,Imprison,TrickRoom,Protect|||M|||50|,,,,,Psychic]Excadrill||ClearAmulet|SandRush|Earthquake,IronHead,HighHorsepower,Protect|||M|||50|,,,,,Ground]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||M|||50|,,,,,Flying
+|showteam|p2|Tatsugiri||ChoiceSpecs|Commander|DracoMeteor,HydroPump,MuddyWater,IcyWind|||M|||50|,,,,,Dragon]Dondozo||ClearAmulet|WaterVeil|WaveCrash,OrderUp,Earthquake,Protect|||F|||50|,,,,,Grass]Murkrow||FocusSash|Prankster|PerishSong,Tailwind,FoulPlay,Protect|||M|||50|,,,,,Ghost]Gothitelle||SitrusBerry|ShadowTag|FakeOut,Psychic,Taunt,Protect|||F|||50|,,,,,Dark]Amoonguss||EjectButton|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|Protect,FakeOut,KnockOff,PartingShot|||F|||50|,,,,,Ghost
+|j| BLiiNDProdiigy
+|
+|t:|1756684042
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Excadrill|Excadrill, L50, M|100/100
+|switch|p1b: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p2a: Murkrow|Murkrow, L50, M|100/100
+|switch|p2b: Gothitelle|Gothitelle, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|1
+|
+|t:|1756684085
+|switch|p2a: Dondozo|Dondozo, L50, F|100/100
+|move|p2b: Gothitelle|Fake Out|p1b: Tyranitar
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|98/100
+|move|p1a: Excadrill|Iron Head|p2a: Dondozo
+|-resisted|p2a: Dondozo
+|-damage|p2a: Dondozo|85/100
+|cant|p1b: Tyranitar|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dondozo|79/100|[from] Sandstorm
+|-damage|p2b: Gothitelle|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1756684133
+|switch|p2b: Murkrow|Murkrow, L50, M|100/100
+|move|p1a: Excadrill|High Horsepower|p2a: Dondozo
+|-damage|p2a: Dondozo|44/100
+|move|p1b: Tyranitar|Rock Slide|p2b: Murkrow|[spread] p2a,p2b
+|-supereffective|p2b: Murkrow
+|-damage|p2a: Dondozo|21/100
+|-enditem|p2b: Murkrow|Focus Sash
+|-damage|p2b: Murkrow|1/100
+|move|p2a: Dondozo|Earthquake|p1a: Excadrill|[spread] p1a,p1b
+|-immune|p2b: Murkrow
+|-supereffective|p1a: Excadrill
+|-supereffective|p1b: Tyranitar
+|-damage|p1a: Excadrill|36/100
+|-damage|p1b: Tyranitar|59/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Murkrow|0 fnt|[from] Sandstorm
+|-damage|p2a: Dondozo|15/100|[from] Sandstorm
+|faint|p2b: Murkrow
+|upkeep
+|
+|t:|1756684142
+|switch|p2b: Tatsugiri|Tatsugiri, L50, M|100/100
+|-activate|p2b: Tatsugiri|ability: Commander|[of] p2a: Dondozo
+|-boost|p2a: Dondozo|atk|2
+|-boost|p2a: Dondozo|spa|2
+|-boost|p2a: Dondozo|spe|2
+|-boost|p2a: Dondozo|def|2
+|-boost|p2a: Dondozo|spd|2
+|turn|3
+|
+|t:|1756684180
+|-terastallize|p1b: Tyranitar|Flying
+|move|p1a: Excadrill|High Horsepower|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|move|p1b: Tyranitar|Tera Blast|p2b: Tatsugiri|[anim] Tera Blast Flying
+|-damage|p2b: Tatsugiri|13/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Tatsugiri|7/100|[from] Sandstorm
+|-damage|p1b: Tyranitar|53/100|[from] Sandstorm
+|upkeep
+|-message|31415thon forfeited.
+|
+|win|CorkscrewRacer
+|raw|CorkscrewRacer's rating: 1146 → 1171(+25 for winning)
+|raw|31415thon's rating: 1148 → 1123(-25 for losing)
+|l|☆31415thon
+|player|p2|
+|l| BLiiNDProdiigy

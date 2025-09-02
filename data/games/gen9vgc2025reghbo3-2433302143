@@ -1,0 +1,183 @@
+|j|☆Koebel
+|j|☆Yunobo7
+|html|KoebelYunobo7    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756768117
+|gametype|doubles
+|player|p1|Koebel|2|
+|player|p2|Yunobo7|nancy|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Typhlosion-Hisui, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Maushold-Four, L50|
+|poke|p1|Archaludon, L50, F|
+|poke|p2|Glimmora, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Tyranitar, L50, F|
+|teampreview|4
+|showteam|p1|Typhlosion-Hisui||ChoiceScarf|Blaze|Eruption,ShadowBall,HeatWave,SleepTalk|||M|||50|,,,,,Fire]Torkoal||Charcoal|Drought|Eruption,HelpingHand,HeatWave,Protect|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||M|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,Recover,TrickRoom,Protect||||||50|,,,,,Fighting]Maushold-Four||WideLens|Technician|PopulationBomb,FollowMe,Taunt,Protect||||||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|DragonPulse,ElectroShot,FlashCannon,BodyPress|||F|||50|,,,,,Dragon
+|showteam|p2|Glimmora||PowerHerb|ToxicDebris|MeteorBeam,EarthPower,SludgeBomb,SpikyShield|||M|||50|,,,,,Grass]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,Taunt,KnockOff,FakeOut|||F|||50|,,,,,Ghost]Rillaboom||LifeOrb|GrassySurge|WoodHammer,HighHorsepower,GrassyGlide,FakeOut|||F|||50|,,,,,Ground]Sneasler||GrassySeed|Unburden|DireClaw,Coaching,CloseCombat,Protect|||M|||50|,,,,,Ghost]Dragonite||LoadedDice|InnerFocus|ScaleShot,Tailwind,StompingTantrum,Protect|||F|||50|,,,,,Steel]Tyranitar||AssaultVest|SandStream|RockSlide,LowKick,KnockOff,TeraBlast|||F|||50|,,,,,Flying
+|
+|t:|1756768148
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Maushold|Maushold-Four, L50, shiny|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2b: Glimmora|Glimmora, L50, M, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Maushold|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|turn|1
+|
+|t:|1756768207
+|switch|p2b: Rillaboom|Rillaboom, L50, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-terastallize|p2a: Incineroar|Ghost
+|move|p1a: Maushold|Taunt|p2b: Rillaboom
+|-start|p2b: Rillaboom|move: Taunt
+|move|p2a: Incineroar|Knock Off|p1a: Maushold
+|-damage|p1a: Maushold|36/100
+|-enditem|p1a: Maushold|Wide Lens|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1b: Ursaluna|Headlong Rush|p2b: Rillaboom
+|-resisted|p2b: Rillaboom
+|-damage|p2b: Rillaboom|76/100
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|
+|-heal|p1a: Maushold|42/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|82/100|[from] Grassy Terrain
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1756768233
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|move|p1a: Maushold|Protect|p1a: Maushold
+|-singleturn|p1a: Maushold|Protect
+|move|p2b: Rillaboom|Grassy Glide|p1a: Maushold
+|-activate|p1a: Maushold|move: Protect
+|move|p2a: Incineroar|Knock Off|p1b: Archaludon
+|-damage|p1b: Archaludon|69/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|-enditem|p1b: Archaludon|Assault Vest|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-heal|p1a: Maushold|48/100|[from] Grassy Terrain
+|-heal|p1b: Archaludon|75/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|88/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756768274
+|switch|p2a: Glimmora|Glimmora, L50, M, shiny|100/100
+|-terastallize|p1b: Archaludon|Dragon
+|move|p2b: Rillaboom|Grassy Glide|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|-damage|p2b: Rillaboom|78/100|[from] item: Life Orb
+|move|p1b: Archaludon|Dragon Pulse|p2a: Glimmora
+|-damage|p2a: Glimmora|29/100
+|
+|-heal|p2a: Glimmora|35/100|[from] Grassy Terrain
+|-heal|p1b: Archaludon|82/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|84/100|[from] Grassy Terrain
+|-end|p2b: Rillaboom|move: Taunt
+|upkeep
+|
+|t:|1756768291
+|switch|p1a: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|turn|4
+|
+|t:|1756768303
+|move|p2a: Glimmora|Spiky Shield|p2a: Glimmora
+|-singleturn|p2a: Glimmora|move: Protect
+|move|p1a: Typhlosion|Shadow Ball|p2b: Rillaboom
+|-damage|p2b: Rillaboom|43/100
+|move|p1b: Archaludon|Dragon Pulse|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|
+|-heal|p2a: Glimmora|41/100|[from] Grassy Terrain
+|-heal|p1b: Archaludon|88/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756768311
+|switch|p2b: Tyranitar|Tyranitar, L50, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|turn|5
+|
+|t:|1756768319
+|move|p1a: Typhlosion|Shadow Ball|p2b: Tyranitar
+|-resisted|p2b: Tyranitar
+|-damage|p2b: Tyranitar|93/100
+|move|p2a: Glimmora|Meteor Beam||[still]
+|-prepare|p2a: Glimmora|Meteor Beam
+|-boost|p2a: Glimmora|spa|1
+|-enditem|p2a: Glimmora|Power Herb
+|-anim|p2a: Glimmora|Meteor Beam|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|faint|p1b: Archaludon
+|move|p2b: Tyranitar|Knock Off|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|-enditem|p1a: Typhlosion|Choice Scarf|[from] move: Knock Off|[of] p2b: Tyranitar
+|faint|p1a: Typhlosion
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Glimmora|47/100|[from] Grassy Terrain
+|-heal|p2b: Tyranitar|99/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756768341
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100 brn
+|turn|6
+|
+|t:|1756768371
+|switch|p2b: Incineroar|Incineroar, L50, F, shiny, tera:Ghost|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1b: Ursaluna|atk|1
+|move|p2a: Glimmora|Sludge Bomb|p1b: Ursaluna
+|-resisted|p1b: Ursaluna
+|-damage|p1b: Ursaluna|68/100 brn
+|move|p1b: Ursaluna|Facade|p2b: Incineroar
+|-immune|p2b: Incineroar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Ursaluna|62/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1756768384
+|move|p2b: Incineroar|Fake Out|p1b: Ursaluna
+|-damage|p1b: Ursaluna|53/100 brn
+|move|p2a: Glimmora|Meteor Beam||[still]
+|-prepare|p2a: Glimmora|Meteor Beam
+|-boost|p2a: Glimmora|spa|1
+|cant|p1b: Ursaluna|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Ursaluna|47/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1756768393
+|move|p2a: Glimmora|Meteor Beam|p1b: Ursaluna|[from] lockedmove
+|-resisted|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|
+|win|Yunobo7
+|l|☆Koebel
+|player|p1|

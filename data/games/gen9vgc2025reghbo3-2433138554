@@ -1,0 +1,217 @@
+|j|☆BBRAFF
+|j|☆Anicredible
+|html|BBRAFFAnicredible    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756750902
+|gametype|doubles
+|player|p1|BBRAFF|266|1024
+|player|p2|Anicredible|hilbert|1089
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Oranguru, L50, M|
+|poke|p1|Toxtricity, L50, F|
+|poke|p1|Kommo-o, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Arcanine-Hisui, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Altaria, L50, F|
+|teampreview|4
+|showteam|p1|Oranguru||CovertCloak|Telepathy|Instruct,TrickRoom,PsychicNoise,Yawn|||M|||50|,,,,,Dark]Toxtricity||LifeOrb|PunkRock|Boomburst,Overdrive,SludgeBomb,Protect|||F|||50|,,,,,Normal]Kommo-o||ThroatSpray|Soundproof|ClangorousSoul,ClangingScales,Flamethrower,Protect|||M|||50|,,,,,Fire]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,LifeDew,TrickRoom||||||50|,,,,,Water]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Sneasler||FocusSash|Unburden|FakeOut,CloseCombat,DireClaw,Protect|||F|||50|,,,,,Fighting
+|showteam|p2|Annihilape||MistySeed|Defiant|Protect,BulkUp,DrainPunch,RageFist|||F|||50|,,,,,Fire]Ursaluna-Bloodmoon||LifeOrb|MindsEye|Protect,EarthPower,HyperVoice,BloodMoon|||M|||50|,,,,,Normal]Farigiraf||ThroatSpray|ArmorTail|Protect,TrickRoom,HyperVoice,Psychic|||M|||50|,,,,,Dragon]Arcanine-Hisui||ChoiceBand|Intimidate|FlareBlitz,RockSlide,ExtremeSpeed,WildCharge|||F|||50|,,,,,Grass]Whimsicott||CovertCloak|Prankster|Tailwind,MistyTerrain,Moonblast,Encore|||M|||50|,,,,,Fire]Altaria||SitrusBerry|CloudNine|Protect,Haze,Thief,HelpingHand|||F|||50|,,,,,Fairy
+|
+|t:|1756750941
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kommo-o|Kommo-o, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Annihilape|Annihilape, L50, F|100/100
+|turn|1
+|
+|t:|1756750964
+|-terastallize|p2a: Whimsicott|Fire
+|move|p2a: Whimsicott|Misty Terrain|p2a: Whimsicott
+|-fieldstart|move: Misty Terrain
+|-enditem|p2b: Annihilape|Misty Seed
+|-boost|p2b: Annihilape|spd|1|[from] item: Misty Seed
+|move|p1b: Sneasler|Dire Claw|p2a: Whimsicott
+|-damage|p2a: Whimsicott|46/100
+|move|p2b: Annihilape|Bulk Up|p2b: Annihilape
+|-boost|p2b: Annihilape|atk|1
+|-boost|p2b: Annihilape|def|1
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|68/100
+|-enditem|p1a: Kommo-o|Throat Spray
+|-boost|p1a: Kommo-o|spa|1|[from] item: Throat Spray
+|
+|upkeep
+|turn|2
+|
+|t:|1756751003
+|move|p1a: Kommo-o|Protect|p1a: Kommo-o
+|-singleturn|p1a: Kommo-o|Protect
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: Anicredible|move: Tailwind
+|move|p2b: Annihilape|Bulk Up|p2b: Annihilape
+|-boost|p2b: Annihilape|atk|1
+|-boost|p2b: Annihilape|def|1
+|move|p1b: Sneasler|Dire Claw|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|upkeep
+|
+|t:|1756751045
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|3
+|
+|t:|1756751062
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|-heal|p1a: Kommo-o|92/100|[from] ability: Hospitality|[of] p1b: Sinistcha
+|-terastallize|p1a: Kommo-o|Fire
+|move|p2b: Annihilape|Rage Fist|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha
+|-damage|p1b: Sinistcha|12/100
+|-enditem|p1b: Sinistcha|Sitrus Berry|[eat]
+|-heal|p1b: Sinistcha|36/100|[from] item: Sitrus Berry
+|move|p1a: Kommo-o|Flamethrower|p2a: Ursaluna
+|-damage|p2a: Ursaluna|29/100
+|move|p2a: Ursaluna|Hyper Voice|p1b: Sinistcha|[spread] p1b
+|-immune|p1a: Kommo-o|[from] ability: Soundproof
+|-damage|p1b: Sinistcha|0 fnt
+|faint|p1b: Sinistcha
+|-damage|p2a: Ursaluna|20/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756751074
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|turn|4
+|
+|t:|1756751089
+|move|p1b: Sneasler|Fake Out|p2a: Ursaluna
+|-damage|p2a: Ursaluna|11/100
+|move|p2b: Annihilape|Rage Fist|p1b: Sneasler
+|-damage|p1b: Sneasler|13/100
+|move|p1a: Kommo-o|Flamethrower|p2b: Annihilape
+|-damage|p2b: Annihilape|53/100
+|cant|p2a: Ursaluna|flinch
+|
+|upkeep
+|turn|5
+|
+|t:|1756751161
+|move|p1a: Kommo-o|Protect|p1a: Kommo-o
+|-singleturn|p1a: Kommo-o|Protect
+|move|p1b: Sneasler|Protect|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Protect
+|move|p2b: Annihilape|Bulk Up|p2b: Annihilape
+|-boost|p2b: Annihilape|atk|1
+|-boost|p2b: Annihilape|def|1
+|move|p2a: Ursaluna|Hyper Voice|p1a: Kommo-o|[spread] 
+|-activate|p1a: Kommo-o|move: Protect
+|-activate|p1b: Sneasler|move: Protect
+|
+|-sideend|p2: Anicredible|move: Tailwind
+|-fieldend|Misty Terrain
+|upkeep
+|turn|6
+|
+|t:|1756751194
+|switch|p2a: Arcanine|Arcanine-Hisui, L50, F|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Kommo-o|atk|1
+|-unboost|p1b: Sneasler|atk|1
+|move|p2b: Annihilape|Protect|p2b: Annihilape
+|-singleturn|p2b: Annihilape|Protect
+|move|p1a: Kommo-o|Clanging Scales|p2a: Arcanine|[spread] p2a
+|-activate|p2b: Annihilape|move: Protect
+|-damage|p2a: Arcanine|20/100
+|-unboost|p1a: Kommo-o|def|1
+|move|p1b: Sneasler|Dire Claw|p2b: Annihilape
+|-activate|p2b: Annihilape|move: Protect
+|
+|upkeep
+|turn|7
+|
+|t:|1756751224
+|move|p1b: Sneasler|Protect|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Protect
+|move|p2a: Arcanine|Extreme Speed|p1b: Sneasler
+|-activate|p1b: Sneasler|move: Protect
+|move|p1a: Kommo-o|Clanging Scales|p2b: Annihilape|[spread] p2a,p2b
+|-damage|p2a: Arcanine|0 fnt
+|-damage|p2b: Annihilape|14/100
+|faint|p2a: Arcanine
+|-unboost|p1a: Kommo-o|def|1
+|move|p2b: Annihilape|Drain Punch|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|-heal|p2b: Annihilape|58/100|[from] drain|[of] p1a: Kommo-o
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|t:|1756751237
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|11/100
+|switch|p1a: Toxtricity|Toxtricity, L50, F|100/100
+|turn|8
+|
+|t:|1756751287
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1b: Sneasler|Dire Claw|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|move|p2b: Annihilape|Drain Punch|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|40/100
+|-heal|p2b: Annihilape|86/100|[from] drain|[of] p1a: Toxtricity
+|move|p1a: Toxtricity|Overdrive|p2b: Annihilape|[spread] p2b
+|-activate|p2a: Ursaluna|move: Protect
+|-damage|p2b: Annihilape|56/100
+|-damage|p1a: Toxtricity|30/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|t:|1756751309
+|move|p1b: Sneasler|Close Combat|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|faint|p2a: Ursaluna
+|move|p2b: Annihilape|Drain Punch|p1b: Sneasler
+|-resisted|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|-heal|p2b: Annihilape|61/100|[from] drain|[of] p1b: Sneasler
+|faint|p1b: Sneasler
+|move|p1a: Toxtricity|Overdrive|p2b: Annihilape
+|-damage|p2b: Annihilape|18/100
+|-damage|p1a: Toxtricity|20/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|t:|1756751333
+|move|p2b: Annihilape|Drain Punch|p1a: Toxtricity
+|-resisted|p1a: Toxtricity
+|-damage|p1a: Toxtricity|0 fnt
+|-heal|p2b: Annihilape|28/100|[from] drain|[of] p1a: Toxtricity
+|faint|p1a: Toxtricity
+|
+|win|Anicredible

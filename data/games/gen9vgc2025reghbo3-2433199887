@@ -1,0 +1,204 @@
+|j|☆Welosethose!
+|j|☆TheLackluster7
+|html|Welosethose!TheLackluster7    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756757090
+|gametype|doubles
+|player|p1|Welosethose!|hilbert|1148
+|player|p2|TheLackluster7|juggler|1128
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Politoed, L50, F|
+|poke|p1|Gothitelle, L50, F|
+|poke|p1|Kingdra, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Zoroark-Hisui, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Abomasnow, L50, F|
+|teampreview|4
+|showteam|p1|Politoed||Leftovers|Drizzle|WeatherBall,Encore,PerishSong,Protect|||F|||50|,,,,,Grass]Gothitelle||SitrusBerry|ShadowTag|FakeOut,Psychic,TrickRoom,Protect|||F|||50|,,,,,Dark]Kingdra||LifeOrb|SwiftSwim|WeatherBall,MuddyWater,DracoMeteor,Protect|||F|||50|,,,,,Stellar]Archaludon||PowerHerb|Sturdy|ElectroShot,FlashCannon,DragonPulse,Protect|||F|||50|,,,,,Electric]Amoonguss||EjectButton|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Indeedee-F||MentalHerb|PsychicSurge|TeraBlast,CalmMind,FollowMe,TrickRoom|||F|||50|,,,,,Steel]Armarouge||LifeOrb|FlashFire|ArmorCannon,ExpandingForce,AuraSphere,Protect|||F|||50|,,,,,Grass]Zoroark-Hisui||FocusSash|Illusion|NastyPlot,HyperVoice,ShadowBall,IcyWind|||F|||50|,,,,,Stellar]Sneasler||PsychicSeed|Unburden|ThroatChop,DireClaw,CloseCombat,Protect|||M|||50|,,,,,Dark]Ursaluna-Bloodmoon||AssaultVest|MindsEye|HyperVoice,BloodMoon,EarthPower,VacuumWave|||M|||50|,,,,,Normal]Abomasnow||SitrusBerry|SnowWarning|EarthPower,Blizzard,GigaDrain,Protect|||F|||50|,,,,,Grass
+|
+|t:|1756757137
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gothitelle|Gothitelle, L50, F|100/100
+|switch|p1b: Kingdra|Kingdra, L50, F|100/100
+|switch|p2a: Abomasnow|Abomasnow, L50, F|100/100
+|switch|p2b: Armarouge|Armarouge, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|1
+|
+|t:|1756757161
+|move|p2a: Abomasnow|Protect|p2a: Abomasnow
+|-singleturn|p2a: Abomasnow|Protect
+|move|p1a: Gothitelle|Fake Out|p2a: Abomasnow
+|-activate|p2a: Abomasnow|move: Protect
+|move|p2b: Armarouge|Nasty Plot|p2b: Armarouge
+|-boost|p2b: Armarouge|spa|2
+|move|p1b: Kingdra|Draco Meteor|p2b: Armarouge
+|-enditem|p2b: Armarouge|Focus Sash
+|-damage|p2b: Armarouge|1/100
+|-unboost|p1b: Kingdra|spa|2
+|replace|p2b: Zoroark|Zoroark-Hisui, L50, F
+|-end|p2b: Zoroark|Illusion
+|-damage|p1b: Kingdra|91/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756757201
+|switch|p1a: Politoed|Politoed, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p1b: Kingdra|Weather Ball|p2b: Zoroark
+|-damage|p2b: Zoroark|0 fnt
+|faint|p2b: Zoroark
+|-damage|p1b: Kingdra|81/100|[from] item: Life Orb
+|move|p2a: Abomasnow|Giga Drain|p1b: Kingdra
+|-crit|p1b: Kingdra
+|-damage|p1b: Kingdra|16/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756757213
+|switch|p2b: Armarouge|Armarouge, L50, F|100/100
+|turn|3
+|
+|t:|1756757222
+|switch|p1b: Gothitelle|Gothitelle, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-terastallize|p2b: Armarouge|Grass
+|-terastallize|p1a: Politoed|Grass
+|move|p2b: Armarouge|Expanding Force|p1a: Politoed|[spread] p1a,p1b
+|-resisted|p1b: Gothitelle
+|-damage|p1a: Politoed|46/100
+|-damage|p1b: Gothitelle|73/100
+|-damage|p2b: Armarouge|91/100|[from] item: Life Orb
+|move|p1a: Politoed|Perish Song|p1a: Politoed
+|-start|p1a: Politoed|perish3|[silent]
+|-start|p1b: Gothitelle|perish3|[silent]
+|-start|p2a: Indeedee|perish3|[silent]
+|-start|p2b: Armarouge|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|52/100|[from] item: Leftovers
+|-start|p2b: Armarouge|perish3
+|-start|p1a: Politoed|perish3
+|-start|p2a: Indeedee|perish3
+|-start|p1b: Gothitelle|perish3
+|upkeep
+|turn|4
+|
+|t:|1756757255
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p1b: Gothitelle|Protect|p1b: Gothitelle
+|-singleturn|p1b: Gothitelle|Protect
+|move|p2b: Armarouge|Expanding Force|p1a: Politoed|[spread] 
+|-activate|p1a: Politoed|move: Protect
+|-activate|p1b: Gothitelle|move: Protect
+|move|p2a: Indeedee|Calm Mind|p2a: Indeedee
+|-boost|p2a: Indeedee|spa|1
+|-boost|p2a: Indeedee|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|58/100|[from] item: Leftovers
+|-start|p2b: Armarouge|perish2
+|-start|p1a: Politoed|perish2
+|-start|p2a: Indeedee|perish2
+|-start|p1b: Gothitelle|perish2
+|upkeep
+|turn|5
+|
+|t:|1756757277
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Armarouge|atk|1
+|move|p2b: Armarouge|Expanding Force|p1b: Gothitelle|[spread] p1b
+|-immune|p1a: Incineroar
+|-resisted|p1b: Gothitelle
+|-damage|p1b: Gothitelle|46/100
+|-enditem|p1b: Gothitelle|Sitrus Berry|[eat]
+|-heal|p1b: Gothitelle|71/100|[from] item: Sitrus Berry
+|-damage|p2b: Armarouge|81/100|[from] item: Life Orb
+|move|p2a: Indeedee|Tera Blast|p1b: Gothitelle
+|-damage|p1b: Gothitelle|40/100
+|move|p1b: Gothitelle|Trick Room|p1b: Gothitelle
+|-fieldstart|move: Trick Room|[of] p1b: Gothitelle
+|
+|-weather|RainDance|[upkeep]
+|-start|p1b: Gothitelle|perish1
+|-start|p2a: Indeedee|perish1
+|-start|p2b: Armarouge|perish1
+|upkeep
+|turn|6
+|
+|t:|1756757307
+|switch|p1b: Politoed|Politoed, L50, F, tera:Grass|58/100
+|move|p1a: Incineroar|Parting Shot|p2b: Armarouge
+|-unboost|p2b: Armarouge|atk|1
+|-unboost|p2b: Armarouge|spa|1
+|
+|t:|1756757312
+|switch|p1a: Gothitelle|Gothitelle, L50, F|40/100|[from] Parting Shot
+|move|p2a: Indeedee|Tera Blast|p1b: Politoed
+|-damage|p1b: Politoed|28/100
+|move|p2b: Armarouge|Expanding Force|p1a: Gothitelle|[spread] p1a,p1b
+|-resisted|p1a: Gothitelle
+|-damage|p1a: Gothitelle|23/100
+|-damage|p1b: Politoed|0 fnt
+|faint|p1b: Politoed
+|-damage|p2b: Armarouge|71/100|[from] item: Life Orb
+|
+|-weather|none
+|-start|p2a: Indeedee|perish0
+|-start|p2b: Armarouge|perish0
+|faint|p2a: Indeedee
+|faint|p2b: Armarouge
+|upkeep
+|
+|t:|1756757326
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Abomasnow|Abomasnow, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2b: Abomasnow|atk|1
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Abomasnow
+|turn|7
+|
+|t:|1756757354
+|move|p1b: Incineroar|Knock Off|p2b: Abomasnow
+|-damage|p2b: Abomasnow|72/100
+|-enditem|p2b: Abomasnow|Sitrus Berry|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p1a: Gothitelle|Psychic|p2b: Abomasnow
+|-damage|p2b: Abomasnow|29/100
+|move|p2b: Abomasnow|Earth Power|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|60/100
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|8
+|-message|TheLackluster7 forfeited.
+|
+|win|Welosethose!
+|raw|Welosethose!'s rating: 1148 → 1172(+24 for winning)
+|raw|TheLackluster7's rating: 1128 → 1104(-24 for losing)
+|c|☆Welosethose!|gg
+|l|☆TheLackluster7
+|player|p2|

@@ -1,0 +1,179 @@
+|j|☆Phayeta
+|j|☆mesochob0
+|html|Phayetamesochob0    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756757455
+|gametype|doubles
+|player|p1|Phayeta|1|1068
+|player|p2|mesochob0|1|1114
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Murkrow, L50, M|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Conkeldurr, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Porygon-Z, L50|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Murkrow||Eviolite|Prankster|Tailwind,RainDance,Quash,FoulPlay|||M|||50|,,,,,Dark]Primarina||ThroatSpray|LiquidVoice|CalmMind,HyperVoice,Moonblast,Protect|||F|||50|,,,,,Poison]Gholdengo||LifeOrb|GoodasGold|Protect,NastyPlot,MakeItRain,ShadowBall||||||50|,,,,,Steel]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,FlareBlitz,Taunt|||F|||50|,,,,,Water]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,Uturn,TeraBlast|||F|||50|,,,,,Dragon]Amoonguss||SitrusBerry|Regenerator|Protect,RagePowder,Spore,PollenPuff|||F|||50|,,,,,Steel
+|showteam|p2|Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,EarthPower,SolarBeam|||M|||50|,,,,,Fire]Conkeldurr||FlameOrb|Guts|DrainPunch,KnockOff,Detect,WideGuard|||F|||50|,,,,,Dark]Indeedee-F||EjectButton|PsychicSurge|FollowMe,TrickRoom,Psychic,HelpingHand|||F|||50|,,,,,Steel]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,Protect,TrickRoom|||F|||50|,,,,,Water]Porygon-Z||IronBall|Download|TeraBlast,TrickRoom,IceBeam,Thunderbolt||||||50|,,,,,Fighting]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,Protect,ThroatChop|||M|||50|,,,,,Dark
+|
+|t:|1756757475
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Bad Kitty|Incineroar, L50, F|100/100
+|switch|p1b: Primarina|Primarina, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|-ability|p1a: Bad Kitty|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Hatterene|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1756757503
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Primarina|Calm Mind|p1b: Primarina
+|-boost|p1b: Primarina|spa|1
+|-boost|p1b: Primarina|spd|1
+|move|p1a: Bad Kitty|Taunt|p2a: Indeedee
+|-start|p2a: Indeedee|move: Taunt
+|move|p2b: Hatterene|Trick Room|p2b: Hatterene
+|-fieldstart|move: Trick Room|[of] p2b: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1756757540
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1b: Primarina|Protect|p1b: Primarina
+|-singleturn|p1b: Primarina|Protect
+|move|p2b: Hatterene|Dazzling Gleam|p1b: Primarina|[spread] p1a
+|-activate|p1b: Primarina|move: Protect
+|-damage|p1a: Bad Kitty|66/100
+|-damage|p2b: Hatterene|91/100|[from] item: Life Orb
+|move|p1a: Bad Kitty|Parting Shot|p2b: Hatterene
+|move|p2b: Hatterene|Parting Shot|p1a: Bad Kitty|[from] ability: Magic Bounce
+|-unboost|p1a: Bad Kitty|atk|1
+|-unboost|p1a: Bad Kitty|spa|1
+|
+|t:|1756757558
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756757571
+|-terastallize|p2a: Torkoal|Fire
+|move|p2b: Indeedee|Helping Hand|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Helping Hand|[of] p2b: Indeedee
+|move|p2a: Torkoal|Eruption|p1b: Primarina|[spread] p1a,p1b
+|-resisted|p1a: Bad Kitty
+|-resisted|p1b: Primarina
+|-damage|p1a: Bad Kitty|0 fnt
+|-damage|p1b: Primarina|38/100
+|faint|p1a: Bad Kitty
+|move|p1b: Primarina|Hyper Voice|p2a: Torkoal|[spread] p2a,p2b
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|29/100
+|-damage|p2b: Indeedee|73/100
+|-enditem|p2b: Indeedee|Eject Button
+|-enditem|p1b: Primarina|Throat Spray
+|-boost|p1b: Primarina|spa|1|[from] item: Throat Spray
+|
+|t:|1756757587
+|switch|p2b: Hatterene|Hatterene, L50, F|91/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756757590
+|switch|p1a: Murkrow|Murkrow, L50, M|100/100
+|turn|4
+|
+|t:|1756757623
+|switch|p2a: Indeedee|Indeedee-F, L50, F|73/100
+|-terastallize|p1b: Primarina|Poison
+|move|p1a: Murkrow|Rain Dance|p1a: Murkrow
+|-weather|RainDance
+|move|p2b: Hatterene|Expanding Force|p1a: Murkrow|[spread] p1b
+|-immune|p1a: Murkrow
+|-supereffective|p1b: Primarina
+|-damage|p1b: Primarina|0 fnt
+|faint|p1b: Primarina
+|-damage|p2b: Hatterene|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756757632
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|turn|5
+|
+|t:|1756757658
+|move|p1a: Murkrow|Foul Play|p2b: Hatterene
+|-damage|p2b: Hatterene|50/100
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|move|p2b: Hatterene|Trick Room|p2b: Hatterene
+|-fieldend|move: Trick Room
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756757692
+|move|p2a: Indeedee|Helping Hand|p2b: Hatterene
+|-singleturn|p2b: Hatterene|Helping Hand|[of] p2a: Indeedee
+|move|p1a: Murkrow|Quash|p2b: Hatterene
+|-activate|p2b: Hatterene|move: Quash
+|move|p1b: Gholdengo|Make It Rain|p2b: Hatterene|[spread] p2a,p2b
+|-supereffective|p2b: Hatterene
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Hatterene|0 fnt
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2a: Indeedee
+|faint|p2b: Hatterene
+|-damage|p1b: Gholdengo|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756757708
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Torkoal|Torkoal, L50, M, tera:Fire|29/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|7
+|
+|t:|1756757735
+|move|p1a: Murkrow|Quash|p2a: Torkoal
+|-activate|p2a: Torkoal|move: Quash
+|move|p1b: Gholdengo|Make It Rain|p2b: Sneasler|[spread] p2a,p2b
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-damage|p2b: Sneasler|0 fnt
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2a: Torkoal
+|faint|p2b: Sneasler
+|-damage|p1b: Gholdengo|81/100|[from] item: Life Orb
+|
+|win|Phayeta
+|raw|Phayeta's rating: 1068 → 1102(+34 for winning)
+|raw|mesochob0's rating: 1114 → 1086(-28 for losing)

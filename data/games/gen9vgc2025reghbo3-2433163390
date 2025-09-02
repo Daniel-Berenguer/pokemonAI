@@ -1,0 +1,99 @@
+|j|☆E1G5
+|j|☆TR Setter
+|html|E1G5TR Setter    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756753427
+|gametype|doubles
+|player|p1|E1G5|schoolkid-gen4dp|1158
+|player|p2|TR Setter|zinzolin|1262
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Kingambit, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|HelpingHand,Psychic,TrickRoom,FollowMe|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,WideGuard,TrickRoom|||M|||50|,,,,,Steel]Annihilape||ChoiceScarf|Defiant|FinalGambit,CloseCombat,RageFist,Uturn|||F|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,Protect,EarthPower|||M|||50|,,,,,Fire]Kingambit||SafetyGoggles|Defiant|SuckerPunch,KowtowCleave,LowKick,Protect|||M|||50|,,,,,Dark
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TR Setter)
+|
+|t:|1756753442
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jumpluff|Jumpluff, L50, F|100/100
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|switch|p2a: Annihilape|Annihilape, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|1
+|
+|t:|1756753447
+|-terastallize|p2a: Annihilape|Grass
+|move|p1a: Jumpluff|Sleep Powder|p2b: Indeedee
+|-status|p2b: Indeedee|slp|[from] move: Sleep Powder
+|move|p2a: Annihilape|Final Gambit|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|faint|p2a: Annihilape
+|faint|p1b: Torkoal
+|cant|p2b: Indeedee|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756753461
+|switch|p2a: Hatterene|Hatterene, L50, F|100/100
+|switch|p1b: Charizard|Charizard, L50, M|100/100
+|turn|2
+|
+|t:|1756753473
+|switch|p1a: Porygon2|Porygon2, L50|100/100
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|atk|1
+|move|p2a: Hatterene|Protect|p2a: Hatterene
+|-singleturn|p2a: Hatterene|Protect
+|move|p1b: Charizard|Heat Wave|p2b: Indeedee|[spread] p2b
+|-activate|p2a: Hatterene|move: Protect
+|-damage|p2b: Indeedee|34/100 slp
+|cant|p2b: Indeedee|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|88/100|[from] ability: Solar Power|[of] p1b: Charizard
+|upkeep
+|turn|3
+|
+|t:|1756753496
+|move|p1b: Charizard|Heat Wave|p2b: Indeedee|[spread] p2a,p2b
+|-crit|p2b: Indeedee
+|-damage|p2a: Hatterene|0 fnt
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2a: Hatterene
+|faint|p2b: Indeedee
+|move|p1a: Porygon2|Tera Blast|p2: Hatterene|[notarget]
+|-fail|p1a: Porygon2
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|76/100|[from] ability: Solar Power|[of] p1b: Charizard
+|upkeep
+|c|☆TR Setter|gg wp
+|-message|TR Setter forfeited.
+|
+|win|E1G5
+|raw|E1G5's rating: 1158 → 1190(+32 for winning)
+|raw|TR Setter's rating: 1262 → 1230(-32 for losing)
+|c|☆E1G5|gg

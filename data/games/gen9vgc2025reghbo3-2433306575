@@ -1,0 +1,150 @@
+|j|☆JonnyNerd
+|j|☆twittle twister
+|html|JonnyNerdtwittle twister    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756768625
+|gametype|doubles
+|player|p1|JonnyNerd|falkner|
+|player|p2|twittle twister|2|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Mimikyu, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Electabuzz, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Arcanine-Hisui, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee, L50, M|
+|teampreview|4
+|showteam|p1|Torkoal||ChoiceSpecs|Drought|Flamethrower,Eruption,EarthPower,WeatherBall|||M|||50|,,,,,Fire]Mimikyu||MentalHerb|Disguise|Protect,TrickRoom,ShadowSneak,Curse|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Protect,Substitute|||M|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|TrickRoom,Protect,SacredSword,PsychoCut|||M|||50|,,,,,Grass]Lilligant-Hisui||FocusSash|Chlorophyll|Protect,SleepPowder,AfterYou,CloseCombat|||F|||50|,,,,,Ghost]Incineroar||RockyHelmet|Intimidate|FakeOut,FlareBlitz,KnockOff,Uturn|||M|||50|,,,,,Water
+|showteam|p2|Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Thunderbolt|||F|||50|,,,,,Electric]Ursaluna-Bloodmoon||ThroatSpray|MindsEye|HyperVoice,BloodMoon,Protect,EarthPower|||M|||50|,,,,,Ghost]Arcanine-Hisui||ClearAmulet|Intimidate|RockSlide,WildCharge,FlareBlitz,Protect|||F|||50|,,,,,Water]Tyranitar||AssaultVest|SandStream|RockSlide,TeraBlast,KnockOff,HighHorsepower|||M|||50|,,,,,Flying]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,Protect,Acrobatics|||M|||50|,,,,,Flying]Indeedee||FocusSash|PsychicSurge|DazzlingGleam,ExpandingForce,Psychic,TrickRoom|||M|||50|,,,,,Dark
+|
+|t:|1756768662
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gallade|Gallade, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|turn|1
+|
+|t:|1756768707
+|move|p1a: Gallade|Protect|p1a: Gallade
+|-singleturn|p1a: Gallade|Protect
+|move|p2b: Sneasler|Close Combat|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|6/100
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|-damage|p2b: Sneasler|84/100|[from] item: Rocky Helmet|[of] p1b: Incineroar
+|move|p2a: Indeedee|Expanding Force|p1a: Gallade|[spread] 
+|-activate|p1a: Gallade|move: Protect
+|-immune|p1b: Incineroar
+|move|p1b: Incineroar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-enditem|p2a: Indeedee|Focus Sash
+|-damage|p2a: Indeedee|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1756768732
+|-terastallize|p2b: Sneasler|Flying
+|move|p2b: Sneasler|Acrobatics|p1a: Gallade
+|-supereffective|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|move|p2a: Indeedee|Dazzling Gleam|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|upkeep
+|
+|t:|1756768739
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p1b: Pikaboo|Mimikyu, L50, M, shiny|100/100
+|turn|3
+|
+|t:|1756768753
+|move|p1b: Pikaboo|Protect|p1b: Pikaboo
+|-singleturn|p1b: Pikaboo|Protect
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Sneasler|Dire Claw|p1b: Pikaboo
+|-activate|p1b: Pikaboo|move: Protect
+|move|p2a: Indeedee|Expanding Force|p1b: Pikaboo|[spread] 
+|-activate|p1a: Ursaluna|move: Protect
+|-activate|p1b: Pikaboo|move: Protect
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1756768765
+|-terastallize|p1a: Ursaluna|Ghost
+|move|p2b: Sneasler|Close Combat|p1a: Ursaluna
+|-immune|p1a: Ursaluna
+|move|p2a: Indeedee|Expanding Force|p1a: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|49/100 brn
+|-activate|p1b: Pikaboo|ability: Disguise
+|-damage|p1b: Pikaboo|100/100
+|detailschange|p1b: Pikaboo|Mimikyu-Busted, L50, M, shiny
+|-damage|p1b: Pikaboo|89/100|[from] pokemon: Mimikyu-Busted
+|move|p1a: Ursaluna|Facade|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|move|p1b: Pikaboo|Trick Room|p1b: Pikaboo
+|-fieldstart|move: Trick Room|[of] p1b: Pikaboo
+|
+|-damage|p1a: Ursaluna|43/100 brn|[from] brn
+|upkeep
+|
+|t:|1756768783
+|switch|p2b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|turn|5
+|
+|t:|1756768809
+|move|p1a: Ursaluna|Headlong Rush|p2b: Tyranitar
+|-supereffective|p2b: Tyranitar
+|-crit|p2b: Tyranitar
+|-damage|p2b: Tyranitar|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2b: Tyranitar
+|move|p2a: Indeedee|Expanding Force|p1b: Pikaboo|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|0 fnt
+|-damage|p1b: Pikaboo|34/100
+|faint|p1a: Ursaluna
+|move|p1b: Pikaboo|Trick Room|p1b: Pikaboo
+|-fieldend|move: Trick Room
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Pikaboo|28/100|[from] Sandstorm
+|-damage|p2a: Indeedee|0 fnt|[from] Sandstorm
+|faint|p2a: Indeedee
+|-fieldend|move: Psychic Terrain
+|upkeep
+|-message|JonnyNerd forfeited.
+|
+|win|twittle twister
+|l|☆JonnyNerd
+|player|p1|
+||JonnyNerd is ready for game 2.
+||twittle twister is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

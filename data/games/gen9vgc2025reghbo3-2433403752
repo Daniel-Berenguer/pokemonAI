@@ -1,0 +1,115 @@
+|j|☆Quill86
+|j|☆Champ B
+|html|Quill86Champ B    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756780223
+|gametype|doubles
+|player|p1|Quill86|lucas|1275
+|player|p2|Champ B|1|1305
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Smeargle, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Dragapult, L50, M|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Magmar, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,TrickRoom,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|SacredSword,WideGuard,TrickRoom,PsychoCut|||M|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,WeatherBall,EarthPower,HeatWave|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Protect,HeadlongRush,Facade,Earthquake|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|DazzlingGleam,ExpandingForce,MysticalFire,TrickRoom|||F|||50|,,,,,Fire]Smeargle||FocusSash|Moody|FakeOut,Spore,Instruct,FollowMe|||M|||50|,,,,,Ghost
+|showteam|p2|Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,FakeOut,Protect|||F|||50|,,,,,Stellar]Dragapult||ChoiceBand|ClearBody|DragonDarts,TeraBlast,PhantomForce,Uturn|||M|||50|,,,,,Ghost]Primarina||SitrusBerry|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||M|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Ghost]Magmar||Eviolite|VitalSpirit|Overheat,WillOWisp,FollowMe,Protect|||M|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Champ B)
+|
+|t:|1756780251
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Primarina|Primarina, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756780269
+|move|p2a: Sneasler|Dire Claw|p1b: Gallade
+|-damage|p1b: Gallade|38/100
+|move|p2b: Primarina|Hyper Voice|p1a: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Indeedee|80/100
+|-damage|p1b: Gallade|12/100
+|move|p1b: Gallade|Psycho Cut|p2b: Primarina
+|-crit|p2b: Primarina
+|-damage|p2b: Primarina|0 fnt
+|faint|p2b: Primarina
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|
+|t:|1756780277
+|switch|p2b: Kingambit|Kingambit, L50, F|100/100
+|turn|2
+|
+|t:|1756780288
+|-terastallize|p2b: Kingambit|Ghost
+|move|p2b: Kingambit|Kowtow Cleave|p1b: Gallade
+|-damage|p1b: Gallade|0 fnt
+|faint|p1b: Gallade
+|move|p1a: Indeedee|Dazzling Gleam|p2b: Kingambit|[spread] p2a,p2b
+|-damage|p2a: Sneasler|84/100
+|-damage|p2b: Kingambit|88/100
+|move|p2a: Sneasler|Dire Claw|p1a: Indeedee
+|-damage|p1a: Indeedee|36/100
+|
+|upkeep
+|
+|t:|1756780300
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|3
+|
+|t:|1756780307
+|move|p1a: Indeedee|Helping Hand|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Helping Hand|[of] p1a: Indeedee
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1b: Torkoal|Eruption|p2a: Sneasler|[spread] p2b
+|-activate|p2a: Sneasler|move: Protect
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756780314
+|switch|p2b: Dragapult|Dragapult, L50, M|100/100
+|turn|4
+|
+|t:|1756780321
+|-terastallize|p1b: Torkoal|Fire
+|move|p1a: Indeedee|Helping Hand|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Helping Hand|[of] p1a: Indeedee
+|move|p2a: Sneasler|Protect||[still]
+|-fail|p2a: Sneasler
+|move|p1b: Torkoal|Eruption|p2a: Sneasler|[spread] p2a,p2b
+|-resisted|p2b: Dragapult
+|-damage|p2a: Sneasler|0 fnt
+|-damage|p2b: Dragapult|0 fnt
+|faint|p2a: Sneasler
+|faint|p2b: Dragapult
+|
+|win|Quill86
+||Champ B is ready for game 2.
+||Quill86 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

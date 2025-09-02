@@ -1,0 +1,136 @@
+|j|☆jetboy57
+|j|☆31415thon
+|html|jetboy5731415thon    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756757266
+|gametype|doubles
+|player|p1|jetboy57|n|1117
+|player|p2|31415thon|266|1082
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Corviknight, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p2|Tatsugiri, L50, F|
+|poke|p2|Dondozo, L50, F|
+|poke|p2|Murkrow, L50, M|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||F|||50|,,,,,Flying]Corviknight||Leftovers|MirrorArmor|BulkUp,BraveBird,Tailwind,Roost|||M|||50|,,,,,Dragon]Indeedee||FocusSash|PsychicSurge|TrickRoom,ExpandingForce,Imprison,TeraBlast|||M|||50|,,,,,Fighting]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,ClearSmog,Protect|||F|||50|,,,,,Water]Sneasler||PsychicSeed|Unburden|ThroatChop,DireClaw,CloseCombat,Protect|||F|||50|,,,,,Dark]Garchomp||LifeOrb|SandVeil|Earthquake,DragonClaw,StompingTantrum,Protect|||M|||50|,,,,,Fairy
+|showteam|p2|Tatsugiri||ChoiceSpecs|Commander|DracoMeteor,HydroPump,MuddyWater,IcyWind|||F|||50|,,,,,Dragon]Dondozo||ClearAmulet|WaterVeil|WaveCrash,OrderUp,Earthquake,Protect|||F|||50|,,,,,Grass]Murkrow||FocusSash|Prankster|PerishSong,Tailwind,FoulPlay,Protect|||M|||50|,,,,,Ghost]Gothitelle||SitrusBerry|ShadowTag|FakeOut,Psychic,Taunt,Protect|||F|||50|,,,,,Dark]Amoonguss||EjectButton|Regenerator|Spore,RagePowder,SludgeBomb,Protect|||F|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|Protect,FakeOut,KnockOff,PartingShot|||F|||50|,,,,,Ghost
+|
+|t:|1756757323
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Corviknight|Corviknight, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Murkrow|Murkrow, L50, M|100/100
+|switch|p2b: Dondozo|Dondozo, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1756757365
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|move|p2a: Murkrow|Perish Song|p2a: Murkrow
+|-start|p1a: Corviknight|perish3|[silent]
+|-activate|p1b: Amoonguss|move: Psychic Terrain
+|-start|p2a: Murkrow|perish3|[silent]
+|-start|p2b: Amoonguss|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-start|p2a: Murkrow|perish3
+|-start|p1a: Corviknight|perish3
+|-start|p2b: Amoonguss|perish3
+|upkeep
+|turn|2
+|
+|t:|1756757403
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|move|p2a: Murkrow|Tailwind|p2a: Murkrow
+|-sidestart|p2: 31415thon|move: Tailwind
+|move|p2b: Amoonguss|Sludge Bomb|p1b: Amoonguss
+|-damage|p1b: Amoonguss|78/100
+|move|p1b: Amoonguss|Spore|p2a: Murkrow
+|-status|p2a: Murkrow|slp|[from] move: Spore
+|
+|-start|p2a: Murkrow|perish2
+|-start|p2b: Amoonguss|perish2
+|upkeep
+|turn|3
+|
+|t:|1756757427
+|switch|p2a: Dondozo|Dondozo, L50, F|100/100
+|move|p2b: Amoonguss|Protect|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|Protect
+|move|p1b: Amoonguss|Protect|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|Protect
+|move|p1a: Indeedee|Expanding Force|p2a: Dondozo|[spread] p2a
+|-activate|p2b: Amoonguss|move: Protect
+|-damage|p2a: Dondozo|45/100
+|
+|-start|p2b: Amoonguss|perish1
+|upkeep
+|turn|4
+|
+|t:|1756757448
+|switch|p2b: Tatsugiri|Tatsugiri, L50, F|100/100
+|-activate|p2b: Tatsugiri|ability: Commander|[of] p2a: Dondozo
+|-boost|p2a: Dondozo|atk|2
+|-boost|p2a: Dondozo|spa|2
+|-boost|p2a: Dondozo|spe|2
+|-boost|p2a: Dondozo|def|2
+|-boost|p2a: Dondozo|spd|2
+|move|p2a: Dondozo|Earthquake|p1a: Indeedee|[spread] p1a,p1b
+|-miss|p2a: Dondozo|p2b: Tatsugiri
+|-damage|p1a: Indeedee|9/100
+|-damage|p1b: Amoonguss|41/100
+|-enditem|p1b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1b: Amoonguss|66/100|[from] item: Sitrus Berry
+|move|p1a: Indeedee|Expanding Force|p2a: Dondozo|[spread] p2a
+|-miss|p1a: Indeedee|p2b: Tatsugiri
+|-damage|p2a: Dondozo|20/100
+|move|p1b: Amoonguss|Spore|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Spore
+|
+|upkeep
+|turn|5
+|l|☆31415thon
+|player|p2|
+|
+|t:|1756757481
+|move|p1b: Amoonguss|Protect|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|Protect
+|cant|p2a: Dondozo|slp
+|move|p1a: Indeedee|Expanding Force|p2b: Tatsugiri|[spread] p2a
+|-miss|p1a: Indeedee|p2b: Tatsugiri
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|-sideend|p2: 31415thon|move: Tailwind
+|-fieldend|move: Psychic Terrain
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jetboy57)
+|inactive|31415thon has 30 seconds to reconnect!
+|inactive|31415thon has 20 seconds to reconnect!
+|inactive|31415thon has 15 seconds to reconnect!
+|inactive|31415thon has 10 seconds to reconnect!
+|inactive|31415thon has 5 seconds to reconnect!
+|-message|31415thon lost due to inactivity.
+|
+|win|jetboy57
+|raw|jetboy57's rating: 1117 → 1139(+22 for winning)
+|raw|31415thon's rating: 1082 → 1062(-20 for losing)

@@ -1,0 +1,135 @@
+|j|☆3rdPlaceTennis
+|j|☆BuffBuneary
+|html|3rdPlaceTennisBuffBuneary    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756777998
+|gametype|doubles
+|player|p1|3rdPlaceTennis|bugcatcher-gen4dp|1182
+|player|p2|BuffBuneary|shauntal|1196
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Ribombee, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Mimikyu, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Typhlosion-Hisui, L50, F|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Talonflame, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Vivillon-Ocean, L50, F|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Dragonite||LoadedDice|Multiscale|ScaleShot,LowKick,ExtremeSpeed,Protect|||F|||50|,,,,,Fairy]Ribombee||FocusSash|ShieldDust|Moonblast,Tailwind,FakeTears,Protect|||F|||50|,,,,,Fairy]Archaludon||PowerHerb|Sturdy|ElectroShot,DracoMeteor,Thunderbolt,Protect|||F|||50|,,,,,Electric]Mimikyu||LifeOrb|Disguise|WoodHammer,ShadowSneak,PlayRough,TrickRoom|||F|||50|,,,,,Grass]Incineroar||AssaultVest|Intimidate|FlareBlitz,KnockOff,Uturn,FakeOut|||F|||50|,,,,,Bug]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,Overheat,ShadowBall,HeatWave|||F|||50|,,,,,Fire
+|showteam|p2|Annihilape||SafetyGoggles|Defiant|RageFist,DrainPunch,BulkUp,Protect|||M|||50|,,,,,Water]Ninetales-Alola||CovertCloak|SnowWarning|Blizzard,FreezeDry,AuroraVeil,Protect|||F|||50|,,,,,Ice]Talonflame||SharpBeak|GaleWings|DualWingbeat,Tailwind,WillOWisp,Protect|||M|||50|,,,,,Ghost]Garchomp||LifeOrb|RoughSkin|Earthquake,StompingTantrum,DragonClaw,Protect|||M|||50|,,,,,Steel]Vivillon-Ocean||FocusSash|CompoundEyes|SleepPowder,Hurricane,RagePowder,Protect|||F|||50|,,,,,Ghost]Gholdengo||IronPlate|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Steel
+|
+|t:|1756778049
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Literature|Incineroar, L50, F|100/100
+|switch|p1b: Mimikyu|Mimikyu, L50, F, shiny|100/100
+|switch|p2a: Talonflame|Talonflame, L50, M|100/100
+|switch|p2b: Vivillon|Vivillon-Ocean, L50, F|100/100
+|-ability|p1a: Literature|Intimidate|boost
+|-unboost|p2a: Talonflame|atk|1
+|-unboost|p2b: Vivillon|atk|1
+|turn|1
+|
+|t:|1756778103
+|switch|p2a: Garchomp|Garchomp, L50, M|100/100
+|-terastallize|p2b: Vivillon|Ghost
+|move|p1a: Literature|Fake Out|p2b: Vivillon
+|-immune|p2b: Vivillon
+|move|p2b: Vivillon|Sleep Powder|p1b: Mimikyu
+|-status|p1b: Mimikyu|slp|[from] move: Sleep Powder
+|cant|p1b: Mimikyu|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1756778128
+|switch|p2b: Talonflame|Talonflame, L50, M|100/100
+|move|p2a: Garchomp|Earthquake|p1a: Literature|[spread] p1a,p1b
+|-immune|p2b: Talonflame
+|-supereffective|p1a: Literature
+|-damage|p1a: Literature|14/100
+|-activate|p1b: Mimikyu|ability: Disguise
+|-damage|p1b: Mimikyu|100/100 slp
+|detailschange|p1b: Mimikyu|Mimikyu-Busted, L50, F, shiny
+|-damage|p1b: Mimikyu|88/100 slp|[from] pokemon: Mimikyu-Busted
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|cant|p1b: Mimikyu|slp
+|move|p1a: Literature|Knock Off|p2b: Talonflame
+|-damage|p2b: Talonflame|32/100
+|-enditem|p2b: Talonflame|Sharp Beak|[from] move: Knock Off|[of] p1a: Literature
+|
+|upkeep
+|turn|3
+|
+|t:|1756778155
+|move|p2b: Talonflame|Dual Wingbeat|p1b: Mimikyu
+|-damage|p1b: Mimikyu|64/100 slp
+|-damage|p1b: Mimikyu|38/100 slp
+|-hitcount|p1b: Mimikyu|2
+|move|p2a: Garchomp|Earthquake|p1b: Mimikyu|[spread] p1a,p1b
+|-immune|p2b: Talonflame
+|-supereffective|p1a: Literature
+|-damage|p1a: Literature|0 fnt
+|-damage|p1b: Mimikyu|0 fnt
+|faint|p1a: Literature
+|faint|p1b: Mimikyu
+|-damage|p2a: Garchomp|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756778191
+|switch|p1b: Archaludon|Archaludon, L50, F, shiny|100/100
+|switch|p1a: Typhlosion|Typhlosion-Hisui, L50, F, shiny|100/100
+|turn|4
+|
+|t:|1756778228
+|move|p2b: Talonflame|Tailwind|p2b: Talonflame
+|-sidestart|p2: BuffBuneary|move: Tailwind
+|move|p2a: Garchomp|Earthquake|p1a: Typhlosion|[spread] p1a,p1b
+|-immune|p2b: Talonflame
+|-supereffective|p1a: Typhlosion
+|-supereffective|p1b: Archaludon
+|-crit|p1b: Archaludon
+|-damage|p1a: Typhlosion|0 fnt
+|-ability|p1b: Archaludon|Sturdy
+|-damage|p1b: Archaludon|1/100
+|faint|p1a: Typhlosion
+|-damage|p2a: Garchomp|71/100|[from] item: Life Orb
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-enditem|p1b: Archaludon|Power Herb
+|-anim|p1b: Archaludon|Electro Shot|p2b: Talonflame
+|-supereffective|p2b: Talonflame
+|-crit|p2b: Talonflame
+|-damage|p2b: Talonflame|0 fnt
+|faint|p2b: Talonflame
+|
+|upkeep
+|
+|t:|1756778246
+|switch|p2b: Vivillon|Vivillon-Ocean, L50, F, tera:Ghost|100/100
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BuffBuneary)
+|
+|t:|1756778255
+|move|p2a: Garchomp|Stomping Tantrum|p1b: Archaludon
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|faint|p1b: Archaludon
+|-damage|p2a: Garchomp|61/100|[from] item: Life Orb
+|
+|win|BuffBuneary
+|raw|3rdPlaceTennis's rating: 1182 → 1158(-24 for losing)
+|raw|BuffBuneary's rating: 1196 → 1220(+24 for winning)

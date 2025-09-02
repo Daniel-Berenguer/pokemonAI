@@ -1,0 +1,125 @@
+|j|☆jmikebaeza
+|j|☆owbd
+|html|jmikebaezaowbd    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756797963
+|gametype|doubles
+|player|p1|jmikebaeza|sailor|1075
+|player|p2|owbd|cynthia-gen4|1114
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Armarouge, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Murkrow, L50, F|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Protect,Facade,Earthquake,HeadlongRush|||M|||50|,,,,,Ghost]Armarouge||PowerHerb|FlashFire|TrickRoom,MeteorBeam,ExpandingForce,ArmorCannon|||F|||50|,,,,,Fire]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,DazzlingGleam,FollowMe,HelpingHand|||F|||50|,,,,,Fairy]Torkoal||ChoiceSpecs|Drought|Eruption,WeatherBall,EarthPower,Protect|||M|||50|,,,,,Fire]Hatterene||LifeOrb|MagicBounce|DazzlingGleam,ExpandingForce,TrickRoom,Protect|||F|||50|,,,,,Psychic]Lilligant-Hisui||FocusSash|Chlorophyll|CloseCombat,SleepPowder,TripleAxel,AfterYou|||F|||50|,,,,,Ghost
+|showteam|p2|Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,ShadowBall,Thunderbolt,Trick||||||50|,,,,,Steel]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,PartingShot,FakeOut,KnockOff|||F|||50|,,,,,Ghost]Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,EarthPower,HyperVoice,Moonblast|||M|||50|,,,,,Normal]Indeedee||FocusSash|PsychicSurge|ExpandingForce,Protect,TrickRoom,Imprison|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,FakeOut,ThroatChop|||M|||50|,,,,,Stellar]Murkrow||CovertCloak|Prankster|FoulPlay,Haze,SunnyDay,Tailwind|||F|||50|,,,,,Dark
+|
+|t:|1756797996
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Armarouge|Armarouge, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756798021
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-terastallize|p1b: Armarouge|Fire
+|move|p2b: Sneasler|Throat Chop|p1a: Torkoal
+|-damage|p1a: Torkoal|78/100
+|-start|p1a: Torkoal|Throat Chop|[silent]
+|move|p2a: Indeedee|Imprison|p2a: Indeedee
+|-start|p2a: Indeedee|move: Imprison
+|move|p1b: Armarouge|Armor Cannon|p2a: Indeedee
+|-enditem|p2a: Indeedee|Focus Sash
+|-damage|p2a: Indeedee|1/100
+|-unboost|p1b: Armarouge|def|1
+|-unboost|p1b: Armarouge|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756798047
+|-terastallize|p2a: Indeedee|Psychic
+|move|p2b: Sneasler|Dire Claw|p1a: Torkoal
+|-damage|p1a: Torkoal|43/100
+|move|p2a: Indeedee|Expanding Force|p1b: Armarouge|[spread] p1a,p1b
+|-damage|p1a: Torkoal|0 fnt
+|-damage|p1b: Armarouge|0 fnt
+|faint|p1a: Torkoal
+|faint|p1b: Armarouge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756798059
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|turn|3
+|
+|t:|1756798074
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Sneasler|Dire Claw|p1a: Indeedee
+|-damage|p1a: Indeedee|53/100
+|-status|p1a: Indeedee|psn
+|move|p2a: Indeedee|Expanding Force|p1b: Hatterene|[spread] p1a,p1b
+|-resisted|p1a: Indeedee
+|-resisted|p1b: Hatterene
+|-damage|p1a: Indeedee|21/100 psn
+|-damage|p1b: Hatterene|50/100
+|move|p1b: Hatterene|Dazzling Gleam|p2a: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Sneasler|61/100
+|faint|p2a: Indeedee
+|-damage|p1b: Hatterene|40/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Indeedee|9/100 psn|[from] psn
+|upkeep
+|
+|t:|1756798090
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|turn|4
+|
+|t:|1756798098
+|move|p2b: Sneasler|Dire Claw|p1b: Hatterene
+|-supereffective|p1b: Hatterene
+|-damage|p1b: Hatterene|0 fnt
+|faint|p1b: Hatterene
+|move|p2a: Gholdengo|Make It Rain|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Indeedee
+|
+|win|owbd
+||owbd is ready for game 2.
+|inactive|jmikebaeza has 30 seconds to confirm battle start!
+|inactive|jmikebaeza has 20 seconds to confirm battle start!
+|inactive|jmikebaeza has 10 seconds to confirm battle start!
+|uhtml|next|Next: Game 2 of 3
+|l|☆jmikebaeza
+|player|p1|

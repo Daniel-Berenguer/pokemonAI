@@ -1,0 +1,345 @@
+|j|☆TISS 0'28
+|j|☆Cijini
+|html|TISS 0'28Cijini    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756663862
+|gametype|doubles
+|player|p1|TISS 0'28|hilbert|1099
+|player|p2|Cijini|101|1051
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Arcanine-Hisui, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Altaria, L50, F|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|showteam|p1|Annihilape||MistySeed|Defiant|Protect,BulkUp,DrainPunch,RageFist|||F|||50|,,,,,Dragon]Ursaluna-Bloodmoon||LifeOrb|MindsEye|Protect,EarthPower,HyperVoice,BloodMoon|||M|||50|,,,,,Normal]Farigiraf||ThroatSpray|ArmorTail|Protect,TrickRoom,HyperVoice,Psychic|||F|||50|,,,,,Grass]Arcanine-Hisui||ChoiceBand|Intimidate|FlareBlitz,RockSlide,ExtremeSpeed,WildCharge|||M|||50|,,,,,Grass]Whimsicott||CovertCloak|Prankster|Tailwind,MistyTerrain,Moonblast,Encore|||M|||50|,,,,,Dark]Altaria||SitrusBerry|CloudNine|Protect,Haze,Thief,HelpingHand|||F|||50|,,,,,Steel
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|IceBeam,TeraBlast,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Cijini)
+|
+|t:|1756663901
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100
+|switch|p2a: Charizard|Charizard, L50, M|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|1
+|
+|t:|1756663925
+|-terastallize|p1b: Annihilape|Dragon
+|move|p2b: Torkoal|Helping Hand|p2a: Charizard
+|-singleturn|p2a: Charizard|Helping Hand|[of] p2b: Torkoal
+|move|p1a: Whimsicott|Misty Terrain|p1a: Whimsicott
+|-fieldstart|move: Misty Terrain
+|-enditem|p1b: Annihilape|Misty Seed
+|-boost|p1b: Annihilape|spd|1|[from] item: Misty Seed
+|move|p2a: Charizard|Heat Wave|p1b: Annihilape|[spread] p1a,p1b
+|-supereffective|p1a: Whimsicott
+|-resisted|p1b: Annihilape
+|-damage|p1a: Whimsicott|0 fnt
+|-damage|p1b: Annihilape|49/100
+|faint|p1a: Whimsicott
+|move|p1b: Annihilape|Bulk Up|p1b: Annihilape
+|-boost|p1b: Annihilape|atk|1
+|-boost|p1b: Annihilape|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|
+|t:|1756663938
+|switch|p1a: Altaria|Altaria, L50, F|100/100
+|-ability|p1a: Altaria|Cloud Nine
+|turn|2
+|
+|t:|1756663951
+|switch|p2a: Jumpluff|Jumpluff, L50, F|100/100
+|move|p1a: Altaria|Helping Hand|p1b: Annihilape
+|-singleturn|p1b: Annihilape|Helping Hand|[of] p1a: Altaria
+|move|p1b: Annihilape|Drain Punch|p2b: Torkoal
+|-damage|p2b: Torkoal|53/100
+|-heal|p1b: Annihilape|69/100|[from] drain|[of] p2b: Torkoal
+|move|p2b: Torkoal|Overheat|p1b: Annihilape
+|-resisted|p1b: Annihilape
+|-damage|p1b: Annihilape|52/100
+|-unboost|p2b: Torkoal|spa|2
+|-enditem|p2b: Torkoal|Eject Pack
+|
+|t:|1756663963
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756663979
+|move|p1a: Altaria|Helping Hand|p1b: Annihilape
+|-singleturn|p1b: Annihilape|Helping Hand|[of] p1a: Altaria
+|move|p2a: Jumpluff|Tailwind|p2a: Jumpluff
+|-sidestart|p2: Cijini|move: Tailwind
+|move|p2b: Porygon2|Ice Beam|p1b: Annihilape
+|-supereffective|p1b: Annihilape
+|-damage|p1b: Annihilape|20/100
+|move|p1b: Annihilape|Drain Punch|p2b: Porygon2
+|-supereffective|p2b: Porygon2
+|-damage|p2b: Porygon2|16/100
+|-heal|p1b: Annihilape|57/100|[from] drain|[of] p2b: Porygon2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|TISS 0'28 has 30 seconds left.
+|inactive|TISS 0'28 has 20 seconds left.
+|inactive|TISS 0'28 has 15 seconds left.
+|inactive|TISS 0'28 has 10 seconds left.
+|inactive|TISS 0'28 has 5 seconds left.
+|
+|t:|1756664031
+|move|p1b: Annihilape|Protect|p1b: Annihilape
+|-singleturn|p1b: Annihilape|Protect
+|move|p2a: Jumpluff|Rage Powder|p2a: Jumpluff
+|-singleturn|p2a: Jumpluff|move: Rage Powder
+|move|p2b: Porygon2|Ice Beam|p1a: Altaria
+|-supereffective|p1a: Altaria
+|-damage|p1a: Altaria|10/100
+|-enditem|p1a: Altaria|Sitrus Berry|[eat]
+|-heal|p1a: Altaria|35/100|[from] item: Sitrus Berry
+|move|p1a: Altaria|Thief|p2a: Jumpluff
+|-damage|p2a: Jumpluff|89/100
+|-enditem|p2a: Jumpluff|Covert Cloak|[silent]|[from] move: Thief|[of] p1a: Altaria
+|-item|p1a: Altaria|Covert Cloak|[from] move: Thief|[of] p2a: Jumpluff
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|inactive|TISS 0'28 has 30 seconds left.
+|
+|t:|1756664058
+|move|p2a: Jumpluff|Rage Powder|p2a: Jumpluff
+|-singleturn|p2a: Jumpluff|move: Rage Powder
+|move|p2b: Porygon2|Ice Beam|p1b: Annihilape
+|-supereffective|p1b: Annihilape
+|-damage|p1b: Annihilape|23/100
+|move|p1b: Annihilape|Rage Fist|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|faint|p2a: Jumpluff
+|move|p1a: Altaria|Thief|p2b: Porygon2
+|-damage|p2b: Porygon2|9/100
+|
+|-weather|none
+|-fieldend|Misty Terrain
+|upkeep
+|
+|t:|1756664070
+|switch|p2a: Charizard|Charizard, L50, M|88/100
+|turn|6
+|
+|t:|1756664082
+|-terastallize|p2a: Charizard|Ghost
+|move|p1b: Annihilape|Protect|p1b: Annihilape
+|-singleturn|p1b: Annihilape|Protect
+|move|p2a: Charizard|Heat Wave|p1b: Annihilape|[spread] p1a
+|-activate|p1b: Annihilape|move: Protect
+|-resisted|p1a: Altaria
+|-damage|p1a: Altaria|13/100
+|move|p2b: Porygon2|Ice Beam|p1b: Annihilape
+|-activate|p1b: Annihilape|move: Protect
+|move|p1a: Altaria|Thief|p2b: Porygon2
+|-damage|p2b: Porygon2|2/100
+|
+|-sideend|p2: Cijini|move: Tailwind
+|upkeep
+|turn|7
+|inactive|TISS 0'28 has 30 seconds left.
+|
+|t:|1756664116
+|move|p2a: Charizard|Heat Wave|p1a: Altaria|[spread] p1a,p1b
+|-resisted|p1a: Altaria
+|-resisted|p1b: Annihilape
+|-damage|p1a: Altaria|0 fnt
+|-damage|p1b: Annihilape|7/100
+|faint|p1a: Altaria
+|move|p1b: Annihilape|Rage Fist|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|move|p2b: Porygon2|Ice Beam|p1b: Annihilape
+|-supereffective|p1b: Annihilape
+|-damage|p1b: Annihilape|0 fnt
+|faint|p1b: Annihilape
+|
+|upkeep
+|
+|t:|1756664132
+|switch|p2a: Torkoal|Torkoal, L50, M|53/100
+|switch|p1b: Arcanine|Arcanine-Hisui, L50, M|100/100
+|-ability|p1b: Arcanine|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Porygon2|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|8
+|c|☆TISS 0'28|gg
+|
+|t:|1756664150
+|move|p1b: Arcanine|Rock Slide|p2b: Porygon2|[spread] p2a
+|-miss|p1b: Arcanine|p2b: Porygon2
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|move|p2b: Porygon2|Recover|p2b: Porygon2
+|-heal|p2b: Porygon2|52/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1756664168
+|move|p1b: Arcanine|Rock Slide|p2b: Porygon2
+|-damage|p2b: Porygon2|16/100
+|move|p2b: Porygon2|Trick Room|p2b: Porygon2
+|-fieldstart|move: Trick Room|[of] p2b: Porygon2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1756664173
+|move|p2b: Porygon2|Recover|p2b: Porygon2
+|-heal|p2b: Porygon2|66/100
+|move|p1b: Arcanine|Rock Slide|p2b: Porygon2
+|-damage|p2b: Porygon2|27/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1756664178
+|move|p2b: Porygon2|Recover|p2b: Porygon2
+|-heal|p2b: Porygon2|77/100
+|move|p1b: Arcanine|Rock Slide|p2b: Porygon2
+|-damage|p2b: Porygon2|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1756664184
+|move|p2b: Porygon2|Recover|p2b: Porygon2
+|-heal|p2b: Porygon2|86/100
+|move|p1b: Arcanine|Rock Slide|p2b: Porygon2
+|-damage|p2b: Porygon2|52/100
+|
+|-weather|none
+|upkeep
+|turn|13
+|
+|t:|1756664190
+|move|p2b: Porygon2|Recover|p2b: Porygon2
+|-heal|p2b: Porygon2|100/100
+|move|p1b: Arcanine|Rock Slide|p2b: Porygon2|[miss]
+|-miss|p1b: Arcanine|p2b: Porygon2
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|t:|1756664195
+|move|p1b: Arcanine|Rock Slide|p2b: Porygon2
+|-damage|p2b: Porygon2|63/100
+|move|p2b: Porygon2|Trick Room|p2b: Porygon2
+|-fieldstart|move: Trick Room|[of] p2b: Porygon2
+|
+|upkeep
+|turn|15
+|
+|t:|1756664206
+|move|p2b: Porygon2|Ice Beam|p1b: Arcanine
+|-resisted|p1b: Arcanine
+|-damage|p1b: Arcanine|83/100
+|move|p1b: Arcanine|Rock Slide|p2b: Porygon2
+|-damage|p2b: Porygon2|24/100
+|
+|upkeep
+|turn|16
+|
+|t:|1756664213
+|move|p2b: Porygon2|Recover|p2b: Porygon2
+|-heal|p2b: Porygon2|74/100
+|move|p1b: Arcanine|Rock Slide|p2b: Porygon2
+|-damage|p2b: Porygon2|40/100
+|
+|upkeep
+|turn|17
+|
+|t:|1756664219
+|move|p2b: Porygon2|Recover|p2b: Porygon2
+|-heal|p2b: Porygon2|90/100
+|move|p1b: Arcanine|Rock Slide|p2b: Porygon2
+|-damage|p2b: Porygon2|52/100
+|
+|upkeep
+|turn|18
+|
+|t:|1756664227
+|move|p2b: Porygon2|Recover|p2b: Porygon2
+|-heal|p2b: Porygon2|100/100
+|move|p1b: Arcanine|Rock Slide|p2b: Porygon2
+|-damage|p2b: Porygon2|61/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|19
+|
+|t:|1756664233
+|move|p1b: Arcanine|Rock Slide|p2b: Porygon2
+|-damage|p2b: Porygon2|23/100
+|move|p2b: Porygon2|Trick Room|p2b: Porygon2
+|-fieldstart|move: Trick Room|[of] p2b: Porygon2
+|
+|upkeep
+|turn|20
+|c|☆TISS 0'28|gg
+|
+|t:|1756664243
+|move|p2b: Porygon2|Tera Blast|p1b: Arcanine
+|-resisted|p1b: Arcanine
+|-damage|p1b: Arcanine|59/100
+|move|p1b: Arcanine|Rock Slide|p2b: Porygon2|[miss]
+|-miss|p1b: Arcanine|p2b: Porygon2
+|
+|upkeep
+|turn|21
+|
+|t:|1756664249
+|move|p1b: Arcanine|Rock Slide|p2b: Porygon2|[miss]
+|-miss|p1b: Arcanine|p2b: Porygon2
+|move|p2b: Porygon2|Trick Room|p2b: Porygon2
+|-fieldend|move: Trick Room
+|
+|upkeep
+|turn|22
+|
+|t:|1756664254
+|move|p1b: Arcanine|Rock Slide|p2b: Porygon2
+|-damage|p2b: Porygon2|0 fnt
+|faint|p2b: Porygon2
+|
+|win|TISS 0'28
+||Cijini is ready for game 2.

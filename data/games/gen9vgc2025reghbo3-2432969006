@@ -1,0 +1,175 @@
+|j|☆HolgerD
+|j|☆GiovanniMuciaccia
+|html|HolgerDGiovanniMuciaccia    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756732481
+|gametype|doubles
+|player|p1|HolgerD|1|1282
+|player|p2|GiovanniMuciaccia|265|1250
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Electabuzz, L50, F|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Kingambit, L50, F|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Electabuzz||Eviolite|VitalSpirit|Electroweb,Taunt,FollowMe,Protect|||F|||50|,,,,,Dragon]Pelipper||FocusSash|Drizzle|Hurricane,MuddyWater,Tailwind,Protect|||F|||50|,,,,,Stellar]Archaludon||AssaultVest|Stamina|DragonPulse,ElectroShot,BodyPress,FlashCannon|||F|||50|,,,,,Bug]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom||||||50|,,,,,Dark]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Flying
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|j| magicplayher
+|
+|t:|1756732518
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Electabuzz|Electabuzz, L50, F|100/100
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|turn|1
+|
+|t:|1756732560
+|move|p1a: Electabuzz|Taunt|p2a: Porygon2
+|-start|p2a: Porygon2|move: Taunt
+|move|p2b: Ursaluna|Headlong Rush|p1b: Kingambit
+|-supereffective|p1b: Kingambit
+|-damage|p1b: Kingambit|2/100
+|-unboost|p2b: Ursaluna|def|1
+|-unboost|p2b: Ursaluna|spd|1
+|move|p2a: Porygon2|Ice Beam|p1b: Kingambit
+|-resisted|p1b: Kingambit
+|-damage|p1b: Kingambit|0 fnt
+|faint|p1b: Kingambit
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756732572
+|switch|p1b: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|turn|2
+|
+|t:|1756732585
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|move|p1a: Electabuzz|Electroweb|p2a: Porygon2|[spread] p2a,p2b
+|-damage|p2a: Porygon2|92/100
+|-damage|p2b: Torkoal|81/100
+|-unboost|p2a: Porygon2|spe|1
+|-unboost|p2b: Torkoal|spe|1
+|-enditem|p2b: Torkoal|Eject Pack
+|
+|t:|1756732602
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Electabuzz|atk|1
+|-unboost|p1b: Pelipper|atk|1
+|move|p1b: Pelipper|Muddy Water|p2b: Incineroar|[spread] p2a,p2b
+|-crit|p2a: Porygon2
+|-supereffective|p2b: Incineroar
+|-damage|p2a: Porygon2|78/100
+|-damage|p2b: Incineroar|76/100
+|-unboost|p2a: Porygon2|accuracy|1
+|-unboost|p2b: Incineroar|accuracy|1
+|move|p2a: Porygon2|Tera Blast|p1b: Pelipper
+|-damage|p1b: Pelipper|4/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756732639
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|move|p1a: Electabuzz|Protect|p1a: Electabuzz
+|-singleturn|p1a: Electabuzz|Protect
+|move|p2b: Incineroar|Knock Off|p1b: Ursaluna
+|-damage|p1b: Ursaluna|70/100
+|-enditem|p1b: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p2a: Porygon2|Ice Beam|p1b: Ursaluna|[miss]
+|-miss|p2a: Porygon2|p1b: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Porygon2|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1756732657
+|move|p1a: Electabuzz|Follow Me|p1a: Electabuzz
+|-singleturn|p1a: Electabuzz|move: Follow Me
+|move|p2b: Incineroar|Parting Shot|p1a: Electabuzz
+|-unboost|p1a: Electabuzz|atk|1
+|-unboost|p1a: Electabuzz|spa|1
+|
+|t:|1756732665
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100 brn|[from] Parting Shot
+|move|p1b: Ursaluna|Headlong Rush|p2b: Ursaluna
+|-damage|p2b: Ursaluna|53/100 brn
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|move|p2a: Porygon2|Ice Beam|p1a: Electabuzz
+|-damage|p1a: Electabuzz|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|47/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1756732706
+|switch|p2a: Incineroar|Incineroar, L50, F|76/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Electabuzz|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|-terastallize|p1b: Ursaluna|Ghost
+|move|p1a: Electabuzz|Taunt|p2a: Incineroar
+|-start|p2a: Incineroar|move: Taunt
+|move|p2b: Ursaluna|Earthquake|p1b: Ursaluna|[spread] p2a,p1a,p1b
+|-supereffective|p2a: Incineroar
+|-crit|p2a: Incineroar
+|-supereffective|p1a: Electabuzz
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p1a: Electabuzz|0 fnt
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p2a: Incineroar
+|faint|p1a: Electabuzz
+|faint|p1b: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|41/100 brn|[from] brn
+|upkeep
+|
+|t:|1756732721
+|switch|p2a: Porygon2|Porygon2, L50|78/100
+|switch|p1b: Pelipper|Pelipper, L50, F|4/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|turn|6
+|
+|t:|1756732730
+|switch|p2b: Torkoal|Torkoal, L50, F|81/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|move|p1b: Pelipper|Muddy Water|p2b: Torkoal|[spread] p2a
+|-miss|p1b: Pelipper|p2b: Torkoal
+|-damage|p2a: Porygon2|70/100
+|move|p2a: Porygon2|Ice Beam|p1b: Pelipper
+|-damage|p1b: Pelipper|0 fnt
+|faint|p1b: Pelipper
+|
+|win|GiovanniMuciaccia
+||GiovanniMuciaccia is ready for game 3.
+|inactive|HolgerD has 30 seconds to confirm battle start!
+||HolgerD is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

@@ -1,0 +1,148 @@
+|j|☆BBRAFF
+|j|☆Anicredible
+|html|BBRAFFAnicredible    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756751768
+|gametype|doubles
+|player|p1|BBRAFF|266|1024
+|player|p2|Anicredible|hilbert|1089
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Oranguru, L50, M|
+|poke|p1|Toxtricity, L50, F|
+|poke|p1|Kommo-o, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Arcanine-Hisui, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Altaria, L50, F|
+|teampreview|4
+|showteam|p1|Oranguru||CovertCloak|Telepathy|Instruct,TrickRoom,PsychicNoise,Yawn|||M|||50|,,,,,Dark]Toxtricity||LifeOrb|PunkRock|Boomburst,Overdrive,SludgeBomb,Protect|||F|||50|,,,,,Normal]Kommo-o||ThroatSpray|Soundproof|ClangorousSoul,ClangingScales,Flamethrower,Protect|||M|||50|,,,,,Fire]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,LifeDew,TrickRoom||||||50|,,,,,Water]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Sneasler||FocusSash|Unburden|FakeOut,CloseCombat,DireClaw,Protect|||F|||50|,,,,,Fighting
+|showteam|p2|Annihilape||MistySeed|Defiant|Protect,BulkUp,DrainPunch,RageFist|||F|||50|,,,,,Fire]Ursaluna-Bloodmoon||LifeOrb|MindsEye|Protect,EarthPower,HyperVoice,BloodMoon|||M|||50|,,,,,Normal]Farigiraf||ThroatSpray|ArmorTail|Protect,TrickRoom,HyperVoice,Psychic|||M|||50|,,,,,Dragon]Arcanine-Hisui||ChoiceBand|Intimidate|FlareBlitz,RockSlide,ExtremeSpeed,WildCharge|||F|||50|,,,,,Grass]Whimsicott||CovertCloak|Prankster|Tailwind,MistyTerrain,Moonblast,Encore|||M|||50|,,,,,Fire]Altaria||SitrusBerry|CloudNine|Protect,Haze,Thief,HelpingHand|||F|||50|,,,,,Fairy
+|
+|t:|1756751805
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Oranguru|Oranguru, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|turn|1
+|
+|t:|1756751826
+|-terastallize|p2a: Whimsicott|Fire
+|move|p2a: Whimsicott|Misty Terrain|p2a: Whimsicott
+|-fieldstart|move: Misty Terrain
+|move|p1b: Sneasler|Dire Claw|p2a: Whimsicott
+|-damage|p2a: Whimsicott|44/100
+|move|p2b: Farigiraf|Hyper Voice|p1b: Sneasler|[spread] p1a,p1b
+|-damage|p1a: Oranguru|77/100
+|-damage|p1b: Sneasler|57/100
+|-enditem|p2b: Farigiraf|Throat Spray
+|-boost|p2b: Farigiraf|spa|1|[from] item: Throat Spray
+|move|p1a: Oranguru|Yawn|p2b: Farigiraf
+|-start|p2b: Farigiraf|move: Yawn|[of] p1a: Oranguru
+|
+|upkeep
+|turn|2
+|
+|t:|1756751865
+|switch|p1a: Kommo-o|Kommo-o, L50, M|100/100
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: Anicredible|move: Tailwind
+|move|p1b: Sneasler|Dire Claw|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|move|p2b: Farigiraf|Hyper Voice|p1b: Sneasler|[spread] p1b
+|-immune|p1a: Kommo-o|[from] ability: Soundproof
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|
+|-end|p2b: Farigiraf|move: Yawn|[silent]
+|-activate|p2b: Farigiraf|move: Misty Terrain
+|upkeep
+|
+|t:|1756751883
+|switch|p1b: Toxtricity|Toxtricity, L50, F|100/100
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|3
+|
+|t:|1756751897
+|-terastallize|p1b: Toxtricity|Normal
+|move|p2b: Farigiraf|Psychic|p1b: Toxtricity
+|-damage|p1b: Toxtricity|26/100
+|move|p2a: Ursaluna|Blood Moon|p1a: Kommo-o
+|-damage|p1a: Kommo-o|10/100
+|-damage|p2a: Ursaluna|91/100|[from] item: Life Orb
+|move|p1a: Kommo-o|Flamethrower|p2a: Ursaluna
+|-damage|p2a: Ursaluna|65/100
+|move|p1b: Toxtricity|Boomburst|p2b: Farigiraf|[spread] p2a,p2b
+|-immune|p1a: Kommo-o|[from] ability: Soundproof
+|-damage|p2a: Ursaluna|0 fnt
+|-damage|p2b: Farigiraf|11/100
+|faint|p2a: Ursaluna
+|-damage|p1b: Toxtricity|16/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756751913
+|switch|p2a: Arcanine|Arcanine-Hisui, L50, F|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Kommo-o|atk|1
+|-unboost|p1b: Toxtricity|atk|1
+|turn|4
+|
+|t:|1756751946
+|move|p1a: Kommo-o|Protect|p1a: Kommo-o
+|-singleturn|p1a: Kommo-o|Protect
+|move|p2a: Arcanine|Flare Blitz|p1a: Kommo-o
+|-activate|p1a: Kommo-o|move: Protect
+|move|p2b: Farigiraf|Hyper Voice|p1b: Toxtricity|[spread] p1b
+|-activate|p1a: Kommo-o|move: Protect
+|-damage|p1b: Toxtricity|0 fnt
+|faint|p1b: Toxtricity
+|
+|upkeep
+|
+|t:|1756751950
+|switch|p1b: Oranguru|Oranguru, L50, M|77/100
+|turn|5
+|
+|t:|1756751980
+|move|p1a: Kommo-o|Protect|p1a: Kommo-o
+|-singleturn|p1a: Kommo-o|Protect
+|move|p2a: Arcanine|Flare Blitz|p1b: Oranguru
+|-crit|p1b: Oranguru
+|-damage|p1b: Oranguru|0 fnt
+|faint|p1b: Oranguru
+|-damage|p2a: Arcanine|73/100|[from] Recoil
+|move|p2b: Farigiraf|Psychic|p1a: Kommo-o
+|-activate|p1a: Kommo-o|move: Protect
+|
+|-sideend|p2: Anicredible|move: Tailwind
+|-fieldend|Misty Terrain
+|upkeep
+|turn|6
+|
+|t:|1756751993
+|move|p2a: Arcanine|Flare Blitz|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|-damage|p2a: Arcanine|70/100|[from] Recoil
+|
+|win|Anicredible
+|raw|BBRAFF's rating: 1024 → 1013(-11 for losing)
+|raw|Anicredible's rating: 1089 → 1111(+22 for winning)
+|c|☆Anicredible|gg
+|l|☆BBRAFF
+|player|p1|

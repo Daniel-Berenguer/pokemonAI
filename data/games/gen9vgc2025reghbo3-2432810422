@@ -1,0 +1,150 @@
+|j|☆cuduchi
+|j|☆LPTesting1
+|html|cuduchiLPTesting1    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756705674
+|gametype|doubles
+|player|p1|cuduchi|hilbert|1082
+|player|p2|LPTesting1|266|1162
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Scizor, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Maushold, L50|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|showteam|p1|Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Farigiraf||SitrusBerry|ArmorTail|HyperVoice,Psychic,TrickRoom,HelpingHand|||F|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,TeraBlast,KnockOff,LowKick|||F|||50|,,,,,Flying]Scizor||FocusSash|Technician|Protect,BulletPunch,DualWingbeat,SwordsDance|||M|||50|,,,,,Steel]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark]Amoonguss||RockyHelmet|Regenerator|Spore,RagePowder,ClearSmog,Protect|||M|||50|,,,,,Water
+|showteam|p2|Maushold||SafetyGoggles|FriendGuard|BeatUp,Taunt,FollowMe,Protect||||||50|,,,,,Ghost]Annihilape||Leftovers|Defiant|RageFist,DrainPunch,BulkUp,Protect|||F|||50|,,,,,Grass]Sinistcha||RockyHelmet|Hospitality|MatchaGotcha,LifeDew,TrickRoom,RagePowder||||||50|,,,,,Water]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,WideGuard|||F|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|ElectroShot,DragonPulse,FlashCannon,BodyPress|||M|||50|,,,,,Grass]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,Roar,FakeOut|||F|||50|,,,,,Grass
+|
+|t:|1756705717
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, F, shiny|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|switch|p2a: Maushold|Maushold, L50|100/100
+|switch|p2b: Annihilape|Annihilape, L50, F|100/100
+|turn|1
+|
+|t:|1756705753
+|-terastallize|p2b: Annihilape|Grass
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2a: Maushold|Beat Up|p2b: Annihilape
+|-damage|p2b: Annihilape|99/100
+|-damage|p2b: Annihilape|97/100
+|-damage|p2b: Annihilape|95/100
+|-damage|p2b: Annihilape|93/100
+|-hitcount|p2b: Annihilape|4
+|move|p2b: Annihilape|Rage Fist|p1b: Amoonguss
+|-damage|p1b: Amoonguss|9/100
+|-damage|p2b: Annihilape|77/100|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|-heal|p2b: Annihilape|83/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1756705810
+|move|p1b: Amoonguss|Spore|p2a: Maushold
+|-activate|p2a: Maushold|item: Safety Goggles|Spore
+|move|p1a: Farigiraf|Hyper Voice|p2b: Annihilape|[spread] p2a,p2b
+|-damage|p2a: Maushold|62/100
+|-damage|p2b: Annihilape|65/100
+|move|p2b: Annihilape|Drain Punch|p1a: Farigiraf
+|-damage|p1a: Farigiraf|64/100
+|-heal|p2b: Annihilape|84/100|[from] drain|[of] p1a: Farigiraf
+|move|p2a: Maushold|Taunt|p1b: Amoonguss
+|-start|p1b: Amoonguss|move: Taunt
+|
+|-heal|p2b: Annihilape|90/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1756705834
+|switch|p1b: Tyranitar|Tyranitar, L50, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|move|p2a: Maushold|Protect|p2a: Maushold
+|-singleturn|p2a: Maushold|Protect
+|move|p1a: Farigiraf|Hyper Voice|p2a: Maushold|[spread] p2b
+|-activate|p2a: Maushold|move: Protect
+|-damage|p2b: Annihilape|72/100
+|move|p2b: Annihilape|Bulk Up|p2b: Annihilape
+|-boost|p2b: Annihilape|atk|1
+|-boost|p2b: Annihilape|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Farigiraf|58/100|[from] Sandstorm
+|-damage|p2b: Annihilape|65/100|[from] Sandstorm
+|-heal|p2b: Annihilape|72/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1756705862
+|-terastallize|p1b: Tyranitar|Flying
+|move|p1a: Farigiraf|Helping Hand|p1b: Tyranitar
+|-singleturn|p1b: Tyranitar|Helping Hand|[of] p1a: Farigiraf
+|move|p2a: Maushold|Follow Me|p2a: Maushold
+|-singleturn|p2a: Maushold|move: Follow Me
+|move|p1b: Tyranitar|Tera Blast|p2a: Maushold|[anim] Tera Blast Flying
+|-crit|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|faint|p2a: Maushold
+|move|p2b: Annihilape|Rage Fist|p1b: Tyranitar
+|-damage|p1b: Tyranitar|0 fnt
+|faint|p1b: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Farigiraf|52/100|[from] Sandstorm
+|-damage|p2b: Annihilape|65/100|[from] Sandstorm
+|-heal|p2b: Annihilape|72/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756705882
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Sinistcha|Sinistcha, L50|100/100
+|-heal|p2b: Annihilape|97/100|[from] ability: Hospitality|[of] p2a: Sinistcha
+|turn|5
+|
+|t:|1756705913
+|move|p1a: Farigiraf|Helping Hand|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Helping Hand|[of] p1a: Farigiraf
+|move|p2b: Annihilape|Protect|p2b: Annihilape
+|-singleturn|p2b: Annihilape|Protect
+|move|p1b: Ursaluna|Blood Moon|p2b: Annihilape
+|-activate|p2b: Annihilape|move: Protect
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Farigiraf|[spread] p1a,p1b
+|-supereffective|p1b: Ursaluna
+|-damage|p1a: Farigiraf|33/100
+|-damage|p1b: Ursaluna|50/100
+|-enditem|p1a: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1a: Farigiraf|57/100|[from] item: Sitrus Berry
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Farigiraf|51/100|[from] Sandstorm
+|-damage|p2a: Sinistcha|94/100|[from] Sandstorm
+|-damage|p2b: Annihilape|90/100|[from] Sandstorm
+|-heal|p2b: Annihilape|97/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|-message|cuduchi forfeited.
+|
+|win|LPTesting1
+|raw|cuduchi's rating: 1082 → 1065(-17 for losing)
+|raw|LPTesting1's rating: 1162 → 1181(+19 for winning)
+|l|☆cuduchi
+|player|p1|

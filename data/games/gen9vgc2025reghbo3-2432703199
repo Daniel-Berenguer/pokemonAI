@@ -1,0 +1,154 @@
+|j|☆Canned Furs
+|j|☆Chandeliere
+|html|Canned FursChandeliere    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756690670
+|gametype|doubles
+|player|p1|Canned Furs|wulfric|1057
+|player|p2|Chandeliere|ethan|1248
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Hariyama, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Wyrdeer, L50, F|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Corviknight, L50, M|
+|teampreview|4
+|showteam|p1|Lilligant-Hisui||FocusSash|Chlorophyll|CloseCombat,AfterYou,SwordsDance,GrassyGlide|||F|||50|,,,,,Ghost]Torkoal||Charcoal|Drought|HeatWave,Eruption,EarthPower,Protect|||F|||50|,,,,,Fire]Farigiraf||SafetyGoggles|ArmorTail|TrickRoom,HelpingHand,Protect,PsychicNoise|||F|||50|,,,,,Fire]Hariyama||ClearAmulet|ThickFat|FakeOut,CloseCombat,HeadlongRush,KnockOff|||M|||50|,,,,,Ground]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,Uturn|||F|||50|,,,,,Fire]Wyrdeer||CovertCloak|Intimidate|TrickRoom,Thunderbolt,HelpingHand,TeraBlast|||F|||50|,,,,,Fighting
+|showteam|p2|Ninetales-Alola||LightClay|SnowWarning|AuroraVeil,Blizzard,FreezeDry,Protect|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Garchomp||ClearAmulet|RoughSkin|Earthquake,StompingTantrum,DragonClaw,Protect|||M|||50|,,,,,Ground]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Sneasler||WhiteHerb|Unburden|Coaching,CloseCombat,DireClaw,Protect|||F|||50|,,,,,Ghost]Corviknight||SitrusBerry|MirrorArmor|BodyPress,BraveBird,Tailwind,Protect|||M|||50|,,,,,Fire
+|
+|t:|1756690711
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hariyama|Hariyama, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Garchomp|Garchomp, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Hariyama|unboost|[from] item: Clear Amulet|[of] p1a: Hariyama
+|-unboost|p1b: Farigiraf|atk|1
+|turn|1
+|
+|t:|1756690769
+|move|p1a: Hariyama|Fake Out|p2b: Garchomp
+|-damage|p2b: Garchomp|86/100
+|-damage|p1a: Hariyama|88/100|[from] ability: Rough Skin|[of] p2b: Garchomp
+|cant|p2b: Garchomp|flinch
+|move|p2a: Incineroar|Knock Off|p1b: Farigiraf
+|-supereffective|p1b: Farigiraf
+|-damage|p1b: Farigiraf|19/100
+|-enditem|p1b: Farigiraf|Safety Goggles|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1756690793
+|-terastallize|p2a: Incineroar|Ghost
+|move|p1b: Farigiraf|Protect|p1b: Farigiraf
+|-singleturn|p1b: Farigiraf|Protect
+|move|p1a: Hariyama|Close Combat|p2a: Incineroar
+|-immune|p2a: Incineroar
+|move|p2a: Incineroar|Knock Off|p1b: Farigiraf
+|-activate|p1b: Farigiraf|move: Protect
+|move|p2b: Garchomp|Dragon Claw|p1a: Hariyama
+|-damage|p1a: Hariyama|40/100
+|
+|upkeep
+|turn|3
+|
+|t:|1756690814
+|switch|p1b: Wyrdeer|Wyrdeer, L50, F|100/100
+|-ability|p1b: Wyrdeer|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-fail|p2b: Garchomp|unboost|[from] item: Clear Amulet|[of] p2b: Garchomp
+|move|p1a: Hariyama|Knock Off|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|45/100
+|-enditem|p2a: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p1a: Hariyama
+|move|p2a: Incineroar|Knock Off|p1b: Wyrdeer
+|-supereffective|p1b: Wyrdeer
+|-damage|p1b: Wyrdeer|40/100
+|-enditem|p1b: Wyrdeer|Covert Cloak|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p2b: Garchomp|Dragon Claw|p1a: Hariyama
+|-damage|p1a: Hariyama|0 fnt
+|faint|p1a: Hariyama
+|
+|upkeep
+|
+|t:|1756690816
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|4
+|
+|t:|1756690859
+|-terastallize|p1a: Torkoal|Fire
+|move|p1b: Wyrdeer|Helping Hand|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Helping Hand|[of] p1b: Wyrdeer
+|move|p1a: Torkoal|Eruption|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2b: Garchomp
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Garchomp|0 fnt
+|faint|p2a: Incineroar
+|faint|p2b: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756690868
+|switch|p2a: Corviknight|Corviknight, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|turn|5
+|
+|t:|1756690888
+|move|p2a: Corviknight|Protect|p2a: Corviknight
+|-singleturn|p2a: Corviknight|Protect
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1a: Torkoal|Eruption|p2a: Corviknight|[spread] 
+|-activate|p2a: Corviknight|move: Protect
+|-activate|p2b: Sneasler|move: Protect
+|move|p1b: Wyrdeer|Thunderbolt|p2a: Corviknight
+|-activate|p2a: Corviknight|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1756690914
+|move|p2b: Sneasler|Dire Claw|p1b: Wyrdeer
+|-damage|p1b: Wyrdeer|0 fnt
+|faint|p1b: Wyrdeer
+|move|p2a: Corviknight|Brave Bird|p1a: Torkoal
+|-damage|p1a: Torkoal|68/100
+|-damage|p2a: Corviknight|91/100|[from] Recoil
+|move|p1a: Torkoal|Heat Wave|p2b: Sneasler|[spread] p2a,p2b
+|-supereffective|p2a: Corviknight
+|-crit|p2b: Sneasler
+|-damage|p2a: Corviknight|0 fnt
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2a: Corviknight
+|faint|p2b: Sneasler
+|
+|win|Canned Furs
+||Chandeliere is ready for game 2.
+|inactive|Canned Furs has 30 seconds to confirm battle start!
+|inactive|Canned Furs has 20 seconds to confirm battle start!
+||Canned Furs is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆Canned Furs
+|player|p1|

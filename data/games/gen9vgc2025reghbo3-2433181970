@@ -1,0 +1,161 @@
+|j|☆The_TrueNose
+|j|☆Tsbaasddf
+|html|The_TrueNoseTsbaasddf    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756755294
+|gametype|doubles
+|player|p1|The_TrueNose|102|1115
+|player|p2|Tsbaasddf|102|1108
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Typhlosion-Hisui, L50, F|
+|poke|p1|Kingambit, L50, F|
+|poke|p2|Shiftry, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Skeledirge, L50, M|
+|poke|p2|Gastrodon, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Sinistcha, L50|
+|teampreview|4
+|showteam|p1|Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,Earthquake,Protect|||M|||50|,,,,,Fire]Jumpluff||CovertCloak|Chlorophyll|LeafStorm,SleepPowder,Encore,Tailwind|||F|||50|,,,,,Water]Torkoal||EjectPack|Drought|Overheat,BurningJealousy,HelpingHand,Protect|||F|||50|,,,,,Flying]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,IceSpinner,Protect|||M|||50|,,,,,Fairy]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,ShadowBall,HeatWave,Overheat|||F|||50|,,,,,Fire]Kingambit||AssaultVest|Defiant|SuckerPunch,Assurance,IronHead,LowKick|||F|||50|,,,,,Fire
+|showteam|p2|Shiftry||FocusSash|WindRider|KnockOff,LeafBlade,SuckerPunch,Protect|||M|||50|,,,,,Ghost]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,EarthPower,HyperVoice,Protect|||M|||50|,,,,,Ghost]Skeledirge||Leftovers|Unaware|AlluringVoice,TorchSong,ShadowBall,Protect|||M|||50|,,,,,Water]Gastrodon||SitrusBerry|StormDrain|IcyWind,EarthPower,Yawn,MuddyWater|||F|||50|,,,,,Fire]Sneasler||WhiteHerb|Unburden|FakeOut,CloseCombat,DireClaw,Protect|||F|||50|,,,,,Ghost]Sinistcha||RockyHelmet|Hospitality|RagePowder,MatchaGotcha,ShadowBall,LifeDew||||||50|,,,,,Dark
+|
+|t:|1756755327
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jumpluff|Jumpluff, L50, F|100/100
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|switch|p2a: Shiftry|Shiftry, L50, M|100/100
+|switch|p2b: Gastrodon|Gastrodon, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|1
+|
+|t:|1756755345
+|move|p2a: Shiftry|Sucker Punch|p1b: Torkoal
+|-damage|p1b: Torkoal|78/100
+|move|p1a: Jumpluff|Sleep Powder|p2b: Gastrodon|[miss]
+|-miss|p1a: Jumpluff|p2b: Gastrodon
+|move|p2b: Gastrodon|Icy Wind|p1a: Jumpluff|[spread] p1a,p1b
+|-supereffective|p1a: Jumpluff
+|-resisted|p1b: Torkoal
+|-damage|p1a: Jumpluff|52/100
+|-damage|p1b: Torkoal|70/100
+|-unboost|p1b: Torkoal|spe|1
+|-enditem|p1b: Torkoal|Eject Pack
+|
+|t:|1756755360
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756755370
+|move|p1a: Jumpluff|Sleep Powder|p2b: Gastrodon
+|-status|p2b: Gastrodon|slp|[from] move: Sleep Powder
+|move|p2a: Shiftry|Knock Off|p1b: Dragonite
+|-damage|p1b: Dragonite|81/100
+|-enditem|p1b: Dragonite|Loaded Dice|[from] move: Knock Off|[of] p2a: Shiftry
+|move|p1b: Dragonite|Scale Shot|p2a: Shiftry
+|-damage|p2a: Shiftry|80/100
+|-damage|p2a: Shiftry|60/100
+|-damage|p2a: Shiftry|40/100
+|-damage|p2a: Shiftry|16/100
+|-hitcount|p2a: Shiftry|4
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|cant|p2b: Gastrodon|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756755390
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100
+|move|p1b: Dragonite|Extreme Speed|p2a: Shiftry
+|-damage|p2a: Shiftry|0 fnt
+|faint|p2a: Shiftry
+|-curestatus|p2b: Gastrodon|slp|[msg]
+|move|p2b: Gastrodon|Icy Wind|p1a: Garchomp|[spread] p1b
+|-miss|p2b: Gastrodon|p1a: Garchomp
+|-supereffective|p1b: Dragonite
+|-damage|p1b: Dragonite|27/100
+|-unboost|p1b: Dragonite|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756755411
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|4
+|
+|t:|1756755420
+|-terastallize|p1a: Garchomp|Fire
+|move|p1a: Garchomp|Earthquake|p2b: Gastrodon|[spread] p2a,p2b
+|-immune|p1b: Dragonite
+|-damage|p2a: Ursaluna|64/100
+|-damage|p2b: Gastrodon|41/100
+|-enditem|p2b: Gastrodon|Sitrus Berry|[eat]
+|-heal|p2b: Gastrodon|66/100|[from] item: Sitrus Berry
+|-damage|p1a: Garchomp|91/100|[from] item: Life Orb
+|move|p1b: Dragonite|Ice Spinner|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|27/100
+|move|p2a: Ursaluna|Blood Moon|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|-damage|p2a: Ursaluna|17/100|[from] item: Life Orb
+|move|p2b: Gastrodon|Icy Wind|p1b: Dragonite
+|-supereffective|p1b: Dragonite
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1b: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756755431
+|switch|p1a: Jumpluff|Jumpluff, L50, F|52/100
+|switch|p1b: Torkoal|Torkoal, L50, F|70/100
+|turn|5
+|
+|t:|1756755444
+|move|p1a: Jumpluff|Sleep Powder|p2b: Gastrodon
+|-status|p2b: Gastrodon|slp|[from] move: Sleep Powder
+|move|p2a: Ursaluna|Earth Power|p1b: Torkoal
+|-supereffective|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|-damage|p2a: Ursaluna|7/100|[from] item: Life Orb
+|cant|p2b: Gastrodon|slp
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1756755452
+|move|p1a: Jumpluff|Leaf Storm|p2b: Gastrodon
+|-supereffective|p2b: Gastrodon
+|-damage|p2b: Gastrodon|0 fnt
+|-unboost|p1a: Jumpluff|spa|2
+|faint|p2b: Gastrodon
+|move|p2a: Ursaluna|Blood Moon|p1a: Jumpluff
+|-damage|p1a: Jumpluff|0 fnt
+|faint|p1a: Jumpluff
+|-damage|p2a: Ursaluna|0 fnt|[from] item: Life Orb
+|faint|p2a: Ursaluna
+|
+|win|Tsbaasddf
+||The_TrueNose is ready for game 2.
+||Tsbaasddf is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆Tsbaasddf
+|player|p2|

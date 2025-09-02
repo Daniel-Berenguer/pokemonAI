@@ -1,0 +1,204 @@
+|j|☆fan di eulero
+|j|☆Nearshort
+|html|fan di euleroNearshort    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756737394
+|gametype|doubles
+|player|p1|fan di eulero|266|1027
+|player|p2|Nearshort|birdkeeper-gen4dp|1156
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Glimmora, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Maushold, L50|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Arcanine, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|showteam|p1|Glimmora||PowerHerb|ToxicDebris|SludgeBomb,MeteorBeam,EarthPower,SpikyShield|||F|||50|,,,,,Grass]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,Uturn|||M|||50|,,,,,Poison]Whimsicott||CovertCloak|Prankster|BeatUp,Tailwind,Encore,Moonblast|||F|||50|,,,,,Dark]Maushold||SafetyGoggles|FriendGuard|BeatUp,FollowMe,Taunt,Protect||||||50|,,,,,Ghost]Tyranitar||GrassySeed|SandStream|RockSlide,KnockOff,LowKick,Protect|||F|||50|,,,,,Fairy]Arcanine||LifeOrb|Justified|FlareBlitz,ExtremeSpeed,CloseCombat,Protect|||M|||50|,,,,,Normal
+|showteam|p2|Tyranitar||AssaultVest|SandStream|IcyWind,LowKick,RockSlide,KnockOff|||M|||50|,,,,,Bug]Amoonguss||SitrusBerry|Regenerator|SludgeBomb,RagePowder,Spore,Protect|||M|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,KnockOff,FlareBlitz|||F|||50|,,,,,Ghost]Excadrill||FocusSash|SandForce|Earthquake,Protect,RockSlide,IronHead|||M|||50|,,,,,Ground]Basculegion||ChoiceScarf|Adaptability|WaveCrash,FlipTurn,LastRespects,Crunch|||M|||50|,,,,,Water]Farigiraf||ThroatSpray|ArmorTail|TrickRoom,HyperVoice,Psychic,Protect|||F|||50|,,,,,Normal
+|
+|t:|1756737405
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Arcanine|Arcanine, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Arcanine|atk|1
+|turn|1
+|
+|t:|1756737485
+|switch|p1b: Glimmora|Glimmora, L50, F|100/100
+|move|p2a: Incineroar|Fake Out|p1b: Glimmora
+|-resisted|p1b: Glimmora
+|-damage|p1b: Glimmora|94/100
+|-activate|p1b: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Nearshort|move: Toxic Spikes
+|move|p1a: Rillaboom|U-turn|p2b: Farigiraf
+|-supereffective|p2b: Farigiraf
+|-damage|p2b: Farigiraf|70/100
+|
+|t:|1756737508
+|switch|p1a: Arcanine|Arcanine, L50, M|100/100|[from] U-turn
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|-heal|p2b: Farigiraf|76/100|[from] Grassy Terrain
+|-heal|p1b: Glimmora|100/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756737551
+|move|p1b: Glimmora|Spiky Shield|p1b: Glimmora
+|-singleturn|p1b: Glimmora|move: Protect
+|move|p2a: Incineroar|Knock Off|p1b: Glimmora
+|-activate|p1b: Glimmora|move: Protect
+|-damage|p2a: Incineroar|88/100|[from] Spiky Shield|[of] p1b: Glimmora
+|move|p2b: Farigiraf|Hyper Voice|p1b: Glimmora|[spread] p1a
+|-activate|p1b: Glimmora|move: Protect
+|-damage|p1a: Arcanine|66/100
+|-enditem|p2b: Farigiraf|Throat Spray
+|-boost|p2b: Farigiraf|spa|1|[from] item: Throat Spray
+|move|p1a: Arcanine|Flare Blitz|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|-damage|p1a: Arcanine|36/100|[from] Recoil
+|-damage|p1a: Arcanine|26/100|[from] item: Life Orb
+|
+|-heal|p2a: Incineroar|94/100|[from] Grassy Terrain
+|-heal|p1a: Arcanine|32/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756737565
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|-sideend|p2: Nearshort|move: Toxic Spikes|[of] p2b: Amoonguss
+|turn|3
+|
+|t:|1756737636
+|switch|p1a: Maushold|Maushold, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-terastallize|p2b: Amoonguss|Water
+|move|p2b: Amoonguss|Sludge Bomb|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|74/100
+|move|p2a: Incineroar|Flare Blitz|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|6/100
+|-damage|p2a: Incineroar|71/100|[from] Recoil
+|
+|-heal|p2a: Incineroar|77/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|12/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756737669
+|switch|p1b: Arcanine|Arcanine, L50, M|32/100
+|move|p2b: Amoonguss|Sludge Bomb|p1b: Arcanine
+|-damage|p1b: Arcanine|7/100
+|-status|p1b: Arcanine|psn
+|move|p2a: Incineroar|Flare Blitz|p1b: Arcanine
+|-resisted|p1b: Arcanine
+|-damage|p1b: Arcanine|0 fnt
+|faint|p1b: Arcanine
+|-damage|p2a: Incineroar|75/100|[from] Recoil
+|move|p1a: Maushold|Taunt|p2b: Amoonguss
+|-start|p2b: Amoonguss|move: Taunt
+|
+|-heal|p2a: Incineroar|81/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756737684
+|switch|p1b: Glimmora|Glimmora, L50, F|100/100
+|turn|5
+|
+|t:|1756737690
+|move|p1a: Maushold|Follow Me|p1a: Maushold
+|-singleturn|p1a: Maushold|move: Follow Me
+|move|p2b: Amoonguss|Sludge Bomb|p1a: Maushold
+|-damage|p1a: Maushold|65/100
+|move|p2a: Incineroar|Flare Blitz|p1a: Maushold
+|-damage|p1a: Maushold|5/100
+|-damage|p2a: Incineroar|62/100|[from] Recoil
+|move|p1b: Glimmora|Meteor Beam||[still]
+|-prepare|p1b: Glimmora|Meteor Beam
+|-boost|p1b: Glimmora|spa|1
+|-enditem|p1b: Glimmora|Power Herb
+|-anim|p1b: Glimmora|Meteor Beam|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-heal|p1a: Maushold|11/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756737697
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|6
+|
+|t:|1756737730
+|-terastallize|p1b: Glimmora|Grass
+|move|p1a: Maushold|Follow Me|p1a: Maushold
+|-singleturn|p1a: Maushold|move: Follow Me
+|move|p1b: Glimmora|Earth Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|66/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Maushold|[spread] p1b
+|-miss|p2a: Tyranitar|p1a: Maushold
+|-damage|p1b: Glimmora|72/100
+|-activate|p1b: Glimmora|ability: Toxic Debris
+|-sidestart|p2: Nearshort|move: Toxic Spikes
+|move|p2b: Amoonguss|Sludge Bomb|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Glimmora|66/100|[from] Sandstorm
+|-damage|p2b: Amoonguss|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756737746
+|switch|p1a: Rillaboom|Rillaboom, L50, M|12/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|7
+|
+|t:|1756737771
+|move|p1b: Glimmora|Sludge Bomb|p2b: Amoonguss
+|-damage|p2b: Amoonguss|47/100
+|-enditem|p2b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2b: Amoonguss|71/100|[from] item: Sitrus Berry
+|move|p1a: Rillaboom|Wood Hammer|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|-damage|p1a: Rillaboom|0 fnt|[from] Recoil
+|faint|p1a: Rillaboom
+|move|p2b: Amoonguss|Sludge Bomb|p1b: Glimmora
+|-supereffective|p1b: Glimmora
+|-damage|p1b: Glimmora|0 fnt
+|faint|p1b: Glimmora
+|
+|win|Nearshort
+|raw|fan di eulero's rating: 1027 → 1018(-9 for losing)
+|raw|Nearshort's rating: 1156 → 1172(+16 for winning)
+|c|☆Nearshort|oh
+|c|☆Nearshort|I thought Id lose
+|l|☆fan di eulero
+|player|p1|

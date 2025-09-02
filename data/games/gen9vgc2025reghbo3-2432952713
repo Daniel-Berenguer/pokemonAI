@@ -1,0 +1,108 @@
+|j|☆Duck 7457546765
+|j|☆spellbreakvgc
+|html|Duck 7457546765spellbreakvgc    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756730328
+|gametype|doubles
+|player|p1|Duck 7457546765|karen|1028
+|player|p2|spellbreakvgc|lance|1096
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gallade, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Zoroark-Hisui, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Volcarona, L50, F|
+|teampreview|4
+|showteam|p1|Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,Protect,NightSlash|||M|||50|,,,,,Steel]Archaludon||AssaultVest|Stamina|BodyPress,FlashCannon,DragonPulse,ElectroShot|||F|||50|,,,,,Ghost]Pelipper||SitrusBerry|Drizzle|WideGuard,KnockOff,WeatherBall,IcyWind|||M|||50|,,,,,Grass]Amoonguss||MentalHerb|EffectSpore|RagePowder,Spore,Protect,SludgeBomb|||F|||50|,,,,,Water]Zoroark-Hisui||FocusSash|Illusion|BitterMalice,HyperVoice,TeraBlast,Protect|||M|||50|,,,,,Fighting]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Ghost
+|showteam|p2|Sneasler||PsychicSeed|Unburden|Protect,CloseCombat,DireClaw,ThroatChop|||M|||50|,,,,,Dark]Ursaluna-Bloodmoon||LifeOrb|MindsEye|Protect,HyperVoice,BloodMoon,EarthPower|||M|||50|,,,,,Normal]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Tyranitar||AssaultVest|SandStream|RockSlide,TeraBlast,KnockOff,LowKick|||F|||50|,,,,,Flying]Annihilape||SafetyGoggles|Defiant|FinalGambit,CloseCombat,RageFist,Taunt|||F|||50|,,,,,Fairy]Volcarona||SitrusBerry|FlameBody|RagePowder,Overheat,StruggleBug,Tailwind|||F|||50|,,,,,Grass
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by spellbreakvgc)
+|
+|t:|1756730363
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Archaludon|Archaludon, L50, F|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M, shiny|100/100
+|switch|p2b: Annihilape|Annihilape, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1756730385
+|switch|p2b: Volcarona|Volcarona, L50, F, shiny|100/100
+|-terastallize|p2a: Indeedee|Psychic
+|move|p2a: Indeedee|Expanding Force|p1a: Archaludon|[spread] p1a,p1b
+|-supereffective|p1b: Amoonguss
+|-enditem|p1a: Archaludon|Focus Sash
+|-damage|p1a: Archaludon|1/100
+|-damage|p1b: Amoonguss|0 fnt
+|replace|p1a: Zoroark|Zoroark-Hisui, L50, M
+|-end|p1a: Zoroark|Illusion
+|faint|p1b: Amoonguss
+|move|p1a: Zoroark|Bitter Malice|p2b: Volcarona
+|-damage|p2b: Volcarona|65/100
+|-unboost|p2b: Volcarona|atk|1
+|
+|upkeep
+|
+|t:|1756730403
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|turn|2
+|
+|t:|1756730413
+|-terastallize|p1b: Gallade|Steel
+|move|p2b: Volcarona|Rage Powder|p2b: Volcarona
+|-singleturn|p2b: Volcarona|move: Rage Powder
+|move|p2a: Indeedee|Expanding Force|p1b: Gallade|[spread] p1a,p1b
+|-resisted|p1b: Gallade
+|-damage|p1a: Zoroark|0 fnt
+|-damage|p1b: Gallade|60/100
+|faint|p1a: Zoroark
+|move|p1b: Gallade|Night Slash|p2b: Volcarona
+|-damage|p2b: Volcarona|18/100
+|-enditem|p2b: Volcarona|Sitrus Berry|[eat]
+|-heal|p2b: Volcarona|43/100|[from] item: Sitrus Berry
+|
+|upkeep
+|
+|t:|1756730428
+|switch|p1a: Archaludon|Archaludon, L50, F|100/100
+|turn|3
+|
+|t:|1756730438
+|move|p1b: Gallade|Protect|p1b: Gallade
+|-singleturn|p1b: Gallade|Protect
+|move|p2a: Indeedee|Expanding Force|p1b: Gallade|[spread] p1a
+|-activate|p1b: Gallade|move: Protect
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|62/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p2b: Volcarona|Overheat|p1a: Archaludon
+|-damage|p1a: Archaludon|0 fnt
+|-unboost|p2b: Volcarona|spa|2
+|faint|p1a: Archaludon
+|
+|upkeep
+|turn|4
+|
+|t:|1756730454
+|move|p2a: Indeedee|Expanding Force|p1b: Gallade
+|-resisted|p1b: Gallade
+|-crit|p1b: Gallade
+|-damage|p1b: Gallade|0 fnt
+|faint|p1b: Gallade
+|
+|win|spellbreakvgc

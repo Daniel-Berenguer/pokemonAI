@@ -1,0 +1,492 @@
+|j|☆MrTedno
+|j|☆MobiusVGC
+|html|MrTednoMobiusVGC    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756723673
+|gametype|doubles
+|player|p1|MrTedno|barry|1136
+|player|p2|MobiusVGC|gentleman-gen4dp|1076
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dondozo, L50, F|
+|poke|p1|Tatsugiri, L50, M|
+|poke|p1|Politoed, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p2|Hydreigon, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Dondozo||LifeOrb|Unaware|Surf,SleepTalk,Protect|||F|||50|,,,,,Water]Tatsugiri||FocusSash|Commander|MuddyWater,DracoMeteor,Taunt,Protect|||M|||50|,,,,,Stellar]Politoed||SitrusBerry|Drizzle|WeatherBall,IceBeam,Haze,Protect|||F|||50|,,,,,Steel]Archaludon||AssaultVest|Stamina|ElectroShot,FlashCannon,DragonPulse,BodyPress|||M|||50|,,,,,Grass]Rillaboom||LoadedDice|GrassySurge|FakeOut,GrassyGlide,HighHorsepower,BulletSeed|||M|||50|,,,,,Grass]Sneasler||GrassySeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark
+|showteam|p2|Hydreigon||CovertCloak|Levitate|DracoMeteor,Snarl,Tailwind,Taunt|||M|||50|,,,,,Ghost]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Flying]Amoonguss||RockyHelmet|Regenerator|PollenPuff,Spore,RagePowder,Protect|||F|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Garchomp||ClearAmulet|RoughSkin|Earthquake,DragonClaw,StompingTantrum,Protect|||M|||50|,,,,,Fire]Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,Coaching,Protect|||M|||50|,,,,,Flying
+|
+|t:|1756723706
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Turnip|Rillaboom, L50, M|100/100
+|switch|p1b: Shellington|Sneasler, L50, M|100/100
+|switch|p2a: Hydreigon|Hydreigon, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Turnip
+|-enditem|p1b: Shellington|Grassy Seed
+|-boost|p1b: Shellington|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1756723759
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1a: Turnip|Fake Out|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Protect
+|move|p1b: Shellington|Close Combat|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|78/100
+|-unboost|p1b: Shellington|def|1
+|-unboost|p1b: Shellington|spd|1
+|-damage|p1b: Shellington|84/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|-heal|p1b: Shellington|90/100|[from] Grassy Terrain
+|-heal|p2a: Amoonguss|84/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756723783
+|switch|p1b: Tweak|Politoed, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Tweak
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Turnip|atk|1
+|-unboost|p1b: Tweak|atk|1
+|switch|p1a: Barnacles|Archaludon, L50, M|100/100
+|move|p2a: Amoonguss|Spore|p1b: Tweak
+|-status|p1b: Tweak|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|90/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756723826
+|switch|p1b: Turnip|Rillaboom, L50, M|100/100
+|-terastallize|p1a: Barnacles|Grass
+|move|p1a: Barnacles|Electro Shot||[still]
+|-prepare|p1a: Barnacles|Electro Shot
+|-boost|p1a: Barnacles|spa|1
+|-anim|p1a: Barnacles|Electro Shot|p2b: Incineroar
+|-damage|p2b: Incineroar|49/100
+|move|p2b: Incineroar|Parting Shot|p1a: Barnacles
+|-unboost|p1a: Barnacles|atk|1
+|-unboost|p1a: Barnacles|spa|1
+|
+|t:|1756723838
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100|[from] Parting Shot
+|move|p2a: Amoonguss|Spore|p1a: Barnacles
+|-immune|p1a: Barnacles
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|96/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756723857
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1b: Turnip|Bullet Seed|p1a: Barnacles
+|-resisted|p1a: Barnacles
+|-damage|p1a: Barnacles|94/100
+|-ability|p1a: Barnacles|Stamina|boost
+|-boost|p1a: Barnacles|def|1
+|-resisted|p1a: Barnacles
+|-damage|p1a: Barnacles|90/100
+|-ability|p1a: Barnacles|Stamina|boost
+|-boost|p1a: Barnacles|def|1
+|-resisted|p1a: Barnacles
+|-damage|p1a: Barnacles|87/100
+|-ability|p1a: Barnacles|Stamina|boost
+|-boost|p1a: Barnacles|def|1
+|-resisted|p1a: Barnacles
+|-damage|p1a: Barnacles|84/100
+|-ability|p1a: Barnacles|Stamina|boost
+|-boost|p1a: Barnacles|def|1
+|-resisted|p1a: Barnacles
+|-damage|p1a: Barnacles|82/100
+|-ability|p1a: Barnacles|Stamina|boost
+|-boost|p1a: Barnacles|def|1
+|-hitcount|p1a: Barnacles|5
+|move|p1a: Barnacles|Electro Shot||[still]
+|-prepare|p1a: Barnacles|Electro Shot
+|-boost|p1a: Barnacles|spa|1
+|-anim|p1a: Barnacles|Electro Shot|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Protect
+|move|p2a: Amoonguss|Pollen Puff|p1b: Turnip
+|-supereffective|p1b: Turnip
+|-damage|p1b: Turnip|63/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Turnip|69/100|[from] Grassy Terrain
+|-heal|p1a: Barnacles|88/100|[from] Grassy Terrain
+|-heal|p2a: Amoonguss|100/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756723906
+|move|p1b: Turnip|Grassy Glide|p2b: Sneasler
+|-resisted|p2b: Sneasler
+|-damage|p2b: Sneasler|70/100
+|move|p2b: Sneasler|Dire Claw|p1a: Barnacles
+|-supereffective|p1a: Barnacles
+|-damage|p1a: Barnacles|70/100
+|-status|p1a: Barnacles|par
+|-ability|p1a: Barnacles|Stamina|boost
+|-boost|p1a: Barnacles|def|1
+|cant|p1a: Barnacles|par
+|move|p2a: Amoonguss|Pollen Puff|p1a: Barnacles
+|-supereffective|p1a: Barnacles
+|-damage|p1a: Barnacles|43/100 par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Sneasler|76/100|[from] Grassy Terrain
+|-heal|p1b: Turnip|75/100|[from] Grassy Terrain
+|-heal|p1a: Barnacles|49/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756723926
+|switch|p1b: Shellington|Sneasler, L50, M|90/100
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|cant|p1a: Barnacles|par
+|move|p2a: Amoonguss|Pollen Puff|p1a: Barnacles
+|-supereffective|p1a: Barnacles
+|-damage|p1a: Barnacles|21/100 par
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1756723939
+|switch|p1b: Turnip|Rillaboom, L50, M|75/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Turnip
+|move|p2b: Sneasler|Dire Claw|p1a: Barnacles
+|-supereffective|p1a: Barnacles
+|-damage|p1a: Barnacles|6/100 par
+|move|p1a: Barnacles|Dragon Pulse|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|move|p2a: Amoonguss|Spore|p1b: Turnip
+|-immune|p1b: Turnip
+|
+|-heal|p1b: Turnip|81/100|[from] Grassy Terrain
+|-heal|p1a: Barnacles|12/100 par|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756723949
+|switch|p2b: Hydreigon|Hydreigon, L50, M|100/100
+|turn|8
+|
+|t:|1756723989
+|switch|p1b: Shellington|Sneasler, L50, M|90/100
+|move|p2b: Hydreigon|Tailwind|p2b: Hydreigon
+|-sidestart|p2: MobiusVGC|move: Tailwind
+|move|p2a: Amoonguss|Pollen Puff|p1a: Barnacles
+|-supereffective|p1a: Barnacles
+|-damage|p1a: Barnacles|0 fnt
+|faint|p1a: Barnacles
+|
+|-heal|p1b: Shellington|95/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756724005
+|switch|p1a: Turnip|Rillaboom, L50, M|81/100
+|turn|9
+|
+|t:|1756724046
+|switch|p2b: Incineroar|Incineroar, L50, M|49/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Turnip|atk|1
+|-unboost|p1b: Shellington|atk|1
+|move|p1a: Turnip|Fake Out|p2a: Amoonguss
+|-damage|p2a: Amoonguss|94/100
+|-damage|p1a: Turnip|64/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|move|p1b: Shellington|Throat Chop|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|42/100
+|-start|p2b: Incineroar|Throat Chop|[silent]
+|cant|p2a: Amoonguss|flinch
+|
+|-heal|p2b: Incineroar|48/100|[from] Grassy Terrain
+|-heal|p1b: Shellington|100/100|[from] Grassy Terrain
+|-heal|p1a: Turnip|70/100|[from] Grassy Terrain
+|-heal|p2a: Amoonguss|99/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1756724074
+|switch|p2b: Hydreigon|Hydreigon, L50, M|100/100
+|switch|p1a: Tweak|Politoed, L50, F|100/100 slp
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Tweak
+|move|p1b: Shellington|Close Combat|p2b: Hydreigon
+|-supereffective|p2b: Hydreigon
+|-damage|p2b: Hydreigon|27/100
+|-unboost|p1b: Shellington|def|1
+|-unboost|p1b: Shellington|spd|1
+|move|p2a: Amoonguss|Spore|p1b: Shellington
+|-status|p1b: Shellington|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|100/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1756724102
+|switch|p1b: Turnip|Rillaboom, L50, M|70/100
+|move|p2b: Hydreigon|Snarl|p1a: Tweak|[spread] p1b
+|-miss|p2b: Hydreigon|p1a: Tweak
+|-damage|p1b: Turnip|51/100
+|-unboost|p1b: Turnip|spa|1
+|cant|p1a: Tweak|slp
+|move|p2a: Amoonguss|Pollen Puff|p2b: Hydreigon
+|-heal|p2b: Hydreigon|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Turnip|57/100|[from] Grassy Terrain
+|-sideend|p2: MobiusVGC|move: Tailwind
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1756724118
+|move|p1b: Turnip|Fake Out|p2a: Amoonguss
+|-damage|p2a: Amoonguss|89/100
+|-damage|p1b: Turnip|41/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|move|p2b: Hydreigon|Snarl|p1a: Tweak|[spread] p1b
+|-miss|p2b: Hydreigon|p1a: Tweak
+|-damage|p1b: Turnip|23/100
+|-unboost|p1b: Turnip|spa|1
+|-curestatus|p1a: Tweak|slp|[msg]
+|move|p1a: Tweak|Ice Beam|p2b: Hydreigon
+|-supereffective|p2b: Hydreigon
+|-damage|p2b: Hydreigon|39/100
+|cant|p2a: Amoonguss|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1756724144
+|switch|p2b: Incineroar|Incineroar, L50, M|48/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Tweak|atk|1
+|-unboost|p1b: Turnip|atk|1
+|switch|p1b: Shellington|Sneasler, L50, M|100/100 slp
+|move|p1a: Tweak|Weather Ball|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Amoonguss|Pollen Puff|p1b: Shellington
+|-resisted|p1b: Shellington
+|-damage|p1b: Shellington|94/100 slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756724153
+|switch|p2b: Hydreigon|Hydreigon, L50, M|39/100
+|turn|14
+|
+|t:|1756724178
+|switch|p1b: Turnip|Rillaboom, L50, M|23/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Turnip
+|move|p2b: Hydreigon|Snarl|p1a: Tweak|[spread] p1a
+|-miss|p2b: Hydreigon|p1b: Turnip
+|-damage|p1a: Tweak|86/100
+|-unboost|p1a: Tweak|spa|1
+|move|p1a: Tweak|Ice Beam|p2b: Hydreigon
+|-supereffective|p2b: Hydreigon
+|-damage|p2b: Hydreigon|16/100
+|move|p2a: Amoonguss|Spore|p1a: Tweak
+|-status|p1a: Tweak|slp|[from] move: Spore
+|
+|-weather|none
+|-heal|p1b: Turnip|29/100|[from] Grassy Terrain
+|-heal|p1a: Tweak|93/100 slp|[from] Grassy Terrain
+|-heal|p2a: Amoonguss|95/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1756724203
+|move|p2b: Hydreigon|Snarl|p1b: Turnip|[spread] p1a,p1b
+|-damage|p1a: Tweak|79/100 slp
+|-damage|p1b: Turnip|9/100
+|-unboost|p1a: Tweak|spa|1
+|-unboost|p1b: Turnip|spa|1
+|move|p1b: Turnip|High Horsepower|p2b: Hydreigon
+|-immune|p2b: Hydreigon|[from] ability: Levitate
+|cant|p1a: Tweak|slp
+|move|p2a: Amoonguss|Pollen Puff|p2b: Hydreigon
+|-heal|p2b: Hydreigon|66/100
+|
+|-heal|p1b: Turnip|15/100|[from] Grassy Terrain
+|-heal|p1a: Tweak|85/100 slp|[from] Grassy Terrain
+|-heal|p2a: Amoonguss|100/100|[from] Grassy Terrain
+|upkeep
+|turn|16
+|
+|t:|1756724221
+|switch|p1a: Shellington|Sneasler, L50, M|94/100 slp
+|move|p2b: Hydreigon|Snarl|p1a: Shellington|[spread] p1a,p1b
+|-resisted|p1a: Shellington
+|-damage|p1a: Shellington|83/100 slp
+|-damage|p1b: Turnip|0 fnt
+|-unboost|p1a: Shellington|spa|1
+|faint|p1b: Turnip
+|move|p2a: Amoonguss|Spore|p1a: Shellington
+|-fail|p1a: Shellington|slp
+|
+|-heal|p1a: Shellington|88/100 slp|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756724227
+|switch|p1b: Tweak|Politoed, L50, F|85/100 slp
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Tweak
+|turn|17
+|
+|t:|1756724239
+|cant|p1a: Shellington|slp
+|move|p2b: Hydreigon|Snarl|p1b: Tweak|[spread] p1a,p1b
+|-resisted|p1a: Shellington
+|-damage|p1a: Shellington|75/100 slp
+|-damage|p1b: Tweak|71/100 slp
+|-unboost|p1a: Shellington|spa|1
+|-unboost|p1b: Tweak|spa|1
+|-curestatus|p1b: Tweak|slp|[msg]
+|move|p1b: Tweak|Ice Beam|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|44/100
+|move|p2a: Amoonguss|Spore|p1b: Tweak
+|-status|p1b: Tweak|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Shellington|81/100 slp|[from] Grassy Terrain
+|-heal|p1b: Tweak|77/100 slp|[from] Grassy Terrain
+|-heal|p2a: Amoonguss|50/100|[from] Grassy Terrain
+|upkeep
+|turn|18
+|
+|t:|1756724258
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|cant|p1a: Shellington|slp
+|move|p2b: Hydreigon|Snarl|p1a: Shellington|[spread] p1a,p1b
+|-resisted|p1a: Shellington
+|-crit|p1b: Tweak
+|-damage|p1a: Shellington|69/100 slp
+|-damage|p1b: Tweak|56/100 slp
+|-unboost|p1a: Shellington|spa|1
+|-unboost|p1b: Tweak|spa|1
+|cant|p1b: Tweak|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Shellington|75/100 slp|[from] Grassy Terrain
+|-heal|p1b: Tweak|62/100 slp|[from] Grassy Terrain
+|-heal|p2a: Amoonguss|56/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|19
+|
+|t:|1756724276
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|cant|p1a: Shellington|slp
+|move|p2b: Hydreigon|Draco Meteor|p1b: Tweak
+|-damage|p1b: Tweak|22/100 slp
+|-unboost|p2b: Hydreigon|spa|2
+|-enditem|p1b: Tweak|Sitrus Berry|[eat]
+|-heal|p1b: Tweak|47/100 slp|[from] item: Sitrus Berry
+|cant|p1b: Tweak|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|20
+|
+|t:|1756724289
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|-curestatus|p1a: Shellington|slp|[msg]
+|move|p1a: Shellington|Dire Claw|p2a: Amoonguss
+|-damage|p2a: Amoonguss|27/100
+|-damage|p1a: Shellington|58/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|move|p2b: Hydreigon|Snarl|p1a: Shellington|[spread] p1a,p1b
+|-resisted|p1a: Shellington
+|-damage|p1a: Shellington|52/100
+|-damage|p1b: Tweak|40/100 slp
+|-unboost|p1a: Shellington|spa|1
+|-unboost|p1b: Tweak|spa|1
+|cant|p1b: Tweak|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|21
+|
+|t:|1756724325
+|-terastallize|p2b: Hydreigon|Ghost
+|move|p1a: Shellington|Protect|p1a: Shellington
+|-singleturn|p1a: Shellington|Protect
+|move|p2a: Amoonguss|Protect|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|Protect
+|move|p2b: Hydreigon|Snarl|p1a: Shellington|[spread] p1b
+|-activate|p1a: Shellington|move: Protect
+|-damage|p1b: Tweak|33/100 slp
+|-unboost|p1b: Tweak|spa|1
+|-curestatus|p1b: Tweak|slp|[msg]
+|move|p1b: Tweak|Ice Beam|p2a: Amoonguss
+|-activate|p2a: Amoonguss|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|22
+|
+|t:|1756724348
+|move|p1a: Shellington|Dire Claw|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|-damage|p1a: Shellington|36/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|faint|p2a: Amoonguss
+|move|p2b: Hydreigon|Draco Meteor|p1b: Tweak
+|-damage|p1b: Tweak|12/100
+|-unboost|p2b: Hydreigon|spa|2
+|move|p1b: Tweak|Ice Beam|p2b: Hydreigon
+|-damage|p2b: Hydreigon|58/100
+|
+|upkeep
+|turn|23
+|
+|t:|1756724362
+|move|p1a: Shellington|Throat Chop|p2b: Hydreigon
+|-supereffective|p2b: Hydreigon
+|-damage|p2b: Hydreigon|9/100
+|move|p2b: Hydreigon|Draco Meteor|p1a: Shellington
+|-damage|p1a: Shellington|13/100
+|-unboost|p2b: Hydreigon|spa|2
+|move|p1b: Tweak|Ice Beam|p2b: Hydreigon
+|-damage|p2b: Hydreigon|3/100
+|
+|upkeep
+|turn|24
+|-message|MobiusVGC forfeited.
+|
+|win|MrTedno
+|raw|MrTedno's rating: 1136 → 1157(+21 for winning)
+|raw|MobiusVGC's rating: 1076 → 1058(-18 for losing)
+|l|☆MobiusVGC
+|player|p2|

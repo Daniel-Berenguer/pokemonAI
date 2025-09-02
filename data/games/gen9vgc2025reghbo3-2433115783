@@ -1,0 +1,223 @@
+|j|☆SFmrmimers
+|j|☆Kurolax
+|html|SFmrmimersKurolax    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756748623
+|gametype|doubles
+|player|p1|SFmrmimers|n|1007
+|player|p2|Kurolax|1|1036
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Kommo-o, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Kilowattrel, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|Earthquake,HighHorsepower,IronHead,Protect|||M|||50|,,,,,Ground]Kommo-o||ThroatSpray|Overcoat|ClangorousSoul,ClangingScales,AuraSphere,Protect|||M|||50|,,,,,Fire]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Water]Kilowattrel||ChoiceSpecs|Competitive|Thunderbolt,VoltSwitch,Discharge,AirSlash|||M|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,KnockOff,Taunt|||F|||50|,,,,,Ghost
+|showteam|p2|Volcarona||SafetyGoggles|FlameBody|QuiverDance,RagePowder,HeatWave,Protect|||F|||50|,,,,,Fairy]Ursaluna-Bloodmoon||ThroatSpray|MindsEye|BloodMoon,HyperVoice,Protect,EarthPower|||M|||50|,,,,,Ghost]Tyranitar||AssaultVest|SandStream|TeraBlast,KnockOff,RockSlide,Earthquake|||M|||50|,,,,,Flying]Sneasler||GrassySeed|Unburden|Acrobatics,CloseCombat,DireClaw,Protect|||F|||50|,,,,,Flying]Rillaboom||MiracleSeed|GrassySurge|GrassyGlide,KnockOff,FakeOut,Uturn|||M|||50|,,,,,Fire]Amoonguss||SitrusBerry|Regenerator|Protect,Spore,ClearSmog,PollenPuff|||F|||50|,,,,,Grass
+|
+|t:|1756748642
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p1b: Excadrill|Excadrill, L50, M, shiny|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p2b: Sneasler|Grassy Seed
+|-boost|p2b: Sneasler|def|1|[from] item: Grassy Seed
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1756748688
+|-terastallize|p1a: Tyranitar|Flying
+|move|p1b: Excadrill|Protect|p1b: Excadrill
+|-singleturn|p1b: Excadrill|Protect
+|move|p2a: Rillaboom|Fake Out|p1a: Tyranitar
+|-damage|p1a: Tyranitar|88/100
+|move|p2b: Sneasler|Close Combat|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|58/100
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|cant|p1a: Tyranitar|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sneasler|95/100|[from] Sandstorm
+|-damage|p2a: Rillaboom|94/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|52/100|[from] Sandstorm
+|-heal|p2b: Sneasler|100/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|100/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756748707
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|move|p2a: Rillaboom|Grassy Glide|p1b: Excadrill
+|-damage|p1b: Excadrill|25/100
+|move|p1b: Excadrill|High Horsepower|p2b: Amoonguss
+|-damage|p2b: Amoonguss|40/100
+|-enditem|p2b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2b: Amoonguss|65/100|[from] item: Sitrus Berry
+|move|p1a: Tyranitar|Tera Blast|p2a: Rillaboom|[anim] Tera Blast Flying
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|4/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rillaboom|0 fnt|[from] Sandstorm
+|-damage|p1a: Tyranitar|47/100|[from] Sandstorm
+|-damage|p2b: Amoonguss|60/100|[from] Sandstorm
+|faint|p2a: Rillaboom
+|-heal|p1b: Excadrill|31/100|[from] Grassy Terrain
+|-heal|p2b: Amoonguss|65/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756748726
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|turn|3
+|
+|t:|1756748772
+|-terastallize|p2a: Sneasler|Flying
+|move|p2b: Amoonguss|Protect|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|Protect
+|move|p1b: Excadrill|High Horsepower|p2a: Sneasler
+|-immune|p2a: Sneasler
+|move|p2a: Sneasler|Dire Claw|p1a: Tyranitar
+|-damage|p1a: Tyranitar|10/100
+|-status|p1a: Tyranitar|slp
+|cant|p1a: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sneasler|95/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|5/100 slp|[from] Sandstorm
+|-damage|p2b: Amoonguss|60/100|[from] Sandstorm
+|-heal|p1b: Excadrill|37/100|[from] Grassy Terrain
+|-heal|p2b: Amoonguss|65/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756748807
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2b: Amoonguss|atk|1
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1b: Excadrill|Iron Head|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Protect
+|move|p2b: Amoonguss|Pollen Puff|p1a: Incineroar
+|-damage|p1a: Incineroar|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sneasler|89/100|[from] Sandstorm
+|-damage|p2b: Amoonguss|60/100|[from] Sandstorm
+|-heal|p1b: Excadrill|43/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|92/100|[from] Grassy Terrain
+|-heal|p2b: Amoonguss|65/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756748839
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|move|p1a: Incineroar|Fake Out|p2b: Amoonguss
+|-damage|p2b: Amoonguss|55/100
+|move|p1b: Excadrill|Iron Head|p2a: Ursaluna
+|-damage|p2a: Ursaluna|69/100
+|cant|p2b: Amoonguss|flinch
+|
+|-weather|none
+|-heal|p1b: Excadrill|49/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|98/100|[from] Grassy Terrain
+|-heal|p2a: Ursaluna|74/100|[from] Grassy Terrain
+|-heal|p2b: Amoonguss|60/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756748859
+|switch|p1b: Tyranitar|Tyranitar, L50, M, tera:Flying|5/100 slp
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|move|p1a: Incineroar|Taunt|p2b: Amoonguss
+|-start|p2b: Amoonguss|move: Taunt
+|move|p2a: Ursaluna|Hyper Voice|p1a: Incineroar|[spread] p1a,p1b
+|-damage|p1a: Incineroar|69/100
+|-damage|p1b: Tyranitar|0 fnt
+|faint|p1b: Tyranitar
+|-enditem|p2a: Ursaluna|Throat Spray
+|-boost|p2a: Ursaluna|spa|1|[from] item: Throat Spray
+|cant|p2b: Amoonguss|move: Taunt|Spore
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Amoonguss|55/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756748873
+|switch|p1b: Kommo-o|Kommo-o, L50, M|100/100
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SFmrmimers)
+|
+|t:|1756748890
+|move|p1b: Kommo-o|Aura Sphere|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|4/100
+|move|p1a: Incineroar|Knock Off|p2b: Amoonguss
+|-damage|p2b: Amoonguss|26/100
+|move|p2a: Ursaluna|Blood Moon|p1b: Kommo-o
+|-damage|p1b: Kommo-o|0 fnt
+|faint|p1b: Kommo-o
+|move|p2b: Amoonguss|Pollen Puff|p2a: Ursaluna
+|-heal|p2a: Ursaluna|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Amoonguss|20/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756748904
+|switch|p1b: Excadrill|Excadrill, L50, M, shiny|49/100
+|turn|8
+|
+|t:|1756748921
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1b: Excadrill|Earthquake|p2a: Ursaluna|[spread] p1a,p2b
+|-activate|p2a: Ursaluna|move: Protect
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p1a: Incineroar
+|faint|p2b: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1756748931
+|switch|p2b: Sneasler|Sneasler, L50, F, tera:Flying|89/100
+|turn|9
+|
+|t:|1756748940
+|move|p1b: Excadrill|Earthquake|p2b: Sneasler|[spread] p2a
+|-immune|p2b: Sneasler
+|-damage|p2a: Ursaluna|25/100
+|move|p2b: Sneasler|Close Combat|p1b: Excadrill
+|-supereffective|p1b: Excadrill
+|-damage|p1b: Excadrill|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1b: Excadrill
+|
+|win|Kurolax
+|inactive|SFmrmimers has 30 seconds to confirm battle start!
+|inactive|Kurolax has 30 seconds to confirm battle start!

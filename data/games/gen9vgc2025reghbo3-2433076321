@@ -1,0 +1,192 @@
+|j|☆jagheter
+|j|☆Klakierowski
+|html|jagheterKlakierowski    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756744555
+|gametype|doubles
+|player|p1|jagheter|worker|1177
+|player|p2|Klakierowski|bugcatcher-gen4dp|1073
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|showteam|p1|Venusaur||WideLens|Chlorophyll|SleepPowder,Protect,SludgeBomb,EarthPower|||F|||50|,,,,,Ghost]Incineroar||MirrorHerb|Intimidate|FakeOut,KnockOff,Protect,FlareBlitz|||M|||50|,,,,,Ghost]Sneasler||GrassySeed|Unburden|Coaching,DireClaw,CloseCombat,Protect|||F|||50|,,,,,Fairy]Dondozo||Leftovers|Unaware|Fissure,Protect,Liquidation,Yawn|||M|||50|,,,,,Poison]Volcarona||CovertCloak|FlameBody|FieryDance,GigaDrain,QuiverDance,Protect|||F|||50|,,,,,Fairy]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,HighHorsepower|||M|||50|,,,,,Fire
+|showteam|p2|Sneasler||GrassySeed|Unburden|Protect,CloseCombat,DireClaw,FakeOut|||F|||50|,,,,,Dark]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SwordsDance,SuckerPunch,IronHead|||F|||50|,,,,,Dark]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,Uturn|||M|||50|,,,,,Fire]Primarina||LifeOrb|LiquidVoice|HyperVoice,IcyWind,DrainingKiss,Protect|||F|||50|,,,,,Water]Incineroar||SitrusBerry|Intimidate|FlareBlitz,PartingShot,FakeOut,KnockOff|||F|||50|,,,,,Ghost]Grimmsnarl||CovertCloak|Prankster|FakeOut,SpiritBreak,Taunt,ThunderWave|||M|||50|,,,,,Dark
+|
+|t:|1756744615
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Volcarona|Volcarona, L50, F, shiny|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p1a: Sneasler|Grassy Seed
+|-boost|p1a: Sneasler|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1756744631
+|move|p1b: Volcarona|Protect|p1b: Volcarona
+|-singleturn|p1b: Volcarona|Protect
+|move|p2b: Rillaboom|Fake Out|p1a: Sneasler
+|-crit|p1a: Sneasler
+|-damage|p1a: Sneasler|67/100
+|move|p2a: Grimmsnarl|Taunt|p1b: Volcarona
+|-activate|p1b: Volcarona|move: Protect
+|cant|p1a: Sneasler|flinch
+|
+|-heal|p1a: Sneasler|73/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756744669
+|move|p2a: Grimmsnarl|Taunt|p1b: Volcarona
+|-start|p1b: Volcarona|move: Taunt
+|move|p1a: Sneasler|Dire Claw|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|2/100
+|move|p2b: Rillaboom|U-turn|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|67/100
+|
+|t:|1756744678
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100|[from] U-turn
+|-enditem|p2b: Sneasler|Grassy Seed
+|-boost|p2b: Sneasler|def|1|[from] item: Grassy Seed
+|move|p1b: Volcarona|Fiery Dance|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-heal|p1a: Sneasler|73/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756744701
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|turn|3
+|
+|t:|1756744709
+|move|p2b: Sneasler|Fake Out|p1a: Sneasler
+|-damage|p1a: Sneasler|55/100
+|move|p2a: Rillaboom|Fake Out|p1b: Volcarona
+|-damage|p1b: Volcarona|85/100
+|cant|p1a: Sneasler|flinch
+|move|p1b: Volcarona|Fiery Dance|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|25/100
+|
+|-heal|p1a: Sneasler|61/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|31/100|[from] Grassy Terrain
+|-heal|p1b: Volcarona|91/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756744727
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p2b: Sneasler|Dire Claw|p1b: Volcarona
+|-damage|p1b: Volcarona|36/100
+|-status|p2b: Sneasler|brn|[from] ability: Flame Body|[of] p1b: Volcarona
+|move|p2a: Rillaboom|Wood Hammer|p1a: Sneasler
+|-activate|p1a: Sneasler|move: Protect
+|move|p1b: Volcarona|Fiery Dance|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-boost|p1b: Volcarona|spa|1
+|faint|p2a: Rillaboom
+|
+|-heal|p1a: Sneasler|67/100|[from] Grassy Terrain
+|-heal|p1b: Volcarona|42/100|[from] Grassy Terrain
+|-damage|p2b: Sneasler|95/100 brn|[from] brn
+|-end|p1b: Volcarona|move: Taunt
+|upkeep
+|
+|t:|1756744736
+|switch|p2a: Kingambit|Kingambit, L50, F|100/100
+|turn|5
+|
+|t:|1756744778
+|move|p1b: Volcarona|Protect|p1b: Volcarona
+|-singleturn|p1b: Volcarona|Protect
+|move|p1a: Sneasler|Coaching|p1b: Volcarona
+|-boost|p1b: Volcarona|atk|1
+|-boost|p1b: Volcarona|def|1
+|move|p2b: Sneasler|Dire Claw|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|55/100
+|move|p2a: Kingambit|Iron Head|p1a: Sneasler
+|-damage|p1a: Sneasler|2/100
+|
+|-heal|p1a: Sneasler|9/100|[from] Grassy Terrain
+|-heal|p2b: Sneasler|100/100 brn|[from] Grassy Terrain
+|-heal|p1b: Volcarona|48/100|[from] Grassy Terrain
+|-damage|p2b: Sneasler|95/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756744804
+|-terastallize|p1b: Volcarona|Fairy
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Sneasler|Coaching|p1b: Volcarona
+|-boost|p1b: Volcarona|atk|1
+|-boost|p1b: Volcarona|def|1
+|move|p2b: Sneasler|Dire Claw|p1b: Volcarona
+|-supereffective|p1b: Volcarona
+|-damage|p1b: Volcarona|20/100
+|move|p1b: Volcarona|Fiery Dance|p2b: Sneasler
+|-damage|p2b: Sneasler|11/100 brn
+|-boost|p1b: Volcarona|spa|1
+|
+|-damage|p2b: Sneasler|6/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1756744820
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p1b: Volcarona|Protect|p1b: Volcarona
+|-singleturn|p1b: Volcarona|Protect
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p2b: Sneasler|Dire Claw|p1b: Volcarona
+|-activate|p1b: Volcarona|move: Protect
+|
+|-damage|p2b: Sneasler|0 fnt|[from] brn
+|faint|p2b: Sneasler
+|upkeep
+|turn|8
+|
+|t:|1756744837
+|-terastallize|p2a: Kingambit|Dark
+|move|p1a: Sneasler|Close Combat|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-crit|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Kingambit
+|
+|win|jagheter
+|raw|jagheter's rating: 1177 → 1195(+18 for winning)
+|raw|Klakierowski's rating: 1073 → 1058(-15 for losing)
+|l|☆Klakierowski
+|player|p2|
+|j|☆Klakierowski
+|player|p2|Klakierowski|bugcatcher-gen4dp|

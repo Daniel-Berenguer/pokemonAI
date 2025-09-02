@@ -1,0 +1,177 @@
+|j|☆owbd
+|j|☆ushitsune
+|html|owbdushitsune    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756713038
+|gametype|doubles
+|player|p1|owbd|cynthia-gen4|1094
+|player|p2|ushitsune|steven|1122
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Murkrow, L50, M|
+|poke|p2|Lanturn, L50, F|
+|poke|p2|Hydreigon, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Decidueye-Hisui, L50, F|
+|poke|p2|Arcanine, L50, F|
+|poke|p2|Garchomp, L50, F|
+|teampreview|4
+|showteam|p1|Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,ShadowBall,Thunderbolt,Trick||||||50|,,,,,Steel]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,PartingShot,FakeOut,KnockOff|||M|||50|,,,,,Ghost]Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,EarthPower,HyperVoice,Moonblast|||M|||50|,,,,,Normal]Indeedee||FocusSash|PsychicSurge|ExpandingForce,Protect,TrickRoom,Imprison|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,FakeOut,ThroatChop|||F|||50|,,,,,Stellar]Murkrow||CovertCloak|Prankster|FoulPlay,Haze,SunnyDay,Tailwind|||M|||50|,,,,,Dark
+|showteam|p2|Lanturn||AssaultVest|VoltAbsorb|Scald,Thunderbolt,IcyWind,VoltSwitch|||F|||50|,,,,,Grass]Hydreigon||LifeOrb|Levitate|Snarl,DragonPulse,Protect,EarthPower|||F|||50|,,,,,Poison]Farigiraf||SafetyGoggles|ArmorTail|HyperVoice,Psychic,Imprison,TrickRoom|||F|||50|,,,,,Fairy]Decidueye-Hisui||FocusSash|Scrappy|TripleArrows,LeafBlade,Protect,Haze|||F|||50|,,,,,Water]Arcanine||SitrusBerry|Intimidate|WillOWisp,FlareBlitz,ExtremeSpeed,Protect|||F|||50|,,,,,Grass]Garchomp||ClearAmulet|RoughSkin|DragonClaw,Earthquake,RockSlide,Protect|||F|||50|,,,,,Poison
+|
+|t:|1756713069
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Arcanine|Arcanine, L50, F|100/100
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Gholdengo|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1756713096
+|-terastallize|p1b: Indeedee|Psychic
+|move|p2a: Arcanine|Protect|p2a: Arcanine
+|-singleturn|p2a: Arcanine|Protect
+|move|p2b: Garchomp|Earthquake|p1b: Indeedee|[spread] p1a,p1b
+|-activate|p2a: Arcanine|move: Protect
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|14/100
+|-damage|p1b: Indeedee|19/100
+|move|p1b: Indeedee|Expanding Force|p2a: Arcanine|[spread] p2b
+|-activate|p2a: Arcanine|move: Protect
+|-damage|p2b: Garchomp|24/100
+|move|p1a: Gholdengo|Make It Rain|p2b: Garchomp|[spread] p2b
+|-activate|p2a: Arcanine|move: Protect
+|-crit|p2b: Garchomp
+|-damage|p2b: Garchomp|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2b: Garchomp
+|
+|upkeep
+|
+|t:|1756713114
+|switch|p2b: Hydreigon|Hydreigon, L50, F|100/100
+|turn|2
+|
+|t:|1756713122
+|move|p2b: Hydreigon|Snarl|p1a: Gholdengo|[spread] p1a,p1b
+|-supereffective|p1a: Gholdengo
+|-supereffective|p1b: Indeedee
+|-damage|p1a: Gholdengo|0 fnt
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1a: Gholdengo
+|faint|p1b: Indeedee
+|-damage|p2b: Hydreigon|91/100|[from] item: Life Orb
+|move|p2a: Arcanine|Flare Blitz|p1: Gholdengo|[notarget]
+|-fail|p2a: Arcanine
+|
+|upkeep
+|
+|t:|1756713132
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|3
+|
+|t:|1756713158
+|move|p2b: Hydreigon|Protect|p2b: Hydreigon
+|-singleturn|p2b: Hydreigon|Protect
+|move|p2a: Arcanine|Protect|p2a: Arcanine
+|-singleturn|p2a: Arcanine|Protect
+|move|p1a: Sneasler|Dire Claw|p2b: Hydreigon
+|-activate|p2b: Hydreigon|move: Protect
+|move|p1b: Ursaluna|Hyper Voice|p2b: Hydreigon|[spread] 
+|-activate|p2a: Arcanine|move: Protect
+|-activate|p2b: Hydreigon|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1756713177
+|-terastallize|p2b: Hydreigon|Poison
+|move|p1a: Sneasler|Dire Claw|p2b: Hydreigon
+|-resisted|p2b: Hydreigon
+|-damage|p2b: Hydreigon|64/100
+|-status|p2b: Hydreigon|par
+|move|p2a: Arcanine|Flare Blitz|p1a: Sneasler
+|-damage|p1a: Sneasler|33/100
+|-damage|p2a: Arcanine|79/100|[from] Recoil
+|move|p1b: Ursaluna|Hyper Voice|p2a: Arcanine|[spread] p2a,p2b
+|-damage|p2a: Arcanine|33/100
+|-damage|p2b: Hydreigon|24/100 par
+|-enditem|p2a: Arcanine|Sitrus Berry|[eat]
+|-heal|p2a: Arcanine|58/100|[from] item: Sitrus Berry
+|cant|p2b: Hydreigon|par
+|
+|upkeep
+|turn|5
+|
+|t:|1756713200
+|move|p2a: Arcanine|Protect|p2a: Arcanine
+|-singleturn|p2a: Arcanine|Protect
+|move|p2b: Hydreigon|Protect|p2b: Hydreigon
+|-singleturn|p2b: Hydreigon|Protect
+|move|p1a: Sneasler|Dire Claw|p2a: Arcanine
+|-activate|p2a: Arcanine|move: Protect
+|move|p1b: Ursaluna|Hyper Voice|p2b: Hydreigon|[spread] 
+|-activate|p2a: Arcanine|move: Protect
+|-activate|p2b: Hydreigon|move: Protect
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756713228
+|move|p2a: Arcanine|Extreme Speed|p1a: Sneasler
+|-damage|p1a: Sneasler|2/100
+|move|p1a: Sneasler|Dire Claw|p2a: Arcanine
+|-damage|p2a: Arcanine|4/100
+|move|p1b: Ursaluna|Hyper Voice|p2b: Hydreigon|[spread] p2a,p2b
+|-damage|p2a: Arcanine|0 fnt
+|-damage|p2b: Hydreigon|0 fnt
+|faint|p2a: Arcanine
+|faint|p2b: Hydreigon
+|
+|upkeep
+|
+|t:|1756713239
+|switch|p2b: Lanturn|Lanturn, L50, F, shiny|100/100
+|turn|7
+|
+|t:|1756713257
+|move|p1a: Sneasler|Dire Claw|p2b: Lanturn
+|-damage|p2b: Lanturn|68/100
+|move|p1b: Ursaluna|Blood Moon|p2b: Lanturn
+|-damage|p2b: Lanturn|20/100
+|move|p2b: Lanturn|Icy Wind|p1a: Sneasler|[spread] p1a,p1b
+|-supereffective|p1b: Ursaluna
+|-damage|p1a: Sneasler|0 fnt
+|-damage|p1b: Ursaluna|87/100
+|-unboost|p1b: Ursaluna|spe|1
+|faint|p1a: Sneasler
+|
+|upkeep
+|turn|8
+|-message|ushitsune forfeited.
+|
+|win|owbd
+|l|☆ushitsune
+|player|p2|
+||ushitsune is ready for game 2.
+||owbd is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

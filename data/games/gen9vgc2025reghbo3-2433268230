@@ -1,0 +1,143 @@
+|j|☆NBZ-H
+|j|☆wumblesnsuch
+|html|NBZ-Hwumblesnsuch    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756764242
+|gametype|doubles
+|player|p1|NBZ-H|2|1038
+|player|p2|wumblesnsuch|blue|1158
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Coalossal, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Gothitelle, L50, F|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Coalossal||PowerHerb|FlashFire|MeteorBeam,Scald,EarthPower,HeatWave|||M|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,Protect,SolarBeam,Flamethrower|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Protect,HeadlongRush,Facade,Earthquake|||M|||50|,,,,,Ghost]Farigiraf||GrassySeed|ArmorTail|TrickRoom,FoulPlay,HelpingHand,Reflect|||F|||50|,,,,,Fairy]Amoonguss||MentalHerb|Regenerator|RagePowder,Spore,PollenPuff,Protect|||F|||50|,,,,,Dark]Gothitelle||Leftovers|ShadowTag|Protect,FakeOut,TrickRoom,LightScreen|||F|||50|,,,,,Dark
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1756764285
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1b: Coalossal|Coalossal, L50, M|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|1
+|
+|t:|1756764303
+|-terastallize|p1b: Coalossal|Grass
+|move|p1a: Farigiraf|Helping Hand|p1b: Coalossal
+|-singleturn|p1b: Coalossal|Helping Hand|[of] p1a: Farigiraf
+|move|p2a: Jumpluff|Tailwind|p2a: Jumpluff
+|-sidestart|p2: wumblesnsuch|move: Tailwind
+|move|p2b: Torkoal|Overheat|p1a: Farigiraf
+|-damage|p1a: Farigiraf|38/100
+|-unboost|p2b: Torkoal|spa|2
+|-enditem|p2b: Torkoal|Eject Pack
+|
+|t:|1756764310
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100
+|move|p1b: Coalossal|Meteor Beam||[still]
+|-prepare|p1b: Coalossal|Meteor Beam
+|-boost|p1b: Coalossal|spa|1
+|-enditem|p1b: Coalossal|Power Herb
+|-anim|p1b: Coalossal|Meteor Beam|p2b: Ursaluna
+|-resisted|p2b: Ursaluna
+|-damage|p2b: Ursaluna|51/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1756764331
+|move|p2a: Jumpluff|Sleep Powder|p1a: Farigiraf
+|-status|p1a: Farigiraf|slp|[from] move: Sleep Powder
+|move|p2b: Ursaluna|Facade|p1b: Coalossal
+|-damage|p1b: Coalossal|9/100
+|move|p1b: Coalossal|Heat Wave|p2a: Jumpluff|[spread] p2a,p2b
+|-supereffective|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2a: Jumpluff
+|faint|p2b: Ursaluna
+|cant|p1a: Farigiraf|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756764338
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|switch|p2b: Charizard|Charizard, L50, F|100/100
+|turn|3
+|
+|t:|1756764348
+|move|p2b: Charizard|Air Slash|p1b: Coalossal
+|-supereffective|p1b: Coalossal
+|-damage|p1b: Coalossal|0 fnt
+|faint|p1b: Coalossal
+|cant|p1a: Farigiraf|slp
+|move|p2a: Torkoal|Eruption|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|faint|p1a: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|88/100|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|
+|t:|1756764352
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|4
+|
+|t:|1756764370
+|-terastallize|p2b: Charizard|Ghost
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2b: Charizard|Air Slash|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|move|p2a: Torkoal|Eruption|p1b: Ursaluna|[spread] 
+|-activate|p1a: Torkoal|move: Protect
+|-activate|p1b: Ursaluna|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|76/100|[from] ability: Solar Power|[of] p2b: Charizard
+|-sideend|p2: wumblesnsuch|move: Tailwind
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NBZ-H)
+|
+|t:|1756764389
+|move|p2a: Torkoal|Helping Hand|p2b: Charizard
+|-singleturn|p2b: Charizard|Helping Hand|[of] p2a: Torkoal
+|move|p2b: Charizard|Air Slash|p1b: Ursaluna|[miss]
+|-miss|p2b: Charizard|p1b: Ursaluna
+|move|p1b: Ursaluna|Headlong Rush|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|faint|p2a: Torkoal
+|move|p1a: Torkoal|Flamethrower|p2b: Charizard
+|-damage|p2b: Charizard|0 fnt
+|faint|p2b: Charizard
+|
+|win|NBZ-H

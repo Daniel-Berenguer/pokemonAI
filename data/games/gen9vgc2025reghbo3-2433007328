@@ -1,0 +1,119 @@
+|j|☆luxordoodles
+|j|☆Taylor4Ever
+|html|luxordoodlesTaylor4Ever    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756737092
+|gametype|doubles
+|player|p1|luxordoodles|101|1000
+|player|p2|Taylor4Ever|265|1087
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Maushold-Four, L50|
+|poke|p1|Archaludon, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|||F|||50|,,,,,Ghost]Basculegion||MysticWater|SwiftSwim|Protect,WaveCrash,AquaJet,LastRespects|||M|||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,ClearSmog|||M|||50|,,,,,Water]Maushold-Four||WideLens|Technician|PopulationBomb,FollowMe,Taunt,Protect||||||50|,,,,,Grass]Archaludon||AssaultVest|Stamina|ElectroShot,DragonPulse,FlashCannon,BodyPress|||F|||50|,,,,,Grass
+|showteam|p2|Indeedee-F||RockyHelmet|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Gallade||ScopeLens|Sharpness|SacredSword,PsychoCut,TrickRoom,WideGuard|||M|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,ClearSmog,HeatWave|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,TrickRoom,DazzlingGleam,Protect|||F|||50|,,,,,Psychic]Lilligant-Hisui||FocusSash|Chlorophyll|SleepPowder,AfterYou,SolarBlade,CloseCombat|||F|||50|,,,,,Ghost
+|
+|t:|1756737128
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1756737156
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Basculegion|Last Respects|p2a: Indeedee
+|-immune|p2a: Indeedee
+|move|p1a: Pelipper|Weather Ball|p2a: Indeedee
+|-damage|p2a: Indeedee|30/100
+|move|p2b: Hatterene|Trick Room|p2b: Hatterene
+|-fieldstart|move: Trick Room|[of] p2b: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756737185
+|move|p1b: Basculegion|Aqua Jet|p2a: Indeedee
+|-activate|p2a: Indeedee|move: Psychic Terrain
+|move|p2b: Hatterene|Expanding Force|p1b: Basculegion|[spread] p1a,p1b
+|-enditem|p1a: Pelipper|Focus Sash
+|-damage|p1a: Pelipper|1/100
+|-damage|p1b: Basculegion|0 fnt
+|faint|p1b: Basculegion
+|-damage|p2b: Hatterene|91/100|[from] item: Life Orb
+|move|p2a: Indeedee|Psychic|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756737202
+|switch|p1a: Archaludon|Archaludon, L50, F|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|turn|3
+|
+|t:|1756737250
+|-terastallize|p2a: Indeedee|Grass
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Hatterene|Expanding Force|p1b: Amoonguss|[spread] p1a,p1b
+|-resisted|p1a: Archaludon
+|-supereffective|p1b: Amoonguss
+|-damage|p1a: Archaludon|72/100
+|-damage|p1b: Amoonguss|0 fnt
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|faint|p1b: Amoonguss
+|-damage|p2b: Hatterene|81/100|[from] item: Life Orb
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2a: Indeedee
+|-resisted|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756737264
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|4
+|
+|t:|1756737305
+|move|p2a: Torkoal|Eruption|p1a: Archaludon
+|-damage|p1a: Archaludon|0 fnt
+|faint|p1a: Archaludon
+|
+|win|Taylor4Ever
+|l|☆luxordoodles
+|player|p1|
+||Taylor4Ever is ready for game 2.
+|inactive|luxordoodles has 30 seconds to confirm battle start!
+|inactive|luxordoodles has 20 seconds to confirm battle start!
+|inactive|luxordoodles has 10 seconds to confirm battle start!
+|uhtml|next|Next: Game 2 of 3

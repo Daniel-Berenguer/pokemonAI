@@ -1,0 +1,203 @@
+|j|☆orbwair
+|j|☆Pearxyz
+|html|orbwairPearxyz    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756695634
+|gametype|doubles
+|player|p1|orbwair|hexmaniac-gen6|
+|player|p2|Pearxyz|skyla|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Basculegion-F, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Pelipper, L50, F|
+|poke|p2|Abomasnow, L50, M|
+|poke|p2|Froslass, L50, F|
+|poke|p2|Clefable, L50, M|
+|poke|p2|Vaporeon, L50, M|
+|poke|p2|Clodsire, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+|showteam|p1|Basculegion-F||LifeOrb|SwiftSwim|Surf,IceBeam,ShadowBall,Protect|||F|||50|,,,,,Water]Amoonguss||RockyHelmet|Regenerator|PollenPuff,RagePowder,Protect,Spore|||F|||50|,,,,,Water]Sneasler||FocusSash|Unburden|Acrobatics,CloseCombat,DireClaw,Protect|||M|||50|,,,,,Dark]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,KnockOff,HelpingHand|||F|||50|,,,,,Grass]Archaludon||PowerHerb|Stamina|ElectroShot,BodyPress,FlashCannon,Protect|||F|||50|,,,,,Steel]Pelipper||CovertCloak|Drizzle|Tailwind,Protect,WeatherBall,AirSlash|||F|||50|,,,,,Water
+|showteam|p2|Abomasnow||Leftovers|SnowWarning|Substitute,ChillingWater,BodyPress,WaterPulse|||M|||50|,,,,,Water]Froslass||FocusSash|SnowCloak|Blizzard,Curse,IceFang,Substitute|||F|||50|,,,,,Ice]Clefable||SitrusBerry|CuteCharm|CalmMind,DrainingKiss,Blizzard,BatonPass|||M|||50|,,,,,Fairy]Vaporeon||CovertCloak|WaterAbsorb|HelpingHand,HydroPump,Wish,WeatherBall|||M|||50|,,,,,Water]Clodsire||LifeOrb|Unaware|HighHorsepower,Protect,Recover,Toxic|||M|||50|,,,,,Poison]Amoonguss||RockyHelmet|EffectSpore|RagePowder,Toxic,Substitute,LeafStorm|||M|||50|,,,,,Grass
+|
+|t:|1756695646
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Small Child|Incineroar, L50, F|100/100
+|switch|p1b: GatorPower ade|Amoonguss, L50, F|100/100
+|switch|p2a: Abomasnow|Abomasnow, L50, M|100/100
+|switch|p2b: Clefable|Clefable, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|-ability|p1a: Small Child|Intimidate|boost
+|-unboost|p2a: Abomasnow|atk|1
+|-unboost|p2b: Clefable|atk|1
+|turn|1
+|
+|t:|1756695667
+|switch|p2a: Froslass|Froslass, L50, F|100/100
+|move|p1a: Small Child|Fake Out|p2a: Froslass
+|-immune|p2a: Froslass
+|move|p2b: Clefable|Calm Mind|p2b: Clefable
+|-boost|p2b: Clefable|spa|1
+|-boost|p2b: Clefable|spd|1
+|move|p1b: GatorPower ade|Spore|p2b: Clefable
+|-status|p2b: Clefable|slp|[from] move: Spore
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756695685
+|move|p2a: Froslass|Substitute|p2a: Froslass
+|-start|p2a: Froslass|Substitute
+|-damage|p2a: Froslass|76/100
+|cant|p2b: Clefable|slp
+|move|p1a: Small Child|Knock Off|p2a: Froslass|[miss]
+|-miss|p1a: Small Child|p2a: Froslass
+|move|p1b: GatorPower ade|Spore||[still]
+|-fail|p1b: GatorPower ade
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756695718
+|switch|p1b: White Monster|Basculegion-F, L50, F|100/100
+|move|p2a: Froslass|Blizzard|p1a: Small Child|[spread] p1a,p1b
+|-resisted|p1a: Small Child
+|-resisted|p1b: White Monster
+|-damage|p1a: Small Child|90/100
+|-damage|p1b: White Monster|87/100
+|-curestatus|p2b: Clefable|slp|[msg]
+|move|p2b: Clefable|Calm Mind|p2b: Clefable
+|-boost|p2b: Clefable|spa|1
+|-boost|p2b: Clefable|spd|1
+|move|p1a: Small Child|Knock Off|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-end|p2a: Froslass|Substitute
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756695743
+|move|p1b: White Monster|Shadow Ball|p2a: Froslass
+|-supereffective|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|faint|p2a: Froslass
+|-damage|p1b: White Monster|77/100|[from] item: Life Orb
+|move|p2b: Clefable|Baton Pass|p2b: Clefable
+|
+|t:|1756695753
+|switch|p2b: Clodsire|Clodsire, L50, M|100/100|[from] Baton Pass
+|move|p1a: Small Child|Knock Off|p2b: Clodsire
+|-crit|p2b: Clodsire
+|-damage|p2b: Clodsire|15/100
+|-enditem|p2b: Clodsire|Life Orb|[from] move: Knock Off|[of] p1a: Small Child
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1756695760
+|switch|p2a: Abomasnow|Abomasnow, L50, M|100/100
+|turn|5
+|
+|t:|1756695768
+|move|p2b: Clodsire|Protect|p2b: Clodsire
+|-singleturn|p2b: Clodsire|Protect
+|move|p1b: White Monster|Ice Beam|p2b: Clodsire
+|-activate|p2b: Clodsire|move: Protect
+|move|p2a: Abomasnow|Substitute|p2a: Abomasnow
+|-start|p2a: Abomasnow|Substitute
+|-damage|p2a: Abomasnow|76/100
+|move|p1a: Small Child|Flare Blitz|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-end|p2a: Abomasnow|Substitute
+|-damage|p1a: Small Child|82/100|[from] Recoil|[of] p2a: Abomasnow
+|
+|-weather|none
+|-heal|p2a: Abomasnow|82/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1756695783
+|move|p1b: White Monster|Ice Beam|p2b: Clodsire
+|-supereffective|p2b: Clodsire
+|-damage|p2b: Clodsire|0 fnt
+|faint|p2b: Clodsire
+|-damage|p1b: White Monster|67/100|[from] item: Life Orb
+|move|p2a: Abomasnow|Substitute|p2a: Abomasnow
+|-start|p2a: Abomasnow|Substitute
+|-damage|p2a: Abomasnow|57/100
+|move|p1a: Small Child|Flare Blitz|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-end|p2a: Abomasnow|Substitute
+|-damage|p1a: Small Child|73/100|[from] Recoil|[of] p2a: Abomasnow
+|
+|-heal|p2a: Abomasnow|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756695797
+|switch|p2b: Clefable|Clefable, L50, M|100/100
+|turn|7
+|
+|t:|1756695819
+|switch|p1b: Rockstar|Sneasler, L50, M, shiny|100/100
+|-terastallize|p2b: Clefable|Fairy
+|move|p2a: Abomasnow|Substitute|p2a: Abomasnow
+|-start|p2a: Abomasnow|Substitute
+|-damage|p2a: Abomasnow|38/100
+|move|p2b: Clefable|Draining Kiss|p1a: Small Child
+|-damage|p1a: Small Child|48/100
+|-enditem|p1a: Small Child|Sitrus Berry|[eat]
+|-heal|p1a: Small Child|73/100|[from] item: Sitrus Berry
+|move|p1a: Small Child|Flare Blitz|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-end|p2a: Abomasnow|Substitute
+|-damage|p1a: Small Child|65/100|[from] Recoil|[of] p2a: Abomasnow
+|
+|-heal|p2a: Abomasnow|44/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1756695843
+|move|p1b: Rockstar|Dire Claw|p2b: Clefable
+|-supereffective|p2b: Clefable
+|-damage|p2b: Clefable|3/100
+|-enditem|p2b: Clefable|Sitrus Berry|[eat]
+|-heal|p2b: Clefable|28/100|[from] item: Sitrus Berry
+|move|p2a: Abomasnow|Chilling Water|p1a: Small Child
+|-supereffective|p1a: Small Child
+|-damage|p1a: Small Child|46/100
+|-unboost|p1a: Small Child|atk|1
+|move|p2b: Clefable|Draining Kiss|p1a: Small Child
+|-damage|p1a: Small Child|21/100
+|-heal|p2b: Clefable|47/100|[from] drain|[of] p1a: Small Child
+|move|p1a: Small Child|Flare Blitz|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|-damage|p1a: Small Child|7/100|[from] Recoil
+|
+|upkeep
+|turn|9
+|
+|t:|1756695864
+|move|p1a: Small Child|Helping Hand|p1b: Rockstar
+|-singleturn|p1b: Rockstar|Helping Hand|[of] p1a: Small Child
+|move|p1b: Rockstar|Dire Claw|p2b: Clefable
+|-supereffective|p2b: Clefable
+|-damage|p2b: Clefable|0 fnt
+|faint|p2b: Clefable
+|
+|win|orbwair
+|l|☆Pearxyz
+|player|p2|

@@ -1,0 +1,110 @@
+|j|☆twittle twister
+|j|☆JonnyNerd
+|html|twittle twisterJonnyNerd    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756768161
+|gametype|doubles
+|player|p1|twittle twister|2|
+|player|p2|JonnyNerd|falkner|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Arcanine-Hisui, L50, F|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Mimikyu, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|showteam|p1|Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Thunderbolt|||M|||50|,,,,,Electric]Ursaluna-Bloodmoon||ThroatSpray|MindsEye|HyperVoice,BloodMoon,Protect,EarthPower|||M|||50|,,,,,Ghost]Arcanine-Hisui||ClearAmulet|Intimidate|RockSlide,WildCharge,FlareBlitz,Protect|||F|||50|,,,,,Water]Tyranitar||AssaultVest|SandStream|RockSlide,TeraBlast,KnockOff,HighHorsepower|||M|||50|,,,,,Flying]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,Protect,Acrobatics|||M|||50|,,,,,Flying]Indeedee||FocusSash|PsychicSurge|DazzlingGleam,ExpandingForce,Psychic,TrickRoom|||M|||50|,,,,,Dark
+|showteam|p2|Torkoal||ChoiceSpecs|Drought|Flamethrower,Eruption,EarthPower,WeatherBall|||M|||50|,,,,,Fire]Mimikyu||MentalHerb|Disguise|Protect,TrickRoom,ShadowSneak,Curse|||F|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Protect,Substitute|||F|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|TrickRoom,Protect,SacredSword,PsychoCut|||M|||50|,,,,,Grass]Lilligant-Hisui||FocusSash|Chlorophyll|Protect,SleepPowder,AfterYou,CloseCombat|||F|||50|,,,,,Ghost]Incineroar||RockyHelmet|Intimidate|FakeOut,FlareBlitz,KnockOff,Uturn|||F|||50|,,,,,Water
+|
+|t:|1756768184
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Pikaboo|Mimikyu, L50, F, shiny|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1756768231
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Indeedee|Expanding Force|p2a: Torkoal|[spread] p2a,p2b
+|-damage|p2a: Torkoal|29/100
+|-damage|p2b: Gallade|42/100
+|move|p2b: Gallade|Psycho Cut|p1b: Ursaluna
+|-crit|p1b: Ursaluna
+|-damage|p1b: Ursaluna|14/100
+|move|p1b: Ursaluna|Hyper Voice|p2b: Gallade|[spread] p2a,p2b
+|-damage|p2a: Torkoal|0 fnt
+|-damage|p2b: Gallade|4/100
+|faint|p2a: Torkoal
+|-enditem|p1b: Ursaluna|Throat Spray
+|-boost|p1b: Ursaluna|spa|1|[from] item: Throat Spray
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756768244
+|switch|p2a: Pikaboo|Mimikyu, L50, F, shiny|100/100
+|turn|2
+|
+|t:|1756768254
+|move|p2b: Gallade|Psycho Cut|p1a: Indeedee
+|-resisted|p1a: Indeedee
+|-crit|p1a: Indeedee
+|-damage|p1a: Indeedee|8/100
+|move|p1b: Ursaluna|Hyper Voice|p2b: Gallade|[spread] p2a,p2b
+|-activate|p2a: Pikaboo|ability: Disguise
+|-damage|p2a: Pikaboo|100/100
+|-damage|p2b: Gallade|0 fnt
+|detailschange|p2a: Pikaboo|Mimikyu-Busted, L50, F, shiny
+|-damage|p2a: Pikaboo|89/100|[from] pokemon: Mimikyu-Busted
+|faint|p2b: Gallade
+|move|p2a: Pikaboo|Trick Room|p2a: Pikaboo
+|-fieldstart|move: Trick Room|[of] p2a: Pikaboo
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldend|move: Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756768260
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|3
+|
+|t:|1756768281
+|move|p2a: Pikaboo|Protect|p2a: Pikaboo
+|-singleturn|p2a: Pikaboo|Protect
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1a: Indeedee|Expanding Force|p2b: Ursaluna|[spread] 
+|-activate|p2a: Pikaboo|move: Protect
+|-activate|p2b: Ursaluna|move: Protect
+|move|p1b: Ursaluna|Earth Power|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|-message|JonnyNerd forfeited.
+|
+|win|twittle twister
+|l|☆JonnyNerd
+|player|p2|
+||JonnyNerd is ready for game 3.
+||twittle twister is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

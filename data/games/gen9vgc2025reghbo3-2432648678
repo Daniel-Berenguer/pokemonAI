@@ -1,0 +1,123 @@
+|j|☆scott the wott
+|j|☆FallenTurtlle
+|html|scott the wottFallenTurtlle    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756683932
+|gametype|doubles
+|player|p1|scott the wott|bianca|1070
+|player|p2|FallenTurtlle|serena|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Flamigo, L50, F|
+|poke|p1|Clefable, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Talonflame, L50, M|
+|poke|p2|Gastrodon-East, L50, M|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Flamigo||FocusSash|Scrappy|CloseCombat,DualWingbeat,WideGuard,Detect|||F|||50|,,,,,Stellar]Clefable||SitrusBerry|Unaware|FollowMe,Moonblast,MistyTerrain,Protect|||F|||50|,,,,,Water]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Incineroar||AssaultVest|Intimidate|FlareBlitz,KnockOff,FakeOut,Uturn|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Farigiraf||ThroatSpray|ArmorTail|HyperVoice,Psychic,TrickRoom,Protect|||F|||50|,,,,,Water
+|showteam|p2|Annihilape||Leftovers|Defiant|StealthRock,RageFist,DrainPunch,Protect|||M|||50|,,,,,Steel]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,Roar|||F|||50|,,,,,Ghost]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,FreezeDry,MistyTerrain,Protect|||M|||50|,,,,,Ghost]Talonflame||CovertCloak|GaleWings|Tailwind,DualWingbeat,TemperFlare,WillOWisp|||M|||50|,,,,,Fairy]Gastrodon-East||SitrusBerry|StormDrain|Yawn,EarthPower,IcyWind,Protect|||M|||50|,,,,,Normal]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,Protect,NastyPlot||||||50|,,,,,Steel
+|
+|t:|1756683988
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1b: Flamigo|Flamigo, L50, F|100/100
+|switch|p2a: Talonflame|Talonflame, L50, M|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|turn|1
+|
+|t:|1756684028
+|move|p1b: Flamigo|Detect|p1b: Flamigo
+|-singleturn|p1b: Flamigo|Protect
+|move|p1a: Farigiraf|Protect|p1a: Farigiraf
+|-singleturn|p1a: Farigiraf|Protect
+|move|p2a: Talonflame|Will-O-Wisp|p1b: Flamigo
+|-activate|p1b: Flamigo|move: Protect
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1756684042
+|move|p2a: Talonflame|Dual Wingbeat||[still]
+|cant|p1a: Farigiraf|ability: Armor Tail|Dual Wingbeat|[of] p2a: Talonflame
+|move|p1b: Flamigo|Close Combat|p2b: Gholdengo
+|-supereffective|p2b: Gholdengo
+|-damage|p2b: Gholdengo|0 fnt
+|-unboost|p1b: Flamigo|def|1
+|-unboost|p1b: Flamigo|spd|1
+|faint|p2b: Gholdengo
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|
+|t:|1756684052
+|switch|p2b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|turn|3
+|
+|t:|1756684058
+|move|p1a: Farigiraf|Hyper Voice|p2b: Ninetales|[spread] p2a,p2b
+|-damage|p2a: Talonflame|58/100
+|-damage|p2b: Ninetales|66/100
+|-enditem|p1a: Farigiraf|Throat Spray
+|-boost|p1a: Farigiraf|spa|1|[from] item: Throat Spray
+|move|p1b: Flamigo|Close Combat|p2b: Ninetales
+|-crit|p2b: Ninetales
+|-damage|p2b: Ninetales|0 fnt
+|-unboost|p1b: Flamigo|def|1
+|-unboost|p1b: Flamigo|spd|1
+|faint|p2b: Ninetales
+|move|p2a: Talonflame|Will-O-Wisp|p1b: Flamigo
+|-status|p1b: Flamigo|brn
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1b: Flamigo|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756684065
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Farigiraf|atk|1
+|-fail|p1b: Flamigo|unboost|Attack|[from] ability: Scrappy|[of] p1b: Flamigo
+|turn|4
+|
+|t:|1756684075
+|move|p2b: Incineroar|Knock Off|p1a: Farigiraf
+|-supereffective|p1a: Farigiraf
+|-damage|p1a: Farigiraf|49/100
+|move|p1a: Farigiraf|Hyper Voice|p2a: Talonflame|[spread] p2a,p2b
+|-damage|p2a: Talonflame|0 fnt
+|-damage|p2b: Incineroar|60/100
+|faint|p2a: Talonflame
+|move|p1b: Flamigo|Close Combat|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|15/100
+|-unboost|p1b: Flamigo|def|1
+|-unboost|p1b: Flamigo|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1b: Flamigo|89/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1756684082
+|move|p1a: Farigiraf|Hyper Voice|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|win|scott the wott

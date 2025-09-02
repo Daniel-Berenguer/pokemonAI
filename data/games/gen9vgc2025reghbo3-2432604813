@@ -1,0 +1,176 @@
+|j|☆Larchete
+|j|☆T-block
+|html|LarcheteT-block    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756678703
+|gametype|doubles
+|player|p1|Larchete|101|1494
+|player|p2|T-block|170|1420
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Armarouge, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Tatsugiri, L50, F|
+|poke|p1|Maushold, L50|
+|poke|p1|Dondozo, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Dragonite, L50, M|
+|teampreview|4
+|showteam|p1|Armarouge||PowerHerb|FlashFire|TrickRoom,MeteorBeam,HeatWave,ExpandingForce|||F|||50|,,,,,Psychic]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,Psychic,HelpingHand,TrickRoom|||F|||50|,,,,,Grass]Talonflame||LifeOrb|GaleWings|BraveBird,FlareBlitz,Protect,Tailwind|||M|||50|,,,,,Stellar]Tatsugiri||ChoiceSpecs|Commander|MuddyWater,IcyWind,TeraBlast,DracoMeteor|||F|||50|,,,,,Poison]Maushold||WideLens|Technician|Protect,HelpingHand,PopulationBomb,FollowMe||||||50|,,,,,Normal]Dondozo||Leftovers|Unaware|Protect,WaveCrash,Earthquake,OrderUp|||M|||50|,,,,,Grass
+|showteam|p2|Rillaboom||AssaultVest|GrassySurge|GrassyGlide,WoodHammer,FakeOut,HighHorsepower|||M|||50|,,,,,Fire]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,IcyWind,Encore,AuroraVeil|||M|||50|,,,,,Ghost]Gholdengo||GrassySeed|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water]Garchomp||LifeOrb|RoughSkin|StompingTantrum,RockSlide,DragonClaw,Protect|||F|||50|,,,,,Fire]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||M|||50|,,,,,Fairy
+|
+|t:|1756678743
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Armarouge|Armarouge, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Dragonite|Dragonite, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Armarouge|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|turn|1
+|
+|t:|1756678768
+|-terastallize|p2a: Incineroar|Water
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Dragonite|Scale Shot|p1b: Indeedee
+|-damage|p1b: Indeedee|86/100
+|-damage|p1b: Indeedee|73/100
+|-damage|p1b: Indeedee|58/100
+|-damage|p1b: Indeedee|43/100
+|-hitcount|p1b: Indeedee|4
+|-unboost|p2b: Dragonite|def|1
+|-boost|p2b: Dragonite|spe|1
+|move|p2a: Incineroar|Knock Off|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p1a: Armarouge|Meteor Beam||[still]
+|-prepare|p1a: Armarouge|Meteor Beam
+|-boost|p1a: Armarouge|spa|1
+|-enditem|p1a: Armarouge|Power Herb
+|-anim|p1a: Armarouge|Meteor Beam|p2a: Incineroar
+|-damage|p2a: Incineroar|44/100
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|69/100|[from] item: Sitrus Berry
+|
+|upkeep
+|
+|t:|1756678776
+|switch|p1b: Pesce grande|Dondozo, L50, M|100/100
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Larchete)
+|
+|t:|1756678823
+|-terastallize|p1a: Armarouge|Psychic
+|move|p2b: Dragonite|Haze|p2b: Dragonite
+|-clearallboost
+|move|p2a: Incineroar|Knock Off|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|42/100
+|move|p1a: Armarouge|Expanding Force|p2a: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Dragonite|60/100
+|faint|p2a: Incineroar
+|move|p1b: Pesce grande|Order Up|p2b: Dragonite
+|-supereffective|p2b: Dragonite
+|-damage|p2b: Dragonite|3/100
+|
+|upkeep
+|
+|t:|1756678847
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|turn|3
+|
+|t:|1756678861
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p2a: Gholdengo|Grassy Seed
+|-boost|p2a: Gholdengo|def|1|[from] item: Grassy Seed
+|move|p2a: Gholdengo|Shadow Ball|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|move|p1b: Pesce grande|Wave Crash|p2a: Gholdengo
+|-damage|p2a: Gholdengo|50/100
+|-damage|p1b: Pesce grande|86/100|[from] Recoil
+|
+|-heal|p2a: Gholdengo|56/100|[from] Grassy Terrain
+|-heal|p1b: Pesce grande|93/100|[from] Grassy Terrain
+|-heal|p1b: Pesce grande|99/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756678870
+|switch|p1a: Tore|Maushold, L50|100/100
+|turn|4
+|inactive|T-block has 30 seconds left.
+|inactive|T-block has 20 seconds left.
+|inactive|T-block has 15 seconds left.
+|inactive|T-block has 10 seconds left.
+|
+|t:|1756678917
+|move|p2b: Rillaboom|Fake Out|p1a: Tore
+|-damage|p1a: Tore|78/100
+|cant|p1a: Tore|flinch
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1b: Pesce grande|Wave Crash|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|-damage|p1b: Pesce grande|83/100|[from] Recoil
+|
+|-heal|p1a: Tore|84/100|[from] Grassy Terrain
+|-heal|p1b: Pesce grande|89/100|[from] Grassy Terrain
+|-heal|p1b: Pesce grande|96/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756678923
+|switch|p2a: Dragonite|Dragonite, L50, M|3/100
+|turn|5
+|
+|t:|1756678942
+|move|p1a: Tore|Population Bomb|p2b: Rillaboom
+|-damage|p2b: Rillaboom|89/100
+|-damage|p2b: Rillaboom|80/100
+|-damage|p2b: Rillaboom|69/100
+|-damage|p2b: Rillaboom|57/100
+|-damage|p2b: Rillaboom|46/100
+|-damage|p2b: Rillaboom|35/100
+|-damage|p2b: Rillaboom|25/100
+|-damage|p2b: Rillaboom|16/100
+|-damage|p2b: Rillaboom|5/100
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|-hitcount|p2: Rillaboom|10
+|move|p2a: Dragonite|Scale Shot|p1a: Tore
+|-damage|p1a: Tore|60/100
+|-damage|p1a: Tore|36/100
+|-damage|p1a: Tore|10/100
+|-crit|p1a: Tore
+|-damage|p1a: Tore|0 fnt
+|faint|p1a: Tore
+|-hitcount|p1: Tore|4
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1b: Pesce grande|Order Up|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|Larchete
+||Larchete is ready for game 3.

@@ -1,0 +1,153 @@
+|j|☆Nussloni
+|j|☆MidoMidori
+|html|NussloniMidoMidori    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756645912
+|gametype|doubles
+|player|p1|Nussloni|170|1310
+|player|p2|MidoMidori|roxanne-gen6|1275
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,LashOut,Protect|||M|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,Encore,Protect|||M|||50|,,,,,Psychic]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,EarthPower,HyperVoice,Protect|||M|||50|,,,,,Normal]Gholdengo||MetalCoat|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Ghost]Volcarona||RockyHelmet|FlameBody|Overheat,RagePowder,Tailwind,StruggleBug|||M|||50|,,,,,Fairy
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,TrickRoom,Protect|||M|||50|,,,,,Fighting]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||M|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|
+|t:|1756645952
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Volcarona|Volcarona, L50, F|100/100
+|switch|p2b: Annihilape|Annihilape, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756645978
+|-terastallize|p2b: Annihilape|Fairy
+|move|p1a: Sneasler|Dire Claw|p2b: Annihilape
+|-supereffective|p2b: Annihilape
+|-damage|p2b: Annihilape|11/100
+|move|p2a: Volcarona|Tailwind|p2a: Volcarona
+|-sidestart|p2: MidoMidori|move: Tailwind
+|move|p2b: Annihilape|Taunt|p1b: Indeedee
+|-start|p1b: Indeedee|move: Taunt
+|move|p1b: Indeedee|Expanding Force|p2a: Volcarona|[spread] p2a,p2b
+|-damage|p2a: Volcarona|50/100
+|-damage|p2b: Annihilape|0 fnt
+|-enditem|p2a: Volcarona|Sitrus Berry|[eat]
+|-heal|p2a: Volcarona|75/100|[from] item: Sitrus Berry
+|faint|p2b: Annihilape
+|
+|upkeep
+|
+|t:|1756645986
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|2
+|
+|t:|1756646010
+|switch|p1b: Volcarona|Volcarona, L50, M|100/100
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p2b: Sneasler|Close Combat|p1a: Sneasler
+|-activate|p1a: Sneasler|move: Protect
+|move|p2a: Volcarona|Overheat|p1a: Sneasler
+|-activate|p1a: Sneasler|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1756646036
+|move|p2b: Sneasler|Dire Claw|p1b: Volcarona
+|-crit|p1b: Volcarona
+|-damage|p1b: Volcarona|10/100
+|-status|p1b: Volcarona|slp
+|-damage|p2b: Sneasler|84/100|[from] item: Rocky Helmet|[of] p1b: Volcarona
+|move|p1a: Sneasler|Dire Claw|p2a: Volcarona
+|-damage|p2a: Volcarona|18/100
+|move|p2a: Volcarona|Overheat|p1b: Volcarona
+|-damage|p1b: Volcarona|0 fnt
+|-unboost|p2a: Volcarona|spa|2
+|faint|p1b: Volcarona
+|
+|upkeep
+|
+|t:|1756646064
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|turn|4
+|
+|t:|1756646076
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p2b: Sneasler|Close Combat|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|44/100
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|move|p1a: Sneasler|Dire Claw|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|82/100
+|-status|p2a: Tyranitar|psn
+|move|p1b: Indeedee|Expanding Force|p2b: Sneasler|[spread] p2b
+|-immune|p2a: Tyranitar
+|-supereffective|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneasler|39/100|[from] Sandstorm
+|-damage|p1b: Indeedee|95/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|69/100 psn|[from] psn
+|-sideend|p2: MidoMidori|move: Tailwind
+|upkeep
+|
+|t:|1756646079
+|switch|p2b: Volcarona|Volcarona, L50, F|18/100
+|turn|5
+|
+|t:|1756646122
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p2b: Volcarona|Rage Powder|p2b: Volcarona
+|-singleturn|p2b: Volcarona|move: Rage Powder
+|move|p1b: Indeedee|Expanding Force|p2a: Tyranitar|[spread] p2b
+|-immune|p2a: Tyranitar
+|-damage|p2b: Volcarona|0 fnt
+|faint|p2b: Volcarona
+|move|p2a: Tyranitar|Knock Off|p1a: Sneasler
+|-activate|p1a: Sneasler|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneasler|33/100|[from] Sandstorm
+|-damage|p1b: Indeedee|89/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|57/100 psn|[from] psn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|-message|MidoMidori forfeited.
+|
+|win|Nussloni
+|raw|Nussloni's rating: 1310 → 1328(+18 for winning)
+|raw|MidoMidori's rating: 1275 → 1253(-22 for losing)
+|l|☆MidoMidori
+|player|p2|

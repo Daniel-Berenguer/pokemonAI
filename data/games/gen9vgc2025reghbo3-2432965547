@@ -1,0 +1,138 @@
+|j|‽123mika321
+|j|☆JuanGuerrero09
+|html|123mika321JuanGuerrero09    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756732035
+|gametype|doubles
+|player|p1|123mika321|nate|1137
+|player|p2|JuanGuerrero09|102|1085
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Maushold-Four, L50|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Hydreigon, L50, F|
+|teampreview|4
+|showteam|p1|Maushold-Four||WideLens|Technician|PopulationBomb,Taunt,FollowMe,Protect||||||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,MysticalFire,TrickRoom|||F|||50|,,,,,Fire]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,TrickRoom,FollowMe,HelpingHand|||F|||50|,,,,,Water]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,TrickRoom,WideGuard|||M|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,WeatherBall,HeatWave,EarthPower|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,DazzlingGleam|||M|||50|,,,,,Fire]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|HighHorsepower,Earthquake,IronHead,Protect|||M|||50|,,,,,Ground]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||M|||50|,,,,,Psychic]Hydreigon||CovertCloak|Levitate|Snarl,Tailwind,DracoMeteor,Protect|||F|||50|,,,,,Poison
+|
+|t:|1756732107
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Maushold|Maushold-Four, L50|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756732122
+|move|p1a: Maushold|Follow Me|p1a: Maushold
+|-singleturn|p1a: Maushold|move: Follow Me
+|move|p2b: Sneasler|Close Combat|p1a: Maushold
+|-supereffective|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1a: Maushold
+|move|p2a: Indeedee|Expanding Force|p1b: Gallade
+|-damage|p1b: Gallade|31/100
+|move|p1b: Gallade|Trick Room|p1b: Gallade
+|-fieldstart|move: Trick Room|[of] p1b: Gallade
+|
+|upkeep
+|
+|t:|1756732131
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|2
+|
+|t:|1756732157
+|-terastallize|p2b: Sneasler|Dark
+|move|p1b: Gallade|Wide Guard|p1b: Gallade
+|-singleturn|p1b: Gallade|Wide Guard
+|move|p1a: Ursaluna|Headlong Rush|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2b: Sneasler
+|move|p2a: Indeedee|Expanding Force|p1b: Gallade|[spread] 
+|-activate|p1a: Ursaluna|move: Wide Guard
+|-activate|p1b: Gallade|move: Wide Guard
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756732171
+|switch|p2b: Excadrill|Excadrill, L50, M|100/100
+|turn|3
+|
+|t:|1756732207
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1b: Gallade|Wide Guard|p1b: Gallade
+|-singleturn|p1b: Gallade|Wide Guard
+|move|p1a: Ursaluna|Earthquake|p2b: Excadrill|[spread] p2a,p2b
+|-activate|p1b: Gallade|move: Wide Guard
+|-supereffective|p2a: Tyranitar
+|-supereffective|p2b: Excadrill
+|-damage|p2a: Tyranitar|1/100
+|-enditem|p2b: Excadrill|Focus Sash
+|-damage|p2b: Excadrill|1/100
+|move|p2b: Excadrill|High Horsepower|p1b: Gallade
+|-damage|p1b: Gallade|0 fnt
+|faint|p1b: Gallade
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756732221
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|4
+|
+|t:|1756732268
+|move|p1a: Ursaluna|Facade|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|move|p1b: Indeedee|Psychic|p2b: Excadrill
+|-resisted|p2b: Excadrill
+|-damage|p2b: Excadrill|0 fnt
+|faint|p2b: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Indeedee|95/100|[from] Sandstorm
+|-damage|p1a: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1756732276
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|turn|5
+|
+|t:|1756732288
+|move|p1b: Indeedee|Helping Hand|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Helping Hand|[of] p1b: Indeedee
+|move|p1a: Ursaluna|Facade|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|win|123mika321
+|raw|123mika321's rating: 1137 → 1158(+21 for winning)
+|raw|JuanGuerrero09's rating: 1085 → 1066(-19 for losing)

@@ -1,0 +1,145 @@
+|j|☆I am the Sweeper
+|j|☆OreXis945
+|html|I am the SweeperOreXis945    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756671110
+|gametype|doubles
+|player|p1|I am the Sweeper|janitor|1097
+|player|p2|OreXis945|101|1046
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Smeargle, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Flamigo, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Smeargle||FocusSash|Moody|WideGuard,FollowMe,Spore,Decorate|||M|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|Protect,Tailwind,Roar,ScaleShot|||F|||50|,,,,,Fairy]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,HighHorsepower|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|Protect,SuckerPunch,KowtowCleave,IronHead|||F|||50|,,,,,Ghost]Flamigo||WhiteHerb|Costar|Protect,Acrobatics,CloseCombat,ThroatChop|||F|||50|,,,,,Steel]Farigiraf||SitrusBerry|ArmorTail|HyperVoice,Psychic,Imprison,TrickRoom|||F|||50|,,,,,Fairy
+|showteam|p2|Archaludon||AssaultVest|Stamina|BodyPress,Snarl,ElectroShot,FlashCannon|||F|||50|,,,,,Fighting]Sinistcha-Masterpiece||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,LifeDew||||||50|,,,,,Dark]Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,Tailwind,Haze|||F|||50|,,,,,Steel]Pelipper||FocusSash|Drizzle|MuddyWater,Hurricane,Tailwind,Protect|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,TeraBlast,ShadowBall,Trick||||||50|,,,,,Water
+|
+|t:|1756671197
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, F|100/100
+|switch|p1b: Flamigo|Flamigo, L50, F|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-copyboost|p1b: Flamigo|p1a: Dragonite|[from] ability: Costar
+|turn|1
+|
+|t:|1756671246
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Rillaboom|[spread] p1a,p1b
+|-resisted|p1b: Kingambit
+|-damage|p1a: Rillaboom|58/100
+|-damage|p1b: Kingambit|77/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|-heal|p1a: Rillaboom|64/100|[from] Grassy Terrain
+|-heal|p1b: Kingambit|83/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756671274
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Rillaboom|Fake Out|p2b: Archaludon
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|96/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p1b: Kingambit|Sucker Punch||[still]
+|-fail|p1b: Kingambit
+|cant|p2b: Archaludon|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rillaboom|70/100|[from] Grassy Terrain
+|-heal|p2b: Archaludon|100/100|[from] Grassy Terrain
+|-heal|p1b: Kingambit|89/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756671318
+|move|p1b: Kingambit|Protect|p1b: Kingambit
+|-singleturn|p1b: Kingambit|Protect
+|move|p1a: Rillaboom|Grassy Glide|p2a: Pelipper
+|-damage|p2a: Pelipper|51/100
+|move|p2a: Pelipper|Muddy Water|p1b: Kingambit|[spread] p1a
+|-activate|p1b: Kingambit|move: Protect
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|55/100
+|-unboost|p1a: Rillaboom|accuracy|1
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1b: Kingambit
+|-activate|p1b: Kingambit|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rillaboom|61/100|[from] Grassy Terrain
+|-heal|p1b: Kingambit|95/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756671368
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100
+|move|p2a: Pelipper|Hurricane|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1b: Dragonite
+|-damage|p1b: Dragonite|65/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756671380
+|switch|p1a: Kingambit|Kingambit, L50, F|95/100
+|turn|5
+|
+|t:|1756671405
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|move|p1b: Dragonite|Scale Shot|p2a: Gholdengo|[miss]
+|-miss|p1b: Dragonite|p2a: Gholdengo
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1b: Dragonite
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1b: Dragonite
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Archaludon
+|-damage|p2b: Archaludon|76/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|82/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|100/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|-message|I am the Sweeper forfeited.
+|
+|win|OreXis945
+||I am the Sweeper is ready for game 2.
+||OreXis945 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆I am the Sweeper
+|player|p1|

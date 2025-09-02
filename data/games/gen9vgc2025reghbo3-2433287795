@@ -1,0 +1,153 @@
+|j|☆maish
+|j|☆fantasminha8
+|html|maishfantasminha8    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756766449
+|gametype|doubles
+|player|p1|maish|roxie|1075
+|player|p2|fantasminha8|101|1134
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Exeggutor, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Gallade, L50, M|
+|teampreview|4
+|showteam|p1|Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|DragonPulse,ElectroShot,Snarl,BodyPress|||M|||50|,,,,,Grass]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,AquaJet,LastRespects,FlipTurn|||M|||50|,,,,,Grass]Amoonguss||RockyHelmet|Regenerator|RagePowder,PollenPuff,Spore,Protect|||F|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,PartingShot,KnockOff|||M|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon
+|showteam|p2|Charizard||ChoiceScarf|SolarPower|HeatWave,SolarBeam,AirSlash,WeatherBall|||F|||50|,,,,,Fire]Indeedee-F||SafetyGoggles|PsychicSurge|FollowMe,HelpingHand,TrickRoom,AlluringVoice|||F|||50|,,,,,Fairy]Exeggutor||FocusSash|Chlorophyll|ExpandingForce,TrickRoom,EnergyBall,SleepPowder|||M|||50|,,,,,Psychic]Torkoal||EjectPack|Drought|Eruption,Overheat,Protect,ClearSmog|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Earthquake,Facade,Protect,HeadlongRush|||F|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|WideGuard,PsychoCut,SacredSword,TrickRoom|||M|||50|,,,,,Psychic
+|
+|t:|1756766477
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|switch|p2a: Charizard|Charizard, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1756766512
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|switch|p1b: Pelipper|Pelipper, L50, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|move|p2a: Charizard|Solar Beam||[still]
+|-prepare|p2a: Charizard|Solar Beam
+|move|p1a: Gholdengo|Make It Rain|p2b: Torkoal|[spread] p2a,p2b
+|-resisted|p2a: Charizard
+|-resisted|p2b: Torkoal
+|-damage|p2a: Charizard|60/100
+|-damage|p2b: Torkoal|57/100
+|-unboost|p1a: Gholdengo|spa|1
+|-damage|p1a: Gholdengo|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756766541
+|switch|p1b: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-terastallize|p1a: Gholdengo|Dragon
+|move|p2a: Charizard|Solar Beam|p1b: Amoonguss|[from] lockedmove
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|96/100
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756766577
+|switch|p2a: Torkoal|Torkoal, L50, F|57/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p1a: Gholdengo|Make It Rain|p2b: Indeedee|[spread] p2a,p2b
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-damage|p2b: Indeedee|23/100
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Torkoal
+|-damage|p1a: Gholdengo|81/100|[from] item: Life Orb
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756766583
+|switch|p2a: Exeggutor|Exeggutor, L50, M|100/100
+|turn|4
+|
+|t:|1756766611
+|-terastallize|p2a: Exeggutor|Psychic
+|move|p2b: Indeedee|Helping Hand|p2a: Exeggutor
+|-singleturn|p2a: Exeggutor|Helping Hand|[of] p2b: Indeedee
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p1b: Amoonguss|Pollen Puff|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p2a: Exeggutor|Expanding Force|p1a: Gholdengo|[spread] p1b
+|-activate|p1a: Gholdengo|move: Protect
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756766645
+|switch|p1b: Pelipper|Pelipper, L50, M, shiny|100/100
+|switch|p2b: Charizard|Charizard, L50, F|60/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|turn|5
+|
+|t:|1756766660
+|move|p1b: Pelipper|Weather Ball|p2b: Charizard
+|-supereffective|p2b: Charizard
+|-damage|p2b: Charizard|0 fnt
+|faint|p2b: Charizard
+|move|p2a: Exeggutor|Expanding Force|p1a: Gholdengo|[spread] p1a,p1b
+|-damage|p1a: Gholdengo|8/100
+|-enditem|p1b: Pelipper|Focus Sash
+|-damage|p1b: Pelipper|1/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-enditem|p2a: Exeggutor|Focus Sash
+|-damage|p2a: Exeggutor|1/100
+|-damage|p1a: Gholdengo|0 fnt|[from] item: Life Orb
+|faint|p1a: Gholdengo
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756766673
+|switch|p1a: Basculegion|Basculegion, L50, M, shiny|100/100
+|turn|6
+|
+|t:|1756766678
+|move|p1a: Basculegion|Aqua Jet|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|
+|win|maish
+|raw|maish's rating: 1075 → 1109(+34 for winning)
+|raw|fantasminha8's rating: 1134 → 1105(-29 for losing)

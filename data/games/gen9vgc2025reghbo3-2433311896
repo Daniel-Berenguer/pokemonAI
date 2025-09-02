@@ -1,0 +1,111 @@
+|j|☆snailboss
+|j|☆Alfonso3838
+|html|snailbossAlfonso3838    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756769244
+|gametype|doubles
+|player|p1|snailboss|hilda-wonderlauncher|1124
+|player|p2|Alfonso3838|101|1017
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zoroark-Hisui, L50, F|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Noivern, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Exeggutor, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Zoroark-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,Flamethrower,ShadowBall,HyperBeam|||F|||50|,,,,,Normal]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||F|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|IronHead,Protect,SwordsDance,Earthquake|||M|||50|,,,,,Ground]Indeedee-F||SafetyGoggles|PsychicSurge|TrickRoom,FollowMe,Psychic,HelpingHand|||F|||50|,,,,,Water]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,WideGuard,SacredSword|||M|||50|,,,,,Grass]Noivern||CovertCloak|Telepathy|SuperFang,Tailwind,Taunt,DracoMeteor|||F|||50|,,,,,Fairy
+|showteam|p2|Ursaluna||FlameOrb|Guts|Earthquake,Facade,Protect,HeadlongRush|||F|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,Psychic,FollowMe,HelpingHand|||F|||50|,,,,,Grass]Exeggutor||FocusSash|Chlorophyll|TrickRoom,ExpandingForce,EnergyBall,SleepPowder|||M|||50|,,,,,Fairy]Torkoal||Charcoal|Drought|ClearSmog,Eruption,WeatherBall,Protect|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,WideGuard,SacredSword|||M|||50|,,,,,Psychic]Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,Flamethrower,ShadowBall,TeraBlast|||F|||50|,,,,,Normal
+|
+|t:|1756769318
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Noivern|Noivern, L50, F|100/100
+|switch|p1b: Dr. Drills|Excadrill, L50, M|100/100
+|switch|p2a: Torkoal|Torkoal, L50, M, shiny|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|turn|1
+|
+|t:|1756769353
+|move|p1a: Noivern|Taunt|p2b: Gallade
+|-start|p2b: Gallade|move: Taunt
+|move|p1b: Dr. Drills|Swords Dance|p1b: Dr. Drills
+|-boost|p1b: Dr. Drills|atk|2
+|move|p2a: Torkoal|Hyper Voice|p1b: Dr. Drills|[spread] p1a,p1b
+|-resisted|p1b: Dr. Drills
+|-damage|p1a: Noivern|33/100
+|-damage|p1b: Dr. Drills|60/100
+|move|p2b: Gallade|Sacred Sword|p1a: Noivern
+|-resisted|p1a: Noivern
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|
+|upkeep
+|
+|t:|1756769369
+|switch|p1a: Alice|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Alice
+|turn|2
+|
+|t:|1756769405
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|-terastallize|p1a: Alice|Flying
+|move|p1b: Dr. Drills|Iron Head|p2b: Indeedee
+|-damage|p2b: Indeedee|4/100
+|move|p1a: Alice|Knock Off|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|replace|p2a: Zoroark|Zoroark-Hisui, L50, F
+|-end|p2a: Zoroark|Illusion
+|-enditem|p2a: Zoroark|Choice Specs|[from] move: Knock Off|[of] p1a: Alice
+|faint|p2a: Zoroark
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Alice|95/100|[from] Sandstorm
+|-damage|p2b: Indeedee|0 fnt|[from] Sandstorm
+|faint|p2b: Indeedee
+|upkeep
+|
+|t:|1756769417
+|switch|p2a: Gallade|Gallade, L50, M|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|3
+|c|☆snailboss|your zoro is slow slow woa
+|
+|t:|1756769447
+|move|p1b: Dr. Drills|Protect|p1b: Dr. Drills
+|-singleturn|p1b: Dr. Drills|Protect
+|move|p2b: Torkoal|Protect|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Protect
+|move|p1a: Alice|Tera Blast|p2a: Gallade|[anim] Tera Blast Flying
+|-supereffective|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|-message|Alfonso3838 forfeited.
+|
+|win|snailboss
+|raw|snailboss's rating: 1124 → 1142(+18 for winning)
+|raw|Alfonso3838's rating: 1017 → 1008(-9 for losing)
+|l|☆Alfonso3838
+|player|p2|
+|c|☆snailboss|gg

@@ -1,0 +1,209 @@
+|j|☆M0ckingEJ
+|j|☆wade connects
+|html|M0ckingEJwade connects    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756782999
+|gametype|doubles
+|player|p1|M0ckingEJ|n|1186
+|player|p2|wade connects|1|1110
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Overqwil, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Gastrodon-East, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Malamar, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Pelipper||CovertCloak|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|||F|||50|,,,,,Stellar]Overqwil||LifeOrb|SwiftSwim|ThroatChop,Liquidation,GunkShot,Haze|||M|||50|,,,,,Water]Archaludon||AssaultVest|Stamina|DracoMeteor,ElectroShot,FlashCannon,BodyPress|||M|||50|,,,,,Bug]Gastrodon-East||Leftovers|StormDrain|Protect,EarthPower,MuddyWater,HelpingHand|||M|||50|,,,,,Fire]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,ShadowBall,LifeDew,Protect||||||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Earthquake,Facade,Protect,HeadlongRush|||F|||50|,,,,,Poison
+|showteam|p2|Malamar||SafetyGoggles|Contrary|Protect,TrickRoom,Superpower,KnockOff|||M|||50|,,,,,Water]Indeedee-F||PsychicSeed|PsychicSurge|Protect,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|Protect,TrickRoom,ExpandingForce,DazzlingGleam|||F|||50|,,,,,Water]Torkoal||Charcoal|Drought|Protect,Overheat,Eruption,HeatWave|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Protect,Facade,HeadlongRush,SwordsDance|||F|||50|,,,,,Ghost]Lilligant-Hisui||FocusSash|Chlorophyll|AfterYou,SleepPowder,LeafBlade,CloseCombat|||F|||50|,,,,,Ghost
+|
+|t:|1756783056
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Overqwil|Overqwil, L50, M, shiny|100/100
+|switch|p1b: Gastrodon|Gastrodon-East, L50, M, shiny|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p2b: Malamar|Malamar, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756783082
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Overqwil|Throat Chop|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-damage|p1a: Overqwil|91/100|[from] item: Life Orb
+|move|p1b: Gastrodon|Muddy Water|p2b: Malamar
+|-damage|p2b: Malamar|65/100
+|move|p2b: Malamar|Trick Room|p2b: Malamar
+|-fieldstart|move: Trick Room|[of] p2b: Malamar
+|
+|upkeep
+|
+|t:|1756783093
+|switch|p2a: Hatterene|Hatterene, L50, F|100/100
+|turn|2
+|
+|t:|1756783116
+|switch|p1a: Pelipper|Pelipper, L50, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p1b: Gastrodon|Protect|p1b: Gastrodon
+|-singleturn|p1b: Gastrodon|Protect
+|move|p2a: Hatterene|Expanding Force|p1b: Gastrodon|[spread] p1a
+|-activate|p1b: Gastrodon|move: Protect
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|-damage|p2a: Hatterene|91/100|[from] item: Life Orb
+|move|p2b: Malamar|Superpower|p1b: Gastrodon
+|-activate|p1b: Gastrodon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756783124
+|switch|p1a: Archaludon|Archaludon, L50, M, shiny|100/100
+|turn|3
+|
+|t:|1756783139
+|-terastallize|p1a: Archaludon|Bug
+|move|p2a: Hatterene|Expanding Force|p1a: Archaludon|[spread] p1a,p1b
+|-damage|p1a: Archaludon|33/100
+|-damage|p1b: Gastrodon|21/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|-damage|p2a: Hatterene|81/100|[from] item: Life Orb
+|move|p2b: Malamar|Superpower|p1a: Archaludon
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|25/100
+|-boost|p2b: Malamar|atk|1
+|-boost|p2b: Malamar|def|1
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p1b: Gastrodon|Muddy Water|p2b: Malamar|[spread] p2a,p2b
+|-damage|p2a: Hatterene|40/100
+|-damage|p2b: Malamar|27/100
+|-unboost|p2a: Hatterene|accuracy|1
+|move|p1a: Archaludon|Flash Cannon|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Gastrodon|27/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756783160
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|4
+|
+|t:|1756783169
+|-terastallize|p2a: Torkoal|Fire
+|move|p1b: Gastrodon|Protect|p1b: Gastrodon
+|-singleturn|p1b: Gastrodon|Protect
+|move|p2a: Torkoal|Eruption|p1b: Gastrodon|[spread] p1a
+|-activate|p1b: Gastrodon|move: Protect
+|-supereffective|p1a: Archaludon
+|-damage|p1a: Archaludon|0 fnt
+|faint|p1a: Archaludon
+|move|p2b: Malamar|Superpower|p1b: Gastrodon
+|-activate|p1b: Gastrodon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Gastrodon|34/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756783172
+|switch|p1a: Overqwil|Overqwil, L50, M, shiny|91/100
+|turn|5
+|
+|t:|1756783186
+|move|p1b: Gastrodon|Protect|p1b: Gastrodon
+|-singleturn|p1b: Gastrodon|Protect
+|move|p2a: Torkoal|Eruption|p1b: Gastrodon|[spread] p1a
+|-activate|p1b: Gastrodon|move: Protect
+|-damage|p1a: Overqwil|0 fnt
+|faint|p1a: Overqwil
+|move|p2b: Malamar|Superpower|p1b: Gastrodon
+|-activate|p1b: Gastrodon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Gastrodon|40/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756783204
+|move|p1b: Gastrodon|Earth Power|p2b: Malamar
+|-damage|p2b: Malamar|0 fnt
+|faint|p2b: Malamar
+|move|p2a: Torkoal|Overheat|p1b: Gastrodon|[miss]
+|-miss|p2a: Torkoal|p1b: Gastrodon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Gastrodon|46/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1756783215
+|move|p1b: Gastrodon|Protect|p1b: Gastrodon
+|-singleturn|p1b: Gastrodon|Protect
+|move|p2a: Torkoal|Overheat|p1b: Gastrodon
+|-activate|p1b: Gastrodon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Gastrodon|52/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1756783224
+|move|p1b: Gastrodon|Earth Power|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|8/100
+|move|p2a: Torkoal|Overheat|p1b: Gastrodon|[miss]
+|-miss|p2a: Torkoal|p1b: Gastrodon
+|
+|-weather|none
+|-heal|p1b: Gastrodon|59/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1756783234
+|move|p1b: Gastrodon|Protect|p1b: Gastrodon
+|-singleturn|p1b: Gastrodon|Protect
+|move|p2a: Torkoal|Heat Wave|p1b: Gastrodon
+|-activate|p1b: Gastrodon|move: Protect
+|
+|-heal|p1b: Gastrodon|65/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|c|☆wade connects|u lucky dog
+|c|☆M0ckingEJ|ye
+|
+|t:|1756783247
+|move|p1b: Gastrodon|Earth Power|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|win|M0ckingEJ
+||M0ckingEJ is ready for game 2.
+||wade connects is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

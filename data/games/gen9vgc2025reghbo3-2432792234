@@ -1,0 +1,117 @@
+|j|☆kingthreed
+|j|☆Quantities
+|html|kingthreedQuantities    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756702622
+|gametype|doubles
+|player|p1|kingthreed|hiker-gen4|1000
+|player|p2|Quantities|266|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Torterra, L50, M|
+|poke|p1|Clefairy, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|showteam|p1|Torterra||LifeOrb|ShellArmor|ShellSmash,HeadlongRush,Earthquake,WoodHammer|||M|||50|,,,,,Grass]Clefairy||Eviolite|FriendGuard|HealPulse,HelpingHand,FollowMe,Protect|||M|||50|,,,,,Grass]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,WillOWisp,PartingShot|||M|||50|,,,,,Bug]Pelipper||CovertCloak|Drizzle|WeatherBall,Hurricane,WideGuard,Tailwind|||F|||50|,,,,,Grass]Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,FlashCannon,DracoMeteor|||F|||50|,,,,,Grass]Sneasler||NormalGem|Unburden|FakeOut,CloseCombat,DireClaw,Protect|||F|||50|,,,,,Stellar
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|Spore,PollenPuff,RagePowder,Protect|||M|||50|,,,,,Fairy]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Ground]Sneasler||FocusSash|Unburden|DireClaw,CloseCombat,Coaching,Protect|||M|||50|,,,,,Flying]Gholdengo||LifeOrb|GoodasGold|ShadowBall,Protect,NastyPlot,MakeItRain||||||50|,,,,,Water]Ursaluna||FlameOrb|Guts|Protect,Earthquake,HighHorsepower,Facade|||M|||50|,,,,,Ground
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kingthreed)
+|
+|t:|1756702645
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p1b: Torterra|Torterra, L50, M|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2b: Amoonguss|atk|1
+|turn|1
+|
+|t:|1756702669
+|move|p1a: Incineroar|Fake Out|p2a: Sneasler
+|-damage|p2a: Sneasler|84/100
+|cant|p2a: Sneasler|flinch
+|move|p1b: Torterra|Shell Smash|p1b: Torterra
+|-unboost|p1b: Torterra|def|1
+|-unboost|p1b: Torterra|spd|1
+|-boost|p1b: Torterra|atk|2
+|-boost|p1b: Torterra|spa|2
+|-boost|p1b: Torterra|spe|2
+|move|p2b: Amoonguss|Spore|p1b: Torterra
+|-immune|p1b: Torterra
+|
+|upkeep
+|turn|2
+|
+|t:|1756702686
+|switch|p1a: Pelipper|Pelipper, L50, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1b: Torterra|Earthquake|p2b: Amoonguss|[spread] p2a,p2b
+|-immune|p1a: Pelipper
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|-damage|p2b: Amoonguss|16/100
+|-enditem|p2b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2b: Amoonguss|41/100|[from] item: Sitrus Berry
+|faint|p2a: Sneasler
+|-damage|p1b: Torterra|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756702699
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Pelipper|atk|1
+|-unboost|p1b: Torterra|atk|1
+|turn|3
+|
+|t:|1756702710
+|move|p1b: Torterra|Earthquake|p2b: Amoonguss|[spread] p2a,p2b
+|-immune|p1a: Pelipper
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2a: Incineroar
+|faint|p2b: Amoonguss
+|-damage|p1b: Torterra|81/100|[from] item: Life Orb
+|move|p1a: Pelipper|Hurricane|p2: Incineroar|[notarget]
+|-fail|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756702730
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|turn|4
+|inactive|kingthreed has 30 seconds left.
+|
+|t:|1756702755
+|-terastallize|p2b: Gholdengo|Water
+|move|p1b: Torterra|Earthquake|p2b: Gholdengo|[spread] p2b
+|-immune|p1a: Pelipper
+|-crit|p2b: Gholdengo
+|-damage|p2b: Gholdengo|0 fnt
+|faint|p2b: Gholdengo
+|-damage|p1b: Torterra|71/100|[from] item: Life Orb
+|
+|win|kingthreed
+|raw|kingthreed's rating: 1000 → 1040(+40 for winning)
+|raw|Quantities's rating: 1000 → 1000(+0 for losing)

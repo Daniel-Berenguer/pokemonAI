@@ -1,0 +1,109 @@
+|j|☆Pati_Patout
+|j|☆visma
+|html|Pati_Patoutvisma    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756759923
+|gametype|doubles
+|player|p1|Pati_Patout|unknown|1075
+|player|p2|visma|265|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Delphox, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Maushold-Four, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Dragonite, L50, M|
+|teampreview|4
+|showteam|p1|Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,BreakingSwipe,Uturn|||F|||50|,,,,,Dragon]Whimsicott||CovertCloak|Prankster|Moonblast,Tailwind,SunnyDay,HelpingHand|||M|||50|,,,,,Water]Delphox||LifeOrb|Blaze|ExpandingForce,HeatWave,TeraBlast,Protect|||F|||50|,,,,,Fighting]Indeedee||FocusSash|PsychicSurge|ExpandingForce,DazzlingGleam,TrickRoom,Imprison|||M|||50|,,,,,Fairy]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Maushold-Four||WideLens|Technician|PopulationBomb,Taunt,FollowMe,Protect||||||50|,,,,,Ghost
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,FlareBlitz|||M|||50|,,,,,Ghost]Rillaboom||MiracleSeed|GrassySurge|FakeOut,GrassyGlide,WoodHammer,HighHorsepower|||F|||50|,,,,,Fire]Basculegion||ChoiceScarf|Adaptability|WaveCrash,FlipTurn,AquaJet,LastRespects|||M|||50|,,,,,Grass]Volcarona||Leftovers|FlameBody|HeatWave,QuiverDance,TeraBlast,Protect|||F|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|KnockOff,TeraBlast,LowKick,RockSlide|||F|||50|,,,,,Flying]Dragonite||LoadedDice|Multiscale|Protect,Tailwind,ScaleShot,Haze|||M|||50|,,,,,Fairy
+|
+|t:|1756760000
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragapult|Dragapult, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Volcarona|Volcarona, L50, F|100/100
+|switch|p2b: Dragonite|Dragonite, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1756760034
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|-unboost|p1b: Indeedee|atk|1
+|-terastallize|p2a: Volcarona|Fairy
+|move|p1a: Dragapult|U-turn|p2b: Incineroar
+|-damage|p2b: Incineroar|69/100
+|
+|t:|1756760046
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100|[from] U-turn
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|move|p1b: Indeedee|Expanding Force|p2a: Volcarona|[spread] p2a
+|-immune|p2b: Incineroar
+|-damage|p2a: Volcarona|45/100
+|move|p2a: Volcarona|Tera Blast|p1a: Sneasler|[anim] Tera Blast Fairy
+|-damage|p1a: Sneasler|65/100
+|
+|-heal|p2a: Volcarona|52/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1756760090
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|switch|p2b: Dragonite|Dragonite, L50, M|100/100
+|move|p1a: Sneasler|Dire Claw|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|81/100
+|-status|p2a: Tyranitar|psn
+|move|p1b: Indeedee|Expanding Force|p2a: Tyranitar|[spread] p2b
+|-immune|p2a: Tyranitar
+|-damage|p2b: Dragonite|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneasler|59/100|[from] Sandstorm
+|-damage|p1b: Indeedee|95/100|[from] Sandstorm
+|-damage|p2b: Dragonite|64/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|69/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1756760156
+|switch|p2a: Volcarona|Volcarona, L50, F, tera:Fairy|52/100
+|-terastallize|p1b: Indeedee|Fairy
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p1b: Indeedee|Dazzling Gleam|p2b: Dragonite|[spread] p2a,p2b
+|-supereffective|p2b: Dragonite
+|-damage|p2a: Volcarona|23/100
+|-damage|p2b: Dragonite|3/100
+|move|p2b: Dragonite|Scale Shot|p1a: Sneasler
+|-activate|p1a: Sneasler|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneasler|54/100|[from] Sandstorm
+|-damage|p1b: Indeedee|89/100|[from] Sandstorm
+|-damage|p2b: Dragonite|0 fnt|[from] Sandstorm
+|-damage|p2a: Volcarona|17/100|[from] Sandstorm
+|faint|p2b: Dragonite
+|-heal|p2a: Volcarona|23/100|[from] item: Leftovers
+|upkeep
+|-message|visma forfeited.
+|
+|win|Pati_Patout
+|raw|Pati_Patout's rating: 1075 → 1098(+23 for winning)
+|raw|visma's rating: 1000 → 1000(+0 for losing)

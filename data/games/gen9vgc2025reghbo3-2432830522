@@ -1,0 +1,155 @@
+|j|☆walune
+|j|☆enteng kabishawty
+|html|waluneenteng kabishawty    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756709274
+|gametype|doubles
+|player|p1|walune|n|1002
+|player|p2|enteng kabishawty|265|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Exeggutor, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Zoroark-Hisui, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Incineroar||HeavyDutyBoots|Intimidate|KnockOff,FlareBlitz,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||RockyHelmet|Chlorophyll|SunnyDay,SleepPowder,Tailwind,RagePowder|||M|||50|,,,,,Dragon]Volcarona||LifeOrb|FlameBody|BugBuzz,Flamethrower,MorningSun,WillOWisp|||M|||50|,,,,,Water]Archaludon||Leftovers|Stamina|BodyPress,FlashCannon,StealthRock,DracoMeteor|||M|||50|,,,,,Steel]Sneasler||FocusSash|Unburden|DireClaw,FakeOut,CloseCombat,Coaching|||F|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|GrassyGlide,LowKick,Uturn,Earthquake|||M|||50|,,,,,Ground
+|showteam|p2|Exeggutor||FocusSash|Chlorophyll|ExpandingForce,EnergyBall,SleepPowder,Protect|||F|||50|,,,,,Psychic]Indeedee-F||PsychicSeed|PsychicSurge|DazzlingGleam,FollowMe,TrickRoom,HelpingHand|||F|||50|,,,,,Grass]Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,ShadowBall,TeraBlast,Flamethrower|||M|||50|,,,,,Stellar]Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||M|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,ClearSmog,Protect|||M|||50|,,,,,Fire
+|
+|t:|1756709306
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2a: Girlfriend|Indeedee-F, L50, F|100/100
+|switch|p2b: ImWithYou|Exeggutor, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Girlfriend
+|-enditem|p2a: Girlfriend|Psychic Seed
+|-boost|p2a: Girlfriend|spd|1|[from] item: Psychic Seed
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Girlfriend|atk|1
+|-unboost|p2b: ImWithYou|atk|1
+|turn|1
+|
+|t:|1756709330
+|move|p1b: Jumpluff|Tailwind|p1b: Jumpluff
+|-sidestart|p1: walune|move: Tailwind
+|move|p1a: Incineroar|Flare Blitz|p2b: ImWithYou
+|-supereffective|p2b: ImWithYou
+|-enditem|p2b: ImWithYou|Focus Sash
+|-damage|p2b: ImWithYou|1/100
+|-status|p2b: ImWithYou|brn
+|-damage|p1a: Incineroar|73/100|[from] Recoil
+|move|p2b: ImWithYou|Sleep Powder|p1a: Incineroar|[miss]
+|-miss|p2b: ImWithYou|p1a: Incineroar
+|move|p2a: Girlfriend|Trick Room|p2a: Girlfriend
+|-fieldstart|move: Trick Room|[of] p2a: Girlfriend
+|
+|-damage|p2b: ImWithYou|0 fnt|[from] brn
+|faint|p2b: ImWithYou
+|upkeep
+|
+|t:|1756709345
+|switch|p2b: WhatTheHell|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: WhatTheHell
+|turn|2
+|
+|t:|1756709360
+|-terastallize|p2b: WhatTheHell|Fire
+|move|p2a: Girlfriend|Helping Hand|p2b: WhatTheHell
+|-singleturn|p2b: WhatTheHell|Helping Hand|[of] p2a: Girlfriend
+|move|p2b: WhatTheHell|Eruption|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-supereffective|p1b: Jumpluff
+|-damage|p1a: Incineroar|9/100
+|-damage|p1b: Jumpluff|0 fnt
+|faint|p1b: Jumpluff
+|move|p1a: Incineroar|Parting Shot|p2b: WhatTheHell
+|-unboost|p2b: WhatTheHell|atk|1
+|-unboost|p2b: WhatTheHell|spa|1
+|
+|t:|1756709372
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756709378
+|switch|p1b: Volcarona|Volcarona, L50, M|100/100
+|turn|3
+|
+|t:|1756709395
+|switch|p2a: DontTellMe|Ursaluna, L50, M|100/100
+|-terastallize|p1b: Volcarona|Water
+|move|p2b: WhatTheHell|Eruption|p1a: Sneasler|[spread] p1a,p1b
+|-resisted|p1b: Volcarona
+|-enditem|p1a: Sneasler|Focus Sash
+|-damage|p1a: Sneasler|1/100
+|-damage|p1b: Volcarona|61/100
+|move|p1b: Volcarona|Flamethrower|p2b: WhatTheHell
+|-resisted|p2b: WhatTheHell
+|-damage|p2b: WhatTheHell|38/100
+|-damage|p1b: Volcarona|51/100|[from] item: Life Orb
+|move|p1a: Sneasler|Close Combat|p2b: WhatTheHell
+|-damage|p2b: WhatTheHell|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2b: WhatTheHell
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: DontTellMe|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756709413
+|switch|p2b: Girlfriend|Indeedee-F, L50, F|100/100
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by enteng kabishawty)
+|
+|t:|1756709446
+|move|p2a: DontTellMe|Facade|p1b: Volcarona
+|-damage|p1b: Volcarona|0 fnt
+|faint|p1b: Volcarona
+|move|p2b: Girlfriend|Dazzling Gleam|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: DontTellMe|94/100 brn|[from] brn
+|-sideend|p1: walune|move: Tailwind
+|upkeep
+|
+|t:|1756709459
+|switch|p1b: Incineroar|Incineroar, L50, F|9/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: DontTellMe|atk|1
+|-unboost|p2b: Girlfriend|atk|1
+|turn|5
+|
+|t:|1756709469
+|move|p1b: Incineroar|Fake Out|p2a: DontTellMe
+|-activate|p2a: DontTellMe|move: Psychic Terrain
+|move|p2b: Girlfriend|Follow Me|p2b: Girlfriend
+|-singleturn|p2b: Girlfriend|move: Follow Me
+|move|p2a: DontTellMe|Headlong Rush|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p2a: DontTellMe|def|1
+|-unboost|p2a: DontTellMe|spd|1
+|faint|p1b: Incineroar
+|
+|win|enteng kabishawty
+||enteng kabishawty is ready for game 2.
+|inactive|walune has 30 seconds to confirm battle start!

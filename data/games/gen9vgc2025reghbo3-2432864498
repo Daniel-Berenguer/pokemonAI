@@ -1,0 +1,145 @@
+|j|☆pgoiko
+|j|☆Chandeliere
+|html|pgoikoChandeliere    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756715692
+|gametype|doubles
+|player|p1|pgoiko|2|1098
+|player|p2|Chandeliere|ethan|1251
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Vivillon-Pokeball, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||RockyHelmet|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Armarouge||PowerHerb|FlashFire|ExpandingForce,ArmorCannon,MeteorBeam,TrickRoom|||M|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HeatWave,Protect|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Substitute,Protect|||F|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Psychic]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,CloseCombat,SleepPowder,AfterYou|||F|||50|,,,,,Ghost
+|showteam|p2|Ninetales-Alola||LightClay|SnowWarning|AuroraVeil,Blizzard,FreezeDry,Protect|||M|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Garchomp||ClearAmulet|RoughSkin|Earthquake,StompingTantrum,DragonClaw,Protect|||F|||50|,,,,,Ground]Incineroar||AssaultVest|Intimidate|FakeOut,KnockOff,FlareBlitz,Uturn|||M|||50|,,,,,Grass]Sneasler||WhiteHerb|Unburden|Coaching,CloseCombat,DireClaw,Protect|||M|||50|,,,,,Ghost]Vivillon-Pokeball||FocusSash|CompoundEyes|SleepPowder,Hurricane,Tailwind,Protect|||M|||50|,,,,,Ghost
+|
+|t:|1756715718
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1756715736
+|-terastallize|p1b: Hatterene|Psychic
+|move|p2b: Ninetales|Aurora Veil|p2b: Ninetales
+|-sidestart|p2: Chandeliere|move: Aurora Veil
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1b: Hatterene|Expanding Force|p2b: Ninetales|[spread] p2a,p2b
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|62/100
+|-damage|p2b: Ninetales|26/100
+|-damage|p1b: Hatterene|91/100|[from] item: Life Orb
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756715754
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Hatterene|atk|1
+|move|p1a: Indeedee|Helping Hand|p1b: Hatterene
+|-singleturn|p1b: Hatterene|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Hatterene|Expanding Force|p2b: Incineroar|[spread] p2a
+|-immune|p2b: Incineroar
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|-damage|p1b: Hatterene|82/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1756715769
+|switch|p2a: Ninetales|Ninetales-Alola, L50, M|26/100
+|turn|3
+|
+|t:|1756715775
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Hatterene|Dazzling Gleam|p2b: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Ninetales|0 fnt
+|-damage|p2b: Incineroar|81/100
+|faint|p2a: Ninetales
+|-damage|p1b: Hatterene|72/100|[from] item: Life Orb
+|move|p2b: Incineroar|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|33/100
+|-damage|p2b: Incineroar|65/100|[from] item: Rocky Helmet|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Rocky Helmet|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1756715786
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|turn|4
+|
+|t:|1756715799
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1b: Hatterene|Dazzling Gleam|p2b: Incineroar|[spread] p2b
+|-activate|p2a: Sneasler|move: Protect
+|-damage|p2b: Incineroar|47/100
+|-damage|p1b: Hatterene|63/100|[from] item: Life Orb
+|move|p1a: Indeedee|Psychic|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Protect
+|move|p2b: Incineroar|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1756715815
+|switch|p1a: Armarouge|Armarouge, L50, M|100/100
+|turn|5
+|
+|t:|1756715826
+|-terastallize|p2a: Sneasler|Ghost
+|move|p1b: Hatterene|Expanding Force|p2a: Sneasler|[spread] p2a
+|-immune|p2b: Incineroar
+|-crit|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|-damage|p1b: Hatterene|53/100|[from] item: Life Orb
+|move|p1a: Armarouge|Meteor Beam||[still]
+|-prepare|p1a: Armarouge|Meteor Beam
+|-boost|p1a: Armarouge|spa|1
+|-enditem|p1a: Armarouge|Power Herb
+|-anim|p1a: Armarouge|Meteor Beam|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|win|pgoiko
+|raw|pgoiko's rating: 1098 → 1134(+36 for winning)
+|raw|Chandeliere's rating: 1251 → 1216(-35 for losing)
+|l|☆pgoiko
+|player|p1|

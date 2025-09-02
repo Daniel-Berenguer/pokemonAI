@@ -1,0 +1,152 @@
+|j|☆snekia
+|j|☆parzival777
+|html|snekiaparzival777    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756768628
+|gametype|doubles
+|player|p1|snekia|lady|1000
+|player|p2|parzival777|169|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kommo-o, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Ribombee, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Alcremie-Ruby-Cream, L50, F|
+|poke|p2|Espeon, L50, M|
+|poke|p2|Magmar, L50, F|
+|poke|p2|Goodra, L50, M|
+|poke|p2|Tinkaton, L50, F|
+|poke|p2|Toxapex, L50, M|
+|teampreview|4
+|showteam|p1|Kommo-o||ThroatSpray|Overcoat|Flamethrower,ClangingScales,ClangorousSoul,Protect|||M|||50|,,,,,Fire]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Ghost]Archaludon||PowerHerb|Sturdy|ElectroShot,Thunderbolt,DracoMeteor,Protect|||F|||50|,,,,,Electric]Ribombee||FocusSash|ShieldDust|Moonblast,FakeTears,Tailwind,PollenPuff|||F|||50|,,,,,Fairy]Basculegion||ChoiceScarf|Adaptability|WaveCrash,FlipTurn,TeraBlast,LastRespects|||M|||50|,,,,,Fighting]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,HighHorsepower|||M|||50|,,,,,Fire
+|showteam|p2|Alcremie-Ruby-Cream||SitrusBerry|AromaVeil|Protect,Decorate,Recover,Attract|||F|||50|,,,,,Steel]Espeon||FocusSash|MagicBounce|Protect,StoredPower,DrainingKiss,ExpandingForce|||M|||50|,,,,,Fairy]Magmar||Eviolite|VitalSpirit|Protect,FollowMe,WillOWisp,HeatWave|||F|||50|,,,,,Grass]Goodra||Leftovers|Gooey|Protect,AcidArmor,BodyPress,MuddyWater|||M|||50|,,,,,Water]Tinkaton||AssaultVest|OwnTempo|FakeOut,GigatonHammer,PlayRough,KnockOff|||F|||50|,,,,,Water]Toxapex||BlackSludge|Merciless|BanefulBunker,Toxic,Venoshock,Recover|||M|||50|,,,,,Poison
+|
+|t:|1756768707
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|switch|p2a: Goodra|Goodra, L50, M, shiny|100/100
+|switch|p2b: Alcremie|Alcremie-Ruby-Cream, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1756768787
+|move|p2a: Goodra|Protect|p2a: Goodra
+|-singleturn|p2a: Goodra|Protect
+|move|p2b: Alcremie|Protect|p2b: Alcremie
+|-singleturn|p2b: Alcremie|Protect
+|move|p1a: Rillaboom|Fake Out|p2b: Alcremie
+|-activate|p2b: Alcremie|move: Protect
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-enditem|p1b: Archaludon|Power Herb
+|-anim|p1b: Archaludon|Electro Shot|p2b: Alcremie
+|-activate|p2b: Alcremie|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1756768828
+|move|p2a: Goodra|Acid Armor|p2a: Goodra
+|-boost|p2a: Goodra|def|2
+|move|p1b: Archaludon|Draco Meteor|p2a: Goodra
+|-supereffective|p2a: Goodra
+|-damage|p2a: Goodra|0 fnt
+|-unboost|p1b: Archaludon|spa|2
+|faint|p2a: Goodra
+|move|p1a: Rillaboom|Wood Hammer|p2b: Alcremie
+|-damage|p2b: Alcremie|27/100
+|-enditem|p2b: Alcremie|Sitrus Berry|[eat]
+|-heal|p2b: Alcremie|52/100|[from] item: Sitrus Berry
+|-damage|p1a: Rillaboom|79/100|[from] Recoil
+|move|p2b: Alcremie|Decorate|p2: Goodra|[notarget]
+|-fail|p2b: Alcremie
+|
+|-heal|p1a: Rillaboom|85/100|[from] Grassy Terrain
+|-heal|p2b: Alcremie|57/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756768852
+|switch|p2a: Magmar|Magmar, L50, F, shiny|100/100
+|turn|3
+|
+|t:|1756768873
+|move|p1b: Archaludon|Draco Meteor|p2a: Magmar|[miss]
+|-miss|p1b: Archaludon|p2a: Magmar
+|move|p1a: Rillaboom|High Horsepower|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|55/100
+|move|p2a: Magmar|Heat Wave|p1a: Rillaboom|[spread] p1a,p1b
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|54/100
+|-damage|p1b: Archaludon|61/100
+|move|p2b: Alcremie|Recover|p2b: Alcremie
+|-heal|p2b: Alcremie|100/100
+|
+|-heal|p1b: Archaludon|67/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|60/100|[from] Grassy Terrain
+|-heal|p2a: Magmar|61/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756768915
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|move|p2a: Magmar|Protect|p2a: Magmar
+|-singleturn|p2a: Magmar|Protect
+|move|p1a: Rillaboom|Grassy Glide|p2b: Alcremie
+|-damage|p2b: Alcremie|63/100
+|move|p2b: Alcremie|Decorate|p2a: Magmar
+|-boost|p2a: Magmar|atk|2
+|-boost|p2a: Magmar|spa|2
+|
+|-heal|p1a: Rillaboom|66/100|[from] Grassy Terrain
+|-heal|p2a: Magmar|67/100|[from] Grassy Terrain
+|-heal|p2b: Alcremie|69/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756768974
+|-terastallize|p2a: Magmar|Grass
+|move|p1b: Basculegion|Flip Turn|p2a: Magmar
+|-resisted|p2a: Magmar
+|-damage|p2a: Magmar|53/100
+|
+|t:|1756768981
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100|[from] Flip Turn
+|move|p1a: Rillaboom|Wood Hammer|p2b: Alcremie
+|-damage|p2b: Alcremie|0 fnt
+|faint|p2b: Alcremie
+|-damage|p1a: Rillaboom|46/100|[from] Recoil
+|move|p2a: Magmar|Heat Wave|p1b: Ursaluna|[spread] p1a,p1b
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-damage|p1b: Ursaluna|35/100
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Magmar|59/100|[from] Grassy Terrain
+|-heal|p1b: Ursaluna|41/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756769016
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Tinkaton|Tinkaton, L50, F|100/100
+|turn|6
+|-message|parzival777 forfeited.
+|
+|win|snekia
+|l|☆parzival777
+|player|p2|
+|raw|snekia's rating: 1000 → 1040(+40 for winning)
+|raw|parzival777's rating: 1000 → 1000(+0 for losing)
+|n|☆snekia|snekia

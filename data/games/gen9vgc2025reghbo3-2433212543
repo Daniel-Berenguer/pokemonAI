@@ -1,0 +1,158 @@
+|j|☆Yoters
+|j|☆ErTest25
+|html|YotersErTest25    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756758384
+|gametype|doubles
+|player|p1|Yoters|veteranf|1080
+|player|p2|ErTest25|infielder|1088
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Grafaiai, L50, M|
+|poke|p1|Slaking, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Hydrapple, L50, F|
+|poke|p1|Mandibuzz, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Dragonite, L50, M|
+|teampreview|4
+|showteam|p1|Grafaiai||FocusSash|Prankster|KnockOff,Protect,Doodle,Taunt|||M|||50|,,,,,Dark]Slaking||LifeOrb|Truant|DrainPunch,DoubleEdge,Protect,ShadowClaw|||F|||50|,,,,,Ghost]Ninetales-Alola||ChoiceScarf|SnowWarning|Blizzard,IcyWind,Moonblast,AuroraVeil|||M|||50|,,,,,Fire]Hydrapple||ChoiceSpecs|Regenerator|FickleBeam,GigaDrain,EarthPower,PollenPuff|||F|||50|,,,,,Steel]Mandibuzz||SitrusBerry|Overcoat|FoulPlay,Tailwind,Protect,Taunt|||F|||50|,,,,,Steel]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,Uturn,HighHorsepower|||F|||50|,,,,,Fire
+|showteam|p2|Archaludon||AssaultVest|Stamina|FlashCannon,ElectroShot,BodyPress,Snarl|||M|||50|,,,,,Fighting]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,PowerGem,Trick||||||50|,,,,,Flying]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Water]Pelipper||SafetyGoggles|Drizzle|MuddyWater,Hurricane,Tailwind,Protect|||M|||50|,,,,,Steel]Sinistcha-Masterpiece||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom||||||50|,,,,,Dark]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy
+|
+|t:|1756758502
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Slaking|Slaking, L50, F|100/100
+|switch|p1b: Grafaiai|Grafaiai, L50, M|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|turn|1
+|c|☆ErTest25|!dt doodle
+|raw|Doodle  Accuracy100% PP16 User and ally's Abilities become target's Ability. 
+|raw|Priority: 0 |  Gen: 9 |  ✓ Bypasses Protect |  Z-Effect: None |  Target: One Adjacent Opposing Pokémon
+
+|
+|t:|1756758546
+|move|p1b: Grafaiai|Protect|p1b: Grafaiai
+|-singleturn|p1b: Grafaiai|Protect
+|move|p2a: Gholdengo|Make It Rain|p1b: Grafaiai|[spread] p1a
+|-activate|p1b: Grafaiai|move: Protect
+|-damage|p1a: Slaking|53/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Slaking|Shadow Claw|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|-damage|p1a: Slaking|43/100|[from] item: Life Orb
+|move|p2b: Sinistcha|Matcha Gotcha|p1b: Grafaiai|[spread] p1a
+|-activate|p1b: Grafaiai|move: Protect
+|-damage|p1a: Slaking|18/100
+|
+|upkeep
+|
+|t:|1756758569
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|turn|2
+|
+|t:|1756758584
+|move|p2b: Sinistcha|Rage Powder|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|move: Rage Powder
+|move|p1b: Grafaiai|Doodle|p2b: Sinistcha
+|-ability|p1a: Slaking|Hospitality|Truant|[from] move: Doodle
+|-ability|p1b: Grafaiai|Hospitality|Prankster|[from] move: Doodle
+|-heal|p1a: Slaking|43/100|[from] ability: Hospitality|[of] p1b: Grafaiai
+|move|p1a: Slaking|Drain Punch|p2b: Sinistcha
+|-immune|p2b: Sinistcha
+|move|p2a: Archaludon|Snarl|p1b: Grafaiai|[spread] p1b
+|-miss|p2a: Archaludon|p1a: Slaking
+|-damage|p1b: Grafaiai|80/100
+|-unboost|p1b: Grafaiai|spa|1
+|
+|upkeep
+|turn|3
+|
+|t:|1756758608
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|-terastallize|p1b: Grafaiai|Dark
+|move|p1b: Grafaiai|Knock Off|p2b: Pelipper
+|-damage|p2b: Pelipper|52/100
+|-enditem|p2b: Pelipper|Safety Goggles|[from] move: Knock Off|[of] p1b: Grafaiai
+|move|p1a: Slaking|Drain Punch|p2a: Archaludon
+|-supereffective|p2a: Archaludon
+|-damage|p2a: Archaludon|49/100
+|-heal|p1a: Slaking|63/100|[from] drain|[of] p2a: Archaludon
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|-damage|p1a: Slaking|53/100|[from] item: Life Orb
+|move|p2a: Archaludon|Body Press|p1a: Slaking
+|-supereffective|p1a: Slaking
+|-damage|p1a: Slaking|0 fnt
+|faint|p1a: Slaking
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756758627
+|switch|p1a: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|4
+|
+|t:|1756758657
+|switch|p2b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-heal|p2a: Archaludon|74/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|move|p1a: Ninetales|Moonblast|p2a: Archaludon
+|-damage|p2a: Archaludon|48/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p1b: Grafaiai|Knock Off|p2a: Archaludon
+|-damage|p2a: Archaludon|36/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|-enditem|p2a: Archaludon|Assault Vest|[from] move: Knock Off|[of] p1b: Grafaiai
+|move|p2a: Archaludon|Flash Cannon|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1756758673
+|switch|p1a: Mandibuzz|Mandibuzz, L50, F|100/100
+|turn|5
+|
+|t:|1756758681
+|move|p1a: Mandibuzz|Protect|p1a: Mandibuzz
+|-singleturn|p1a: Mandibuzz|Protect
+|move|p1b: Grafaiai|Knock Off|p2b: Sinistcha
+|-supereffective|p2b: Sinistcha
+|-damage|p2b: Sinistcha|25/100
+|-enditem|p2b: Sinistcha|Sitrus Berry|[from] move: Knock Off|[of] p1b: Grafaiai
+|move|p2a: Archaludon|Body Press|p1b: Grafaiai
+|-supereffective|p1b: Grafaiai
+|-damage|p1b: Grafaiai|0 fnt
+|faint|p1b: Grafaiai
+|move|p2b: Sinistcha|Life Dew|p2b: Sinistcha|[spread] p2a,p2b
+|-heal|p2a: Archaludon|61/100
+|-heal|p2b: Sinistcha|50/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|-message|Yoters forfeited.
+|
+|win|ErTest25
+|l|☆Yoters
+|player|p1|

@@ -1,0 +1,137 @@
+|j|☆jmikebaeza
+|j|☆owbd
+|html|jmikebaezaowbd    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756798475
+|gametype|doubles
+|player|p1|jmikebaeza|sailor|1075
+|player|p2|owbd|cynthia-gen4|1114
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Armarouge, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Murkrow, L50, F|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Protect,Facade,Earthquake,HeadlongRush|||M|||50|,,,,,Ghost]Armarouge||PowerHerb|FlashFire|TrickRoom,MeteorBeam,ExpandingForce,ArmorCannon|||F|||50|,,,,,Fire]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,DazzlingGleam,FollowMe,HelpingHand|||F|||50|,,,,,Fairy]Torkoal||ChoiceSpecs|Drought|Eruption,WeatherBall,EarthPower,Protect|||M|||50|,,,,,Fire]Hatterene||LifeOrb|MagicBounce|DazzlingGleam,ExpandingForce,TrickRoom,Protect|||F|||50|,,,,,Psychic]Lilligant-Hisui||FocusSash|Chlorophyll|CloseCombat,SleepPowder,TripleAxel,AfterYou|||F|||50|,,,,,Ghost
+|showteam|p2|Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,ShadowBall,Thunderbolt,Trick||||||50|,,,,,Steel]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,PartingShot,FakeOut,KnockOff|||F|||50|,,,,,Ghost]Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,EarthPower,HyperVoice,Moonblast|||M|||50|,,,,,Normal]Indeedee||FocusSash|PsychicSurge|ExpandingForce,Protect,TrickRoom,Imprison|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,FakeOut,ThroatChop|||M|||50|,,,,,Stellar]Murkrow||CovertCloak|Prankster|FoulPlay,Haze,SunnyDay,Tailwind|||F|||50|,,,,,Dark
+|
+|t:|1756798499
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756798551
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|move|p1a: Lilligant|Sleep Powder|p2a: Indeedee
+|-status|p2a: Indeedee|slp|[from] move: Sleep Powder
+|move|p2b: Sneasler|Dire Claw|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-enditem|p1a: Lilligant|Focus Sash
+|-damage|p1a: Lilligant|1/100
+|cant|p2a: Indeedee|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756798573
+|move|p1a: Lilligant|Triple Axel|p2a: Indeedee
+|-damage|p2a: Indeedee|85/100 slp
+|-damage|p2a: Indeedee|55/100 slp
+|-damage|p2a: Indeedee|14/100 slp
+|-hitcount|p2a: Indeedee|3
+|move|p2b: Sneasler|Dire Claw|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|cant|p2a: Indeedee|slp
+|move|p1b: Torkoal|Eruption|p2b: Sneasler|[spread] p2a,p2b
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Sneasler|7/100
+|faint|p2a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756798595
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1a: Armarouge|Armarouge, L50, F|100/100
+|turn|3
+|
+|t:|1756798621
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-terastallize|p2a: Ursaluna|Normal
+|-terastallize|p1a: Armarouge|Fire
+|move|p2b: Sneasler|Throat Chop|p1a: Armarouge
+|-damage|p1a: Armarouge|72/100
+|-start|p1a: Armarouge|Throat Chop|[silent]
+|move|p2a: Ursaluna|Hyper Voice|p1b: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Armarouge|26/100
+|-damage|p1b: Indeedee|52/100
+|move|p1a: Armarouge|Trick Room|p1a: Armarouge
+|-fieldstart|move: Trick Room|[of] p1a: Armarouge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756798642
+|move|p1b: Indeedee|Helping Hand|p1a: Armarouge
+|-singleturn|p1a: Armarouge|Helping Hand|[of] p1b: Indeedee
+|move|p1a: Armarouge|Expanding Force|p2a: Ursaluna|[spread] p2a,p2b
+|-supereffective|p2b: Sneasler
+|-damage|p2a: Ursaluna|17/100
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|move|p2a: Ursaluna|Hyper Voice|p1a: Armarouge|[spread] p1a,p1b
+|-damage|p1a: Armarouge|0 fnt
+|-damage|p1b: Indeedee|2/100
+|faint|p1a: Armarouge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756798654
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|turn|5
+|
+|t:|1756798664
+|move|p1b: Indeedee|Helping Hand|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Helping Hand|[of] p1b: Indeedee
+|move|p1a: Torkoal|Eruption|p2b: Gholdengo|[spread] p2a,p2b
+|-supereffective|p2b: Gholdengo
+|-damage|p2a: Ursaluna|0 fnt
+|-damage|p2b: Gholdengo|0 fnt
+|faint|p2a: Ursaluna
+|faint|p2b: Gholdengo
+|
+|win|jmikebaeza
+|raw|jmikebaeza's rating: 1075 → 1107(+32 for winning)
+|raw|owbd's rating: 1114 → 1086(-28 for losing)
+|l|☆jmikebaeza
+|player|p1|

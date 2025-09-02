@@ -1,0 +1,174 @@
+|j|☆FefoVGC
+|j|☆jonen
+|html|FefoVGCjonen    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756722753
+|gametype|doubles
+|player|p1|FefoVGC|102|1096
+|player|p2|jonen|ruinmaniac-gen3|1178
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Weezing-Galar, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Talonflame, L50, F|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|ElectroShot,FlashCannon,Snarl,BodyPress|||F|||50|,,,,,Bug]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||M|||50|,,,,,Fairy]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,WideGuard,Protect|||F|||50|,,,,,Ground]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Psychic]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Ghost]Annihilape||Leftovers|Defiant|DrainPunch,RageFist,BulkUp,Protect|||F|||50|,,,,,Water
+|showteam|p2|Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,StompingTantrum,Protect|||F|||50|,,,,,Ground]Weezing-Galar||FocusSash|NeutralizingGas|Protect,SludgeBomb,Taunt,StrangeSteam|||F|||50|,,,,,Flying]Archaludon||PowerHerb|Sturdy|ElectroShot,Thunderbolt,DracoMeteor,Protect|||M|||50|,,,,,Electric]Gholdengo||ChoiceSpecs|GoodasGold|ShadowBall,DazzlingGleam,PowerGem,MakeItRain||||||50|,,,,,Fairy]Talonflame||CovertCloak|GaleWings|Tailwind,DualWingbeat,UpperHand,FlareBlitz|||F|||50|,,,,,Fairy]Annihilape||AssaultVest|Defiant|CloseCombat,RageFist,FinalGambit,IcePunch|||M|||50|,,,,,Grass
+|
+|t:|1756722787
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100
+|switch|p2a: Weezing|Weezing-Galar, L50, F|100/100
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1756722817
+|move|p1b: Annihilape|Protect|p1b: Annihilape
+|-singleturn|p1b: Annihilape|Protect
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-enditem|p2b: Archaludon|Power Herb
+|-anim|p2b: Archaludon|Electro Shot|p1b: Annihilape
+|-activate|p1b: Annihilape|move: Protect
+|move|p2a: Weezing|Taunt|p1a: Amoonguss
+|-start|p1a: Amoonguss|move: Taunt
+|cant|p1a: Amoonguss|move: Taunt|Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1756722876
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|move|p1b: Annihilape|Protect||[still]
+|-fail|p1b: Annihilape
+|move|p2b: Archaludon|Draco Meteor|p1b: Annihilape|[miss]
+|-miss|p2b: Archaludon|p1b: Annihilape
+|move|p2a: Weezing|Strange Steam|p1b: Annihilape
+|-supereffective|p1b: Annihilape
+|-damage|p1b: Annihilape|43/100
+|
+|-heal|p1b: Annihilape|49/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1756722917
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|move|p2b: Archaludon|Protect|p2b: Archaludon
+|-singleturn|p2b: Archaludon|Protect
+|move|p1a: Dragonite|Scale Shot|p2b: Archaludon
+|-activate|p2b: Archaludon|move: Protect
+|move|p2a: Weezing|Strange Steam|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|85/100
+|
+|upkeep
+|turn|4
+|
+|t:|1756722934
+|move|p1b: Amoonguss|Protect|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|Protect
+|move|p2b: Archaludon|Draco Meteor|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-unboost|p2b: Archaludon|spa|2
+|faint|p1a: Dragonite
+|move|p2a: Weezing|Taunt|p1b: Amoonguss
+|-activate|p1b: Amoonguss|move: Protect
+|
+|upkeep
+|
+|t:|1756722952
+|switch|p1a: Archaludon|Archaludon, L50, F|100/100
+|turn|5
+|
+|t:|1756722986
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|move|p1a: Archaludon|Flash Cannon|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-enditem|p2a: Weezing|Focus Sash
+|-damage|p2a: Weezing|1/100
+|move|p2a: Weezing|Taunt|p1b: Amoonguss
+|-start|p1b: Amoonguss|move: Taunt
+|cant|p1b: Amoonguss|move: Taunt|Spore
+|
+|upkeep
+|turn|6
+|
+|t:|1756723023
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|-terastallize|p1a: Archaludon|Bug
+|move|p2b: Garchomp|Dragon Claw|p1b: Amoonguss
+|-damage|p1b: Amoonguss|42/100
+|-enditem|p1b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1b: Amoonguss|67/100|[from] item: Sitrus Berry
+|-damage|p2b: Garchomp|91/100|[from] item: Life Orb
+|move|p1a: Archaludon|Flash Cannon|p2b: Garchomp
+|-damage|p2b: Garchomp|47/100
+|move|p1b: Amoonguss|Pollen Puff|p2a: Annihilape
+|-resisted|p2a: Annihilape
+|-damage|p2a: Annihilape|97/100
+|
+|upkeep
+|turn|7
+|
+|t:|1756723049
+|move|p2b: Garchomp|Dragon Claw|p1a: Archaludon
+|-damage|p1a: Archaludon|63/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|-damage|p2b: Garchomp|38/100|[from] item: Life Orb
+|move|p2a: Annihilape|Final Gambit|p1a: Archaludon
+|-damage|p1a: Archaludon|0 fnt
+|faint|p2a: Annihilape
+|faint|p1a: Archaludon
+|move|p1b: Amoonguss|Pollen Puff|p1: Archaludon|[notarget]
+|-fail|p1b: Amoonguss
+|
+|-end|p1b: Amoonguss|move: Taunt
+|upkeep
+|
+|t:|1756723058
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|switch|p1a: Annihilape|Annihilape, L50, F|49/100
+|turn|8
+|
+|t:|1756723080
+|-terastallize|p2b: Garchomp|Ground
+|move|p2a: Archaludon|Protect|p2a: Archaludon
+|-singleturn|p2a: Archaludon|Protect
+|move|p2b: Garchomp|Earthquake|p1b: Amoonguss|[spread] p1a,p1b
+|-activate|p2a: Archaludon|move: Protect
+|-crit|p1a: Annihilape
+|-damage|p1a: Annihilape|0 fnt
+|-damage|p1b: Amoonguss|16/100
+|faint|p1a: Annihilape
+|-damage|p2b: Garchomp|28/100|[from] item: Life Orb
+|move|p1b: Amoonguss|Spore|p2a: Archaludon
+|-activate|p2a: Archaludon|move: Protect
+|
+|upkeep
+|turn|9
+|-message|FefoVGC forfeited.
+|
+|win|jonen
+|raw|FefoVGC's rating: 1096 → 1077(-19 for losing)
+|raw|jonen's rating: 1178 → 1197(+19 for winning)

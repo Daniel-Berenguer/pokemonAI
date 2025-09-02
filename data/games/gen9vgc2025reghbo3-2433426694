@@ -1,0 +1,190 @@
+|j|☆epom158
+|j|☆RagCheese
+|html|epom158RagCheese    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756783161
+|gametype|doubles
+|player|p1|epom158|n|1169
+|player|p2|RagCheese|bellelba|1104
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p2|Lurantis, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Oranguru, L50, F|
+|teampreview|4
+|showteam|p1|Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,Coaching,Protect|||F|||50|,,,,,Stellar]Rillaboom||AssaultVest|GrassySurge|WoodHammer,Uturn,FakeOut,GrassyGlide|||M|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||M|||50|,,,,,Steel]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark]Volcarona||CovertCloak|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||M|||50|,,,,,Fairy
+|showteam|p2|Lurantis||Leftovers|Contrary|KnockOff,Superpower,Substitute,Protect|||F|||50|,,,,,Fighting]Incineroar||RockyHelmet|Intimidate|FakeOut,FlameCharge,FlareBlitz,TeraBlast|||F|||50|,,,,,Fairy]Grimmsnarl||LightClay|Prankster|FakeTears,SpiritBreak,FakeOut,Reflect|||M|||50|,,,,,Dark]Torkoal||EjectPack|Drought|Overheat,Eruption,Protect,HeatWave|||F|||50|,,,,,Fire]Whimsicott||CovertCloak|Prankster|SunnyDay,Tailwind,Protect,Moonblast|||M|||50|,,,,,Grass]Oranguru||MentalHerb|InnerFocus|TrickRoom,FoulPlay,Instruct,Protect|||F|||50|,,,,,Dark
+|
+|t:|1756783224
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Oranguru|Oranguru, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Oranguru|unboost|Attack|[from] ability: Inner Focus|[of] p2a: Oranguru
+|-unboost|p2b: Incineroar|atk|1
+|turn|1
+|
+|t:|1756783267
+|move|p1b: Incineroar|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|91/100
+|-damage|p1b: Incineroar|84/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|cant|p2b: Incineroar|flinch
+|move|p2a: Oranguru|Instruct||[still]
+|-fail|p2a: Oranguru
+|
+|upkeep
+|turn|2
+|
+|t:|1756783293
+|move|p1a: Volcarona|Heat Wave|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Oranguru|70/100
+|-damage|p2b: Incineroar|63/100
+|move|p2b: Incineroar|Flare Blitz|p1a: Volcarona
+|-damage|p1a: Volcarona|55/100
+|-damage|p2b: Incineroar|46/100|[from] Recoil
+|move|p1b: Incineroar|Knock Off|p2a: Oranguru
+|-supereffective|p2a: Oranguru
+|-damage|p2a: Oranguru|6/100
+|-enditem|p2a: Oranguru|Mental Herb|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2a: Oranguru|Trick Room|p2a: Oranguru
+|-fieldstart|move: Trick Room|[of] p2a: Oranguru
+|
+|upkeep
+|turn|3
+|
+|t:|1756783319
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p2a: Oranguru|Instruct|p2b: Incineroar
+|-singleturn|p2b: Incineroar|move: Instruct|[of] p2a: Oranguru
+|move|p2b: Incineroar|Flare Blitz|p1a: Volcarona
+|-activate|p1a: Volcarona|move: Protect
+|move|p1b: Incineroar|Parting Shot|p2b: Incineroar
+|-unboost|p2b: Incineroar|atk|1
+|-unboost|p2b: Incineroar|spa|1
+|
+|t:|1756783328
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100|[from] Parting Shot
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p2b: Incineroar|Flare Blitz|p1a: Volcarona
+|-activate|p1a: Volcarona|move: Protect
+|
+|-heal|p2a: Oranguru|12/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|52/100|[from] Grassy Terrain
+|-heal|p1a: Volcarona|61/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756783368
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1b: Rillaboom|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|36/100
+|-damage|p1b: Rillaboom|84/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|cant|p2b: Incineroar|flinch
+|move|p1a: Volcarona|Heat Wave|p2a: Torkoal|[spread] p2a,p2b
+|-resisted|p2a: Torkoal
+|-resisted|p2b: Incineroar
+|-damage|p2a: Torkoal|51/100
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Torkoal|57/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|90/100|[from] Grassy Terrain
+|-heal|p1a: Volcarona|67/100|[from] Grassy Terrain
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by epom158)
+|
+|t:|1756783383
+|switch|p2b: Oranguru|Oranguru, L50, F|12/100
+|turn|5
+|
+|t:|1756783402
+|-terastallize|p2a: Torkoal|Fire
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p1b: Rillaboom|Grassy Glide|p2b: Oranguru
+|-damage|p2b: Oranguru|0 fnt
+|faint|p2b: Oranguru
+|move|p2a: Torkoal|Heat Wave|p1b: Rillaboom|[spread] p1b
+|-activate|p1a: Volcarona|move: Protect
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|3/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Torkoal|62/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|9/100|[from] Grassy Terrain
+|-heal|p1a: Volcarona|73/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756783418
+|switch|p2b: Lurantis|Lurantis, L50, F|100/100
+|turn|6
+|
+|t:|1756783438
+|move|p1b: Rillaboom|Grassy Glide|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|46/100
+|move|p2a: Torkoal|Heat Wave|p1a: Volcarona|[spread] p1b
+|-miss|p2a: Torkoal|p1a: Volcarona
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|move|p2b: Lurantis|Superpower|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|53/100
+|-boost|p2b: Lurantis|atk|1
+|-boost|p2b: Lurantis|def|1
+|-status|p2b: Lurantis|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|move|p1a: Volcarona|Heat Wave|p2a: Torkoal|[spread] p2b
+|-miss|p1a: Volcarona|p2a: Torkoal
+|-supereffective|p2b: Lurantis
+|-damage|p2b: Lurantis|0 fnt
+|faint|p2b: Lurantis
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Torkoal|52/100|[from] Grassy Terrain
+|-heal|p1a: Volcarona|59/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1756783455
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|turn|7
+|
+|t:|1756783460
+|move|p1a: Volcarona|Heat Wave|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|win|epom158
+||epom158 is ready for game 2.
+||RagCheese is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

@@ -1,0 +1,149 @@
+|j|☆JuanGuerrero09
+|j|☆bpecina03
+|html|JuanGuerrero09bpecina03    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756650363
+|gametype|doubles
+|player|p1|JuanGuerrero09|265|1173
+|player|p2|bpecina03|101|1090
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Hydreigon, L50, F|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Talonflame, L50, F|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Garchomp, L50, F|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,DazzlingGleam|||M|||50|,,,,,Fire]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|HighHorsepower,Earthquake,IronHead,Protect|||M|||50|,,,,,Ground]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||M|||50|,,,,,Psychic]Hydreigon||CovertCloak|Levitate|Snarl,Tailwind,DracoMeteor,Protect|||F|||50|,,,,,Poison
+|showteam|p2|Tyranitar||AssaultVest|SandStream|RockSlide,TeraBlast,KnockOff,LowKick|||F|||50|,,,,,Flying]Annihilape||SitrusBerry|Defiant|RageFist,Taunt,Protect,DrainPunch|||F|||50|,,,,,Grass]Talonflame||CovertCloak|FlameBody|Tailwind,BraveBird,WillOWisp,Protect|||F|||50|,,,,,Grass]Primarina||ThroatSpray|LiquidVoice|HyperVoice,Haze,Moonblast,Protect|||M|||50|,,,,,Steel]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Garchomp||LifeOrb|SandVeil|StompingTantrum,Earthquake,Protect,DragonClaw|||F|||50|,,,,,Ground
+|
+|t:|1756650396
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Talonflame|Talonflame, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|turn|1
+|
+|t:|1756650423
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p1b: Indeedee|Expanding Force|p2a: Incineroar|[spread] p2b
+|-immune|p2a: Incineroar
+|-damage|p2b: Talonflame|11/100
+|move|p2b: Talonflame|Brave Bird|p1a: Sneasler
+|-activate|p1a: Sneasler|move: Protect
+|move|p2a: Incineroar|Knock Off|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|-enditem|p1b: Indeedee|Choice Scarf|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1b: Indeedee
+|
+|upkeep
+|
+|t:|1756650439
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|turn|2
+|
+|t:|1756650456
+|-terastallize|p2a: Incineroar|Ghost
+|move|p2b: Talonflame|Protect|p2b: Talonflame
+|-singleturn|p2b: Talonflame|Protect
+|move|p1a: Sneasler|Dire Claw|p2b: Talonflame
+|-activate|p2b: Talonflame|move: Protect
+|move|p1b: Annihilape|Close Combat|p2a: Incineroar
+|-immune|p2a: Incineroar
+|move|p2a: Incineroar|Flare Blitz|p1a: Sneasler
+|-damage|p1a: Sneasler|21/100
+|-damage|p2a: Incineroar|80/100|[from] Recoil
+|
+|upkeep
+|turn|3
+|
+|t:|1756650480
+|move|p1a: Sneasler|Throat Chop|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|43/100
+|-start|p2a: Incineroar|Throat Chop|[silent]
+|move|p2b: Talonflame|Brave Bird|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|-damage|p2b: Talonflame|4/100|[from] Recoil
+|move|p1b: Annihilape|Rage Fist|p2b: Talonflame
+|-damage|p2b: Talonflame|0 fnt
+|faint|p2b: Talonflame
+|move|p2a: Incineroar|Knock Off|p1b: Annihilape
+|-damage|p1b: Annihilape|59/100
+|-enditem|p1b: Annihilape|Safety Goggles|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|
+|t:|1756650498
+|switch|p2b: Primarina|Primarina, L50, M|100/100
+|switch|p1a: Excadrill|Excadrill, L50, M|100/100
+|turn|4
+|
+|t:|1756650515
+|move|p2b: Primarina|Protect|p2b: Primarina
+|-singleturn|p2b: Primarina|Protect
+|move|p1b: Annihilape|Rage Fist|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|move|p1a: Excadrill|Iron Head|p2b: Primarina
+|-activate|p2b: Primarina|move: Protect
+|
+|upkeep
+|
+|t:|1756650524
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|turn|5
+|
+|t:|1756650550
+|move|p2a: Garchomp|Stomping Tantrum|p1b: Annihilape
+|-damage|p1b: Annihilape|0 fnt
+|faint|p1b: Annihilape
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|move|p1a: Excadrill|Iron Head|p2b: Primarina
+|-damage|p2b: Primarina|31/100
+|move|p2b: Primarina|Hyper Voice|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-enditem|p1a: Excadrill|Focus Sash
+|-damage|p1a: Excadrill|1/100
+|-enditem|p2b: Primarina|Throat Spray
+|-boost|p2b: Primarina|spa|1|[from] item: Throat Spray
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756650566
+|-terastallize|p1a: Excadrill|Ground
+|move|p2a: Garchomp|Dragon Claw|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|-damage|p2a: Garchomp|81/100|[from] item: Life Orb
+|
+|win|bpecina03
+|raw|JuanGuerrero09's rating: 1173 → 1142(-31 for losing)
+|raw|bpecina03's rating: 1090 → 1123(+33 for winning)

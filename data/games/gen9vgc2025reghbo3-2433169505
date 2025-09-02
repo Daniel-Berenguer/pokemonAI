@@ -1,0 +1,198 @@
+|j|☆dracojackson
+|j|☆kojay
+|html|dracojacksonkojay    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756754031
+|gametype|doubles
+|player|p1|dracojackson|hilbert|
+|player|p2|kojay|kamado-armor|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Vivillon, L50, M|
+|teampreview|4
+|showteam|p1|Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||F|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||M|||50|,,,,,Steel
+|showteam|p2|Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,StompingTantrum,Protect|||F|||50|,,,,,Ground]Sneasler||WhiteHerb|Unburden|Coaching,Protect,DireClaw,CloseCombat|||M|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Dragonite||LoadedDice|InnerFocus|TeraBlast,ScaleShot,Tailwind,Protect|||F|||50|,,,,,Flying]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,Trick,Thunderbolt||||||50|,,,,,Steel]Vivillon||FocusSash|CompoundEyes|Hurricane,SleepPowder,RagePowder,Protect|||M|||50|,,,,,Ghost
+|
+|t:|1756754073
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Tomato|Incineroar, L50, M|100/100
+|switch|p1b: Clanker|Porygon2, L50|100/100
+|switch|p2a: Vivillon|Vivillon, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-ability|p1a: Tomato|Intimidate|boost
+|-unboost|p2a: Vivillon|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|-ability|p1b: Clanker|Download|boost
+|-boost|p1b: Clanker|atk|1
+|-enditem|p2b: Sneasler|White Herb
+|-clearnegativeboost|p2b: Sneasler|[silent]
+|turn|1
+|
+|t:|1756754097
+|switch|p1b: LaFawnduh|Amoonguss, L50, F, shiny|100/100
+|-terastallize|p2a: Vivillon|Ghost
+|-terastallize|p1a: Tomato|Ghost
+|move|p2b: Sneasler|Close Combat|p1a: Tomato
+|-immune|p1a: Tomato
+|move|p2a: Vivillon|Sleep Powder|p1b: LaFawnduh
+|-immune|p1b: LaFawnduh
+|move|p1a: Tomato|Parting Shot|p2b: Sneasler
+|-unboost|p2b: Sneasler|atk|1
+|-unboost|p2b: Sneasler|spa|1
+|
+|t:|1756754108
+|switch|p1a: Clanker|Porygon2, L50|100/100|[from] Parting Shot
+|-ability|p1a: Clanker|Download|boost
+|-boost|p1a: Clanker|atk|1
+|
+|upkeep
+|turn|2
+|
+|t:|1756754126
+|switch|p2b: Dalinar|Incineroar, L50, M, shiny|100/100
+|-ability|p2b: Dalinar|Intimidate|boost
+|-unboost|p1a: Clanker|atk|1
+|-unboost|p1b: LaFawnduh|atk|1
+|move|p1b: LaFawnduh|Rage Powder|p1b: LaFawnduh
+|-singleturn|p1b: LaFawnduh|move: Rage Powder
+|move|p2a: Vivillon|Sleep Powder|p1b: LaFawnduh
+|-immune|p1b: LaFawnduh
+|move|p1a: Clanker|Trick Room|p1a: Clanker
+|-fieldstart|move: Trick Room|[of] p1a: Clanker
+|
+|upkeep
+|turn|3
+|
+|t:|1756754143
+|switch|p1a: Tomato|Incineroar, L50, M, tera:Ghost|100/100
+|-ability|p1a: Tomato|Intimidate|boost
+|-unboost|p2a: Vivillon|atk|1
+|-unboost|p2b: Dalinar|atk|1
+|move|p1b: LaFawnduh|Spore|p2a: Vivillon
+|-status|p2a: Vivillon|slp|[from] move: Spore
+|move|p2b: Dalinar|Knock Off|p1b: LaFawnduh
+|-damage|p1b: LaFawnduh|76/100
+|-enditem|p1b: LaFawnduh|Sitrus Berry|[from] move: Knock Off|[of] p2b: Dalinar
+|cant|p2a: Vivillon|slp
+|
+|upkeep
+|turn|4
+|
+|t:|1756754166
+|move|p1b: LaFawnduh|Pollen Puff|p2a: Vivillon
+|-resisted|p2a: Vivillon
+|-damage|p2a: Vivillon|84/100 slp
+|move|p2b: Dalinar|Knock Off|p1a: Tomato
+|-supereffective|p1a: Tomato
+|-damage|p1a: Tomato|38/100
+|-enditem|p1a: Tomato|Safety Goggles|[from] move: Knock Off|[of] p2b: Dalinar
+|move|p1a: Tomato|Knock Off|p2a: Vivillon
+|-supereffective|p2a: Vivillon
+|-damage|p2a: Vivillon|0 fnt
+|-enditem|p2a: Vivillon|Focus Sash|[from] move: Knock Off|[of] p1a: Tomato
+|faint|p2a: Vivillon
+|
+|upkeep
+|
+|t:|1756754182
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|turn|5
+|
+|t:|1756754198
+|move|p1b: LaFawnduh|Spore|p2a: Sneasler
+|-status|p2a: Sneasler|slp|[from] move: Spore
+|move|p2b: Dalinar|Flare Blitz|p1b: LaFawnduh
+|-supereffective|p1b: LaFawnduh
+|-damage|p1b: LaFawnduh|9/100
+|-damage|p2b: Dalinar|77/100|[from] Recoil
+|move|p1a: Tomato|Parting Shot|p1b: LaFawnduh
+|-unboost|p1b: LaFawnduh|atk|1
+|-unboost|p1b: LaFawnduh|spa|1
+|
+|t:|1756754201
+|switch|p1a: IGOR|Ursaluna, L50, F, shiny|100/100|[from] Parting Shot
+|cant|p2a: Sneasler|slp
+|
+|-status|p1a: IGOR|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1756754219
+|switch|p1b: Clanker|Porygon2, L50|100/100
+|-ability|p1b: Clanker|Download|boost
+|-boost|p1b: Clanker|atk|1
+|cant|p2a: Sneasler|slp
+|move|p2b: Dalinar|Parting Shot|p1a: IGOR
+|-unboost|p1a: IGOR|atk|1
+|-unboost|p1a: IGOR|spa|1
+|
+|t:|1756754225
+|switch|p2b: Kaladin|Garchomp, L50, F, shiny|100/100|[from] Parting Shot
+|move|p1a: IGOR|Earthquake|p2b: Kaladin|[spread] p1b,p2a,p2b
+|-supereffective|p2a: Sneasler
+|-damage|p1b: Clanker|72/100
+|-damage|p2a: Sneasler|0 fnt
+|-damage|p2b: Kaladin|57/100
+|faint|p2a: Sneasler
+|
+|-damage|p1a: IGOR|95/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1756754231
+|switch|p2a: Dalinar|Incineroar, L50, M, shiny|77/100
+|-ability|p2a: Dalinar|Intimidate|boost
+|-unboost|p1a: IGOR|atk|1
+|-unboost|p1b: Clanker|atk|1
+|turn|7
+|
+|t:|1756754248
+|move|p2a: Dalinar|Fake Out|p1b: Clanker
+|-damage|p1b: Clanker|64/100
+|move|p2b: Kaladin|Stomping Tantrum|p1b: Clanker
+|-damage|p1b: Clanker|27/100
+|-damage|p2b: Kaladin|47/100|[from] item: Life Orb
+|move|p1a: IGOR|Facade|p2b: Kaladin
+|-damage|p2b: Kaladin|0 fnt
+|-damage|p1a: IGOR|83/100 brn|[from] ability: Rough Skin|[of] p2b: Kaladin
+|faint|p2b: Kaladin
+|cant|p1b: Clanker|flinch
+|
+|-damage|p1a: IGOR|77/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1756754261
+|move|p1a: IGOR|Facade|p2a: Dalinar
+|-damage|p2a: Dalinar|26/100
+|move|p2a: Dalinar|Flare Blitz|p1a: IGOR
+|-damage|p1a: IGOR|36/100 brn
+|-damage|p2a: Dalinar|11/100|[from] Recoil
+|move|p1b: Clanker|Recover|p1b: Clanker
+|-heal|p1b: Clanker|77/100
+|
+|-damage|p1a: IGOR|31/100 brn|[from] brn
+|upkeep
+|turn|9
+|-message|kojay forfeited.
+|
+|win|dracojackson
+||kojay is ready for game 3.
+||dracojackson is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

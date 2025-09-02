@@ -1,0 +1,306 @@
+|j|☆masterhax3
+|j|☆T1guel
+|html|masterhax3T1guel    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756728104
+|gametype|doubles
+|player|p1|masterhax3|scientist-gen4dp|1110
+|player|p2|T1guel|hilbert|1074
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Vivillon-Polar, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Sneasler, L50, M|
+|poke|p2|Leafeon, L50, M|
+|poke|p2|Ninetales, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Hydreigon, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Palafin, L50, M|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Poison]Vivillon-Polar||FocusSash|CompoundEyes|Hurricane,SleepPowder,Tailwind,Protect|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark
+|showteam|p2|Leafeon||LifeOrb|Chlorophyll|SolarBlade,TeraBlast,Synthesis,Yawn|||M|||50|,,,,,Ice]Ninetales||ChoiceScarf|Drought|Flamethrower,ShadowBall,WillOWisp,HeatWave|||F|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,PartingShot,KnockOff|||F|||50|,,,,,Ghost]Hydreigon||DragonFang|Levitate|DragonPulse,EarthPower,Protect,NastyPlot|||M|||50|,,,,,Fire]Amoonguss||SitrusBerry|Regenerator|RagePowder,Spore,Protect,SludgeBomb|||M|||50|,,,,,Water]Palafin||MysticWater|ZerotoHero|JetPunch,CloseCombat,Protect,FlipTurn|||M|||50|,,,,,Water
+|
+|t:|1756728118
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Vivillon|Vivillon-Polar, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Palafin|Palafin, L50, M|100/100
+|switch|p2b: Hydreigon|Hydreigon, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Palafin|atk|1
+|-unboost|p2b: Hydreigon|atk|1
+|turn|1
+|
+|t:|1756728131
+|detailschange|p2a: Palafin|Palafin-Hero, L50, M
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Vivillon|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|move|p2b: Hydreigon|Protect|p2b: Hydreigon
+|-singleturn|p2b: Hydreigon|Protect
+|move|p1a: Vivillon|Sleep Powder|p2b: Hydreigon
+|-activate|p2b: Hydreigon|move: Protect
+|move|p1b: Incineroar|Parting Shot|p2a: Incineroar
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2a: Incineroar|spa|1
+|
+|t:|1756728144
+|switch|p1b: Porygon2|Porygon2, L50|100/100|[from] Parting Shot
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|atk|1
+|
+|upkeep
+|turn|2
+|
+|t:|1756728153
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|-terastallize|p1a: Vivillon|Ghost
+|move|p1a: Vivillon|Sleep Powder|p2b: Amoonguss
+|-immune|p2b: Amoonguss
+|move|p2a: Incineroar|Knock Off|p1b: Porygon2
+|-damage|p1b: Porygon2|80/100
+|-enditem|p1b: Porygon2|Eviolite|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1b: Porygon2|Trick Room|p1b: Porygon2
+|-fieldstart|move: Trick Room|[of] p1b: Porygon2
+|
+|upkeep
+|turn|3
+|
+|t:|1756728167
+|move|p2b: Amoonguss|Spore|p1b: Porygon2
+|-status|p1b: Porygon2|slp|[from] move: Spore
+|move|p2a: Incineroar|Parting Shot|p1a: Vivillon
+|-unboost|p1a: Vivillon|atk|1
+|-unboost|p1a: Vivillon|spa|1
+|
+|t:|1756728176
+|switch|p2a: Hydreigon|Hydreigon, L50, M|100/100|[from] Parting Shot
+|cant|p1b: Porygon2|slp
+|move|p1a: Vivillon|Hurricane|p2b: Amoonguss|[miss]
+|-miss|p1a: Vivillon|p2b: Amoonguss
+|
+|upkeep
+|turn|4
+|
+|t:|1756728195
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Hydreigon|atk|1
+|-unboost|p2b: Amoonguss|atk|1
+|move|p2a: Hydreigon|Protect|p2a: Hydreigon
+|-singleturn|p2a: Hydreigon|Protect
+|move|p2b: Amoonguss|Sludge Bomb|p1a: Incineroar
+|-damage|p1a: Incineroar|80/100
+|-status|p1a: Incineroar|psn
+|cant|p1b: Porygon2|slp
+|
+|-damage|p1a: Incineroar|68/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1756728218
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Porygon2|atk|1
+|-terastallize|p2b: Amoonguss|Water
+|move|p2b: Amoonguss|Sludge Bomb|p1b: Porygon2
+|-damage|p1b: Porygon2|54/100 slp
+|cant|p1b: Porygon2|slp
+|move|p1a: Incineroar|Parting Shot|p2a: Incineroar
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2a: Incineroar|spa|1
+|
+|t:|1756728233
+|switch|p1a: Vivillon|Vivillon-Polar, L50, F, tera:Ghost|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|6
+|
+|t:|1756728239
+|move|p1a: Vivillon|Protect|p1a: Vivillon
+|-singleturn|p1a: Vivillon|Protect
+|move|p2b: Amoonguss|Sludge Bomb|p1a: Vivillon
+|-activate|p1a: Vivillon|move: Protect
+|move|p2a: Incineroar|Knock Off|p1a: Vivillon
+|-activate|p1a: Vivillon|move: Protect
+|-curestatus|p1b: Porygon2|slp|[msg]
+|move|p1b: Porygon2|Recover|p1b: Porygon2
+|-heal|p1b: Porygon2|100/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1756728280
+|move|p2b: Amoonguss|Protect|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|Protect
+|move|p1a: Vivillon|Sleep Powder|p2b: Amoonguss
+|-activate|p2b: Amoonguss|move: Protect
+|move|p1b: Porygon2|Ice Beam|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|89/100
+|move|p2a: Incineroar|Parting Shot|p1b: Porygon2
+|-unboost|p1b: Porygon2|atk|1
+|-unboost|p1b: Porygon2|spa|1
+|
+|t:|1756728289
+|switch|p2a: Hydreigon|Hydreigon, L50, M|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|8
+|
+|t:|1756728308
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Hydreigon|Nasty Plot|p2a: Hydreigon
+|-boost|p2a: Hydreigon|spa|2
+|move|p1a: Vivillon|Sleep Powder|p2b: Amoonguss
+|-status|p2b: Amoonguss|slp|[from] move: Sleep Powder
+|move|p1b: Porygon2|Ice Beam|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|94/100 slp
+|
+|upkeep
+|turn|9
+|
+|t:|1756728320
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2b: Palafin|Palafin-Hero, L50, M|100/100
+|-activate|p2b: Palafin|ability: Zero to Hero
+|move|p2a: Hydreigon|Protect|p2a: Hydreigon
+|-singleturn|p2a: Hydreigon|Protect
+|move|p1b: Porygon2|Trick Room|p1b: Porygon2
+|-fieldstart|move: Trick Room|[of] p1b: Porygon2
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|10
+|
+|t:|1756728340
+|switch|p1b: Incineroar|Incineroar, L50, M|68/100 psn
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Hydreigon|atk|1
+|-unboost|p2b: Palafin|atk|1
+|move|p2b: Palafin|Jet Punch|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|52/100 brn
+|move|p1a: Ursaluna|Facade|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-damage|p1b: Incineroar|56/100 psn|[from] psn
+|-damage|p1a: Ursaluna|46/100 brn|[from] brn
+|upkeep
+|
+|t:|1756728350
+|switch|p2a: Incineroar|Incineroar, L50, F|89/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|turn|11
+|
+|t:|1756728366
+|switch|p1a: Vivillon|Vivillon-Polar, L50, F, tera:Ghost|100/100
+|move|p2a: Incineroar|Fake Out|p1a: Vivillon
+|-immune|p1a: Vivillon
+|move|p2b: Palafin|Jet Punch|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|upkeep
+|
+|t:|1756728379
+|switch|p1b: Porygon2|Porygon2, L50|100/100
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|spa|1
+|turn|12
+|
+|t:|1756728386
+|switch|p2b: Amoonguss|Amoonguss, L50, M, tera:Water|100/100 slp
+|move|p2a: Incineroar|Knock Off|p1a: Vivillon
+|-supereffective|p1a: Vivillon
+|-enditem|p1a: Vivillon|Focus Sash
+|-damage|p1a: Vivillon|1/100
+|move|p1b: Porygon2|Tera Blast|p2a: Incineroar
+|-damage|p2a: Incineroar|40/100
+|move|p1a: Vivillon|Hurricane|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|upkeep
+|
+|t:|1756728394
+|switch|p2a: Palafin|Palafin-Hero, L50, M|100/100
+|turn|13
+|
+|t:|1756728411
+|cant|p2b: Amoonguss|slp
+|move|p2a: Palafin|Jet Punch|p1a: Vivillon
+|-damage|p1a: Vivillon|0 fnt
+|faint|p1a: Vivillon
+|move|p1b: Porygon2|Tera Blast|p2a: Palafin
+|-damage|p2a: Palafin|48/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1756728420
+|switch|p1a: Ursaluna|Ursaluna, L50, M|46/100 brn
+|turn|14
+|
+|t:|1756728435
+|move|p2a: Palafin|Protect|p2a: Palafin
+|-singleturn|p2a: Palafin|Protect
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p1b: Porygon2|Tera Blast|p2a: Palafin
+|-activate|p2a: Palafin|move: Protect
+|-curestatus|p2b: Amoonguss|slp|[msg]
+|move|p2b: Amoonguss|Spore|p1b: Porygon2
+|-status|p1b: Porygon2|slp|[from] move: Spore
+|
+|-damage|p1a: Ursaluna|40/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1756728445
+|move|p2a: Palafin|Jet Punch|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|cant|p1b: Porygon2|slp
+|move|p2b: Amoonguss|Sludge Bomb|p1b: Porygon2
+|-damage|p1b: Porygon2|77/100 slp
+|
+|upkeep
+|turn|16
+|
+|t:|1756728456
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Palafin|Close Combat|p1b: Porygon2
+|-supereffective|p1b: Porygon2
+|-damage|p1b: Porygon2|0 fnt
+|-unboost|p2a: Palafin|def|1
+|-unboost|p2a: Palafin|spd|1
+|faint|p1b: Porygon2
+|
+|win|T1guel
+|raw|masterhax3's rating: 1110 → 1082(-28 for losing)
+|raw|T1guel's rating: 1074 → 1106(+32 for winning)
+|c|☆T1guel|gg
+|l|☆T1guel
+|player|p2|

@@ -1,0 +1,122 @@
+|j|☆uglybeast
+|j|☆Dball_Games
+|html|uglybeastDball_Games    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756758438
+|gametype|doubles
+|player|p1|uglybeast|lucas|1292
+|player|p2|Dball_Games|265|1271
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Murkrow, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Typhlosion-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Murkrow||Eviolite|Prankster|Haze,SunnyDay,Tailwind,BraveBird|||M|||50|,,,,,Ghost]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,Protect,EarthPower|||M|||50|,,,,,Normal]Sneasler||PsychicSeed|Unburden|ThroatChop,DireClaw,CloseCombat,Protect|||M|||50|,,,,,Dark]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,Uturn,PhantomForce|||F|||50|,,,,,Dragon]Armarouge||PowerHerb|FlashFire|HeatWave,MeteorBeam,ExpandingForce,Protect|||M|||50|,,,,,Grass]Indeedee-F||RockyHelmet|PsychicSurge|DazzlingGleam,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Grass
+|showteam|p2|Dragonite||LoadedDice|InnerFocus|Tailwind,ScaleShot,Haze,Protect|||F|||50|,,,,,Steel]Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||M|||50|,,,,,Ghost]Incineroar||AssaultVest|Intimidate|Uturn,FakeOut,FlareBlitz,KnockOff|||F|||50|,,,,,Grass]Porygon2||Eviolite|Download|TrickRoom,IceBeam,ThunderWave,TriAttack||||||50|,,,,,Grass]Torkoal||EjectPack|Drought|Eruption,HeatWave,Protect,EarthPower|||M|||50|,,,,,Fire]Typhlosion-Hisui||ChoiceScarf|Blaze|Eruption,HeatWave,ShadowBall,Overheat|||F|||50|,,,,,Fire
+|
+|t:|1756758506
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Paschalis|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1b: Giandam|Armarouge, L50, M|100/100
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|switch|p2b: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|turn|1
+|
+|t:|1756758582
+|-terastallize|p1b: Giandam|Grass
+|move|p1a: Paschalis|Protect|p1a: Paschalis
+|-singleturn|p1a: Paschalis|Protect
+|move|p2b: Typhlosion|Overheat|p1a: Paschalis
+|-activate|p1a: Paschalis|move: Protect
+|move|p1b: Giandam|Meteor Beam||[still]
+|-prepare|p1b: Giandam|Meteor Beam
+|-boost|p1b: Giandam|spa|1
+|-enditem|p1b: Giandam|Power Herb
+|-anim|p1b: Giandam|Meteor Beam|p2a: Porygon2|[miss]
+|-miss|p1b: Giandam|p2a: Porygon2
+|move|p2a: Porygon2|Ice Beam|p1a: Paschalis
+|-activate|p1a: Paschalis|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1756758607
+|switch|p1a: Blade|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Blade
+|move|p2b: Typhlosion|Overheat|p1a: Blade
+|-damage|p1a: Blade|29/100
+|-unboost|p2b: Typhlosion|spa|2
+|move|p1b: Giandam|Expanding Force|p2b: Typhlosion|[spread] p2a,p2b
+|-damage|p2a: Porygon2|58/100
+|-damage|p2b: Typhlosion|0 fnt
+|faint|p2b: Typhlosion
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|upkeep
+|
+|t:|1756758619
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|3
+|
+|t:|1756758644
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p2a: Porygon2|Ice Beam|p1b: Giandam
+|-supereffective|p1b: Giandam
+|-damage|p1b: Giandam|10/100
+|move|p1b: Giandam|Expanding Force|p2b: Ursaluna|[spread] p2a
+|-activate|p2b: Ursaluna|move: Protect
+|-crit|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|move|p1a: Blade|Trick Room|p1a: Blade
+|-fieldend|move: Trick Room
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756758653
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|4
+|
+|t:|1756758665
+|move|p1a: Blade|Helping Hand|p1b: Giandam
+|-singleturn|p1b: Giandam|Helping Hand|[of] p1a: Blade
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p1b: Giandam|Expanding Force|p2b: Ursaluna|[spread] p2b
+|-activate|p2a: Torkoal|move: Protect
+|-crit|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|-message|Dball_Games forfeited.
+|raw|uglybeast's rating: 1292 → 1315(+23 for winning)
+|raw|Dball_Games's rating: 1271 → 1248(-23 for losing)
+|
+|win|uglybeast
+|l|☆Dball_Games
+|player|p2|

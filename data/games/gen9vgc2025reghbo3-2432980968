@@ -1,0 +1,174 @@
+|j|☆guicfpc
+|j|☆artyowls
+|html|guicfpcartyowls    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756733970
+|gametype|doubles
+|player|p1|guicfpc|169|1033
+|player|p2|artyowls|plasmagrunt|1121
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Volcarona, L50, M|
+|teampreview|4
+|showteam|p1|Torkoal||FlamePlate|Drought|Eruption,WeatherBall,HeatWave,Protect|||M|||50|,,,,,Fire]Indeedee-F||MentalHerb|PsychicSurge|FollowMe,TrickRoom,Psychic,HelpingHand|||F|||50|,,,,,Dragon]Ursaluna||FlameOrb|Guts|Protect,HeadlongRush,Facade,Earthquake|||M|||50|,,,,,Ghost]Hatterene||CovertCloak|MagicBounce|DazzlingGleam,ExpandingForce,MysticalFire,TrickRoom|||F|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|SleepPowder,AfterYou,CloseCombat,TripleAxel|||F|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Grass
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,FlareBlitz|||F|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|GrassyGlide,FakeOut,WoodHammer,HighHorsepower|||F|||50|,,,,,Fire]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,Protect,NastyPlot||||||50|,,,,,Steel]Electabuzz||Eviolite|VitalSpirit|FollowMe,Protect,Taunt,Electroweb|||M|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,Haze,ExtremeSpeed|||M|||50|,,,,,Normal]Volcarona||RockyHelmet|FlameBody|StruggleBug,RagePowder,FieryDance,WillOWisp|||M|||50|,,,,,Water
+|
+|t:|1756734005
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Dragonite|Dragonite, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-fail|p1b: Gallade|unboost|[from] item: Clear Amulet|[of] p1b: Gallade
+|turn|1
+|
+|t:|1756734032
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-terastallize|p1a: Indeedee|Dragon
+|move|p2a: Incineroar|Fake Out|p1b: Gallade
+|-damage|p1b: Gallade|84/100
+|cant|p1b: Gallade|flinch
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-heal|p1b: Gallade|90/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756734070
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|move|p2b: Rillaboom|Fake Out|p1a: Ursaluna
+|-damage|p1a: Ursaluna|91/100
+|move|p2a: Incineroar|Knock Off|p1b: Hatterene
+|-damage|p1b: Hatterene|54/100
+|-enditem|p1b: Hatterene|Covert Cloak|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-heal|p1b: Hatterene|60/100|[from] Grassy Terrain
+|-heal|p1a: Ursaluna|97/100|[from] Grassy Terrain
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1756734112
+|move|p1b: Hatterene|Mystical Fire|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|59/100
+|-unboost|p2b: Rillaboom|spa|1
+|move|p1a: Ursaluna|Headlong Rush|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Incineroar
+|move|p2b: Rillaboom|Wood Hammer|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|-damage|p2b: Rillaboom|22/100|[from] Recoil
+|
+|-heal|p1b: Hatterene|66/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|28/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756734131
+|switch|p1a: Indeedee|Indeedee-F, L50, F, tera:Dragon|100/100
+|switch|p2a: Dragonite|Dragonite, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by guicfpc)
+|
+|t:|1756734162
+|-terastallize|p2a: Dragonite|Normal
+|move|p1b: Hatterene|Expanding Force|p2a: Dragonite|[spread] p2a,p2b
+|-damage|p2a: Dragonite|72/100
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|move|p1a: Indeedee|Psychic|p2a: Dragonite
+|-damage|p2a: Dragonite|39/100
+|move|p2a: Dragonite|Scale Shot|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|72/100
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|42/100
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|13/100
+|-supereffective|p1a: Indeedee
+|-crit|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|-hitcount|p1: Indeedee|4
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|
+|t:|1756734180
+|switch|p1a: Gallade|Gallade, L50, M|90/100
+|switch|p2b: Volcarona|Volcarona, L50, M|100/100
+|turn|5
+|inactive|guicfpc has 30 seconds left.
+|inactive|guicfpc has 20 seconds left.
+|
+|t:|1756734216
+|move|p2a: Dragonite|Protect|p2a: Dragonite
+|-singleturn|p2a: Dragonite|Protect
+|move|p2b: Volcarona|Will-O-Wisp|p1a: Gallade
+|-status|p1a: Gallade|brn
+|move|p1b: Hatterene|Trick Room|p1b: Hatterene
+|-fieldend|move: Trick Room
+|move|p1a: Gallade|Trick Room|p1a: Gallade
+|-fieldstart|move: Trick Room|[of] p1a: Gallade
+|
+|-damage|p1a: Gallade|84/100 brn|[from] brn
+|upkeep
+|turn|6
+|inactive|artyowls has 30 seconds left.
+|
+|t:|1756734247
+|move|p2b: Volcarona|Rage Powder|p2b: Volcarona
+|-singleturn|p2b: Volcarona|move: Rage Powder
+|move|p1b: Hatterene|Expanding Force|p2b: Volcarona|[spread] p2a,p2b
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p2b: Volcarona|43/100
+|faint|p2a: Dragonite
+|move|p1a: Gallade|Sacred Sword|p2b: Volcarona
+|-resisted|p2b: Volcarona
+|-damage|p2b: Volcarona|23/100
+|-damage|p1a: Gallade|68/100 brn|[from] item: Rocky Helmet|[of] p2b: Volcarona
+|
+|-damage|p1a: Gallade|62/100 brn|[from] brn
+|upkeep
+|turn|7
+|inactive|artyowls has 30 seconds left.
+|
+|t:|1756734273
+|move|p1b: Hatterene|Expanding Force|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|faint|p2b: Volcarona
+|
+|win|guicfpc
+||artyowls is ready for game 2.
+||guicfpc is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

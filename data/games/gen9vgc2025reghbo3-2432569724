@@ -1,0 +1,128 @@
+|j|☆beeetch
+|j|☆Lightoz
+|html|beeetchLightoz    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756674733
+|gametype|doubles
+|player|p1|beeetch|beauty-gen4dp|1295
+|player|p2|Lightoz|blue-gen2|1365
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Toedscruel, L50, F|
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p1|Corviknight, L50, M|
+|poke|p1|Pawmot, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Typhlosion-Hisui, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Toedscruel||CovertCloak|MyceliumMight|Spore,EarthPower,AcidSpray,RagePowder|||F|||50|,,,,,Water]Weezing-Galar||ChoiceSpecs|NeutralizingGas|DazzlingGleam,SludgeBomb,StrangeSteam,Flamethrower|||M|||50|,,,,,Fire]Corviknight||SitrusBerry|MirrorArmor|Protect,Tailwind,Roost,BraveBird|||M|||50|,,,,,Dragon]Pawmot||FocusSash|NaturalCure|Protect,CloseCombat,DoubleShock,FakeOut|||F|||50|,,,,,Electric]Garchomp||LifeOrb|RoughSkin|Protect,Earthquake,DragonClaw,StompingTantrum|||M|||50|,,,,,Ground]Typhlosion-Hisui||ChoiceScarf|Blaze|Eruption,SleepTalk,HeatWave,ShadowBall|||M|||50|,,,,,Fire
+|showteam|p2|Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Coaching,FinalGambit|||M|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||M|||50|,,,,,Normal]Volcarona||Leftovers|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||M|||50|,,,,,Fairy]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||F|||50|,,,,,Fire]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,AquaJet|||M|||50|,,,,,Water
+|
+|t:|1756674810
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Weezing|Weezing-Galar, L50, M|100/100
+|switch|p1b: Pawmot|Pawmot, L50, F|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Annihilape|Annihilape, L50, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1756674855
+|-terastallize|p1b: Pawmot|Electric
+|move|p2a: Basculegion|Flip Turn|p1b: Pawmot
+|-damage|p1b: Pawmot|57/100
+|
+|t:|1756674858
+|switch|p2a: Volcarona|Volcarona, L50, M|100/100|[from] Flip Turn
+|move|p1b: Pawmot|Double Shock|p2a: Volcarona
+|-damage|p2a: Volcarona|11/100
+|-start|p1b: Pawmot|typechange|Electric|[from] move: Double Shock
+|move|p2b: Annihilape|Coaching|p2a: Volcarona
+|-boost|p2a: Volcarona|atk|1
+|-boost|p2a: Volcarona|def|1
+|move|p1a: Weezing|Dazzling Gleam|p2b: Annihilape|[spread] p2a,p2b
+|-resisted|p2a: Volcarona
+|-supereffective|p2b: Annihilape
+|-damage|p2a: Volcarona|0 fnt
+|-damage|p2b: Annihilape|31/100
+|faint|p2a: Volcarona
+|
+|upkeep
+|
+|t:|1756674865
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|turn|2
+|
+|t:|1756674881
+|move|p1b: Pawmot|Protect|p1b: Pawmot
+|-singleturn|p1b: Pawmot|Protect
+|move|p2a: Basculegion|Wave Crash|p1b: Pawmot
+|-activate|p1b: Pawmot|move: Protect
+|move|p2b: Annihilape|Coaching|p2a: Basculegion
+|-boost|p2a: Basculegion|atk|1
+|-boost|p2a: Basculegion|def|1
+|move|p1a: Weezing|Dazzling Gleam|p2a: Basculegion|[spread] p2a,p2b
+|-supereffective|p2b: Annihilape
+|-damage|p2a: Basculegion|60/100
+|-damage|p2b: Annihilape|0 fnt
+|faint|p2b: Annihilape
+|
+|upkeep
+|
+|t:|1756674884
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|turn|3
+|
+|t:|1756674898
+|switch|p1b: Corviknight|Corviknight, L50, M|100/100
+|-terastallize|p2a: Basculegion|Water
+|move|p2b: Rillaboom|Fake Out|p1b: Corviknight
+|-resisted|p1b: Corviknight
+|-damage|p1b: Corviknight|94/100
+|move|p2a: Basculegion|Wave Crash|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-damage|p2a: Basculegion|34/100|[from] Recoil
+|
+|-heal|p2a: Basculegion|40/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756674911
+|switch|p1a: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|turn|4
+|
+|t:|1756674920
+|move|p1a: Typhlosion|Eruption|p2b: Rillaboom|[spread] p2a,p2b
+|-resisted|p2a: Basculegion
+|-supereffective|p2b: Rillaboom
+|-damage|p2a: Basculegion|5/100
+|-damage|p2b: Rillaboom|6/100
+|move|p2a: Basculegion|Wave Crash|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|-damage|p2a: Basculegion|0 fnt|[from] Recoil
+|faint|p2a: Basculegion
+|move|p2b: Rillaboom|Wood Hammer|p1b: Corviknight
+|-resisted|p1b: Corviknight
+|-damage|p1b: Corviknight|79/100
+|-damage|p2b: Rillaboom|0 fnt|[from] Recoil
+|faint|p2b: Rillaboom
+|
+|win|beeetch
+||Lightoz is ready for game 2.
+|inactive|beeetch has 30 seconds to confirm battle start!

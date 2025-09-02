@@ -1,0 +1,129 @@
+|j|☆elsturito
+|j|☆RayN2198
+|html|elsturitoRayN2198    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756782846
+|gametype|doubles
+|player|p1|elsturito|266|
+|player|p2|RayN2198|169|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Magmar, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Whimsicott||CovertCloak|Prankster|Protect,Tailwind,Moonblast,Encore|||M|||50|,,,,,Dark]Gholdengo||Leftovers|GoodasGold|Protect,NastyPlot,MakeItRain,ShadowBall||||||50|,,,,,Steel]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,FlareBlitz,KnockOff|||F|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,Uturn,WoodHammer,GrassyGlide|||F|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|Protect,ScaleShot,Haze,Tailwind|||F|||50|,,,,,Fairy]Magmar||Eviolite|VitalSpirit|Protect,FollowMe,Overheat,WillOWisp|||M|||50|,,,,,Ghost
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||F|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|
+|t:|1756782976
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1756783069
+|switch|p2a: Annihilape|Annihilape, L50, F|100/100
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Annihilape|atk|1
+|-ability|p2a: Annihilape|Defiant|boost
+|-boost|p2a: Annihilape|atk|2
+|-unboost|p2b: Sneasler|atk|1
+|move|p2b: Sneasler|Dire Claw|p1a: Incineroar
+|-damage|p1a: Incineroar|70/100
+|-status|p1a: Incineroar|par
+|move|p1b: Dragonite|Scale Shot|p2b: Sneasler
+|-damage|p2b: Sneasler|77/100
+|-damage|p2b: Sneasler|51/100
+|-damage|p2b: Sneasler|26/100
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|-hitcount|p2: Sneasler|4
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|
+|-heal|p1a: Incineroar|76/100 par|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756783097
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|turn|2
+|
+|t:|1756783177
+|cant|p1a: Incineroar|par
+|move|p2b: Volcarona|Rage Powder|p2b: Volcarona
+|-singleturn|p2b: Volcarona|move: Rage Powder
+|move|p1b: Dragonite|Scale Shot|p2b: Volcarona
+|-crit|p2b: Volcarona
+|-damage|p2b: Volcarona|73/100
+|-damage|p2b: Volcarona|54/100
+|-crit|p2b: Volcarona
+|-damage|p2b: Volcarona|25/100
+|-enditem|p2b: Volcarona|Sitrus Berry|[eat]
+|-heal|p2b: Volcarona|50/100|[from] item: Sitrus Berry
+|-crit|p2b: Volcarona
+|-damage|p2b: Volcarona|20/100
+|-hitcount|p2b: Volcarona|4
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|move|p2a: Annihilape|Final Gambit|p1b: Dragonite
+|-damage|p1b: Dragonite|0 fnt
+|faint|p2a: Annihilape
+|faint|p1b: Dragonite
+|
+|-heal|p2b: Volcarona|27/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|82/100 par|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756783211
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|3
+|
+|t:|1756783413
+|move|p1b: Rillaboom|Fake Out|p2b: Volcarona
+|-damage|p2b: Volcarona|9/100
+|move|p2a: Indeedee|Trick|p1b: Rillaboom
+|-activate|p2a: Indeedee|move: Trick|[of] p1b: Rillaboom
+|-item|p1b: Rillaboom|Choice Scarf|[from] move: Trick
+|-item|p2a: Indeedee|Assault Vest|[from] move: Trick
+|cant|p2b: Volcarona|flinch
+|move|p1a: Incineroar|Flare Blitz|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|faint|p2b: Volcarona
+|-damage|p1a: Incineroar|80/100 par|[from] Recoil
+|
+|-heal|p1a: Incineroar|86/100 par|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756783440
+|-terastallize|p2a: Indeedee|Psychic
+|move|p1b: Rillaboom|Wood Hammer|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-damage|p1b: Rillaboom|78/100|[from] Recoil
+|
+|win|elsturito

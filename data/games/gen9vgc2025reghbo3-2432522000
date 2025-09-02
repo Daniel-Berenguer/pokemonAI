@@ -1,0 +1,352 @@
+|j|☆malo maalez
+|j|☆Pyos
+|html|malo maalezPyos    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756669675
+|gametype|doubles
+|player|p1|malo maalez|steven|1000
+|player|p2|Pyos|tulip|1112
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Kingdra, L50, F|
+|poke|p1|Politoed, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Gothitelle, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Maushold, L50|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Sneasler, L50, F|
+|teampreview|4
+|showteam|p1|Archaludon||PowerHerb|Sturdy|Protect,ElectroShot,FlashCannon,DragonPulse|||M|||50|,,,,,Electric]Kingdra||LifeOrb|SwiftSwim|Protect,DracoMeteor,WeatherBall,MuddyWater|||F|||50|,,,,,Stellar]Politoed||Leftovers|Drizzle|Protect,WeatherBall,PerishSong,Encore|||M|||50|,,,,,Grass]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Protect|||M|||50|,,,,,Ghost]Gothitelle||SitrusBerry|ShadowTag|Protect,Psychic,FakeOut,TrickRoom|||F|||50|,,,,,Dark]Amoonguss||EjectButton|Regenerator|Protect,RagePowder,Spore,PollenPuff|||M|||50|,,,,,Fairy
+|showteam|p2|Maushold||WideLens|Technician|Protect,PopulationBomb,FollowMe,Taunt||||||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|BodyPress,ElectroShot,DragonPulse,FlashCannon|||F|||50|,,,,,Bug]Incineroar||SafetyGoggles|Intimidate|KnockOff,FakeOut,FlareBlitz,PartingShot|||M|||50|,,,,,Ghost]Pelipper||FocusSash|Drizzle|Tailwind,WeatherBall,Hurricane,Protect|||F|||50|,,,,,Ghost]Rillaboom||MiracleSeed|GrassySurge|GrassyGlide,WoodHammer,FakeOut,Uturn|||M|||50|,,,,,Fire]Sneasler||GrassySeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark
+|
+|t:|1756669699
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gothitelle|Gothitelle, L50, F|100/100
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Gothitelle|atk|1
+|-unboost|p1b: Archaludon|atk|1
+|turn|1
+|
+|t:|1756669723
+|switch|p1b: Politoed|Politoed, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Politoed
+|move|p2a: Rillaboom|Fake Out|p1b: Politoed
+|-damage|p1b: Politoed|84/100
+|move|p2b: Incineroar|Knock Off|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|25/100
+|-enditem|p1a: Gothitelle|Sitrus Berry|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1a: Gothitelle|Trick Room|p1a: Gothitelle
+|-fieldstart|move: Trick Room|[of] p1a: Gothitelle
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gothitelle|31/100|[from] Grassy Terrain
+|-heal|p1b: Politoed|90/100|[from] Grassy Terrain
+|-heal|p1b: Politoed|96/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by malo maalez)
+|
+|t:|1756669768
+|-terastallize|p2b: Incineroar|Ghost
+|-terastallize|p1b: Politoed|Grass
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2b: Incineroar|Knock Off|p1b: Politoed
+|-damage|p1b: Politoed|53/100
+|-enditem|p1b: Politoed|Leftovers|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1b: Politoed|Perish Song|p1b: Politoed
+|-start|p1a: Gothitelle|perish3|[silent]
+|-start|p1b: Politoed|perish3|[silent]
+|-start|p2a: Rillaboom|perish3|[silent]
+|-start|p2b: Incineroar|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Rillaboom|U-turn|p1a: Gothitelle
+|-activate|p1a: Gothitelle|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gothitelle|37/100|[from] Grassy Terrain
+|-heal|p1b: Politoed|59/100|[from] Grassy Terrain
+|-start|p1a: Gothitelle|perish3
+|-start|p2b: Incineroar|perish3
+|-start|p1b: Politoed|perish3
+|-start|p2a: Rillaboom|perish3
+|upkeep
+|turn|3
+|inactive|malo maalez has 30 seconds left.
+|inactive|malo maalez has 20 seconds left.
+|inactive|malo maalez has 15 seconds left.
+|inactive|malo maalez has 10 seconds left.
+|
+|t:|1756669816
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|move|p2b: Incineroar|Knock Off|p1a: Amoonguss
+|-damage|p1a: Amoonguss|71/100
+|-enditem|p1a: Amoonguss|Eject Button|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1b: Politoed|Perish Song|p1b: Politoed
+|-start|p1a: Amoonguss|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Rillaboom|U-turn|p1a: Amoonguss
+|-damage|p1a: Amoonguss|52/100
+|inactive|Pyos has 30 seconds left.
+|
+|t:|1756669843
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Amoonguss|58/100|[from] Grassy Terrain
+|-heal|p1b: Politoed|65/100|[from] Grassy Terrain
+|-start|p1a: Amoonguss|perish3
+|-start|p2b: Incineroar|perish2
+|-start|p1b: Politoed|perish2
+|upkeep
+|turn|4
+|inactive|malo maalez has 30 seconds left.
+|inactive|malo maalez has 20 seconds left.
+|
+|t:|1756669878
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|move|p1a: Amoonguss|Spore|p2a: Rillaboom
+|-immune|p2a: Rillaboom
+|move|p2b: Incineroar|Parting Shot|p1b: Archaludon
+|-unboost|p1b: Archaludon|atk|1
+|-unboost|p1b: Archaludon|spa|1
+|
+|t:|1756669895
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100|[from] Parting Shot
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Amoonguss|64/100|[from] Grassy Terrain
+|-start|p1a: Amoonguss|perish2
+|upkeep
+|turn|5
+|inactive|Pyos has 30 seconds left.
+|
+|t:|1756669928
+|switch|p1b: Gothitelle|Gothitelle, L50, F|37/100
+|move|p2b: Pelipper|Protect|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Protect
+|move|p1a: Amoonguss|Pollen Puff|p1b: Gothitelle
+|-heal|p1b: Gothitelle|87/100
+|move|p2a: Rillaboom|U-turn|p1a: Amoonguss
+|-damage|p1a: Amoonguss|45/100
+|
+|t:|1756669939
+|switch|p2a: Incineroar|Incineroar, L50, M, tera:Ghost|100/100|[from] U-turn
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|-unboost|p1b: Gothitelle|atk|1
+|
+|-weather|none
+|-heal|p1a: Amoonguss|51/100|[from] Grassy Terrain
+|-heal|p1b: Gothitelle|93/100|[from] Grassy Terrain
+|-start|p1a: Amoonguss|perish1
+|-fieldend|move: Trick Room
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756669959
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|move|p2a: Incineroar|Fake Out|p1b: Gothitelle
+|-damage|p1b: Gothitelle|84/100
+|move|p2b: Pelipper|Hurricane|p1a: Archaludon
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|60/100
+|cant|p1b: Gothitelle|flinch
+|
+|upkeep
+|turn|7
+|
+|t:|1756669977
+|move|p2b: Pelipper|Protect|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Protect
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-enditem|p1a: Archaludon|Power Herb
+|-anim|p1a: Archaludon|Electro Shot|p2a: Incineroar
+|-damage|p2a: Incineroar|54/100
+|move|p2a: Incineroar|Knock Off|p1b: Gothitelle
+|-supereffective|p1b: Gothitelle
+|-damage|p1b: Gothitelle|35/100
+|move|p1b: Gothitelle|Trick Room|p1b: Gothitelle
+|-fieldstart|move: Trick Room|[of] p1b: Gothitelle
+|
+|upkeep
+|turn|8
+|inactive|malo maalez has 30 seconds left.
+|inactive|Pyos has 30 seconds left.
+|inactive|malo maalez has 20 seconds left.
+|inactive|Pyos has 20 seconds left.
+|inactive|Pyos has 15 seconds left.
+|
+|t:|1756670019
+|switch|p1a: Amoonguss|Amoonguss, L50, M|84/100
+|move|p1b: Gothitelle|Protect|p1b: Gothitelle
+|-singleturn|p1b: Gothitelle|Protect
+|move|p2a: Incineroar|Parting Shot|p1a: Amoonguss
+|-unboost|p1a: Amoonguss|atk|1
+|-unboost|p1a: Amoonguss|spa|1
+|
+|t:|1756670028
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100|[from] Parting Shot
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p2b: Pelipper|Hurricane|p1a: Amoonguss|[miss]
+|-miss|p2b: Pelipper|p1a: Amoonguss
+|
+|-heal|p1a: Amoonguss|90/100|[from] Grassy Terrain
+|-heal|p1b: Gothitelle|41/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1756670052
+|move|p2b: Pelipper|Protect|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Protect
+|move|p1a: Amoonguss|Pollen Puff|p1b: Gothitelle
+|-heal|p1b: Gothitelle|91/100
+|move|p1b: Gothitelle|Psychic|p2b: Pelipper
+|-activate|p2b: Pelipper|move: Protect
+|move|p2a: Rillaboom|U-turn|p1b: Gothitelle
+|-supereffective|p1b: Gothitelle
+|-damage|p1b: Gothitelle|46/100
+|
+|t:|1756670067
+|switch|p2a: Incineroar|Incineroar, L50, M, tera:Ghost|54/100|[from] U-turn
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|-unboost|p1b: Gothitelle|atk|1
+|
+|-heal|p1a: Amoonguss|96/100|[from] Grassy Terrain
+|-heal|p1b: Gothitelle|52/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|60/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1756670080
+|move|p2a: Incineroar|Fake Out|p1a: Amoonguss
+|-damage|p1a: Amoonguss|88/100
+|cant|p1a: Amoonguss|flinch
+|move|p1b: Gothitelle|Psychic|p2b: Pelipper
+|-damage|p2b: Pelipper|52/100
+|move|p2b: Pelipper|Hurricane|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|-heal|p1b: Gothitelle|58/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|66/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756670085
+|switch|p1a: Archaludon|Archaludon, L50, M|60/100
+|turn|11
+|
+|t:|1756670108
+|move|p2b: Pelipper|Protect|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Protect
+|move|p1b: Gothitelle|Psychic|p2a: Incineroar
+|-damage|p2a: Incineroar|43/100
+|move|p2a: Incineroar|Parting Shot|p1a: Archaludon
+|-unboost|p1a: Archaludon|atk|1
+|-unboost|p1a: Archaludon|spa|1
+|
+|t:|1756670118
+|switch|p2a: Archaludon|Archaludon, L50, F|100/100|[from] Parting Shot
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|
+|-heal|p1b: Gothitelle|64/100|[from] Grassy Terrain
+|-heal|p1a: Archaludon|66/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|turn|12
+|
+|t:|1756670135
+|move|p1a: Archaludon|Electro Shot|p2b: Pelipper|[from] lockedmove
+|-supereffective|p2b: Pelipper
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|move|p2a: Archaludon|Body Press|p1a: Archaludon
+|-supereffective|p1a: Archaludon
+|-damage|p1a: Archaludon|22/100
+|move|p1b: Gothitelle|Psychic|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|91/100
+|-unboost|p2a: Archaludon|spd|1
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|
+|-heal|p1a: Archaludon|28/100|[from] Grassy Terrain
+|-heal|p2a: Archaludon|97/100|[from] Grassy Terrain
+|-heal|p1b: Gothitelle|71/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756670149
+|switch|p2b: Incineroar|Incineroar, L50, M, tera:Ghost|43/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Archaludon|atk|1
+|-unboost|p1b: Gothitelle|atk|1
+|turn|13
+|
+|t:|1756670157
+|move|p1a: Archaludon|Protect|p1a: Archaludon
+|-singleturn|p1a: Archaludon|Protect
+|move|p1b: Gothitelle|Protect|p1b: Gothitelle
+|-singleturn|p1b: Gothitelle|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Gothitelle
+|-activate|p1b: Gothitelle|move: Protect
+|move|p2a: Archaludon|Body Press|p1a: Archaludon
+|-activate|p1a: Archaludon|move: Protect
+|
+|upkeep
+|turn|14
+|
+|t:|1756670169
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|switch|p1b: Politoed|Politoed, L50, M, tera:Grass|65/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Politoed
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Rillaboom
+|-resisted|p2b: Rillaboom
+|-damage|p2b: Rillaboom|60/100
+|move|p2a: Archaludon|Body Press|p1a: Archaludon
+|-supereffective|p1a: Archaludon
+|-damage|p1a: Archaludon|0 fnt
+|faint|p1a: Archaludon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Rillaboom|66/100|[from] Grassy Terrain
+|-heal|p2a: Archaludon|100/100|[from] Grassy Terrain
+|-heal|p1b: Politoed|72/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756670174
+|switch|p1a: Gothitelle|Gothitelle, L50, F|71/100
+|turn|15
+|-message|malo maalez forfeited.
+|
+|win|Pyos
+|raw|malo maalez's rating: 1000 → 1000(+0 for losing)
+|raw|Pyos's rating: 1112 → 1129(+17 for winning)
