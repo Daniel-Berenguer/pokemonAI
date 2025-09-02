@@ -1,0 +1,161 @@
+|j|☆Hard Trique Style
+|j|☆Barri Deagol
+|html|Hard Trique StyleBarri Deagol    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756299758
+|gametype|doubles
+|player|p1|Hard Trique Style|sisandbro|1105
+|player|p2|Barri Deagol|brycenman|1090
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Armarouge, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Maushold-Four, L50|
+|poke|p2|Archaludon, L50, F|
+|teampreview|4
+|showteam|p1|Indeedee-F||RockyHelmet|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Armarouge||PowerHerb|FlashFire|ExpandingForce,ArmorCannon,MeteorBeam,TrickRoom|||F|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HeatWave,Protect|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Substitute,Protect|||F|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Psychic]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,CloseCombat,SleepPowder,AfterYou|||F|||50|,,,,,Ghost
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|||F|||50|,,,,,Ghost]Basculegion||MysticWater|SwiftSwim|Protect,WaveCrash,AquaJet,LastRespects|||M|||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,ClearSmog|||F|||50|,,,,,Water]Maushold-Four||WideLens|Technician|PopulationBomb,FollowMe,Taunt,Protect||||||50|,,,,,Grass]Archaludon||AssaultVest|Stamina|ElectroShot,DragonPulse,FlashCannon,BodyPress|||F|||50|,,,,,Grass
+|
+|t:|1756299809
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Maushold|Maushold-Four, L50|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Hatterene|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1756299844
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Maushold|Taunt|p1a: Indeedee
+|-start|p1a: Indeedee|move: Taunt
+|move|p2a: Incineroar|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|11/100
+|-damage|p2a: Incineroar|84/100|[from] item: Rocky Helmet|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Rocky Helmet|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1b: Hatterene|Trick Room|p1b: Hatterene
+|-fieldstart|move: Trick Room|[of] p1b: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1756299869
+|move|p1b: Hatterene|Dazzling Gleam|p2a: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Incineroar|44/100
+|-damage|p2b: Maushold|37/100
+|-damage|p1b: Hatterene|91/100|[from] item: Life Orb
+|move|p1a: Indeedee|Psychic|p2b: Maushold
+|-damage|p2b: Maushold|0 fnt
+|faint|p2b: Maushold
+|move|p2a: Incineroar|Knock Off|p1b: Hatterene
+|-damage|p1b: Hatterene|36/100
+|-enditem|p1b: Hatterene|Life Orb|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|
+|t:|1756299888
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|3
+|
+|t:|1756299905
+|move|p2b: Pelipper|Protect|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Protect
+|move|p1b: Hatterene|Dazzling Gleam|p2a: Incineroar|[spread] p2a
+|-activate|p2b: Pelipper|move: Protect
+|-damage|p2a: Incineroar|14/100
+|move|p1a: Indeedee|Psychic|p2b: Pelipper
+|-activate|p2b: Pelipper|move: Protect
+|move|p2a: Incineroar|Knock Off|p1b: Hatterene
+|-damage|p1b: Hatterene|2/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756299935
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|move|p1b: Hatterene|Dazzling Gleam|p2a: Basculegion|[spread] p2a,p2b
+|-crit|p2b: Pelipper
+|-damage|p2a: Basculegion|62/100
+|-damage|p2b: Pelipper|3/100
+|move|p1a: Indeedee|Psychic|p2b: Pelipper
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Indeedee|move: Taunt
+|upkeep
+|
+|t:|1756299948
+|switch|p2b: Incineroar|Incineroar, L50, M|14/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Hatterene|atk|1
+|turn|5
+|
+|t:|1756299976
+|move|p1a: Indeedee|Helping Hand|p1b: Hatterene
+|-singleturn|p1b: Hatterene|Helping Hand|[of] p1a: Indeedee
+|move|p2a: Basculegion|Protect|p2a: Basculegion
+|-singleturn|p2a: Basculegion|Protect
+|move|p1b: Hatterene|Dazzling Gleam|p2a: Basculegion|[spread] p2b
+|-activate|p2a: Basculegion|move: Protect
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756300000
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Basculegion|Aqua Jet|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|move|p1b: Hatterene|Trick Room|p1b: Hatterene
+|-fieldstart|move: Trick Room|[of] p1b: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756300015
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|7
+|
+|t:|1756300025
+|-terastallize|p2a: Basculegion|Water
+|move|p2a: Basculegion|Aqua Jet|p1b: Hatterene
+|-damage|p1b: Hatterene|0 fnt
+|faint|p1b: Hatterene
+|move|p1a: Torkoal|Eruption|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|win|Hard Trique Style
+||Hard Trique Style is ready for game 2.
+|inactive|Barri Deagol has 30 seconds to confirm battle start!

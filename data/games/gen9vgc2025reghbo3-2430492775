@@ -1,0 +1,278 @@
+|j|â˜†Invoker Kuzan
+|j|â˜†ProtectPartingShot
+|html|Invoker KuzanProtectPartingShot    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756400634
+|gametype|doubles
+|player|p1|Invoker Kuzan|marnie-masters3|1286
+|player|p2|ProtectPartingShot|iris|1417
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each PokÃ©mon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Clefable, L50, F|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fire]Hatterene||LifeOrb|MagicBounce|ExpandingForce,TrickRoom,DazzlingGleam,Protect|||F|||50|,,,,,Psychic]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,SacredSword,WideGuard|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,SwordsDance,Protect|||M|||50|,,,,,Ghost]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,SleepPowder,CloseCombat,AfterYou|||F|||50|,,,,,Ghost]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire
+|showteam|p2|Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|PartingShot,FlareBlitz,KnockOff,FakeOut|||M|||50|,,,,,Ghost]Sneasler||FocusSash|PoisonTouch|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Stellar]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||F|||50|,,,,,Fairy]Ursaluna-Bloodmoon||AssaultVest|MindsEye|HyperVoice,EarthPower,BloodMoon,VacuumWave|||M|||50|,,,,,Water]Clefable||SitrusBerry|Unaware|FollowMe,Moonblast,ThunderWave,Protect|||F|||50|,,,,,Water
+|
+|t:|1756400644
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Lilligant|Lilligant-Hisui, L50, F, shiny|100/100
+|switch|p1b: Torkoal|Torkoal, L50, M, shiny|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Invoker Kuzan)
+|
+|t:|1756400667
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Lilligant|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|switch|p2a: Dragonite|Dragonite, L50, F|100/100
+|move|p1a: Lilligant|After You|p1b: Torkoal
+|-activate|p1b: Torkoal|move: After You
+|move|p1b: Torkoal|Eruption|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Dragonite
+|-resisted|p2b: Incineroar
+|-damage|p2a: Dragonite|69/100
+|-damage|p2b: Incineroar|57/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756400678
+|switch|p1b: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p1a: Lilligant|Sleep Powder|p2a: Dragonite
+|-status|p2a: Dragonite|slp|[from] move: Sleep Powder
+|cant|p2a: Dragonite|slp
+|move|p2b: Incineroar|Knock Off|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756400693
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|move|p1a: Lilligant|Close Combat|p2b: Gholdengo
+|-immune|p2b: Gholdengo
+|cant|p2a: Dragonite|slp
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756400706
+|switch|p1b: Torkoal|Torkoal, L50, M, shiny|100/100
+|switch|p1a: Ursaluna|Ursaluna, L50, M, shiny|100/100
+|cant|p2a: Dragonite|slp
+|move|p2b: Gholdengo|Shadow Ball|p1a: Ursaluna
+|-immune|p1a: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1756400720
+|-terastallize|p1b: Torkoal|Fire
+|-curestatus|p2a: Dragonite|slp|[msg]
+|move|p2a: Dragonite|Protect|p2a: Dragonite
+|-singleturn|p2a: Dragonite|Protect
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1b: Torkoal|Eruption|p2a: Dragonite|[spread] 
+|-activate|p2a: Dragonite|move: Protect
+|-activate|p2b: Gholdengo|move: Protect
+|move|p1a: Ursaluna|Facade|p2a: Dragonite
+|-activate|p2a: Dragonite|move: Protect
+|
+|-weather|none
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1756400741
+|-terastallize|p2b: Gholdengo|Water
+|move|p1b: Torkoal|Eruption|p2a: Dragonite|[spread] p2a,p2b
+|-resisted|p2a: Dragonite
+|-resisted|p2b: Gholdengo
+|-damage|p2a: Dragonite|14/100
+|-damage|p2b: Gholdengo|49/100
+|move|p1a: Ursaluna|Headlong Rush|p2b: Gholdengo
+|-damage|p2b: Gholdengo|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2b: Gholdengo
+|move|p2a: Dragonite|Scale Shot|p1b: Torkoal
+|-damage|p1b: Torkoal|90/100
+|-damage|p1b: Torkoal|80/100
+|-damage|p1b: Torkoal|69/100
+|-damage|p1b: Torkoal|59/100
+|-hitcount|p1b: Torkoal|4
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-damage|p1a: Ursaluna|89/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756400744
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|turn|7
+|
+|t:|1756400754
+|switch|p1b: Indeedee|Indeedee-F, L50, F, shiny|45/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p2a: Dragonite|Protect|p2a: Dragonite
+|-singleturn|p2a: Dragonite|Protect
+|move|p1a: Ursaluna|Facade|p2a: Dragonite
+|-activate|p2a: Dragonite|move: Protect
+|
+|-damage|p1a: Ursaluna|83/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|l|â˜†ProtectPartingShot
+|inactive|ProtectPartingShot disconnected and has a minute to reconnect!
+|player|p2|
+|
+|t:|1756400765
+|move|p2a: Dragonite|Scale Shot|p1b: Indeedee
+|-damage|p1b: Indeedee|30/100
+|-damage|p1b: Indeedee|16/100
+|-damage|p1b: Indeedee|3/100
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|-hitcount|p1: Indeedee|4
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|move|p2b: Sneasler|Close Combat|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1756400768
+|switch|p1b: Lilligant|Lilligant-Hisui, L50, F, shiny|100/100
+|switch|p1a: Torkoal|Torkoal, L50, M, shiny, tera:Fire|59/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|9
+|j|â˜†ProtectPartingShot
+|inactive|ProtectPartingShot reconnected and has 50 seconds left.
+|player|p2|ProtectPartingShot|iris|
+|
+|t:|1756400784
+|move|p2a: Dragonite|Protect|p2a: Dragonite
+|-singleturn|p2a: Dragonite|Protect
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1b: Lilligant|After You|p1a: Torkoal
+|-activate|p1a: Torkoal|move: After You
+|move|p1a: Torkoal|Eruption|p2b: Sneasler|[spread] 
+|-activate|p2a: Dragonite|move: Protect
+|-activate|p2b: Sneasler|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1756400806
+|move|p1b: Lilligant|Solar Blade||[still]
+|-prepare|p1b: Lilligant|Solar Blade
+|-anim|p1b: Lilligant|Solar Blade|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|move|p2b: Sneasler|Dire Claw|p1b: Lilligant
+|-supereffective|p1b: Lilligant
+|-enditem|p1b: Lilligant|Focus Sash
+|-damage|p1b: Lilligant|1/100
+|move|p1a: Torkoal|Eruption|p2b: Sneasler
+|-enditem|p2b: Sneasler|Focus Sash
+|-damage|p2b: Sneasler|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756400812
+|switch|p2a: Incineroar|Incineroar, L50, M|57/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1b: Lilligant|atk|1
+|turn|11
+|
+|t:|1756400827
+|move|p1b: Lilligant|Close Combat|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-unboost|p1b: Lilligant|def|1
+|-unboost|p1b: Lilligant|spd|1
+|faint|p2a: Incineroar
+|move|p2b: Sneasler|Dire Claw|p1a: Torkoal
+|-damage|p1a: Torkoal|28/100
+|-status|p1a: Torkoal|slp
+|cant|p1a: Torkoal|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|12
+|
+|t:|1756400834
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1b: Lilligant|Close Combat|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Protect
+|cant|p1a: Torkoal|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|13
+|
+|t:|1756400837
+|move|p2b: Sneasler|Protect||[still]
+|-fail|p2b: Sneasler
+|move|p1b: Lilligant|Close Combat|p2b: Sneasler
+|-resisted|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|-unboost|p1b: Lilligant|def|1
+|-unboost|p1b: Lilligant|spd|1
+|faint|p2b: Sneasler
+|
+|win|Invoker Kuzan
+||ProtectPartingShot is ready for game 3.
+||Invoker Kuzan is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|â˜†ProtectPartingShot
+|player|p2|

@@ -1,0 +1,125 @@
+|j|☆colemarcusvgc
+|j|☆Miguedeth
+|html|colemarcusvgcMiguedeth    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756589415
+|gametype|doubles
+|player|p1|colemarcusvgc|n|1120
+|player|p2|Miguedeth|266|1044
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Tyranitar, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||RockyHelmet|PsychicSurge|FollowMe,HelpingHand,TrickRoom,DazzlingGleam|||F|||50|,,,,,Steel]Hatterene||LifeOrb|MagicBounce|TrickRoom,ExpandingForce,MysticalFire,DazzlingGleam|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,SludgeBomb|||M|||50|,,,,,Water]Porygon2||Eviolite|Download|IceBeam,TeraBlast,Recover,TrickRoom||||||50|,,,,,Grass]Tyranitar||SafetyGoggles|SandStream|RockSlide,Crunch,LowKick,IcePunch|||M|||50|,,,,,Fairy
+|showteam|p2|Volcarona||CovertCloak|FlameBody|QuiverDance,TeraBlast,HeatWave,Protect|||F|||50|,,,,,Fairy]Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,PowerGem,Thunderbolt,ShadowBall||||||50|,,,,,Steel]Dragonite||LoadedDice|Multiscale|Tailwind,ExtremeSpeed,ScaleShot,Haze|||F|||50|,,,,,Fairy]Incineroar||MirrorHerb|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Sneasler||FocusSash|Unburden|DireClaw,CloseCombat,FakeOut,Coaching|||F|||50|,,,,,Stellar]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,TeraBlast,FlipTurn|||M|||50|,,,,,Water
+|
+|t:|1756589443
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Hatterene|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1756589479
+|move|p2b: Sneasler|Dire Claw|p1b: Hatterene
+|-supereffective|p1b: Hatterene
+|-damage|p1b: Hatterene|1/100
+|move|p2a: Incineroar|Knock Off|p1b: Hatterene
+|-damage|p1b: Hatterene|0 fnt
+|-enditem|p1b: Hatterene|Life Orb|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1b: Hatterene
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|
+|t:|1756589488
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|2
+|
+|t:|1756589507
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-terastallize|p1b: Ursaluna|Ghost
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2a: Incineroar|Knock Off|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|85/100
+|-enditem|p1a: Tyranitar|Safety Goggles|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p2b: Sneasler|Coaching|p2a: Incineroar
+|-boost|p2a: Incineroar|atk|1
+|-boost|p2a: Incineroar|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Ursaluna|95/100|[from] Sandstorm
+|-damage|p2a: Incineroar|94/100|[from] Sandstorm
+|-damage|p2b: Sneasler|95/100|[from] Sandstorm
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1756589535
+|-terastallize|p2a: Incineroar|Ghost
+|move|p1b: Ursaluna|Facade|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|move|p1a: Tyranitar|Rock Slide|p2a: Incineroar
+|-damage|p2a: Incineroar|67/100
+|cant|p2a: Incineroar|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Ursaluna|89/100 brn|[from] Sandstorm
+|-damage|p2a: Incineroar|61/100|[from] Sandstorm
+|-damage|p1b: Ursaluna|83/100 brn|[from] brn
+|upkeep
+|
+|t:|1756589548
+|switch|p2b: Volcarona|Volcarona, L50, F, shiny|100/100
+|turn|4
+|
+|t:|1756589563
+|move|p1b: Ursaluna|Headlong Rush|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|faint|p2a: Incineroar
+|move|p1a: Tyranitar|Rock Slide|p2b: Volcarona
+|-supereffective|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|faint|p2b: Volcarona
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Ursaluna|77/100 brn|[from] Sandstorm
+|-damage|p1b: Ursaluna|71/100 brn|[from] brn
+|upkeep
+|-message|Miguedeth forfeited.
+|
+|win|colemarcusvgc
+|raw|colemarcusvgc's rating: 1120 → 1140(+20 for winning)
+|raw|Miguedeth's rating: 1044 → 1031(-13 for losing)
+|l|☆Miguedeth
+|player|p2|
+|c|☆colemarcusvgc|GG!

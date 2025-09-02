@@ -1,0 +1,169 @@
+|j|ŌśåPopfor
+|j|ŌśåTISS 0'28
+|html|PopforTISS 0'28    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756640094
+|gametype|doubles
+|player|p1|Popfor|170|1115
+|player|p2|TISS 0'28|hilbert|1064
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pok├®mon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Exeggutor, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Zoroark-Hisui, L50, F|
+|poke|p2|Baxcalibur, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Arcanine-Hisui, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Altaria, L50, F|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Protect,Facade,Earthquake,HeadlongRush|||F|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,Psychic,FollowMe,HelpingHand|||F|||50|,,,,,Grass]Exeggutor||FocusSash|Chlorophyll|TrickRoom,ExpandingForce,EnergyBall,SleepPowder|||F|||50|,,,,,Psychic]Torkoal||Charcoal|Drought|Eruption,ClearSmog,Protect,WeatherBall|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,WideGuard,SacredSword|||M|||50|,,,,,Fire]Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,Flamethrower,ShadowBall,TeraBlast|||F|||50|,,,,,Stellar
+|showteam|p2|Baxcalibur||LoadedDice|ThermalExchange|Protect,SwordsDance,ScaleShot,IcicleSpear|||F|||50|,,,,,Poison]Ursaluna-Bloodmoon||LifeOrb|MindsEye|Protect,EarthPower,HyperVoice,BloodMoon|||M|||50|,,,,,Normal]Farigiraf||ThroatSpray|ArmorTail|Protect,TrickRoom,HyperVoice,Psychic|||F|||50|,,,,,Grass]Arcanine-Hisui||ChoiceBand|Intimidate|FlareBlitz,RockSlide,ExtremeSpeed,WildCharge|||M|||50|,,,,,Grass]Whimsicott||CovertCloak|Prankster|Tailwind,MistyTerrain,Moonblast,Encore|||M|||50|,,,,,Dark]Altaria||SitrusBerry|CloudNine|Protect,Haze,Thief,HelpingHand|||F|||50|,,,,,Steel
+|
+|t:|1756640122
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Exeggutor|Exeggutor, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756640155
+|move|p2a: Whimsicott|Misty Terrain|p2a: Whimsicott
+|-fieldstart|move: Misty Terrain
+|move|p2b: Ursaluna|Hyper Voice|p1a: Exeggutor|[spread] p1a,p1b
+|-damage|p1a: Exeggutor|41/100
+|-damage|p1b: Indeedee|72/100
+|-damage|p2b: Ursaluna|91/100|[from] item: Life Orb
+|move|p1a: Exeggutor|Trick Room|p1a: Exeggutor
+|-fieldstart|move: Trick Room|[of] p1a: Exeggutor
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldend|move: Trick Room
+|
+|upkeep
+|turn|2
+|c|ŌśåPopfor|omg hahahah
+|
+|t:|1756640195
+|move|p2a: Whimsicott|Encore|p1b: Indeedee
+|-start|p1b: Indeedee|Encore
+|move|p1a: Exeggutor|Sleep Powder|p2b: Ursaluna|[miss]
+|-miss|p1a: Exeggutor|p2b: Ursaluna
+|move|p2b: Ursaluna|Hyper Voice|p1a: Exeggutor|[spread] p1a,p1b
+|-damage|p1a: Exeggutor|0 fnt
+|-damage|p1b: Indeedee|40/100
+|faint|p1a: Exeggutor
+|-damage|p2b: Ursaluna|81/100|[from] item: Life Orb
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|upkeep
+|
+|t:|1756640204
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|3
+|
+|t:|1756640220
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Altaria|Altaria, L50, F|100/100
+|-ability|p2a: Altaria|Cloud Nine
+|-terastallize|p1a: Torkoal|Fire
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1a: Torkoal|Eruption|p2a: Altaria|[spread] p2a
+|-activate|p2b: Ursaluna|move: Protect
+|-resisted|p2a: Altaria
+|-damage|p2a: Altaria|69/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|c|ŌśåTISS 0'28|Popfor withdrew Indeedee!
+|c|ŌśåTISS 0'28|Popfor sent out Indeedee (Indeedee-F)!
+|c|ŌśåTISS 0'28|What??!!
+|c|ŌśåTISS 0'28|I remember when Ash did his in the anime
+|c|ŌśåPopfor|i trolled this one
+|c|ŌśåPopfor|might lose
+|c|ŌśåPopfor|the double trickroom was stoopid
+|
+|t:|1756640320
+|switch|p2b: Arcanine|Arcanine-Hisui, L50, M|100/100
+|-ability|p2b: Arcanine|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|switch|p1b: Indeedee|Indeedee-F, L50, F|40/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2a: Altaria|Thief|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|21/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|c|ŌśåTISS 0'28|How did you do that?
+|
+|t:|1756640357
+|move|p2a: Altaria|Helping Hand|p2b: Arcanine
+|-singleturn|p2b: Arcanine|Helping Hand|[of] p2a: Altaria
+|move|p1a: Torkoal|Eruption|p2b: Arcanine|[spread] p2a,p2b
+|-resisted|p2a: Altaria
+|-crit|p2a: Altaria
+|-resisted|p2b: Arcanine
+|-crit|p2b: Arcanine
+|-damage|p2a: Altaria|22/100
+|-damage|p2b: Arcanine|65/100
+|-enditem|p2a: Altaria|Sitrus Berry|[eat]
+|-heal|p2a: Altaria|47/100|[from] item: Sitrus Berry
+|move|p1b: Indeedee|Psychic|p2a: Altaria
+|-damage|p2a: Altaria|14/100
+|move|p2b: Arcanine|Rock Slide|p1b: Indeedee|[spread] p1a,p1b
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1a: Torkoal
+|faint|p1b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|ŌśåPopfor|what ?
+|
+|t:|1756640369
+|switch|p1b: Zoroark|Zoroark-Hisui, L50, F|100/100
+|turn|6
+|c|ŌśåTISS 0'28|Wait a sec
+|c|ŌśåTISS 0'28|Ohh
+|c|ŌśåPopfor|bro...
+|c|ŌśåTISS 0'28|I forgot that you had that
+|
+|t:|1756640398
+|move|p2a: Altaria|Thief|p1b: Zoroark
+|-supereffective|p1b: Zoroark
+|-damage|p1b: Zoroark|55/100
+|-enditem|p1b: Zoroark|Choice Specs|[silent]|[from] move: Thief|[of] p2a: Altaria
+|-item|p2a: Altaria|Choice Specs|[from] move: Thief|[of] p1b: Zoroark
+|move|p2b: Arcanine|Rock Slide|p1b: Zoroark
+|-damage|p1b: Zoroark|0 fnt
+|faint|p1b: Zoroark
+|
+|win|TISS 0'28
+|raw|Popfor's rating: 1115 → 1086(-29 for losing)
+|raw|TISS 0'28's rating: 1064 → 1099(+35 for winning)
+|c|ŌśåPopfor|i think i win if i dont troll trickroom
+|c|ŌśåTISS 0'28|gg
+|c|ŌśåPopfor|gg

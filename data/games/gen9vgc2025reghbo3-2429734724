@@ -1,0 +1,98 @@
+|j|☆archebol
+|j|☆bosilek
+|html|archebolbosilek    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756307935
+|gametype|doubles
+|player|p1|archebol|265|1097
+|player|p2|bosilek|hilbert-wonderlauncher|1147
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Talonflame, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Hydreigon, L50, F|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|showteam|p1|Rillaboom||MiracleSeed|GrassySurge|WoodHammer,FakeOut,GrassyGlide,Protect|||M|||50|,,,,,Fire]Ninetales-Alola||LightClay|SnowWarning|IcicleSpear,Blizzard,AuroraVeil,IcyWind|||M|||50|,,,,,Ghost]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,Trick,NastyPlot||||||50|,,,,,Steel]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Protect,Encore|||M|||50|,,,,,Normal]Dondozo||Leftovers|Unaware|Yawn,WaveCrash,Protect,Earthquake|||M|||50|,,,,,Ground]Annihilape||SafetyGoggles|Defiant|DrainPunch,RageFist,Protect,BulkUp|||M|||50|,,,,,Fire
+|showteam|p2|Garchomp||LifeOrb|RoughSkin|Protect,Earthquake,DragonClaw,StompingTantrum|||M|||50|,,,,,Steel]Talonflame||CovertCloak|GaleWings|BraveBird,Taunt,WillOWisp,Tailwind|||F|||50|,,,,,Grass]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,Protect,NastyPlot||||||50|,,,,,Water]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,FreezeDry,Encore,Protect|||M|||50|,,,,,Water]Hydreigon||ChoiceSpecs|Levitate|HeatWave,Snarl,EarthPower,DragonPulse|||F|||50|,,,,,Fire]Annihilape||SafetyGoggles|Defiant|FinalGambit,RageFist,CloseCombat,Protect|||M|||50|,,,,,Fire
+|
+|t:|1756307983
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, L50, M|100/100
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|switch|p2a: Hydreigon|Hydreigon, L50, F|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1756308016
+|-terastallize|p2a: Hydreigon|Fire
+|move|p1a: Ninetales|Icicle Spear|p1b: Annihilape
+|-damage|p1b: Annihilape|95/100
+|-damage|p1b: Annihilape|89/100
+|-damage|p1b: Annihilape|83/100
+|-hitcount|p1b: Annihilape|3
+|move|p2a: Hydreigon|Heat Wave|p1b: Annihilape|[spread] p1a,p1b
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-damage|p1b: Annihilape|42/100
+|faint|p1a: Ninetales
+|move|p2b: Gholdengo|Shadow Ball|p1b: Annihilape
+|-supereffective|p1b: Annihilape
+|-damage|p1b: Annihilape|0 fnt
+|faint|p1b: Annihilape
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1756308034
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|2
+|
+|t:|1756308046
+|switch|p2a: Ninetales|Ninetales-Alola, L50, M|100/100
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p1b: Dragonite|Scale Shot|p2a: Ninetales
+|-immune|p2a: Ninetales
+|move|p1a: Rillaboom|Wood Hammer|p2b: Gholdengo
+|-resisted|p2b: Gholdengo
+|-damage|p2b: Gholdengo|42/100
+|-damage|p1a: Rillaboom|85/100|[from] Recoil
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Gholdengo|48/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|90/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756308073
+|move|p2a: Ninetales|Blizzard|p1a: Rillaboom|[spread] p1a,p1b
+|-supereffective|p1a: Rillaboom
+|-supereffective|p1b: Dragonite
+|-damage|p1a: Rillaboom|23/100
+|-damage|p1b: Dragonite|29/100
+|move|p2b: Gholdengo|Make It Rain|p1b: Dragonite|[spread] p1a,p1b
+|-damage|p1a: Rillaboom|0 fnt
+|-damage|p1b: Dragonite|0 fnt
+|-unboost|p2b: Gholdengo|spa|1
+|faint|p1a: Rillaboom
+|faint|p1b: Dragonite
+|
+|win|bosilek

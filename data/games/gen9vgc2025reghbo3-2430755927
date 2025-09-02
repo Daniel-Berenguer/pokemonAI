@@ -1,0 +1,165 @@
+|j|☆DJ_Arcigno
+|j|☆BonnieSSR
+|html|DJ_ArcignoBonnieSSR    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756428207
+|gametype|doubles
+|player|p1|DJ_Arcigno|266|1229
+|player|p2|BonnieSSR|miku-ground|1130
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Kilowattrel, L50, F|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Kommo-o, L50, F|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|IceBeam,TeraBlast,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|Protect,Facade,HeadlongRush,Earthquake|||M|||50|,,,,,Ghost
+|showteam|p2|Tyranitar||AssaultVest|SandStream|LowKick,RockSlide,KnockOff,TeraBlast|||F|||50|,,,,,Flying]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,SludgeBomb,Protect|||M|||50|,,,,,Water]Kilowattrel||ChoiceSpecs|Competitive|Thunderbolt,Discharge,VoltSwitch,AirSlash|||F|||50|,,,,,Ghost]Excadrill||FocusSash|SandRush|IronHead,Earthquake,HighHorsepower,Protect|||F|||50|,,,,,Ground]Kommo-o||Leftovers|Overcoat|IronDefense,BodyPress,ThroatChop,Protect|||F|||50|,,,,,Steel]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Ghost
+|
+|t:|1756428259
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jumpluff|Jumpluff, L50, F|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2a: Prim|Kilowattrel, L50, F|100/100
+|switch|p2b: Wolfey|Incineroar, L50, M, shiny|100/100
+|-ability|p2b: Wolfey|Intimidate|boost
+|-unboost|p1a: Jumpluff|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|turn|1
+|
+|t:|1756428280
+|switch|p1b: Porygon2|Porygon2, L50|100/100
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|atk|1
+|move|p2b: Wolfey|Fake Out|p1b: Porygon2
+|-damage|p1b: Porygon2|92/100
+|move|p2a: Prim|Air Slash|p1a: Jumpluff
+|-supereffective|p1a: Jumpluff
+|-damage|p1a: Jumpluff|5/100
+|move|p1a: Jumpluff|Sleep Powder|p2a: Prim
+|-status|p2a: Prim|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|2
+|
+|t:|1756428298
+|-terastallize|p1b: Porygon2|Fighting
+|cant|p2a: Prim|slp
+|move|p1a: Jumpluff|Tailwind|p1a: Jumpluff
+|-sidestart|p1: DJ_Arcigno|move: Tailwind
+|move|p1b: Porygon2|Tera Blast|p2b: Wolfey|[anim] Tera Blast Fighting
+|-supereffective|p2b: Wolfey
+|-damage|p2b: Wolfey|31/100
+|move|p2b: Wolfey|Knock Off|p1b: Porygon2
+|-resisted|p1b: Porygon2
+|-damage|p1b: Porygon2|77/100
+|-enditem|p1b: Porygon2|Eviolite|[from] move: Knock Off|[of] p2b: Wolfey
+|
+|upkeep
+|turn|3
+|
+|t:|1756428339
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|cant|p2a: Prim|slp
+|move|p1b: Porygon2|Tera Blast|p2b: Wolfey|[anim] Tera Blast Fighting
+|-supereffective|p2b: Wolfey
+|-damage|p2b: Wolfey|0 fnt
+|faint|p2b: Wolfey
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756428351
+|switch|p2b: Arturia|Kommo-o, L50, F, shiny|100/100
+|turn|4
+|
+|t:|1756428362
+|-terastallize|p2a: Prim|Ghost
+|cant|p2a: Prim|slp
+|move|p1a: Ursaluna|Facade|p2a: Prim
+|-immune|p2a: Prim
+|move|p1b: Porygon2|Ice Beam|p2b: Arturia
+|-supereffective|p2b: Arturia
+|-damage|p2b: Arturia|51/100
+|-status|p2b: Arturia|frz
+|cant|p2b: Arturia|frz
+|
+|-heal|p2b: Arturia|57/100 frz|[from] item: Leftovers
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1756428377
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|cant|p2b: Arturia|frz
+|-curestatus|p2a: Prim|slp|[msg]
+|move|p2a: Prim|Air Slash|p1b: Porygon2
+|-supereffective|p1b: Porygon2
+|-damage|p1b: Porygon2|0 fnt
+|faint|p1b: Porygon2
+|
+|-heal|p2b: Arturia|63/100 frz|[from] item: Leftovers
+|-damage|p1a: Ursaluna|89/100 brn|[from] brn
+|-sideend|p1: DJ_Arcigno|move: Tailwind
+|upkeep
+|
+|t:|1756428381
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|6
+|
+|t:|1756428397
+|move|p2a: Prim|Air Slash|p1b: Torkoal
+|-damage|p1b: Torkoal|38/100
+|cant|p2b: Arturia|frz
+|move|p1a: Ursaluna|Facade|p2b: Arturia
+|-damage|p2b: Arturia|0 fnt
+|faint|p2b: Arturia
+|move|p1b: Torkoal|Overheat|p2a: Prim
+|-crit|p2a: Prim
+|-damage|p2a: Prim|0 fnt
+|-unboost|p1b: Torkoal|spa|2
+|faint|p2a: Prim
+|-enditem|p1b: Torkoal|Eject Pack
+|
+|t:|1756428401
+|switch|p1b: Jumpluff|Jumpluff, L50, F|5/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|83/100 brn|[from] brn
+|upkeep
+|
+|t:|1756428408
+|switch|p2b: Ouroboros|Tyranitar, L50, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Ouroboros
+|turn|7
+|
+|t:|1756428420
+|move|p1b: Jumpluff|Tailwind|p1b: Jumpluff
+|-sidestart|p1: DJ_Arcigno|move: Tailwind
+|move|p1a: Ursaluna|Headlong Rush|p2b: Ouroboros
+|-supereffective|p2b: Ouroboros
+|-damage|p2b: Ouroboros|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2b: Ouroboros
+|
+|win|DJ_Arcigno
+||DJ_Arcigno is ready for game 2.
+||BonnieSSR is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

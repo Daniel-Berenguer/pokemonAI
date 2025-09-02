@@ -1,0 +1,151 @@
+|j|☆dr_sugus_vgc
+|j|☆Homero tg
+|html|dr_sugus_vgcHomero tg    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756389647
+|gametype|doubles
+|player|p1|dr_sugus_vgc|265|1173
+|player|p2|Homero tg|102|1083
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Politoed, L50, M|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Porygon2, L50|
+|teampreview|4
+|showteam|p1|Politoed||Leftovers|Drizzle|Protect,WeatherBall,PerishSong,Encore|||M|||50|,,,,,Grass]Gothitelle||SitrusBerry|ShadowTag|Protect,Psychic,FakeOut,TrickRoom|||M|||50|,,,,,Dark]Incineroar||SafetyGoggles|Intimidate|Protect,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Amoonguss||EjectButton|Regenerator|Protect,RagePowder,PollenPuff,Spore|||F|||50|,,,,,Fairy]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,PhantomForce,Disable|||F|||50|,,,,,Dragon]Kingambit||BlackGlasses|Defiant|SwordsDance,KowtowCleave,SuckerPunch,Protect|||M|||50|,,,,,Dark
+|showteam|p2|Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,Tailwind,RagePowder|||F|||50|,,,,,Fire]Charizard||ChoiceSpecs|SolarPower|DragonPulse,HeatWave,Overheat,WeatherBall|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|ClearSmog,Eruption,Overheat,Protect|||F|||50|,,,,,Fire]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting
+|
+|t:|1756389695
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|switch|p2b: Jumpluff|Jumpluff, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Jumpluff|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-enditem|p2a: Torkoal|Eject Pack
+|
+|t:|1756389709
+|switch|p2a: Charizard|Charizard, L50, F|100/100
+|turn|1
+|
+|t:|1756389725
+|switch|p1a: Politoed|Politoed, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|switch|p1b: Gothitelle|Gothitelle, L50, M|100/100
+|-terastallize|p2a: Charizard|Ghost
+|move|p2b: Jumpluff|Sunny Day|p2b: Jumpluff
+|-weather|SunnyDay
+|move|p2a: Charizard|Heat Wave|p1a: Politoed|[spread] p1a,p1b
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|56/100
+|-damage|p1b: Gothitelle|23/100
+|-enditem|p1b: Gothitelle|Sitrus Berry|[eat]
+|-heal|p1b: Gothitelle|47/100|[from] item: Sitrus Berry
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] ability: Solar Power|[of] p2a: Charizard
+|-heal|p1a: Politoed|62/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1756389784
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Charizard|atk|1
+|-unboost|p2b: Jumpluff|atk|1
+|move|p1b: Gothitelle|Fake Out|p2a: Charizard
+|-immune|p2a: Charizard
+|move|p2b: Jumpluff|Tailwind|p2b: Jumpluff
+|-sidestart|p2: Homero tg|move: Tailwind
+|move|p2a: Charizard|Heat Wave|p1a: Incineroar|[spread] p1a
+|-miss|p2a: Charizard|p1b: Gothitelle
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|63/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|76/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|3
+|
+|t:|1756389807
+|move|p1b: Gothitelle|Protect|p1b: Gothitelle
+|-singleturn|p1b: Gothitelle|Protect
+|move|p2b: Jumpluff|Sleep Powder|p1b: Gothitelle
+|-activate|p1b: Gothitelle|move: Protect
+|move|p2a: Charizard|Heat Wave|p1b: Gothitelle|[spread] 
+|-activate|p1b: Gothitelle|move: Protect
+|-miss|p2a: Charizard|p1a: Incineroar
+|move|p1a: Incineroar|Knock Off|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|-enditem|p2a: Charizard|Choice Specs|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756389812
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|turn|4
+|
+|t:|1756389844
+|move|p2b: Jumpluff|Sleep Powder|p1b: Gothitelle
+|-status|p1b: Gothitelle|slp|[from] move: Sleep Powder
+|move|p2a: Ursaluna|Earthquake|p1a: Incineroar|[spread] p1a,p1b
+|-immune|p2b: Jumpluff
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Gothitelle|10/100 slp
+|faint|p1a: Incineroar
+|cant|p1b: Gothitelle|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756389858
+|switch|p1a: Politoed|Politoed, L50, M|62/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|5
+|
+|t:|1756389870
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|move|p2b: Jumpluff|Sunny Day|p2b: Jumpluff
+|-weather|SunnyDay
+|move|p2a: Ursaluna|Earthquake|p1a: Politoed|[spread] p1a,p1b
+|-immune|p2b: Jumpluff
+|-supereffective|p1b: Kingambit
+|-damage|p1a: Politoed|0 fnt
+|-damage|p1b: Kingambit|5/100
+|faint|p1a: Politoed
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|95/100 brn|[from] brn
+|-sideend|p2: Homero tg|move: Tailwind
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Homero tg)
+|-message|dr_sugus_vgc forfeited.
+|
+|win|Homero tg
+|raw|dr_sugus_vgc's rating: 1173 → 1142(-31 for losing)
+|raw|Homero tg's rating: 1083 → 1118(+35 for winning)
+|l|☆dr_sugus_vgc
+|player|p1|

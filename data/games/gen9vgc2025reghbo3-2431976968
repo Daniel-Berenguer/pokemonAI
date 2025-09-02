@@ -1,0 +1,241 @@
+|j|☆Elipick
+|j|☆IceFlames
+|html|ElipickIceFlames    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756592712
+|gametype|doubles
+|player|p1|Elipick|cynthia-gen4|1033
+|player|p2|IceFlames|blackbelt-gen1|1079
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Magmar, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Poliwrath, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|showteam|p1|Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,IceSpinner,ExtremeSpeed|||F|||50|,,,,,Normal]Annihilape||SitrusBerry|Defiant|RageFist,BulkUp,CloseCombat,Protect|||M|||50|,,,,,Water]Ninetales-Alola||WeaknessPolicy|SnowWarning|AuroraVeil,DazzlingGleam,Protect,Blizzard|||M|||50|,,,,,Fire]Magmar||Eviolite|VitalSpirit|FollowMe,Protect,WillOWisp,HeatWave|||M|||50|,,,,,Water]Whimsicott||FocusSash|Prankster|Tailwind,Moonblast,FakeTears,Taunt|||F|||50|,,,,,Ghost]Kingambit||CovertCloak|Defiant|KowtowCleave,SuckerPunch,IronHead,SwordsDance|||M|||50|,,,,,Dark
+|showteam|p2|Poliwrath||LifeOrb|SwiftSwim|CloseCombat,Liquidation,Haze,Protect|||F|||50|,,,,,Stellar]Gholdengo||Leftovers|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,FlashCannon,DragonPulse|||F|||50|,,,,,Bug]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|||M|||50|,,,,,Ground]Amoonguss||CovertCloak|Regenerator|Spore,PollenPuff,RagePowder,Protect|||M|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,Taunt,PartingShot|||F|||50|,,,,,Ghost
+|
+|t:|1756592781
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100
+|switch|p2a: Archaludon|Archaludon, L50, F|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|turn|1
+|
+|t:|1756592809
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p1a: Whimsicott|Fake Tears|p2a: Archaludon
+|-unboost|p2a: Archaludon|spd|2
+|move|p1b: Ninetales|Blizzard|p2b: Pelipper|[spread] p2a,p2b
+|-damage|p2a: Archaludon|55/100
+|-damage|p2b: Pelipper|40/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2a: Archaludon|Flash Cannon|p1b: Ninetales
+|-supereffective|p1b: Ninetales
+|-damage|p1b: Ninetales|0 fnt
+|faint|p1b: Ninetales
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756592827
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|turn|2
+|
+|t:|1756592848
+|switch|p2a: Amoonguss|Amoonguss, L50, M|100/100
+|move|p1b: Kingambit|Sucker Punch||[still]
+|-fail|p1b: Kingambit
+|move|p1a: Whimsicott|Moonblast|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|87/100
+|move|p2b: Pelipper|Tailwind|p2b: Pelipper
+|-sidestart|p2: IceFlames|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756592877
+|move|p1a: Whimsicott|Taunt|p2a: Amoonguss
+|-start|p2a: Amoonguss|move: Taunt
+|move|p1b: Kingambit|Sucker Punch|p2b: Pelipper
+|-crit|p2b: Pelipper
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|cant|p2a: Amoonguss|move: Taunt|Spore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756592883
+|switch|p2b: Archaludon|Archaludon, L50, F|55/100
+|turn|4
+|
+|t:|1756592903
+|-terastallize|p1b: Kingambit|Dark
+|move|p2b: Archaludon|Body Press|p1b: Kingambit
+|-supereffective|p1b: Kingambit
+|-crit|p1b: Kingambit
+|-damage|p1b: Kingambit|51/100
+|move|p1a: Whimsicott|Moonblast|p2b: Archaludon
+|-damage|p2b: Archaludon|32/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2a: Amoonguss|Pollen Puff|p2b: Archaludon
+|-heal|p2b: Archaludon|82/100
+|move|p1b: Kingambit|Kowtow Cleave|p2b: Archaludon
+|-damage|p2b: Archaludon|49/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1756592943
+|move|p1b: Kingambit|Sucker Punch|p2b: Archaludon
+|-damage|p2b: Archaludon|28/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2b: Archaludon|Body Press|p1b: Kingambit
+|-supereffective|p1b: Kingambit
+|-damage|p1b: Kingambit|0 fnt
+|faint|p1b: Kingambit
+|move|p1a: Whimsicott|Moonblast|p2b: Archaludon
+|-damage|p2b: Archaludon|4/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2a: Amoonguss|Pollen Puff|p2b: Archaludon
+|-heal|p2b: Archaludon|54/100
+|
+|-weather|none
+|-end|p2a: Amoonguss|move: Taunt
+|-sideend|p2: IceFlames|move: Tailwind
+|upkeep
+|
+|t:|1756592962
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|turn|6
+|
+|t:|1756592991
+|-terastallize|p2b: Archaludon|Bug
+|move|p1a: Whimsicott|Fake Tears|p2a: Amoonguss
+|-unboost|p2a: Amoonguss|spd|2
+|move|p2b: Archaludon|Flash Cannon|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-enditem|p1a: Whimsicott|Focus Sash
+|-damage|p1a: Whimsicott|1/100
+|move|p1b: Annihilape|Bulk Up|p1b: Annihilape
+|-boost|p1b: Annihilape|atk|1
+|-boost|p1b: Annihilape|def|1
+|move|p2a: Amoonguss|Spore|p1b: Annihilape
+|-status|p1b: Annihilape|slp|[from] move: Spore
+|
+|upkeep
+|turn|7
+|
+|t:|1756593015
+|move|p1a: Whimsicott|Taunt|p2a: Amoonguss
+|-start|p2a: Amoonguss|move: Taunt
+|move|p2b: Archaludon|Flash Cannon|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|cant|p1b: Annihilape|slp
+|move|p2a: Amoonguss|Pollen Puff|p2b: Archaludon
+|-heal|p2b: Archaludon|100/100
+|
+|upkeep
+|turn|8
+|
+|t:|1756593030
+|switch|p2a: Poliwrath|Poliwrath, L50, F, shiny|100/100
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-curestatus|p1b: Annihilape|slp|[msg]
+|move|p1b: Annihilape|Bulk Up|p1b: Annihilape
+|-boost|p1b: Annihilape|atk|1
+|-boost|p1b: Annihilape|def|1
+|
+|upkeep
+|turn|9
+|
+|t:|1756593045
+|move|p2a: Poliwrath|Haze|p2a: Poliwrath
+|-clearallboost
+|move|p2b: Archaludon|Electro Shot|p1b: Annihilape|[from] lockedmove
+|-damage|p1b: Annihilape|65/100
+|move|p1b: Annihilape|Rage Fist|p2b: Archaludon
+|-damage|p2b: Archaludon|59/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|
+|upkeep
+|turn|10
+|
+|t:|1756593060
+|move|p2a: Poliwrath|Liquidation|p1b: Annihilape
+|-damage|p1b: Annihilape|15/100
+|-unboost|p1b: Annihilape|def|1
+|-ability|p1b: Annihilape|Defiant|boost
+|-boost|p1b: Annihilape|atk|2
+|-enditem|p1b: Annihilape|Sitrus Berry|[eat]
+|-heal|p1b: Annihilape|40/100|[from] item: Sitrus Berry
+|-damage|p2a: Poliwrath|91/100|[from] item: Life Orb
+|move|p2b: Archaludon|Dragon Pulse|p1b: Annihilape
+|-damage|p1b: Annihilape|5/100
+|move|p1b: Annihilape|Rage Fist|p2b: Archaludon
+|-damage|p2b: Archaludon|0 fnt
+|faint|p2b: Archaludon
+|
+|upkeep
+|
+|t:|1756593074
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|turn|11
+|
+|t:|1756593082
+|move|p1b: Annihilape|Protect|p1b: Annihilape
+|-singleturn|p1b: Annihilape|Protect
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Poliwrath|Liquidation|p1b: Annihilape
+|-activate|p1b: Annihilape|move: Protect
+|
+|upkeep
+|turn|12
+|
+|t:|1756593093
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Poliwrath|Liquidation|p1b: Annihilape
+|-damage|p1b: Annihilape|0 fnt
+|faint|p1b: Annihilape
+|-damage|p2a: Poliwrath|81/100|[from] item: Life Orb
+|
+|win|IceFlames
+||IceFlames is ready for game 2.
+|inactive|Elipick has 30 seconds to confirm battle start!
+||Elipick is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

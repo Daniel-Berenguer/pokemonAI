@@ -1,0 +1,212 @@
+|j|☆pinkey569
+|j|☆KIME09122
+|html|pinkey569KIME09122    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756598714
+|gametype|doubles
+|player|p1|pinkey569|102|1030
+|player|p2|KIME09122|101|1006
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Kilowattrel, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Politoed, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Ludicolo, L50, F|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Dragonite||LoadedDice|Multiscale|Protect,ThunderWave,Roar,ScaleShot|||M|||50|,,,,,Fairy]Excadrill||LifeOrb|SandRush|Protect,Earthquake,IronHead,TeraBlast|||M|||50|,,,,,Fairy]Volcarona||SitrusBerry|FlameBody|Tailwind,RagePowder,Overheat,StruggleBug|||M|||50|,,,,,Grass]Kilowattrel||ChoiceSpecs|Competitive|Thunderbolt,Discharge,AirSlash,WeatherBall|||M|||50|,,,,,Ghost]Indeedee||FocusSash|PsychicSurge|TrickRoom,HelpingHand,ExpandingForce,TeraBlast|||M|||50|,,,,,Psychic
+|showteam|p2|Gothitelle||SitrusBerry|ShadowTag|FakeOut,Protect,ExpandingForce,TrickRoom|||F|||50|,,,,,Psychic]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Protect|||F|||50|,,,,,Fire]Amoonguss||EjectButton|Regenerator|Protect,RagePowder,Spore,SludgeBomb|||F|||50|,,,,,Poison]Politoed||CovertCloak|Drizzle|Encore,PerishSong,WeatherBall,Protect|||F|||50|,,,,,Water]Archaludon||RockyHelmet|Stamina|ElectroShot,IronDefense,BodyPress,FoulPlay|||M|||50|,,,,,Steel]Ludicolo||KingsRock|SwiftSwim|FakeOut,WeatherBall,EnergyBall,Fling|||F|||50|,,,,,Water
+|
+|t:|1756598785
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kilowattrel|Kilowattrel, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Politoed|Politoed, L50, F|100/100
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|t:|1756598820
+|switch|p1a: Excadrill|Excadrill, L50, M|100/100
+|switch|p1b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|-unboost|p1b: Tyranitar|atk|1
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756598871
+|-terastallize|p1b: Tyranitar|Flying
+|move|p2a: Incineroar|Fake Out|p1b: Tyranitar
+|-hint|Psychic Terrain doesn't affect Pokémon immune to Ground.
+|-crit|p1b: Tyranitar
+|-damage|p1b: Tyranitar|87/100
+|move|p1a: Excadrill|Earthquake|p2b: Archaludon|[spread] p2a,p2b
+|-immune|p1b: Tyranitar
+|-supereffective|p2a: Incineroar
+|-supereffective|p2b: Archaludon
+|-damage|p2a: Incineroar|27/100
+|-damage|p2b: Archaludon|49/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|-damage|p1a: Excadrill|91/100|[from] item: Life Orb
+|move|p2b: Archaludon|Electro Shot|p1a: Excadrill|[from] lockedmove
+|-immune|p1a: Excadrill
+|cant|p1b: Tyranitar|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Tyranitar|82/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1756598889
+|switch|p2a: Politoed|Politoed, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Excadrill|Earthquake|p2a: Politoed|[spread] p2a,p2b
+|-immune|p1b: Tyranitar
+|-supereffective|p2b: Archaludon
+|-damage|p2a: Politoed|55/100
+|-damage|p2b: Archaludon|8/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|-damage|p1a: Excadrill|81/100|[from] item: Life Orb
+|move|p2b: Archaludon|Body Press|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|move|p1b: Tyranitar|Low Kick|p2b: Archaludon
+|-supereffective|p2b: Archaludon
+|-damage|p2b: Archaludon|0 fnt
+|-damage|p1b: Tyranitar|65/100|[from] item: Rocky Helmet|[of] p2b: Archaludon
+|faint|p2b: Archaludon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756598896
+|switch|p1a: Kilowattrel|Kilowattrel, L50, M|100/100
+|switch|p2b: Ludicolo|Ludicolo, L50, F|100/100
+|turn|4
+|
+|t:|1756598931
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p2b: Ludicolo|Weather Ball|p1a: Kilowattrel
+|-damage|p1a: Kilowattrel|0 fnt
+|faint|p1a: Kilowattrel
+|move|p1b: Tyranitar|Tera Blast|p2a: Politoed|[anim] Tera Blast Flying
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756598937
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|turn|5
+|
+|t:|1756599017
+|move|p2b: Ludicolo|Fling|p1b: Tyranitar
+|-damage|p1b: Tyranitar|61/100
+|-enditem|p2b: Ludicolo|King's Rock|[from] move: Fling
+|move|p1a: Indeedee|Expanding Force|p2b: Ludicolo|[spread] p2a,p2b
+|-damage|p2a: Politoed|17/100
+|-damage|p2b: Ludicolo|31/100
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Indeedee|perish3|[silent]
+|-start|p1b: Tyranitar|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-start|p2b: Ludicolo|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|cant|p1b: Tyranitar|flinch
+|
+|-weather|RainDance|[upkeep]
+|-start|p2b: Ludicolo|perish3
+|-start|p1a: Indeedee|perish3
+|-start|p2a: Politoed|perish3
+|-start|p1b: Tyranitar|perish3
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756599036
+|switch|p2b: Incineroar|Incineroar, L50, F|27/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Tyranitar|atk|1
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Indeedee|Expanding Force|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|move|p1b: Tyranitar|Rock Slide|p2a: Politoed|[spread] p2b
+|-activate|p2a: Politoed|move: Protect
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Indeedee|perish2
+|-start|p2a: Politoed|perish2
+|-start|p1b: Tyranitar|perish2
+|upkeep
+|
+|t:|1756599056
+|switch|p2b: Ludicolo|Ludicolo, L50, F|31/100
+|turn|7
+|
+|t:|1756599078
+|-terastallize|p2b: Ludicolo|Water
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p2b: Ludicolo|Weather Ball|p1b: Tyranitar
+|-damage|p1b: Tyranitar|8/100
+|move|p1a: Indeedee|Expanding Force|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|move|p1b: Tyranitar|Tera Blast|p2a: Politoed|[anim] Tera Blast Flying
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|none
+|-start|p1a: Indeedee|perish1
+|-start|p2a: Politoed|perish1
+|-start|p1b: Tyranitar|perish1
+|upkeep
+|turn|8
+|
+|t:|1756599101
+|move|p1a: Indeedee|Expanding Force|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|move|p2b: Ludicolo|Weather Ball|p1b: Tyranitar
+|-damage|p1b: Tyranitar|0 fnt
+|faint|p1b: Tyranitar
+|
+|-start|p1a: Indeedee|perish0
+|upkeep
+|faint|p1a: Indeedee
+|
+|win|KIME09122
+|raw|pinkey569's rating: 1030 → 1014(-16 for losing)
+|raw|KIME09122's rating: 1006 → 1048(+42 for winning)
+|l|☆KIME09122
+|player|p2|
+|c|☆pinkey569|gg

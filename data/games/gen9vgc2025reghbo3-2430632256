@@ -1,0 +1,167 @@
+|j|☆Pineapple Perry
+|j|☆Tater Tots Tony
+|html|Pineapple PerryTater Tots Tony    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756414043
+|gametype|doubles
+|player|p1|Pineapple Perry|2|
+|player|p2|Tater Tots Tony|101|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Yanmega, L50, F|
+|poke|p1|Sableye, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Typhlosion-Hisui, L50, F|
+|poke|p1|Palafin, L50, M|
+|poke|p2|Palafin, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Pelipper, L50, F|
+|teampreview|4
+|showteam|p1|Yanmega||FocusSash|SpeedBoost|AirSlash,Tailwind,Hypnosis,Protect|||F|||50|,,,,,Ghost]Sableye||EjectButton|Prankster|FoulPlay,Gravity,WillOWisp,Quash|||M|||50|,,,,,Steel]Ursaluna||FlameOrb|Guts|Protect,Facade,HeadlongRush,IcePunch|||M|||50|,,,,,Ground]Gholdengo||Leftovers|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Normal]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,HeatWave,ShadowBall,Flamethrower|||F|||50|,,,,,Fire]Palafin||MysticWater|ZerotoHero|CloseCombat,WaveCrash,JetPunch,Protect|||M|||50|,,,,,Water
+|showteam|p2|Palafin||ClearAmulet|ZerotoHero|JetPunch,FlipTurn,CloseCombat,WaveCrash|||F|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|KnockOff,PartingShot,WillOWisp,FakeOut|||F|||50|,,,,,Water]Farigiraf||ThroatSpray|ArmorTail|TrickRoom,Psychic,HyperVoice,Protect|||F|||50|,,,,,Fairy]Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,FlashCannon,DracoMeteor|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|Protect,EarthPower,HyperVoice,BloodMoon|||M|||50|,,,,,Normal]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Protect,Tailwind|||F|||50|,,,,,Grass
+|
+|t:|1756414090
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sableye|Sableye, L50, M|100/100
+|switch|p1b: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|1
+|
+|t:|1756414127
+|-terastallize|p1b: Typhlosion|Fire
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1b: Typhlosion|Eruption|p2a: Farigiraf|[spread] p2a
+|-activate|p2b: Ursaluna|move: Protect
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|move|p1a: Sableye|Foul Play|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|
+|upkeep
+|
+|t:|1756414136
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|2
+|
+|t:|1756414172
+|switch|p1b: Palafin|Palafin, L50, M|100/100
+|move|p1a: Sableye|Gravity|p1a: Sableye
+|-fieldstart|move: Gravity
+|move|p2b: Ursaluna|Earth Power|p1b: Palafin
+|-damage|p1b: Palafin|14/100
+|-damage|p2b: Ursaluna|91/100|[from] item: Life Orb
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: Tater Tots Tony|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756414195
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|move|p1b: Palafin|Jet Punch|p2b: Archaludon
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|87/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2a: Pelipper|Hurricane|p1a: Sableye
+|-damage|p1a: Sableye|41/100
+|-start|p1a: Sableye|confusion
+|-enditem|p1a: Sableye|Eject Button
+|
+|t:|1756414219
+|switch|p1a: Typhlosion|Typhlosion-Hisui, L50, F, tera:Fire|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756414256
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Typhlosion
+|-damage|p1a: Typhlosion|25/100
+|move|p2a: Pelipper|Weather Ball|p1b: Palafin
+|-resisted|p1b: Palafin
+|-damage|p1b: Palafin|0 fnt
+|faint|p1b: Palafin
+|move|p1a: Typhlosion|Eruption|p2b: Archaludon|[spread] p2a,p2b
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|86/100
+|-damage|p2b: Archaludon|69/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756414273
+|switch|p1b: Yanmega|Yanmega, L50, F|100/100
+|turn|5
+|
+|t:|1756414281
+|switch|p1a: Sableye|Sableye, L50, M|41/100
+|move|p1b: Yanmega|Protect|p1b: Yanmega
+|-singleturn|p1b: Yanmega|Protect
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1b: Yanmega
+|-activate|p1b: Yanmega|move: Protect
+|move|p2a: Pelipper|Hurricane|p1b: Yanmega
+|-activate|p1b: Yanmega|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: Tater Tots Tony|move: Tailwind
+|-ability|p1b: Yanmega|Speed Boost|boost
+|-boost|p1b: Yanmega|spe|1
+|upkeep
+|turn|6
+|
+|t:|1756414325
+|move|p1b: Yanmega|Hypnosis|p2b: Archaludon
+|-status|p2b: Archaludon|slp|[from] move: Hypnosis
+|cant|p2b: Archaludon|slp
+|move|p2a: Pelipper|Weather Ball|p1b: Yanmega
+|-enditem|p1b: Yanmega|Focus Sash
+|-damage|p1b: Yanmega|1/100
+|move|p1a: Sableye|Foul Play|p2a: Pelipper
+|-damage|p2a: Pelipper|71/100
+|
+|-weather|none
+|-fieldend|move: Gravity
+|-ability|p1b: Yanmega|Speed Boost|boost
+|-boost|p1b: Yanmega|spe|1
+|upkeep
+|turn|7
+|
+|t:|1756414344
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|91/100
+|switch|p1a: Typhlosion|Typhlosion-Hisui, L50, F, tera:Fire|25/100
+|move|p1b: Yanmega|Hypnosis|p2a: Ursaluna
+|-status|p2a: Ursaluna|slp|[from] move: Hypnosis
+|-curestatus|p2b: Archaludon|slp|[msg]
+|move|p2b: Archaludon|Body Press|p1b: Yanmega
+|-resisted|p1b: Yanmega
+|-damage|p1b: Yanmega|0 fnt
+|faint|p1b: Yanmega
+|
+|upkeep
+|-message|Pineapple Perry forfeited.
+|
+|win|Tater Tots Tony
+|l|☆Pineapple Perry
+|player|p1|

@@ -1,0 +1,187 @@
+|j|☆capspungo
+|j|☆endK649
+|html|capspungoendK649    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756228851
+|gametype|doubles
+|player|p1|capspungo|265|1180
+|player|p2|endK649|102|1122
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Exeggutor, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Zoroark-Hisui, L50, M|
+|poke|p2|Feraligatr, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Protect,Facade,Earthquake,HeadlongRush|||F|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,Psychic,FollowMe,HelpingHand|||F|||50|,,,,,Grass]Exeggutor||FocusSash|Chlorophyll|TrickRoom,ExpandingForce,EnergyBall,SleepPowder|||M|||50|,,,,,Psychic]Torkoal||Charcoal|Drought|Eruption,ClearSmog,Protect,WeatherBall|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,WideGuard,SacredSword|||M|||50|,,,,,Fire]Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,Flamethrower,ShadowBall,TeraBlast|||M|||50|,,,,,Stellar
+|showteam|p2|Feraligatr||LifeOrb|SheerForce|Liquidation,Crunch,DragonDance,Protect|||M|||50|,,,,,Dark]Gholdengo||Leftovers|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Stellar]Amoonguss||CovertCloak|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,FakeOut,Uturn|||F|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|KnockOff,FakeOut,Taunt,PartingShot|||M|||50|,,,,,Ghost
+|
+|t:|1756228867
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|switch|p1b: Exeggutor|Exeggutor, L50, M|100/100
+|switch|p2a: Pelipper|Pelipper, L50, F, shiny|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1756228913
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1b: Exeggutor|atk|1
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|-terastallize|p1b: Exeggutor|Psychic
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1b: Exeggutor|Expanding Force|p2a: Incineroar|[spread] 
+|-activate|p2b: Gholdengo|move: Protect
+|-immune|p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756228944
+|move|p1b: Exeggutor|Sleep Powder|p2a: Incineroar
+|-activate|p2a: Incineroar|item: Safety Goggles|Sleep Powder
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p2a: Incineroar|Parting Shot|p1a: Indeedee
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1a: Indeedee|spa|1
+|
+|t:|1756228952
+|switch|p2a: Rillaboom|Rillaboom, L50, F, shiny|100/100|[from] Parting Shot
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756228980
+|move|p1a: Indeedee|Psychic|p2a: Rillaboom
+|-damage|p2a: Rillaboom|87/100
+|move|p2a: Rillaboom|U-turn|p1b: Exeggutor
+|-supereffective|p1b: Exeggutor
+|-damage|p1b: Exeggutor|43/100
+|
+|t:|1756228986
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|100/100|[from] U-turn
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Exeggutor|atk|1
+|move|p2b: Gholdengo|Make It Rain|p1b: Exeggutor|[spread] p1a,p1b
+|-damage|p1a: Indeedee|33/100
+|-damage|p1b: Exeggutor|0 fnt
+|-unboost|p2b: Gholdengo|spa|1
+|faint|p1b: Exeggutor
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Indeedee|39/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756228998
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|4
+|
+|t:|1756229012
+|-terastallize|p2b: Gholdengo|Water
+|move|p1a: Indeedee|Helping Hand|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Ursaluna|Earthquake|p2b: Gholdengo|[spread] p1a,p2a,p2b
+|-supereffective|p2a: Incineroar
+|-damage|p1a: Indeedee|8/100
+|-damage|p2a: Incineroar|46/100
+|-damage|p2b: Gholdengo|62/100
+|move|p2a: Incineroar|Parting Shot|p1a: Indeedee
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1a: Indeedee|spa|1
+|
+|t:|1756229021
+|switch|p2a: Rillaboom|Rillaboom, L50, F, shiny|87/100|[from] Parting Shot
+|move|p2b: Gholdengo|Make It Rain|p1b: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Ursaluna|36/100
+|-unboost|p2b: Gholdengo|spa|1
+|faint|p1a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Ursaluna|42/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|93/100|[from] Grassy Terrain
+|-heal|p2b: Gholdengo|69/100|[from] Grassy Terrain
+|-heal|p2b: Gholdengo|75/100|[from] item: Leftovers
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756229026
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|turn|5
+|
+|t:|1756229041
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p2a: Rillaboom|Fake Out|p1a: Torkoal
+|-damage|p1a: Torkoal|89/100
+|cant|p1a: Torkoal|flinch
+|move|p1b: Ursaluna|Facade|p2b: Gholdengo
+|-activate|p2b: Gholdengo|move: Protect
+|
+|-weather|none
+|-heal|p1a: Torkoal|95/100|[from] Grassy Terrain
+|-heal|p1b: Ursaluna|49/100 brn|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|99/100|[from] Grassy Terrain
+|-heal|p2b: Gholdengo|81/100|[from] Grassy Terrain
+|-heal|p2b: Gholdengo|87/100|[from] item: Leftovers
+|-damage|p1b: Ursaluna|42/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1756229054
+|switch|p2b: Pelipper|Pelipper, L50, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p2a: Rillaboom|Grassy Glide|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|move|p1a: Torkoal|Eruption|p2b: Pelipper|[spread] p2a,p2b
+|-supereffective|p2a: Rillaboom
+|-resisted|p2b: Pelipper
+|-damage|p2a: Rillaboom|64/100
+|-damage|p2b: Pelipper|78/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Torkoal|100/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|70/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|7
+|-message|capspungo forfeited.
+|
+|win|endK649
+|l|☆capspungo
+|player|p1|
+||endK649 is ready for game 3.
+||capspungo is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

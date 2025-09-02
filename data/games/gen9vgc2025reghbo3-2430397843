@@ -1,0 +1,217 @@
+|j|☆fridol
+|j|☆Shoto.tx
+|html|fridolShoto.tx    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756391530
+|gametype|doubles
+|player|p1|fridol|266|1000
+|player|p2|Shoto.tx|169|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Azumarill, L50, F|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Vivillon, L50, M|
+|poke|p2|Gliscor, L50, F|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Archaludon, L50, M|
+|teampreview|4
+|showteam|p1|Azumarill||Leftovers|SapSipper|PerishSong,Protect,BrickBreak,Encore|||F|||50|,,,,,Steel]Gothitelle||CovertCloak|ShadowTag|Protect,FakeOut,TrickRoom,Psychic|||M|||50|,,,,,Psychic]Rillaboom||ChoiceBand|GrassySurge|GrassyGlide,WoodHammer,Uturn,HighHorsepower|||M|||50|,,,,,Grass]Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,EarthPower,HyperVoice,VacuumWave|||M|||50|,,,,,Ground]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,PartingShot,Protect|||M|||50|,,,,,Fire]Kingambit||FocusSash|SupremeOverlord|IronHead,SuckerPunch,NightSlash,Taunt|||M|||50|,,,,,Dark
+|showteam|p2|Vivillon||FocusSash|CompoundEyes|Hurricane,Tailwind,SleepPowder,Protect|||M|||50|,,,,,Ghost]Gliscor||ChoiceBand|HyperCutter|Earthquake,TeraBlast,DualWingbeat,Uturn|||F|||50|,,,,,Ice]Kingambit||AssaultVest|Defiant|IronHead,Assurance,SuckerPunch,LowKick|||F|||50|,,,,,Flying]Ninetales-Alola||CovertCloak|SnowWarning|Blizzard,FreezeDry,AuroraVeil,Protect|||M|||50|,,,,,Water]Incineroar||RockyHelmet|Intimidate|FakeOut,PartingShot,FlareBlitz,KnockOff|||M|||50|,,,,,Fairy]Archaludon||PowerHerb|Stalwart|Protect,ElectroShot,DragonPulse,Thunderbolt|||M|||50|,,,,,Ghost
+|l|☆Shoto.tx
+|player|p2|
+|j|☆Shoto.tx
+|player|p2|Shoto.tx|169|
+|
+|t:|1756391606
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p1b: Azumarill|Azumarill, L50, F|100/100
+|switch|p2a: Gliscor|Gliscor, L50, F|100/100
+|switch|p2b: Kingambit|Kingambit, L50, F|100/100
+|turn|1
+|
+|t:|1756391627
+|move|p2b: Kingambit|Sucker Punch||[still]
+|-fail|p2b: Kingambit
+|move|p2a: Gliscor|U-turn|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|38/100
+|
+|t:|1756391633
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100|[from] U-turn
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Gothitelle|atk|1
+|-unboost|p1b: Azumarill|atk|1
+|move|p1b: Azumarill|Perish Song|p1b: Azumarill
+|-start|p1a: Gothitelle|perish3|[silent]
+|-start|p1b: Azumarill|perish3|[silent]
+|-start|p2a: Incineroar|perish3|[silent]
+|-start|p2b: Kingambit|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Gothitelle|Trick Room|p1a: Gothitelle
+|-fieldstart|move: Trick Room|[of] p1a: Gothitelle
+|
+|-start|p1b: Azumarill|perish3
+|-start|p1a: Gothitelle|perish3
+|-start|p2b: Kingambit|perish3
+|-start|p2a: Incineroar|perish3
+|upkeep
+|turn|2
+|
+|t:|1756391685
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2b: Kingambit|Low Kick|p1b: Rillaboom
+|-damage|p1b: Rillaboom|70/100
+|move|p2a: Incineroar|Knock Off|p1b: Rillaboom
+|-damage|p1b: Rillaboom|29/100
+|-enditem|p1b: Rillaboom|Choice Band|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-heal|p1a: Gothitelle|45/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|34/100|[from] Grassy Terrain
+|-start|p1a: Gothitelle|perish2
+|-start|p2b: Kingambit|perish2
+|-start|p2a: Incineroar|perish2
+|upkeep
+|turn|3
+|
+|t:|1756391712
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2b: Kingambit|Sucker Punch||[still]
+|-fail|p2b: Kingambit
+|move|p1b: Rillaboom|Grassy Glide|p2b: Kingambit
+|-resisted|p2b: Kingambit
+|-damage|p2b: Kingambit|86/100
+|move|p2a: Incineroar|Knock Off|p1a: Gothitelle
+|-activate|p1a: Gothitelle|move: Protect
+|
+|-heal|p1a: Gothitelle|51/100|[from] Grassy Terrain
+|-heal|p2b: Kingambit|92/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|40/100|[from] Grassy Terrain
+|-start|p1a: Gothitelle|perish1
+|-start|p2b: Kingambit|perish1
+|-start|p2a: Incineroar|perish1
+|upkeep
+|turn|4
+|
+|t:|1756391750
+|move|p2b: Kingambit|Sucker Punch|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|faint|p1a: Gothitelle
+|move|p1b: Rillaboom|Grassy Glide|p2b: Kingambit
+|-resisted|p2b: Kingambit
+|-damage|p2b: Kingambit|77/100
+|move|p2a: Incineroar|Flare Blitz|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|-damage|p2a: Incineroar|87/100|[from] Recoil
+|
+|-heal|p2b: Kingambit|83/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|93/100|[from] Grassy Terrain
+|-start|p2b: Kingambit|perish0
+|-start|p2a: Incineroar|perish0
+|faint|p2b: Kingambit
+|faint|p2a: Incineroar
+|upkeep
+|
+|t:|1756391768
+|switch|p1a: Azumarill|Azumarill, L50, F|100/100
+|switch|p2b: Gliscor|Gliscor, L50, F|100/100
+|switch|p2a: Vivillon|Vivillon, L50, M|100/100
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|-activate|p1b: Kingambit|ability: Supreme Overlord
+|-start|p1b: Kingambit|fallen2|[silent]
+|turn|5
+|
+|t:|1756391817
+|-terastallize|p1b: Kingambit|Dark
+|-terastallize|p2b: Gliscor|Ice
+|move|p1b: Kingambit|Sucker Punch||[still]
+|-fail|p1b: Kingambit
+|move|p1a: Azumarill|Brick Break|p2a: Vivillon
+|-resisted|p2a: Vivillon
+|-damage|p2a: Vivillon|96/100
+|move|p2a: Vivillon|Tailwind|p2a: Vivillon
+|-sidestart|p2: Shoto.tx|move: Tailwind
+|move|p2b: Gliscor|Earthquake|p1a: Azumarill|[spread] p1a,p1b
+|-immune|p2a: Vivillon
+|-damage|p1a: Azumarill|75/100
+|-damage|p1b: Kingambit|83/100
+|
+|-heal|p1b: Kingambit|89/100|[from] Grassy Terrain
+|-heal|p1a: Azumarill|81/100|[from] Grassy Terrain
+|-heal|p1a: Azumarill|87/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1756391840
+|move|p2b: Gliscor|Earthquake|p1b: Kingambit|[spread] p1a,p1b
+|-immune|p2a: Vivillon
+|-damage|p1a: Azumarill|62/100
+|-damage|p1b: Kingambit|72/100
+|move|p2a: Vivillon|Sleep Powder|p1b: Kingambit
+|-status|p1b: Kingambit|slp|[from] move: Sleep Powder
+|move|p1a: Azumarill|Brick Break|p2b: Gliscor
+|-supereffective|p2b: Gliscor
+|-damage|p2b: Gliscor|81/100
+|cant|p1b: Kingambit|slp
+|
+|-heal|p2b: Gliscor|87/100|[from] Grassy Terrain
+|-heal|p1a: Azumarill|68/100|[from] Grassy Terrain
+|-heal|p1b: Kingambit|78/100 slp|[from] Grassy Terrain
+|-heal|p1a: Azumarill|73/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1756391872
+|-curestatus|p1b: Kingambit|slp|[msg]
+|move|p1b: Kingambit|Sucker Punch|p2b: Gliscor
+|-damage|p2b: Gliscor|27/100
+|move|p2b: Gliscor|Earthquake|p1b: Kingambit|[spread] p1a,p1b
+|-immune|p2a: Vivillon
+|-damage|p1a: Azumarill|24/100
+|-damage|p1b: Kingambit|44/100
+|move|p2a: Vivillon|Hurricane|p1b: Kingambit
+|-damage|p1b: Kingambit|0 fnt
+|faint|p1b: Kingambit
+|-end|p1b: Kingambit|fallen2|[silent]
+|move|p1a: Azumarill|Brick Break|p2b: Gliscor
+|-supereffective|p2b: Gliscor
+|-damage|p2b: Gliscor|7/100
+|
+|-heal|p1a: Azumarill|29/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1756391892
+|move|p2b: Gliscor|Earthquake|p1a: Azumarill|[spread] p1a
+|-immune|p2a: Vivillon
+|-damage|p1a: Azumarill|0 fnt
+|faint|p1a: Azumarill
+|
+|win|Shoto.tx
+|l|☆fridol
+|player|p1|
+|inactive|fridol has 30 seconds to confirm battle start!
+|inactive|Shoto.tx has 30 seconds to confirm battle start!
+|raw|fridol's rating: 1000 → 1000(+0 for losing)
+|raw|Shoto.tx's rating: 1000 → 1040(+40 for winning)

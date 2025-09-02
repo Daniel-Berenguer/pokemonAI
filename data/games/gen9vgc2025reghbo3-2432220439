@@ -1,0 +1,222 @@
+|j|☆iLouca
+|j|☆Chandeliere
+|html|iLoucaChandeliere    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756628313
+|gametype|doubles
+|player|p1|iLouca|acetrainer|1146
+|player|p2|Chandeliere|ethan|1131
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Dragapult, L50, M|
+|poke|p1|Baxcalibur, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Corviknight, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,AirSlash,SolarBeam|||M|||50|,,,,,Ghost]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,SuckerPunch,Uturn|||M|||50|,,,,,Dragon]Baxcalibur||LifeOrb|ThermalExchange|GlaiveRush,IcicleCrash,IceShard,Protect|||M|||50|,,,,,Poison]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Whimsicott||FocusSash|Prankster|Moonblast,SunnyDay,Tailwind,TrickRoom|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire
+|showteam|p2|Ninetales-Alola||LightClay|SnowWarning|AuroraVeil,Blizzard,FreezeDry,Protect|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Garchomp||ClearAmulet|RoughSkin|Earthquake,StompingTantrum,DragonClaw,Protect|||F|||50|,,,,,Ground]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Ghost]Sneasler||WhiteHerb|Unburden|Coaching,CloseCombat,DireClaw,Protect|||M|||50|,,,,,Ghost]Corviknight||SitrusBerry|MirrorArmor|BodyPress,BraveBird,Tailwind,Protect|||F|||50|,,,,,Fire
+|
+|t:|1756628344
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragapult|Dragapult, L50, M, shiny|100/100
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|-unboost|p1b: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|-enditem|p1b: Torkoal|Eject Pack
+|
+|t:|1756628359
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|1
+|
+|t:|1756628382
+|-terastallize|p1a: Dragapult|Dragon
+|-terastallize|p2b: Garchomp|Ground
+|move|p1a: Dragapult|Dragon Darts|p2b: Garchomp
+|-damage|p2b: Garchomp|48/100
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Incineroar
+|-damage|p2a: Incineroar|60/100
+|move|p2b: Garchomp|Dragon Claw|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|move|p1b: Ursaluna|Facade|p2a: Incineroar
+|-damage|p2a: Incineroar|28/100
+|move|p2a: Incineroar|Knock Off|p1b: Ursaluna
+|-damage|p1b: Ursaluna|68/100
+|-enditem|p1b: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Chandeliere)
+|
+|t:|1756628428
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|turn|2
+|
+|t:|1756628445
+|switch|p2a: Corviknight|Corviknight, L50, F|100/100
+|move|p2b: Garchomp|Protect|p2b: Garchomp
+|-singleturn|p2b: Garchomp|Protect
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: iLouca|move: Tailwind
+|move|p1b: Ursaluna|Earthquake|p2b: Garchomp|[spread] p1a
+|-activate|p2b: Garchomp|move: Protect
+|-immune|p2a: Corviknight
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|inactive|iLouca has 30 seconds left.
+|
+|t:|1756628470
+|switch|p2b: Incineroar|Incineroar, L50, M|28/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Whimsicott|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|move|p1a: Whimsicott|Moonblast|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p1b: Ursaluna|Facade|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|91/100
+|move|p2a: Corviknight|Brave Bird|p1b: Ursaluna
+|-damage|p1b: Ursaluna|37/100
+|-damage|p2a: Corviknight|80/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756628495
+|switch|p2b: Garchomp|Garchomp, L50, F, tera:Ground|48/100
+|turn|4
+|
+|t:|1756628507
+|move|p2b: Garchomp|Protect|p2b: Garchomp
+|-singleturn|p2b: Garchomp|Protect
+|move|p1a: Whimsicott|Moonblast|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|61/100
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: Whimsicott|spa|1
+|move|p1b: Ursaluna|Facade|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|53/100
+|move|p2a: Corviknight|Tailwind|p2a: Corviknight
+|-sidestart|p2: Chandeliere|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1756628527
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p1a: Whimsicott|Moonblast|p2b: Sneasler
+|-crit|p2b: Sneasler
+|-damage|p2b: Sneasler|35/100
+|-unboost|p2b: Sneasler|spa|1
+|-enditem|p2b: Sneasler|White Herb
+|-clearnegativeboost|p2b: Sneasler|[silent]
+|move|p2a: Corviknight|Body Press|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|-weather|none
+|-sideend|p1: iLouca|move: Tailwind
+|upkeep
+|turn|6
+|inactive|iLouca has 30 seconds left.
+|inactive|iLouca has 20 seconds left.
+|inactive|Chandeliere has 30 seconds left.
+|inactive|iLouca has 15 seconds left.
+|inactive|iLouca has 10 seconds left.
+|
+|t:|1756628575
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: iLouca|move: Tailwind
+|move|p2b: Sneasler|Dire Claw|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|move|p1b: Ursaluna|Earthquake|p2a: Corviknight|[spread] p2b
+|-immune|p2a: Corviknight
+|-supereffective|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|move|p2a: Corviknight|Body Press|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|
+|upkeep
+|
+|t:|1756628593
+|switch|p2b: Garchomp|Garchomp, L50, F, tera:Ground|48/100
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|7
+|
+|t:|1756628610
+|move|p1b: Torkoal|Protect|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Protect
+|move|p2b: Garchomp|Earthquake|p1b: Torkoal|[spread] 
+|-activate|p1b: Torkoal|move: Protect
+|-immune|p2a: Corviknight
+|move|p2a: Corviknight|Brave Bird|p1b: Torkoal
+|-activate|p1b: Torkoal|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: Chandeliere|move: Tailwind
+|upkeep
+|turn|8
+|
+|t:|1756628629
+|move|p2a: Corviknight|Protect|p2a: Corviknight
+|-singleturn|p2a: Corviknight|Protect
+|move|p2b: Garchomp|Earthquake|p1b: Torkoal|[spread] p1b
+|-activate|p2a: Corviknight|move: Protect
+|-supereffective|p1b: Torkoal
+|-damage|p1b: Torkoal|26/100
+|move|p1b: Torkoal|Eruption|p2a: Corviknight|[spread] p2b
+|-activate|p2a: Corviknight|move: Protect
+|-damage|p2b: Garchomp|27/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|inactive|Chandeliere has 30 seconds left.
+|
+|t:|1756628656
+|move|p2b: Garchomp|Earthquake|p1b: Torkoal|[spread] p1b
+|-immune|p2a: Corviknight
+|-supereffective|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|
+|win|Chandeliere
+||Chandeliere is ready for game 3.
+|inactive|iLouca has 30 seconds to confirm battle start!
+||iLouca is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆iLouca
+|player|p1|

@@ -1,0 +1,178 @@
+|j|☆dericos
+|j|☆Volanr
+|html|dericosVolanr    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756206827
+|gametype|doubles
+|player|p1|dericos|266|1224
+|player|p2|Volanr|veteranf|1321
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Electabuzz, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Talonflame, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,HelpingHand,Protect|||M|||50|,,,,,Psychic]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Protect|||F|||50|,,,,,Dragon]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Ghost]Talonflame||CovertCloak|GaleWings|FlareBlitz,DualWingbeat,WillOWisp,Tailwind|||M|||50|,,,,,Fairy
+|showteam|p2|Archaludon||AssaultVest|Stamina|BodyPress,Snarl,ElectroShot,FlashCannon|||F|||50|,,,,,Grass]Sinistcha-Masterpiece||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,LifeDew||||||50|,,,,,Dark]Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,Tailwind,Haze|||M|||50|,,,,,Steel]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Ground]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,TeraBlast,ShadowBall,Trick||||||50|,,,,,Water
+|
+|t:|1756206857
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Dragonite|Dragonite, L50, M|100/100
+|switch|p2b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756206873
+|move|p2b: Sinistcha|Rage Powder|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|move: Rage Powder
+|move|p1a: Sneasler|Throat Chop|p2b: Sinistcha
+|-supereffective|p2b: Sinistcha
+|-damage|p2b: Sinistcha|50/100
+|-start|p2b: Sinistcha|Throat Chop|[silent]
+|-enditem|p2b: Sinistcha|Sitrus Berry|[eat]
+|-heal|p2b: Sinistcha|75/100|[from] item: Sitrus Berry
+|move|p1b: Indeedee|Expanding Force|p2a: Dragonite|[spread] p2a,p2b
+|-damage|p2a: Dragonite|70/100
+|-damage|p2b: Sinistcha|25/100
+|move|p2a: Dragonite|Scale Shot|p1a: Sneasler
+|-damage|p1a: Sneasler|75/100
+|-damage|p1a: Sneasler|51/100
+|-damage|p1a: Sneasler|28/100
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|-hitcount|p1: Sneasler|4
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|
+|t:|1756206893
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|2
+|
+|t:|1756206902
+|move|p2a: Dragonite|Protect|p2a: Dragonite
+|-singleturn|p2a: Dragonite|Protect
+|move|p1b: Indeedee|Expanding Force|p2b: Sinistcha|[spread] p2b
+|-activate|p2a: Dragonite|move: Protect
+|-damage|p2b: Sinistcha|0 fnt
+|faint|p2b: Sinistcha
+|move|p1a: Ursaluna|Hyper Voice|p2a: Dragonite
+|-activate|p2a: Dragonite|move: Protect
+|
+|upkeep
+|
+|t:|1756206908
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|turn|3
+|
+|t:|1756206942
+|-terastallize|p2a: Dragonite|Steel
+|move|p1b: Indeedee|Protect|p1b: Indeedee
+|-singleturn|p1b: Indeedee|Protect
+|move|p2b: Gholdengo|Make It Rain|p1a: Ursaluna|[spread] p1a
+|-activate|p1b: Indeedee|move: Protect
+|-damage|p1a: Ursaluna|31/100
+|-unboost|p2b: Gholdengo|spa|1
+|move|p2a: Dragonite|Scale Shot|p1a: Ursaluna|[miss]
+|-miss|p2a: Dragonite|p1a: Ursaluna
+|move|p1a: Ursaluna|Earth Power|p2b: Gholdengo
+|-supereffective|p2b: Gholdengo
+|-damage|p2b: Gholdengo|0 fnt
+|faint|p2b: Gholdengo
+|-damage|p1a: Ursaluna|21/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756206953
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|4
+|
+|t:|1756206964
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Dragonite|Scale Shot|p1b: Indeedee
+|-damage|p1b: Indeedee|72/100
+|-damage|p1b: Indeedee|42/100
+|-damage|p1b: Indeedee|13/100
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|-hitcount|p1: Indeedee|4
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|move|p2b: Pelipper|Weather Ball|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756206972
+|switch|p1b: Electabuzz|Electabuzz, L50, F|100/100
+|turn|5
+|
+|t:|1756206990
+|-terastallize|p1a: Ursaluna|Normal
+|move|p1b: Electabuzz|Follow Me|p1b: Electabuzz
+|-singleturn|p1b: Electabuzz|move: Follow Me
+|move|p2a: Dragonite|Scale Shot|p1b: Electabuzz
+|-damage|p1b: Electabuzz|85/100
+|-damage|p1b: Electabuzz|71/100
+|-damage|p1b: Electabuzz|56/100
+|-damage|p1b: Electabuzz|42/100
+|-damage|p1b: Electabuzz|27/100
+|-hitcount|p1b: Electabuzz|5
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|move|p2b: Pelipper|Weather Ball|p1b: Electabuzz
+|-crit|p1b: Electabuzz
+|-damage|p1b: Electabuzz|0 fnt
+|faint|p1b: Electabuzz
+|move|p1a: Ursaluna|Hyper Voice|p2a: Dragonite|[spread] p2a,p2b
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|35/100
+|-enditem|p2b: Pelipper|Focus Sash
+|-damage|p2b: Pelipper|1/100
+|-damage|p1a: Ursaluna|12/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756207007
+|move|p2a: Dragonite|Scale Shot|p1a: Ursaluna|[miss]
+|-miss|p2a: Dragonite|p1a: Ursaluna
+|move|p2b: Pelipper|Weather Ball|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|win|Volanr
+||dericos is ready for game 2.
+||Volanr is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆dericos
+|player|p1|
+|l|☆Volanr
+|player|p2|
+|j|☆Volanr
+|player|p2|Volanr|veteranf|

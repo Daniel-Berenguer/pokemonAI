@@ -1,0 +1,215 @@
+|j|☆HumanPlaysVGC
+|j|☆RillaZardCJM
+|html|HumanPlaysVGCRillaZardCJM    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756559376
+|gametype|doubles
+|player|p1|HumanPlaysVGC|n-masters3|
+|player|p2|RillaZardCJM|byron|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Weezing-Galar, L50, F|
+|poke|p1|Toedscruel, L50, M|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Dragapult, L50, M|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Magmar, L50, F|
+|teampreview|4
+|showteam|p1|Weezing-Galar||SitrusBerry|NeutralizingGas|DazzlingGleam,SludgeBomb,Protect,Taunt|||F|||50|,,,,,Grass]Toedscruel||CovertCloak|MyceliumMight|Spore,RagePowder,EarthPower,AcidSpray|||M|||50|,,,,,Water]Corviknight||RockyHelmet|MirrorArmor|Tailwind,BraveBird,Protect,Roost|||F|||50|,,,,,Dragon]Incineroar||AbilityShield|Intimidate|FakeOut,KnockOff,PartingShot,Taunt|||M|||50|,,,,,Ghost]Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,Protect,StompingTantrum|||F|||50|,,,,,Ground]Indeedee||FocusSash|PsychicSurge|ExpandingForce,DazzlingGleam,Protect,TrickRoom|||M|||50|,,,,,Psychic
+|showteam|p2|Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,HighHorsepower|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|Protect,KowtowCleave,SuckerPunch,SwordsDance|||F|||50|,,,,,Fairy]Sneasler||FocusSash|PoisonTouch|Protect,DireClaw,CloseCombat,FakeOut|||M|||50|,,,,,Ghost]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,Outrage,Uturn|||M|||50|,,,,,Dragon]Primarina||SitrusBerry|LiquidVoice|Protect,HyperVoice,Moonblast,Haze|||F|||50|,,,,,Poison]Magmar||Eviolite|VitalSpirit|FollowMe,Overheat,WillOWisp,HelpingHand|||F|||50|,,,,,Ghost
+|
+|t:|1756559457
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Weezing|Weezing-Galar, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Dragapult|Dragapult, L50, M|100/100
+|switch|p2b: Magmar|Magmar, L50, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-block|p1b: Incineroar|item: Ability Shield
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Dragapult|atk|1
+|-unboost|p2b: Magmar|atk|1
+|turn|1
+|
+|t:|1756559503
+|switch|p2b: Primarina|Primarina, L50, F|100/100
+|move|p2a: Dragapult|U-turn|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|95/100
+|
+|t:|1756559510
+|switch|p2a: Magmar|Magmar, L50, F|100/100|[from] U-turn
+|move|p1a: Weezing|Dazzling Gleam|p2a: Magmar|[spread] p2a,p2b
+|-resisted|p2a: Magmar
+|-crit|p2a: Magmar
+|-damage|p2a: Magmar|88/100
+|-damage|p2b: Primarina|83/100
+|move|p1b: Incineroar|Parting Shot|p2a: Magmar
+|-unboost|p2a: Magmar|atk|1
+|-unboost|p2a: Magmar|spa|1
+|
+|t:|1756559531
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|2
+|
+|t:|1756559555
+|-terastallize|p1b: Garchomp|Ground
+|move|p2a: Magmar|Helping Hand|p2b: Primarina
+|-singleturn|p2b: Primarina|Helping Hand|[of] p2a: Magmar
+|move|p1a: Weezing|Protect|p1a: Weezing
+|-singleturn|p1a: Weezing|Protect
+|move|p1b: Garchomp|Earthquake|p2b: Primarina|[spread] p2a,p2b
+|-activate|p1a: Weezing|move: Protect
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|-damage|p2b: Primarina|14/100
+|-enditem|p2b: Primarina|Sitrus Berry|[eat]
+|-heal|p2b: Primarina|39/100|[from] item: Sitrus Berry
+|faint|p2a: Magmar
+|-damage|p1b: Garchomp|91/100|[from] item: Life Orb
+|move|p2b: Primarina|Hyper Voice|p1b: Garchomp|[spread] p1b
+|-activate|p1a: Weezing|move: Protect
+|-damage|p1b: Garchomp|58/100
+|
+|upkeep
+|
+|t:|1756559577
+|switch|p2a: Kingambit|Kingambit, L50, F|100/100
+|turn|3
+|
+|t:|1756559610
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|-unboost|p2b: Primarina|atk|1
+|move|p2b: Primarina|Hyper Voice|p1a: Weezing|[spread] p1a,p1b
+|-damage|p1a: Weezing|73/100
+|-damage|p1b: Incineroar|83/100
+|move|p1a: Weezing|Taunt|p2a: Kingambit
+|-start|p2a: Kingambit|move: Taunt
+|cant|p2a: Kingambit|move: Taunt|Swords Dance
+|
+|upkeep
+|turn|4
+|
+|t:|1756559638
+|switch|p2a: Dragapult|Dragapult, L50, M|100/100
+|move|p1b: Incineroar|Fake Out|p2a: Dragapult
+|-immune|p2a: Dragapult
+|move|p2b: Primarina|Moonblast|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|50/100
+|-enditem|p1a: Weezing|Sitrus Berry|[eat]
+|-heal|p1a: Weezing|75/100|[from] item: Sitrus Berry
+|move|p1a: Weezing|Sludge Bomb|p2b: Primarina
+|-supereffective|p2b: Primarina
+|-damage|p2b: Primarina|0 fnt
+|faint|p2b: Primarina
+|
+|upkeep
+|
+|t:|1756559652
+|switch|p2b: Kingambit|Kingambit, L50, F|100/100
+|turn|5
+|
+|t:|1756559684
+|-terastallize|p2a: Dragapult|Dragon
+|move|p2a: Dragapult|Dragon Darts|p1b: Incineroar
+|-damage|p1b: Incineroar|41/100
+|-anim|p2a: Dragapult|Dragon Darts|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Weezing|Dazzling Gleam|p2b: Kingambit|[spread] p2a,p2b
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|55/100
+|-damage|p2b: Kingambit|81/100
+|move|p2b: Kingambit|Kowtow Cleave|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|52/100
+|
+|upkeep
+|
+|t:|1756559706
+|switch|p1b: Corviknight|Corviknight, L50, F|100/100
+|turn|6
+|
+|t:|1756559723
+|move|p2a: Dragapult|Dragon Darts|p1b: Corviknight
+|-resisted|p1b: Corviknight
+|-damage|p1b: Corviknight|79/100
+|-anim|p2a: Dragapult|Dragon Darts|p1b: Corviknight
+|-resisted|p1b: Corviknight
+|-damage|p1b: Corviknight|57/100
+|move|p1b: Corviknight|Brave Bird|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|-damage|p1b: Corviknight|42/100|[from] Recoil
+|move|p1a: Weezing|Dazzling Gleam|p2b: Kingambit
+|-damage|p2b: Kingambit|55/100
+|move|p2b: Kingambit|Swords Dance|p2b: Kingambit
+|-boost|p2b: Kingambit|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1756559747
+|move|p2b: Kingambit|Protect|p2b: Kingambit
+|-singleturn|p2b: Kingambit|Protect
+|move|p1b: Corviknight|Tailwind|p1b: Corviknight
+|-sidestart|p1: HumanPlaysVGC|move: Tailwind
+|move|p1a: Weezing|Taunt|p2b: Kingambit
+|-activate|p2b: Kingambit|move: Protect
+|
+|upkeep
+|turn|8
+|
+|t:|1756559756
+|move|p2b: Kingambit|Sucker Punch||[still]
+|-fail|p2b: Kingambit
+|move|p1b: Corviknight|Roost|p1b: Corviknight
+|-heal|p1b: Corviknight|92/100
+|-singleturn|p1b: Corviknight|move: Roost
+|move|p1a: Weezing|Taunt|p2b: Kingambit
+|-start|p2b: Kingambit|move: Taunt
+|
+|upkeep
+|turn|9
+|
+|t:|1756559767
+|move|p2b: Kingambit|Sucker Punch|p1a: Weezing
+|-resisted|p1a: Weezing
+|-damage|p1a: Weezing|14/100
+|move|p1b: Corviknight|Brave Bird|p2b: Kingambit
+|-resisted|p2b: Kingambit
+|-damage|p2b: Kingambit|40/100
+|-damage|p1b: Corviknight|87/100|[from] Recoil
+|move|p1a: Weezing|Dazzling Gleam|p2b: Kingambit
+|-damage|p2b: Kingambit|16/100
+|
+|upkeep
+|turn|10
+|
+|t:|1756559778
+|move|p2b: Kingambit|Sucker Punch|p1b: Corviknight
+|-damage|p1b: Corviknight|0 fnt
+|-damage|p2b: Kingambit|0 fnt|[from] item: Rocky Helmet|[of] p1b: Corviknight
+|faint|p1b: Corviknight
+|faint|p2b: Kingambit
+|
+|win|HumanPlaysVGC
+||RillaZardCJM is ready for game 3.
+||HumanPlaysVGC is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

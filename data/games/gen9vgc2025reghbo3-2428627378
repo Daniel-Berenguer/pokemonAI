@@ -1,0 +1,138 @@
+|j|☆JNEST
+|j|☆DISSSSS
+|html|JNESTDISSSSS    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756164857
+|gametype|doubles
+|player|p1|JNEST|veteran-gen4|1187
+|player|p2|DISSSSS|flannery|1152
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Weezing, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Reuniclus, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Weezing||SitrusBerry|NeutralizingGas|Protect,Taunt,WillOWisp,SludgeBomb|||M|||50|,,,,,Ghost]Incineroar||AbilityShield|Intimidate|KnockOff,FlareBlitz,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Annihilape||SafetyGoggles|Defiant|Taunt,RageFist,CloseCombat,FinalGambit|||M|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|showteam|p2|Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Normal]Reuniclus||LifeOrb|MagicGuard|ExpandingForce,TrickRoom,Protect,TeraBlast|||M|||50|,,,,,Fighting]Indeedee-F||SafetyGoggles|PsychicSurge|TrickRoom,Psychic,FollowMe,HelpingHand|||F|||50|,,,,,Water]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Torkoal||Charcoal|Drought|Eruption,EarthPower,Protect,HeatWave|||F|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|AfterYou,SleepPowder,CloseCombat,Protect|||F|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DISSSSS)
+|inactive|JNEST also wants the timer to be on.
+|
+|t:|1756164883
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Weezing|Weezing, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|switch|p2b: Lilligant|Lilligant-Hisui, L50, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-block|p1b: Incineroar|item: Ability Shield
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Lilligant|atk|1
+|turn|1
+|
+|t:|1756164903
+|-terastallize|p2b: Lilligant|Ghost
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p1b: Incineroar|Fake Out|p2b: Lilligant
+|-immune|p2b: Lilligant
+|move|p2b: Lilligant|Sleep Powder|p1a: Weezing
+|-status|p1a: Weezing|slp|[from] move: Sleep Powder
+|cant|p1a: Weezing|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1756164914
+|move|p2b: Lilligant|Sleep Powder|p1b: Incineroar|[miss]
+|-miss|p2b: Lilligant|p1b: Incineroar
+|move|p1b: Incineroar|Knock Off|p2a: Torkoal
+|-damage|p2a: Torkoal|69/100
+|-enditem|p2a: Torkoal|Charcoal|[from] move: Knock Off|[of] p1b: Incineroar
+|-curestatus|p1a: Weezing|slp|[msg]
+|move|p1a: Weezing|Sludge Bomb|p2a: Torkoal
+|-damage|p2a: Torkoal|32/100
+|move|p2a: Torkoal|Earth Power|p1a: Weezing
+|-supereffective|p1a: Weezing
+|-crit|p1a: Weezing
+|-damage|p1a: Weezing|20/100
+|-enditem|p1a: Weezing|Sitrus Berry|[eat]
+|-heal|p1a: Weezing|45/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|3
+|
+|t:|1756164938
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p2b: Lilligant|Sleep Powder|p1a: Tyranitar
+|-status|p1a: Tyranitar|slp|[from] move: Sleep Powder
+|move|p1b: Incineroar|Flare Blitz|p2b: Lilligant
+|-damage|p2b: Lilligant|29/100
+|-damage|p1b: Incineroar|80/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Lilligant|23/100|[from] Sandstorm
+|-damage|p1b: Incineroar|74/100|[from] Sandstorm
+|-damage|p2a: Torkoal|26/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1756164960
+|move|p2b: Lilligant|Sleep Powder|p1b: Incineroar
+|-status|p1b: Incineroar|slp|[from] move: Sleep Powder
+|cant|p1b: Incineroar|slp
+|cant|p1a: Tyranitar|slp
+|move|p2a: Torkoal|Earth Power|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|29/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Lilligant|17/100|[from] Sandstorm
+|-damage|p1b: Incineroar|23/100 slp|[from] Sandstorm
+|-damage|p2a: Torkoal|20/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1756164966
+|move|p2b: Lilligant|Close Combat|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|6/100 slp
+|-unboost|p2b: Lilligant|def|1
+|-unboost|p2b: Lilligant|spd|1
+|cant|p1b: Incineroar|slp
+|-curestatus|p1a: Tyranitar|slp|[msg]
+|move|p1a: Tyranitar|Rock Slide|p2b: Lilligant|[spread] p2a
+|-miss|p1a: Tyranitar|p2b: Lilligant
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Lilligant|11/100|[from] Sandstorm
+|-damage|p1b: Incineroar|17/100 slp|[from] Sandstorm
+|upkeep
+|
+|t:|1756164977
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|turn|6
+|-message|JNEST forfeited.
+|
+|win|DISSSSS

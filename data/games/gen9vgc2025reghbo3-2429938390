@@ -1,0 +1,208 @@
+|j|‽T-block
+|j|☆MuppetsChristmas
+|html|T-blockMuppetsChristmas    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756327293
+|gametype|doubles
+|player|p1|T-block|266|1335
+|player|p2|MuppetsChristmas|pokemonbreederf-gen4|1261
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Dragonite, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Arcanine-Hisui, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Ninetales-Alola, L50, M|
+|teampreview|4
+|showteam|p1|Rillaboom||AssaultVest|GrassySurge|GrassyGlide,WoodHammer,FakeOut,HighHorsepower|||F|||50|,,,,,Fire]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,IcyWind,Encore,AuroraVeil|||M|||50|,,,,,Ghost]Gholdengo||GrassySeed|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water]Garchomp||ChoiceBand|RoughSkin|StompingTantrum,RockSlide,DragonClaw,Outrage|||M|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||F|||50|,,,,,Fairy
+|showteam|p2|Gholdengo||GrassySeed|GoodasGold|MakeItRain,NastyPlot,ShadowBall,Protect||||||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,Uturn|||M|||50|,,,,,Fire]Arcanine-Hisui||ClearAmulet|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||F|||50|,,,,,Water]Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,Coaching,Protect|||M|||50|,,,,,Stellar]Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Protect,Tailwind|||F|||50|,,,,,Ground]Ninetales-Alola||CovertCloak|SnowWarning|Blizzard,IcyWind,AuroraVeil,Encore|||M|||50|,,,,,Ice
+|
+|t:|1756327359
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Dearg Doom|Arcanine-Hisui, L50, F|100/100
+|switch|p2b: Linger|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Linger
+|-ability|p2a: Dearg Doom|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Gholdengo|atk|1
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Dearg Doom|unboost|[from] item: Clear Amulet|[of] p2a: Dearg Doom
+|-unboost|p2b: Linger|atk|1
+|turn|1
+|
+|t:|1756327390
+|move|p1a: Incineroar|Fake Out|p2a: Dearg Doom
+|-resisted|p2a: Dearg Doom
+|-damage|p2a: Dearg Doom|96/100
+|move|p2b: Linger|Aurora Veil|p2b: Linger
+|-sidestart|p2: MuppetsChristmas|move: Aurora Veil
+|cant|p2a: Dearg Doom|flinch
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756327419
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-enditem|p1b: Gholdengo|Grassy Seed
+|-boost|p1b: Gholdengo|def|1|[from] item: Grassy Seed
+|-terastallize|p1b: Gholdengo|Water
+|move|p2b: Linger|Blizzard|p1a: Rillaboom|[spread] p1a,p1b
+|-supereffective|p1a: Rillaboom
+|-resisted|p1b: Gholdengo
+|-crit|p1b: Gholdengo
+|-damage|p1a: Rillaboom|57/100
+|-damage|p1b: Gholdengo|76/100
+|move|p2a: Dearg Doom|Rock Slide|p1a: Rillaboom|[spread] p1a,p1b
+|-damage|p1a: Rillaboom|29/100
+|-damage|p1b: Gholdengo|57/100
+|move|p1b: Gholdengo|Make It Rain|p2b: Linger|[spread] p2a,p2b
+|-supereffective|p2b: Linger
+|-damage|p2a: Dearg Doom|29/100
+|-damage|p2b: Linger|0 fnt
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2b: Linger
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Dearg Doom|35/100|[from] Grassy Terrain
+|-heal|p1b: Gholdengo|64/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|36/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756327424
+|switch|p2b: Rocky Road|Sneasler, L50, M|100/100
+|turn|3
+|
+|t:|1756327474
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Dearg Doom|unboost|[from] item: Clear Amulet|[of] p2a: Dearg Doom
+|-unboost|p2b: Rocky Road|atk|1
+|move|p2b: Rocky Road|Dire Claw|p1b: Gholdengo
+|-damage|p1b: Gholdengo|46/100
+|-status|p1b: Gholdengo|psn
+|move|p2a: Dearg Doom|Rock Slide|p1a: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Incineroar
+|-crit|p1b: Gholdengo
+|-damage|p1a: Incineroar|48/100
+|-damage|p1b: Gholdengo|8/100 psn
+|move|p1b: Gholdengo|Shadow Ball|p2a: Dearg Doom
+|-damage|p2a: Dearg Doom|0 fnt
+|faint|p2a: Dearg Doom
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Gholdengo|15/100 psn|[from] Grassy Terrain
+|-heal|p1a: Incineroar|54/100|[from] Grassy Terrain
+|-damage|p1b: Gholdengo|2/100 psn|[from] psn
+|upkeep
+|
+|t:|1756327476
+|switch|p2a: BrewingStorm|Dragonite, L50, F|100/100
+|turn|4
+|
+|t:|1756327504
+|switch|p1a: Rillaboom|Rillaboom, L50, F|36/100
+|move|p2b: Rocky Road|Protect|p2b: Rocky Road
+|-singleturn|p2b: Rocky Road|Protect
+|move|p2a: BrewingStorm|Protect|p2a: BrewingStorm
+|-singleturn|p2a: BrewingStorm|Protect
+|move|p1b: Gholdengo|Make It Rain|p2b: Rocky Road|[spread] 
+|-activate|p2a: BrewingStorm|move: Protect
+|-activate|p2b: Rocky Road|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Gholdengo|8/100 psn|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|42/100|[from] Grassy Terrain
+|-damage|p1b: Gholdengo|0 fnt|[from] psn
+|faint|p1b: Gholdengo
+|upkeep
+|
+|t:|1756327551
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100
+|turn|5
+|
+|t:|1756327566
+|move|p2a: BrewingStorm|Protect||[still]
+|-fail|p2a: BrewingStorm
+|move|p1a: Rillaboom|Fake Out|p2a: BrewingStorm
+|-damage|p2a: BrewingStorm|95/100
+|move|p2b: Rocky Road|Dire Claw|p1b: Ninetales
+|-supereffective|p1b: Ninetales
+|-damage|p1b: Ninetales|43/100
+|move|p1b: Ninetales|Blizzard|p2b: Rocky Road|[spread] p2a,p2b
+|-supereffective|p2a: BrewingStorm
+|-damage|p2a: BrewingStorm|0 fnt
+|-damage|p2b: Rocky Road|69/100
+|faint|p2a: BrewingStorm
+|
+|-weather|none
+|-heal|p2b: Rocky Road|75/100|[from] Grassy Terrain
+|-heal|p1b: Ninetales|49/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|48/100|[from] Grassy Terrain
+|-sideend|p2: MuppetsChristmas|move: Aurora Veil
+|upkeep
+|turn|6
+|
+|t:|1756327584
+|switch|p1b: Incineroar|Incineroar, L50, F|54/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2b: Rocky Road|atk|1
+|-terastallize|p2b: Rocky Road|Stellar
+|move|p2b: Rocky Road|Dire Claw|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2b: Rocky Road|80/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|60/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756327593
+|switch|p1a: Ninetales|Ninetales-Alola, L50, M|49/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|7
+|
+|t:|1756327601
+|move|p2b: Rocky Road|Protect|p2b: Rocky Road
+|-singleturn|p2b: Rocky Road|Protect
+|move|p1b: Incineroar|Fake Out|p2b: Rocky Road
+|-activate|p2b: Rocky Road|move: Protect
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: T-block|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1756327634
+|move|p2b: Rocky Road|Close Combat|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p2b: Rocky Road|def|1
+|-unboost|p2b: Rocky Road|spd|1
+|faint|p1b: Incineroar
+|move|p1a: Ninetales|Blizzard|p2b: Rocky Road
+|-damage|p2b: Rocky Road|0 fnt
+|faint|p2b: Rocky Road
+|
+|win|T-block
+||MuppetsChristmas is ready for game 2.

@@ -1,0 +1,128 @@
+|j|☆Stenbuck
+|j|☆MobiusVGC
+|html|StenbuckMobiusVGC    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756220776
+|gametype|doubles
+|player|p1|Stenbuck|102|1058
+|player|p2|MobiusVGC|gentleman-gen4dp|1151
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Dragapult, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Magmar, L50, F|
+|teampreview|4
+|showteam|p1|Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,HyperVoice,EarthPower,VacuumWave|||M|||50|,,,,,Normal]Porygon2||Eviolite|Trace|IceBeam,Thunderbolt,Recover,TrickRoom||||||50|,,,,,Ghost]Amoonguss||CovertCloak|Regenerator|Spore,RagePowder,PollenPuff,SludgeBomb|||F|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|KnockOff,FakeOut,PartingShot,FlareBlitz|||M|||50|,,,,,Ghost]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,PhantomForce,Uturn|||M|||50|,,,,,Dragon]Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,ThroatChop,FakeOut|||M|||50|,,,,,Dark
+|showteam|p2|Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,FakeOut,Protect|||M|||50|,,,,,Stellar]Dragapult||ChoiceBand|ClearBody|DragonDarts,TeraBlast,PhantomForce,Uturn|||F|||50|,,,,,Ghost]Primarina||SitrusBerry|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||M|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||F|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Ghost]Magmar||Eviolite|VitalSpirit|Overheat,WillOWisp,FollowMe,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1756220820
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Dragapult|Dragapult, L50, M|100/100
+|switch|p2a: Dragapult|Dragapult, L50, F|100/100
+|switch|p2b: Kingambit|Kingambit, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
+|-unboost|p2b: Kingambit|atk|1
+|-ability|p2b: Kingambit|Defiant|boost
+|-boost|p2b: Kingambit|atk|2
+|turn|1
+|
+|t:|1756220845
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|move|p2b: Kingambit|Protect|p2b: Kingambit
+|-singleturn|p2b: Kingambit|Protect
+|move|p2a: Dragapult|U-turn|p1a: Incineroar
+|-damage|p1a: Incineroar|70/100
+|
+|t:|1756220853
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100|[from] U-turn
+|move|p1a: Incineroar|Flare Blitz|p2b: Kingambit
+|-activate|p2b: Kingambit|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1756220883
+|switch|p2b: Magmar|Magmar, L50, F|100/100
+|move|p1b: Ursaluna|Vacuum Wave|p2b: Magmar
+|-damage|p2b: Magmar|87/100
+|move|p2a: Sneasler|Close Combat|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|3/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-status|p1b: Ursaluna|psn|[from] ability: Poison Touch|[of] p2a: Sneasler
+|move|p1a: Incineroar|Flare Blitz|p2b: Magmar
+|-resisted|p2b: Magmar
+|-damage|p2b: Magmar|63/100
+|-damage|p1a: Incineroar|63/100|[from] Recoil
+|
+|-damage|p1b: Ursaluna|0 fnt|[from] psn
+|faint|p1b: Ursaluna
+|upkeep
+|
+|t:|1756220896
+|switch|p1b: Dragapult|Dragapult, L50, M|100/100
+|turn|3
+|
+|t:|1756220912
+|-terastallize|p1b: Dragapult|Dragon
+|move|p1b: Dragapult|Dragon Darts|p2b: Magmar
+|-crit|p2b: Magmar
+|-damage|p2b: Magmar|0 fnt
+|-anim|p1b: Dragapult|Dragon Darts|p2a: Sneasler
+|-enditem|p2a: Sneasler|Focus Sash
+|-damage|p2a: Sneasler|1/100
+|faint|p2b: Magmar
+|move|p2a: Sneasler|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Incineroar
+|
+|upkeep
+|
+|t:|1756220926
+|switch|p2b: Dragapult|Dragapult, L50, F|100/100
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|turn|4
+|
+|t:|1756220938
+|-terastallize|p2b: Dragapult|Ghost
+|move|p2b: Dragapult|Dragon Darts|p1a: Sneasler
+|-damage|p1a: Sneasler|34/100
+|-anim|p2b: Dragapult|Dragon Darts|p1b: Dragapult
+|-supereffective|p1b: Dragapult
+|-damage|p1b: Dragapult|0 fnt
+|faint|p1b: Dragapult
+|move|p1a: Sneasler|Throat Chop|p2b: Dragapult
+|-supereffective|p2b: Dragapult
+|-damage|p2b: Dragapult|28/100
+|-start|p2b: Dragapult|Throat Chop|[silent]
+|-status|p2b: Dragapult|psn|[from] ability: Poison Touch|[of] p1a: Sneasler
+|move|p2a: Sneasler|Dire Claw|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|win|MobiusVGC
+|raw|Stenbuck's rating: 1058 → 1044(-14 for losing)
+|raw|MobiusVGC's rating: 1151 → 1169(+18 for winning)
+|c|☆MobiusVGC|ggs

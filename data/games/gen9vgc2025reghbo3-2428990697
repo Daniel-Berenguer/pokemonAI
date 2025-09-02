@@ -1,0 +1,101 @@
+|j|☆mackerjuan
+|j|☆atmhools1
+|html|mackerjuanatmhools1    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756217242
+|gametype|doubles
+|player|p1|mackerjuan|102|1181
+|player|p2|atmhools1|169|1079
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Porygon2, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Hydreigon, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||F|||50|,,,,,Water]Hydreigon||CovertCloak|Levitate|Taunt,Tailwind,DracoMeteor,Snarl|||M|||50|,,,,,Steel
+|showteam|p2|Torkoal||Charcoal|Drought|Eruption,EarthPower,Flamethrower,Protect|||M|||50|,,,,,Grass]Indeedee-F||PsychicSeed|PsychicSurge|DazzlingGleam,HelpingHand,TrickRoom,FollowMe|||F|||50|,,,,,Flying]Annihilape||ChoiceScarf|Defiant|RageFist,DrainPunch,CloseCombat,FinalGambit|||F|||50|,,,,,Grass]Amoonguss||MentalHerb|Regenerator|PollenPuff,Spore,RagePowder,ClearSmog|||F|||50|,,,,,Dark]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,BulkUp,Protect|||F|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,Uturn,FakeOut|||F|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mackerjuan)
+|inactive|mackerjuan has 60 seconds left.
+|
+|t:|1756217291
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Annihilape|Annihilape, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756217312
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-terastallize|p2b: Annihilape|Grass
+|move|p2b: Annihilape|Rage Fist|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|55/100
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p1b: Amoonguss|Spore|p2a: Rillaboom
+|-immune|p2a: Rillaboom
+|
+|-heal|p1a: Gholdengo|61/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756217335
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2b: Annihilape|Rage Fist|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|move|p2a: Rillaboom|Wood Hammer|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|move|p1b: Amoonguss|Pollen Puff|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|73/100
+|
+|-heal|p1a: Gholdengo|67/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|79/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756217355
+|move|p2b: Annihilape|Rage Fist|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|20/100
+|move|p1a: Gholdengo|Make It Rain|p2b: Annihilape|[spread] p2a,p2b
+|-damage|p2a: Rillaboom|8/100
+|-damage|p2b: Annihilape|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2b: Annihilape
+|-damage|p1a: Gholdengo|10/100|[from] item: Life Orb
+|move|p2a: Rillaboom|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|4/100
+|l|☆atmhools1
+|inactive|atmhools1 disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|atmhools1 has 30 seconds left.
+|inactive|atmhools1 has 20 seconds left.
+|inactive|atmhools1 has 15 seconds left.
+|inactive|atmhools1 has 10 seconds left.
+|inactive|atmhools1 has 5 seconds left.
+|-message|atmhools1 lost due to inactivity.
+|
+|win|mackerjuan

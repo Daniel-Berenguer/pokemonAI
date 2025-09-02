@@ -1,0 +1,139 @@
+|j|☆Dis_Plot
+|j|☆KaiserBN1
+|html|Dis_PlotKaiserBN1    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756348963
+|gametype|doubles
+|player|p1|Dis_Plot|psychicf-gen4|1076
+|player|p2|KaiserBN1|n|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragapult, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Electabuzz, L50, F|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Primarina, L50, M|
+|poke|p2|Maushold-Four, L50|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,PhantomForce,Uturn|||M|||50|,,,,,Dragon]Volcarona||Leftovers|FlameBody|HeatWave,QuiverDance,Protect,TeraBlast|||M|||50|,,,,,Fairy]Electabuzz||Eviolite|VitalSpirit|FollowMe,Electroweb,Protect,HelpingHand|||F|||50|,,,,,Ghost]Whimsicott||CovertCloak|Prankster|Tailwind,Moonblast,Encore,Taunt|||M|||50|,,,,,Dark]Sneasler||WhiteHerb|Unburden|DireClaw,CloseCombat,FakeOut,Protect|||M|||50|,,,,,Ghost]Primarina||SafetyGoggles|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||M|||50|,,,,,Poison
+|showteam|p2|Maushold-Four||WideLens|Technician|PopulationBomb,FollowMe,Taunt,Protect||||||50|,,,,,Poison]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Hatterene||CovertCloak|MagicBounce|ExpandingForce,DazzlingGleam,TeraBlast,TrickRoom|||F|||50|,,,,,Fire]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,HelpingHand,TrickRoom,Psychic|||F|||50|,,,,,Water]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KaiserBN1)
+|inactive|Dis_Plot also wants the timer to be on.
+|inactive|KaiserBN1 has 60 seconds left.
+|
+|t:|1756348998
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragapult|Dragapult, L50, M|100/100
+|switch|p1b: Electabuzz|Electabuzz, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|inactive|Dis_Plot has 30 seconds left.
+|inactive|KaiserBN1 has 30 seconds left.
+|
+|t:|1756349029
+|switch|p1b: Primarina|Primarina, L50, M|100/100
+|move|p1a: Dragapult|Phantom Force||[still]
+|-prepare|p1a: Dragapult|Phantom Force
+|move|p2b: Hatterene|Expanding Force|p1a: Dragapult|[spread] p1b
+|-miss|p2b: Hatterene|p1a: Dragapult
+|-damage|p1b: Primarina|25/100
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|turn|2
+|inactive|KaiserBN1 has 30 seconds left.
+|inactive|KaiserBN1 has 20 seconds left.
+|inactive|KaiserBN1 has 15 seconds left.
+|inactive|KaiserBN1 has 10 seconds left.
+|
+|t:|1756349078
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|move|p1b: Primarina|Protect|p1b: Primarina
+|-singleturn|p1b: Primarina|Protect
+|move|p2b: Hatterene|Expanding Force|p1b: Primarina|[spread] 
+|-miss|p2b: Hatterene|p1a: Dragapult
+|-activate|p1b: Primarina|move: Protect
+|move|p1a: Dragapult|Phantom Force|p2b: Hatterene|[from] lockedmove
+|-supereffective|p2b: Hatterene
+|-damage|p2b: Hatterene|0 fnt
+|faint|p2b: Hatterene
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756349095
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|turn|3
+|inactive|Dis_Plot has 30 seconds left.
+|
+|t:|1756349120
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|move|p1b: Primarina|Protect||[still]
+|-fail|p1b: Primarina
+|move|p2a: Ursaluna|Facade|p1b: Primarina
+|-damage|p1b: Primarina|0 fnt
+|faint|p1b: Primarina
+|move|p2b: Gallade|Psycho Cut|p1a: Volcarona
+|-damage|p1a: Volcarona|18/100
+|
+|-heal|p1a: Volcarona|24/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756349130
+|switch|p1b: Dragapult|Dragapult, L50, M|100/100
+|turn|4
+|
+|t:|1756349141
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p2a: Ursaluna|Facade|p1a: Volcarona
+|-activate|p1a: Volcarona|move: Protect
+|move|p2b: Gallade|Psycho Cut|p1b: Dragapult
+|-damage|p1b: Dragapult|0 fnt
+|faint|p1b: Dragapult
+|
+|-heal|p1a: Volcarona|30/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1756349149
+|switch|p1b: Electabuzz|Electabuzz, L50, F|100/100
+|turn|5
+|
+|t:|1756349157
+|-terastallize|p1a: Volcarona|Fairy
+|move|p2b: Gallade|Wide Guard|p2b: Gallade
+|-singleturn|p2b: Gallade|Wide Guard
+|move|p1b: Electabuzz|Follow Me|p1b: Electabuzz
+|-singleturn|p1b: Electabuzz|move: Follow Me
+|move|p2a: Ursaluna|Earthquake|p1b: Electabuzz|[spread] p1a,p1b
+|-activate|p2b: Gallade|move: Wide Guard
+|-supereffective|p1b: Electabuzz
+|-damage|p1a: Volcarona|0 fnt
+|-damage|p1b: Electabuzz|0 fnt
+|faint|p1a: Volcarona
+|faint|p1b: Electabuzz
+|
+|win|KaiserBN1
+|raw|Dis_Plot's rating: 1076 → 1050(-26 for losing)
+|raw|KaiserBN1's rating: 1000 → 1049(+49 for winning)
+|l|☆Dis_Plot
+|player|p1|

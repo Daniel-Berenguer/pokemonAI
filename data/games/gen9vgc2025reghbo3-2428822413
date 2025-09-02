@@ -1,0 +1,147 @@
+|j|☆Typ.Null07
+|j|☆Desertfreak
+|html|Typ.Null07Desertfreak    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756192427
+|gametype|doubles
+|player|p1|Typ.Null07|101|1288
+|player|p2|Desertfreak|266|1400
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Dragapult, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Kilowattrel, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|showteam|p1|Volcarona||GrassySeed|FlameBody|FieryDance,GigaDrain,QuiverDance,Protect|||F|||50|,,,,,Grass]Rillaboom||AssaultVest|GrassySurge|DrumBeating,GrassyGlide,Uturn,FakeOut|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Substitute,Protect|||F|||50|,,,,,Ghost]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,Outrage,Uturn|||M|||50|,,,,,Dragon]Farigiraf||ThroatSpray|ArmorTail|HyperVoice,PsychicNoise,Roar,TrickRoom|||M|||50|,,,,,Water]Incineroar||AguavBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Water
+|showteam|p2|Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,Protect,NastyPlot||||||50|,,,,,Water]Kilowattrel||FocusSash|Competitive|AirSlash,Thunderbolt,Tailwind,Protect|||F|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||F|||50|,,,,,Water]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Ursaluna||FlameOrb|Guts|Earthquake,Facade,HeadlongRush,Protect|||M|||50|,,,,,Ghost
+|
+|t:|1756192451
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragapult|Dragapult, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Kilowattrel|Kilowattrel, L50, F, shiny|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|-unboost|p1b: Farigiraf|atk|1
+|turn|1
+|
+|t:|1756192488
+|-terastallize|p1b: Farigiraf|Water
+|move|p1a: Dragapult|Outrage|p2a: Kilowattrel
+|-enditem|p2a: Kilowattrel|Focus Sash
+|-damage|p2a: Kilowattrel|1/100
+|move|p2a: Kilowattrel|Thunderbolt|p1b: Farigiraf
+|-supereffective|p1b: Farigiraf
+|-damage|p1b: Farigiraf|35/100
+|move|p2b: Incineroar|Knock Off|p1b: Farigiraf
+|-damage|p1b: Farigiraf|0 fnt
+|-enditem|p1b: Farigiraf|Throat Spray|[from] move: Knock Off|[of] p2b: Incineroar
+|faint|p1b: Farigiraf
+|
+|upkeep
+|
+|t:|1756192502
+|switch|p1b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Kilowattrel|atk|1
+|-ability|p2a: Kilowattrel|Competitive|boost
+|-boost|p2a: Kilowattrel|spa|2
+|-unboost|p2b: Incineroar|atk|1
+|turn|2
+|j| Aska IV
+|
+|t:|1756192517
+|move|p1b: Incineroar|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|88/100
+|move|p1a: Dragapult|Outrage|p2b: Incineroar|[from] lockedmove
+|-crit|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Kilowattrel|Tailwind|p2a: Kilowattrel
+|-sidestart|p2: Desertfreak|move: Tailwind
+|
+|upkeep
+|
+|t:|1756192525
+|switch|p2b: Porygon2|Porygon2, L50, shiny|100/100
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|atk|1
+|turn|3
+|
+|t:|1756192540
+|move|p2a: Kilowattrel|Air Slash|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|move|p2b: Porygon2|Ice Beam|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|89/100
+|move|p1b: Incineroar|Knock Off|p2a: Kilowattrel
+|-damage|p2a: Kilowattrel|0 fnt
+|faint|p2a: Kilowattrel
+|
+|upkeep
+|
+|t:|1756192545
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p2a: Ursaluna|Ursaluna, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1756192556
+|-terastallize|p2b: Porygon2|Fighting
+|move|p2a: Ursaluna|Headlong Rush|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1b: Incineroar
+|move|p2b: Porygon2|Tera Blast|p1a: Ursaluna|[anim] Tera Blast Fighting
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|35/100
+|move|p1a: Ursaluna|Facade|p2a: Ursaluna
+|-damage|p2a: Ursaluna|49/100
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1756192560
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Ursaluna|Facade|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|move|p2b: Porygon2|Tera Blast|p1a: Ursaluna|[anim] Tera Blast Fighting
+|-activate|p1a: Ursaluna|move: Protect
+|
+|-damage|p2a: Ursaluna|44/100 brn|[from] brn
+|-damage|p1a: Ursaluna|29/100 brn|[from] brn
+|-sideend|p2: Desertfreak|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1756192563
+|move|p2a: Ursaluna|Facade|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|win|Desertfreak
+|raw|Typ.Null07's rating: 1288 → 1271(-17 for losing)
+|raw|Desertfreak's rating: 1400 → 1414(+14 for winning)
+|c|☆Typ.Null07|ggwp
+|c|☆Desertfreak|Ggwp

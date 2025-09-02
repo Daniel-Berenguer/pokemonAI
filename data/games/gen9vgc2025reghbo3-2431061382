@@ -1,0 +1,200 @@
+|j|☆Cristante terabug
+|j|☆Cenacchi359
+|html|Cristante terabugCenacchi359    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756474674
+|gametype|doubles
+|player|p1|Cristante terabug|kieran-champion|
+|player|p2|Cenacchi359|leon|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,KnockOff,FlareBlitz|||F|||50|,,,,,Flying]Pelipper||FocusSash|Drizzle|Hurricane,MuddyWater,Tailwind,Protect|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|ElectroShot,Snarl,FlashCannon,BodyPress|||M|||50|,,,,,Bug]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,LifeDew,TrickRoom||||||50|,,,,,Dark]Ursaluna||FlameOrb|Guts|Earthquake,Facade,HeadlongRush,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,Taunt,PartingShot|||M|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||M|||50|,,,,,Fairy]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|ElectroShot,DragonPulse,FlashCannon,BodyPress|||M|||50|,,,,,Bug]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,AquaJet,FlipTurn,LastRespects|||M|||50|,,,,,Water
+|
+|t:|1756474761
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|switch|p2a: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|turn|1
+|
+|t:|1756474819
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Amoonguss|atk|1
+|-unboost|p2b: Gholdengo|atk|1
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p1b: Archaludon|Snarl|p2b: Gholdengo|[spread] p2a
+|-miss|p1b: Archaludon|p2b: Gholdengo
+|-damage|p2a: Amoonguss|90/100
+|-unboost|p2a: Amoonguss|spa|1
+|move|p2a: Amoonguss|Spore|p1b: Archaludon
+|-status|p1b: Archaludon|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1756474842
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Archaludon|atk|1
+|-terastallize|p2b: Gholdengo|Water
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|cant|p1b: Archaludon|slp
+|move|p1a: Incineroar|Flare Blitz|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|85/100
+|-damage|p1a: Incineroar|95/100|[from] Recoil
+|
+|upkeep
+|turn|3
+|
+|t:|1756474867
+|move|p2b: Gholdengo|Shadow Ball|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|faint|p1b: Archaludon
+|-damage|p2b: Gholdengo|91/100|[from] item: Life Orb
+|move|p1a: Incineroar|Knock Off|p2b: Gholdengo
+|-damage|p2b: Gholdengo|63/100
+|-enditem|p2b: Gholdengo|Life Orb|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2a: Incineroar|Knock Off|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|77/100
+|-enditem|p1a: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|
+|t:|1756474881
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|turn|4
+|
+|t:|1756474901
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1b: Dragonite|Scale Shot|p2b: Gholdengo
+|-activate|p2b: Gholdengo|move: Protect
+|move|p1a: Incineroar|Parting Shot|p2a: Incineroar
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2a: Incineroar|spa|1
+|
+|t:|1756474908
+|switch|p1a: Sinistcha|Sinistcha, L50, shiny|100/100|[from] Parting Shot
+|move|p2a: Incineroar|Parting Shot|p1b: Dragonite
+|-unboost|p1b: Dragonite|atk|1
+|-unboost|p1b: Dragonite|spa|1
+|
+|t:|1756474916
+|switch|p2a: Amoonguss|Amoonguss, L50, M|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|5
+|
+|t:|1756474929
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p2b: Gholdengo|Make It Rain|p1a: Sinistcha|[spread] p1a,p1b
+|-damage|p1a: Sinistcha|0 fnt
+|-damage|p1b: Dragonite|30/100
+|-unboost|p2b: Gholdengo|spa|1
+|faint|p1a: Sinistcha
+|move|p1b: Dragonite|Haze|p1b: Dragonite
+|-clearallboost
+|
+|upkeep
+|
+|t:|1756474935
+|switch|p1a: Incineroar|Incineroar, L50, F|77/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Amoonguss|atk|1
+|-unboost|p2b: Gholdengo|atk|1
+|turn|6
+|
+|t:|1756474943
+|move|p1b: Dragonite|Protect|p1b: Dragonite
+|-singleturn|p1b: Dragonite|Protect
+|move|p2b: Gholdengo|Shadow Ball|p1b: Dragonite
+|-activate|p1b: Dragonite|move: Protect
+|move|p1a: Incineroar|Flare Blitz|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|13/100
+|-status|p2a: Amoonguss|brn
+|-enditem|p2a: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2a: Amoonguss|38/100 brn|[from] item: Sitrus Berry
+|-damage|p1a: Incineroar|45/100|[from] Recoil
+|move|p2a: Amoonguss|Spore|p1b: Dragonite
+|-activate|p1b: Dragonite|move: Protect
+|
+|-damage|p2a: Amoonguss|32/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1756474959
+|move|p2b: Gholdengo|Shadow Ball|p1b: Dragonite
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1b: Dragonite
+|move|p1a: Incineroar|Flare Blitz|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|-damage|p1a: Incineroar|34/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1756474965
+|switch|p2a: Incineroar|Incineroar, L50, M|85/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|turn|8
+|
+|t:|1756474970
+|move|p2a: Incineroar|Fake Out|p1a: Incineroar
+|-damage|p1a: Incineroar|23/100
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|cant|p1a: Incineroar|flinch
+|
+|upkeep
+|turn|9
+|
+|t:|1756474980
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1a: Incineroar|Flare Blitz|p2b: Gholdengo
+|-activate|p2b: Gholdengo|move: Protect
+|move|p2a: Incineroar|Knock Off|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|12/100
+|
+|upkeep
+|turn|10
+|
+|t:|1756474993
+|move|p2b: Gholdengo|Make It Rain|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2b: Gholdengo|spa|1
+|faint|p1a: Incineroar
+|
+|win|Cenacchi359

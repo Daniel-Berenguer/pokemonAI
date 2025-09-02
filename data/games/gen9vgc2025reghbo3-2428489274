@@ -1,0 +1,95 @@
+|j|☆ELMenudo
+|j|☆JuiceBurger
+|html|ELMenudoJuiceBurger    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756150138
+|gametype|doubles
+|player|p1|ELMenudo|102|1047
+|player|p2|JuiceBurger|hilbert|1137
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zoroark-Hisui, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Decidueye-Hisui, L50, F|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Gyarados, L50, F|
+|poke|p2|Toedscruel, L50, M|
+|poke|p2|Slaking, L50, F|
+|poke|p2|Weezing-Galar, L50, M|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Talonflame, L50, M|
+|teampreview|4
+|showteam|p1|Zoroark-Hisui||FocusSash|Illusion|BitterMalice,HyperVoice,Protect,NastyPlot|||M|||50|,,,,,Normal]Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,RockSlide,Protect|||M|||50|,,,,,Ground]Decidueye-Hisui||SitrusBerry|Scrappy|LeafBlade,TripleArrows,Coaching,Haze|||F|||50|,,,,,Grass]Corviknight||CovertCloak|MirrorArmor|Tailwind,BraveBird,IronDefense,BodyPress|||F|||50|,,,,,Fighting]Electabuzz||Eviolite|VitalSpirit|FollowMe,Thunderbolt,Taunt,ThunderWave|||M|||50|,,,,,Electric]Gyarados||Leftovers|Intimidate|DragonDance,Waterfall,Crunch,Protect|||F|||50|,,,,,Water
+|showteam|p2|Toedscruel||MentalHerb|MyceliumMight|EarthPower,AcidSpray,Spore,Protect|||M|||50|,,,,,Ghost]Slaking||ChoiceBand|Truant|DoubleEdge,GigaImpact,KnockOff,HighHorsepower|||F|||50|,,,,,Ghost]Weezing-Galar||FocusSash|NeutralizingGas|SludgeBomb,StrangeSteam,Taunt,Protect|||M|||50|,,,,,Flying]Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,StompingTantrum,Protect|||F|||50|,,,,,Ground]Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,ShadowBall,DazzlingGleam,PowerGem||||||50|,,,,,Fairy]Talonflame||CovertCloak|GaleWings|DualWingbeat,FlareBlitz,Tailwind,WillOWisp|||M|||50|,,,,,Stellar
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ELMenudo)
+|inactive|JuiceBurger also wants the timer to be on.
+|inactive|ELMenudo has 60 seconds left.
+|inactive|JuiceBurger has 60 seconds left.
+|
+|t:|1756150185
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100
+|switch|p1b: Decidueye|Decidueye-Hisui, L50, F|100/100
+|switch|p2a: Slaking|Slaking, L50, F|100/100
+|switch|p2b: Weezing|Weezing-Galar, L50, M, shiny|100/100
+|-ability|p2b: Weezing|Neutralizing Gas
+|replace|p1b: Zoroark|Zoroark-Hisui, L50, M
+|-end|p1b: Zoroark|Illusion
+|turn|1
+|inactive|JuiceBurger has 30 seconds left.
+|inactive|JuiceBurger has 20 seconds left.
+|inactive|JuiceBurger has 15 seconds left.
+|inactive|JuiceBurger has 10 seconds left.
+|inactive|JuiceBurger has 5 seconds left.
+|
+|t:|1756150236
+|-terastallize|p1a: Garchomp|Ground
+|-terastallize|p2b: Weezing|Flying
+|move|p1b: Zoroark|Protect|p1b: Zoroark
+|-singleturn|p1b: Zoroark|Protect
+|move|p1a: Garchomp|Earthquake|p2b: Weezing|[spread] p2a
+|-activate|p1b: Zoroark|move: Protect
+|-immune|p2b: Weezing
+|-damage|p2a: Slaking|43/100
+|-damage|p1a: Garchomp|91/100|[from] item: Life Orb
+|move|p2a: Slaking|Knock Off|p1b: Zoroark
+|-activate|p1b: Zoroark|move: Protect
+|move|p2b: Weezing|Sludge Bomb|p1b: Zoroark
+|-activate|p1b: Zoroark|move: Protect
+|
+|upkeep
+|turn|2
+|inactive|ELMenudo has 30 seconds left.
+|inactive|JuiceBurger has 30 seconds left.
+|inactive|JuiceBurger has 20 seconds left.
+|inactive|JuiceBurger has 15 seconds left.
+|
+|t:|1756150279
+|switch|p2a: Talonflame|Talonflame, L50, M|100/100
+|move|p1b: Zoroark|Hyper Voice|p2b: Weezing|[spread] p2a,p2b
+|-crit|p2a: Talonflame
+|-damage|p2a: Talonflame|21/100
+|-damage|p2b: Weezing|42/100
+|move|p1a: Garchomp|Rock Slide|p2b: Weezing|[spread] p2a,p2b
+|-supereffective|p2a: Talonflame
+|-supereffective|p2b: Weezing
+|-crit|p2b: Weezing
+|-damage|p2a: Talonflame|0 fnt
+|-damage|p2b: Weezing|0 fnt
+|faint|p2a: Talonflame
+|faint|p2b: Weezing
+|-end|p2b: Weezing|ability: Neutralizing Gas
+|-damage|p1a: Garchomp|81/100|[from] item: Life Orb
+|
+|upkeep
+|-message|JuiceBurger forfeited.
+|
+|win|ELMenudo

@@ -1,0 +1,179 @@
+|j|☆jillyboy
+|j|☆aqueousbloop
+|html|jillyboyaqueousbloop    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756213184
+|gametype|doubles
+|player|p1|jillyboy|1|1005
+|player|p2|aqueousbloop|101|1091
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Lurantis, L50, F|
+|poke|p2|Hatterene, L50, F|
+|teampreview|4
+|showteam|p1|Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,Tailwind,RagePowder|||M|||50|,,,,,Fire]Charizard||ChoiceSpecs|SolarPower|DragonPulse,HeatWave,Overheat,WeatherBall|||F|||50|,,,,,Ghost]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|ClearSmog,Eruption,Overheat,Protect|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Sneasler||SafetyGoggles|PoisonTouch|ThroatChop,CloseCombat,DireClaw,FakeOut|||F|||50|,,,,,Dark]Basculegion||ChoiceBand|SwiftSwim|FlipTurn,WaveCrash,LastRespects,AquaJet|||M|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,WideGuard,Protect|||M|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,HelpingHand,Psychic|||F|||50|,,,,,Fairy]Lurantis||AssaultVest|Contrary|Superpower,LeafBlade,KnockOff,Rest|||F|||50|,,,,,Poison]Hatterene||LifeOrb|MagicBounce|TrickRoom,ExpandingForce,DazzlingGleam,Protect|||F|||50|,,,,,Psychic
+|
+|t:|1756213231
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Porygon2|Porygon2, L50|100/100
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|1
+|
+|t:|1756213267
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|-terastallize|p1a: Porygon2|Fighting
+|move|p1b: Torkoal|Protect|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Protect
+|move|p2a: Basculegion|Wave Crash|p1b: Torkoal
+|-activate|p1b: Torkoal|move: Protect
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756213304
+|-terastallize|p2b: Pelipper|Ghost
+|move|p1b: Torkoal|Overheat|p2b: Pelipper|[miss]
+|-miss|p1b: Torkoal|p2b: Pelipper
+|move|p1a: Porygon2|Ice Beam|p2b: Pelipper
+|-damage|p2b: Pelipper|68/100
+|move|p2b: Pelipper|Hurricane|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|44/100
+|move|p2a: Basculegion|Wave Crash|p1b: Torkoal
+|-supereffective|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|-damage|p2a: Basculegion|71/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756213319
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|3
+|
+|t:|1756213341
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p1a: Porygon2|Ice Beam|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-damage|p2a: Basculegion|58/100
+|-status|p2a: Basculegion|frz
+|move|p2b: Pelipper|Hurricane|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|cant|p2a: Basculegion|frz
+|
+|-weather|RainDance|[upkeep]
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756213355
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Basculegion|atk|1
+|-unboost|p2b: Pelipper|atk|1
+|turn|4
+|
+|t:|1756213381
+|move|p2b: Pelipper|Protect|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Protect
+|move|p1b: Ursaluna|Headlong Rush|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|faint|p2a: Basculegion
+|move|p1a: Incineroar|Knock Off|p2b: Pelipper
+|-activate|p2b: Pelipper|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1756213392
+|switch|p2a: Lurantis|Lurantis, L50, F|100/100
+|turn|5
+|
+|t:|1756213402
+|move|p2a: Lurantis|Superpower|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|32/100
+|-boost|p2a: Lurantis|atk|1
+|-boost|p2a: Lurantis|def|1
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|56/100|[from] item: Sitrus Berry
+|move|p1b: Ursaluna|Facade|p2a: Lurantis
+|-damage|p2a: Lurantis|10/100
+|move|p1a: Incineroar|Knock Off|p2b: Pelipper
+|-supereffective|p2b: Pelipper
+|-damage|p2b: Pelipper|0 fnt
+|-enditem|p2b: Pelipper|Focus Sash|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2b: Pelipper
+|
+|-weather|none
+|-damage|p1b: Ursaluna|88/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1756213418
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|turn|6
+|
+|t:|1756213447
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Sneasler|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1a: Incineroar
+|move|p2a: Lurantis|Superpower|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|-damage|p1b: Ursaluna|82/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1756213462
+|move|p2b: Sneasler|Close Combat|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1b: Ursaluna
+|
+|win|aqueousbloop
+|raw|jillyboy's rating: 1005 → 1000(-5 for losing)
+|raw|aqueousbloop's rating: 1091 → 1111(+20 for winning)
+|c|☆jillyboy|gg
+|c|☆aqueousbloop|gg
+|l|☆jillyboy
+|player|p1|

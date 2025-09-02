@@ -1,0 +1,149 @@
+|j|☆Welosethose!
+|j|☆WILLIWONKINEITOR
+|html|Welosethose!WILLIWONKINEITOR    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756505881
+|gametype|doubles
+|player|p1|Welosethose!|hilbert|1122
+|player|p2|WILLIWONKINEITOR|101|1116
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Dragapult, L50, M|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Archaludon||PowerHerb|Stalwart|ElectroShot,DracoMeteor,Thunderbolt,Protect|||F|||50|,,,,,Electric]Whimsicott||FocusSash|Prankster|Tailwind,Moonblast,Endeavor,Encore|||F|||50|,,,,,Ghost]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,TeraBlast,Uturn|||M|||50|,,,,,Ghost]Sylveon||GrassySeed|Pixilate|Protect,CalmMind,HyperVoice,TeraBlast|||M|||50|,,,,,Fire]Rillaboom||AssaultVest|GrassySurge|FakeOut,HighHorsepower,GrassyGlide,WoodHammer|||M|||50|,,,,,Poison]Incineroar||SafetyGoggles|Intimidate|Taunt,PartingShot,FakeOut,KnockOff|||M|||50|,,,,,Ghost
+|showteam|p2|Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|RagePowder,SunnyDay,Tailwind,SleepPowder|||M|||50|,,,,,Fire]Charizard||ChoiceSpecs|SolarPower|HeatWave,SolarBeam,WeatherBall,DragonPulse|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Overheat,Eruption,HelpingHand,Protect|||M|||50|,,,,,Fire
+|
+|t:|1756505901
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Komba|Incineroar, L50, M|100/100
+|switch|p1b: Dragapult|Dragapult, L50, M|100/100
+|switch|p2a: Charizard|Charizard, L50, M|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-ability|p1a: Komba|Intimidate|boost
+|-unboost|p2a: Charizard|atk|1
+|-unboost|p2b: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|-enditem|p2b: Torkoal|Eject Pack
+|
+|t:|1756505917
+|switch|p2b: Jumpluff|Jumpluff, L50, M|100/100
+|turn|1
+|
+|t:|1756505942
+|-terastallize|p2a: Charizard|Ghost
+|move|p2b: Jumpluff|Tailwind|p2b: Jumpluff
+|-sidestart|p2: WILLIWONKINEITOR|move: Tailwind
+|move|p2a: Charizard|Weather Ball|p1b: Dragapult
+|-resisted|p1b: Dragapult
+|-damage|p1b: Dragapult|0 fnt
+|faint|p1b: Dragapult
+|move|p1a: Komba|Parting Shot|p2a: Charizard
+|-unboost|p2a: Charizard|atk|1
+|-unboost|p2a: Charizard|spa|1
+|
+|t:|1756505952
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|
+|t:|1756505955
+|switch|p1b: Komba|Incineroar, L50, M|100/100
+|-ability|p1b: Komba|Intimidate|boost
+|-unboost|p2a: Charizard|atk|1
+|-unboost|p2b: Jumpluff|atk|1
+|turn|2
+|
+|t:|1756505978
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|move|p1a: Whimsicott|Encore||[still]
+|-fail|p1a: Whimsicott
+|move|p1b: Komba|Knock Off|p2a: Torkoal
+|-damage|p2a: Torkoal|77/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1756506016
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: Welosethose!|move: Tailwind
+|move|p2b: Ursaluna|Earthquake|p1a: Whimsicott|[spread] p2a,p1a,p1b
+|-supereffective|p2a: Torkoal
+|-resisted|p1a: Whimsicott
+|-supereffective|p1b: Komba
+|-damage|p2a: Torkoal|0 fnt
+|-damage|p1a: Whimsicott|50/100
+|-damage|p1b: Komba|0 fnt
+|faint|p2a: Torkoal
+|faint|p1b: Komba
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756506026
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|switch|p2a: Charizard|Charizard, L50, M, tera:Ghost|88/100
+|turn|4
+|
+|t:|1756506085
+|move|p1b: Archaludon|Protect|p1b: Archaludon
+|-singleturn|p1b: Archaludon|Protect
+|move|p1a: Whimsicott|Moonblast|p2b: Ursaluna
+|-damage|p2b: Ursaluna|58/100 brn
+|-unboost|p2b: Ursaluna|spa|1
+|move|p2a: Charizard|Weather Ball|p1b: Archaludon
+|-activate|p1b: Archaludon|move: Protect
+|move|p2b: Ursaluna|Facade|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|76/100|[from] ability: Solar Power|[of] p2a: Charizard
+|-damage|p2b: Ursaluna|52/100 brn|[from] brn
+|-sideend|p2: WILLIWONKINEITOR|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1756506111
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-enditem|p1b: Archaludon|Power Herb
+|-anim|p1b: Archaludon|Electro Shot|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|move|p2b: Ursaluna|Headlong Rush|p1b: Archaludon
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|-unboost|p2b: Ursaluna|def|1
+|-unboost|p2b: Ursaluna|spd|1
+|faint|p1b: Archaludon
+|
+|win|WILLIWONKINEITOR
+|raw|Welosethose!'s rating: 1122 → 1097(-25 for losing)
+|raw|WILLIWONKINEITOR's rating: 1116 → 1141(+25 for winning)
+|c|☆Welosethose!|yea that was a doomed mu
+|c|☆Welosethose!|this is why i dont teambuild
+|c|☆Welosethose!|gg

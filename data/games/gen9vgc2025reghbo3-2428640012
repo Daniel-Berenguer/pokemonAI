@@ -1,0 +1,192 @@
+|j|☆AetryxGameing
+|j|☆momoechis
+|html|AetryxGameingmomoechis    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756166354
+|gametype|doubles
+|player|p1|AetryxGameing|265|
+|player|p2|momoechis|iris|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Dragonite, L50, F|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,Protect,SludgeBomb|||M|||50|,,,,,Water]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||F|||50|,,,,,Fairy
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|IceBeam,TeraBlast,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1756166424
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Porygon2|atk|1
+|-unboost|p2b: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|-enditem|p2b: Torkoal|Eject Pack
+|
+|t:|1756166451
+|switch|p2b: Charizard|Charizard, L50, M|100/100
+|turn|1
+|
+|t:|1756166477
+|-terastallize|p2b: Charizard|Ghost
+|-terastallize|p1b: Gholdengo|Water
+|move|p1a: Incineroar|Fake Out|p2a: Porygon2
+|-damage|p2a: Porygon2|93/100
+|move|p2b: Charizard|Heat Wave|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-resisted|p1b: Gholdengo
+|-damage|p1a: Incineroar|54/100
+|-damage|p1b: Gholdengo|31/100
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|cant|p2a: Porygon2|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|88/100|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|turn|2
+|
+|t:|1756166514
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|move|p2b: Charizard|Heat Wave|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-resisted|p1b: Gholdengo
+|-damage|p1a: Incineroar|4/100
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|move|p1a: Incineroar|Knock Off|p2a: Jumpluff
+|-damage|p2a: Jumpluff|51/100
+|-enditem|p2a: Jumpluff|Covert Cloak|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|76/100|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|
+|t:|1756166522
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100
+|turn|3
+|
+|t:|1756166558
+|move|p2a: Jumpluff|Sleep Powder|p1b: Dragonite
+|-status|p1b: Dragonite|slp|[from] move: Sleep Powder
+|move|p2b: Charizard|Heat Wave|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-resisted|p1b: Dragonite
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Dragonite|72/100 slp
+|faint|p1a: Incineroar
+|cant|p1b: Dragonite|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|63/100|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|
+|t:|1756166561
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|turn|4
+|
+|t:|1756166577
+|move|p2a: Jumpluff|Rage Powder|p2a: Jumpluff
+|-singleturn|p2a: Jumpluff|move: Rage Powder
+|move|p2b: Charizard|Heat Wave|p1a: Amoonguss|[spread] p1b
+|-miss|p2b: Charizard|p1a: Amoonguss
+|-resisted|p1b: Dragonite
+|-damage|p1b: Dragonite|9/100 slp
+|cant|p1b: Dragonite|slp
+|move|p1a: Amoonguss|Spore|p2b: Charizard
+|-status|p2b: Charizard|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|51/100 slp|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|turn|5
+|
+|t:|1756166592
+|move|p2a: Jumpluff|Tailwind|p2a: Jumpluff
+|-sidestart|p2: momoechis|move: Tailwind
+|cant|p2b: Charizard|slp
+|-curestatus|p1b: Dragonite|slp|[msg]
+|move|p1b: Dragonite|Scale Shot|p2b: Charizard|[miss]
+|-miss|p1b: Dragonite|p2b: Charizard
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-crit|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|faint|p2a: Jumpluff
+|
+|-weather|none
+|upkeep
+|
+|t:|1756166608
+|switch|p2a: Porygon2|Porygon2, L50|93/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|turn|6
+|
+|t:|1756166642
+|move|p1b: Dragonite|Protect|p1b: Dragonite
+|-singleturn|p1b: Dragonite|Protect
+|-curestatus|p2b: Charizard|slp|[msg]
+|move|p2b: Charizard|Heat Wave|p1a: Amoonguss|[spread] p1a
+|-activate|p1b: Dragonite|move: Protect
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|21/100
+|-enditem|p1a: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1a: Amoonguss|46/100|[from] item: Sitrus Berry
+|move|p2a: Porygon2|Ice Beam|p1b: Dragonite
+|-activate|p1b: Dragonite|move: Protect
+|move|p1a: Amoonguss|Spore|p2a: Porygon2
+|-status|p2a: Porygon2|slp|[from] move: Spore
+|
+|upkeep
+|turn|7
+|
+|t:|1756166672
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Amoonguss|Protect|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|Protect
+|move|p2b: Charizard|Heat Wave|p1a: Amoonguss|[spread] p1b
+|-activate|p1a: Amoonguss|move: Protect
+|-resisted|p1b: Dragonite
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1b: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|38/100|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|turn|8
+|
+|t:|1756166683
+|move|p2b: Charizard|Heat Wave|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|win|momoechis
+||AetryxGameing is ready for game 2.
+|inactive|momoechis has 30 seconds to confirm battle start!
+||momoechis is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆AetryxGameing
+|player|p1|

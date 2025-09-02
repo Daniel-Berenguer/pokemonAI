@@ -1,0 +1,149 @@
+|j|☆SFmrmimers
+|j|☆Homero tg
+|html|SFmrmimersHomero tg    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756353363
+|gametype|doubles
+|player|p1|SFmrmimers|n|1046
+|player|p2|Homero tg|170|1025
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Magmar, L50, M|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Porygon2, L50|
+|teampreview|4
+|showteam|p1|Sneasler||FocusSash|PoisonTouch|DireClaw,CloseCombat,FakeOut,Protect|||M|||50|,,,,,Ghost]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Fire]Rillaboom||AssaultVest|GrassySurge|FakeOut,Uturn,GrassyGlide,WoodHammer|||M|||50|,,,,,Fire]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,TeraBlast,FlipTurn|||M|||50|,,,,,Fairy]Magmar||Eviolite|VitalSpirit|FollowMe,HeatWave,Taunt,Protect|||M|||50|,,,,,Ghost]Ninetales-Alola||NeverMeltIce|SnowWarning|Blizzard,FreezeDry,Encore,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,Tailwind,RagePowder|||M|||50|,,,,,Fire]Charizard||ChoiceSpecs|SolarPower|DragonPulse,HeatWave,Overheat,WeatherBall|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|ClearSmog,Eruption,Overheat,Protect|||M|||50|,,,,,Fire]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting
+|
+|t:|1756353438
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1756353456
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|move|p2a: Jumpluff|Sleep Powder|p1b: Sneasler
+|-status|p1b: Sneasler|slp|[from] move: Sleep Powder
+|cant|p1b: Sneasler|slp
+|move|p1a: Rillaboom|U-turn|p2a: Jumpluff
+|-damage|p2a: Jumpluff|69/100
+|
+|t:|1756353466
+|switch|p1a: Ninetales|Ninetales-Alola, L50, M, shiny|100/100|[from] U-turn
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756353480
+|switch|p1b: Basculegion|Basculegion, L50, M, shiny|100/100
+|move|p2a: Jumpluff|Sleep Powder|p1a: Ninetales
+|-status|p1a: Ninetales|slp|[from] move: Sleep Powder
+|cant|p1a: Ninetales|slp
+|move|p2b: Torkoal|Eruption|p1b: Basculegion|[spread] p1a,p1b
+|-supereffective|p1a: Ninetales
+|-resisted|p1b: Basculegion
+|-damage|p1a: Ninetales|0 fnt
+|-damage|p1b: Basculegion|75/100
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Basculegion|81/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756353497
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|turn|3
+|
+|t:|1756353512
+|move|p1b: Basculegion|Wave Crash|p2b: Torkoal
+|-supereffective|p2b: Torkoal
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|-damage|p1b: Basculegion|52/100|[from] Recoil
+|move|p2a: Jumpluff|Sunny Day|p2a: Jumpluff
+|-weather|SunnyDay
+|move|p1a: Rillaboom|U-turn|p2a: Jumpluff
+|-damage|p2a: Jumpluff|40/100
+|
+|t:|1756353521
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100 slp|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Basculegion|58/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756353528
+|switch|p2b: Charizard|Charizard, L50, M|100/100
+|turn|4
+|
+|t:|1756353542
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|cant|p1a: Sneasler|slp
+|move|p2a: Jumpluff|Tailwind|p2a: Jumpluff
+|-sidestart|p2: Homero tg|move: Tailwind
+|move|p2b: Charizard|Heat Wave|p1a: Sneasler|[spread] p1a,p1b
+|-supereffective|p1b: Rillaboom
+|-enditem|p1a: Sneasler|Focus Sash
+|-damage|p1a: Sneasler|1/100 slp
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|88/100|[from] ability: Solar Power|[of] p2b: Charizard
+|-heal|p1a: Sneasler|7/100 slp|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756353558
+|switch|p1b: Basculegion|Basculegion, L50, M, shiny|58/100
+|turn|5
+|
+|t:|1756353572
+|move|p2a: Jumpluff|Sleep Powder|p1b: Basculegion
+|-status|p1b: Basculegion|slp|[from] move: Sleep Powder
+|move|p2b: Charizard|Heat Wave|p1b: Basculegion|[spread] p1a
+|-miss|p2b: Charizard|p1b: Basculegion
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|cant|p1b: Basculegion|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|76/100|[from] ability: Solar Power|[of] p2b: Charizard
+|-heal|p1b: Basculegion|64/100 slp|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756353586
+|move|p2a: Jumpluff|Rage Powder|p2a: Jumpluff
+|-singleturn|p2a: Jumpluff|move: Rage Powder
+|move|p2b: Charizard|Heat Wave|p1b: Basculegion
+|-resisted|p1b: Basculegion
+|-damage|p1b: Basculegion|0 fnt
+|faint|p1b: Basculegion
+|
+|win|Homero tg
+||SFmrmimers is ready for game 2.
+||Homero tg is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

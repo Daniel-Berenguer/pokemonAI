@@ -1,0 +1,132 @@
+|j|☆Destralito
+|j|☆randomguy1114s
+|html|Destralitorandomguy1114s    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756250894
+|gametype|doubles
+|player|p1|Destralito|clown|1176
+|player|p2|randomguy1114s|lillie-masters|1115
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Sunflora, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Clefairy, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Dragonite, L50, M|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Earthquake,HeadlongRush,Facade,Protect|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,Tailwind,RagePowder,SunnyDay|||M|||50|,,,,,Water]Charizard||ChoiceScarf|SolarPower|Overheat,HeatWave,AirSlash,WeatherBall|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,HeatWave,HelpingHand,Protect|||F|||50|,,,,,Fire]Sunflora||ChoiceSpecs|SolarPower|EnergyBall,EarthPower,DazzlingGleam,WeatherBall|||F|||50|,,,,,Fairy]Porygon2||Eviolite|Download|Recover,TeraBlast,IceBeam,TrickRoom||||||50|,,,,,Fighting
+|showteam|p2|Volcarona||GrassySeed|FlameBody|QuiverDance,FieryDance,GigaDrain,Protect|||F|||50|,,,,,Grass]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,Uturn|||F|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Clefairy||Eviolite|FriendGuard|FollowMe,LifeDew,HelpingHand,Protect|||F|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Dragon]Dragonite||LoadedDice|InnerFocus|ScaleShot,RockSlide,Tailwind,Protect|||M|||50|,,,,,Rock
+|
+|t:|1756250945
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, M|100/100
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|switch|p2a: godmode 2|Gholdengo, L50, shiny|100/100
+|switch|p2b: Midcineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2b: Midcineroar|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|-enditem|p1b: Torkoal|Eject Pack
+|
+|t:|1756250976
+|switch|p1b: Jumpluff|Jumpluff, L50, M|100/100
+|turn|1
+|
+|t:|1756250997
+|-terastallize|p1a: Charizard|Ghost
+|move|p2a: godmode 2|Protect|p2a: godmode 2
+|-singleturn|p2a: godmode 2|Protect
+|move|p1b: Jumpluff|Sleep Powder|p2b: Midcineroar
+|-activate|p2b: Midcineroar|item: Safety Goggles|Sleep Powder
+|move|p1a: Charizard|Heat Wave|p2b: Midcineroar|[spread] p2b
+|-activate|p2a: godmode 2|move: Protect
+|-resisted|p2b: Midcineroar
+|-damage|p2b: Midcineroar|65/100
+|move|p2b: Midcineroar|Knock Off|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|-enditem|p1a: Charizard|Choice Scarf|[from] move: Knock Off|[of] p2b: Midcineroar
+|faint|p1a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756251012
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|turn|2
+|
+|t:|1756251024
+|move|p1b: Jumpluff|Tailwind|p1b: Jumpluff
+|-sidestart|p1: Destralito|move: Tailwind
+|move|p2a: godmode 2|Make It Rain|p1a: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|45/100
+|-damage|p1b: Jumpluff|32/100
+|-unboost|p2a: godmode 2|spa|1
+|-damage|p2a: godmode 2|91/100|[from] item: Life Orb
+|move|p2b: Midcineroar|Flare Blitz|p1b: Jumpluff
+|-supereffective|p1b: Jumpluff
+|-damage|p1b: Jumpluff|0 fnt
+|faint|p1b: Jumpluff
+|-damage|p2b: Midcineroar|55/100|[from] Recoil
+|move|p1a: Ursaluna|Earthquake|p2b: Midcineroar|[spread] p2a,p2b
+|-supereffective|p2a: godmode 2
+|-supereffective|p2b: Midcineroar
+|-damage|p2a: godmode 2|0 fnt
+|-damage|p2b: Midcineroar|0 fnt
+|faint|p2a: godmode 2
+|faint|p2b: Midcineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756251039
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|switch|p2a: boom|Dragonite, L50, M, shiny|100/100
+|switch|p2b: godmode|Volcarona, L50, F, shiny|100/100
+|turn|3
+|
+|t:|1756251052
+|-terastallize|p2a: boom|Rock
+|move|p2b: godmode|Fiery Dance|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|move|p2a: boom|Rock Slide|p1b: Torkoal
+|-supereffective|p1b: Torkoal
+|-damage|p1b: Torkoal|39/100
+|move|p1b: Torkoal|Heat Wave|p2b: godmode|[spread] p2a,p2b
+|-resisted|p2a: boom
+|-crit|p2b: godmode
+|-damage|p2a: boom|74/100
+|-damage|p2b: godmode|31/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|l|☆Destralito
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by randomguy1114s)
+|inactive|Destralito has 30 seconds to reconnect!
+|inactive|Destralito has 20 seconds to reconnect!
+|inactive|Destralito has 15 seconds to reconnect!
+|inactive|Destralito has 10 seconds to reconnect!
+|inactive|Destralito has 5 seconds to reconnect!
+|-message|Destralito lost due to inactivity.
+|
+|win|randomguy1114s
+|raw|Destralito's rating: 1176 → 1147(-29 for losing)
+|raw|randomguy1114s's rating: 1115 → 1144(+29 for winning)

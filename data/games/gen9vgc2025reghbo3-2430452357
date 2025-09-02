@@ -1,0 +1,141 @@
+|j|☆puli95
+|j|☆Bomduif
+|html|puli95Bomduif    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756396781
+|gametype|doubles
+|player|p1|puli95|265|1000
+|player|p2|Bomduif|2|1084
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Beartic, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Vikavolt, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Jumpluff, L50, F|
+|teampreview|4
+|showteam|p1|Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,WideGuard|||M|||50|,,,,,Ghost]Beartic||ClearAmulet|SwiftSwim|IcicleSpear,Earthquake,AquaJet,Protect|||F|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Bug]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,FakeOut,Uturn|||F|||50|,,,,,Fire]Dragonite||LifeOrb|InnerFocus|ScaleShot,ExtremeSpeed,Haze,Protect|||F|||50|,,,,,Normal]Ursaluna-Bloodmoon||ThroatSpray|MindsEye|EarthPower,BloodMoon,HyperVoice,Protect|||M|||50|,,,,,Normal
+|showteam|p2|Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,TrickRoom,WideGuard|||M|||50|,,,,,Dark]Indeedee-F||SafetyGoggles|PsychicSurge|TrickRoom,FollowMe,DazzlingGleam,HelpingHand|||F|||50|,,,,,Fairy]Torkoal||Charcoal|Drought|Eruption,Overheat,HeatWave,Protect|||M|||50|,,,,,Fire]Vikavolt||LifeOrb|Levitate|Thunderbolt,Discharge,BugBuzz,Protect|||F|||50|,,,,,Electric]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Jumpluff||FocusSash|Chlorophyll|Tailwind,SleepPowder,Encore,Protect|||F|||50|,,,,,Dark
+|
+|t:|1756396801
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Gallade|Gallade, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Gallade|unboost|[from] item: Clear Amulet|[of] p2a: Gallade
+|-unboost|p2b: Indeedee|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1756396835
+|-terastallize|p2a: Gallade|Dark
+|move|p2a: Gallade|Wide Guard|p2a: Gallade
+|-singleturn|p2a: Gallade|Wide Guard
+|move|p1a: Ursaluna|Hyper Voice|p2b: Indeedee|[spread] 
+|-activate|p2a: Gallade|move: Wide Guard
+|-activate|p2b: Indeedee|move: Wide Guard
+|move|p1b: Incineroar|Parting Shot|p2b: Indeedee
+|-unboost|p2b: Indeedee|atk|1
+|-unboost|p2b: Indeedee|spa|1
+|
+|t:|1756396849
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100|[from] Parting Shot
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1756396897
+|switch|p2b: Vikavolt|Vikavolt, L50, F|100/100
+|move|p1b: Rillaboom|Fake Out|p2a: Gallade
+|-damage|p2a: Gallade|82/100
+|cant|p2a: Gallade|flinch
+|move|p1a: Ursaluna|Hyper Voice|p2b: Vikavolt|[spread] p2a,p2b
+|-damage|p2a: Gallade|48/100
+|-damage|p2b: Vikavolt|52/100
+|-enditem|p1a: Ursaluna|Throat Spray
+|-boost|p1a: Ursaluna|spa|1|[from] item: Throat Spray
+|
+|-heal|p2a: Gallade|54/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756396928
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Vikavolt|Bug Buzz|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-crit|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|-damage|p2b: Vikavolt|43/100|[from] item: Life Orb
+|move|p2a: Gallade|Sacred Sword|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|
+|-heal|p2a: Gallade|60/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756396941
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Gallade|unboost|[from] item: Clear Amulet|[of] p2a: Gallade
+|-unboost|p2b: Vikavolt|atk|1
+|turn|4
+|
+|t:|1756396957
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|move|p2a: Gallade|Sacred Sword|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|move|p1b: Incineroar|Knock Off|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|11/100
+|-enditem|p2b: Indeedee|Safety Goggles|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|upkeep
+|
+|t:|1756396968
+|switch|p1a: Dragonite|Dragonite, L50, F|100/100
+|turn|5
+|
+|t:|1756396982
+|move|p2a: Gallade|Sacred Sword|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p2b: Indeedee|Dazzling Gleam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|66/100
+|move|p1a: Dragonite|Scale Shot|p2b: Indeedee|[miss]
+|-miss|p1a: Dragonite|p2b: Indeedee
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|-message|puli95 forfeited.
+|
+|win|Bomduif
+|raw|puli95's rating: 1000 → 1000(+0 for losing)
+|raw|Bomduif's rating: 1084 → 1105(+21 for winning)
+|l|☆puli95
+|player|p1|
+|c|☆Bomduif|gg

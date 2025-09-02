@@ -1,0 +1,182 @@
+|j|☆Monkeydes
+|j|☆furnoz
+|html|Monkeydesfurnoz    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756341501
+|gametype|doubles
+|player|p1|Monkeydes|266|1087
+|player|p2|furnoz|wallace|1118
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Dragapult, L50, M|
+|poke|p1|Primarina, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Magmar, L50, F|
+|poke|p2|Espeon, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Gallade, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,FakeOut,Protect|||M|||50|,,,,,Stellar]Dragapult||ChoiceBand|ClearBody|DragonDarts,TeraBlast,PhantomForce,Uturn|||M|||50|,,,,,Ghost]Primarina||ThroatSpray|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||M|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||F|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Ghost]Magmar||Eviolite|VitalSpirit|Overheat,WillOWisp,FollowMe,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Espeon||TwistedSpoon|MagicBounce|ExpandingForce,Psychic,Protect,DazzlingGleam|||M|||50|,,,,,Psychic]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,DazzlingGleam,TrickRoom,HelpingHand|||F|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,WideGuard,Tailwind|||F|||50|,,,,,Ghost]Basculegion||ChoiceScarf|Adaptability|WaveCrash,FlipTurn,LastRespects,TeraBlast|||M|||50|,,,,,Fighting]Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,FlashCannon,DracoMeteor|||M|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,NightSlash,Protect|||M|||50|,,,,,Dark
+|
+|t:|1756341526
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragapult|Dragapult, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Espeon|Espeon, L50, M|100/100
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|1
+|
+|t:|1756341560
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|-terastallize|p1a: Dragapult|Ghost
+|move|p1b: Sneasler|Fake Out|p2a: Basculegion
+|-immune|p2a: Basculegion
+|move|p1a: Dragapult|Tera Blast|p2b: Pelipper|[anim] Tera Blast Ghost
+|-enditem|p2b: Pelipper|Focus Sash
+|-damage|p2b: Pelipper|1/100
+|move|p2b: Pelipper|Tailwind|p2b: Pelipper
+|-sidestart|p2: furnoz|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756341597
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Basculegion|Last Respects|p1a: Rillaboom
+|-damage|p1a: Rillaboom|66/100
+|move|p2b: Pelipper|Hurricane|p1b: Sneasler
+|-supereffective|p1b: Sneasler
+|-enditem|p1b: Sneasler|Focus Sash
+|-damage|p1b: Sneasler|1/100
+|-start|p1b: Sneasler|confusion
+|-activate|p1b: Sneasler|confusion
+|move|p1b: Sneasler|Dire Claw|p2b: Pelipper
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Sneasler|7/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|72/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756341615
+|switch|p2b: Espeon|Espeon, L50, M|100/100
+|turn|3
+|
+|t:|1756341636
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100
+|-terastallize|p2b: Espeon|Psychic
+|move|p2b: Espeon|Expanding Force|p1a: Rillaboom|[spread] p1a
+|-immune|p1b: Kingambit
+|-damage|p1a: Rillaboom|3/100
+|move|p1a: Rillaboom|Grassy Glide|p2a: Indeedee
+|-damage|p2a: Indeedee|73/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756341672
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Espeon|Dazzling Gleam|p1b: Kingambit|[spread] p1a,p1b
+|-damage|p1a: Rillaboom|0 fnt
+|-damage|p1b: Kingambit|81/100
+|faint|p1a: Rillaboom
+|move|p1b: Kingambit|Swords Dance|p1b: Kingambit
+|-boost|p1b: Kingambit|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: furnoz|move: Tailwind
+|upkeep
+|
+|t:|1756341702
+|switch|p1a: Dragapult|Dragapult, L50, M, tera:Ghost|100/100
+|turn|5
+|
+|t:|1756341748
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Dragapult|Tera Blast|p2a: Indeedee|[anim] Tera Blast Ghost
+|-immune|p2a: Indeedee
+|move|p2b: Espeon|Expanding Force|p1a: Dragapult|[spread] p1a
+|-immune|p1b: Kingambit
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-weather|none
+|upkeep
+|
+|t:|1756341760
+|switch|p1a: Sneasler|Sneasler, L50, M|7/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|turn|6
+|
+|t:|1756341792
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p1b: Kingambit|Protect|p1b: Kingambit
+|-singleturn|p1b: Kingambit|Protect
+|move|p2a: Basculegion|Wave Crash|p1b: Kingambit
+|-activate|p1b: Kingambit|move: Protect
+|move|p2b: Espeon|Dazzling Gleam|p1b: Kingambit|[spread] 
+|-activate|p1a: Sneasler|move: Protect
+|-activate|p1b: Kingambit|move: Protect
+|
+|upkeep
+|turn|7
+|
+|t:|1756341828
+|move|p2a: Basculegion|Wave Crash|p1b: Kingambit
+|-damage|p1b: Kingambit|18/100
+|-damage|p2a: Basculegion|79/100|[from] Recoil
+|move|p1a: Sneasler|Dire Claw|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-damage|p2a: Basculegion|55/100
+|move|p2b: Espeon|Dazzling Gleam|p1b: Kingambit|[spread] p1a,p1b
+|-damage|p1a: Sneasler|0 fnt
+|-damage|p1b: Kingambit|1/100
+|faint|p1a: Sneasler
+|move|p1b: Kingambit|Kowtow Cleave|p2b: Espeon
+|-supereffective|p2b: Espeon
+|-damage|p2b: Espeon|0 fnt
+|faint|p2b: Espeon
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|8
+|
+|t:|1756341841
+|move|p1b: Kingambit|Sucker Punch|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-crit|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|win|Monkeydes
+|raw|Monkeydes's rating: 1087 → 1116(+29 for winning)
+|raw|furnoz's rating: 1118 → 1091(-27 for losing)
+|c|☆Monkeydes|Cinema

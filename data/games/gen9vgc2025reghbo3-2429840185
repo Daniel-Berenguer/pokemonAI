@@ -1,0 +1,189 @@
+|j|☆Cyclosz
+|j|☆Mortipherus
+|html|CycloszMortipherus    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756317792
+|gametype|doubles
+|player|p1|Cyclosz|swimmerf-gen4|
+|player|p2|Mortipherus|biker-gen4|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kommo-o, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Maushold, L50|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Talonflame, L50, F|
+|poke|p2|Hydrapple, L50, F|
+|poke|p2|Arcanine-Hisui, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, F|
+|teampreview|4
+|showteam|p1|Kommo-o||ThroatSpray|Overcoat|ClangorousSoul,ClangingScales,Boomburst,Protect|||F|||50|,,,,,Normal]Sinistcha||RockyHelmet|Hospitality|RagePowder,MatchaGotcha,ShadowBall,LifeDew||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|KnockOff,FlareBlitz,PartingShot,FakeOut|||M|||50|,,,,,Ghost]Maushold||WideLens|FriendGuard|FollowMe,BeatUp,Taunt,PopulationBomb||||||50|,,,,,Ghost]Annihilape||Leftovers|Defiant|DrainPunch,Protect,RageFist,BulkUp|||M|||50|,,,,,Steel]Talonflame||CovertCloak|FlameBody|WillOWisp,Tailwind,FlareBlitz,BraveBird|||F|||50|,,,,,Stellar
+|showteam|p2|Hydrapple||AssaultVest|Regenerator|FickleBeam,EnergyBall,EarthPower,PollenPuff|||F|||50|,,,,,Bug]Arcanine-Hisui||ClearAmulet|Intimidate|Protect,ExtremeSpeed,FlareBlitz,RockSlide|||M|||50|,,,,,Grass]Gholdengo||LifeOrb|GoodasGold|Protect,NastyPlot,MakeItRain,ShadowBall||||||50|,,,,,Flying]Electabuzz||Eviolite|VitalSpirit|Protect,FollowMe,Taunt,Electroweb|||M|||50|,,,,,Dragon]Indeedee||FocusSash|PsychicSurge|Protect,TrickRoom,ExpandingForce,TeraBlast|||M|||50|,,,,,Ground]Sneasler||PsychicSeed|Unburden|Protect,ThroatChop,DireClaw,CloseCombat|||F|||50|,,,,,Dark
+|
+|t:|1756317833
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kommo-o|Kommo-o, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|turn|1
+|
+|t:|1756317868
+|-terastallize|p1b: Incineroar|Ghost
+|move|p1a: Kommo-o|Protect|p1a: Kommo-o
+|-singleturn|p1a: Kommo-o|Protect
+|move|p2b: Sneasler|Close Combat|p1a: Kommo-o
+|-activate|p1a: Kommo-o|move: Protect
+|move|p2a: Indeedee|Expanding Force|p1a: Kommo-o|[spread] p1b
+|-activate|p1a: Kommo-o|move: Protect
+|-damage|p1b: Incineroar|57/100
+|move|p1b: Incineroar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-enditem|p2a: Indeedee|Focus Sash
+|-damage|p2a: Indeedee|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1756317898
+|switch|p1a: Sinistcha|Sinistcha, L50|100/100
+|-heal|p1b: Incineroar|81/100|[from] ability: Hospitality|[of] p1a: Sinistcha
+|move|p2b: Sneasler|Dire Claw|p1a: Sinistcha
+|-damage|p1a: Sinistcha|75/100
+|-status|p1a: Sinistcha|psn
+|-damage|p2b: Sneasler|84/100|[from] item: Rocky Helmet|[of] p1a: Sinistcha
+|move|p2a: Indeedee|Expanding Force|p1a: Sinistcha|[spread] p1a,p1b
+|-damage|p1a: Sinistcha|27/100 psn
+|-damage|p1b: Incineroar|44/100
+|move|p1b: Incineroar|Flare Blitz|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-damage|p1b: Incineroar|44/100|[from] Recoil
+|
+|-damage|p1a: Sinistcha|14/100 psn|[from] psn
+|upkeep
+|
+|t:|1756317918
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|turn|3
+|
+|t:|1756317936
+|move|p1a: Sinistcha|Rage Powder|p1a: Sinistcha
+|-singleturn|p1a: Sinistcha|move: Rage Powder
+|move|p2b: Sneasler|Dire Claw|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|-damage|p2b: Sneasler|68/100|[from] item: Rocky Helmet|[of] p1a: Sinistcha
+|faint|p1a: Sinistcha
+|move|p2a: Gholdengo|Shadow Ball|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|-damage|p2a: Gholdengo|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756317945
+|switch|p1a: Kommo-o|Kommo-o, L50, F|100/100
+|switch|p1b: Talonflame|Talonflame, L50, F|100/100
+|turn|4
+|
+|t:|1756317965
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p2b: Sneasler|Dire Claw|p1a: Kommo-o
+|-damage|p1a: Kommo-o|77/100
+|move|p1b: Talonflame|Flare Blitz|p2a: Gholdengo
+|-activate|p2a: Gholdengo|move: Protect
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|44/100
+|-enditem|p1a: Kommo-o|Throat Spray
+|-boost|p1a: Kommo-o|spa|1|[from] item: Throat Spray
+|
+|upkeep
+|turn|5
+|
+|t:|1756317984
+|switch|p2a: Electabuzz|Electabuzz, L50, M|100/100
+|move|p2b: Sneasler|Dire Claw|p1a: Kommo-o
+|-damage|p1a: Kommo-o|30/100
+|-status|p1a: Kommo-o|par
+|move|p1b: Talonflame|Flare Blitz|p2a: Electabuzz
+|-damage|p2a: Electabuzz|65/100
+|-damage|p1b: Talonflame|88/100|[from] Recoil
+|move|p1a: Kommo-o|Clanging Scales|p2a: Electabuzz|[spread] p2a,p2b
+|-damage|p2a: Electabuzz|21/100
+|-damage|p2b: Sneasler|12/100
+|-unboost|p1a: Kommo-o|def|1
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756318040
+|move|p2a: Electabuzz|Protect|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|Protect
+|move|p1a: Kommo-o|Protect|p1a: Kommo-o
+|-singleturn|p1a: Kommo-o|Protect
+|move|p2b: Sneasler|Throat Chop|p1a: Kommo-o
+|-activate|p1a: Kommo-o|move: Protect
+|move|p1b: Talonflame|Tailwind|p1b: Talonflame
+|-sidestart|p1: Cyclosz|move: Tailwind
+|
+|upkeep
+|turn|7
+|
+|t:|1756318068
+|switch|p2a: Gholdengo|Gholdengo, L50|91/100
+|move|p1b: Talonflame|Flare Blitz|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|-damage|p1b: Talonflame|55/100|[from] Recoil
+|move|p2b: Sneasler|Close Combat|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1a: Kommo-o
+|
+|upkeep
+|
+|t:|1756318082
+|switch|p2a: Electabuzz|Electabuzz, L50, M|21/100
+|turn|8
+|
+|t:|1756318098
+|-terastallize|p2a: Electabuzz|Dragon
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1b: Talonflame|Flare Blitz|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Protect
+|move|p2a: Electabuzz|Electroweb|p1b: Talonflame
+|-supereffective|p1b: Talonflame
+|-damage|p1b: Talonflame|0 fnt
+|faint|p1b: Talonflame
+|
+|win|Mortipherus
+||Cyclosz is ready for game 2.
+|inactive|Mortipherus has 30 seconds to confirm battle start!
+||Mortipherus is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

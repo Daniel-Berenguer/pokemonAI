@@ -1,0 +1,192 @@
+|j|☆Refanner
+|j|☆wade connects
+|html|Refannerwade connects    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756196127
+|gametype|doubles
+|player|p1|Refanner|1|1073
+|player|p2|wade connects|266|1032
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Talonflame, L50, M|
+|poke|p2|Malamar, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Ursaluna-Bloodmoon||LifeOrb|MindsEye|EarthPower,HyperVoice,Protect,BloodMoon|||M|||50|,,,,,Dragon]Amoonguss||SitrusBerry|Regenerator|PollenPuff,RagePowder,Protect,Spore|||M|||50|,,,,,Water]Farigiraf||ThroatSpray|ArmorTail|HyperVoice,Psychic,TrickRoom,Protect|||M|||50|,,,,,Fairy]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,Uturn,SuckerPunch|||F|||50|,,,,,Dragon]Incineroar||SafetyGoggles|Intimidate|KnockOff,FakeOut,PartingShot,WillOWisp|||F|||50|,,,,,Ghost]Talonflame||CovertCloak|GaleWings|DualWingbeat,FlareBlitz,Tailwind,Taunt|||M|||50|,,,,,Flying
+|showteam|p2|Malamar||SafetyGoggles|Contrary|Protect,TrickRoom,Superpower,KnockOff|||F|||50|,,,,,Water]Indeedee-F||PsychicSeed|PsychicSurge|Protect,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|Protect,TrickRoom,ExpandingForce,DazzlingGleam|||F|||50|,,,,,Water]Torkoal||Charcoal|Drought|Protect,Overheat,Eruption,HeatWave|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Protect,Facade,HeadlongRush,SwordsDance|||M|||50|,,,,,Ghost]Lilligant-Hisui||FocusSash|Chlorophyll|AfterYou,SleepPowder,LeafBlade,CloseCombat|||F|||50|,,,,,Ghost
+|
+|t:|1756196183
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756196195
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Ursaluna|Hyper Voice|p2a: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Indeedee|71/100
+|-damage|p2b: Hatterene|48/100
+|-damage|p1a: Ursaluna|91/100|[from] item: Life Orb
+|move|p2b: Hatterene|Dazzling Gleam|p1a: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|39/100
+|-damage|p1b: Farigiraf|57/100
+|-damage|p2b: Hatterene|38/100|[from] item: Life Orb
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1756196220
+|move|p2a: Indeedee|Helping Hand|p2b: Hatterene
+|-singleturn|p2b: Hatterene|Helping Hand|[of] p2a: Indeedee
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Hatterene|Dazzling Gleam|p1a: Ursaluna|[spread] p1b
+|-activate|p1a: Ursaluna|move: Protect
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|-damage|p2b: Hatterene|29/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756196227
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Hatterene|atk|1
+|turn|3
+|
+|t:|1756196253
+|switch|p1a: Dragapult|Dragapult, L50, F|100/100
+|move|p2a: Indeedee|Helping Hand|p2b: Hatterene
+|-singleturn|p2b: Hatterene|Helping Hand|[of] p2a: Indeedee
+|move|p2b: Hatterene|Dazzling Gleam|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Dragapult
+|-crit|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p1b: Incineroar|42/100
+|faint|p1a: Dragapult
+|-damage|p2b: Hatterene|19/100|[from] item: Life Orb
+|move|p1b: Incineroar|Knock Off|p2b: Hatterene
+|-damage|p2b: Hatterene|0 fnt
+|-enditem|p2b: Hatterene|Life Orb|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2b: Hatterene
+|
+|upkeep
+|
+|t:|1756196269
+|switch|p2b: Malamar|Malamar, L50, F, shiny|100/100
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|39/100
+|turn|4
+|
+|t:|1756196286
+|-terastallize|p1b: Incineroar|Ghost
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Malamar|Superpower|p1b: Incineroar
+|-immune|p1b: Incineroar
+|move|p1b: Incineroar|Will-O-Wisp|p2a: Indeedee
+|-status|p2a: Indeedee|brn
+|
+|-damage|p2a: Indeedee|65/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1756196319
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Malamar|Superpower|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|move|p1b: Incineroar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|6/100 brn
+|
+|-damage|p2a: Indeedee|0 fnt|[from] brn
+|faint|p2a: Indeedee
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756196331
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|6
+|
+|t:|1756196377
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p1b: Incineroar|Will-O-Wisp|p2b: Malamar
+|-status|p2b: Malamar|brn
+|move|p1a: Ursaluna|Hyper Voice|p2b: Malamar|[spread] p2b
+|-activate|p2a: Torkoal|move: Protect
+|-crit|p2b: Malamar
+|-damage|p2b: Malamar|26/100 brn
+|-damage|p1a: Ursaluna|29/100|[from] item: Life Orb
+|move|p2b: Malamar|Superpower|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|3/100
+|-boost|p2b: Malamar|atk|1
+|-boost|p2b: Malamar|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Malamar|20/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1756196400
+|move|p2b: Malamar|Protect|p2b: Malamar
+|-singleturn|p2b: Malamar|Protect
+|move|p2a: Torkoal|Protect||[still]
+|-fail|p2a: Torkoal
+|move|p1b: Incineroar|Knock Off|p2b: Malamar
+|-activate|p2b: Malamar|move: Protect
+|move|p1a: Ursaluna|Earth Power|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|-damage|p1a: Ursaluna|0 fnt|[from] item: Life Orb
+|faint|p1a: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Malamar|14/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1756196417
+|move|p1b: Incineroar|Knock Off|p2b: Malamar
+|-damage|p2b: Malamar|0 fnt
+|-enditem|p2b: Malamar|Safety Goggles|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2b: Malamar
+|
+|win|Refanner
+||wade connects is ready for game 2.
+||Refanner is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|j| Arkhept
+|l| Arkhept

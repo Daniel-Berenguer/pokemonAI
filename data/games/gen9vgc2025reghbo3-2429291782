@@ -1,0 +1,231 @@
+|j|☆justaguestiguess
+|j|☆AndrewKommoo
+|html|justaguestiguessAndrewKommoo    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756247152
+|gametype|doubles
+|player|p1|justaguestiguess|1|1173
+|player|p2|AndrewKommoo|buck|1052
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Porygon2, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Hydreigon, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Bronzong, L50|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Amoonguss||CovertCloak|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Water]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Hydreigon||SafetyGoggles|Levitate|DracoMeteor,Snarl,Tailwind,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Pelipper||ChoiceSpecs|Drizzle|MuddyWater,IceBeam,Hurricane,WeatherBall|||F|||50|,,,,,Flying]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,AquaJet,FlipTurn|||M|||50|,,,,,Water]Bronzong||Leftovers|Levitate|BodyPress,GyroBall,IronDefense,TrickRoom||||||50|,,,,,Fighting]Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,FlashCannon,DracoMeteor|||M|||50|,,,,,Grass]Amoonguss||RockyHelmet|Regenerator|RagePowder,Spore,PollenPuff,ClearSmog|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|Facade,Earthquake,ShadowClaw,Protect|||M|||50|,,,,,Ghost
+|j| mattf315
+|
+|t:|1756247209
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hydreigon|Hydreigon, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Basculegion|atk|1
+|-unboost|p2b: Pelipper|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|1
+|
+|t:|1756247226
+|move|p1b: Incineroar|Fake Out|p2b: Pelipper
+|-damage|p2b: Pelipper|90/100
+|move|p2a: Basculegion|Flip Turn|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|19/100
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|44/100|[from] item: Sitrus Berry
+|
+|t:|1756247234
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100|[from] Flip Turn
+|move|p1a: Hydreigon|Tailwind|p1a: Hydreigon
+|-sidestart|p1: justaguestiguess|move: Tailwind
+|cant|p2b: Pelipper|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756247244
+|move|p1a: Hydreigon|Draco Meteor|p2b: Pelipper
+|-damage|p2b: Pelipper|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2b: Pelipper
+|move|p1b: Incineroar|Parting Shot|p2a: Archaludon
+|-unboost|p2a: Archaludon|atk|1
+|-unboost|p2a: Archaludon|spa|1
+|
+|t:|1756247251
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100|[from] Parting Shot
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|79/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756247263
+|switch|p2b: Bronzong|Bronzong, L50|100/100
+|turn|3
+|
+|t:|1756247291
+|-terastallize|p2a: Archaludon|Grass
+|move|p1a: Hydreigon|Snarl|p2a: Archaludon|[spread] p2a,p2b
+|-supereffective|p2b: Bronzong
+|-damage|p2a: Archaludon|94/100
+|-damage|p2b: Bronzong|80/100
+|-unboost|p2a: Archaludon|spa|1
+|-unboost|p2b: Bronzong|spa|1
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|60/100
+|move|p1b: Amoonguss|Spore|p2a: Archaludon
+|-immune|p2a: Archaludon
+|move|p2b: Bronzong|Iron Defense|p2b: Bronzong
+|-boost|p2b: Bronzong|def|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Bronzong|86/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1756247313
+|move|p1a: Hydreigon|Snarl|p2b: Bronzong|[spread] p2a,p2b
+|-supereffective|p2b: Bronzong
+|-damage|p2a: Archaludon|87/100
+|-damage|p2b: Bronzong|64/100
+|-unboost|p2a: Archaludon|spa|1
+|-unboost|p2b: Bronzong|spa|1
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|84/100
+|move|p1b: Amoonguss|Spore|p2b: Bronzong
+|-status|p2b: Bronzong|slp|[from] move: Spore
+|cant|p2b: Bronzong|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Bronzong|69/100 slp|[from] item: Leftovers
+|-sideend|p1: justaguestiguess|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1756247334
+|move|p1a: Hydreigon|Draco Meteor|p2a: Archaludon
+|-damage|p2a: Archaludon|67/100
+|-unboost|p1a: Hydreigon|spa|2
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2a: Archaludon|Body Press|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|cant|p2b: Bronzong|slp
+|move|p1b: Amoonguss|Pollen Puff|p2a: Archaludon
+|-supereffective|p2a: Archaludon
+|-damage|p2a: Archaludon|43/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|
+|-weather|none
+|-heal|p2b: Bronzong|75/100 slp|[from] item: Leftovers
+|upkeep
+|
+|t:|1756247338
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|turn|6
+|
+|t:|1756247362
+|move|p2a: Archaludon|Draco Meteor|p1b: Amoonguss
+|-damage|p1b: Amoonguss|36/100
+|-unboost|p2a: Archaludon|spa|2
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|cant|p2b: Bronzong|slp
+|move|p1b: Amoonguss|Spore|p2b: Bronzong
+|-fail|p2b: Bronzong|slp
+|
+|-heal|p2b: Bronzong|81/100 slp|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1756247382
+|move|p1b: Amoonguss|Protect|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|Protect
+|move|p2a: Archaludon|Draco Meteor|p1b: Amoonguss
+|-activate|p1b: Amoonguss|move: Protect
+|move|p1a: Gholdengo|Make It Rain|p2a: Archaludon|[spread] p2a,p2b
+|-resisted|p2b: Bronzong
+|-damage|p2a: Archaludon|0 fnt
+|-damage|p2b: Bronzong|26/100 slp
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Archaludon
+|-damage|p1a: Gholdengo|91/100|[from] item: Life Orb
+|-curestatus|p2b: Bronzong|slp|[msg]
+|move|p2b: Bronzong|Trick Room|p2b: Bronzong
+|-fieldstart|move: Trick Room|[of] p2b: Bronzong
+|
+|-heal|p2b: Bronzong|32/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756247391
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|turn|8
+|
+|t:|1756247400
+|move|p1b: Amoonguss|Spore|p2a: Basculegion
+|-status|p2a: Basculegion|slp|[from] move: Spore
+|move|p2b: Bronzong|Body Press|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-crit|p1b: Amoonguss
+|-damage|p1b: Amoonguss|1/100
+|move|p1a: Gholdengo|Shadow Ball|p2b: Bronzong
+|-supereffective|p2b: Bronzong
+|-damage|p2b: Bronzong|0 fnt
+|faint|p2b: Bronzong
+|-damage|p1a: Gholdengo|81/100|[from] item: Life Orb
+|cant|p2a: Basculegion|slp
+|
+|upkeep
+|turn|9
+|
+|t:|1756247409
+|cant|p2a: Basculegion|slp
+|move|p1b: Amoonguss|Pollen Puff|p2a: Basculegion
+|-resisted|p2a: Basculegion
+|-damage|p2a: Basculegion|91/100 slp
+|move|p1a: Gholdengo|Shadow Ball|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|-damage|p1a: Gholdengo|72/100|[from] item: Life Orb
+|
+|win|justaguestiguess

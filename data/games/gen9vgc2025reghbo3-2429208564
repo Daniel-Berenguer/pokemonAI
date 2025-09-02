@@ -1,0 +1,265 @@
+|j|☆FefoVGC
+|j|☆just for fun fren
+|html|FefoVGCjust for fun fren    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756238531
+|gametype|doubles
+|player|p1|FefoVGC|170|1041
+|player|p2|just for fun fren|colress|1146
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Dragonite, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,SolarBeam,WeatherBall,AirSlash|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,EarthPower,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|IceBeam,TeraBlast,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,Protect,Trick||||||50|,,,,,Steel]Primarina||GrassySeed|LiquidVoice|HyperVoice,Moonblast,CalmMind,Protect|||F|||50|,,,,,Poison]Sneasler||FocusSash|PoisonTouch|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||F|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Tailwind,Protect|||M|||50|,,,,,Steel
+|
+|t:|1756238572
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Porygon2|Porygon2, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Porygon2|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|atk|1
+|turn|1
+|
+|t:|1756238592
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1b: Incineroar|Fake Out|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Protect
+|move|p2a: Incineroar|Knock Off|p1a: Porygon2
+|-damage|p1a: Porygon2|83/100
+|-enditem|p1a: Porygon2|Eviolite|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|upkeep
+|turn|2
+|
+|t:|1756238619
+|switch|p2b: Primarina|Primarina, L50, F|100/100
+|-terastallize|p1a: Porygon2|Fighting
+|move|p2a: Incineroar|Parting Shot|p1b: Incineroar
+|-unboost|p1b: Incineroar|atk|1
+|-unboost|p1b: Incineroar|spa|1
+|
+|t:|1756238625
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100|[from] Parting Shot
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p2b: Primarina|Grassy Seed
+|-boost|p2b: Primarina|def|1|[from] item: Grassy Seed
+|move|p1a: Porygon2|Tera Blast|p2a: Rillaboom|[anim] Tera Blast Fighting
+|-damage|p2a: Rillaboom|77/100
+|move|p1b: Incineroar|Parting Shot|p2b: Primarina
+|-unboost|p2b: Primarina|atk|1
+|-unboost|p2b: Primarina|spa|1
+|
+|t:|1756238643
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Porygon2|89/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|83/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756238655
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2b: Primarina|atk|1
+|move|p1b: Torkoal|Protect|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Protect
+|move|p2a: Rillaboom|Fake Out|p1b: Torkoal
+|-activate|p1b: Torkoal|move: Protect
+|move|p2b: Primarina|Moonblast|p1a: Incineroar
+|-damage|p1a: Incineroar|71/100
+|-unboost|p1a: Incineroar|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rillaboom|89/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|77/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756238675
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|-enditem|p1b: Torkoal|Eject Pack
+|
+|t:|1756238688
+|switch|p1b: Porygon2|Porygon2, L50, tera:Fighting|89/100
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|atk|1
+|move|p2b: Primarina|Calm Mind|p2b: Primarina
+|-boost|p2b: Primarina|spa|1
+|-boost|p2b: Primarina|spd|1
+|move|p1a: Incineroar|Parting Shot|p2b: Primarina
+|-unboost|p2b: Primarina|atk|1
+|-unboost|p2b: Primarina|spa|1
+|
+|t:|1756238697
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Porygon2|95/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756238727
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p1b: Porygon2|Ice Beam|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|90/100
+|move|p2a: Incineroar|Flare Blitz|p1b: Porygon2
+|-damage|p1b: Porygon2|21/100
+|-status|p1b: Porygon2|brn
+|-damage|p2a: Incineroar|67/100|[from] Recoil
+|move|p2b: Primarina|Calm Mind|p2b: Primarina
+|-boost|p2b: Primarina|spa|1
+|-boost|p2b: Primarina|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Porygon2|28/100 brn|[from] Grassy Terrain
+|-heal|p2a: Incineroar|73/100|[from] Grassy Terrain
+|-damage|p1b: Porygon2|21/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1756238753
+|move|p2b: Primarina|Hyper Voice|p1a: Torkoal|[spread] p1a,p1b
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|55/100
+|-damage|p1b: Porygon2|4/100 brn
+|move|p1b: Porygon2|Recover|p1b: Porygon2
+|-heal|p1b: Porygon2|54/100 brn
+|move|p2a: Incineroar|Knock Off|p1a: Torkoal
+|-damage|p1a: Torkoal|34/100
+|move|p1a: Torkoal|Eruption|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-resisted|p2b: Primarina
+|-damage|p2a: Incineroar|64/100
+|-damage|p2b: Primarina|95/100
+|
+|-weather|none
+|-heal|p2b: Primarina|100/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|70/100|[from] Grassy Terrain
+|-heal|p1b: Porygon2|60/100 brn|[from] Grassy Terrain
+|-heal|p1a: Torkoal|41/100|[from] Grassy Terrain
+|-damage|p1b: Porygon2|54/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1756238796
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|77/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Primarina|atk|1
+|move|p2b: Primarina|Hyper Voice|p1b: Porygon2|[spread] p1a,p1b
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|5/100
+|-damage|p1b: Porygon2|20/100 brn
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|30/100|[from] item: Sitrus Berry
+|move|p2a: Incineroar|Flare Blitz|p1b: Porygon2
+|-damage|p1b: Porygon2|0 fnt
+|faint|p1b: Porygon2
+|-damage|p2a: Incineroar|63/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1756238808
+|switch|p1b: Charizard|Charizard, L50, M|100/100
+|turn|8
+|
+|t:|1756238828
+|switch|p1a: Torkoal|Torkoal, L50, F|41/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p1b: Charizard|Heat Wave|p2b: Primarina|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-resisted|p2b: Primarina
+|-damage|p2a: Incineroar|24/100
+|-damage|p2b: Primarina|76/100
+|move|p2b: Primarina|Hyper Voice|p1a: Torkoal|[spread] p1a,p1b
+|-supereffective|p1a: Torkoal
+|-supereffective|p1b: Charizard
+|-damage|p1a: Torkoal|0 fnt
+|-damage|p1b: Charizard|52/100
+|faint|p1a: Torkoal
+|move|p2a: Incineroar|Knock Off|p1b: Charizard
+|-damage|p1b: Charizard|19/100
+|-enditem|p1b: Charizard|Choice Specs|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|6/100|[from] ability: Solar Power|[of] p1b: Charizard
+|upkeep
+|
+|t:|1756238843
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|30/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Primarina|atk|1
+|turn|9
+|
+|t:|1756238850
+|move|p2b: Primarina|Protect|p2b: Primarina
+|-singleturn|p2b: Primarina|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Primarina
+|-activate|p2b: Primarina|move: Protect
+|move|p1b: Charizard|Heat Wave|p2a: Incineroar|[spread] p2a
+|-activate|p2b: Primarina|move: Protect
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|1/100
+|move|p2a: Incineroar|Flare Blitz|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|13/100
+|-damage|p2a: Incineroar|0 fnt|[from] Recoil
+|faint|p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|0 fnt|[from] ability: Solar Power|[of] p1b: Charizard
+|faint|p1b: Charizard
+|upkeep
+|c|☆just for fun fren|gg
+|
+|t:|1756238857
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|turn|10
+|c|☆FefoVGC|gg
+|-message|FefoVGC forfeited.
+|
+|win|just for fun fren
+|raw|FefoVGC's rating: 1041 → 1030(-11 for losing)
+|raw|just for fun fren's rating: 1146 → 1164(+18 for winning)
+|l|☆FefoVGC
+|player|p1|

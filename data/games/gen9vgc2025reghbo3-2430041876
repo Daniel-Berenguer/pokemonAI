@@ -1,0 +1,109 @@
+|j|☆sam0el
+|j|☆Zacharykeith
+|html|sam0elZacharykeith    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756338992
+|gametype|doubles
+|player|p1|sam0el|veteran|1089
+|player|p2|Zacharykeith|fisherman-gen4|1106
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Zoroark-Hisui, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Infernape, L50, M|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Dragapult, L50, F|
+|teampreview|4
+|showteam|p1|Hatterene||MindPlate|MagicBounce|ExpandingForce,DazzlingGleam,Protect,TrickRoom|||F|||50|,,,,,Fire]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,HelpingHand,TrickRoom,HealPulse|||F|||50|,,,,,Water]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||F|||50|,,,,,Fire]Zoroark-Hisui||LifeOrb|Illusion|HyperBeam,ShadowBall,Protect,Flamethrower|||M|||50|,,,,,Stellar]Ursaluna-Bloodmoon||SilkScarf|MindsEye|EarthPower,BloodMoon,HyperVoice,HyperBeam|||M|||50|,,,,,Normal
+|showteam|p2|Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,HighHorsepower|||M|||50|,,,,,Fire]Infernape||ClearAmulet|IronFist|FakeOut,FirePunch,CloseCombat,Protect|||M|||50|,,,,,Fire]Electabuzz||Eviolite|VitalSpirit|VoltSwitch,Electroweb,FollowMe,Taunt|||M|||50|,,,,,Ghost]Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,SwordsDance,Protect|||F|||50|,,,,,Dark]Primarina||ThroatSpray|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||M|||50|,,,,,Steel]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,Uturn,Outrage|||F|||50|,,,,,Dragon
+|
+|t:|1756339038
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Kingambit|Kingambit, L50, F|100/100
+|switch|p2b: Electabuzz|Electabuzz, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756339092
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Electabuzz|Taunt|p1b: Indeedee
+|-start|p1b: Indeedee|move: Taunt
+|move|p2a: Kingambit|Kowtow Cleave|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|
+|t:|1756339103
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|2
+|
+|t:|1756339113
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-terastallize|p1b: Torkoal|Fire
+|-terastallize|p2a: Kingambit|Dark
+|move|p2a: Kingambit|Sucker Punch|p1b: Torkoal
+|-damage|p1b: Torkoal|49/100
+|move|p1b: Torkoal|Eruption|p2b: Rillaboom|[spread] p2a,p2b
+|-supereffective|p2b: Rillaboom
+|-damage|p2a: Kingambit|29/100
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Torkoal|55/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756339130
+|switch|p2a: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p2b: Dragapult|Dragapult, L50, F|100/100
+|turn|3
+|
+|t:|1756339142
+|move|p2a: Electabuzz|Follow Me|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|move: Follow Me
+|move|p1b: Torkoal|Eruption|p2a: Electabuzz|[spread] p2a,p2b
+|-resisted|p2b: Dragapult
+|-damage|p2a: Electabuzz|41/100
+|-damage|p2b: Dragapult|44/100
+|move|p1a: Hatterene|Dazzling Gleam|p2b: Dragapult|[spread] p2a,p2b
+|-supereffective|p2b: Dragapult
+|-damage|p2a: Electabuzz|13/100
+|-damage|p2b: Dragapult|0 fnt
+|faint|p2b: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Torkoal|61/100|[from] Grassy Terrain
+|-heal|p2a: Electabuzz|19/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|-message|Zacharykeith forfeited.
+|
+|win|sam0el

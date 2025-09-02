@@ -1,0 +1,212 @@
+|j|☆greenlightdmp
+|j|☆pablittoo
+|html|greenlightdmppablittoo    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756444076
+|gametype|doubles
+|player|p1|greenlightdmp|266|1110
+|player|p2|pablittoo|blackbelt-gen4dp|1232
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Electabuzz, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Annihilape, L50, F|
+|teampreview|4
+|showteam|p1|Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,FakeOut,Protect|||M|||50|,,,,,Stellar]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Volcarona||CovertCloak|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||M|||50|,,,,,Fairy]Dragonite||LoadedDice|Multiscale|ScaleShot,IronHead,Protect,Haze|||M|||50|,,,,,Steel]Basculegion||ChoiceScarf|Adaptability|FlipTurn,LastRespects,WaveCrash,AquaJet|||M|||50|,,,,,Water]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Dark
+|showteam|p2|Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Protect,Haze|||F|||50|,,,,,Fairy]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,Protect,EarthPower|||M|||50|,,,,,Normal]Electabuzz||Eviolite|VitalSpirit|FollowMe,Taunt,Protect,Electroweb|||F|||50|,,,,,Fairy]Indeedee||FocusSash|PsychicSurge|ExpandingForce,Imprison,Protect,TrickRoom|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,Protect,ThroatChop|||F|||50|,,,,,Dark]Annihilape||ChoiceScarf|Defiant|FinalGambit,Uturn,CloseCombat,ShadowClaw|||F|||50|,,,,,Grass
+|
+|t:|1756444146
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756444179
+|switch|p2a: Electabuzz|Electabuzz, L50, F|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p2b: Sneasler|Dire Claw|p1a: Volcarona
+|-activate|p1a: Volcarona|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1756444197
+|move|p1b: Rillaboom|Fake Out|p2b: Sneasler
+|-damage|p2b: Sneasler|75/100
+|cant|p2b: Sneasler|flinch
+|move|p2a: Electabuzz|Taunt|p1a: Volcarona
+|-start|p1a: Volcarona|move: Taunt
+|cant|p1a: Volcarona|move: Taunt|Quiver Dance
+|
+|-heal|p2b: Sneasler|81/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756444223
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100
+|move|p2b: Sneasler|Dire Claw|p1b: Kingambit
+|-immune|p1b: Kingambit
+|move|p1a: Volcarona|Heat Wave|p2a: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Indeedee|56/100
+|-damage|p2b: Sneasler|50/100
+|
+|upkeep
+|turn|4
+|
+|t:|1756444253
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-terastallize|p2a: Indeedee|Psychic
+|move|p2b: Sneasler|Dire Claw|p1a: Volcarona
+|-damage|p1a: Volcarona|43/100
+|move|p2a: Indeedee|Expanding Force|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-heal|p2b: Sneasler|56/100|[from] Grassy Terrain
+|-heal|p2a: Indeedee|62/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756444269
+|switch|p1a: Kingambit|Kingambit, L50, F|100/100
+|turn|5
+|
+|t:|1756444284
+|switch|p2a: Electabuzz|Electabuzz, L50, F|100/100
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1b: Rillaboom|Fake Out|p2a: Electabuzz
+|-damage|p2a: Electabuzz|88/100
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p2b: Sneasler|62/100|[from] Grassy Terrain
+|-heal|p2a: Electabuzz|94/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756444316
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|-terastallize|p1a: Kingambit|Dark
+|move|p2a: Electabuzz|Follow Me|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|move: Follow Me
+|move|p2b: Sneasler|Close Combat|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1a: Kingambit
+|
+|-heal|p2b: Sneasler|68/100|[from] Grassy Terrain
+|-heal|p2a: Electabuzz|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756444333
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|turn|7
+|
+|t:|1756444348
+|move|p2b: Sneasler|Dire Claw|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|4/100
+|-status|p1a: Rillaboom|slp
+|move|p1b: Sneasler|Dire Claw|p2b: Sneasler
+|-resisted|p2b: Sneasler
+|-damage|p2b: Sneasler|18/100
+|-status|p2b: Sneasler|slp
+|move|p2a: Electabuzz|Electroweb|p1a: Rillaboom|[spread] p1b
+|-miss|p2a: Electabuzz|p1a: Rillaboom
+|-damage|p1b: Sneasler|80/100
+|-unboost|p1b: Sneasler|spe|1
+|cant|p1a: Rillaboom|slp
+|
+|-heal|p2b: Sneasler|24/100 slp|[from] Grassy Terrain
+|-heal|p1b: Sneasler|86/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|10/100 slp|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1756444364
+|cant|p2b: Sneasler|slp
+|move|p2a: Electabuzz|Electroweb|p1b: Sneasler|[spread] p1a,p1b
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|6/100 slp
+|-damage|p1b: Sneasler|67/100
+|-unboost|p1a: Rillaboom|spe|1
+|-unboost|p1b: Sneasler|spe|1
+|move|p1b: Sneasler|Dire Claw|p2a: Electabuzz
+|-crit|p2a: Electabuzz
+|-damage|p2a: Electabuzz|44/100
+|cant|p1a: Rillaboom|slp
+|
+|-heal|p2b: Sneasler|29/100 slp|[from] Grassy Terrain
+|-heal|p2a: Electabuzz|50/100|[from] Grassy Terrain
+|-heal|p1b: Sneasler|73/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|12/100 slp|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1756444388
+|move|p2a: Electabuzz|Protect|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|Protect
+|cant|p2b: Sneasler|slp
+|move|p1b: Sneasler|Close Combat|p2b: Sneasler
+|-resisted|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|faint|p2b: Sneasler
+|-curestatus|p1a: Rillaboom|slp|[msg]
+|move|p1a: Rillaboom|High Horsepower|p2a: Electabuzz
+|-activate|p2a: Electabuzz|move: Protect
+|
+|upkeep
+|
+|t:|1756444391
+|switch|p2b: Indeedee|Indeedee, L50, M, tera:Psychic|62/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|10
+|
+|t:|1756444421
+|move|p2a: Electabuzz|Follow Me|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|move: Follow Me
+|move|p2b: Indeedee|Expanding Force|p1b: Sneasler|[spread] p1a,p1b
+|-supereffective|p1b: Sneasler
+|-damage|p1a: Rillaboom|0 fnt
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1a: Rillaboom
+|faint|p1b: Sneasler
+|
+|win|pablittoo
+||pablittoo is ready for game 2.
+||greenlightdmp is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆pablittoo
+|player|p2|

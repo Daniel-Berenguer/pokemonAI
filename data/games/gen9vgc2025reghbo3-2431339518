@@ -1,0 +1,82 @@
+|j|☆Needels
+|j|☆bleepbopboop
+|html|Needelsbleepbopboop    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756502319
+|gametype|doubles
+|player|p1|Needels|eusine|1071
+|player|p2|bleepbopboop|ethan|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,DragonPulse|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Kingambit||AssaultVest|Defiant|IronHead,SuckerPunch,Assurance,LowKick|||F|||50|,,,,,Flying]Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,Earthquake,Protect|||F|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,IceSpinner,Protect|||M|||50|,,,,,Fairy]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,HeatWave,ShadowBall,Overheat|||M|||50|,,,,,Fire]Jumpluff||CovertCloak|Chlorophyll|LeafStorm,SleepPowder,Encore,Tailwind|||F|||50|,,,,,Poison]Torkoal||EjectPack|Drought|Overheat,BurningJealousy,HelpingHand,Protect|||M|||50|,,,,,Flying
+|
+|t:|1756502375
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jumpluff|Jumpluff, L50, M, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, F, shiny|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Jumpluff|atk|1
+|-unboost|p2b: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|-enditem|p2b: Torkoal|Eject Pack
+|
+|t:|1756502385
+|switch|p2b: Typhlosion|Typhlosion-Hisui, L50, M, shiny|100/100
+|turn|1
+|
+|t:|1756502450
+|-terastallize|p2b: Typhlosion|Fire
+|move|p2a: Jumpluff|Sleep Powder|p1b: Incineroar
+|-status|p1b: Incineroar|slp|[from] move: Sleep Powder
+|move|p1a: Jumpluff|Sleep Powder|p2b: Typhlosion
+|-status|p2b: Typhlosion|slp|[from] move: Sleep Powder
+|cant|p2b: Typhlosion|slp
+|cant|p1b: Incineroar|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bleepbopboop)
+|
+|t:|1756502470
+|switch|p1b: Charizard|Charizard, L50, F, shiny|100/100
+|move|p2a: Jumpluff|Encore|p1a: Jumpluff
+|-start|p1a: Jumpluff|Encore
+|move|p1a: Jumpluff|Sleep Powder|p2a: Jumpluff
+|-immune|p2a: Jumpluff
+|-curestatus|p2b: Typhlosion|slp|[msg]
+|move|p2b: Typhlosion|Eruption|p1a: Jumpluff|[spread] p1a,p1b
+|-supereffective|p1a: Jumpluff
+|-resisted|p1b: Charizard
+|-damage|p1a: Jumpluff|0 fnt
+|-damage|p1b: Charizard|0 fnt
+|faint|p1a: Jumpluff
+|faint|p1b: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Needels forfeited.
+|
+|win|bleepbopboop

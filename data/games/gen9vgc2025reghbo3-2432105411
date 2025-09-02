@@ -1,0 +1,167 @@
+|j|☆gargatest
+|j|☆snailboss
+|html|gargatestsnailboss    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756609120
+|gametype|doubles
+|player|p1|gargatest|cyclist|1135
+|player|p2|snailboss|hilda-wonderlauncher|1136
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gyarados, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p2|Zoroark-Hisui, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Talonflame, L50, F|
+|teampreview|4
+|showteam|p1|Gyarados||SafetyGoggles|Intimidate|Taunt,ThunderWave,Waterfall,Protect|||M|||50|,,,,,Steel]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Tyranitar||AssaultVest|SandStream|LowKick,TeraBlast,KnockOff,RockSlide|||M|||50|,,,,,Flying
+|showteam|p2|Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,Flamethrower,ShadowBall,HyperBeam|||M|||50|,,,,,Normal]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||F|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|IronHead,Protect,SwordsDance,Earthquake|||F|||50|,,,,,Ground]Indeedee-F||SafetyGoggles|PsychicSurge|TrickRoom,FollowMe,Psychic,HelpingHand|||F|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,WideGuard,SacredSword|||M|||50|,,,,,Grass]Talonflame||CovertCloak|GaleWings|Tailwind,BraveBird,FlareBlitz,Taunt|||F|||50|,,,,,Grass
+|
+|t:|1756609158
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gyarados|Gyarados, L50, M, shiny|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Alice|Tyranitar, L50, F|100/100
+|switch|p2b: Dr. Drills|Excadrill, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Alice
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Alice|atk|1
+|-unboost|p2b: Dr. Drills|atk|1
+|turn|1
+|
+|t:|1756609192
+|switch|p2b: Butter|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Butter
+|switch|p2a: Alistair|Gallade, L50, M|100/100
+|move|p1a: Gyarados|Waterfall|p2b: Butter
+|-damage|p2b: Butter|68/100
+|move|p1b: Ursaluna|Hyper Voice|p2a: Alistair|[spread] p2a,p2b
+|-damage|p2a: Alistair|53/100
+|-damage|p2b: Butter|21/100
+|-damage|p1b: Ursaluna|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Alistair|48/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1756609221
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Butter|Follow Me|p2b: Butter
+|-singleturn|p2b: Butter|move: Follow Me
+|move|p1a: Gyarados|Waterfall|p2b: Butter
+|-damage|p2b: Butter|0 fnt
+|faint|p2b: Butter
+|move|p2a: Alistair|Sacred Sword|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Alistair|42/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756609228
+|switch|p2b: Alice|Tyranitar, L50, F|100/100
+|turn|3
+|
+|t:|1756609240
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|move|p2b: Alice|Rock Slide|p1a: Gyarados|[spread] p1a,p1b
+|-supereffective|p1a: Gyarados
+|-resisted|p1b: Sneasler
+|-damage|p1a: Gyarados|47/100
+|-damage|p1b: Sneasler|74/100
+|cant|p1a: Gyarados|flinch
+|move|p2a: Alistair|Sacred Sword|p1b: Sneasler
+|-resisted|p1b: Sneasler
+|-crit|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Alistair|36/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756609252
+|switch|p1b: Indeedee|Indeedee, L50, M, shiny|100/100
+|turn|4
+|c|☆snailboss|wow
+|
+|t:|1756609263
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|91/100
+|-terastallize|p2a: Alistair|Grass
+|move|p2a: Alistair|Wide Guard|p2a: Alistair
+|-singleturn|p2a: Alistair|Wide Guard
+|move|p1b: Indeedee|Tera Blast|p2a: Alistair
+|-damage|p2a: Alistair|0 fnt
+|faint|p2a: Alistair
+|move|p2b: Alice|Knock Off|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|-enditem|p1b: Indeedee|Choice Scarf|[from] move: Knock Off|[of] p2b: Alice
+|faint|p1b: Indeedee
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1756609274
+|switch|p1b: Gyarados|Gyarados, L50, M, shiny|47/100
+|switch|p2a: Dr. Drills|Excadrill, L50, F|100/100
+|-ability|p1b: Gyarados|Intimidate|boost
+|-unboost|p2a: Dr. Drills|atk|1
+|-unboost|p2b: Alice|atk|1
+|turn|5
+|
+|t:|1756609293
+|-terastallize|p1a: Ursaluna|Normal
+|move|p2a: Dr. Drills|Iron Head|p1b: Gyarados
+|-resisted|p1b: Gyarados
+|-damage|p1b: Gyarados|35/100
+|move|p2b: Alice|Rock Slide|p1a: Ursaluna|[spread] p1a,p1b
+|-supereffective|p1b: Gyarados
+|-damage|p1a: Ursaluna|76/100
+|-damage|p1b: Gyarados|0 fnt
+|faint|p1b: Gyarados
+|cant|p1a: Ursaluna|flinch
+|
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756609309
+|move|p2a: Dr. Drills|Swords Dance|p2a: Dr. Drills
+|-boost|p2a: Dr. Drills|atk|2
+|move|p2b: Alice|Low Kick|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|35/100
+|move|p1a: Ursaluna|Earth Power|p2b: Alice
+|-supereffective|p2b: Alice
+|-damage|p2b: Alice|6/100
+|-damage|p1a: Ursaluna|25/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|t:|1756609317
+|move|p2a: Dr. Drills|Iron Head|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|win|snailboss
+||gargatest is ready for game 2.

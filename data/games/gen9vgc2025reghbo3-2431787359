@@ -1,0 +1,153 @@
+|j|☆FruitDuDragn
+|j|‽Chimazuru
+|html|FruitDuDragnChimazuru    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756571032
+|gametype|doubles
+|player|p1|FruitDuDragn|265|1000
+|player|p2|Chimazuru|lady-gen4|1038
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Carbink, L50|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Gumshoos, L50, F|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Annihilape, L50, F|
+|teampreview|4
+|showteam|p1|Carbink||PowerHerb|Sturdy|TrickRoom,MeteorBeam,Moonblast,Protect||||||50|,,,,,Steel]Tyranitar||SmoothRock|SandStream|Roar,RockSlide,Crunch,Protect|||F|||50|,,,,,Bug]Farigiraf||SafetyGoggles|CudChew|TrickRoom,AllySwitch,PsychicNoise,Protect|||F|||50|,,,,,Fairy]Gumshoos||LifeOrb|Adaptability|LastResort,Protect|||F|||50|,,,,,Normal]Corviknight||Leftovers|MirrorArmor|IronDefense,BodyPress,Taunt,Protect|||F|||50|,,,,,Ground]Ursaluna||FlameOrb|Guts|Facade,CloseCombat,HeadlongRush,Protect|||M|||50|,,,,,Fighting
+|showteam|p2|Armarouge||LifeOrb|FlashFire|ExpandingForce,ArmorCannon,TrickRoom,Protect|||M|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Protect,ClearSmog,WeatherBall,Eruption|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,Protect,Earthquake,HeadlongRush|||M|||50|,,,,,Ghost]Indeedee-F||RockyHelmet|PsychicSurge|FollowMe,HelpingHand,TrickRoom,Psychic|||F|||50|,,,,,Psychic]Lilligant-Hisui||FocusSash|Chlorophyll|LeafBlade,CloseCombat,SleepPowder,AfterYou|||F|||50|,,,,,Ghost]Annihilape||SafetyGoggles|Defiant|FinalGambit,Protect,Taunt,CloseCombat|||F|||50|,,,,,Fire
+|
+|t:|1756571048
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Carbink|Carbink, L50|100/100
+|switch|p1b: Corviknight|Corviknight, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Armarouge|Armarouge, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1756571059
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Corviknight|Taunt|p2a: Indeedee
+|-start|p2a: Indeedee|move: Taunt
+|move|p1a: Carbink|Meteor Beam||[still]
+|-prepare|p1a: Carbink|Meteor Beam
+|-boost|p1a: Carbink|spa|1
+|-enditem|p1a: Carbink|Power Herb
+|-anim|p1a: Carbink|Meteor Beam|p2a: Indeedee
+|-damage|p2a: Indeedee|68/100
+|move|p2b: Armarouge|Trick Room|p2b: Armarouge
+|-fieldstart|move: Trick Room|[of] p2b: Armarouge
+|
+|upkeep
+|turn|2
+|
+|t:|1756571094
+|switch|p1b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|move|p1a: Carbink|Meteor Beam||[still]
+|-prepare|p1a: Carbink|Meteor Beam
+|-boost|p1a: Carbink|spa|1
+|move|p2b: Armarouge|Expanding Force|p1b: Tyranitar|[spread] p1a
+|-immune|p1b: Tyranitar
+|-damage|p1a: Carbink|54/100
+|-damage|p2b: Armarouge|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Armarouge|85/100|[from] Sandstorm
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1756571118
+|move|p2b: Armarouge|Protect|p2b: Armarouge
+|-singleturn|p2b: Armarouge|Protect
+|move|p2a: Ursaluna|Earthquake|p1b: Tyranitar|[spread] p1a,p1b
+|-activate|p2b: Armarouge|move: Protect
+|-supereffective|p1a: Carbink
+|-supereffective|p1b: Tyranitar
+|-damage|p1a: Carbink|0 fnt
+|-damage|p1b: Tyranitar|0 fnt
+|faint|p1a: Carbink
+|faint|p1b: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Armarouge|79/100|[from] Sandstorm
+|-damage|p2a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756571124
+|switch|p1a: Gumshoos|Gumshoos, L50, F|100/100
+|switch|p1b: Corviknight|Corviknight, L50, F|100/100
+|turn|4
+|
+|t:|1756571155
+|-terastallize|p1b: Corviknight|Ground
+|move|p1a: Gumshoos|Protect|p1a: Gumshoos
+|-singleturn|p1a: Gumshoos|Protect
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1b: Corviknight|Iron Defense|p1b: Corviknight
+|-boost|p1b: Corviknight|def|2
+|move|p2b: Armarouge|Armor Cannon|p1b: Corviknight
+|-damage|p1b: Corviknight|18/100
+|-unboost|p2b: Armarouge|def|1
+|-unboost|p2b: Armarouge|spd|1
+|-damage|p2b: Armarouge|70/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gumshoos|94/100|[from] Sandstorm
+|-damage|p2b: Armarouge|64/100|[from] Sandstorm
+|-heal|p1b: Corviknight|24/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1756571196
+|-terastallize|p2a: Ursaluna|Ghost
+|move|p2b: Armarouge|Protect|p2b: Armarouge
+|-singleturn|p2b: Armarouge|Protect
+|move|p1a: Gumshoos|Last Resort|p2a: Ursaluna
+|-immune|p2a: Ursaluna
+|move|p2a: Ursaluna|Facade|p1a: Gumshoos
+|-crit|p1a: Gumshoos
+|-damage|p1a: Gumshoos|0 fnt
+|faint|p1a: Gumshoos
+|move|p1b: Corviknight|Body Press|p2b: Armarouge
+|-activate|p2b: Armarouge|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ursaluna|83/100 brn|[from] Sandstorm
+|-damage|p2b: Armarouge|58/100|[from] Sandstorm
+|-heal|p1b: Corviknight|30/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|77/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|-message|FruitDuDragn forfeited.
+|
+|win|Chimazuru
+|l|☆FruitDuDragn
+|player|p1|
+|inactive|FruitDuDragn has 30 seconds to confirm battle start!
+|inactive|Chimazuru has 30 seconds to confirm battle start!
+||Chimazuru is ready for game 2.
+|inactive|FruitDuDragn has 20 seconds to confirm battle start!
+|inactive|FruitDuDragn has 10 seconds to confirm battle start!
+|uhtml|next|Next: Game 2 of 3

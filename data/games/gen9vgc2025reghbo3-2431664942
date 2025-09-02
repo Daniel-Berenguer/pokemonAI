@@ -1,0 +1,188 @@
+|j|☆HumanPlaysVGC
+|j|☆RillaZardCJM
+|html|HumanPlaysVGCRillaZardCJM    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756554673
+|gametype|doubles
+|player|p1|HumanPlaysVGC|n-masters3|
+|player|p2|RillaZardCJM|byron|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p1|Toedscruel, L50, F|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Porygon2, L50|
+|teampreview|4
+|showteam|p1|Weezing-Galar||SitrusBerry|NeutralizingGas|DazzlingGleam,SludgeBomb,Protect,Taunt|||M|||50|,,,,,Grass]Toedscruel||CovertCloak|MyceliumMight|Spore,RagePowder,EarthPower,AcidSpray|||F|||50|,,,,,Water]Corviknight||RockyHelmet|MirrorArmor|Tailwind,BraveBird,Protect,Roost|||F|||50|,,,,,Dragon]Incineroar||AbilityShield|Intimidate|FakeOut,KnockOff,PartingShot,Taunt|||M|||50|,,,,,Ghost]Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,Protect,StompingTantrum|||F|||50|,,,,,Ground]Indeedee||FocusSash|PsychicSurge|ExpandingForce,DazzlingGleam,Protect,TrickRoom|||M|||50|,,,,,Psychic
+|showteam|p2|Charizard||LifeOrb|SolarPower|ScorchingSands,HeatWave,Protect,Flamethrower|||F|||50|,,,,,Fire]Torkoal||EjectPack|Drought|Eruption,Protect,HelpingHand,HeatWave|||M|||50|,,,,,Fire]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,Encore,Tailwind,PollenPuff|||M|||50|,,,,,Water]Grimmsnarl||LightClay|Prankster|Reflect,PartingShot,ThunderWave,SpiritBreak|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Earthquake,Facade,Protect|||F|||50|,,,,,Normal]Porygon2||Eviolite|Download|TrickRoom,TeraBlast,IceBeam,Protect||||||50|,,,,,Normal
+|
+|t:|1756554710
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Weezing|Weezing-Galar, L50, M|100/100
+|switch|p1b: Toedscruel|Toedscruel, L50, F|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1756554741
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|move|p2a: Jumpluff|Sleep Powder|p1a: Weezing
+|-status|p1a: Weezing|slp|[from] move: Sleep Powder
+|move|p1b: Toedscruel|Spore|p2b: Torkoal
+|-status|p2b: Torkoal|slp|[from] move: Spore
+|cant|p1a: Weezing|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1756554755
+|cant|p2b: Torkoal|slp
+|move|p2a: Jumpluff|Encore|p1b: Toedscruel
+|-start|p1b: Toedscruel|Encore
+|move|p1b: Toedscruel|Spore|p2a: Jumpluff
+|-immune|p2a: Jumpluff
+|cant|p1a: Weezing|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1756554781
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|cant|p2b: Torkoal|slp
+|move|p2a: Jumpluff|Pollen Puff|p1b: Garchomp
+|-damage|p1b: Garchomp|85/100
+|cant|p1a: Weezing|slp
+|
+|upkeep
+|turn|4
+|
+|t:|1756554816
+|cant|p2b: Torkoal|slp
+|move|p2a: Jumpluff|Tailwind|p2a: Jumpluff
+|-sidestart|p2: RillaZardCJM|move: Tailwind
+|move|p1b: Garchomp|Stomping Tantrum|p2b: Torkoal
+|-supereffective|p2b: Torkoal
+|-damage|p2b: Torkoal|15/100 slp
+|-damage|p1b: Garchomp|76/100|[from] item: Life Orb
+|-curestatus|p1a: Weezing|slp|[msg]
+|move|p1a: Weezing|Taunt|p2a: Jumpluff
+|-start|p2a: Jumpluff|move: Taunt
+|
+|upkeep
+|turn|5
+|
+|t:|1756554886
+|-curestatus|p2b: Torkoal|slp|[msg]
+|move|p2b: Torkoal|Helping Hand|p2a: Jumpluff
+|-singleturn|p2a: Jumpluff|Helping Hand|[of] p2b: Torkoal
+|move|p2a: Jumpluff|Pollen Puff|p1b: Garchomp
+|-damage|p1b: Garchomp|55/100
+|move|p1b: Garchomp|Stomping Tantrum|p2b: Torkoal
+|-supereffective|p2b: Torkoal
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|-damage|p1b: Garchomp|45/100|[from] item: Life Orb
+|move|p1a: Weezing|Sludge Bomb|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-damage|p2a: Jumpluff|38/100
+|
+|upkeep
+|
+|t:|1756554907
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|6
+|
+|t:|1756554927
+|-terastallize|p1a: Weezing|Grass
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p2a: Jumpluff|Pollen Puff|p1b: Garchomp
+|-damage|p1b: Garchomp|31/100
+|move|p1b: Garchomp|Dragon Claw|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|move|p1a: Weezing|Sludge Bomb|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|faint|p2a: Jumpluff
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756554942
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|7
+|
+|t:|1756554969
+|-terastallize|p2b: Ursaluna|Normal
+|move|p1a: Weezing|Protect|p1a: Weezing
+|-singleturn|p1a: Weezing|Protect
+|move|p2a: Grimmsnarl|Thunder Wave|p1a: Weezing
+|-activate|p1a: Weezing|move: Protect
+|move|p1b: Garchomp|Stomping Tantrum|p2b: Ursaluna
+|-damage|p2b: Ursaluna|59/100 brn
+|-damage|p1b: Garchomp|21/100|[from] item: Life Orb
+|move|p2b: Ursaluna|Facade|p1b: Garchomp
+|-damage|p1b: Garchomp|0 fnt
+|faint|p1b: Garchomp
+|
+|-damage|p2b: Ursaluna|53/100 brn|[from] brn
+|-sideend|p2: RillaZardCJM|move: Tailwind
+|upkeep
+|
+|t:|1756554995
+|switch|p1b: Toedscruel|Toedscruel, L50, F|100/100
+|turn|8
+|
+|t:|1756555022
+|move|p1b: Toedscruel|Spore|p2a: Grimmsnarl
+|-status|p2a: Grimmsnarl|slp|[from] move: Spore
+|move|p1a: Weezing|Sludge Bomb|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|45/100 slp
+|cant|p2a: Grimmsnarl|slp
+|move|p2b: Ursaluna|Facade|p1a: Weezing
+|-damage|p1a: Weezing|9/100
+|-enditem|p1a: Weezing|Sitrus Berry|[eat]
+|-heal|p1a: Weezing|34/100|[from] item: Sitrus Berry
+|
+|-damage|p2b: Ursaluna|47/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1756555050
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1b: Toedscruel|Earth Power|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|move|p1a: Weezing|Sludge Bomb|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-damage|p2b: Ursaluna|41/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1756555063
+|move|p1b: Toedscruel|Acid Spray|p2b: Ursaluna
+|-damage|p2b: Ursaluna|34/100 brn
+|-unboost|p2b: Ursaluna|spd|2
+|move|p1a: Weezing|Sludge Bomb|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|
+|win|HumanPlaysVGC

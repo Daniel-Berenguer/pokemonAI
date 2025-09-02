@@ -1,0 +1,121 @@
+|j|☆momoechis
+|j|☆oraestra
+|html|momoechisoraestra    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756170913
+|gametype|doubles
+|player|p1|momoechis|iris|1039
+|player|p2|oraestra|265|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Torkoal, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|IceBeam,TeraBlast,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Crunch,Protect|||M|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,WideGuard,TrickRoom|||M|||50|,,,,,Fairy]Indeedee-F||RockyHelmet|PsychicSurge|Psychic,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Water]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,MysticalFire,Protect|||F|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|CloseCombat,Encore,SleepPowder,AfterYou|||F|||50|,,,,,Rock]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||F|||50|,,,,,Fire
+|
+|t:|1756170957
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jumpluff|Jumpluff, L50, F|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2a: Gallade|Gallade, L50, M, shiny|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1756170983
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Gallade|unboost|[from] item: Clear Amulet|[of] p2a: Gallade
+|-unboost|p2b: Indeedee|atk|1
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Jumpluff|Sleep Powder|p2b: Indeedee|[miss]
+|-miss|p1a: Jumpluff|p2b: Indeedee
+|move|p2a: Gallade|Psycho Cut|p1a: Jumpluff
+|-damage|p1a: Jumpluff|9/100
+|
+|upkeep
+|turn|2
+|
+|t:|1756171044
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Jumpluff|Sleep Powder|p2b: Indeedee|[miss]
+|-miss|p1a: Jumpluff|p2b: Indeedee
+|move|p1b: Incineroar|Knock Off|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|23/100
+|-damage|p1b: Incineroar|84/100|[from] item: Rocky Helmet|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Rocky Helmet|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2a: Gallade|Sacred Sword|p1a: Jumpluff
+|-resisted|p1a: Jumpluff
+|-damage|p1a: Jumpluff|0 fnt
+|faint|p1a: Jumpluff
+|
+|upkeep
+|
+|t:|1756171054
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|3
+|
+|t:|1756171071
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Incineroar|Parting Shot|p2b: Indeedee
+|-unboost|p2b: Indeedee|atk|1
+|-unboost|p2b: Indeedee|spa|1
+|
+|t:|1756171077
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|move|p2a: Gallade|Sacred Sword|p1b: Torkoal
+|-damage|p1b: Torkoal|41/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1756171098
+|switch|p1a: Incineroar|Incineroar, L50, M|84/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Gallade|unboost|[from] item: Clear Amulet|[of] p2a: Gallade
+|-unboost|p2b: Indeedee|atk|1
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Gallade|Sacred Sword|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756171107
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100 brn
+|turn|5
+|-message|momoechis forfeited.
+|
+|win|oraestra
+|raw|momoechis's rating: 1039 → 1021(-18 for losing)
+|raw|oraestra's rating: 1000 → 1044(+44 for winning)
+|l|☆momoechis
+|player|p1|

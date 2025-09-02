@@ -1,0 +1,221 @@
+|j|☆cpawn
+|j|☆Nearshort
+|html|cpawnNearshort    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756513226
+|gametype|doubles
+|player|p1|cpawn|hiker-gen4|1092
+|player|p2|Nearshort|birdkeeper-gen4dp|1079
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Meganium, L50, F|
+|poke|p1|Delphox, L50, M|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Kleavor, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Ampharos, L50, F|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Dondozo, L50, M|
+|teampreview|4
+|showteam|p1|Meganium||Leftovers|LeafGuard|GrassPledge,HealPulse,LeechSeed,Protect|||F|||50|,,,,,Fire]Delphox||SitrusBerry|Magician|FirePledge,Psychic,SunnyDay,Protect|||M|||50|,,,,,Grass]Primarina||LifeOrb|LiquidVoice|HyperVoice,Moonblast,WaterPledge,Protect|||F|||50|,,,,,Poison]Kleavor||WideLens|Sharpness|StoneAxe,RockSlide,XScissor,Protect|||M|||50|,,,,,Water]Grimmsnarl||LightClay|Prankster|SpiritBreak,Taunt,LightScreen,Reflect|||M|||50|,,,,,Steel]Ampharos||AssaultVest|Static|Thunderbolt,Discharge,DragonPulse,ChargeBeam|||F|||50|,,,,,Dragon
+|showteam|p2|Tyranitar||AssaultVest|SandStream|LowKick,KnockOff,RockSlide,ThunderPunch|||F|||50|,,,,,Water]Amoonguss||RockyHelmet|Regenerator|SludgeBomb,RagePowder,Spore,Protect|||M|||50|,,,,,Water]Gothitelle||SitrusBerry|ShadowTag|FakeOut,Psychic,Taunt,HelpingHand|||M|||50|,,,,,Fairy]Excadrill||FocusSash|SandForce|Earthquake,Protect,RockSlide,ThroatChop|||F|||50|,,,,,Ground]Garchomp||WhiteHerb|SandVeil|Earthquake,StompingTantrum,ScaleShot,Protect|||F|||50|,,,,,Dragon]Dondozo||LumBerry|Unaware|Rest,Yawn,Fissure,Protect|||M|||50|,,,,,Dragon
+|
+|t:|1756513267
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Meganium|Meganium, L50, F|100/100
+|switch|p1b: Primarina|Primarina, L50, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p2b: Excadrill|Excadrill, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1756513299
+|switch|p2a: Amoonguss|Amoonguss, L50, M|100/100
+|-terastallize|p2b: Excadrill|Ground
+|move|p2b: Excadrill|Earthquake|p1a: Meganium|[spread] p2a,p1a,p1b
+|-resisted|p1a: Meganium
+|-damage|p2a: Amoonguss|33/100
+|-damage|p1a: Meganium|72/100
+|-damage|p1b: Primarina|11/100
+|move|p1a: Meganium|Grass Pledge|p2a: Amoonguss
+|-waiting|p1a: Meganium|p1b: Primarina
+|move|p1b: Primarina|Water Pledge|p2a: Amoonguss|[from] move: Grass Pledge
+|-combine
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|12/100
+|-sidestart|p2: Nearshort|Grass Pledge
+|-damage|p1b: Primarina|1/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Meganium|66/100|[from] Sandstorm
+|-damage|p1b: Primarina|0 fnt|[from] Sandstorm
+|-damage|p2a: Amoonguss|6/100|[from] Sandstorm
+|faint|p1b: Primarina
+|-heal|p1a: Meganium|72/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756513324
+|switch|p1b: Delphox|Delphox, L50, M|100/100
+|turn|2
+|
+|t:|1756513335
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p1b: Delphox|Fire Pledge|p2a: Amoonguss
+|-waiting|p1b: Delphox|p1a: Meganium
+|move|p1a: Meganium|Grass Pledge|p2b: Excadrill|[from] move: Fire Pledge
+|-combine
+|-crit|p2b: Excadrill
+|-damage|p2b: Excadrill|11/100
+|-sidestart|p2: Nearshort|Fire Pledge
+|move|p2b: Excadrill|Rock Slide|p1a: Meganium|[spread] p1a,p1b
+|-supereffective|p1b: Delphox
+|-damage|p1a: Meganium|49/100
+|-damage|p1b: Delphox|48/100
+|-enditem|p1b: Delphox|Sitrus Berry|[eat]
+|-heal|p1b: Delphox|72/100|[from] item: Sitrus Berry
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Delphox|66/100|[from] Sandstorm
+|-damage|p1a: Meganium|43/100|[from] Sandstorm
+|-damage|p2a: Amoonguss|0 fnt|[from] Sandstorm
+|faint|p2a: Amoonguss
+|-heal|p1a: Meganium|49/100|[from] item: Leftovers
+|-damage|p2b: Excadrill|0 fnt|[from] Fire Pledge
+|faint|p2b: Excadrill
+|upkeep
+|
+|t:|1756513345
+|switch|p2b: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p2a: Dondozo|Dondozo, L50, M|100/100
+|turn|3
+|
+|t:|1756513387
+|move|p1b: Delphox|Sunny Day|p1b: Delphox
+|-weather|SunnyDay
+|move|p1a: Meganium|Leech Seed|p2a: Dondozo
+|-start|p2a: Dondozo|move: Leech Seed
+|move|p2b: Tyranitar|Knock Off|p1b: Delphox
+|-supereffective|p1b: Delphox
+|-damage|p1b: Delphox|6/100
+|move|p2a: Dondozo|Yawn|p1a: Meganium
+|-immune|p1a: Meganium|[from] ability: Leaf Guard
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Meganium|55/100|[from] item: Leftovers
+|-damage|p2b: Tyranitar|88/100|[from] Fire Pledge
+|-damage|p2a: Dondozo|88/100|[from] Fire Pledge
+|-damage|p2a: Dondozo|76/100|[from] Leech Seed|[of] p1a: Meganium
+|-heal|p1a: Meganium|73/100|[silent]
+|upkeep
+|turn|4
+|
+|t:|1756513416
+|move|p1b: Delphox|Protect|p1b: Delphox
+|-singleturn|p1b: Delphox|Protect
+|move|p1a: Meganium|Leech Seed|p2b: Tyranitar
+|-start|p2b: Tyranitar|move: Leech Seed
+|move|p2b: Tyranitar|Rock Slide|p1a: Meganium|[spread] p1a
+|-activate|p1b: Delphox|move: Protect
+|-damage|p1a: Meganium|50/100
+|move|p2a: Dondozo|Yawn|p1b: Delphox
+|-activate|p1b: Delphox|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Meganium|57/100|[from] item: Leftovers
+|-damage|p2b: Tyranitar|76/100|[from] Fire Pledge
+|-damage|p2a: Dondozo|63/100|[from] Fire Pledge
+|-damage|p2b: Tyranitar|64/100|[from] Leech Seed|[of] p1a: Meganium
+|-heal|p1a: Meganium|71/100|[silent]
+|-damage|p2a: Dondozo|51/100|[from] Leech Seed|[of] p1a: Meganium
+|-heal|p1a: Meganium|89/100|[silent]
+|-sideend|p2: Nearshort|Grass Pledge
+|upkeep
+|turn|5
+|
+|t:|1756513442
+|move|p1b: Delphox|Fire Pledge|p2b: Tyranitar
+|-waiting|p1b: Delphox|p1a: Meganium
+|move|p1a: Meganium|Grass Pledge|p2b: Tyranitar|[from] move: Fire Pledge
+|-combine
+|-resisted|p2b: Tyranitar
+|-damage|p2b: Tyranitar|47/100
+|move|p2b: Tyranitar|Rock Slide|p1b: Delphox|[spread] p1a,p1b
+|-supereffective|p1b: Delphox
+|-damage|p1a: Meganium|69/100
+|-damage|p1b: Delphox|0 fnt
+|faint|p1b: Delphox
+|move|p2a: Dondozo|Fissure|p1a: Meganium
+|-damage|p1a: Meganium|0 fnt
+|faint|p1a: Meganium
+|-ohko
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Tyranitar|35/100|[from] Fire Pledge
+|-damage|p2a: Dondozo|38/100|[from] Fire Pledge
+|-sideend|p2: Nearshort|Fire Pledge
+|upkeep
+|
+|t:|1756513458
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|6
+|
+|t:|1756513473
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: cpawn|Reflect
+|move|p2b: Tyranitar|Rock Slide|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|76/100
+|move|p2a: Dondozo|Yawn|p1a: Grimmsnarl
+|-start|p1a: Grimmsnarl|move: Yawn|[of] p2a: Dondozo
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Tyranitar|23/100|[from] Leech Seed|[of] p1a: Grimmsnarl
+|-heal|p1a: Grimmsnarl|88/100|[silent]
+|-damage|p2a: Dondozo|26/100|[from] Leech Seed|[of] p1a: Grimmsnarl
+|-heal|p1a: Grimmsnarl|100/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1756513484
+|move|p2b: Tyranitar|Rock Slide|p1a: Grimmsnarl
+|-crit|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|44/100
+|move|p1a: Grimmsnarl|Spirit Break|p2b: Tyranitar
+|-supereffective|p2b: Tyranitar
+|-damage|p2b: Tyranitar|0 fnt
+|faint|p2b: Tyranitar
+|move|p2a: Dondozo|Rest|p2a: Dondozo
+|-status|p2a: Dondozo|slp|[from] move: Rest
+|-enditem|p2a: Dondozo|Lum Berry|[eat]
+|-curestatus|p2a: Dondozo|slp|[msg]
+|-heal|p2a: Dondozo|100/100|[silent]
+|
+|-weather|none
+|-damage|p2a: Dondozo|88/100|[from] Leech Seed|[of] p1a: Grimmsnarl
+|-heal|p1a: Grimmsnarl|60/100|[silent]
+|-end|p1a: Grimmsnarl|move: Yawn|[silent]
+|-status|p1a: Grimmsnarl|slp
+|upkeep
+|turn|8
+|
+|t:|1756513508
+|cant|p1a: Grimmsnarl|slp
+|move|p2a: Dondozo|Fissure|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|-ohko
+|
+|win|Nearshort
+||Nearshort is ready for game 2.
+||cpawn is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

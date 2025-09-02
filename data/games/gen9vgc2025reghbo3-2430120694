@@ -1,0 +1,131 @@
+|j|‽cmacc24
+|j|☆lapinski
+|html|cmacc24lapinski    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756348568
+|gametype|doubles
+|player|p1|cmacc24|102|1043
+|player|p2|lapinski|102|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Typhlosion-Hisui, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Dragapult, L50, M|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Ninetales, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|teampreview|4
+|showteam|p1|Typhlosion-Hisui||ChoiceSpecs|Frisk|FocusBlast,InfernalParade,Eruption,HeatWave|||F|||50|,,,,,Fire]Torkoal||LifeOrb|Drought|Protect,WeatherBall,EarthPower,Eruption|||F|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|SleepPowder,AfterYou,LeafBlade,CloseCombat|||F|||50|,,,,,Dark]Whimsicott||CovertCloak|Prankster|Tailwind,Moonblast,SunnyDay,Encore|||F|||50|,,,,,Rock]Volcarona||SitrusBerry|FlameBody|RagePowder,GigaDrain,QuiverDance,FieryDance|||F|||50|,,,,,Grass]Dragapult||DragonFang|ClearBody|Protect,DragonDarts,PhantomForce,WillOWisp|||M|||50|,,,,,Dragon
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|TeraBlast,Flamethrower,HeatWave,AirSlash|||M|||50|,,,,,Fairy]Ninetales||SafetyGoggles|Drought|HelpingHand,Protect,HeatWave,SolarBeam|||F|||50|,,,,,Fire]Rillaboom||ChoiceBand|GrassySurge|GrassyGlide,SolarBlade,Uturn,FakeOut|||F|||50|,,,,,Ground]Amoonguss||RockyHelmet|Regenerator|Spore,PollenPuff,RagePowder,Toxic|||F|||50|,,,,,Ground]Incineroar||AssaultVest|Intimidate|KnockOff,FakeOut,FlareBlitz,Uturn|||M|||50|,,,,,Bug]Whimsicott||CovertCloak|Prankster|Moonblast,SunnyDay,Encore,Tailwind|||M|||50|,,,,,Dark
+|
+|t:|1756348623
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|switch|p1b: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p2a: Popola|Ninetales, L50, F, shiny|100/100
+|switch|p2b: Weiss|Incineroar, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Popola
+|-ability|p2b: Weiss|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1b: Lilligant|atk|1
+|turn|1
+|
+|t:|1756348646
+|move|p1b: Lilligant|Close Combat|p2b: Weiss
+|-supereffective|p2b: Weiss
+|-damage|p2b: Weiss|32/100
+|-unboost|p1b: Lilligant|def|1
+|-unboost|p1b: Lilligant|spd|1
+|move|p2a: Popola|Heat Wave|p1a: Torkoal|[spread] p1a,p1b
+|-resisted|p1a: Torkoal
+|-supereffective|p1b: Lilligant
+|-damage|p1a: Torkoal|72/100
+|-enditem|p1b: Lilligant|Focus Sash
+|-damage|p1b: Lilligant|1/100
+|move|p2b: Weiss|Knock Off|p1b: Lilligant
+|-resisted|p1b: Lilligant
+|-damage|p1b: Lilligant|0 fnt
+|faint|p1b: Lilligant
+|move|p1a: Torkoal|Earth Power|p2a: Popola
+|-supereffective|p2a: Popola
+|-damage|p2a: Popola|38/100
+|-damage|p1a: Torkoal|63/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756348670
+|switch|p1b: Dragapult|Dragapult, L50, M|100/100
+|turn|2
+|
+|t:|1756348680
+|switch|p2a: Devola|Whimsicott, L50, M, shiny|100/100
+|move|p1b: Dragapult|Dragon Darts|p2b: Weiss
+|-damage|p2b: Weiss|2/100
+|-anim|p1b: Dragapult|Dragon Darts|p2b: Weiss
+|-damage|p2b: Weiss|0 fnt
+|faint|p2b: Weiss
+|move|p1a: Torkoal|Earth Power|p2a: Devola
+|-resisted|p2a: Devola
+|-damage|p2a: Devola|77/100
+|-damage|p1a: Torkoal|53/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756348690
+|switch|p2b: DestroyerOfWorlds|Charizard, L50, M, shiny|100/100
+|turn|3
+|
+|t:|1756348715
+|move|p2a: Devola|Encore|p1a: Torkoal
+|-start|p1a: Torkoal|Encore
+|move|p1b: Dragapult|Phantom Force||[still]
+|-prepare|p1b: Dragapult|Phantom Force
+|move|p2b: DestroyerOfWorlds|Heat Wave|p1b: Dragapult|[spread] p1a
+|-miss|p2b: DestroyerOfWorlds|p1b: Dragapult
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: DestroyerOfWorlds|88/100|[from] ability: Solar Power|[of] p2b: DestroyerOfWorlds
+|upkeep
+|
+|t:|1756348727
+|switch|p1a: Volcarona|Volcarona, L50, F|100/100
+|turn|4
+|
+|t:|1756348747
+|move|p2a: Devola|Tailwind|p2a: Devola
+|-sidestart|p2: lapinski|move: Tailwind
+|move|p2b: DestroyerOfWorlds|Heat Wave|p1b: Dragapult|[spread] p1a
+|-miss|p2b: DestroyerOfWorlds|p1b: Dragapult
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|move|p1b: Dragapult|Phantom Force|p2b: DestroyerOfWorlds|[from] lockedmove
+|-damage|p2b: DestroyerOfWorlds|16/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: DestroyerOfWorlds|3/100|[from] ability: Solar Power|[of] p2b: DestroyerOfWorlds
+|upkeep
+|turn|5
+|-message|cmacc24 forfeited.
+|
+|win|lapinski
+|raw|cmacc24's rating: 1043 → 1025(-18 for losing)
+|raw|lapinski's rating: 1000 → 1045(+45 for winning)
+|l|‽cmacc24
+|player|p1|

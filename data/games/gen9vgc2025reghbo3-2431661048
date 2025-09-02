@@ -1,0 +1,259 @@
+|j|☆HumanPlaysVGC
+|j|☆RillaZardCJM
+|html|HumanPlaysVGCRillaZardCJM    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756554035
+|gametype|doubles
+|player|p1|HumanPlaysVGC|n-masters3|
+|player|p2|RillaZardCJM|byron|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Weezing-Galar, L50, M|
+|poke|p1|Toedscruel, L50, F|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Porygon2, L50|
+|teampreview|4
+|showteam|p1|Weezing-Galar||SitrusBerry|NeutralizingGas|DazzlingGleam,SludgeBomb,Protect,Taunt|||M|||50|,,,,,Grass]Toedscruel||CovertCloak|MyceliumMight|Spore,RagePowder,EarthPower,AcidSpray|||F|||50|,,,,,Water]Corviknight||RockyHelmet|MirrorArmor|Tailwind,BraveBird,Protect,Roost|||F|||50|,,,,,Dragon]Incineroar||AbilityShield|Intimidate|FakeOut,KnockOff,PartingShot,Taunt|||M|||50|,,,,,Ghost]Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,Protect,StompingTantrum|||F|||50|,,,,,Ground]Indeedee||FocusSash|PsychicSurge|ExpandingForce,DazzlingGleam,Protect,TrickRoom|||M|||50|,,,,,Psychic
+|showteam|p2|Charizard||LifeOrb|SolarPower|ScorchingSands,HeatWave,Protect,Flamethrower|||F|||50|,,,,,Fire]Torkoal||EjectPack|Drought|Eruption,Protect,HelpingHand,HeatWave|||M|||50|,,,,,Fire]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,Encore,Tailwind,PollenPuff|||M|||50|,,,,,Water]Grimmsnarl||LightClay|Prankster|Reflect,PartingShot,ThunderWave,SpiritBreak|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Earthquake,Facade,Protect|||F|||50|,,,,,Normal]Porygon2||Eviolite|Download|TrickRoom,TeraBlast,IceBeam,Protect||||||50|,,,,,Normal
+|
+|t:|1756554180
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Weezing|Weezing-Galar, L50, M|100/100
+|switch|p1b: Toedscruel|Toedscruel, L50, F|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1756554214
+|move|p2a: Jumpluff|Sleep Powder|p1a: Weezing
+|-status|p1a: Weezing|slp|[from] move: Sleep Powder
+|move|p1b: Toedscruel|Spore|p2b: Grimmsnarl
+|-status|p2b: Grimmsnarl|slp|[from] move: Spore
+|cant|p1a: Weezing|slp
+|cant|p2b: Grimmsnarl|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1756554249
+|switch|p1b: Corviknight|Corviknight, L50, F|100/100
+|move|p2a: Jumpluff|Encore||[still]
+|-fail|p2a: Jumpluff
+|cant|p1a: Weezing|slp
+|cant|p2b: Grimmsnarl|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1756554274
+|move|p2a: Jumpluff|Sleep Powder|p1b: Corviknight
+|-status|p1b: Corviknight|slp|[from] move: Sleep Powder
+|cant|p1b: Corviknight|slp
+|cant|p1a: Weezing|slp
+|-curestatus|p2b: Grimmsnarl|slp|[msg]
+|move|p2b: Grimmsnarl|Parting Shot|p1b: Corviknight
+|-unboost|p1b: Corviknight|atk|1
+|-unboost|p1b: Corviknight|spa|1
+|
+|t:|1756554283
+|switch|p2b: Porygon2|Porygon2, L50|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|4
+|
+|t:|1756554312
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-curestatus|p1b: Corviknight|slp|[msg]
+|move|p1b: Corviknight|Brave Bird|p2a: Torkoal
+|-damage|p2a: Torkoal|74/100
+|-damage|p1b: Corviknight|94/100|[from] Recoil
+|-curestatus|p1a: Weezing|slp|[msg]
+|move|p1a: Weezing|Taunt|p2b: Porygon2
+|-start|p2b: Porygon2|move: Taunt
+|cant|p2b: Porygon2|move: Taunt|Trick Room
+|
+|upkeep
+|turn|5
+|
+|t:|1756554344
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|move|p1b: Corviknight|Tailwind|p1b: Corviknight
+|-sidestart|p1: HumanPlaysVGC|move: Tailwind
+|move|p1a: Weezing|Sludge Bomb|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|48/100
+|-status|p2a: Grimmsnarl|psn
+|move|p2b: Porygon2|Ice Beam|p1b: Corviknight
+|-damage|p1b: Corviknight|74/100
+|
+|-damage|p2a: Grimmsnarl|36/100 psn|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1756554376
+|move|p1b: Corviknight|Brave Bird|p2b: Porygon2
+|-damage|p2b: Porygon2|84/100
+|-damage|p1b: Corviknight|70/100|[from] Recoil
+|move|p1a: Weezing|Sludge Bomb|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|move|p2b: Porygon2|Ice Beam|p1a: Weezing
+|-damage|p1a: Weezing|75/100
+|
+|-end|p2b: Porygon2|move: Taunt
+|upkeep
+|
+|t:|1756554387
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|turn|7
+|
+|t:|1756554426
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|spa|1
+|switch|p1a: Toedscruel|Toedscruel, L50, F|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M|74/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|-terastallize|p2a: Jumpluff|Water
+|move|p2a: Jumpluff|Sleep Powder|p1a: Toedscruel
+|-immune|p1a: Toedscruel
+|move|p1b: Corviknight|Brave Bird|p2a: Jumpluff
+|-damage|p2a: Jumpluff|61/100
+|-damage|p1b: Corviknight|58/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1756554467
+|move|p2a: Jumpluff|Tailwind|p2a: Jumpluff
+|-sidestart|p2: RillaZardCJM|move: Tailwind
+|move|p1a: Toedscruel|Earth Power|p2b: Torkoal
+|-supereffective|p2b: Torkoal
+|-damage|p2b: Torkoal|8/100
+|move|p1b: Corviknight|Brave Bird|p2b: Torkoal
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|-damage|p1b: Corviknight|56/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: HumanPlaysVGC|move: Tailwind
+|upkeep
+|
+|t:|1756554477
+|switch|p2b: Porygon2|Porygon2, L50|84/100
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|atk|1
+|turn|9
+|
+|t:|1756554505
+|-terastallize|p1a: Toedscruel|Water
+|move|p2a: Jumpluff|Pollen Puff|p1a: Toedscruel
+|-damage|p1a: Toedscruel|89/100
+|move|p2b: Porygon2|Ice Beam|p1a: Toedscruel
+|-resisted|p1a: Toedscruel
+|-damage|p1a: Toedscruel|78/100
+|move|p1b: Corviknight|Roost|p1b: Corviknight
+|-heal|p1b: Corviknight|100/100
+|-singleturn|p1b: Corviknight|move: Roost
+|move|p1a: Toedscruel|Spore|p2b: Porygon2
+|-status|p2b: Porygon2|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1756554529
+|cant|p2b: Porygon2|slp
+|move|p2a: Jumpluff|Sleep Powder|p1a: Toedscruel
+|-status|p1a: Toedscruel|slp|[from] move: Sleep Powder
+|move|p1b: Corviknight|Brave Bird|p2a: Jumpluff
+|-damage|p2a: Jumpluff|21/100
+|-damage|p1b: Corviknight|89/100|[from] Recoil
+|cant|p1a: Toedscruel|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1756554548
+|move|p2a: Jumpluff|Sleep Powder|p1b: Corviknight
+|-status|p1b: Corviknight|slp|[from] move: Sleep Powder
+|cant|p1a: Toedscruel|slp
+|-curestatus|p2b: Porygon2|slp|[msg]
+|move|p2b: Porygon2|Tera Blast|p1a: Toedscruel
+|-damage|p1a: Toedscruel|52/100 slp
+|cant|p1b: Corviknight|slp
+|
+|-weather|none
+|-sideend|p2: RillaZardCJM|move: Tailwind
+|upkeep
+|turn|12
+|
+|t:|1756554579
+|move|p2a: Jumpluff|Pollen Puff|p1a: Toedscruel
+|-damage|p1a: Toedscruel|40/100 slp
+|-curestatus|p1b: Corviknight|slp|[msg]
+|move|p1b: Corviknight|Brave Bird|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|faint|p2a: Jumpluff
+|-damage|p1b: Corviknight|82/100|[from] Recoil
+|move|p2b: Porygon2|Tera Blast|p1a: Toedscruel
+|-crit|p1a: Toedscruel
+|-damage|p1a: Toedscruel|2/100 slp
+|-curestatus|p1a: Toedscruel|slp|[msg]
+|move|p1a: Toedscruel|Spore|p2b: Porygon2
+|-status|p2b: Porygon2|slp|[from] move: Spore
+|
+|upkeep
+|turn|13
+|
+|t:|1756554616
+|move|p1a: Toedscruel|Acid Spray|p2b: Porygon2
+|-damage|p2b: Porygon2|79/100 slp
+|-unboost|p2b: Porygon2|spd|2
+|move|p1b: Corviknight|Brave Bird|p2b: Porygon2
+|-damage|p2b: Porygon2|63/100 slp
+|-damage|p1b: Corviknight|78/100|[from] Recoil
+|cant|p2b: Porygon2|slp
+|
+|upkeep
+|turn|14
+|
+|t:|1756554642
+|cant|p2b: Porygon2|slp
+|move|p1a: Toedscruel|Earth Power|p2b: Porygon2
+|-damage|p2b: Porygon2|32/100 slp
+|move|p1b: Corviknight|Brave Bird|p2b: Porygon2
+|-damage|p2b: Porygon2|16/100 slp
+|-damage|p1b: Corviknight|74/100|[from] Recoil
+|
+|upkeep
+|turn|15
+|
+|t:|1756554653
+|cant|p2b: Porygon2|slp
+|move|p1a: Toedscruel|Rage Powder|p1a: Toedscruel
+|-singleturn|p1a: Toedscruel|move: Rage Powder
+|move|p1b: Corviknight|Brave Bird|p2b: Porygon2
+|-damage|p2b: Porygon2|0 fnt
+|faint|p2b: Porygon2
+|-damage|p1b: Corviknight|69/100|[from] Recoil
+|
+|win|HumanPlaysVGC
+||RillaZardCJM is ready for game 2.

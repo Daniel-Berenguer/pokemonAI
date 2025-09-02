@@ -1,0 +1,209 @@
+|j|☆indiofiero
+|j|☆Jahreed
+|html|indiofieroJahreed    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756428075
+|gametype|doubles
+|player|p1|indiofiero|swimmerf-gen4|1130
+|player|p2|Jahreed|266|1092
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Porygon2, L50|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Yanmega, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Archaludon, L50, M|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|FlashCannon,BodyPress,ElectroShot,Snarl|||M|||50|,,,,,Fighting]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy]Pelipper||FocusSash|Drizzle|MuddyWater,Hurricane,Tailwind,Protect|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom||||||50|,,,,,Dark]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,Trick,Protect||||||50|,,,,,Flying
+|showteam|p2|Porygon2||Eviolite|Download|TrickRoom,IceBeam,Recover,TeraBlast||||||50|,,,,,Flying]Ursaluna||FlameOrb|Guts|Protect,Facade,HeadlongRush,Earthquake|||F|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,KnockOff,FlareBlitz|||F|||50|,,,,,Ghost]Yanmega||FocusSash|SpeedBoost|AirSlash,BugBuzz,Tailwind,Detect|||F|||50|,,,,,Ghost]Sneasler||WhiteHerb|Unburden|Protect,CloseCombat,DireClaw,ThroatChop|||F|||50|,,,,,Stellar]Archaludon||PowerHerb|Stalwart|DragonPulse,ElectroShot,Protect,Thunderbolt|||M|||50|,,,,,Electric
+|
+|t:|1756428123
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Yanmega|Yanmega, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Pelipper|atk|1
+|-unboost|p1b: Sinistcha|atk|1
+|turn|1
+|
+|t:|1756428154
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|move|p2a: Incineroar|Fake Out|p1a: Pelipper
+|-damage|p1a: Pelipper|87/100
+|move|p2b: Yanmega|Air Slash|p1b: Archaludon
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|86/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|cant|p1a: Pelipper|flinch
+|
+|-weather|RainDance|[upkeep]
+|-ability|p2b: Yanmega|Speed Boost|boost
+|-boost|p2b: Yanmega|spe|1
+|upkeep
+|turn|2
+|
+|t:|1756428201
+|move|p2b: Yanmega|Air Slash|p1a: Pelipper
+|-damage|p1a: Pelipper|14/100
+|move|p1a: Pelipper|Muddy Water|p2a: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|28/100
+|-damage|p2b: Yanmega|13/100
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-ability|p2b: Yanmega|Speed Boost|boost
+|-boost|p2b: Yanmega|spe|1
+|upkeep
+|
+|t:|1756428211
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|turn|3
+|
+|t:|1756428254
+|move|p1a: Pelipper|Protect|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Protect
+|move|p2b: Yanmega|Air Slash|p1a: Pelipper
+|-activate|p1a: Pelipper|move: Protect
+|move|p1b: Archaludon|Snarl|p2b: Yanmega|[spread] p2a
+|-miss|p1b: Archaludon|p2b: Yanmega
+|-damage|p2a: Porygon2|91/100
+|-unboost|p2a: Porygon2|spa|1
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|-weather|RainDance|[upkeep]
+|-ability|p2b: Yanmega|Speed Boost|boost
+|-boost|p2b: Yanmega|spe|1
+|upkeep
+|turn|4
+|
+|t:|1756428283
+|move|p2a: Porygon2|Ice Beam|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Porygon2
+|-damage|p2a: Porygon2|53/100
+|move|p2b: Yanmega|Air Slash|p1b: Archaludon
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|73/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|-ability|p2b: Yanmega|Speed Boost|boost
+|-boost|p2b: Yanmega|spe|1
+|upkeep
+|
+|t:|1756428293
+|switch|p1a: Sinistcha|Sinistcha, L50|100/100
+|-heal|p1b: Archaludon|97/100|[from] ability: Hospitality|[of] p1a: Sinistcha
+|turn|5
+|
+|t:|1756428304
+|-terastallize|p1a: Sinistcha|Dark
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|move|p1b: Archaludon|Body Press|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|33/100
+|move|p2b: Yanmega|Air Slash|p1a: Sinistcha
+|-damage|p1a: Sinistcha|66/100
+|move|p1a: Sinistcha|Trick Room|p1a: Sinistcha
+|-fieldend|move: Trick Room
+|
+|-weather|none
+|-ability|p2b: Yanmega|Speed Boost|boost
+|-boost|p2b: Yanmega|spe|1
+|upkeep
+|turn|6
+|
+|t:|1756428327
+|-terastallize|p2a: Porygon2|Flying
+|move|p2b: Yanmega|Bug Buzz|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|move|p1b: Archaludon|Flash Cannon|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|
+|-ability|p2b: Yanmega|Speed Boost|boost
+|-boost|p2b: Yanmega|spe|1
+|upkeep
+|
+|t:|1756428334
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|turn|7
+|
+|t:|1756428348
+|move|p2a: Archaludon|Protect|p2a: Archaludon
+|-singleturn|p2a: Archaludon|Protect
+|move|p2b: Yanmega|Bug Buzz|p1b: Archaludon
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|81/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p1b: Archaludon|Body Press|p2a: Archaludon
+|-activate|p2a: Archaludon|move: Protect
+|move|p1a: Ursaluna|Headlong Rush|p2a: Archaludon
+|-activate|p2a: Archaludon|move: Protect
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|8
+|
+|t:|1756428375
+|move|p2b: Yanmega|Air Slash|p1b: Archaludon
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|66/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p2a: Archaludon|Dragon Pulse|p1b: Archaludon
+|-damage|p1b: Archaludon|38/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p1b: Archaludon|Flash Cannon|p2b: Yanmega
+|-damage|p2b: Yanmega|0 fnt
+|faint|p2b: Yanmega
+|move|p1a: Ursaluna|Headlong Rush|p2a: Archaludon
+|-supereffective|p2a: Archaludon
+|-crit|p2a: Archaludon
+|-damage|p2a: Archaludon|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Archaludon
+|
+|win|indiofiero
+|raw|indiofiero's rating: 1130 → 1152(+22 for winning)
+|raw|Jahreed's rating: 1092 → 1071(-21 for losing)
+|l|☆Jahreed
+|player|p2|

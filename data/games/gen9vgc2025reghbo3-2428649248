@@ -1,0 +1,132 @@
+|j|☆takeshivgc-test
+|j|☆Volanr
+|html|takeshivgc-testVolanr    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756167481
+|gametype|doubles
+|player|p1|takeshivgc-test|266|1311
+|player|p2|Volanr|veteranf|1300
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Armarouge, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Armarouge||PowerHerb|FlashFire|ArmorCannon,ExpandingForce,TrickRoom,MeteorBeam|||F|||50|,,,,,Grass]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,TrickRoom,FollowMe|||F|||50|,,,,,Fairy]Torkoal||Charcoal|Drought|Eruption,Protect,WeatherBall,HeatWave|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,MysticalFire|||F|||50|,,,,,Fire
+|showteam|p2|Archaludon||AssaultVest|Stamina|BodyPress,Snarl,ElectroShot,FlashCannon|||M|||50|,,,,,Grass]Sinistcha-Masterpiece||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,LifeDew||||||50|,,,,,Dark]Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,Tailwind,Haze|||M|||50|,,,,,Steel]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Ground]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,TeraBlast,ShadowBall,Trick||||||50|,,,,,Water
+|l|☆Volanr
+|player|p2|
+|
+|t:|1756167530
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Gallade|Gallade, L50, M, shiny|100/100
+|switch|p2a: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|j|☆Volanr
+|player|p2|Volanr|veteranf|
+|
+|t:|1756167556
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Indeedee|Helping Hand|p1b: Gallade
+|-singleturn|p1b: Gallade|Helping Hand|[of] p1a: Indeedee
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1b: Gallade
+|-crit|p1b: Gallade
+|-damage|p1b: Gallade|22/100
+|move|p1b: Gallade|Psycho Cut|p2a: Pelipper
+|-enditem|p2a: Pelipper|Focus Sash
+|-damage|p2a: Pelipper|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756167606
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|move|p2a: Pelipper|Weather Ball|p1a: Indeedee
+|-damage|p1a: Indeedee|70/100
+|move|p2b: Archaludon|Snarl|p1a: Indeedee|[spread] p1a,p1b
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|49/100
+|-damage|p1b: Torkoal|75/100
+|-unboost|p1a: Indeedee|spa|1
+|-unboost|p1b: Torkoal|spa|1
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756167627
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|move|p1a: Indeedee|Helping Hand|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Torkoal|Eruption|p2b: Archaludon|[spread] p2a,p2b
+|-damage|p2a: Ursaluna|35/100
+|-damage|p2b: Archaludon|52/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2b: Archaludon|Snarl|p1b: Torkoal|[spread] p1a,p1b
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|24/100
+|-damage|p1b: Torkoal|51/100
+|-unboost|p1a: Indeedee|spa|1
+|-unboost|p1b: Torkoal|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1756167645
+|switch|p1b: Hatterene|Hatterene, L50, F, shiny|100/100
+|switch|p2a: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-heal|p2b: Archaludon|77/100|[from] ability: Hospitality|[of] p2a: Sinistcha
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Archaludon|Snarl|p1b: Hatterene|[spread] p1a,p1b
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|1/100
+|-damage|p1b: Hatterene|82/100
+|-unboost|p1a: Indeedee|spa|1
+|-unboost|p1b: Hatterene|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|-message|takeshivgc-test forfeited.
+|raw|takeshivgc-test's rating: 1311 → 1290(-21 for losing)
+|raw|Volanr's rating: 1300 → 1326(+26 for winning)
+|
+|win|Volanr
+|l|☆takeshivgc-test
+|player|p1|
+|l|☆Volanr
+|player|p2|
+|j|☆Volanr
+|player|p2|Volanr|veteranf|

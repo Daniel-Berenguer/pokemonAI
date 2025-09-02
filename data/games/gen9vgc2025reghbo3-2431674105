@@ -1,0 +1,129 @@
+|j|☆Scobie
+|j|☆Shoto.tx
+|html|ScobieShoto.tx    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756556170
+|gametype|doubles
+|player|p1|Scobie|veteran-gen4|1110
+|player|p2|Shoto.tx|102|1033
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Dragapult, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Politoed, L50, M|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Kingdra, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Ghost]Sneasler||WhiteHerb|Unburden|DireClaw,CloseCombat,FakeOut,Protect|||F|||50|,,,,,Stellar]Rillaboom||MiracleSeed|GrassySurge|WoodHammer,GrassyGlide,FakeOut,Protect|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Whimsicott||CovertCloak|Prankster|Moonblast,Tailwind,SunnyDay,Taunt|||F|||50|,,,,,Dark]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,TeraBlast,Uturn|||M|||50|,,,,,Ground
+|showteam|p2|Archaludon||PowerHerb|Sturdy|ElectroShot,FlashCannon,DragonPulse,Protect|||M|||50|,,,,,Electric]Politoed||Leftovers|Drizzle|WeatherBall,PerishSong,Encore,Protect|||M|||50|,,,,,Grass]Gothitelle||SitrusBerry|ShadowTag|Psychic,FakeOut,TrickRoom,Protect|||M|||50|,,,,,Dark]Kingdra||LifeOrb|SwiftSwim|DracoMeteor,WeatherBall,MuddyWater,Protect|||F|||50|,,,,,Stellar]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Protect|||M|||50|,,,,,Ghost]Amoonguss||EjectButton|Regenerator|Spore,RagePowder,PollenPuff,Protect|||M|||50|,,,,,Fairy
+|
+|t:|1756556187
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p2b: Kingdra|Kingdra, L50, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Whimsicott|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|turn|1
+|
+|t:|1756556218
+|switch|p2b: Gothitelle|Gothitelle, L50, M, shiny|100/100
+|move|p1b: Rillaboom|Fake Out|p2b: Gothitelle
+|-damage|p2b: Gothitelle|91/100
+|move|p2a: Incineroar|Fake Out|p1b: Rillaboom
+|-damage|p1b: Rillaboom|91/100
+|move|p1a: Whimsicott|Moonblast|p2b: Gothitelle
+|-damage|p2b: Gothitelle|71/100
+|
+|-heal|p1b: Rillaboom|97/100|[from] Grassy Terrain
+|-heal|p2b: Gothitelle|76/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756556245
+|move|p1a: Whimsicott|Moonblast|p2a: Incineroar
+|-damage|p2a: Incineroar|77/100
+|move|p1b: Rillaboom|Wood Hammer|p2b: Gothitelle
+|-damage|p2b: Gothitelle|16/100
+|-enditem|p2b: Gothitelle|Sitrus Berry|[eat]
+|-heal|p2b: Gothitelle|40/100|[from] item: Sitrus Berry
+|-damage|p1b: Rillaboom|80/100|[from] Recoil
+|move|p2a: Incineroar|Parting Shot|p1b: Rillaboom
+|-unboost|p1b: Rillaboom|atk|1
+|-unboost|p1b: Rillaboom|spa|1
+|
+|t:|1756556257
+|switch|p2a: Kingdra|Kingdra, L50, F, shiny|100/100|[from] Parting Shot
+|move|p2b: Gothitelle|Trick Room|p2b: Gothitelle
+|-fieldstart|move: Trick Room|[of] p2b: Gothitelle
+|
+|-heal|p2b: Gothitelle|46/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|86/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756556277
+|move|p1b: Rillaboom|Grassy Glide|p2a: Kingdra
+|-damage|p2a: Kingdra|77/100
+|move|p1a: Whimsicott|Taunt|p2b: Gothitelle
+|-start|p2b: Gothitelle|move: Taunt
+|move|p2b: Gothitelle|Psychic|p1b: Rillaboom
+|-damage|p1b: Rillaboom|54/100
+|move|p2a: Kingdra|Draco Meteor|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|-unboost|p2a: Kingdra|spa|2
+|faint|p1b: Rillaboom
+|-damage|p2a: Kingdra|67/100|[from] item: Life Orb
+|
+|-heal|p2b: Gothitelle|52/100|[from] Grassy Terrain
+|-heal|p2a: Kingdra|73/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756556294
+|switch|p1b: Dragapult|Dragapult, L50, M|100/100
+|turn|4
+|
+|t:|1756556306
+|-terastallize|p2a: Kingdra|Stellar
+|-terastallize|p1b: Dragapult|Ground
+|move|p2b: Gothitelle|Psychic|p1b: Dragapult
+|-damage|p1b: Dragapult|56/100
+|move|p2a: Kingdra|Draco Meteor|p1b: Dragapult
+|-damage|p1b: Dragapult|0 fnt
+|-unboost|p2a: Kingdra|spa|2
+|faint|p1b: Dragapult
+|-damage|p2a: Kingdra|64/100|[from] item: Life Orb
+|move|p1a: Whimsicott|Moonblast|p2a: Kingdra
+|-supereffective|p2a: Kingdra
+|-damage|p2a: Kingdra|5/100
+|
+|-heal|p2b: Gothitelle|58/100|[from] Grassy Terrain
+|-heal|p2a: Kingdra|11/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756556321
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|turn|5
+|-message|Scobie forfeited.
+|
+|win|Shoto.tx
+|raw|Scobie's rating: 1110 → 1080(-30 for losing)
+|raw|Shoto.tx's rating: 1033 → 1076(+43 for winning)
+|l|☆Scobie
+|player|p1|

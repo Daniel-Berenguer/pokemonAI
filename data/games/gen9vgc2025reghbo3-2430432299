@@ -1,0 +1,205 @@
+|j|☆GepecavaIIi
+|j|☆Tronman17
+|html|GepecavaIIiTronman17    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756394894
+|gametype|doubles
+|player|p1|GepecavaIIi|lance|1153
+|player|p2|Tronman17|steven|1093
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Talonflame, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|showteam|p1|Gothitelle||SitrusBerry|ShadowTag|Psychic,Protect,TrickRoom,FakeOut|||M|||50|,,,,,Water]Primarina||ThroatSpray|LiquidVoice|HyperVoice,Moonblast,Protect,PerishSong|||F|||50|,,,,,Steel]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,EarthPower,BloodMoon,Protect|||M|||50|,,,,,Normal]Gholdengo||FocusSash|GoodasGold|MakeItRain,ShadowBall,Protect,NastyPlot||||||50|,,,,,Steel]Talonflame||CovertCloak|GaleWings|DualWingbeat,FlareBlitz,Tailwind,Taunt|||F|||50|,,,,,Stellar]Rillaboom||AssaultVest|GrassySurge|GrassyGlide,WoodHammer,FakeOut,Uturn|||M|||50|,,,,,Fire
+|showteam|p2|Archaludon||AssaultVest|Stamina|BodyPress,ElectroShot,FlashCannon,DragonPulse|||M|||50|,,,,,Fairy]Pelipper||CovertCloak|Drizzle|Hurricane,WeatherBall,Tailwind,Uturn|||F|||50|,,,,,Stellar]Annihilape||Leftovers|Defiant|DrainPunch,RageFist,BulkUp,Protect|||F|||50|,,,,,Water]Rillaboom||LoadedDice|GrassySurge|GrassyGlide,BulletSeed,FakeOut,Protect|||M|||50|,,,,,Fire]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,TrickRoom,RagePowder||||||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||M|||50|,,,,,Ground
+|
+|t:|1756394923
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Primarina|Primarina, L50, F|100/100
+|switch|p1b: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p2a: Archaludon|Archaludon, L50, M, shiny|100/100
+|switch|p2b: Pelipper|Pelipper, L50, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|1
+|
+|t:|1756394944
+|move|p1b: Gothitelle|Fake Out|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|98/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2b: Pelipper|U-turn|p1b: Gothitelle
+|-supereffective|p1b: Gothitelle
+|-damage|p1b: Gothitelle|84/100
+|
+|t:|1756394954
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100|[from] U-turn
+|cant|p2a: Archaludon|flinch
+|move|p1a: Primarina|Perish Song|p1a: Primarina
+|-start|p1a: Primarina|perish3|[silent]
+|-start|p1b: Gothitelle|perish3|[silent]
+|-start|p2a: Archaludon|perish3|[silent]
+|-start|p2b: Ursaluna|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|-enditem|p1a: Primarina|Throat Spray
+|-boost|p1a: Primarina|spa|1|[from] item: Throat Spray
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Archaludon|perish3
+|-start|p1b: Gothitelle|perish3
+|-start|p1a: Primarina|perish3
+|-start|p2b: Ursaluna|perish3
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1756395000
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p1b: Gothitelle|Protect|p1b: Gothitelle
+|-singleturn|p1b: Gothitelle|Protect
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|75/100
+|move|p2b: Ursaluna|Facade|p1b: Gothitelle
+|-activate|p1b: Gothitelle|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Archaludon|100/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|81/100|[from] Grassy Terrain
+|-heal|p1b: Gothitelle|90/100|[from] Grassy Terrain
+|-damage|p2b: Ursaluna|94/100 brn|[from] brn
+|-start|p2a: Archaludon|perish2
+|-start|p1b: Gothitelle|perish2
+|-start|p2b: Ursaluna|perish2
+|upkeep
+|turn|3
+|
+|t:|1756395083
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|move|p2a: Archaludon|Dragon Pulse|p1b: Ursaluna
+|-damage|p1b: Ursaluna|30/100
+|move|p1a: Rillaboom|U-turn|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|94/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|
+|t:|1756395091
+|switch|p1a: Gothitelle|Gothitelle, L50, M|90/100|[from] U-turn
+|move|p2b: Ursaluna|Facade|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Archaludon|100/100|[from] Grassy Terrain
+|-heal|p1a: Gothitelle|96/100|[from] Grassy Terrain
+|-heal|p2b: Ursaluna|100/100 brn|[from] Grassy Terrain
+|-damage|p2b: Ursaluna|94/100 brn|[from] brn
+|-start|p2a: Archaludon|perish1
+|-start|p2b: Ursaluna|perish1
+|upkeep
+|
+|t:|1756395105
+|switch|p1b: Primarina|Primarina, L50, F|100/100
+|turn|4
+|
+|t:|1756395128
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p1b: Primarina|Protect|p1b: Primarina
+|-singleturn|p1b: Primarina|Protect
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1b: Primarina
+|-activate|p1b: Primarina|move: Protect
+|move|p2b: Ursaluna|Facade|p1a: Gothitelle
+|-activate|p1a: Gothitelle|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gothitelle|100/100|[from] Grassy Terrain
+|-heal|p2b: Ursaluna|100/100 brn|[from] Grassy Terrain
+|-damage|p2b: Ursaluna|94/100 brn|[from] brn
+|-start|p2a: Archaludon|perish0
+|-start|p2b: Ursaluna|perish0
+|faint|p2a: Archaludon
+|faint|p2b: Ursaluna
+|upkeep
+|
+|t:|1756395146
+|switch|p2a: Annihilape|Annihilape, L50, F, shiny|100/100
+|switch|p2b: Pelipper|Pelipper, L50, F, shiny|100/100
+|turn|5
+|
+|t:|1756395171
+|-terastallize|p2a: Annihilape|Water
+|move|p2b: Pelipper|Weather Ball|p1a: Gothitelle
+|-damage|p1a: Gothitelle|63/100
+|move|p2a: Annihilape|Bulk Up|p2a: Annihilape
+|-boost|p2a: Annihilape|atk|1
+|-boost|p2a: Annihilape|def|1
+|move|p1b: Primarina|Perish Song|p1b: Primarina
+|-start|p1a: Gothitelle|perish3|[silent]
+|-start|p1b: Primarina|perish3|[silent]
+|-start|p2a: Annihilape|perish3|[silent]
+|-start|p2b: Pelipper|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Gothitelle|Trick Room|p1a: Gothitelle
+|-fieldstart|move: Trick Room|[of] p1a: Gothitelle
+|
+|-weather|none
+|-heal|p1a: Gothitelle|69/100|[from] Grassy Terrain
+|-start|p1b: Primarina|perish3
+|-start|p1a: Gothitelle|perish3
+|-start|p2a: Annihilape|perish3
+|-start|p2b: Pelipper|perish3
+|upkeep
+|turn|6
+|
+|t:|1756395196
+|move|p1b: Primarina|Protect|p1b: Primarina
+|-singleturn|p1b: Primarina|Protect
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2a: Annihilape|Rage Fist|p1a: Gothitelle
+|-activate|p1a: Gothitelle|move: Protect
+|move|p2b: Pelipper|Weather Ball|p1a: Gothitelle
+|-activate|p1a: Gothitelle|move: Protect
+|
+|-heal|p1a: Gothitelle|76/100|[from] Grassy Terrain
+|-start|p1b: Primarina|perish2
+|-start|p1a: Gothitelle|perish2
+|-start|p2a: Annihilape|perish2
+|-start|p2b: Pelipper|perish2
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|7
+|-message|Tronman17 forfeited.
+|
+|win|GepecavaIIi
+|raw|GepecavaIIi's rating: 1153 → 1174(+21 for winning)
+|raw|Tronman17's rating: 1093 → 1073(-20 for losing)
+|l|☆Tronman17
+|player|p2|
+|c|☆GepecavaIIi|gg

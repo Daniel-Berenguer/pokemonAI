@@ -1,0 +1,176 @@
+|j|☆santacrab2
+|j|☆kdbc73
+|html|santacrab2kdbc73    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756207234
+|gametype|doubles
+|player|p1|santacrab2|266|1015
+|player|p2|kdbc73|lucas|1035
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Flamigo, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Talonflame, L50, F|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|KnockOff,FlareBlitz,PartingShot,FakeOut|||M|||50|,,,,,Grass]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Ghost]Amoonguss||MentalHerb|Regenerator|Spore,RagePowder,PollenPuff,SludgeBomb|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Steel]Flamigo||FocusSash|Scrappy|CloseCombat,BraveBird,WideGuard,Uturn|||F|||50|,,,,,Ghost
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,HelpingHand,Protect|||M|||50|,,,,,Psychic]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Protect|||M|||50|,,,,,Dragon]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Ghost]Talonflame||CovertCloak|GaleWings|FlareBlitz,DualWingbeat,WillOWisp,Tailwind|||F|||50|,,,,,Fairy
+|
+|t:|1756207282
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Porygon2|Porygon2, L50|100/100
+|switch|p1b: Flamigo|Flamigo, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|turn|1
+|
+|t:|1756207338
+|move|p2a: Indeedee|Expanding Force|p1b: Flamigo|[spread] p1a,p1b
+|-supereffective|p1b: Flamigo
+|-damage|p1a: Porygon2|68/100
+|-enditem|p1b: Flamigo|Focus Sash
+|-damage|p1b: Flamigo|1/100
+|move|p1b: Flamigo|Close Combat|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|15/100
+|-unboost|p1b: Flamigo|def|1
+|-unboost|p1b: Flamigo|spd|1
+|move|p2b: Ursaluna|Blood Moon|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|-damage|p2b: Ursaluna|5/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756207354
+|switch|p1a: Gholdengo|Gholdengo, L50, shiny|100/100
+|turn|2
+|
+|t:|1756207378
+|move|p2a: Indeedee|Protect|p2a: Indeedee
+|-singleturn|p2a: Indeedee|Protect
+|move|p1b: Flamigo|Close Combat|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|-unboost|p1b: Flamigo|def|1
+|-unboost|p1b: Flamigo|spd|1
+|faint|p2b: Ursaluna
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|upkeep
+|
+|t:|1756207408
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Gholdengo|atk|1
+|-fail|p1b: Flamigo|unboost|Attack|[from] ability: Scrappy|[of] p1b: Flamigo
+|turn|3
+|
+|t:|1756207447
+|move|p2b: Incineroar|Fake Out|p1b: Flamigo
+|-hint|Psychic Terrain doesn't affect Pokémon immune to Ground.
+|-crit|p1b: Flamigo
+|-damage|p1b: Flamigo|0 fnt
+|faint|p1b: Flamigo
+|move|p2a: Indeedee|Expanding Force|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|61/100
+|move|p1a: Gholdengo|Make It Rain|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-enditem|p2a: Indeedee|Focus Sash
+|-damage|p2a: Indeedee|1/100
+|-damage|p2b: Incineroar|41/100
+|-unboost|p1a: Gholdengo|spa|1
+|-damage|p1a: Gholdengo|51/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756207461
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|4
+|
+|t:|1756207489
+|move|p2a: Indeedee|Protect|p2a: Indeedee
+|-singleturn|p2a: Indeedee|Protect
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2b: Incineroar|Knock Off|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|move|p1b: Ursaluna|Earthquake|p2a: Indeedee|[spread] p2b
+|-activate|p1a: Gholdengo|move: Protect
+|-activate|p2a: Indeedee|move: Protect
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756207497
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|5
+|
+|t:|1756207529
+|-terastallize|p2a: Indeedee|Psychic
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p2a: Indeedee|Expanding Force|p1a: Gholdengo|[spread] p1a,p1b
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|12/100
+|-damage|p1b: Ursaluna|34/100 brn
+|move|p1a: Gholdengo|Make It Rain|p2b: Sneasler|[spread] p2a
+|-activate|p2b: Sneasler|move: Protect
+|-damage|p2a: Indeedee|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Indeedee
+|-damage|p1a: Gholdengo|3/100|[from] item: Life Orb
+|move|p1b: Ursaluna|Facade|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Protect
+|
+|-damage|p1b: Ursaluna|28/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756207558
+|move|p2b: Sneasler|Throat Chop|p1b: Ursaluna
+|-damage|p1b: Ursaluna|5/100 brn
+|-start|p1b: Ursaluna|Throat Chop|[silent]
+|move|p1a: Gholdengo|Shadow Ball|p2b: Sneasler
+|-damage|p2b: Sneasler|52/100
+|-damage|p1a: Gholdengo|0 fnt|[from] item: Life Orb
+|faint|p1a: Gholdengo
+|move|p1b: Ursaluna|Facade|p2b: Sneasler
+|-crit|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|win|santacrab2
+|inactive|santacrab2 has 30 seconds to confirm battle start!
+|inactive|kdbc73 has 30 seconds to confirm battle start!
+||kdbc73 is ready for game 2.
+|inactive|santacrab2 has 20 seconds to confirm battle start!
+||santacrab2 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆santacrab2
+|player|p1|

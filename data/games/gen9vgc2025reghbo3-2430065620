@@ -1,0 +1,173 @@
+|j|☆A Regu1ar Guy
+|j|☆snailboss
+|html|A Regu1ar Guysnailboss    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756341863
+|gametype|doubles
+|player|p1|A Regu1ar Guy|elesa|1276
+|player|p2|snailboss|1|1293
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Tauros-Paldea-Aqua, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Tauros-Paldea-Aqua, L50, M|
+|poke|p2|Electabuzz, L50, F|
+|teampreview|4
+|showteam|p1|Volcarona||GrassySeed|FlameBody|HeatWave,GigaDrain,QuiverDance,Protect|||M|||50|,,,,,Grass]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,HighHorsepower|||M|||50|,,,,,Fire]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,FollowMe,Taunt,Protect|||M|||50|,,,,,Ghost]Tauros-Paldea-Aqua||MirrorHerb|Intimidate|WaveCrash,AquaJet,CloseCombat,Protect|||M|||50|,,,,,Water]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Dark]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||M|||50|,,,,,Fairy
+|showteam|p2|Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,SwordsDance,Protect|||F|||50|,,,,,Ghost]Ninetales-Alola||FocusSash|SnowWarning|Moonblast,FreezeDry,Encore,Disable|||F|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,HighHorsepower|||M|||50|,,,,,Fire]Volcarona||CovertCloak|FlameBody|QuiverDance,HeatWave,GigaDrain,Protect|||M|||50|,,,,,Grass]Tauros-Paldea-Aqua||GrassySeed|Intimidate|WaveCrash,BodyPress,Protect,AquaJet|||M|||50|,,,,,Fire]Electabuzz||Eviolite|VitalSpirit|FollowMe,Electroweb,HelpingHand,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1756341908
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|1
+|
+|t:|1756341952
+|switch|p2a: Tauros|Tauros-Paldea-Aqua, L50, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|-unboost|p1b: Kingambit|atk|1
+|-ability|p1b: Kingambit|Defiant|boost
+|-boost|p1b: Kingambit|atk|2
+|-enditem|p2a: Tauros|Grassy Seed
+|-boost|p2a: Tauros|def|1|[from] item: Grassy Seed
+|switch|p1a: Volcarona|Volcarona, L50, M, shiny|100/100
+|-enditem|p1a: Volcarona|Grassy Seed
+|-boost|p1a: Volcarona|def|1|[from] item: Grassy Seed
+|move|p2b: Rillaboom|Fake Out|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|74/100
+|-status|p2b: Rillaboom|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|move|p1b: Kingambit|Kowtow Cleave|p2b: Rillaboom
+|-damage|p2b: Rillaboom|9/100 brn
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Volcarona|81/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|15/100 brn|[from] Grassy Terrain
+|-damage|p2b: Rillaboom|9/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1756341987
+|switch|p2b: Volcarona|Volcarona, L50, M|100/100
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|-terastallize|p2a: Tauros|Fire
+|-terastallize|p1a: Volcarona|Grass
+|move|p2a: Tauros|Body Press|p1b: Dragonite
+|-resisted|p1b: Dragonite
+|-damage|p1b: Dragonite|85/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Volcarona|87/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756342007
+|move|p1a: Volcarona|Heat Wave|p2a: Tauros|[spread] p2a,p2b
+|-resisted|p2a: Tauros
+|-damage|p2a: Tauros|59/100
+|-damage|p2b: Volcarona|58/100
+|move|p2a: Tauros|Body Press|p1a: Volcarona
+|-damage|p1a: Volcarona|40/100
+|move|p2b: Volcarona|Heat Wave|p1b: Dragonite|[spread] p1a,p1b
+|-supereffective|p1a: Volcarona
+|-resisted|p1b: Dragonite
+|-damage|p1a: Volcarona|2/100
+|-damage|p1b: Dragonite|68/100
+|-status|p1b: Dragonite|brn
+|move|p1b: Dragonite|Scale Shot|p2b: Volcarona
+|-damage|p2b: Volcarona|48/100
+|-damage|p2b: Volcarona|40/100
+|-damage|p2b: Volcarona|30/100
+|-damage|p2b: Volcarona|21/100
+|-damage|p2b: Volcarona|11/100
+|-hitcount|p2b: Volcarona|5
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Volcarona|8/100|[from] Grassy Terrain
+|-heal|p2a: Tauros|65/100|[from] Grassy Terrain
+|-heal|p2b: Volcarona|17/100|[from] Grassy Terrain
+|-damage|p1b: Dragonite|62/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1756342030
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|move|p2a: Tauros|Aqua Jet|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|2/100
+|move|p1a: Volcarona|Heat Wave|p2a: Tauros|[spread] p2a,p2b
+|-resisted|p2a: Tauros
+|-supereffective|p2b: Ninetales
+|-damage|p2a: Tauros|23/100
+|-enditem|p2b: Ninetales|Focus Sash
+|-damage|p2b: Ninetales|1/100
+|move|p1b: Dragonite|Scale Shot|p2a: Tauros
+|-damage|p2a: Tauros|18/100
+|-damage|p2a: Tauros|15/100
+|-damage|p2a: Tauros|10/100
+|-damage|p2a: Tauros|5/100
+|-hitcount|p2a: Tauros|4
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Volcarona|8/100|[from] Grassy Terrain
+|-heal|p2b: Ninetales|7/100|[from] Grassy Terrain
+|-heal|p2a: Tauros|11/100|[from] Grassy Terrain
+|-damage|p1b: Dragonite|56/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1756342057
+|move|p1b: Dragonite|Extreme Speed|p2b: Ninetales
+|-damage|p2b: Ninetales|0 fnt
+|faint|p2b: Ninetales
+|move|p1a: Volcarona|Giga Drain|p2a: Tauros
+|-resisted|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|-heal|p1a: Volcarona|12/100|[from] drain|[of] p2a: Tauros
+|faint|p2a: Tauros
+|
+|-weather|none
+|-heal|p1a: Volcarona|19/100|[from] Grassy Terrain
+|-damage|p1b: Dragonite|50/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756342059
+|switch|p2b: Volcarona|Volcarona, L50, M|17/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|9/100 brn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|6
+|-message|snailboss forfeited.
+|raw|A Regu1ar Guy's rating: 1276 → 1302(+26 for winning)
+|raw|snailboss's rating: 1293 → 1267(-26 for losing)
+|
+|win|A Regu1ar Guy
+|c|☆snailboss|ggs!
+|c|☆A Regu1ar Guy|ggs

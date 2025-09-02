@@ -1,0 +1,103 @@
+|j|☆fidelillo
+|j|☆laic67place
+|html|fidelillolaic67place    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756442264
+|gametype|doubles
+|player|p1|fidelillo|silver|1078
+|player|p2|laic67place|wattson|1243
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, F|
+|poke|p2|Jumpluff, L50, F|
+|teampreview|4
+|showteam|p1|Torkoal||ChoiceSpecs|Drought|Eruption,WeatherBall,EarthPower,HeatWave|||M|||50|,,,,,Fire]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,HelpingHand,FollowMe,Psychic|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|DazzlingGleam,ExpandingForce,Psyshock,TrickRoom|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||F|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|TrickRoom,SacredSword,PsychoCut,WideGuard|||M|||50|,,,,,Grass]Annihilape||ChoiceScarf|Defiant|FinalGambit,CloseCombat,ShadowClaw,Uturn|||M|||50|,,,,,Stellar
+|showteam|p2|Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,Earthquake,Protect|||F|||50|,,,,,Fire]Torkoal||EjectPack|Drought|Overheat,BurningJealousy,HelpingHand,Protect|||F|||50|,,,,,Flying]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,IceSpinner,Protect|||M|||50|,,,,,Fairy]Kingambit||AssaultVest|Defiant|IronHead,SuckerPunch,KowtowCleave,LowKick|||F|||50|,,,,,Flying]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,ShadowBall,HeatWave,Overheat|||F|||50|,,,,,Fire]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,Encore,Tailwind|||F|||50|,,,,,Water
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fidelillo)
+|
+|t:|1756442290
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|1
+|
+|t:|1756442314
+|-terastallize|p2a: Typhlosion|Fire
+|-terastallize|p1a: Hatterene|Water
+|move|p2b: Torkoal|Helping Hand|p2a: Typhlosion
+|-singleturn|p2a: Typhlosion|Helping Hand|[of] p2b: Torkoal
+|move|p2a: Typhlosion|Eruption|p1b: Indeedee|[spread] p1a,p1b
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1a: Hatterene
+|faint|p1b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756442323
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|switch|p1a: Annihilape|Annihilape, L50, M|100/100
+|turn|2
+|
+|t:|1756442332
+|move|p2b: Torkoal|Protect|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Protect
+|move|p1a: Annihilape|Final Gambit|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p1a: Annihilape
+|faint|p2a: Typhlosion
+|move|p1b: Torkoal|Eruption|p2b: Torkoal
+|-activate|p2b: Torkoal|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756442337
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|turn|3
+|inactive|fidelillo has 30 seconds left.
+|
+|t:|1756442364
+|move|p2a: Garchomp|Stomping Tantrum|p1b: Torkoal
+|-supereffective|p1b: Torkoal
+|-damage|p1b: Torkoal|29/100
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|move|p1b: Torkoal|Eruption|p2a: Garchomp|[spread] p2a,p2b
+|-resisted|p2a: Garchomp
+|-resisted|p2b: Torkoal
+|-damage|p2a: Garchomp|73/100
+|-damage|p2b: Torkoal|82/100
+|move|p2b: Torkoal|Overheat|p1b: Torkoal
+|-resisted|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|-unboost|p2b: Torkoal|spa|2
+|faint|p1b: Torkoal
+|-enditem|p2b: Torkoal|Eject Pack
+|
+|win|laic67place
+|raw|fidelillo's rating: 1078 → 1066(-12 for losing)
+|raw|laic67place's rating: 1243 → 1257(+14 for winning)

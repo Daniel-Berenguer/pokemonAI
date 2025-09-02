@@ -1,0 +1,143 @@
+|j|☆allgasnoblake
+|j|☆Homero tg
+|html|allgasnoblakeHomero tg    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756355968
+|gametype|doubles
+|player|p1|allgasnoblake|102|1000
+|player|p2|Homero tg|170|1083
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Magmar, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Porygon2, L50|
+|teampreview|4
+|showteam|p1|Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,FakeOut,Protect|||F|||50|,,,,,Stellar]Dragapult||ChoiceBand|ClearBody|DragonDarts,TeraBlast,PhantomForce,Uturn|||F|||50|,,,,,Ghost]Primarina||SitrusBerry|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||F|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||F|||50|,,,,,Fire]Kingambit||DreadPlate|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Ghost]Magmar||Eviolite|VitalSpirit|Overheat,WillOWisp,FollowMe,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,Tailwind,RagePowder|||M|||50|,,,,,Fire]Charizard||ChoiceSpecs|SolarPower|DragonPulse,HeatWave,Overheat,WeatherBall|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|ClearSmog,Eruption,Overheat,Protect|||F|||50|,,,,,Fire]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting
+|
+|t:|1756355985
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragapult|Dragapult, L50, F|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|1
+|
+|t:|1756356006
+|move|p1b: Sneasler|Fake Out|p2b: Torkoal
+|-damage|p2b: Torkoal|90/100
+|-status|p2b: Torkoal|psn|[from] ability: Poison Touch|[of] p1b: Sneasler
+|move|p2a: Jumpluff|Sleep Powder|p1b: Sneasler
+|-status|p1b: Sneasler|slp|[from] move: Sleep Powder
+|move|p1a: Dragapult|U-turn|p2a: Jumpluff
+|-damage|p2a: Jumpluff|57/100
+|
+|t:|1756356019
+|switch|p1a: Magmar|Magmar, L50, M|100/100|[from] U-turn
+|cant|p2b: Torkoal|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Torkoal|78/100 psn|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1756356043
+|move|p2a: Jumpluff|Tailwind|p2a: Jumpluff
+|-sidestart|p2: Homero tg|move: Tailwind
+|cant|p1b: Sneasler|slp
+|move|p1a: Magmar|Overheat|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|-unboost|p1a: Magmar|spa|2
+|faint|p2a: Jumpluff
+|move|p2b: Torkoal|Overheat|p1b: Sneasler
+|-enditem|p1b: Sneasler|Focus Sash
+|-damage|p1b: Sneasler|1/100 slp
+|-unboost|p2b: Torkoal|spa|2
+|-enditem|p2b: Torkoal|Eject Pack
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by allgasnoblake)
+|
+|t:|1756356058
+|switch|p2b: Charizard|Charizard, L50, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|88/100|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|
+|t:|1756356064
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|turn|3
+|
+|t:|1756356080
+|move|p2b: Charizard|Heat Wave|p1a: Magmar|[spread] p1a,p1b
+|-resisted|p1a: Magmar
+|-damage|p1a: Magmar|60/100
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|move|p2a: Ursaluna|Earthquake|p1a: Magmar|[spread] p1a
+|-immune|p2b: Charizard
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|1/100
+|move|p1a: Magmar|Will-O-Wisp|p2b: Charizard
+|-immune|p2b: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|76/100|[from] ability: Solar Power|[of] p2b: Charizard
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756356091
+|switch|p1b: Primarina|Primarina, L50, F|100/100
+|turn|4
+|
+|t:|1756356107
+|move|p1a: Magmar|Follow Me|p1a: Magmar
+|-singleturn|p1a: Magmar|move: Follow Me
+|move|p2b: Charizard|Heat Wave|p1a: Magmar|[spread] p1a,p1b
+|-resisted|p1a: Magmar
+|-resisted|p1b: Primarina
+|-damage|p1a: Magmar|0 fnt
+|-damage|p1b: Primarina|48/100
+|-enditem|p1b: Primarina|Sitrus Berry|[eat]
+|-heal|p1b: Primarina|73/100|[from] item: Sitrus Berry
+|faint|p1a: Magmar
+|move|p2a: Ursaluna|Facade|p1b: Primarina
+|-damage|p1b: Primarina|0 fnt
+|faint|p1b: Primarina
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|63/100|[from] ability: Solar Power|[of] p2b: Charizard
+|-damage|p2a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756356112
+|switch|p1a: Dragapult|Dragapult, L50, F|100/100
+|turn|5
+|
+|t:|1756356132
+|-terastallize|p1a: Dragapult|Ghost
+|move|p2b: Charizard|Heat Wave|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|Homero tg
+|raw|allgasnoblake's rating: 1000 → 1000(+0 for losing)
+|raw|Homero tg's rating: 1083 → 1104(+21 for winning)
+|l|☆allgasnoblake
+|player|p1|

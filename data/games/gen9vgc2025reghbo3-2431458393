@@ -1,0 +1,137 @@
+|j|☆Samki9
+|j|☆Prince Sparks
+|html|Samki9Prince Sparks    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756518569
+|gametype|doubles
+|player|p1|Samki9|hugh|
+|player|p2|Prince Sparks|gambler|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Vaporeon, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Gallade, L50, M|
+|teampreview|4
+|showteam|p1|Tyranitar||ClearAmulet|SandStream|RockSlide,KnockOff,LowKick,Protect|||M|||50|,,,,,Ghost]Garchomp||ChoiceScarf|SandVeil|DragonClaw,Earthquake,StompingTantrum,IronHead|||M|||50|,,,,,Water]Archaludon||PowerHerb|Stalwart|FlashCannon,DracoMeteor,ElectroShot,Protect|||F|||50|,,,,,Electric]Vaporeon|||WaterAbsorb|Scald,IceBeam,Haze,Yawn|||M|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,FlareBlitz,Taunt|||F|||50|,,,,,Bug]Gallade||LifeOrb|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Stellar
+|showteam|p2|Smeargle||FocusSash|Moody|FollowMe,Spore,TopsyTurvy,FakeOut|||F|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,Protect,HeatWave|||F|||50|,,,,,Fire]Indeedee-F||SafetyGoggles|PsychicSurge|Psychic,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Water]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,MysticalFire,TrickRoom|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Bug]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,WideGuard,TrickRoom|||M|||50|,,,,,Grass
+|
+|t:|1756518629
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Smeargle|Smeargle, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Smeargle|atk|1
+|-fail|p2b: Gallade|unboost|[from] item: Clear Amulet|[of] p2b: Gallade
+|turn|1
+|
+|t:|1756518665
+|switch|p1b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|move|p2a: Smeargle|Fake Out|p1a: Incineroar
+|-damage|p1a: Incineroar|97/100
+|cant|p1a: Incineroar|flinch
+|move|p2b: Gallade|Sacred Sword|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Smeargle|94/100|[from] Sandstorm
+|-damage|p2b: Gallade|95/100|[from] Sandstorm
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|def|2
+|-unboost|p2a: Smeargle|spd|1
+|upkeep
+|
+|t:|1756518676
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100
+|turn|2
+|
+|t:|1756518710
+|-terastallize|p1b: Tyranitar|Ghost
+|-terastallize|p2b: Gallade|Grass
+|move|p1a: Garchomp|Dragon Claw|p2a: Smeargle
+|-damage|p2a: Smeargle|39/100
+|move|p2a: Smeargle|Spore|p1b: Tyranitar
+|-status|p1b: Tyranitar|slp|[from] move: Spore
+|cant|p1b: Tyranitar|slp
+|move|p2b: Gallade|Trick Room|p2b: Gallade
+|-fieldstart|move: Trick Room|[of] p2b: Gallade
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Gallade|89/100|[from] Sandstorm
+|-damage|p1b: Tyranitar|94/100 slp|[from] Sandstorm
+|-damage|p2a: Smeargle|33/100|[from] Sandstorm
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spa|2
+|-unboost|p2a: Smeargle|def|1
+|upkeep
+|turn|3
+|
+|t:|1756518733
+|move|p2b: Gallade|Psycho Cut|p1b: Tyranitar
+|-damage|p1b: Tyranitar|43/100 slp
+|cant|p1b: Tyranitar|slp
+|move|p2a: Smeargle|Spore|p1a: Garchomp
+|-status|p1a: Garchomp|slp|[from] move: Spore
+|cant|p1a: Garchomp|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Gallade|83/100|[from] Sandstorm
+|-damage|p1b: Tyranitar|37/100 slp|[from] Sandstorm
+|-damage|p2a: Smeargle|26/100|[from] Sandstorm
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spe|2
+|-unboost|p2a: Smeargle|atk|1
+|upkeep
+|turn|4
+|
+|t:|1756518747
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|cant|p1b: Tyranitar|slp
+|move|p2b: Gallade|Psycho Cut|p1b: Tyranitar
+|-damage|p1b: Tyranitar|0 fnt
+|faint|p1b: Tyranitar
+|-curestatus|p1a: Garchomp|slp|[msg]
+|move|p1a: Garchomp|Dragon Claw|p2a: Ursaluna
+|-damage|p2a: Ursaluna|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Gallade|78/100|[from] Sandstorm
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756518764
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|turn|5
+|
+|t:|1756518786
+|move|p2a: Ursaluna|Facade|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|move|p2b: Gallade|Psycho Cut|p1b: Gallade
+|-crit|p1b: Gallade
+|-damage|p1b: Gallade|0 fnt
+|faint|p1b: Gallade
+|
+|win|Prince Sparks
+||Samki9 is ready for game 2.
+|inactive|Prince Sparks has 30 seconds to confirm battle start!
+||Prince Sparks is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

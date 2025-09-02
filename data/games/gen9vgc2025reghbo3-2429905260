@@ -1,0 +1,276 @@
+|j|☆lctrem
+|j|☆lateralvs
+|html|lctremlateralvs    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756323995
+|gametype|doubles
+|player|p1|lctrem|2|
+|player|p2|lateralvs|giovanni|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Baxcalibur, L50, F|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Dondozo, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Porygon2, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Hydreigon, L50, F|
+|teampreview|4
+|showteam|p1|Baxcalibur||LoadedDice|ThermalExchange|ScaleShot,IcicleSpear,IceShard,Protect|||F|||50|,,,,,Ghost]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Ghost]Volcarona||CovertCloak|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||M|||50|,,,,,Fairy]Dondozo||Leftovers|Unaware|Liquidation,Fissure,Yawn,Protect|||F|||50|,,,,,Poison]Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,Coaching,Protect|||F|||50|,,,,,Stellar]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||F|||50|,,,,,Water
+|showteam|p2|Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||F|||50|,,,,,Fairy]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Flying]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Amoonguss||CovertCloak|Regenerator|PollenPuff,Spore,RagePowder,Protect|||F|||50|,,,,,Fire]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Grass]Hydreigon||SafetyGoggles|Levitate|DracoMeteor,Snarl,Tailwind,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1756324053
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1b: Volcarona|Volcarona, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Volcarona|atk|1
+|turn|1
+|
+|t:|1756324093
+|move|p1a: Rillaboom|Fake Out|p2b: Ursaluna
+|-damage|p2b: Ursaluna|94/100
+|move|p2a: Incineroar|Fake Out|p1a: Rillaboom
+|-damage|p1a: Rillaboom|89/100
+|move|p1b: Volcarona|Quiver Dance|p1b: Volcarona
+|-boost|p1b: Volcarona|spa|1
+|-boost|p1b: Volcarona|spd|1
+|-boost|p1b: Volcarona|spe|1
+|cant|p2b: Ursaluna|flinch
+|
+|-heal|p1a: Rillaboom|95/100|[from] Grassy Terrain
+|-heal|p2b: Ursaluna|99/100|[from] Grassy Terrain
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1756324123
+|-terastallize|p1b: Volcarona|Fairy
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1b: Volcarona|Tera Blast|p2b: Ursaluna|[anim] Tera Blast Fairy
+|-activate|p2b: Ursaluna|move: Protect
+|move|p1a: Rillaboom|Wood Hammer|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|move|p2a: Incineroar|Parting Shot|p1b: Volcarona
+|-unboost|p1b: Volcarona|atk|1
+|-unboost|p1b: Volcarona|spa|1
+|
+|t:|1756324136
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100|[from] Parting Shot
+|
+|-heal|p1a: Rillaboom|100/100|[from] Grassy Terrain
+|-heal|p2b: Ursaluna|100/100 brn|[from] Grassy Terrain
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1756324169
+|-terastallize|p2a: Gholdengo|Flying
+|move|p1b: Volcarona|Heat Wave|p2b: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Gholdengo|66/100
+|-damage|p2b: Ursaluna|64/100 brn
+|move|p1a: Rillaboom|Wood Hammer|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|-damage|p1a: Rillaboom|77/100|[from] Recoil
+|move|p2a: Gholdengo|Make It Rain|p1b: Volcarona|[spread] p1a,p1b
+|-supereffective|p1b: Volcarona
+|-damage|p1a: Rillaboom|33/100
+|-damage|p1b: Volcarona|33/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|-heal|p1b: Volcarona|39/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|39/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756324186
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|turn|4
+|
+|t:|1756324198
+|switch|p1a: Kingambit|Kingambit, L50, F|100/100
+|move|p1b: Volcarona|Heat Wave|p2a: Gholdengo|[spread] p2a
+|-miss|p1b: Volcarona|p2b: Amoonguss
+|-damage|p2a: Gholdengo|32/100
+|move|p2a: Gholdengo|Make It Rain|p1b: Volcarona|[spread] p1a,p1b
+|-resisted|p1a: Kingambit
+|-supereffective|p1b: Volcarona
+|-damage|p1a: Kingambit|78/100
+|-damage|p1b: Volcarona|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1b: Volcarona
+|move|p2b: Amoonguss|Pollen Puff|p2a: Gholdengo
+|-heal|p2a: Gholdengo|82/100
+|
+|-heal|p1a: Kingambit|84/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756324209
+|switch|p1b: Rillaboom|Rillaboom, L50, F|39/100
+|turn|5
+|
+|t:|1756324237
+|move|p1b: Rillaboom|Fake Out|p2a: Gholdengo
+|-damage|p2a: Gholdengo|71/100
+|cant|p2a: Gholdengo|flinch
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2b: Amoonguss|Pollen Puff|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|12/100
+|
+|-heal|p1b: Rillaboom|18/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|90/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756324262
+|switch|p1b: Dondozo|Dondozo, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|-unboost|p1b: Dondozo|atk|1
+|move|p2b: Amoonguss|Protect|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|Protect
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|
+|upkeep
+|turn|7
+|
+|t:|1756324302
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Incineroar|Flare Blitz|p1a: Kingambit
+|-activate|p1a: Kingambit|move: Protect
+|move|p1b: Dondozo|Yawn|p2b: Amoonguss
+|-start|p2b: Amoonguss|move: Yawn|[of] p1b: Dondozo
+|
+|upkeep
+|turn|8
+|
+|t:|1756324337
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Incineroar|Flare Blitz|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|1/100
+|-damage|p2a: Incineroar|73/100|[from] Recoil
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|16/100
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|41/100|[from] item: Sitrus Berry
+|move|p1b: Dondozo|Fissure|p2b: Amoonguss|[miss]
+|-miss|p1b: Dondozo|p2b: Amoonguss
+|
+|-end|p2b: Amoonguss|move: Yawn|[silent]
+|-status|p2b: Amoonguss|slp
+|upkeep
+|turn|9
+|
+|t:|1756324368
+|switch|p1b: Rillaboom|Rillaboom, L50, F|18/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2a: Incineroar|Parting Shot|p1b: Rillaboom
+|-unboost|p1b: Rillaboom|atk|1
+|-unboost|p1b: Rillaboom|spa|1
+|
+|t:|1756324375
+|switch|p2a: Gholdengo|Gholdengo, L50, tera:Flying|71/100|[from] Parting Shot
+|cant|p2b: Amoonguss|slp
+|
+|-heal|p1b: Rillaboom|24/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|7/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1756324385
+|switch|p2a: Incineroar|Incineroar, L50, M|41/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|-unboost|p1b: Rillaboom|atk|1
+|move|p1b: Rillaboom|Fake Out|p2a: Incineroar
+|-damage|p2a: Incineroar|34/100
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|
+|-heal|p1b: Rillaboom|30/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|40/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|13/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756324397
+|switch|p2b: Gholdengo|Gholdengo, L50, tera:Flying|71/100
+|turn|11
+|
+|t:|1756324424
+|switch|p1b: Dondozo|Dondozo, L50, F|100/100
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2a: Incineroar|Knock Off|p1b: Dondozo
+|-damage|p1b: Dondozo|82/100
+|-enditem|p1b: Dondozo|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p2b: Gholdengo|Make It Rain|p1b: Dondozo|[spread] p1b
+|-activate|p1a: Kingambit|move: Protect
+|-resisted|p1b: Dondozo
+|-damage|p1b: Dondozo|55/100
+|-unboost|p2b: Gholdengo|spa|1
+|
+|-heal|p2a: Incineroar|46/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|18/100|[from] Grassy Terrain
+|-heal|p1b: Dondozo|61/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1756324456
+|move|p1a: Kingambit|Sucker Punch|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p1b: Dondozo|Liquidation|p2b: Gholdengo
+|-damage|p2b: Gholdengo|45/100
+|
+|-heal|p1a: Kingambit|24/100|[from] Grassy Terrain
+|-heal|p1b: Dondozo|67/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|c|☆lateralvs|gg
+|
+|t:|1756324468
+|move|p1a: Kingambit|Sucker Punch|p2b: Gholdengo
+|-damage|p2b: Gholdengo|0 fnt
+|faint|p2b: Gholdengo
+|
+|win|lctrem
+|l|☆lctrem
+|player|p1|
+|c|☆lateralvs|vai a cagare imbecille

@@ -1,0 +1,397 @@
+|j|☆krscrossapplesauce
+|j|☆robby w
+|html|krscrossapplesaucerobby w    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756577542
+|gametype|doubles
+|player|p1|krscrossapplesauce|green|1294
+|player|p2|robby w|pokekid|1321
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Dondozo, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Electabuzz, L50, M|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Tatsugiri, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Sneasler||FocusSash|PoisonTouch|FakeOut,DireClaw,CloseCombat,Protect|||F|||50|,,,,,Dark]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark]Dondozo||Leftovers|Unaware|WaveCrash,Yawn,Fissure,Protect|||F|||50|,,,,,Steel]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,HighHorsepower|||M|||50|,,,,,Fire]Volcarona||CovertCloak|FlameBody|HeatWave,QuiverDance,TeraBlast,Protect|||F|||50|,,,,,Fairy]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,FollowMe,Taunt,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Dondozo||Leftovers|Unaware|Protect,WaveCrash,Earthquake,OrderUp|||M|||50|,,,,,Grass]Tatsugiri||ChoiceScarf|Commander|DragonPulse,IcyWind,DracoMeteor,MuddyWater|||M|||50|,,,,,Stellar]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,Protect,ThroatChop|||F|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|DazzlingGleam,HelpingHand,ExpandingForce,Protect|||M|||50|,,,,,Fairy]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Protect,Taunt|||F|||50|,,,,,Fighting]Gholdengo||LifeOrb|GoodasGold|MakeItRain,Protect,NastyPlot,ShadowBall||||||50|,,,,,Fire
+|
+|t:|1756577561
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p2a: Dondozo|Dondozo, L50, M, shiny|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|turn|1
+|
+|t:|1756577585
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|move|p1a: Sneasler|Fake Out|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Psychic Terrain
+|move|p2b: Sneasler|Dire Claw|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|18/100
+|
+|upkeep
+|turn|2
+|
+|t:|1756577614
+|switch|p1b: Electabuzz|Electabuzz, L50, M|100/100
+|-terastallize|p1a: Sneasler|Dark
+|move|p2b: Sneasler|Dire Claw|p1a: Sneasler
+|-damage|p1a: Sneasler|21/100
+|-status|p1a: Sneasler|par
+|move|p2a: Indeedee|Expanding Force|p1a: Sneasler|[spread] p1b
+|-immune|p1a: Sneasler
+|-damage|p1b: Electabuzz|55/100
+|move|p1a: Sneasler|Dire Claw|p2a: Indeedee
+|-damage|p2a: Indeedee|14/100
+|-status|p2a: Indeedee|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1756577646
+|move|p1b: Electabuzz|Follow Me|p1b: Electabuzz
+|-singleturn|p1b: Electabuzz|move: Follow Me
+|move|p2b: Sneasler|Dire Claw|p1b: Electabuzz
+|-damage|p1b: Electabuzz|24/100
+|cant|p2a: Indeedee|slp
+|move|p1a: Sneasler|Dire Claw|p2b: Sneasler
+|-resisted|p2b: Sneasler
+|-damage|p2b: Sneasler|66/100
+|
+|upkeep
+|turn|4
+|
+|t:|1756577677
+|move|p1b: Electabuzz|Follow Me|p1b: Electabuzz
+|-singleturn|p1b: Electabuzz|move: Follow Me
+|move|p2b: Sneasler|Dire Claw|p1b: Electabuzz
+|-damage|p1b: Electabuzz|0 fnt
+|faint|p1b: Electabuzz
+|cant|p2a: Indeedee|slp
+|move|p1a: Sneasler|Dire Claw|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1756577690
+|switch|p2a: Dondozo|Dondozo, L50, M, shiny|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|18/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|5
+|
+|t:|1756577705
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p2a: Dondozo|Protect|p2a: Dondozo
+|-singleturn|p2a: Dondozo|Protect
+|move|p1b: Rillaboom|Fake Out|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Protect
+|cant|p1a: Sneasler|par
+|
+|-heal|p2b: Sneasler|72/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|24/100|[from] Grassy Terrain
+|-heal|p1a: Sneasler|27/100 par|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756577724
+|switch|p1a: Dondozo|Dondozo, L50, F|100/100
+|move|p2b: Sneasler|Dire Claw|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|move|p2a: Dondozo|Wave Crash|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|84/100
+|-damage|p2a: Dondozo|95/100|[from] Recoil
+|
+|-heal|p2b: Sneasler|78/100|[from] Grassy Terrain
+|-heal|p2a: Dondozo|100/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|91/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|97/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756577728
+|switch|p1b: Sneasler|Sneasler, L50, F, tera:Dark|27/100 par
+|turn|7
+|
+|t:|1756577767
+|move|p2b: Sneasler|Dire Claw|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|move|p2a: Dondozo|Order Up|p1a: Dondozo
+|-damage|p1a: Dondozo|82/100
+|move|p1a: Dondozo|Wave Crash|p2b: Sneasler
+|-damage|p2b: Sneasler|2/100
+|-damage|p1a: Dondozo|66/100|[from] Recoil
+|
+|-heal|p2b: Sneasler|8/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|72/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|78/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1756577802
+|switch|p2a: Tatsugiri|Tatsugiri, L50, M|100/100
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2b: Sneasler|Throat Chop|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p2b: Sneasler|14/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|84/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|91/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1756577836
+|-terastallize|p2a: Tatsugiri|Stellar
+|move|p2b: Sneasler|Dire Claw|p1a: Dondozo
+|-damage|p1a: Dondozo|67/100
+|move|p2a: Tatsugiri|Dragon Pulse|p1a: Dondozo
+|-damage|p1a: Dondozo|27/100
+|move|p1a: Dondozo|Wave Crash|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|-damage|p1a: Dondozo|24/100|[from] Recoil
+|
+|-heal|p1a: Dondozo|30/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|36/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756577853
+|switch|p2b: Dondozo|Dondozo, L50, M, shiny|100/100
+|-activate|p2a: Tatsugiri|ability: Commander|[of] p2b: Dondozo
+|-boost|p2b: Dondozo|atk|2
+|-boost|p2b: Dondozo|spa|2
+|-boost|p2b: Dondozo|spe|2
+|-boost|p2b: Dondozo|def|2
+|-boost|p2b: Dondozo|spd|2
+|turn|10
+|
+|t:|1756577866
+|move|p2b: Dondozo|Earthquake|p1a: Dondozo|[spread] p1a
+|-miss|p2b: Dondozo|p2a: Tatsugiri
+|-damage|p1a: Dondozo|24/100
+|move|p1a: Dondozo|Yawn|p2b: Dondozo
+|-start|p2b: Dondozo|move: Yawn|[of] p1a: Dondozo
+|
+|-heal|p1a: Dondozo|30/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1756577875
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2b: Dondozo|Earthquake|p1a: Dondozo|[spread] 
+|-miss|p2b: Dondozo|p2a: Tatsugiri
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p1a: Dondozo|36/100|[from] item: Leftovers
+|-end|p2b: Dondozo|move: Yawn|[silent]
+|-status|p2b: Dondozo|slp
+|upkeep
+|turn|12
+|
+|t:|1756577885
+|cant|p2b: Dondozo|slp
+|move|p1a: Dondozo|Fissure|p2b: Dondozo|[miss]
+|-miss|p1a: Dondozo|p2b: Dondozo
+|
+|-heal|p1a: Dondozo|42/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1756577891
+|cant|p2b: Dondozo|slp
+|move|p1a: Dondozo|Fissure|p2b: Dondozo|[miss]
+|-miss|p1a: Dondozo|p2b: Dondozo
+|
+|-heal|p1a: Dondozo|48/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1756577900
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|cant|p2b: Dondozo|slp
+|
+|-heal|p1a: Dondozo|55/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1756577910
+|-curestatus|p2b: Dondozo|slp|[msg]
+|move|p2b: Dondozo|Wave Crash|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|40/100
+|-damage|p2b: Dondozo|95/100|[from] Recoil
+|move|p1a: Dondozo|Yawn|p2b: Dondozo
+|-start|p2b: Dondozo|move: Yawn|[of] p1a: Dondozo
+|
+|-heal|p2b: Dondozo|100/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|46/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1756577924
+|move|p2b: Dondozo|Wave Crash|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|31/100
+|-damage|p2b: Dondozo|95/100|[from] Recoil
+|move|p1a: Dondozo|Fissure|p2b: Dondozo
+|-damage|p2b: Dondozo|0 fnt
+|faint|p2b: Dondozo
+|-ohko
+|
+|-heal|p1a: Dondozo|37/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1756577936
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2a: Tatsugiri|Dragon Pulse|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p1a: Dondozo|43/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1756577942
+|move|p2a: Tatsugiri|Dragon Pulse|p1a: Dondozo
+|-damage|p1a: Dondozo|15/100
+|move|p1a: Dondozo|Yawn|p2a: Tatsugiri
+|-start|p2a: Tatsugiri|move: Yawn|[of] p1a: Dondozo
+|
+|-heal|p1a: Dondozo|21/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1756577951
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2a: Tatsugiri|Dragon Pulse|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p1a: Dondozo|27/100|[from] item: Leftovers
+|-end|p2a: Tatsugiri|move: Yawn|[silent]
+|-status|p2a: Tatsugiri|slp
+|upkeep
+|turn|20
+|
+|t:|1756577962
+|cant|p2a: Tatsugiri|slp
+|move|p1a: Dondozo|Fissure|p2a: Tatsugiri|[miss]
+|-miss|p1a: Dondozo|p2a: Tatsugiri
+|
+|-heal|p1a: Dondozo|33/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1756577971
+|cant|p2a: Tatsugiri|slp
+|move|p1a: Dondozo|Fissure|p2a: Tatsugiri|[miss]
+|-miss|p1a: Dondozo|p2a: Tatsugiri
+|
+|-heal|p1a: Dondozo|39/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1756577981
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|cant|p2a: Tatsugiri|slp
+|
+|-heal|p1a: Dondozo|46/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1756577989
+|-curestatus|p2a: Tatsugiri|slp|[msg]
+|move|p2a: Tatsugiri|Dragon Pulse|p1a: Dondozo
+|-damage|p1a: Dondozo|15/100
+|move|p1a: Dondozo|Yawn|p2a: Tatsugiri
+|-start|p2a: Tatsugiri|move: Yawn|[of] p1a: Dondozo
+|
+|-heal|p1a: Dondozo|21/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1756578000
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2a: Tatsugiri|Dragon Pulse|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p1a: Dondozo|27/100|[from] item: Leftovers
+|-end|p2a: Tatsugiri|move: Yawn|[silent]
+|-status|p2a: Tatsugiri|slp
+|upkeep
+|turn|25
+|
+|t:|1756578011
+|cant|p2a: Tatsugiri|slp
+|move|p1a: Dondozo|Fissure|p2a: Tatsugiri|[miss]
+|-miss|p1a: Dondozo|p2a: Tatsugiri
+|
+|-heal|p1a: Dondozo|33/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1756578019
+|-curestatus|p2a: Tatsugiri|slp|[msg]
+|move|p2a: Tatsugiri|Dragon Pulse|p1a: Dondozo
+|-damage|p1a: Dondozo|4/100
+|move|p1a: Dondozo|Fissure|p2a: Tatsugiri|[miss]
+|-miss|p1a: Dondozo|p2a: Tatsugiri
+|
+|-heal|p1a: Dondozo|10/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1756578030
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2a: Tatsugiri|Dragon Pulse|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p1a: Dondozo|17/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1756578039
+|move|p1a: Dondozo|Protect||[still]
+|-fail|p1a: Dondozo
+|move|p2a: Tatsugiri|Dragon Pulse|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|
+|win|robby w
+||krscrossapplesauce is ready for game 3.
+||robby w is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

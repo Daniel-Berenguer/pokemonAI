@@ -1,0 +1,199 @@
+|j|☆MrDarki256
+|j|☆Sanjo4 2.0
+|html|MrDarki256Sanjo4 2.0    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756564561
+|gametype|doubles
+|player|p1|MrDarki256|170|
+|player|p2|Sanjo4 2.0|flannery|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tatsugiri, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Murkrow, L50, M|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|showteam|p1|Tatsugiri||FocusSash|Commander|DracoMeteor,DragonPulse,MuddyWater,Protect|||M|||50|,,,,,Stellar]Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,ShadowBall,PowerGem,Thunderbolt||||||50|,,,,,Steel]Annihilape||SitrusBerry|Defiant|CloseCombat,RageFist,FinalGambit,Coaching|||M|||50|,,,,,Steel]Dondozo||LifeOrb|Unaware|WaveCrash,Earthquake,RockSlide,Protect|||M|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Tailwind,Protect|||F|||50|,,,,,Normal]Murkrow||Eviolite|Prankster|Tailwind,Taunt,Quash,Haze|||M|||50|,,,,,Ghost
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|IceBeam,TeraBlast,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost
+|
+|t:|1756564584
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Murkrow|Murkrow, L50, M|100/100
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|1
+|
+|t:|1756564627
+|switch|p1a: Dondozo|Dondozo, L50, M|100/100
+|move|p1b: Annihilape|Final Gambit|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p1b: Annihilape
+|faint|p2a: Porygon2
+|move|p2b: Torkoal|Overheat|p1a: Dondozo|[miss]
+|-miss|p2b: Torkoal|p1a: Dondozo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756564643
+|switch|p1b: Murkrow|Murkrow, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Dondozo|atk|1
+|-unboost|p1b: Murkrow|atk|1
+|turn|2
+|
+|t:|1756564669
+|move|p2a: Incineroar|Fake Out|p1a: Dondozo
+|-damage|p1a: Dondozo|91/100
+|move|p1b: Murkrow|Haze|p1b: Murkrow
+|-clearallboost
+|cant|p1a: Dondozo|flinch
+|move|p2b: Torkoal|Overheat|p1b: Murkrow
+|-damage|p1b: Murkrow|0 fnt
+|-unboost|p2b: Torkoal|spa|2
+|faint|p1b: Murkrow
+|-enditem|p2b: Torkoal|Eject Pack
+|
+|t:|1756564678
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756564680
+|switch|p1b: Tatsugiri|Tatsugiri, L50, M|100/100
+|-activate|p1b: Tatsugiri|ability: Commander|[of] p1a: Dondozo
+|-boost|p1a: Dondozo|atk|2
+|-boost|p1a: Dondozo|spa|2
+|-boost|p1a: Dondozo|spe|2
+|-boost|p1a: Dondozo|def|2
+|-boost|p1a: Dondozo|spd|2
+|turn|3
+|
+|t:|1756564707
+|-terastallize|p2a: Incineroar|Ghost
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1a: Dondozo|Earthquake|p2b: Ursaluna|[spread] p2a
+|-miss|p1a: Dondozo|p1b: Tatsugiri
+|-activate|p2b: Ursaluna|move: Protect
+|-damage|p2a: Incineroar|45/100
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|70/100|[from] item: Sitrus Berry
+|-damage|p1a: Dondozo|81/100|[from] item: Life Orb
+|move|p2a: Incineroar|Parting Shot|p1a: Dondozo
+|-unboost|p1a: Dondozo|atk|1
+|-unboost|p1a: Dondozo|spa|1
+|
+|t:|1756564720
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1756564734
+|switch|p2a: Incineroar|Incineroar, L50, M, tera:Ghost|70/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Dondozo|atk|1
+|-unboost|p1b: Tatsugiri|atk|1
+|move|p1a: Dondozo|Wave Crash|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|34/100 brn
+|-damage|p1a: Dondozo|62/100|[from] Recoil
+|-damage|p1a: Dondozo|52/100|[from] item: Life Orb
+|move|p2b: Ursaluna|Facade|p1a: Dondozo
+|-damage|p1a: Dondozo|6/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|28/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1756564771
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|-terastallize|p1a: Dondozo|Ghost
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1a: Dondozo|Earthquake|p2a: Torkoal|[spread] p2a
+|-miss|p1a: Dondozo|p1b: Tatsugiri
+|-activate|p2b: Ursaluna|move: Protect
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|52/100
+|-damage|p1a: Dondozo|0 fnt|[from] item: Life Orb
+|faint|p1a: Dondozo
+|
+|-weather|none
+|-damage|p2b: Ursaluna|22/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1756564812
+|switch|p2b: Incineroar|Incineroar, L50, M, tera:Ghost|70/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1b: Tatsugiri|atk|1
+|move|p1b: Tatsugiri|Muddy Water|p2a: Torkoal|[spread] p2a,p2b
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-damage|p2b: Incineroar|36/100
+|faint|p2a: Torkoal
+|
+|upkeep
+|
+|t:|1756564818
+|switch|p2a: Ursaluna|Ursaluna, L50, M|22/100 brn
+|turn|7
+|
+|t:|1756564825
+|move|p1b: Tatsugiri|Protect|p1b: Tatsugiri
+|-singleturn|p1b: Tatsugiri|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Tatsugiri
+|-activate|p1b: Tatsugiri|move: Protect
+|move|p2a: Ursaluna|Facade|p1b: Tatsugiri
+|-activate|p1b: Tatsugiri|move: Protect
+|
+|-damage|p2a: Ursaluna|17/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1756564839
+|move|p1b: Tatsugiri|Dragon Pulse|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Ursaluna|Facade|p1b: Tatsugiri
+|-enditem|p1b: Tatsugiri|Focus Sash
+|-damage|p1b: Tatsugiri|1/100
+|
+|-damage|p2a: Ursaluna|11/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1756564846
+|move|p1b: Tatsugiri|Dragon Pulse|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|win|MrDarki256
+||Sanjo4 2.0 is ready for game 2.
+||MrDarki256 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

@@ -1,0 +1,151 @@
+|j|☆Guiltypleasure06
+|j|☆aqueousbloop
+|html|Guiltypleasure06aqueousbloop    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756292496
+|gametype|doubles
+|player|p1|Guiltypleasure06|2|1112
+|player|p2|aqueousbloop|101|1095
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Dondozo, L50, F|
+|poke|p1|Magmar, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Lurantis, L50, F|
+|poke|p2|Hatterene, L50, F|
+|teampreview|4
+|showteam|p1|Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,Coaching,Protect|||F|||50|,,,,,Stellar]Dondozo||Leftovers|Unaware|Liquidation,Yawn,Protect,Fissure|||F|||50|,,,,,Fire]Magmar||Eviolite|VitalSpirit|Overheat,WillOWisp,FollowMe,Protect|||M|||50|,,,,,Dragon]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,Uturn,FakeOut|||M|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ExtremeSpeed,ScaleShot,LowKick,Protect|||F|||50|,,,,,Fairy]Kingambit||BlackGlasses|Defiant|Protect,SwordsDance,SuckerPunch,KowtowCleave|||M|||50|,,,,,Dark
+|showteam|p2|Sneasler||SafetyGoggles|PoisonTouch|ThroatChop,CloseCombat,DireClaw,FakeOut|||F|||50|,,,,,Dark]Basculegion||ChoiceBand|SwiftSwim|FlipTurn,WaveCrash,LastRespects,AquaJet|||M|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,WideGuard,Protect|||M|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,HelpingHand,Psychic|||F|||50|,,,,,Fairy]Lurantis||AssaultVest|Contrary|Superpower,LeafBlade,KnockOff,LeechLife|||F|||50|,,,,,Poison]Hatterene||LifeOrb|MagicBounce|TrickRoom,ExpandingForce,DazzlingGleam,Protect|||F|||50|,,,,,Psychic
+|
+|t:|1756292536
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, F|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Lurantis|Lurantis, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756292571
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p1b: Sneasler|Dire Claw|p2b: Lurantis
+|-supereffective|p2b: Lurantis
+|-damage|p2b: Lurantis|8/100
+|-status|p2b: Lurantis|psn
+|move|p2b: Lurantis|Knock Off|p1a: Rillaboom
+|-damage|p1a: Rillaboom|71/100
+|-enditem|p1a: Rillaboom|Assault Vest|[from] move: Knock Off|[of] p2b: Lurantis
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-heal|p2b: Lurantis|15/100 psn|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|77/100|[from] Grassy Terrain
+|-damage|p2b: Lurantis|2/100 psn|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1756292609
+|switch|p1b: Kingambit|Kingambit, L50, M, shiny|100/100
+|move|p2b: Lurantis|Leech Life|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|24/100
+|-heal|p2b: Lurantis|33/100 psn|[from] drain|[of] p1a: Rillaboom
+|move|p2a: Indeedee|Psychic|p1b: Kingambit
+|-immune|p1b: Kingambit
+|move|p1a: Rillaboom|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|53/100
+|
+|t:|1756292622
+|switch|p1a: Dragonite|Dragonite, L50, F|100/100|[from] U-turn
+|
+|-heal|p2b: Lurantis|39/100 psn|[from] Grassy Terrain
+|-heal|p2a: Indeedee|59/100|[from] Grassy Terrain
+|-damage|p2b: Lurantis|27/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1756292667
+|move|p2a: Indeedee|Helping Hand|p2b: Lurantis
+|-singleturn|p2b: Lurantis|Helping Hand|[of] p2a: Indeedee
+|move|p1b: Kingambit|Protect|p1b: Kingambit
+|-singleturn|p1b: Kingambit|Protect
+|move|p1a: Dragonite|Extreme Speed|p2b: Lurantis
+|-damage|p2b: Lurantis|0 fnt
+|faint|p2b: Lurantis
+|
+|-heal|p2a: Indeedee|65/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756292677
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|turn|4
+|
+|t:|1756292721
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|-terastallize|p2a: Indeedee|Fairy
+|move|p1a: Dragonite|Protect|p1a: Dragonite
+|-singleturn|p1a: Dragonite|Protect
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Hatterene|Dazzling Gleam|p1a: Dragonite|[spread] p1b
+|-activate|p1a: Dragonite|move: Protect
+|-damage|p1b: Sneasler|34/100
+|-damage|p2b: Hatterene|91/100|[from] item: Life Orb
+|
+|-heal|p2b: Hatterene|97/100|[from] Grassy Terrain
+|-heal|p2a: Indeedee|72/100|[from] Grassy Terrain
+|-heal|p1b: Sneasler|40/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756292744
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1a: Rillaboom|Rillaboom, L50, M|24/100
+|move|p2b: Hatterene|Protect|p2b: Hatterene
+|-singleturn|p2b: Hatterene|Protect
+|move|p1b: Sneasler|Protect||[still]
+|-fail|p1b: Sneasler
+|
+|-heal|p2b: Hatterene|100/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|30/100|[from] Grassy Terrain
+|-heal|p1b: Sneasler|46/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756292792
+|move|p1b: Sneasler|Dire Claw|p2b: Hatterene
+|-supereffective|p2b: Hatterene
+|-damage|p2b: Hatterene|0 fnt
+|faint|p2b: Hatterene
+|move|p2a: Sneasler|Dire Claw|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|upkeep
+|-message|aqueousbloop forfeited.
+|
+|win|Guiltypleasure06
+|raw|Guiltypleasure06's rating: 1112 → 1136(+24 for winning)
+|raw|aqueousbloop's rating: 1095 → 1072(-23 for losing)
+|l|☆aqueousbloop
+|player|p2|

@@ -1,0 +1,222 @@
+|j|☆Cristante terabug
+|j|☆hei363jwhuw
+|html|Cristante terabughei363jwhuw    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756416211
+|gametype|doubles
+|player|p1|Cristante terabug|kieran-champion|1136
+|player|p2|hei363jwhuw|lucas|1079
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,KnockOff,FlareBlitz|||F|||50|,,,,,Flying]Pelipper||FocusSash|Drizzle|Hurricane,MuddyWater,Tailwind,Protect|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|ElectroShot,Snarl,FlashCannon,BodyPress|||M|||50|,,,,,Bug]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,LifeDew,TrickRoom||||||50|,,,,,Dark]Ursaluna||FlameOrb|Guts|Earthquake,Facade,HeadlongRush,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|IceBeam,TeraBlast,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1756416243
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Porygon2|atk|1
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-enditem|p2a: Torkoal|Eject Pack
+|
+|t:|1756416255
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|turn|1
+|
+|t:|1756416341
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1b: Dragonite|Scale Shot|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|move|p1a: Incineroar|Knock Off|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|move|p2b: Porygon2|Trick Room|p2b: Porygon2
+|-fieldstart|move: Trick Room|[of] p2b: Porygon2
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1756416370
+|switch|p1a: Pelipper|Pelipper, L50, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p1b: Dragonite|Protect|p1b: Dragonite
+|-singleturn|p1b: Dragonite|Protect
+|move|p2b: Porygon2|Ice Beam|p1b: Dragonite
+|-activate|p1b: Dragonite|move: Protect
+|move|p2a: Ursaluna|Headlong Rush|p1a: Pelipper
+|-immune|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1756416386
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2b: Porygon2|atk|1
+|move|p2b: Porygon2|Ice Beam|p1a: Pelipper
+|-damage|p1a: Pelipper|51/100
+|move|p2a: Ursaluna|Facade|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1756416419
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|turn|4
+|
+|t:|1756416443
+|-terastallize|p2b: Porygon2|Fighting
+|-terastallize|p1b: Incineroar|Flying
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Porygon2|Tera Blast|p1a: Ursaluna|[anim] Tera Blast Fighting
+|-activate|p1a: Ursaluna|move: Protect
+|move|p2a: Ursaluna|Headlong Rush|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|move|p1b: Incineroar|Parting Shot|p2a: Ursaluna
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2a: Ursaluna|spa|1
+|
+|t:|1756416456
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100|[from] Parting Shot
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ursaluna|83/100 brn|[from] brn
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1756416501
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1b: Dragonite|atk|1
+|switch|p1a: Incineroar|Incineroar, L50, F, tera:Flying|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Porygon2|atk|1
+|move|p2b: Porygon2|Tera Blast|p1a: Incineroar|[anim] Tera Blast Fighting
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|84/100
+|move|p1b: Dragonite|Scale Shot|p2b: Porygon2
+|-damage|p2b: Porygon2|94/100
+|-damage|p2b: Porygon2|87/100
+|-damage|p2b: Porygon2|81/100
+|-crit|p2b: Porygon2
+|-damage|p2b: Porygon2|65/100
+|-hitcount|p2b: Porygon2|4
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1756416530
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100 brn
+|move|p1a: Incineroar|Fake Out|p2b: Porygon2
+|-damage|p2b: Porygon2|58/100
+|move|p2a: Incineroar|Parting Shot|p1b: Ursaluna
+|-unboost|p1b: Ursaluna|atk|1
+|-unboost|p1b: Ursaluna|spa|1
+|
+|t:|1756416539
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|cant|p2b: Porygon2|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1756416551
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p1b: Ursaluna|Earthquake|p2b: Porygon2|[spread] p2b
+|-activate|p2a: Torkoal|move: Protect
+|-immune|p1a: Incineroar
+|-damage|p2b: Porygon2|30/100
+|move|p1a: Incineroar|Flare Blitz|p2b: Porygon2
+|-damage|p2b: Porygon2|0 fnt
+|faint|p2b: Porygon2
+|-damage|p1a: Incineroar|75/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Ursaluna|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1756416556
+|switch|p2b: Ursaluna|Ursaluna, L50, F|83/100 brn
+|turn|8
+|
+|t:|1756416592
+|move|p1b: Ursaluna|Earthquake|p2b: Ursaluna|[spread] p2a,p2b
+|-immune|p1a: Incineroar
+|-supereffective|p2a: Torkoal
+|-crit|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-damage|p2b: Ursaluna|48/100 brn
+|faint|p2a: Torkoal
+|move|p1a: Incineroar|Flare Blitz|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|-damage|p1a: Incineroar|57/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Ursaluna|82/100 brn|[from] brn
+|upkeep
+|
+|t:|1756416599
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|turn|9
+|
+|t:|1756416608
+|move|p2b: Incineroar|Knock Off|p1b: Ursaluna
+|-damage|p1b: Ursaluna|46/100 brn
+|-enditem|p1b: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1b: Ursaluna|Headlong Rush|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|faint|p2b: Incineroar
+|
+|win|Cristante terabug

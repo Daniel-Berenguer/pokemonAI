@@ -1,0 +1,162 @@
+|j|☆Ziik
+|j|☆gonnatortureyou
+|html|Ziikgonnatortureyou    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756325975
+|gametype|doubles
+|player|p1|Ziik|170|1139
+|player|p2|gonnatortureyou|170|1051
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Maushold-Four, L50|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Magmar, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Kommo-o, L50, M|
+|teampreview|4
+|showteam|p1|Amoonguss||SitrusBerry|Regenerator|RagePowder,Spore,PollenPuff,ClearSmog|||F|||50|,,,,,Fire]Archaludon||AssaultVest|Stamina|ElectroShot,FlashCannon,DracoMeteor,BodyPress|||F|||50|,,,,,Bug]Basculegion||LifeOrb|SwiftSwim|WaveCrash,LastRespects,AquaJet,FlipTurn|||M|||50|,,,,,Water]Pelipper||FocusSash|Drizzle|Protect,WeatherBall,Hurricane,Tailwind|||M|||50|,,,,,Steel]Rillaboom||MiracleSeed|GrassySurge|FakeOut,GrassyGlide,WoodHammer,Uturn|||M|||50|,,,,,Fire]Maushold-Four||WideLens|FriendGuard|Protect,FollowMe,Taunt,PopulationBomb||||||50|,,,,,Grass
+|showteam|p2|Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|Protect,CloseCombat,DireClaw,ThroatChop|||M|||50|,,,,,Dark]Excadrill||FocusSash|SandRush|Earthquake,IronHead,SwordsDance,Protect|||F|||50|,,,,,Ground]Magmar||Eviolite|VitalSpirit|HeatWave,FollowMe,HelpingHand,Protect|||M|||50|,,,,,Flying]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||M|||50|,,,,,Flying]Kommo-o||ThroatSpray|Soundproof|ClangorousSoul,ClangingScales,Flamethrower,Protect|||M|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gonnatortureyou)
+|
+|t:|1756325997
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Tyranitar|Tyranitar, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|turn|1
+|
+|t:|1756326014
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|move|p2a: Sneasler|Close Combat|p1b: Basculegion
+|-immune|p1b: Basculegion
+|move|p1a: Rillaboom|U-turn|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|t:|1756326031
+|switch|p1a: Archaludon|Archaludon, L50, F|100/100|[from] U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sneasler|95/100|[from] Sandstorm
+|-damage|p1b: Basculegion|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756326039
+|switch|p2b: Excadrill|Excadrill, L50, F|100/100
+|turn|2
+|
+|t:|1756326049
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-terastallize|p1b: Basculegion|Water
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1b: Basculegion|Flip Turn|p2b: Excadrill
+|-supereffective|p2b: Excadrill
+|-enditem|p2b: Excadrill|Focus Sash
+|-damage|p2b: Excadrill|1/100
+|-damage|p1b: Basculegion|85/100|[from] item: Life Orb
+|
+|t:|1756326063
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100|[from] Flip Turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p2b: Excadrill|Earthquake|p1b: Rillaboom|[spread] p1b
+|-activate|p2a: Sneasler|move: Protect
+|-immune|p1a: Pelipper
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|90/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sneasler|100/100|[from] Grassy Terrain
+|-heal|p2b: Excadrill|7/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|96/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756326083
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1b: Rillaboom|Grassy Glide|p2b: Excadrill
+|-damage|p2b: Excadrill|0 fnt
+|faint|p2b: Excadrill
+|move|p1a: Pelipper|Hurricane|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Rillaboom|90/100|[from] Sandstorm
+|-damage|p1a: Pelipper|95/100|[from] Sandstorm
+|-heal|p1b: Rillaboom|96/100|[from] Grassy Terrain
+|-heal|p2a: Tyranitar|96/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756326089
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|turn|4
+|
+|t:|1756326109
+|switch|p1b: Basculegion|Basculegion, L50, M, tera:Water|85/100
+|-terastallize|p2a: Tyranitar|Flying
+|move|p2b: Sneasler|Dire Claw|p1a: Pelipper
+|-damage|p1a: Pelipper|37/100
+|move|p1a: Pelipper|Tailwind|p1a: Pelipper
+|-sidestart|p1: Ziik|move: Tailwind
+|move|p2a: Tyranitar|Tera Blast|p1b: Basculegion|[anim] Tera Blast Flying
+|-damage|p1b: Basculegion|23/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Basculegion|17/100|[from] Sandstorm
+|-damage|p1a: Pelipper|31/100|[from] Sandstorm
+|-damage|p2b: Sneasler|95/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|90/100|[from] Sandstorm
+|-heal|p1b: Basculegion|23/100|[from] Grassy Terrain
+|-heal|p2b: Sneasler|100/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756326132
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1b: Basculegion|Wave Crash|p2a: Tyranitar
+|-damage|p2a: Tyranitar|14/100
+|-damage|p1b: Basculegion|0 fnt|[from] Recoil
+|faint|p1b: Basculegion
+|move|p1a: Pelipper|Weather Ball|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pelipper|25/100|[from] Sandstorm
+|-damage|p2b: Sneasler|95/100|[from] Sandstorm
+|-heal|p2b: Sneasler|100/100|[from] Grassy Terrain
+|upkeep
+|-message|gonnatortureyou forfeited.
+|
+|win|Ziik
+||gonnatortureyou is ready for game 3.
+||Ziik is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆Ziik
+|player|p1|

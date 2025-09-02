@@ -1,0 +1,253 @@
+|j|☆KodeBeast0526
+|j|☆Shoto.tx
+|html|KodeBeast0526Shoto.tx    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756573176
+|gametype|doubles
+|player|p1|KodeBeast0526|wattson|1086
+|player|p2|Shoto.tx|2|1124
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Corviknight, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Politoed, L50, F|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Kingdra, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,FakeOut,Coaching|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|Earthquake,IronHead,SwordsDance,Protect|||M|||50|,,,,,Ground]Corviknight||PsychicSeed|MirrorArmor|BraveBird,PowerTrip,BulkUp,Roost|||M|||50|,,,,,Water]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||M|||50|,,,,,Flying]Indeedee-F||SafetyGoggles|PsychicSurge|DazzlingGleam,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Fairy]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water
+|showteam|p2|Archaludon||PowerHerb|Sturdy|ElectroShot,FlashCannon,DragonPulse,Protect|||M|||50|,,,,,Electric]Politoed||Leftovers|Drizzle|WeatherBall,PerishSong,Encore,Protect|||F|||50|,,,,,Grass]Gothitelle||SitrusBerry|ShadowTag|Psychic,FakeOut,TrickRoom,Protect|||M|||50|,,,,,Dark]Kingdra||LifeOrb|SwiftSwim|DracoMeteor,WeatherBall,MuddyWater,Protect|||M|||50|,,,,,Stellar]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Protect|||M|||50|,,,,,Ghost]Amoonguss||EjectButton|Regenerator|Spore,RagePowder,PollenPuff,Protect|||M|||50|,,,,,Fairy
+|
+|t:|1756573211
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Corviknight|Corviknight, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Politoed|Politoed, L50, F, shiny|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1a: Corviknight|Psychic Seed
+|-boost|p1a: Corviknight|spd|1|[from] item: Psychic Seed
+|-ability|p2b: Incineroar|Intimidate|boost
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2b: Incineroar|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|t:|1756573241
+|move|p1b: Indeedee|Dazzling Gleam|p2a: Politoed|[spread] p2a,p2b
+|-damage|p2a: Politoed|88/100
+|-damage|p2b: Incineroar|87/100
+|move|p2b: Incineroar|Parting Shot|p1a: Corviknight
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2b: Incineroar|atk|1
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2b: Incineroar|spa|1
+|
+|t:|1756573252
+|switch|p2b: Gothitelle|Gothitelle, L50, M, shiny|100/100|[from] Parting Shot
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Corviknight|perish3|[silent]
+|-start|p1b: Indeedee|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-start|p2b: Gothitelle|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|94/100|[from] item: Leftovers
+|-start|p1b: Indeedee|perish3
+|-start|p2b: Gothitelle|perish3
+|-start|p2a: Politoed|perish3
+|-start|p1a: Corviknight|perish3
+|upkeep
+|turn|2
+|
+|t:|1756573286
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p2b: Gothitelle|Fake Out|p1a: Corviknight
+|-hint|Psychic Terrain doesn't affect Pokémon immune to Ground.
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|99/100
+|move|p1b: Indeedee|Dazzling Gleam|p2b: Gothitelle|[spread] p2b
+|-activate|p2a: Politoed|move: Protect
+|-damage|p2b: Gothitelle|87/100
+|cant|p1a: Corviknight|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|99/100|[from] item: Leftovers
+|-start|p1b: Indeedee|perish2
+|-start|p2b: Gothitelle|perish2
+|-start|p2a: Politoed|perish2
+|-start|p1a: Corviknight|perish2
+|upkeep
+|turn|3
+|
+|t:|1756573311
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|87/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-ability|p1a: Corviknight|Mirror Armor
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p1b: Indeedee|Dazzling Gleam|p2b: Gothitelle|[spread] p2a
+|-activate|p2b: Gothitelle|move: Protect
+|-damage|p2a: Incineroar|72/100
+|move|p1a: Corviknight|Power Trip|p2b: Gothitelle
+|-activate|p2b: Gothitelle|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-start|p1b: Indeedee|perish1
+|-start|p2b: Gothitelle|perish1
+|-start|p1a: Corviknight|perish1
+|upkeep
+|turn|4
+|
+|t:|1756573341
+|switch|p2b: Politoed|Politoed, L50, F, shiny|99/100
+|move|p2a: Incineroar|Fake Out|p1a: Corviknight
+|-hint|Psychic Terrain doesn't affect Pokémon immune to Ground.
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|98/100
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|cant|p1a: Corviknight|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Politoed|100/100|[from] item: Leftovers
+|-start|p1b: Indeedee|perish0
+|-start|p1a: Corviknight|perish0
+|faint|p1b: Indeedee
+|faint|p1a: Corviknight
+|upkeep
+|
+|t:|1756573356
+|switch|p1b: Excadrill|Excadrill, L50, M|100/100
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|5
+|
+|t:|1756573375
+|-terastallize|p1a: Tyranitar|Flying
+|move|p1b: Excadrill|Earthquake|p2b: Politoed|[spread] p2a,p2b
+|-immune|p1a: Tyranitar
+|-supereffective|p2a: Incineroar
+|-crit|p2b: Politoed
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Politoed|32/100
+|faint|p2a: Incineroar
+|move|p2b: Politoed|Perish Song|p2b: Politoed
+|-start|p1a: Tyranitar|perish3|[silent]
+|-start|p1b: Excadrill|perish3|[silent]
+|-start|p2b: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Tyranitar|Rock Slide|p2b: Politoed|[miss]
+|-miss|p1a: Tyranitar|p2b: Politoed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Politoed|26/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|95/100|[from] Sandstorm
+|-heal|p2b: Politoed|32/100|[from] item: Leftovers
+|-start|p1b: Excadrill|perish3
+|-start|p2b: Politoed|perish3
+|-start|p1a: Tyranitar|perish3
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756573396
+|switch|p2a: Gothitelle|Gothitelle, L50, M, shiny|87/100
+|turn|6
+|
+|t:|1756573405
+|move|p2b: Politoed|Protect|p2b: Politoed
+|-singleturn|p2b: Politoed|Protect
+|move|p2a: Gothitelle|Fake Out|p1a: Tyranitar
+|-damage|p1a: Tyranitar|90/100
+|move|p1b: Excadrill|Iron Head|p2b: Politoed
+|-activate|p2b: Politoed|move: Protect
+|cant|p1a: Tyranitar|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gothitelle|82/100|[from] Sandstorm
+|-damage|p2b: Politoed|26/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|84/100|[from] Sandstorm
+|-heal|p2b: Politoed|32/100|[from] item: Leftovers
+|-start|p1b: Excadrill|perish2
+|-start|p2b: Politoed|perish2
+|-start|p1a: Tyranitar|perish2
+|upkeep
+|turn|7
+|
+|t:|1756573433
+|move|p2a: Gothitelle|Protect|p2a: Gothitelle
+|-singleturn|p2a: Gothitelle|Protect
+|move|p2b: Politoed|Protect||[still]
+|-fail|p2b: Politoed
+|move|p1b: Excadrill|Earthquake|p2b: Politoed|[spread] p2b
+|-activate|p2a: Gothitelle|move: Protect
+|-immune|p1a: Tyranitar
+|-damage|p2b: Politoed|0 fnt
+|faint|p2b: Politoed
+|move|p1a: Tyranitar|Knock Off|p2a: Gothitelle
+|-activate|p2a: Gothitelle|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gothitelle|76/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|79/100|[from] Sandstorm
+|-start|p1b: Excadrill|perish1
+|-start|p1a: Tyranitar|perish1
+|upkeep
+|
+|t:|1756573451
+|switch|p2b: Archaludon|Archaludon, L50, M, shiny|100/100
+|turn|8
+|
+|t:|1756573458
+|move|p2b: Archaludon|Protect|p2b: Archaludon
+|-singleturn|p2b: Archaludon|Protect
+|move|p2a: Gothitelle|Protect|p2a: Gothitelle
+|-singleturn|p2a: Gothitelle|Protect
+|move|p1b: Excadrill|Earthquake|p2b: Archaludon|[spread] 
+|-activate|p2a: Gothitelle|move: Protect
+|-activate|p2b: Archaludon|move: Protect
+|-immune|p1a: Tyranitar
+|move|p1a: Tyranitar|Low Kick|p2b: Archaludon
+|-activate|p2b: Archaludon|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gothitelle|70/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|73/100|[from] Sandstorm
+|-start|p1b: Excadrill|perish0
+|-start|p1a: Tyranitar|perish0
+|faint|p1b: Excadrill
+|faint|p1a: Tyranitar
+|
+|win|Shoto.tx
+||KodeBeast0526 is ready for game 2.
+|inactive|Shoto.tx has 30 seconds to confirm battle start!
+|l|☆Shoto.tx
+|player|p2|
+|inactive|Shoto.tx has 20 seconds to confirm battle start!
+|inactive|Shoto.tx has 10 seconds to confirm battle start!
+|c|☆KodeBeast0526|hurry
+|j|☆Shoto.tx
+|player|p2|Shoto.tx|2|
+|uhtml|next|Next: Game 2 of 3
+|l|☆Shoto.tx
+|player|p2|

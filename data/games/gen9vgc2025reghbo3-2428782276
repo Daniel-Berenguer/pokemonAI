@@ -1,0 +1,110 @@
+|j|☆UnApostrofoRosaVGC
+|j|☆SomeKidJon
+|html|UnApostrofoRosaVGCSomeKidJon    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756184889
+|gametype|doubles
+|player|p1|UnApostrofoRosaVGC|101|1227
+|player|p2|SomeKidJon|scientistf|1160
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Maushold-Four, L50|
+|poke|p2|Zoroark-Hisui, L50, M|
+|poke|p2|Serperior, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Baxcalibur, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Armarouge||LifeOrb|FlashFire|ExpandingForce,ArmorCannon,TrickRoom,Protect|||M|||50|,,,,,Grass]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,LowKick,SwordsDance|||M|||50|,,,,,Dark]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HeatWave,Protect|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Maushold-Four||WideLens|Technician|PopulationBomb,Taunt,FollowMe,Protect||||||50|,,,,,Ghost
+|showteam|p2|Zoroark-Hisui||ChoiceSpecs|Illusion|TeraBlast,HyperVoice,Snarl,ShadowBall|||M|||50|,,,,,Stellar]Serperior||LightClay|Contrary|LeafStorm,Reflect,LightScreen,HelpingHand|||F|||50|,,,,,Water]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,AquaJet,FlipTurn|||M|||50|,,,,,Water]Pelipper||FocusSash|Drizzle|HelpingHand,Tailwind,WeatherBall,Hurricane|||M|||50|,,,,,Dragon]Kingambit||AssaultVest|Defiant|KowtowCleave,SuckerPunch,LowKick,IronHead|||F|||50|,,,,,Fairy]Baxcalibur||ClearAmulet|ThermalExchange|IceShard,GlaiveRush,Protect,SwordsDance|||M|||50|,,,,,Poison
+|
+|t:|1756184931
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Maelle|Kingambit, L50, F, shiny|100/100
+|switch|p2b: Sciel|Serperior, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756184958
+|-terastallize|p2a: Maelle|Stellar
+|move|p2b: Sciel|Helping Hand|p2a: Maelle
+|-singleturn|p2a: Maelle|Helping Hand|[of] p2b: Sciel
+|move|p1b: Gallade|Wide Guard|p1b: Gallade
+|-singleturn|p1b: Gallade|Wide Guard
+|move|p2a: Maelle|Hyper Voice|p1b: Gallade|[spread] 
+|-activate|p1a: Indeedee|move: Wide Guard
+|-activate|p1b: Gallade|move: Wide Guard
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1756184984
+|move|p1a: Indeedee|Helping Hand|p1b: Gallade
+|-singleturn|p1b: Gallade|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Gallade|Psycho Cut|p2a: Maelle
+|-crit|p2a: Maelle
+|-damage|p2a: Maelle|0 fnt
+|replace|p2a: Verso|Zoroark-Hisui, L50, M, shiny
+|-end|p2a: Verso|Illusion
+|faint|p2a: Verso
+|move|p2b: Sciel|Reflect|p2b: Sciel
+|-sidestart|p2: SomeKidJon|Reflect
+|
+|upkeep
+|
+|t:|1756184990
+|switch|p2a: Maelle|Kingambit, L50, F, shiny|100/100
+|turn|3
+|
+|t:|1756185006
+|move|p2a: Maelle|Kowtow Cleave|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|12/100
+|move|p1b: Gallade|Sacred Sword|p2a: Maelle
+|-supereffective|p2a: Maelle
+|-damage|p2a: Maelle|0 fnt
+|faint|p2a: Maelle
+|move|p1a: Indeedee|Psychic|p2b: Sciel
+|-damage|p2b: Sciel|62/100
+|move|p2b: Sciel|Leaf Storm|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-boost|p2b: Sciel|spa|2
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|t:|1756185023
+|switch|p2a: Esquie|Pelipper, L50, M|100/100
+|switch|p1a: Armarouge|Armarouge, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Esquie
+|turn|4
+|
+|t:|1756185033
+|move|p1b: Gallade|Psycho Cut|p2a: Esquie
+|-damage|p2a: Esquie|37/100
+|move|p1a: Armarouge|Expanding Force|p2b: Sciel|[spread] p2a,p2b
+|-damage|p2a: Esquie|0 fnt
+|-damage|p2b: Sciel|0 fnt
+|faint|p2a: Esquie
+|faint|p2b: Sciel
+|-damage|p1a: Armarouge|91/100|[from] item: Life Orb
+|
+|win|UnApostrofoRosaVGC

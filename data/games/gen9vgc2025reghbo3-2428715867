@@ -1,0 +1,104 @@
+|j|☆BlackStag52
+|j|☆gene takavic
+|html|BlackStag52gene takavic    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756175467
+|gametype|doubles
+|player|p1|BlackStag52|beauty|1060
+|player|p2|gene takavic|rika|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Rampardos, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Maushold, L50|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Dragonite, L50, M|
+|teampreview|4
+|showteam|p1|Kingambit||BlackGlasses|Defiant|KowtowCleave,IronHead,Protect,PoisonJab|||M|||50|,,,,,Psychic]Gallade||ClearAmulet|Sharpness|SacredSword,TrickRoom,PsychoCut,WideGuard|||M|||50|,,,,,Dark]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,HelpingHand,HyperVoice|||F|||50|,,,,,Fairy]Rampardos||LifeOrb|SheerForce|RockSlide,HammerArm,Protect,BreakingSwipe|||F|||50|,,,,,Dragon]Amoonguss||Leftovers|Regenerator|Spore,RagePowder,SludgeBomb,PollenPuff|||M|||50|,,,,,Dark]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,KnockOff,FlareBlitz|||F|||50|,,,,,Ghost
+|showteam|p2|Maushold||WideLens|FriendGuard|FollowMe,PopulationBomb,Taunt,Protect||||||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|RageFist,CloseCombat,FinalGambit,Protect|||M|||50|,,,,,Steel]Gholdengo||LifeOrb|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water]Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,EarthPower,VacuumWave,HyperVoice|||M|||50|,,,,,Water]Rillaboom||SitrusBerry|Overgrow|GrassyGlide,HighHorsepower,WoodHammer,FakeOut|||F|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Tailwind,Protect|||M|||50|,,,,,Steel
+|
+|t:|1756175501
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gallade|Gallade, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Maushold|Maushold, L50|100/100
+|switch|p2b: Annihilape|Annihilape, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756175519
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Annihilape|Final Gambit|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p2b: Annihilape
+|faint|p1b: Indeedee
+|move|p1a: Gallade|Trick Room|p1a: Gallade
+|-fieldstart|move: Trick Room|[of] p1a: Gallade
+|
+|upkeep
+|
+|t:|1756175530
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|switch|p2b: Maushold|Maushold, L50|100/100
+|turn|2
+|
+|t:|1756175535
+|move|p2b: Maushold|Follow Me|p2b: Maushold
+|-singleturn|p2b: Maushold|move: Follow Me
+|move|p1b: Kingambit|Kowtow Cleave|p2b: Maushold
+|-crit|p2b: Maushold
+|-damage|p2b: Maushold|0 fnt
+|faint|p2b: Maushold
+|move|p1a: Gallade|Sacred Sword|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|move|p2a: Gholdengo|Shadow Ball|p1a: Gallade
+|-supereffective|p1a: Gallade
+|-damage|p1a: Gallade|11/100
+|-damage|p2a: Gholdengo|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756175546
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|3
+|
+|t:|1756175567
+|-terastallize|p2a: Gholdengo|Water
+|move|p2b: Ursaluna|Vacuum Wave|p1a: Gallade
+|-activate|p1a: Gallade|move: Psychic Terrain
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Gholdengo
+|-damage|p2a: Gholdengo|31/100
+|move|p1a: Gallade|Sacred Sword|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-crit|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|move|p2a: Gholdengo|Make It Rain|p1a: Gallade|[spread] p1a,p1b
+|-resisted|p1b: Kingambit
+|-damage|p1a: Gallade|0 fnt
+|-damage|p1b: Kingambit|74/100
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Gallade
+|-damage|p2a: Gholdengo|21/100|[from] item: Life Orb
+|
+|upkeep
+|-message|gene takavic forfeited.
+|
+|win|BlackStag52

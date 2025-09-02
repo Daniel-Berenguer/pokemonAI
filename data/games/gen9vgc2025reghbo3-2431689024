@@ -1,0 +1,202 @@
+|j|☆i saw carcosa
+|j|☆Smoukingrad
+|html|i saw carcosaSmoukingrad    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756558490
+|gametype|doubles
+|player|p1|i saw carcosa|pokemonbreederf|1337
+|player|p2|Smoukingrad|kimonogirl|1245
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Mienshao, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Clefable, L50, M|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|showteam|p1|Dragapult||ChoiceBand|ClearBody|DragonDarts,Uturn,PhantomForce,Outrage|||F|||50|,,,,,Dragon]Mienshao||FocusSash|InnerFocus|FakeOut,CloseCombat,WideGuard,UpperHand|||M|||50|,,,,,Fighting]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Steel]Talonflame||CovertCloak|GaleWings|Tailwind,BraveBird,Taunt,FlareBlitz|||M|||50|,,,,,Fairy]Kingambit||AssaultVest|Defiant|IronHead,KowtowCleave,SuckerPunch,LowKick|||F|||50|,,,,,Poison]Clefable||SafetyGoggles|Unaware|FollowMe,Moonblast,HelpingHand,MistyTerrain|||M|||50|,,,,,Water
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost
+|
+|t:|1756558514
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragapult|Dragapult, L50, F|100/100
+|switch|p1b: Talonflame|Talonflame, L50, M|100/100
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|-unboost|p1b: Talonflame|atk|1
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|turn|1
+|
+|t:|1756558531
+|move|p1b: Talonflame|Taunt|p2a: Porygon2
+|-start|p2a: Porygon2|move: Taunt
+|move|p1a: Dragapult|U-turn|p2b: Incineroar
+|-damage|p2b: Incineroar|65/100
+|
+|t:|1756558540
+|switch|p1a: Mienshao|Mienshao, L50, M|100/100|[from] U-turn
+|move|p2b: Incineroar|Knock Off|p1b: Talonflame
+|-damage|p1b: Talonflame|45/100
+|-enditem|p1b: Talonflame|Covert Cloak|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p2a: Porygon2|Tera Blast|p1b: Talonflame
+|-damage|p1b: Talonflame|0 fnt
+|faint|p1b: Talonflame
+|
+|upkeep
+|
+|t:|1756558556
+|switch|p1b: Dragapult|Dragapult, L50, F|100/100
+|turn|2
+|
+|t:|1756558576
+|-terastallize|p1b: Dragapult|Dragon
+|move|p1b: Dragapult|Dragon Darts|p2b: Incineroar
+|-damage|p2b: Incineroar|9/100
+|-enditem|p2b: Incineroar|Sitrus Berry|[eat]
+|-heal|p2b: Incineroar|34/100|[from] item: Sitrus Berry
+|-anim|p1b: Dragapult|Dragon Darts|p2a: Porygon2
+|-damage|p2a: Porygon2|65/100
+|move|p1a: Mienshao|Close Combat|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|-unboost|p1a: Mienshao|def|1
+|-unboost|p1a: Mienshao|spd|1
+|faint|p2a: Porygon2
+|move|p2b: Incineroar|Parting Shot|p1a: Mienshao
+|-unboost|p1a: Mienshao|atk|1
+|-unboost|p1a: Mienshao|spa|1
+|
+|t:|1756558586
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100|[from] Parting Shot
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756558588
+|switch|p2a: Incineroar|Incineroar, L50, F|34/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Mienshao|unboost|Attack|[from] ability: Inner Focus|[of] p1a: Mienshao
+|-fail|p1b: Dragapult|unboost|[from] ability: Clear Body|[of] p1b: Dragapult
+|turn|3
+|
+|t:|1756558617
+|switch|p1b: Clefable|Clefable, L50, M|100/100
+|-terastallize|p2b: Ursaluna|Ghost
+|move|p1a: Mienshao|Close Combat|p2b: Ursaluna
+|-immune|p2b: Ursaluna
+|move|p2a: Incineroar|Knock Off|p1a: Mienshao
+|-resisted|p1a: Mienshao
+|-damage|p1a: Mienshao|39/100
+|-enditem|p1a: Mienshao|Focus Sash|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p2b: Ursaluna|Facade|p1b: Clefable
+|-damage|p1b: Clefable|0 fnt
+|faint|p1b: Clefable
+|
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756558625
+|switch|p1b: Dragapult|Dragapult, L50, F, tera:Dragon|100/100
+|turn|4
+|
+|t:|1756558637
+|move|p1b: Dragapult|Phantom Force||[still]
+|-prepare|p1b: Dragapult|Phantom Force
+|move|p1a: Mienshao|Close Combat|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-unboost|p1a: Mienshao|def|1
+|-unboost|p1a: Mienshao|spd|1
+|faint|p2a: Incineroar
+|move|p2b: Ursaluna|Facade|p1b: Dragapult|[miss]
+|-miss|p2b: Ursaluna|p1b: Dragapult
+|
+|-damage|p2b: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1756558641
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|5
+|
+|t:|1756558651
+|move|p1b: Dragapult|Phantom Force|p2b: Ursaluna|[from] lockedmove
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|move|p1a: Mienshao|Close Combat|p2a: Torkoal
+|-damage|p2a: Torkoal|64/100
+|-unboost|p1a: Mienshao|def|1
+|-unboost|p1a: Mienshao|spd|1
+|move|p2a: Torkoal|Eruption|p1a: Mienshao|[spread] p1a,p1b
+|-resisted|p1b: Dragapult
+|-damage|p1a: Mienshao|0 fnt
+|-damage|p1b: Dragapult|71/100
+|faint|p1a: Mienshao
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1756558663
+|move|p1b: Dragapult|Phantom Force||[still]
+|-prepare|p1b: Dragapult|Phantom Force
+|move|p2a: Torkoal|Overheat|p1b: Dragapult|[miss]
+|-miss|p2a: Torkoal|p1b: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1756558666
+|move|p1b: Dragapult|Phantom Force|p2a: Torkoal|[from] lockedmove
+|-damage|p2a: Torkoal|6/100
+|move|p2a: Torkoal|Overheat|p1b: Dragapult
+|-resisted|p1b: Dragapult
+|-damage|p1b: Dragapult|13/100
+|-unboost|p2a: Torkoal|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1756558670
+|move|p1b: Dragapult|Phantom Force||[still]
+|-prepare|p1b: Dragapult|Phantom Force
+|move|p2a: Torkoal|Overheat|p1b: Dragapult|[miss]
+|-miss|p2a: Torkoal|p1b: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1756558672
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p1b: Dragapult|Phantom Force|p2a: Torkoal|[from] lockedmove
+|-activate|p2a: Torkoal|move: Phantom Force|[broken]
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|win|i saw carcosa
+|raw|i saw carcosa's rating: 1337 → 1352(+15 for winning)
+|raw|Smoukingrad's rating: 1245 → 1226(-19 for losing)
+|l|☆Smoukingrad
+|player|p2|
+|c|☆i saw carcosa|gg

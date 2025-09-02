@@ -1,0 +1,184 @@
+|j|☆Luckstat10
+|j|☆Staryu14
+|html|Luckstat10Staryu14    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756419589
+|gametype|doubles
+|player|p1|Luckstat10|1|1217
+|player|p2|Staryu14|marshal|1257
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Milotic, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Toxicroak, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+|showteam|p1|Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,HighHorsepower|||M|||50|,,,,,Fire]Sneasler||FocusSash|PoisonTouch|FakeOut,CloseCombat,DireClaw,Protect|||M|||50|,,,,,Stellar]Gholdengo||LifeOrb|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water]Milotic||FlameOrb|MarvelScale|IcyWind,Scald,Haze,Recover|||F|||50|,,,,,Dragon]Garchomp||ChoiceScarf|RoughSkin|DragonClaw,StompingTantrum,Earthquake,RockSlide|||M|||50|,,,,,Fairy]Volcarona||CovertCloak|FlameBody|QuiverDance,HeatWave,GigaDrain,Protect|||F|||50|,,,,,Grass
+|showteam|p2|Archaludon||AssaultVest|Stamina|ElectroShot,Snarl,DragonPulse,BodyPress|||F|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Protect,Tailwind|||M|||50|,,,,,Stellar]Basculegion||MysticWater|SwiftSwim|AquaJet,WaveCrash,Protect,LastRespects|||M|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Toxicroak||LifeOrb|DrySkin|FakeOut,CloseCombat,PoisonJab,SuckerPunch|||M|||50|,,,,,Dark]Amoonguss||CovertCloak|Regenerator|LeafStorm,Spore,RagePowder,PollenPuff|||M|||50|,,,,,Fairy
+|
+|t:|1756419634
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Mothra|Volcarona, L50, F, shiny|100/100
+|switch|p1b: Koba|Rillaboom, L50, M, shiny|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Koba
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Mothra|atk|1
+|-unboost|p1b: Koba|atk|1
+|turn|1
+|
+|t:|1756419774
+|move|p1a: Mothra|Protect|p1a: Mothra
+|-singleturn|p1a: Mothra|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Koba
+|-damage|p1b: Koba|91/100
+|cant|p1b: Koba|flinch
+|move|p2b: Basculegion|Wave Crash|p1a: Mothra
+|-activate|p1a: Mothra|move: Protect
+|
+|-heal|p1b: Koba|97/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756419794
+|switch|p1a: Midas|Gholdengo, L50|100/100
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|move|p1b: Koba|Wood Hammer|p2b: Archaludon
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|90/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|-damage|p1b: Koba|94/100|[from] Recoil
+|move|p2a: Incineroar|Knock Off|p1a: Midas
+|-supereffective|p1a: Midas
+|-damage|p1a: Midas|37/100
+|-enditem|p1a: Midas|Life Orb|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-heal|p2b: Archaludon|96/100|[from] Grassy Terrain
+|-heal|p1a: Midas|43/100|[from] Grassy Terrain
+|-heal|p1b: Koba|99/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756419813
+|switch|p1b: Mothra|Volcarona, L50, F, shiny|100/100
+|move|p2b: Archaludon|Snarl|p1a: Midas|[spread] p1a,p1b
+|-supereffective|p1a: Midas
+|-damage|p1a: Midas|17/100
+|-damage|p1b: Mothra|88/100
+|-unboost|p1a: Midas|spa|1
+|move|p1a: Midas|Nasty Plot|p1a: Midas
+|-boost|p1a: Midas|spa|2
+|move|p2a: Incineroar|Flare Blitz|p1b: Mothra
+|-damage|p1b: Mothra|38/100
+|-damage|p2a: Incineroar|85/100|[from] Recoil
+|
+|-heal|p2b: Archaludon|100/100|[from] Grassy Terrain
+|-heal|p1b: Mothra|44/100|[from] Grassy Terrain
+|-heal|p1a: Midas|23/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|91/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756419827
+|move|p2b: Archaludon|Snarl|p1a: Midas|[spread] p1a,p1b
+|-supereffective|p1a: Midas
+|-damage|p1a: Midas|1/100
+|-damage|p1b: Mothra|32/100
+|-unboost|p1a: Midas|spa|1
+|move|p1b: Mothra|Quiver Dance|p1b: Mothra
+|-boost|p1b: Mothra|spa|1
+|-boost|p1b: Mothra|spd|1
+|-boost|p1b: Mothra|spe|1
+|move|p1a: Midas|Shadow Ball|p2b: Archaludon
+|-damage|p2b: Archaludon|66/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2a: Incineroar|Knock Off|p1b: Mothra
+|-damage|p1b: Mothra|0 fnt
+|-enditem|p1b: Mothra|Covert Cloak|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1b: Mothra
+|
+|-heal|p2b: Archaludon|72/100|[from] Grassy Terrain
+|-heal|p1a: Midas|7/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|97/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756419834
+|switch|p1b: Dare|Sneasler, L50, M|100/100
+|turn|5
+|
+|t:|1756419849
+|switch|p1a: Koba|Rillaboom, L50, M, shiny|99/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|move|p1b: Dare|Close Combat|p2a: Basculegion
+|-immune|p2a: Basculegion
+|move|p2b: Archaludon|Snarl|p1b: Dare|[spread] p1a,p1b
+|-resisted|p1b: Dare
+|-damage|p1a: Koba|91/100
+|-damage|p1b: Dare|92/100
+|-unboost|p1a: Koba|spa|1
+|-unboost|p1b: Dare|spa|1
+|
+|-heal|p1b: Dare|98/100|[from] Grassy Terrain
+|-heal|p2b: Archaludon|78/100|[from] Grassy Terrain
+|-heal|p1a: Koba|97/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756419872
+|switch|p1b: Midas|Gholdengo, L50|7/100
+|switch|p2a: Incineroar|Incineroar, L50, M|97/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Koba|atk|1
+|-unboost|p1b: Midas|atk|1
+|move|p2b: Archaludon|Body Press|p1a: Koba
+|-damage|p1a: Koba|48/100
+|move|p1a: Koba|Wood Hammer|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|79/100
+|-damage|p1a: Koba|42/100|[from] Recoil
+|
+|upkeep
+|turn|7
+|
+|t:|1756419884
+|switch|p1a: Dare|Sneasler, L50, M|98/100
+|move|p1b: Midas|Protect|p1b: Midas
+|-singleturn|p1b: Midas|Protect
+|move|p2b: Archaludon|Dragon Pulse|p1b: Midas
+|-activate|p1b: Midas|move: Protect
+|move|p2a: Incineroar|Parting Shot|p1a: Dare
+|-unboost|p1a: Dare|atk|1
+|-unboost|p1a: Dare|spa|1
+|
+|t:|1756419889
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|-message|Luckstat10 forfeited.
+|raw|Luckstat10's rating: 1217 → 1195(-22 for losing)
+|raw|Staryu14's rating: 1257 → 1279(+22 for winning)
+|
+|win|Staryu14
+|l|☆Luckstat10
+|player|p1|

@@ -1,0 +1,141 @@
+|j|☆faquin
+|j|☆tulpeon
+|html|faquintulpeon    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756314247
+|gametype|doubles
+|player|p1|faquin|cynthia-gen4|1000
+|player|p2|tulpeon|266|1043
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Typhlosion-Hisui, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Electabuzz, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Typhlosion-Hisui||ChoiceSpecs|Frisk|FocusBlast,ShadowBall,HeatWave,Eruption|||M|||50|,,,,,Fire]Whimsicott||CovertCloak|Prankster|Tailwind,SunnyDay,Moonblast,TrickRoom|||F|||50|,,,,,Grass]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,Uturn,SuckerPunch|||F|||50|,,,,,Dragon]Lilligant-Hisui||FocusSash|Chlorophyll|SleepPowder,AfterYou,LeafBlade,CloseCombat|||F|||50|,,,,,Grass]Electabuzz||Eviolite|VitalSpirit|FollowMe,Feint,ThunderWave,HelpingHand|||F|||50|,,,,,Flying]Torkoal||LifeOrb|Drought|Protect,HeatWave,WeatherBall,Eruption|||M|||50|,,,,,Fire
+|showteam|p2|Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,FlashCannon,DracoMeteor|||M|||50|,,,,,Flying]Pelipper||FocusSash|Drizzle|Tailwind,Hurricane,WeatherBall,Protect|||M|||50|,,,,,Ghost]Grimmsnarl||LightClay|Prankster|PartingShot,SpiritBreak,LightScreen,Reflect|||M|||50|,,,,,Steel]Amoonguss||RockyHelmet|Regenerator|PollenPuff,RagePowder,Spore,Protect|||F|||50|,,,,,Dark]Basculegion||ChoiceBand|Adaptability|WaveCrash,LastRespects,FlipTurn,TeraBlast|||M|||50|,,,,,Stellar]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,KnockOff,FlareBlitz|||M|||50|,,,,,Ghost
+|
+|t:|1756314266
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|turn|1
+|
+|t:|1756314297
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: faquin|move: Tailwind
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: tulpeon|Reflect
+|move|p1b: Lilligant|Sleep Powder|p2a: Grimmsnarl
+|-status|p2a: Grimmsnarl|slp|[from] move: Sleep Powder
+|move|p2b: Amoonguss|Pollen Puff|p2a: Grimmsnarl
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by faquin)
+|
+|t:|1756314332
+|switch|p1b: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|-item|p2a: Grimmsnarl|Light Clay|[from] ability: Frisk|[of] p1b: Typhlosion
+|-item|p2b: Amoonguss|Rocky Helmet|[from] ability: Frisk|[of] p1b: Typhlosion
+|move|p2b: Amoonguss|Protect|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|Protect
+|move|p1a: Whimsicott|Sunny Day|p1a: Whimsicott
+|-weather|SunnyDay
+|cant|p2a: Grimmsnarl|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756314353
+|-terastallize|p2b: Amoonguss|Dark
+|-curestatus|p2a: Grimmsnarl|slp|[msg]
+|move|p2a: Grimmsnarl|Parting Shot|p1b: Typhlosion
+|-unboost|p1b: Typhlosion|atk|1
+|-unboost|p1b: Typhlosion|spa|1
+|
+|t:|1756314359
+|switch|p2a: la poste|Pelipper, L50, M|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: la poste
+|move|p1b: Typhlosion|Eruption|p2b: Amoonguss|[spread] p2a,p2b
+|-resisted|p2a: la poste
+|-damage|p2a: la poste|78/100
+|-damage|p2b: Amoonguss|78/100
+|move|p1a: Whimsicott|Moonblast|p2a: la poste
+|-damage|p2a: la poste|28/100
+|-unboost|p2a: la poste|spa|1
+|move|p2b: Amoonguss|Spore|p1b: Typhlosion
+|-status|p1b: Typhlosion|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|tulpeon has 30 seconds left.
+|
+|t:|1756314387
+|switch|p1b: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|move|p1a: Whimsicott|Sunny Day|p1a: Whimsicott
+|-weather|SunnyDay
+|move|p2b: Amoonguss|Pollen Puff|p1a: Whimsicott
+|-damage|p1a: Whimsicott|76/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: faquin|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1756314409
+|move|p2a: Grimmsnarl|Parting Shot|p1b: Lilligant
+|-unboost|p1b: Lilligant|atk|1
+|-unboost|p1b: Lilligant|spa|1
+|l|☆faquin
+|inactive|faquin disconnected and has a minute to reconnect!
+|player|p1|
+|
+|t:|1756314417
+|switch|p2a: la poste|Pelipper, L50, M|28/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: la poste
+|move|p1b: Lilligant|Leaf Blade|p2b: Amoonguss
+|-crit|p2b: Amoonguss
+|-damage|p2b: Amoonguss|27/100
+|-damage|p1b: Lilligant|84/100|[from] item: Rocky Helmet|[of] p2b: Amoonguss
+|move|p1a: Whimsicott|Moonblast|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756314431
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|6
+|inactive|faquin has 30 seconds left.
+|inactive|faquin has 20 seconds left.
+|inactive|faquin has 15 seconds left.
+|inactive|faquin has 10 seconds left.
+|inactive|faquin has 5 seconds left.
+|-message|faquin lost due to inactivity.
+|
+|win|tulpeon
+|raw|faquin's rating: 1000 → 1000(+0 for losing)
+|raw|tulpeon's rating: 1043 → 1072(+29 for winning)

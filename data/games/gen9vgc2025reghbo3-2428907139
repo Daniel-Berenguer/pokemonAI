@@ -1,0 +1,412 @@
+|j|☆vgc_eon
+|j|☆Chavo666
+|html|vgc_eonChavo666    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756207248
+|gametype|doubles
+|player|p1|vgc_eon|green|1184
+|player|p2|Chavo666|170|1033
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Dondozo, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p2|Reuniclus, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Gastrodon, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Venusaur, L50, F|
+|teampreview|4
+|showteam|p1|Sneasler||FocusSash|PoisonTouch|FakeOut,DireClaw,CloseCombat,Protect|||M|||50|,,,,,Dark]Dragonite||LoadedDice|Multiscale|ExtremeSpeed,ScaleShot,StompingTantrum,Protect|||F|||50|,,,,,Steel]Dondozo||Leftovers|Unaware|WaveCrash,Yawn,Fissure,Protect|||F|||50|,,,,,Poison]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,Uturn|||F|||50|,,,,,Fire]Volcarona||CovertCloak|FlameBody|HeatWave,QuiverDance,TeraBlast,Protect|||M|||50|,,,,,Fairy]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,FollowMe,Taunt,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Reuniclus||LifeOrb|Regenerator|ExpandingForce,Encore,TrickRoom,TeraBlast|||F|||50|,,,,,Fairy]Indeedee-F||PsychicSeed|PsychicSurge|DazzlingGleam,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Fairy]Torkoal||ChoiceSpecs|Drought|HeatWave,Eruption,EarthPower,SolarBeam|||F|||50|,,,,,Fire]Gastrodon||Leftovers|StormDrain|EarthPower,IceBeam,Recover,Yawn|||M|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,FlareBlitz,KnockOff|||F|||50|,,,,,Bug]Venusaur||SitrusBerry|Chlorophyll|GigaDrain,SleepPowder,SludgeBomb,Protect|||F|||50|,,,,,Fire
+|
+|t:|1756207279
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: Reuniclus|Reuniclus, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756207294
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Sneasler|Dire Claw|p2b: Indeedee
+|-damage|p2b: Indeedee|47/100
+|move|p1b: Rillaboom|U-turn|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|t:|1756207300
+|switch|p1b: Dondozo|Dondozo, L50, F|100/100|[from] U-turn
+|move|p2a: Reuniclus|Trick Room|p2a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p2a: Reuniclus
+|
+|upkeep
+|
+|t:|1756207307
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|2
+|
+|t:|1756207349
+|-terastallize|p2b: Torkoal|Fire
+|move|p1b: Dondozo|Protect|p1b: Dondozo
+|-singleturn|p1b: Dondozo|Protect
+|move|p2b: Torkoal|Heat Wave|p1b: Dondozo|[spread] p1a
+|-activate|p1b: Dondozo|move: Protect
+|-enditem|p1a: Sneasler|Focus Sash
+|-damage|p1a: Sneasler|1/100
+|move|p2a: Reuniclus|Expanding Force|p1a: Sneasler|[spread] p1a
+|-activate|p1b: Dondozo|move: Protect
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|-damage|p2a: Reuniclus|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756207354
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|3
+|
+|t:|1756207383
+|-terastallize|p1a: Rillaboom|Fire
+|move|p1a: Rillaboom|Fake Out|p2a: Reuniclus
+|-damage|p2a: Reuniclus|73/100
+|move|p2b: Torkoal|Heat Wave|p1a: Rillaboom|[spread] p1a,p1b
+|-resisted|p1a: Rillaboom
+|-resisted|p1b: Dondozo
+|-damage|p1a: Rillaboom|61/100
+|-damage|p1b: Dondozo|63/100
+|cant|p2a: Reuniclus|flinch
+|move|p1b: Dondozo|Yawn|p2a: Reuniclus
+|-start|p2a: Reuniclus|move: Yawn|[of] p1b: Dondozo
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Reuniclus|79/100|[from] Grassy Terrain
+|-heal|p1b: Dondozo|70/100|[from] Grassy Terrain
+|-heal|p1b: Dondozo|76/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|67/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756207400
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Dondozo|atk|1
+|move|p1a: Rillaboom|Grassy Glide|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|88/100
+|move|p2b: Torkoal|Heat Wave|p1b: Dondozo|[spread] p1a
+|-miss|p2b: Torkoal|p1b: Dondozo
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|30/100
+|move|p1b: Dondozo|Yawn|p2b: Torkoal
+|-start|p2b: Torkoal|move: Yawn|[of] p1b: Dondozo
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Dondozo|82/100|[from] Grassy Terrain
+|-heal|p1b: Dondozo|88/100|[from] item: Leftovers
+|-heal|p2a: Incineroar|93/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|36/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756207424
+|switch|p2b: Reuniclus|Reuniclus, L50, F|100/100
+|switch|p1a: Dragonite|Dragonite, L50, F|100/100
+|move|p1b: Dondozo|Wave Crash|p2b: Reuniclus
+|-damage|p2b: Reuniclus|84/100
+|-damage|p1b: Dondozo|84/100|[from] Recoil
+|move|p2a: Incineroar|Knock Off|p1a: Dragonite
+|-damage|p1a: Dragonite|77/100
+|-enditem|p1a: Dragonite|Loaded Dice|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Reuniclus|90/100|[from] Grassy Terrain
+|-heal|p1b: Dondozo|90/100|[from] Grassy Terrain
+|-heal|p1b: Dondozo|96/100|[from] item: Leftovers
+|-heal|p2a: Incineroar|99/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1756207451
+|move|p1a: Dragonite|Scale Shot|p2b: Reuniclus
+|-damage|p2b: Reuniclus|71/100
+|-damage|p2b: Reuniclus|53/100
+|-hitcount|p2b: Reuniclus|2
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Incineroar|Parting Shot|p1a: Dragonite
+|-unboost|p1a: Dragonite|atk|1
+|-unboost|p1a: Dragonite|spa|1
+|
+|t:|1756207460
+|switch|p2a: Torkoal|Torkoal, L50, F, tera:Fire|100/100|[from] Parting Shot
+|move|p1b: Dondozo|Yawn|p2b: Reuniclus
+|-start|p2b: Reuniclus|move: Yawn|[of] p1b: Dondozo
+|move|p2b: Reuniclus|Expanding Force|p1a: Dragonite
+|-damage|p1a: Dragonite|9/100
+|-damage|p2b: Reuniclus|43/100|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p1b: Dondozo|100/100|[from] Grassy Terrain
+|-heal|p2b: Reuniclus|49/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1756207483
+|switch|p2b: Incineroar|Incineroar, L50, F|99/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|-unboost|p1b: Dondozo|atk|1
+|move|p1a: Dragonite|Scale Shot|p2b: Incineroar
+|-damage|p2b: Incineroar|90/100
+|-damage|p2b: Incineroar|82/100
+|-damage|p2b: Incineroar|73/100
+|-damage|p2b: Incineroar|64/100
+|-damage|p2b: Incineroar|55/100
+|-hitcount|p2b: Incineroar|5
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|move|p1b: Dondozo|Wave Crash|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|12/100
+|-damage|p1b: Dondozo|91/100|[from] Recoil
+|move|p2a: Torkoal|Heat Wave|p1a: Dragonite|[spread] p1a,p1b
+|-resisted|p1a: Dragonite
+|-resisted|p1b: Dondozo
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1b: Dondozo|68/100
+|faint|p1a: Dragonite
+|
+|-heal|p2b: Incineroar|18/100|[from] Grassy Terrain
+|-heal|p1b: Dondozo|74/100|[from] Grassy Terrain
+|-heal|p1b: Dondozo|81/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756207489
+|switch|p1a: Rillaboom|Rillaboom, L50, F, tera:Fire|36/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|8
+|
+|t:|1756207516
+|switch|p2a: Reuniclus|Reuniclus, L50, F|82/100
+|move|p1a: Rillaboom|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|1/100
+|cant|p2b: Incineroar|flinch
+|move|p1b: Dondozo|Wave Crash|p2a: Reuniclus
+|-damage|p2a: Reuniclus|57/100
+|-damage|p1b: Dondozo|74/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|42/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|7/100|[from] Grassy Terrain
+|-heal|p1b: Dondozo|81/100|[from] Grassy Terrain
+|-heal|p1b: Dondozo|87/100|[from] item: Leftovers
+|-heal|p2a: Reuniclus|63/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1756207552
+|move|p1a: Rillaboom|Wood Hammer|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|-damage|p1a: Rillaboom|23/100|[from] Recoil
+|move|p2b: Incineroar|Parting Shot|p1b: Dondozo
+|-unboost|p1b: Dondozo|atk|1
+|-unboost|p1b: Dondozo|spa|1
+|
+|t:|1756207560
+|switch|p2b: Torkoal|Torkoal, L50, F, tera:Fire|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|move|p1b: Dondozo|Wave Crash|p2b: Torkoal
+|-supereffective|p2b: Torkoal
+|-damage|p2b: Torkoal|87/100
+|-damage|p1b: Dondozo|84/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rillaboom|29/100|[from] Grassy Terrain
+|-heal|p1b: Dondozo|90/100|[from] Grassy Terrain
+|-heal|p1b: Dondozo|96/100|[from] item: Leftovers
+|-heal|p2b: Torkoal|93/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756207572
+|switch|p2a: Incineroar|Incineroar, L50, F|7/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Dondozo|atk|1
+|turn|10
+|
+|t:|1756207594
+|move|p2a: Incineroar|Fake Out|p1b: Dondozo
+|-damage|p1b: Dondozo|90/100
+|move|p1a: Rillaboom|Wood Hammer|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|-damage|p1a: Rillaboom|27/100|[from] Recoil
+|cant|p1b: Dondozo|flinch
+|move|p2b: Torkoal|Heat Wave|p1b: Dondozo|[spread] p1a
+|-miss|p2b: Torkoal|p1b: Dondozo
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Dondozo|96/100|[from] Grassy Terrain
+|-heal|p1b: Dondozo|100/100|[from] item: Leftovers
+|-heal|p2b: Torkoal|99/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1756207612
+|move|p1b: Dondozo|Yawn|p2b: Torkoal
+|-start|p2b: Torkoal|move: Yawn|[of] p1b: Dondozo
+|move|p2b: Torkoal|Heat Wave|p1b: Dondozo
+|-resisted|p1b: Dondozo
+|-damage|p1b: Dondozo|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Dondozo|62/100|[from] Grassy Terrain
+|-heal|p1b: Dondozo|68/100|[from] item: Leftovers
+|-heal|p2b: Torkoal|100/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1756207622
+|move|p1b: Dondozo|Protect|p1b: Dondozo
+|-singleturn|p1b: Dondozo|Protect
+|move|p2b: Torkoal|Heat Wave|p1b: Dondozo
+|-activate|p1b: Dondozo|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Dondozo|74/100|[from] Grassy Terrain
+|-heal|p1b: Dondozo|81/100|[from] item: Leftovers
+|-end|p2b: Torkoal|move: Yawn|[silent]
+|-status|p2b: Torkoal|slp
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1756207632
+|move|p1b: Dondozo|Fissure|p2b: Torkoal|[miss]
+|-miss|p1b: Dondozo|p2b: Torkoal
+|cant|p2b: Torkoal|slp
+|
+|-weather|none
+|-heal|p1b: Dondozo|87/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1756207638
+|move|p1b: Dondozo|Fissure|p2b: Torkoal|[miss]
+|-miss|p1b: Dondozo|p2b: Torkoal
+|cant|p2b: Torkoal|slp
+|
+|-heal|p1b: Dondozo|93/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1756207645
+|move|p1b: Dondozo|Fissure|p2b: Torkoal|[miss]
+|-miss|p1b: Dondozo|p2b: Torkoal
+|cant|p2b: Torkoal|slp
+|
+|-heal|p1b: Dondozo|99/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1756207653
+|move|p1b: Dondozo|Fissure|p2b: Torkoal|[miss]
+|-miss|p1b: Dondozo|p2b: Torkoal
+|-curestatus|p2b: Torkoal|slp|[msg]
+|move|p2b: Torkoal|Heat Wave|p1b: Dondozo|[miss]
+|-miss|p2b: Torkoal|p1b: Dondozo
+|
+|-heal|p1b: Dondozo|100/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1756207661
+|move|p1b: Dondozo|Yawn|p2b: Torkoal
+|-start|p2b: Torkoal|move: Yawn|[of] p1b: Dondozo
+|move|p2b: Torkoal|Heat Wave|p1b: Dondozo
+|-resisted|p1b: Dondozo
+|-damage|p1b: Dondozo|67/100
+|
+|-heal|p1b: Dondozo|73/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1756207669
+|move|p1b: Dondozo|Protect|p1b: Dondozo
+|-singleturn|p1b: Dondozo|Protect
+|move|p2b: Torkoal|Heat Wave|p1b: Dondozo
+|-activate|p1b: Dondozo|move: Protect
+|
+|-heal|p1b: Dondozo|79/100|[from] item: Leftovers
+|-end|p2b: Torkoal|move: Yawn|[silent]
+|-status|p2b: Torkoal|slp
+|upkeep
+|turn|19
+|
+|t:|1756207677
+|move|p1b: Dondozo|Fissure|p2b: Torkoal|[miss]
+|-miss|p1b: Dondozo|p2b: Torkoal
+|cant|p2b: Torkoal|slp
+|
+|-heal|p1b: Dondozo|85/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1756207683
+|move|p1b: Dondozo|Fissure|p2b: Torkoal|[miss]
+|-miss|p1b: Dondozo|p2b: Torkoal
+|cant|p2b: Torkoal|slp
+|
+|-heal|p1b: Dondozo|91/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1756207689
+|move|p1b: Dondozo|Fissure|p2b: Torkoal|[miss]
+|-miss|p1b: Dondozo|p2b: Torkoal
+|cant|p2b: Torkoal|slp
+|
+|-heal|p1b: Dondozo|98/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1756207701
+|move|p1b: Dondozo|Fissure|p2b: Torkoal
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|-ohko
+|
+|win|vgc_eon
+|raw|vgc_eon's rating: 1184 → 1199(+15 for winning)
+|raw|Chavo666's rating: 1033 → 1024(-9 for losing)
+|l|☆Chavo666
+|player|p2|

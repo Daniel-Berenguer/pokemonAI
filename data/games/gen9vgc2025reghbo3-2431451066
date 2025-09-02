@@ -1,0 +1,101 @@
+|j|☆fumomarlboro
+|j|☆Quill86
+|html|fumomarlboroQuill86    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756517586
+|gametype|doubles
+|player|p1|fumomarlboro|169|1274
+|player|p2|Quill86|lucas|1238
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|FlashCannon,BodyPress,ElectroShot,Snarl|||F|||50|,,,,,Fighting]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||F|||50|,,,,,Fairy]Pelipper||FocusSash|Drizzle|MuddyWater,Hurricane,Tailwind,Protect|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom||||||50|,,,,,Dark]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,Trick,Protect||||||50|,,,,,Flying
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,TrickRoom,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,WeatherBall,EarthPower,HeatWave|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Protect,HeadlongRush,Facade,Earthquake|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|DazzlingGleam,ExpandingForce,MysticalFire,TrickRoom|||F|||50|,,,,,Fire]Annihilape||ChoiceScarf|Defiant|FinalGambit,CloseCombat,Uturn,RageFist|||M|||50|,,,,,Grass
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fumomarlboro)
+|
+|t:|1756517613
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756517630
+|-terastallize|p1b: Gholdengo|Flying
+|move|p2b: Gallade|Wide Guard|p2b: Gallade
+|-singleturn|p2b: Gallade|Wide Guard
+|move|p1b: Gholdengo|Make It Rain|p2b: Gallade|[spread] 
+|-activate|p2a: Indeedee|move: Wide Guard
+|-activate|p2b: Gallade|move: Wide Guard
+|move|p1a: Ursaluna|Earthquake|p2b: Gallade|[spread] 
+|-activate|p2a: Indeedee|move: Wide Guard
+|-activate|p2b: Gallade|move: Wide Guard
+|-immune|p1b: Gholdengo
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1756517648
+|move|p2a: Indeedee|Helping Hand|p2b: Gallade
+|-singleturn|p2b: Gallade|Helping Hand|[of] p2a: Indeedee
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Gallade|Psycho Cut|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756517655
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|turn|3
+|
+|t:|1756517666
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|move|p1a: Ursaluna|Protect||[still]
+|-fail|p1a: Ursaluna
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Gallade|Sacred Sword|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|fumomarlboro forfeited.
+|
+|win|Quill86
+||fumomarlboro is ready for game 2.
+||fumomarlboro is ready for game 2.
+||Quill86 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆fumomarlboro
+|player|p1|

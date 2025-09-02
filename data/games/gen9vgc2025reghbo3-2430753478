@@ -1,0 +1,142 @@
+|j|☆snailboss
+|j|☆WILLIWONKINEITOR
+|html|snailbossWILLIWONKINEITOR    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756427915
+|gametype|doubles
+|player|p1|snailboss|hilda-wonderlauncher|1135
+|player|p2|WILLIWONKINEITOR|169|1136
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Zoroark-Hisui, L50, F|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Bronzong, L50|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||F|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|IronHead,Protect,SwordsDance,Earthquake|||M|||50|,,,,,Ground]Indeedee-F||SafetyGoggles|PsychicSurge|TrickRoom,FollowMe,Psychic,HelpingHand|||F|||50|,,,,,Fairy]Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,ShadowBall,HyperBeam,Flamethrower|||F|||50|,,,,,Normal]Corviknight||PsychicSeed|MirrorArmor|BraveBird,PowerTrip,BulkUp,Roost|||F|||50|,,,,,Rock]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,Protect,ClearSmog|||M|||50|,,,,,Water
+|showteam|p2|Incineroar||SitrusBerry|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|RagePowder,SunnyDay,Tailwind,SleepPowder|||M|||50|,,,,,Fire]Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,DragonPulse|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Overheat,Eruption,HelpingHand,Protect|||F|||50|,,,,,Fire]Bronzong||MentalHerb|Levitate|GyroBall,TrickRoom,Protect,IceSpinner||||||50|,,,,,Rock
+|
+|t:|1756427943
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Excadrill|Excadrill, L50, M|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2b: Bronzong|Bronzong, L50|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1756427964
+|-terastallize|p1b: Excadrill|Normal
+|move|p2a: Jumpluff|Rage Powder|p2a: Jumpluff
+|-singleturn|p2a: Jumpluff|move: Rage Powder
+|move|p1b: Excadrill|Hyper Voice|p2a: Jumpluff|[spread] p2a,p2b
+|-resisted|p2b: Bronzong
+|-damage|p2a: Jumpluff|29/100
+|-damage|p2b: Bronzong|72/100
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|move|p2b: Bronzong|Trick Room|p2b: Bronzong
+|-fieldend|move: Trick Room
+|
+|upkeep
+|turn|2
+|
+|t:|1756427983
+|move|p1a: Indeedee|Helping Hand|p1b: Excadrill
+|-singleturn|p1b: Excadrill|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Excadrill|Hyper Voice|p2a: Jumpluff|[spread] p2a,p2b
+|-resisted|p2b: Bronzong
+|-damage|p2a: Jumpluff|0 fnt
+|-damage|p2b: Bronzong|32/100
+|faint|p2a: Jumpluff
+|move|p2b: Bronzong|Trick Room|p2b: Bronzong
+|-fieldstart|move: Trick Room|[of] p2b: Bronzong
+|
+|upkeep
+|
+|t:|1756428001
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|3
+|
+|t:|1756428013
+|move|p2b: Bronzong|Ice Spinner|p1a: Indeedee
+|-damage|p1a: Indeedee|80/100
+|-fieldend|move: Psychic Terrain
+|move|p2a: Ursaluna|Earthquake|p1b: Excadrill|[spread] p1a,p1b
+|-immune|p2b: Bronzong|[from] ability: Levitate
+|-damage|p1a: Indeedee|35/100
+|-damage|p1b: Excadrill|4/100
+|replace|p1b: Zoroark|Zoroark-Hisui, L50, F
+|-end|p1b: Zoroark|Illusion
+|move|p1b: Zoroark|Hyper Voice|p2a: Ursaluna|[spread] p2a,p2b
+|-resisted|p2b: Bronzong
+|-damage|p2a: Ursaluna|40/100
+|-damage|p2b: Bronzong|3/100
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldend|move: Trick Room
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1756428032
+|-terastallize|p2a: Ursaluna|Ghost
+|move|p1a: Indeedee|Helping Hand|p1b: Zoroark
+|-singleturn|p1b: Zoroark|Helping Hand|[of] p1a: Indeedee
+|move|p2b: Bronzong|Protect|p2b: Bronzong
+|-singleturn|p2b: Bronzong|Protect
+|move|p1b: Zoroark|Hyper Voice|p2b: Bronzong|[spread] 
+|-activate|p2b: Bronzong|move: Protect
+|-immune|p2a: Ursaluna
+|move|p2a: Ursaluna|Earthquake|p1b: Zoroark|[spread] p1a,p1b
+|-activate|p2b: Bronzong|move: Protect
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Zoroark|0 fnt
+|faint|p1a: Indeedee
+|faint|p1b: Zoroark
+|
+|-damage|p2a: Ursaluna|34/100 brn|[from] brn
+|upkeep
+|
+|t:|1756428042
+|switch|p1b: Excadrill|Excadrill, L50, M|100/100
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|5
+|
+|t:|1756428076
+|move|p2b: Bronzong|Protect||[still]
+|-fail|p2b: Bronzong
+|move|p1b: Excadrill|Iron Head|p2b: Bronzong
+|-resisted|p2b: Bronzong
+|-damage|p2b: Bronzong|0 fnt
+|faint|p2b: Bronzong
+|move|p1a: Tyranitar|Knock Off|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-enditem|p2a: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p1a: Tyranitar
+|faint|p2a: Ursaluna
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|-message|WILLIWONKINEITOR forfeited.
+|raw|snailboss's rating: 1135 → 1160(+25 for winning)
+|raw|WILLIWONKINEITOR's rating: 1136 → 1111(-25 for losing)
+|
+|win|snailboss
+|l|☆WILLIWONKINEITOR
+|player|p2|

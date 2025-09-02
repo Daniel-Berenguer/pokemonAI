@@ -1,0 +1,94 @@
+|j|☆Refanner
+|j|☆killdyl
+|html|Refannerkilldyl    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756473144
+|gametype|doubles
+|player|p1|Refanner|101|1128
+|player|p2|killdyl|falkner-gen2|1007
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Primarina, L50, M|
+|poke|p1|Talonflame, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Dusclops, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Flareon, L50, F|
+|teampreview|4
+|showteam|p1|Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,StompingTantrum,Protect|||M|||50|,,,,,Fire]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Grass]Tyranitar||AssaultVest|SandStream|KnockOff,RockSlide,TeraBlast,LowKick|||F|||50|,,,,,Flying]Gholdengo||Leftovers|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Flying]Primarina||MagoBerry|LiquidVoice|HyperVoice,Moonblast,CalmMind,Protect|||M|||50|,,,,,Poison]Talonflame||CovertCloak|GaleWings|BraveBird,Tailwind,WillOWisp,Taunt|||M|||50|,,,,,Flying
+|showteam|p2|Torkoal||LifeOrb|Drought|SolarBeam,HeatWave,Eruption,Protect|||F|||50|,,,,,Fire]Indeedee-F||SafetyGoggles|PsychicSurge|TrickRoom,HealPulse,Protect,DazzlingGleam|||F|||50|,,,,,Psychic]Amoonguss||RockyHelmet|Regenerator|Spore,RagePowder,PollenPuff,Protect|||M|||50|,,,,,Grass]Dusclops||Eviolite|Pressure|WillOWisp,HelpingHand,Protect,NightShade|||F|||50|,,,,,Steel]Hatterene||ChoiceSpecs|MagicBounce|ExpandingForce,MysticalFire,GigaDrain,Psychic|||F|||50|,,,,,Psychic]Flareon||ToxicOrb|Guts|Protect,FlareBlitz,Facade,Yawn|||F|||50|,,,,,Water
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by killdyl)
+|inactive|Refanner has 60 seconds left.
+|
+|t:|1756473180
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Talonflame|Talonflame, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Hatterene|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|inactive|killdyl has 30 seconds left.
+|
+|t:|1756473210
+|move|p2a: Indeedee|Protect|p2a: Indeedee
+|-singleturn|p2a: Indeedee|Protect
+|move|p1b: Talonflame|Taunt|p2a: Indeedee
+|-activate|p2a: Indeedee|move: Protect
+|move|p1a: Incineroar|Knock Off|p2b: Hatterene
+|-damage|p2b: Hatterene|51/100
+|-enditem|p2b: Hatterene|Choice Specs|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2b: Hatterene|Expanding Force|p1a: Incineroar|[spread] p1b
+|-immune|p1a: Incineroar
+|-damage|p1b: Talonflame|0 fnt
+|faint|p1b: Talonflame
+|
+|upkeep
+|
+|t:|1756473226
+|switch|p1b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|2
+|inactive|Refanner has 30 seconds left.
+|inactive|Refanner has 20 seconds left.
+|
+|t:|1756473263
+|move|p1a: Incineroar|Flare Blitz|p2a: Indeedee
+|-damage|p2a: Indeedee|28/100
+|-damage|p1a: Incineroar|79/100|[from] Recoil
+|move|p1b: Tyranitar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-enditem|p2a: Indeedee|Safety Goggles|[from] move: Knock Off|[of] p1b: Tyranitar
+|faint|p2a: Indeedee
+|move|p2b: Hatterene|Giga Drain|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar
+|-damage|p1b: Tyranitar|75/100
+|-heal|p2b: Hatterene|66/100|[from] drain|[of] p1b: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Incineroar|73/100|[from] Sandstorm
+|-damage|p2b: Hatterene|60/100|[from] Sandstorm
+|upkeep
+|-message|killdyl forfeited.
+|
+|win|Refanner
+|raw|Refanner's rating: 1128 → 1145(+17 for winning)
+|raw|killdyl's rating: 1007 → 1000(-7 for losing)
+|l|☆killdyl
+|player|p2|

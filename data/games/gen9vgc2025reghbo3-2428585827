@@ -1,0 +1,372 @@
+|j|☆raterrien
+|j|☆woodenfish43
+|html|raterrienwoodenfish43    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756160022
+|gametype|doubles
+|player|p1|raterrien|101|1000
+|player|p2|woodenfish43|drayden|1022
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Politoed, L50, F|
+|poke|p1|Gothitelle, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Maushold, L50|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Corviknight, L50, M|
+|poke|p2|Houndstone, L50, F|
+|poke|p2|Vivillon-Monsoon, L50, F|
+|teampreview|4
+|showteam|p1|Politoed||Leftovers|Drizzle|WeatherBall,PerishSong,Encore,Protect|||F|||50|,,,,,Grass]Gothitelle||SitrusBerry|ShadowTag|Psychic,FakeOut,TrickRoom,Protect|||F|||50|,,,,,Dark]Archaludon||PowerHerb|Stamina|ElectroShot,DragonPulse,FlashCannon,Protect|||M|||50|,,,,,Flying]Maushold||CovertCloak|FriendGuard|BeatUp,FollowMe,ThunderWave,Protect||||||50|,,,,,Dark]Annihilape||LifeOrb|Defiant|RageFist,CloseCombat,DrainPunch,Protect|||F|||50|,,,,,Normal]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,KnockOff,Protect|||F|||50|,,,,,Fire
+|showteam|p2|Rillaboom||LifeOrb|GrassySurge|GrassyGlide,WoodHammer,HighHorsepower,FakeOut|||F|||50|,,,,,Fire]Excadrill||ChoiceBand|SandRush|HighHorsepower,IronHead,XScissor,RockSlide|||M|||50|,,,,,Grass]Tyranitar||SafetyGoggles|SandStream|RockSlide,KnockOff,DragonDance,Snarl|||M|||50|,,,,,Bug]Corviknight||Leftovers|MirrorArmor|BodyPress,IronDefense,Taunt,Protect|||M|||50|,,,,,Fire]Houndstone||ClearAmulet|SandRush|LastRespects,Protect,DestinyBond,WillOWisp|||F|||50|,,,,,Ghost]Vivillon-Monsoon||FocusSash|CompoundEyes|SleepPowder,Hurricane,Tailwind,QuiverDance|||F|||50|,,,,,Ghost
+|
+|t:|1756160061
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Politoed|Politoed, L50, F|100/100
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2b: Vivillon|Vivillon-Monsoon, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|t:|1756160081
+|-terastallize|p1a: Politoed|Grass
+|move|p2a: Rillaboom|Fake Out|p1a: Politoed
+|-damage|p1a: Politoed|80/100
+|-damage|p2a: Rillaboom|91/100|[from] item: Life Orb
+|move|p2b: Vivillon|Sleep Powder|p1b: Archaludon
+|-status|p1b: Archaludon|slp|[from] move: Sleep Powder
+|cant|p1b: Archaludon|slp
+|cant|p1a: Politoed|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|97/100|[from] Grassy Terrain
+|-heal|p1a: Politoed|86/100|[from] Grassy Terrain
+|-heal|p1a: Politoed|92/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1756160098
+|move|p2b: Vivillon|Hurricane|p1a: Politoed
+|-supereffective|p1a: Politoed
+|-damage|p1a: Politoed|30/100
+|move|p2a: Rillaboom|High Horsepower|p1b: Archaludon
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|35/100 slp
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|-damage|p2a: Rillaboom|87/100|[from] item: Life Orb
+|cant|p1b: Archaludon|slp
+|move|p1a: Politoed|Encore|p2b: Vivillon
+|-start|p2b: Vivillon|Encore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|94/100|[from] Grassy Terrain
+|-heal|p1b: Archaludon|41/100 slp|[from] Grassy Terrain
+|-heal|p1a: Politoed|36/100|[from] Grassy Terrain
+|-heal|p1a: Politoed|42/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1756160135
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2b: Vivillon|atk|1
+|-curestatus|p1b: Archaludon|slp|[msg]
+|move|p1b: Archaludon|Protect|p1b: Archaludon
+|-singleturn|p1b: Archaludon|Protect
+|move|p2b: Vivillon|Hurricane|p1a: Incineroar
+|-damage|p1a: Incineroar|69/100
+|move|p2a: Rillaboom|Wood Hammer|p1b: Archaludon
+|-activate|p1b: Archaludon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|99/100|[from] Grassy Terrain
+|-heal|p1b: Archaludon|47/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|75/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756160156
+|switch|p2b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|switch|p1b: Politoed|Politoed, L50, F, tera:Grass|42/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Politoed
+|move|p1a: Incineroar|Fake Out|p2a: Rillaboom
+|-damage|p2a: Rillaboom|89/100
+|cant|p2a: Rillaboom|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Rillaboom|95/100|[from] Grassy Terrain
+|-heal|p1b: Politoed|48/100|[from] Grassy Terrain
+|-heal|p1b: Politoed|55/100|[from] item: Leftovers
+|-heal|p1a: Incineroar|81/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756160180
+|-terastallize|p2b: Tyranitar|Bug
+|move|p2a: Rillaboom|High Horsepower|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|21/100
+|-damage|p2a: Rillaboom|85/100|[from] item: Life Orb
+|move|p2b: Tyranitar|Dragon Dance|p2b: Tyranitar
+|-boost|p2b: Tyranitar|atk|1
+|-boost|p2b: Tyranitar|spe|1
+|move|p1b: Politoed|Weather Ball|p2b: Tyranitar
+|-damage|p2b: Tyranitar|57/100
+|move|p1a: Incineroar|Parting Shot|p2b: Tyranitar
+|-unboost|p2b: Tyranitar|atk|1
+|-unboost|p2b: Tyranitar|spa|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by woodenfish43)
+|
+|t:|1756160220
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100|[from] Parting Shot
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Tyranitar|63/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|91/100|[from] Grassy Terrain
+|-heal|p1b: Politoed|61/100|[from] Grassy Terrain
+|-heal|p1b: Politoed|67/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756160238
+|switch|p2a: Houndstone|Houndstone, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|21/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Houndstone|unboost|[from] item: Clear Amulet|[of] p2a: Houndstone
+|-unboost|p2b: Tyranitar|atk|1
+|move|p1a: Annihilape|Close Combat|p2b: Tyranitar
+|-resisted|p2b: Tyranitar
+|-crit|p2b: Tyranitar
+|-damage|p2b: Tyranitar|12/100
+|-unboost|p1a: Annihilape|def|1
+|-unboost|p1a: Annihilape|spd|1
+|-damage|p1a: Annihilape|91/100|[from] item: Life Orb
+|move|p2b: Tyranitar|Dragon Dance|p2b: Tyranitar
+|-boost|p2b: Tyranitar|atk|1
+|-boost|p2b: Tyranitar|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1756160262
+|switch|p2b: Rillaboom|Rillaboom, L50, F|91/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|move|p1a: Annihilape|Protect|p1a: Annihilape
+|-singleturn|p1a: Annihilape|Protect
+|move|p2a: Houndstone|Last Respects|p1a: Annihilape
+|-activate|p1a: Annihilape|move: Protect
+|move|p1b: Incineroar|Knock Off|p2a: Houndstone
+|-supereffective|p2a: Houndstone
+|-damage|p2a: Houndstone|10/100
+|-enditem|p2a: Houndstone|Clear Amulet|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Annihilape|96/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|98/100|[from] Grassy Terrain
+|-heal|p2a: Houndstone|16/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|27/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|inactive|raterrien has 30 seconds left.
+|
+|t:|1756160290
+|switch|p1b: Politoed|Politoed, L50, F, tera:Grass|67/100
+|move|p2a: Houndstone|Protect|p2a: Houndstone
+|-singleturn|p2a: Houndstone|Protect
+|move|p1a: Annihilape|Rage Fist|p2a: Houndstone
+|-activate|p2a: Houndstone|move: Protect
+|move|p2b: Rillaboom|Wood Hammer|p1a: Annihilape
+|-damage|p1a: Annihilape|0 fnt
+|faint|p1a: Annihilape
+|-damage|p2b: Rillaboom|64/100|[from] Recoil
+|-damage|p2b: Rillaboom|54/100|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p2b: Rillaboom|60/100|[from] Grassy Terrain
+|-heal|p2a: Houndstone|22/100|[from] Grassy Terrain
+|-heal|p1b: Politoed|73/100|[from] Grassy Terrain
+|-heal|p1b: Politoed|80/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756160307
+|switch|p1a: Archaludon|Archaludon, L50, M|47/100
+|turn|9
+|
+|t:|1756160322
+|switch|p2b: Tyranitar|Tyranitar, L50, M, tera:Bug|12/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|switch|p1b: Incineroar|Incineroar, L50, F|27/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Houndstone|atk|1
+|-unboost|p2b: Tyranitar|atk|1
+|move|p2a: Houndstone|Destiny Bond|p2a: Houndstone
+|-singlemove|p2a: Houndstone|Destiny Bond
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-enditem|p1a: Archaludon|Power Herb
+|-anim|p1a: Archaludon|Electro Shot|p2b: Tyranitar
+|-damage|p2b: Tyranitar|0 fnt
+|faint|p2b: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p2a: Houndstone|28/100|[from] Grassy Terrain
+|-heal|p1a: Archaludon|53/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|33/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756160341
+|switch|p2b: Vivillon|Vivillon-Monsoon, L50, F|100/100
+|turn|10
+|inactive|raterrien has 30 seconds left.
+|
+|t:|1756160373
+|switch|p2b: Rillaboom|Rillaboom, L50, F|60/100
+|move|p2a: Houndstone|Destiny Bond||[still]
+|-fail|p2a: Houndstone
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|move|p1b: Incineroar|Knock Off|p2a: Houndstone
+|-supereffective|p2a: Houndstone
+|-damage|p2a: Houndstone|0 fnt
+|faint|p2a: Houndstone
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Rillaboom|54/100|[from] Sandstorm
+|-heal|p2b: Rillaboom|60/100|[from] Grassy Terrain
+|-heal|p1a: Archaludon|59/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|39/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756160381
+|switch|p2a: Vivillon|Vivillon-Monsoon, L50, F|100/100
+|turn|11
+|
+|t:|1756160399
+|switch|p1b: Politoed|Politoed, L50, F, tera:Grass|80/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Politoed
+|move|p2a: Vivillon|Hurricane|p1b: Politoed
+|-supereffective|p1b: Politoed
+|-damage|p1b: Politoed|23/100
+|move|p2b: Rillaboom|High Horsepower|p1a: Archaludon
+|-supereffective|p1a: Archaludon
+|-damage|p1a: Archaludon|0 fnt
+|faint|p1a: Archaludon
+|-damage|p2b: Rillaboom|50/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Rillaboom|57/100|[from] Grassy Terrain
+|-heal|p1b: Politoed|30/100|[from] Grassy Terrain
+|-heal|p1b: Politoed|36/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756160414
+|switch|p1a: Incineroar|Incineroar, L50, F|39/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Vivillon|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|turn|12
+|inactive|raterrien has 30 seconds left.
+|
+|t:|1756160446
+|move|p1b: Politoed|Protect|p1b: Politoed
+|-singleturn|p1b: Politoed|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Rillaboom
+|-damage|p2b: Rillaboom|45/100
+|move|p2a: Vivillon|Hurricane|p1b: Politoed
+|-activate|p1b: Politoed|move: Protect
+|cant|p2b: Rillaboom|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Politoed|42/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1756160470
+|move|p1b: Politoed|Protect|p1b: Politoed
+|-singleturn|p1b: Politoed|Protect
+|move|p2a: Vivillon|Hurricane|p1b: Politoed
+|-activate|p1b: Politoed|move: Protect
+|move|p2b: Rillaboom|High Horsepower|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|-damage|p2b: Rillaboom|35/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Politoed|48/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1756160488
+|move|p2a: Vivillon|Quiver Dance|p2a: Vivillon
+|-boost|p2a: Vivillon|spa|1
+|-boost|p2a: Vivillon|spd|1
+|-boost|p2a: Vivillon|spe|1
+|move|p2b: Rillaboom|Wood Hammer|p1b: Politoed
+|-resisted|p1b: Politoed
+|-damage|p1b: Politoed|16/100
+|-damage|p2b: Rillaboom|24/100|[from] Recoil
+|-damage|p2b: Rillaboom|14/100|[from] item: Life Orb
+|move|p1b: Politoed|Perish Song|p1b: Politoed
+|-start|p1b: Politoed|perish3|[silent]
+|-start|p2a: Vivillon|perish3|[silent]
+|-start|p2b: Rillaboom|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Politoed|22/100|[from] item: Leftovers
+|-start|p2a: Vivillon|perish3
+|-start|p2b: Rillaboom|perish3
+|-start|p1b: Politoed|perish3
+|upkeep
+|turn|15
+|
+|t:|1756160509
+|move|p1b: Politoed|Protect|p1b: Politoed
+|-singleturn|p1b: Politoed|Protect
+|move|p2a: Vivillon|Hurricane|p1b: Politoed
+|-activate|p1b: Politoed|move: Protect
+|move|p2b: Rillaboom|Wood Hammer|p1b: Politoed
+|-activate|p1b: Politoed|move: Protect
+|
+|-weather|none
+|-heal|p1b: Politoed|29/100|[from] item: Leftovers
+|-start|p2a: Vivillon|perish2
+|-start|p2b: Rillaboom|perish2
+|-start|p1b: Politoed|perish2
+|upkeep
+|turn|16
+|inactive|raterrien has 30 seconds left.
+|inactive|raterrien has 20 seconds left.
+|
+|t:|1756160545
+|move|p1b: Politoed|Protect||[still]
+|-fail|p1b: Politoed
+|move|p2a: Vivillon|Hurricane|p1b: Politoed
+|-supereffective|p1b: Politoed
+|-damage|p1b: Politoed|0 fnt
+|faint|p1b: Politoed
+|
+|win|woodenfish43
+|raw|raterrien's rating: 1000 → 1000(+0 for losing)
+|raw|woodenfish43's rating: 1022 → 1056(+34 for winning)

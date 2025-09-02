@@ -1,0 +1,226 @@
+|j|☆goldenchimchar
+|j|‽Guy #753
+|html|goldenchimcharGuy #753    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756430458
+|gametype|doubles
+|player|p1|goldenchimchar|hilbert|1072
+|player|p2|Guy #753|170|1069
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Rillaboom||AssaultVest|GrassySurge|GrassyGlide,FakeOut,WoodHammer,Uturn|||F|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,Haze,ExtremeSpeed|||F|||50|,,,,,Fairy]Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,Protect,SwordsDance|||M|||50|,,,,,Ghost]Volcarona||CovertCloak|FlameBody|HeatWave,StruggleBug,RagePowder,Tailwind|||F|||50|,,,,,Fairy]Sneasler||GrassySeed|Unburden|CloseCombat,DireClaw,Protect,ThroatChop|||M|||50|,,,,,Dark]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||M|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||F|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|
+|t:|1756430492
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-enditem|p1b: Sneasler|Grassy Seed
+|-boost|p1b: Sneasler|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1756430557
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1a: Rillaboom|Fake Out|p2b: Indeedee
+|-damage|p2b: Indeedee|73/100
+|move|p1b: Sneasler|Dire Claw|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Protect
+|cant|p2b: Indeedee|flinch
+|
+|-heal|p2b: Indeedee|78/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756430649
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|move|p1b: Sneasler|Throat Chop|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p2a: Sneasler|Dire Claw|p1a: Incineroar
+|-damage|p1a: Incineroar|68/100
+|-status|p1a: Incineroar|par
+|
+|-heal|p1a: Incineroar|74/100 par|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756430669
+|switch|p2b: Volcarona|Volcarona, L50, M|100/100
+|turn|3
+|
+|t:|1756430709
+|move|p1a: Incineroar|Fake Out|p2b: Volcarona
+|-damage|p2b: Volcarona|84/100
+|move|p2a: Sneasler|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Incineroar
+|move|p1b: Sneasler|Dire Claw|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|39/100
+|-status|p2a: Sneasler|slp
+|cant|p2b: Volcarona|flinch
+|
+|-heal|p2a: Sneasler|44/100 slp|[from] Grassy Terrain
+|-heal|p2b: Volcarona|90/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756430724
+|switch|p1a: Dragonite|Dragonite, L50, F|100/100
+|turn|4
+|
+|t:|1756430758
+|cant|p2a: Sneasler|slp
+|move|p1b: Sneasler|Protect|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Protect
+|move|p2b: Volcarona|Tailwind|p2b: Volcarona
+|-sidestart|p2: Guy #753|move: Tailwind
+|move|p1a: Dragonite|Scale Shot|p2a: Sneasler
+|-damage|p2a: Sneasler|8/100 slp
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|-hitcount|p2: Sneasler|2
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p2b: Volcarona|97/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756430776
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|5
+|
+|t:|1756430821
+|-terastallize|p2a: Tyranitar|Flying
+|move|p1a: Dragonite|Protect|p1a: Dragonite
+|-singleturn|p1a: Dragonite|Protect
+|move|p2b: Volcarona|Rage Powder|p2b: Volcarona
+|-singleturn|p2b: Volcarona|move: Rage Powder
+|move|p1b: Sneasler|Dire Claw|p2b: Volcarona
+|-crit|p2b: Volcarona
+|-damage|p2b: Volcarona|14/100
+|-status|p2b: Volcarona|par
+|-enditem|p2b: Volcarona|Sitrus Berry|[eat]
+|-heal|p2b: Volcarona|39/100 par|[from] item: Sitrus Berry
+|move|p2a: Tyranitar|Rock Slide|p1a: Dragonite|[spread] p1b
+|-activate|p1a: Dragonite|move: Protect
+|-resisted|p1b: Sneasler
+|-damage|p1b: Sneasler|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Sneasler|75/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|95/100|[from] Sandstorm
+|-damage|p1a: Dragonite|95/100|[from] Sandstorm
+|-damage|p2b: Volcarona|33/100 par|[from] Sandstorm
+|-heal|p1b: Sneasler|81/100|[from] Grassy Terrain
+|-heal|p2b: Volcarona|39/100 par|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756430889
+|move|p2b: Volcarona|Rage Powder|p2b: Volcarona
+|-singleturn|p2b: Volcarona|move: Rage Powder
+|move|p1b: Sneasler|Dire Claw|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|-status|p1b: Sneasler|brn|[from] ability: Flame Body|[of] p2b: Volcarona
+|faint|p2b: Volcarona
+|move|p2a: Tyranitar|Rock Slide|p1a: Dragonite|[spread] p1a,p1b
+|-supereffective|p1a: Dragonite
+|-resisted|p1b: Sneasler
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1b: Sneasler|63/100 brn
+|faint|p1a: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Sneasler|57/100 brn|[from] Sandstorm
+|-damage|p2a: Tyranitar|89/100|[from] Sandstorm
+|-damage|p1b: Sneasler|51/100 brn|[from] brn
+|upkeep
+|
+|t:|1756430903
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|7
+|
+|t:|1756430915
+|move|p1a: Rillaboom|Fake Out|p2a: Tyranitar
+|-damage|p2a: Tyranitar|77/100
+|move|p1b: Sneasler|Dire Claw|p2a: Tyranitar
+|-damage|p2a: Tyranitar|57/100
+|cant|p2a: Tyranitar|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Sneasler|45/100 brn|[from] Sandstorm
+|-damage|p2a: Tyranitar|51/100|[from] Sandstorm
+|-damage|p1a: Rillaboom|95/100|[from] Sandstorm
+|-heal|p1b: Sneasler|51/100 brn|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|100/100|[from] Grassy Terrain
+|-damage|p1b: Sneasler|45/100 brn|[from] brn
+|-sideend|p2: Guy #753|move: Tailwind
+|upkeep
+|turn|8
+|
+|t:|1756430944
+|-terastallize|p1a: Rillaboom|Fire
+|move|p1b: Sneasler|Protect|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Protect
+|move|p1a: Rillaboom|Wood Hammer|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|15/100
+|-damage|p1a: Rillaboom|89/100|[from] Recoil
+|move|p2a: Tyranitar|Knock Off|p1a: Rillaboom
+|-damage|p1a: Rillaboom|41/100
+|-enditem|p1a: Rillaboom|Assault Vest|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Sneasler|40/100 brn|[from] Sandstorm
+|-damage|p1a: Rillaboom|35/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|9/100|[from] Sandstorm
+|-heal|p1b: Sneasler|45/100 brn|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|41/100|[from] Grassy Terrain
+|-damage|p1b: Sneasler|40/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1756430968
+|move|p1a: Rillaboom|Grassy Glide|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|win|goldenchimchar
+|raw|goldenchimchar's rating: 1072 → 1101(+29 for winning)
+|raw|Guy #753's rating: 1069 → 1049(-20 for losing)

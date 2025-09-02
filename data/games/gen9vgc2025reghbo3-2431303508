@@ -1,0 +1,121 @@
+|j|☆Needels
+|j|☆drogaplut003
+|html|Needelsdrogaplut003    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756498455
+|gametype|doubles
+|player|p1|Needels|eusine|1105
+|player|p2|drogaplut003|2|1238
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Porygon-Z, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Kingambit, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,DragonPulse|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Porygon-Z||LifeOrb|Adaptability|ShadowBall,TriAttack,HyperBeam,Protect||||||50|,,,,,Ghost]Amoonguss||RockyHelmet|Regenerator|SludgeBomb,Spore,RagePowder,Protect|||F|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,HelpingHand,Protect|||M|||50|,,,,,Fairy]Garchomp||ChoiceBand|RoughSkin|Earthquake,StompingTantrum,DragonClaw,PoisonJab|||M|||50|,,,,,Poison]Sneasler||FocusSash|Unburden|DireClaw,CloseCombat,Coaching,Taunt|||F|||50|,,,,,Ghost]Kingambit||AssaultVest|Defiant|KowtowCleave,SuckerPunch,IronHead,LowKick|||F|||50|,,,,,Dark
+|
+|t:|1756498512
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|switch|p1b: Porygon2|Porygon2, L50, shiny|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Porygon-Z|Porygon-Z, L50|100/100
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1756498545
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2b: Porygon-Z|atk|1
+|move|p2a: Sneasler|Close Combat|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1b: Incineroar
+|move|p2b: Porygon-Z|Hyper Beam|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-mustrecharge|p2b: Porygon-Z
+|faint|p1a: Torkoal
+|-damage|p2b: Porygon-Z|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756498559
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p1a: Porygon2|Porygon2, L50, shiny|100/100
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|atk|1
+|turn|2
+|
+|t:|1756498572
+|-terastallize|p1a: Porygon2|Fighting
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2a: Sneasler|Taunt|p1a: Porygon2
+|-start|p1a: Porygon2|move: Taunt
+|cant|p2b: Porygon-Z|recharge
+|cant|p1a: Porygon2|move: Taunt|Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1756498595
+|-terastallize|p2b: Porygon-Z|Ghost
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2a: Sneasler|Close Combat|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|move|p2b: Porygon-Z|Tri Attack|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|move|p1a: Porygon2|Tera Blast|p2b: Porygon-Z|[anim] Tera Blast Fighting
+|-immune|p2b: Porygon-Z
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1756498604
+|move|p2a: Sneasler|Close Combat|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|30/100 brn
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|move|p2b: Porygon-Z|Tri Attack|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|-damage|p2b: Porygon-Z|81/100|[from] item: Life Orb
+|move|p1a: Porygon2|Ice Beam|p2a: Sneasler
+|-damage|p2a: Sneasler|17/100
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Porygon2|move: Taunt
+|upkeep
+|turn|5
+|-message|Needels forfeited.
+|
+|win|drogaplut003

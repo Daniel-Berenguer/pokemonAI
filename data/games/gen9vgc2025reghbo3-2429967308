@@ -1,0 +1,149 @@
+|j|☆PeePooBum
+|j|☆latios66
+|html|PeePooBumlatios66    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756330391
+|gametype|doubles
+|player|p1|PeePooBum|266|1023
+|player|p2|latios66|265|1065
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Arcanine-Hisui, L50, M|
+|poke|p1|Hydrapple, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Milotic, L50, F|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Drifblim, L50, M|
+|poke|p2|Gardevoir, L50, M|
+|poke|p2|Kommo-o, L50, M|
+|poke|p2|Toxtricity, L50, M|
+|poke|p2|Hydreigon, L50, M|
+|teampreview|4
+|showteam|p1|Arcanine-Hisui||ChoiceBand|RockHead|HeadSmash,FlareBlitz,RockSlide,ExtremeSpeed|||M|||50|,,,,,Grass]Hydrapple||AssaultVest|SupersweetSyrup|DracoMeteor,LeafStorm,EarthPower,TeraBlast|||F|||50|,,,,,Steel]Torkoal||EjectPack|Drought|Eruption,Overheat,EarthPower,Protect|||F|||50|,,,,,Fire]Milotic||Leftovers|Competitive|Haze,IceBeam,Recover,DragonCheer|||F|||50|,,,,,Grass]Jumpluff||CovertCloak|Chlorophyll|Tailwind,SleepPowder,PollenPuff,Encore|||F|||50|,,,,,Grass]Farigiraf||ThroatSpray|ArmorTail|HyperVoice,ExpandingForce,TrickRoom,Imprison|||F|||50|,,,,,Dark
+|showteam|p2|Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,Imprison,TrickRoom|||M|||50|,,,,,Ground]Drifblim||PsychicSeed|Unburden|ShadowBall,WillOWisp,StrengthSap,Tailwind|||M|||50|,,,,,Grass]Gardevoir||ChoiceScarf|Telepathy|Moonblast,DazzlingGleam,ExpandingForce,Trick|||M|||50|,,,,,Psychic]Kommo-o||Leftovers|Soundproof|BodyPress,Flamethrower,IronDefense,Protect|||M|||50|,,,,,Fire]Toxtricity||ChoiceSpecs|PunkRock|Overdrive,SludgeBomb,Boomburst,VoltSwitch|||M|||50|,,,,,Normal]Hydreigon||AssaultVest|Levitate|DarkPulse,DracoMeteor,EarthPower,Snarl|||M|||50|,,,,,Ghost
+|
+|t:|1756330432
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Arcanine|Arcanine-Hisui, L50, M|100/100
+|switch|p1b: Jumpluff|Jumpluff, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Gardevoir|Gardevoir, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1756330486
+|move|p2b: Gardevoir|Expanding Force|p1b: Jumpluff|[spread] p1a,p1b
+|-damage|p1a: Arcanine|28/100
+|-damage|p1b: Jumpluff|35/100
+|move|p1b: Jumpluff|Sleep Powder|p2a: Indeedee
+|-status|p2a: Indeedee|slp|[from] move: Sleep Powder
+|cant|p2a: Indeedee|slp
+|move|p1a: Arcanine|Flare Blitz|p2b: Gardevoir
+|-damage|p2b: Gardevoir|0 fnt
+|faint|p2b: Gardevoir
+|
+|upkeep
+|
+|t:|1756330494
+|switch|p2b: Drifblim|Drifblim, L50, M|100/100
+|-enditem|p2b: Drifblim|Psychic Seed
+|-boost|p2b: Drifblim|spd|1|[from] item: Psychic Seed
+|turn|2
+|
+|t:|1756330515
+|-terastallize|p2b: Drifblim|Grass
+|move|p2b: Drifblim|Shadow Ball|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|move|p1b: Jumpluff|Tailwind|p1b: Jumpluff
+|-sidestart|p1: PeePooBum|move: Tailwind
+|-curestatus|p2a: Indeedee|slp|[msg]
+|move|p2a: Indeedee|Expanding Force|p1b: Jumpluff
+|-damage|p1b: Jumpluff|0 fnt
+|faint|p1b: Jumpluff
+|
+|upkeep
+|
+|t:|1756330530
+|switch|p1b: Hydrapple|Hydrapple, L50, F|100/100
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|-ability|p1b: Hydrapple|Supersweet Syrup
+|-unboost|p2a: Indeedee|evasion|1
+|-unboost|p2b: Drifblim|evasion|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|3
+|
+|t:|1756330555
+|-terastallize|p1b: Hydrapple|Steel
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2b: Drifblim|Tailwind|p2b: Drifblim
+|-sidestart|p2: latios66|move: Tailwind
+|move|p2a: Indeedee|Expanding Force|p1b: Hydrapple|[spread] p1b
+|-activate|p1a: Torkoal|move: Protect
+|-resisted|p1b: Hydrapple
+|-damage|p1b: Hydrapple|84/100
+|move|p1b: Hydrapple|Tera Blast|p2a: Indeedee|[anim] Tera Blast Steel
+|-damage|p2a: Indeedee|44/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756330578
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2b: Drifblim|Shadow Ball|p1b: Hydrapple
+|-damage|p1b: Hydrapple|66/100
+|move|p2a: Indeedee|Expanding Force|p1b: Hydrapple|[spread] p1b
+|-activate|p1a: Torkoal|move: Protect
+|-resisted|p1b: Hydrapple
+|-damage|p1b: Hydrapple|47/100
+|move|p1b: Hydrapple|Tera Blast|p2a: Indeedee|[anim] Tera Blast Steel
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756330586
+|switch|p2a: Toxtricity|Toxtricity, L50, M|100/100
+|turn|5
+|
+|t:|1756330607
+|move|p2b: Drifblim|Shadow Ball|p1a: Torkoal
+|-damage|p1a: Torkoal|65/100
+|-unboost|p1a: Torkoal|spd|1
+|move|p2a: Toxtricity|Overdrive|p1b: Hydrapple|[spread] p1a,p1b
+|-damage|p1a: Torkoal|0 fnt
+|-damage|p1b: Hydrapple|10/100
+|faint|p1a: Torkoal
+|move|p1b: Hydrapple|Earth Power|p2a: Toxtricity
+|-supereffective|p2a: Toxtricity
+|-damage|p2a: Toxtricity|0 fnt
+|faint|p2a: Toxtricity
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: PeePooBum|move: Tailwind
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756330627
+|move|p2b: Drifblim|Shadow Ball|p1b: Hydrapple
+|-damage|p1b: Hydrapple|0 fnt
+|faint|p1b: Hydrapple
+|
+|win|latios66
+|raw|PeePooBum's rating: 1023 → 1011(-12 for losing)
+|raw|latios66's rating: 1065 → 1092(+27 for winning)
+|l|☆PeePooBum
+|player|p1|

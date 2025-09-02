@@ -1,0 +1,219 @@
+|j|☆Daniw9
+|j|☆WASHINGTONGARGACHA
+|html|Daniw9WASHINGTONGARGACHA    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756374610
+|gametype|doubles
+|player|p1|Daniw9|2|1118
+|player|p2|WASHINGTONGARGACHA|265|1021
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Delphox, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Blaziken, L50, F|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Garchomp||LifeOrb|SandVeil|Earthquake,StompingTantrum,Protect,DragonClaw|||M|||50|,,,,,Steel]Tyranitar||AssaultVest|SandStream|RockSlide,TeraBlast,KnockOff,LowKick|||M|||50|,,,,,Flying]Delphox||PsychicSeed|Magician|ExpandingForce,HeatWave,TeraBlast,Protect|||F|||50|,,,,,Fairy]Indeedee-F||SafetyGoggles|PsychicSurge|DazzlingGleam,TrickRoom,FollowMe,HelpingHand|||F|||50|,,,,,Water]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,TrickRoom,Protect|||M|||50|,,,,,Grass]Whimsicott||CovertCloak|Prankster|Moonblast,Tailwind,Encore,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Farigiraf||ThroatSpray|ArmorTail|HyperVoice,Psychic,TrickRoom,Protect|||M|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,FakeOut,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,Uturn,WoodHammer|||F|||50|,,,,,Fire]Gholdengo||SitrusBerry|GoodasGold|MakeItRain,NastyPlot,ShadowBall,Protect||||||50|,,,,,Water]Blaziken||FocusSash|SpeedBoost|CloseCombat,FlareBlitz,Protect,SwordsDance|||F|||50|,,,,,Stellar]Sneasler||GrassySeed|Unburden|DireClaw,CloseCombat,Protect,ThroatChop|||M|||50|,,,,,Stellar
+|
+|t:|1756374649
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p2b: Sneasler|Grassy Seed
+|-boost|p2b: Sneasler|def|1|[from] item: Grassy Seed
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1756374665
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Sneasler|Dire Claw|p1a: Indeedee
+|-damage|p1a: Indeedee|59/100
+|-status|p1a: Indeedee|par
+|move|p2a: Rillaboom|U-turn|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|16/100 par
+|
+|t:|1756374674
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100|[from] U-turn
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-fail|p1b: Gallade|unboost|[from] item: Clear Amulet|[of] p1b: Gallade
+|move|p1b: Gallade|Trick Room|p1b: Gallade
+|-fieldstart|move: Trick Room|[of] p1b: Gallade
+|
+|upkeep
+|turn|2
+|
+|t:|1756374692
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|move|p2a: Incineroar|Fake Out|p1b: Gallade
+|-damage|p1b: Gallade|80/100
+|cant|p1b: Gallade|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Gallade|74/100|[from] Sandstorm
+|-damage|p2b: Rillaboom|95/100|[from] Sandstorm
+|-heal|p1b: Gallade|80/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756374720
+|-terastallize|p2a: Incineroar|Ghost
+|-terastallize|p1a: Tyranitar|Flying
+|move|p2b: Rillaboom|Fake Out|p1b: Gallade
+|-damage|p1b: Gallade|60/100
+|move|p2a: Incineroar|Parting Shot|p1b: Gallade
+|-fail|p1b: Gallade|unboost|[from] item: Clear Amulet|[of] p1b: Gallade
+|move|p1a: Tyranitar|Tera Blast|p2b: Rillaboom|[anim] Tera Blast Flying
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|11/100
+|cant|p1b: Gallade|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|95/100|[from] Sandstorm
+|-damage|p1b: Gallade|54/100|[from] Sandstorm
+|-damage|p2b: Rillaboom|6/100|[from] Sandstorm
+|-heal|p1b: Gallade|60/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|11/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756374742
+|move|p1b: Gallade|Protect|p1b: Gallade
+|-singleturn|p1b: Gallade|Protect
+|move|p2a: Incineroar|Parting Shot|p1a: Tyranitar
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|spa|1
+|
+|t:|1756374749
+|switch|p2a: Blaziken|Blaziken, L50, F|100/100|[from] Parting Shot
+|move|p1a: Tyranitar|Knock Off|p2a: Blaziken
+|-resisted|p2a: Blaziken
+|-damage|p2a: Blaziken|73/100
+|-enditem|p2a: Blaziken|Focus Sash|[from] move: Knock Off|[of] p1a: Tyranitar
+|move|p2b: Rillaboom|U-turn|p1b: Gallade
+|-activate|p1b: Gallade|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|89/100|[from] Sandstorm
+|-damage|p1b: Gallade|54/100|[from] Sandstorm
+|-damage|p2a: Blaziken|68/100|[from] Sandstorm
+|-damage|p2b: Rillaboom|6/100|[from] Sandstorm
+|-heal|p1b: Gallade|60/100|[from] Grassy Terrain
+|-heal|p2a: Blaziken|73/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|11/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756374772
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F, tera:Ghost|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1b: Garchomp|atk|1
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Tyranitar|Rock Slide|p2b: Incineroar|[spread] p2b
+|-activate|p2a: Blaziken|move: Protect
+|-damage|p2b: Incineroar|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|83/100|[from] Sandstorm
+|-damage|p2a: Blaziken|68/100|[from] Sandstorm
+|-heal|p2b: Incineroar|92/100|[from] Grassy Terrain
+|-heal|p2a: Blaziken|73/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|6
+|
+|t:|1756374796
+|switch|p1a: Indeedee|Indeedee-F, L50, F|16/100 par
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2b: Incineroar|Fake Out|p1b: Garchomp
+|-activate|p1b: Garchomp|move: Psychic Terrain
+|move|p2a: Blaziken|Swords Dance|p2a: Blaziken
+|-boost|p2a: Blaziken|atk|2
+|move|p1b: Garchomp|Stomping Tantrum|p2a: Blaziken
+|-supereffective|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|-damage|p1b: Garchomp|91/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1756374810
+|switch|p2a: Rillaboom|Rillaboom, L50, F|11/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|7
+|
+|t:|1756374820
+|switch|p1a: Tyranitar|Tyranitar, L50, M, tera:Flying|83/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p2a: Rillaboom|U-turn|p1b: Garchomp
+|-activate|p1b: Garchomp|move: Protect
+|move|p2b: Incineroar|Knock Off|p1b: Garchomp
+|-activate|p1b: Garchomp|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rillaboom|6/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|77/100|[from] Sandstorm
+|-heal|p1b: Garchomp|97/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|11/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|98/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1756374836
+|move|p2a: Rillaboom|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2a: Rillaboom
+|move|p1b: Garchomp|Dragon Claw|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|-damage|p1b: Garchomp|87/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Knock Off|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|-enditem|p2b: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p1a: Tyranitar
+|faint|p2b: Incineroar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|71/100|[from] Sandstorm
+|-heal|p1b: Garchomp|93/100|[from] Grassy Terrain
+|upkeep
+|-message|WASHINGTONGARGACHA forfeited.
+|
+|win|Daniw9
+|l|☆WASHINGTONGARGACHA
+|player|p2|
+||WASHINGTONGARGACHA is ready for game 2.
+||Daniw9 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

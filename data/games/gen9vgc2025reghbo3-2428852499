@@ -1,0 +1,123 @@
+|j|☆Flouflou11345
+|j|☆UnApostrofoRosaVGC
+|html|Flouflou11345UnApostrofoRosaVGC    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756198076
+|gametype|doubles
+|player|p1|Flouflou11345|2|1302
+|player|p2|UnApostrofoRosaVGC|101|1258
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Arcanine-Hisui, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Maushold-Four, L50|
+|teampreview|4
+|showteam|p1|Whimsicott||CovertCloak|Prankster|Tailwind,Encore,SunnyDay,Moonblast|||F|||50|,,,,,Water]Primarina||SitrusBerry|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||F|||50|,,,,,Steel]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,Protect,TrickRoom|||M|||50|,,,,,Fighting]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,EarthPower,HyperVoice,Protect|||M|||50|,,,,,Normal]Arcanine-Hisui||ChoiceBand|Intimidate|FlareBlitz,ExtremeSpeed,CloseCombat,RockSlide|||F|||50|,,,,,Grass
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Armarouge||LifeOrb|FlashFire|ExpandingForce,ArmorCannon,TrickRoom,Protect|||M|||50|,,,,,Grass]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,LowKick,SwordsDance|||M|||50|,,,,,Dark]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HeatWave,Protect|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Maushold-Four||WideLens|Technician|PopulationBomb,Taunt,FollowMe,Protect||||||50|,,,,,Ghost
+|
+|t:|1756198123
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Arcanine|Arcanine-Hisui, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-fail|p2b: Gallade|unboost|[from] item: Clear Amulet|[of] p2b: Gallade
+|turn|1
+|
+|t:|1756198164
+|move|p2b: Gallade|Wide Guard|p2b: Gallade
+|-singleturn|p2b: Gallade|Wide Guard
+|move|p1a: Arcanine|Flare Blitz|p2b: Gallade
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|-damage|p1a: Arcanine|66/100|[from] Recoil
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldend|move: Trick Room
+|
+|upkeep
+|
+|t:|1756198175
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|turn|2
+|
+|t:|1756198189
+|switch|p2b: Armarouge|Armarouge, L50, M|100/100
+|move|p1b: Indeedee|Expanding Force|p2a: Indeedee|[spread] p2a,p2b
+|-resisted|p2a: Indeedee
+|-resisted|p2b: Armarouge
+|-damage|p2a: Indeedee|85/100
+|-damage|p2b: Armarouge|72/100
+|move|p1a: Arcanine|Flare Blitz|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-damage|p1a: Arcanine|38/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1756198200
+|switch|p2a: Kingambit|Kingambit, L50, M|100/100
+|turn|3
+|
+|t:|1756198216
+|switch|p1a: Primarina|Primarina, L50, F|100/100
+|-terastallize|p2a: Kingambit|Dark
+|move|p2a: Kingambit|Kowtow Cleave|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-enditem|p1b: Indeedee|Focus Sash
+|-damage|p1b: Indeedee|1/100
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|move|p2b: Armarouge|Trick Room|p2b: Armarouge
+|-fieldend|move: Trick Room
+|
+|upkeep
+|turn|4
+|
+|t:|1756198247
+|move|p2b: Armarouge|Protect|p2b: Armarouge
+|-singleturn|p2b: Armarouge|Protect
+|move|p1b: Indeedee|Expanding Force|p2a: Kingambit|[spread] 
+|-activate|p2b: Armarouge|move: Protect
+|-immune|p2a: Kingambit
+|move|p1a: Primarina|Hyper Voice|p2a: Kingambit|[spread] p2a
+|-activate|p2b: Armarouge|move: Protect
+|-damage|p2a: Kingambit|64/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|5
+|
+|t:|1756198263
+|move|p1b: Indeedee|Tera Blast|p2a: Kingambit
+|-damage|p2a: Kingambit|31/100
+|move|p1a: Primarina|Hyper Voice|p2b: Armarouge|[spread] p2a,p2b
+|-supereffective|p2b: Armarouge
+|-damage|p2a: Kingambit|0 fnt
+|-damage|p2b: Armarouge|0 fnt
+|faint|p2a: Kingambit
+|faint|p2b: Armarouge
+|
+|win|Flouflou11345

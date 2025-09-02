@@ -1,0 +1,141 @@
+|j|☆Refanner
+|j|☆wade connects
+|html|Refannerwade connects    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756196874
+|gametype|doubles
+|player|p1|Refanner|1|1073
+|player|p2|wade connects|266|1032
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Talonflame, L50, M|
+|poke|p2|Malamar, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Ursaluna-Bloodmoon||LifeOrb|MindsEye|EarthPower,HyperVoice,Protect,BloodMoon|||M|||50|,,,,,Dragon]Amoonguss||SitrusBerry|Regenerator|PollenPuff,RagePowder,Protect,Spore|||M|||50|,,,,,Water]Farigiraf||ThroatSpray|ArmorTail|HyperVoice,Psychic,TrickRoom,Protect|||M|||50|,,,,,Fairy]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,Uturn,SuckerPunch|||F|||50|,,,,,Dragon]Incineroar||SafetyGoggles|Intimidate|KnockOff,FakeOut,PartingShot,WillOWisp|||F|||50|,,,,,Ghost]Talonflame||CovertCloak|GaleWings|DualWingbeat,FlareBlitz,Tailwind,Taunt|||M|||50|,,,,,Flying
+|showteam|p2|Malamar||SafetyGoggles|Contrary|Protect,TrickRoom,Superpower,KnockOff|||F|||50|,,,,,Water]Indeedee-F||PsychicSeed|PsychicSurge|Protect,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|Protect,TrickRoom,ExpandingForce,DazzlingGleam|||F|||50|,,,,,Water]Torkoal||Charcoal|Drought|Protect,Overheat,Eruption,HeatWave|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Protect,Facade,HeadlongRush,SwordsDance|||M|||50|,,,,,Ghost]Lilligant-Hisui||FocusSash|Chlorophyll|AfterYou,SleepPowder,LeafBlade,CloseCombat|||F|||50|,,,,,Ghost
+|
+|t:|1756196924
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756196977
+|move|p1a: Ursaluna|Hyper Voice|p2a: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Indeedee|73/100
+|-damage|p2b: Hatterene|40/100
+|-damage|p1a: Ursaluna|91/100|[from] item: Life Orb
+|move|p1b: Farigiraf|Hyper Voice|p2b: Hatterene|[spread] p2a,p2b
+|-damage|p2a: Indeedee|56/100
+|-damage|p2b: Hatterene|7/100
+|-enditem|p1b: Farigiraf|Throat Spray
+|-boost|p1b: Farigiraf|spa|1|[from] item: Throat Spray
+|move|p2b: Hatterene|Expanding Force|p1a: Ursaluna|[spread] p1a,p1b
+|-resisted|p1b: Farigiraf
+|-damage|p1a: Ursaluna|0 fnt
+|-damage|p1b: Farigiraf|61/100
+|faint|p1a: Ursaluna
+|-damage|p2b: Hatterene|0 fnt|[from] item: Life Orb
+|faint|p2b: Hatterene
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|
+|t:|1756196993
+|switch|p2b: Malamar|Malamar, L50, F, shiny|100/100
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|turn|2
+|
+|t:|1756197023
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Malamar|Knock Off|p1b: Farigiraf
+|-supereffective|p1b: Farigiraf
+|-damage|p1b: Farigiraf|10/100
+|move|p1b: Farigiraf|Hyper Voice|p2b: Malamar|[spread] p2a,p2b
+|-damage|p2a: Indeedee|27/100
+|-damage|p2b: Malamar|55/100
+|
+|upkeep
+|turn|3
+|
+|t:|1756197052
+|move|p1a: Amoonguss|Protect|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|Protect
+|move|p1b: Farigiraf|Protect|p1b: Farigiraf
+|-singleturn|p1b: Farigiraf|Protect
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Malamar|Superpower|p1b: Farigiraf
+|-activate|p1b: Farigiraf|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1756197069
+|-terastallize|p1b: Farigiraf|Fairy
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Amoonguss|Pollen Puff|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|3/100
+|move|p2b: Malamar|Superpower|p1b: Farigiraf
+|-resisted|p1b: Farigiraf
+|-damage|p1b: Farigiraf|0 fnt
+|-boost|p2b: Malamar|atk|1
+|-boost|p2b: Malamar|def|1
+|faint|p1b: Farigiraf
+|
+|upkeep
+|
+|t:|1756197082
+|switch|p1b: Dragapult|Dragapult, L50, F|100/100
+|turn|5
+|
+|t:|1756197119
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Amoonguss|Pollen Puff|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|move|p2b: Malamar|Knock Off|p1b: Dragapult
+|-supereffective|p1b: Dragapult
+|-damage|p1b: Dragapult|0 fnt
+|-enditem|p1b: Dragapult|Choice Band|[from] move: Knock Off|[of] p2b: Malamar
+|faint|p1b: Dragapult
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|-message|Refanner forfeited.
+|
+|win|wade connects
+|raw|Refanner's rating: 1073 → 1050(-23 for losing)
+|raw|wade connects's rating: 1032 → 1071(+39 for winning)
+|l|☆wade connects
+|player|p2|

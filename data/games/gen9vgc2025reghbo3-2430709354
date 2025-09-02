@@ -1,0 +1,105 @@
+|j|☆WASHINGTONGARGACHA
+|j|☆Light 1503
+|html|WASHINGTONGARGACHALight 1503    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756422612
+|gametype|doubles
+|player|p1|WASHINGTONGARGACHA|265|1000
+|player|p2|Light 1503|1|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Blaziken, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Salamence, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|showteam|p1|Farigiraf||ThroatSpray|ArmorTail|HyperVoice,Psychic,TrickRoom,Protect|||M|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,FakeOut,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,Uturn,WoodHammer|||F|||50|,,,,,Fire]Gholdengo||SitrusBerry|GoodasGold|MakeItRain,NastyPlot,ShadowBall,Protect||||||50|,,,,,Water]Blaziken||FocusSash|SpeedBoost|CloseCombat,FlareBlitz,Protect,SwordsDance|||M|||50|,,,,,Stellar]Sneasler||GrassySeed|Unburden|DireClaw,CloseCombat,Protect,ThroatChop|||M|||50|,,,,,Stellar
+|showteam|p2|Archaludon||AssaultVest|Stamina|BodyPress,DracoMeteor,ElectroShot,FlashCannon|||M|||50|,,,,,Steel]Pelipper||FocusSash|Drizzle|WideGuard,Hurricane,WeatherBall,Protect|||M|||50|,,,,,Ghost]Salamence||ChoiceScarf|Intimidate|DracoMeteor,Hurricane,AirSlash,Tailwind|||F|||50|,,,,,Flying]Farigiraf||Leftovers|ArmorTail|TrickRoom,AllySwitch,HyperVoice,Psyshock|||F|||50|,,,,,Normal]Ursaluna-Bloodmoon||LifeOrb|MindsEye|EarthPower,HyperVoice,BloodMoon,Protect|||M|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Fairy
+|
+|t:|1756422645
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2b: Salamence|Salamence, L50, F|100/100
+|-ability|p2b: Salamence|Intimidate|boost
+|-unboost|p1a: Gholdengo|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Farigiraf|atk|1
+|-unboost|p2b: Salamence|atk|1
+|turn|1
+|
+|t:|1756422672
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|move|p2b: Salamence|Air Slash|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|81/100
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p1b: Incineroar|Knock Off|p2a: Archaludon
+|-damage|p2a: Archaludon|75/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|-enditem|p2a: Archaludon|Assault Vest|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|upkeep
+|turn|2
+|
+|t:|1756422699
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|move|p1b: Incineroar|Parting Shot|p2a: Archaludon
+|-unboost|p2a: Archaludon|atk|1
+|-unboost|p2a: Archaludon|spa|1
+|
+|t:|1756422712
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100|[from] Parting Shot
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gholdengo|87/100|[from] Grassy Terrain
+|-heal|p2a: Archaludon|81/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756422737
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|move|p1b: Rillaboom|Wood Hammer|p2b: Farigiraf
+|-damage|p2b: Farigiraf|30/100
+|-damage|p1b: Rillaboom|70/100|[from] Recoil
+|move|p1a: Gholdengo|Shadow Ball|p2a: Archaludon
+|-crit|p2a: Archaludon
+|-damage|p2a: Archaludon|0 fnt
+|faint|p2a: Archaludon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Rillaboom|76/100|[from] Grassy Terrain
+|-heal|p1a: Gholdengo|93/100|[from] Grassy Terrain
+|-heal|p2b: Farigiraf|36/100|[from] Grassy Terrain
+|-heal|p2b: Farigiraf|42/100|[from] item: Leftovers
+|upkeep
+|-message|Light 1503 forfeited.
+|
+|win|WASHINGTONGARGACHA

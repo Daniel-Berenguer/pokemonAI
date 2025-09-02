@@ -1,0 +1,161 @@
+|j|☆sam0el
+|j|☆aceccam56
+|html|sam0elaceccam56    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756593005
+|gametype|doubles
+|player|p1|sam0el|veteran|1160
+|player|p2|aceccam56|169|1038
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Zoroark-Hisui, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Hydreigon, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|showteam|p1|Hatterene||MindPlate|MagicBounce|ExpandingForce,DazzlingGleam,Protect,TrickRoom|||F|||50|,,,,,Fire]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,HelpingHand,TrickRoom,HealPulse|||F|||50|,,,,,Water]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire]Zoroark-Hisui||LifeOrb|Illusion|HyperBeam,ShadowBall,Protect,Flamethrower|||F|||50|,,,,,Stellar]Ursaluna-Bloodmoon||SilkScarf|MindsEye|EarthPower,BloodMoon,HyperVoice,HyperBeam|||M|||50|,,,,,Normal
+|showteam|p2|Hydreigon||SafetyGoggles|Levitate|Snarl,DracoMeteor,Tailwind,Protect|||F|||50|,,,,,Ghost]Garchomp||LoadedDice|RoughSkin|ScaleShot,Earthquake,Protect,StompingTantrum|||F|||50|,,,,,Fire]Amoonguss||CovertCloak|Regenerator|Spore,PollenPuff,RagePowder,ClearSmog|||F|||50|,,,,,Fire]Gholdengo||MetalCoat|GoodasGold|MakeItRain,NastyPlot,ShadowBall,Protect||||||50|,,,,,Flying]Porygon2||Eviolite|Download|TeraBlast,Recover,IceBeam,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|KnockOff,FlareBlitz,FakeOut,PartingShot|||F|||50|,,,,,Grass
+|
+|t:|1756593024
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|spa|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756593054
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|-terastallize|p1a: Hatterene|Stellar
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Hatterene|Hyper Beam|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|move|p2b: Porygon2|Recover||[still]
+|-fail|p2b: Porygon2|heal
+|
+|upkeep
+|turn|2
+|
+|t:|1756593076
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Hatterene|Shadow Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|-damage|p1a: Hatterene|90/100|[from] item: Life Orb
+|move|p2b: Porygon2|Ice Beam|p1b: Indeedee
+|-damage|p1b: Indeedee|74/100
+|-status|p1b: Indeedee|frz
+|
+|upkeep
+|
+|t:|1756593089
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|turn|3
+|
+|t:|1756593107
+|cant|p1b: Indeedee|frz
+|move|p1a: Hatterene|Hyper Beam|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-mustrecharge|p1a: Hatterene
+|faint|p2a: Garchomp
+|-damage|p1a: Hatterene|80/100|[from] item: Life Orb
+|move|p2b: Porygon2|Ice Beam|p1a: Hatterene
+|-damage|p1a: Hatterene|6/100
+|replace|p1a: Zoroark|Zoroark-Hisui, L50, F
+|-end|p1a: Zoroark|Illusion
+|
+|upkeep
+|
+|t:|1756593117
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|turn|4
+|
+|t:|1756593129
+|-terastallize|p2a: Amoonguss|Fire
+|cant|p1a: Zoroark|recharge
+|move|p2b: Porygon2|Ice Beam|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|move|p2a: Amoonguss|Pollen Puff|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|49/100 frz
+|cant|p1b: Indeedee|frz
+|
+|upkeep
+|
+|t:|1756593145
+|switch|p1a: Gallade|Gallade, L50, M|100/100
+|turn|5
+|
+|t:|1756593160
+|move|p2b: Porygon2|Ice Beam|p1a: Gallade
+|-damage|p1a: Gallade|68/100
+|move|p1a: Gallade|Psycho Cut|p2a: Amoonguss
+|-damage|p2a: Amoonguss|25/100
+|move|p2a: Amoonguss|Spore|p1a: Gallade
+|-status|p1a: Gallade|slp|[from] move: Spore
+|cant|p1b: Indeedee|frz
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756593187
+|move|p2b: Porygon2|Ice Beam|p1b: Indeedee
+|-damage|p1b: Indeedee|25/100 frz
+|cant|p1b: Indeedee|frz
+|cant|p1a: Gallade|slp
+|move|p2a: Amoonguss|Pollen Puff|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|3/100 frz
+|
+|upkeep
+|turn|7
+|
+|t:|1756593220
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|-curestatus|p1b: Indeedee|frz|[msg]
+|move|p1b: Indeedee|Heal Pulse|p1a: Hatterene
+|move|p1a: Hatterene|Heal Pulse|p1b: Indeedee|[from] ability: Magic Bounce
+|-heal|p1b: Indeedee|53/100
+|move|p2b: Porygon2|Ice Beam|p1b: Indeedee
+|-damage|p1b: Indeedee|29/100
+|move|p2a: Amoonguss|Spore|p1a: Hatterene
+|move|p1a: Hatterene|Spore|p2a: Amoonguss|[from] ability: Magic Bounce
+|-status|p2a: Amoonguss|slp|[from] move: Spore
+|
+|upkeep
+|turn|8
+|-message|aceccam56 forfeited.
+|
+|win|sam0el
+|l|☆aceccam56
+|player|p2|
+||aceccam56 is ready for game 3.
+|inactive|sam0el has 30 seconds to confirm battle start!
+|inactive|sam0el has 20 seconds to confirm battle start!
+|inactive|sam0el has 10 seconds to confirm battle start!
+||sam0el is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

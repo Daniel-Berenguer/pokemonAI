@@ -1,0 +1,114 @@
+|j|☆Alosson
+|j|☆antinvgc
+|html|Alossonantinvgc    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756586618
+|gametype|doubles
+|player|p1|Alosson|ingo|1027
+|player|p2|antinvgc|2|1008
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Talonflame, L50, M|
+|poke|p2|Electabuzz, L50, F|
+|poke|p2|Hydreigon, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|Acrobatics,DireClaw,CloseCombat,Taunt|||M|||50|,,,,,Flying]Torkoal||AssaultVest|Drought|Eruption,BodyPress,WeatherBall,SolarBeam|||M|||50|,,,,,Grass]Hatterene||CovertCloak|MagicBounce|ExpandingForce,TrickRoom,MysticalFire,Protect|||F|||50|,,,,,Fire]Ursaluna-Bloodmoon||ThroatSpray|MindsEye|HyperVoice,EarthPower,BloodMoon,Protect|||M|||50|,,,,,Normal]Indeedee-F||SafetyGoggles|PsychicSurge|TrickRoom,FollowMe,TeraBlast,HelpingHand|||F|||50|,,,,,Dark]Lilligant-Hisui||FocusSash|Chlorophyll|AfterYou,SolarBlade,HelpingHand,LowKick|||F|||50|,,,,,Ghost
+|showteam|p2|Sneasler||PsychicSeed|Unburden|Protect,CloseCombat,DireClaw,ThroatChop|||M|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,Protect,TrickRoom,HelpingHand|||M|||50|,,,,,Psychic]Ursaluna-Bloodmoon||LifeOrb|MindsEye|Protect,HyperVoice,EarthPower,BloodMoon|||M|||50|,,,,,Normal]Talonflame||CovertCloak|GaleWings|Tailwind,DualWingbeat,Taunt,WillOWisp|||M|||50|,,,,,Stellar]Electabuzz||Eviolite|VitalSpirit|Taunt,FollowMe,Protect,Electroweb|||F|||50|,,,,,Fairy]Hydreigon||ChoiceSpecs|Levitate|HeatWave,DracoMeteor,DarkPulse,Snarl|||M|||50|,,,,,Fire
+|
+|t:|1756586663
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hatterene|Hatterene, L50, F, shiny|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p2a: Electabuzz|Electabuzz, L50, F|100/100
+|switch|p2b: Hydreigon|Hydreigon, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1756586688
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Hydreigon|Dark Pulse|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|6/100
+|move|p2a: Electabuzz|Electroweb|p1b: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Hatterene|85/100
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|
+|t:|1756586698
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|2
+|
+|t:|1756586712
+|-terastallize|p1b: Ursaluna|Normal
+|move|p2a: Electabuzz|Follow Me|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|move: Follow Me
+|move|p1a: Hatterene|Mystical Fire|p2a: Electabuzz
+|-damage|p2a: Electabuzz|76/100
+|-unboost|p2a: Electabuzz|spa|1
+|move|p1b: Ursaluna|Hyper Voice|p2a: Electabuzz|[spread] p2a,p2b
+|-damage|p2a: Electabuzz|37/100
+|-damage|p2b: Hydreigon|45/100
+|-enditem|p1b: Ursaluna|Throat Spray
+|-boost|p1b: Ursaluna|spa|1|[from] item: Throat Spray
+|move|p2b: Hydreigon|Dark Pulse|p1a: Hatterene
+|-damage|p1a: Hatterene|20/100
+|
+|upkeep
+|turn|3
+|
+|t:|1756586736
+|switch|p1a: Torkoal|Torkoal, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Electabuzz|Protect|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|Protect
+|move|p1b: Ursaluna|Hyper Voice|p2a: Electabuzz|[spread] p2b
+|-activate|p2a: Electabuzz|move: Protect
+|-damage|p2b: Hydreigon|0 fnt
+|faint|p2b: Hydreigon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756586740
+|switch|p2b: Talonflame|Talonflame, L50, M|100/100
+|turn|4
+|
+|t:|1756586756
+|move|p2a: Electabuzz|Follow Me|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|move: Follow Me
+|move|p2b: Talonflame|Dual Wingbeat|p1a: Torkoal
+|-activate|p1a: Torkoal|move: Psychic Terrain
+|move|p1a: Torkoal|Eruption|p2a: Electabuzz|[spread] p2a,p2b
+|-resisted|p2b: Talonflame
+|-damage|p2a: Electabuzz|0 fnt
+|-damage|p2b: Talonflame|48/100
+|faint|p2a: Electabuzz
+|move|p1b: Ursaluna|Blood Moon|p2b: Talonflame
+|-damage|p2b: Talonflame|0 fnt
+|faint|p2b: Talonflame
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|antinvgc forfeited.
+|
+|win|Alosson

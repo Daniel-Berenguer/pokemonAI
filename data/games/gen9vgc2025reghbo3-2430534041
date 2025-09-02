@@ -1,0 +1,140 @@
+|j|☆MidoMidori
+|j|☆Vividedenne
+|html|MidoMidoriVividedenne    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756404589
+|gametype|doubles
+|player|p1|MidoMidori|roxanne-gen6|
+|player|p2|Vividedenne|#npl2023|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Tyranitar, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Delphox, L50, F|
+|poke|p2|Maushold, L50|
+|poke|p2|Annihilape, L50, F|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||M|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||F|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|showteam|p2|Whimsicott||CovertCloak|Prankster|Tailwind,Moonblast,Encore,SunnyDay|||M|||50|,,,,,Water]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,Imprison,TrickRoom|||M|||50|,,,,,Fighting]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Delphox||LifeOrb|Blaze|ExpandingForce,HeatWave,TeraBlast,Protect|||F|||50|,,,,,Fighting]Maushold||WideLens|Technician|PopulationBomb,FollowMe,BeatUp,Protect||||||50|,,,,,Normal]Annihilape||AssaultVest|Defiant|FinalGambit,CloseCombat,RageFist,DrainPunch|||F|||50|,,,,,Fire
+|
+|t:|1756404711
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756404756
+|move|p1a: Volcarona|Rage Powder|p1a: Volcarona
+|-singleturn|p1a: Volcarona|move: Rage Powder
+|move|p2b: Sneasler|Dire Claw|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|8/100
+|-status|p1a: Volcarona|psn
+|-enditem|p1a: Volcarona|Sitrus Berry|[eat]
+|-heal|p1a: Volcarona|33/100 psn|[from] item: Sitrus Berry
+|move|p2a: Indeedee|Expanding Force|p1a: Volcarona|[spread] p1a,p1b
+|-damage|p1a: Volcarona|0 fnt
+|-damage|p1b: Ursaluna|26/100
+|faint|p1a: Volcarona
+|move|p1b: Ursaluna|Earth Power|p2b: Sneasler
+|-supereffective|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|-damage|p1b: Ursaluna|16/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756404776
+|switch|p2b: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|2
+|
+|t:|1756404805
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Whimsicott|Sunny Day|p2b: Whimsicott
+|-weather|SunnyDay
+|move|p2a: Indeedee|Expanding Force|p1a: Tyranitar|[spread] 
+|-activate|p1b: Ursaluna|move: Protect
+|-immune|p1a: Tyranitar
+|move|p1a: Tyranitar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-enditem|p2a: Indeedee|Focus Sash
+|-damage|p2a: Indeedee|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756404856
+|-terastallize|p1a: Tyranitar|Flying
+|move|p2b: Whimsicott|Moonblast|p1a: Tyranitar
+|-damage|p1a: Tyranitar|85/100
+|move|p2a: Indeedee|Expanding Force|p1a: Tyranitar|[spread] p1a,p1b
+|-damage|p1a: Tyranitar|50/100
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|move|p1a: Tyranitar|Tera Blast|p2b: Whimsicott|[anim] Tera Blast Flying
+|-supereffective|p2b: Whimsicott
+|-crit|p2b: Whimsicott
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756404864
+|switch|p2b: Delphox|Delphox, L50, F|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|4
+|
+|t:|1756404898
+|move|p1b: Sneasler|Dire Claw|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|move|p2b: Delphox|Expanding Force|p1a: Tyranitar|[spread] p1a,p1b
+|-supereffective|p1b: Sneasler
+|-damage|p1a: Tyranitar|5/100
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|-damage|p2b: Delphox|90/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Tera Blast|p2b: Delphox|[anim] Tera Blast Flying
+|-damage|p2b: Delphox|20/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|c|☆MidoMidori|Gg
+|c|☆Vividedenne|ggwp
+|c|☆MidoMidori|U got me
+|c|☆MidoMidori|Gl in ur future rounds!
+|c|☆Vividedenne|very fun game
+|c|☆Vividedenne|u2!
+|
+|t:|1756404932
+|move|p2b: Delphox|Expanding Force|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|-damage|p2b: Delphox|10/100|[from] item: Life Orb
+|
+|win|Vividedenne

@@ -1,0 +1,142 @@
+|j|‽godbroj
+|j|☆UnApostrofoRosaVGC
+|html|godbrojUnApostrofoRosaVGC    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756158122
+|gametype|doubles
+|player|p1|godbroj|maid|1073
+|player|p2|UnApostrofoRosaVGC|2|1179
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Hitmontop, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Armarouge, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Maushold-Four, L50|
+|teampreview|4
+|showteam|p1|Hitmontop||ClearAmulet|Intimidate|FakeOut,IceSpinner,CloseCombat,WideGuard|||M|||50|,,,,,Dragon]Incineroar||AssaultVest|Intimidate|FakeOut,FlareBlitz,DarkestLariat,Snarl|||M|||50|,,,,,Ghost]Kingambit||BlackGlasses|Defiant|Protect,KowtowCleave,LowKick,TeraBlast|||M|||50|,,,,,Fairy]Sylveon||FairyFeather|Pixilate|Protect,TeraBlast,CalmMind,HyperVoice|||M|||50|,,,,,Ground]Armarouge||LifeOrb|FlashFire|Protect,AuraSphere,ArmorCannon,ExpandingForce|||F|||50|,,,,,Grass]Indeedee-F||SafetyGoggles|PsychicSurge|FollowMe,TrickRoom,DazzlingGleam,HelpingHand|||F|||50|,,,,,Fairy
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Armarouge||LifeOrb|FlashFire|ExpandingForce,ArmorCannon,TrickRoom,Protect|||M|||50|,,,,,Grass]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,LowKick,SwordsDance|||F|||50|,,,,,Dark]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HeatWave,Protect|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Maushold-Four||WideLens|Technician|PopulationBomb,Taunt,FollowMe,Protect||||||50|,,,,,Ghost
+|
+|t:|1756158156
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Armarouge|Armarouge, L50, F, shiny|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756158205
+|move|p1b: Indeedee|Helping Hand|p1a: Armarouge
+|-singleturn|p1a: Armarouge|Helping Hand|[of] p1b: Indeedee
+|move|p2a: Indeedee|Helping Hand|p2b: Gallade
+|-singleturn|p2b: Gallade|Helping Hand|[of] p2a: Indeedee
+|move|p1a: Armarouge|Armor Cannon|p2a: Indeedee
+|-damage|p2a: Indeedee|29/100
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|-damage|p1a: Armarouge|91/100|[from] item: Life Orb
+|move|p2b: Gallade|Psycho Cut|p1a: Armarouge
+|-resisted|p1a: Armarouge
+|-damage|p1a: Armarouge|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1756158227
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-fail|p2b: Gallade|unboost|[from] item: Clear Amulet|[of] p2b: Gallade
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Indeedee|Dazzling Gleam|p2b: Gallade|[spread] p2a,p2b
+|-supereffective|p2b: Gallade
+|-damage|p2a: Indeedee|20/100
+|-damage|p2b: Gallade|74/100
+|move|p2b: Gallade|Trick Room|p2b: Gallade
+|-fieldstart|move: Trick Room|[of] p2b: Gallade
+|
+|upkeep
+|turn|3
+|
+|t:|1756158279
+|-terastallize|p1a: Incineroar|Ghost
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Gallade|Sacred Sword|p1b: Indeedee
+|-damage|p1b: Indeedee|34/100
+|move|p1a: Incineroar|Flare Blitz|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-damage|p1a: Incineroar|94/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1756158286
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|4
+|
+|t:|1756158307
+|switch|p1a: Armarouge|Armarouge, L50, F, shiny|1/100
+|-terastallize|p2a: Torkoal|Fire
+|move|p2a: Torkoal|Eruption|p1a: Armarouge|[spread] p1b
+|-start|p1a: Armarouge|ability: Flash Fire
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p2b: Gallade|Psycho Cut|p1a: Armarouge
+|-resisted|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|faint|p1a: Armarouge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by UnApostrofoRosaVGC)
+|
+|t:|1756158320
+|switch|p1b: Sylveon|Sylveon, L50, M|100/100
+|switch|p1a: Incineroar|Incineroar, L50, M, tera:Ghost|94/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-fail|p2b: Gallade|unboost|[from] item: Clear Amulet|[of] p2b: Gallade
+|turn|5
+|
+|t:|1756158333
+|move|p1b: Sylveon|Protect|p1b: Sylveon
+|-singleturn|p1b: Sylveon|Protect
+|move|p2a: Torkoal|Eruption|p1b: Sylveon|[spread] p1a
+|-activate|p1b: Sylveon|move: Protect
+|-damage|p1a: Incineroar|4/100
+|move|p2b: Gallade|Psycho Cut|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|-message|godbroj forfeited.
+|
+|win|UnApostrofoRosaVGC
+|raw|godbroj's rating: 1073 → 1058(-15 for losing)
+|raw|UnApostrofoRosaVGC's rating: 1179 → 1197(+18 for winning)
+|l|‽godbroj
+|player|p1|

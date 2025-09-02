@@ -1,0 +1,138 @@
+|j|☆TR Setter
+|j|☆nicven
+|html|TR Setternicven    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756238742
+|gametype|doubles
+|player|p1|TR Setter|zinzolin|1219
+|player|p2|nicven|265|1383
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Magmar, L50, F|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|HelpingHand,Psychic,TrickRoom,FollowMe|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,WideGuard,TrickRoom|||M|||50|,,,,,Steel]Annihilape||ChoiceScarf|Defiant|FinalGambit,CloseCombat,RageFist,Uturn|||M|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,Protect,EarthPower|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,LowKick,Protect|||M|||50|,,,,,Dark
+|showteam|p2|Gholdengo||GrassySeed|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|DrumBeating,GrassyGlide,FakeOut,HighHorsepower|||M|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Tailwind,Protect|||F|||50|,,,,,Ground]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,AuroraVeil,IcicleSpear,IcyWind|||M|||50|,,,,,Ghost]Annihilape||SafetyGoggles|Defiant|RageFist,CloseCombat,FinalGambit,Protect|||M|||50|,,,,,Fire]Magmar||Eviolite|FlameBody|HeatWave,ClearSmog,FollowMe,Protect|||F|||50|,,,,,Fairy
+|
+|t:|1756238768
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gallade|Gallade, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Annihilape|Annihilape, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756238793
+|move|p2b: Annihilape|Final Gambit|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p2b: Annihilape
+|faint|p1a: Gallade
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|upkeep
+|
+|t:|1756238808
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p2a: Gholdengo|Grassy Seed
+|-boost|p2a: Gholdengo|def|1|[from] item: Grassy Seed
+|turn|2
+|
+|t:|1756238836
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2b: Rillaboom|Fake Out|p1a: Kingambit
+|-activate|p1a: Kingambit|move: Protect
+|move|p1b: Indeedee|Psychic|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|85/100
+|move|p2a: Gholdengo|Make It Rain|p1b: Indeedee|[spread] p1b
+|-activate|p1a: Kingambit|move: Protect
+|-damage|p1b: Indeedee|49/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|-heal|p1b: Indeedee|55/100|[from] Grassy Terrain
+|-heal|p2a: Gholdengo|91/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756238878
+|-terastallize|p1a: Kingambit|Dark
+|move|p1b: Indeedee|Helping Hand|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Helping Hand|[of] p1b: Indeedee
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Gholdengo
+|-activate|p2a: Gholdengo|move: Protect
+|move|p2b: Rillaboom|High Horsepower|p1a: Kingambit
+|-damage|p1a: Kingambit|79/100
+|
+|-heal|p1a: Kingambit|85/100|[from] Grassy Terrain
+|-heal|p1b: Indeedee|62/100|[from] Grassy Terrain
+|-heal|p2a: Gholdengo|97/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756238914
+|-terastallize|p2a: Gholdengo|Water
+|move|p2b: Rillaboom|Grassy Glide|p1a: Kingambit
+|-damage|p1a: Kingambit|62/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Gholdengo
+|-damage|p2a: Gholdengo|42/100
+|move|p1b: Indeedee|Psychic|p2a: Gholdengo
+|-damage|p2a: Gholdengo|12/100
+|move|p2a: Gholdengo|Make It Rain|p1b: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Kingambit|0 fnt
+|-damage|p1b: Indeedee|19/100
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Kingambit
+|
+|-heal|p1b: Indeedee|25/100|[from] Grassy Terrain
+|-heal|p2a: Gholdengo|17/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756238923
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|turn|5
+|c|☆TR Setter|gg
+|
+|t:|1756238938
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p2b: Rillaboom|Drum Beating|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldend|move: Trick Room
+|
+|-heal|p2a: Gholdengo|23/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|-message|TR Setter forfeited.
+|
+|win|nicven
+|raw|TR Setter's rating: 1219 → 1205(-14 for losing)
+|raw|nicven's rating: 1383 → 1394(+11 for winning)

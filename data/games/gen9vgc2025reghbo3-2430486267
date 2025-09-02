@@ -1,0 +1,366 @@
+|j|☆Cogao vascaino
+|j|☆quecle
+|html|Cogao vascainoquecle    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756400008
+|gametype|doubles
+|player|p1|Cogao vascaino|dancer|1277
+|player|p2|quecle|gambler|1242
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Maushold, L50|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Kingdra, L50, F|
+|poke|p2|Politoed, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|showteam|p1|Maushold||SafetyGoggles|FriendGuard|BeatUp,FollowMe,Taunt,Protect||||||50|,,,,,Ghost]Sinistcha||RockyHelmet|Hospitality|MatchaGotcha,RagePowder,LifeDew,TrickRoom||||||50|,,,,,Fairy]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Stellar]Annihilape||Leftovers|Defiant|DrainPunch,RageFist,BulkUp,Protect|||F|||50|,,,,,Fire]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,AquaJet,LastRespects,FlipTurn|||M|||50|,,,,,Water]Archaludon||AssaultVest|Stamina|BodyPress,DracoMeteor,ElectroShot,FlashCannon|||M|||50|,,,,,Fighting
+|showteam|p2|Archaludon||PowerHerb|Sturdy|Protect,ElectroShot,FlashCannon,DragonPulse|||M|||50|,,,,,Electric]Kingdra||LifeOrb|SwiftSwim|Protect,DracoMeteor,WeatherBall,MuddyWater|||F|||50|,,,,,Stellar]Politoed||Leftovers|Drizzle|Protect,WeatherBall,PerishSong,Encore|||M|||50|,,,,,Grass]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Protect|||M|||50|,,,,,Ghost]Gothitelle||SitrusBerry|ShadowTag|Protect,Psychic,FakeOut,TrickRoom|||F|||50|,,,,,Dark]Amoonguss||EjectButton|Regenerator|Protect,RagePowder,Spore,PollenPuff|||F|||50|,,,,,Fairy
+|
+|t:|1756400034
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Maushold|Maushold, L50|100/100
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100
+|switch|p2a: Kingdra|Kingdra, L50, F|100/100
+|switch|p2b: Politoed|Politoed, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Politoed
+|turn|1
+|
+|t:|1756400069
+|-terastallize|p2a: Kingdra|Stellar
+|move|p1a: Maushold|Protect|p1a: Maushold
+|-singleturn|p1a: Maushold|Protect
+|move|p2a: Kingdra|Weather Ball|p1a: Maushold
+|-activate|p1a: Maushold|move: Protect
+|move|p1b: Annihilape|Rage Fist|p2a: Kingdra
+|-damage|p2a: Kingdra|74/100
+|move|p2b: Politoed|Encore|p1b: Annihilape
+|-start|p1b: Annihilape|Encore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756400112
+|move|p2a: Kingdra|Weather Ball|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|-damage|p2a: Kingdra|64/100|[from] item: Life Orb
+|move|p1b: Annihilape|Rage Fist|p2a: Kingdra
+|-damage|p2a: Kingdra|36/100
+|move|p2b: Politoed|Perish Song|p2b: Politoed
+|-start|p1b: Annihilape|perish3|[silent]
+|-start|p2a: Kingdra|perish3|[silent]
+|-start|p2b: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Kingdra|perish3
+|-start|p1b: Annihilape|perish3
+|-start|p2b: Politoed|perish3
+|upkeep
+|
+|t:|1756400125
+|switch|p1a: Sinistcha|Sinistcha, L50|100/100
+|turn|3
+|
+|t:|1756400151
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|move|p2a: Kingdra|Protect|p2a: Kingdra
+|-singleturn|p2a: Kingdra|Protect
+|move|p2b: Politoed|Perish Song|p2b: Politoed
+|-start|p1a: Sinistcha|perish3|[silent]
+|-start|p1b: Basculegion|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Sinistcha|Matcha Gotcha|p2b: Politoed|[spread] 
+|-activate|p2a: Kingdra|move: Protect
+|-miss|p1a: Sinistcha|p2b: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Kingdra|perish2
+|-start|p1b: Basculegion|perish3
+|-start|p2b: Politoed|perish2
+|-start|p1a: Sinistcha|perish3
+|upkeep
+|turn|4
+|
+|t:|1756400181
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|move|p1b: Basculegion|Flip Turn|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|76/100
+|-enditem|p2a: Amoonguss|Eject Button
+|
+|t:|1756400193
+|switch|p2a: Kingdra|Kingdra, L50, F, tera:Stellar|36/100
+|move|p2b: Politoed|Weather Ball|p1a: Sinistcha
+|-resisted|p1a: Sinistcha
+|-damage|p1a: Sinistcha|80/100
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Kingdra|[spread] p2a,p2b
+|-supereffective|p2b: Politoed
+|-damage|p2a: Kingdra|6/100
+|-heal|p1a: Sinistcha|93/100|[from] drain|[of] p2a: Kingdra
+|-damage|p2b: Politoed|67/100
+|-heal|p1a: Sinistcha|100/100|[from] drain|[of] p2b: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Politoed|73/100|[from] item: Leftovers
+|-start|p1b: Basculegion|perish2
+|-start|p2b: Politoed|perish1
+|-start|p1a: Sinistcha|perish2
+|upkeep
+|turn|5
+|
+|t:|1756400233
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100
+|move|p2a: Kingdra|Protect|p2a: Kingdra
+|-singleturn|p2a: Kingdra|Protect
+|move|p1b: Basculegion|Flip Turn|p2a: Kingdra
+|-activate|p2a: Kingdra|move: Protect
+|
+|-weather|none
+|-start|p1b: Basculegion|perish1
+|upkeep
+|turn|6
+|
+|t:|1756400286
+|switch|p2a: Politoed|Politoed, L50, M|73/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1b: Basculegion|Flip Turn|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|37/100
+|
+|t:|1756400293
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100|[from] Flip Turn
+|move|p1a: Annihilape|Bulk Up|p1a: Annihilape
+|-boost|p1a: Annihilape|atk|1
+|-boost|p1a: Annihilape|def|1
+|move|p2b: Amoonguss|Spore|p1a: Annihilape
+|-status|p1a: Annihilape|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|43/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1756400319
+|switch|p2a: Gothitelle|Gothitelle, L50, F|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|cant|p1a: Annihilape|slp
+|move|p2b: Amoonguss|Pollen Puff|p1b: Basculegion
+|-resisted|p1b: Basculegion
+|-damage|p1b: Basculegion|90/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1756400367
+|cant|p1a: Annihilape|slp
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1b: Basculegion|Flip Turn|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|76/100
+|
+|t:|1756400370
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100|[from] Flip Turn
+|move|p2a: Gothitelle|Trick Room|p2a: Gothitelle
+|-fieldstart|move: Trick Room|[of] p2a: Gothitelle
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1756400394
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Gothitelle|Psychic|p1a: Annihilape
+|-supereffective|p1a: Annihilape
+|-damage|p1a: Annihilape|42/100 slp
+|move|p1b: Sinistcha|Life Dew||[still]|[spread] p1a,p1b
+|-heal|p1a: Annihilape|66/100 slp
+|-fail|p1b: Sinistcha|heal
+|cant|p1a: Annihilape|slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Annihilape|73/100 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1756400411
+|-curestatus|p1a: Annihilape|slp|[msg]
+|move|p1a: Annihilape|Protect|p1a: Annihilape
+|-singleturn|p1a: Annihilape|Protect
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p2a: Gothitelle|Psychic|p1a: Annihilape
+|-activate|p1a: Annihilape|move: Protect
+|move|p1b: Sinistcha|Trick Room|p1b: Sinistcha
+|-fieldend|move: Trick Room
+|
+|-weather|none
+|-heal|p1a: Annihilape|79/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1756400429
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1a: Annihilape|Rage Fist|p2b: Amoonguss
+|-damage|p2b: Amoonguss|23/100
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Gothitelle|[spread] p2a,p2b
+|-resisted|p2b: Amoonguss
+|-damage|p2a: Gothitelle|81/100
+|-damage|p2b: Amoonguss|17/100
+|move|p2a: Gothitelle|Psychic|p1a: Annihilape
+|-supereffective|p1a: Annihilape
+|-damage|p1a: Annihilape|18/100
+|
+|-heal|p1a: Annihilape|24/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1756400475
+|switch|p2b: Kingdra|Kingdra, L50, F, tera:Stellar|6/100
+|move|p1b: Sinistcha|Rage Powder|p1b: Sinistcha
+|-singleturn|p1b: Sinistcha|move: Rage Powder
+|move|p1a: Annihilape|Rage Fist|p2b: Kingdra
+|-damage|p2b: Kingdra|0 fnt
+|faint|p2b: Kingdra
+|move|p2a: Gothitelle|Trick Room|p2a: Gothitelle
+|-fieldstart|move: Trick Room|[of] p2a: Gothitelle
+|
+|-heal|p1a: Annihilape|30/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756400485
+|switch|p2b: Amoonguss|Amoonguss, L50, F|50/100
+|turn|13
+|
+|t:|1756400505
+|move|p1a: Annihilape|Protect|p1a: Annihilape
+|-singleturn|p1a: Annihilape|Protect
+|move|p2b: Amoonguss|Spore|p1a: Annihilape
+|-activate|p1a: Annihilape|move: Protect
+|move|p2a: Gothitelle|Psychic|p1b: Sinistcha
+|-damage|p1b: Sinistcha|73/100
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Gothitelle|[spread] p2a,p2b
+|-resisted|p2b: Amoonguss
+|-damage|p2a: Gothitelle|62/100
+|-heal|p1b: Sinistcha|83/100|[from] drain|[of] p2a: Gothitelle
+|-damage|p2b: Amoonguss|45/100
+|-heal|p1b: Sinistcha|86/100|[from] drain|[of] p2b: Amoonguss
+|
+|-heal|p1a: Annihilape|36/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1756400557
+|-terastallize|p1a: Annihilape|Fire
+|move|p2b: Amoonguss|Spore|p1a: Annihilape
+|-status|p1a: Annihilape|slp|[from] move: Spore
+|move|p2a: Gothitelle|Psychic|p1b: Sinistcha
+|-damage|p1b: Sinistcha|60/100
+|move|p1b: Sinistcha|Life Dew|p1b: Sinistcha|[spread] p1a,p1b
+|-heal|p1a: Annihilape|61/100 slp
+|-heal|p1b: Sinistcha|85/100
+|cant|p1a: Annihilape|slp
+|
+|-heal|p1a: Annihilape|67/100 slp|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1756400577
+|move|p2b: Amoonguss|Pollen Puff|p2a: Gothitelle
+|-heal|p2a: Gothitelle|100/100
+|move|p2a: Gothitelle|Psychic|p1b: Sinistcha
+|-damage|p1b: Sinistcha|58/100
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Gothitelle|[spread] p2a,p2b
+|-resisted|p2b: Amoonguss
+|-crit|p2b: Amoonguss
+|-damage|p2a: Gothitelle|83/100
+|-heal|p1b: Sinistcha|66/100|[from] drain|[of] p2a: Gothitelle
+|-damage|p2b: Amoonguss|38/100
+|-heal|p1b: Sinistcha|72/100|[from] drain|[of] p2b: Amoonguss
+|-status|p2b: Amoonguss|brn
+|-curestatus|p1a: Annihilape|slp|[msg]
+|move|p1a: Annihilape|Rage Fist|p2a: Gothitelle
+|-supereffective|p2a: Gothitelle
+|-crit|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|faint|p2a: Gothitelle
+|
+|-heal|p1a: Annihilape|73/100|[from] item: Leftovers
+|-damage|p2b: Amoonguss|32/100 brn|[from] brn
+|upkeep
+|
+|t:|1756400586
+|switch|p2a: Politoed|Politoed, L50, M|43/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|16
+|
+|t:|1756400604
+|move|p1a: Annihilape|Protect|p1a: Annihilape
+|-singleturn|p1a: Annihilape|Protect
+|move|p2b: Amoonguss|Pollen Puff|p2a: Politoed
+|-heal|p2a: Politoed|92/100
+|move|p1b: Sinistcha|Matcha Gotcha|p2b: Amoonguss|[spread] p2a,p2b
+|-supereffective|p2a: Politoed
+|-resisted|p2b: Amoonguss
+|-damage|p2a: Politoed|55/100
+|-heal|p1b: Sinistcha|93/100|[from] drain|[of] p2a: Politoed
+|-damage|p2b: Amoonguss|26/100 brn
+|-heal|p1b: Sinistcha|96/100|[from] drain|[of] p2b: Amoonguss
+|move|p2a: Politoed|Weather Ball|p1b: Sinistcha
+|-resisted|p1b: Sinistcha
+|-damage|p1b: Sinistcha|77/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Politoed|61/100|[from] item: Leftovers
+|-heal|p1a: Annihilape|79/100|[from] item: Leftovers
+|-damage|p2b: Amoonguss|20/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|17
+|c|☆Cogao vascaino|Gg
+|
+|t:|1756400636
+|move|p1b: Sinistcha|Rage Powder|p1b: Sinistcha
+|-singleturn|p1b: Sinistcha|move: Rage Powder
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1a: Annihilape|Rage Fist|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|move|p2a: Politoed|Weather Ball|p1b: Sinistcha
+|-resisted|p1b: Sinistcha
+|-damage|p1b: Sinistcha|56/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Annihilape|85/100|[from] item: Leftovers
+|-heal|p2a: Politoed|67/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|c|☆quecle|gg
+|-message|quecle forfeited.
+|
+|win|Cogao vascaino
+|raw|Cogao vascaino's rating: 1277 → 1299(+22 for winning)
+|raw|quecle's rating: 1242 → 1220(-22 for losing)
+|l|☆quecle
+|player|p2|

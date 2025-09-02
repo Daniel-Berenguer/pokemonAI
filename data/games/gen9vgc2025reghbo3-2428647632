@@ -1,0 +1,146 @@
+|j|☆takeshivgc-test
+|j|☆Volanr
+|html|takeshivgc-testVolanr    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756167282
+|gametype|doubles
+|player|p1|takeshivgc-test|266|1311
+|player|p2|Volanr|veteranf|1300
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Armarouge, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Armarouge||PowerHerb|FlashFire|ArmorCannon,ExpandingForce,TrickRoom,MeteorBeam|||F|||50|,,,,,Grass]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,TrickRoom,FollowMe|||F|||50|,,,,,Fairy]Torkoal||Charcoal|Drought|Eruption,Protect,WeatherBall,HeatWave|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,MysticalFire|||F|||50|,,,,,Fire
+|showteam|p2|Archaludon||AssaultVest|Stamina|BodyPress,Snarl,ElectroShot,FlashCannon|||M|||50|,,,,,Grass]Sinistcha-Masterpiece||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,LifeDew||||||50|,,,,,Dark]Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,Tailwind,Haze|||M|||50|,,,,,Steel]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Ground]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,TeraBlast,ShadowBall,Trick||||||50|,,,,,Water
+|
+|t:|1756167332
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F, shiny|100/100
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|switch|p2b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756167376
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|-terastallize|p1b: Hatterene|Fire
+|move|p2a: Archaludon|Snarl|p1b: Hatterene|[spread] p1a,p1b
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|83/100
+|-damage|p1b: Hatterene|87/100
+|-unboost|p1a: Ursaluna|spa|1
+|-unboost|p1b: Hatterene|spa|1
+|move|p2b: Sinistcha|Matcha Gotcha|p1b: Hatterene|[spread] p1a,p1b
+|-supereffective|p1a: Ursaluna
+|-resisted|p1b: Hatterene
+|-damage|p1a: Ursaluna|37/100
+|-damage|p1b: Hatterene|73/100
+|-status|p1a: Ursaluna|brn
+|move|p1b: Hatterene|Expanding Force|p2b: Sinistcha|[spread] p2a,p2b
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|79/100
+|-damage|p2b: Sinistcha|46/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|-enditem|p2b: Sinistcha|Sitrus Berry|[eat]
+|-heal|p2b: Sinistcha|71/100|[from] item: Sitrus Berry
+|-damage|p1b: Hatterene|64/100|[from] item: Life Orb
+|
+|-damage|p1a: Ursaluna|31/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1756167399
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Archaludon|Snarl|p1a: Ursaluna|[spread] 
+|-activate|p1a: Ursaluna|move: Protect
+|-miss|p2a: Archaludon|p1b: Hatterene
+|move|p2b: Sinistcha|Matcha Gotcha|p1a: Ursaluna|[spread] p1b
+|-activate|p1a: Ursaluna|move: Protect
+|-resisted|p1b: Hatterene
+|-damage|p1b: Hatterene|51/100
+|-heal|p2b: Sinistcha|77/100|[from] drain|[of] p1b: Hatterene
+|move|p1b: Hatterene|Trick Room|p1b: Hatterene
+|-fieldstart|move: Trick Room|[of] p1b: Hatterene
+|
+|-damage|p1a: Ursaluna|25/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1756167421
+|move|p2b: Sinistcha|Rage Powder|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|move: Rage Powder
+|move|p1b: Hatterene|Mystical Fire|p2b: Sinistcha
+|-supereffective|p2b: Sinistcha
+|-damage|p2b: Sinistcha|9/100
+|-unboost|p2b: Sinistcha|spa|1
+|-damage|p1b: Hatterene|41/100|[from] item: Life Orb
+|move|p1a: Ursaluna|Facade|p2b: Sinistcha
+|-immune|p2b: Sinistcha
+|move|p2a: Archaludon|Snarl|p1b: Hatterene|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|14/100 brn
+|-damage|p1b: Hatterene|28/100
+|-unboost|p1a: Ursaluna|spa|1
+|-unboost|p1b: Hatterene|spa|1
+|
+|-damage|p1a: Ursaluna|9/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1756167449
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Sinistcha|Rage Powder|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|move: Rage Powder
+|move|p1b: Hatterene|Dazzling Gleam|p2a: Archaludon|[spread] p2a,p2b
+|-damage|p2a: Archaludon|62/100
+|-damage|p2b: Sinistcha|0 fnt
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|faint|p2b: Sinistcha
+|-damage|p1b: Hatterene|19/100|[from] item: Life Orb
+|move|p2a: Archaludon|Snarl|p1b: Hatterene|[spread] p1b
+|-activate|p1a: Ursaluna|move: Protect
+|-damage|p1b: Hatterene|5/100
+|-unboost|p1b: Hatterene|spa|1
+|
+|-damage|p1a: Ursaluna|3/100 brn|[from] brn
+|upkeep
+|
+|t:|1756167459
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|5
+|-message|takeshivgc-test forfeited.
+|
+|win|Volanr
+||takeshivgc-test is ready for game 2.
+||Volanr is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆Volanr
+|player|p2|
+|l|☆takeshivgc-test
+|player|p1|
+|j|☆Volanr
+|player|p2|Volanr|veteranf|

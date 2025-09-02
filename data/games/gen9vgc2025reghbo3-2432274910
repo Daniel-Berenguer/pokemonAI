@@ -1,0 +1,183 @@
+|j|☆Beeetch
+|j|☆Tlayer4002
+|html|BeeetchTlayer4002    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756639792
+|gametype|doubles
+|player|p1|Beeetch|beauty-gen4dp|1322
+|player|p2|Tlayer4002|1|1227
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Toedscruel, L50, F|
+|poke|p1|Weezing-Galar, L50, F|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Pawmot, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Typhlosion-Hisui, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Toedscruel||CovertCloak|MyceliumMight|Spore,EarthPower,AcidSpray,RagePowder|||F|||50|,,,,,Water]Weezing-Galar||ChoiceSpecs|NeutralizingGas|DazzlingGleam,SludgeBomb,StrangeSteam,Flamethrower|||F|||50|,,,,,Flying]Corviknight||SitrusBerry|MirrorArmor|Protect,Tailwind,Roost,BraveBird|||F|||50|,,,,,Dragon]Pawmot||FocusSash|NaturalCure|Protect,CloseCombat,DoubleShock,FakeOut|||M|||50|,,,,,Electric]Garchomp||LifeOrb|RoughSkin|Protect,Earthquake,DragonClaw,StompingTantrum|||F|||50|,,,,,Ground]Typhlosion-Hisui||ChoiceScarf|Blaze|Eruption,SleepTalk,HeatWave,ShadowBall|||M|||50|,,,,,Fire
+|showteam|p2|Annihilape||PsychicSeed|Defiant|DrainPunch,RageFist,BulkUp,Protect|||F|||50|,,,,,Water]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,Trick,HyperVoice,TeraBlast|||M|||50|,,,,,Fighting]Amoonguss||SitrusBerry|Regenerator|PollenPuff,RagePowder,ClearSmog,Spore|||M|||50|,,,,,Water]Ninetales-Alola||LightClay|SnowWarning|Blizzard,AuroraVeil,Encore,Protect|||F|||50|,,,,,Steel]Volcarona||Leftovers|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||M|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,Uturn,FakeOut|||M|||50|,,,,,Ghost
+|
+|t:|1756639841
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Corviknight|Corviknight, L50, F|100/100
+|switch|p1b: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|switch|p2a: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p2b: Volcarona|Volcarona, L50, M|100/100
+|turn|1
+|
+|t:|1756639882
+|-terastallize|p1a: Corviknight|Dragon
+|-terastallize|p2a: Amoonguss|Water
+|move|p2b: Volcarona|Protect|p2b: Volcarona
+|-singleturn|p2b: Volcarona|Protect
+|move|p1b: Typhlosion|Shadow Ball|p2a: Amoonguss
+|-damage|p2a: Amoonguss|66/100
+|-unboost|p2a: Amoonguss|spd|1
+|move|p1a: Corviknight|Brave Bird|p2a: Amoonguss
+|-damage|p2a: Amoonguss|23/100
+|-enditem|p2a: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2a: Amoonguss|48/100|[from] item: Sitrus Berry
+|-damage|p1a: Corviknight|85/100|[from] Recoil
+|move|p2a: Amoonguss|Spore|p1a: Corviknight
+|-status|p1a: Corviknight|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1756639899
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1b: Typhlosion|Shadow Ball|p2a: Indeedee
+|-immune|p2a: Indeedee
+|move|p2b: Volcarona|Quiver Dance|p2b: Volcarona
+|-boost|p2b: Volcarona|spa|1
+|-boost|p2b: Volcarona|spd|1
+|-boost|p2b: Volcarona|spe|1
+|cant|p1a: Corviknight|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1756639921
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|move|p2a: Indeedee|Expanding Force|p1b: Garchomp|[spread] p1a,p1b
+|-damage|p1a: Corviknight|31/100 slp
+|-damage|p1b: Garchomp|36/100
+|-enditem|p1a: Corviknight|Sitrus Berry|[eat]
+|-heal|p1a: Corviknight|56/100 slp|[from] item: Sitrus Berry
+|move|p2b: Volcarona|Tera Blast|p1a: Corviknight
+|-damage|p1a: Corviknight|19/100 slp
+|-curestatus|p1a: Corviknight|slp|[msg]
+|move|p1a: Corviknight|Brave Bird|p2b: Volcarona
+|-supereffective|p2b: Volcarona
+|-damage|p2b: Volcarona|4/100
+|-damage|p1a: Corviknight|0 fnt|[from] Recoil
+|faint|p1a: Corviknight
+|
+|-heal|p2b: Volcarona|10/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756639938
+|switch|p1a: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|turn|4
+|
+|t:|1756639966
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Typhlosion|atk|1
+|-unboost|p1b: Garchomp|atk|1
+|move|p2b: Volcarona|Protect|p2b: Volcarona
+|-singleturn|p2b: Volcarona|Protect
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p1a: Typhlosion|Heat Wave|p2b: Volcarona|[spread] p2a
+|-activate|p2b: Volcarona|move: Protect
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|85/100
+|
+|-heal|p2b: Volcarona|16/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1756639982
+|switch|p1b: Pawmot|Pawmot, L50, M|100/100
+|move|p1a: Typhlosion|Heat Wave|p2b: Volcarona|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|68/100
+|-damage|p2b: Volcarona|0 fnt
+|faint|p2b: Volcarona
+|move|p2a: Incineroar|Knock Off|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|-enditem|p1a: Typhlosion|Choice Scarf|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1a: Typhlosion
+|
+|upkeep
+|
+|t:|1756639992
+|switch|p1a: Garchomp|Garchomp, L50, F|36/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M, tera:Water|81/100
+|turn|6
+|
+|t:|1756640016
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1b: Pawmot|Double Shock|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|-start|p1b: Pawmot|typechange|???/Fighting|[from] move: Double Shock
+|faint|p2b: Amoonguss
+|move|p1a: Garchomp|Stomping Tantrum|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|-damage|p1a: Garchomp|27/100|[from] item: Life Orb
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756640025
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|7
+|
+|t:|1756640041
+|move|p1b: Pawmot|Protect|p1b: Pawmot
+|-singleturn|p1b: Pawmot|Protect
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2b: Indeedee|Expanding Force|p1b: Pawmot|[spread] 
+|-activate|p1a: Garchomp|move: Protect
+|-activate|p1b: Pawmot|move: Protect
+|
+|upkeep
+|turn|8
+|
+|t:|1756640052
+|move|p2b: Indeedee|Expanding Force|p1a: Garchomp|[spread] p1a,p1b
+|-supereffective|p1b: Pawmot
+|-damage|p1a: Garchomp|0 fnt
+|-enditem|p1b: Pawmot|Focus Sash
+|-damage|p1b: Pawmot|1/100
+|faint|p1a: Garchomp
+|move|p1b: Pawmot|Close Combat|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-unboost|p1b: Pawmot|def|1
+|-unboost|p1b: Pawmot|spd|1
+|faint|p2b: Indeedee
+|
+|win|Beeetch
+||Tlayer4002 is ready for game 3.

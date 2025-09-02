@@ -1,0 +1,162 @@
+|j|☆gaboP2
+|j|☆Kurolax
+|html|gaboP2Kurolax    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756423159
+|gametype|doubles
+|player|p1|gaboP2|1|1078
+|player|p2|Kurolax|102|1120
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Arcanine-Hisui, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Dragonite, L50, F|
+|teampreview|4
+|showteam|p1|Volcarona||SitrusBerry|FlameBody|HeatWave,QuiverDance,Protect,GigaDrain|||M|||50|,,,,,Grass]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Dark]Arcanine-Hisui||ClearAmulet|Intimidate|ExtremeSpeed,FlareBlitz,RockSlide,CloseCombat|||F|||50|,,,,,Normal]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,LowKick,Protect|||M|||50|,,,,,Steel]Amoonguss||RockyHelmet|EffectSpore|Spore,RagePowder,SludgeBomb,Protect|||M|||50|,,,,,Psychic]Whimsicott||FocusSash|Prankster|Tailwind,Taunt,SunnyDay,Moonblast|||F|||50|,,,,,Fairy
+|showteam|p2|Volcarona||GrassySeed|FlameBody|QuiverDance,HeatWave,TeraBlast,BugBuzz|||M|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||F|||50|,,,,,Flying]Rillaboom||MiracleSeed|GrassySurge|KnockOff,Uturn,GrassyGlide,FakeOut|||M|||50|,,,,,Grass]Primarina||SitrusBerry|LiquidVoice|HyperVoice,Moonblast,CalmMind,Protect|||M|||50|,,,,,Poison]Sneasler||WhiteHerb|Unburden|DireClaw,FakeOut,ThroatChop,CloseCombat|||M|||50|,,,,,Dark]Dragonite||ClearAmulet|Multiscale|Tailwind,Haze,StompingTantrum,IceSpinner|||F|||50|,,,,,Fairy
+|
+|t:|1756423220
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jimcarona|Volcarona, L50, M|100/100
+|switch|p1b: Amongos|Amoonguss, L50, M, shiny|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Volcarona|Volcarona, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p2b: Volcarona|Grassy Seed
+|-boost|p2b: Volcarona|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1756423266
+|move|p2a: Rillaboom|Fake Out|p1a: Jimcarona
+|-damage|p1a: Jimcarona|84/100
+|move|p2b: Volcarona|Heat Wave|p1b: Amongos|[spread] p1a,p1b
+|-supereffective|p1b: Amongos
+|-damage|p1a: Jimcarona|54/100
+|-damage|p1b: Amongos|34/100
+|cant|p1a: Jimcarona|flinch
+|move|p1b: Amongos|Spore|p2b: Volcarona
+|-status|p2b: Volcarona|slp|[from] move: Spore
+|
+|-heal|p1a: Jimcarona|60/100|[from] Grassy Terrain
+|-heal|p1b: Amongos|40/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756423298
+|cant|p2b: Volcarona|slp
+|move|p1a: Jimcarona|Quiver Dance|p1a: Jimcarona
+|-boost|p1a: Jimcarona|spa|1
+|-boost|p1a: Jimcarona|spd|1
+|-boost|p1a: Jimcarona|spe|1
+|move|p2a: Rillaboom|Knock Off|p1a: Jimcarona
+|-damage|p1a: Jimcarona|21/100
+|-enditem|p1a: Jimcarona|Sitrus Berry|[from] move: Knock Off|[of] p2a: Rillaboom
+|move|p1b: Amongos|Sludge Bomb|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|36/100
+|
+|-heal|p1a: Jimcarona|28/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|42/100|[from] Grassy Terrain
+|-heal|p1b: Amongos|46/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756423326
+|switch|p1b: Arcanino|Arcanine-Hisui, L50, F|100/100
+|-ability|p1b: Arcanino|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2b: Volcarona|atk|1
+|move|p2a: Rillaboom|Grassy Glide|p1a: Jimcarona
+|-resisted|p1a: Jimcarona
+|-damage|p1a: Jimcarona|19/100
+|move|p1a: Jimcarona|Heat Wave|p2a: Rillaboom|[spread] p2a,p2b
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-damage|p2b: Volcarona|57/100 slp
+|faint|p2a: Rillaboom
+|cant|p2b: Volcarona|slp
+|
+|-heal|p1a: Jimcarona|25/100|[from] Grassy Terrain
+|-heal|p2b: Volcarona|63/100 slp|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756423333
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|turn|4
+|
+|t:|1756423348
+|switch|p1a: Amongos|Amoonguss, L50, M, shiny|46/100
+|move|p2a: Sneasler|Close Combat|p1b: Arcanino
+|-supereffective|p1b: Arcanino
+|-damage|p1b: Arcanino|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1b: Arcanino
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|-curestatus|p2b: Volcarona|slp|[msg]
+|move|p2b: Volcarona|Heat Wave|p1a: Amongos
+|-supereffective|p1a: Amongos
+|-damage|p1a: Amongos|0 fnt
+|faint|p1a: Amongos
+|
+|-heal|p2b: Volcarona|69/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756423370
+|switch|p1b: ElKing|Kingambit, L50, F, shiny|100/100
+|switch|p1a: Jimcarona|Volcarona, L50, M|25/100
+|turn|5
+|
+|t:|1756423421
+|-terastallize|p1b: ElKing|Dark
+|move|p1b: ElKing|Sucker Punch|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|50/100
+|move|p2a: Sneasler|Close Combat|p1b: ElKing
+|-supereffective|p1b: ElKing
+|-damage|p1b: ElKing|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1b: ElKing
+|move|p2b: Volcarona|Heat Wave|p1a: Jimcarona|[miss]
+|-miss|p2b: Volcarona|p1a: Jimcarona
+|move|p1a: Jimcarona|Quiver Dance|p1a: Jimcarona
+|-boost|p1a: Jimcarona|spa|1
+|-boost|p1a: Jimcarona|spd|1
+|-boost|p1a: Jimcarona|spe|1
+|
+|-heal|p2a: Sneasler|55/100|[from] Grassy Terrain
+|-heal|p1a: Jimcarona|32/100|[from] Grassy Terrain
+|-heal|p2b: Volcarona|75/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756423453
+|switch|p2b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|move|p2a: Sneasler|Dire Claw|p1a: Jimcarona
+|-damage|p1a: Jimcarona|0 fnt
+|faint|p1a: Jimcarona
+|
+|win|Kurolax
+||gaboP2 is ready for game 2.
+|inactive|Kurolax has 30 seconds to confirm battle start!
+||Kurolax is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

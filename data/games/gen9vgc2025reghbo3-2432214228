@@ -1,0 +1,160 @@
+|j|☆LPTesting1
+|j|☆dr_sugus_vgc
+|html|LPTesting1dr_sugus_vgc    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756627074
+|gametype|doubles
+|player|p1|LPTesting1|102|1132
+|player|p2|dr_sugus_vgc|170|1113
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Maushold, L50|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Corviknight, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Sinistcha, L50|
+|teampreview|4
+|showteam|p1|Maushold||SafetyGoggles|FriendGuard|BeatUp,Taunt,FollowMe,Protect||||||50|,,,,,Ghost]Annihilape||Leftovers|Defiant|RageFist,DrainPunch,BulkUp,Protect|||M|||50|,,,,,Grass]Sinistcha||RockyHelmet|Hospitality|MatchaGotcha,LifeDew,TrickRoom,RagePowder||||||50|,,,,,Water]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,WideGuard|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|ElectroShot,DragonPulse,FlashCannon,BodyPress|||M|||50|,,,,,Grass]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Grass
+|showteam|p2|Tyranitar||AssaultVest|SandStream|RockSlide,LowKick,TeraBlast,KnockOff|||F|||50|,,,,,Flying]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Roost,Tailwind|||F|||50|,,,,,Dragon]Garchomp||ClearAmulet|RoughSkin|PoisonJab,StompingTantrum,SwordsDance,Protect|||F|||50|,,,,,Steel]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Primarina||ThroatSpray|LiquidVoice|Moonblast,HyperVoice,Haze,Protect|||F|||50|,,,,,Poison]Sinistcha||RockyHelmet|Hospitality|MatchaGotcha,RagePowder,TrickRoom,Protect||||||50|,,,,,Rock
+|
+|t:|1756627123
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Maushold|Maushold, L50|100/100
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|switch|p2a: Corviknight|Corviknight, L50, F|100/100
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|turn|1
+|
+|t:|1756627153
+|-terastallize|p1b: Annihilape|Grass
+|move|p1a: Maushold|Beat Up|p1b: Annihilape
+|-damage|p1b: Annihilape|99/100
+|-damage|p1b: Annihilape|97/100
+|-damage|p1b: Annihilape|95/100
+|-damage|p1b: Annihilape|93/100
+|-hitcount|p1b: Annihilape|4
+|move|p2b: Garchomp|Poison Jab|p1b: Annihilape
+|-supereffective|p1b: Annihilape
+|-damage|p1b: Annihilape|50/100
+|move|p1b: Annihilape|Rage Fist|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-heal|p1b: Annihilape|57/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756627182
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|2
+|
+|t:|1756627220
+|move|p1a: Maushold|Follow Me|p1a: Maushold
+|-singleturn|p1a: Maushold|move: Follow Me
+|move|p2b: Garchomp|Poison Jab|p1a: Maushold
+|-damage|p1a: Maushold|61/100
+|-status|p1a: Maushold|psn
+|move|p1b: Annihilape|Rage Fist|p2b: Garchomp
+|-damage|p2b: Garchomp|0 fnt
+|-damage|p1b: Annihilape|44/100|[from] ability: Rough Skin|[of] p2b: Garchomp
+|faint|p2b: Garchomp
+|move|p2a: Tyranitar|Rock Slide|p1b: Annihilape|[spread] p1a,p1b
+|-damage|p1a: Maushold|23/100 psn
+|-damage|p1b: Annihilape|22/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Annihilape|15/100|[from] Sandstorm
+|-heal|p1b: Annihilape|22/100|[from] item: Leftovers
+|-damage|p1a: Maushold|10/100 psn|[from] psn
+|upkeep
+|
+|t:|1756627238
+|switch|p2b: Primarina|Primarina, L50, F|100/100
+|turn|3
+|
+|t:|1756627281
+|-terastallize|p2a: Tyranitar|Flying
+|move|p1a: Maushold|Protect|p1a: Maushold
+|-singleturn|p1a: Maushold|Protect
+|move|p1b: Annihilape|Protect|p1b: Annihilape
+|-singleturn|p1b: Annihilape|Protect
+|move|p2b: Primarina|Protect|p2b: Primarina
+|-singleturn|p2b: Primarina|Protect
+|move|p2a: Tyranitar|Rock Slide|p1a: Maushold|[spread] 
+|-activate|p1a: Maushold|move: Protect
+|-activate|p1b: Annihilape|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Annihilape|15/100|[from] Sandstorm
+|-damage|p2b: Primarina|95/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|95/100|[from] Sandstorm
+|-heal|p1b: Annihilape|22/100|[from] item: Leftovers
+|-damage|p1a: Maushold|0 fnt|[from] psn
+|faint|p1a: Maushold
+|upkeep
+|
+|t:|1756627302
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|4
+|
+|t:|1756627313
+|move|p1a: Pelipper|Wide Guard|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Wide Guard
+|move|p1b: Annihilape|Rage Fist|p2b: Primarina
+|-damage|p2b: Primarina|0 fnt
+|faint|p2b: Primarina
+|move|p2a: Tyranitar|Tera Blast|p1b: Annihilape|[anim] Tera Blast Flying
+|-supereffective|p1b: Annihilape
+|-damage|p1b: Annihilape|0 fnt
+|faint|p1b: Annihilape
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756627320
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|turn|5
+|
+|t:|1756627341
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|14/100
+|move|p1a: Pelipper|Tailwind|p1a: Pelipper
+|-sidestart|p1: LPTesting1|move: Tailwind
+|move|p2a: Tyranitar|Low Kick|p1b: Archaludon
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|55/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1756627359
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|win|LPTesting1

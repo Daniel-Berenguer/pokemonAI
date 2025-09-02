@@ -1,0 +1,146 @@
+|j|☆Kurolax
+|j|☆Erikdactyl
+|html|KurolaxErikdactyl    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756317147
+|gametype|doubles
+|player|p1|Kurolax|266|1005
+|player|p2|Erikdactyl|gambler|1047
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Gastrodon-East, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Ninetales-Alola, L50, M|
+|teampreview|4
+|showteam|p1|Volcarona||GrassySeed|FlameBody|QuiverDance,HeatWave,TeraBlast,BugBuzz|||M|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Rillaboom||MiracleSeed|GrassySurge|WoodHammer,Uturn,GrassyGlide,FakeOut|||F|||50|,,,,,Grass]Primarina||SitrusBerry|LiquidVoice|HyperVoice,Moonblast,CalmMind,Protect|||F|||50|,,,,,Poison]Sneasler||WhiteHerb|Unburden|DireClaw,FakeOut,ThroatChop,CloseCombat|||M|||50|,,,,,Dark]Dragonite||ClearAmulet|Multiscale|Tailwind,Haze,StompingTantrum,ExtremeSpeed|||M|||50|,,,,,Normal
+|showteam|p2|Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||F|||50|,,,,,Fairy]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,FlareBlitz|||M|||50|,,,,,Ghost]Gastrodon-East||CovertCloak|StormDrain|IceBeam,EarthPower,Recover,Protect|||M|||50|,,,,,Fairy]Amoonguss||SitrusBerry|Regenerator|RagePowder,Spore,ClearSmog,PollenPuff|||M|||50|,,,,,Water]Ninetales-Alola||LightClay|SnowWarning|Blizzard,Moonblast,AuroraVeil,Protect|||M|||50|,,,,,Ground
+|
+|t:|1756317171
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1b: Volcarona|Volcarona, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Dragonite|Dragonite, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-enditem|p1b: Volcarona|Grassy Seed
+|-boost|p1b: Volcarona|def|1|[from] item: Grassy Seed
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Volcarona|atk|1
+|turn|1
+|
+|t:|1756317210
+|-terastallize|p1b: Volcarona|Fairy
+|-terastallize|p2a: Incineroar|Ghost
+|move|p1a: Rillaboom|Fake Out|p2a: Incineroar
+|-immune|p2a: Incineroar
+|move|p1b: Volcarona|Tera Blast|p2b: Dragonite|[anim] Tera Blast Fairy
+|-supereffective|p2b: Dragonite
+|-damage|p2b: Dragonite|64/100
+|move|p2b: Dragonite|Haze|p2b: Dragonite
+|-clearallboost
+|move|p2a: Incineroar|Flare Blitz|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-damage|p2a: Incineroar|69/100|[from] Recoil
+|
+|-heal|p2a: Incineroar|75/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756317219
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|turn|2
+|
+|t:|1756317250
+|move|p1a: Sneasler|Throat Chop|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|15/100
+|-start|p2a: Incineroar|Throat Chop|[silent]
+|move|p1b: Volcarona|Quiver Dance|p1b: Volcarona
+|-boost|p1b: Volcarona|spa|1
+|-boost|p1b: Volcarona|spd|1
+|-boost|p1b: Volcarona|spe|1
+|move|p2b: Dragonite|Scale Shot|p1a: Sneasler
+|-damage|p1a: Sneasler|75/100
+|-damage|p1a: Sneasler|51/100
+|-damage|p1a: Sneasler|26/100
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|-hitcount|p1: Sneasler|4
+|-unboost|p2b: Dragonite|def|1
+|-boost|p2b: Dragonite|spe|1
+|cant|p2a: Incineroar|move: Throat Chop
+|
+|-heal|p2a: Incineroar|21/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756317259
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|3
+|
+|t:|1756317295
+|move|p1b: Volcarona|Tera Blast|p2b: Dragonite|[anim] Tera Blast Fairy
+|-supereffective|p2b: Dragonite
+|-damage|p2b: Dragonite|0 fnt
+|faint|p2b: Dragonite
+|move|p1a: Tyranitar|Knock Off|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-enditem|p2a: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p1a: Tyranitar
+|faint|p2a: Incineroar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Volcarona|94/100|[from] Sandstorm
+|-heal|p1b: Volcarona|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756317308
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|4
+|
+|t:|1756317320
+|move|p1b: Volcarona|Heat Wave|p2b: Gholdengo|[spread] p2a
+|-miss|p1b: Volcarona|p2b: Gholdengo
+|-supereffective|p2a: Ninetales
+|-crit|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|move|p2b: Gholdengo|Make It Rain|p1b: Volcarona|[spread] p1a,p1b
+|-supereffective|p1a: Tyranitar
+|-supereffective|p1b: Volcarona
+|-damage|p1a: Tyranitar|42/100
+|-damage|p1b: Volcarona|21/100
+|-unboost|p2b: Gholdengo|spa|1
+|-damage|p2b: Gholdengo|91/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Knock Off|p2b: Gholdengo
+|-supereffective|p2b: Gholdengo
+|-damage|p2b: Gholdengo|0 fnt
+|-enditem|p2b: Gholdengo|Life Orb|[from] move: Knock Off|[of] p1a: Tyranitar
+|faint|p2b: Gholdengo
+|
+|win|Kurolax
+|l|☆Erikdactyl
+|player|p2|
+||Erikdactyl is ready for game 3.
+|inactive|Kurolax has 30 seconds to confirm battle start!
+||Kurolax is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

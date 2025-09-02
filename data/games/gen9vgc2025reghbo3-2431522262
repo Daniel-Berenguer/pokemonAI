@@ -1,0 +1,189 @@
+|j|☆BlackStag52
+|j|☆Mortipherus
+|html|BlackStag52Mortipherus    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756527487
+|gametype|doubles
+|player|p1|BlackStag52|battlegirl-gen4|1096
+|player|p2|Mortipherus|biker-gen4|1105
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p2|Hydrapple, L50, M|
+|poke|p2|Arcanine-Hisui, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Electabuzz, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, F|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,HelpingHand,HyperVoice|||F|||50|,,,,,Fairy]Hatterene||LifeOrb|MagicBounce|ExpandingForce,TrickRoom,DazzlingGleam,MysticalFire|||F|||50|,,,,,Fire]Torkoal||ChoiceSpecs|Drought|Eruption,Overheat,WeatherBall,EarthPower|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,Protect,SwordsDance|||F|||50|,,,,,Psychic]Gallade||ClearAmulet|Sharpness|SacredSword,TrickRoom,PsychoCut,WideGuard|||M|||50|,,,,,Dark]Annihilape||ChoiceScarf|Defiant|FinalGambit,Uturn,HelpingHand,Taunt|||F|||50|,,,,,Fighting
+|showteam|p2|Hydrapple||AssaultVest|Regenerator|FickleBeam,EnergyBall,EarthPower,BreakingSwipe|||M|||50|,,,,,Ground]Arcanine-Hisui||ClearAmulet|Intimidate|Protect,ExtremeSpeed,FlareBlitz,RockSlide|||M|||50|,,,,,Grass]Gholdengo||LifeOrb|GoodasGold|Protect,NastyPlot,MakeItRain,ShadowBall||||||50|,,,,,Flying]Electabuzz||Eviolite|VitalSpirit|Protect,FollowMe,Taunt,Electroweb|||F|||50|,,,,,Dragon]Indeedee||FocusSash|PsychicSurge|Protect,TrickRoom,ExpandingForce,TeraBlast|||M|||50|,,,,,Ground]Sneasler||PsychicSeed|Unburden|Protect,ThroatChop,DireClaw,CloseCombat|||F|||50|,,,,,Dark
+|
+|t:|1756527525
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Arcanine|Arcanine-Hisui, L50, M|100/100
+|-ability|p2b: Arcanine|Intimidate|boost
+|-unboost|p1a: Hatterene|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756527547
+|switch|p1a: Kingambit|Kingambit, L50, F|100/100
+|move|p2b: Arcanine|Rock Slide|p1b: Indeedee|[spread] p1b
+|-miss|p2b: Arcanine|p1a: Kingambit
+|-damage|p1b: Indeedee|77/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Kingambit|[spread] p1a,p1b
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|71/100
+|-damage|p1b: Indeedee|35/100
+|-unboost|p2a: Gholdengo|spa|1
+|-damage|p2a: Gholdengo|91/100|[from] item: Life Orb
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1756527573
+|switch|p2a: Hydrapple|Hydrapple, L50, M|100/100
+|move|p1b: Indeedee|Helping Hand|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Helping Hand|[of] p1b: Indeedee
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Arcanine
+|-damage|p2b: Arcanine|0 fnt
+|faint|p2b: Arcanine
+|
+|upkeep
+|
+|t:|1756527584
+|switch|p2b: Gholdengo|Gholdengo, L50|91/100
+|turn|3
+|
+|t:|1756527616
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Hydrapple|Earth Power|p1b: Indeedee
+|-damage|p1b: Indeedee|12/100
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Gholdengo
+|-activate|p2b: Gholdengo|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1756527642
+|-terastallize|p2b: Gholdengo|Flying
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Hydrapple|Earth Power|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Gholdengo
+|-damage|p2b: Gholdengo|32/100
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|
+|upkeep
+|
+|t:|1756527653
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|5
+|
+|t:|1756527669
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1b: Torkoal|Eruption|p2b: Gholdengo|[spread] p2a
+|-activate|p2b: Gholdengo|move: Protect
+|-damage|p2a: Hydrapple|33/100
+|move|p2a: Hydrapple|Earth Power|p1b: Torkoal
+|-supereffective|p1b: Torkoal
+|-damage|p1b: Torkoal|11/100
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Gholdengo
+|-activate|p2b: Gholdengo|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756527698
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Hydrapple|Earth Power|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|7/100
+|-unboost|p1a: Kingambit|spd|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1756527727
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2b: Indeedee|Tera Blast|p1a: Kingambit
+|-activate|p1a: Kingambit|move: Protect
+|move|p2a: Hydrapple|Earth Power|p1b: Hatterene
+|-damage|p1b: Hatterene|65/100
+|move|p1b: Hatterene|Trick Room|p1b: Hatterene
+|-fieldstart|move: Trick Room|[of] p1b: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1756527749
+|switch|p2a: Gholdengo|Gholdengo, L50, tera:Flying|32/100
+|move|p1b: Hatterene|Dazzling Gleam|p2a: Gholdengo|[spread] p2a,p2b
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|-damage|p2b: Indeedee|34/100
+|faint|p2a: Gholdengo
+|-damage|p1b: Hatterene|55/100|[from] item: Life Orb
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756527757
+|switch|p2a: Hydrapple|Hydrapple, L50, M|66/100
+|turn|9
+|
+|t:|1756527767
+|move|p1b: Hatterene|Dazzling Gleam|p2a: Hydrapple
+|-supereffective|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|-damage|p1b: Hatterene|46/100|[from] item: Life Orb
+|
+|win|BlackStag52
+|raw|BlackStag52's rating: 1096 → 1122(+26 for winning)
+|raw|Mortipherus's rating: 1105 → 1079(-26 for losing)
+|c|☆BlackStag52|gg

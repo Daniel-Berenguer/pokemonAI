@@ -1,0 +1,116 @@
+|j|☆LookBackInBanger
+|j|☆Linkeval
+|html|LookBackInBangerLinkeval    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756514801
+|gametype|doubles
+|player|p1|LookBackInBanger|mina|1047
+|player|p2|Linkeval|elesa|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Skeledirge, L50, F|
+|poke|p2|Weavile, L50, M|
+|poke|p2|Corviknight, L50, F|
+|poke|p2|Meowscarada, L50, M|
+|teampreview|4
+|showteam|p1|Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Haze,Protect|||F|||50|,,,,,Fairy]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Protect|||M|||50|,,,,,Dragon]Indeedee||FocusSash|PsychicSurge|ExpandingForce,HelpingHand,TrickRoom,Imprison|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Stellar]Talonflame||CovertCloak|GaleWings|FlareBlitz,DualWingbeat,WillOWisp,Tailwind|||M|||50|,,,,,Stellar]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal
+|showteam|p2|Dragapult||ExpertBelt|CursedBody|DragonDarts,DragonDance,Thunderbolt,Flamethrower|||F|||50|,,,,,Dragon]Garchomp||Leftovers|RoughSkin|DragonClaw,SwordsDance,Earthquake,ThunderFang|||F|||50|,,,,,Dragon]Skeledirge||RockyHelmet|Unaware|TorchSong,ShadowBall,Flamethrower,Protect|||F|||50|,,,,,Fire]Weavile||ChoiceBand|Pressure|IceShard,IcePunch,NightSlash,SleepTalk|||M|||50|,,,,,Dark]Corviknight|||MirrorArmor|HoneClaws,DrillPeck,IronHead,TeraBlast|||F|||50|,,,,,Flying]Meowscarada||FocusSash|Protean|FlowerTrick,ThunderPunch,NightSlash,HoneClaws|||M|||50|,,,,,Grass
+|
+|t:|1756514842
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Talonflame|Talonflame, L50, M, shiny|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Dragapult|Dragapult, L50, F|100/100
+|switch|p2b: Meowscarada|Meowscarada, L50, M|100/100
+|turn|1
+|
+|t:|1756514876
+|-terastallize|p1b: Ursaluna|Normal
+|move|p1a: Talonflame|Tailwind|p1a: Talonflame
+|-sidestart|p1: LookBackInBanger|move: Tailwind
+|move|p1b: Ursaluna|Hyper Voice|p2b: Meowscarada|[spread] p2a,p2b
+|-damage|p2a: Dragapult|5/100
+|-damage|p2b: Meowscarada|4/100
+|-damage|p1b: Ursaluna|91/100|[from] item: Life Orb
+|move|p2a: Dragapult|Dragon Darts|p1b: Ursaluna
+|-damage|p1b: Ursaluna|73/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Talonflame
+|-damage|p1a: Talonflame|70/100
+|move|p2b: Meowscarada|Thunder Punch|p1a: Talonflame
+|-start|p2b: Meowscarada|typechange|Electric|[from] ability: Protean
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|upkeep
+|
+|t:|1756514906
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|2
+|
+|t:|1756514935
+|move|p1a: Indeedee|Expanding Force|p2a: Dragapult|[spread] p2a,p2b
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p2b: Meowscarada|0 fnt
+|faint|p2a: Dragapult
+|faint|p2b: Meowscarada
+|move|p1b: Ursaluna|Hyper Voice|p2: Dragapult|[notarget]
+|-fail|p1b: Ursaluna
+|
+|upkeep
+|
+|t:|1756514943
+|switch|p2a: Corviknight|Corviknight, L50, F|100/100
+|switch|p2b: Weavile|Weavile, L50, M|100/100
+|-ability|p2b: Weavile|Pressure
+|turn|3
+|
+|t:|1756514975
+|-terastallize|p2b: Weavile|Dark
+|move|p1a: Indeedee|Expanding Force|p2b: Weavile|[spread] p2a
+|-immune|p2b: Weavile
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|65/100
+|move|p1b: Ursaluna|Blood Moon|p2b: Weavile
+|-damage|p2b: Weavile|0 fnt
+|faint|p2b: Weavile
+|-damage|p1b: Ursaluna|63/100|[from] item: Life Orb
+|move|p2a: Corviknight|Drill Peck|p1b: Ursaluna
+|-damage|p1b: Ursaluna|37/100
+|
+|upkeep
+|turn|4
+|
+|t:|1756514993
+|move|p1a: Indeedee|Expanding Force|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|18/100
+|move|p1b: Ursaluna|Hyper Voice|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|-damage|p1b: Ursaluna|28/100|[from] item: Life Orb
+|
+|win|LookBackInBanger
+||LookBackInBanger is ready for game 2.
+|inactive|Linkeval has 30 seconds to confirm battle start!
+|l|☆Linkeval
+|player|p2|
+|inactive|Linkeval has 20 seconds to confirm battle start!
+|inactive|Linkeval has 10 seconds to confirm battle start!
+|uhtml|next|Next: Game 2 of 3

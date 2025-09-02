@@ -1,0 +1,186 @@
+|j|☆EnzoPS
+|j|☆The median voter
+|html|EnzoPSThe median voter    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756234000
+|gametype|doubles
+|player|p1|EnzoPS|cynthia-gen4|1123
+|player|p2|The median voter|scientist-gen4dp|1268
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Kommo-o, L50, F|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Arcanine-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Pelipper||FocusSash|Drizzle|Protect,WeatherBall,Hurricane,Tailwind|||M|||50|,,,,,Ground]Amoonguss||SitrusBerry|Regenerator|Protect,Spore,RagePowder,PollenPuff|||M|||50|,,,,,Water]Archaludon||AssaultVest|Stamina|DragonPulse,ElectroShot,FlashCannon,BodyPress|||M|||50|,,,,,Grass]Basculegion||ChoiceBand|SwiftSwim|FlipTurn,WaveCrash,AquaJet,LastRespects|||M|||50|,,,,,Grass]Gholdengo||LifeOrb|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Ghost
+|showteam|p2|Kommo-o||GrassySeed|Overcoat|BodyPress,Taunt,Protect,Flamethrower|||F|||50|,,,,,Fire]Volcarona||SitrusBerry|FlameBody|HeatWave,GigaDrain,QuiverDance,Protect|||M|||50|,,,,,Grass]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,HighHorsepower|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Dark]Ninetales-Alola||LifeOrb|SnowWarning|Blizzard,Protect,AuroraVeil,FreezeDry|||F|||50|,,,,,Ghost]Arcanine-Hisui||MirrorHerb|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1756234025
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Volcarona|Volcarona, L50, M|100/100
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1756234050
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|move|p2a: Volcarona|Protect|p2a: Volcarona
+|-singleturn|p2a: Volcarona|Protect
+|move|p1b: Basculegion|Flip Turn|p2b: Rillaboom
+|-resisted|p2b: Rillaboom
+|-damage|p2b: Rillaboom|66/100
+|
+|t:|1756234061
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100|[from] Flip Turn
+|move|p1a: Pelipper|Hurricane|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756234067
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|turn|2
+|
+|t:|1756234071
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|-unboost|p2b: Ninetales|atk|1
+|move|p2b: Ninetales|Aurora Veil|p2b: Ninetales
+|-sidestart|p2: The median voter|move: Aurora Veil
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1b: Archaludon|Flash Cannon|p2b: Ninetales
+|-supereffective|p2b: Ninetales
+|-damage|p2b: Ninetales|0 fnt
+|faint|p2b: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1756234073
+|switch|p2b: Kommo-o|Kommo-o, L50, F|100/100
+|-enditem|p2b: Kommo-o|Grassy Seed
+|-boost|p2b: Kommo-o|def|1|[from] item: Grassy Seed
+|turn|3
+|
+|t:|1756234092
+|move|p1a: Incineroar|Fake Out|p2b: Kommo-o
+|-damage|p2b: Kommo-o|96/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|cant|p2b: Kommo-o|flinch
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Kommo-o|100/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756234111
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p2b: Kommo-o|Body Press|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p1b: Archaludon|Electro Shot|p2a: Volcarona|[from] lockedmove
+|-damage|p2a: Volcarona|86/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Volcarona|93/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756234120
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|5
+|
+|t:|1756234143
+|-terastallize|p1b: Archaludon|Grass
+|move|p2a: Volcarona|Giga Drain|p1a: Pelipper
+|-enditem|p1a: Pelipper|Focus Sash
+|-damage|p1a: Pelipper|1/100
+|-heal|p2a: Volcarona|100/100|[from] drain|[of] p1a: Pelipper
+|move|p2b: Kommo-o|Body Press|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|move|p1b: Archaludon|Dragon Pulse|p2b: Kommo-o
+|-supereffective|p2b: Kommo-o
+|-crit|p2b: Kommo-o
+|-damage|p2b: Kommo-o|0 fnt
+|faint|p2b: Kommo-o
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756234155
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|turn|6
+|
+|t:|1756234172
+|-terastallize|p2a: Volcarona|Grass
+|move|p2a: Volcarona|Giga Drain|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|91/100
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: The median voter|move: Aurora Veil
+|upkeep
+|turn|7
+|
+|t:|1756234177
+|move|p2a: Volcarona|Heat Wave|p1b: Archaludon
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|7/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p1b: Archaludon|Dragon Pulse|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|win|EnzoPS
+||EnzoPS is ready for game 2.
+||The median voter is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

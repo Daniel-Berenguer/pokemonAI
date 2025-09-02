@@ -1,0 +1,300 @@
+|j|☆Welosethose!
+|j|☆Sr. Sotomonte
+|html|Welosethose!Sr. Sotomonte    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756600101
+|gametype|doubles
+|player|p1|Welosethose!|hilbert|
+|player|p2|Sr. Sotomonte|hiker-gen4|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Politoed, L50, M|
+|poke|p1|Gothitelle, L50, F|
+|poke|p1|Kingdra, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Politoed, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Kingdra, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Gothitelle, L50, F|
+|teampreview|4
+|showteam|p1|Politoed||Leftovers|Drizzle|WeatherBall,Encore,PerishSong,Protect|||M|||50|,,,,,Grass]Gothitelle||SitrusBerry|ShadowTag|FakeOut,Psychic,TrickRoom,Protect|||F|||50|,,,,,Dark]Kingdra||LifeOrb|SwiftSwim|WeatherBall,MuddyWater,DracoMeteor,Protect|||F|||50|,,,,,Stellar]Archaludon||PowerHerb|Sturdy|ElectroShot,FlashCannon,DragonPulse,Protect|||M|||50|,,,,,Electric]Amoonguss||EjectButton|Regenerator|PollenPuff,Spore,RagePowder,Protect|||F|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Politoed||Leftovers|Drizzle|Protect,WeatherBall,PerishSong,Encore|||M|||50|,,,,,Grass]Archaludon||PowerHerb|Sturdy|Protect,ElectroShot,FlashCannon,DragonPulse|||F|||50|,,,,,Electric]Kingdra||LifeOrb|SwiftSwim|Protect,DracoMeteor,WeatherBall,MuddyWater|||M|||50|,,,,,Stellar]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Protect|||F|||50|,,,,,Ghost]Amoonguss||EjectButton|Regenerator|Protect,RagePowder,Spore,PollenPuff|||M|||50|,,,,,Fairy]Gothitelle||SitrusBerry|ShadowTag|Protect,Psychic,FakeOut,TrickRoom|||F|||50|,,,,,Dark
+|
+|t:|1756600148
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p1b: Politoed|Politoed, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Politoed
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|-unboost|p1b: Politoed|atk|1
+|turn|1
+|
+|t:|1756600174
+|move|p1b: Politoed|Protect|p1b: Politoed
+|-singleturn|p1b: Politoed|Protect
+|move|p1a: Amoonguss|Protect|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|Protect
+|move|p2a: Incineroar|Fake Out|p1a: Amoonguss
+|-activate|p1a: Amoonguss|move: Protect
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1b: Politoed
+|-activate|p1b: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756600210
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p2b: Archaludon|Dragon Pulse|p1a: Amoonguss
+|-damage|p1a: Amoonguss|43/100
+|-enditem|p1a: Amoonguss|Eject Button
+|
+|t:|1756600216
+|switch|p1a: Gothitelle|Gothitelle, L50, F|100/100
+|move|p1b: Politoed|Perish Song|p1b: Politoed
+|-start|p1a: Gothitelle|perish3|[silent]
+|-start|p1b: Politoed|perish3|[silent]
+|-start|p2a: Incineroar|perish3|[silent]
+|-start|p2b: Archaludon|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Incineroar|Parting Shot|p1b: Politoed
+|-unboost|p1b: Politoed|atk|1
+|-unboost|p1b: Politoed|spa|1
+|
+|t:|1756600226
+|switch|p2a: Amoonguss|Amoonguss, L50, M|100/100|[from] Parting Shot
+|
+|-weather|RainDance|[upkeep]
+|-start|p2b: Archaludon|perish3
+|-start|p1b: Politoed|perish3
+|-start|p1a: Gothitelle|perish3
+|upkeep
+|turn|3
+|
+|t:|1756600261
+|-terastallize|p1b: Politoed|Grass
+|move|p1a: Gothitelle|Fake Out|p2b: Archaludon
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|98/100
+|cant|p2b: Archaludon|flinch
+|move|p1b: Politoed|Perish Song|p1b: Politoed
+|-start|p2a: Amoonguss|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Amoonguss|Spore|p1a: Gothitelle
+|-status|p1a: Gothitelle|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-start|p2b: Archaludon|perish2
+|-start|p1b: Politoed|perish2
+|-start|p1a: Gothitelle|perish2
+|-start|p2a: Amoonguss|perish3
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Sr. Sotomonte)
+|
+|t:|1756600317
+|switch|p1a: Amoonguss|Amoonguss, L50, F|76/100
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|39/100
+|move|p1b: Politoed|Encore|p2a: Amoonguss
+|-start|p2a: Amoonguss|Encore
+|move|p2a: Amoonguss|Spore|p1a: Amoonguss
+|-immune|p1a: Amoonguss
+|
+|-weather|RainDance|[upkeep]
+|-start|p2b: Archaludon|perish1
+|-start|p1b: Politoed|perish1
+|-start|p2a: Amoonguss|perish2
+|upkeep
+|turn|5
+|inactive|Sr. Sotomonte has 30 seconds left.
+|inactive|Sr. Sotomonte has 20 seconds left.
+|
+|t:|1756600355
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|-unboost|p1b: Politoed|atk|1
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Amoonguss|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|switch|p2a: Kingdra|Kingdra, L50, M|100/100
+|move|p1a: Amoonguss|Spore|p2b: Incineroar
+|-activate|p2b: Incineroar|item: Safety Goggles|Spore
+|
+|-weather|none
+|upkeep
+|turn|6
+|inactive|Sr. Sotomonte has 30 seconds left.
+|
+|t:|1756600384
+|move|p2b: Incineroar|Fake Out|p1a: Amoonguss
+|-damage|p1a: Amoonguss|34/100
+|move|p1b: Incineroar|Fake Out|p2a: Kingdra
+|-damage|p2a: Kingdra|88/100
+|cant|p2a: Kingdra|flinch
+|cant|p1a: Amoonguss|flinch
+|
+|upkeep
+|turn|7
+|
+|t:|1756600397
+|move|p2a: Kingdra|Muddy Water|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Amoonguss
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Amoonguss|17/100
+|-damage|p1b: Incineroar|54/100
+|-unboost|p1b: Incineroar|accuracy|1
+|-damage|p2a: Kingdra|78/100|[from] item: Life Orb
+|move|p2b: Incineroar|Knock Off|p1a: Amoonguss
+|-damage|p1a: Amoonguss|3/100
+|move|p1b: Incineroar|Parting Shot|p2a: Kingdra|[miss]
+|-miss|p1b: Incineroar|p2a: Kingdra
+|move|p1a: Amoonguss|Spore|p2a: Kingdra
+|-status|p2a: Kingdra|slp|[from] move: Spore
+|
+|upkeep
+|turn|8
+|inactive|Welosethose! has 30 seconds left.
+|
+|t:|1756600422
+|switch|p1a: Politoed|Politoed, L50, M, tera:Grass|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|cant|p2a: Kingdra|slp
+|move|p2b: Incineroar|Knock Off|p1a: Politoed
+|-damage|p1a: Politoed|73/100
+|-enditem|p1a: Politoed|Leftovers|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1b: Incineroar|Parting Shot|p2a: Kingdra
+|-unboost|p2a: Kingdra|atk|1
+|-unboost|p2a: Kingdra|spa|1
+|
+|t:|1756600429
+|switch|p1b: Gothitelle|Gothitelle, L50, F|100/100 slp|[from] Parting Shot
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|inactive|Sr. Sotomonte has 30 seconds left.
+|
+|t:|1756600454
+|cant|p1b: Gothitelle|slp
+|cant|p2a: Kingdra|slp
+|move|p1a: Politoed|Perish Song|p1a: Politoed
+|-start|p1a: Politoed|perish3|[silent]
+|-start|p1b: Gothitelle|perish3|[silent]
+|-start|p2a: Kingdra|perish3|[silent]
+|-start|p2b: Incineroar|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2b: Incineroar|Knock Off|p1b: Gothitelle
+|-supereffective|p1b: Gothitelle
+|-damage|p1b: Gothitelle|50/100 slp
+|-enditem|p1b: Gothitelle|Sitrus Berry|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Kingdra|perish3
+|-start|p1a: Politoed|perish3
+|-start|p1b: Gothitelle|perish3
+|-start|p2b: Incineroar|perish3
+|upkeep
+|turn|10
+|
+|t:|1756600480
+|cant|p1b: Gothitelle|slp
+|cant|p2a: Kingdra|slp
+|move|p1a: Politoed|Encore|p2b: Incineroar
+|-start|p2b: Incineroar|Encore
+|move|p2b: Incineroar|Knock Off|p1b: Gothitelle
+|-supereffective|p1b: Gothitelle
+|-damage|p1b: Gothitelle|19/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Kingdra|perish2
+|-start|p1a: Politoed|perish2
+|-start|p1b: Gothitelle|perish2
+|-start|p2b: Incineroar|perish2
+|upkeep
+|turn|11
+|inactive|Sr. Sotomonte has 30 seconds left.
+|inactive|Sr. Sotomonte has 20 seconds left.
+|inactive|Welosethose! has 30 seconds left.
+|inactive|Sr. Sotomonte has 15 seconds left.
+|
+|t:|1756600526
+|switch|p1a: Amoonguss|Amoonguss, L50, F|36/100
+|switch|p1b: Incineroar|Incineroar, L50, F|54/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Kingdra|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|-terastallize|p2b: Incineroar|Ghost
+|-curestatus|p2a: Kingdra|slp|[msg]
+|move|p2a: Kingdra|Weather Ball|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|-damage|p2a: Kingdra|68/100|[from] item: Life Orb
+|move|p2b: Incineroar|Knock Off|p1a: Amoonguss
+|-crit|p1a: Amoonguss
+|-damage|p1a: Amoonguss|5/100
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Kingdra|perish1
+|-start|p2b: Incineroar|perish1
+|upkeep
+|
+|t:|1756600540
+|switch|p1b: Gothitelle|Gothitelle, L50, F|19/100 slp
+|turn|12
+|
+|t:|1756600557
+|switch|p2b: Archaludon|Archaludon, L50, F|98/100
+|switch|p1a: Politoed|Politoed, L50, M, tera:Grass|73/100
+|cant|p1b: Gothitelle|slp
+|move|p2a: Kingdra|Muddy Water|p1a: Politoed|[spread] p1a,p1b
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|59/100
+|-damage|p1b: Gothitelle|0 fnt
+|-unboost|p1a: Politoed|accuracy|1
+|faint|p1b: Gothitelle
+|-damage|p2a: Kingdra|58/100|[from] item: Life Orb
+|
+|-weather|none
+|-start|p2a: Kingdra|perish0
+|upkeep
+|faint|p2a: Kingdra
+|c|☆Welosethose!|yea that adds up lmao
+|
+|t:|1756600575
+|switch|p2a: Incineroar|Incineroar, L50, F, tera:Ghost|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|38/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Politoed|atk|1
+|-unboost|p1b: Amoonguss|atk|1
+|turn|13
+|-message|Welosethose! forfeited.
+|
+|win|Sr. Sotomonte
+||Welosethose! is ready for game 3.
+|inactive|Sr. Sotomonte has 30 seconds to confirm battle start!
+||Sr. Sotomonte is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

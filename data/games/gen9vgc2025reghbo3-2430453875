@@ -1,0 +1,124 @@
+|j|☆felasmiguel
+|j|☆MidoMidori
+|html|felasmiguelMidoMidori    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756396926
+|gametype|doubles
+|player|p1|felasmiguel|scientist|1168
+|player|p2|MidoMidori|roxanne-gen6|1216
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Metagross, L50|
+|poke|p1|Mienshao, L50, F|
+|poke|p1|Comfey, L50, M|
+|poke|p1|Frosmoth, L50, M|
+|poke|p1|Glimmora, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Metagross||AssaultVest|ClearBody|HardPress,PsychicFangs,BulletPunch,StompingTantrum||||||50|,,,,,Dragon]Mienshao||FocusSash|InnerFocus|CloseCombat,WideGuard,Taunt,Coaching|||F|||50|,,,,,Fighting]Comfey||RockyHelmet|Triage|FloralHealing,DrainingKiss,Synthesis,HelpingHand|||M|||50|,,,,,Water]Frosmoth||SafetyGoggles|IceScales|QuiverDance,IceBeam,TeraBlast,Protect|||M|||50|,,,,,Electric]Glimmora||PowerHerb|Corrosion|MeteorBeam,Toxic,SpikyShield,EarthPower|||M|||50|,,,,,Grass]Grimmsnarl||LightClay|Prankster|LightScreen,Reflect,SpiritBreak,SuckerPunch|||M|||50|,,,,,Stellar
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||M|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||F|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|
+|t:|1756396961
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Metagross|Metagross, L50|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756396989
+|move|p1b: Grimmsnarl|Reflect|p1b: Grimmsnarl
+|-sidestart|p1: felasmiguel|Reflect
+|move|p2a: Sneasler|Dire Claw|p1b: Grimmsnarl
+|-supereffective|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|19/100
+|-status|p1b: Grimmsnarl|par
+|move|p2b: Indeedee|Trick|p1a: Metagross
+|-activate|p2b: Indeedee|move: Trick|[of] p1a: Metagross
+|-item|p1a: Metagross|Choice Scarf|[from] move: Trick
+|-item|p2b: Indeedee|Assault Vest|[from] move: Trick
+|move|p1a: Metagross|Hard Press|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|upkeep
+|
+|t:|1756396994
+|switch|p2a: Volcarona|Volcarona, L50, M|100/100
+|turn|2
+|
+|t:|1756397027
+|-terastallize|p1a: Metagross|Dragon
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: felasmiguel|move: Light Screen
+|move|p2a: Volcarona|Tailwind|p2a: Volcarona
+|-sidestart|p2: MidoMidori|move: Tailwind
+|move|p2b: Indeedee|Tera Blast|p1a: Metagross
+|-crit|p1a: Metagross
+|-damage|p1a: Metagross|37/100
+|move|p1a: Metagross|Hard Press|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|upkeep
+|
+|t:|1756397030
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|3
+|
+|t:|1756397045
+|move|p2a: Volcarona|Struggle Bug|p1a: Metagross|[spread] p1a,p1b
+|-damage|p1a: Metagross|25/100
+|-damage|p1b: Grimmsnarl|6/100 par
+|-unboost|p1b: Grimmsnarl|spa|1
+|move|p2b: Ursaluna|Hyper Voice|p1b: Grimmsnarl|[spread] p1a,p1b
+|-crit|p1b: Grimmsnarl
+|-damage|p1a: Metagross|0 fnt
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1a: Metagross
+|faint|p1b: Grimmsnarl
+|-damage|p2b: Ursaluna|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756397047
+|switch|p1a: Frosmoth|Frosmoth, L50, M|100/100
+|switch|p1b: Comfey|Comfey, L50, M|100/100
+|turn|4
+|
+|t:|1756397063
+|-terastallize|p2b: Ursaluna|Normal
+|move|p1b: Comfey|Draining Kiss|p2a: Volcarona
+|-activate|p2a: Volcarona|move: Psychic Terrain
+|move|p2a: Volcarona|Overheat|p1a: Frosmoth
+|-supereffective|p1a: Frosmoth
+|-damage|p1a: Frosmoth|13/100
+|-unboost|p2a: Volcarona|spa|2
+|move|p2b: Ursaluna|Hyper Voice|p1b: Comfey|[spread] p1a,p1b
+|-crit|p1b: Comfey
+|-damage|p1a: Frosmoth|0 fnt
+|-damage|p1b: Comfey|0 fnt
+|faint|p1a: Frosmoth
+|faint|p1b: Comfey
+|-damage|p2b: Ursaluna|81/100|[from] item: Life Orb
+|
+|win|MidoMidori
+|raw|felasmiguel's rating: 1168 → 1146(-22 for losing)
+|raw|MidoMidori's rating: 1216 → 1238(+22 for winning)
+|l|☆felasmiguel
+|player|p1|

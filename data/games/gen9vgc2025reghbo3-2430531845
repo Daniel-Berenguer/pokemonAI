@@ -1,0 +1,212 @@
+|j|☆klaustrophob97
+|j|☆BenniBenBau
+|html|klaustrophob97BenniBenBau    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756404377
+|gametype|doubles
+|player|p1|klaustrophob97|170|
+|player|p2|BenniBenBau|brycen|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Politoed, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Kingdra, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Gothitelle, L50, F|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|ElectroShot,FlashCannon,DracoMeteor,BodyPress|||M|||50|,,,,,Bug]Pelipper||CovertCloak|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Steel]Sneasler||FocusSash|PoisonTouch|DireClaw,CloseCombat,FakeOut,Protect|||F|||50|,,,,,Ghost]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,FlipTurn,AquaJet|||M|||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Fairy]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water
+|showteam|p2|Politoed||Leftovers|Drizzle|Protect,WeatherBall,PerishSong,Encore|||M|||50|,,,,,Grass]Archaludon||PowerHerb|Sturdy|Protect,ElectroShot,FlashCannon,DragonPulse|||F|||50|,,,,,Electric]Kingdra||LifeOrb|SwiftSwim|Protect,DracoMeteor,WeatherBall,MuddyWater|||M|||50|,,,,,Stellar]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Protect|||M|||50|,,,,,Ghost]Amoonguss||EjectButton|Regenerator|Protect,RagePowder,Spore,PollenPuff|||M|||50|,,,,,Fairy]Gothitelle||SitrusBerry|ShadowTag|Protect,Psychic,FakeOut,TrickRoom|||F|||50|,,,,,Dark
+|
+|t:|1756404385
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2a: Archaludon|Archaludon, L50, F|100/100
+|switch|p2b: Gothitelle|Gothitelle, L50, F|100/100
+|turn|1
+|
+|t:|1756404415
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|-terastallize|p2a: Archaludon|Electric
+|move|p1b: Sneasler|Fake Out|p2a: Archaludon
+|-crit|p2a: Archaludon
+|-damage|p2a: Archaludon|83/100
+|cant|p2a: Archaludon|flinch
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1756404459
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1b: Sneasler|Dire Claw|p2b: Amoonguss
+|-damage|p2b: Amoonguss|66/100
+|-enditem|p2b: Amoonguss|Eject Button
+|
+|t:|1756404476
+|switch|p2b: Politoed|Politoed, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Politoed
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756404495
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|move|p1b: Sneasler|Close Combat|p2a: Archaludon
+|-damage|p2a: Archaludon|31/100
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Archaludon
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|43/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p2b: Politoed|Weather Ball|p1b: Sneasler
+|-enditem|p1b: Sneasler|Focus Sash
+|-damage|p1b: Sneasler|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756404546
+|switch|p2b: Amoonguss|Amoonguss, L50, M|99/100
+|move|p2a: Archaludon|Protect|p2a: Archaludon
+|-singleturn|p2a: Archaludon|Protect
+|move|p1b: Sneasler|Close Combat|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|76/100
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|53/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1756404582
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1b: Sneasler|Dire Claw|p2b: Amoonguss
+|-crit|p2b: Amoonguss
+|-damage|p2b: Amoonguss|8/100
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|move|p1a: Archaludon|Draco Meteor|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|-unboost|p1a: Archaludon|spa|2
+|faint|p2b: Amoonguss
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756404607
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Politoed|Politoed, L50, M|100/100
+|turn|6
+|
+|t:|1756404665
+|move|p1b: Basculegion|Flip Turn|p2b: Politoed
+|-resisted|p2b: Politoed
+|-damage|p2b: Politoed|70/100
+|
+|t:|1756404669
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100|[from] Flip Turn
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|move|p1a: Archaludon|Body Press|p2b: Politoed
+|-damage|p2b: Politoed|33/100
+|move|p2b: Politoed|Weather Ball|p1a: Archaludon
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|22/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|
+|-weather|none
+|-heal|p2b: Politoed|40/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756404686
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|turn|7
+|
+|t:|1756404738
+|switch|p2b: Gothitelle|Gothitelle, L50, F|100/100
+|-terastallize|p1b: Basculegion|Water
+|move|p2a: Archaludon|Protect|p2a: Archaludon
+|-singleturn|p2a: Archaludon|Protect
+|move|p1b: Basculegion|Aqua Jet|p2b: Gothitelle
+|-damage|p2b: Gothitelle|67/100
+|move|p1a: Archaludon|Body Press|p2b: Gothitelle
+|-resisted|p2b: Gothitelle
+|-damage|p2b: Gothitelle|47/100
+|-enditem|p2b: Gothitelle|Sitrus Berry|[eat]
+|-heal|p2b: Gothitelle|72/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|8
+|
+|t:|1756404768
+|move|p2b: Gothitelle|Fake Out|p1b: Basculegion
+|-damage|p1b: Basculegion|94/100
+|cant|p1b: Basculegion|flinch
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-enditem|p2a: Archaludon|Power Herb
+|-anim|p2a: Archaludon|Electro Shot|p1b: Basculegion
+|-supereffective|p1b: Basculegion
+|-damage|p1b: Basculegion|0 fnt
+|faint|p1b: Basculegion
+|move|p1a: Archaludon|Body Press|p2b: Gothitelle
+|-resisted|p2b: Gothitelle
+|-damage|p2b: Gothitelle|52/100
+|
+|upkeep
+|turn|9
+|c|☆BenniBenBau|gg
+|c|☆klaustrophob97|gg
+|c|☆BenniBenBau|was n set
+|-message|klaustrophob97 forfeited.
+|
+|win|BenniBenBau
+|l|☆klaustrophob97
+|player|p1|

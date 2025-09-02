@@ -1,0 +1,132 @@
+|j|☆sjogis
+|j|☆JourneyManV2
+|html|sjogisJourneyManV2    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756574894
+|gametype|doubles
+|player|p1|sjogis|fisherman-gen4|
+|player|p2|JourneyManV2|170|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Palafin, L50, M|
+|poke|p2|Murkrow, L50, F|
+|poke|p2|Exeggutor-Alola, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||RockyHelmet|PsychicSurge|DazzlingGleam,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Fairy]Torkoal||ChoiceSpecs|Drought|Eruption,HelpingHand,Overheat,EarthPower|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,WideGuard,TrickRoom|||M|||50|,,,,,Normal]Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||M|||50|,,,,,Ghost]Armarouge||WeaknessPolicy|WeakArmor|Endure,LavaPlume,WeatherBall,ExpandingForce|||M|||50|,,,,,Psychic]Annihilape||ChoiceScarf|Defiant|FinalGambit,CloseCombat,Uturn,RageFist|||M|||50|,,,,,Grass
+|showteam|p2|Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Steel]Palafin||MysticWater|ZerotoHero|FlipTurn,JetPunch,WaveCrash,Protect|||M|||50|,,,,,Water]Murkrow||FocusSash|Prankster|FoulPlay,SunnyDay,Tailwind,Protect|||F|||50|,,,,,Dark]Exeggutor-Alola||SitrusBerry|Harvest|GigaDrain,Flamethrower,TrickRoom,SleepPowder|||M|||50|,,,,,Fire]Indeedee-F||MentalHerb|PsychicSurge|FollowMe,Protect,Psychic,HelpingHand|||F|||50|,,,,,Psychic]Incineroar||RockyHelmet|Intimidate|KnockOff,FlareBlitz,FakeOut,PartingShot|||M|||50|,,,,,Grass
+|
+|t:|1756574918
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Armarouge|Armarouge, L50, M|100/100
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Exeggutor|Exeggutor-Alola, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1756574936
+|-terastallize|p1a: Armarouge|Psychic
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Annihilape|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|46/100
+|
+|t:|1756574941
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100|[from] U-turn
+|move|p1a: Armarouge|Expanding Force|p2a: Indeedee|[spread] p2a,p2b
+|-resisted|p2a: Indeedee
+|-damage|p2a: Indeedee|5/100
+|-damage|p2b: Exeggutor|0 fnt
+|faint|p2b: Exeggutor
+|
+|upkeep
+|
+|t:|1756574954
+|switch|p2b: Murkrow|Murkrow, L50, F|100/100
+|turn|2
+|
+|t:|1756574971
+|-terastallize|p2b: Murkrow|Dark
+|move|p2a: Indeedee|Helping Hand|p2b: Murkrow
+|-singleturn|p2b: Murkrow|Helping Hand|[of] p2a: Indeedee
+|move|p1a: Armarouge|Lava Plume|p2a: Indeedee|[spread] p1b,p2a,p2b
+|-damage|p1b: Indeedee|68/100
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Murkrow|57/100
+|faint|p2a: Indeedee
+|move|p2b: Murkrow|Foul Play|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|39/100
+|-ability|p1a: Armarouge|Weak Armor|boost
+|-unboost|p1a: Armarouge|def|1
+|-boost|p1a: Armarouge|spe|2
+|-enditem|p1a: Armarouge|Weakness Policy
+|-boost|p1a: Armarouge|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Armarouge|spa|2|[from] item: Weakness Policy
+|move|p1b: Indeedee|Dazzling Gleam|p2b: Murkrow
+|-supereffective|p2b: Murkrow
+|-damage|p2b: Murkrow|10/100
+|
+|upkeep
+|
+|t:|1756574985
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Armarouge|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|turn|3
+|c|☆sjogis|hvordan føles palafin i reg h?
+|
+|t:|1756574994
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Armarouge|Lava Plume|p2b: Murkrow|[spread] p1b,p2a,p2b
+|-resisted|p2a: Incineroar
+|-damage|p1b: Indeedee|4/100
+|-damage|p2a: Incineroar|66/100
+|-damage|p2b: Murkrow|0 fnt
+|faint|p2b: Murkrow
+|move|p2a: Incineroar|Flare Blitz|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|-damage|p2a: Incineroar|50/100|[from] item: Rocky Helmet|[of] p1b: Indeedee
+|faint|p1b: Indeedee
+|-damage|p2a: Incineroar|49/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1756574996
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|turn|4
+|
+|t:|1756575007
+|move|p1a: Armarouge|Weather Ball|p2a: Incineroar
+|-damage|p2a: Incineroar|14/100
+|move|p1b: Annihilape|Close Combat|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-unboost|p1b: Annihilape|def|1
+|-unboost|p1b: Annihilape|spd|1
+|-damage|p1b: Annihilape|84/100|[from] item: Rocky Helmet|[of] p2a: Incineroar
+|faint|p2a: Incineroar
+|
+|win|sjogis
+|c|☆JourneyManV2|Ggs
+|c|☆sjogis|ggs
+|c|☆JourneyManV2|Paladin føles greit men litt counterproduktivt med ideedee og palafin på samme lag
+|l|☆JourneyManV2
+|player|p2|

@@ -1,0 +1,127 @@
+|j|☆gene takavic
+|j|☆takeshivgc-test
+|html|gene takavictakeshivgc-test    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756576242
+|gametype|doubles
+|player|p1|gene takavic|pryce|1221
+|player|p2|takeshivgc-test|265|1271
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Hatterene, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Armarouge||PowerHerb|FlashFire|ArmorCannon,ExpandingForce,TrickRoom,MeteorBeam|||F|||50|,,,,,Grass]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,TrickRoom,FollowMe|||F|||50|,,,,,Fairy]Torkoal||Charcoal|Drought|Eruption,Protect,WeatherBall,HeatWave|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,MysticalFire|||F|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gene takavic)
+|inactive|gene takavic has 60 seconds left.
+|inactive|takeshivgc-test has 60 seconds left.
+|
+|t:|1756576281
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Charizard|Charizard, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Armarouge|Armarouge, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Armarouge|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756576298
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Charizard|Air Slash|p2a: Indeedee
+|-damage|p2a: Indeedee|66/100
+|move|p1a: Incineroar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|11/100
+|move|p2b: Armarouge|Trick Room|p2b: Armarouge
+|-fieldstart|move: Trick Room|[of] p2b: Armarouge
+|
+|upkeep
+|turn|2
+|
+|t:|1756576321
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Armarouge|Meteor Beam||[still]
+|-prepare|p2b: Armarouge|Meteor Beam
+|-boost|p2b: Armarouge|spa|1
+|-enditem|p2b: Armarouge|Power Herb
+|-anim|p2b: Armarouge|Meteor Beam|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p1b: Charizard|Air Slash|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1756576332
+|switch|p2a: Hatterene|Hatterene, L50, F, shiny|100/100
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|turn|3
+|
+|t:|1756576346
+|-terastallize|p2b: Armarouge|Grass
+|move|p2a: Hatterene|Expanding Force|p1b: Charizard|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|23/100
+|-damage|p1b: Charizard|0 fnt
+|faint|p1b: Charizard
+|-damage|p2a: Hatterene|91/100|[from] item: Life Orb
+|move|p1a: Ursaluna|Earthquake|p2a: Hatterene|[spread] p2a,p2b
+|-resisted|p2b: Armarouge
+|-crit|p2b: Armarouge
+|-damage|p2a: Hatterene|45/100
+|-damage|p2b: Armarouge|70/100
+|move|p2b: Armarouge|Expanding Force|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1756576353
+|switch|p1a: Porygon2|Porygon2, L50|100/100
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|turn|4
+|
+|t:|1756576365
+|move|p2a: Hatterene|Expanding Force|p1a: Porygon2
+|-damage|p1a: Porygon2|23/100
+|-damage|p2a: Hatterene|36/100|[from] item: Life Orb
+|move|p1a: Porygon2|Ice Beam|p2b: Armarouge
+|-supereffective|p2b: Armarouge
+|-damage|p2b: Armarouge|0 fnt
+|faint|p2b: Armarouge
+|
+|upkeep
+|
+|t:|1756576372
+|switch|p2b: Gallade|Gallade, L50, M, shiny|100/100
+|turn|5
+|-message|gene takavic forfeited.
+|
+|win|takeshivgc-test
+||gene takavic is ready for game 2.

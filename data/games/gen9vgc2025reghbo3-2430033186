@@ -1,0 +1,121 @@
+|j|☆OneScoopMann
+|j|☆SmogonSupervillain
+|html|OneScoopMannSmogonSupervillain    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756337960
+|gametype|doubles
+|player|p1|OneScoopMann|1|1092
+|player|p2|SmogonSupervillain|170|1059
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Magmortar, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,Psychic,HelpingHand,TrickRoom|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Fire]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HeatWave,Protect|||M|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|SleepPowder,AfterYou,LeafBlade,CloseCombat|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,SwordsDance,Protect|||F|||50|,,,,,Normal]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Magmortar||SitrusBerry|FlameBody|FollowMe,WillOWisp,Overheat,HelpingHand|||M|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||M|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|
+|t:|1756337980
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|switch|p1b: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p2a: Magmortar|Magmortar, L50, M|100/100
+|switch|p2b: Annihilape|Annihilape, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1756338033
+|-terastallize|p2b: Annihilape|Fairy
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2a: Magmortar|Follow Me|p2a: Magmortar
+|-singleturn|p2a: Magmortar|move: Follow Me
+|move|p1b: Lilligant|Sleep Powder|p2a: Magmortar
+|-status|p2a: Magmortar|slp|[from] move: Sleep Powder
+|move|p2b: Annihilape|Taunt|p1b: Lilligant
+|-start|p1b: Lilligant|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756338061
+|-terastallize|p1a: Torkoal|Fire
+|cant|p2a: Magmortar|slp
+|move|p1b: Lilligant|Leaf Blade|p2b: Annihilape
+|-damage|p2b: Annihilape|58/100
+|move|p2b: Annihilape|Rage Fist|p1b: Lilligant
+|-damage|p1b: Lilligant|36/100
+|move|p1a: Torkoal|Eruption|p2a: Magmortar|[spread] p2a,p2b
+|-resisted|p2a: Magmortar
+|-damage|p2a: Magmortar|38/100 slp
+|-damage|p2b: Annihilape|0 fnt
+|-enditem|p2a: Magmortar|Sitrus Berry|[eat]
+|-heal|p2a: Magmortar|62/100 slp|[from] item: Sitrus Berry
+|faint|p2b: Annihilape
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756338076
+|switch|p2b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|turn|3
+|
+|t:|1756338089
+|switch|p1a: Gallade|Gallade, L50, M|100/100
+|cant|p2a: Magmortar|slp
+|move|p1b: Lilligant|Close Combat|p2b: Tyranitar
+|-supereffective|p2b: Tyranitar
+|-damage|p2b: Tyranitar|0 fnt
+|-unboost|p1b: Lilligant|def|1
+|-unboost|p1b: Lilligant|spd|1
+|faint|p2b: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Lilligant|30/100|[from] Sandstorm
+|-damage|p2a: Magmortar|56/100 slp|[from] Sandstorm
+|-damage|p1a: Gallade|95/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756338096
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|4
+|
+|t:|1756338127
+|cant|p2a: Magmortar|slp
+|move|p1b: Lilligant|Close Combat|p2a: Magmortar
+|-damage|p2a: Magmortar|0 fnt
+|-unboost|p1b: Lilligant|def|1
+|-unboost|p1b: Lilligant|spd|1
+|-status|p1b: Lilligant|brn|[from] ability: Flame Body|[of] p2a: Magmortar
+|faint|p2a: Magmortar
+|move|p2b: Ursaluna|Hyper Voice|p1b: Lilligant|[spread] p1a,p1b
+|-damage|p1a: Gallade|48/100
+|-damage|p1b: Lilligant|0 fnt
+|faint|p1b: Lilligant
+|-damage|p2b: Ursaluna|91/100|[from] item: Life Orb
+|move|p1a: Gallade|Sacred Sword|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|
+|win|OneScoopMann
+||OneScoopMann is ready for game 2.
+||SmogonSupervillain is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

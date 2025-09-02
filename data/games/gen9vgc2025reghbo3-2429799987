@@ -1,0 +1,133 @@
+|j|☆faquin
+|j|☆tulpeon
+|html|faquintulpeon    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756314055
+|gametype|doubles
+|player|p1|faquin|cynthia-gen4|1000
+|player|p2|tulpeon|266|1043
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Typhlosion-Hisui, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Electabuzz, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Typhlosion-Hisui||ChoiceSpecs|Frisk|FocusBlast,ShadowBall,HeatWave,Eruption|||M|||50|,,,,,Fire]Whimsicott||CovertCloak|Prankster|Tailwind,SunnyDay,Moonblast,TrickRoom|||F|||50|,,,,,Grass]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,Uturn,SuckerPunch|||F|||50|,,,,,Dragon]Lilligant-Hisui||FocusSash|Chlorophyll|SleepPowder,AfterYou,LeafBlade,CloseCombat|||F|||50|,,,,,Grass]Electabuzz||Eviolite|VitalSpirit|FollowMe,Feint,ThunderWave,HelpingHand|||F|||50|,,,,,Flying]Torkoal||LifeOrb|Drought|Protect,HeatWave,WeatherBall,Eruption|||M|||50|,,,,,Fire
+|showteam|p2|Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,FlashCannon,DracoMeteor|||M|||50|,,,,,Flying]Pelipper||FocusSash|Drizzle|Tailwind,Hurricane,WeatherBall,Protect|||M|||50|,,,,,Ghost]Grimmsnarl||LightClay|Prankster|PartingShot,SpiritBreak,LightScreen,Reflect|||M|||50|,,,,,Steel]Amoonguss||RockyHelmet|Regenerator|PollenPuff,RagePowder,Spore,Protect|||F|||50|,,,,,Dark]Basculegion||ChoiceBand|Adaptability|WaveCrash,LastRespects,FlipTurn,TeraBlast|||M|||50|,,,,,Stellar]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,KnockOff,FlareBlitz|||M|||50|,,,,,Ghost
+|
+|t:|1756314073
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: M$|Incineroar, L50, M, shiny|100/100
+|-item|p2a: Grimmsnarl|Light Clay|[from] ability: Frisk|[of] p1a: Typhlosion
+|-item|p2b: M$|Safety Goggles|[from] ability: Frisk|[of] p1a: Typhlosion
+|-ability|p2b: M$|Intimidate|boost
+|-unboost|p1a: Typhlosion|atk|1
+|-unboost|p1b: Whimsicott|atk|1
+|turn|1
+|
+|t:|1756314105
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: faquin|move: Tailwind
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: tulpeon|move: Light Screen
+|move|p1a: Typhlosion|Eruption|p2b: M$|[spread] p2a,p2b
+|-resisted|p2b: M$
+|-damage|p2a: Grimmsnarl|50/100
+|-damage|p2b: M$|74/100
+|move|p2b: M$|Flare Blitz|p1b: Whimsicott
+|-supereffective|p1b: Whimsicott
+|-damage|p1b: Whimsicott|7/100
+|-damage|p2b: M$|44/100|[from] Recoil
+|
+|upkeep
+|turn|2
+|
+|t:|1756314133
+|move|p1b: Whimsicott|Sunny Day|p1b: Whimsicott
+|-weather|SunnyDay
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Typhlosion
+|-unboost|p1a: Typhlosion|atk|1
+|-unboost|p1a: Typhlosion|spa|1
+|
+|t:|1756314138
+|switch|p2a: la poste|Pelipper, L50, M|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: la poste
+|move|p1a: Typhlosion|Eruption|p2a: la poste|[spread] p2a,p2b
+|-resisted|p2a: la poste
+|-resisted|p2b: M$
+|-damage|p2a: la poste|84/100
+|-damage|p2b: M$|36/100
+|move|p2b: M$|Knock Off|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|-enditem|p1a: Typhlosion|Choice Specs|[from] move: Knock Off|[of] p2b: M$
+|faint|p1a: Typhlosion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756314153
+|switch|p1a: Dragapult|Dragapult, L50, F|100/100
+|turn|3
+|
+|t:|1756314184
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|50/100
+|move|p1a: Dragapult|Dragon Darts|p2b: M$
+|-damage|p2b: M$|2/100
+|-anim|p1a: Dragapult|Dragon Darts|p2b: M$
+|-damage|p2b: M$|0 fnt
+|faint|p2b: M$
+|move|p1b: Whimsicott|Moonblast|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|18/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756314195
+|switch|p2b: Basculegion|Basculegion, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1756314226
+|switch|p2b: la poste|Pelipper, L50, M|84/100
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Dragapult
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|move|p1a: Dragapult|Dragon Darts|p2b: la poste
+|-damage|p2b: la poste|37/100
+|-anim|p1a: Dragapult|Dragon Darts|p2b: la poste
+|-damage|p2b: la poste|0 fnt
+|faint|p2b: la poste
+|move|p1b: Whimsicott|Moonblast|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: faquin|move: Tailwind
+|upkeep
+|-message|tulpeon forfeited.
+|
+|win|faquin
+||tulpeon is ready for game 3.
+||faquin is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆faquin
+|player|p1|

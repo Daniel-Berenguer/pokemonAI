@@ -1,0 +1,157 @@
+|j|☆impassw
+|j|☆artyowls
+|html|impasswartyowls    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756210284
+|gametype|doubles
+|player|p1|impassw|giovanni|1039
+|player|p2|artyowls|plasmagrunt|1053
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Porygon2, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Dragapult, L50, M|
+|teampreview|4
+|showteam|p1|Porygon2||Eviolite|Download|TrickRoom,IceBeam,Recover,TeraBlast||||||50|,,,,,Fighting]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Amoonguss||CovertCloak|Regenerator|Spore,RagePowder,PollenPuff,SludgeBomb|||M|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,FlareBlitz|||M|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,ExtremeSpeed,Haze|||M|||50|,,,,,Fairy
+|showteam|p2|Archaludon||AssaultVest|Stamina|BodyPress,ElectroShot,DracoMeteor,FlashCannon|||F|||50|,,,,,Flying]Electabuzz||Eviolite|VitalSpirit|FollowMe,Protect,Taunt,Thunderbolt|||M|||50|,,,,,Fairy]Rillaboom||LoadedDice|GrassySurge|FakeOut,GrassyGlide,BulletSeed,HighHorsepower|||M|||50|,,,,,Water]Kingambit||SafetyGoggles|Defiant|SuckerPunch,SwordsDance,KowtowCleave,Protect|||M|||50|,,,,,Dark]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Protect,Tailwind|||M|||50|,,,,,Stellar]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,Outrage,Uturn|||M|||50|,,,,,Dragon
+|
+|t:|1756210328
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Porygon2|Porygon2, L50|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|turn|1
+|
+|t:|1756210371
+|move|p2a: Rillaboom|High Horsepower|p1a: Porygon2
+|-damage|p1a: Porygon2|82/100
+|move|p2b: Kingambit|Swords Dance|p2b: Kingambit
+|-boost|p2b: Kingambit|atk|2
+|move|p1b: Amoonguss|Spore|p2b: Kingambit
+|-activate|p2b: Kingambit|item: Safety Goggles|Spore
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|-heal|p1a: Porygon2|87/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756210403
+|-terastallize|p1a: Porygon2|Fighting
+|-terastallize|p2b: Kingambit|Dark
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p1a: Porygon2|Tera Blast|p2b: Kingambit|[anim] Tera Blast Fighting
+|-supereffective|p2b: Kingambit
+|-damage|p2b: Kingambit|4/100
+|move|p2b: Kingambit|Kowtow Cleave|p1a: Porygon2
+|-resisted|p1a: Porygon2
+|-damage|p1a: Porygon2|47/100
+|move|p2a: Rillaboom|Bullet Seed|p1a: Porygon2
+|-damage|p1a: Porygon2|37/100
+|-crit|p1a: Porygon2
+|-damage|p1a: Porygon2|21/100
+|-damage|p1a: Porygon2|9/100
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|-hitcount|p1: Porygon2|4
+|
+|-heal|p2b: Kingambit|10/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756210429
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|turn|3
+|
+|t:|1756210478
+|move|p1b: Amoonguss|Sludge Bomb|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|32/100
+|-status|p2a: Rillaboom|psn
+|move|p1a: Ursaluna|Facade|p2b: Kingambit
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|move|p2a: Rillaboom|High Horsepower|p1b: Amoonguss
+|-damage|p1b: Amoonguss|77/100
+|
+|-heal|p1b: Amoonguss|83/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|38/100 psn|[from] Grassy Terrain
+|-damage|p2a: Rillaboom|25/100 psn|[from] psn
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756210494
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|4
+|
+|t:|1756210543
+|move|p2b: Pelipper|Protect|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Protect
+|move|p1b: Amoonguss|Sludge Bomb|p2b: Pelipper
+|-activate|p2b: Pelipper|move: Protect
+|move|p1a: Ursaluna|Facade|p2b: Pelipper
+|-activate|p2b: Pelipper|move: Protect
+|move|p2a: Rillaboom|Bullet Seed|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|74/100 brn
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|49/100 brn
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|22/100 brn
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|-hitcount|p1: Ursaluna|4
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Amoonguss|89/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|32/100 psn|[from] Grassy Terrain
+|-damage|p2a: Rillaboom|19/100 psn|[from] psn
+|upkeep
+|
+|t:|1756210561
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2b: Pelipper|atk|1
+|turn|5
+|
+|t:|1756210603
+|switch|p2a: Archaludon|Archaludon, L50, F|100/100
+|move|p1a: Incineroar|Fake Out|p2b: Pelipper
+|-damage|p2b: Pelipper|87/100
+|move|p1b: Amoonguss|Sludge Bomb|p2a: Archaludon
+|-immune|p2a: Archaludon
+|cant|p2b: Pelipper|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Amoonguss|95/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|-message|impassw forfeited.
+|
+|win|artyowls
+|raw|impassw's rating: 1039 → 1024(-15 for losing)
+|raw|artyowls's rating: 1053 → 1084(+31 for winning)

@@ -1,0 +1,196 @@
+|j|☆WallType
+|j|☆hohan92
+|html|WallTypehohan92    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756159926
+|gametype|doubles
+|player|p1|WallType|1|1070
+|player|p2|hohan92|2|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|teampreview|4
+|showteam|p1|Archaludon||PowerHerb|Stalwart|Thunderbolt,ElectroShot,DragonPulse,Protect|||F|||50|,,,,,Electric]Incineroar||SitrusBerry|Intimidate|FakeOut,KnockOff,PartingShot,FlareBlitz|||F|||50|,,,,,Grass]Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,ExtremeSpeed,Haze|||M|||50|,,,,,Steel]Whimsicott||FocusSash|Prankster|Moonblast,FakeTears,Encore,Tailwind|||F|||50|,,,,,Ghost]Annihilape||SafetyGoggles|Defiant|Coaching,CloseCombat,FinalGambit,RageFist|||F|||50|,,,,,Water]Ursaluna-Bloodmoon||AssaultVest|MindsEye|HyperVoice,EarthPower,BloodMoon,VacuumWave|||M|||50|,,,,,Ghost
+|showteam|p2|Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Archaludon||PowerHerb|Stalwart|ElectroShot,DragonPulse,Thunderbolt,Protect|||M|||50|,,,,,Electric]Garchomp||LoadedDice|RoughSkin|ScaleShot,StompingTantrum,SwordsDance,Protect|||M|||50|,,,,,Steel]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,TrickRoom,Imprison|||M|||50|,,,,,Psychic]Whimsicott||CovertCloak|Prankster|Moonblast,Tailwind,FakeTears,Taunt|||F|||50|,,,,,Water
+|
+|t:|1756159976
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756160003
+|switch|p2b: Whimsicott|Whimsicott, L50, F|100/100
+|-terastallize|p1a: Dragonite|Steel
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: WallType|move: Tailwind
+|move|p2a: Sneasler|Dire Claw|p1b: Whimsicott
+|-supereffective|p1b: Whimsicott
+|-enditem|p1b: Whimsicott|Focus Sash
+|-damage|p1b: Whimsicott|1/100
+|-status|p1b: Whimsicott|par
+|move|p1a: Dragonite|Scale Shot|p2b: Whimsicott
+|-immune|p2b: Whimsicott
+|
+|upkeep
+|turn|2
+|
+|t:|1756160026
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2b: Whimsicott|atk|1
+|move|p2a: Sneasler|Close Combat|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|50/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|move|p1a: Dragonite|Scale Shot|p2a: Sneasler
+|-damage|p2a: Sneasler|68/100
+|-crit|p2a: Sneasler
+|-damage|p2a: Sneasler|16/100
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|-hitcount|p2: Sneasler|3
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2b: Whimsicott|Moonblast|p1b: Incineroar
+|-damage|p1b: Incineroar|81/100
+|
+|upkeep
+|
+|t:|1756160040
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|3
+|
+|t:|1756160060
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Dragonite|Scale Shot|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|move|p1b: Incineroar|Parting Shot|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|move|p2b: Whimsicott|Moonblast|p1b: Incineroar
+|-damage|p1b: Incineroar|58/100
+|
+|upkeep
+|turn|4
+|
+|t:|1756160075
+|-terastallize|p2a: Ursaluna|Normal
+|move|p1a: Dragonite|Protect|p1a: Dragonite
+|-singleturn|p1a: Dragonite|Protect
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: hohan92|move: Tailwind
+|move|p2a: Ursaluna|Hyper Voice|p1a: Dragonite|[spread] p1b
+|-activate|p1a: Dragonite|move: Protect
+|-damage|p1b: Incineroar|8/100
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|33/100|[from] item: Sitrus Berry
+|-damage|p2a: Ursaluna|91/100|[from] item: Life Orb
+|move|p1b: Incineroar|Parting Shot|p2a: Ursaluna
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2a: Ursaluna|spa|1
+|
+|t:|1756160093
+|switch|p1b: Whimsicott|Whimsicott, L50, F|1/100 par|[from] Parting Shot
+|
+|-sideend|p1: WallType|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1756160116
+|cant|p1b: Whimsicott|par
+|move|p2b: Whimsicott|Moonblast|p1b: Whimsicott
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|move|p2a: Ursaluna|Earth Power|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|-damage|p2a: Ursaluna|81/100|[from] item: Life Orb
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756160123
+|switch|p1b: MoneyMachine|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1a: Incineroar|Incineroar, L50, F|33/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2b: Whimsicott|atk|1
+|turn|6
+|
+|t:|1756160139
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Incineroar|Fake Out|p2b: Whimsicott
+|-activate|p2b: Whimsicott|move: Psychic Terrain
+|move|p2b: Whimsicott|Fake Tears|p1b: MoneyMachine
+|-activate|p1b: MoneyMachine|move: Psychic Terrain
+|move|p1b: MoneyMachine|Hyper Voice|p2b: Whimsicott|[spread] p2a,p2b
+|-damage|p2a: Indeedee|45/100
+|-damage|p2b: Whimsicott|57/100
+|
+|upkeep
+|turn|7
+|
+|t:|1756160165
+|move|p2a: Indeedee|Expanding Force|p1a: Incineroar|[spread] p1b
+|-immune|p1a: Incineroar
+|-crit|p1b: MoneyMachine
+|-damage|p1b: MoneyMachine|41/100
+|move|p2b: Whimsicott|Moonblast|p1b: MoneyMachine
+|-damage|p1b: MoneyMachine|22/100
+|move|p1a: Incineroar|Flare Blitz|p2b: Whimsicott
+|-supereffective|p2b: Whimsicott
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|-damage|p1a: Incineroar|17/100|[from] Recoil
+|move|p1b: MoneyMachine|Hyper Voice|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-sideend|p2: hohan92|move: Tailwind
+|upkeep
+|
+|t:|1756160172
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M, tera:Normal|81/100
+|turn|8
+|
+|t:|1756160189
+|move|p2b: Ursaluna|Hyper Voice|p1b: MoneyMachine|[spread] p1a,p1b
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: MoneyMachine|0 fnt
+|faint|p1a: Incineroar
+|faint|p1b: MoneyMachine
+|-damage|p2b: Ursaluna|72/100|[from] item: Life Orb
+|
+|win|hohan92
+||WallType is ready for game 2.
+||hohan92 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆WallType
+|player|p1|

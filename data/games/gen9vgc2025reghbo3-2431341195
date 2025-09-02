@@ -1,0 +1,158 @@
+|j|☆Needels
+|j|☆bleepbopboop
+|html|Needelsbleepbopboop    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756502507
+|gametype|doubles
+|player|p1|Needels|eusine|1071
+|player|p2|bleepbopboop|ethan|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,DragonPulse|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Kingambit||AssaultVest|Defiant|IronHead,SuckerPunch,Assurance,LowKick|||F|||50|,,,,,Flying]Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,Earthquake,Protect|||F|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,IceSpinner,Protect|||M|||50|,,,,,Fairy]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,HeatWave,ShadowBall,Overheat|||M|||50|,,,,,Fire]Jumpluff||CovertCloak|Chlorophyll|LeafStorm,SleepPowder,Encore,Tailwind|||F|||50|,,,,,Poison]Torkoal||EjectPack|Drought|Overheat,BurningJealousy,HelpingHand,Protect|||M|||50|,,,,,Flying
+|
+|t:|1756502536
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p1b: Jumpluff|Jumpluff, L50, M, shiny|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, F, shiny|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|1
+|
+|t:|1756502565
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Jumpluff|Sleep Powder|p1b: Jumpluff
+|-immune|p1b: Jumpluff
+|move|p1b: Jumpluff|Tailwind|p1b: Jumpluff
+|-sidestart|p1: Needels|move: Tailwind
+|move|p2b: Torkoal|Burning Jealousy|p1a: Ursaluna|[spread] p1b
+|-activate|p1a: Ursaluna|move: Protect
+|-supereffective|p1b: Jumpluff
+|-damage|p1b: Jumpluff|38/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1756502581
+|move|p1b: Jumpluff|Rage Powder|p1b: Jumpluff
+|-singleturn|p1b: Jumpluff|move: Rage Powder
+|move|p2a: Jumpluff|Sleep Powder||[still]
+|-fail|p2a: Jumpluff
+|move|p1a: Ursaluna|Earthquake|p2b: Torkoal|[spread] p2b
+|-immune|p1b: Jumpluff
+|-immune|p2a: Jumpluff
+|-supereffective|p2b: Torkoal
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756502595
+|switch|p2b: Typhlosion|Typhlosion-Hisui, L50, M, shiny|100/100
+|turn|3
+|
+|t:|1756502647
+|-terastallize|p2b: Typhlosion|Fire
+|move|p1b: Jumpluff|Sleep Powder|p2b: Typhlosion
+|-status|p2b: Typhlosion|slp|[from] move: Sleep Powder
+|move|p2a: Jumpluff|Encore|p1b: Jumpluff
+|-start|p1b: Jumpluff|Encore
+|move|p1a: Ursaluna|Earthquake|p2b: Typhlosion|[spread] p2b
+|-immune|p1b: Jumpluff
+|-immune|p2a: Jumpluff
+|-supereffective|p2b: Typhlosion
+|-damage|p2b: Typhlosion|0 fnt
+|faint|p2b: Typhlosion
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1756502660
+|switch|p2b: Garchomp|Garchomp, L50, F, shiny|100/100
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Needels)
+|
+|t:|1756502709
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Jumpluff|atk|1
+|-unboost|p2b: Garchomp|atk|1
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Jumpluff|Sleep Powder|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|move|p2b: Garchomp|Dragon Claw|p1b: Incineroar
+|-damage|p1b: Incineroar|66/100
+|-damage|p2b: Garchomp|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|83/100 brn|[from] brn
+|-sideend|p1: Needels|move: Tailwind
+|upkeep
+|turn|5
+|inactive|Needels has 30 seconds left.
+|
+|t:|1756502739
+|switch|p1a: Jumpluff|Jumpluff, L50, M, shiny|38/100
+|move|p2a: Jumpluff|Encore||[still]
+|-fail|p2a: Jumpluff
+|move|p2b: Garchomp|Earthquake|p1b: Incineroar|[spread] p1b
+|-immune|p2a: Jumpluff
+|-immune|p1a: Jumpluff
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|3/100
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|28/100|[from] item: Sitrus Berry
+|-damage|p2b: Garchomp|81/100|[from] item: Life Orb
+|move|p1b: Incineroar|Flare Blitz|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|faint|p2a: Jumpluff
+|-damage|p1b: Incineroar|0 fnt|[from] Recoil
+|faint|p1b: Incineroar
+|
+|-weather|none
+|upkeep
+|
+|t:|1756502757
+|switch|p1b: Charizard|Charizard, L50, F, shiny|100/100
+|turn|6
+|
+|t:|1756502773
+|move|p1a: Jumpluff|Tailwind|p1a: Jumpluff
+|-sidestart|p1: Needels|move: Tailwind
+|move|p1b: Charizard|Dragon Pulse|p2b: Garchomp
+|-supereffective|p2b: Garchomp
+|-crit|p2b: Garchomp
+|-damage|p2b: Garchomp|0 fnt
+|faint|p2b: Garchomp
+|
+|win|Needels
+|raw|Needels's rating: 1071 → 1094(+23 for winning)
+|raw|bleepbopboop's rating: 1000 → 1000(+0 for losing)

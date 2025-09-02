@@ -1,0 +1,169 @@
+|j|☆Wooperdooperpooper
+|j|☆gene takavic
+|html|Wooperdooperpoopergene takavic    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756535551
+|gametype|doubles
+|player|p1|Wooperdooperpooper|2|1317
+|player|p2|gene takavic|pryce|1197
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceScarf|SolarPower|HeatWave,Overheat,WeatherBall,ScorchingSands|||F|||50|,,,,,Fire]Indeedee-F||SafetyGoggles|PsychicSurge|DazzlingGleam,FollowMe,TrickRoom,HelpingHand|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,RockSlide,Protect|||F|||50|,,,,,Dragon]Torkoal||Charcoal|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,TrickRoom,WideGuard|||M|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Water
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gene takavic)
+|
+|t:|1756535558
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Hatterene|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1756535570
+|switch|p2b: Charizard|Charizard, L50, M|100/100
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Incineroar|Parting Shot|p1b: Indeedee
+|-unboost|p1b: Indeedee|atk|1
+|-unboost|p1b: Indeedee|spa|1
+|
+|t:|1756535578
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100|[from] Parting Shot
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1756535585
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Charizard|Heat Wave|p1a: Ursaluna|[spread] p1b
+|-activate|p1a: Ursaluna|move: Protect
+|-damage|p1b: Indeedee|56/100
+|move|p2a: Ursaluna|Earthquake|p1a: Ursaluna|[spread] p1b
+|-activate|p1a: Ursaluna|move: Protect
+|-immune|p2b: Charizard
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|
+|-damage|p2a: Ursaluna|95/100 brn|[from] brn
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756535588
+|switch|p1b: Charizard|Charizard, L50, F|100/100
+|turn|3
+|
+|t:|1756535599
+|-terastallize|p1a: Ursaluna|Dragon
+|move|p1b: Charizard|Overheat|p2b: Charizard
+|-resisted|p2b: Charizard
+|-damage|p2b: Charizard|57/100
+|-unboost|p1b: Charizard|spa|2
+|move|p2b: Charizard|Heat Wave|p1a: Ursaluna|[spread] p1a,p1b
+|-resisted|p1a: Ursaluna
+|-resisted|p1b: Charizard
+|-damage|p1a: Ursaluna|76/100 brn
+|-damage|p1b: Charizard|65/100
+|move|p2a: Ursaluna|Facade|p1b: Charizard
+|-damage|p1b: Charizard|0 fnt
+|faint|p1b: Charizard
+|move|p1a: Ursaluna|Facade|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-damage|p1a: Ursaluna|70/100 brn|[from] brn
+|upkeep
+|
+|t:|1756535620
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1b: Hatterene|atk|1
+|turn|4
+|
+|t:|1756535629
+|move|p1b: Hatterene|Protect|p1b: Hatterene
+|-singleturn|p1b: Hatterene|Protect
+|move|p2b: Charizard|Heat Wave|p1a: Ursaluna|[spread] p1a
+|-activate|p1b: Hatterene|move: Protect
+|-resisted|p1a: Ursaluna
+|-damage|p1a: Ursaluna|51/100 brn
+|move|p2a: Incineroar|Knock Off|p1b: Hatterene
+|-activate|p1b: Hatterene|move: Protect
+|move|p1a: Ursaluna|Headlong Rush|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-crit|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Incineroar
+|
+|-damage|p1a: Ursaluna|45/100 brn|[from] brn
+|upkeep
+|
+|t:|1756535631
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|turn|5
+|inactive|gene takavic has 30 seconds left.
+|
+|t:|1756535663
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Charizard|Heat Wave|p1b: Hatterene|[spread] p1b
+|-activate|p1a: Ursaluna|move: Protect
+|-damage|p1b: Hatterene|51/100
+|move|p1b: Hatterene|Expanding Force|p2a: Porygon2|[spread] p2a,p2b
+|-crit|p2a: Porygon2
+|-damage|p2a: Porygon2|21/100
+|-damage|p2b: Charizard|0 fnt
+|faint|p2b: Charizard
+|-damage|p1b: Hatterene|41/100|[from] item: Life Orb
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|-damage|p1a: Ursaluna|39/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756535676
+|move|p1b: Hatterene|Expanding Force|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|-damage|p1b: Hatterene|32/100|[from] item: Life Orb
+|
+|win|Wooperdooperpooper
+|raw|Wooperdooperpooper's rating: 1317 → 1330(+13 for winning)
+|raw|gene takavic's rating: 1197 → 1180(-17 for losing)

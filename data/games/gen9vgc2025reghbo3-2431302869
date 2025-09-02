@@ -1,0 +1,204 @@
+|j|‽Rfriedrich16
+|j|☆Tiplaf
+|html|Rfriedrich16Tiplaf    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756498390
+|gametype|doubles
+|player|p1|Rfriedrich16|unknownf|1119
+|player|p2|Tiplaf|volkner|1040
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Dusclops, L50, F|
+|poke|p1|Dragapult, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Protect,SwordsDance|||M|||50|,,,,,Ghost]Amoonguss||RockyHelmet|Regenerator|Spore,RagePowder,Protect,PollenPuff|||F|||50|,,,,,Dark]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,FlareBlitz,KnockOff|||F|||50|,,,,,Ghost]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|||M|||50|,,,,,Ghost]Dusclops||Eviolite|Pressure|TrickRoom,PainSplit,WillOWisp,NightShade|||F|||50|,,,,,Dark]Dragapult||ChoiceBand|ClearBody|DragonDarts,Uturn,PhantomForce,Outrage|||F|||50|,,,,,Dragon
+|showteam|p2|Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Incineroar||RockyHelmet|Intimidate|Taunt,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Water]Archaludon||AssaultVest|Stamina|DragonPulse,FlashCannon,ElectroShot,BodyPress|||F|||50|,,,,,Bug]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Ground]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,FlipTurn,AquaJet|||M|||50|,,,,,Water
+|
+|t:|1756498472
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dusclops|Dusclops, L50, F, shiny|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-ability|p1a: Dusclops|Pressure
+|turn|1
+|
+|t:|1756498497
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Dusclops
+|-damage|p1a: Dusclops|68/100
+|move|p2a: Pelipper|Hurricane|p1a: Dusclops
+|-damage|p1a: Dusclops|41/100
+|-start|p1a: Dusclops|confusion
+|move|p1b: Amoonguss|Spore|p2b: Archaludon
+|-status|p2b: Archaludon|slp|[from] move: Spore
+|-activate|p1a: Dusclops|confusion
+|move|p1a: Dusclops|Trick Room|p1a: Dusclops
+|-fieldstart|move: Trick Room|[of] p1a: Dusclops
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756498522
+|-activate|p1a: Dusclops|confusion
+|-damage|p1a: Dusclops|36/100|[from] confusion
+|move|p1b: Amoonguss|Spore|p2a: Pelipper
+|-status|p2a: Pelipper|slp|[from] move: Spore
+|cant|p2a: Pelipper|slp
+|cant|p2b: Archaludon|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756498545
+|switch|p1b: Ursaluna|Ursaluna, L50, M, shiny|100/100
+|-activate|p1a: Dusclops|confusion
+|move|p1a: Dusclops|Pain Split|p2b: Archaludon
+|-sethp|p2b: Archaludon|63/100 slp|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|85/100|[from] move: Pain Split
+|-curestatus|p2a: Pelipper|slp|[msg]
+|move|p2a: Pelipper|Hurricane|p1a: Dusclops
+|-damage|p1a: Dusclops|60/100
+|cant|p2b: Archaludon|slp
+|
+|-weather|RainDance|[upkeep]
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1756498586
+|-terastallize|p2b: Archaludon|Bug
+|-end|p1a: Dusclops|confusion
+|move|p1a: Dusclops|Night Shade|p2a: Pelipper
+|-damage|p2a: Pelipper|63/100
+|move|p1b: Ursaluna|Facade|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|cant|p2b: Archaludon|slp
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756498599
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Dusclops|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|turn|5
+|
+|t:|1756498627
+|switch|p1b: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|move|p1a: Dusclops|Pain Split|p2a: Incineroar
+|-sethp|p2a: Incineroar|72/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Dusclops|99/100|[from] move: Pain Split
+|move|p2a: Incineroar|Knock Off|p1a: Dusclops
+|-supereffective|p1a: Dusclops
+|-damage|p1a: Dusclops|42/100
+|-enditem|p1a: Dusclops|Eviolite|[from] move: Knock Off|[of] p2a: Incineroar
+|-curestatus|p2b: Archaludon|slp|[msg]
+|move|p2b: Archaludon|Dragon Pulse|p1b: Amoonguss
+|-damage|p1b: Amoonguss|51/100
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1756498671
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2b: Archaludon|Dragon Pulse|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|move|p2a: Incineroar|Taunt|p1a: Dusclops
+|-start|p1a: Dusclops|move: Taunt
+|cant|p1a: Dusclops|move: Taunt|Trick Room
+|
+|upkeep
+|
+|t:|1756498705
+|switch|p1b: Ursaluna|Ursaluna, L50, M, shiny|95/100 brn
+|turn|7
+|
+|t:|1756498732
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Archaludon|atk|1
+|move|p2b: Archaludon|Dragon Pulse|p1b: Ursaluna
+|-crit|p1b: Ursaluna
+|-damage|p1b: Ursaluna|19/100 brn
+|move|p2a: Incineroar|Parting Shot|p1b: Ursaluna
+|-unboost|p1b: Ursaluna|atk|1
+|-unboost|p1b: Ursaluna|spa|1
+|
+|t:|1756498742
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100|[from] Parting Shot
+|move|p1b: Ursaluna|Headlong Rush|p2a: Basculegion
+|-damage|p2a: Basculegion|24/100
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|
+|-damage|p1b: Ursaluna|13/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1756498779
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2a: Basculegion|Wave Crash|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|-damage|p2a: Basculegion|0 fnt|[from] Recoil
+|faint|p2a: Basculegion
+|move|p2b: Archaludon|Dragon Pulse|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|-damage|p1b: Ursaluna|7/100 brn|[from] brn
+|upkeep
+|
+|t:|1756498790
+|switch|p2a: Incineroar|Incineroar, L50, F|72/100
+|switch|p1a: Dusclops|Dusclops, L50, F, shiny|42/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Dusclops|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|-ability|p1a: Dusclops|Pressure
+|turn|9
+|
+|t:|1756498803
+|move|p2a: Incineroar|Fake Out|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|move|p2b: Archaludon|Dragon Pulse|p1a: Dusclops
+|-damage|p1a: Dusclops|0 fnt
+|faint|p1a: Dusclops
+|
+|win|Tiplaf
+|raw|Rfriedrich16's rating: 1119 → 1088(-31 for losing)
+|raw|Tiplaf's rating: 1040 → 1082(+42 for winning)
+|l|‽Rfriedrich16
+|player|p1|

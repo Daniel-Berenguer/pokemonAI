@@ -25,9 +25,14 @@ with open("data/model_state_dict", "rb") as file:
     state_dict = torch.load(file)
 model.load_state_dict(state_dict)
 
+model.eval()
+
 logits = model.forward(boardInt, boardFeat, pokeInt, pokeFeat, moveInt, moveFeat)
 probs = torch.sigmoid(logits)
+loss = torch.nn.functional.binary_cross_entropy_with_logits(logits, Y)
 
 #print(Y)
 print(probs)
+print(Y)
+print(loss.item())
 

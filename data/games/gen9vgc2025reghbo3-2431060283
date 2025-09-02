@@ -1,0 +1,123 @@
+|j|☆Refanner
+|j|☆furnoz
+|html|Refannerfurnoz    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756474554
+|gametype|doubles
+|player|p1|Refanner|101|1123
+|player|p2|furnoz|wallace|1195
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Talonflame, L50, F|
+|poke|p2|Espeon, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Gallade, L50, M|
+|teampreview|4
+|showteam|p1|Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,StompingTantrum,Protect|||M|||50|,,,,,Fire]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Grass]Tyranitar||AssaultVest|SandStream|KnockOff,RockSlide,TeraBlast,LowKick|||M|||50|,,,,,Flying]Gholdengo||Leftovers|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Flying]Primarina||MagoBerry|LiquidVoice|HyperVoice,Moonblast,CalmMind,Protect|||F|||50|,,,,,Poison]Talonflame||CovertCloak|GaleWings|BraveBird,Tailwind,WillOWisp,Taunt|||F|||50|,,,,,Flying
+|showteam|p2|Espeon||TwistedSpoon|MagicBounce|ExpandingForce,Psychic,Protect,DazzlingGleam|||F|||50|,,,,,Psychic]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,DazzlingGleam,TrickRoom,HelpingHand|||F|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,WideGuard,Tailwind|||M|||50|,,,,,Ghost]Basculegion||ChoiceScarf|Adaptability|WaveCrash,FlipTurn,LastRespects,TeraBlast|||M|||50|,,,,,Fighting]Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,FlashCannon,DracoMeteor|||F|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,NightSlash,Protect|||M|||50|,,,,,Dark
+|
+|t:|1756474625
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100
+|switch|p1b: Talonflame|Talonflame, L50, F|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Espeon|Espeon, L50, F|100/100
+|turn|1
+|
+|t:|1756474699
+|-terastallize|p1b: Talonflame|Flying
+|-terastallize|p2b: Espeon|Psychic
+|move|p1b: Talonflame|Brave Bird|p2b: Espeon
+|-crit|p2b: Espeon
+|-damage|p2b: Espeon|0 fnt
+|faint|p2b: Espeon
+|-damage|p1b: Talonflame|70/100|[from] Recoil
+|move|p2a: Basculegion|Flip Turn|p1b: Talonflame
+|-damage|p1b: Talonflame|10/100
+|
+|t:|1756474710
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100|[from] Flip Turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p1a: Garchomp|Earthquake|p2a: Indeedee|[spread] p2a
+|-immune|p1b: Talonflame
+|-damage|p2a: Indeedee|52/100
+|-damage|p1a: Garchomp|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756474717
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|turn|2
+|
+|t:|1756474730
+|move|p2b: Basculegion|Last Respects|p1b: Talonflame
+|-damage|p1b: Talonflame|0 fnt
+|faint|p1b: Talonflame
+|move|p1a: Garchomp|Earthquake|p2b: Basculegion|[spread] p2a,p2b
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Basculegion|26/100
+|faint|p2a: Indeedee
+|-damage|p1a: Garchomp|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756474747
+|switch|p1b: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p2a: Gallade|Gallade, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|3
+|
+|t:|1756474780
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2b: Basculegion|Last Respects|p1a: Garchomp
+|-activate|p1a: Garchomp|move: Protect
+|move|p2a: Gallade|Sacred Sword|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar
+|-damage|p1b: Tyranitar|0 fnt
+|faint|p1b: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Basculegion|19/100|[from] Sandstorm
+|-damage|p2a: Gallade|95/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756474787
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|turn|4
+|
+|t:|1756474820
+|move|p2b: Basculegion|Last Respects|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|move|p1a: Garchomp|Dragon Claw|p2b: Basculegion
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|-damage|p1a: Garchomp|71/100|[from] item: Life Orb
+|move|p2a: Gallade|Psycho Cut|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|win|furnoz
+||furnoz is ready for game 3.
+||Refanner is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆furnoz
+|player|p2|

@@ -1,0 +1,167 @@
+|j|☆I_LIKE_BREAD7
+|j|☆Kahizar
+|html|I_LIKE_BREAD7Kahizar    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756338764
+|gametype|doubles
+|player|p1|I_LIKE_BREAD7|170|1000
+|player|p2|Kahizar|2|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Primarina, L50, F|
+|poke|p1|Gothitelle, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Murkrow, L50, M|
+|poke|p2|Sylveon, L50, F|
+|poke|p2|Arcanine-Hisui, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Murkrow, L50, F|
+|teampreview|4
+|showteam|p1|Primarina||ThroatSpray|LiquidVoice|Protect,HyperVoice,Moonblast,PerishSong|||F|||50|,,,,,Dragon]Gothitelle||MentalHerb|ShadowTag|Protect,FakeOut,Psychic,TrickRoom|||F|||50|,,,,,Water]Ursaluna-Bloodmoon||LifeOrb|MindsEye|Protect,HyperVoice,EarthPower,BloodMoon|||M|||50|,,,,,Normal]Incineroar||SitrusBerry|Intimidate|Protect,FakeOut,KnockOff,FlareBlitz|||F|||50|,,,,,Grass]Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,ShadowBall,Thunderbolt,PowerGem||||||50|,,,,,Steel]Murkrow||FocusSash|Prankster|Protect,Tailwind,PerishSong,FoulPlay|||M|||50|,,,,,Ghost
+|showteam|p2|Sylveon||ThroatSpray|Pixilate|HyperVoice,Protect,TeraBlast,CalmMind|||F|||50|,,,,,Ground]Arcanine-Hisui||AssaultVest|Intimidate|RockSlide,FlareBlitz,HeadSmash,ExtremeSpeed|||M|||50|,,,,,Grass]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,Protect,HelpingHand|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,Protect,TeraBlast|||F|||50|,,,,,Dark]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Steel]Murkrow||Eviolite|Prankster|Taunt,Tailwind,Haze,FoulPlay|||F|||50|,,,,,Ghost
+|
+|t:|1756338808
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Primarina|Primarina, L50, F|100/100
+|switch|p1b: Gothitelle|Gothitelle, L50, F|100/100
+|switch|p2a: Murkrow|Murkrow, L50, F|100/100
+|switch|p2b: Sylveon|Sylveon, L50, F|100/100
+|turn|1
+|
+|t:|1756338831
+|move|p1b: Gothitelle|Fake Out|p2a: Murkrow
+|-damage|p2a: Murkrow|93/100
+|cant|p2a: Murkrow|flinch
+|move|p2b: Sylveon|Calm Mind|p2b: Sylveon
+|-boost|p2b: Sylveon|spa|1
+|-boost|p2b: Sylveon|spd|1
+|move|p1a: Primarina|Perish Song|p1a: Primarina
+|-start|p1a: Primarina|perish3|[silent]
+|-start|p1b: Gothitelle|perish3|[silent]
+|-start|p2a: Murkrow|perish3|[silent]
+|-start|p2b: Sylveon|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|-enditem|p1a: Primarina|Throat Spray
+|-boost|p1a: Primarina|spa|1|[from] item: Throat Spray
+|
+|-start|p2a: Murkrow|perish3
+|-start|p1b: Gothitelle|perish3
+|-start|p2b: Sylveon|perish3
+|-start|p1a: Primarina|perish3
+|upkeep
+|turn|2
+|
+|t:|1756338862
+|move|p1b: Gothitelle|Protect|p1b: Gothitelle
+|-singleturn|p1b: Gothitelle|Protect
+|move|p1a: Primarina|Protect|p1a: Primarina
+|-singleturn|p1a: Primarina|Protect
+|move|p2a: Murkrow|Tailwind|p2a: Murkrow
+|-sidestart|p2: Kahizar|move: Tailwind
+|move|p2b: Sylveon|Hyper Voice|p1a: Primarina|[spread] 
+|-activate|p1a: Primarina|move: Protect
+|-activate|p1b: Gothitelle|move: Protect
+|
+|-start|p2a: Murkrow|perish2
+|-start|p2b: Sylveon|perish2
+|-start|p1b: Gothitelle|perish2
+|-start|p1a: Primarina|perish2
+|upkeep
+|turn|3
+|
+|t:|1756338884
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Murkrow|atk|1
+|-unboost|p2b: Sylveon|atk|1
+|move|p2a: Murkrow|Foul Play|p1b: Gothitelle
+|-supereffective|p1b: Gothitelle
+|-damage|p1b: Gothitelle|69/100
+|move|p2b: Sylveon|Hyper Voice|p1b: Gothitelle|[spread] p1a,p1b
+|-damage|p1a: Incineroar|39/100
+|-damage|p1b: Gothitelle|24/100
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|64/100|[from] item: Sitrus Berry
+|-enditem|p2b: Sylveon|Throat Spray
+|-boost|p2b: Sylveon|spa|1|[from] item: Throat Spray
+|move|p1b: Gothitelle|Trick Room|p1b: Gothitelle
+|-fieldstart|move: Trick Room|[of] p1b: Gothitelle
+|
+|-start|p1b: Gothitelle|perish1
+|-start|p2b: Sylveon|perish1
+|-start|p2a: Murkrow|perish1
+|upkeep
+|turn|4
+|
+|t:|1756338915
+|switch|p1b: Murkrow|Murkrow, L50, M|100/100
+|move|p1a: Incineroar|Fake Out|p2b: Sylveon
+|-damage|p2b: Sylveon|83/100
+|cant|p2b: Sylveon|flinch
+|move|p2a: Murkrow|Foul Play|p1b: Murkrow
+|-resisted|p1b: Murkrow
+|-damage|p1b: Murkrow|78/100
+|
+|-start|p2b: Sylveon|perish0
+|-start|p2a: Murkrow|perish0
+|faint|p2b: Sylveon
+|faint|p2a: Murkrow
+|upkeep
+|
+|t:|1756338927
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|turn|5
+|
+|t:|1756338945
+|move|p1b: Murkrow|Perish Song|p1b: Murkrow
+|-start|p1a: Incineroar|perish3|[silent]
+|-start|p1b: Murkrow|perish3|[silent]
+|-start|p2a: Sneasler|perish3|[silent]
+|-immune|p2b: Gholdengo|[from] ability: Good as Gold
+|-fieldactivate|move: Perish Song
+|move|p1a: Incineroar|Flare Blitz|p2b: Gholdengo
+|-supereffective|p2b: Gholdengo
+|-damage|p2b: Gholdengo|0 fnt
+|faint|p2b: Gholdengo
+|-damage|p1a: Incineroar|36/100|[from] Recoil
+|move|p2a: Sneasler|Dire Claw|p1b: Murkrow
+|-damage|p1b: Murkrow|0 fnt
+|faint|p1b: Murkrow
+|
+|-start|p1a: Incineroar|perish3
+|-start|p2a: Sneasler|perish3
+|-sideend|p2: Kahizar|move: Tailwind
+|upkeep
+|
+|t:|1756338959
+|switch|p1b: Gothitelle|Gothitelle, L50, F|24/100
+|turn|6
+|
+|t:|1756338973
+|switch|p1a: Primarina|Primarina, L50, F|100/100
+|move|p1b: Gothitelle|Fake Out|p2a: Sneasler
+|-damage|p2a: Sneasler|93/100
+|cant|p2a: Sneasler|flinch
+|
+|-start|p2a: Sneasler|perish2
+|upkeep
+|turn|7
+|-message|Kahizar forfeited.
+|
+|win|I_LIKE_BREAD7
+|raw|I_LIKE_BREAD7's rating: 1000 → 1040(+40 for winning)
+|raw|Kahizar's rating: 1000 → 1000(+0 for losing)
+|l|☆Kahizar
+|player|p2|
+|c|☆I_LIKE_BREAD7|gg

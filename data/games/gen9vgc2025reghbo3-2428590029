@@ -1,0 +1,207 @@
+|j|☆wowiekazowee
+|j|☆n1shan
+|html|wowiekazoween1shan    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756160491
+|gametype|doubles
+|player|p1|wowiekazowee|idol|1108
+|player|p2|n1shan|266|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|showteam|p1|Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,WideGuard|||F|||50|,,,,,Ghost]Basculegion||MysticWater|SwiftSwim|Protect,WaveCrash,AquaJet,LastRespects|||M|||50|,,,,,Water]Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,FlashCannon,BodyPress|||M|||50|,,,,,Grass]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Water]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom||||||50|,,,,,Water]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,SwordsDance,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Sneasler||FocusSash|Unburden|CloseCombat,FakeOut,Protect,DireClaw|||F|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,Protect|||F|||50|,,,,,Fire]Gholdengo||GrassySeed|GoodasGold|NastyPlot,MakeItRain,Protect,ShadowBall||||||50|,,,,,Water]Amoonguss||Leftovers|Regenerator|Protect,Spore,RagePowder,PollenPuff|||F|||50|,,,,,Water]Whimsicott||SitrusBerry|Prankster|Tailwind,DazzlingGleam,Protect,LightScreen|||F|||50|,,,,,Fairy]Ursaluna-Bloodmoon||PowerHerb|MindsEye|BloodMoon,Protect,HeadlongRush,HyperVoice|||M|||50|,,,,,Normal
+|
+|t:|1756160530
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p2a: Gholdengo|Grassy Seed
+|-boost|p2a: Gholdengo|def|1|[from] item: Grassy Seed
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1756160565
+|move|p2b: Rillaboom|Fake Out|p1b: Archaludon
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|97/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|cant|p1b: Archaludon|flinch
+|move|p1a: Pelipper|Hurricane|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|28/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Archaludon|100/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|34/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756160591
+|move|p1a: Pelipper|Wide Guard|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Wide Guard
+|move|p2b: Rillaboom|Grassy Glide|p1a: Pelipper
+|-damage|p1a: Pelipper|62/100
+|move|p2a: Gholdengo|Make It Rain|p1b: Archaludon|[spread] 
+|-activate|p1a: Pelipper|move: Wide Guard
+|-activate|p1b: Archaludon|move: Wide Guard
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Gholdengo
+|-damage|p2a: Gholdengo|30/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gholdengo|36/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|40/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756160611
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Gholdengo
+|-activate|p2a: Gholdengo|move: Protect
+|move|p2b: Rillaboom|Wood Hammer|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|-damage|p2b: Rillaboom|23/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Gholdengo|42/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|29/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756160626
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Gholdengo|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|turn|4
+|
+|t:|1756160658
+|move|p1a: Incineroar|Fake Out|p2b: Rillaboom
+|-damage|p2b: Rillaboom|16/100
+|cant|p2b: Rillaboom|flinch
+|move|p2a: Gholdengo|Make It Rain|p1b: Archaludon|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-resisted|p1b: Archaludon
+|-damage|p1a: Incineroar|50/100
+|-damage|p1b: Archaludon|64/100
+|-unboost|p2a: Gholdengo|spa|1
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Archaludon|70/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|22/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|55/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756160676
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|5
+|
+|t:|1756160694
+|-terastallize|p1b: Archaludon|Grass
+|-terastallize|p2a: Ursaluna|Normal
+|move|p1b: Archaludon|Body Press|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|19/100
+|move|p2b: Rillaboom|Wood Hammer|p1b: Archaludon
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|62/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|-damage|p2b: Rillaboom|20/100|[from] Recoil
+|move|p2a: Ursaluna|Hyper Voice|p1a: Incineroar|[spread] p1a,p1b
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Archaludon|25/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|faint|p1a: Incineroar
+|
+|-weather|none
+|-heal|p1b: Archaludon|31/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|26/100|[from] Grassy Terrain
+|-heal|p2a: Ursaluna|25/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756160712
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|6
+|
+|t:|1756160751
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1b: Archaludon|Flash Cannon|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|move|p1a: Ursaluna|Facade|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756160761
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|turn|7
+|
+|t:|1756160769
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1b: Archaludon|Body Press|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|move|p1a: Ursaluna|Headlong Rush|p2b: Amoonguss
+|-damage|p2b: Amoonguss|4/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|
+|-heal|p2b: Amoonguss|10/100|[from] item: Leftovers
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|8
+|-message|n1shan forfeited.
+|
+|win|wowiekazowee
+|l|☆n1shan
+|player|p2|
+||wowiekazowee is ready for game 2.
+||n1shan is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

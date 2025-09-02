@@ -1,0 +1,124 @@
+|j|☆Samki9
+|j|☆Prince Sparks
+|html|Samki9Prince Sparks    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756518804
+|gametype|doubles
+|player|p1|Samki9|hugh|
+|player|p2|Prince Sparks|gambler|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Vaporeon, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Gallade, L50, M|
+|teampreview|4
+|showteam|p1|Tyranitar||ClearAmulet|SandStream|RockSlide,KnockOff,LowKick,Protect|||M|||50|,,,,,Ghost]Garchomp||ChoiceScarf|SandVeil|DragonClaw,Earthquake,StompingTantrum,IronHead|||M|||50|,,,,,Water]Archaludon||PowerHerb|Stalwart|FlashCannon,DracoMeteor,ElectroShot,Protect|||F|||50|,,,,,Electric]Vaporeon|||WaterAbsorb|Scald,IceBeam,Haze,Yawn|||M|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,FlareBlitz,Taunt|||F|||50|,,,,,Bug]Gallade||LifeOrb|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Stellar
+|showteam|p2|Smeargle||FocusSash|Moody|FollowMe,Spore,TopsyTurvy,FakeOut|||F|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,Protect,HeatWave|||F|||50|,,,,,Fire]Indeedee-F||SafetyGoggles|PsychicSurge|Psychic,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Water]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,MysticalFire,TrickRoom|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Bug]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,WideGuard,TrickRoom|||M|||50|,,,,,Grass
+|
+|t:|1756518834
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Vaporeon|Vaporeon, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Smeargle|Smeargle, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Smeargle|atk|1
+|-fail|p2b: Gallade|unboost|[from] item: Clear Amulet|[of] p2b: Gallade
+|turn|1
+|
+|t:|1756518856
+|move|p2a: Smeargle|Fake Out|p1a: Vaporeon
+|-damage|p1a: Vaporeon|97/100
+|cant|p1a: Vaporeon|flinch
+|move|p1b: Incineroar|Taunt|p2a: Smeargle
+|-start|p2a: Smeargle|move: Taunt
+|move|p2b: Gallade|Trick Room|p2b: Gallade
+|-fieldstart|move: Trick Room|[of] p2b: Gallade
+|
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spe|2
+|-unboost|p2a: Smeargle|def|1
+|upkeep
+|turn|2
+|
+|t:|1756518892
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|-terastallize|p1b: Incineroar|Bug
+|move|p2b: Gallade|Sacred Sword|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|64/100
+|move|p1b: Incineroar|Flare Blitz|p2b: Gallade
+|-damage|p2b: Gallade|31/100
+|-damage|p1b: Incineroar|45/100|[from] Recoil
+|move|p1a: Vaporeon|Scald|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|42/100
+|-status|p2a: Ursaluna|brn
+|
+|-damage|p2a: Ursaluna|36/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1756518931
+|move|p2a: Ursaluna|Headlong Rush|p1a: Vaporeon
+|-damage|p1a: Vaporeon|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Vaporeon
+|move|p2b: Gallade|Psycho Cut|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-damage|p2a: Ursaluna|30/100 brn|[from] brn
+|upkeep
+|
+|t:|1756518939
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|4
+|
+|t:|1756518958
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p1b: Archaludon|Protect|p1b: Archaludon
+|-singleturn|p1b: Archaludon|Protect
+|move|p2b: Gallade|Sacred Sword|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1756518977
+|move|p1a: Tyranitar|Protect||[still]
+|-fail|p1a: Tyranitar
+|move|p2a: Torkoal|Eruption|p1b: Archaludon|[spread] p1a,p1b
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|57/100
+|-damage|p1b: Archaludon|0 fnt
+|faint|p1b: Archaludon
+|move|p2b: Gallade|Sacred Sword|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|win|Prince Sparks
+|l|☆Samki9
+|player|p1|

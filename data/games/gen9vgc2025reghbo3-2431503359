@@ -1,0 +1,136 @@
+|j|☆LookBackInBanger
+|j|☆Zentastic
+|html|LookBackInBangerZentastic    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756524678
+|gametype|doubles
+|player|p1|LookBackInBanger|mina|1068
+|player|p2|Zentastic|169|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Electabuzz, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Sceptile, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Armarouge, L50, M|
+|teampreview|4
+|showteam|p1|Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Haze,Protect|||F|||50|,,,,,Fairy]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Protect|||F|||50|,,,,,Dragon]Indeedee||FocusSash|PsychicSurge|ExpandingForce,HelpingHand,TrickRoom,Imprison|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Stellar]Talonflame||CovertCloak|GaleWings|FlareBlitz,DualWingbeat,WillOWisp,Tailwind|||M|||50|,,,,,Stellar]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal
+|showteam|p2|Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||F|||50|,,,,,Ghost]Indeedee-F||RockyHelmet|PsychicSurge|Psychic,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Psychic]Sceptile||PsychicSeed|Unburden|LeafStorm,ShedTail,GrassPledge,Detect|||M|||50|,,,,,Grass]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Steel]Primarina||ChoiceSpecs|LiquidVoice|HyperVoice,WaterPledge,Moonblast,DazzlingGleam|||F|||50|,,,,,Grass]Armarouge||PowerHerb|FlashFire|ArmorCannon,MeteorBeam,ExpandingForce,TrickRoom|||M|||50|,,,,,Grass
+|
+|t:|1756524750
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Sceptile|Sceptile, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|-enditem|p2b: Sceptile|Psychic Seed
+|-boost|p2b: Sceptile|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756524827
+|move|p2b: Sceptile|Leaf Storm|p1a: Indeedee
+|-damage|p1a: Indeedee|12/100
+|-unboost|p2b: Sceptile|spa|2
+|move|p1b: Sneasler|Throat Chop|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|47/100
+|-start|p2a: Indeedee|Throat Chop|[silent]
+|-damage|p1b: Sneasler|84/100|[from] item: Rocky Helmet|[of] p2a: Indeedee
+|move|p1a: Indeedee|Expanding Force|p2a: Indeedee|[spread] p2a,p2b
+|-resisted|p2a: Indeedee
+|-damage|p2a: Indeedee|20/100
+|-damage|p2b: Sceptile|40/100
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1756524957
+|move|p2a: Indeedee|Psychic|p1a: Indeedee
+|-resisted|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|move|p2b: Sceptile|Leaf Storm|p1b: Sneasler
+|-resisted|p1b: Sneasler
+|-damage|p1b: Sneasler|68/100
+|-unboost|p2b: Sceptile|spa|2
+|move|p1b: Sneasler|Dire Claw|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p1b: Sneasler|52/100|[from] item: Rocky Helmet|[of] p2a: Indeedee
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1756524982
+|switch|p2a: Armarouge|Armarouge, L50, M|100/100
+|switch|p1a: Dragonite|Dragonite, L50, F|100/100
+|turn|3
+|
+|t:|1756525052
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|move|p1b: Sneasler|Protect|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Protect
+|move|p2a: Armarouge|Meteor Beam||[still]
+|-prepare|p2a: Armarouge|Meteor Beam
+|-boost|p2a: Armarouge|spa|1
+|-enditem|p2a: Armarouge|Power Herb
+|-anim|p2a: Armarouge|Meteor Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|32/100
+|move|p1a: Dragonite|Stomping Tantrum|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|48/100
+|
+|upkeep
+|turn|4
+|
+|t:|1756525099
+|move|p1a: Dragonite|Protect|p1a: Dragonite
+|-singleturn|p1a: Dragonite|Protect
+|move|p1b: Sneasler|Protect||[still]
+|-fail|p1b: Sneasler
+|move|p2a: Armarouge|Expanding Force|p1b: Sneasler|[spread] p1b
+|-activate|p1a: Dragonite|move: Protect
+|-supereffective|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|
+|upkeep
+|
+|t:|1756525111
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|5
+|
+|t:|1756525169
+|-terastallize|p1b: Ursaluna|Normal
+|-terastallize|p2b: Gholdengo|Steel
+|move|p2a: Armarouge|Expanding Force|p1a: Dragonite|[spread] p1a,p1b
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1a: Dragonite
+|faint|p1b: Ursaluna
+|
+|win|Zentastic
+||LookBackInBanger is ready for game 3.
+|inactive|Zentastic has 30 seconds to confirm battle start!
+||Zentastic is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

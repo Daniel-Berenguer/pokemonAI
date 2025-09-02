@@ -1,0 +1,90 @@
+|j|☆capspungo
+|j|☆endK649
+|html|capspungoendK649    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756228743
+|gametype|doubles
+|player|p1|capspungo|265|1180
+|player|p2|endK649|102|1122
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Exeggutor, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Zoroark-Hisui, L50, M|
+|poke|p2|Feraligatr, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Protect,Facade,Earthquake,HeadlongRush|||F|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,Psychic,FollowMe,HelpingHand|||F|||50|,,,,,Grass]Exeggutor||FocusSash|Chlorophyll|TrickRoom,ExpandingForce,EnergyBall,SleepPowder|||M|||50|,,,,,Psychic]Torkoal||Charcoal|Drought|Eruption,ClearSmog,Protect,WeatherBall|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,WideGuard,SacredSword|||M|||50|,,,,,Fire]Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,Flamethrower,ShadowBall,TeraBlast|||M|||50|,,,,,Stellar
+|showteam|p2|Feraligatr||LifeOrb|SheerForce|Liquidation,Crunch,DragonDance,Protect|||M|||50|,,,,,Dark]Gholdengo||Leftovers|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Stellar]Amoonguss||CovertCloak|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,FakeOut,Uturn|||F|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|KnockOff,FakeOut,Taunt,PartingShot|||M|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by endK649)
+|
+|t:|1756228788
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Exeggutor|Exeggutor, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p2b: Feraligatr|Feraligatr, L50, M, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Exeggutor|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756228812
+|-terastallize|p1b: Exeggutor|Stellar
+|-terastallize|p2b: Feraligatr|Dark
+|move|p1a: Indeedee|Helping Hand|p1b: Exeggutor
+|-singleturn|p1b: Exeggutor|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Exeggutor|Hyper Voice|p2b: Feraligatr|[spread] p2a,p2b
+|-damage|p2a: Incineroar|10/100
+|-damage|p2b: Feraligatr|0 fnt
+|faint|p2b: Feraligatr
+|move|p2a: Incineroar|Taunt|p1a: Indeedee
+|-start|p1a: Indeedee|move: Taunt
+|
+|upkeep
+|
+|t:|1756228820
+|switch|p2b: Rillaboom|Rillaboom, L50, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|2
+|
+|t:|1756228838
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p1b: Exeggutor|Hyper Voice|p2b: Rillaboom|[spread] p2a,p2b
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Rillaboom|70/100
+|faint|p2a: Incineroar
+|move|p2b: Rillaboom|Wood Hammer|p1b: Exeggutor
+|-crit|p1b: Exeggutor
+|-damage|p1b: Exeggutor|0 fnt
+|replace|p1b: Zoroark|Zoroark-Hisui, L50, M
+|-end|p1b: Zoroark|Illusion
+|faint|p1b: Zoroark
+|-damage|p2b: Rillaboom|49/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Rillaboom|55/100|[from] Grassy Terrain
+|upkeep
+|-message|endK649 forfeited.
+|
+|win|capspungo
+||endK649 is ready for game 2.
+||capspungo is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

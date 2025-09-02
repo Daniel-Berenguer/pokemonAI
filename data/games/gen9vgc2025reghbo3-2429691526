@@ -1,0 +1,153 @@
+|j|☆silknotsong
+|j|☆The median voter
+|html|silknotsongThe median voter    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756303766
+|gametype|doubles
+|player|p1|silknotsong|infielder|1162
+|player|p2|The median voter|scientist-gen4dp|1233
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Kommo-o, L50, F|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Arcanine-Hisui, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Kommo-o||GrassySeed|Overcoat|BodyPress,Taunt,Protect,Flamethrower|||F|||50|,,,,,Fire]Volcarona||SitrusBerry|FlameBody|HeatWave,GigaDrain,QuiverDance,Protect|||M|||50|,,,,,Grass]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,HighHorsepower|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark]Ninetales-Alola||LifeOrb|SnowWarning|Blizzard,Protect,IcyWind,FreezeDry|||F|||50|,,,,,Ghost]Arcanine-Hisui||MirrorHerb|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||M|||50|,,,,,Fairy
+|
+|t:|1756303784
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|switch|p1b: Porygon2|Porygon2, L50|100/100
+|switch|p2a: Kommo-o|Kommo-o, L50, F|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p2a: Kommo-o|Grassy Seed
+|-boost|p2a: Kommo-o|def|1|[from] item: Grassy Seed
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|spa|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1756303801
+|-terastallize|p2a: Kommo-o|Fire
+|move|p1a: Torkoal|Helping Hand|p1b: Porygon2
+|-singleturn|p1b: Porygon2|Helping Hand|[of] p1a: Torkoal
+|move|p2b: Rillaboom|Fake Out|p1a: Torkoal
+|-damage|p1a: Torkoal|89/100
+|move|p2a: Kommo-o|Taunt|p1b: Porygon2
+|-start|p1b: Porygon2|move: Taunt
+|move|p1b: Porygon2|Ice Beam|p2a: Kommo-o
+|-resisted|p2a: Kommo-o
+|-damage|p2a: Kommo-o|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kommo-o|68/100|[from] Grassy Terrain
+|-heal|p1a: Torkoal|95/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756303823
+|move|p1a: Torkoal|Helping Hand|p1b: Porygon2
+|-singleturn|p1b: Porygon2|Helping Hand|[of] p1a: Torkoal
+|move|p2a: Kommo-o|Body Press|p1a: Torkoal
+|-damage|p1a: Torkoal|46/100
+|move|p2b: Rillaboom|High Horsepower|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|move|p1b: Porygon2|Tera Blast|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756303836
+|switch|p2a: Arcanine|Arcanine-Hisui, L50, M|100/100
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1b: Porygon2|atk|1
+|turn|3
+|
+|t:|1756303854
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Arcanine|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|-terastallize|p1b: Porygon2|Fighting
+|move|p2a: Arcanine|Flare Blitz|p1b: Porygon2
+|-damage|p1b: Porygon2|61/100
+|-status|p1b: Porygon2|brn
+|-damage|p2a: Arcanine|86/100|[from] Recoil
+|move|p2b: Rillaboom|Wood Hammer|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|74/100
+|-damage|p2b: Rillaboom|92/100|[from] Recoil
+|move|p1b: Porygon2|Tera Blast|p2a: Arcanine|[anim] Tera Blast Fighting
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Incineroar|80/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|98/100|[from] Grassy Terrain
+|-heal|p1b: Porygon2|68/100 brn|[from] Grassy Terrain
+|-damage|p1b: Porygon2|61/100 brn|[from] brn
+|-end|p1b: Porygon2|move: Taunt
+|upkeep
+|
+|t:|1756303857
+|switch|p2a: Kingambit|Kingambit, L50, M|100/100
+|turn|4
+|
+|t:|1756303880
+|move|p1a: Incineroar|Fake Out|p2b: Rillaboom
+|-damage|p2b: Rillaboom|86/100
+|cant|p2b: Rillaboom|flinch
+|move|p1b: Porygon2|Ice Beam|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|23/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Incineroar|86/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|29/100|[from] Grassy Terrain
+|-heal|p1b: Porygon2|68/100 brn|[from] Grassy Terrain
+|-damage|p1b: Porygon2|61/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1756303894
+|move|p1a: Incineroar|Flare Blitz|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-damage|p1a: Incineroar|52/100|[from] Recoil
+|move|p2b: Rillaboom|High Horsepower|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|5/100
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|30/100|[from] item: Sitrus Berry
+|move|p1b: Porygon2|Tera Blast|p2b: Rillaboom|[anim] Tera Blast Fighting
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|
+|win|silknotsong

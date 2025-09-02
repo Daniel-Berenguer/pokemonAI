@@ -1,0 +1,140 @@
+|j|☆CrusaderJCM
+|j|☆mariodepor
+|html|CrusaderJCMmariodepor    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756413635
+|gametype|doubles
+|player|p1|CrusaderJCM|cheren-gen5bw2|
+|player|p2|mariodepor|clown|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Salamence, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Maushold, L50|
+|teampreview|4
+|showteam|p1|Farigiraf||ThroatSpray|ArmorTail|Psychic,Protect,TrickRoom,HyperVoice|||F|||50|,,,,,Water]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Electabuzz||Eviolite|VitalSpirit|FollowMe,Thunderbolt,Taunt,Protect|||M|||50|,,,,,Ghost]Salamence||CovertCloak|Intimidate|Tailwind,DracoMeteor,AirSlash,Protect|||F|||50|,,,,,Fairy]Sneasler||FocusSash|Unburden|DireClaw,CloseCombat,FakeOut,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Hatterene||CovertCloak|MagicBounce|ExpandingForce,DazzlingGleam,TeraBlast,TrickRoom|||F|||50|,,,,,Fire]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Water]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,EarthPower,WeatherBall|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||M|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Maushold||WideLens|Technician|PopulationBomb,FollowMe,Taunt,Protect||||||50|,,,,,Poison
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mariodepor)
+|
+|t:|1756413657
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756413667
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Electabuzz|Taunt|p2a: Indeedee
+|-start|p2a: Indeedee|move: Taunt
+|move|p1b: Farigiraf|Hyper Voice|p2a: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Indeedee|78/100
+|-damage|p2b: Gallade|70/100
+|-enditem|p1b: Farigiraf|Throat Spray
+|-boost|p1b: Farigiraf|spa|1|[from] item: Throat Spray
+|move|p2b: Gallade|Trick Room|p2b: Gallade
+|-fieldstart|move: Trick Room|[of] p2b: Gallade
+|
+|upkeep
+|turn|2
+|
+|t:|1756413687
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|move|p2b: Gallade|Sacred Sword|p1b: Farigiraf
+|-damage|p1b: Farigiraf|30/100
+|move|p1a: Electabuzz|Taunt|p2b: Gallade
+|-start|p2b: Gallade|move: Taunt
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldend|move: Trick Room
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1756413706
+|switch|p2b: Indeedee|Indeedee-F, L50, F|78/100
+|move|p1a: Electabuzz|Protect|p1a: Electabuzz
+|-singleturn|p1a: Electabuzz|Protect
+|move|p1b: Farigiraf|Psychic|p2a: Ursaluna
+|-damage|p2a: Ursaluna|23/100 brn
+|move|p2a: Ursaluna|Headlong Rush|p1a: Electabuzz
+|-activate|p1a: Electabuzz|move: Protect
+|
+|-damage|p2a: Ursaluna|17/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1756413723
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|move|p1a: Electabuzz|Taunt|p2b: Torkoal
+|-start|p2b: Torkoal|move: Taunt
+|move|p1b: Farigiraf|Hyper Voice|p2a: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Ursaluna|0 fnt
+|-damage|p2b: Torkoal|39/100
+|faint|p2a: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756413734
+|switch|p2a: Indeedee|Indeedee-F, L50, F|78/100
+|turn|5
+|inactive|mariodepor has 30 seconds left.
+|inactive|mariodepor has 20 seconds left.
+|
+|t:|1756413774
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Electabuzz|Taunt|p2a: Indeedee
+|-start|p2a: Indeedee|move: Taunt
+|move|p1b: Farigiraf|Hyper Voice|p2b: Torkoal|[spread] p2a,p2b
+|-damage|p2a: Indeedee|35/100
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756413778
+|switch|p2b: Gallade|Gallade, L50, M|70/100
+|turn|6
+|
+|t:|1756413799
+|move|p1a: Electabuzz|Thunderbolt|p2b: Gallade
+|-damage|p2b: Gallade|43/100
+|move|p1b: Farigiraf|Hyper Voice|p2a: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Gallade|0 fnt
+|faint|p2a: Indeedee
+|faint|p2b: Gallade
+|
+|win|CrusaderJCM
+|c|☆mariodepor|ggs
+|c|☆CrusaderJCM|ggs
+|l|☆mariodepor
+|player|p2|
+|l|☆CrusaderJCM
+|player|p1|
+|j|☆CrusaderJCM
+|player|p1|CrusaderJCM|cheren-gen5bw2|

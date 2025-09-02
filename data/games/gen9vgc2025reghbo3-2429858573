@@ -1,0 +1,87 @@
+|j|☆AndrewsWho
+|j|☆lateralvs
+|html|AndrewsWholateralvs    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756319521
+|gametype|doubles
+|player|p1|AndrewsWho|infielder|
+|player|p2|lateralvs|giovanni|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Porygon2, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Hydreigon, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||M|||50|,,,,,Fairy]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Flying]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Amoonguss||CovertCloak|Regenerator|PollenPuff,Spore,RagePowder,Protect|||F|||50|,,,,,Fire]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Grass]Hydreigon||SafetyGoggles|Levitate|DracoMeteor,Snarl,Tailwind,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1756319589
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, F|100/100
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2b: Hydreigon|Hydreigon, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|1
+|
+|t:|1756319628
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|-enditem|p1b: Torkoal|Eject Pack
+|
+|t:|1756319633
+|switch|p1b: Jumpluff|Jumpluff, L50, F|100/100
+|move|p1a: Charizard|Heat Wave|p2a: Ursaluna|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Ursaluna|7/100
+|-damage|p2b: Incineroar|43/100
+|-enditem|p2b: Incineroar|Sitrus Berry|[eat]
+|-heal|p2b: Incineroar|68/100|[from] item: Sitrus Berry
+|move|p2a: Ursaluna|Headlong Rush|p1b: Jumpluff
+|-immune|p1b: Jumpluff
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|88/100|[from] ability: Solar Power|[of] p1a: Charizard
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1756319655
+|switch|p2a: Hydreigon|Hydreigon, L50, F|100/100
+|-terastallize|p1a: Charizard|Ghost
+|move|p2b: Incineroar|Fake Out|p1a: Charizard
+|-immune|p1a: Charizard
+|move|p1b: Jumpluff|Sleep Powder|p2b: Incineroar
+|-status|p2b: Incineroar|slp|[from] move: Sleep Powder
+|move|p1a: Charizard|Heat Wave|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Hydreigon
+|-resisted|p2b: Incineroar
+|-damage|p2a: Hydreigon|45/100
+|-damage|p2b: Incineroar|14/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|76/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+|turn|3
+|c|☆lateralvs|vabè un giorno imparo a giocare
+|c|☆lateralvs|gg
+|c|☆AndrewsWho|gg
+|-message|lateralvs forfeited.
+|
+|win|AndrewsWho

@@ -1,0 +1,112 @@
+|j|☆emiya1.0
+|j|☆TR Setter
+|html|emiya1.0TR Setter    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756238964
+|gametype|doubles
+|player|p1|emiya1.0|101|1178
+|player|p2|TR Setter|zinzolin|1205
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Kingambit, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||M|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||F|||50|,,,,,Flying
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|HelpingHand,Psychic,TrickRoom,FollowMe|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,WideGuard,TrickRoom|||M|||50|,,,,,Steel]Annihilape||ChoiceScarf|Defiant|FinalGambit,CloseCombat,RageFist,Uturn|||M|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,Protect,EarthPower|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,LowKick,Protect|||M|||50|,,,,,Dark
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TR Setter)
+|
+|t:|1756238994
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M, shiny|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F, shiny|100/100
+|switch|p2a: Gallade|Gallade, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|inactive|emiya1.0 has 30 seconds left.
+|
+|t:|1756239024
+|-terastallize|p2a: Gallade|Steel
+|move|p1b: Sneasler|Throat Chop|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|34/100
+|-start|p2b: Indeedee|Throat Chop|[silent]
+|move|p1a: Indeedee|Trick|p2b: Indeedee
+|-activate|p1a: Indeedee|move: Trick|[of] p2b: Indeedee
+|-item|p2b: Indeedee|Choice Scarf|[from] move: Trick
+|-enditem|p1a: Indeedee|Choice Scarf|[silent]|[from] move: Trick
+|move|p2b: Indeedee|Psychic|p1b: Sneasler
+|-supereffective|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|move|p2a: Gallade|Sacred Sword|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|t:|1756239029
+|switch|p1b: Tyranitar|Tyranitar, L50, F, shiny|100/100
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|2
+|inactive|TR Setter has 30 seconds left.
+|inactive|TR Setter has 20 seconds left.
+|inactive|TR Setter has 15 seconds left.
+|inactive|TR Setter has 10 seconds left.
+|
+|t:|1756239075
+|move|p2b: Indeedee|Psychic|p1b: Tyranitar
+|-immune|p1b: Tyranitar
+|move|p1b: Tyranitar|Knock Off|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-enditem|p2b: Indeedee|Choice Scarf|[from] move: Knock Off|[of] p1b: Tyranitar
+|faint|p2b: Indeedee
+|move|p1a: Ursaluna|Earth Power|p2a: Gallade
+|-supereffective|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|-damage|p1a: Ursaluna|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1756239083
+|switch|p2a: Kingambit|Kingambit, L50, M|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|turn|3
+|
+|t:|1756239098
+|-terastallize|p1a: Ursaluna|Normal
+|move|p1b: Tyranitar|Low Kick|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|move|p1a: Ursaluna|Blood Moon|p2b: Hatterene
+|-damage|p2b: Hatterene|0 fnt
+|faint|p2b: Hatterene
+|-damage|p1a: Ursaluna|81/100|[from] item: Life Orb
+|
+|win|emiya1.0
+||emiya1.0 is ready for game 2.

@@ -1,0 +1,213 @@
+|j|☆orizor
+|j|☆ScrewSalesman
+|html|orizorScrewSalesman    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756512259
+|gametype|doubles
+|player|p1|orizor|170|1228
+|player|p2|ScrewSalesman|cynthia-gen4|1216
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Torkoal, L50, F|
+|teampreview|4
+|showteam|p1|Incineroar||MirrorHerb|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Grass]Farigiraf||ThroatSpray|ArmorTail|HyperVoice,Psychic,TrickRoom,Protect|||M|||50|,,,,,Fairy]Dragapult||ChoiceBand|ClearBody|DragonDarts,TeraBlast,Uturn,PhantomForce|||F|||50|,,,,,Ghost]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Kingambit||AssaultVest|Defiant|KowtowCleave,SuckerPunch,IronHead,LowKick|||F|||50|,,,,,Dark]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,Moonblast,AuroraVeil,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|RagePowder,SunnyDay,Tailwind,SleepPowder|||M|||50|,,,,,Water]Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,DragonPulse|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Overheat,Eruption,HelpingHand,Protect|||F|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ScrewSalesman)
+|inactive|ScrewSalesman has 60 seconds left.
+|j| mirokartlivehc
+|
+|t:|1756512290
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragapult|Dragapult, L50, F|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|1
+|
+|t:|1756512310
+|switch|p1b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|-unboost|p1b: Ninetales|atk|1
+|-terastallize|p1a: Dragapult|Ghost
+|move|p1a: Dragapult|Tera Blast|p2a: Jumpluff|[anim] Tera Blast Ghost
+|-damage|p2a: Jumpluff|0 fnt
+|faint|p2a: Jumpluff
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1756512324
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|2
+|
+|t:|1756512334
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|-enditem|p2a: Torkoal|Eject Pack
+|
+|t:|1756512339
+|switch|p2a: Charizard|Charizard, L50, M, shiny|100/100
+|move|p1b: Ninetales|Protect|p1b: Ninetales
+|-singleturn|p1b: Ninetales|Protect
+|move|p2b: Incineroar|Knock Off|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|84/100
+|-enditem|p1a: Incineroar|Mirror Herb|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|3
+|
+|t:|1756512359
+|-terastallize|p2a: Charizard|Ghost
+|move|p1b: Ninetales|Moonblast|p2a: Charizard
+|-damage|p2a: Charizard|43/100
+|-unboost|p2a: Charizard|spa|1
+|move|p2a: Charizard|Heat Wave|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-supereffective|p1b: Ninetales
+|-damage|p1a: Incineroar|55/100
+|-enditem|p1b: Ninetales|Focus Sash
+|-damage|p1b: Ninetales|1/100
+|move|p2b: Incineroar|Knock Off|p1b: Ninetales
+|-resisted|p1b: Ninetales
+|-damage|p1b: Ninetales|0 fnt
+|faint|p1b: Ninetales
+|move|p1a: Incineroar|Knock Off|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|-enditem|p2a: Charizard|Choice Specs|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756512373
+|switch|p1b: Dragapult|Dragapult, L50, F, tera:Ghost|100/100
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|turn|4
+|
+|t:|1756512387
+|move|p1b: Dragapult|Phantom Force||[still]
+|-prepare|p1b: Dragapult|Phantom Force
+|move|p2b: Incineroar|Knock Off|p1b: Dragapult|[miss]
+|-miss|p2b: Incineroar|p1b: Dragapult
+|move|p1a: Incineroar|Parting Shot|p2a: Torkoal
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2a: Torkoal|spa|1
+|
+|t:|1756512394
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100|[from] Parting Shot
+|move|p2a: Torkoal|Overheat|p1a: Farigiraf
+|-damage|p1a: Farigiraf|46/100
+|-unboost|p2a: Torkoal|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1756512407
+|move|p2a: Torkoal|Helping Hand|p2b: Incineroar
+|-singleturn|p2b: Incineroar|Helping Hand|[of] p2a: Torkoal
+|move|p1a: Farigiraf|Protect|p1a: Farigiraf
+|-singleturn|p1a: Farigiraf|Protect
+|move|p1b: Dragapult|Phantom Force|p2a: Torkoal|[from] lockedmove
+|-damage|p2a: Torkoal|25/100
+|move|p2b: Incineroar|Knock Off|p1b: Dragapult
+|-supereffective|p1b: Dragapult
+|-damage|p1b: Dragapult|0 fnt
+|-enditem|p1b: Dragapult|Choice Band|[from] move: Knock Off|[of] p2b: Incineroar
+|faint|p1b: Dragapult
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756512415
+|switch|p1b: Incineroar|Incineroar, L50, F|55/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|turn|6
+|
+|t:|1756512423
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p1b: Incineroar|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|90/100
+|cant|p2b: Incineroar|flinch
+|move|p1a: Farigiraf|Hyper Voice|p2b: Incineroar|[spread] p2b
+|-activate|p2a: Torkoal|move: Protect
+|-damage|p2b: Incineroar|58/100
+|-enditem|p1a: Farigiraf|Throat Spray
+|-boost|p1a: Farigiraf|spa|1|[from] item: Throat Spray
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1756512438
+|move|p2a: Torkoal|Helping Hand|p2b: Incineroar
+|-singleturn|p2b: Incineroar|Helping Hand|[of] p2a: Torkoal
+|move|p1a: Farigiraf|Protect|p1a: Farigiraf
+|-singleturn|p1a: Farigiraf|Protect
+|move|p2b: Incineroar|Flare Blitz|p1a: Farigiraf
+|-activate|p1a: Farigiraf|move: Protect
+|move|p1b: Incineroar|Parting Shot|p2b: Incineroar
+|-unboost|p2b: Incineroar|atk|1
+|-unboost|p2b: Incineroar|spa|1
+|
+|upkeep
+|turn|8
+|
+|t:|1756512459
+|move|p2a: Torkoal|Helping Hand|p2b: Incineroar
+|-singleturn|p2b: Incineroar|Helping Hand|[of] p2a: Torkoal
+|move|p2b: Incineroar|Flare Blitz|p1a: Farigiraf
+|-damage|p1a: Farigiraf|14/100
+|-damage|p2b: Incineroar|47/100|[from] Recoil
+|-enditem|p2b: Incineroar|Sitrus Berry|[eat]
+|-heal|p2b: Incineroar|72/100|[from] item: Sitrus Berry
+|move|p1a: Farigiraf|Hyper Voice|p2a: Torkoal|[spread] p2a,p2b
+|-damage|p2a: Torkoal|0 fnt
+|-damage|p2b: Incineroar|26/100
+|faint|p2a: Torkoal
+|move|p1b: Incineroar|Parting Shot|p2b: Incineroar
+|-unboost|p2b: Incineroar|atk|1
+|-unboost|p2b: Incineroar|spa|1
+|
+|upkeep
+|turn|9
+|-message|ScrewSalesman forfeited.
+|
+|win|orizor
+||ScrewSalesman is ready for game 2.
+|l|☆orizor
+|player|p1|
+|inactive|orizor has 30 seconds to confirm battle start!
+||orizor is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

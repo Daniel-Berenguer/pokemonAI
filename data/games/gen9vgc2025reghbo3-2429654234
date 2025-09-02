@@ -1,0 +1,109 @@
+|j|☆sapillo
+|j|☆silknotsong
+|html|sapillosilknotsong    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756299769
+|gametype|doubles
+|player|p1|sapillo|266|1202
+|player|p2|silknotsong|infielder|1158
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||F|||50|,,,,,Flying]Excadrill||ClearAmulet|SandRush|Protect,HighHorsepower,IronHead,TeraBlast|||M|||50|,,,,,Flying]Volcarona||CovertCloak|FlameBody|HeatWave,GigaDrain,QuiverDance,Protect|||M|||50|,,,,,Grass]Amoonguss||RockyHelmet|Regenerator|PollenPuff,Spore,Protect,RagePowder|||M|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||M|||50|,,,,,Fairy]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,Protect,NastyPlot||||||50|,,,,,Water
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1756299819
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, F|100/100
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|1
+|
+|t:|1756299861
+|move|p2a: Jumpluff|Tailwind|p2a: Jumpluff
+|-sidestart|p2: silknotsong|move: Tailwind
+|move|p2b: Ursaluna|Facade|p1b: Dragonite
+|-damage|p1b: Dragonite|78/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p1b: Dragonite|Tailwind|p1b: Dragonite
+|-sidestart|p1: sapillo|move: Tailwind
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1756299891
+|-terastallize|p2b: Ursaluna|Ghost
+|move|p1a: Volcarona|Heat Wave|p2a: Jumpluff|[spread] p2a,p2b
+|-supereffective|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|-damage|p2b: Ursaluna|47/100 brn
+|faint|p2a: Jumpluff
+|move|p1b: Dragonite|Scale Shot|p2b: Ursaluna
+|-damage|p2b: Ursaluna|35/100 brn
+|-damage|p2b: Ursaluna|22/100 brn
+|-damage|p2b: Ursaluna|11/100 brn
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|-hitcount|p2: Ursaluna|4
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|
+|upkeep
+|
+|t:|1756299901
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|-unboost|p1b: Dragonite|atk|1
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|atk|1
+|turn|3
+|
+|t:|1756299944
+|switch|p1b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|move|p2a: Incineroar|Fake Out|p1b: Tyranitar
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|95/100
+|move|p1a: Volcarona|Heat Wave|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|74/100
+|-damage|p2b: Porygon2|62/100
+|move|p2b: Porygon2|Trick Room|p2b: Porygon2
+|-fieldstart|move: Trick Room|[of] p2b: Porygon2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Porygon2|56/100|[from] Sandstorm
+|-damage|p2a: Incineroar|68/100|[from] Sandstorm
+|-damage|p1a: Volcarona|94/100|[from] Sandstorm
+|upkeep
+|turn|4
+|-message|silknotsong forfeited.
+|
+|win|sapillo
+||silknotsong is ready for game 2.
+||silknotsong is ready for game 2.

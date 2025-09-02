@@ -1,0 +1,151 @@
+|j|☆Ggbvvv
+|j|☆Daniw9
+|html|GgbvvvDaniw9    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756452466
+|gametype|doubles
+|player|p1|Ggbvvv|1|1124
+|player|p2|Daniw9|101|1178
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Arcanine-Hisui, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Delphox, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|teampreview|4
+|showteam|p1|Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||M|||50|,,,,,Fairy]Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,HyperVoice,EarthPower,VacuumWave|||M|||50|,,,,,Water]Gholdengo||Leftovers|GoodasGold|ShadowBall,MakeItRain,NastyPlot,Protect||||||50|,,,,,Water]Rillaboom||MiracleSeed|GrassySurge|FakeOut,Uturn,GrassyGlide,WoodHammer|||M|||50|,,,,,Poison]Arcanine-Hisui||ChoiceBand|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,TeraBlast|||M|||50|,,,,,Flying]Sneasler||GrassySeed|Unburden|DireClaw,CloseCombat,Taunt,ThroatChop|||F|||50|,,,,,Dark
+|showteam|p2|Garchomp||LifeOrb|SandVeil|Earthquake,StompingTantrum,Protect,DragonClaw|||F|||50|,,,,,Steel]Tyranitar||AssaultVest|SandStream|RockSlide,TeraBlast,KnockOff,LowKick|||M|||50|,,,,,Flying]Delphox||PsychicSeed|Magician|ExpandingForce,HeatWave,TeraBlast,Protect|||F|||50|,,,,,Fairy]Indeedee-F||SafetyGoggles|PsychicSurge|DazzlingGleam,TrickRoom,FollowMe,HelpingHand|||F|||50|,,,,,Water]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,TrickRoom,Protect|||M|||50|,,,,,Grass]Whimsicott||CovertCloak|Prankster|Moonblast,Tailwind,Encore,Protect|||M|||50|,,,,,Ghost
+|
+|t:|1756452527
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1b: Arcanine|Arcanine-Hisui, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Delphox|Delphox, L50, F|100/100
+|-ability|p1b: Arcanine|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Delphox|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Delphox|Psychic Seed
+|-boost|p2b: Delphox|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756452547
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-terastallize|p2b: Delphox|Fairy
+|move|p2a: Indeedee|Helping Hand|p2b: Delphox
+|-singleturn|p2b: Delphox|Helping Hand|[of] p2a: Indeedee
+|move|p2b: Delphox|Expanding Force|p1a: Rillaboom
+|-damage|p1a: Rillaboom|47/100
+|-item|p2b: Delphox|Miracle Seed|[from] ability: Magician|[of] p1a: Rillaboom
+|move|p1b: Arcanine|Rock Slide|p2a: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Indeedee|63/100
+|-damage|p2b: Delphox|41/100
+|
+|-heal|p2b: Delphox|47/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|52/100|[from] Grassy Terrain
+|-heal|p2a: Indeedee|69/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756452581
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p2b: Delphox|Protect|p2b: Delphox
+|-singleturn|p2b: Delphox|Protect
+|move|p1b: Arcanine|Rock Slide|p2b: Delphox|[spread] p2a
+|-activate|p2b: Delphox|move: Protect
+|-damage|p2a: Tyranitar|72/100
+|move|p1a: Rillaboom|U-turn|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|34/100
+|
+|t:|1756452590
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100|[from] U-turn
+|-enditem|p1a: Sneasler|Grassy Seed
+|-boost|p1a: Sneasler|def|1|[from] item: Grassy Seed
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneasler|95/100|[from] Sandstorm
+|-damage|p2b: Delphox|41/100|[from] Sandstorm
+|-heal|p1a: Sneasler|100/100|[from] Grassy Terrain
+|-heal|p2b: Delphox|47/100|[from] Grassy Terrain
+|-heal|p2a: Tyranitar|39/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756452604
+|switch|p2b: Indeedee|Indeedee-F, L50, F|69/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-terastallize|p1a: Sneasler|Dark
+|move|p1a: Sneasler|Close Combat|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Tyranitar
+|move|p1b: Arcanine|Rock Slide|p2b: Indeedee
+|-damage|p2b: Indeedee|21/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneasler|95/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756452617
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|turn|4
+|
+|t:|1756452623
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Sneasler|Dire Claw|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p2a: Whimsicott|Moonblast|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|move|p1b: Arcanine|Rock Slide|p2a: Whimsicott
+|-damage|p2a: Whimsicott|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Whimsicott|26/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756452633
+|switch|p1a: Rillaboom|Rillaboom, L50, M|52/100
+|switch|p2b: Delphox|Delphox, L50, F, tera:Fairy|47/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|5
+|
+|t:|1756452644
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: Daniw9|move: Tailwind
+|move|p1a: Rillaboom|Grassy Glide|p2b: Delphox
+|-damage|p2b: Delphox|0 fnt
+|faint|p2b: Delphox
+|move|p1b: Arcanine|Rock Slide|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|win|Ggbvvv
+||Daniw9 is ready for game 2.
+||Ggbvvv is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆Ggbvvv
+|player|p1|

@@ -1,0 +1,154 @@
+|j|☆SeeYouInSf
+|j|☆snailboss
+|html|SeeYouInSfsnailboss    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756579566
+|gametype|doubles
+|player|p1|SeeYouInSf|266|1100
+|player|p2|snailboss|hilda-wonderlauncher|1232
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Zoroark-Hisui, L50, F|
+|poke|p2|Corviknight, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|showteam|p1|Amoonguss||RockyHelmet|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Porygon2||Eviolite|Download|TeraBlast,TrickRoom,Recover,IceBeam||||||50|,,,,,Fighting]Incineroar||SafetyGoggles|Intimidate|PartingShot,KnockOff,FlareBlitz,FakeOut|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Substitute,Protect|||M|||50|,,,,,Ghost]Tyranitar||AssaultVest|SandStream|LowKick,TeraBlast,RockSlide,KnockOff|||F|||50|,,,,,Fairy
+|showteam|p2|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||F|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|IronHead,Protect,SwordsDance,Earthquake|||F|||50|,,,,,Ground]Indeedee-F||SafetyGoggles|PsychicSurge|TrickRoom,FollowMe,Psychic,HelpingHand|||F|||50|,,,,,Fairy]Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,ShadowBall,HyperBeam,Flamethrower|||F|||50|,,,,,Normal]Corviknight||PsychicSeed|MirrorArmor|BraveBird,PowerTrip,BulkUp,Roost|||M|||50|,,,,,Dragon]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,Protect,ClearSmog|||F|||50|,,,,,Water
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SeeYouInSf)
+|inactive|SeeYouInSf has 60 seconds left.
+|
+|t:|1756579605
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Porygon2|Porygon2, L50|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2a: Excadrill|Excadrill, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|turn|1
+|
+|t:|1756579628
+|-terastallize|p2a: Excadrill|Normal
+|-terastallize|p1b: Ursaluna|Ghost
+|move|p2b: Indeedee|Helping Hand|p2a: Excadrill
+|-singleturn|p2a: Excadrill|Helping Hand|[of] p2b: Indeedee
+|move|p2a: Excadrill|Hyper Beam|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|-mustrecharge|p2a: Excadrill
+|faint|p1a: Porygon2
+|move|p1b: Ursaluna|Headlong Rush|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|replace|p2a: Zoroark|Zoroark-Hisui, L50, F
+|-end|p2a: Zoroark|Illusion
+|faint|p2a: Zoroark
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756579649
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|2
+|
+|t:|1756579667
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Tyranitar|Knock Off|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|move|p1a: Tyranitar|Rock Slide|p2a: Tyranitar|[spread] p2a,p2b
+|-damage|p2a: Tyranitar|71/100
+|-damage|p2b: Indeedee|69/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Ursaluna|95/100 brn|[from] Sandstorm
+|-damage|p1b: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|turn|3
+|inactive|SeeYouInSf has 30 seconds left.
+|inactive|SeeYouInSf has 20 seconds left.
+|
+|t:|1756579705
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Tyranitar|Knock Off|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|-enditem|p1b: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p2a: Tyranitar
+|faint|p1b: Ursaluna
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1756579711
+|switch|p1b: Tyranitar|Tyranitar, L50, F|100/100
+|turn|4
+|
+|t:|1756579731
+|move|p2b: Indeedee|Helping Hand|p2a: Tyranitar
+|-singleturn|p2a: Tyranitar|Helping Hand|[of] p2b: Indeedee
+|move|p1a: Gholdengo|Make It Rain|p2a: Tyranitar|[spread] p2a,p2b
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|8/100
+|-damage|p2b: Indeedee|12/100
+|-unboost|p1a: Gholdengo|spa|1
+|-damage|p1a: Gholdengo|91/100|[from] item: Life Orb
+|move|p2a: Tyranitar|Low Kick|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar
+|-damage|p1b: Tyranitar|0 fnt
+|faint|p1b: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1756579754
+|move|p1a: Gholdengo|Make It Rain|p2a: Tyranitar|[spread] p2a,p2b
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p2b: Indeedee|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Tyranitar
+|faint|p2b: Indeedee
+|-damage|p1a: Gholdengo|81/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756579757
+|switch|p2b: Excadrill|Excadrill, L50, F|100/100
+|turn|6
+|
+|t:|1756579763
+|move|p2b: Excadrill|Earthquake|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|win|snailboss
+|raw|SeeYouInSf's rating: 1100 → 1084(-16 for losing)
+|raw|snailboss's rating: 1232 → 1248(+16 for winning)
+|l|☆SeeYouInSf
+|player|p1|

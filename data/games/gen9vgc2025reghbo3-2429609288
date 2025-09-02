@@ -1,0 +1,140 @@
+|j|☆FinaPalomares
+|j|☆jANMxRin
+|html|FinaPalomaresjANMxRin    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756293902
+|gametype|doubles
+|player|p1|FinaPalomares|1|1040
+|player|p2|jANMxRin|acerola-masters|1031
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Annihilape, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||RockyHelmet|PsychicSurge|Psychic,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Grass]Armarouge||PowerHerb|FlashFire|ExpandingForce,ArmorCannon,MeteorBeam,TrickRoom|||M|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Protect,Eruption,WeatherBall,ClearSmog|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Protect,Substitute,Facade,HeadlongRush|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|Protect,ExpandingForce,DazzlingGleam,TrickRoom|||F|||50|,,,,,Water]Annihilape||ChoiceScarf|Defiant|CloseCombat,ShadowClaw,Uturn,FinalGambit|||M|||50|,,,,,Stellar
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||F|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|
+|t:|1756293970
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756293994
+|move|p2b: Volcarona|Rage Powder|p2b: Volcarona
+|-singleturn|p2b: Volcarona|move: Rage Powder
+|move|p2a: Sneasler|Throat Chop|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|30/100
+|-start|p1a: Indeedee|Throat Chop|[silent]
+|-damage|p2a: Sneasler|84/100|[from] item: Rocky Helmet|[of] p1a: Indeedee
+|move|p1b: Annihilape|U-turn|p2b: Volcarona
+|-resisted|p2b: Volcarona
+|-damage|p2b: Volcarona|88/100
+|
+|t:|1756294002
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100|[from] U-turn
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1756294035
+|-terastallize|p1b: Ursaluna|Ghost
+|move|p2b: Volcarona|Rage Powder|p2b: Volcarona
+|-singleturn|p2b: Volcarona|move: Rage Powder
+|move|p1b: Ursaluna|Headlong Rush|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|faint|p2b: Volcarona
+|move|p1a: Indeedee|Psychic|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|-end|p1a: Indeedee|Throat Chop|[silent]
+|upkeep
+|
+|t:|1756294042
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|3
+|
+|t:|1756294077
+|-terastallize|p2a: Tyranitar|Flying
+|move|p1a: Indeedee|Helping Hand|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Helping Hand|[of] p1a: Indeedee
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1b: Ursaluna|Facade|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|move|p2a: Tyranitar|Knock Off|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|-enditem|p1b: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p2a: Tyranitar
+|faint|p1b: Ursaluna
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Indeedee|24/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|95/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756294088
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|turn|4
+|
+|t:|1756294114
+|move|p1a: Indeedee|Helping Hand|p1b: Hatterene
+|-singleturn|p1b: Hatterene|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Hatterene|Expanding Force|p2a: Tyranitar|[spread] p2a,p2b
+|-damage|p2a: Tyranitar|16/100
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|-damage|p1b: Hatterene|91/100|[from] item: Life Orb
+|move|p2a: Tyranitar|Rock Slide|p1a: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Hatterene|55/100
+|faint|p1a: Indeedee
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Hatterene|49/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|10/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756294126
+|switch|p1a: Annihilape|Annihilape, L50, M|100/100
+|turn|5
+|
+|t:|1756294131
+|move|p1b: Hatterene|Expanding Force|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|-damage|p1b: Hatterene|39/100|[from] item: Life Orb
+|
+|win|FinaPalomares

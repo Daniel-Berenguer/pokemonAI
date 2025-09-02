@@ -1,0 +1,191 @@
+|j|☆Uncreative7452
+|j|☆sam0el
+|html|Uncreative7452sam0el    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756232503
+|gametype|doubles
+|player|p1|Uncreative7452|tuber|1037
+|player|p2|sam0el|veteran|1077
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Mamoswine, L50, F|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Sandslash-Alola, L50, F|
+|poke|p1|Araquanid, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Zoroark-Hisui, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|showteam|p1|Mamoswine||AssaultVest|Oblivious|HighHorsepower,IceShard,IcicleCrash,Trailblaze|||F|||50|,,,,,Grass]Ninetales-Alola||ChoiceSpecs|SnowWarning|Blizzard,DazzlingGleam,FreezeDry,Moonblast|||F|||50|,,,,,Ice]Sandslash-Alola||FocusSash|SlushRush|Earthquake,IronHead,SwordsDance,Protect|||F|||50|,,,,,Ground]Araquanid||Leftovers|WaterBubble|Liquidation,Infestation,WideGuard,Protect|||F|||50|,,,,,Grass]Incineroar||SafetyGoggles|Intimidate|KnockOff,PartingShot,FakeOut,Taunt|||M|||50|,,,,,Ghost]Amoonguss||RockyHelmet|Regenerator|Spore,Protect,PollenPuff,RagePowder|||F|||50|,,,,,Grass
+|showteam|p2|Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,Protect,TrickRoom|||F|||50|,,,,,Fire]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,HelpingHand,TrickRoom,HealPulse|||F|||50|,,,,,Water]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire]Zoroark-Hisui||FocusSash|Illusion|HyperVoice,ShadowBall,SludgeBomb,Flamethrower|||F|||50|,,,,,Stellar]Ursaluna-Bloodmoon||SilkScarf|MindsEye|EarthPower,BloodMoon,HyperVoice,HyperBeam|||M|||50|,,,,,Ground
+|
+|t:|1756232570
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Araquanid|Araquanid, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Gallade|Gallade, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Gallade|unboost|[from] item: Clear Amulet|[of] p2a: Gallade
+|-unboost|p2b: Indeedee|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756232599
+|-terastallize|p1b: Incineroar|Ghost
+|move|p1b: Incineroar|Knock Off|p2a: Gallade
+|-damage|p2a: Gallade|42/100
+|-enditem|p2a: Gallade|Clear Amulet|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2a: Gallade|Sacred Sword|p1b: Incineroar
+|-immune|p1b: Incineroar
+|move|p1a: Araquanid|Infestation|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|94/100
+|-activate|p2b: Indeedee|move: Infestation|[of] p1a: Araquanid
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|-damage|p2b: Indeedee|81/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1756232617
+|move|p2b: Indeedee|Helping Hand|p2a: Gallade
+|-singleturn|p2a: Gallade|Helping Hand|[of] p2b: Indeedee
+|move|p1a: Araquanid|Liquidation|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|move|p1b: Incineroar|Parting Shot|p2b: Indeedee
+|-unboost|p2b: Indeedee|atk|1
+|-unboost|p2b: Indeedee|spa|1
+|
+|t:|1756232628
+|switch|p1b: Ninetales|Ninetales-Alola, L50, F|100/100|[from] Parting Shot
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2b: Indeedee|69/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1756232636
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|3
+|
+|t:|1756232643
+|switch|p1b: Incineroar|Incineroar, L50, M, tera:Ghost|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|-terastallize|p2a: Torkoal|Fire
+|move|p2b: Indeedee|Helping Hand|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Helping Hand|[of] p2b: Indeedee
+|move|p2a: Torkoal|Eruption|p1a: Araquanid|[spread] p1a,p1b
+|-damage|p1a: Araquanid|9/100
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Araquanid|Liquidation|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-crit|p2a: Torkoal
+|-damage|p2a: Torkoal|46/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Araquanid|15/100|[from] item: Leftovers
+|-damage|p2b: Indeedee|56/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1756232660
+|switch|p1b: Mamoswine|Mamoswine, L50, F|100/100
+|turn|4
+|
+|t:|1756232671
+|move|p1a: Araquanid|Wide Guard|p1a: Araquanid
+|-singleturn|p1a: Araquanid|Wide Guard
+|move|p2a: Torkoal|Eruption|p1a: Araquanid|[spread] 
+|-activate|p1a: Araquanid|move: Wide Guard
+|-activate|p1b: Mamoswine|move: Wide Guard
+|move|p2b: Indeedee|Heal Pulse|p2a: Torkoal
+|-heal|p2a: Torkoal|97/100
+|move|p1b: Mamoswine|High Horsepower|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|29/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Araquanid|20/100|[from] item: Leftovers
+|-damage|p2b: Indeedee|44/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1756232708
+|move|p1a: Araquanid|Wide Guard|p1a: Araquanid
+|-singleturn|p1a: Araquanid|Wide Guard
+|move|p2a: Torkoal|Eruption|p1a: Araquanid|[spread] 
+|-activate|p1a: Araquanid|move: Wide Guard
+|-activate|p1b: Mamoswine|move: Wide Guard
+|move|p2b: Indeedee|Heal Pulse|p2a: Torkoal
+|-heal|p2a: Torkoal|79/100
+|move|p1b: Mamoswine|High Horsepower|p2a: Torkoal|[miss]
+|-miss|p1b: Mamoswine|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Araquanid|26/100|[from] item: Leftovers
+|-end|p2b: Indeedee|Infestation|[partiallytrapped]
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756232734
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|move|p1b: Mamoswine|High Horsepower|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|8/100
+|move|p1a: Araquanid|Liquidation|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Araquanid|32/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756232747
+|switch|p2a: Indeedee|Indeedee-F, L50, F|44/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|7
+|
+|t:|1756232763
+|move|p1a: Araquanid|Wide Guard|p1a: Araquanid
+|-singleturn|p1a: Araquanid|Wide Guard
+|move|p1b: Mamoswine|High Horsepower|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|move|p2b: Hatterene|Expanding Force|p1b: Mamoswine|[spread] 
+|-activate|p1a: Araquanid|move: Wide Guard
+|-activate|p1b: Mamoswine|move: Wide Guard
+|
+|-weather|none
+|-heal|p1a: Araquanid|38/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|-message|sam0el forfeited.
+|
+|win|Uncreative7452
+|l|☆sam0el
+|player|p2|
+||Uncreative7452 is ready for game 2.
+||sam0el is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

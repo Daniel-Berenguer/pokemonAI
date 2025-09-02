@@ -1,0 +1,131 @@
+|j|☆limestone7276
+|j|☆battle sim trainer
+|html|limestone7276battle sim trainer    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756218984
+|gametype|doubles
+|player|p1|limestone7276|169|1000
+|player|p2|battle sim trainer|turo|1035
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Porygon-Z, L50|
+|poke|p1|Palafin, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Armarouge, L50, M|
+|teampreview|4
+|showteam|p1|Porygon-Z||LifeOrb|Adaptability|HyperBeam,Protect,DarkPulse,TriAttack||||||50|,,,,,Normal]Palafin||MysticWater|ZerotoHero|FlipTurn,JetPunch,DrainPunch,WaveCrash|||F|||50|,,,,,Water]Volcarona||RockyHelmet|FlameBody|FieryDance,Protect,RagePowder,StruggleBug|||M|||50|,,,,,Grass]Rillaboom||AssaultVest|GrassySurge|DrumBeating,FakeOut,GrassyGlide,WoodHammer|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Earthquake,Facade,HeadlongRush,Protect|||F|||50|,,,,,Ground]Whimsicott||CovertCloak|Prankster|Encore,LightScreen,Moonblast,Tailwind|||F|||50|,,,,,Grass
+|showteam|p2|Ursaluna||FlameOrb|Guts|Earthquake,Facade,Protect,HeadlongRush|||F|||50|,,,,,Ghost]Indeedee-F||RockyHelmet|PsychicSurge|HelpingHand,TrickRoom,FollowMe,Psychic|||F|||50|,,,,,Steel]Torkoal||Charcoal|Drought|Eruption,WeatherBall,ClearSmog,SolarBeam|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,NightSlash,TrickRoom|||M|||50|,,,,,Fire]Annihilape||ChoiceScarf|Defiant|Taunt,CloseCombat,RageFist,FinalGambit|||F|||50|,,,,,Fighting]Armarouge||PsychicSeed|FlashFire|ExpandingForce,Flamethrower,WideGuard,TrickRoom|||M|||50|,,,,,Grass
+|
+|t:|1756219087
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Porygon-Z|Porygon-Z, L50|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p2a: Annihilape|Annihilape, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|turn|1
+|
+|t:|1756219123
+|move|p1a: Porygon-Z|Protect|p1a: Porygon-Z
+|-singleturn|p1a: Porygon-Z|Protect
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2a: Annihilape|Close Combat|p1a: Porygon-Z
+|-activate|p1a: Porygon-Z|move: Protect
+|move|p2b: Gallade|Sacred Sword|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1756219148
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|move|p2a: Annihilape|Close Combat|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|30/100 brn
+|-unboost|p2a: Annihilape|def|1
+|-unboost|p2a: Annihilape|spd|1
+|move|p2b: Gallade|Psycho Cut|p1a: Volcarona
+|-damage|p1a: Volcarona|41/100
+|move|p1b: Ursaluna|Facade|p2b: Gallade
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|
+|-damage|p1b: Ursaluna|24/100 brn|[from] brn
+|upkeep
+|
+|t:|1756219162
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|3
+|
+|t:|1756219217
+|move|p1a: Volcarona|Rage Powder|p1a: Volcarona
+|-singleturn|p1a: Volcarona|move: Rage Powder
+|move|p2a: Annihilape|Close Combat|p1a: Volcarona
+|-resisted|p1a: Volcarona
+|-damage|p1a: Volcarona|16/100
+|-unboost|p2a: Annihilape|def|1
+|-unboost|p2a: Annihilape|spd|1
+|-damage|p2a: Annihilape|84/100|[from] item: Rocky Helmet|[of] p1a: Volcarona
+|-status|p2a: Annihilape|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|move|p1b: Ursaluna|Earthquake|p2b: Indeedee|[spread] p1a,p2a,p2b
+|-damage|p1a: Volcarona|0 fnt
+|-damage|p2a: Annihilape|0 fnt
+|-damage|p2b: Indeedee|36/100
+|faint|p1a: Volcarona
+|faint|p2a: Annihilape
+|move|p2b: Indeedee|Psychic|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|
+|upkeep
+|
+|t:|1756219231
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1b: Porygon-Z|Porygon-Z, L50|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|4
+|
+|t:|1756219257
+|-terastallize|p2a: Torkoal|Fire
+|move|p1a: Rillaboom|Fake Out|p2a: Torkoal
+|-damage|p2a: Torkoal|90/100
+|move|p1b: Porygon-Z|Dark Pulse|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|-damage|p1b: Porygon-Z|91/100|[from] item: Life Orb
+|cant|p2a: Torkoal|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Porygon-Z|97/100|[from] Grassy Terrain
+|-heal|p2a: Torkoal|96/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756219281
+|-terastallize|p1b: Porygon-Z|Normal
+|move|p1b: Porygon-Z|Tri Attack|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|-damage|p1b: Porygon-Z|87/100|[from] item: Life Orb
+|
+|win|limestone7276
+||limestone7276 is ready for game 3.

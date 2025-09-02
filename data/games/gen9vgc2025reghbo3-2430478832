@@ -1,0 +1,262 @@
+|j|☆Bobbo1
+|j|☆Darkan33
+|html|Bobbo1Darkan33    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756399296
+|gametype|doubles
+|player|p1|Bobbo1|ghetsis|1096
+|player|p2|Darkan33|veteran|1098
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Palafin, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p2|Kingdra, L50, F|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Breloom, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|showteam|p1|Palafin||MysticWater|ZerotoHero|IcePunch,JetPunch,WaveCrash,Protect|||F|||50|,,,,,Water]Incineroar||RockyHelmet|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,Uturn|||M|||50|,,,,,Fire]Gholdengo||SpellTag|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water]Volcarona||GrassySeed|FlameBody|QuiverDance,FieryDance,GigaDrain,Protect|||F|||50|,,,,,Grass]Ninetales-Alola||LightClay|SnowWarning|AuroraVeil,Blizzard,Moonblast,Protect|||M|||50|,,,,,Fire
+|showteam|p2|Kingdra||LifeOrb|SwiftSwim|MuddyWater,DracoMeteor,Hurricane,Protect|||F|||50|,,,,,Stellar]Pelipper||CovertCloak|Drizzle|WeatherBall,Hurricane,WideGuard,Tailwind|||M|||50|,,,,,Ghost]Garchomp||LoadedDice|RoughSkin|ScaleShot,Protect,StompingTantrum,Earthquake|||F|||50|,,,,,Steel]Breloom||FocusSash|Technician|MachPunch,BulletSeed,Spore,Protect|||M|||50|,,,,,Steel]Archaludon||AssaultVest|Stamina|BodyPress,FlashCannon,ElectroShot,DragonPulse|||F|||50|,,,,,Grass]Grimmsnarl||LightClay|Prankster|LightScreen,Reflect,SpiritBreak,ThunderWave|||M|||50|,,,,,Ghost
+|
+|t:|1756399362
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|switch|p2b: Breloom|Breloom, L50, M, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|-unboost|p2b: Breloom|atk|1
+|turn|1
+|
+|t:|1756399387
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Protect
+|move|p2b: Breloom|Spore|p1b: Incineroar
+|-status|p1b: Incineroar|slp|[from] move: Spore
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1756399415
+|switch|p2b: Pelipper|Pelipper, L50, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2a: Garchomp|Earthquake|p1b: Incineroar|[spread] p1b
+|-activate|p1a: Gholdengo|move: Protect
+|-immune|p2b: Pelipper
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|50/100 slp
+|cant|p1b: Incineroar|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756399444
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p2b: Pelipper|Wide Guard|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Wide Guard
+|move|p2a: Garchomp|Earthquake|p1a: Gholdengo|[spread] p1a,p1b
+|-activate|p2b: Pelipper|move: Wide Guard
+|-supereffective|p1a: Gholdengo
+|-resisted|p1b: Rillaboom
+|-damage|p1a: Gholdengo|75/100
+|-damage|p1b: Rillaboom|95/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Garchomp|[spread] 
+|-activate|p2a: Garchomp|move: Wide Guard
+|-activate|p2b: Pelipper|move: Wide Guard
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Gholdengo|81/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|100/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756399481
+|-terastallize|p1a: Gholdengo|Water
+|move|p1b: Rillaboom|Fake Out|p2a: Garchomp
+|-damage|p2a: Garchomp|89/100
+|-damage|p1b: Rillaboom|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|cant|p2a: Garchomp|flinch
+|move|p2b: Pelipper|Hurricane|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|21/100
+|move|p1a: Gholdengo|Shadow Ball|p2b: Pelipper
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Garchomp|95/100|[from] Grassy Terrain
+|-heal|p1a: Gholdengo|87/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|27/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756399490
+|switch|p2b: Breloom|Breloom, L50, M, shiny|100/100
+|turn|5
+|
+|t:|1756399505
+|switch|p1b: Incineroar|Incineroar, L50, F|50/100 slp
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|-unboost|p2b: Breloom|atk|1
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p2b: Breloom|Bullet Seed|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|55/100
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|22/100
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|-hitcount|p1: Gholdengo|3
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Garchomp|100/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|56/100 slp|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756399524
+|switch|p1a: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|6
+|
+|t:|1756399561
+|-terastallize|p2a: Garchomp|Steel
+|cant|p1b: Incineroar|slp
+|move|p2a: Garchomp|Stomping Tantrum|p1a: Ninetales
+|-damage|p1a: Ninetales|83/100
+|move|p1a: Ninetales|Blizzard|p2b: Breloom|[spread] p2a,p2b
+|-resisted|p2a: Garchomp
+|-supereffective|p2b: Breloom
+|-damage|p2a: Garchomp|83/100
+|-enditem|p2b: Breloom|Focus Sash
+|-damage|p2b: Breloom|1/100
+|-status|p2a: Garchomp|frz
+|move|p2b: Breloom|Spore|p1a: Ninetales
+|-status|p1a: Ninetales|slp|[from] move: Spore
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Garchomp|89/100 frz|[from] Grassy Terrain
+|-heal|p1a: Ninetales|89/100 slp|[from] Grassy Terrain
+|-heal|p2b: Breloom|7/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|62/100 slp|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1756399582
+|move|p2b: Breloom|Mach Punch|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|22/100 slp
+|-damage|p2b: Breloom|0 fnt|[from] item: Rocky Helmet|[of] p1b: Incineroar
+|faint|p2b: Breloom
+|cant|p2a: Garchomp|frz
+|cant|p1a: Ninetales|slp
+|-curestatus|p1b: Incineroar|slp|[msg]
+|move|p1b: Incineroar|Parting Shot|p2a: Garchomp
+|-unboost|p2a: Garchomp|atk|1
+|-unboost|p2a: Garchomp|spa|1
+|
+|t:|1756399593
+|switch|p1b: Rillaboom|Rillaboom, L50, M|27/100|[from] Parting Shot
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Garchomp|95/100 frz|[from] Grassy Terrain
+|-heal|p1a: Ninetales|96/100 slp|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|32/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756399595
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|turn|8
+|
+|t:|1756399608
+|move|p1b: Rillaboom|Fake Out|p2b: Archaludon
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|96/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|cant|p2a: Garchomp|frz
+|-curestatus|p1a: Ninetales|slp|[msg]
+|move|p1a: Ninetales|Moonblast|p2b: Archaludon
+|-damage|p2b: Archaludon|70/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|cant|p2b: Archaludon|flinch
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1756399624
+|cant|p2a: Garchomp|frz
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Bobbo1|move: Aurora Veil
+|move|p2b: Archaludon|Flash Cannon|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|move|p1b: Rillaboom|U-turn|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|85/100 frz
+|-damage|p1b: Rillaboom|20/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|
+|t:|1756399634
+|switch|p1b: Incineroar|Incineroar, L50, F|22/100|[from] U-turn
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|-unboost|p2b: Archaludon|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1756399639
+|switch|p1a: Rillaboom|Rillaboom, L50, M|20/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|10
+|
+|t:|1756399659
+|cant|p2a: Garchomp|frz
+|move|p2b: Archaludon|Dragon Pulse|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Rillaboom|Wood Hammer|p2b: Archaludon
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|64/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|-damage|p1a: Rillaboom|18/100|[from] Recoil
+|
+|-weather|none
+|-heal|p2a: Garchomp|91/100 frz|[from] Grassy Terrain
+|-heal|p2b: Archaludon|70/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|24/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|-message|Bobbo1 forfeited.
+|
+|win|Darkan33
+|l|☆Bobbo1
+|player|p1|
+||Bobbo1 is ready for game 2.

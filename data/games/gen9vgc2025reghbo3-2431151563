@@ -1,0 +1,229 @@
+|j|☆PursatiEvol
+|j|☆The median voter
+|html|PursatiEvolThe median voter    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756483488
+|gametype|doubles
+|player|p1|PursatiEvol|266|1228
+|player|p2|The median voter|scientist-gen4dp|1191
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Dragapult, L50, M|
+|poke|p1|Primarina, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Magmar, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,FakeOut,Protect|||F|||50|,,,,,Stellar]Dragapult||ChoiceBand|ClearBody|DragonDarts,TeraBlast,PhantomForce,Uturn|||M|||50|,,,,,Ghost]Primarina||SitrusBerry|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||M|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Ghost]Magmar||Eviolite|VitalSpirit|Overheat,WillOWisp,FollowMe,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceSpecs|PsychicSurge|ExpandingForce,HyperVoice,Trick,SkillSwap|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||F|||50|,,,,,Grass]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||F|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|IronHead,Protect,Earthquake,HighHorsepower|||M|||50|,,,,,Ground
+|
+|t:|1756483530
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Dragapult|Dragapult, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756483555
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-terastallize|p2b: Sneasler|Dark
+|move|p1a: Sneasler|Fake Out|p2a: Indeedee
+|-damage|p2a: Indeedee|68/100
+|move|p2b: Sneasler|Throat Chop|p1b: Rillaboom
+|-damage|p1b: Rillaboom|53/100
+|-start|p1b: Rillaboom|Throat Chop|[silent]
+|cant|p2a: Indeedee|flinch
+|
+|-heal|p2a: Indeedee|74/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|59/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756483588
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Sneasler|Close Combat|p2b: Volcarona
+|-resisted|p2b: Volcarona
+|-damage|p2b: Volcarona|59/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|move|p1b: Rillaboom|Wood Hammer|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|-damage|p1b: Rillaboom|27/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneasler|95/100|[from] Sandstorm
+|-damage|p2b: Volcarona|53/100|[from] Sandstorm
+|-damage|p1b: Rillaboom|21/100|[from] Sandstorm
+|-heal|p1a: Sneasler|100/100|[from] Grassy Terrain
+|-heal|p2b: Volcarona|59/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|27/100|[from] Grassy Terrain
+|-end|p1b: Rillaboom|Throat Chop|[silent]
+|upkeep
+|
+|t:|1756483592
+|switch|p2a: Indeedee|Indeedee, L50, M|74/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|3
+|
+|t:|1756483619
+|switch|p1b: Dragapult|Dragapult, L50, M|100/100
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p2b: Volcarona|Tailwind|p2b: Volcarona
+|-sidestart|p2: The median voter|move: Tailwind
+|move|p2a: Indeedee|Expanding Force|p1a: Sneasler|[spread] p1b
+|-activate|p1a: Sneasler|move: Protect
+|-damage|p1b: Dragapult|0 fnt
+|faint|p1b: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Volcarona|53/100|[from] Sandstorm
+|-damage|p2a: Indeedee|68/100|[from] Sandstorm
+|-damage|p1a: Sneasler|95/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756483665
+|switch|p1b: Rillaboom|Rillaboom, L50, M|27/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|4
+|
+|t:|1756483773
+|switch|p2a: Sneasler|Sneasler, L50, M, tera:Dark|100/100
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|move|p1b: Rillaboom|Fake Out|p2b: Volcarona
+|-damage|p2b: Volcarona|35/100
+|-enditem|p2b: Volcarona|Sitrus Berry|[eat]
+|-heal|p2b: Volcarona|60/100|[from] item: Sitrus Berry
+|cant|p2b: Volcarona|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sneasler|95/100|[from] Sandstorm
+|-damage|p2b: Volcarona|54/100|[from] Sandstorm
+|-damage|p1b: Rillaboom|21/100|[from] Sandstorm
+|-heal|p2a: Sneasler|100/100|[from] Grassy Terrain
+|-heal|p2b: Volcarona|60/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|27/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756483817
+|-terastallize|p1a: Kingambit|Ghost
+|move|p1b: Rillaboom|Grassy Glide|p2a: Sneasler
+|-damage|p2a: Sneasler|37/100
+|move|p2a: Sneasler|Close Combat|p1a: Kingambit
+|-immune|p1a: Kingambit
+|move|p2b: Volcarona|Overheat|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|-unboost|p2b: Volcarona|spa|2
+|faint|p1b: Rillaboom
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sneasler|31/100|[from] Sandstorm
+|-damage|p2b: Volcarona|54/100|[from] Sandstorm
+|-damage|p1a: Kingambit|94/100|[from] Sandstorm
+|-heal|p2a: Sneasler|37/100|[from] Grassy Terrain
+|-heal|p2b: Volcarona|60/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756483826
+|switch|p1b: Sneasler|Sneasler, L50, F|95/100
+|turn|6
+|
+|t:|1756483856
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2b: Volcarona|Rage Powder|p2b: Volcarona
+|-singleturn|p2b: Volcarona|move: Rage Powder
+|move|p2a: Sneasler|Dire Claw|p1b: Sneasler
+|-resisted|p1b: Sneasler
+|-damage|p1b: Sneasler|53/100
+|move|p1b: Sneasler|Close Combat|p2b: Volcarona
+|-resisted|p2b: Volcarona
+|-damage|p2b: Volcarona|22/100
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|-status|p1b: Sneasler|brn|[from] ability: Flame Body|[of] p2b: Volcarona
+|-status|p2b: Volcarona|psn|[from] ability: Poison Touch|[of] p1b: Sneasler
+|
+|-weather|none
+|-heal|p2a: Sneasler|42/100|[from] Grassy Terrain
+|-heal|p2b: Volcarona|28/100 psn|[from] Grassy Terrain
+|-heal|p1b: Sneasler|59/100 brn|[from] Grassy Terrain
+|-damage|p2b: Volcarona|16/100 psn|[from] psn
+|-damage|p1b: Sneasler|53/100 brn|[from] brn
+|-sideend|p2: The median voter|move: Tailwind
+|upkeep
+|turn|7
+|
+|t:|1756483894
+|move|p2b: Volcarona|Rage Powder|p2b: Volcarona
+|-singleturn|p2b: Volcarona|move: Rage Powder
+|move|p1b: Sneasler|Close Combat|p2b: Volcarona
+|-resisted|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|faint|p2b: Volcarona
+|move|p2a: Sneasler|Throat Chop|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|29/100
+|-start|p1a: Kingambit|Throat Chop|[silent]
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|-heal|p1b: Sneasler|59/100 brn|[from] Grassy Terrain
+|-heal|p1a: Kingambit|36/100|[from] Grassy Terrain
+|-damage|p1b: Sneasler|53/100 brn|[from] brn
+|upkeep
+|
+|t:|1756483910
+|switch|p2b: Indeedee|Indeedee, L50, M|68/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|8
+|
+|t:|1756483931
+|move|p1b: Sneasler|Dire Claw|p2b: Indeedee
+|-damage|p2b: Indeedee|22/100
+|-status|p2b: Indeedee|slp
+|cant|p2b: Indeedee|slp
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|win|PursatiEvol
+|c|☆The median voter|Well
+||The median voter is ready for game 2.
+|inactive|PursatiEvol has 30 seconds to confirm battle start!
+||PursatiEvol is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆The median voter
+|player|p2|

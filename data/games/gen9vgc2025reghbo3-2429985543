@@ -1,0 +1,153 @@
+|j|☆Trainer Smoke1423
+|j|☆latios66
+|html|Trainer Smoke1423latios66    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756332414
+|gametype|doubles
+|player|p1|Trainer Smoke1423|unknown|1113
+|player|p2|latios66|265|1122
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Tatsugiri-Droopy, L50, F|
+|poke|p1|Dragapult, L50, M|
+|poke|p1|Decidueye-Hisui, L50, M|
+|poke|p1|Arcanine-Hisui, L50, M|
+|poke|p1|Palafin, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Drifblim, L50, M|
+|poke|p2|Delphox, L50, F|
+|poke|p2|Kommo-o, L50, M|
+|poke|p2|Toxtricity, L50, M|
+|poke|p2|Hydreigon, L50, M|
+|teampreview|4
+|showteam|p1|Dondozo||Leftovers|Oblivious|Earthquake,OrderUp,Liquidation,Protect|||M|||50|,,,,,Fairy]Tatsugiri-Droopy||SitrusBerry|Commander|HelpingHand,IcyWind,MuddyWater,DragonPulse|||F|||50|,,,,,Dragon]Dragapult||FocusSash|Infiltrator|SuckerPunch,Uturn,DragonTail,PsychicFangs|||M|||50|,,,,,Fairy]Decidueye-Hisui||ScopeLens|Scrappy|TripleArrows,Uturn,KnockOff,Protect|||M|||50|,,,,,Fire]Arcanine-Hisui||ClearAmulet|RockHead|ExtremeSpeed,FlareBlitz,HeadSmash,WildCharge|||M|||50|,,,,,Ghost]Palafin||LifeOrb|ZerotoHero|JetPunch,FlipTurn,IcePunch,CloseCombat|||M|||50|,,,,,Water
+|showteam|p2|Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,Imprison,TrickRoom|||M|||50|,,,,,Ground]Drifblim||PsychicSeed|Unburden|ShadowBall,WillOWisp,StrengthSap,Tailwind|||M|||50|,,,,,Grass]Delphox||ChoiceScarf|Magician|HeatWave,ExpandingForce,TeraBlast,Trick|||F|||50|,,,,,Ice]Kommo-o||Leftovers|Soundproof|BodyPress,Flamethrower,IronDefense,Protect|||M|||50|,,,,,Fire]Toxtricity||ChoiceSpecs|PunkRock|Overdrive,SludgeBomb,Boomburst,VoltSwitch|||M|||50|,,,,,Normal]Hydreigon||AssaultVest|Levitate|DarkPulse,DracoMeteor,EarthPower,Snarl|||M|||50|,,,,,Ghost
+|
+|t:|1756332481
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dondozo|Dondozo, L50, M, shiny|100/100
+|switch|p1b: Dragapult|Dragapult, L50, M, shiny|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Drifblim|Drifblim, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Drifblim|Psychic Seed
+|-boost|p2b: Drifblim|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756332535
+|move|p2b: Drifblim|Will-O-Wisp|p1a: Dondozo
+|-status|p1a: Dondozo|brn
+|move|p1b: Dragapult|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-enditem|p2a: Indeedee|Focus Sash
+|-damage|p2a: Indeedee|1/100
+|
+|t:|1756332543
+|switch|p1b: Tatsugiri|Tatsugiri-Droopy, L50, F, shiny|100/100|[from] U-turn
+|-activate|p1b: Tatsugiri|ability: Commander|[of] p1a: Dondozo
+|-boost|p1a: Dondozo|atk|2
+|-boost|p1a: Dondozo|spa|2
+|-boost|p1a: Dondozo|spe|2
+|-boost|p1a: Dondozo|def|2
+|-boost|p1a: Dondozo|spd|2
+|move|p2a: Indeedee|Expanding Force|p1a: Dondozo|[spread] p1a
+|-miss|p2a: Indeedee|p1b: Tatsugiri
+|-damage|p1a: Dondozo|76/100 brn
+|move|p1a: Dondozo|Earthquake|p2b: Drifblim|[spread] p2a
+|-miss|p1a: Dondozo|p1b: Tatsugiri
+|-immune|p2b: Drifblim
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-heal|p1a: Dondozo|82/100 brn|[from] item: Leftovers
+|-damage|p1a: Dondozo|76/100 brn|[from] brn
+|upkeep
+|
+|t:|1756332568
+|switch|p2a: Toxtricity|Toxtricity, L50, M|100/100
+|turn|2
+|
+|t:|1756332585
+|-terastallize|p2a: Toxtricity|Normal
+|move|p2b: Drifblim|Strength Sap|p1a: Dondozo
+|-unboost|p1a: Dondozo|atk|1
+|move|p2a: Toxtricity|Overdrive|p1a: Dondozo|[spread] p1a
+|-miss|p2a: Toxtricity|p1b: Tatsugiri
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|22/100 brn
+|move|p1a: Dondozo|Earthquake|p2a: Toxtricity|[spread] p2a
+|-miss|p1a: Dondozo|p1b: Tatsugiri
+|-immune|p2b: Drifblim
+|-damage|p2a: Toxtricity|77/100
+|
+|-heal|p1a: Dondozo|28/100 brn|[from] item: Leftovers
+|-damage|p1a: Dondozo|22/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1756332605
+|move|p2b: Drifblim|Tailwind|p2b: Drifblim
+|-sidestart|p2: latios66|move: Tailwind
+|move|p2a: Toxtricity|Overdrive|p1a: Dondozo|[spread] p1a
+|-miss|p2a: Toxtricity|p1b: Tatsugiri
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|
+|upkeep
+|
+|t:|1756332617
+|switch|p1a: Dragapult|Dragapult, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1756332642
+|move|p2b: Drifblim|Shadow Ball|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|24/100
+|move|p2a: Toxtricity|Overdrive|p1b: Tatsugiri|[spread] p1a,p1b
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p1b: Tatsugiri|33/100
+|-enditem|p1b: Tatsugiri|Sitrus Berry|[eat]
+|-heal|p1b: Tatsugiri|58/100|[from] item: Sitrus Berry
+|faint|p1a: Dragapult
+|move|p1b: Tatsugiri|Icy Wind|p2b: Drifblim|[spread] p2a,p2b
+|-supereffective|p2b: Drifblim
+|-damage|p2a: Toxtricity|55/100
+|-damage|p2b: Drifblim|82/100
+|-unboost|p2a: Toxtricity|spe|1
+|-unboost|p2b: Drifblim|spe|1
+|
+|upkeep
+|
+|t:|1756332656
+|switch|p1a: Arcanine|Arcanine-Hisui, L50, M, shiny|100/100
+|turn|5
+|
+|t:|1756332675
+|move|p2b: Drifblim|Shadow Ball|p1a: Arcanine
+|-damage|p1a: Arcanine|69/100
+|move|p2a: Toxtricity|Overdrive|p1b: Tatsugiri|[spread] p1a,p1b
+|-damage|p1a: Arcanine|3/100
+|-damage|p1b: Tatsugiri|0 fnt
+|faint|p1b: Tatsugiri
+|move|p1a: Arcanine|Flare Blitz|p2b: Drifblim
+|-damage|p2b: Drifblim|19/100
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|-message|Trainer Smoke1423 forfeited.
+|
+|win|latios66
+|l|☆Trainer Smoke1423
+|player|p1|
+||Trainer Smoke1423 is ready for game 2.

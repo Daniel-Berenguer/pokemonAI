@@ -1,0 +1,183 @@
+|j|☆fili53
+|j|☆hermit5
+|html|fili53hermit5    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756153530
+|gametype|doubles
+|player|p1|fili53|cress|1118
+|player|p2|hermit5|red|1041
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Arcanine-Hisui, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Clefable, L50, F|
+|poke|p1|Inteleon, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Dragapult, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Arcanine-Hisui||ClearAmulet|Intimidate|FlareBlitz,RockSlide,ExtremeSpeed,Protect|||M|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Clefable||SafetyGoggles|Unaware|Moonblast,FollowMe,HelpingHand,Protect|||F|||50|,,,,,Poison]Inteleon||RazorClaw|Sniper|SnipeShot,IceBeam,Taunt,Protect|||F|||50|,,,,,Water]Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,FakeOut,Protect|||F|||50|,,,,,Stellar]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,PhantomForce,Uturn|||M|||50|,,,,,Dragon
+|showteam|p2|Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,Haze,ExtremeSpeed|||F|||50|,,,,,Fairy]Sneasler||PsychicSeed|Unburden|Coaching,CloseCombat,DireClaw,Protect|||M|||50|,,,,,Flying]Indeedee-F||FocusSash|PsychicSurge|FollowMe,TrickRoom,HelpingHand,Psychic|||F|||50|,,,,,Fairy]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||F|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Ghost
+|
+|t:|1756153567
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Inteleon|Inteleon, L50, F|100/100
+|switch|p1b: Clefable|Clefable, L50, F|100/100
+|switch|p2a: Dragonite|Dragonite, L50, F, shiny|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|turn|1
+|
+|t:|1756153593
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|move|p1b: Clefable|Follow Me|p1b: Clefable
+|-singleturn|p1b: Clefable|move: Follow Me
+|move|p2b: Sneasler|Dire Claw|p1b: Clefable
+|-supereffective|p1b: Clefable
+|-damage|p1b: Clefable|32/100
+|-status|p1b: Clefable|psn
+|move|p1a: Inteleon|Snipe Shot|p2b: Sneasler
+|-crit|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|-damage|p1b: Clefable|20/100 psn|[from] psn
+|upkeep
+|
+|t:|1756153617
+|switch|p2b: Dragonite|Dragonite, L50, F, shiny|100/100
+|turn|2
+|
+|t:|1756153638
+|switch|p1b: Arcanine|Arcanine-Hisui, L50, M|100/100
+|-ability|p1b: Arcanine|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Dragonite|atk|1
+|move|p1a: Inteleon|Protect|p1a: Inteleon
+|-singleturn|p1a: Inteleon|Protect
+|move|p2b: Dragonite|Protect|p2b: Dragonite
+|-singleturn|p2b: Dragonite|Protect
+|move|p2a: Indeedee|Psychic|p1a: Inteleon
+|-activate|p1a: Inteleon|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1756153668
+|-terastallize|p2a: Indeedee|Fairy
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Inteleon|Snipe Shot|p2b: Dragonite
+|-resisted|p2b: Dragonite
+|-damage|p2b: Dragonite|89/100
+|move|p1b: Arcanine|Rock Slide|p2b: Dragonite|[spread] p2a
+|-miss|p1b: Arcanine|p2b: Dragonite
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|63/100
+|move|p2b: Dragonite|Scale Shot|p1a: Inteleon
+|-damage|p1a: Inteleon|83/100
+|-damage|p1a: Inteleon|66/100
+|-damage|p1a: Inteleon|49/100
+|-damage|p1a: Inteleon|31/100
+|-hitcount|p1a: Inteleon|4
+|-unboost|p2b: Dragonite|def|1
+|-boost|p2b: Dragonite|spe|1
+|
+|upkeep
+|turn|4
+|
+|t:|1756153711
+|switch|p1a: Clefable|Clefable, L50, F|20/100 psn
+|move|p2b: Dragonite|Protect|p2b: Dragonite
+|-singleturn|p2b: Dragonite|Protect
+|move|p1b: Arcanine|Rock Slide|p2a: Indeedee|[spread] p2a
+|-activate|p2b: Dragonite|move: Protect
+|-damage|p2a: Indeedee|40/100
+|cant|p2a: Indeedee|flinch
+|
+|-damage|p1a: Clefable|7/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1756153735
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|move|p1a: Clefable|Helping Hand|p1b: Arcanine
+|-singleturn|p1b: Arcanine|Helping Hand|[of] p1a: Clefable
+|move|p1b: Arcanine|Rock Slide|p2b: Ursaluna|[spread] p2a
+|-miss|p1b: Arcanine|p2b: Ursaluna
+|-damage|p2a: Indeedee|6/100
+|move|p2a: Indeedee|Psychic|p1b: Arcanine
+|-damage|p1b: Arcanine|55/100
+|
+|-damage|p1a: Clefable|0 fnt|[from] psn
+|faint|p1a: Clefable
+|-fieldend|move: Psychic Terrain
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fili53)
+|
+|t:|1756153743
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|6
+|
+|t:|1756153760
+|move|p2a: Indeedee|Helping Hand|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Helping Hand|[of] p2a: Indeedee
+|move|p1b: Arcanine|Rock Slide|p2b: Ursaluna|[spread] p2a
+|-miss|p1b: Arcanine|p2b: Ursaluna
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|move|p1a: Rillaboom|Wood Hammer|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|-damage|p1a: Rillaboom|66/100|[from] Recoil
+|
+|-heal|p1b: Arcanine|61/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|72/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756153777
+|switch|p2a: Dragonite|Dragonite, L50, F, shiny|89/100
+|turn|7
+|
+|t:|1756153794
+|move|p1b: Arcanine|Rock Slide|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|17/100
+|move|p2a: Dragonite|Scale Shot|p1b: Arcanine
+|-damage|p1b: Arcanine|43/100
+|-damage|p1b: Arcanine|26/100
+|-damage|p1b: Arcanine|9/100
+|-damage|p1b: Arcanine|0 fnt
+|faint|p1b: Arcanine
+|-hitcount|p1: Arcanine|4
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Rillaboom|Wood Hammer|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-damage|p1a: Rillaboom|67/100|[from] Recoil
+|
+|win|fili53
+|inactive|fili53 has 30 seconds to confirm battle start!
+|inactive|hermit5 has 30 seconds to confirm battle start!
+||hermit5 is ready for game 2.
+||fili53 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆fili53
+|player|p1|

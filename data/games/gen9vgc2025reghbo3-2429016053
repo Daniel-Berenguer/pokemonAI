@@ -1,0 +1,122 @@
+|j|☆silknotsong
+|j|☆supremeenchilada
+|html|silknotsongsupremeenchilada    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756219728
+|gametype|doubles
+|player|p1|silknotsong|infielder|1136
+|player|p2|supremeenchilada|janitor|1097
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Murkrow, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,Psychic,TrickRoom,Trick|||M|||50|,,,,,Psychic]Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Haze,Protect|||M|||50|,,,,,Fairy]Archaludon||AssaultVest|Stamina|DracoMeteor,ElectroShot,FlashCannon,BodyPress|||M|||50|,,,,,Grass]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||M|||50|,,,,,Fairy]Murkrow||Eviolite|Prankster|Tailwind,FoulPlay,Protect,RainDance|||F|||50|,,,,,Ghost
+|showteam|p2|Amoonguss||RockyHelmet|EffectSpore|Protect,Spore,RagePowder,PollenPuff|||M|||50|,,,,,Rock]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Bug]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,Psychic,FollowMe,Protect|||F|||50|,,,,,Dark]Hatterene||LifeOrb|MagicBounce|DazzlingGleam,ExpandingForce,Protect,TrickRoom|||F|||50|,,,,,Psychic]Torkoal||Charcoal|Drought|Eruption,HeatWave,SolarBeam,AncientPower|||M|||50|,,,,,Flying]Ursaluna||FlameOrb|Guts|Protect,HeadlongRush,Earthquake,Facade|||M|||50|,,,,,Grass
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by supremeenchilada)
+|
+|t:|1756219777
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p2a: Hatterene|Hatterene, L50, F, shiny|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756219798
+|move|p1b: Amoonguss|Protect|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|Protect
+|move|p1a: Indeedee|Trick|p2a: Hatterene
+|-activate|p1a: Indeedee|move: Trick|[of] p2a: Hatterene
+|-item|p2a: Hatterene|Choice Scarf|[from] move: Trick
+|-item|p1a: Indeedee|Life Orb|[from] move: Trick
+|move|p2a: Hatterene|Expanding Force|p1b: Amoonguss|[spread] p1a
+|-activate|p1b: Amoonguss|move: Protect
+|-resisted|p1a: Indeedee
+|-damage|p1a: Indeedee|54/100
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|upkeep
+|turn|2
+|inactive|silknotsong has 30 seconds left.
+|
+|t:|1756219827
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|move|p2b: Indeedee|Protect|p2b: Indeedee
+|-singleturn|p2b: Indeedee|Protect
+|move|p2a: Hatterene|Expanding Force|p1a: Dragonite|[spread] p1a,p1b
+|-supereffective|p1b: Amoonguss
+|-crit|p1b: Amoonguss
+|-damage|p1a: Dragonite|64/100
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|
+|upkeep
+|
+|t:|1756219837
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|3
+|
+|t:|1756219854
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|-terastallize|p1b: Sneasler|Dark
+|move|p1a: Dragonite|Protect|p1a: Dragonite
+|-singleturn|p1a: Dragonite|Protect
+|move|p2a: Hatterene|Expanding Force|p1b: Sneasler|[spread] 
+|-activate|p1a: Dragonite|move: Protect
+|-immune|p1b: Sneasler
+|move|p1b: Sneasler|Dire Claw|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756219866
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|4
+|inactive|supremeenchilada has 30 seconds left.
+|inactive|silknotsong has 30 seconds left.
+|
+|t:|1756219911
+|switch|p1a: Indeedee|Indeedee, L50, M|54/100
+|-terastallize|p2a: Torkoal|Flying
+|move|p2a: Torkoal|Eruption|p1b: Sneasler|[spread] p1a,p1b
+|-crit|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Sneasler|27/100
+|faint|p1a: Indeedee
+|move|p2b: Ursaluna|Facade|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|-message|silknotsong forfeited.
+|
+|win|supremeenchilada

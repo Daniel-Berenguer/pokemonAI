@@ -1,0 +1,103 @@
+|j|☆whatshaniniiiii
+|j|☆kariuus
+|html|whatshaniniiiiikariuus    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756501748
+|gametype|doubles
+|player|p1|whatshaniniiiii|101|1000
+|player|p2|kariuus|102|1098
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Maushold, L50|
+|poke|p2|Archaludon, L50, F|
+|teampreview|4
+|showteam|p1|Tyranitar||ChoiceScarf|SandStream|RockSlide,KnockOff,LowKick,HighHorsepower|||F|||50|,,,,,Flying]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Talonflame||SafetyGoggles|GaleWings|BraveBird,Taunt,WillOWisp,Tailwind|||M|||50|,,,,,Flying]Indeedee||FocusSash|PsychicSurge|TrickRoom,ExpandingForce,Imprison,TeraBlast|||M|||50|,,,,,Fighting]Amoonguss||RockyHelmet|Regenerator|Spore,RagePowder,ClearSmog,Protect|||F|||50|,,,,,Water]Garchomp||LifeOrb|SandVeil|Earthquake,RockSlide,DragonClaw,Protect|||F|||50|,,,,,Dragon
+|showteam|p2|Annihilape||Leftovers|Defiant|DrainPunch,RageFist,BulkUp,Protect|||F|||50|,,,,,Water]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,LifeDew,Protect||||||50|,,,,,Water]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Pelipper||FocusSash|Drizzle|WeatherBall,Protect,Tailwind,Hurricane|||F|||50|,,,,,Ghost]Maushold||SafetyGoggles|FriendGuard|Taunt,BeatUp,FollowMe,Protect||||||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|DracoMeteor,ElectroShot,Snarl,BodyPress|||F|||50|,,,,,Bug
+|
+|t:|1756501786
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Annihilape|Annihilape, L50, F|100/100
+|switch|p2b: Maushold|Maushold, L50|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756501836
+|-terastallize|p2b: Maushold|Ghost
+|move|p1a: Sneasler|Dire Claw|p2a: Annihilape
+|-resisted|p2a: Annihilape
+|-crit|p2a: Annihilape
+|-damage|p2a: Annihilape|74/100
+|move|p2b: Maushold|Beat Up|p2a: Annihilape
+|-damage|p2a: Annihilape|71/100
+|-damage|p2a: Annihilape|69/100
+|-damage|p2a: Annihilape|67/100
+|-damage|p2a: Annihilape|63/100
+|-hitcount|p2a: Annihilape|4
+|move|p1b: Indeedee|Expanding Force|p2b: Maushold|[spread] p2a,p2b
+|-supereffective|p2a: Annihilape
+|-damage|p2a: Annihilape|0 fnt
+|-damage|p2b: Maushold|36/100
+|faint|p2a: Annihilape
+|
+|upkeep
+|
+|t:|1756501855
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|2
+|
+|t:|1756501870
+|move|p2b: Maushold|Protect|p2b: Maushold
+|-singleturn|p2b: Maushold|Protect
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Sneasler|Close Combat|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|move|p1b: Indeedee|Expanding Force|p2b: Maushold|[spread] 
+|-activate|p2a: Ursaluna|move: Protect
+|-activate|p2b: Maushold|move: Protect
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1756501884
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p1a: Sneasler|Close Combat|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Ursaluna
+|move|p1b: Indeedee|Expanding Force|p2b: Pelipper
+|-damage|p2b: Pelipper|16/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|kariuus forfeited.
+|
+|win|whatshaniniiiii
+|raw|whatshaniniiiii's rating: 1000 → 1051(+51 for winning)
+|raw|kariuus's rating: 1098 → 1067(-31 for losing)
+|l|☆kariuus
+|player|p2|

@@ -1,0 +1,216 @@
+|j|☆Okami_6
+|j|☆MAF1010
+|html|Okami_6MAF1010    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756612855
+|gametype|doubles
+|player|p1|Okami_6|perrin|1045
+|player|p2|MAF1010|unknown|1087
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Glimmora, L50, F|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Tatsugiri, L50, F|
+|poke|p2|Murkrow, L50, M|
+|poke|p2|Ditto, L50|
+|poke|p2|Weezing-Galar, L50, F|
+|poke|p2|Milotic, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Tsareena, L50, F|
+|teampreview|4
+|showteam|p1|Dragonite||LoadedDice|InnerFocus|ExtremeSpeed,ScaleShot,StompingTantrum,Protect|||F|||50|,,,,,Normal]Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,ShadowBall,Thunderbolt,Trick||||||50|,,,,,Steel]Talonflame||CovertCloak|GaleWings|Tailwind,Taunt,BraveBird,WillOWisp|||M|||50|,,,,,Flying]Glimmora||FocusSash|ToxicDebris|SludgeBomb,EarthPower,MortalSpin,SpikyShield|||F|||50|,,,,,Grass]Dondozo||Leftovers|Unaware|OrderUp,WaveCrash,Earthquake,Protect|||M|||50|,,,,,Grass]Tatsugiri||ChoiceScarf|Commander|DracoMeteor,MuddyWater,IcyWind,DragonPulse|||F|||50|,,,,,Water
+|showteam|p2|Murkrow||LumBerry|Prankster|Quash,ThunderWave,PerishSong,Tailwind|||M|||50|,,,,,Dark]Ditto||MirrorHerb|Imposter|Transform||||||50|,,,,,Normal]Weezing-Galar||EjectButton|NeutralizingGas|ClearSmog,Protect,DazzlingGleam,PainSplit|||F|||50|,,,,,Poison]Milotic||LifeOrb|Competitive|PsychUp,IcyWind,DrainingKiss,Scald|||M|||50|,,,,,Fairy]Archaludon||PowerHerb|Stamina|BodyPress,ElectroShot,IronHead,Snarl|||F|||50|,,,,,Electric]Tsareena||FocusSash|SweetVeil|TeeterDance,Uturn,SeedBomb,KnockOff|||F|||50|,,,,,Dark
+|
+|t:|1756612885
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Glimmora|Glimmora, L50, F|100/100
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100
+|switch|p2a: Weezing|Weezing-Galar, L50, F|100/100
+|switch|p2b: Tsareena|Tsareena, L50, F|100/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1756612899
+|move|p1b: Dragonite|Protect|p1b: Dragonite
+|-singleturn|p1b: Dragonite|Protect
+|move|p2a: Weezing|Protect|p2a: Weezing
+|-singleturn|p2a: Weezing|Protect
+|move|p1a: Glimmora|Earth Power|p2a: Weezing
+|-activate|p2a: Weezing|move: Protect
+|move|p2b: Tsareena|Teeter Dance|p1a: Glimmora|[spread] p1a
+|-activate|p2a: Weezing|move: Protect
+|-activate|p1b: Dragonite|move: Protect
+|-start|p1a: Glimmora|confusion
+|
+|upkeep
+|turn|2
+|
+|t:|1756612919
+|-activate|p1a: Glimmora|confusion
+|move|p1a: Glimmora|Mortal Spin|p2a: Weezing|[spread] p2a,p2b
+|-supereffective|p2b: Tsareena
+|-damage|p2a: Weezing|96/100
+|-damage|p2b: Tsareena|92/100
+|-status|p2b: Tsareena|psn
+|-enditem|p2a: Weezing|Eject Button
+|
+|t:|1756612934
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|switch|p2a: Ditto|Ditto, L50|100/100
+|-transform|p2a: Ditto|p1b: Dragonite|[from] ability: Imposter
+|move|p1b: Dragonite|Stomping Tantrum|p2a: Ditto
+|-immune|p2a: Ditto
+|move|p2b: Tsareena|Teeter Dance|p1b: Dragonite|[spread] p2a,p1a,p1b
+|-start|p2a: Ditto|confusion
+|-start|p1b: Dragonite|confusion
+|
+|-damage|p2b: Tsareena|79/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1756612954
+|switch|p2a: Weezing|Weezing-Galar, L50, F|96/100
+|-ability|p2a: Weezing|Neutralizing Gas
+|-activate|p1a: Glimmora|confusion
+|move|p1a: Glimmora|Mortal Spin|p2b: Tsareena|[spread] p2a,p2b
+|-supereffective|p2b: Tsareena
+|-damage|p2a: Weezing|91/100
+|-damage|p2b: Tsareena|71/100 psn
+|-activate|p1b: Dragonite|confusion
+|move|p1b: Dragonite|Scale Shot|p2a: Weezing
+|-immune|p2a: Weezing
+|move|p2b: Tsareena|Knock Off|p1b: Dragonite
+|-damage|p1b: Dragonite|69/100
+|-enditem|p1b: Dragonite|Loaded Dice|[from] move: Knock Off|[of] p2b: Tsareena
+|
+|-damage|p2b: Tsareena|58/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1756612983
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|-activate|p1a: Glimmora|confusion
+|move|p1a: Glimmora|Earth Power|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|5/100
+|-unboost|p2a: Weezing|spd|1
+|move|p2b: Tsareena|U-turn|p1a: Glimmora
+|-resisted|p1a: Glimmora
+|-damage|p1a: Glimmora|85/100
+|
+|t:|1756612994
+|switch|p2b: Milotic|Milotic, L50, M|100/100|[from] U-turn
+|move|p2a: Weezing|Pain Split|p1a: Glimmora
+|-sethp|p1a: Glimmora|45/100|[from] move: Pain Split|[silent]
+|-sethp|p2a: Weezing|51/100|[from] move: Pain Split
+|
+|upkeep
+|turn|5
+|
+|t:|1756613014
+|-end|p1a: Glimmora|confusion
+|move|p1a: Glimmora|Earth Power|p2a: Weezing
+|-supereffective|p2a: Weezing
+|-damage|p2a: Weezing|0 fnt
+|faint|p2a: Weezing
+|-end|p2a: Weezing|ability: Neutralizing Gas
+|move|p1b: Gholdengo|Shadow Ball|p2b: Milotic
+|-damage|p2b: Milotic|49/100
+|move|p2b: Milotic|Scald|p1b: Gholdengo
+|-damage|p1b: Gholdengo|38/100
+|-damage|p2b: Milotic|39/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756613027
+|switch|p2a: Ditto|Ditto, L50|100/100
+|-transform|p2a: Ditto|p1b: Gholdengo|[from] ability: Imposter
+|turn|6
+|
+|t:|1756613046
+|move|p1a: Glimmora|Earth Power|p2a: Ditto
+|-supereffective|p2a: Ditto
+|-damage|p2a: Ditto|23/100
+|move|p2a: Ditto|Shadow Ball|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|move|p2b: Milotic|Icy Wind|p1a: Glimmora
+|-damage|p1a: Glimmora|17/100
+|-unboost|p1a: Glimmora|spe|1
+|-damage|p2b: Milotic|29/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756613058
+|switch|p1b: Dragonite|Dragonite, L50, F|69/100
+|turn|7
+|
+|t:|1756613079
+|move|p1b: Dragonite|Protect|p1b: Dragonite
+|-singleturn|p1b: Dragonite|Protect
+|move|p2a: Ditto|Thunderbolt|p1b: Dragonite
+|-activate|p1b: Dragonite|move: Protect
+|move|p2b: Milotic|Icy Wind|p1a: Glimmora|[spread] p1a
+|-activate|p1b: Dragonite|move: Protect
+|-damage|p1a: Glimmora|0 fnt
+|faint|p1a: Glimmora
+|-damage|p2b: Milotic|19/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756613088
+|switch|p1a: Talonflame|Talonflame, L50, M|100/100
+|turn|8
+|
+|t:|1756613103
+|-terastallize|p2a: Ditto|Normal
+|move|p1a: Talonflame|Brave Bird|p2b: Milotic
+|-damage|p2b: Milotic|0 fnt
+|faint|p2b: Milotic
+|-damage|p1a: Talonflame|93/100|[from] Recoil
+|move|p2a: Ditto|Thunderbolt|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|move|p1b: Dragonite|Stomping Tantrum|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|upkeep
+|
+|t:|1756613118
+|switch|p2b: Tsareena|Tsareena, L50, F|58/100 psn
+|turn|9
+|
+|t:|1756613127
+|move|p1b: Dragonite|Protect|p1b: Dragonite
+|-singleturn|p1b: Dragonite|Protect
+|move|p2b: Tsareena|Teeter Dance|p1b: Dragonite
+|-activate|p1b: Dragonite|move: Protect
+|
+|-damage|p2b: Tsareena|46/100 psn|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1756613134
+|-terastallize|p1b: Dragonite|Normal
+|move|p1b: Dragonite|Extreme Speed|p2b: Tsareena
+|-damage|p2b: Tsareena|0 fnt
+|faint|p2b: Tsareena
+|
+|win|Okami_6
+||MAF1010 is ready for game 2.
+||Okami_6 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆MAF1010
+|player|p2|

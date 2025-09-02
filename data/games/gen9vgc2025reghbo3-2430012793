@@ -1,0 +1,175 @@
+|j|☆buf38 zorrogafas
+|j|☆jchase42
+|html|buf38 zorrogafasjchase42    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756335540
+|gametype|doubles
+|player|p1|buf38 zorrogafas|ghetsis-gen5bw|1160
+|player|p2|jchase42|hiker-gen4|1080
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Primarina, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Zoroark-Hisui, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Maushold-Four, L50|
+|poke|p2|Sinistcha, L50|
+|teampreview|4
+|showteam|p1|Primarina||ThroatSpray|LiquidVoice|HyperVoice,Moonblast,CalmMind,Protect|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,SwordsDance,Protect|||F|||50|,,,,,Dark]Zoroark-Hisui||FocusSash|Illusion|ShadowBall,HyperVoice,Taunt,WillOWisp|||M|||50|,,,,,Normal]Rillaboom||AssaultVest|GrassySurge|GrassyGlide,WoodHammer,FakeOut,HighHorsepower|||F|||50|,,,,,Fire]Grimmsnarl||LightClay|Prankster|SpiritBreak,Reflect,LightScreen,ThunderWave|||M|||50|,,,,,Ghost]Volcarona||Leftovers|FlameBody|Flamethrower,Protect,GigaDrain,QuiverDance|||M|||50|,,,,,Grass
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|Psychic,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Hatterene||CovertCloak|MagicBounce|ExpandingForce,DazzlingGleam,Protect,TrickRoom|||F|||50|,,,,,Fire]Maushold-Four||WideLens|Technician|PopulationBomb,Taunt,FollowMe,Protect||||||50|,,,,,Fire]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,ShadowBall,RagePowder,TrickRoom||||||50|,,,,,Fairy
+|
+|t:|1756335571
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kingambit|Kingambit, L50, F, shiny|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756335589
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Grimmsnarl|Spirit Break|p2a: Indeedee
+|-damage|p2a: Indeedee|73/100
+|-unboost|p2a: Indeedee|spa|1
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|move|p2b: Hatterene|Trick Room|p2b: Hatterene
+|-fieldstart|move: Trick Room|[of] p2b: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1756335608
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: buf38 zorrogafas|move: Light Screen
+|move|p2b: Hatterene|Dazzling Gleam|p1a: Kingambit|[spread] p1a,p1b
+|-supereffective|p1b: Grimmsnarl
+|-damage|p1a: Kingambit|77/100
+|-damage|p1b: Grimmsnarl|54/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1756335618
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|3
+|
+|t:|1756335627
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2a: Torkoal|Eruption|p1b: Grimmsnarl|[spread] p1b
+|-activate|p1a: Kingambit|move: Protect
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|move|p2b: Hatterene|Dazzling Gleam|p1a: Kingambit
+|-activate|p1a: Kingambit|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756335637
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|4
+|
+|t:|1756335660
+|switch|p2a: Gallade|Gallade, L50, M|100/100
+|-terastallize|p1a: Kingambit|Dark
+|move|p1b: Rillaboom|Fake Out|p2b: Hatterene
+|-damage|p2b: Hatterene|84/100
+|move|p2b: Hatterene|Dazzling Gleam|p1a: Kingambit|[spread] p1a,p1b
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|36/100
+|-damage|p1b: Rillaboom|84/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Hatterene|90/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|42/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|90/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756335674
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|turn|5
+|
+|t:|1756335697
+|switch|p1b: Primarina|Primarina, L50, M|100/100
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2a: Torkoal|Heat Wave|p1a: Kingambit|[spread] p1b
+|-activate|p1a: Kingambit|move: Protect
+|-resisted|p1b: Primarina
+|-damage|p1b: Primarina|82/100
+|move|p2b: Hatterene|Dazzling Gleam|p1b: Primarina|[spread] p1b
+|-activate|p1a: Kingambit|move: Protect
+|-damage|p1b: Primarina|64/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Hatterene|96/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|47/100|[from] Grassy Terrain
+|-heal|p1b: Primarina|69/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1756335722
+|-terastallize|p2a: Torkoal|Fire
+|move|p1b: Primarina|Hyper Voice|p2a: Torkoal|[spread] p2a,p2b
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|52/100
+|-damage|p2b: Hatterene|78/100
+|-enditem|p1b: Primarina|Throat Spray
+|-boost|p1b: Primarina|spa|1|[from] item: Throat Spray
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|move|p2b: Hatterene|Trick Room|p2b: Hatterene
+|-fieldstart|move: Trick Room|[of] p2b: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Hatterene|84/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|53/100|[from] Grassy Terrain
+|-heal|p1b: Primarina|75/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1756335737
+|move|p2b: Hatterene|Dazzling Gleam|p1a: Kingambit|[spread] p1a,p1b
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|11/100
+|-damage|p1b: Primarina|56/100
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Hatterene
+|-damage|p2b: Hatterene|0 fnt
+|faint|p2b: Hatterene
+|
+|win|buf38 zorrogafas
+||buf38 zorrogafas is ready for game 2.
+||jchase42 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆buf38 zorrogafas
+|player|p1|

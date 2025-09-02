@@ -1,0 +1,117 @@
+|j|☆onescoopmann
+|j|☆snailboss
+|html|onescoopmannsnailboss    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756421121
+|gametype|doubles
+|player|p1|onescoopmann|1|1189
+|player|p2|snailboss|hilda-wonderlauncher|1195
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Zoroark-Hisui, L50, M|
+|poke|p2|Corviknight, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,Psychic,HelpingHand,TrickRoom|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Fire]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HeatWave,Protect|||F|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|SleepPowder,AfterYou,LeafBlade,CloseCombat|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,SwordsDance,Protect|||M|||50|,,,,,Normal]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass
+|showteam|p2|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|IronHead,Protect,SwordsDance,Earthquake|||F|||50|,,,,,Ground]Indeedee-F||SafetyGoggles|PsychicSurge|TrickRoom,FollowMe,Psychic,HelpingHand|||F|||50|,,,,,Fairy]Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,ShadowBall,HyperBeam,Flamethrower|||M|||50|,,,,,Normal]Corviknight||PsychicSeed|MirrorArmor|BraveBird,PowerTrip,BulkUp,Roost|||F|||50|,,,,,Rock]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,Protect,ClearSmog|||F|||50|,,,,,Water
+|
+|t:|1756421159
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p2b: Excadrill|Excadrill, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756421209
+|-terastallize|p2a: Tyranitar|Flying
+|move|p1b: Gallade|Wide Guard|p1b: Gallade
+|-singleturn|p1b: Gallade|Wide Guard
+|move|p2b: Excadrill|Swords Dance|p2b: Excadrill
+|-boost|p2b: Excadrill|atk|2
+|move|p2a: Tyranitar|Tera Blast|p1b: Gallade|[anim] Tera Blast Flying
+|-supereffective|p1b: Gallade
+|-damage|p1b: Gallade|0 fnt
+|faint|p1b: Gallade
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Indeedee|94/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|95/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756421221
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|2
+|
+|t:|1756421241
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-terastallize|p1b: Torkoal|Fire
+|move|p2b: Excadrill|Protect|p2b: Excadrill
+|-singleturn|p2b: Excadrill|Protect
+|move|p1b: Torkoal|Eruption|p2a: Indeedee|[spread] p2a
+|-activate|p2b: Excadrill|move: Protect
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756421252
+|switch|p2a: Tyranitar|Tyranitar, L50, M, tera:Flying|95/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|3
+|
+|t:|1756421261
+|move|p1b: Torkoal|Eruption|p2a: Tyranitar|[spread] p2a,p2b
+|-supereffective|p2b: Excadrill
+|-damage|p2a: Tyranitar|41/100
+|-enditem|p2b: Excadrill|Focus Sash
+|-damage|p2b: Excadrill|1/100
+|move|p1a: Hatterene|Expanding Force|p2b: Excadrill|[spread] p2a,p2b
+|-resisted|p2b: Excadrill
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p2b: Excadrill|0 fnt
+|faint|p2a: Tyranitar
+|faint|p2b: Excadrill
+|-damage|p1a: Hatterene|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Torkoal|94/100|[from] Sandstorm
+|-damage|p1a: Hatterene|85/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756421269
+|switch|p2b: Zoroark|Zoroark-Hisui, L50, M|100/100
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by snailboss)
+|
+|t:|1756421284
+|move|p1b: Torkoal|Eruption|p2b: Zoroark
+|-damage|p2b: Zoroark|0 fnt
+|faint|p2b: Zoroark
+|
+|win|onescoopmann
+||onescoopmann is ready for game 3.

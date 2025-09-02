@@ -1,0 +1,131 @@
+|j|☆mzasquare
+|j|☆vgc_eon
+|html|mzasquarevgc_eon    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756208393
+|gametype|doubles
+|player|p1|mzasquare|worker-gen4|1198
+|player|p2|vgc_eon|green|1178
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Electabuzz, L50, F|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||M|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|showteam|p2|Sneasler||FocusSash|PoisonTouch|FakeOut,DireClaw,CloseCombat,Protect|||F|||50|,,,,,Dark]Dragonite||LoadedDice|Multiscale|ExtremeSpeed,ScaleShot,StompingTantrum,Protect|||F|||50|,,,,,Steel]Dondozo||Leftovers|Unaware|WaveCrash,Yawn,Fissure,Protect|||M|||50|,,,,,Poison]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,Uturn|||M|||50|,,,,,Fire]Volcarona||CovertCloak|FlameBody|HeatWave,QuiverDance,TeraBlast,Protect|||F|||50|,,,,,Fairy]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,FollowMe,Taunt,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1756208443
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Annihilape|Annihilape, L50, M|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Dragonite|Dragonite, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1756208455
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p1a: Annihilape|Final Gambit|p2b: Dragonite
+|-damage|p2b: Dragonite|0 fnt
+|faint|p1a: Annihilape
+|faint|p2b: Dragonite
+|move|p2a: Rillaboom|Grassy Glide|p1b: Indeedee
+|-damage|p1b: Indeedee|47/100
+|
+|upkeep
+|
+|t:|1756208465
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|turn|2
+|
+|t:|1756208492
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1b: Indeedee|Expanding Force|p2a: Rillaboom|[spread] p2a
+|-activate|p2b: Sneasler|move: Protect
+|-damage|p2a: Rillaboom|58/100
+|move|p2a: Rillaboom|U-turn|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|
+|t:|1756208500
+|switch|p2a: Electabuzz|Electabuzz, L50, F|100/100|[from] U-turn
+|move|p1a: Ursaluna|Blood Moon|p2a: Electabuzz
+|-damage|p2a: Electabuzz|19/100
+|-damage|p1a: Ursaluna|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756208502
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|3
+|
+|t:|1756208515
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Electabuzz|Follow Me|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|move: Follow Me
+|move|p1b: Sneasler|Dire Claw|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|move|p2b: Sneasler|Close Combat|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|
+|upkeep
+|
+|t:|1756208517
+|switch|p2a: Rillaboom|Rillaboom, L50, M|58/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|4
+|
+|t:|1756208536
+|move|p2a: Rillaboom|Fake Out|p1b: Sneasler
+|-damage|p1b: Sneasler|78/100
+|cant|p1b: Sneasler|flinch
+|move|p2b: Sneasler|Close Combat|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1a: Ursaluna
+|
+|-heal|p1b: Sneasler|84/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|64/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756208548
+|-terastallize|p2a: Rillaboom|Fire
+|move|p1b: Sneasler|Dire Claw|p2a: Rillaboom
+|-damage|p2a: Rillaboom|22/100
+|move|p2b: Sneasler|Dire Claw|p1b: Sneasler
+|-resisted|p1b: Sneasler
+|-damage|p1b: Sneasler|50/100
+|move|p2a: Rillaboom|Wood Hammer|p1b: Sneasler
+|-resisted|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|-damage|p2a: Rillaboom|10/100|[from] Recoil
+|
+|win|vgc_eon

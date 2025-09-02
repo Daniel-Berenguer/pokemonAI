@@ -1,0 +1,285 @@
+|j|☆Notaplaceofhonor
+|j|☆jstestng
+|html|Notaplaceofhonorjstestng    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756275541
+|gametype|doubles
+|player|p1|Notaplaceofhonor|juan-gen3|1170
+|player|p2|jstestng|pokemonbreeder-gen4|1013
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Sneasler, L50, F|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Protect,Facade,Earthquake,HeadlongRush|||F|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,FakeOut,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Porygon2||Eviolite|Download|Recover,TeraBlast,IceBeam,TrickRoom||||||50|,,,,,Fighting]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,Tailwind,PollenPuff,RagePowder|||M|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|Protect,NastyPlot,MakeItRain,ShadowBall||||||50|,,,,,Steel]Sneasler||FocusSash|Unburden|Protect,CloseCombat,DireClaw,ThroatChop|||F|||50|,,,,,Stellar
+|showteam|p2|Dragonite||LoadedDice|Multiscale|Protect,ScaleShot,ExtremeSpeed,Haze|||F|||50|,,,,,Fairy]Annihilape||FocusSash|Defiant|Protect,Coaching,RageFist,CloseCombat|||M|||50|,,,,,Stellar]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,HighHorsepower,WoodHammer|||M|||50|,,,,,Fire]Gholdengo||SitrusBerry|GoodasGold|Protect,NastyPlot,MakeItRain,ShadowBall||||||50|,,,,,Water]Dondozo||Leftovers|Unaware|Protect,WaveCrash,Yawn,Fissure|||M|||50|,,,,,Grass]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jstestng)
+|
+|t:|1756275566
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p1b: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2a: Annihilape|Annihilape, L50, M, shiny|100/100
+|switch|p2b: Dragonite|Dragonite, L50, F, shiny|100/100
+|turn|1
+|
+|t:|1756275583
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1b: Jumpluff|atk|1
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p1b: Jumpluff|Sleep Powder|p2a: Incineroar
+|-activate|p2a: Incineroar|item: Safety Goggles|Sleep Powder
+|move|p2b: Dragonite|Scale Shot|p1b: Jumpluff|[miss]
+|-miss|p2b: Dragonite|p1b: Jumpluff
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|jstestng has 30 seconds left.
+|
+|t:|1756275613
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Dragonite|atk|1
+|move|p1b: Jumpluff|Sleep Powder|p2b: Dragonite
+|-status|p2b: Dragonite|slp|[from] move: Sleep Powder
+|cant|p2b: Dragonite|slp
+|move|p2a: Incineroar|Parting Shot|p1a: Incineroar
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1a: Incineroar|spa|1
+|
+|t:|1756275621
+|switch|p2a: Annihilape|Annihilape, L50, M, shiny|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|3
+|
+|t:|1756275633
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Jumpluff|atk|1
+|move|p1b: Jumpluff|Sleep Powder|p2a: Incineroar
+|-activate|p2a: Incineroar|item: Safety Goggles|Sleep Powder
+|-curestatus|p2b: Dragonite|slp|[msg]
+|move|p2b: Dragonite|Scale Shot|p1b: Jumpluff
+|-crit|p1b: Jumpluff
+|-damage|p1b: Jumpluff|72/100
+|-damage|p1b: Jumpluff|59/100
+|-damage|p1b: Jumpluff|47/100
+|-damage|p1b: Jumpluff|36/100
+|-hitcount|p1b: Jumpluff|4
+|-unboost|p2b: Dragonite|def|1
+|-boost|p2b: Dragonite|spe|1
+|move|p1a: Incineroar|Knock Off|p2b: Dragonite
+|-damage|p2b: Dragonite|84/100
+|-enditem|p2b: Dragonite|Loaded Dice|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|turn|4
+|inactive|jstestng has 30 seconds left.
+|
+|t:|1756275662
+|move|p2b: Dragonite|Extreme Speed|p1b: Jumpluff
+|-damage|p1b: Jumpluff|8/100
+|move|p1b: Jumpluff|Tailwind|p1b: Jumpluff
+|-sidestart|p1: Notaplaceofhonor|move: Tailwind
+|move|p1a: Incineroar|Knock Off|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|93/100
+|-enditem|p2a: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2a: Incineroar|Knock Off|p1b: Jumpluff
+|-damage|p1b: Jumpluff|0 fnt
+|-enditem|p1b: Jumpluff|Covert Cloak|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1b: Jumpluff
+|
+|upkeep
+|
+|t:|1756275678
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100 brn
+|turn|5
+|inactive|jstestng has 30 seconds left.
+|
+|t:|1756275710
+|switch|p2a: Dondozo|Dondozo, L50, M|100/100
+|move|p2b: Dragonite|Protect|p2b: Dragonite
+|-singleturn|p2b: Dragonite|Protect
+|move|p1b: Ursaluna|Headlong Rush|p2a: Dondozo
+|-damage|p2a: Dondozo|30/100
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|move|p1a: Incineroar|Parting Shot|p2b: Dragonite
+|-activate|p2b: Dragonite|move: Protect
+|
+|-heal|p2a: Dondozo|37/100|[from] item: Leftovers
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1756275726
+|switch|p2b: Incineroar|Incineroar, L50, M|93/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|-terastallize|p1b: Ursaluna|Ghost
+|move|p2a: Dondozo|Protect|p2a: Dondozo
+|-singleturn|p2a: Dondozo|Protect
+|move|p1b: Ursaluna|Facade|p2b: Incineroar
+|-damage|p2b: Incineroar|11/100
+|move|p1a: Incineroar|Parting Shot|p2a: Dondozo
+|-activate|p2a: Dondozo|move: Protect
+|
+|-heal|p2a: Dondozo|43/100|[from] item: Leftovers
+|-damage|p1b: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|turn|7
+|inactive|Notaplaceofhonor has 30 seconds left.
+|
+|t:|1756275755
+|switch|p2a: Dragonite|Dragonite, L50, F, shiny|84/100
+|move|p2b: Incineroar|Fake Out|p1a: Incineroar
+|-damage|p1a: Incineroar|91/100
+|move|p1b: Ursaluna|Facade|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|cant|p1a: Incineroar|flinch
+|
+|-damage|p1b: Ursaluna|83/100 brn|[from] brn
+|-sideend|p1: Notaplaceofhonor|move: Tailwind
+|upkeep
+|
+|t:|1756275773
+|switch|p2a: Dondozo|Dondozo, L50, M|43/100
+|turn|8
+|
+|t:|1756275788
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|move|p2a: Dondozo|Protect|p2a: Dondozo
+|-singleturn|p2a: Dondozo|Protect
+|move|p1b: Ursaluna|Headlong Rush|p2a: Dondozo
+|-activate|p2a: Dondozo|move: Protect
+|move|p2b: Incineroar|Parting Shot|p1b: Ursaluna
+|-unboost|p1b: Ursaluna|atk|1
+|-unboost|p1b: Ursaluna|spa|1
+|
+|t:|1756275799
+|switch|p2b: Annihilape|Annihilape, L50, M, shiny|100/100|[from] Parting Shot
+|
+|-heal|p2a: Dondozo|49/100|[from] item: Leftovers
+|-damage|p1b: Ursaluna|77/100 brn|[from] brn
+|upkeep
+|turn|9
+|inactive|jstestng has 30 seconds left.
+|inactive|jstestng has 20 seconds left.
+|
+|t:|1756275837
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p1a: Sneasler|Dire Claw|p2a: Dondozo
+|-damage|p2a: Dondozo|22/100
+|-status|p2a: Dondozo|psn
+|move|p2b: Annihilape|Rage Fist|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|move|p2a: Dondozo|Fissure|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|-heal|p2a: Dondozo|28/100 psn|[from] item: Leftovers
+|-damage|p2a: Dondozo|16/100 psn|[from] psn
+|-damage|p1b: Ursaluna|72/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1756275860
+|switch|p1b: Incineroar|Incineroar, L50, F|91/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Dondozo|atk|1
+|-unboost|p2b: Annihilape|atk|1
+|-ability|p2b: Annihilape|Defiant|boost
+|-boost|p2b: Annihilape|atk|2
+|move|p1a: Sneasler|Dire Claw|p2b: Annihilape
+|-resisted|p2b: Annihilape
+|-damage|p2b: Annihilape|74/100
+|move|p2b: Annihilape|Rage Fist|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|65/100
+|move|p2a: Dondozo|Wave Crash|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|22/100
+|-damage|p2a: Dondozo|5/100 psn|[from] Recoil
+|
+|-heal|p2a: Dondozo|11/100 psn|[from] item: Leftovers
+|-damage|p2a: Dondozo|0 fnt|[from] psn
+|faint|p2a: Dondozo
+|upkeep
+|
+|t:|1756275880
+|switch|p2a: Incineroar|Incineroar, L50, M|11/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|turn|11
+|
+|t:|1756275897
+|-terastallize|p2a: Incineroar|Ghost
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p2a: Incineroar|Fake Out|p1a: Sneasler
+|-activate|p1a: Sneasler|move: Protect
+|move|p2b: Annihilape|Rage Fist|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|upkeep
+|
+|t:|1756275906
+|switch|p1b: Ursaluna|Ursaluna, L50, F, tera:Ghost|72/100 brn
+|turn|12
+|
+|t:|1756275926
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p1a: Sneasler|Dire Claw|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|move|p2b: Annihilape|Rage Fist|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|-damage|p1b: Ursaluna|66/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1756275936
+|move|p1a: Sneasler|Dire Claw|p2b: Annihilape
+|-resisted|p2b: Annihilape
+|-damage|p2b: Annihilape|58/100
+|-status|p2b: Annihilape|par
+|move|p1b: Ursaluna|Headlong Rush|p2b: Annihilape
+|-damage|p2b: Annihilape|0 fnt
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|faint|p2b: Annihilape
+|
+|win|Notaplaceofhonor

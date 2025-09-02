@@ -1,0 +1,138 @@
+|j|☆Gozante
+|j|☆no_dupes
+|html|Gozanteno_dupes    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756151599
+|gametype|doubles
+|player|p1|Gozante|101|1376
+|player|p2|no_dupes|brock-gen2|1291
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Pelipper||FocusSash|Drizzle|MuddyWater,Hurricane,Protect,Tailwind|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|FlashCannon,BodyPress,ElectroShot,Snarl|||F|||50|,,,,,Bug]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom||||||50|,,,,,Dark]Ursaluna||FlameOrb|Guts|Protect,Facade,HeadlongRush,Earthquake|||M|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|Protect,ScaleShot,Haze,Tailwind|||M|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,KnockOff,FlareBlitz|||F|||50|,,,,,Ghost
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||M|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||F|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|
+|t:|1756151634
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|switch|p2a: Alfred|Indeedee, L50, M|100/100
+|switch|p2b: Volcarona|Volcarona, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Alfred
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Alfred|atk|1
+|-unboost|p2b: Volcarona|atk|1
+|turn|1
+|
+|t:|1756151655
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p2b: Volcarona|Overheat|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha
+|-damage|p1b: Sinistcha|0 fnt
+|-unboost|p2b: Volcarona|spa|2
+|faint|p1b: Sinistcha
+|move|p1a: Incineroar|Parting Shot|p2b: Volcarona
+|-unboost|p2b: Volcarona|atk|1
+|-unboost|p2b: Volcarona|spa|1
+|
+|t:|1756151665
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100|[from] Parting Shot
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Volcarona|94/100|[from] Sandstorm
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756151667
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|turn|2
+|
+|t:|1756151689
+|move|p2b: Volcarona|Tailwind|p2b: Volcarona
+|-sidestart|p2: no_dupes|move: Tailwind
+|move|p2a: Tyranitar|Rock Slide|p1b: Pelipper|[spread] p1a,p1b
+|-resisted|p1a: Ursaluna
+|-supereffective|p1b: Pelipper
+|-damage|p1a: Ursaluna|88/100 brn
+|-damage|p1b: Pelipper|25/100
+|move|p1b: Pelipper|Tailwind|p1b: Pelipper
+|-sidestart|p1: Gozante|move: Tailwind
+|move|p1a: Ursaluna|Facade|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|faint|p2b: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|83/100 brn|[from] brn
+|upkeep
+|
+|t:|1756151695
+|switch|p2b: Alfred|Indeedee, L50, M|100/100
+|turn|3
+|
+|t:|1756151705
+|-terastallize|p2b: Alfred|Psychic
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Alfred|Expanding Force|p1b: Pelipper|[spread] p1b
+|-activate|p1a: Ursaluna|move: Protect
+|-damage|p1b: Pelipper|0 fnt
+|faint|p1b: Pelipper
+|move|p2a: Tyranitar|Rock Slide|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|77/100 brn|[from] brn
+|upkeep
+|
+|t:|1756151708
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2b: Alfred|atk|1
+|turn|4
+|
+|t:|1756151715
+|move|p1a: Ursaluna|Protect||[still]
+|-fail|p1a: Ursaluna
+|move|p2b: Alfred|Expanding Force|p1b: Incineroar|[spread] p1a
+|-immune|p1b: Incineroar
+|-damage|p1a: Ursaluna|2/100 brn
+|move|p2a: Tyranitar|Rock Slide|p1a: Ursaluna|[spread] p1a
+|-miss|p2a: Tyranitar|p1b: Incineroar
+|-resisted|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|move|p1b: Incineroar|Knock Off|p2b: Alfred
+|-supereffective|p2b: Alfred
+|-damage|p2b: Alfred|0 fnt
+|-enditem|p2b: Alfred|Choice Scarf|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2b: Alfred
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|Gozante forfeited.
+|
+|win|no_dupes
+|l|☆Gozante
+|player|p1|
+||Gozante is ready for game 2.

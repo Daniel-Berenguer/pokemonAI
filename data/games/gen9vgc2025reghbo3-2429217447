@@ -1,0 +1,202 @@
+|j|☆Practivol.t1
+|j|☆galgith
+|html|Practivol.t1galgith    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756239390
+|gametype|doubles
+|player|p1|Practivol.t1|bugcatcher-gen4dp|1065
+|player|p2|galgith|steven|1095
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p2|Dragapult, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Volcarona||CovertCloak|FlameBody|BugBuzz,HeatWave,QuiverDance,Protect|||M|||50|,,,,,Fairy]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||M|||50|,,,,,Fairy]Electabuzz||Eviolite|VitalSpirit|FollowMe,Thunderbolt,Taunt,Protect|||M|||50|,,,,,Ghost]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,Protect,LowKick|||F|||50|,,,,,Poison]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,Uturn|||F|||50|,,,,,Normal]Sneasler||FocusSash|Unburden|DireClaw,CloseCombat,Coaching,FakeOut|||M|||50|,,,,,Stellar
+|showteam|p2|Dragapult||ChoiceBand|Infiltrator|DragonDarts,PhantomForce,TeraBlast,SuckerPunch|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,Uturn|||M|||50|,,,,,Fire]Volcarona||SitrusBerry|FlameBody|StruggleBug,RagePowder,FieryDance,Tailwind|||F|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,KnockOff,WillOWisp|||M|||50|,,,,,Bug]Primarina||ThroatSpray|LiquidVoice|HyperVoice,Moonblast,Protect,Haze|||F|||50|,,,,,Steel]Gholdengo||MetalCoat|GoodasGold|ShadowBall,MakeItRain,NastyPlot,Protect||||||50|,,,,,Dragon
+|
+|t:|1756239448
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|switch|p1b: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p2a: Primarina|Primarina, L50, F|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|1
+|
+|t:|1756239474
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|move|p1b: Electabuzz|Protect|p1b: Electabuzz
+|-singleturn|p1b: Electabuzz|Protect
+|move|p1a: Dragonite|Protect|p1a: Dragonite
+|-singleturn|p1a: Dragonite|Protect
+|move|p2b: Rillaboom|U-turn|p1b: Electabuzz
+|-activate|p1b: Electabuzz|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1756239507
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|move|p1b: Electabuzz|Thunderbolt|p2a: Gholdengo
+|-damage|p2a: Gholdengo|64/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|-heal|p2a: Gholdengo|70/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756239538
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1a: Volcarona|Heat Wave|p2b: Volcarona|[spread] p2b
+|-activate|p2a: Gholdengo|move: Protect
+|-damage|p2b: Volcarona|69/100
+|move|p1b: Electabuzz|Thunderbolt|p2b: Volcarona
+|-damage|p2b: Volcarona|43/100
+|-enditem|p2b: Volcarona|Sitrus Berry|[eat]
+|-heal|p2b: Volcarona|67/100|[from] item: Sitrus Berry
+|move|p2b: Volcarona|Tailwind|p2b: Volcarona
+|-sidestart|p2: galgith|move: Tailwind
+|
+|-heal|p2a: Gholdengo|76/100|[from] Grassy Terrain
+|-heal|p2b: Volcarona|73/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756239568
+|switch|p2b: Primarina|Primarina, L50, F|100/100
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100
+|-terastallize|p2a: Gholdengo|Dragon
+|move|p2a: Gholdengo|Make It Rain|p1a: Volcarona|[spread] p1a,p1b
+|-resisted|p1a: Volcarona
+|-resisted|p1b: Kingambit
+|-damage|p1a: Volcarona|44/100
+|-damage|p1b: Kingambit|39/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1a: Volcarona|Heat Wave|p2a: Gholdengo|[spread] p2a,p2b
+|-resisted|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-resisted|p2b: Primarina
+|-damage|p2a: Gholdengo|44/100
+|-damage|p2b: Primarina|86/100
+|
+|-heal|p2a: Gholdengo|50/100|[from] Grassy Terrain
+|-heal|p2b: Primarina|92/100|[from] Grassy Terrain
+|-heal|p1a: Volcarona|50/100|[from] Grassy Terrain
+|-heal|p1b: Kingambit|44/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756239596
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p1b: Kingambit|Sucker Punch||[still]
+|-fail|p1b: Kingambit
+|move|p2b: Primarina|Hyper Voice|p1a: Volcarona|[spread] p1b
+|-activate|p1a: Volcarona|move: Protect
+|-damage|p1b: Kingambit|7/100
+|-enditem|p2b: Primarina|Throat Spray
+|-boost|p2b: Primarina|spa|1|[from] item: Throat Spray
+|
+|-heal|p2a: Gholdengo|55/100|[from] Grassy Terrain
+|-heal|p2b: Primarina|98/100|[from] Grassy Terrain
+|-heal|p1a: Volcarona|57/100|[from] Grassy Terrain
+|-heal|p1b: Kingambit|13/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756239634
+|move|p1a: Volcarona|Protect||[still]
+|-fail|p1a: Volcarona
+|move|p1b: Kingambit|Protect|p1b: Kingambit
+|-singleturn|p1b: Kingambit|Protect
+|move|p2a: Gholdengo|Make It Rain|p1a: Volcarona|[spread] p1a
+|-activate|p1b: Kingambit|move: Protect
+|-resisted|p1a: Volcarona
+|-crit|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Volcarona
+|move|p2b: Primarina|Hyper Voice|p1b: Kingambit
+|-activate|p1b: Kingambit|move: Protect
+|
+|-sideend|p2: galgith|move: Tailwind
+|upkeep
+|
+|t:|1756239649
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|turn|7
+|
+|t:|1756239671
+|switch|p2a: Volcarona|Volcarona, L50, F|73/100
+|move|p1a: Dragonite|Scale Shot|p2a: Volcarona|[miss]
+|-miss|p1a: Dragonite|p2a: Volcarona
+|move|p2b: Primarina|Moonblast|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|14/100
+|move|p1b: Kingambit|Kowtow Cleave|p2b: Primarina
+|-resisted|p2b: Primarina
+|-damage|p2b: Primarina|72/100
+|
+|upkeep
+|turn|8
+|
+|t:|1756239709
+|move|p1b: Kingambit|Sucker Punch|p2b: Primarina
+|-resisted|p2b: Primarina
+|-damage|p2b: Primarina|51/100
+|move|p1a: Dragonite|Scale Shot|p2a: Volcarona
+|-damage|p2a: Volcarona|58/100
+|-damage|p2a: Volcarona|41/100
+|-damage|p2a: Volcarona|25/100
+|-damage|p2a: Volcarona|9/100
+|-hitcount|p2a: Volcarona|4
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Volcarona|Tailwind|p2a: Volcarona
+|-sidestart|p2: galgith|move: Tailwind
+|move|p2b: Primarina|Hyper Voice|p1b: Kingambit|[spread] p1a,p1b
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1b: Kingambit|0 fnt
+|faint|p1a: Dragonite
+|faint|p1b: Kingambit
+|
+|upkeep
+|
+|t:|1756239735
+|switch|p1b: Electabuzz|Electabuzz, L50, M|100/100
+|turn|9
+|-message|Practivol.t1 forfeited.
+|
+|win|galgith
+|l|☆Practivol.t1
+|player|p1|
+||Practivol.t1 is ready for game 3.
+||galgith is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|j|☆Practivol.t1
+|player|p1|Practivol.t1|bugcatcher-gen4dp|
+|l|☆Practivol.t1
+|player|p1|

@@ -1,0 +1,268 @@
+|j|☆Homero tg
+|j|☆Trieshjan
+|html|Homero tgTrieshjan    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756352051
+|gametype|doubles
+|player|p1|Homero tg|170|1087
+|player|p2|Trieshjan|266|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p2|Vaporeon, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Snorlax, L50, M|
+|poke|p2|Ceruledge, L50, M|
+|poke|p2|Reuniclus, L50, M|
+|poke|p2|Dusclops, L50, M|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,Tailwind,RagePowder|||M|||50|,,,,,Fire]Charizard||ChoiceSpecs|SolarPower|DragonPulse,HeatWave,Overheat,WeatherBall|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|ClearSmog,Eruption,Overheat,Protect|||F|||50|,,,,,Fire]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting
+|showteam|p2|Vaporeon||Leftovers|WaterAbsorb|Scald,IcyWind,Yawn,Protect|||M|||50|,,,,,Grass]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,HighHorsepower|||M|||50|,,,,,Fire]Snorlax||GrassySeed|ThickFat|HeavySlam,BodySlam,HighHorsepower,Protect|||M|||50|,,,,,Ghost]Ceruledge||ClearAmulet|FlashFire|BitterBlade,Poltergeist,FlameCharge,Protect|||M|||50|,,,,,Grass]Reuniclus||LifeOrb|MagicGuard|ShadowBall,Psychic,FlashCannon,EnergyBall|||M|||50|,,,,,Steel]Dusclops||Eviolite|Frisk|TrickRoom,WillOWisp,IcyWind,HelpingHand|||M|||50|,,,,,Water
+|
+|t:|1756352075
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|switch|p1b: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Snorlax|Snorlax, L50, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p2b: Snorlax|Grassy Seed
+|-boost|p2b: Snorlax|def|1|[from] item: Grassy Seed
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1756352092
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2a: Rillaboom|Fake Out|p1a: Torkoal
+|-activate|p1a: Torkoal|move: Protect
+|move|p1b: Jumpluff|Sleep Powder|p2b: Snorlax
+|-status|p2b: Snorlax|slp|[from] move: Sleep Powder
+|cant|p2b: Snorlax|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756352109
+|cant|p2b: Snorlax|slp
+|move|p1b: Jumpluff|Sleep Powder|p2a: Rillaboom
+|-immune|p2a: Rillaboom
+|move|p2a: Rillaboom|High Horsepower|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|53/100
+|move|p1a: Torkoal|Eruption|p2b: Snorlax|[spread] p2a,p2b
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|44/100
+|-damage|p2b: Snorlax|87/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rillaboom|50/100|[from] Grassy Terrain
+|-heal|p2b: Snorlax|93/100 slp|[from] Grassy Terrain
+|-heal|p1a: Torkoal|59/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756352130
+|move|p1b: Jumpluff|Sleep Powder|p2a: Rillaboom
+|-immune|p2a: Rillaboom
+|move|p2a: Rillaboom|High Horsepower|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|10/100
+|-curestatus|p2b: Snorlax|slp|[msg]
+|move|p2b: Snorlax|High Horsepower|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rillaboom|56/100|[from] Grassy Terrain
+|-heal|p2b: Snorlax|99/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756352142
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2b: Snorlax|atk|1
+|turn|4
+|
+|t:|1756352157
+|move|p1b: Jumpluff|Rage Powder|p1b: Jumpluff
+|-singleturn|p1b: Jumpluff|move: Rage Powder
+|move|p2a: Rillaboom|High Horsepower|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|60/100
+|move|p1a: Incineroar|Knock Off|p2b: Snorlax
+|-damage|p2b: Snorlax|86/100
+|move|p2b: Snorlax|High Horsepower|p1b: Jumpluff
+|-immune|p1b: Jumpluff
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Rillaboom|62/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|66/100|[from] Grassy Terrain
+|-heal|p2b: Snorlax|92/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756352180
+|move|p1b: Jumpluff|Tailwind|p1b: Jumpluff
+|-sidestart|p1: Homero tg|move: Tailwind
+|move|p1a: Incineroar|Flare Blitz|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|-damage|p1a: Incineroar|47/100|[from] Recoil
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|72/100|[from] item: Sitrus Berry
+|move|p2b: Snorlax|High Horsepower|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|35/100
+|
+|-weather|none
+|-heal|p1a: Incineroar|41/100|[from] Grassy Terrain
+|-heal|p2b: Snorlax|98/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756352195
+|switch|p2a: Ceruledge|Ceruledge, L50, M|100/100
+|turn|6
+|
+|t:|1756352210
+|move|p2a: Ceruledge|Protect|p2a: Ceruledge
+|-singleturn|p2a: Ceruledge|Protect
+|move|p1b: Jumpluff|Rage Powder|p1b: Jumpluff
+|-singleturn|p1b: Jumpluff|move: Rage Powder
+|move|p1a: Incineroar|Knock Off|p2a: Ceruledge
+|-activate|p2a: Ceruledge|move: Protect
+|move|p2b: Snorlax|High Horsepower|p1b: Jumpluff
+|-immune|p1b: Jumpluff
+|
+|upkeep
+|turn|7
+|
+|t:|1756352229
+|-terastallize|p2a: Ceruledge|Grass
+|move|p1b: Jumpluff|Sleep Powder|p2b: Snorlax
+|-status|p2b: Snorlax|slp|[from] move: Sleep Powder
+|move|p1a: Incineroar|Knock Off|p2a: Ceruledge
+|-damage|p2a: Ceruledge|47/100
+|-enditem|p2a: Ceruledge|Clear Amulet|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2a: Ceruledge|Bitter Blade|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|20/100
+|-heal|p2a: Ceruledge|60/100|[from] drain|[of] p1a: Incineroar
+|cant|p2b: Snorlax|slp
+|
+|upkeep
+|turn|8
+|
+|t:|1756352269
+|move|p1b: Jumpluff|Sleep Powder|p2b: Snorlax
+|-fail|p2b: Snorlax|slp
+|move|p1a: Incineroar|Parting Shot|p2a: Ceruledge
+|-unboost|p2a: Ceruledge|atk|1
+|-unboost|p2a: Ceruledge|spa|1
+|
+|t:|1756352275
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100|[from] Parting Shot
+|move|p2a: Ceruledge|Bitter Blade|p1a: Ursaluna
+|-damage|p1a: Ursaluna|79/100
+|-heal|p2a: Ceruledge|75/100|[from] drain|[of] p1a: Ursaluna
+|-curestatus|p2b: Snorlax|slp|[msg]
+|move|p2b: Snorlax|High Horsepower|p1a: Ursaluna
+|-damage|p1a: Ursaluna|62/100
+|
+|-sideend|p1: Homero tg|move: Tailwind
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|9
+|
+|t:|1756352298
+|switch|p2a: Reuniclus|Reuniclus, L50, M, shiny|100/100
+|move|p1b: Jumpluff|Tailwind|p1b: Jumpluff
+|-sidestart|p1: Homero tg|move: Tailwind
+|move|p1a: Ursaluna|Facade|p2a: Reuniclus
+|-damage|p2a: Reuniclus|0 fnt
+|faint|p2a: Reuniclus
+|move|p2b: Snorlax|High Horsepower|p1a: Ursaluna
+|-damage|p1a: Ursaluna|48/100 brn
+|
+|-damage|p1a: Ursaluna|42/100 brn|[from] brn
+|upkeep
+|
+|t:|1756352308
+|switch|p2a: Ceruledge|Ceruledge, L50, M, tera:Grass|75/100
+|turn|10
+|
+|t:|1756352323
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p1b: Jumpluff|Sleep Powder|p2b: Snorlax
+|-status|p2b: Snorlax|slp|[from] move: Sleep Powder
+|move|p2a: Ceruledge|Bitter Blade|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|cant|p2b: Snorlax|slp
+|
+|-damage|p1a: Ursaluna|36/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1756352338
+|move|p1b: Jumpluff|Rage Powder|p1b: Jumpluff
+|-singleturn|p1b: Jumpluff|move: Rage Powder
+|move|p1a: Ursaluna|Earthquake|p2b: Snorlax|[spread] p2a,p2b
+|-immune|p1b: Jumpluff
+|-resisted|p2a: Ceruledge
+|-damage|p2a: Ceruledge|30/100
+|-damage|p2b: Snorlax|59/100 slp
+|move|p2a: Ceruledge|Bitter Blade|p1a: Ursaluna
+|-damage|p1a: Ursaluna|4/100 brn
+|-heal|p2a: Ceruledge|53/100|[from] drain|[of] p1a: Ursaluna
+|cant|p2b: Snorlax|slp
+|
+|-damage|p1a: Ursaluna|0 fnt|[from] brn
+|faint|p1a: Ursaluna
+|upkeep
+|
+|t:|1756352351
+|switch|p1a: Incineroar|Incineroar, L50, M|20/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ceruledge|atk|1
+|-unboost|p2b: Snorlax|atk|1
+|turn|12
+|
+|t:|1756352377
+|-terastallize|p1a: Incineroar|Ghost
+|move|p1b: Jumpluff|Rage Powder|p1b: Jumpluff
+|-singleturn|p1b: Jumpluff|move: Rage Powder
+|move|p1a: Incineroar|Knock Off|p2a: Ceruledge
+|-damage|p2a: Ceruledge|19/100
+|move|p2a: Ceruledge|Bitter Blade|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-heal|p2a: Ceruledge|32/100|[from] drain|[of] p1a: Incineroar
+|faint|p1a: Incineroar
+|cant|p2b: Snorlax|slp
+|
+|-sideend|p1: Homero tg|move: Tailwind
+|upkeep
+|turn|13
+|-message|Homero tg forfeited.
+|
+|win|Trieshjan
+|raw|Homero tg's rating: 1087 → 1058(-29 for losing)
+|raw|Trieshjan's rating: 1000 → 1050(+50 for winning)
+|l|☆Trieshjan
+|player|p2|

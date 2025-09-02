@@ -1,0 +1,167 @@
+|j|☆puli95
+|j|☆Bomduif
+|html|puli95Bomduif    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756396330
+|gametype|doubles
+|player|p1|puli95|265|1000
+|player|p2|Bomduif|2|1084
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Beartic, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Vikavolt, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Jumpluff, L50, F|
+|teampreview|4
+|showteam|p1|Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,WideGuard|||M|||50|,,,,,Ghost]Beartic||ClearAmulet|SwiftSwim|IcicleSpear,Earthquake,AquaJet,Protect|||F|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Bug]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,FakeOut,Uturn|||F|||50|,,,,,Fire]Dragonite||LifeOrb|InnerFocus|ScaleShot,ExtremeSpeed,Haze,Protect|||F|||50|,,,,,Normal]Ursaluna-Bloodmoon||ThroatSpray|MindsEye|EarthPower,BloodMoon,HyperVoice,Protect|||M|||50|,,,,,Normal
+|showteam|p2|Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,TrickRoom,WideGuard|||M|||50|,,,,,Dark]Indeedee-F||SafetyGoggles|PsychicSurge|TrickRoom,FollowMe,DazzlingGleam,HelpingHand|||F|||50|,,,,,Fairy]Torkoal||Charcoal|Drought|Eruption,Overheat,HeatWave,Protect|||M|||50|,,,,,Fire]Vikavolt||LifeOrb|Levitate|Thunderbolt,Discharge,BugBuzz,Protect|||F|||50|,,,,,Electric]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Jumpluff||FocusSash|Chlorophyll|Tailwind,SleepPowder,Encore,Protect|||F|||50|,,,,,Dark
+|
+|t:|1756396364
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Gallade|Gallade, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Gallade|unboost|[from] item: Clear Amulet|[of] p2a: Gallade
+|-unboost|p2b: Indeedee|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1756396387
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Dragonite|Scale Shot|p2b: Indeedee
+|-damage|p2b: Indeedee|80/100
+|-damage|p2b: Indeedee|58/100
+|-damage|p2b: Indeedee|35/100
+|-damage|p2b: Indeedee|13/100
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|-hitcount|p2: Indeedee|5
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|-damage|p1a: Dragonite|91/100|[from] item: Life Orb
+|move|p1b: Incineroar|Knock Off|p2a: Gallade
+|-crit|p2a: Gallade
+|-damage|p2a: Gallade|23/100
+|-enditem|p2a: Gallade|Clear Amulet|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2a: Gallade|Trick Room|p2a: Gallade
+|-fieldstart|move: Trick Room|[of] p2a: Gallade
+|
+|upkeep
+|
+|t:|1756396406
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|2
+|
+|t:|1756396430
+|move|p2b: Ursaluna|Headlong Rush|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|2/100
+|-unboost|p2b: Ursaluna|def|1
+|-unboost|p2b: Ursaluna|spd|1
+|move|p2a: Gallade|Psycho Cut|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|move|p1b: Incineroar|Parting Shot|p2a: Gallade
+|-unboost|p2a: Gallade|atk|1
+|-unboost|p2a: Gallade|spa|1
+|
+|t:|1756396441
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756396447
+|switch|p1a: Incineroar|Incineroar, L50, F|2/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Gallade|atk|1
+|-unboost|p2b: Ursaluna|atk|1
+|turn|3
+|
+|t:|1756396485
+|move|p2b: Ursaluna|Facade|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p2a: Gallade|Psycho Cut|p1b: Pelipper
+|-damage|p1b: Pelipper|55/100
+|move|p1b: Pelipper|Weather Ball|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756396495
+|switch|p2b: Vikavolt|Vikavolt, L50, F|100/100
+|switch|p1a: Beartic|Beartic, L50, F|100/100
+|turn|4
+|
+|t:|1756396527
+|-terastallize|p2b: Vikavolt|Electric
+|-terastallize|p1a: Beartic|Ghost
+|move|p2a: Gallade|Wide Guard|p2a: Gallade
+|-singleturn|p2a: Gallade|Wide Guard
+|move|p2b: Vikavolt|Discharge|p1b: Pelipper|[spread] p1a,p1b
+|-activate|p2a: Gallade|move: Wide Guard
+|-supereffective|p1b: Pelipper
+|-damage|p1a: Beartic|20/100
+|-damage|p1b: Pelipper|0 fnt
+|faint|p1b: Pelipper
+|-damage|p2b: Vikavolt|91/100|[from] item: Life Orb
+|move|p1a: Beartic|Earthquake|p2a: Gallade|[spread] 
+|-activate|p2a: Gallade|move: Wide Guard
+|-activate|p2b: Vikavolt|move: Wide Guard
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1756396546
+|move|p1a: Beartic|Protect|p1a: Beartic
+|-singleturn|p1a: Beartic|Protect
+|move|p2b: Vikavolt|Thunderbolt|p1a: Beartic
+|-activate|p1a: Beartic|move: Protect
+|move|p2a: Gallade|Psycho Cut|p1a: Beartic
+|-activate|p1a: Beartic|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756396559
+|move|p1a: Beartic|Icicle Spear|p2b: Vikavolt
+|-damage|p2b: Vikavolt|75/100
+|-damage|p2b: Vikavolt|60/100
+|-hitcount|p2b: Vikavolt|2
+|move|p2a: Gallade|Psycho Cut|p1a: Beartic
+|-damage|p1a: Beartic|0 fnt
+|faint|p1a: Beartic
+|
+|win|Bomduif
+||puli95 is ready for game 2.
+||Bomduif is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆puli95
+|player|p1|

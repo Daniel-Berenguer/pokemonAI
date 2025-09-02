@@ -26,19 +26,28 @@ class TypeEncoder(nn.Module):
 class MoveEncoder(nn.Module):
     NUM_MOVES = 388
     MOVE_FEATS_SIZE = 6
-    MOVE_DIM = 64
-    def __init__(self, nhidden=256, typeEmbeddingSize=10):
+    MOVE_DIM = 32
+    def __init__(self, nhidden=64, typeEmbeddingSize=10):
         super().__init__()
         self.emb = nn.Embedding(self.NUM_MOVES, self.MOVE_DIM) # Embeds move (move name, to capture effects I have not included in features)
         self.U = nn.Parameter(torch.randn(typeEmbeddingSize, self.MOVE_DIM)) # Multiplies type embedding before adding to move embedding
         self.W = nn.Parameter(torch.randn(self.MOVE_FEATS_SIZE, self.MOVE_DIM)) # Multiplies move features (e.g power) before adding to move embedding
-        self.lin = nn.Linear(self.MOVE_DIM, nhidden)
+        
+        self.ln1 = nn.LayerNorm(self.MOVE_DIM)
+        self.lin1 = nn.Linear(self.MOVE_DIM, nhidden)
+        self.ln2 = nn.LayerNorm(nhidden)
+        self.lin2 = nn.Linear(nhidden, nhidden)
 
     def forward(self, moveInts, moveFeats, typeEncoder : TypeEncoder):
         move_name = moveInts[:, :, :, :, 0]
         move_type = moveInts[:, :, :, :, 1]
-        comb = torch.relu(self.emb(move_name) + typeEncoder.forward(move_type) @ self.U + moveFeats @ self.W)
-        return torch.relu(self.lin(comb)).sum(dim=3)
+        comb = self.emb(move_name) + typeEncoder.forward(move_type) @ self.U + moveFeats @ self.W # Combines features of each move
+        # comb is (BATCH, TEAM, POKE, MOVES, MOVE_DIM)
+        x = torch.relu(self.lin1(self.ln1(comb)))
+        # Sum across move dim
+        x = x.sum(dim=3)
+        return x
+        #return torch.relu(self.lin2(self.ln2(x)))
     
 class PokeEncoder(nn.Module):
     N_POKES = 261
@@ -46,11 +55,11 @@ class PokeEncoder(nn.Module):
     N_ITEMS = 134
     FEATS_DIM = 25
 
-    POKE_EMB = 64
-    AB_EMB = 128
-    ITEM_EMB = 64
+    POKE_EMB = 32
+    AB_EMB = 32
+    ITEM_EMB = 32
 
-    def __init__(self, nhidden=512, moveHidden=256, typeEmb=10):
+    def __init__(self, nhidden=128, moveHidden=64, typeEmb=10):
         super().__init__()
 
         self.pokeEmb = nn.Embedding(self.N_POKES, self.POKE_EMB)
@@ -68,6 +77,7 @@ class PokeEncoder(nn.Module):
         nn.init.kaiming_normal_(self.featsW)"""
 
         concatDim = moveHidden + self.POKE_EMB + self.ITEM_EMB + self.AB_EMB + typeEmb*3 + self.FEATS_DIM
+        self.ln = nn.LayerNorm(concatDim)
         self.linear = nn.Linear(concatDim, nhidden)
 
     def forward(self, pokeInts, pokeFeats, moveInts, moveFeats):
@@ -84,7 +94,7 @@ class PokeEncoder(nn.Module):
         # Concatenate everything
         concat = torch.cat([poke, item, ab, types, pokeFeats, moves], dim=-1)
         
-        return torch.relu(self.linear(concat))
+        return torch.relu(self.linear(self.ln(concat)))
 
     
 class BoardEncoder(nn.Module):
@@ -119,7 +129,7 @@ class BoardEncoder(nn.Module):
 
 
 class AttentionHead(nn.Module):
-    def __init__(self, input_dim, KQ_dim, dropout=0.05):
+    def __init__(self, input_dim, KQ_dim, dropout=0.25):
         super().__init__()
         self.keys = nn.Linear(input_dim, KQ_dim, bias=False)
         self.queries = nn.Linear(input_dim, KQ_dim, bias=False)
@@ -155,16 +165,16 @@ class MultiHeadAttention(nn.Module):
 class Block(nn.Module):
     def __init__(self, nHeads, headDim, inpSize):
         super().__init__()
-        self.ln1 = nn.LayerNorm(inpSize)
+        self.ln = nn.LayerNorm(inpSize)
         self.mha = MultiHeadAttention(inpSize, nHeads, headDim, inpSize)
-        self.ln2 = nn.LayerNorm(inpSize)
-        self.linear = nn.Linear(inpSize, 2*inpSize)
-        self.proj = nn.Linear(2*inpSize, inpSize)
+        self.bn = nn.BatchNorm1d(12)
+        self.linear = nn.Linear(inpSize, inpSize)
+        self.proj = nn.Linear(inpSize, inpSize)
 
 
     def forward(self, x):
-        x = x + self.mha(self.ln1(x))
-        x = x + self.proj(torch.relu(self.linear(self.ln2(x))))
+        x = x + self.mha(self.ln(x))
+        #x = x + self.proj(torch.relu(self.linear(self.bn(x))))
         return x
         
         
@@ -175,11 +185,11 @@ class Block(nn.Module):
 #moveIntsTensor (2, 6, 4, 2) [moveName, moveType]
 #moveFeatsTensor (2, 6, 4, moveFeatDim)
 class Model(nn.Module):
-    BOARD_HIDDEN = 64
+    BOARD_HIDDEN = 32
     TYPE_EMB = 10
-    POKE_HIDDEN = 512
-    MOVE_HIDDEN = 256
-    DROPOUT_PROB = 0.05
+    POKE_HIDDEN = 128
+    MOVE_HIDDEN = 64
+    DROPOUT_PROB = 0.35
 
     def __init__(self):
         super().__init__()
@@ -192,13 +202,13 @@ class Model(nn.Module):
         concatDim = 2*self.POKE_HIDDEN + self.BOARD_HIDDEN
 
         self.block1 = Block(8, self.POKE_HIDDEN//8, self.POKE_HIDDEN)
-        self.block2 = Block(8, self.POKE_HIDDEN//8, self.POKE_HIDDEN)
-        self.block3 = Block(8, self.POKE_HIDDEN//8, self.POKE_HIDDEN)
+        #self.block2 = Block(8, self.POKE_HIDDEN//8, self.POKE_HIDDEN)
+        #self.block3 = Block(8, self.POKE_HIDDEN//8, self.POKE_HIDDEN)
 
         self.attn_pool = nn.Linear(self.POKE_HIDDEN, 1)
 
-        self.linearLayers = nn.ModuleList([nn.Linear(concatDim, 1024), nn.Linear(1024, 256), nn.Linear(256, 64), nn.Linear(64, 16)])
-        self.lns = nn.ModuleList([nn.BatchNorm1d(concatDim), nn.BatchNorm1d(1024), nn.BatchNorm1d(256), nn.BatchNorm1d(64)])
+        self.linearLayers = nn.ModuleList([nn.Linear(concatDim, 64), nn.Linear(64, 16)])
+        self.lns = nn.ModuleList([nn.BatchNorm1d(concatDim), nn.BatchNorm1d(64)])
         
         # Add Dropout layers
         self.dropouts = nn.ModuleList([
@@ -218,8 +228,8 @@ class Model(nn.Module):
         # Flattens and feeds into transformer
         pokes = pokes.flatten(start_dim=1, end_dim=2) # (B, 2, 6, pokeDim) --> (B, 12, pokeDim)
         pokes = self.block1(pokes)
-        pokes = self.block2(pokes)
-        pokes = self.block3(pokes)
+        #pokes = self.block2(pokes)
+        #pokes = self.block3(pokes)
         # Transforms back into teams
         pokes = pokes.reshape(-1, 2, 6, self.POKE_HIDDEN)
 
@@ -239,6 +249,14 @@ class Model(nn.Module):
         return self.finalLinear(x).reshape(-1)
 
 
+
+def bce_with_logits_label_smoothing(logits, targets, smoothing=0.1):
+    # targets are {0,1}, same shape as logits
+    with torch.no_grad():
+        targets = targets * (1 - 2*smoothing) + smoothing
+    loss = F.binary_cross_entropy_with_logits(logits, targets)
+    return loss
+
 if __name__ == "__main__":
 
     with open("data/data.pickle", "rb") as file:
@@ -247,32 +265,41 @@ if __name__ == "__main__":
 
 
     model = Model().to(cuda)
+    model.train()
     nEl = 0
     for p in model.parameters():
         nEl += p.numel()
     print(f"Number of params: {nEl}")
 
 
-    optimizer = torch.optim.Adam(model.parameters(), lr=0.0001)
+    optimizer = torch.optim.AdamW(model.parameters(), lr=0.0001, weight_decay=0.01)
 
-
-    # Shuffle
-    indices = torch.randperm(X[0].size(0))  # random permutation of indices
-    for i, tens in enumerate(X):
-        X[i] = tens[indices]
-    Y = Y[indices]
+    print(Y.shape)
+    print(X[0].shape)
 
     n = int(Y.size(0)*0.85)
     print(f"Dataset size: {Y.size(0)}")
 
+    # Train test-split
     X_train = [X[i][:n] for i in range(len(X))]
     Y_train = Y[:n]
     X_test =  [X[i][n:] for i in range(len(X))]
     Y_test = Y[n:]
 
+    print(X_train[0].shape)
+    print(Y_train.shape)
+    print(X_test[0].shape)
+    print(Y_test.shape)
 
-    EPOCHS = 25
-    BATCH_SIZE = 16
+    # Shuffle
+    indices = torch.randperm(X_train[0].size(0))  # random permutation of indices
+    for i, tens in enumerate(X_train):
+        X_train[i] = tens[indices]
+    Y_train = Y_train[indices]
+
+
+    EPOCHS = 20
+    BATCH_SIZE = 64
     ITERS = int((n * EPOCHS)/BATCH_SIZE)
     CHECK_INTERVAL = 100
     
@@ -293,7 +320,7 @@ if __name__ == "__main__":
 
         logits = model.forward(boardIntBatch, boardFeatBatch, pokeIntBatch, pokeFeatBatch, moveIntBatch, moveFeatBatch)
 
-        loss = F.binary_cross_entropy_with_logits(logits, Y_batch)
+        loss = bce_with_logits_label_smoothing(logits, Y_batch, smoothing=0.1)
 
         optimizer.zero_grad()
         loss.backward()
@@ -304,8 +331,28 @@ if __name__ == "__main__":
                 loss_avg /= CHECK_INTERVAL
             print(f'Iteration [{i}/{ITERS}], Loss: {loss_avg:.4f}')
             loss_avg = 0
+        if  i % 2000 == 0:
+            model.eval()
+            # Test loss
+            with torch.no_grad():
+                boardIntTest = X_test[0].to(cuda)
+                boardFeatTest = X_test[1].to(cuda)
+                pokeIntTest = X_test[2].to(cuda)
+                pokeFeatTest = X_test[3].to(cuda)
+                moveIntTest = X_test[4].to(cuda)
+                moveFeatTest = X_test[5].to(cuda)
+                Y_test = Y_test.to(cuda)
+                logits = model.forward(boardIntTest, boardFeatTest, pokeIntTest, pokeFeatTest, moveIntTest, moveFeatTest)
+                loss = bce_with_logits_label_smoothing(logits, Y_test, smoothing=0.1)
+                print(f"Test loss: {loss.item():.4f}")
+                probs = F.sigmoid(logits)
+                predicts = torch.round(probs)
+                correct = torch.eq(predicts, Y_test).sum()
+                acc = correct / Y_test.size(0)
+                print(f"Test accuracy: {acc.item():.4f}")
+            model.train()
 
-
+    model.eval()
     # Test loss
     with torch.no_grad():
         boardIntTest = X_test[0].to(cuda)
@@ -316,7 +363,7 @@ if __name__ == "__main__":
         moveFeatTest = X_test[5].to(cuda)
         Y_test = Y_test.to(cuda)
         logits = model.forward(boardIntTest, boardFeatTest, pokeIntTest, pokeFeatTest, moveIntTest, moveFeatTest)
-        loss = F.binary_cross_entropy_with_logits(logits, Y_test)
+        loss = bce_with_logits_label_smoothing(logits, Y_test, smoothing=0.1)
         print(f"Test loss: {loss.item():.4f}")
         probs = F.sigmoid(logits)
         predicts = torch.round(probs)

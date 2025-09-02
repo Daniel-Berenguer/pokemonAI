@@ -1,0 +1,138 @@
+|j|☆capspungo
+|j|☆thymianthorsten
+|html|capspungothymianthorsten    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756234231
+|gametype|doubles
+|player|p1|capspungo|265|1172
+|player|p2|thymianthorsten|170|1196
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Exeggutor, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Zoroark-Hisui, L50, F|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Vivillon, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Protect,Facade,Earthquake,HeadlongRush|||M|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,Psychic,FollowMe,HelpingHand|||F|||50|,,,,,Grass]Exeggutor||FocusSash|Chlorophyll|TrickRoom,ExpandingForce,EnergyBall,SleepPowder|||F|||50|,,,,,Psychic]Torkoal||Charcoal|Drought|Eruption,ClearSmog,Protect,WeatherBall|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,WideGuard,SacredSword|||M|||50|,,,,,Fire]Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,Flamethrower,ShadowBall,TeraBlast|||F|||50|,,,,,Stellar
+|showteam|p2|Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,StompingTantrum,Protect|||M|||50|,,,,,Fire]Vivillon||FocusSash|CompoundEyes|Protect,Tailwind,SleepPowder,Hurricane|||F|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Primarina||ThroatSpray|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||F|||50|,,,,,Poison]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon
+|
+|t:|1756234259
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Exeggutor|Exeggutor, L50, F|100/100
+|switch|p2a: Garchomp|Garchomp, L50, M|100/100
+|switch|p2b: Vivillon|Vivillon, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by thymianthorsten)
+|
+|t:|1756234292
+|move|p1a: Indeedee|Helping Hand|p1b: Exeggutor
+|-singleturn|p1b: Exeggutor|Helping Hand|[of] p1a: Indeedee
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1b: Exeggutor|Hyper Voice|p2a: Garchomp|[spread] p2b
+|-activate|p2a: Garchomp|move: Protect
+|-enditem|p2b: Vivillon|Focus Sash
+|-damage|p2b: Vivillon|1/100
+|move|p2b: Vivillon|Hurricane|p1b: Exeggutor
+|-damage|p1b: Exeggutor|6/100
+|replace|p1b: Zoroark|Zoroark-Hisui, L50, F
+|-end|p1b: Zoroark|Illusion
+|
+|upkeep
+|turn|2
+|inactive|thymianthorsten has 30 seconds left.
+|
+|t:|1756234318
+|-terastallize|p1b: Zoroark|Stellar
+|move|p1a: Indeedee|Helping Hand|p1b: Zoroark
+|-singleturn|p1b: Zoroark|Helping Hand|[of] p1a: Indeedee
+|move|p2b: Vivillon|Protect|p2b: Vivillon
+|-singleturn|p2b: Vivillon|Protect
+|move|p1b: Zoroark|Hyper Voice|p2b: Vivillon|[spread] p2a
+|-activate|p2b: Vivillon|move: Protect
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|upkeep
+|
+|t:|1756234334
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Zoroark|atk|1
+|turn|3
+|
+|t:|1756234351
+|-terastallize|p2a: Incineroar|Ghost
+|move|p1a: Indeedee|Helping Hand|p1b: Zoroark
+|-singleturn|p1b: Zoroark|Helping Hand|[of] p1a: Indeedee
+|move|p2b: Vivillon|Protect||[still]
+|-fail|p2b: Vivillon
+|move|p1b: Zoroark|Hyper Voice|p2b: Vivillon|[spread] p2b
+|-immune|p2a: Incineroar
+|-damage|p2b: Vivillon|0 fnt
+|faint|p2b: Vivillon
+|move|p2a: Incineroar|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|52/100
+|
+|upkeep
+|
+|t:|1756234360
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|atk|1
+|turn|4
+|
+|t:|1756234381
+|move|p1a: Indeedee|Helping Hand|p1b: Zoroark
+|-singleturn|p1b: Zoroark|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Zoroark|Hyper Voice|p2a: Incineroar|[spread] p2b
+|-immune|p2a: Incineroar
+|-damage|p2b: Porygon2|50/100
+|move|p2a: Incineroar|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|3/100
+|move|p2b: Porygon2|Ice Beam|p1b: Zoroark
+|-damage|p1b: Zoroark|0 fnt
+|faint|p1b: Zoroark
+|
+|upkeep
+|
+|t:|1756234400
+|switch|p1b: Exeggutor|Exeggutor, L50, F|100/100
+|turn|5
+|
+|t:|1756234409
+|move|p1a: Indeedee|Helping Hand|p1b: Exeggutor
+|-singleturn|p1b: Exeggutor|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Exeggutor|Expanding Force|p2b: Porygon2|[spread] p2a,p2b
+|-damage|p2a: Incineroar|19/100
+|-damage|p2b: Porygon2|0 fnt
+|faint|p2b: Porygon2
+|move|p2a: Incineroar|Flare Blitz|p1b: Exeggutor
+|-supereffective|p1b: Exeggutor
+|-enditem|p1b: Exeggutor|Focus Sash
+|-damage|p1b: Exeggutor|1/100
+|-damage|p2a: Incineroar|0 fnt|[from] Recoil
+|faint|p2a: Incineroar
+|
+|win|capspungo

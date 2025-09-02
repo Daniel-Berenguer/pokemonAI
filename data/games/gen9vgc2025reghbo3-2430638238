@@ -1,0 +1,225 @@
+|j|☆calamardude
+|j|☆wezlbruial
+|html|calamardudewezlbruial    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756414643
+|gametype|doubles
+|player|p1|calamardude|bugcatcher-gen4dp|1088
+|player|p2|wezlbruial|gentleman-gen4dp|1031
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Hawlucha, L50, M|
+|poke|p1|Abomasnow, L50, F|
+|poke|p1|Arcanine-Hisui, L50, M|
+|poke|p1|Clawitzer, L50, F|
+|poke|p1|Ditto, L50|
+|poke|p2|Samurott-Hisui, L50, F|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Indeedee||FocusSash|PsychicSurge|ExpandingForce,DazzlingGleam,Protect,ShadowBall|||M|||50|,,,,,Dark]Hawlucha||PsychicSeed|Unburden|FlyingPress,Acrobatics,Detect,ThroatChop|||M|||50|,,,,,Dark]Abomasnow||Leftovers|SnowWarning|LeechSeed,AuroraVeil,GigaDrain,Blizzard|||F|||50|,,,,,Fire]Arcanine-Hisui||SafetyGoggles|Intimidate|ExtremeSpeed,FlareBlitz,Protect,RockSlide|||M|||50|,,,,,Grass]Clawitzer||SitrusBerry|MegaLauncher|AuraSphere,DragonPulse,IceBeam,Protect|||F|||50|,,,,,Steel]Ditto||ClearAmulet|Imposter|Transform||||||50|,,,,,Normal
+|showteam|p2|Samurott-Hisui||AssaultVest|Sharpness|KnockOff,AquaCutter,SuckerPunch,SacredSword|||F|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,IronHead,Protect|||M|||50|,,,,,Steel]Sneasler||FocusSash|Unburden|CloseCombat,Coaching,DireClaw,FakeOut|||F|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|Taunt,FakeOut,KnockOff,PartingShot|||F|||50|,,,,,Bug]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Water]Gholdengo||Leftovers|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon
+|
+|t:|1756414674
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Abomasnow|Abomasnow, L50, F, shiny|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Abomasnow|atk|1
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Abomasnow
+|turn|1
+|
+|t:|1756414701
+|-terastallize|p1b: Abomasnow|Fire
+|-terastallize|p2b: Amoonguss|Water
+|move|p1a: Indeedee|Expanding Force|p2a: Incineroar|[spread] p2b
+|-immune|p2a: Incineroar
+|-damage|p2b: Amoonguss|60/100
+|move|p2a: Incineroar|Taunt|p1b: Abomasnow
+|-start|p1b: Abomasnow|move: Taunt
+|cant|p1b: Abomasnow|move: Taunt|Aurora Veil
+|move|p2b: Amoonguss|Spore|p1a: Indeedee
+|-status|p1a: Indeedee|slp|[from] move: Spore
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756414741
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|cant|p1a: Indeedee|slp
+|move|p2a: Incineroar|Parting Shot|p1b: Abomasnow
+|-unboost|p1b: Abomasnow|atk|1
+|-unboost|p1b: Abomasnow|spa|1
+|
+|t:|1756414752
+|switch|p2a: Amoonguss|Amoonguss, L50, F, tera:Water|93/100|[from] Parting Shot
+|move|p1b: Abomasnow|Blizzard|p2a: Amoonguss|[spread] p2a,p2b
+|-resisted|p2a: Amoonguss
+|-resisted|p2b: Gholdengo
+|-damage|p2a: Amoonguss|85/100
+|-damage|p2b: Gholdengo|92/100
+|-status|p2a: Amoonguss|frz
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Gholdengo|98/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1756414770
+|switch|p1b: Ditto|Ditto, L50|100/100
+|-transform|p1b: Ditto|p2a: Amoonguss|[from] ability: Imposter
+|cant|p1a: Indeedee|slp
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|cant|p2a: Amoonguss|frz
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Gholdengo|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1756414790
+|move|p1b: Ditto|Rage Powder|p1b: Ditto
+|-singleturn|p1b: Ditto|move: Rage Powder
+|-curestatus|p1a: Indeedee|slp|[msg]
+|move|p1a: Indeedee|Shadow Ball|p2b: Gholdengo
+|-supereffective|p2b: Gholdengo
+|-damage|p2b: Gholdengo|56/100
+|move|p2b: Gholdengo|Make It Rain|p1a: Indeedee|[spread] p1a,p1b
+|-enditem|p1a: Indeedee|Focus Sash
+|-damage|p1a: Indeedee|1/100
+|-damage|p1b: Ditto|2/100
+|-unboost|p2b: Gholdengo|spa|1
+|cant|p2a: Amoonguss|frz
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Gholdengo|62/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1756414814
+|move|p1b: Ditto|Protect|p1b: Ditto
+|-singleturn|p1b: Ditto|Protect
+|move|p1a: Indeedee|Expanding Force|p2b: Gholdengo|[spread] p2a,p2b
+|-resisted|p2b: Gholdengo
+|-damage|p2a: Amoonguss|48/100 frz
+|-damage|p2b: Gholdengo|35/100
+|-enditem|p2a: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2a: Amoonguss|73/100 frz|[from] item: Sitrus Berry
+|move|p2b: Gholdengo|Make It Rain|p1a: Indeedee|[spread] p1a
+|-activate|p1b: Ditto|move: Protect
+|-damage|p1a: Indeedee|0 fnt
+|-unboost|p2b: Gholdengo|spa|1
+|faint|p1a: Indeedee
+|cant|p2a: Amoonguss|frz
+|
+|-weather|none
+|-heal|p2b: Gholdengo|41/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756414833
+|switch|p1a: Abomasnow|Abomasnow, L50, F, shiny, tera:Fire|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|6
+|
+|t:|1756414851
+|move|p2b: Gholdengo|Make It Rain|p1b: Ditto|[spread] p1a,p1b
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|83/100
+|-damage|p1b: Ditto|0 fnt
+|-unboost|p2b: Gholdengo|spa|1
+|faint|p1b: Ditto
+|move|p1a: Abomasnow|Aurora Veil|p1a: Abomasnow
+|-sidestart|p1: calamardude|move: Aurora Veil
+|-curestatus|p2a: Amoonguss|frz|[msg]
+|move|p2a: Amoonguss|Spore|p1a: Abomasnow
+|-status|p1a: Abomasnow|slp|[from] move: Spore
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Gholdengo|48/100|[from] item: Leftovers
+|-heal|p1a: Abomasnow|89/100 slp|[from] item: Leftovers
+|upkeep
+|
+|t:|1756414865
+|switch|p1b: Clawitzer|Clawitzer, L50, F|100/100
+|turn|7
+|
+|t:|1756414879
+|switch|p2b: Samurott|Samurott-Hisui, L50, F|100/100
+|cant|p1a: Abomasnow|slp
+|move|p1b: Clawitzer|Dragon Pulse|p2b: Samurott
+|-damage|p2b: Samurott|61/100
+|move|p2a: Amoonguss|Spore|p1b: Clawitzer
+|-status|p1b: Clawitzer|slp|[from] move: Spore
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Abomasnow|95/100 slp|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1756414898
+|move|p2b: Samurott|Aqua Cutter|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-crit|p1a: Abomasnow
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|cant|p1b: Clawitzer|slp
+|move|p2a: Amoonguss|Pollen Puff|p2b: Samurott
+|-heal|p2b: Samurott|100/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1756414915
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1b: Clawitzer|atk|1
+|move|p2b: Samurott|Knock Off|p1b: Clawitzer
+|-damage|p1b: Clawitzer|61/100 slp
+|-enditem|p1b: Clawitzer|Sitrus Berry|[from] move: Knock Off|[of] p2b: Samurott
+|-curestatus|p1b: Clawitzer|slp|[msg]
+|move|p1b: Clawitzer|Aura Sphere|p2b: Samurott
+|-supereffective|p2b: Samurott
+|-damage|p2b: Samurott|28/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1756414936
+|move|p2a: Incineroar|Fake Out|p1b: Clawitzer
+|-damage|p1b: Clawitzer|53/100
+|move|p2b: Samurott|Sacred Sword|p1b: Clawitzer
+|-damage|p1b: Clawitzer|22/100
+|cant|p1b: Clawitzer|flinch
+|
+|-weather|none
+|-sideend|p1: calamardude|move: Aurora Veil
+|upkeep
+|turn|11
+|
+|t:|1756414952
+|move|p2b: Samurott|Sucker Punch|p1b: Clawitzer
+|-damage|p1b: Clawitzer|0 fnt
+|faint|p1b: Clawitzer
+|
+|win|wezlbruial
+|raw|calamardude's rating: 1088 → 1061(-27 for losing)
+|raw|wezlbruial's rating: 1031 → 1072(+41 for winning)

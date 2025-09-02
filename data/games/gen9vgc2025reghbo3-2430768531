@@ -1,0 +1,172 @@
+|j|☆indiofiero
+|j|☆ThierryVGC
+|html|indiofieroThierryVGC    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756429761
+|gametype|doubles
+|player|p1|indiofiero|swimmerf-gen4|1173
+|player|p2|ThierryVGC|101|1148
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Drifblim, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Corviknight, L50, M|
+|poke|p2|Rotom-Wash, L50|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|FlashCannon,BodyPress,ElectroShot,Snarl|||M|||50|,,,,,Fighting]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||F|||50|,,,,,Fairy]Pelipper||FocusSash|Drizzle|MuddyWater,Hurricane,Tailwind,Protect|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom||||||50|,,,,,Dark]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,Trick,Protect||||||50|,,,,,Flying
+|showteam|p2|Garchomp||LifeOrb|RoughSkin|Earthquake,StompingTantrum,DragonClaw,Protect|||F|||50|,,,,,Ground]Drifblim||PsychicSeed|Unburden|Acrobatics,Disable,Tailwind,Haze|||F|||50|,,,,,Grass]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,Imprison,TrickRoom|||M|||50|,,,,,Ground]Sneasler||WhiteHerb|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Corviknight||Leftovers|MirrorArmor|BraveBird,BodyPress,BulkUp,Roost|||M|||50|,,,,,Dragon]Rotom-Wash||SafetyGoggles|Levitate|Thunderbolt,HydroPump,WillOWisp,Protect||||||50|,,,,,Electric
+|
+|t:|1756429806
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Drifblim|Drifblim, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Drifblim|Psychic Seed
+|-boost|p2b: Drifblim|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756429818
+|-terastallize|p2a: Indeedee|Ground
+|move|p2b: Drifblim|Tailwind|p2b: Drifblim
+|-sidestart|p2: ThierryVGC|move: Tailwind
+|move|p2a: Indeedee|Tera Blast|p1a: Gholdengo|[anim] Tera Blast Ground
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|8/100
+|move|p1a: Gholdengo|Trick|p2b: Drifblim
+|-activate|p1a: Gholdengo|move: Trick|[of] p2b: Drifblim
+|-item|p2b: Drifblim|Choice Scarf|[from] move: Trick
+|-enditem|p1a: Gholdengo|Choice Scarf|[silent]|[from] move: Trick
+|move|p1b: Dragonite|Scale Shot|p2a: Indeedee
+|-damage|p2a: Indeedee|67/100
+|-damage|p2a: Indeedee|33/100
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-hitcount|p2: Indeedee|3
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|
+|upkeep
+|
+|t:|1756429834
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|turn|2
+|
+|t:|1756429865
+|-terastallize|p1b: Dragonite|Fairy
+|move|p2b: Drifblim|Acrobatics|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|move|p2a: Garchomp|Dragon Claw|p1b: Dragonite
+|-immune|p1b: Dragonite
+|move|p1b: Dragonite|Scale Shot|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|72/100
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|40/100
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|14/100
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|-hitcount|p2: Garchomp|4
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|
+|upkeep
+|
+|t:|1756429882
+|switch|p2a: Corviknight|Corviknight, L50, M|100/100
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|turn|3
+|
+|t:|1756429895
+|move|p2b: Drifblim|Acrobatics|p1b: Dragonite
+|-damage|p1b: Dragonite|82/100
+|move|p1b: Dragonite|Scale Shot|p2b: Drifblim|[miss]
+|-miss|p1b: Dragonite|p2b: Drifblim
+|move|p2a: Corviknight|Brave Bird|p1b: Dragonite
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1b: Dragonite
+|-damage|p2a: Corviknight|79/100|[from] Recoil
+|move|p1a: Archaludon|Flash Cannon|p2b: Drifblim
+|-crit|p2b: Drifblim
+|-damage|p2b: Drifblim|40/100
+|
+|-heal|p2a: Corviknight|84/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756429907
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|turn|4
+|
+|t:|1756429920
+|move|p2b: Drifblim|Acrobatics|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha
+|-damage|p1b: Sinistcha|69/100
+|move|p2a: Corviknight|Brave Bird|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha
+|-damage|p1b: Sinistcha|0 fnt
+|faint|p1b: Sinistcha
+|-damage|p2a: Corviknight|65/100|[from] Recoil
+|move|p1a: Archaludon|Flash Cannon|p2b: Drifblim
+|-damage|p2b: Drifblim|16/100
+|
+|-heal|p2a: Corviknight|71/100|[from] item: Leftovers
+|-sideend|p2: ThierryVGC|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1756429942
+|move|p2b: Drifblim|Acrobatics|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|66/100
+|move|p1a: Archaludon|Flash Cannon|p2b: Drifblim
+|-damage|p2b: Drifblim|0 fnt
+|faint|p2b: Drifblim
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|72/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756429960
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|
+|-heal|p2a: Corviknight|78/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1756429971
+|move|p1a: Archaludon|Electro Shot|p2a: Corviknight|[from] lockedmove
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|win|indiofiero
+|raw|indiofiero's rating: 1173 → 1196(+23 for winning)
+|raw|ThierryVGC's rating: 1148 → 1125(-23 for losing)

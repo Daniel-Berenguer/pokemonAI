@@ -1,0 +1,175 @@
+|j|☆chamoy-pt2
+|j|☆snailboss
+|html|chamoy-pt2snailboss    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756518914
+|gametype|doubles
+|player|p1|chamoy-pt2|riley|1138
+|player|p2|snailboss|102|1222
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Dragapult, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Typhlosion-Hisui, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Zoroark-Hisui, L50, M|
+|poke|p2|Corviknight, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,KnockOff,HelpingHand|||F|||50|,,,,,Water]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,SuckerPunch,Uturn|||M|||50|,,,,,Dragon]Whimsicott||CovertCloak|Prankster|Tailwind,Moonblast,SunnyDay,BeatUp|||M|||50|,,,,,Water]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,HeatWave,ShadowBall,Overheat|||F|||50|,,,,,Fire]Annihilape||SitrusBerry|Defiant|RageFist,DrainPunch,BulkUp,Protect|||F|||50|,,,,,Fire]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,Imprison,Protect|||M|||50|,,,,,Psychic
+|showteam|p2|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||F|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|IronHead,Protect,SwordsDance,Earthquake|||F|||50|,,,,,Ground]Indeedee-F||SafetyGoggles|PsychicSurge|TrickRoom,FollowMe,Psychic,HelpingHand|||F|||50|,,,,,Fairy]Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,ShadowBall,HyperBeam,Flamethrower|||M|||50|,,,,,Normal]Corviknight||PsychicSeed|MirrorArmor|BraveBird,PowerTrip,BulkUp,Roost|||M|||50|,,,,,Dragon]Amoonguss||SitrusBerry|Regenerator|Spore,Protect,RagePowder,ClearSmog|||M|||50|,,,,,Water
+|
+|t:|1756518967
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p1b: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p2b: Excadrill|Excadrill, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1756519010
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2b: Excadrill|atk|1
+|-terastallize|p2a: Tyranitar|Flying
+|move|p1a: Whimsicott|Sunny Day|p1a: Whimsicott
+|-weather|SunnyDay
+|move|p2b: Excadrill|Shadow Ball|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|75/100
+|-unboost|p1b: Incineroar|spd|1
+|move|p2a: Tyranitar|Tera Blast|p1a: Whimsicott|[anim] Tera Blast Flying
+|-supereffective|p1a: Whimsicott
+|-damage|p1a: Whimsicott|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756519037
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: chamoy-pt2|move: Tailwind
+|move|p2b: Excadrill|Shadow Ball|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|move|p1b: Incineroar|Knock Off|p2a: Tyranitar
+|-damage|p2a: Tyranitar|69/100
+|-enditem|p2a: Tyranitar|Assault Vest|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2a: Tyranitar|Tera Blast|p1b: Incineroar|[anim] Tera Blast Flying
+|-damage|p1b: Incineroar|52/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756519043
+|switch|p1a: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|turn|3
+|
+|t:|1756519060
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-terastallize|p1a: Typhlosion|Fire
+|move|p1a: Typhlosion|Heat Wave|p2b: Excadrill|[spread] p2a,p2b
+|-damage|p2a: Indeedee|3/100
+|-damage|p2b: Excadrill|0 fnt
+|-status|p2a: Indeedee|brn
+|replace|p2b: Zoroark|Zoroark-Hisui, L50, M
+|-end|p2b: Zoroark|Illusion
+|faint|p2b: Zoroark
+|move|p1b: Incineroar|Parting Shot|p2a: Indeedee
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2a: Indeedee|spa|1
+|
+|t:|1756519071
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Indeedee|0 fnt|[from] brn
+|faint|p2a: Indeedee
+|upkeep
+|
+|t:|1756519076
+|switch|p2b: Excadrill|Excadrill, L50, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, F, tera:Flying|69/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|4
+|
+|t:|1756519094
+|switch|p1a: Incineroar|Incineroar, L50, F|52/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2b: Excadrill|atk|1
+|move|p2b: Excadrill|Protect|p2b: Excadrill
+|-singleturn|p2b: Excadrill|Protect
+|move|p1b: Indeedee|Expanding Force|p2a: Tyranitar|[spread] p2a
+|-activate|p2b: Excadrill|move: Protect
+|-damage|p2a: Tyranitar|20/100
+|move|p2a: Tyranitar|Rock Slide|p1b: Indeedee|[spread] p1a,p1b
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|19/100
+|-damage|p1b: Indeedee|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Indeedee|50/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|15/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1756519132
+|move|p1b: Indeedee|Expanding Force|p2a: Tyranitar|[spread] p2a,p2b
+|-resisted|p2b: Excadrill
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p2b: Excadrill|66/100
+|faint|p2a: Tyranitar
+|move|p2b: Excadrill|Swords Dance|p2b: Excadrill
+|-boost|p2b: Excadrill|atk|2
+|move|p1a: Incineroar|Knock Off|p2b: Excadrill
+|-damage|p2b: Excadrill|6/100
+|-enditem|p2b: Excadrill|Focus Sash|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Indeedee|44/100|[from] Sandstorm
+|-sideend|p1: chamoy-pt2|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1756519148
+|move|p1b: Indeedee|Protect|p1b: Indeedee
+|-singleturn|p1b: Indeedee|Protect
+|move|p2b: Excadrill|Earthquake|p1a: Incineroar|[spread] p1a
+|-activate|p1b: Indeedee|move: Protect
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Indeedee|38/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756519152
+|switch|p1a: Typhlosion|Typhlosion-Hisui, L50, F, tera:Fire|100/100
+|turn|7
+|
+|t:|1756519158
+|move|p2b: Excadrill|Earthquake|p1a: Typhlosion|[spread] p1a,p1b
+|-supereffective|p1a: Typhlosion
+|-damage|p1a: Typhlosion|0 fnt
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1a: Typhlosion
+|faint|p1b: Indeedee
+|
+|win|snailboss
+||chamoy-pt2 is ready for game 2.

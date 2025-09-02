@@ -1,0 +1,129 @@
+|j|☆mzasquare
+|j|☆catnip enthusiast
+|html|mzasquarecatnip enthusiast    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756163726
+|gametype|doubles
+|player|p1|mzasquare|worker-gen4|1251
+|player|p2|catnip enthusiast|bianca|1158
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Tyranitar, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Kilowattrel, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||F|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|showteam|p2|Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Protect,Earthquake|||M|||50|,,,,,Fairy]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Incineroar||AssaultVest|Intimidate|FakeOut,FlareBlitz,KnockOff,Uturn|||F|||50|,,,,,Grass]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Kilowattrel||FocusSash|Competitive|Thunderbolt,AirSlash,Tailwind,Protect|||F|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Dark
+|
+|t:|1756163800
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100
+|switch|p1b: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p2a: Peach Cobbler|Ursaluna, L50, M, shiny|100/100
+|switch|p2b: Goose|Kilowattrel, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|1
+|
+|t:|1756163862
+|move|p2b: Goose|Protect|p2b: Goose
+|-singleturn|p2b: Goose|Protect
+|move|p1a: Annihilape|Taunt|p2b: Goose
+|-activate|p2b: Goose|move: Protect
+|move|p1b: Tyranitar|Knock Off|p2a: Peach Cobbler
+|-damage|p2a: Peach Cobbler|57/100
+|-enditem|p2a: Peach Cobbler|Flame Orb|[from] move: Knock Off|[of] p1b: Tyranitar
+|move|p2a: Peach Cobbler|Earthquake|p1a: Annihilape|[spread] p1a,p1b
+|-activate|p2b: Goose|move: Protect
+|-supereffective|p1b: Tyranitar
+|-damage|p1a: Annihilape|51/100
+|-damage|p1b: Tyranitar|34/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Goose|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1756163889
+|switch|p1a: Volcarona|Volcarona, L50, F|100/100
+|move|p2b: Goose|Tailwind|p2b: Goose
+|-sidestart|p2: catnip enthusiast|move: Tailwind
+|move|p2a: Peach Cobbler|Earthquake|p1a: Volcarona|[spread] p1a,p1b
+|-immune|p2b: Goose
+|-supereffective|p1b: Tyranitar
+|-damage|p1a: Volcarona|43/100
+|-damage|p1b: Tyranitar|0 fnt
+|-enditem|p1a: Volcarona|Sitrus Berry|[eat]
+|-heal|p1a: Volcarona|68/100|[from] item: Sitrus Berry
+|faint|p1b: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Goose|88/100|[from] Sandstorm
+|-damage|p1a: Volcarona|62/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756163903
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|3
+|
+|t:|1756163923
+|move|p2b: Goose|Air Slash|p1b: Ursaluna
+|-damage|p1b: Ursaluna|56/100
+|move|p1a: Volcarona|Struggle Bug|p2b: Goose|[spread] p2a,p2b
+|-resisted|p2b: Goose
+|-crit|p2b: Goose
+|-damage|p2a: Peach Cobbler|40/100
+|-damage|p2b: Goose|65/100
+|-unboost|p2a: Peach Cobbler|spa|1
+|-unboost|p2b: Goose|spa|1
+|-ability|p2b: Goose|Competitive|boost
+|-boost|p2b: Goose|spa|2
+|move|p2a: Peach Cobbler|Headlong Rush|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|-unboost|p2a: Peach Cobbler|def|1
+|-unboost|p2a: Peach Cobbler|spd|1
+|faint|p1b: Ursaluna
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Goose|59/100|[from] Sandstorm
+|-damage|p1a: Volcarona|56/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756163948
+|switch|p1b: Annihilape|Annihilape, L50, F|51/100
+|turn|4
+|
+|t:|1756163963
+|move|p1a: Volcarona|Rage Powder|p1a: Volcarona
+|-singleturn|p1a: Volcarona|move: Rage Powder
+|move|p2b: Goose|Air Slash|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|move|p2a: Peach Cobbler|Headlong Rush|p1b: Annihilape
+|-damage|p1b: Annihilape|0 fnt
+|-unboost|p2a: Peach Cobbler|def|1
+|-unboost|p2a: Peach Cobbler|spd|1
+|faint|p1b: Annihilape
+|
+|win|catnip enthusiast
+||catnip enthusiast is ready for game 2.
+|l|☆mzasquare
+|player|p1|
+|inactive|mzasquare has 30 seconds to confirm battle start!
+||mzasquare is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

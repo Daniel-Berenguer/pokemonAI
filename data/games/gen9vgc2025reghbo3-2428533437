@@ -1,0 +1,216 @@
+|j|☆SmogonSupervillain
+|j|☆JonnySean
+|html|SmogonSupervillainJonnySean    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756154452
+|gametype|doubles
+|player|p1|SmogonSupervillain|169|1000
+|player|p2|JonnySean|iris-gen5bw2|1023
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Gliscor, L50, F|
+|poke|p2|Tauros-Paldea-Aqua, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|teampreview|4
+|showteam|p1|Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Sneasler||FocusSash|PoisonTouch|FakeOut,CloseCombat,DireClaw,Protect|||F|||50|,,,,,Stellar]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||M|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,ExtremeSpeed|||F|||50|,,,,,Fairy]Ursaluna-Bloodmoon||AssaultVest|MindsEye|HyperVoice,BloodMoon,EarthPower,VacuumWave|||M|||50|,,,,,Normal
+|showteam|p2|Archaludon||Leftovers|Stamina|BodyPress,FlashCannon,ElectroShot,Protect|||F|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|Hurricane,Tailwind,WeatherBall,HelpingHand|||M|||50|,,,,,Ghost]Kingambit||BlackGlasses|Defiant|KowtowCleave,IronHead,SuckerPunch,Protect|||F|||50|,,,,,Dark]Gliscor||ToxicOrb|PoisonHeal|Protect,RainDance,Acrobatics,KnockOff|||F|||50|,,,,,Ground]Tauros-Paldea-Aqua||MirrorHerb|Intimidate|RagingBull,AquaJet,CloseCombat,Protect|||M|||50|,,,,,Water]Whimsicott||CovertCloak|Prankster|LightScreen,Tailwind,BeatUp,HelpingHand|||F|||50|,,,,,Dark
+|
+|t:|1756154479
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100
+|switch|p2b: Tauros|Tauros-Paldea-Aqua, L50, M|100/100
+|-ability|p2b: Tauros|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1756154526
+|-terastallize|p2b: Tauros|Water
+|-terastallize|p1b: Ursaluna|Normal
+|move|p2a: Pelipper|Helping Hand|p2b: Tauros
+|-singleturn|p2b: Tauros|Helping Hand|[of] p2a: Pelipper
+|move|p2b: Tauros|Raging Bull|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|move|p1a: Amoonguss|Spore|p2a: Pelipper
+|-status|p2a: Pelipper|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756154540
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|turn|2
+|
+|t:|1756154567
+|move|p2b: Tauros|Protect|p2b: Tauros
+|-singleturn|p2b: Tauros|Protect
+|move|p1b: Sneasler|Fake Out|p2b: Tauros
+|-activate|p2b: Tauros|move: Protect
+|cant|p2a: Pelipper|slp
+|move|p1a: Amoonguss|Pollen Puff|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|84/100 slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756154619
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|move|p1b: Sneasler|Dire Claw|p2b: Archaludon
+|-immune|p2b: Archaludon
+|-curestatus|p2a: Pelipper|slp|[msg]
+|move|p2a: Pelipper|Hurricane|p1b: Sneasler
+|-supereffective|p1b: Sneasler
+|-enditem|p1b: Sneasler|Focus Sash
+|-damage|p1b: Sneasler|1/100
+|-start|p1b: Sneasler|confusion
+|move|p1a: Amoonguss|Pollen Puff|p2b: Archaludon
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|92/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|98/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SmogonSupervillain)
+|inactive|JonnySean has 60 seconds left.
+|
+|t:|1756154649
+|-activate|p1b: Sneasler|confusion
+|-damage|p1b: Sneasler|0 fnt|[from] confusion
+|faint|p1b: Sneasler
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: JonnySean|move: Tailwind
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|76/100
+|move|p1a: Amoonguss|Spore|p2b: Archaludon
+|-status|p2b: Archaludon|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|100/100 slp|[from] item: Leftovers
+|upkeep
+|
+|t:|1756154660
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|turn|5
+|
+|t:|1756154679
+|move|p1a: Amoonguss|Protect|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|Protect
+|move|p2a: Pelipper|Hurricane|p1a: Amoonguss
+|-activate|p1a: Amoonguss|move: Protect
+|cant|p2b: Archaludon|slp
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|
+|-weather|none
+|upkeep
+|turn|6
+|inactive|SmogonSupervillain has 30 seconds left.
+|inactive|JonnySean has 30 seconds left.
+|inactive|SmogonSupervillain has 20 seconds left.
+|
+|t:|1756154718
+|switch|p2a: Tauros|Tauros-Paldea-Aqua, L50, M, tera:Water|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|-unboost|p1b: Gholdengo|atk|1
+|cant|p2b: Archaludon|slp
+|move|p1b: Gholdengo|Shadow Ball|p2b: Archaludon
+|-damage|p2b: Archaludon|0 fnt
+|faint|p2b: Archaludon
+|-damage|p1b: Gholdengo|91/100|[from] item: Life Orb
+|move|p1a: Amoonguss|Spore|p2a: Tauros
+|-status|p2a: Tauros|slp|[from] move: Spore
+|
+|upkeep
+|
+|t:|1756154732
+|switch|p2b: Kingambit|Kingambit, L50, F|100/100
+|turn|7
+|
+|t:|1756154751
+|move|p2b: Kingambit|Sucker Punch||[still]
+|-fail|p2b: Kingambit
+|cant|p2a: Tauros|slp
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|-enditem|p2a: Tauros|Mirror Herb
+|-boost|p2a: Tauros|spa|2|[from] item: Mirror Herb
+|move|p1a: Amoonguss|Pollen Puff|p2b: Kingambit
+|-damage|p2b: Kingambit|84/100
+|
+|-sideend|p2: JonnySean|move: Tailwind
+|upkeep
+|turn|8
+|inactive|SmogonSupervillain has 30 seconds left.
+|
+|t:|1756154779
+|move|p2b: Kingambit|Sucker Punch|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|cant|p2a: Tauros|slp
+|move|p1a: Amoonguss|Pollen Puff|p2b: Kingambit
+|-damage|p2b: Kingambit|67/100
+|
+|upkeep
+|turn|9
+|
+|t:|1756154799
+|-curestatus|p2a: Tauros|slp|[msg]
+|move|p2a: Tauros|Close Combat|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|50/100
+|-unboost|p2a: Tauros|def|1
+|-unboost|p2a: Tauros|spd|1
+|-enditem|p1a: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1a: Amoonguss|75/100|[from] item: Sitrus Berry
+|move|p2b: Kingambit|Iron Head|p1a: Amoonguss
+|-damage|p1a: Amoonguss|37/100
+|cant|p1a: Amoonguss|flinch
+|
+|upkeep
+|turn|10
+|
+|t:|1756154816
+|move|p2a: Tauros|Raging Bull|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|12/100
+|move|p2b: Kingambit|Iron Head|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|win|JonnySean
+||SmogonSupervillain is ready for game 3.
+|l|☆JonnySean
+|player|p2|
+|inactive|JonnySean has 30 seconds to confirm battle start!
+||JonnySean is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

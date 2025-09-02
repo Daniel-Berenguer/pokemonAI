@@ -1,0 +1,181 @@
+|j|☆orbwair
+|j|☆Kemaho
+|html|orbwairKemaho    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756236979
+|gametype|doubles
+|player|p1|orbwair|hexmaniac-gen6|1075
+|player|p2|Kemaho|clerk|1046
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Sylveon, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Talonflame||CovertCloak|GaleWings|DualWingbeat,FlareBlitz,Tailwind,Taunt|||M|||50|,,,,,Fairy]Sylveon||ThroatSpray|Pixilate|HyperVoice,HelpingHand,Protect,TeraBlast|||F|||50|,,,,,Grass]Amoonguss||RockyHelmet|Regenerator|PollenPuff,RagePowder,Protect,Spore|||F|||50|,,,,,Water]Sneasler||FocusSash|Unburden|Acrobatics,CloseCombat,DireClaw,Protect|||M|||50|,,,,,Dark]Garchomp||ClearAmulet|RoughSkin|DragonClaw,Earthquake,StompingTantrum,Protect|||F|||50|,,,,,Ground]Incineroar||AssaultVest|Intimidate|FakeOut,FlareBlitz,KnockOff,Snarl|||F|||50|,,,,,Grass
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Fairy]Hatterene||CovertCloak|MagicBounce|ExpandingForce,DazzlingGleam,TeraBlast,TrickRoom|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HeatWave,Protect|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,TrickRoom,Protect|||M|||50|,,,,,Grass]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBeam,CloseCombat,SleepPowder,AfterYou|||F|||50|,,,,,Ghost
+|
+|t:|1756237016
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Small Child|Incineroar, L50, F|100/100
+|switch|p1b: Cherish|Amoonguss, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|-ability|p1a: Small Child|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Hatterene|atk|1
+|turn|1
+|
+|t:|1756237085
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Small Child|Knock Off|p2a: Torkoal
+|-damage|p2a: Torkoal|59/100
+|-enditem|p2a: Torkoal|Charcoal|[from] move: Knock Off|[of] p1a: Small Child
+|move|p1b: Cherish|Pollen Puff|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|46/100
+|move|p2b: Hatterene|Trick Room|p2b: Hatterene
+|-fieldstart|move: Trick Room|[of] p2b: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756237121
+|-terastallize|p1b: Cherish|Water
+|move|p2a: Torkoal|Heat Wave|p1a: Small Child|[spread] p1a,p1b
+|-resisted|p1a: Small Child
+|-resisted|p1b: Cherish
+|-damage|p1a: Small Child|84/100
+|-damage|p1b: Cherish|85/100
+|move|p2b: Hatterene|Expanding Force|p1a: Small Child|[spread] p1b
+|-immune|p1a: Small Child
+|-damage|p1b: Cherish|41/100
+|move|p1b: Cherish|Spore|p2a: Torkoal
+|-status|p2a: Torkoal|slp|[from] move: Spore
+|move|p1a: Small Child|Snarl|p2a: Torkoal|[spread] p2a,p2b
+|-damage|p2a: Torkoal|29/100 slp
+|-damage|p2b: Hatterene|88/100
+|-unboost|p2a: Torkoal|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756237167
+|switch|p2a: Gallade|Gallade, L50, M|100/100
+|switch|p1b: Kana|Sylveon, L50, F|100/100
+|move|p2b: Hatterene|Expanding Force|p1a: Small Child|[spread] p1b
+|-immune|p1a: Small Child
+|-damage|p1b: Kana|64/100
+|move|p1a: Small Child|Knock Off|p2b: Hatterene
+|-damage|p2b: Hatterene|27/100
+|-enditem|p2b: Hatterene|Covert Cloak|[from] move: Knock Off|[of] p1a: Small Child
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756237197
+|-terastallize|p2b: Hatterene|Fire
+|move|p2b: Hatterene|Tera Blast|p1b: Kana|[anim] Tera Blast Fire
+|-damage|p1b: Kana|27/100
+|move|p1a: Small Child|Knock Off|p2b: Hatterene
+|-damage|p2b: Hatterene|0 fnt
+|faint|p2b: Hatterene
+|move|p1b: Kana|Tera Blast|p2a: Gallade
+|-supereffective|p2a: Gallade
+|-damage|p2a: Gallade|32/100
+|move|p2a: Gallade|Sacred Sword|p1a: Small Child
+|-supereffective|p1a: Small Child
+|-damage|p1a: Small Child|0 fnt
+|faint|p1a: Small Child
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756237215
+|switch|p2b: Torkoal|Torkoal, L50, M|29/100 slp
+|switch|p1a: OORRRREEEOOOOOOOO|Sneasler, L50, M, shiny|100/100
+|turn|5
+|
+|t:|1756237230
+|move|p1b: Kana|Protect|p1b: Kana
+|-singleturn|p1b: Kana|Protect
+|move|p2a: Gallade|Protect|p2a: Gallade
+|-singleturn|p2a: Gallade|Protect
+|move|p1a: OORRRREEEOOOOOOOO|Protect|p1a: OORRRREEEOOOOOOOO
+|-singleturn|p1a: OORRRREEEOOOOOOOO|Protect
+|cant|p2b: Torkoal|slp
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756237253
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: OORRRREEEOOOOOOOO|Acrobatics|p2a: Indeedee
+|-damage|p2a: Indeedee|81/100
+|move|p1b: Kana|Hyper Voice|p2a: Indeedee|[spread] p2a,p2b
+|-resisted|p2b: Torkoal
+|-damage|p2a: Indeedee|52/100
+|-damage|p2b: Torkoal|8/100 slp
+|-enditem|p1b: Kana|Throat Spray
+|-boost|p1b: Kana|spa|1|[from] item: Throat Spray
+|cant|p2b: Torkoal|slp
+|
+|upkeep
+|turn|7
+|
+|t:|1756237270
+|move|p1a: OORRRREEEOOOOOOOO|Acrobatics|p2a: Indeedee
+|-damage|p2a: Indeedee|32/100
+|move|p1b: Kana|Hyper Voice|p2a: Indeedee|[spread] p2a,p2b
+|-resisted|p2b: Torkoal
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2a: Indeedee
+|faint|p2b: Torkoal
+|
+|upkeep
+|
+|t:|1756237276
+|switch|p2b: Gallade|Gallade, L50, M|32/100
+|turn|8
+|
+|t:|1756237295
+|move|p1a: OORRRREEEOOOOOOOO|Acrobatics|p2b: Gallade
+|-supereffective|p2b: Gallade
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|
+|win|orbwair
+||Kemaho is ready for game 2.
+||orbwair is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆orbwair
+|player|p1|
+|j|☆orbwair
+|player|p1|orbwair|hexmaniac-gen6|

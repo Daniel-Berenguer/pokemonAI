@@ -1,0 +1,160 @@
+|j|☆Shoto.tx
+|j|☆sosaso
+|html|Shoto.txsosaso    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756389466
+|gametype|doubles
+|player|p1|Shoto.tx|169|1000
+|player|p2|sosaso|gambler|1046
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Vivillon, L50, F|
+|poke|p1|Gliscor, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Tandemaus, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Electabuzz, L50, M|
+|teampreview|4
+|showteam|p1|Vivillon||FocusSash|CompoundEyes|Hurricane,Tailwind,SleepPowder,Protect|||F|||50|,,,,,Ghost]Gliscor||ChoiceBand|HyperCutter|Earthquake,TeraBlast,DualWingbeat,Uturn|||M|||50|,,,,,Ice]Kingambit||AssaultVest|Defiant|IronHead,Assurance,SuckerPunch,LowKick|||F|||50|,,,,,Flying]Ninetales-Alola||CovertCloak|SnowWarning|Blizzard,FreezeDry,AuroraVeil,Protect|||M|||50|,,,,,Water]Incineroar||RockyHelmet|Intimidate|FakeOut,PartingShot,FlareBlitz,KnockOff|||F|||50|,,,,,Fairy]Archaludon||PowerHerb|Stalwart|Protect,ElectroShot,DragonPulse,Thunderbolt|||M|||50|,,,,,Ghost
+|showteam|p2|Amoonguss||RockyHelmet|Regenerator|ClearSmog,PollenPuff,RagePowder,Spore|||M|||50|,,,,,Water]Archaludon||AssaultVest|Stamina|BodyPress,ElectroShot,AuraSphere,DracoMeteor|||M|||50|,,,,,Flying]Pelipper||CovertCloak|Drizzle|Hurricane,Tailwind,Protect,WideGuard|||M|||50|,,,,,Ground]Tandemaus||FocusSash|OwnTempo|PopulationBomb,Protect,Encore,Uturn||||||50|,,,,,Ghost]Grimmsnarl||LightClay|Prankster|FakeOut,PartingShot,Reflect,LightScreen|||M|||50|,,,,,Steel]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,VoltSwitch,ThunderWave|||M|||50|,,,,,Flying
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sosaso)
+|inactive|Shoto.tx has 60 seconds left.
+|inactive|sosaso has 60 seconds left.
+|
+|t:|1756389518
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Vivillon|Vivillon, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|switch|p2b: Tandemaus|Tandemaus, L50|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Archaludon|atk|1
+|-fail|p2b: Tandemaus|unboost|Attack|[from] ability: Own Tempo|[of] p2b: Tandemaus
+|turn|1
+|
+|t:|1756389541
+|move|p1b: Incineroar|Fake Out|p2b: Tandemaus
+|-damage|p2b: Tandemaus|71/100
+|move|p1a: Vivillon|Tailwind|p1a: Vivillon
+|-sidestart|p1: Shoto.tx|move: Tailwind
+|cant|p2b: Tandemaus|flinch
+|move|p2a: Archaludon|Body Press|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|59/100
+|-damage|p2a: Archaludon|84/100|[from] item: Rocky Helmet|[of] p1b: Incineroar
+|
+|upkeep
+|turn|2
+|
+|t:|1756389558
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p1a: Vivillon|Sleep Powder|p2b: Pelipper
+|-status|p2b: Pelipper|slp|[from] move: Sleep Powder
+|move|p1b: Incineroar|Flare Blitz|p2a: Archaludon
+|-damage|p2a: Archaludon|64/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|-damage|p1b: Incineroar|54/100|[from] Recoil
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Vivillon
+|-supereffective|p1a: Vivillon
+|-enditem|p1a: Vivillon|Focus Sash
+|-damage|p1a: Vivillon|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|inactive|Shoto.tx has 30 seconds left.
+|
+|t:|1756389587
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|move|p1a: Vivillon|Sleep Powder|p2a: Archaludon
+|-status|p2a: Archaludon|slp|[from] move: Sleep Powder
+|cant|p2a: Archaludon|slp
+|cant|p2b: Pelipper|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|Shoto.tx has 30 seconds left.
+|
+|t:|1756389621
+|switch|p2b: Electabuzz|Electabuzz, L50, M|100/100
+|move|p1a: Vivillon|Hurricane|p2b: Electabuzz
+|-resisted|p2b: Electabuzz
+|-damage|p2b: Electabuzz|83/100
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|39/100 slp
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|cant|p2a: Archaludon|slp
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: Shoto.tx|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1756389643
+|move|p2b: Electabuzz|Follow Me|p2b: Electabuzz
+|-singleturn|p2b: Electabuzz|move: Follow Me
+|move|p1a: Vivillon|Tailwind|p1a: Vivillon
+|-sidestart|p1: Shoto.tx|move: Tailwind
+|move|p1b: Archaludon|Dragon Pulse|p2a: Archaludon
+|-damage|p2a: Archaludon|0 fnt
+|faint|p2a: Archaludon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756389654
+|switch|p2a: Tandemaus|Tandemaus, L50|71/100
+|turn|6
+|
+|t:|1756389670
+|move|p2a: Tandemaus|Protect|p2a: Tandemaus
+|-singleturn|p2a: Tandemaus|Protect
+|move|p1a: Vivillon|Sleep Powder|p2b: Electabuzz
+|-immune|p2b: Electabuzz|[from] ability: Vital Spirit
+|move|p1b: Archaludon|Thunderbolt|p2a: Tandemaus
+|-activate|p2a: Tandemaus|move: Protect
+|move|p2b: Electabuzz|Volt Switch|p1a: Vivillon
+|-supereffective|p1a: Vivillon
+|-damage|p1a: Vivillon|0 fnt
+|faint|p1a: Vivillon
+|
+|t:|1756389681
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100 slp|[from] Volt Switch
+|
+|-weather|none
+|upkeep
+|
+|t:|1756389689
+|switch|p1a: Gliscor|Gliscor, L50, M|100/100
+|turn|7
+|-message|sosaso forfeited.
+|
+|win|Shoto.tx
+|l|☆sosaso
+|player|p2|
+||sosaso is ready for game 2.
+|inactive|Shoto.tx has 30 seconds to confirm battle start!
+|inactive|Shoto.tx has 20 seconds to confirm battle start!

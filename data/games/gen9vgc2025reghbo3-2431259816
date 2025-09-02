@@ -1,0 +1,147 @@
+|j|☆EzNumbers
+|j|☆BonnieSSR
+|html|EzNumbersBonnieSSR    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756493990
+|gametype|doubles
+|player|p1|EzNumbers|iris|1070
+|player|p2|BonnieSSR|miku-ground|1167
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Electabuzz, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Kilowattrel, L50, F|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Kommo-o, L50, F|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||FocusSash|Unburden|Coaching,DireClaw,CloseCombat,Protect|||F|||50|,,,,,Stellar]Dragonite||LoadedDice|Multiscale|Haze,ScaleShot,ExtremeSpeed,Protect|||M|||50|,,,,,Fairy]Volcarona||CovertCloak|FlameBody|QuiverDance,HeatWave,TeraBlast,Protect|||F|||50|,,,,,Water]Ninetales-Alola||LifeOrb|SnowWarning|AuroraVeil,Moonblast,Blizzard,Protect|||M|||50|,,,,,Ghost]Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,SwordsDance,Protect|||F|||50|,,,,,Dark]Electabuzz||Eviolite|VitalSpirit|ThunderWave,FollowMe,Taunt,Thunderbolt|||M|||50|,,,,,Bug
+|showteam|p2|Tyranitar||AssaultVest|SandStream|LowKick,RockSlide,KnockOff,TeraBlast|||F|||50|,,,,,Flying]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,SludgeBomb,Protect|||F|||50|,,,,,Water]Kilowattrel||ChoiceSpecs|Competitive|Thunderbolt,Discharge,VoltSwitch,AirSlash|||F|||50|,,,,,Ghost]Excadrill||FocusSash|SandRush|IronHead,Earthquake,HighHorsepower,Protect|||F|||50|,,,,,Ground]Kommo-o||Leftovers|Overcoat|IronDefense,BodyPress,ThroatChop,Protect|||F|||50|,,,,,Steel]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Ghost
+|
+|t:|1756494058
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|switch|p2a: Prim|Kilowattrel, L50, F|100/100
+|switch|p2b: Lacey|Excadrill, L50, F, shiny|100/100
+|turn|1
+|
+|t:|1756494089
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p2a: Prim|Discharge|p1a: Sneasler|[spread] p1b
+|-activate|p1a: Sneasler|move: Protect
+|-immune|p2b: Lacey
+|-damage|p1b: Volcarona|66/100
+|move|p2b: Lacey|Earthquake|p1a: Sneasler|[spread] p1b
+|-activate|p1a: Sneasler|move: Protect
+|-immune|p2a: Prim
+|-damage|p1b: Volcarona|5/100
+|move|p1b: Volcarona|Heat Wave|p2a: Prim|[spread] p2b
+|-miss|p1b: Volcarona|p2a: Prim
+|-supereffective|p2b: Lacey
+|-enditem|p2b: Lacey|Focus Sash
+|-damage|p2b: Lacey|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1756494140
+|switch|p2a: Ouroboros|Tyranitar, L50, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Ouroboros
+|move|p2b: Lacey|Protect|p2b: Lacey
+|-singleturn|p2b: Lacey|Protect
+|move|p1b: Volcarona|Protect|p1b: Volcarona
+|-singleturn|p1b: Volcarona|Protect
+|move|p1a: Sneasler|Dire Claw|p2a: Ouroboros
+|-resisted|p2a: Ouroboros
+|-damage|p2a: Ouroboros|83/100
+|-status|p2a: Ouroboros|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneasler|95/100|[from] Sandstorm
+|-damage|p1b: Volcarona|0 fnt|[from] Sandstorm
+|faint|p1b: Volcarona
+|upkeep
+|
+|t:|1756494158
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|turn|3
+|
+|t:|1756494183
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|switch|p2a: Transassa|Amoonguss, L50, F, shiny|100/100
+|move|p1a: Sneasler|Dire Claw|p2b: Lacey
+|-immune|p2b: Lacey
+|move|p2b: Lacey|High Horsepower|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1756494199
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|turn|4
+|
+|t:|1756494209
+|-terastallize|p2a: Transassa|Water
+|move|p2b: Lacey|Protect|p2b: Lacey
+|-singleturn|p2b: Lacey|Protect
+|move|p1b: Ninetales|Blizzard|p2a: Transassa|[spread] p2a
+|-activate|p2b: Lacey|move: Protect
+|-resisted|p2a: Transassa
+|-damage|p2a: Transassa|85/100
+|-damage|p1b: Ninetales|91/100|[from] item: Life Orb
+|move|p1a: Dragonite|Scale Shot|p2a: Transassa
+|-damage|p2a: Transassa|73/100
+|-damage|p2a: Transassa|60/100
+|-damage|p2a: Transassa|48/100
+|-enditem|p2a: Transassa|Sitrus Berry|[eat]
+|-heal|p2a: Transassa|73/100|[from] item: Sitrus Berry
+|-damage|p2a: Transassa|61/100
+|-damage|p2a: Transassa|49/100
+|-hitcount|p2a: Transassa|5
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Transassa|Spore|p1a: Dragonite
+|-status|p1a: Dragonite|slp|[from] move: Spore
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1756494240
+|switch|p2a: Ouroboros|Tyranitar, L50, F, shiny|83/100 par
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Ouroboros
+|move|p2b: Lacey|Iron Head|p1b: Ninetales
+|-supereffective|p1b: Ninetales
+|-damage|p1b: Ninetales|0 fnt
+|faint|p1b: Ninetales
+|cant|p1a: Dragonite|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|94/100 slp|[from] Sandstorm
+|upkeep
+|turn|6
+|-message|EzNumbers forfeited.
+|raw|EzNumbers's rating: 1070 → 1055(-15 for losing)
+|raw|BonnieSSR's rating: 1167 → 1185(+18 for winning)
+|
+|win|BonnieSSR
+|l|☆EzNumbers
+|player|p1|

@@ -1,0 +1,147 @@
+|j|☆Arnauz10
+|j|‽Sawadaburner
+|html|Arnauz10Sawadaburner    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756633331
+|gametype|doubles
+|player|p1|Arnauz10|ghetsis|1123
+|player|p2|Sawadaburner|102|1287
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Porygon2, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, F|
+|teampreview|4
+|showteam|p1|Annihilape||FocusSash|Defiant|RageFist,CloseCombat,Coaching,Taunt|||M|||50|,,,,,Stellar]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||F|||50|,,,,,Fairy]Gholdengo||LifeOrb|GoodasGold|ShadowBall,MakeItRain,NastyPlot,Protect||||||50|,,,,,Water]Porygon2||Eviolite|Download|IceBeam,TeraBlast,Recover,TrickRoom||||||50|,,,,,Fighting]Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||F|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost
+|showteam|p2|Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|RagePowder,SunnyDay,Tailwind,SleepPowder|||M|||50|,,,,,Water]Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Overheat,Eruption,HelpingHand,Protect|||F|||50|,,,,,Fire
+|
+|t:|1756633362
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Annihilape|Annihilape, L50, M|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|1
+|
+|t:|1756633421
+|-terastallize|p1b: Gholdengo|Water
+|move|p1a: Annihilape|Taunt|p2a: Porygon2
+|-start|p2a: Porygon2|move: Taunt
+|move|p1b: Gholdengo|Shadow Ball|p2b: Torkoal
+|-damage|p2b: Torkoal|25/100
+|-damage|p1b: Gholdengo|91/100|[from] item: Life Orb
+|move|p2b: Torkoal|Overheat|p1a: Annihilape
+|-damage|p1a: Annihilape|15/100
+|-unboost|p2b: Torkoal|spa|2
+|-enditem|p2b: Torkoal|Eject Pack
+|
+|t:|1756633434
+|switch|p2b: Charizard|Charizard, L50, F|100/100
+|cant|p2a: Porygon2|move: Taunt|Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|88/100|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|turn|2
+|
+|t:|1756633463
+|move|p1b: Gholdengo|Protect|p1b: Gholdengo
+|-singleturn|p1b: Gholdengo|Protect
+|move|p2b: Charizard|Overheat|p1b: Gholdengo
+|-activate|p1b: Gholdengo|move: Protect
+|move|p1a: Annihilape|Rage Fist|p2b: Charizard
+|-damage|p2b: Charizard|22/100
+|move|p2a: Porygon2|Tera Blast|p1a: Annihilape
+|-immune|p1a: Annihilape
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|10/100|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|turn|3
+|
+|t:|1756633484
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Porygon2|atk|1
+|-unboost|p2b: Charizard|atk|1
+|move|p2b: Charizard|Overheat|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|16/100
+|-unboost|p2b: Charizard|spa|2
+|move|p1a: Annihilape|Close Combat|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|25/100
+|-unboost|p1a: Annihilape|def|1
+|-unboost|p1a: Annihilape|spd|1
+|move|p2a: Porygon2|Ice Beam|p1a: Annihilape
+|-damage|p1a: Annihilape|0 fnt
+|faint|p1a: Annihilape
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|0 fnt|[from] ability: Solar Power|[of] p2b: Charizard
+|faint|p2b: Charizard
+|-end|p2a: Porygon2|move: Taunt
+|upkeep
+|
+|t:|1756633521
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|turn|4
+|
+|t:|1756633548
+|move|p1b: Incineroar|Fake Out|p2a: Porygon2
+|-damage|p2a: Porygon2|19/100
+|move|p1a: Ursaluna|Facade|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|move|p2b: Ursaluna|Facade|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756633561
+|switch|p1b: Gholdengo|Gholdengo, L50, tera:Water|91/100
+|switch|p2a: Torkoal|Torkoal, L50, F|25/100
+|turn|5
+|
+|t:|1756633587
+|-terastallize|p2b: Ursaluna|Ghost
+|move|p2a: Torkoal|Helping Hand|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Helping Hand|[of] p2a: Torkoal
+|move|p1b: Gholdengo|Make It Rain|p2b: Ursaluna|[spread] p2a,p2b
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-damage|p2b: Ursaluna|37/100 brn
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2a: Torkoal
+|-damage|p1b: Gholdengo|81/100|[from] item: Life Orb
+|move|p1a: Ursaluna|Headlong Rush|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2b: Ursaluna
+|
+|win|Arnauz10

@@ -1,0 +1,233 @@
+|j|☆dracojackson
+|j|☆ApolloLou
+|html|dracojacksonApolloLou    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756416374
+|gametype|doubles
+|player|p1|dracojackson|hilbert|
+|player|p2|ApolloLou|birch|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Hypno, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||M|||50|,,,,,Steel
+|showteam|p2|Sneasler||PsychicSeed|Unburden|DireClaw,Protect,ThroatChop,CloseCombat|||F|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,TeraBlast,Protect|||M|||50|,,,,,Ground]Annihilape||SitrusBerry|Defiant|RageFist,DrainPunch,BulkUp,Protect|||M|||50|,,,,,Steel]Electabuzz||Eviolite|VitalSpirit|FollowMe,Electroweb,Protect,Taunt|||M|||50|,,,,,Fairy]Hypno||RoomService|Insomnia|ExpandingForce,Haze,Hex,TrickRoom|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Normal
+|
+|t:|1756416502
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Clanker|Porygon2, L50|100/100
+|switch|p1b: LaFawnduh|Amoonguss, L50, M|100/100
+|switch|p2a: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-ability|p1a: Clanker|Download|boost
+|-boost|p1a: Clanker|atk|1
+|turn|1
+|
+|t:|1756416527
+|switch|p2b: Hypno|Hypno, L50, M|100/100
+|move|p1b: LaFawnduh|Rage Powder|p1b: LaFawnduh
+|-singleturn|p1b: LaFawnduh|move: Rage Powder
+|move|p2a: Electabuzz|Taunt|p1b: LaFawnduh
+|-start|p1b: LaFawnduh|move: Taunt
+|move|p1a: Clanker|Trick Room|p1a: Clanker
+|-fieldstart|move: Trick Room|[of] p1a: Clanker
+|-enditem|p2b: Hypno|Room Service
+|-unboost|p2b: Hypno|spe|1|[from] item: Room Service
+|
+|upkeep
+|turn|2
+|
+|t:|1756416560
+|switch|p1b: IGOR|Ursaluna, L50, F, shiny|100/100
+|switch|p1a: Tomato|Incineroar, L50, M|100/100
+|-ability|p1a: Tomato|Intimidate|boost
+|-unboost|p2a: Electabuzz|atk|1
+|-unboost|p2b: Hypno|atk|1
+|move|p2b: Hypno|Expanding Force|p1a: Tomato
+|-immune|p1a: Tomato
+|move|p2a: Electabuzz|Taunt|p1b: IGOR
+|-start|p1b: IGOR|move: Taunt
+|
+|-status|p1b: IGOR|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1756416590
+|-terastallize|p2b: Hypno|Ghost
+|move|p2a: Electabuzz|Follow Me|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|move: Follow Me
+|move|p1b: IGOR|Facade|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|move|p1a: Tomato|Knock Off|p2b: Hypno
+|-supereffective|p2b: Hypno
+|-damage|p2b: Hypno|34/100
+|move|p2b: Hypno|Trick Room|p2b: Hypno
+|-fieldend|move: Trick Room
+|
+|-damage|p1b: IGOR|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756416622
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|turn|4
+|
+|t:|1756416652
+|switch|p1a: LaFawnduh|Amoonguss, L50, M|100/100
+|-terastallize|p1b: IGOR|Ghost
+|move|p2a: Annihilape|Drain Punch|p1b: IGOR
+|-immune|p1b: IGOR
+|move|p1b: IGOR|Earthquake|p2b: Hypno|[spread] p1a,p2a,p2b
+|-damage|p1a: LaFawnduh|44/100
+|-damage|p2a: Annihilape|40/100
+|-damage|p2b: Hypno|0 fnt
+|-enditem|p2a: Annihilape|Sitrus Berry|[eat]
+|-heal|p2a: Annihilape|65/100|[from] item: Sitrus Berry
+|-enditem|p1a: LaFawnduh|Sitrus Berry|[eat]
+|-heal|p1a: LaFawnduh|69/100|[from] item: Sitrus Berry
+|faint|p2b: Hypno
+|
+|-damage|p1b: IGOR|89/100 brn|[from] brn
+|-end|p1b: IGOR|move: Taunt
+|upkeep
+|
+|t:|1756416667
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|turn|5
+|
+|t:|1756416685
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p2a: Annihilape|Protect|p2a: Annihilape
+|-singleturn|p2a: Annihilape|Protect
+|move|p1a: LaFawnduh|Rage Powder|p1a: LaFawnduh
+|-singleturn|p1a: LaFawnduh|move: Rage Powder
+|move|p1b: IGOR|Headlong Rush|p2a: Annihilape
+|-activate|p2a: Annihilape|move: Protect
+|
+|-damage|p1b: IGOR|83/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1756416706
+|move|p1a: LaFawnduh|Rage Powder|p1a: LaFawnduh
+|-singleturn|p1a: LaFawnduh|move: Rage Powder
+|move|p2b: Sneasler|Dire Claw|p1a: LaFawnduh
+|-damage|p1a: LaFawnduh|30/100
+|move|p2a: Annihilape|Rage Fist|p1a: LaFawnduh
+|-damage|p1a: LaFawnduh|0 fnt
+|faint|p1a: LaFawnduh
+|move|p1b: IGOR|Headlong Rush|p2a: Annihilape
+|-damage|p2a: Annihilape|0 fnt
+|-unboost|p1b: IGOR|def|1
+|-unboost|p1b: IGOR|spd|1
+|faint|p2a: Annihilape
+|
+|-damage|p1b: IGOR|77/100 brn|[from] brn
+|upkeep
+|
+|t:|1756416715
+|switch|p1a: Tomato|Incineroar, L50, M|100/100
+|-ability|p1a: Tomato|Intimidate|boost
+|-unboost|p2b: Sneasler|atk|1
+|turn|7
+|
+|t:|1756416726
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1a: Tomato|Fake Out|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Protect
+|move|p1b: IGOR|Headlong Rush|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Protect
+|
+|-damage|p1b: IGOR|72/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1756416738
+|switch|p1b: Clanker|Porygon2, L50|100/100
+|-ability|p1b: Clanker|Download|boost
+|-boost|p1b: Clanker|atk|1
+|move|p2b: Sneasler|Throat Chop|p1b: Clanker
+|-damage|p1b: Clanker|86/100
+|-start|p1b: Clanker|Throat Chop|[silent]
+|move|p1a: Tomato|Parting Shot|p2b: Sneasler
+|-unboost|p2b: Sneasler|atk|1
+|-unboost|p2b: Sneasler|spa|1
+|
+|t:|1756416743
+|switch|p1a: IGOR|Ursaluna, L50, F, shiny, tera:Ghost|72/100 brn|[from] Parting Shot
+|
+|-damage|p1a: IGOR|66/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1756416761
+|switch|p1a: Tomato|Incineroar, L50, M|100/100
+|-ability|p1a: Tomato|Intimidate|boost
+|-unboost|p2b: Sneasler|atk|1
+|move|p2b: Sneasler|Throat Chop|p1a: Tomato
+|-resisted|p1a: Tomato
+|-damage|p1a: Tomato|94/100
+|-start|p1a: Tomato|Throat Chop|[silent]
+|move|p1b: Clanker|Trick Room|p1b: Clanker
+|-fieldstart|move: Trick Room|[of] p1b: Clanker
+|
+|-end|p1b: Clanker|Throat Chop|[silent]
+|upkeep
+|turn|10
+|
+|t:|1756416772
+|switch|p1b: IGOR|Ursaluna, L50, F, shiny, tera:Ghost|66/100 brn
+|move|p1a: Tomato|Fake Out|p2b: Sneasler
+|-damage|p2b: Sneasler|79/100
+|cant|p2b: Sneasler|flinch
+|
+|-damage|p1b: IGOR|60/100 brn|[from] brn
+|-end|p1a: Tomato|Throat Chop|[silent]
+|upkeep
+|turn|11
+|
+|t:|1756416786
+|switch|p1a: Clanker|Porygon2, L50|86/100
+|-ability|p1a: Clanker|Download|boost
+|-boost|p1a: Clanker|atk|1
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1b: IGOR|Headlong Rush|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Protect
+|
+|-damage|p1b: IGOR|54/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1756416795
+|move|p1a: Clanker|Recover|p1a: Clanker
+|-heal|p1a: Clanker|100/100
+|move|p1b: IGOR|Headlong Rush|p2b: Sneasler
+|-supereffective|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|-unboost|p1b: IGOR|def|1
+|-unboost|p1b: IGOR|spd|1
+|faint|p2b: Sneasler
+|
+|win|dracojackson
+|c|☆dracojackson|ggs
+|l|☆ApolloLou
+|player|p2|

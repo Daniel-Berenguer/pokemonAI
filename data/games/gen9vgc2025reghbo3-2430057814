@@ -1,0 +1,128 @@
+|j|☆JXD500
+|j|☆MuseigenTest
+|html|JXD500MuseigenTest    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756340933
+|gametype|doubles
+|player|p1|JXD500|102|1030
+|player|p2|MuseigenTest|1|1122
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Politoed, L50, M|
+|poke|p1|Kingdra, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Bisharp, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Politoed||DampRock|Drizzle|IcyWind,Encore,HelpingHand,Protect|||M|||50|,,,,,Ice]Kingdra||ChoiceSpecs|SwiftSwim|DracoMeteor,WeatherBall,IceBeam,Hurricane|||F|||50|,,,,,Water]Annihilape||LifeOrb|Defiant|FinalGambit,ShadowClaw,BulkUp,DrainPunch|||F|||50|,,,,,Fighting]Bisharp||Eviolite|Defiant|Assurance,IronHead,SuckerPunch,XScissor|||F|||50|,,,,,Steel]Sneasler||AssaultVest|PoisonTouch|FakeOut,DireClaw,CloseCombat,Uturn|||M|||50|,,,,,Ghost]Amoonguss||RockyHelmet|Regenerator|Spore,PollenPuff,RagePowder,Protect|||F|||50|,,,,,Water
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||M|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|
+|t:|1756340968
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1756341010
+|-terastallize|p2a: Tyranitar|Flying
+|move|p1b: Sneasler|Fake Out|p2b: Volcarona
+|-damage|p2b: Volcarona|83/100
+|cant|p2b: Volcarona|flinch
+|move|p1a: Annihilape|Bulk Up|p1a: Annihilape
+|-boost|p1a: Annihilape|atk|1
+|-boost|p1a: Annihilape|def|1
+|move|p2a: Tyranitar|Tera Blast|p1b: Sneasler|[anim] Tera Blast Flying
+|-supereffective|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Volcarona|77/100|[from] Sandstorm
+|-damage|p1a: Annihilape|95/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|95/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756341026
+|switch|p1b: Politoed|Politoed, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Politoed
+|turn|2
+|
+|t:|1756341040
+|move|p2b: Volcarona|Tailwind|p2b: Volcarona
+|-sidestart|p2: MuseigenTest|move: Tailwind
+|move|p2a: Tyranitar|Tera Blast|p1a: Annihilape|[anim] Tera Blast Flying
+|-supereffective|p1a: Annihilape
+|-damage|p1a: Annihilape|30/100
+|move|p1a: Annihilape|Final Gambit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|64/100
+|faint|p1a: Annihilape
+|move|p1b: Politoed|Encore|p2b: Volcarona
+|-start|p2b: Volcarona|Encore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756341051
+|switch|p1a: Kingdra|Kingdra, L50, F|100/100
+|turn|3
+|
+|t:|1756341084
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|move|p1a: Kingdra|Hurricane|p2b: Indeedee
+|-damage|p2b: Indeedee|37/100
+|move|p2a: Tyranitar|Knock Off|p1a: Kingdra
+|-damage|p1a: Kingdra|28/100
+|-enditem|p1a: Kingdra|Choice Specs|[from] move: Knock Off|[of] p2a: Tyranitar
+|move|p1b: Politoed|Icy Wind|p2a: Tyranitar|[spread] p2a,p2b
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|53/100
+|-damage|p2b: Indeedee|25/100
+|-unboost|p2a: Tyranitar|spe|1
+|-unboost|p2b: Indeedee|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756341112
+|move|p1b: Politoed|Helping Hand|p1a: Kingdra
+|-singleturn|p1a: Kingdra|Helping Hand|[of] p1b: Politoed
+|move|p1a: Kingdra|Ice Beam|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|5/100
+|move|p2b: Indeedee|Expanding Force|p1a: Kingdra|[spread] p1a,p1b
+|-damage|p1a: Kingdra|0 fnt
+|-damage|p1b: Politoed|50/100
+|faint|p1a: Kingdra
+|move|p2a: Tyranitar|Knock Off|p1b: Politoed
+|-damage|p1b: Politoed|3/100
+|-enditem|p1b: Politoed|Damp Rock|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|-message|JXD500 forfeited.
+|
+|win|MuseigenTest
+|raw|JXD500's rating: 1030 → 1019(-11 for losing)
+|raw|MuseigenTest's rating: 1122 → 1141(+19 for winning)
+|l|☆JXD500
+|player|p1|
+|c|☆MuseigenTest|gg

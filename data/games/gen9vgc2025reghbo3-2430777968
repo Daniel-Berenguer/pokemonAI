@@ -1,0 +1,574 @@
+|j|☆KLOEEE
+|j|☆ScrewSalesman
+|html|KLOEEEScrewSalesman    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756430888
+|gametype|doubles
+|player|p1|KLOEEE|caitlin-masters|1045
+|player|p2|ScrewSalesman|cynthia-gen4|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Tatsugiri, L50, M|
+|poke|p1|Flamigo, L50, F|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Maushold, L50|
+|poke|p1|Indeedee, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, F|
+|teampreview|4
+|showteam|p1|Dondozo||Leftovers|Unaware|WaveCrash,Yawn,Protect,Fissure|||M|||50|,,,,,Poison]Tatsugiri||ToxicOrb|Commander|MuddyWater,DracoMeteor,Protect,HelpingHand|||M|||50|,,,,,Stellar]Flamigo||LifeOrb|Costar|BraveBird,CloseCombat,WideGuard,Detect|||F|||50|,,,,,Ghost]Annihilape||SafetyGoggles|Defiant|DrainPunch,RageFist,BulkUp,Protect|||M|||50|,,,,,Water]Maushold||BrightPowder|FriendGuard|FollowMe,BeatUp,Taunt,Protect||||||50|,,,,,Ghost]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,Protect,HelpingHand|||M|||50|,,,,,Psychic
+|showteam|p2|Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|RagePowder,PollenPuff,Tailwind,SleepPowder|||M|||50|,,,,,Water]Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,DragonPulse|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Overheat,Eruption,HelpingHand,Protect|||F|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ScrewSalesman)
+|inactive|ScrewSalesman has 60 seconds left.
+|
+|t:|1756430926
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Tatsugiri|Tatsugiri, L50, M|100/100
+|switch|p2a: Charizard|Charizard, L50, F, shiny|100/100
+|switch|p2b: Jumpluff|Jumpluff, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1756430951
+|-terastallize|p1a: Indeedee|Psychic
+|move|p1b: Tatsugiri|Helping Hand|p1a: Indeedee
+|-singleturn|p1a: Indeedee|Helping Hand|[of] p1b: Tatsugiri
+|move|p2b: Jumpluff|Pollen Puff|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|67/100
+|move|p2a: Charizard|Heat Wave|p1a: Indeedee|[spread] p1a,p1b
+|-resisted|p1b: Tatsugiri
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Tatsugiri|90/100
+|faint|p1a: Indeedee
+|
+|-status|p1b: Tatsugiri|tox|[from] item: Toxic Orb
+|upkeep
+|
+|t:|1756430965
+|switch|p1a: Dondozo|Dondozo, L50, M|100/100
+|-activate|p1b: Tatsugiri|ability: Commander|[of] p1a: Dondozo
+|-boost|p1a: Dondozo|atk|2
+|-boost|p1a: Dondozo|spa|2
+|-boost|p1a: Dondozo|spe|2
+|-boost|p1a: Dondozo|def|2
+|-boost|p1a: Dondozo|spd|2
+|turn|2
+|
+|t:|1756430974
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Dondozo|atk|1
+|-unboost|p1b: Tatsugiri|atk|1
+|move|p2b: Jumpluff|Sleep Powder|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Sleep Powder
+|cant|p1a: Dondozo|slp
+|
+|-damage|p1b: Tatsugiri|84/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1756430997
+|move|p2b: Jumpluff|Pollen Puff|p1a: Dondozo
+|-damage|p1a: Dondozo|96/100 slp
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Yawn|p2b: Jumpluff
+|-start|p2b: Jumpluff|move: Yawn|[of] p1a: Dondozo
+|move|p2a: Incineroar|Parting Shot|p1a: Dondozo
+|-unboost|p1a: Dondozo|atk|1
+|-unboost|p1a: Dondozo|spa|1
+|
+|t:|1756431009
+|switch|p2a: Charizard|Charizard, L50, F, shiny|100/100|[from] Parting Shot
+|
+|-heal|p1a: Dondozo|100/100|[from] item: Leftovers
+|-damage|p1b: Tatsugiri|72/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1756431024
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|move|p2a: Charizard|Dragon Pulse|p1a: Dondozo
+|-damage|p1a: Dondozo|81/100
+|move|p1a: Dondozo|Wave Crash|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|42/100
+|-damage|p1a: Dondozo|70/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|30/100|[from] ability: Solar Power|[of] p2a: Charizard
+|-heal|p1a: Dondozo|76/100|[from] item: Leftovers
+|-damage|p1b: Tatsugiri|55/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1756431043
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Dondozo|atk|1
+|-unboost|p1b: Tatsugiri|atk|1
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2b: Torkoal|Overheat|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Dondozo|82/100|[from] item: Leftovers
+|-damage|p1b: Tatsugiri|32/100 tox|[from] psn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|inactive|KLOEEE has 30 seconds left.
+|
+|t:|1756431070
+|move|p2a: Incineroar|Fake Out|p1a: Dondozo
+|-damage|p1a: Dondozo|78/100
+|cant|p1a: Dondozo|flinch
+|move|p2b: Torkoal|Eruption|p1a: Dondozo|[spread] p1a
+|-miss|p2b: Torkoal|p1b: Tatsugiri
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Dondozo|72/100|[from] item: Leftovers
+|-damage|p1b: Tatsugiri|4/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1756431086
+|move|p1a: Dondozo|Fissure|p2b: Torkoal|[miss]
+|-miss|p1a: Dondozo|p2b: Torkoal
+|move|p2a: Incineroar|Parting Shot|p1a: Dondozo
+|-unboost|p1a: Dondozo|atk|1
+|-unboost|p1a: Dondozo|spa|1
+|
+|t:|1756431093
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100|[from] Parting Shot
+|move|p2b: Torkoal|Overheat|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|58/100
+|-unboost|p2b: Torkoal|spa|2
+|-enditem|p2b: Torkoal|Eject Pack
+|
+|t:|1756431103
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Dondozo|atk|1
+|-unboost|p1b: Tatsugiri|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Dondozo|64/100|[from] item: Leftovers
+|-damage|p1b: Tatsugiri|0 fnt|[from] psn
+|faint|p1b: Tatsugiri
+|upkeep
+|
+|t:|1756431106
+|switch|p1b: Flamigo|Flamigo, L50, F|100/100
+|-copyboost|p1b: Flamigo|p1a: Dondozo|[from] ability: Costar
+|turn|8
+|
+|t:|1756431128
+|-terastallize|p2b: Incineroar|Ghost
+|move|p2a: Jumpluff|Sleep Powder|p1a: Dondozo|[miss]
+|-miss|p2a: Jumpluff|p1a: Dondozo
+|move|p1b: Flamigo|Brave Bird|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-damage|p2a: Jumpluff|32/100
+|-damage|p1b: Flamigo|74/100|[from] Recoil
+|-damage|p1b: Flamigo|65/100|[from] item: Life Orb
+|move|p1a: Dondozo|Fissure|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|-ohko
+|
+|-weather|none
+|-heal|p1a: Dondozo|70/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756431142
+|switch|p2b: Charizard|Charizard, L50, F, shiny|30/100
+|turn|9
+|
+|t:|1756431160
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1b: Flamigo|Brave Bird|p2a: Torkoal
+|-damage|p2a: Torkoal|78/100
+|-damage|p1b: Flamigo|57/100|[from] Recoil
+|-damage|p1b: Flamigo|47/100|[from] item: Life Orb
+|move|p2b: Charizard|Weather Ball|p1b: Flamigo
+|-crit|p1b: Flamigo
+|-damage|p1b: Flamigo|0 fnt
+|faint|p1b: Flamigo
+|move|p1a: Dondozo|Wave Crash|p2b: Charizard
+|-supereffective|p2b: Charizard
+|-damage|p2b: Charizard|6/100
+|-damage|p1a: Dondozo|65/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|0 fnt|[from] ability: Solar Power|[of] p2b: Charizard
+|faint|p2b: Charizard
+|-heal|p1a: Dondozo|72/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756431174
+|switch|p2b: Jumpluff|Jumpluff, L50, M|32/100
+|turn|10
+|
+|t:|1756431188
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p2b: Jumpluff|Sleep Powder|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Sleep Powder
+|cant|p1a: Dondozo|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Dondozo|78/100 slp|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1756431196
+|move|p2b: Jumpluff|Pollen Puff|p2a: Torkoal
+|-heal|p2a: Torkoal|100/100
+|cant|p1a: Dondozo|slp
+|move|p2a: Torkoal|Eruption|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|62/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Dondozo|68/100 slp|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1756431207
+|move|p2b: Jumpluff|Pollen Puff|p1a: Dondozo
+|-damage|p1a: Dondozo|63/100 slp
+|cant|p1a: Dondozo|slp
+|move|p2a: Torkoal|Eruption|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|47/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Dondozo|53/100 slp|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1756431220
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p2b: Jumpluff|Sleep Powder|p1a: Dondozo
+|-fail|p1a: Dondozo|slp
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Fissure|p2a: Torkoal
+|-activate|p2a: Torkoal|move: Protect
+|
+|-weather|none
+|-heal|p1a: Dondozo|60/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1756431234
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2b: Jumpluff|Sleep Powder|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|move|p2a: Torkoal|Eruption|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p1a: Dondozo|66/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1756431243
+|move|p2b: Jumpluff|Sleep Powder|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Sleep Powder
+|cant|p1a: Dondozo|slp
+|move|p2a: Torkoal|Eruption|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|54/100 slp
+|
+|-heal|p1a: Dondozo|60/100 slp|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1756431252
+|move|p2b: Jumpluff|Pollen Puff|p1a: Dondozo
+|-damage|p1a: Dondozo|56/100 slp
+|cant|p1a: Dondozo|slp
+|move|p2a: Torkoal|Eruption|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|44/100 slp
+|
+|-heal|p1a: Dondozo|51/100 slp|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1756431267
+|move|p2b: Jumpluff|Pollen Puff|p1a: Dondozo
+|-damage|p1a: Dondozo|45/100 slp
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Fissure|p2a: Torkoal|[miss]
+|-miss|p1a: Dondozo|p2a: Torkoal
+|move|p2a: Torkoal|Eruption|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|34/100
+|
+|-heal|p1a: Dondozo|40/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1756431281
+|move|p2a: Torkoal|Helping Hand|p2b: Jumpluff
+|-singleturn|p2b: Jumpluff|Helping Hand|[of] p2a: Torkoal
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2b: Jumpluff|Sleep Powder|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p1a: Dondozo|46/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1756431300
+|move|p2b: Jumpluff|Sleep Powder|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Sleep Powder
+|cant|p1a: Dondozo|slp
+|move|p2a: Torkoal|Eruption|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|35/100 slp
+|
+|-heal|p1a: Dondozo|41/100 slp|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1756431307
+|move|p2b: Jumpluff|Pollen Puff|p1a: Dondozo
+|-damage|p1a: Dondozo|36/100 slp
+|cant|p1a: Dondozo|slp
+|move|p2a: Torkoal|Overheat|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|27/100 slp
+|-unboost|p2a: Torkoal|spa|2
+|
+|-heal|p1a: Dondozo|34/100 slp|[from] item: Leftovers
+|upkeep
+|turn|21
+|
+|t:|1756431316
+|move|p2b: Jumpluff|Pollen Puff|p1a: Dondozo
+|-damage|p1a: Dondozo|29/100 slp
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Fissure|p2a: Torkoal|[miss]
+|-miss|p1a: Dondozo|p2a: Torkoal
+|move|p2a: Torkoal|Overheat|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|18/100
+|-unboost|p2a: Torkoal|spa|2
+|
+|-heal|p1a: Dondozo|24/100|[from] item: Leftovers
+|upkeep
+|turn|22
+|
+|t:|1756431333
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p2b: Jumpluff|Sleep Powder|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p1a: Dondozo|30/100|[from] item: Leftovers
+|upkeep
+|turn|23
+|
+|t:|1756431346
+|move|p2b: Jumpluff|Sleep Powder|p1a: Dondozo|[miss]
+|-miss|p2b: Jumpluff|p1a: Dondozo
+|move|p1a: Dondozo|Yawn|p2b: Jumpluff
+|-start|p2b: Jumpluff|move: Yawn|[of] p1a: Dondozo
+|move|p2a: Torkoal|Overheat|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|21/100
+|-unboost|p2a: Torkoal|spa|2
+|
+|-heal|p1a: Dondozo|27/100|[from] item: Leftovers
+|upkeep
+|turn|24
+|
+|t:|1756431356
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2b: Jumpluff|Sleep Powder|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|move|p2a: Torkoal|Overheat|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p1a: Dondozo|33/100|[from] item: Leftovers
+|-end|p2b: Jumpluff|move: Yawn|[silent]
+|-status|p2b: Jumpluff|slp
+|upkeep
+|turn|25
+|
+|t:|1756431369
+|cant|p2b: Jumpluff|slp
+|move|p1a: Dondozo|Fissure|p2a: Torkoal|[miss]
+|-miss|p1a: Dondozo|p2a: Torkoal
+|move|p2a: Torkoal|Overheat|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|24/100
+|
+|-heal|p1a: Dondozo|30/100|[from] item: Leftovers
+|upkeep
+|turn|26
+|
+|t:|1756431381
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|cant|p2b: Jumpluff|slp
+|move|p1a: Dondozo|Fissure|p2a: Torkoal
+|-activate|p2a: Torkoal|move: Protect
+|
+|-heal|p1a: Dondozo|36/100|[from] item: Leftovers
+|upkeep
+|turn|27
+|
+|t:|1756431394
+|move|p2a: Torkoal|Helping Hand|p2b: Jumpluff
+|-singleturn|p2b: Jumpluff|Helping Hand|[of] p2a: Torkoal
+|cant|p2b: Jumpluff|slp
+|move|p1a: Dondozo|Fissure|p2a: Torkoal|[miss]
+|-miss|p1a: Dondozo|p2a: Torkoal
+|
+|-heal|p1a: Dondozo|43/100|[from] item: Leftovers
+|upkeep
+|turn|28
+|
+|t:|1756431412
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|-curestatus|p2b: Jumpluff|slp|[msg]
+|move|p2b: Jumpluff|Sleep Powder|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Sleep Powder
+|cant|p1a: Dondozo|slp
+|
+|-heal|p1a: Dondozo|49/100 slp|[from] item: Leftovers
+|upkeep
+|turn|29
+|
+|t:|1756431423
+|move|p2b: Jumpluff|Pollen Puff|p1a: Dondozo
+|-damage|p1a: Dondozo|44/100 slp
+|cant|p1a: Dondozo|slp
+|move|p2a: Torkoal|Overheat|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|35/100 slp
+|
+|-heal|p1a: Dondozo|41/100 slp|[from] item: Leftovers
+|upkeep
+|turn|30
+|
+|t:|1756431433
+|move|p2a: Torkoal|Helping Hand|p2b: Jumpluff
+|-singleturn|p2b: Jumpluff|Helping Hand|[of] p2a: Torkoal
+|move|p2b: Jumpluff|Pollen Puff|p1a: Dondozo
+|-damage|p1a: Dondozo|34/100 slp
+|cant|p1a: Dondozo|slp
+|
+|-heal|p1a: Dondozo|40/100 slp|[from] item: Leftovers
+|upkeep
+|turn|31
+|inactive|ScrewSalesman has 30 seconds left.
+|inactive|ScrewSalesman has 20 seconds left.
+|inactive|ScrewSalesman has 15 seconds left.
+|
+|t:|1756431474
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p2b: Jumpluff|Pollen Puff|p1a: Dondozo
+|-damage|p1a: Dondozo|35/100 slp
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Wave Crash|p2b: Jumpluff
+|-resisted|p2b: Jumpluff
+|-damage|p2b: Jumpluff|22/100
+|-damage|p1a: Dondozo|33/100|[from] Recoil
+|
+|-heal|p1a: Dondozo|39/100|[from] item: Leftovers
+|upkeep
+|turn|32
+|inactive|ScrewSalesman has 30 seconds left.
+|
+|t:|1756431488
+|move|p2a: Torkoal|Helping Hand|p2b: Jumpluff
+|-singleturn|p2b: Jumpluff|Helping Hand|[of] p2a: Torkoal
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2b: Jumpluff|Pollen Puff|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p1a: Dondozo|45/100|[from] item: Leftovers
+|upkeep
+|turn|33
+|inactive|ScrewSalesman has 30 seconds left this turn.
+|inactive|ScrewSalesman has 20 seconds left.
+|
+|t:|1756431506
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p2b: Jumpluff|Sleep Powder|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Sleep Powder
+|cant|p1a: Dondozo|slp
+|
+|-heal|p1a: Dondozo|51/100 slp|[from] item: Leftovers
+|upkeep
+|turn|34
+|inactive|ScrewSalesman has 20 seconds left this turn.
+|inactive|ScrewSalesman has 15 seconds left.
+|
+|t:|1756431516
+|move|p2a: Torkoal|Helping Hand|p2b: Jumpluff
+|-singleturn|p2b: Jumpluff|Helping Hand|[of] p2a: Torkoal
+|move|p2b: Jumpluff|Pollen Puff|p1a: Dondozo
+|-damage|p1a: Dondozo|44/100 slp
+|cant|p1a: Dondozo|slp
+|
+|-heal|p1a: Dondozo|51/100 slp|[from] item: Leftovers
+|upkeep
+|turn|35
+|inactive|ScrewSalesman has 15 seconds left this turn.
+|inactive|ScrewSalesman has 10 seconds left.
+|
+|t:|1756431525
+|move|p2a: Torkoal|Helping Hand|p2b: Jumpluff
+|-singleturn|p2b: Jumpluff|Helping Hand|[of] p2a: Torkoal
+|move|p2b: Jumpluff|Pollen Puff|p1a: Dondozo
+|-damage|p1a: Dondozo|43/100 slp
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Yawn|p2b: Jumpluff
+|-start|p2b: Jumpluff|move: Yawn|[of] p1a: Dondozo
+|
+|-heal|p1a: Dondozo|50/100|[from] item: Leftovers
+|upkeep
+|turn|36
+|inactive|ScrewSalesman has 10 seconds left this turn.
+|inactive|ScrewSalesman has 5 seconds left.
+|-message|ScrewSalesman lost due to inactivity.
+|
+|win|KLOEEE
+||ScrewSalesman is ready for game 2.
+||KLOEEE is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆ScrewSalesman
+|player|p2|

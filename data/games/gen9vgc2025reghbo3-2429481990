@@ -1,0 +1,114 @@
+|j|☆bosilek
+|j|☆gter4qgvtw
+|html|bosilekgter4qgvtw    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756271335
+|gametype|doubles
+|player|p1|bosilek|hilbert-wonderlauncher|1123
+|player|p2|gter4qgvtw|ghetsis|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Hydreigon, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Porygon2, L50|
+|teampreview|4
+|showteam|p1|Garchomp||LifeOrb|RoughSkin|Protect,Earthquake,DragonClaw,StompingTantrum|||F|||50|,,,,,Steel]Talonflame||CovertCloak|GaleWings|BraveBird,Taunt,WillOWisp,Tailwind|||M|||50|,,,,,Grass]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,Protect,NastyPlot||||||50|,,,,,Water]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,FreezeDry,Encore,Protect|||F|||50|,,,,,Water]Hydreigon||ChoiceSpecs|Levitate|HeatWave,Snarl,EarthPower,DragonPulse|||M|||50|,,,,,Fire]Annihilape||SafetyGoggles|Defiant|FinalGambit,RageFist,CloseCombat,Protect|||F|||50|,,,,,Fire
+|showteam|p2|Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,Tailwind,RagePowder|||M|||50|,,,,,Fire]Charizard||ChoiceSpecs|SolarPower|DragonPulse,HeatWave,Overheat,WeatherBall|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|ClearSmog,Eruption,Overheat,Protect|||M|||50|,,,,,Fire]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting
+|
+|t:|1756271393
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Talonflame|Talonflame, L50, M|100/100
+|switch|p1b: Hydreigon|Hydreigon, L50, M|100/100
+|switch|p2a: Charizard|Charizard, L50, F|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|1
+|
+|t:|1756271413
+|move|p1a: Talonflame|Tailwind|p1a: Talonflame
+|-sidestart|p1: bosilek|move: Tailwind
+|move|p1b: Hydreigon|Snarl|p2b: Torkoal|[spread] p2a,p2b
+|-crit|p2b: Torkoal
+|-damage|p2a: Charizard|55/100
+|-damage|p2b: Torkoal|41/100
+|-unboost|p2a: Charizard|spa|1
+|-unboost|p2b: Torkoal|spa|1
+|-enditem|p2b: Torkoal|Eject Pack
+|
+|t:|1756271423
+|switch|p2b: Jumpluff|Jumpluff, L50, M|100/100
+|move|p2a: Charizard|Heat Wave|p1a: Talonflame|[spread] p1a,p1b
+|-resisted|p1a: Talonflame
+|-resisted|p1b: Hydreigon
+|-crit|p1b: Hydreigon
+|-damage|p1a: Talonflame|39/100
+|-damage|p1b: Hydreigon|3/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|42/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|2
+|
+|t:|1756271441
+|move|p1a: Talonflame|Brave Bird|p2b: Jumpluff
+|-supereffective|p2b: Jumpluff
+|-damage|p2b: Jumpluff|0 fnt
+|faint|p2b: Jumpluff
+|-damage|p1a: Talonflame|0 fnt|[from] Recoil
+|faint|p1a: Talonflame
+|move|p1b: Hydreigon|Snarl|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756271454
+|switch|p1a: Garchomp|Garchomp, L50, F|100/100
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2a: Torkoal|Torkoal, L50, M|41/100
+|turn|3
+|
+|t:|1756271471
+|move|p1a: Garchomp|Earthquake|p2b: Ursaluna|[spread] p2a,p2b
+|-immune|p1b: Hydreigon|[from] ability: Levitate
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-damage|p2b: Ursaluna|60/100
+|faint|p2a: Torkoal
+|-damage|p1a: Garchomp|91/100|[from] item: Life Orb
+|move|p1b: Hydreigon|Snarl|p2b: Ursaluna
+|-damage|p2b: Ursaluna|23/100
+|-unboost|p2b: Ursaluna|spa|1
+|move|p2b: Ursaluna|Headlong Rush|p1a: Garchomp
+|-damage|p1a: Garchomp|26/100
+|-unboost|p2b: Ursaluna|def|1
+|-unboost|p2b: Ursaluna|spd|1
+|-damage|p2b: Ursaluna|11/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|-message|gter4qgvtw forfeited.
+|
+|win|bosilek
+|raw|bosilek's rating: 1123 → 1140(+17 for winning)
+|raw|gter4qgvtw's rating: 1000 → 1000(+0 for losing)
+|l|☆gter4qgvtw
+|player|p2|

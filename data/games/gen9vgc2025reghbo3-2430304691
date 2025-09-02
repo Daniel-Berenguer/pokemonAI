@@ -1,0 +1,207 @@
+|j|☆CretaceousDraconid
+|j|☆Shoto.tx
+|html|CretaceousDraconidShoto.tx    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756380292
+|gametype|doubles
+|player|p1|CretaceousDraconid|zinnia-masters|1073
+|player|p2|Shoto.tx|102|1040
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Salamence, L50, F|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Milotic, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p2|Vivillon, L50, M|
+|poke|p2|Gliscor, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Archaludon, L50, F|
+|teampreview|4
+|showteam|p1|Garchomp||LifeOrb|SandVeil|Earthquake,StompingTantrum,Protect,DragonClaw|||M|||50|,,,,,Steel]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||M|||50|,,,,,Flying]Salamence||SafetyGoggles|Intimidate|DracoMeteor,Hurricane,Tailwind,Protect|||F|||50|,,,,,Steel]Corviknight||Leftovers|MirrorArmor|BraveBird,BodyPress,BulkUp,Roost|||F|||50|,,,,,Dragon]Milotic||RockyHelmet|Competitive|Scald,IcyWind,Haze,LifeDew|||F|||50|,,,,,Grass]Volcarona||SitrusBerry|FlameBody|HeatWave,RagePowder,Protect,StruggleBug|||M|||50|,,,,,Water
+|showteam|p2|Vivillon||FocusSash|CompoundEyes|Hurricane,Tailwind,SleepPowder,Protect|||M|||50|,,,,,Ghost]Gliscor||ChoiceBand|HyperCutter|Earthquake,TeraBlast,DualWingbeat,Uturn|||F|||50|,,,,,Ice]Kingambit||AssaultVest|Defiant|IronHead,Assurance,SuckerPunch,LowKick|||M|||50|,,,,,Flying]Ninetales-Alola||CovertCloak|SnowWarning|Blizzard,FreezeDry,AuroraVeil,Protect|||F|||50|,,,,,Water]Incineroar||RockyHelmet|Intimidate|FakeOut,PartingShot,FlareBlitz,KnockOff|||M|||50|,,,,,Fairy]Archaludon||PowerHerb|Stalwart|Protect,ElectroShot,DragonPulse,Thunderbolt|||F|||50|,,,,,Ghost
+|
+|t:|1756380374
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Volcarona|Volcarona, L50, M, shiny|100/100
+|switch|p1b: Corviknight|Corviknight, L50, F, shiny|100/100
+|switch|p2a: Vivillon|Vivillon, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|-ability|p1b: Corviknight|Mirror Armor
+|-unboost|p2b: Incineroar|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Shoto.tx)
+|
+|t:|1756380398
+|move|p2b: Incineroar|Fake Out|p1a: Volcarona
+|-damage|p1a: Volcarona|93/100
+|move|p2a: Vivillon|Sleep Powder|p1a: Volcarona
+|-status|p1a: Volcarona|slp|[from] move: Sleep Powder
+|cant|p1a: Volcarona|slp
+|move|p1b: Corviknight|Bulk Up|p1b: Corviknight
+|-boost|p1b: Corviknight|atk|1
+|-boost|p1b: Corviknight|def|1
+|
+|upkeep
+|turn|2
+|
+|t:|1756380414
+|move|p2a: Vivillon|Tailwind|p2a: Vivillon
+|-sidestart|p2: Shoto.tx|move: Tailwind
+|move|p2b: Incineroar|Knock Off|p1a: Volcarona
+|-damage|p1a: Volcarona|68/100 slp
+|-enditem|p1a: Volcarona|Sitrus Berry|[from] move: Knock Off|[of] p2b: Incineroar
+|cant|p1a: Volcarona|slp
+|move|p1b: Corviknight|Body Press|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|36/100
+|-damage|p1b: Corviknight|84/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|
+|-heal|p1b: Corviknight|90/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1756380434
+|move|p2a: Vivillon|Hurricane|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|move|p2b: Incineroar|Knock Off|p1b: Corviknight
+|-damage|p1b: Corviknight|78/100
+|-enditem|p1b: Corviknight|Leftovers|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1b: Corviknight|Brave Bird|p2a: Vivillon
+|-supereffective|p2a: Vivillon
+|-enditem|p2a: Vivillon|Focus Sash
+|-damage|p2a: Vivillon|1/100
+|-damage|p1b: Corviknight|53/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1756380451
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|4
+|
+|t:|1756380466
+|switch|p2b: Gliscor|Gliscor, L50, F|100/100
+|move|p2a: Vivillon|Sleep Powder|p1b: Corviknight
+|-status|p1b: Corviknight|slp|[from] move: Sleep Powder
+|move|p1a: Tyranitar|Rock Slide|p2a: Vivillon|[spread] p2a
+|-miss|p1a: Tyranitar|p2b: Gliscor
+|-supereffective|p2a: Vivillon
+|-damage|p2a: Vivillon|0 fnt
+|faint|p2a: Vivillon
+|cant|p1b: Corviknight|slp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1756380481
+|switch|p2a: Archaludon|Archaludon, L50, F|100/100
+|turn|5
+|
+|t:|1756380502
+|switch|p1a: Milotic|Milotic, L50, F|100/100
+|-terastallize|p2b: Gliscor|Ice
+|-terastallize|p1b: Corviknight|Dragon
+|move|p2b: Gliscor|Dual Wingbeat|p1a: Milotic
+|-damage|p1a: Milotic|79/100
+|-damage|p2b: Gliscor|84/100|[from] item: Rocky Helmet|[of] p1a: Milotic
+|-damage|p1a: Milotic|58/100
+|-damage|p2b: Gliscor|67/100|[from] item: Rocky Helmet|[of] p1a: Milotic
+|-hitcount|p1a: Milotic|2
+|move|p2a: Archaludon|Dragon Pulse|p1b: Corviknight
+|-supereffective|p1b: Corviknight
+|-damage|p1b: Corviknight|0 fnt
+|faint|p1b: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Gliscor|61/100|[from] Sandstorm
+|-damage|p1a: Milotic|52/100|[from] Sandstorm
+|-sideend|p2: Shoto.tx|move: Tailwind
+|upkeep
+|
+|t:|1756380514
+|switch|p1b: Tyranitar|Tyranitar, L50, M|100/100
+|turn|6
+|
+|t:|1756380533
+|move|p2b: Gliscor|Dual Wingbeat|p1b: Tyranitar
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|90/100
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|79/100
+|-hitcount|p1b: Tyranitar|2
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-enditem|p2a: Archaludon|Power Herb
+|-anim|p2a: Archaludon|Electro Shot|p1a: Milotic
+|-supereffective|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|move|p1b: Tyranitar|Low Kick|p2a: Archaludon
+|-supereffective|p2a: Archaludon
+|-damage|p2a: Archaludon|47/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Gliscor|55/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1756380556
+|move|p2a: Archaludon|Protect|p2a: Archaludon
+|-singleturn|p2a: Archaludon|Protect
+|move|p2b: Gliscor|Dual Wingbeat|p1b: Tyranitar
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|68/100
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|56/100
+|-hitcount|p1b: Tyranitar|2
+|move|p1b: Tyranitar|Low Kick|p2a: Archaludon
+|-activate|p2a: Archaludon|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Gliscor|50/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1756380573
+|move|p2b: Gliscor|Dual Wingbeat|p1b: Tyranitar
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|45/100
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|34/100
+|-hitcount|p1b: Tyranitar|2
+|move|p2a: Archaludon|Dragon Pulse|p1b: Tyranitar
+|-damage|p1b: Tyranitar|3/100
+|move|p1b: Tyranitar|Rock Slide|p2b: Gliscor|[spread] p2a,p2b
+|-resisted|p2a: Archaludon
+|-supereffective|p2b: Gliscor
+|-crit|p2b: Gliscor
+|-damage|p2a: Archaludon|33/100
+|-damage|p2b: Gliscor|0 fnt
+|faint|p2b: Gliscor
+|
+|-weather|none
+|upkeep
+|-message|CretaceousDraconid forfeited.
+|
+|win|Shoto.tx
+|l|☆CretaceousDraconid
+|player|p1|
+||CretaceousDraconid is ready for game 2.
+|inactive|Shoto.tx has 30 seconds to confirm battle start!
+|j|☆CretaceousDraconid
+|player|p1|CretaceousDraconid|zinnia-masters|

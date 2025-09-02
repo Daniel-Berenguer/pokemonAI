@@ -1,0 +1,256 @@
+|j|‽T-block
+|j|☆nenu18
+|html|T-blocknenu18    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756248040
+|gametype|doubles
+|player|p1|T-block|266|1319
+|player|p2|nenu18|102|1243
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p2|Electabuzz, L50, F|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|showteam|p1|Rillaboom||AssaultVest|GrassySurge|GrassyGlide,WoodHammer,FakeOut,HighHorsepower|||F|||50|,,,,,Fire]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,IcyWind,Encore,AuroraVeil|||M|||50|,,,,,Ghost]Gholdengo||GrassySeed|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water]Garchomp||ChoiceBand|RoughSkin|StompingTantrum,RockSlide,DragonClaw,Outrage|||F|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||F|||50|,,,,,Fairy
+|showteam|p2|Electabuzz||Eviolite|VitalSpirit|FollowMe,Thunderbolt,Taunt,Protect|||F|||50|,,,,,Ghost]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Ghost]Volcarona||LifeOrb|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||F|||50|,,,,,Fairy]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||M|||50|,,,,,Fairy]Sneasler||FocusSash|Unburden|DireClaw,CloseCombat,Coaching,FakeOut|||M|||50|,,,,,Stellar]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,HighHorsepower|||F|||50|,,,,,Fire
+|
+|t:|1756248096
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|switch|p2a: Kingambit|Kingambit, L50, F|100/100
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|turn|1
+|
+|t:|1756248125
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-enditem|p1a: Gholdengo|Grassy Seed
+|-boost|p1a: Gholdengo|def|1|[from] item: Grassy Seed
+|switch|p2b: Electabuzz|Electabuzz, L50, F|100/100
+|-terastallize|p1a: Gholdengo|Water
+|-terastallize|p2a: Kingambit|Ghost
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1756248159
+|move|p1b: Rillaboom|Fake Out|p2b: Electabuzz
+|-damage|p2b: Electabuzz|88/100
+|move|p2a: Kingambit|Sucker Punch|p1a: Gholdengo
+|-damage|p1a: Gholdengo|41/100
+|cant|p2b: Electabuzz|flinch
+|move|p1a: Gholdengo|Shadow Ball|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|
+|-heal|p2b: Electabuzz|94/100|[from] Grassy Terrain
+|-heal|p1a: Gholdengo|47/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756248168
+|switch|p2a: Volcarona|Volcarona, L50, F|100/100
+|turn|3
+|
+|t:|1756248193
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2b: Electabuzz|Thunderbolt|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-heal|p1a: Gholdengo|53/100|[from] Grassy Terrain
+|-heal|p2b: Electabuzz|99/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756248243
+|move|p2a: Volcarona|Protect|p2a: Volcarona
+|-singleturn|p2a: Volcarona|Protect
+|move|p1b: Garchomp|Rock Slide|p2a: Volcarona|[spread] p2b
+|-activate|p2a: Volcarona|move: Protect
+|-damage|p2b: Electabuzz|76/100
+|move|p2b: Electabuzz|Thunderbolt|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-heal|p2b: Electabuzz|82/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756248254
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|-unboost|p2b: Electabuzz|atk|1
+|turn|5
+|
+|t:|1756248269
+|switch|p2a: Dragonite|Dragonite, L50, M|100/100
+|move|p2b: Electabuzz|Protect|p2b: Electabuzz
+|-singleturn|p2b: Electabuzz|Protect
+|move|p1b: Garchomp|Rock Slide|p2a: Dragonite|[spread] p2a
+|-activate|p2b: Electabuzz|move: Protect
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|70/100
+|move|p1a: Incineroar|Knock Off|p2b: Electabuzz
+|-activate|p2b: Electabuzz|move: Protect
+|
+|-heal|p2b: Electabuzz|88/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756248294
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p2b: Electabuzz|Follow Me|p2b: Electabuzz
+|-singleturn|p2b: Electabuzz|move: Follow Me
+|move|p2a: Dragonite|Scale Shot|p1b: Rillaboom
+|-damage|p1b: Rillaboom|85/100
+|-damage|p1b: Rillaboom|70/100
+|-damage|p1b: Rillaboom|55/100
+|-damage|p1b: Rillaboom|41/100
+|-damage|p1b: Rillaboom|26/100
+|-hitcount|p1b: Rillaboom|5
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Incineroar|Knock Off|p2b: Electabuzz
+|-damage|p2b: Electabuzz|58/100
+|-enditem|p2b: Electabuzz|Eviolite|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-heal|p2b: Electabuzz|64/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|32/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1756248345
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|move|p2a: Dragonite|Protect|p2a: Dragonite
+|-singleturn|p2a: Dragonite|Protect
+|move|p1b: Rillaboom|Wood Hammer|p2b: Volcarona
+|-resisted|p2b: Volcarona
+|-damage|p2b: Volcarona|71/100
+|-damage|p1b: Rillaboom|23/100|[from] Recoil
+|move|p1a: Incineroar|Parting Shot|p2a: Dragonite
+|-activate|p2a: Dragonite|move: Protect
+|
+|-heal|p2b: Volcarona|77/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|29/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1756248381
+|move|p2a: Dragonite|Scale Shot|p1a: Incineroar
+|-damage|p1a: Incineroar|87/100
+|-damage|p1a: Incineroar|73/100
+|-damage|p1a: Incineroar|59/100
+|-damage|p1a: Incineroar|45/100
+|-hitcount|p1a: Incineroar|4
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|move|p2b: Volcarona|Heat Wave|p1b: Rillaboom|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-supereffective|p1b: Rillaboom
+|-damage|p1a: Incineroar|28/100
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|-damage|p2b: Volcarona|68/100|[from] item: Life Orb
+|move|p1a: Incineroar|Parting Shot|p2a: Dragonite
+|-unboost|p2a: Dragonite|atk|1
+|-unboost|p2a: Dragonite|spa|1
+|
+|t:|1756248386
+|switch|p1a: Garchomp|Garchomp, L50, F|100/100|[from] Parting Shot
+|
+|-heal|p2b: Volcarona|74/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756248391
+|switch|p1b: Incineroar|Incineroar, L50, M|28/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|-unboost|p2b: Volcarona|atk|1
+|turn|9
+|
+|t:|1756248404
+|move|p2a: Dragonite|Protect|p2a: Dragonite
+|-singleturn|p2a: Dragonite|Protect
+|move|p2b: Volcarona|Protect|p2b: Volcarona
+|-singleturn|p2b: Volcarona|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Dragonite
+|-activate|p2a: Dragonite|move: Protect
+|move|p1a: Garchomp|Rock Slide|p2b: Volcarona|[spread] 
+|-activate|p2a: Dragonite|move: Protect
+|-activate|p2b: Volcarona|move: Protect
+|
+|-heal|p2b: Volcarona|79/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|34/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1756248420
+|move|p2a: Dragonite|Scale Shot|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|84/100
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|70/100
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|54/100
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|40/100
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|25/100
+|-hitcount|p1a: Garchomp|5
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|move|p1a: Garchomp|Rock Slide|p2b: Volcarona|[spread] p2a,p2b
+|-supereffective|p2a: Dragonite
+|-supereffective|p2b: Volcarona
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p2b: Volcarona|0 fnt
+|faint|p2a: Dragonite
+|faint|p2b: Volcarona
+|move|p1b: Incineroar|Knock Off|p2: Dragonite|[notarget]
+|-fail|p1b: Incineroar
+|
+|-heal|p1a: Garchomp|31/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|40/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756248438
+|switch|p2b: Electabuzz|Electabuzz, L50, F|64/100
+|turn|11
+|-message|nenu18 forfeited.
+|
+|win|T-block
+|raw|T-block's rating: 1319 → 1335(+16 for winning)
+|raw|nenu18's rating: 1243 → 1223(-20 for losing)
+|l|☆nenu18
+|player|p2|

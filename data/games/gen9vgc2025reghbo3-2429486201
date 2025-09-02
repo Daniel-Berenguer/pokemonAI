@@ -1,0 +1,139 @@
+|j|☆zbsch
+|j|☆minccino fan
+|html|zbschminccino fan    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756272058
+|gametype|doubles
+|player|p1|zbsch|harlequin|1150
+|player|p2|minccino fan|170|1062
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||LifeOrb|SolarPower|HeatWave,Protect,WeatherBall,AirSlash|||M|||50|,,,,,Fire]Torkoal||EjectPack|Drought|Eruption,HeatWave,HelpingHand,Protect|||M|||50|,,,,,Fire]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,Tailwind,RagePowder,SunnyDay|||F|||50|,,,,,Water]Archaludon||PowerHerb|Stamina|Protect,ElectroShot,DracoMeteor,FlashCannon|||F|||50|,,,,,Dragon]Sneasler||PsychicSeed|Unburden|DireClaw,ThroatChop,CloseCombat,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceSpecs|PsychicSurge|ExpandingForce,TeraBlast,DazzlingGleam,Protect|||M|||50|,,,,,Fighting
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by minccino fan)
+|
+|t:|1756272068
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|atk|1
+|turn|1
+|inactive|minccino fan has 30 seconds left.
+|
+|t:|1756272102
+|-terastallize|p1b: Indeedee|Fighting
+|move|p1a: Sneasler|Close Combat|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|22/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-enditem|p2b: Incineroar|Sitrus Berry|[eat]
+|-heal|p2b: Incineroar|47/100|[from] item: Sitrus Berry
+|move|p1b: Indeedee|Tera Blast|p2b: Incineroar|[anim] Tera Blast Fighting
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|upkeep
+|
+|t:|1756272117
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|2
+|
+|t:|1756272127
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-terastallize|p2b: Ursaluna|Ghost
+|move|p2b: Ursaluna|Earthquake|p1b: Indeedee|[spread] p1a,p1b
+|-immune|p2a: Jumpluff
+|-supereffective|p1a: Torkoal
+|-crit|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-damage|p1b: Indeedee|2/100
+|faint|p1a: Torkoal
+|move|p1b: Indeedee|Tera Blast|p2a: Jumpluff|[anim] Tera Blast Fighting
+|-resisted|p2a: Jumpluff
+|-damage|p2a: Jumpluff|74/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756272143
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|turn|3
+|
+|t:|1756272147
+|switch|p1b: Jumpluff|Jumpluff, L50, F|100/100
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p2a: Jumpluff|Rage Powder|p2a: Jumpluff
+|-singleturn|p2a: Jumpluff|move: Rage Powder
+|move|p2b: Ursaluna|Earthquake|p1a: Sneasler|[spread] 
+|-activate|p1a: Sneasler|move: Protect
+|-immune|p2a: Jumpluff
+|-immune|p1b: Jumpluff
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|zbsch has 30 seconds left.
+|
+|t:|1756272187
+|move|p2a: Jumpluff|Rage Powder|p2a: Jumpluff
+|-singleturn|p2a: Jumpluff|move: Rage Powder
+|move|p2b: Ursaluna|Earthquake|p1a: Sneasler|[spread] p1a
+|-immune|p2a: Jumpluff
+|-immune|p1b: Jumpluff
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|move|p1b: Jumpluff|Tailwind|p1b: Jumpluff
+|-sidestart|p1: zbsch|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1756272196
+|switch|p1a: Indeedee|Indeedee, L50, M, tera:Fighting|2/100
+|turn|5
+|c|☆zbsch|gg
+|-message|zbsch forfeited.
+|
+|win|minccino fan
+|raw|zbsch's rating: 1150 → 1119(-31 for losing)
+|raw|minccino fan's rating: 1062 → 1100(+38 for winning)
+|c|☆minccino fan|gg

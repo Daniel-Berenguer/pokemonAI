@@ -1,0 +1,127 @@
+|j|☆Brick6
+|j|☆NotNiceface
+|html|Brick6NotNiceface    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756153348
+|gametype|doubles
+|player|p1|Brick6|266|1059
+|player|p2|NotNiceface|1|1068
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gallade, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Magnezone, L50|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Electabuzz, L50, F|
+|poke|p2|Kingambit, L50, M|
+|teampreview|4
+|showteam|p1|Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Grass]Indeedee-F||SafetyGoggles|PsychicSurge|FollowMe,TrickRoom,DazzlingGleam,HelpingHand|||F|||50|,,,,,Fairy]Hatterene||LifeOrb|MagicBounce|DazzlingGleam,ExpandingForce,TrickRoom,Protect|||F|||50|,,,,,Psychic]Torkoal||Charcoal|Drought|Eruption,Flamethrower,EarthPower,Protect|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Protect,Earthquake|||F|||50|,,,,,Ghost]Magnezone||ChoiceSpecs|Sturdy|FlashCannon,Thunderbolt,VoltSwitch,TeraBlast||||||50|,,,,,Flying
+|showteam|p2|Primarina||LifeOrb|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||M|||50|,,,,,Poison]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,Uturn,FakeOut|||M|||50|,,,,,Fire]Sneasler||FocusSash|PoisonTouch|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Stellar]Dragapult||ChoiceBand|ClearBody|DragonDarts,Uturn,PhantomForce,TeraBlast|||F|||50|,,,,,Fire]Electabuzz||Eviolite|VitalSpirit|FollowMe,Electroweb,Taunt,Protect|||F|||50|,,,,,Ghost]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark
+|
+|t:|1756153393
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Electabuzz|Electabuzz, L50, F|100/100
+|switch|p2b: Dragapult|Dragapult, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1756153447
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Dragapult|U-turn|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|29/100
+|
+|t:|1756153456
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100|[from] U-turn
+|move|p1b: Hatterene|Trick Room|p1b: Hatterene
+|-fieldstart|move: Trick Room|[of] p1b: Hatterene
+|
+|-heal|p1a: Indeedee|36/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756153494
+|switch|p1a: Gallade|Gallade, L50, M|100/100
+|move|p2a: Rillaboom|Fake Out|p1a: Gallade
+|-damage|p1a: Gallade|80/100
+|move|p1b: Hatterene|Dazzling Gleam|p2b: Kingambit|[spread] p2a,p2b
+|-damage|p2a: Rillaboom|70/100
+|-damage|p2b: Kingambit|53/100
+|-damage|p1b: Hatterene|91/100|[from] item: Life Orb
+|move|p2b: Kingambit|Kowtow Cleave|p1b: Hatterene
+|-damage|p1b: Hatterene|26/100
+|
+|-heal|p1b: Hatterene|32/100|[from] Grassy Terrain
+|-heal|p2b: Kingambit|59/100|[from] Grassy Terrain
+|-heal|p1a: Gallade|86/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|75/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756153535
+|switch|p1b: Indeedee|Indeedee-F, L50, F|36/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p2b: Kingambit|Sucker Punch|p1a: Gallade
+|-activate|p1a: Gallade|move: Psychic Terrain
+|move|p1a: Gallade|Psycho Cut|p2a: Rillaboom
+|-damage|p2a: Rillaboom|9/100
+|move|p2a: Rillaboom|Grassy Glide|p1a: Gallade
+|-damage|p1a: Gallade|46/100
+|
+|upkeep
+|turn|4
+|
+|t:|1756153572
+|switch|p2a: Electabuzz|Electabuzz, L50, F|100/100
+|move|p2b: Kingambit|Kowtow Cleave|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|move|p1b: Indeedee|Dazzling Gleam|p2b: Kingambit|[spread] p2a,p2b
+|-damage|p2a: Electabuzz|90/100
+|-damage|p2b: Kingambit|45/100
+|
+|upkeep
+|
+|t:|1756153585
+|switch|p1a: Hatterene|Hatterene, L50, F|32/100
+|turn|5
+|
+|t:|1756153613
+|switch|p2b: Rillaboom|Rillaboom, L50, M|9/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|move|p2a: Electabuzz|Taunt|p1b: Indeedee
+|-start|p1b: Indeedee|move: Taunt
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldend|move: Trick Room
+|cant|p1b: Indeedee|move: Taunt|Trick Room
+|
+|-heal|p2a: Electabuzz|96/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|15/100|[from] Grassy Terrain
+|-heal|p1b: Indeedee|42/100|[from] Grassy Terrain
+|-heal|p1a: Hatterene|38/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|-message|Brick6 forfeited.
+|
+|win|NotNiceface
+|raw|Brick6's rating: 1059 → 1041(-18 for losing)
+|raw|NotNiceface's rating: 1068 → 1097(+29 for winning)
+|l|☆Brick6
+|player|p1|

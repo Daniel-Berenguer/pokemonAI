@@ -1,0 +1,113 @@
+|j|☆gene takavic
+|j|☆Fr3gsy
+|html|gene takavicFr3gsy    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756536491
+|gametype|doubles
+|player|p1|gene takavic|pryce|1196
+|player|p2|Fr3gsy|giovanni|1173
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Dragapult, L50, M|
+|poke|p2|Annihilape, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,FlareBlitz,KnockOff|||F|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|HelpingHand,FollowMe,DazzlingGleam,TrickRoom|||F|||50|,,,,,Fairy]Armarouge||LifeOrb|FlashFire|HeatWave,ExpandingForce,Protect,TrickRoom|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Facade,Protect,HeadlongRush,SwordsDance|||F|||50|,,,,,Ghost]Dragapult||ChoiceBand|ClearBody|DragonDarts,TeraBlast,Uturn,SuckerPunch|||M|||50|,,,,,Ghost]Annihilape||ChoiceScarf|Defiant|FinalGambit,Coaching,RageFist,Uturn|||F|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gene takavic)
+|
+|t:|1756536516
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|switch|p1b: Jumpluff|Jumpluff, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p2b: Armarouge|Armarouge, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1756536539
+|-terastallize|p2b: Armarouge|Grass
+|move|p2a: Indeedee|Helping Hand|p2b: Armarouge
+|-singleturn|p2b: Armarouge|Helping Hand|[of] p2a: Indeedee
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p1b: Jumpluff|Sleep Powder|p2a: Indeedee|[miss]
+|-miss|p1b: Jumpluff|p2a: Indeedee
+|move|p2b: Armarouge|Expanding Force|p1a: Torkoal|[spread] p1b
+|-activate|p1a: Torkoal|move: Protect
+|-damage|p1b: Jumpluff|0 fnt
+|faint|p1b: Jumpluff
+|-damage|p2b: Armarouge|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756536546
+|switch|p1b: Porygon2|Porygon2, L50|100/100
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|atk|1
+|turn|2
+|
+|t:|1756536564
+|move|p2a: Indeedee|Helping Hand|p2b: Armarouge
+|-singleturn|p2b: Armarouge|Helping Hand|[of] p2a: Indeedee
+|move|p2b: Armarouge|Expanding Force|p1b: Porygon2|[spread] p1a,p1b
+|-damage|p1a: Torkoal|0 fnt
+|-damage|p1b: Porygon2|24/100
+|faint|p1a: Torkoal
+|-damage|p2b: Armarouge|81/100|[from] item: Life Orb
+|move|p1b: Porygon2|Trick Room|p1b: Porygon2
+|-fieldstart|move: Trick Room|[of] p1b: Porygon2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756536566
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|3
+|
+|t:|1756536580
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Armarouge|Protect|p2b: Armarouge
+|-singleturn|p2b: Armarouge|Protect
+|move|p1b: Porygon2|Ice Beam|p2a: Indeedee
+|-damage|p2a: Indeedee|83/100
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldend|move: Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1756536596
+|move|p2a: Indeedee|Helping Hand|p2b: Armarouge
+|-singleturn|p2b: Armarouge|Helping Hand|[of] p2a: Indeedee
+|move|p2b: Armarouge|Expanding Force|p1a: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|0 fnt
+|-damage|p1b: Porygon2|0 fnt
+|faint|p1a: Ursaluna
+|faint|p1b: Porygon2
+|-damage|p2b: Armarouge|71/100|[from] item: Life Orb
+|
+|win|Fr3gsy
+||Fr3gsy is ready for game 3.

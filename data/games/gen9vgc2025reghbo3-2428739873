@@ -1,0 +1,144 @@
+|j|☆sam0el
+|j|☆Kdbc73
+|html|sam0elKdbc73    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756178515
+|gametype|doubles
+|player|p1|sam0el|veteran|1069
+|player|p2|Kdbc73|preschoolerf|1137
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Zoroark-Hisui, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Electabuzz, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Talonflame, L50, M|
+|teampreview|4
+|showteam|p1|Hatterene||CovertCloak|MagicBounce|ExpandingForce,DazzlingGleam,Protect,TrickRoom|||F|||50|,,,,,Fire]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,HelpingHand,TrickRoom,HealPulse|||F|||50|,,,,,Water]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Zoroark-Hisui||LifeOrb|Illusion|HyperVoice,ShadowBall,HyperBeam,Protect|||F|||50|,,,,,Stellar
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,HelpingHand,Protect|||M|||50|,,,,,Psychic]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Protect|||F|||50|,,,,,Dragon]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Ghost]Talonflame||CovertCloak|GaleWings|FlareBlitz,DualWingbeat,WillOWisp,Tailwind|||M|||50|,,,,,Fairy
+|
+|t:|1756178532
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756178568
+|-terastallize|p2b: Ursaluna|Normal
+|move|p1a: Indeedee|Helping Hand|p1b: Hatterene
+|-singleturn|p1b: Hatterene|Helping Hand|[of] p1a: Indeedee
+|move|p2a: Indeedee|Expanding Force|p1a: Indeedee|[spread] p1a,p1b
+|-resisted|p1a: Indeedee
+|-resisted|p1b: Hatterene
+|-damage|p1a: Indeedee|84/100
+|-damage|p1b: Hatterene|75/100
+|move|p2b: Ursaluna|Hyper Voice|p1a: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Indeedee|42/100
+|-damage|p1b: Hatterene|0 fnt
+|faint|p1b: Hatterene
+|-damage|p2b: Ursaluna|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756178584
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|turn|2
+|
+|t:|1756178595
+|move|p1b: Torkoal|Hyper Beam|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|-mustrecharge|p1b: Torkoal
+|faint|p2b: Ursaluna
+|-damage|p1b: Torkoal|90/100|[from] item: Life Orb
+|move|p2a: Indeedee|Expanding Force|p1b: Torkoal|[spread] p1a,p1b
+|-resisted|p1a: Indeedee
+|-damage|p1a: Indeedee|24/100
+|-damage|p1b: Torkoal|0 fnt
+|replace|p1b: Zoroark|Zoroark-Hisui, L50, F
+|-end|p1b: Zoroark|Illusion
+|faint|p1b: Zoroark
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|
+|t:|1756178607
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|turn|3
+|
+|t:|1756178650
+|-terastallize|p1b: Torkoal|Fire
+|move|p1a: Indeedee|Helping Hand|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Torkoal|Eruption|p2a: Indeedee|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-enditem|p2a: Indeedee|Focus Sash
+|-damage|p2a: Indeedee|1/100
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Indeedee|Expanding Force|p1a: Indeedee|[spread] p1a,p1b
+|-resisted|p1a: Indeedee
+|-damage|p1a: Indeedee|6/100
+|-damage|p1b: Torkoal|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756178664
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|4
+|
+|t:|1756178686
+|move|p2a: Indeedee|Protect|p2a: Indeedee
+|-singleturn|p2a: Indeedee|Protect
+|move|p1b: Torkoal|Eruption|p2b: Sneasler|[spread] p2b
+|-activate|p2a: Indeedee|move: Protect
+|-damage|p2b: Sneasler|54/100
+|move|p1a: Indeedee|Heal Pulse|p1b: Torkoal
+|-heal|p1b: Torkoal|86/100
+|move|p2b: Sneasler|Dire Claw|p1b: Torkoal
+|-damage|p1b: Torkoal|52/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1756178707
+|move|p2a: Indeedee|Protect||[still]
+|-fail|p2a: Indeedee
+|move|p1b: Torkoal|Eruption|p2a: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2a: Indeedee
+|faint|p2b: Sneasler
+|
+|win|sam0el
+||Kdbc73 is ready for game 3.
+|inactive|sam0el has 30 seconds to confirm battle start!
+||sam0el is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

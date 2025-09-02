@@ -1,0 +1,185 @@
+|j|☆MrTedno
+|j|☆colemarcusvgc
+|html|MrTednocolemarcusvgc    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756588017
+|gametype|doubles
+|player|p1|MrTedno|barry|1126
+|player|p2|colemarcusvgc|n|1091
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dondozo, L50, F|
+|poke|p1|Tatsugiri, L50, M|
+|poke|p1|Politoed, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Overqwil, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Dondozo||LifeOrb|Unaware|Surf,Protect,SleepTalk|||F|||50|,,,,,Water]Tatsugiri||FocusSash|Commander|DracoMeteor,Protect,MuddyWater,Taunt|||M|||50|,,,,,Stellar]Politoed||SitrusBerry|Drizzle|WeatherBall,IceBeam,Encore,Protect|||F|||50|,,,,,Steel]Archaludon||AssaultVest|Stamina|BodyPress,ElectroShot,DragonPulse,FlashCannon|||F|||50|,,,,,Grass]Amoonguss||RockyHelmet|Regenerator|Spore,RagePowder,PollenPuff,Protect|||M|||50|,,,,,Fairy]Overqwil||ChoiceBand|SwiftSwim|PoisonJab,ThroatChop,Liquidation,TeraBlast|||M|||50|,,,,,Grass
+|showteam|p2|Indeedee-F||RockyHelmet|PsychicSurge|FollowMe,HelpingHand,TrickRoom,DazzlingGleam|||F|||50|,,,,,Steel]Hatterene||LifeOrb|MagicBounce|TrickRoom,ExpandingForce,MysticalFire,DazzlingGleam|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,SludgeBomb|||F|||50|,,,,,Water]Porygon2||Eviolite|Download|IceBeam,TeraBlast,Recover,TrickRoom||||||50|,,,,,Grass]Tyranitar||SafetyGoggles|SandStream|RockSlide,Crunch,LowKick,IcePunch|||M|||50|,,,,,Fairy
+|
+|t:|1756588072
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Shellington|Overqwil, L50, M|100/100
+|switch|p1b: Peso|Tatsugiri, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|atk|1
+|turn|1
+|
+|t:|1756588105
+|switch|p1a: Turnip|Amoonguss, L50, M|100/100
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Peso|Taunt|p2a: Indeedee
+|-start|p2a: Indeedee|move: Taunt
+|move|p2b: Porygon2|Trick Room|p2b: Porygon2
+|-fieldstart|move: Trick Room|[of] p2b: Porygon2
+|
+|upkeep
+|turn|2
+|
+|t:|1756588148
+|switch|p2a: Hatterene|Hatterene, L50, F|100/100
+|-terastallize|p2b: Porygon2|Grass
+|move|p1b: Peso|Protect|p1b: Peso
+|-singleturn|p1b: Peso|Protect
+|move|p1a: Turnip|Spore|p2b: Porygon2
+|-immune|p2b: Porygon2
+|move|p2b: Porygon2|Ice Beam|p1b: Peso
+|-activate|p1b: Peso|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1756588177
+|switch|p1b: Shellington|Overqwil, L50, M|100/100
+|move|p1a: Turnip|Protect|p1a: Turnip
+|-singleturn|p1a: Turnip|Protect
+|move|p2a: Hatterene|Expanding Force|p1b: Shellington|[spread] 
+|-activate|p1a: Turnip|move: Protect
+|-immune|p1b: Shellington
+|move|p2b: Porygon2|Ice Beam|p1a: Turnip
+|-activate|p1a: Turnip|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1756588208
+|switch|p1a: Tweak|Politoed, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Tweak
+|move|p2a: Hatterene|Dazzling Gleam|p1a: Tweak|[spread] p1a,p1b
+|-damage|p1a: Tweak|70/100
+|-damage|p1b: Shellington|32/100
+|-damage|p2a: Hatterene|91/100|[from] item: Life Orb
+|move|p2b: Porygon2|Tera Blast|p1b: Shellington|[anim] Tera Blast Grass
+|-resisted|p1b: Shellington
+|-damage|p1b: Shellington|12/100
+|move|p1b: Shellington|Poison Jab|p2a: Hatterene
+|-supereffective|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756588229
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|turn|5
+|
+|t:|1756588280
+|switch|p1b: Peso|Tatsugiri, L50, M|100/100
+|move|p1a: Tweak|Protect|p1a: Tweak
+|-singleturn|p1a: Tweak|Protect
+|move|p2a: Ursaluna|Facade|p1a: Tweak
+|-activate|p1a: Tweak|move: Protect
+|move|p2b: Porygon2|Tera Blast|p1a: Tweak|[anim] Tera Blast Grass
+|-activate|p1a: Tweak|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1756588317
+|-terastallize|p1b: Peso|Stellar
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1b: Peso|Muddy Water|p2b: Porygon2|[spread] p2b
+|-activate|p2a: Ursaluna|move: Protect
+|-resisted|p2b: Porygon2
+|-damage|p2b: Porygon2|79/100
+|-unboost|p2b: Porygon2|accuracy|1
+|move|p1a: Tweak|Encore|p2b: Porygon2
+|-start|p2b: Porygon2|Encore
+|move|p2b: Porygon2|Tera Blast|p1a: Tweak|[anim] Tera Blast Grass
+|-supereffective|p1a: Tweak
+|-damage|p1a: Tweak|0 fnt
+|faint|p1a: Tweak
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756588326
+|switch|p1a: Shellington|Overqwil, L50, M|12/100
+|turn|7
+|
+|t:|1756588347
+|move|p1a: Shellington|Poison Jab|p2b: Porygon2
+|-supereffective|p2b: Porygon2
+|-damage|p2b: Porygon2|12/100
+|-status|p2b: Porygon2|psn
+|move|p1b: Peso|Muddy Water|p2b: Porygon2|[spread] p2a,p2b
+|-supereffective|p2a: Ursaluna
+|-resisted|p2b: Porygon2
+|-crit|p2b: Porygon2
+|-damage|p2a: Ursaluna|2/100 brn
+|-damage|p2b: Porygon2|0 fnt
+|-unboost|p2a: Ursaluna|accuracy|1
+|faint|p2b: Porygon2
+|move|p2a: Ursaluna|Facade|p1b: Peso|[miss]
+|-miss|p2a: Ursaluna|p1b: Peso
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ursaluna|0 fnt|[from] brn
+|faint|p2a: Ursaluna
+|upkeep
+|
+|t:|1756588366
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|8
+|
+|t:|1756588377
+|move|p1a: Shellington|Poison Jab|p2b: Indeedee
+|-damage|p2b: Indeedee|36/100
+|-status|p2b: Indeedee|psn
+|-damage|p1a: Shellington|0 fnt|[from] item: Rocky Helmet|[of] p2b: Indeedee
+|faint|p1a: Shellington
+|move|p1b: Peso|Draco Meteor|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-unboost|p1b: Peso|spa|2
+|faint|p2b: Indeedee
+|
+|win|MrTedno
+||colemarcusvgc is ready for game 2.
+|inactive|MrTedno has 30 seconds to confirm battle start!
+||MrTedno is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

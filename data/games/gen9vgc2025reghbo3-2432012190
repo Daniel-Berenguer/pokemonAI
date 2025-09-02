@@ -1,0 +1,133 @@
+|j|☆y-rocko
+|j|☆momoechis
+|html|y-rockomomoechis    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756597118
+|gametype|doubles
+|player|p1|y-rocko|2|1093
+|player|p2|momoechis|iris|1062
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ribombee, L50, F|
+|poke|p1|Stonjourner, L50, F|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Typhlosion-Hisui, L50, M|
+|poke|p1|Hydreigon, L50, M|
+|poke|p1|Bronzong, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|showteam|p1|Ribombee||ChoiceSpecs|ShieldDust|Moonblast,DazzlingGleam,Uturn,PollenPuff|||F|||50|,,,,,Fairy]Stonjourner||FocusSash|PowerSpot|WideGuard,RockSlide,HeatCrash,LowKick|||F|||50|,,,,,Fire]Whimsicott||CovertCloak|Prankster|Tailwind,FakeTears,SunnyDay,Moonblast|||M|||50|,,,,,Water]Typhlosion-Hisui||Charcoal|Frisk|Protect,Eruption,ShadowBall,Flamethrower|||M|||50|,,,,,Fire]Hydreigon||AssaultVest|Levitate|Snarl,DarkPulse,DracoMeteor,HeatWave|||M|||50|,,,,,Fire]Bronzong||SitrusBerry|Levitate|TrickRoom,IronDefense,BodyPress,Psychic||||||50|,,,,,Dragon
+|showteam|p2|Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Dragonite||LoadedDice|Multiscale|Tailwind,ScaleShot,Haze,Protect|||M|||50|,,,,,Fairy]Sneasler||GrassySeed|Unburden|CloseCombat,DireClaw,Acrobatics,Protect|||M|||50|,,,,,Flying]Electabuzz||Eviolite|Static|Thunderbolt,Taunt,FollowMe,Protect|||M|||50|,,,,,Ghost]Primarina||SitrusBerry|LiquidVoice|HyperVoice,Moonblast,Protect,Encore|||F|||50|,,,,,Poison]Rillaboom||AssaultVest|GrassySurge|FakeOut,HighHorsepower,GrassyGlide,WoodHammer|||F|||50|,,,,,Fire
+|
+|t:|1756597141
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p1b: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|switch|p2a: Dragonite|Dragonite, L50, M|100/100
+|switch|p2b: Primarina|Primarina, L50, F|100/100
+|-item|p2a: Dragonite|Loaded Dice|[from] ability: Frisk|[of] p1b: Typhlosion
+|-item|p2b: Primarina|Sitrus Berry|[from] ability: Frisk|[of] p1b: Typhlosion
+|turn|1
+|
+|t:|1756597168
+|move|p1a: Whimsicott|Sunny Day|p1a: Whimsicott
+|-weather|SunnyDay
+|move|p1b: Typhlosion|Eruption|p2a: Dragonite|[spread] p2a,p2b
+|-resisted|p2a: Dragonite
+|-resisted|p2b: Primarina
+|-damage|p2a: Dragonite|77/100
+|-damage|p2b: Primarina|59/100
+|move|p2a: Dragonite|Tailwind|p2a: Dragonite
+|-sidestart|p2: momoechis|move: Tailwind
+|move|p2b: Primarina|Hyper Voice|p1a: Whimsicott|[spread] p1a,p1b
+|-resisted|p1a: Whimsicott
+|-supereffective|p1b: Typhlosion
+|-damage|p1a: Whimsicott|91/100
+|-damage|p1b: Typhlosion|59/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756597202
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: y-rocko|move: Tailwind
+|move|p1b: Typhlosion|Shadow Ball|p2b: Primarina
+|-damage|p2b: Primarina|24/100
+|-enditem|p2b: Primarina|Sitrus Berry|[eat]
+|-heal|p2b: Primarina|49/100|[from] item: Sitrus Berry
+|move|p2a: Dragonite|Scale Shot|p1b: Typhlosion|[miss]
+|-miss|p2a: Dragonite|p1b: Typhlosion
+|move|p2b: Primarina|Encore|p1a: Whimsicott
+|-start|p1a: Whimsicott|Encore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756597222
+|switch|p1a: Ribombee|Ribombee, L50, F|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1b: Typhlosion|Protect|p1b: Typhlosion
+|-singleturn|p1b: Typhlosion|Protect
+|move|p2b: Primarina|Protect||[still]
+|-fail|p2b: Primarina
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Typhlosion|65/100|[from] Grassy Terrain
+|-heal|p2b: Primarina|55/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756597252
+|switch|p1b: Whimsicott|Whimsicott, L50, M|91/100
+|move|p2a: Rillaboom|Fake Out|p1a: Ribombee
+|-damage|p1a: Ribombee|70/100
+|move|p1a: Ribombee|Moonblast|p2b: Primarina
+|-damage|p2b: Primarina|4/100
+|move|p2b: Primarina|Hyper Voice|p1b: Whimsicott|[spread] p1a,p1b
+|-resisted|p1b: Whimsicott
+|-damage|p1a: Ribombee|46/100
+|-damage|p1b: Whimsicott|81/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ribombee|52/100|[from] Grassy Terrain
+|-heal|p1b: Whimsicott|87/100|[from] Grassy Terrain
+|-heal|p2b: Primarina|10/100|[from] Grassy Terrain
+|-sideend|p2: momoechis|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1756597279
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2b: Dragonite|Dragonite, L50, M|77/100
+|move|p1b: Whimsicott|Fake Tears|p2a: Ursaluna
+|-unboost|p2a: Ursaluna|spd|2
+|move|p1a: Ribombee|Moonblast|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-weather|none
+|-heal|p1a: Ribombee|57/100|[from] Grassy Terrain
+|-heal|p1b: Whimsicott|93/100|[from] Grassy Terrain
+|-sideend|p1: y-rocko|move: Tailwind
+|upkeep
+|-message|momoechis forfeited.
+|
+|win|y-rocko
+|raw|y-rocko's rating: 1093 → 1117(+24 for winning)
+|raw|momoechis's rating: 1062 → 1044(-18 for losing)
+|l|☆y-rocko
+|player|p1|

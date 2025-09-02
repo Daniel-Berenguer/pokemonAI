@@ -1,0 +1,189 @@
+|j|☆orbwair
+|j|☆Kemaho
+|html|orbwairKemaho    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756237526
+|gametype|doubles
+|player|p1|orbwair|hexmaniac-gen6|1075
+|player|p2|Kemaho|clerk|1046
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Sylveon, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Talonflame||CovertCloak|GaleWings|DualWingbeat,FlareBlitz,Tailwind,Taunt|||M|||50|,,,,,Fairy]Sylveon||ThroatSpray|Pixilate|HyperVoice,HelpingHand,Protect,TeraBlast|||F|||50|,,,,,Grass]Amoonguss||RockyHelmet|Regenerator|PollenPuff,RagePowder,Protect,Spore|||F|||50|,,,,,Water]Sneasler||FocusSash|Unburden|Acrobatics,CloseCombat,DireClaw,Protect|||M|||50|,,,,,Dark]Garchomp||ClearAmulet|RoughSkin|DragonClaw,Earthquake,StompingTantrum,Protect|||F|||50|,,,,,Ground]Incineroar||AssaultVest|Intimidate|FakeOut,FlareBlitz,KnockOff,Snarl|||F|||50|,,,,,Grass
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Fairy]Hatterene||CovertCloak|MagicBounce|ExpandingForce,DazzlingGleam,TeraBlast,TrickRoom|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HeatWave,Protect|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,TrickRoom,Protect|||M|||50|,,,,,Grass]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBeam,CloseCombat,SleepPowder,AfterYou|||F|||50|,,,,,Ghost
+|
+|t:|1756237533
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Small Child|Incineroar, L50, F|100/100
+|switch|p1b: Cherish|Amoonguss, L50, F|100/100
+|switch|p2a: Gallade|Gallade, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|-ability|p1a: Small Child|Intimidate|boost
+|-fail|p2a: Gallade|unboost|[from] item: Clear Amulet|[of] p2a: Gallade
+|-unboost|p2b: Indeedee|atk|1
+|turn|1
+|
+|t:|1756237553
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|-terastallize|p2a: Gallade|Grass
+|move|p1b: Cherish|Rage Powder|p1b: Cherish
+|-singleturn|p1b: Cherish|move: Rage Powder
+|move|p2a: Gallade|Psycho Cut|p1a: Small Child
+|-immune|p1a: Small Child
+|move|p1a: Small Child|Flare Blitz|p2a: Gallade
+|-supereffective|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|-damage|p1a: Small Child|72/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1756237561
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|2
+|
+|t:|1756237571
+|-terastallize|p1b: Cherish|Water
+|move|p1a: Small Child|Knock Off|p2b: Hatterene
+|-damage|p2b: Hatterene|44/100
+|-enditem|p2b: Hatterene|Covert Cloak|[from] move: Knock Off|[of] p1a: Small Child
+|move|p1b: Cherish|Spore|p2a: Torkoal
+|-status|p2a: Torkoal|slp|[from] move: Spore
+|move|p2b: Hatterene|Expanding Force|p1a: Small Child|[spread] p1b
+|-immune|p1a: Small Child
+|-damage|p1b: Cherish|57/100
+|cant|p2a: Torkoal|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756237583
+|switch|p1b: Kana|Sylveon, L50, F|100/100
+|move|p1a: Small Child|Snarl|p2b: Hatterene|[spread] p2a,p2b
+|-damage|p2a: Torkoal|85/100 slp
+|-damage|p2b: Hatterene|30/100
+|-unboost|p2a: Torkoal|spa|1
+|-unboost|p2b: Hatterene|spa|1
+|move|p2b: Hatterene|Dazzling Gleam|p1a: Small Child|[spread] p1a,p1b
+|-damage|p1a: Small Child|55/100
+|-damage|p1b: Kana|88/100
+|-curestatus|p2a: Torkoal|slp|[msg]
+|move|p2a: Torkoal|Eruption|p1a: Small Child|[spread] p1a,p1b
+|-resisted|p1a: Small Child
+|-damage|p1a: Small Child|39/100
+|-damage|p1b: Kana|61/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756237605
+|move|p1b: Kana|Hyper Voice|p2b: Hatterene|[spread] p2a,p2b
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|63/100
+|-damage|p2b: Hatterene|0 fnt
+|faint|p2b: Hatterene
+|-enditem|p1b: Kana|Throat Spray
+|-boost|p1b: Kana|spa|1|[from] item: Throat Spray
+|move|p1a: Small Child|Snarl|p2a: Torkoal|[miss]
+|-miss|p1a: Small Child|p2a: Torkoal
+|move|p2a: Torkoal|Eruption|p1a: Small Child|[spread] p1a,p1b
+|-resisted|p1a: Small Child
+|-crit|p1a: Small Child
+|-damage|p1a: Small Child|12/100
+|-damage|p1b: Kana|42/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756237618
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|turn|5
+|
+|t:|1756237637
+|move|p1b: Kana|Helping Hand|p1a: Small Child
+|-singleturn|p1a: Small Child|Helping Hand|[of] p1b: Kana
+|move|p1a: Small Child|Snarl|p2b: Indeedee|[spread] p2a,p2b
+|-supereffective|p2b: Indeedee
+|-damage|p2a: Torkoal|39/100
+|-damage|p2b: Indeedee|69/100
+|-unboost|p2a: Torkoal|spa|1
+|-unboost|p2b: Indeedee|spa|1
+|move|p2a: Torkoal|Heat Wave|p1b: Kana|[spread] p1a
+|-miss|p2a: Torkoal|p1b: Kana
+|-resisted|p1a: Small Child
+|-damage|p1a: Small Child|2/100
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756237657
+|switch|p1a: Cherish|Amoonguss, L50, F, tera:Water|90/100
+|move|p2b: Indeedee|Helping Hand|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Helping Hand|[of] p2b: Indeedee
+|move|p2a: Torkoal|Heat Wave|p1a: Cherish|[spread] p1a,p1b
+|-resisted|p1a: Cherish
+|-damage|p1a: Cherish|75/100
+|-damage|p1b: Kana|18/100
+|move|p1b: Kana|Hyper Voice|p2b: Indeedee|[spread] p2a,p2b
+|-resisted|p2a: Torkoal
+|-crit|p2b: Indeedee
+|-damage|p2a: Torkoal|7/100
+|-damage|p2b: Indeedee|4/100
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1756237670
+|move|p2b: Indeedee|Helping Hand|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Helping Hand|[of] p2b: Indeedee
+|move|p2a: Torkoal|Heat Wave|p1b: Kana|[spread] p1a,p1b
+|-resisted|p1a: Cherish
+|-damage|p1a: Cherish|66/100
+|-damage|p1b: Kana|3/100
+|move|p1a: Cherish|Pollen Puff|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p1b: Kana|Tera Blast|p2a: Torkoal
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|win|orbwair
+|raw|orbwair's rating: 1075 → 1101(+26 for winning)
+|raw|Kemaho's rating: 1046 → 1031(-15 for losing)
+|l|☆Kemaho
+|player|p2|
+|l|☆orbwair
+|player|p1|
+|j|☆orbwair
+|player|p1|orbwair|hexmaniac-gen6|

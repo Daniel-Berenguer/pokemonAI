@@ -1,0 +1,108 @@
+|j|☆Johten
+|j|☆dannymanny2
+|html|Johtendannymanny2    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756497020
+|gametype|doubles
+|player|p1|Johten|veteran|1000
+|player|p2|dannymanny2|hilbert|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Jolteon, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Kingambit, L50, F|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Electabuzz, L50, F|
+|teampreview|4
+|showteam|p1|Jolteon||FocusSash|VoltAbsorb|Protect,HelpingHand,Electroweb,TeraBlast|||M|||50|,,,,,Ice]Gallade||ExpertBelt|Sharpness|Protect,SacredSword,PsychoCut,NightSlash|||M|||50|,,,,,Stellar]Indeedee-F||MentalHerb|PsychicSurge|Imprison,TrickRoom,FollowMe,HelpingHand|||F|||50|,,,,,Fairy]Incineroar||AssaultVest|Intimidate|FakeOut,Uturn,KnockOff,FlareBlitz|||F|||50|,,,,,Grass]Gholdengo||Leftovers|GoodasGold|Protect,NastyPlot,ShadowBall,MakeItRain||||||50|,,,,,Flying]Kingambit||SafetyGoggles|Defiant|Protect,ZenHeadbutt,KowtowCleave,IronHead|||F|||50|,,,,,Ghost
+|showteam|p2|Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,WideGuard,Tailwind|||F|||50|,,,,,Ground]Rillaboom||AssaultVest|GrassySurge|WoodHammer,HighHorsepower,FakeOut,GrassyGlide|||M|||50|,,,,,Fire]Gholdengo||Leftovers|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Sneasler||GrassySeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Volcarona||LifeOrb|FlameBody|FieryDance,GigaDrain,QuiverDance,Protect|||F|||50|,,,,,Grass]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1756497045
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jolteon|Jolteon, L50, M|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Electabuzz|Electabuzz, L50, F|100/100
+|switch|p2b: Volcarona|Volcarona, L50, F, shiny|100/100
+|turn|1
+|
+|t:|1756497078
+|-terastallize|p1b: Gallade|Stellar
+|move|p1a: Jolteon|Helping Hand|p1b: Gallade
+|-singleturn|p1b: Gallade|Helping Hand|[of] p1a: Jolteon
+|move|p2b: Volcarona|Protect|p2b: Volcarona
+|-singleturn|p2b: Volcarona|Protect
+|move|p2a: Electabuzz|Taunt|p1b: Gallade
+|-start|p1b: Gallade|move: Taunt
+|move|p1b: Gallade|Sacred Sword|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|
+|upkeep
+|
+|t:|1756497092
+|switch|p2a: Sneasler|Sneasler, L50, M, shiny|100/100
+|turn|2
+|
+|t:|1756497107
+|move|p1a: Jolteon|Electroweb|p2a: Sneasler|[spread] p2a,p2b
+|-damage|p2a: Sneasler|76/100
+|-damage|p2b: Volcarona|82/100
+|-unboost|p2a: Sneasler|spe|1
+|-unboost|p2b: Volcarona|spe|1
+|move|p1b: Gallade|Psycho Cut|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|move|p2b: Volcarona|Fiery Dance|p1b: Gallade
+|-damage|p1b: Gallade|43/100
+|-boost|p2b: Volcarona|spa|1
+|-damage|p2b: Volcarona|73/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756497119
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|3
+|
+|t:|1756497129
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p1b: Gallade|Psycho Cut|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|faint|p2b: Volcarona
+|move|p2a: Rillaboom|Wood Hammer|p1a: Indeedee
+|-damage|p1a: Indeedee|25/100
+|-damage|p2a: Rillaboom|78/100|[from] Recoil
+|
+|-end|p1b: Gallade|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1756497154
+|move|p1a: Indeedee|Helping Hand|p1b: Gallade
+|-singleturn|p1b: Gallade|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Gallade|Sacred Sword|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|win|Johten
+||Johten is ready for game 2.
+|inactive|dannymanny2 has 30 seconds to confirm battle start!
+|l|☆dannymanny2
+|player|p2|
+||dannymanny2 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

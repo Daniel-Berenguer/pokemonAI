@@ -1,0 +1,142 @@
+|j|☆capspungo
+|j|☆endK649
+|html|capspungoendK649    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756229065
+|gametype|doubles
+|player|p1|capspungo|265|1180
+|player|p2|endK649|102|1122
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Exeggutor, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Zoroark-Hisui, L50, M|
+|poke|p2|Feraligatr, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Protect,Facade,Earthquake,HeadlongRush|||F|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,Psychic,FollowMe,HelpingHand|||F|||50|,,,,,Grass]Exeggutor||FocusSash|Chlorophyll|TrickRoom,ExpandingForce,EnergyBall,SleepPowder|||M|||50|,,,,,Psychic]Torkoal||Charcoal|Drought|Eruption,ClearSmog,Protect,WeatherBall|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,WideGuard,SacredSword|||M|||50|,,,,,Fire]Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,Flamethrower,ShadowBall,TeraBlast|||M|||50|,,,,,Stellar
+|showteam|p2|Feraligatr||LifeOrb|SheerForce|Liquidation,Crunch,DragonDance,Protect|||M|||50|,,,,,Dark]Gholdengo||Leftovers|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Stellar]Amoonguss||CovertCloak|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,FakeOut,Uturn|||F|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|KnockOff,FakeOut,Taunt,PartingShot|||M|||50|,,,,,Ghost
+|
+|t:|1756229086
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-fail|p1b: Gallade|unboost|[from] item: Clear Amulet|[of] p1b: Gallade
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756229104
+|-terastallize|p2a: Incineroar|Ghost
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p2a: Incineroar|Taunt|p1a: Indeedee
+|-start|p1a: Indeedee|move: Taunt
+|move|p1b: Gallade|Sacred Sword|p2a: Incineroar
+|-immune|p2a: Incineroar
+|cant|p1a: Indeedee|move: Taunt|Trick Room
+|
+|upkeep
+|turn|2
+|
+|t:|1756229127
+|-terastallize|p1b: Gallade|Fire
+|move|p2b: Gholdengo|Make It Rain|p1a: Indeedee|[spread] p1a,p1b
+|-resisted|p1b: Gallade
+|-damage|p1a: Indeedee|32/100
+|-damage|p1b: Gallade|56/100
+|-unboost|p2b: Gholdengo|spa|1
+|move|p2a: Incineroar|Knock Off|p1b: Gallade
+|-crit|p1b: Gallade
+|-damage|p1b: Gallade|0 fnt
+|-enditem|p1b: Gallade|Clear Amulet|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1b: Gallade
+|move|p1a: Indeedee|Psychic|p2a: Incineroar
+|-damage|p2a: Incineroar|66/100
+|
+|upkeep
+|
+|t:|1756229146
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|3
+|
+|t:|1756229155
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p2a: Incineroar|Knock Off|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1756229174
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2b: Gholdengo|Make It Rain|p1a: Torkoal|[spread] p1b
+|-activate|p1a: Torkoal|move: Protect
+|-damage|p1b: Ursaluna|0 fnt
+|-unboost|p2b: Gholdengo|spa|1
+|faint|p1b: Ursaluna
+|move|p2a: Incineroar|Parting Shot|p1a: Torkoal
+|-activate|p1a: Torkoal|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756229187
+|switch|p1b: Indeedee|Indeedee-F, L50, F|32/100
+|turn|5
+|
+|t:|1756229194
+|move|p2b: Gholdengo|Make It Rain|p1a: Torkoal|[spread] p1a,p1b
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|34/100
+|-damage|p1b: Indeedee|0 fnt
+|-unboost|p2b: Gholdengo|spa|1
+|faint|p1b: Indeedee
+|move|p2a: Incineroar|Parting Shot|p1a: Torkoal
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1a: Torkoal|spa|1
+|
+|t:|1756229198
+|switch|p2a: Pelipper|Pelipper, L50, F, shiny|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Torkoal|Weather Ball|p2b: Gholdengo
+|-damage|p2b: Gholdengo|70/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Gholdengo|77/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|-message|capspungo forfeited.
+|
+|win|endK649
+|raw|capspungo's rating: 1180 → 1151(-29 for losing)
+|raw|endK649's rating: 1122 → 1151(+29 for winning)
+|l|☆capspungo
+|player|p1|

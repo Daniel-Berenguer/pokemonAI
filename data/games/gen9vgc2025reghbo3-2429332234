@@ -1,0 +1,103 @@
+|j|☆Volanr
+|j|☆Moon7777
+|html|VolanrMoon7777    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756251915
+|gametype|doubles
+|player|p1|Volanr|veteranf|1350
+|player|p2|Moon7777|265|1420
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Maushold, L50|
+|poke|p2|Annihilape, L50, F|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|BodyPress,Snarl,ElectroShot,FlashCannon|||F|||50|,,,,,Grass]Sinistcha-Masterpiece||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,LifeDew||||||50|,,,,,Dark]Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,Tailwind,Haze|||M|||50|,,,,,Steel]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Ground]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,TeraBlast,ShadowBall,Trick||||||50|,,,,,Water
+|showteam|p2|Excadrill||FocusSash|SandRush|Earthquake,HighHorsepower,IronHead,Protect|||M|||50|,,,,,Ground]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,Trick,DazzlingGleam,TeraBlast|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Tyranitar||AssaultVest|SandStream|KnockOff,LowKick,TeraBlast,RockSlide|||F|||50|,,,,,Flying]Maushold||SafetyGoggles|FriendGuard|Taunt,FollowMe,BeatUp,Protect||||||50|,,,,,Ghost]Annihilape||SitrusBerry|Defiant|BulkUp,DrainPunch,Protect,RageFist|||F|||50|,,,,,Dragon
+|
+|t:|1756251961
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756251989
+|-terastallize|p2a: Indeedee|Psychic
+|move|p2b: Sneasler|Dire Claw|p1b: Dragonite
+|-crit|p1b: Dragonite
+|-damage|p1b: Dragonite|60/100
+|move|p2a: Indeedee|Expanding Force|p1a: Gholdengo|[spread] p1a,p1b
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|56/100
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1b: Dragonite
+|move|p1a: Gholdengo|Make It Rain|p2a: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Indeedee|30/100
+|-damage|p2b: Sneasler|55/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|upkeep
+|
+|t:|1756251994
+|switch|p1b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-heal|p1a: Gholdengo|81/100|[from] ability: Hospitality|[of] p1b: Sinistcha
+|turn|2
+|
+|t:|1756252016
+|-terastallize|p1b: Sinistcha|Dark
+|move|p2b: Sneasler|Close Combat|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha
+|-damage|p1b: Sinistcha|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1b: Sinistcha
+|move|p2a: Indeedee|Expanding Force|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|22/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Sneasler|6/100
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1756252027
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|3
+|-message|Volanr forfeited.
+|
+|win|Moon7777
+||Volanr is ready for game 2.
+|inactive|Moon7777 has 30 seconds to confirm battle start!
+||Moon7777 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆Volanr
+|player|p1|
+|l|☆Moon7777
+|player|p2|
+|j|☆Volanr
+|player|p1|Volanr|veteranf|

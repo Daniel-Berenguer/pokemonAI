@@ -2,6 +2,7 @@ from Board import Board
 from boardToTensors import board2tensor
 import torch
 import pickle
+import random
 
 def processGame(text, tensors, labels, augment=True):
     
@@ -118,7 +119,11 @@ if __name__ == "__main__":
     errors = 0
     tensors = [[],[],[],[],[],[]]
     labels = []
-    for filename in os.listdir("data/games"):
+    filenames = os.listdir("data/games")
+    random.shuffle(filenames)
+    error_dict = dict()
+    for filename in filenames:
+            
         with open(f"data/games/{filename}", encoding="utf-8") as file:
             text = file.read()
         print(filename)
@@ -127,8 +132,12 @@ if __name__ == "__main__":
             processGame(text, tensors, labels)
         except Exception as e:
             print(e)
+            err = str(e)
+            if err not in error_dict:
+                error_dict[err] = 1
+            else:
+                error_dict[err] += 1
             errors += 1
-
     processed = total-errors
 
     print(f"Processed {processed}/{total}")
@@ -140,6 +149,8 @@ if __name__ == "__main__":
 
     print(X[0].shape)
     print(Y.shape)
+
+    print(error_dict)
 
     with open("data/data.pickle", "wb") as file:
         pickle.dump([X, Y], file)

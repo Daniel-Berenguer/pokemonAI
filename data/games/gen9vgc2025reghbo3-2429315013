@@ -1,0 +1,209 @@
+|j|☆Invoker Kuzan
+|j|☆pashmak
+|html|Invoker Kuzanpashmak    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756249868
+|gametype|doubles
+|player|p1|Invoker Kuzan|marnie-masters3|1121
+|player|p2|pashmak|waiter|1166
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Dragapult, L50, M|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Magmar, L50, F|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fire]Hatterene||LifeOrb|MagicBounce|ExpandingForce,TrickRoom,DazzlingGleam,Protect|||F|||50|,,,,,Psychic]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,SacredSword,WideGuard|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,SwordsDance,Protect|||M|||50|,,,,,Ghost]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,SleepPowder,CloseCombat,AfterYou|||F|||50|,,,,,Ghost]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire
+|showteam|p2|Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,FakeOut,Protect|||M|||50|,,,,,Stellar]Dragapult||ChoiceBand|ClearBody|DragonDarts,TeraBlast,PhantomForce,Uturn|||M|||50|,,,,,Ghost]Primarina||SitrusBerry|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||F|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||F|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Ghost]Magmar||Eviolite|VitalSpirit|Overheat,WillOWisp,FollowMe,Protect|||F|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Invoker Kuzan)
+|
+|t:|1756249911
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F, shiny|100/100
+|switch|p2a: Magmar|Magmar, L50, F|100/100
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756249933
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|switch|p1b: Torkoal|Torkoal, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|move|p2b: Kingambit|Swords Dance|p2b: Kingambit
+|-boost|p2b: Kingambit|atk|2
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756249953
+|switch|p2a: Magmar|Magmar, L50, F|100/100
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Kingambit|Sucker Punch||[still]
+|-fail|p2b: Kingambit
+|move|p1b: Torkoal|Eruption|p2a: Magmar|[spread] p2a,p2b
+|-resisted|p2a: Magmar
+|-supereffective|p2b: Kingambit
+|-damage|p2a: Magmar|60/100
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Magmar|66/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756249960
+|switch|p2b: Primarina|Primarina, L50, F|100/100
+|turn|3
+|
+|t:|1756249978
+|-terastallize|p2b: Primarina|Water
+|move|p1a: Indeedee|Helping Hand|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Torkoal|Eruption|p2a: Magmar|[spread] p2a,p2b
+|-resisted|p2a: Magmar
+|-resisted|p2b: Primarina
+|-damage|p2a: Magmar|2/100
+|-damage|p2b: Primarina|31/100
+|-enditem|p2b: Primarina|Sitrus Berry|[eat]
+|-heal|p2b: Primarina|56/100|[from] item: Sitrus Berry
+|move|p2b: Primarina|Hyper Voice|p1a: Indeedee|[spread] p1a,p1b
+|-supereffective|p1b: Torkoal
+|-damage|p1a: Indeedee|88/100
+|-damage|p1b: Torkoal|44/100
+|move|p2a: Magmar|Overheat|p1b: Torkoal
+|-resisted|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|-unboost|p2a: Magmar|spa|2
+|faint|p1b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Indeedee|94/100|[from] Grassy Terrain
+|-heal|p2b: Primarina|62/100|[from] Grassy Terrain
+|-heal|p2a: Magmar|8/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756249984
+|switch|p1b: Ursaluna|Ursaluna, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1756250003
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Primarina|Protect|p2b: Primarina
+|-singleturn|p2b: Primarina|Protect
+|move|p2a: Magmar|Protect|p2a: Magmar
+|-singleturn|p2a: Magmar|Protect
+|move|p1a: Indeedee|Dazzling Gleam|p2b: Primarina|[spread] 
+|-activate|p2a: Magmar|move: Protect
+|-activate|p2b: Primarina|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Indeedee|100/100|[from] Grassy Terrain
+|-heal|p2b: Primarina|68/100|[from] Grassy Terrain
+|-heal|p2a: Magmar|14/100|[from] Grassy Terrain
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1756250022
+|-terastallize|p1b: Ursaluna|Ghost
+|move|p2a: Magmar|Follow Me|p2a: Magmar
+|-singleturn|p2a: Magmar|move: Follow Me
+|move|p1b: Ursaluna|Facade|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|move|p1a: Indeedee|Dazzling Gleam|p2b: Primarina
+|-damage|p2b: Primarina|52/100
+|move|p2b: Primarina|Hyper Voice|p1a: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Indeedee|88/100
+|-damage|p1b: Ursaluna|82/100 brn
+|
+|-weather|none
+|-heal|p1b: Ursaluna|88/100 brn|[from] Grassy Terrain
+|-heal|p1a: Indeedee|94/100|[from] Grassy Terrain
+|-heal|p2b: Primarina|58/100|[from] Grassy Terrain
+|-damage|p1b: Ursaluna|82/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756250032
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|6
+|
+|t:|1756250041
+|switch|p1a: Hatterene|Hatterene, L50, F, shiny|100/100
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2a: Rillaboom|Wood Hammer|p1a: Hatterene
+|-damage|p1a: Hatterene|14/100
+|-damage|p2a: Rillaboom|77/100|[from] Recoil
+|move|p2b: Primarina|Hyper Voice|p1b: Ursaluna|[spread] p1a
+|-activate|p1b: Ursaluna|move: Protect
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-heal|p2a: Rillaboom|83/100|[from] Grassy Terrain
+|-heal|p2b: Primarina|64/100|[from] Grassy Terrain
+|-heal|p1b: Ursaluna|88/100 brn|[from] Grassy Terrain
+|-damage|p1b: Ursaluna|82/100 brn|[from] brn
+|upkeep
+|
+|t:|1756250043
+|switch|p1a: Indeedee|Indeedee-F, L50, F, shiny|94/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|7
+|
+|t:|1756250059
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Rillaboom|Wood Hammer|p1a: Indeedee
+|-damage|p1a: Indeedee|29/100
+|-damage|p2a: Rillaboom|64/100|[from] Recoil
+|move|p2b: Primarina|Hyper Voice|p1a: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Ursaluna|46/100 brn
+|faint|p1a: Indeedee
+|move|p1b: Ursaluna|Facade|p2b: Primarina
+|-damage|p2b: Primarina|0 fnt
+|faint|p2b: Primarina
+|
+|-damage|p1b: Ursaluna|40/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1756250073
+|move|p2a: Rillaboom|Wood Hammer|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|-damage|p2a: Rillaboom|48/100|[from] Recoil
+|
+|win|pashmak
+||pashmak is ready for game 3.
+||Invoker Kuzan is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆pashmak
+|player|p2|

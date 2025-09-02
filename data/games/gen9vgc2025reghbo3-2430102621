@@ -1,0 +1,248 @@
+|j|☆ggep123
+|j|☆KD35Splash
+|html|ggep123KD35Splash    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756346318
+|gametype|doubles
+|player|p1|ggep123|170|1000
+|player|p2|KD35Splash|dancer|1097
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Electabuzz, L50, M|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|DragonPulse,ElectroShot,FlashCannon,BodyPress|||M|||50|,,,,,Electric]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Ground]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,AquaJet,FlipTurn|||M|||50|,,,,,Water]Amoonguss||CovertCloak|Regenerator|PollenPuff,RagePowder,Spore,Protect|||M|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|KnockOff,FakeOut,PartingShot,Taunt|||M|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water
+|showteam|p2|Archaludon||AssaultVest|Stamina|BodyPress,DracoMeteor,FlashCannon,ElectroShot|||M|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|Hurricane,MuddyWater,Tailwind,Protect|||M|||50|,,,,,Ghost]Rillaboom||LoadedDice|GrassySurge|BulletSeed,GrassyGlide,Uturn,FakeOut|||F|||50|,,,,,Fire]Basculegion||LifeOrb|SwiftSwim|WaveCrash,LastRespects,AquaJet,FlipTurn|||M|||50|,,,,,Water]Volcarona||GrassySeed|FlameBody|GigaDrain,Flamethrower,QuiverDance,Protect|||M|||50|,,,,,Grass]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,HelpingHand|||M|||50|,,,,,Ghost
+|
+|t:|1756346355
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, F, shiny|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1756346404
+|switch|p2b: Archaludon|Archaludon, L50, M, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2b: Archaludon|atk|1
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|move|p2a: Rillaboom|Grassy Glide|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|89/100
+|
+|-heal|p1b: Incineroar|95/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756346442
+|move|p1b: Incineroar|Fake Out|p2b: Archaludon
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|96/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2a: Rillaboom|U-turn|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|97/100
+|
+|t:|1756346451
+|switch|p2a: Electabuzz|Electabuzz, L50, M, shiny|100/100|[from] U-turn
+|cant|p2b: Archaludon|flinch
+|
+|-heal|p1a: Gholdengo|100/100|[from] Grassy Terrain
+|-heal|p2b: Archaludon|100/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756346471
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2a: Electabuzz|Electroweb|p1a: Gholdengo|[spread] p1b
+|-activate|p1a: Gholdengo|move: Protect
+|-damage|p1b: Incineroar|91/100
+|-unboost|p1b: Incineroar|spe|1
+|move|p2b: Archaludon|Body Press|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|20/100
+|move|p1b: Incineroar|Knock Off|p2b: Archaludon
+|-damage|p2b: Archaludon|81/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|-enditem|p2b: Archaludon|Assault Vest|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-heal|p2b: Archaludon|87/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|26/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756346504
+|switch|p2b: Rillaboom|Rillaboom, L50, F, shiny|100/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Electabuzz|[spread] p2a,p2b
+|-resisted|p2a: Electabuzz
+|-damage|p2a: Electabuzz|60/100
+|-damage|p2b: Rillaboom|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2b: Rillaboom
+|-damage|p1a: Gholdengo|91/100|[from] item: Life Orb
+|move|p2a: Electabuzz|Electroweb|p1b: Incineroar|[spread] p1a,p1b
+|-damage|p1a: Gholdengo|75/100
+|-damage|p1b: Incineroar|16/100
+|-unboost|p1a: Gholdengo|spe|1
+|-unboost|p1b: Incineroar|spe|1
+|move|p1b: Incineroar|Parting Shot|p2a: Electabuzz
+|-unboost|p2a: Electabuzz|atk|1
+|-unboost|p2a: Electabuzz|spa|1
+|
+|t:|1756346523
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100|[from] Parting Shot
+|
+|-heal|p2a: Electabuzz|66/100|[from] Grassy Terrain
+|-heal|p1a: Gholdengo|81/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756346533
+|switch|p2b: Archaludon|Archaludon, L50, M, shiny|87/100
+|turn|5
+|
+|t:|1756346547
+|move|p2a: Electabuzz|Electroweb|p1b: Archaludon|[spread] p1a,p1b
+|-crit|p1a: Gholdengo
+|-resisted|p1b: Archaludon
+|-damage|p1a: Gholdengo|57/100
+|-damage|p1b: Archaludon|96/100
+|-unboost|p1a: Gholdengo|spe|1
+|-unboost|p1b: Archaludon|spe|1
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|move|p1a: Gholdengo|Make It Rain|p2b: Archaludon|[spread] p2a,p2b
+|-resisted|p2a: Electabuzz
+|-resisted|p2b: Archaludon
+|-damage|p2a: Electabuzz|32/100
+|-damage|p2b: Archaludon|40/100
+|-unboost|p1a: Gholdengo|spa|1
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|-damage|p1a: Gholdengo|48/100|[from] item: Life Orb
+|move|p1b: Archaludon|Dragon Pulse|p2b: Archaludon
+|-damage|p2b: Archaludon|0 fnt
+|faint|p2b: Archaludon
+|
+|-heal|p2a: Electabuzz|38/100|[from] Grassy Terrain
+|-heal|p1a: Gholdengo|54/100|[from] Grassy Terrain
+|-heal|p1b: Archaludon|100/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756346569
+|switch|p2b: Basculegion|Basculegion, L50, M, shiny|100/100
+|turn|6
+|
+|t:|1756346610
+|move|p2a: Electabuzz|Helping Hand|p2b: Basculegion
+|-singleturn|p2b: Basculegion|Helping Hand|[of] p2a: Electabuzz
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2b: Basculegion|Last Respects|p1b: Archaludon
+|-damage|p1b: Archaludon|30/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|-damage|p2b: Basculegion|91/100|[from] item: Life Orb
+|move|p1b: Archaludon|Dragon Pulse|p2a: Electabuzz
+|-damage|p2a: Electabuzz|6/100
+|
+|upkeep
+|turn|7
+|
+|t:|1756346660
+|switch|p1b: Incineroar|Incineroar, L50, M|16/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Electabuzz|atk|1
+|-unboost|p2b: Basculegion|atk|1
+|move|p2a: Electabuzz|Electroweb|p1b: Incineroar|[spread] p1a,p1b
+|-damage|p1a: Gholdengo|44/100
+|-damage|p1b: Incineroar|9/100
+|-unboost|p1a: Gholdengo|spe|1
+|-unboost|p1b: Incineroar|spe|1
+|move|p2b: Basculegion|Last Respects|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|-damage|p2b: Basculegion|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756346673
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|turn|8
+|
+|t:|1756346684
+|move|p1b: Incineroar|Fake Out|p2b: Basculegion
+|-immune|p2b: Basculegion
+|move|p2a: Electabuzz|Follow Me|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|move: Follow Me
+|move|p2b: Basculegion|Last Respects|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|-damage|p2b: Basculegion|71/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756346693
+|switch|p1a: Archaludon|Archaludon, L50, M|30/100
+|turn|9
+|
+|t:|1756346740
+|move|p2a: Electabuzz|Follow Me|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|move: Follow Me
+|move|p2b: Basculegion|Last Respects|p1a: Archaludon
+|-damage|p1a: Archaludon|0 fnt
+|faint|p1a: Archaludon
+|-damage|p2b: Basculegion|62/100|[from] item: Life Orb
+|move|p1b: Incineroar|Knock Off|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|-enditem|p2a: Electabuzz|Eviolite|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2a: Electabuzz
+|
+|upkeep
+|turn|10
+|
+|t:|1756346759
+|move|p2b: Basculegion|Last Respects|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|-damage|p2b: Basculegion|52/100|[from] item: Life Orb
+|
+|win|KD35Splash
+||ggep123 is ready for game 2.
+|inactive|KD35Splash has 30 seconds to confirm battle start!
+||KD35Splash is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆ggep123
+|player|p1|

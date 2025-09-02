@@ -1,0 +1,179 @@
+|j|☆raylof
+|j|☆Kahizar
+|html|raylofKahizar    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756501251
+|gametype|doubles
+|player|p1|raylof|170|1115
+|player|p2|Kahizar|102|1053
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Drifblim, L50, F|
+|poke|p2|Sylveon, L50, M|
+|poke|p2|Murkrow, L50, F|
+|poke|p2|Gallade, L50, M|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|DracoMeteor,FlashCannon,ElectroShot,BodyPress|||F|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|Protect,WeatherBall,Hurricane,Tailwind|||M|||50|,,,,,Stellar]Gholdengo||LifeOrb|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water]Basculegion||ChoiceBand|SwiftSwim|FlipTurn,WaveCrash,AquaJet,LastRespects|||M|||50|,,,,,Grass]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Ghost
+|showteam|p2|Garchomp||ChoiceBand|RoughSkin|RockSlide,Earthquake,ScaleShot,BreakingSwipe|||M|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|GrassyGlide,WoodHammer,HighHorsepower,Uturn|||F|||50|,,,,,Grass]Drifblim||GrassySeed|Unburden|Tailwind,TrickRoom,SkillSwap,ShadowBall|||F|||50|,,,,,Normal]Sylveon||ThroatSpray|Pixilate|HyperVoice,Protect,TeraBlast,CalmMind|||M|||50|,,,,,Fire]Murkrow||Eviolite|Prankster|Taunt,Tailwind,Haze,FoulPlay|||F|||50|,,,,,Ground]Gallade||ClearAmulet|Sharpness|PsychoCut,NightSlash,SacredSword,Protect|||M|||50|,,,,,Dark
+|
+|t:|1756501281
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Archaludon|Archaludon, L50, F, shiny|100/100
+|switch|p1b: Pelipper|Pelipper, L50, M, shiny|100/100
+|switch|p2a: Murkrow|Murkrow, L50, F|100/100
+|switch|p2b: Sylveon|Sylveon, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|turn|1
+|
+|t:|1756501311
+|switch|p1b: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|-terastallize|p2b: Sylveon|Fire
+|move|p2a: Murkrow|Taunt|p1b: Amoonguss
+|-start|p1b: Amoonguss|move: Taunt
+|move|p1a: Archaludon|Flash Cannon|p2b: Sylveon
+|-resisted|p2b: Sylveon
+|-damage|p2b: Sylveon|88/100
+|move|p2b: Sylveon|Tera Blast|p1a: Archaludon|[anim] Tera Blast Fire
+|-damage|p1a: Archaludon|86/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756501334
+|move|p2a: Murkrow|Tailwind|p2a: Murkrow
+|-sidestart|p2: Kahizar|move: Tailwind
+|move|p2b: Sylveon|Hyper Voice|p1a: Archaludon|[spread] p1a,p1b
+|-resisted|p1b: Amoonguss
+|-damage|p1a: Archaludon|57/100
+|-damage|p1b: Amoonguss|83/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|-enditem|p2b: Sylveon|Throat Spray
+|-boost|p2b: Sylveon|spa|1|[from] item: Throat Spray
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2a: Murkrow
+|-supereffective|p2a: Murkrow
+|-damage|p2a: Murkrow|0 fnt
+|faint|p2a: Murkrow
+|move|p1b: Amoonguss|Pollen Puff|p1a: Archaludon
+|-heal|p1a: Archaludon|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756501352
+|switch|p2a: Garchomp|Garchomp, L50, M|100/100
+|turn|3
+|
+|t:|1756501373
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|-unboost|p2b: Sylveon|atk|1
+|-terastallize|p1a: Archaludon|Grass
+|move|p2b: Sylveon|Protect|p2b: Sylveon
+|-singleturn|p2b: Sylveon|Protect
+|move|p2a: Garchomp|Earthquake|p1b: Incineroar|[spread] p1a,p1b
+|-activate|p2b: Sylveon|move: Protect
+|-resisted|p1a: Archaludon
+|-supereffective|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1a: Archaludon|93/100
+|-damage|p1b: Incineroar|0 fnt
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|faint|p1b: Incineroar
+|move|p1a: Archaludon|Draco Meteor|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-unboost|p1a: Archaludon|spa|2
+|faint|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756501392
+|switch|p2a: Gallade|Gallade, L50, M|100/100
+|switch|p1b: Pelipper|Pelipper, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1756501428
+|move|p2a: Gallade|Sacred Sword|p1a: Archaludon
+|-damage|p1a: Archaludon|36/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p2b: Sylveon|Hyper Voice|p1a: Archaludon|[spread] p1a,p1b
+|-damage|p1a: Archaludon|0 fnt
+|-enditem|p1b: Pelipper|Focus Sash
+|-damage|p1b: Pelipper|1/100
+|faint|p1a: Archaludon
+|move|p1b: Pelipper|Tailwind|p1b: Pelipper
+|-sidestart|p1: raylof|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756501440
+|switch|p1a: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|turn|5
+|
+|t:|1756501470
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p1b: Pelipper|Weather Ball|p2b: Sylveon
+|-supereffective|p2b: Sylveon
+|-damage|p2b: Sylveon|0 fnt
+|faint|p2b: Sylveon
+|move|p2a: Gallade|Psycho Cut|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|5/100
+|-enditem|p1a: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1a: Amoonguss|30/100|[from] item: Sitrus Berry
+|
+|-weather|none
+|-sideend|p2: Kahizar|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1756501493
+|move|p1b: Pelipper|Hurricane|p2a: Gallade
+|-supereffective|p2a: Gallade
+|-damage|p2a: Gallade|4/100
+|move|p1a: Amoonguss|Spore|p2a: Gallade
+|-status|p2a: Gallade|slp|[from] move: Spore
+|cant|p2a: Gallade|slp
+|
+|upkeep
+|turn|7
+|
+|t:|1756501505
+|move|p1b: Pelipper|Weather Ball|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|win|raylof
+||Kahizar is ready for game 3.
+|inactive|raylof has 30 seconds to confirm battle start!
+||raylof is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆Kahizar
+|player|p2|

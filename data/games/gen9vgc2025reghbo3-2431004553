@@ -1,0 +1,184 @@
+|j|☆ThierryVGC
+|j|☆gargatest
+|html|ThierryVGCgargatest    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756467587
+|gametype|doubles
+|player|p1|ThierryVGC|101|1125
+|player|p2|gargatest|cyclist|1125
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Drifblim, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Rotom-Wash, L50|
+|poke|p2|Gyarados, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Garchomp||LifeOrb|RoughSkin|Earthquake,StompingTantrum,DragonClaw,Protect|||M|||50|,,,,,Ground]Drifblim||PsychicSeed|Unburden|Acrobatics,Disable,Tailwind,Haze|||F|||50|,,,,,Grass]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,Imprison,TrickRoom|||M|||50|,,,,,Ground]Sneasler||WhiteHerb|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Corviknight||LumBerry|MirrorArmor|BraveBird,BodyPress,BulkUp,Roost|||F|||50|,,,,,Dragon]Rotom-Wash||SafetyGoggles|Levitate|Thunderbolt,HydroPump,WillOWisp,Protect||||||50|,,,,,Electric
+|showteam|p2|Gyarados||SafetyGoggles|Intimidate|Taunt,ThunderWave,Waterfall,Protect|||M|||50|,,,,,Steel]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Tyranitar||AssaultVest|SandStream|LowKick,TeraBlast,KnockOff,RockSlide|||M|||50|,,,,,Flying
+|
+|t:|1756467636
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Drifblim|Drifblim, L50, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, M, shiny|100/100
+|switch|p2b: Gyarados|Gyarados, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1b: Drifblim|Psychic Seed
+|-boost|p1b: Drifblim|spd|1|[from] item: Psychic Seed
+|-ability|p2b: Gyarados|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Drifblim|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1756467655
+|switch|p1a: Rotom|Rotom-Wash, L50|100/100
+|move|p1b: Drifblim|Tailwind|p1b: Drifblim
+|-sidestart|p1: ThierryVGC|move: Tailwind
+|move|p2b: Gyarados|Taunt|p1b: Drifblim
+|-start|p1b: Drifblim|move: Taunt
+|move|p2a: Tyranitar|Knock Off|p1a: Rotom
+|-damage|p1a: Rotom|44/100
+|-enditem|p1a: Rotom|Safety Goggles|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Drifblim|94/100|[from] Sandstorm
+|-damage|p1a: Rotom|39/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1756467674
+|move|p2b: Gyarados|Protect|p2b: Gyarados
+|-singleturn|p2b: Gyarados|Protect
+|move|p1b: Drifblim|Acrobatics|p2b: Gyarados
+|-activate|p2b: Gyarados|move: Protect
+|move|p1a: Rotom|Will-O-Wisp|p2a: Tyranitar
+|-status|p2a: Tyranitar|brn
+|move|p2a: Tyranitar|Rock Slide|p1b: Drifblim|[spread] p1a,p1b
+|-supereffective|p1b: Drifblim
+|-damage|p1a: Rotom|20/100
+|-damage|p1b: Drifblim|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Drifblim|59/100|[from] Sandstorm
+|-damage|p1a: Rotom|15/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|95/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1756467705
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Volcarona|Volcarona, L50, F, shiny|100/100
+|move|p1a: Rotom|Thunderbolt|p2b: Volcarona
+|-damage|p2b: Volcarona|69/100
+|-status|p2b: Volcarona|par
+|move|p2a: Tyranitar|Rock Slide|p1a: Rotom|[spread] p1a,p1b
+|-resisted|p1b: Sneasler
+|-damage|p1a: Rotom|0 fnt
+|-damage|p1b: Sneasler|89/100
+|faint|p1a: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Sneasler|83/100|[from] Sandstorm
+|-damage|p2b: Volcarona|62/100 par|[from] Sandstorm
+|-damage|p2a: Tyranitar|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1756467720
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|turn|4
+|
+|t:|1756467738
+|move|p2b: Volcarona|Rage Powder|p2b: Volcarona
+|-singleturn|p2b: Volcarona|move: Rage Powder
+|move|p1b: Sneasler|Dire Claw|p2b: Volcarona
+|-damage|p2b: Volcarona|15/100 par
+|-enditem|p2b: Volcarona|Sitrus Berry|[eat]
+|-heal|p2b: Volcarona|40/100 par|[from] item: Sitrus Berry
+|move|p1a: Indeedee|Expanding Force|p2a: Tyranitar|[spread] p2b
+|-immune|p2a: Tyranitar
+|-damage|p2b: Volcarona|0 fnt
+|faint|p2b: Volcarona
+|move|p2a: Tyranitar|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-enditem|p1a: Indeedee|Focus Sash
+|-damage|p1a: Indeedee|1/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Sneasler|78/100|[from] Sandstorm
+|-damage|p1a: Indeedee|0 fnt|[from] Sandstorm
+|faint|p1a: Indeedee
+|-damage|p2a: Tyranitar|83/100 brn|[from] brn
+|-sideend|p1: ThierryVGC|move: Tailwind
+|upkeep
+|
+|t:|1756467751
+|switch|p2b: Gyarados|Gyarados, L50, M, shiny|100/100
+|switch|p1a: Drifblim|Drifblim, L50, F|59/100
+|-ability|p2b: Gyarados|Intimidate|boost
+|-unboost|p1a: Drifblim|atk|1
+|-unboost|p1b: Sneasler|atk|1
+|-enditem|p1b: Sneasler|White Herb
+|-clearnegativeboost|p1b: Sneasler|[silent]
+|turn|5
+|
+|t:|1756467771
+|-terastallize|p2a: Tyranitar|Flying
+|move|p1b: Sneasler|Dire Claw|p2b: Gyarados
+|-damage|p2b: Gyarados|63/100
+|-status|p2b: Gyarados|slp
+|move|p1a: Drifblim|Disable|p2a: Tyranitar
+|-start|p2a: Tyranitar|Disable|Knock Off
+|cant|p2b: Gyarados|slp
+|move|p2a: Tyranitar|Tera Blast|p1b: Sneasler|[anim] Tera Blast Flying
+|-supereffective|p1b: Sneasler
+|-damage|p1b: Sneasler|14/100
+|
+|-weather|none
+|-damage|p2a: Tyranitar|77/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756467803
+|switch|p2b: Indeedee|Indeedee, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|move|p1b: Sneasler|Dire Claw|p2a: Tyranitar
+|-damage|p2a: Tyranitar|44/100 brn
+|move|p1a: Drifblim|Acrobatics|p2a: Tyranitar
+|-damage|p2a: Tyranitar|24/100 brn
+|move|p2a: Tyranitar|Tera Blast|p1b: Sneasler|[anim] Tera Blast Flying
+|-supereffective|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|
+|-damage|p2a: Tyranitar|18/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1756467818
+|switch|p2a: Gyarados|Gyarados, L50, M, shiny|63/100 slp
+|-ability|p2a: Gyarados|Intimidate|boost
+|-unboost|p1a: Drifblim|atk|1
+|move|p2b: Indeedee|Expanding Force|p1a: Drifblim
+|-damage|p1a: Drifblim|0 fnt
+|faint|p1a: Drifblim
+|
+|win|gargatest
+||gargatest is ready for game 2.
+||ThierryVGC is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

@@ -1,0 +1,154 @@
+|j|☆lateralvs
+|j|☆Mortipherus
+|html|lateralvsMortipherus    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756322733
+|gametype|doubles
+|player|p1|lateralvs|giovanni|
+|player|p2|Mortipherus|biker-gen4|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Porygon2, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Hydreigon, L50, F|
+|poke|p2|Hydrapple, L50, M|
+|poke|p2|Arcanine-Hisui, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||F|||50|,,,,,Fairy]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Flying]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Amoonguss||CovertCloak|Regenerator|PollenPuff,Spore,RagePowder,Protect|||F|||50|,,,,,Fire]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Grass]Hydreigon||SafetyGoggles|Levitate|DracoMeteor,Snarl,Tailwind,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Hydrapple||AssaultVest|Regenerator|FickleBeam,EnergyBall,EarthPower,PollenPuff|||M|||50|,,,,,Bug]Arcanine-Hisui||ClearAmulet|Intimidate|Protect,ExtremeSpeed,FlareBlitz,RockSlide|||M|||50|,,,,,Grass]Gholdengo||LifeOrb|GoodasGold|Protect,NastyPlot,MakeItRain,ShadowBall||||||50|,,,,,Flying]Electabuzz||Eviolite|VitalSpirit|Protect,FollowMe,Taunt,Electroweb|||M|||50|,,,,,Dragon]Indeedee||FocusSash|PsychicSurge|Protect,TrickRoom,ExpandingForce,TeraBlast|||M|||50|,,,,,Ground]Sneasler||PsychicSeed|Unburden|Protect,ThroatChop,DireClaw,CloseCombat|||M|||50|,,,,,Dark
+|
+|t:|1756322793
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Porygon2|Porygon2, L50|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|atk|1
+|turn|1
+|
+|t:|1756322846
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2b: Sneasler|Close Combat|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|69/100
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|move|p2a: Indeedee|Expanding Force|p1a: Porygon2|[spread] p1a,p1b
+|-supereffective|p1b: Amoonguss
+|-damage|p1a: Porygon2|66/100
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|upkeep
+|
+|t:|1756322855
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|2
+|
+|t:|1756322884
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1b: Ursaluna|Earthquake|p2b: Sneasler|[spread] p1a,p2a
+|-activate|p2b: Sneasler|move: Protect
+|-damage|p1a: Porygon2|37/100
+|-damage|p2a: Indeedee|9/100
+|move|p1a: Porygon2|Tera Blast|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756322896
+|switch|p2a: Hydrapple|Hydrapple, L50, M|100/100
+|turn|3
+|
+|t:|1756322934
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Hydrapple|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|-terastallize|p1b: Ursaluna|Fairy
+|-terastallize|p2b: Sneasler|Dark
+|move|p2a: Hydrapple|Fickle Beam|p1a: Incineroar
+|-damage|p1a: Incineroar|58/100
+|move|p1b: Ursaluna|Facade|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756322947
+|switch|p2b: Arcanine|Arcanine-Hisui, L50, M|100/100
+|-ability|p2b: Arcanine|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|turn|4
+|
+|t:|1756322989
+|move|p2b: Arcanine|Protect|p2b: Arcanine
+|-singleturn|p2b: Arcanine|Protect
+|move|p2a: Hydrapple|Earth Power|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p1b: Ursaluna|Facade|p2a: Hydrapple
+|-damage|p2a: Hydrapple|37/100
+|
+|-damage|p1b: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1756322996
+|switch|p1a: Porygon2|Porygon2, L50|37/100
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|turn|5
+|
+|t:|1756323023
+|move|p2b: Arcanine|Protect||[still]
+|-fail|p2b: Arcanine
+|move|p2a: Hydrapple|Fickle Beam|p1a: Porygon2|[anim] Fickle Beam All Out
+|-activate|p2a: Hydrapple|move: Fickle Beam
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|move|p1b: Ursaluna|Headlong Rush|p2b: Arcanine
+|-supereffective|p2b: Arcanine
+|-damage|p2b: Arcanine|0 fnt
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|faint|p2b: Arcanine
+|
+|-damage|p1b: Ursaluna|83/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lateralvs)
+|
+|t:|1756323046
+|move|p1b: Ursaluna|Facade|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|
+|win|lateralvs
+|c|☆lateralvs|gg

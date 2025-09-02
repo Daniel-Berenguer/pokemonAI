@@ -1,0 +1,323 @@
+|j|☆goldenchimchar
+|j|☆latios66
+|html|goldenchimcharlatios66    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756412614
+|gametype|doubles
+|player|p1|goldenchimchar|hilbert|1047
+|player|p2|latios66|170|1085
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Greninja-*, L50, F|
+|teampreview|4
+|showteam|p1|Annihilape||SitrusBerry|Defiant|RageFist,Protect,DrainPunch,BulkUp|||F|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,Haze,Tailwind|||F|||50|,,,,,Fairy]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,Protect,NastyPlot||||||50|,,,,,Water]Ursaluna-Bloodmoon||LifeOrb|MindsEye|EarthPower,BloodMoon,HyperVoice,Protect|||M|||50|,,,,,Normal]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,FlareBlitz|||F|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|GrassyGlide,FakeOut,WoodHammer,Uturn|||M|||50|,,,,,Fire
+|showteam|p2|Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,Protect,AcidSpray|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,DazzlingGleam|||M|||50|,,,,,Ground]Pelipper||FocusSash|Drizzle|Tailwind,Hurricane,WeatherBall,HelpingHand|||M|||50|,,,,,Steel]Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,DarkPulse,DracoMeteor|||F|||50|,,,,,Grass]Basculegion||ChoiceBand|SwiftSwim|FlipTurn,LastRespects,WaveCrash,AquaJet|||M|||50|,,,,,Poison]Greninja||LoadedDice|Torrent|WaterShuriken,DarkPulse,Taunt,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1756412645
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M, shiny|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Basculegion|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|turn|1
+|
+|t:|1756412666
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-terastallize|p2b: Indeedee|Ground
+|-terastallize|p1a: Gholdengo|Water
+|move|p2b: Indeedee|Tera Blast|p1b: Rillaboom|[anim] Tera Blast Ground
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|88/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|-heal|p1b: Rillaboom|94/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756412685
+|switch|p2a: Archaludon|Archaludon, L50, F|100/100
+|turn|2
+|
+|t:|1756412712
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p1b: Rillaboom|Fake Out|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|95/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|cant|p2a: Archaludon|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Rillaboom|99/100|[from] Grassy Terrain
+|-heal|p2a: Archaludon|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756412731
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|move|p2b: Pelipper|Tailwind|p2b: Pelipper
+|-sidestart|p2: latios66|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756412765
+|switch|p1a: Rillaboom|Rillaboom, L50, M|99/100
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1b: Dragonite
+|-damage|p1b: Dragonite|59/100
+|move|p2b: Pelipper|Hurricane|p1b: Dragonite
+|-damage|p1b: Dragonite|22/100
+|move|p1b: Dragonite|Tailwind|p1b: Dragonite
+|-sidestart|p1: goldenchimchar|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rillaboom|100/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756412801
+|switch|p2a: Indeedee|Indeedee, L50, M, tera:Ground|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Rillaboom|Fake Out|p2b: Pelipper
+|-hint|Psychic Terrain doesn't affect Pokémon immune to Ground.
+|-damage|p2b: Pelipper|88/100
+|move|p1b: Dragonite|Haze|p1b: Dragonite
+|-clearallboost
+|cant|p2b: Pelipper|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1756412818
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Pelipper|atk|1
+|move|p1b: Dragonite|Protect|p1b: Dragonite
+|-singleturn|p1b: Dragonite|Protect
+|move|p2a: Indeedee|Expanding Force|p1b: Dragonite|[spread] 
+|-activate|p1b: Dragonite|move: Protect
+|-immune|p1a: Incineroar
+|move|p2b: Pelipper|Hurricane|p1a: Incineroar
+|-damage|p1a: Incineroar|66/100
+|-start|p1a: Incineroar|confusion
+|
+|-weather|none
+|-sideend|p2: latios66|move: Tailwind
+|upkeep
+|turn|7
+|
+|t:|1756412866
+|switch|p2a: Archaludon|Archaludon, L50, F|100/100
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p1b: Dragonite|Scale Shot|p2b: Pelipper
+|-damage|p2b: Pelipper|75/100
+|-damage|p2b: Pelipper|61/100
+|-damage|p2b: Pelipper|50/100
+|-crit|p2b: Pelipper
+|-damage|p2b: Pelipper|32/100
+|-damage|p2b: Pelipper|17/100
+|-hitcount|p2b: Pelipper|5
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|move|p2b: Pelipper|Tailwind|p2b: Pelipper
+|-sidestart|p2: latios66|move: Tailwind
+|
+|-sideend|p1: goldenchimchar|move: Tailwind
+|upkeep
+|turn|8
+|
+|t:|1756412907
+|switch|p2b: Indeedee|Indeedee, L50, M, tera:Ground|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|move|p1b: Dragonite|Protect|p1b: Dragonite
+|-singleturn|p1b: Dragonite|Protect
+|move|p2a: Archaludon|Dark Pulse|p1b: Dragonite
+|-activate|p1b: Dragonite|move: Protect
+|move|p1a: Rillaboom|Wood Hammer|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|-damage|p1a: Rillaboom|79/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1756412913
+|switch|p2b: Pelipper|Pelipper, L50, M|17/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|9
+|
+|t:|1756412933
+|switch|p1b: Incineroar|Incineroar, L50, F|66/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Archaludon|atk|1
+|-unboost|p2b: Pelipper|atk|1
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1b: Incineroar
+|-damage|p1b: Incineroar|6/100
+|move|p2b: Pelipper|Weather Ball|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|59/100
+|move|p1a: Rillaboom|Grassy Glide|p2b: Pelipper
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1756413003
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Rillaboom|U-turn|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|91/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|
+|t:|1756413018
+|switch|p1a: Dragonite|Dragonite, L50, F|22/100|[from] U-turn
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: latios66|move: Tailwind
+|upkeep
+|
+|t:|1756413020
+|switch|p1b: Rillaboom|Rillaboom, L50, M|59/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|11
+|
+|t:|1756413037
+|move|p1b: Rillaboom|Fake Out|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|88/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p1a: Dragonite|Tailwind|p1a: Dragonite
+|-sidestart|p1: goldenchimchar|move: Tailwind
+|cant|p2a: Archaludon|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Rillaboom|65/100|[from] Grassy Terrain
+|-heal|p2a: Archaludon|94/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1756413060
+|move|p1b: Rillaboom|Grassy Glide|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|91/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p1a: Dragonite|Haze|p1a: Dragonite
+|-clearallboost
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Rillaboom|71/100|[from] Grassy Terrain
+|-heal|p2a: Archaludon|97/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756413071
+|switch|p1a: Gholdengo|Gholdengo, L50, tera:Water|100/100
+|turn|13
+|
+|t:|1756413080
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p1b: Rillaboom|Grassy Glide|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|91/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|
+|-weather|none
+|-heal|p1b: Rillaboom|77/100|[from] Grassy Terrain
+|-heal|p2a: Archaludon|97/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|
+|t:|1756413133
+|move|p1a: Gholdengo|Shadow Ball|p2a: Archaludon
+|-damage|p2a: Archaludon|67/100
+|-unboost|p2a: Archaludon|spd|1
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p1b: Rillaboom|U-turn|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|63/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2a: Archaludon|Draco Meteor|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-unboost|p2a: Archaludon|spa|2
+|faint|p1a: Gholdengo
+|
+|-heal|p1b: Rillaboom|83/100|[from] Grassy Terrain
+|-heal|p2a: Archaludon|69/100|[from] Grassy Terrain
+|-sideend|p1: goldenchimchar|move: Tailwind
+|upkeep
+|turn|15
+|-message|goldenchimchar forfeited.
+|
+|win|latios66
+|raw|goldenchimchar's rating: 1047 → 1032(-15 for losing)
+|raw|latios66's rating: 1085 → 1109(+24 for winning)
+|l|☆goldenchimchar
+|player|p1|

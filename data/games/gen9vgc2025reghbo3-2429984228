@@ -1,0 +1,132 @@
+|j|☆The Bookseller
+|j|☆MommaGart
+|html|The BooksellerMommaGart    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756332267
+|gametype|doubles
+|player|p1|The Bookseller|norman|1044
+|player|p2|MommaGart|hilda-wonderlauncher|1037
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Espeon, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Murkrow, L50, F|
+|poke|p2|Sneasler, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,AirSlash,WeatherBall|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,Protect,HelpingHand|||M|||50|,,,,,Fire]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,Tailwind,Encore,RagePowder|||F|||50|,,,,,Dark]Indeedee-F||SafetyGoggles|PsychicSurge|FollowMe,TrickRoom,HelpingHand,Psychic|||F|||50|,,,,,Fairy]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Psychic]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Espeon||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TeraBlast,Protect|||F|||50|,,,,,Fire]Indeedee-F||RockyHelmet|PsychicSurge|AlluringVoice,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Normal]Murkrow||Eviolite|Prankster|FoulPlay,Haze,Tailwind,Protect|||F|||50|,,,,,Ghost]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark
+|
+|t:|1756332295
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Alice|Indeedee-F, L50, F|100/100
+|switch|p1b: Virginia|Hatterene, L50, F|100/100
+|switch|p2a: Lyre|Murkrow, L50, F, shiny|100/100
+|switch|p2b: Tectonics|Ursaluna, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Alice
+|turn|1
+|
+|t:|1756332325
+|move|p2a: Lyre|Foul Play|p1a: Alice
+|-supereffective|p1a: Alice
+|-damage|p1a: Alice|70/100
+|move|p2b: Tectonics|Earthquake|p1b: Virginia|[spread] p1a,p1b
+|-immune|p2a: Lyre
+|-damage|p1a: Alice|27/100
+|-damage|p1b: Virginia|51/100
+|move|p1b: Virginia|Dazzling Gleam|p2b: Tectonics|[spread] p2a,p2b
+|-supereffective|p2a: Lyre
+|-damage|p2a: Lyre|15/100
+|-damage|p2b: Tectonics|57/100
+|-damage|p1b: Virginia|41/100|[from] item: Life Orb
+|move|p1a: Alice|Trick Room|p1a: Alice
+|-fieldstart|move: Trick Room|[of] p1a: Alice
+|
+|-status|p2b: Tectonics|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1756332357
+|move|p1b: Virginia|Dazzling Gleam|p2b: Tectonics|[spread] p2a,p2b
+|-supereffective|p2a: Lyre
+|-damage|p2a: Lyre|0 fnt
+|-damage|p2b: Tectonics|16/100 brn
+|faint|p2a: Lyre
+|-damage|p1b: Virginia|32/100|[from] item: Life Orb
+|move|p1a: Alice|Psychic|p2b: Tectonics
+|-damage|p2b: Tectonics|0 fnt
+|faint|p2b: Tectonics
+|
+|upkeep
+|
+|t:|1756332367
+|switch|p2b: Harmony|Indeedee-F, L50, F|100/100
+|switch|p2a: Melody|Espeon, L50, F|100/100
+|turn|3
+|
+|t:|1756332382
+|-terastallize|p1b: Virginia|Psychic
+|move|p1a: Alice|Helping Hand|p1b: Virginia
+|-singleturn|p1b: Virginia|Helping Hand|[of] p1a: Alice
+|move|p2a: Melody|Protect|p2a: Melody
+|-singleturn|p2a: Melody|Protect
+|move|p1b: Virginia|Expanding Force|p2a: Melody|[spread] p2b
+|-activate|p2a: Melody|move: Protect
+|-resisted|p2b: Harmony
+|-damage|p2b: Harmony|10/100
+|-damage|p1b: Virginia|23/100|[from] item: Life Orb
+|move|p2b: Harmony|Trick Room|p2b: Harmony
+|-fieldend|move: Trick Room
+|
+|upkeep
+|turn|4
+|
+|t:|1756332411
+|move|p2b: Harmony|Helping Hand|p2a: Melody
+|-singleturn|p2a: Melody|Helping Hand|[of] p2b: Harmony
+|move|p2a: Melody|Dazzling Gleam|p1a: Alice|[spread] p1a,p1b
+|-crit|p1a: Alice
+|-damage|p1a: Alice|0 fnt
+|-damage|p1b: Virginia|0 fnt
+|faint|p1a: Alice
+|faint|p1b: Virginia
+|-damage|p2a: Melody|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756332419
+|switch|p1a: Krakatoa|Torkoal, L50, M|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Krakatoa
+|turn|5
+|
+|t:|1756332438
+|-terastallize|p2a: Melody|Fire
+|move|p2b: Harmony|Helping Hand|p2a: Melody
+|-singleturn|p2a: Melody|Helping Hand|[of] p2b: Harmony
+|move|p2a: Melody|Expanding Force|p1a: Krakatoa|[spread] p1a,p1b
+|-crit|p1a: Krakatoa
+|-damage|p1a: Krakatoa|0 fnt
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1a: Krakatoa
+|faint|p1b: Ursaluna
+|-damage|p2a: Melody|81/100|[from] item: Life Orb
+|
+|win|MommaGart
+|raw|The Bookseller's rating: 1044 → 1027(-17 for losing)
+|raw|MommaGart's rating: 1037 → 1072(+35 for winning)
+|l|☆The Bookseller
+|player|p1|

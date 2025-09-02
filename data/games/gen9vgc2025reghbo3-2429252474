@@ -1,0 +1,234 @@
+|j|☆capspungo
+|j|☆Volanr
+|html|capspungoVolanr    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756242890
+|gametype|doubles
+|player|p1|capspungo|2|1168
+|player|p2|Volanr|veteranf|1266
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Exeggutor, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Zoroark-Hisui, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Protect,Facade,Earthquake,HeadlongRush|||F|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,Psychic,FollowMe,HelpingHand|||F|||50|,,,,,Grass]Exeggutor||FocusSash|Chlorophyll|TrickRoom,ExpandingForce,EnergyBall,SleepPowder|||F|||50|,,,,,Psychic]Torkoal||Charcoal|Drought|Eruption,ClearSmog,Protect,WeatherBall|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,WideGuard,SacredSword|||M|||50|,,,,,Fire]Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,Flamethrower,ShadowBall,TeraBlast|||M|||50|,,,,,Stellar
+|showteam|p2|Archaludon||AssaultVest|Stamina|BodyPress,Snarl,ElectroShot,FlashCannon|||M|||50|,,,,,Grass]Sinistcha-Masterpiece||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,LifeDew||||||50|,,,,,Dark]Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,Tailwind,Haze|||M|||50|,,,,,Steel]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Ground]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,TeraBlast,ShadowBall,Trick||||||50|,,,,,Water
+|
+|t:|1756242899
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|switch|p2b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756242936
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|move|p2b: Sinistcha|Matcha Gotcha|p1a: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Indeedee|85/100
+|-damage|p1b: Gallade|80/100
+|move|p1b: Gallade|Sacred Sword|p2a: Gholdengo
+|-immune|p2a: Gholdengo
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1756242975
+|-terastallize|p1b: Gallade|Fire
+|move|p1a: Indeedee|Psychic|p2b: Sinistcha
+|-damage|p2b: Sinistcha|68/100
+|move|p1b: Gallade|Sacred Sword|p2b: Sinistcha
+|-immune|p2b: Sinistcha
+|move|p2b: Sinistcha|Matcha Gotcha|p1b: Gallade|[spread] p1a,p1b
+|-resisted|p1b: Gallade
+|-damage|p1a: Indeedee|69/100
+|-heal|p2b: Sinistcha|76/100|[from] drain|[of] p1a: Indeedee
+|-damage|p1b: Gallade|69/100
+|-heal|p2b: Sinistcha|82/100|[from] drain|[of] p1b: Gallade
+|-status|p1a: Indeedee|brn
+|move|p2a: Gholdengo|Shadow Ball|p1b: Gallade
+|-damage|p1b: Gallade|27/100
+|
+|-damage|p1a: Indeedee|63/100 brn|[from] brn
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by capspungo)
+|
+|t:|1756243028
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|move|p1b: Gallade|Wide Guard|p1b: Gallade
+|-singleturn|p1b: Gallade|Wide Guard
+|move|p2b: Sinistcha|Matcha Gotcha|p1b: Gallade|[spread] 
+|-activate|p1a: Ursaluna|move: Wide Guard
+|-activate|p1b: Gallade|move: Wide Guard
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|inactive|capspungo has 30 seconds left.
+|inactive|Volanr has 30 seconds left.
+|inactive|capspungo has 20 seconds left.
+|inactive|Volanr has 20 seconds left.
+|
+|t:|1756243064
+|move|p2b: Sinistcha|Rage Powder|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|move: Rage Powder
+|move|p1a: Ursaluna|Headlong Rush|p2b: Sinistcha
+|-resisted|p2b: Sinistcha
+|-damage|p2b: Sinistcha|34/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|-enditem|p2b: Sinistcha|Sitrus Berry|[eat]
+|-heal|p2b: Sinistcha|59/100|[from] item: Sitrus Berry
+|move|p1b: Gallade|Psycho Cut|p2b: Sinistcha
+|-damage|p2b: Sinistcha|0 fnt
+|faint|p2b: Sinistcha
+|move|p2a: Archaludon|Body Press|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|42/100 brn
+|
+|-damage|p1a: Ursaluna|36/100 brn|[from] brn
+|upkeep
+|
+|t:|1756243083
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|5
+|
+|t:|1756243105
+|-terastallize|p2a: Archaludon|Grass
+|move|p2b: Pelipper|Protect|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Protect
+|move|p1a: Ursaluna|Headlong Rush|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|69/100
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p1b: Gallade|Psycho Cut|p2a: Archaludon
+|-damage|p2a: Archaludon|39/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2a: Archaludon|Snarl|p1a: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|15/100 brn
+|-damage|p1b: Gallade|17/100
+|-unboost|p1a: Ursaluna|spa|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|9/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|inactive|capspungo has 30 seconds left.
+|inactive|capspungo has 20 seconds left.
+|
+|t:|1756243141
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|move|p2b: Pelipper|Weather Ball|p1b: Torkoal
+|-resisted|p1b: Torkoal
+|-damage|p1b: Torkoal|72/100
+|move|p2a: Archaludon|Body Press|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756243153
+|switch|p1a: Indeedee|Indeedee-F, L50, F|63/100 brn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|7
+|
+|t:|1756243159
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Pelipper|Weather Ball|p1a: Indeedee
+|-damage|p1a: Indeedee|18/100 brn
+|move|p2a: Archaludon|Snarl|p1a: Indeedee|[spread] p1a,p1b
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Torkoal|57/100
+|-unboost|p1b: Torkoal|spa|1
+|faint|p1a: Indeedee
+|move|p1b: Torkoal|Eruption|p2b: Pelipper|[spread] p2a,p2b
+|-supereffective|p2a: Archaludon
+|-resisted|p2b: Pelipper
+|-damage|p2a: Archaludon|0 fnt
+|-damage|p2b: Pelipper|74/100
+|faint|p2a: Archaludon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756243168
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1a: Gallade|Gallade, L50, M, tera:Fire|17/100
+|turn|8
+|
+|t:|1756243188
+|move|p1a: Gallade|Wide Guard|p1a: Gallade
+|-singleturn|p1a: Gallade|Wide Guard
+|move|p2a: Gholdengo|Shadow Ball|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|move|p2b: Pelipper|Weather Ball|p1b: Torkoal
+|-resisted|p1b: Torkoal
+|-damage|p1b: Torkoal|31/100
+|move|p1b: Torkoal|Weather Ball|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1756243205
+|move|p2b: Pelipper|Weather Ball|p1b: Torkoal
+|-resisted|p1b: Torkoal
+|-damage|p1b: Torkoal|3/100
+|move|p1b: Torkoal|Weather Ball|p2b: Pelipper
+|-resisted|p2b: Pelipper
+|-damage|p2b: Pelipper|27/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1756243210
+|move|p2b: Pelipper|Weather Ball|p1b: Torkoal
+|-resisted|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|
+|win|Volanr
+|raw|capspungo's rating: 1168 → 1150(-18 for losing)
+|raw|Volanr's rating: 1266 → 1284(+18 for winning)
+|l|☆capspungo
+|player|p1|

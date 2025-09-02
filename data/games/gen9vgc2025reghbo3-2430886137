@@ -1,0 +1,140 @@
+|j|☆Buhbuhbuhdoof
+|j|☆jagheter
+|html|Buhbuhbuhdoofjagheter    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756446445
+|gametype|doubles
+|player|p1|Buhbuhbuhdoof|102|1040
+|player|p2|jagheter|worker|1103
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Abomasnow, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Baxcalibur, L50, M|
+|poke|p1|Lapras, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p2|Venusaur, L50, F|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|teampreview|4
+|showteam|p1|Ninetales-Alola||LightClay|SnowWarning|AuroraVeil,Blizzard,Moonblast,Protect|||F|||50|,,,,,Water]Abomasnow||SitrusBerry|SnowWarning|EnergyBall,Blizzard,Protect,LeechSeed|||F|||50|,,,,,Fire]Indeedee-F||MentalHerb|PsychicSurge|TrickRoom,FollowMe,Protect,Psychic|||F|||50|,,,,,Dark]Baxcalibur||LifeOrb|IceBody|GlaiveRush,IcicleCrash,Protect,DragonDance|||M|||50|,,,,,Fire]Lapras||Leftovers|WaterAbsorb|HydroPump,FreezeDry,Protect,PerishSong|||M|||50|,,,,,Grass]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,BulkUp,Protect|||M|||50|,,,,,Fighting
+|showteam|p2|Venusaur||WideLens|Chlorophyll|SleepPowder,Protect,SludgeBomb,EarthPower|||F|||50|,,,,,Ghost]Volcarona||CovertCloak|FlameBody|FieryDance,GigaDrain,QuiverDance,Protect|||F|||50|,,,,,Dragon]Incineroar||MirrorHerb|Intimidate|FakeOut,KnockOff,Taunt,FlareBlitz|||M|||50|,,,,,Ghost]Grimmsnarl||BlackGlasses|Prankster|Reflect,LightScreen,SpiritBreak,SuckerPunch|||M|||50|,,,,,Dark]Dondozo||Leftovers|Unaware|Fissure,Protect,Liquidation,Yawn|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,Uturn|||M|||50|,,,,,Fire
+|
+|t:|1756446497
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Abomasnow|Abomasnow, L50, F|100/100
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|switch|p2a: Volcarona|Volcarona, L50, F, shiny|100/100
+|switch|p2b: Venusaur|Venusaur, L50, F, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|1
+|
+|t:|1756446530
+|-terastallize|p1a: Abomasnow|Fire
+|move|p1b: Annihilape|Close Combat|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|68/100
+|-unboost|p1b: Annihilape|def|1
+|-unboost|p1b: Annihilape|spd|1
+|-status|p1b: Annihilape|brn|[from] ability: Flame Body|[of] p2a: Volcarona
+|move|p2b: Venusaur|Sleep Powder|p1a: Abomasnow
+|-status|p1a: Abomasnow|slp|[from] move: Sleep Powder
+|move|p2a: Volcarona|Fiery Dance|p1a: Abomasnow
+|-resisted|p1a: Abomasnow
+|-damage|p1a: Abomasnow|84/100 slp
+|-boost|p2a: Volcarona|spa|1
+|cant|p1a: Abomasnow|slp
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1b: Annihilape|95/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1756446557
+|move|p1b: Annihilape|Close Combat|p2b: Venusaur
+|-resisted|p2b: Venusaur
+|-damage|p2b: Venusaur|86/100
+|-unboost|p1b: Annihilape|def|1
+|-unboost|p1b: Annihilape|spd|1
+|move|p2b: Venusaur|Earth Power|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|48/100 slp
+|-enditem|p1a: Abomasnow|Sitrus Berry|[eat]
+|-heal|p1a: Abomasnow|73/100 slp|[from] item: Sitrus Berry
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|cant|p1a: Abomasnow|slp
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1b: Annihilape|89/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1756446593
+|move|p1b: Annihilape|Protect|p1b: Annihilape
+|-singleturn|p1b: Annihilape|Protect
+|move|p2a: Volcarona|Fiery Dance|p1b: Annihilape
+|-activate|p1b: Annihilape|move: Protect
+|move|p2b: Venusaur|Earth Power|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow
+|-damage|p1a: Abomasnow|36/100 slp
+|-curestatus|p1a: Abomasnow|slp|[msg]
+|move|p1a: Abomasnow|Blizzard|p2b: Venusaur|[spread] p2a,p2b
+|-resisted|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-supereffective|p2b: Venusaur
+|-damage|p2a: Volcarona|51/100
+|-damage|p2b: Venusaur|33/100
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1b: Annihilape|83/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1756446623
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Volcarona|Fiery Dance|p1b: Annihilape
+|-damage|p1b: Annihilape|0 fnt
+|-boost|p2a: Volcarona|spa|1
+|faint|p1b: Annihilape
+|move|p2b: Venusaur|Earth Power|p1a: Indeedee
+|-damage|p1a: Indeedee|85/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1756446637
+|switch|p1b: Lapras|Lapras, L50, M|100/100
+|turn|5
+|
+|t:|1756446645
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Volcarona|Fiery Dance|p1a: Indeedee
+|-crit|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|move|p2b: Venusaur|Sleep Powder|p1b: Lapras
+|-status|p1b: Lapras|slp|[from] move: Sleep Powder
+|cant|p1b: Lapras|slp
+|
+|-weather|none
+|upkeep
+|-message|Buhbuhbuhdoof forfeited.
+|
+|win|jagheter
+|raw|Buhbuhbuhdoof's rating: 1040 → 1027(-13 for losing)
+|raw|jagheter's rating: 1103 → 1124(+21 for winning)

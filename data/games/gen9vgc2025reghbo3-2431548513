@@ -1,0 +1,108 @@
+|j|☆prefessional
+|j|☆barri deagol
+|html|prefessionalbarri deagol    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756531883
+|gametype|doubles
+|player|p1|prefessional|101|1000
+|player|p2|barri deagol|collector|1120
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Talonflame, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Maushold-Four, L50|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Talonflame||FocusSash|GaleWings|Tailwind,BraveBird,FlareBlitz,Protect|||F|||50|,,,,,Ghost]Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,StompingTantrum,Protect|||F|||50|,,,,,Ground]Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,ShadowBall,Thunderbolt,PowerGem||||||50|,,,,,Steel]Maushold-Four||RockyHelmet|FriendGuard|FollowMe,SuperFang,Feint,Protect||||||50|,,,,,Poison]Annihilape||SitrusBerry|Defiant|RageFist,DrainPunch,FinalGambit,BulkUp|||F|||50|,,,,,Fire]Rillaboom||MiracleSeed|GrassySurge|FakeOut,GrassyGlide,WoodHammer,HighHorsepower|||M|||50|,,,,,Water
+|showteam|p2|Archaludon||AssaultVest|Stamina|FlashCannon,BodyPress,ElectroShot,Snarl|||M|||50|,,,,,Fighting]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy]Pelipper||FocusSash|Drizzle|MuddyWater,Hurricane,Tailwind,Protect|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom||||||50|,,,,,Dark]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,Trick,Protect||||||50|,,,,,Flying
+|
+|t:|1756531916
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Talonflame|Talonflame, L50, F|100/100
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1756531943
+|move|p1a: Talonflame|Tailwind|p1a: Talonflame
+|-sidestart|p1: prefessional|move: Tailwind
+|move|p1b: Garchomp|Dragon Claw|p2b: Gholdengo
+|-resisted|p2b: Gholdengo
+|-damage|p2b: Gholdengo|69/100
+|-damage|p1b: Garchomp|91/100|[from] item: Life Orb
+|move|p2b: Gholdengo|Trick|p1a: Talonflame
+|-activate|p2b: Gholdengo|move: Trick|[of] p1a: Talonflame
+|-item|p1a: Talonflame|Choice Scarf|[from] move: Trick
+|-item|p2b: Gholdengo|Focus Sash|[from] move: Trick
+|move|p2a: Pelipper|Muddy Water|p1a: Talonflame|[spread] p1a,p1b
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|-damage|p1b: Garchomp|43/100
+|-unboost|p1b: Garchomp|accuracy|1
+|faint|p1a: Talonflame
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756531963
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|turn|2
+|
+|t:|1756531989
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1a: Gholdengo|Shadow Ball|p2b: Gholdengo
+|-activate|p2b: Gholdengo|move: Protect
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: barri deagol|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756532004
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100
+|move|p1b: Garchomp|Earthquake|p2a: Pelipper|[spread] p1a,p2b
+|-immune|p2a: Pelipper
+|-supereffective|p2b: Gholdengo
+|-damage|p1a: Annihilape|50/100
+|-damage|p2b: Gholdengo|0 fnt
+|-enditem|p1a: Annihilape|Sitrus Berry|[eat]
+|-heal|p1a: Annihilape|75/100|[from] item: Sitrus Berry
+|faint|p2b: Gholdengo
+|-damage|p1b: Garchomp|33/100|[from] item: Life Orb
+|move|p2a: Pelipper|Muddy Water|p1b: Garchomp|[spread] p1a,p1b
+|-damage|p1a: Annihilape|32/100
+|-damage|p1b: Garchomp|0 fnt
+|-unboost|p1a: Annihilape|accuracy|1
+|-ability|p1a: Annihilape|Defiant|boost
+|-boost|p1a: Annihilape|atk|2
+|faint|p1b: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|prefessional forfeited.
+|
+|win|barri deagol
+|raw|prefessional's rating: 1000 → 1000(+0 for losing)
+|raw|barri deagol's rating: 1120 → 1137(+17 for winning)
+|l|☆prefessional
+|player|p1|

@@ -1,0 +1,240 @@
+|j|☆IceFlames
+|j|☆Popfor
+|html|IceFlamesPopfor    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756639104
+|gametype|doubles
+|player|p1|IceFlames|blackbelt-gen1|1095
+|player|p2|Popfor|170|1143
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Poliwrath, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Exeggutor, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Zoroark-Hisui, L50, M|
+|teampreview|4
+|showteam|p1|Poliwrath||LifeOrb|SwiftSwim|CloseCombat,Liquidation,Haze,Protect|||M|||50|,,,,,Stellar]Gholdengo||Leftovers|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,FlashCannon,DragonPulse|||F|||50|,,,,,Bug]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|||M|||50|,,,,,Ground]Amoonguss||CovertCloak|Regenerator|Spore,PollenPuff,RagePowder,Protect|||M|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,Taunt,PartingShot|||M|||50|,,,,,Ghost
+|showteam|p2|Ursaluna||FlameOrb|Guts|Protect,Facade,Earthquake,HeadlongRush|||M|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,Psychic,FollowMe,HelpingHand|||F|||50|,,,,,Grass]Exeggutor||FocusSash|Chlorophyll|TrickRoom,ExpandingForce,EnergyBall,SleepPowder|||F|||50|,,,,,Psychic]Torkoal||Charcoal|Drought|Eruption,ClearSmog,Protect,WeatherBall|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,WideGuard,SacredSword|||M|||50|,,,,,Fire]Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,Flamethrower,ShadowBall,TeraBlast|||M|||50|,,,,,Stellar
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Popfor)
+|
+|t:|1756639132
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Exeggutor|Exeggutor, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756639152
+|-terastallize|p1a: Amoonguss|Fire
+|move|p2a: Exeggutor|Shadow Ball|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|move|p1a: Amoonguss|Spore|p2b: Indeedee
+|-status|p2b: Indeedee|slp|[from] move: Spore
+|cant|p2b: Indeedee|slp
+|
+|upkeep
+|
+|t:|1756639160
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Exeggutor|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|turn|2
+|
+|t:|1756639174
+|move|p2a: Exeggutor|Shadow Ball|p1a: Amoonguss
+|-damage|p1a: Amoonguss|46/100
+|move|p1b: Incineroar|Knock Off|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|replace|p2a: Zoroark|Zoroark-Hisui, L50, M
+|-end|p2a: Zoroark|Illusion
+|-enditem|p2a: Zoroark|Choice Specs|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2a: Zoroark
+|move|p1a: Amoonguss|Spore|p2b: Indeedee
+|-fail|p2b: Indeedee|slp
+|cant|p2b: Indeedee|slp
+|
+|upkeep
+|
+|t:|1756639181
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|3
+|
+|t:|1756639186
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p1b: Incineroar|Taunt|p2b: Indeedee
+|-start|p2b: Indeedee|move: Taunt
+|move|p1a: Amoonguss|Spore|p2a: Torkoal
+|-activate|p2a: Torkoal|move: Protect
+|-curestatus|p2b: Indeedee|slp|[msg]
+|cant|p2b: Indeedee|move: Taunt|Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|Popfor has 30 seconds left.
+|inactive|Popfor has 20 seconds left.
+|
+|t:|1756639223
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2b: Indeedee|Psychic|p1a: Pelipper
+|-damage|p1a: Pelipper|36/100
+|move|p1b: Incineroar|Knock Off|p2a: Torkoal
+|-damage|p2a: Torkoal|72/100
+|-enditem|p2a: Torkoal|Charcoal|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2a: Torkoal|Weather Ball|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|31/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1756639252
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p1a: Pelipper|Weather Ball|p2a: Torkoal
+|-activate|p2a: Torkoal|move: Protect
+|move|p2b: Indeedee|Psychic|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|move|p1b: Incineroar|Parting Shot|p2b: Indeedee
+|-unboost|p2b: Indeedee|atk|1
+|-unboost|p2b: Indeedee|spa|1
+|
+|t:|1756639254
+|switch|p1b: Amoonguss|Amoonguss, L50, M, tera:Fire|79/100|[from] Parting Shot
+|
+|-weather|RainDance|[upkeep]
+|-end|p2b: Indeedee|move: Taunt
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756639256
+|switch|p1a: Incineroar|Incineroar, L50, M|31/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|turn|6
+|
+|t:|1756639264
+|switch|p2a: Exeggutor|Exeggutor, L50, F|100/100
+|move|p1a: Incineroar|Fake Out|p2b: Indeedee
+|-damage|p2b: Indeedee|90/100
+|move|p1b: Amoonguss|Spore|p2a: Exeggutor
+|-immune|p2a: Exeggutor
+|cant|p2b: Indeedee|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1756639279
+|switch|p2b: Torkoal|Torkoal, L50, M|72/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|move|p2a: Exeggutor|Sleep Powder|p1b: Amoonguss
+|-status|p1b: Amoonguss|slp|[from] move: Sleep Powder
+|move|p1a: Incineroar|Knock Off|p2b: Torkoal
+|-damage|p2b: Torkoal|51/100
+|cant|p1b: Amoonguss|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1756639303
+|-terastallize|p2b: Torkoal|Fire
+|move|p2a: Exeggutor|Energy Ball|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|11/100
+|move|p1a: Incineroar|Knock Off|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|16/100
+|-enditem|p2a: Exeggutor|Focus Sash|[from] move: Knock Off|[of] p1a: Incineroar
+|-curestatus|p1b: Amoonguss|slp|[msg]
+|move|p1b: Amoonguss|Spore|p2b: Torkoal
+|-status|p2b: Torkoal|slp|[from] move: Spore
+|cant|p2b: Torkoal|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1756639326
+|move|p2a: Exeggutor|Sleep Powder|p1b: Amoonguss
+|-status|p1b: Amoonguss|slp|[from] move: Sleep Powder
+|move|p1a: Incineroar|Knock Off|p2b: Torkoal
+|-crit|p2b: Torkoal
+|-damage|p2b: Torkoal|22/100 slp
+|cant|p1b: Amoonguss|slp
+|-curestatus|p2b: Torkoal|slp|[msg]
+|move|p2b: Torkoal|Weather Ball|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1756639345
+|move|p2a: Exeggutor|Expanding Force|p1b: Amoonguss
+|-damage|p1b: Amoonguss|38/100 slp
+|-curestatus|p1b: Amoonguss|slp|[msg]
+|move|p1b: Amoonguss|Pollen Puff|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|move|p2b: Torkoal|Weather Ball|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|3/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756639352
+|switch|p2a: Indeedee|Indeedee-F, L50, F|90/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|11
+|
+|t:|1756639358
+|move|p2a: Indeedee|Psychic|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|
+|win|Popfor
+||Popfor is ready for game 3.
+||IceFlames is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|j| Arkhept
+|l| Arkhept
+|l|☆Popfor
+|player|p2|
+|l|☆IceFlames
+|player|p1|
+|j|☆IceFlames
+|player|p1|IceFlames|blackbelt-gen1|

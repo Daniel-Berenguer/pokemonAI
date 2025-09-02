@@ -1,0 +1,178 @@
+|j|☆Cyog
+|j|☆Canndle Stic
+|html|CyogCanndle Stic    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756410485
+|gametype|doubles
+|player|p1|Cyog|n|
+|player|p2|Canndle Stic|1|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Weavile, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Mandibuzz, L50, F|
+|teampreview|4
+|showteam|p1|Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Protect,Tailwind|||M|||50|,,,,,Ghost]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,FlipTurn,AquaJet|||M|||50|,,,,,Water]Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,FlashCannon,DracoMeteor|||M|||50|,,,,,Grass]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,SludgeBomb|||M|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|PartingShot,FakeOut,KnockOff,FlareBlitz|||F|||50|,,,,,Ghost
+|showteam|p2|Weavile||FocusSash|Pressure|TripleAxel,IceShard,FakeOut,KnockOff|||M|||50|,,,,,Ice]Gholdengo||Leftovers|GoodasGold|NastyPlot,Protect,MakeItRain,ShadowBall||||||50|,,,,,Water]Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,RockSlide,Protect|||M|||50|,,,,,Steel]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,Uturn|||M|||50|,,,,,Water]Mandibuzz||SitrusBerry|Overcoat|Roost,Tailwind,Taunt,FoulPlay|||F|||50|,,,,,Steel
+|
+|t:|1756410552
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Weavile|Weavile, L50, M|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-ability|p2a: Weavile|Pressure
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|1
+|
+|t:|1756410632
+|move|p1b: Gholdengo|Protect|p1b: Gholdengo
+|-singleturn|p1b: Gholdengo|Protect
+|move|p2a: Weavile|Knock Off|p1b: Gholdengo
+|-activate|p1b: Gholdengo|move: Protect
+|move|p1a: Basculegion|Flip Turn|p2a: Weavile
+|-damage|p2a: Weavile|24/100
+|
+|t:|1756410641
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100|[from] Flip Turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2b: Rillaboom|Wood Hammer|p1b: Gholdengo
+|-activate|p1b: Gholdengo|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Weavile|30/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756410703
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|move|p2a: Weavile|Triple Axel|p1a: Pelipper|[miss]
+|-miss|p2a: Weavile|p1a: Pelipper
+|move|p1a: Pelipper|Tailwind|p1a: Pelipper
+|-sidestart|p1: Cyog|move: Tailwind
+|move|p2b: Rillaboom|Wood Hammer|p1b: Archaludon
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|87/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|-damage|p2b: Rillaboom|96/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Archaludon|93/100|[from] Grassy Terrain
+|-heal|p2a: Weavile|36/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756410729
+|move|p1a: Pelipper|Hurricane|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|31/100
+|-start|p2b: Rillaboom|confusion
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Weavile
+|-damage|p2a: Weavile|0 fnt
+|faint|p2a: Weavile
+|-activate|p2b: Rillaboom|confusion
+|move|p2b: Rillaboom|Wood Hammer|p1a: Pelipper
+|-enditem|p1a: Pelipper|Focus Sash
+|-damage|p1a: Pelipper|1/100
+|-damage|p2b: Rillaboom|9/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Archaludon|99/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|15/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756410744
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|turn|4
+|
+|t:|1756410775
+|move|p1a: Pelipper|Protect|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Protect
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|-activate|p2b: Rillaboom|confusion
+|move|p2b: Rillaboom|U-turn|p1a: Pelipper
+|-activate|p1a: Pelipper|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Archaludon|100/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|21/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756410784
+|switch|p2a: Garchomp|Garchomp, L50, M|100/100
+|turn|5
+|
+|t:|1756410804
+|-terastallize|p1b: Archaludon|Grass
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|-end|p2b: Rillaboom|confusion
+|move|p2b: Rillaboom|Grassy Glide|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Protect
+|
+|-weather|none
+|-heal|p2b: Rillaboom|27/100|[from] Grassy Terrain
+|-sideend|p1: Cyog|move: Tailwind
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756410823
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|turn|6
+|
+|t:|1756410854
+|-terastallize|p2a: Garchomp|Steel
+|move|p2a: Garchomp|Dragon Claw|p1a: Basculegion
+|-damage|p1a: Basculegion|28/100
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|move|p1a: Basculegion|Last Respects|p2b: Rillaboom
+|-crit|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|move|p1b: Archaludon|Draco Meteor|p2a: Garchomp
+|-resisted|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-unboost|p1b: Archaludon|spa|2
+|faint|p2a: Garchomp
+|
+|win|Cyog
+|c|☆Canndle Stic|double miss was tough
+|c|☆Cyog|soft sand meta
+|c|☆Canndle Stic|might have to run wide lens on enerything
+|c|☆Cyog|alr
+|c|☆Cyog|wanna run it back or not
+|c|☆Canndle Stic|nrn
+|c|☆Canndle Stic|prob later
+|c|☆Cyog|Ok!
+|c|☆Cyog|On my way!
+|c|☆Cyog|Cya!

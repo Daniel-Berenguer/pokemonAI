@@ -1,0 +1,123 @@
+|j|☆zpoogi
+|j|☆3rdPlaceTennis
+|html|zpoogi3rdPlaceTennis    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756606311
+|gametype|doubles
+|player|p1|zpoogi|az|1053
+|player|p2|3rdPlaceTennis|bugcatcher-gen4dp|1092
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Volbeat, L50, M|
+|poke|p1|Primarina, L50, M|
+|poke|p1|Espathra, L50, F|
+|poke|p1|Typhlosion-Hisui, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p2|Kommo-o, L50, M|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Archaludon, L50, F|
+|teampreview|4
+|showteam|p1|Volbeat||CobaBerry|Prankster|Encore,SunnyDay,Tailwind,RainDance|||M|||50|,,,,,Dark]Primarina||ChoiceSpecs|LiquidVoice|HyperVoice,WeatherBall,DazzlingGleam,Moonblast|||M|||50|,,,,,Steel]Espathra||FocusSash|SpeedBoost|Protect,LuminaCrash,ExpandingForce,DazzlingGleam|||F|||50|,,,,,Psychic]Typhlosion-Hisui||Charcoal|Blaze|Eruption,Protect,ShadowBall,Flamethrower|||M|||50|,,,,,Fire]Indeedee-F||SafetyGoggles|PsychicSurge|FollowMe,HyperVoice,TrickRoom,Imprison|||F|||50|,,,,,Fairy]Archaludon||PowerHerb|Stamina|Protect,ElectroShot,AuraSphere,DragonPulse|||M|||50|,,,,,Grass
+|showteam|p2|Kommo-o||ThroatSpray|Soundproof|ClangingScales,Flamethrower,ClangorousSoul,Protect|||M|||50|,,,,,Fire]Gothitelle||Leftovers|ShadowTag|Protect,Psychic,TrickRoom,FakeOut|||F|||50|,,,,,Water]Ninetales-Alola||FocusSash|SnowWarning|Protect,Encore,Blizzard,IcyWind|||F|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|KnockOff,Taunt,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Fairy]Archaludon||PowerHerb|Sturdy|DracoMeteor,ElectroShot,Thunderbolt,Protect|||F|||50|,,,,,Electric
+|
+|t:|1756606346
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Espathra|Espathra, L50, F|100/100
+|switch|p2a: Gothitelle|Gothitelle, L50, F|100/100
+|switch|p2b: Kommo-o|Kommo-o, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1756606364
+|-terastallize|p1b: Espathra|Psychic
+|move|p1b: Espathra|Lumina Crash|p2b: Kommo-o
+|-supereffective|p2b: Kommo-o
+|-damage|p2b: Kommo-o|0 fnt
+|faint|p2b: Kommo-o
+|move|p1a: Indeedee|Hyper Voice|p2a: Gothitelle
+|-damage|p2a: Gothitelle|78/100
+|move|p2a: Gothitelle|Trick Room|p2a: Gothitelle
+|-fieldstart|move: Trick Room|[of] p2a: Gothitelle
+|
+|-heal|p2a: Gothitelle|84/100|[from] item: Leftovers
+|-ability|p1b: Espathra|Speed Boost|boost
+|-boost|p1b: Espathra|spe|1
+|upkeep
+|
+|t:|1756606368
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|2
+|
+|t:|1756606377
+|move|p1b: Espathra|Protect|p1b: Espathra
+|-singleturn|p1b: Espathra|Protect
+|move|p2a: Gothitelle|Psychic|p1a: Indeedee
+|-resisted|p1a: Indeedee
+|-damage|p1a: Indeedee|82/100
+|move|p2b: Ursaluna|Facade|p1a: Indeedee
+|-damage|p1a: Indeedee|39/100
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldend|move: Trick Room
+|
+|-heal|p2a: Gothitelle|90/100|[from] item: Leftovers
+|-ability|p1b: Espathra|Speed Boost|boost
+|-boost|p1b: Espathra|spe|1
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1756606393
+|move|p1b: Espathra|Lumina Crash|p2b: Ursaluna
+|-damage|p2b: Ursaluna|39/100 brn
+|-unboost|p2b: Ursaluna|spd|2
+|move|p1a: Indeedee|Imprison|p1a: Indeedee
+|-start|p1a: Indeedee|move: Imprison
+|move|p2b: Ursaluna|Earthquake|p1b: Espathra|[spread] p2a,p1a,p1b
+|-damage|p2a: Gothitelle|24/100
+|-damage|p1a: Indeedee|0 fnt
+|-enditem|p1b: Espathra|Focus Sash
+|-damage|p1b: Espathra|1/100
+|faint|p1a: Indeedee
+|move|p2a: Gothitelle|Psychic|p1b: Espathra
+|-resisted|p1b: Espathra
+|-damage|p1b: Espathra|0 fnt
+|faint|p1b: Espathra
+|
+|-heal|p2a: Gothitelle|30/100|[from] item: Leftovers
+|-damage|p2b: Ursaluna|33/100 brn|[from] brn
+|upkeep
+|
+|t:|1756606398
+|switch|p1b: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|switch|p1a: Volbeat|Volbeat, L50, M|100/100
+|turn|4
+|
+|t:|1756606412
+|-terastallize|p2a: Gothitelle|Water
+|move|p1a: Volbeat|Sunny Day|p1a: Volbeat
+|-weather|SunnyDay
+|move|p1b: Typhlosion|Eruption|p2a: Gothitelle|[spread] p2a,p2b
+|-resisted|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2a: Gothitelle
+|faint|p2b: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|3rdPlaceTennis forfeited.
+|
+|win|zpoogi
+|raw|zpoogi's rating: 1053 → 1089(+36 for winning)
+|raw|3rdPlaceTennis's rating: 1092 → 1066(-26 for losing)

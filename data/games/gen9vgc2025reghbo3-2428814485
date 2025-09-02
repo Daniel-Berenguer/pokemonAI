@@ -1,0 +1,151 @@
+|j|☆NeoDest
+|j|☆Zurneus
+|html|NeoDestZurneus    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756190909
+|gametype|doubles
+|player|p1|NeoDest|266|1086
+|player|p2|Zurneus|silver|1137
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Azumarill, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Arcanine, L50, M|
+|poke|p1|Clefairy, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Gyarados, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Azumarill||SitrusBerry|HugePower|BellyDrum,AquaJet,PlayRough,Protect|||M|||50|,,,,,Water]Rillaboom||MiracleSeed|GrassySurge|WoodHammer,GrassyGlide,FakeOut,Protect|||M|||50|,,,,,Fire]Arcanine||SafetyGoggles|Intimidate|Flamethrower,WillOWisp,Snarl,Protect|||M|||50|,,,,,Water]Clefairy||Eviolite|FriendGuard|FollowMe,AfterYou,Moonblast,Protect|||F|||50|,,,,,Steel]Garchomp||ClearAmulet|SandVeil|SwordsDance,StompingTantrum,RockSlide,Protect|||F|||50|,,,,,Ground]Farigiraf||ThroatSpray|CudChew|DazzlingGleam,ThunderWave,HyperVoice,Protect|||F|||50|,,,,,Normal
+|showteam|p2|Gyarados||SafetyGoggles|Intimidate|Taunt,ThunderWave,Waterfall,Protect|||F|||50|,,,,,Steel]Indeedee||ChoiceScarf|PsychicSurge|DazzlingGleam,TeraBlast,Trick,ExpandingForce|||M|||50|,,,,,Psychic]Volcarona||LifeOrb|FlameBody|HeatWave,Tailwind,TeraBlast,Protect|||F|||50|,,,,,Fairy]Excadrill||ClearAmulet|SandRush|Protect,Earthquake,HighHorsepower,IronHead|||F|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|Protect,ClearSmog,RagePowder,Spore|||M|||50|,,,,,Water]Tyranitar||AssaultVest|SandStream|LowKick,TeraBlast,KnockOff,RockSlide|||M|||50|,,,,,Flying
+|
+|t:|1756190945
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Garchomp|Garchomp, L50, F|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Excadrill|Excadrill, L50, F|100/100
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|1
+|
+|t:|1756190982
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-terastallize|p2b: Volcarona|Fairy
+|-terastallize|p1b: Rillaboom|Fire
+|move|p1b: Rillaboom|Fake Out|p2b: Volcarona
+|-activate|p2b: Volcarona|move: Psychic Terrain
+|move|p1a: Garchomp|Swords Dance|p1a: Garchomp
+|-boost|p1a: Garchomp|atk|2
+|move|p2b: Volcarona|Tera Blast|p1a: Garchomp|[anim] Tera Blast Fairy
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|-damage|p2b: Volcarona|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756191005
+|switch|p1a: Arcanine|Arcanine, L50, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Volcarona|atk|1
+|turn|2
+|
+|t:|1756191029
+|switch|p1b: Clefairy|Clefairy, L50, F|100/100
+|move|p2a: Indeedee|Expanding Force|p1b: Clefairy|[spread] p1a,p1b
+|-damage|p1a: Arcanine|60/100
+|-damage|p1b: Clefairy|55/100
+|move|p2b: Volcarona|Tailwind|p2b: Volcarona
+|-sidestart|p2: Zurneus|move: Tailwind
+|move|p1a: Arcanine|Snarl|p2b: Volcarona|[spread] p2a,p2b
+|-supereffective|p2a: Indeedee
+|-resisted|p2b: Volcarona
+|-damage|p2a: Indeedee|72/100
+|-damage|p2b: Volcarona|86/100
+|-unboost|p2a: Indeedee|spa|1
+|-unboost|p2b: Volcarona|spa|1
+|
+|upkeep
+|turn|3
+|
+|t:|1756191054
+|move|p1b: Clefairy|Follow Me|p1b: Clefairy
+|-singleturn|p1b: Clefairy|move: Follow Me
+|move|p2a: Indeedee|Expanding Force|p1b: Clefairy|[spread] p1a,p1b
+|-damage|p1a: Arcanine|32/100
+|-damage|p1b: Clefairy|23/100
+|move|p2b: Volcarona|Heat Wave|p1a: Arcanine|[spread] p1a,p1b
+|-resisted|p1a: Arcanine
+|-damage|p1a: Arcanine|21/100
+|-damage|p1b: Clefairy|0 fnt
+|faint|p1b: Clefairy
+|-damage|p2b: Volcarona|76/100|[from] item: Life Orb
+|move|p1a: Arcanine|Flamethrower|p2b: Volcarona
+|-damage|p2b: Volcarona|41/100
+|
+|upkeep
+|
+|t:|1756191066
+|switch|p1b: Rillaboom|Rillaboom, L50, M, tera:Fire|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|4
+|
+|t:|1756191081
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Arcanine|Protect|p1a: Arcanine
+|-singleturn|p1a: Arcanine|Protect
+|move|p2b: Volcarona|Heat Wave|p1a: Arcanine|[spread] p1b
+|-activate|p1a: Arcanine|move: Protect
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|85/100
+|-damage|p2b: Volcarona|32/100|[from] item: Life Orb
+|move|p1b: Rillaboom|Wood Hammer|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|-damage|p1b: Rillaboom|51/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Volcarona|26/100|[from] Sandstorm
+|-damage|p1b: Rillaboom|45/100|[from] Sandstorm
+|-heal|p2b: Volcarona|32/100|[from] Grassy Terrain
+|-heal|p1a: Arcanine|27/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|51/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756191101
+|switch|p2a: Excadrill|Excadrill, L50, F|100/100
+|turn|5
+|
+|t:|1756191118
+|switch|p2b: Indeedee|Indeedee, L50, M|72/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|move|p2a: Excadrill|Earthquake|p1a: Arcanine|[spread] p2b,p1a,p1b
+|-supereffective|p1a: Arcanine
+|-supereffective|p1b: Rillaboom
+|-damage|p2b: Indeedee|0 fnt
+|-damage|p1a: Arcanine|0 fnt
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p2b: Indeedee
+|faint|p1a: Arcanine
+|faint|p1b: Rillaboom
+|
+|win|Zurneus
+|raw|NeoDest's rating: 1086 → 1066(-20 for losing)
+|raw|Zurneus's rating: 1137 → 1158(+21 for winning)
+|l|☆NeoDest
+|player|p1|

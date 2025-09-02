@@ -1,0 +1,122 @@
+|j|☆silknotsong
+|j|☆The median voter
+|html|silknotsongThe median voter    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756303905
+|gametype|doubles
+|player|p1|silknotsong|infielder|1162
+|player|p2|The median voter|scientist-gen4dp|1233
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Kommo-o, L50, F|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Arcanine-Hisui, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Kommo-o||GrassySeed|Overcoat|BodyPress,Taunt,Protect,Flamethrower|||F|||50|,,,,,Fire]Volcarona||SitrusBerry|FlameBody|HeatWave,GigaDrain,QuiverDance,Protect|||M|||50|,,,,,Grass]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,HighHorsepower|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark]Ninetales-Alola||LifeOrb|SnowWarning|Blizzard,Protect,IcyWind,FreezeDry|||F|||50|,,,,,Ghost]Arcanine-Hisui||MirrorHerb|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||M|||50|,,,,,Fairy
+|
+|t:|1756303919
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|switch|p1b: Porygon2|Porygon2, L50|100/100
+|switch|p2a: Kommo-o|Kommo-o, L50, F|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p2a: Kommo-o|Grassy Seed
+|-boost|p2a: Kommo-o|def|1|[from] item: Grassy Seed
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|spa|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1756303941
+|move|p2b: Rillaboom|Fake Out|p1a: Torkoal
+|-damage|p1a: Torkoal|90/100
+|move|p2a: Kommo-o|Taunt|p1b: Porygon2
+|-start|p1b: Porygon2|move: Taunt
+|cant|p1a: Torkoal|flinch
+|cant|p1b: Porygon2|move: Taunt|Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|96/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756303957
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Kommo-o|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|-terastallize|p2b: Rillaboom|Fire
+|move|p2a: Kommo-o|Body Press|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p2b: Rillaboom|Wood Hammer|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|75/100
+|-damage|p2b: Rillaboom|95/100|[from] Recoil
+|move|p1a: Torkoal|Overheat|p2b: Rillaboom
+|-resisted|p2b: Rillaboom
+|-damage|p2b: Rillaboom|66/100
+|-unboost|p1a: Torkoal|spa|2
+|-enditem|p1a: Torkoal|Eject Pack
+|
+|t:|1756303969
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Rillaboom|72/100|[from] Grassy Terrain
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756303970
+|switch|p1b: Porygon2|Porygon2, L50|100/100
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|spa|1
+|turn|3
+|
+|t:|1756303987
+|-terastallize|p1a: Ursaluna|Ghost
+|move|p2a: Kommo-o|Body Press|p1b: Porygon2
+|-supereffective|p1b: Porygon2
+|-damage|p1b: Porygon2|16/100
+|move|p2b: Rillaboom|Wood Hammer|p1b: Porygon2
+|-crit|p1b: Porygon2
+|-damage|p1b: Porygon2|0 fnt
+|faint|p1b: Porygon2
+|-damage|p2b: Rillaboom|67/100|[from] Recoil
+|move|p1a: Ursaluna|Earthquake|p2b: Rillaboom|[spread] p2a,p2b
+|-supereffective|p2b: Rillaboom
+|-damage|p2a: Kommo-o|82/100
+|-damage|p2b: Rillaboom|3/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Kommo-o|88/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|9/100|[from] Grassy Terrain
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756303996
+|switch|p1b: Torkoal|Torkoal, L50, F|75/100
+|turn|4
+|-message|silknotsong forfeited.
+|
+|win|The median voter
+||silknotsong is ready for game 3.

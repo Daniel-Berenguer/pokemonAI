@@ -1,0 +1,107 @@
+|j|☆Lightoz
+|j|☆palle synchro
+|html|Lightozpalle synchro    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756483711
+|gametype|doubles
+|player|p1|Lightoz|blue-gen2|1368
+|player|p2|palle synchro|volkner|1529
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Archaludon, L50, F|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,HelpingHand,TrickRoom,Protect|||M|||50|,,,,,Psychic]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,FinalGambit,Taunt|||M|||50|,,,,,Stellar]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,Tailwind,RagePowder|||M|||50|,,,,,Grass]Electabuzz||Eviolite|VitalSpirit|Electroweb,Taunt,FollowMe,Protect|||M|||50|,,,,,Dragon
+|showteam|p2|Whimsicott||CovertCloak|Prankster|Moonblast,Taunt,Tailwind,FakeTears|||M|||50|,,,,,Water]Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,ShadowBall,DazzlingGleam,Trick||||||50|,,,,,Fairy]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,Imprison,TrickRoom|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Archaludon||PowerHerb|Stalwart|ElectroShot,DragonPulse,Thunderbolt,Protect|||F|||50|,,,,,Electric
+|
+|t:|1756483736
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756483769
+|-terastallize|p1a: Sneasler|Dark
+|move|p2a: Sneasler|Dire Claw|p1b: Indeedee
+|-damage|p1b: Indeedee|3/100
+|move|p1a: Sneasler|Dire Claw|p2b: Indeedee
+|-damage|p2b: Indeedee|8/100
+|-status|p2b: Indeedee|slp
+|move|p1b: Indeedee|Expanding Force|p2b: Indeedee|[spread] p2a,p2b
+|-supereffective|p2a: Sneasler
+|-resisted|p2b: Indeedee
+|-damage|p2a: Sneasler|0 fnt
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2a: Sneasler
+|faint|p2b: Indeedee
+|
+|upkeep
+|
+|t:|1756483777
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|2
+|
+|t:|1756483783
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p1b: Indeedee|Protect|p1b: Indeedee
+|-singleturn|p1b: Indeedee|Protect
+|move|p2a: Gholdengo|Make It Rain|p1a: Sneasler|[spread] 
+|-activate|p1a: Sneasler|move: Protect
+|-activate|p1b: Indeedee|move: Protect
+|move|p2b: Ursaluna|Hyper Voice|p1b: Indeedee|[spread] 
+|-activate|p1a: Sneasler|move: Protect
+|-activate|p1b: Indeedee|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1756483799
+|-terastallize|p2a: Gholdengo|Fairy
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1a: Sneasler|Close Combat|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|move|p1b: Indeedee|Expanding Force|p2b: Ursaluna|[spread] p2a
+|-activate|p2b: Ursaluna|move: Protect
+|-damage|p2a: Gholdengo|38/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Sneasler|[spread] p1a,p1b
+|-damage|p1a: Sneasler|40/100
+|-damage|p1b: Indeedee|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1b: Indeedee
+|
+|upkeep
+|
+|t:|1756483806
+|switch|p1b: Volcarona|Volcarona, L50, M|100/100
+|turn|4
+|-message|palle synchro forfeited.
+|
+|win|Lightoz
+|raw|Lightoz's rating: 1368 → 1397(+29 for winning)
+|raw|palle synchro's rating: 1529 → 1500(-29 for losing)

@@ -1,0 +1,197 @@
+|j|☆Camerupt4Ever
+|j|☆Capitan-N
+|html|Camerupt4EverCapitan-N    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756254250
+|gametype|doubles
+|player|p1|Camerupt4Ever|flannery|1174
+|player|p2|Capitan-N|n|1141
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Wyrdeer, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Delphox, L50, F|
+|poke|p1|Kingambit, L50, F|
+|poke|p2|Baxcalibur, L50, F|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Smeargle, L50, F|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Wyrdeer||Leftovers|Intimidate|Protect,TrickRoom,ExpandingForce,EarthPower|||F|||50|,,,,,Ground]Indeedee-F||RockyHelmet|PsychicSurge|Imprison,FollowMe,TrickRoom,Psychic|||F|||50|,,,,,Grass]Annihilape||SafetyGoggles|Defiant|DrainPunch,ThroatChop,RageFist,Protect|||F|||50|,,,,,Fire]Torkoal||Charcoal|Drought|Eruption,HelpingHand,Protect,WeatherBall|||F|||50|,,,,,Grass]Delphox||ChoiceScarf|Blaze|HeatWave,ExpandingForce,DazzlingGleam,Flamethrower|||F|||50|,,,,,Fairy]Kingambit||AssaultVest|Defiant|KowtowCleave,SuckerPunch,IronHead,LowKick|||F|||50|,,,,,Poison
+|showteam|p2|Baxcalibur||LoadedDice|ThermalExchange|IcicleSpear,Protect,SwordsDance,ScaleShot|||F|||50|,,,,,Fire]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,HelpingHand,Protect|||M|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,Uturn|||M|||50|,,,,,Ghost]Primarina||ChoiceSpecs|LiquidVoice|HyperVoice,IceBeam,TeraBlast,Moonblast|||M|||50|,,,,,Ground]Smeargle||FocusSash|Moody|Spore,SpikyShield,Safeguard,Coaching|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,NastyPlot,TeraBlast,Protect||||||50|,,,,,Fighting
+|
+|t:|1756254305
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Delphox|Delphox, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Electabuzz|Electabuzz, L50, M, shiny|100/100
+|switch|p2b: Baxcalibur|Baxcalibur, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1756254324
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Delphox|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|switch|p1b: Wyrdeer|Wyrdeer, L50, F|100/100
+|-ability|p1b: Wyrdeer|Intimidate|boost
+|-unboost|p2a: Electabuzz|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|move|p1a: Delphox|Expanding Force|p2a: Electabuzz|[spread] p2a
+|-immune|p2b: Incineroar
+|-damage|p2a: Electabuzz|55/100
+|move|p2a: Electabuzz|Electroweb|p1b: Wyrdeer|[spread] p1a,p1b
+|-damage|p1a: Delphox|82/100
+|-damage|p1b: Wyrdeer|85/100
+|-unboost|p1a: Delphox|spe|1
+|-unboost|p1b: Wyrdeer|spe|1
+|
+|-heal|p1b: Wyrdeer|91/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1756254365
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|move|p2a: Electabuzz|Protect|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|Protect
+|move|p2b: Incineroar|U-turn|p1b: Wyrdeer
+|-supereffective|p1b: Wyrdeer
+|-damage|p1b: Wyrdeer|59/100
+|
+|t:|1756254399
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100|[from] U-turn
+|move|p1b: Wyrdeer|Trick Room|p1b: Wyrdeer
+|-fieldstart|move: Trick Room|[of] p1b: Wyrdeer
+|
+|-heal|p1b: Wyrdeer|65/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1756254412
+|move|p2a: Electabuzz|Helping Hand|p2b: Gholdengo
+|-immune|p2b: Gholdengo|[from] ability: Good as Gold
+|move|p1b: Wyrdeer|Expanding Force|p2a: Electabuzz|[spread] p2a,p2b
+|-resisted|p2b: Gholdengo
+|-damage|p2a: Electabuzz|12/100
+|-damage|p2b: Gholdengo|72/100
+|move|p1a: Indeedee|Psychic|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|move|p2b: Gholdengo|Make It Rain|p1b: Wyrdeer|[spread] p1a,p1b
+|-damage|p1a: Indeedee|32/100
+|-damage|p1b: Wyrdeer|0 fnt
+|-unboost|p2b: Gholdengo|spa|1
+|faint|p1b: Wyrdeer
+|-damage|p2b: Gholdengo|62/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756254427
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Kingambit|atk|1
+|-ability|p1b: Kingambit|Defiant|boost
+|-boost|p1b: Kingambit|atk|2
+|turn|4
+|
+|t:|1756254454
+|-terastallize|p1b: Kingambit|Poison
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1b: Kingambit|Low Kick|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldend|move: Trick Room
+|
+|upkeep
+|
+|t:|1756254462
+|switch|p2a: Baxcalibur|Baxcalibur, L50, F|100/100
+|turn|5
+|
+|t:|1756254499
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Baxcalibur|Icicle Spear|p1a: Indeedee
+|-damage|p1a: Indeedee|18/100
+|-damage|p1a: Indeedee|4/100
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|-hitcount|p1: Indeedee|3
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p1b: Kingambit|Kowtow Cleave|p2b: Gholdengo
+|-supereffective|p2b: Gholdengo
+|-damage|p2b: Gholdengo|0 fnt
+|faint|p2b: Gholdengo
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756254504
+|switch|p1a: Delphox|Delphox, L50, F|82/100
+|turn|6
+|
+|t:|1756254534
+|-terastallize|p2a: Baxcalibur|Fire
+|move|p1b: Kingambit|Sucker Punch||[still]
+|-fail|p1b: Kingambit
+|move|p1a: Delphox|Dazzling Gleam|p2a: Baxcalibur
+|-resisted|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|87/100
+|move|p2a: Baxcalibur|Swords Dance|p2a: Baxcalibur
+|-boost|p2a: Baxcalibur|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1756254562
+|move|p2a: Baxcalibur|Protect|p2a: Baxcalibur
+|-singleturn|p2a: Baxcalibur|Protect
+|move|p1a: Delphox|Dazzling Gleam|p2a: Baxcalibur
+|-activate|p2a: Baxcalibur|move: Protect
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Baxcalibur
+|-activate|p2a: Baxcalibur|move: Protect
+|
+|upkeep
+|turn|8
+|
+|t:|1756254581
+|move|p1a: Delphox|Dazzling Gleam|p2a: Baxcalibur
+|-resisted|p2a: Baxcalibur
+|-damage|p2a: Baxcalibur|74/100
+|move|p2a: Baxcalibur|Icicle Spear|p1b: Kingambit
+|-damage|p1b: Kingambit|77/100
+|-damage|p1b: Kingambit|53/100
+|-damage|p1b: Kingambit|29/100
+|-damage|p1b: Kingambit|6/100
+|-damage|p1b: Kingambit|0 fnt
+|faint|p1b: Kingambit
+|-hitcount|p1: Kingambit|5
+|
+|upkeep
+|turn|9
+|-message|Camerupt4Ever forfeited.
+|
+|win|Capitan-N
+|raw|Camerupt4Ever's rating: 1174 → 1147(-27 for losing)
+|raw|Capitan-N's rating: 1141 → 1168(+27 for winning)
+|l|☆Camerupt4Ever
+|player|p1|
+|j|☆Camerupt4Ever
+|player|p1|Camerupt4Ever|flannery|

@@ -1,0 +1,148 @@
+|j|☆PokeMooney
+|j|☆uglybeast
+|html|PokeMooneyuglybeast    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756160188
+|gametype|doubles
+|player|p1|PokeMooney|giovanni|1110
+|player|p2|uglybeast|lucas|1218
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Excadrill, L50, F|
+|poke|p1|Kilowattrel, L50, M|
+|poke|p1|Kommo-o, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Murkrow, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||F|||50|,,,,,Flying]Excadrill||ClearAmulet|SandRush|Earthquake,RockSlide,IronHead,Protect|||F|||50|,,,,,Ground]Kilowattrel||FocusSash|Competitive|AirSlash,Thunderbolt,Tailwind,Protect|||M|||50|,,,,,Ghost]Kommo-o||ThroatSpray|Overcoat|ClangingScales,Flamethrower,ClangorousSoul,Protect|||F|||50|,,,,,Steel]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Dragon
+|showteam|p2|Murkrow||Eviolite|Prankster|Haze,SunnyDay,Tailwind,BraveBird|||F|||50|,,,,,Ghost]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,Protect,EarthPower|||M|||50|,,,,,Normal]Sneasler||PsychicSeed|Unburden|ThroatChop,DireClaw,CloseCombat,Protect|||F|||50|,,,,,Dark]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,Uturn,PhantomForce|||F|||50|,,,,,Dragon]Armarouge||PowerHerb|FlashFire|HeatWave,MeteorBeam,ExpandingForce,Protect|||M|||50|,,,,,Grass]Indeedee-F||RockyHelmet|PsychicSurge|DazzlingGleam,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Grass
+|
+|t:|1756160297
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p1b: Excadrill|Excadrill, L50, F|100/100
+|switch|p2a: Kwstas|Murkrow, L50, F|100/100
+|switch|p2b: Giandam|Armarouge, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1756160330
+|move|p2b: Giandam|Protect|p2b: Giandam
+|-singleturn|p2b: Giandam|Protect
+|move|p2a: Kwstas|Sunny Day|p2a: Kwstas
+|-weather|SunnyDay
+|move|p1b: Excadrill|Rock Slide|p2a: Kwstas|[spread] p2a
+|-activate|p2b: Giandam|move: Protect
+|-supereffective|p2a: Kwstas
+|-damage|p2a: Kwstas|50/100
+|move|p1a: Tyranitar|Rock Slide|p2b: Giandam|[spread] p2a
+|-activate|p2b: Giandam|move: Protect
+|-supereffective|p2a: Kwstas
+|-damage|p2a: Kwstas|0 fnt
+|faint|p2a: Kwstas
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756160349
+|switch|p2a: Anagnoman|Sneasler, L50, F|100/100
+|turn|2
+|
+|t:|1756160373
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Anagnoman|atk|1
+|-unboost|p2b: Giandam|atk|1
+|-terastallize|p2b: Giandam|Grass
+|move|p2a: Anagnoman|Close Combat|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|22/100
+|-unboost|p2a: Anagnoman|def|1
+|-unboost|p2a: Anagnoman|spd|1
+|move|p2b: Giandam|Meteor Beam||[still]
+|-prepare|p2b: Giandam|Meteor Beam
+|-boost|p2b: Giandam|spa|1
+|-enditem|p2b: Giandam|Power Herb
+|-anim|p2b: Giandam|Meteor Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|66/100
+|move|p1a: Tyranitar|Knock Off|p2b: Giandam
+|-damage|p2b: Giandam|61/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756160408
+|switch|p2a: Blade|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Blade
+|switch|p1a: Amoonguss|Amoonguss, L50, F|100/100
+|move|p2b: Giandam|Heat Wave|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Amoonguss
+|-resisted|p1b: Incineroar
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1a: Amoonguss
+|faint|p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756160423
+|switch|p1b: Tyranitar|Tyranitar, L50, F|66/100
+|switch|p1a: Excadrill|Excadrill, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|4
+|
+|t:|1756160456
+|-terastallize|p1b: Tyranitar|Flying
+|move|p2a: Blade|Follow Me|p2a: Blade
+|-singleturn|p2a: Blade|move: Follow Me
+|move|p1a: Excadrill|Rock Slide|p2a: Blade|[spread] p2b
+|-miss|p1a: Excadrill|p2a: Blade
+|-damage|p2b: Giandam|37/100
+|move|p2b: Giandam|Heat Wave|p1b: Tyranitar|[spread] p1a,p1b
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-damage|p1b: Tyranitar|35/100
+|faint|p1a: Excadrill
+|move|p1b: Tyranitar|Rock Slide|p2a: Blade|[spread] p2a,p2b
+|-damage|p2a: Blade|71/100
+|-damage|p2b: Giandam|3/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Giandam|0 fnt|[from] Sandstorm
+|-damage|p2a: Blade|65/100|[from] Sandstorm
+|-damage|p1b: Tyranitar|29/100|[from] Sandstorm
+|faint|p2b: Giandam
+|upkeep
+|
+|t:|1756160470
+|switch|p2b: Anagnoman|Sneasler, L50, F|100/100
+|-enditem|p2b: Anagnoman|Psychic Seed
+|-boost|p2b: Anagnoman|spd|1|[from] item: Psychic Seed
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by uglybeast)
+|
+|t:|1756160480
+|move|p2a: Blade|Helping Hand|p2b: Anagnoman
+|-singleturn|p2b: Anagnoman|Helping Hand|[of] p2a: Blade
+|move|p2b: Anagnoman|Dire Claw|p1b: Tyranitar
+|-damage|p1b: Tyranitar|0 fnt
+|faint|p1b: Tyranitar
+|
+|win|uglybeast
+|raw|PokeMooney's rating: 1110 → 1093(-17 for losing)
+|raw|uglybeast's rating: 1218 → 1235(+17 for winning)

@@ -1,0 +1,146 @@
+|j|☆sapillo
+|j|☆silknotsong
+|html|sapillosilknotsong    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756299975
+|gametype|doubles
+|player|p1|sapillo|266|1202
+|player|p2|silknotsong|infielder|1158
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||F|||50|,,,,,Flying]Excadrill||ClearAmulet|SandRush|Protect,HighHorsepower,IronHead,TeraBlast|||M|||50|,,,,,Flying]Volcarona||CovertCloak|FlameBody|HeatWave,GigaDrain,QuiverDance,Protect|||M|||50|,,,,,Grass]Amoonguss||RockyHelmet|Regenerator|PollenPuff,Spore,Protect,RagePowder|||M|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||M|||50|,,,,,Fairy]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,Protect,NastyPlot||||||50|,,,,,Water
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1756300000
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, F|100/100
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|1
+|
+|t:|1756300033
+|move|p2a: Jumpluff|Sleep Powder|p1a: Volcarona
+|-status|p1a: Volcarona|slp|[from] move: Sleep Powder
+|cant|p1a: Volcarona|slp
+|move|p1b: Dragonite|Scale Shot|p2a: Jumpluff
+|-damage|p2a: Jumpluff|81/100
+|-damage|p2a: Jumpluff|61/100
+|-damage|p2a: Jumpluff|42/100
+|-damage|p2a: Jumpluff|24/100
+|-damage|p2a: Jumpluff|7/100
+|-hitcount|p2a: Jumpluff|5
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|move|p2b: Ursaluna|Facade|p1a: Volcarona
+|-damage|p1a: Volcarona|46/100 slp
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1756300052
+|move|p2a: Jumpluff|Rage Powder|p2a: Jumpluff
+|-singleturn|p2a: Jumpluff|move: Rage Powder
+|move|p1b: Dragonite|Scale Shot|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|faint|p2a: Jumpluff
+|-hitcount|p2: Jumpluff|1
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|cant|p1a: Volcarona|slp
+|move|p2b: Ursaluna|Facade|p1b: Dragonite
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1b: Dragonite
+|
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756300062
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|atk|1
+|turn|3
+|
+|t:|1756300075
+|-terastallize|p2b: Ursaluna|Ghost
+|-curestatus|p1a: Volcarona|slp|[msg]
+|move|p1a: Volcarona|Giga Drain|p2b: Ursaluna
+|-damage|p2b: Ursaluna|66/100 brn
+|-heal|p1a: Volcarona|66/100|[from] drain|[of] p2b: Ursaluna
+|move|p2b: Ursaluna|Facade|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|move|p2a: Porygon2|Tera Blast|p1b: Amoonguss
+|-damage|p1b: Amoonguss|67/100
+|move|p1b: Amoonguss|Spore|p2a: Porygon2
+|-status|p2a: Porygon2|slp|[from] move: Spore
+|
+|-damage|p2b: Ursaluna|60/100 brn|[from] brn
+|upkeep
+|
+|t:|1756300087
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|4
+|
+|t:|1756300102
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1b: Amoonguss|atk|1
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1a: Tyranitar|Knock Off|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|move|p1b: Amoonguss|Pollen Puff|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Incineroar|95/100|[from] Sandstorm
+|-damage|p2b: Ursaluna|54/100 brn|[from] Sandstorm
+|-damage|p1b: Amoonguss|62/100|[from] Sandstorm
+|-damage|p2b: Ursaluna|48/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1756300124
+|-terastallize|p1a: Tyranitar|Flying
+|move|p2a: Incineroar|Fake Out|p1a: Tyranitar
+|-damage|p1a: Tyranitar|91/100
+|move|p2b: Ursaluna|Facade|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|-damage|p2b: Ursaluna|31/100 brn|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|faint|p1b: Amoonguss
+|cant|p1a: Tyranitar|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Incineroar|89/100|[from] Sandstorm
+|-damage|p2b: Ursaluna|26/100 brn|[from] Sandstorm
+|-damage|p1a: Tyranitar|85/100|[from] Sandstorm
+|-damage|p2b: Ursaluna|20/100 brn|[from] brn
+|upkeep
+|turn|6
+|-message|sapillo forfeited.
+|
+|win|silknotsong

@@ -1,0 +1,156 @@
+|j|☆raylof
+|j|☆001ghoul
+|html|raylof001ghoul    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756501921
+|gametype|doubles
+|player|p1|raylof|170|1136
+|player|p2|001ghoul|benga|1055
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Archaludon, L50, F|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|DracoMeteor,FlashCannon,ElectroShot,BodyPress|||F|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|Protect,WeatherBall,Hurricane,Tailwind|||M|||50|,,,,,Stellar]Gholdengo||LifeOrb|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water]Basculegion||ChoiceBand|SwiftSwim|FlipTurn,WaveCrash,AquaJet,LastRespects|||M|||50|,,,,,Grass]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||M|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Ghost
+|showteam|p2|Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,ShadowBall,Trick,Protect||||||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ExtremeSpeed,ScaleShot,Tailwind,Protect|||F|||50|,,,,,Fairy]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|HighHorsepower,WoodHammer,GrassyGlide,FakeOut|||F|||50|,,,,,Water]Sneasler||GrassySeed|Unburden|CloseCombat,ThroatChop,DireClaw,Protect|||F|||50|,,,,,Dark]Archaludon||PowerHerb|Sturdy|ElectroShot,Thunderbolt,DracoMeteor,Protect|||F|||50|,,,,,Electric
+|
+|t:|1756501974
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pelipper|Pelipper, L50, M, shiny|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M, shiny|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p2b: Sneasler|Grassy Seed
+|-boost|p2b: Sneasler|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1756502019
+|switch|p1b: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|move|p1a: Pelipper|Protect|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Protect
+|move|p2a: Rillaboom|Grassy Glide|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|94/100
+|move|p2b: Sneasler|Throat Chop|p1b: Amoonguss
+|-damage|p1b: Amoonguss|71/100
+|-start|p1b: Amoonguss|Throat Chop|[silent]
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Amoonguss|77/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756502057
+|switch|p1a: Archaludon|Archaludon, L50, F, shiny|100/100
+|move|p2a: Rillaboom|Grassy Glide|p1a: Archaludon
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|94/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p2b: Sneasler|Dire Claw|p1a: Archaludon
+|-immune|p1a: Archaludon
+|move|p1b: Amoonguss|Spore|p2b: Sneasler
+|-status|p2b: Sneasler|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Archaludon|99/100|[from] Grassy Terrain
+|-heal|p1b: Amoonguss|83/100|[from] Grassy Terrain
+|-end|p1b: Amoonguss|Throat Chop|[silent]
+|upkeep
+|turn|3
+|
+|t:|1756502094
+|switch|p1b: Basculegion|Basculegion, L50, M, shiny|100/100
+|cant|p2b: Sneasler|slp
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Sneasler
+|-damage|p2b: Sneasler|33/100 slp
+|move|p2a: Rillaboom|High Horsepower|p1a: Archaludon
+|-supereffective|p1a: Archaludon
+|-damage|p1a: Archaludon|68/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Sneasler|39/100 slp|[from] Grassy Terrain
+|-heal|p1a: Archaludon|74/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756502126
+|-terastallize|p1b: Basculegion|Grass
+|move|p2a: Rillaboom|Grassy Glide|p1b: Basculegion
+|-resisted|p1b: Basculegion
+|-damage|p1b: Basculegion|79/100
+|cant|p2b: Sneasler|slp
+|move|p1b: Basculegion|Flip Turn|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|t:|1756502136
+|switch|p1b: Amoonguss|Amoonguss, L50, M, shiny|100/100|[from] Flip Turn
+|move|p1a: Archaludon|Body Press|p2a: Rillaboom
+|-damage|p2a: Rillaboom|61/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Archaludon|80/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|67/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756502153
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|turn|5
+|
+|t:|1756502168
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Archaludon|atk|1
+|-unboost|p1b: Amoonguss|atk|1
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2b: Archaludon|Draco Meteor|p1b: Amoonguss
+|-damage|p1b: Amoonguss|44/100
+|-unboost|p2b: Archaludon|spa|2
+|-enditem|p1b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1b: Amoonguss|69/100|[from] item: Sitrus Berry
+|move|p1a: Archaludon|Body Press|p2b: Archaludon
+|-supereffective|p2b: Archaludon
+|-damage|p2b: Archaludon|23/100
+|
+|-weather|none
+|-heal|p2b: Archaludon|29/100|[from] Grassy Terrain
+|-heal|p1a: Archaludon|86/100|[from] Grassy Terrain
+|-heal|p1b: Amoonguss|75/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|-message|001ghoul forfeited.
+|
+|win|raylof
+|l|☆001ghoul
+|player|p2|
+||raylof is ready for game 2.
+|inactive|001ghoul has 30 seconds to confirm battle start!
+|inactive|001ghoul has 20 seconds to confirm battle start!
+|inactive|001ghoul has 10 seconds to confirm battle start!
+|uhtml|next|Next: Game 2 of 3

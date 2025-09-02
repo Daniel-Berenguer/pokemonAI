@@ -1,0 +1,157 @@
+|j|☆predahound
+|j|☆randomguy1114s
+|html|predahoundrandomguy1114s    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756357031
+|gametype|doubles
+|player|p1|predahound|volkner|1152
+|player|p2|randomguy1114s|lillie-masters|1226
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p2|Arcanine-Hisui, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Ninetales-Alola, L50, M|
+|teampreview|4
+|showteam|p1|Ursaluna-Bloodmoon||Leftovers|MindsEye|HyperVoice,EarthPower,CalmMind,Protect|||M|||50|,,,,,Fairy]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,KnockOff,Uturn|||M|||50|,,,,,Fire]Incineroar||FigyBerry|Intimidate|FakeOut,KnockOff,PartingShot,WillOWisp|||F|||50|,,,,,Dragon]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,EerieImpulse,Protect|||M|||50|,,,,,Ghost]Annihilape||SafetyGoggles|Defiant|DrainPunch,RageFist,BulkUp,Protect|||M|||50|,,,,,Poison]Pelipper||FocusSash|Drizzle|MuddyWater,Hurricane,Tailwind,Protect|||M|||50|,,,,,Ground
+|showteam|p2|Arcanine-Hisui||ClearAmulet|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||M|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Tailwind,Protect|||F|||50|,,,,,Ground]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,Imprison,HelpingHand|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Amoonguss||RockyHelmet|Regenerator|RagePowder,PollenPuff,Spore,Protect|||F|||50|,,,,,Water]Ninetales-Alola||ChoiceSpecs|SnowWarning|Blizzard,IcyWind,Moonblast,FreezeDry|||M|||50|,,,,,Ice
+|
+|t:|1756357079
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: IM SHEDDING|Dragonite, L50, F|100/100
+|switch|p2b: Arcanine|Arcanine-Hisui, L50, M, shiny|100/100
+|-ability|p2b: Arcanine|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: IM SHEDDING|atk|1
+|-fail|p2b: Arcanine|unboost|[from] item: Clear Amulet|[of] p2b: Arcanine
+|turn|1
+|
+|t:|1756357101
+|switch|p2a: Indeedee|Indeedee, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Rillaboom|Fake Out|p2b: Arcanine
+|-activate|p2b: Arcanine|move: Psychic Terrain
+|move|p2b: Arcanine|Flare Blitz|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-damage|p2b: Arcanine|61/100|[from] Recoil
+|move|p1b: Incineroar|Will-O-Wisp|p2a: Indeedee|[miss]
+|-miss|p1b: Incineroar|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1756357107
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|2
+|
+|t:|1756357123
+|move|p1a: Pelipper|Protect|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Protect
+|move|p2b: Arcanine|Rock Slide|p1a: Pelipper|[spread] 
+|-activate|p1a: Pelipper|move: Protect
+|-miss|p2b: Arcanine|p1b: Incineroar
+|move|p2a: Indeedee|Expanding Force|p1b: Incineroar|[spread] 
+|-activate|p1a: Pelipper|move: Protect
+|-immune|p1b: Incineroar
+|move|p1b: Incineroar|Knock Off|p2b: Arcanine
+|-damage|p2b: Arcanine|28/100
+|-enditem|p2b: Arcanine|Clear Amulet|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756357136
+|move|p1a: Pelipper|Protect|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Protect
+|move|p2b: Arcanine|Rock Slide|p1b: Incineroar|[spread] p1b
+|-activate|p1a: Pelipper|move: Protect
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|57/100
+|move|p2a: Indeedee|Expanding Force|p1b: Incineroar|[spread] 
+|-activate|p1a: Pelipper|move: Protect
+|-immune|p1b: Incineroar
+|move|p1b: Incineroar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-enditem|p2a: Indeedee|Focus Sash
+|-damage|p2a: Indeedee|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756357164
+|move|p2b: Arcanine|Rock Slide|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Pelipper
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Pelipper|34/100
+|-damage|p1b: Incineroar|9/100
+|-enditem|p1b: Incineroar|Figy Berry|[eat]
+|-heal|p1b: Incineroar|42/100|[from] item: Figy Berry
+|move|p2a: Indeedee|Expanding Force|p1b: Incineroar|[spread] p1a
+|-immune|p1b: Incineroar
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|cant|p1b: Incineroar|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756357173
+|switch|p1a: Annihilape|Annihilape, L50, M|100/100
+|turn|5
+|
+|t:|1756357183
+|move|p2a: Indeedee|Helping Hand|p2b: Arcanine
+|-singleturn|p2b: Arcanine|Helping Hand|[of] p2a: Indeedee
+|move|p1a: Annihilape|Protect|p1a: Annihilape
+|-singleturn|p1a: Annihilape|Protect
+|move|p2b: Arcanine|Rock Slide|p1a: Annihilape|[spread] p1b
+|-activate|p1a: Annihilape|move: Protect
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756357200
+|-terastallize|p2a: Indeedee|Psychic
+|-terastallize|p1a: Annihilape|Poison
+|move|p2b: Arcanine|Flare Blitz|p1a: Annihilape
+|-damage|p1a: Annihilape|72/100
+|-status|p1a: Annihilape|brn
+|-damage|p2b: Arcanine|16/100|[from] Recoil
+|move|p2a: Indeedee|Expanding Force|p1a: Annihilape
+|-supereffective|p1a: Annihilape
+|-damage|p1a: Annihilape|0 fnt
+|faint|p1a: Annihilape
+|
+|win|randomguy1114s
+|l|☆predahound
+|player|p1|
+||predahound is ready for game 2.
+|inactive|randomguy1114s has 30 seconds to confirm battle start!

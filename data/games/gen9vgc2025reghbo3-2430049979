@@ -1,0 +1,113 @@
+|j|☆Skols
+|j|☆Invoker Kuzan
+|html|SkolsInvoker Kuzan    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756339973
+|gametype|doubles
+|player|p1|Skols|265|1208
+|player|p2|Invoker Kuzan|marnie-masters3|1309
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Metagross, L50|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|RockSlide,StoneEdge,KnockOff,TeraBlast|||F|||50|,,,,,Flying]Garchomp||LifeOrb|SandVeil|StompingTantrum,DragonClaw,Earthquake,Protect|||M|||50|,,,,,Fire]Sinistcha||SitrusBerry|Hospitality|Protect,TrickRoom,MatchaGotcha,RagePowder||||||50|,,,,,Dark]Metagross||WeaknessPolicy|ClearBody|Protect,PsychicFangs,HeavySlam,BulletPunch||||||50|,,,,,Water]Sneasler||ClearAmulet|PoisonTouch|CloseCombat,DireClaw,Coaching,Protect|||F|||50|,,,,,Dark]Ursaluna-Bloodmoon||ThroatSpray|MindsEye|EarthPower,BloodMoon,HyperVoice,Protect|||M|||50|,,,,,Normal
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fire]Hatterene||LifeOrb|MagicBounce|ExpandingForce,TrickRoom,DazzlingGleam,Protect|||F|||50|,,,,,Psychic]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,SacredSword,WideGuard|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,SwordsDance,Protect|||M|||50|,,,,,Ghost]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,SleepPowder,CloseCombat,AfterYou|||F|||50|,,,,,Ghost]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Skols)
+|
+|t:|1756339991
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Metagross|Metagross, L50|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p2b: Gallade|Gallade, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756340001
+|move|p1b: Sneasler|Coaching|p1a: Metagross
+|-boost|p1a: Metagross|atk|1
+|-boost|p1a: Metagross|def|1
+|move|p2b: Gallade|Psycho Cut|p1b: Sneasler
+|-supereffective|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|move|p1a: Metagross|Heavy Slam|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1756340011
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|switch|p2a: Ursaluna|Ursaluna, L50, M, shiny|100/100
+|turn|2
+|
+|t:|1756340026
+|move|p1b: Garchomp|Earthquake|p2a: Ursaluna|[spread] p1a,p2a,p2b
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|40/100
+|-damage|p2a: Ursaluna|60/100
+|-damage|p2b: Gallade|15/100
+|-enditem|p1a: Metagross|Weakness Policy
+|-boost|p1a: Metagross|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Metagross|spa|2|[from] item: Weakness Policy
+|-damage|p1b: Garchomp|91/100|[from] item: Life Orb
+|move|p1a: Metagross|Heavy Slam|p2b: Gallade
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|move|p2a: Ursaluna|Headlong Rush|p1a: Metagross
+|-supereffective|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Metagross
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756340042
+|switch|p2b: Torkoal|Torkoal, L50, M, shiny|100/100
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|3
+|
+|t:|1756340056
+|-terastallize|p1a: Tyranitar|Flying
+|-terastallize|p2a: Ursaluna|Ghost
+|move|p1b: Garchomp|Earthquake|p2b: Torkoal|[spread] p2a,p2b
+|-immune|p1a: Tyranitar
+|-supereffective|p2b: Torkoal
+|-damage|p2a: Ursaluna|0 fnt
+|-damage|p2b: Torkoal|15/100
+|faint|p2a: Ursaluna
+|-damage|p1b: Garchomp|81/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Knock Off|p2b: Torkoal
+|-damage|p2b: Torkoal|0 fnt
+|-enditem|p2b: Torkoal|Choice Specs|[from] move: Knock Off|[of] p1a: Tyranitar
+|faint|p2b: Torkoal
+|
+|win|Skols
+|raw|Skols's rating: 1208 → 1240(+32 for winning)
+|raw|Invoker Kuzan's rating: 1309 → 1283(-26 for losing)
+|l|☆Skols
+|player|p1|

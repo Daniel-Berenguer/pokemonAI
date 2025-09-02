@@ -1,0 +1,133 @@
+|j|☆Popfor
+|j|☆TISS 0'28
+|html|PopforTISS 0'28    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756639547
+|gametype|doubles
+|player|p1|Popfor|170|1115
+|player|p2|TISS 0'28|hilbert|1064
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Exeggutor, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Zoroark-Hisui, L50, F|
+|poke|p2|Baxcalibur, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Arcanine-Hisui, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Altaria, L50, F|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Protect,Facade,Earthquake,HeadlongRush|||F|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,Psychic,FollowMe,HelpingHand|||F|||50|,,,,,Grass]Exeggutor||FocusSash|Chlorophyll|TrickRoom,ExpandingForce,EnergyBall,SleepPowder|||F|||50|,,,,,Psychic]Torkoal||Charcoal|Drought|Eruption,ClearSmog,Protect,WeatherBall|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,WideGuard,SacredSword|||M|||50|,,,,,Fire]Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,Flamethrower,ShadowBall,TeraBlast|||F|||50|,,,,,Stellar
+|showteam|p2|Baxcalibur||LoadedDice|ThermalExchange|Protect,SwordsDance,ScaleShot,IcicleSpear|||F|||50|,,,,,Poison]Ursaluna-Bloodmoon||LifeOrb|MindsEye|Protect,EarthPower,HyperVoice,BloodMoon|||M|||50|,,,,,Normal]Farigiraf||ThroatSpray|ArmorTail|Protect,TrickRoom,HyperVoice,Psychic|||F|||50|,,,,,Grass]Arcanine-Hisui||ChoiceBand|Intimidate|FlareBlitz,RockSlide,ExtremeSpeed,WildCharge|||M|||50|,,,,,Grass]Whimsicott||CovertCloak|Prankster|Tailwind,MistyTerrain,Moonblast,Encore|||M|||50|,,,,,Dark]Altaria||SitrusBerry|CloudNine|Protect,Haze,Thief,HelpingHand|||F|||50|,,,,,Steel
+|
+|t:|1756639608
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756639630
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1b: Gallade|Wide Guard|p1b: Gallade
+|-singleturn|p1b: Gallade|Wide Guard
+|move|p2a: Whimsicott|Misty Terrain|p2a: Whimsicott
+|-fieldstart|move: Misty Terrain
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1756639679
+|switch|p2b: Baxcalibur|Baxcalibur, L50, F|100/100
+|switch|p2a: Arcanine|Arcanine-Hisui, L50, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-fail|p1b: Gallade|unboost|[from] item: Clear Amulet|[of] p1b: Gallade
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Gallade|Sacred Sword|p2b: Baxcalibur
+|-supereffective|p2b: Baxcalibur
+|-damage|p2b: Baxcalibur|0 fnt
+|faint|p2b: Baxcalibur
+|
+|upkeep
+|
+|t:|1756639706
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|3
+|
+|t:|1756639779
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Ursaluna|Hyper Voice|p1b: Gallade|[spread] p1a,p1b
+|-damage|p1a: Indeedee|73/100
+|-damage|p1b: Gallade|61/100
+|-damage|p2b: Ursaluna|91/100|[from] item: Life Orb
+|move|p1b: Gallade|Sacred Sword|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|
+|upkeep
+|
+|t:|1756639790
+|switch|p2b: Arcanine|Arcanine-Hisui, L50, M|100/100
+|-ability|p2b: Arcanine|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-fail|p1b: Gallade|unboost|[from] item: Clear Amulet|[of] p1b: Gallade
+|turn|4
+|
+|t:|1756639813
+|-terastallize|p2b: Arcanine|Grass
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Gallade|Psycho Cut|p2a: Whimsicott
+|-damage|p2a: Whimsicott|33/100
+|move|p2b: Arcanine|Flare Blitz|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|-damage|p2b: Arcanine|77/100|[from] Recoil
+|move|p2a: Whimsicott|Moonblast|p1b: Gallade
+|-supereffective|p1b: Gallade
+|-crit|p1b: Gallade
+|-damage|p1b: Gallade|0 fnt
+|faint|p1b: Gallade
+|
+|upkeep
+|
+|t:|1756639822
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|switch|p1b: Exeggutor|Exeggutor, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|5
+|
+|t:|1756639838
+|-terastallize|p1a: Torkoal|Fire
+|move|p1a: Torkoal|Eruption|p2a: Whimsicott|[spread] p2a,p2b
+|-supereffective|p2a: Whimsicott
+|-supereffective|p2b: Arcanine
+|-damage|p2a: Whimsicott|0 fnt
+|-damage|p2b: Arcanine|0 fnt
+|faint|p2a: Whimsicott
+|faint|p2b: Arcanine
+|
+|win|Popfor
+||Popfor is ready for game 2.

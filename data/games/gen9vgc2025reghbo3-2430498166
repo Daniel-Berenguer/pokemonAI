@@ -1,0 +1,173 @@
+|j|☆Shoto.tx
+|j|‽Blazterq
+|html|Shoto.txBlazterq    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756401156
+|gametype|doubles
+|player|p1|Shoto.tx|169|1000
+|player|p2|Blazterq|102|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Gliscor, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Grimmsnarl||LightClay|Prankster|SpiritBreak,Reflect,LightScreen,ThunderWave|||M|||50|,,,,,Ghost]Archaludon||PowerHerb|Stalwart|ElectroShot,Thunderbolt,Protect,DracoMeteor|||M|||50|,,,,,Electric]Incineroar||SafetyGoggles|Intimidate|KnockOff,FlareBlitz,PartingShot,FakeOut|||F|||50|,,,,,Ghost]Pelipper||FocusSash|Drizzle|Tailwind,Protect,Hurricane,WeatherBall|||M|||50|,,,,,Ghost]Gliscor||ToxicOrb|PoisonHeal|Protect,SwordsDance,DualWingbeat,HighHorsepower|||F|||50|,,,,,Water]Sinistcha||AssaultVest|Hospitality|MatchaGotcha,Hex,Scald,ShadowBall||||||50|,,,,,Water
+|showteam|p2|Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||M|||50|,,,,,Fairy]Volcarona||CovertCloak|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||F|||50|,,,,,Fairy]Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Rillaboom||AssaultVest|GrassySurge|Uturn,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Water]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,FollowMe,Taunt,Protect|||M|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Steel
+|
+|t:|1756401188
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Gliscor|Gliscor, L50, F|100/100
+|switch|p2a: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Electabuzz|atk|1
+|-unboost|p2b: Volcarona|atk|1
+|turn|1
+|
+|t:|1756401217
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|move|p2b: Volcarona|Protect|p2b: Volcarona
+|-singleturn|p2b: Volcarona|Protect
+|move|p2a: Electabuzz|Protect|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|Protect
+|move|p1b: Gliscor|High Horsepower|p2a: Electabuzz
+|-activate|p2a: Electabuzz|move: Protect
+|
+|-status|p1b: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1756401238
+|switch|p2a: Dragonite|Dragonite, L50, M|100/100
+|-terastallize|p1b: Gliscor|Water
+|move|p1a: Grimmsnarl|Thunder Wave|p2b: Volcarona
+|-status|p2b: Volcarona|par
+|move|p1b: Gliscor|High Horsepower|p2a: Dragonite
+|-immune|p2a: Dragonite
+|cant|p2b: Volcarona|par
+|
+|upkeep
+|turn|3
+|
+|t:|1756401259
+|-terastallize|p2a: Dragonite|Fairy
+|move|p2a: Dragonite|Extreme Speed|p1b: Gliscor
+|-damage|p1b: Gliscor|72/100 tox
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Shoto.tx|move: Light Screen
+|move|p1b: Gliscor|Swords Dance|p1b: Gliscor
+|-boost|p1b: Gliscor|atk|2
+|cant|p2b: Volcarona|par
+|
+|-heal|p1b: Gliscor|84/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|t:|1756401277
+|move|p1a: Grimmsnarl|Light Screen||[still]
+|-fail|p1a: Grimmsnarl
+|move|p1b: Gliscor|Dual Wingbeat|p2b: Volcarona
+|-supereffective|p2b: Volcarona
+|-damage|p2b: Volcarona|4/100 par
+|-supereffective|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|faint|p2b: Volcarona
+|-hitcount|p2: Volcarona|2
+|move|p2a: Dragonite|Haze|p2a: Dragonite
+|-clearallboost
+|
+|-heal|p1b: Gliscor|96/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1756401290
+|switch|p2b: Electabuzz|Electabuzz, L50, M|100/100
+|turn|5
+|
+|t:|1756401299
+|move|p2a: Dragonite|Extreme Speed|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|58/100
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: Shoto.tx|Reflect
+|move|p1b: Gliscor|High Horsepower|p2b: Electabuzz
+|-supereffective|p2b: Electabuzz
+|-damage|p2b: Electabuzz|34/100
+|move|p2b: Electabuzz|Thunderbolt|p1b: Gliscor
+|-supereffective|p1b: Gliscor
+|-damage|p1b: Gliscor|37/100 tox
+|
+|-heal|p1b: Gliscor|49/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1756401323
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|-unboost|p2b: Electabuzz|atk|1
+|move|p1b: Gliscor|Protect|p1b: Gliscor
+|-singleturn|p1b: Gliscor|Protect
+|move|p2b: Electabuzz|Follow Me|p2b: Electabuzz
+|-singleturn|p2b: Electabuzz|move: Follow Me
+|move|p2a: Dragonite|Extreme Speed|p1b: Gliscor
+|-activate|p1b: Gliscor|move: Protect
+|
+|-heal|p1b: Gliscor|61/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1756401348
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|move|p2a: Dragonite|Protect|p2a: Dragonite
+|-singleturn|p2a: Dragonite|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Sneasler
+|-damage|p2b: Sneasler|75/100
+|move|p1b: Gliscor|Dual Wingbeat|p2a: Dragonite
+|-activate|p2a: Dragonite|move: Protect
+|
+|-heal|p1b: Gliscor|73/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|8
+|
+|t:|1756401378
+|move|p2a: Dragonite|Extreme Speed|p1b: Gliscor
+|-damage|p1b: Gliscor|58/100 tox
+|move|p2b: Sneasler|Dire Claw|p1b: Gliscor
+|-damage|p1b: Gliscor|32/100 tox
+|move|p1b: Gliscor|Dual Wingbeat|p2b: Sneasler
+|-supereffective|p2b: Sneasler
+|-damage|p2b: Sneasler|12/100
+|-supereffective|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|-hitcount|p2: Sneasler|2
+|move|p1a: Incineroar|Knock Off|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|87/100
+|-enditem|p2a: Dragonite|Loaded Dice|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-heal|p1b: Gliscor|44/100 tox|[from] ability: Poison Heal
+|upkeep
+|-message|Blazterq forfeited.
+|
+|win|Shoto.tx
+|raw|Shoto.tx's rating: 1000 → 1040(+40 for winning)
+|raw|Blazterq's rating: 1000 → 1000(+0 for losing)
+|l|‽Blazterq
+|player|p2|

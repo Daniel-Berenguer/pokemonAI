@@ -1,0 +1,204 @@
+|j|☆sparrow.d.ace
+|j|☆Waytiator
+|html|sparrow.d.aceWaytiator    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756413352
+|gametype|doubles
+|player|p1|sparrow.d.ace|ogreclan|1142
+|player|p2|Waytiator|linebacker|1056
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Flamigo, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|showteam|p1|Basculegion||ChoiceBand|SwiftSwim|WaveCrash,FlipTurn,LastRespects,AquaJet|||M|||50|,,,,,Water]Pelipper||CovertCloak|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Stellar]Archaludon||AssaultVest|Stamina|ElectroShot,DragonPulse,FlashCannon,BodyPress|||M|||50|,,,,,Bug]Sneasler||FocusSash|PoisonTouch|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Ghost]Rillaboom||MiracleSeed|GrassySurge|WoodHammer,GrassyGlide,Uturn,FakeOut|||M|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FakeOut,Taunt,KnockOff,PartingShot|||F|||50|,,,,,Ghost
+|showteam|p2|Flamigo||FocusSash|Scrappy|CloseCombat,BraveBird,Protect,WideGuard|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,Protect,NastyPlot||||||50|,,,,,Dragon]Incineroar||SafetyGoggles|Intimidate|KnockOff,FlareBlitz,FakeOut,PartingShot|||M|||50|,,,,,Grass]Amoonguss||MentalHerb|Regenerator|RagePowder,PollenPuff,Spore,SludgeBomb|||F|||50|,,,,,Water]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Ursaluna||FlameOrb|Guts|Earthquake,HeadlongRush,Protect,Facade|||M|||50|,,,,,Normal
+|
+|t:|1756413367
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Basculegion|Basculegion, L50, M, shiny|100/100
+|switch|p1b: Pelipper|Pelipper, L50, F, shiny|100/100
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|spa|1
+|turn|1
+|
+|t:|1756413391
+|-terastallize|p2a: Amoonguss|Water
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p1a: Basculegion|Flip Turn|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|72/100
+|
+|t:|1756413397
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100|[from] Flip Turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p1b: Pelipper|Hurricane|p2a: Amoonguss
+|-damage|p2a: Amoonguss|34/100
+|move|p2b: Porygon2|Trick Room|p2b: Porygon2
+|-fieldstart|move: Trick Room|[of] p2b: Porygon2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Amoonguss|40/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756413420
+|-terastallize|p1a: Rillaboom|Fire
+|move|p1a: Rillaboom|Grassy Glide|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|move|p2b: Porygon2|Ice Beam|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|79/100
+|move|p1b: Pelipper|Hurricane|p2b: Porygon2
+|-damage|p2b: Porygon2|72/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Porygon2|79/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|85/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756413432
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|3
+|
+|t:|1756413453
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Rillaboom|Grassy Glide|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|move|p2b: Porygon2|Tera Blast|p1a: Rillaboom
+|-damage|p1a: Rillaboom|32/100
+|move|p1b: Pelipper|Weather Ball|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Porygon2|85/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|38/100|[from] Grassy Terrain
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sparrow.d.ace)
+|
+|t:|1756413478
+|switch|p1b: Basculegion|Basculegion, L50, M, shiny|100/100
+|move|p1a: Rillaboom|Grassy Glide|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|32/100 brn
+|move|p2a: Ursaluna|Facade|p1b: Basculegion
+|-immune|p1b: Basculegion
+|move|p2b: Porygon2|Tera Blast|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ursaluna|38/100 brn|[from] Grassy Terrain
+|-heal|p2b: Porygon2|91/100|[from] Grassy Terrain
+|-damage|p2a: Ursaluna|32/100 brn|[from] brn
+|upkeep
+|
+|t:|1756413494
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2b: Porygon2|atk|1
+|turn|5
+|
+|t:|1756413510
+|move|p1a: Incineroar|Fake Out|p2a: Ursaluna
+|-damage|p2a: Ursaluna|25/100 brn
+|cant|p2a: Ursaluna|flinch
+|move|p2b: Porygon2|Ice Beam|p1b: Basculegion
+|-resisted|p1b: Basculegion
+|-damage|p1b: Basculegion|79/100
+|move|p1b: Basculegion|Wave Crash|p2b: Porygon2
+|-damage|p2b: Porygon2|9/100
+|-damage|p1b: Basculegion|53/100|[from] Recoil
+|
+|-weather|none
+|-heal|p2a: Ursaluna|31/100 brn|[from] Grassy Terrain
+|-heal|p2b: Porygon2|16/100|[from] Grassy Terrain
+|-heal|p1b: Basculegion|59/100|[from] Grassy Terrain
+|-damage|p2a: Ursaluna|25/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|j| Arkhept
+|l| Arkhept
+|inactive|Waytiator has 30 seconds left.
+|inactive|Waytiator has 20 seconds left.
+|inactive|Waytiator has 15 seconds left.
+|inactive|Waytiator has 10 seconds left.
+|inactive|Waytiator has 5 seconds left.
+|
+|t:|1756413561
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1b: Basculegion|Wave Crash|p2b: Porygon2
+|-damage|p2b: Porygon2|0 fnt
+|faint|p2b: Porygon2
+|-damage|p1b: Basculegion|54/100|[from] Recoil
+|move|p1a: Incineroar|Knock Off|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|
+|-damage|p2a: Ursaluna|19/100 brn|[from] brn
+|upkeep
+|
+|t:|1756413571
+|switch|p2b: Flamigo|Flamigo, L50, F|100/100
+|turn|7
+|inactive|sparrow.d.ace has 30 seconds left.
+|
+|t:|1756413599
+|switch|p1b: Pelipper|Pelipper, L50, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|move|p2b: Flamigo|Brave Bird|p1b: Pelipper
+|-damage|p1b: Pelipper|25/100
+|-damage|p2b: Flamigo|79/100|[from] Recoil
+|move|p1a: Incineroar|Knock Off|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-enditem|p2a: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2a: Ursaluna
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1756413619
+|move|p2b: Flamigo|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|8/100
+|-unboost|p2b: Flamigo|def|1
+|-unboost|p2b: Flamigo|spd|1
+|move|p1b: Pelipper|Hurricane|p2b: Flamigo
+|-supereffective|p2b: Flamigo
+|-damage|p2b: Flamigo|0 fnt
+|faint|p2b: Flamigo
+|
+|win|sparrow.d.ace
+|raw|sparrow.d.ace's rating: 1142 → 1161(+19 for winning)
+|raw|Waytiator's rating: 1056 → 1042(-14 for losing)
+|l|☆Waytiator
+|player|p2|

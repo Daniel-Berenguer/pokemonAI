@@ -1,0 +1,101 @@
+|j|☆TR Setter
+|j|☆don zaloog is real
+|html|TR Setterdon zaloog is real    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756237041
+|gametype|doubles
+|player|p1|TR Setter|zinzolin|1258
+|player|p2|don zaloog is real|collector|1324
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Electabuzz, L50, F|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|HelpingHand,Psychic,TrickRoom,FollowMe|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,WideGuard,TrickRoom|||M|||50|,,,,,Steel]Annihilape||ChoiceScarf|Defiant|FinalGambit,CloseCombat,RageFist,Uturn|||F|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,Protect,EarthPower|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,LowKick,Protect|||M|||50|,,,,,Dark
+|showteam|p2|Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Volcarona||GrassySeed|FlameBody|HeatWave,GigaDrain,QuiverDance,Protect|||F|||50|,,,,,Grass]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,Encore,Disable,Protect|||F|||50|,,,,,Ghost]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,AquaJet|||M|||50|,,,,,Dragon]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,FollowMe,Taunt,HelpingHand|||F|||50|,,,,,Fairy
+|
+|t:|1756237073
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Electabuzz|Electabuzz, L50, F|100/100
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756237085
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|move|p1a: Annihilape|Final Gambit|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|faint|p1a: Annihilape
+|faint|p2b: Volcarona
+|move|p2a: Electabuzz|Taunt|p1b: Hatterene
+|move|p1b: Hatterene|Taunt|p2a: Electabuzz|[from] ability: Magic Bounce
+|-start|p2a: Electabuzz|move: Taunt
+|
+|upkeep
+|
+|t:|1756237102
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|2
+|
+|t:|1756237112
+|move|p1a: Indeedee|Helping Hand|p1b: Hatterene
+|-singleturn|p1b: Hatterene|Helping Hand|[of] p1a: Indeedee
+|move|p2a: Electabuzz|Thunderbolt|p1b: Hatterene
+|-damage|p1b: Hatterene|69/100
+|move|p2b: Rillaboom|Wood Hammer|p1b: Hatterene
+|-damage|p1b: Hatterene|5/100
+|-damage|p2b: Rillaboom|84/100|[from] Recoil
+|move|p1b: Hatterene|Expanding Force|p2a: Electabuzz|[spread] p2a,p2b
+|-damage|p2a: Electabuzz|0 fnt
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2a: Electabuzz
+|faint|p2b: Rillaboom
+|-damage|p1b: Hatterene|0 fnt|[from] item: Life Orb
+|faint|p1b: Hatterene
+|
+|upkeep
+|
+|t:|1756237119
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|3
+|
+|t:|1756237126
+|move|p2b: Ninetales|Blizzard|p1a: Indeedee|[spread] p1a
+|-miss|p2b: Ninetales|p1b: Torkoal
+|-damage|p1a: Indeedee|75/100
+|move|p1a: Indeedee|Psychic|p2b: Ninetales
+|-crit|p2b: Ninetales
+|-damage|p2b: Ninetales|28/100
+|move|p1b: Torkoal|Weather Ball|p2b: Ninetales
+|-supereffective|p2b: Ninetales
+|-damage|p2b: Ninetales|0 fnt
+|faint|p2b: Ninetales
+|
+|win|TR Setter
+||don zaloog is real is ready for game 3.

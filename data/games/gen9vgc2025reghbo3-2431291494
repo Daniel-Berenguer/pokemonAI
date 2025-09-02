@@ -1,0 +1,140 @@
+|j|☆Johten
+|j|☆dannymanny2
+|html|Johtendannymanny2    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756497172
+|gametype|doubles
+|player|p1|Johten|veteran|1000
+|player|p2|dannymanny2|hilbert|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Jolteon, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Kingambit, L50, F|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Electabuzz, L50, F|
+|teampreview|4
+|showteam|p1|Jolteon||FocusSash|VoltAbsorb|Protect,HelpingHand,Electroweb,TeraBlast|||M|||50|,,,,,Ice]Gallade||ExpertBelt|Sharpness|Protect,SacredSword,PsychoCut,NightSlash|||M|||50|,,,,,Stellar]Indeedee-F||MentalHerb|PsychicSurge|Imprison,TrickRoom,FollowMe,HelpingHand|||F|||50|,,,,,Fairy]Incineroar||AssaultVest|Intimidate|FakeOut,Uturn,KnockOff,FlareBlitz|||F|||50|,,,,,Grass]Gholdengo||Leftovers|GoodasGold|Protect,NastyPlot,ShadowBall,MakeItRain||||||50|,,,,,Flying]Kingambit||SafetyGoggles|Defiant|Protect,ZenHeadbutt,KowtowCleave,IronHead|||F|||50|,,,,,Ghost
+|showteam|p2|Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,WideGuard,Tailwind|||F|||50|,,,,,Ground]Rillaboom||AssaultVest|GrassySurge|WoodHammer,HighHorsepower,FakeOut,GrassyGlide|||M|||50|,,,,,Fire]Gholdengo||Leftovers|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Sneasler||GrassySeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Volcarona||LifeOrb|FlameBody|FieryDance,GigaDrain,QuiverDance,Protect|||F|||50|,,,,,Grass]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1756497219
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jolteon|Jolteon, L50, M|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p2b: Sneasler|Grassy Seed
+|-boost|p2b: Sneasler|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1756497239
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-terastallize|p2b: Sneasler|Dark
+|-terastallize|p1b: Gallade|Stellar
+|move|p2a: Rillaboom|Fake Out|p1a: Indeedee
+|-activate|p1a: Indeedee|move: Psychic Terrain
+|move|p2b: Sneasler|Throat Chop|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|11/100
+|-start|p1a: Indeedee|Throat Chop|[silent]
+|move|p1b: Gallade|Sacred Sword|p2a: Rillaboom
+|-damage|p2a: Rillaboom|3/100
+|
+|upkeep
+|turn|2
+|
+|t:|1756497268
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Gallade|Sacred Sword|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Protect
+|move|p2a: Rillaboom|Wood Hammer|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|-damage|p2a: Rillaboom|0 fnt|[from] Recoil
+|faint|p2a: Rillaboom
+|
+|upkeep
+|
+|t:|1756497286
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Pelipper|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|turn|3
+|
+|t:|1756497299
+|move|p2b: Sneasler|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|27/100
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|move|p1b: Gallade|Sacred Sword|p2b: Sneasler
+|-supereffective|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|move|p2a: Pelipper|Weather Ball|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756497315
+|switch|p2b: Volcarona|Volcarona, L50, F, shiny|100/100
+|switch|p1a: Jolteon|Jolteon, L50, M|100/100
+|turn|4
+|
+|t:|1756497330
+|move|p1a: Jolteon|Helping Hand|p1b: Gallade
+|-singleturn|p1b: Gallade|Helping Hand|[of] p1a: Jolteon
+|move|p2a: Pelipper|Wide Guard|p2a: Pelipper
+|-singleturn|p2a: Pelipper|Wide Guard
+|move|p2b: Volcarona|Quiver Dance|p2b: Volcarona
+|-boost|p2b: Volcarona|spa|1
+|-boost|p2b: Volcarona|spd|1
+|-boost|p2b: Volcarona|spe|1
+|move|p1b: Gallade|Psycho Cut|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|faint|p2b: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1756497345
+|move|p1a: Jolteon|Electroweb|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-enditem|p2a: Pelipper|Focus Sash
+|-damage|p2a: Pelipper|1/100
+|-unboost|p2a: Pelipper|spe|1
+|move|p1b: Gallade|Night Slash|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|win|Johten
+|raw|Johten's rating: 1000 → 1040(+40 for winning)
+|raw|dannymanny2's rating: 1000 → 1000(+0 for losing)
+|c|☆Johten|gg
+|l|☆dannymanny2
+|player|p2|

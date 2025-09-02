@@ -1,0 +1,188 @@
+|j|☆Thenestball
+|j|☆OtterlyOverIt
+|html|ThenestballOtterlyOverIt    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756486266
+|gametype|doubles
+|player|p1|Thenestball|hiker-gen4|1061
+|player|p2|OtterlyOverIt|drayden|1111
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Weezing, L50, F|
+|poke|p1|Smeargle, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Yanma, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Dragapult, L50, M|
+|poke|p2|Kingambit, L50, M|
+|teampreview|4
+|showteam|p1|Weezing||SitrusBerry|NeutralizingGas|SludgeBomb,WillOWisp,Haze,Protect|||F|||50|,,,,,Grass]Smeargle||CovertCloak|Moody|Spore,FollowMe,Decorate,FakeOut|||F|||50|,,,,,Ghost]Garchomp||LifeOrb|RoughSkin|Earthquake,RockSlide,StompingTantrum,Protect|||F|||50|,,,,,Ground]Yanma||FocusSash|CompoundEyes|AirSlash,Screech,Tailwind,Hypnosis|||M|||50|,,,,,Bug]Gholdengo||Leftovers|GoodasGold|Protect,MakeItRain,NastyPlot,ShadowBall||||||50|,,,,,Dragon]Incineroar||AbilityShield|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Grass
+|showteam|p2|Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,HeatWave,FireBlast,ShadowBall|||M|||50|,,,,,Fire]Torkoal||Charcoal|Drought|Eruption,HeatWave,WeatherBall,Protect|||M|||50|,,,,,Fire]Whimsicott||CovertCloak|Prankster|Moonblast,Tailwind,SunnyDay,Encore|||F|||50|,,,,,Dark]Lilligant-Hisui||FocusSash|Chlorophyll|LeafBlade,CloseCombat,SleepPowder,AfterYou|||F|||50|,,,,,Dark]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,Uturn,SuckerPunch|||M|||50|,,,,,Dragon]Kingambit||BlackGlasses|Defiant|KowtowCleave,IronHead,SuckerPunch,Protect|||M|||50|,,,,,Dark
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Thenestball)
+|
+|t:|1756486297
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Weezing|Weezing, L50, F, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p2b: Dragapult|Dragapult, L50, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-block|p1b: Incineroar|item: Ability Shield
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Lilligant|atk|1
+|-unboost|p2b: Dragapult|atk|1
+|turn|1
+|
+|t:|1756486317
+|move|p2b: Dragapult|Phantom Force||[still]
+|-prepare|p2b: Dragapult|Phantom Force
+|move|p2a: Lilligant|Sleep Powder|p1b: Incineroar
+|-status|p1b: Incineroar|slp|[from] move: Sleep Powder
+|move|p1a: Weezing|Will-O-Wisp|p2a: Lilligant
+|-status|p2a: Lilligant|brn
+|cant|p1b: Incineroar|slp
+|
+|-damage|p2a: Lilligant|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1756486336
+|move|p2b: Dragapult|Phantom Force|p1b: Incineroar|[from] lockedmove
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|85/100 slp
+|move|p2a: Lilligant|Sleep Powder|p1a: Weezing
+|-status|p1a: Weezing|slp|[from] move: Sleep Powder
+|cant|p1a: Weezing|slp
+|cant|p1b: Incineroar|slp
+|
+|-damage|p2a: Lilligant|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1756486360
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|cant|p1a: Weezing|slp
+|cant|p1b: Incineroar|slp
+|
+|upkeep
+|turn|4
+|
+|t:|1756486376
+|switch|p2b: Dragapult|Dragapult, L50, M|100/100
+|-terastallize|p2a: Typhlosion|Fire
+|move|p2a: Typhlosion|Eruption|p1a: Weezing|[spread] p1a,p1b
+|-resisted|p1b: Incineroar
+|-damage|p1a: Weezing|0 fnt
+|-damage|p1b: Incineroar|31/100 slp
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-curestatus|p1b: Incineroar|slp|[msg]
+|move|p1b: Incineroar|Knock Off|p2a: Typhlosion
+|-damage|p2a: Typhlosion|45/100
+|-enditem|p2a: Typhlosion|Choice Specs|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|upkeep
+|
+|t:|1756486389
+|switch|p1a: Yanma|Yanma, L50, M|100/100
+|turn|5
+|
+|t:|1756486400
+|move|p2b: Dragapult|U-turn|p1a: Yanma
+|-resisted|p1a: Yanma
+|-damage|p1a: Yanma|67/100
+|
+|t:|1756486403
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|move|p1a: Yanma|Tailwind|p1a: Yanma
+|-sidestart|p1: Thenestball|move: Tailwind
+|move|p1b: Incineroar|Knock Off|p2b: Torkoal
+|-damage|p2b: Torkoal|73/100
+|-enditem|p2b: Torkoal|Charcoal|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2a: Typhlosion|Eruption|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Yanma
+|-resisted|p1b: Incineroar
+|-damage|p1a: Yanma|0 fnt
+|-damage|p1b: Incineroar|9/100
+|faint|p1a: Yanma
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756486418
+|switch|p1a: Garchomp|Garchomp, L50, F, shiny|100/100
+|turn|6
+|
+|t:|1756486428
+|-terastallize|p1a: Garchomp|Ground
+|move|p2b: Torkoal|Protect|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Protect
+|move|p1a: Garchomp|Earthquake|p2a: Typhlosion|[spread] p1b,p2a
+|-activate|p2b: Torkoal|move: Protect
+|-supereffective|p1b: Incineroar
+|-supereffective|p2a: Typhlosion
+|-damage|p1b: Incineroar|0 fnt
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p1b: Incineroar
+|faint|p2a: Typhlosion
+|-damage|p1a: Garchomp|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756486437
+|switch|p2a: Lilligant|Lilligant-Hisui, L50, F|88/100 brn
+|turn|7
+|
+|t:|1756486448
+|move|p1a: Garchomp|Earthquake|p2b: Torkoal|[spread] p2a,p2b
+|-resisted|p2a: Lilligant
+|-supereffective|p2b: Torkoal
+|-damage|p2a: Lilligant|37/100 brn
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|-damage|p1a: Garchomp|81/100|[from] item: Life Orb
+|move|p2a: Lilligant|Leaf Blade|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|37/100
+|-damage|p2a: Lilligant|25/100 brn|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Lilligant|19/100 brn|[from] brn
+|upkeep
+|
+|t:|1756486457
+|switch|p2b: Dragapult|Dragapult, L50, M|100/100
+|turn|8
+|
+|t:|1756486465
+|move|p2b: Dragapult|Sucker Punch|p1a: Garchomp
+|-damage|p1a: Garchomp|3/100
+|-damage|p2b: Dragapult|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|move|p1a: Garchomp|Earthquake|p2b: Dragapult|[spread] p2a,p2b
+|-resisted|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|-damage|p2b: Dragapult|0 fnt
+|faint|p2a: Lilligant
+|faint|p2b: Dragapult
+|-damage|p1a: Garchomp|0 fnt|[from] item: Life Orb
+|faint|p1a: Garchomp
+|
+|win|Thenestball
+|raw|Thenestball's rating: 1061 → 1096(+35 for winning)
+|raw|OtterlyOverIt's rating: 1111 → 1082(-29 for losing)
+|l|☆OtterlyOverIt
+|player|p2|

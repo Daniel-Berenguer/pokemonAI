@@ -1,0 +1,170 @@
+|j|☆EllaNoDejoDeCreer
+|j|☆captantan
+|html|EllaNoDejoDeCreercaptantan    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756223091
+|gametype|doubles
+|player|p1|EllaNoDejoDeCreer|266|1150
+|player|p2|captantan|102|1133
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Armarouge, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Archaludon, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Psychic]Torkoal||Charcoal|Drought|Eruption,WeatherBall,EarthPower,Protect|||M|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,CloseCombat,SleepPowder,AfterYou|||F|||50|,,,,,Ghost]Armarouge||PowerHerb|FlashFire|ExpandingForce,ArmorCannon,MeteorBeam,TrickRoom|||F|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Substitute,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Sinistcha||SitrusBerry|Hospitality|LifeDew,RagePowder,TrickRoom,MatchaGotcha||||||50|,,,,,Dark]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||M|||50|,,,,,Fairy]Pelipper||FocusSash|Drizzle|Protect,Hurricane,Tailwind,MuddyWater|||F|||50|,,,,,Ghost]Gholdengo||ChoiceScarf|GoodasGold|Trick,Protect,MakeItRain,ShadowBall||||||50|,,,,,Flying]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|FlashCannon,Snarl,ElectroShot,BodyPress|||M|||50|,,,,,Fighting
+|
+|t:|1756223131
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Armarouge|Armarouge, L50, F|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756223169
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100
+|-terastallize|p2a: Gholdengo|Flying
+|-terastallize|p1b: Armarouge|Grass
+|move|p2a: Gholdengo|Make It Rain|p1a: Indeedee|[spread] p1a,p1b
+|-crit|p1b: Armarouge
+|-damage|p1a: Indeedee|66/100
+|-damage|p1b: Armarouge|21/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p1b: Armarouge|Armor Cannon|p2a: Gholdengo
+|-damage|p2a: Gholdengo|19/100
+|-unboost|p1b: Armarouge|def|1
+|-unboost|p1b: Armarouge|spd|1
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1756223210
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Armarouge|Expanding Force|p2b: Archaludon|[spread] p2a,p2b
+|-resisted|p2b: Archaludon
+|-damage|p2a: Gholdengo|0 fnt
+|-damage|p2b: Archaludon|75/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|faint|p2a: Gholdengo
+|move|p2b: Archaludon|Snarl|p1b: Armarouge|[spread] p1a,p1b
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|50/100
+|-damage|p1b: Armarouge|1/100
+|-unboost|p1a: Indeedee|spa|1
+|-unboost|p1b: Armarouge|spa|1
+|
+|upkeep
+|
+|t:|1756223219
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|3
+|
+|t:|1756223241
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Armarouge|Expanding Force|p2a: Ursaluna|[spread] p2b
+|-activate|p2a: Ursaluna|move: Protect
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|57/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2b: Archaludon|Snarl|p1b: Armarouge|[spread] p1a,p1b
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|33/100
+|-damage|p1b: Armarouge|0 fnt
+|-unboost|p1a: Indeedee|spa|1
+|faint|p1b: Armarouge
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756223258
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|4
+|
+|t:|1756223277
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Indeedee|Helping Hand|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Torkoal|Eruption|p2a: Pelipper|[spread] p2a,p2b
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|66/100
+|-damage|p2b: Archaludon|23/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2b: Archaludon|Snarl|p1b: Torkoal|[spread] p1a
+|-miss|p2b: Archaludon|p1b: Torkoal
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|17/100
+|-unboost|p1a: Indeedee|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1756223327
+|move|p1a: Indeedee|Helping Hand|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Torkoal|Eruption|p2b: Archaludon|[spread] p2a,p2b
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|26/100
+|-damage|p2b: Archaludon|0 fnt
+|faint|p2b: Archaludon
+|move|p2a: Pelipper|Muddy Water|p1b: Torkoal|[spread] p1a,p1b
+|-supereffective|p1b: Torkoal
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1a: Indeedee
+|faint|p1b: Torkoal
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756223341
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100 brn
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|6
+|
+|t:|1756223351
+|move|p2a: Pelipper|Hurricane|p1b: Ursaluna
+|-damage|p1b: Ursaluna|58/100
+|move|p2b: Ursaluna|Facade|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|
+|win|captantan
+||EllaNoDejoDeCreer is ready for game 2.
+||captantan is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆EllaNoDejoDeCreer
+|player|p1|

@@ -1,0 +1,175 @@
+|j|☆Damesio John
+|j|☆Kurolax
+|html|Damesio JohnKurolax    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756509400
+|gametype|doubles
+|player|p1|Damesio John|cyrus|1041
+|player|p2|Kurolax|266|1056
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Zoroark-Hisui, L50, M|
+|poke|p1|Exeggutor, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Dragonite, L50, M|
+|teampreview|4
+|showteam|p1|Torkoal||Charcoal|Drought|Eruption,ClearSmog,Protect,WeatherBall|||M|||50|,,,,,Fire]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,Psychic,FollowMe,HelpingHand|||F|||50|,,,,,Grass]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,WideGuard,SacredSword|||M|||50|,,,,,Fire]Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,Flamethrower,ShadowBall,TeraBlast|||M|||50|,,,,,Stellar]Exeggutor||FocusSash|Chlorophyll|TrickRoom,ExpandingForce,EnergyBall,SleepPowder|||M|||50|,,,,,Psychic]Ursaluna||FlameOrb|Guts|Facade,Protect,Earthquake,HeadlongRush|||M|||50|,,,,,Ghost
+|showteam|p2|Volcarona||GrassySeed|FlameBody|QuiverDance,HeatWave,TeraBlast,BugBuzz|||F|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||F|||50|,,,,,Flying]Rillaboom||MiracleSeed|GrassySurge|KnockOff,Uturn,GrassyGlide,FakeOut|||M|||50|,,,,,Grass]Primarina||SitrusBerry|LiquidVoice|HyperVoice,Moonblast,CalmMind,Protect|||M|||50|,,,,,Poison]Sneasler||WhiteHerb|Unburden|DireClaw,FakeOut,ThroatChop,CloseCombat|||M|||50|,,,,,Dark]Dragonite||ClearAmulet|Multiscale|Tailwind,Haze,StompingTantrum,IceSpinner|||M|||50|,,,,,Fairy
+|
+|t:|1756509424
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Exeggutor|Exeggutor, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Dragonite|Dragonite, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756509463
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-terastallize|p1a: Exeggutor|Stellar
+|move|p1a: Exeggutor|Hyper Voice|p2b: Dragonite|[spread] p2a,p2b
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|89/100
+|-damage|p2b: Dragonite|68/100
+|move|p2b: Dragonite|Ice Spinner|p1a: Exeggutor
+|-damage|p1a: Exeggutor|31/100
+|replace|p1a: Zoroark|Zoroark-Hisui, L50, M
+|-end|p1a: Zoroark|Illusion
+|-fieldend|move: Psychic Terrain
+|move|p1b: Indeedee|Psychic|p2a: Tyranitar
+|-immune|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zoroark|25/100|[from] Sandstorm
+|-damage|p2b: Dragonite|62/100|[from] Sandstorm
+|-damage|p1b: Indeedee|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1756509496
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Zoroark|Hyper Voice|p2a: Tyranitar|[spread] p2a,p2b
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|81/100
+|-damage|p2b: Dragonite|14/100
+|move|p2b: Dragonite|Stomping Tantrum|p1b: Indeedee
+|-damage|p1b: Indeedee|65/100
+|move|p2a: Tyranitar|Knock Off|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|4/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zoroark|19/100|[from] Sandstorm
+|-damage|p2b: Dragonite|8/100|[from] Sandstorm
+|-damage|p1b: Indeedee|0 fnt|[from] Sandstorm
+|faint|p1b: Indeedee
+|upkeep
+|
+|t:|1756509518
+|switch|p1b: Exeggutor|Exeggutor, L50, M|100/100
+|turn|3
+|
+|t:|1756509541
+|move|p1a: Zoroark|Hyper Voice|p2a: Tyranitar|[spread] p2a,p2b
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|72/100
+|-damage|p2b: Dragonite|0 fnt
+|faint|p2b: Dragonite
+|move|p1b: Exeggutor|Sleep Powder|p2a: Tyranitar
+|-status|p2a: Tyranitar|slp|[from] move: Sleep Powder
+|cant|p2a: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zoroark|13/100|[from] Sandstorm
+|-damage|p1b: Exeggutor|95/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756509549
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|turn|4
+|
+|t:|1756509583
+|-terastallize|p2a: Tyranitar|Flying
+|move|p2b: Sneasler|Fake Out|p1a: Zoroark
+|-immune|p1a: Zoroark
+|move|p1a: Zoroark|Hyper Voice|p2a: Tyranitar|[spread] p2a,p2b
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|35/100 slp
+|-damage|p2b: Sneasler|33/100
+|move|p1b: Exeggutor|Energy Ball|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|22/100 slp
+|cant|p2a: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Zoroark|7/100|[from] Sandstorm
+|-damage|p2b: Sneasler|27/100|[from] Sandstorm
+|-damage|p1b: Exeggutor|89/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|16/100 slp|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1756509604
+|move|p1a: Zoroark|Hyper Voice|p2b: Sneasler|[spread] p2a,p2b
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2a: Tyranitar
+|faint|p2b: Sneasler
+|move|p1b: Exeggutor|Trick Room|p1b: Exeggutor
+|-fieldstart|move: Trick Room|[of] p1b: Exeggutor
+|
+|-weather|none
+|upkeep
+|
+|t:|1756509607
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|6
+|
+|t:|1756509621
+|move|p2b: Rillaboom|Grassy Glide|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|move|p1b: Exeggutor|Expanding Force|p2b: Rillaboom
+|-damage|p2b: Rillaboom|44/100
+|
+|-heal|p1b: Exeggutor|95/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|50/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756509630
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|7
+|
+|t:|1756509638
+|move|p1a: Torkoal|Weather Ball|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|
+|win|Damesio John
+|raw|Damesio John's rating: 1041 → 1076(+35 for winning)
+|raw|Kurolax's rating: 1056 → 1037(-19 for losing)
+|l|☆Kurolax
+|player|p2|

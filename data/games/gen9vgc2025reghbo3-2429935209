@@ -1,0 +1,177 @@
+|j|☆hikkoritikkori
+|j|☆alphaaaaaa
+|html|hikkoritikkorialphaaaaaa    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756326969
+|gametype|doubles
+|player|p1|hikkoritikkori|265|1190
+|player|p2|alphaaaaaa|1|1112
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Porygon2, L50|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Gastrodon, L50, M|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|showteam|p1|Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Ground]Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,Coaching,Protect|||M|||50|,,,,,Flying]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Fairy]Garchomp||ClearAmulet|RoughSkin|Earthquake,StompingTantrum,DragonClaw,Protect|||F|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost
+|showteam|p2|Whimsicott||FocusSash|Prankster|Moonblast,Tailwind,SunnyDay,Protect|||F|||50|,,,,,Ghost]Typhlosion-Hisui||Charcoal|Blaze|Eruption,Flamethrower,ShadowBall,Protect|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Protect,Earthquake|||F|||50|,,,,,Ghost]Gastrodon||CovertCloak|StormDrain|EarthPower,IceBeam,ClearSmog,Protect|||M|||50|,,,,,Fairy]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,Uturn,PsychicFangs|||F|||50|,,,,,Dragon]Farigiraf||SafetyGoggles|ArmorTail|TrickRoom,HelpingHand,Protect,Psychic|||M|||50|,,,,,Fairy
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by alphaaaaaa)
+|
+|t:|1756326989
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2a: Dragapult|Dragapult, L50, F|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
+|-unboost|p2b: Farigiraf|atk|1
+|turn|1
+|
+|t:|1756327002
+|move|p2a: Dragapult|U-turn|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|86/100
+|
+|t:|1756327010
+|switch|p2a: Gastrodon|Gastrodon, L50, M|100/100|[from] U-turn
+|move|p1a: Sneasler|Dire Claw|p2a: Gastrodon
+|-resisted|p2a: Gastrodon
+|-damage|p2a: Gastrodon|82/100
+|move|p2b: Farigiraf|Psychic|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|move|p1b: Incineroar|Knock Off|p2a: Gastrodon
+|-damage|p2a: Gastrodon|42/100
+|-enditem|p2a: Gastrodon|Covert Cloak|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|upkeep
+|
+|t:|1756327020
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|turn|2
+|
+|t:|1756327037
+|move|p2a: Gastrodon|Protect|p2a: Gastrodon
+|-singleturn|p2a: Gastrodon|Protect
+|move|p1a: Gholdengo|Shadow Ball|p2a: Gastrodon
+|-activate|p2a: Gastrodon|move: Protect
+|move|p1b: Incineroar|Knock Off|p2b: Farigiraf
+|-supereffective|p2b: Farigiraf
+|-damage|p2b: Farigiraf|36/100
+|-enditem|p2b: Farigiraf|Safety Goggles|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|upkeep
+|turn|3
+|
+|t:|1756327059
+|-terastallize|p1a: Gholdengo|Water
+|move|p2b: Farigiraf|Helping Hand|p2a: Gastrodon
+|-singleturn|p2a: Gastrodon|Helping Hand|[of] p2b: Farigiraf
+|move|p2a: Gastrodon|Earth Power|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|14/100
+|move|p1b: Incineroar|Knock Off|p2b: Farigiraf
+|-supereffective|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|upkeep
+|
+|t:|1756327069
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|4
+|
+|t:|1756327090
+|switch|p1b: Porygon2|Porygon2, L50|100/100
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|spa|1
+|move|p2a: Gastrodon|Clear Smog|p1a: Gholdengo
+|-damage|p1a: Gholdengo|88/100
+|-clearboost|p1a: Gholdengo
+|move|p2b: Ursaluna|Earthquake|p1a: Gholdengo|[spread] p2a,p1a,p1b
+|-damage|p2a: Gastrodon|4/100
+|-damage|p1a: Gholdengo|52/100
+|-damage|p1b: Porygon2|73/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Gastrodon|[spread] p2a,p2b
+|-resisted|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|-damage|p2b: Ursaluna|48/100
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Gastrodon
+|-damage|p1a: Gholdengo|43/100|[from] item: Life Orb
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756327107
+|switch|p2a: Dragapult|Dragapult, L50, F|100/100
+|turn|5
+|inactive|alphaaaaaa has 30 seconds left.
+|inactive|alphaaaaaa has 20 seconds left.
+|
+|t:|1756327142
+|-terastallize|p2a: Dragapult|Dragon
+|move|p1b: Porygon2|Ice Beam|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|move|p2b: Ursaluna|Facade|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-damage|p2b: Ursaluna|42/100 brn|[from] brn
+|upkeep
+|
+|t:|1756327152
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|14/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2b: Ursaluna|atk|1
+|turn|6
+|
+|t:|1756327165
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|move|p1b: Porygon2|Recover|p1b: Porygon2
+|-heal|p1b: Porygon2|100/100
+|
+|-damage|p2b: Ursaluna|36/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1756327179
+|move|p2b: Ursaluna|Earthquake|p1a: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Porygon2|75/100
+|faint|p1a: Incineroar
+|move|p1b: Porygon2|Ice Beam|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|
+|win|hikkoritikkori
+|raw|hikkoritikkori's rating: 1190 → 1209(+19 for winning)
+|raw|alphaaaaaa's rating: 1112 → 1093(-19 for losing)

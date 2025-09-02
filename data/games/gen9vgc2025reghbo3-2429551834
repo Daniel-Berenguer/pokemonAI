@@ -1,0 +1,100 @@
+|j|☆KrsCrossAppleSauce
+|j|☆Lstdnce
+|html|KrsCrossAppleSauceLstdnce    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756284337
+|gametype|doubles
+|player|p1|KrsCrossAppleSauce|green|1183
+|player|p2|Lstdnce|169|1240
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Arcanine-Hisui, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||FocusSash|PoisonTouch|FakeOut,DireClaw,CloseCombat,Protect|||F|||50|,,,,,Dark]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Dondozo||Leftovers|Unaware|WaveCrash,Yawn,Fissure,Protect|||M|||50|,,,,,Psychic]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,Uturn|||M|||50|,,,,,Fire]Volcarona||CovertCloak|FlameBody|HeatWave,QuiverDance,TeraBlast,Protect|||M|||50|,,,,,Fairy]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,FollowMe,Taunt,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Ursaluna-Bloodmoon||LifeOrb|MindsEye|Protect,BloodMoon,HyperVoice,EarthPower|||M|||50|,,,,,Normal]Farigiraf||SafetyGoggles|ArmorTail|Uproar,PsychicNoise,HelpingHand,TrickRoom|||F|||50|,,,,,Water]Arcanine-Hisui||ChoiceBand|RockHead|ExtremeSpeed,FlareBlitz,RockSlide,HeadSmash|||M|||50|,,,,,Normal]Basculegion||ChoiceScarf|Adaptability|FlipTurn,WaveCrash,LastRespects,AquaJet|||M|||50|,,,,,Water]Electabuzz||Eviolite|VitalSpirit|Protect,Electroweb,Taunt,FollowMe|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|GrassyGlide,WoodHammer,FakeOut,Uturn|||M|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lstdnce)
+|inactive|KrsCrossAppleSauce has 60 seconds left.
+|
+|t:|1756284384
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2a: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p2b: Arcanine|Arcanine-Hisui, L50, M|100/100
+|turn|1
+|
+|t:|1756284404
+|move|p1b: Sneasler|Fake Out|p2b: Arcanine
+|-resisted|p2b: Arcanine
+|-damage|p2b: Arcanine|92/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|cant|p2b: Arcanine|flinch
+|move|p2a: Electabuzz|Electroweb|p1a: Volcarona|[spread] p1a,p1b
+|-damage|p1a: Volcarona|92/100
+|-damage|p1b: Sneasler|81/100
+|-unboost|p1b: Sneasler|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1756284417
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p2a: Electabuzz|Follow Me|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|move: Follow Me
+|move|p2b: Arcanine|Flare Blitz|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|
+|-heal|p1a: Volcarona|98/100|[from] Grassy Terrain
+|-heal|p2b: Arcanine|98/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756284425
+|switch|p1b: Sneasler|Sneasler, L50, F|81/100
+|turn|3
+|
+|t:|1756284442
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|move|p1b: Sneasler|Fake Out||[still]
+|cant|p2a: Farigiraf|ability: Armor Tail|Fake Out|[of] p1b: Sneasler
+|move|p1a: Volcarona|Heat Wave|p2a: Farigiraf|[spread] p2a,p2b
+|-resisted|p2b: Arcanine
+|-damage|p2a: Farigiraf|57/100
+|-damage|p2b: Arcanine|81/100
+|move|p2b: Arcanine|Flare Blitz|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|
+|-heal|p1b: Sneasler|87/100|[from] Grassy Terrain
+|-heal|p2b: Arcanine|86/100|[from] Grassy Terrain
+|-heal|p2a: Farigiraf|63/100|[from] Grassy Terrain
+|upkeep
+|-message|KrsCrossAppleSauce forfeited.
+|
+|win|Lstdnce
+|raw|KrsCrossAppleSauce's rating: 1183 → 1162(-21 for losing)
+|raw|Lstdnce's rating: 1240 → 1261(+21 for winning)

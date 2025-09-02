@@ -1,0 +1,109 @@
+|j|☆joshez
+|j|☆Rosarino
+|html|joshezRosarino    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756428369
+|gametype|doubles
+|player|p1|joshez|2|1028
+|player|p2|Rosarino|drayden|1099
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Comfey, L50, F|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Hawlucha, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Baxcalibur, L50, F|
+|teampreview|4
+|showteam|p1|Amoonguss||SitrusBerry|Regenerator|RagePowder,Spore,PollenPuff,Protect|||F|||50|,,,,,Psychic]Sneasler||FocusSash|Unburden|Protect,DireClaw,CloseCombat,ThroatChop|||F|||50|,,,,,Stellar]Gholdengo||LifeOrb|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|KnockOff,PartingShot,FlareBlitz,FakeOut|||F|||50|,,,,,Ghost]Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,EarthPower,VacuumWave,HyperVoice|||M|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy
+|showteam|p2|Comfey||CovertCloak|Triage|DazzlingGleam,LeechSeed,FloralHealing,Tailwind|||F|||50|,,,,,Steel]Volcarona||WhiteHerb|FlameBody|Overheat,BugBuzz,Protect,QuiverDance|||F|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|FakeOut,HighHorsepower,WoodHammer,GrassyGlide|||M|||50|,,,,,Poison]Hawlucha||FocusSash|MoldBreaker|FlyingPress,Protect,BulkUp,BraveBird|||M|||50|,,,,,Fighting]Porygon2||Eviolite|Trace|Recover,TeraBlast,Protect,IceBeam||||||50|,,,,,Ground]Baxcalibur||ClearAmulet|ThermalExchange|DragonDance,GlaiveRush,Protect,Earthquake|||F|||50|,,,,,Poison
+|
+|t:|1756428393
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Volcarona|Volcarona, L50, F|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p2a: Volcarona|White Herb
+|-clearnegativeboost|p2a: Volcarona|[silent]
+|turn|1
+|
+|t:|1756428413
+|move|p1a: Incineroar|Fake Out|p2a: Volcarona
+|-damage|p2a: Volcarona|85/100
+|move|p2b: Rillaboom|Fake Out|p1a: Incineroar
+|-damage|p1a: Incineroar|91/100
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|cant|p2a: Volcarona|flinch
+|
+|-heal|p2a: Volcarona|92/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|97/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756428435
+|-terastallize|p1a: Incineroar|Ghost
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Incineroar|Flare Blitz|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-crit|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|-damage|p1a: Incineroar|68/100|[from] Recoil
+|
+|-heal|p2a: Volcarona|98/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|74/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756428457
+|switch|p2b: Hawlucha|Hawlucha, L50, M|100/100
+|-ability|p2b: Hawlucha|Mold Breaker
+|turn|3
+|
+|t:|1756428469
+|move|p2a: Volcarona|Overheat|p1b: Gholdengo|[miss]
+|-miss|p2a: Volcarona|p1b: Gholdengo
+|move|p2b: Hawlucha|Brave Bird|p1a: Incineroar
+|-damage|p1a: Incineroar|19/100
+|-damage|p2b: Hawlucha|76/100|[from] Recoil
+|move|p1b: Gholdengo|Make It Rain|p2b: Hawlucha|[spread] p2a,p2b
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|40/100
+|-damage|p2b: Hawlucha|0 fnt
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2b: Hawlucha
+|-damage|p1b: Gholdengo|91/100|[from] item: Life Orb
+|move|p1a: Incineroar|Knock Off|p2a: Volcarona
+|-damage|p2a: Volcarona|5/100
+|
+|-heal|p2a: Volcarona|11/100|[from] Grassy Terrain
+|-heal|p1b: Gholdengo|97/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|25/100|[from] Grassy Terrain
+|upkeep
+|-message|Rosarino forfeited.
+|
+|win|joshez
+|raw|joshez's rating: 1028 → 1071(+43 for winning)
+|raw|Rosarino's rating: 1099 → 1069(-30 for losing)

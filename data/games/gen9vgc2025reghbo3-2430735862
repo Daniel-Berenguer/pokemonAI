@@ -1,0 +1,152 @@
+|j|☆battle sim trainer
+|j|‽BigZorby
+|html|battle sim trainerBigZorby    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756425792
+|gametype|doubles
+|player|p1|battle sim trainer|will|1066
+|player|p2|BigZorby|265|1062
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Raichu-Alola, L50, M|
+|poke|p1|Toxtricity-Low-Key, L50, M|
+|poke|p1|Pincurchin, L50, M|
+|poke|p1|Araquanid, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Bronzong, L50|
+|poke|p2|Oranguru, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Hydreigon, L50, M|
+|teampreview|4
+|showteam|p1|Raichu-Alola||FocusSash|SurgeSurfer|Thunderbolt,VoltSwitch,FakeOut,ExpandingForce|||M|||50|,,,,,Ghost]Toxtricity-Low-Key||ChoiceSpecs|PunkRock|Overdrive,SludgeWave,Boomburst,Protect|||M|||50|,,,,,Electric]Pincurchin||EjectButton|ElectricSurge|SuckerPunch,RainDance,ZingZap,Protect|||M|||50|,,,,,Ghost]Araquanid||MysticWater|WaterBubble|Liquidation,WideGuard,Soak,Protect|||F|||50|,,,,,Water]Indeedee-F||MentalHerb|PsychicSurge|FollowMe,HelpingHand,TrickRoom,Psychic|||F|||50|,,,,,Ghost]Bronzong||ElectricSeed|Levitate|BodyPress,TrickRoom,Protect,IronDefense||||||50|,,,,,Fire
+|showteam|p2|Oranguru||MentalHerb|InnerFocus|TrickRoom,Protect,Instruct,Encore|||M|||50|,,,,,Grass]Torkoal||Charcoal|Drought|BodyPress,Protect,Eruption,Overheat|||M|||50|,,,,,Fire]Indeedee-F||PsychicSeed|PsychicSurge|BatonPass,Protect,FollowMe,HelpingHand|||F|||50|,,,,,Psychic]Gholdengo||LifeOrb|GoodasGold|NastyPlot,ShadowBall,MakeItRain,Protect||||||50|,,,,,Water]Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||F|||50|,,,,,Ghost]Hydreigon||ChoiceSpecs|Levitate|DracoMeteor,HeatWave,DarkPulse,FlashCannon|||M|||50|,,,,,Steel
+|
+|t:|1756425820
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Surfer dude|Raichu-Alola, L50, M|100/100
+|switch|p1b: Hug me|Bronzong, L50, shiny|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756425849
+|move|p1b: Hug me|Protect|p1b: Hug me
+|-singleturn|p1b: Hug me|Protect
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Surfer dude|Expanding Force|p2b: Indeedee|[spread] p2a,p2b
+|-resisted|p2a: Gholdengo
+|-resisted|p2b: Indeedee
+|-damage|p2a: Gholdengo|70/100
+|-damage|p2b: Indeedee|84/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1756425874
+|-terastallize|p1b: Hug me|Fire
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Surfer dude|Volt Switch|p2b: Indeedee
+|-damage|p2b: Indeedee|64/100
+|
+|t:|1756425894
+|switch|p1a: Spoderman|Araquanid, L50, F, shiny|100/100|[from] Volt Switch
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1b: Hug me|Trick Room|p1b: Hug me
+|-fieldstart|move: Trick Room|[of] p1b: Hug me
+|
+|upkeep
+|turn|3
+|
+|t:|1756425922
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Hug me|Iron Defense|p1b: Hug me
+|-boost|p1b: Hug me|def|2
+|move|p1a: Spoderman|Liquidation|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p2a: Gholdengo|Shadow Ball|p1b: Hug me
+|-damage|p1b: Hug me|0 fnt
+|faint|p1b: Hug me
+|-damage|p2a: Gholdengo|60/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756425949
+|switch|p1b: Thorn|Pincurchin, L50, M|100/100
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1b: Thorn
+|turn|4
+|
+|t:|1756425981
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1b: Thorn|Rain Dance|p1b: Thorn
+|-weather|RainDance
+|move|p1a: Spoderman|Liquidation|p2a: Gholdengo
+|-activate|p2a: Gholdengo|move: Protect
+|move|p2b: Ursaluna|Headlong Rush|p1b: Thorn
+|-supereffective|p1b: Thorn
+|-damage|p1b: Thorn|0 fnt
+|-unboost|p2b: Ursaluna|def|1
+|-unboost|p2b: Ursaluna|spd|1
+|faint|p1b: Thorn
+|
+|-weather|RainDance|[upkeep]
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756425990
+|switch|p1b: Surfer dude|Raichu-Alola, L50, M|100/100
+|turn|5
+|
+|t:|1756426029
+|-terastallize|p2b: Ursaluna|Ghost
+|move|p1b: Surfer dude|Fake Out|p2b: Ursaluna
+|-immune|p2b: Ursaluna
+|move|p1a: Spoderman|Liquidation|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|move|p2b: Ursaluna|Facade|p1a: Spoderman
+|-damage|p1a: Spoderman|0 fnt
+|faint|p1a: Spoderman
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756426041
+|switch|p2a: Hydreigon|Hydreigon, L50, M|100/100
+|turn|6
+|
+|t:|1756426049
+|move|p2b: Ursaluna|Facade|p1b: Surfer dude
+|-enditem|p1b: Surfer dude|Focus Sash
+|-damage|p1b: Surfer dude|1/100
+|move|p2a: Hydreigon|Dark Pulse|p1b: Surfer dude
+|-supereffective|p1b: Surfer dude
+|-damage|p1b: Surfer dude|0 fnt
+|faint|p1b: Surfer dude
+|
+|win|BigZorby
+||BigZorby is ready for game 3.
+|inactive|battle sim trainer has 30 seconds to confirm battle start!
+|inactive|battle sim trainer has 20 seconds to confirm battle start!
+|inactive|battle sim trainer has 10 seconds to confirm battle start!

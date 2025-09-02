@@ -1,0 +1,151 @@
+|j|☆J.A.S.31
+|j|☆Swami
+|html|J.A.S.31Swami    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756335115
+|gametype|doubles
+|player|p1|J.A.S.31|kieran-champion|1000
+|player|p2|Swami|cyrus|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Excadrill, L50, F|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Annihilape, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Kingambit, L50, M|
+|teampreview|4
+|showteam|p1|Excadrill||FocusSash|SandRush|IronHead,Earthquake,HighHorsepower,Protect|||F|||50|,,,,,Stellar]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Roost,Tailwind|||F|||50|,,,,,Dragon]Annihilape||SafetyGoggles|Defiant|RageFist,CloseCombat,FinalGambit,Taunt|||M|||50|,,,,,Water
+|showteam|p2|Pelipper||CovertCloak|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|||F|||50|,,,,,Electric]Basculegion||LifeOrb|SwiftSwim|WaveCrash,LastRespects,Protect,AquaJet|||M|||50|,,,,,Water]Archaludon||AssaultVest|Stamina|FlashCannon,ElectroShot,BodyPress,DragonPulse|||M|||50|,,,,,Grass]Amoonguss||SitrusBerry|Regenerator|Spore,PollenPuff,ClearSmog,RagePowder|||M|||50|,,,,,Psychic]Sneasler||FocusSash|Unburden|DireClaw,CloseCombat,FakeOut,Protect|||F|||50|,,,,,Stellar]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark
+|j| meepmoop453
+|
+|t:|1756335185
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756335237
+|-terastallize|p2a: Amoonguss|Psychic
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1b: Sneasler|Dire Claw|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|42/100
+|-enditem|p2a: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2a: Amoonguss|67/100|[from] item: Sitrus Berry
+|move|p1a: Indeedee|Expanding Force|p2b: Sneasler|[spread] p2a
+|-activate|p2b: Sneasler|move: Protect
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|40/100
+|move|p2a: Amoonguss|Spore|p1b: Sneasler
+|-status|p1b: Sneasler|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1756335267
+|cant|p1b: Sneasler|slp
+|move|p1a: Indeedee|Expanding Force|p2b: Sneasler|[spread] p2a,p2b
+|-resisted|p2a: Amoonguss
+|-supereffective|p2b: Sneasler
+|-damage|p2a: Amoonguss|17/100
+|-enditem|p2b: Sneasler|Focus Sash
+|-damage|p2b: Sneasler|1/100
+|move|p2b: Sneasler|Dire Claw|p1a: Indeedee
+|-damage|p1a: Indeedee|5/100
+|-status|p1a: Indeedee|slp
+|move|p2a: Amoonguss|Pollen Puff|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|t:|1756335288
+|switch|p1a: Excadrill|Excadrill, L50, F|100/100
+|turn|3
+|
+|t:|1756335307
+|switch|p2a: Pelipper|Pelipper, L50, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p2b: Sneasler|Close Combat|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-enditem|p1a: Excadrill|Focus Sash
+|-damage|p1a: Excadrill|1/100
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|-curestatus|p1b: Sneasler|slp|[msg]
+|move|p1b: Sneasler|Dire Claw|p2b: Sneasler
+|-resisted|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|move|p1a: Excadrill|Iron Head|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|74/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756335328
+|switch|p2b: Basculegion|Basculegion, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1756335359
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-terastallize|p1b: Sneasler|Dark
+|move|p2b: Basculegion|Protect|p2b: Basculegion
+|-singleturn|p2b: Basculegion|Protect
+|move|p1b: Sneasler|Throat Chop|p2b: Basculegion
+|-activate|p2b: Basculegion|move: Protect
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: Swami|move: Tailwind
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Sneasler|95/100|[from] Sandstorm
+|-damage|p2b: Basculegion|94/100|[from] Sandstorm
+|-damage|p2a: Pelipper|68/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1756335404
+|switch|p2a: Amoonguss|Amoonguss, L50, M, shiny, tera:Psychic|50/100
+|move|p1b: Sneasler|Throat Chop|p2b: Basculegion
+|-supereffective|p2b: Basculegion
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|move|p1a: Tyranitar|Knock Off|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Sneasler|89/100|[from] Sandstorm
+|-fieldend|move: Psychic Terrain
+|upkeep
+|-message|Swami forfeited.
+|
+|win|J.A.S.31
+|l|☆Swami
+|player|p2|
+||Swami is ready for game 2.
+||J.A.S.31 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

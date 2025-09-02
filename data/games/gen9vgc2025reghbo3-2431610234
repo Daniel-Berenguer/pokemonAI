@@ -1,0 +1,112 @@
+|j|☆jonen
+|j|☆dperez2552
+|html|jonendperez2552    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756544419
+|gametype|doubles
+|player|p1|jonen|ruinmaniac-gen3|1176
+|player|p2|dperez2552|101|1067
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Weezing-Galar, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ceruledge, L50, M|
+|teampreview|4
+|showteam|p1|Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,StompingTantrum,Protect|||M|||50|,,,,,Ground]Weezing-Galar||FocusSash|NeutralizingGas|Protect,SludgeBomb,Taunt,StrangeSteam|||F|||50|,,,,,Flying]Archaludon||PowerHerb|Sturdy|ElectroShot,Thunderbolt,DracoMeteor,Protect|||M|||50|,,,,,Electric]Gholdengo||ChoiceSpecs|GoodasGold|ShadowBall,DazzlingGleam,PowerGem,MakeItRain||||||50|,,,,,Fairy]Talonflame||CovertCloak|GaleWings|Tailwind,DualWingbeat,UpperHand,FlareBlitz|||M|||50|,,,,,Fairy]Annihilape||AssaultVest|Defiant|CloseCombat,RageFist,FinalGambit,IcePunch|||F|||50|,,,,,Grass
+|showteam|p2|Pelipper||FocusSash|Drizzle|WeatherBall,Tailwind,WideGuard,Hurricane|||F|||50|,,,,,Ground]Archaludon||PowerHerb|Sturdy|ElectroShot,DracoMeteor,FlashCannon,Protect|||F|||50|,,,,,Electric]Basculegion||ChoiceBand|SwiftSwim|LastRespects,WaveCrash,AquaJet,FlipTurn|||M|||50|,,,,,Stellar]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,Protect,PollenPuff|||M|||50|,,,,,Psychic]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Protect|||M|||50|,,,,,Ghost]Ceruledge||ClearAmulet|FlashFire|BitterBlade,Protect,BulkUp,ShadowSneak|||M|||50|,,,,,Ghost
+|
+|t:|1756544449
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Weezing|Weezing-Galar, L50, F|100/100
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Ceruledge|Ceruledge, L50, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1756544473
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Weezing|atk|1
+|-unboost|p1b: Archaludon|atk|1
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100
+|-terastallize|p1b: Archaludon|Electric
+|move|p2a: Incineroar|Fake Out|p1b: Archaludon
+|-damage|p1b: Archaludon|91/100
+|cant|p1b: Archaludon|flinch
+|move|p2b: Ceruledge|Bitter Blade|p1b: Archaludon
+|-damage|p1b: Archaludon|53/100
+|
+|upkeep
+|turn|2
+|
+|t:|1756544489
+|move|p1b: Archaludon|Protect|p1b: Archaludon
+|-singleturn|p1b: Archaludon|Protect
+|move|p1a: Garchomp|Earthquake|p2a: Incineroar|[spread] p2a,p2b
+|-activate|p1b: Archaludon|move: Protect
+|-supereffective|p2a: Incineroar
+|-supereffective|p2b: Ceruledge
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Ceruledge|0 fnt
+|faint|p2a: Incineroar
+|faint|p2b: Ceruledge
+|-damage|p1a: Garchomp|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756544499
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|3
+|
+|t:|1756544539
+|switch|p1a: Weezing|Weezing-Galar, L50, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2b: Basculegion
+|-supereffective|p2b: Basculegion
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|move|p2a: Pelipper|Weather Ball|p1a: Weezing
+|-enditem|p1a: Weezing|Focus Sash
+|-damage|p1a: Weezing|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756544557
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-enditem|p2a: Pelipper|Focus Sash
+|-damage|p2a: Pelipper|1/100
+|move|p2a: Pelipper|Weather Ball|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|faint|p1b: Archaludon
+|move|p1a: Weezing|Sludge Bomb|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|win|jonen

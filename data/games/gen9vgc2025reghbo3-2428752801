@@ -1,0 +1,118 @@
+|j|☆bo_2025
+|j|☆Zurneus
+|html|bo_2025Zurneus    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756180303
+|gametype|doubles
+|player|p1|bo_2025|265|1000
+|player|p2|Zurneus|silver|1070
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tauros-Paldea-Aqua, L50, M|
+|poke|p1|Dragapult, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Talonflame, L50, M|
+|poke|p2|Gyarados, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|teampreview|4
+|showteam|p1|Tauros-Paldea-Aqua||ChoiceBand|Intimidate|AquaJet,Earthquake,WaveCrash,WildCharge|||M|||50|,,,,,Water]Dragapult||LifeOrb|ClearBody|Protect,DragonDarts,PhantomForce,Uturn|||M|||50|,,,,,Fairy]Rillaboom||AssaultVest|GrassySurge|GrassyGlide,KnockOff,Uturn,WoodHammer|||M|||50|,,,,,Grass]Electabuzz||Eviolite|Static|FollowMe,VoltSwitch,Taunt,Feint|||M|||50|,,,,,Flying]Kingambit||BlackGlasses|SupremeOverlord|KowtowCleave,IronHead,SwordsDance,SuckerPunch|||M|||50|,,,,,Ghost]Talonflame||CovertCloak|GaleWings|Tailwind,Roost,BraveBird,Protect|||M|||50|,,,,,Water
+|showteam|p2|Gyarados||SafetyGoggles|Intimidate|Taunt,ThunderWave,Waterfall,Protect|||M|||50|,,,,,Steel]Indeedee||ChoiceScarf|PsychicSurge|DazzlingGleam,TeraBlast,Trick,ExpandingForce|||M|||50|,,,,,Psychic]Volcarona||LifeOrb|FlameBody|HeatWave,Tailwind,TeraBlast,Protect|||M|||50|,,,,,Fairy]Excadrill||ClearAmulet|SandRush|Protect,Earthquake,HighHorsepower,IronHead|||F|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|Protect,ClearSmog,RagePowder,Spore|||M|||50|,,,,,Water]Tyranitar||AssaultVest|SandStream|LowKick,TeraBlast,KnockOff,RockSlide|||F|||50|,,,,,Flying
+|
+|t:|1756180347
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Talonflame|Talonflame, L50, M, shiny|100/100
+|switch|p1b: Tauros|Tauros-Paldea-Aqua, L50, M, shiny|100/100
+|switch|p2a: Volcarona|Volcarona, L50, M|100/100
+|switch|p2b: Excadrill|Excadrill, L50, F|100/100
+|-ability|p1b: Tauros|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|-fail|p2b: Excadrill|unboost|[from] item: Clear Amulet|[of] p2b: Excadrill
+|turn|1
+|
+|t:|1756180371
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-terastallize|p2a: Volcarona|Fairy
+|move|p1a: Talonflame|Tailwind|p1a: Talonflame
+|-sidestart|p1: bo_2025|move: Tailwind
+|move|p1b: Tauros|Earthquake|p2b: Indeedee|[spread] p2a,p2b
+|-immune|p1a: Talonflame
+|-damage|p2a: Volcarona|55/100
+|-damage|p2b: Indeedee|34/100
+|move|p2a: Volcarona|Tailwind|p2a: Volcarona
+|-sidestart|p2: Zurneus|move: Tailwind
+|
+|upkeep
+|turn|2
+|
+|t:|1756180411
+|move|p1a: Talonflame|Brave Bird|p2a: Volcarona
+|-activate|p2a: Volcarona|move: Psychic Terrain
+|move|p2b: Indeedee|Expanding Force|p1b: Tauros|[spread] p1a,p1b
+|-supereffective|p1b: Tauros
+|-damage|p1a: Talonflame|26/100
+|-damage|p1b: Tauros|0 fnt
+|faint|p1b: Tauros
+|move|p2a: Volcarona|Heat Wave|p1a: Talonflame
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|-damage|p2a: Volcarona|46/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756180424
+|switch|p1a: Dragapult|Dragapult, L50, M, shiny|100/100
+|switch|p1b: Electabuzz|Electabuzz, L50, M, shiny|100/100
+|turn|3
+|
+|t:|1756180448
+|move|p1b: Electabuzz|Follow Me|p1b: Electabuzz
+|-singleturn|p1b: Electabuzz|move: Follow Me
+|move|p2b: Indeedee|Expanding Force|p1b: Electabuzz|[spread] p1a,p1b
+|-damage|p1a: Dragapult|24/100
+|-damage|p1b: Electabuzz|53/100
+|move|p1a: Dragapult|U-turn|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|-damage|p1a: Dragapult|15/100|[from] item: Life Orb
+|move|p2a: Volcarona|Tera Blast|p1b: Electabuzz|[anim] Tera Blast Fairy
+|-damage|p1b: Electabuzz|10/100
+|-damage|p2a: Volcarona|36/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756180464
+|switch|p2b: Excadrill|Excadrill, L50, F|100/100
+|turn|4
+|
+|t:|1756180488
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p2b: Excadrill|Earthquake|p1b: Electabuzz|[spread] p2a,p1a,p1b
+|-supereffective|p2a: Tyranitar
+|-supereffective|p1b: Electabuzz
+|-damage|p2a: Tyranitar|27/100
+|-damage|p1a: Dragapult|0 fnt
+|-damage|p1b: Electabuzz|0 fnt
+|faint|p1a: Dragapult
+|faint|p1b: Electabuzz
+|
+|win|Zurneus
+|raw|bo_2025's rating: 1000 → 1000(+0 for losing)
+|raw|Zurneus's rating: 1070 → 1094(+24 for winning)
+|l|☆bo_2025
+|player|p1|

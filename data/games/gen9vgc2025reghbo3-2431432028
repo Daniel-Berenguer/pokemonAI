@@ -1,0 +1,101 @@
+|j|☆LookBackInBanger
+|j|☆Linkeval
+|html|LookBackInBangerLinkeval    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756515033
+|gametype|doubles
+|player|p1|LookBackInBanger|mina|1047
+|player|p2|Linkeval|elesa|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Skeledirge, L50, F|
+|poke|p2|Weavile, L50, M|
+|poke|p2|Corviknight, L50, F|
+|poke|p2|Meowscarada, L50, M|
+|teampreview|4
+|showteam|p1|Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Haze,Protect|||F|||50|,,,,,Fairy]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Protect|||M|||50|,,,,,Dragon]Indeedee||FocusSash|PsychicSurge|ExpandingForce,HelpingHand,TrickRoom,Imprison|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Stellar]Talonflame||CovertCloak|GaleWings|FlareBlitz,DualWingbeat,WillOWisp,Tailwind|||M|||50|,,,,,Stellar]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal
+|showteam|p2|Dragapult||ExpertBelt|CursedBody|DragonDarts,DragonDance,Thunderbolt,Flamethrower|||F|||50|,,,,,Dragon]Garchomp||Leftovers|RoughSkin|DragonClaw,SwordsDance,Earthquake,ThunderFang|||F|||50|,,,,,Dragon]Skeledirge||RockyHelmet|Unaware|TorchSong,ShadowBall,Flamethrower,Protect|||F|||50|,,,,,Fire]Weavile||ChoiceBand|Pressure|IceShard,IcePunch,NightSlash,SleepTalk|||M|||50|,,,,,Dark]Corviknight|||MirrorArmor|HoneClaws,DrillPeck,IronHead,TeraBlast|||F|||50|,,,,,Flying]Meowscarada||FocusSash|Protean|FlowerTrick,ThunderPunch,NightSlash,HoneClaws|||M|||50|,,,,,Grass
+|
+|t:|1756515054
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Talonflame|Talonflame, L50, M, shiny|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Skeledirge|Skeledirge, L50, F|100/100
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|turn|1
+|
+|t:|1756515102
+|-terastallize|p1b: Ursaluna|Normal
+|move|p1a: Talonflame|Tailwind|p1a: Talonflame
+|-sidestart|p1: LookBackInBanger|move: Tailwind
+|move|p1b: Ursaluna|Blood Moon|p2a: Skeledirge
+|-crit|p2a: Skeledirge
+|-damage|p2a: Skeledirge|0 fnt
+|faint|p2a: Skeledirge
+|-damage|p1b: Ursaluna|91/100|[from] item: Life Orb
+|move|p2b: Garchomp|Thunder Fang|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|29/100
+|
+|upkeep
+|
+|t:|1756515118
+|switch|p2a: Meowscarada|Meowscarada, L50, M|100/100
+|turn|2
+|
+|t:|1756515140
+|move|p1a: Talonflame|Dual Wingbeat|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|54/100
+|-supereffective|p2a: Meowscarada
+|-damage|p2a: Meowscarada|11/100
+|-hitcount|p2a: Meowscarada|2
+|move|p1b: Ursaluna|Hyper Voice|p2b: Garchomp|[spread] p2a,p2b
+|-damage|p2a: Meowscarada|0 fnt
+|-damage|p2b: Garchomp|20/100
+|faint|p2a: Meowscarada
+|-damage|p1b: Ursaluna|81/100|[from] item: Life Orb
+|move|p2b: Garchomp|Thunder Fang|p1a: Talonflame
+|-supereffective|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|-heal|p2b: Garchomp|26/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756515158
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Weavile|Weavile, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-ability|p2a: Weavile|Pressure
+|turn|3
+|
+|t:|1756515173
+|move|p1a: Indeedee|Helping Hand|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Ursaluna|Hyper Voice|p2b: Garchomp|[spread] p2a,p2b
+|-damage|p2a: Weavile|0 fnt
+|-damage|p2b: Garchomp|0 fnt
+|faint|p2a: Weavile
+|faint|p2b: Garchomp
+|-damage|p1b: Ursaluna|72/100|[from] item: Life Orb
+|
+|win|LookBackInBanger
+|raw|LookBackInBanger's rating: 1047 → 1076(+29 for winning)
+|raw|Linkeval's rating: 1000 → 1000(+0 for losing)
+|c|☆LookBackInBanger|ggs!
+|c|☆LookBackInBanger|cool team btw

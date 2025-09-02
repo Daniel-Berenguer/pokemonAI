@@ -1,0 +1,294 @@
+|j|☆EnzoPS
+|j|☆The median voter
+|html|EnzoPSThe median voter    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756234184
+|gametype|doubles
+|player|p1|EnzoPS|cynthia-gen4|1123
+|player|p2|The median voter|scientist-gen4dp|1268
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Kommo-o, L50, F|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Arcanine-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Pelipper||FocusSash|Drizzle|Protect,WeatherBall,Hurricane,Tailwind|||M|||50|,,,,,Ground]Amoonguss||SitrusBerry|Regenerator|Protect,Spore,RagePowder,PollenPuff|||M|||50|,,,,,Water]Archaludon||AssaultVest|Stamina|DragonPulse,ElectroShot,FlashCannon,BodyPress|||M|||50|,,,,,Grass]Basculegion||ChoiceBand|SwiftSwim|FlipTurn,WaveCrash,AquaJet,LastRespects|||M|||50|,,,,,Grass]Gholdengo||LifeOrb|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Ghost
+|showteam|p2|Kommo-o||GrassySeed|Overcoat|BodyPress,Taunt,Protect,Flamethrower|||F|||50|,,,,,Fire]Volcarona||SitrusBerry|FlameBody|HeatWave,GigaDrain,QuiverDance,Protect|||M|||50|,,,,,Grass]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,HighHorsepower|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Dark]Ninetales-Alola||LifeOrb|SnowWarning|Blizzard,Protect,AuroraVeil,FreezeDry|||F|||50|,,,,,Ghost]Arcanine-Hisui||MirrorHerb|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||F|||50|,,,,,Ghost
+|c|☆EnzoPS|sorry for crit
+|
+|t:|1756234198
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Volcarona|Volcarona, L50, M|100/100
+|switch|p2b: Kingambit|Kingambit, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1756234221
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|-terastallize|p1b: Basculegion|Grass
+|-terastallize|p2a: Volcarona|Grass
+|move|p2b: Kingambit|Sucker Punch||[still]
+|-fail|p2b: Kingambit
+|move|p1b: Basculegion|Wave Crash|p2b: Kingambit
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|-damage|p1b: Basculegion|66/100|[from] Recoil
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756234225
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|turn|2
+|
+|t:|1756234242
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|move|p2b: Ninetales|Protect|p2b: Ninetales
+|-singleturn|p2b: Ninetales|Protect
+|move|p2a: Volcarona|Giga Drain|p1b: Pelipper
+|-enditem|p1b: Pelipper|Focus Sash
+|-damage|p1b: Pelipper|1/100
+|move|p1a: Archaludon|Flash Cannon|p2b: Ninetales
+|-activate|p2b: Ninetales|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756234267
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Volcarona|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|move|p2a: Volcarona|Giga Drain|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|64/100
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|83/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Volcarona|89/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|70/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756234302
+|move|p2b: Rillaboom|Fake Out|p1b: Incineroar
+|-damage|p1b: Incineroar|61/100
+|cant|p1b: Incineroar|flinch
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Archaludon|Dragon Pulse|p2a: Volcarona
+|-damage|p2a: Volcarona|61/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Volcarona|67/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|67/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756234328
+|move|p2b: Rillaboom|Grassy Glide|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|56/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Rillaboom
+|-resisted|p2b: Rillaboom
+|-damage|p2b: Rillaboom|73/100
+|move|p1b: Incineroar|Knock Off|p2a: Volcarona
+|-damage|p2a: Volcarona|11/100
+|-enditem|p2a: Volcarona|Sitrus Berry|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Volcarona|17/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|79/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|62/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756234356
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|move|p2a: Volcarona|Protect|p2a: Volcarona
+|-singleturn|p2a: Volcarona|Protect
+|move|p1a: Archaludon|Body Press|p2a: Volcarona
+|-activate|p2a: Volcarona|move: Protect
+|move|p1b: Incineroar|Parting Shot|p2b: Ninetales
+|-unboost|p2b: Ninetales|atk|1
+|-unboost|p2b: Ninetales|spa|1
+|
+|t:|1756234367
+|switch|p1b: Pelipper|Pelipper, L50, M|1/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Volcarona|23/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1756234391
+|move|p1b: Pelipper|Protect|p1b: Pelipper
+|-singleturn|p1b: Pelipper|Protect
+|move|p2a: Volcarona|Heat Wave|p1a: Archaludon|[spread] p1a
+|-activate|p1b: Pelipper|move: Protect
+|-damage|p1a: Archaludon|65/100
+|-status|p1a: Archaludon|brn
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p2b: Ninetales|Freeze-Dry|p1a: Archaludon
+|-damage|p1a: Archaludon|46/100 brn
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|-damage|p2b: Ninetales|91/100|[from] item: Life Orb
+|move|p1a: Archaludon|Body Press|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Ninetales|97/100|[from] Grassy Terrain
+|-heal|p1a: Archaludon|52/100 brn|[from] Grassy Terrain
+|-damage|p1a: Archaludon|46/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756234403
+|switch|p2a: Rillaboom|Rillaboom, L50, M|79/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|8
+|
+|t:|1756234418
+|move|p2a: Rillaboom|Fake Out|p1a: Archaludon
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|43/100 brn
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p2b: Ninetales|Blizzard|p1b: Pelipper|[spread] p1a,p1b
+|-damage|p1a: Archaludon|22/100 brn
+|-damage|p1b: Pelipper|0 fnt
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|faint|p1b: Pelipper
+|-damage|p2b: Ninetales|88/100|[from] item: Life Orb
+|cant|p1a: Archaludon|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Ninetales|94/100|[from] Grassy Terrain
+|-heal|p1a: Archaludon|28/100 brn|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|85/100|[from] Grassy Terrain
+|-damage|p1a: Archaludon|22/100 brn|[from] brn
+|upkeep
+|
+|t:|1756234426
+|switch|p1b: Basculegion|Basculegion, L50, M, tera:Grass|66/100
+|turn|9
+|
+|t:|1756234435
+|move|p2b: Ninetales|Protect|p2b: Ninetales
+|-singleturn|p2b: Ninetales|Protect
+|move|p1b: Basculegion|Last Respects|p2a: Rillaboom
+|-damage|p2a: Rillaboom|6/100
+|move|p1a: Archaludon|Flash Cannon|p2b: Ninetales
+|-activate|p2b: Ninetales|move: Protect
+|move|p2a: Rillaboom|High Horsepower|p1a: Archaludon
+|-supereffective|p1a: Archaludon
+|-damage|p1a: Archaludon|3/100 brn
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Basculegion|72/100|[from] Grassy Terrain
+|-heal|p2b: Ninetales|99/100|[from] Grassy Terrain
+|-heal|p1a: Archaludon|9/100 brn|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|12/100|[from] Grassy Terrain
+|-damage|p1a: Archaludon|3/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1756234449
+|move|p2a: Rillaboom|Grassy Glide|p1b: Basculegion
+|-resisted|p1b: Basculegion
+|-damage|p1b: Basculegion|47/100
+|move|p1b: Basculegion|Last Respects|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|move|p2b: Ninetales|Blizzard|p1b: Basculegion|[spread] p1a,p1b
+|-supereffective|p1b: Basculegion
+|-damage|p1a: Archaludon|0 fnt
+|-damage|p1b: Basculegion|0 fnt
+|faint|p1a: Archaludon
+|faint|p1b: Basculegion
+|-damage|p2b: Ninetales|90/100|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p2b: Ninetales|96/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756234460
+|switch|p1a: Incineroar|Incineroar, L50, F|62/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2b: Ninetales|atk|1
+|turn|11
+|
+|t:|1756234471
+|move|p2b: Ninetales|Protect|p2b: Ninetales
+|-singleturn|p2b: Ninetales|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Ninetales
+|-activate|p2b: Ninetales|move: Protect
+|
+|-heal|p2b: Ninetales|100/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|68/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1756234475
+|move|p2b: Ninetales|Freeze-Dry|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-crit|p1a: Incineroar
+|-damage|p1a: Incineroar|43/100
+|-damage|p2b: Ninetales|91/100|[from] item: Life Orb
+|move|p1a: Incineroar|Flare Blitz|p2b: Ninetales
+|-supereffective|p2b: Ninetales
+|-damage|p2b: Ninetales|0 fnt
+|faint|p2b: Ninetales
+|-damage|p1a: Incineroar|21/100|[from] Recoil
+|
+|win|EnzoPS
+|raw|EnzoPS's rating: 1123 → 1158(+35 for winning)
+|raw|The median voter's rating: 1268 → 1233(-35 for losing)

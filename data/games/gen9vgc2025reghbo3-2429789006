@@ -1,0 +1,121 @@
+|j|☆felasmiguel
+|j|☆Refanner
+|html|felasmiguelRefanner    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756313025
+|gametype|doubles
+|player|p1|felasmiguel|scientist|1100
+|player|p2|Refanner|1|1098
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Metagross, L50|
+|poke|p1|Mienshao, L50, F|
+|poke|p1|Comfey, L50, M|
+|poke|p1|Frosmoth, L50, F|
+|poke|p1|Glimmora, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Talonflame, L50, F|
+|teampreview|4
+|showteam|p1|Metagross||AssaultVest|ClearBody|HardPress,PsychicFangs,BulletPunch,StompingTantrum||||||50|,,,,,Dragon]Mienshao||FocusSash|InnerFocus|CloseCombat,Taunt,WideGuard,Coaching|||F|||50|,,,,,Fighting]Comfey||RockyHelmet|Triage|FloralHealing,DrainingKiss,Synthesis,HelpingHand|||M|||50|,,,,,Steel]Frosmoth||SafetyGoggles|IceScales|QuiverDance,IceBeam,TeraBlast,Protect|||F|||50|,,,,,Electric]Glimmora||PowerHerb|Corrosion|MeteorBeam,Toxic,SpikyShield,EarthPower|||F|||50|,,,,,Grass]Ninetales-Alola||LightClay|SnowWarning|AuroraVeil,FreezeDry,IcyWind,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Garchomp||ClearAmulet|RoughSkin|Earthquake,RockSlide,SwordsDance,Protect|||M|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|WillOWisp,FlareBlitz,FakeOut,PartingShot|||M|||50|,,,,,Grass]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,IcyWind,Protect,AuroraVeil|||M|||50|,,,,,Ghost]Gholdengo||Leftovers|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Flying]Primarina||MagoBerry|LiquidVoice|HyperVoice,Moonblast,CalmMind,Protect|||M|||50|,,,,,Poison]Talonflame||CovertCloak|GaleWings|DualWingbeat,Tailwind,FlareBlitz,Taunt|||F|||50|,,,,,Flying
+|
+|t:|1756313061
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Frosmoth|Frosmoth, L50, F|100/100
+|switch|p1b: Glimmora|Glimmora, L50, F|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Frosmoth|atk|1
+|-unboost|p1b: Glimmora|atk|1
+|turn|1
+|
+|t:|1756313093
+|-terastallize|p1a: Frosmoth|Electric
+|move|p2b: Incineroar|Fake Out|p1a: Frosmoth
+|-damage|p1a: Frosmoth|88/100
+|move|p1b: Glimmora|Meteor Beam||[still]
+|-prepare|p1b: Glimmora|Meteor Beam
+|-boost|p1b: Glimmora|spa|1
+|-enditem|p1b: Glimmora|Power Herb
+|-anim|p1b: Glimmora|Meteor Beam|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-crit|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|cant|p1a: Frosmoth|flinch
+|
+|upkeep
+|
+|t:|1756313106
+|switch|p2b: Talonflame|Talonflame, L50, F|100/100
+|turn|2
+|
+|t:|1756313124
+|move|p2b: Talonflame|Tailwind|p2b: Talonflame
+|-sidestart|p2: Refanner|move: Tailwind
+|move|p2a: Gholdengo|Make It Rain|p1a: Frosmoth|[spread] p1a,p1b
+|-resisted|p1a: Frosmoth
+|-supereffective|p1b: Glimmora
+|-damage|p1a: Frosmoth|63/100
+|-damage|p1b: Glimmora|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1b: Glimmora
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|
+|upkeep
+|
+|t:|1756313151
+|switch|p1b: Comfey|Comfey, L50, M|100/100
+|turn|3
+|
+|t:|1756313169
+|move|p1b: Comfey|Floral Healing|p1a: Frosmoth
+|-heal|p1a: Frosmoth|100/100
+|move|p2b: Talonflame|Flare Blitz|p1a: Frosmoth
+|-damage|p1a: Frosmoth|44/100
+|-status|p1a: Frosmoth|brn
+|-damage|p2b: Talonflame|79/100|[from] Recoil
+|move|p2a: Gholdengo|Make It Rain|p1b: Comfey|[spread] p1a,p1b
+|-resisted|p1a: Frosmoth
+|-supereffective|p1b: Comfey
+|-damage|p1a: Frosmoth|30/100 brn
+|-damage|p1b: Comfey|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1b: Comfey
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|
+|-damage|p1a: Frosmoth|25/100 brn|[from] brn
+|upkeep
+|
+|t:|1756313178
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|turn|4
+|-message|felasmiguel forfeited.
+|
+|win|Refanner
+|l|☆felasmiguel
+|player|p1|
+||felasmiguel is ready for game 2.
+||Refanner is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

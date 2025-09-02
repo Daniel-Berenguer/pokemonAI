@@ -1,0 +1,166 @@
+|j|☆ZekromAllDay
+|j|☆mausholdmerchant
+|html|ZekromAllDaymausholdmerchant    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756500650
+|gametype|doubles
+|player|p1|ZekromAllDay|170|1111
+|player|p2|mausholdmerchant|169|1082
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p2|Goodra, L50, F|
+|poke|p2|Politoed, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Sableye, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|showteam|p1|Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,AquaJet,FlipTurn|||M|||50|,,,,,Grass]Pelipper||CovertCloak|Drizzle|WeatherBall,Hurricane,Tailwind,MuddyWater|||M|||50|,,,,,Stellar]Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,BodyPress,FlashCannon|||F|||50|,,,,,Bug]Dragonite||LoadedDice|InnerFocus|ScaleShot,Tailwind,Haze,Protect|||F|||50|,,,,,Fairy]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,TeraBlast,Protect|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|CloseCombat,ThroatChop,DireClaw,Protect|||M|||50|,,,,,Dark
+|showteam|p2|Goodra||Leftovers|Hydration|Feint,DracoMeteor,Toxic,Protect|||F|||50|,,,,,Fairy]Politoed||RindoBerry|Drizzle|WeatherBall,MuddyWater,PerishSong,Protect|||M|||50|,,,,,Grass]Basculegion||LifeOrb|SwiftSwim|FlipTurn,WaveCrash,LastRespects,Protect|||M|||50|,,,,,Water]Sableye||RoseliBerry|Prankster|Protect,Disable,FakeOut,FoulPlay|||F|||50|,,,,,Steel]Archaludon||CovertCloak|Sturdy|ElectroShot,DragonPulse,FlashCannon,Protect|||F|||50|,,,,,Electric]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,FlareBlitz,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1756500668
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Politoed|Politoed, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Politoed
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Sneasler|atk|1
+|turn|1
+|
+|t:|1756500697
+|move|p1b: Sneasler|Protect|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Protect
+|move|p2a: Incineroar|Protect|p2a: Incineroar
+|-singleturn|p2a: Incineroar|Protect
+|move|p1a: Indeedee|Expanding Force|p2b: Politoed|[spread] p2b
+|-activate|p2a: Incineroar|move: Protect
+|-damage|p2b: Politoed|66/100
+|move|p2b: Politoed|Muddy Water|p1a: Indeedee|[spread] p1a
+|-activate|p1b: Sneasler|move: Protect
+|-damage|p1a: Indeedee|56/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756500713
+|switch|p2a: Sableye|Sableye, L50, F|100/100
+|move|p1b: Sneasler|Close Combat|p2a: Sableye
+|-immune|p2a: Sableye
+|move|p1a: Indeedee|Expanding Force|p2b: Politoed|[spread] p2b
+|-immune|p2a: Sableye
+|-damage|p2b: Politoed|34/100
+|move|p2b: Politoed|Weather Ball|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756500717
+|switch|p1a: Archaludon|Archaludon, L50, F|100/100
+|turn|3
+|
+|t:|1756500735
+|move|p2a: Sableye|Protect|p2a: Sableye
+|-singleturn|p2a: Sableye|Protect
+|move|p2b: Politoed|Protect|p2b: Politoed
+|-singleturn|p2b: Politoed|Protect
+|move|p1b: Sneasler|Dire Claw|p2b: Politoed
+|-activate|p2b: Politoed|move: Protect
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2a: Sableye
+|-activate|p2a: Sableye|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756500751
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Archaludon|atk|1
+|-unboost|p1b: Sneasler|atk|1
+|switch|p2a: Archaludon|Archaludon, L50, F|100/100
+|move|p1b: Sneasler|Dire Claw|p2b: Incineroar
+|-crit|p2b: Incineroar
+|-damage|p2b: Incineroar|36/100
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|55/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1756500782
+|move|p1b: Sneasler|Close Combat|p2a: Archaludon
+|-supereffective|p2a: Archaludon
+|-damage|p2a: Archaludon|0 fnt
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|faint|p2a: Archaludon
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756500794
+|switch|p2a: Sableye|Sableye, L50, F|100/100
+|switch|p2b: Politoed|Politoed, L50, M|34/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Politoed
+|turn|6
+|
+|t:|1756500817
+|move|p2a: Sableye|Disable|p1a: Archaludon
+|-start|p1a: Archaludon|Disable|Electro Shot
+|move|p1b: Sneasler|Dire Claw|p2b: Politoed
+|-damage|p2b: Politoed|9/100
+|-status|p2b: Politoed|slp
+|move|p1a: Archaludon|Draco Meteor|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|-unboost|p1a: Archaludon|spa|2
+|faint|p2a: Sableye
+|cant|p2b: Politoed|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1756500831
+|move|p1b: Sneasler|Dire Claw|p2b: Politoed
+|-damage|p2b: Politoed|0 fnt
+|faint|p2b: Politoed
+|
+|win|ZekromAllDay
+|raw|ZekromAllDay's rating: 1111 → 1134(+23 for winning)
+|raw|mausholdmerchant's rating: 1082 → 1062(-20 for losing)

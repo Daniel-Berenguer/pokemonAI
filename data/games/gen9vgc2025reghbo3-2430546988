@@ -1,0 +1,125 @@
+|j|☆Riesig
+|j|☆upchicken
+|html|Riesigupchicken    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756405832
+|gametype|doubles
+|player|p1|Riesig|steven|
+|player|p2|upchicken|az|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Maushold, L50|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Sinistcha, L50|
+|teampreview|4
+|showteam|p1|Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,FakeOut,Coaching|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|Earthquake,IronHead,SwordsDance,Protect|||M|||50|,,,,,Ground]Corviknight||PsychicSeed|MirrorArmor|BraveBird,BulkUp,Roost,PowerTrip|||F|||50|,,,,,Water]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||M|||50|,,,,,Flying]Sinistcha-Masterpiece||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,LifeDew||||||50|,,,,,Water
+|showteam|p2|Grimmsnarl||LightClay|Prankster|Reflect,LightScreen,ThunderWave,SpiritBreak|||M|||50|,,,,,Steel]Annihilape||SpellTag|Defiant|BulkUp,Protect,DrainPunch,RageFist|||F|||50|,,,,,Fire]Maushold||SafetyGoggles|FriendGuard|BeatUp,Taunt,FollowMe,Protect||||||50|,,,,,Ghost]Pelipper||LifeOrb|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Stellar]Archaludon||AssaultVest|Stamina|ElectroShot,DragonPulse,Snarl,BodyPress|||M|||50|,,,,,Fighting]Sinistcha||SitrusBerry|Hospitality|LifeDew,RagePowder,TrickRoom,MatchaGotcha||||||50|,,,,,Water
+|
+|t:|1756405902
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Annihilape|Annihilape, L50, F|100/100
+|switch|p2b: Maushold|Maushold, L50|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1756405965
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|move|p2b: Maushold|Protect|p2b: Maushold
+|-singleturn|p2b: Maushold|Protect
+|move|p1a: Indeedee|Expanding Force|p2a: Grimmsnarl|[spread] 
+|-activate|p2b: Maushold|move: Protect
+|-immune|p2a: Grimmsnarl
+|move|p1b: Sneasler|Dire Claw|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|27/100
+|
+|upkeep
+|turn|2
+|
+|t:|1756405988
+|move|p2b: Maushold|Follow Me|p2b: Maushold
+|-singleturn|p2b: Maushold|move: Follow Me
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: upchicken|move: Light Screen
+|move|p1a: Indeedee|Expanding Force|p2a: Grimmsnarl|[spread] p2b
+|-immune|p2a: Grimmsnarl
+|-damage|p2b: Maushold|57/100
+|move|p1b: Sneasler|Dire Claw|p2b: Maushold
+|-damage|p2b: Maushold|0 fnt
+|faint|p2b: Maushold
+|
+|upkeep
+|
+|t:|1756406006
+|switch|p2b: Annihilape|Annihilape, L50, F|100/100
+|turn|3
+|
+|t:|1756406020
+|-terastallize|p2b: Annihilape|Fire
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: upchicken|Reflect
+|move|p1a: Indeedee|Expanding Force|p2b: Annihilape|[spread] p2b
+|-immune|p2a: Grimmsnarl
+|-damage|p2b: Annihilape|63/100
+|move|p1b: Sneasler|Dire Claw|p2b: Annihilape
+|-damage|p2b: Annihilape|31/100
+|-status|p2b: Annihilape|par
+|move|p2b: Annihilape|Bulk Up|p2b: Annihilape
+|-boost|p2b: Annihilape|atk|1
+|-boost|p2b: Annihilape|def|1
+|
+|upkeep
+|turn|4
+|
+|t:|1756406046
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p2b: Annihilape|Protect|p2b: Annihilape
+|-singleturn|p2b: Annihilape|Protect
+|move|p1a: Indeedee|Expanding Force|p2b: Annihilape|[spread] p2a
+|-activate|p2b: Annihilape|move: Protect
+|-damage|p2a: Pelipper|30/100
+|move|p1b: Sneasler|Dire Claw|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756406058
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|27/100
+|turn|5
+|
+|t:|1756406067
+|move|p1a: Indeedee|Expanding Force|p2a: Grimmsnarl|[spread] p2b
+|-immune|p2a: Grimmsnarl
+|-damage|p2b: Annihilape|0 fnt
+|faint|p2b: Annihilape
+|move|p1b: Sneasler|Dire Claw|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|win|Riesig
+|inactive|Riesig has 30 seconds to confirm battle start!
+|inactive|upchicken has 30 seconds to confirm battle start!
+||Riesig is ready for game 2.
+|c|☆upchicken|Indeedee is the reason that nobody brings it into you lol
+||upchicken is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

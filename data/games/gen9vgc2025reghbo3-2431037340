@@ -1,0 +1,114 @@
+|j|☆jeffenveneom
+|j|☆BonnieSSR
+|html|jeffenveneomBonnieSSR    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756471933
+|gametype|doubles
+|player|p1|jeffenveneom|psychic-gen4|1087
+|player|p2|BonnieSSR|miku-ground|1213
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Exeggutor, L50, M|
+|poke|p1|Slowpoke, L50, F|
+|poke|p1|Flamigo, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Kilowattrel, L50, F|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Kommo-o, L50, F|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||SafetyGoggles|PsychicSurge|FollowMe,DazzlingGleam,HelpingHand,TrickRoom|||F|||50|,,,,,Steel]Torkoal||WeaknessPolicy|Drought|WeatherBall,HeatWave,EarthPower,Protect|||F|||50|,,,,,Fire]Exeggutor||LifeOrb|Chlorophyll|ExpandingForce,Protect,GigaDrain,TrickRoom|||M|||50|,,,,,Psychic]Slowpoke||Eviolite|Oblivious|Surf,TrickRoom,Protect,HelpingHand|||F|||50|,,,,,Grass]Flamigo||FocusSash|Scrappy|CloseCombat,Tailwind,Protect,Taunt|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Earthquake,Facade,Protect,HeadlongRush|||M|||50|,,,,,Ghost
+|showteam|p2|Tyranitar||AssaultVest|SandStream|LowKick,RockSlide,KnockOff,TeraBlast|||F|||50|,,,,,Flying]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,SludgeBomb,Protect|||M|||50|,,,,,Water]Kilowattrel||ChoiceSpecs|Competitive|Thunderbolt,Discharge,VoltSwitch,AirSlash|||F|||50|,,,,,Ghost]Excadrill||FocusSash|SandRush|IronHead,Earthquake,HighHorsepower,Protect|||F|||50|,,,,,Ground]Kommo-o||Leftovers|Overcoat|IronDefense,BodyPress,ThroatChop,Protect|||F|||50|,,,,,Steel]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Ghost
+|
+|t:|1756471987
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Flamigo|Flamigo, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Wolfey|Incineroar, L50, M, shiny|100/100
+|switch|p2b: Arturia|Kommo-o, L50, F, shiny|100/100
+|-ability|p2a: Wolfey|Intimidate|boost
+|-fail|p1a: Flamigo|unboost|Attack|[from] ability: Scrappy|[of] p1a: Flamigo
+|-unboost|p1b: Indeedee|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1756472026
+|move|p1a: Flamigo|Close Combat|p2a: Wolfey
+|-supereffective|p2a: Wolfey
+|-damage|p2a: Wolfey|4/100
+|-unboost|p1a: Flamigo|def|1
+|-unboost|p1a: Flamigo|spd|1
+|move|p2b: Arturia|Body Press|p1b: Indeedee
+|-damage|p1b: Indeedee|62/100
+|move|p2a: Wolfey|Knock Off|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|-enditem|p1b: Indeedee|Safety Goggles|[from] move: Knock Off|[of] p2a: Wolfey
+|faint|p1b: Indeedee
+|
+|upkeep
+|
+|t:|1756472040
+|switch|p1b: Slowpoke|Slowpoke, L50, F|100/100
+|turn|2
+|
+|t:|1756472055
+|switch|p2a: Transassa|Amoonguss, L50, M, shiny|100/100
+|move|p1a: Flamigo|Taunt|p2b: Arturia
+|-start|p2b: Arturia|move: Taunt
+|cant|p2b: Arturia|move: Taunt|Iron Defense
+|move|p1b: Slowpoke|Trick Room|p1b: Slowpoke
+|-fieldstart|move: Trick Room|[of] p1b: Slowpoke
+|
+|upkeep
+|turn|3
+|
+|t:|1756472076
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|move|p1a: Flamigo|Protect|p1a: Flamigo
+|-singleturn|p1a: Flamigo|Protect
+|move|p2a: Transassa|Spore|p1a: Flamigo
+|-activate|p1a: Flamigo|move: Protect
+|move|p2b: Arturia|Throat Chop|p1b: Torkoal
+|-damage|p1b: Torkoal|84/100
+|-start|p1b: Torkoal|Throat Chop|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756472091
+|switch|p2b: Ouroboros|Tyranitar, L50, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Ouroboros
+|-terastallize|p2a: Transassa|Water
+|move|p1b: Torkoal|Protect|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Protect
+|move|p2a: Transassa|Spore|p1a: Flamigo
+|-status|p1a: Flamigo|slp|[from] move: Spore
+|cant|p1a: Flamigo|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Torkoal|78/100|[from] Sandstorm
+|-damage|p2a: Transassa|95/100|[from] Sandstorm
+|-damage|p1a: Flamigo|95/100 slp|[from] Sandstorm
+|-end|p1b: Torkoal|Throat Chop|[silent]
+|upkeep
+|turn|5
+|-message|jeffenveneom forfeited.
+|
+|win|BonnieSSR
+|raw|jeffenveneom's rating: 1087 → 1072(-15 for losing)
+|raw|BonnieSSR's rating: 1213 → 1229(+16 for winning)
+|l|☆jeffenveneom
+|player|p1|
