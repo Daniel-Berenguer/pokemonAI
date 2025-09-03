@@ -1,0 +1,225 @@
+|j|☆roundybout
+|j|☆mircat222
+|html|roundyboutmircat222    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756845048
+|gametype|doubles
+|player|p1|roundybout|collector|1202
+|player|p2|mircat222|giovanni|1099
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Talonflame, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|showteam|p1|Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Volcarona||GrassySeed|FlameBody|HeatWave,GigaDrain,QuiverDance,Protect|||F|||50|,,,,,Grass]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,Encore,Disable,Protect|||F|||50|,,,,,Ghost]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,Outrage|||M|||50|,,,,,Dragon]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,FollowMe,Taunt,HelpingHand|||M|||50|,,,,,Fairy
+|showteam|p2|Dragonite||LoadedDice|InnerFocus|ScaleShot,Protect,StompingTantrum,Tailwind|||M|||50|,,,,,Steel]Annihilape||ChoiceScarf|Defiant|ShadowClaw,CloseCombat,Uturn,FinalGambit|||F|||50|,,,,,Stellar]Talonflame||CovertCloak|GaleWings|BraveBird,WillOWisp,Tailwind,Taunt|||M|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Farigiraf||GrassySeed|ArmorTail|FoulPlay,HelpingHand,TrickRoom,HyperVoice|||M|||50|,,,,,Dark]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,Uturn,FakeOut|||F|||50|,,,,,Water
+|
+|t:|1756845083
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|switch|p2a: Talonflame|Talonflame, L50, M|100/100
+|switch|p2b: Annihilape|Annihilape, L50, F|100/100
+|turn|1
+|
+|t:|1756845104
+|move|p1a: Electabuzz|Follow Me|p1a: Electabuzz
+|-singleturn|p1a: Electabuzz|move: Follow Me
+|move|p2a: Talonflame|Tailwind|p2a: Talonflame
+|-sidestart|p2: mircat222|move: Tailwind
+|move|p2b: Annihilape|Final Gambit|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p2b: Annihilape
+|faint|p1a: Electabuzz
+|move|p1b: Volcarona|Quiver Dance|p1b: Volcarona
+|-boost|p1b: Volcarona|spa|1
+|-boost|p1b: Volcarona|spd|1
+|-boost|p1b: Volcarona|spe|1
+|
+|upkeep
+|
+|t:|1756845120
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-enditem|p1b: Volcarona|Grassy Seed
+|-boost|p1b: Volcarona|def|1|[from] item: Grassy Seed
+|turn|2
+|
+|t:|1756845153
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1a: Rillaboom|Fake Out|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Rillaboom
+|-status|p1a: Rillaboom|brn
+|move|p1b: Volcarona|Heat Wave|p2a: Talonflame|[spread] p2a
+|-activate|p2b: Ursaluna|move: Protect
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|63/100
+|
+|-damage|p1a: Rillaboom|95/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1756845196
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|-terastallize|p2b: Ursaluna|Normal
+|move|p1b: Volcarona|Protect|p1b: Volcarona
+|-singleturn|p1b: Volcarona|Protect
+|move|p2a: Talonflame|Brave Bird|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|85/100
+|-damage|p2a: Talonflame|56/100|[from] Recoil
+|move|p2b: Ursaluna|Blood Moon|p1b: Volcarona
+|-activate|p1b: Volcarona|move: Protect
+|
+|-heal|p1a: Kingambit|90/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756845228
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Kingambit
+|-status|p1a: Kingambit|brn
+|move|p2b: Ursaluna|Hyper Voice|p1b: Volcarona|[spread] p1a,p1b
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|55/100 brn
+|-damage|p1b: Volcarona|54/100
+|-damage|p2b: Ursaluna|91/100|[from] item: Life Orb
+|move|p1b: Volcarona|Giga Drain|p2b: Ursaluna
+|-damage|p2b: Ursaluna|31/100
+|-heal|p1b: Volcarona|85/100|[from] drain|[of] p2b: Ursaluna
+|
+|-heal|p2b: Ursaluna|37/100|[from] Grassy Terrain
+|-heal|p1b: Volcarona|91/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|60/100 brn|[from] Grassy Terrain
+|-damage|p1a: Kingambit|55/100 brn|[from] brn
+|-sideend|p2: mircat222|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1756845248
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p1b: Volcarona|Heat Wave|p2a: Talonflame|[spread] p2a
+|-activate|p2b: Ursaluna|move: Protect
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|19/100
+|move|p2a: Talonflame|Tailwind|p2a: Talonflame
+|-sidestart|p2: mircat222|move: Tailwind
+|
+|-heal|p2b: Ursaluna|43/100|[from] Grassy Terrain
+|-heal|p1b: Volcarona|97/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|60/100 brn|[from] Grassy Terrain
+|-damage|p1a: Kingambit|55/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1756845287
+|-terastallize|p1a: Kingambit|Dark
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Talonflame|Taunt|p1b: Volcarona
+|-start|p1b: Volcarona|move: Taunt
+|move|p2b: Ursaluna|Blood Moon|p1b: Volcarona
+|-damage|p1b: Volcarona|4/100
+|-damage|p2b: Ursaluna|33/100|[from] item: Life Orb
+|move|p1b: Volcarona|Giga Drain|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|-heal|p1b: Volcarona|21/100|[from] drain|[of] p2b: Ursaluna
+|faint|p2b: Ursaluna
+|
+|-heal|p1b: Volcarona|27/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|60/100 brn|[from] Grassy Terrain
+|-damage|p1a: Kingambit|55/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756845308
+|switch|p2b: Dragonite|Dragonite, L50, M|100/100
+|turn|7
+|
+|t:|1756845323
+|move|p1a: Kingambit|Sucker Punch|p2b: Dragonite
+|-damage|p2b: Dragonite|69/100
+|move|p2a: Talonflame|Taunt|p1a: Kingambit
+|-start|p1a: Kingambit|move: Taunt
+|move|p2b: Dragonite|Scale Shot|p1b: Volcarona
+|-damage|p1b: Volcarona|17/100
+|-crit|p1b: Volcarona
+|-damage|p1b: Volcarona|0 fnt
+|faint|p1b: Volcarona
+|-hitcount|p1: Volcarona|2
+|-unboost|p2b: Dragonite|def|1
+|-boost|p2b: Dragonite|spe|1
+|
+|-damage|p1a: Kingambit|49/100 brn|[from] brn
+|upkeep
+|
+|t:|1756845331
+|switch|p1b: Rillaboom|Rillaboom, L50, M|95/100 brn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|8
+|
+|t:|1756845368
+|move|p1b: Rillaboom|Fake Out|p2b: Dragonite
+|-damage|p2b: Dragonite|57/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2b: Dragonite|Scale Shot|p1a: Kingambit
+|-damage|p1a: Kingambit|37/100 brn
+|-damage|p1a: Kingambit|26/100 brn
+|-damage|p1a: Kingambit|15/100 brn
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|-hitcount|p1: Kingambit|4
+|-unboost|p2b: Dragonite|def|1
+|-boost|p2b: Dragonite|spe|1
+|move|p2a: Talonflame|Tailwind||[still]
+|-fail|p2a: Talonflame
+|
+|-heal|p1b: Rillaboom|100/100 brn|[from] Grassy Terrain
+|-damage|p1b: Rillaboom|95/100 brn|[from] brn
+|-sideend|p2: mircat222|move: Tailwind
+|upkeep
+|turn|9
+|
+|t:|1756845404
+|move|p2b: Dragonite|Scale Shot|p1b: Rillaboom
+|-damage|p1b: Rillaboom|80/100 brn
+|-damage|p1b: Rillaboom|66/100 brn
+|-damage|p1b: Rillaboom|51/100 brn
+|-damage|p1b: Rillaboom|36/100 brn
+|-hitcount|p1b: Rillaboom|4
+|-unboost|p2b: Dragonite|def|1
+|-boost|p2b: Dragonite|spe|1
+|move|p2a: Talonflame|Brave Bird|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|-damage|p2a: Talonflame|3/100|[from] Recoil
+|
+|win|mircat222
+||roundybout is ready for game 3.
+|inactive|mircat222 has 30 seconds to confirm battle start!

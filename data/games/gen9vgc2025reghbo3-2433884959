@@ -1,0 +1,185 @@
+|j|☆palle synchro
+|j|☆TR Setter
+|html|palle synchroTR Setter    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756843076
+|gametype|doubles
+|player|p1|palle synchro|volkner|
+|player|p2|TR Setter|zinzolin|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Corviknight, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Maushold, L50|
+|teampreview|4
+|showteam|p1|Whimsicott||CovertCloak|Prankster|Moonblast,Taunt,Tailwind,FakeTears|||F|||50|,,,,,Water]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Tailwind,Roost|||M|||50|,,,,,Dragon]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,Imprison,TrickRoom|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Archaludon||PowerHerb|Stalwart|ElectroShot,DragonPulse,Thunderbolt,Protect|||M|||50|,,,,,Electric
+|showteam|p2|Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Torkoal||ChoiceSpecs|Drought|Eruption,WeatherBall,HeatWave,EarthPower|||M|||50|,,,,,Fire]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,TrickRoom,Psychic,HelpingHand|||F|||50|,,,,,Water]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TeraBlast,TrickRoom|||F|||50|,,,,,Fire]Maushold||WideLens|Technician|PopulationBomb,Taunt,FollowMe,Protect||||||50|,,,,,Poison
+|
+|t:|1756843125
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Maushold|Maushold, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756843162
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2a: Maushold|Population Bomb|p1a: Indeedee
+|-damage|p1a: Indeedee|75/100
+|-damage|p1a: Indeedee|50/100
+|-damage|p1a: Indeedee|28/100
+|-hitcount|p1a: Indeedee|3
+|move|p1a: Indeedee|Imprison|p1a: Indeedee
+|-start|p1a: Indeedee|move: Imprison
+|cant|p2b: Indeedee|move: Imprison|Trick Room
+|
+|upkeep
+|turn|2
+|
+|t:|1756843202
+|-terastallize|p1b: Ursaluna|Normal
+|move|p2b: Indeedee|Helping Hand|p2a: Maushold
+|-singleturn|p2a: Maushold|Helping Hand|[of] p2b: Indeedee
+|move|p2a: Maushold|Population Bomb|p1b: Ursaluna
+|-damage|p1b: Ursaluna|87/100
+|-damage|p1b: Ursaluna|74/100
+|-damage|p1b: Ursaluna|61/100
+|-damage|p1b: Ursaluna|49/100
+|-damage|p1b: Ursaluna|35/100
+|-damage|p1b: Ursaluna|23/100
+|-damage|p1b: Ursaluna|9/100
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|-hitcount|p1: Ursaluna|8
+|move|p1a: Indeedee|Expanding Force|p2a: Maushold|[spread] p2a,p2b
+|-resisted|p2b: Indeedee
+|-damage|p2a: Maushold|16/100
+|-damage|p2b: Indeedee|83/100
+|
+|upkeep
+|
+|t:|1756843211
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|3
+|
+|t:|1756843225
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Sneasler|Close Combat|p2b: Indeedee
+|-damage|p2b: Indeedee|20/100
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|move|p2a: Maushold|Population Bomb|p1a: Indeedee
+|-damage|p1a: Indeedee|6/100
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|-hitcount|p1: Indeedee|2
+|
+|upkeep
+|
+|t:|1756843231
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|turn|4
+|
+|t:|1756843239
+|move|p1b: Sneasler|Protect|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Protect
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Maushold|Population Bomb|p1b: Sneasler
+|-activate|p1b: Sneasler|move: Protect
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-enditem|p1a: Archaludon|Power Herb
+|-anim|p1a: Archaludon|Electro Shot|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|upkeep
+|
+|t:|1756843244
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|turn|5
+|
+|t:|1756843254
+|-terastallize|p2b: Hatterene|Fire
+|move|p2a: Maushold|Protect|p2a: Maushold
+|-singleturn|p2a: Maushold|Protect
+|move|p1b: Sneasler|Dire Claw|p2b: Hatterene
+|-damage|p2b: Hatterene|52/100
+|move|p1a: Archaludon|Thunderbolt|p2a: Maushold
+|-activate|p2a: Maushold|move: Protect
+|move|p2b: Hatterene|Trick Room|p2b: Hatterene
+|-fieldstart|move: Trick Room|[of] p2b: Hatterene
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756843275
+|move|p2b: Hatterene|Expanding Force|p1b: Sneasler
+|-supereffective|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|-damage|p2b: Hatterene|43/100|[from] item: Life Orb
+|move|p1a: Archaludon|Dragon Pulse|p2b: Hatterene
+|-damage|p2b: Hatterene|0 fnt
+|faint|p2b: Hatterene
+|move|p2a: Maushold|Population Bomb|p1a: Archaludon
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|95/100
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|90/100
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|85/100
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|81/100
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|75/100
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|70/100
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|65/100
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|60/100
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|55/100
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|50/100
+|-hitcount|p1a: Archaludon|10
+|
+|upkeep
+|
+|t:|1756843278
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|7
+|
+|t:|1756843281
+|move|p2b: Torkoal|Eruption|p1a: Archaludon
+|-damage|p1a: Archaludon|0 fnt
+|faint|p1a: Archaludon
+|
+|win|TR Setter

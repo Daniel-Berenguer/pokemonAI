@@ -1,0 +1,108 @@
+|j|☆Atc13
+|j|☆JuanGuerrero09
+|html|Atc13JuanGuerrero09    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756888244
+|gametype|doubles
+|player|p1|Atc13|265|1000
+|player|p2|JuanGuerrero09|2|1062
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Yanmega, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Gyarados, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Kingambit||BlackGlasses|Defiant|SuckerPunch,SwordsDance,KowtowCleave,IronHead|||M|||50|,,,,,Dark]Yanmega||FocusSash|SpeedBoost|Tailwind,Protect,AirSlash,GigaDrain|||M|||50|,,,,,Grass]Sneasler||WhiteHerb|Unburden|Coaching,DireClaw,CloseCombat,Protect|||F|||50|,,,,,Dark]Ninetales-Alola||NeverMeltIce|SnowWarning|AuroraVeil,Encore,Blizzard,Protect|||F|||50|,,,,,Ghost]Electabuzz||Eviolite|VitalSpirit|Taunt,Electroweb,FollowMe,Leer|||M|||50|,,,,,Ghost]Gyarados||IapapaBerry|Intimidate|ThunderWave,Taunt,Waterfall,Protect|||M|||50|,,,,,Ground
+|showteam|p2|Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,FakeOut,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Fire]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|HighHorsepower,Earthquake,IronHead,Protect|||M|||50|,,,,,Ground]Gholdengo||MetalCoat|GoodasGold|ShadowBall,Protect,MakeItRain,NastyPlot||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Ghost
+|
+|t:|1756888300
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Yanmega|Yanmega, L50, M|100/100
+|switch|p1b: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p2b: Excadrill|Excadrill, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1756888336
+|-terastallize|p1b: Electabuzz|Ghost
+|move|p1b: Electabuzz|Follow Me|p1b: Electabuzz
+|-singleturn|p1b: Electabuzz|move: Follow Me
+|move|p2b: Excadrill|High Horsepower|p1b: Electabuzz
+|-damage|p1b: Electabuzz|55/100
+|move|p1a: Yanmega|Tailwind|p1a: Yanmega
+|-sidestart|p1: Atc13|move: Tailwind
+|move|p2a: Tyranitar|Rock Slide|p1b: Electabuzz|[spread] p1a,p1b
+|-supereffective|p1a: Yanmega
+|-enditem|p1a: Yanmega|Focus Sash
+|-damage|p1a: Yanmega|1/100
+|-damage|p1b: Electabuzz|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Yanmega|0 fnt|[from] Sandstorm
+|-damage|p1b: Electabuzz|25/100|[from] Sandstorm
+|faint|p1a: Yanmega
+|upkeep
+|
+|t:|1756888354
+|switch|p1a: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|2
+|
+|t:|1756888402
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|move|p2b: Excadrill|Protect|p2b: Excadrill
+|-singleturn|p2b: Excadrill|Protect
+|move|p1b: Electabuzz|Follow Me|p1b: Electabuzz
+|-singleturn|p1b: Electabuzz|move: Follow Me
+|move|p1a: Ninetales|Blizzard|p2a: Gholdengo|[spread] p2a
+|-activate|p2b: Excadrill|move: Protect
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|77/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756888426
+|switch|p2b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|move|p1a: Ninetales|Aurora Veil||[still]
+|-fail|p1a: Ninetales
+|move|p1b: Electabuzz|Electroweb|p2b: Tyranitar|[spread] p2a,p2b
+|-damage|p2a: Gholdengo|62/100
+|-damage|p2b: Tyranitar|95/100
+|-unboost|p2a: Gholdengo|spe|1
+|-unboost|p2b: Tyranitar|spe|1
+|move|p2a: Gholdengo|Make It Rain|p1a: Ninetales|[spread] p1a,p1b
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-damage|p1b: Electabuzz|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Ninetales
+|faint|p1b: Electabuzz
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1756888447
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|turn|4
+|-message|Atc13 forfeited.
+|
+|win|JuanGuerrero09

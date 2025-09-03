@@ -1,0 +1,130 @@
+|j|☆iceman was taken
+|j|☆Tlayer4002
+|html|iceman was takenTlayer4002    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756835548
+|gametype|doubles
+|player|p1|iceman was taken|169|
+|player|p2|Tlayer4002|170|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Corviknight, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Annihilape||SafetyGoggles|Defiant|FinalGambit,CloseCombat,RageFist,Taunt|||F|||50|,,,,,Water]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Roost,Tailwind|||F|||50|,,,,,Dragon]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Tyranitar||AssaultVest|SandStream|RockSlide,TeraBlast,LowKick,KnockOff|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|Earthquake,IronHead,HighHorsepower,Protect|||F|||50|,,,,,Ground
+|
+|t:|1756835584
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jumpluff|Jumpluff, L50, F|100/100
+|switch|p1b: Charizard|Charizard, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756835629
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|-terastallize|p1a: Jumpluff|Water
+|move|p1a: Jumpluff|Sleep Powder|p2a: Indeedee
+|-status|p2a: Indeedee|slp|[from] move: Sleep Powder
+|move|p2b: Sneasler|Dire Claw|p1a: Jumpluff
+|-damage|p1a: Jumpluff|46/100
+|cant|p2a: Indeedee|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756835653
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p2b: Sneasler|Dire Claw|p1a: Ursaluna
+|-resisted|p1a: Ursaluna
+|-damage|p1a: Ursaluna|83/100
+|move|p1b: Torkoal|Overheat|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|91/100
+|-unboost|p1b: Torkoal|spa|2
+|-enditem|p1b: Torkoal|Eject Pack
+|
+|t:|1756835667
+|switch|p1b: Jumpluff|Jumpluff, L50, F, tera:Water|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sneasler|94/100|[from] Sandstorm
+|-damage|p1b: Jumpluff|40/100|[from] Sandstorm
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1756835689
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|move|p2b: Sneasler|Dire Claw|p1b: Torkoal
+|-damage|p1b: Torkoal|66/100
+|-status|p1b: Torkoal|psn
+|move|p1a: Ursaluna|Earthquake|p2b: Sneasler|[spread] p1b,p2a,p2b
+|-supereffective|p1b: Torkoal
+|-supereffective|p2a: Tyranitar
+|-supereffective|p2b: Sneasler
+|-damage|p1b: Torkoal|0 fnt
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p2b: Sneasler|0 fnt
+|faint|p1b: Torkoal
+|faint|p2a: Tyranitar
+|faint|p2b: Sneasler
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|77/100 brn|[from] brn
+|upkeep
+|
+|t:|1756835704
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100 slp
+|switch|p2a: Annihilape|Annihilape, L50, F|100/100
+|switch|p1b: Jumpluff|Jumpluff, L50, F, tera:Water|40/100
+|turn|4
+|
+|t:|1756835723
+|move|p1b: Jumpluff|Tailwind|p1b: Jumpluff
+|-sidestart|p1: iceman was taken|move: Tailwind
+|cant|p2b: Indeedee|slp
+|move|p1a: Ursaluna|Headlong Rush|p2a: Annihilape
+|-damage|p2a: Annihilape|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Annihilape
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|71/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1756835740
+|move|p1b: Jumpluff|Rage Powder|p1b: Jumpluff
+|-singleturn|p1b: Jumpluff|move: Rage Powder
+|cant|p2b: Indeedee|slp
+|move|p1a: Ursaluna|Facade|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|win|iceman was taken

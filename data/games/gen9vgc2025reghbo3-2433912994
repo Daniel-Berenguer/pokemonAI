@@ -1,0 +1,165 @@
+|j|☆Jacrepid
+|j|☆AUBrigade
+|html|JacrepidAUBrigade    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756845800
+|gametype|doubles
+|player|p1|Jacrepid|101|1223
+|player|p2|AUBrigade|169|1270
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Maushold-Four, L50|
+|poke|p1|Annihilape, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Ninetales-Alola, L50, M|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|DracoMeteor,FlashCannon,ElectroShot,BodyPress|||M|||50|,,,,,Bug]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|||M|||50|,,,,,Stellar]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,FlipTurn,LastRespects,TeraBlast|||M|||50|,,,,,Grass]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom||||||50|,,,,,Water]Maushold-Four||SafetyGoggles|FriendGuard|BeatUp,FollowMe,Taunt,Protect||||||50|,,,,,Ghost]Annihilape||Leftovers|Defiant|DrainPunch,RageFist,BulkUp,Protect|||F|||50|,,,,,Grass
+|showteam|p2|Sneasler||WhiteHerb|Unburden|DireClaw,Protect,Coaching,CloseCombat|||F|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,IceSpinner,ExtremeSpeed|||F|||50|,,,,,Steel]Incineroar||SitrusBerry|Intimidate|FakeOut,PartingShot,FlareBlitz,KnockOff|||F|||50|,,,,,Grass]Annihilape||SafetyGoggles|Defiant|RageFist,CloseCombat,Taunt,FinalGambit|||F|||50|,,,,,Steel]Kingambit||AssaultVest|Defiant|KowtowCleave,SuckerPunch,LowKick,IronHead|||M|||50|,,,,,Dark]Ninetales-Alola||FocusSash|SnowWarning|Protect,Blizzard,FreezeDry,AuroraVeil|||M|||50|,,,,,Ice
+|
+|t:|1756845820
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Maushold|Maushold-Four, L50|100/100
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|turn|1
+|
+|t:|1756845835
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|-terastallize|p1a: Maushold|Ghost
+|-terastallize|p2b: Kingambit|Dark
+|move|p2b: Kingambit|Sucker Punch|p1a: Maushold
+|-supereffective|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|move|p2a: Sneasler|Coaching|p2b: Kingambit
+|-boost|p2b: Kingambit|atk|1
+|-boost|p2b: Kingambit|def|1
+|
+|upkeep
+|
+|t:|1756845850
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|2
+|
+|t:|1756845861
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100
+|move|p2a: Sneasler|Close Combat|p1b: Annihilape
+|-immune|p1b: Annihilape
+|move|p1a: Pelipper|Tailwind|p1a: Pelipper
+|-sidestart|p1: Jacrepid|move: Tailwind
+|move|p2b: Kingambit|Kowtow Cleave|p1b: Annihilape
+|-damage|p1b: Annihilape|2/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Annihilape|9/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1756845883
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|move|p2b: Kingambit|Sucker Punch|p1a: Pelipper
+|-enditem|p1a: Pelipper|Focus Sash
+|-damage|p1a: Pelipper|1/100
+|move|p1a: Pelipper|Hurricane|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756845896
+|switch|p2a: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|4
+|
+|t:|1756845915
+|switch|p1a: Annihilape|Annihilape, L50, F|9/100
+|move|p2b: Kingambit|Sucker Punch||[still]
+|-fail|p2b: Kingambit
+|move|p1b: Archaludon|Body Press|p2b: Kingambit
+|-supereffective|p2b: Kingambit
+|-damage|p2b: Kingambit|72/100
+|move|p2a: Ninetales|Blizzard|p1a: Annihilape|[spread] p1a,p1b
+|-damage|p1a: Annihilape|0 fnt
+|-damage|p1b: Archaludon|72/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|faint|p1a: Annihilape
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1756845924
+|switch|p1a: Pelipper|Pelipper, L50, M|1/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|5
+|
+|t:|1756845937
+|move|p1a: Pelipper|Protect|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Protect
+|move|p2b: Kingambit|Sucker Punch||[still]
+|-fail|p2b: Kingambit
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2b: Kingambit
+|-damage|p2b: Kingambit|34/100
+|move|p2a: Ninetales|Freeze-Dry|p1a: Pelipper
+|-activate|p1a: Pelipper|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: Jacrepid|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1756845954
+|move|p2b: Kingambit|Sucker Punch|p1b: Archaludon
+|-damage|p1b: Archaludon|34/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p2a: Ninetales|Freeze-Dry|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2b: Kingambit
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756845967
+|switch|p2b: Annihilape|Annihilape, L50, F|100/100
+|turn|7
+|
+|t:|1756845976
+|move|p2a: Ninetales|Blizzard|p1b: Archaludon|[miss]
+|-miss|p2a: Ninetales|p1b: Archaludon
+|move|p2b: Annihilape|Final Gambit|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|faint|p2b: Annihilape
+|faint|p1b: Archaludon
+|
+|win|AUBrigade
+|raw|Jacrepid's rating: 1223 → 1201(-22 for losing)
+|raw|AUBrigade's rating: 1270 → 1292(+22 for winning)

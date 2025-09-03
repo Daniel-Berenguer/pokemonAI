@@ -1,0 +1,140 @@
+|j|☆marcosdeltasena31
+|j|☆bcoffey1010
+|html|marcosdeltasena31bcoffey1010    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756861970
+|gametype|doubles
+|player|p1|marcosdeltasena31|hilbert|1431
+|player|p2|bcoffey1010|170|1346
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||F|||50|,,,,,Fairy]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,FakeOut,PartingShot,KnockOff|||F|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||F|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||M|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||M|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|
+|t:|1756861998
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Porygon2|Porygon2, L50|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|atk|1
+|turn|1
+|
+|t:|1756862011
+|-terastallize|p2b: Indeedee|Psychic
+|-terastallize|p1b: Amoonguss|Water
+|move|p2b: Indeedee|Expanding Force|p1a: Porygon2|[spread] p1a,p1b
+|-crit|p1a: Porygon2
+|-damage|p1a: Porygon2|31/100
+|-damage|p1b: Amoonguss|37/100
+|-enditem|p1b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1b: Amoonguss|62/100|[from] item: Sitrus Berry
+|move|p2a: Annihilape|Taunt|p1a: Porygon2
+|-start|p1a: Porygon2|move: Taunt
+|move|p1a: Porygon2|Ice Beam|p2a: Annihilape
+|-damage|p2a: Annihilape|77/100
+|move|p1b: Amoonguss|Spore|p2b: Indeedee
+|-status|p2b: Indeedee|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1756862044
+|switch|p1a: Dragonite|Dragonite, L50, F|100/100
+|cant|p2b: Indeedee|slp
+|move|p2a: Annihilape|Rage Fist|p1a: Dragonite
+|-damage|p1a: Dragonite|78/100
+|move|p1b: Amoonguss|Pollen Puff|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|48/100 slp
+|
+|upkeep
+|turn|3
+|
+|t:|1756862055
+|-curestatus|p2b: Indeedee|slp|[msg]
+|move|p2b: Indeedee|Expanding Force|p1b: Amoonguss|[spread] p1a,p1b
+|-damage|p1a: Dragonite|3/100
+|-damage|p1b: Amoonguss|1/100
+|move|p2a: Annihilape|Final Gambit|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p2a: Annihilape
+|faint|p1a: Dragonite
+|move|p1b: Amoonguss|Pollen Puff|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|upkeep
+|
+|t:|1756862067
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|4
+|
+|t:|1756862092
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2b: Ursaluna|Hyper Voice|p1a: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|53/100
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|-damage|p2b: Ursaluna|91/100|[from] item: Life Orb
+|move|p1a: Ursaluna|Earthquake|p2b: Ursaluna|[spread] p2b
+|-activate|p2a: Sneasler|move: Protect
+|-damage|p2b: Ursaluna|54/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756862098
+|switch|p1b: Porygon2|Porygon2, L50|31/100
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|atk|1
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bcoffey1010)
+|
+|t:|1756862107
+|move|p2a: Sneasler|Close Combat|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Ursaluna
+|move|p2b: Ursaluna|Blood Moon|p1b: Porygon2
+|-crit|p1b: Porygon2
+|-damage|p1b: Porygon2|0 fnt
+|faint|p1b: Porygon2
+|-damage|p2b: Ursaluna|45/100|[from] item: Life Orb
+|
+|win|bcoffey1010
+|raw|marcosdeltasena31's rating: 1431 → 1406(-25 for losing)
+|raw|bcoffey1010's rating: 1346 → 1371(+25 for winning)
+|l|☆marcosdeltasena31
+|player|p1|

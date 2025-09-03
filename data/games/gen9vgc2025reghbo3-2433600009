@@ -1,0 +1,108 @@
+|j|☆iflamercenar
+|j|☆rdw39
+|html|iflamercenarrdw39    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756812792
+|gametype|doubles
+|player|p1|iflamercenar|acetrainer-gen4dp|1203
+|player|p2|rdw39|170|1073
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Magmar, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Talonflame, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||GrassySeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Volcarona||Leftovers|FlameBody|HeatWave,QuiverDance,TeraBlast,Protect|||M|||50|,,,,,Fairy]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||F|||50|,,,,,Steel]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||F|||50|,,,,,Fire]Gholdengo||SitrusBerry|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Magmar||Eviolite|VitalSpirit|Overheat,FollowMe,Taunt,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,HelpingHand,Protect|||M|||50|,,,,,Psychic]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Protect|||M|||50|,,,,,Dragon]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Ghost]Talonflame||CovertCloak|GaleWings|FlareBlitz,DualWingbeat,WillOWisp,Tailwind|||M|||50|,,,,,Fairy
+|
+|t:|1756812802
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|1
+|
+|t:|1756812834
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|move|p1b: Rillaboom|Fake Out|p2b: Indeedee
+|-activate|p2b: Indeedee|move: Psychic Terrain
+|move|p2a: Electabuzz|Taunt|p1a: Volcarona
+|-start|p1a: Volcarona|move: Taunt
+|cant|p1a: Volcarona|move: Taunt|Quiver Dance
+|
+|upkeep
+|turn|2
+|
+|t:|1756812857
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|move|p2a: Electabuzz|Follow Me|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|move: Follow Me
+|move|p1a: Volcarona|Heat Wave|p2a: Electabuzz|[spread] p2a,p2b
+|-damage|p2a: Electabuzz|68/100
+|-damage|p2b: Ursaluna|51/100
+|move|p1b: Rillaboom|Wood Hammer|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|-damage|p1b: Rillaboom|82/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1756812872
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|turn|3
+|
+|t:|1756812880
+|switch|p1b: Magmar|Magmar, L50, F, shiny|100/100
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p2a: Indeedee|Expanding Force|p1b: Magmar|[spread] p1a,p1b
+|-damage|p1a: Volcarona|53/100
+|-damage|p1b: Magmar|62/100
+|move|p1a: Volcarona|Heat Wave|p2a: Indeedee|[spread] p2a
+|-activate|p2b: Ursaluna|move: Protect
+|-damage|p2a: Indeedee|47/100
+|
+|-heal|p1a: Volcarona|59/100|[from] item: Leftovers
+|-end|p1a: Volcarona|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1756812899
+|move|p1a: Volcarona|Heat Wave|p2b: Ursaluna|[spread] p2a,p2b
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2a: Indeedee
+|faint|p2b: Ursaluna
+|move|p1b: Magmar|Overheat|p2: Indeedee|[notarget]
+|-fail|p1b: Magmar
+|
+|-heal|p1a: Volcarona|66/100|[from] item: Leftovers
+|upkeep
+|-message|rdw39 forfeited.
+|
+|win|iflamercenar
+|raw|iflamercenar's rating: 1203 → 1219(+16 for winning)
+|raw|rdw39's rating: 1073 → 1060(-13 for losing)
+|c|☆rdw39|ggwp
+|c|☆rdw39|can't make this team work
+|l|☆iflamercenar
+|player|p1|

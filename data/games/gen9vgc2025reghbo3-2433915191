@@ -1,0 +1,190 @@
+|j|☆Cage92
+|j|☆serbol03
+|html|Cage92serbol03    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756846022
+|gametype|doubles
+|player|p1|Cage92|bugsy|
+|player|p2|serbol03|giovanni|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Corviknight, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Corviknight||CovertCloak|MirrorArmor|BraveBird,Taunt,Roost,Tailwind|||M|||50|,,,,,Dragon]Garchomp||ClearAmulet|RoughSkin|Earthquake,DragonClaw,StompingTantrum,Protect|||M|||50|,,,,,Steel]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Flying]Sneasler||WhiteHerb|Unburden|DireClaw,CloseCombat,Coaching,Protect|||M|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,WillOWisp,PartingShot,FakeOut|||M|||50|,,,,,Ghost
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|KnockOff,FlareBlitz,PartingShot,FakeOut|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,ClearSmog|||M|||50|,,,,,Fairy]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Ground]Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,FlashCannon,BodyPress|||F|||50|,,,,,Grass]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,AquaJet,FlipTurn|||M|||50|,,,,,Grass
+|
+|t:|1756846083
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-fail|p1b: Garchomp|unboost|[from] item: Clear Amulet|[of] p1b: Garchomp
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Basculegion|atk|1
+|turn|1
+|
+|t:|1756846122
+|-terastallize|p1a: Incineroar|Ghost
+|move|p2a: Incineroar|Fake Out|p1b: Garchomp
+|-damage|p1b: Garchomp|93/100
+|-damage|p2a: Incineroar|88/100|[from] ability: Rough Skin|[of] p1b: Garchomp
+|cant|p1b: Garchomp|flinch
+|move|p2b: Basculegion|Flip Turn|p1a: Incineroar
+|-damage|p1a: Incineroar|75/100
+|
+|t:|1756846147
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100|[from] Flip Turn
+|move|p1a: Incineroar|Will-O-Wisp|p2b: Archaludon|[miss]
+|-miss|p1a: Incineroar|p2b: Archaludon
+|
+|upkeep
+|turn|2
+|
+|t:|1756846215
+|move|p1b: Garchomp|Stomping Tantrum|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|move|p2b: Archaludon|Flash Cannon|p1a: Incineroar
+|-damage|p1a: Incineroar|43/100
+|move|p1a: Incineroar|Parting Shot|p2b: Archaludon
+|-unboost|p2b: Archaludon|atk|1
+|-unboost|p2b: Archaludon|spa|1
+|
+|t:|1756846227
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100|[from] Parting Shot
+|
+|upkeep
+|
+|t:|1756846237
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|turn|3
+|
+|t:|1756846288
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2a: Basculegion|Flip Turn|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756846320
+|move|p2a: Basculegion|Flip Turn|p1a: Gholdengo
+|-damage|p1a: Gholdengo|23/100
+|
+|t:|1756846323
+|switch|p2a: Archaludon|Archaludon, L50, F|100/100|[from] Flip Turn
+|move|p1b: Garchomp|Dragon Claw|p2b: Pelipper
+|-damage|p2b: Pelipper|49/100
+|move|p1a: Gholdengo|Shadow Ball|p2b: Pelipper
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|-damage|p1a: Gholdengo|13/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756846334
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|turn|5
+|
+|t:|1756846386
+|-terastallize|p2b: Basculegion|Grass
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p2b: Basculegion|Last Respects|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|move|p2a: Archaludon|Body Press|p1b: Garchomp
+|-activate|p1b: Garchomp|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756846399
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|6
+|
+|t:|1756846475
+|switch|p1b: Incineroar|Incineroar, L50, M, tera:Ghost|43/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Archaludon|atk|1
+|-unboost|p2b: Basculegion|atk|1
+|move|p2b: Basculegion|Last Respects|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Tyranitar|Knock Off|p2b: Basculegion
+|-damage|p2b: Basculegion|28/100
+|-enditem|p2b: Basculegion|Choice Band|[from] move: Knock Off|[of] p1a: Tyranitar
+|move|p2a: Archaludon|Flash Cannon|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|68/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Basculegion|22/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756846491
+|switch|p1b: Garchomp|Garchomp, L50, M|93/100
+|turn|7
+|
+|t:|1756846553
+|move|p1b: Garchomp|Dragon Claw|p2b: Basculegion
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|move|p1a: Tyranitar|Low Kick|p2a: Archaludon
+|-supereffective|p2a: Archaludon
+|-damage|p2a: Archaludon|58/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2a: Archaludon|Draco Meteor|p1b: Garchomp
+|-supereffective|p1b: Garchomp
+|-damage|p1b: Garchomp|0 fnt
+|-unboost|p2a: Archaludon|spa|2
+|faint|p1b: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1756846569
+|move|p1a: Tyranitar|Low Kick|p2a: Archaludon
+|-supereffective|p2a: Archaludon
+|-damage|p2a: Archaludon|29/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2a: Archaludon|Body Press|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|win|serbol03

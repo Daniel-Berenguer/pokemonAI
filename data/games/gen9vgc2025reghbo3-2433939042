@@ -1,0 +1,158 @@
+|j|☆Thenestball
+|j|☆thegodli
+|html|Thenestballthegodli    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756848459
+|gametype|doubles
+|player|p1|Thenestball|hiker-gen4|1062
+|player|p2|thegodli|emmet|1065
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Weezing, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Yanma, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Primarina, L50, F|
+|poke|p2|Cinderace, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|showteam|p1|Weezing||SitrusBerry|NeutralizingGas|SludgeBomb,WillOWisp,Haze,Protect|||M|||50|,,,,,Grass]Amoonguss||RockyHelmet|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Water]Garchomp||LifeOrb|RoughSkin|Earthquake,RockSlide,StompingTantrum,Protect|||M|||50|,,,,,Ground]Yanma||FocusSash|CompoundEyes|Screech,Tailwind,Protect,Hypnosis|||F|||50|,,,,,Ghost]Incineroar||AbilityShield|Intimidate|FlareBlitz,FakeOut,PartingShot,KnockOff|||M|||50|,,,,,Grass]Primarina||MysticWater|LiquidVoice|HyperVoice,Moonblast,Protect,CalmMind|||F|||50|,,,,,Poison
+|showteam|p2|Cinderace||ChoiceBand|Libero|FlareBlitz,HighJumpKick,Uturn,ZenHeadbutt|||F|||50|,,,,,Fire]Torkoal||ChoiceSpecs|Drought|Eruption,WeatherBall,EarthPower,ClearSmog|||M|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|CloseCombat,LeafBlade,SleepPowder,AfterYou|||F|||50|,,,,,Grass]Porygon2||Eviolite|Download|IceBeam,TeraBlast,Recover,TrickRoom||||||50|,,,,,Fighting]Indeedee-F||SafetyGoggles|PsychicSurge|Psychic,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Fairy]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Protect,Earthquake|||M|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Thenestball)
+|
+|t:|1756848481
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Yanma|Yanma, L50, F, shiny|100/100
+|switch|p1b: Garchomp|Garchomp, L50, M, shiny|100/100
+|switch|p2a: Oogway|Torkoal, L50, M|100/100
+|switch|p2b: Lilli|Lilligant-Hisui, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Oogway
+|turn|1
+|
+|t:|1756848498
+|-terastallize|p1b: Garchomp|Ground
+|move|p2b: Lilli|After You|p2a: Oogway
+|-activate|p2a: Oogway|move: After You
+|move|p2a: Oogway|Eruption|p1b: Garchomp|[spread] p1a,p1b
+|-supereffective|p1a: Yanma
+|-enditem|p1a: Yanma|Focus Sash
+|-damage|p1a: Yanma|1/100
+|-damage|p1b: Garchomp|0 fnt
+|faint|p1b: Garchomp
+|move|p1a: Yanma|Hypnosis|p2b: Lilli
+|-status|p2b: Lilli|slp|[from] move: Hypnosis
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756848510
+|switch|p1b: Primarina|Primarina, L50, F, shiny|100/100
+|turn|2
+|
+|t:|1756848526
+|switch|p2a: Wall-E|Porygon2, L50|100/100
+|-ability|p2a: Wall-E|Download|boost
+|-boost|p2a: Wall-E|atk|1
+|cant|p2b: Lilli|slp
+|move|p1a: Yanma|Hypnosis|p2a: Wall-E
+|-status|p2a: Wall-E|slp|[from] move: Hypnosis
+|move|p1b: Primarina|Calm Mind|p1b: Primarina
+|-boost|p1b: Primarina|spa|1
+|-boost|p1b: Primarina|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756848548
+|cant|p2b: Lilli|slp
+|move|p1a: Yanma|Screech|p2a: Wall-E
+|-unboost|p2a: Wall-E|def|2
+|move|p1b: Primarina|Hyper Voice|p2b: Lilli|[spread] p2a,p2b
+|-resisted|p2b: Lilli
+|-damage|p2a: Wall-E|83/100 slp
+|-damage|p2b: Lilli|76/100 slp
+|cant|p2a: Wall-E|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756848563
+|switch|p1a: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Wall-E|atk|1
+|-unboost|p2b: Lilli|atk|1
+|cant|p2b: Lilli|slp
+|move|p1b: Primarina|Calm Mind|p1b: Primarina
+|-boost|p1b: Primarina|spa|1
+|-boost|p1b: Primarina|spd|1
+|cant|p2a: Wall-E|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|inactive|thegodli has 30 seconds left.
+|
+|t:|1756848590
+|switch|p2b: Rubi|Cinderace, L50, F|100/100
+|-terastallize|p2a: Wall-E|Fighting
+|move|p1a: Incineroar|Fake Out|p2b: Rubi
+|-damage|p2b: Rubi|82/100
+|move|p1b: Primarina|Calm Mind|p1b: Primarina
+|-boost|p1b: Primarina|spa|1
+|-boost|p1b: Primarina|spd|1
+|-curestatus|p2a: Wall-E|slp|[msg]
+|move|p2a: Wall-E|Tera Blast|p1a: Incineroar|[anim] Tera Blast Fighting
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|47/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|inactive|Thenestball has 30 seconds left.
+|inactive|thegodli has 30 seconds left.
+|
+|t:|1756848621
+|move|p2b: Rubi|Zen Headbutt|p1b: Primarina
+|-start|p2b: Rubi|typechange|Psychic|[from] ability: Libero
+|-damage|p1b: Primarina|40/100
+|move|p1a: Incineroar|Knock Off|p2b: Rubi
+|-supereffective|p2b: Rubi
+|-damage|p2b: Rubi|0 fnt
+|-enditem|p2b: Rubi|Choice Band|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2b: Rubi
+|move|p1b: Primarina|Hyper Voice|p2a: Wall-E
+|-damage|p2a: Wall-E|0 fnt
+|faint|p2a: Wall-E
+|
+|upkeep
+|inactive|thegodli has 30 seconds left.
+|inactive|thegodli has 20 seconds left.
+|inactive|thegodli has 15 seconds left.
+|inactive|thegodli has 10 seconds left.
+|inactive|thegodli has 5 seconds left.
+|
+|t:|1756848677
+|switch|p2b: Oogway|Torkoal, L50, M|100/100
+|switch|p2a: Lilli|Lilligant-Hisui, L50, F|76/100 slp
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Oogway
+|turn|7
+|-message|thegodli forfeited.
+|
+|win|Thenestball
+|raw|Thenestball's rating: 1062 → 1093(+31 for winning)
+|raw|thegodli's rating: 1065 → 1045(-20 for losing)
+|l|☆thegodli
+|player|p2|

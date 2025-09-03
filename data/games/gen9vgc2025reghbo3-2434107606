@@ -1,0 +1,111 @@
+|j|☆ShookTV
+|j|☆gesithofoblivion
+|html|ShookTVgesithofoblivion    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756868018
+|gametype|doubles
+|player|p1|ShookTV|clerk|1078
+|player|p2|gesithofoblivion|102|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Magmar, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Corviknight, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Maushold-Four, L50|
+|poke|p2|Murkrow, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Armarouge, L50, F|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|IronHead,SwordsDance,Protect,Earthquake|||M|||50|,,,,,Stellar]Magmar||Eviolite|VitalSpirit|HeatWave,ClearSmog,FollowMe,Protect|||M|||50|,,,,,Flying]Sneasler||WhiteHerb|Unburden|FakeOut,CloseCombat,Coaching,DireClaw|||F|||50|,,,,,Flying]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,Protect,Trick,TeraBlast|||M|||50|,,,,,Psychic]Corviknight||PsychicSeed|MirrorArmor|BraveBird,PowerTrip,BulkUp,Roost|||F|||50|,,,,,Water
+|showteam|p2|Incineroar||RockyHelmet|Intimidate|PartingShot,KnockOff,Protect,FakeOut|||F|||50|,,,,,Steel]Annihilape||ChoiceBand|Defiant|CloseCombat,Protect,RageFist,FinalGambit|||M|||50|,,,,,Stellar]Maushold-Four||SitrusBerry|FriendGuard|BeatUp,Protect,FollowMe,PopulationBomb||||||50|,,,,,Flying]Murkrow||Eviolite|Prankster|PerishSong,Tailwind,Protect,Taunt|||F|||50|,,,,,Steel]Indeedee-F||FocusSash|PsychicSurge|TrickRoom,FollowMe,Protect,Psychic|||F|||50|,,,,,Steel]Armarouge||ChoiceSpecs|FlashFire|ExpandingForce,Protect,Disable,ArmorCannon|||F|||50|,,,,,Stellar
+|
+|t:|1756868054
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Corviknight|Corviknight, L50, F|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Annihilape|Annihilape, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p1a: Corviknight|Psychic Seed
+|-boost|p1a: Corviknight|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756868082
+|move|p1b: Sneasler|Coaching|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2b: Annihilape|Final Gambit|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p2b: Annihilape
+|faint|p1b: Sneasler
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|
+|t:|1756868095
+|switch|p2b: Murkrow|Murkrow, L50, F|100/100
+|switch|p1b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|2
+|
+|t:|1756868111
+|move|p2a: Indeedee|Protect|p2a: Indeedee
+|-singleturn|p2a: Indeedee|Protect
+|move|p2b: Murkrow|Perish Song|p2b: Murkrow
+|-start|p1a: Corviknight|perish3|[silent]
+|-activate|p1b: Tyranitar|move: Psychic Terrain
+|-start|p2a: Indeedee|perish3|[silent]
+|-start|p2b: Murkrow|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1b: Tyranitar|Rock Slide|p2b: Murkrow|[spread] p2b
+|-activate|p2a: Indeedee|move: Protect
+|-supereffective|p2b: Murkrow
+|-damage|p2b: Murkrow|20/100
+|move|p1a: Corviknight|Brave Bird|p2b: Murkrow
+|-damage|p2b: Murkrow|0 fnt
+|faint|p2b: Murkrow
+|-damage|p1a: Corviknight|95/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Indeedee|94/100|[from] Sandstorm
+|-start|p1a: Corviknight|perish3
+|-start|p2a: Indeedee|perish3
+|upkeep
+|
+|t:|1756868128
+|switch|p2b: Armarouge|Armarouge, L50, F|100/100
+|turn|3
+|
+|t:|1756868142
+|-terastallize|p1a: Corviknight|Water
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Armarouge|Expanding Force|p1a: Corviknight|[spread] p1a
+|-immune|p1b: Tyranitar
+|-damage|p1a: Corviknight|36/100
+|move|p1b: Tyranitar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-enditem|p2a: Indeedee|Focus Sash|[from] move: Knock Off|[of] p1b: Tyranitar
+|faint|p2a: Indeedee
+|move|p1a: Corviknight|Power Trip|p2b: Armarouge
+|-supereffective|p2b: Armarouge
+|-damage|p2b: Armarouge|0 fnt
+|faint|p2b: Armarouge
+|
+|win|ShookTV

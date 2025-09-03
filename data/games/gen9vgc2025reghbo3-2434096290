@@ -1,0 +1,184 @@
+|j|☆cd210
+|j|☆xx_junior_rx7_xx
+|html|cd210xx_junior_rx7_xx    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756866588
+|gametype|doubles
+|player|p1|cd210|2|1039
+|player|p2|xx_junior_rx7_xx|102|1085
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Clefairy, L50, F|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Porygon-Z, L50|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Magmar, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Corviknight, L50, F|
+|poke|p2|Indeedee, L50, M|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|KnockOff,WillOWisp,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Clefairy||Eviolite|FriendGuard|FollowMe,Protect,AfterYou,HelpingHand|||F|||50|,,,,,Grass]Excadrill||ChoiceBand|SandRush|RockSlide,IronHead,HighHorsepower,ThroatChop|||M|||50|,,,,,Rock]Tyranitar||SitrusBerry|SandStream|RockSlide,LashOut,Taunt,Protect|||M|||50|,,,,,Ghost]Whimsicott||CovertCloak|Prankster|Tailwind,Moonblast,Encore,FakeTears|||F|||50|,,,,,Steel]Porygon-Z||LifeOrb|Adaptability|TriAttack,DarkPulse,IceBeam,Protect||||||50|,,,,,Dark
+|showteam|p2|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||F|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|EarthPower,IronHead,SwordsDance,Protect|||M|||50|,,,,,Ground]Magmar||Eviolite|VitalSpirit|Protect,HelpingHand,FollowMe,HeatWave|||M|||50|,,,,,Ghost]Sneasler||WhiteHerb|Unburden|FakeOut,CloseCombat,DireClaw,Coaching|||M|||50|,,,,,Flying]Corviknight||PsychicSeed|MirrorArmor|BraveBird,PowerTrip,BulkUp,Roost|||F|||50|,,,,,Water]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic
+|
+|t:|1756866634
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Porygon-Z|Porygon-Z, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2a: Magmar|Magmar, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|turn|1
+|
+|t:|1756866656
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Magmar|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|-enditem|p2b: Sneasler|White Herb
+|-clearnegativeboost|p2b: Sneasler|[silent]
+|move|p1a: Porygon-Z|Protect|p1a: Porygon-Z
+|-singleturn|p1a: Porygon-Z|Protect
+|move|p2b: Sneasler|Fake Out|p1a: Porygon-Z
+|-activate|p1a: Porygon-Z|move: Protect
+|move|p2a: Magmar|Heat Wave|p1a: Porygon-Z|[spread] p1b
+|-activate|p1a: Porygon-Z|move: Protect
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|91/100
+|
+|upkeep
+|turn|2
+|
+|t:|1756866681
+|-terastallize|p2a: Magmar|Ghost
+|move|p1b: Incineroar|Fake Out|p2b: Sneasler
+|-damage|p2b: Sneasler|81/100
+|move|p2a: Magmar|Follow Me|p2a: Magmar
+|-singleturn|p2a: Magmar|move: Follow Me
+|cant|p2b: Sneasler|flinch
+|move|p1a: Porygon-Z|Tri Attack|p2a: Magmar
+|-immune|p2a: Magmar
+|
+|upkeep
+|turn|3
+|
+|t:|1756866698
+|switch|p1a: Clefairy|Clefairy, L50, F|100/100
+|move|p2a: Magmar|Follow Me|p2a: Magmar
+|-singleturn|p2a: Magmar|move: Follow Me
+|move|p2b: Sneasler|Dire Claw|p1b: Incineroar
+|-damage|p1b: Incineroar|62/100
+|-status|p1b: Incineroar|slp
+|cant|p1b: Incineroar|slp
+|
+|upkeep
+|turn|4
+|
+|t:|1756866719
+|move|p1a: Clefairy|Protect|p1a: Clefairy
+|-singleturn|p1a: Clefairy|Protect
+|move|p2b: Sneasler|Dire Claw|p1a: Clefairy
+|-activate|p1a: Clefairy|move: Protect
+|move|p2a: Magmar|Heat Wave|p1b: Incineroar|[spread] p1b
+|-activate|p1a: Clefairy|move: Protect
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|56/100 slp
+|-curestatus|p1b: Incineroar|slp|[msg]
+|move|p1b: Incineroar|Parting Shot|p2a: Magmar
+|-unboost|p2a: Magmar|atk|1
+|-unboost|p2a: Magmar|spa|1
+|
+|t:|1756866735
+|switch|p1b: Porygon-Z|Porygon-Z, L50|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|5
+|
+|t:|1756866750
+|move|p2a: Magmar|Follow Me|p2a: Magmar
+|-singleturn|p2a: Magmar|move: Follow Me
+|move|p1a: Clefairy|Follow Me|p1a: Clefairy
+|-singleturn|p1a: Clefairy|move: Follow Me
+|move|p2b: Sneasler|Dire Claw|p1a: Clefairy
+|-supereffective|p1a: Clefairy
+|-damage|p1a: Clefairy|0 fnt
+|faint|p1a: Clefairy
+|move|p1b: Porygon-Z|Dark Pulse|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|43/100
+|-damage|p1b: Porygon-Z|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756866766
+|switch|p1a: Incineroar|Incineroar, L50, M|56/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Magmar|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|turn|6
+|
+|t:|1756866785
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Incineroar|Fake Out|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Psychic Terrain
+|move|p2b: Sneasler|Close Combat|p1b: Porygon-Z
+|-supereffective|p1b: Porygon-Z
+|-damage|p1b: Porygon-Z|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1b: Porygon-Z
+|
+|upkeep
+|
+|t:|1756866793
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|turn|7
+|
+|t:|1756866817
+|switch|p2a: Corviknight|Corviknight, L50, F|100/100
+|-enditem|p2a: Corviknight|Psychic Seed
+|-boost|p2a: Corviknight|spd|1|[from] item: Psychic Seed
+|-terastallize|p1a: Incineroar|Ghost
+|move|p1b: Whimsicott|Encore|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Psychic Terrain
+|move|p2b: Sneasler|Dire Claw|p1b: Whimsicott
+|-supereffective|p1b: Whimsicott
+|-damage|p1b: Whimsicott|7/100
+|move|p1a: Incineroar|Will-O-Wisp|p2b: Sneasler
+|-status|p2b: Sneasler|brn
+|
+|-damage|p2b: Sneasler|75/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1756866841
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: cd210|move: Tailwind
+|move|p2b: Sneasler|Dire Claw|p1b: Whimsicott
+|-supereffective|p1b: Whimsicott
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|move|p1a: Incineroar|Knock Off|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|67/100
+|move|p2a: Corviknight|Power Trip|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|36/100
+|
+|-damage|p2b: Sneasler|70/100 brn|[from] brn
+|upkeep
+|turn|9
+|-message|cd210 forfeited.
+|
+|win|xx_junior_rx7_xx
+|raw|cd210's rating: 1039 → 1025(-14 for losing)
+|raw|xx_junior_rx7_xx's rating: 1085 → 1109(+24 for winning)

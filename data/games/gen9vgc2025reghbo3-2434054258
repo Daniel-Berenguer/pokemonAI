@@ -1,0 +1,217 @@
+|j|☆b(r)2
+|j|☆eklyst
+|html|b(r)2eklyst    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756861504
+|gametype|doubles
+|player|p1|b(r)2|102|1113
+|player|p2|eklyst|pokemaniac|1129
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Volcarona, L50, M|
+|teampreview|4
+|showteam|p1|Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Dark]Basculegion||ChoiceBand|SwiftSwim|LastRespects,WaveCrash,AquaJet,FlipTurn|||M|||50|,,,,,Water]Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,ShadowBall,FocusBlast,Trick||||||50|,,,,,Steel]Amoonguss||SitrusBerry|Regenerator|RagePowder,Spore,PollenPuff,ClearSmog|||M|||50|,,,,,Water]Archaludon||AssaultVest|Stamina|DracoMeteor,ElectroShot,FlashCannon,BodyPress|||F|||50|,,,,,Grass]Incineroar||SafetyGoggles|Intimidate|PartingShot,FlareBlitz,KnockOff,FakeOut|||F|||50|,,,,,Ghost
+|showteam|p2|Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Bug]Rillaboom||AssaultVest|GrassySurge|Uturn,WoodHammer,GrassyGlide,FakeOut|||M|||50|,,,,,Fire]Farigiraf||ThroatSpray|ArmorTail|HyperVoice,Protect,Psychic,TrickRoom|||M|||50|,,,,,Fairy]Sneasler||FocusSash|Unburden|CloseCombat,Protect,FakeOut,ThroatChop|||M|||50|,,,,,Dark]Volcarona||CovertCloak|FlameBody|HeatWave,Protect,StruggleBug,RagePowder|||M|||50|,,,,,Water
+|
+|t:|1756861593
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|turn|1
+|
+|t:|1756861627
+|move|p2b: Sneasler|Fake Out|p1b: Pelipper
+|-damage|p1b: Pelipper|83/100
+|cant|p1b: Pelipper|flinch
+|move|p2a: Farigiraf|Hyper Voice|p1a: Amoonguss|[spread] p1a,p1b
+|-damage|p1a: Amoonguss|72/100
+|-damage|p1b: Pelipper|29/100
+|-enditem|p2a: Farigiraf|Throat Spray
+|-boost|p2a: Farigiraf|spa|1|[from] item: Throat Spray
+|move|p1a: Amoonguss|Spore|p2a: Farigiraf
+|-status|p2a: Farigiraf|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756861669
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|move|p1b: Pelipper|Weather Ball|p2b: Rillaboom
+|-resisted|p2b: Rillaboom
+|-damage|p2b: Rillaboom|82/100
+|cant|p2a: Farigiraf|slp
+|move|p1a: Amoonguss|Spore|p2b: Rillaboom
+|-immune|p2b: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Rillaboom|88/100|[from] Grassy Terrain
+|-heal|p1a: Amoonguss|77/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756861686
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Farigiraf|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|move|p2b: Rillaboom|Grassy Glide|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|88/100
+|cant|p2a: Farigiraf|slp
+|move|p1a: Amoonguss|Pollen Puff|p2a: Farigiraf
+|-supereffective|p2a: Farigiraf
+|-damage|p2a: Farigiraf|69/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Rillaboom|94/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|94/100|[from] Grassy Terrain
+|-heal|p2a: Farigiraf|75/100 slp|[from] Grassy Terrain
+|-heal|p1a: Amoonguss|83/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756861707
+|move|p2b: Rillaboom|U-turn|p1b: Incineroar
+|-damage|p1b: Incineroar|78/100
+|
+|t:|1756861711
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100|[from] U-turn
+|move|p1b: Incineroar|Knock Off|p2a: Farigiraf
+|-supereffective|p2a: Farigiraf
+|-crit|p2a: Farigiraf
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|move|p1a: Amoonguss|Pollen Puff|p2b: Ursaluna
+|-damage|p2b: Ursaluna|81/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Ursaluna|87/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|84/100|[from] Grassy Terrain
+|-heal|p1a: Amoonguss|89/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756861725
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|turn|5
+|
+|t:|1756861762
+|switch|p1b: Pelipper|Pelipper, L50, M|29/100
+|-terastallize|p2b: Ursaluna|Normal
+|move|p2a: Sneasler|Fake Out|p1b: Pelipper
+|-damage|p1b: Pelipper|9/100
+|move|p2b: Ursaluna|Blood Moon|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|-damage|p2b: Ursaluna|77/100|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p2b: Ursaluna|83/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756861774
+|switch|p1a: Incineroar|Incineroar, L50, F|84/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2b: Ursaluna|atk|1
+|turn|6
+|
+|t:|1756861784
+|move|p1a: Incineroar|Fake Out|p2a: Sneasler
+|-damage|p2a: Sneasler|77/100
+|cant|p2a: Sneasler|flinch
+|move|p1b: Pelipper|Tailwind|p1b: Pelipper
+|-sidestart|p1: b(r)2|move: Tailwind
+|move|p2b: Ursaluna|Hyper Voice|p1b: Pelipper|[spread] p1a,p1b
+|-damage|p1a: Incineroar|22/100
+|-damage|p1b: Pelipper|0 fnt
+|faint|p1b: Pelipper
+|-damage|p2b: Ursaluna|73/100|[from] item: Life Orb
+|
+|-heal|p2a: Sneasler|83/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|28/100|[from] Grassy Terrain
+|-heal|p2b: Ursaluna|79/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756861792
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|turn|7
+|
+|t:|1756861807
+|switch|p2a: Rillaboom|Rillaboom, L50, M|94/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-terastallize|p1b: Gholdengo|Steel
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1b: Gholdengo|Make It Rain|p2a: Rillaboom|[spread] p2a
+|-activate|p2b: Ursaluna|move: Protect
+|-damage|p2a: Rillaboom|20/100
+|-unboost|p1b: Gholdengo|spa|1
+|move|p1a: Incineroar|Flare Blitz|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|-damage|p1a: Incineroar|21/100|[from] Recoil
+|
+|-heal|p1a: Incineroar|27/100|[from] Grassy Terrain
+|-heal|p2b: Ursaluna|85/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756861825
+|switch|p2a: Sneasler|Sneasler, L50, M|83/100
+|turn|8
+|
+|t:|1756861838
+|move|p2a: Sneasler|Fake Out|p1b: Gholdengo
+|-resisted|p1b: Gholdengo
+|-damage|p1b: Gholdengo|93/100
+|cant|p1b: Gholdengo|flinch
+|move|p1a: Incineroar|Knock Off|p2b: Ursaluna
+|-damage|p2b: Ursaluna|44/100
+|-enditem|p2b: Ursaluna|Life Orb|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2b: Ursaluna|Earth Power|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|
+|-heal|p2a: Sneasler|89/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|33/100|[from] Grassy Terrain
+|-heal|p2b: Ursaluna|50/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1756861855
+|move|p2a: Sneasler|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Incineroar
+|
+|win|eklyst
+||b(r)2 is ready for game 2.
+|inactive|eklyst has 30 seconds to confirm battle start!
+||eklyst is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

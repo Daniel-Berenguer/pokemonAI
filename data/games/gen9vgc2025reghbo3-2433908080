@@ -1,0 +1,222 @@
+|j|☆TR Setter
+|j|☆palle synchro
+|html|TR Setterpalle synchro    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756845317
+|gametype|doubles
+|player|p1|TR Setter|zinzolin|
+|player|p2|palle synchro|volkner|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Electabuzz, L50, F|
+|poke|p2|Arcanine-Hisui, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|HelpingHand,Psychic,TrickRoom,FollowMe|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,WideGuard,TrickRoom|||M|||50|,,,,,Steel]Annihilape||ChoiceScarf|Defiant|FinalGambit,CloseCombat,RageFist,Uturn|||M|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,Protect,EarthPower|||M|||50|,,,,,Fire]Kingambit||SafetyGoggles|Defiant|SuckerPunch,KowtowCleave,LowKick,Protect|||M|||50|,,,,,Dark
+|showteam|p2|Gholdengo||GrassySeed|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,Coaching,Protect|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,DrumBeating,HighHorsepower|||M|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Haze,Protect|||F|||50|,,,,,Ground]Electabuzz||Eviolite|VitalSpirit|Electroweb,Taunt,FollowMe,Protect|||F|||50|,,,,,Ghost]Arcanine-Hisui||ClearAmulet|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||M|||50|,,,,,Water
+|
+|t:|1756845388
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Annihilape|Annihilape, L50, M|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|turn|1
+|
+|t:|1756845420
+|-terastallize|p2a: Sneasler|Ghost
+|move|p1b: Hatterene|Protect|p1b: Hatterene
+|-singleturn|p1b: Hatterene|Protect
+|move|p1a: Annihilape|Rage Fist|p2b: Gholdengo
+|-supereffective|p2b: Gholdengo
+|-damage|p2b: Gholdengo|60/100
+|move|p2a: Sneasler|Close Combat|p1b: Hatterene
+|-activate|p1b: Hatterene|move: Protect
+|move|p2b: Gholdengo|Shadow Ball|p1b: Hatterene
+|-activate|p1b: Hatterene|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1756845452
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p1a: Annihilape|Rage Fist|p2b: Gholdengo
+|-supereffective|p2b: Gholdengo
+|-damage|p2b: Gholdengo|22/100
+|move|p2a: Sneasler|Dire Claw|p1a: Annihilape
+|-resisted|p1a: Annihilape
+|-damage|p1a: Annihilape|77/100
+|move|p2b: Gholdengo|Shadow Ball|p1a: Annihilape
+|-supereffective|p1a: Annihilape
+|-damage|p1a: Annihilape|0 fnt
+|faint|p1a: Annihilape
+|
+|upkeep
+|
+|t:|1756845466
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|turn|3
+|
+|t:|1756845490
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p2b: Gholdengo|Grassy Seed
+|-boost|p2b: Gholdengo|def|1|[from] item: Grassy Seed
+|-terastallize|p1a: Hatterene|Fire
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p2b: Gholdengo|29/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756845507
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Rillaboom|Fake Out|p1a: Torkoal
+|-damage|p1a: Torkoal|90/100
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Gholdengo|Make It Rain|p1a: Torkoal|[spread] p1a,p1b
+|-resisted|p1a: Torkoal
+|-crit|p1b: Indeedee
+|-damage|p1a: Torkoal|34/100
+|-damage|p1b: Indeedee|0 fnt
+|-unboost|p2b: Gholdengo|spa|1
+|faint|p1b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|40/100|[from] Grassy Terrain
+|-heal|p2b: Gholdengo|35/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756845516
+|switch|p1b: Hatterene|Hatterene, L50, F, tera:Fire|100/100
+|turn|5
+|
+|t:|1756845555
+|switch|p2a: Sneasler|Sneasler, L50, M, tera:Ghost|100/100
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1a: Torkoal|Weather Ball|p2b: Gholdengo
+|-activate|p2b: Gholdengo|move: Protect
+|move|p1b: Hatterene|Dazzling Gleam|p2a: Sneasler|[spread] p2a
+|-activate|p2b: Gholdengo|move: Protect
+|-damage|p2a: Sneasler|41/100
+|-damage|p1b: Hatterene|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|46/100|[from] Grassy Terrain
+|-heal|p1b: Hatterene|97/100|[from] Grassy Terrain
+|-heal|p2b: Gholdengo|41/100|[from] Grassy Terrain
+|-heal|p2a: Sneasler|47/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756845575
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1a: Torkoal|Eruption|p2b: Gholdengo|[spread] p2b
+|-activate|p2a: Sneasler|move: Protect
+|-supereffective|p2b: Gholdengo
+|-damage|p2b: Gholdengo|0 fnt
+|faint|p2b: Gholdengo
+|move|p1b: Hatterene|Dazzling Gleam|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|52/100|[from] Grassy Terrain
+|-heal|p1b: Hatterene|100/100|[from] Grassy Terrain
+|-heal|p2a: Sneasler|54/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756845582
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|turn|7
+|
+|t:|1756845601
+|move|p2b: Rillaboom|Fake Out|p1a: Torkoal
+|-damage|p1a: Torkoal|42/100
+|cant|p1a: Torkoal|flinch
+|move|p1b: Hatterene|Expanding Force|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|-damage|p1b: Hatterene|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|49/100|[from] Grassy Terrain
+|-heal|p1b: Hatterene|97/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756845607
+|switch|p2a: Arcanine|Arcanine-Hisui, L50, M|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1b: Hatterene|atk|1
+|turn|8
+|
+|t:|1756845632
+|move|p1b: Hatterene|Protect|p1b: Hatterene
+|-singleturn|p1b: Hatterene|Protect
+|move|p2a: Arcanine|Rock Slide|p1a: Torkoal|[spread] p1a
+|-activate|p1b: Hatterene|move: Protect
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|10/100
+|move|p2b: Rillaboom|High Horsepower|p1b: Hatterene
+|-activate|p1b: Hatterene|move: Protect
+|move|p1a: Torkoal|Weather Ball|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1756845647
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2a: Arcanine|Rock Slide|p1a: Torkoal|[spread] p1b
+|-activate|p1a: Torkoal|move: Protect
+|-supereffective|p1b: Hatterene
+|-damage|p1b: Hatterene|31/100
+|cant|p1b: Hatterene|flinch
+|
+|upkeep
+|turn|10
+|
+|t:|1756845662
+|move|p2a: Arcanine|Rock Slide|p1a: Torkoal|[spread] p1b
+|-miss|p2a: Arcanine|p1a: Torkoal
+|-supereffective|p1b: Hatterene
+|-damage|p1b: Hatterene|0 fnt
+|faint|p1b: Hatterene
+|move|p1a: Torkoal|Earth Power|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|win|TR Setter

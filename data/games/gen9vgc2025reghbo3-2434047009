@@ -1,0 +1,193 @@
+|j|☆Codename Vv
+|j|☆edipicker
+|html|Codename Vvedipicker    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756860658
+|gametype|doubles
+|player|p1|Codename Vv|volkner|1040
+|player|p2|edipicker|swimmerf-gen4|1130
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Frosmoth, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Weezing-Galar, L50, F|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Corviknight, L50, M|
+|poke|p2|Toedscruel, L50, F|
+|poke|p2|Pawmot, L50, F|
+|teampreview|4
+|showteam|p1|Frosmoth||Leftovers|IceScales|Blizzard,WideGuard,QuiverDance,TeraBlast|||M|||50|,,,,,Water]Volcarona||RockyHelmet|FlameBody|HeatWave,WillOWisp,RagePowder,StruggleBug|||M|||50|,,,,,Steel]Ninetales-Alola||LifeOrb|SnowWarning|FreezeDry,AuroraVeil,IcyWind,Moonblast|||F|||50|,,,,,Ghost]Garchomp||ClearAmulet|RoughSkin|StompingTantrum,Protect,RockSlide,BreakingSwipe|||M|||50|,,,,,Fire]Incineroar||SitrusBerry|Intimidate|FlareBlitz,PartingShot,FakeOut,KnockOff|||F|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|GrassyGlide,WoodHammer,HighHorsepower,FakeOut|||F|||50|,,,,,Fire
+|showteam|p2|Weezing-Galar||ChoiceSpecs|NeutralizingGas|SludgeBomb,StrangeSteam,DazzlingGleam,Flamethrower|||F|||50|,,,,,Fire]Garchomp||LifeOrb|RoughSkin|StompingTantrum,Earthquake,Protect,DragonClaw|||M|||50|,,,,,Ground]Typhlosion-Hisui||ChoiceScarf|Blaze|Eruption,ShadowBall,HeatWave,SleepTalk|||M|||50|,,,,,Fire]Corviknight||SitrusBerry|MirrorArmor|BraveBird,Roost,Tailwind,Protect|||M|||50|,,,,,Dragon]Toedscruel||CovertCloak|MyceliumMight|Spore,AcidSpray,RagePowder,EarthPower|||F|||50|,,,,,Water]Pawmot||FocusSash|NaturalCure|CloseCombat,FakeOut,DoubleShock,Protect|||F|||50|,,,,,Electric
+|
+|t:|1756860698
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|switch|p2a: Chiripa|Typhlosion-Hisui, L50, M|100/100
+|switch|p2b: Sparta|Garchomp, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1756860730
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Chiripa|atk|1
+|-unboost|p2b: Sparta|atk|1
+|move|p2b: Sparta|Protect|p2b: Sparta
+|-singleturn|p2b: Sparta|Protect
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p2a: Chiripa|Eruption|p1a: Incineroar|[spread] p1a
+|-activate|p1b: Garchomp|move: Protect
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|78/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756860766
+|switch|p2a: Noots|Toedscruel, L50, F, shiny|100/100
+|move|p2b: Sparta|Earthquake|p1b: Garchomp|[spread] p2a,p1a,p1b
+|-resisted|p2a: Noots
+|-supereffective|p1a: Incineroar
+|-damage|p2a: Noots|77/100
+|-damage|p1a: Incineroar|12/100
+|-damage|p1b: Garchomp|62/100
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|37/100|[from] item: Sitrus Berry
+|-damage|p2b: Sparta|91/100|[from] item: Life Orb
+|move|p1b: Garchomp|Rock Slide|p2b: Sparta|[spread] p2b
+|-miss|p1b: Garchomp|p2a: Noots
+|-resisted|p2b: Sparta
+|-damage|p2b: Sparta|81/100
+|move|p1a: Incineroar|Parting Shot|p2a: Noots
+|-unboost|p2a: Noots|atk|1
+|-unboost|p2a: Noots|spa|1
+|j| atxflyer
+|
+|t:|1756860787
+|switch|p1a: Ninetales|Ninetales-Alola, L50, F|100/100|[from] Parting Shot
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|l| atxflyer
+|
+|t:|1756860802
+|switch|p2b: Deez|Weezing-Galar, L50, F|100/100
+|-ability|p2b: Deez|Neutralizing Gas
+|-terastallize|p2a: Noots|Water
+|move|p1a: Ninetales|Aurora Veil|p1a: Ninetales
+|-sidestart|p1: Codename Vv|move: Aurora Veil
+|move|p1b: Garchomp|Breaking Swipe|p2b: Deez|[spread] p2a
+|-immune|p2b: Deez
+|-damage|p2a: Noots|45/100
+|move|p2a: Noots|Spore|p1b: Garchomp
+|-status|p1b: Garchomp|slp|[from] move: Spore
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756860836
+|move|p1a: Ninetales|Freeze-Dry|p2a: Noots
+|-supereffective|p2a: Noots
+|-damage|p2a: Noots|0 fnt
+|faint|p2a: Noots
+|-damage|p1a: Ninetales|91/100|[from] item: Life Orb
+|cant|p1b: Garchomp|slp
+|move|p2b: Deez|Sludge Bomb|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1756860851
+|switch|p1a: Frosmoth|Frosmoth, L50, M|100/100
+|switch|p2a: Sparta|Garchomp, L50, M|81/100
+|turn|5
+|
+|t:|1756860877
+|move|p2a: Sparta|Dragon Claw|p1b: Garchomp
+|-supereffective|p1b: Garchomp
+|-damage|p1b: Garchomp|0 fnt
+|faint|p1b: Garchomp
+|-damage|p2a: Sparta|72/100|[from] item: Life Orb
+|move|p2b: Deez|Sludge Bomb|p1a: Frosmoth
+|-damage|p1a: Frosmoth|60/100
+|move|p1a: Frosmoth|Blizzard|p2a: Sparta|[spread] p2a,p2b
+|-supereffective|p2a: Sparta
+|-damage|p2a: Sparta|0 fnt
+|-damage|p2b: Deez|57/100
+|faint|p2a: Sparta
+|
+|-weather|none
+|-heal|p1a: Frosmoth|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756860891
+|switch|p1b: Incineroar|Incineroar, L50, F|37/100
+|switch|p2a: Chiripa|Typhlosion-Hisui, L50, M|100/100
+|turn|6
+|
+|t:|1756860911
+|move|p1a: Frosmoth|Wide Guard|p1a: Frosmoth
+|-singleturn|p1a: Frosmoth|Wide Guard
+|move|p2a: Chiripa|Eruption|p1b: Incineroar|[spread] 
+|-activate|p1a: Frosmoth|move: Wide Guard
+|-activate|p1b: Incineroar|move: Wide Guard
+|move|p2b: Deez|Sludge Bomb|p1b: Incineroar
+|-damage|p1b: Incineroar|13/100
+|-status|p1b: Incineroar|psn
+|move|p1b: Incineroar|Knock Off|p2a: Chiripa
+|-supereffective|p2a: Chiripa
+|-damage|p2a: Chiripa|0 fnt
+|-enditem|p2a: Chiripa|Choice Scarf|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2a: Chiripa
+|
+|-heal|p1a: Frosmoth|73/100|[from] item: Leftovers
+|-damage|p1b: Incineroar|0 fnt|[from] psn
+|faint|p1b: Incineroar
+|upkeep
+|turn|7
+|
+|t:|1756860936
+|-terastallize|p1a: Frosmoth|Water
+|move|p2b: Deez|Sludge Bomb|p1a: Frosmoth
+|-damage|p1a: Frosmoth|32/100
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|
+|-heal|p1a: Frosmoth|38/100|[from] item: Leftovers
+|-sideend|p1: Codename Vv|move: Aurora Veil
+|upkeep
+|turn|8
+|
+|t:|1756860948
+|move|p1a: Frosmoth|Tera Blast|p2b: Deez|[anim] Tera Blast Water
+|-damage|p2b: Deez|0 fnt
+|faint|p2b: Deez
+|-end|p2b: Deez|ability: Neutralizing Gas
+|
+|win|Codename Vv
+|raw|Codename Vv's rating: 1040 → 1083(+43 for winning)
+|raw|edipicker's rating: 1130 → 1099(-31 for losing)
+|l|☆edipicker
+|player|p2|
+|c|☆Codename Vv|gg

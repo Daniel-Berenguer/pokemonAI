@@ -1,0 +1,108 @@
+|j|‽GlobalProtect
+|j|☆grendel zolga
+|html|GlobalProtectgrendel zolga    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756816619
+|gametype|doubles
+|player|p1|GlobalProtect|169|1341
+|player|p2|grendel zolga|clay|1224
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p2|Gyarados, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Volcarona, L50, F|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Protect,Facade,Earthquake,HeadlongRush|||M|||50|,,,,,Ghost]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire]Indeedee-F||SafetyGoggles|PsychicSurge|Psychic,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Water]Hatterene||LifeOrb|MagicBounce|Protect,ExpandingForce,DazzlingGleam,TrickRoom|||F|||50|,,,,,Psychic]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,WideGuard,TrickRoom|||M|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,CloseCombat,SleepPowder,AfterYou|||F|||50|,,,,,Ghost
+|showteam|p2|Gyarados||SafetyGoggles|Intimidate|Taunt,ThunderWave,Waterfall,Protect|||M|||50|,,,,,Steel]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Tyranitar||AssaultVest|SandStream|LowKick,TeraBlast,KnockOff,RockSlide|||M|||50|,,,,,Flying]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||F|||50|,,,,,Grass
+|
+|t:|1756816679
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gallade|Gallade, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p2a: Maelstrom|Gyarados, L50, M, shiny|100/100
+|switch|p2b: Pythia|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Pythia
+|-ability|p2a: Maelstrom|Intimidate|boost
+|-fail|p1a: Gallade|unboost|[from] item: Clear Amulet|[of] p1a: Gallade
+|-unboost|p1b: Indeedee|atk|1
+|turn|1
+|
+|t:|1756816716
+|switch|p1b: Hatterene|Hatterene, L50, F, shiny|100/100
+|-terastallize|p2b: Pythia|Psychic
+|move|p2b: Pythia|Expanding Force|p1a: Gallade|[spread] p1a,p1b
+|-resisted|p1b: Hatterene
+|-damage|p1a: Gallade|28/100
+|-damage|p1b: Hatterene|58/100
+|move|p2a: Maelstrom|Taunt|p1b: Hatterene
+|move|p1b: Hatterene|Taunt|p2a: Maelstrom|[from] ability: Magic Bounce
+|-start|p2a: Maelstrom|move: Taunt
+|move|p1a: Gallade|Trick Room|p1a: Gallade
+|-fieldstart|move: Trick Room|[of] p1a: Gallade
+|
+|upkeep
+|turn|2
+|
+|t:|1756816744
+|switch|p2b: Sirocco|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Sirocco
+|move|p1b: Hatterene|Expanding Force|p2b: Sirocco|[spread] p2a
+|-immune|p2b: Sirocco
+|-damage|p2a: Maelstrom|13/100
+|-damage|p1b: Hatterene|48/100|[from] item: Life Orb
+|move|p1a: Gallade|Sacred Sword|p2a: Maelstrom
+|-resisted|p2a: Maelstrom
+|-damage|p2a: Maelstrom|0 fnt
+|faint|p2a: Maelstrom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Hatterene|43/100|[from] Sandstorm
+|-damage|p1a: Gallade|22/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756816756
+|switch|p2a: Pythia|Indeedee, L50, M, tera:Psychic|100/100
+|turn|3
+|
+|t:|1756816775
+|-terastallize|p1b: Hatterene|Psychic
+|move|p1b: Hatterene|Expanding Force|p2b: Sirocco|[spread] p2a
+|-immune|p2b: Sirocco
+|-resisted|p2a: Pythia
+|-damage|p2a: Pythia|12/100
+|-damage|p1b: Hatterene|33/100|[from] item: Life Orb
+|move|p2b: Sirocco|Rock Slide|p1b: Hatterene|[spread] p1a,p1b
+|-resisted|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|-damage|p1b: Hatterene|0 fnt
+|faint|p1a: Gallade
+|faint|p1b: Hatterene
+|move|p2a: Pythia|Tera Blast|p1: Gallade|[notarget]
+|-fail|p2a: Pythia
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Pythia|6/100|[from] Sandstorm
+|upkeep
+|-message|GlobalProtect forfeited.
+|
+|win|grendel zolga
+||GlobalProtect is ready for game 2.
+||grendel zolga is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|‽GlobalProtect
+|player|p1|

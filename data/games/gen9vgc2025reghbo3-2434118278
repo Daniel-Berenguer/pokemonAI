@@ -1,0 +1,152 @@
+|j|☆andyvgc
+|j|☆colemarcusvgc
+|html|andyvgccolemarcusvgc    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756869380
+|gametype|doubles
+|player|p1|andyvgc|265|1157
+|player|p2|colemarcusvgc|n|1159
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Electabuzz, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Talonflame, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,HelpingHand,Protect|||M|||50|,,,,,Psychic]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Protect|||F|||50|,,,,,Dragon]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Ghost]Talonflame||CovertCloak|GaleWings|FlareBlitz,DualWingbeat,WillOWisp,Tailwind|||M|||50|,,,,,Fairy
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fire]Hatterene||LifeOrb|MagicBounce|ExpandingForce,TrickRoom,DazzlingGleam,Protect|||F|||50|,,,,,Psychic]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,SacredSword,WideGuard|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,SwordsDance,Protect|||M|||50|,,,,,Ghost]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,SleepPowder,CloseCombat,AfterYou|||F|||50|,,,,,Ghost]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire
+|
+|t:|1756869423
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Electabuzz|Electabuzz, L50, F|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|1
+|
+|t:|1756869440
+|-terastallize|p2b: Torkoal|Fire
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2a: Lilligant|After You|p2b: Torkoal
+|-activate|p2b: Torkoal|move: After You
+|move|p2b: Torkoal|Eruption|p1b: Ursaluna|[spread] p1a
+|-activate|p1b: Ursaluna|move: Protect
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756869456
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Lilligant|atk|1
+|-unboost|p2b: Torkoal|atk|1
+|turn|2
+|
+|t:|1756869500
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p1b: Ursaluna|Protect||[still]
+|-fail|p1b: Ursaluna
+|move|p2a: Lilligant|Sleep Powder|p1b: Ursaluna
+|-status|p1b: Ursaluna|slp|[from] move: Sleep Powder
+|move|p1a: Incineroar|Parting Shot|p2a: Lilligant
+|-unboost|p2a: Lilligant|atk|1
+|-unboost|p2a: Lilligant|spa|1
+|
+|t:|1756869514
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756869540
+|switch|p2a: Torkoal|Torkoal, L50, M, tera:Fire|100/100
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|cant|p1b: Ursaluna|slp
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756869569
+|move|p2b: Indeedee|Helping Hand|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Helping Hand|[of] p2b: Indeedee
+|-curestatus|p1b: Ursaluna|slp|[msg]
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2a: Torkoal|Eruption|p1b: Ursaluna|[spread] p1a
+|-activate|p1b: Ursaluna|move: Protect
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756869584
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|turn|5
+|
+|t:|1756869594
+|move|p2b: Indeedee|Helping Hand|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Helping Hand|[of] p2b: Indeedee
+|move|p1b: Ursaluna|Protect||[still]
+|-fail|p1b: Ursaluna
+|move|p2a: Torkoal|Eruption|p1a: Indeedee|[spread] p1a,p1b
+|-enditem|p1a: Indeedee|Focus Sash
+|-damage|p1a: Indeedee|1/100
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldend|move: Trick Room
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1756869607
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Indeedee|Expanding Force|p2a: Torkoal|[spread] p2a,p2b
+|-resisted|p2b: Indeedee
+|-damage|p2a: Torkoal|24/100
+|-damage|p2b: Indeedee|84/100
+|move|p2a: Torkoal|Eruption|p1a: Indeedee
+|-crit|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|win|colemarcusvgc
+|inactive|andyvgc has 30 seconds to confirm battle start!
+|inactive|colemarcusvgc has 30 seconds to confirm battle start!
+|l|☆andyvgc
+|player|p1|
+||colemarcusvgc is ready for game 3.
+||andyvgc is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

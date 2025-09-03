@@ -1,0 +1,165 @@
+|j|☆Hidden100
+|j|☆Voltage Gaming101
+|html|Hidden100Voltage Gaming101    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756835549
+|gametype|doubles
+|player|p1|Hidden100|jogger|1000
+|player|p2|Voltage Gaming101|red|1005
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pikachu, L50, F|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Venusaur, L50, M|
+|poke|p1|Blastoise, L50, M|
+|poke|p1|Lapras, L50, F|
+|poke|p1|Snorlax, L50, F|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Houndstone, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+|showteam|p1|Pikachu||LightBall|LightningRod|Thunder,Thunderbolt,FakeOut,Nuzzle|||F|||50|,,,,,Flying]Charizard||LifeOrb|SolarPower|FireBlast,SolarBeam,DragonTail,HeatWave|||M|||50|,,,,,Dragon]Venusaur||FocusSash|Chlorophyll|LeechSeed,EarthPower,SludgeBomb,DoubleEdge|||M|||50|,,,,,Ground]Blastoise||Leftovers|Torrent|HydroPump,Protect,IronDefense,BodyPress|||M|||50|,,,,,Fire]Lapras||SitrusBerry|ShellArmor|AlluringVoice,FreezeDry,RainDance,Thunder|||F|||50|,,,,,Electric]Snorlax||RockyHelmet|ThickFat|BodyPress,BodySlam,HeavySlam,Rest|||F|||50|,,,,,Normal
+|showteam|p2|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||F|||50|,,,,,Flying]Houndstone||SpellTag|SandRush|LastRespects,ShadowSneak,PlayRough,FireFang|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Garchomp||RockyHelmet|RoughSkin|RockSlide,Earthquake,DragonClaw,Protect|||F|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||M|||50|,,,,,Grass
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Voltage Gaming101)
+|c|☆Hidden100|yo
+|c|☆Voltage Gaming101|Hi
+|
+|t:|1756835581
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Lapras|Lapras, L50, F, shiny|100/100
+|switch|p1b: Blastoise|Blastoise, L50, M, shiny|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Lapras|atk|1
+|-unboost|p1b: Blastoise|atk|1
+|turn|1
+|
+|t:|1756835599
+|move|p2a: Incineroar|Fake Out|p1a: Lapras
+|-damage|p1a: Lapras|89/100
+|move|p1b: Blastoise|Iron Defense|p1b: Blastoise
+|-boost|p1b: Blastoise|def|2
+|cant|p1a: Lapras|flinch
+|move|p2b: Amoonguss|Spore|p1b: Blastoise
+|-status|p1b: Blastoise|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1756835615
+|cant|p1b: Blastoise|slp
+|move|p2a: Incineroar|Knock Off|p1b: Blastoise
+|-damage|p1b: Blastoise|78/100 slp
+|-enditem|p1b: Blastoise|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1a: Lapras|Alluring Voice|p2a: Incineroar
+|-damage|p2a: Incineroar|82/100
+|move|p2b: Amoonguss|Spore|p1a: Lapras
+|-status|p1a: Lapras|slp|[from] move: Spore
+|
+|upkeep
+|turn|3
+|inactive|Voltage Gaming101 has 30 seconds left.
+|
+|t:|1756835642
+|cant|p1b: Blastoise|slp
+|move|p2a: Incineroar|Parting Shot|p1b: Blastoise
+|-unboost|p1b: Blastoise|atk|1
+|-unboost|p1b: Blastoise|spa|1
+|
+|t:|1756835647
+|switch|p2a: Tyranitar|Tyranitar, L50, F, shiny|100/100|[from] Parting Shot
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|cant|p1a: Lapras|slp
+|move|p2b: Amoonguss|Pollen Puff|p1b: Blastoise
+|-damage|p1b: Blastoise|66/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Blastoise|60/100 slp|[from] Sandstorm
+|-damage|p1a: Lapras|83/100 slp|[from] Sandstorm
+|-damage|p2b: Amoonguss|95/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1756835662
+|-terastallize|p2a: Tyranitar|Flying
+|cant|p1b: Blastoise|slp
+|move|p2a: Tyranitar|Rock Slide|p1a: Lapras|[spread] p1a,p1b
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|17/100 slp
+|-damage|p1b: Blastoise|44/100 slp
+|-enditem|p1a: Lapras|Sitrus Berry|[eat]
+|-heal|p1a: Lapras|42/100 slp|[from] item: Sitrus Berry
+|cant|p1a: Lapras|slp
+|move|p2b: Amoonguss|Pollen Puff|p1b: Blastoise
+|-damage|p1b: Blastoise|31/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Blastoise|25/100 slp|[from] Sandstorm
+|-damage|p2a: Tyranitar|95/100|[from] Sandstorm
+|-damage|p1a: Lapras|36/100 slp|[from] Sandstorm
+|-damage|p2b: Amoonguss|89/100|[from] Sandstorm
+|upkeep
+|turn|5
+|inactive|Hidden100 has 30 seconds left.
+|
+|t:|1756835687
+|-curestatus|p1b: Blastoise|slp|[msg]
+|move|p1b: Blastoise|Iron Defense|p1b: Blastoise
+|-boost|p1b: Blastoise|def|2
+|move|p2a: Tyranitar|Rock Slide|p1b: Blastoise|[spread] p1a,p1b
+|-supereffective|p1a: Lapras
+|-damage|p1a: Lapras|0 fnt
+|-damage|p1b: Blastoise|13/100
+|faint|p1a: Lapras
+|move|p2b: Amoonguss|Pollen Puff|p1b: Blastoise
+|-damage|p1b: Blastoise|0 fnt
+|faint|p1b: Blastoise
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|89/100|[from] Sandstorm
+|-damage|p2b: Amoonguss|83/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756835702
+|switch|p1b: Snorlax|Snorlax, L50, F|100/100
+|switch|p1a: Venusaur|Venusaur, L50, M, shiny|100/100
+|turn|6
+|
+|t:|1756835718
+|move|p1a: Venusaur|Sludge Bomb|p2b: Amoonguss
+|-damage|p2b: Amoonguss|48/100
+|-enditem|p2b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2b: Amoonguss|73/100|[from] item: Sitrus Berry
+|move|p2a: Tyranitar|Tera Blast|p1a: Venusaur|[anim] Tera Blast Flying
+|-supereffective|p1a: Venusaur
+|-enditem|p1a: Venusaur|Focus Sash
+|-damage|p1a: Venusaur|1/100
+|move|p2b: Amoonguss|Spore|p1b: Snorlax
+|-status|p1b: Snorlax|slp|[from] move: Spore
+|cant|p1b: Snorlax|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Venusaur|0 fnt|[from] Sandstorm
+|-damage|p2a: Tyranitar|83/100|[from] Sandstorm
+|-damage|p1b: Snorlax|95/100 slp|[from] Sandstorm
+|-damage|p2b: Amoonguss|67/100|[from] Sandstorm
+|faint|p1a: Venusaur
+|upkeep
+|turn|7
+|-message|Hidden100 forfeited.
+|
+|win|Voltage Gaming101
+|l|☆Hidden100
+|player|p1|
+|raw|Hidden100's rating: 1000 → 1000(+0 for losing)
+|raw|Voltage Gaming101's rating: 1005 → 1044(+39 for winning)

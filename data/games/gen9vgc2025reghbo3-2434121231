@@ -1,0 +1,168 @@
+|j|☆vilan333
+|j|☆ChiriwilloVGC
+|html|vilan333ChiriwilloVGC    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756869775
+|gametype|doubles
+|player|p1|vilan333|170|
+|player|p2|ChiriwilloVGC|fisherman-gen4|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Talonflame, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|Protect,CloseCombat,DireClaw,ThroatChop|||M|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|Imprison,TrickRoom,ExpandingForce,TeraBlast|||M|||50|,,,,,Fighting]Ursaluna-Bloodmoon||LifeOrb|MindsEye|Protect,HyperVoice,BloodMoon,EarthPower|||M|||50|,,,,,Normal]Electabuzz||Eviolite|VitalSpirit|Electroweb,Protect,Taunt,FollowMe|||M|||50|,,,,,Ghost]Talonflame||CovertCloak|GaleWings|Tailwind,WillOWisp,DualWingbeat,FlareBlitz|||F|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,FlareBlitz|||F|||50|,,,,,Ghost
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,DragonPulse,WeatherBall|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|Tailwind,SunnyDay,RagePowder,SleepPowder|||M|||50|,,,,,Fire]Torkoal||EjectPack|Drought|ClearSmog,Eruption,Overheat,Protect|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost
+|
+|t:|1756869844
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: TacticaNurse|Indeedee, L50, M|100/100
+|switch|p1b: Lewyn II|Sneasler, L50, M|100/100
+|switch|p2a: Puffy guy|Jumpluff, L50, M|100/100
+|switch|p2b: Sunny guy|Torkoal, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: TacticaNurse
+|-enditem|p1b: Lewyn II|Psychic Seed
+|-boost|p1b: Lewyn II|spd|1|[from] item: Psychic Seed
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Sunny guy
+|turn|1
+|
+|t:|1756869863
+|move|p2a: Puffy guy|Sleep Powder|p1b: Lewyn II
+|-status|p1b: Lewyn II|slp|[from] move: Sleep Powder
+|cant|p1b: Lewyn II|slp
+|move|p1a: TacticaNurse|Expanding Force|p2b: Sunny guy|[spread] p2a,p2b
+|-damage|p2a: Puffy guy|46/100
+|-damage|p2b: Sunny guy|33/100
+|move|p2b: Sunny guy|Overheat|p1a: TacticaNurse
+|-enditem|p1a: TacticaNurse|Focus Sash
+|-damage|p1a: TacticaNurse|1/100
+|-unboost|p2b: Sunny guy|spa|2
+|-enditem|p2b: Sunny guy|Eject Pack
+|
+|t:|1756869871
+|switch|p2b: Spoiled guy|Charizard, L50, M|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Spoiled guy|88/100|[from] ability: Solar Power|[of] p2b: Spoiled guy
+|upkeep
+|turn|2
+|
+|t:|1756869888
+|move|p2a: Puffy guy|Tailwind|p2a: Puffy guy
+|-sidestart|p2: ChiriwilloVGC|move: Tailwind
+|-curestatus|p1b: Lewyn II|slp|[msg]
+|move|p1b: Lewyn II|Dire Claw|p2a: Puffy guy
+|-supereffective|p2a: Puffy guy
+|-damage|p2a: Puffy guy|0 fnt
+|faint|p2a: Puffy guy
+|move|p2b: Spoiled guy|Heat Wave|p1b: Lewyn II|[spread] p1a,p1b
+|-damage|p1a: TacticaNurse|0 fnt
+|-damage|p1b: Lewyn II|2/100
+|faint|p1a: TacticaNurse
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Spoiled guy|76/100|[from] ability: Solar Power|[of] p2b: Spoiled guy
+|upkeep
+|
+|t:|1756869903
+|switch|p2a: Grumpy guy|Incineroar, L50, F|100/100
+|switch|p1a: Ryo|Incineroar, L50, F|100/100
+|-ability|p2a: Grumpy guy|Intimidate|boost
+|-unboost|p1a: Ryo|atk|1
+|-unboost|p1b: Lewyn II|atk|1
+|-ability|p1a: Ryo|Intimidate|boost
+|-unboost|p2a: Grumpy guy|atk|1
+|-unboost|p2b: Spoiled guy|atk|1
+|turn|3
+|
+|t:|1756869953
+|switch|p2b: Sunny guy|Torkoal, L50, M|33/100
+|move|p1b: Lewyn II|Protect|p1b: Lewyn II
+|-singleturn|p1b: Lewyn II|Protect
+|move|p2a: Grumpy guy|Parting Shot|p1a: Ryo
+|-unboost|p1a: Ryo|atk|1
+|-unboost|p1a: Ryo|spa|1
+|
+|t:|1756869961
+|switch|p2a: Spoiled guy|Charizard, L50, M|76/100|[from] Parting Shot
+|move|p1a: Ryo|Parting Shot|p2b: Sunny guy
+|-unboost|p2b: Sunny guy|atk|1
+|-unboost|p2b: Sunny guy|spa|1
+|
+|t:|1756869968
+|switch|p1a: Jorah Knight|Ursaluna-Bloodmoon, L50, M|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Spoiled guy|63/100|[from] ability: Solar Power|[of] p2a: Spoiled guy
+|upkeep
+|turn|4
+|
+|t:|1756869979
+|switch|p1b: Ryo|Incineroar, L50, F|100/100
+|-ability|p1b: Ryo|Intimidate|boost
+|-unboost|p2a: Spoiled guy|atk|1
+|-unboost|p2b: Sunny guy|atk|1
+|switch|p2b: Grumpy guy|Incineroar, L50, F|100/100
+|-ability|p2b: Grumpy guy|Intimidate|boost
+|-unboost|p1a: Jorah Knight|atk|1
+|-unboost|p1b: Ryo|atk|1
+|move|p1a: Jorah Knight|Protect|p1a: Jorah Knight
+|-singleturn|p1a: Jorah Knight|Protect
+|move|p2a: Spoiled guy|Heat Wave|p1b: Ryo|[spread] p1b
+|-activate|p1a: Jorah Knight|move: Protect
+|-resisted|p1b: Ryo
+|-damage|p1b: Ryo|57/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Spoiled guy|51/100|[from] ability: Solar Power|[of] p2a: Spoiled guy
+|upkeep
+|turn|5
+|
+|t:|1756870001
+|switch|p1a: Lewyn II|Sneasler, L50, M|2/100
+|-terastallize|p2a: Spoiled guy|Ghost
+|move|p2a: Spoiled guy|Heat Wave|p1b: Ryo|[spread] p1a,p1b
+|-resisted|p1b: Ryo
+|-damage|p1a: Lewyn II|0 fnt
+|-damage|p1b: Ryo|15/100
+|faint|p1a: Lewyn II
+|move|p2b: Grumpy guy|Knock Off|p1b: Ryo
+|-resisted|p1b: Ryo
+|-damage|p1b: Ryo|0 fnt
+|-enditem|p1b: Ryo|Safety Goggles|[from] move: Knock Off|[of] p2b: Grumpy guy
+|faint|p1b: Ryo
+|
+|-weather|none
+|-sideend|p2: ChiriwilloVGC|move: Tailwind
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756870017
+|switch|p1b: Jorah Knight|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|6
+|
+|t:|1756870024
+|-terastallize|p1b: Jorah Knight|Normal
+|move|p2a: Spoiled guy|Heat Wave|p1b: Jorah Knight
+|-damage|p1b: Jorah Knight|13/100
+|move|p2b: Grumpy guy|Knock Off|p1b: Jorah Knight
+|-damage|p1b: Jorah Knight|0 fnt
+|-enditem|p1b: Jorah Knight|Life Orb|[from] move: Knock Off|[of] p2b: Grumpy guy
+|faint|p1b: Jorah Knight
+|
+|win|ChiriwilloVGC

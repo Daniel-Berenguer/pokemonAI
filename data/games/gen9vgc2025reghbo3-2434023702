@@ -1,0 +1,160 @@
+|j|☆aox93
+|j|☆Welosethose!
+|html|aox93Welosethose!    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756857977
+|gametype|doubles
+|player|p1|aox93|n|1275
+|player|p2|Welosethose!|hilbert|1269
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Talonflame, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Politoed, L50, F|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Kingdra, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|showteam|p1|Talonflame||CovertCloak|GaleWings|BraveBird,Tailwind,WillOWisp,FlareBlitz|||F|||50|,,,,,Flying]Sneasler||PsychicSeed|Unburden|ThroatChop,CloseCombat,GunkShot,AcidSpray|||F|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|Protect,TrickRoom,Imprison,ExpandingForce|||M|||50|,,,,,Psychic]Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,ShadowBall,Thunderbolt,SteelBeam||||||50|,,,,,Steel]Ninetales-Alola||NeverMeltIce|SnowWarning|Blizzard,FreezeDry,FakeTears,Protect|||M|||50|,,,,,Ice]Ursaluna-Bloodmoon||LifeOrb|MindsEye|Protect,HyperVoice,BloodMoon,EarthPower|||M|||50|,,,,,Normal
+|showteam|p2|Politoed||Leftovers|Drizzle|WeatherBall,Encore,PerishSong,Protect|||F|||50|,,,,,Grass]Gothitelle||SitrusBerry|ShadowTag|FakeOut,Psychic,TrickRoom,Protect|||M|||50|,,,,,Dark]Kingdra||LifeOrb|SwiftSwim|WeatherBall,MuddyWater,DracoMeteor,Protect|||M|||50|,,,,,Stellar]Archaludon||PowerHerb|Sturdy|ElectroShot,FlashCannon,DragonPulse,Protect|||M|||50|,,,,,Electric]Amoonguss||EjectButton|Regenerator|PollenPuff,Spore,RagePowder,Protect|||F|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1756858035
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M, shiny|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|turn|1
+|
+|t:|1756858060
+|-terastallize|p1b: Ursaluna|Normal
+|move|p1a: Indeedee|Imprison|p1a: Indeedee
+|-start|p1a: Indeedee|move: Imprison
+|move|p1b: Ursaluna|Blood Moon|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|-damage|p1b: Ursaluna|91/100|[from] item: Life Orb
+|move|p2a: Gothitelle|Psychic|p1b: Ursaluna
+|-damage|p1b: Ursaluna|45/100
+|
+|upkeep
+|
+|t:|1756858068
+|switch|p2b: Politoed|Politoed, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Politoed
+|turn|2
+|
+|t:|1756858096
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p1a: Indeedee|Expanding Force|p2a: Gothitelle|[spread] p2a,p2b
+|-resisted|p2a: Gothitelle
+|-damage|p2a: Gothitelle|81/100
+|-damage|p2b: Politoed|62/100
+|move|p2b: Politoed|Encore|p1a: Indeedee
+|-start|p1a: Indeedee|Encore
+|move|p2a: Gothitelle|Psychic|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Politoed|69/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1756858119
+|move|p1a: Indeedee|Expanding Force|p2a: Gothitelle|[spread] p2a,p2b
+|-resisted|p2a: Gothitelle
+|-damage|p2a: Gothitelle|60/100
+|-damage|p2b: Politoed|26/100
+|move|p2b: Politoed|Encore|p1b: Ursaluna
+|-start|p1b: Ursaluna|Encore
+|move|p1b: Ursaluna|Protect||[still]
+|-fail|p1b: Ursaluna
+|move|p2a: Gothitelle|Psychic|p1a: Indeedee
+|-resisted|p1a: Indeedee
+|-damage|p1a: Indeedee|73/100
+|-unboost|p1a: Indeedee|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Politoed|32/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1756858165
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p1a: Indeedee|Expanding Force|p2b: Amoonguss|[spread] p2a,p2b
+|-resisted|p2a: Gothitelle
+|-supereffective|p2b: Amoonguss
+|-damage|p2a: Gothitelle|42/100
+|-damage|p2b: Amoonguss|0 fnt
+|-enditem|p2a: Gothitelle|Sitrus Berry|[eat]
+|-heal|p2a: Gothitelle|67/100|[from] item: Sitrus Berry
+|faint|p2b: Amoonguss
+|move|p2a: Gothitelle|Psychic|p1a: Indeedee
+|-resisted|p1a: Indeedee
+|-damage|p1a: Indeedee|31/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756858172
+|switch|p2b: Politoed|Politoed, L50, F|32/100
+|turn|5
+|
+|t:|1756858196
+|move|p1b: Ursaluna|Protect||[still]
+|-fail|p1b: Ursaluna
+|move|p1a: Indeedee|Expanding Force|p2b: Politoed|[spread] p2a,p2b
+|-resisted|p2a: Gothitelle
+|-crit|p2a: Gothitelle
+|-damage|p2a: Gothitelle|36/100
+|-damage|p2b: Politoed|0 fnt
+|faint|p2b: Politoed
+|move|p2a: Gothitelle|Psychic|p1a: Indeedee
+|-resisted|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|-end|p1b: Ursaluna|Encore
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756858224
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|turn|6
+|
+|t:|1756858235
+|-terastallize|p2a: Gothitelle|Dark
+|move|p1a: Gholdengo|Shadow Ball|p2a: Gothitelle
+|-resisted|p2a: Gothitelle
+|-damage|p2a: Gothitelle|12/100
+|move|p1b: Ursaluna|Hyper Voice|p2a: Gothitelle
+|-damage|p2a: Gothitelle|0 fnt
+|faint|p2a: Gothitelle
+|-damage|p1b: Ursaluna|36/100|[from] item: Life Orb
+|
+|win|aox93
+|raw|aox93's rating: 1275 → 1300(+25 for winning)
+|raw|Welosethose!'s rating: 1269 → 1244(-25 for losing)
+|c|☆Welosethose!|gg
+|l|☆aox93
+|player|p1|

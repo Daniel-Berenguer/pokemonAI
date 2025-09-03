@@ -1,0 +1,322 @@
+|j|☆roundybout
+|j|☆AikonZ_Test
+|html|roundyboutAikonZ_Test    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756846820
+|gametype|doubles
+|player|p1|roundybout|collector|1255
+|player|p2|AikonZ_Test|veteran|1344
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Electabuzz, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Volcarona||GrassySeed|FlameBody|HeatWave,GigaDrain,QuiverDance,Protect|||F|||50|,,,,,Grass]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,Encore,Disable,Protect|||F|||50|,,,,,Ghost]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,Outrage|||M|||50|,,,,,Dragon]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,FollowMe,Taunt,HelpingHand|||F|||50|,,,,,Fairy
+|showteam|p2|Porygon2||Eviolite|Download|TriAttack,ShadowBall,Recover,TrickRoom||||||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||M|||50|,,,,,Ghost]Volcarona||CovertCloak|FlameBody|Overheat,StruggleBug,RagePowder,WillOWisp|||F|||50|,,,,,Dragon]Grimmsnarl||LightClay|Prankster|SpiritBreak,Reflect,LightScreen,Taunt|||M|||50|,,,,,Steel]Annihilape||SafetyGoggles|Defiant|RageFist,DrainPunch,Protect,BulkUp|||M|||50|,,,,,Water]Gholdengo||ChoiceSpecs|GoodasGold|ShadowBall,MakeItRain,PowerGem,Trick||||||50|,,,,,Dragon
+|
+|t:|1756846838
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|turn|1
+|
+|t:|1756846849
+|switch|p2a: Porygon2|Porygon2, L50, shiny|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|atk|1
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|-terastallize|p1a: Basculegion|Dragon
+|-terastallize|p2b: Volcarona|Dragon
+|move|p1a: Basculegion|Outrage|p2a: Porygon2
+|-damage|p2a: Porygon2|56/100
+|move|p2b: Volcarona|Will-O-Wisp|p1a: Basculegion
+|-status|p1a: Basculegion|brn
+|
+|-damage|p1a: Basculegion|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1756846875
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|move|p1a: Basculegion|Outrage|p2a: Annihilape|[from] lockedmove
+|-damage|p2a: Annihilape|58/100
+|move|p2b: Volcarona|Will-O-Wisp|p1b: Kingambit
+|-status|p1b: Kingambit|brn
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Annihilape
+|-damage|p2a: Annihilape|34/100
+|
+|-damage|p1a: Basculegion|88/100 brn|[from] brn
+|-damage|p1b: Kingambit|95/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1756846902
+|switch|p2b: Porygon2|Porygon2, L50, shiny|56/100
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|spa|1
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|move|p2a: Annihilape|Protect|p2a: Annihilape
+|-singleturn|p2a: Annihilape|Protect
+|move|p1a: Basculegion|Outrage|p2a: Annihilape|[from] lockedmove
+|-activate|p2a: Annihilape|move: Protect
+|-start|p1a: Basculegion|confusion|[fatigue]
+|
+|-damage|p1a: Basculegion|82/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1756846920
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-enditem|p1b: Volcarona|Grassy Seed
+|-boost|p1b: Volcarona|def|1|[from] item: Grassy Seed
+|move|p2a: Annihilape|Rage Fist|p1b: Volcarona
+|-damage|p1b: Volcarona|59/100
+|move|p1b: Volcarona|Quiver Dance|p1b: Volcarona
+|-boost|p1b: Volcarona|spa|1
+|-boost|p1b: Volcarona|spd|1
+|-boost|p1b: Volcarona|spe|1
+|move|p2b: Porygon2|Trick Room|p2b: Porygon2
+|-fieldstart|move: Trick Room|[of] p2b: Porygon2
+|
+|-heal|p2b: Porygon2|62/100|[from] Grassy Terrain
+|-heal|p2a: Annihilape|39/100|[from] Grassy Terrain
+|-heal|p1b: Volcarona|65/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756846948
+|switch|p2a: Volcarona|Volcarona, L50, F, tera:Dragon|100/100
+|move|p2b: Porygon2|Tri Attack|p1a: Rillaboom
+|-damage|p1a: Rillaboom|63/100
+|-status|p1a: Rillaboom|frz
+|-curestatus|p1a: Rillaboom|frz|[msg]
+|move|p1a: Rillaboom|Wood Hammer|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|50/100
+|-damage|p1a: Rillaboom|48/100|[from] Recoil
+|move|p1b: Volcarona|Giga Drain|p2b: Porygon2
+|-damage|p2b: Porygon2|31/100
+|-heal|p1b: Volcarona|81/100|[from] drain|[of] p2b: Porygon2
+|
+|-heal|p2b: Porygon2|37/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|54/100|[from] Grassy Terrain
+|-heal|p2a: Volcarona|56/100|[from] Grassy Terrain
+|-heal|p1b: Volcarona|87/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756846977
+|switch|p1a: Kingambit|Kingambit, L50, M|95/100 brn
+|move|p2b: Porygon2|Recover|p2b: Porygon2
+|-heal|p2b: Porygon2|87/100
+|move|p2a: Volcarona|Struggle Bug|p1a: Kingambit|[spread] p1a,p1b
+|-resisted|p1b: Volcarona
+|-damage|p1a: Kingambit|77/100 brn
+|-damage|p1b: Volcarona|82/100
+|-unboost|p1a: Kingambit|spa|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|-unboost|p1b: Volcarona|spa|1
+|move|p1b: Volcarona|Giga Drain|p2b: Porygon2
+|-damage|p2b: Porygon2|67/100
+|-heal|p1b: Volcarona|93/100|[from] drain|[of] p2b: Porygon2
+|
+|-heal|p1a: Kingambit|83/100 brn|[from] Grassy Terrain
+|-heal|p2b: Porygon2|73/100|[from] Grassy Terrain
+|-heal|p2a: Volcarona|62/100|[from] Grassy Terrain
+|-heal|p1b: Volcarona|99/100|[from] Grassy Terrain
+|-damage|p1a: Kingambit|77/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1756847004
+|switch|p2b: Annihilape|Annihilape, L50, M|39/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Volcarona
+|-damage|p2a: Volcarona|2/100
+|move|p2a: Volcarona|Overheat|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-unboost|p2a: Volcarona|spa|2
+|faint|p1a: Kingambit
+|move|p1b: Volcarona|Quiver Dance|p1b: Volcarona
+|-boost|p1b: Volcarona|spa|1
+|-boost|p1b: Volcarona|spd|1
+|-boost|p1b: Volcarona|spe|1
+|
+|-heal|p2b: Annihilape|45/100|[from] Grassy Terrain
+|-heal|p2a: Volcarona|8/100|[from] Grassy Terrain
+|-heal|p1b: Volcarona|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756847016
+|switch|p1a: Rillaboom|Rillaboom, L50, M|54/100
+|turn|8
+|
+|t:|1756847028
+|move|p1b: Volcarona|Protect|p1b: Volcarona
+|-singleturn|p1b: Volcarona|Protect
+|move|p1a: Rillaboom|Wood Hammer|p2b: Annihilape
+|-damage|p2b: Annihilape|0 fnt
+|faint|p2b: Annihilape
+|-damage|p1a: Rillaboom|39/100|[from] Recoil
+|move|p2a: Volcarona|Struggle Bug|p1a: Rillaboom|[spread] p1a
+|-activate|p1b: Volcarona|move: Protect
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|27/100
+|-unboost|p1a: Rillaboom|spa|1
+|
+|-heal|p1a: Rillaboom|32/100|[from] Grassy Terrain
+|-heal|p2a: Volcarona|14/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756847040
+|switch|p2b: Porygon2|Porygon2, L50, shiny|73/100
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|atk|1
+|turn|9
+|
+|t:|1756847053
+|switch|p1a: Basculegion|Basculegion, L50, M, tera:Dragon|82/100 brn
+|move|p1b: Volcarona|Quiver Dance|p1b: Volcarona
+|-boost|p1b: Volcarona|spa|1
+|-boost|p1b: Volcarona|spd|1
+|-boost|p1b: Volcarona|spe|1
+|move|p2a: Volcarona|Overheat|p1a: Basculegion
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|66/100 brn
+|-unboost|p2a: Volcarona|spa|2
+|move|p2b: Porygon2|Trick Room|p2b: Porygon2
+|-fieldstart|move: Trick Room|[of] p2b: Porygon2
+|
+|-damage|p1a: Basculegion|59/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1756847067
+|move|p2b: Porygon2|Tri Attack|p1a: Basculegion
+|-damage|p1a: Basculegion|22/100 brn
+|move|p2a: Volcarona|Struggle Bug|p1a: Basculegion|[spread] p1a,p1b
+|-resisted|p1b: Volcarona
+|-damage|p1a: Basculegion|16/100 brn
+|-damage|p1b: Volcarona|99/100
+|-unboost|p1a: Basculegion|spa|1
+|-unboost|p1b: Volcarona|spa|1
+|move|p1a: Basculegion|Outrage|p2a: Volcarona
+|-supereffective|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|move|p1b: Volcarona|Giga Drain|p2b: Porygon2
+|-crit|p2b: Porygon2
+|-damage|p2b: Porygon2|43/100
+|-heal|p1b: Volcarona|100/100|[from] drain|[of] p2b: Porygon2
+|
+|-damage|p1a: Basculegion|10/100 brn|[from] brn
+|upkeep
+|
+|t:|1756847079
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|11
+|
+|t:|1756847092
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p2b: Porygon2|Recover|p2b: Porygon2
+|-heal|p2b: Porygon2|93/100
+|move|p1a: Basculegion|Outrage|p2a: Ursaluna|[from] lockedmove
+|-activate|p2a: Ursaluna|move: Protect
+|-start|p1a: Basculegion|confusion|[fatigue]
+|move|p1b: Volcarona|Giga Drain|p2b: Porygon2
+|-crit|p2b: Porygon2
+|-damage|p2b: Porygon2|60/100
+|
+|-damage|p1a: Basculegion|4/100 brn|[from] brn
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|12
+|
+|t:|1756847108
+|move|p1b: Volcarona|Protect|p1b: Volcarona
+|-singleturn|p1b: Volcarona|Protect
+|move|p2a: Ursaluna|Facade|p1b: Volcarona
+|-activate|p1b: Volcarona|move: Protect
+|move|p2b: Porygon2|Tri Attack|p1b: Volcarona
+|-activate|p1b: Volcarona|move: Protect
+|-activate|p1a: Basculegion|confusion
+|move|p1a: Basculegion|Outrage|p2a: Ursaluna
+|-damage|p2a: Ursaluna|71/100 brn
+|
+|-damage|p2a: Ursaluna|65/100 brn|[from] brn
+|-damage|p1a: Basculegion|0 fnt|[from] brn
+|faint|p1a: Basculegion
+|upkeep
+|
+|t:|1756847116
+|switch|p1a: Rillaboom|Rillaboom, L50, M|32/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|13
+|
+|t:|1756847133
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Rillaboom|Fake Out|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|move|p2b: Porygon2|Tri Attack|p1a: Rillaboom
+|-damage|p1a: Rillaboom|5/100
+|move|p1b: Volcarona|Heat Wave|p2a: Ursaluna|[spread] p2b
+|-activate|p2a: Ursaluna|move: Protect
+|-damage|p2b: Porygon2|30/100
+|
+|-heal|p2a: Ursaluna|71/100 brn|[from] Grassy Terrain
+|-heal|p2b: Porygon2|36/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|11/100|[from] Grassy Terrain
+|-damage|p2a: Ursaluna|65/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|t:|1756847149
+|move|p2a: Ursaluna|Protect||[still]
+|-fail|p2a: Ursaluna
+|move|p1b: Volcarona|Heat Wave|p2b: Porygon2|[spread] p2a,p2b
+|-damage|p2a: Ursaluna|22/100 brn
+|-damage|p2b: Porygon2|3/100
+|move|p1a: Rillaboom|Wood Hammer|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-crit|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|-damage|p1a: Rillaboom|2/100|[from] Recoil
+|move|p2b: Porygon2|Trick Room|p2b: Porygon2
+|-fieldstart|move: Trick Room|[of] p2b: Porygon2
+|
+|-heal|p2b: Porygon2|9/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|8/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|-message|AikonZ_Test forfeited.
+|
+|win|roundybout
+||AikonZ_Test is ready for game 3.
+||roundybout is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

@@ -1,0 +1,146 @@
+|j|☆NEOLODO
+|j|☆SirNeru
+|html|NEOLODOSirNeru    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756822101
+|gametype|doubles
+|player|p1|NEOLODO|169|1127
+|player|p2|SirNeru|101|1195
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Electabuzz, L50, F|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Dragonite, L50, M|
+|teampreview|4
+|showteam|p1|Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,AfterYou,CloseCombat,SleepPowder|||F|||50|,,,,,Ghost]Hatterene||CovertCloak|MagicBounce|DazzlingGleam,ExpandingForce,TrickRoom,MysticalFire|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,TrickRoom,HelpingHand,FollowMe|||F|||50|,,,,,Dragon]Torkoal||FlamePlate|Drought|Eruption,WeatherBall,HeatWave,Protect|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Grass
+|showteam|p2|Gholdengo||LifeOrb|GoodasGold|MakeItRain,NastyPlot,Protect,ShadowBall||||||50|,,,,,Dragon]Primarina||ThroatSpray|LiquidVoice|Moonblast,HyperVoice,Protect,IceBeam|||M|||50|,,,,,Poison]Tyranitar||AssaultVest|SandStream|RockSlide,IcyWind,KnockOff,TeraBlast|||F|||50|,,,,,Flying]Electabuzz||Eviolite|VitalSpirit|FollowMe,Electroweb,Taunt,Protect|||F|||50|,,,,,Ghost]Excadrill||FocusSash|SandRush|Earthquake,SwordsDance,RockSlide,Protect|||M|||50|,,,,,Stellar]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy
+|
+|t:|1756822122
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Electabuzz|Electabuzz, L50, F, shiny|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NEOLODO)
+|
+|t:|1756822135
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Electabuzz|Taunt|p1a: Indeedee
+|-start|p1a: Indeedee|move: Taunt
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p1b: Hatterene|Trick Room|p1b: Hatterene
+|-fieldstart|move: Trick Room|[of] p1b: Hatterene
+|
+|upkeep
+|turn|2
+|l|☆SirNeru
+|inactive|SirNeru disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆SirNeru
+|inactive|SirNeru reconnected and has 45 seconds left.
+|player|p2|SirNeru|101|
+|inactive|NEOLODO has 30 seconds left.
+|inactive|SirNeru has 30 seconds left.
+|inactive|NEOLODO has 20 seconds left.
+|inactive|SirNeru has 20 seconds left.
+|
+|t:|1756822173
+|move|p2a: Electabuzz|Follow Me|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|move: Follow Me
+|move|p1b: Hatterene|Expanding Force|p2a: Electabuzz|[spread] p2a,p2b
+|-resisted|p2b: Gholdengo
+|-damage|p2a: Electabuzz|35/100
+|-damage|p2b: Gholdengo|64/100
+|move|p1a: Indeedee|Psychic|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|move|p2b: Gholdengo|Make It Rain|p1a: Indeedee|[spread] p1a,p1b
+|-supereffective|p1b: Hatterene
+|-damage|p1a: Indeedee|18/100
+|-damage|p1b: Hatterene|0 fnt
+|-unboost|p2b: Gholdengo|spa|1
+|faint|p1b: Hatterene
+|-damage|p2b: Gholdengo|55/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756822189
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|switch|p2a: Primarina|Primarina, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|3
+|inactive|NEOLODO has 30 seconds left.
+|inactive|NEOLODO has 20 seconds left.
+|
+|t:|1756822227
+|switch|p1a: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-terastallize|p1b: Torkoal|Fire
+|-terastallize|p2b: Gholdengo|Dragon
+|move|p1b: Torkoal|Heat Wave|p2b: Gholdengo|[spread] p2a,p2b
+|-resisted|p2a: Tyranitar
+|-resisted|p2b: Gholdengo
+|-damage|p2a: Tyranitar|90/100
+|-damage|p2b: Gholdengo|27/100
+|move|p2b: Gholdengo|Shadow Ball|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|-damage|p2b: Gholdengo|18/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Gallade|94/100|[from] Sandstorm
+|-damage|p2b: Gholdengo|12/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756822243
+|switch|p1b: Indeedee|Indeedee-F, L50, F|18/100
+|turn|4
+|
+|t:|1756822251
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Tyranitar|Knock Off|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p1a: Gallade|Sacred Sword|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|move|p2b: Gholdengo|Make It Rain|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|-unboost|p2b: Gholdengo|spa|1
+|faint|p1a: Gallade
+|-damage|p2b: Gholdengo|2/100|[from] item: Life Orb
+|
+|win|SirNeru
+|raw|NEOLODO's rating: 1127 → 1107(-20 for losing)
+|raw|SirNeru's rating: 1195 → 1215(+20 for winning)
+|l|☆NEOLODO
+|player|p1|
+|l|☆SirNeru
+|player|p2|
+|j|☆SirNeru
+|player|p2|SirNeru|101|

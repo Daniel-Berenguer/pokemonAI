@@ -1,0 +1,221 @@
+|j|☆FireFerret12
+|j|☆emptinessmach
+|html|FireFerret12emptinessmach    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756863575
+|gametype|doubles
+|player|p1|FireFerret12|nate|1061
+|player|p2|emptinessmach|red|1136
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Primarina, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Incineroar||AssaultVest|Intimidate|FakeOut,FlareBlitz,KnockOff,Uturn|||M|||50|,,,,,Grass]Gholdengo||GrassySeed|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Rillaboom||MiracleSeed|GrassySurge|FakeOut,GrassyGlide,WoodHammer,Uturn|||M|||50|,,,,,Fire]Farigiraf||ThroatSpray|ArmorTail|Psychic,HyperVoice,TrickRoom,Protect|||F|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ExtremeSpeed,ScaleShot,Haze,Protect|||M|||50|,,,,,Steel]Primarina||ChoiceSpecs|LiquidVoice|Moonblast,HyperVoice,IcyWind,FlipTurn|||M|||50|,,,,,Poison
+|showteam|p2|Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Ground]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Garchomp||ClearAmulet|RoughSkin|Earthquake,Protect,StompingTantrum,DragonClaw|||M|||50|,,,,,Fire]Gholdengo||LifeOrb|GoodasGold|Protect,NastyPlot,MakeItRain,ShadowBall||||||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,Protect,PollenPuff|||F|||50|,,,,,Fairy]Sneasler||FocusSash|PoisonTouch|DireClaw,CloseCombat,Coaching,Protect|||M|||50|,,,,,Flying
+|
+|t:|1756863590
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Gholdengo|atk|1
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Porygon2|atk|1
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|atk|1
+|turn|1
+|
+|t:|1756863606
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-enditem|p1b: Gholdengo|Grassy Seed
+|-boost|p1b: Gholdengo|def|1|[from] item: Grassy Seed
+|move|p2a: Incineroar|Fake Out|p1a: Rillaboom
+|-damage|p1a: Rillaboom|94/100
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|move|p2b: Porygon2|Trick Room|p2b: Porygon2
+|-fieldstart|move: Trick Room|[of] p2b: Porygon2
+|
+|-heal|p1a: Rillaboom|99/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756863646
+|-terastallize|p1b: Gholdengo|Water
+|move|p2b: Porygon2|Ice Beam|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|54/100
+|move|p2a: Incineroar|Knock Off|p1b: Gholdengo
+|-damage|p1b: Gholdengo|87/100
+|move|p1a: Rillaboom|U-turn|p2a: Incineroar
+|-damage|p2a: Incineroar|81/100
+|
+|t:|1756863656
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100|[from] U-turn
+|move|p1b: Gholdengo|Shadow Ball|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|51/100
+|
+|-heal|p2a: Incineroar|57/100|[from] Grassy Terrain
+|-heal|p1b: Gholdengo|93/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756863681
+|move|p2b: Porygon2|Tera Blast|p1a: Farigiraf
+|-damage|p1a: Farigiraf|72/100
+|move|p2a: Incineroar|Knock Off|p1a: Farigiraf
+|-supereffective|p1a: Farigiraf
+|-damage|p1a: Farigiraf|29/100
+|-enditem|p1a: Farigiraf|Throat Spray|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1a: Farigiraf|Hyper Voice|p2a: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Incineroar|36/100
+|-damage|p2b: Porygon2|83/100
+|move|p1b: Gholdengo|Make It Rain|p2b: Porygon2|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|5/100
+|-damage|p2b: Porygon2|28/100
+|-unboost|p1b: Gholdengo|spa|1
+|
+|-heal|p2b: Porygon2|34/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|11/100|[from] Grassy Terrain
+|-heal|p1a: Farigiraf|34/100|[from] Grassy Terrain
+|-heal|p1b: Gholdengo|99/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756863704
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|move|p2b: Porygon2|Recover|p2b: Porygon2
+|-heal|p2b: Porygon2|84/100
+|move|p1a: Farigiraf|Hyper Voice|p2a: Gholdengo|[spread] p2b
+|-immune|p2a: Gholdengo
+|-damage|p2b: Porygon2|68/100
+|move|p1b: Gholdengo|Make It Rain|p2a: Gholdengo|[spread] p2a,p2b
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|67/100
+|-damage|p2b: Porygon2|25/100
+|-unboost|p1b: Gholdengo|spa|1
+|
+|-heal|p2b: Porygon2|32/100|[from] Grassy Terrain
+|-heal|p1a: Farigiraf|40/100|[from] Grassy Terrain
+|-heal|p2a: Gholdengo|73/100|[from] Grassy Terrain
+|-heal|p1b: Gholdengo|100/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756863738
+|-terastallize|p2a: Gholdengo|Water
+|move|p1a: Farigiraf|Psychic|p2b: Porygon2
+|-damage|p2b: Porygon2|9/100
+|move|p2a: Gholdengo|Shadow Ball|p1b: Gholdengo
+|-damage|p1b: Gholdengo|47/100
+|-damage|p2a: Gholdengo|63/100|[from] item: Life Orb
+|move|p1b: Gholdengo|Shadow Ball|p2a: Gholdengo
+|-damage|p2a: Gholdengo|24/100
+|move|p2b: Porygon2|Trick Room|p2b: Porygon2
+|-fieldend|move: Trick Room
+|
+|-heal|p1b: Gholdengo|53/100|[from] Grassy Terrain
+|-heal|p2a: Gholdengo|30/100|[from] Grassy Terrain
+|-heal|p1a: Farigiraf|46/100|[from] Grassy Terrain
+|-heal|p2b: Porygon2|16/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756863783
+|switch|p2b: Incineroar|Incineroar, L50, M|11/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Farigiraf|atk|1
+|-unboost|p1b: Gholdengo|atk|1
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|move|p1a: Farigiraf|Hyper Voice|p2a: Gholdengo|[spread] p2b
+|-activate|p2a: Gholdengo|move: Protect
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|upkeep
+|
+|t:|1756863798
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|turn|7
+|
+|t:|1756863819
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Gholdengo|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|move|p2b: Sneasler|Close Combat|p1b: Gholdengo
+|-damage|p1b: Gholdengo|25/100
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|move|p1b: Gholdengo|Make It Rain|p2b: Sneasler|[spread] p2a,p2b
+|-resisted|p2a: Gholdengo
+|-crit|p2b: Sneasler
+|-damage|p2a: Gholdengo|0 fnt
+|-enditem|p2b: Sneasler|Focus Sash
+|-damage|p2b: Sneasler|1/100
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2a: Gholdengo
+|
+|upkeep
+|
+|t:|1756863830
+|switch|p2a: Porygon2|Porygon2, L50|16/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|turn|8
+|
+|t:|1756863836
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Porygon2
+|-damage|p2a: Porygon2|9/100
+|move|p1b: Gholdengo|Make It Rain|p2b: Sneasler|[spread] p2a
+|-activate|p2b: Sneasler|move: Protect
+|-damage|p2a: Porygon2|0 fnt
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2a: Porygon2
+|
+|upkeep
+|turn|9
+|
+|t:|1756863845
+|move|p2b: Sneasler|Protect||[still]
+|-fail|p2b: Sneasler
+|move|p1b: Gholdengo|Make It Rain|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2b: Sneasler
+|
+|win|FireFerret12
+|raw|FireFerret12's rating: 1061 → 1098(+37 for winning)
+|raw|emptinessmach's rating: 1136 → 1106(-30 for losing)
+|l|☆FireFerret12
+|player|p1|

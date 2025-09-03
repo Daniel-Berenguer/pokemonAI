@@ -1,0 +1,112 @@
+|j|☆TR Setter
+|j|☆palle synchro
+|html|TR Setterpalle synchro    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756845161
+|gametype|doubles
+|player|p1|TR Setter|zinzolin|
+|player|p2|palle synchro|volkner|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Electabuzz, L50, F|
+|poke|p2|Arcanine-Hisui, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|HelpingHand,Psychic,TrickRoom,FollowMe|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,WideGuard,TrickRoom|||M|||50|,,,,,Steel]Annihilape||ChoiceScarf|Defiant|FinalGambit,CloseCombat,RageFist,Uturn|||M|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,Protect,EarthPower|||M|||50|,,,,,Fire]Kingambit||SafetyGoggles|Defiant|SuckerPunch,KowtowCleave,LowKick,Protect|||M|||50|,,,,,Dark
+|showteam|p2|Gholdengo||GrassySeed|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,Coaching,Protect|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,DrumBeating,HighHorsepower|||M|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Haze,Protect|||F|||50|,,,,,Ground]Electabuzz||Eviolite|VitalSpirit|Electroweb,Taunt,FollowMe,Protect|||F|||50|,,,,,Ghost]Arcanine-Hisui||ClearAmulet|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||M|||50|,,,,,Water
+|
+|t:|1756845214
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Annihilape|Annihilape, L50, M|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Electabuzz|Electabuzz, L50, F|100/100
+|turn|1
+|
+|t:|1756845239
+|-terastallize|p2b: Electabuzz|Ghost
+|-terastallize|p1b: Hatterene|Fire
+|move|p2b: Electabuzz|Follow Me|p2b: Electabuzz
+|-singleturn|p2b: Electabuzz|move: Follow Me
+|move|p1a: Annihilape|U-turn|p2b: Electabuzz
+|-resisted|p2b: Electabuzz
+|-damage|p2b: Electabuzz|91/100
+|
+|t:|1756845254
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1b: Hatterene|Trick Room|p1b: Hatterene
+|-fieldstart|move: Trick Room|[of] p1b: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756845277
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1a: Torkoal|Eruption|p2b: Electabuzz|[spread] p2b
+|-activate|p2a: Gholdengo|move: Protect
+|-damage|p2b: Electabuzz|27/100
+|move|p1b: Hatterene|Expanding Force|p2b: Electabuzz
+|-damage|p2b: Electabuzz|0 fnt
+|faint|p2b: Electabuzz
+|-damage|p1b: Hatterene|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756845284
+|switch|p2b: Arcanine|Arcanine-Hisui, L50, M|100/100
+|-ability|p2b: Arcanine|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1b: Hatterene|atk|1
+|turn|3
+|
+|t:|1756845299
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Torkoal|Eruption|p2b: Arcanine|[spread] p2a,p2b
+|-supereffective|p2a: Rillaboom
+|-resisted|p2b: Arcanine
+|-damage|p2a: Rillaboom|0 fnt
+|-damage|p2b: Arcanine|73/100
+|faint|p2a: Rillaboom
+|move|p1b: Hatterene|Expanding Force|p2b: Arcanine
+|-damage|p2b: Arcanine|0 fnt
+|faint|p2b: Arcanine
+|-damage|p1b: Hatterene|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Hatterene|87/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756845309
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|-enditem|p2b: Gholdengo|Grassy Seed
+|-boost|p2b: Gholdengo|def|1|[from] item: Grassy Seed
+|turn|4
+|
+|t:|1756845315
+|move|p1a: Torkoal|Eruption|p2b: Gholdengo
+|-supereffective|p2b: Gholdengo
+|-damage|p2b: Gholdengo|0 fnt
+|faint|p2b: Gholdengo
+|
+|win|TR Setter

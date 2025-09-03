@@ -1,0 +1,121 @@
+|j|☆palle synchro
+|j|☆TR Setter
+|html|palle synchroTR Setter    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756842857
+|gametype|doubles
+|player|p1|palle synchro|volkner|
+|player|p2|TR Setter|zinzolin|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Corviknight, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Maushold, L50|
+|teampreview|4
+|showteam|p1|Whimsicott||CovertCloak|Prankster|Moonblast,Taunt,Tailwind,FakeTears|||F|||50|,,,,,Water]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Tailwind,Roost|||M|||50|,,,,,Dragon]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,Imprison,TrickRoom|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Archaludon||PowerHerb|Stalwart|ElectroShot,DragonPulse,Thunderbolt,Protect|||M|||50|,,,,,Electric
+|showteam|p2|Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Torkoal||ChoiceSpecs|Drought|Eruption,WeatherBall,HeatWave,EarthPower|||M|||50|,,,,,Fire]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,TrickRoom,Psychic,HelpingHand|||F|||50|,,,,,Water]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TeraBlast,TrickRoom|||F|||50|,,,,,Fire]Maushold||WideLens|Technician|PopulationBomb,Taunt,FollowMe,Protect||||||50|,,,,,Poison
+|
+|t:|1756842892
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Maushold|Maushold, L50|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756842909
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|move|p2a: Maushold|Population Bomb|p1a: Sneasler
+|-damage|p1a: Sneasler|84/100
+|-damage|p1a: Sneasler|68/100
+|-damage|p1a: Sneasler|51/100
+|-damage|p1a: Sneasler|34/100
+|-damage|p1a: Sneasler|16/100
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|-hitcount|p1: Sneasler|6
+|move|p1b: Ursaluna|Hyper Voice|p2a: Maushold|[spread] p2a,p2b
+|-damage|p2a: Maushold|36/100
+|-damage|p2b: Indeedee|69/100
+|-damage|p1b: Ursaluna|91/100|[from] item: Life Orb
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|upkeep
+|
+|t:|1756842917
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|turn|2
+|
+|t:|1756843020
+|-terastallize|p1b: Ursaluna|Normal
+|move|p2b: Indeedee|Psychic|p1a: Indeedee
+|-resisted|p1a: Indeedee
+|-damage|p1a: Indeedee|74/100
+|move|p1b: Ursaluna|Hyper Voice|p2a: Maushold|[spread] p2a,p2b
+|-damage|p2a: Maushold|0 fnt
+|-damage|p2b: Indeedee|30/100
+|faint|p2a: Maushold
+|-damage|p1b: Ursaluna|81/100|[from] item: Life Orb
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldend|move: Trick Room
+|
+|upkeep
+|
+|t:|1756843038
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|3
+|
+|t:|1756843048
+|-terastallize|p2a: Torkoal|Fire
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Indeedee|Expanding Force|p2a: Torkoal|[spread] p2a,p2b
+|-resisted|p2b: Indeedee
+|-damage|p2a: Torkoal|34/100
+|-damage|p2b: Indeedee|14/100
+|move|p1b: Ursaluna|Hyper Voice|p2a: Torkoal|[spread] p2a,p2b
+|-damage|p2a: Torkoal|0 fnt
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2a: Torkoal
+|faint|p2b: Indeedee
+|-damage|p1b: Ursaluna|72/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756843056
+|switch|p2a: Hatterene|Hatterene, L50, F|100/100
+|turn|4
+|
+|t:|1756843069
+|move|p1a: Indeedee|Expanding Force|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|62/100
+|move|p1b: Ursaluna|Blood Moon|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|-damage|p1b: Ursaluna|62/100|[from] item: Life Orb
+|
+|win|palle synchro

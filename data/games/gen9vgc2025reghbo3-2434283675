@@ -1,0 +1,121 @@
+|j|☆TestNumber4
+|j|☆moth.o
+|html|TestNumber4moth.o    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756898042
+|gametype|doubles
+|player|p1|TestNumber4|shadowtriad|1264
+|player|p2|moth.o|roxie|1270
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Arcanine-Hisui, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Hydreigon, L50, M|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Taunt|||M|||50|,,,,,Ghost]Basculegion||ChoiceScarf|Adaptability|WaveCrash,FlipTurn,AquaJet,LastRespects|||M|||50|,,,,,Grass]Tyranitar||AssaultVest|SandStream|KnockOff,TeraBlast,LowKick,RockSlide|||M|||50|,,,,,Flying]Volcarona||Leftovers|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||M|||50|,,,,,Fairy]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy]Amoonguss||SitrusBerry|Regenerator|RagePowder,Spore,PollenPuff,Protect|||F|||50|,,,,,Fairy
+|showteam|p2|Arcanine-Hisui||SafetyGoggles|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||M|||50|,,,,,Fairy]Indeedee-F||SitrusBerry|PsychicSurge|TrickRoom,FollowMe,Psychic,HelpingHand|||F|||50|,,,,,Fairy]Gallade||LifeOrb|Sharpness|Protect,NightSlash,SacredSword,PsychoCut|||M|||50|,,,,,Grass]Gholdengo||ChoiceSpecs|GoodasGold|Trick,ShadowBall,MakeItRain,PowerGem||||||50|,,,,,Water]Whimsicott||CovertCloak|Prankster|SunnyDay,Moonblast,Encore,Tailwind|||M|||50|,,,,,Dark]Hydreigon||AssaultVest|Levitate|Uturn,Snarl,DarkPulse,DracoMeteor|||M|||50|,,,,,Ghost
+|
+|t:|1756898148
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p2a: Tesorero|Gholdengo, L50|100/100
+|switch|p2b: Triquiñuela|Whimsicott, L50, M, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Tesorero|atk|1
+|-unboost|p2b: Triquiñuela|atk|1
+|turn|1
+|
+|t:|1756898172
+|move|p2b: Triquiñuela|Moonblast|p1b: Incineroar
+|-damage|p1b: Incineroar|79/100
+|move|p2a: Tesorero|Power Gem|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|upkeep
+|
+|t:|1756898186
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|turn|2
+|
+|t:|1756898200
+|switch|p2a: Fenrir|Arcanine-Hisui, L50, M|100/100
+|-ability|p2a: Fenrir|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|-unboost|p1b: Basculegion|atk|1
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p2b: Triquiñuela|Encore|p1a: Volcarona
+|-activate|p1a: Volcarona|move: Protect
+|move|p1b: Basculegion|Last Respects|p2b: Triquiñuela
+|-damage|p2b: Triquiñuela|47/100
+|
+|upkeep
+|turn|3
+|
+|t:|1756898225
+|switch|p1a: Tyranitar|Tyranitar, L50, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2b: Triquiñuela|Tailwind|p2b: Triquiñuela
+|-sidestart|p2: moth.o|move: Tailwind
+|move|p2a: Fenrir|Rock Slide|p1a: Tyranitar|[spread] p1a,p1b
+|-damage|p1a: Tyranitar|76/100
+|-damage|p1b: Basculegion|66/100
+|move|p1b: Basculegion|Last Respects|p2b: Triquiñuela
+|-crit|p2b: Triquiñuela
+|-damage|p2b: Triquiñuela|0 fnt
+|faint|p2b: Triquiñuela
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Basculegion|60/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756898247
+|switch|p2b: Tesorero|Gholdengo, L50|100/100
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by moth.o)
+|inactive|TestNumber4 has 60 seconds left.
+|
+|t:|1756898359
+|switch|p1b: Volcarona|Volcarona, L50, M|100/100
+|move|p2a: Fenrir|Rock Slide|p1b: Volcarona|[spread] p1a,p1b
+|-supereffective|p1b: Volcarona
+|-damage|p1a: Tyranitar|51/100
+|-damage|p1b: Volcarona|0 fnt
+|faint|p1b: Volcarona
+|move|p2b: Tesorero|Make It Rain|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2b: Tesorero|spa|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|-message|TestNumber4 forfeited.
+|
+|win|moth.o
+|raw|TestNumber4's rating: 1264 → 1239(-25 for losing)
+|raw|moth.o's rating: 1270 → 1295(+25 for winning)
+|l|☆TestNumber4
+|player|p1|

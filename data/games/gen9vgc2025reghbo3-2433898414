@@ -1,0 +1,163 @@
+|j|☆Buster981
+|j|☆bassacucina777
+|html|Buster981bassacucina777    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756844373
+|gametype|doubles
+|player|p1|Buster981|scientist-gen4dp|1058
+|player|p2|bassacucina777|102|1157
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Wugtrio, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Mandibuzz, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Dondozo, L50, F|
+|poke|p2|Tatsugiri, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Glimmora, L50, F|
+|teampreview|4
+|showteam|p1|Wugtrio||ChoiceBand|SandVeil|TripleDive,AquaJet,SuckerPunch,ThroatChop|||M|||50|,,,,,Water]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||F|||50|,,,,,Flying]Garchomp||ClearAmulet|SandVeil|StompingTantrum,DragonClaw,SwordsDance,Protect|||F|||50|,,,,,Fairy]Mandibuzz||SitrusBerry|Overcoat|FoulPlay,Taunt,Roost,Tailwind|||F|||50|,,,,,Steel]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,HyperVoice,Psychic,Trick|||M|||50|,,,,,Psychic]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,FakeOut,PartingShot,Protect|||M|||50|,,,,,Fire
+|showteam|p2|Dondozo||SafetyGoggles|Unaware|WaveCrash,Earthquake,OrderUp,Protect|||F|||50|,,,,,Steel]Tatsugiri||ChoiceScarf|Commander|MuddyWater,DracoMeteor,DragonPulse,IcyWind|||F|||50|,,,,,Ghost]Indeedee||FocusSash|PsychicSurge|ExpandingForce,Protect,TrickRoom,HelpingHand|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Volcarona||CovertCloak|FlameBody|TeraBlast,Tailwind,FieryDance,QuiverDance|||M|||50|,,,,,Fairy]Glimmora||PowerHerb|ToxicDebris|MeteorBeam,EarthPower,SludgeBomb,Protect|||F|||50|,,,,,Grass
+|j| SapphireSquirrelPB
+|
+|t:|1756844418
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|turn|1
+|
+|t:|1756844437
+|-terastallize|p2b: Sneasler|Dark
+|move|p2a: Indeedee|Helping Hand|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Helping Hand|[of] p2a: Indeedee
+|move|p1b: Incineroar|Fake Out|p2a: Indeedee
+|-activate|p2a: Indeedee|move: Psychic Terrain
+|move|p2b: Sneasler|Close Combat|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1b: Incineroar
+|move|p1a: Indeedee|Expanding Force|p2a: Indeedee|[spread] p2a
+|-immune|p2b: Sneasler
+|-resisted|p2a: Indeedee
+|-damage|p2a: Indeedee|59/100
+|
+|upkeep
+|
+|t:|1756844451
+|switch|p1b: Mandibuzz|Mandibuzz, L50, F|100/100
+|turn|2
+|
+|t:|1756844468
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Indeedee|Helping Hand|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Helping Hand|[of] p2a: Indeedee
+|move|p2b: Sneasler|Throat Chop|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-crit|p1a: Tyranitar
+|-damage|p1a: Tyranitar|64/100
+|-start|p1a: Tyranitar|Throat Chop|[silent]
+|move|p1b: Mandibuzz|Taunt|p2a: Indeedee
+|-start|p2a: Indeedee|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sneasler|95/100|[from] Sandstorm
+|-damage|p2a: Indeedee|53/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1756844499
+|-terastallize|p1a: Tyranitar|Flying
+|move|p2b: Sneasler|Close Combat|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|47/100
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|move|p2a: Indeedee|Expanding Force|p1b: Mandibuzz|[spread] p1a
+|-immune|p1b: Mandibuzz
+|-damage|p1a: Tyranitar|16/100
+|move|p1b: Mandibuzz|Foul Play|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|move|p1a: Tyranitar|Tera Blast|p2b: Sneasler|[anim] Tera Blast Flying
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|11/100|[from] Sandstorm
+|-end|p1a: Tyranitar|Throat Chop|[silent]
+|upkeep
+|
+|t:|1756844516
+|switch|p2b: Tatsugiri|Tatsugiri, L50, F|100/100
+|switch|p2a: Dondozo|Dondozo, L50, F|100/100
+|-activate|p2b: Tatsugiri|ability: Commander|[of] p2a: Dondozo
+|-boost|p2a: Dondozo|atk|2
+|-boost|p2a: Dondozo|spa|2
+|-boost|p2a: Dondozo|spe|2
+|-boost|p2a: Dondozo|def|2
+|-boost|p2a: Dondozo|spd|2
+|turn|4
+|
+|t:|1756844530
+|move|p2a: Dondozo|Order Up|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|-boost|p2a: Dondozo|atk|1
+|move|p1b: Mandibuzz|Foul Play|p2a: Dondozo
+|-damage|p2a: Dondozo|85/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Tatsugiri|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756844539
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|turn|5
+|
+|t:|1756844556
+|move|p1a: Indeedee|Expanding Force|p2a: Dondozo|[spread] p2a
+|-miss|p1a: Indeedee|p2b: Tatsugiri
+|-damage|p2a: Dondozo|56/100
+|move|p2a: Dondozo|Order Up|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|-boost|p2a: Dondozo|atk|1
+|move|p1b: Mandibuzz|Foul Play|p2a: Dondozo
+|-damage|p2a: Dondozo|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Tatsugiri|88/100|[from] Sandstorm
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756844573
+|move|p2a: Dondozo|Wave Crash|p1b: Mandibuzz
+|-damage|p1b: Mandibuzz|0 fnt
+|faint|p1b: Mandibuzz
+|-damage|p2a: Dondozo|8/100|[from] Recoil
+|
+|win|bassacucina777

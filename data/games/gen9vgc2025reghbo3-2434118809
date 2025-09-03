@@ -1,0 +1,199 @@
+|j|☆vilan333
+|j|☆ChiriwilloVGC
+|html|vilan333ChiriwilloVGC    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756869451
+|gametype|doubles
+|player|p1|vilan333|170|
+|player|p2|ChiriwilloVGC|fisherman-gen4|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Talonflame, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|Protect,CloseCombat,DireClaw,ThroatChop|||M|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|Imprison,TrickRoom,ExpandingForce,TeraBlast|||M|||50|,,,,,Fighting]Ursaluna-Bloodmoon||LifeOrb|MindsEye|Protect,HyperVoice,BloodMoon,EarthPower|||M|||50|,,,,,Normal]Electabuzz||Eviolite|VitalSpirit|Electroweb,Protect,Taunt,FollowMe|||M|||50|,,,,,Ghost]Talonflame||CovertCloak|GaleWings|Tailwind,WillOWisp,DualWingbeat,FlareBlitz|||F|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,FlareBlitz|||F|||50|,,,,,Ghost
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,DragonPulse,WeatherBall|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|Tailwind,SunnyDay,RagePowder,SleepPowder|||M|||50|,,,,,Fire]Torkoal||EjectPack|Drought|ClearSmog,Eruption,Overheat,Protect|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost
+|
+|t:|1756869507
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Lewyn II|Sneasler, L50, M|100/100
+|switch|p1b: TacticaNurse|Indeedee, L50, M|100/100
+|switch|p2a: Nice guy|Porygon2, L50|100/100
+|switch|p2b: Dirty guy|Ursaluna, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: TacticaNurse
+|-enditem|p1a: Lewyn II|Psychic Seed
+|-boost|p1a: Lewyn II|spd|1|[from] item: Psychic Seed
+|-ability|p2a: Nice guy|Download|boost
+|-boost|p2a: Nice guy|atk|1
+|turn|1
+|
+|t:|1756869559
+|switch|p2a: Grumpy guy|Incineroar, L50, F|100/100
+|-ability|p2a: Grumpy guy|Intimidate|boost
+|-unboost|p1a: Lewyn II|atk|1
+|-unboost|p1b: TacticaNurse|atk|1
+|move|p1a: Lewyn II|Close Combat|p2b: Dirty guy
+|-supereffective|p2b: Dirty guy
+|-damage|p2b: Dirty guy|36/100
+|-unboost|p1a: Lewyn II|def|1
+|-unboost|p1a: Lewyn II|spd|1
+|move|p1b: TacticaNurse|Imprison|p1b: TacticaNurse
+|-start|p1b: TacticaNurse|move: Imprison
+|move|p2b: Dirty guy|Headlong Rush|p1a: Lewyn II
+|-supereffective|p1a: Lewyn II
+|-damage|p1a: Lewyn II|0 fnt
+|-unboost|p2b: Dirty guy|def|1
+|-unboost|p2b: Dirty guy|spd|1
+|faint|p1a: Lewyn II
+|
+|-status|p2b: Dirty guy|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756869580
+|switch|p1a: Jorah Knight|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|2
+|
+|t:|1756869602
+|switch|p2b: Sunny guy|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Sunny guy
+|-terastallize|p1b: TacticaNurse|Fighting
+|move|p1b: TacticaNurse|Tera Blast|p2a: Grumpy guy|[anim] Tera Blast Fighting
+|-supereffective|p2a: Grumpy guy
+|-damage|p2a: Grumpy guy|25/100
+|-enditem|p2a: Grumpy guy|Sitrus Berry|[eat]
+|-heal|p2a: Grumpy guy|50/100|[from] item: Sitrus Berry
+|move|p2a: Grumpy guy|Parting Shot|p1a: Jorah Knight
+|-unboost|p1a: Jorah Knight|atk|1
+|-unboost|p1a: Jorah Knight|spa|1
+|
+|t:|1756869612
+|switch|p2a: Nice guy|Porygon2, L50|100/100|[from] Parting Shot
+|-ability|p2a: Nice guy|Download|boost
+|-boost|p2a: Nice guy|spa|1
+|move|p1a: Jorah Knight|Hyper Voice|p2a: Nice guy|[spread] p2a,p2b
+|-damage|p2a: Nice guy|80/100
+|-damage|p2b: Sunny guy|56/100
+|-damage|p1a: Jorah Knight|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756869636
+|move|p2b: Sunny guy|Protect|p2b: Sunny guy
+|-singleturn|p2b: Sunny guy|Protect
+|move|p1b: TacticaNurse|Expanding Force|p2b: Sunny guy|[spread] p2a
+|-activate|p2b: Sunny guy|move: Protect
+|-crit|p2a: Nice guy
+|-damage|p2a: Nice guy|29/100
+|move|p1a: Jorah Knight|Hyper Voice|p2b: Sunny guy|[spread] p2a
+|-activate|p2b: Sunny guy|move: Protect
+|-damage|p2a: Nice guy|8/100
+|-damage|p1a: Jorah Knight|81/100|[from] item: Life Orb
+|move|p2a: Nice guy|Ice Beam|p1a: Jorah Knight
+|-supereffective|p1a: Jorah Knight
+|-damage|p1a: Jorah Knight|0 fnt
+|faint|p1a: Jorah Knight
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756869653
+|switch|p1a: Ryo|Incineroar, L50, F|100/100
+|-ability|p1a: Ryo|Intimidate|boost
+|-unboost|p2a: Nice guy|atk|1
+|-unboost|p2b: Sunny guy|atk|1
+|-enditem|p2b: Sunny guy|Eject Pack
+|
+|t:|1756869656
+|switch|p2b: Grumpy guy|Incineroar, L50, F|50/100
+|-ability|p2b: Grumpy guy|Intimidate|boost
+|-unboost|p1a: Ryo|atk|1
+|-unboost|p1b: TacticaNurse|atk|1
+|turn|4
+|
+|t:|1756869675
+|switch|p2b: Sunny guy|Torkoal, L50, M|56/100
+|move|p1b: TacticaNurse|Expanding Force|p2b: Sunny guy|[spread] p2a,p2b
+|-damage|p2a: Nice guy|0 fnt
+|-damage|p2b: Sunny guy|0 fnt
+|faint|p2a: Nice guy
+|faint|p2b: Sunny guy
+|move|p1a: Ryo|Knock Off|p2: Nice guy|[notarget]
+|-fail|p1a: Ryo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756869687
+|switch|p2a: Grumpy guy|Incineroar, L50, F|50/100
+|switch|p2b: Dirty guy|Ursaluna, L50, M|36/100 brn
+|-ability|p2a: Grumpy guy|Intimidate|boost
+|-unboost|p1a: Ryo|atk|1
+|-unboost|p1b: TacticaNurse|atk|1
+|turn|5
+|
+|t:|1756869707
+|move|p2b: Dirty guy|Protect|p2b: Dirty guy
+|-singleturn|p2b: Dirty guy|Protect
+|move|p1b: TacticaNurse|Expanding Force|p2b: Dirty guy|[spread] 
+|-activate|p2b: Dirty guy|move: Protect
+|-immune|p2a: Grumpy guy
+|move|p2a: Grumpy guy|Flare Blitz|p1b: TacticaNurse
+|-enditem|p1b: TacticaNurse|Focus Sash
+|-damage|p1b: TacticaNurse|1/100
+|-damage|p2a: Grumpy guy|28/100|[from] Recoil
+|move|p1a: Ryo|Knock Off|p2a: Grumpy guy
+|-resisted|p2a: Grumpy guy
+|-damage|p2a: Grumpy guy|22/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Dirty guy|30/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756869737
+|-terastallize|p2b: Dirty guy|Ghost
+|move|p1b: TacticaNurse|Expanding Force|p2a: Grumpy guy
+|-immune|p2a: Grumpy guy
+|move|p2a: Grumpy guy|Flare Blitz|p1a: Ryo
+|-resisted|p1a: Ryo
+|-damage|p1a: Ryo|64/100
+|-damage|p2a: Grumpy guy|10/100|[from] Recoil
+|move|p1a: Ryo|Flare Blitz|p2b: Dirty guy
+|-damage|p2b: Dirty guy|3/100 brn
+|-damage|p1a: Ryo|53/100|[from] Recoil
+|move|p2b: Dirty guy|Earthquake|p1b: TacticaNurse|[spread] p2a,p1a,p1b
+|-supereffective|p2a: Grumpy guy
+|-supereffective|p1a: Ryo
+|-damage|p2a: Grumpy guy|0 fnt
+|-damage|p1a: Ryo|0 fnt
+|-damage|p1b: TacticaNurse|0 fnt
+|faint|p2a: Grumpy guy
+|faint|p1a: Ryo
+|faint|p1b: TacticaNurse
+|
+|win|ChiriwilloVGC
+|inactive|vilan333 has 30 seconds to confirm battle start!
+|inactive|ChiriwilloVGC has 30 seconds to confirm battle start!
+||ChiriwilloVGC is ready for game 2.
+|inactive|vilan333 has 20 seconds to confirm battle start!
+|inactive|vilan333 has 9 seconds to confirm battle start!
+||vilan333 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

@@ -1,0 +1,97 @@
+|j|☆FakeOutPlot
+|j|☆Beeetch
+|html|FakeOutPlotBeeetch    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756861948
+|gametype|doubles
+|player|p1|FakeOutPlot|iris|1286
+|player|p2|Beeetch|beauty-gen4dp|1210
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Corviknight, L50, M|
+|poke|p2|Annihilape, L50, F|
+|teampreview|4
+|showteam|p1|Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|PartingShot,FlareBlitz,KnockOff,FakeOut|||M|||50|,,,,,Ghost]Sneasler||FocusSash|PoisonTouch|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Stellar]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||F|||50|,,,,,Fairy]Ursaluna-Bloodmoon||AssaultVest|MindsEye|HyperVoice,EarthPower,BloodMoon,VacuumWave|||M|||50|,,,,,Water]Rillaboom||MiracleSeed|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire
+|showteam|p2|Excadrill||FocusSash|SandRush|IronHead,HighHorsepower,Earthquake,Protect|||F|||50|,,,,,Stellar]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||F|||50|,,,,,Flying]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Protect,Trick|||M|||50|,,,,,Psychic]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Roost,Tailwind|||M|||50|,,,,,Dragon]Annihilape||SafetyGoggles|Defiant|CloseCombat,FinalGambit,RageFist,Taunt|||F|||50|,,,,,Water
+|
+|t:|1756862016
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Annihilape|Annihilape, L50, F|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|1
+|
+|t:|1756862040
+|switch|p2a: Indeedee|Indeedee, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|-terastallize|p2b: Sneasler|Dark
+|move|p2b: Sneasler|Dire Claw|p1b: Gholdengo
+|-immune|p1b: Gholdengo
+|move|p1a: Ursaluna|Hyper Voice|p2b: Sneasler|[spread] p2a,p2b
+|-damage|p2a: Indeedee|49/100
+|-damage|p2b: Sneasler|68/100
+|
+|upkeep
+|turn|2
+|
+|t:|1756862062
+|move|p2b: Sneasler|Throat Chop|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo
+|-damage|p1b: Gholdengo|11/100
+|-start|p1b: Gholdengo|Throat Chop|[silent]
+|move|p2a: Indeedee|Expanding Force|p1a: Ursaluna|[spread] p1a,p1b
+|-crit|p1a: Ursaluna
+|-resisted|p1b: Gholdengo
+|-damage|p1a: Ursaluna|36/100
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|move|p1a: Ursaluna|Blood Moon|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|upkeep
+|
+|t:|1756862072
+|switch|p2b: Corviknight|Corviknight, L50, M|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|3
+|
+|t:|1756862097
+|switch|p2a: Annihilape|Annihilape, L50, F|100/100
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100
+|move|p2b: Corviknight|Bulk Up|p2b: Corviknight
+|-boost|p2b: Corviknight|atk|1
+|-boost|p2b: Corviknight|def|1
+|move|p1a: Ursaluna|Earth Power|p2a: Annihilape
+|-damage|p2a: Annihilape|53/100
+|
+|-heal|p2a: Annihilape|58/100|[from] Grassy Terrain
+|-heal|p1a: Ursaluna|42/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|-message|FakeOutPlot forfeited.
+|
+|win|Beeetch
+||FakeOutPlot is ready for game 2.

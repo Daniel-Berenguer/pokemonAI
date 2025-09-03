@@ -1,0 +1,96 @@
+|j|☆walune
+|j|☆okkoso
+|html|waluneokkoso    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756828751
+|gametype|doubles
+|player|p1|walune|n|1000
+|player|p2|okkoso|waiter-gen4dp|1045
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Sneasler, L50, F|
+|teampreview|4
+|showteam|p1|Incineroar||HeavyDutyBoots|Intimidate|KnockOff,FlareBlitz,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||RockyHelmet|Chlorophyll|SunnyDay,SleepPowder,Tailwind,RagePowder|||F|||50|,,,,,Dragon]Volcarona||CovertCloak|FlameBody|QuiverDance,Flamethrower,MorningSun,WillOWisp|||M|||50|,,,,,Water]Archaludon||Leftovers|Stamina|BodyPress,FlashCannon,StealthRock,DracoMeteor|||M|||50|,,,,,Steel]Sneasler||FocusSash|Unburden|DireClaw,FakeOut,CloseCombat,Coaching|||F|||50|,,,,,Ghost]Gholdengo||AirBalloon|GoodasGold|NastyPlot,ShadowBall,MakeItRain,Protect||||||50|,,,,,Fairy
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Psychic]Ursaluna-Bloodmoon||AssaultVest|MindsEye|HyperVoice,BloodMoon,EarthPower,VacuumWave|||M|||50|,,,,,Water]Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Stellar
+|
+|t:|1756828769
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|switch|p2a: Dragonite|Dragonite, L50, M|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|-unboost|p2b: Ursaluna|atk|1
+|turn|1
+|
+|t:|1756828793
+|-terastallize|p1b: Archaludon|Steel
+|-terastallize|p2b: Ursaluna|Water
+|move|p1a: Incineroar|Fake Out|p2b: Ursaluna
+|-damage|p2b: Ursaluna|90/100
+|move|p2a: Dragonite|Tailwind|p2a: Dragonite
+|-sidestart|p2: okkoso|move: Tailwind
+|cant|p2b: Ursaluna|flinch
+|move|p1b: Archaludon|Draco Meteor|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|43/100
+|-unboost|p1b: Archaludon|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1756828821
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Archaludon|atk|1
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|-item|p1b: Gholdengo|Air Balloon
+|move|p1a: Incineroar|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1a: Incineroar
+|move|p2b: Ursaluna|Earth Power|p1b: Gholdengo
+|-immune|p1b: Gholdengo
+|
+|upkeep
+|turn|3
+|
+|t:|1756828845
+|move|p2a: Incineroar|Knock Off|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|-enditem|p1b: Gholdengo|Air Balloon
+|faint|p1b: Gholdengo
+|move|p2b: Ursaluna|Earth Power|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|4/100
+|move|p1a: Incineroar|Knock Off|p2b: Ursaluna
+|-damage|p2b: Ursaluna|65/100
+|-enditem|p2b: Ursaluna|Assault Vest|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|-message|walune forfeited.
+|
+|win|okkoso
+|raw|walune's rating: 1000 → 1000(+0 for losing)
+|raw|okkoso's rating: 1045 → 1074(+29 for winning)
+|l|☆walune
+|player|p1|

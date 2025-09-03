@@ -1,0 +1,210 @@
+|j|☆Sapillo
+|j|☆colemarcusvgc
+|html|Sapillocolemarcusvgc    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756858934
+|gametype|doubles
+|player|p1|Sapillo|265|1150
+|player|p2|colemarcusvgc|n|1158
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Dragonite, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,FinalGambit,Taunt|||M|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||F|||50|,,,,,Fire]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Ursaluna-Bloodmoon||FocusSash|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Incineroar||SitrusBerry|Intimidate|FakeOut,KnockOff,Taunt,PartingShot|||F|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||F|||50|,,,,,Steel
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fire]Hatterene||LifeOrb|MagicBounce|ExpandingForce,TrickRoom,DazzlingGleam,Protect|||F|||50|,,,,,Psychic]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,SacredSword,WideGuard|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,SwordsDance,Protect|||M|||50|,,,,,Ghost]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,SleepPowder,CloseCombat,AfterYou|||F|||50|,,,,,Ghost]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire
+|
+|t:|1756858940
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-fail|p2b: Gallade|unboost|[from] item: Clear Amulet|[of] p2b: Gallade
+|turn|1
+|
+|t:|1756858979
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Dragonite|Scale Shot|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|78/100
+|-damage|p2a: Indeedee|65/100
+|-damage|p2a: Indeedee|51/100
+|-damage|p2a: Indeedee|36/100
+|-hitcount|p2a: Indeedee|4
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2b: Gallade|Trick Room|p2b: Gallade
+|-fieldstart|move: Trick Room|[of] p2b: Gallade
+|
+|upkeep
+|turn|2
+|
+|t:|1756859004
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p2b: Gallade|Wide Guard|p2b: Gallade
+|-singleturn|p2b: Gallade|Wide Guard
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|move|p1a: Dragonite|Scale Shot|p2a: Torkoal
+|-damage|p2a: Torkoal|90/100
+|-damage|p2a: Torkoal|79/100
+|-damage|p2a: Torkoal|67/100
+|-damage|p2a: Torkoal|56/100
+|-hitcount|p2a: Torkoal|4
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756859045
+|-terastallize|p2a: Torkoal|Fire
+|-terastallize|p1b: Gholdengo|Water
+|move|p2b: Gallade|Wide Guard|p2b: Gallade
+|-singleturn|p2b: Gallade|Wide Guard
+|move|p2a: Torkoal|Eruption|p1a: Dragonite|[spread] p1a,p1b
+|-resisted|p1a: Dragonite
+|-resisted|p1b: Gholdengo
+|-damage|p1a: Dragonite|81/100
+|-damage|p1b: Gholdengo|51/100
+|move|p1b: Gholdengo|Make It Rain|p2b: Gallade|[spread] 
+|-activate|p2a: Torkoal|move: Wide Guard
+|-activate|p2b: Gallade|move: Wide Guard
+|move|p1a: Dragonite|Scale Shot|p2a: Torkoal|[miss]
+|-miss|p1a: Dragonite|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756859090
+|move|p2b: Gallade|Wide Guard|p2b: Gallade
+|-singleturn|p2b: Gallade|Wide Guard
+|move|p2a: Torkoal|Eruption|p1a: Dragonite|[spread] p1a,p1b
+|-resisted|p1a: Dragonite
+|-resisted|p1b: Gholdengo
+|-damage|p1a: Dragonite|35/100
+|-damage|p1b: Gholdengo|7/100
+|move|p1b: Gholdengo|Make It Rain|p2a: Torkoal|[spread] 
+|-activate|p2a: Torkoal|move: Wide Guard
+|-activate|p2b: Gallade|move: Wide Guard
+|move|p1a: Dragonite|Scale Shot|p2a: Torkoal
+|-damage|p2a: Torkoal|44/100
+|-damage|p2a: Torkoal|33/100
+|-damage|p2a: Torkoal|21/100
+|-damage|p2a: Torkoal|10/100
+|-hitcount|p2a: Torkoal|4
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1756859123
+|switch|p2a: Lilligant|Lilligant-Hisui, L50, F|100/100
+|move|p1b: Gholdengo|Protect|p1b: Gholdengo
+|-singleturn|p1b: Gholdengo|Protect
+|move|p2b: Gallade|Psycho Cut|p1b: Gholdengo
+|-activate|p1b: Gholdengo|move: Protect
+|move|p1a: Dragonite|Tailwind|p1a: Dragonite
+|-sidestart|p1: Sapillo|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756859139
+|move|p1a: Dragonite|Scale Shot|p2a: Lilligant
+|-damage|p2a: Lilligant|77/100
+|-damage|p2a: Lilligant|53/100
+|-damage|p2a: Lilligant|31/100
+|-damage|p2a: Lilligant|8/100
+|-hitcount|p2a: Lilligant|4
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|move|p2a: Lilligant|After You|p2b: Gallade
+|-activate|p2b: Gallade|move: After You
+|move|p2b: Gallade|Psycho Cut|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|
+|-weather|none
+|upkeep
+|
+|t:|1756859165
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Lilligant|atk|1
+|-fail|p2b: Gallade|unboost|[from] item: Clear Amulet|[of] p2b: Gallade
+|turn|7
+|
+|t:|1756859184
+|move|p1b: Incineroar|Fake Out|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|move|p1a: Dragonite|Scale Shot|p2b: Gallade
+|-damage|p2b: Gallade|78/100
+|-damage|p2b: Gallade|56/100
+|-damage|p2b: Gallade|31/100
+|-damage|p2b: Gallade|8/100
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|-hitcount|p2: Gallade|5
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|
+|t:|1756859197
+|switch|p2a: Indeedee|Indeedee-F, L50, F|36/100
+|switch|p2b: Torkoal|Torkoal, L50, M, tera:Fire|10/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|8
+|
+|t:|1756859208
+|move|p1a: Dragonite|Scale Shot|p2b: Torkoal
+|-crit|p2b: Torkoal
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|-hitcount|p2: Torkoal|1
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|move|p1b: Incineroar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|win|Sapillo
+||Sapillo is ready for game 3.
+||colemarcusvgc is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

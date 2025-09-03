@@ -1,0 +1,151 @@
+|j|☆SunDiazVGC
+|j|☆MinasDevilCrobats
+|html|SunDiazVGCMinasDevilCrobats    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756848043
+|gametype|doubles
+|player|p1|SunDiazVGC|marley|1104
+|player|p2|MinasDevilCrobats|darach-caitlin|1216
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Politoed, L50, M|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Kingdra, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Dondozo, L50, F|
+|poke|p2|Tatsugiri, L50, M|
+|poke|p2|Talonflame, L50, F|
+|poke|p2|Glimmora, L50, M|
+|teampreview|4
+|showteam|p1|Politoed||Leftovers|Drizzle|PerishSong,Protect,WeatherBall,Encore|||M|||50|,,,,,Grass]Gothitelle||SitrusBerry|ShadowTag|FakeOut,Protect,TrickRoom,Psychic|||M|||50|,,,,,Dark]Archaludon||PowerHerb|Sturdy|Protect,ElectroShot,DragonPulse,FlashCannon|||M|||50|,,,,,Electric]Incineroar||SafetyGoggles|Intimidate|Protect,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Water]Amoonguss||EjectButton|Regenerator|Protect,RagePowder,Spore,PollenPuff|||M|||50|,,,,,Fairy]Kingdra||LifeOrb|SwiftSwim|Protect,DracoMeteor,WeatherBall,MuddyWater|||M|||50|,,,,,Stellar
+|showteam|p2|Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,DazzlingGleam,Trick,Protect|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Dondozo||Leftovers|Unaware|WaveCrash,OrderUp,Earthquake,Protect|||F|||50|,,,,,Grass]Tatsugiri||LifeOrb|Commander|MuddyWater,DracoMeteor,DragonPulse,Protect|||M|||50|,,,,,Steel]Talonflame||CovertCloak|GaleWings|FlareBlitz,WillOWisp,Tailwind,Taunt|||F|||50|,,,,,Water]Glimmora||PowerHerb|ToxicDebris|MeteorBeam,SludgeBomb,EarthPower,SpikyShield|||M|||50|,,,,,Grass
+|
+|t:|1756848065
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|switch|p1b: Politoed|Politoed, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Politoed
+|turn|1
+|
+|t:|1756848084
+|move|p1b: Politoed|Protect|p1b: Politoed
+|-singleturn|p1b: Politoed|Protect
+|move|p2b: Sneasler|Close Combat|p1b: Politoed
+|-activate|p1b: Politoed|move: Protect
+|move|p2a: Indeedee|Expanding Force|p1b: Politoed|[spread] p1a
+|-activate|p1b: Politoed|move: Protect
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|64/100
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2a: Indeedee
+|-damage|p2a: Indeedee|7/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756848099
+|switch|p1b: Gothitelle|Gothitelle, L50, M|100/100
+|move|p2b: Sneasler|Close Combat|p1b: Gothitelle
+|-resisted|p1b: Gothitelle
+|-damage|p1b: Gothitelle|73/100
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|move|p2a: Indeedee|Expanding Force|p1b: Gothitelle|[spread] p1a,p1b
+|-resisted|p1a: Archaludon
+|-resisted|p1b: Gothitelle
+|-damage|p1a: Archaludon|23/100
+|-damage|p1b: Gothitelle|52/100
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756848108
+|switch|p2b: Glimmora|Glimmora, L50, M|100/100
+|turn|3
+|
+|t:|1756848115
+|-terastallize|p2b: Glimmora|Grass
+|move|p1a: Archaludon|Protect|p1a: Archaludon
+|-singleturn|p1a: Archaludon|Protect
+|move|p2a: Indeedee|Expanding Force|p1a: Archaludon|[spread] p1b
+|-activate|p1a: Archaludon|move: Protect
+|-resisted|p1b: Gothitelle
+|-damage|p1b: Gothitelle|34/100
+|-enditem|p1b: Gothitelle|Sitrus Berry|[eat]
+|-heal|p1b: Gothitelle|59/100|[from] item: Sitrus Berry
+|move|p2b: Glimmora|Meteor Beam||[still]
+|-prepare|p2b: Glimmora|Meteor Beam
+|-boost|p2b: Glimmora|spa|1
+|-enditem|p2b: Glimmora|Power Herb
+|-anim|p2b: Glimmora|Meteor Beam|p1b: Gothitelle
+|-damage|p1b: Gothitelle|0 fnt
+|faint|p1b: Gothitelle
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756848123
+|switch|p1b: Kingdra|Kingdra, L50, M|100/100
+|turn|4
+|
+|t:|1756848132
+|move|p2b: Glimmora|Spiky Shield|p2b: Glimmora
+|-singleturn|p2b: Glimmora|move: Protect
+|move|p1b: Kingdra|Weather Ball|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-damage|p1b: Kingdra|91/100|[from] item: Life Orb
+|move|p1a: Archaludon|Dragon Pulse|p2b: Glimmora
+|-activate|p2b: Glimmora|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756848140
+|switch|p2a: Talonflame|Talonflame, L50, F|100/100
+|turn|5
+|
+|t:|1756848161
+|-terastallize|p1b: Kingdra|Stellar
+|move|p2a: Talonflame|Tailwind|p2a: Talonflame
+|-sidestart|p2: MinasDevilCrobats|move: Tailwind
+|move|p1b: Kingdra|Draco Meteor|p2b: Glimmora
+|-damage|p2b: Glimmora|0 fnt
+|-unboost|p1b: Kingdra|spa|2
+|faint|p2b: Glimmora
+|-damage|p1b: Kingdra|81/100|[from] item: Life Orb
+|move|p1a: Archaludon|Dragon Pulse|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|win|SunDiazVGC
+||SunDiazVGC is ready for game 3.
+|inactive|MinasDevilCrobats has 30 seconds to confirm battle start!
+||MinasDevilCrobats is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆SunDiazVGC
+|player|p1|

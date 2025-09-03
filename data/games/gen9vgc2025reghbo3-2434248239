@@ -1,0 +1,198 @@
+|j|☆Thisiswhyweclash
+|j|☆Er Yayo
+|html|ThisiswhyweclashEr Yayo    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756892056
+|gametype|doubles
+|player|p1|Thisiswhyweclash|schoolkid-gen4dp|1195
+|player|p2|Er Yayo|102|1203
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|showteam|p1|Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Incineroar||RockyHelmet|Intimidate|Taunt,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||F|||50|,,,,,Water]Archaludon||AssaultVest|Stamina|DragonPulse,FlashCannon,ElectroShot,BodyPress|||M|||50|,,,,,Bug]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Ground]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,FlipTurn,AquaJet|||M|||50|,,,,,Water
+|showteam|p2|Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|Tailwind,SleepPowder,SunnyDay,RagePowder|||M|||50|,,,,,Dark]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Ghost
+|
+|t:|1756892081
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|spa|1
+|turn|1
+|
+|t:|1756892102
+|move|p2a: Jumpluff|Sleep Powder|p1b: Basculegion
+|-status|p1b: Basculegion|slp|[from] move: Sleep Powder
+|cant|p1b: Basculegion|slp
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|move|p2b: Porygon2|Trick Room|p2b: Porygon2
+|-fieldstart|move: Trick Room|[of] p2b: Porygon2
+|
+|upkeep
+|turn|2
+|
+|t:|1756892121
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|move|p2b: Porygon2|Tera Blast|p1a: Archaludon
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|82/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p1a: Archaludon|Electro Shot|p2a: Ursaluna|[from] lockedmove
+|-immune|p2a: Ursaluna
+|cant|p1b: Basculegion|slp
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1756892153
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2b: Porygon2|atk|1
+|-terastallize|p2a: Ursaluna|Ghost
+|-terastallize|p1a: Archaludon|Bug
+|move|p2b: Porygon2|Tera Blast|p1b: Incineroar
+|-damage|p1b: Incineroar|57/100
+|move|p2a: Ursaluna|Headlong Rush|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|-damage|p2a: Ursaluna|84/100 brn|[from] item: Rocky Helmet|[of] p1b: Incineroar
+|faint|p1b: Incineroar
+|move|p1a: Archaludon|Dragon Pulse|p2a: Ursaluna
+|-damage|p2a: Ursaluna|3/100 brn
+|
+|-damage|p2a: Ursaluna|0 fnt|[from] brn
+|faint|p2a: Ursaluna
+|upkeep
+|
+|t:|1756892173
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100 slp
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|4
+|
+|t:|1756892187
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|move|p2b: Porygon2|Ice Beam|p1b: Pelipper
+|-damage|p1b: Pelipper|35/100
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2a: Jumpluff
+|-damage|p2a: Jumpluff|3/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1756892210
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100 slp
+|move|p2b: Porygon2|Ice Beam|p1b: Basculegion
+|-resisted|p1b: Basculegion
+|-damage|p1b: Basculegion|80/100 slp
+|move|p1a: Archaludon|Dragon Pulse|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|faint|p2a: Jumpluff
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1756892220
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|6
+|
+|t:|1756892232
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|cant|p1b: Basculegion|slp
+|move|p1a: Archaludon|Body Press|p2b: Porygon2
+|-supereffective|p2b: Porygon2
+|-damage|p2b: Porygon2|59/100
+|move|p2b: Porygon2|Trick Room|p2b: Porygon2
+|-fieldstart|move: Trick Room|[of] p2b: Porygon2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1756892269
+|switch|p1b: Pelipper|Pelipper, L50, M|35/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|move|p2a: Torkoal|Eruption|p1b: Pelipper|[spread] p1a,p1b
+|-supereffective|p1a: Archaludon
+|-resisted|p1b: Pelipper
+|-damage|p1a: Archaludon|46/100
+|-damage|p1b: Pelipper|15/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p2b: Porygon2|Ice Beam|p1a: Archaludon
+|-damage|p1a: Archaludon|19/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1756892292
+|move|p2b: Porygon2|Ice Beam|p1a: Archaludon
+|-damage|p1a: Archaludon|0 fnt
+|faint|p1a: Archaludon
+|move|p1b: Pelipper|Weather Ball|p2b: Porygon2
+|-damage|p2b: Porygon2|14/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756892294
+|switch|p1a: Basculegion|Basculegion, L50, M|80/100 slp
+|turn|9
+|
+|t:|1756892301
+|-curestatus|p1a: Basculegion|slp|[msg]
+|move|p1a: Basculegion|Aqua Jet|p2b: Porygon2
+|-damage|p2b: Porygon2|0 fnt
+|faint|p2b: Porygon2
+|
+|win|Thisiswhyweclash
+||Er Yayo is ready for game 2.
+||Thisiswhyweclash is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆Er Yayo
+|player|p2|

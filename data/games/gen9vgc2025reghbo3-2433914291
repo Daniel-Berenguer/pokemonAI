@@ -1,0 +1,97 @@
+|j|☆NicoViBrittania
+|j|☆bassacucina777
+|html|NicoViBrittaniabassacucina777    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756845929
+|gametype|doubles
+|player|p1|NicoViBrittania|265|1176
+|player|p2|bassacucina777|102|1149
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Arboliva, L50, F|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Tatsugiri, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Glimmora, L50, M|
+|teampreview|4
+|showteam|p1|Arboliva||SitrusBerry|Harvest|GigaDrain,EarthPower,Protect,HyperVoice|||F|||50|,,,,,Water]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||M|||50|,,,,,Steel]Porygon2||Eviolite|Trace|TrickRoom,TriAttack,Protect,Recover||||||50|,,,,,Fairy]Primarina||ThroatSpray|LiquidVoice|Moonblast,Protect,HyperVoice,TeraBlast|||F|||50|,,,,,Ground]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Protect,Earthquake|||F|||50|,,,,,Ghost]Torkoal||AssaultVest|Drought|HeatWave,SolarBeam,EarthPower,Eruption|||M|||50|,,,,,Fire
+|showteam|p2|Dondozo||SafetyGoggles|Unaware|WaveCrash,Earthquake,OrderUp,Protect|||M|||50|,,,,,Steel]Tatsugiri||ChoiceScarf|Commander|MuddyWater,DracoMeteor,DragonPulse,IcyWind|||M|||50|,,,,,Ghost]Indeedee||FocusSash|PsychicSurge|ExpandingForce,Protect,TrickRoom,HelpingHand|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Volcarona||CovertCloak|FlameBody|TeraBlast,Tailwind,FieryDance,QuiverDance|||F|||50|,,,,,Fairy]Glimmora||PowerHerb|ToxicDebris|MeteorBeam,EarthPower,SludgeBomb,Protect|||M|||50|,,,,,Grass
+|
+|t:|1756845953
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Primarina|Primarina, L50, F|100/100
+|switch|p1b: Porygon2|Porygon2, L50|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|-ability|p1b: Porygon2|Unburden|Trace|[from] ability: Trace|[of] p2a: Sneasler
+|turn|1
+|
+|t:|1756845979
+|move|p2a: Sneasler|Dire Claw|p1b: Porygon2
+|-damage|p1b: Porygon2|74/100
+|-status|p1b: Porygon2|par
+|move|p2b: Indeedee|Expanding Force|p1a: Primarina|[spread] p1a,p1b
+|-damage|p1a: Primarina|55/100
+|-damage|p1b: Porygon2|44/100 par
+|move|p1a: Primarina|Hyper Voice|p2a: Sneasler|[spread] p2a,p2b
+|-damage|p2a: Sneasler|64/100
+|-damage|p2b: Indeedee|45/100
+|-enditem|p1a: Primarina|Throat Spray
+|-boost|p1a: Primarina|spa|1|[from] item: Throat Spray
+|cant|p1b: Porygon2|par
+|
+|upkeep
+|turn|2
+|
+|t:|1756846025
+|-terastallize|p2b: Indeedee|Psychic
+|move|p1a: Primarina|Protect|p1a: Primarina
+|-singleturn|p1a: Primarina|Protect
+|move|p2a: Sneasler|Dire Claw|p1b: Porygon2
+|-damage|p1b: Porygon2|14/100 par
+|move|p2b: Indeedee|Expanding Force|p1a: Primarina|[spread] p1b
+|-activate|p1a: Primarina|move: Protect
+|-damage|p1b: Porygon2|0 fnt
+|faint|p1b: Porygon2
+|
+|upkeep
+|
+|t:|1756846038
+|switch|p1b: Arboliva|Arboliva, L50, F|100/100
+|turn|3
+|
+|t:|1756846056
+|-terastallize|p1b: Arboliva|Water
+|move|p2a: Sneasler|Dire Claw|p1b: Arboliva
+|-crit|p1b: Arboliva
+|-damage|p1b: Arboliva|36/100
+|-enditem|p1b: Arboliva|Sitrus Berry|[eat]
+|-heal|p1b: Arboliva|60/100|[from] item: Sitrus Berry
+|move|p2b: Indeedee|Expanding Force|p1b: Arboliva|[spread] p1a,p1b
+|-damage|p1a: Primarina|0 fnt
+|-damage|p1b: Arboliva|0 fnt
+|faint|p1a: Primarina
+|faint|p1b: Arboliva
+|
+|upkeep
+|-message|NicoViBrittania forfeited.
+|raw|NicoViBrittania's rating: 1176 → 1149(-27 for losing)
+|raw|bassacucina777's rating: 1149 → 1176(+27 for winning)
+|
+|win|bassacucina777

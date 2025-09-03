@@ -1,0 +1,142 @@
+|j|☆prefessional
+|j|☆Chandeliere
+|html|prefessionalChandeliere    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756880541
+|gametype|doubles
+|player|p1|prefessional|102|1128
+|player|p2|Chandeliere|ethan|1208
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Talonflame, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Gyarados, L50, F|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Dragonite, L50, M|
+|teampreview|4
+|showteam|p1|Talonflame||CovertCloak|GaleWings|Tailwind,BraveBird,FlareBlitz,Protect|||F|||50|,,,,,Ghost]Garchomp||ClearAmulet|RoughSkin|Earthquake,DragonClaw,StompingTantrum,Protect|||F|||50|,,,,,Ground]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,Thunderbolt,Protect||||||50|,,,,,Steel]Gyarados||SafetyGoggles|Intimidate|Waterfall,Taunt,ThunderWave,Protect|||F|||50|,,,,,Water]Annihilape||FocusSash|Defiant|RageFist,CloseCombat,FinalGambit,BulkUp|||M|||50|,,,,,Flying]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,Uturn|||M|||50|,,,,,Water
+|showteam|p2|Ninetales-Alola||LightClay|SnowWarning|AuroraVeil,Blizzard,FreezeDry,Protect|||M|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Garchomp||ClearAmulet|RoughSkin|Earthquake,StompingTantrum,DragonClaw,Protect|||F|||50|,,,,,Ground]Incineroar||AssaultVest|Intimidate|FakeOut,KnockOff,FlareBlitz,Uturn|||M|||50|,,,,,Grass]Sneasler||WhiteHerb|Unburden|Coaching,CloseCombat,DireClaw,Protect|||M|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||M|||50|,,,,,Fairy
+|
+|t:|1756880637
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|turn|1
+|
+|t:|1756880662
+|switch|p1a: Talonflame|Talonflame, L50, F|100/100
+|-terastallize|p1b: Garchomp|Ground
+|move|p2b: Garchomp|Protect|p2b: Garchomp
+|-singleturn|p2b: Garchomp|Protect
+|move|p2a: Sneasler|Coaching|p2b: Garchomp
+|-boost|p2b: Garchomp|atk|1
+|-boost|p2b: Garchomp|def|1
+|move|p1b: Garchomp|Earthquake|p2b: Garchomp|[spread] p2a
+|-activate|p2b: Garchomp|move: Protect
+|-immune|p1a: Talonflame
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|upkeep
+|
+|t:|1756880679
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|turn|2
+|
+|t:|1756880715
+|-terastallize|p2a: Gholdengo|Water
+|move|p1a: Talonflame|Tailwind|p1a: Talonflame
+|-sidestart|p1: prefessional|move: Tailwind
+|move|p1b: Garchomp|Earthquake|p2b: Garchomp|[spread] p2a,p2b
+|-immune|p1a: Talonflame
+|-damage|p2a: Gholdengo|50/100
+|-damage|p2b: Garchomp|68/100
+|move|p2b: Garchomp|Dragon Claw|p1b: Garchomp
+|-damage|p1b: Garchomp|37/100
+|-damage|p2b: Garchomp|55/100|[from] ability: Rough Skin|[of] p1b: Garchomp
+|move|p2a: Gholdengo|Make It Rain|p1a: Talonflame|[spread] p1a,p1b
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|51/100
+|-damage|p1b: Garchomp|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1b: Garchomp
+|-damage|p2a: Gholdengo|40/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756880746
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|turn|3
+|
+|t:|1756880758
+|switch|p2b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|move|p1a: Talonflame|Flare Blitz|p2b: Ninetales
+|-supereffective|p2b: Ninetales
+|-damage|p2b: Ninetales|29/100
+|-status|p2b: Ninetales|brn
+|-damage|p1a: Talonflame|24/100|[from] Recoil
+|move|p1b: Gholdengo|Make It Rain|p2a: Gholdengo|[spread] p2a,p2b
+|-resisted|p2a: Gholdengo
+|-supereffective|p2b: Ninetales
+|-damage|p2a: Gholdengo|7/100
+|-damage|p2b: Ninetales|0 fnt
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2b: Ninetales
+|-damage|p1b: Gholdengo|91/100|[from] item: Life Orb
+|move|p2a: Gholdengo|Shadow Ball|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|-damage|p2a: Gholdengo|0 fnt|[from] item: Life Orb
+|faint|p2a: Gholdengo
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1756880780
+|switch|p1a: Annihilape|Annihilape, L50, M|100/100
+|switch|p2a: Garchomp|Garchomp, L50, F|55/100
+|turn|4
+|
+|t:|1756880792
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1a: Annihilape|Final Gambit|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Protect
+|move|p1b: Gholdengo|Make It Rain|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1756880800
+|move|p2a: Garchomp|Protect||[still]
+|-fail|p2a: Garchomp
+|move|p1a: Annihilape|Final Gambit|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p1a: Annihilape
+|faint|p2a: Garchomp
+|
+|win|prefessional
+||Chandeliere is ready for game 2.
+||prefessional is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆prefessional
+|player|p1|

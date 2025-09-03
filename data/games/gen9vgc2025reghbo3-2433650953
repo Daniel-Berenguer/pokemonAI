@@ -1,0 +1,184 @@
+|j|☆HolgerD
+|j|☆C.blaze
+|html|HolgerDC.blaze    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756819299
+|gametype|doubles
+|player|p1|HolgerD|170|1375
+|player|p2|C.blaze|170|1279
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Maushold, L50|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Garchomp, L50, M|
+|teampreview|4
+|showteam|p1|Maushold||WideLens|Technician|PopulationBomb,FollowMe,Taunt,Protect||||||50|,,,,,Ghost]Pelipper||FocusSash|Drizzle|Hurricane,MuddyWater,Tailwind,Protect|||F|||50|,,,,,Stellar]Archaludon||AssaultVest|Stamina|DragonPulse,ElectroShot,BodyPress,FlashCannon|||M|||50|,,,,,Bug]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom||||||50|,,,,,Dark]Basculegion||ChoiceBand|SwiftSwim|AquaJet,FlipTurn,LastRespects,WaveCrash|||M|||50|,,,,,Water
+|showteam|p2|Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Protect,Tailwind|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|DracoMeteor,ElectroShot,BodyPress,Snarl|||F|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Protect,Earthquake|||M|||50|,,,,,Ghost]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,LifeDew,TrickRoom||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|KnockOff,WillOWisp,PartingShot,FakeOut|||F|||50|,,,,,Ghost]Garchomp||ClearAmulet|RoughSkin|DragonClaw,Earthquake,Protect,StompingTantrum|||M|||50|,,,,,Steel
+|
+|t:|1756819340
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Archaludon|atk|1
+|-unboost|p1b: Basculegion|atk|1
+|turn|1
+|
+|t:|1756819358
+|-terastallize|p2b: Incineroar|Ghost
+|move|p1b: Basculegion|Flip Turn|p2b: Incineroar
+|-damage|p2b: Incineroar|58/100
+|
+|t:|1756819367
+|switch|p1b: Pelipper|Pelipper, L50, F|100/100|[from] Flip Turn
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: C.blaze|move: Tailwind
+|move|p2b: Incineroar|Knock Off|p1b: Pelipper
+|-damage|p1b: Pelipper|30/100
+|-enditem|p1b: Pelipper|Focus Sash|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-crit|p2a: Pelipper
+|-enditem|p2a: Pelipper|Focus Sash
+|-damage|p2a: Pelipper|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|l|☆C.blaze
+|player|p2|
+|j|☆C.blaze
+|player|p2|C.blaze|170|
+|
+|t:|1756819395
+|move|p1b: Pelipper|Protect|p1b: Pelipper
+|-singleturn|p1b: Pelipper|Protect
+|move|p2a: Pelipper|Hurricane|p1b: Pelipper
+|-activate|p1b: Pelipper|move: Protect
+|move|p2b: Incineroar|Knock Off|p1a: Archaludon
+|-damage|p1a: Archaludon|62/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|-enditem|p1a: Archaludon|Assault Vest|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756819408
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|turn|3
+|
+|t:|1756819431
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|-heal|p1a: Archaludon|87/100|[from] ability: Hospitality|[of] p1b: Sinistcha
+|-terastallize|p1a: Archaludon|Bug
+|move|p2a: Pelipper|Hurricane|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha
+|-damage|p1b: Sinistcha|20/100
+|-start|p1b: Sinistcha|confusion
+|-enditem|p1b: Sinistcha|Sitrus Berry|[eat]
+|-heal|p1b: Sinistcha|44/100|[from] item: Sitrus Berry
+|move|p2b: Archaludon|Draco Meteor|p1a: Archaludon
+|-damage|p1a: Archaludon|14/100
+|-unboost|p2b: Archaludon|spa|2
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p1a: Archaludon|Dragon Pulse|p2b: Archaludon
+|-damage|p2b: Archaludon|35/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756819474
+|switch|p1a: Pelipper|Pelipper, L50, F|30/100
+|move|p2a: Pelipper|Hurricane|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha
+|-damage|p1b: Sinistcha|0 fnt
+|faint|p1b: Sinistcha
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: C.blaze|move: Tailwind
+|upkeep
+|
+|t:|1756819480
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|switch|p1b: Archaludon|Archaludon, L50, M, tera:Bug|14/100
+|turn|5
+|
+|t:|1756819538
+|move|p1a: Basculegion|Wave Crash|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|-damage|p1a: Basculegion|99/100|[from] Recoil
+|move|p1b: Archaludon|Dragon Pulse|p2b: Archaludon
+|-damage|p2b: Archaludon|4/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|4/100
+|
+|-weather|none
+|upkeep
+|
+|t:|1756819542
+|switch|p2a: Garchomp|Garchomp, L50, M|100/100
+|turn|6
+|
+|t:|1756819562
+|move|p2a: Garchomp|Dragon Claw|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|faint|p1b: Archaludon
+|move|p1a: Basculegion|Wave Crash|p2a: Garchomp
+|-damage|p2a: Garchomp|7/100
+|-damage|p1a: Basculegion|0 fnt|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p1a: Basculegion
+|
+|win|C.blaze
+||HolgerD is ready for game 3.
+|inactive|C.blaze has 30 seconds to confirm battle start!
+||C.blaze is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆C.blaze
+|player|p2|

@@ -1,0 +1,144 @@
+|j|☆Sapillo
+|j|☆colemarcusvgc
+|html|Sapillocolemarcusvgc    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756859211
+|gametype|doubles
+|player|p1|Sapillo|265|1150
+|player|p2|colemarcusvgc|n|1158
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Dragonite, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,FinalGambit,Taunt|||M|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||F|||50|,,,,,Fire]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Ursaluna-Bloodmoon||FocusSash|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Incineroar||SitrusBerry|Intimidate|FakeOut,KnockOff,Taunt,PartingShot|||F|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||F|||50|,,,,,Steel
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fire]Hatterene||LifeOrb|MagicBounce|ExpandingForce,TrickRoom,DazzlingGleam,Protect|||F|||50|,,,,,Psychic]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,SacredSword,WideGuard|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,SwordsDance,Protect|||M|||50|,,,,,Ghost]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,SleepPowder,CloseCombat,AfterYou|||F|||50|,,,,,Ghost]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire
+|
+|t:|1756859240
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Ursaluna|atk|1
+|turn|1
+|
+|t:|1756859265
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-terastallize|p2b: Ursaluna|Ghost
+|move|p1b: Incineroar|Parting Shot|p2a: Indeedee
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2a: Indeedee|spa|1
+|
+|t:|1756859271
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100|[from] Parting Shot
+|move|p2b: Ursaluna|Swords Dance|p2b: Ursaluna
+|-boost|p2b: Ursaluna|atk|2
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1756859301
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Ursaluna|Facade|p1b: Dragonite
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1b: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756859306
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Ursaluna|atk|1
+|turn|3
+|
+|t:|1756859328
+|move|p2a: Torkoal|Eruption|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1b: Incineroar
+|-enditem|p1a: Ursaluna|Focus Sash
+|-damage|p1a: Ursaluna|1/100
+|-damage|p1b: Incineroar|55/100
+|move|p2b: Ursaluna|Facade|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|move|p1b: Incineroar|Knock Off|p2a: Torkoal
+|-damage|p2a: Torkoal|68/100
+|-enditem|p2a: Torkoal|Choice Specs|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1756859335
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|turn|4
+|
+|t:|1756859346
+|-terastallize|p1a: Gholdengo|Water
+|move|p2a: Torkoal|Eruption|p1a: Gholdengo|[spread] p1a,p1b
+|-resisted|p1a: Gholdengo
+|-resisted|p1b: Incineroar
+|-damage|p1a: Gholdengo|73/100
+|-damage|p1b: Incineroar|35/100
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|60/100|[from] item: Sitrus Berry
+|move|p2b: Ursaluna|Facade|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|move|p1b: Incineroar|Knock Off|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|33/100 brn
+|-enditem|p2b: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|27/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1756859365
+|move|p2a: Torkoal|Earth Power|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|16/100
+|move|p2b: Ursaluna|Headlong Rush|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p2b: Ursaluna|def|1
+|-unboost|p2b: Ursaluna|spd|1
+|faint|p1b: Incineroar
+|
+|win|colemarcusvgc
+|raw|Sapillo's rating: 1150 → 1126(-24 for losing)
+|raw|colemarcusvgc's rating: 1158 → 1182(+24 for winning)
+|c|☆colemarcusvgc|gg
+|l|☆Sapillo
+|player|p1|
