@@ -1,0 +1,195 @@
+|j|☆mygreat
+|j|☆RocheLimit
+|html|mygreatRocheLimit    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757664026
+|gametype|doubles
+|player|p1|mygreat|veteran|
+|player|p2|RocheLimit|acetrainer|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Glimmora, L50, F|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Tatsugiri, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Maushold, L50|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Barraskewda, L50, M|
+|poke|p2|Veluza, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Archaludon, L50, M|
+|teampreview|4
+|showteam|p1|Ninetales-Alola||CovertCloak|SnowWarning|AuroraBeam,Blizzard,Moonblast,Encore|||F|||50|,,,,,Water]Glimmora||AssaultVest|ToxicDebris|EarthPower,MortalSpin,SludgeBomb,PowerGem|||F|||50|,,,,,Grass]Dondozo||Leftovers|Unaware|WaveCrash,BodyPress,Earthquake,Protect|||M|||50|,,,,,Grass]Tatsugiri||FocusSash|Commander|DragonPulse,DracoMeteor,MuddyWater,Protect|||M|||50|,,,,,Stellar]Dragonite||ChoiceBand|InnerFocus|ExtremeSpeed,Outrage,AerialAce,LowKick|||M|||50|,,,,,Normal]Maushold||SafetyGoggles|FriendGuard|SuperFang,HelpingHand,FollowMe,Protect||||||50|,,,,,Ghost
+|showteam|p2|Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|||F|||50|,,,,,Ghost]Barraskewda||LifeOrb|SwiftSwim|Liquidation,CloseCombat,ThroatChop,AquaJet|||M|||50|,,,,,Stellar]Veluza||SitrusBerry|MoldBreaker|AquaJet,StoredPower,IceBeam,FilletAway|||M|||50|,,,,,Fairy]Basculegion||SpookyPlate|SwiftSwim|LastRespects,AquaJet,WaveCrash,Protect|||M|||50|,,,,,Ghost]Dondozo||Leftovers|Unaware|WaveCrash,Crunch,HeavySlam,StompingTantrum|||M|||50|,,,,,Steel]Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,FlashCannon,DracoMeteor|||M|||50|,,,,,Grass
+|
+|t:|1757664048
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|switch|p1b: Maushold|Maushold, L50|100/100
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1757664063
+|move|p1b: Maushold|Super Fang|p2b: Archaludon
+|-damage|p2b: Archaludon|51/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2a: Pelipper|Hurricane|p1a: Dragonite
+|-damage|p1a: Dragonite|68/100
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1b: Maushold
+|-damage|p1b: Maushold|39/100
+|move|p1a: Dragonite|Low Kick|p2b: Archaludon
+|-supereffective|p2b: Archaludon
+|-damage|p2b: Archaludon|4/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757664094
+|switch|p1b: Dondozo|Dondozo, L50, M|100/100
+|switch|p1a: Tatsugiri|Tatsugiri, L50, M|100/100
+|-activate|p1a: Tatsugiri|ability: Commander|[of] p1b: Dondozo
+|-boost|p1b: Dondozo|atk|2
+|-boost|p1b: Dondozo|spa|2
+|-boost|p1b: Dondozo|spe|2
+|-boost|p1b: Dondozo|def|2
+|-boost|p1b: Dondozo|spd|2
+|move|p2a: Pelipper|Hurricane|p1a: Tatsugiri|[miss]
+|-miss|p2a: Pelipper|p1a: Tatsugiri
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Tatsugiri|[miss]
+|-miss|p2b: Archaludon|p1a: Tatsugiri
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757664120
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: RocheLimit|move: Tailwind
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1b: Dondozo
+|-supereffective|p1b: Dondozo
+|-damage|p1b: Dondozo|67/100
+|move|p1b: Dondozo|Wave Crash|p2b: Archaludon
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|0 fnt
+|faint|p2b: Archaludon
+|-damage|p1b: Dondozo|66/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Dondozo|72/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757664134
+|switch|p2b: Barraskewda|Barraskewda, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1757664145
+|move|p2b: Barraskewda|Close Combat|p1b: Dondozo
+|-damage|p1b: Dondozo|57/100
+|-unboost|p2b: Barraskewda|def|1
+|-unboost|p2b: Barraskewda|spd|1
+|-damage|p2b: Barraskewda|91/100|[from] item: Life Orb
+|move|p2a: Pelipper|Hurricane|p1b: Dondozo
+|-damage|p1b: Dondozo|39/100
+|-start|p1b: Dondozo|confusion
+|-activate|p1b: Dondozo|confusion
+|move|p1b: Dondozo|Body Press|p2b: Barraskewda
+|-damage|p2b: Barraskewda|0 fnt
+|faint|p2b: Barraskewda
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Dondozo|45/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757664159
+|switch|p2b: Veluza|Veluza, L50, M, shiny|100/100
+|-ability|p2b: Veluza|Mold Breaker
+|turn|5
+|
+|t:|1757664168
+|-activate|p1b: Dondozo|confusion
+|-damage|p1b: Dondozo|39/100|[from] confusion
+|move|p2a: Pelipper|Hurricane|p1b: Dondozo
+|-damage|p1b: Dondozo|19/100
+|move|p2b: Veluza|Fillet Away|p2b: Veluza
+|-boost|p2b: Veluza|atk|2
+|-boost|p2b: Veluza|spa|2
+|-boost|p2b: Veluza|spe|2
+|-damage|p2b: Veluza|50/100
+|-enditem|p2b: Veluza|Sitrus Berry|[eat]
+|-heal|p2b: Veluza|75/100|[from] item: Sitrus Berry
+|
+|-weather|none
+|-heal|p1b: Dondozo|25/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1757664194
+|move|p2a: Pelipper|Protect|p2a: Pelipper
+|-singleturn|p2a: Pelipper|Protect
+|-activate|p1b: Dondozo|confusion
+|move|p1b: Dondozo|Protect|p1b: Dondozo
+|-singleturn|p1b: Dondozo|Protect
+|move|p2b: Veluza|Stored Power|p1b: Dondozo
+|-activate|p1b: Dondozo|move: Protect
+|
+|-heal|p1b: Dondozo|31/100|[from] item: Leftovers
+|-sideend|p2: RocheLimit|move: Tailwind
+|upkeep
+|turn|7
+|
+|t:|1757664210
+|move|p2b: Veluza|Stored Power|p1b: Dondozo
+|-damage|p1b: Dondozo|0 fnt
+|faint|p1b: Dondozo
+|move|p2a: Pelipper|Hurricane|p1a: Tatsugiri
+|-damage|p1a: Tatsugiri|42/100
+|
+|upkeep
+|
+|t:|1757664215
+|switch|p1b: Dragonite|Dragonite, L50, M|68/100
+|turn|8
+|
+|t:|1757664230
+|-terastallize|p1b: Dragonite|Normal
+|move|p1a: Tatsugiri|Protect|p1a: Tatsugiri
+|-singleturn|p1a: Tatsugiri|Protect
+|move|p1b: Dragonite|Extreme Speed|p2b: Veluza
+|-damage|p2b: Veluza|0 fnt
+|faint|p2b: Veluza
+|move|p2a: Pelipper|Hurricane|p1a: Tatsugiri
+|-activate|p1a: Tatsugiri|move: Protect
+|
+|upkeep
+|turn|9
+|
+|t:|1757664241
+|move|p1b: Dragonite|Extreme Speed|p2a: Pelipper
+|-damage|p2a: Pelipper|11/100
+|move|p1a: Tatsugiri|Dragon Pulse|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|win|mygreat

@@ -1,0 +1,141 @@
+|j|☆the gong lady
+|j|☆plaidhaxx
+|html|the gong ladyplaidhaxx    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756934697
+|gametype|doubles
+|player|p1|the gong lady|1|
+|player|p2|plaidhaxx|shadowtriad|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Oranguru, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Kingambit, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Magmar, L50, F|
+|teampreview|4
+|showteam|p1|Torkoal||Charcoal|Drought|Eruption,SolarBeam,HeatWave,Protect|||F|||50|,,,,,Grass]Lilligant-Hisui||FocusSash|Chlorophyll|AfterYou,LeafBlade,CloseCombat,SleepPowder|||F|||50|,,,,,Ghost]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,EarthPower,HyperVoice,Protect|||M|||50|,,,,,Ghost]Oranguru||MentalHerb|InnerFocus|Encore,Instruct,Protect,TrickRoom|||M|||50|,,,,,Fire]Indeedee-F||SafetyGoggles|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Dark]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,IronHead,Protect|||F|||50|,,,,,Water
+|showteam|p2|Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,FakeOut,Protect|||M|||50|,,,,,Stellar]Dragapult||ChoiceBand|ClearBody|DragonDarts,TeraBlast,PhantomForce,Uturn|||F|||50|,,,,,Ghost]Primarina||SitrusBerry|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||F|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Ghost]Magmar||Eviolite|VitalSpirit|Overheat,WillOWisp,FollowMe,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1756934838
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|switch|p1b: Oranguru|Oranguru, L50, M|100/100
+|switch|p2a: Dragapult|Dragapult, L50, F|100/100
+|switch|p2b: Magmar|Magmar, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1756934863
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2a: Dragapult|Dragon Darts|p1b: Oranguru
+|-damage|p1b: Oranguru|69/100
+|-anim|p2a: Dragapult|Dragon Darts|p1b: Oranguru
+|-damage|p1b: Oranguru|39/100
+|move|p2b: Magmar|Overheat|p1a: Torkoal
+|-activate|p1a: Torkoal|move: Protect
+|move|p1b: Oranguru|Trick Room|p1b: Oranguru
+|-fieldstart|move: Trick Room|[of] p1b: Oranguru
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756934893
+|move|p1a: Torkoal|Eruption|p2a: Dragapult|[spread] p2a,p2b
+|-resisted|p2a: Dragapult
+|-resisted|p2b: Magmar
+|-damage|p2a: Dragapult|42/100
+|-damage|p2b: Magmar|64/100
+|move|p1b: Oranguru|Instruct|p1a: Torkoal
+|-singleturn|p1a: Torkoal|move: Instruct|[of] p1b: Oranguru
+|move|p1a: Torkoal|Eruption|p2b: Magmar|[spread] p2a,p2b
+|-resisted|p2a: Dragapult
+|-resisted|p2b: Magmar
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p2b: Magmar|33/100
+|faint|p2a: Dragapult
+|move|p2b: Magmar|Overheat|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|54/100
+|-unboost|p2b: Magmar|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756934908
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|3
+|
+|t:|1756934934
+|-terastallize|p2a: Rillaboom|Fire
+|move|p1a: Torkoal|Heat Wave|p2a: Rillaboom|[spread] p2a,p2b
+|-resisted|p2a: Rillaboom
+|-resisted|p2b: Magmar
+|-damage|p2a: Rillaboom|81/100
+|-damage|p2b: Magmar|9/100
+|move|p1b: Oranguru|Instruct|p1a: Torkoal
+|-singleturn|p1a: Torkoal|move: Instruct|[of] p1b: Oranguru
+|move|p1a: Torkoal|Heat Wave|p2a: Rillaboom|[spread] p2a,p2b
+|-resisted|p2a: Rillaboom
+|-resisted|p2b: Magmar
+|-damage|p2a: Rillaboom|60/100
+|-damage|p2b: Magmar|0 fnt
+|faint|p2b: Magmar
+|move|p2a: Rillaboom|High Horsepower|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-crit|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Oranguru|45/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|66/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756934963
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2b: Kingambit|Kingambit, L50, F|100/100
+|turn|4
+|
+|t:|1756934989
+|move|p2b: Kingambit|Sucker Punch|p1a: Ursaluna
+|-damage|p1a: Ursaluna|68/100
+|move|p2a: Rillaboom|Grassy Glide|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|15/100
+|move|p1a: Ursaluna|Earth Power|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|-damage|p1a: Ursaluna|5/100|[from] item: Life Orb
+|move|p1b: Oranguru|Instruct|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|move: Instruct|[of] p1b: Oranguru
+|move|p1a: Ursaluna|Earth Power|p2b: Kingambit
+|-supereffective|p2b: Kingambit
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|-damage|p1a: Ursaluna|0 fnt|[from] item: Life Orb
+|faint|p1a: Ursaluna
+|
+|win|the gong lady
+|l|☆plaidhaxx
+|player|p2|
+|l|☆the gong lady
+|player|p1|
+|j|☆the gong lady
+|player|p1|the gong lady|1|

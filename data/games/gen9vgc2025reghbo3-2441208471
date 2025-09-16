@@ -1,0 +1,187 @@
+|j|☆browe
+|j|☆Nacos
+|html|broweNacos    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757813241
+|gametype|doubles
+|player|p1|browe|shadowtriad|1107
+|player|p2|Nacos|2|1124
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|||F|||50|,,,,,Ghost]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,AquaJet,FlipTurn|||M|||50|,,,,,Grass]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,DazzlingGleam,ShadowBall,Trick|||M|||50|,,,,,Psychic]Amoonguss||SitrusBerry|Regenerator|PollenPuff,RagePowder,ClearSmog,Spore|||M|||50|,,,,,Psychic]Archaludon||AssaultVest|Stamina|DracoMeteor,FlashCannon,ElectroShot,BodyPress|||M|||50|,,,,,Bug
+|showteam|p2|Pelipper||FocusSash|Drizzle|Tailwind,Protect,WeatherBall,Hurricane|||F|||50|,,,,,Steel]Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,FlashCannon,BodyPress|||M|||50|,,,,,Grass]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,FlipTurn,AquaJet|||M|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,Taunt,PartingShot|||F|||50|,,,,,Water]Rillaboom||MiracleSeed|GrassySurge|FakeOut,GrassyGlide,Uturn,WoodHammer|||M|||50|,,,,,Fire
+|
+|t:|1757813262
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|-unboost|p1b: Archaludon|atk|1
+|turn|1
+|
+|t:|1757813294
+|move|p2b: Rillaboom|U-turn|p1a: Amoonguss
+|-damage|p1a: Amoonguss|82/100
+|
+|t:|1757813297
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100|[from] U-turn
+|move|p1b: Archaludon|Body Press|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|58/100
+|move|p2a: Incineroar|Knock Off|p1b: Archaludon
+|-damage|p1b: Archaludon|65/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|-enditem|p1b: Archaludon|Assault Vest|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1a: Amoonguss|Pollen Puff|p1b: Archaludon
+|-heal|p1b: Archaludon|100/100
+|
+|-heal|p2a: Incineroar|64/100|[from] Grassy Terrain
+|-heal|p1a: Amoonguss|88/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1757813312
+|move|p2b: Archaludon|Draco Meteor|p1b: Archaludon
+|-damage|p1b: Archaludon|29/100
+|-unboost|p2b: Archaludon|spa|2
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p1b: Archaludon|Body Press|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|move|p1a: Amoonguss|Spore|p2b: Archaludon
+|-status|p2b: Archaludon|slp|[from] move: Spore
+|
+|-heal|p1b: Archaludon|35/100|[from] Grassy Terrain
+|-heal|p1a: Amoonguss|94/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757813319
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|3
+|
+|t:|1757813327
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p2a: Pelipper|Weather Ball|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|68/100
+|cant|p2b: Archaludon|slp
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-enditem|p2a: Pelipper|Focus Sash
+|-damage|p2a: Pelipper|1/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Archaludon|40/100|[from] Grassy Terrain
+|-heal|p1a: Amoonguss|74/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1757813352
+|move|p2a: Pelipper|Hurricane|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|cant|p2b: Archaludon|slp
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Archaludon|46/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757813362
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|turn|5
+|
+|t:|1757813379
+|-terastallize|p1a: Pelipper|Ghost
+|move|p2a: Rillaboom|Fake Out|p1a: Pelipper
+|-immune|p1a: Pelipper
+|move|p1a: Pelipper|Hurricane|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|-curestatus|p2b: Archaludon|slp|[msg]
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1b: Archaludon
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|31/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2b: Archaludon
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|57/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|63/100|[from] Grassy Terrain
+|-heal|p1b: Archaludon|37/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1757813401
+|move|p1a: Pelipper|Weather Ball|p2b: Archaludon
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|32/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2b: Archaludon|Body Press|p1b: Archaludon
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|10/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p1b: Archaludon|Draco Meteor|p2b: Archaludon
+|-damage|p2b: Archaludon|0 fnt
+|-unboost|p1b: Archaludon|spa|2
+|faint|p2b: Archaludon
+|
+|win|browe
+||Nacos is ready for game 2.
+||browe is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆Nacos
+|player|p2|

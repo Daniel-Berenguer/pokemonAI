@@ -1,0 +1,192 @@
+|j|☆Pickle315
+|j|☆pikajw
+|html|Pickle315pikajw    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756956749
+|gametype|doubles
+|player|p1|Pickle315|hilbert|1062
+|player|p2|pikajw|1|1099
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Dragapult, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Torkoal||CovertCloak|Drought|BodyPress,ClearSmog,HelpingHand,WillOWisp|||F|||50|,,,,,Fighting]Amoonguss||RockyHelmet|Regenerator|PollenPuff,RagePowder,Spore,Synthesis|||F|||50|,,,,,Water]Charizard||LifeOrb|SolarPower|TeraBlast,HeatWave,Protect,SolarBeam|||F|||50|,,,,,Flying]Kingambit||AssaultVest|Defiant|KowtowCleave,IronHead,SuckerPunch,BrickBreak|||F|||50|,,,,,Ghost]Rillaboom||SitrusBerry|GrassySurge|HighHorsepower,GrassyGlide,SolarBlade,FakeOut|||M|||50|,,,,,Electric]Dragapult||ColburBerry|ClearBody|SunnyDay,Protect,DracoMeteor,Thunderbolt|||M|||50|,,,,,Steel
+|showteam|p2|Lilligant-Hisui||FocusSash|Chlorophyll|CloseCombat,AfterYou,SleepPowder,Coaching|||F|||50|,,,,,Ghost]Torkoal||SitrusBerry|Drought|Overheat,Eruption,SolarBeam,Protect|||F|||50|,,,,,Grass]Kingambit||AssaultVest|Defiant|KowtowCleave,IronHead,Snarl,TeraBlast|||M|||50|,,,,,Fire]Indeedee-F||SafetyGoggles|PsychicSurge|DazzlingGleam,FollowMe,TrickRoom,Protect|||F|||50|,,,,,Fairy]Farigiraf||ThroatSpray|ArmorTail|ExpandingForce,HyperVoice,TrickRoom,Protect|||M|||50|,,,,,Psychic]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,DrainPunch,Protect|||F|||50|,,,,,Water
+|
+|t:|1756956791
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragapult|Dragapult, L50, M|100/100
+|switch|p1b: Charizard|Charizard, L50, F|100/100
+|switch|p2a: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|turn|1
+|
+|t:|1756956809
+|-terastallize|p2b: Kingambit|Fire
+|move|p1a: Dragapult|Sunny Day|p1a: Dragapult
+|-weather|SunnyDay
+|move|p2a: Lilligant|Sleep Powder|p1b: Charizard
+|-status|p1b: Charizard|slp|[from] move: Sleep Powder
+|cant|p1b: Charizard|slp
+|move|p2b: Kingambit|Kowtow Cleave|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-enditem|p1a: Dragapult|Colbur Berry|[eat]
+|-enditem|p1a: Dragapult|Colbur Berry|[weaken]
+|-damage|p1a: Dragapult|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|88/100 slp|[from] ability: Solar Power|[of] p1b: Charizard
+|upkeep
+|turn|2
+|
+|t:|1756956833
+|move|p2a: Lilligant|Sleep Powder|p1a: Dragapult
+|-status|p1a: Dragapult|slp|[from] move: Sleep Powder
+|cant|p1a: Dragapult|slp
+|-curestatus|p1b: Charizard|slp|[msg]
+|move|p1b: Charizard|Heat Wave|p2a: Lilligant|[spread] p2a,p2b
+|-supereffective|p2a: Lilligant
+|-resisted|p2b: Kingambit
+|-enditem|p2a: Lilligant|Focus Sash
+|-damage|p2a: Lilligant|1/100
+|-damage|p2b: Kingambit|75/100
+|-status|p2a: Lilligant|brn
+|-damage|p1b: Charizard|78/100|[from] item: Life Orb
+|move|p2b: Kingambit|Snarl|p1b: Charizard|[spread] p1a,p1b
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|39/100 slp
+|-damage|p1b: Charizard|66/100
+|-unboost|p1b: Charizard|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|54/100|[from] ability: Solar Power|[of] p1b: Charizard
+|-damage|p2a: Lilligant|0 fnt|[from] brn
+|faint|p2a: Lilligant
+|upkeep
+|
+|t:|1756956857
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|3
+|
+|t:|1756956872
+|-terastallize|p1b: Charizard|Flying
+|cant|p1a: Dragapult|slp
+|move|p1b: Charizard|Tera Blast|p2b: Kingambit|[anim] Tera Blast Flying
+|-damage|p2b: Kingambit|37/100
+|-damage|p1b: Charizard|44/100|[from] item: Life Orb
+|move|p2b: Kingambit|Kowtow Cleave|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|32/100|[from] ability: Solar Power|[of] p1b: Charizard
+|upkeep
+|
+|t:|1756956886
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|4
+|
+|t:|1756956901
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|move|p1a: Rillaboom|Fake Out|p2a: Indeedee
+|-damage|p2a: Indeedee|85/100
+|cant|p2a: Indeedee|flinch
+|move|p1b: Charizard|Tera Blast|p2b: Torkoal|[anim] Tera Blast Flying
+|-damage|p2b: Torkoal|32/100
+|-enditem|p2b: Torkoal|Sitrus Berry|[eat]
+|-heal|p2b: Torkoal|56/100|[from] item: Sitrus Berry
+|-damage|p1b: Charizard|22/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|10/100|[from] ability: Solar Power|[of] p1b: Charizard
+|-heal|p2b: Torkoal|63/100|[from] Grassy Terrain
+|-heal|p2a: Indeedee|91/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756956922
+|move|p2b: Torkoal|Overheat|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-unboost|p2b: Torkoal|spa|2
+|faint|p1a: Rillaboom
+|move|p2a: Indeedee|Dazzling Gleam|p1b: Charizard
+|-damage|p1b: Charizard|0 fnt
+|faint|p1b: Charizard
+|
+|-weather|none
+|-heal|p2b: Torkoal|69/100|[from] Grassy Terrain
+|-heal|p2a: Indeedee|97/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756956933
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100
+|turn|6
+|
+|t:|1756956942
+|switch|p2b: Kingambit|Kingambit, L50, M, tera:Fire|37/100
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Kingambit|Sucker Punch||[still]
+|-fail|p1b: Kingambit
+|
+|-heal|p2b: Kingambit|43/100|[from] Grassy Terrain
+|-heal|p2a: Indeedee|100/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1756956954
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Kingambit|Tera Blast|p1b: Kingambit|[anim] Tera Blast Fire
+|-supereffective|p1b: Kingambit
+|-damage|p1b: Kingambit|31/100
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-heal|p2b: Kingambit|49/100|[from] Grassy Terrain
+|-heal|p1b: Kingambit|37/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1756956960
+|switch|p2a: Torkoal|Torkoal, L50, F|69/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|8
+|
+|t:|1756956968
+|move|p1b: Kingambit|Kowtow Cleave|p2b: Kingambit
+|-damage|p2b: Kingambit|12/100
+|move|p2b: Kingambit|Tera Blast|p1b: Kingambit|[anim] Tera Blast Fire
+|-supereffective|p1b: Kingambit
+|-damage|p1b: Kingambit|0 fnt
+|faint|p1b: Kingambit
+|
+|win|pikajw
+||Pickle315 is ready for game 2.
+||pikajw is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

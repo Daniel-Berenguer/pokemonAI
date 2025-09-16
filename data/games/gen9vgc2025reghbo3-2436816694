@@ -1,0 +1,94 @@
+|j|☆serbol03
+|j|☆Aking2234
+|html|serbol03Aking2234    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757234805
+|gametype|doubles
+|player|p1|serbol03|giovanni|1158
+|player|p2|Aking2234|102|1099
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|KnockOff,FlareBlitz,PartingShot,FakeOut|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Fairy]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Ground]Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,FlashCannon,BodyPress|||F|||50|,,,,,Bug]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,AquaJet,FlipTurn|||M|||50|,,,,,Water
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|IceBeam,TeraBlast,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost
+|
+|t:|1757234840
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|switch|p2b: Jumpluff|Jumpluff, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Jumpluff|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-enditem|p2a: Torkoal|Eject Pack
+|
+|t:|1757234858
+|switch|p2a: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Gholdengo|atk|1
+|turn|1
+|
+|t:|1757234893
+|move|p2a: Incineroar|Fake Out|p1a: Incineroar
+|-damage|p1a: Incineroar|89/100
+|cant|p1a: Incineroar|flinch
+|move|p2b: Jumpluff|Tailwind|p2b: Jumpluff
+|-sidestart|p2: Aking2234|move: Tailwind
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757234930
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-terastallize|p2b: Jumpluff|Water
+|-terastallize|p1b: Gholdengo|Water
+|move|p2b: Jumpluff|Sleep Powder|p1b: Gholdengo
+|-immune|p1b: Gholdengo|[from] ability: Good as Gold
+|move|p2a: Incineroar|Flare Blitz|p1b: Gholdengo
+|-resisted|p1b: Gholdengo
+|-damage|p1b: Gholdengo|86/100
+|-damage|p2a: Incineroar|97/100|[from] Recoil
+|move|p1b: Gholdengo|Make It Rain|p2b: Jumpluff|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-resisted|p2b: Jumpluff
+|-crit|p2b: Jumpluff
+|-damage|p2a: Incineroar|42/100
+|-damage|p2b: Jumpluff|0 fnt
+|-unboost|p1b: Gholdengo|spa|1
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|67/100|[from] item: Sitrus Berry
+|faint|p2b: Jumpluff
+|-damage|p1b: Gholdengo|76/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|Aking2234 forfeited.
+|
+|win|serbol03
+|raw|serbol03's rating: 1158 → 1179(+21 for winning)
+|raw|Aking2234's rating: 1099 → 1078(-21 for losing)

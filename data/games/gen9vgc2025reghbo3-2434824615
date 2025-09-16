@@ -1,0 +1,220 @@
+|j|☆Needels
+|j|☆uubbll
+|html|Needelsuubbll    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756955760
+|gametype|doubles
+|player|p1|Needels|eusine|1090
+|player|p2|uubbll|drayden|1028
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Gyarados, L50, F|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,Tailwind,RagePowder|||F|||50|,,,,,Fire]Charizard||ChoiceSpecs|SolarPower|DragonPulse,HeatWave,Overheat,WeatherBall|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|HelpingHand,Eruption,Overheat,Protect|||M|||50|,,,,,Fire]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting
+|showteam|p2|Rillaboom||ChoiceBand|GrassySurge|WoodHammer,HighHorsepower,Uturn,GrassyGlide|||M|||50|,,,,,Grass]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Bug]Garchomp||ChoiceScarf|RoughSkin|DragonClaw,Earthquake,RockSlide,StompingTantrum|||F|||50|,,,,,Ground]Gholdengo||FocusSash|GoodasGold|MakeItRain,ShadowBall,PowerGem,NastyPlot||||||50|,,,,,Steel]Sneasler||GrassySeed|Unburden|DireClaw,CloseCombat,Acrobatics,FakeOut|||F|||50|,,,,,Ghost]Gyarados||ClearAmulet|Intimidate|Waterfall,Crunch,TeraBlast,DragonDance|||F|||50|,,,,,Flying
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by uubbll)
+|inactive|Needels has 60 seconds left.
+|
+|t:|1756955812
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jumpluff|Jumpluff, L50, F, shiny|100/100
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Jumpluff|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|-enditem|p1b: Torkoal|Eject Pack
+|
+|t:|1756955822
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|turn|1
+|inactive|Needels has 30 seconds left.
+|
+|t:|1756955851
+|-terastallize|p2a: Garchomp|Ground
+|move|p1b: Incineroar|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|90/100
+|move|p1a: Jumpluff|Sleep Powder|p2a: Garchomp
+|-status|p2a: Garchomp|slp|[from] move: Sleep Powder
+|cant|p2a: Garchomp|slp
+|cant|p2b: Incineroar|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756955867
+|-terastallize|p1a: Jumpluff|Fire
+|move|p1a: Jumpluff|Tailwind|p1a: Jumpluff
+|-sidestart|p1: Needels|move: Tailwind
+|cant|p2a: Garchomp|slp
+|move|p1b: Incineroar|Parting Shot|p2a: Garchomp
+|-unboost|p2a: Garchomp|atk|1
+|-unboost|p2a: Garchomp|spa|1
+|
+|t:|1756955878
+|switch|p1b: Charizard|Charizard, L50, M, shiny|100/100|[from] Parting Shot
+|move|p2b: Incineroar|Flare Blitz|p1a: Jumpluff
+|-resisted|p1a: Jumpluff
+|-damage|p1a: Jumpluff|70/100
+|-damage|p2b: Incineroar|81/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|88/100|[from] ability: Solar Power|[of] p1b: Charizard
+|upkeep
+|turn|3
+|
+|t:|1756955896
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Jumpluff|Rage Powder|p1a: Jumpluff
+|-singleturn|p1a: Jumpluff|move: Rage Powder
+|move|p1b: Charizard|Heat Wave|p2b: Incineroar|[spread] p2a
+|-miss|p1b: Charizard|p2b: Incineroar
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|move|p2b: Incineroar|Knock Off|p1b: Charizard
+|-damage|p1b: Charizard|49/100
+|-enditem|p1b: Charizard|Choice Specs|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|36/100|[from] ability: Solar Power|[of] p1b: Charizard
+|-heal|p1a: Jumpluff|76/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|87/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756955919
+|switch|p2a: Garchomp|Garchomp, L50, F, tera:Ground|100/100 slp
+|turn|4
+|
+|t:|1756955938
+|move|p1a: Jumpluff|Sleep Powder|p2b: Incineroar
+|-activate|p2b: Incineroar|item: Safety Goggles|Sleep Powder
+|move|p1b: Charizard|Overheat|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-unboost|p1b: Charizard|spa|2
+|faint|p2a: Garchomp
+|move|p2b: Incineroar|Knock Off|p1a: Jumpluff
+|-damage|p1a: Jumpluff|45/100
+|-enditem|p1a: Jumpluff|Covert Cloak|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|24/100|[from] ability: Solar Power|[of] p1b: Charizard
+|-heal|p1a: Jumpluff|51/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|93/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756955950
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|-enditem|p2a: Sneasler|Grassy Seed
+|-boost|p2a: Sneasler|def|1|[from] item: Grassy Seed
+|turn|5
+|
+|t:|1756955971
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|move|p2a: Sneasler|Fake Out|p1b: Incineroar
+|-damage|p1b: Incineroar|91/100
+|move|p1a: Jumpluff|Sleep Powder|p2a: Sneasler
+|-status|p2a: Sneasler|slp|[from] move: Sleep Powder
+|move|p2b: Incineroar|Parting Shot|p1b: Incineroar
+|-unboost|p1b: Incineroar|atk|1
+|-unboost|p1b: Incineroar|spa|1
+|
+|-weather|none
+|-heal|p1a: Jumpluff|57/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|97/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|99/100|[from] Grassy Terrain
+|-sideend|p1: Needels|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1756955994
+|cant|p2a: Sneasler|slp
+|move|p1a: Jumpluff|Tailwind|p1a: Jumpluff
+|-sidestart|p1: Needels|move: Tailwind
+|move|p1b: Incineroar|Parting Shot|p2a: Sneasler
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2a: Sneasler|spa|1
+|
+|t:|1756956002
+|switch|p1b: Charizard|Charizard, L50, M, shiny|24/100|[from] Parting Shot
+|move|p2b: Incineroar|Knock Off|p1a: Jumpluff
+|-damage|p1a: Jumpluff|42/100
+|
+|-heal|p1a: Jumpluff|48/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|100/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1756956024
+|switch|p1a: Incineroar|Incineroar, L50, M|97/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|cant|p2a: Sneasler|slp
+|move|p1b: Charizard|Heat Wave|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Sneasler|51/100 slp
+|-damage|p2b: Incineroar|86/100
+|move|p2b: Incineroar|Knock Off|p1b: Charizard
+|-damage|p1b: Charizard|10/100
+|
+|-heal|p2a: Sneasler|57/100 slp|[from] Grassy Terrain
+|-heal|p1a: Incineroar|100/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|92/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|inactive|Needels has 30 seconds left.
+|inactive|Needels has 20 seconds left.
+|
+|t:|1756956060
+|cant|p2a: Sneasler|slp
+|move|p1b: Charizard|Overheat|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|-unboost|p1b: Charizard|spa|2
+|faint|p2a: Sneasler
+|move|p1a: Incineroar|Parting Shot|p2b: Incineroar
+|-unboost|p2b: Incineroar|atk|1
+|-unboost|p2b: Incineroar|spa|1
+|
+|t:|1756956070
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2b: Incineroar|Knock Off|p1b: Charizard
+|-damage|p1b: Charizard|0 fnt
+|faint|p1b: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|uubbll forfeited.
+|
+|win|Needels
+|l|☆uubbll
+|player|p2|

@@ -1,0 +1,202 @@
+|j|☆Cristante terabug
+|j|☆Tchoubib
+|html|Cristante terabugTchoubib    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756934385
+|gametype|doubles
+|player|p1|Cristante terabug|kieran-champion|1283
+|player|p2|Tchoubib|265|1251
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,KnockOff,Taunt|||M|||50|,,,,,Ghost]Pelipper||FocusSash|Drizzle|Hurricane,MuddyWater,Tailwind,Protect|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|ElectroShot,Snarl,FlashCannon,BodyPress|||M|||50|,,,,,Fighting]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,LifeDew,TrickRoom||||||50|,,,,,Dark]Ursaluna||FlameOrb|Guts|Earthquake,Facade,HeadlongRush,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,HelpingHand,DazzlingGleam|||F|||50|,,,,,Water]Hatterene||LifeOrb|MagicBounce|ExpandingForce,TrickRoom,DazzlingGleam,Protect|||F|||50|,,,,,Water]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,SacredSword,WideGuard|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,SleepPowder,CloseCombat,AfterYou|||F|||50|,,,,,Ghost]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire
+|
+|t:|1756934456
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: De Marinis|Incineroar, L50, M|100/100
+|switch|p1b: Luca|Archaludon, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p2b: Gallade|Gallade, L50, M, shiny|100/100
+|-ability|p1a: De Marinis|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-fail|p2b: Gallade|unboost|[from] item: Clear Amulet|[of] p2b: Gallade
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756934495
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Luca|Snarl|p2b: Gallade|[spread] p2a,p2b
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|86/100
+|-damage|p2b: Gallade|88/100
+|-unboost|p2a: Indeedee|spa|1
+|move|p2b: Gallade|Sacred Sword|p1a: De Marinis
+|-supereffective|p1a: De Marinis
+|-damage|p1a: De Marinis|0 fnt
+|faint|p1a: De Marinis
+|
+|upkeep
+|
+|t:|1756934504
+|switch|p1a: Olmo|Ursaluna, L50, F|100/100
+|turn|2
+|
+|t:|1756934525
+|switch|p1b: Silvano|Pelipper, L50, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Silvano
+|-terastallize|p1a: Olmo|Ghost
+|move|p2b: Gallade|Sacred Sword|p1b: Silvano
+|-resisted|p1b: Silvano
+|-damage|p1b: Silvano|55/100
+|move|p1a: Olmo|Earthquake|p2a: Indeedee|[spread] p2a,p2b
+|-immune|p1b: Silvano
+|-damage|p2a: Indeedee|47/100
+|-damage|p2b: Gallade|21/100
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Olmo|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1756934554
+|switch|p1b: Luca|Archaludon, L50, M|100/100
+|move|p2a: Indeedee|Dazzling Gleam|p1b: Luca|[spread] p1a,p1b
+|-damage|p1a: Olmo|92/100 brn
+|-damage|p1b: Luca|94/100
+|-ability|p1b: Luca|Stamina|boost
+|-boost|p1b: Luca|def|1
+|move|p1a: Olmo|Facade|p2b: Gallade
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Olmo|86/100 brn|[from] brn
+|upkeep
+|
+|t:|1756934562
+|switch|p2b: Hatterene|Hatterene, L50, F, shiny|100/100
+|turn|4
+|
+|t:|1756934598
+|switch|p2a: Torkoal|Torkoal, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Olmo|Protect|p1a: Olmo
+|-singleturn|p1a: Olmo|Protect
+|move|p2b: Hatterene|Expanding Force|p1a: Olmo|[spread] p1b
+|-activate|p1a: Olmo|move: Protect
+|-resisted|p1b: Luca
+|-damage|p1b: Luca|60/100
+|-ability|p1b: Luca|Stamina|boost
+|-boost|p1b: Luca|def|1
+|-damage|p2b: Hatterene|91/100|[from] item: Life Orb
+|move|p1b: Luca|Snarl|p2a: Torkoal|[spread] p2a,p2b
+|-damage|p2a: Torkoal|85/100
+|-damage|p2b: Hatterene|78/100
+|-unboost|p2a: Torkoal|spa|1
+|-unboost|p2b: Hatterene|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Olmo|80/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1756934627
+|switch|p1a: Silvano|Pelipper, L50, M, shiny|55/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Silvano
+|-terastallize|p2a: Torkoal|Fire
+|move|p2a: Torkoal|Eruption|p1b: Luca|[spread] p1a,p1b
+|-resisted|p1a: Silvano
+|-damage|p1a: Silvano|34/100
+|-damage|p1b: Luca|39/100
+|-ability|p1b: Luca|Stamina|boost
+|-boost|p1b: Luca|def|1
+|move|p2b: Hatterene|Expanding Force|p1a: Silvano|[spread] p1a,p1b
+|-resisted|p1b: Luca
+|-damage|p1a: Silvano|0 fnt
+|-damage|p1b: Luca|17/100
+|-ability|p1b: Luca|Stamina|boost
+|-boost|p1b: Luca|def|1
+|faint|p1a: Silvano
+|-damage|p2b: Hatterene|69/100|[from] item: Life Orb
+|move|p1b: Luca|Electro Shot||[still]
+|-prepare|p1b: Luca|Electro Shot
+|-boost|p1b: Luca|spa|1
+|-anim|p1b: Luca|Electro Shot|p2b: Hatterene
+|-damage|p2b: Hatterene|11/100
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756934641
+|switch|p1a: Olmo|Ursaluna, L50, F, tera:Ghost|80/100 brn
+|turn|6
+|
+|t:|1756934663
+|switch|p2a: Indeedee|Indeedee-F, L50, F, shiny|47/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Olmo|Protect|p1a: Olmo
+|-singleturn|p1a: Olmo|Protect
+|move|p2b: Hatterene|Expanding Force|p1a: Olmo|[spread] p1b
+|-activate|p1a: Olmo|move: Protect
+|-resisted|p1b: Luca
+|-damage|p1b: Luca|0 fnt
+|faint|p1b: Luca
+|-damage|p2b: Hatterene|1/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Olmo|74/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1756934694
+|move|p2b: Hatterene|Protect|p2b: Hatterene
+|-singleturn|p2b: Hatterene|Protect
+|move|p1a: Olmo|Earthquake|p2b: Hatterene|[spread] p2a
+|-activate|p2b: Hatterene|move: Protect
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Olmo|68/100 brn|[from] brn
+|upkeep
+|
+|t:|1756934698
+|switch|p2a: Torkoal|Torkoal, L50, M, shiny, tera:Fire|85/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|8
+|
+|t:|1756934710
+|move|p1a: Olmo|Earthquake|p2b: Hatterene|[spread] p2a,p2b
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|-damage|p2b: Hatterene|0 fnt
+|faint|p2a: Torkoal
+|faint|p2b: Hatterene
+|
+|win|Cristante terabug

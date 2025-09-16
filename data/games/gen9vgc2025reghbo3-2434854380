@@ -1,0 +1,184 @@
+|j|☆PursatiEvol
+|j|☆TeyVgc
+|html|PursatiEvolTeyVgc    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756960121
+|gametype|doubles
+|player|p1|PursatiEvol|101|1227
+|player|p2|TeyVgc|benga|1321
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Dragapult, L50, M|
+|poke|p1|Primarina, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Magmar, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Gastrodon, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,FakeOut,Protect|||F|||50|,,,,,Stellar]Dragapult||ChoiceBand|ClearBody|DragonDarts,TeraBlast,PhantomForce,Uturn|||M|||50|,,,,,Ghost]Primarina||SitrusBerry|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||M|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||F|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Ghost]Magmar||Eviolite|VitalSpirit|Overheat,WillOWisp,FollowMe,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Gholdengo||LifeOrb|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy]Sneasler||PsychicSeed|Unburden|Protect,DireClaw,CloseCombat,ThroatChop|||M|||50|,,,,,Dark]Incineroar||SafetyGoggles|Intimidate|KnockOff,PartingShot,FlareBlitz,FakeOut|||M|||50|,,,,,Ghost]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,Imprison,TeraBlast|||M|||50|,,,,,Fighting]Gastrodon||Leftovers|StormDrain|EarthPower,Yawn,Recover,IceBeam|||M|||50|,,,,,Poison
+|
+|t:|1756960256
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Magmar|Magmar, L50, F|100/100
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756960339
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p2a: Sneasler|Dire Claw|p1a: Magmar
+|-damage|p1a: Magmar|63/100
+|move|p2b: Indeedee|Expanding Force|p1a: Magmar
+|-crit|p1a: Magmar
+|-damage|p1a: Magmar|20/100
+|move|p1a: Magmar|Will-O-Wisp|p2a: Sneasler
+|-status|p2a: Sneasler|brn
+|
+|-heal|p1a: Magmar|25/100|[from] Grassy Terrain
+|-damage|p2a: Sneasler|95/100 brn|[from] brn
+|upkeep
+|turn|2
+|j| redshoes7
+|l| redshoes7
+|
+|t:|1756960370
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Magmar|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|switch|p1a: Kingambit|Kingambit, L50, F|100/100
+|move|p1b: Rillaboom|Fake Out|p2a: Sneasler
+|-damage|p2a: Sneasler|79/100 brn
+|cant|p2a: Sneasler|flinch
+|
+|-heal|p2a: Sneasler|84/100 brn|[from] Grassy Terrain
+|-damage|p2a: Sneasler|79/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1756960402
+|-terastallize|p1a: Kingambit|Ghost
+|move|p2a: Sneasler|Close Combat|p1a: Kingambit
+|-immune|p1a: Kingambit
+|move|p1b: Rillaboom|High Horsepower|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|59/100
+|move|p2b: Incineroar|Knock Off|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|29/100
+|-enditem|p1a: Kingambit|Black Glasses|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p2a: Sneasler|84/100 brn|[from] Grassy Terrain
+|-heal|p2b: Incineroar|65/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|36/100|[from] Grassy Terrain
+|-damage|p2a: Sneasler|79/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1756960440
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p1b: Rillaboom|High Horsepower|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|22/100
+|move|p2b: Incineroar|Knock Off|p1a: Kingambit
+|-activate|p1a: Kingambit|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1756960467
+|switch|p1b: Magmar|Magmar, L50, F|25/100
+|switch|p2b: Sneasler|Sneasler, L50, M|79/100 brn
+|move|p1a: Kingambit|Protect||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Indeedee|Expanding Force|p1b: Magmar|[spread] p1a,p1b
+|-damage|p1a: Kingambit|0 fnt
+|-damage|p1b: Magmar|0 fnt
+|faint|p1a: Kingambit
+|faint|p1b: Magmar
+|
+|-damage|p2b: Sneasler|73/100 brn|[from] brn
+|upkeep
+|
+|t:|1756960474
+|switch|p1b: Dragapult|Dragapult, L50, M|100/100
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|6
+|
+|t:|1756960506
+|switch|p2a: Incineroar|Incineroar, L50, M|22/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-fail|p1b: Dragapult|unboost|[from] ability: Clear Body|[of] p1b: Dragapult
+|move|p1a: Rillaboom|Grassy Glide|p2b: Sneasler
+|-resisted|p2b: Sneasler
+|-damage|p2b: Sneasler|51/100 brn
+|move|p1b: Dragapult|Dragon Darts|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|-anim|p1b: Dragapult|Dragon Darts|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2b: Sneasler
+|faint|p2a: Incineroar
+|
+|upkeep
+|
+|t:|1756960520
+|switch|p2b: Dragonite|Dragonite, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|7
+|
+|t:|1756960547
+|move|p1b: Dragapult|Dragon Darts|p2a: Indeedee
+|-damage|p2a: Indeedee|17/100
+|-anim|p1b: Dragapult|Dragon Darts|p2b: Dragonite
+|-supereffective|p2b: Dragonite
+|-damage|p2b: Dragonite|60/100
+|move|p2a: Indeedee|Expanding Force|p1b: Dragapult|[spread] p1a,p1b
+|-damage|p1a: Rillaboom|59/100
+|-damage|p1b: Dragapult|23/100
+|move|p2b: Dragonite|Tailwind|p2b: Dragonite
+|-sidestart|p2: TeyVgc|move: Tailwind
+|move|p1a: Rillaboom|Grassy Glide|p2b: Dragonite
+|-resisted|p2b: Dragonite
+|-damage|p2b: Dragonite|55/100
+|
+|upkeep
+|turn|8
+|
+|t:|1756960594
+|move|p2a: Indeedee|Expanding Force|p1a: Rillaboom|[spread] p1a,p1b
+|-damage|p1a: Rillaboom|17/100
+|-damage|p1b: Dragapult|0 fnt
+|faint|p1b: Dragapult
+|move|p2b: Dragonite|Scale Shot|p1a: Rillaboom
+|-damage|p1a: Rillaboom|2/100
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-hitcount|p1: Rillaboom|2
+|
+|win|TeyVgc

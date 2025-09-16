@@ -1,0 +1,200 @@
+|j|☆C.blaze
+|j|☆Bruthathechosen
+|html|C.blazeBruthathechosen    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756988431
+|gametype|doubles
+|player|p1|C.blaze|2|1182
+|player|p2|Bruthathechosen|lady-gen4|1083
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Hydreigon, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Electabuzz, L50, F|
+|poke|p2|Volcarona, L50, F|
+|teampreview|4
+|showteam|p1|Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Protect,Tailwind|||F|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|DracoMeteor,ElectroShot,BodyPress,Snarl|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Protect,Earthquake|||F|||50|,,,,,Ghost]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,LifeDew,TrickRoom||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|KnockOff,WillOWisp,PartingShot,FakeOut|||M|||50|,,,,,Ghost]Garchomp||ClearAmulet|RoughSkin|DragonClaw,Earthquake,Protect,StompingTantrum|||F|||50|,,,,,Steel
+|showteam|p2|Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,SwordsDance,Protect|||M|||50|,,,,,Dark]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,HighHorsepower,Uturn|||F|||50|,,,,,Water]Hydreigon||ChoiceSpecs|Levitate|DarkPulse,DracoMeteor,Snarl,Uturn|||M|||50|,,,,,Ghost]Sneasler||GrassySeed|Unburden|FakeOut,CloseCombat,DireClaw,Protect|||M|||50|,,,,,Fighting]Electabuzz||Eviolite|VitalSpirit|Taunt,Thunderbolt,FollowMe,Protect|||F|||50|,,,,,Dragon]Volcarona||CovertCloak|FlameBody|QuiverDance,HeatWave,TeraBlast,Protect|||F|||50|,,,,,Fairy
+|
+|t:|1756988454
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Hydreigon|Hydreigon, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1756988470
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p2a: Sneasler|Grassy Seed
+|-boost|p2a: Sneasler|def|1|[from] item: Grassy Seed
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p1a: Pelipper|Protect|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Protect
+|move|p2a: Sneasler|Dire Claw|p1a: Pelipper
+|-activate|p1a: Pelipper|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756988489
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|move|p2b: Rillaboom|Fake Out|p1a: Incineroar
+|-damage|p1a: Incineroar|91/100
+|move|p2a: Sneasler|Dire Claw|p1a: Incineroar
+|-damage|p1a: Incineroar|61/100
+|move|p1b: Garchomp|Stomping Tantrum|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|27/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Sneasler|33/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|67/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756988510
+|switch|p2b: Hydreigon|Hydreigon, L50, M|100/100
+|move|p1a: Incineroar|Fake Out|p2a: Sneasler
+|-damage|p2a: Sneasler|18/100
+|cant|p2a: Sneasler|flinch
+|move|p1b: Garchomp|Dragon Claw|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Incineroar|73/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756988516
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|turn|4
+|
+|t:|1756988523
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p2b: Hydreigon|Draco Meteor|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2b: Hydreigon|spa|2
+|faint|p1a: Incineroar
+|move|p2a: Rillaboom|High Horsepower|p1b: Garchomp
+|-activate|p1b: Garchomp|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756988531
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|turn|5
+|
+|t:|1756988539
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|-terastallize|p1a: Archaludon|Grass
+|move|p1b: Garchomp|Dragon Claw|p2b: Kingambit
+|-resisted|p2b: Kingambit
+|-damage|p2b: Kingambit|84/100
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Kingambit
+|-damage|p2b: Kingambit|7/100
+|move|p2a: Rillaboom|High Horsepower|p1a: Archaludon
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|89/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|
+|-weather|none
+|-heal|p1a: Archaludon|95/100|[from] Grassy Terrain
+|-heal|p2b: Kingambit|13/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756988569
+|move|p2b: Kingambit|Protect|p2b: Kingambit
+|-singleturn|p2b: Kingambit|Protect
+|move|p1b: Garchomp|Dragon Claw|p2b: Kingambit
+|-activate|p2b: Kingambit|move: Protect
+|move|p1a: Archaludon|Draco Meteor|p2a: Rillaboom
+|-damage|p2a: Rillaboom|17/100
+|-unboost|p1a: Archaludon|spa|2
+|move|p2a: Rillaboom|U-turn|p1a: Archaludon
+|-supereffective|p1a: Archaludon
+|-damage|p1a: Archaludon|73/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|
+|t:|1756988581
+|switch|p2a: Hydreigon|Hydreigon, L50, M|100/100|[from] U-turn
+|
+|upkeep
+|turn|7
+|
+|t:|1756988599
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-terastallize|p2b: Kingambit|Dark
+|move|p2b: Kingambit|Sucker Punch|p1b: Garchomp
+|-damage|p1b: Garchomp|35/100
+|-damage|p2b: Kingambit|1/100|[from] ability: Rough Skin|[of] p1b: Garchomp
+|move|p1b: Garchomp|Earthquake|p2a: Hydreigon|[spread] p2b
+|-immune|p1a: Pelipper
+|-immune|p2a: Hydreigon|[from] ability: Levitate
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|move|p2a: Hydreigon|Draco Meteor|p1a: Pelipper
+|-enditem|p1a: Pelipper|Focus Sash
+|-damage|p1a: Pelipper|1/100
+|-unboost|p2a: Hydreigon|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756988611
+|switch|p2b: Rillaboom|Rillaboom, L50, F|17/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|8
+|
+|t:|1756988621
+|move|p1a: Pelipper|Protect|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Protect
+|move|p2b: Rillaboom|Grassy Glide|p1a: Pelipper
+|-activate|p1a: Pelipper|move: Protect
+|move|p1b: Garchomp|Dragon Claw|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Garchomp|41/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|23/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|-message|Bruthathechosen forfeited.
+|
+|win|C.blaze
+||Bruthathechosen is ready for game 3.
+||C.blaze is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

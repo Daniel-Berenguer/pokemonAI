@@ -1,0 +1,163 @@
+|j|☆razorsharp01
+|j|☆CryForCrys
+|html|razorsharp01CryForCrys    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756976900
+|gametype|doubles
+|player|p1|razorsharp01|falkner|
+|player|p2|CryForCrys|caitlin|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Politoed, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Kingdra, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Dragapult, L50, M|
+|poke|p2|Sneasler, L50, F|
+|teampreview|4
+|showteam|p1|Gothitelle||SitrusBerry|ShadowTag|FakeOut,Protect,Psychic,TrickRoom|||M|||50|,,,,,Dark]Incineroar||SafetyGoggles|Intimidate|Protect,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Amoonguss||EjectButton|Regenerator|Spore,SludgeBomb,RagePowder,Protect|||F|||50|,,,,,Dark]Politoed||Leftovers|Drizzle|PerishSong,Encore,Protect,WeatherBall|||F|||50|,,,,,Water]Archaludon||PowerHerb|Stalwart|ElectroShot,FlashCannon,DracoMeteor,Protect|||M|||50|,,,,,Electric]Kingdra||LifeOrb|SwiftSwim|DracoMeteor,MuddyWater,Protect,WeatherBall|||F|||50|,,,,,Stellar
+|showteam|p2|Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,HyperVoice,EarthPower,VacuumWave|||M|||50|,,,,,Normal]Porygon2||Eviolite|Trace|IceBeam,Thunderbolt,Recover,TrickRoom||||||50|,,,,,Ghost]Amoonguss||CovertCloak|Regenerator|Spore,RagePowder,PollenPuff,SludgeBomb|||F|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|KnockOff,FakeOut,PartingShot,FlareBlitz|||F|||50|,,,,,Ghost]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,Uturn,Outrage|||M|||50|,,,,,Fairy]Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,ThroatChop,FakeOut|||F|||50|,,,,,Dark
+|
+|t:|1756976937
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Politoed|Politoed, L50, F|100/100
+|switch|p1b: Kingdra|Kingdra, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Dragapult|Dragapult, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|t:|1756976959
+|move|p2a: Sneasler|Fake Out|p1b: Kingdra
+|-damage|p1b: Kingdra|82/100
+|-status|p1b: Kingdra|psn|[from] ability: Poison Touch|[of] p2a: Sneasler
+|cant|p1b: Kingdra|flinch
+|move|p2b: Dragapult|Dragon Darts|p1a: Politoed
+|-damage|p1a: Politoed|60/100
+|-anim|p2b: Dragapult|Dragon Darts|p1b: Kingdra
+|-supereffective|p1b: Kingdra
+|-damage|p1b: Kingdra|0 fnt
+|faint|p1b: Kingdra
+|move|p1a: Politoed|Encore|p2a: Sneasler
+|-start|p2a: Sneasler|Encore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|66/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756976973
+|switch|p1b: Gothitelle|Gothitelle, L50, M|100/100
+|turn|2
+|
+|t:|1756976993
+|move|p2a: Sneasler|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2a: Sneasler
+|move|p2b: Dragapult|Dragon Darts|p1a: Politoed
+|-damage|p1a: Politoed|22/100
+|-anim|p2b: Dragapult|Dragon Darts|p1b: Gothitelle
+|-damage|p1b: Gothitelle|64/100
+|move|p1a: Politoed|Perish Song|p1a: Politoed
+|-start|p1a: Politoed|perish3|[silent]
+|-start|p1b: Gothitelle|perish3|[silent]
+|-start|p2a: Sneasler|perish3|[silent]
+|-start|p2b: Dragapult|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1b: Gothitelle|Trick Room|p1b: Gothitelle
+|-fieldstart|move: Trick Room|[of] p1b: Gothitelle
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|28/100|[from] item: Leftovers
+|-start|p1b: Gothitelle|perish3
+|-start|p1a: Politoed|perish3
+|-start|p2a: Sneasler|perish3
+|-start|p2b: Dragapult|perish3
+|upkeep
+|turn|3
+|
+|t:|1756977020
+|-terastallize|p2a: Sneasler|Dark
+|move|p2a: Sneasler|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2a: Sneasler
+|move|p1b: Gothitelle|Psychic|p2a: Sneasler
+|-immune|p2a: Sneasler
+|move|p1a: Politoed|Weather Ball|p2a: Sneasler
+|-damage|p2a: Sneasler|29/100
+|move|p2b: Dragapult|Dragon Darts|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|-anim|p2b: Dragapult|Dragon Darts|p1b: Gothitelle
+|-damage|p1b: Gothitelle|28/100
+|-enditem|p1b: Gothitelle|Sitrus Berry|[eat]
+|-heal|p1b: Gothitelle|53/100|[from] item: Sitrus Berry
+|faint|p1a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-start|p1b: Gothitelle|perish2
+|-start|p2a: Sneasler|perish2
+|-start|p2b: Dragapult|perish2
+|upkeep
+|
+|t:|1756977034
+|switch|p1a: Amoonguss|Amoonguss, L50, F|100/100
+|turn|4
+|
+|t:|1756977053
+|move|p2a: Sneasler|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2a: Sneasler
+|move|p1a: Amoonguss|Spore|p2b: Dragapult
+|-status|p2b: Dragapult|slp|[from] move: Spore
+|move|p1b: Gothitelle|Psychic|p2b: Dragapult
+|-damage|p2b: Dragapult|57/100 slp
+|cant|p2b: Dragapult|slp
+|
+|-weather|RainDance|[upkeep]
+|-end|p2a: Sneasler|Encore
+|-start|p1b: Gothitelle|perish1
+|-start|p2a: Sneasler|perish1
+|-start|p2b: Dragapult|perish1
+|upkeep
+|turn|5
+|
+|t:|1756977081
+|move|p1a: Amoonguss|Spore|p2a: Sneasler
+|-status|p2a: Sneasler|slp|[from] move: Spore
+|move|p1b: Gothitelle|Psychic|p2b: Dragapult
+|-damage|p2b: Dragapult|16/100 slp
+|cant|p2a: Sneasler|slp
+|-curestatus|p2b: Dragapult|slp|[msg]
+|move|p2b: Dragapult|Dragon Darts|p1a: Amoonguss
+|-damage|p1a: Amoonguss|69/100
+|-anim|p2b: Dragapult|Dragon Darts|p1b: Gothitelle
+|-damage|p1b: Gothitelle|17/100
+|
+|-weather|none
+|-start|p1b: Gothitelle|perish0
+|-start|p2a: Sneasler|perish0
+|-start|p2b: Dragapult|perish0
+|faint|p1b: Gothitelle
+|faint|p2a: Sneasler
+|faint|p2b: Dragapult
+|upkeep
+|
+|t:|1756977114
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|turn|6
+|-message|razorsharp01 forfeited.
+|
+|win|CryForCrys

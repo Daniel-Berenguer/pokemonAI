@@ -1,0 +1,106 @@
+|j|☆Voltage Gaming101
+|j|☆climaxii
+|html|Voltage Gaming101climaxii    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757176365
+|gametype|doubles
+|player|p1|Voltage Gaming101|red|1121
+|player|p2|climaxii|169|1102
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Houndstone, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Blaziken, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Tinkaton, L50, F|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||F|||50|,,,,,Flying]Houndstone||SpellTag|SandRush|LastRespects,ShadowSneak,PlayRough,BodyPress|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Garchomp||LoadedDice|RoughSkin|ScaleShot,Earthquake,SwordsDance,Protect|||F|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Water
+|showteam|p2|Blaziken||LifeOrb|SpeedBoost|Protect,FlareBlitz,CloseCombat,SwordsDance|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Protect,Overheat,HeatWave,HelpingHand|||F|||50|,,,,,Fire]Jumpluff||CovertCloak|Chlorophyll|RagePowder,Tailwind,SleepPowder,SunnyDay|||M|||50|,,,,,Water]Farigiraf||ThroatSpray|ArmorTail|TwinBeam,HyperVoice,TrickRoom,HelpingHand|||M|||50|,,,,,Fairy]Ursaluna-Bloodmoon||AssaultVest|MindsEye|VacuumWave,HyperVoice,BloodMoon,EarthPower|||M|||50|,,,,,Ghost]Tinkaton||SitrusBerry|MoldBreaker|FakeOut,Encore,PlayRough,GigatonHammer|||F|||50|,,,,,Water
+|
+|t:|1757176405
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|switch|p2b: Fire Chicken|Blaziken, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Fire Chicken|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-enditem|p2a: Torkoal|Eject Pack
+|
+|t:|1757176412
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|turn|1
+|
+|t:|1757176434
+|move|p1b: Incineroar|Fake Out|p2b: Fire Chicken
+|-damage|p2b: Fire Chicken|81/100
+|move|p2a: Jumpluff|Tailwind|p2a: Jumpluff
+|-sidestart|p2: climaxii|move: Tailwind
+|cant|p2b: Fire Chicken|flinch
+|move|p1a: Amoonguss|Spore|p2b: Fire Chicken
+|-status|p2b: Fire Chicken|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2b: Fire Chicken|Speed Boost|boost
+|-boost|p2b: Fire Chicken|spe|1
+|upkeep
+|turn|2
+|
+|t:|1757176457
+|move|p2a: Jumpluff|Rage Powder|p2a: Jumpluff
+|-singleturn|p2a: Jumpluff|move: Rage Powder
+|cant|p2b: Fire Chicken|slp
+|move|p1b: Incineroar|Knock Off|p2b: Fire Chicken
+|-resisted|p2b: Fire Chicken
+|-damage|p2b: Fire Chicken|47/100 slp
+|-enditem|p2b: Fire Chicken|Life Orb|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p1a: Amoonguss|Pollen Puff|p2b: Fire Chicken
+|-resisted|p2b: Fire Chicken
+|-damage|p2b: Fire Chicken|40/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2b: Fire Chicken|Speed Boost|boost
+|-boost|p2b: Fire Chicken|spe|1
+|upkeep
+|turn|3
+|
+|t:|1757176473
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|cant|p2b: Fire Chicken|slp
+|move|p1b: Incineroar|Parting Shot|p2b: Fire Chicken
+|-unboost|p2b: Fire Chicken|atk|1
+|-unboost|p2b: Fire Chicken|spa|1
+|
+|t:|1757176478
+|switch|p1b: Tyranitar|Tyranitar, L50, F, shiny|100/100|[from] Parting Shot
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|move|p1a: Amoonguss|Pollen Puff|p2b: Fire Chicken
+|-resisted|p2b: Fire Chicken
+|-damage|p2b: Fire Chicken|33/100 slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Fire Chicken|27/100 slp|[from] Sandstorm
+|-damage|p2a: Torkoal|94/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|95/100|[from] Sandstorm
+|-ability|p2b: Fire Chicken|Speed Boost|boost
+|-boost|p2b: Fire Chicken|spe|1
+|upkeep
+|turn|4
+|-message|climaxii forfeited.
+|
+|win|Voltage Gaming101

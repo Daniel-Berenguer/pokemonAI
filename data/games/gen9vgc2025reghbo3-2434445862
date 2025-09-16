@@ -1,0 +1,169 @@
+|j|☆The PWC Luigi
+|j|☆bpecina03
+|html|The PWC Luigibpecina03    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756915616
+|gametype|doubles
+|player|p1|The PWC Luigi|cheren-gen5bw2|1030
+|player|p2|bpecina03|266|1006
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Excadrill, L50, F|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p1|Salamence, L50, F|
+|poke|p1|Blaziken, L50, M|
+|poke|p1|Bruxish, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Talonflame, L50, F|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Garchomp, L50, F|
+|teampreview|4
+|showteam|p1|Tyranitar||ClearAmulet|SandStream|RockSlide,KnockOff,DragonDance,Protect|||M|||50|,,,,,Grass]Excadrill||AssaultVest|SandRush|Earthquake,IronHead,HighHorsepower,RockSlide|||F|||50|,,,,,Ghost]Sinistcha-Masterpiece||SitrusBerry|Hospitality|ShadowBall,MatchaGotcha,RagePowder,Protect||||||50|,,,,,Dark]Salamence||LifeOrb|Intimidate|DracoMeteor,AirSlash,Protect,Tailwind|||F|||50|,,,,,Ghost]Blaziken||CovertCloak|SpeedBoost|AuraSphere,HeatWave,Coaching,WillOWisp|||M|||50|,,,,,Dragon]Bruxish||ChoiceScarf|Dazzling|PsychicFangs,WaveCrash,FlipTurn,SuperFang|||M|||50|,,,,,Water
+|showteam|p2|Tyranitar||AssaultVest|SandStream|RockSlide,TeraBlast,KnockOff,LowKick|||M|||50|,,,,,Flying]Annihilape||SitrusBerry|VitalSpirit|RageFist,Protect,BulkUp,DrainPunch|||F|||50|,,,,,Grass]Talonflame||CovertCloak|FlameBody|Tailwind,BraveBird,WillOWisp,Protect|||F|||50|,,,,,Grass]Primarina||ThroatSpray|LiquidVoice|HyperVoice,Haze,Moonblast,Protect|||F|||50|,,,,,Steel]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Garchomp||LifeOrb|SandVeil|StompingTantrum,Earthquake,Protect,DragonClaw|||F|||50|,,,,,Ground
+|
+|t:|1756915637
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Bruxish|Bruxish, L50, M|100/100
+|switch|p1b: Salamence|Salamence, L50, F|100/100
+|switch|p2a: Primarina|Primarina, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Salamence|Intimidate|boost
+|-unboost|p2a: Primarina|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Bruxish|atk|1
+|-unboost|p1b: Salamence|atk|1
+|turn|1
+|
+|t:|1756915664
+|switch|p1b: Excadrill|Excadrill, L50, F|100/100
+|move|p2b: Incineroar|Fake Out||[still]
+|cant|p1a: Bruxish|ability: Dazzling|Fake Out|[of] p2b: Incineroar
+|move|p1a: Bruxish|Flip Turn|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|62/100
+|
+|t:|1756915673
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100|[from] Flip Turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Primarina|Hyper Voice|p1a: Tyranitar|[spread] p1a,p1b
+|-supereffective|p1a: Tyranitar
+|-supereffective|p1b: Excadrill
+|-crit|p1b: Excadrill
+|-damage|p1a: Tyranitar|58/100
+|-damage|p1b: Excadrill|15/100
+|-enditem|p2a: Primarina|Throat Spray
+|-boost|p2a: Primarina|spa|1|[from] item: Throat Spray
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Primarina|95/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1756915692
+|move|p1b: Excadrill|High Horsepower|p2a: Primarina
+|-damage|p2a: Primarina|8/100
+|move|p2a: Primarina|Hyper Voice|p1b: Excadrill|[spread] p1a,p1b
+|-supereffective|p1a: Tyranitar
+|-supereffective|p1b: Excadrill
+|-damage|p1a: Tyranitar|0 fnt
+|-damage|p1b: Excadrill|0 fnt
+|faint|p1a: Tyranitar
+|faint|p1b: Excadrill
+|move|p2b: Incineroar|Flare Blitz|p1: Tyranitar|[notarget]
+|-fail|p2b: Incineroar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Primarina|2/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756915704
+|switch|p1b: Salamence|Salamence, L50, F|100/100
+|switch|p1a: Bruxish|Bruxish, L50, M|100/100
+|-ability|p1b: Salamence|Intimidate|boost
+|-unboost|p2a: Primarina|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|turn|3
+|
+|t:|1756915720
+|move|p1a: Bruxish|Wave Crash|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|-damage|p1a: Bruxish|72/100|[from] Recoil
+|move|p1b: Salamence|Air Slash|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|-damage|p1b: Salamence|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bruxish|66/100|[from] Sandstorm
+|-damage|p1b: Salamence|85/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756915731
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|switch|p2b: Annihilape|Annihilape, L50, F|100/100
+|turn|4
+|
+|t:|1756915755
+|-terastallize|p1a: Bruxish|Water
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p2b: Annihilape|Protect|p2b: Annihilape
+|-singleturn|p2b: Annihilape|Protect
+|move|p1a: Bruxish|Wave Crash|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Protect
+|move|p1b: Salamence|Air Slash|p2b: Annihilape
+|-activate|p2b: Annihilape|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Bruxish|60/100|[from] Sandstorm
+|-damage|p1b: Salamence|79/100|[from] Sandstorm
+|-damage|p2b: Annihilape|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1756915779
+|-terastallize|p2b: Annihilape|Grass
+|move|p1a: Bruxish|Wave Crash|p2a: Garchomp
+|-damage|p2a: Garchomp|25/100
+|-damage|p1a: Bruxish|28/100|[from] Recoil
+|move|p2a: Garchomp|Dragon Claw|p1a: Bruxish
+|-damage|p1a: Bruxish|0 fnt
+|faint|p1a: Bruxish
+|-damage|p2a: Garchomp|16/100|[from] item: Life Orb
+|move|p1b: Salamence|Air Slash|p2b: Annihilape
+|-supereffective|p2b: Annihilape
+|-damage|p2b: Annihilape|9/100
+|-enditem|p2b: Annihilape|Sitrus Berry|[eat]
+|-heal|p2b: Annihilape|34/100|[from] item: Sitrus Berry
+|-damage|p1b: Salamence|69/100|[from] item: Life Orb
+|cant|p2b: Annihilape|flinch
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1756915807
+|move|p2a: Garchomp|Dragon Claw|p1b: Salamence
+|-supereffective|p1b: Salamence
+|-damage|p1b: Salamence|0 fnt
+|faint|p1b: Salamence
+|-damage|p2a: Garchomp|6/100|[from] item: Life Orb
+|
+|win|bpecina03
+||The PWC Luigi is ready for game 3.
+||bpecina03 is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆bpecina03
+|player|p2|

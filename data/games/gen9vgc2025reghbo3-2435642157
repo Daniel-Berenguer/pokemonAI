@@ -1,0 +1,151 @@
+|j|☆sandy ghost 5
+|j|☆NerdConsultant
+|html|sandy ghost 5NerdConsultant    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757071693
+|gametype|doubles
+|player|p1|sandy ghost 5|baker|1251
+|player|p2|NerdConsultant|roxie|1221
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Excadrill, L50, F|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p1|Salamence, L50, F|
+|poke|p1|Blaziken, L50, F|
+|poke|p1|Bruxish, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Pelipper, L50, M|
+|teampreview|4
+|showteam|p1|Tyranitar||ClearAmulet|SandStream|RockSlide,KnockOff,DragonDance,Protect|||M|||50|,,,,,Grass]Excadrill||AssaultVest|SandRush|Earthquake,IronHead,HighHorsepower,RockSlide|||F|||50|,,,,,Ghost]Sinistcha-Masterpiece||SitrusBerry|Hospitality|ShadowBall,MatchaGotcha,RagePowder,Protect||||||50|,,,,,Dark]Salamence||LifeOrb|Intimidate|DracoMeteor,AirSlash,Protect,Tailwind|||F|||50|,,,,,Ghost]Blaziken||CovertCloak|SpeedBoost|AuraSphere,HeatWave,Coaching,WillOWisp|||F|||50|,,,,,Dragon]Bruxish||ChoiceScarf|Dazzling|PsychicFangs,FlipTurn,WaveCrash,SuperFang|||M|||50|,,,,,Water
+|showteam|p2|Kingambit||BlackGlasses|Defiant|KowtowCleave,SwordsDance,SuckerPunch,Protect|||M|||50|,,,,,Dark]Rillaboom||LoadedDice|GrassySurge|HighHorsepower,GrassyGlide,BulletSeed,FakeOut|||M|||50|,,,,,Fire]Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,DracoMeteor,FlashCannon|||F|||50|,,,,,Bug]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,AquaJet,LastRespects,FlipTurn|||M|||50|,,,,,Grass]Electabuzz||Eviolite|VitalSpirit|Electroweb,Taunt,FollowMe,Protect|||M|||50|,,,,,Ghost]Pelipper||FocusSash|Drizzle|Tailwind,WeatherBall,Hurricane,Protect|||M|||50|,,,,,Ghost
+|
+|t:|1757071716
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Blaziken|Blaziken, L50, F|100/100
+|switch|p1b: Excadrill|Excadrill, L50, F|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|turn|1
+|
+|t:|1757071731
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Blaziken|Will-O-Wisp|p2a: Pelipper
+|-status|p2a: Pelipper|brn
+|move|p1b: Excadrill|High Horsepower|p2a: Pelipper
+|-immune|p2a: Pelipper
+|move|p2b: Archaludon|Draco Meteor|p1a: Blaziken
+|-damage|p1a: Blaziken|18/100
+|-unboost|p2b: Archaludon|spa|2
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Pelipper|95/100 brn|[from] brn
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|2
+|
+|t:|1757071753
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-terastallize|p1b: Excadrill|Ghost
+|move|p1a: Blaziken|Coaching|p1b: Excadrill
+|-boost|p1b: Excadrill|atk|1
+|-boost|p1b: Excadrill|def|1
+|move|p1b: Excadrill|Rock Slide|p2a: Pelipper|[spread] p2b
+|-miss|p1b: Excadrill|p2a: Pelipper
+|-damage|p2b: Rillaboom|67/100
+|move|p2a: Pelipper|Weather Ball|p1a: Blaziken
+|-supereffective|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Rillaboom|73/100|[from] Grassy Terrain
+|-damage|p2a: Pelipper|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1757071767
+|switch|p1a: Salamence|Salamence, L50, F|100/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Pelipper|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|turn|3
+|
+|t:|1757071779
+|move|p2b: Rillaboom|Fake Out|p1a: Salamence
+|-damage|p1a: Salamence|88/100
+|cant|p1a: Salamence|flinch
+|move|p1b: Excadrill|Rock Slide|p2a: Pelipper|[spread] p2a,p2b
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|-damage|p2b: Rillaboom|39/100
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Rillaboom|45/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757071790
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|turn|4
+|
+|t:|1757071799
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p1b: Excadrill|High Horsepower|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|move|p2b: Rillaboom|Bullet Seed|p1b: Excadrill
+|-damage|p1b: Excadrill|89/100
+|-crit|p1b: Excadrill
+|-damage|p1b: Excadrill|50/100
+|-damage|p1b: Excadrill|38/100
+|-damage|p1b: Excadrill|26/100
+|-hitcount|p1b: Excadrill|4
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Rillaboom|39/100|[from] Sandstorm
+|-heal|p1b: Excadrill|32/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|45/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757071814
+|switch|p2a: Archaludon|Archaludon, L50, F|100/100
+|turn|5
+|
+|t:|1757071826
+|switch|p1a: Salamence|Salamence, L50, F|88/100
+|-ability|p1a: Salamence|Intimidate|boost
+|-unboost|p2a: Archaludon|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|move|p1b: Excadrill|Iron Head|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|move|p2a: Archaludon|Body Press|p1a: Salamence
+|-resisted|p1a: Salamence
+|-damage|p1a: Salamence|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Salamence|67/100|[from] Sandstorm
+|-heal|p1b: Excadrill|38/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|-message|NerdConsultant forfeited.
+|
+|win|sandy ghost 5
+|raw|sandy ghost 5's rating: 1251 → 1274(+23 for winning)
+|raw|NerdConsultant's rating: 1221 → 1198(-23 for losing)
+|l|☆NerdConsultant
+|player|p2|

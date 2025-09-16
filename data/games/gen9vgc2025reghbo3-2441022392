@@ -1,0 +1,166 @@
+|j|☆Sizzle2466
+|j|☆ArielsHusband
+|html|Sizzle2466ArielsHusband    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1757788163
+|gametype|doubles
+|player|p1|Sizzle2466|2|1062
+|player|p2|ArielsHusband|2|1139
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Galvantula, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Palafin, L50, F|
+|poke|p1|Flamigo, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Galvantula||AssaultVest|CompoundEyes|Electroweb,BugBuzz,Thunderbolt,VoltSwitch|||F|||50|,,,,,Electric]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Amoonguss||CovertCloak|Regenerator|Spore,RagePowder,SludgeBomb,PollenPuff|||F|||50|,,,,,Ghost]Gholdengo||SitrusBerry|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water]Palafin||MysticWater|ZerotoHero|JetPunch,WaveCrash,Protect,FlipTurn|||F|||50|,,,,,Water]Flamigo||LifeOrb|Scrappy|BraveBird,CloseCombat,Detect,Tailwind|||F|||50|,,,,,Stellar
+|showteam|p2|Hatterene||LifeOrb|MagicBounce|TrickRoom,DazzlingGleam,ExpandingForce,Protect|||F|||50|,,,,,Psychic]Ursaluna||FlameOrb|Guts|Facade,Protect,HeadlongRush,HighHorsepower|||F|||50|,,,,,Ghost]Torkoal||Charcoal|Drought|Eruption,Protect,HelpingHand,Overheat|||M|||50|,,,,,Grass]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,DazzlingGleam,HelpingHand,TrickRoom|||F|||50|,,,,,Fairy]Armarouge||PowerHerb|FlashFire|ExpandingForce,ArmorCannon,TrickRoom,MeteorBeam|||M|||50|,,,,,Grass]Lilligant-Hisui||FocusSash|Chlorophyll|CloseCombat,AfterYou,SleepPowder,SolarBlade|||F|||50|,,,,,Ghost
+|
+|t:|1757788175
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Hatterene|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757788201
+|-terastallize|p1a: Amoonguss|Ghost
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Incineroar|Parting Shot|p2a: Indeedee
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2a: Indeedee|spa|1
+|
+|t:|1757788208
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100|[from] Parting Shot
+|move|p1a: Amoonguss|Spore|p2a: Indeedee
+|-status|p2a: Indeedee|slp|[from] move: Spore
+|move|p2b: Hatterene|Trick Room|p2b: Hatterene
+|-fieldstart|move: Trick Room|[of] p2b: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1757788221
+|switch|p2a: Ursaluna|Ursaluna, L50, F, shiny|100/100
+|-terastallize|p2b: Hatterene|Psychic
+|move|p2b: Hatterene|Expanding Force|p1a: Amoonguss|[spread] p1a,p1b
+|-resisted|p1b: Gholdengo
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p1b: Gholdengo|42/100
+|-enditem|p1b: Gholdengo|Sitrus Berry|[eat]
+|-heal|p1b: Gholdengo|67/100|[from] item: Sitrus Berry
+|faint|p1a: Amoonguss
+|-damage|p2b: Hatterene|91/100|[from] item: Life Orb
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757788235
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2b: Hatterene|atk|1
+|turn|3
+|
+|t:|1757788252
+|move|p2b: Hatterene|Expanding Force|p1b: Gholdengo|[spread] p1b
+|-immune|p1a: Incineroar
+|-resisted|p1b: Gholdengo
+|-damage|p1b: Gholdengo|13/100
+|-damage|p2b: Hatterene|81/100|[from] item: Life Orb
+|move|p2a: Ursaluna|Headlong Rush|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Incineroar
+|move|p1b: Gholdengo|Make It Rain|p2b: Hatterene|[spread] p2a,p2b
+|-damage|p2a: Ursaluna|0 fnt
+|-damage|p2b: Hatterene|0 fnt
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2a: Ursaluna
+|faint|p2b: Hatterene
+|
+|upkeep
+|
+|t:|1757788268
+|switch|p2b: Armarouge|Armarouge, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100 slp
+|switch|p1a: Palafin|Palafin, L50, F|100/100
+|turn|4
+|
+|t:|1757788278
+|move|p1b: Gholdengo|Protect|p1b: Gholdengo
+|-singleturn|p1b: Gholdengo|Protect
+|cant|p2a: Indeedee|slp
+|move|p2b: Armarouge|Expanding Force|p1b: Gholdengo|[spread] p1a
+|-activate|p1b: Gholdengo|move: Protect
+|-damage|p1a: Palafin|30/100
+|move|p1a: Palafin|Wave Crash|p2b: Armarouge
+|-supereffective|p2b: Armarouge
+|-damage|p2b: Armarouge|18/100
+|-damage|p1a: Palafin|5/100|[from] Recoil
+|
+|upkeep
+|turn|5
+|
+|t:|1757788292
+|move|p1a: Palafin|Protect|p1a: Palafin
+|-singleturn|p1a: Palafin|Protect
+|-curestatus|p2a: Indeedee|slp|[msg]
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Armarouge|Expanding Force|p1b: Gholdengo|[spread] p1b
+|-activate|p1a: Palafin|move: Protect
+|-resisted|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1757788307
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Palafin|Jet Punch|p2a: Indeedee
+|-damage|p2a: Indeedee|71/100
+|move|p2b: Armarouge|Armor Cannon|p1a: Palafin
+|-resisted|p1a: Palafin
+|-damage|p1a: Palafin|0 fnt
+|-unboost|p2b: Armarouge|def|1
+|-unboost|p2b: Armarouge|spd|1
+|faint|p1a: Palafin
+|
+|win|ArielsHusband
+|raw|Sizzle2466's rating: 1062 → 1047(-15 for losing)
+|raw|ArielsHusband's rating: 1139 → 1159(+20 for winning)
+|c|☆Sizzle2466|ggs
+|c|☆ArielsHusband|Gg
+|l|☆ArielsHusband
+|player|p2|

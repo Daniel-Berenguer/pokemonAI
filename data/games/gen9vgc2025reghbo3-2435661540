@@ -1,0 +1,200 @@
+|j|☆Testbericht2
+|j|☆sandy ghost 5
+|html|Testbericht2sandy ghost 5    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1757074468
+|gametype|doubles
+|player|p1|Testbericht2|170|1324
+|player|p2|sandy ghost 5|baker|1306
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Maushold, L50|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Salamence, L50, M|
+|poke|p2|Blaziken, L50, M|
+|poke|p2|Bruxish, L50, F|
+|teampreview|4
+|showteam|p1|Maushold||WideLens|Technician|PopulationBomb,FollowMe,Taunt,Protect||||||50|,,,,,Ghost]Pelipper||FocusSash|Drizzle|Hurricane,MuddyWater,Tailwind,Protect|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|DragonPulse,ElectroShot,BodyPress,FlashCannon|||M|||50|,,,,,Bug]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom||||||50|,,,,,Dark]Basculegion||ChoiceBand|SwiftSwim|AquaJet,FlipTurn,LastRespects,WaveCrash|||M|||50|,,,,,Water
+|showteam|p2|Tyranitar||ClearAmulet|SandStream|RockSlide,KnockOff,DragonDance,Protect|||F|||50|,,,,,Grass]Excadrill||AssaultVest|SandRush|Earthquake,IronHead,HighHorsepower,RockSlide|||F|||50|,,,,,Ghost]Sinistcha-Masterpiece||SitrusBerry|Hospitality|ShadowBall,MatchaGotcha,RagePowder,Protect||||||50|,,,,,Dark]Salamence||LifeOrb|Intimidate|DracoMeteor,AirSlash,Protect,Tailwind|||M|||50|,,,,,Ghost]Blaziken||CovertCloak|SpeedBoost|AuraSphere,HeatWave,Coaching,WillOWisp|||M|||50|,,,,,Dragon]Bruxish||ChoiceScarf|Dazzling|PsychicFangs,FlipTurn,WaveCrash,SuperFang|||F|||50|,,,,,Water
+|
+|t:|1757074508
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Maushold|Maushold, L50|100/100
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100
+|switch|p2a: Salamence|Salamence, L50, M|100/100
+|switch|p2b: Excadrill|Excadrill, L50, F|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Maushold|atk|1
+|-unboost|p1b: Pelipper|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|turn|1
+|
+|t:|1757074534
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|move|p2b: Excadrill|Rock Slide|p1b: Archaludon|[spread] p1a,p1b
+|-resisted|p1b: Archaludon
+|-damage|p1a: Maushold|66/100
+|-damage|p1b: Archaludon|94/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|cant|p1a: Maushold|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Maushold|60/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1757074572
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|switch|p2a: Puppet|Sinistcha-Masterpiece, L50|100/100
+|-terastallize|p2b: Excadrill|Ghost
+|move|p1a: Maushold|Protect|p1a: Maushold
+|-singleturn|p1a: Maushold|Protect
+|move|p2b: Excadrill|High Horsepower|p1a: Maushold
+|-activate|p1a: Maushold|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757074594
+|switch|p1b: Archaludon|Archaludon, L50, M|94/100
+|move|p1a: Maushold|Taunt|p2a: Puppet
+|-start|p2a: Puppet|move: Taunt
+|move|p2b: Excadrill|Rock Slide|p1a: Maushold|[spread] p1a,p1b
+|-resisted|p1b: Archaludon
+|-crit|p1b: Archaludon
+|-damage|p1a: Maushold|25/100
+|-damage|p1b: Archaludon|83/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p2a: Puppet|Shadow Ball|p1b: Archaludon
+|-damage|p1b: Archaludon|58/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1757074624
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Salamence|Salamence, L50, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Basculegion|atk|1
+|-unboost|p1b: Archaludon|atk|1
+|move|p2b: Excadrill|High Horsepower|p1a: Basculegion
+|-damage|p1a: Basculegion|32/100
+|move|p1b: Archaludon|Dragon Pulse|p2b: Excadrill
+|-damage|p2b: Excadrill|70/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757074674
+|switch|p2b: Puppet|Sinistcha-Masterpiece, L50|100/100
+|move|p1a: Basculegion|Last Respects|p2b: Puppet
+|-supereffective|p2b: Puppet
+|-damage|p2b: Puppet|49/100
+|-enditem|p2b: Puppet|Sitrus Berry|[eat]
+|-heal|p2b: Puppet|74/100|[from] item: Sitrus Berry
+|move|p2a: Salamence|Draco Meteor|p1b: Archaludon
+|-damage|p1b: Archaludon|5/100
+|-unboost|p2a: Salamence|spa|2
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|-damage|p2a: Salamence|91/100|[from] item: Life Orb
+|move|p1b: Archaludon|Body Press|p2a: Salamence
+|-resisted|p2a: Salamence
+|-damage|p2a: Salamence|53/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1757074709
+|switch|p1b: Maushold|Maushold, L50|25/100
+|move|p1a: Basculegion|Last Respects|p2b: Puppet
+|-supereffective|p2b: Puppet
+|-damage|p2b: Puppet|23/100
+|move|p2a: Salamence|Tailwind|p2a: Salamence
+|-sidestart|p2: sandy ghost 5|move: Tailwind
+|move|p2b: Puppet|Matcha Gotcha|p1b: Maushold|[spread] p1a,p1b
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|-heal|p2b: Puppet|42/100|[from] drain|[of] p1a: Basculegion
+|-damage|p1b: Maushold|0 fnt
+|-heal|p2b: Puppet|53/100|[from] drain|[of] p1b: Maushold
+|faint|p1a: Basculegion
+|faint|p1b: Maushold
+|
+|-weather|none
+|upkeep
+|
+|t:|1757074720
+|switch|p1b: Archaludon|Archaludon, L50, M|5/100
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|7
+|
+|t:|1757074735
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p2b: Puppet|Shadow Ball|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|faint|p1b: Archaludon
+|move|p1a: Pelipper|Muddy Water|p2b: Puppet|[spread] p2a,p2b
+|-supereffective|p2a: Tyranitar
+|-resisted|p2b: Puppet
+|-damage|p2a: Tyranitar|62/100
+|-damage|p2b: Puppet|39/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Puppet|33/100|[from] Sandstorm
+|-damage|p1a: Pelipper|95/100|[from] Sandstorm
+|upkeep
+|turn|8
+|c|☆sandy ghost 5|gg
+|
+|t:|1757074748
+|move|p1a: Pelipper|Protect|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Protect
+|move|p2a: Tyranitar|Rock Slide|p1a: Pelipper
+|-activate|p1a: Pelipper|move: Protect
+|move|p2b: Puppet|Shadow Ball|p1a: Pelipper
+|-activate|p1a: Pelipper|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Puppet|27/100|[from] Sandstorm
+|-damage|p1a: Pelipper|89/100|[from] Sandstorm
+|upkeep
+|turn|9
+|
+|t:|1757074761
+|move|p2a: Tyranitar|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|14/100
+|-enditem|p1a: Pelipper|Focus Sash|[from] move: Knock Off|[of] p2a: Tyranitar
+|move|p2b: Puppet|Shadow Ball|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|win|sandy ghost 5
+|raw|Testbericht2's rating: 1324 → 1303(-21 for losing)
+|raw|sandy ghost 5's rating: 1306 → 1327(+21 for winning)

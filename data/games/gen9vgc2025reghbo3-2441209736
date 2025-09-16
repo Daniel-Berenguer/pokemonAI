@@ -1,0 +1,190 @@
+|j|☆browe
+|j|☆Nacos
+|html|broweNacos    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757813408
+|gametype|doubles
+|player|p1|browe|shadowtriad|1107
+|player|p2|Nacos|2|1124
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|||F|||50|,,,,,Ghost]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,AquaJet,FlipTurn|||M|||50|,,,,,Grass]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,DazzlingGleam,ShadowBall,Trick|||M|||50|,,,,,Psychic]Amoonguss||SitrusBerry|Regenerator|PollenPuff,RagePowder,ClearSmog,Spore|||M|||50|,,,,,Psychic]Archaludon||AssaultVest|Stamina|DracoMeteor,FlashCannon,ElectroShot,BodyPress|||M|||50|,,,,,Bug
+|showteam|p2|Pelipper||FocusSash|Drizzle|Tailwind,Protect,WeatherBall,Hurricane|||F|||50|,,,,,Steel]Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,FlashCannon,BodyPress|||M|||50|,,,,,Grass]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,FlipTurn,AquaJet|||M|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,Taunt,PartingShot|||F|||50|,,,,,Water]Rillaboom||MiracleSeed|GrassySurge|FakeOut,GrassyGlide,Uturn,WoodHammer|||M|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Nacos)
+|
+|t:|1757813416
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|turn|1
+|
+|t:|1757813440
+|move|p2a: Incineroar|Fake Out|p1a: Sneasler
+|-damage|p1a: Sneasler|80/100
+|cant|p1a: Sneasler|flinch
+|move|p1b: Indeedee|Trick|p2a: Incineroar
+|-activate|p1b: Indeedee|move: Trick|[of] p2a: Incineroar
+|-item|p2a: Incineroar|Choice Scarf|[from] move: Trick
+|-item|p1b: Indeedee|Safety Goggles|[from] move: Trick
+|move|p2b: Rillaboom|U-turn|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|11/100
+|
+|t:|1757813448
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100|[from] U-turn
+|
+|-heal|p1a: Sneasler|86/100|[from] Grassy Terrain
+|-heal|p1b: Indeedee|17/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1757813462
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-terastallize|p2b: Archaludon|Grass
+|move|p1a: Sneasler|Close Combat|p2b: Archaludon
+|-damage|p2b: Archaludon|69/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p1b: Indeedee|Dazzling Gleam|p2a: Pelipper|[spread] p2a,p2b
+|-damage|p2a: Pelipper|67/100
+|-damage|p2b: Archaludon|51/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Indeedee|23/100|[from] Grassy Terrain
+|-heal|p2b: Archaludon|57/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757813470
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|turn|3
+|
+|t:|1757813485
+|move|p1b: Indeedee|Trick|p2b: Archaludon
+|-activate|p1b: Indeedee|move: Trick|[of] p2b: Archaludon
+|-item|p2b: Archaludon|Safety Goggles|[from] move: Trick
+|-item|p1b: Indeedee|Assault Vest|[from] move: Trick
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: Nacos|move: Tailwind
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Pelipper
+|-supereffective|p1a: Pelipper
+|-enditem|p1a: Pelipper|Focus Sash
+|-damage|p1a: Pelipper|1/100
+|move|p1a: Pelipper|Hurricane|p2b: Archaludon
+|-supereffective|p2b: Archaludon
+|-damage|p2b: Archaludon|0 fnt
+|faint|p2b: Archaludon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Indeedee|28/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757813491
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|turn|4
+|
+|t:|1757813508
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|move|p1a: Pelipper|Protect|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Protect
+|move|p2b: Rillaboom|Grassy Glide|p1b: Archaludon
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|93/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p2a: Pelipper|Weather Ball|p1a: Pelipper
+|-activate|p1a: Pelipper|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Archaludon|98/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1757813530
+|move|p2a: Pelipper|Weather Ball|p1b: Archaludon
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|78/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p2b: Rillaboom|U-turn|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|t:|1757813534
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100|[from] U-turn
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1b: Archaludon|atk|1
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Archaludon|84/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|l|☆Nacos
+|inactive|Nacos disconnected and has a minute to reconnect!
+|player|p2|
+|
+|t:|1757813546
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1a: Indeedee|Indeedee, L50, M|28/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|6
+|inactive|Nacos has 30 seconds left.
+|inactive|Nacos has 20 seconds left.
+|inactive|Nacos has 15 seconds left.
+|inactive|Nacos has 10 seconds left.
+|inactive|Nacos has 5 seconds left.
+|-message|Nacos lost due to inactivity.
+|
+|win|browe
+|raw|browe's rating: 1107 → 1133(+26 for winning)
+|raw|Nacos's rating: 1124 → 1098(-26 for losing)

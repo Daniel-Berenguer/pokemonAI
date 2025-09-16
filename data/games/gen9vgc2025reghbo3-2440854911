@@ -1,0 +1,173 @@
+|j|☆ladderal
+|j|☆loveforvgctest
+|html|ladderalloveforvgctest    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757768023
+|gametype|doubles
+|player|p1|ladderal|170|1127
+|player|p2|loveforvgctest|ghetsis|1204
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Talonflame, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Milotic, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Garchomp||BrightPowder|RoughSkin|Earthquake,DragonClaw,SwordsDance,Protect|||F|||50|,,,,,Steel]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||F|||50|,,,,,Flying]Talonflame||CovertCloak|GaleWings|DualWingbeat,Tailwind,WillOWisp,Taunt|||F|||50|,,,,,Grass]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Milotic||SafetyGoggles|Competitive|Scald,IceBeam,Haze,Protect|||F|||50|,,,,,Dragon]Amoonguss||SitrusBerry|Regenerator|PollenPuff,RagePowder,Spore,Protect|||M|||50|,,,,,Water
+|
+|t:|1757768073
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Porygon2|Porygon2, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Talonflame|Talonflame, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Gholdengo|atk|1
+|-unboost|p2b: Talonflame|atk|1
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|turn|1
+|
+|t:|1757768085
+|-terastallize|p2a: Gholdengo|Water
+|move|p2b: Talonflame|Taunt|p1a: Porygon2
+|-start|p1a: Porygon2|move: Taunt
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1b: Incineroar|Knock Off|p2a: Gholdengo
+|-crit|p2a: Gholdengo
+|-damage|p2a: Gholdengo|33/100
+|-enditem|p2a: Gholdengo|Metal Coat|[from] move: Knock Off|[of] p1b: Incineroar
+|cant|p1a: Porygon2|move: Taunt|Trick Room
+|
+|upkeep
+|turn|2
+|
+|t:|1757768113
+|switch|p2b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1b: Incineroar|Knock Off|p2b: Tyranitar
+|-resisted|p2b: Tyranitar
+|-damage|p2b: Tyranitar|83/100
+|-enditem|p2b: Tyranitar|Assault Vest|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p1a: Porygon2|Tera Blast|p2a: Gholdengo
+|-activate|p2a: Gholdengo|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Gholdengo|27/100|[from] Sandstorm
+|-damage|p1b: Incineroar|95/100|[from] Sandstorm
+|-damage|p1a: Porygon2|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1757768135
+|-terastallize|p1a: Porygon2|Fighting
+|move|p2a: Gholdengo|Make It Rain|p1a: Porygon2|[spread] p1a,p1b
+|-resisted|p1b: Incineroar
+|-damage|p1a: Porygon2|38/100
+|-damage|p1b: Incineroar|48/100
+|-unboost|p2a: Gholdengo|spa|1
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|72/100|[from] item: Sitrus Berry
+|move|p1b: Incineroar|Knock Off|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|move|p2b: Tyranitar|Rock Slide|p1a: Porygon2|[spread] p1a,p1b
+|-resisted|p1a: Porygon2
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Porygon2|27/100
+|-damage|p1b: Incineroar|13/100
+|move|p1a: Porygon2|Tera Blast|p2b: Tyranitar|[anim] Tera Blast Fighting
+|-supereffective|p2b: Tyranitar
+|-damage|p2b: Tyranitar|0 fnt
+|faint|p2b: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Incineroar|7/100|[from] Sandstorm
+|-damage|p1a: Porygon2|21/100|[from] Sandstorm
+|-end|p1a: Porygon2|move: Taunt
+|upkeep
+|
+|t:|1757768148
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|switch|p2b: Talonflame|Talonflame, L50, F|100/100
+|turn|4
+|
+|t:|1757768169
+|move|p2b: Talonflame|Dual Wingbeat|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|-hitcount|p1: Porygon2|1
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|move|p1b: Incineroar|Knock Off|p2b: Talonflame
+|-damage|p2b: Talonflame|32/100
+|-enditem|p2b: Talonflame|Covert Cloak|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Talonflame|26/100|[from] Sandstorm
+|-damage|p1b: Incineroar|1/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757768175
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|5
+|
+|t:|1757768187
+|move|p2b: Talonflame|Tailwind|p2b: Talonflame
+|-sidestart|p2: loveforvgctest|move: Tailwind
+|move|p2a: Garchomp|Earthquake|p1b: Incineroar|[spread] p1a,p1b
+|-immune|p2b: Talonflame
+|-supereffective|p1a: Torkoal
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Torkoal|0 fnt
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1a: Torkoal
+|faint|p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757768193
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|6
+|
+|t:|1757768212
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Talonflame|Dual Wingbeat|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|move|p2a: Garchomp|Dragon Claw|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|-message|ladderal forfeited.
+|
+|win|loveforvgctest
+||ladderal is ready for game 2.
+|l|☆ladderal
+|player|p1|
+||loveforvgctest is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

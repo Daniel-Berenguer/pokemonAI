@@ -1,0 +1,240 @@
+|j|☆test_0xp
+|j|☆avigolvgc
+|html|test_0xpavigolvgc    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757640005
+|gametype|doubles
+|player|p1|test_0xp|1|1174
+|player|p2|avigolvgc|265|1219
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Exeggutor-Alola, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Staraptor, L50, M|
+|poke|p2|Dragapult, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,DragonPulse|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|RagePowder,SunnyDay,Tailwind,SleepPowder|||M|||50|,,,,,Fire]Torkoal||EjectPack|Drought|Protect,Overheat,Eruption,HelpingHand|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Protect,Facade,Earthquake,HeadlongRush|||M|||50|,,,,,Ghost]Exeggutor-Alola||SitrusBerry|Harvest|Protect,TrickRoom,SleepPowder,GigaDrain|||M|||50|,,,,,Steel]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,FlareBlitz,KnockOff|||M|||50|,,,,,Flying
+|showteam|p2|Farigiraf||ThroatSpray|ArmorTail|PsychicNoise,HyperVoice,TrickRoom,Protect|||F|||50|,,,,,Fairy]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,Uturn,FakeOut|||M|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|KnockOff,PartingShot,Snarl,FakeOut|||M|||50|,,,,,Dragon]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Water]Staraptor||ChoiceScarf|Intimidate|CloseCombat,BraveBird,Uturn,FinalGambit|||M|||50|,,,,,Ghost]Dragapult||FocusSash|ClearBody|DragonDarts,PhantomForce,DragonTail,Protect|||F|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by avigolvgc)
+|inactive|test_0xp also wants the timer to be on.
+|inactive|test_0xp has 60 seconds left.
+|
+|t:|1757640056
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|switch|p2a: Samuel|Incineroar, L50, M, shiny|100/100
+|switch|p2b: Quirino|Ursaluna, L50, F|100/100
+|-ability|p2a: Samuel|Intimidate|boost
+|-unboost|p1a: Jumpluff|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|-enditem|p1b: Torkoal|Eject Pack
+|
+|t:|1757640071
+|switch|p1b: Charizard|Charizard, L50, M|100/100
+|turn|1
+|inactive|test_0xp has 30 seconds left.
+|inactive|test_0xp has 20 seconds left.
+|
+|t:|1757640108
+|-terastallize|p1b: Charizard|Ghost
+|move|p2b: Quirino|Protect|p2b: Quirino
+|-singleturn|p2b: Quirino|Protect
+|move|p1a: Jumpluff|Sleep Powder|p2b: Quirino
+|-activate|p2b: Quirino|move: Protect
+|move|p1b: Charizard|Heat Wave|p2a: Samuel|[spread] p2a
+|-activate|p2b: Quirino|move: Protect
+|-resisted|p2a: Samuel
+|-damage|p2a: Samuel|59/100
+|move|p2a: Samuel|Snarl|p1a: Jumpluff|[spread] p1a,p1b
+|-supereffective|p1b: Charizard
+|-damage|p1a: Jumpluff|91/100
+|-damage|p1b: Charizard|76/100
+|-unboost|p1b: Charizard|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|63/100|[from] ability: Solar Power|[of] p1b: Charizard
+|-status|p2b: Quirino|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|test_0xp has 30 seconds left.
+|inactive|test_0xp has 20 seconds left.
+|inactive|test_0xp has 15 seconds left.
+|inactive|test_0xp has 10 seconds left.
+|
+|t:|1757640154
+|-terastallize|p2b: Quirino|Water
+|move|p1a: Jumpluff|Tailwind|p1a: Jumpluff
+|-sidestart|p1: test_0xp|move: Tailwind
+|move|p1b: Charizard|Heat Wave|p2b: Quirino|[spread] p2a,p2b
+|-resisted|p2a: Samuel
+|-resisted|p2b: Quirino
+|-damage|p2a: Samuel|32/100
+|-damage|p2b: Quirino|70/100 brn
+|move|p2a: Samuel|Snarl|p1b: Charizard|[spread] p1b
+|-miss|p2a: Samuel|p1a: Jumpluff
+|-supereffective|p1b: Charizard
+|-damage|p1b: Charizard|39/100
+|-unboost|p1b: Charizard|spa|1
+|move|p2b: Quirino|Facade|p1a: Jumpluff
+|-damage|p1a: Jumpluff|0 fnt
+|faint|p1a: Jumpluff
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|26/100|[from] ability: Solar Power|[of] p1b: Charizard
+|-damage|p2b: Quirino|64/100 brn|[from] brn
+|upkeep
+|
+|t:|1757640177
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|3
+|
+|t:|1757640187
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|switch|p2a: Claudia|Farigiraf, L50, F, shiny|100/100
+|switch|p2b: Noroña|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Noroña
+|move|p1a: Ursaluna|Protect||[still]
+|-fail|p1a: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|inactive|test_0xp has 30 seconds left.
+|inactive|avigolvgc has 30 seconds left.
+|inactive|avigolvgc has 20 seconds left.
+|
+|t:|1757640223
+|switch|p1a: Charizard|Charizard, L50, M, tera:Ghost|26/100
+|switch|p2a: Samuel|Incineroar, L50, M, shiny|32/100
+|-ability|p2a: Samuel|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|move|p2b: Noroña|Grassy Glide|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|move|p1b: Torkoal|Eruption|p2b: Noroña|[spread] p2a,p2b
+|-resisted|p2a: Samuel
+|-supereffective|p2b: Noroña
+|-damage|p2a: Samuel|5/100
+|-damage|p2b: Noroña|0 fnt
+|faint|p2b: Noroña
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Samuel|11/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757640241
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100 brn
+|switch|p2b: Claudia|Farigiraf, L50, F, shiny|100/100
+|turn|5
+|inactive|test_0xp has 30 seconds left.
+|inactive|test_0xp has 20 seconds left.
+|inactive|test_0xp has 15 seconds left.
+|inactive|test_0xp has 10 seconds left.
+|
+|t:|1757640289
+|move|p2b: Claudia|Protect|p2b: Claudia
+|-singleturn|p2b: Claudia|Protect
+|move|p2a: Samuel|Fake Out|p1b: Torkoal
+|-damage|p1b: Torkoal|93/100
+|move|p1a: Ursaluna|Facade|p2b: Claudia
+|-activate|p2b: Claudia|move: Protect
+|cant|p1b: Torkoal|flinch
+|
+|-weather|none
+|-heal|p2a: Samuel|17/100|[from] Grassy Terrain
+|-heal|p1b: Torkoal|99/100|[from] Grassy Terrain
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|-sideend|p1: test_0xp|move: Tailwind
+|upkeep
+|turn|6
+|inactive|test_0xp has 30 seconds left.
+|inactive|avigolvgc has 30 seconds left.
+|inactive|test_0xp has 20 seconds left.
+|
+|t:|1757640327
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Claudia|Hyper Voice|p1a: Ursaluna|[spread] p1b
+|-activate|p1a: Ursaluna|move: Protect
+|-damage|p1b: Torkoal|57/100
+|-enditem|p2b: Claudia|Throat Spray
+|-boost|p2b: Claudia|spa|1|[from] item: Throat Spray
+|move|p2a: Samuel|Parting Shot|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|move|p1b: Torkoal|Overheat|p2a: Samuel|[miss]
+|-miss|p1b: Torkoal|p2a: Samuel
+|
+|-heal|p1a: Ursaluna|100/100 brn|[from] Grassy Terrain
+|-heal|p2a: Samuel|23/100|[from] Grassy Terrain
+|-heal|p1b: Torkoal|63/100|[from] Grassy Terrain
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|7
+|inactive|test_0xp has 30 seconds left.
+|
+|t:|1757640360
+|move|p1b: Torkoal|Protect|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Protect
+|move|p1a: Ursaluna|Facade|p2a: Samuel
+|-damage|p2a: Samuel|0 fnt
+|faint|p2a: Samuel
+|move|p2b: Claudia|Hyper Voice|p1a: Ursaluna|[spread] p1a
+|-activate|p1b: Torkoal|move: Protect
+|-damage|p1a: Ursaluna|48/100 brn
+|
+|-heal|p1a: Ursaluna|54/100 brn|[from] Grassy Terrain
+|-heal|p1b: Torkoal|69/100|[from] Grassy Terrain
+|-damage|p1a: Ursaluna|48/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1757640372
+|switch|p2a: Quirino|Ursaluna, L50, F, tera:Water|64/100 brn
+|turn|8
+|
+|t:|1757640387
+|move|p1b: Torkoal|Helping Hand|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Helping Hand|[of] p1b: Torkoal
+|move|p2b: Claudia|Protect|p2b: Claudia
+|-singleturn|p2b: Claudia|Protect
+|move|p1a: Ursaluna|Earthquake|p2a: Quirino|[spread] p1b,p2a
+|-activate|p2b: Claudia|move: Protect
+|-supereffective|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|-damage|p2a: Quirino|0 fnt
+|faint|p1b: Torkoal
+|faint|p2a: Quirino
+|
+|-damage|p1a: Ursaluna|43/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1757640399
+|move|p1a: Ursaluna|Facade|p2b: Claudia
+|-damage|p2b: Claudia|0 fnt
+|faint|p2b: Claudia
+|
+|win|test_0xp
+||avigolvgc is ready for game 2.
+||test_0xp is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆avigolvgc
+|player|p2|

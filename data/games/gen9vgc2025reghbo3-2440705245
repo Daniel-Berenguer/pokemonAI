@@ -1,0 +1,115 @@
+|j|☆sam smithy
+|j|☆takeshivgc-test
+|html|sam smithytakeshivgc-test    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757739690
+|gametype|doubles
+|player|p1|sam smithy|silver|1286
+|player|p2|takeshivgc-test|sabrina|1182
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Murkrow, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Hatterene, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,DragonPulse,ScorchingSands,Overheat|||M|||50|,,,,,Fire]Murkrow||Eviolite|Prankster|FoulPlay,SunnyDay,Haze,Tailwind|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Rillaboom||MiracleSeed|GrassySurge|WoodHammer,GrassyGlide,FakeOut,HighHorsepower|||M|||50|,,,,,Grass]Sneasler||GrassySeed|Unburden|Acrobatics,DireClaw,CloseCombat,Protect|||M|||50|,,,,,Flying]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,Protect,HyperVoice,EarthPower|||M|||50|,,,,,Normal
+|showteam|p2|Armarouge||PowerHerb|FlashFire|ArmorCannon,ExpandingForce,TrickRoom,MeteorBeam|||F|||50|,,,,,Grass]Indeedee-F||PsychicSeed|PsychicSurge|DazzlingGleam,HelpingHand,TrickRoom,FollowMe|||F|||50|,,,,,Fairy]Torkoal||EjectPack|Drought|Eruption,Protect,WeatherBall,ClearSmog|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,MysticalFire|||F|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sam smithy)
+|
+|t:|1757739737
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: TED|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1b: AC/DC|Murkrow, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Armarouge|Armarouge, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757739756
+|-terastallize|p1a: TED|Normal
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: AC/DC|Foul Play|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|72/100
+|move|p1a: TED|Hyper Voice|p2b: Armarouge|[spread] p2a,p2b
+|-damage|p2a: Indeedee|28/100
+|-damage|p2b: Armarouge|24/100
+|-damage|p1a: TED|91/100|[from] item: Life Orb
+|move|p2b: Armarouge|Trick Room|p2b: Armarouge
+|-fieldstart|move: Trick Room|[of] p2b: Armarouge
+|
+|upkeep
+|turn|2
+|
+|t:|1757739771
+|switch|p1b: Jerry Rivera|Rillaboom, L50, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Jerry Rivera
+|move|p2a: Indeedee|Helping Hand|p2b: Armarouge
+|-singleturn|p2b: Armarouge|Helping Hand|[of] p2a: Indeedee
+|move|p1a: TED|Hyper Voice|p2a: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Armarouge|0 fnt
+|faint|p2a: Indeedee
+|faint|p2b: Armarouge
+|-damage|p1a: TED|81/100|[from] item: Life Orb
+|
+|-heal|p1a: TED|87/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757739784
+|switch|p2a: Gallade|Gallade, L50, M, shiny|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F, shiny|100/100
+|turn|3
+|
+|t:|1757739803
+|-terastallize|p2b: Hatterene|Fire
+|move|p1b: Jerry Rivera|Grassy Glide|p2a: Gallade
+|-damage|p2a: Gallade|40/100
+|move|p2b: Hatterene|Mystical Fire|p1b: Jerry Rivera
+|-supereffective|p1b: Jerry Rivera
+|-damage|p1b: Jerry Rivera|0 fnt
+|faint|p1b: Jerry Rivera
+|-damage|p2b: Hatterene|91/100|[from] item: Life Orb
+|move|p1a: TED|Blood Moon|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|-damage|p1a: TED|77/100|[from] item: Life Orb
+|
+|-heal|p2b: Hatterene|97/100|[from] Grassy Terrain
+|-heal|p1a: TED|83/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757739816
+|switch|p1b: Spiderman|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Spiderman
+|turn|4
+|-message|takeshivgc-test forfeited.
+|
+|win|sam smithy
+|l|☆sam smithy
+|player|p1|
+|inactive|sam smithy has 30 seconds to confirm battle start!
+|inactive|takeshivgc-test has 30 seconds to confirm battle start!
+||sam smithy is ready for game 2.
+||takeshivgc-test is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆takeshivgc-test
+|player|p2|

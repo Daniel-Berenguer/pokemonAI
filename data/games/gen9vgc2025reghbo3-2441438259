@@ -1,0 +1,134 @@
+|j|☆fussy1234
+|j|☆Govek314
+|html|fussy1234Govek314    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757852458
+|gametype|doubles
+|player|p1|fussy1234|101|1138
+|player|p2|Govek314|102|1156
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Maushold-Four, L50|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Kommo-o, L50, M|
+|teampreview|4
+|showteam|p1|Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy]Maushold-Four||SafetyGoggles|FriendGuard|Taunt,BeatUp,FollowMe,Protect||||||50|,,,,,Ghost]Annihilape||Leftovers|Defiant|BulkUp,DrainPunch,RageFist,Protect|||M|||50|,,,,,Fire]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||F|||50|,,,,,Fire]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,Thunderbolt,Trick||||||50|,,,,,Steel]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Substitute,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Volcarona||Leftovers|FlameBody|Flamethrower,GigaDrain,QuiverDance,Protect|||M|||50|,,,,,Dragon]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||F|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|IronHead,HighHorsepower,TeraBlast,Protect|||F|||50|,,,,,Grass]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,TeraBlast|||M|||50|,,,,,Fairy]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,Psychic,FollowMe,HelpingHand|||F|||50|,,,,,Grass]Kommo-o||ThroatSpray|Overcoat|ClangingScales,ClangorousSoul,AuraSphere,Protect|||M|||50|,,,,,Steel
+|
+|t:|1757852492
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Maushold|Maushold-Four, L50|100/100
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|switch|p2a: Alice|Indeedee-F, L50, F|100/100
+|switch|p2b: Kommo-o|Kommo-o, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Alice
+|-enditem|p2a: Alice|Psychic Seed
+|-boost|p2a: Alice|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757852508
+|move|p2a: Alice|Follow Me|p2a: Alice
+|-singleturn|p2a: Alice|move: Follow Me
+|move|p1a: Maushold|Taunt|p2a: Alice
+|-start|p2a: Alice|move: Taunt
+|move|p2b: Kommo-o|Clangorous Soul|p2b: Kommo-o
+|-boost|p2b: Kommo-o|atk|1
+|-boost|p2b: Kommo-o|def|1
+|-boost|p2b: Kommo-o|spa|1
+|-boost|p2b: Kommo-o|spd|1
+|-boost|p2b: Kommo-o|spe|1
+|-damage|p2b: Kommo-o|68/100
+|-enditem|p2b: Kommo-o|Throat Spray
+|-boost|p2b: Kommo-o|spa|1|[from] item: Throat Spray
+|move|p1b: Annihilape|Bulk Up|p1b: Annihilape
+|-boost|p1b: Annihilape|atk|1
+|-boost|p1b: Annihilape|def|1
+|
+|upkeep
+|turn|2
+|
+|t:|1757852562
+|move|p2b: Kommo-o|Protect|p2b: Kommo-o
+|-singleturn|p2b: Kommo-o|Protect
+|move|p1a: Maushold|Beat Up|p1b: Annihilape
+|-damage|p1b: Annihilape|99/100
+|-damage|p1b: Annihilape|98/100
+|-crit|p1b: Annihilape
+|-damage|p1b: Annihilape|95/100
+|-damage|p1b: Annihilape|94/100
+|-hitcount|p1b: Annihilape|4
+|move|p1b: Annihilape|Rage Fist|p2b: Kommo-o
+|-activate|p2b: Kommo-o|move: Protect
+|move|p2a: Alice|Psychic|p1b: Annihilape
+|-supereffective|p1b: Annihilape
+|-damage|p1b: Annihilape|44/100
+|
+|-heal|p1b: Annihilape|50/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1757852584
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p1b: Annihilape|Protect|p1b: Annihilape
+|-singleturn|p1b: Annihilape|Protect
+|move|p2b: Kommo-o|Clanging Scales|p1b: Annihilape|[spread] p1a
+|-activate|p1b: Annihilape|move: Protect
+|-damage|p1a: Rillaboom|48/100
+|-unboost|p2b: Kommo-o|def|1
+|move|p2a: Alice|Psychic|p1a: Rillaboom
+|-damage|p1a: Rillaboom|29/100
+|
+|-heal|p2b: Kommo-o|74/100|[from] Grassy Terrain
+|-heal|p1b: Annihilape|56/100|[from] Grassy Terrain
+|-heal|p1b: Annihilape|62/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|35/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1757852615
+|move|p2b: Kommo-o|Protect|p2b: Kommo-o
+|-singleturn|p2b: Kommo-o|Protect
+|move|p1a: Rillaboom|Fake Out|p2b: Kommo-o
+|-activate|p2b: Kommo-o|move: Protect
+|move|p1b: Annihilape|Drain Punch|p2b: Kommo-o
+|-activate|p2b: Kommo-o|move: Protect
+|move|p2a: Alice|Psychic|p1b: Annihilape
+|-supereffective|p1b: Annihilape
+|-damage|p1b: Annihilape|17/100
+|
+|-heal|p2b: Kommo-o|79/100|[from] Grassy Terrain
+|-heal|p1b: Annihilape|23/100|[from] Grassy Terrain
+|-heal|p1b: Annihilape|29/100|[from] item: Leftovers
+|-heal|p1a: Rillaboom|41/100|[from] Grassy Terrain
+|-end|p2a: Alice|move: Taunt
+|upkeep
+|turn|5
+|l|☆fussy1234
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Govek314)
+|inactive|fussy1234 has 30 seconds to reconnect!
+|inactive|fussy1234 has 20 seconds to reconnect!
+|inactive|fussy1234 has 15 seconds to reconnect!
+|inactive|fussy1234 has 10 seconds to reconnect!
+|inactive|fussy1234 has 5 seconds to reconnect!
+|-message|fussy1234 lost due to inactivity.
+|
+|win|Govek314
+|raw|fussy1234's rating: 1138 → 1114(-24 for losing)
+|raw|Govek314's rating: 1156 → 1180(+24 for winning)

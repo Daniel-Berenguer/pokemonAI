@@ -1,0 +1,147 @@
+|j|☆tr2koblin
+|j|☆itzlenaluv
+|html|tr2koblinitzlenaluv    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757667795
+|gametype|doubles
+|player|p1|tr2koblin|lucas|1050
+|player|p2|itzlenaluv|170|1049
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Drifblim, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Decidueye-Hisui, L50, M|
+|poke|p1|Gardevoir, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Corviknight, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Corviknight, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|showteam|p1|Drifblim||PsychicSeed|Unburden|Acrobatics,Tailwind,WillOWisp,SunnyDay|||M|||50|,,,,,Grass]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,Imprison,TrickRoom|||M|||50|,,,,,Ground]Decidueye-Hisui||ScopeLens|Scrappy|Protect,LeafBlade,TripleArrows,Haze|||M|||50|,,,,,Fire]Gardevoir||ChoiceScarf|Telepathy|ExpandingForce,DazzlingGleam,Moonblast,Trick|||F|||50|,,,,,Psychic]Garchomp||LifeOrb|RoughSkin|Protect,Earthquake,StompingTantrum,DragonClaw|||M|||50|,,,,,Ground]Corviknight||LumBerry|MirrorArmor|BraveBird,BodyPress,BulkUp,Roost|||M|||50|,,,,,Dragon
+|showteam|p2|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|RockSlide,HighHorsepower,IronHead,Protect|||M|||50|,,,,,Stellar]Corviknight||SafetyGoggles|MirrorArmor|BulkUp,BraveBird,Tailwind,Roost|||F|||50|,,,,,Dragon]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Protect,Trick|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|ThroatChop,CloseCombat,DireClaw,Protect|||M|||50|,,,,,Dark]Amoonguss||SitrusBerry|Regenerator|PollenPuff,RagePowder,Spore,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1757667873
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Stitch|Drifblim, L50, M, shiny|100/100
+|switch|p1b: Alfred|Indeedee, L50, M, shiny|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|-enditem|p1a: Stitch|Psychic Seed
+|-boost|p1a: Stitch|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757667909
+|switch|p1b: Gardevoir|Gardevoir, L50, F, shiny|100/100
+|-terastallize|p2b: Sneasler|Dark
+|-terastallize|p1a: Stitch|Grass
+|move|p2b: Sneasler|Throat Chop|p1a: Stitch
+|-damage|p1a: Stitch|43/100
+|-start|p1a: Stitch|Throat Chop|[silent]
+|move|p1a: Stitch|Tailwind|p1a: Stitch
+|-sidestart|p1: tr2koblin|move: Tailwind
+|move|p2a: Indeedee|Trick|p1a: Stitch
+|-activate|p2a: Indeedee|move: Trick|[of] p1a: Stitch
+|-item|p1a: Stitch|Choice Scarf|[from] move: Trick
+|-enditem|p2a: Indeedee|Choice Scarf|[silent]|[from] move: Trick
+|
+|upkeep
+|turn|2
+|
+|t:|1757667958
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1b: Gardevoir|Moonblast|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Protect
+|move|p1a: Stitch|Acrobatics|p2a: Indeedee
+|-damage|p2a: Indeedee|54/100
+|move|p2a: Indeedee|Trick|p1b: Gardevoir
+|-activate|p2a: Indeedee|move: Trick|[of] p1b: Gardevoir
+|-enditem|p1b: Gardevoir|Choice Scarf|[silent]|[from] move: Trick
+|-item|p2a: Indeedee|Choice Scarf|[from] move: Trick
+|
+|-end|p1a: Stitch|Throat Chop|[silent]
+|upkeep
+|turn|3
+|
+|t:|1757667996
+|move|p1a: Stitch|Acrobatics|p2b: Sneasler
+|-damage|p2b: Sneasler|65/100
+|move|p2b: Sneasler|Dire Claw|p1b: Gardevoir
+|-supereffective|p1b: Gardevoir
+|-damage|p1b: Gardevoir|0 fnt
+|faint|p1b: Gardevoir
+|move|p2a: Indeedee|Expanding Force|p1a: Stitch
+|-damage|p1a: Stitch|0 fnt
+|faint|p1a: Stitch
+|
+|upkeep
+|
+|t:|1757668004
+|switch|p1b: Alfred|Indeedee, L50, M, shiny|100/100
+|switch|p1a: Corviknight|Corviknight, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1757668030
+|move|p2b: Sneasler|Dire Claw|p1b: Alfred
+|-damage|p1b: Alfred|7/100
+|-status|p1b: Alfred|slp
+|cant|p1b: Alfred|slp
+|move|p2a: Indeedee|Expanding Force|p1b: Alfred|[spread] p1a,p1b
+|-resisted|p1a: Corviknight
+|-resisted|p1b: Alfred
+|-damage|p1a: Corviknight|78/100
+|-damage|p1b: Alfred|0 fnt
+|faint|p1b: Alfred
+|move|p1a: Corviknight|Bulk Up|p1a: Corviknight
+|-boost|p1a: Corviknight|atk|1
+|-boost|p1a: Corviknight|def|1
+|
+|-sideend|p1: tr2koblin|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1757668038
+|move|p2b: Sneasler|Close Combat|p1a: Corviknight
+|-damage|p1a: Corviknight|48/100
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|move|p2a: Indeedee|Expanding Force|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|17/100
+|move|p1a: Corviknight|Body Press|p2b: Sneasler
+|-supereffective|p2b: Sneasler
+|-crit|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1757668043
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|turn|6
+|
+|t:|1757668052
+|move|p2a: Indeedee|Expanding Force|p1a: Corviknight
+|-resisted|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|win|itzlenaluv
+|c|☆itzlenaluv|gg
+||tr2koblin is ready for game 2.
+||itzlenaluv is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

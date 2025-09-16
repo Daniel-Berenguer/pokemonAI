@@ -1,0 +1,121 @@
+|j|☆aqueousbloop
+|j|☆Xeb41
+|html|aqueousbloopXeb41    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1757229342
+|gametype|doubles
+|player|p1|aqueousbloop|swimmer-gen4dp|
+|player|p2|Xeb41|2|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Lurantis, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Greninja-*, L50, F|
+|teampreview|4
+|showteam|p1|Sneasler||SafetyGoggles|PoisonTouch|ThroatChop,CloseCombat,DireClaw,FakeOut|||F|||50|,,,,,Dark]Basculegion||ChoiceBand|SwiftSwim|FlipTurn,WaveCrash,LastRespects,AquaJet|||M|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,WideGuard,Protect|||M|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,HelpingHand,Psychic|||F|||50|,,,,,Fairy]Lurantis||AssaultVest|Contrary|Superpower,LeafBlade,KnockOff,LeechLife|||F|||50|,,,,,Poison]Hatterene||LifeOrb|MagicBounce|TrickRoom,ExpandingForce,DazzlingGleam,Protect|||F|||50|,,,,,Psychic
+|showteam|p2|Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||M|||50|,,,,,Fire]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|||F|||50|,,,,,Steel]Basculegion||ChoiceBand|SwiftSwim|AquaJet,LastRespects,FlipTurn,WaveCrash|||M|||50|,,,,,Water]Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,FlashCannon,BodyPress|||M|||50|,,,,,Bug]Greninja||LoadedDice|Torrent|DarkPulse,WaterShuriken,Taunt,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1757229410
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757229452
+|-terastallize|p2a: Basculegion|Water
+|move|p1a: Sneasler|Fake Out|p2b: Pelipper
+|-hint|Psychic Terrain doesn't affect Pokémon immune to Ground.
+|-damage|p2b: Pelipper|78/100
+|move|p2a: Basculegion|Wave Crash|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|-damage|p2a: Basculegion|71/100|[from] Recoil
+|cant|p2b: Pelipper|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757229467
+|switch|p1b: Lurantis|Lurantis, L50, F|100/100
+|turn|2
+|
+|t:|1757229488
+|move|p2a: Basculegion|Wave Crash|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|-damage|p2a: Basculegion|45/100|[from] Recoil
+|move|p2b: Pelipper|Hurricane|p1b: Lurantis
+|-supereffective|p1b: Lurantis
+|-damage|p1b: Lurantis|25/100
+|move|p1b: Lurantis|Leaf Blade|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757229505
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|turn|3
+|
+|t:|1757229529
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Hatterene
+|-damage|p1a: Hatterene|40/100
+|move|p2b: Pelipper|Hurricane|p1b: Lurantis
+|-supereffective|p1b: Lurantis
+|-damage|p1b: Lurantis|0 fnt
+|faint|p1b: Lurantis
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1757229554
+|-terastallize|p1a: Hatterene|Psychic
+|move|p1a: Hatterene|Expanding Force|p2b: Pelipper|[spread] p2a,p2b
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|56/100
+|-damage|p2b: Pelipper|0 fnt
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|faint|p2b: Pelipper
+|-damage|p1a: Hatterene|30/100|[from] item: Life Orb
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|win|Xeb41
+|c|☆Xeb41|ggs
+|c|☆aqueousbloop|Ggs
+|l|☆aqueousbloop
+|player|p1|

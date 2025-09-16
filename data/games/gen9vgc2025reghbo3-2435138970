@@ -1,0 +1,220 @@
+|j|☆dreckige_pizza
+|j|☆chrispygreens
+|html|dreckige_pizzachrispygreens    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757003026
+|gametype|doubles
+|player|p1|dreckige_pizza|102|1000
+|player|p2|chrispygreens|palmer|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Primarina, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Metagross, L50|
+|poke|p1|Duraludon, L50, F|
+|poke|p1|Bronzong, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Pelipper, L50, F|
+|teampreview|4
+|showteam|p1|Primarina||ThroatSpray|LiquidVoice|HyperVoice,DazzlingGleam,CalmMind,Protect|||F|||50|,,,,,Water]Grimmsnarl||LightClay|Prankster|FakeOut,PartingShot,LightScreen,Reflect|||M|||50|,,,,,Dark]Hatterene||Leftovers|MagicBounce|DazzlingGleam,ExpandingForce,CalmMind,TrickRoom|||F|||50|,,,,,Psychic]Metagross||LifeOrb|ClearBody|PsychicFangs,MeteorMash,HoneClaws,Protect||||||50|,,,,,Steel]Duraludon||Eviolite|HeavyMetal|MetalSound,StealthRock,HeavySlam,Roar|||F|||50|,,,,,Flying]Bronzong||CovertCloak|Levitate|RockSlide,TrickRoom,MetalSound,Protect||||||50|,,,,,Steel
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|FlareBlitz,FakeOut,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Amoonguss||Leftovers|Regenerator|Spore,SludgeBomb,RagePowder,Protect|||M|||50|,,,,,Dark]Archaludon||AssaultVest|Stamina|ElectroShot,DragonPulse,BodyPress,FlashCannon|||M|||50|,,,,,Fighting]Grimmsnarl||LightClay|Prankster|LightScreen,Reflect,SpiritBreak,Taunt|||M|||50|,,,,,Poison]Annihilape||LifeOrb|VitalSpirit|DrainPunch,IcePunch,RageFist,Protect|||M|||50|,,,,,Steel]Pelipper||FocusSash|Drizzle|Hurricane,MuddyWater,Tailwind,Protect|||F|||50|,,,,,Ground
+|
+|t:|1757003058
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Hatterene|atk|1
+|-unboost|p1b: Grimmsnarl|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by chrispygreens)
+|
+|t:|1757003083
+|move|p2a: Incineroar|Fake Out|p1a: Hatterene
+|-damage|p1a: Hatterene|85/100
+|move|p1b: Grimmsnarl|Reflect|p1b: Grimmsnarl
+|-sidestart|p1: dreckige_pizza|Reflect
+|move|p2b: Amoonguss|Sludge Bomb|p1b: Grimmsnarl
+|-supereffective|p1b: Grimmsnarl
+|-crit|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|13/100
+|cant|p1a: Hatterene|flinch
+|
+|-heal|p1a: Hatterene|91/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1757003101
+|move|p1b: Grimmsnarl|Parting Shot|p2b: Amoonguss
+|-unboost|p2b: Amoonguss|atk|1
+|-unboost|p2b: Amoonguss|spa|1
+|
+|t:|1757003112
+|switch|p1b: Primarina|Primarina, L50, F|100/100|[from] Parting Shot
+|move|p2a: Incineroar|Knock Off|p1a: Hatterene
+|-damage|p1a: Hatterene|49/100
+|-enditem|p1a: Hatterene|Leftovers|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p2b: Amoonguss|Sludge Bomb|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|8/100
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|upkeep
+|turn|3
+|
+|t:|1757003131
+|-terastallize|p1b: Primarina|Water
+|move|p1a: Hatterene|Expanding Force|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|35/100
+|move|p2b: Amoonguss|Spore|p1b: Primarina
+|-status|p1b: Primarina|slp|[from] move: Spore
+|cant|p1b: Primarina|slp
+|move|p2a: Incineroar|Parting Shot|p1b: Primarina
+|-unboost|p1b: Primarina|atk|1
+|-unboost|p1b: Primarina|spa|1
+|
+|t:|1757003144
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Amoonguss|41/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1757003156
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Hatterene|atk|1
+|-unboost|p1b: Primarina|atk|1
+|switch|p1b: Metagross|Metagross, L50|100/100
+|move|p1a: Hatterene|Expanding Force|p2b: Incineroar
+|-immune|p2b: Incineroar
+|move|p2a: Pelipper|Muddy Water|p1b: Metagross|[spread] p1a,p1b
+|-damage|p1a: Hatterene|0 fnt
+|-damage|p1b: Metagross|69/100
+|faint|p1a: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757003170
+|switch|p1a: Primarina|Primarina, L50, F, tera:Water|100/100 slp
+|turn|5
+|
+|t:|1757003179
+|-curestatus|p1a: Primarina|slp|[msg]
+|move|p1a: Primarina|Hyper Voice|p2a: Pelipper|[spread] p2a,p2b
+|-resisted|p2a: Pelipper
+|-supereffective|p2b: Incineroar
+|-damage|p2a: Pelipper|45/100
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|-enditem|p1a: Primarina|Throat Spray
+|-boost|p1a: Primarina|spa|1|[from] item: Throat Spray
+|move|p1b: Metagross|Hone Claws|p1b: Metagross
+|-boost|p1b: Metagross|atk|1
+|-boost|p1b: Metagross|accuracy|1
+|move|p2a: Pelipper|Hurricane|p1a: Primarina
+|-damage|p1a: Primarina|68/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757003192
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100
+|turn|6
+|
+|t:|1757003201
+|move|p2a: Pelipper|Protect|p2a: Pelipper
+|-singleturn|p2a: Pelipper|Protect
+|move|p1a: Primarina|Hyper Voice|p2b: Archaludon|[spread] p2b
+|-activate|p2a: Pelipper|move: Protect
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|46/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p1b: Metagross|Psychic Fangs|p2b: Archaludon
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|15/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|-damage|p1b: Metagross|59/100|[from] item: Life Orb
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1757003222
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|13/100
+|turn|7
+|
+|t:|1757003235
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: dreckige_pizza|move: Light Screen
+|move|p2b: Archaludon|Flash Cannon|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|move|p2a: Pelipper|Muddy Water|p1b: Metagross
+|-damage|p1b: Metagross|30/100
+|move|p1b: Metagross|Psychic Fangs|p2b: Archaludon
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|0 fnt
+|faint|p2b: Archaludon
+|-damage|p1b: Metagross|20/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1757003247
+|switch|p2b: Amoonguss|Amoonguss, L50, M|74/100
+|turn|8
+|
+|t:|1757003259
+|-terastallize|p2b: Amoonguss|Dark
+|move|p2a: Pelipper|Muddy Water|p1b: Metagross
+|-damage|p1b: Metagross|2/100
+|move|p1b: Metagross|Psychic Fangs|p2b: Amoonguss
+|-immune|p2b: Amoonguss
+|move|p2b: Amoonguss|Spore|p1b: Metagross
+|-status|p1b: Metagross|slp|[from] move: Spore
+|
+|-heal|p2b: Amoonguss|80/100|[from] item: Leftovers
+|-sideend|p1: dreckige_pizza|Reflect
+|upkeep
+|turn|9
+|l|☆dreckige_pizza
+|inactive|dreckige_pizza disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|dreckige_pizza has 30 seconds left.
+|inactive|dreckige_pizza has 20 seconds left.
+|inactive|dreckige_pizza has 15 seconds left.
+|inactive|dreckige_pizza has 10 seconds left.
+|inactive|dreckige_pizza has 5 seconds left.
+|-message|dreckige_pizza lost due to inactivity.
+|
+|win|chrispygreens
+||chrispygreens is ready for game 2.

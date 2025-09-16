@@ -1,0 +1,191 @@
+|j|☆Killtoosad
+|j|☆takeshivgc-test
+|html|Killtoosadtakeshivgc-test    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756950251
+|gametype|doubles
+|player|p1|Killtoosad|170|
+|player|p2|takeshivgc-test|sabrina|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Illumise, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Primarina, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Hatterene, L50, F|
+|teampreview|4
+|showteam|p1|Illumise||CovertCloak|Prankster|Protect,Infestation,Tailwind,FakeTears|||F|||50|,,,,,Dark]Gholdengo||Leftovers|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water]Dragonite||ChoiceBand|InnerFocus|ExtremeSpeed,Outrage,AerialAce,StompingTantrum|||F|||50|,,,,,Normal]Incineroar||AssaultVest|Intimidate|FlareBlitz,KnockOff,Uturn,FakeOut|||F|||50|,,,,,Dragon]Primarina||LifeOrb|LiquidVoice|Protect,HyperVoice,Moonblast,PerishSong|||M|||50|,,,,,Steel]Tyranitar||ClearAmulet|SandStream|RockSlide,KnockOff,Protect,HighHorsepower|||F|||50|,,,,,Grass
+|showteam|p2|Armarouge||PowerHerb|FlashFire|ArmorCannon,ExpandingForce,TrickRoom,MeteorBeam|||M|||50|,,,,,Grass]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,TrickRoom,FollowMe|||F|||50|,,,,,Fairy]Torkoal||Charcoal|Drought|Eruption,Protect,WeatherBall,HeatWave|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,MysticalFire|||F|||50|,,,,,Fire
+|
+|t:|1756950317
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p1b: Primarina|Primarina, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756950362
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2b: Gallade|Psycho Cut|p1b: Primarina
+|-damage|p1b: Primarina|12/100
+|move|p1b: Primarina|Moonblast|p2b: Gallade
+|-supereffective|p2b: Gallade
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|-damage|p1b: Primarina|2/100|[from] item: Life Orb
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Indeedee|94/100|[from] Sandstorm
+|-damage|p1b: Primarina|0 fnt|[from] Sandstorm
+|faint|p1b: Primarina
+|upkeep
+|
+|t:|1756950376
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F, shiny|100/100
+|turn|2
+|
+|t:|1756950392
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|move|p2b: Hatterene|Dazzling Gleam|p1b: Gholdengo|[spread] p1a,p1b
+|-supereffective|p1a: Tyranitar
+|-resisted|p1b: Gholdengo
+|-damage|p1a: Tyranitar|46/100
+|-damage|p1b: Gholdengo|78/100
+|-damage|p2b: Hatterene|91/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Rock Slide|p2b: Hatterene|[spread] p2a,p2b
+|-resisted|p2a: Ursaluna
+|-damage|p2a: Ursaluna|89/100
+|-damage|p2b: Hatterene|56/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Hatterene|51/100|[from] Sandstorm
+|-heal|p1b: Gholdengo|84/100|[from] item: Leftovers
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1756950426
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p1b: Gholdengo|Protect|p1b: Gholdengo
+|-singleturn|p1b: Gholdengo|Protect
+|move|p2b: Hatterene|Dazzling Gleam|p1b: Gholdengo|[spread] 
+|-activate|p1a: Tyranitar|move: Protect
+|-activate|p1b: Gholdengo|move: Protect
+|move|p2a: Ursaluna|Headlong Rush|p1b: Gholdengo
+|-activate|p1b: Gholdengo|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Hatterene|45/100|[from] Sandstorm
+|-heal|p1b: Gholdengo|91/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|83/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1756950455
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100
+|-terastallize|p1a: Tyranitar|Grass
+|move|p2b: Hatterene|Mystical Fire|p1b: Dragonite
+|-resisted|p1b: Dragonite
+|-damage|p1b: Dragonite|85/100
+|-unboost|p1b: Dragonite|spa|1
+|-damage|p2b: Hatterene|36/100|[from] item: Life Orb
+|move|p2a: Ursaluna|Headlong Rush|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Hatterene|30/100|[from] Sandstorm
+|-damage|p1b: Dragonite|79/100|[from] Sandstorm
+|-damage|p2a: Ursaluna|77/100 brn|[from] brn
+|upkeep
+|
+|t:|1756950472
+|switch|p1a: Gholdengo|Gholdengo, L50|91/100
+|turn|5
+|
+|t:|1756950494
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2b: Hatterene|Dazzling Gleam|p1a: Gholdengo|[spread] p1b
+|-activate|p1a: Gholdengo|move: Protect
+|-supereffective|p1b: Dragonite
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1b: Dragonite
+|-damage|p2b: Hatterene|21/100|[from] item: Life Orb
+|move|p2a: Ursaluna|Headlong Rush|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|
+|-weather|none
+|-heal|p1a: Gholdengo|97/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|71/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756950513
+|switch|p2a: Indeedee|Indeedee-F, L50, F|94/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-terastallize|p2b: Hatterene|Fire
+|move|p1a: Gholdengo|Make It Rain|p2a: Indeedee|[spread] p2a,p2b
+|-resisted|p2b: Hatterene
+|-damage|p2a: Indeedee|45/100
+|-damage|p2b: Hatterene|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2b: Hatterene
+|
+|-heal|p1a: Gholdengo|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756950525
+|switch|p2b: Ursaluna|Ursaluna, L50, M|71/100 brn
+|turn|7
+|
+|t:|1756950536
+|move|p2a: Indeedee|Helping Hand|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Helping Hand|[of] p2a: Indeedee
+|move|p1a: Gholdengo|Make It Rain|p2b: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Indeedee|12/100
+|-damage|p2b: Ursaluna|41/100 brn
+|-unboost|p1a: Gholdengo|spa|1
+|move|p2b: Ursaluna|Headlong Rush|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-unboost|p2b: Ursaluna|def|1
+|-unboost|p2b: Ursaluna|spd|1
+|faint|p1a: Gholdengo
+|
+|win|takeshivgc-test
+|inactive|Killtoosad has 30 seconds to confirm battle start!
+|inactive|takeshivgc-test has 30 seconds to confirm battle start!
+||takeshivgc-test is ready for game 3.
+||Killtoosad is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆takeshivgc-test
+|player|p2|

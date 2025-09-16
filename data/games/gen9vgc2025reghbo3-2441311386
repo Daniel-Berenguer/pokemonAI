@@ -1,0 +1,171 @@
+|j|☆Phish With A PH
+|j|☆battle sim trainer
+|html|Phish With A PHbattle sim trainer    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757828210
+|gametype|doubles
+|player|p1|Phish With A PH|wallace|1085
+|player|p2|battle sim trainer|turo|1210
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p1|Primarina, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Gliscor, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p2|Bronzong, L50|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Exeggutor, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|showteam|p1|Sinistcha-Masterpiece||MentalHerb|Hospitality|MatchaGotcha,ShadowBall,RagePowder,Protect||||||50|,,,,,Water]Primarina||AssaultVest|LiquidVoice|HyperVoice,Moonblast,IcyWind,Psychic|||M|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|KnockOff,FakeOut,PartingShot,Protect|||M|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Protect||||||50|,,,,,Fighting]Gliscor||ToxicOrb|PoisonHeal|HighHorsepower,Tailwind,SwordsDance,Protect|||M|||50|,,,,,Water]Archaludon||PowerHerb|Stamina|BodyPress,ElectroShot,Snarl,Protect|||M|||50|,,,,,Grass
+|showteam|p2|Bronzong||PsychicSeed|Levitate|TrickRoom,BodyPress,GyroBall,IronDefense||||||50|,,,,,Poison]Ursaluna||FlameOrb|Guts|Facade,Protect,Earthquake,HeadlongRush|||F|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,WideGuard,SacredSword|||M|||50|,,,,,Fire]Torkoal||Charcoal|Drought|Eruption,WeatherBall,ClearSmog,Protect|||M|||50|,,,,,Fire]Exeggutor||FocusSash|Chlorophyll|Imprison,ExpandingForce,EnergyBall,TrickRoom|||F|||50|,,,,,Psychic]Indeedee-F||SafetyGoggles|PsychicSurge|FollowMe,TrickRoom,HelpingHand,Psychic|||F|||50|,,,,,Fairy
+|
+|t:|1757828234
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|switch|p2a: Exeggutor|Exeggutor, L50, F|100/100
+|switch|p2b: i like turtles|Torkoal, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Exeggutor|atk|1
+|-unboost|p2b: i like turtles|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: i like turtles
+|turn|1
+|
+|t:|1757828270
+|move|p2b: i like turtles|Protect|p2b: i like turtles
+|-singleturn|p2b: i like turtles|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|81/100
+|move|p1b: Archaludon|Snarl|p2b: i like turtles|[spread] p2a
+|-activate|p2b: i like turtles|move: Protect
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|43/100
+|-unboost|p2a: Exeggutor|spa|1
+|cant|p2a: Exeggutor|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757828301
+|switch|p2a: Swordman|Gallade, L50, M|100/100
+|-terastallize|p2b: i like turtles|Fire
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-enditem|p1b: Archaludon|Power Herb
+|-anim|p1b: Archaludon|Electro Shot|p2b: i like turtles
+|-crit|p2b: i like turtles
+|-damage|p2b: i like turtles|0 fnt
+|faint|p2b: i like turtles
+|move|p1a: Incineroar|Knock Off|p2a: Swordman
+|-damage|p2a: Swordman|45/100
+|-enditem|p2a: Swordman|Clear Amulet|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757828314
+|switch|p2b: Indeedeed|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedeed
+|turn|3
+|
+|t:|1757828342
+|move|p2b: Indeedeed|Follow Me|p2b: Indeedeed
+|-singleturn|p2b: Indeedeed|move: Follow Me
+|move|p1b: Archaludon|Snarl|p2b: Indeedeed|[spread] p2a,p2b
+|-supereffective|p2b: Indeedeed
+|-damage|p2a: Swordman|28/100
+|-damage|p2b: Indeedeed|63/100
+|-unboost|p2a: Swordman|spa|1
+|-unboost|p2b: Indeedeed|spa|1
+|move|p1a: Incineroar|Parting Shot|p2b: Indeedeed
+|-unboost|p2b: Indeedeed|atk|1
+|-unboost|p2b: Indeedeed|spa|1
+|
+|t:|1757828351
+|switch|p1a: Porygon2|Porygon2, L50|100/100|[from] Parting Shot
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|atk|1
+|move|p2a: Swordman|Trick Room|p2a: Swordman
+|-fieldstart|move: Trick Room|[of] p2a: Swordman
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1757828374
+|-terastallize|p1a: Porygon2|Fighting
+|move|p2a: Swordman|Sacred Sword|p1b: Archaludon
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|faint|p1b: Archaludon
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldend|move: Trick Room
+|move|p2b: Indeedeed|Trick Room|p2b: Indeedeed
+|-fieldstart|move: Trick Room|[of] p2b: Indeedeed
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757828382
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Swordman|atk|1
+|-unboost|p2b: Indeedeed|atk|1
+|turn|5
+|
+|t:|1757828425
+|move|p1b: Incineroar|Protect|p1b: Incineroar
+|-singleturn|p1b: Incineroar|Protect
+|move|p1a: Porygon2|Tera Blast|p2a: Swordman|[anim] Tera Blast Fighting
+|-resisted|p2a: Swordman
+|-damage|p2a: Swordman|0 fnt
+|faint|p2a: Swordman
+|move|p2b: Indeedeed|Psychic|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|82/100
+|
+|-weather|none
+|upkeep
+|
+|t:|1757828434
+|switch|p2a: Exeggutor|Exeggutor, L50, F|43/100
+|turn|6
+|
+|t:|1757828448
+|move|p2b: Indeedeed|Helping Hand|p2a: Exeggutor
+|-singleturn|p2a: Exeggutor|Helping Hand|[of] p2b: Indeedeed
+|move|p1a: Porygon2|Protect|p1a: Porygon2
+|-singleturn|p1a: Porygon2|Protect
+|move|p1b: Incineroar|Knock Off|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-crit|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|-enditem|p2a: Exeggutor|Focus Sash|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2a: Exeggutor
+|
+|upkeep
+|turn|7
+|-message|battle sim trainer forfeited.
+|
+|win|Phish With A PH
+|l|☆battle sim trainer
+|player|p2|
+||Phish With A PH is ready for game 2.
+|inactive|battle sim trainer has 30 seconds to confirm battle start!
+|inactive|battle sim trainer has 20 seconds to confirm battle start!
+|inactive|battle sim trainer has 10 seconds to confirm battle start!
+|uhtml|next|Next: Game 2 of 3

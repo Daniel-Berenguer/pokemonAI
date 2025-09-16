@@ -1,0 +1,134 @@
+|j|☆takeshivgc-test
+|j|☆endertytar
+|html|takeshivgc-testendertytar    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757780210
+|gametype|doubles
+|player|p1|takeshivgc-test|sabrina|1181
+|player|p2|endertytar|hugh|1175
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p2|Crawdaunt, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Ninetales-Alola, L50, M|
+|teampreview|4
+|showteam|p1|Armarouge||PowerHerb|FlashFire|ArmorCannon,ExpandingForce,TrickRoom,MeteorBeam|||M|||50|,,,,,Grass]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,TrickRoom,FollowMe|||F|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,ClearSmog,WeatherBall,HeatWave|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,MysticalFire|||F|||50|,,,,,Fire
+|showteam|p2|Crawdaunt||FocusSash|Adaptability|KnockOff,CloseCombat,Crabhammer,Protect|||M|||50|,,,,,Stellar]Whimsicott||CovertCloak|Prankster|Protect,Encore,Tailwind,Moonblast|||M|||50|,,,,,Steel]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Dragapult||ChoiceBand|ClearBody|Uturn,DragonDarts,PhantomForce,Outrage|||F|||50|,,,,,Dragon]Armarouge||LifeOrb|FlashFire|ArmorCannon,ExpandingForce,Protect,EnergyBall|||F|||50|,,,,,Grass]Ninetales-Alola||ChoiceSpecs|SnowWarning|Blizzard,FreezeDry,Moonblast,DazzlingGleam|||M|||50|,,,,,Ice
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by takeshivgc-test)
+|
+|t:|1757780309
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Armarouge|Armarouge, L50, M|100/100
+|switch|p2a: Crawdaunt|Crawdaunt, L50, M|100/100
+|switch|p2b: Dragapult|Dragapult, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757780331
+|-terastallize|p2a: Crawdaunt|Stellar
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Dragapult|U-turn|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|21/100
+|
+|t:|1757780338
+|switch|p2b: Porygon2|Porygon2, L50|100/100|[from] U-turn
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|atk|1
+|move|p2a: Crawdaunt|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|move|p1b: Armarouge|Trick Room|p1b: Armarouge
+|-fieldstart|move: Trick Room|[of] p1b: Armarouge
+|
+|upkeep
+|
+|t:|1757780346
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|2
+|
+|t:|1757780357
+|switch|p2a: Armarouge|Armarouge, L50, F|100/100
+|-terastallize|p1a: Torkoal|Fire
+|move|p1a: Torkoal|Eruption|p2b: Porygon2|[spread] p2b
+|-start|p2a: Armarouge|ability: Flash Fire
+|-damage|p2b: Porygon2|21/100
+|move|p1b: Armarouge|Meteor Beam||[still]
+|-prepare|p1b: Armarouge|Meteor Beam
+|-boost|p1b: Armarouge|spa|1
+|-enditem|p1b: Armarouge|Power Herb
+|-anim|p1b: Armarouge|Meteor Beam|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|0 fnt
+|faint|p2a: Armarouge
+|move|p2b: Porygon2|Trick Room|p2b: Porygon2
+|-fieldend|move: Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757780373
+|switch|p2a: Dragapult|Dragapult, L50, F|100/100
+|turn|3
+|
+|t:|1757780387
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|move|p2a: Dragapult|Outrage|p1b: Armarouge
+|-damage|p1b: Armarouge|15/100
+|move|p1b: Armarouge|Expanding Force|p2a: Dragapult|[spread] p2a,p2b
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p2b: Porygon2|0 fnt
+|faint|p2a: Dragapult
+|faint|p2b: Porygon2
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757780397
+|switch|p2b: Crawdaunt|Crawdaunt, L50, M, tera:Stellar|100/100
+|turn|4
+|
+|t:|1757780418
+|move|p2b: Crawdaunt|Close Combat|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|30/100 brn
+|-unboost|p2b: Crawdaunt|def|1
+|-unboost|p2b: Crawdaunt|spd|1
+|move|p1b: Armarouge|Armor Cannon|p2b: Crawdaunt
+|-resisted|p2b: Crawdaunt
+|-enditem|p2b: Crawdaunt|Focus Sash
+|-damage|p2b: Crawdaunt|1/100
+|-unboost|p1b: Armarouge|def|1
+|-unboost|p1b: Armarouge|spd|1
+|move|p1a: Ursaluna|Facade|p2b: Crawdaunt
+|-damage|p2b: Crawdaunt|0 fnt
+|faint|p2b: Crawdaunt
+|
+|win|takeshivgc-test
+|inactive|takeshivgc-test has 30 seconds to confirm battle start!
+|inactive|endertytar has 30 seconds to confirm battle start!
+||endertytar is ready for game 2.
+||takeshivgc-test is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

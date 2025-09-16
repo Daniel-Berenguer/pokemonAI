@@ -1,0 +1,137 @@
+|j|☆vril fur4et
+|j|☆Zack plays Pokemon
+|html|vril fur4etZack plays Pokemon    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757671586
+|gametype|doubles
+|player|p1|vril fur4et|li|1122
+|player|p2|Zack plays Pokemon|morty|1038
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Flamigo, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Scizor, L50, F|
+|teampreview|4
+|showteam|p1|Flamigo||ChoiceScarf|Scrappy|CloseCombat,DualWingbeat,BraveBird,Uturn|||F|||50|,,,,,Ghost]Gholdengo||Leftovers|GoodasGold|NastyPlot,ShadowBall,MakeItRain,Protect||||||50|,,,,,Dragon]Incineroar||SitrusBerry|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Grass]Amoonguss||RockyHelmet|Regenerator|Spore,RagePowder,PollenPuff,Protect|||M|||50|,,,,,Water]Ninetales-Alola||ChoiceSpecs|SnowWarning|Blizzard,FreezeDry,Moonblast,IcyWind|||M|||50|,,,,,Ice]Garchomp||LifeOrb|RoughSkin|StompingTantrum,Protect,DragonClaw,SwordsDance|||F|||50|,,,,,Fire
+|showteam|p2|Typhlosion-Hisui||ChoiceScarf|Blaze|Eruption,Flamethrower,InfernalParade,Overheat|||M|||50|,,,,,Fire]Whimsicott||CovertCloak|Prankster|HelpingHand,SunnyDay,Moonblast,Tailwind|||M|||50|,,,,,Dragon]Garchomp||LifeOrb|RoughSkin|DragonClaw,RockSlide,StompingTantrum,Protect|||M|||50|,,,,,Fire]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,TeraBlast,Imprison|||M|||50|,,,,,Ice]Sneasler||PsychicSeed|Unburden|ThroatChop,CloseCombat,DireClaw,Protect|||M|||50|,,,,,Flying]Scizor||ChoiceBand|Technician|BulletPunch,Uturn,DualWingbeat,IronHead|||F|||50|,,,,,Water
+|
+|t:|1757671597
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Flamigo|Flamigo, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|turn|1
+|
+|t:|1757671615
+|move|p2b: Sneasler|Close Combat|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|32/100
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|57/100|[from] item: Sitrus Berry
+|move|p1a: Flamigo|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-enditem|p2a: Indeedee|Focus Sash
+|-damage|p2a: Indeedee|1/100
+|
+|t:|1757671626
+|switch|p1a: Garchomp|Garchomp, L50, F|100/100|[from] U-turn
+|move|p2a: Indeedee|Expanding Force|p1b: Incineroar|[spread] p1a
+|-immune|p1b: Incineroar
+|-damage|p1a: Garchomp|39/100
+|move|p1b: Incineroar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|upkeep
+|
+|t:|1757671652
+|switch|p2a: Garchomp|Garchomp, L50, M|100/100
+|turn|2
+|
+|t:|1757671675
+|-terastallize|p1b: Incineroar|Grass
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2b: Sneasler|Dire Claw|p1a: Garchomp
+|-activate|p1a: Garchomp|move: Protect
+|move|p2a: Garchomp|Rock Slide|p1a: Garchomp|[spread] p1b
+|-activate|p1a: Garchomp|move: Protect
+|-damage|p1b: Incineroar|42/100
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|cant|p1b: Incineroar|flinch
+|
+|upkeep
+|turn|3
+|
+|t:|1757671709
+|-terastallize|p2a: Garchomp|Fire
+|move|p2b: Sneasler|Dire Claw|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Garchomp|Stomping Tantrum|p2b: Sneasler
+|-supereffective|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|-damage|p1a: Garchomp|29/100|[from] item: Life Orb
+|move|p2a: Garchomp|Dragon Claw|p1a: Garchomp
+|-supereffective|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Garchomp|79/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|-damage|p2a: Garchomp|69/100|[from] item: Life Orb
+|
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Zack plays Pokemon)
+|
+|t:|1757671717
+|switch|p2b: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|switch|p1a: Ninetales|Ninetales-Alola, L50, M|100/100
+|switch|p1b: Flamigo|Flamigo, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|4
+|
+|t:|1757671740
+|move|p2b: Typhlosion|Eruption|p1b: Flamigo|[spread] p1a,p1b
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|-damage|p1b: Flamigo|20/100
+|faint|p1a: Ninetales
+|move|p1b: Flamigo|Brave Bird|p2b: Typhlosion
+|-damage|p2b: Typhlosion|5/100
+|-damage|p1b: Flamigo|0 fnt|[from] Recoil
+|faint|p1b: Flamigo
+|
+|win|Zack plays Pokemon
+||vril fur4et is ready for game 3.
+||Zack plays Pokemon is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆vril fur4et
+|player|p1|
+|l|☆Zack plays Pokemon
+|player|p2|

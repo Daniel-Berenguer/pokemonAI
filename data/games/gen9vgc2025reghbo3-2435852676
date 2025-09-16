@@ -1,0 +1,135 @@
+|j|☆t-samps
+|j|☆galgith
+|html|t-sampsgalgith    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757094494
+|gametype|doubles
+|player|p1|t-samps|battlegirl-gen4|1118
+|player|p2|galgith|steven|1079
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Serperior, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|DazzlingGleam,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Fire]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,SwordsDance,Protect|||F|||50|,,,,,Ghost]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||F|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,CloseCombat,AfterYou,SleepPowder|||F|||50|,,,,,Ghost
+|showteam|p2|Torkoal||EjectPack|Drought|Overheat,Eruption,HelpingHand,Protect|||F|||50|,,,,,Fire]Serperior||FocusSash|Contrary|LeafStorm,Protect,Taunt,DragonPulse|||F|||50|,,,,,Stellar]Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,StompingTantrum,Protect|||F|||50|,,,,,Steel]Grimmsnarl||LightClay|Prankster|LightScreen,Reflect,ThunderWave,SpiritBreak|||M|||50|,,,,,Ghost]Typhlosion-Hisui||ChoiceScarf|Blaze|Eruption,HeatWave,ShadowBall,SolarBeam|||M|||50|,,,,,Fire]Tyranitar||AssaultVest|SandStream|KnockOff,LowKick,RockSlide,TeraBlast|||M|||50|,,,,,Flying
+|
+|t:|1757094540
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|1
+|
+|t:|1757094569
+|switch|p2b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|-terastallize|p1b: Torkoal|Fire
+|move|p2a: Typhlosion|Eruption|p1a: Lilligant|[spread] p1a,p1b
+|-supereffective|p1a: Lilligant
+|-resisted|p1b: Torkoal
+|-enditem|p1a: Lilligant|Focus Sash
+|-damage|p1a: Lilligant|1/100
+|-damage|p1b: Torkoal|65/100
+|move|p1a: Lilligant|After You|p1b: Torkoal
+|-activate|p1b: Torkoal|move: After You
+|move|p1b: Torkoal|Eruption|p2b: Tyranitar|[spread] p2a,p2b
+|-resisted|p2a: Typhlosion
+|-resisted|p2b: Tyranitar
+|-damage|p2a: Typhlosion|54/100
+|-damage|p2b: Tyranitar|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Typhlosion|48/100|[from] Sandstorm
+|-damage|p1a: Lilligant|0 fnt|[from] Sandstorm
+|-damage|p1b: Torkoal|59/100|[from] Sandstorm
+|faint|p1a: Lilligant
+|upkeep
+|
+|t:|1757094582
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|turn|2
+|
+|t:|1757094607
+|switch|p2a: Serperior|Serperior, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|-terastallize|p2b: Tyranitar|Flying
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Tyranitar|Rock Slide|p1a: Ursaluna|[spread] p1b
+|-activate|p1a: Ursaluna|move: Protect
+|-damage|p1b: Indeedee|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Serperior|95/100|[from] Sandstorm
+|-damage|p1b: Indeedee|67/100|[from] Sandstorm
+|-damage|p2b: Tyranitar|81/100|[from] Sandstorm
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1757094648
+|switch|p1a: Torkoal|Torkoal, L50, F, tera:Fire|59/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Serperior|Taunt|p1b: Indeedee
+|-start|p1b: Indeedee|move: Taunt
+|move|p2b: Tyranitar|Low Kick|p1a: Torkoal
+|-damage|p1a: Torkoal|38/100
+|cant|p1b: Indeedee|move: Taunt|Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1757094678
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100 brn
+|move|p2a: Serperior|Leaf Storm|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|9/100 brn
+|-boost|p2a: Serperior|spa|2
+|move|p2b: Tyranitar|Rock Slide|p1a: Torkoal|[spread] p1b
+|-miss|p2b: Tyranitar|p1a: Torkoal
+|-resisted|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|move|p1a: Torkoal|Heat Wave|p2b: Tyranitar|[spread] p2a,p2b
+|-supereffective|p2a: Serperior
+|-damage|p2a: Serperior|0 fnt
+|-damage|p2b: Tyranitar|26/100
+|faint|p2a: Serperior
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757094705
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L50, M|48/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|67/100
+|turn|5
+|-message|t-samps forfeited.
+|
+|win|galgith
+|raw|t-samps's rating: 1118 → 1090(-28 for losing)
+|raw|galgith's rating: 1079 → 1110(+31 for winning)
+|l|☆t-samps
+|player|p1|

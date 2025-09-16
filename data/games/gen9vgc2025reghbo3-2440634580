@@ -1,0 +1,184 @@
+|j|☆wester7
+|j|☆ddx9000
+|html|wester7ddx9000    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757729198
+|gametype|doubles
+|player|p1|wester7|1|1168
+|player|p2|ddx9000|elesa|1339
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Orthworm, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Overqwil, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Dragonite, L50, M|
+|teampreview|4
+|showteam|p1|Orthworm||SitrusBerry|EarthEater|HeavySlam,ShedTail,BodyPress,Protect|||M|||50|,,,,,Poison]Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||F|||50|,,,,,Ghost]Armarouge||LifeOrb|FlashFire|ArmorCannon,ExpandingForce,TrickRoom,WideGuard|||M|||50|,,,,,Grass]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||F|||50|,,,,,Fairy]Indeedee-F||SafetyGoggles|PsychicSurge|Psychic,FollowMe,TrickRoom,Protect|||F|||50|,,,,,Fairy]Overqwil||AssaultVest|Intimidate|ThroatChop,PoisonJab,Liquidation,AquaJet|||F|||50|,,,,,Water
+|showteam|p2|Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||F|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||M|||50|,,,,,Steel
+|
+|t:|1757729240
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Orthworm|Orthworm, L50, M|100/100
+|switch|p1b: Overqwil|Overqwil, L50, F|100/100
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|-ability|p1b: Overqwil|Intimidate|boost
+|-unboost|p2a: Porygon2|atk|1
+|-unboost|p2b: Amoonguss|atk|1
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|turn|1
+|
+|t:|1757729280
+|switch|p1a: Armarouge|Armarouge, L50, M|100/100
+|-terastallize|p2a: Porygon2|Fighting
+|move|p1b: Overqwil|Throat Chop|p2b: Amoonguss
+|-damage|p2b: Amoonguss|73/100
+|-start|p2b: Amoonguss|Throat Chop|[silent]
+|move|p2a: Porygon2|Tera Blast|p1a: Armarouge|[anim] Tera Blast Fighting
+|-resisted|p1a: Armarouge
+|-damage|p1a: Armarouge|70/100
+|move|p2b: Amoonguss|Spore|p1b: Overqwil
+|-status|p1b: Overqwil|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1757729308
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|move|p1a: Armarouge|Expanding Force|p2b: Ursaluna
+|-damage|p2b: Ursaluna|41/100
+|-damage|p1a: Armarouge|61/100|[from] item: Life Orb
+|move|p2a: Porygon2|Ice Beam|p1a: Armarouge
+|-resisted|p1a: Armarouge
+|-damage|p1a: Armarouge|40/100
+|-status|p1a: Armarouge|frz
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1757729346
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Ursaluna|Facade|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|move|p2a: Porygon2|Ice Beam|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|cant|p1a: Armarouge|frz
+|
+|-damage|p2b: Ursaluna|35/100 brn|[from] brn
+|-damage|p1b: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1757729372
+|switch|p1a: Orthworm|Orthworm, L50, M|100/100
+|-terastallize|p1b: Ursaluna|Ghost
+|move|p2b: Ursaluna|Headlong Rush|p1b: Ursaluna
+|-damage|p1b: Ursaluna|22/100 brn
+|-unboost|p2b: Ursaluna|def|1
+|-unboost|p2b: Ursaluna|spd|1
+|move|p2a: Porygon2|Tera Blast|p1b: Ursaluna|[anim] Tera Blast Fighting
+|-immune|p1b: Ursaluna
+|move|p1b: Ursaluna|Earthquake|p2b: Ursaluna|[spread] p2a,p2b
+|-immune|p1a: Orthworm|[from] ability: Earth Eater
+|-damage|p2a: Porygon2|56/100
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|
+|-damage|p1b: Ursaluna|16/100 brn|[from] brn
+|upkeep
+|
+|t:|1757729381
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Orthworm|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|turn|5
+|
+|t:|1757729404
+|switch|p1a: Armarouge|Armarouge, L50, M|40/100 frz
+|switch|p1b: Overqwil|Overqwil, L50, F|100/100 slp
+|-ability|p1b: Overqwil|Intimidate|boost
+|-unboost|p2a: Porygon2|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|move|p2b: Incineroar|Knock Off|p1b: Overqwil
+|-resisted|p1b: Overqwil
+|-damage|p1b: Overqwil|88/100 slp
+|-enditem|p1b: Overqwil|Assault Vest|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p2a: Porygon2|Tera Blast|p1a: Armarouge|[anim] Tera Blast Fighting
+|-resisted|p1a: Armarouge
+|-damage|p1a: Armarouge|11/100 frz
+|
+|upkeep
+|turn|6
+|
+|t:|1757729422
+|cant|p1b: Overqwil|slp
+|move|p2b: Incineroar|Knock Off|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|0 fnt
+|-enditem|p1a: Armarouge|Life Orb|[from] move: Knock Off|[of] p2b: Incineroar
+|faint|p1a: Armarouge
+|move|p2a: Porygon2|Ice Beam|p1b: Overqwil
+|-damage|p1b: Overqwil|35/100 slp
+|
+|upkeep
+|
+|t:|1757729441
+|switch|p1a: Ursaluna|Ursaluna, L50, F, tera:Ghost|16/100 brn
+|turn|7
+|
+|t:|1757729456
+|cant|p1b: Overqwil|slp
+|move|p2b: Incineroar|Knock Off|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-enditem|p1a: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p2b: Incineroar
+|faint|p1a: Ursaluna
+|move|p2a: Porygon2|Ice Beam|p1b: Overqwil
+|-damage|p1b: Overqwil|0 fnt
+|faint|p1b: Overqwil
+|
+|upkeep
+|
+|t:|1757729460
+|switch|p1b: Orthworm|Orthworm, L50, M|100/100
+|turn|8
+|
+|t:|1757729464
+|move|p2b: Incineroar|Flare Blitz|p1b: Orthworm
+|-supereffective|p1b: Orthworm
+|-damage|p1b: Orthworm|55/100
+|-status|p1b: Orthworm|brn
+|-damage|p2b: Incineroar|88/100|[from] Recoil
+|move|p1b: Orthworm|Body Press|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|64/100
+|move|p2a: Porygon2|Tera Blast|p1b: Orthworm|[anim] Tera Blast Fighting
+|-supereffective|p1b: Orthworm
+|-damage|p1b: Orthworm|0 fnt
+|faint|p1b: Orthworm
+|
+|win|ddx9000
+||ddx9000 is ready for game 3.
+|inactive|wester7 has 30 seconds to confirm battle start!
+||wester7 is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

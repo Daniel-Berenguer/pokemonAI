@@ -1,0 +1,212 @@
+|j|☆UndeadParadox
+|j|☆Davirate
+|html|UndeadParadoxDavirate    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756957062
+|gametype|doubles
+|player|p1|UndeadParadox|guitarist|1266
+|player|p2|Davirate|steven-masters2|1257
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Hydreigon, L50, M|
+|poke|p1|Gengar, L50, F|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Talonflame, L50, F|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Milotic, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||GrassySeed|Unburden|CloseCombat,DireClaw,Acrobatics,Protect|||F|||50|,,,,,Flying]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,FakeOut,HighHorsepower|||M|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Ghost]Gholdengo||MetalCoat|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water]Hydreigon||LifeOrb|Levitate|Flamethrower,DracoMeteor,DarkPulse,Protect|||M|||50|,,,,,Fire]Gengar||FocusSash|CursedBody|ShadowBall,Haze,Taunt,IcyWind|||F|||50|,,,,,Ghost
+|showteam|p2|Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,StompingTantrum,Protect|||M|||50|,,,,,Fairy]Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,ShadowBall,Thunderbolt,PowerGem||||||50|,,,,,Steel]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Talonflame||CovertCloak|GaleWings|BraveBird,WillOWisp,Tailwind,Taunt|||F|||50|,,,,,Grass]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,StrengthSap,RagePowder,TrickRoom||||||50|,,,,,Water]Milotic||SafetyGoggles|Competitive|Scald,IcyWind,Haze,Protect|||M|||50|,,,,,Dragon
+|
+|t:|1756957102
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50, shiny|100/100
+|switch|p2a: Talonflame|Talonflame, L50, F|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Talonflame|atk|1
+|-unboost|p2b: Gholdengo|atk|1
+|turn|1
+|
+|t:|1756957128
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p2b: Gholdengo|Shadow Ball|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|move|p1a: Incineroar|Flare Blitz|p2b: Gholdengo
+|-supereffective|p2b: Gholdengo
+|-damage|p2b: Gholdengo|0 fnt
+|faint|p2b: Gholdengo
+|-damage|p1a: Incineroar|72/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1756957149
+|switch|p2b: Talonflame|Talonflame, L50, F|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|2
+|
+|t:|1756957174
+|move|p1b: Rillaboom|Fake Out|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|94/100
+|move|p2b: Talonflame|Will-O-Wisp|p1b: Rillaboom|[miss]
+|-miss|p2b: Talonflame|p1b: Rillaboom
+|move|p1a: Incineroar|Parting Shot|p2a: Tyranitar
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|spa|1
+|
+|t:|1756957181
+|switch|p1a: Sneasler|Sneasler, L50, F, shiny|100/100|[from] Parting Shot
+|-enditem|p1a: Sneasler|Grassy Seed
+|-boost|p1a: Sneasler|def|1|[from] item: Grassy Seed
+|cant|p2a: Tyranitar|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneasler|95/100|[from] Sandstorm
+|-damage|p2b: Talonflame|95/100|[from] Sandstorm
+|-damage|p1b: Rillaboom|95/100|[from] Sandstorm
+|-heal|p1a: Sneasler|100/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|100/100|[from] Grassy Terrain
+|-heal|p2a: Tyranitar|99/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756957223
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|72/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2b: Talonflame|atk|1
+|-terastallize|p2a: Tyranitar|Flying
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p2b: Talonflame|Tailwind|p2b: Talonflame
+|-sidestart|p2: Davirate|move: Tailwind
+|move|p2a: Tyranitar|Tera Blast|p1b: Incineroar|[anim] Tera Blast Flying
+|-damage|p1b: Incineroar|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Talonflame|89/100|[from] Sandstorm
+|-damage|p1a: Sneasler|95/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|94/100|[from] Sandstorm
+|-heal|p1a: Sneasler|100/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|55/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756957259
+|-terastallize|p1a: Sneasler|Flying
+|move|p1b: Incineroar|Fake Out|p2a: Tyranitar
+|-damage|p2a: Tyranitar|83/100
+|move|p2b: Talonflame|Will-O-Wisp|p1a: Sneasler
+|-status|p1a: Sneasler|brn
+|move|p1a: Sneasler|Acrobatics|p2a: Tyranitar
+|-damage|p2a: Tyranitar|58/100
+|cant|p2a: Tyranitar|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Talonflame|83/100|[from] Sandstorm
+|-damage|p1a: Sneasler|95/100 brn|[from] Sandstorm
+|-damage|p2a: Tyranitar|52/100|[from] Sandstorm
+|-heal|p1b: Incineroar|61/100|[from] Grassy Terrain
+|-damage|p1a: Sneasler|89/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1756957284
+|switch|p2a: Milotic|Milotic, L50, M, shiny|100/100
+|move|p2b: Talonflame|Brave Bird|p1a: Sneasler
+|-damage|p1a: Sneasler|63/100 brn
+|-damage|p2b: Talonflame|75/100|[from] Recoil
+|move|p1a: Sneasler|Acrobatics|p2b: Talonflame
+|-damage|p2b: Talonflame|35/100
+|move|p1b: Incineroar|Knock Off|p2a: Milotic
+|-damage|p2a: Milotic|49/100
+|-enditem|p2a: Milotic|Safety Goggles|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-weather|none
+|-heal|p2a: Milotic|54/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|67/100|[from] Grassy Terrain
+|-damage|p1a: Sneasler|58/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1756957316
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|move|p2b: Talonflame|Taunt|p1b: Rillaboom
+|-start|p1b: Rillaboom|move: Taunt
+|move|p1a: Sneasler|Acrobatics|p2b: Talonflame
+|-damage|p2b: Talonflame|0 fnt
+|faint|p2b: Talonflame
+|move|p2a: Milotic|Scald|p1b: Rillaboom
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|90/100
+|
+|-heal|p2a: Milotic|60/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|96/100|[from] Grassy Terrain
+|-damage|p1a: Sneasler|52/100 brn|[from] brn
+|-sideend|p2: Davirate|move: Tailwind
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756957331
+|switch|p2b: Tyranitar|Tyranitar, L50, M, tera:Flying|52/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|turn|7
+|
+|t:|1756957340
+|move|p2a: Milotic|Protect|p2a: Milotic
+|-singleturn|p2a: Milotic|Protect
+|move|p1b: Rillaboom|Fake Out|p2b: Tyranitar
+|-damage|p2b: Tyranitar|38/100
+|move|p1a: Sneasler|Acrobatics|p2b: Tyranitar
+|-damage|p2b: Tyranitar|9/100
+|cant|p2b: Tyranitar|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneasler|46/100 brn|[from] Sandstorm
+|-damage|p2a: Milotic|54/100|[from] Sandstorm
+|-damage|p1b: Rillaboom|90/100|[from] Sandstorm
+|-damage|p2b: Tyranitar|4/100|[from] Sandstorm
+|-damage|p1a: Sneasler|40/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1756957358
+|move|p1a: Sneasler|Acrobatics|p2b: Tyranitar
+|-damage|p2b: Tyranitar|0 fnt
+|faint|p2b: Tyranitar
+|move|p2a: Milotic|Icy Wind|p1b: Rillaboom|[spread] p1a,p1b
+|-supereffective|p1a: Sneasler
+|-supereffective|p1b: Rillaboom
+|-damage|p1a: Sneasler|16/100 brn
+|-damage|p1b: Rillaboom|75/100
+|-unboost|p1a: Sneasler|spe|1
+|-unboost|p1b: Rillaboom|spe|1
+|move|p1b: Rillaboom|Wood Hammer|p2a: Milotic
+|-supereffective|p2a: Milotic
+|-crit|p2a: Milotic
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|-damage|p1b: Rillaboom|57/100|[from] Recoil
+|
+|win|UndeadParadox
+|raw|UndeadParadox's rating: 1266 → 1290(+24 for winning)
+|raw|Davirate's rating: 1257 → 1233(-24 for losing)

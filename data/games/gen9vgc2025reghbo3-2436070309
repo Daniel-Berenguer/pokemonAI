@@ -1,0 +1,120 @@
+|j|☆dogggybears
+|j|☆surprise blissey
+|html|dogggybearssurprise blissey    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757119690
+|gametype|doubles
+|player|p1|dogggybears|roxie|1230
+|player|p2|surprise blissey|lucian|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Glaceon, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Sneasler, L50, F|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||M|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|showteam|p2|Ninetales-Alola||LightClay|SnowWarning|Blizzard,AuroraVeil,DazzlingGleam,Snowscape|||F|||50|,,,,,Ghost]Glaceon||BrightPowder|SnowCloak|Blizzard,FreezeDry,IceShard,TeraBlast|||F|||50|,,,,,Water]Indeedee-F||SafetyGoggles|PsychicSurge|TrickRoom,Psychic,HelpingHand,FollowMe|||F|||50|,,,,,Fairy]Armarouge||WeaknessPolicy|FlashFire|ArmorCannon,ExpandingForce,TrickRoom,Protect|||M|||50|,,,,,Psychic]Whimsicott||MentalHerb|Prankster|Moonblast,TrickRoom,Tailwind,HelpingHand|||F|||50|,,,,,Ghost]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by surprise blissey)
+|
+|t:|1757119719
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Volcarona|Volcarona, L50, F|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757119738
+|-terastallize|p1b: Ursaluna|Normal
+|move|p2a: Indeedee|Helping Hand|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Helping Hand|[of] p2a: Indeedee
+|move|p1a: Volcarona|Rage Powder|p1a: Volcarona
+|-singleturn|p1a: Volcarona|move: Rage Powder
+|move|p2b: Sneasler|Dire Claw|p1a: Volcarona
+|-damage|p1a: Volcarona|10/100
+|-status|p1a: Volcarona|slp
+|-enditem|p1a: Volcarona|Sitrus Berry|[eat]
+|-heal|p1a: Volcarona|35/100 slp|[from] item: Sitrus Berry
+|move|p1b: Ursaluna|Hyper Voice|p2a: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Indeedee|32/100
+|-damage|p2b: Sneasler|40/100
+|-damage|p1b: Ursaluna|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|2
+|
+|t:|1757119757
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|cant|p1a: Volcarona|slp
+|move|p2b: Sneasler|Close Combat|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|turn|3
+|
+|t:|1757119771
+|-curestatus|p1a: Volcarona|slp|[msg]
+|move|p1a: Volcarona|Rage Powder|p1a: Volcarona
+|-singleturn|p1a: Volcarona|move: Rage Powder
+|move|p2a: Indeedee|Psychic|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|faint|p1a: Volcarona
+|move|p1b: Ursaluna|Hyper Voice|p2b: Sneasler|[spread] p2a,p2b
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2a: Indeedee
+|faint|p2b: Sneasler
+|-damage|p1b: Ursaluna|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757119781
+|switch|p2a: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p1a: Annihilape|Annihilape, L50, M|100/100
+|switch|p2b: Glaceon|Glaceon, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|4
+|
+|t:|1757119796
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2b: Glaceon|Freeze-Dry|p1a: Tyranitar
+|-damage|p1a: Tyranitar|86/100
+|move|p1b: Ursaluna|Blood Moon|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|-damage|p1b: Ursaluna|72/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Glaceon|95/100|[from] Sandstorm
+|-damage|p1b: Ursaluna|66/100|[from] Sandstorm
+|upkeep
+|turn|5
+|-message|surprise blissey forfeited.
+|
+|win|dogggybears
+|raw|dogggybears's rating: 1230 → 1241(+11 for winning)
+|raw|surprise blissey's rating: 1000 → 1000(+0 for losing)
+|l|☆surprise blissey
+|player|p2|

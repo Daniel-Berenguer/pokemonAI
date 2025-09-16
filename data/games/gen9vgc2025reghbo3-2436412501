@@ -1,0 +1,133 @@
+|j|☆Siegfried_TV
+|j|☆emmanuel unchained
+|html|Siegfried_TVemmanuel unchained    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757175760
+|gametype|doubles
+|player|p1|Siegfried_TV|lance|1000
+|player|p2|emmanuel unchained|102|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p2|Slowking, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Clodsire, L50, F|
+|poke|p2|Hydrapple, L50, F|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fire]Hatterene||LifeOrb|MagicBounce|ExpandingForce,TrickRoom,DazzlingGleam,Protect|||F|||50|,,,,,Psychic]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,SacredSword,WideGuard|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,SwordsDance,Protect|||M|||50|,,,,,Ghost]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,SleepPowder,CloseCombat,AfterYou|||F|||50|,,,,,Ghost]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire
+|showteam|p2|Slowking||CovertCloak|Regenerator|ChillyReception,Protect,Scald,TrickRoom|||M|||50|,,,,,Water]Tyranitar||ChopleBerry|SandStream|RockSlide,KnockOff,Protect,Taunt|||M|||50|,,,,,Rock]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,Uturn|||F|||50|,,,,,Grass]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Grass]Clodsire||BlackSludge|Unaware|Haze,Recover,Protect,SludgeBomb|||F|||50|,,,,,Poison]Hydrapple||Leftovers|Regenerator|Protect,FickleBeam,GigaDrain,NastyPlot|||F|||50|,,,,,Grass
+|
+|t:|1757175803
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: MOIN|Indeedee-F, L50, F, shiny|100/100
+|switch|p1b: Meister|Hatterene, L50, F, shiny|100/100
+|switch|p2a: Slowking|Slowking, L50, M|100/100
+|switch|p2b: Clodsire|Clodsire, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: MOIN
+|-enditem|p1a: MOIN|Psychic Seed
+|-boost|p1a: MOIN|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757175843
+|move|p1a: MOIN|Helping Hand|p1b: Meister
+|-singleturn|p1b: Meister|Helping Hand|[of] p1a: MOIN
+|-prepare|p2a: Slowking|Chilly Reception|[premajor]
+|move|p2a: Slowking|Chilly Reception|p2a: Slowking
+|-weather|Snowscape
+|
+|t:|1757175859
+|switch|p2a: Hydrapple|Hydrapple, L50, F|100/100|[from] Chilly Reception
+|move|p2b: Clodsire|Sludge Bomb|p1b: Meister
+|-supereffective|p1b: Meister
+|-damage|p1b: Meister|58/100
+|move|p1b: Meister|Expanding Force|p2b: Clodsire|[spread] p2a,p2b
+|-supereffective|p2b: Clodsire
+|-damage|p2a: Hydrapple|0 fnt
+|-damage|p2b: Clodsire|0 fnt
+|faint|p2a: Hydrapple
+|faint|p2b: Clodsire
+|-damage|p1b: Meister|48/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1757175867
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2b: Slowking|Slowking, L50, M|100/100
+|turn|2
+|
+|t:|1757175883
+|move|p1b: Meister|Protect|p1b: Meister
+|-singleturn|p1b: Meister|Protect
+|move|p2a: Amoonguss|Spore|p1a: MOIN
+|-status|p1a: MOIN|slp|[from] move: Spore
+|move|p2b: Slowking|Scald|p1b: Meister
+|-activate|p1b: Meister|move: Protect
+|cant|p1a: MOIN|slp
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757175900
+|move|p2a: Amoonguss|Spore|p1b: Meister
+|move|p1b: Meister|Spore|p2a: Amoonguss|[from] ability: Magic Bounce
+|-immune|p2a: Amoonguss
+|move|p2b: Slowking|Scald|p1b: Meister
+|-damage|p1b: Meister|19/100
+|move|p1b: Meister|Expanding Force|p2a: Amoonguss|[spread] p2a,p2b
+|-supereffective|p2a: Amoonguss
+|-resisted|p2b: Slowking
+|-crit|p2b: Slowking
+|-damage|p2a: Amoonguss|0 fnt
+|-damage|p2b: Slowking|43/100
+|faint|p2a: Amoonguss
+|-damage|p1b: Meister|10/100|[from] item: Life Orb
+|-curestatus|p1a: MOIN|slp|[msg]
+|move|p1a: MOIN|Trick Room|p1a: MOIN
+|-fieldstart|move: Trick Room|[of] p1a: MOIN
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1757175923
+|switch|p1b: ist|Ursaluna, L50, M, shiny|100/100
+|move|p1a: MOIN|Follow Me|p1a: MOIN
+|-singleturn|p1a: MOIN|move: Follow Me
+|move|p2b: Slowking|Scald|p1a: MOIN
+|-damage|p1a: MOIN|83/100
+|
+|-weather|Snowscape|[upkeep]
+|-status|p1b: ist|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1757175934
+|move|p1a: MOIN|Helping Hand|p1b: ist
+|-singleturn|p1b: ist|Helping Hand|[of] p1a: MOIN
+|move|p2b: Slowking|Scald|p1b: ist
+|-supereffective|p1b: ist
+|-damage|p1b: ist|52/100 brn
+|move|p1b: ist|Facade|p2b: Slowking
+|-damage|p2b: Slowking|0 fnt
+|faint|p2b: Slowking
+|
+|win|Siegfried_TV
+|raw|Siegfried_TV's rating: 1000 → 1040(+40 for winning)
+|raw|emmanuel unchained's rating: 1000 → 1000(+0 for losing)
+|l|☆emmanuel unchained
+|player|p2|

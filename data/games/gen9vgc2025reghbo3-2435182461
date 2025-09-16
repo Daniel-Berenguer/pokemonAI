@@ -1,0 +1,110 @@
+|j|☆GoofyGifts
+|j|☆PlayzNSlayz
+|html|GoofyGiftsPlayzNSlayz    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757007094
+|gametype|doubles
+|player|p1|GoofyGifts|blue|
+|player|p2|PlayzNSlayz|parasollady|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Drifblim, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Kommo-o, L50, M|
+|poke|p1|Toxtricity, L50, M|
+|poke|p1|Hydreigon, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,Imprison,TrickRoom|||M|||50|,,,,,Ground]Drifblim||PsychicSeed|Unburden|Acrobatics,WillOWisp,StrengthSap,Tailwind|||M|||50|,,,,,Grass]Volcarona||LifeOrb|FlameBody|BugBuzz,HeatWave,TeraBlast,Protect|||F|||50|,,,,,Fairy]Kommo-o||Leftovers|Soundproof|BodyPress,Flamethrower,IronDefense,Protect|||M|||50|,,,,,Fire]Toxtricity||ChoiceSpecs|PunkRock|Overdrive,Boomburst,SludgeBomb,VoltSwitch|||M|||50|,,,,,Normal]Hydreigon||AssaultVest|Levitate|DarkPulse,DracoMeteor,EarthPower,Snarl|||M|||50|,,,,,Ghost
+|showteam|p2|Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,CloseCombat,SleepPowder,AfterYou|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TeraBlast,TrickRoom|||F|||50|,,,,,Fire]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,HelpingHand,TrickRoom,Psyshock|||F|||50|,,,,,Water]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire
+|
+|t:|1757007121
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Grooker|Toxtricity, L50, M, shiny|100/100
+|switch|p1b: Medic|Drifblim, L50, M|100/100
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1757007149
+|-terastallize|p1a: Grooker|Normal
+|-terastallize|p2a: Torkoal|Fire
+|move|p1b: Medic|Tailwind|p1b: Medic
+|-sidestart|p1: GoofyGifts|move: Tailwind
+|move|p1a: Grooker|Boomburst|p2a: Torkoal|[spread] p2a,p2b
+|-immune|p1b: Medic
+|-damage|p2a: Torkoal|0 fnt
+|-damage|p2b: Gallade|12/100
+|faint|p2a: Torkoal
+|move|p2b: Gallade|Sacred Sword|p1b: Medic
+|-immune|p1b: Medic
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757007162
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|turn|2
+|
+|t:|1757007185
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1b: Medic|Acrobatics|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|move|p1a: Grooker|Boomburst|p2b: Gallade|[spread] p2b
+|-activate|p2a: Ursaluna|move: Protect
+|-immune|p1b: Medic
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757007197
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p1b: Medic|Psychic Seed
+|-boost|p1b: Medic|spd|1|[from] item: Psychic Seed
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|3
+|
+|t:|1757007214
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Medic|Acrobatics|p2b: Indeedee
+|-damage|p2b: Indeedee|68/100
+|move|p1a: Grooker|Boomburst|p2a: Ursaluna|[spread] p2a,p2b
+|-immune|p1b: Medic
+|-damage|p2a: Ursaluna|13/100 brn
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p2a: Ursaluna|Facade|p1b: Medic
+|-immune|p1b: Medic
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|7/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1757007230
+|move|p1b: Medic|Acrobatics|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|win|GoofyGifts
+|l|☆PlayzNSlayz
+|player|p2|

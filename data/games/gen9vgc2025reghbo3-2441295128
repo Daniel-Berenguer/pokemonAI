@@ -1,0 +1,160 @@
+|j|☆Notaplaceofhonor
+|j|☆dcheng24
+|html|Notaplaceofhonordcheng24    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757825401
+|gametype|doubles
+|player|p1|Notaplaceofhonor|juan-gen3|1153
+|player|p2|dcheng24|170|1045
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Maushold-Four, L50|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Protect,Facade,Earthquake,HeadlongRush|||M|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|Taunt,FakeOut,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|ElectroShot,Snarl,DracoMeteor,BodyPress|||M|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|||M|||50|,,,,,Ghost]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,AquaJet|||M|||50|,,,,,Water]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,TrickRoom,RagePowder,LifeDew||||||50|,,,,,Water
+|showteam|p2|Amoonguss||QuickClaw|Regenerator|ClearSmog,Spore,PollenPuff,RagePowder|||F|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|Thunderbolt,Snarl,BodyPress,DragonPulse|||M|||50|,,,,,Dragon]Maushold-Four||CovertCloak|FriendGuard|FollowMe,PopulationBomb,Taunt,Encore||||||50|,,,,,Ghost]Primarina||Leftovers|Torrent|HelpingHand,Charm,LightScreen,Surf|||F|||50|,,,,,Water]Incineroar||RockyHelmet|Intimidate|KnockOff,Taunt,FakeOut,PartingShot|||M|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,EarthPower,Protect,HyperVoice|||M|||50|,,,,,Ground
+|
+|t:|1757825472
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Sinistcha|atk|1
+|turn|1
+|
+|t:|1757825508
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|move|p2b: Incineroar|Knock Off|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|92/100
+|-enditem|p1a: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1b: Sinistcha|Trick Room|p1b: Sinistcha
+|-fieldstart|move: Trick Room|[of] p1b: Sinistcha
+|
+|upkeep
+|turn|2
+|
+|t:|1757825540
+|move|p2a: Ursaluna|Blood Moon|p1b: Sinistcha
+|-damage|p1b: Sinistcha|13/100
+|-enditem|p1b: Sinistcha|Sitrus Berry|[eat]
+|-heal|p1b: Sinistcha|38/100|[from] item: Sitrus Berry
+|-damage|p2a: Ursaluna|91/100|[from] item: Life Orb
+|move|p2b: Incineroar|Knock Off|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha
+|-damage|p1b: Sinistcha|6/100
+|move|p1a: Incineroar|Parting Shot|p2a: Ursaluna
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2a: Ursaluna|spa|1
+|
+|t:|1757825552
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100|[from] Parting Shot
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Ursaluna|[spread] p2a
+|-miss|p1b: Sinistcha|p2b: Incineroar
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|30/100
+|-heal|p1b: Sinistcha|38/100|[from] drain|[of] p2a: Ursaluna
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1757825590
+|-terastallize|p2b: Incineroar|Grass
+|move|p1b: Sinistcha|Rage Powder|p1b: Sinistcha
+|-singleturn|p1b: Sinistcha|move: Rage Powder
+|move|p2a: Ursaluna|Hyper Voice|p1a: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|66/100 brn
+|-damage|p1b: Sinistcha|12/100
+|-damage|p2a: Ursaluna|21/100|[from] item: Life Orb
+|move|p2b: Incineroar|Knock Off|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha
+|-crit|p1b: Sinistcha
+|-damage|p1b: Sinistcha|0 fnt
+|faint|p1b: Sinistcha
+|move|p1a: Ursaluna|Earthquake|p2a: Ursaluna|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Ursaluna|0 fnt
+|-damage|p2b: Incineroar|71/100
+|faint|p2a: Ursaluna
+|
+|-damage|p1a: Ursaluna|60/100 brn|[from] brn
+|upkeep
+|
+|t:|1757825614
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|92/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Amoonguss|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|turn|4
+|
+|t:|1757825637
+|move|p1b: Incineroar|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|61/100
+|-damage|p1b: Incineroar|75/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|cant|p2b: Incineroar|flinch
+|move|p1a: Ursaluna|Facade|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|-damage|p1a: Ursaluna|54/100 brn|[from] brn
+|upkeep
+|
+|t:|1757825647
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|turn|5
+|
+|t:|1757825674
+|move|p2b: Incineroar|Parting Shot|p1a: Ursaluna
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1a: Ursaluna|spa|1
+|move|p1b: Incineroar|Knock Off|p2b: Incineroar
+|-damage|p2b: Incineroar|28/100
+|-damage|p1b: Incineroar|59/100|[from] item: Rocky Helmet|[of] p2b: Incineroar
+|-enditem|p2b: Incineroar|Rocky Helmet|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p1a: Ursaluna|Headlong Rush|p2a: Archaludon
+|-supereffective|p2a: Archaludon
+|-damage|p2a: Archaludon|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Archaludon
+|
+|-damage|p1a: Ursaluna|48/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1757825700
+|move|p1a: Ursaluna|Facade|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|win|Notaplaceofhonor
+|raw|Notaplaceofhonor's rating: 1153 → 1170(+17 for winning)
+|raw|dcheng24's rating: 1045 → 1033(-12 for losing)

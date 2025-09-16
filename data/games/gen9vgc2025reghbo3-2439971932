@@ -1,0 +1,250 @@
+|j|☆spearow's nest
+|j|☆dogwitdaglasses
+|html|spearow's nestdogwitdaglasses    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757642613
+|gametype|doubles
+|player|p1|spearow's nest|lance|
+|player|p2|dogwitdaglasses|guzma|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Flamigo, L50, M|
+|teampreview|4
+|showteam|p1|Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|Protect,ScaleShot,LowKick,Haze|||M|||50|,,,,,Fairy]Sneasler||WhiteHerb|Unburden|Protect,DireClaw,CloseCombat,Coaching|||M|||50|,,,,,Ghost]Ninetales-Alola||ChoiceSpecs|SnowWarning|Blizzard,IcyWind,Moonblast,FreezeDry|||F|||50|,,,,,Ghost]Kingambit||SafetyGoggles|Defiant|Protect,KowtowCleave,SuckerPunch,SwordsDance|||M|||50|,,,,,Dark]Volcarona||LumBerry|FlameBody|StruggleBug,RagePowder,Overheat,WillOWisp|||M|||50|,,,,,Fire
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|KnockOff,FlareBlitz,PartingShot,FakeOut|||M|||50|,,,,,Grass]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Amoonguss||MentalHerb|Regenerator|Spore,RagePowder,PollenPuff,SludgeBomb|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Normal]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Flamigo||FocusSash|Scrappy|CloseCombat,BraveBird,WideGuard,Protect|||M|||50|,,,,,Ghost
+|
+|t:|1757642739
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|switch|p1b: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p2b: Flamigo|Flamigo, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|turn|1
+|
+|t:|1757642755
+|move|p2b: Flamigo|Protect|p2b: Flamigo
+|-singleturn|p2b: Flamigo|Protect
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Sneasler|Dire Claw|p2b: Flamigo
+|-activate|p2b: Flamigo|move: Protect
+|move|p1b: Ninetales|Moonblast|p2b: Flamigo
+|-activate|p2b: Flamigo|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1757642777
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|-terastallize|p1a: Sneasler|Ghost
+|move|p1a: Sneasler|Close Combat|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|24/100 brn
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-enditem|p1a: Sneasler|White Herb
+|-clearnegativeboost|p1a: Sneasler|[silent]
+|move|p1b: Ninetales|Moonblast|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1757642789
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|atk|1
+|turn|3
+|
+|t:|1757642823
+|move|p1a: Sneasler|Dire Claw|p2b: Amoonguss
+|-damage|p2b: Amoonguss|70/100
+|move|p1b: Ninetales|Moonblast|p2a: Porygon2
+|-damage|p2a: Porygon2|66/100
+|-unboost|p2a: Porygon2|spa|1
+|move|p2b: Amoonguss|Spore|p1b: Ninetales
+|-status|p1b: Ninetales|slp|[from] move: Spore
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1757642844
+|switch|p2a: Flamigo|Flamigo, L50, M|100/100
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|move|p2b: Amoonguss|Sludge Bomb|p1b: Kingambit
+|-immune|p1b: Kingambit
+|move|p1a: Sneasler|Coaching|p1b: Kingambit
+|-boost|p1b: Kingambit|atk|1
+|-boost|p1b: Kingambit|def|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757642864
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|move|p1b: Kingambit|Protect|p1b: Kingambit
+|-singleturn|p1b: Kingambit|Protect
+|move|p2b: Amoonguss|Spore|p1a: Volcarona
+|-status|p1a: Volcarona|slp|[from] move: Spore
+|-enditem|p1a: Volcarona|Lum Berry|[eat]
+|-curestatus|p1a: Volcarona|slp|[msg]
+|move|p2a: Flamigo|Close Combat|p1b: Kingambit
+|-activate|p1b: Kingambit|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1757642882
+|move|p1a: Volcarona|Rage Powder|p1a: Volcarona
+|-singleturn|p1a: Volcarona|move: Rage Powder
+|move|p2b: Amoonguss|Pollen Puff|p2a: Flamigo
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Flamigo
+|-resisted|p2a: Flamigo
+|-damage|p2a: Flamigo|51/100
+|move|p2a: Flamigo|Brave Bird|p1a: Volcarona
+|-supereffective|p1a: Volcarona
+|-damage|p1a: Volcarona|0 fnt
+|-status|p2a: Flamigo|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|faint|p1a: Volcarona
+|-damage|p2a: Flamigo|11/100 brn|[from] Recoil
+|
+|-damage|p2a: Flamigo|6/100 brn|[from] brn
+|upkeep
+|
+|t:|1757642927
+|switch|p1a: Ninetales|Ninetales-Alola, L50, F|100/100 slp
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|7
+|
+|t:|1757642941
+|move|p2b: Amoonguss|Sludge Bomb|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|41/100 slp
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Flamigo
+|-resisted|p2a: Flamigo
+|-damage|p2a: Flamigo|0 fnt
+|faint|p2a: Flamigo
+|cant|p1a: Ninetales|slp
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1757642946
+|switch|p2a: Porygon2|Porygon2, L50|66/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|spa|1
+|turn|8
+|
+|t:|1757642973
+|-terastallize|p2a: Porygon2|Fighting
+|move|p1b: Kingambit|Sucker Punch|p2b: Amoonguss
+|-damage|p2b: Amoonguss|23/100
+|cant|p1a: Ninetales|slp
+|move|p2a: Porygon2|Tera Blast|p1b: Kingambit|[anim] Tera Blast Fighting
+|-supereffective|p1b: Kingambit
+|-damage|p1b: Kingambit|0 fnt
+|faint|p1b: Kingambit
+|move|p2b: Amoonguss|Pollen Puff|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1757642981
+|switch|p1b: Sneasler|Sneasler, L50, M, tera:Ghost|100/100
+|turn|9
+|
+|t:|1757642994
+|move|p1b: Sneasler|Dire Claw|p2a: Porygon2
+|-damage|p2a: Porygon2|81/100
+|cant|p1a: Ninetales|slp
+|move|p2b: Amoonguss|Spore|p1b: Sneasler
+|-status|p1b: Sneasler|slp|[from] move: Spore
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1757643009
+|move|p2b: Amoonguss|Pollen Puff|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|move|p2a: Porygon2|Tera Blast|p1a: Ninetales|[anim] Tera Blast Fighting
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|cant|p1b: Sneasler|slp
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1757643033
+|cant|p1b: Sneasler|slp
+|move|p2b: Amoonguss|Sludge Bomb|p1b: Sneasler
+|-resisted|p1b: Sneasler
+|-damage|p1b: Sneasler|84/100 slp
+|move|p2a: Porygon2|Ice Beam|p1b: Sneasler
+|-damage|p1b: Sneasler|38/100 slp
+|
+|-weather|none
+|upkeep
+|turn|12
+|
+|t:|1757643044
+|-curestatus|p1b: Sneasler|slp|[msg]
+|move|p1b: Sneasler|Protect|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Protect
+|move|p2b: Amoonguss|Sludge Bomb|p1b: Sneasler
+|-activate|p1b: Sneasler|move: Protect
+|move|p2a: Porygon2|Ice Beam|p1b: Sneasler
+|-activate|p1b: Sneasler|move: Protect
+|
+|upkeep
+|turn|13
+|
+|t:|1757643050
+|move|p1b: Sneasler|Protect||[still]
+|-fail|p1b: Sneasler
+|move|p2b: Amoonguss|Spore|p1b: Sneasler
+|-status|p1b: Sneasler|slp|[from] move: Spore
+|move|p2a: Porygon2|Recover||[still]
+|-fail|p2a: Porygon2|heal
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|t:|1757643067
+|cant|p1b: Sneasler|slp
+|move|p2a: Porygon2|Ice Beam|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|
+|win|dogwitdaglasses

@@ -1,0 +1,173 @@
+|j|☆wideguard_user
+|j|☆KodeBeast0526
+|html|wideguard_userKodeBeast0526    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756949967
+|gametype|doubles
+|player|p1|wideguard_user|265|
+|player|p2|KodeBeast0526|sailor|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Arcanine-Hisui, L50, M|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Corviknight, L50, F|
+|poke|p2|Annihilape, L50, F|
+|teampreview|4
+|showteam|p1|Gholdengo||GrassySeed|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Sneasler||WhiteHerb|Unburden|DireClaw,CloseCombat,Coaching,Protect|||F|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|GrassyGlide,DrumBeating,FakeOut,HighHorsepower|||F|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,StompingTantrum,Protect|||F|||50|,,,,,Ground]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,IcyWind,Encore,AuroraVeil|||F|||50|,,,,,Ghost]Arcanine-Hisui||ClearAmulet|Intimidate|FlareBlitz,RockSlide,ExtremeSpeed,Protect|||M|||50|,,,,,Water
+|showteam|p2|Excadrill||FocusSash|SandRush|IronHead,HighHorsepower,Earthquake,Protect|||M|||50|,,,,,Stellar]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Protect,Trick|||M|||50|,,,,,Psychic]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Roost,Tailwind|||F|||50|,,,,,Dragon]Annihilape||SafetyGoggles|Defiant|CloseCombat,FinalGambit,RageFist,Taunt|||F|||50|,,,,,Water
+|
+|t:|1756950006
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M, shiny|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-enditem|p1a: Gholdengo|Grassy Seed
+|-boost|p1a: Gholdengo|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1756950057
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p2a: Indeedee|Trick|p1b: Rillaboom
+|-activate|p2a: Indeedee|move: Trick|[of] p1b: Rillaboom
+|-item|p1b: Rillaboom|Choice Scarf|[from] move: Trick
+|-item|p2a: Indeedee|Assault Vest|[from] move: Trick
+|move|p1b: Rillaboom|High Horsepower|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Protect
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1756950090
+|move|p2b: Sneasler|Throat Chop|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|60/100
+|-start|p1a: Gholdengo|Throat Chop|[silent]
+|move|p1b: Rillaboom|High Horsepower|p2b: Sneasler|[miss]
+|-miss|p1b: Rillaboom|p2b: Sneasler
+|move|p2a: Indeedee|Expanding Force|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|41/100
+|move|p1a: Gholdengo|Shadow Ball|p2b: Sneasler
+|-damage|p2b: Sneasler|26/100
+|
+|-heal|p2b: Sneasler|32/100|[from] Grassy Terrain
+|-heal|p1a: Gholdengo|47/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756950105
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2b: Sneasler|Dire Claw|p1b: Dragonite
+|-damage|p1b: Dragonite|73/100
+|move|p2a: Indeedee|Expanding Force|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|
+|-heal|p2b: Sneasler|38/100|[from] Grassy Terrain
+|-heal|p1a: Gholdengo|54/100|[from] Grassy Terrain
+|-end|p1a: Gholdengo|Throat Chop|[silent]
+|upkeep
+|turn|4
+|
+|t:|1756950156
+|switch|p2a: Tyranitar|Tyranitar, L50, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p2b: Sneasler|Throat Chop|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|13/100
+|-start|p1a: Gholdengo|Throat Chop|[silent]
+|move|p1a: Gholdengo|Make It Rain|p2a: Tyranitar|[spread] p2a,p2b
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|38/100
+|-damage|p2b: Sneasler|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2b: Sneasler
+|move|p1b: Dragonite|Scale Shot|p2a: Tyranitar
+|-damage|p2a: Tyranitar|26/100
+|-damage|p2a: Tyranitar|14/100
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|-hitcount|p2: Tyranitar|3
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Dragonite|67/100|[from] Sandstorm
+|-heal|p1a: Gholdengo|19/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756950169
+|switch|p2b: Excadrill|Excadrill, L50, M, shiny|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|5
+|
+|t:|1756950204
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2b: Excadrill|Iron Head|p1b: Rillaboom
+|-damage|p1b: Rillaboom|53/100
+|move|p2a: Indeedee|Expanding Force|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Rillaboom|47/100|[from] Sandstorm
+|-damage|p2a: Indeedee|95/100|[from] Sandstorm
+|-heal|p1b: Rillaboom|53/100|[from] Grassy Terrain
+|-heal|p2a: Indeedee|100/100|[from] Grassy Terrain
+|-heal|p1a: Gholdengo|25/100|[from] Grassy Terrain
+|-end|p1a: Gholdengo|Throat Chop|[silent]
+|upkeep
+|turn|6
+|
+|t:|1756950236
+|-terastallize|p2a: Indeedee|Psychic
+|move|p2b: Excadrill|Iron Head|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|11/100
+|move|p1b: Rillaboom|Drum Beating|p2b: Excadrill
+|-damage|p2b: Excadrill|24/100
+|-unboost|p2b: Excadrill|spe|1
+|move|p2a: Indeedee|Expanding Force|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|move|p1a: Gholdengo|Make It Rain|p2a: Indeedee|[spread] p2a,p2b
+|-crit|p2a: Indeedee
+|-resisted|p2b: Excadrill
+|-damage|p2a: Indeedee|6/100
+|-damage|p2b: Excadrill|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2b: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Indeedee|0 fnt|[from] Sandstorm
+|faint|p2a: Indeedee
+|
+|win|wideguard_user
+|l|☆wideguard_user
+|player|p1|

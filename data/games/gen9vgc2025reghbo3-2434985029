@@ -1,0 +1,234 @@
+|j|☆battle gym trainer
+|j|☆elziko
+|html|battle gym trainerelziko    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756984068
+|gametype|doubles
+|player|p1|battle gym trainer|turo|1045
+|player|p2|elziko|caitlin|1087
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pincurchin, L50, F|
+|poke|p1|Toxtricity-Low-Key, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Araquanid, L50, F|
+|poke|p1|Bronzong, L50|
+|poke|p1|Archaludon, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Flamigo, L50, F|
+|teampreview|4
+|showteam|p1|Pincurchin||EjectButton|ElectricSurge|Protect,RainDance,ZingZap,Recover|||F|||50|,,,,,Electric]Toxtricity-Low-Key||LifeOrb|PunkRock|Protect,Overdrive,Boomburst,SludgeBomb|||F|||50|,,,,,Electric]Sinistcha||SitrusBerry|Hospitality|TrickRoom,LifeDew,RagePowder,GigaDrain||||||50|,,,,,Dark]Araquanid||MysticWater|WaterBubble|Liquidation,Soak,WideGuard,Protect|||F|||50|,,,,,Water]Bronzong||ElectricSeed|Heatproof|BodyPress,IronDefense,HelpingHand,TrickRoom||||||50|,,,,,Flying]Archaludon||PowerHerb|Sturdy|ElectroShot,DragonPulse,FlashCannon,DarkPulse|||M|||50|,,,,,Electric
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Kingambit||LifeOrb|Defiant|KowtowCleave,IronHead,Protect,SuckerPunch|||M|||50|,,,,,Dark]Amoonguss||MentalHerb|Regenerator|Protect,Spore,RagePowder,SludgeBomb|||F|||50|,,,,,Water]Porygon2||Eviolite|Download|TrickRoom,TeraBlast,IceBeam,Protect||||||50|,,,,,Flying]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Protect,Earthquake|||F|||50|,,,,,Normal]Flamigo||FocusSash|Scrappy|CloseCombat,BraveBird,WideGuard,Protect|||F|||50|,,,,,Flying
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by elziko)
+|
+|t:|1756984122
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Bronzong|Bronzong, L50|100/100
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|switch|p2a: Flamigo|Flamigo, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Bronzong|atk|1
+|-unboost|p1b: Sinistcha|atk|1
+|turn|1
+|
+|t:|1756984145
+|switch|p1a: Pincurchin|Pincurchin, L50, F|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Pincurchin
+|-terastallize|p1b: Sinistcha|Dark
+|move|p2a: Flamigo|Close Combat|p1a: Pincurchin
+|-damage|p1a: Pincurchin|40/100
+|-unboost|p2a: Flamigo|def|1
+|-unboost|p2a: Flamigo|spd|1
+|-enditem|p1a: Pincurchin|Eject Button
+|
+|t:|1756984161
+|switch|p1a: Bronzong|Bronzong, L50|100/100
+|-enditem|p1a: Bronzong|Electric Seed
+|-boost|p1a: Bronzong|def|1|[from] item: Electric Seed
+|move|p2b: Incineroar|Parting Shot|p1b: Sinistcha
+|-unboost|p1b: Sinistcha|atk|1
+|-unboost|p1b: Sinistcha|spa|1
+|
+|t:|1756984164
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100|[from] Parting Shot
+|move|p1b: Sinistcha|Trick Room|p1b: Sinistcha
+|-fieldstart|move: Trick Room|[of] p1b: Sinistcha
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1756984188
+|move|p1b: Sinistcha|Rage Powder|p1b: Sinistcha
+|-singleturn|p1b: Sinistcha|move: Rage Powder
+|move|p1a: Bronzong|Iron Defense|p1a: Bronzong
+|-boost|p1a: Bronzong|def|2
+|move|p2b: Ursaluna|Headlong Rush|p1b: Sinistcha
+|-damage|p1b: Sinistcha|25/100
+|-unboost|p2b: Ursaluna|def|1
+|-unboost|p2b: Ursaluna|spd|1
+|-enditem|p1b: Sinistcha|Sitrus Berry|[eat]
+|-heal|p1b: Sinistcha|49/100|[from] item: Sitrus Berry
+|move|p2a: Flamigo|Close Combat|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha
+|-damage|p1b: Sinistcha|0 fnt
+|-unboost|p2a: Flamigo|def|1
+|-unboost|p2a: Flamigo|spd|1
+|faint|p1b: Sinistcha
+|
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756984209
+|switch|p1b: Archaludon|Archaludon, L50, M, shiny|100/100
+|turn|3
+|
+|t:|1756984227
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Bronzong|atk|1
+|-unboost|p1b: Archaludon|atk|1
+|move|p1a: Bronzong|Body Press|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p1b: Archaludon|Dragon Pulse|p2a: Flamigo
+|-enditem|p2a: Flamigo|Focus Sash
+|-damage|p2a: Flamigo|1/100
+|move|p2a: Flamigo|Close Combat|p1b: Archaludon
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|17/100
+|-unboost|p2a: Flamigo|def|1
+|-unboost|p2a: Flamigo|spd|1
+|
+|upkeep
+|
+|t:|1756984238
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|turn|4
+|inactive|battle gym trainer has 30 seconds left.
+|inactive|elziko has 30 seconds left.
+|
+|t:|1756984267
+|move|p2a: Flamigo|Protect|p2a: Flamigo
+|-singleturn|p2a: Flamigo|Protect
+|move|p1a: Bronzong|Body Press|p2a: Flamigo
+|-activate|p2a: Flamigo|move: Protect
+|move|p2b: Amoonguss|Spore|p1b: Archaludon
+|-activate|p1b: Archaludon|move: Electric Terrain
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-enditem|p1b: Archaludon|Power Herb
+|-anim|p1b: Archaludon|Electro Shot|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-crit|p2b: Amoonguss
+|-damage|p2b: Amoonguss|58/100
+|
+|upkeep
+|turn|5
+|c|☆elziko|Hm.
+|c|☆elziko|Well
+|inactive|battle gym trainer has 30 seconds left.
+|
+|t:|1756984296
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1a: Bronzong|Body Press|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|24/100
+|move|p1b: Archaludon|Dragon Pulse|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|move|p2a: Flamigo|Close Combat|p1b: Archaludon
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|-unboost|p2a: Flamigo|def|1
+|-unboost|p2a: Flamigo|spd|1
+|faint|p1b: Archaludon
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Electric Terrain
+|upkeep
+|
+|t:|1756984308
+|switch|p1b: Pincurchin|Pincurchin, L50, F|40/100
+|switch|p2b: Ursaluna|Ursaluna, L50, F|95/100 brn
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1b: Pincurchin
+|turn|6
+|c|☆battle gym trainer|F
+|c|☆battle gym trainer|Neee protect on arc
+|inactive|battle gym trainer has 30 seconds left.
+|inactive|elziko has 30 seconds left.
+|inactive|battle gym trainer has 20 seconds left.
+|
+|t:|1756984348
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p2a: Flamigo|Close Combat|p1b: Pincurchin
+|-damage|p1b: Pincurchin|0 fnt
+|-unboost|p2a: Flamigo|def|1
+|-unboost|p2a: Flamigo|spd|1
+|faint|p1b: Pincurchin
+|move|p1a: Bronzong|Body Press|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|
+|-damage|p2b: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|turn|7
+|c|☆battle gym trainer|Ggwp
+|inactive|elziko has 30 seconds left.
+|
+|t:|1756984374
+|-terastallize|p2b: Ursaluna|Normal
+|move|p2a: Flamigo|Close Combat|p1a: Bronzong
+|-damage|p1a: Bronzong|83/100
+|-unboost|p2a: Flamigo|def|1
+|-unboost|p2a: Flamigo|spd|1
+|move|p2b: Ursaluna|Facade|p1a: Bronzong
+|-resisted|p1a: Bronzong
+|-damage|p1a: Bronzong|60/100
+|move|p1a: Bronzong|Body Press|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|
+|upkeep
+|turn|8
+|c|☆elziko|Dang
+|c|☆elziko|Did you tera
+|c|☆elziko|FUCK IM DUMB
+|c|☆elziko|You terad already
+|inactive|elziko has 30 seconds left.
+|c|☆battle gym trainer|XD
+|c|☆elziko|I would have won
+|inactive|elziko has 20 seconds left.
+|c|☆elziko|Maybe
+|inactive|elziko has 15 seconds left.
+|
+|t:|1756984414
+|move|p2a: Flamigo|Close Combat|p1a: Bronzong
+|-damage|p1a: Bronzong|44/100
+|move|p1a: Bronzong|Body Press|p2a: Flamigo
+|-resisted|p2a: Flamigo
+|-damage|p2a: Flamigo|0 fnt
+|faint|p2a: Flamigo
+|
+|win|battle gym trainer
+|raw|battle gym trainer's rating: 1045 → 1082(+37 for winning)
+|raw|elziko's rating: 1087 → 1061(-26 for losing)
+|c|☆battle gym trainer|We both did same mistake
+|c|☆battle gym trainer|Lol
+|j| champninjastar
+|c|☆elziko|Opposite mistake

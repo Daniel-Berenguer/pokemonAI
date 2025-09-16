@@ -1,0 +1,278 @@
+|j|☆AemBigChilling
+|j|☆The median voter
+|html|AemBigChillingThe median voter    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1757017258
+|gametype|doubles
+|player|p1|AemBigChilling|lass-gen4|1211
+|player|p2|The median voter|scientist-gen4dp|1260
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,DragonPulse|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|IceBeam,TeraBlast,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,SleepTalk|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||M|||50|,,,,,Grass]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||M|||50|,,,,,Flying]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,IcePunch|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|IronHead,Protect,Earthquake,HighHorsepower|||M|||50|,,,,,Ground
+|
+|t:|1757017303
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Porygon2|Porygon2, L50|100/100
+|switch|p1b: Charizard|Charizard, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Annihilape|Annihilape, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|atk|1
+|turn|1
+|
+|t:|1757017338
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-terastallize|p2a: Indeedee|Psychic
+|move|p2a: Indeedee|Expanding Force|p1b: Charizard|[spread] p1a,p1b
+|-damage|p1a: Torkoal|4/100
+|-damage|p1b: Charizard|0 fnt
+|faint|p1b: Charizard
+|move|p2b: Annihilape|Final Gambit|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p2b: Annihilape
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757017355
+|switch|p1b: Porygon2|Porygon2, L50|100/100
+|switch|p2b: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Tyranitar|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|atk|1
+|turn|2
+|
+|t:|1757017382
+|move|p2a: Indeedee|Expanding Force|p1a: Incineroar|[spread] p1b
+|-immune|p1a: Incineroar
+|-crit|p1b: Porygon2
+|-damage|p1b: Porygon2|32/100
+|move|p1a: Incineroar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-enditem|p2a: Indeedee|Choice Scarf|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2a: Indeedee
+|move|p2b: Tyranitar|Rock Slide|p1b: Porygon2|[spread] p1a
+|-miss|p2b: Tyranitar|p1b: Porygon2
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|58/100
+|move|p1b: Porygon2|Trick Room|p1b: Porygon2
+|-fieldstart|move: Trick Room|[of] p1b: Porygon2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Porygon2|25/100|[from] Sandstorm
+|-damage|p1a: Incineroar|52/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757017392
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|3
+|
+|t:|1757017437
+|move|p1b: Porygon2|Recover|p1b: Porygon2
+|-heal|p1b: Porygon2|75/100
+|move|p2b: Tyranitar|Rock Slide|p1b: Porygon2|[spread] p1a,p1b
+|-supereffective|p1a: Incineroar
+|-crit|p1b: Porygon2
+|-damage|p1a: Incineroar|9/100
+|-damage|p1b: Porygon2|44/100
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|34/100|[from] item: Sitrus Berry
+|cant|p1a: Incineroar|flinch
+|move|p2a: Sneasler|Dire Claw|p1b: Porygon2
+|-damage|p1b: Porygon2|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Porygon2|8/100|[from] Sandstorm
+|-damage|p1a: Incineroar|28/100|[from] Sandstorm
+|-damage|p2a: Sneasler|95/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1757017459
+|-terastallize|p1a: Incineroar|Ghost
+|move|p1b: Porygon2|Recover|p1b: Porygon2
+|-heal|p1b: Porygon2|58/100
+|move|p2b: Tyranitar|Rock Slide|p1a: Incineroar|[spread] p1a,p1b
+|-damage|p1a: Incineroar|9/100
+|-damage|p1b: Porygon2|44/100
+|move|p1a: Incineroar|Flare Blitz|p2a: Sneasler
+|-crit|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|-damage|p1a: Incineroar|0 fnt|[from] Recoil
+|faint|p1a: Incineroar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Porygon2|37/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1757017487
+|move|p1b: Porygon2|Ice Beam|p2b: Tyranitar
+|-damage|p2b: Tyranitar|87/100
+|move|p2b: Tyranitar|Knock Off|p1b: Porygon2
+|-damage|p1b: Porygon2|15/100
+|-enditem|p1b: Porygon2|Eviolite|[from] move: Knock Off|[of] p2b: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Porygon2|9/100|[from] Sandstorm
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1757017496
+|move|p1b: Porygon2|Recover|p1b: Porygon2
+|-heal|p1b: Porygon2|59/100
+|move|p2b: Tyranitar|Rock Slide|p1b: Porygon2
+|-damage|p1b: Porygon2|32/100
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1757017503
+|move|p2b: Tyranitar|Rock Slide|p1b: Porygon2
+|-damage|p1b: Porygon2|4/100
+|move|p1b: Porygon2|Recover|p1b: Porygon2
+|-heal|p1b: Porygon2|54/100
+|
+|upkeep
+|turn|8
+|
+|t:|1757017508
+|move|p2b: Tyranitar|Rock Slide|p1b: Porygon2
+|-damage|p1b: Porygon2|25/100
+|move|p1b: Porygon2|Recover|p1b: Porygon2
+|-heal|p1b: Porygon2|75/100
+|
+|upkeep
+|turn|9
+|
+|t:|1757017513
+|move|p2b: Tyranitar|Ice Punch|p1b: Porygon2
+|-damage|p1b: Porygon2|56/100
+|move|p1b: Porygon2|Trick Room|p1b: Porygon2
+|-fieldstart|move: Trick Room|[of] p1b: Porygon2
+|
+|upkeep
+|turn|10
+|
+|t:|1757017521
+|move|p1b: Porygon2|Ice Beam|p2b: Tyranitar
+|-damage|p2b: Tyranitar|67/100
+|move|p2b: Tyranitar|Ice Punch|p1b: Porygon2
+|-damage|p1b: Porygon2|35/100
+|
+|upkeep
+|turn|11
+|
+|t:|1757017530
+|move|p1b: Porygon2|Recover|p1b: Porygon2
+|-heal|p1b: Porygon2|85/100
+|move|p2b: Tyranitar|Ice Punch|p1b: Porygon2
+|-crit|p1b: Porygon2
+|-damage|p1b: Porygon2|44/100
+|
+|upkeep
+|turn|12
+|
+|t:|1757017533
+|move|p1b: Porygon2|Recover|p1b: Porygon2
+|-heal|p1b: Porygon2|94/100
+|move|p2b: Tyranitar|Ice Punch|p1b: Porygon2
+|-damage|p1b: Porygon2|74/100
+|
+|upkeep
+|turn|13
+|
+|t:|1757017539
+|move|p1b: Porygon2|Ice Beam|p2b: Tyranitar
+|-damage|p2b: Tyranitar|49/100
+|move|p2b: Tyranitar|Ice Punch|p1b: Porygon2
+|-damage|p1b: Porygon2|55/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|14
+|
+|t:|1757017547
+|move|p2b: Tyranitar|Rock Slide|p1b: Porygon2
+|-damage|p1b: Porygon2|25/100
+|move|p1b: Porygon2|Trick Room|p1b: Porygon2
+|-fieldstart|move: Trick Room|[of] p1b: Porygon2
+|
+|upkeep
+|turn|15
+|
+|t:|1757017553
+|move|p1b: Porygon2|Recover|p1b: Porygon2
+|-heal|p1b: Porygon2|75/100
+|move|p2b: Tyranitar|Ice Punch|p1b: Porygon2
+|-damage|p1b: Porygon2|56/100
+|
+|upkeep
+|turn|16
+|
+|t:|1757017556
+|move|p1b: Porygon2|Ice Beam|p2b: Tyranitar
+|-damage|p2b: Tyranitar|30/100
+|move|p2b: Tyranitar|Ice Punch|p1b: Porygon2
+|-damage|p1b: Porygon2|37/100
+|
+|upkeep
+|turn|17
+|
+|t:|1757017562
+|move|p1b: Porygon2|Ice Beam|p2b: Tyranitar
+|-damage|p2b: Tyranitar|13/100
+|move|p2b: Tyranitar|Rock Slide|p1b: Porygon2
+|-damage|p1b: Porygon2|9/100
+|
+|upkeep
+|turn|18
+|
+|t:|1757017568
+|move|p1b: Porygon2|Ice Beam|p2b: Tyranitar
+|-damage|p2b: Tyranitar|0 fnt
+|faint|p2b: Tyranitar
+|
+|win|AemBigChilling
+|raw|AemBigChilling's rating: 1211 → 1240(+29 for winning)
+|raw|The median voter's rating: 1260 → 1231(-29 for losing)
+|c|☆AemBigChilling|what a terrible game
+|c|☆AemBigChilling|ggs
+|c|☆AemBigChilling|good lead game 2
+|c|☆AemBigChilling|are you 252 spa on indeedee?
+|l|☆The median voter
+|player|p2|

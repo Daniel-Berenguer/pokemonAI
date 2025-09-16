@@ -1,0 +1,142 @@
+|j|☆ItsgoodSteve
+|j|☆Isam_26011
+|html|ItsgoodSteveIsam_26011    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757015482
+|gametype|doubles
+|player|p1|ItsgoodSteve|101|1049
+|player|p2|Isam_26011|n|1075
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Politoed, L50, F|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Sunflora, L50, M|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Politoed||Leftovers|Drizzle|Protect,PerishSong,WeatherBall,HelpingHand|||F|||50|,,,,,Grass]Gothitelle||SitrusBerry|ShadowTag|FakeOut,TrickRoom,Protect,Psychic|||M|||50|,,,,,Dark]Ursaluna||FlameOrb|Guts|HeadlongRush,Protect,Facade,Earthquake|||F|||50|,,,,,Ghost]Archaludon||PowerHerb|Stamina|ElectroShot,BodyPress,FlashCannon,Protect|||F|||50|,,,,,Electric]Basculegion||FocusSash|SwiftSwim|WaveCrash,Protect,LastRespects,AquaJet|||M|||50|,,,,,Grass]Whimsicott||CovertCloak|Prankster|Moonblast,Tailwind,Encore,Protect|||M|||50|,,,,,Water
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fire]Hatterene||LifeOrb|MagicBounce|ExpandingForce,TrickRoom,DazzlingGleam,Protect|||F|||50|,,,,,Psychic]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,SacredSword,WideGuard|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,SwordsDance,Protect|||M|||50|,,,,,Ghost]Sunflora||AssaultVest|SolarPower|EnergyBall,WeatherBall,SludgeBomb,EarthPower|||M|||50|,,,,,Fire]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire
+|
+|t:|1757015524
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Basculegion|Basculegion, L50, M, shiny|100/100
+|switch|p1b: Politoed|Politoed, L50, F, shiny|100/100
+|switch|p2a: Paty|Indeedee-F, L50, F, shiny|100/100
+|switch|p2b: Acelga|Hatterene, L50, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Politoed
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Paty
+|-enditem|p2a: Paty|Psychic Seed
+|-boost|p2a: Paty|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757015541
+|switch|p1a: Gothitelle|Gothitelle, L50, M, shiny|100/100
+|move|p2b: Acelga|Protect|p2b: Acelga
+|-singleturn|p2b: Acelga|Protect
+|move|p1b: Politoed|Perish Song|p1b: Politoed
+|-start|p1a: Gothitelle|perish3|[silent]
+|-start|p1b: Politoed|perish3|[silent]
+|-start|p2a: Paty|perish3|[silent]
+|-start|p2b: Acelga|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Paty|Trick Room|p2a: Paty
+|-fieldstart|move: Trick Room|[of] p2a: Paty
+|
+|-weather|RainDance|[upkeep]
+|-start|p2b: Acelga|perish3
+|-start|p1a: Gothitelle|perish3
+|-start|p2a: Paty|perish3
+|-start|p1b: Politoed|perish3
+|upkeep
+|turn|2
+|
+|t:|1757015565
+|switch|p1b: Archaludon|Archaludon, L50, F, shiny|100/100
+|move|p2a: Paty|Helping Hand|p2b: Acelga
+|-singleturn|p2b: Acelga|Helping Hand|[of] p2a: Paty
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2b: Acelga|Dazzling Gleam|p1b: Archaludon|[spread] p1b
+|-activate|p1a: Gothitelle|move: Protect
+|-damage|p1b: Archaludon|17/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|-damage|p2b: Acelga|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-start|p2b: Acelga|perish2
+|-start|p1a: Gothitelle|perish2
+|-start|p2a: Paty|perish2
+|upkeep
+|turn|3
+|
+|t:|1757015589
+|switch|p1b: Politoed|Politoed, L50, F, shiny|100/100
+|-terastallize|p1a: Gothitelle|Dark
+|move|p2a: Paty|Helping Hand|p2b: Acelga
+|-singleturn|p2b: Acelga|Helping Hand|[of] p2a: Paty
+|move|p2b: Acelga|Dazzling Gleam|p1a: Gothitelle|[spread] p1a,p1b
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|0 fnt
+|-damage|p1b: Politoed|50/100
+|faint|p1a: Gothitelle
+|-damage|p2b: Acelga|82/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Politoed|56/100|[from] item: Leftovers
+|-start|p2b: Acelga|perish1
+|-start|p2a: Paty|perish1
+|upkeep
+|
+|t:|1757015604
+|switch|p1a: Archaludon|Archaludon, L50, F, shiny|17/100
+|turn|4
+|
+|t:|1757015631
+|move|p1a: Archaludon|Protect|p1a: Archaludon
+|-singleturn|p1a: Archaludon|Protect
+|move|p1b: Politoed|Perish Song|p1b: Politoed
+|-start|p1a: Archaludon|perish3|[silent]
+|-start|p1b: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2b: Acelga|Trick Room|p2b: Acelga
+|-fieldend|move: Trick Room
+|move|p2a: Paty|Trick Room|p2a: Paty
+|-fieldstart|move: Trick Room|[of] p2a: Paty
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Politoed|62/100|[from] item: Leftovers
+|-start|p2b: Acelga|perish0
+|-start|p2a: Paty|perish0
+|-start|p1b: Politoed|perish3
+|faint|p2b: Acelga
+|faint|p2a: Paty
+|-start|p1a: Archaludon|perish3
+|upkeep
+|
+|t:|1757015639
+|switch|p2b: GOD|Sunflora, L50, M|100/100
+|switch|p2a: Mbappe|Torkoal, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Mbappe
+|turn|5
+|-message|ItsgoodSteve forfeited.
+|
+|win|Isam_26011
+|l|☆ItsgoodSteve
+|player|p1|
+||ItsgoodSteve is ready for game 3.
+||Isam_26011 is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

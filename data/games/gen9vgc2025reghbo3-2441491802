@@ -1,0 +1,213 @@
+|j|☆playboyCardi
+|j|☆Ecthalloween
+|html|playboyCardiEcthalloween    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757860048
+|gametype|doubles
+|player|p1|playboyCardi|dragontamer|1040
+|player|p2|Ecthalloween|shauntal|1041
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Ninetales, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Exeggutor, L50, F|
+|poke|p2|Dusclops, L50, F|
+|poke|p2|Noivern, L50, M|
+|poke|p2|Muk-Alola, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Araquanid, L50, M|
+|teampreview|4
+|showteam|p1|Torkoal||WeaknessPolicy|Drought|Eruption,HeatWave,Protect,HelpingHand|||M|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|AfterYou,SolarBlade,SleepPowder,Protect|||F|||50|,,,,,Grass]Charizard||Charcoal|SolarPower|HeatWave,TeraBlast,AirSlash,Protect|||F|||50|,,,,,Fire]Ninetales||EjectPack|Drought|Howl,HelpingHand,Encore,Overheat|||F|||50|,,,,,Fire]Ursaluna-Bloodmoon||ThroatSpray|MindsEye|HyperVoice,BloodMoon,VacuumWave,EarthPower|||M|||50|,,,,,Ground]Exeggutor||AguavBerry|Harvest|TrickRoom,SolarBeam,Psychic,SludgeBomb|||F|||50|,,,,,Grass
+|showteam|p2|Dusclops||Eviolite|Frisk|NightShade,TrickRoom,PainSplit,WillOWisp|||F|||50|,,,,,Normal]Noivern||EjectPack|Infiltrator|DracoMeteor,Boomburst,Flamethrower,Protect|||M|||50|,,,,,Normal]Muk-Alola||AssaultVest|PoisonTouch|PoisonJab,KnockOff,DrainPunch,ClearSmog|||F|||50|,,,,,Flying]Incineroar||SafetyGoggles|Intimidate|KnockOff,Taunt,FakeOut,PartingShot|||M|||50|,,,,,Grass]Sinistcha||Leftovers|Hospitality|MatchaGotcha,Scald,LifeDew,RagePowder||||||50|,,,,,Water]Araquanid||ClearAmulet|WaterBubble|Lunge,Liquidation,WideGuard,Protect|||M|||50|,,,,,Water
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by playboyCardi)
+|inactive|playboyCardi has 60 seconds left.
+|inactive|Ecthalloween has 60 seconds left.
+|
+|t:|1757860106
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|switch|p1b: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p2a: Araquanid|Araquanid, L50, M, shiny|100/100
+|switch|p2b: Noivern|Noivern, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|inactive|playboyCardi has 30 seconds left.
+|inactive|Ecthalloween has 30 seconds left.
+|
+|t:|1757860133
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2a: Araquanid|Wide Guard|p2a: Araquanid
+|-singleturn|p2a: Araquanid|Wide Guard
+|move|p1b: Lilligant|Sleep Powder|p2a: Araquanid
+|-status|p2a: Araquanid|slp|[from] move: Sleep Powder
+|move|p2b: Noivern|Draco Meteor|p1a: Torkoal
+|-activate|p1a: Torkoal|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|inactive|Ecthalloween has 30 seconds left.
+|
+|t:|1757860162
+|cant|p2a: Araquanid|slp
+|move|p1b: Lilligant|After You|p1a: Torkoal
+|-activate|p1a: Torkoal|move: After You
+|move|p1a: Torkoal|Eruption|p2b: Noivern|[spread] p2a,p2b
+|-resisted|p2b: Noivern
+|-crit|p2b: Noivern
+|-damage|p2a: Araquanid|72/100 slp
+|-damage|p2b: Noivern|26/100
+|move|p2b: Noivern|Draco Meteor|p1a: Torkoal
+|-damage|p1a: Torkoal|20/100
+|-unboost|p2b: Noivern|spa|2
+|-enditem|p2b: Noivern|Eject Pack
+|
+|t:|1757860175
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1b: Lilligant|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757860188
+|move|p1b: Lilligant|Protect|p1b: Lilligant
+|-singleturn|p1b: Lilligant|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Lilligant
+|-activate|p1b: Lilligant|move: Protect
+|cant|p2a: Araquanid|slp
+|move|p1a: Torkoal|Heat Wave|p2a: Araquanid|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Araquanid|53/100 slp
+|-damage|p2b: Incineroar|83/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|playboyCardi has 30 seconds left.
+|inactive|Ecthalloween has 30 seconds left.
+|inactive|playboyCardi has 20 seconds left.
+|inactive|playboyCardi has 15 seconds left.
+|
+|t:|1757860230
+|switch|p1a: Charizard|Charizard, L50, F|100/100
+|move|p1b: Lilligant|Solar Blade||[still]
+|-prepare|p1b: Lilligant|Solar Blade
+|-anim|p1b: Lilligant|Solar Blade|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|69/100
+|move|p2b: Incineroar|Knock Off|p1b: Lilligant
+|-resisted|p1b: Lilligant
+|-damage|p1b: Lilligant|77/100
+|-enditem|p1b: Lilligant|Focus Sash|[from] move: Knock Off|[of] p2b: Incineroar
+|cant|p2a: Araquanid|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|88/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+|turn|5
+|inactive|Ecthalloween has 30 seconds left.
+|
+|t:|1757860262
+|switch|p1b: Exeggutor|Exeggutor, L50, F|100/100
+|-curestatus|p2a: Araquanid|slp|[msg]
+|move|p2a: Araquanid|Wide Guard|p2a: Araquanid
+|-singleturn|p2a: Araquanid|Wide Guard
+|move|p1a: Charizard|Air Slash|p2a: Araquanid
+|-supereffective|p2a: Araquanid
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|move|p2b: Incineroar|Knock Off|p1a: Charizard
+|-damage|p1a: Charizard|37/100
+|-enditem|p1a: Charizard|Charcoal|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|none
+|upkeep
+|
+|t:|1757860282
+|switch|p2a: Noivern|Noivern, L50, M|26/100
+|turn|6
+|inactive|playboyCardi has 30 seconds left.
+|
+|t:|1757860315
+|move|p2a: Noivern|Flamethrower|p1b: Exeggutor
+|-supereffective|p1b: Exeggutor
+|-damage|p1b: Exeggutor|45/100
+|move|p1a: Charizard|Air Slash|p2a: Noivern
+|-damage|p2a: Noivern|0 fnt
+|faint|p2a: Noivern
+|move|p2b: Incineroar|Knock Off|p1b: Exeggutor
+|-supereffective|p1b: Exeggutor
+|-damage|p1b: Exeggutor|0 fnt
+|-enditem|p1b: Exeggutor|Aguav Berry|[from] move: Knock Off|[of] p2b: Incineroar
+|faint|p1b: Exeggutor
+|
+|upkeep
+|
+|t:|1757860325
+|switch|p2a: T0répa1clope|Dusclops, L50, F, shiny|100/100
+|switch|p1b: Torkoal|Torkoal, L50, M|20/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|-item|p1b: Torkoal|Weakness Policy|[from] ability: Frisk|[of] p2a: T0répa1clope
+|turn|7
+|
+|t:|1757860337
+|move|p1b: Torkoal|Helping Hand|p1a: Charizard
+|-singleturn|p1a: Charizard|Helping Hand|[of] p1b: Torkoal
+|move|p1a: Charizard|Heat Wave|p2a: T0répa1clope|[spread] p2a
+|-miss|p1a: Charizard|p2b: Incineroar
+|-damage|p2a: T0répa1clope|31/100
+|move|p2b: Incineroar|Knock Off|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|-enditem|p1b: Torkoal|Weakness Policy|[from] move: Knock Off|[of] p2b: Incineroar
+|faint|p1b: Torkoal
+|move|p2a: T0répa1clope|Night Shade|p1a: Charizard
+|-damage|p1a: Charizard|4/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|0 fnt|[from] ability: Solar Power|[of] p1a: Charizard
+|faint|p1a: Charizard
+|upkeep
+|
+|t:|1757860352
+|switch|p1b: Lilligant|Lilligant-Hisui, L50, F|77/100
+|turn|8
+|
+|t:|1757860361
+|move|p1b: Lilligant|Solar Blade||[still]
+|-prepare|p1b: Lilligant|Solar Blade
+|-anim|p1b: Lilligant|Solar Blade|p2a: T0répa1clope
+|-damage|p2a: T0répa1clope|6/100
+|move|p2b: Incineroar|Parting Shot|p1b: Lilligant
+|-unboost|p1b: Lilligant|atk|1
+|-unboost|p1b: Lilligant|spa|1
+|move|p2a: T0répa1clope|Will-O-Wisp|p1b: Lilligant
+|-status|p1b: Lilligant|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Lilligant|71/100 brn|[from] brn
+|upkeep
+|turn|9
+|-message|playboyCardi forfeited.
+|
+|win|Ecthalloween
+|l|☆playboyCardi
+|player|p1|
+||playboyCardi is ready for game 2.
+|l|☆Ecthalloween
+|player|p2|
+||Ecthalloween is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

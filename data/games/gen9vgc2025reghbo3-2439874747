@@ -1,0 +1,181 @@
+|j|☆dynamo22
+|j|☆Davirate
+|html|dynamo22Davirate    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757630210
+|gametype|doubles
+|player|p1|dynamo22|101|1176
+|player|p2|Davirate|steven-masters2|1252
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Stellar]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||M|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||F|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|j| Arkhept
+|l| Arkhept
+|
+|t:|1757630263
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Annihilape|Annihilape, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Annihilape|atk|1
+|-ability|p2a: Annihilape|Defiant|boost
+|-boost|p2a: Annihilape|atk|2
+|-unboost|p2b: Indeedee|atk|1
+|turn|1
+|
+|t:|1757630294
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|move|p1a: Jumpluff|Tailwind|p1a: Jumpluff
+|-sidestart|p1: dynamo22|move: Tailwind
+|move|p2a: Annihilape|Taunt|p1a: Jumpluff
+|-start|p1a: Jumpluff|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757630344
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|move|p2b: Sneasler|Close Combat|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|3/100
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|move|p2a: Annihilape|Final Gambit|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|faint|p2a: Annihilape
+|faint|p1b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757630367
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p1b: Jumpluff|Jumpluff, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|3
+|
+|t:|1757630407
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1b: Jumpluff|Sleep Powder|p2a: Indeedee
+|-status|p2a: Indeedee|slp|[from] move: Sleep Powder
+|move|p1a: Ursaluna|Earthquake|p2b: Sneasler|[spread] p2a
+|-activate|p2b: Sneasler|move: Protect
+|-immune|p1b: Jumpluff
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Jumpluff|94/100|[from] Sandstorm
+|-damage|p2b: Sneasler|95/100|[from] Sandstorm
+|-damage|p1a: Ursaluna|0 fnt|[from] brn
+|faint|p1a: Ursaluna
+|upkeep
+|
+|t:|1757630424
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|turn|4
+|
+|t:|1757630445
+|-terastallize|p2b: Sneasler|Stellar
+|-terastallize|p1a: Incineroar|Ghost
+|move|p1b: Jumpluff|Sunny Day|p1b: Jumpluff
+|-weather|SunnyDay
+|move|p2b: Sneasler|Close Combat|p1a: Incineroar
+|-immune|p1a: Incineroar
+|move|p1a: Incineroar|Flare Blitz|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|-damage|p1a: Incineroar|77/100|[from] Recoil
+|move|p2a: Tyranitar|Rock Slide|p1a: Incineroar|[spread] p1a
+|-miss|p2a: Tyranitar|p1b: Jumpluff
+|-damage|p1a: Incineroar|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: dynamo22|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1757630465
+|move|p1b: Jumpluff|Sleep Powder|p2a: Tyranitar
+|-status|p2a: Tyranitar|slp|[from] move: Sleep Powder
+|move|p1a: Incineroar|Knock Off|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|83/100 slp
+|-enditem|p2a: Tyranitar|Assault Vest|[from] move: Knock Off|[of] p1a: Incineroar
+|cant|p2a: Tyranitar|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1757630479
+|move|p1b: Jumpluff|Tailwind|p1b: Jumpluff
+|-sidestart|p1: dynamo22|move: Tailwind
+|move|p1a: Incineroar|Parting Shot|p2a: Tyranitar
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|spa|1
+|-curestatus|p2a: Tyranitar|slp|[msg]
+|move|p2a: Tyranitar|Knock Off|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|4/100
+|-enditem|p1a: Incineroar|Sitrus Berry|[from] move: Knock Off|[of] p2a: Tyranitar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1757630492
+|move|p1b: Jumpluff|Sleep Powder|p2a: Tyranitar|[miss]
+|-miss|p1b: Jumpluff|p2a: Tyranitar
+|move|p1a: Incineroar|Knock Off|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|64/100
+|move|p2a: Tyranitar|Knock Off|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|-message|dynamo22 forfeited.
+|
+|win|Davirate
+||dynamo22 is ready for game 2.

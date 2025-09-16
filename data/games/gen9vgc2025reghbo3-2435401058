@@ -1,0 +1,245 @@
+|j|☆LumiRev
+|j|☆Uniursh
+|html|LumiRevUniursh    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757031570
+|gametype|doubles
+|player|p1|LumiRev|169|
+|player|p2|Uniursh|ingo|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Dusclops, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Umbreon, L50, F|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Ninetales, L50, F|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,SwordsDance,Protect|||F|||50|,,,,,Ghost]Torkoal||Charcoal|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,RagePowder,SunnyDay,Tailwind|||M|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,KnockOff,FlareBlitz|||F|||50|,,,,,Ghost]Lilligant-Hisui||LifeOrb|Chlorophyll|CloseCombat,LeafBlade,AfterYou,Protect|||F|||50|,,,,,Ghost]Dusclops||Eviolite|Pressure|WillOWisp,HelpingHand,SunnyDay,TrickRoom|||M|||50|,,,,,Water
+|showteam|p2|Lilligant-Hisui||WideLens|Chlorophyll|SolarBlade,CloseCombat,SleepPowder,TripleAxel|||F|||50|,,,,,Ghost]Umbreon||Leftovers|InnerFocus|FoulPlay,Snarl,Taunt,SkillSwap|||F|||50|,,,,,Water]Volcarona||SafetyGoggles|FlameBody|QuiverDance,FieryDance,BugBuzz,Protect|||M|||50|,,,,,Ghost]Ninetales||BlunderPolicy|Drought|WillOWisp,SolarBeam,HeatWave,SunnyDay|||F|||50|,,,,,Grass]Jumpluff||CovertCloak|Chlorophyll|Tailwind,SleepPowder,RagePowder,Encore|||F|||50|,,,,,Dark]Ursaluna-Bloodmoon||AssaultVest|MindsEye|EarthPower,BloodMoon,HyperVoice,VacuumWave|||M|||50|,,,,,Normal
+|
+|t:|1757031596
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Dusclops|Dusclops, L50, M|100/100
+|switch|p2a: FullMetalAlchemist|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2b: Benadryl|Jumpluff, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: FullMetalAlchemist|atk|1
+|-unboost|p2b: Benadryl|atk|1
+|-ability|p1b: Dusclops|Pressure
+|turn|1
+|
+|t:|1757031661
+|move|p2b: Benadryl|Tailwind|p2b: Benadryl
+|-sidestart|p2: Uniursh|move: Tailwind
+|move|p2a: FullMetalAlchemist|Blood Moon|p1b: Dusclops
+|-damage|p1b: Dusclops|64/100
+|move|p1a: Incineroar|Flare Blitz|p2b: Benadryl
+|-supereffective|p2b: Benadryl
+|-damage|p2b: Benadryl|0 fnt
+|faint|p2b: Benadryl
+|-damage|p1a: Incineroar|71/100|[from] Recoil
+|move|p1b: Dusclops|Trick Room|p1b: Dusclops
+|-fieldstart|move: Trick Room|[of] p1b: Dusclops
+|
+|upkeep
+|
+|t:|1757031680
+|switch|p2b: Carnifax|Umbreon, L50, F|100/100
+|turn|2
+|
+|t:|1757031737
+|move|p1b: Dusclops|Helping Hand|p1a: Incineroar
+|-singleturn|p1a: Incineroar|Helping Hand|[of] p1b: Dusclops
+|move|p2a: FullMetalAlchemist|Vacuum Wave|p1b: Dusclops
+|-damage|p1b: Dusclops|56/100
+|move|p1a: Incineroar|Knock Off|p2a: FullMetalAlchemist
+|-damage|p2a: FullMetalAlchemist|59/100
+|-enditem|p2a: FullMetalAlchemist|Assault Vest|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2b: Carnifax|Skill Swap|p1a: Incineroar
+|-activate|p2b: Carnifax|move: Skill Swap|Intimidate|Inner Focus|[of] p1a: Incineroar
+|-ability|p2b: Carnifax|Intimidate|boost
+|-fail|p1a: Incineroar|unboost|Attack|[from] ability: Inner Focus|[of] p1a: Incineroar
+|-unboost|p1b: Dusclops|atk|1
+|
+|upkeep
+|turn|3
+|
+|t:|1757031820
+|move|p1b: Dusclops|Will-O-Wisp|p2b: Carnifax
+|-status|p2b: Carnifax|brn
+|move|p1a: Incineroar|Parting Shot|p2a: FullMetalAlchemist
+|-unboost|p2a: FullMetalAlchemist|atk|1
+|-unboost|p2a: FullMetalAlchemist|spa|1
+|
+|t:|1757031832
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100|[from] Parting Shot
+|move|p2a: FullMetalAlchemist|Hyper Voice|p1b: Dusclops|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|81/100
+|-damage|p1b: Dusclops|43/100
+|move|p2b: Carnifax|Skill Swap|p2a: FullMetalAlchemist
+|-activate|p2b: Carnifax|move: Skill Swap|||[of] p2a: FullMetalAlchemist
+|-ability|p2a: FullMetalAlchemist|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1b: Dusclops|atk|1
+|
+|-damage|p2b: Carnifax|94/100 brn|[from] brn
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1757031888
+|move|p1b: Dusclops|Helping Hand|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Helping Hand|[of] p1b: Dusclops
+|move|p1a: Ursaluna|Facade|p2b: Carnifax
+|-damage|p2b: Carnifax|6/100 brn
+|move|p2a: FullMetalAlchemist|Blood Moon|p1a: Ursaluna
+|-damage|p1a: Ursaluna|35/100 brn
+|move|p2b: Carnifax|Skill Swap|p2a: FullMetalAlchemist
+|-activate|p2b: Carnifax|move: Skill Swap|||[of] p2a: FullMetalAlchemist
+|-ability|p2b: Carnifax|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1b: Dusclops|atk|1
+|
+|-heal|p2b: Carnifax|12/100 brn|[from] item: Leftovers
+|-damage|p1a: Ursaluna|29/100 brn|[from] brn
+|-damage|p2b: Carnifax|6/100 brn|[from] brn
+|-sideend|p2: Uniursh|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1757031927
+|switch|p1a: Incineroar|Incineroar, L50, F|71/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: FullMetalAlchemist|atk|1
+|-unboost|p2b: Carnifax|atk|1
+|move|p1b: Dusclops|Sunny Day|p1b: Dusclops
+|-weather|SunnyDay
+|move|p2a: FullMetalAlchemist|Hyper Voice|p1b: Dusclops|[spread] p1a,p1b
+|-damage|p1a: Incineroar|52/100
+|-damage|p1b: Dusclops|31/100
+|move|p2b: Carnifax|Taunt|p1b: Dusclops
+|-start|p1b: Dusclops|move: Taunt
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Carnifax|12/100 brn|[from] item: Leftovers
+|-damage|p2b: Carnifax|6/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1757031981
+|switch|p2a: Miles|Ninetales, L50, F|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, F|29/100 brn
+|move|p1a: Incineroar|Fake Out|p2a: Miles
+|-damage|p2a: Miles|88/100
+|move|p2b: Carnifax|Skill Swap|p1a: Incineroar
+|-activate|p2b: Carnifax|move: Skill Swap|Intimidate|Intimidate|[of] p1a: Incineroar
+|-ability|p2b: Carnifax|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Miles|atk|1
+|-unboost|p2b: Carnifax|atk|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Carnifax|12/100 brn|[from] item: Leftovers
+|-damage|p2b: Carnifax|6/100 brn|[from] brn
+|-damage|p1b: Ursaluna|23/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1757032032
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2a: Miles|Solar Beam||[still]
+|-prepare|p2a: Miles|Solar Beam
+|-anim|p2a: Miles|Solar Beam|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|move|p1a: Incineroar|Knock Off|p2b: Carnifax
+|-resisted|p2b: Carnifax
+|-damage|p2b: Carnifax|0 fnt
+|-enditem|p2b: Carnifax|Leftovers|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2b: Carnifax
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Ursaluna|17/100 brn|[from] brn
+|upkeep
+|
+|t:|1757032044
+|switch|p2b: FullMetalAlchemist|Ursaluna-Bloodmoon, L50, M|59/100
+|turn|8
+|
+|t:|1757032074
+|-terastallize|p1a: Incineroar|Ghost
+|move|p2a: Miles|Solar Beam||[still]
+|-prepare|p2a: Miles|Solar Beam
+|-anim|p2a: Miles|Solar Beam|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|move|p1a: Incineroar|Parting Shot|p2b: FullMetalAlchemist
+|-unboost|p2b: FullMetalAlchemist|atk|1
+|-unboost|p2b: FullMetalAlchemist|spa|1
+|
+|t:|1757032082
+|switch|p1a: Dusclops|Dusclops, L50, M|31/100|[from] Parting Shot
+|-ability|p1a: Dusclops|Pressure
+|move|p2b: FullMetalAlchemist|Hyper Voice|p1a: Dusclops
+|-crit|p1a: Dusclops
+|-damage|p1a: Dusclops|0 fnt
+|faint|p1a: Dusclops
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757032091
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|switch|p1a: Incineroar|Incineroar, L50, F, tera:Ghost|52/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Miles|atk|1
+|-unboost|p2b: FullMetalAlchemist|atk|1
+|turn|9
+|
+|t:|1757032128
+|move|p1a: Incineroar|Fake Out|p2b: FullMetalAlchemist
+|-damage|p2b: FullMetalAlchemist|51/100
+|move|p2a: Miles|Heat Wave|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1b: Torkoal
+|-damage|p1a: Incineroar|27/100
+|-damage|p1b: Torkoal|77/100
+|cant|p2b: FullMetalAlchemist|flinch
+|move|p1b: Torkoal|Eruption|p2a: Miles|[spread] p2a,p2b
+|-resisted|p2a: Miles
+|-damage|p2a: Miles|51/100
+|-damage|p2b: FullMetalAlchemist|0 fnt
+|faint|p2b: FullMetalAlchemist
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1757032166
+|move|p2a: Miles|Heat Wave|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1b: Torkoal
+|-damage|p1a: Incineroar|9/100
+|-damage|p1b: Torkoal|63/100
+|move|p1a: Incineroar|Knock Off|p2a: Miles
+|-damage|p2a: Miles|0 fnt
+|-enditem|p2a: Miles|Blunder Policy|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2a: Miles
+|
+|win|LumiRev
+||Uniursh is ready for game 2.

@@ -1,0 +1,155 @@
+|j|☆Voltage Gaming101
+|j|☆climaxii
+|html|Voltage Gaming101climaxii    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757176488
+|gametype|doubles
+|player|p1|Voltage Gaming101|red|1121
+|player|p2|climaxii|169|1102
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Houndstone, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Blaziken, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Tinkaton, L50, F|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||F|||50|,,,,,Flying]Houndstone||SpellTag|SandRush|LastRespects,ShadowSneak,PlayRough,BodyPress|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Garchomp||LoadedDice|RoughSkin|ScaleShot,Earthquake,SwordsDance,Protect|||F|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Water
+|showteam|p2|Blaziken||LifeOrb|SpeedBoost|Protect,FlareBlitz,CloseCombat,SwordsDance|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Protect,Overheat,HeatWave,HelpingHand|||F|||50|,,,,,Fire]Jumpluff||CovertCloak|Chlorophyll|RagePowder,Tailwind,SleepPowder,SunnyDay|||M|||50|,,,,,Water]Farigiraf||ThroatSpray|ArmorTail|TwinBeam,HyperVoice,TrickRoom,HelpingHand|||M|||50|,,,,,Fairy]Ursaluna-Bloodmoon||AssaultVest|MindsEye|VacuumWave,HyperVoice,BloodMoon,EarthPower|||M|||50|,,,,,Ghost]Tinkaton||SitrusBerry|MoldBreaker|FakeOut,Encore,PlayRough,GigatonHammer|||F|||50|,,,,,Water
+|
+|t:|1757176505
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Farigiraf|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-enditem|p2a: Torkoal|Eject Pack
+|
+|t:|1757176509
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|1
+|
+|t:|1757176539
+|move|p1b: Incineroar|Knock Off|p2b: Farigiraf
+|-supereffective|p2b: Farigiraf
+|-damage|p2b: Farigiraf|27/100
+|-enditem|p2b: Farigiraf|Throat Spray|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2b: Farigiraf|Hyper Voice|p1b: Incineroar|[spread] p1a,p1b
+|-damage|p1a: Amoonguss|80/100
+|-damage|p1b: Incineroar|76/100
+|move|p2a: Ursaluna|Earth Power|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Amoonguss|Spore|p2a: Ursaluna
+|-status|p2a: Ursaluna|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757176547
+|switch|p1b: Tyranitar|Tyranitar, L50, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|2
+|
+|t:|1757176569
+|-terastallize|p2a: Ursaluna|Ghost
+|move|p1b: Tyranitar|Low Kick|p2a: Ursaluna
+|-immune|p2a: Ursaluna
+|move|p2b: Farigiraf|Hyper Voice|p1a: Amoonguss|[spread] p1a,p1b
+|-resisted|p1b: Tyranitar
+|-damage|p1a: Amoonguss|56/100
+|-damage|p1b: Tyranitar|95/100
+|cant|p2a: Ursaluna|slp
+|move|p1a: Amoonguss|Spore|p2b: Farigiraf
+|-status|p2b: Farigiraf|slp|[from] move: Spore
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Farigiraf|21/100 slp|[from] Sandstorm
+|-damage|p2a: Ursaluna|95/100 slp|[from] Sandstorm
+|-damage|p1a: Amoonguss|50/100|[from] Sandstorm
+|-enditem|p1a: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1a: Amoonguss|75/100|[from] item: Sitrus Berry
+|upkeep
+|turn|3
+|
+|t:|1757176589
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|move|p1b: Tyranitar|Knock Off|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|13/100 slp
+|-enditem|p2a: Ursaluna|Assault Vest|[from] move: Knock Off|[of] p1b: Tyranitar
+|cant|p2a: Ursaluna|slp
+|move|p1a: Amoonguss|Pollen Puff|p2b: Torkoal
+|-resisted|p2b: Torkoal
+|-damage|p2b: Torkoal|88/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1757176608
+|move|p1a: Amoonguss|Protect|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|Protect
+|move|p1b: Tyranitar|Rock Slide|p2b: Torkoal|[spread] p2a,p2b
+|-supereffective|p2b: Torkoal
+|-damage|p2a: Ursaluna|0 fnt
+|-damage|p2b: Torkoal|39/100
+|faint|p2a: Ursaluna
+|move|p2b: Torkoal|Overheat|p1a: Amoonguss
+|-activate|p1a: Amoonguss|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757176615
+|switch|p2a: Fire Chicken|Blaziken, L50, M|100/100
+|turn|5
+|
+|t:|1757176628
+|-terastallize|p1a: Amoonguss|Water
+|move|p2a: Fire Chicken|Close Combat|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar
+|-damage|p1b: Tyranitar|0 fnt
+|-unboost|p2a: Fire Chicken|def|1
+|-unboost|p2a: Fire Chicken|spd|1
+|faint|p1b: Tyranitar
+|-damage|p2a: Fire Chicken|91/100|[from] item: Life Orb
+|move|p1a: Amoonguss|Spore|p2a: Fire Chicken
+|-status|p2a: Fire Chicken|slp|[from] move: Spore
+|move|p2b: Torkoal|Overheat|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|37/100
+|-unboost|p2b: Torkoal|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2a: Fire Chicken|Speed Boost|boost
+|-boost|p2a: Fire Chicken|spe|1
+|upkeep
+|
+|t:|1757176633
+|switch|p1b: Garchomp|Garchomp, L50, F, shiny|100/100
+|turn|6
+|-message|climaxii forfeited.
+|raw|Voltage Gaming101's rating: 1121 → 1145(+24 for winning)
+|raw|climaxii's rating: 1102 → 1078(-24 for losing)
+|
+|win|Voltage Gaming101

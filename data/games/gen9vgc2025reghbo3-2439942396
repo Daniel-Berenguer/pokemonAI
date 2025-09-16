@@ -1,0 +1,207 @@
+|j|☆emptinessmach
+|j|☆BongCloudAttack
+|html|emptinessmachBongCloudAttack    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757638833
+|gametype|doubles
+|player|p1|emptinessmach|red|1173
+|player|p2|BongCloudAttack|1|1125
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Typhlosion-Hisui, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Sylveon, L50, M|
+|poke|p2|Kilowattrel, L50, F|
+|teampreview|4
+|showteam|p1|Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,Earthquake,Protect|||M|||50|,,,,,Steel]Jumpluff||CovertCloak|Chlorophyll|LeafStorm,SleepPowder,Encore,Tailwind|||F|||50|,,,,,Dark]Torkoal||EjectPack|Drought|Overheat,BurningJealousy,HelpingHand,Protect|||M|||50|,,,,,Flying]Dragonite||LoadedDice|Multiscale|ExtremeSpeed,ScaleShot,IceSpinner,Protect|||F|||50|,,,,,Fairy]Kingambit||AssaultVest|Defiant|IronHead,SuckerPunch,Assurance,LowKick|||M|||50|,,,,,Flying]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,ShadowBall,HeatWave,Flamethrower|||F|||50|,,,,,Fire
+|showteam|p2|Garchomp||LoadedDice|RoughSkin|StompingTantrum,Earthquake,ScaleShot,Protect|||F|||50|,,,,,Fairy]Amoonguss||CovertCloak|Regenerator|PollenPuff,RagePowder,Spore,Protect|||F|||50|,,,,,Water]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Flying]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Ghost]Sylveon||LifeOrb|Pixilate|HyperVoice,TeraBlast,QuickAttack,Protect|||M|||50|,,,,,Water]Kilowattrel||FocusSash|Competitive|Thunderbolt,AirSlash,Tailwind,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1757638897
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, M, shiny|100/100
+|switch|p1b: Jumpluff|Jumpluff, L50, F, shiny|100/100
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1b: Jumpluff|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-enditem|p1a: Torkoal|Eject Pack
+|
+|t:|1757638902
+|switch|p1a: Garchomp|Garchomp, L50, M, shiny|100/100
+|turn|1
+|
+|t:|1757638927
+|switch|p2b: Kilowattrel|Kilowattrel, L50, F|100/100
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p1b: Jumpluff|Tailwind|p1b: Jumpluff
+|-sidestart|p1: emptinessmach|move: Tailwind
+|move|p2a: Amoonguss|Spore|p1a: Garchomp
+|-activate|p1a: Garchomp|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757638974
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|-unboost|p1b: Jumpluff|atk|1
+|move|p1b: Jumpluff|Sleep Powder|p2b: Incineroar
+|-activate|p2b: Incineroar|item: Safety Goggles|Sleep Powder
+|move|p1a: Garchomp|Dragon Claw|p2b: Incineroar
+|-damage|p2b: Incineroar|63/100
+|-damage|p1a: Garchomp|91/100|[from] item: Life Orb
+|move|p2a: Amoonguss|Spore|p1a: Garchomp
+|-status|p1a: Garchomp|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757638988
+|cant|p1a: Garchomp|slp
+|move|p1b: Jumpluff|Encore|p2a: Amoonguss
+|-start|p2a: Amoonguss|Encore
+|move|p2b: Incineroar|Flare Blitz|p1b: Jumpluff
+|-supereffective|p1b: Jumpluff
+|-damage|p1b: Jumpluff|0 fnt
+|faint|p1b: Jumpluff
+|-damage|p2b: Incineroar|33/100|[from] Recoil
+|move|p2a: Amoonguss|Spore|p1a: Garchomp
+|-fail|p1a: Garchomp|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757639000
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100
+|turn|4
+|
+|t:|1757639019
+|switch|p2b: Kilowattrel|Kilowattrel, L50, F|100/100
+|-curestatus|p1a: Garchomp|slp|[msg]
+|move|p1a: Garchomp|Earthquake|p2a: Amoonguss|[spread] p2a
+|-immune|p1b: Dragonite
+|-immune|p2b: Kilowattrel
+|-damage|p2a: Amoonguss|69/100
+|-damage|p1a: Garchomp|81/100|[from] item: Life Orb
+|move|p1b: Dragonite|Scale Shot|p2a: Amoonguss
+|-damage|p2a: Amoonguss|53/100
+|-damage|p2a: Amoonguss|39/100
+|-damage|p2a: Amoonguss|27/100
+|-damage|p2a: Amoonguss|13/100
+|-hitcount|p2a: Amoonguss|4
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|move|p2a: Amoonguss|Spore|p1b: Dragonite
+|-status|p1b: Dragonite|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: emptinessmach|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1757639048
+|switch|p2a: Incineroar|Incineroar, L50, M|33/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|-unboost|p1b: Dragonite|atk|1
+|cant|p1b: Dragonite|slp
+|move|p2b: Kilowattrel|Air Slash|p1a: Garchomp
+|-damage|p1a: Garchomp|41/100
+|move|p1a: Garchomp|Dragon Claw|p2a: Incineroar
+|-damage|p2a: Incineroar|7/100
+|-damage|p1a: Garchomp|31/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1757639062
+|-curestatus|p1b: Dragonite|slp|[msg]
+|move|p1b: Dragonite|Protect|p1b: Dragonite
+|-singleturn|p1b: Dragonite|Protect
+|move|p2b: Kilowattrel|Air Slash|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|move|p2a: Incineroar|Knock Off|p1b: Dragonite
+|-activate|p1b: Dragonite|move: Protect
+|
+|upkeep
+|
+|t:|1757639066
+|switch|p1a: Torkoal|Torkoal, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|7
+|
+|t:|1757639087
+|move|p2b: Kilowattrel|Protect|p2b: Kilowattrel
+|-singleturn|p2b: Kilowattrel|Protect
+|move|p1b: Dragonite|Scale Shot|p2b: Kilowattrel
+|-activate|p2b: Kilowattrel|move: Protect
+|move|p2a: Incineroar|Knock Off|p1b: Dragonite
+|-damage|p1b: Dragonite|73/100
+|-enditem|p1b: Dragonite|Loaded Dice|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1a: Torkoal|Burning Jealousy|p2a: Incineroar|[spread] p2a
+|-activate|p2b: Kilowattrel|move: Protect
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757639100
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|turn|8
+|
+|t:|1757639127
+|-terastallize|p1b: Dragonite|Fairy
+|-terastallize|p2a: Garchomp|Fairy
+|move|p1a: Torkoal|Helping Hand|p1b: Dragonite
+|-singleturn|p1b: Dragonite|Helping Hand|[of] p1a: Torkoal
+|move|p2b: Kilowattrel|Thunderbolt|p1a: Torkoal
+|-damage|p1a: Torkoal|43/100
+|move|p1b: Dragonite|Scale Shot|p2b: Kilowattrel|[miss]
+|-miss|p1b: Dragonite|p2b: Kilowattrel
+|move|p2a: Garchomp|Earthquake|p1b: Dragonite|[spread] p1a,p1b
+|-immune|p2b: Kilowattrel
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-damage|p1b: Dragonite|1/100
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1757639145
+|move|p1b: Dragonite|Extreme Speed|p2a: Garchomp
+|-damage|p2a: Garchomp|78/100
+|-damage|p1b: Dragonite|0 fnt|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p1b: Dragonite
+|
+|win|BongCloudAttack
+||BongCloudAttack is ready for game 2.
+||emptinessmach is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆BongCloudAttack
+|player|p2|

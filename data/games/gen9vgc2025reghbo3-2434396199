@@ -1,0 +1,174 @@
+|j|☆moth.o
+|j|☆uglybeast
+|html|moth.ouglybeast    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756910992
+|gametype|doubles
+|player|p1|moth.o|roxie|1295
+|player|p2|uglybeast|lucas|1353
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Arcanine-Hisui, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Hydreigon, L50, F|
+|poke|p2|Murkrow, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|showteam|p1|Arcanine-Hisui||SafetyGoggles|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||F|||50|,,,,,Fairy]Indeedee-F||SitrusBerry|PsychicSurge|TrickRoom,FollowMe,Psychic,HelpingHand|||F|||50|,,,,,Fairy]Gallade||LifeOrb|Sharpness|Protect,NightSlash,SacredSword,PsychoCut|||M|||50|,,,,,Grass]Gholdengo||ChoiceSpecs|GoodasGold|Trick,ShadowBall,MakeItRain,PowerGem||||||50|,,,,,Water]Whimsicott||CovertCloak|Prankster|SunnyDay,Moonblast,Encore,Tailwind|||F|||50|,,,,,Dark]Hydreigon||AssaultVest|Levitate|Uturn,Snarl,DarkPulse,DracoMeteor|||F|||50|,,,,,Ghost
+|showteam|p2|Murkrow||Eviolite|Prankster|Haze,SunnyDay,Tailwind,BraveBird|||F|||50|,,,,,Ghost]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,Protect,EarthPower|||M|||50|,,,,,Normal]Sneasler||PsychicSeed|Unburden|ThroatChop,DireClaw,CloseCombat,Protect|||F|||50|,,,,,Dark]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,Uturn,PhantomForce|||F|||50|,,,,,Dragon]Armarouge||PowerHerb|FlashFire|HeatWave,MeteorBeam,ExpandingForce,Protect|||F|||50|,,,,,Grass]Indeedee-F||RockyHelmet|PsychicSurge|DazzlingGleam,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Grass
+|
+|t:|1756911035
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Odisea|Hydreigon, L50, F, shiny|100/100
+|switch|p1b: Fenrir|Arcanine-Hisui, L50, F|100/100
+|switch|p2a: Giandam|Armarouge, L50, F|100/100
+|switch|p2b: Blade|Indeedee-F, L50, F|100/100
+|-ability|p1b: Fenrir|Intimidate|boost
+|-unboost|p2a: Giandam|atk|1
+|-unboost|p2b: Blade|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Blade
+|turn|1
+|
+|t:|1756911078
+|switch|p2a: Anagnoman|Sneasler, L50, F|100/100
+|-enditem|p2a: Anagnoman|Psychic Seed
+|-boost|p2a: Anagnoman|spd|1|[from] item: Psychic Seed
+|move|p2b: Blade|Follow Me|p2b: Blade
+|-singleturn|p2b: Blade|move: Follow Me
+|move|p1a: Odisea|Snarl|p2b: Blade|[spread] p2a
+|-miss|p1a: Odisea|p2b: Blade
+|-resisted|p2a: Anagnoman
+|-damage|p2a: Anagnoman|92/100
+|-unboost|p2a: Anagnoman|spa|1
+|move|p1b: Fenrir|Rock Slide|p2b: Blade|[spread] p2a,p2b
+|-resisted|p2a: Anagnoman
+|-damage|p2a: Anagnoman|70/100
+|-damage|p2b: Blade|76/100
+|
+|upkeep
+|turn|2
+|
+|t:|1756911107
+|switch|p1b: Tesorero|Gholdengo, L50|100/100
+|move|p2a: Anagnoman|Protect|p2a: Anagnoman
+|-singleturn|p2a: Anagnoman|Protect
+|move|p1a: Odisea|Snarl|p2a: Anagnoman|[spread] p2b
+|-activate|p2a: Anagnoman|move: Protect
+|-supereffective|p2b: Blade
+|-damage|p2b: Blade|39/100
+|-unboost|p2b: Blade|spa|1
+|move|p2b: Blade|Dazzling Gleam|p1a: Odisea|[spread] p1a,p1b
+|-supereffective|p1a: Odisea
+|-resisted|p1b: Tesorero
+|-damage|p1a: Odisea|77/100
+|-damage|p1b: Tesorero|95/100
+|
+|upkeep
+|turn|3
+|
+|t:|1756911155
+|switch|p1a: Fenrir|Arcanine-Hisui, L50, F|100/100
+|-ability|p1a: Fenrir|Intimidate|boost
+|-unboost|p2a: Anagnoman|atk|1
+|-unboost|p2b: Blade|atk|1
+|move|p2b: Blade|Follow Me|p2b: Blade
+|-singleturn|p2b: Blade|move: Follow Me
+|move|p2a: Anagnoman|Close Combat|p1a: Fenrir
+|-supereffective|p1a: Fenrir
+|-damage|p1a: Fenrir|0 fnt
+|-unboost|p2a: Anagnoman|def|1
+|-unboost|p2a: Anagnoman|spd|1
+|faint|p1a: Fenrir
+|move|p1b: Tesorero|Make It Rain|p2a: Anagnoman|[spread] p2a,p2b
+|-damage|p2a: Anagnoman|0 fnt
+|-damage|p2b: Blade|0 fnt
+|-unboost|p1b: Tesorero|spa|1
+|faint|p2a: Anagnoman
+|faint|p2b: Blade
+|
+|upkeep
+|
+|t:|1756911175
+|switch|p2a: Giandam|Armarouge, L50, F|100/100
+|switch|p1a: Odisea|Hydreigon, L50, F, shiny|77/100
+|switch|p2b: Laz|Dragapult, L50, F|100/100
+|turn|4
+|
+|t:|1756911212
+|-terastallize|p2b: Laz|Dragon
+|-terastallize|p1a: Odisea|Ghost
+|move|p2b: Laz|Dragon Darts|p1a: Odisea
+|-damage|p1a: Odisea|18/100
+|-anim|p2b: Laz|Dragon Darts|p1b: Tesorero
+|-resisted|p1b: Tesorero
+|-damage|p1b: Tesorero|63/100
+|move|p1a: Odisea|Snarl|p2a: Giandam|[spread] p2a,p2b
+|-supereffective|p2a: Giandam
+|-damage|p2a: Giandam|43/100
+|-damage|p2b: Laz|73/100
+|-unboost|p2a: Giandam|spa|1
+|move|p2a: Giandam|Heat Wave|p1b: Tesorero|[spread] p1b
+|-miss|p2a: Giandam|p1a: Odisea
+|-supereffective|p1b: Tesorero
+|-damage|p1b: Tesorero|7/100
+|move|p1b: Tesorero|Make It Rain|p2b: Laz|[spread] p2a,p2b
+|-resisted|p2a: Giandam
+|-damage|p2a: Giandam|8/100
+|-damage|p2b: Laz|3/100
+|-unboost|p1b: Tesorero|spa|1
+|
+|upkeep
+|turn|5
+|
+|t:|1756911248
+|switch|p1b: Triquiñuela|Whimsicott, L50, F, shiny|100/100
+|move|p2b: Laz|Dragon Darts|p1a: Odisea
+|-damage|p1a: Odisea|0 fnt
+|faint|p1a: Odisea
+|move|p2a: Giandam|Meteor Beam||[still]
+|-prepare|p2a: Giandam|Meteor Beam
+|-boost|p2a: Giandam|spa|1
+|-enditem|p2a: Giandam|Power Herb
+|-anim|p2a: Giandam|Meteor Beam|p1b: Triquiñuela
+|-damage|p1b: Triquiñuela|45/100
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756911260
+|switch|p1a: Tesorero|Gholdengo, L50|7/100
+|turn|6
+|
+|t:|1756911277
+|move|p1b: Triquiñuela|Tailwind|p1b: Triquiñuela
+|-sidestart|p1: moth.o|move: Tailwind
+|move|p1a: Tesorero|Make It Rain|p2b: Laz|[spread] p2a,p2b
+|-resisted|p2a: Giandam
+|-damage|p2a: Giandam|0 fnt
+|-damage|p2b: Laz|0 fnt
+|-unboost|p1a: Tesorero|spa|1
+|faint|p2a: Giandam
+|faint|p2b: Laz
+|
+|win|moth.o
+|raw|moth.o's rating: 1295 → 1324(+29 for winning)
+|raw|uglybeast's rating: 1353 → 1330(-23 for losing)
+|l|☆uglybeast
+|player|p2|
+|l|☆moth.o
+|player|p1|
+|j|☆moth.o
+|player|p1|moth.o|roxie|

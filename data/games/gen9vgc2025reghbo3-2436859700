@@ -1,0 +1,257 @@
+|j|‚òÜSark_RL
+|j|‚òÜBellbottoms
+|html|Sark_RLBellbottoms    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1757243373
+|gametype|doubles
+|player|p1|Sark_RL|rika|
+|player|p2|Bellbottoms|pokemonbreederf-gen4|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pok√©mon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Corviknight, L50, M|
+|poke|p1|Dragapult, L50, M|
+|poke|p1|Kilowattrel, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Arcanine-Hisui, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Ninetales-Alola, L50, F|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||M|||50|,,,,,Flying]Corviknight||SitrusBerry|MirrorArmor|BraveBird,BodyPress,Tailwind,Roost|||M|||50|,,,,,Fire]Dragapult||LifeOrb|Infiltrator|ShadowBall,DracoMeteor,Flamethrower,Protect|||M|||50|,,,,,Stellar]Kilowattrel||FocusSash|Competitive|Thunderbolt,AirSlash,Tailwind,Protect|||M|||50|,,,,,Stellar]Garchomp||Leftovers|SandVeil|Earthquake,DragonClaw,Substitute,Protect|||M|||50|,,,,,Steel]Amoonguss||CovertCloak|Regenerator|PollenPuff,SludgeBomb,RagePowder,Spore|||F|||50|,,,,,Fairy
+|showteam|p2|Gholdengo||GrassySeed|GoodasGold|MakeItRain,NastyPlot,ShadowBall,Protect||||||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|DrumBeating,GrassyGlide,FakeOut,HighHorsepower|||F|||50|,,,,,Fire]Arcanine-Hisui||ClearAmulet|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||F|||50|,,,,,Water]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,Coaching,Protect|||F|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Protect,Tailwind|||F|||50|,,,,,Ground]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,IcyWind,AuroraVeil,Encore|||F|||50|,,,,,Ghost
+|
+|t:|1757243383
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Abracadabra|Dragapult, L50, M|100/100
+|switch|p1b: Telephone|Kilowattrel, L50, M|100/100
+|switch|p2a: Gold Ship|Gholdengo, L50, shiny|100/100
+|switch|p2b: Grass Wonder|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Grass Wonder
+|-enditem|p2a: Gold Ship|Grassy Seed
+|-boost|p2a: Gold Ship|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1757243401
+|-terastallize|p2a: Gold Ship|Water
+|move|p1b: Telephone|Protect|p1b: Telephone
+|-singleturn|p1b: Telephone|Protect
+|move|p2b: Grass Wonder|Fake Out|p1b: Telephone
+|-activate|p1b: Telephone|move: Protect
+|move|p1a: Abracadabra|Shadow Ball|p2a: Gold Ship
+|-damage|p2a: Gold Ship|53/100
+|-unboost|p2a: Gold Ship|spd|1
+|-damage|p1a: Abracadabra|91/100|[from] item: Life Orb
+|move|p2a: Gold Ship|Shadow Ball|p1a: Abracadabra
+|-supereffective|p1a: Abracadabra
+|-damage|p1a: Abracadabra|0 fnt
+|faint|p1a: Abracadabra
+|
+|-heal|p2a: Gold Ship|59/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757243419
+|switch|p1a: Paparazzi|Corviknight, L50, M|100/100
+|turn|2
+|
+|t:|1757243423
+|move|p1b: Telephone|Air Slash|p2b: Grass Wonder
+|-supereffective|p2b: Grass Wonder
+|-damage|p2b: Grass Wonder|47/100
+|move|p2b: Grass Wonder|Drum Beating|p1b: Telephone
+|-resisted|p1b: Telephone
+|-damage|p1b: Telephone|54/100
+|-unboost|p1b: Telephone|spe|1
+|-ability|p1b: Telephone|Competitive|boost
+|-boost|p1b: Telephone|spa|2
+|move|p2a: Gold Ship|Shadow Ball|p1b: Telephone
+|-damage|p1b: Telephone|0 fnt
+|faint|p1b: Telephone
+|move|p1a: Paparazzi|Brave Bird|p2b: Grass Wonder
+|-supereffective|p2b: Grass Wonder
+|-damage|p2b: Grass Wonder|0 fnt
+|faint|p2b: Grass Wonder
+|-damage|p1a: Paparazzi|85/100|[from] Recoil
+|
+|-heal|p2a: Gold Ship|65/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757243431
+|switch|p1b: Poker Face|Garchomp, L50, M|100/100
+|switch|p2b: Maruzensky|Arcanine-Hisui, L50, F|100/100
+|-ability|p2b: Maruzensky|Intimidate|boost
+|-ability|p1a: Paparazzi|Mirror Armor
+|-fail|p2b: Maruzensky|unboost|[from] item: Clear Amulet|[of] p2b: Maruzensky
+|-unboost|p1b: Poker Face|atk|1
+|turn|3
+|
+|t:|1757243447
+|move|p2b: Maruzensky|Flare Blitz|p1a: Paparazzi
+|-supereffective|p1a: Paparazzi
+|-damage|p1a: Paparazzi|14/100
+|-enditem|p1a: Paparazzi|Sitrus Berry|[eat]
+|-heal|p1a: Paparazzi|39/100|[from] item: Sitrus Berry
+|-damage|p2b: Maruzensky|75/100|[from] Recoil
+|move|p1b: Poker Face|Earthquake|p2a: Gold Ship|[spread] p2a,p2b
+|-immune|p1a: Paparazzi
+|-supereffective|p2b: Maruzensky
+|-damage|p2a: Gold Ship|57/100
+|-damage|p2b: Maruzensky|12/100
+|move|p2a: Gold Ship|Nasty Plot|p2a: Gold Ship
+|-boost|p2a: Gold Ship|spa|2
+|move|p1a: Paparazzi|Body Press|p2b: Maruzensky
+|-supereffective|p2b: Maruzensky
+|-damage|p2b: Maruzensky|0 fnt
+|faint|p2b: Maruzensky
+|
+|-heal|p2a: Gold Ship|63/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757243449
+|switch|p2b: Oguri Cap|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Oguri Cap
+|turn|4
+|
+|t:|1757243467
+|-terastallize|p1b: Poker Face|Steel
+|move|p2b: Oguri Cap|Aurora Veil|p2b: Oguri Cap
+|-sidestart|p2: Bellbottoms|move: Aurora Veil
+|move|p1b: Poker Face|Earthquake|p2b: Oguri Cap|[spread] p2a,p2b
+|-immune|p1a: Paparazzi
+|-damage|p2a: Gold Ship|57/100
+|-damage|p2b: Oguri Cap|92/100
+|move|p2a: Gold Ship|Shadow Ball|p1a: Paparazzi
+|-damage|p1a: Paparazzi|0 fnt
+|faint|p1a: Paparazzi
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Oguri Cap|98/100|[from] Grassy Terrain
+|-heal|p2a: Gold Ship|63/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1757243482
+|move|p2b: Oguri Cap|Icy Wind|p1b: Poker Face|[miss]
+|-miss|p2b: Oguri Cap|p1b: Poker Face
+|move|p1b: Poker Face|Dragon Claw|p2a: Gold Ship
+|-damage|p2a: Gold Ship|50/100
+|move|p2a: Gold Ship|Shadow Ball|p1b: Poker Face
+|-damage|p1b: Poker Face|22/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Oguri Cap|100/100|[from] Grassy Terrain
+|-heal|p1b: Poker Face|28/100|[from] Grassy Terrain
+|-heal|p1b: Poker Face|34/100|[from] item: Leftovers
+|-heal|p2a: Gold Ship|57/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|c|‚òÜBellbottoms|133 speed chomp?
+|
+|t:|1757243489
+|move|p2a: Gold Ship|Protect|p2a: Gold Ship
+|-singleturn|p2a: Gold Ship|Protect
+|move|p2b: Oguri Cap|Icy Wind|p1b: Poker Face
+|-resisted|p1b: Poker Face
+|-damage|p1b: Poker Face|24/100
+|-unboost|p1b: Poker Face|spe|1
+|move|p1b: Poker Face|Dragon Claw|p2a: Gold Ship
+|-activate|p2a: Gold Ship|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Poker Face|30/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|‚òÜSark_RL|137
+|c|‚òÜBellbottoms|Hmm
+|
+|t:|1757243500
+|move|p2b: Oguri Cap|Blizzard|p1b: Poker Face
+|-resisted|p1b: Poker Face
+|-crit|p1b: Poker Face
+|-damage|p1b: Poker Face|1/100
+|-status|p1b: Poker Face|frz
+|move|p2a: Gold Ship|Shadow Ball|p1b: Poker Face
+|-damage|p1b: Poker Face|0 fnt
+|faint|p1b: Poker Face
+|
+|win|Bellbottoms
+|c|‚òÜBellbottoms|yeah
+|c|‚òÜBellbottoms|This mu feels brutal for you
+|c|‚òÜSark_RL|it is
+|c|‚òÜBellbottoms|I really don‚Äôt like the EQ and no stomping on chomp
+|c|‚òÜSark_RL|yeah I'm really not great into rilla in general
+|c|‚òÜBellbottoms|Is infiltrator on Pult useful?
+|c|‚òÜSark_RL|I mean yeah
+|c|‚òÜBellbottoms|I suppose it farms screens Ape teams
+|c|‚òÜSark_RL|theres no real other ability for a special pult anyway
+|c|‚òÜBellbottoms|What do you feel are weak links on your team
+|c|‚òÜBellbottoms|clear body to stop Snarl/icy wind?
+|c|‚òÜBellbottoms|And to block parting shot
+|c|‚òÜBellbottoms|But inflitrator is real nice for screen ape teams
+|c|‚òÜSark_RL|tbh, the order of the team is my order of priority almost
+|c|‚òÜBellbottoms|So you‚Äôre not set on Amoonguss at all?
+|c|‚òÜSark_RL|its only really good for like arch
+|c|‚òÜBellbottoms|Thinking on it it doesn‚Äôt really add much yeah
+|c|‚òÜBellbottoms|You could add a volc maybe?
+|c|‚òÜSark_RL|I like the idea of redirection in theory
+|c|‚òÜBellbottoms|A support volc
+|c|‚òÜBellbottoms|Rage powder overheat struggle bug + 1 other move
+|c|‚òÜBellbottoms|You could make Corv bulk up and give Volc tw
+|c|‚òÜSark_RL|I like the idea
+|c|‚òÜSark_RL|corv becomes an ultra wincon in that universe
+|c|‚òÜBellbottoms|Or you could run some extra tech
+|c|‚òÜSark_RL|which I genuinely like
+|c|‚òÜSark_RL|corv has been unbelievable
+|c|‚òÜBellbottoms|It also becomes more threatening
+|c|‚òÜBellbottoms|since one turn of set up = GGs
+|c|‚òÜSark_RL|yeah
+|c|‚òÜBellbottoms|Volc also can outspeed and struggle bug the Archs
+|c|‚òÜBellbottoms|And most archs Tera to fire weakness
+|c|‚òÜBellbottoms|so you can pressure with chomp damage
+|c|‚òÜBellbottoms|then bring in volc and overheat
+|c|‚òÜBellbottoms|Support volc also strong into mausdhengo
+|c|‚òÜSark_RL|yeah I think it works
+|c|‚òÜSark_RL|goggles?
+|c|‚òÜBellbottoms|Maybe yeah
+|c|‚òÜSark_RL|how fast should it be then
+|c|‚òÜBellbottoms|157 imo
+|c|‚òÜBellbottoms|outspeeds H-arc & Ape
+|c|‚òÜSark_RL|cool
+|c|‚òÜSark_RL|then the rest in bulk
+|c|‚òÜSark_RL|.?
+|c|‚òÜBellbottoms|Maybe test for a dhengo kill with overheat
+|c|‚òÜBellbottoms|Ok I checked it just always kills LMAO
+|c|‚òÜSark_RL|volc moment
+|c|‚òÜSark_RL|what defensive calcs am I looking at then
+|c|‚òÜBellbottoms|Probably stellar brave bird from talon
+|c|‚òÜBellbottoms|and dire claw from non adamant Sneasler in Tera fairy
+|c|‚òÜBellbottoms|also you wanna live scarf Tera fire eruption from Typhlosion
+|c|‚òÜBellbottoms|Nvm you couldn‚Äôt live brave bird
+|c|‚òÜSark_RL|252 Atk Sneasler Dire Claw vs. 108 HP / 220 Def Tera Fairy Volcarona: 146-174 (83.9 - 100%) -- 6.3% chance to OHKO
+|c|‚òÜSark_RL|I think 156/172 is the best middle ground
+|c|‚òÜBellbottoms|Yeah
+|c|‚òÜSark_RL|252 Atk Sneasler Dire Claw vs. 156 HP / 172 Def Tera Fairy Volcarona: 152-182 (84.4 - 101.1%) -- 12.5% chance to OHKO
+|c|‚òÜSark_RL|252 SpA Tera Fire Typhlosion-Hisui Eruption (150 BP) vs. 156 HP / 0 SpD Volcarona: 156-184 (86.6 - 102.2%) -- 18.8% chance to OHKO
+|c|‚òÜBellbottoms|Maybe 156/164
+|c|‚òÜBellbottoms|Nvm actually
+|c|‚òÜBellbottoms|Odds double
+|c|‚òÜBellbottoms|156/172/180 seems good
+|c|‚òÜSark_RL|:)
+|c|‚òÜBellbottoms|And goggles yeah?
+|c|‚òÜSark_RL|am I going tantrum on chomp then
+|c|‚òÜSark_RL|yeah
+|c|‚òÜBellbottoms|Do you want tantrum or EQ?
+|c|‚òÜBellbottoms|What have you preferrer
+|c|‚òÜBellbottoms|preferred
+|c|‚òÜSark_RL|eq has been good in practise and I think with volc Rilla is less of a problem
+|c|‚òÜSark_RL|I've had many a game where I've killed it with corv and just stalled terrain
+|c|‚òÜBellbottoms|Yeah keep EQ then

@@ -1,0 +1,133 @@
+|j|☆MausoldMyBeer
+|j|☆no89
+|html|MausoldMyBeerno89    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757929974
+|gametype|doubles
+|player|p1|MausoldMyBeer|266|1348
+|player|p2|no89|pokemonbreeder-gen4|1458
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Tyranitar, L50, M|
+|poke|p2|Flamigo, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Milotic, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Magmar, L50, F|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,HyperVoice|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||F|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|showteam|p2|Flamigo||FocusSash|Scrappy|Tailwind,CloseCombat,BraveBird,Protect|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Steel]Milotic||SafetyGoggles|Competitive|Scald,Haze,IcyWind,Protect|||F|||50|,,,,,Grass]Archaludon||PowerHerb|Stalwart|ElectroShot,AuraSphere,DragonPulse,Protect|||F|||50|,,,,,Electric]Magmar||Eviolite|VitalSpirit|FollowMe,HeatWave,Taunt,Protect|||F|||50|,,,,,Grass]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,IcyWind|||M|||50|,,,,,Water
+|
+|t:|1757929998
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F, shiny|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M, shiny|100/100
+|switch|p2a: Flamigo|Flamigo, L50, F|100/100
+|switch|p2b: Magmar|Magmar, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757930017
+|move|p2b: Magmar|Follow Me|p2b: Magmar
+|-singleturn|p2b: Magmar|move: Follow Me
+|move|p1a: Sneasler|Dire Claw|p2b: Magmar
+|-damage|p2b: Magmar|57/100
+|move|p1b: Indeedee|Expanding Force|p2b: Magmar|[spread] p2a,p2b
+|-supereffective|p2a: Flamigo
+|-enditem|p2a: Flamigo|Focus Sash
+|-damage|p2a: Flamigo|1/100
+|-damage|p2b: Magmar|20/100
+|move|p2a: Flamigo|Tailwind|p2a: Flamigo
+|-sidestart|p2: no89|move: Tailwind
+|
+|upkeep
+|turn|2
+|
+|t:|1757930053
+|switch|p1b: Volcarona|Volcarona, L50, F, shiny|100/100
+|-terastallize|p1a: Sneasler|Dark
+|move|p2b: Magmar|Follow Me|p2b: Magmar
+|-singleturn|p2b: Magmar|move: Follow Me
+|move|p1a: Sneasler|Throat Chop|p2b: Magmar
+|-damage|p2b: Magmar|0 fnt
+|faint|p2b: Magmar
+|move|p2a: Flamigo|Close Combat|p1b: Volcarona
+|-resisted|p1b: Volcarona
+|-damage|p1b: Volcarona|66/100
+|-unboost|p2a: Flamigo|def|1
+|-unboost|p2a: Flamigo|spd|1
+|
+|upkeep
+|
+|t:|1757930057
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|turn|3
+|
+|t:|1757930080
+|-terastallize|p2b: Basculegion|Water
+|move|p2a: Flamigo|Protect|p2a: Flamigo
+|-singleturn|p2a: Flamigo|Protect
+|move|p1b: Volcarona|Rage Powder|p1b: Volcarona
+|-singleturn|p1b: Volcarona|move: Rage Powder
+|move|p2b: Basculegion|Wave Crash|p1b: Volcarona
+|-supereffective|p1b: Volcarona
+|-damage|p1b: Volcarona|0 fnt
+|-status|p2b: Basculegion|brn|[from] ability: Flame Body|[of] p1b: Volcarona
+|faint|p1b: Volcarona
+|-damage|p2b: Basculegion|81/100 brn|[from] Recoil
+|move|p1a: Sneasler|Throat Chop|p2a: Flamigo
+|-activate|p2a: Flamigo|move: Protect
+|
+|-damage|p2b: Basculegion|74/100 brn|[from] brn
+|upkeep
+|
+|t:|1757930084
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|4
+|
+|t:|1757930125
+|move|p2b: Basculegion|Wave Crash|p1a: Sneasler
+|-damage|p1a: Sneasler|20/100
+|-damage|p2b: Basculegion|54/100 brn|[from] Recoil
+|move|p1a: Sneasler|Throat Chop|p2a: Flamigo
+|-resisted|p2a: Flamigo
+|-damage|p2a: Flamigo|0 fnt
+|faint|p2a: Flamigo
+|move|p1b: Ursaluna|Blood Moon|p2b: Basculegion
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|-damage|p1b: Ursaluna|91/100|[from] item: Life Orb
+|
+|-sideend|p2: no89|move: Tailwind
+|upkeep
+|
+|t:|1757930131
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|turn|5
+|
+|t:|1757930137
+|move|p1a: Sneasler|Throat Chop|p2b: Gholdengo
+|-supereffective|p2b: Gholdengo
+|-damage|p2b: Gholdengo|0 fnt
+|faint|p2b: Gholdengo
+|
+|win|MausoldMyBeer
+||MausoldMyBeer is ready for game 2.
+||no89 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆MausoldMyBeer
+|player|p1|

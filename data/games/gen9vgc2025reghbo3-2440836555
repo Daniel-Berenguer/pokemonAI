@@ -1,0 +1,125 @@
+|j|☆tiramisaurus
+|j|☆TogoVGC
+|html|tiramisaurusTogoVGC    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757765123
+|gametype|doubles
+|player|p1|tiramisaurus|170|1290
+|player|p2|TogoVGC|scientist-gen4|1158
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kilowattrel, L50, F|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Riolu, L50, F|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Scovillain, L50, M|
+|poke|p2|Dragapult, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Pincurchin, L50, M|
+|teampreview|4
+|showteam|p1|Kilowattrel||FocusSash|Competitive|Discharge,Protect,Tailwind,AirSlash|||F|||50|,,,,,Ghost]Ninetales-Alola||CovertCloak|SnowWarning|FreezeDry,Blizzard,Moonblast,Protect|||F|||50|,,,,,Water]Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,StompingTantrum,Protect|||M|||50|,,,,,Steel]Incineroar||MirrorHerb|Intimidate|FakeOut,KnockOff,PartingShot,FlareBlitz|||F|||50|,,,,,Ghost]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,StrengthSap,RagePowder,TrickRoom||||||50|,,,,,Dark]Gholdengo||MetalCoat|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water
+|showteam|p2|Riolu||FocusSash|Prankster|CloseCombat,Coaching,QuickGuard,Copycat|||F|||50|,,,,,Dark]Kingambit||AssaultVest|Defiant|KowtowCleave,IronHead,SuckerPunch,StoneEdge|||F|||50|,,,,,Ghost]Scovillain||EjectPack|Moody|RagePowder,LeafStorm,TemperFlare,Protect|||M|||50|,,,,,Steel]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,TeraBlast,Uturn|||M|||50|,,,,,Fairy]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Ground]Pincurchin||LifeOrb|ElectricSurge|HydroPump,Thunderbolt,MuddyWater,Protect|||M|||50|,,,,,Water
+|
+|t:|1757765152
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p2a: Dragapult|Dragapult, L50, M|100/100
+|switch|p2b: Riolu|Riolu, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Dragapult|unboost|[from] ability: Clear Body|[of] p2a: Dragapult
+|-unboost|p2b: Riolu|atk|1
+|turn|1
+|
+|t:|1757765193
+|-terastallize|p2a: Dragapult|Fairy
+|-terastallize|p1b: Ninetales|Water
+|move|p2b: Riolu|Coaching|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|def|1
+|-enditem|p1a: Incineroar|Mirror Herb
+|-boost|p1a: Incineroar|atk|1|[from] item: Mirror Herb
+|-boost|p1a: Incineroar|def|1|[from] item: Mirror Herb
+|move|p2a: Dragapult|Tera Blast|p1b: Ninetales|[anim] Tera Blast Fairy
+|-damage|p1b: Ninetales|0 fnt
+|faint|p1b: Ninetales
+|move|p1a: Incineroar|Knock Off|p2a: Dragapult
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|75/100
+|-enditem|p2a: Dragapult|Choice Band|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1757765215
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|turn|2
+|
+|t:|1757765244
+|move|p1b: Sinistcha|Rage Powder|p1b: Sinistcha
+|-singleturn|p1b: Sinistcha|move: Rage Powder
+|move|p2b: Riolu|Coaching|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|def|1
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force
+|move|p1a: Incineroar|Flare Blitz|p2a: Dragapult|[miss]
+|-miss|p1a: Incineroar|p2a: Dragapult
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757765278
+|move|p2a: Dragapult|Phantom Force|p1b: Sinistcha|[from] lockedmove
+|-supereffective|p1b: Sinistcha
+|-damage|p1b: Sinistcha|0 fnt
+|faint|p1b: Sinistcha
+|move|p1a: Incineroar|Flare Blitz|p2a: Dragapult
+|-damage|p2a: Dragapult|27/100
+|-damage|p1a: Incineroar|88/100|[from] Recoil
+|move|p2b: Riolu|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|49/100
+|-unboost|p2b: Riolu|def|1
+|-unboost|p2b: Riolu|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1757765292
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|turn|4
+|
+|t:|1757765309
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p2b: Riolu|Coaching|p2a: Dragapult
+|-boost|p2a: Dragapult|atk|1
+|-boost|p2a: Dragapult|def|1
+|move|p2a: Dragapult|Tera Blast|p1a: Incineroar|[anim] Tera Blast Fairy
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|-message|tiramisaurus forfeited.
+|
+|win|TogoVGC
+|l|☆tiramisaurus
+|player|p1|
+||tiramisaurus is ready for game 3.
+||TogoVGC is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

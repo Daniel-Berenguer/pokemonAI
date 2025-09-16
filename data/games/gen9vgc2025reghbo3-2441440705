@@ -1,0 +1,109 @@
+|j|☆Crafter568
+|j|☆celaerity
+|html|Crafter568celaerity    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757852854
+|gametype|doubles
+|player|p1|Crafter568|hilbert-wonderlauncher|1122
+|player|p2|celaerity|mars|1125
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Maushold, L50|
+|poke|p1|Ludicolo, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Annihilape, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,DragonPulse,FlashCannon|||F|||50|,,,,,Fairy]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Stellar]Maushold||SafetyGoggles|FriendGuard|BeatUp,FollowMe,Taunt,Protect||||||50|,,,,,Ghost]Ludicolo||Leftovers|RainDish|Surf,GigaDrain,LeechSeed,Protect|||M|||50|,,,,,Steel]Sinistcha||RockyHelmet|Hospitality|MatchaGotcha,RagePowder,LifeDew,TrickRoom||||||50|,,,,,Fire]Annihilape||SitrusBerry|Defiant|RageFist,CloseCombat,DrainPunch,Protect|||M|||50|,,,,,Fairy
+|showteam|p2|Archaludon||AssaultVest|Stamina|DragonPulse,ElectroShot,FlashCannon,BodyPress|||F|||50|,,,,,Bug]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Ground]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,AquaJet,FlipTurn|||M|||50|,,,,,Grass]Amoonguss||CovertCloak|Regenerator|PollenPuff,RagePowder,Spore,Protect|||F|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|KnockOff,FakeOut,PartingShot,Taunt|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water
+|
+|t:|1757852875
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Archaludon|Archaludon, L50, F|100/100
+|switch|p1b: Maushold|Maushold, L50|100/100
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1757852893
+|-terastallize|p2a: Pelipper|Ground
+|move|p1b: Maushold|Follow Me|p1b: Maushold
+|-singleturn|p1b: Maushold|move: Follow Me
+|move|p2b: Basculegion|Wave Crash|p1b: Maushold
+|-damage|p1b: Maushold|0 fnt
+|faint|p1b: Maushold
+|-damage|p2b: Basculegion|72/100|[from] Recoil
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: celaerity|move: Tailwind
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Basculegion
+|-supereffective|p2b: Basculegion
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757852910
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|turn|2
+|
+|t:|1757852932
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p2a: Pelipper|Hurricane|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha
+|-damage|p1b: Sinistcha|3/100
+|-start|p1b: Sinistcha|confusion
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Gholdengo
+|-damage|p2b: Gholdengo|15/100
+|-activate|p1b: Sinistcha|confusion
+|move|p1b: Sinistcha|Matcha Gotcha|p2b: Gholdengo|[spread] p2a,p2b
+|-supereffective|p2a: Pelipper
+|-resisted|p2b: Gholdengo
+|-damage|p2a: Pelipper|17/100
+|-heal|p1b: Sinistcha|35/100|[from] drain|[of] p2a: Pelipper
+|-damage|p2b: Gholdengo|2/100
+|-heal|p1b: Sinistcha|41/100|[from] drain|[of] p2b: Gholdengo
+|-status|p2a: Pelipper|brn
+|-status|p2b: Gholdengo|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2b: Gholdengo|0 fnt|[from] brn
+|faint|p2b: Gholdengo
+|-damage|p2a: Pelipper|11/100 brn|[from] brn
+|upkeep
+|c|☆celaerity|i see
+|
+|t:|1757852957
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|turn|3
+|-message|celaerity forfeited.
+|
+|win|Crafter568
+|raw|Crafter568's rating: 1122 → 1147(+25 for winning)
+|raw|celaerity's rating: 1125 → 1100(-25 for losing)
+|l|☆celaerity
+|player|p2|
+|l|☆Crafter568
+|player|p1|

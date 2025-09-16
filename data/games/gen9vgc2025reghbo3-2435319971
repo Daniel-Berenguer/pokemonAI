@@ -1,0 +1,185 @@
+|j|☆Wo-Chien<3
+|j|☆luckstat10
+|html|Wo-Chien<3luckstat10    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757021637
+|gametype|doubles
+|player|p1|Wo-Chien<3|miku-ground|1142
+|player|p2|luckstat10|266|1104
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Electabuzz, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Frosmoth, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Dragapult, L50, F|
+|teampreview|4
+|showteam|p1|Ninetales-Alola||CovertCloak|SnowWarning|Blizzard,Moonblast,AuroraVeil,Encore|||M|||50|,,,,,Poison]Electabuzz||Eviolite|VitalSpirit|FollowMe,Protect,Thunderbolt,Taunt|||F|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|LowKick,ScaleShot,Protect,Haze|||M|||50|,,,,,Fairy]Frosmoth||Leftovers|IceScales|QuiverDance,Protect,Blizzard,TeraBlast|||M|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,Uturn|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,Protect,SwordsDance|||F|||50|,,,,,Water
+|showteam|p2|Whimsicott||CovertCloak|Prankster|Tailwind,SunnyDay,Encore,Moonblast|||F|||50|,,,,,Fire]Typhlosion-Hisui||ChoiceScarf|Blaze|Eruption,HeatWave,ShadowBall,Flamethrower|||M|||50|,,,,,Fire]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Ghost]Indeedee||FocusSash|PsychicSurge|ExpandingForce,Imprison,TrickRoom,Protect|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Dragapult||ChoiceBand|ClearBody|DragonDarts,TeraBlast,PhantomForce,Uturn|||F|||50|,,,,,Ghost
+|
+|t:|1757021688
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|switch|p1b: Shiver Wing|Frosmoth, L50, M|100/100
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L50, M, shiny|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|turn|1
+|
+|t:|1757021722
+|move|p1b: Shiver Wing|Protect|p1b: Shiver Wing
+|-singleturn|p1b: Shiver Wing|Protect
+|move|p2a: Typhlosion|Shadow Ball|p1a: Dragonite
+|-damage|p1a: Dragonite|78/100
+|move|p2b: Sneasler|Dire Claw|p1a: Dragonite
+|-damage|p1a: Dragonite|23/100
+|move|p1a: Dragonite|Scale Shot|p2b: Sneasler
+|-damage|p2b: Sneasler|73/100
+|-damage|p2b: Sneasler|50/100
+|-crit|p2b: Sneasler
+|-damage|p2b: Sneasler|7/100
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|-hitcount|p2: Sneasler|4
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|
+|upkeep
+|
+|t:|1757021739
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|2
+|
+|t:|1757021778
+|move|p2a: Typhlosion|Shadow Ball|p1b: Shiver Wing
+|-damage|p1b: Shiver Wing|70/100
+|move|p1a: Dragonite|Scale Shot|p2b: Indeedee|[miss]
+|-miss|p1a: Dragonite|p2b: Indeedee
+|move|p1b: Shiver Wing|Quiver Dance|p1b: Shiver Wing
+|-boost|p1b: Shiver Wing|spa|1
+|-boost|p1b: Shiver Wing|spd|1
+|-boost|p1b: Shiver Wing|spe|1
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|-heal|p1b: Shiver Wing|76/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1757021806
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2b: Indeedee|Expanding Force|p1a: Rillaboom
+|-damage|p1a: Rillaboom|69/100
+|move|p1b: Shiver Wing|Blizzard|p2b: Indeedee|[spread] p2a,p2b
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|63/100
+|-damage|p2b: Indeedee|20/100
+|move|p2a: Typhlosion|Shadow Ball|p1b: Shiver Wing
+|-crit|p1b: Shiver Wing
+|-damage|p1b: Shiver Wing|31/100
+|
+|-heal|p1a: Rillaboom|75/100|[from] Grassy Terrain
+|-heal|p2b: Indeedee|26/100|[from] Grassy Terrain
+|-heal|p1b: Shiver Wing|37/100|[from] Grassy Terrain
+|-heal|p1b: Shiver Wing|43/100|[from] item: Leftovers
+|-heal|p2a: Typhlosion|69/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1757021832
+|switch|p1a: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|move|p2b: Indeedee|Expanding Force|p1b: Shiver Wing
+|-damage|p1b: Shiver Wing|28/100
+|move|p1b: Shiver Wing|Blizzard|p2b: Indeedee|[spread] p2a,p2b
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|31/100
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p2a: Typhlosion|Shadow Ball|p1b: Shiver Wing
+|-damage|p1b: Shiver Wing|9/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Shiver Wing|15/100|[from] Grassy Terrain
+|-heal|p1b: Shiver Wing|21/100|[from] item: Leftovers
+|-heal|p2a: Typhlosion|37/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757021837
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|5
+|
+|t:|1757021871
+|switch|p1a: Rillaboom|Rillaboom, L50, M|75/100
+|-terastallize|p2b: Ursaluna|Ghost
+|move|p1b: Shiver Wing|Protect|p1b: Shiver Wing
+|-singleturn|p1b: Shiver Wing|Protect
+|move|p2b: Ursaluna|Hyper Voice|p1a: Rillaboom|[spread] p1a
+|-activate|p1b: Shiver Wing|move: Protect
+|-damage|p1a: Rillaboom|32/100
+|-damage|p2b: Ursaluna|91/100|[from] item: Life Orb
+|move|p2a: Typhlosion|Shadow Ball|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Ursaluna|97/100|[from] Grassy Terrain
+|-heal|p1b: Shiver Wing|27/100|[from] Grassy Terrain
+|-heal|p1b: Shiver Wing|33/100|[from] item: Leftovers
+|-heal|p2a: Typhlosion|43/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757021884
+|switch|p1a: Dragonite|Dragonite, L50, M|23/100
+|turn|6
+|
+|t:|1757021908
+|move|p1a: Dragonite|Protect|p1a: Dragonite
+|-singleturn|p1a: Dragonite|Protect
+|move|p2b: Ursaluna|Hyper Voice|p1a: Dragonite|[spread] p1b
+|-activate|p1a: Dragonite|move: Protect
+|-damage|p1b: Shiver Wing|9/100
+|-damage|p2b: Ursaluna|87/100|[from] item: Life Orb
+|move|p1b: Shiver Wing|Blizzard|p2b: Ursaluna|[spread] p2a,p2b
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|4/100
+|-damage|p2b: Ursaluna|11/100
+|move|p2a: Typhlosion|Shadow Ball|p1b: Shiver Wing
+|-damage|p1b: Shiver Wing|0 fnt
+|faint|p1b: Shiver Wing
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Ursaluna|17/100|[from] Grassy Terrain
+|-heal|p2a: Typhlosion|10/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1757021916
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100
+|turn|7
+|
+|t:|1757021927
+|move|p2a: Typhlosion|Shadow Ball|p1b: Ninetales
+|-damage|p1b: Ninetales|52/100
+|move|p1b: Ninetales|Blizzard|p2a: Typhlosion|[spread] p2a,p2b
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2a: Typhlosion
+|faint|p2b: Ursaluna
+|
+|win|Wo-Chien<3

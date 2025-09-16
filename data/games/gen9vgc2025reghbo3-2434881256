@@ -1,0 +1,219 @@
+|j|☆Rah999
+|j|☆tera opsec
+|html|Rah999tera opsec    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756964804
+|gametype|doubles
+|player|p1|Rah999|cynthia|1070
+|player|p2|tera opsec|ogreclan|1040
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Magmar, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Rhyperior, L50, M|
+|poke|p2|Milotic, L50, M|
+|teampreview|4
+|showteam|p1|Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Ghost]Dragapult||ChoiceBand|ClearBody|DragonDarts,TeraBlast,PhantomForce,Uturn|||F|||50|,,,,,Ghost]Sneasler||FocusSash|Unburden|DireClaw,CloseCombat,FakeOut,Protect|||M|||50|,,,,,Stellar]Primarina||SitrusBerry|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||F|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,FakeOut,HighHorsepower|||F|||50|,,,,,Fire]Magmar||Eviolite|VitalSpirit|Overheat,WillOWisp,FollowMe,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Gallade||LifeOrb|Sharpness|WideGuard,PsychoCut,SacredSword,LeafBlade|||M|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,TrickRoom,Imprison,AlluringVoice|||F|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Amoonguss||SitrusBerry|EffectSpore|RagePowder,Spore,PollenPuff,ClearSmog|||F|||50|,,,,,Water]Rhyperior||ClearAmulet|SolidRock|Protect,HighHorsepower,RockSlide,HammerArm|||M|||50|,,,,,Grass]Milotic||Leftovers|Competitive|Recover,Coil,MuddyWater,IceBeam|||M|||50|,,,,,Dragon
+|
+|t:|1756964830
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|switch|p1b: Dragapult|Dragapult, L50, F, shiny|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Milotic|Milotic, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756964863
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-terastallize|p2a: Indeedee|Fairy
+|move|p1b: Dragapult|U-turn|p2a: Indeedee
+|-resisted|p2a: Indeedee
+|-damage|p2a: Indeedee|84/100
+|
+|t:|1756964881
+|switch|p1b: Primarina|Primarina, L50, F|100/100|[from] U-turn
+|move|p2b: Milotic|Coil|p2b: Milotic
+|-boost|p2b: Milotic|atk|1
+|-boost|p2b: Milotic|def|1
+|-boost|p2b: Milotic|accuracy|1
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-heal|p2a: Indeedee|90/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756964900
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|move|p1a: Rillaboom|Fake Out|p2b: Milotic
+|-damage|p2b: Milotic|90/100
+|move|p1b: Primarina|Haze|p1b: Primarina
+|-clearallboost
+|cant|p2b: Milotic|flinch
+|
+|-heal|p2b: Milotic|96/100|[from] Grassy Terrain
+|-heal|p2b: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1756964923
+|move|p1b: Primarina|Protect|p1b: Primarina
+|-singleturn|p1b: Primarina|Protect
+|move|p2a: Amoonguss|Spore|p1b: Primarina
+|-activate|p1b: Primarina|move: Protect
+|move|p2b: Milotic|Coil|p2b: Milotic
+|-boost|p2b: Milotic|atk|1
+|-boost|p2b: Milotic|def|1
+|-boost|p2b: Milotic|accuracy|1
+|move|p1a: Rillaboom|Wood Hammer|p2b: Milotic
+|-supereffective|p2b: Milotic
+|-damage|p2b: Milotic|0 fnt
+|faint|p2b: Milotic
+|-damage|p1a: Rillaboom|66/100|[from] Recoil
+|
+|-heal|p1a: Rillaboom|73/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756964929
+|switch|p2b: Gallade|Gallade, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1756964975
+|move|p1b: Primarina|Protect||[still]
+|-fail|p1b: Primarina
+|move|p2a: Amoonguss|Spore|p1b: Primarina
+|-status|p1b: Primarina|slp|[from] move: Spore
+|move|p2b: Gallade|Sacred Sword|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-damage|p2b: Gallade|91/100|[from] item: Life Orb
+|
+|-heal|p2b: Gallade|96/100|[from] Grassy Terrain
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by tera opsec)
+|
+|t:|1756965002
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|turn|5
+|
+|t:|1756965011
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p2a: Amoonguss|Spore|p1a: Sneasler
+|-activate|p1a: Sneasler|move: Protect
+|cant|p1b: Primarina|slp
+|move|p2b: Gallade|Leaf Blade|p1b: Primarina
+|-supereffective|p1b: Primarina
+|-damage|p1b: Primarina|0 fnt
+|faint|p1b: Primarina
+|-damage|p2b: Gallade|87/100|[from] item: Life Orb
+|
+|-heal|p2b: Gallade|92/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756965024
+|switch|p1b: Dragapult|Dragapult, L50, F, shiny|100/100
+|turn|6
+|inactive|Rah999 has 30 seconds left.
+|inactive|Rah999 has 20 seconds left.
+|inactive|Rah999 has 15 seconds left.
+|inactive|Rah999 has 10 seconds left.
+|
+|t:|1756965072
+|switch|p2b: Indeedee|Indeedee-F, L50, F, tera:Fairy|90/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|move|p1b: Dragapult|Phantom Force||[still]
+|-prepare|p1b: Dragapult|Phantom Force
+|move|p1a: Sneasler|Dire Claw|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|14/100
+|move|p2a: Amoonguss|Spore|p1a: Sneasler
+|-status|p1a: Sneasler|slp|[from] move: Spore
+|
+|upkeep
+|turn|7
+|
+|t:|1756965088
+|move|p1b: Dragapult|Phantom Force|p2b: Indeedee|[from] lockedmove
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|cant|p1a: Sneasler|slp
+|move|p2a: Amoonguss|Spore|p1b: Dragapult
+|-status|p1b: Dragapult|slp|[from] move: Spore
+|
+|upkeep
+|
+|t:|1756965091
+|switch|p2b: Gallade|Gallade, L50, M, shiny|92/100
+|turn|8
+|
+|t:|1756965106
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|cant|p1b: Dragapult|slp
+|-curestatus|p1a: Sneasler|slp|[msg]
+|move|p1a: Sneasler|Dire Claw|p2a: Amoonguss
+|-damage|p2a: Amoonguss|69/100
+|move|p2b: Gallade|Psycho Cut|p1b: Dragapult
+|-damage|p1b: Dragapult|0 fnt
+|faint|p1b: Dragapult
+|-damage|p2b: Gallade|83/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|t:|1756965122
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p1a: Sneasler|Dire Claw|p2a: Amoonguss
+|-damage|p2a: Amoonguss|37/100
+|-enditem|p2a: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2a: Amoonguss|62/100|[from] item: Sitrus Berry
+|move|p2b: Gallade|Psycho Cut|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-enditem|p1a: Sneasler|Focus Sash
+|-damage|p1a: Sneasler|1/100
+|-damage|p2b: Gallade|73/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|t:|1756965139
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p1a: Sneasler|Dire Claw|p2a: Amoonguss
+|-damage|p2a: Amoonguss|29/100
+|-status|p2a: Amoonguss|par
+|-status|p1a: Sneasler|slp|[from] ability: Effect Spore|[of] p2a: Amoonguss
+|move|p2b: Gallade|Psycho Cut|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|-damage|p2b: Gallade|63/100|[from] item: Life Orb
+|
+|win|tera opsec
+||tera opsec is ready for game 3.
+|inactive|Rah999 has 30 seconds to confirm battle start!
+||Rah999 is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

@@ -1,0 +1,164 @@
+|j|☆FlashoGoing
+|j|☆randomguy1114s
+|html|FlashoGoingrandomguy1114s    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757205983
+|gametype|doubles
+|player|p1|FlashoGoing|pokemaniac|1095
+|player|p2|randomguy1114s|lillie-masters|1330
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Murkrow, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|FakeOut,Taunt,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,Uturn|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Annihilape||SitrusBerry|Defiant|BulkUp,Protect,RageFist,DrainPunch|||F|||50|,,,,,Fire]Murkrow||FocusSash|Prankster|Tailwind,Haze,Quash,Protect|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Indeedee-F||SafetyGoggles|PsychicSurge|FollowMe,HelpingHand,TrickRoom,Psychic|||F|||50|,,,,,Dark]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Psychic]Torkoal||Charcoal|Drought|Eruption,HeatWave,SolarBeam,Protect|||F|||50|,,,,,Fire]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,Uturn,Protect|||F|||50|,,,,,Bug]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Psychic]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1757206018
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2a: resident helper|Indeedee-F, L50, F, shiny|100/100
+|switch|p2b: its massive|Hatterene, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: resident helper
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: resident helper|atk|1
+|-unboost|p2b: its massive|atk|1
+|turn|1
+|
+|t:|1757206044
+|switch|p2a: turtleonfire|Torkoal, L50, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: turtleonfire
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p1a: Incineroar|Knock Off|p2a: turtleonfire
+|-damage|p2a: turtleonfire|68/100
+|-enditem|p2a: turtleonfire|Charcoal|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2b: its massive|Trick Room|p2b: its massive
+|-fieldstart|move: Trick Room|[of] p2b: its massive
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: turtleonfire|74/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1757206111
+|switch|p2b: resident helper|Indeedee-F, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: resident helper
+|-terastallize|p2a: turtleonfire|Fire
+|-terastallize|p1b: Rillaboom|Fire
+|move|p1b: Rillaboom|Fake Out|p2b: resident helper
+|-activate|p2b: resident helper|move: Psychic Terrain
+|move|p2a: turtleonfire|Eruption|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-resisted|p1b: Rillaboom
+|-damage|p1a: Incineroar|69/100
+|-damage|p1b: Rillaboom|79/100
+|move|p1a: Incineroar|Knock Off|p2b: resident helper
+|-supereffective|p2b: resident helper
+|-damage|p2b: resident helper|28/100
+|-enditem|p2b: resident helper|Safety Goggles|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757206134
+|switch|p2a: its massive|Hatterene, L50, F, shiny|100/100
+|move|p1a: Incineroar|Parting Shot|p2a: its massive
+|move|p2a: its massive|Parting Shot|p1a: Incineroar|[from] ability: Magic Bounce
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1a: Incineroar|spa|1
+|
+|t:|1757206144
+|switch|p2a: Gallade|Gallade, L50, M|100/100|[from] Parting Shot
+|move|p2b: resident helper|Psychic|p1b: Rillaboom
+|-damage|p1b: Rillaboom|52/100
+|move|p1b: Rillaboom|U-turn|p2b: resident helper
+|-supereffective|p2b: resident helper
+|-damage|p2b: resident helper|0 fnt
+|faint|p2b: resident helper
+|
+|t:|1757206155
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100|[from] U-turn
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757206179
+|switch|p2b: its massive|Hatterene, L50, F, shiny|100/100
+|turn|4
+|
+|t:|1757206190
+|switch|p1a: Rillaboom|Rillaboom, L50, M, tera:Fire|52/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: its massive|Dazzling Gleam|p1b: Ursaluna|[spread] p1a
+|-activate|p1b: Ursaluna|move: Protect
+|-resisted|p1a: Rillaboom
+|-crit|p1a: Rillaboom
+|-damage|p1a: Rillaboom|31/100
+|-damage|p2b: its massive|91/100|[from] item: Life Orb
+|move|p2a: Gallade|Sacred Sword|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: its massive|97/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|37/100|[from] Grassy Terrain
+|-damage|p1b: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1757206225
+|move|p1a: Rillaboom|Fake Out|p2a: Gallade
+|-damage|p2a: Gallade|83/100
+|move|p2b: its massive|Expanding Force|p1b: Ursaluna
+|-damage|p1b: Ursaluna|41/100 brn
+|-damage|p2b: its massive|87/100|[from] item: Life Orb
+|cant|p2a: Gallade|flinch
+|move|p1b: Ursaluna|Facade|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|-weather|none
+|-heal|p2b: its massive|93/100|[from] Grassy Terrain
+|-heal|p1b: Ursaluna|47/100 brn|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|43/100|[from] Grassy Terrain
+|-damage|p1b: Ursaluna|41/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1757206240
+|switch|p2a: turtleonfire|Torkoal, L50, F, shiny, tera:Fire|74/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: turtleonfire
+|turn|6
+|-message|randomguy1114s forfeited.
+|
+|win|FlashoGoing
+|l|☆randomguy1114s
+|player|p2|
+||randomguy1114s is ready for game 2.
+||FlashoGoing is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆FlashoGoing
+|player|p1|
+|j|☆randomguy1114s
+|player|p2|randomguy1114s|lillie-masters|

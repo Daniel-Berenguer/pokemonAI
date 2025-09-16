@@ -1,0 +1,163 @@
+|j|☆patxif
+|j|☆cheesbuga
+|html|patxifcheesbuga    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757663215
+|gametype|doubles
+|player|p1|patxif|169|1000
+|player|p2|cheesbuga|pokemaniac|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Zoroark-Hisui, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Volcarona, L50, F|
+|teampreview|4
+|showteam|p1|Indeedee-F||RockyHelmet|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Gallade||ClearAmulet|Steadfast|SacredSword,PsychoCut,TrickRoom,WideGuard|||M|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,EarthPower,Protect|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|DazzlingGleam,ExpandingForce,Protect,TrickRoom|||F|||50|,,,,,Fire]Zoroark-Hisui||ChoiceSpecs|Illusion|HyperBeam,HyperVoice,ShadowBall,FocusBlast|||F|||50|,,,,,Normal
+|showteam|p2|Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|Uturn,WoodHammer,GrassyGlide,FakeOut|||M|||50|,,,,,Fire]Farigiraf||ThroatSpray|ArmorTail|HyperVoice,Protect,Psychic,TrickRoom|||F|||50|,,,,,Fairy]Sneasler||FocusSash|Unburden|CloseCombat,Protect,FakeOut,ThroatChop|||M|||50|,,,,,Dark]Volcarona||CovertCloak|FlameBody|HeatWave,Protect,StruggleBug,QuiverDance|||F|||50|,,,,,Water
+|
+|t:|1757663258
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gallade|Gallade, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Gallade|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1757663303
+|move|p1a: Gallade|Hyper Beam|p2a: Farigiraf
+|-damage|p2a: Farigiraf|0 fnt
+|-mustrecharge|p1a: Gallade
+|faint|p2a: Farigiraf
+|move|p2b: Incineroar|Knock Off|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|33/100
+|-damage|p2b: Incineroar|84/100|[from] item: Rocky Helmet|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Rocky Helmet|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|upkeep
+|
+|t:|1757663317
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|2
+|
+|t:|1757663328
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2b: Incineroar|Knock Off|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p2a: Rillaboom|U-turn|p1a: Gallade
+|-resisted|p1a: Gallade
+|-damage|p1a: Gallade|78/100
+|replace|p1a: Zoroark|Zoroark-Hisui, L50, F
+|-end|p1a: Zoroark|Illusion
+|
+|t:|1757663340
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100|[from] U-turn
+|cant|p1a: Zoroark|recharge
+|
+|-heal|p2b: Incineroar|90/100|[from] Grassy Terrain
+|-heal|p1a: Zoroark|84/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757663353
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|turn|3
+|
+|t:|1757663367
+|move|p2a: Ursaluna|Blood Moon|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|-damage|p2a: Ursaluna|91/100|[from] item: Life Orb
+|move|p1b: Gallade|Sacred Sword|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|15/100
+|move|p2b: Incineroar|Knock Off|p1b: Gallade
+|-damage|p1b: Gallade|49/100
+|-enditem|p1b: Gallade|Clear Amulet|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-heal|p2a: Ursaluna|21/100|[from] Grassy Terrain
+|-heal|p1b: Gallade|55/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|96/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757663390
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|4
+|
+|t:|1757663400
+|-terastallize|p1a: Torkoal|Fire
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Torkoal|Eruption|p2b: Incineroar|[spread] p2b
+|-activate|p2a: Ursaluna|move: Protect
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|48/100
+|move|p1b: Gallade|Sacred Sword|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ursaluna|27/100|[from] Grassy Terrain
+|-heal|p1b: Gallade|60/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757663414
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|turn|5
+|
+|t:|1757663431
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2b: Rillaboom|Fake Out|p1a: Torkoal
+|-activate|p1a: Torkoal|move: Protect
+|move|p2a: Ursaluna|Blood Moon|p1b: Gallade
+|-damage|p1b: Gallade|0 fnt
+|faint|p1b: Gallade
+|-damage|p2a: Ursaluna|18/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ursaluna|24/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1757663447
+|move|p2b: Rillaboom|Wood Hammer|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|72/100
+|-damage|p2b: Rillaboom|92/100|[from] Recoil
+|move|p2a: Ursaluna|Earth Power|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|-damage|p2a: Ursaluna|14/100|[from] item: Life Orb
+|
+|win|cheesbuga
+|raw|patxif's rating: 1000 → 1000(+0 for losing)
+|raw|cheesbuga's rating: 1000 → 1040(+40 for winning)

@@ -1,0 +1,178 @@
+|j|☆medwar
+|j|☆samworldwide
+|html|medwarsamworldwide    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757812095
+|gametype|doubles
+|player|p1|medwar|dawn|1104
+|player|p2|samworldwide|psychic-gen3|1081
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Tsareena, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Hydreigon, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Venusaur, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|teampreview|4
+|showteam|p1|Annihilape||SafetyGoggles|Defiant|DrainPunch,RageFist,Protect,BulkUp|||M|||50|,,,,,Fire]Tsareena||Leftovers|QueenlyMajesty|TropKick,Protect,Taunt,Trailblaze|||F|||50|,,,,,Fire]Ninetales-Alola||FocusSash|SnowWarning|IcicleSpear,AuroraVeil,FreezeDry,Blizzard|||M|||50|,,,,,Poison]Ursaluna-Bloodmoon||AssaultVest|MindsEye|Moonblast,BloodMoon,HyperVoice,EarthPower|||M|||50|,,,,,Fairy]Basculegion||ChoiceScarf|Adaptability|TeraBlast,LastRespects,WaveCrash,FlipTurn|||M|||50|,,,,,Fairy]Incineroar||RockyHelmet|Intimidate|FakeOut,PartingShot,FlareBlitz,KnockOff|||F|||50|,,,,,Ghost
+|showteam|p2|Garchomp||ClearAmulet|RoughSkin|StompingTantrum,DragonClaw,Earthquake,Protect|||M|||50|,,,,,Steel]Hydreigon||LifeOrb|Levitate|DracoMeteor,DarkPulse,HeatWave,Protect|||F|||50|,,,,,Poison]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,HeatWave,SolarBeam,ShadowBall|||M|||50|,,,,,Fire]Venusaur||FocusSash|Chlorophyll|GrassKnot,WeatherBall,SleepPowder,Protect|||M|||50|,,,,,Fire]Torkoal||EjectPack|Drought|Overheat,Eruption,HelpingHand,Protect|||M|||50|,,,,,Flying]Whimsicott||CovertCloak|Prankster|Moonblast,SunnyDay,Tailwind,Encore|||F|||50|,,,,,Water
+|
+|t:|1757812125
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Garchomp|Garchomp, L50, M|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Garchomp|unboost|[from] item: Clear Amulet|[of] p2a: Garchomp
+|-unboost|p2b: Whimsicott|atk|1
+|turn|1
+|
+|t:|1757812149
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: samworldwide|move: Tailwind
+|move|p1b: Basculegion|Flip Turn|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Protect
+|move|p1a: Incineroar|Flare Blitz|p2b: Whimsicott
+|-supereffective|p2b: Whimsicott
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|-damage|p1a: Incineroar|76/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1757812162
+|switch|p2b: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|turn|2
+|
+|t:|1757812188
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-terastallize|p2b: Typhlosion|Fire
+|move|p2b: Typhlosion|Eruption|p1b: Basculegion|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-resisted|p1b: Basculegion
+|-damage|p1a: Incineroar|9/100
+|-damage|p1b: Basculegion|10/100
+|move|p1b: Basculegion|Flip Turn|p2b: Typhlosion
+|-supereffective|p2b: Typhlosion
+|-damage|p2b: Typhlosion|41/100
+|
+|t:|1757812201
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100|[from] Flip Turn
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|move|p1a: Incineroar|Knock Off|p2a: Torkoal
+|-damage|p2a: Torkoal|73/100
+|-enditem|p2a: Torkoal|Eject Pack|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757812223
+|switch|p1b: Annihilape|Annihilape, L50, M, shiny|100/100
+|move|p2b: Typhlosion|Eruption|p1b: Annihilape|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Annihilape|57/100
+|faint|p1a: Incineroar
+|move|p2a: Torkoal|Overheat|p1b: Annihilape
+|-damage|p1b: Annihilape|20/100
+|-unboost|p2a: Torkoal|spa|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1757812238
+|switch|p1a: Basculegion|Basculegion, L50, M|10/100
+|turn|4
+|
+|t:|1757812251
+|switch|p2a: Garchomp|Garchomp, L50, M|100/100
+|move|p1b: Annihilape|Protect|p1b: Annihilape
+|-singleturn|p1b: Annihilape|Protect
+|move|p2b: Typhlosion|Eruption|p1a: Basculegion|[spread] p1a
+|-activate|p1b: Annihilape|move: Protect
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p2: samworldwide|move: Tailwind
+|upkeep
+|
+|t:|1757812265
+|switch|p1a: Ninetales|Ninetales-Alola, L50, M|100/100
+|turn|5
+|
+|t:|1757812276
+|switch|p2b: Torkoal|Torkoal, L50, M|73/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1a: Ninetales|Blizzard|p2a: Garchomp|[spread] 
+|-activate|p2a: Garchomp|move: Protect
+|-miss|p1a: Ninetales|p2b: Torkoal
+|move|p1b: Annihilape|Drain Punch|p2b: Torkoal
+|-damage|p2b: Torkoal|50/100
+|-heal|p1b: Annihilape|30/100|[from] drain|[of] p2b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1757812316
+|move|p2b: Torkoal|Protect|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Protect
+|move|p1a: Ninetales|Freeze-Dry|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|move|p1b: Annihilape|Drain Punch|p2b: Torkoal
+|-activate|p2b: Torkoal|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757812321
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L50, M, tera:Fire|41/100
+|turn|7
+|
+|t:|1757812375
+|-terastallize|p1b: Annihilape|Fire
+|move|p1a: Ninetales|Freeze-Dry|p2a: Typhlosion
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|21/100
+|move|p2a: Typhlosion|Heat Wave|p1b: Annihilape|[spread] p1a,p1b
+|-supereffective|p1a: Ninetales
+|-resisted|p1b: Annihilape
+|-crit|p1b: Annihilape
+|-enditem|p1a: Ninetales|Focus Sash
+|-damage|p1a: Ninetales|1/100
+|-damage|p1b: Annihilape|0 fnt
+|faint|p1b: Annihilape
+|move|p2b: Torkoal|Eruption|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|win|samworldwide
+||samworldwide is ready for game 2.
+|inactive|medwar has 30 seconds to confirm battle start!
+||medwar is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

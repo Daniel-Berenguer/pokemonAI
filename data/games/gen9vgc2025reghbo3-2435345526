@@ -1,0 +1,128 @@
+|j|☆purplepiglis13
+|j|☆mariocansado
+|html|purplepiglis13mariocansado    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757024592
+|gametype|doubles
+|player|p1|purplepiglis13|hilbert-wonderlauncher|1113
+|player|p2|mariocansado|arven-s|1237
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Kommo-o, L50, M|
+|poke|p1|Reuniclus, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Arcanine-Hisui, L50, M|
+|teampreview|4
+|showteam|p1|Excadrill||FocusSash|SandRush|Protect,Earthquake,HighHorsepower,IronHead|||M|||50|,,,,,Ground]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Ghost]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||F|||50|,,,,,Flying]Amoonguss||SitrusBerry|Regenerator|PollenPuff,RagePowder,ClearSmog,Spore|||M|||50|,,,,,Water]Kommo-o||ThroatSpray|Overcoat|Protect,ClangingScales,ClangorousSoul,AuraSphere|||M|||50|,,,,,Steel]Reuniclus||LifeOrb|MagicGuard|Protect,TrickRoom,ExpandingForce,FlashCannon|||F|||50|,,,,,Dark
+|showteam|p2|Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,Uturn,GrassyGlide|||F|||50|,,,,,Fire]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,PhantomForce,Uturn|||F|||50|,,,,,Dragon]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,Taunt,FollowMe,Protect|||M|||50|,,,,,Ghost]Volcarona||Leftovers|FlameBody|HeatWave,QuiverDance,Protect,GigaDrain|||F|||50|,,,,,Grass]Whimsicott||CovertCloak|Prankster|SunnyDay,Moonblast,Encore,Tailwind|||F|||50|,,,,,Dark]Arcanine-Hisui||SafetyGoggles|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||M|||50|,,,,,Fairy
+|
+|t:|1757024634
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Reuniclus|Reuniclus, L50, F|100/100
+|switch|p1b: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p2a: Dragapult|Dragapult, L50, F|100/100
+|switch|p2b: Arcanine|Arcanine-Hisui, L50, M|100/100
+|-ability|p2b: Arcanine|Intimidate|boost
+|-unboost|p1a: Reuniclus|atk|1
+|-unboost|p1b: Tyranitar|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|1
+|
+|t:|1757024669
+|-terastallize|p2a: Dragapult|Dragon
+|move|p2a: Dragapult|Dragon Darts|p1b: Tyranitar
+|-damage|p1b: Tyranitar|57/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Reuniclus
+|-crit|p1a: Reuniclus
+|-damage|p1a: Reuniclus|26/100
+|move|p2b: Arcanine|Flare Blitz|p1a: Reuniclus
+|-damage|p1a: Reuniclus|0 fnt
+|faint|p1a: Reuniclus
+|-damage|p2b: Arcanine|90/100|[from] Recoil
+|move|p1b: Tyranitar|Rock Slide|p2b: Arcanine|[spread] p2a,p2b
+|-supereffective|p2b: Arcanine
+|-damage|p2a: Dragapult|71/100
+|-damage|p2b: Arcanine|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|65/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757024679
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|turn|2
+|
+|t:|1757024718
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p2a: Dragapult|Dragon Darts|p1a: Amoonguss
+|-damage|p1a: Amoonguss|53/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Amoonguss
+|-damage|p1a: Amoonguss|12/100
+|-enditem|p1a: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1a: Amoonguss|37/100|[from] item: Sitrus Berry
+|move|p2b: Arcanine|Rock Slide|p1b: Tyranitar|[spread] p1a,p1b
+|-damage|p1a: Amoonguss|15/100
+|-damage|p1b: Tyranitar|34/100
+|cant|p1b: Tyranitar|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|58/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|9/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1757024734
+|move|p2b: Arcanine|Protect|p2b: Arcanine
+|-singleturn|p2b: Arcanine|Protect
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p2a: Dragapult|Dragon Darts|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|move|p1b: Tyranitar|Rock Slide|p2b: Arcanine|[spread] p2a
+|-activate|p2b: Arcanine|move: Protect
+|-damage|p2a: Dragapult|32/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|26/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757024736
+|switch|p1a: Kommo-o|Kommo-o, L50, M|100/100
+|turn|4
+|
+|t:|1757024742
+|-terastallize|p1a: Kommo-o|Steel
+|move|p2a: Dragapult|Dragon Darts|p1b: Tyranitar
+|-damage|p1b: Tyranitar|0 fnt
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|74/100
+|faint|p1b: Tyranitar
+|move|p2b: Arcanine|Flare Blitz|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|-damage|p2b: Arcanine|12/100|[from] Recoil
+|
+|win|mariocansado
+||purplepiglis13 is ready for game 3.
+||mariocansado is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆purplepiglis13
+|player|p1|

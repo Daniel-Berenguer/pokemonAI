@@ -1,0 +1,102 @@
+|j|☆colhalli
+|j|☆sandy ghost 5
+|html|colhallisandy ghost 5    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756920893
+|gametype|doubles
+|player|p1|colhalli|1|1138
+|player|p2|sandy ghost 5|baker|1266
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Maushold-Four, L50|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Salamence, L50, F|
+|poke|p2|Blaziken, L50, M|
+|poke|p2|Bruxish, L50, F|
+|teampreview|4
+|showteam|p1|Indeedee-F||SafetyGoggles|PsychicSurge|FollowMe,Psychic,TrickRoom,PsychicTerrain|||F|||50|,,,,,Fairy]Maushold-Four||WideLens|Technician|PopulationBomb,FollowMe,AfterYou,Protect||||||50|,,,,,Ghost]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HeatWave,ClearSmog|||F|||50|,,,,,Fire]Incineroar||AssaultVest|Intimidate|FakeOut,KnockOff,FlareBlitz,LowKick|||F|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,TrickRoom,WideGuard|||M|||50|,,,,,Fire]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Psychic|||F|||50|,,,,,Fire
+|showteam|p2|Tyranitar||ClearAmulet|SandStream|RockSlide,KnockOff,DragonDance,Protect|||M|||50|,,,,,Grass]Excadrill||AssaultVest|SandRush|Earthquake,IronHead,HighHorsepower,RockSlide|||F|||50|,,,,,Ghost]Sinistcha-Masterpiece||SitrusBerry|Hospitality|ShadowBall,MatchaGotcha,RagePowder,Protect||||||50|,,,,,Dark]Salamence||LifeOrb|Intimidate|DracoMeteor,AirSlash,Protect,Tailwind|||F|||50|,,,,,Ghost]Blaziken||CovertCloak|SpeedBoost|AuraSphere,HeatWave,Coaching,WillOWisp|||M|||50|,,,,,Dragon]Bruxish||ChoiceScarf|Dazzling|PsychicFangs,FlipTurn,WaveCrash,SuperFang|||F|||50|,,,,,Water
+|
+|t:|1756920915
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p2b: Excadrill|Excadrill, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1756920930
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Excadrill|Rock Slide|p1a: Indeedee|[spread] p1a,p1b
+|-resisted|p1b: Gallade
+|-damage|p1a: Indeedee|79/100
+|-damage|p1b: Gallade|85/100
+|move|p2a: Tyranitar|Rock Slide|p1b: Gallade|[spread] p1b
+|-miss|p2a: Tyranitar|p1a: Indeedee
+|-resisted|p1b: Gallade
+|-damage|p1b: Gallade|61/100
+|cant|p1b: Gallade|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Gallade|55/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1756920950
+|move|p1b: Gallade|Wide Guard|p1b: Gallade
+|-singleturn|p1b: Gallade|Wide Guard
+|move|p2b: Excadrill|High Horsepower|p1a: Indeedee
+|-damage|p1a: Indeedee|28/100
+|move|p2a: Tyranitar|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-enditem|p1a: Indeedee|Safety Goggles|[from] move: Knock Off|[of] p2a: Tyranitar
+|faint|p1a: Indeedee
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Gallade|49/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756920965
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|turn|3
+|
+|t:|1756920994
+|-terastallize|p1a: Hatterene|Fire
+|move|p1b: Gallade|Wide Guard|p1b: Gallade
+|-singleturn|p1b: Gallade|Wide Guard
+|move|p2b: Excadrill|High Horsepower|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|move|p2a: Tyranitar|Knock Off|p1b: Gallade
+|-damage|p1b: Gallade|0 fnt
+|-enditem|p1b: Gallade|Clear Amulet|[from] move: Knock Off|[of] p2a: Tyranitar
+|faint|p1b: Gallade
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|-message|colhalli forfeited.
+|
+|win|sandy ghost 5
+|l|☆colhalli
+|player|p1|
+||colhalli is ready for game 3.
+||sandy ghost 5 is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

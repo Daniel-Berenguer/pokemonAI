@@ -1,0 +1,115 @@
+|j|☆electrictopi
+|j|‽Pitoune901
+|html|electrictopiPitoune901    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757788285
+|gametype|doubles
+|player|p1|electrictopi|n|1110
+|player|p2|Pitoune901|lucas|1116
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Talonflame, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p1|Samurott-Hisui, L50, F|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Talonflame||CovertCloak|GaleWings|FlareBlitz,DualWingbeat,Tailwind,WillOWisp|||F|||50|,,,,,Fairy]Sneasler||PsychicSeed|Unburden|Protect,ThroatChop,DireClaw,CloseCombat|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,DazzlingGleam,TrickRoom,Encore|||M|||50|,,,,,Psychic]Ursaluna-Bloodmoon||FocusSash|MindsEye|Protect,EarthPower,BloodMoon,HyperVoice|||M|||50|,,,,,Normal]Sinistcha-Masterpiece||SitrusBerry|Hospitality|RagePowder,MatchaGotcha,LifeDew,TrickRoom||||||50|,,,,,Water]Samurott-Hisui||LifeOrb|Sharpness|AquaCutter,SacredSword,ThroatChop,Protect|||F|||50|,,,,,Water
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1757788332
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M, shiny|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|1
+|
+|t:|1757788353
+|-terastallize|p2a: Porygon2|Fighting
+|move|p1b: Sneasler|Close Combat|p2a: Porygon2
+|-damage|p2a: Porygon2|62/100
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|move|p1a: Indeedee|Expanding Force|p2a: Porygon2|[spread] p2a,p2b
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|-damage|p2b: Torkoal|20/100
+|faint|p2a: Porygon2
+|move|p2b: Torkoal|Overheat|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-unboost|p2b: Torkoal|spa|2
+|faint|p1a: Indeedee
+|-enditem|p2b: Torkoal|Eject Pack
+|
+|t:|1757788368
+|switch|p2b: Charizard|Charizard, L50, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|88/100|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|
+|t:|1757788374
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|turn|2
+|
+|t:|1757788392
+|-terastallize|p1b: Sneasler|Dark
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1b: Sneasler|Throat Chop|p2b: Charizard
+|-damage|p2b: Charizard|27/100
+|-start|p2b: Charizard|Throat Chop|[silent]
+|move|p2b: Charizard|Air Slash|p1b: Sneasler|[miss]
+|-miss|p2b: Charizard|p1b: Sneasler
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|14/100|[from] ability: Solar Power|[of] p2b: Charizard
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1757788408
+|move|p1b: Sneasler|Throat Chop|p2b: Charizard
+|-damage|p2b: Charizard|0 fnt
+|faint|p2b: Charizard
+|move|p1a: Ursaluna|Blood Moon|p2a: Ursaluna
+|-damage|p2a: Ursaluna|18/100 brn
+|move|p2a: Ursaluna|Earthquake|p1a: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|50/100
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|13/100 brn|[from] brn
+|upkeep
+|-message|Pitoune901 forfeited.
+|
+|win|electrictopi
+|l|‽Pitoune901
+|player|p2|
+||Pitoune901 is ready for game 2.
+||electrictopi is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

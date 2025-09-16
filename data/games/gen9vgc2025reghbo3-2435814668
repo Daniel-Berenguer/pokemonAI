@@ -1,0 +1,132 @@
+|j|☆eggtophat_real
+|j|☆rampopst
+|html|eggtophat_realrampopst    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757090834
+|gametype|doubles
+|player|p1|eggtophat_real|miku-fire|1103
+|player|p2|rampopst|1|1038
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Arcanine-Hisui, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Araquanid, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|showteam|p1|Gholdengo||GrassySeed|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,Coaching,Protect|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,DrumBeating,HighHorsepower|||M|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Tailwind,Protect|||F|||50|,,,,,Ground]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,IcyWind,Encore,AuroraVeil|||F|||50|,,,,,Ghost]Arcanine-Hisui||ClearAmulet|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||F|||50|,,,,,Water
+|showteam|p2|Hatterene||LifeOrb|MagicBounce|TrickRoom,ExpandingForce,DazzlingGleam,Protect|||F|||50|,,,,,Water]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,HelpingHand,DazzlingGleam|||F|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,Flamethrower,EarthPower|||M|||50|,,,,,Fire]Gallade||ScopeLens|Sharpness|PsychoCut,SacredSword,WideGuard,Protect|||M|||50|,,,,,Psychic]Araquanid||Leftovers|WaterBubble|Liquidation,LeechLife,WideGuard,Protect|||M|||50|,,,,,Grass]Amoonguss||RockyHelmet|Regenerator|Spore,PollenPuff,RagePowder,Protect|||F|||50|,,,,,Water
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by eggtophat_real)
+|
+|t:|1757090856
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Arcanine|Arcanine-Hisui, L50, F|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2b: Araquanid|Araquanid, L50, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Amoonguss|atk|1
+|-unboost|p2b: Araquanid|atk|1
+|turn|1
+|
+|t:|1757090874
+|-terastallize|p2a: Amoonguss|Water
+|move|p1a: Arcanine|Protect|p1a: Arcanine
+|-singleturn|p1a: Arcanine|Protect
+|move|p1b: Sneasler|Coaching|p1a: Arcanine
+|-boost|p1a: Arcanine|atk|1
+|-boost|p1a: Arcanine|def|1
+|move|p2b: Araquanid|Liquidation|p1a: Arcanine
+|-activate|p1a: Arcanine|move: Protect
+|move|p2a: Amoonguss|Spore|p1b: Sneasler
+|-status|p1b: Sneasler|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1757090889
+|-terastallize|p1a: Arcanine|Water
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|cant|p1b: Sneasler|slp
+|move|p1a: Arcanine|Rock Slide|p2a: Amoonguss|[spread] p2a,p2b
+|-supereffective|p2b: Araquanid
+|-damage|p2a: Amoonguss|71/100
+|-damage|p2b: Araquanid|4/100
+|cant|p2b: Araquanid|flinch
+|
+|-heal|p2b: Araquanid|10/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|inactive|eggtophat_real has 30 seconds left.
+|
+|t:|1757090919
+|move|p1a: Arcanine|Protect|p1a: Arcanine
+|-singleturn|p1a: Arcanine|Protect
+|move|p2b: Araquanid|Wide Guard|p2b: Araquanid
+|-singleturn|p2b: Araquanid|Wide Guard
+|-curestatus|p1b: Sneasler|slp|[msg]
+|move|p1b: Sneasler|Close Combat|p2a: Amoonguss
+|-damage|p2a: Amoonguss|24/100
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|-damage|p1b: Sneasler|84/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|-enditem|p1b: Sneasler|White Herb
+|-clearnegativeboost|p1b: Sneasler|[silent]
+|move|p2a: Amoonguss|Spore|p1a: Arcanine
+|-activate|p1a: Arcanine|move: Protect
+|
+|-heal|p2b: Araquanid|16/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1757090938
+|move|p2a: Amoonguss|Protect|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|Protect
+|move|p1a: Arcanine|Extreme Speed|p2b: Araquanid
+|-damage|p2b: Araquanid|0 fnt
+|faint|p2b: Araquanid
+|move|p1b: Sneasler|Close Combat|p2a: Amoonguss
+|-activate|p2a: Amoonguss|move: Protect
+|
+|upkeep
+|
+|t:|1757090950
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|turn|5
+|
+|t:|1757090967
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p1b: Sneasler|Close Combat|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|-damage|p1b: Sneasler|68/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|faint|p2a: Amoonguss
+|move|p1a: Arcanine|Flare Blitz|p2b: Gallade
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|-damage|p1a: Arcanine|73/100|[from] Recoil
+|
+|upkeep
+|-message|rampopst forfeited.
+|
+|win|eggtophat_real
+|raw|eggtophat_real's rating: 1103 → 1123(+20 for winning)
+|raw|rampopst's rating: 1038 → 1025(-13 for losing)
+|l|☆rampopst
+|player|p2|

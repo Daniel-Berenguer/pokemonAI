@@ -1,0 +1,145 @@
+|j|☆balance bro
+|j|☆HalcyonJon
+|html|balance broHalcyonJon    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757647619
+|gametype|doubles
+|player|p1|balance bro|buck|1131
+|player|p2|HalcyonJon|pokemonbreeder|1165
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Porygon2, L50|
+|poke|p1|Hydreigon, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Espeon, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Glimmora, L50, M|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Braviary, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|teampreview|4
+|showteam|p1|Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Hydreigon||SafetyGoggles|Levitate|Snarl,DracoMeteor,Tailwind,Protect|||M|||50|,,,,,Ghost]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Grass]Garchomp||LoadedDice|RoughSkin|ScaleShot,Earthquake,StompingTantrum,Protect|||F|||50|,,,,,Fire]Amoonguss||CovertCloak|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Fire]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Flying
+|showteam|p2|Espeon||FocusSash|MagicBounce|ExpandingForce,TeraBlast,SkillSwap,Detect|||M|||50|,,,,,Ground]Indeedee-F||RockyHelmet|PsychicSurge|Psychic,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Fairy]Glimmora||PowerHerb|ToxicDebris|SludgeBomb,MeteorBeam,StealthRock,SpikyShield|||M|||50|,,,,,Grass]Primarina||SafetyGoggles|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||F|||50|,,,,,Steel]Braviary||SitrusBerry|Defiant|BraveBird,CloseCombat,Tailwind,Protect|||M|||50|,,,,,Fighting]Tyranitar||AssaultVest|SandStream|KnockOff,RockSlide,TeraBlast,BreakingSwipe|||F|||50|,,,,,Flying
+|
+|t:|1757647638
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Garchomp|Garchomp, L50, F, shiny|100/100
+|switch|p2a: Espeon|Espeon, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1757647659
+|switch|p1a: Hydreigon|Hydreigon, L50, M, shiny|100/100
+|move|p2b: Indeedee|Helping Hand|p2a: Espeon
+|-singleturn|p2a: Espeon|Helping Hand|[of] p2b: Indeedee
+|move|p2a: Espeon|Expanding Force|p1b: Garchomp|[spread] p1b
+|-immune|p1a: Hydreigon
+|-damage|p1b: Garchomp|0 fnt
+|faint|p1b: Garchomp
+|
+|upkeep
+|
+|t:|1757647668
+|switch|p1b: Porygon2|Porygon2, L50, shiny|100/100
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|atk|1
+|turn|2
+|
+|t:|1757647699
+|switch|p2a: Braviary|Braviary, L50, M|100/100
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Hydreigon|Snarl|p2b: Indeedee|[spread] p2a,p2b
+|-supereffective|p2b: Indeedee
+|-damage|p2a: Braviary|74/100
+|-damage|p2b: Indeedee|67/100
+|-unboost|p2a: Braviary|spa|1
+|-ability|p2a: Braviary|Defiant|boost
+|-boost|p2a: Braviary|atk|2
+|-unboost|p2b: Indeedee|spa|1
+|move|p1b: Porygon2|Ice Beam|p2b: Indeedee
+|-damage|p2b: Indeedee|43/100
+|
+|upkeep
+|turn|3
+|
+|t:|1757647720
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Hydreigon|Draco Meteor|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-unboost|p1a: Hydreigon|spa|2
+|faint|p2b: Indeedee
+|move|p2a: Braviary|Brave Bird|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|-damage|p2a: Braviary|41/100|[from] Recoil
+|-enditem|p2a: Braviary|Sitrus Berry|[eat]
+|-heal|p2a: Braviary|66/100|[from] item: Sitrus Berry
+|move|p1b: Porygon2|Ice Beam|p2a: Braviary
+|-supereffective|p2a: Braviary
+|-damage|p2a: Braviary|0 fnt
+|faint|p2a: Braviary
+|
+|upkeep
+|
+|t:|1757647737
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Espeon|Espeon, L50, M|100/100
+|switch|p2b: Primarina|Primarina, L50, F|100/100
+|turn|4
+|
+|t:|1757647770
+|-terastallize|p2b: Primarina|Steel
+|move|p2a: Espeon|Expanding Force|p1a: Gholdengo|[spread] p1a,p1b
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|71/100
+|-damage|p1b: Porygon2|64/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Espeon
+|-supereffective|p2a: Espeon
+|-enditem|p2a: Espeon|Focus Sash
+|-damage|p2a: Espeon|1/100
+|move|p1b: Porygon2|Ice Beam|p2a: Espeon
+|-damage|p2a: Espeon|0 fnt
+|faint|p2a: Espeon
+|move|p2b: Primarina|Hyper Voice|p1a: Gholdengo|[spread] p1a,p1b
+|-damage|p1a: Gholdengo|32/100
+|-damage|p1b: Porygon2|41/100
+|
+|upkeep
+|turn|5
+|
+|t:|1757647796
+|move|p1a: Gholdengo|Shadow Ball|p2b: Primarina
+|-damage|p2b: Primarina|60/100
+|move|p1b: Porygon2|Recover|p1b: Porygon2
+|-heal|p1b: Porygon2|91/100
+|move|p2b: Primarina|Hyper Voice|p1a: Gholdengo|[spread] p1a,p1b
+|-damage|p1a: Gholdengo|0 fnt
+|-damage|p1b: Porygon2|67/100
+|faint|p1a: Gholdengo
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1757647810
+|-terastallize|p1b: Porygon2|Fighting
+|move|p1b: Porygon2|Tera Blast|p2b: Primarina|[anim] Tera Blast Fighting
+|-supereffective|p2b: Primarina
+|-crit|p2b: Primarina
+|-damage|p2b: Primarina|0 fnt
+|faint|p2b: Primarina
+|
+|win|balance bro

@@ -1,0 +1,119 @@
+|j|☆5NitesAtTrickRoom
+|j|☆Lab01JNEST
+|html|5NitesAtTrickRoomLab01JNEST    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757212398
+|gametype|doubles
+|player|p1|5NitesAtTrickRoom|hilbert|1048
+|player|p2|Lab01JNEST|1|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Blastoise, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Meowscarada, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|showteam|p1|Indeedee-F||SafetyGoggles|PsychicSurge|FollowMe,HelpingHand,TrickRoom,DazzlingGleam|||F|||50|,,,,,Water]Armarouge||PowerHerb|FlashFire|MeteorBeam,ExpandingForce,ArmorCannon,TrickRoom|||M|||50|,,,,,Grass]Dragonite||ChoiceBand|InnerFocus|ExtremeSpeed,Outrage,LowKick,TeraBlast|||M|||50|,,,,,Flying]Ursaluna||FlameOrb|Guts|Earthquake,HeadlongRush,Facade,Protect|||M|||50|,,,,,Ghost]Whimsicott||CovertCloak|Prankster|Moonblast,Tailwind,HelpingHand,Encore|||M|||50|,,,,,Water]Blastoise||ChoiceSpecs|Torrent|WaterSpout,HydroPump,IceBeam,DarkPulse|||F|||50|,,,,,Water
+|showteam|p2|Typhlosion-Hisui||Charcoal|Blaze|Eruption,HeatWave,ShadowBall,Protect|||F|||50|,,,,,Fire]Whimsicott||CovertCloak|Prankster|Tailwind,Moonblast,SunnyDay,Encore|||M|||50|,,,,,Dark]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Primarina||ThroatSpray|LiquidVoice|Moonblast,HyperVoice,Haze,Protect|||M|||50|,,,,,Grass]Meowscarada||FocusSash|Protean|FlowerTrick,KnockOff,Uturn,Protect|||F|||50|,,,,,Grass]Farigiraf||SafetyGoggles|ArmorTail|PsychicNoise,HyperVoice,HelpingHand,TrickRoom|||F|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lab01JNEST)
+|inactive|5NitesAtTrickRoom has 60 seconds left.
+|
+|t:|1757212452
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Armarouge|Armarouge, L50, M|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Meowscarada|Meowscarada, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|inactive|5NitesAtTrickRoom has 30 seconds left.
+|
+|t:|1757212481
+|-terastallize|p2a: Whimsicott|Dark
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Meowscarada|Knock Off|p1a: Indeedee
+|-start|p2b: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|11/100
+|-enditem|p1a: Indeedee|Safety Goggles|[from] move: Knock Off|[of] p2b: Meowscarada
+|move|p2a: Whimsicott|Moonblast|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|move|p1b: Armarouge|Meteor Beam||[still]
+|-prepare|p1b: Armarouge|Meteor Beam
+|-boost|p1b: Armarouge|spa|1
+|-enditem|p1b: Armarouge|Power Herb
+|-anim|p1b: Armarouge|Meteor Beam|p2a: Whimsicott
+|-damage|p2a: Whimsicott|19/100
+|
+|upkeep
+|
+|t:|1757212505
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|turn|2
+|inactive|5NitesAtTrickRoom has 30 seconds left.
+|
+|t:|1757212534
+|-terastallize|p1b: Armarouge|Grass
+|move|p2b: Meowscarada|Knock Off|p1b: Armarouge
+|-damage|p1b: Armarouge|73/100
+|move|p2a: Whimsicott|Moonblast|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|41/100
+|move|p1a: Dragonite|Outrage|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|move|p1b: Armarouge|Armor Cannon|p2b: Meowscarada
+|-enditem|p2b: Meowscarada|Focus Sash
+|-damage|p2b: Meowscarada|1/100
+|-unboost|p1b: Armarouge|def|1
+|-unboost|p1b: Armarouge|spd|1
+|
+|upkeep
+|
+|t:|1757212544
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|turn|3
+|
+|t:|1757212565
+|move|p2b: Meowscarada|U-turn|p1b: Armarouge
+|-supereffective|p1b: Armarouge
+|-damage|p1b: Armarouge|9/100
+|
+|t:|1757212568
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100|[from] U-turn
+|move|p2a: Typhlosion|Eruption|p1a: Dragonite|[spread] p1a
+|-start|p1b: Armarouge|ability: Flash Fire
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|11/100
+|move|p1a: Dragonite|Outrage|p2a: Typhlosion|[from] lockedmove
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|move|p1b: Armarouge|Expanding Force|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|
+|upkeep
+|-message|Lab01JNEST forfeited.
+|
+|win|5NitesAtTrickRoom
+|l|☆Lab01JNEST
+|player|p2|
+||Lab01JNEST is ready for game 2.
+||5NitesAtTrickRoom is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

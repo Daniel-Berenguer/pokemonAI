@@ -1,0 +1,82 @@
+|j|☆Light 1503
+|j|☆Shoto.tx
+|html|Light 1503Shoto.tx    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757087709
+|gametype|doubles
+|player|p1|Light 1503|170|1020
+|player|p2|Shoto.tx|1|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Politoed, L50, F|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Kingdra, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Facade,ShadowClaw,Protect,HeadlongRush|||F|||50|,,,,,Ghost]Porygon2||Eviolite|Trace|IceBeam,Thunderbolt,Recover,TrickRoom||||||50|,,,,,Ghost]Amoonguss||CovertCloak|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|KnockOff,FakeOut,PartingShot,WillOWisp|||M|||50|,,,,,Ghost]Volcarona||Leftovers|FlameBody|Protect,HeatWave,StruggleBug,TeraBlast|||F|||50|,,,,,Fairy]Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,Protect,FakeOut|||M|||50|,,,,,Dark
+|showteam|p2|Archaludon||PowerHerb|Sturdy|ElectroShot,FlashCannon,DragonPulse,Protect|||M|||50|,,,,,Electric]Politoed||Leftovers|Drizzle|WeatherBall,PerishSong,Encore,Protect|||F|||50|,,,,,Grass]Gothitelle||SitrusBerry|ShadowTag|Psychic,FakeOut,TrickRoom,Protect|||F|||50|,,,,,Dark]Kingdra||LifeOrb|SwiftSwim|DracoMeteor,WeatherBall,MuddyWater,Protect|||F|||50|,,,,,Stellar]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Protect|||F|||50|,,,,,Ghost]Amoonguss||EjectButton|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Fairy
+|
+|t:|1757087745
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Gothitelle|Gothitelle, L50, F, shiny|100/100
+|switch|p2b: Kingdra|Kingdra, L50, F, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Gothitelle|atk|1
+|-unboost|p2b: Kingdra|atk|1
+|turn|1
+|
+|t:|1757087765
+|move|p2b: Kingdra|Protect|p2b: Kingdra
+|-singleturn|p2b: Kingdra|Protect
+|move|p2a: Gothitelle|Protect|p2a: Gothitelle
+|-singleturn|p2a: Gothitelle|Protect
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p1b: Incineroar|Knock Off|p2a: Gothitelle
+|-activate|p2a: Gothitelle|move: Protect
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1757087782
+|switch|p2a: Politoed|Politoed, L50, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|-terastallize|p2b: Kingdra|Stellar
+|-terastallize|p1a: Ursaluna|Ghost
+|move|p2b: Kingdra|Muddy Water|p1a: Ursaluna|[spread] p1a,p1b
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Ursaluna|30/100 brn
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p1a: Ursaluna|accuracy|1
+|faint|p1b: Incineroar
+|-damage|p2b: Kingdra|91/100|[from] item: Life Orb
+|move|p1a: Ursaluna|Facade|p2a: Politoed|[miss]
+|-miss|p1a: Ursaluna|p2a: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|25/100 brn|[from] brn
+|upkeep
+|-message|Light 1503 forfeited.
+|
+|win|Shoto.tx
+|l|☆Light 1503
+|player|p1|
+|raw|Light 1503's rating: 1020 → 1006(-14 for losing)
+|raw|Shoto.tx's rating: 1000 → 1042(+42 for winning)

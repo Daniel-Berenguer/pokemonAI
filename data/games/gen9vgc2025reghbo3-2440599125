@@ -1,0 +1,203 @@
+|j|☆Slowjow
+|j|☆LumiRev
+|html|SlowjowLumiRev    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757724371
+|gametype|doubles
+|player|p1|Slowjow|1|1224
+|player|p2|LumiRev|169|1170
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gliscor, L50, M|
+|poke|p1|Electabuzz, L50, F|
+|poke|p1|Tauros-Paldea-Blaze, L50, M|
+|poke|p1|Gastrodon, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Dusclops, L50, F|
+|poke|p2|Charizard, L50, F|
+|teampreview|4
+|showteam|p1|Gliscor||ToxicOrb|PoisonHeal|HighHorsepower,DualWingbeat,SwordsDance,Protect|||M|||50|,,,,,Water]Electabuzz||Eviolite|VitalSpirit|Electroweb,Taunt,FollowMe,Protect|||F|||50|,,,,,Ghost]Tauros-Paldea-Blaze||MirrorHerb|Intimidate|RagingBull,CloseCombat,WillOWisp,Protect|||M|||50|,,,,,Grass]Gastrodon||Leftovers|StormDrain|MuddyWater,ClearSmog,Yawn,Protect|||F|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark]Ninetales-Alola||LightClay|SnowWarning|AuroraVeil,FreezeDry,Encore,Protect|||M|||50|,,,,,Water
+|showteam|p2|Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,RagePowder,SunnyDay,Tailwind|||M|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,KnockOff,FlareBlitz|||M|||50|,,,,,Ghost]Dusclops||Eviolite|Pressure|WillOWisp,HelpingHand,SunnyDay,TrickRoom|||F|||50|,,,,,Flying]Charizard||ChoiceSpecs|SolarPower|HeatWave,AirSlash,WeatherBall,Overheat|||F|||50|,,,,,Ghost
+|
+|t:|1757724416
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Electabuzz|Electabuzz, L50, F|100/100
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2b: Charizard|Charizard, L50, F|100/100
+|turn|1
+|
+|t:|1757724453
+|move|p1a: Electabuzz|Follow Me|p1a: Electabuzz
+|-singleturn|p1a: Electabuzz|move: Follow Me
+|move|p1b: Kingambit|Sucker Punch|p2b: Charizard
+|-damage|p2b: Charizard|26/100
+|move|p2a: Jumpluff|Sunny Day|p2a: Jumpluff
+|-weather|SunnyDay
+|move|p2b: Charizard|Heat Wave|p1a: Electabuzz|[spread] p1a,p1b
+|-supereffective|p1b: Kingambit
+|-damage|p1a: Electabuzz|13/100
+|-damage|p1b: Kingambit|0 fnt
+|faint|p1b: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|14/100|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|
+|t:|1757724470
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|turn|2
+|
+|t:|1757724481
+|move|p1b: Ninetales|Freeze-Dry|p2b: Charizard
+|-damage|p2b: Charizard|0 fnt
+|faint|p2b: Charizard
+|move|p2a: Jumpluff|Sunny Day|p2a: Jumpluff
+|-weather|SunnyDay
+|move|p1a: Electabuzz|Electroweb|p2a: Jumpluff
+|-damage|p2a: Jumpluff|79/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757724490
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|3
+|
+|t:|1757724506
+|switch|p1b: Tauros|Tauros-Paldea-Blaze, L50, M|100/100
+|-ability|p1b: Tauros|Intimidate|boost
+|-unboost|p2a: Jumpluff|atk|1
+|-unboost|p2b: Ursaluna|atk|1
+|-terastallize|p2b: Ursaluna|Ghost
+|move|p1a: Electabuzz|Protect|p1a: Electabuzz
+|-singleturn|p1a: Electabuzz|Protect
+|move|p2a: Jumpluff|Tailwind|p2a: Jumpluff
+|-sidestart|p2: LumiRev|move: Tailwind
+|move|p2b: Ursaluna|Earthquake|p1b: Tauros|[spread] p1b
+|-activate|p1a: Electabuzz|move: Protect
+|-immune|p2a: Jumpluff
+|-supereffective|p1b: Tauros
+|-damage|p1b: Tauros|33/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1757724530
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|move|p2a: Jumpluff|Rage Powder|p2a: Jumpluff
+|-singleturn|p2a: Jumpluff|move: Rage Powder
+|move|p2b: Ursaluna|Earthquake|p1a: Electabuzz|[spread] p1a,p1b
+|-immune|p2a: Jumpluff
+|-supereffective|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|-damage|p1b: Ninetales|64/100
+|faint|p1a: Electabuzz
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1757724543
+|switch|p1a: Tauros|Tauros-Paldea-Blaze, L50, M|33/100
+|-ability|p1a: Tauros|Intimidate|boost
+|-unboost|p2a: Jumpluff|atk|1
+|-unboost|p2b: Ursaluna|atk|1
+|turn|5
+|
+|t:|1757724553
+|move|p1a: Tauros|Protect|p1a: Tauros
+|-singleturn|p1a: Tauros|Protect
+|move|p2a: Jumpluff|Sunny Day|p2a: Jumpluff
+|-weather|SunnyDay
+|move|p1b: Ninetales|Freeze-Dry|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|faint|p2a: Jumpluff
+|move|p2b: Ursaluna|Earthquake|p1a: Tauros|[spread] p1b
+|-activate|p1a: Tauros|move: Protect
+|-damage|p1b: Ninetales|23/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1757724565
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Tauros|atk|1
+|-unboost|p1b: Ninetales|atk|1
+|turn|6
+|
+|t:|1757724577
+|-terastallize|p1a: Tauros|Grass
+|move|p1b: Ninetales|Protect|p1b: Ninetales
+|-singleturn|p1b: Ninetales|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Ninetales
+|-activate|p1b: Ninetales|move: Protect
+|move|p2b: Ursaluna|Earthquake|p1b: Ninetales|[spread] p2a,p1a
+|-activate|p1b: Ninetales|move: Protect
+|-supereffective|p2a: Incineroar
+|-resisted|p1a: Tauros
+|-damage|p2a: Incineroar|35/100
+|-damage|p1a: Tauros|15/100
+|move|p1a: Tauros|Raging Bull|p2b: Ursaluna
+|-damage|p2b: Ursaluna|58/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|52/100 brn|[from] brn
+|-sideend|p2: LumiRev|move: Tailwind
+|upkeep
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Slowjow)
+|
+|t:|1757724628
+|move|p1a: Tauros|Protect|p1a: Tauros
+|-singleturn|p1a: Tauros|Protect
+|move|p1b: Ninetales|Encore|p2b: Ursaluna
+|-start|p2b: Ursaluna|Encore
+|move|p2a: Incineroar|Flare Blitz|p1a: Tauros
+|-activate|p1a: Tauros|move: Protect
+|move|p2b: Ursaluna|Earthquake|p1a: Tauros|[spread] p2a,p1b
+|-activate|p1a: Tauros|move: Protect
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p1b: Ninetales|0 fnt
+|faint|p2a: Incineroar
+|faint|p1b: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|46/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1757724646
+|move|p1a: Tauros|Raging Bull|p2b: Ursaluna
+|-damage|p2b: Ursaluna|14/100 brn
+|move|p2b: Ursaluna|Earthquake|p1a: Tauros
+|-resisted|p1a: Tauros
+|-damage|p1a: Tauros|0 fnt
+|faint|p1a: Tauros
+|
+|win|LumiRev
+||LumiRev is ready for game 2.
+|inactive|Slowjow has 30 seconds to confirm battle start!
+||Slowjow is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆LumiRev
+|player|p2|

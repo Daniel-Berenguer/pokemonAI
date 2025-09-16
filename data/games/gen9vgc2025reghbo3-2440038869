@@ -1,0 +1,222 @@
+|j|☆fudii
+|j|☆Pyos
+|html|fudiiPyos    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757652464
+|gametype|doubles
+|player|p1|fudii|dahlia|1133
+|player|p2|Pyos|tulip|1266
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Maushold, L50|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Sneasler, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|IceBeam,TeraBlast,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Maushold||WideLens|Technician|Protect,PopulationBomb,FollowMe,Taunt||||||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|BodyPress,ElectroShot,DragonPulse,FlashCannon|||M|||50|,,,,,Bug]Incineroar||SafetyGoggles|Intimidate|KnockOff,FakeOut,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Pelipper||FocusSash|Drizzle|Tailwind,WeatherBall,Hurricane,Protect|||M|||50|,,,,,Ghost]Rillaboom||MiracleSeed|GrassySurge|GrassyGlide,WoodHammer,FakeOut,Uturn|||F|||50|,,,,,Fire]Sneasler||GrassySeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark
+|
+|t:|1757652505
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jumpluff|Jumpluff, L50, F|100/100
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Jumpluff|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|-enditem|p1b: Torkoal|Eject Pack
+|
+|t:|1757652516
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|turn|1
+|
+|t:|1757652535
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|move|p2a: Rillaboom|Fake Out|p1b: Ursaluna
+|-damage|p1b: Ursaluna|93/100
+|move|p1a: Jumpluff|Tailwind|p1a: Jumpluff
+|-sidestart|p1: fudii|move: Tailwind
+|move|p2b: Incineroar|Flare Blitz|p1a: Jumpluff
+|-supereffective|p1a: Jumpluff
+|-damage|p1a: Jumpluff|0 fnt
+|faint|p1a: Jumpluff
+|-damage|p2b: Incineroar|72/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Ursaluna|99/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|78/100|[from] Grassy Terrain
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757652550
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Rillaboom|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|turn|2
+|
+|t:|1757652573
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|-terastallize|p1b: Ursaluna|Ghost
+|move|p1a: Incineroar|Fake Out|p2b: Incineroar
+|-damage|p2b: Incineroar|68/100
+|move|p1b: Ursaluna|Facade|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|58/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|cant|p2b: Incineroar|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Ursaluna|100/100 brn|[from] Grassy Terrain
+|-heal|p2a: Archaludon|65/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|74/100|[from] Grassy Terrain
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1757652605
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Incineroar|Parting Shot|p2b: Incineroar
+|-unboost|p2b: Incineroar|atk|1
+|-unboost|p2b: Incineroar|spa|1
+|
+|t:|1757652612
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p1b: Ursaluna|Headlong Rush|p2a: Pelipper
+|-immune|p2a: Pelipper
+|move|p2b: Incineroar|Knock Off|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|70/100 brn
+|-enditem|p1b: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Ursaluna|75/100 brn|[from] Grassy Terrain
+|-heal|p2b: Incineroar|80/100|[from] Grassy Terrain
+|-damage|p1b: Ursaluna|70/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1757652637
+|switch|p2a: Archaludon|Archaludon, L50, M|65/100
+|move|p1b: Ursaluna|Facade|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|18/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2b: Incineroar|Parting Shot|p1a: Torkoal
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1a: Torkoal|spa|1
+|
+|t:|1757652646
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p1a: Torkoal|Eruption|p2b: Pelipper|[spread] p2a,p2b
+|-resisted|p2b: Pelipper
+|-damage|p2a: Archaludon|9/100
+|-damage|p2b: Pelipper|87/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Ursaluna|75/100 brn|[from] Grassy Terrain
+|-heal|p2a: Archaludon|15/100|[from] Grassy Terrain
+|-damage|p1b: Ursaluna|70/100 brn|[from] brn
+|-sideend|p1: fudii|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1757652679
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Pelipper|Weather Ball|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|move|p2a: Archaludon|Body Press|p1a: Torkoal
+|-damage|p1a: Torkoal|63/100
+|move|p1a: Torkoal|Overheat|p2a: Archaludon|[miss]
+|-miss|p1a: Torkoal|p2a: Archaludon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Archaludon|22/100|[from] Grassy Terrain
+|-heal|p1b: Ursaluna|75/100 brn|[from] Grassy Terrain
+|-heal|p1a: Torkoal|69/100|[from] Grassy Terrain
+|-damage|p1b: Ursaluna|70/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1757652717
+|move|p2b: Pelipper|Weather Ball|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1b: Ursaluna
+|-damage|p1b: Ursaluna|16/100 brn
+|move|p1b: Ursaluna|Facade|p2b: Pelipper
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Ursaluna|10/100 brn|[from] brn
+|upkeep
+|
+|t:|1757652731
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Archaludon|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|turn|7
+|
+|t:|1757652742
+|move|p2b: Rillaboom|Fake Out|p1a: Incineroar
+|-damage|p1a: Incineroar|91/100
+|cant|p1a: Incineroar|flinch
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Archaludon|28/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|97/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|-message|fudii forfeited.
+|
+|win|Pyos
+||Pyos is ready for game 3.
+||fudii is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆fudii
+|player|p1|
+|l|☆Pyos
+|player|p2|

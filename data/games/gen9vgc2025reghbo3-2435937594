@@ -1,0 +1,367 @@
+|j|☆Morrocan AXL BLAZE
+|j|☆PikaTROD
+|html|Morrocan AXL BLAZEPikaTROD    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757103211
+|gametype|doubles
+|player|p1|Morrocan AXL BLAZE|benga|1313
+|player|p2|PikaTROD|1|1402
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Kommo-o, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Hydreigon, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Magmar, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Dragapult, L50, M|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|KnockOff,RockSlide,LowKick,TeraBlast|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|Earthquake,HighHorsepower,IronHead,Protect|||M|||50|,,,,,Stellar]Kommo-o||ThroatSpray|Overcoat|ClangingScales,AuraSphere,ClangorousSoul,Protect|||M|||50|,,,,,Steel]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Ghost]Hydreigon||ChoiceSpecs|Levitate|HeatWave,Snarl,DracoMeteor,DarkPulse|||M|||50|,,,,,Ghost
+|showteam|p2|Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Dark]Primarina||SitrusBerry|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||M|||50|,,,,,Water]Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,FakeOut,Protect|||M|||50|,,,,,Stellar]Magmar||Eviolite|VitalSpirit|Overheat,WillOWisp,FollowMe,Protect|||F|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,Outrage,Uturn|||M|||50|,,,,,Dragon
+|
+|t:|1757103243
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hydreigon|Hydreigon, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Magmar|Magmar, L50, F|100/100
+|switch|p2b: Dragapult|Dragapult, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Magmar|atk|1
+|-fail|p2b: Dragapult|unboost|[from] ability: Clear Body|[of] p2b: Dragapult
+|turn|1
+|
+|t:|1757103286
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|move|p2a: Magmar|Protect|p2a: Magmar
+|-singleturn|p2a: Magmar|Protect
+|move|p2b: Dragapult|U-turn|p1a: Amoonguss
+|-damage|p1a: Amoonguss|71/100
+|
+|t:|1757103293
+|switch|p2b: Primarina|Primarina, L50, M|100/100|[from] U-turn
+|move|p1b: Incineroar|Knock Off|p2a: Magmar
+|-activate|p2a: Magmar|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1757103306
+|move|p2a: Magmar|Follow Me|p2a: Magmar
+|-singleturn|p2a: Magmar|move: Follow Me
+|move|p2b: Primarina|Hyper Voice|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Amoonguss
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Amoonguss|57/100
+|-damage|p1b: Incineroar|44/100
+|move|p1b: Incineroar|Parting Shot|p2a: Magmar
+|-unboost|p2a: Magmar|atk|1
+|-unboost|p2a: Magmar|spa|1
+|
+|t:|1757103311
+|switch|p1b: Excadrill|Excadrill, L50, M|100/100|[from] Parting Shot
+|move|p1a: Amoonguss|Spore|p2a: Magmar
+|-immune|p2a: Magmar|[from] ability: Vital Spirit
+|
+|upkeep
+|turn|3
+|
+|t:|1757103362
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|switch|p1a: Hydreigon|Hydreigon, L50, M|100/100
+|-terastallize|p2a: Magmar|Ghost
+|move|p1b: Excadrill|Earthquake|p2a: Magmar|[spread] p2a,p2b
+|-immune|p1a: Hydreigon|[from] ability: Levitate
+|-resisted|p2b: Rillaboom
+|-damage|p2a: Magmar|84/100
+|-damage|p2b: Rillaboom|90/100
+|move|p2a: Magmar|Will-O-Wisp|p1b: Excadrill
+|-status|p1b: Excadrill|brn
+|
+|-heal|p2a: Magmar|90/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|96/100|[from] Grassy Terrain
+|-damage|p1b: Excadrill|95/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1757103386
+|switch|p1b: Amoonguss|Amoonguss, L50, M|90/100
+|switch|p2a: Primarina|Primarina, L50, M|100/100
+|move|p1a: Hydreigon|Dark Pulse|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|75/100
+|move|p2b: Rillaboom|High Horsepower|p1b: Amoonguss|[miss]
+|-miss|p2b: Rillaboom|p1b: Amoonguss
+|
+|-heal|p2b: Rillaboom|100/100|[from] Grassy Terrain
+|-heal|p2a: Primarina|81/100|[from] Grassy Terrain
+|-heal|p1b: Amoonguss|96/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Morrocan AXL BLAZE)
+|
+|t:|1757103438
+|switch|p1a: Incineroar|Incineroar, L50, F|44/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Primarina|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|move|p2b: Rillaboom|High Horsepower|p1b: Amoonguss
+|-damage|p1b: Amoonguss|77/100
+|move|p2a: Primarina|Moonblast|p1a: Incineroar
+|-damage|p1a: Incineroar|6/100
+|move|p1b: Amoonguss|Pollen Puff|p1a: Incineroar
+|-heal|p1a: Incineroar|56/100
+|
+|-heal|p2a: Primarina|87/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|62/100|[from] Grassy Terrain
+|-heal|p1b: Amoonguss|83/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|inactive|Morrocan AXL BLAZE has 30 seconds left.
+|inactive|Morrocan AXL BLAZE has 20 seconds left.
+|
+|t:|1757103474
+|switch|p2b: Magmar|Magmar, L50, F, tera:Ghost|90/100
+|move|p2a: Primarina|Protect|p2a: Primarina
+|-singleturn|p2a: Primarina|Protect
+|move|p1a: Incineroar|Parting Shot|p2b: Magmar
+|-unboost|p2b: Magmar|atk|1
+|-unboost|p2b: Magmar|spa|1
+|
+|t:|1757103478
+|switch|p1a: Hydreigon|Hydreigon, L50, M|100/100|[from] Parting Shot
+|move|p1b: Amoonguss|Spore|p2a: Primarina
+|-activate|p2a: Primarina|move: Protect
+|
+|-heal|p2b: Magmar|96/100|[from] Grassy Terrain
+|-heal|p2a: Primarina|93/100|[from] Grassy Terrain
+|-heal|p1b: Amoonguss|89/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1757103496
+|move|p2b: Magmar|Protect|p2b: Magmar
+|-singleturn|p2b: Magmar|Protect
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p1a: Hydreigon|Dark Pulse|p2b: Magmar
+|-activate|p2b: Magmar|move: Protect
+|move|p2a: Primarina|Moonblast|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-crit|p1b: Amoonguss
+|-damage|p1b: Amoonguss|62/100
+|
+|-heal|p2b: Magmar|100/100|[from] Grassy Terrain
+|-heal|p2a: Primarina|99/100|[from] Grassy Terrain
+|-heal|p1b: Amoonguss|68/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1757103518
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p1a: Hydreigon|Dark Pulse|p2b: Rillaboom
+|-damage|p2b: Rillaboom|56/100
+|move|p2a: Primarina|Moonblast|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|50/100
+|-enditem|p1b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1b: Amoonguss|75/100|[from] item: Sitrus Berry
+|
+|-heal|p2b: Rillaboom|62/100|[from] Grassy Terrain
+|-heal|p2a: Primarina|100/100|[from] Grassy Terrain
+|-heal|p1b: Amoonguss|80/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|inactive|PikaTROD has 30 seconds left.
+|
+|t:|1757103552
+|switch|p1a: Incineroar|Incineroar, L50, F|62/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Primarina|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|move|p2b: Rillaboom|Fake Out|p1b: Amoonguss
+|-damage|p1b: Amoonguss|73/100
+|move|p2a: Primarina|Hyper Voice|p1a: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Incineroar
+|-resisted|p1b: Amoonguss
+|-damage|p1a: Incineroar|8/100
+|-damage|p1b: Amoonguss|59/100
+|cant|p1b: Amoonguss|flinch
+|
+|-heal|p2b: Rillaboom|68/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|14/100|[from] Grassy Terrain
+|-heal|p1b: Amoonguss|65/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|inactive|Morrocan AXL BLAZE has 30 seconds left.
+|inactive|Morrocan AXL BLAZE has 20 seconds left.
+|inactive|Morrocan AXL BLAZE has 15 seconds left.
+|
+|t:|1757103594
+|switch|p2a: Magmar|Magmar, L50, F, tera:Ghost|100/100
+|switch|p1a: Hydreigon|Hydreigon, L50, M|100/100
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2b: Rillaboom|High Horsepower|p1a: Hydreigon
+|-immune|p1a: Hydreigon|[from] ability: Levitate
+|
+|-heal|p2b: Rillaboom|74/100|[from] Grassy Terrain
+|-heal|p1b: Amoonguss|70/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|inactive|PikaTROD has 30 seconds left.
+|
+|t:|1757103624
+|switch|p2b: Primarina|Primarina, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|14/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Magmar|atk|1
+|-unboost|p2b: Primarina|atk|1
+|move|p2a: Magmar|Protect|p2a: Magmar
+|-singleturn|p2a: Magmar|Protect
+|move|p1a: Hydreigon|Heat Wave|p2b: Primarina|[spread] p2b
+|-activate|p2a: Magmar|move: Protect
+|-resisted|p2b: Primarina
+|-damage|p2b: Primarina|86/100
+|
+|-heal|p2b: Primarina|92/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|20/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|inactive|PikaTROD has 30 seconds left.
+|inactive|PikaTROD has 20 seconds left.
+|inactive|PikaTROD has 15 seconds left.
+|inactive|PikaTROD has 10 seconds left.
+|
+|t:|1757103670
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|move|p2a: Magmar|Protect||[still]
+|-fail|p2a: Magmar
+|move|p1b: Incineroar|Fake Out|p2b: Primarina
+|-damage|p2b: Primarina|80/100
+|cant|p2b: Primarina|flinch
+|
+|-heal|p2b: Primarina|86/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|26/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1757103688
+|move|p2b: Primarina|Protect|p2b: Primarina
+|-singleturn|p2b: Primarina|Protect
+|move|p2a: Magmar|Overheat|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|10/100
+|-unboost|p2a: Magmar|spa|2
+|move|p1b: Incineroar|Parting Shot|p2b: Primarina
+|-activate|p2b: Primarina|move: Protect
+|move|p1a: Amoonguss|Pollen Puff|p1b: Incineroar
+|-heal|p1b: Incineroar|76/100
+|
+|upkeep
+|turn|14
+|
+|t:|1757103697
+|switch|p1a: Hydreigon|Hydreigon, L50, M|100/100
+|move|p2a: Magmar|Overheat|p1a: Hydreigon
+|-resisted|p1a: Hydreigon
+|-damage|p1a: Hydreigon|86/100
+|-unboost|p2a: Magmar|spa|2
+|move|p2b: Primarina|Hyper Voice|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Hydreigon
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Hydreigon|68/100
+|-damage|p1b: Incineroar|22/100
+|move|p1b: Incineroar|Parting Shot|p2b: Primarina
+|-unboost|p2b: Primarina|atk|1
+|-unboost|p2b: Primarina|spa|1
+|
+|t:|1757103704
+|switch|p1b: Amoonguss|Amoonguss, L50, M|44/100|[from] Parting Shot
+|
+|upkeep
+|turn|15
+|inactive|PikaTROD has 30 seconds left.
+|inactive|PikaTROD has 20 seconds left.
+|
+|t:|1757103741
+|switch|p1a: Excadrill|Excadrill, L50, M|95/100 brn
+|switch|p1b: Incineroar|Incineroar, L50, F|22/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Magmar|atk|1
+|-unboost|p2b: Primarina|atk|1
+|move|p2a: Magmar|Follow Me|p2a: Magmar
+|-singleturn|p2a: Magmar|move: Follow Me
+|move|p2b: Primarina|Moonblast|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|75/100 brn
+|
+|-damage|p1a: Excadrill|69/100 brn|[from] brn
+|upkeep
+|turn|16
+|inactive|PikaTROD has 30 seconds left.
+|
+|t:|1757103766
+|switch|p2a: Rillaboom|Rillaboom, L50, M|74/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|switch|p2b: Dragapult|Dragapult, L50, M|100/100
+|move|p1a: Excadrill|Iron Head|p2b: Dragapult
+|-damage|p2b: Dragapult|73/100
+|move|p1b: Incineroar|Knock Off|p2a: Rillaboom
+|-damage|p2a: Rillaboom|35/100
+|-enditem|p2a: Rillaboom|Assault Vest|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-heal|p2b: Dragapult|79/100|[from] Grassy Terrain
+|-heal|p1a: Excadrill|75/100 brn|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|41/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|28/100|[from] Grassy Terrain
+|-damage|p1a: Excadrill|69/100 brn|[from] brn
+|upkeep
+|turn|17
+|inactive|Morrocan AXL BLAZE has 30 seconds left.
+|inactive|Morrocan AXL BLAZE has 20 seconds left.
+|inactive|Morrocan AXL BLAZE has 15 seconds left.
+|inactive|Morrocan AXL BLAZE has 10 seconds left.
+|inactive|Morrocan AXL BLAZE has 5 seconds left.
+|
+|t:|1757103818
+|move|p2a: Rillaboom|Grassy Glide|p1a: Excadrill
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|move|p2b: Dragapult|Dragon Darts|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-heal|p2b: Dragapult|85/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|47/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757103820
+|switch|p1a: Hydreigon|Hydreigon, L50, M|68/100
+|switch|p1b: Amoonguss|Amoonguss, L50, M|77/100
+|turn|18
+|inactive|PikaTROD has 30 seconds left.
+|-message|Morrocan AXL BLAZE forfeited.
+|raw|Morrocan AXL BLAZE's rating: 1313 → 1298(-15 for losing)
+|raw|PikaTROD's rating: 1402 → 1417(+15 for winning)
+|
+|win|PikaTROD
+|l|☆Morrocan AXL BLAZE
+|player|p1|

@@ -1,0 +1,251 @@
+|j|☆Wanderer DJ
+|j|☆lrav1567
+|html|Wanderer DJlrav1567    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757702503
+|gametype|doubles
+|player|p1|Wanderer DJ|veteran|
+|player|p2|lrav1567|volkner|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Toxapex, L50, F|
+|poke|p1|Muk-Alola, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Gengar, L50, F|
+|poke|p1|Slowbro-Galar, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Salazzle, L50, F|
+|poke|p2|Weezing-Galar, L50, F|
+|poke|p2|Gengar, L50, F|
+|poke|p2|Arbok, L50, M|
+|poke|p2|Overqwil, L50, M|
+|teampreview|4
+|showteam|p1|Toxapex||BlackSludge|Merciless|Infestation,Venoshock,Recover,BanefulBunker|||F|||50|,,,,,Poison]Muk-Alola||BlackGlasses|PoisonTouch|ShadowSneak,KnockOff,Curse,MeanLook|||M|||50|,,,,,Ghost]Sneasler||RoomService|PoisonTouch|CloseCombat,DireClaw,ThroatChop,TeraBlast|||M|||50|,,,,,Ice]Amoonguss||BigRoot|EffectSpore|GigaDrain,Spore,Hex,Venoshock|||M|||50|,,,,,Ghost]Gengar||FocusSash|CursedBody|PerishSong,Protect,Thunder,TrickRoom|||F|||50|,,,,,Ghost]Slowbro-Galar||EjectButton|QuickDraw|Toxic,ShellSideArm,DrainPunch,ZenHeadbutt|||M|||50|,,,,,Dark
+|showteam|p2|Sneasler||KingsRock|PoisonTouch|FakeOut,Fling,DireClaw,CloseCombat|||F|||50|,,,,,Fighting]Salazzle||FocusSash|Corrosion|PoisonGas,HeatWave,Encore,DragonTail|||F|||50|,,,,,Poison]Weezing-Galar||BlackSludge|NeutralizingGas|ClearSmog,WillOWisp,PainSplit,StrangeSteam|||F|||50|,,,,,Poison]Gengar||LifeOrb|CursedBody|ShadowBall,Imprison,Venoshock,PsychicNoise|||F|||50|,,,,,Dark]Arbok||ClearAmulet|Intimidate|Coil,Trailblaze,BodySlam,PoisonFang|||M|||50|,,,,,Poison]Overqwil||LoadedDice|Intimidate|SwordsDance,ScaleShot,GunkShot,AquaJet|||M|||50|,,,,,Dragon
+|
+|t:|1757702552
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gengar|Gengar, L50, F|100/100
+|switch|p1b: Slowbro|Slowbro-Galar, L50, M|100/100
+|switch|p2a: Salazzle|Salazzle, L50, F|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|turn|1
+|
+|t:|1757702568
+|move|p2b: Sneasler|Fake Out|p1b: Slowbro
+|-damage|p1b: Slowbro|87/100
+|-enditem|p1b: Slowbro|Eject Button
+|
+|t:|1757702573
+|switch|p1b: Toxapex|Toxapex, L50, F|100/100
+|move|p2a: Salazzle|Poison Gas|p1b: Toxapex|[spread] p1a,p1b
+|-status|p1a: Gengar|psn
+|-status|p1b: Toxapex|psn
+|move|p1a: Gengar|Perish Song|p1a: Gengar
+|-start|p1a: Gengar|perish3|[silent]
+|-start|p1b: Toxapex|perish3|[silent]
+|-start|p2a: Salazzle|perish3|[silent]
+|-start|p2b: Sneasler|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-damage|p1a: Gengar|89/100 psn|[from] psn
+|-damage|p1b: Toxapex|88/100 psn|[from] psn
+|-start|p2b: Sneasler|perish3
+|-start|p2a: Salazzle|perish3
+|-start|p1a: Gengar|perish3
+|-start|p1b: Toxapex|perish3
+|upkeep
+|turn|2
+|
+|t:|1757702602
+|switch|p2b: Arbok|Arbok, L50, M|100/100
+|-ability|p2b: Arbok|Intimidate|boost
+|-unboost|p1a: Gengar|atk|1
+|-unboost|p1b: Toxapex|atk|1
+|move|p2a: Salazzle|Encore|p1a: Gengar
+|-start|p1a: Gengar|Encore
+|move|p1b: Toxapex|Infestation|p2a: Salazzle
+|-resisted|p2a: Salazzle
+|-damage|p2a: Salazzle|98/100
+|-activate|p2a: Salazzle|move: Infestation|[of] p1b: Toxapex
+|move|p1a: Gengar|Perish Song|p1a: Gengar
+|-start|p2b: Arbok|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p1b: Toxapex|94/100 psn|[from] item: Black Sludge
+|-damage|p1a: Gengar|77/100 psn|[from] psn
+|-damage|p1b: Toxapex|82/100 psn|[from] psn
+|-damage|p2a: Salazzle|86/100|[from] move: Infestation|[partiallytrapped]
+|-start|p2a: Salazzle|perish2
+|-start|p1a: Gengar|perish2
+|-start|p2b: Arbok|perish3
+|-start|p1b: Toxapex|perish2
+|upkeep
+|turn|3
+|
+|t:|1757702625
+|switch|p1a: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|move|p2a: Salazzle|Encore|p1b: Toxapex
+|-start|p1b: Toxapex|Encore
+|move|p2b: Arbok|Coil|p2b: Arbok
+|-boost|p2b: Arbok|atk|1
+|-boost|p2b: Arbok|def|1
+|-boost|p2b: Arbok|accuracy|1
+|move|p1b: Toxapex|Infestation|p2b: Arbok
+|-resisted|p2b: Arbok
+|-damage|p2b: Arbok|98/100
+|-activate|p2b: Arbok|move: Infestation|[of] p1b: Toxapex
+|
+|-heal|p1b: Toxapex|88/100 psn|[from] item: Black Sludge
+|-damage|p1b: Toxapex|76/100 psn|[from] psn
+|-damage|p2a: Salazzle|73/100|[from] move: Infestation|[partiallytrapped]
+|-damage|p2b: Arbok|86/100|[from] move: Infestation|[partiallytrapped]
+|-start|p2a: Salazzle|perish1
+|-start|p2b: Arbok|perish2
+|-start|p1b: Toxapex|perish1
+|upkeep
+|turn|4
+|
+|t:|1757702649
+|switch|p1b: Gengar|Gengar, L50, F|77/100 psn
+|move|p2a: Salazzle|Heat Wave|p1a: Amoonguss|[spread] p1b
+|-miss|p2a: Salazzle|p1a: Amoonguss
+|-damage|p1b: Gengar|42/100 psn
+|move|p2b: Arbok|Body Slam|p1a: Amoonguss
+|-damage|p1a: Amoonguss|75/100
+|-status|p2b: Arbok|slp|[from] ability: Effect Spore|[of] p1a: Amoonguss
+|move|p1a: Amoonguss|Spore|p2b: Arbok
+|-fail|p2b: Arbok|slp
+|
+|-damage|p1b: Gengar|30/100 psn|[from] psn
+|-end|p2a: Salazzle|Infestation|[partiallytrapped]|[silent]
+|-end|p2b: Arbok|Infestation|[partiallytrapped]|[silent]
+|-start|p2a: Salazzle|perish0
+|-start|p2b: Arbok|perish1
+|faint|p2a: Salazzle
+|upkeep
+|
+|t:|1757702664
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|turn|5
+|
+|t:|1757702679
+|switch|p2b: Gengar|Gengar, L50, F|100/100
+|move|p2a: Sneasler|Fling|p1b: Gengar
+|-supereffective|p1b: Gengar
+|-damage|p1b: Gengar|0 fnt
+|-enditem|p2a: Sneasler|King's Rock|[from] move: Fling
+|faint|p1b: Gengar
+|move|p1a: Amoonguss|Spore|p2a: Sneasler
+|-status|p2a: Sneasler|slp|[from] move: Spore
+|
+|upkeep
+|
+|t:|1757702689
+|switch|p1b: Slowbro|Slowbro-Galar, L50, M|87/100
+|turn|6
+|-activate|p1b: Slowbro|ability: Quick Draw
+|
+|t:|1757702706
+|switch|p2a: Arbok|Arbok, L50, M|86/100 slp
+|-ability|p2a: Arbok|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|-unboost|p1b: Slowbro|atk|1
+|-terastallize|p2b: Gengar|Dark
+|move|p1b: Slowbro|Zen Headbutt|p2b: Gengar
+|-immune|p2b: Gengar
+|move|p2b: Gengar|Psychic Noise|p1a: Amoonguss
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|-damage|p2b: Gengar|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757702721
+|switch|p1a: Toxapex|Toxapex, L50, F|76/100 psn
+|turn|7
+|
+|t:|1757702745
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100 slp
+|-terastallize|p1b: Slowbro|Dark
+|move|p2b: Gengar|Psychic Noise|p1a: Toxapex
+|-supereffective|p1a: Toxapex
+|-damage|p1a: Toxapex|11/100 psn
+|-start|p1a: Toxapex|move: Heal Block
+|-damage|p2b: Gengar|81/100|[from] item: Life Orb
+|move|p1a: Toxapex|Infestation|p2b: Gengar
+|-supereffective|p2b: Gengar
+|-damage|p2b: Gengar|67/100
+|-activate|p2b: Gengar|move: Infestation|[of] p1a: Toxapex
+|move|p1b: Slowbro|Drain Punch|p2b: Gengar
+|-supereffective|p2b: Gengar
+|-damage|p2b: Gengar|5/100
+|-heal|p1b: Slowbro|100/100|[from] drain|[of] p2b: Gengar
+|
+|-damage|p1a: Toxapex|0 fnt|[from] psn
+|faint|p1a: Toxapex
+|-end|p2b: Gengar|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|turn|8
+|
+|t:|1757702807
+|switch|p2a: Arbok|Arbok, L50, M|86/100 slp
+|-ability|p2a: Arbok|Intimidate|boost
+|-unboost|p1b: Slowbro|atk|1
+|move|p2b: Gengar|Shadow Ball|p1b: Slowbro
+|-resisted|p1b: Slowbro
+|-damage|p1b: Slowbro|68/100
+|-damage|p2b: Gengar|0 fnt|[from] item: Life Orb
+|faint|p2b: Gengar
+|move|p1b: Slowbro|Zen Headbutt|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-damage|p2a: Arbok|40/100 slp
+|
+|upkeep
+|
+|t:|1757702818
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100 slp
+|turn|9
+|-activate|p1b: Slowbro|ability: Quick Draw
+|
+|t:|1757702826
+|move|p1b: Slowbro|Zen Headbutt|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-damage|p2a: Arbok|3/100 slp
+|cant|p2b: Sneasler|slp
+|cant|p2a: Arbok|slp
+|
+|upkeep
+|turn|10
+|
+|t:|1757702842
+|cant|p2b: Sneasler|slp
+|cant|p2a: Arbok|slp
+|move|p1b: Slowbro|Zen Headbutt|p2b: Sneasler
+|-supereffective|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|upkeep
+|turn|11
+|
+|t:|1757702851
+|-curestatus|p2a: Arbok|slp|[msg]
+|move|p2a: Arbok|Poison Fang|p1b: Slowbro
+|-damage|p1b: Slowbro|50/100
+|move|p1b: Slowbro|Zen Headbutt|p2a: Arbok
+|-supereffective|p2a: Arbok
+|-damage|p2a: Arbok|0 fnt
+|faint|p2a: Arbok
+|
+|win|Wanderer DJ
+||lrav1567 is ready for game 2.
+||Wanderer DJ is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

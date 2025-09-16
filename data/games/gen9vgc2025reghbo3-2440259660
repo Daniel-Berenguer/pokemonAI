@@ -1,0 +1,196 @@
+|j|☆GetaJobApplication
+|j|☆IceColdZekrom
+|html|GetaJobApplicationIceColdZekrom    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757687101
+|gametype|doubles
+|player|p1|GetaJobApplication|cynthia-gen4|1208
+|player|p2|IceColdZekrom|eusine|1158
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Kommo-o, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Sneasler, L50, M|
+|poke|p2|Breloom, L50, F|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Electabuzz, L50, M|
+|teampreview|4
+|showteam|p1|Incineroar||AssaultVest|Intimidate|FakeOut,KnockOff,Uturn,FlareBlitz|||F|||50|,,,,,Bug]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,Trick,HelpingHand,DazzlingGleam|||M|||50|,,,,,Psychic]Kommo-o||ThroatSpray|Overcoat|ClangorousSoul,ClangingScales,Protect,Flamethrower|||M|||50|,,,,,Fire]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Steel]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark
+|showteam|p2|Breloom||LoadedDice|Technician|Spore,BulletSeed,CloseCombat,Protect|||F|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|Tailwind,WideGuard,WeatherBall,Hurricane|||M|||50|,,,,,Grass]Basculegion||ChoiceBand|SwiftSwim|FlipTurn,WaveCrash,AquaJet,LastRespects|||M|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Protect|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|ElectroShot,FlashCannon,BodyPress,DragonPulse|||M|||50|,,,,,Grass]Electabuzz||Eviolite|VitalSpirit|FollowMe,Taunt,ThunderPunch,LowKick|||M|||50|,,,,,Flying
+|
+|t:|1757687119
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kommo-o|Kommo-o, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Pelipper|atk|1
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Kommo-o|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|turn|1
+|
+|t:|1757687152
+|-terastallize|p2a: Incineroar|Ghost
+|move|p1b: Incineroar|Fake Out|p2a: Incineroar
+|-immune|p2a: Incineroar
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|68/100
+|-enditem|p1a: Kommo-o|Throat Spray
+|-boost|p1a: Kommo-o|spa|1|[from] item: Throat Spray
+|move|p2b: Pelipper|Hurricane|p1a: Kommo-o
+|-supereffective|p1a: Kommo-o
+|-damage|p1a: Kommo-o|3/100
+|-start|p1a: Kommo-o|confusion
+|move|p2a: Incineroar|Parting Shot|p1a: Kommo-o
+|-unboost|p1a: Kommo-o|atk|1
+|-unboost|p1a: Kommo-o|spa|1
+|
+|t:|1757687171
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100|[from] Parting Shot
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757687188
+|-terastallize|p1b: Incineroar|Bug
+|move|p2a: Basculegion|Flip Turn|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|
+|t:|1757687197
+|switch|p2a: Incineroar|Incineroar, L50, M, tera:Ghost|100/100|[from] Flip Turn
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1b: Incineroar|atk|1
+|move|p2b: Pelipper|Weather Ball|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|35/100
+|move|p1b: Incineroar|Knock Off|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|56/100
+|-enditem|p2a: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757687204
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|turn|3
+|
+|t:|1757687220
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|move|p2a: Incineroar|Fake Out|p1b: Amoonguss
+|-damage|p1b: Amoonguss|91/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|-damage|p1a: Gholdengo|91/100|[from] item: Life Orb
+|move|p2b: Pelipper|Tailwind|p2b: Pelipper
+|-sidestart|p2: IceColdZekrom|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757687229
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|turn|4
+|
+|t:|1757687241
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1b: Amoonguss
+|-resisted|p1b: Amoonguss
+|-damage|p1b: Amoonguss|62/100
+|move|p2b: Pelipper|Hurricane|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757687248
+|switch|p1b: Incineroar|Incineroar, L50, F, tera:Bug|35/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Archaludon|atk|1
+|-unboost|p2b: Pelipper|atk|1
+|turn|5
+|
+|t:|1757687275
+|move|p1b: Incineroar|Fake Out|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|96/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|cant|p2a: Archaludon|flinch
+|move|p2b: Pelipper|Weather Ball|p1a: Gholdengo
+|-damage|p1a: Gholdengo|17/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Archaludon
+|-damage|p2a: Archaludon|1/100
+|-unboost|p2a: Archaludon|spd|1
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|-damage|p1a: Gholdengo|7/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1757687333
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2a: Archaludon|Dragon Pulse|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p2b: Pelipper|Hurricane|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|
+|-sideend|p2: IceColdZekrom|move: Tailwind
+|upkeep
+|turn|7
+|
+|t:|1757687346
+|move|p1a: Gholdengo|Make It Rain|p2a: Archaludon|[spread] p2a,p2b
+|-resisted|p2a: Archaludon
+|-resisted|p2b: Pelipper
+|-damage|p2a: Archaludon|0 fnt
+|-damage|p2b: Pelipper|20/100
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Archaludon
+|-damage|p1a: Gholdengo|0 fnt|[from] item: Life Orb
+|faint|p1a: Gholdengo
+|
+|win|IceColdZekrom
+|l|☆IceColdZekrom
+|player|p2|
+||GetaJobApplication is ready for game 3.
+||IceColdZekrom is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

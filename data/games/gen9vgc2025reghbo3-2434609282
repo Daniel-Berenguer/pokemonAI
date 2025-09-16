@@ -1,0 +1,175 @@
+|j|☆Mew7000
+|j|☆Rebeldavis
+|html|Mew7000Rebeldavis    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756930794
+|gametype|doubles
+|player|p1|Mew7000|scientist-gen1rb|1070
+|player|p2|Rebeldavis|acetrainer-gen4|1177
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Poliwrath, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Poliwrath||LifeOrb|SwiftSwim|Liquidation,CloseCombat,Haze,Protect|||F|||50|,,,,,Stellar]Gholdengo||Leftovers|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Archaludon||AssaultVest|Stamina|ElectroShot,FlashCannon,DragonPulse,BodyPress|||M|||50|,,,,,Bug]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|||M|||50|,,,,,Ground]Amoonguss||CovertCloak|Regenerator|Spore,PollenPuff,RagePowder,Protect|||F|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,Taunt,PartingShot|||F|||50|,,,,,Ghost
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Typhlosion-Hisui||ChoiceScarf|Blaze|Eruption,HeatWave,ShadowBall,SolarBeam|||M|||50|,,,,,Fire]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|IceBeam,TeraBlast,TrickRoom,Recover||||||50|,,,,,Fighting]Jumpluff||CovertCloak|Chlorophyll|SunnyDay,RagePowder,Tailwind,SleepPowder|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1756930801
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|switch|p2b: Jumpluff|Jumpluff, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Jumpluff|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-enditem|p2a: Torkoal|Eject Pack
+|
+|t:|1756930816
+|switch|p2a: Charizard|Charizard, L50, F|100/100
+|turn|1
+|
+|t:|1756930832
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|move|p2b: Jumpluff|Tailwind|p2b: Jumpluff
+|-sidestart|p2: Rebeldavis|move: Tailwind
+|move|p2a: Charizard|Heat Wave|p1b: Pelipper|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-resisted|p1b: Pelipper
+|-damage|p1a: Incineroar|92/100
+|-damage|p1b: Pelipper|80/100
+|move|p1a: Incineroar|Taunt|p2b: Jumpluff
+|-start|p2b: Jumpluff|move: Taunt
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756930853
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|move|p1b: Pelipper|Protect|p1b: Pelipper
+|-singleturn|p1b: Pelipper|Protect
+|move|p2a: Charizard|Heat Wave|p1a: Incineroar|[spread] 
+|-activate|p1b: Pelipper|move: Protect
+|-miss|p2a: Charizard|p1a: Incineroar
+|move|p1a: Incineroar|Parting Shot|p2a: Charizard
+|-unboost|p2a: Charizard|atk|1
+|-unboost|p2a: Charizard|spa|1
+|
+|t:|1756930867
+|switch|p1a: Amoonguss|Amoonguss, L50, F, shiny|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|3
+|
+|t:|1756930879
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|92/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Jumpluff|atk|1
+|-unboost|p2b: Torkoal|atk|1
+|-terastallize|p1a: Amoonguss|Fire
+|move|p2b: Torkoal|Overheat|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|63/100
+|-unboost|p2b: Torkoal|spa|2
+|move|p1a: Amoonguss|Spore|p2b: Torkoal
+|-status|p2b: Torkoal|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756930906
+|cant|p2b: Torkoal|slp
+|move|p2a: Jumpluff|Sunny Day||[still]
+|-fail|p2a: Jumpluff
+|move|p1b: Incineroar|Taunt|p2a: Jumpluff
+|-start|p2a: Jumpluff|move: Taunt
+|move|p1a: Amoonguss|Spore|p2b: Torkoal
+|-fail|p2b: Torkoal|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: Rebeldavis|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1756930920
+|-curestatus|p2b: Torkoal|slp|[msg]
+|move|p2b: Torkoal|Protect|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Protect
+|-activate|p2a: Jumpluff|move: Struggle
+|move|p2a: Jumpluff|Struggle|p1a: Amoonguss
+|-damage|p1a: Amoonguss|60/100
+|-damage|p2a: Jumpluff|75/100|[from] recoil
+|move|p1b: Incineroar|Knock Off|p2a: Jumpluff
+|-damage|p2a: Jumpluff|30/100
+|-enditem|p2a: Jumpluff|Covert Cloak|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p1a: Amoonguss|Spore|p2a: Jumpluff
+|-immune|p2a: Jumpluff
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1756930944
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|switch|p2b: Charizard|Charizard, L50, F|88/100
+|move|p1b: Incineroar|Knock Off|p2a: Typhlosion
+|-supereffective|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|-enditem|p2a: Typhlosion|Choice Scarf|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2a: Typhlosion
+|move|p1a: Amoonguss|Spore|p2b: Charizard
+|-status|p2b: Charizard|slp|[from] move: Spore
+|
+|-weather|none
+|upkeep
+|
+|t:|1756930948
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|7
+|
+|t:|1756930962
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|cant|p2b: Charizard|slp
+|move|p1b: Incineroar|Knock Off|p2b: Charizard
+|-damage|p2b: Charizard|37/100 slp
+|-enditem|p2b: Charizard|Choice Specs|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p1a: Amoonguss|Spore|p2a: Torkoal
+|-activate|p2a: Torkoal|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|25/100 slp|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|turn|8
+|-message|Rebeldavis forfeited.
+|raw|Mew7000's rating: 1070 → 1108(+38 for winning)
+|raw|Rebeldavis's rating: 1177 → 1145(-32 for losing)
+|
+|win|Mew7000
+|l|☆Rebeldavis
+|player|p2|

@@ -1,0 +1,138 @@
+|j|☆Grafaiaii
+|j|☆Quill86
+|html|GrafaiaiiQuill86    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757820633
+|gametype|doubles
+|player|p1|Grafaiaii|170|1072
+|player|p2|Quill86|lucas|1105
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Clefable, L50, F|
+|poke|p1|Kommo-o, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Zoroark-Hisui, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Clefable||SitrusBerry|Unaware|Moonblast,FollowMe,HelpingHand,ThunderWave|||F|||50|,,,,,Poison]Kommo-o||ThroatSpray|Overcoat|ClangorousSoul,ClangingScales,Flamethrower,Protect|||F|||50|,,,,,Steel]Rillaboom||AssaultVest|GrassySurge|DrumBeating,GrassyGlide,FakeOut,Uturn|||M|||50|,,,,,Fire]Zoroark-Hisui||FocusSash|Illusion|HyperVoice,HyperBeam,ShadowBall,Protect|||M|||50|,,,,,Normal]Kingambit||BlackGlasses|Defiant|Assurance,IronHead,SuckerPunch,Protect|||M|||50|,,,,,Dark]Dragonite||LoadedDice|Multiscale|Tailwind,BrickBreak,ScaleShot,ExtremeSpeed|||F|||50|,,,,,Steel
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Gholdengo||SitrusBerry|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,TrickRoom,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Torkoal||Leftovers|Drought|Eruption,WeatherBall,Yawn,Protect|||M|||50|,,,,,Fire
+|
+|t:|1757820644
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Clefable|Clefable, L50, F, shiny|100/100
+|switch|p1b: Kommo-o|Kommo-o, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757820656
+|move|p1a: Clefable|Follow Me|p1a: Clefable
+|-singleturn|p1a: Clefable|move: Follow Me
+|move|p1b: Kommo-o|Shadow Ball|p2b: Gallade
+|-supereffective|p2b: Gallade
+|-damage|p2b: Gallade|25/100
+|move|p2b: Gallade|Psycho Cut|p1a: Clefable
+|-crit|p1a: Clefable
+|-damage|p1a: Clefable|8/100
+|-enditem|p1a: Clefable|Sitrus Berry|[eat]
+|-heal|p1a: Clefable|33/100|[from] item: Sitrus Berry
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1757820672
+|move|p1a: Clefable|Follow Me|p1a: Clefable
+|-singleturn|p1a: Clefable|move: Follow Me
+|move|p2b: Gallade|Psycho Cut|p1a: Clefable
+|-damage|p1a: Clefable|0 fnt
+|faint|p1a: Clefable
+|move|p2a: Indeedee|Dazzling Gleam|p1b: Kommo-o
+|-damage|p1b: Kommo-o|64/100
+|replace|p1b: Zoroark|Zoroark-Hisui, L50, M
+|-end|p1b: Zoroark|Illusion
+|move|p1b: Zoroark|Hyper Voice|p2a: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Indeedee|78/100
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|
+|upkeep
+|
+|t:|1757820682
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|switch|p1a: Dragonite|Dragonite, L50, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|3
+|
+|t:|1757820695
+|-terastallize|p2a: Indeedee|Fairy
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Torkoal|Eruption|p1b: Zoroark|[spread] p1a,p1b
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|85/100
+|-damage|p1b: Zoroark|0 fnt
+|faint|p1b: Zoroark
+|move|p1a: Dragonite|Scale Shot|p2a: Indeedee
+|-immune|p2a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757820699
+|switch|p1b: Kommo-o|Kommo-o, L50, F|100/100
+|turn|4
+|
+|t:|1757820711
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Torkoal|Eruption|p1b: Kommo-o|[spread] p1a,p1b
+|-resisted|p1a: Dragonite
+|-resisted|p1b: Kommo-o
+|-damage|p1a: Dragonite|49/100
+|-damage|p1b: Kommo-o|60/100
+|move|p1a: Dragonite|Scale Shot|p2a: Indeedee
+|-immune|p2a: Indeedee
+|move|p1b: Kommo-o|Flamethrower|p2a: Indeedee
+|-damage|p2a: Indeedee|53/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Quill86)
+|
+|t:|1757820727
+|move|p2b: Torkoal|Eruption|p1a: Dragonite|[spread] p1a,p1b
+|-resisted|p1a: Dragonite
+|-resisted|p1b: Kommo-o
+|-damage|p1a: Dragonite|16/100
+|-damage|p1b: Kommo-o|19/100
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Dragonite|[spread] p1a,p1b
+|-supereffective|p1a: Dragonite
+|-supereffective|p1b: Kommo-o
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1b: Kommo-o|0 fnt
+|faint|p1a: Dragonite
+|faint|p1b: Kommo-o
+|
+|win|Quill86
+||Quill86 is ready for game 3.
+||Grafaiaii is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

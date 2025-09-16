@@ -1,0 +1,102 @@
+|j|‽Adroqk
+|j|☆Quill86
+|html|AdroqkQuill86    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757817584
+|gametype|doubles
+|player|p1|Adroqk|101|1059
+|player|p2|Quill86|lucas|1170
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ribombee, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Maushold, L50|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Inteleon, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Torkoal, L50, F|
+|teampreview|4
+|showteam|p1|Ribombee||FocusSash|ShieldDust|Tailwind,PollenPuff,Moonblast,AromaticMist|||F|||50|,,,,,Stellar]Annihilape||SitrusBerry|VitalSpirit|RageFist,Protect,BulkUp,DrainPunch|||F|||50|,,,,,Fire]Maushold||SafetyGoggles|FriendGuard|FollowMe,SuperFang,BeatUp,Protect||||||50|,,,,,Ghost]Pelipper||DampRock|Drizzle|WeatherBall,Hurricane,Protect,WideGuard|||F|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|ElectroShot,DragonPulse,BodyPress,FlashCannon|||F|||50|,,,,,Grass]Inteleon||ChoiceSpecs|Sniper|SnipeShot,FlipTurn,HydroCannon,IceBeam|||M|||50|,,,,,Water
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Gholdengo||SitrusBerry|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,TrickRoom,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Torkoal||Leftovers|Drought|Eruption,WeatherBall,Yawn,Protect|||F|||50|,,,,,Fire
+|
+|t:|1757817603
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Inteleon|Inteleon, L50, M|100/100
+|switch|p1b: Maushold|Maushold, L50|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757817621
+|switch|p1b: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|-terastallize|p1a: Inteleon|Water
+|move|p1a: Inteleon|Snipe Shot|p2b: Gallade
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757817638
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|2
+|
+|t:|1757817644
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Ursaluna|Blood Moon|p1a: Inteleon
+|-damage|p1a: Inteleon|0 fnt
+|faint|p1a: Inteleon
+|-damage|p2b: Ursaluna|90/100|[from] item: Life Orb
+|move|p1b: Pelipper|Weather Ball|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|21/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757817655
+|switch|p1a: Archaludon|Archaludon, L50, F|100/100
+|turn|3
+|
+|t:|1757817662
+|switch|p1b: Maushold|Maushold, L50|100/100
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p2b: Ursaluna|Earth Power|p1a: Archaludon
+|-supereffective|p1a: Archaludon
+|-damage|p1a: Archaludon|35/100
+|-unboost|p1a: Archaludon|spd|1
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|-damage|p2b: Ursaluna|80/100|[from] item: Life Orb
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|-message|Adroqk forfeited.
+|
+|win|Quill86
+||Adroqk is ready for game 2.
+||Quill86 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

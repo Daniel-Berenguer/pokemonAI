@@ -1,0 +1,212 @@
+|j|☆myshirtisdirty
+|j|☆TeyOnTheRox
+|html|myshirtisdirtyTeyOnTheRox    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757911871
+|gametype|doubles
+|player|p1|myshirtisdirty|1|1176
+|player|p2|TeyOnTheRox|benga|1373
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Corviknight, L50, F|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||SafetyGoggles|PsychicSurge|DazzlingGleam,HelpingHand,TrickRoom,FollowMe|||F|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Steel]Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||M|||50|,,,,,Ghost]Torkoal||ChoiceSpecs|Drought|WeatherBall,HeatWave,Eruption,EarthPower|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,MysticalFire,TrickRoom|||F|||50|,,,,,Water]Lilligant-Hisui||FocusSash|Chlorophyll|SleepPowder,AfterYou,CloseCombat,SolarBlade|||F|||50|,,,,,Ghost
+|showteam|p2|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||F|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|IronHead,HighHorsepower,Earthquake,Protect|||F|||50|,,,,,Stellar]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Protect,Trick|||M|||50|,,,,,Psychic]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Roost,Tailwind|||F|||50|,,,,,Dragon]Annihilape||SafetyGoggles|Defiant|CloseCombat,FinalGambit,RageFist,Taunt|||M|||50|,,,,,Water
+|
+|t:|1757911900
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Gallade|Gallade, L50, M, shiny|100/100
+|switch|p2a: Filmore|Indeedee, L50, M, shiny|100/100
+|switch|p2b: Chicks Hicks|Annihilape, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Filmore
+|turn|1
+|
+|t:|1757911932
+|-terastallize|p1b: Gallade|Steel
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Filmore|Trick|p1a: Indeedee
+|-activate|p2a: Filmore|move: Trick|[of] p1a: Indeedee
+|-item|p1a: Indeedee|Choice Scarf|[from] move: Trick
+|-item|p2a: Filmore|Safety Goggles|[from] move: Trick
+|move|p2b: Chicks Hicks|Taunt|p1a: Indeedee
+|-start|p1a: Indeedee|move: Taunt
+|move|p1b: Gallade|Trick Room|p1b: Gallade
+|-fieldstart|move: Trick Room|[of] p1b: Gallade
+|
+|upkeep
+|turn|2
+|
+|t:|1757911961
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|-terastallize|p2b: Chicks Hicks|Water
+|move|p2a: Filmore|Protect|p2a: Filmore
+|-singleturn|p2a: Filmore|Protect
+|move|p1b: Gallade|Psycho Cut|p2b: Chicks Hicks
+|-damage|p2b: Chicks Hicks|27/100
+|move|p2b: Chicks Hicks|Close Combat|p1b: Gallade
+|-supereffective|p1b: Gallade
+|-damage|p1b: Gallade|0 fnt
+|-unboost|p2b: Chicks Hicks|def|1
+|-unboost|p2b: Chicks Hicks|spd|1
+|faint|p1b: Gallade
+|
+|upkeep
+|
+|t:|1757911972
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|3
+|
+|t:|1757911993
+|switch|p2a: Doc Hudson|Tyranitar, L50, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Doc Hudson
+|switch|p2b: Tow Mater|Excadrill, L50, F|100/100
+|move|p1a: Hatterene|Expanding Force|p2a: Doc Hudson|[spread] p2b
+|-immune|p2a: Doc Hudson
+|-resisted|p2b: Tow Mater
+|-damage|p2b: Tow Mater|45/100
+|-damage|p1a: Hatterene|91/100|[from] item: Life Orb
+|move|p1b: Ursaluna|Facade|p2a: Doc Hudson
+|-resisted|p2a: Doc Hudson
+|-damage|p2a: Doc Hudson|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hatterene|85/100|[from] Sandstorm
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1757912032
+|switch|p2b: Chicks Hicks|Annihilape, L50, M, tera:Water|27/100
+|move|p1a: Hatterene|Mystical Fire|p2b: Chicks Hicks
+|-resisted|p2b: Chicks Hicks
+|-damage|p2b: Chicks Hicks|10/100
+|-unboost|p2b: Chicks Hicks|spa|1
+|-ability|p2b: Chicks Hicks|Defiant|boost
+|-boost|p2b: Chicks Hicks|atk|2
+|-damage|p1a: Hatterene|75/100|[from] item: Life Orb
+|move|p1b: Ursaluna|Headlong Rush|p2a: Doc Hudson
+|-supereffective|p2a: Doc Hudson
+|-damage|p2a: Doc Hudson|0 fnt
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|faint|p2a: Doc Hudson
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hatterene|69/100|[from] Sandstorm
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1757912060
+|switch|p2a: Tow Mater|Excadrill, L50, F|45/100
+|turn|5
+|
+|t:|1757912084
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|move|p2a: Tow Mater|Protect|p2a: Tow Mater
+|-singleturn|p2a: Tow Mater|Protect
+|move|p1a: Hatterene|Expanding Force|p2b: Chicks Hicks|[spread] p2b
+|-activate|p2a: Tow Mater|move: Protect
+|-damage|p2b: Chicks Hicks|0 fnt
+|faint|p2b: Chicks Hicks
+|-damage|p1a: Hatterene|59/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Hatterene|53/100|[from] Sandstorm
+|-damage|p1b: Indeedee|94/100|[from] Sandstorm
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1757912096
+|switch|p2b: Filmore|Indeedee, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Filmore
+|turn|6
+|
+|t:|1757912127
+|move|p2a: Tow Mater|Earthquake|p1b: Indeedee|[spread] p2b,p1a,p1b
+|-damage|p2b: Filmore|12/100
+|-damage|p1a: Hatterene|5/100
+|-damage|p1b: Indeedee|53/100
+|move|p2b: Filmore|Expanding Force|p1a: Hatterene|[spread] p1a,p1b
+|-resisted|p1a: Hatterene
+|-resisted|p1b: Indeedee
+|-damage|p1a: Hatterene|0 fnt
+|-damage|p1b: Indeedee|24/100
+|faint|p1a: Hatterene
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Indeedee|18/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757912142
+|switch|p1a: Ursaluna|Ursaluna, L50, M|95/100 brn
+|turn|7
+|
+|t:|1757912195
+|move|p2b: Filmore|Protect|p2b: Filmore
+|-singleturn|p2b: Filmore|Protect
+|move|p2a: Tow Mater|Protect|p2a: Tow Mater
+|-singleturn|p2a: Tow Mater|Protect
+|move|p1a: Ursaluna|Earthquake|p2b: Filmore|[spread] p1b
+|-activate|p2a: Tow Mater|move: Protect
+|-activate|p2b: Filmore|move: Protect
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|
+|-weather|none
+|-damage|p1a: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by myshirtisdirty)
+|
+|t:|1757912250
+|move|p2a: Tow Mater|Protect|p2a: Tow Mater
+|-singleturn|p2a: Tow Mater|Protect
+|move|p2b: Filmore|Protect||[still]
+|-fail|p2b: Filmore
+|move|p1a: Ursaluna|Earthquake|p2b: Filmore|[spread] p2b
+|-activate|p2a: Tow Mater|move: Protect
+|-damage|p2b: Filmore|0 fnt
+|faint|p2b: Filmore
+|
+|-damage|p1a: Ursaluna|83/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1757912269
+|move|p2a: Tow Mater|Protect||[still]
+|-fail|p2a: Tow Mater
+|move|p1a: Ursaluna|Earthquake|p2a: Tow Mater
+|-supereffective|p2a: Tow Mater
+|-damage|p2a: Tow Mater|0 fnt
+|faint|p2a: Tow Mater
+|
+|win|myshirtisdirty
+||myshirtisdirty is ready for game 2.
+||TeyOnTheRox is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆TeyOnTheRox
+|player|p2|
+|l|☆myshirtisdirty
+|player|p1|

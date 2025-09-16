@@ -1,0 +1,124 @@
+|j|☆Santeplays
+|j|☆der_capri
+|html|Santeplaysder_capri    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757680735
+|gametype|doubles
+|player|p1|Santeplays|n|1062
+|player|p2|der_capri|169|1128
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Hydrapple, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Chandelure, L50, M|
+|poke|p1|Zoroark-Hisui, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Exeggutor, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Hydrapple||AssaultVest|Regenerator|SyrupBomb,DracoMeteor,EarthPower,BreakingSwipe|||F|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,WideGuard,TrickRoom|||M|||50|,,,,,Dark]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,FollowMe,TrickRoom,HelpingHand|||F|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|HeadlongRush,Earthquake,Protect,Facade|||M|||50|,,,,,Ghost]Chandelure||FocusSash|FlashFire|TrickRoom,HeatWave,ShadowBall,Taunt|||M|||50|,,,,,Normal]Zoroark-Hisui||ChoiceSpecs|Illusion|Flamethrower,ShadowBall,HyperVoice,TeraBlast|||M|||50|,,,,,Stellar
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,HelpingHand,DazzlingGleam,FollowMe|||F|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Psychic]Exeggutor||TwistedSpoon|Chlorophyll|ExpandingForce,GigaDrain,SkillSwap,Protect|||M|||50|,,,,,Psychic]Ursaluna||FlameOrb|Guts|HeadlongRush,Earthquake,Facade,Protect|||M|||50|,,,,,Ghost]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,CloseCombat,AfterYou,SleepPowder|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,Protect,EarthPower|||M|||50|,,,,,Fire
+|
+|t:|1757680794
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hydrapple|Hydrapple, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Exeggutor|Exeggutor, L50, M|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|1
+|
+|t:|1757680862
+|move|p1a: Hydrapple|Shadow Ball|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|faint|p2a: Exeggutor
+|move|p2b: Torkoal|Overheat|p1a: Hydrapple
+|-crit|p1a: Hydrapple
+|-damage|p1a: Hydrapple|0 fnt
+|-unboost|p2b: Torkoal|spa|2
+|replace|p1a: Zoroark|Zoroark-Hisui, L50, M
+|-end|p1a: Zoroark|Illusion
+|faint|p1a: Zoroark
+|-enditem|p2b: Torkoal|Eject Pack
+|
+|t:|1757680873
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757680884
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|switch|p1a: Hydrapple|Hydrapple, L50, F|100/100
+|turn|2
+|
+|t:|1757680908
+|move|p1b: Indeedee|Helping Hand|p1a: Hydrapple
+|-singleturn|p1a: Hydrapple|Helping Hand|[of] p1b: Indeedee
+|move|p2a: Torkoal|Eruption|p1b: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Hydrapple|55/100
+|-damage|p1b: Indeedee|56/100
+|move|p2b: Ursaluna|Facade|p1a: Hydrapple
+|-damage|p1a: Hydrapple|0 fnt
+|faint|p1a: Hydrapple
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1757680924
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|3
+|
+|t:|1757680949
+|-terastallize|p2a: Torkoal|Fire
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Torkoal|Eruption|p1a: Ursaluna|[spread] p1b
+|-activate|p1a: Ursaluna|move: Protect
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p2b: Ursaluna|Facade|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|89/100 brn|[from] brn
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1757680975
+|move|p1a: Ursaluna|Protect||[still]
+|-fail|p1a: Ursaluna
+|move|p2a: Torkoal|Eruption|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|win|der_capri
+||der_capri is ready for game 2.
+|l|☆Santeplays
+|player|p1|
+|inactive|Santeplays has 30 seconds to confirm battle start!
+|j|☆Santeplays
+|player|p1|Santeplays|n|
+|inactive|Santeplays has 20 seconds to confirm battle start!
+|inactive|Santeplays has 10 seconds to confirm battle start!
+|uhtml|next|Next: Game 2 of 3

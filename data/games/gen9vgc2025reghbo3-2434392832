@@ -1,0 +1,137 @@
+|j|☆moth.o
+|j|☆uglybeast
+|html|moth.ouglybeast    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756910671
+|gametype|doubles
+|player|p1|moth.o|roxie|1295
+|player|p2|uglybeast|lucas|1353
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Arcanine-Hisui, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Hydreigon, L50, F|
+|poke|p2|Murkrow, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|showteam|p1|Arcanine-Hisui||SafetyGoggles|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||F|||50|,,,,,Fairy]Indeedee-F||SitrusBerry|PsychicSurge|TrickRoom,FollowMe,Psychic,HelpingHand|||F|||50|,,,,,Fairy]Gallade||LifeOrb|Sharpness|Protect,NightSlash,SacredSword,PsychoCut|||M|||50|,,,,,Grass]Gholdengo||ChoiceSpecs|GoodasGold|Trick,ShadowBall,MakeItRain,PowerGem||||||50|,,,,,Water]Whimsicott||CovertCloak|Prankster|SunnyDay,Moonblast,Encore,Tailwind|||F|||50|,,,,,Dark]Hydreigon||AssaultVest|Levitate|Uturn,Snarl,DarkPulse,DracoMeteor|||F|||50|,,,,,Ghost
+|showteam|p2|Murkrow||Eviolite|Prankster|Haze,SunnyDay,Tailwind,BraveBird|||F|||50|,,,,,Ghost]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,Protect,EarthPower|||M|||50|,,,,,Normal]Sneasler||PsychicSeed|Unburden|ThroatChop,DireClaw,CloseCombat,Protect|||F|||50|,,,,,Dark]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,Uturn,PhantomForce|||F|||50|,,,,,Dragon]Armarouge||PowerHerb|FlashFire|HeatWave,MeteorBeam,ExpandingForce,Protect|||F|||50|,,,,,Grass]Indeedee-F||RockyHelmet|PsychicSurge|DazzlingGleam,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Grass
+|
+|t:|1756910776
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Tesorero|Gholdengo, L50|100/100
+|switch|p1b: Fenrir|Arcanine-Hisui, L50, F|100/100
+|switch|p2a: Laz|Dragapult, L50, F|100/100
+|switch|p2b: Blade|Indeedee-F, L50, F|100/100
+|-ability|p1b: Fenrir|Intimidate|boost
+|-fail|p2a: Laz|unboost|[from] ability: Clear Body|[of] p2a: Laz
+|-unboost|p2b: Blade|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Blade
+|turn|1
+|
+|t:|1756910819
+|-terastallize|p2a: Laz|Dragon
+|move|p2b: Blade|Follow Me|p2b: Blade
+|-singleturn|p2b: Blade|move: Follow Me
+|move|p2a: Laz|Dragon Darts|p1a: Tesorero
+|-resisted|p1a: Tesorero
+|-damage|p1a: Tesorero|66/100
+|-anim|p2a: Laz|Dragon Darts|p1b: Fenrir
+|-damage|p1b: Fenrir|37/100
+|move|p1b: Fenrir|Flare Blitz|p2b: Blade
+|-damage|p2b: Blade|49/100
+|-damage|p1b: Fenrir|20/100|[from] item: Rocky Helmet|[of] p2b: Blade
+|-damage|p1b: Fenrir|3/100|[from] Recoil
+|move|p1a: Tesorero|Make It Rain|p2a: Laz|[spread] p2a,p2b
+|-crit|p2a: Laz
+|-damage|p2a: Laz|0 fnt
+|-damage|p2b: Blade|0 fnt
+|-unboost|p1a: Tesorero|spa|1
+|faint|p2a: Laz
+|faint|p2b: Blade
+|
+|upkeep
+|
+|t:|1756910839
+|switch|p2a: Anagnoman|Sneasler, L50, F|100/100
+|switch|p2b: Paschalis|Ursaluna-Bloodmoon, L50, M|100/100
+|-enditem|p2a: Anagnoman|Psychic Seed
+|-boost|p2a: Anagnoman|spd|1|[from] item: Psychic Seed
+|turn|2
+|
+|t:|1756910890
+|switch|p1a: Odisea|Hydreigon, L50, F, shiny|100/100
+|move|p1b: Fenrir|Protect|p1b: Fenrir
+|-singleturn|p1b: Fenrir|Protect
+|move|p2a: Anagnoman|Dire Claw|p1b: Fenrir
+|-activate|p1b: Fenrir|move: Protect
+|move|p2b: Paschalis|Hyper Voice|p1b: Fenrir|[spread] p1a
+|-activate|p1b: Fenrir|move: Protect
+|-damage|p1a: Odisea|65/100
+|-damage|p2b: Paschalis|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|3
+|
+|t:|1756910928
+|switch|p1b: Galantería|Gallade, L50, M, shiny|100/100
+|-terastallize|p1a: Odisea|Ghost
+|move|p2a: Anagnoman|Throat Chop|p1a: Odisea
+|-supereffective|p1a: Odisea
+|-damage|p1a: Odisea|3/100
+|-start|p1a: Odisea|Throat Chop|[silent]
+|cant|p1a: Odisea|move: Throat Chop
+|move|p2b: Paschalis|Hyper Voice|p1b: Galantería|[spread] p1a,p1b
+|-damage|p1a: Odisea|0 fnt
+|-damage|p1b: Galantería|51/100
+|faint|p1a: Odisea
+|-damage|p2b: Paschalis|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1756910946
+|switch|p1a: Fenrir|Arcanine-Hisui, L50, F|3/100
+|-ability|p1a: Fenrir|Intimidate|boost
+|-unboost|p2a: Anagnoman|atk|1
+|-unboost|p2b: Paschalis|atk|1
+|turn|4
+|
+|t:|1756910977
+|move|p2a: Anagnoman|Throat Chop|p1b: Galantería
+|-damage|p1b: Galantería|11/100
+|-start|p1b: Galantería|Throat Chop|[silent]
+|move|p1a: Fenrir|Flare Blitz|p2a: Anagnoman
+|-damage|p2a: Anagnoman|0 fnt
+|faint|p2a: Anagnoman
+|-damage|p1a: Fenrir|0 fnt|[from] Recoil
+|faint|p1a: Fenrir
+|move|p1b: Galantería|Psycho Cut|p2b: Paschalis
+|-damage|p2b: Paschalis|7/100
+|-damage|p1b: Galantería|1/100|[from] item: Life Orb
+|move|p2b: Paschalis|Hyper Voice|p1b: Galantería
+|-damage|p1b: Galantería|0 fnt
+|faint|p1b: Galantería
+|-damage|p2b: Paschalis|0 fnt|[from] item: Life Orb
+|faint|p2b: Paschalis
+|
+|win|moth.o
+|inactive|moth.o has 30 seconds to confirm battle start!
+|inactive|uglybeast has 30 seconds to confirm battle start!
+||uglybeast is ready for game 2.
+||moth.o is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆uglybeast
+|player|p2|

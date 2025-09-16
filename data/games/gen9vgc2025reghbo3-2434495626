@@ -1,0 +1,147 @@
+|j|☆hgsimon
+|j|☆browe
+|html|hgsimonbrowe    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756920163
+|gametype|doubles
+|player|p1|hgsimon|101|1092
+|player|p2|browe|169|1187
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Hitmontop, L50, M|
+|poke|p1|Hydreigon, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Meowscarada, L50, F|
+|poke|p1|Milotic, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+|showteam|p1|Garchomp||LifeOrb|RoughSkin|Earthquake,StompingTantrum,ScaleShot,Protect|||F|||50|,,,,,Ground]Hitmontop||RockyHelmet|Intimidate|FakeOut,WideGuard,CloseCombat,UpperHand|||M|||50|,,,,,Dark]Hydreigon||ChoiceSpecs|Levitate|HeatWave,DarkPulse,Snarl,DracoMeteor|||M|||50|,,,,,Fire]Whimsicott||CovertCloak|Prankster|SunnyDay,Moonblast,Tailwind,Taunt|||F|||50|,,,,,Water]Meowscarada||FocusSash|Overgrow|TrickRoom,Protect,FlowerTrick,KnockOff|||F|||50|,,,,,Ghost]Milotic||SitrusBerry|Competitive|IcyWind,Scald,Recover,Protect|||M|||50|,,,,,Grass
+|showteam|p2|Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|||F|||50|,,,,,Ghost]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,AquaJet,FlipTurn|||M|||50|,,,,,Grass]Archaludon||AssaultVest|Stamina|DracoMeteor,FlashCannon,ElectroShot,BodyPress|||F|||50|,,,,,Bug]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,DazzlingGleam,ShadowBall,Trick|||M|||50|,,,,,Psychic]Amoonguss||SitrusBerry|Regenerator|PollenPuff,RagePowder,ClearSmog,Spore|||M|||50|,,,,,Psychic
+|
+|t:|1756920196
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hitmontop|Hitmontop, L50, M|100/100
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-ability|p1a: Hitmontop|Intimidate|boost
+|-unboost|p2a: Basculegion|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|turn|1
+|
+|t:|1756920218
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p1a: Hitmontop|Wide Guard|p1a: Hitmontop
+|-singleturn|p1a: Hitmontop|Wide Guard
+|move|p2a: Basculegion|Flip Turn|p1a: Hitmontop
+|-damage|p1a: Hitmontop|45/100
+|-damage|p2a: Basculegion|84/100|[from] item: Rocky Helmet|[of] p1a: Hitmontop
+|
+|t:|1756920229
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100|[from] Flip Turn
+|move|p1b: Garchomp|Earthquake|p2b: Pelipper|[spread] p2a
+|-activate|p1a: Hitmontop|move: Wide Guard
+|-immune|p2b: Pelipper
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-damage|p1b: Garchomp|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756920237
+|switch|p2a: Archaludon|Archaludon, L50, F|100/100
+|turn|2
+|
+|t:|1756920271
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|-terastallize|p2a: Archaludon|Bug
+|move|p1b: Garchomp|Scale Shot|p2b: Pelipper
+|-crit|p2b: Pelipper
+|-damage|p2b: Pelipper|63/100
+|-damage|p2b: Pelipper|40/100
+|-damage|p2b: Pelipper|16/100
+|-hitcount|p2b: Pelipper|3
+|-unboost|p1b: Garchomp|def|1
+|-boost|p1b: Garchomp|spe|1
+|-damage|p1b: Garchomp|81/100|[from] item: Life Orb
+|move|p2b: Pelipper|Tailwind|p2b: Pelipper
+|-sidestart|p2: browe|move: Tailwind
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|62/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756920316
+|-terastallize|p1a: Whimsicott|Water
+|move|p1a: Whimsicott|Sunny Day|p1a: Whimsicott
+|-weather|SunnyDay
+|move|p1b: Garchomp|Scale Shot|p2b: Pelipper
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|-hitcount|p2: Pelipper|1
+|-unboost|p1b: Garchomp|def|1
+|-boost|p1b: Garchomp|spe|1
+|-damage|p1b: Garchomp|71/100|[from] item: Life Orb
+|move|p2a: Archaludon|Flash Cannon|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|31/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756920326
+|switch|p2b: Basculegion|Basculegion, L50, M|84/100
+|turn|4
+|
+|t:|1756920354
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: hgsimon|move: Tailwind
+|move|p1b: Garchomp|Stomping Tantrum|p2b: Basculegion
+|-damage|p2b: Basculegion|27/100
+|-damage|p1b: Garchomp|61/100|[from] item: Life Orb
+|move|p2a: Archaludon|Body Press|p1a: Whimsicott
+|-damage|p1a: Whimsicott|3/100
+|move|p2b: Basculegion|Wave Crash|p1b: Garchomp
+|-damage|p1b: Garchomp|0 fnt
+|-damage|p2b: Basculegion|14/100|[from] ability: Rough Skin|[of] p1b: Garchomp
+|faint|p1b: Garchomp
+|-damage|p2b: Basculegion|0 fnt|[from] Recoil
+|faint|p2b: Basculegion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756920370
+|switch|p1b: Hydreigon|Hydreigon, L50, M|100/100
+|turn|5
+|
+|t:|1756920377
+|move|p1b: Hydreigon|Heat Wave|p2a: Archaludon
+|-supereffective|p2a: Archaludon
+|-damage|p2a: Archaludon|0 fnt
+|faint|p2a: Archaludon
+|
+|win|hgsimon
+|raw|hgsimon's rating: 1092 → 1125(+33 for winning)
+|raw|browe's rating: 1187 → 1155(-32 for losing)

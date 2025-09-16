@@ -1,0 +1,113 @@
+|j|☆Testbericht2
+|j|☆debouls
+|html|Testbericht2debouls    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757627277
+|gametype|doubles
+|player|p1|Testbericht2|101|1315
+|player|p2|debouls|102|1232
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Maushold, L50|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Maushold||WideLens|Technician|PopulationBomb,FollowMe,Taunt,Protect||||||50|,,,,,Ghost]Pelipper||FocusSash|Drizzle|Hurricane,MuddyWater,Tailwind,Protect|||F|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|DracoMeteor,ElectroShot,BodyPress,FlashCannon|||M|||50|,,,,,Bug]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom||||||50|,,,,,Fairy]Basculegion||LifeOrb|SwiftSwim|AquaJet,Protect,LastRespects,WaveCrash|||M|||50|,,,,,Water
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,TrickRoom,Protect|||M|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,EarthPower,Protect|||F|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|TripleAxel,CloseCombat,SleepPowder,AfterYou|||F|||50|,,,,,Ghost]Armarouge||PowerHerb|FlashFire|ExpandingForce,ArmorCannon,TrickRoom,Protect|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1757627318
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Maushold|Maushold, L50|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757627344
+|-terastallize|p2b: Gallade|Grass
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Maushold|Population Bomb|p2a: Indeedee
+|-damage|p2a: Indeedee|90/100
+|-damage|p2a: Indeedee|78/100
+|-damage|p2a: Indeedee|68/100
+|-damage|p2a: Indeedee|56/100
+|-damage|p2a: Indeedee|45/100
+|-damage|p2a: Indeedee|34/100
+|-damage|p2a: Indeedee|22/100
+|-damage|p2a: Indeedee|11/100
+|-damage|p2a: Indeedee|1/100
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-hitcount|p2: Indeedee|10
+|move|p2b: Gallade|Trick Room|p2b: Gallade
+|-fieldstart|move: Trick Room|[of] p2b: Gallade
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757627386
+|switch|p2a: Armarouge|Armarouge, L50, M|100/100
+|turn|2
+|
+|t:|1757627412
+|move|p1b: Ursaluna|Protect||[still]
+|-fail|p1b: Ursaluna
+|move|p1a: Maushold|Protect|p1a: Maushold
+|-singleturn|p1a: Maushold|Protect
+|move|p2a: Armarouge|Expanding Force|p1a: Maushold|[spread] p1b
+|-activate|p1a: Maushold|move: Protect
+|-damage|p1b: Ursaluna|39/100 brn
+|move|p2b: Gallade|Psycho Cut|p1b: Ursaluna
+|-crit|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|
+|upkeep
+|
+|t:|1757627419
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|turn|3
+|
+|t:|1757627450
+|move|p1a: Maushold|Protect||[still]
+|-fail|p1a: Maushold
+|move|p2a: Armarouge|Expanding Force|p1a: Maushold|[spread] p1a,p1b
+|-damage|p1a: Maushold|4/100
+|-damage|p1b: Sinistcha|43/100
+|-enditem|p1b: Sinistcha|Sitrus Berry|[eat]
+|-heal|p1b: Sinistcha|68/100|[from] item: Sitrus Berry
+|move|p2b: Gallade|Psycho Cut|p1b: Sinistcha
+|-crit|p1b: Sinistcha
+|-damage|p1b: Sinistcha|0 fnt
+|faint|p1b: Sinistcha
+|
+|upkeep
+|-message|Testbericht2 forfeited.
+|
+|win|debouls
+|l|☆Testbericht2
+|player|p1|
+||debouls is ready for game 2.
+||Testbericht2 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

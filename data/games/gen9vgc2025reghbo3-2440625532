@@ -1,0 +1,177 @@
+|j|☆markingdra
+|j|☆lancerh
+|html|markingdralancerh    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757727965
+|gametype|doubles
+|player|p1|markingdra|unknown|1202
+|player|p2|lancerh|169|1181
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Electabuzz, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Annihilape, L50, F|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,FlashCannon,BodyPress|||F|||50|,,,,,Bug]Rillaboom||LoadedDice|GrassySurge|BulletSeed,GrassyGlide,FakeOut,HighHorsepower|||F|||50|,,,,,Fire]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,FlipTurn,AquaJet|||M|||50|,,,,,Grass]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Ghost]Electabuzz||Eviolite|VitalSpirit|Electroweb,Taunt,FollowMe,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,TrickRoom,Psychic,HelpingHand|||F|||50|,,,,,Water]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,ClearSmog,WeatherBall|||F|||50|,,,,,Fire]Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,HyperVoice,VacuumWave,EarthPower|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,Protect,TrickRoom|||F|||50|,,,,,Psychic]Armarouge||PowerHerb|FlashFire|ExpandingForce,HeatWave,MeteorBeam,Protect|||F|||50|,,,,,Grass]Annihilape||SafetyGoggles|Defiant|CloseCombat,FinalGambit,RageFist,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1757728008
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Basculegion|Basculegion, L50, M, shiny|100/100
+|switch|p1b: Electabuzz|Electabuzz, L50, M, shiny|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757728025
+|-terastallize|p2a: Indeedee|Water
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Electabuzz|Taunt|p2a: Indeedee
+|-start|p2a: Indeedee|move: Taunt
+|move|p1a: Basculegion|Flip Turn|p2a: Indeedee
+|-resisted|p2a: Indeedee
+|-damage|p2a: Indeedee|78/100
+|
+|t:|1757728032
+|switch|p1a: Rillaboom|Rillaboom, L50, F, shiny|100/100|[from] Flip Turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2b: Hatterene|Trick Room|p2b: Hatterene
+|-fieldstart|move: Trick Room|[of] p2b: Hatterene
+|
+|-heal|p2a: Indeedee|85/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1757728055
+|move|p2b: Hatterene|Dazzling Gleam|p1b: Electabuzz|[spread] p1a,p1b
+|-damage|p1a: Rillaboom|53/100
+|-damage|p1b: Electabuzz|67/100
+|-damage|p2b: Hatterene|91/100|[from] item: Life Orb
+|move|p2a: Indeedee|Psychic|p1a: Rillaboom
+|-damage|p1a: Rillaboom|20/100
+|move|p1a: Rillaboom|Bullet Seed|p2b: Hatterene
+|-damage|p2b: Hatterene|72/100
+|-damage|p2b: Hatterene|52/100
+|-damage|p2b: Hatterene|32/100
+|-damage|p2b: Hatterene|13/100
+|-hitcount|p2b: Hatterene|4
+|move|p1b: Electabuzz|Electroweb|p2b: Hatterene|[spread] p2a,p2b
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|68/100
+|-damage|p2b: Hatterene|0 fnt
+|-unboost|p2a: Indeedee|spe|1
+|faint|p2b: Hatterene
+|
+|-heal|p2a: Indeedee|74/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|26/100|[from] Grassy Terrain
+|-heal|p1b: Electabuzz|72/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757728062
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|3
+|
+|t:|1757728074
+|move|p1a: Rillaboom|Grassy Glide|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|8/100
+|move|p2a: Indeedee|Psychic|p1b: Electabuzz
+|-damage|p1b: Electabuzz|48/100
+|move|p2b: Ursaluna|Hyper Voice|p1a: Rillaboom|[spread] p1a,p1b
+|-damage|p1a: Rillaboom|0 fnt
+|-damage|p1b: Electabuzz|15/100
+|faint|p1a: Rillaboom
+|move|p1b: Electabuzz|Electroweb|p2a: Indeedee|[spread] p2a
+|-immune|p2b: Ursaluna
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-heal|p1b: Electabuzz|20/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757728085
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|switch|p1a: Basculegion|Basculegion, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|4
+|
+|t:|1757728097
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Torkoal|Heat Wave|p1b: Electabuzz|[spread] p1a,p1b
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|80/100
+|-damage|p1b: Electabuzz|2/100
+|move|p2b: Ursaluna|Blood Moon|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|move|p1b: Electabuzz|Electroweb|p2b: Ursaluna|[spread] p2a
+|-immune|p2b: Ursaluna
+|-damage|p2a: Torkoal|82/100
+|-unboost|p2a: Torkoal|spe|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Torkoal|88/100|[from] Grassy Terrain
+|-heal|p1b: Electabuzz|8/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757728106
+|switch|p1a: Basculegion|Basculegion, L50, M, shiny|100/100
+|turn|5
+|
+|t:|1757728115
+|move|p1b: Electabuzz|Protect|p1b: Electabuzz
+|-singleturn|p1b: Electabuzz|Protect
+|move|p2a: Torkoal|Heat Wave|p1a: Basculegion|[spread] p1a
+|-activate|p1b: Electabuzz|move: Protect
+|-resisted|p1a: Basculegion
+|-damage|p1a: Basculegion|88/100
+|move|p2b: Ursaluna|Hyper Voice|p1b: Electabuzz|[spread] p1a
+|-activate|p1b: Electabuzz|move: Protect
+|-damage|p1a: Basculegion|42/100
+|move|p1a: Basculegion|Wave Crash|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|-damage|p1a: Basculegion|15/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Electabuzz|14/100|[from] Grassy Terrain
+|-heal|p1a: Basculegion|22/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1757728121
+|move|p1b: Electabuzz|Follow Me|p1b: Electabuzz
+|-singleturn|p1b: Electabuzz|move: Follow Me
+|move|p1a: Basculegion|Wave Crash|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|-damage|p1a: Basculegion|0 fnt|[from] Recoil
+|faint|p1a: Basculegion
+|
+|win|markingdra
+||markingdra is ready for game 3.

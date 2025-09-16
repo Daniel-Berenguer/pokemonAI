@@ -1,0 +1,143 @@
+|j|☆ShdaowForece
+|j|☆Beeetch
+|html|ShdaowForeceBeeetch    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756926872
+|gametype|doubles
+|player|p1|ShdaowForece|lucas|1149
+|player|p2|Beeetch|beauty-gen4dp|1291
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Corviknight, L50, F|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|showteam|p1|Kingambit||SafetyGoggles|Defiant|KowtowCleave,SwordsDance,SuckerPunch,Protect|||F|||50|,,,,,Dark]Volcarona||Leftovers|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||M|||50|,,,,,Fairy]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Coaching|||F|||50|,,,,,Dark]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy]Incineroar||AssaultVest|Intimidate|FlareBlitz,KnockOff,FakeOut,Uturn|||F|||50|,,,,,Grass]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic
+|showteam|p2|Excadrill||FocusSash|SandRush|IronHead,HighHorsepower,Earthquake,Protect|||F|||50|,,,,,Stellar]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||F|||50|,,,,,Flying]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Protect,Trick|||M|||50|,,,,,Psychic]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Roost,Tailwind|||F|||50|,,,,,Dragon]Annihilape||SafetyGoggles|Defiant|CloseCombat,FinalGambit,RageFist,Taunt|||M|||50|,,,,,Water
+|
+|t:|1756926899
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756926933
+|-terastallize|p1b: Indeedee|Psychic
+|-terastallize|p2a: Annihilape|Water
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1a: Sneasler|Close Combat|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Protect
+|move|p1b: Indeedee|Expanding Force|p2a: Annihilape|[spread] p2a
+|-activate|p2b: Sneasler|move: Protect
+|-damage|p2a: Annihilape|25/100
+|move|p2a: Annihilape|Close Combat|p1b: Indeedee
+|-resisted|p1b: Indeedee
+|-damage|p1b: Indeedee|52/100
+|-unboost|p2a: Annihilape|def|1
+|-unboost|p2a: Annihilape|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1756926958
+|switch|p2b: Indeedee|Indeedee, L50, M, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Annihilape|atk|1
+|-ability|p2a: Annihilape|Defiant|boost
+|-boost|p2a: Annihilape|atk|2
+|-unboost|p2b: Indeedee|atk|1
+|switch|p2a: Tyranitar|Tyranitar, L50, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Sneasler|Dire Claw|p2a: Tyranitar
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|81/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneasler|95/100|[from] Sandstorm
+|-damage|p2b: Indeedee|95/100|[from] Sandstorm
+|-damage|p1b: Incineroar|95/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1756926994
+|move|p1a: Sneasler|Close Combat|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Tyranitar
+|move|p2b: Indeedee|Expanding Force|p1b: Incineroar|[spread] p1a
+|-immune|p1b: Incineroar
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|move|p1b: Incineroar|U-turn|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|8/100
+|
+|t:|1756927013
+|switch|p1b: Indeedee|Indeedee, L50, M, tera:Psychic|52/100|[from] U-turn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Indeedee|46/100|[from] Sandstorm
+|-damage|p2b: Indeedee|2/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756927022
+|switch|p1a: Volcarona|Volcarona, L50, M, shiny|100/100
+|switch|p2a: Annihilape|Annihilape, L50, M, tera:Water|25/100
+|turn|4
+|
+|t:|1756927050
+|move|p1b: Indeedee|Expanding Force|p2b: Indeedee|[spread] p2a,p2b
+|-resisted|p2b: Indeedee
+|-damage|p2a: Annihilape|0 fnt
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2a: Annihilape
+|faint|p2b: Indeedee
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Indeedee|40/100|[from] Sandstorm
+|-damage|p1a: Volcarona|94/100|[from] Sandstorm
+|-heal|p1a: Volcarona|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756927054
+|switch|p2b: Sneasler|Sneasler, L50, F, shiny|100/100
+|turn|5
+|
+|t:|1756927066
+|move|p1b: Indeedee|Expanding Force|p2b: Sneasler
+|-supereffective|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|win|ShdaowForece

@@ -1,0 +1,226 @@
+|j|☆Testbericht2
+|j|☆sandy ghost 5
+|html|Testbericht2sandy ghost 5    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757073954
+|gametype|doubles
+|player|p1|Testbericht2|170|1324
+|player|p2|sandy ghost 5|baker|1306
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Maushold, L50|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Salamence, L50, M|
+|poke|p2|Blaziken, L50, M|
+|poke|p2|Bruxish, L50, F|
+|teampreview|4
+|showteam|p1|Maushold||WideLens|Technician|PopulationBomb,FollowMe,Taunt,Protect||||||50|,,,,,Ghost]Pelipper||FocusSash|Drizzle|Hurricane,MuddyWater,Tailwind,Protect|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|DragonPulse,ElectroShot,BodyPress,FlashCannon|||M|||50|,,,,,Bug]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom||||||50|,,,,,Dark]Basculegion||ChoiceBand|SwiftSwim|AquaJet,FlipTurn,LastRespects,WaveCrash|||M|||50|,,,,,Water
+|showteam|p2|Tyranitar||ClearAmulet|SandStream|RockSlide,KnockOff,DragonDance,Protect|||F|||50|,,,,,Grass]Excadrill||AssaultVest|SandRush|Earthquake,IronHead,HighHorsepower,RockSlide|||F|||50|,,,,,Ghost]Sinistcha-Masterpiece||SitrusBerry|Hospitality|ShadowBall,MatchaGotcha,RagePowder,Protect||||||50|,,,,,Dark]Salamence||LifeOrb|Intimidate|DracoMeteor,AirSlash,Protect,Tailwind|||M|||50|,,,,,Ghost]Blaziken||CovertCloak|SpeedBoost|AuraSphere,HeatWave,Coaching,WillOWisp|||M|||50|,,,,,Dragon]Bruxish||ChoiceScarf|Dazzling|PsychicFangs,FlipTurn,WaveCrash,SuperFang|||F|||50|,,,,,Water
+|
+|t:|1757073998
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Maushold|Maushold, L50|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Salamence|Salamence, L50, M|100/100
+|switch|p2b: Blaziken|Blaziken, L50, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Maushold|atk|1
+|-unboost|p1b: Basculegion|atk|1
+|turn|1
+|
+|t:|1757074039
+|switch|p2b: Puppet|Sinistcha-Masterpiece, L50|100/100
+|move|p1a: Maushold|Population Bomb|p2b: Puppet
+|-immune|p2b: Puppet
+|move|p2a: Salamence|Draco Meteor|p1b: Basculegion
+|-damage|p1b: Basculegion|23/100
+|-unboost|p2a: Salamence|spa|2
+|-damage|p2a: Salamence|91/100|[from] item: Life Orb
+|move|p1b: Basculegion|Flip Turn|p2b: Puppet
+|-resisted|p2b: Puppet
+|-damage|p2b: Puppet|86/100
+|
+|t:|1757074053
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100|[from] Flip Turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757074068
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|move|p2b: Puppet|Rage Powder|p2b: Puppet
+|-singleturn|p2b: Puppet|move: Rage Powder
+|move|p1a: Maushold|Population Bomb|p2b: Puppet
+|-immune|p2b: Puppet
+|move|p2a: Salamence|Air Slash|p1b: Archaludon
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|92/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|-damage|p2a: Salamence|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757074085
+|switch|p2a: Blaziken|Blaziken, L50, M|100/100
+|move|p1a: Maushold|Taunt|p2b: Puppet
+|-start|p2b: Puppet|move: Taunt
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Blaziken
+|-damage|p2a: Blaziken|32/100
+|move|p2b: Puppet|Matcha Gotcha|p1b: Archaludon|[spread] p1a,p1b
+|-resisted|p1b: Archaludon
+|-damage|p1a: Maushold|56/100
+|-heal|p2b: Puppet|100/100|[from] drain|[of] p1a: Maushold
+|-damage|p1b: Archaludon|87/100
+|-status|p1b: Archaludon|brn
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Archaludon|81/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1757074107
+|switch|p2a: Salamence|Salamence, L50, M|81/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Maushold|atk|1
+|-unboost|p1b: Archaludon|atk|1
+|move|p1a: Maushold|Population Bomb|p2a: Salamence
+|-damage|p2a: Salamence|73/100
+|-damage|p2a: Salamence|66/100
+|-damage|p2a: Salamence|58/100
+|-damage|p2a: Salamence|51/100
+|-damage|p2a: Salamence|44/100
+|-damage|p2a: Salamence|36/100
+|-damage|p2a: Salamence|29/100
+|-damage|p2a: Salamence|21/100
+|-damage|p2a: Salamence|14/100
+|-damage|p2a: Salamence|6/100
+|-hitcount|p2a: Salamence|10
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Salamence
+|-damage|p2a: Salamence|0 fnt
+|faint|p2a: Salamence
+|move|p2b: Puppet|Matcha Gotcha|p1b: Archaludon|[spread] p1a,p1b
+|-resisted|p1b: Archaludon
+|-damage|p1a: Maushold|11/100
+|-damage|p1b: Archaludon|77/100 brn
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Archaludon|71/100 brn|[from] brn
+|upkeep
+|
+|t:|1757074120
+|switch|p2a: Excadrill|Excadrill, L50, F|100/100
+|turn|5
+|
+|t:|1757074149
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|-terastallize|p2a: Excadrill|Ghost
+|-terastallize|p1b: Archaludon|Bug
+|move|p2a: Excadrill|High Horsepower|p1b: Archaludon
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|62/100 brn
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p1b: Archaludon|Dragon Pulse|p2a: Excadrill
+|-damage|p2a: Excadrill|40/100
+|move|p2b: Puppet|Matcha Gotcha|p1a: Pelipper|[spread] p1a,p1b
+|-resisted|p1b: Archaludon
+|-crit|p1b: Archaludon
+|-damage|p1a: Pelipper|54/100
+|-damage|p1b: Archaludon|48/100 brn
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|
+|-weather|none
+|-damage|p1b: Archaludon|42/100 brn|[from] brn
+|-end|p2b: Puppet|move: Taunt
+|upkeep
+|turn|6
+|
+|t:|1757074172
+|switch|p1a: Maushold|Maushold, L50|11/100
+|move|p2a: Excadrill|Rock Slide|p1a: Maushold|[spread] p1a,p1b
+|-supereffective|p1b: Archaludon
+|-damage|p1a: Maushold|0 fnt
+|-damage|p1b: Archaludon|33/100 brn
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|faint|p1a: Maushold
+|move|p1b: Archaludon|Dragon Pulse|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|move|p2b: Puppet|Matcha Gotcha|p1b: Archaludon
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|19/100 brn
+|
+|-damage|p1b: Archaludon|13/100 brn|[from] brn
+|upkeep
+|
+|t:|1757074187
+|switch|p1a: Pelipper|Pelipper, L50, M|54/100
+|switch|p2a: Blaziken|Blaziken, L50, M|32/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|7
+|
+|t:|1757074198
+|move|p2a: Blaziken|Heat Wave|p1a: Pelipper|[spread] p1a,p1b
+|-resisted|p1a: Pelipper
+|-supereffective|p1b: Archaludon
+|-damage|p1a: Pelipper|41/100
+|-damage|p1b: Archaludon|0 fnt
+|faint|p1b: Archaludon
+|move|p1a: Pelipper|Muddy Water|p2b: Puppet|[spread] p2a,p2b
+|-supereffective|p2a: Blaziken
+|-resisted|p2b: Puppet
+|-damage|p2a: Blaziken|0 fnt
+|-damage|p2b: Puppet|82/100
+|faint|p2a: Blaziken
+|move|p2b: Puppet|Matcha Gotcha|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-heal|p2b: Puppet|98/100|[from] drain|[of] p1a: Pelipper
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757074202
+|switch|p1b: Basculegion|Basculegion, L50, M|23/100
+|turn|8
+|
+|t:|1757074217
+|move|p1b: Basculegion|Last Respects|p2b: Puppet
+|-supereffective|p2b: Puppet
+|-damage|p2b: Puppet|0 fnt
+|faint|p2b: Puppet
+|
+|win|Testbericht2
+||sandy ghost 5 is ready for game 2.
+||Testbericht2 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

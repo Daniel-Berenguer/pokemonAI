@@ -1,0 +1,103 @@
+|j|☆RagingJudge
+|j|☆TheLackluster7
+|html|RagingJudgeTheLackluster7    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1757654915
+|gametype|doubles
+|player|p1|RagingJudge|silver|1100
+|player|p2|TheLackluster7|juggler|1181
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Clefable, L50, F|
+|poke|p1|Hydreigon, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|teampreview|4
+|showteam|p1|Annihilape||SafetyGoggles|Defiant|Protect,BulkUp,DrainPunch,RageFist|||F|||50|,,,,,Water]Whimsicott||FocusSash|Prankster|SunnyDay,Encore,Tailwind,Moonblast|||M|||50|,,,,,Ghost]Garchomp||LifeOrb|RoughSkin|Protect,StompingTantrum,DragonClaw,Earthquake|||M|||50|,,,,,Steel]Clefable||SitrusBerry|Unaware|Protect,FollowMe,MistyTerrain,Moonblast|||F|||50|,,,,,Water]Hydreigon||ChoiceSpecs|Levitate|HeatWave,Snarl,DarkPulse,DracoMeteor|||F|||50|,,,,,Fire]Gholdengo||MetalCoat|GoodasGold|Protect,NastyPlot,ShadowBall,MakeItRain||||||50|,,,,,Steel
+|showteam|p2|Indeedee-F||EjectButton|PsychicSurge|HelpingHand,Psychic,FollowMe,TrickRoom|||F|||50|,,,,,Steel]Armarouge||LifeOrb|FlashFire|ArmorCannon,ExpandingForce,AuraSphere,TrickRoom|||F|||50|,,,,,Grass]Primarina||AssaultVest|LiquidVoice|HyperVoice,Moonblast,FlipTurn,DrainingKiss|||M|||50|,,,,,Fairy]Ursaluna-Bloodmoon||SilkScarf|MindsEye|Protect,BloodMoon,HyperVoice,EarthPower|||M|||50|,,,,,Ghost]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Whimsicott||CovertCloak|Prankster|LightScreen,Tailwind,SunnyDay,EnergyBall|||F|||50|,,,,,Dark
+|
+|t:|1757654937
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1757654944
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: TheLackluster7|move: Tailwind
+|move|p1a: Whimsicott|Moonblast|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-damage|p2a: Indeedee|46/100
+|-enditem|p2a: Indeedee|Eject Button
+|
+|t:|1757654962
+|switch|p2a: Armarouge|Armarouge, L50, F|100/100
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1757654992
+|move|p2b: Whimsicott|Light Screen|p2b: Whimsicott
+|-sidestart|p2: TheLackluster7|move: Light Screen
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: RagingJudge|move: Tailwind
+|move|p1b: Gholdengo|Shadow Ball|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|0 fnt
+|faint|p2a: Armarouge
+|
+|upkeep
+|
+|t:|1757655000
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|3
+|
+|t:|1757655016
+|move|p2a: Sneasler|Close Combat|p1b: Gholdengo
+|-immune|p1b: Gholdengo
+|move|p1a: Whimsicott|Moonblast|p2a: Sneasler
+|-damage|p2a: Sneasler|79/100
+|-unboost|p2a: Sneasler|spa|1
+|move|p2b: Whimsicott|Energy Ball|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|78/100
+|move|p1b: Gholdengo|Make It Rain|p2a: Sneasler|[spread] p2a,p2b
+|-crit|p2a: Sneasler
+|-supereffective|p2b: Whimsicott
+|-damage|p2a: Sneasler|0 fnt
+|-damage|p2b: Whimsicott|0 fnt
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2a: Sneasler
+|faint|p2b: Whimsicott
+|
+|upkeep
+|-message|TheLackluster7 forfeited.
+|
+|win|RagingJudge
+|raw|RagingJudge's rating: 1100 → 1131(+31 for winning)
+|raw|TheLackluster7's rating: 1181 → 1150(-31 for losing)
+|l|☆TheLackluster7
+|player|p2|

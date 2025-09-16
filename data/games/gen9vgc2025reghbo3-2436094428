@@ -1,0 +1,236 @@
+|j|☆Capitan-N
+|j|☆colemarcusvgc
+|html|Capitan-Ncolemarcusvgc    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757122996
+|gametype|doubles
+|player|p1|Capitan-N|n|1075
+|player|p2|colemarcusvgc|n|1129
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Garganacl, L50, F|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Basculegion||ChoiceScarf|Adaptability|LastRespects,WaveCrash,FlipTurn,TeraBlast|||M|||50|,,,,,Dragon]Incineroar||SafetyGoggles|Intimidate|FakeOut,Taunt,KnockOff,Uturn|||M|||50|,,,,,Bug]Garganacl||Leftovers|PurifyingSalt|BodyPress,Recover,IronDefense,SaltCure|||F|||50|,,,,,Ghost]Tyranitar||AssaultVest|SandStream|HighHorsepower,Snarl,Crunch,RockSlide|||F|||50|,,,,,Fairy]Archaludon||PowerHerb|Stamina|BodyPress,ElectroShot,Protect,DracoMeteor|||M|||50|,,,,,Grass]Rillaboom||GrassySeed|GrassySurge|Protect,HighHorsepower,GrassyGlide,Acrobatics|||F|||50|,,,,,Fire
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fire]Hatterene||LifeOrb|MagicBounce|ExpandingForce,TrickRoom,DazzlingGleam,Protect|||F|||50|,,,,,Psychic]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,TrickRoom,WideGuard|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,SwordsDance,Protect|||M|||50|,,,,,Ghost]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,SleepPowder,CloseCombat,AfterYou|||F|||50|,,,,,Ghost]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by colemarcusvgc)
+|
+|t:|1757123011
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Hatterene|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757123026
+|switch|p1a: Rillaboom|Rillaboom, L50, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-enditem|p1a: Rillaboom|Grassy Seed
+|-boost|p1a: Rillaboom|def|1|[from] item: Grassy Seed
+|move|p1b: Incineroar|Fake Out|p2b: Hatterene
+|-damage|p2b: Hatterene|87/100
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|cant|p2b: Hatterene|flinch
+|
+|-heal|p2b: Hatterene|92/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1757123046
+|move|p1a: Rillaboom|Acrobatics|p2b: Hatterene
+|-damage|p2b: Hatterene|51/100
+|move|p1b: Incineroar|Knock Off|p2b: Hatterene
+|-damage|p2b: Hatterene|2/100
+|-enditem|p2b: Hatterene|Life Orb|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|move|p2b: Hatterene|Trick Room|p2b: Hatterene
+|-fieldend|move: Trick Room
+|
+|-heal|p2b: Hatterene|7/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|inactive|Capitan-N has 30 seconds left.
+|
+|t:|1757123077
+|move|p1a: Rillaboom|High Horsepower|p2b: Hatterene
+|-damage|p2b: Hatterene|0 fnt
+|faint|p2b: Hatterene
+|move|p1b: Incineroar|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|61/100
+|
+|t:|1757123086
+|switch|p1b: Tyranitar|Tyranitar, L50, F|100/100|[from] U-turn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Indeedee|55/100|[from] Sandstorm
+|-damage|p1a: Rillaboom|95/100|[from] Sandstorm
+|-heal|p2a: Indeedee|61/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757123096
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|4
+|
+|t:|1757123109
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|-terastallize|p1a: Rillaboom|Fire
+|move|p2b: Torkoal|Earth Power|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar
+|-damage|p1b: Tyranitar|65/100
+|move|p1b: Tyranitar|Snarl|p2a: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Ursaluna|88/100
+|-damage|p2b: Torkoal|81/100
+|-unboost|p2a: Ursaluna|spa|1
+|-unboost|p2b: Torkoal|spa|1
+|move|p1a: Rillaboom|High Horsepower|p2b: Torkoal
+|-supereffective|p2b: Torkoal
+|-damage|p2b: Torkoal|32/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Torkoal|38/100|[from] Grassy Terrain
+|-heal|p2a: Ursaluna|94/100|[from] Grassy Terrain
+|-heal|p1b: Tyranitar|71/100|[from] Grassy Terrain
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|inactive|Capitan-N has 30 seconds left.
+|
+|t:|1757123140
+|switch|p2b: Indeedee|Indeedee-F, L50, F|61/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|move|p1a: Rillaboom|Protect|p1a: Rillaboom
+|-singleturn|p1a: Rillaboom|Protect
+|move|p2a: Ursaluna|Facade|p1b: Incineroar
+|-damage|p1b: Incineroar|18/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|88/100 brn|[from] brn
+|upkeep
+|turn|6
+|inactive|Capitan-N has 30 seconds left.
+|inactive|colemarcusvgc has 30 seconds left.
+|
+|t:|1757123175
+|switch|p1a: Tyranitar|Tyranitar, L50, F|71/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Ursaluna|Headlong Rush|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Tyranitar
+|move|p1b: Incineroar|U-turn|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|16/100
+|
+|t:|1757123189
+|switch|p1b: Rillaboom|Rillaboom, L50, F, shiny, tera:Fire|100/100|[from] U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Indeedee|10/100|[from] Sandstorm
+|-damage|p1b: Rillaboom|95/100|[from] Sandstorm
+|-heal|p2a: Ursaluna|94/100 brn|[from] Grassy Terrain
+|-heal|p2b: Indeedee|16/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|100/100|[from] Grassy Terrain
+|-damage|p2a: Ursaluna|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1757123198
+|switch|p1a: Incineroar|Incineroar, L50, M|18/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|turn|7
+|
+|t:|1757123215
+|switch|p2b: Torkoal|Torkoal, L50, M|38/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1b: Rillaboom|Grassy Glide|p2b: Torkoal
+|-resisted|p2b: Torkoal
+|-damage|p2b: Torkoal|24/100
+|move|p1a: Incineroar|Knock Off|p2b: Torkoal
+|-damage|p2b: Torkoal|0 fnt
+|-enditem|p2b: Torkoal|Choice Specs|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ursaluna|94/100 brn|[from] Grassy Terrain
+|-heal|p1a: Incineroar|24/100|[from] Grassy Terrain
+|-damage|p2a: Ursaluna|88/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1757123232
+|switch|p2b: Indeedee|Indeedee-F, L50, F|16/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|8
+|
+|t:|1757123242
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|move|p1a: Incineroar|U-turn|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|t:|1757123265
+|switch|p1a: Rillaboom|Rillaboom, L50, F, shiny, tera:Fire|100/100|[from] U-turn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Ursaluna|Swords Dance|p2a: Ursaluna
+|-boost|p2a: Ursaluna|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ursaluna|94/100 brn|[from] Grassy Terrain
+|-damage|p2a: Ursaluna|88/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1757123286
+|-terastallize|p2a: Ursaluna|Ghost
+|move|p1a: Rillaboom|Grassy Glide|p2a: Ursaluna
+|-damage|p2a: Ursaluna|48/100 brn
+|move|p1b: Basculegion|Last Respects|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|win|Capitan-N

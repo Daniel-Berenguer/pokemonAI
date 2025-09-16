@@ -1,0 +1,182 @@
+|j|☆WaluigiVGC
+|j|☆merrypasta
+|html|WaluigiVGCmerrypasta    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757022516
+|gametype|doubles
+|player|p1|WaluigiVGC|169|1170
+|player|p2|merrypasta|carmine|1232
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Tatsugiri, L50, F|
+|poke|p1|Dondozo, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,HelpingHand,Protect|||M|||50|,,,,,Psychic]Whimsicott||CovertCloak|Prankster|Moonblast,Tailwind,HelpingHand,LightScreen|||M|||50|,,,,,Poison]Ursaluna-Bloodmoon||SilkScarf|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Tatsugiri||SafetyGoggles|Commander|DracoMeteor,MuddyWater,HelpingHand,Protect|||F|||50|,,,,,Normal]Dondozo||Leftovers|Unaware|WaveCrash,Earthquake,OrderUp,Protect|||M|||50|,,,,,Grass
+|showteam|p2|Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,MysticalFire,TrickRoom|||F|||50|,,,,,Fire]Indeedee-F||SafetyGoggles|PsychicSurge|Psychic,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Fairy]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Protect,Earthquake|||M|||50|,,,,,Ghost]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,Protect,ThroatChop|||F|||50|,,,,,Dark]Typhlosion-Hisui||ChoiceScarf|Blaze|Eruption,HeatWave,ShadowBall,Extrasensory|||M|||50|,,,,,Fire]Torkoal||EjectPack|Drought|Eruption,Overheat,Protect,HelpingHand|||M|||50|,,,,,Fire
+|
+|t:|1757022555
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, M, shiny|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757022596
+|-terastallize|p1b: Indeedee|Psychic
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Sneasler|Dire Claw|p2a: Indeedee
+|-damage|p2a: Indeedee|58/100
+|-status|p2a: Indeedee|slp
+|move|p1b: Indeedee|Expanding Force|p2b: Hatterene|[spread] p2a,p2b
+|-resisted|p2a: Indeedee
+|-resisted|p2b: Hatterene
+|-damage|p2a: Indeedee|23/100 slp
+|-damage|p2b: Hatterene|64/100
+|move|p2b: Hatterene|Trick Room|p2b: Hatterene
+|-fieldstart|move: Trick Room|[of] p2b: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1757022616
+|cant|p2a: Indeedee|slp
+|move|p1b: Indeedee|Protect|p1b: Indeedee
+|-singleturn|p1b: Indeedee|Protect
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p2b: Hatterene|Expanding Force|p1a: Sneasler|[spread] 
+|-activate|p1a: Sneasler|move: Protect
+|-activate|p1b: Indeedee|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1757022629
+|switch|p1b: Tatsugiri|Tatsugiri, L50, F|100/100
+|switch|p1a: Dondozo|Dondozo, L50, M|100/100
+|-activate|p1b: Tatsugiri|ability: Commander|[of] p1a: Dondozo
+|-boost|p1a: Dondozo|atk|2
+|-boost|p1a: Dondozo|spa|2
+|-boost|p1a: Dondozo|spe|2
+|-boost|p1a: Dondozo|def|2
+|-boost|p1a: Dondozo|spd|2
+|cant|p2a: Indeedee|slp
+|move|p2b: Hatterene|Expanding Force|p1b: Tatsugiri|[spread] p1a
+|-miss|p2b: Hatterene|p1b: Tatsugiri
+|-damage|p1a: Dondozo|56/100
+|-damage|p2b: Hatterene|54/100|[from] item: Life Orb
+|
+|-heal|p1a: Dondozo|62/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1757022656
+|-curestatus|p2a: Indeedee|slp|[msg]
+|move|p2a: Indeedee|Helping Hand|p2b: Hatterene
+|-singleturn|p2b: Hatterene|Helping Hand|[of] p2a: Indeedee
+|move|p2b: Hatterene|Expanding Force|p1b: Tatsugiri|[spread] p1a
+|-miss|p2b: Hatterene|p1b: Tatsugiri
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|-damage|p2b: Hatterene|44/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757022676
+|switch|p1a: Indeedee|Indeedee, L50, M, tera:Psychic|100/100
+|turn|5
+|
+|t:|1757022693
+|move|p1b: Tatsugiri|Helping Hand|p1a: Indeedee
+|-singleturn|p1a: Indeedee|Helping Hand|[of] p1b: Tatsugiri
+|move|p1a: Indeedee|Expanding Force|p2b: Hatterene|[spread] p2a,p2b
+|-resisted|p2a: Indeedee
+|-resisted|p2b: Hatterene
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Hatterene|0 fnt
+|faint|p2a: Indeedee
+|faint|p2b: Hatterene
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1757022697
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|6
+|c|☆merrypasta|you knew
+|c|☆merrypasta|lol
+|c|☆merrypasta|most people don't see double trick room coming
+|
+|t:|1757022732
+|-terastallize|p2a: Ursaluna|Ghost
+|move|p1b: Tatsugiri|Helping Hand|p1a: Indeedee
+|-singleturn|p1a: Indeedee|Helping Hand|[of] p1b: Tatsugiri
+|move|p2b: Torkoal|Protect|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Protect
+|move|p1a: Indeedee|Expanding Force|p2b: Torkoal
+|-activate|p2b: Torkoal|move: Protect
+|move|p2a: Ursaluna|Earthquake|p1b: Tatsugiri|[spread] p1a,p1b
+|-activate|p2b: Torkoal|move: Protect
+|-damage|p1a: Indeedee|6/100
+|-damage|p1b: Tatsugiri|21/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|t:|1757022781
+|move|p1a: Indeedee|Tera Blast|p2b: Torkoal|[anim] Tera Blast Psychic
+|-damage|p2b: Torkoal|41/100
+|move|p1b: Tatsugiri|Draco Meteor|p2b: Torkoal
+|-damage|p2b: Torkoal|0 fnt
+|-unboost|p1b: Tatsugiri|spa|2
+|faint|p2b: Torkoal
+|move|p2a: Ursaluna|Facade|p1b: Tatsugiri
+|-damage|p1b: Tatsugiri|0 fnt
+|faint|p1b: Tatsugiri
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1757022796
+|switch|p1b: Sneasler|Sneasler, L50, M, shiny|100/100
+|turn|8
+|
+|t:|1757022819
+|move|p1b: Sneasler|Throat Chop|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|52/100 brn
+|-start|p2a: Ursaluna|Throat Chop|[silent]
+|move|p1a: Indeedee|Expanding Force|p2a: Ursaluna
+|-crit|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|win|WaluigiVGC
+||merrypasta is ready for game 2.

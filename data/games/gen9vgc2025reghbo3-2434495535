@@ -1,0 +1,96 @@
+|j|☆Njstinks
+|j|☆FakeOutPlot
+|html|NjstinksFakeOutPlot    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756920154
+|gametype|doubles
+|player|p1|Njstinks|170|1342
+|player|p2|FakeOutPlot|iris|1442
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Dondozo, L50, F|
+|poke|p1|Tatsugiri, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Clefable, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,Protect,ThroatChop|||F|||50|,,,,,Dark]Dondozo||Leftovers|Unaware|WaveCrash,HeavySlam,OrderUp,Protect|||F|||50|,,,,,Grass]Tatsugiri||FocusSash|Commander|DracoMeteor,MuddyWater,IcyWind,Protect|||M|||50|,,,,,Stellar]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,ShadowBall,Trick,Protect|||M|||50|,,,,,Psychic]Excadrill||ClearAmulet|SandRush|Earthquake,IronHead,HighHorsepower,Protect|||M|||50|,,,,,Ground]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||F|||50|,,,,,Flying
+|showteam|p2|Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|PartingShot,FlareBlitz,KnockOff,FakeOut|||M|||50|,,,,,Ghost]Sneasler||FocusSash|PoisonTouch|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Stellar]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||F|||50|,,,,,Steel]Ursaluna-Bloodmoon||AssaultVest|MindsEye|HyperVoice,EarthPower,BloodMoon,VacuumWave|||M|||50|,,,,,Water]Clefable||SitrusBerry|Unaware|FollowMe,Moonblast,ThunderWave,Protect|||M|||50|,,,,,Water
+|
+|t:|1756920183
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Excadrill|Excadrill, L50, M|100/100
+|switch|p1b: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|1
+|
+|t:|1756920206
+|-terastallize|p1b: Tyranitar|Flying
+|move|p1a: Excadrill|Earthquake|p2b: Sneasler|[spread] p2a,p2b
+|-immune|p1b: Tyranitar
+|-crit|p2a: Ursaluna
+|-supereffective|p2b: Sneasler
+|-damage|p2a: Ursaluna|54/100
+|-enditem|p2b: Sneasler|Focus Sash
+|-damage|p2b: Sneasler|1/100
+|move|p2b: Sneasler|Dire Claw|p1b: Tyranitar
+|-damage|p1b: Tyranitar|62/100
+|-status|p1b: Tyranitar|psn
+|move|p1b: Tyranitar|Knock Off|p2a: Ursaluna
+|-crit|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-enditem|p2a: Ursaluna|Assault Vest|[from] move: Knock Off|[of] p1b: Tyranitar
+|faint|p2a: Ursaluna
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sneasler|0 fnt|[from] Sandstorm
+|-damage|p1b: Tyranitar|56/100 psn|[from] Sandstorm
+|faint|p2b: Sneasler
+|-damage|p1b: Tyranitar|43/100 psn|[from] psn
+|upkeep
+|
+|t:|1756920210
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Dragonite|Dragonite, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Excadrill|unboost|[from] item: Clear Amulet|[of] p1a: Excadrill
+|-unboost|p1b: Tyranitar|atk|1
+|turn|2
+|
+|t:|1756920225
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p1a: Excadrill|High Horsepower|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Dragonite|Scale Shot|p1b: Indeedee|[miss]
+|-miss|p2a: Dragonite|p1b: Indeedee
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Indeedee|95/100|[from] Sandstorm
+|-damage|p2a: Dragonite|95/100|[from] Sandstorm
+|upkeep
+|turn|3
+|-message|FakeOutPlot forfeited.
+|
+|win|Njstinks
+|raw|Njstinks's rating: 1342 → 1368(+26 for winning)
+|raw|FakeOutPlot's rating: 1442 → 1416(-26 for losing)
+|l|☆FakeOutPlot
+|player|p2|

@@ -1,0 +1,296 @@
+|j|☆dangro92
+|j|☆ddx9000
+|html|dangro92ddx9000    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756948390
+|gametype|doubles
+|player|p1|dangro92|blue|1182
+|player|p2|ddx9000|1|1131
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Hydreigon, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Gholdengo||Leftovers|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Sneasler||GrassySeed|Unburden|CloseCombat,DireClaw,Taunt,Protect|||F|||50|,,,,,Stellar]Ursaluna-Bloodmoon||LifeOrb|MindsEye|EarthPower,HyperVoice,BloodMoon,Protect|||M|||50|,,,,,Normal]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Ground]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||F|||50|,,,,,Fire
+|showteam|p2|Incineroar||AssaultVest|Intimidate|FakeOut,Uturn,FlareBlitz,KnockOff|||M|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Amoonguss||RockyHelmet|Regenerator|Spore,ClearSmog,RagePowder,PollenPuff|||F|||50|,,,,,Water]Hydreigon||SafetyGoggles|Levitate|Tailwind,Snarl,Protect,DracoMeteor|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Protect,HeadlongRush,Earthquake,Facade|||M|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|Protect,NastyPlot,MakeItRain,ShadowBall||||||50|,,,,,Water
+|
+|t:|1756948449
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p1b: Porygon2|Porygon2, L50, shiny|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Porygon2|atk|1
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|atk|1
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Gholdengo|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|turn|1
+|
+|t:|1756948481
+|-terastallize|p2a: Gholdengo|Water
+|move|p2b: Incineroar|Fake Out|p1b: Porygon2
+|-damage|p1b: Porygon2|94/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|cant|p1b: Porygon2|flinch
+|move|p1a: Incineroar|Knock Off|p2a: Gholdengo
+|-damage|p2a: Gholdengo|75/100
+|-enditem|p2a: Gholdengo|Life Orb|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|turn|2
+|
+|t:|1756948501
+|move|p2a: Gholdengo|Make It Rain|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|60/100
+|-damage|p1b: Porygon2|50/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p2b: Incineroar|Knock Off|p1b: Porygon2
+|-damage|p1b: Porygon2|32/100
+|-enditem|p1b: Porygon2|Eviolite|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1a: Incineroar|Parting Shot|p2b: Incineroar
+|-unboost|p2b: Incineroar|atk|1
+|-unboost|p2b: Incineroar|spa|1
+|
+|t:|1756948512
+|switch|p1a: Rillaboom|Rillaboom, L50, F, shiny|100/100|[from] Parting Shot
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p1b: Porygon2|Trick Room|p1b: Porygon2
+|-fieldstart|move: Trick Room|[of] p1b: Porygon2
+|
+|-heal|p1b: Porygon2|38/100|[from] Grassy Terrain
+|-heal|p2a: Gholdengo|80/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756948532
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1b: Porygon2|Recover|p1b: Porygon2
+|-heal|p1b: Porygon2|88/100
+|move|p2b: Incineroar|U-turn|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|79/100
+|
+|t:|1756948539
+|switch|p2b: Hydreigon|Hydreigon, L50, M|100/100|[from] U-turn
+|move|p1a: Rillaboom|High Horsepower|p2b: Hydreigon
+|-immune|p2b: Hydreigon|[from] ability: Levitate
+|
+|-heal|p1b: Porygon2|94/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|85/100|[from] Grassy Terrain
+|-heal|p2a: Gholdengo|86/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756948562
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Porygon2|atk|1
+|move|p2b: Hydreigon|Protect|p2b: Hydreigon
+|-singleturn|p2b: Hydreigon|Protect
+|move|p1b: Porygon2|Ice Beam|p2b: Hydreigon
+|-activate|p2b: Hydreigon|move: Protect
+|move|p1a: Rillaboom|Wood Hammer|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|72/100
+|-damage|p1a: Rillaboom|76/100|[from] Recoil
+|
+|-heal|p1b: Porygon2|100/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|78/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|82/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756948586
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|60/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Hydreigon|atk|1
+|switch|p2b: Gholdengo|Gholdengo, L50, tera:Water|86/100
+|move|p1b: Porygon2|Ice Beam|p2b: Gholdengo
+|-resisted|p2b: Gholdengo
+|-crit|p2b: Gholdengo
+|-damage|p2b: Gholdengo|69/100
+|move|p2a: Incineroar|Flare Blitz|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|48/100
+|-damage|p2a: Incineroar|73/100|[from] Recoil
+|
+|-heal|p1a: Incineroar|53/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|79/100|[from] Grassy Terrain
+|-heal|p2b: Gholdengo|75/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756948615
+|move|p1a: Incineroar|Fake Out|p2a: Incineroar
+|-damage|p2a: Incineroar|68/100
+|move|p1b: Porygon2|Tera Blast|p2a: Incineroar
+|-damage|p2a: Incineroar|49/100
+|cant|p2a: Incineroar|flinch
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|
+|-heal|p1a: Incineroar|59/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|55/100|[from] Grassy Terrain
+|-heal|p2b: Gholdengo|80/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1756948669
+|move|p2b: Gholdengo|Make It Rain|p1b: Porygon2|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|17/100
+|-damage|p1b: Porygon2|32/100
+|-unboost|p2b: Gholdengo|spa|1
+|move|p2a: Incineroar|Flare Blitz|p1b: Porygon2
+|-damage|p1b: Porygon2|0 fnt
+|faint|p1b: Porygon2
+|-damage|p2a: Incineroar|44/100|[from] Recoil
+|move|p1a: Incineroar|Parting Shot|p2a: Incineroar
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2a: Incineroar|spa|1
+|
+|t:|1756948683
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100|[from] Parting Shot
+|
+|upkeep
+|
+|t:|1756948687
+|switch|p1b: Rillaboom|Rillaboom, L50, F, shiny|82/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-enditem|p1a: Sneasler|Grassy Seed
+|-boost|p1a: Sneasler|def|1|[from] item: Grassy Seed
+|turn|8
+|
+|t:|1756948713
+|switch|p2a: Hydreigon|Hydreigon, L50, M|100/100
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1b: Rillaboom|Fake Out|p2b: Gholdengo
+|-activate|p2b: Gholdengo|move: Protect
+|move|p1a: Sneasler|Close Combat|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Hydreigon
+|
+|-heal|p2b: Gholdengo|86/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|88/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756948722
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|44/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|turn|9
+|
+|t:|1756948731
+|-terastallize|p1b: Rillaboom|Fire
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Rillaboom
+|-damage|p1b: Rillaboom|77/100
+|move|p2b: Gholdengo|Make It Rain|p1a: Sneasler|[spread] p1b
+|-activate|p1a: Sneasler|move: Protect
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|53/100
+|-unboost|p2b: Gholdengo|spa|1
+|cant|p1b: Rillaboom|flinch
+|
+|-heal|p2b: Gholdengo|92/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|59/100|[from] Grassy Terrain
+|-heal|p2a: Incineroar|50/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1756948748
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1a: Sneasler|Close Combat|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|40/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|move|p1b: Rillaboom|Wood Hammer|p2b: Gholdengo
+|-activate|p2b: Gholdengo|move: Protect
+|
+|-heal|p2b: Gholdengo|98/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|65/100|[from] Grassy Terrain
+|-heal|p2a: Ursaluna|46/100|[from] Grassy Terrain
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|11
+|
+|t:|1756948775
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|50/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Sneasler|Close Combat|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|move|p1b: Rillaboom|High Horsepower|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|
+|-heal|p1b: Rillaboom|70/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|56/100|[from] Grassy Terrain
+|-heal|p2a: Ursaluna|52/100 brn|[from] Grassy Terrain
+|-damage|p2a: Ursaluna|46/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1756948812
+|move|p2b: Incineroar|Fake Out|p1b: Rillaboom
+|-damage|p1b: Rillaboom|58/100
+|cant|p1b: Rillaboom|flinch
+|move|p1a: Sneasler|Close Combat|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|1/100 brn
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|move|p2a: Ursaluna|Facade|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|
+|-heal|p2b: Incineroar|62/100|[from] Grassy Terrain
+|-heal|p2a: Ursaluna|7/100 brn|[from] Grassy Terrain
+|-damage|p2a: Ursaluna|1/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|-message|dangro92 forfeited.
+|
+|win|ddx9000
+|raw|dangro92's rating: 1182 → 1153(-29 for losing)
+|raw|ddx9000's rating: 1131 → 1160(+29 for winning)
+|l|☆dangro92
+|player|p1|

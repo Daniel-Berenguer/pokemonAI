@@ -1,0 +1,106 @@
+|j|☆Elokyyy
+|j|☆Quill86
+|html|ElokyyyQuill86    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757819519
+|gametype|doubles
+|player|p1|Elokyyy|steven|1065
+|player|p2|Quill86|lucas|1194
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Electabuzz, L50, F|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Kingambit, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,Coaching,FakeOut|||F|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,FollowMe,Taunt,Protect|||F|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||F|||50|,,,,,Fairy]Volcarona||Leftovers|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||F|||50|,,,,,Fairy]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Dark
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Gholdengo||SitrusBerry|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,TrickRoom,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Torkoal||Leftovers|Drought|Eruption,WeatherBall,Yawn,Protect|||M|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Quill86)
+|
+|t:|1757819536
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Electabuzz|Electabuzz, L50, F|100/100
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757819548
+|-terastallize|p2a: Indeedee|Fairy
+|move|p1a: Electabuzz|Taunt|p2b: Gallade
+|-start|p2b: Gallade|move: Taunt
+|move|p2b: Gallade|Psycho Cut|p1a: Electabuzz
+|-damage|p1a: Electabuzz|19/100
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Indeedee
+|-resisted|p2a: Indeedee
+|-damage|p2a: Indeedee|73/100
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1757819563
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Electabuzz|Follow Me|p1a: Electabuzz
+|-singleturn|p1a: Electabuzz|move: Follow Me
+|move|p1b: Kingambit|Kowtow Cleave|p2b: Gallade
+|-damage|p2b: Gallade|18/100
+|move|p2b: Gallade|Psycho Cut|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757819574
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|3
+|
+|t:|1757819581
+|switch|p2b: Indeedee|Indeedee-F, L50, F, tera:Fairy|73/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|move|p1b: Kingambit|Sucker Punch||[still]
+|-fail|p1b: Kingambit
+|move|p2a: Torkoal|Eruption|p1b: Kingambit|[spread] p1a,p1b
+|-supereffective|p1a: Rillaboom
+|-supereffective|p1b: Kingambit
+|-damage|p1a: Rillaboom|22/100
+|-damage|p1b: Kingambit|0 fnt
+|faint|p1b: Kingambit
+|move|p1a: Rillaboom|High Horsepower|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Torkoal|62/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757819584
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|turn|4
+|-message|Elokyyy forfeited.
+|
+|win|Quill86
+|l|☆Elokyyy
+|player|p1|
+||Elokyyy is ready for game 3.

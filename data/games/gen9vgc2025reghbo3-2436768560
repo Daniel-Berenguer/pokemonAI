@@ -1,0 +1,162 @@
+|j|☆That_Leek
+|j|☆CretaceousDraconid
+|html|That_LeekCretaceousDraconid    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757224941
+|gametype|doubles
+|player|p1|That_Leek|blue-masters|1188
+|player|p2|CretaceousDraconid|zinnia-masters|1120
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Kommo-o, L50, F|
+|poke|p2|Kilowattrel, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Dragonite||LoadedDice|Multiscale|Tailwind,StompingTantrum,ScaleShot,Protect|||M|||50|,,,,,Fairy]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||F|||50|,,,,,Fairy]Ursaluna-Bloodmoon||AssaultVest|MindsEye|VacuumWave,BloodMoon,HyperVoice,EarthPower|||M|||50|,,,,,Ghost]Gallade||FocusSash|Sharpness|TrickRoom,SacredSword,WideGuard,PsychoCut|||M|||50|,,,,,Fairy
+|showteam|p2|Tyranitar||AssaultVest|SandStream|KnockOff,RockSlide,LowKick,TeraBlast|||F|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|Earthquake,HighHorsepower,IronHead,Protect|||M|||50|,,,,,Ground]Kommo-o||ThroatSpray|Overcoat|ClangingScales,AuraSphere,ClangorousSoul,Protect|||F|||50|,,,,,Steel]Kilowattrel||ChoiceSpecs|Competitive|Thunderbolt,AirSlash,VoltSwitch,Discharge|||F|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Ghost
+|
+|t:|1757224962
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gallade|Gallade, L50, M|100/100
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|switch|p2a: Kilowattrel|Kilowattrel, L50, F|100/100
+|switch|p2b: Excadrill|Excadrill, L50, M|100/100
+|turn|1
+|
+|t:|1757224989
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|move|p2a: Kilowattrel|Discharge|p1a: Ursaluna|[spread] p1b
+|-immune|p2b: Excadrill
+|-immune|p1a: Ursaluna
+|-damage|p1b: Dragonite|81/100
+|-status|p1b: Dragonite|par
+|move|p2b: Excadrill|Iron Head|p1b: Dragonite
+|-damage|p1b: Dragonite|29/100 par
+|cant|p1b: Dragonite|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1757225008
+|switch|p2a: Amoonguss|Amoonguss, L50, M|100/100
+|move|p1b: Dragonite|Protect|p1b: Dragonite
+|-singleturn|p1b: Dragonite|Protect
+|move|p2b: Excadrill|Iron Head|p1b: Dragonite
+|-activate|p1b: Dragonite|move: Protect
+|move|p1a: Ursaluna|Earth Power|p2b: Excadrill
+|-supereffective|p2b: Excadrill
+|-enditem|p2b: Excadrill|Focus Sash
+|-damage|p2b: Excadrill|1/100
+|
+|upkeep
+|turn|3
+|
+|t:|1757225023
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Amoonguss|atk|1
+|-unboost|p2b: Excadrill|atk|1
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p2b: Excadrill|Iron Head|p1b: Dragonite
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1b: Dragonite
+|
+|upkeep
+|
+|t:|1757225029
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|turn|4
+|
+|t:|1757225048
+|-terastallize|p2a: Amoonguss|Water
+|move|p2b: Excadrill|Protect|p2b: Excadrill
+|-singleturn|p2b: Excadrill|Protect
+|move|p1b: Gallade|Psycho Cut|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|33/100
+|-enditem|p2a: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2a: Amoonguss|58/100|[from] item: Sitrus Berry
+|move|p1a: Incineroar|Knock Off|p2a: Amoonguss
+|-damage|p2a: Amoonguss|31/100
+|move|p2a: Amoonguss|Spore|p1b: Gallade
+|-status|p1b: Gallade|slp|[from] move: Spore
+|
+|upkeep
+|turn|5
+|
+|t:|1757225076
+|switch|p2a: Kommo-o|Kommo-o, L50, F|100/100
+|-terastallize|p1a: Incineroar|Water
+|move|p2b: Excadrill|High Horsepower|p1a: Incineroar
+|-damage|p1a: Incineroar|64/100
+|cant|p1b: Gallade|slp
+|move|p1a: Incineroar|Parting Shot|p2b: Excadrill
+|-unboost|p2b: Excadrill|atk|1
+|-unboost|p2b: Excadrill|spa|1
+|
+|t:|1757225080
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|6
+|
+|t:|1757225093
+|move|p2b: Excadrill|Iron Head|p1b: Gallade
+|-damage|p1b: Gallade|60/100 slp
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|68/100
+|-enditem|p2a: Kommo-o|Throat Spray
+|-boost|p2a: Kommo-o|spa|1|[from] item: Throat Spray
+|-curestatus|p1b: Gallade|slp|[msg]
+|move|p1b: Gallade|Psycho Cut|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|move|p1a: Ursaluna|Hyper Voice|p2b: Excadrill
+|-resisted|p2b: Excadrill
+|-damage|p2b: Excadrill|0 fnt
+|faint|p2b: Excadrill
+|
+|upkeep
+|
+|t:|1757225098
+|switch|p2b: Amoonguss|Amoonguss, L50, M, tera:Water|64/100
+|switch|p2a: Kilowattrel|Kilowattrel, L50, F|100/100
+|turn|7
+|
+|t:|1757225110
+|move|p2a: Kilowattrel|Air Slash|p1a: Ursaluna
+|-damage|p1a: Ursaluna|57/100
+|move|p1b: Gallade|Sacred Sword|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|move|p1a: Ursaluna|Blood Moon|p2a: Kilowattrel
+|-damage|p2a: Kilowattrel|0 fnt
+|faint|p2a: Kilowattrel
+|
+|win|That_Leek
+|raw|That_Leek's rating: 1188 → 1208(+20 for winning)
+|raw|CretaceousDraconid's rating: 1120 → 1100(-20 for losing)
+|l|☆CretaceousDraconid
+|player|p2|

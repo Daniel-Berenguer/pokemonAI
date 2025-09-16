@@ -1,0 +1,109 @@
+|j|☆Welosethose!
+|j|☆ChinoTV
+|html|Welosethose!ChinoTV    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757003795
+|gametype|doubles
+|player|p1|Welosethose!|hilbert|1165
+|player|p2|ChinoTV|red|1199
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Politoed, L50, M|
+|poke|p2|Kingdra, L50, M|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Archaludon, L50, M|
+|teampreview|4
+|showteam|p1|Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Protect|||M|||50|,,,,,Ghost]Sneasler||FocusSash|Unburden|FakeOut,CloseCombat,DireClaw,Protect|||F|||50|,,,,,Stellar]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||F|||50|,,,,,Flying]Annihilape||Leftovers|Defiant|RageFist,DrainPunch,BulkUp,Protect|||M|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||M|||50|,,,,,Fairy
+|showteam|p2|Politoed||Leftovers|Drizzle|Protect,PerishSong,WeatherBall,Encore|||M|||50|,,,,,Grass]Kingdra||LifeOrb|SwiftSwim|Protect,DracoMeteor,WeatherBall,MuddyWater|||M|||50|,,,,,Stellar]Gothitelle||SitrusBerry|ShadowTag|FakeOut,TrickRoom,Psychic,Protect|||F|||50|,,,,,Dark]Amoonguss||EjectButton|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,Protect,PartingShot|||F|||50|,,,,,Ghost]Archaludon||PowerHerb|Sturdy|ElectroShot,Protect,DragonPulse,FlashCannon|||M|||50|,,,,,Electric
+|
+|t:|1757003866
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|switch|p2a: Gothitelle|Gothitelle, L50, F|100/100
+|switch|p2b: Kingdra|Kingdra, L50, M|100/100
+|turn|1
+|
+|t:|1757003899
+|-terastallize|p1a: Dragonite|Fairy
+|move|p2a: Gothitelle|Fake Out|p1a: Dragonite
+|-damage|p1a: Dragonite|98/100
+|move|p1b: Annihilape|Bulk Up|p1b: Annihilape
+|-boost|p1b: Annihilape|atk|1
+|-boost|p1b: Annihilape|def|1
+|move|p2b: Kingdra|Muddy Water|p1b: Annihilape|[spread] p1a,p1b
+|-damage|p1a: Dragonite|50/100
+|-damage|p1b: Annihilape|64/100
+|-damage|p2b: Kingdra|91/100|[from] item: Life Orb
+|cant|p1a: Dragonite|flinch
+|
+|-heal|p1b: Annihilape|70/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1757003928
+|switch|p2a: Politoed|Politoed, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|-terastallize|p2b: Kingdra|Stellar
+|move|p2b: Kingdra|Muddy Water|p1b: Annihilape|[spread] p1a,p1b
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1b: Annihilape|0 fnt
+|faint|p1a: Dragonite
+|faint|p1b: Annihilape
+|-damage|p2b: Kingdra|81/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757003936
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|3
+|
+|t:|1757003957
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Tyranitar|perish3|[silent]
+|-start|p1b: Kingambit|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-start|p2b: Archaludon|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Tyranitar|Rock Slide|p2a: Politoed|[spread] p2a,p2b
+|-resisted|p2b: Archaludon
+|-damage|p2a: Politoed|69/100
+|-damage|p2b: Archaludon|86/100
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Politoed
+|-damage|p2a: Politoed|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Politoed|14/100|[from] Sandstorm
+|-heal|p2a: Politoed|20/100|[from] item: Leftovers
+|-start|p2b: Archaludon|perish3
+|-start|p2a: Politoed|perish3
+|-start|p1a: Tyranitar|perish3
+|-start|p1b: Kingambit|perish3
+|upkeep
+|turn|4
+|-message|Welosethose! forfeited.
+|
+|win|ChinoTV
+||Welosethose! is ready for game 3.
+|inactive|ChinoTV has 30 seconds to confirm battle start!
+||ChinoTV is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

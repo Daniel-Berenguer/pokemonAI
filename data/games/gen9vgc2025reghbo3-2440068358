@@ -1,0 +1,184 @@
+|j|☆ciaranburks
+|j|☆duggan1000
+|html|ciaranburksduggan1000    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757658021
+|gametype|doubles
+|player|p1|ciaranburks|266|1073
+|player|p2|duggan1000|rocketgruntf|1076
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Hydreigon, L50, F|
+|poke|p2|Oricorio-Sensu, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Flamigo, L50, F|
+|poke|p2|Electabuzz, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,Psychic,Protect,FollowMe|||F|||50|,,,,,Steel]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Water]Tyranitar||AssaultVest|SandStream|StoneEdge,KnockOff,HighHorsepower,HeavySlam|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|Earthquake,Facade,Protect,HeadlongRush|||F|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|PartingShot,KnockOff,FlareBlitz,CloseCombat|||F|||50|,,,,,Dragon]Hydreigon||DragonFang|Levitate|FocusBlast,DracoMeteor,NastyPlot,Protect|||F|||50|,,,,,Fighting
+|showteam|p2|Oricorio-Sensu||FocusSash|Dancer|Tailwind,Protect,DualWingbeat,Reversal|||F|||50|,,,,,Dark]Garchomp||LoadedDice|RoughSkin|Protect,ScaleShot,Earthquake,SwordsDance|||F|||50|,,,,,Fire]Dragonite||LifeOrb|InnerFocus|ExtremeSpeed,Protect,DragonDance,ThunderPunch|||F|||50|,,,,,Normal]Flamigo||SitrusBerry|Costar|CloseCombat,BraveBird,SwordsDance,Protect|||F|||50|,,,,,Fighting]Electabuzz||Eviolite|VitalSpirit|FollowMe,VoltSwitch,Taunt,Feint|||F|||50|,,,,,Dark]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1757658052
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|switch|p2b: Electabuzz|Electabuzz, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757658081
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Electabuzz|Taunt|p1a: Indeedee
+|-start|p1a: Indeedee|move: Taunt
+|move|p1b: Hatterene|Dazzling Gleam|p2a: Ursaluna|[spread] p2a,p2b
+|-crit|p2b: Electabuzz
+|-damage|p2a: Ursaluna|60/100
+|-damage|p2b: Electabuzz|53/100
+|-damage|p1b: Hatterene|91/100|[from] item: Life Orb
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by duggan1000)
+|
+|t:|1757658113
+|move|p2b: Electabuzz|Volt Switch|p1b: Hatterene
+|-damage|p1b: Hatterene|64/100
+|
+|t:|1757658118
+|switch|p2b: Flamigo|Flamigo, L50, F|100/100|[from] Volt Switch
+|-copyboost|p2b: Flamigo|p2a: Ursaluna|[from] ability: Costar
+|move|p1a: Indeedee|Psychic|p2a: Ursaluna
+|-damage|p2a: Ursaluna|28/100 brn
+|move|p2a: Ursaluna|Earthquake|p1b: Hatterene|[spread] p1a,p1b
+|-immune|p2b: Flamigo
+|-damage|p1a: Indeedee|41/100
+|-damage|p1b: Hatterene|0 fnt
+|faint|p1b: Hatterene
+|
+|-damage|p2a: Ursaluna|22/100 brn|[from] brn
+|upkeep
+|
+|t:|1757658134
+|switch|p1b: Hydreigon|Hydreigon, L50, F|100/100
+|turn|3
+|
+|t:|1757658159
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1b: Hydreigon|Nasty Plot|p1b: Hydreigon
+|-boost|p1b: Hydreigon|spa|2
+|move|p2b: Flamigo|Close Combat|p1b: Hydreigon
+|-supereffective|p1b: Hydreigon
+|-damage|p1b: Hydreigon|0 fnt
+|-unboost|p2b: Flamigo|def|1
+|-unboost|p2b: Flamigo|spd|1
+|faint|p1b: Hydreigon
+|move|p1a: Indeedee|Psychic|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|
+|-damage|p2a: Ursaluna|17/100 brn|[from] brn
+|upkeep
+|
+|t:|1757658174
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2b: Flamigo|atk|1
+|turn|4
+|
+|t:|1757658187
+|move|p2b: Flamigo|Protect|p2b: Flamigo
+|-singleturn|p2b: Flamigo|Protect
+|move|p1a: Indeedee|Psychic|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|move|p1b: Incineroar|Knock Off|p2b: Flamigo
+|-activate|p2b: Flamigo|move: Protect
+|
+|-end|p1a: Indeedee|move: Taunt
+|upkeep
+|
+|t:|1757658198
+|switch|p2a: Electabuzz|Electabuzz, L50, F|53/100
+|turn|5
+|
+|t:|1757658219
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Flamigo|Close Combat|p1a: Indeedee
+|-crit|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-unboost|p2b: Flamigo|def|1
+|-unboost|p2b: Flamigo|spd|1
+|faint|p1a: Indeedee
+|move|p2a: Electabuzz|Taunt|p1b: Incineroar
+|-start|p1b: Incineroar|move: Taunt
+|move|p1b: Incineroar|Knock Off|p2b: Flamigo
+|-resisted|p2b: Flamigo
+|-damage|p2b: Flamigo|30/100
+|-enditem|p2b: Flamigo|Sitrus Berry|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|inactive|ciaranburks has 30 seconds left.
+|
+|t:|1757658247
+|-terastallize|p1b: Incineroar|Dragon
+|move|p2b: Flamigo|Close Combat|p1b: Incineroar
+|-damage|p1b: Incineroar|63/100
+|-unboost|p2b: Flamigo|def|1
+|-unboost|p2b: Flamigo|spd|1
+|move|p2a: Electabuzz|Volt Switch|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|53/100
+|
+|t:|1757658256
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100|[from] Volt Switch
+|move|p1b: Incineroar|Knock Off|p2a: Garchomp
+|-damage|p2a: Garchomp|55/100
+|-damage|p1b: Incineroar|41/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-enditem|p2a: Garchomp|Loaded Dice|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|upkeep
+|turn|7
+|
+|t:|1757658270
+|move|p2b: Flamigo|Close Combat|p1b: Incineroar
+|-damage|p1b: Incineroar|6/100
+|-unboost|p2b: Flamigo|def|1
+|-unboost|p2b: Flamigo|spd|1
+|move|p2a: Garchomp|Scale Shot|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|-hitcount|p1: Incineroar|1
+|
+|win|duggan1000
+|inactive|ciaranburks has 30 seconds to confirm battle start!
+|inactive|duggan1000 has 30 seconds to confirm battle start!
+|l|☆ciaranburks
+|player|p1|
+|j|☆ciaranburks
+|player|p1|ciaranburks|266|
+||ciaranburks is ready for game 2.
+||duggan1000 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

@@ -1,0 +1,146 @@
+|j|☆Killtoosad
+|j|☆takeshivgc-test
+|html|Killtoosadtakeshivgc-test    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756949070
+|gametype|doubles
+|player|p1|Killtoosad|170|
+|player|p2|takeshivgc-test|sabrina|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Illumise, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Tyranitar, L50, F|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Hatterene, L50, F|
+|teampreview|4
+|showteam|p1|Illumise||CovertCloak|Prankster|Protect,Infestation,Tailwind,FakeTears|||F|||50|,,,,,Dark]Gholdengo||Leftovers|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water]Dragonite||ChoiceBand|InnerFocus|ExtremeSpeed,Outrage,AerialAce,StompingTantrum|||F|||50|,,,,,Normal]Incineroar||AssaultVest|Intimidate|FlareBlitz,KnockOff,Uturn,FakeOut|||M|||50|,,,,,Dragon]Primarina||LifeOrb|LiquidVoice|Protect,HyperVoice,Moonblast,PerishSong|||F|||50|,,,,,Steel]Tyranitar||ClearAmulet|SandStream|RockSlide,KnockOff,Protect,HighHorsepower|||F|||50|,,,,,Grass
+|showteam|p2|Armarouge||PowerHerb|FlashFire|ArmorCannon,ExpandingForce,TrickRoom,MeteorBeam|||F|||50|,,,,,Grass]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,TrickRoom,FollowMe|||F|||50|,,,,,Fairy]Torkoal||Charcoal|Drought|Eruption,Protect,WeatherBall,HeatWave|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,MysticalFire|||F|||50|,,,,,Fire
+|
+|t:|1756949189
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756949203
+|-terastallize|p2b: Hatterene|Fire
+|move|p1a: Gholdengo|Make It Rain|p2a: Indeedee|[spread] p2a,p2b
+|-resisted|p2b: Hatterene
+|-damage|p2a: Indeedee|68/100
+|-damage|p2b: Hatterene|75/100
+|-unboost|p1a: Gholdengo|spa|1
+|move|p1b: Tyranitar|Rock Slide|p2a: Indeedee|[spread] p2a,p2b
+|-supereffective|p2b: Hatterene
+|-damage|p2a: Indeedee|35/100
+|-damage|p2b: Hatterene|11/100
+|move|p2b: Hatterene|Mystical Fire|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|-damage|p2b: Hatterene|1/100|[from] item: Life Orb
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Hatterene|0 fnt|[from] Sandstorm
+|-damage|p2a: Indeedee|29/100|[from] Sandstorm
+|faint|p2b: Hatterene
+|upkeep
+|
+|t:|1756949236
+|switch|p2b: Gallade|Gallade, L50, M, shiny|100/100
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-fail|p2b: Gallade|unboost|[from] item: Clear Amulet|[of] p2b: Gallade
+|turn|2
+|
+|t:|1756949269
+|move|p1b: Tyranitar|Protect|p1b: Tyranitar
+|-singleturn|p1b: Tyranitar|Protect
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Incineroar|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|t:|1756949276
+|switch|p1a: Dragonite|Dragonite, L50, F|100/100|[from] U-turn
+|move|p2b: Gallade|Sacred Sword|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|65/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Gallade|95/100|[from] Sandstorm
+|-damage|p1a: Dragonite|59/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756949284
+|switch|p2a: Armarouge|Armarouge, L50, F|100/100
+|turn|3
+|
+|t:|1756949325
+|move|p2a: Armarouge|Meteor Beam||[still]
+|-prepare|p2a: Armarouge|Meteor Beam
+|-boost|p2a: Armarouge|spa|1
+|-enditem|p2a: Armarouge|Power Herb
+|-anim|p2a: Armarouge|Meteor Beam|p1a: Dragonite
+|-supereffective|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|move|p2b: Gallade|Sacred Sword|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar
+|-damage|p1b: Tyranitar|0 fnt
+|faint|p1b: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Armarouge|94/100|[from] Sandstorm
+|-damage|p2b: Gallade|89/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756949340
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Armarouge|atk|1
+|-fail|p2b: Gallade|unboost|[from] item: Clear Amulet|[of] p2b: Gallade
+|turn|4
+|
+|t:|1756949370
+|move|p1b: Incineroar|Knock Off|p2b: Gallade
+|-damage|p2b: Gallade|20/100
+|-enditem|p2b: Gallade|Clear Amulet|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2a: Armarouge|Meteor Beam||[still]
+|-prepare|p2a: Armarouge|Meteor Beam
+|-boost|p2a: Armarouge|spa|1
+|move|p2b: Gallade|Sacred Sword|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|win|takeshivgc-test
+||takeshivgc-test is ready for game 2.
+|inactive|Killtoosad has 30 seconds to confirm battle start!
+||Killtoosad is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆takeshivgc-test
+|player|p2|

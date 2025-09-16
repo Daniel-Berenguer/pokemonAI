@@ -1,0 +1,192 @@
+|j|☆andresbrx
+|j|☆naovi
+|html|andresbrxnaovi    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756982166
+|gametype|doubles
+|player|p1|andresbrx|hiker-gen4|
+|player|p2|naovi|101|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Maushold, L50|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Dragonite, L50, M|
+|teampreview|4
+|showteam|p1|Gholdengo||ChoiceSpecs|GoodasGold|ShadowBall,DazzlingGleam,Trick,MakeItRain||||||50|,,,,,Fairy]Annihilape||SafetyGoggles|Defiant|Protect,BulkUp,DrainPunch,RageFist|||M|||50|,,,,,Water]Archaludon||PowerHerb|Sturdy|ElectroShot,DracoMeteor,Protect,FlashCannon|||M|||50|,,,,,Ghost]Maushold||RockyHelmet|FriendGuard|Protect,SuperFang,FollowMe,BeatUp||||||50|,,,,,Grass]Talonflame||CovertCloak|GaleWings|Taunt,Tailwind,DualWingbeat,FlareBlitz|||M|||50|,,,,,Ghost]Tyranitar||AssaultVest|SandStream|TeraBlast,LowKick,KnockOff,RockSlide|||F|||50|,,,,,Flying
+|showteam|p2|Electabuzz||Eviolite|VitalSpirit|Thunderbolt,FollowMe,Taunt,Protect|||M|||50|,,,,,Ghost]Sneasler||FocusSash|Unburden|Coaching,DireClaw,Protect,CloseCombat|||F|||50|,,,,,Stellar]Rillaboom||AssaultVest|GrassySurge|HighHorsepower,GrassyGlide,WoodHammer,FakeOut|||F|||50|,,,,,Fire]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark]Volcarona||CovertCloak|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||F|||50|,,,,,Fairy]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||M|||50|,,,,,Steel
+|c|☆andresbrx|voy a probar una cosa
+|c|☆andresbrx|te lo digo ya
+|c|☆naovi|va va jajaja
+|c|☆andresbrx|no llevo al mono
+|c|☆andresbrx|quiero cambiar al dhengo pero me lo pensaré a lo largo del dia de hoy
+|
+|t:|1756982237
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p1b: Talonflame|Talonflame, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|c|☆andresbrx|que voy a estar fuera de casa pero creo que daniel va a jugar lo mio un rato para hacer limit testing
+|
+|t:|1756982265
+|move|p2a: Rillaboom|Fake Out|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|93/100
+|move|p1b: Talonflame|Tailwind|p1b: Talonflame
+|-sidestart|p1: andresbrx|move: Tailwind
+|cant|p1a: Tyranitar|flinch
+|move|p2b: Kingambit|Swords Dance|p2b: Kingambit
+|-boost|p2b: Kingambit|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Talonflame|95/100|[from] Sandstorm
+|-damage|p2a: Rillaboom|94/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|99/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|100/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756982298
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Electabuzz|Electabuzz, L50, M|100/100
+|move|p2b: Kingambit|Protect|p2b: Kingambit
+|-singleturn|p2b: Kingambit|Protect
+|move|p1a: Tyranitar|Low Kick|p2b: Kingambit
+|-activate|p2b: Kingambit|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Electabuzz|95/100|[from] Sandstorm
+|-heal|p1a: Tyranitar|100/100|[from] Grassy Terrain
+|-heal|p2a: Electabuzz|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756982339
+|-terastallize|p1b: Gholdengo|Fairy
+|move|p2a: Electabuzz|Follow Me|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|move: Follow Me
+|move|p1b: Gholdengo|Dazzling Gleam|p2b: Kingambit|[spread] p2a,p2b
+|-damage|p2a: Electabuzz|58/100
+|-damage|p2b: Kingambit|46/100
+|move|p1a: Tyranitar|Knock Off|p2a: Electabuzz
+|-damage|p2a: Electabuzz|16/100
+|-enditem|p2a: Electabuzz|Eviolite|[from] move: Knock Off|[of] p1a: Tyranitar
+|move|p2b: Kingambit|Kowtow Cleave|p1b: Gholdengo
+|-resisted|p1b: Gholdengo
+|-damage|p1b: Gholdengo|50/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Gholdengo|44/100|[from] Sandstorm
+|-damage|p2a: Electabuzz|10/100|[from] Sandstorm
+|-heal|p1b: Gholdengo|50/100|[from] Grassy Terrain
+|-heal|p2a: Electabuzz|16/100|[from] Grassy Terrain
+|-heal|p2b: Kingambit|52/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756982386
+|move|p2b: Kingambit|Protect|p2b: Kingambit
+|-singleturn|p2b: Kingambit|Protect
+|move|p1b: Gholdengo|Dazzling Gleam|p2b: Kingambit|[spread] p2a
+|-activate|p2b: Kingambit|move: Protect
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|move|p1a: Tyranitar|Low Kick|p2b: Kingambit
+|-activate|p2b: Kingambit|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Gholdengo|44/100|[from] Sandstorm
+|-heal|p1b: Gholdengo|50/100|[from] Grassy Terrain
+|-heal|p2b: Kingambit|58/100|[from] Grassy Terrain
+|-sideend|p1: andresbrx|move: Tailwind
+|upkeep
+|
+|t:|1756982394
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|turn|5
+|
+|t:|1756982410
+|move|p1b: Gholdengo|Dazzling Gleam|p2a: Rillaboom|[spread] p2a,p2b
+|-damage|p2a: Rillaboom|61/100
+|-damage|p2b: Kingambit|6/100
+|move|p2a: Rillaboom|Wood Hammer|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|-damage|p2a: Rillaboom|30/100|[from] Recoil
+|move|p2b: Kingambit|Kowtow Cleave|p1b: Gholdengo
+|-resisted|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|
+|-weather|none
+|-heal|p2a: Rillaboom|36/100|[from] Grassy Terrain
+|-heal|p2b: Kingambit|12/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756982417
+|switch|p1b: Talonflame|Talonflame, L50, M|95/100
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|turn|6
+|
+|t:|1756982450
+|move|p2b: Kingambit|Sucker Punch|p1a: Archaludon
+|-damage|p1a: Archaludon|35/100
+|move|p1b: Talonflame|Dual Wingbeat|p2a: Rillaboom|[miss]
+|-miss|p1b: Talonflame|p2a: Rillaboom
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-enditem|p1a: Archaludon|Power Herb
+|-anim|p1a: Archaludon|Electro Shot|p2b: Kingambit
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|move|p2a: Rillaboom|Grassy Glide|p1b: Talonflame
+|-resisted|p1b: Talonflame
+|-damage|p1b: Talonflame|84/100
+|
+|upkeep
+|c|☆andresbrx|venga hombre
+|
+|t:|1756982460
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|turn|7
+|
+|t:|1756982506
+|-terastallize|p2b: Volcarona|Fairy
+|move|p1b: Talonflame|Dual Wingbeat|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|5/100
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|-hitcount|p2: Rillaboom|2
+|move|p1a: Archaludon|Flash Cannon|p2b: Volcarona
+|-supereffective|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|faint|p2b: Volcarona
+|
+|win|andresbrx
+|inactive|andresbrx has 30 seconds to confirm battle start!
+|inactive|naovi has 30 seconds to confirm battle start!
+||andresbrx is ready for game 3.
+||naovi is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

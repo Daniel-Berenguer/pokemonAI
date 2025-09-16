@@ -1,0 +1,230 @@
+|j|☆cheesbuga
+|j|☆dcheng24
+|html|cheesbugadcheng24    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757743649
+|gametype|doubles
+|player|p1|cheesbuga|pokemaniac|1052
+|player|p2|dcheng24|101|1038
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Maushold-Four, L50|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|showteam|p1|Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|Uturn,WoodHammer,GrassyGlide,FakeOut|||M|||50|,,,,,Fire]Farigiraf||ThroatSpray|ArmorTail|HyperVoice,Protect,Psychic,TrickRoom|||M|||50|,,,,,Fairy]Sneasler||FocusSash|Unburden|CloseCombat,Protect,FakeOut,ThroatChop|||M|||50|,,,,,Dark]Volcarona||CovertCloak|FlameBody|HeatWave,Protect,StruggleBug,QuiverDance|||F|||50|,,,,,Water
+|showteam|p2|Amoonguss||QuickClaw|Regenerator|ClearSmog,Spore,PollenPuff,RagePowder|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|Thunderbolt,Snarl,BodyPress,DragonPulse|||M|||50|,,,,,Dragon]Maushold-Four||CovertCloak|FriendGuard|FollowMe,PopulationBomb,Taunt,Encore||||||50|,,,,,Ghost]Primarina||Leftovers|Torrent|HelpingHand,Charm,LightScreen,Surf|||F|||50|,,,,,Water]Incineroar||RockyHelmet|Intimidate|KnockOff,Taunt,FakeOut,PartingShot|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,EarthPower,Protect,HyperVoice|||M|||50|,,,,,Ground
+|j| sam smithy
+|
+|t:|1757743707
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|switch|p2b: Maushold|Maushold-Four, L50|100/100
+|turn|1
+|
+|t:|1757743740
+|switch|p2a: Amoonguss|Amoonguss, L50, M|100/100
+|-terastallize|p2b: Maushold|Ghost
+|move|p1a: Sneasler|Close Combat|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|72/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|move|p2b: Maushold|Taunt|p1b: Farigiraf
+|-start|p1b: Farigiraf|move: Taunt
+|move|p1b: Farigiraf|Hyper Voice|p2b: Maushold|[spread] p2a
+|-immune|p2b: Maushold
+|-damage|p2a: Amoonguss|52/100
+|-enditem|p1b: Farigiraf|Throat Spray
+|-boost|p1b: Farigiraf|spa|1|[from] item: Throat Spray
+|
+|upkeep
+|turn|2
+|l| sam smithy
+|
+|t:|1757743770
+|move|p2b: Maushold|Follow Me|p2b: Maushold
+|-singleturn|p2b: Maushold|move: Follow Me
+|move|p1a: Sneasler|Throat Chop|p2b: Maushold
+|-supereffective|p2b: Maushold
+|-damage|p2b: Maushold|44/100
+|move|p2a: Amoonguss|Spore|p1b: Farigiraf
+|-status|p1b: Farigiraf|slp|[from] move: Spore
+|cant|p1b: Farigiraf|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1757743789
+|switch|p2b: Primarina|Primarina, L50, F|100/100
+|move|p1a: Sneasler|Throat Chop|p2b: Primarina
+|-resisted|p2b: Primarina
+|-damage|p2b: Primarina|86/100
+|-start|p2b: Primarina|Throat Chop|[silent]
+|move|p2a: Amoonguss|Spore|p1a: Sneasler
+|-status|p1a: Sneasler|slp|[from] move: Spore
+|-curestatus|p1b: Farigiraf|slp|[msg]
+|move|p1b: Farigiraf|Psychic|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|-heal|p2b: Primarina|91/100|[from] item: Leftovers
+|-end|p1b: Farigiraf|move: Taunt
+|upkeep
+|
+|t:|1757743815
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|turn|4
+|
+|t:|1757743843
+|cant|p1a: Sneasler|slp
+|move|p2a: Archaludon|Dragon Pulse|p1a: Sneasler
+|-damage|p1a: Sneasler|25/100 slp
+|move|p2b: Primarina|Surf|p1b: Farigiraf|[spread] p2a,p1a,p1b
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|92/100
+|-damage|p1a: Sneasler|0 fnt
+|-damage|p1b: Farigiraf|73/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|faint|p1a: Sneasler
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|-heal|p2b: Primarina|97/100|[from] item: Leftovers
+|-end|p2b: Primarina|Throat Chop|[silent]
+|upkeep
+|
+|t:|1757743861
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|5
+|
+|t:|1757743903
+|switch|p2a: Maushold|Maushold-Four, L50, tera:Ghost|44/100
+|-terastallize|p1a: Ursaluna|Normal
+|move|p1a: Ursaluna|Earth Power|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|faint|p2a: Maushold
+|-damage|p1a: Ursaluna|91/100|[from] item: Life Orb
+|move|p1b: Farigiraf|Hyper Voice|p2b: Primarina
+|-damage|p2b: Primarina|57/100
+|move|p2b: Primarina|Surf|p1a: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|62/100
+|-damage|p1b: Farigiraf|46/100
+|
+|-heal|p2b: Primarina|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757743918
+|switch|p2a: Archaludon|Archaludon, L50, M|92/100
+|turn|6
+|
+|t:|1757743940
+|move|p1a: Ursaluna|Blood Moon|p2b: Primarina
+|-damage|p2b: Primarina|0 fnt
+|faint|p2b: Primarina
+|-damage|p1a: Ursaluna|52/100|[from] item: Life Orb
+|move|p1b: Farigiraf|Hyper Voice|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|74/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2a: Archaludon|Body Press|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|upkeep
+|
+|t:|1757743955
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|7
+|
+|t:|1757743973
+|move|p1a: Rillaboom|Fake Out|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|71/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p1b: Farigiraf|Psychic|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|52/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|cant|p2a: Archaludon|flinch
+|
+|-heal|p1b: Farigiraf|52/100|[from] Grassy Terrain
+|-heal|p2a: Archaludon|58/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1757743988
+|move|p1b: Farigiraf|Psychic|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|39/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2a: Archaludon|Body Press|p1b: Farigiraf
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|move|p1a: Rillaboom|Wood Hammer|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|34/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|-damage|p1a: Rillaboom|99/100|[from] Recoil
+|
+|-heal|p2a: Archaludon|40/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|100/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|t:|1757744007
+|move|p1a: Rillaboom|Wood Hammer|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|36/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|-damage|p1a: Rillaboom|99/100|[from] Recoil
+|move|p2a: Archaludon|Body Press|p1a: Rillaboom
+|-damage|p1a: Rillaboom|23/100
+|
+|-heal|p1a: Rillaboom|29/100|[from] Grassy Terrain
+|-heal|p2a: Archaludon|42/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1757744018
+|move|p1a: Rillaboom|Wood Hammer|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|39/100
+|-damage|p1a: Rillaboom|28/100|[from] Recoil
+|move|p2a: Archaludon|Body Press|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|win|dcheng24
+||cheesbuga is ready for game 2.
+|inactive|dcheng24 has 30 seconds to confirm battle start!
+||dcheng24 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

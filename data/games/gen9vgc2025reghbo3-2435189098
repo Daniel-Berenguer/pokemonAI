@@ -1,0 +1,107 @@
+|j|☆WallType
+|j|☆Sazandoramx
+|html|WallTypeSazandoramx    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757007702
+|gametype|doubles
+|player|p1|WallType|102|1233
+|player|p2|Sazandoramx|170|1333
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Archaludon||PowerHerb|Stalwart|Thunderbolt,ElectroShot,DragonPulse,Protect|||M|||50|,,,,,Electric]Incineroar||SitrusBerry|Intimidate|FakeOut,KnockOff,PartingShot,FlareBlitz|||F|||50|,,,,,Grass]Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,ExtremeSpeed,Haze|||M|||50|,,,,,Steel]Whimsicott||FocusSash|Prankster|Moonblast,FakeTears,Encore,Tailwind|||M|||50|,,,,,Ghost]Annihilape||SafetyGoggles|Defiant|Coaching,CloseCombat,FinalGambit,RageFist|||F|||50|,,,,,Water]Ursaluna-Bloodmoon||AssaultVest|MindsEye|HyperVoice,EarthPower,BloodMoon,VacuumWave|||M|||50|,,,,,Ghost
+|showteam|p2|Armarouge||PowerHerb|FlashFire|ArmorCannon,ExpandingForce,MeteorBeam,TrickRoom|||M|||50|,,,,,Grass]Kingambit||SafetyGoggles|Defiant|KowtowCleave,LowKick,SuckerPunch,SwordsDance|||M|||50|,,,,,Dark]Indeedee-F||RockyHelmet|PsychicSurge|Psychic,FollowMe,TrickRoom,HelpingHand|||F|||50|,,,,,Steel]Annihilape||ChoiceScarf|Defiant|CloseCombat,ShadowClaw,FinalGambit,Uturn|||M|||50|,,,,,Stellar]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Water]Torkoal||ChoiceSpecs|Drought|Eruption,EarthPower,WeatherBall,HeatWave|||M|||50|,,,,,Fire
+|
+|t:|1757007775
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100
+|switch|p2a: Hatterene|Hatterene, L50, F|100/100
+|switch|p2b: Annihilape|Annihilape, L50, M|100/100
+|turn|1
+|
+|t:|1757007802
+|move|p2a: Hatterene|Protect|p2a: Hatterene
+|-singleturn|p2a: Hatterene|Protect
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: WallType|move: Tailwind
+|move|p1b: Annihilape|Final Gambit|p2a: Hatterene
+|-activate|p2a: Hatterene|move: Protect
+|move|p2b: Annihilape|U-turn|p1a: Whimsicott
+|-damage|p1a: Whimsicott|69/100
+|
+|t:|1757007811
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100|[from] U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1757007861
+|switch|p1a: MoneyMachine|Ursaluna-Bloodmoon, L50, M|100/100
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Annihilape|Final Gambit|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p1b: Annihilape
+|faint|p2b: Indeedee
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|upkeep
+|
+|t:|1757007877
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|turn|3
+|
+|t:|1757007901
+|-terastallize|p2b: Kingambit|Dark
+|move|p1b: Archaludon|Protect|p1b: Archaludon
+|-singleturn|p1b: Archaludon|Protect
+|move|p2a: Hatterene|Expanding Force|p1a: MoneyMachine|[spread] p1a
+|-activate|p1b: Archaludon|move: Protect
+|-damage|p1a: MoneyMachine|35/100
+|-damage|p2a: Hatterene|91/100|[from] item: Life Orb
+|move|p2b: Kingambit|Kowtow Cleave|p1a: MoneyMachine
+|-damage|p1a: MoneyMachine|0 fnt
+|faint|p1a: MoneyMachine
+|
+|upkeep
+|
+|t:|1757007911
+|switch|p1a: Whimsicott|Whimsicott, L50, M|69/100
+|turn|4
+|
+|t:|1757007926
+|-terastallize|p1b: Archaludon|Electric
+|move|p2a: Hatterene|Expanding Force|p1b: Archaludon|[spread] p1a,p1b
+|-damage|p1a: Whimsicott|0 fnt
+|-damage|p1b: Archaludon|0 fnt
+|faint|p1a: Whimsicott
+|faint|p1b: Archaludon
+|-damage|p2a: Hatterene|82/100|[from] item: Life Orb
+|
+|win|Sazandoramx
+|raw|WallType's rating: 1233 → 1215(-18 for losing)
+|raw|Sazandoramx's rating: 1333 → 1347(+14 for winning)
+|l|☆WallType
+|player|p1|

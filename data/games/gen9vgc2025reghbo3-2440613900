@@ -1,0 +1,153 @@
+|j|☆AzureTheTimeblind
+|j|☆ZilverZurfer
+|html|AzureTheTimeblindZilverZurfer    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757726374
+|gametype|doubles
+|player|p1|AzureTheTimeblind|169|1140
+|player|p2|ZilverZurfer|266|1146
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Ursaluna-Bloodmoon||CovertCloak|MindsEye|EarthPower,BloodMoon,HyperVoice,Protect|||M|||50|,,,,,Normal]Gholdengo||LifeOrb|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Protect,ExtremeSpeed|||M|||50|,,,,,Normal]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,Uturn,GrassyGlide|||M|||50|,,,,,Fire]Sneasler||GrassySeed|Unburden|FakeOut,CloseCombat,DireClaw,ThroatChop|||M|||50|,,,,,Dark]Ninetales-Alola||FocusSash|SnowWarning|Moonblast,AuroraVeil,Blizzard,Encore|||M|||50|,,,,,Ghost
+|showteam|p2|Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,EarthPower,WeatherBall|||M|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|Protect,AfterYou,CloseCombat,SolarBlade|||F|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,TrickRoom,FollowMe|||F|||50|,,,,,Water]Hatterene||LifeOrb|MagicBounce|Protect,ExpandingForce,DazzlingGleam,TrickRoom|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,TrickRoom,WideGuard|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Protect,HeadlongRush,Earthquake,Facade|||F|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ZilverZurfer)
+|
+|t:|1757726398
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757726412
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-enditem|p1a: Sneasler|Grassy Seed
+|-boost|p1a: Sneasler|def|1|[from] item: Grassy Seed
+|move|p1a: Sneasler|Fake Out|p2b: Hatterene
+|-crit|p2b: Hatterene
+|-damage|p2b: Hatterene|72/100
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|cant|p2b: Hatterene|flinch
+|
+|-heal|p2b: Hatterene|78/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1757726433
+|move|p1b: Rillaboom|Fake Out|p2b: Hatterene
+|-damage|p2b: Hatterene|62/100
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Sneasler|Throat Chop|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|45/100
+|-start|p2a: Indeedee|Throat Chop|[silent]
+|cant|p2b: Hatterene|flinch
+|
+|-heal|p2a: Indeedee|51/100|[from] Grassy Terrain
+|-heal|p2b: Hatterene|67/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1757726451
+|-terastallize|p1a: Sneasler|Dark
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Sneasler|Throat Chop|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|move|p1b: Rillaboom|Wood Hammer|p2b: Hatterene
+|-damage|p2b: Hatterene|0 fnt
+|faint|p2b: Hatterene
+|-damage|p1b: Rillaboom|84/100|[from] Recoil
+|
+|-heal|p1b: Rillaboom|89/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757726458
+|switch|p2a: Gallade|Gallade, L50, M|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|4
+|inactive|AzureTheTimeblind has 30 seconds left.
+|inactive|AzureTheTimeblind has 20 seconds left.
+|
+|t:|1757726496
+|move|p1a: Sneasler|Throat Chop|p2b: Torkoal
+|-damage|p2b: Torkoal|63/100
+|-start|p2b: Torkoal|Throat Chop|[silent]
+|move|p1b: Rillaboom|U-turn|p2b: Torkoal
+|-resisted|p2b: Torkoal
+|-damage|p2b: Torkoal|55/100
+|
+|t:|1757726506
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100|[from] U-turn
+|move|p2a: Gallade|Sacred Sword|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|move|p2b: Torkoal|Weather Ball|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Torkoal|61/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757726518
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|89/100
+|turn|5
+|
+|t:|1757726541
+|move|p1b: Rillaboom|Fake Out|p2b: Torkoal
+|-damage|p2b: Torkoal|51/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Gallade
+|-supereffective|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|-damage|p1a: Gholdengo|91/100|[from] item: Life Orb
+|cant|p2b: Torkoal|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gholdengo|97/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|95/100|[from] Grassy Terrain
+|-heal|p2b: Torkoal|58/100|[from] Grassy Terrain
+|-end|p2b: Torkoal|Throat Chop|[silent]
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|-message|ZilverZurfer forfeited.
+|
+|win|AzureTheTimeblind
+||ZilverZurfer is ready for game 3.
+||AzureTheTimeblind is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆AzureTheTimeblind
+|player|p1|

@@ -1,0 +1,101 @@
+|j|☆R4ka
+|j|‽Freaky torkoal
+|html|R4kaFreaky torkoal    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756925562
+|gametype|doubles
+|player|p1|R4ka|riley|
+|player|p2|Freaky torkoal|266|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|showteam|p1|Rillaboom||AssaultVest|GrassySurge|FakeOut,HighHorsepower,WoodHammer,GrassyGlide|||M|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ExtremeSpeed,ScaleShot,Protect,Haze|||M|||50|,,,,,Steel]Sneasler||FocusSash|PoisonTouch|DireClaw,CloseCombat,FakeOut,Coaching|||F|||50|,,,,,Stellar]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Ghost]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,Taunt,Protect,FollowMe|||M|||50|,,,,,Ghost]Volcarona||Leftovers|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||M|||50|,,,,,Fairy
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|IceBeam,TeraBlast,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost
+|
+|t:|1756925588
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p1b: Kingambit|Kingambit, L50, F, shiny|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2b: Charizard|Charizard, L50, F|100/100
+|turn|1
+|
+|t:|1756925619
+|-terastallize|p1b: Kingambit|Ghost
+|move|p1b: Kingambit|Sucker Punch|p2b: Charizard
+|-damage|p2b: Charizard|26/100
+|move|p2a: Jumpluff|Sunny Day|p2a: Jumpluff
+|-weather|SunnyDay
+|move|p2b: Charizard|Heat Wave|p1a: Volcarona|[spread] p1a,p1b
+|-damage|p1a: Volcarona|0 fnt
+|-damage|p1b: Kingambit|0 fnt
+|faint|p1a: Volcarona
+|faint|p1b: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|14/100|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|
+|t:|1756925630
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|2
+|
+|t:|1756925650
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Sneasler|atk|1
+|move|p1a: Rillaboom|Grassy Glide|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|89/100
+|move|p2a: Jumpluff|Sleep Powder|p1b: Sneasler
+|-status|p1b: Sneasler|slp|[from] move: Sleep Powder
+|cant|p1b: Sneasler|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Incineroar|95/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756925677
+|move|p2a: Jumpluff|Tailwind|p2a: Jumpluff
+|-sidestart|p2: Freaky torkoal|move: Tailwind
+|move|p2b: Incineroar|Flare Blitz|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-damage|p2b: Incineroar|61/100|[from] Recoil
+|-curestatus|p1b: Sneasler|slp|[msg]
+|move|p1b: Sneasler|Coaching|p1: Rillaboom|[notarget]
+|-fail|p1b: Sneasler
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Incineroar|67/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|-message|R4ka forfeited.
+|
+|win|Freaky torkoal
+||Freaky torkoal is ready for game 2.
+||R4ka is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|j| ImGonnaFondleYou

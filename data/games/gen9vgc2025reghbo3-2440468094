@@ -1,0 +1,274 @@
+|j|☆el_frolo
+|j|☆BigE3L
+|html|el_froloBigE3L    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757708033
+|gametype|doubles
+|player|p1|el_frolo|102|1134
+|player|p2|BigE3L|gambler|1189
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Ninetales, L50, F|
+|teampreview|4
+|showteam|p1|Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|KnockOff,FlareBlitz,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Amoonguss||CovertCloak|Regenerator|RagePowder,PollenPuff,Protect,Spore|||M|||50|,,,,,Dark]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||F|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Protect,Haze|||M|||50|,,,,,Fairy
+|showteam|p2|Torkoal||Charcoal|Drought|Eruption,EarthPower,HeatWave,Protect|||F|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TrickRoom,Recover,TeraBlast,IceBeam||||||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,HighHorsepower|||F|||50|,,,,,Fire]Lilligant-Hisui||CovertCloak|Chlorophyll|Protect,SleepPowder,AfterYou,LeafBlade|||F|||50|,,,,,Water]Ninetales||FocusSash|Drought|ScorchingSands,WeatherBall,Protect,SolarBeam|||F|||50|,,,,,Grass
+|
+|t:|1757708087
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Lilligant|atk|1
+|-unboost|p2b: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|1
+|
+|t:|1757708107
+|-terastallize|p1b: Gholdengo|Water
+|-terastallize|p2b: Torkoal|Ghost
+|move|p1a: Incineroar|Fake Out|p2a: Lilligant
+|-damage|p2a: Lilligant|83/100
+|move|p2a: Lilligant|Leaf Blade|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo
+|-damage|p1b: Gholdengo|47/100
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|move|p2b: Torkoal|Heat Wave|p1b: Gholdengo|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-resisted|p1b: Gholdengo
+|-damage|p1a: Incineroar|75/100
+|-damage|p1b: Gholdengo|18/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757708131
+|switch|p1b: Porygon2|Porygon2, L50|100/100
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|spa|1
+|move|p2a: Lilligant|After You|p2b: Torkoal
+|-activate|p2b: Torkoal|move: After You
+|move|p2b: Torkoal|Eruption|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|32/100
+|-damage|p1b: Porygon2|46/100
+|move|p1a: Incineroar|Flare Blitz|p2a: Lilligant
+|-supereffective|p2a: Lilligant
+|-damage|p2a: Lilligant|0 fnt
+|faint|p2a: Lilligant
+|-damage|p1a: Incineroar|12/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757708147
+|switch|p2a: Ninetales|Ninetales, L50, F|100/100
+|turn|3
+|
+|t:|1757708156
+|move|p2a: Ninetales|Scorching Sands|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p1b: Porygon2|Recover|p1b: Porygon2
+|-heal|p1b: Porygon2|96/100
+|move|p2b: Torkoal|Eruption|p1b: Porygon2
+|-damage|p1b: Porygon2|24/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757708160
+|switch|p1a: Gholdengo|Gholdengo, L50, tera:Water|18/100
+|turn|4
+|
+|t:|1757708174
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2a: Ninetales|Solar Beam||[still]
+|-prepare|p2a: Ninetales|Solar Beam
+|-anim|p2a: Ninetales|Solar Beam|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|move|p1b: Porygon2|Recover|p1b: Porygon2
+|-heal|p1b: Porygon2|74/100
+|move|p2b: Torkoal|Eruption|p1a: Gholdengo|[spread] p1b
+|-activate|p1a: Gholdengo|move: Protect
+|-damage|p1b: Porygon2|24/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757708207
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|move|p2b: Torkoal|Protect|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Protect
+|move|p1b: Porygon2|Tera Blast|p2a: Rillaboom
+|-damage|p2a: Rillaboom|58/100
+|
+|-weather|none
+|-heal|p2a: Rillaboom|64/100|[from] Grassy Terrain
+|-heal|p1b: Porygon2|30/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1757708234
+|switch|p2a: Ninetales|Ninetales, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|move|p1b: Porygon2|Recover|p1b: Porygon2
+|-heal|p1b: Porygon2|80/100
+|move|p1a: Amoonguss|Spore|p2b: Torkoal
+|-status|p2b: Torkoal|slp|[from] move: Spore
+|cant|p2b: Torkoal|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Porygon2|86/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1757708260
+|move|p1a: Amoonguss|Protect|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|Protect
+|move|p2a: Ninetales|Weather Ball|p1a: Amoonguss
+|-activate|p1a: Amoonguss|move: Protect
+|move|p1b: Porygon2|Tera Blast|p2a: Ninetales
+|-damage|p2a: Ninetales|41/100
+|cant|p2b: Torkoal|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|47/100|[from] Grassy Terrain
+|-heal|p1b: Porygon2|93/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1757708276
+|switch|p1a: Gholdengo|Gholdengo, L50, tera:Water|18/100
+|move|p2a: Ninetales|Protect|p2a: Ninetales
+|-singleturn|p2a: Ninetales|Protect
+|move|p1b: Porygon2|Tera Blast|p2a: Ninetales
+|-activate|p2a: Ninetales|move: Protect
+|cant|p2b: Torkoal|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Ninetales|54/100|[from] Grassy Terrain
+|-heal|p1a: Gholdengo|25/100|[from] Grassy Terrain
+|-heal|p1b: Porygon2|99/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1757708293
+|switch|p2a: Rillaboom|Rillaboom, L50, F|64/100
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p1b: Porygon2|Tera Blast|p2a: Rillaboom
+|-damage|p2a: Rillaboom|20/100
+|-curestatus|p2b: Torkoal|slp|[msg]
+|move|p2b: Torkoal|Eruption|p1a: Gholdengo|[spread] p1b
+|-activate|p1a: Gholdengo|move: Protect
+|-damage|p1b: Porygon2|43/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Gholdengo|31/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|27/100|[from] Grassy Terrain
+|-heal|p1b: Porygon2|49/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1757708317
+|switch|p2a: Ninetales|Ninetales, L50, F|54/100
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2b: Torkoal|Protect|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Protect
+|move|p1b: Porygon2|Recover|p1b: Porygon2
+|-heal|p1b: Porygon2|99/100
+|
+|-weather|none
+|upkeep
+|turn|11
+|
+|t:|1757708345
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|move|p2b: Torkoal|Protect||[still]
+|-fail|p2b: Torkoal
+|move|p2a: Ninetales|Scorching Sands|p1a: Amoonguss
+|-damage|p1a: Amoonguss|85/100
+|move|p1b: Porygon2|Tera Blast|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|upkeep
+|
+|t:|1757708347
+|switch|p2a: Rillaboom|Rillaboom, L50, F|27/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|12
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BigE3L)
+|
+|t:|1757708366
+|move|p2a: Rillaboom|Fake Out|p1b: Porygon2
+|-damage|p1b: Porygon2|91/100
+|cant|p1b: Porygon2|flinch
+|move|p1a: Amoonguss|Spore|p2b: Torkoal
+|-status|p2b: Torkoal|slp|[from] move: Spore
+|cant|p2b: Torkoal|slp
+|
+|-heal|p2a: Rillaboom|33/100|[from] Grassy Terrain
+|-heal|p1b: Porygon2|97/100|[from] Grassy Terrain
+|-heal|p1a: Amoonguss|91/100|[from] Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1757708388
+|move|p2a: Rillaboom|High Horsepower|p1a: Amoonguss
+|-damage|p1a: Amoonguss|66/100
+|move|p1b: Porygon2|Ice Beam|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|move|p1a: Amoonguss|Pollen Puff|p2b: Torkoal
+|-resisted|p2b: Torkoal
+|-damage|p2b: Torkoal|89/100 slp
+|-curestatus|p2b: Torkoal|slp|[msg]
+|move|p2b: Torkoal|Heat Wave|p1a: Amoonguss|[spread] p1a,p1b
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|2/100
+|-damage|p1b: Porygon2|73/100
+|
+|-heal|p1b: Porygon2|80/100|[from] Grassy Terrain
+|-heal|p1a: Amoonguss|8/100|[from] Grassy Terrain
+|-heal|p2b: Torkoal|95/100|[from] Grassy Terrain
+|upkeep
+|turn|14
+|-message|BigE3L forfeited.
+|
+|win|el_frolo
+|l|☆BigE3L
+|player|p2|
+||BigE3L is ready for game 2.
+|inactive|el_frolo has 30 seconds to confirm battle start!
+||el_frolo is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

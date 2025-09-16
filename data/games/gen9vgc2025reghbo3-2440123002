@@ -1,0 +1,101 @@
+|j|☆tr2koblin
+|j|☆itzlenaluv
+|html|tr2koblinitzlenaluv    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757668060
+|gametype|doubles
+|player|p1|tr2koblin|lucas|1050
+|player|p2|itzlenaluv|170|1049
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Drifblim, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Decidueye-Hisui, L50, M|
+|poke|p1|Gardevoir, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Corviknight, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Corviknight, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|showteam|p1|Drifblim||PsychicSeed|Unburden|Acrobatics,Tailwind,WillOWisp,SunnyDay|||M|||50|,,,,,Grass]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,Imprison,TrickRoom|||M|||50|,,,,,Ground]Decidueye-Hisui||ScopeLens|Scrappy|Protect,LeafBlade,TripleArrows,Haze|||M|||50|,,,,,Fire]Gardevoir||ChoiceScarf|Telepathy|ExpandingForce,DazzlingGleam,Moonblast,Trick|||F|||50|,,,,,Psychic]Garchomp||LifeOrb|RoughSkin|Protect,Earthquake,StompingTantrum,DragonClaw|||M|||50|,,,,,Ground]Corviknight||LumBerry|MirrorArmor|BraveBird,BodyPress,BulkUp,Roost|||M|||50|,,,,,Dragon
+|showteam|p2|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|RockSlide,HighHorsepower,IronHead,Protect|||M|||50|,,,,,Stellar]Corviknight||SafetyGoggles|MirrorArmor|BulkUp,BraveBird,Tailwind,Roost|||F|||50|,,,,,Dragon]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Protect,Trick|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|ThroatChop,CloseCombat,DireClaw,Protect|||M|||50|,,,,,Dark]Amoonguss||SitrusBerry|Regenerator|PollenPuff,RagePowder,Spore,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1757668134
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Corviknight|Corviknight, L50, M, shiny|100/100
+|switch|p1b: PCSD|Garchomp, L50, M, shiny|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757668163
+|-terastallize|p2b: Sneasler|Dark
+|move|p2b: Sneasler|Close Combat|p1b: PCSD
+|-damage|p1b: PCSD|41/100
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|-damage|p2b: Sneasler|88/100|[from] ability: Rough Skin|[of] p1b: PCSD
+|move|p2a: Indeedee|Trick|p1a: Corviknight
+|-activate|p2a: Indeedee|move: Trick|[of] p1a: Corviknight
+|-item|p1a: Corviknight|Choice Scarf|[from] move: Trick
+|-item|p2a: Indeedee|Lum Berry|[from] move: Trick
+|move|p1b: PCSD|Earthquake|p2b: Sneasler|[spread] p2a,p2b
+|-immune|p1a: Corviknight
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2a: Indeedee
+|faint|p2b: Sneasler
+|-damage|p1b: PCSD|31/100|[from] item: Life Orb
+|move|p1a: Corviknight|Body Press|p2: Indeedee|[notarget]
+|-fail|p1a: Corviknight
+|
+|upkeep
+|
+|t:|1757668177
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|2
+|
+|t:|1757668215
+|-terastallize|p1b: PCSD|Ground
+|move|p1b: PCSD|Earthquake|p2a: Tyranitar|[spread] p2a,p2b
+|-immune|p1a: Corviknight
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p2b: Amoonguss|47/100
+|-enditem|p2b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2b: Amoonguss|72/100|[from] item: Sitrus Berry
+|faint|p2a: Tyranitar
+|-damage|p1b: PCSD|22/100|[from] item: Life Orb
+|move|p1a: Corviknight|Body Press|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|63/100
+|move|p2b: Amoonguss|Spore|p1a: Corviknight
+|-status|p1a: Corviknight|slp|[from] move: Spore
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Amoonguss|57/100|[from] Sandstorm
+|upkeep
+|turn|3
+|-message|itzlenaluv forfeited.
+|
+|win|tr2koblin
+||itzlenaluv is ready for game 3.
+||tr2koblin is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆tr2koblin
+|player|p1|

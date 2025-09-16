@@ -1,0 +1,88 @@
+|j|☆Perhaps Perish?
+|j|☆teyvgc
+|html|Perhaps Perish?teyvgc    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757256314
+|gametype|doubles
+|player|p1|Perhaps Perish?|steven|1225
+|player|p2|teyvgc|benga|1305
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Greninja-*, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|teampreview|4
+|showteam|p1|Basculegion||ChoiceBand|SwiftSwim|AquaJet,LastRespects,WaveCrash,FlipTurn|||M|||50|,,,,,Dark]Greninja||LoadedDice|Torrent|WaterShuriken,DarkPulse,Haze,Taunt|||F|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|ElectroShot,DragonPulse,Snarl,BodyPress|||F|||50|,,,,,Grass]Sinistcha||SitrusBerry|Hospitality|LifeDew,TrickRoom,RagePowder,MatchaGotcha||||||50|,,,,,Water]Pelipper||CovertCloak|Drizzle|WeatherBall,Hurricane,WideGuard,Protect|||M|||50|,,,,,Grass]Annihilape||ChoiceScarf|Defiant|FinalGambit,CloseCombat,RageFist,Uturn|||M|||50|,,,,,Grass
+|showteam|p2|Gholdengo||LifeOrb|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy]Sneasler||PsychicSeed|Unburden|Protect,DireClaw,CloseCombat,ThroatChop|||M|||50|,,,,,Dark]Incineroar||SafetyGoggles|Intimidate|KnockOff,PartingShot,FlareBlitz,FakeOut|||F|||50|,,,,,Ghost]Indeedee||ChoiceScarf|PsychicSurge|Protect,Trick,TeraBlast,ExpandingForce|||M|||50|,,,,,Psychic]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,IcyWind,Encore,AuroraVeil|||F|||50|,,,,,Ghost
+|
+|t:|1757256364
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: good pokemon|Greninja, L50, F, shiny|100/100
+|switch|p1b: bad pokemon|Annihilape, L50, M, shiny|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757256423
+|-terastallize|p1a: good pokemon|Ghost
+|move|p2a: Sneasler|Dire Claw|p1a: good pokemon
+|-resisted|p1a: good pokemon
+|-damage|p1a: good pokemon|64/100
+|-status|p1a: good pokemon|slp
+|move|p1b: bad pokemon|U-turn|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|18/100
+|
+|t:|1757256431
+|switch|p1b: Bridge/Stapeler?|Archaludon, L50, F, shiny|100/100|[from] U-turn
+|move|p2b: Indeedee|Expanding Force|p1a: good pokemon|[spread] p1a,p1b
+|-resisted|p1b: Bridge/Stapeler?
+|-damage|p1a: good pokemon|0 fnt
+|-damage|p1b: Bridge/Stapeler?|82/100
+|-ability|p1b: Bridge/Stapeler?|Stamina|boost
+|-boost|p1b: Bridge/Stapeler?|def|1
+|faint|p1a: good pokemon
+|
+|upkeep
+|
+|t:|1757256449
+|switch|p1a: bad pokemon|Annihilape, L50, M, shiny|100/100
+|turn|2
+|
+|t:|1757256469
+|move|p2a: Sneasler|Close Combat|p1b: Bridge/Stapeler?
+|-supereffective|p1b: Bridge/Stapeler?
+|-crit|p1b: Bridge/Stapeler?
+|-damage|p1b: Bridge/Stapeler?|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1b: Bridge/Stapeler?
+|move|p1a: bad pokemon|Final Gambit|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p1a: bad pokemon
+|faint|p2a: Sneasler
+|move|p2b: Indeedee|Expanding Force|p1: bad pokemon|[notarget]
+|-fail|p2b: Indeedee
+|
+|upkeep
+|-message|Perhaps Perish? forfeited.
+|
+|win|teyvgc

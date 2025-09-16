@@ -1,0 +1,196 @@
+|j|☆rusted warrior
+|j|☆ChinoTV
+|html|rusted warriorChinoTV    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757630559
+|gametype|doubles
+|player|p1|rusted warrior|miku-ghost|1242
+|player|p2|ChinoTV|red|1186
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Murkrow, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|showteam|p1|Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|KnockOff,FlareBlitz,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Amoonguss||CovertCloak|Regenerator|RagePowder,PollenPuff,Protect,Spore|||F|||50|,,,,,Dark]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||M|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Protect,Haze|||M|||50|,,,,,Fairy
+|showteam|p2|Murkrow||Eviolite|Prankster|FoulPlay,Haze,Tailwind,Taunt|||F|||50|,,,,,Ghost]Sneasler||WhiteHerb|Unburden|CloseCombat,Protect,DireClaw,ThroatChop|||F|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,Imprison,Protect,TrickRoom|||M|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||M|||50|,,,,,Flying]Volcarona||SitrusBerry|FlameBody|RagePowder,StruggleBug,HeatWave,Tailwind|||F|||50|,,,,,Fairy]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,EarthPower,Protect,HyperVoice|||M|||50|,,,,,Normal
+|
+|t:|1757630580
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F, shiny|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|turn|1
+|
+|t:|1757630602
+|move|p2a: Sneasler|Close Combat|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1b: Incineroar
+|move|p2b: Indeedee|Expanding Force|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|65/100
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|upkeep
+|
+|t:|1757630612
+|switch|p1b: Dragonite|Dragonite, L50, M, shiny|100/100
+|turn|2
+|
+|t:|1757630624
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2a: Sneasler|Throat Chop|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|move|p2b: Indeedee|Expanding Force|p1b: Dragonite|[spread] p1b
+|-activate|p1a: Gholdengo|move: Protect
+|-damage|p1b: Dragonite|72/100
+|move|p1b: Dragonite|Tailwind|p1b: Dragonite
+|-sidestart|p1: rusted warrior|move: Tailwind
+|
+|upkeep
+|turn|3
+|
+|t:|1757630655
+|-terastallize|p1a: Gholdengo|Water
+|move|p2b: Indeedee|Protect|p2b: Indeedee
+|-singleturn|p2b: Indeedee|Protect
+|move|p2a: Sneasler|Throat Chop|p1a: Gholdengo
+|-damage|p1a: Gholdengo|35/100
+|-start|p1a: Gholdengo|Throat Chop|[silent]
+|move|p1a: Gholdengo|Make It Rain|p2b: Indeedee|[spread] p2a
+|-activate|p2b: Indeedee|move: Protect
+|-damage|p2a: Sneasler|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Sneasler
+|-damage|p1a: Gholdengo|26/100|[from] item: Life Orb
+|move|p1b: Dragonite|Scale Shot|p2b: Indeedee
+|-activate|p2b: Indeedee|move: Protect
+|
+|upkeep
+|
+|t:|1757630674
+|switch|p2a: Volcarona|Volcarona, L50, F, shiny|100/100
+|turn|4
+|
+|t:|1757630698
+|move|p2a: Volcarona|Rage Powder|p2a: Volcarona
+|-singleturn|p2a: Volcarona|move: Rage Powder
+|move|p1a: Gholdengo|Shadow Ball|p2a: Volcarona
+|-damage|p2a: Volcarona|27/100
+|-unboost|p2a: Volcarona|spd|1
+|-enditem|p2a: Volcarona|Sitrus Berry|[eat]
+|-heal|p2a: Volcarona|51/100|[from] item: Sitrus Berry
+|-damage|p1a: Gholdengo|16/100|[from] item: Life Orb
+|move|p1b: Dragonite|Scale Shot|p2a: Volcarona
+|-damage|p2a: Volcarona|32/100
+|-damage|p2a: Volcarona|12/100
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|-hitcount|p2: Volcarona|3
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|move|p2b: Indeedee|Expanding Force|p1b: Dragonite|[spread] p1a,p1b
+|-damage|p1a: Gholdengo|0 fnt
+|-damage|p1b: Dragonite|20/100
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1757630717
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|5
+|
+|t:|1757630747
+|-terastallize|p2a: Ursaluna|Normal
+|move|p1b: Dragonite|Protect|p1b: Dragonite
+|-singleturn|p1b: Dragonite|Protect
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Indeedee|Expanding Force|p1a: Ursaluna|[spread] 
+|-activate|p1a: Ursaluna|move: Protect
+|-activate|p1b: Dragonite|move: Protect
+|move|p2a: Ursaluna|Hyper Voice|p1a: Ursaluna|[spread] 
+|-activate|p1a: Ursaluna|move: Protect
+|-activate|p1b: Dragonite|move: Protect
+|
+|-sideend|p1: rusted warrior|move: Tailwind
+|-fieldend|move: Psychic Terrain
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|
+|t:|1757630766
+|move|p1b: Dragonite|Scale Shot|p2b: Indeedee
+|-damage|p2b: Indeedee|72/100
+|-damage|p2b: Indeedee|42/100
+|-crit|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|-hitcount|p2: Indeedee|3
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|move|p2a: Ursaluna|Blood Moon|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|-damage|p2a: Ursaluna|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|t:|1757630784
+|move|p1b: Dragonite|Protect|p1b: Dragonite
+|-singleturn|p1b: Dragonite|Protect
+|move|p2a: Ursaluna|Hyper Voice|p1b: Dragonite
+|-activate|p1b: Dragonite|move: Protect
+|
+|upkeep
+|turn|8
+|
+|t:|1757630790
+|move|p1b: Dragonite|Scale Shot|p2a: Ursaluna
+|-damage|p2a: Ursaluna|77/100
+|-damage|p2a: Ursaluna|64/100
+|-damage|p2a: Ursaluna|50/100
+|-damage|p2a: Ursaluna|36/100
+|-damage|p2a: Ursaluna|24/100
+|-hitcount|p2a: Ursaluna|5
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|move|p2a: Ursaluna|Hyper Voice|p1b: Dragonite
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1b: Dragonite
+|-damage|p2a: Ursaluna|15/100|[from] item: Life Orb
+|
+|win|ChinoTV
+|raw|rusted warrior's rating: 1242 → 1213(-29 for losing)
+|raw|ChinoTV's rating: 1186 → 1215(+29 for winning)
+|l|☆ChinoTV
+|player|p2|

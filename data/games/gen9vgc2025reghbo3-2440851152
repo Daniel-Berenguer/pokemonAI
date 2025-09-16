@@ -1,0 +1,171 @@
+|j|â˜†guian_6
+|j|â˜†GetaJobApplication
+|html|guian_6GetaJobApplication    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757767442
+|gametype|doubles
+|player|p1|guian_6|101|1129
+|player|p2|GetaJobApplication|cynthia-gen4|1272
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each PokÃ©mon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Primarina, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Kommo-o, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Lilligant-Hisui||FocusSash|Chlorophyll|AfterYou,SleepPowder,CloseCombat,SolarBlade|||F|||50|,,,,,Grass]Torkoal||EjectPack|Drought|Overheat,Eruption,EarthPower,Protect|||M|||50|,,,,,Fire]Farigiraf||ThroatSpray|ArmorTail|Protect,HyperVoice,Psychic,TrickRoom|||M|||50|,,,,,Normal]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Ground]Gallade||ClearAmulet|Sharpness|TrickRoom,SacredSword,PsychoCut,Protect|||M|||50|,,,,,Psychic]Primarina||AssaultVest|LiquidVoice|PsychicNoise,Moonblast,HyperVoice,FlipTurn|||M|||50|,,,,,Water
+|showteam|p2|Incineroar||AssaultVest|Intimidate|FakeOut,KnockOff,Uturn,FlareBlitz|||M|||50|,,,,,Bug]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,Trick,HelpingHand,DazzlingGleam|||M|||50|,,,,,Psychic]Kommo-o||ThroatSpray|Overcoat|ClangorousSoul,ClangingScales,Protect,Flamethrower|||M|||50|,,,,,Fire]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,SludgeBomb,Protect|||M|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Steel]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark
+|
+|t:|1757767471
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Kommo-o|Kommo-o, L50, M|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|turn|1
+|
+|t:|1757767500
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|68/100
+|-enditem|p2a: Kommo-o|Throat Spray
+|-boost|p2a: Kommo-o|spa|1|[from] item: Throat Spray
+|move|p1b: Gallade|Psycho Cut|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|16/100
+|-enditem|p2b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2b: Amoonguss|41/100|[from] item: Sitrus Berry
+|move|p2b: Amoonguss|Spore|p1b: Gallade
+|-status|p1b: Gallade|slp|[from] move: Spore
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1757767528
+|-terastallize|p1a: Farigiraf|Normal
+|-terastallize|p2a: Kommo-o|Fire
+|move|p2b: Amoonguss|Spore|p1a: Farigiraf
+|-status|p1a: Farigiraf|slp|[from] move: Spore
+|cant|p1a: Farigiraf|slp
+|cant|p1b: Gallade|slp
+|move|p2a: Kommo-o|Clanging Scales|p1b: Gallade|[spread] p1a,p1b
+|-damage|p1a: Farigiraf|14/100 slp
+|-damage|p1b: Gallade|41/100 slp
+|-unboost|p2a: Kommo-o|def|1
+|
+|upkeep
+|turn|3
+|
+|t:|1757767548
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Farigiraf|atk|1
+|-fail|p1b: Gallade|unboost|[from] item: Clear Amulet|[of] p1b: Gallade
+|cant|p1a: Farigiraf|slp
+|cant|p1b: Gallade|slp
+|move|p2a: Kommo-o|Clanging Scales|p1b: Gallade|[spread] p1a,p1b
+|-damage|p1a: Farigiraf|0 fnt
+|-damage|p1b: Gallade|0 fnt
+|faint|p1a: Farigiraf
+|faint|p1b: Gallade
+|-unboost|p2a: Kommo-o|def|1
+|
+|upkeep
+|
+|t:|1757767553
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|4
+|
+|t:|1757767566
+|move|p1b: Torkoal|Protect|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Protect
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|move|p2a: Kommo-o|Clanging Scales|p1b: Torkoal|[spread] 
+|-activate|p1a: Ursaluna|move: Protect
+|-activate|p1b: Torkoal|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757767579
+|switch|p2b: Amoonguss|Amoonguss, L50, M|74/100
+|move|p2a: Kommo-o|Protect|p2a: Kommo-o
+|-singleturn|p2a: Kommo-o|Protect
+|move|p1b: Torkoal|Eruption|p2a: Kommo-o|[spread] p2b
+|-activate|p2a: Kommo-o|move: Protect
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|move|p1a: Ursaluna|Hyper Voice|p2a: Kommo-o
+|-activate|p2a: Kommo-o|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1757767582
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|turn|6
+|
+|t:|1757767593
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p1b: Torkoal|Protect|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|move|p2a: Kommo-o|Clanging Scales|p1a: Ursaluna|[spread] 
+|-activate|p1a: Ursaluna|move: Protect
+|-activate|p1b: Torkoal|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1757767606
+|move|p2a: Kommo-o|Clanging Scales|p1b: Torkoal|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|17/100
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|-unboost|p2a: Kommo-o|def|1
+|move|p2b: Incineroar|Flare Blitz|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|-damage|p2b: Incineroar|95/100|[from] Recoil
+|
+|win|GetaJobApplication
+||guian_6 is ready for game 2.
+|inactive|GetaJobApplication has 30 seconds to confirm battle start!
+||GetaJobApplication is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|â˜†guian_6
+|player|p1|

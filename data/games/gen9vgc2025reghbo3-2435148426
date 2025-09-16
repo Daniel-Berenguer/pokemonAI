@@ -1,0 +1,138 @@
+|j|☆lilrainteamwahoo
+|j|☆Heath000000
+|html|lilrainteamwahooHeath000000    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757003924
+|gametype|doubles
+|player|p1|lilrainteamwahoo|baker|1179
+|player|p2|Heath000000|101|1000
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Hydreigon, L50, M|
+|poke|p2|Primeape, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Shiftry, L50, M|
+|poke|p2|Swampert, L50, M|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,BodyPress,FlashCannon|||M|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Ghost]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,DazzlingGleam|||M|||50|,,,,,Ground]Amoonguss||SitrusBerry|Regenerator|Spore,SludgeBomb,Protect,RagePowder|||F|||50|,,,,,Water]Basculegion||ChoiceBand|SwiftSwim|FlipTurn,WaveCrash,LastRespects,AquaJet|||M|||50|,,,,,Poison]Hydreigon||CovertCloak|Levitate|Taunt,Snarl,DracoMeteor,EarthPower|||M|||50|,,,,,Fairy
+|showteam|p2|Primeape||Eviolite|Defiant|BulkUp,RageFist,DrainPunch,FirePunch|||M|||50|,,,,,Fighting]Torkoal||Charcoal|ShellArmor|Eruption,Protect,Bulldoze,ClearSmog|||F|||50|,,,,,Fire]Shiftry||WeaknessPolicy|Chlorophyll|SolarBlade,AirSlash,FakeOut,FoulPlay|||M|||50|,,,,,Grass]Swampert||Leftovers|Torrent|Earthquake,FlipTurn,MuddyWater,Liquidation|||M|||50|,,,,,Water
+|
+|t:|1757003964
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Goodee|Indeedee, L50, M|100/100
+|switch|p1b: Schmooner|Amoonguss, L50, F|100/100
+|switch|p2a: Primeape|Primeape, L50, M|100/100
+|switch|p2b: Swampert|Swampert, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Goodee
+|turn|1
+|
+|t:|1757003984
+|move|p1a: Goodee|Trick|p2a: Primeape
+|-activate|p1a: Goodee|move: Trick|[of] p2a: Primeape
+|-item|p2a: Primeape|Choice Scarf|[from] move: Trick
+|-item|p1a: Goodee|Eviolite|[from] move: Trick
+|move|p2a: Primeape|Bulk Up|p2a: Primeape
+|-boost|p2a: Primeape|atk|1
+|-boost|p2a: Primeape|def|1
+|move|p2b: Swampert|Flip Turn|p1a: Goodee
+|-damage|p1a: Goodee|36/100
+|
+|t:|1757003996
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100|[from] Flip Turn
+|move|p1b: Schmooner|Spore|p2b: Torkoal
+|-status|p2b: Torkoal|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1757004017
+|switch|p2a: Swampert|Swampert, L50, M|100/100
+|move|p1a: Goodee|Expanding Force|p2b: Torkoal|[spread] p2a,p2b
+|-damage|p2a: Swampert|48/100
+|-damage|p2b: Torkoal|28/100 slp
+|move|p1b: Schmooner|Sludge Bomb|p2a: Swampert
+|-resisted|p2a: Swampert
+|-damage|p2a: Swampert|35/100
+|cant|p2b: Torkoal|slp
+|
+|-heal|p2a: Swampert|41/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1757004047
+|cant|p2b: Torkoal|slp
+|move|p1a: Goodee|Expanding Force|p2b: Torkoal|[spread] p2a,p2b
+|-damage|p2a: Swampert|0 fnt
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2a: Swampert
+|faint|p2b: Torkoal
+|move|p1b: Schmooner|Sludge Bomb|p2: Swampert|[notarget]
+|-fail|p1b: Schmooner
+|
+|upkeep
+|
+|t:|1757004057
+|switch|p2a: Shiftry|Shiftry, L50, M|100/100
+|switch|p2b: Primeape|Primeape, L50, M|100/100
+|turn|4
+|
+|t:|1757004078
+|move|p2a: Shiftry|Fake Out|p1a: Goodee
+|-activate|p1a: Goodee|move: Psychic Terrain
+|move|p1b: Schmooner|Rage Powder|p1b: Schmooner
+|-singleturn|p1b: Schmooner|move: Rage Powder
+|move|p2b: Primeape|Fire Punch|p1b: Schmooner
+|-supereffective|p1b: Schmooner
+|-damage|p1b: Schmooner|62/100
+|move|p1a: Goodee|Expanding Force|p2b: Primeape|[spread] p2b
+|-immune|p2a: Shiftry
+|-supereffective|p2b: Primeape
+|-damage|p2b: Primeape|0 fnt
+|faint|p2b: Primeape
+|
+|upkeep
+|turn|5
+|
+|t:|1757004097
+|move|p1a: Goodee|Trick|p2a: Shiftry
+|-activate|p1a: Goodee|move: Trick|[of] p2a: Shiftry
+|-item|p2a: Shiftry|Eviolite|[from] move: Trick
+|-item|p1a: Goodee|Weakness Policy|[from] move: Trick
+|move|p2a: Shiftry|Air Slash|p1b: Schmooner
+|-supereffective|p1b: Schmooner
+|-damage|p1b: Schmooner|38/100
+|-enditem|p1b: Schmooner|Sitrus Berry|[eat]
+|-heal|p1b: Schmooner|63/100|[from] item: Sitrus Berry
+|move|p1b: Schmooner|Sludge Bomb|p2a: Shiftry
+|-supereffective|p2a: Shiftry
+|-damage|p2a: Shiftry|13/100
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1757004125
+|move|p1a: Goodee|Tera Blast|p2a: Shiftry
+|-damage|p2a: Shiftry|0 fnt
+|faint|p2a: Shiftry
+|
+|win|lilrainteamwahoo
+|l|☆Heath000000
+|player|p2|
+|inactive|lilrainteamwahoo has 30 seconds to confirm battle start!
+|inactive|Heath000000 has 30 seconds to confirm battle start!
+||lilrainteamwahoo is ready for game 2.
+|inactive|Heath000000 has 20 seconds to confirm battle start!
+|inactive|Heath000000 has 10 seconds to confirm battle start!
+|uhtml|next|Next: Game 2 of 3

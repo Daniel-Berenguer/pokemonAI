@@ -1,0 +1,188 @@
+|j|☆johnrg
+|j|☆C.blaze
+|html|johnrgC.blaze    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757715435
+|gametype|doubles
+|player|p1|johnrg|265|1294
+|player|p2|C.blaze|266|1358
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Typhlosion-Hisui, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Salamence, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Tauros-Paldea-Blaze, L50, M|
+|teampreview|4
+|showteam|p1|Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,HeatWave,ShadowBall,Overheat|||F|||50|,,,,,Fire]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Flying]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||F|||50|,,,,,Flying]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,Protect,NastyPlot||||||50|,,,,,Water]Salamence||CovertCloak|Intimidate|DracoMeteor,Flamethrower,Protect,Tailwind|||M|||50|,,,,,Steel]Amoonguss||MentalHerb|Regenerator|ClearSmog,PollenPuff,Spore,RagePowder|||F|||50|,,,,,Water]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Tauros-Paldea-Blaze||SafetyGoggles|Intimidate|RagingBull,WillOWisp,Protect,CloseCombat|||M|||50|,,,,,Water
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by johnrg)
+|
+|t:|1757715450
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|switch|p1b: Jumpluff|Jumpluff, L50, F|100/100
+|switch|p2a: Salamence|Salamence, L50, M|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1b: Jumpluff|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-enditem|p1a: Torkoal|Eject Pack
+|
+|t:|1757715456
+|switch|p1a: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|turn|1
+|
+|t:|1757715464
+|-terastallize|p1a: Typhlosion|Fire
+|-terastallize|p2b: Gholdengo|Water
+|move|p1b: Jumpluff|Sleep Powder|p2a: Salamence
+|-status|p2a: Salamence|slp|[from] move: Sleep Powder
+|cant|p2a: Salamence|slp
+|move|p1a: Typhlosion|Eruption|p2a: Salamence|[spread] p2a,p2b
+|-resisted|p2a: Salamence
+|-resisted|p2b: Gholdengo
+|-damage|p2a: Salamence|1/100 slp
+|-damage|p2b: Gholdengo|15/100
+|move|p2b: Gholdengo|Shadow Ball|p1a: Typhlosion
+|-damage|p1a: Typhlosion|13/100
+|-damage|p2b: Gholdengo|5/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757715487
+|move|p1b: Jumpluff|Tailwind|p1b: Jumpluff
+|-sidestart|p1: johnrg|move: Tailwind
+|move|p1a: Typhlosion|Eruption|p2a: Salamence|[spread] p2a,p2b
+|-resisted|p2a: Salamence
+|-resisted|p2b: Gholdengo
+|-damage|p2a: Salamence|0 fnt
+|-damage|p2b: Gholdengo|0 fnt
+|faint|p2a: Salamence
+|faint|p2b: Gholdengo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757715492
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|atk|1
+|turn|3
+|
+|t:|1757715501
+|move|p1b: Jumpluff|Sleep Powder|p2a: Tyranitar
+|-status|p2a: Tyranitar|slp|[from] move: Sleep Powder
+|move|p1a: Typhlosion|Eruption|p2b: Porygon2|[spread] p2a,p2b
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|96/100 slp
+|-damage|p2b: Porygon2|88/100
+|cant|p2a: Tyranitar|slp
+|move|p2b: Porygon2|Trick Room|p2b: Porygon2
+|-fieldstart|move: Trick Room|[of] p2b: Porygon2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Porygon2|82/100|[from] Sandstorm
+|-damage|p1a: Typhlosion|7/100|[from] Sandstorm
+|-damage|p1b: Jumpluff|94/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1757715514
+|move|p2b: Porygon2|Ice Beam|p1b: Jumpluff
+|-supereffective|p1b: Jumpluff
+|-damage|p1b: Jumpluff|0 fnt
+|faint|p1b: Jumpluff
+|cant|p2a: Tyranitar|slp
+|move|p1a: Typhlosion|Eruption|p2b: Porygon2|[spread] p2a,p2b
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|93/100 slp
+|-damage|p2b: Porygon2|74/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Porygon2|68/100|[from] Sandstorm
+|-damage|p1a: Typhlosion|1/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757715519
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|5
+|
+|t:|1757715523
+|move|p1b: Torkoal|Eruption|p2a: Tyranitar|[spread] p2a,p2b
+|-resisted|p2a: Tyranitar
+|-damage|p2a: Tyranitar|73/100 slp
+|-damage|p2b: Porygon2|21/100
+|move|p2b: Porygon2|Tera Blast|p1b: Torkoal
+|-damage|p1b: Torkoal|43/100
+|cant|p2a: Tyranitar|slp
+|move|p1a: Typhlosion|Eruption|p2a: Tyranitar|[spread] p2a,p2b
+|-resisted|p2a: Tyranitar
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|73/100 slp
+|-damage|p2b: Porygon2|21/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: johnrg|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1757715535
+|move|p1b: Torkoal|Overheat|p2b: Porygon2
+|-damage|p2b: Porygon2|0 fnt
+|-unboost|p1b: Torkoal|spa|2
+|faint|p2b: Porygon2
+|-curestatus|p2a: Tyranitar|slp|[msg]
+|move|p2a: Tyranitar|Rock Slide|p1a: Typhlosion|[spread] p1a,p1b
+|-supereffective|p1a: Typhlosion
+|-supereffective|p1b: Torkoal
+|-damage|p1a: Typhlosion|0 fnt
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1a: Typhlosion
+|faint|p1b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757715539
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|7
+|
+|t:|1757715555
+|move|p2a: Tyranitar|Knock Off|p1b: Ursaluna
+|-damage|p1b: Ursaluna|59/100
+|-enditem|p1b: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p2a: Tyranitar
+|move|p1b: Ursaluna|Headlong Rush|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|faint|p2a: Tyranitar
+|
+|win|johnrg
+|inactive|johnrg has 30 seconds to confirm battle start!
+|inactive|C.blaze has 30 seconds to confirm battle start!
+||johnrg is ready for game 3.
+||C.blaze is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆C.blaze
+|player|p2|

@@ -1,0 +1,98 @@
+|j|☆kheld
+|j|☆CianMck18
+|html|kheldCianMck18    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757771770
+|gametype|doubles
+|player|p1|kheld|266|1151
+|player|p2|CianMck18|170|1185
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Armarouge, L50, F|
+|poke|p1|Oranguru, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Maushold-Four, L50|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|teampreview|4
+|showteam|p1|Armarouge||CovertCloak|FlashFire|ExpandingForce,Protect,TrickRoom,ArmorCannon|||F|||50|,,,,,Grass]Oranguru||SafetyGoggles|Telepathy|TrickRoom,Instruct,Protect,FoulPlay|||M|||50|,,,,,Fairy]Indeedee-F||RockyHelmet|PsychicSurge|DazzlingGleam,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Torkoal||Charcoal|Drought|Eruption,HeatWave,EarthPower,Protect|||M|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|LeafBlade,CloseCombat,AfterYou,SleepPowder|||F|||50|,,,,,Ghost
+|showteam|p2|Annihilape||Leftovers|Defiant|Protect,BulkUp,DrainPunch,RageFist|||F|||50|,,,,,Fire]Maushold-Four||SafetyGoggles|FriendGuard|FollowMe,Taunt,BeatUp,Protect||||||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|Protect,NastyPlot,MakeItRain,ShadowBall||||||50|,,,,,Dragon]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,HighHorsepower|||F|||50|,,,,,Fire]Sneasler||FocusSash|Unburden|Protect,FakeOut,DireClaw,CloseCombat|||M|||50|,,,,,Stellar]Ninetales-Alola||LightClay|SnowWarning|Encore,IcyWind,Blizzard,AuroraVeil|||F|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by CianMck18)
+|
+|t:|1757771796
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Oranguru|Oranguru, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Maushold|Maushold-Four, L50|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1757771804
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Maushold|Taunt|p1b: Indeedee
+|-start|p1b: Indeedee|move: Taunt
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p1a: Oranguru|Trick Room|p1a: Oranguru
+|-fieldstart|move: Trick Room|[of] p1a: Oranguru
+|
+|upkeep
+|turn|2
+|
+|t:|1757771819
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|move|p1a: Oranguru|Protect|p1a: Oranguru
+|-singleturn|p1a: Oranguru|Protect
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p2a: Maushold|Taunt|p1a: Oranguru
+|-activate|p1a: Oranguru|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757771841
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|-terastallize|p1b: Torkoal|Fire
+|-terastallize|p2b: Gholdengo|Dragon
+|move|p2a: Maushold|Protect|p2a: Maushold
+|-singleturn|p2a: Maushold|Protect
+|move|p1b: Torkoal|Eruption|p2a: Maushold|[spread] p2b
+|-activate|p2a: Maushold|move: Protect
+|-resisted|p2b: Gholdengo
+|-damage|p2b: Gholdengo|48/100
+|move|p2b: Gholdengo|Make It Rain|p1b: Torkoal|[spread] p1a,p1b
+|-resisted|p1b: Torkoal
+|-damage|p1a: Ursaluna|0 fnt
+|-damage|p1b: Torkoal|0 fnt
+|-unboost|p2b: Gholdengo|spa|1
+|faint|p1a: Ursaluna
+|faint|p1b: Torkoal
+|-damage|p2b: Gholdengo|38/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|kheld forfeited.
+|
+|win|CianMck18
+|l|☆kheld
+|player|p1|
+||kheld is ready for game 2.
+||CianMck18 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

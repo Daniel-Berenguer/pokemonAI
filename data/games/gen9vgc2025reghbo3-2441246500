@@ -1,0 +1,215 @@
+|j|☆char_labs
+|j|☆Quill86
+|html|char_labsQuill86    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757818300
+|gametype|doubles
+|player|p1|char_labs|clerkf|1137
+|player|p2|Quill86|lucas|1206
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Vivillon, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Primarina, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,Haze,LowKick|||M|||50|,,,,,Fairy]Vivillon||FocusSash|CompoundEyes|Tailwind,Protect,Hurricane,SleepPowder|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Protect,Facade,Earthquake,HeadlongRush|||F|||50|,,,,,Ghost]Gholdengo||Leftovers|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,KnockOff,FlareBlitz|||F|||50|,,,,,Dragon]Primarina||SitrusBerry|LiquidVoice|Protect,DazzlingGleam,Moonblast,HyperVoice|||M|||50|,,,,,Steel
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Gholdengo||SitrusBerry|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,TrickRoom,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Torkoal||Leftovers|Drought|Eruption,WeatherBall,Yawn,Protect|||M|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by char_labs)
+|
+|t:|1757818328
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757818339
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p1b: Dragonite|Scale Shot|p2b: Gallade
+|-damage|p2b: Gallade|78/100
+|-damage|p2b: Gallade|57/100
+|-damage|p2b: Gallade|36/100
+|-damage|p2b: Gallade|14/100
+|-hitcount|p2b: Gallade|4
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|move|p2b: Gallade|Psycho Cut|p1b: Dragonite
+|-damage|p1b: Dragonite|38/100
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1757818359
+|-terastallize|p1a: Ursaluna|Ghost
+|move|p2b: Gallade|Sacred Sword|p1a: Ursaluna
+|-immune|p1a: Ursaluna
+|move|p1a: Ursaluna|Earthquake|p2a: Indeedee|[spread] p2a,p2b
+|-immune|p1b: Dragonite
+|-damage|p2a: Indeedee|32/100
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Ursaluna|[spread] p1a,p1b
+|-supereffective|p1b: Dragonite
+|-damage|p1a: Ursaluna|87/100 brn
+|-damage|p1b: Dragonite|8/100
+|move|p1b: Dragonite|Scale Shot|p2a: Indeedee|[miss]
+|-miss|p1b: Dragonite|p2a: Indeedee
+|
+|-damage|p1a: Ursaluna|81/100 brn|[from] brn
+|upkeep
+|
+|t:|1757818365
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|3
+|
+|t:|1757818374
+|-terastallize|p2b: Torkoal|Fire
+|move|p2a: Indeedee|Helping Hand|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Helping Hand|[of] p2a: Indeedee
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Torkoal|Eruption|p1b: Dragonite|[spread] p1b
+|-activate|p1a: Ursaluna|move: Protect
+|-resisted|p1b: Dragonite
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1b: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|75/100 brn|[from] brn
+|upkeep
+|
+|t:|1757818379
+|switch|p1b: Primarina|Primarina, L50, M|100/100
+|turn|4
+|
+|t:|1757818386
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Torkoal|atk|1
+|move|p2a: Indeedee|Helping Hand|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Helping Hand|[of] p2a: Indeedee
+|move|p2b: Torkoal|Eruption|p1b: Primarina|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-resisted|p1b: Primarina
+|-damage|p1a: Incineroar|34/100
+|-damage|p1b: Primarina|39/100
+|-enditem|p1b: Primarina|Sitrus Berry|[eat]
+|-heal|p1b: Primarina|64/100|[from] item: Sitrus Berry
+|move|p1b: Primarina|Hyper Voice|p2a: Indeedee|[spread] p2a,p2b
+|-supereffective|p2b: Torkoal
+|-damage|p2a: Indeedee|24/100
+|-damage|p2b: Torkoal|63/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Torkoal|69/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1757818398
+|move|p1b: Primarina|Protect|p1b: Primarina
+|-singleturn|p1b: Primarina|Protect
+|move|p2b: Torkoal|Yawn|p1a: Incineroar
+|-start|p1a: Incineroar|move: Yawn|[of] p2b: Torkoal
+|move|p1a: Incineroar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Torkoal|76/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1757818403
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|6
+|
+|t:|1757818407
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1b: Primarina|Hyper Voice|p2a: Ursaluna|[spread] p2b
+|-activate|p2a: Ursaluna|move: Protect
+|-supereffective|p2b: Torkoal
+|-damage|p2b: Torkoal|34/100
+|move|p1a: Incineroar|Parting Shot|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|move|p2b: Torkoal|Yawn|p1b: Primarina
+|-start|p1b: Primarina|move: Yawn|[of] p2b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Torkoal|40/100|[from] item: Leftovers
+|-end|p1a: Incineroar|move: Yawn|[silent]
+|-status|p1a: Incineroar|slp
+|upkeep
+|turn|7
+|
+|t:|1757818426
+|move|p2b: Torkoal|Protect|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Protect
+|move|p1b: Primarina|Hyper Voice|p2a: Ursaluna|[spread] p2a
+|-activate|p2b: Torkoal|move: Protect
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|65/100
+|cant|p1a: Incineroar|slp
+|move|p2a: Ursaluna|Hyper Voice|p1b: Primarina|[spread] p1a,p1b
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Primarina|25/100
+|faint|p1a: Incineroar
+|-damage|p2a: Ursaluna|55/100|[from] item: Life Orb
+|
+|-weather|none
+|-heal|p2b: Torkoal|46/100|[from] item: Leftovers
+|-end|p1b: Primarina|move: Yawn|[silent]
+|-status|p1b: Primarina|slp
+|upkeep
+|
+|t:|1757818432
+|switch|p1a: Ursaluna|Ursaluna, L50, F, tera:Ghost|75/100 brn
+|turn|8
+|
+|t:|1757818446
+|move|p1a: Ursaluna|Earthquake|p2a: Ursaluna|[spread] p1b,p2a,p2b
+|-crit|p1b: Primarina
+|-supereffective|p2b: Torkoal
+|-damage|p1b: Primarina|0 fnt
+|-damage|p2a: Ursaluna|5/100
+|-damage|p2b: Torkoal|0 fnt
+|faint|p1b: Primarina
+|faint|p2b: Torkoal
+|move|p2a: Ursaluna|Blood Moon|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt|[from] item: Life Orb
+|faint|p2a: Ursaluna
+|
+|win|Quill86
+|raw|char_labs's rating: 1137 → 1117(-20 for losing)
+|raw|Quill86's rating: 1206 → 1226(+20 for winning)
+|l|☆char_labs
+|player|p1|

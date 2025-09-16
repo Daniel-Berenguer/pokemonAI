@@ -1,0 +1,105 @@
+|j|☆Sores
+|j|☆MausoldMyBeer
+|html|SoresMausoldMyBeer    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757830752
+|gametype|doubles
+|player|p1|Sores|veteran|1304
+|player|p2|MausoldMyBeer|102|1372
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Milotic, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Maushold-Four, L50|
+|poke|p1|Annihilape, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Milotic||MysticWater|Competitive|Scald,MuddyWater,Protect,IceBeam|||M|||50|,,,,,Water]Pelipper||FocusSash|Drizzle|Hurricane,Tailwind,HelpingHand,Protect|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,FlashCannon,DragonPulse|||F|||50|,,,,,Bug]Rillaboom||LoadedDice|GrassySurge|FakeOut,BulletSeed,GrassyGlide,HighHorsepower|||M|||50|,,,,,Fire]Maushold-Four||SafetyGoggles|FriendGuard|FollowMe,BeatUp,Taunt,Protect||||||50|,,,,,Ghost]Annihilape||Leftovers|Defiant|RageFist,DrainPunch,BulkUp,Protect|||M|||50|,,,,,Water
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,HyperVoice|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||F|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|
+|t:|1757830775
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Milotic|Milotic, L50, M|100/100
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|switch|p2a: Volcarona|Volcarona, L50, F, shiny|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|1
+|
+|t:|1757830791
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|-terastallize|p1a: Milotic|Water
+|-terastallize|p2b: Ursaluna|Normal
+|move|p2a: Volcarona|Tailwind|p2a: Volcarona
+|-sidestart|p2: MausoldMyBeer|move: Tailwind
+|move|p2b: Ursaluna|Blood Moon|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|-damage|p2b: Ursaluna|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757830808
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|2
+|
+|t:|1757830822
+|switch|p2a: Indeedee|Indeedee, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Rillaboom|Fake Out|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Psychic Terrain
+|move|p2b: Ursaluna|Hyper Voice|p1a: Rillaboom|[spread] p1a,p1b
+|-damage|p1a: Rillaboom|11/100
+|-enditem|p1b: Pelipper|Focus Sash
+|-damage|p1b: Pelipper|1/100
+|-damage|p2b: Ursaluna|81/100|[from] item: Life Orb
+|move|p1b: Pelipper|Tailwind|p1b: Pelipper
+|-sidestart|p1: Sores|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757830836
+|switch|p1a: Archaludon|Archaludon, L50, F|100/100
+|move|p1b: Pelipper|Protect|p1b: Pelipper
+|-singleturn|p1b: Pelipper|Protect
+|move|p2a: Indeedee|Expanding Force|p1b: Pelipper|[spread] p1a
+|-activate|p1b: Pelipper|move: Protect
+|-resisted|p1a: Archaludon
+|-damage|p1a: Archaludon|79/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p2b: Ursaluna|Earth Power|p1a: Archaludon
+|-supereffective|p1a: Archaludon
+|-damage|p1a: Archaludon|0 fnt
+|faint|p1a: Archaludon
+|-damage|p2b: Ursaluna|72/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|Sores forfeited.
+|
+|win|MausoldMyBeer
+||MausoldMyBeer is ready for game 3.
+||Sores is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆Sores
+|player|p1|
+|l|☆MausoldMyBeer
+|player|p2|

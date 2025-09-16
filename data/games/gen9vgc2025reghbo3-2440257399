@@ -1,0 +1,246 @@
+|j|☆p0lisindet0n
+|j|☆Crystneel
+|html|p0lisindet0nCrystneel    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757686866
+|gametype|doubles
+|player|p1|p0lisindet0n|lucas|1066
+|player|p2|Crystneel|169|1142
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Chesnaught, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Politoed, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Electabuzz, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|showteam|p1|Chesnaught||GrassySeed|Bulletproof|BodyPress,IronDefense,LeechSeed,SpikyShield|||F|||50|,,,,,Fire]Rillaboom||SitrusBerry|GrassySurge|FakeOut,WoodHammer,GrassyGlide,Uturn|||F|||50|,,,,,Fire]Politoed||Leftovers|Drizzle|WeatherBall,Encore,IcyWind,Protect|||M|||50|,,,,,Grass]Archaludon||AssaultVest|Stamina|ElectroShot,DragonPulse,BodyPress,FlashCannon|||F|||50|,,,,,Bug]Basculegion||ChoiceBand|SwiftSwim|AquaJet,FlipTurn,LastRespects,WaveCrash|||M|||50|,,,,,Water]Gholdengo||ChoiceScarf|GoodasGold|ShadowBall,MakeItRain,PowerGem,TeraBlast||||||50|,,,,,Fighting
+|showteam|p2|Volcarona||Leftovers|FlameBody|FieryDance,QuiverDance,GigaDrain,Protect|||F|||50|,,,,,Water]Electabuzz||Eviolite|Static|FollowMe,Electroweb,VoltSwitch,Taunt|||F|||50|,,,,,Fairy]Sneasler||GrassySeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,Uturn|||F|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ExtremeSpeed,ScaleShot,IceSpinner,LowKick|||M|||50|,,,,,Normal]Ursaluna-Bloodmoon||ThroatSpray|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Poison
+|
+|t:|1757686896
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Chesnaught|Chesnaught, L50, F|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: Electabuzz|Electabuzz, L50, F|100/100
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-enditem|p1a: Chesnaught|Grassy Seed
+|-boost|p1a: Chesnaught|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1757686913
+|-terastallize|p1a: Chesnaught|Fire
+|move|p1b: Rillaboom|Fake Out|p2a: Electabuzz
+|-damage|p2a: Electabuzz|88/100
+|cant|p2a: Electabuzz|flinch
+|move|p2b: Volcarona|Quiver Dance|p2b: Volcarona
+|-boost|p2b: Volcarona|spa|1
+|-boost|p2b: Volcarona|spd|1
+|-boost|p2b: Volcarona|spe|1
+|move|p1a: Chesnaught|Iron Defense|p1a: Chesnaught
+|-boost|p1a: Chesnaught|def|2
+|
+|-heal|p2a: Electabuzz|94/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1757686937
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|move|p2a: Electabuzz|Follow Me|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|move: Follow Me
+|move|p2b: Volcarona|Fiery Dance|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|-boost|p2b: Volcarona|spa|1
+|faint|p1b: Gholdengo
+|move|p1a: Chesnaught|Leech Seed|p2a: Electabuzz
+|-start|p2a: Electabuzz|move: Leech Seed
+|
+|-heal|p2a: Electabuzz|99/100|[from] Grassy Terrain
+|-damage|p2a: Electabuzz|87/100|[from] Leech Seed|[of] p1a: Chesnaught
+|upkeep
+|
+|t:|1757686954
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|turn|3
+|
+|t:|1757686966
+|move|p2b: Volcarona|Protect|p2b: Volcarona
+|-singleturn|p2b: Volcarona|Protect
+|move|p1b: Rillaboom|Fake Out|p2a: Electabuzz
+|-damage|p2a: Electabuzz|75/100
+|cant|p2a: Electabuzz|flinch
+|move|p1a: Chesnaught|Body Press|p2b: Volcarona
+|-activate|p2b: Volcarona|move: Protect
+|
+|-heal|p2a: Electabuzz|81/100|[from] Grassy Terrain
+|-damage|p2a: Electabuzz|69/100|[from] Leech Seed|[of] p1a: Chesnaught
+|upkeep
+|turn|4
+|
+|t:|1757686983
+|move|p1b: Rillaboom|Grassy Glide|p2a: Electabuzz
+|-damage|p2a: Electabuzz|39/100
+|move|p2b: Volcarona|Fiery Dance|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|move|p2a: Electabuzz|Volt Switch|p1a: Chesnaught
+|-damage|p1a: Chesnaught|75/100
+|
+|t:|1757686993
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100|[from] Volt Switch
+|move|p1a: Chesnaught|Body Press|p2b: Volcarona
+|-resisted|p2b: Volcarona
+|-damage|p2b: Volcarona|35/100
+|
+|-heal|p2b: Volcarona|41/100|[from] Grassy Terrain
+|-heal|p2b: Volcarona|47/100|[from] item: Leftovers
+|-heal|p1a: Chesnaught|82/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757687003
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|turn|5
+|
+|t:|1757687029
+|move|p2b: Volcarona|Fiery Dance|p1b: Archaludon
+|-damage|p1b: Archaludon|41/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p2a: Rillaboom|U-turn|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|79/100
+|
+|t:|1757687036
+|switch|p2a: Electabuzz|Electabuzz, L50, F|39/100|[from] U-turn
+|move|p1b: Archaludon|Dragon Pulse|p2a: Electabuzz
+|-damage|p2a: Electabuzz|10/100
+|move|p1a: Chesnaught|Body Press|p2b: Volcarona
+|-resisted|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|faint|p2b: Volcarona
+|
+|-heal|p2a: Electabuzz|16/100|[from] Grassy Terrain
+|-heal|p1b: Archaludon|47/100|[from] Grassy Terrain
+|-heal|p1a: Chesnaught|85/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1757687049
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|turn|6
+|
+|t:|1757687063
+|move|p2a: Electabuzz|Follow Me|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|move: Follow Me
+|move|p2b: Sneasler|Close Combat|p1b: Archaludon
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1b: Archaludon
+|move|p1a: Chesnaught|Body Press|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|faint|p2a: Electabuzz
+|
+|upkeep
+|
+|t:|1757687073
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p2b: Sneasler|Grassy Seed
+|-boost|p2b: Sneasler|def|1|[from] item: Grassy Seed
+|turn|7
+|
+|t:|1757687082
+|move|p1a: Chesnaught|Spiky Shield|p1a: Chesnaught
+|-singleturn|p1a: Chesnaught|move: Protect
+|move|p2a: Rillaboom|Fake Out|p1a: Chesnaught
+|-activate|p1a: Chesnaught|move: Protect
+|-damage|p2a: Rillaboom|88/100|[from] Spiky Shield|[of] p1a: Chesnaught
+|move|p2b: Sneasler|Dire Claw|p1a: Chesnaught
+|-activate|p1a: Chesnaught|move: Protect
+|-damage|p2b: Sneasler|88/100|[from] Spiky Shield|[of] p1a: Chesnaught
+|
+|-heal|p2b: Sneasler|94/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|94/100|[from] Grassy Terrain
+|-heal|p1a: Chesnaught|91/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1757687095
+|move|p2b: Sneasler|Dire Claw|p1a: Chesnaught
+|-damage|p1a: Chesnaught|81/100
+|move|p2a: Rillaboom|Wood Hammer|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|71/100
+|-damage|p2a: Rillaboom|91/100|[from] Recoil
+|move|p1a: Chesnaught|Leech Seed|p2b: Sneasler
+|-start|p2b: Sneasler|move: Leech Seed
+|
+|-heal|p2b: Sneasler|99/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|97/100|[from] Grassy Terrain
+|-heal|p1a: Chesnaught|78/100|[from] Grassy Terrain
+|-damage|p2b: Sneasler|88/100|[from] Leech Seed|[of] p1a: Chesnaught
+|-heal|p1a: Chesnaught|87/100|[silent]
+|upkeep
+|turn|9
+|
+|t:|1757687111
+|move|p2b: Sneasler|Dire Claw|p1a: Chesnaught
+|-damage|p1a: Chesnaught|78/100
+|move|p2a: Rillaboom|Wood Hammer|p1a: Chesnaught
+|-resisted|p1a: Chesnaught
+|-damage|p1a: Chesnaught|67/100
+|-damage|p2a: Rillaboom|94/100|[from] Recoil
+|move|p1a: Chesnaught|Body Press|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-heal|p2b: Sneasler|93/100|[from] Grassy Terrain
+|-heal|p1a: Chesnaught|73/100|[from] Grassy Terrain
+|-damage|p2b: Sneasler|81/100|[from] Leech Seed|[of] p1a: Chesnaught
+|-heal|p1a: Chesnaught|83/100|[silent]
+|upkeep
+|turn|10
+|
+|t:|1757687125
+|move|p1a: Chesnaught|Spiky Shield|p1a: Chesnaught
+|-singleturn|p1a: Chesnaught|move: Protect
+|move|p2b: Sneasler|Dire Claw|p1a: Chesnaught
+|-activate|p1a: Chesnaught|move: Protect
+|-damage|p2b: Sneasler|69/100|[from] Spiky Shield|[of] p1a: Chesnaught
+|
+|-heal|p2b: Sneasler|75/100|[from] Grassy Terrain
+|-heal|p1a: Chesnaught|90/100|[from] Grassy Terrain
+|-damage|p2b: Sneasler|62/100|[from] Leech Seed|[of] p1a: Chesnaught
+|-heal|p1a: Chesnaught|99/100|[silent]
+|upkeep
+|turn|11
+|
+|t:|1757687135
+|move|p2b: Sneasler|Dire Claw|p1a: Chesnaught
+|-damage|p1a: Chesnaught|89/100
+|move|p1a: Chesnaught|Body Press|p2b: Sneasler
+|-resisted|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|win|p0lisindet0n
+||Crystneel is ready for game 3.
+||p0lisindet0n is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

@@ -1,0 +1,160 @@
+|j|☆WallType
+|j|☆JoshSketch
+|html|WallTypeJoshSketch    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757709501
+|gametype|doubles
+|player|p1|WallType|1|1194
+|player|p2|JoshSketch|101|1044
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|showteam|p1|Archaludon||PowerHerb|Stalwart|Thunderbolt,ElectroShot,DragonPulse,Protect|||M|||50|,,,,,Electric]Incineroar||SitrusBerry|Intimidate|FakeOut,KnockOff,PartingShot,FlareBlitz|||F|||50|,,,,,Grass]Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,ExtremeSpeed,Haze|||M|||50|,,,,,Steel]Whimsicott||FocusSash|Prankster|Moonblast,FakeTears,Encore,Tailwind|||M|||50|,,,,,Ghost]Annihilape||SafetyGoggles|Defiant|Coaching,CloseCombat,FinalGambit,RageFist|||F|||50|,,,,,Water]Ursaluna-Bloodmoon||AssaultVest|MindsEye|HyperVoice,EarthPower,BloodMoon,VacuumWave|||M|||50|,,,,,Ghost
+|showteam|p2|Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Sneasler||FocusSash|PoisonTouch|FakeOut,CloseCombat,DireClaw,Protect|||F|||50|,,,,,Stellar]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,ExtremeSpeed|||F|||50|,,,,,Fairy]Ursaluna-Bloodmoon||AssaultVest|MindsEye|HyperVoice,BloodMoon,EarthPower,VacuumWave|||M|||50|,,,,,Normal
+|
+|t:|1757709543
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2a: Dragonite|Dragonite, L50, F|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|turn|1
+|
+|t:|1757709575
+|-terastallize|p2a: Dragonite|Fairy
+|move|p1b: Whimsicott|Moonblast|p2a: Dragonite
+|-damage|p2a: Dragonite|87/100
+|move|p1a: Annihilape|Rage Fist|p2a: Dragonite
+|-damage|p2a: Dragonite|62/100
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p2a: Dragonite|Tailwind|p2a: Dragonite
+|-sidestart|p2: JoshSketch|move: Tailwind
+|
+|upkeep
+|turn|2
+|
+|t:|1757709598
+|-terastallize|p1a: Annihilape|Water
+|move|p2a: Dragonite|Extreme Speed|p1b: Whimsicott
+|-damage|p1b: Whimsicott|63/100
+|move|p1b: Whimsicott|Encore|p2a: Dragonite
+|-start|p2a: Dragonite|Encore
+|move|p2b: Gholdengo|Shadow Ball|p1a: Annihilape
+|-damage|p1a: Annihilape|0 fnt
+|faint|p1a: Annihilape
+|-damage|p2b: Gholdengo|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757709607
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|-unboost|p2b: Gholdengo|atk|1
+|turn|3
+|
+|t:|1757709620
+|move|p2a: Dragonite|Extreme Speed|p1a: Incineroar
+|-damage|p1a: Incineroar|83/100
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: WallType|move: Tailwind
+|move|p2b: Gholdengo|Make It Rain|p1b: Whimsicott|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-supereffective|p1b: Whimsicott
+|-damage|p1a: Incineroar|31/100
+|-damage|p1b: Whimsicott|0 fnt
+|-unboost|p2b: Gholdengo|spa|1
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|55/100|[from] item: Sitrus Berry
+|faint|p1b: Whimsicott
+|-damage|p2b: Gholdengo|81/100|[from] item: Life Orb
+|move|p1a: Incineroar|Knock Off|p2b: Gholdengo
+|-supereffective|p2b: Gholdengo
+|-damage|p2b: Gholdengo|0 fnt
+|-enditem|p2b: Gholdengo|Life Orb|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2b: Gholdengo
+|
+|upkeep
+|
+|t:|1757709638
+|switch|p1b: MoneyMachine|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: MoneyMachine|atk|1
+|turn|4
+|
+|t:|1757709652
+|move|p2a: Dragonite|Extreme Speed|p1a: Incineroar
+|-damage|p1a: Incineroar|38/100
+|move|p1b: MoneyMachine|Vacuum Wave|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|80/100
+|move|p1a: Incineroar|Knock Off|p2a: Dragonite
+|-resisted|p2a: Dragonite
+|-damage|p2a: Dragonite|48/100
+|-enditem|p2a: Dragonite|Loaded Dice|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2b: Incineroar|Knock Off|p1b: MoneyMachine
+|-crit|p1b: MoneyMachine
+|-damage|p1b: MoneyMachine|57/100
+|-enditem|p1b: MoneyMachine|Assault Vest|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-sideend|p2: JoshSketch|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1757709678
+|move|p2a: Dragonite|Extreme Speed|p1a: Incineroar
+|-damage|p1a: Incineroar|21/100
+|move|p1a: Incineroar|Flare Blitz|p2a: Dragonite
+|-damage|p2a: Dragonite|10/100
+|-damage|p1a: Incineroar|10/100|[from] Recoil
+|move|p1b: MoneyMachine|Earth Power|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|2/100
+|move|p2b: Incineroar|Flare Blitz|p1b: MoneyMachine
+|-damage|p1b: MoneyMachine|22/100
+|-damage|p2b: Incineroar|0 fnt|[from] Recoil
+|faint|p2b: Incineroar
+|
+|-end|p2a: Dragonite|Encore
+|upkeep
+|
+|t:|1757709689
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|6
+|
+|t:|1757709702
+|move|p2a: Dragonite|Extreme Speed|p1a: Incineroar
+|-crit|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p1b: MoneyMachine|Blood Moon|p2b: Ursaluna
+|-damage|p2b: Ursaluna|50/100
+|move|p2b: Ursaluna|Blood Moon|p1b: MoneyMachine
+|-damage|p1b: MoneyMachine|0 fnt
+|faint|p1b: MoneyMachine
+|
+|win|JoshSketch
+||WallType is ready for game 3.
+||JoshSketch is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

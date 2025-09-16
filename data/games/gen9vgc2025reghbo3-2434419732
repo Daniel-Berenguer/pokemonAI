@@ -1,0 +1,163 @@
+|j|☆Auragap
+|j|☆FilthyJonhy
+|html|AuragapFilthyJonhy    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756913214
+|gametype|doubles
+|player|p1|Auragap|byron|1000
+|player|p2|FilthyJonhy|birdkeeper|1057
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Archaludon, L50, M|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,Tailwind,RagePowder|||F|||50|,,,,,Fire]Charizard||ChoiceSpecs|SolarPower|DragonPulse,HeatWave,Overheat,WeatherBall|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|ClearSmog,Eruption,Overheat,Protect|||M|||50|,,,,,Fire]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting
+|showteam|p2|Primarina||ThroatSpray|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||F|||50|,,,,,Poison]Farigiraf||SafetyGoggles|ArmorTail|HelpingHand,Protect,PsychicNoise,TrickRoom|||M|||50|,,,,,Fairy]Pelipper||FocusSash|Drizzle|Tailwind,Hurricane,WideGuard,Uturn|||M|||50|,,,,,Grass]Rillaboom||BlackBelt|GrassySurge|FakeOut,GrassyGlide,Uturn,KnockOff|||M|||50|,,,,,Fire]Dragapult||LifeOrb|ClearBody|Uturn,DragonDarts,SuckerPunch,TeraBlast|||F|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|BodyPress,ElectroShot,DarkPulse,DragonPulse|||M|||50|,,,,,Grass
+|
+|t:|1756913238
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|switch|p1b: Jumpluff|Jumpluff, L50, F|100/100
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1756913277
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|-terastallize|p2a: Archaludon|Grass
+|move|p1b: Jumpluff|Sleep Powder|p2a: Archaludon
+|-immune|p2a: Archaludon
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Ursaluna
+|-immune|p1a: Ursaluna
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1756913310
+|-terastallize|p1a: Ursaluna|Ghost
+|move|p1b: Jumpluff|Sleep Powder|p2b: Pelipper
+|-status|p2b: Pelipper|slp|[from] move: Sleep Powder
+|cant|p2b: Pelipper|slp
+|move|p2a: Archaludon|Body Press|p1a: Ursaluna
+|-immune|p1a: Ursaluna
+|move|p1a: Ursaluna|Facade|p2a: Archaludon
+|-damage|p2a: Archaludon|17/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Archaludon|23/100|[from] Grassy Terrain
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1756913342
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p1b: Jumpluff|Tailwind|p1b: Jumpluff
+|-sidestart|p1: Auragap|move: Tailwind
+|cant|p2b: Pelipper|slp
+|move|p2a: Archaludon|Dragon Pulse|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ursaluna|100/100 brn|[from] Grassy Terrain
+|-heal|p2a: Archaludon|30/100|[from] Grassy Terrain
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1756913366
+|move|p1b: Jumpluff|Sunny Day|p1b: Jumpluff
+|-weather|SunnyDay
+|move|p1a: Ursaluna|Facade|p2a: Archaludon
+|-damage|p2a: Archaludon|0 fnt
+|faint|p2a: Archaludon
+|cant|p2b: Pelipper|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ursaluna|100/100 brn|[from] Grassy Terrain
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1756913375
+|switch|p2a: Rillaboom|Rillaboom, L50, M, shiny|100/100
+|turn|5
+|
+|t:|1756913398
+|switch|p2b: Primarina|Primarina, L50, F|100/100
+|move|p1b: Jumpluff|Rage Powder|p1b: Jumpluff
+|-singleturn|p1b: Jumpluff|move: Rage Powder
+|move|p1a: Ursaluna|Facade|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Ursaluna|100/100 brn|[from] Grassy Terrain
+|-damage|p1a: Ursaluna|95/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756913408
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100 slp
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|6
+|
+|t:|1756913420
+|move|p1b: Jumpluff|Sunny Day|p1b: Jumpluff
+|-weather|SunnyDay
+|move|p1a: Ursaluna|Facade|p2a: Pelipper
+|-enditem|p2a: Pelipper|Focus Sash
+|-damage|p2a: Pelipper|1/100 slp
+|-curestatus|p2a: Pelipper|slp|[msg]
+|move|p2a: Pelipper|Hurricane|p1b: Jumpluff|[miss]
+|-miss|p2a: Pelipper|p1b: Jumpluff
+|move|p2b: Primarina|Hyper Voice|p1b: Jumpluff|[spread] p1a,p1b
+|-crit|p1a: Ursaluna
+|-resisted|p1b: Jumpluff
+|-damage|p1a: Ursaluna|71/100 brn
+|-damage|p1b: Jumpluff|92/100
+|-enditem|p2b: Primarina|Throat Spray
+|-boost|p2b: Primarina|spa|1|[from] item: Throat Spray
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|66/100 brn|[from] brn
+|-sideend|p1: Auragap|move: Tailwind
+|upkeep
+|turn|7
+|-message|FilthyJonhy forfeited.
+|
+|win|Auragap
+|raw|Auragap's rating: 1000 → 1047(+47 for winning)
+|raw|FilthyJonhy's rating: 1057 → 1035(-22 for losing)
+|l|☆FilthyJonhy
+|player|p2|
+|l|☆Auragap
+|player|p1|
+|j|☆Auragap
+|player|p1|Auragap|byron|

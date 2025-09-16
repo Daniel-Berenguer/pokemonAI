@@ -1,0 +1,192 @@
+|j|☆Ztringz
+|j|☆MoodyMukVGC
+|html|ZtringzMoodyMukVGC    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757807402
+|gametype|doubles
+|player|p1|Ztringz|2|1082
+|player|p2|MoodyMukVGC|169|1154
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Porygon2, L50|
+|teampreview|4
+|showteam|p1|Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,SludgeBomb|||F|||50|,,,,,Dark]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,Taunt|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Normal]Volcarona||Leftovers|FlameBody|QuiverDance,Tailwind,GigaDrain,Protect|||M|||50|,,,,,Dragon
+|showteam|p2|Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,Tailwind,RagePowder|||M|||50|,,,,,Water]Charizard||ChoiceSpecs|SolarPower|AirSlash,HeatWave,Overheat,WeatherBall|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|ClearSmog,Eruption,Overheat,Protect|||M|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting
+|
+|t:|1757807446
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Porygon2|Porygon2, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Charizard|Charizard, L50, M, shiny|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Charizard|atk|1
+|-unboost|p2b: Torkoal|atk|1
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|-enditem|p2b: Torkoal|Eject Pack
+|
+|t:|1757807458
+|switch|p2b: Ursaluna|Ursaluna, L50, M, shiny|100/100
+|turn|1
+|
+|t:|1757807472
+|move|p1b: Incineroar|Fake Out|p2a: Charizard
+|-damage|p2a: Charizard|85/100
+|cant|p2a: Charizard|flinch
+|move|p2b: Ursaluna|Headlong Rush|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p2b: Ursaluna|def|1
+|-unboost|p2b: Ursaluna|spd|1
+|faint|p1b: Incineroar
+|move|p1a: Porygon2|Tera Blast|p2a: Charizard
+|-damage|p2a: Charizard|17/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|5/100|[from] ability: Solar Power|[of] p2a: Charizard
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757807490
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|turn|2
+|
+|t:|1757807502
+|move|p1b: Gholdengo|Protect|p1b: Gholdengo
+|-singleturn|p1b: Gholdengo|Protect
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p2a: Charizard|Overheat|p1b: Gholdengo
+|-activate|p1b: Gholdengo|move: Protect
+|move|p1a: Porygon2|Ice Beam|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|0 fnt|[from] ability: Solar Power|[of] p2a: Charizard
+|faint|p2a: Charizard
+|-damage|p2b: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1757807508
+|switch|p2a: Porygon2|Porygon2, L50, shiny|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|atk|1
+|turn|3
+|
+|t:|1757807524
+|switch|p2b: Torkoal|Torkoal, L50, M, shiny|100/100
+|-terastallize|p1a: Porygon2|Fighting
+|move|p1b: Gholdengo|Shadow Ball|p2b: Torkoal
+|-damage|p2b: Torkoal|32/100
+|-damage|p1b: Gholdengo|91/100|[from] item: Life Orb
+|move|p1a: Porygon2|Tera Blast|p2b: Torkoal|[anim] Tera Blast Fighting
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757807535
+|switch|p2b: Ursaluna|Ursaluna, L50, M, shiny|94/100 brn
+|turn|4
+|
+|t:|1757807550
+|-terastallize|p2b: Ursaluna|Ghost
+|move|p1b: Gholdengo|Protect|p1b: Gholdengo
+|-singleturn|p1b: Gholdengo|Protect
+|move|p1a: Porygon2|Tera Blast|p2b: Ursaluna|[anim] Tera Blast Fighting
+|-immune|p2b: Ursaluna
+|move|p2a: Porygon2|Tera Blast|p1a: Porygon2
+|-damage|p1a: Porygon2|77/100
+|move|p2b: Ursaluna|Facade|p1a: Porygon2
+|-damage|p1a: Porygon2|8/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|88/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1757807569
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|58/100
+|move|p2a: Porygon2|Tera Blast|p1a: Porygon2
+|-damage|p1a: Porygon2|39/100
+|move|p2b: Ursaluna|Headlong Rush|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|-unboost|p2b: Ursaluna|def|1
+|-unboost|p2b: Ursaluna|spd|1
+|faint|p1b: Gholdengo
+|
+|-weather|none
+|-damage|p2b: Ursaluna|82/100 brn|[from] brn
+|upkeep
+|
+|t:|1757807577
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|6
+|
+|t:|1757807607
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1b: Ursaluna|Headlong Rush|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|move|p1a: Porygon2|Recover|p1a: Porygon2
+|-heal|p1a: Porygon2|89/100
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldend|move: Trick Room
+|
+|-damage|p2b: Ursaluna|76/100 brn|[from] brn
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|7
+|
+|t:|1757807621
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Ursaluna|Facade|p1a: Porygon2
+|-crit|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|move|p2a: Porygon2|Tera Blast|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|-damage|p2b: Ursaluna|70/100 brn|[from] brn
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1757807628
+|move|p2b: Ursaluna|Facade|p1b: Ursaluna
+|-damage|p1b: Ursaluna|7/100 brn
+|move|p2a: Porygon2|Ice Beam|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|
+|win|MoodyMukVGC
+|c|☆MoodyMukVGC|gg
+||MoodyMukVGC is ready for game 2.
+||Ztringz is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

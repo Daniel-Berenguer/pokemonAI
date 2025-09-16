@@ -1,0 +1,294 @@
+|j|☆DocOkii
+|j|☆Panexeri
+|html|DocOkiiPanexeri    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756932280
+|gametype|doubles
+|player|p1|DocOkii|pryce|1106
+|player|p2|Panexeri|guitarist|1074
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Talonflame, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Porygon2, L50|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Ursaluna-Bloodmoon||LifeOrb|MindsEye|Protect,BloodMoon,HyperVoice,EarthPower|||M|||50|,,,,,Normal]Electabuzz||Eviolite|VitalSpirit|Protect,Electroweb,FollowMe,Taunt|||M|||50|,,,,,Ghost]Indeedee||FocusSash|PsychicSurge|Protect,ExpandingForce,TrickRoom,HelpingHand|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|Protect,CloseCombat,DireClaw,ThroatChop|||F|||50|,,,,,Dark]Talonflame||CovertCloak|GaleWings|DualWingbeat,FlareBlitz,Tailwind,WillOWisp|||F|||50|,,,,,Fairy]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Grass
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Ghost]Amoonguss||RockyHelmet|Regenerator|Protect,PollenPuff,RagePowder,Spore|||F|||50|,,,,,Water]Sneasler||FocusSash|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Gholdengo||LifeOrb|GoodasGold|Protect,NastyPlot,MakeItRain,ShadowBall||||||50|,,,,,Dragon]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Ursaluna||FlameOrb|Guts|Protect,Facade,HeadlongRush,Substitute|||F|||50|,,,,,Ghost
+|
+|t:|1756932343
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Amoonguss|atk|1
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Electabuzz|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|turn|1
+|
+|t:|1756932380
+|move|p1b: Incineroar|Fake Out|p2a: Incineroar
+|-damage|p2a: Incineroar|93/100
+|move|p1a: Electabuzz|Taunt|p2b: Amoonguss
+|-start|p2b: Amoonguss|move: Taunt
+|cant|p2a: Incineroar|flinch
+|cant|p2b: Amoonguss|move: Taunt|Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1756932396
+|move|p1a: Electabuzz|Protect|p1a: Electabuzz
+|-singleturn|p1a: Electabuzz|Protect
+|move|p1b: Incineroar|Parting Shot|p2a: Incineroar
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2a: Incineroar|spa|1
+|
+|t:|1756932405
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100|[from] Parting Shot
+|move|p2a: Incineroar|Knock Off|p1a: Electabuzz
+|-activate|p1a: Electabuzz|move: Protect
+|move|p2b: Amoonguss|Pollen Puff|p2a: Incineroar
+|-heal|p2a: Incineroar|100/100
+|
+|upkeep
+|turn|3
+|
+|t:|1756932453
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|-terastallize|p1b: Ursaluna|Normal
+|move|p1a: Electabuzz|Follow Me|p1a: Electabuzz
+|-singleturn|p1a: Electabuzz|move: Follow Me
+|move|p1b: Ursaluna|Hyper Voice|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2b: Gholdengo
+|-damage|p2a: Incineroar|50/100
+|-damage|p2b: Gholdengo|65/100
+|-damage|p1b: Ursaluna|91/100|[from] item: Life Orb
+|move|p2a: Incineroar|Knock Off|p1a: Electabuzz
+|-damage|p1a: Electabuzz|84/100
+|-enditem|p1a: Electabuzz|Eviolite|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|turn|4
+|
+|t:|1756932477
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p1a: Electabuzz|Electroweb|p2b: Gholdengo|[spread] p2a
+|-activate|p2b: Gholdengo|move: Protect
+|-damage|p2a: Incineroar|39/100
+|-unboost|p2a: Incineroar|spe|1
+|move|p2a: Incineroar|Parting Shot|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1756932520
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Gholdengo|atk|1
+|switch|p2a: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|move|p1a: Electabuzz|Electroweb|p2a: Amoonguss|[spread] p2a,p2b
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|95/100
+|-damage|p2b: Gholdengo|51/100
+|-unboost|p2a: Amoonguss|spe|1
+|-unboost|p2b: Gholdengo|spe|1
+|move|p2b: Gholdengo|Make It Rain|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Electabuzz
+|-resisted|p1b: Incineroar
+|-damage|p1a: Electabuzz|53/100
+|-damage|p1b: Incineroar|79/100
+|-unboost|p2b: Gholdengo|spa|1
+|-damage|p2b: Gholdengo|42/100|[from] item: Life Orb
+|
+|upkeep
+|turn|6
+|
+|t:|1756932550
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|39/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Electabuzz|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|move|p2a: Amoonguss|Protect|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|Protect
+|move|p1a: Electabuzz|Taunt|p2a: Amoonguss
+|-activate|p2a: Amoonguss|move: Protect
+|move|p1b: Incineroar|Knock Off|p2b: Incineroar
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|27/100
+|-enditem|p2b: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|upkeep
+|turn|7
+|
+|t:|1756932602
+|move|p1a: Electabuzz|Taunt|p2a: Amoonguss
+|-start|p2a: Amoonguss|move: Taunt
+|move|p1b: Incineroar|Flare Blitz|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|40/100
+|-damage|p1b: Incineroar|63/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|-damage|p1b: Incineroar|43/100|[from] Recoil
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|68/100|[from] item: Sitrus Berry
+|move|p2b: Incineroar|Knock Off|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|55/100
+|move|p2a: Amoonguss|Pollen Puff|p2b: Incineroar
+|-heal|p2b: Incineroar|77/100
+|
+|upkeep
+|turn|8
+|
+|t:|1756932651
+|-terastallize|p2a: Amoonguss|Water
+|move|p1a: Electabuzz|Follow Me|p1a: Electabuzz
+|-singleturn|p1a: Electabuzz|move: Follow Me
+|move|p1b: Incineroar|Parting Shot|p2b: Incineroar
+|-unboost|p2b: Incineroar|atk|1
+|-unboost|p2b: Incineroar|spa|1
+|
+|t:|1756932659
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M, tera:Normal|91/100|[from] Parting Shot
+|move|p2b: Incineroar|Parting Shot|p1a: Electabuzz
+|-unboost|p1a: Electabuzz|atk|1
+|-unboost|p1a: Electabuzz|spa|1
+|
+|t:|1756932669
+|switch|p2b: Gholdengo|Gholdengo, L50|42/100|[from] Parting Shot
+|move|p2a: Amoonguss|Pollen Puff|p1a: Electabuzz
+|-damage|p1a: Electabuzz|31/100
+|
+|upkeep
+|turn|9
+|
+|t:|1756932689
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|77/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Electabuzz|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1a: Electabuzz|Electroweb|p2b: Gholdengo|[spread] p2a
+|-activate|p2b: Gholdengo|move: Protect
+|-damage|p2a: Incineroar|70/100
+|-unboost|p2a: Incineroar|spe|1
+|move|p1b: Ursaluna|Hyper Voice|p2a: Incineroar|[spread] p2a
+|-activate|p2b: Gholdengo|move: Protect
+|-damage|p2a: Incineroar|14/100
+|-damage|p1b: Ursaluna|81/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|t:|1756932724
+|move|p1a: Electabuzz|Protect|p1a: Electabuzz
+|-singleturn|p1a: Electabuzz|Protect
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2a: Incineroar|Fake Out|p1a: Electabuzz
+|-activate|p1a: Electabuzz|move: Protect
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|
+|upkeep
+|turn|11
+|
+|t:|1756932745
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1a: Electabuzz|Electroweb|p2a: Incineroar|[spread] p2a
+|-activate|p2b: Gholdengo|move: Protect
+|-damage|p2a: Incineroar|8/100
+|-unboost|p2a: Incineroar|spe|1
+|move|p1b: Ursaluna|Earth Power|p2b: Gholdengo
+|-activate|p2b: Gholdengo|move: Protect
+|move|p2a: Incineroar|Knock Off|p1b: Ursaluna
+|-damage|p1b: Ursaluna|48/100
+|-enditem|p1b: Ursaluna|Life Orb|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|turn|12
+|
+|t:|1756932773
+|move|p1a: Electabuzz|Electroweb|p2b: Gholdengo|[spread] p2a,p2b
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Gholdengo|33/100
+|-unboost|p2b: Gholdengo|spe|1
+|faint|p2a: Incineroar
+|move|p1b: Ursaluna|Earth Power|p2b: Gholdengo
+|-supereffective|p2b: Gholdengo
+|-damage|p2b: Gholdengo|0 fnt
+|faint|p2b: Gholdengo
+|
+|upkeep
+|
+|t:|1756932776
+|switch|p2b: Amoonguss|Amoonguss, L50, F, shiny, tera:Water|73/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|turn|13
+|
+|t:|1756932797
+|move|p2a: Sneasler|Close Combat|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Electabuzz
+|move|p1b: Ursaluna|Blood Moon|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|
+|upkeep
+|
+|t:|1756932807
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|14
+|
+|t:|1756932815
+|move|p2a: Sneasler|Throat Chop|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-enditem|p1a: Indeedee|Focus Sash
+|-damage|p1a: Indeedee|1/100
+|-start|p1a: Indeedee|Throat Chop|[silent]
+|move|p1b: Ursaluna|Hyper Voice|p2a: Sneasler
+|-enditem|p2a: Sneasler|Focus Sash
+|-damage|p2a: Sneasler|1/100
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|turn|15
+|
+|t:|1756932828
+|move|p1b: Ursaluna|Hyper Voice|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|win|DocOkii
+||Panexeri is ready for game 2.
+||DocOkii is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

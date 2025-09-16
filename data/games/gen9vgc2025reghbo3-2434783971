@@ -1,0 +1,130 @@
+|j|☆Killtoosad
+|j|☆takeshivgc-test
+|html|Killtoosadtakeshivgc-test    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756950549
+|gametype|doubles
+|player|p1|Killtoosad|170|
+|player|p2|takeshivgc-test|sabrina|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Illumise, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Primarina, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Hatterene, L50, F|
+|teampreview|4
+|showteam|p1|Illumise||CovertCloak|Prankster|Protect,Infestation,Tailwind,FakeTears|||F|||50|,,,,,Dark]Gholdengo||Leftovers|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water]Dragonite||ChoiceBand|InnerFocus|ExtremeSpeed,Outrage,AerialAce,StompingTantrum|||F|||50|,,,,,Normal]Incineroar||AssaultVest|Intimidate|FlareBlitz,KnockOff,Uturn,FakeOut|||F|||50|,,,,,Dragon]Primarina||LifeOrb|LiquidVoice|Protect,HyperVoice,Moonblast,PerishSong|||M|||50|,,,,,Steel]Tyranitar||ClearAmulet|SandStream|RockSlide,KnockOff,Protect,HighHorsepower|||F|||50|,,,,,Grass
+|showteam|p2|Armarouge||PowerHerb|FlashFire|ArmorCannon,ExpandingForce,TrickRoom,MeteorBeam|||M|||50|,,,,,Grass]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,TrickRoom,FollowMe|||F|||50|,,,,,Fairy]Torkoal||Charcoal|Drought|Eruption,Protect,WeatherBall,HeatWave|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,MysticalFire|||F|||50|,,,,,Fire
+|
+|t:|1756950561
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p1b: Primarina|Primarina, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|j| teamthief420
+|l| teamthief420
+|
+|t:|1756950602
+|-terastallize|p1b: Primarina|Steel
+|move|p1a: Tyranitar|Rock Slide|p2b: Gallade|[spread] p2a,p2b
+|-resisted|p2b: Gallade
+|-damage|p2a: Indeedee|68/100
+|-damage|p2b: Gallade|79/100
+|cant|p2b: Gallade|flinch
+|move|p1b: Primarina|Hyper Voice|p2b: Gallade|[spread] p2a,p2b
+|-damage|p2a: Indeedee|39/100
+|-damage|p2b: Gallade|34/100
+|-damage|p1b: Primarina|91/100|[from] item: Life Orb
+|cant|p2a: Indeedee|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Gallade|28/100|[from] Sandstorm
+|-damage|p2a: Indeedee|33/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1756950635
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Tyranitar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|move|p2b: Gallade|Sacred Sword|p1b: Primarina
+|-supereffective|p1b: Primarina
+|-damage|p1b: Primarina|0 fnt
+|faint|p1b: Primarina
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Gallade|23/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756950650
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100
+|switch|p2a: Hatterene|Hatterene, L50, F, shiny|100/100
+|turn|3
+|
+|t:|1756950674
+|move|p2b: Gallade|Wide Guard|p2b: Gallade
+|-singleturn|p2b: Gallade|Wide Guard
+|move|p1a: Tyranitar|High Horsepower|p2a: Hatterene
+|-damage|p2a: Hatterene|60/100
+|move|p1b: Dragonite|Aerial Ace|p2b: Gallade
+|-supereffective|p2b: Gallade
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Hatterene|54/100|[from] Sandstorm
+|-damage|p1b: Dragonite|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756950685
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|4
+|
+|t:|1756950727
+|-terastallize|p2a: Hatterene|Fire
+|move|p2a: Hatterene|Mystical Fire|p1a: Tyranitar
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|82/100
+|-damage|p2a: Hatterene|45/100|[from] item: Life Orb
+|move|p2b: Ursaluna|Headlong Rush|p1b: Dragonite
+|-immune|p1b: Dragonite
+|move|p1b: Dragonite|Aerial Ace|p2a: Hatterene
+|-damage|p2a: Hatterene|0 fnt
+|faint|p2a: Hatterene
+|move|p1a: Tyranitar|Knock Off|p2b: Ursaluna
+|-damage|p2b: Ursaluna|59/100
+|-enditem|p2b: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Dragonite|88/100|[from] Sandstorm
+|upkeep
+|turn|5
+|-message|takeshivgc-test forfeited.
+|
+|win|Killtoosad
+|l|☆takeshivgc-test
+|player|p2|

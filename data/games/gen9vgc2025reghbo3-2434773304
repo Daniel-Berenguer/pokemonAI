@@ -1,0 +1,175 @@
+|j|☆Mkellyvgc
+|j|☆Quill86
+|html|MkellyvgcQuill86    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756949244
+|gametype|doubles
+|player|p1|Mkellyvgc|101|1189
+|player|p2|Quill86|lucas|1254
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kommo-o, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Arcanine-Hisui, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Smeargle, L50, M|
+|teampreview|4
+|showteam|p1|Kommo-o||ThroatSpray|Overcoat|ClangorousSoul,ClangingScales,Flamethrower,Protect|||F|||50|,,,,,Fire]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,TeraBlast|||M|||50|,,,,,Fighting]Rillaboom||AssaultVest|GrassySurge|GrassyGlide,WoodHammer,FakeOut,HighHorsepower|||M|||50|,,,,,Water]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,IcyWind,AuroraVeil,Protect|||M|||50|,,,,,Ghost]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Dark]Arcanine-Hisui||ChoiceBand|Intimidate|FlareBlitz,RockSlide,ExtremeSpeed,TeraBlast|||M|||50|,,,,,Fairy
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,TrickRoom,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|SacredSword,WideGuard,TrickRoom,PsychoCut|||M|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,WeatherBall,EarthPower,HeatWave|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Protect,HeadlongRush,Facade,Earthquake|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|DazzlingGleam,ExpandingForce,MysticalFire,TrickRoom|||F|||50|,,,,,Fire]Smeargle||FocusSash|Moody|FakeOut,Spore,Instruct,FollowMe|||M|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Quill86)
+|
+|t:|1756949268
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, L50, M|100/100
+|switch|p1b: Arcanine|Arcanine-Hisui, L50, M|100/100
+|switch|p2a: Smeargle|Smeargle, L50, M|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|-ability|p1b: Arcanine|Intimidate|boost
+|-unboost|p2a: Smeargle|atk|1
+|-fail|p2b: Gallade|unboost|[from] item: Clear Amulet|[of] p2b: Gallade
+|turn|1
+|
+|t:|1756949290
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1a: Ninetales|Aurora Veil||[still]
+|-fail|p1a: Ninetales
+|move|p1b: Arcanine|Rock Slide|p2a: Torkoal|[spread] p2a,p2b
+|-supereffective|p2a: Torkoal
+|-resisted|p2b: Gallade
+|-damage|p2a: Torkoal|43/100
+|-damage|p2b: Gallade|74/100
+|cant|p2b: Gallade|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756949314
+|switch|p1a: Kommo-o|Kommo-o, L50, F|100/100
+|move|p1b: Arcanine|Rock Slide|p2b: Gallade|[spread] p2a,p2b
+|-supereffective|p2a: Torkoal
+|-resisted|p2b: Gallade
+|-damage|p2a: Torkoal|0 fnt
+|-damage|p2b: Gallade|46/100
+|faint|p2a: Torkoal
+|move|p2b: Gallade|Trick Room|p2b: Gallade
+|-fieldstart|move: Trick Room|[of] p2b: Gallade
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756949323
+|switch|p2a: Smeargle|Smeargle, L50, M|100/100
+|turn|3
+|
+|t:|1756949329
+|move|p1a: Kommo-o|Protect|p1a: Kommo-o
+|-singleturn|p1a: Kommo-o|Protect
+|move|p2b: Gallade|Psycho Cut|p1a: Kommo-o
+|-activate|p1a: Kommo-o|move: Protect
+|move|p2a: Smeargle|Spore|p1b: Arcanine
+|-status|p1b: Arcanine|slp|[from] move: Spore
+|cant|p1b: Arcanine|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spa|2
+|-unboost|p2a: Smeargle|atk|1
+|upkeep
+|turn|4
+|
+|t:|1756949343
+|-terastallize|p1a: Kommo-o|Fire
+|move|p2b: Gallade|Psycho Cut|p1a: Kommo-o
+|-damage|p1a: Kommo-o|47/100
+|move|p2a: Smeargle|Instruct|p2b: Gallade
+|-singleturn|p2b: Gallade|move: Instruct|[of] p2a: Smeargle
+|move|p2b: Gallade|Psycho Cut|p1a: Kommo-o
+|-damage|p1a: Kommo-o|0 fnt
+|faint|p1a: Kommo-o
+|cant|p1b: Arcanine|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|spd|2
+|-unboost|p2a: Smeargle|def|1
+|upkeep
+|
+|t:|1756949364
+|switch|p1a: Kingambit|Kingambit, L50, F|100/100
+|turn|5
+|
+|t:|1756949371
+|move|p2a: Smeargle|Follow Me|p2a: Smeargle
+|-singleturn|p2a: Smeargle|move: Follow Me
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Smeargle
+|-enditem|p2a: Smeargle|Focus Sash
+|-damage|p2a: Smeargle|1/100
+|move|p2b: Gallade|Sacred Sword|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|cant|p1b: Arcanine|slp
+|
+|-weather|none
+|-ability|p2a: Smeargle|Moody|boost
+|-boost|p2a: Smeargle|def|2
+|-unboost|p2a: Smeargle|atk|1
+|upkeep
+|
+|t:|1756949385
+|switch|p1a: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|6
+|
+|t:|1756949393
+|move|p2b: Gallade|Sacred Sword|p1b: Arcanine
+|-supereffective|p1b: Arcanine
+|-damage|p1b: Arcanine|0 fnt
+|faint|p1b: Arcanine
+|move|p2a: Smeargle|Instruct|p2b: Gallade
+|-singleturn|p2b: Gallade|move: Instruct|[of] p2a: Smeargle
+|move|p2b: Gallade|Sacred Sword|p1a: Ninetales
+|-damage|p1a: Ninetales|18/100
+|move|p1a: Ninetales|Blizzard|p2b: Gallade|[spread] p2a,p2b
+|-damage|p2a: Smeargle|0 fnt
+|-damage|p2b: Gallade|16/100
+|faint|p2a: Smeargle
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1756949401
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|7
+|
+|t:|1756949410
+|-terastallize|p2a: Indeedee|Fairy
+|move|p1a: Ninetales|Blizzard|p2b: Gallade|[spread] p2a,p2b
+|-damage|p2a: Indeedee|80/100
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|win|Quill86

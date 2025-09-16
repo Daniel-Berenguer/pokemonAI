@@ -1,0 +1,166 @@
+|j|☆uglybeast
+|j|☆Goodwyn
+|html|uglybeastGoodwyn    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756936255
+|gametype|doubles
+|player|p1|uglybeast|lucas|1322
+|player|p2|Goodwyn|102|1212
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Murkrow, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|showteam|p1|Murkrow||Eviolite|Prankster|Haze,SunnyDay,Tailwind,BraveBird|||M|||50|,,,,,Ghost]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,Protect,EarthPower|||M|||50|,,,,,Normal]Sneasler||PsychicSeed|Unburden|ThroatChop,DireClaw,CloseCombat,Protect|||F|||50|,,,,,Dark]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,Uturn,PhantomForce|||F|||50|,,,,,Dragon]Armarouge||PowerHerb|FlashFire|HeatWave,MeteorBeam,ExpandingForce,Protect|||M|||50|,,,,,Grass]Indeedee-F||RockyHelmet|PsychicSurge|DazzlingGleam,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Grass
+|showteam|p2|Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|ThroatChop,DireClaw,CloseCombat,Protect|||F|||50|,,,,,Dark]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Smeargle||FocusSash|Moody|FollowMe,Spore,SaltCure,SpikyShield|||M|||50|,,,,,Grass]Volcarona||Leftovers|FlameBody|TeraBlast,HeatWave,QuiverDance,Protect|||F|||50|,,,,,Water]Incineroar||AssaultVest|Intimidate|FlareBlitz,KnockOff,FakeOut,Uturn|||F|||50|,,,,,Grass
+|
+|t:|1756936309
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Giandam|Armarouge, L50, M|100/100
+|switch|p1b: Blade|Indeedee-F, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Blade
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756936362
+|-terastallize|p2a: Sneasler|Dark
+|move|p1b: Blade|Follow Me|p1b: Blade
+|-singleturn|p1b: Blade|move: Follow Me
+|move|p2a: Sneasler|Dire Claw|p1b: Blade
+|-damage|p1b: Blade|60/100
+|-damage|p2a: Sneasler|84/100|[from] item: Rocky Helmet|[of] p1b: Blade
+|move|p2b: Gholdengo|Make It Rain|p1b: Blade|[spread] p1a,p1b
+|-resisted|p1a: Giandam
+|-damage|p1a: Giandam|64/100
+|-damage|p1b: Blade|7/100
+|-unboost|p2b: Gholdengo|spa|1
+|-damage|p2b: Gholdengo|91/100|[from] item: Life Orb
+|move|p1a: Giandam|Meteor Beam||[still]
+|-prepare|p1a: Giandam|Meteor Beam
+|-boost|p1a: Giandam|spa|1
+|-enditem|p1a: Giandam|Power Herb
+|-anim|p1a: Giandam|Meteor Beam|p2a: Sneasler
+|-damage|p2a: Sneasler|28/100
+|
+|upkeep
+|turn|2
+|
+|t:|1756936418
+|-terastallize|p1a: Giandam|Grass
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1b: Blade|Follow Me|p1b: Blade
+|-singleturn|p1b: Blade|move: Follow Me
+|move|p2b: Gholdengo|Make It Rain|p1a: Giandam|[spread] p1a,p1b
+|-damage|p1a: Giandam|15/100
+|-damage|p1b: Blade|0 fnt
+|-unboost|p2b: Gholdengo|spa|1
+|faint|p1b: Blade
+|-damage|p2b: Gholdengo|82/100|[from] item: Life Orb
+|move|p1a: Giandam|Heat Wave|p2b: Gholdengo|[spread] p2b
+|-activate|p2a: Sneasler|move: Protect
+|-supereffective|p2b: Gholdengo
+|-damage|p2b: Gholdengo|0 fnt
+|faint|p2b: Gholdengo
+|
+|upkeep
+|
+|t:|1756936439
+|switch|p2b: Smeargle|Smeargle, L50, M|100/100
+|switch|p1b: Anagnoman|Sneasler, L50, F|100/100
+|-enditem|p1b: Anagnoman|Psychic Seed
+|-boost|p1b: Anagnoman|spd|1|[from] item: Psychic Seed
+|turn|3
+|
+|t:|1756936466
+|move|p2a: Sneasler|Protect||[still]
+|-fail|p2a: Sneasler
+|move|p1b: Anagnoman|Dire Claw|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|move|p1a: Giandam|Heat Wave|p2b: Smeargle|[miss]
+|-miss|p1a: Giandam|p2b: Smeargle
+|move|p2b: Smeargle|Spore|p1b: Anagnoman
+|-status|p1b: Anagnoman|slp|[from] move: Spore
+|
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|def|2
+|-unboost|p2b: Smeargle|atk|1
+|upkeep
+|
+|t:|1756936472
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Giandam|atk|1
+|-unboost|p1b: Anagnoman|atk|1
+|turn|4
+|
+|t:|1756936506
+|cant|p1b: Anagnoman|slp
+|move|p1a: Giandam|Protect|p1a: Giandam
+|-singleturn|p1a: Giandam|Protect
+|move|p2b: Smeargle|Salt Cure|p1b: Anagnoman
+|-resisted|p1b: Anagnoman
+|-damage|p1b: Anagnoman|99/100 slp
+|-start|p1b: Anagnoman|Salt Cure
+|move|p2a: Incineroar|Knock Off|p1a: Giandam
+|-activate|p1a: Giandam|move: Protect
+|
+|-damage|p1b: Anagnoman|86/100 slp|[from] Salt Cure
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|atk|2
+|-unboost|p2b: Smeargle|spe|1
+|upkeep
+|turn|5
+|
+|t:|1756936531
+|-curestatus|p1b: Anagnoman|slp|[msg]
+|move|p1b: Anagnoman|Dire Claw|p2b: Smeargle
+|-damage|p2b: Smeargle|62/100
+|-status|p2b: Smeargle|slp
+|move|p1a: Giandam|Expanding Force|p2a: Incineroar|[spread] p2b
+|-immune|p2a: Incineroar
+|-damage|p2b: Smeargle|0 fnt
+|faint|p2b: Smeargle
+|move|p2a: Incineroar|Flare Blitz|p1b: Anagnoman
+|-damage|p1b: Anagnoman|0 fnt
+|faint|p1b: Anagnoman
+|-damage|p2a: Incineroar|79/100|[from] Recoil
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756936539
+|switch|p1b: Laz|Dragapult, L50, F|100/100
+|turn|6
+|
+|t:|1756936552
+|move|p1b: Laz|Dragon Darts|p2a: Incineroar
+|-damage|p2a: Incineroar|43/100
+|-anim|p1b: Laz|Dragon Darts|p2a: Incineroar
+|-crit|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|win|uglybeast
+|raw|uglybeast's rating: 1322 → 1336(+14 for winning)
+|raw|Goodwyn's rating: 1212 → 1195(-17 for losing)

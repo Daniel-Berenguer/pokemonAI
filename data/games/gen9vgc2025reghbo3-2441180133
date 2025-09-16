@@ -1,0 +1,191 @@
+|j|☆Hemz0 0
+|j|☆The median voter
+|html|Hemz0 0The median voter    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1757809443
+|gametype|doubles
+|player|p1|Hemz0 0|depotagent|1306
+|player|p2|The median voter|scientist-gen4dp|1240
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Pelipper||ChoiceScarf|Drizzle|WeatherBall,Hurricane,Tailwind,MuddyWater|||M|||50|,,,,,Ghost]Archaludon||PowerHerb|Sturdy|ElectroShot,DragonPulse,FlashCannon,Protect|||M|||50|,,,,,Electric]Incineroar||SafetyGoggles|Intimidate|HelpingHand,FakeOut,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Sneasler||GrassySeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,FakeOut,HighHorsepower|||F|||50|,,,,,Fire]Gholdengo||MetalCoat|GoodasGold|ShadowBall,MakeItRain,NastyPlot,Protect||||||50|,,,,,Fighting
+|showteam|p2|Archaludon||AssaultVest|Stamina|FlashCannon,BodyPress,ElectroShot,Snarl|||M|||50|,,,,,Fighting]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Steel]Pelipper||FocusSash|Drizzle|MuddyWater,Hurricane,Tailwind,Protect|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom||||||50|,,,,,Dark]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,Trick,Protect||||||50|,,,,,Flying
+|
+|t:|1757809469
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Dragonite|Dragonite, L50, M|100/100
+|switch|p2b: Sinistcha|Sinistcha, L50|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|-unboost|p2b: Sinistcha|atk|1
+|turn|1
+|
+|t:|1757809489
+|-terastallize|p1a: Archaludon|Electric
+|move|p1b: Incineroar|Fake Out|p2a: Dragonite
+|-damage|p2a: Dragonite|95/100
+|move|p2b: Sinistcha|Rage Powder|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|move: Rage Powder
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-enditem|p1a: Archaludon|Power Herb
+|-anim|p1a: Archaludon|Electro Shot|p2b: Sinistcha
+|-resisted|p2b: Sinistcha
+|-damage|p2b: Sinistcha|58/100
+|cant|p2a: Dragonite|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1757809512
+|move|p2b: Sinistcha|Rage Powder|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|move: Rage Powder
+|move|p1a: Archaludon|Dragon Pulse|p2b: Sinistcha
+|-damage|p2b: Sinistcha|0 fnt
+|faint|p2b: Sinistcha
+|move|p2a: Dragonite|Tailwind|p2a: Dragonite
+|-sidestart|p2: The median voter|move: Tailwind
+|move|p1b: Incineroar|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|51/100
+|-enditem|p2a: Dragonite|Loaded Dice|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|upkeep
+|
+|t:|1757809517
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|3
+|
+|t:|1757809527
+|move|p1a: Archaludon|Protect|p1a: Archaludon
+|-singleturn|p1a: Archaludon|Protect
+|move|p2a: Dragonite|Scale Shot|p1a: Archaludon
+|-activate|p1a: Archaludon|move: Protect
+|move|p2b: Ursaluna|Earthquake|p1b: Incineroar|[spread] p1b
+|-activate|p1a: Archaludon|move: Protect
+|-immune|p2a: Dragonite
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|10/100
+|move|p1b: Incineroar|Parting Shot|p2a: Dragonite
+|-unboost|p2a: Dragonite|atk|1
+|-unboost|p2a: Dragonite|spa|1
+|
+|t:|1757809539
+|switch|p1b: Sabzi Wala|Rillaboom, L50, F, shiny|100/100|[from] Parting Shot
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Sabzi Wala
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1757809558
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100
+|move|p1b: Sabzi Wala|Fake Out|p2a: Dragonite
+|-damage|p2a: Dragonite|37/100
+|cant|p2a: Dragonite|flinch
+|move|p1a: Archaludon|Dragon Pulse|p2b: Archaludon
+|-damage|p2b: Archaludon|53/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|
+|-heal|p2b: Archaludon|59/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1757809596
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|move|p2a: Dragonite|Protect|p2a: Dragonite
+|-singleturn|p2a: Dragonite|Protect
+|move|p2b: Archaludon|Body Press|p1b: Pelipper
+|-resisted|p1b: Pelipper
+|-damage|p1b: Pelipper|76/100
+|move|p1a: Archaludon|Dragon Pulse|p2a: Dragonite
+|-activate|p2a: Dragonite|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|65/100|[from] Grassy Terrain
+|-sideend|p2: The median voter|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1757809636
+|move|p1b: Pelipper|Hurricane|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Archaludon
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|17/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1b: Pelipper
+|-supereffective|p1b: Pelipper
+|-damage|p1b: Pelipper|0 fnt
+|faint|p1b: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|23/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757809648
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100 brn
+|switch|p1b: Incineroar|Incineroar, L50, M|10/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2b: Archaludon|atk|1
+|turn|7
+|
+|t:|1757809675
+|move|p1b: Incineroar|Fake Out|p2a: Ursaluna
+|-damage|p2a: Ursaluna|92/100 brn
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Archaludon
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|0 fnt
+|faint|p2b: Archaludon
+|cant|p2a: Ursaluna|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Ursaluna|98/100 brn|[from] Grassy Terrain
+|-heal|p1b: Incineroar|16/100|[from] Grassy Terrain
+|-damage|p2a: Ursaluna|92/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|8
+|-message|The median voter forfeited.
+|
+|win|Hemz0 0
+|raw|Hemz0 0's rating: 1306 → 1322(+16 for winning)
+|raw|The median voter's rating: 1240 → 1220(-20 for losing)
+|l|☆The median voter
+|player|p2|
+|c|☆Hemz0 0|gg

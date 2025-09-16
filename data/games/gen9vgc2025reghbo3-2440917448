@@ -1,0 +1,187 @@
+|j|☆FeelTheIceBro
+|j|☆VVVincenTTT
+|html|FeelTheIceBroVVVincenTTT    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757776176
+|gametype|doubles
+|player|p1|FeelTheIceBro|169|1292
+|player|p2|VVVincenTTT|cyrus|1353
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Electabuzz, L50, F|
+|poke|p1|Blaziken, L50, M|
+|poke|p1|Dondozo, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Corviknight, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|showteam|p1|Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,Uturn,FakeOut|||M|||50|,,,,,Fire]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,FreezeDry,Encore,Protect|||F|||50|,,,,,Ghost]Electabuzz||Eviolite|VitalSpirit|Electroweb,Taunt,FollowMe,Protect|||F|||50|,,,,,Dragon]Blaziken||LifeOrb|SpeedBoost|HeatWave,AuraSphere,Coaching,Protect|||M|||50|,,,,,Stellar]Dondozo||Leftovers|Unaware|Liquidation,Fissure,Yawn,Protect|||M|||50|,,,,,Poison
+|showteam|p2|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|Earthquake,HighHorsepower,IronHead,Protect|||M|||50|,,,,,Stellar]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Roost,Tailwind|||M|||50|,,,,,Dragon]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Annihilape||SafetyGoggles|Defiant|RageFist,CloseCombat,FinalGambit,Taunt|||M|||50|,,,,,Water
+|
+|t:|1757776207
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|switch|p1b: Electabuzz|Electabuzz, L50, F|100/100
+|switch|p2a: Excadrill|Excadrill, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|turn|1
+|
+|t:|1757776230
+|-terastallize|p1a: Kingambit|Dark
+|move|p1b: Electabuzz|Follow Me|p1b: Electabuzz
+|-singleturn|p1b: Electabuzz|move: Follow Me
+|move|p2b: Sneasler|Close Combat|p1b: Electabuzz
+|-damage|p1b: Electabuzz|39/100
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|move|p2a: Excadrill|High Horsepower|p1b: Electabuzz
+|-supereffective|p1b: Electabuzz
+|-damage|p1b: Electabuzz|0 fnt
+|faint|p1b: Electabuzz
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|upkeep
+|
+|t:|1757776238
+|switch|p1b: Blaziken|Blaziken, L50, M|100/100
+|turn|2
+|
+|t:|1757776253
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|move|p1b: Blaziken|Protect|p1b: Blaziken
+|-singleturn|p1b: Blaziken|Protect
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2b: Sneasler|Close Combat|p1a: Kingambit
+|-activate|p1a: Kingambit|move: Protect
+|
+|-ability|p1b: Blaziken|Speed Boost|boost
+|-boost|p1b: Blaziken|spe|1
+|upkeep
+|turn|3
+|
+|t:|1757776274
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p1a: Kingambit|Sucker Punch|p2b: Sneasler
+|-resisted|p2b: Sneasler
+|-crit|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Rillaboom|94/100|[from] Sandstorm
+|-damage|p1a: Kingambit|94/100|[from] Sandstorm
+|-heal|p1b: Rillaboom|100/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|100/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757776289
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|4
+|
+|t:|1757776314
+|move|p1a: Kingambit|Sucker Punch|p2a: Tyranitar
+|-activate|p2a: Tyranitar|move: Psychic Terrain
+|move|p2b: Indeedee|Tera Blast|p1a: Kingambit
+|-damage|p1a: Kingambit|56/100
+|move|p1b: Rillaboom|Wood Hammer|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|-damage|p1b: Rillaboom|66/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Indeedee|95/100|[from] Sandstorm
+|-damage|p1b: Rillaboom|60/100|[from] Sandstorm
+|-damage|p1a: Kingambit|50/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757776326
+|switch|p2a: Excadrill|Excadrill, L50, M|100/100
+|turn|5
+|
+|t:|1757776352
+|switch|p1b: Blaziken|Blaziken, L50, M|100/100
+|-terastallize|p2a: Excadrill|Stellar
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2a: Excadrill|Iron Head|p1b: Blaziken
+|-resisted|p1b: Blaziken
+|-damage|p1b: Blaziken|53/100
+|move|p2b: Indeedee|Tera Blast|p1a: Kingambit
+|-activate|p1a: Kingambit|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Indeedee|89/100|[from] Sandstorm
+|-damage|p1b: Blaziken|48/100|[from] Sandstorm
+|-damage|p1a: Kingambit|44/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1757776372
+|switch|p1b: Rillaboom|Rillaboom, L50, M|60/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p1a: Kingambit|Sucker Punch|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p2a: Excadrill|High Horsepower|p1b: Rillaboom
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|20/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Rillaboom|14/100|[from] Sandstorm
+|-damage|p1a: Kingambit|38/100|[from] Sandstorm
+|-heal|p1b: Rillaboom|20/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|44/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1757776391
+|move|p2a: Excadrill|Protect|p2a: Excadrill
+|-singleturn|p2a: Excadrill|Protect
+|move|p1b: Rillaboom|Fake Out|p2a: Excadrill
+|-activate|p2a: Excadrill|move: Protect
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Excadrill
+|-activate|p2a: Excadrill|move: Protect
+|
+|-weather|none
+|-heal|p1b: Rillaboom|26/100|[from] Grassy Terrain
+|-heal|p1a: Kingambit|50/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1757776403
+|move|p1b: Rillaboom|Grassy Glide|p2a: Excadrill
+|-damage|p2a: Excadrill|53/100
+|move|p1a: Kingambit|Sucker Punch|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|win|FeelTheIceBro
+|raw|FeelTheIceBro's rating: 1292 → 1321(+29 for winning)
+|raw|VVVincenTTT's rating: 1353 → 1330(-23 for losing)
+|l|☆VVVincenTTT
+|player|p2|
+|l|☆FeelTheIceBro
+|player|p1|

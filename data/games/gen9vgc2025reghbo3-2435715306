@@ -1,0 +1,117 @@
+|j|☆EXHOUL
+|j|☆palle synchro
+|html|EXHOULpalle synchro    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1757080857
+|gametype|doubles
+|player|p1|EXHOUL|shadowtriad|1343
+|player|p2|palle synchro|volkner|1397
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Armarouge, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Archaludon, L50, F|
+|teampreview|4
+|showteam|p1|Torkoal||Charcoal|Drought|Eruption,Flamethrower,ClearSmog,Protect|||M|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|SleepPowder,CloseCombat,Encore,AfterYou|||F|||50|,,,,,Ghost]Armarouge||LifeOrb|FlashFire|ExpandingForce,ArmorCannon,WideGuard,TrickRoom|||F|||50|,,,,,Grass]Indeedee-F||RockyHelmet|PsychicSurge|FollowMe,HelpingHand,DazzlingGleam,TrickRoom|||F|||50|,,,,,Steel]Gallade||ClearAmulet|Sharpness|SacredSword,NightSlash,DestinyBond,TrickRoom|||M|||50|,,,,,Dark]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Whimsicott||CovertCloak|Prankster|Moonblast,Taunt,Tailwind,FakeTears|||F|||50|,,,,,Water]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,FinalGambit,Taunt|||M|||50|,,,,,Water]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,Imprison,TrickRoom|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Archaludon||PowerHerb|Sturdy|ElectroShot,DragonPulse,Thunderbolt,Protect|||F|||50|,,,,,Electric
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by EXHOUL)
+|
+|t:|1757080868
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|1
+|
+|t:|1757080878
+|-terastallize|p2a: Indeedee|Psychic
+|move|p2b: Sneasler|Dire Claw|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-enditem|p1a: Lilligant|Focus Sash
+|-damage|p1a: Lilligant|1/100
+|-status|p1a: Lilligant|psn
+|move|p1a: Lilligant|Sleep Powder|p2a: Indeedee
+|-status|p2a: Indeedee|slp|[from] move: Sleep Powder
+|cant|p2a: Indeedee|slp
+|move|p1b: Torkoal|Eruption|p2b: Sneasler|[spread] p2a,p2b
+|-enditem|p2a: Indeedee|Focus Sash
+|-damage|p2a: Indeedee|1/100 slp
+|-damage|p2b: Sneasler|18/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Lilligant|0 fnt|[from] psn
+|faint|p1a: Lilligant
+|upkeep
+|
+|t:|1757080880
+|switch|p1a: Armarouge|Armarouge, L50, F|100/100
+|turn|2
+|
+|t:|1757080895
+|move|p2b: Sneasler|Throat Chop|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|47/100
+|-start|p1a: Armarouge|Throat Chop|[silent]
+|-curestatus|p2a: Indeedee|slp|[msg]
+|move|p2a: Indeedee|Expanding Force|p1b: Torkoal|[spread] p1a,p1b
+|-resisted|p1a: Armarouge
+|-damage|p1a: Armarouge|6/100
+|-damage|p1b: Torkoal|10/100
+|move|p1b: Torkoal|Eruption|p2a: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Sneasler|9/100
+|faint|p2a: Indeedee
+|move|p1a: Armarouge|Trick Room|p1a: Armarouge
+|-fieldstart|move: Trick Room|[of] p1a: Armarouge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757080906
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|3
+|
+|t:|1757080917
+|move|p1b: Torkoal|Flamethrower|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|move|p1a: Armarouge|Armor Cannon|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-unboost|p1a: Armarouge|def|1
+|-unboost|p1a: Armarouge|spd|1
+|faint|p2a: Ursaluna
+|-damage|p1a: Armarouge|0 fnt|[from] item: Life Orb
+|faint|p1a: Armarouge
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757080922
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p2b: Annihilape|Annihilape, L50, M|100/100
+|turn|4
+|-message|palle synchro forfeited.
+|
+|win|EXHOUL
+|raw|EXHOUL's rating: 1343 → 1366(+23 for winning)
+|raw|palle synchro's rating: 1397 → 1374(-23 for losing)

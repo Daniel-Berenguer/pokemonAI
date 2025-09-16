@@ -1,0 +1,140 @@
+|j|☆bestboi8989
+|j|☆MrMaro
+|html|bestboi8989MrMaro    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757923700
+|gametype|doubles
+|player|p1|bestboi8989|169|1084
+|player|p2|MrMaro|102|1171
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Magmar, L50, M|
+|poke|p1|Corviknight, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Archaludon, L50, F|
+|teampreview|4
+|showteam|p1|Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Sneasler||WhiteHerb|Unburden|FakeOut,CloseCombat,DireClaw,Coaching|||F|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|Earthquake,IronHead,SwordsDance,Protect|||M|||50|,,,,,Ground]Magmar||Eviolite|VitalSpirit|HeatWave,FollowMe,HelpingHand,Protect|||M|||50|,,,,,Flying]Corviknight||PsychicSeed|MirrorArmor|BraveBird,PowerTrip,BulkUp,Roost|||M|||50|,,,,,Water]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||M|||50|,,,,,Flying
+|showteam|p2|Ninetales-Alola||LightClay|SnowWarning|AuroraVeil,Blizzard,Encore,Disable|||M|||50|,,,,,Fire]Ursaluna-Bloodmoon||AssaultVest|MindsEye|HyperVoice,BloodMoon,EarthPower,Snarl|||M|||50|,,,,,Electric]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,Imprison,Trick,TrickRoom|||M|||50|,,,,,Fairy]Dragonite||Leftovers|Multiscale|DragonDance,IceSpinner,ExtremeSpeed,Protect|||F|||50|,,,,,Normal]Archaludon||PowerHerb|Stalwart|ElectroShot,Thunderbolt,DragonPulse,Protect|||F|||50|,,,,,Electric
+|
+|t:|1757923728
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Corviknight|Corviknight, L50, M|100/100
+|switch|p1b: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|-enditem|p1a: Corviknight|Psychic Seed
+|-boost|p1a: Corviknight|spd|1|[from] item: Psychic Seed
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|1
+|
+|t:|1757923766
+|-terastallize|p1b: Tyranitar|Flying
+|move|p2b: Sneasler|Dire Claw|p1b: Tyranitar
+|-damage|p1b: Tyranitar|65/100
+|-status|p1b: Tyranitar|par
+|move|p2a: Indeedee|Trick|p1a: Corviknight
+|-activate|p2a: Indeedee|move: Trick|[of] p1a: Corviknight
+|-item|p1a: Corviknight|Choice Scarf|[from] move: Trick
+|-enditem|p2a: Indeedee|Choice Scarf|[silent]|[from] move: Trick
+|move|p1a: Corviknight|Brave Bird|p2b: Sneasler
+|-supereffective|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|-damage|p1a: Corviknight|74/100|[from] Recoil
+|cant|p1b: Tyranitar|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Indeedee|95/100|[from] Sandstorm
+|-damage|p1b: Tyranitar|59/100 par|[from] Sandstorm
+|upkeep
+|
+|t:|1757923787
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|turn|2
+|
+|t:|1757923806
+|switch|p1b: Excadrill|Excadrill, L50, M|100/100
+|move|p1a: Corviknight|Brave Bird|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-damage|p1a: Corviknight|52/100|[from] Recoil
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-enditem|p2b: Archaludon|Power Herb
+|-anim|p2b: Archaludon|Electro Shot|p1a: Corviknight
+|-supereffective|p1a: Corviknight
+|-damage|p1a: Corviknight|0 fnt
+|faint|p1a: Corviknight
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1757923823
+|switch|p2a: Dragonite|Dragonite, L50, F|100/100
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|turn|3
+|
+|t:|1757923872
+|move|p1a: Sneasler|Fake Out|p2a: Dragonite
+|-hint|Psychic Terrain doesn't affect Pokémon immune to Ground.
+|-damage|p2a: Dragonite|93/100
+|move|p1b: Excadrill|Swords Dance|p1b: Excadrill
+|-boost|p1b: Excadrill|atk|2
+|cant|p2a: Dragonite|flinch
+|move|p2b: Archaludon|Thunderbolt|p1a: Sneasler
+|-crit|p1a: Sneasler
+|-damage|p1a: Sneasler|15/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneasler|10/100|[from] Sandstorm
+|-damage|p2a: Dragonite|87/100|[from] Sandstorm
+|-heal|p2a: Dragonite|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1757923896
+|switch|p1a: Tyranitar|Tyranitar, L50, M, tera:Flying|59/100 par
+|move|p2b: Archaludon|Protect|p2b: Archaludon
+|-singleturn|p2b: Archaludon|Protect
+|move|p1b: Excadrill|Iron Head|p2a: Dragonite
+|-damage|p2a: Dragonite|4/100
+|move|p2a: Dragonite|Ice Spinner|p1b: Excadrill
+|-damage|p1b: Excadrill|58/100
+|-fieldend|move: Psychic Terrain
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragonite|0 fnt|[from] Sandstorm
+|-damage|p1a: Tyranitar|53/100 par|[from] Sandstorm
+|faint|p2a: Dragonite
+|upkeep
+|turn|5
+|
+|t:|1757923917
+|move|p1b: Excadrill|Earthquake|p2b: Archaludon|[spread] p2b
+|-immune|p1a: Tyranitar
+|-supereffective|p2b: Archaludon
+|-damage|p2b: Archaludon|0 fnt
+|faint|p2b: Archaludon
+|
+|win|bestboi8989
+||bestboi8989 is ready for game 3.
+||MrMaro is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

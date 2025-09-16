@@ -1,0 +1,96 @@
+|j|☆theminesoftagawa
+|j|☆Spasio
+|html|theminesoftagawaSpasio    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756999250
+|gametype|doubles
+|player|p1|theminesoftagawa|2|
+|player|p2|Spasio|n|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Typhlosion-Hisui, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Arcanine-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Jumpluff||CovertCloak|Chlorophyll|SleepPowder,Tailwind,RagePowder,PollenPuff|||F|||50|,,,,,Dark]Typhlosion-Hisui||ChoiceSpecs|Frisk|Eruption,HeatWave,ShadowBall,TeraBlast|||M|||50|,,,,,Stellar]Annihilape||SitrusBerry|Defiant|CloseCombat,Protect,FinalGambit,RageFist|||M|||50|,,,,,Fire]Torkoal||EjectPack|Drought|Protect,HelpingHand,Overheat,BurningJealousy|||F|||50|,,,,,Grass]Rillaboom||MiracleSeed|GrassySurge|FakeOut,GrassyGlide,HighHorsepower,WoodHammer|||M|||50|,,,,,Dragon]Porygon2||Eviolite|Download|Thunderbolt,IceBeam,Recover,TrickRoom||||||50|,,,,,Ghost
+|showteam|p2|Gholdengo||GrassySeed|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,Coaching,Protect|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,DrumBeating,HighHorsepower|||M|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Tailwind,Protect|||M|||50|,,,,,Ground]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,IcyWind,Encore,AuroraVeil|||F|||50|,,,,,Ghost]Arcanine-Hisui||ClearAmulet|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||F|||50|,,,,,Water
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Spasio)
+|inactive|theminesoftagawa has 60 seconds left.
+|
+|t:|1756999307
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jumpluff|Jumpluff, L50, F, shiny|100/100
+|switch|p1b: Typhlosion|Typhlosion-Hisui, L50, M, shiny|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p2b: Arcanine|Arcanine-Hisui, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|-item|p2a: Ninetales|Focus Sash|[from] ability: Frisk|[of] p1b: Typhlosion
+|-item|p2b: Arcanine|Clear Amulet|[from] ability: Frisk|[of] p1b: Typhlosion
+|-ability|p2b: Arcanine|Intimidate|boost
+|-unboost|p1a: Jumpluff|atk|1
+|-unboost|p1b: Typhlosion|atk|1
+|turn|1
+|
+|t:|1756999326
+|switch|p1b: Torkoal|Torkoal, L50, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|move|p1a: Jumpluff|Sleep Powder|p2b: Arcanine
+|-status|p2b: Arcanine|slp|[from] move: Sleep Powder
+|move|p2a: Ninetales|Icy Wind|p1b: Torkoal|[spread] p1a,p1b
+|-supereffective|p1a: Jumpluff
+|-resisted|p1b: Torkoal
+|-damage|p1a: Jumpluff|35/100
+|-damage|p1b: Torkoal|92/100
+|-unboost|p1b: Torkoal|spe|1
+|-enditem|p1b: Torkoal|Eject Pack
+|
+|t:|1756999336
+|switch|p1b: Typhlosion|Typhlosion-Hisui, L50, M, shiny|100/100
+|-item|p2a: Ninetales|Focus Sash|[from] ability: Frisk|[of] p1b: Typhlosion
+|-item|p2b: Arcanine|Clear Amulet|[from] ability: Frisk|[of] p1b: Typhlosion
+|cant|p2b: Arcanine|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756999351
+|move|p1a: Jumpluff|Sleep Powder|p2a: Ninetales
+|-status|p2a: Ninetales|slp|[from] move: Sleep Powder
+|cant|p2a: Ninetales|slp
+|move|p1b: Typhlosion|Eruption|p2b: Arcanine|[spread] p2a,p2b
+|-supereffective|p2a: Ninetales
+|-resisted|p2b: Arcanine
+|-enditem|p2a: Ninetales|Focus Sash
+|-damage|p2a: Ninetales|1/100 slp
+|-damage|p2b: Arcanine|62/100 slp
+|-curestatus|p2b: Arcanine|slp|[msg]
+|move|p2b: Arcanine|Rock Slide|p1a: Jumpluff|[spread] p1a,p1b
+|-supereffective|p1a: Jumpluff
+|-supereffective|p1b: Typhlosion
+|-crit|p1b: Typhlosion
+|-damage|p1a: Jumpluff|0 fnt
+|-damage|p1b: Typhlosion|0 fnt
+|faint|p1a: Jumpluff
+|faint|p1b: Typhlosion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆theminesoftagawa|gg
+|-message|theminesoftagawa forfeited.
+|
+|win|Spasio

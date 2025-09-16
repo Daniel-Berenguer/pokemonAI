@@ -1,0 +1,165 @@
+|j|☆washingtongargacha
+|j|☆SeedDengoTesting
+|html|washingtongargachaSeedDengoTesting    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757200550
+|gametype|doubles
+|player|p1|washingtongargacha|169|1122
+|player|p2|SeedDengoTesting|birdkeeper-gen4dp|1153
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Arcanine-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Lilligant-Hisui||FocusSash|Chlorophyll|TripleAxel,AfterYou,CloseCombat,SleepPowder|||F|||50|,,,,,Ghost]Hatterene||CovertCloak|MagicBounce|DazzlingGleam,ExpandingForce,TrickRoom,MysticalFire|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,TrickRoom,HelpingHand,FollowMe|||F|||50|,,,,,Dragon]Torkoal||FlamePlate|Drought|Eruption,WeatherBall,HeatWave,Protect|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Grass
+|showteam|p2|Gholdengo||GrassySeed|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,Coaching,Protect|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,DrumBeating,HighHorsepower|||M|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Tailwind,Protect|||F|||50|,,,,,Ground]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,IcyWind,Encore,AuroraVeil|||M|||50|,,,,,Ghost]Arcanine-Hisui||ClearAmulet|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||F|||50|,,,,,Water
+|
+|t:|1757200571
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p2a: Gholdengo|Grassy Seed
+|-boost|p2a: Gholdengo|def|1|[from] item: Grassy Seed
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757200589
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|-terastallize|p2a: Gholdengo|Water
+|-terastallize|p1a: Hatterene|Fire
+|move|p2b: Rillaboom|High Horsepower|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|36/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1757200619
+|switch|p2b: Arcanine|Arcanine-Hisui, L50, F|100/100
+|-ability|p2b: Arcanine|Intimidate|boost
+|-unboost|p1a: Hatterene|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1a: Hatterene|Expanding Force|p2b: Arcanine|[spread] p2b
+|-activate|p2a: Gholdengo|move: Protect
+|-damage|p2b: Arcanine|16/100
+|move|p1b: Ursaluna|Earthquake|p2a: Gholdengo|[spread] p1a,p2b
+|-activate|p2a: Gholdengo|move: Protect
+|-supereffective|p1a: Hatterene
+|-supereffective|p2b: Arcanine
+|-damage|p1a: Hatterene|0 fnt
+|-damage|p2b: Arcanine|0 fnt
+|faint|p1a: Hatterene
+|faint|p2b: Arcanine
+|
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1757200644
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|3
+|
+|t:|1757200702
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|move|p2b: Rillaboom|Fake Out|p1a: Torkoal
+|-activate|p1a: Torkoal|move: Psychic Terrain
+|move|p1a: Torkoal|Eruption|p2b: Rillaboom|[spread] p2a,p2b
+|-resisted|p2a: Gholdengo
+|-supereffective|p2b: Rillaboom
+|-damage|p2a: Gholdengo|59/100
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|move|p2a: Gholdengo|Make It Rain|p1b: Indeedee|[spread] p1a,p1b
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|39/100
+|-damage|p1b: Indeedee|14/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757200711
+|switch|p2b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|turn|4
+|
+|t:|1757200729
+|move|p1b: Indeedee|Helping Hand|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Helping Hand|[of] p1b: Indeedee
+|move|p1a: Torkoal|Heat Wave|p2a: Gholdengo|[spread] p2a
+|-miss|p1a: Torkoal|p2b: Ninetales
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|33/100
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p2b: Ninetales|Blizzard|p1b: Indeedee|[spread] p1a,p1b
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|19/100
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1757200742
+|switch|p1b: Ursaluna|Ursaluna, L50, F|95/100 brn
+|turn|5
+|
+|t:|1757200762
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1a: Torkoal|Heat Wave|p2b: Ninetales|[spread] p2b
+|-activate|p2a: Gholdengo|move: Protect
+|-supereffective|p2b: Ninetales
+|-damage|p2b: Ninetales|4/100
+|move|p1b: Ursaluna|Facade|p2b: Ninetales
+|-damage|p2b: Ninetales|0 fnt
+|faint|p2b: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1b: Ursaluna|89/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1757200787
+|move|p2a: Gholdengo|Make It Rain|p1b: Ursaluna|[spread] p1a,p1b
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-damage|p1b: Ursaluna|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Torkoal
+|faint|p1b: Ursaluna
+|
+|win|SeedDengoTesting

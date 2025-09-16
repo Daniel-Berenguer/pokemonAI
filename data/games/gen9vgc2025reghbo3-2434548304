@@ -1,0 +1,213 @@
+|j|‽T-block
+|j|☆pgoiko
+|html|T-blockpgoiko    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756924999
+|gametype|doubles
+|player|p1|T-block|266|1319
+|player|p2|pgoiko|102|1185
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Maushold, L50|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Gholdengo||GrassySeed|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,DrumBeating,HighHorsepower|||M|||50|,,,,,Fire]Tyranitar||FocusSash|SandStream|RockSlide,KnockOff,LowKick,Protect|||F|||50|,,,,,Ghost]Maushold||SafetyGoggles|FriendGuard|FollowMe,Taunt,SuperFang,Protect||||||50|,,,,,Ghost]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,Coaching,Protect|||M|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Tailwind,Protect|||M|||50|,,,,,Ground
+|showteam|p2|Indeedee-F||RockyHelmet|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Armarouge||PowerHerb|FlashFire|ExpandingForce,ArmorCannon,MeteorBeam,TrickRoom|||F|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HeatWave,Protect|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Substitute,Protect|||F|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Psychic]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,CloseCombat,SleepPowder,AfterYou|||F|||50|,,,,,Ghost
+|
+|t:|1756925062
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Maushold|Maushold, L50|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Armarouge|Armarouge, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1756925079
+|switch|p1b: Rillaboom|Rillaboom, L50, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-enditem|p1a: Gholdengo|Grassy Seed
+|-boost|p1a: Gholdengo|def|1|[from] item: Grassy Seed
+|-terastallize|p1a: Gholdengo|Water
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2b: Armarouge|Trick Room|p2b: Armarouge
+|-fieldstart|move: Trick Room|[of] p2b: Armarouge
+|
+|upkeep
+|turn|2
+|j| Trestkon
+|
+|t:|1756925106
+|switch|p2a: Ursaluna|Ursaluna, L50, F|100/100
+|move|p1b: Rillaboom|Fake Out|p2b: Armarouge
+|-damage|p2b: Armarouge|89/100
+|cant|p2b: Armarouge|flinch
+|move|p1a: Gholdengo|Make It Rain|p2a: Ursaluna|[spread] p2a,p2b
+|-resisted|p2b: Armarouge
+|-damage|p2a: Ursaluna|35/100
+|-damage|p2b: Armarouge|43/100
+|-unboost|p1a: Gholdengo|spa|1
+|
+|-heal|p2a: Ursaluna|40/100|[from] Grassy Terrain
+|-heal|p2b: Armarouge|49/100|[from] Grassy Terrain
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1756925142
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|switch|p1b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|move|p2a: Ursaluna|Facade|p1a: Gholdengo
+|-damage|p1a: Gholdengo|25/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Ursaluna|0 fnt
+|-damage|p2b: Indeedee|37/100
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Ursaluna
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Indeedee|31/100|[from] Sandstorm
+|-damage|p1a: Gholdengo|19/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756925164
+|switch|p2a: Armarouge|Armarouge, L50, F|49/100
+|turn|4
+|
+|t:|1756925182
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2a: Armarouge|Meteor Beam||[still]
+|-prepare|p2a: Armarouge|Meteor Beam
+|-boost|p2a: Armarouge|spa|1
+|-enditem|p2a: Armarouge|Power Herb
+|-anim|p2a: Armarouge|Meteor Beam|p1b: Tyranitar
+|-damage|p1b: Tyranitar|58/100
+|move|p2b: Indeedee|Psychic|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|move|p1b: Tyranitar|Knock Off|p2a: Armarouge
+|-supereffective|p2a: Armarouge
+|-damage|p2a: Armarouge|0 fnt
+|faint|p2a: Armarouge
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Indeedee|25/100|[from] Sandstorm
+|-damage|p1a: Gholdengo|12/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756925200
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|5
+|
+|t:|1756925226
+|-terastallize|p2a: Torkoal|Fire
+|move|p2b: Indeedee|Helping Hand|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Helping Hand|[of] p2b: Indeedee
+|move|p1b: Tyranitar|Protect|p1b: Tyranitar
+|-singleturn|p1b: Tyranitar|Protect
+|move|p2a: Torkoal|Eruption|p1b: Tyranitar|[spread] p1a
+|-activate|p1b: Tyranitar|move: Protect
+|-resisted|p1a: Gholdengo
+|-crit|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1756925254
+|switch|p1a: Rillaboom|Rillaboom, L50, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|6
+|
+|t:|1756925262
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p1a: Rillaboom|Fake Out|p2b: Indeedee
+|-damage|p2b: Indeedee|12/100
+|-damage|p1a: Rillaboom|84/100|[from] item: Rocky Helmet|[of] p2b: Indeedee
+|move|p1b: Tyranitar|Knock Off|p2a: Torkoal
+|-activate|p2a: Torkoal|move: Protect
+|cant|p2b: Indeedee|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Rillaboom|90/100|[from] Grassy Terrain
+|-heal|p1b: Tyranitar|65/100|[from] Grassy Terrain
+|-heal|p2b: Indeedee|18/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1756925301
+|switch|p1b: Maushold|Maushold, L50|100/100
+|move|p1a: Rillaboom|Drum Beating|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p2a: Torkoal|Heat Wave|p1b: Maushold|[spread] p1a,p1b
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-damage|p1b: Maushold|8/100
+|faint|p1a: Rillaboom
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Maushold|14/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756925306
+|switch|p1a: Tyranitar|Tyranitar, L50, F|65/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|8
+|
+|t:|1756925317
+|move|p1b: Maushold|Protect|p1b: Maushold
+|-singleturn|p1b: Maushold|Protect
+|move|p1a: Tyranitar|Knock Off|p2a: Torkoal
+|-damage|p2a: Torkoal|56/100
+|-enditem|p2a: Torkoal|Charcoal|[from] move: Knock Off|[of] p1a: Tyranitar
+|move|p2a: Torkoal|Heat Wave|p1a: Tyranitar|[spread] p1a
+|-activate|p1b: Maushold|move: Protect
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Torkoal|50/100|[from] Sandstorm
+|-heal|p1b: Maushold|20/100|[from] Grassy Terrain
+|-heal|p1a: Tyranitar|61/100|[from] Grassy Terrain
+|-heal|p2a: Torkoal|56/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1756925336
+|move|p1b: Maushold|Super Fang|p2a: Torkoal
+|-damage|p2a: Torkoal|28/100
+|move|p1a: Tyranitar|Knock Off|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|win|T-block
+|raw|T-block's rating: 1319 → 1332(+13 for winning)
+|raw|pgoiko's rating: 1185 → 1169(-16 for losing)
+|l|☆pgoiko
+|player|p2|

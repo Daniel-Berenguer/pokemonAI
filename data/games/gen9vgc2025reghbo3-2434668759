@@ -1,0 +1,99 @@
+|j|☆stefoakes
+|j|☆Juanki95
+|html|stefoakesJuanki95    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756936826
+|gametype|doubles
+|player|p1|stefoakes|101|1044
+|player|p2|Juanki95|169|1110
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Ditto, L50|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|showteam|p1|Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,ShadowBall,Thunderbolt,PowerGem||||||50|,,,,,Steel]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Ground]Whimsicott||FocusSash|Prankster|Tailwind,Taunt,Uturn,Protect|||F|||50|,,,,,Fairy]Armarouge||WeaknessPolicy|WeakArmor|ExpandingForce,ArmorCannon,Protect,AuraSphere|||M|||50|,,,,,Psychic]Ditto||ChoiceScarf|Imposter|Transform||||||50|,,,,,Normal]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,DazzlingGleam,HelpingHand|||F|||50|,,,,,Fairy
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|IceBeam,TeraBlast,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Juanki95)
+|
+|t:|1756936855
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Armarouge|Armarouge, L50, M|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, F|100/100
+|switch|p2b: Charizard|Charizard, L50, F|100/100
+|turn|1
+|
+|t:|1756936879
+|-terastallize|p1a: Armarouge|Psychic
+|move|p1b: Whimsicott|U-turn|p1a: Armarouge
+|-supereffective|p1a: Armarouge
+|-damage|p1a: Armarouge|83/100
+|-ability|p1a: Armarouge|Weak Armor|boost
+|-unboost|p1a: Armarouge|def|1
+|-boost|p1a: Armarouge|spe|2
+|-enditem|p1a: Armarouge|Weakness Policy
+|-boost|p1a: Armarouge|atk|2|[from] item: Weakness Policy
+|-boost|p1a: Armarouge|spa|2|[from] item: Weakness Policy
+|
+|t:|1756936888
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100|[from] U-turn
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p1a: Armarouge|Expanding Force|p2a: Jumpluff|[spread] p2a,p2b
+|-damage|p2a: Jumpluff|0 fnt
+|-damage|p2b: Charizard|0 fnt
+|faint|p2a: Jumpluff
+|faint|p2b: Charizard
+|
+|upkeep
+|
+|t:|1756936898
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|2
+|
+|t:|1756936909
+|-terastallize|p2b: Torkoal|Fire
+|move|p1b: Indeedee|Helping Hand|p1a: Armarouge
+|-singleturn|p1a: Armarouge|Helping Hand|[of] p1b: Indeedee
+|move|p2b: Torkoal|Protect|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Protect
+|move|p1a: Armarouge|Expanding Force|p2a: Porygon2|[spread] p2a
+|-activate|p2b: Torkoal|move: Protect
+|-crit|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756936927
+|move|p1b: Indeedee|Helping Hand|p1a: Armarouge
+|-singleturn|p1a: Armarouge|Helping Hand|[of] p1b: Indeedee
+|move|p1a: Armarouge|Expanding Force|p2b: Torkoal
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|
+|win|stefoakes
+||Juanki95 is ready for game 2.

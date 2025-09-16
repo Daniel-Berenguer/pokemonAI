@@ -1,0 +1,155 @@
+|j|☆MakeItSunn
+|j|☆gatoexplotando
+|html|MakeItSunngatoexplotando    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757769077
+|gametype|doubles
+|player|p1|MakeItSunn|1|
+|player|p2|gatoexplotando|lady-gen4|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Oranguru, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Jumpluff, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Maushold-Four, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Meowscarada, L50, F|
+|teampreview|4
+|showteam|p1|Oranguru||MentalHerb|Telepathy|ExpandingForce,TrickRoom,Instruct,Yawn|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Earthquake,Facade,HeadlongRush,Protect|||F|||50|,,,,,Ghost]Indeedee-F||EjectButton|PsychicSurge|FollowMe,DazzlingGleam,HelpingHand,TrickRoom|||F|||50|,,,,,Fairy]Torkoal||EjectPack|Drought|Eruption,Overheat,EarthPower,Protect|||M|||50|,,,,,Fire]Armarouge||LifeOrb|FlashFire|ExpandingForce,ArmorCannon,WideGuard,Protect|||M|||50|,,,,,Grass]Jumpluff||CovertCloak|Chlorophyll|RagePowder,SleepPowder,Tailwind,SunnyDay|||F|||50|,,,,,Water
+|showteam|p2|Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,ShadowBall,PowerGem,Trick||||||50|,,,,,Steel]Maushold-Four||SafetyGoggles|FriendGuard|SuperFang,Feint,FollowMe,Protect||||||50|,,,,,Ghost]Ursaluna-Bloodmoon||AssaultVest|MindsEye|HyperVoice,BloodMoon,EarthPower,VacuumWave|||M|||50|,,,,,Water]Dondozo||Leftovers|Unaware|WaveCrash,Yawn,Fissure,Protect|||M|||50|,,,,,Bug]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Meowscarada||FocusSash|Overgrow|FlowerTrick,KnockOff,SuckerPunch,Protect|||F|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gatoexplotando)
+|
+|t:|1757769086
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Oranguru|Oranguru, L50, M|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Meowscarada|Meowscarada, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1757769111
+|-terastallize|p2a: Gholdengo|Steel
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Meowscarada|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|4/100
+|-enditem|p1a: Indeedee|Eject Button|[from] move: Knock Off|[of] p2b: Meowscarada
+|move|p2a: Gholdengo|Make It Rain|p1b: Oranguru|[spread] p1a,p1b
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Oranguru|24/100
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Indeedee
+|move|p1b: Oranguru|Trick Room|p1b: Oranguru
+|-fieldstart|move: Trick Room|[of] p1b: Oranguru
+|
+|upkeep
+|
+|t:|1757769123
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|2
+|
+|t:|1757769134
+|move|p2b: Meowscarada|Protect|p2b: Meowscarada
+|-singleturn|p2b: Meowscarada|Protect
+|move|p1a: Torkoal|Eruption|p2b: Meowscarada|[spread] p2a
+|-activate|p2b: Meowscarada|move: Protect
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|move|p1b: Oranguru|Instruct|p1a: Torkoal
+|-singleturn|p1a: Torkoal|move: Instruct|[of] p1b: Oranguru
+|move|p1a: Torkoal|Eruption|p2b: Meowscarada
+|-activate|p2b: Meowscarada|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757769143
+|switch|p2a: Dondozo|Dondozo, L50, M|100/100
+|turn|3
+|
+|t:|1757769165
+|move|p2b: Meowscarada|Protect||[still]
+|-fail|p2b: Meowscarada
+|move|p1a: Torkoal|Eruption|p2b: Meowscarada|[spread] p2a,p2b
+|-resisted|p2a: Dondozo
+|-supereffective|p2b: Meowscarada
+|-damage|p2a: Dondozo|74/100
+|-enditem|p2b: Meowscarada|Focus Sash
+|-damage|p2b: Meowscarada|1/100
+|move|p2a: Dondozo|Yawn|p1a: Torkoal
+|-start|p1a: Torkoal|move: Yawn|[of] p2a: Dondozo
+|move|p1b: Oranguru|Instruct|p1a: Torkoal
+|-singleturn|p1a: Torkoal|move: Instruct|[of] p1b: Oranguru
+|move|p1a: Torkoal|Eruption|p2b: Meowscarada|[spread] p2a,p2b
+|-resisted|p2a: Dondozo
+|-supereffective|p2b: Meowscarada
+|-damage|p2a: Dondozo|49/100
+|-damage|p2b: Meowscarada|0 fnt
+|faint|p2b: Meowscarada
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dondozo|56/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757769170
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|4
+|inactive|MakeItSunn has 30 seconds left.
+|inactive|MakeItSunn has 20 seconds left.
+|
+|t:|1757769207
+|move|p2a: Dondozo|Protect|p2a: Dondozo
+|-singleturn|p2a: Dondozo|Protect
+|move|p1a: Torkoal|Overheat|p2b: Ursaluna
+|-damage|p2b: Ursaluna|43/100
+|-unboost|p1a: Torkoal|spa|2
+|-enditem|p1a: Torkoal|Eject Pack
+|
+|t:|1757769214
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|move|p1b: Oranguru|Yawn|p2a: Dondozo
+|-activate|p2a: Dondozo|move: Protect
+|move|p2b: Ursaluna|Blood Moon|p1a: Ursaluna
+|-damage|p1a: Ursaluna|35/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Dondozo|62/100|[from] item: Leftovers
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|inactive|MakeItSunn has 30 seconds left.
+|
+|t:|1757769248
+|move|p2a: Dondozo|Wave Crash|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|6/100 brn
+|-damage|p2a: Dondozo|53/100|[from] Recoil
+|move|p1a: Ursaluna|Facade|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|move|p1b: Oranguru|Instruct|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|move: Instruct|[of] p1b: Oranguru
+|move|p1a: Ursaluna|Facade|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|win|MakeItSunn
+||gatoexplotando is ready for game 3.
+|inactive|MakeItSunn has 30 seconds to confirm battle start!
+||MakeItSunn is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

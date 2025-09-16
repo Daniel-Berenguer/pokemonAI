@@ -1,0 +1,178 @@
+|j|☆wideguard_user
+|j|☆KodeBeast0526
+|html|wideguard_userKodeBeast0526    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756952352
+|gametype|doubles
+|player|p1|wideguard_user|265|
+|player|p2|KodeBeast0526|sailor|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Corviknight, L50, M|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|showteam|p1|Pelipper||FocusSash|Drizzle|Hurricane,MuddyWater,Tailwind,Protect|||F|||50|,,,,,Stellar]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,FlipTurn,AquaJet,LastRespects|||M|||50|,,,,,Grass]Archaludon||AssaultVest|Stamina|ElectroShot,Snarl,DragonPulse,BodyPress|||F|||50|,,,,,Grass]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water
+|showteam|p2|Excadrill||FocusSash|SandRush|IronHead,HighHorsepower,Earthquake,Protect|||M|||50|,,,,,Stellar]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Protect,Trick|||M|||50|,,,,,Psychic]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Roost,Tailwind|||M|||50|,,,,,Dragon]Annihilape||SafetyGoggles|Defiant|CloseCombat,FinalGambit,RageFist,Taunt|||M|||50|,,,,,Water
+|
+|t:|1756952517
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F, shiny|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756952544
+|switch|p1b: Pelipper|Pelipper, L50, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|-terastallize|p2a: Sneasler|Dark
+|move|p2a: Sneasler|Throat Chop|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|move|p2b: Indeedee|Trick|p1b: Pelipper
+|-activate|p2b: Indeedee|move: Trick|[of] p1b: Pelipper
+|-item|p1b: Pelipper|Choice Scarf|[from] move: Trick
+|-item|p2b: Indeedee|Focus Sash|[from] move: Trick
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756952556
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|turn|2
+|
+|t:|1756952617
+|switch|p2b: Tyranitar|Tyranitar, L50, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|switch|p1a: Archaludon|Archaludon, L50, F|100/100
+|move|p2a: Sneasler|Dire Claw|p1b: Pelipper
+|-damage|p1b: Pelipper|60/100
+|-status|p1b: Pelipper|par
+|cant|p1b: Pelipper|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sneasler|95/100|[from] Sandstorm
+|-damage|p1b: Pelipper|54/100 par|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1756952657
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2b: Tyranitar|atk|1
+|-terastallize|p1a: Archaludon|Grass
+|move|p2a: Sneasler|Dire Claw|p1b: Incineroar
+|-damage|p1b: Incineroar|78/100
+|move|p1a: Archaludon|Body Press|p2b: Tyranitar
+|-supereffective|p2b: Tyranitar
+|-damage|p2b: Tyranitar|30/100
+|move|p2b: Tyranitar|Knock Off|p1a: Archaludon
+|-damage|p1a: Archaludon|74/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|-enditem|p1a: Archaludon|Assault Vest|[from] move: Knock Off|[of] p2b: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sneasler|89/100|[from] Sandstorm
+|-damage|p1a: Archaludon|68/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1756952695
+|switch|p2a: Indeedee|Indeedee, L50, M, shiny|100/100
+|move|p1a: Archaludon|Body Press|p2a: Indeedee
+|-damage|p2a: Indeedee|34/100
+|move|p2b: Tyranitar|Rock Slide|p1a: Archaludon|[spread] p1a,p1b
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Archaludon|59/100
+|-damage|p1b: Incineroar|41/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p1b: Incineroar|Parting Shot|p2b: Tyranitar
+|-unboost|p2b: Tyranitar|atk|1
+|-unboost|p2b: Tyranitar|spa|1
+|
+|t:|1756952707
+|switch|p1b: Pelipper|Pelipper, L50, F, shiny|54/100 par|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1756952749
+|switch|p2b: Sneasler|Sneasler, L50, F, shiny, tera:Dark|89/100
+|move|p2a: Indeedee|Expanding Force|p1b: Pelipper|[spread] p1a,p1b
+|-damage|p1a: Archaludon|5/100
+|-damage|p1b: Pelipper|0 fnt
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|faint|p1b: Pelipper
+|move|p1a: Archaludon|Body Press|p2b: Sneasler
+|-supereffective|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756952762
+|switch|p2b: Tyranitar|Tyranitar, L50, M, shiny|30/100
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|41/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Tyranitar|atk|1
+|turn|6
+|
+|t:|1756952770
+|move|p1b: Incineroar|Fake Out|p2a: Indeedee
+|-damage|p2a: Indeedee|6/100
+|cant|p2a: Indeedee|flinch
+|move|p1a: Archaludon|Body Press|p2b: Tyranitar
+|-supereffective|p2b: Tyranitar
+|-damage|p2b: Tyranitar|0 fnt
+|faint|p2b: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Indeedee|0 fnt|[from] Sandstorm
+|-damage|p1a: Archaludon|0 fnt|[from] Sandstorm
+|faint|p2a: Indeedee
+|faint|p1a: Archaludon
+|upkeep
+|
+|t:|1756952773
+|switch|p2b: Excadrill|Excadrill, L50, M, shiny|100/100
+|turn|7
+|-message|wideguard_user forfeited.
+|
+|win|KodeBeast0526
+||wideguard_user is ready for game 3.
+||KodeBeast0526 is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆wideguard_user
+|player|p1|

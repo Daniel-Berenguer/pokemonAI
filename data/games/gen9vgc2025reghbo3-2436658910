@@ -1,0 +1,98 @@
+|j|☆FlashoGoing
+|j|☆randomguy1114s
+|html|FlashoGoingrandomguy1114s    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1757206450
+|gametype|doubles
+|player|p1|FlashoGoing|pokemaniac|1095
+|player|p2|randomguy1114s|lillie-masters|1330
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Murkrow, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|FakeOut,Taunt,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,Uturn|||M|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Annihilape||SitrusBerry|Defiant|BulkUp,Protect,RageFist,DrainPunch|||F|||50|,,,,,Fire]Murkrow||FocusSash|Prankster|Tailwind,Haze,Quash,Protect|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Indeedee-F||SafetyGoggles|PsychicSurge|FollowMe,HelpingHand,TrickRoom,Psychic|||F|||50|,,,,,Dark]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Psychic]Torkoal||Charcoal|Drought|Eruption,HeatWave,SolarBeam,Protect|||F|||50|,,,,,Fire]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,Uturn,Protect|||F|||50|,,,,,Bug]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Psychic]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1757206466
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2a: resident helper|Indeedee-F, L50, F, shiny|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: resident helper
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: resident helper|atk|1
+|-fail|p2b: Gallade|unboost|[from] item: Clear Amulet|[of] p2b: Gallade
+|turn|1
+|
+|t:|1757206489
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Gallade|Sacred Sword|p1a: Rillaboom
+|-damage|p1a: Rillaboom|26/100
+|move|p2a: resident helper|Trick Room|p2a: resident helper
+|-fieldstart|move: Trick Room|[of] p2a: resident helper
+|
+|-heal|p1a: Rillaboom|32/100|[from] Grassy Terrain
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1757206523
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100
+|-terastallize|p1b: Ursaluna|Ghost
+|move|p2a: resident helper|Follow Me|p2a: resident helper
+|-singleturn|p2a: resident helper|move: Follow Me
+|move|p1b: Ursaluna|Facade|p2a: resident helper
+|-crit|p2a: resident helper
+|-damage|p2a: resident helper|0 fnt
+|faint|p2a: resident helper
+|move|p2b: Gallade|Sacred Sword|p1a: Annihilape
+|-immune|p1a: Annihilape
+|
+|-damage|p1b: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1757206527
+|switch|p2a: turtleonfire|Torkoal, L50, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: turtleonfire
+|turn|3
+|
+|t:|1757206557
+|-terastallize|p2a: turtleonfire|Fire
+|move|p2a: turtleonfire|Eruption|p1a: Annihilape|[spread] p1a,p1b
+|-damage|p1a: Annihilape|0 fnt
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1a: Annihilape
+|faint|p1b: Ursaluna
+|move|p2b: Gallade|Psycho Cut|p1: Annihilape|[notarget]
+|-fail|p2b: Gallade
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|FlashoGoing forfeited.
+|
+|win|randomguy1114s
+|raw|FlashoGoing's rating: 1095 → 1085(-10 for losing)
+|raw|randomguy1114s's rating: 1330 → 1338(+8 for winning)
+|l|☆FlashoGoing
+|player|p1|

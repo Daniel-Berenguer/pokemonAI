@@ -1,0 +1,103 @@
+|j|☆pikajw
+|j|☆Slyfox128
+|html|pikajwSlyfox128    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757053501
+|gametype|doubles
+|player|p1|pikajw|101|1101
+|player|p2|Slyfox128|1|1048
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Charizard, L50, F|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Lucario, L50, M|
+|poke|p2|Glimmora, L50, F|
+|poke|p2|Talonflame, L50, F|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|showteam|p1|Lilligant-Hisui||FocusSash|Chlorophyll|CloseCombat,AfterYou,SleepPowder,Coaching|||F|||50|,,,,,Ghost]Torkoal||SitrusBerry|Drought|HeatWave,Eruption,EarthPower,Protect|||M|||50|,,,,,Fire]Kingambit||AssaultVest|Defiant|SuckerPunch,IronHead,Snarl,TeraBlast|||F|||50|,,,,,Fire]Farigiraf||SafetyGoggles|ArmorTail|HelpingHand,Psychic,TrickRoom,Protect|||M|||50|,,,,,Fairy]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,DrainPunch,Protect|||M|||50|,,,,,Fairy]Charizard||ChoiceSpecs|SolarPower|ScorchingSands,HeatWave,SolarBeam,TeraBlast|||F|||50|,,,,,Flying
+|showteam|p2|Dragapult||ChoiceBand|ClearBody|DragonDarts,DragonClaw,TeraBlast,Uturn|||F|||50|,,,,,Ghost]Ninetales-Alola||CovertCloak|SnowWarning|AuroraVeil,Protect,Moonblast,Blizzard|||M|||50|,,,,,Water]Lucario||LifeOrb|InnerFocus|AuraSphere,FlashCannon,Protect,DarkPulse|||M|||50|,,,,,Dark]Glimmora||PowerHerb|ToxicDebris|MeteorBeam,SpikyShield,SludgeWave,EarthPower|||F|||50|,,,,,Ground]Talonflame||FocusSash|GaleWings|Tailwind,BraveBird,Protect,FlareBlitz|||F|||50|,,,,,Dark]Incineroar||SafetyGoggles|Intimidate|KnockOff,PartingShot,Taunt,FakeOut|||F|||50|,,,,,Water
+|
+|t:|1757053560
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, F|100/100
+|switch|p1b: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p2a: Lucario|Lucario, L50, M|100/100
+|switch|p2b: Glimmora|Glimmora, L50, F|100/100
+|turn|1
+|
+|t:|1757053624
+|switch|p2a: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1b: Lilligant|Sleep Powder|p2b: Glimmora|[miss]
+|-miss|p1b: Lilligant|p2b: Glimmora
+|move|p1a: Charizard|Scorching Sands|p2a: Ninetales
+|-damage|p2a: Ninetales|65/100
+|move|p2b: Glimmora|Meteor Beam||[still]
+|-prepare|p2b: Glimmora|Meteor Beam
+|-boost|p2b: Glimmora|spa|1
+|-enditem|p2b: Glimmora|Power Herb
+|-anim|p2b: Glimmora|Meteor Beam|p1a: Charizard
+|-supereffective|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1757053632
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|2
+|
+|t:|1757053685
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1b: Lilligant|atk|1
+|move|p1b: Lilligant|Sleep Powder|p2b: Glimmora
+|-status|p2b: Glimmora|slp|[from] move: Sleep Powder
+|cant|p2b: Glimmora|slp
+|move|p1a: Torkoal|Eruption|p2b: Glimmora|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-resisted|p2b: Glimmora
+|-damage|p2a: Incineroar|73/100
+|-damage|p2b: Glimmora|60/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757053706
+|move|p2a: Incineroar|Fake Out|p1b: Lilligant
+|-damage|p1b: Lilligant|84/100
+|cant|p1b: Lilligant|flinch
+|-curestatus|p2b: Glimmora|slp|[msg]
+|move|p2b: Glimmora|Earth Power|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-crit|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|pikajw forfeited.
+|
+|win|Slyfox128
+|raw|pikajw's rating: 1101 → 1072(-29 for losing)
+|raw|Slyfox128's rating: 1048 → 1086(+38 for winning)
+|l|☆pikajw
+|player|p1|
+|c|☆Slyfox128|gg

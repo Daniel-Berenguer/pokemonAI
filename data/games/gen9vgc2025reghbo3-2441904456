@@ -1,0 +1,100 @@
+|j|☆TeyOnTheRox
+|j|☆Bellbottoms
+|html|TeyOnTheRoxBellbottoms    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757920798
+|gametype|doubles
+|player|p1|TeyOnTheRox|benga|1315
+|player|p2|Bellbottoms|pokemonbreederf-gen4|1416
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Corviknight, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p2|Hawlucha, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Magmar, L50, M|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||F|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|IronHead,HighHorsepower,Earthquake,Protect|||M|||50|,,,,,Stellar]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Protect,Trick|||M|||50|,,,,,Psychic]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Roost,Tailwind|||M|||50|,,,,,Dragon]Annihilape||SafetyGoggles|Defiant|CloseCombat,FinalGambit,RageFist,Taunt|||F|||50|,,,,,Water
+|showteam|p2|Hawlucha||GrassySeed|Unburden|CloseCombat,Acrobatics,Coaching,Protect|||F|||50|,,,,,Flying]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,HighHorsepower|||F|||50|,,,,,Fire]Kingambit||Leftovers|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Fairy]Ninetales-Alola||FocusSash|SnowWarning|IcyWind,Disable,Blizzard,Protect|||F|||50|,,,,,Ice]Garchomp||ClearAmulet|RoughSkin|StompingTantrum,Substitute,DragonClaw,Protect|||M|||50|,,,,,Fire]Magmar||Eviolite|VitalSpirit|Overheat,Taunt,FollowMe,Protect|||M|||50|,,,,,Ghost
+|
+|t:|1757920834
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Lightnin'|Sneasler, L50, F|100/100
+|switch|p1b: Filmore|Indeedee, L50, M, shiny|100/100
+|switch|p2a: Hawlucha|Hawlucha, L50, F, shiny|100/100
+|switch|p2b: Garchomp|Garchomp, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Filmore
+|-enditem|p1a: Lightnin'|Psychic Seed
+|-boost|p1a: Lightnin'|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757920862
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p2a: Hawlucha|Grassy Seed
+|-boost|p2a: Hawlucha|def|1|[from] item: Grassy Seed
+|-terastallize|p2a: Hawlucha|Flying
+|move|p2a: Hawlucha|Acrobatics|p1a: Lightnin'
+|-supereffective|p1a: Lightnin'
+|-damage|p1a: Lightnin'|0 fnt
+|faint|p1a: Lightnin'
+|move|p1b: Filmore|Expanding Force|p2a: Hawlucha
+|-damage|p2a: Hawlucha|30/100
+|
+|upkeep
+|
+|t:|1757920877
+|switch|p1a: Mack|Corviknight, L50, M|100/100
+|turn|2
+|
+|t:|1757920891
+|switch|p1b: Chicks Hicks|Annihilape, L50, F|100/100
+|move|p2b: Rillaboom|Fake Out|p1a: Mack
+|-resisted|p1a: Mack
+|-damage|p1a: Mack|96/100
+|move|p2a: Hawlucha|Acrobatics|p1b: Chicks Hicks
+|-supereffective|p1b: Chicks Hicks
+|-damage|p1b: Chicks Hicks|0 fnt
+|faint|p1b: Chicks Hicks
+|cant|p1a: Mack|flinch
+|
+|-heal|p1a: Mack|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757920896
+|switch|p1b: Filmore|Indeedee, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Filmore
+|turn|3
+|
+|t:|1757920912
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|-terastallize|p1b: Filmore|Psychic
+|move|p2a: Hawlucha|Acrobatics|p1b: Filmore
+|-damage|p1b: Filmore|0 fnt
+|faint|p1b: Filmore
+|move|p1a: Mack|Bulk Up|p1a: Mack
+|-boost|p1a: Mack|atk|1
+|-boost|p1a: Mack|def|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|-message|TeyOnTheRox forfeited.
+|
+|win|Bellbottoms
+|raw|TeyOnTheRox's rating: 1315 → 1301(-14 for losing)
+|raw|Bellbottoms's rating: 1416 → 1430(+14 for winning)

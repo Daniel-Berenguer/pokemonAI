@@ -1,0 +1,162 @@
+|j|☆Notaplaceofhonor
+|j|☆gokturkxd
+|html|Notaplaceofhonorgokturkxd    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757710438
+|gametype|doubles
+|player|p1|Notaplaceofhonor|juan-gen3|1155
+|player|p2|gokturkxd|n-masters3|1121
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p2|Kommo-o, L50, M|
+|poke|p2|Drifblim, L50, F|
+|poke|p2|Hydreigon, L50, M|
+|poke|p2|Toxtricity, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Indeedee, L50, M|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Protect,Facade,Earthquake,HeadlongRush|||F|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|Taunt,FakeOut,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|ElectroShot,Snarl,DracoMeteor,BodyPress|||M|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|||M|||50|,,,,,Ghost]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,AquaJet|||M|||50|,,,,,Water]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,TrickRoom,RagePowder,LifeDew||||||50|,,,,,Water
+|showteam|p2|Kommo-o||Leftovers|Soundproof|BodyPress,Flamethrower,IronDefense,Protect|||M|||50|,,,,,Fire]Drifblim||PsychicSeed|Unburden|Acrobatics,WillOWisp,StrengthSap,Tailwind|||F|||50|,,,,,Grass]Hydreigon||AssaultVest|Levitate|DarkPulse,DracoMeteor,EarthPower,Snarl|||M|||50|,,,,,Ghost]Toxtricity||ChoiceSpecs|PunkRock|VoltSwitch,SludgeBomb,Boomburst,Overdrive|||M|||50|,,,,,Normal]Volcarona||CovertCloak|FlameBody|QuiverDance,HeatWave,TeraBlast,Protect|||F|||50|,,,,,Fairy]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,Imprison,TrickRoom|||M|||50|,,,,,Fighting
+|
+|t:|1757710446
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|switch|p2a: Drifblim|Drifblim, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2a: Drifblim|Psychic Seed
+|-boost|p2a: Drifblim|spd|1|[from] item: Psychic Seed
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1757710500
+|move|p2a: Drifblim|Acrobatics|p1a: Pelipper
+|-damage|p1a: Pelipper|59/100
+|move|p2b: Indeedee|Expanding Force|p1b: Archaludon|[spread] p1a,p1b
+|-resisted|p1b: Archaludon
+|-damage|p1a: Pelipper|0 fnt
+|-damage|p1b: Archaludon|83/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|faint|p1a: Pelipper
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2b: Indeedee
+|-damage|p2b: Indeedee|29/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757710509
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Drifblim|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|turn|2
+|
+|t:|1757710535
+|-terastallize|p2b: Indeedee|Fighting
+|move|p2a: Drifblim|Will-O-Wisp|p1b: Archaludon
+|-status|p1b: Archaludon|brn
+|move|p2b: Indeedee|Tera Blast|p1b: Archaludon|[anim] Tera Blast Fighting
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|33/100 brn
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Drifblim
+|-supereffective|p2a: Drifblim
+|-damage|p2a: Drifblim|0 fnt
+|faint|p2a: Drifblim
+|move|p1a: Incineroar|Knock Off|p2b: Indeedee
+|-resisted|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-enditem|p2b: Indeedee|Focus Sash|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2b: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Archaludon|27/100 brn|[from] brn
+|upkeep
+|
+|t:|1757710551
+|switch|p2b: Toxtricity|Toxtricity, L50, M, shiny|100/100
+|switch|p2a: Hydreigon|Hydreigon, L50, M|100/100
+|turn|3
+|
+|t:|1757710584
+|move|p2a: Hydreigon|Earth Power|p1b: Archaludon
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|faint|p1b: Archaludon
+|move|p2b: Toxtricity|Overdrive|p1a: Incineroar
+|-damage|p1a: Incineroar|33/100
+|move|p1a: Incineroar|Parting Shot|p2a: Hydreigon
+|-unboost|p2a: Hydreigon|atk|1
+|-unboost|p2a: Hydreigon|spa|1
+|
+|t:|1757710592
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100|[from] Parting Shot
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757710596
+|switch|p1b: Incineroar|Incineroar, L50, M|33/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Hydreigon|atk|1
+|-unboost|p2b: Toxtricity|atk|1
+|turn|4
+|
+|t:|1757710611
+|-terastallize|p1a: Basculegion|Water
+|move|p1b: Incineroar|Fake Out|p2a: Hydreigon
+|-hint|Psychic Terrain doesn't affect Pokémon immune to Ground.
+|-damage|p2a: Hydreigon|89/100
+|move|p1a: Basculegion|Last Respects|p2b: Toxtricity
+|-damage|p2b: Toxtricity|0 fnt
+|faint|p2b: Toxtricity
+|cant|p2a: Hydreigon|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757710628
+|move|p1a: Basculegion|Last Respects|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|47/100
+|move|p2a: Hydreigon|Dark Pulse|p1a: Basculegion
+|-damage|p1a: Basculegion|68/100
+|move|p1b: Incineroar|Knock Off|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|27/100
+|-enditem|p2a: Hydreigon|Assault Vest|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1757710638
+|move|p1a: Basculegion|Last Respects|p2a: Hydreigon
+|-resisted|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|
+|win|Notaplaceofhonor

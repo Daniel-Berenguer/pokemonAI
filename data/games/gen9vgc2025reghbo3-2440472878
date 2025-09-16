@@ -1,0 +1,124 @@
+|j|☆IceIceBaby98
+|j|☆SilkSongClave
+|html|IceIceBaby98SilkSongClave    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757708561
+|gametype|doubles
+|player|p1|IceIceBaby98|101|1135
+|player|p2|SilkSongClave|artist-gen4|1047
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Corviknight, L50, F|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Excadrill||FocusSash|SandRush|IronHead,HighHorsepower,Earthquake,Protect|||F|||50|,,,,,Stellar]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Protect,Trick|||M|||50|,,,,,Psychic]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||F|||50|,,,,,Flying]Corviknight||SitrusBerry|MirrorArmor|BraveBird,Tailwind,Roost,BulkUp|||F|||50|,,,,,Dragon]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||M|||50|,,,,,Water
+|
+|t:|1757708575
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1757708604
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Indeedee|Expanding Force|p1a: Jumpluff|[spread] p1a
+|-activate|p1b: Ursaluna|move: Protect
+|-damage|p1a: Jumpluff|37/100
+|move|p1a: Jumpluff|Tailwind|p1a: Jumpluff
+|-sidestart|p1: IceIceBaby98|move: Tailwind
+|move|p2a: Annihilape|Close Combat|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1757708623
+|move|p1a: Jumpluff|Sleep Powder|p2b: Indeedee
+|-status|p2b: Indeedee|slp|[from] move: Sleep Powder
+|cant|p2b: Indeedee|slp
+|move|p1b: Ursaluna|Headlong Rush|p2a: Annihilape
+|-damage|p2a: Annihilape|0 fnt
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|faint|p2a: Annihilape
+|
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1757708637
+|switch|p2a: Excadrill|Excadrill, L50, F|100/100
+|turn|3
+|
+|t:|1757708645
+|move|p2a: Excadrill|Protect|p2a: Excadrill
+|-singleturn|p2a: Excadrill|Protect
+|move|p1a: Jumpluff|Sunny Day|p1a: Jumpluff
+|-weather|SunnyDay
+|cant|p2b: Indeedee|slp
+|move|p1b: Ursaluna|Earthquake|p2b: Indeedee|[spread] p2b
+|-activate|p2a: Excadrill|move: Protect
+|-immune|p1a: Jumpluff
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1757708657
+|switch|p2b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|turn|4
+|
+|t:|1757708662
+|move|p1a: Jumpluff|Sunny Day|p1a: Jumpluff
+|-weather|SunnyDay
+|move|p1b: Ursaluna|Earthquake|p2b: Tyranitar|[spread] p2a,p2b
+|-immune|p1a: Jumpluff
+|-supereffective|p2a: Excadrill
+|-crit|p2a: Excadrill
+|-supereffective|p2b: Tyranitar
+|-enditem|p2a: Excadrill|Focus Sash
+|-damage|p2a: Excadrill|1/100
+|-damage|p2b: Tyranitar|0 fnt
+|faint|p2b: Tyranitar
+|move|p2a: Excadrill|High Horsepower|p1b: Ursaluna|[miss]
+|-miss|p2a: Excadrill|p1b: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Ursaluna|83/100 brn|[from] brn
+|-sideend|p1: IceIceBaby98|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1757708671
+|move|p1a: Jumpluff|Tailwind|p1a: Jumpluff
+|-sidestart|p1: IceIceBaby98|move: Tailwind
+|move|p1b: Ursaluna|Facade|p2a: Excadrill
+|-resisted|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|
+|win|IceIceBaby98

@@ -1,0 +1,131 @@
+|j|☆chess_pro
+|j|☆WhyOGod
+|html|chess_proWhyOGod    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757091513
+|gametype|doubles
+|player|p1|chess_pro|266|1025
+|player|p2|WhyOGod|101|1026
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Serperior, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Blaziken, L50, M|
+|poke|p1|Primarina, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Decidueye-Hisui, L50, M|
+|poke|p2|Tatsugiri, L50, M|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Oricorio-Pom-Pom, L50, M|
+|poke|p2|Flamigo, L50, M|
+|poke|p2|Sableye, L50, M|
+|teampreview|4
+|showteam|p1|Serperior||Leftovers|Contrary|LeafStorm,GrassPledge,EnergyBall,Protect|||M|||50|,,,,,Stellar]Incineroar||RockyHelmet|Intimidate|PartingShot,FirePledge,FlareBlitz,FakeOut|||F|||50|,,,,,Stellar]Blaziken||ClearAmulet|SpeedBoost|FirePledge,CloseCombat,FlareBlitz,Protect|||M|||50|,,,,,Fire]Primarina||LifeOrb|LiquidVoice|HydroPump,AlluringVoice,WaterPledge,Protect|||M|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,HighHorsepower,Uturn|||F|||50|,,,,,Grass]Decidueye-Hisui||ChoiceBand|Scrappy|TripleArrows,SuckerPunch,BraveBird,CloseCombat|||M|||50|,,,,,Grass
+|showteam|p2|Tatsugiri||ToxicOrb|Commander|DracoMeteor,HydroPump,IcyWind,Endure|||M|||50|,,,,,Dragon]Dondozo||ChoiceBand|Unaware|OrderUp,SleepTalk|||M|||50|,,,,,Ground]Volcarona||CovertCloak|FlameBody|FieryDance,QuiverDance,Protect|||F|||50|,,,,,Bug]Oricorio-Pom-Pom||PetayaBerry|Dancer|RevelationDance,BatonPass,QuiverDance,Endure|||M|||50|,,,,,Electric]Flamigo||WhiteHerb|Costar|BraveBird,CloseCombat,Roost,Protect|||M|||50|,,,,,Ground]Sableye||FocusSash|Prankster|Encore,Disable,Taunt,Protect|||M|||50|,,,,,Dark
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by WhyOGod)
+|
+|t:|1757091536
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Serperior|Serperior, L50, M|100/100
+|switch|p2a: Sableye|Sableye, L50, M|100/100
+|switch|p2b: Oricorio|Oricorio-Pom-Pom, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Sableye|atk|1
+|-unboost|p2b: Oricorio|atk|1
+|turn|1
+|
+|t:|1757091556
+|move|p1a: Incineroar|Fake Out|p2b: Oricorio
+|-damage|p2b: Oricorio|85/100
+|move|p2a: Sableye|Taunt|p1b: Serperior
+|-start|p1b: Serperior|move: Taunt
+|move|p1b: Serperior|Leaf Storm|p2a: Sableye
+|-damage|p2a: Sableye|24/100
+|-boost|p1b: Serperior|spa|2
+|cant|p2b: Oricorio|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1757091577
+|move|p2a: Sableye|Disable|p1b: Serperior
+|-start|p1b: Serperior|Disable|Leaf Storm
+|move|p1b: Serperior|Grass Pledge|p2b: Oricorio
+|-waiting|p1b: Serperior|p1a: Incineroar
+|move|p1a: Incineroar|Fire Pledge|p2b: Oricorio|[from] move: Grass Pledge
+|-combine
+|-damage|p2b: Oricorio|15/100
+|-sidestart|p2: WhyOGod|Fire Pledge
+|-enditem|p2b: Oricorio|Petaya Berry|[eat]
+|-boost|p2b: Oricorio|spa|1|[from] item: Petaya Berry
+|move|p2b: Oricorio|Quiver Dance|p2b: Oricorio
+|-boost|p2b: Oricorio|spa|1
+|-boost|p2b: Oricorio|spd|1
+|-boost|p2b: Oricorio|spe|1
+|
+|-damage|p2b: Oricorio|3/100|[from] Fire Pledge
+|-damage|p2a: Sableye|12/100|[from] Fire Pledge
+|upkeep
+|turn|3
+|inactive|WhyOGod has 30 seconds left.
+|
+|t:|1757091605
+|switch|p1b: Primarina|Primarina, L50, M|100/100
+|switch|p1a: Blaziken|Blaziken, L50, M|100/100
+|switch|p2a: Flamigo|Flamigo, L50, M|100/100
+|-copyboost|p2a: Flamigo|p2b: Oricorio|[from] ability: Costar
+|-enditem|p2a: Flamigo|White Herb
+|-clearnegativeboost|p2a: Flamigo|[silent]
+|move|p2b: Oricorio|Revelation Dance|p1a: Blaziken
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|-damage|p2b: Oricorio|0 fnt|[from] Fire Pledge
+|faint|p2b: Oricorio
+|-damage|p2a: Flamigo|88/100|[from] Fire Pledge
+|upkeep
+|
+|t:|1757091623
+|switch|p2b: Sableye|Sableye, L50, M|12/100
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Flamigo|atk|1
+|-unboost|p2b: Sableye|atk|1
+|turn|4
+|c|☆WhyOGod|Pledge teams are cool btw
+|inactive|WhyOGod has 30 seconds left.
+|c|☆chess_pro|Thank you!
+|inactive|WhyOGod has 20 seconds left.
+|inactive|WhyOGod has 15 seconds left.
+|
+|t:|1757091664
+|-terastallize|p1b: Primarina|Water
+|move|p1a: Incineroar|Fake Out|p2a: Flamigo
+|-crit|p2a: Flamigo
+|-damage|p2a: Flamigo|65/100
+|move|p2b: Sableye|Encore||[still]
+|-fail|p2b: Sableye
+|cant|p2a: Flamigo|flinch
+|move|p1b: Primarina|Hydro Pump|p2a: Flamigo
+|-crit|p2a: Flamigo
+|-damage|p2a: Flamigo|0 fnt
+|faint|p2a: Flamigo
+|-damage|p1b: Primarina|91/100|[from] item: Life Orb
+|
+|-damage|p2b: Sableye|0 fnt|[from] Fire Pledge
+|faint|p2b: Sableye
+|upkeep
+|-message|WhyOGod forfeited.
+|
+|win|chess_pro
+||WhyOGod is ready for game 2.
+||chess_pro is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

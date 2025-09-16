@@ -1,0 +1,154 @@
+|j|â˜†EmbyPlays
+|j|â˜†Thiaguitoomencito
+|html|EmbyPlaysThiaguitoomencito    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1757177034
+|gametype|doubles
+|player|p1|EmbyPlays|lucas|1075
+|player|p2|Thiaguitoomencito|steven|1005
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each PokÃ©mon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Ceruledge, L50, M|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|showteam|p1|Lilligant-Hisui||FocusSash|Chlorophyll|TripleAxel,AfterYou,CloseCombat,SleepPowder|||F|||50|,,,,,Ghost]Hatterene||CovertCloak|MagicBounce|DazzlingGleam,ExpandingForce,TrickRoom,MysticalFire|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,TrickRoom,HelpingHand,FollowMe|||F|||50|,,,,,Dragon]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HeatWave,Protect|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Grass
+|showteam|p2|Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,Coaching,FakeOut|||F|||50|,,,,,Ghost]Ceruledge||SitrusBerry|FlashFire|Protect,BitterBlade,ShadowSneak,BulkUp|||M|||50|,,,,,Grass]Dragonite||LoadedDice|Multiscale|Protect,ScaleShot,Haze,ExtremeSpeed|||M|||50|,,,,,Fairy]Dondozo||Leftovers|Unaware|Liquidation,Fissure,Yawn,Protect|||M|||50|,,,,,Poison]Kingambit||AssaultVest|Defiant|KowtowCleave,SuckerPunch,IronHead,TeraBlast|||M|||50|,,,,,Flying]Rillaboom||MiracleSeed|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||F|||50|,,,,,Fire
+|
+|t:|1757177047
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|1
+|
+|t:|1757177069
+|switch|p2b: Dondozo|Dondozo, L50, M|100/100
+|-terastallize|p1b: Torkoal|Fire
+|move|p2a: Sneasler|Fake Out|p1b: Torkoal
+|-damage|p1b: Torkoal|89/100
+|move|p1a: Lilligant|After You|p1b: Torkoal
+|-activate|p1b: Torkoal|move: After You
+|cant|p1b: Torkoal|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757177095
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|move|p1a: Lilligant|Sleep Powder|p2b: Dondozo|[miss]
+|-miss|p1a: Lilligant|p2b: Dondozo
+|move|p2a: Sneasler|Coaching|p2b: Dondozo
+|-boost|p2b: Dondozo|atk|1
+|-boost|p2b: Dondozo|def|1
+|move|p2b: Dondozo|Fissure|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|-ohko
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757177105
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|turn|3
+|
+|t:|1757177130
+|move|p1a: Lilligant|Sleep Powder|p2b: Dondozo
+|-status|p2b: Dondozo|slp|[from] move: Sleep Powder
+|move|p2a: Sneasler|Dire Claw|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-enditem|p1a: Lilligant|Focus Sash
+|-damage|p1a: Lilligant|1/100
+|cant|p2b: Dondozo|slp
+|move|p1b: Hatterene|Expanding Force|p2b: Dondozo|[spread] p2a,p2b
+|-supereffective|p2a: Sneasler
+|-enditem|p2a: Sneasler|Focus Sash
+|-damage|p2a: Sneasler|1/100
+|-damage|p2b: Dondozo|57/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Dondozo|63/100 slp|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1757177188
+|switch|p2b: Ceruledge|Ceruledge, L50, M|100/100
+|move|p2a: Sneasler|Dire Claw|p1a: Lilligant
+|-supereffective|p1a: Lilligant
+|-crit|p1a: Lilligant
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|move|p1b: Hatterene|Trick Room|p1b: Hatterene
+|-fieldstart|move: Trick Room|[of] p1b: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757177196
+|switch|p1a: Torkoal|Torkoal, L50, F, tera:Fire|89/100
+|turn|5
+|
+|t:|1757177222
+|move|p1a: Torkoal|Weather Ball|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|move|p1b: Hatterene|Expanding Force|p2b: Ceruledge
+|-damage|p2b: Ceruledge|15/100
+|-enditem|p2b: Ceruledge|Sitrus Berry|[eat]
+|-heal|p2b: Ceruledge|40/100|[from] item: Sitrus Berry
+|move|p2b: Ceruledge|Bitter Blade|p1b: Hatterene
+|-damage|p1b: Hatterene|24/100
+|-heal|p2b: Ceruledge|75/100|[from] drain|[of] p1b: Hatterene
+|
+|-weather|none
+|upkeep
+|
+|t:|1757177235
+|switch|p2a: Dondozo|Dondozo, L50, M|63/100 slp
+|turn|6
+|
+|t:|1757177263
+|move|p1a: Torkoal|Weather Ball|p2a: Dondozo
+|-damage|p2a: Dondozo|53/100 slp
+|move|p1b: Hatterene|Expanding Force|p2b: Ceruledge|[spread] p2a,p2b
+|-damage|p2a: Dondozo|9/100 slp
+|-damage|p2b: Ceruledge|12/100
+|cant|p2a: Dondozo|slp
+|move|p2b: Ceruledge|Bitter Blade|p1b: Hatterene
+|-damage|p1b: Hatterene|0 fnt
+|-heal|p2b: Ceruledge|23/100|[from] drain|[of] p1b: Hatterene
+|faint|p1b: Hatterene
+|
+|-heal|p2a: Dondozo|16/100 slp|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|7
+|-message|EmbyPlays forfeited.
+|
+|win|Thiaguitoomencito
+|raw|EmbyPlays's rating: 1075 → 1050(-25 for losing)
+|raw|Thiaguitoomencito's rating: 1005 → 1052(+47 for winning)
+|l|â˜†EmbyPlays
+|player|p1|

@@ -1,0 +1,194 @@
+|j|☆exposniffer
+|j|☆TeyOnTheRox
+|html|exposnifferTeyOnTheRox    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757742315
+|gametype|doubles
+|player|p1|exposniffer|blue|
+|player|p2|TeyOnTheRox|benga|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Arcanine-Hisui, L50, F|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Corviknight, L50, M|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|showteam|p1|Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||F|||50|,,,,,Fairy]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,FakeOut,Coaching|||M|||50|,,,,,Stellar]Garchomp||ClearAmulet|RoughSkin|Earthquake,StompingTantrum,DragonClaw,Protect|||F|||50|,,,,,Steel]Ninetales-Alola||ChoiceSpecs|SnowWarning|Blizzard,IcyWind,Moonblast,FreezeDry|||M|||50|,,,,,Ghost]Arcanine-Hisui||MirrorHerb|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||F|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|IronHead,HighHorsepower,Earthquake,Protect|||M|||50|,,,,,Stellar]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Protect,Trick|||M|||50|,,,,,Psychic]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Roost,Tailwind|||M|||50|,,,,,Dragon]Annihilape||SafetyGoggles|Defiant|CloseCombat,FinalGambit,RageFist,Taunt|||M|||50|,,,,,Water
+|
+|t:|1757742346
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: icetile|Ninetales-Alola, L50, M|100/100
+|switch|p1b: Arcanine|Arcanine-Hisui, L50, F|100/100
+|switch|p2a: Cars II|Corviknight, L50, M|100/100
+|switch|p2b: Cachiiga|Annihilape, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: icetile
+|-ability|p1b: Arcanine|Intimidate|boost
+|-ability|p2a: Cars II|Mirror Armor
+|-unboost|p1b: Arcanine|atk|1
+|-unboost|p2b: Cachiiga|atk|1
+|-ability|p2b: Cachiiga|Defiant|boost
+|-boost|p2b: Cachiiga|atk|2
+|-enditem|p1b: Arcanine|Mirror Herb
+|-boost|p1b: Arcanine|atk|2|[from] item: Mirror Herb
+|turn|1
+|
+|t:|1757742411
+|-terastallize|p1b: Arcanine|Ghost
+|move|p1a: icetile|Freeze-Dry|p2a: Cars II
+|-damage|p2a: Cars II|62/100
+|move|p2b: Cachiiga|Close Combat|p1b: Arcanine
+|-immune|p1b: Arcanine
+|move|p1b: Arcanine|Rock Slide|p2a: Cars II|[spread] p2a,p2b
+|-resisted|p2b: Cachiiga
+|-damage|p2a: Cars II|30/100
+|-damage|p2b: Cachiiga|80/100
+|move|p2a: Cars II|Tailwind|p2a: Cars II
+|-sidestart|p2: TeyOnTheRox|move: Tailwind
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Cars II|36/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1757742445
+|switch|p1b: faketile|Sneasler, L50, M, shiny|100/100
+|move|p2b: Cachiiga|Rage Fist|p1a: icetile
+|-crit|p1a: icetile
+|-damage|p1a: icetile|9/100
+|move|p2a: Cars II|Roost|p2a: Cars II
+|-heal|p2a: Cars II|86/100
+|-singleturn|p2a: Cars II|move: Roost
+|move|p1a: icetile|Freeze-Dry|p2a: Cars II
+|-resisted|p2a: Cars II
+|-damage|p2a: Cars II|68/100
+|-status|p2a: Cars II|frz
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Cars II|74/100 frz|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1757742489
+|move|p2b: Cachiiga|Rage Fist|p1a: icetile
+|-damage|p1a: icetile|0 fnt
+|faint|p1a: icetile
+|-curestatus|p2a: Cars II|frz|[msg]
+|move|p2a: Cars II|Brave Bird|p1b: faketile
+|-supereffective|p1b: faketile
+|-enditem|p1b: faketile|Focus Sash
+|-damage|p1b: faketile|1/100
+|-damage|p2a: Cars II|49/100|[from] Recoil
+|move|p1b: faketile|Dire Claw|p2b: Cachiiga
+|-resisted|p2b: Cachiiga
+|-damage|p2b: Cachiiga|57/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Cars II|55/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757742494
+|switch|p1a: Arcanine|Arcanine-Hisui, L50, F, tera:Ghost|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-ability|p2a: Cars II|Mirror Armor
+|-unboost|p1a: Arcanine|atk|1
+|-unboost|p2b: Cachiiga|atk|1
+|-ability|p2b: Cachiiga|Defiant|boost
+|-boost|p2b: Cachiiga|atk|2
+|turn|4
+|
+|t:|1757742519
+|move|p1a: Arcanine|Protect|p1a: Arcanine
+|-singleturn|p1a: Arcanine|Protect
+|move|p1b: faketile|Coaching|p1a: Arcanine
+|-boost|p1a: Arcanine|atk|1
+|-boost|p1a: Arcanine|def|1
+|move|p2b: Cachiiga|Rage Fist|p1a: Arcanine
+|-activate|p1a: Arcanine|move: Protect
+|move|p2a: Cars II|Brave Bird|p1b: faketile
+|-supereffective|p1b: faketile
+|-damage|p1b: faketile|0 fnt
+|faint|p1b: faketile
+|-damage|p2a: Cars II|54/100|[from] Recoil
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Cars II|60/100|[from] item: Leftovers
+|-sideend|p2: TeyOnTheRox|move: Tailwind
+|upkeep
+|
+|t:|1757742524
+|switch|p1b: scale shot misses|Dragonite, L50, F, shiny|100/100
+|turn|5
+|
+|t:|1757742596
+|move|p1a: Arcanine|Rock Slide|p2b: Cachiiga|[spread] p2a,p2b
+|-resisted|p2b: Cachiiga
+|-damage|p2a: Cars II|41/100
+|-damage|p2b: Cachiiga|44/100
+|cant|p2b: Cachiiga|flinch
+|move|p1b: scale shot misses|Scale Shot|p2b: Cachiiga
+|-damage|p2b: Cachiiga|30/100
+|-damage|p2b: Cachiiga|14/100
+|-damage|p2b: Cachiiga|0 fnt
+|faint|p2b: Cachiiga
+|-hitcount|p2: Cachiiga|3
+|-unboost|p1b: scale shot misses|def|1
+|-boost|p1b: scale shot misses|spe|1
+|move|p2a: Cars II|Tailwind|p2a: Cars II
+|-sidestart|p2: TeyOnTheRox|move: Tailwind
+|
+|-weather|none
+|-heal|p2a: Cars II|47/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757742614
+|switch|p2b: Doc Hudson|Tyranitar, L50, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Doc Hudson
+|turn|6
+|
+|t:|1757742629
+|move|p2b: Doc Hudson|Rock Slide|p1b: scale shot misses|[spread] p1a,p1b
+|-supereffective|p1b: scale shot misses
+|-damage|p1a: Arcanine|75/100
+|-damage|p1b: scale shot misses|46/100
+|move|p1b: scale shot misses|Tailwind|p1b: scale shot misses
+|-sidestart|p1: exposniffer|move: Tailwind
+|cant|p1a: Arcanine|flinch
+|move|p2a: Cars II|Brave Bird|p1b: scale shot misses
+|-damage|p1b: scale shot misses|0 fnt
+|faint|p1b: scale shot misses
+|-damage|p2a: Cars II|34/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Arcanine|69/100|[from] Sandstorm
+|-heal|p2a: Cars II|40/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1757742660
+|-terastallize|p2b: Doc Hudson|Flying
+|move|p1a: Arcanine|Rock Slide|p2a: Cars II|[spread] 
+|-miss|p1a: Arcanine|p2a: Cars II
+|-miss|p1a: Arcanine|p2b: Doc Hudson
+|move|p2b: Doc Hudson|Knock Off|p1a: Arcanine
+|-supereffective|p1a: Arcanine
+|-damage|p1a: Arcanine|5/100
+|move|p2a: Cars II|Brave Bird|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|-damage|p2a: Cars II|39/100|[from] Recoil
+|
+|win|TeyOnTheRox

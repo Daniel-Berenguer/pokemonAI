@@ -1,0 +1,105 @@
+|j|☆kgggv
+|j|☆sbhaga34
+|html|kgggvsbhaga34    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757714444
+|gametype|doubles
+|player|p1|kgggv|1|1237
+|player|p2|sbhaga34|hugh|1357
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Gyarados, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Kingambit, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Talonflame, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Gardevoir, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Grass]Amoonguss||RockyHelmet|Regenerator|Spore,RagePowder,Protect,PollenPuff|||M|||50|,,,,,Ghost]Sneasler||WhiteHerb|Unburden|Protect,DireClaw,CloseCombat,SwordsDance|||M|||50|,,,,,Ghost]Gyarados||SitrusBerry|Intimidate|ThunderWave,Waterfall,Protect,IcyWind|||F|||50|,,,,,Grass]Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,ShadowBall,Thunderbolt,Trick||||||50|,,,,,Steel]Kingambit||AssaultVest|Defiant|IronHead,LowKick,SuckerPunch,KowtowCleave|||F|||50|,,,,,Dark
+|showteam|p2|Indeedee-F||SafetyGoggles|PsychicSurge|FollowMe,TrickRoom,HelpingHand,Psychic|||F|||50|,,,,,Fairy]Talonflame||CovertCloak|GaleWings|Tailwind,Taunt,FlareBlitz,BraveBird|||M|||50|,,,,,Grass]Tyranitar||WeaknessPolicy|SandStream|RockSlide,KnockOff,LowKick,Protect|||F|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|Earthquake,IronHead,SwordsDance,Protect|||F|||50|,,,,,Ground]Gardevoir||ChoiceScarf|Telepathy|ExpandingForce,Thunderbolt,Moonblast,IcyWind|||F|||50|,,,,,Psychic]Ursaluna-Bloodmoon||SilkScarf|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal
+|
+|t:|1757714455
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kingambit|Kingambit, L50, F|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Excadrill|Excadrill, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1757714469
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Excadrill|Swords Dance|p2b: Excadrill
+|-boost|p2b: Excadrill|atk|2
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|3/100
+|
+|upkeep
+|turn|2
+|
+|t:|1757714482
+|switch|p1b: Gyarados|Gyarados, L50, F|100/100
+|-ability|p1b: Gyarados|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Excadrill|atk|1
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-terastallize|p1a: Kingambit|Dark
+|move|p2b: Excadrill|Protect|p2b: Excadrill
+|-singleturn|p2b: Excadrill|Protect
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Excadrill
+|-activate|p2b: Excadrill|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Gyarados|95/100|[from] Sandstorm
+|-damage|p1a: Kingambit|95/100|[from] Sandstorm
+|upkeep
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kgggv)
+|
+|t:|1757714505
+|-terastallize|p2a: Tyranitar|Flying
+|move|p1b: Gyarados|Protect|p1b: Gyarados
+|-singleturn|p1b: Gyarados|Protect
+|move|p2b: Excadrill|Earthquake|p1a: Kingambit|[spread] p1a
+|-activate|p1b: Gyarados|move: Protect
+|-immune|p2a: Tyranitar
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|22/100
+|move|p2a: Tyranitar|Rock Slide|p1b: Gyarados|[spread] p1a
+|-activate|p1b: Gyarados|move: Protect
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Gyarados|89/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757714514
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|turn|4
+|-message|kgggv forfeited.
+|
+|win|sbhaga34
+|l|☆kgggv
+|player|p1|
+||sbhaga34 is ready for game 3.
+|inactive|kgggv has 30 seconds to confirm battle start!
+||kgggv is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

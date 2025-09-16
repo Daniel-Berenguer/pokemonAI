@@ -1,0 +1,155 @@
+|j|☆TeyVgc
+|j|☆GenG Fan
+|html|TeyVgcGenG Fan    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757094354
+|gametype|doubles
+|player|p1|TeyVgc|101|1337
+|player|p2|GenG Fan|cynthia-gen4|1216
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Gastrodon, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Gholdengo||LifeOrb|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||F|||50|,,,,,Fairy]Sneasler||PsychicSeed|Unburden|Protect,DireClaw,CloseCombat,ThroatChop|||M|||50|,,,,,Dark]Incineroar||SafetyGoggles|Intimidate|KnockOff,PartingShot,FlareBlitz,FakeOut|||F|||50|,,,,,Ghost]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,Imprison,TeraBlast|||M|||50|,,,,,Fighting]Gastrodon||Leftovers|StormDrain|EarthPower,Yawn,Recover,IceBeam|||M|||50|,,,,,Poison
+|showteam|p2|Torkoal||Charcoal|Drought|Eruption,WeatherBall,EarthPower,Protect|||M|||50|,,,,,Fire]Indeedee-F||RockyHelmet|PsychicSurge|Psychic,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Grass]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Substitute,Protect|||F|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Water]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,CloseCombat,SleepPowder,AfterYou|||F|||50|,,,,,Ghost
+|
+|t:|1757094395
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Tuco|Incineroar, L50, F|100/100
+|switch|p1b: Leonel|Sneasler, L50, M|100/100
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|switch|p2b: Lilligant|Lilligant-Hisui, L50, F|100/100
+|-ability|p1a: Tuco|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Lilligant|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1757094427
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p1b: Leonel|Psychic Seed
+|-boost|p1b: Leonel|spd|1|[from] item: Psychic Seed
+|-terastallize|p2a: Torkoal|Fire
+|move|p1b: Leonel|Protect|p1b: Leonel
+|-singleturn|p1b: Leonel|Protect
+|move|p1a: Tuco|Flare Blitz|p2b: Indeedee
+|-damage|p2b: Indeedee|20/100
+|-status|p2b: Indeedee|brn
+|-damage|p1a: Tuco|84/100|[from] item: Rocky Helmet|[of] p2b: Indeedee
+|-damage|p1a: Tuco|60/100|[from] Recoil
+|move|p2a: Torkoal|Weather Ball|p1b: Leonel
+|-activate|p1b: Leonel|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Indeedee|14/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1757094466
+|switch|p1b: Gastrodon|Gastrodon, L50, M|100/100
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Tuco|Knock Off|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-damage|p1a: Tuco|44/100|[from] item: Rocky Helmet|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Rocky Helmet|[from] move: Knock Off|[of] p1a: Tuco
+|faint|p2b: Indeedee
+|move|p2a: Torkoal|Eruption|p1a: Tuco|[spread] p1a,p1b
+|-resisted|p1a: Tuco
+|-resisted|p1b: Gastrodon
+|-damage|p1a: Tuco|0 fnt
+|-damage|p1b: Gastrodon|52/100
+|faint|p1a: Tuco
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Gastrodon|58/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757094484
+|switch|p1a: Joaquin|Dragonite, L50, F|100/100
+|switch|p2b: Lilligant|Lilligant-Hisui, L50, F|100/100
+|turn|3
+|
+|t:|1757094506
+|switch|p2a: Hatterene|Hatterene, L50, F|100/100
+|-terastallize|p1b: Gastrodon|Poison
+|move|p2b: Lilligant|Sleep Powder|p1a: Joaquin
+|-status|p1a: Joaquin|slp|[from] move: Sleep Powder
+|cant|p1a: Joaquin|slp
+|move|p1b: Gastrodon|Earth Power|p2a: Hatterene
+|-damage|p2a: Hatterene|66/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Gastrodon|64/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1757094534
+|switch|p1b: Leonel|Sneasler, L50, M|100/100
+|move|p2b: Lilligant|After You|p2a: Hatterene
+|-activate|p2a: Hatterene|move: After You
+|move|p2a: Hatterene|Expanding Force|p1b: Leonel|[spread] p1a,p1b
+|-supereffective|p1b: Leonel
+|-damage|p1a: Joaquin|50/100 slp
+|-damage|p1b: Leonel|0 fnt
+|faint|p1b: Leonel
+|-damage|p2a: Hatterene|56/100|[from] item: Life Orb
+|-curestatus|p1a: Joaquin|slp|[msg]
+|move|p1a: Joaquin|Scale Shot|p2b: Lilligant
+|-damage|p2b: Lilligant|76/100
+|-damage|p2b: Lilligant|52/100
+|-damage|p2b: Lilligant|29/100
+|-damage|p2b: Lilligant|5/100
+|-damage|p2b: Lilligant|0 fnt
+|faint|p2b: Lilligant
+|-hitcount|p2: Lilligant|5
+|-unboost|p1a: Joaquin|def|1
+|-boost|p1a: Joaquin|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757094554
+|switch|p1b: Gastrodon|Gastrodon, L50, M, tera:Poison|64/100
+|switch|p2b: Torkoal|Torkoal, L50, M, tera:Fire|100/100
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GenG Fan)
+|
+|t:|1757094615
+|move|p2b: Torkoal|Protect|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Protect
+|move|p1a: Joaquin|Scale Shot|p2b: Torkoal
+|-activate|p2b: Torkoal|move: Protect
+|move|p1b: Gastrodon|Earth Power|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|4/100
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-weather|none
+|-heal|p1b: Gastrodon|70/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|-message|TeyVgc forfeited.
+|
+|win|GenG Fan

@@ -1,0 +1,127 @@
+|j|☆p0lisindet0n
+|j|☆bestboi8989
+|html|p0lisindet0nbestboi8989    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757853825
+|gametype|doubles
+|player|p1|p0lisindet0n|lucas|1192
+|player|p2|bestboi8989|169|1108
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Typhlosion-Hisui, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Salamence, L50, M|
+|poke|p2|Rotom-Heat, L50|
+|poke|p2|Primarina, L50, F|
+|teampreview|4
+|showteam|p1|Volcarona||GrassySeed|FlameBody|FieryDance,TeraBlast,QuiverDance,Protect|||M|||50|,,,,,Fairy]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,FakeOut,Uturn|||F|||50|,,,,,Fire]Electabuzz||Eviolite|VitalSpirit|FollowMe,Electroweb,Taunt,ThunderWave|||M|||50|,,,,,Ghost]Whimsicott||CovertCloak|Prankster|Tailwind,SunnyDay,Moonblast,FakeTears|||F|||50|,,,,,Poison]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,Overheat,ShadowBall,SolarBeam|||M|||50|,,,,,Fire]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,EarthPower,HyperVoice,Protect|||M|||50|,,,,,Normal
+|showteam|p2|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||F|||50|,,,,,Flying]Excadrill||ClearAmulet|SandRush|Earthquake,IronHead,RockSlide,Protect|||M|||50|,,,,,Ground]Amoonguss||SitrusBerry|Regenerator|RagePowder,PollenPuff,Spore,Protect|||M|||50|,,,,,Water]Salamence||LifeOrb|Intimidate|AirSlash,DracoMeteor,Tailwind,Protect|||M|||50|,,,,,Poison]Rotom-Heat||SafetyGoggles|Levitate|Overheat,Thunderbolt,WillOWisp,Protect||||||50|,,,,,Electric]Primarina||ThroatSpray|LiquidVoice|Moonblast,HyperVoice,Haze,Protect|||F|||50|,,,,,Grass
+|
+|t:|1757853854
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Excadrill|Excadrill, L50, M|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1757853877
+|switch|p1a: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|move|p2a: Excadrill|Protect|p2a: Excadrill
+|-singleturn|p2a: Excadrill|Protect
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Amoonguss|Spore|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1757853899
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-terastallize|p2b: Amoonguss|Water
+|move|p1b: Ursaluna|Earth Power|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|44/100
+|-damage|p1b: Ursaluna|91/100|[from] item: Life Orb
+|move|p2b: Amoonguss|Spore|p1b: Ursaluna
+|-status|p1b: Ursaluna|slp|[from] move: Spore
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rillaboom|94/100|[from] Sandstorm
+|-damage|p2b: Amoonguss|95/100|[from] Sandstorm
+|-heal|p1a: Rillaboom|100/100|[from] Grassy Terrain
+|-heal|p1b: Ursaluna|97/100 slp|[from] Grassy Terrain
+|-heal|p2a: Tyranitar|50/100|[from] Grassy Terrain
+|-heal|p2b: Amoonguss|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1757853942
+|switch|p2a: Excadrill|Excadrill, L50, M|100/100
+|cant|p1b: Ursaluna|slp
+|move|p1a: Rillaboom|Wood Hammer|p2a: Excadrill
+|-damage|p2a: Excadrill|8/100
+|-damage|p1a: Rillaboom|67/100|[from] Recoil
+|move|p2b: Amoonguss|Pollen Puff|p2a: Excadrill
+|-heal|p2a: Excadrill|58/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rillaboom|61/100|[from] Sandstorm
+|-damage|p2b: Amoonguss|95/100|[from] Sandstorm
+|-heal|p2a: Excadrill|64/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|67/100|[from] Grassy Terrain
+|-heal|p1b: Ursaluna|100/100 slp|[from] Grassy Terrain
+|-heal|p2b: Amoonguss|100/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1757853985
+|move|p2a: Excadrill|Iron Head|p1a: Rillaboom
+|-damage|p1a: Rillaboom|26/100
+|move|p1a: Rillaboom|Wood Hammer|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|faint|p2a: Excadrill
+|-damage|p1a: Rillaboom|3/100|[from] Recoil
+|-curestatus|p1b: Ursaluna|slp|[msg]
+|move|p1b: Ursaluna|Blood Moon|p2b: Amoonguss
+|-damage|p2b: Amoonguss|8/100
+|-enditem|p2b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2b: Amoonguss|33/100|[from] item: Sitrus Berry
+|-damage|p1b: Ursaluna|91/100|[from] item: Life Orb
+|move|p2b: Amoonguss|Pollen Puff|p2: Excadrill|[notarget]
+|-fail|p2b: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rillaboom|0 fnt|[from] Sandstorm
+|-damage|p2b: Amoonguss|27/100|[from] Sandstorm
+|faint|p1a: Rillaboom
+|-heal|p1b: Ursaluna|97/100|[from] Grassy Terrain
+|-heal|p2b: Amoonguss|33/100|[from] Grassy Terrain
+|upkeep
+|-message|bestboi8989 forfeited.
+|
+|win|p0lisindet0n
+|l|☆bestboi8989
+|player|p2|
+||bestboi8989 is ready for game 3.
+||p0lisindet0n is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|j|☆bestboi8989
+|player|p2|bestboi8989|169|

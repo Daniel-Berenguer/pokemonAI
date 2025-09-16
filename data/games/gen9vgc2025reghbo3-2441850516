@@ -1,0 +1,313 @@
+|j|☆Produkktions
+|j|☆Fayt55
+|html|ProdukktionsFayt55    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757910719
+|gametype|doubles
+|player|p1|Produkktions|sabrina|
+|player|p2|Fayt55|1|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Floragato, L50, M|
+|poke|p1|Sandygast, L50, M|
+|poke|p1|Sneasel, L50, M|
+|poke|p1|Quilava, L50, F|
+|poke|p1|Misdreavus, L50, F|
+|poke|p1|Dunsparce, L50, F|
+|poke|p2|Hitmonlee, L50, M|
+|poke|p2|Ivysaur, L50, F|
+|poke|p2|Combusken, L50, F|
+|poke|p2|Flamigo, L50, M|
+|poke|p2|Grimer-Alola, L50, M|
+|poke|p2|Hitmontop, L50, M|
+|teampreview|4
+|showteam|p1|Floragato||AguavBerry|Protean|SeedBomb,SuckerPunch,Uturn,Protect|||M|||50|,,,,,Grass]Sandygast||Leftovers|WaterCompaction|ShoreUp,StealthRock,ShadowBall,EarthPower|||M|||50|,,,,,Water]Sneasel||FocusSash|InnerFocus|Dig,FakeOut,LowKick,KnockOff|||M|||50|,,,,,Dark]Quilava||ChoiceScarf|FlashFire|Eruption,Dig,BurningJealousy,Smokescreen|||F|||50|,,,,,Fire]Misdreavus||SitrusBerry|Levitate|DazzlingGleam,EnergyBall,Protect,ShadowBall|||F|||50|,,,,,Ghost]Dunsparce||Eviolite|SereneGrace|DrillRun,HyperDrill,Roost,CalmMind|||F|||50|,,,,,Normal
+|showteam|p2|Hitmonlee||LiechiBerry|Unburden|Endure,Reversal,UpperHand,Endeavor|||M|||50|,,,,,Fighting]Ivysaur||Eviolite|Chlorophyll|LeechSeed,Ingrain,Protect,Toxic|||F|||50|,,,,,Grass]Combusken||FocusSash|SpeedBoost|Protect,SwordsDance,BatonPass,BlazeKick|||F|||50|,,,,,Fire]Flamigo||LifeOrb|Costar|CloseCombat,BraveBird,Tailwind,Roost|||M|||50|,,,,,Flying]Grimer-Alola||BlackSludge|PoisonTouch|Minimize,Protect,Dig,PoisonJab|||M|||50|,,,,,Poison]Hitmontop||EjectButton|Intimidate|FakeOut,Feint,WideGuard,SuckerPunch|||M|||50|,,,,,Fighting
+|
+|t:|1757910744
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Quilava|Quilava, L50, F|100/100
+|switch|p1b: Sandygast|Sandygast, L50, M|100/100
+|switch|p2a: Hitmontop|Hitmontop, L50, M|100/100
+|switch|p2b: Combusken|Combusken, L50, F|100/100
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Quilava|atk|1
+|-unboost|p1b: Sandygast|atk|1
+|turn|1
+|
+|t:|1757910774
+|move|p2b: Combusken|Protect|p2b: Combusken
+|-singleturn|p2b: Combusken|Protect
+|move|p2a: Hitmontop|Fake Out|p1a: Quilava
+|-damage|p1a: Quilava|72/100
+|cant|p1a: Quilava|flinch
+|move|p1b: Sandygast|Earth Power|p2b: Combusken
+|-activate|p2b: Combusken|move: Protect
+|
+|-ability|p2b: Combusken|Speed Boost|boost
+|-boost|p2b: Combusken|spe|1
+|upkeep
+|turn|2
+|
+|t:|1757910794
+|move|p2a: Hitmontop|Wide Guard|p2a: Hitmontop
+|-singleturn|p2a: Hitmontop|Wide Guard
+|move|p1a: Quilava|Eruption|p2a: Hitmontop|[spread] 
+|-activate|p2a: Hitmontop|move: Wide Guard
+|-activate|p2b: Combusken|move: Wide Guard
+|move|p2b: Combusken|Swords Dance|p2b: Combusken
+|-boost|p2b: Combusken|atk|2
+|move|p1b: Sandygast|Earth Power|p2b: Combusken
+|-supereffective|p2b: Combusken
+|-damage|p2b: Combusken|7/100
+|
+|-ability|p2b: Combusken|Speed Boost|boost
+|-boost|p2b: Combusken|spe|1
+|upkeep
+|turn|3
+|
+|t:|1757910819
+|switch|p1a: Sneasel|Sneasel, L50, M|100/100
+|move|p2a: Hitmontop|Wide Guard|p2a: Hitmontop
+|-singleturn|p2a: Hitmontop|Wide Guard
+|move|p2b: Combusken|Baton Pass|p2b: Combusken
+|
+|t:|1757910834
+|switch|p2b: Flamigo|Flamigo, L50, M|100/100|[from] Baton Pass
+|-copyboost|p2b: Flamigo|p2a: Hitmontop|[from] ability: Costar
+|move|p1b: Sandygast|Earth Power|p2b: Flamigo
+|-immune|p2b: Flamigo
+|
+|upkeep
+|turn|4
+|
+|t:|1757910859
+|move|p1a: Sneasel|Fake Out|p2b: Flamigo
+|-damage|p2b: Flamigo|83/100
+|move|p2a: Hitmontop|Sucker Punch||[still]
+|-fail|p2a: Hitmontop
+|cant|p2b: Flamigo|flinch
+|move|p1b: Sandygast|Stealth Rock|p2a: Hitmontop
+|-sidestart|p2: Fayt55|move: Stealth Rock
+|
+|upkeep
+|turn|5
+|
+|t:|1757910911
+|move|p2a: Hitmontop|Sucker Punch|p1b: Sandygast
+|-supereffective|p1b: Sandygast
+|-damage|p1b: Sandygast|48/100
+|move|p1a: Sneasel|Knock Off|p2b: Flamigo
+|-resisted|p2b: Flamigo
+|-damage|p2b: Flamigo|51/100
+|-enditem|p2b: Flamigo|Life Orb|[from] move: Knock Off|[of] p1a: Sneasel
+|move|p2b: Flamigo|Close Combat|p1a: Sneasel
+|-supereffective|p1a: Sneasel
+|-enditem|p1a: Sneasel|Focus Sash
+|-damage|p1a: Sneasel|1/100
+|-unboost|p2b: Flamigo|def|1
+|-unboost|p2b: Flamigo|spd|1
+|move|p1b: Sandygast|Earth Power|p2a: Hitmontop
+|-damage|p2a: Hitmontop|66/100
+|-enditem|p2a: Hitmontop|Eject Button
+|
+|t:|1757910984
+|switch|p2a: Combusken|Combusken, L50, F|7/100
+|-damage|p2a: Combusken|0 fnt|[from] Stealth Rock
+|faint|p2a: Combusken
+|
+|-heal|p1b: Sandygast|54/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757911002
+|switch|p2a: Grimer|Grimer-Alola, L50, M|100/100
+|-damage|p2a: Grimer|88/100|[from] Stealth Rock
+|turn|6
+|
+|t:|1757911021
+|switch|p1a: Misdreavus|Misdreavus, L50, F|100/100
+|switch|p2b: Hitmontop|Hitmontop, L50, M|66/100
+|-damage|p2b: Hitmontop|60/100|[from] Stealth Rock
+|-ability|p2b: Hitmontop|Intimidate|boost
+|-unboost|p1a: Misdreavus|atk|1
+|-unboost|p1b: Sandygast|atk|1
+|move|p2a: Grimer|Minimize|p2a: Grimer
+|-boost|p2a: Grimer|evasion|2
+|move|p1b: Sandygast|Earth Power|p2a: Grimer
+|-supereffective|p2a: Grimer
+|-damage|p2a: Grimer|26/100
+|
+|-heal|p2a: Grimer|32/100|[from] item: Black Sludge
+|-heal|p1b: Sandygast|60/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1757911075
+|switch|p2b: Flamigo|Flamigo, L50, M|51/100
+|-damage|p2b: Flamigo|39/100|[from] Stealth Rock
+|-copyboost|p2b: Flamigo|p2a: Grimer|[from] ability: Costar
+|move|p1a: Misdreavus|Energy Ball|p2b: Flamigo
+|-resisted|p2b: Flamigo
+|-damage|p2b: Flamigo|19/100
+|move|p2a: Grimer|Dig||[still]
+|-prepare|p2a: Grimer|Dig
+|move|p1b: Sandygast|Earth Power|p2a: Grimer|[miss]
+|-miss|p1b: Sandygast|p2a: Grimer
+|
+|-heal|p2a: Grimer|38/100|[from] item: Black Sludge
+|-heal|p1b: Sandygast|66/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1757911109
+|move|p2b: Flamigo|Roost|p2b: Flamigo
+|-heal|p2b: Flamigo|69/100
+|-singleturn|p2b: Flamigo|move: Roost
+|move|p1a: Misdreavus|Dazzling Gleam|p2a: Grimer|[spread] p2b
+|-miss|p1a: Misdreavus|p2a: Grimer
+|-supereffective|p2b: Flamigo
+|-damage|p2b: Flamigo|22/100
+|move|p2a: Grimer|Dig|p1b: Sandygast|[from] lockedmove
+|-damage|p1b: Sandygast|46/100
+|-status|p1b: Sandygast|psn|[from] ability: Poison Touch|[of] p2a: Grimer
+|move|p1b: Sandygast|Shore Up|p1b: Sandygast
+|-heal|p1b: Sandygast|96/100 psn
+|
+|-heal|p2a: Grimer|44/100|[from] item: Black Sludge
+|-heal|p1b: Sandygast|100/100 psn|[from] item: Leftovers
+|-damage|p1b: Sandygast|88/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1757911145
+|move|p2b: Flamigo|Roost|p2b: Flamigo
+|-heal|p2b: Flamigo|72/100
+|-singleturn|p2b: Flamigo|move: Roost
+|move|p1a: Misdreavus|Dazzling Gleam|p2a: Grimer|[spread] 
+|-miss|p1a: Misdreavus|p2a: Grimer
+|-miss|p1a: Misdreavus|p2b: Flamigo
+|move|p2a: Grimer|Minimize|p2a: Grimer
+|-boost|p2a: Grimer|evasion|2
+|move|p1b: Sandygast|Earth Power|p2a: Grimer
+|-supereffective|p2a: Grimer
+|-damage|p2a: Grimer|0 fnt
+|faint|p2a: Grimer
+|
+|-heal|p1b: Sandygast|94/100 psn|[from] item: Leftovers
+|-damage|p1b: Sandygast|82/100 psn|[from] psn
+|upkeep
+|
+|t:|1757911176
+|switch|p2a: Hitmontop|Hitmontop, L50, M|60/100
+|-damage|p2a: Hitmontop|54/100|[from] Stealth Rock
+|-ability|p2a: Hitmontop|Intimidate|boost
+|-unboost|p1a: Misdreavus|atk|1
+|-unboost|p1b: Sandygast|atk|1
+|turn|10
+|
+|t:|1757911189
+|move|p2a: Hitmontop|Sucker Punch|p1a: Misdreavus
+|-supereffective|p1a: Misdreavus
+|-damage|p1a: Misdreavus|13/100
+|-enditem|p1a: Misdreavus|Sitrus Berry|[eat]
+|-heal|p1a: Misdreavus|38/100|[from] item: Sitrus Berry
+|move|p2b: Flamigo|Tailwind|p2b: Flamigo
+|-sidestart|p2: Fayt55|move: Tailwind
+|move|p1a: Misdreavus|Dazzling Gleam|p2a: Hitmontop|[spread] p2a
+|-miss|p1a: Misdreavus|p2b: Flamigo
+|-supereffective|p2a: Hitmontop
+|-damage|p2a: Hitmontop|24/100
+|move|p1b: Sandygast|Earth Power|p2a: Hitmontop
+|-damage|p2a: Hitmontop|0 fnt
+|faint|p2a: Hitmontop
+|
+|-heal|p1b: Sandygast|88/100 psn|[from] item: Leftovers
+|-damage|p1b: Sandygast|76/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1757911225
+|switch|p1b: Quilava|Quilava, L50, F|72/100
+|move|p2b: Flamigo|Brave Bird|p1a: Misdreavus
+|-damage|p1a: Misdreavus|0 fnt
+|faint|p1a: Misdreavus
+|-damage|p2b: Flamigo|62/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1757911238
+|switch|p1a: Sneasel|Sneasel, L50, M|1/100
+|turn|12
+|
+|t:|1757911260
+|move|p1a: Sneasel|Fake Out|p2b: Flamigo|[miss]
+|-miss|p1a: Sneasel|p2b: Flamigo
+|move|p2b: Flamigo|Brave Bird|p1b: Quilava
+|-damage|p1b: Quilava|0 fnt
+|faint|p1b: Quilava
+|-damage|p2b: Flamigo|42/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1757911268
+|switch|p1b: Sandygast|Sandygast, L50, M|76/100 psn
+|turn|13
+|
+|t:|1757911296
+|move|p2b: Flamigo|Brave Bird|p1a: Sneasel
+|-damage|p1a: Sneasel|0 fnt
+|faint|p1a: Sneasel
+|-damage|p2b: Flamigo|41/100|[from] Recoil
+|move|p1b: Sandygast|Earth Power|p2b: Flamigo
+|-immune|p2b: Flamigo
+|
+|-heal|p1b: Sandygast|82/100 psn|[from] item: Leftovers
+|-damage|p1b: Sandygast|70/100 psn|[from] psn
+|-sideend|p2: Fayt55|move: Tailwind
+|upkeep
+|turn|14
+|
+|t:|1757911320
+|move|p2b: Flamigo|Roost|p2b: Flamigo
+|-heal|p2b: Flamigo|92/100
+|-singleturn|p2b: Flamigo|move: Roost
+|move|p1b: Sandygast|Earth Power|p2b: Flamigo
+|-damage|p2b: Flamigo|47/100
+|
+|-heal|p1b: Sandygast|76/100 psn|[from] item: Leftovers
+|-damage|p1b: Sandygast|64/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1757911333
+|move|p2b: Flamigo|Roost|p2b: Flamigo
+|-heal|p2b: Flamigo|97/100
+|-singleturn|p2b: Flamigo|move: Roost
+|move|p1b: Sandygast|Earth Power|p2b: Flamigo
+|-damage|p2b: Flamigo|53/100
+|-unboost|p2b: Flamigo|spd|1
+|
+|-heal|p1b: Sandygast|70/100 psn|[from] item: Leftovers
+|-damage|p1b: Sandygast|58/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1757911348
+|-terastallize|p2b: Flamigo|Flying
+|move|p2b: Flamigo|Brave Bird|p1b: Sandygast
+|-damage|p1b: Sandygast|0 fnt
+|faint|p1b: Sandygast
+|-damage|p2b: Flamigo|35/100|[from] Recoil
+|
+|win|Fayt55
+||Produkktions is ready for game 3.
+|inactive|Fayt55 has 30 seconds to confirm battle start!
+||Fayt55 is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆Fayt55
+|player|p2|

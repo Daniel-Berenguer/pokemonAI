@@ -1,0 +1,122 @@
+|j|☆Skytrainer Trent
+|j|☆pgoiko
+|html|Skytrainer Trentpgoiko    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757935187
+|gametype|doubles
+|player|p1|Skytrainer Trent|hiker-gen4|1058
+|player|p2|pgoiko|266|1157
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Delibird, L50, F|
+|poke|p1|Araquanid, L50, F|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Volcarona, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Delibird||ChoiceBand|Hustle|FakeOut,IceShard,TripleAxel,DestinyBond|||F|||50|,,,,,Ice]Araquanid||MysticWater|WaterBubble|Liquidation,Protect,StickyWeb,Entrainment|||F|||50|,,,,,Water]Primarina||ChoiceSpecs|Torrent|HydroCannon,HydroPump,Moonblast,Blizzard|||F|||50|,,,,,Water]Ursaluna-Bloodmoon||Leftovers|MindsEye|BloodMoon,Protect,EarthPower,HelpingHand|||M|||50|,,,,,Ground]Corviknight||SitrusBerry|Pressure|Tailwind,Protect,IronHead,BraveBird|||F|||50|,,,,,Flying]Volcarona||CovertCloak|FlameBody|QuiverDance,Protect,FieryDance,BugBuzz|||F|||50|,,,,,Bug
+|showteam|p2|Indeedee-F||RockyHelmet|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Armarouge||PowerHerb|FlashFire|ExpandingForce,ArmorCannon,MeteorBeam,TrickRoom|||F|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HeatWave,Protect|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Substitute,Protect|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Psychic]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,CloseCombat,SleepPowder,AfterYou|||F|||50|,,,,,Ghost
+|
+|t:|1757935225
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Delibird|Delibird, L50, F|100/100
+|switch|p1b: Corviknight|Corviknight, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|-ability|p1b: Corviknight|Pressure
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1757935245
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Delibird|Destiny Bond|p1a: Delibird
+|-singlemove|p1a: Delibird|Destiny Bond
+|move|p1b: Corviknight|Tailwind|p1b: Corviknight
+|-sidestart|p1: Skytrainer Trent|move: Tailwind
+|move|p2b: Hatterene|Trick Room|p2b: Hatterene
+|-fieldstart|move: Trick Room|[of] p2b: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1757935265
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|move|p2a: Indeedee|Psychic|p1a: Delibird
+|-damage|p1a: Delibird|10/100
+|move|p1b: Corviknight|Iron Head|p2b: Ursaluna
+|-damage|p2b: Ursaluna|79/100
+|move|p1a: Delibird|Destiny Bond||[still]
+|-fail|p1a: Delibird
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1757935297
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p2b: Ursaluna|Facade|p1a: Delibird
+|-damage|p1a: Delibird|0 fnt
+|faint|p1a: Delibird
+|move|p1b: Corviknight|Brave Bird|p2b: Ursaluna
+|-damage|p2b: Ursaluna|45/100 brn
+|-damage|p1b: Corviknight|88/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|40/100 brn|[from] brn
+|upkeep
+|
+|t:|1757935311
+|switch|p1a: Volcarona|Volcarona, L50, F|100/100
+|turn|4
+|
+|t:|1757935328
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-terastallize|p2a: Torkoal|Fire
+|move|p2a: Torkoal|Eruption|p1a: Volcarona|[spread] p1a,p1b
+|-damage|p1a: Volcarona|0 fnt
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1a: Volcarona
+|faint|p1b: Ursaluna
+|move|p2b: Ursaluna|Substitute|p2b: Ursaluna
+|-start|p2b: Ursaluna|Substitute
+|-damage|p2b: Ursaluna|15/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|9/100 brn|[from] brn
+|-sideend|p1: Skytrainer Trent|move: Tailwind
+|upkeep
+|
+|t:|1757935337
+|switch|p1b: Corviknight|Corviknight, L50, F|88/100
+|-ability|p1b: Corviknight|Pressure
+|turn|5
+|
+|t:|1757935346
+|-terastallize|p1b: Corviknight|Flying
+|move|p2a: Torkoal|Eruption|p1b: Corviknight
+|-damage|p1b: Corviknight|0 fnt
+|faint|p1b: Corviknight
+|
+|win|pgoiko
+||pgoiko is ready for game 2.
+||Skytrainer Trent is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆Skytrainer Trent
+|player|p1|
+|l|☆pgoiko
+|player|p2|

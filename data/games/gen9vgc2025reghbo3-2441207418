@@ -1,0 +1,106 @@
+|j|☆Myshirtisdirty
+|j|☆UmamusumeDerby
+|html|MyshirtisdirtyUmamusumeDerby    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1757813099
+|gametype|doubles
+|player|p1|Myshirtisdirty|266|1071
+|player|p2|UmamusumeDerby|bugcatcher-gen4dp|1210
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Charizard, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Dragapult, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||SafetyGoggles|PsychicSurge|DazzlingGleam,HelpingHand,TrickRoom,FollowMe|||F|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Steel]Ursaluna||FlameOrb|Guts|Facade,ShadowClaw,HeadlongRush,Protect|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Overheat,HeatWave,Protect,Yawn|||M|||50|,,,,,Fire]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,MysticalFire,TrickRoom|||F|||50|,,,,,Fire]Charizard||ChoiceSpecs|SolarPower|AirSlash,DragonPulse,HeatWave,WeatherBall|||F|||50|,,,,,Fire
+|showteam|p2|Whimsicott||CovertCloak|Prankster|Moonblast,Taunt,Tailwind,FakeTears|||F|||50|,,,,,Water]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,Uturn,PhantomForce|||M|||50|,,,,,Dragon]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Archaludon||PowerHerb|Stalwart|ElectroShot,DragonPulse,Thunderbolt,Protect|||F|||50|,,,,,Electric]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,Uturn,FakeOut|||F|||50|,,,,,Bug]Sneasler||FocusSash|Pressure|FakeOut,DireClaw,CloseCombat,Protect|||M|||50|,,,,,Ghost
+|
+|t:|1757813111
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Gallade|Gallade, L50, M, shiny|100/100
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1757813124
+|-terastallize|p2b: Archaludon|Electric
+|-terastallize|p1b: Gallade|Steel
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-enditem|p2b: Archaludon|Power Herb
+|-anim|p2b: Archaludon|Electro Shot|p1b: Gallade
+|-damage|p1b: Gallade|14/100
+|move|p2a: Ursaluna|Hyper Voice|p1a: Indeedee|[spread] p1a,p1b
+|-crit|p1a: Indeedee
+|-resisted|p1b: Gallade
+|-damage|p1a: Indeedee|20/100
+|-damage|p1b: Gallade|0 fnt
+|faint|p1b: Gallade
+|-damage|p2a: Ursaluna|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757813147
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|turn|2
+|
+|t:|1757813156
+|move|p1a: Indeedee|Helping Hand|p1b: Hatterene
+|-singleturn|p1b: Hatterene|Helping Hand|[of] p1a: Indeedee
+|move|p2b: Archaludon|Thunderbolt|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|move|p2a: Ursaluna|Blood Moon|p1b: Hatterene
+|-damage|p1b: Hatterene|0 fnt
+|faint|p1b: Hatterene
+|-damage|p2a: Ursaluna|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757813166
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|3
+|
+|t:|1757813181
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Archaludon|Dragon Pulse|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|move|p2a: Ursaluna|Hyper Voice|p1b: Ursaluna
+|-activate|p1b: Ursaluna|move: Protect
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1757813186
+|move|p2b: Archaludon|Dragon Pulse|p1b: Ursaluna
+|-damage|p1b: Ursaluna|41/100 brn
+|move|p2a: Ursaluna|Blood Moon|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|-damage|p2a: Ursaluna|72/100|[from] item: Life Orb
+|
+|win|UmamusumeDerby
+|raw|Myshirtisdirty's rating: 1071 → 1058(-13 for losing)
+|raw|UmamusumeDerby's rating: 1210 → 1225(+15 for winning)

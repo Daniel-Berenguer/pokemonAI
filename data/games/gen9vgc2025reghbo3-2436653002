@@ -1,0 +1,161 @@
+|j|☆jogadorzero
+|j|☆eriksp
+|html|jogadorzeroeriksp    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757205651
+|gametype|doubles
+|player|p1|jogadorzero|brock|
+|player|p2|eriksp|calem-masters|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Delphox, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Dragapult, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Electabuzz, L50, M|
+|teampreview|4
+|showteam|p1|Delphox||LifeOrb|Blaze|ExpandingForce,HeatWave,TeraBlast,Protect|||M|||50|,,,,,Fighting]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,Imprison,TeraBlast|||M|||50|,,,,,Fighting]Dragapult||ChoiceBand|ClearBody|DragonDarts,TeraBlast,Uturn,PhantomForce|||M|||50|,,,,,Fairy]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,Protect,ThroatChop|||F|||50|,,,,,Dark]Talonflame||CovertCloak|GaleWings|Tailwind,FlareBlitz,BraveBird,Protect|||M|||50|,,,,,Electric]Ninetales-Alola||LightClay|SnowWarning|FreezeDry,AuroraVeil,Moonblast,Protect|||F|||50|,,,,,Ice
+|showteam|p2|Volcarona||Leftovers|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||M|||50|,,,,,Fairy]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||M|||50|,,,,,Normal]Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,FakeOut,Coaching|||M|||50|,,,,,Stellar]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,Taunt,FollowMe,Protect|||M|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by jogadorzero)
+|
+|t:|1757205687
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2a: Volcarona|Volcarona, L50, M|100/100
+|switch|p2b: Electabuzz|Electabuzz, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757205707
+|move|p2b: Electabuzz|Follow Me|p2b: Electabuzz
+|-singleturn|p2b: Electabuzz|move: Follow Me
+|move|p1b: Sneasler|Dire Claw|p2b: Electabuzz
+|-damage|p2b: Electabuzz|67/100
+|-status|p2b: Electabuzz|psn
+|move|p1a: Indeedee|Expanding Force|p2b: Electabuzz|[spread] p2a,p2b
+|-damage|p2a: Volcarona|51/100
+|-damage|p2b: Electabuzz|22/100 psn
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|
+|-heal|p2a: Volcarona|57/100|[from] item: Leftovers
+|-damage|p2b: Electabuzz|10/100 psn|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1757205728
+|move|p2a: Volcarona|Protect|p2a: Volcarona
+|-singleturn|p2a: Volcarona|Protect
+|move|p1b: Sneasler|Dire Claw|p2a: Volcarona
+|-activate|p2a: Volcarona|move: Protect
+|move|p1a: Indeedee|Expanding Force|p2a: Volcarona|[spread] p2b
+|-activate|p2a: Volcarona|move: Protect
+|-damage|p2b: Electabuzz|0 fnt
+|faint|p2b: Electabuzz
+|
+|-heal|p2a: Volcarona|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757205735
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|3
+|
+|t:|1757205747
+|move|p2b: Rillaboom|Fake Out|p1a: Indeedee
+|-damage|p1a: Indeedee|69/100
+|move|p1b: Sneasler|Dire Claw|p2a: Volcarona
+|-damage|p2a: Volcarona|10/100
+|-status|p2a: Volcarona|par
+|cant|p1a: Indeedee|flinch
+|move|p2a: Volcarona|Heat Wave|p1a: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Sneasler|53/100
+|faint|p1a: Indeedee
+|
+|-heal|p1b: Sneasler|59/100|[from] Grassy Terrain
+|-heal|p2a: Volcarona|16/100 par|[from] Grassy Terrain
+|-heal|p2a: Volcarona|23/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1757205762
+|switch|p1a: Dragapult|Dragapult, L50, M|100/100
+|turn|4
+|inactive|eriksp has 30 seconds left.
+|inactive|eriksp has 20 seconds left.
+|inactive|eriksp has 15 seconds left.
+|
+|t:|1757205806
+|-terastallize|p2b: Rillaboom|Fire
+|move|p1b: Sneasler|Dire Claw|p2b: Rillaboom
+|-damage|p2b: Rillaboom|57/100
+|-status|p2b: Rillaboom|slp
+|move|p1a: Dragapult|Dragon Darts|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|-anim|p1a: Dragapult|Dragon Darts|p2b: Rillaboom
+|-damage|p2b: Rillaboom|24/100 slp
+|faint|p2a: Volcarona
+|cant|p2b: Rillaboom|slp
+|
+|-heal|p1b: Sneasler|65/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|29/100 slp|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757205813
+|switch|p2a: Dragonite|Dragonite, L50, M|100/100
+|turn|5
+|
+|t:|1757205830
+|move|p2a: Dragonite|Extreme Speed|p1b: Sneasler
+|-crit|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|-curestatus|p2b: Rillaboom|slp|[msg]
+|move|p2b: Rillaboom|Grassy Glide|p1a: Dragapult
+|-resisted|p1a: Dragapult
+|-damage|p1a: Dragapult|75/100
+|move|p1a: Dragapult|Dragon Darts|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|57/100
+|faint|p2b: Rillaboom
+|
+|-heal|p1a: Dragapult|81/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757205845
+|switch|p1b: Talonflame|Talonflame, L50, M|100/100
+|turn|6
+|
+|t:|1757205850
+|move|p1b: Talonflame|Brave Bird|p2a: Dragonite
+|-damage|p2a: Dragonite|9/100
+|-damage|p1b: Talonflame|83/100|[from] Recoil
+|move|p1a: Dragapult|Dragon Darts|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|win|jogadorzero
+||eriksp is ready for game 3.
+|inactive|jogadorzero has 30 seconds to confirm battle start!
+||jogadorzero is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

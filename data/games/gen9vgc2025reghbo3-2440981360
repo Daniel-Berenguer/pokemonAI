@@ -1,0 +1,207 @@
+|j|☆PatmonVGC
+|j|☆EnzoPS
+|html|PatmonVGCEnzoPS    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757783441
+|gametype|doubles
+|player|p1|PatmonVGC|grusha|1232
+|player|p2|EnzoPS|cynthia-gen4|1091
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Malamar, L50, M|
+|poke|p1|Delphox, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|showteam|p1|Torkoal||Charcoal|Drought|Eruption,Flamethrower,HelpingHand,Protect|||F|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,CloseCombat,SleepPowder,AfterYou|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HighHorsepower,SwordsDance,Protect|||M|||50|,,,,,Ghost]Malamar||SitrusBerry|Contrary|Superpower,KnockOff,TrickRoom,Protect|||M|||50|,,,,,Steel]Delphox||LifeOrb|Blaze|Flamethrower,ExpandingForce,DazzlingGleam,Protect|||M|||50|,,,,,Psychic]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Fairy
+|showteam|p2|Pelipper||FocusSash|Drizzle|Protect,WeatherBall,Hurricane,Tailwind|||F|||50|,,,,,Ground]Amoonguss||SitrusBerry|Regenerator|Protect,Spore,RagePowder,PollenPuff|||F|||50|,,,,,Water]Archaludon||AssaultVest|Stamina|DragonPulse,ElectroShot,FlashCannon,BodyPress|||F|||50|,,,,,Grass]Basculegion||ChoiceBand|SwiftSwim|FlipTurn,WaveCrash,AquaJet,LastRespects|||M|||50|,,,,,Grass]Gholdengo||LifeOrb|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by PatmonVGC)
+|
+|t:|1757783467
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Delphox|Delphox, L50, M|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757783487
+|-terastallize|p2b: Amoonguss|Water
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Delphox|Expanding Force|p2b: Amoonguss|[spread] p2b
+|-activate|p2a: Gholdengo|move: Protect
+|-damage|p2b: Amoonguss|37/100
+|-enditem|p2b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2b: Amoonguss|62/100|[from] item: Sitrus Berry
+|-damage|p1b: Delphox|91/100|[from] item: Life Orb
+|move|p2b: Amoonguss|Spore|p1a: Indeedee
+|-status|p1a: Indeedee|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1757783507
+|move|p1b: Delphox|Protect|p1b: Delphox
+|-singleturn|p1b: Delphox|Protect
+|move|p2a: Gholdengo|Shadow Ball|p1b: Delphox
+|-activate|p1b: Delphox|move: Protect
+|cant|p1a: Indeedee|slp
+|move|p2b: Amoonguss|Spore|p1b: Delphox
+|-activate|p1b: Delphox|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1757783524
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Delphox|atk|1
+|-curestatus|p1a: Indeedee|slp|[msg]
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Delphox|Flamethrower|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|-damage|p1b: Delphox|81/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757783533
+|switch|p2a: Amoonguss|Amoonguss, L50, F, tera:Water|95/100
+|turn|4
+|
+|t:|1757783547
+|move|p1b: Delphox|Protect|p1b: Delphox
+|-singleturn|p1b: Delphox|Protect
+|move|p2b: Incineroar|Knock Off|p1b: Delphox
+|-activate|p1b: Delphox|move: Protect
+|move|p2a: Amoonguss|Spore|p1a: Indeedee
+|-status|p1a: Indeedee|slp|[from] move: Spore
+|cant|p1a: Indeedee|slp
+|
+|upkeep
+|turn|5
+|
+|t:|1757783564
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|-terastallize|p1b: Delphox|Psychic
+|move|p1b: Delphox|Expanding Force|p2a: Amoonguss|[spread] p2a
+|-immune|p2b: Incineroar
+|-damage|p2a: Amoonguss|15/100
+|-damage|p1b: Delphox|71/100|[from] item: Life Orb
+|move|p2b: Incineroar|Knock Off|p1b: Delphox
+|-supereffective|p1b: Delphox
+|-damage|p1b: Delphox|0 fnt
+|-enditem|p1b: Delphox|Life Orb|[from] move: Knock Off|[of] p2b: Incineroar
+|faint|p1b: Delphox
+|move|p2a: Amoonguss|Spore|p1a: Ursaluna
+|-status|p1a: Ursaluna|slp|[from] move: Spore
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1757783575
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100 slp
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|6
+|
+|t:|1757783580
+|switch|p2a: Pelipper|Pelipper, L50, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p2b: Incineroar|Knock Off|p1a: Ursaluna
+|-damage|p1a: Ursaluna|65/100 slp
+|-enditem|p1a: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p2b: Incineroar
+|cant|p1a: Ursaluna|slp
+|cant|p1b: Indeedee|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1757783607
+|move|p2a: Pelipper|Weather Ball|p1b: Indeedee
+|-damage|p1b: Indeedee|35/100 slp
+|move|p2b: Incineroar|Knock Off|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|-curestatus|p1a: Ursaluna|slp|[msg]
+|move|p1a: Ursaluna|High Horsepower|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757783617
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F, tera:Water|48/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|8
+|
+|t:|1757783638
+|move|p2a: Pelipper|Protect|p2a: Pelipper
+|-singleturn|p2a: Pelipper|Protect
+|move|p1a: Ursaluna|Facade|p2b: Amoonguss
+|-damage|p2b: Amoonguss|16/100
+|move|p2b: Amoonguss|Spore|p1a: Ursaluna
+|-status|p1a: Ursaluna|slp|[from] move: Spore
+|move|p1b: Torkoal|Eruption|p2a: Pelipper|[spread] p2b
+|-activate|p2a: Pelipper|move: Protect
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1757783653
+|move|p2a: Pelipper|Weather Ball|p1b: Torkoal
+|-resisted|p1b: Torkoal
+|-damage|p1b: Torkoal|72/100
+|cant|p1a: Ursaluna|slp
+|move|p1b: Torkoal|Flamethrower|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|43/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1757783664
+|move|p2a: Pelipper|Weather Ball|p1a: Ursaluna
+|-damage|p1a: Ursaluna|27/100 slp
+|cant|p1a: Ursaluna|slp
+|move|p1b: Torkoal|Flamethrower|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|win|PatmonVGC
+||PatmonVGC is ready for game 2.
+||EnzoPS is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

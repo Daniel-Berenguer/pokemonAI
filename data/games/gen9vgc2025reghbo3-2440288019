@@ -1,0 +1,256 @@
+|j|☆Metallicmadness
+|j|☆Lab01JNEST
+|html|MetallicmadnessLab01JNEST    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757689999
+|gametype|doubles
+|player|p1|Metallicmadness|byron|1231
+|player|p2|Lab01JNEST|266|1264
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Corviknight, L50, M|
+|poke|p2|Volcarona, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||F|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Garchomp||LifeOrb|RoughSkin|Protect,DragonClaw,StompingTantrum,Earthquake|||F|||50|,,,,,Ground]Sinistcha||RockyHelmet|Hospitality|MatchaGotcha,LifeDew,TrickRoom,RagePowder||||||50|,,,,,Dark]Dragonite||ChoiceBand|InnerFocus|Outrage,ExtremeSpeed,IceSpinner,AerialAce|||M|||50|,,,,,Normal]Corviknight||SitrusBerry|MirrorArmor|Tailwind,BulkUp,Roost,BraveBird|||M|||50|,,,,,Dragon]Volcarona||Leftovers|FlameBody|FieryDance,GigaDrain,QuiverDance,Protect|||M|||50|,,,,,Dragon
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lab01JNEST)
+|inactive|Metallicmadness also wants the timer to be on.
+|inactive|Metallicmadness has 60 seconds left.
+|
+|t:|1757690036
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Jumpluff|Jumpluff, L50, F|100/100
+|switch|p2a: Dragonite|Dragonite, L50, M|100/100
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Dragonite|unboost|Attack|[from] ability: Inner Focus|[of] p2a: Dragonite
+|-unboost|p2b: Garchomp|atk|1
+|turn|1
+|inactive|Lab01JNEST has 30 seconds left.
+|
+|t:|1757690071
+|-terastallize|p2a: Dragonite|Normal
+|move|p1a: Incineroar|Fake Out|p2b: Garchomp
+|-damage|p2b: Garchomp|89/100
+|-damage|p1a: Incineroar|88/100|[from] ability: Rough Skin|[of] p2b: Garchomp
+|move|p2a: Dragonite|Extreme Speed|p1b: Jumpluff
+|-damage|p1b: Jumpluff|13/100
+|move|p1b: Jumpluff|Sleep Powder|p2a: Dragonite
+|-status|p2a: Dragonite|slp|[from] move: Sleep Powder
+|cant|p2b: Garchomp|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1757690084
+|move|p2b: Garchomp|Protect|p2b: Garchomp
+|-singleturn|p2b: Garchomp|Protect
+|cant|p2a: Dragonite|slp
+|move|p1b: Jumpluff|Tailwind|p1b: Jumpluff
+|-sidestart|p1: Metallicmadness|move: Tailwind
+|move|p1a: Incineroar|Parting Shot|p2b: Garchomp
+|-activate|p2b: Garchomp|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1757690094
+|switch|p2b: Sinistcha|Sinistcha, L50|100/100
+|cant|p2a: Dragonite|slp
+|move|p1b: Jumpluff|Sunny Day|p1b: Jumpluff
+|-weather|SunnyDay
+|move|p1a: Incineroar|Knock Off|p2a: Dragonite
+|-damage|p2a: Dragonite|52/100 slp
+|-enditem|p2a: Dragonite|Choice Band|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1757690115
+|switch|p1b: Porygon2|Porygon2, L50|100/100
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|atk|1
+|-curestatus|p2a: Dragonite|slp|[msg]
+|move|p2a: Dragonite|Extreme Speed|p1b: Porygon2
+|-damage|p1b: Porygon2|70/100
+|move|p1a: Incineroar|Knock Off|p2b: Sinistcha
+|-supereffective|p2b: Sinistcha
+|-crit|p2b: Sinistcha
+|-damage|p2b: Sinistcha|0 fnt
+|-damage|p1a: Incineroar|72/100|[from] item: Rocky Helmet|[of] p2b: Sinistcha
+|-enditem|p2b: Sinistcha|Rocky Helmet|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2b: Sinistcha
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757690133
+|switch|p2b: Garchomp|Garchomp, L50, F|89/100
+|turn|5
+|
+|t:|1757690150
+|move|p2a: Dragonite|Extreme Speed|p1b: Porygon2
+|-damage|p1b: Porygon2|40/100
+|move|p1a: Incineroar|Parting Shot|p2a: Dragonite
+|-unboost|p2a: Dragonite|atk|1
+|-unboost|p2a: Dragonite|spa|1
+|
+|t:|1757690157
+|switch|p1a: Jumpluff|Jumpluff, L50, F|13/100|[from] Parting Shot
+|move|p1b: Porygon2|Tera Blast|p2a: Dragonite
+|-damage|p2a: Dragonite|12/100
+|move|p2b: Garchomp|Dragon Claw|p1b: Porygon2
+|-damage|p1b: Porygon2|1/100
+|-damage|p2b: Garchomp|79/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: Metallicmadness|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1757690177
+|switch|p1a: Incineroar|Incineroar, L50, M|72/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Dragonite|unboost|Attack|[from] ability: Inner Focus|[of] p2a: Dragonite
+|-unboost|p2b: Garchomp|atk|1
+|move|p2a: Dragonite|Extreme Speed|p1a: Incineroar
+|-damage|p1a: Incineroar|44/100
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|68/100|[from] item: Sitrus Berry
+|move|p2b: Garchomp|Dragon Claw|p1b: Porygon2
+|-damage|p1b: Porygon2|0 fnt
+|faint|p1b: Porygon2
+|-damage|p2b: Garchomp|70/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757690187
+|switch|p1b: Charizard|Charizard, L50, F|100/100
+|turn|7
+|
+|t:|1757690196
+|switch|p2b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|-terastallize|p1b: Charizard|Ghost
+|move|p2a: Dragonite|Extreme Speed|p1a: Incineroar
+|-damage|p1a: Incineroar|38/100
+|move|p1b: Charizard|Heat Wave|p2a: Dragonite|[spread] p2a,p2b
+|-resisted|p2b: Tyranitar
+|-damage|p2a: Dragonite|0 fnt
+|-damage|p2b: Tyranitar|90/100
+|faint|p2a: Dragonite
+|move|p1a: Incineroar|Parting Shot|p2b: Tyranitar
+|-unboost|p2b: Tyranitar|atk|1
+|-unboost|p2b: Tyranitar|spa|1
+|
+|t:|1757690207
+|switch|p1a: Jumpluff|Jumpluff, L50, F|13/100|[from] Parting Shot
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jumpluff|7/100|[from] Sandstorm
+|-damage|p1b: Charizard|95/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757690221
+|switch|p2a: Garchomp|Garchomp, L50, F|70/100
+|turn|8
+|
+|t:|1757690237
+|move|p1a: Jumpluff|Sleep Powder|p2b: Tyranitar
+|-status|p2b: Tyranitar|slp|[from] move: Sleep Powder
+|move|p1b: Charizard|Heat Wave|p2a: Garchomp|[spread] p2a
+|-miss|p1b: Charizard|p2b: Tyranitar
+|-resisted|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|29/100
+|move|p2a: Garchomp|Dragon Claw|p1b: Charizard
+|-damage|p1b: Charizard|13/100
+|-damage|p2a: Garchomp|20/100|[from] item: Life Orb
+|cant|p2b: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Jumpluff|0 fnt|[from] Sandstorm
+|-damage|p1b: Charizard|7/100|[from] Sandstorm
+|faint|p1a: Jumpluff
+|upkeep
+|
+|t:|1757690247
+|switch|p1a: Incineroar|Incineroar, L50, M|38/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|-unboost|p2b: Tyranitar|atk|1
+|turn|9
+|
+|t:|1757690252
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1b: Charizard|Heat Wave|p2a: Garchomp|[spread] p2b
+|-activate|p2a: Garchomp|move: Protect
+|-resisted|p2b: Tyranitar
+|-damage|p2b: Tyranitar|80/100 slp
+|move|p1a: Incineroar|Knock Off|p2b: Tyranitar
+|-resisted|p2b: Tyranitar
+|-damage|p2b: Tyranitar|63/100 slp
+|-enditem|p2b: Tyranitar|Assault Vest|[from] move: Knock Off|[of] p1a: Incineroar
+|cant|p2b: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Charizard|1/100|[from] Sandstorm
+|-damage|p1a: Incineroar|32/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1757690271
+|move|p2a: Garchomp|Protect||[still]
+|-fail|p2a: Garchomp
+|move|p1b: Charizard|Heat Wave|p2b: Tyranitar|[spread] p2a,p2b
+|-resisted|p2a: Garchomp
+|-resisted|p2b: Tyranitar
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p2b: Tyranitar|48/100 slp
+|faint|p2a: Garchomp
+|move|p1a: Incineroar|Flare Blitz|p2b: Tyranitar
+|-resisted|p2b: Tyranitar
+|-damage|p2b: Tyranitar|25/100 slp
+|-damage|p1a: Incineroar|25/100|[from] Recoil
+|cant|p2b: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Charizard|0 fnt|[from] Sandstorm
+|-damage|p1a: Incineroar|19/100|[from] Sandstorm
+|faint|p1b: Charizard
+|upkeep
+|turn|11
+|
+|t:|1757690285
+|move|p1a: Incineroar|Flare Blitz|p2b: Tyranitar
+|-resisted|p2b: Tyranitar
+|-damage|p2b: Tyranitar|3/100 slp
+|-damage|p1a: Incineroar|12/100|[from] Recoil
+|-curestatus|p2b: Tyranitar|slp|[msg]
+|move|p2b: Tyranitar|Rock Slide|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|win|Lab01JNEST
+||Metallicmadness is ready for game 2.

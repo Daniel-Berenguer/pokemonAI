@@ -1,0 +1,103 @@
+|j|☆Siegfried_TV
+|j|☆ThetaB
+|html|Siegfried_TVThetaB    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757192503
+|gametype|doubles
+|player|p1|Siegfried_TV|lance|1114
+|player|p2|ThetaB|palmer|1108
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Corviknight, L50, M|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fire]Hatterene||LifeOrb|MagicBounce|ExpandingForce,TrickRoom,DazzlingGleam,Protect|||F|||50|,,,,,Psychic]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,SacredSword,WideGuard|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,SwordsDance,Protect|||M|||50|,,,,,Ghost]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,SleepPowder,CloseCombat,AfterYou|||F|||50|,,,,,Ghost]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire
+|showteam|p2|Excadrill||FocusSash|SandRush|IronHead,HighHorsepower,Earthquake,Protect|||F|||50|,,,,,Stellar]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Protect,Trick|||M|||50|,,,,,Psychic]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Roost,Tailwind|||M|||50|,,,,,Dragon]Annihilape||SafetyGoggles|Defiant|CloseCombat,FinalGambit,RageFist,Taunt|||M|||50|,,,,,Water
+|
+|t:|1757192550
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: MOIN|Indeedee-F, L50, F, shiny|100/100
+|switch|p1b: Meister|Hatterene, L50, F, shiny|100/100
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|switch|p2b: Excadrill|Excadrill, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: MOIN
+|-enditem|p1a: MOIN|Psychic Seed
+|-boost|p1a: MOIN|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757192576
+|move|p2a: Annihilape|Final Gambit|p1a: MOIN
+|-damage|p1a: MOIN|0 fnt
+|faint|p2a: Annihilape
+|faint|p1a: MOIN
+|move|p2b: Excadrill|Iron Head|p1b: Meister
+|-supereffective|p1b: Meister
+|-damage|p1b: Meister|0 fnt
+|faint|p1b: Meister
+|
+|upkeep
+|
+|t:|1757192594
+|switch|p2a: Corviknight|Corviknight, L50, M|100/100
+|switch|p1a: Bruder?|Torkoal, L50, M, shiny|100/100
+|switch|p1b: ist|Ursaluna, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Bruder?
+|turn|2
+|
+|t:|1757192623
+|-terastallize|p2b: Excadrill|Stellar
+|-terastallize|p1a: Bruder?|Fire
+|move|p2b: Excadrill|Earthquake|p1a: Bruder?|[spread] p1a,p1b
+|-immune|p2a: Corviknight
+|-supereffective|p1a: Bruder?
+|-damage|p1a: Bruder?|8/100
+|-damage|p1b: ist|56/100
+|move|p2a: Corviknight|Brave Bird|p1a: Bruder?
+|-damage|p1a: Bruder?|0 fnt
+|faint|p1a: Bruder?
+|-damage|p2a: Corviknight|99/100|[from] Recoil
+|move|p1b: ist|Headlong Rush|p2b: Excadrill
+|-supereffective|p2b: Excadrill
+|-enditem|p2b: Excadrill|Focus Sash
+|-damage|p2b: Excadrill|1/100
+|-unboost|p1b: ist|def|1
+|-unboost|p1b: ist|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|-status|p1b: ist|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1757192643
+|move|p2b: Excadrill|Earthquake|p1b: ist|[spread] p1b
+|-immune|p2a: Corviknight
+|-damage|p1b: ist|6/100 brn
+|move|p2a: Corviknight|Brave Bird|p1b: ist
+|-damage|p1b: ist|0 fnt
+|faint|p1b: ist
+|-damage|p2a: Corviknight|98/100|[from] Recoil
+|
+|win|ThetaB
+||ThetaB is ready for game 2.
+|inactive|Siegfried_TV has 30 seconds to confirm battle start!
+||Siegfried_TV is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆Siegfried_TV
+|player|p1|

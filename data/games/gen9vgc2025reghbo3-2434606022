@@ -1,0 +1,227 @@
+|j|☆Fenozi
+|j|☆nyakugan
+|html|Fenozinyakugan    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756930481
+|gametype|doubles
+|player|p1|Fenozi|veteran|
+|player|p2|nyakugan|psychic|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Dragapult, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Kingambit, L50, M|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|FlashCannon,BodyPress,ElectroShot,Snarl|||M|||50|,,,,,Fighting]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy]Pelipper||FocusSash|Drizzle|MuddyWater,Hurricane,Tailwind,Protect|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom||||||50|,,,,,Dark]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,Trick,Protect||||||50|,,,,,Flying
+|showteam|p2|Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,PhantomForce,Uturn|||M|||50|,,,,,Dragon]Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,Coaching,Protect|||M|||50|,,,,,Stellar]Volcarona||GrassySeed|FlameBody|FieryDance,TeraBlast,QuiverDance,Protect|||F|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|KnockOff,FakeOut,Taunt,PartingShot|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,Uturn,FakeOut|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark
+|
+|t:|1756930510
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p2a: Volcarona|Volcarona, L50, F|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p2a: Volcarona|Grassy Seed
+|-boost|p2a: Volcarona|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1756930558
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|-terastallize|p1a: Dragonite|Fairy
+|move|p2b: Rillaboom|Fake Out|p1a: Dragonite
+|-damage|p1a: Dragonite|93/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|cant|p1a: Dragonite|flinch
+|
+|-heal|p1a: Dragonite|99/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756930608
+|move|p2a: Volcarona|Fiery Dance|p1b: Archaludon
+|-damage|p1b: Archaludon|62/100
+|-boost|p2a: Volcarona|spa|1
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p2b: Rillaboom|U-turn|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|87/100
+|
+|t:|1756930616
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100|[from] U-turn
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|-unboost|p1b: Archaludon|atk|1
+|move|p1a: Dragonite|Haze|p1a: Dragonite
+|-clearallboost
+|move|p1b: Archaludon|Snarl|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Volcarona|90/100
+|-damage|p2b: Incineroar|96/100
+|-unboost|p2a: Volcarona|spa|1
+|-unboost|p2b: Incineroar|spa|1
+|
+|-heal|p2a: Volcarona|96/100|[from] Grassy Terrain
+|-heal|p1a: Dragonite|93/100|[from] Grassy Terrain
+|-heal|p1b: Archaludon|68/100|[from] Grassy Terrain
+|-heal|p2b: Incineroar|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756930682
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Volcarona
+|-damage|p2a: Volcarona|63/100
+|move|p2b: Incineroar|Parting Shot|p1b: Archaludon
+|-unboost|p1b: Archaludon|atk|1
+|-unboost|p1b: Archaludon|spa|1
+|
+|t:|1756930697
+|switch|p2b: Sneasler|Sneasler, L50, M, shiny|100/100|[from] Parting Shot
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Volcarona|69/100|[from] Grassy Terrain
+|-heal|p1b: Archaludon|74/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756930759
+|-terastallize|p2a: Volcarona|Fairy
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p2b: Sneasler|Close Combat|p1b: Archaludon
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1b: Archaludon
+|move|p1a: Pelipper|Tailwind|p1a: Pelipper
+|-sidestart|p1: Fenozi|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Volcarona|75/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756930772
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|5
+|
+|t:|1756930820
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Pelipper|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|move|p2a: Volcarona|Protect|p2a: Volcarona
+|-singleturn|p2a: Volcarona|Protect
+|move|p1a: Pelipper|Muddy Water|p2a: Volcarona|[spread] p2b
+|-activate|p2a: Volcarona|move: Protect
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|19/100
+|move|p1b: Ursaluna|Earthquake|p2a: Volcarona|[spread] p2b
+|-activate|p2a: Volcarona|move: Protect
+|-immune|p1a: Pelipper
+|-supereffective|p2b: Incineroar
+|-crit|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Volcarona|82/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756930838
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|6
+|
+|t:|1756930865
+|move|p2b: Rillaboom|Fake Out|p1a: Pelipper
+|-damage|p1a: Pelipper|83/100
+|move|p2a: Volcarona|Tera Blast|p1b: Ursaluna|[anim] Tera Blast Fairy
+|-damage|p1b: Ursaluna|36/100 brn
+|cant|p1a: Pelipper|flinch
+|move|p1b: Ursaluna|Facade|p2a: Volcarona
+|-crit|p2a: Volcarona
+|-damage|p2a: Volcarona|0 fnt
+|faint|p2a: Volcarona
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Ursaluna|42/100 brn|[from] Grassy Terrain
+|-damage|p1b: Ursaluna|36/100 brn|[from] brn
+|upkeep
+|
+|t:|1756930874
+|switch|p2a: Sneasler|Sneasler, L50, M, shiny|100/100
+|turn|7
+|
+|t:|1756930922
+|move|p1a: Pelipper|Hurricane|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-enditem|p2a: Sneasler|Focus Sash
+|-damage|p2a: Sneasler|1/100
+|move|p2a: Sneasler|Close Combat|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1b: Ursaluna
+|move|p2b: Rillaboom|Wood Hammer|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|-damage|p2b: Rillaboom|81/100|[from] Recoil
+|
+|-weather|none
+|-heal|p2a: Sneasler|7/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|88/100|[from] Grassy Terrain
+|-sideend|p1: Fenozi|move: Tailwind
+|upkeep
+|
+|t:|1756930928
+|switch|p1b: Dragonite|Dragonite, L50, M, tera:Fairy|93/100
+|turn|8
+|
+|t:|1756930952
+|move|p2a: Sneasler|Dire Claw|p1b: Dragonite
+|-supereffective|p1b: Dragonite
+|-damage|p1b: Dragonite|3/100
+|move|p2b: Rillaboom|Wood Hammer|p1b: Dragonite
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1b: Dragonite
+|-damage|p2b: Rillaboom|87/100|[from] Recoil
+|
+|win|nyakugan
+||nyakugan is ready for game 3.
+||Fenozi is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆nyakugan
+|player|p2|

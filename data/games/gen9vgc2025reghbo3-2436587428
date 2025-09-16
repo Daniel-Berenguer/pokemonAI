@@ -1,0 +1,160 @@
+|j|☆teyvgc
+|j|☆rorain fearow
+|html|teyvgcrorain fearow    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757196767
+|gametype|doubles
+|player|p1|teyvgc|benga|1255
+|player|p2|rorain fearow|birdkeeper|1252
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Smeargle, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|showteam|p1|Gholdengo||LifeOrb|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||F|||50|,,,,,Fairy]Sneasler||PsychicSeed|Unburden|Protect,DireClaw,CloseCombat,ThroatChop|||M|||50|,,,,,Dark]Incineroar||SafetyGoggles|Intimidate|KnockOff,PartingShot,FlareBlitz,FakeOut|||M|||50|,,,,,Ghost]Indeedee||ChoiceScarf|PsychicSurge|Protect,Trick,TeraBlast,ExpandingForce|||M|||50|,,,,,Psychic]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,IcyWind,Encore,AuroraVeil|||F|||50|,,,,,Ghost
+|showteam|p2|Archaludon||PowerHerb|Sturdy|DragonPulse,Thunderbolt,ElectroShot,Protect|||F|||50|,,,,,Electric]Ursaluna-Bloodmoon||GrassySeed|MindsEye|EarthPower,HyperVoice,CalmMind,Protect|||M|||50|,,,,,Dragon]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,Uturn,FakeOut|||F|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,PartingShot,KnockOff,FakeOut|||M|||50|,,,,,Ghost]Smeargle||FocusSash|Moody|Spore,Decorate,WideGuard,FollowMe|||M|||50|,,,,,Grass]Farigiraf||ThroatSpray|ArmorTail|HyperVoice,TwinBeam,TrickRoom,Protect|||F|||50|,,,,,Fairy
+|
+|t:|1757196838
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p2a: Ursaluna|Grassy Seed
+|-boost|p2a: Ursaluna|def|1|[from] item: Grassy Seed
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|turn|1
+|
+|t:|1757196860
+|-terastallize|p1a: Incineroar|Ghost
+|move|p2b: Rillaboom|Fake Out|p1a: Incineroar
+|-immune|p1a: Incineroar
+|move|p1a: Incineroar|Fake Out|p2a: Ursaluna
+|-damage|p2a: Ursaluna|95/100
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|cant|p2a: Ursaluna|flinch
+|
+|-heal|p2a: Ursaluna|100/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1757196887
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1b: Gholdengo|Make It Rain|p2b: Rillaboom|[spread] p2b
+|-activate|p2a: Ursaluna|move: Protect
+|-damage|p2b: Rillaboom|17/100
+|-unboost|p1b: Gholdengo|spa|1
+|-damage|p1b: Gholdengo|91/100|[from] item: Life Orb
+|move|p2b: Rillaboom|U-turn|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|93/100
+|
+|t:|1757196898
+|switch|p2b: Smeargle|Smeargle, L50, M|100/100|[from] U-turn
+|move|p1a: Incineroar|Parting Shot|p2b: Smeargle
+|-unboost|p2b: Smeargle|atk|1
+|-unboost|p2b: Smeargle|spa|1
+|
+|t:|1757196904
+|switch|p1a: Ninetales|Ninetales-Alola, L50, F|100/100|[from] Parting Shot
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Gholdengo|97/100|[from] Grassy Terrain
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|atk|2
+|-unboost|p2b: Smeargle|spa|1
+|upkeep
+|turn|3
+|
+|t:|1757196924
+|move|p2b: Smeargle|Follow Me|p2b: Smeargle
+|-singleturn|p2b: Smeargle|move: Follow Me
+|move|p1a: Ninetales|Encore|p2b: Smeargle
+|-start|p2b: Smeargle|Encore
+|move|p1b: Gholdengo|Make It Rain|p2a: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Ursaluna|15/100
+|-enditem|p2b: Smeargle|Focus Sash
+|-damage|p2b: Smeargle|1/100
+|-unboost|p1b: Gholdengo|spa|1
+|-damage|p1b: Gholdengo|88/100|[from] item: Life Orb
+|move|p2a: Ursaluna|Earth Power|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Smeargle|7/100|[from] Grassy Terrain
+|-heal|p2a: Ursaluna|21/100|[from] Grassy Terrain
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spd|2
+|-unboost|p2b: Smeargle|spa|1
+|upkeep
+|
+|t:|1757196939
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|turn|4
+|
+|t:|1757196953
+|switch|p2b: Rillaboom|Rillaboom, L50, F|17/100
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1b: Sneasler|Dire Claw|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|move|p1a: Ninetales|Blizzard|p2b: Rillaboom|[spread] p2b
+|-activate|p2a: Ursaluna|move: Protect
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Ursaluna|27/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757196966
+|switch|p2b: Smeargle|Smeargle, L50, M|7/100
+|turn|5
+|
+|t:|1757196982
+|-terastallize|p2a: Ursaluna|Dragon
+|move|p2b: Smeargle|Wide Guard|p2b: Smeargle
+|-singleturn|p2b: Smeargle|Wide Guard
+|move|p1b: Sneasler|Close Combat|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|faint|p2a: Ursaluna
+|move|p1a: Ninetales|Blizzard|p2b: Smeargle
+|-activate|p2b: Smeargle|move: Wide Guard
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Smeargle|13/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-ability|p2b: Smeargle|Moody|boost
+|-boost|p2b: Smeargle|spa|2
+|-unboost|p2b: Smeargle|def|1
+|upkeep
+|-message|rorain fearow forfeited.
+|
+|win|teyvgc

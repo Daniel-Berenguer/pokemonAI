@@ -1,0 +1,182 @@
+|j|☆maish
+|j|☆Chavo666
+|html|maishChavo666    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756992016
+|gametype|doubles
+|player|p1|maish|roxie|1083
+|player|p2|Chavo666|policeman-gen4|1072
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Arcanine-Hisui, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Murkrow, L50, M|
+|poke|p2|Reuniclus, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gastrodon, L50, F|
+|poke|p2|Venusaur, L50, F|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Dragonite||LoadedDice|Multiscale|Protect,ScaleShot,LowKick,ExtremeSpeed|||M|||50|,,,,,Fairy]Gholdengo||ChoiceSpecs|GoodasGold|Thunderbolt,PowerGem,MakeItRain,ShadowBall||||||50|,,,,,Steel]Rillaboom||AssaultVest|GrassySurge|FakeOut,HighHorsepower,WoodHammer,GrassyGlide|||F|||50|,,,,,Fire]Arcanine-Hisui||ClearAmulet|Intimidate|Protect,FlareBlitz,RockSlide,ExtremeSpeed|||M|||50|,,,,,Water]Annihilape||FocusSash|Defiant|Coaching,CloseCombat,RageFist,FinalGambit|||M|||50|,,,,,Stellar]Murkrow||Eviolite|Prankster|Haze,Tailwind,FoulPlay,Taunt|||M|||50|,,,,,Ghost
+|showteam|p2|Reuniclus||LifeOrb|Regenerator|ExpandingForce,Encore,TrickRoom,TeraBlast|||F|||50|,,,,,Fairy]Indeedee-F||PsychicSeed|PsychicSurge|DazzlingGleam,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Fairy]Torkoal||ChoiceSpecs|Drought|HeatWave,Eruption,EarthPower,SolarBeam|||M|||50|,,,,,Fire]Gastrodon||Leftovers|StormDrain|EarthPower,IceBeam,Recover,Yawn|||F|||50|,,,,,Fire]Venusaur||SitrusBerry|Chlorophyll|SleepPowder,SludgeBomb,GigaDrain,Protect|||F|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,FlareBlitz,KnockOff|||M|||50|,,,,,Fire
+|
+|t:|1756992050
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Murkrow|Murkrow, L50, M, shiny|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Reuniclus|Reuniclus, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756992078
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-terastallize|p1b: Gholdengo|Steel
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Gholdengo|Make It Rain|p2a: Reuniclus|[spread] p2a,p2b
+|-damage|p2a: Reuniclus|26/100
+|-damage|p2b: Indeedee|42/100
+|-unboost|p1b: Gholdengo|spa|1
+|move|p2a: Reuniclus|Trick Room|p2a: Reuniclus
+|-fieldstart|move: Trick Room|[of] p2a: Reuniclus
+|
+|-heal|p2a: Reuniclus|32/100|[from] Grassy Terrain
+|-heal|p2b: Indeedee|48/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756992115
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|switch|p1a: Murkrow|Murkrow, L50, M, shiny|100/100
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Gholdengo|Make It Rain|p2a: Torkoal|[spread] p2a,p2b
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|64/100
+|-damage|p2b: Indeedee|12/100
+|-unboost|p1b: Gholdengo|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Torkoal|70/100|[from] Grassy Terrain
+|-heal|p2b: Indeedee|18/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756992150
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|-terastallize|p2a: Torkoal|Fire
+|move|p2b: Indeedee|Helping Hand|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Helping Hand|[of] p2b: Indeedee
+|move|p2a: Torkoal|Heat Wave|p1a: Murkrow|[spread] p1a,p1b
+|-crit|p1a: Murkrow
+|-resisted|p1b: Dragonite
+|-damage|p1a: Murkrow|0 fnt
+|-damage|p1b: Dragonite|65/100
+|faint|p1a: Murkrow
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Torkoal|76/100|[from] Grassy Terrain
+|-heal|p2b: Indeedee|24/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756992166
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|turn|4
+|
+|t:|1756992179
+|switch|p2a: Gastrodon|Gastrodon, L50, F|100/100
+|switch|p2b: Reuniclus|Reuniclus, L50, F|65/100
+|move|p1a: Rillaboom|Fake Out|p2a: Gastrodon
+|-damage|p2a: Gastrodon|89/100
+|move|p1b: Dragonite|Scale Shot|p2b: Reuniclus
+|-damage|p2b: Reuniclus|45/100
+|-damage|p2b: Reuniclus|27/100
+|-damage|p2b: Reuniclus|9/100
+|-damage|p2b: Reuniclus|0 fnt
+|faint|p2b: Reuniclus
+|-hitcount|p2: Reuniclus|4
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Gastrodon|95/100|[from] Grassy Terrain
+|-heal|p2a: Gastrodon|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1756992199
+|switch|p2b: Torkoal|Torkoal, L50, M, tera:Fire|76/100
+|turn|5
+|
+|t:|1756992211
+|switch|p2a: Indeedee|Indeedee-F, L50, F|24/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|switch|p1a: Gholdengo|Gholdengo, L50, tera:Steel|100/100
+|move|p2b: Torkoal|Heat Wave|p1b: Dragonite|[spread] p1a,p1b
+|-supereffective|p1a: Gholdengo
+|-resisted|p1b: Dragonite
+|-damage|p1a: Gholdengo|0 fnt
+|-damage|p1b: Dragonite|19/100
+|faint|p1a: Gholdengo
+|move|p1b: Dragonite|Scale Shot|p2b: Torkoal
+|-crit|p2b: Torkoal
+|-damage|p2b: Torkoal|57/100
+|-damage|p2b: Torkoal|44/100
+|-damage|p2b: Torkoal|31/100
+|-damage|p2b: Torkoal|18/100
+|-damage|p2b: Torkoal|5/100
+|-hitcount|p2b: Torkoal|5
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1756992228
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|6
+|
+|t:|1756992241
+|switch|p2a: Gastrodon|Gastrodon, L50, F|100/100
+|move|p1b: Dragonite|Extreme Speed|p2b: Torkoal
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|move|p1a: Rillaboom|Grassy Glide|p2a: Gastrodon
+|-supereffective|p2a: Gastrodon
+|-damage|p2a: Gastrodon|0 fnt
+|faint|p2a: Gastrodon
+|
+|-weather|none
+|upkeep
+|
+|t:|1756992253
+|switch|p2b: Indeedee|Indeedee-F, L50, F|24/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|7
+|
+|t:|1756992265
+|move|p1b: Dragonite|Scale Shot|p2b: Indeedee
+|-crit|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|-hitcount|p2: Indeedee|1
+|
+|win|maish
+|raw|maish's rating: 1083 → 1110(+27 for winning)
+|raw|Chavo666's rating: 1072 → 1052(-20 for losing)

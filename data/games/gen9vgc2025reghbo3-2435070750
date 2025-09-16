@@ -1,0 +1,143 @@
+|j|☆OhNoValentine
+|j|☆DewosZz
+|html|OhNoValentineDewosZz    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756994698
+|gametype|doubles
+|player|p1|OhNoValentine|170|1197
+|player|p2|DewosZz|101|1258
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Annihilape, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Typhlosion-Hisui, L50, F|
+|poke|p2|Decidueye-Hisui, L50, F|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,Uturn,GrassyGlide|||M|||50|,,,,,Fire]Sneasler||GrassySeed|Unburden|Protect,CloseCombat,DireClaw,ThroatChop|||F|||50|,,,,,Dark]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Ursaluna||FlameOrb|Guts|Protect,HeadlongRush,Earthquake,Facade|||M|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|Protect,Tailwind,ExtremeSpeed,ScaleShot|||F|||50|,,,,,Steel]Annihilape||SafetyGoggles|Defiant|RageFist,DrainPunch,Protect,BulkUp|||M|||50|,,,,,Fighting
+|showteam|p2|Indeedee||FocusSash|PsychicSurge|TeraBlast,ExpandingForce,TrickRoom,Imprison|||M|||50|,,,,,Fighting]Whimsicott||CovertCloak|Prankster|Moonblast,Tailwind,SunnyDay,Encore|||M|||50|,,,,,Fire]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,Overheat,HeatWave,ShadowBall|||F|||50|,,,,,Fire]Decidueye-Hisui||RazorClaw|Scrappy|TripleArrows,LeafBlade,Haze,Protect|||F|||50|,,,,,Water]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,TeraBlast,Uturn|||F|||50|,,,,,Ghost]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by OhNoValentine)
+|
+|t:|1756994729
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-enditem|p1a: Sneasler|Grassy Seed
+|-boost|p1a: Sneasler|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1756994750
+|switch|p1b: Gholdengo|Gholdengo, L50, shiny|100/100
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p2a: Indeedee|Expanding Force|p1a: Sneasler
+|-activate|p1a: Sneasler|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1756994774
+|-terastallize|p1a: Sneasler|Dark
+|move|p2b: Sneasler|Throat Chop|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo
+|-damage|p1b: Gholdengo|40/100
+|-start|p1b: Gholdengo|Throat Chop|[silent]
+|move|p1a: Sneasler|Close Combat|p2b: Sneasler
+|-resisted|p2b: Sneasler
+|-damage|p2b: Sneasler|40/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|move|p2a: Indeedee|Expanding Force|p1a: Sneasler
+|-immune|p1a: Sneasler
+|move|p1b: Gholdengo|Make It Rain|p2a: Indeedee|[spread] p2a,p2b
+|-damage|p2a: Indeedee|11/100
+|-damage|p2b: Sneasler|0 fnt
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2b: Sneasler
+|-damage|p1b: Gholdengo|30/100|[from] item: Life Orb
+|
+|-heal|p2a: Indeedee|17/100|[from] Grassy Terrain
+|-heal|p1b: Gholdengo|36/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756994781
+|switch|p2b: Whimsicott|Whimsicott, L50, M|100/100
+|turn|3
+|
+|t:|1756994802
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: DewosZz|move: Tailwind
+|move|p1a: Sneasler|Dire Claw|p2b: Whimsicott
+|-supereffective|p2b: Whimsicott
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|move|p1b: Gholdengo|Make It Rain|p2a: Typhlosion
+|-resisted|p2a: Typhlosion
+|-damage|p2a: Typhlosion|64/100
+|-unboost|p1b: Gholdengo|spa|1
+|-damage|p1b: Gholdengo|27/100|[from] item: Life Orb
+|
+|-heal|p2a: Typhlosion|70/100|[from] Grassy Terrain
+|-heal|p1b: Gholdengo|33/100|[from] Grassy Terrain
+|-end|p1b: Gholdengo|Throat Chop|[silent]
+|upkeep
+|
+|t:|1756994804
+|switch|p2b: Indeedee|Indeedee, L50, M|17/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|4
+|
+|t:|1756994816
+|-terastallize|p2a: Typhlosion|Fire
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p1b: Gholdengo|Protect|p1b: Gholdengo
+|-singleturn|p1b: Gholdengo|Protect
+|move|p2b: Indeedee|Tera Blast|p1a: Sneasler
+|-activate|p1a: Sneasler|move: Protect
+|move|p2a: Typhlosion|Heat Wave|p1a: Sneasler|[spread] 
+|-activate|p1a: Sneasler|move: Protect
+|-activate|p1b: Gholdengo|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1756994825
+|move|p1a: Sneasler|Close Combat|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Typhlosion
+|move|p2b: Indeedee|Tera Blast|p1a: Sneasler
+|-damage|p1a: Sneasler|1/100
+|move|p1b: Gholdengo|Make It Rain|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2b: Indeedee
+|-damage|p1b: Gholdengo|23/100|[from] item: Life Orb
+|
+|win|OhNoValentine
+|raw|OhNoValentine's rating: 1197 → 1226(+29 for winning)
+|raw|DewosZz's rating: 1258 → 1229(-29 for losing)

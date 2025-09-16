@@ -100,7 +100,11 @@ def processGame(text, tensors, labels, augment=True):
             t = board2tensor(board)
             for i, tensor in enumerate(t):
                 tensors[i].append(tensor)
-            labels.append(torch.tensor(board.winner))
+            try:
+                labels.append(torch.tensor(board.winner))
+            except:
+                for i, _ in enumerate(t):
+                    tensors[i].pop()
             if augment:
                 # Switches sides of board (data augmentation)
                 board.switchSides()
@@ -108,7 +112,11 @@ def processGame(text, tensors, labels, augment=True):
                 h = board2tensor(board)
                 for i, tensor in enumerate(h):
                     tensors[i].append(tensor)
-                labels.append(torch.tensor(board.winner))
+                try:
+                    labels.append(torch.tensor(board.winner))
+                except:
+                    for i, _ in enumerate(t):
+                        tensors[i].pop()
                 # Switches back
                 board.switchSides()
         

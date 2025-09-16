@@ -1,0 +1,194 @@
+|j|☆buf91 Lupita
+|j|☆GetaJobApplication
+|html|buf91 LupitaGetaJobApplication    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757703356
+|gametype|doubles
+|player|p1|buf91 Lupita|lucas|1298
+|player|p2|GetaJobApplication|cynthia-gen4|1205
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Typhlosion-Hisui, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Kommo-o, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Typhlosion-Hisui||ChoiceSpecs|Blaze|HeatWave,Eruption,ShadowBall,Flamethrower|||F|||50|,,,,,Fire]Whimsicott||CovertCloak|Prankster|SunnyDay,Tailwind,Moonblast,Encore|||F|||50|,,,,,Ghost]Kingambit||AssaultVest|Defiant|KowtowCleave,LowKick,IronHead,SuckerPunch|||M|||50|,,,,,Fairy]Farigiraf||SitrusBerry|ArmorTail|TrickRoom,HelpingHand,Psychic,FoulPlay|||F|||50|,,,,,Fairy]Ursaluna-Bloodmoon||LifeOrb|MindsEye|Protect,BloodMoon,HyperVoice,EarthPower|||M|||50|,,,,,Normal]Annihilape||Leftovers|Defiant|Protect,BulkUp,DrainPunch,RageFist|||F|||50|,,,,,Fire
+|showteam|p2|Incineroar||AssaultVest|Intimidate|FakeOut,KnockOff,Uturn,FlareBlitz|||F|||50|,,,,,Bug]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,Trick,HelpingHand,DazzlingGleam|||M|||50|,,,,,Psychic]Kommo-o||ThroatSpray|Overcoat|ClangorousSoul,ClangingScales,Protect,Flamethrower|||M|||50|,,,,,Fire]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Steel]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark
+|
+|t:|1757703370
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|turn|1
+|
+|t:|1757703393
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1a: Farigiraf|Psychic|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|42/100
+|-enditem|p2b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2b: Amoonguss|67/100|[from] item: Sitrus Berry
+|move|p1b: Kingambit|Kowtow Cleave|p2b: Amoonguss
+|-damage|p2b: Amoonguss|29/100
+|move|p2b: Amoonguss|Spore|p1b: Kingambit
+|-status|p1b: Kingambit|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1757703412
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Farigiraf|atk|1
+|-unboost|p1b: Kingambit|atk|1
+|-ability|p1b: Kingambit|Defiant|boost
+|-boost|p1b: Kingambit|atk|2
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|cant|p1b: Kingambit|slp
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|turn|3
+|
+|t:|1757703472
+|-curestatus|p1b: Kingambit|slp|[msg]
+|move|p1b: Kingambit|Low Kick|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|23/100
+|move|p1a: Farigiraf|Foul Play|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|76/100
+|move|p2b: Incineroar|Flare Blitz|p1b: Kingambit
+|-supereffective|p1b: Kingambit
+|-damage|p1b: Kingambit|24/100
+|-damage|p2b: Incineroar|0 fnt|[from] Recoil
+|faint|p2b: Incineroar
+|move|p2a: Gholdengo|Make It Rain|p1b: Kingambit|[spread] p1a,p1b
+|-resisted|p1b: Kingambit
+|-damage|p1a: Farigiraf|0 fnt
+|-damage|p1b: Kingambit|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Farigiraf
+|faint|p1b: Kingambit
+|-damage|p2a: Gholdengo|66/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757703487
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F|62/100
+|turn|4
+|
+|t:|1757703511
+|-terastallize|p1a: Annihilape|Fire
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p2b: Amoonguss|Spore|p1b: Ursaluna
+|-status|p1b: Ursaluna|slp|[from] move: Spore
+|cant|p1b: Ursaluna|slp
+|move|p1a: Annihilape|Rage Fist|p2a: Gholdengo
+|-activate|p2a: Gholdengo|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1757703525
+|-terastallize|p2a: Gholdengo|Steel
+|move|p1a: Annihilape|Protect|p1a: Annihilape
+|-singleturn|p1a: Annihilape|Protect
+|move|p2b: Amoonguss|Spore|p1a: Annihilape
+|-activate|p1a: Annihilape|move: Protect
+|-curestatus|p1b: Ursaluna|slp|[msg]
+|move|p1b: Ursaluna|Earth Power|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|-damage|p1b: Ursaluna|91/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1757703530
+|switch|p2a: Kommo-o|Kommo-o, L50, M|100/100
+|turn|6
+|
+|t:|1757703548
+|move|p2b: Amoonguss|Spore|p1a: Annihilape
+|-status|p1a: Annihilape|slp|[from] move: Spore
+|move|p1b: Ursaluna|Blood Moon|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|-damage|p1b: Ursaluna|81/100|[from] item: Life Orb
+|move|p2a: Kommo-o|Clangorous Soul|p2a: Kommo-o
+|-boost|p2a: Kommo-o|atk|1
+|-boost|p2a: Kommo-o|def|1
+|-boost|p2a: Kommo-o|spa|1
+|-boost|p2a: Kommo-o|spd|1
+|-boost|p2a: Kommo-o|spe|1
+|-damage|p2a: Kommo-o|68/100
+|-enditem|p2a: Kommo-o|Throat Spray
+|-boost|p2a: Kommo-o|spa|1|[from] item: Throat Spray
+|cant|p1a: Annihilape|slp
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1757703561
+|move|p2a: Kommo-o|Clanging Scales|p1b: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Annihilape|35/100 slp
+|-damage|p1b: Ursaluna|2/100
+|-unboost|p2a: Kommo-o|def|1
+|cant|p1a: Annihilape|slp
+|move|p1b: Ursaluna|Hyper Voice|p2a: Kommo-o
+|-damage|p2a: Kommo-o|23/100
+|-damage|p1b: Ursaluna|0 fnt|[from] item: Life Orb
+|faint|p1b: Ursaluna
+|
+|-heal|p1a: Annihilape|41/100 slp|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1757703572
+|-curestatus|p1a: Annihilape|slp|[msg]
+|move|p1a: Annihilape|Protect|p1a: Annihilape
+|-singleturn|p1a: Annihilape|Protect
+|move|p2a: Kommo-o|Clanging Scales|p1a: Annihilape
+|-activate|p1a: Annihilape|move: Protect
+|
+|-heal|p1a: Annihilape|47/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1757703576
+|move|p2a: Kommo-o|Clanging Scales|p1a: Annihilape
+|-damage|p1a: Annihilape|0 fnt
+|faint|p1a: Annihilape
+|
+|win|GetaJobApplication
+||buf91 Lupita is ready for game 3.
+|inactive|GetaJobApplication has 30 seconds to confirm battle start!
+||GetaJobApplication is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆buf91 Lupita
+|player|p1|

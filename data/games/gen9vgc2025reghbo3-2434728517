@@ -1,0 +1,157 @@
+|j|☆Daniw9
+|j|☆no89
+|html|Daniw9no89    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756943796
+|gametype|doubles
+|player|p1|Daniw9|265|1251
+|player|p2|no89|pokemonbreeder-gen4|1326
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gardevoir, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Talonflame, L50, M|
+|poke|p2|Flamigo, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Milotic, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Magmar, L50, M|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Garchomp||ClearAmulet|SandVeil|Earthquake,StompingTantrum,Protect,DragonClaw|||F|||50|,,,,,Steel]Tyranitar||AssaultVest|SandStream|RockSlide,TeraBlast,KnockOff,LowKick|||M|||50|,,,,,Flying]Indeedee-F||SafetyGoggles|PsychicSurge|DazzlingGleam,TrickRoom,FollowMe,HelpingHand|||F|||50|,,,,,Water]Gardevoir||ChoiceScarf|Telepathy|IcyWind,Moonblast,ExpandingForce,MysticalFire|||F|||50|,,,,,Fire]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,Protect,ThroatChop|||M|||50|,,,,,Dark]Talonflame||CovertCloak|GaleWings|Tailwind,DualWingbeat,FlareBlitz,Taunt|||M|||50|,,,,,Flying
+|showteam|p2|Flamigo||FocusSash|Scrappy|Tailwind,CloseCombat,BraveBird,Protect|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Steel]Milotic||SafetyGoggles|Competitive|Scald,Haze,IcyWind,Protect|||M|||50|,,,,,Grass]Archaludon||PowerHerb|Stalwart|ElectroShot,AuraSphere,DragonPulse,Protect|||M|||50|,,,,,Electric]Magmar||Eviolite|VitalSpirit|FollowMe,HeatWave,Taunt,Protect|||M|||50|,,,,,Grass]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,IcyWind|||M|||50|,,,,,Water
+|
+|t:|1756943836
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Gardevoir|Gardevoir, L50, F|100/100
+|switch|p2a: Magmar|Magmar, L50, M|100/100
+|switch|p2b: Flamigo|Flamigo, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1756943861
+|move|p1a: Indeedee|Helping Hand|p1b: Gardevoir
+|-singleturn|p1b: Gardevoir|Helping Hand|[of] p1a: Indeedee
+|move|p2b: Flamigo|Protect|p2b: Flamigo
+|-singleturn|p2b: Flamigo|Protect
+|move|p1b: Gardevoir|Expanding Force|p2b: Flamigo|[spread] p2a
+|-activate|p2b: Flamigo|move: Protect
+|-damage|p2a: Magmar|37/100
+|move|p2a: Magmar|Taunt|p1a: Indeedee
+|-start|p1a: Indeedee|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1756943877
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|move|p1b: Gardevoir|Expanding Force|p2a: Gholdengo|[spread] p2a,p2b
+|-resisted|p2a: Gholdengo
+|-supereffective|p2b: Flamigo
+|-damage|p2a: Gholdengo|64/100
+|-enditem|p2b: Flamigo|Focus Sash
+|-damage|p2b: Flamigo|1/100
+|move|p2b: Flamigo|Tailwind|p2b: Flamigo
+|-sidestart|p2: no89|move: Tailwind
+|move|p1a: Indeedee|Dazzling Gleam|p2b: Flamigo|[spread] p2a,p2b
+|-resisted|p2a: Gholdengo
+|-supereffective|p2b: Flamigo
+|-damage|p2a: Gholdengo|55/100
+|-damage|p2b: Flamigo|0 fnt
+|faint|p2b: Flamigo
+|
+|upkeep
+|
+|t:|1756943882
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|turn|3
+|
+|t:|1756943904
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2b: Basculegion|Wave Crash|p1b: Garchomp
+|-damage|p1b: Garchomp|12/100
+|-damage|p2b: Basculegion|73/100|[from] Recoil
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Basculegion|67/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1756943922
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p2b: Basculegion|Wave Crash|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|-damage|p2b: Basculegion|32/100|[from] Recoil
+|move|p2a: Gholdengo|Make It Rain|p1b: Garchomp
+|-activate|p1b: Garchomp|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Basculegion|26/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756943934
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|turn|5
+|
+|t:|1756943945
+|-terastallize|p2a: Gholdengo|Steel
+|-terastallize|p1a: Indeedee|Water
+|move|p1b: Garchomp|Protect||[still]
+|-fail|p1b: Garchomp
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2b: Basculegion|Wave Crash|p1a: Indeedee
+|-resisted|p1a: Indeedee
+|-damage|p1a: Indeedee|64/100
+|-damage|p2b: Basculegion|15/100|[from] Recoil
+|move|p2a: Gholdengo|Make It Rain|p1a: Indeedee|[spread] p1a,p1b
+|-resisted|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Garchomp|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Indeedee
+|faint|p1b: Garchomp
+|-damage|p2a: Gholdengo|46/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Basculegion|9/100|[from] Sandstorm
+|-sideend|p2: no89|move: Tailwind
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1756943962
+|switch|p1b: Gardevoir|Gardevoir, L50, F|100/100
+|turn|6
+|
+|t:|1756943968
+|move|p1b: Gardevoir|Mystical Fire|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|move|p2b: Basculegion|Wave Crash|p1b: Gardevoir
+|-damage|p1b: Gardevoir|0 fnt
+|faint|p1b: Gardevoir
+|-damage|p2b: Basculegion|0 fnt|[from] Recoil
+|faint|p2b: Basculegion
+|
+|win|no89
+||Daniw9 is ready for game 2.
+||no89 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

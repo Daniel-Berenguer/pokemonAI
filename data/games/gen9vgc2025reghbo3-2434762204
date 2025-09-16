@@ -1,0 +1,107 @@
+|j|☆Quill86
+|j|☆ScrewSalesman
+|html|Quill86ScrewSalesman    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756947903
+|gametype|doubles
+|player|p1|Quill86|lucas|1347
+|player|p2|ScrewSalesman|cynthia-gen4|1323
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Smeargle, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,TrickRoom,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|SacredSword,WideGuard,TrickRoom,PsychoCut|||M|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,WeatherBall,EarthPower,HeatWave|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Protect,HeadlongRush,Facade,Earthquake|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|DazzlingGleam,ExpandingForce,MysticalFire,TrickRoom|||F|||50|,,,,,Fire]Smeargle||FocusSash|Moody|FakeOut,Spore,Instruct,FollowMe|||M|||50|,,,,,Ghost
+|showteam|p2|Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|RagePowder,SunnyDay,Tailwind,SleepPowder|||M|||50|,,,,,Water]Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,SolarBeam|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Overheat,Eruption,HelpingHand,Protect|||M|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ScrewSalesman)
+|
+|t:|1756947916
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Smeargle|Smeargle, L50, M|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Charizard|Charizard, L50, M, shiny|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Smeargle|atk|1
+|-unboost|p1b: Hatterene|atk|1
+|turn|1
+|inactive|Quill86 has 30 seconds left.
+|
+|t:|1756947944
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|-terastallize|p1b: Hatterene|Fire
+|move|p2a: Charizard|Heat Wave|p1a: Indeedee|[spread] p1a,p1b
+|-resisted|p1b: Hatterene
+|-damage|p1a: Indeedee|68/100
+|-damage|p1b: Hatterene|75/100
+|move|p2b: Incineroar|Knock Off|p1b: Hatterene
+|-damage|p1b: Hatterene|20/100
+|-enditem|p1b: Hatterene|Life Orb|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1b: Hatterene|Expanding Force|p2a: Charizard|[spread] p2a
+|-immune|p2b: Incineroar
+|-damage|p2a: Charizard|8/100
+|
+|upkeep
+|turn|2
+|
+|t:|1756947963
+|move|p2a: Charizard|Heat Wave|p1a: Indeedee|[spread] p1a,p1b
+|-resisted|p1b: Hatterene
+|-damage|p1a: Indeedee|36/100
+|-damage|p1b: Hatterene|0 fnt
+|faint|p1b: Hatterene
+|move|p2b: Incineroar|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|t:|1756947966
+|switch|p1a: Gallade|Gallade, L50, M|100/100
+|switch|p1b: Smeargle|Smeargle, L50, M|100/100
+|turn|3
+|
+|t:|1756947989
+|-terastallize|p2b: Incineroar|Ghost
+|move|p1b: Smeargle|Fake Out|p2a: Charizard
+|-hint|Psychic Terrain doesn't affect Pokémon immune to Ground.
+|-damage|p2a: Charizard|2/100
+|cant|p2a: Charizard|flinch
+|move|p2b: Incineroar|Knock Off|p1a: Gallade
+|-damage|p1a: Gallade|32/100
+|-enditem|p1a: Gallade|Clear Amulet|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1a: Gallade|Sacred Sword|p2b: Incineroar
+|-immune|p2b: Incineroar
+|
+|-ability|p1b: Smeargle|Moody|boost
+|-boost|p1b: Smeargle|spe|2
+|-unboost|p1b: Smeargle|def|1
+|upkeep
+|turn|4
+|-message|Quill86 forfeited.
+|
+|win|ScrewSalesman
+|raw|Quill86's rating: 1347 → 1326(-21 for losing)
+|raw|ScrewSalesman's rating: 1323 → 1344(+21 for winning)
+|l|☆Quill86
+|player|p1|

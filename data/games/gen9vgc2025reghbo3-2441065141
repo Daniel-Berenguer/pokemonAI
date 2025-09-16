@@ -1,0 +1,185 @@
+|j|☆FLINTT1
+|j|☆Panexeri
+|html|FLINTT1Panexeri    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757793122
+|gametype|doubles
+|player|p1|FLINTT1|flint|1153
+|player|p2|Panexeri|guitarist|1207
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Excadrill, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Porygon2, L50|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Tyranitar||ClearAmulet|SandStream|RockSlide,LowKick,TeraBlast,KnockOff|||M|||50|,,,,,Flying]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Grass]Dragonite||LoadedDice|InnerFocus|Protect,ScaleShot,IceSpinner,TeraBlast|||F|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|Protect,SwordsDance,Earthquake,IronHead|||F|||50|,,,,,Flying]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,Psychic,HelpingHand,TrickRoom|||F|||50|,,,,,Water]Hatterene||TwistedSpoon|MagicBounce|TrickRoom,ExpandingForce,Protect,DazzlingGleam|||F|||50|,,,,,Psychic
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Ghost]Amoonguss||RockyHelmet|Regenerator|Protect,PollenPuff,RagePowder,Spore|||M|||50|,,,,,Fairy]Sneasler||WhiteHerb|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Gholdengo||LifeOrb|GoodasGold|Protect,NastyPlot,MakeItRain,ShadowBall||||||50|,,,,,Water]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Ursaluna||FlameOrb|Guts|Protect,Facade,HeadlongRush,Substitute|||F|||50|,,,,,Ghost
+|
+|t:|1757793158
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Hatterene|atk|1
+|turn|1
+|
+|t:|1757793199
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Gholdengo|atk|1
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p2a: Incineroar|Flare Blitz|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|87/100
+|-damage|p2a: Incineroar|96/100|[from] Recoil
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1757793228
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1b: Incineroar|Knock Off|p2b: Gholdengo
+|-activate|p2b: Gholdengo|move: Protect
+|move|p2a: Incineroar|Parting Shot|p1b: Incineroar
+|-unboost|p1b: Incineroar|atk|1
+|-unboost|p1b: Incineroar|spa|1
+|
+|t:|1757793240
+|switch|p2a: Amoonguss|Amoonguss, L50, M, shiny|100/100|[from] Parting Shot
+|move|p1a: Indeedee|Psychic|p2b: Gholdengo
+|-activate|p2b: Gholdengo|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1757793285
+|move|p2a: Amoonguss|Spore|p1a: Indeedee
+|-status|p1a: Indeedee|slp|[from] move: Spore
+|move|p1b: Incineroar|Flare Blitz|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|46/100
+|-damage|p1b: Incineroar|71/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|-damage|p1b: Incineroar|51/100|[from] Recoil
+|cant|p1a: Indeedee|slp
+|move|p2b: Gholdengo|Shadow Ball|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|10/100
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|35/100|[from] item: Sitrus Berry
+|-damage|p2b: Gholdengo|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1757793326
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|96/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|-terastallize|p2b: Gholdengo|Water
+|move|p1b: Incineroar|Flare Blitz|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|86/100
+|-damage|p1b: Incineroar|31/100|[from] Recoil
+|cant|p1a: Indeedee|slp
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|
+|upkeep
+|turn|5
+|
+|t:|1757793356
+|cant|p1a: Indeedee|slp
+|move|p1b: Incineroar|Knock Off|p2b: Gholdengo
+|-damage|p2b: Gholdengo|71/100
+|-enditem|p2b: Gholdengo|Life Orb|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2a: Incineroar|Flare Blitz|p1a: Indeedee
+|-damage|p1a: Indeedee|59/100 slp
+|-damage|p2a: Incineroar|74/100|[from] Recoil
+|move|p2b: Gholdengo|Make It Rain|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1b: Incineroar
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p2b: Gholdengo|spa|1
+|faint|p1a: Indeedee
+|faint|p1b: Incineroar
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1757793362
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|switch|p1b: Excadrill|Excadrill, L50, F|100/100
+|turn|6
+|
+|t:|1757793401
+|switch|p2a: Amoonguss|Amoonguss, L50, M, shiny|79/100
+|-terastallize|p1b: Excadrill|Flying
+|move|p1a: Hatterene|Protect|p1a: Hatterene
+|-singleturn|p1a: Hatterene|Protect
+|move|p2b: Gholdengo|Make It Rain|p1b: Excadrill|[spread] p1b
+|-activate|p1a: Hatterene|move: Protect
+|-enditem|p1b: Excadrill|Focus Sash
+|-damage|p1b: Excadrill|1/100
+|-unboost|p2b: Gholdengo|spa|1
+|move|p1b: Excadrill|Swords Dance|p1b: Excadrill
+|-boost|p1b: Excadrill|atk|2
+|
+|upkeep
+|turn|7
+|
+|t:|1757793425
+|switch|p2a: Incineroar|Incineroar, L50, M, shiny|74/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Hatterene|atk|1
+|-unboost|p1b: Excadrill|atk|1
+|move|p1b: Excadrill|Protect|p1b: Excadrill
+|-singleturn|p1b: Excadrill|Protect
+|move|p2b: Gholdengo|Make It Rain|p1a: Hatterene|[spread] p1a
+|-activate|p1b: Excadrill|move: Protect
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|-unboost|p2b: Gholdengo|spa|1
+|faint|p1a: Hatterene
+|
+|upkeep
+|turn|8
+|
+|t:|1757793437
+|move|p2a: Incineroar|Fake Out|p1b: Excadrill
+|-damage|p1b: Excadrill|0 fnt
+|faint|p1b: Excadrill
+|
+|win|Panexeri
+||Panexeri is ready for game 3.
+|inactive|FLINTT1 has 30 seconds to confirm battle start!
+|inactive|FLINTT1 has 20 seconds to confirm battle start!
+||FLINTT1 is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

@@ -1,0 +1,132 @@
+|j|☆ravus9
+|j|☆raylof
+|html|ravus9raylof    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757833171
+|gametype|doubles
+|player|p1|ravus9|hilbert-wonderlauncher|1107
+|player|p2|raylof|102|1310
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Kilowattrel, L50, F|
+|poke|p2|Mamoswine, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Tauros-Paldea-Aqua, L50, M|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Volcarona||SitrusBerry|FlameBody|Overheat,QuiverDance,RagePowder,Protect|||M|||50|,,,,,Fairy]Rillaboom||AssaultVest|GrassySurge|GrassyGlide,WoodHammer,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark]Ninetales-Alola||LightClay|SnowWarning|Protect,Blizzard,AuroraVeil,Moonblast|||F|||50|,,,,,Ghost]Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,Coaching,Protect|||F|||50|,,,,,Stellar]Basculegion||ChoiceScarf|Adaptability|WaveCrash,FlipTurn,AquaJet,LastRespects|||M|||50|,,,,,Fairy
+|showteam|p2|Kilowattrel||ChoiceSpecs|Competitive|Discharge,AirSlash,Thunderbolt,VoltSwitch|||F|||50|,,,,,Ghost]Mamoswine||FocusSash|Oblivious|Earthquake,IceShard,IcicleCrash,Protect|||F|||50|,,,,,Ghost]Whimsicott||CovertCloak|Prankster|Tailwind,Taunt,Moonblast,WorrySeed|||F|||50|,,,,,Dark]Dragonite||LoadedDice|Multiscale|ScaleShot,TeraBlast,Haze,Protect|||M|||50|,,,,,Flying]Tauros-Paldea-Aqua||MirrorHerb|Intimidate|AquaJet,CloseCombat,RagingBull,Protect|||M|||50|,,,,,Ground]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,Protect,Trick||||||50|,,,,,Flying
+|
+|t:|1757833251
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Kilowattrel|Kilowattrel, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|1
+|
+|t:|1757833307
+|-terastallize|p2b: Kilowattrel|Ghost
+|move|p1a: Rillaboom|Fake Out|p2b: Kilowattrel
+|-immune|p2b: Kilowattrel
+|move|p1b: Basculegion|Flip Turn|p2a: Gholdengo
+|-damage|p2a: Gholdengo|57/100
+|
+|t:|1757833317
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100|[from] Flip Turn
+|move|p2a: Gholdengo|Make It Rain|p1a: Rillaboom|[spread] p1a,p1b
+|-resisted|p1b: Kingambit
+|-crit|p1b: Kingambit
+|-damage|p1a: Rillaboom|63/100
+|-damage|p1b: Kingambit|58/100
+|-unboost|p2a: Gholdengo|spa|1
+|move|p2b: Kilowattrel|Air Slash|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Gholdengo|63/100|[from] Grassy Terrain
+|-heal|p1b: Kingambit|64/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757833339
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|turn|2
+|
+|t:|1757833360
+|switch|p2a: Tauros|Tauros-Paldea-Aqua, L50, M|100/100
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Basculegion|atk|1
+|-unboost|p1b: Kingambit|atk|1
+|-ability|p1b: Kingambit|Defiant|boost
+|-boost|p1b: Kingambit|atk|2
+|-enditem|p2a: Tauros|Mirror Herb
+|-boost|p2a: Tauros|atk|2|[from] item: Mirror Herb
+|switch|p2b: Mamoswine|Mamoswine, L50, F|100/100
+|-terastallize|p1b: Kingambit|Dark
+|move|p1b: Kingambit|Sucker Punch||[still]
+|-fail|p1b: Kingambit
+|move|p1a: Basculegion|Last Respects|p2a: Tauros
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|-heal|p1b: Kingambit|70/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757833391
+|switch|p2a: Kilowattrel|Kilowattrel, L50, F, tera:Ghost|100/100
+|turn|3
+|
+|t:|1757833425
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|63/100
+|move|p1b: Kingambit|Sucker Punch||[still]
+|-fail|p1b: Kingambit
+|move|p2b: Mamoswine|Icicle Crash|p1b: Kingambit|[miss]
+|-miss|p2b: Mamoswine|p1b: Kingambit
+|
+|-heal|p2a: Gholdengo|70/100|[from] Grassy Terrain
+|-heal|p1b: Kingambit|76/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1757833465
+|switch|p2a: Kilowattrel|Kilowattrel, L50, F, tera:Ghost|100/100
+|move|p2b: Mamoswine|Protect|p2b: Mamoswine
+|-singleturn|p2b: Mamoswine|Protect
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Kilowattrel
+|-supereffective|p2a: Kilowattrel
+|-damage|p2a: Kilowattrel|0 fnt
+|faint|p2a: Kilowattrel
+|
+|-heal|p1b: Kingambit|82/100|[from] Grassy Terrain
+|upkeep
+|-message|raylof forfeited.
+|
+|win|ravus9
+||raylof is ready for game 2.
+|l|☆ravus9
+|player|p1|
+||ravus9 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆raylof
+|player|p2|

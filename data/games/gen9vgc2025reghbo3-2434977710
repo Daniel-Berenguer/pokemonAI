@@ -1,0 +1,99 @@
+|j|☆battle gym trainer
+|j|☆Ultraa__YT
+|html|battle gym trainerUltraa__YT    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756982885
+|gametype|doubles
+|player|p1|battle gym trainer|turo|1000
+|player|p2|Ultraa__YT|n|1040
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pincurchin, L50, M|
+|poke|p1|Toxtricity-Low-Key, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Araquanid, L50, M|
+|poke|p1|Bronzong, L50|
+|poke|p1|Archaludon, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, F|
+|teampreview|4
+|showteam|p1|Pincurchin||EjectButton|ElectricSurge|Protect,RainDance,ZingZap,Recover|||M|||50|,,,,,Electric]Toxtricity-Low-Key||LifeOrb|PunkRock|Protect,Overdrive,Boomburst,SludgeBomb|||M|||50|,,,,,Electric]Sinistcha||SitrusBerry|Hospitality|TrickRoom,LifeDew,RagePowder,GigaDrain||||||50|,,,,,Dark]Araquanid||MysticWater|WaterBubble|Liquidation,Soak,WideGuard,Protect|||M|||50|,,,,,Water]Bronzong||ElectricSeed|Heatproof|BodyPress,IronDefense,HelpingHand,TrickRoom||||||50|,,,,,Flying]Archaludon||PowerHerb|Sturdy|ElectroShot,DragonPulse,FlashCannon,DarkPulse|||F|||50|,,,,,Electric
+|showteam|p2|Incineroar||SitrusBerry|Intimidate|FakeOut,PartingShot,FlareBlitz,Taunt|||F|||50|,,,,,Fire]Amoonguss||RockyHelmet|Regenerator|ClearSmog,Protect,RagePowder,Spore|||F|||50|,,,,,Grass]Farigiraf||PsychicSeed|ArmorTail|TrickRoom,HelpingHand,PsychicNoise,FoulPlay|||F|||50|,,,,,Normal]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,IcePunch,FirePunch|||M|||50|,,,,,Ground]Indeedee-F||SafetyGoggles|PsychicSurge|TrickRoom,FollowMe,HelpingHand,Psychic|||F|||50|,,,,,Psychic]Torkoal||ChoiceSpecs|Drought|EarthPower,Eruption,Flamethrower,ClearSmog|||F|||50|,,,,,Fire
+|
+|t:|1756982937
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Araquanid|Araquanid, L50, M|100/100
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Araquanid|atk|1
+|-unboost|p1b: Sinistcha|atk|1
+|turn|1
+|
+|t:|1756982994
+|switch|p1b: Pincurchin|Pincurchin, L50, M|100/100
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1b: Pincurchin
+|move|p2a: Farigiraf|Helping Hand|p2b: Incineroar
+|-singleturn|p2b: Incineroar|Helping Hand|[of] p2a: Farigiraf
+|move|p2b: Incineroar|Flare Blitz|p1b: Pincurchin
+|-damage|p1b: Pincurchin|21/100
+|-status|p1b: Pincurchin|brn
+|-damage|p2b: Incineroar|80/100|[from] Recoil
+|-enditem|p1b: Pincurchin|Eject Button
+|
+|t:|1756983005
+|switch|p1b: Bronzong|Bronzong, L50|100/100
+|-enditem|p1b: Bronzong|Electric Seed
+|-boost|p1b: Bronzong|def|1|[from] item: Electric Seed
+|move|p1a: Araquanid|Liquidation|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|upkeep
+|
+|t:|1756983015
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|turn|2
+|
+|t:|1756983029
+|switch|p1a: Sinistcha|Sinistcha, L50|100/100
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1b: Bronzong|Iron Defense|p1b: Bronzong
+|-boost|p1b: Bronzong|def|2
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|upkeep
+|turn|3
+|
+|t:|1756983056
+|switch|p1a: Araquanid|Araquanid, L50, M|100/100
+|move|p1b: Bronzong|Body Press|p2a: Farigiraf
+|-damage|p2a: Farigiraf|25/100
+|move|p2b: Amoonguss|Spore|p1b: Bronzong
+|-activate|p1b: Bronzong|move: Electric Terrain
+|move|p2a: Farigiraf|Foul Play|p1a: Araquanid
+|-damage|p1a: Araquanid|75/100
+|
+|upkeep
+|turn|4
+|-message|Ultraa__YT forfeited.
+|
+|win|battle gym trainer
+|l|☆Ultraa__YT
+|player|p2|
+|raw|battle gym trainer's rating: 1000 → 1045(+45 for winning)
+|raw|Ultraa__YT's rating: 1040 → 1022(-18 for losing)

@@ -1,0 +1,166 @@
+|j|☆Gray_Gak
+|j|☆RickCtrl
+|html|Gray_GakRickCtrl    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1757700229
+|gametype|doubles
+|player|p1|Gray_Gak|flannery|1160
+|player|p2|RickCtrl|2|1103
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Wyrdeer, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Delphox, L50, F|
+|poke|p1|Kingambit, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Wyrdeer||LifeOrb|Intimidate|Protect,TrickRoom,ExpandingForce,EarthPower|||F|||50|,,,,,Ground]Indeedee-F||RockyHelmet|PsychicSurge|Imprison,FollowMe,TrickRoom,Psychic|||F|||50|,,,,,Grass]Annihilape||SafetyGoggles|Defiant|DrainPunch,ThroatChop,RageFist,Protect|||F|||50|,,,,,Fire]Torkoal||Charcoal|Drought|Eruption,HelpingHand,Protect,WeatherBall|||F|||50|,,,,,Grass]Delphox||ChoiceScarf|Blaze|HeatWave,ExpandingForce,DazzlingGleam,Flamethrower|||F|||50|,,,,,Fairy]Kingambit||AssaultVest|Defiant|KowtowCleave,SuckerPunch,PoisonJab,LowKick|||F|||50|,,,,,Flying
+|showteam|p2|Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,TrickRoom,Trick|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|Protect,DireClaw,CloseCombat,ThroatChop|||F|||50|,,,,,Dark]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Electabuzz||Eviolite|VitalSpirit|Protect,Taunt,FollowMe,Electroweb|||M|||50|,,,,,Fairy]Dragonite||LoadedDice|Multiscale|Tailwind,ScaleShot,Haze,Protect|||M|||50|,,,,,Steel]Tyranitar||ClearAmulet|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||M|||50|,,,,,Flying
+|
+|t:|1757700289
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Wyrdeer|Wyrdeer, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, M, shiny|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-ability|p1a: Wyrdeer|Intimidate|boost
+|-fail|p2a: Tyranitar|unboost|[from] item: Clear Amulet|[of] p2a: Tyranitar
+|-unboost|p2b: Ursaluna|atk|1
+|turn|1
+|
+|t:|1757700329
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Tyranitar|Rock Slide|p1b: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Wyrdeer|64/100
+|-damage|p1b: Indeedee|68/100
+|move|p2b: Ursaluna|Hyper Voice|p1b: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Wyrdeer|6/100
+|-damage|p1b: Indeedee|15/100
+|-damage|p2b: Ursaluna|91/100|[from] item: Life Orb
+|move|p1a: Wyrdeer|Trick Room|p1a: Wyrdeer
+|-fieldstart|move: Trick Room|[of] p1a: Wyrdeer
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Wyrdeer|0 fnt|[from] Sandstorm
+|-damage|p1b: Indeedee|8/100|[from] Sandstorm
+|faint|p1a: Wyrdeer
+|upkeep
+|
+|t:|1757700345
+|switch|p1a: Kingambit|Kingambit, L50, F|100/100
+|turn|2
+|
+|t:|1757700394
+|-terastallize|p1a: Kingambit|Flying
+|move|p1a: Kingambit|Low Kick|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|17/100
+|move|p1b: Indeedee|Psychic|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|move|p2a: Tyranitar|Low Kick|p1a: Kingambit
+|-resisted|p1a: Kingambit
+|-damage|p1a: Kingambit|86/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingambit|80/100|[from] Sandstorm
+|-damage|p1b: Indeedee|2/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757700451
+|switch|p2b: Dragonite|Dragonite, L50, M|100/100
+|turn|3
+|
+|t:|1757700481
+|move|p1a: Kingambit|Low Kick|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|move|p1b: Indeedee|Psychic|p2b: Dragonite
+|-damage|p2b: Dragonite|80/100
+|-unboost|p2b: Dragonite|spd|1
+|move|p2b: Dragonite|Scale Shot|p1a: Kingambit
+|-damage|p1a: Kingambit|69/100
+|-damage|p1a: Kingambit|58/100
+|-damage|p1a: Kingambit|46/100
+|-damage|p1a: Kingambit|35/100
+|-damage|p1a: Kingambit|24/100
+|-hitcount|p1a: Kingambit|5
+|-unboost|p2b: Dragonite|def|1
+|-boost|p2b: Dragonite|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingambit|18/100|[from] Sandstorm
+|-damage|p1b: Indeedee|0 fnt|[from] Sandstorm
+|-damage|p2b: Dragonite|74/100|[from] Sandstorm
+|faint|p1b: Indeedee
+|upkeep
+|
+|t:|1757700507
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F, shiny|100/100
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|4
+|
+|t:|1757700546
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Dragonite
+|-damage|p2b: Dragonite|0 fnt
+|faint|p2b: Dragonite
+|move|p1b: Annihilape|Rage Fist|p2a: Sneasler
+|-damage|p2a: Sneasler|57/100
+|move|p2a: Sneasler|Dire Claw|p1b: Annihilape
+|-resisted|p1b: Annihilape
+|-damage|p1b: Annihilape|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingambit|13/100|[from] Sandstorm
+|-damage|p2a: Sneasler|51/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1757700564
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Protect
+|move|p1b: Annihilape|Rage Fist|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Protect
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1757700597
+|move|p1a: Kingambit|Sucker Punch|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|18/100
+|move|p2a: Sneasler|Dire Claw|p1b: Annihilape
+|-resisted|p1b: Annihilape
+|-damage|p1b: Annihilape|56/100
+|-status|p1b: Annihilape|psn
+|move|p1b: Annihilape|Rage Fist|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|win|Gray_Gak
+|raw|Gray_Gak's rating: 1160 → 1181(+21 for winning)
+|raw|RickCtrl's rating: 1103 → 1082(-21 for losing)

@@ -1,0 +1,152 @@
+|j|☆500cake
+|j|☆Hllday
+|html|500cakeHllday    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757019182
+|gametype|doubles
+|player|p1|500cake|2|
+|player|p2|Hllday|265|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Typhlosion-Hisui, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Murkrow, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Weezing-Galar, L50, F|
+|poke|p1|Maushold, L50|
+|poke|p2|Murkrow, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Garchomp, L50, M|
+|teampreview|4
+|showteam|p1|Typhlosion-Hisui||Charcoal|Blaze|Eruption,HeatWave,Protect,ShadowBall|||F|||50|,,,,,Fire]Garchomp||LifeOrb|RoughSkin|Protect,Earthquake,StompingTantrum,DragonClaw|||F|||50|,,,,,Fairy]Murkrow||Eviolite|Prankster|Tailwind,SunnyDay,Haze,FoulPlay|||M|||50|,,,,,Ghost]Indeedee||FocusSash|PsychicSurge|TeraBlast,Imprison,ExpandingForce,TrickRoom|||M|||50|,,,,,Fighting]Weezing-Galar||Leftovers|NeutralizingGas|StrangeSteam,Taunt,SludgeBomb,Protect|||F|||50|,,,,,Ghost]Maushold||WideLens|Technician|PopulationBomb,Protect,Taunt,FollowMe||||||50|,,,,,Normal
+|showteam|p2|Murkrow||Eviolite|Prankster|Tailwind,SunnyDay,Haze,FoulPlay|||F|||50|,,,,,Ghost]Typhlosion-Hisui||Charcoal|Blaze|Eruption,ShadowBall,HeatWave,Protect|||F|||50|,,,,,Fire]Indeedee||FocusSash|PsychicSurge|Imprison,TrickRoom,ExpandingForce,TeraBlast|||M|||50|,,,,,Fighting]Sneasler||PsychicSeed|Unburden|Protect,CloseCombat,DireClaw,Acrobatics|||M|||50|,,,,,Flying]Kingambit||AssaultVest|Defiant|KowtowCleave,SuckerPunch,IronHead,LowKick|||M|||50|,,,,,Bug]Garchomp||LifeOrb|RoughSkin|Earthquake,Protect,DragonClaw,StompingTantrum|||M|||50|,,,,,Fire
+|
+|t:|1757019248
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M, shiny|100/100
+|switch|p1b: Maushold|Maushold, L50, shiny|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757019287
+|-terastallize|p2b: Sneasler|Flying
+|move|p1b: Maushold|Protect|p1b: Maushold
+|-singleturn|p1b: Maushold|Protect
+|move|p2b: Sneasler|Dire Claw|p1b: Maushold
+|-activate|p1b: Maushold|move: Protect
+|move|p2a: Indeedee|Imprison|p2a: Indeedee
+|-start|p2a: Indeedee|move: Imprison
+|cant|p1a: Indeedee|move: Imprison|Expanding Force
+|
+|upkeep
+|turn|2
+|
+|t:|1757019319
+|switch|p1a: Murkrow|Murkrow, L50, M, shiny|100/100
+|move|p2b: Sneasler|Dire Claw|p1a: Murkrow
+|-damage|p1a: Murkrow|57/100
+|-status|p1a: Murkrow|par
+|move|p1b: Maushold|Population Bomb|p2b: Sneasler
+|-damage|p2b: Sneasler|82/100
+|-damage|p2b: Sneasler|65/100
+|-damage|p2b: Sneasler|45/100
+|-damage|p2b: Sneasler|26/100
+|-damage|p2b: Sneasler|6/100
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|-hitcount|p2: Sneasler|6
+|move|p2a: Indeedee|Expanding Force|p1b: Maushold|[spread] p1b
+|-immune|p1a: Murkrow
+|-damage|p1b: Maushold|19/100
+|
+|upkeep
+|
+|t:|1757019346
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|turn|3
+|
+|t:|1757019387
+|move|p1a: Murkrow|Tailwind|p1a: Murkrow
+|-sidestart|p1: 500cake|move: Tailwind
+|move|p1b: Maushold|Population Bomb|p2a: Indeedee
+|-damage|p2a: Indeedee|76/100
+|-damage|p2a: Indeedee|52/100
+|-damage|p2a: Indeedee|27/100
+|-damage|p2a: Indeedee|2/100
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-hitcount|p2: Indeedee|5
+|move|p2b: Kingambit|Kowtow Cleave|p1a: Murkrow
+|-resisted|p1a: Murkrow
+|-damage|p1a: Murkrow|30/100 par
+|
+|upkeep
+|
+|t:|1757019403
+|switch|p2a: Garchomp|Garchomp, L50, M|100/100
+|turn|4
+|
+|t:|1757019423
+|move|p1b: Maushold|Population Bomb|p2b: Kingambit
+|-resisted|p2b: Kingambit
+|-damage|p2b: Kingambit|96/100
+|-hitcount|p2b: Kingambit|1
+|move|p2a: Garchomp|Dragon Claw|p1a: Murkrow
+|-damage|p1a: Murkrow|0 fnt
+|faint|p1a: Murkrow
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|move|p2b: Kingambit|Kowtow Cleave|p1b: Maushold
+|-damage|p1b: Maushold|0 fnt
+|faint|p1b: Maushold
+|
+|upkeep
+|
+|t:|1757019438
+|switch|p1b: Garchomp|Garchomp, L50, F, shiny|100/100
+|switch|p1a: Indeedee|Indeedee, L50, M, shiny|100/100
+|turn|5
+|c|☆Hllday|Looks like it’s frozen for me!
+|
+|t:|1757019559
+|-terastallize|p1a: Indeedee|Fighting
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1a: Indeedee|Tera Blast|p2b: Kingambit|[anim] Tera Blast Fighting
+|-supereffective|p2b: Kingambit
+|-crit|p2b: Kingambit
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1757019580
+|move|p2a: Garchomp|Protect||[still]
+|-fail|p2a: Garchomp
+|move|p1b: Garchomp|Dragon Claw|p2a: Garchomp
+|-supereffective|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1b: Garchomp|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|-damage|p1b: Garchomp|78/100|[from] item: Life Orb
+|
+|win|500cake
+||500cake is ready for game 2.
+|inactive|Hllday has 30 seconds to confirm battle start!
+||Hllday is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

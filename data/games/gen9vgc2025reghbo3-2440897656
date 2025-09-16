@@ -1,0 +1,140 @@
+|j|☆31415thon
+|j|☆ichoseyoupoppo
+|html|31415thonichoseyoupoppo    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757773829
+|gametype|doubles
+|player|p1|31415thon|266|1117
+|player|p2|ichoseyoupoppo|2|1034
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tatsugiri, L50, F|
+|poke|p1|Dondozo, L50, F|
+|poke|p1|Murkrow, L50, F|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Decidueye-Hisui, L50, F|
+|poke|p2|Weavile, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Barraskewda, L50, F|
+|poke|p2|Raichu-Alola, L50, F|
+|teampreview|4
+|showteam|p1|Tatsugiri||ChoiceSpecs|Commander|DracoMeteor,HydroPump,MuddyWater,IcyWind|||F|||50|,,,,,Dragon]Dondozo||ClearAmulet|WaterVeil|WaveCrash,OrderUp,Earthquake,Protect|||F|||50|,,,,,Grass]Murkrow||FocusSash|Prankster|PerishSong,Tailwind,FoulPlay,Protect|||F|||50|,,,,,Ghost]Gothitelle||SitrusBerry|ShadowTag|FakeOut,Psychic,Taunt,Protect|||M|||50|,,,,,Dark]Amoonguss||EjectButton|Regenerator|Spore,RagePowder,SludgeBomb,Protect|||M|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|Protect,FakeOut,KnockOff,PartingShot|||M|||50|,,,,,Ghost
+|showteam|p2|Decidueye-Hisui||ChoiceScarf|Scrappy|LeafBlade,TripleArrows,Uturn,CloseCombat|||F|||50|,,,,,Fire]Weavile||FocusSash|Pressure|FakeOut,IceSpinner,Protect,KnockOff|||F|||50|,,,,,Ghost]Whimsicott||CovertCloak|Prankster|Tailwind,Taunt,Protect,Moonblast|||F|||50|,,,,,Water]Farigiraf||SitrusBerry|ArmorTail|Psychic,DazzlingGleam,TrickRoom,HelpingHand|||F|||50|,,,,,Fairy]Barraskewda||ChoiceBand|PropellerTail|FlipTurn,Liquidation,ThroatChop,PsychicFangs|||F|||50|,,,,,Water]Raichu-Alola||LifeOrb|SurgeSurfer|Discharge,Psychic,SkillSwap,Protect|||F|||50|,,,,,Electric
+|
+|t:|1757773886
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Murkrow|Murkrow, L50, F|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p2a: Raichu|Raichu-Alola, L50, F|100/100
+|switch|p2b: Weavile|Weavile, L50, F|100/100
+|-ability|p2b: Weavile|Pressure
+|turn|1
+|
+|t:|1757773921
+|move|p2b: Weavile|Fake Out|p1a: Murkrow
+|-damage|p1a: Murkrow|74/100
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|cant|p1a: Murkrow|flinch
+|move|p2a: Raichu|Psychic|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|8/100
+|-enditem|p1b: Amoonguss|Eject Button
+|-damage|p2a: Raichu|91/100|[from] item: Life Orb
+|
+|t:|1757773925
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Raichu|atk|1
+|-unboost|p2b: Weavile|atk|1
+|
+|upkeep
+|turn|2
+|
+|t:|1757773941
+|move|p2b: Weavile|Protect|p2b: Weavile
+|-singleturn|p2b: Weavile|Protect
+|move|p1b: Incineroar|Fake Out|p2b: Weavile
+|-activate|p2b: Weavile|move: Protect
+|move|p1a: Murkrow|Perish Song|p1a: Murkrow
+|-start|p1a: Murkrow|perish3|[silent]
+|-start|p1b: Incineroar|perish3|[silent]
+|-start|p2a: Raichu|perish3|[silent]
+|-start|p2b: Weavile|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Raichu|Discharge|p1b: Incineroar|[spread] p1a,p1b
+|-activate|p2b: Weavile|move: Protect
+|-supereffective|p1a: Murkrow
+|-damage|p1a: Murkrow|0 fnt
+|-damage|p1b: Incineroar|69/100
+|faint|p1a: Murkrow
+|-damage|p2a: Raichu|81/100|[from] item: Life Orb
+|
+|-start|p2b: Weavile|perish3
+|-start|p2a: Raichu|perish3
+|-start|p1b: Incineroar|perish3
+|upkeep
+|
+|t:|1757773948
+|switch|p1a: Gothitelle|Gothitelle, L50, M|100/100
+|turn|3
+|
+|t:|1757773970
+|move|p1a: Gothitelle|Fake Out|p2b: Weavile
+|-damage|p2b: Weavile|92/100
+|cant|p2b: Weavile|flinch
+|move|p2a: Raichu|Skill Swap|p1a: Gothitelle
+|-activate|p2a: Raichu|move: Skill Swap|Shadow Tag|Surge Surfer|[of] p1a: Gothitelle
+|move|p1b: Incineroar|Parting Shot|p2a: Raichu
+|-unboost|p2a: Raichu|atk|1
+|-unboost|p2a: Raichu|spa|1
+|
+|t:|1757773986
+|switch|p1b: Amoonguss|Amoonguss, L50, M|41/100|[from] Parting Shot
+|
+|-start|p2b: Weavile|perish2
+|-start|p2a: Raichu|perish2
+|upkeep
+|turn|4
+|
+|t:|1757774015
+|-terastallize|p1b: Amoonguss|Water
+|move|p1a: Gothitelle|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1a: Gothitelle
+|move|p2b: Weavile|Knock Off|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|33/100
+|-enditem|p1a: Gothitelle|Sitrus Berry|[from] move: Knock Off|[of] p2b: Weavile
+|move|p2a: Raichu|Discharge|p1a: Gothitelle|[spread] p2b,p1a,p1b
+|-supereffective|p1b: Amoonguss
+|-damage|p2b: Weavile|61/100
+|-damage|p1a: Gothitelle|16/100
+|-damage|p1b: Amoonguss|1/100
+|-status|p2b: Weavile|par
+|-damage|p2a: Raichu|72/100|[from] item: Life Orb
+|move|p1b: Amoonguss|Sludge Bomb|p2a: Raichu
+|-damage|p2a: Raichu|30/100
+|
+|-start|p2a: Raichu|perish1
+|-start|p2b: Weavile|perish1
+|upkeep
+|turn|5
+|-message|31415thon forfeited.
+|
+|win|ichoseyoupoppo
+|l|☆31415thon
+|player|p1|
+|raw|31415thon's rating: 1117 → 1086(-31 for losing)
+|raw|ichoseyoupoppo's rating: 1034 → 1077(+43 for winning)
+|l|☆ichoseyoupoppo
+|player|p2|

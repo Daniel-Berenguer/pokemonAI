@@ -1,0 +1,152 @@
+|j|☆andybadandy
+|j|☆Isam_26011
+|html|andybadandyIsam_26011    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756923110
+|gametype|doubles
+|player|p1|andybadandy|265|1095
+|player|p2|Isam_26011|n|1105
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Greninja-*, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Sunflora, L50, M|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Basculegion||ChoiceBand|SwiftSwim|Liquidation,FlipTurn,LastRespects,AquaJet|||M|||50|,,,,,Water]Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,DragonPulse,FlashCannon|||M|||50|,,,,,Fighting]Sinistcha||MentalHerb|Hospitality|RagePowder,LifeDew,MatchaGotcha,Protect||||||50|,,,,,Water]Pelipper||FocusSash|Drizzle|WideGuard,Hurricane,WeatherBall,Protect|||F|||50|,,,,,Stellar]Annihilape||ChoiceScarf|Defiant|FinalGambit,Uturn,CloseCombat,RageFist|||F|||50|,,,,,Grass]Greninja||LoadedDice|Protean|WaterShuriken,RainDance,Protect,Taunt|||M|||50|,,,,,Ghost
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fire]Hatterene||LifeOrb|MagicBounce|ExpandingForce,TrickRoom,DazzlingGleam,Protect|||F|||50|,,,,,Psychic]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,SacredSword,WideGuard|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,SwordsDance,Protect|||M|||50|,,,,,Ghost]Sunflora||AssaultVest|SolarPower|EnergyBall,WeatherBall,SludgeBomb,EarthPower|||M|||50|,,,,,Fire]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire
+|
+|t:|1756923123
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Greninja|Greninja, L50, M|100/100
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100
+|switch|p2a: Paty|Indeedee-F, L50, F, shiny|100/100
+|switch|p2b: Acelga|Hatterene, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Paty
+|-enditem|p2a: Paty|Psychic Seed
+|-boost|p2a: Paty|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756923151
+|-terastallize|p2a: Paty|Fire
+|move|p1b: Annihilape|U-turn|p2b: Acelga
+|-damage|p2b: Acelga|79/100
+|
+|t:|1756923156
+|switch|p1b: Pelipper|Pelipper, L50, F|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|move|p1a: Greninja|Taunt|p2a: Paty
+|-start|p1a: Greninja|typechange|Dark|[from] ability: Protean
+|-start|p2a: Paty|move: Taunt
+|move|p2b: Acelga|Expanding Force|p1b: Pelipper|[spread] p1b
+|-immune|p1a: Greninja
+|-enditem|p1b: Pelipper|Focus Sash
+|-damage|p1b: Pelipper|1/100
+|-damage|p2b: Acelga|70/100|[from] item: Life Orb
+|cant|p2a: Paty|move: Taunt|Trick Room
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756923182
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|move|p2b: Acelga|Protect|p2b: Acelga
+|-singleturn|p2b: Acelga|Protect
+|move|p1b: Pelipper|Weather Ball|p2a: Paty
+|-supereffective|p2a: Paty
+|-damage|p2a: Paty|15/100
+|move|p2a: Paty|Dazzling Gleam|p1b: Pelipper|[spread] p1a,p1b
+|-damage|p1a: Archaludon|91/100
+|-damage|p1b: Pelipper|0 fnt
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|faint|p1b: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756923189
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100
+|turn|3
+|
+|t:|1756923194
+|move|p1b: Annihilape|Rage Fist|p2a: Paty
+|-damage|p2a: Paty|0 fnt
+|faint|p2a: Paty
+|move|p1a: Archaludon|Flash Cannon|p2b: Acelga
+|-supereffective|p2b: Acelga
+|-damage|p2b: Acelga|0 fnt
+|faint|p2b: Acelga
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756923200
+|switch|p2a: GOD|Sunflora, L50, M|100/100
+|switch|p2b: Mbappe|Torkoal, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Mbappe
+|turn|4
+|
+|t:|1756923219
+|-terastallize|p1a: Archaludon|Fighting
+|move|p1b: Annihilape|Rage Fist|p2b: Mbappe
+|-damage|p2b: Mbappe|85/100
+|move|p1a: Archaludon|Body Press|p2b: Mbappe
+|-damage|p2b: Mbappe|43/100
+|move|p2a: GOD|Energy Ball|p1b: Annihilape
+|-damage|p1b: Annihilape|38/100
+|move|p2b: Mbappe|Eruption|p1a: Archaludon|[spread] p1a,p1b
+|-damage|p1a: Archaludon|57/100
+|-damage|p1b: Annihilape|0 fnt
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|faint|p1b: Annihilape
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: GOD|88/100|[from] ability: Solar Power|[of] p2a: GOD
+|upkeep
+|
+|t:|1756923231
+|switch|p1b: Greninja|Greninja, L50, M|100/100
+|turn|5
+|
+|t:|1756923238
+|move|p1b: Greninja|Rain Dance|p1b: Greninja
+|-start|p1b: Greninja|typechange|Water|[from] ability: Protean
+|-weather|RainDance
+|move|p1a: Archaludon|Body Press|p2b: Mbappe
+|-damage|p2b: Mbappe|0 fnt
+|faint|p2b: Mbappe
+|move|p2a: GOD|Energy Ball|p1b: Greninja
+|-supereffective|p1b: Greninja
+|-damage|p1b: Greninja|0 fnt
+|faint|p1b: Greninja
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756923250
+|move|p1a: Archaludon|Body Press|p2a: GOD
+|-damage|p2a: GOD|0 fnt
+|faint|p2a: GOD
+|
+|win|andybadandy
+|raw|andybadandy's rating: 1095 → 1121(+26 for winning)
+|raw|Isam_26011's rating: 1105 → 1079(-26 for losing)

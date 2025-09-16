@@ -1,0 +1,343 @@
+|j|☆Voltage Gaming101
+|j|☆0pyr0
+|html|Voltage Gaming1010pyr0    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756942570
+|gametype|doubles
+|player|p1|Voltage Gaming101|red|
+|player|p2|0pyr0|ryuki|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Houndstone, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Sneasler, L50, F|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||M|||50|,,,,,Flying]Houndstone||SpellTag|SandRush|LastRespects,ShadowSneak,PlayRough,FireFang|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Garchomp||LoadedDice|RoughSkin|ScaleShot,Earthquake,SwordsDance,Protect|||M|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Water
+|showteam|p2|Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,HyperVoice,EarthPower,VacuumWave|||M|||50|,,,,,Normal]Porygon2||Eviolite|Trace|IceBeam,Thunderbolt,Recover,TrickRoom||||||50|,,,,,Ghost]Amoonguss||CovertCloak|Regenerator|Spore,RagePowder,PollenPuff,SludgeBomb|||M|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|KnockOff,FakeOut,PartingShot,FlareBlitz|||F|||50|,,,,,Ghost]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,PhantomForce,Uturn|||F|||50|,,,,,Dragon]Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,ThroatChop,FakeOut|||F|||50|,,,,,Dark
+|
+|t:|1756942635
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-ability|p2a: Porygon2|Regenerator|Trace|[from] ability: Trace|[of] p1b: Amoonguss
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Porygon2|atk|1
+|-unboost|p2b: Ursaluna|atk|1
+|turn|1
+|
+|t:|1756942693
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|-terastallize|p1a: Incineroar|Water
+|move|p1a: Incineroar|Fake Out|p2b: Amoonguss
+|-damage|p2b: Amoonguss|90/100
+|move|p1b: Amoonguss|Spore|p2a: Porygon2
+|-status|p2a: Porygon2|slp|[from] move: Spore
+|cant|p2a: Porygon2|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1756942741
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|cant|p2a: Porygon2|slp
+|move|p1a: Incineroar|Knock Off|p2a: Porygon2
+|-damage|p2a: Porygon2|75/100 slp
+|-enditem|p2a: Porygon2|Eviolite|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2b: Amoonguss|Sludge Bomb|p1a: Incineroar
+|-damage|p1a: Incineroar|74/100
+|-status|p1a: Incineroar|psn
+|
+|-damage|p1a: Incineroar|62/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1756942790
+|move|p1a: Incineroar|Flare Blitz|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|2/100
+|-damage|p1a: Incineroar|30/100 psn|[from] Recoil
+|-curestatus|p2a: Porygon2|slp|[msg]
+|move|p2a: Porygon2|Ice Beam|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|62/100
+|-status|p1b: Amoonguss|frz
+|cant|p1b: Amoonguss|frz
+|move|p2b: Amoonguss|Sludge Bomb|p1b: Amoonguss
+|-damage|p1b: Amoonguss|39/100 frz
+|-enditem|p1b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1b: Amoonguss|64/100 frz|[from] item: Sitrus Berry
+|
+|-damage|p1a: Incineroar|17/100 psn|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1756942810
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|move|p1a: Incineroar|Knock Off|p2b: Ursaluna
+|-damage|p2b: Ursaluna|67/100
+|-enditem|p2b: Ursaluna|Assault Vest|[from] move: Knock Off|[of] p1a: Incineroar
+|-curestatus|p1b: Amoonguss|frz|[msg]
+|move|p1b: Amoonguss|Spore|p2a: Porygon2
+|-status|p2a: Porygon2|slp|[from] move: Spore
+|cant|p2a: Porygon2|slp
+|
+|-damage|p1a: Incineroar|5/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1756942853
+|cant|p2a: Porygon2|slp
+|move|p1a: Incineroar|Parting Shot|p2b: Ursaluna
+|-unboost|p2b: Ursaluna|atk|1
+|-unboost|p2b: Ursaluna|spa|1
+|
+|t:|1756942859
+|switch|p1a: Tyranitar|Tyranitar, L50, M, shiny|100/100|[from] Parting Shot
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2b: Ursaluna|Blood Moon|p1b: Amoonguss
+|-damage|p1b: Amoonguss|15/100
+|move|p1b: Amoonguss|Spore|p2b: Ursaluna
+|-status|p2b: Ursaluna|slp|[from] move: Spore
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|69/100 slp|[from] Sandstorm
+|-damage|p1b: Amoonguss|9/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1756942885
+|switch|p2b: Amoonguss|Amoonguss, L50, M|35/100
+|switch|p1b: Houndstone|Houndstone, L50, F, shiny|100/100
+|cant|p2a: Porygon2|slp
+|move|p1a: Tyranitar|Low Kick|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|29/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|63/100 slp|[from] Sandstorm
+|-damage|p2b: Amoonguss|23/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1756942910
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|67/100 slp
+|move|p1b: Houndstone|Last Respects|p2b: Ursaluna
+|-immune|p2b: Ursaluna
+|move|p1a: Tyranitar|Low Kick|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|22/100 slp
+|-curestatus|p2a: Porygon2|slp|[msg]
+|move|p2a: Porygon2|Ice Beam|p1b: Houndstone
+|-damage|p1b: Houndstone|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|16/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1756942940
+|switch|p2a: Amoonguss|Amoonguss, L50, M|56/100
+|move|p1b: Houndstone|Fire Fang|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|21/100
+|move|p1a: Tyranitar|Low Kick|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Amoonguss|15/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756942948
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|turn|9
+|
+|t:|1756942999
+|switch|p1b: Amoonguss|Amoonguss, L50, F, shiny|42/100
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny, tera:Water|5/100 psn
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Amoonguss|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|switch|p2a: Porygon2|Porygon2, L50|49/100
+|-ability|p2a: Porygon2|Intimidate|Trace|[from] ability: Trace|[of] p1a: Incineroar
+|-ability|p2a: Porygon2|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Amoonguss|atk|1
+|move|p2b: Sneasler|Close Combat|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1a: Incineroar
+|
+|-weather|none
+|upkeep
+|
+|t:|1756943015
+|switch|p1a: Houndstone|Houndstone, L50, F, shiny|72/100
+|turn|10
+|
+|t:|1756943037
+|switch|p2b: Amoonguss|Amoonguss, L50, M|48/100
+|move|p1a: Houndstone|Last Respects|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|99/100
+|move|p1b: Amoonguss|Spore|p2a: Porygon2
+|-status|p2a: Porygon2|slp|[from] move: Spore
+|
+|upkeep
+|
+|t:|1756943044
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|turn|11
+|
+|t:|1756943068
+|-terastallize|p2b: Sneasler|Dark
+|move|p2b: Sneasler|Throat Chop|p1a: Houndstone
+|-supereffective|p1a: Houndstone
+|-damage|p1a: Houndstone|0 fnt
+|faint|p1a: Houndstone
+|cant|p2a: Porygon2|slp
+|move|p1b: Amoonguss|Spore|p2b: Sneasler
+|-status|p2b: Sneasler|slp|[from] move: Spore
+|
+|upkeep
+|
+|t:|1756943083
+|switch|p1a: Tyranitar|Tyranitar, L50, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|12
+|
+|t:|1756943106
+|cant|p2b: Sneasler|slp
+|move|p1a: Tyranitar|Low Kick|p2b: Sneasler
+|-supereffective|p2b: Sneasler
+|-damage|p2b: Sneasler|16/100 slp
+|cant|p2a: Porygon2|slp
+|move|p1b: Amoonguss|Pollen Puff|p2b: Sneasler
+|-supereffective|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|93/100 slp|[from] Sandstorm
+|-damage|p1b: Amoonguss|36/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1756943120
+|-curestatus|p2a: Porygon2|slp|[msg]
+|move|p2a: Porygon2|Ice Beam|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|move|p1a: Tyranitar|Low Kick|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|54/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|47/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1756943141
+|move|p1a: Tyranitar|Low Kick|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|8/100
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|2/100|[from] Sandstorm
+|upkeep
+|turn|15
+|
+|t:|1756943148
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|52/100
+|move|p1a: Tyranitar|Low Kick|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Porygon2|8/100|[from] Sandstorm
+|upkeep
+|turn|16
+|
+|t:|1756943155
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|58/100
+|move|p1a: Tyranitar|Low Kick|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|21/100
+|
+|-weather|none
+|upkeep
+|turn|17
+|
+|t:|1756943162
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|71/100
+|move|p1a: Tyranitar|Low Kick|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|36/100
+|
+|upkeep
+|turn|18
+|
+|t:|1756943168
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|86/100
+|move|p1a: Tyranitar|Knock Off|p2a: Porygon2
+|-damage|p2a: Porygon2|56/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|19
+|
+|t:|1756943195
+|move|p2a: Porygon2|Recover|p2a: Porygon2
+|-heal|p2a: Porygon2|100/100
+|move|p1a: Tyranitar|Low Kick|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|64/100
+|
+|upkeep
+|turn|20
+|
+|t:|1756943203
+|move|p1a: Tyranitar|Low Kick|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|28/100
+|move|p2a: Porygon2|Ice Beam|p1a: Tyranitar
+|-damage|p1a: Tyranitar|88/100
+|
+|upkeep
+|turn|21
+|
+|t:|1756943228
+|move|p1a: Tyranitar|Low Kick|p2a: Porygon2
+|-supereffective|p2a: Porygon2
+|-damage|p2a: Porygon2|0 fnt
+|faint|p2a: Porygon2
+|
+|win|Voltage Gaming101

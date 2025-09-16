@@ -1,0 +1,170 @@
+|j|☆Caiekeru4321
+|j|☆kheld
+|html|Caiekeru4321kheld    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757768042
+|gametype|doubles
+|player|p1|Caiekeru4321|266|1053
+|player|p2|kheld|266|1121
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kommo-o, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Exeggutor, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Oranguru, L50, F|
+|teampreview|4
+|showteam|p1|Kommo-o||ThroatSpray|Overcoat|Protect,ClangingScales,ClangorousSoul,Flamethrower|||M|||50|,,,,,Steel]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Tyranitar||AssaultVest|SandStream|KnockOff,RockSlide,TeraBlast,LowKick|||F|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|HighHorsepower,Earthquake,IronHead,Protect|||M|||50|,,,,,Ground]Amoonguss||SitrusBerry|Regenerator|PollenPuff,RagePowder,Spore,ClearSmog|||F|||50|,,,,,Water]Basculegion||ChoiceScarf|Adaptability|FlipTurn,LastRespects,WaveCrash,TeraBlast|||M|||50|,,,,,Grass
+|showteam|p2|Exeggutor||FocusSash|Chlorophyll|ExpandingForce,SleepPowder,EnergyBall,Protect|||M|||50|,,,,,Psychic]Indeedee-F||SafetyGoggles|PsychicSurge|FollowMe,TrickRoom,DazzlingGleam,HelpingHand|||F|||50|,,,,,Fairy]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Torkoal||Charcoal|Drought|Eruption,HeatWave,EarthPower,Protect|||F|||50|,,,,,Fire]Charizard||ChoiceScarf|SolarPower|HeatWave,WeatherBall,SolarBeam,AirSlash|||F|||50|,,,,,Fire]Oranguru||MentalHerb|Telepathy|TrickRoom,Instruct,Protect,FoulPlay|||F|||50|,,,,,Fairy
+|
+|t:|1757768091
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Oranguru|Oranguru, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|1
+|
+|t:|1757768119
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Basculegion|Flip Turn|p2b: Indeedee
+|-damage|p2b: Indeedee|59/100
+|
+|t:|1757768124
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100|[from] Flip Turn
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Oranguru|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|move|p1a: Tyranitar|Knock Off|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-enditem|p2b: Indeedee|Safety Goggles|[from] move: Knock Off|[of] p1a: Tyranitar
+|faint|p2b: Indeedee
+|move|p2a: Oranguru|Trick Room|p2a: Oranguru
+|-fieldstart|move: Trick Room|[of] p2a: Oranguru
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Oranguru|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757768142
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|2
+|
+|t:|1757768156
+|-terastallize|p2b: Torkoal|Fire
+|move|p1b: Incineroar|Fake Out|p2b: Torkoal
+|-activate|p2b: Torkoal|move: Psychic Terrain
+|move|p2b: Torkoal|Eruption|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Tyranitar
+|-resisted|p1b: Incineroar
+|-damage|p1a: Tyranitar|67/100
+|-damage|p1b: Incineroar|55/100
+|move|p2a: Oranguru|Instruct|p2b: Torkoal
+|-singleturn|p2b: Torkoal|move: Instruct|[of] p2a: Oranguru
+|move|p2b: Torkoal|Eruption|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Tyranitar
+|-resisted|p1b: Incineroar
+|-damage|p1a: Tyranitar|33/100
+|-damage|p1b: Incineroar|7/100
+|move|p1a: Tyranitar|Rock Slide|p2b: Torkoal|[spread] p2a,p2b
+|-supereffective|p2b: Torkoal
+|-damage|p2a: Oranguru|66/100
+|-damage|p2b: Torkoal|59/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757768180
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|move|p2b: Torkoal|Heat Wave|p1a: Tyranitar|[spread] p1a,p1b
+|-resisted|p1a: Tyranitar
+|-resisted|p1b: Incineroar
+|-damage|p1a: Tyranitar|12/100
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Tyranitar|Rock Slide|p2a: Ursaluna|[spread] p2a,p2b
+|-resisted|p2a: Ursaluna
+|-supereffective|p2b: Torkoal
+|-damage|p2a: Ursaluna|90/100
+|-damage|p2b: Torkoal|13/100
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757768199
+|switch|p1b: Excadrill|Excadrill, L50, M|100/100
+|turn|4
+|
+|t:|1757768205
+|switch|p2b: Oranguru|Oranguru, L50, F|66/100
+|move|p1b: Excadrill|Protect|p1b: Excadrill
+|-singleturn|p1b: Excadrill|Protect
+|move|p2a: Ursaluna|Earthquake|p1b: Excadrill|[spread] p1a
+|-activate|p1b: Excadrill|move: Protect
+|-activate|p2b: Oranguru|ability: Telepathy
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|84/100 brn|[from] brn
+|upkeep
+|
+|t:|1757768217
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|turn|5
+|
+|t:|1757768226
+|-terastallize|p1a: Basculegion|Grass
+|move|p2a: Ursaluna|Earthquake|p1b: Excadrill|[spread] p1a,p1b
+|-activate|p2b: Oranguru|ability: Telepathy
+|-resisted|p1a: Basculegion
+|-supereffective|p1b: Excadrill
+|-damage|p1a: Basculegion|57/100
+|-enditem|p1b: Excadrill|Focus Sash
+|-damage|p1b: Excadrill|1/100
+|move|p2b: Oranguru|Instruct|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|move: Instruct|[of] p2b: Oranguru
+|move|p2a: Ursaluna|Earthquake|p1b: Excadrill|[spread] p1a,p1b
+|-activate|p2b: Oranguru|ability: Telepathy
+|-resisted|p1a: Basculegion
+|-supereffective|p1b: Excadrill
+|-damage|p1a: Basculegion|13/100
+|-damage|p1b: Excadrill|0 fnt
+|faint|p1b: Excadrill
+|move|p1a: Basculegion|Wave Crash|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|43/100 brn
+|-damage|p1a: Basculegion|0 fnt|[from] Recoil
+|faint|p1a: Basculegion
+|
+|win|kheld
+|inactive|Caiekeru4321 has 30 seconds to confirm battle start!
+|inactive|kheld has 30 seconds to confirm battle start!
+||Caiekeru4321 is ready for game 2.
+||kheld is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆kheld
+|player|p2|
+|l|☆Caiekeru4321
+|player|p1|

@@ -1,0 +1,176 @@
+|j|☆ChaosEV
+|j|☆fzntmk
+|html|ChaosEVfzntmk    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757908957
+|gametype|doubles
+|player|p1|ChaosEV|lucas-gen4pt|1000
+|player|p2|fzntmk|policeman|1061
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Leafeon, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Maushold, L50|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+|showteam|p1|Leafeon||MiracleSeed|Chlorophyll|LeafBlade,Detect,KnockOff,SwordsDance|||M|||50|,,,,,Fire]Torkoal||Charcoal|Drought|EarthPower,HeatWave,Protect,Eruption|||M|||50|,,,,,Fire]Grimmsnarl||LightClay|Prankster|ThunderWave,SpiritBreak,Reflect,LightScreen|||M|||50|,,,,,Dark]Dragapult||ChoiceBand|ClearBody|TeraBlast,PhantomForce,Uturn,DragonDarts|||F|||50|,,,,,Dragon]Basculegion||ChoiceScarf|Adaptability|WaveCrash,TeraBlast,FlipTurn,LastRespects|||M|||50|,,,,,Fighting]Maushold||SafetyGoggles|FriendGuard|Taunt,Protect,FollowMe,SuperFang||||||50|,,,,,Ghost
+|showteam|p2|Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,RainDance|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|FlashCannon,DracoMeteor,ElectroShot,BodyPress|||M|||50|,,,,,Fighting]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,FlipTurn,AquaJet|||M|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Flying]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Dark
+|
+|t:|1757909065
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|switch|p1b: Dragapult|Dragapult, L50, F|100/100
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1757909098
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Basculegion|atk|1
+|-fail|p1b: Dragapult|unboost|[from] ability: Clear Body|[of] p1b: Dragapult
+|-terastallize|p1a: Basculegion|Fighting
+|move|p1b: Dragapult|U-turn|p2a: Pelipper
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|79/100
+|
+|t:|1757909114
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100|[from] U-turn
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|move|p1a: Basculegion|Tera Blast|p2b: Incineroar|[anim] Tera Blast Fighting
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|40/100
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: fzntmk|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757909144
+|move|p2b: Incineroar|Fake Out|p1a: Basculegion
+|-damage|p1a: Basculegion|88/100
+|move|p2a: Pelipper|Rain Dance|p2a: Pelipper
+|-weather|RainDance
+|cant|p1a: Basculegion|flinch
+|move|p1b: Torkoal|Eruption|p2a: Pelipper|[spread] p2a,p2b
+|-resisted|p2a: Pelipper
+|-resisted|p2b: Incineroar
+|-damage|p2a: Pelipper|59/100
+|-damage|p2b: Incineroar|32/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757909163
+|switch|p1b: Leafeon|Leafeon, L50, M|100/100
+|move|p2a: Pelipper|Hurricane|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|move|p2b: Incineroar|Knock Off|p1b: Leafeon
+|-damage|p1b: Leafeon|55/100
+|-enditem|p1b: Leafeon|Miracle Seed|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757909173
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|4
+|
+|t:|1757909202
+|move|p1b: Leafeon|Leaf Blade|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|move|p2b: Incineroar|Flare Blitz|p1b: Leafeon
+|-supereffective|p1b: Leafeon
+|-crit|p1b: Leafeon
+|-damage|p1b: Leafeon|0 fnt
+|faint|p1b: Leafeon
+|-damage|p2b: Incineroar|20/100|[from] Recoil
+|move|p1a: Torkoal|Earth Power|p2b: Incineroar
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: fzntmk|move: Tailwind
+|upkeep
+|
+|t:|1757909216
+|switch|p1b: Dragapult|Dragapult, L50, F|100/100
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|turn|5
+|
+|t:|1757909261
+|-terastallize|p2b: Basculegion|Water
+|move|p1b: Dragapult|Dragon Darts|p2a: Archaludon
+|-damage|p2a: Archaludon|66/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|-anim|p1b: Dragapult|Dragon Darts|p2b: Basculegion
+|-damage|p2b: Basculegion|54/100
+|move|p2b: Basculegion|Wave Crash|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|30/100
+|-damage|p2b: Basculegion|33/100|[from] Recoil
+|move|p2a: Archaludon|Draco Meteor|p1b: Dragapult
+|-supereffective|p1b: Dragapult
+|-damage|p1b: Dragapult|0 fnt
+|-unboost|p2a: Archaludon|spa|2
+|faint|p1b: Dragapult
+|move|p1a: Torkoal|Eruption|p2a: Archaludon|[spread] p2a,p2b
+|-resisted|p2b: Basculegion
+|-damage|p2a: Archaludon|51/100
+|-damage|p2b: Basculegion|23/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1757909286
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2b: Basculegion|Wave Crash|p1a: Torkoal
+|-activate|p1a: Torkoal|move: Protect
+|move|p2a: Archaludon|Body Press|p1a: Torkoal
+|-activate|p1a: Torkoal|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by fzntmk)
+|
+|t:|1757909296
+|move|p2b: Basculegion|Wave Crash|p1a: Torkoal
+|-supereffective|p1a: Torkoal
+|-crit|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|-damage|p2b: Basculegion|14/100|[from] Recoil
+|
+|win|fzntmk
+||fzntmk is ready for game 2.
+|l|☆fzntmk
+|player|p2|

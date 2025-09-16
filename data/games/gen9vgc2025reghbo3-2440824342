@@ -1,0 +1,226 @@
+|j|☆Church of Chiyu
+|j|☆ichoseyoupoppo
+|html|Church of Chiyuichoseyoupoppo    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757763076
+|gametype|doubles
+|player|p1|Church of Chiyu|red|1134
+|player|p2|ichoseyoupoppo|2|1044
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Kommo-o, L50, F|
+|poke|p2|Decidueye-Hisui, L50, M|
+|poke|p2|Weavile, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Barraskewda, L50, M|
+|teampreview|4
+|showteam|p1|Rillaboom||AssaultVest|GrassySurge|DrumBeating,GrassyGlide,KnockOff,FakeOut|||F|||50|,,,,,Ghost]Incineroar||SitrusBerry|Intimidate|KnockOff,FlareBlitz,PartingShot,FakeOut|||F|||50|,,,,,Grass]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,TeraBlast|||M|||50|,,,,,Fighting]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,IcyWind,Encore,Protect|||M|||50|,,,,,Ice]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Kommo-o||Leftovers|Overcoat|BodyPress,Flamethrower,IronDefense,Protect|||F|||50|,,,,,Fire
+|showteam|p2|Decidueye-Hisui||ChoiceScarf|Scrappy|LeafBlade,TripleArrows,Uturn,CloseCombat|||M|||50|,,,,,Fire]Weavile||FocusSash|Pressure|FakeOut,IceSpinner,Protect,KnockOff|||M|||50|,,,,,Ghost]Whimsicott||CovertCloak|Prankster|Tailwind,Taunt,Protect,Moonblast|||M|||50|,,,,,Water]Farigiraf||SitrusBerry|ArmorTail|Psychic,DazzlingGleam,TrickRoom,HelpingHand|||M|||50|,,,,,Fairy]Barraskewda||ChoiceBand|PropellerTail|FlipTurn,Liquidation,ThroatChop,PsychicFangs|||M|||50|,,,,,Water
+|
+|t:|1757763124
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kommo-o|Kommo-o, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Weavile|Weavile, L50, M|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, M|100/100
+|-ability|p2a: Weavile|Pressure
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Weavile|atk|1
+|-unboost|p2b: Whimsicott|atk|1
+|turn|1
+|
+|t:|1757763192
+|-terastallize|p2a: Weavile|Ghost
+|-terastallize|p1a: Kommo-o|Fire
+|move|p1b: Incineroar|Fake Out|p2a: Weavile
+|-immune|p2a: Weavile
+|move|p2a: Weavile|Knock Off|p1a: Kommo-o
+|-damage|p1a: Kommo-o|80/100
+|-enditem|p1a: Kommo-o|Leftovers|[from] move: Knock Off|[of] p2a: Weavile
+|move|p2b: Whimsicott|Moonblast|p1a: Kommo-o
+|-resisted|p1a: Kommo-o
+|-damage|p1a: Kommo-o|69/100
+|move|p1a: Kommo-o|Flamethrower|p2b: Whimsicott
+|-supereffective|p2b: Whimsicott
+|-damage|p2b: Whimsicott|18/100
+|
+|upkeep
+|turn|2
+|
+|t:|1757763214
+|switch|p2a: Barraskewda|Barraskewda, L50, M|100/100
+|move|p1a: Kommo-o|Protect|p1a: Kommo-o
+|-singleturn|p1a: Kommo-o|Protect
+|move|p2b: Whimsicott|Moonblast|p1b: Incineroar
+|-damage|p1b: Incineroar|79/100
+|move|p1b: Incineroar|Knock Off|p2a: Barraskewda
+|-damage|p2a: Barraskewda|21/100
+|-enditem|p2a: Barraskewda|Choice Band|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|upkeep
+|turn|3
+|
+|t:|1757763238
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|move|p2a: Barraskewda|Liquidation|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|79/100
+|move|p2b: Whimsicott|Moonblast|p1b: Basculegion
+|-damage|p1b: Basculegion|68/100
+|-unboost|p1b: Basculegion|spa|1
+|
+|-heal|p2a: Barraskewda|27/100|[from] Grassy Terrain
+|-heal|p1b: Basculegion|74/100|[from] Grassy Terrain
+|-heal|p2b: Whimsicott|24/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|85/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1757763257
+|switch|p2a: Decidueye|Decidueye-Hisui, L50, M|100/100
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: ichoseyoupoppo|move: Tailwind
+|move|p1a: Rillaboom|Grassy Glide|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|80/100
+|move|p1b: Basculegion|Flip Turn|p2b: Whimsicott
+|-resisted|p2b: Whimsicott
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|
+|t:|1757763264
+|switch|p1b: Kommo-o|Kommo-o, L50, F, tera:Fire|69/100|[from] Flip Turn
+|
+|-heal|p2a: Decidueye|86/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|92/100|[from] Grassy Terrain
+|-heal|p1b: Kommo-o|75/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757763272
+|switch|p2b: Weavile|Weavile, L50, M, tera:Ghost|100/100
+|-ability|p2b: Weavile|Pressure
+|turn|5
+|
+|t:|1757763302
+|switch|p1a: Incineroar|Incineroar, L50, F|79/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Decidueye|unboost|Attack|[from] ability: Scrappy|[of] p2a: Decidueye
+|-unboost|p2b: Weavile|atk|1
+|move|p1b: Kommo-o|Protect|p1b: Kommo-o
+|-singleturn|p1b: Kommo-o|Protect
+|move|p2b: Weavile|Ice Spinner|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|68/100
+|-fieldend|move: Grassy Terrain
+|move|p2a: Decidueye|Close Combat|p1b: Kommo-o
+|-activate|p1b: Kommo-o|move: Protect
+|
+|upkeep
+|turn|6
+|
+|t:|1757763348
+|switch|p2b: Barraskewda|Barraskewda, L50, M|27/100
+|move|p1a: Incineroar|Fake Out|p2a: Decidueye
+|-damage|p2a: Decidueye|69/100
+|cant|p2a: Decidueye|flinch
+|move|p1b: Kommo-o|Flamethrower|p2a: Decidueye
+|-supereffective|p2a: Decidueye
+|-damage|p2a: Decidueye|4/100
+|
+|upkeep
+|turn|7
+|
+|t:|1757763372
+|move|p1b: Kommo-o|Protect|p1b: Kommo-o
+|-singleturn|p1b: Kommo-o|Protect
+|move|p2b: Barraskewda|Flip Turn|p1b: Kommo-o
+|-activate|p1b: Kommo-o|move: Protect
+|move|p2a: Decidueye|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2a: Decidueye|def|1
+|-unboost|p2a: Decidueye|spd|1
+|faint|p1a: Incineroar
+|
+|-sideend|p2: ichoseyoupoppo|move: Tailwind
+|upkeep
+|
+|t:|1757763382
+|switch|p1a: Rillaboom|Rillaboom, L50, F|92/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|8
+|
+|t:|1757763398
+|switch|p1b: Basculegion|Basculegion, L50, M|74/100
+|move|p1a: Rillaboom|Grassy Glide|p2b: Barraskewda
+|-supereffective|p2b: Barraskewda
+|-damage|p2b: Barraskewda|0 fnt
+|faint|p2b: Barraskewda
+|move|p2a: Decidueye|Close Combat|p1b: Basculegion
+|-damage|p1b: Basculegion|8/100
+|-unboost|p2a: Decidueye|def|1
+|-unboost|p2a: Decidueye|spd|1
+|
+|-heal|p1b: Basculegion|14/100|[from] Grassy Terrain
+|-heal|p2a: Decidueye|10/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|98/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757763408
+|switch|p2b: Weavile|Weavile, L50, M, tera:Ghost|100/100
+|-ability|p2b: Weavile|Pressure
+|turn|9
+|
+|t:|1757763422
+|move|p2b: Weavile|Fake Out|p1a: Rillaboom
+|-damage|p1a: Rillaboom|85/100
+|cant|p1a: Rillaboom|flinch
+|move|p1b: Basculegion|Flip Turn|p2b: Weavile
+|-damage|p2b: Weavile|33/100
+|
+|t:|1757763429
+|switch|p1b: Kommo-o|Kommo-o, L50, F, tera:Fire|75/100|[from] Flip Turn
+|move|p2a: Decidueye|Close Combat|p1b: Kommo-o
+|-damage|p1b: Kommo-o|40/100
+|-unboost|p2a: Decidueye|def|1
+|-unboost|p2a: Decidueye|spd|1
+|
+|-heal|p2b: Weavile|40/100|[from] Grassy Terrain
+|-heal|p2a: Decidueye|16/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|91/100|[from] Grassy Terrain
+|-heal|p1b: Kommo-o|46/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1757763442
+|move|p1a: Rillaboom|Grassy Glide|p2a: Decidueye
+|-resisted|p2a: Decidueye
+|-damage|p2a: Decidueye|0 fnt
+|faint|p2a: Decidueye
+|move|p2b: Weavile|Ice Spinner|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|9/100
+|-fieldend|move: Grassy Terrain
+|move|p1b: Kommo-o|Flamethrower|p2b: Weavile
+|-damage|p2b: Weavile|0 fnt
+|faint|p2b: Weavile
+|
+|win|Church of Chiyu
+|raw|Church of Chiyu's rating: 1134 → 1153(+19 for winning)
+|raw|ichoseyoupoppo's rating: 1044 → 1032(-12 for losing)
+|l|☆ichoseyoupoppo
+|player|p2|

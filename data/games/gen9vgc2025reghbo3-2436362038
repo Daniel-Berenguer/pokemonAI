@@ -1,0 +1,235 @@
+|j|☆luxio27
+|j|☆LegacyKiwi
+|html|luxio27LegacyKiwi    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757169553
+|gametype|doubles
+|player|p1|luxio27|2|1100
+|player|p2|LegacyKiwi|102|1136
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Gliscor, L50, M|
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p2|Altaria, L50, M|
+|poke|p2|Shiftry, L50, F|
+|poke|p2|Chandelure, L50, M|
+|poke|p2|Geodude-Alola, L50, F|
+|poke|p2|Malamar, L50, M|
+|poke|p2|Blastoise, L50, F|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|PartingShot,KnockOff,FakeOut,SunnyDay|||M|||50|,,,,,Fire]Grimmsnarl||LightClay|Prankster|FakeOut,LightScreen,Reflect,SpiritBreak|||M|||50|,,,,,Ghost]Primarina||ThroatSpray|LiquidVoice|Moonblast,HyperVoice,Protect,Haze|||F|||50|,,,,,Dragon]Gliscor||ToxicOrb|PoisonHeal|Tailwind,Protect,HighHorsepower,DualWingbeat|||M|||50|,,,,,Fire]Dragapult||ChoiceBand|ClearBody|PhantomForce,Acrobatics,DragonDarts,Uturn|||F|||50|,,,,,Flying]Volcarona||Leftovers|FlameBody|Flamethrower,QuiverDance,Protect,StruggleBug|||M|||50|,,,,,Water
+|showteam|p2|Altaria||FocusSash|CloudNine|HelpingHand,Endeavor,Tailwind,DracoMeteor|||M|||50|,,,,,Steel]Shiftry||ClearAmulet|WindRider|LeafBlade,Protect,KnockOff,FakeOut|||F|||50|,,,,,Poison]Chandelure||LifeOrb|Infiltrator|Protect,TrickRoom,ShadowBall,HeatWave|||M|||50|,,,,,Dark]Geodude-Alola||WideLens|Sturdy|Protect,ThunderWave,WideGuard,RockSlide|||F|||50|,,,,,Grass]Malamar||CovertCloak|Contrary|ThroatChop,TopsyTurvy,PsychoCut,Superpower|||M|||50|,,,,,Water]Blastoise||SitrusBerry|Torrent|FakeOut,FlipTurn,WaveCrash,Protect|||F|||50|,,,,,Fire
+|
+|t:|1757169582
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Gliscor|Gliscor, L50, M|100/100
+|switch|p2a: Altaria|Altaria, L50, M, shiny|100/100
+|switch|p2b: Shiftry|Shiftry, L50, F, shiny|100/100
+|-ability|p2a: Altaria|Cloud Nine
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Altaria|atk|1
+|-fail|p2b: Shiftry|unboost|[from] item: Clear Amulet|[of] p2b: Shiftry
+|turn|1
+|
+|t:|1757169617
+|move|p2b: Shiftry|Fake Out|p1a: Incineroar
+|-crit|p1a: Incineroar
+|-damage|p1a: Incineroar|83/100
+|cant|p1a: Incineroar|flinch
+|move|p2a: Altaria|Tailwind|p2a: Altaria
+|-sidestart|p2: LegacyKiwi|move: Tailwind
+|-ability|p2b: Shiftry|Wind Rider|boost
+|-boost|p2b: Shiftry|atk|1
+|move|p1b: Gliscor|Tailwind|p1b: Gliscor
+|-sidestart|p1: luxio27|move: Tailwind
+|
+|-status|p1b: Gliscor|tox|[from] item: Toxic Orb
+|upkeep
+|turn|2
+|
+|t:|1757169658
+|move|p2a: Altaria|Helping Hand|p2b: Shiftry
+|-singleturn|p2b: Shiftry|Helping Hand|[of] p2a: Altaria
+|move|p2b: Shiftry|Leaf Blade|p1b: Gliscor
+|-damage|p1b: Gliscor|28/100 tox
+|move|p1b: Gliscor|Dual Wingbeat|p2b: Shiftry
+|-supereffective|p2b: Shiftry
+|-damage|p2b: Shiftry|56/100
+|-supereffective|p2b: Shiftry
+|-damage|p2b: Shiftry|14/100
+|-hitcount|p2b: Shiftry|2
+|move|p1a: Incineroar|Parting Shot|p2b: Shiftry
+|-fail|p2b: Shiftry|unboost|[from] item: Clear Amulet|[of] p2b: Shiftry
+|
+|-heal|p1b: Gliscor|40/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|3
+|
+|t:|1757169690
+|move|p2b: Shiftry|Protect|p2b: Shiftry
+|-singleturn|p2b: Shiftry|Protect
+|move|p1b: Gliscor|Protect|p1b: Gliscor
+|-singleturn|p1b: Gliscor|Protect
+|move|p2a: Altaria|Draco Meteor|p1b: Gliscor
+|-activate|p1b: Gliscor|move: Protect
+|move|p1a: Incineroar|Parting Shot|p2a: Altaria
+|-unboost|p2a: Altaria|atk|1
+|-unboost|p2a: Altaria|spa|1
+|
+|t:|1757169706
+|switch|p1a: Dragapult|Dragapult, L50, F|100/100|[from] Parting Shot
+|
+|-heal|p1b: Gliscor|52/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|4
+|
+|t:|1757169748
+|switch|p2b: Chandelure|Chandelure, L50, M, shiny|100/100
+|move|p1a: Dragapult|Dragon Darts|p2a: Altaria
+|-supereffective|p2a: Altaria
+|-damage|p2a: Altaria|5/100
+|-anim|p1a: Dragapult|Dragon Darts|p2b: Chandelure
+|-damage|p2b: Chandelure|54/100
+|move|p2a: Altaria|Draco Meteor|p1a: Dragapult|[miss]
+|-miss|p2a: Altaria|p1a: Dragapult
+|move|p1b: Gliscor|Dual Wingbeat|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|faint|p2a: Altaria
+|-hitcount|p2: Altaria|1
+|
+|-heal|p1b: Gliscor|64/100 tox|[from] ability: Poison Heal
+|-sideend|p1: luxio27|move: Tailwind
+|-sideend|p2: LegacyKiwi|move: Tailwind
+|upkeep
+|
+|t:|1757169762
+|switch|p2a: Malamud|Malamar, L50, M, shiny|100/100
+|turn|5
+|
+|t:|1757169777
+|-terastallize|p2b: Chandelure|Dark
+|move|p1a: Dragapult|Dragon Darts|p2a: Malamud
+|-damage|p2a: Malamud|66/100
+|-anim|p1a: Dragapult|Dragon Darts|p2b: Chandelure
+|-damage|p2b: Chandelure|7/100
+|move|p1b: Gliscor|High Horsepower|p2b: Chandelure|[miss]
+|-miss|p1b: Gliscor|p2b: Chandelure
+|move|p2a: Malamud|Throat Chop|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|10/100
+|-start|p1a: Dragapult|Throat Chop|[silent]
+|move|p2b: Chandelure|Trick Room|p2b: Chandelure
+|-fieldstart|move: Trick Room|[of] p2b: Chandelure
+|
+|-heal|p1b: Gliscor|76/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|6
+|
+|t:|1757169821
+|switch|p1a: Incineroar|Incineroar, L50, M|83/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-boost|p2a: Malamud|atk|1
+|-unboost|p2b: Chandelure|atk|1
+|move|p2b: Chandelure|Protect|p2b: Chandelure
+|-singleturn|p2b: Chandelure|Protect
+|move|p1b: Gliscor|Protect|p1b: Gliscor
+|-singleturn|p1b: Gliscor|Protect
+|move|p2a: Malamud|Throat Chop|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|60/100
+|-start|p1a: Incineroar|Throat Chop|[silent]
+|
+|-heal|p1b: Gliscor|88/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|7
+|
+|t:|1757169843
+|switch|p2b: Shiftry|Shiftry, L50, F, shiny|14/100
+|move|p1a: Incineroar|Fake Out|p2a: Malamud
+|-damage|p2a: Malamud|55/100
+|move|p2a: Malamud|Superpower|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-boost|p2a: Malamud|atk|1
+|-boost|p2a: Malamud|def|1
+|faint|p1a: Incineroar
+|move|p1b: Gliscor|Dual Wingbeat|p2b: Shiftry|[miss]
+|-miss|p1b: Gliscor|p2b: Shiftry
+|
+|-heal|p1b: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1757169857
+|switch|p1a: Dragapult|Dragapult, L50, F|10/100
+|turn|8
+|
+|t:|1757169875
+|move|p2b: Shiftry|Fake Out|p1b: Gliscor
+|-crit|p1b: Gliscor
+|-damage|p1b: Gliscor|85/100 tox
+|move|p2a: Malamud|Throat Chop|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|cant|p1b: Gliscor|flinch
+|
+|-heal|p1b: Gliscor|97/100 tox|[from] ability: Poison Heal
+|upkeep
+|
+|t:|1757169884
+|switch|p1a: Primarina|Primarina, L50, F|100/100
+|turn|9
+|
+|t:|1757169911
+|move|p1a: Primarina|Protect|p1a: Primarina
+|-singleturn|p1a: Primarina|Protect
+|move|p1b: Gliscor|Protect|p1b: Gliscor
+|-singleturn|p1b: Gliscor|Protect
+|move|p2b: Shiftry|Protect|p2b: Shiftry
+|-singleturn|p2b: Shiftry|Protect
+|move|p2a: Malamud|Psycho Cut|p1a: Primarina
+|-activate|p1a: Primarina|move: Protect
+|
+|-heal|p1b: Gliscor|100/100 tox|[from] ability: Poison Heal
+|-fieldend|move: Trick Room
+|upkeep
+|turn|10
+|
+|t:|1757169985
+|move|p2b: Shiftry|Leaf Blade|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-crit|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|move|p1b: Gliscor|High Horsepower|p2a: Malamud
+|-damage|p2a: Malamud|32/100
+|move|p2a: Malamud|Psycho Cut|p1b: Gliscor
+|-damage|p1b: Gliscor|53/100 tox
+|
+|-heal|p1b: Gliscor|65/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|11
+|c|☆luxio27|gg bro
+|c|☆luxio27|nice play
+|c|☆luxio27|this pokemon is over the top!"!"
+|-message|luxio27 forfeited.
+|
+|win|LegacyKiwi
+|l|☆luxio27
+|player|p1|
+||luxio27 is ready for game 3.
+|c|☆LegacyKiwi|Yeah holy shit gg
+|inactive|LegacyKiwi has 30 seconds to confirm battle start!
+||LegacyKiwi is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

@@ -1,0 +1,92 @@
+|j|☆WaluigiVGC
+|j|☆BranchingBee
+|html|WaluigiVGCBranchingBee    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757026497
+|gametype|doubles
+|player|p1|WaluigiVGC|169|1140
+|player|p2|BranchingBee|266|1100
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Tatsugiri, L50, M|
+|poke|p1|Dondozo, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Talonflame, L50, F|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,HelpingHand,Protect|||M|||50|,,,,,Psychic]Whimsicott||CovertCloak|Prankster|Moonblast,Tailwind,HelpingHand,LightScreen|||M|||50|,,,,,Poison]Ursaluna-Bloodmoon||SilkScarf|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Tatsugiri||SafetyGoggles|Commander|DracoMeteor,MuddyWater,HelpingHand,Protect|||M|||50|,,,,,Normal]Dondozo||Leftovers|Unaware|WaveCrash,Earthquake,OrderUp,Protect|||M|||50|,,,,,Grass
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,HelpingHand,Protect,TrickRoom|||M|||50|,,,,,Psychic]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Protect|||M|||50|,,,,,Dragon]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Ghost]Talonflame||CovertCloak|GaleWings|FlareBlitz,BraveBird,WillOWisp,Tailwind|||F|||50|,,,,,Fairy
+|
+|t:|1757026508
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F, shiny|100/100
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2b: Talonflame|Talonflame, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757026528
+|-terastallize|p1a: Indeedee|Psychic
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p2b: Talonflame|Brave Bird|p1b: Sneasler
+|-activate|p1b: Sneasler|move: Psychic Terrain
+|move|p1b: Sneasler|Close Combat|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|move|p1a: Indeedee|Expanding Force|p2b: Talonflame|[spread] p2b
+|-activate|p2a: Ursaluna|move: Protect
+|-damage|p2b: Talonflame|0 fnt
+|faint|p2b: Talonflame
+|
+|upkeep
+|
+|t:|1757026540
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|2
+|
+|t:|1757026553
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|move|p1b: Sneasler|Close Combat|p2a: Indeedee
+|-enditem|p2a: Indeedee|Focus Sash
+|-damage|p2a: Indeedee|1/100
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|move|p2b: Sneasler|Throat Chop|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-enditem|p1a: Indeedee|Focus Sash
+|-damage|p1a: Indeedee|1/100
+|-start|p1a: Indeedee|Throat Chop|[silent]
+|move|p1a: Indeedee|Expanding Force|p2a: Indeedee|[spread] p2a,p2b
+|-resisted|p2a: Indeedee
+|-supereffective|p2b: Sneasler
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2a: Indeedee
+|faint|p2b: Sneasler
+|
+|upkeep
+|-message|BranchingBee forfeited.
+|
+|win|WaluigiVGC
+|raw|WaluigiVGC's rating: 1140 → 1162(+22 for winning)
+|raw|BranchingBee's rating: 1100 → 1078(-22 for losing)
+|l|☆BranchingBee
+|player|p2|

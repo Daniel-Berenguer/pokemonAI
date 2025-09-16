@@ -1,0 +1,228 @@
+|j|☆Reubz123
+|j|☆GRNSBRN
+|html|Reubz123GRNSBRN    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757628781
+|gametype|doubles
+|player|p1|Reubz123|265|1128
+|player|p2|GRNSBRN|benga|1022
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Weavile, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Reuniclus, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Houndstone, L50, M|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,DracoMeteor,FlashCannon|||F|||50|,,,,,Bug]Weavile||FocusSash|Pickpocket|FakeOut,Snarl,IceSpinner,BeatUp|||F|||50|,,,,,Ghost]Pelipper||CovertCloak|Drizzle|Hurricane,WeatherBall,WideGuard,Tailwind|||M|||50|,,,,,Grass]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,FlipTurn,AquaJet,LastRespects|||M|||50|,,,,,Water]Farigiraf||SafetyGoggles|ArmorTail|TwinBeam,HelpingHand,TrickRoom,Imprison|||F|||50|,,,,,Fairy]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||M|||50|,,,,,Water
+|showteam|p2|Reuniclus||SitrusBerry|Overcoat|ExpandingForce,TrickRoom,TeraBlast,Recover|||F|||50|,,,,,Water]Tyranitar||AssaultVest|SandStream|KnockOff,RockSlide,TeraBlast,LowKick|||M|||50|,,,,,Flying]Indeedee-F||RockyHelmet|PsychicSurge|TrickRoom,FollowMe,HealPulse,DazzlingGleam|||F|||50|,,,,,Fairy]Sneasler||PsychicSeed|Unburden|RockSlide,Protect,CloseCombat,DireClaw|||M|||50|,,,,,Rock]Houndstone||Leftovers|SandRush|Protect,Yawn,Snarl,LastRespects|||M|||50|,,,,,Fairy]Basculegion||ChoiceScarf|Adaptability|FlipTurn,PhantomForce,WaveCrash,LastRespects|||M|||50|,,,,,Water
+|
+|t:|1757628831
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Houndstone|Houndstone, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|turn|1
+|
+|t:|1757628845
+|switch|p2a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|move|p2b: Sneasler|Dire Claw|p1a: Amoonguss
+|-damage|p1a: Amoonguss|58/100
+|move|p1b: Basculegion|Flip Turn|p2a: Indeedee
+|-damage|p2a: Indeedee|55/100
+|-damage|p1b: Basculegion|84/100|[from] item: Rocky Helmet|[of] p2a: Indeedee
+|
+|t:|1757628858
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100|[from] Flip Turn
+|move|p1a: Amoonguss|Spore|p2b: Sneasler
+|-status|p2b: Sneasler|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1757628887
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|cant|p2b: Sneasler|slp
+|move|p1b: Archaludon|Body Press|p2a: Indeedee
+|-damage|p2a: Indeedee|33/100
+|-damage|p1b: Archaludon|84/100|[from] item: Rocky Helmet|[of] p2a: Indeedee
+|move|p2a: Indeedee|Dazzling Gleam|p1a: Pelipper|[spread] p1a,p1b
+|-damage|p1a: Pelipper|81/100
+|-damage|p1b: Archaludon|76/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757628907
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-curestatus|p2b: Sneasler|slp|[msg]
+|move|p2b: Sneasler|Close Combat|p1b: Archaludon
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|11/100
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p1b: Archaludon|Body Press|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|move|p1a: Pelipper|Tailwind|p1a: Pelipper
+|-sidestart|p1: Reubz123|move: Tailwind
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sneasler|95/100|[from] Sandstorm
+|-damage|p1a: Pelipper|75/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757628925
+|switch|p2a: Houndstone|Houndstone, L50, M|100/100
+|turn|4
+|
+|t:|1757628943
+|switch|p1a: Amoonguss|Amoonguss, L50, M|91/100
+|move|p2b: Sneasler|Close Combat|p1b: Archaludon
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1b: Archaludon
+|move|p2a: Houndstone|Yawn|p1a: Amoonguss
+|-start|p1a: Amoonguss|move: Yawn|[of] p2a: Houndstone
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sneasler|89/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|85/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757628949
+|switch|p1b: Basculegion|Basculegion, L50, M|84/100
+|turn|5
+|
+|t:|1757628968
+|switch|p1a: Pelipper|Pelipper, L50, M|75/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Houndstone|Protect|p2a: Houndstone
+|-singleturn|p2a: Houndstone|Protect
+|move|p1b: Basculegion|Wave Crash|p2a: Houndstone
+|-activate|p2a: Houndstone|move: Protect
+|move|p2b: Sneasler|Dire Claw|p1b: Basculegion
+|-resisted|p1b: Basculegion
+|-damage|p1b: Basculegion|59/100
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1757628982
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p2a: Houndstone|Protect||[still]
+|-fail|p2a: Houndstone
+|move|p1b: Basculegion|Wave Crash|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Protect
+|move|p1a: Pelipper|Weather Ball|p2a: Houndstone
+|-damage|p2a: Houndstone|21/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Houndstone|27/100|[from] item: Leftovers
+|-sideend|p1: Reubz123|move: Tailwind
+|upkeep
+|turn|7
+|
+|t:|1757629002
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|move|p2b: Sneasler|Rock Slide|p1b: Amoonguss|[spread] p1a,p1b
+|-supereffective|p1a: Pelipper
+|-damage|p1a: Pelipper|30/100
+|-damage|p1b: Amoonguss|82/100
+|move|p2a: Houndstone|Last Respects|p1b: Amoonguss
+|-damage|p1b: Amoonguss|51/100
+|move|p1a: Pelipper|Tailwind|p1a: Pelipper
+|-sidestart|p1: Reubz123|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Houndstone|33/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GRNSBRN)
+|
+|t:|1757629027
+|move|p2a: Houndstone|Protect|p2a: Houndstone
+|-singleturn|p2a: Houndstone|Protect
+|move|p2b: Sneasler|Dire Claw|p1b: Amoonguss
+|-damage|p1b: Amoonguss|7/100
+|-enditem|p1b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1b: Amoonguss|32/100|[from] item: Sitrus Berry
+|move|p1a: Pelipper|Hurricane|p2b: Sneasler
+|-supereffective|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|move|p1b: Amoonguss|Spore|p2a: Houndstone
+|-activate|p2a: Houndstone|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Houndstone|39/100|[from] item: Leftovers
+|upkeep
+|c|☆Reubz123|gg
+|
+|t:|1757629042
+|switch|p2b: Indeedee|Indeedee-F, L50, F, shiny|33/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|9
+|
+|t:|1757629056
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Pelipper|Weather Ball|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p2a: Houndstone|Last Respects|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|move|p1b: Amoonguss|Pollen Puff|p1: Pelipper|[notarget]
+|-fail|p1b: Amoonguss
+|
+|-weather|none
+|-heal|p2a: Houndstone|45/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757629061
+|switch|p1a: Basculegion|Basculegion, L50, M|59/100
+|turn|10
+|
+|t:|1757629072
+|-terastallize|p2a: Houndstone|Fairy
+|move|p1a: Basculegion|Last Respects|p2a: Houndstone
+|-damage|p2a: Houndstone|0 fnt
+|faint|p2a: Houndstone
+|
+|win|Reubz123
+||Reubz123 is ready for game 2.
+|l|☆GRNSBRN
+|player|p2|
+||GRNSBRN is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

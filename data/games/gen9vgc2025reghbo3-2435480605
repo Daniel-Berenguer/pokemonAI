@@ -1,0 +1,196 @@
+|j|☆defaulttesting
+|j|☆sedrav
+|html|defaulttestingsedrav    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757042431
+|gametype|doubles
+|player|p1|defaulttesting|plasmagrunt-gen5bw|1191
+|player|p2|sedrav|hilbert|1219
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Raichu, L50, M|
+|poke|p1|Gyarados, L50, F|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Excadrill, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Kilowattrel, L50, F|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|showteam|p1|Volcarona||WideLens|FlameBody|QuiverDance,GigaDrain,HeatWave,Protect|||F|||50|,,,,,Grass]Raichu||AssaultVest|LightningRod|VoltSwitch,Endeavor,FakeOut,Nuzzle|||M|||50|,,,,,Ghost]Gyarados||SafetyGoggles|Intimidate|ThunderWave,Waterfall,Taunt,Protect|||F|||50|,,,,,Ghost]Tyranitar||ClearAmulet|SandStream|RockSlide,TeraBlast,KnockOff,Protect|||M|||50|,,,,,Flying]Amoonguss||SitrusBerry|Regenerator|RagePowder,PollenPuff,Spore,Protect|||M|||50|,,,,,Fire]Excadrill||LifeOrb|SandRush|HighHorsepower,Earthquake,IronHead,Protect|||M|||50|,,,,,Ground
+|showteam|p2|Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,Earthquake,Protect|||M|||50|,,,,,Ground]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Flying]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||M|||50|,,,,,Flying]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||M|||50|,,,,,Water]Kilowattrel||FocusSash|Competitive|AirSlash,Tailwind,VoltSwitch,Protect|||F|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by defaulttesting)
+|inactive|defaulttesting has 60 seconds left.
+|inactive|sedrav has 60 seconds left.
+|inactive|sedrav has 30 seconds left.
+|
+|t:|1757042495
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Raichu|Raichu, L50, M|100/100
+|switch|p1b: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p2a: Kilowattrel|Kilowattrel, L50, F|100/100
+|switch|p2b: Garchomp|Garchomp, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|1
+|inactive|defaulttesting has 30 seconds left.
+|
+|t:|1757042526
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Raichu|atk|1
+|-fail|p1b: Tyranitar|unboost|[from] item: Clear Amulet|[of] p1b: Tyranitar
+|move|p2b: Garchomp|Protect|p2b: Garchomp
+|-singleturn|p2b: Garchomp|Protect
+|move|p1a: Raichu|Fake Out|p2b: Garchomp
+|-activate|p2b: Garchomp|move: Protect
+|move|p1b: Tyranitar|Rock Slide|p2b: Garchomp|[spread] p2a
+|-activate|p2b: Garchomp|move: Protect
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raichu|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|inactive|defaulttesting has 30 seconds left.
+|inactive|sedrav has 30 seconds left.
+|inactive|sedrav has 20 seconds left.
+|
+|t:|1757042563
+|switch|p1a: Gyarados|Gyarados, L50, F|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Garchomp|atk|1
+|switch|p2a: Kilowattrel|Kilowattrel, L50, F|100/100
+|move|p1b: Tyranitar|Protect|p1b: Tyranitar
+|-singleturn|p1b: Tyranitar|Protect
+|move|p2b: Garchomp|Earthquake|p1b: Tyranitar|[spread] 
+|-activate|p1b: Tyranitar|move: Protect
+|-immune|p2a: Kilowattrel
+|-immune|p1a: Gyarados
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kilowattrel|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|inactive|defaulttesting has 30 seconds left.
+|inactive|sedrav has 30 seconds left.
+|
+|t:|1757042593
+|-terastallize|p1b: Tyranitar|Flying
+|move|p2a: Kilowattrel|Protect|p2a: Kilowattrel
+|-singleturn|p2a: Kilowattrel|Protect
+|move|p2b: Garchomp|Stomping Tantrum|p1b: Tyranitar
+|-immune|p1b: Tyranitar
+|move|p1a: Gyarados|Waterfall|p2b: Garchomp
+|-damage|p2b: Garchomp|57/100
+|-damage|p1a: Gyarados|88/100|[from] ability: Rough Skin|[of] p2b: Garchomp
+|move|p1b: Tyranitar|Rock Slide|p2a: Kilowattrel|[spread] 
+|-activate|p2a: Kilowattrel|move: Protect
+|-miss|p1b: Tyranitar|p2b: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Kilowattrel|88/100|[from] Sandstorm
+|-damage|p1b: Tyranitar|94/100|[from] Sandstorm
+|upkeep
+|turn|4
+|inactive|sedrav has 30 seconds left.
+|inactive|sedrav has 20 seconds left.
+|inactive|sedrav has 15 seconds left.
+|
+|t:|1757042634
+|move|p2a: Kilowattrel|Volt Switch|p1a: Gyarados
+|-supereffective|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|
+|t:|1757042638
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100|[from] Volt Switch
+|move|p2b: Garchomp|Stomping Tantrum|p1b: Tyranitar
+|-immune|p1b: Tyranitar
+|move|p1b: Tyranitar|Rock Slide|p2b: Garchomp|[spread] p2a,p2b
+|-resisted|p2b: Garchomp
+|-damage|p2a: Tyranitar|73/100
+|-damage|p2b: Garchomp|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Tyranitar|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757042647
+|switch|p1a: Volcarona|Volcarona, L50, F|100/100
+|turn|5
+|inactive|defaulttesting has 30 seconds left.
+|inactive|defaulttesting has 20 seconds left.
+|inactive|defaulttesting has 15 seconds left.
+|
+|t:|1757042689
+|switch|p1b: Raichu|Raichu, L50, M|94/100
+|-terastallize|p2a: Tyranitar|Flying
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p2b: Garchomp|Earthquake|p1a: Volcarona|[spread] p1b
+|-activate|p1a: Volcarona|move: Protect
+|-immune|p2a: Tyranitar
+|-supereffective|p1b: Raichu
+|-damage|p1b: Raichu|0 fnt
+|faint|p1b: Raichu
+|-damage|p2b: Garchomp|32/100|[from] item: Life Orb
+|move|p2a: Tyranitar|Rock Slide|p1a: Volcarona
+|-activate|p1a: Volcarona|move: Protect
+|
+|-weather|none
+|upkeep
+|
+|t:|1757042701
+|switch|p1b: Tyranitar|Tyranitar, L50, M, tera:Flying|88/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|6
+|
+|t:|1757042720
+|move|p2b: Garchomp|Earthquake|p1b: Tyranitar|[spread] p1a
+|-immune|p2a: Tyranitar
+|-immune|p1b: Tyranitar
+|-damage|p1a: Volcarona|59/100
+|-damage|p2b: Garchomp|22/100|[from] item: Life Orb
+|move|p1a: Volcarona|Heat Wave|p2a: Tyranitar|[spread] p2a,p2b
+|-resisted|p2b: Garchomp
+|-damage|p2a: Tyranitar|50/100
+|-damage|p2b: Garchomp|4/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Volcarona|[spread] p1a,p1b
+|-supereffective|p1a: Volcarona
+|-supereffective|p1b: Tyranitar
+|-damage|p1a: Volcarona|0 fnt
+|-damage|p1b: Tyranitar|31/100
+|faint|p1a: Volcarona
+|move|p1b: Tyranitar|Knock Off|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-enditem|p2a: Tyranitar|Assault Vest|[from] move: Knock Off|[of] p1b: Tyranitar
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Tyranitar|25/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757042740
+|switch|p2a: Kilowattrel|Kilowattrel, L50, F|88/100
+|turn|7
+|
+|t:|1757042745
+|move|p2a: Kilowattrel|Volt Switch|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar
+|-damage|p1b: Tyranitar|0 fnt
+|faint|p1b: Tyranitar
+|
+|win|sedrav
+||defaulttesting is ready for game 2.

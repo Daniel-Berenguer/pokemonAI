@@ -1,0 +1,150 @@
+|j|☆Jskejdjsooss
+|j|☆Stringskipper
+|html|JskejdjsoossStringskipper    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757772712
+|gametype|doubles
+|player|p1|Jskejdjsooss|265|1000
+|player|p2|Stringskipper|benga|1078
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|teampreview|4
+|showteam|p1|Indeedee-F||SafetyGoggles|PsychicSurge|Protect,FollowMe,TrickRoom,HelpingHand|||F|||50|,,,,,Fairy]Hatterene||MindPlate|MagicBounce|Protect,ExpandingForce,DazzlingGleam,TrickRoom|||F|||50|,,,,,Water]Incineroar||AssaultVest|Intimidate|FlareBlitz,KnockOff,FakeOut,Uturn|||F|||50|,,,,,Ghost]Corviknight||Leftovers|MirrorArmor|BraveBird,BodyPress,BulkUp,Roost|||F|||50|,,,,,Electric]Sneasler||PsychicSeed|Unburden|Protect,CloseCombat,DireClaw,ThroatChop|||F|||50|,,,,,Dark]Ursaluna-Bloodmoon||LifeOrb|MindsEye|Protect,HyperVoice,EarthPower,BloodMoon|||M|||50|,,,,,Water
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Whimsicott||CovertCloak|Prankster|Moonblast,Tailwind,Encore,SunnyDay|||F|||50|,,,,,Dark
+|
+|t:|1757772757
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|switch|p2b: Charizard|Charizard, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1757772783
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Charizard|atk|1
+|-enditem|p2a: Torkoal|Eject Pack
+|
+|t:|1757772801
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Hatterene|atk|1
+|-terastallize|p1b: Hatterene|Water
+|move|p2b: Charizard|Heat Wave|p1b: Hatterene|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-resisted|p1b: Hatterene
+|-damage|p1a: Incineroar|72/100
+|-damage|p1b: Hatterene|46/100
+|-status|p1b: Hatterene|brn
+|move|p1b: Hatterene|Trick Room|p1b: Hatterene
+|-fieldstart|move: Trick Room|[of] p1b: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|88/100|[from] ability: Solar Power|[of] p2b: Charizard
+|-damage|p1b: Hatterene|40/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1757772842
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|move|p1b: Hatterene|Expanding Force|p2a: Incineroar|[spread] p2b
+|-immune|p2a: Incineroar
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|move|p1a: Incineroar|U-turn|p2a: Incineroar
+|-damage|p2a: Incineroar|87/100
+|
+|t:|1757772850
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100|[from] U-turn
+|move|p2a: Incineroar|Knock Off|p1b: Hatterene
+|-damage|p1b: Hatterene|0 fnt
+|-enditem|p1b: Hatterene|Mind Plate|[from] move: Knock Off|[of] p2a: Incineroar
+|faint|p1b: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757772859
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|turn|3
+|
+|t:|1757772895
+|-terastallize|p2b: Ursaluna|Ghost
+|move|p1b: Indeedee|Helping Hand|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Helping Hand|[of] p1b: Indeedee
+|move|p1a: Ursaluna|Hyper Voice|p2a: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Incineroar|13/100
+|-damage|p2b: Ursaluna|32/100
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|38/100|[from] item: Sitrus Berry
+|-damage|p1a: Ursaluna|90/100|[from] item: Life Orb
+|move|p2b: Ursaluna|Headlong Rush|p1a: Ursaluna
+|-damage|p1a: Ursaluna|44/100
+|-unboost|p2b: Ursaluna|def|1
+|-unboost|p2b: Ursaluna|spd|1
+|move|p2a: Incineroar|Knock Off|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|19/100
+|-enditem|p1b: Indeedee|Safety Goggles|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1757772939
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Ursaluna|Hyper Voice|p2a: Incineroar|[spread] p2a
+|-activate|p2b: Ursaluna|move: Protect
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|-damage|p1a: Ursaluna|34/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|27/100 brn|[from] brn
+|upkeep
+|
+|t:|1757772946
+|switch|p2a: Charizard|Charizard, L50, F, shiny|88/100
+|turn|5
+|
+|t:|1757772975
+|move|p1b: Indeedee|Helping Hand|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Helping Hand|[of] p1b: Indeedee
+|move|p1a: Ursaluna|Hyper Voice|p2a: Charizard|[spread] p2a,p2b
+|-damage|p2a: Charizard|0 fnt
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2a: Charizard
+|faint|p2b: Ursaluna
+|-damage|p1a: Ursaluna|24/100|[from] item: Life Orb
+|
+|win|Jskejdjsooss
+||Stringskipper is ready for game 2.
+|inactive|Jskejdjsooss has 30 seconds to confirm battle start!

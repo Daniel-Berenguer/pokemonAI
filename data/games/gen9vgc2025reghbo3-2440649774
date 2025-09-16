@@ -1,0 +1,188 @@
+|j|☆Jimcarona
+|j|☆Qicide
+|html|JimcaronaQicide    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757731266
+|gametype|doubles
+|player|p1|Jimcarona|266|1206
+|player|p2|Qicide|red|1276
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, F|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Armarouge||LifeOrb|FlashFire|ExpandingForce,ArmorCannon,TrickRoom,Protect|||M|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HeatWave,Protect|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,TrickRoom,Protect|||M|||50|,,,,,Grass]Lilligant-Hisui||FocusSash|Chlorophyll|CloseCombat,TripleAxel,SleepPowder,AfterYou|||F|||50|,,,,,Ghost
+|showteam|p2|Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|RagePowder,SunnyDay,Tailwind,SleepPowder|||M|||50|,,,,,Water]Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,SolarBeam|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Overheat,Eruption,HelpingHand,Protect|||F|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Qicide)
+|inactive|Qicide has 60 seconds left.
+|
+|t:|1757731310
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Armarouge|Armarouge, L50, M|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Armarouge|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757731329
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Jumpluff|Sleep Powder|p1a: Indeedee
+|-status|p1a: Indeedee|slp|[from] move: Sleep Powder
+|move|p2b: Incineroar|Knock Off|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|36/100 slp
+|move|p1b: Armarouge|Trick Room|p1b: Armarouge
+|-fieldstart|move: Trick Room|[of] p1b: Armarouge
+|
+|upkeep
+|turn|2
+|inactive|Jimcarona has 30 seconds left.
+|
+|t:|1757731362
+|move|p1b: Armarouge|Expanding Force|p2b: Incineroar|[spread] p2a
+|-immune|p2b: Incineroar
+|-damage|p2a: Jumpluff|20/100
+|-damage|p1b: Armarouge|91/100|[from] item: Life Orb
+|cant|p1a: Indeedee|slp
+|move|p2b: Incineroar|Knock Off|p1b: Armarouge
+|-supereffective|p1b: Armarouge
+|-damage|p1b: Armarouge|4/100
+|-enditem|p1b: Armarouge|Life Orb|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p2a: Jumpluff|Sleep Powder|p1b: Armarouge
+|-status|p1b: Armarouge|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|3
+|
+|t:|1757731378
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|cant|p1b: Armarouge|slp
+|-curestatus|p1a: Indeedee|slp|[msg]
+|move|p1a: Indeedee|Psychic|p2a: Torkoal
+|-damage|p2a: Torkoal|49/100
+|move|p2b: Incineroar|Parting Shot|p1b: Armarouge
+|-unboost|p1b: Armarouge|atk|1
+|-unboost|p1b: Armarouge|spa|1
+|
+|t:|1757731387
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1757731397
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|cant|p1b: Armarouge|slp
+|move|p1a: Indeedee|Psychic|p2b: Ursaluna
+|-damage|p2b: Ursaluna|62/100 brn
+|move|p2b: Ursaluna|Earthquake|p1b: Armarouge|[spread] p1a,p1b
+|-activate|p2a: Torkoal|move: Protect
+|-supereffective|p1b: Armarouge
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Armarouge|0 fnt
+|faint|p1a: Indeedee
+|faint|p1b: Armarouge
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|57/100 brn|[from] brn
+|upkeep
+|
+|t:|1757731410
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p1a: Gallade|Gallade, L50, M|100/100
+|turn|5
+|
+|t:|1757731420
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1a: Gallade|Protect|p1a: Gallade
+|-singleturn|p1a: Gallade|Protect
+|move|p2a: Torkoal|Overheat|p1a: Gallade
+|-activate|p1a: Gallade|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|51/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|6
+|inactive|Jimcarona has 30 seconds left.
+|
+|t:|1757731448
+|-terastallize|p2b: Ursaluna|Ghost
+|move|p1a: Gallade|Sacred Sword|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|move|p2b: Ursaluna|Facade|p1a: Gallade
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|move|p1b: Ursaluna|Earthquake|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1757731456
+|switch|p2b: Jumpluff|Jumpluff, L50, M|20/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1b: Ursaluna|atk|1
+|turn|7
+|
+|t:|1757731480
+|move|p2b: Jumpluff|Rage Powder|p2b: Jumpluff
+|-singleturn|p2b: Jumpluff|move: Rage Powder
+|move|p2a: Incineroar|Flare Blitz|p1b: Ursaluna
+|-damage|p1b: Ursaluna|28/100 brn
+|-damage|p2a: Incineroar|76/100|[from] Recoil
+|move|p1b: Ursaluna|Earthquake|p2b: Jumpluff|[spread] p2a
+|-immune|p2b: Jumpluff
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-weather|none
+|-damage|p1b: Ursaluna|22/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1757731495
+|move|p2b: Jumpluff|Tailwind|p2b: Jumpluff
+|-sidestart|p2: Qicide|move: Tailwind
+|move|p1b: Ursaluna|Facade|p2b: Jumpluff
+|-damage|p2b: Jumpluff|0 fnt
+|faint|p2b: Jumpluff
+|
+|win|Jimcarona

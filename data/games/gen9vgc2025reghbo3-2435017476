@@ -1,0 +1,133 @@
+|j|☆C.blaze
+|j|☆Bruthathechosen
+|html|C.blazeBruthathechosen    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756988634
+|gametype|doubles
+|player|p1|C.blaze|2|1182
+|player|p2|Bruthathechosen|lady-gen4|1083
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Hydreigon, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Electabuzz, L50, F|
+|poke|p2|Volcarona, L50, F|
+|teampreview|4
+|showteam|p1|Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Protect,Tailwind|||F|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|DracoMeteor,ElectroShot,BodyPress,Snarl|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Protect,Earthquake|||F|||50|,,,,,Ghost]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,LifeDew,TrickRoom||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|KnockOff,WillOWisp,PartingShot,FakeOut|||M|||50|,,,,,Ghost]Garchomp||ClearAmulet|RoughSkin|DragonClaw,Earthquake,Protect,StompingTantrum|||F|||50|,,,,,Steel
+|showteam|p2|Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,SwordsDance,Protect|||M|||50|,,,,,Dark]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,HighHorsepower,Uturn|||F|||50|,,,,,Water]Hydreigon||ChoiceSpecs|Levitate|DarkPulse,DracoMeteor,Snarl,Uturn|||M|||50|,,,,,Ghost]Sneasler||GrassySeed|Unburden|FakeOut,CloseCombat,DireClaw,Protect|||M|||50|,,,,,Fighting]Electabuzz||Eviolite|VitalSpirit|Taunt,Thunderbolt,FollowMe,Protect|||F|||50|,,,,,Dragon]Volcarona||CovertCloak|FlameBody|QuiverDance,HeatWave,TeraBlast,Protect|||F|||50|,,,,,Fairy
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by C.blaze)
+|
+|t:|1756988653
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Kingambit|Kingambit, L50, M|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|-ability|p2a: Kingambit|Defiant|boost
+|-boost|p2a: Kingambit|atk|2
+|-unboost|p2b: Rillaboom|atk|1
+|turn|1
+|
+|t:|1756988671
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|move|p2b: Rillaboom|Fake Out|p1b: Incineroar
+|-damage|p1b: Incineroar|91/100
+|cant|p1b: Incineroar|flinch
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Incineroar|97/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756988684
+|move|p2a: Kingambit|Protect|p2a: Kingambit
+|-singleturn|p2a: Kingambit|Protect
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2a: Kingambit
+|-activate|p2a: Kingambit|move: Protect
+|move|p2b: Rillaboom|U-turn|p1b: Incineroar
+|-damage|p1b: Incineroar|81/100
+|
+|t:|1756988693
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100|[from] U-turn
+|-enditem|p2b: Sneasler|Grassy Seed
+|-boost|p2b: Sneasler|def|1|[from] item: Grassy Seed
+|move|p1b: Incineroar|Will-O-Wisp|p2a: Kingambit
+|-activate|p2a: Kingambit|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Incineroar|87/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756988711
+|switch|p1a: Garchomp|Garchomp, L50, F|100/100
+|-terastallize|p2a: Kingambit|Dark
+|move|p2b: Sneasler|Close Combat|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1b: Incineroar
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Kingambit|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kingambit|94/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756988720
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|turn|4
+|inactive|Bruthathechosen has 30 seconds left.
+|
+|t:|1756988748
+|-terastallize|p1b: Archaludon|Grass
+|move|p2a: Kingambit|Sucker Punch|p1a: Pelipper
+|-enditem|p1a: Pelipper|Focus Sash
+|-damage|p1a: Pelipper|1/100
+|move|p2b: Sneasler|Dire Claw|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Kingambit
+|-damage|p2a: Kingambit|18/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Kingambit|24/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|-message|C.blaze forfeited.
+|raw|C.blaze's rating: 1182 → 1150(-32 for losing)
+|raw|Bruthathechosen's rating: 1083 → 1118(+35 for winning)
+|
+|win|Bruthathechosen
+|l|☆C.blaze
+|player|p1|

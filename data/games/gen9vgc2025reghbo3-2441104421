@@ -1,0 +1,113 @@
+|j|☆BackToTwork
+|j|☆marcosdeltasena31
+|html|BackToTworkmarcosdeltasena31    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757797739
+|gametype|doubles
+|player|p1|BackToTwork|102|1390
+|player|p2|marcosdeltasena31|hilbert|1429
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zoroark-Hisui, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Electabuzz, L50, F|
+|teampreview|4
+|showteam|p1|Zoroark-Hisui||FocusSash|Illusion|IcyWind,HyperVoice,ShadowBall,Protect|||M|||50|,,,,,Stellar]Archaludon||PowerHerb|Sturdy|ElectroShot,DragonPulse,Thunderbolt,Protect|||F|||50|,,,,,Electric]Sneasler||WhiteHerb|Unburden|FakeOut,CloseCombat,DireClaw,Protect|||F|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Taunt|||M|||50|,,,,,Ghost]Whimsicott||MentalHerb|Prankster|Moonblast,Encore,Tailwind,FakeTears|||M|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||F|||50|,,,,,Steel
+|showteam|p2|Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||F|||50|,,,,,Fairy]Sneasler||FocusSash|PoisonTouch|DireClaw,CloseCombat,FakeOut,Coaching|||F|||50|,,,,,Ghost]Volcarona||CovertCloak|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||F|||50|,,,,,Fairy]Rillaboom||AssaultVest|GrassySurge|WoodHammer,FakeOut,GrassyGlide,HighHorsepower|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SwordsDance,SuckerPunch,Protect|||F|||50|,,,,,Dark]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,FollowMe,Taunt,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1757797761
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|switch|p2a: Kingambit|Kingambit, L50, F|100/100
+|switch|p2b: Electabuzz|Electabuzz, L50, F|100/100
+|turn|1
+|
+|t:|1757797777
+|-terastallize|p1b: Archaludon|Electric
+|move|p1a: Whimsicott|Fake Tears|p2b: Electabuzz
+|-unboost|p2b: Electabuzz|spd|2
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-enditem|p1b: Archaludon|Power Herb
+|-anim|p1b: Archaludon|Electro Shot|p2b: Electabuzz
+|-resisted|p2b: Electabuzz
+|-damage|p2b: Electabuzz|22/100
+|move|p2b: Electabuzz|Thunderbolt|p1b: Archaludon
+|-resisted|p1b: Archaludon
+|-damage|p1b: Archaludon|80/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BackToTwork)
+|
+|t:|1757797796
+|move|p2b: Electabuzz|Follow Me|p2b: Electabuzz
+|-singleturn|p2b: Electabuzz|move: Follow Me
+|move|p2a: Kingambit|Sucker Punch|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|faint|p1b: Archaludon
+|move|p1a: Whimsicott|Moonblast|p2b: Electabuzz
+|-damage|p2b: Electabuzz|0 fnt
+|faint|p2b: Electabuzz
+|
+|upkeep
+|
+|t:|1757797805
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|turn|3
+|
+|t:|1757797814
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100
+|-terastallize|p2a: Kingambit|Dark
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1a: Whimsicott|Moonblast|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|47/100
+|move|p2b: Volcarona|Heat Wave|p1a: Whimsicott|[spread] p1a,p1b
+|-supereffective|p1a: Whimsicott
+|-resisted|p1b: Dragonite
+|-damage|p1a: Whimsicott|0 fnt
+|-damage|p1b: Dragonite|92/100
+|faint|p1a: Whimsicott
+|
+|upkeep
+|
+|t:|1757797821
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|turn|4
+|l|☆marcosdeltasena31
+|inactive|marcosdeltasena31 disconnected and has a minute to reconnect!
+|player|p2|
+|inactive|marcosdeltasena31 has 30 seconds left.
+|inactive|marcosdeltasena31 has 20 seconds left.
+|inactive|marcosdeltasena31 has 15 seconds left.
+|inactive|marcosdeltasena31 has 10 seconds left.
+|inactive|marcosdeltasena31 has 5 seconds left.
+|-message|marcosdeltasena31 lost due to inactivity.
+|
+|win|BackToTwork
+||BackToTwork is ready for game 3.
+|inactive|marcosdeltasena31 has 5 seconds to reconnect!
+|raw|BackToTwork's rating: 1390 → 1412(+22 for winning)
+|raw|marcosdeltasena31's rating: 1429 → 1407(-22 for losing)

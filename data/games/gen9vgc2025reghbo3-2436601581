@@ -1,0 +1,119 @@
+|j|☆Beeetch
+|j|☆FilthyJonhy
+|html|BeeetchFilthyJonhy    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757198664
+|gametype|doubles
+|player|p1|Beeetch|beauty-gen4dp|1203
+|player|p2|FilthyJonhy|birdkeeper|1080
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Annihilape, L50, M|
+|poke|p2|Murkrow, L50, M|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Arcanine-Hisui, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|showteam|p1|Excadrill||FocusSash|SandRush|IronHead,HighHorsepower,Earthquake,Protect|||M|||50|,,,,,Stellar]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Protect,Trick|||M|||50|,,,,,Psychic]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Roost,Tailwind|||F|||50|,,,,,Dragon]Annihilape||SafetyGoggles|Defiant|CloseCombat,FinalGambit,RageFist,Taunt|||M|||50|,,,,,Water
+|showteam|p2|Murkrow||Eviolite|Prankster|Haze,Tailwind,Taunt,Uturn|||M|||50|,,,,,Electric]Ninetales-Alola||LightClay|SnowWarning|AuroraVeil,HelpingHand,Blizzard,FreezeDry|||M|||50|,,,,,Steel]Arcanine-Hisui||ChoiceBand|Intimidate|RockSlide,ExtremeSpeed,FlareBlitz,CloseCombat|||F|||50|,,,,,Grass]Sneasler||PsychicSeed|Unburden|Protect,CloseCombat,DireClaw,ThroatChop|||F|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,TrickRoom,Imprison|||M|||50|,,,,,Fighting]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal
+|
+|t:|1757198736
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Excadrill|Excadrill, L50, M, shiny|100/100
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|switch|p2a: Murkrow|Murkrow, L50, M|100/100
+|switch|p2b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|turn|1
+|
+|t:|1757198777
+|switch|p1b: Tyranitar|Tyranitar, L50, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|move|p2a: Murkrow|Tailwind|p2a: Murkrow
+|-sidestart|p2: FilthyJonhy|move: Tailwind
+|move|p2b: Ninetales|Aurora Veil||[still]
+|-fail|p2b: Ninetales
+|move|p1a: Excadrill|Iron Head|p2a: Murkrow
+|-damage|p2a: Murkrow|42/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Ninetales|94/100|[from] Sandstorm
+|-damage|p2a: Murkrow|36/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1757198804
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|move|p1a: Excadrill|Iron Head|p2b: Indeedee
+|-damage|p2b: Indeedee|3/100
+|move|p2a: Murkrow|U-turn|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar
+|-damage|p1b: Tyranitar|77/100
+|
+|t:|1757198815
+|switch|p2a: Ninetales|Ninetales-Alola, L50, M|94/100|[from] U-turn
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|move|p1b: Tyranitar|Rock Slide|p2a: Ninetales|[spread] p2a,p2b
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|37/100
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1757198825
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|3
+|
+|t:|1757198855
+|-terastallize|p1b: Tyranitar|Flying
+|move|p2b: Sneasler|Dire Claw|p1b: Tyranitar
+|-damage|p1b: Tyranitar|34/100
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: FilthyJonhy|move: Aurora Veil
+|move|p1a: Excadrill|Earthquake|p2a: Ninetales|[spread] p2a,p2b
+|-immune|p1b: Tyranitar
+|-supereffective|p2b: Sneasler
+|-damage|p2a: Ninetales|16/100
+|-damage|p2b: Sneasler|12/100
+|move|p1b: Tyranitar|Rock Slide|p2b: Sneasler|[spread] p2a,p2b
+|-supereffective|p2a: Ninetales
+|-resisted|p2b: Sneasler
+|-damage|p2a: Ninetales|0 fnt
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2a: Ninetales
+|faint|p2b: Sneasler
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1757198873
+|switch|p2a: Murkrow|Murkrow, L50, M|36/100
+|turn|4
+|
+|t:|1757198879
+|move|p2a: Murkrow|U-turn|p1b: Tyranitar
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|27/100
+|move|p1a: Excadrill|Iron Head|p2a: Murkrow
+|-damage|p2a: Murkrow|0 fnt
+|faint|p2a: Murkrow
+|
+|win|Beeetch

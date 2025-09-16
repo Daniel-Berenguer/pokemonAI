@@ -1,0 +1,178 @@
+|j|☆ciaranburks
+|j|☆gumbaasifun'a
+|html|ciaranburksgumbaasifun'a    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757747935
+|gametype|doubles
+|player|p1|ciaranburks|101|1036
+|player|p2|gumbaasifun'a|265|1006
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gyarados, L50, F|
+|poke|p1|Porygon-Z, L50|
+|poke|p1|Rhydon, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Gengar, L50, F|
+|poke|p1|Arcanine, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Torkoal, L50, F|
+|teampreview|4
+|showteam|p1|Gyarados||SafetyGoggles|Intimidate|DragonDance,LashOut,Waterfall,Protect|||F|||50|,,,,,Steel]Porygon-Z||Magnet|Adaptability|NastyPlot,IcyWind,Discharge,Protect||||||50|,,,,,Electric]Rhydon||AguavBerry|Reckless|Earthquake,DoubleEdge,SupercellSlam,SwordsDance|||F|||50|,,,,,Normal]Dragonite||LifeOrb|Multiscale|DragonDance,ScaleShot,ExtremeSpeed,Protect|||M|||50|,,,,,Dragon]Gengar||FocusSash|CursedBody|Disable,ShadowBall,DazzlingGleam,Protect|||F|||50|,,,,,Fairy]Arcanine||ChoiceBand|FlashFire|WildCharge,CloseCombat,ExtremeSpeed,FlareBlitz|||M|||50|,,,,,Fighting
+|showteam|p2|Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||AssaultVest|Intimidate|FakeOut,KnockOff,FlareBlitz,Uturn|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|RagePowder,SunnyDay,Tailwind,SleepPowder|||M|||50|,,,,,Fire]Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,DragonPulse|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Overheat,Eruption,HelpingHand,Protect|||F|||50|,,,,,Fire
+|
+|t:|1757747991
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gyarados|Gyarados, L50, F|100/100
+|switch|p1b: Rhydon|Rhydon, L50, F|100/100
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|switch|p2b: Jumpluff|Jumpluff, L50, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Jumpluff|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-enditem|p2a: Torkoal|Eject Pack
+|
+|t:|1757748011
+|switch|p2a: Charizard|Charizard, L50, M|100/100
+|turn|1
+|
+|t:|1757748058
+|-terastallize|p2a: Charizard|Ghost
+|move|p2b: Jumpluff|Sleep Powder|p1b: Rhydon
+|-status|p1b: Rhydon|slp|[from] move: Sleep Powder
+|move|p2a: Charizard|Heat Wave|p1b: Rhydon|[spread] p1a
+|-miss|p2a: Charizard|p1b: Rhydon
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|50/100
+|move|p1a: Gyarados|Dragon Dance|p1a: Gyarados
+|-boost|p1a: Gyarados|atk|1
+|-boost|p1a: Gyarados|spe|1
+|cant|p1b: Rhydon|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|88/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|2
+|
+|t:|1757748083
+|move|p1a: Gyarados|Protect|p1a: Gyarados
+|-singleturn|p1a: Gyarados|Protect
+|move|p2b: Jumpluff|Tailwind|p2b: Jumpluff
+|-sidestart|p2: gumbaasifun'a|move: Tailwind
+|move|p2a: Charizard|Heat Wave|p1b: Rhydon|[spread] p1b
+|-activate|p1a: Gyarados|move: Protect
+|-resisted|p1b: Rhydon
+|-damage|p1b: Rhydon|18/100 slp
+|-enditem|p1b: Rhydon|Aguav Berry|[eat]
+|-heal|p1b: Rhydon|51/100 slp|[from] item: Aguav Berry
+|cant|p1b: Rhydon|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|76/100|[from] ability: Solar Power|[of] p2a: Charizard
+|upkeep
+|turn|3
+|
+|t:|1757748142
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100
+|move|p1a: Gyarados|Protect|p1a: Gyarados
+|-singleturn|p1a: Gyarados|Protect
+|move|p2a: Charizard|Heat Wave|p1a: Gyarados|[spread] p1b
+|-activate|p1a: Gyarados|move: Protect
+|-resisted|p1b: Rhydon
+|-damage|p1b: Rhydon|0 fnt
+|faint|p1b: Rhydon
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|63/100|[from] ability: Solar Power|[of] p2a: Charizard
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757748159
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|turn|4
+|
+|t:|1757748180
+|-terastallize|p1b: Dragonite|Dragon
+|move|p2a: Charizard|Heat Wave|p1a: Gyarados|[spread] p1a
+|-miss|p2a: Charizard|p1b: Dragonite
+|-resisted|p1a: Gyarados
+|-damage|p1a: Gyarados|0 fnt
+|faint|p1a: Gyarados
+|move|p2b: Ursaluna|Facade|p1b: Dragonite
+|-damage|p1b: Dragonite|34/100
+|move|p1b: Dragonite|Scale Shot|p2a: Charizard
+|-damage|p2a: Charizard|26/100
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|-hitcount|p2: Charizard|2
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|-damage|p1b: Dragonite|24/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1757748213
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p1a: Gengar|Gengar, L50, F|100/100
+|turn|5
+|
+|t:|1757748251
+|move|p2a: Jumpluff|Rage Powder|p2a: Jumpluff
+|-singleturn|p2a: Jumpluff|move: Rage Powder
+|move|p1b: Dragonite|Scale Shot|p2a: Jumpluff
+|-damage|p2a: Jumpluff|72/100
+|-damage|p2a: Jumpluff|41/100
+|-hitcount|p2a: Jumpluff|2
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|-damage|p1b: Dragonite|14/100|[from] item: Life Orb
+|move|p1a: Gengar|Dazzling Gleam|p2a: Jumpluff|[spread] p2a,p2b
+|-damage|p2a: Jumpluff|21/100
+|-damage|p2b: Ursaluna|74/100 brn
+|move|p2b: Ursaluna|Earthquake|p1b: Dragonite|[spread] p1a,p1b
+|-immune|p2a: Jumpluff
+|-supereffective|p1a: Gengar
+|-enditem|p1a: Gengar|Focus Sash
+|-damage|p1a: Gengar|1/100
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1b: Dragonite
+|
+|-weather|none
+|-damage|p2b: Ursaluna|68/100 brn|[from] brn
+|-sideend|p2: gumbaasifun'a|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1757748291
+|move|p1a: Gengar|Disable|p2b: Ursaluna
+|-start|p2b: Ursaluna|Disable|Earthquake
+|move|p2a: Jumpluff|Tailwind|p2a: Jumpluff
+|-sidestart|p2: gumbaasifun'a|move: Tailwind
+|move|p2b: Ursaluna|Headlong Rush|p1a: Gengar
+|-supereffective|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|-unboost|p2b: Ursaluna|def|1
+|-unboost|p2b: Ursaluna|spd|1
+|faint|p1a: Gengar
+|
+|win|gumbaasifun'a
+|inactive|ciaranburks has 30 seconds to confirm battle start!
+|inactive|gumbaasifun'a has 30 seconds to confirm battle start!
+|l|☆ciaranburks
+|player|p1|
+||ciaranburks is ready for game 2.
+|inactive|gumbaasifun'a has 20 seconds to confirm battle start!
+||gumbaasifun'a is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

@@ -1,0 +1,161 @@
+|j|☆cheesbuga
+|j|☆2cake
+|html|cheesbuga2cake    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757922181
+|gametype|doubles
+|player|p1|cheesbuga|pokemaniac|1110
+|player|p2|2cake|266|1144
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p2|Clefable, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Kingambit, L50, F|
+|teampreview|4
+|showteam|p1|Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|Uturn,WoodHammer,GrassyGlide,FakeOut|||M|||50|,,,,,Fire]Farigiraf||ThroatSpray|ArmorTail|HyperVoice,Protect,Psychic,TrickRoom|||F|||50|,,,,,Fairy]Sneasler||FocusSash|Unburden|CloseCombat,Protect,FakeOut,ThroatChop|||F|||50|,,,,,Dark]Volcarona||CovertCloak|FlameBody|HeatWave,Protect,StruggleBug,QuiverDance|||M|||50|,,,,,Water
+|showteam|p2|Clefable||SafetyGoggles|Unaware|Moonblast,FollowMe,SkillSwap,Protect|||F|||50|,,,,,Water]Sneasler||FocusSash|PoisonTouch|DireClaw,CloseCombat,FakeOut,Protect|||F|||50|,,,,,Stellar]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||F|||50|,,,,,Fire]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,Outrage,Uturn|||F|||50|,,,,,Dragon]Volcarona||GrassySeed|FlameBody|HeatWave,GigaDrain,QuiverDance,Protect|||F|||50|,,,,,Grass]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Dark
+|
+|t:|1757922274
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Chonky|Volcarona, L50, F, shiny|100/100
+|switch|p2b: Benefactor|Dragapult, L50, F, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Chonky|atk|1
+|-fail|p2b: Benefactor|unboost|[from] ability: Clear Body|[of] p2b: Benefactor
+|turn|1
+|
+|t:|1757922307
+|-terastallize|p2b: Benefactor|Dragon
+|-terastallize|p1a: Farigiraf|Fairy
+|move|p1b: Incineroar|Fake Out|p2a: Chonky
+|-damage|p2a: Chonky|89/100
+|move|p2b: Benefactor|Outrage|p1b: Incineroar
+|-damage|p1b: Incineroar|3/100
+|cant|p2a: Chonky|flinch
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1757922324
+|move|p1a: Farigiraf|Hyper Voice|p2b: Benefactor|[spread] p2a,p2b
+|-damage|p2a: Chonky|59/100
+|-damage|p2b: Benefactor|64/100
+|-enditem|p1a: Farigiraf|Throat Spray
+|-boost|p1a: Farigiraf|spa|1|[from] item: Throat Spray
+|move|p1b: Incineroar|Knock Off|p2b: Benefactor
+|-damage|p2b: Benefactor|14/100
+|-enditem|p2b: Benefactor|Choice Band|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2a: Chonky|Quiver Dance|p2a: Chonky
+|-boost|p2a: Chonky|spa|1
+|-boost|p2a: Chonky|spd|1
+|-boost|p2a: Chonky|spe|1
+|move|p2b: Benefactor|Outrage|p1b: Incineroar|[from] lockedmove
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|-start|p2b: Benefactor|confusion|[fatigue]
+|
+|upkeep
+|
+|t:|1757922340
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|3
+|
+|t:|1757922345
+|switch|p2b: Adriii|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Adriii
+|-enditem|p2a: Chonky|Grassy Seed
+|-boost|p2a: Chonky|def|1|[from] item: Grassy Seed
+|move|p2a: Chonky|Protect|p2a: Chonky
+|-singleturn|p2a: Chonky|Protect
+|move|p1b: Ursaluna|Hyper Voice|p2b: Adriii|[spread] p2b
+|-activate|p2a: Chonky|move: Protect
+|-damage|p2b: Adriii|64/100
+|-damage|p1b: Ursaluna|91/100|[from] item: Life Orb
+|move|p1a: Farigiraf|Hyper Voice|p2a: Chonky|[spread] p2b
+|-activate|p2a: Chonky|move: Protect
+|-damage|p2b: Adriii|29/100
+|
+|-heal|p1b: Ursaluna|97/100|[from] Grassy Terrain
+|-heal|p2b: Adriii|35/100|[from] Grassy Terrain
+|-heal|p2a: Chonky|65/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1757922373
+|switch|p2b: The Sneasler|Sneasler, L50, F, shiny|100/100
+|move|p1b: Ursaluna|Blood Moon|p2a: Chonky
+|-damage|p2a: Chonky|0 fnt
+|faint|p2a: Chonky
+|-damage|p1b: Ursaluna|88/100|[from] item: Life Orb
+|move|p1a: Farigiraf|Hyper Voice|p2b: The Sneasler
+|-damage|p2b: The Sneasler|20/100
+|
+|-heal|p1b: Ursaluna|94/100|[from] Grassy Terrain
+|-heal|p2b: The Sneasler|25/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757922385
+|switch|p2a: Adriii|Rillaboom, L50, F|35/100
+|turn|5
+|
+|t:|1757922413
+|move|p2b: The Sneasler|Protect|p2b: The Sneasler
+|-singleturn|p2b: The Sneasler|Protect
+|move|p2a: Adriii|Fake Out||[still]
+|cant|p1a: Farigiraf|ability: Armor Tail|Fake Out|[of] p2a: Adriii
+|move|p1b: Ursaluna|Hyper Voice|p2b: The Sneasler|[spread] p2a
+|-activate|p2b: The Sneasler|move: Protect
+|-damage|p2a: Adriii|0 fnt
+|faint|p2a: Adriii
+|-damage|p1b: Ursaluna|84/100|[from] item: Life Orb
+|move|p1a: Farigiraf|Hyper Voice|p2b: The Sneasler
+|-activate|p2b: The Sneasler|move: Protect
+|
+|-heal|p1b: Ursaluna|90/100|[from] Grassy Terrain
+|-heal|p2b: The Sneasler|31/100|[from] Grassy Terrain
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1757922419
+|switch|p2a: Benefactor|Dragapult, L50, F, shiny, tera:Dragon|14/100
+|turn|6
+|
+|t:|1757922444
+|move|p2a: Benefactor|Outrage|p1b: Ursaluna
+|-damage|p1b: Ursaluna|33/100
+|move|p2b: The Sneasler|Dire Claw|p1a: Farigiraf
+|-supereffective|p1a: Farigiraf
+|-damage|p1a: Farigiraf|5/100
+|-status|p1a: Farigiraf|psn
+|move|p1a: Farigiraf|Hyper Voice|p2b: The Sneasler|[spread] p2a,p2b
+|-damage|p2a: Benefactor|0 fnt
+|-damage|p2b: The Sneasler|0 fnt
+|faint|p2a: Benefactor
+|faint|p2b: The Sneasler
+|
+|win|cheesbuga
+||2cake is ready for game 2.
+|inactive|cheesbuga has 30 seconds to confirm battle start!
+||cheesbuga is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆2cake
+|player|p2|

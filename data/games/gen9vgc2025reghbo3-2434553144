@@ -1,0 +1,115 @@
+|j|☆MidoMidori
+|j|☆jonen
+|html|MidoMidorijonen    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756925446
+|gametype|doubles
+|player|p1|MidoMidori|roxanne-gen6|
+|player|p2|jonen|ruinmaniac-gen3|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Weezing-Galar, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Talonflame, L50, F|
+|poke|p2|Annihilape, L50, F|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,TrickRoom,Protect|||M|||50|,,,,,Fighting]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||M|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||M|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|showteam|p2|Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,StompingTantrum,Protect|||M|||50|,,,,,Ground]Weezing-Galar||FocusSash|NeutralizingGas|Protect,SludgeBomb,Taunt,StrangeSteam|||M|||50|,,,,,Flying]Archaludon||PowerHerb|Sturdy|ElectroShot,Thunderbolt,DracoMeteor,Protect|||F|||50|,,,,,Electric]Gholdengo||ChoiceSpecs|GoodasGold|ShadowBall,DazzlingGleam,PowerGem,MakeItRain||||||50|,,,,,Fairy]Talonflame||CovertCloak|GaleWings|Tailwind,DualWingbeat,UpperHand,FlareBlitz|||F|||50|,,,,,Fairy]Annihilape||AssaultVest|Defiant|CloseCombat,RageFist,FinalGambit,IcePunch|||F|||50|,,,,,Grass
+|
+|t:|1756925482
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|switch|p2a: Talonflame|Talonflame, L50, F|100/100
+|switch|p2b: Annihilape|Annihilape, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1756925500
+|-terastallize|p2b: Annihilape|Grass
+|move|p2a: Talonflame|Flare Blitz|p1a: Indeedee
+|-enditem|p1a: Indeedee|Focus Sash
+|-damage|p1a: Indeedee|1/100
+|-damage|p2a: Talonflame|71/100|[from] Recoil
+|move|p1a: Indeedee|Expanding Force|p2a: Talonflame|[spread] p2a,p2b
+|-damage|p2a: Talonflame|0 fnt
+|-damage|p2b: Annihilape|64/100
+|faint|p2a: Talonflame
+|move|p1b: Annihilape|Rage Fist|p2b: Annihilape
+|-damage|p2b: Annihilape|43/100
+|move|p2b: Annihilape|Ice Punch|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|
+|upkeep
+|
+|t:|1756925519
+|switch|p2a: Garchomp|Garchomp, L50, M|100/100
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|turn|2
+|
+|t:|1756925536
+|move|p2a: Garchomp|Dragon Claw|p1a: Volcarona
+|-damage|p1a: Volcarona|28/100
+|-enditem|p1a: Volcarona|Sitrus Berry|[eat]
+|-heal|p1a: Volcarona|53/100|[from] item: Sitrus Berry
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|move|p1a: Volcarona|Tailwind|p1a: Volcarona
+|-sidestart|p1: MidoMidori|move: Tailwind
+|move|p1b: Annihilape|Close Combat|p2b: Annihilape
+|-crit|p2b: Annihilape
+|-damage|p2b: Annihilape|0 fnt
+|-unboost|p1b: Annihilape|def|1
+|-unboost|p1b: Annihilape|spd|1
+|faint|p2b: Annihilape
+|
+|upkeep
+|
+|t:|1756925539
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|turn|3
+|
+|t:|1756925564
+|move|p1a: Volcarona|Struggle Bug|p2a: Garchomp|[spread] p2a,p2b
+|-resisted|p2b: Gholdengo
+|-damage|p2a: Garchomp|74/100
+|-damage|p2b: Gholdengo|95/100
+|-unboost|p2a: Garchomp|spa|1
+|-unboost|p2b: Gholdengo|spa|1
+|move|p1b: Annihilape|Final Gambit|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p1b: Annihilape
+|faint|p2a: Garchomp
+|move|p2b: Gholdengo|Shadow Ball|p1a: Volcarona
+|-damage|p1a: Volcarona|11/100
+|
+|upkeep
+|
+|t:|1756925567
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|4
+|
+|t:|1756925577
+|move|p1a: Volcarona|Overheat|p2b: Gholdengo
+|-supereffective|p2b: Gholdengo
+|-damage|p2b: Gholdengo|0 fnt
+|-unboost|p1a: Volcarona|spa|2
+|faint|p2b: Gholdengo
+|
+|win|MidoMidori
+||MidoMidori is ready for game 3.
+||jonen is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

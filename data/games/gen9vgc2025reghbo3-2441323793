@@ -1,0 +1,125 @@
+|j|☆Ishi30
+|j|☆gladland
+|html|Ishi30gladland    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757830444
+|gametype|doubles
+|player|p1|Ishi30|169|1160
+|player|p2|gladland|2|1213
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Delphox, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||SafetyGoggles|PsychicSurge|DazzlingGleam,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Grass]Lilligant-Hisui||FocusSash|Chlorophyll|CloseCombat,SolarBlade,AfterYou,SleepPowder|||F|||50|,,,,,Ghost]Torkoal||Charcoal|Drought|WeatherBall,HeatWave,EarthPower,Eruption|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|HeadlongRush,Earthquake,Protect,Facade|||F|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|DazzlingGleam,ExpandingForce,Protect,TrickRoom|||F|||50|,,,,,Psychic
+|showteam|p2|Kingambit||SafetyGoggles|Defiant|LowKick,IronHead,KowtowCleave,SuckerPunch|||M|||50|,,,,,Ghost]Delphox||FocusSash|Magician|ExpandingForce,DazzlingGleam,Flamethrower,Protect|||M|||50|,,,,,Fairy]Pelipper||SitrusBerry|Drizzle|Tailwind,Hurricane,Surf,RainDance|||F|||50|,,,,,Ground]Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,BodyPress,FlashCannon|||F|||50|,,,,,Electric]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,DazzlingGleam,ShadowBall,HyperVoice|||M|||50|,,,,,Steel]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark
+|
+|t:|1757830470
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Delphox|Delphox, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757830496
+|-terastallize|p2a: Sneasler|Dark
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Sneasler|Throat Chop|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|6/100
+|-start|p1a: Indeedee|Throat Chop|[silent]
+|move|p2b: Delphox|Flamethrower|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|move|p1b: Gallade|Trick Room|p1b: Gallade
+|-fieldstart|move: Trick Room|[of] p1b: Gallade
+|
+|upkeep
+|
+|t:|1757830522
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|turn|2
+|
+|t:|1757830549
+|-terastallize|p1a: Hatterene|Psychic
+|move|p1a: Hatterene|Expanding Force|p2a: Sneasler|[spread] p2b
+|-immune|p2a: Sneasler
+|-resisted|p2b: Delphox
+|-damage|p2b: Delphox|29/100
+|-damage|p1a: Hatterene|91/100|[from] item: Life Orb
+|move|p1b: Gallade|Sacred Sword|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|move|p2b: Delphox|Expanding Force|p1a: Hatterene|[spread] p1a,p1b
+|-resisted|p1a: Hatterene
+|-damage|p1a: Hatterene|58/100
+|-damage|p1b: Gallade|47/100
+|
+|upkeep
+|
+|t:|1757830567
+|switch|p2a: Archaludon|Archaludon, L50, F|100/100
+|turn|3
+|
+|t:|1757830581
+|move|p1a: Hatterene|Expanding Force|p2b: Delphox|[spread] p2a,p2b
+|-resisted|p2a: Archaludon
+|-resisted|p2b: Delphox
+|-damage|p2a: Archaludon|53/100
+|-damage|p2b: Delphox|0 fnt
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|faint|p2b: Delphox
+|-damage|p1a: Hatterene|49/100|[from] item: Life Orb
+|move|p2a: Archaludon|Draco Meteor|p1a: Hatterene|[miss]
+|-miss|p2a: Archaludon|p1a: Hatterene
+|move|p1b: Gallade|Sacred Sword|p2a: Archaludon
+|-supereffective|p2a: Archaludon
+|-damage|p2a: Archaludon|0 fnt
+|faint|p2a: Archaludon
+|
+|upkeep
+|
+|t:|1757830586
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|turn|4
+|
+|t:|1757830613
+|move|p2b: Kingambit|Sucker Punch|p1b: Gallade
+|-activate|p1b: Gallade|move: Psychic Terrain
+|move|p1a: Hatterene|Expanding Force|p2b: Kingambit
+|-immune|p2b: Kingambit
+|move|p1b: Gallade|Sacred Sword|p2b: Kingambit
+|-supereffective|p2b: Kingambit
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|
+|win|Ishi30
+|raw|Ishi30's rating: 1160 → 1189(+29 for winning)
+|raw|gladland's rating: 1213 → 1184(-29 for losing)
+|l|☆gladland
+|player|p2|
+|l|☆Ishi30
+|player|p1|

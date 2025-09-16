@@ -1,0 +1,246 @@
+|j|☆Oreo_Stars
+|j|☆fudii
+|html|Oreo_Starsfudii    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757822255
+|gametype|doubles
+|player|p1|Oreo_Stars|102|1156
+|player|p2|fudii|dahlia|1171
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dondozo, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|teampreview|4
+|showteam|p1|Dondozo||Leftovers|Unaware|Protect,Yawn,WaveCrash,Fissure|||F|||50|,,,,,Poison]Rillaboom||MiracleSeed|GrassySurge|FakeOut,WoodHammer,GrassyGlide,HighHorsepower|||M|||50|,,,,,Fire]Ursaluna-Bloodmoon||ChoiceSpecs|MindsEye|BloodMoon,EarthPower,HyperVoice,Snarl|||M|||50|,,,,,Ghost]Sneasler||GrassySeed|Unburden|Protect,Acrobatics,CloseCombat,DireClaw|||M|||50|,,,,,Flying]Electabuzz||Eviolite|VitalSpirit|Protect,Electroweb,Thunderbolt,FollowMe|||M|||50|,,,,,Fairy]Gholdengo||LifeOrb|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water
+|showteam|p2|Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,Earthquake,Protect|||F|||50|,,,,,Fire]Jumpluff||CovertCloak|Chlorophyll|LeafStorm,SleepPowder,Encore,Tailwind|||F|||50|,,,,,Poison]Torkoal||EjectPack|Drought|Overheat,BurningJealousy,HelpingHand,Protect|||F|||50|,,,,,Flying]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,IceSpinner,Protect|||M|||50|,,,,,Fairy]Kingambit||AssaultVest|Defiant|IronHead,SuckerPunch,Assurance,LowKick|||F|||50|,,,,,Flying]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,ShadowBall,HeatWave,Overheat|||M|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Oreo_Stars)
+|j| PumitaNike
+|
+|t:|1757822269
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, F|100/100
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-enditem|p1b: Sneasler|Grassy Seed
+|-boost|p1b: Sneasler|def|1|[from] item: Grassy Seed
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|1
+|
+|t:|1757822293
+|switch|p2b: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|-terastallize|p2a: Jumpluff|Poison
+|-terastallize|p1b: Sneasler|Flying
+|move|p2a: Jumpluff|Tailwind|p2a: Jumpluff
+|-sidestart|p2: fudii|move: Tailwind
+|move|p1b: Sneasler|Acrobatics|p2a: Jumpluff
+|-damage|p2a: Jumpluff|20/100
+|move|p1a: Rillaboom|High Horsepower|p2b: Typhlosion
+|-supereffective|p2b: Typhlosion
+|-damage|p2b: Typhlosion|5/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jumpluff|26/100|[from] Grassy Terrain
+|-heal|p2b: Typhlosion|11/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1757822315
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|move|p1a: Rillaboom|Grassy Glide|p2b: Torkoal
+|-resisted|p2b: Torkoal
+|-damage|p2b: Torkoal|83/100
+|move|p2a: Jumpluff|Sleep Powder|p1b: Sneasler
+|-status|p1b: Sneasler|slp|[from] move: Sleep Powder
+|cant|p1b: Sneasler|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jumpluff|33/100|[from] Grassy Terrain
+|-heal|p2b: Torkoal|89/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1757822339
+|switch|p1a: Dondozo|Dondozo, L50, F|100/100
+|move|p2a: Jumpluff|Encore||[still]
+|-fail|p2a: Jumpluff
+|cant|p1b: Sneasler|slp
+|move|p2b: Torkoal|Burning Jealousy|p1a: Dondozo|[spread] p1a,p1b
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|91/100
+|-damage|p1b: Sneasler|68/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Jumpluff|39/100|[from] Grassy Terrain
+|-heal|p2b: Torkoal|95/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|97/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|100/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1757822355
+|move|p2a: Jumpluff|Sleep Powder|p1a: Dondozo
+|-status|p1a: Dondozo|slp|[from] move: Sleep Powder
+|-curestatus|p1b: Sneasler|slp|[msg]
+|move|p1b: Sneasler|Acrobatics|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|faint|p2a: Jumpluff
+|move|p2b: Torkoal|Overheat|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|-unboost|p2b: Torkoal|spa|2
+|faint|p1b: Sneasler
+|-enditem|p2b: Torkoal|Eject Pack
+|
+|t:|1757822367
+|switch|p2b: Typhlosion|Typhlosion-Hisui, L50, M|11/100
+|cant|p1a: Dondozo|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Typhlosion|17/100|[from] Grassy Terrain
+|-sideend|p2: fudii|move: Tailwind
+|upkeep
+|
+|t:|1757822374
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|5
+|inactive|fudii has 30 seconds left.
+|
+|t:|1757822403
+|move|p2a: Garchomp|Dragon Claw|p1a: Dondozo
+|-damage|p1a: Dondozo|67/100 slp
+|-damage|p2a: Garchomp|91/100|[from] item: Life Orb
+|move|p2b: Typhlosion|Overheat|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|-unboost|p2b: Typhlosion|spa|2
+|faint|p1b: Ursaluna
+|-curestatus|p1a: Dondozo|slp|[msg]
+|move|p1a: Dondozo|Wave Crash|p2a: Garchomp
+|-damage|p2a: Garchomp|69/100
+|-damage|p1a: Dondozo|54/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Dondozo|49/100|[from] Recoil
+|
+|-weather|none
+|-heal|p2a: Garchomp|75/100|[from] Grassy Terrain
+|-heal|p2b: Typhlosion|23/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|55/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|61/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1757822413
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|6
+|inactive|fudii has 30 seconds left.
+|
+|t:|1757822448
+|move|p1b: Rillaboom|Grassy Glide|p2b: Typhlosion
+|-resisted|p2b: Typhlosion
+|-damage|p2b: Typhlosion|0 fnt
+|faint|p2b: Typhlosion
+|move|p2a: Garchomp|Dragon Claw|p1b: Rillaboom
+|-damage|p1b: Rillaboom|44/100
+|-damage|p2a: Garchomp|65/100|[from] item: Life Orb
+|move|p1a: Dondozo|Yawn|p2a: Garchomp
+|-start|p2a: Garchomp|move: Yawn|[of] p1a: Dondozo
+|
+|-heal|p2a: Garchomp|71/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|50/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|68/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|74/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757822461
+|switch|p2b: Torkoal|Torkoal, L50, F|95/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|7
+|inactive|Oreo_Stars has 30 seconds left.
+|inactive|fudii has 30 seconds left.
+|
+|t:|1757822494
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1b: Rillaboom|High Horsepower|p2b: Torkoal
+|-supereffective|p2b: Torkoal
+|-damage|p2b: Torkoal|47/100
+|move|p2b: Torkoal|Burning Jealousy|p1b: Rillaboom|[spread] p1a,p1b
+|-resisted|p1a: Dondozo
+|-supereffective|p1b: Rillaboom
+|-damage|p1a: Dondozo|65/100
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|move|p1a: Dondozo|Yawn|p2b: Torkoal
+|-start|p2b: Torkoal|move: Yawn|[of] p1a: Dondozo
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Garchomp|77/100|[from] Grassy Terrain
+|-heal|p2b: Torkoal|52/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|71/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|77/100|[from] item: Leftovers
+|-end|p2a: Garchomp|move: Yawn|[silent]
+|-status|p2a: Garchomp|slp
+|upkeep
+|turn|8
+|
+|t:|1757822514
+|move|p2b: Torkoal|Helping Hand|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Helping Hand|[of] p2b: Torkoal
+|cant|p2a: Garchomp|slp
+|move|p1a: Dondozo|Wave Crash|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|44/100 slp
+|-damage|p1a: Dondozo|65/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Dondozo|57/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Garchomp|50/100 slp|[from] Grassy Terrain
+|-heal|p2b: Torkoal|58/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|63/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|69/100|[from] item: Leftovers
+|-end|p2b: Torkoal|move: Yawn|[silent]
+|-status|p2b: Torkoal|slp
+|upkeep
+|turn|9
+|
+|t:|1757822534
+|-curestatus|p2a: Garchomp|slp|[msg]
+|move|p2a: Garchomp|Dragon Claw|p1a: Dondozo
+|-damage|p1a: Dondozo|37/100
+|-damage|p2a: Garchomp|40/100|[from] item: Life Orb
+|cant|p2b: Torkoal|slp
+|move|p1a: Dondozo|Fissure|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|-ohko
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Torkoal|64/100 slp|[from] Grassy Terrain
+|-heal|p1a: Dondozo|43/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|50/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|-message|fudii forfeited.
+|
+|win|Oreo_Stars
+|raw|Oreo_Stars's rating: 1156 → 1182(+26 for winning)
+|raw|fudii's rating: 1171 → 1145(-26 for losing)
+|l|☆fudii
+|player|p2|

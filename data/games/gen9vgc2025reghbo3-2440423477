@@ -1,0 +1,204 @@
+|j|☆Kahizar
+|j|☆Blu123456789
+|html|KahizarBlu123456789    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757703331
+|gametype|doubles
+|player|p1|Kahizar|169|1098
+|player|p2|Blu123456789|unknown|1044
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Murkrow, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Ninetales-Alola||FocusSash|SnowWarning|AuroraVeil,Blizzard,Moonblast,Protect|||M|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,FakeOut,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Murkrow||Eviolite|Prankster|Taunt,Tailwind,Haze,FoulPlay|||F|||50|,,,,,Ghost]Sneasler||ChoiceBand|PoisonTouch|CloseCombat,RockSlide,DireClaw,ThroatChop|||M|||50|,,,,,Dark]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,FakeOut,Uturn|||F|||50|,,,,,Fire]Gholdengo||LifeOrb|GoodasGold|MakeItRain,TeraBlast,NastyPlot,Protect||||||50|,,,,,Ground
+|showteam|p2|Indeedee-F||MentalHerb|PsychicSurge|FollowMe,Protect,TrickRoom,HelpingHand|||F|||50|,,,,,Fairy]Armarouge||PowerHerb|FlashFire|MeteorBeam,ArmorCannon,ExpandingForce,Protect|||M|||50|,,,,,Psychic]Amoonguss||RockyHelmet|Regenerator|SludgeBomb,Spore,PollenPuff,RagePowder|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Protect,Earthquake|||M|||50|,,,,,Ghost]Hatterene||SitrusBerry|MagicBounce|DazzlingGleam,ExpandingForce,TrickRoom,Protect|||F|||50|,,,,,Steel]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,Protect,NastyPlot||||||50|,,,,,Steel
+|
+|t:|1757703374
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p2b: Armarouge|Armarouge, L50, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Armarouge|atk|1
+|turn|1
+|
+|t:|1757703402
+|switch|p1b: Murkrow|Murkrow, L50, F|100/100
+|-terastallize|p2a: Indeedee|Fairy
+|move|p2b: Armarouge|Protect|p2b: Armarouge
+|-singleturn|p2b: Armarouge|Protect
+|move|p1a: Incineroar|Parting Shot|p2b: Armarouge
+|-activate|p2b: Armarouge|move: Protect
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1757703426
+|move|p2a: Indeedee|Helping Hand|p2b: Armarouge
+|-singleturn|p2b: Armarouge|Helping Hand|[of] p2a: Indeedee
+|move|p2b: Armarouge|Meteor Beam||[still]
+|-prepare|p2b: Armarouge|Meteor Beam
+|-boost|p2b: Armarouge|spa|1
+|-enditem|p2b: Armarouge|Power Herb
+|-anim|p2b: Armarouge|Meteor Beam|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p1b: Murkrow|Foul Play|p2b: Armarouge
+|-supereffective|p2b: Armarouge
+|-damage|p2b: Armarouge|85/100
+|
+|upkeep
+|
+|t:|1757703438
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|3
+|
+|t:|1757703451
+|switch|p2a: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|move|p2b: Armarouge|Protect|p2b: Armarouge
+|-singleturn|p2b: Armarouge|Protect
+|move|p1a: Rillaboom|Fake Out|p2b: Armarouge
+|-activate|p2b: Armarouge|move: Protect
+|move|p1b: Murkrow|Haze|p1b: Murkrow
+|-clearallboost
+|
+|-heal|p2b: Armarouge|91/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1757703479
+|move|p1b: Murkrow|Taunt|p2a: Amoonguss
+|-start|p2a: Amoonguss|move: Taunt
+|cant|p2a: Amoonguss|move: Taunt|Spore
+|move|p2b: Armarouge|Armor Cannon|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-crit|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|-unboost|p2b: Armarouge|def|1
+|-unboost|p2b: Armarouge|spd|1
+|faint|p1a: Rillaboom
+|
+|-heal|p2b: Armarouge|96/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757703491
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|turn|5
+|
+|t:|1757703509
+|switch|p2a: Indeedee|Indeedee-F, L50, F, shiny, tera:Fairy|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p1b: Murkrow|Taunt|p2b: Armarouge
+|-activate|p2b: Armarouge|move: Psychic Terrain
+|move|p2b: Armarouge|Armor Cannon|p1b: Murkrow
+|-damage|p1b: Murkrow|50/100
+|-unboost|p2b: Armarouge|def|1
+|-unboost|p2b: Armarouge|spd|1
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1757703537
+|switch|p2b: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|-terastallize|p1a: Gholdengo|Ground
+|move|p2a: Indeedee|Protect|p2a: Indeedee
+|-singleturn|p2a: Indeedee|Protect
+|move|p1b: Murkrow|Taunt|p2a: Indeedee
+|-activate|p2a: Indeedee|move: Psychic Terrain
+|move|p1a: Gholdengo|Tera Blast|p2b: Amoonguss|[anim] Tera Blast Ground
+|-damage|p2b: Amoonguss|58/100
+|-damage|p1a: Gholdengo|91/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|t:|1757703573
+|move|p1b: Murkrow|Taunt|p2a: Indeedee
+|-activate|p2a: Indeedee|move: Psychic Terrain
+|move|p1a: Gholdengo|Make It Rain|p2b: Amoonguss|[spread] p2a,p2b
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|3/100
+|-damage|p2b: Amoonguss|13/100
+|-unboost|p1a: Gholdengo|spa|1
+|-damage|p1a: Gholdengo|81/100|[from] item: Life Orb
+|move|p2b: Amoonguss|Spore|p1b: Murkrow
+|-status|p1b: Murkrow|slp|[from] move: Spore
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|turn|8
+|
+|t:|1757703603
+|switch|p2a: Ursaluna|Ursaluna, L50, M, shiny|100/100
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|cant|p1b: Murkrow|slp
+|move|p1a: Gholdengo|Make It Rain|p2b: Amoonguss|[spread] p2a,p2b
+|-crit|p2a: Ursaluna
+|-damage|p2a: Ursaluna|20/100
+|-damage|p2b: Amoonguss|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2b: Amoonguss
+|-damage|p1a: Gholdengo|72/100|[from] item: Life Orb
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757703620
+|switch|p2b: Armarouge|Armarouge, L50, M, shiny|96/100
+|turn|9
+|
+|t:|1757703634
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2a: Ursaluna|Headlong Rush|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|move|p2b: Armarouge|Armor Cannon|p1b: Murkrow
+|-damage|p1b: Murkrow|0 fnt
+|-unboost|p2b: Armarouge|def|1
+|-unboost|p2b: Armarouge|spd|1
+|faint|p1b: Murkrow
+|
+|-damage|p2a: Ursaluna|14/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|10
+|
+|t:|1757703662
+|move|p2a: Ursaluna|Facade|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|win|Blu123456789
+||Kahizar is ready for game 2.
+||Blu123456789 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

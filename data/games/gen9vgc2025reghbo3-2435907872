@@ -1,0 +1,215 @@
+|j|☆Bellsproutfanwill
+|j|☆TeyVgc
+|html|BellsproutfanwillTeyVgc    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757100084
+|gametype|doubles
+|player|p1|Bellsproutfanwill|170|1277
+|player|p2|TeyVgc|101|1280
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Oranguru, L50, F|
+|poke|p1|Hariyama, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Gastrodon, L50, F|
+|teampreview|4
+|showteam|p1|Torkoal||Charcoal|Drought|Eruption,HeatWave,BodyPress,Protect|||M|||50|,,,,,Fire]Oranguru||MentalHerb|InnerFocus|Instruct,TrickRoom,Encore,Taunt|||F|||50|,,,,,Fairy]Hariyama||FlameOrb|Guts|DrainPunch,ThunderPunch,BulkUp,FakeOut|||M|||50|,,,,,Electric]Sinistcha||FocusSash|Hospitality|MatchaGotcha,ShadowBall,RagePowder,TrickRoom||||||50|,,,,,Normal]Annihilape||ChoiceScarf|Defiant|RageFist,Uturn,FinalGambit,Taunt|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||ThroatSpray|MindsEye|HyperVoice,EarthPower,BloodMoon,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Gholdengo||LifeOrb|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy]Sneasler||PsychicSeed|Unburden|Protect,DireClaw,CloseCombat,ThroatChop|||M|||50|,,,,,Dark]Incineroar||SafetyGoggles|Intimidate|KnockOff,PartingShot,FlareBlitz,FakeOut|||M|||50|,,,,,Ghost]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,Imprison,TeraBlast|||M|||50|,,,,,Fighting]Gastrodon||Leftovers|StormDrain|EarthPower,Yawn,Recover,IceBeam|||F|||50|,,,,,Poison
+|
+|t:|1757100099
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Oranguru|Oranguru, L50, F|100/100
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100
+|switch|p2a: Hector|Gholdengo, L50|100/100
+|switch|p2b: Marco|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Marco
+|turn|1
+|
+|t:|1757100122
+|move|p1b: Annihilape|Taunt|p2b: Marco
+|-start|p2b: Marco|move: Taunt
+|cant|p2b: Marco|move: Taunt|Imprison
+|move|p2a: Hector|Nasty Plot|p2a: Hector
+|-boost|p2a: Hector|spa|2
+|move|p1a: Oranguru|Trick Room|p1a: Oranguru
+|-fieldstart|move: Trick Room|[of] p1a: Oranguru
+|
+|upkeep
+|turn|2
+|
+|t:|1757100141
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|move|p1a: Oranguru|Encore||[still]
+|-fail|p1a: Oranguru
+|move|p2a: Hector|Make It Rain|p1b: Sinistcha|[spread] p1a,p1b
+|-damage|p1a: Oranguru|23/100
+|-enditem|p1b: Sinistcha|Focus Sash
+|-damage|p1b: Sinistcha|1/100
+|-unboost|p2a: Hector|spa|1
+|-damage|p2a: Hector|91/100|[from] item: Life Orb
+|move|p2b: Marco|Expanding Force|p1b: Sinistcha|[spread] p1a,p1b
+|-resisted|p1a: Oranguru
+|-damage|p1a: Oranguru|4/100
+|-damage|p1b: Sinistcha|0 fnt
+|faint|p1b: Sinistcha
+|
+|upkeep
+|
+|t:|1757100158
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|3
+|
+|t:|1757100197
+|-terastallize|p1b: Torkoal|Fire
+|move|p2a: Hector|Protect|p2a: Hector
+|-singleturn|p2a: Hector|Protect
+|move|p1b: Torkoal|Eruption|p2b: Marco|[spread] p2b
+|-activate|p2a: Hector|move: Protect
+|-enditem|p2b: Marco|Focus Sash
+|-damage|p2b: Marco|1/100
+|move|p1a: Oranguru|Instruct|p1b: Torkoal
+|-singleturn|p1b: Torkoal|move: Instruct|[of] p1a: Oranguru
+|move|p1b: Torkoal|Eruption|p2b: Marco|[spread] p2b
+|-activate|p2a: Hector|move: Protect
+|-damage|p2b: Marco|0 fnt
+|faint|p2b: Marco
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757100214
+|switch|p2b: Tuco|Incineroar, L50, M|100/100
+|-ability|p2b: Tuco|Intimidate|boost
+|-fail|p1a: Oranguru|unboost|Attack|[from] ability: Inner Focus|[of] p1a: Oranguru
+|-unboost|p1b: Torkoal|atk|1
+|turn|4
+|
+|t:|1757100239
+|switch|p2a: Leonel|Sneasler, L50, M|100/100
+|-enditem|p2a: Leonel|Psychic Seed
+|-boost|p2a: Leonel|spd|1|[from] item: Psychic Seed
+|move|p1b: Torkoal|Protect|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Protect
+|move|p1a: Oranguru|Encore||[still]
+|-fail|p1a: Oranguru
+|move|p2b: Tuco|Knock Off|p1b: Torkoal
+|-activate|p1b: Torkoal|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757100260
+|move|p2a: Leonel|Protect|p2a: Leonel
+|-singleturn|p2a: Leonel|Protect
+|move|p1b: Torkoal|Eruption|p2b: Tuco|[spread] p2b
+|-activate|p2a: Leonel|move: Protect
+|-resisted|p2b: Tuco
+|-damage|p2b: Tuco|44/100
+|move|p1a: Oranguru|Instruct|p1b: Torkoal
+|-singleturn|p1b: Torkoal|move: Instruct|[of] p1a: Oranguru
+|move|p1b: Torkoal|Eruption|p2b: Tuco|[spread] p2b
+|-activate|p2a: Leonel|move: Protect
+|-resisted|p2b: Tuco
+|-damage|p2b: Tuco|0 fnt
+|faint|p2b: Tuco
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1757100267
+|switch|p2b: Hector|Gholdengo, L50|91/100
+|turn|6
+|
+|t:|1757100283
+|move|p1b: Torkoal|Protect|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Protect
+|move|p2a: Leonel|Dire Claw|p1b: Torkoal
+|-activate|p1b: Torkoal|move: Protect
+|move|p2b: Hector|Make It Rain|p1a: Oranguru|[spread] p1a
+|-activate|p1b: Torkoal|move: Protect
+|-crit|p1a: Oranguru
+|-damage|p1a: Oranguru|0 fnt
+|-unboost|p2b: Hector|spa|1
+|faint|p1a: Oranguru
+|-damage|p2b: Hector|82/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757100299
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Bellsproutfanwill)
+|
+|t:|1757100365
+|move|p2a: Leonel|Protect|p2a: Leonel
+|-singleturn|p2a: Leonel|Protect
+|move|p2b: Hector|Protect|p2b: Hector
+|-singleturn|p2b: Hector|Protect
+|move|p1a: Annihilape|Rage Fist|p2b: Hector
+|-activate|p2b: Hector|move: Protect
+|move|p1b: Torkoal|Heat Wave|p2a: Leonel|[spread] 
+|-activate|p2a: Leonel|move: Protect
+|-activate|p2b: Hector|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|8
+|inactive|TeyVgc has 30 seconds left.
+|
+|t:|1757100398
+|-terastallize|p2b: Hector|Water
+|move|p2a: Leonel|Close Combat|p1b: Torkoal
+|-damage|p1b: Torkoal|51/100
+|-unboost|p2a: Leonel|def|1
+|-unboost|p2a: Leonel|spd|1
+|move|p1a: Annihilape|Rage Fist|p2b: Hector
+|-damage|p2b: Hector|61/100
+|move|p2b: Hector|Shadow Ball|p1b: Torkoal
+|-damage|p1b: Torkoal|10/100
+|-damage|p2b: Hector|51/100|[from] item: Life Orb
+|move|p1b: Torkoal|Heat Wave|p2b: Hector|[spread] p2a,p2b
+|-resisted|p2b: Hector
+|-damage|p2a: Leonel|28/100
+|-damage|p2b: Hector|25/100
+|
+|upkeep
+|turn|9
+|inactive|TeyVgc has 30 seconds left.
+|inactive|Bellsproutfanwill has 30 seconds left.
+|inactive|TeyVgc has 20 seconds left.
+|inactive|TeyVgc has 15 seconds left.
+|inactive|TeyVgc has 10 seconds left.
+|
+|t:|1757100445
+|move|p2a: Leonel|Dire Claw|p1a: Annihilape
+|-resisted|p1a: Annihilape
+|-damage|p1a: Annihilape|81/100
+|move|p1a: Annihilape|Rage Fist|p2b: Hector
+|-damage|p2b: Hector|0 fnt
+|faint|p2b: Hector
+|move|p1b: Torkoal|Heat Wave|p2a: Leonel
+|-damage|p2a: Leonel|0 fnt
+|faint|p2a: Leonel
+|
+|win|Bellsproutfanwill
+|raw|Bellsproutfanwill's rating: 1277 → 1302(+25 for winning)
+|raw|TeyVgc's rating: 1280 → 1255(-25 for losing)

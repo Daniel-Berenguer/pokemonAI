@@ -1,0 +1,142 @@
+|j|☆The median voter
+|j|☆marcosdeltasena31
+|html|The median votermarcosdeltasena31    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1757794900
+|gametype|doubles
+|player|p1|The median voter|scientist-gen4dp|1303
+|player|p2|marcosdeltasena31|hilbert|1409
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Electabuzz, L50, F|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|FlashCannon,BodyPress,ElectroShot,Snarl|||F|||50|,,,,,Fighting]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||F|||50|,,,,,Steel]Pelipper||FocusSash|Drizzle|MuddyWater,Hurricane,Tailwind,Protect|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom||||||50|,,,,,Dark]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,Trick,Protect||||||50|,,,,,Flying
+|showteam|p2|Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||F|||50|,,,,,Fairy]Sneasler||FocusSash|PoisonTouch|DireClaw,CloseCombat,FakeOut,Coaching|||F|||50|,,,,,Ghost]Volcarona||CovertCloak|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||F|||50|,,,,,Fairy]Rillaboom||AssaultVest|GrassySurge|WoodHammer,FakeOut,GrassyGlide,HighHorsepower|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SwordsDance,SuckerPunch,Protect|||F|||50|,,,,,Dark]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,FollowMe,Taunt,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1757794920
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Pelipper|Pelipper, L50, F|100/100
+|switch|p2a: Kingambit|Kingambit, L50, F|100/100
+|switch|p2b: Electabuzz|Electabuzz, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|turn|1
+|
+|t:|1757794939
+|switch|p1a: Dragonite|Dragonite, L50, F|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|move|p2b: Electabuzz|Thunderbolt|p1b: Ursaluna
+|-immune|p1b: Ursaluna
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Dragonite
+|-damage|p1a: Dragonite|68/100
+|
+|-weather|RainDance|[upkeep]
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1757794951
+|-terastallize|p2a: Kingambit|Dark
+|move|p2b: Electabuzz|Follow Me|p2b: Electabuzz
+|-singleturn|p2b: Electabuzz|move: Follow Me
+|move|p1a: Dragonite|Scale Shot|p2b: Electabuzz|[miss]
+|-miss|p1a: Dragonite|p2b: Electabuzz
+|move|p1b: Ursaluna|Earthquake|p2a: Kingambit|[spread] p2a,p2b
+|-immune|p1a: Dragonite
+|-supereffective|p2b: Electabuzz
+|-damage|p2a: Kingambit|48/100
+|-damage|p2b: Electabuzz|0 fnt
+|faint|p2b: Electabuzz
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1757794966
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|turn|3
+|
+|t:|1757794990
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2a: Kingambit|Protect|p2a: Kingambit
+|-singleturn|p2a: Kingambit|Protect
+|move|p2b: Sneasler|Fake Out|p1a: Pelipper
+|-damage|p1a: Pelipper|81/100
+|cant|p1a: Pelipper|flinch
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1757795008
+|-terastallize|p1b: Ursaluna|Ghost
+|move|p2a: Kingambit|Sucker Punch|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|move|p2b: Sneasler|Close Combat|p1a: Pelipper
+|-resisted|p1a: Pelipper
+|-damage|p1a: Pelipper|42/100
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|-status|p1a: Pelipper|psn|[from] ability: Poison Touch|[of] p2b: Sneasler
+|move|p1a: Pelipper|Muddy Water|p2a: Kingambit|[spread] p2a
+|-miss|p1a: Pelipper|p2b: Sneasler
+|-damage|p2a: Kingambit|4/100
+|-unboost|p2a: Kingambit|accuracy|1
+|-ability|p2a: Kingambit|Defiant|boost
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Pelipper|30/100 psn|[from] psn
+|upkeep
+|
+|t:|1757795013
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|turn|5
+|
+|t:|1757795028
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1b: Gholdengo|Trick|p1a: Pelipper
+|-activate|p1b: Gholdengo|move: Trick|[of] p1a: Pelipper
+|-item|p1a: Pelipper|Choice Scarf|[from] move: Trick
+|-item|p1b: Gholdengo|Focus Sash|[from] move: Trick
+|move|p2b: Sneasler|Dire Claw|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|none
+|upkeep
+|turn|6
+|-message|The median voter forfeited.
+|
+|win|marcosdeltasena31
+|raw|The median voter's rating: 1303 → 1289(-14 for losing)
+|raw|marcosdeltasena31's rating: 1409 → 1423(+14 for winning)
+|l|☆The median voter
+|player|p1|

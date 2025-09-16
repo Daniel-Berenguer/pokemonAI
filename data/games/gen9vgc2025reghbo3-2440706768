@@ -1,0 +1,199 @@
+|j|☆flannerystan
+|j|☆teh_umby
+|html|flannerystanteh_umby    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757739963
+|gametype|doubles
+|player|p1|flannerystan|skyla|
+|player|p2|teh_umby|clair|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Maushold, L50|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Corviknight, L50, M|
+|poke|p2|Typhlosion-Hisui, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|showteam|p1|Annihilape||Leftovers|Defiant|RageFist,DrainPunch,BulkUp,Protect|||F|||50|,,,,,Fire]Maushold||SafetyGoggles|FriendGuard|BeatUp,SuperFang,FollowMe,Protect||||||50|,,,,,Ghost]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Steel]Incineroar||SitrusBerry|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Bug]Whimsicott||CovertCloak|Prankster|Tailwind,BeatUp,Moonblast,FakeTears|||M|||50|,,,,,Dark]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Protect,StompingTantrum|||M|||50|,,,,,Dragon
+|showteam|p2|Tyranitar||ClearAmulet|SandStream|HelpingHand,KnockOff,Protect,RockSlide|||M|||50|,,,,,Flying]Excadrill||LifeOrb|SandRush|Earthquake,HighHorsepower,IronHead,Protect|||M|||50|,,,,,Water]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Protect,Tailwind|||M|||50|,,,,,Dragon]Typhlosion-Hisui||ChoiceScarf|Blaze|BlastBurn,Eruption,HeatWave,ShadowBall|||F|||50|,,,,,Fire]Sneasler||PsychicSeed|Unburden|CloseCombat,Coaching,DireClaw,Protect|||M|||50|,,,,,Stellar]Indeedee-F||SafetyGoggles|PsychicSurge|FollowMe,HelpingHand,Protect,Psychic|||F|||50|,,,,,Fairy
+|
+|t:|1757740010
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|switch|p2b: Tyranitar|Tyranitar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Typhlosion|atk|1
+|-fail|p2b: Tyranitar|unboost|[from] item: Clear Amulet|[of] p2b: Tyranitar
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|turn|1
+|
+|t:|1757740050
+|switch|p2a: Corviknight|Corviknight, L50, M|100/100
+|move|p1b: Annihilape|Rage Fist|p2a: Corviknight
+|-damage|p2a: Corviknight|84/100
+|move|p1a: Incineroar|Knock Off|p2a: Corviknight
+|-damage|p2a: Corviknight|55/100
+|-enditem|p2a: Corviknight|Leftovers|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2b: Tyranitar|Knock Off|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|78/100
+|-enditem|p1a: Incineroar|Sitrus Berry|[from] move: Knock Off|[of] p2b: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Annihilape|95/100|[from] Sandstorm
+|-damage|p1a: Incineroar|72/100|[from] Sandstorm
+|-heal|p1b: Annihilape|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1757740114
+|switch|p1a: Maushold|Maushold, L50|100/100
+|move|p1b: Annihilape|Bulk Up|p1b: Annihilape
+|-boost|p1b: Annihilape|atk|1
+|-boost|p1b: Annihilape|def|1
+|move|p2a: Corviknight|Tailwind|p2a: Corviknight
+|-sidestart|p2: teh_umby|move: Tailwind
+|move|p2b: Tyranitar|Rock Slide|p1b: Annihilape|[spread] p1a,p1b
+|-resisted|p1b: Annihilape
+|-damage|p1a: Maushold|62/100
+|-damage|p1b: Annihilape|93/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Annihilape|87/100|[from] Sandstorm
+|-heal|p1b: Annihilape|93/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1757740143
+|move|p1b: Annihilape|Protect|p1b: Annihilape
+|-singleturn|p1b: Annihilape|Protect
+|move|p2a: Corviknight|Brave Bird|p1b: Annihilape
+|-activate|p1b: Annihilape|move: Protect
+|move|p1a: Maushold|Super Fang|p2b: Tyranitar
+|-damage|p2b: Tyranitar|51/100
+|move|p2b: Tyranitar|Knock Off|p1b: Annihilape
+|-activate|p1b: Annihilape|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Annihilape|87/100|[from] Sandstorm
+|-heal|p1b: Annihilape|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1757740179
+|switch|p2b: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|move|p1a: Maushold|Follow Me|p1a: Maushold
+|-singleturn|p1a: Maushold|move: Follow Me
+|move|p2a: Corviknight|Brave Bird|p1a: Maushold
+|-damage|p1a: Maushold|12/100
+|-damage|p2a: Corviknight|40/100|[from] Recoil
+|move|p1b: Annihilape|Drain Punch|p2b: Typhlosion
+|-immune|p2b: Typhlosion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Typhlosion|94/100|[from] Sandstorm
+|-damage|p1b: Annihilape|87/100|[from] Sandstorm
+|-heal|p1b: Annihilape|93/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1757740216
+|-terastallize|p1b: Annihilape|Fire
+|move|p1a: Maushold|Protect|p1a: Maushold
+|-singleturn|p1a: Maushold|Protect
+|move|p2b: Typhlosion|Eruption|p1b: Annihilape|[spread] p1b
+|-activate|p1a: Maushold|move: Protect
+|-resisted|p1b: Annihilape
+|-damage|p1b: Annihilape|77/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1b: Annihilape|Rage Fist|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|
+|-weather|none
+|-heal|p1b: Annihilape|83/100|[from] item: Leftovers
+|-sideend|p2: teh_umby|move: Tailwind
+|upkeep
+|
+|t:|1757740240
+|switch|p2a: Excadrill|Excadrill, L50, M|100/100
+|turn|6
+|
+|t:|1757740293
+|switch|p1a: Incineroar|Incineroar, L50, F|72/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Excadrill|atk|1
+|-unboost|p2b: Typhlosion|atk|1
+|move|p2b: Typhlosion|Eruption|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-resisted|p1b: Annihilape
+|-damage|p1a: Incineroar|49/100
+|-damage|p1b: Annihilape|63/100
+|move|p2a: Excadrill|High Horsepower|p1b: Annihilape
+|-supereffective|p1b: Annihilape
+|-damage|p1b: Annihilape|6/100
+|-damage|p2a: Excadrill|91/100|[from] item: Life Orb
+|move|p1b: Annihilape|Drain Punch|p2a: Excadrill
+|-supereffective|p2a: Excadrill
+|-damage|p2a: Excadrill|0 fnt
+|-heal|p1b: Annihilape|50/100|[from] drain|[of] p2a: Excadrill
+|faint|p2a: Excadrill
+|
+|-heal|p1b: Annihilape|56/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757740310
+|switch|p2a: Tyranitar|Tyranitar, L50, M|51/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|7
+|
+|t:|1757740348
+|-terastallize|p2b: Typhlosion|Fire
+|move|p2a: Tyranitar|Protect|p2a: Tyranitar
+|-singleturn|p2a: Tyranitar|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Tyranitar
+|-activate|p2a: Tyranitar|move: Protect
+|move|p2b: Typhlosion|Eruption|p1b: Annihilape|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-resisted|p1b: Annihilape
+|-damage|p1a: Incineroar|18/100
+|-damage|p1b: Annihilape|27/100
+|move|p1b: Annihilape|Rage Fist|p2b: Typhlosion
+|-damage|p2b: Typhlosion|0 fnt
+|faint|p2b: Typhlosion
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Annihilape|21/100|[from] Sandstorm
+|-damage|p1a: Incineroar|12/100|[from] Sandstorm
+|-heal|p1b: Annihilape|27/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1757740367
+|move|p1b: Annihilape|Drain Punch|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-heal|p1b: Annihilape|52/100|[from] drain|[of] p2a: Tyranitar
+|faint|p2a: Tyranitar
+|
+|win|flannerystan
+|l|☆teh_umby
+|player|p2|
+|l|☆flannerystan
+|player|p1|

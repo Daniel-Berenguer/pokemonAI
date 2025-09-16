@@ -1,0 +1,103 @@
+|j|☆Scheetzy02
+|j|☆psychic system
+|html|Scheetzy02psychic system    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757789720
+|gametype|doubles
+|player|p1|Scheetzy02|266|1034
+|player|p2|psychic system|dawn|1026
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Exeggutor, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Florges, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|teampreview|4
+|showteam|p1|Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||F|||50|,,,,,Fire]Indeedee-F||MentalHerb|PsychicSurge|FollowMe,TrickRoom,Psychic,HelpingHand|||F|||50|,,,,,Grass]Hatterene||CovertCloak|MagicBounce|ExpandingForce,DazzlingGleam,Protect,CalmMind|||F|||50|,,,,,Fire]Exeggutor||SitrusBerry|Harvest|GigaDrain,Psychic,TrickRoom,Protect|||F|||50|,,,,,Water]Annihilape||ChoiceScarf|Defiant|FinalGambit,CloseCombat,ShadowClaw,Uturn|||F|||50|,,,,,Stellar]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Substitute,Protect|||M|||50|,,,,,Fairy
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Florges||Leftovers|FlowerVeil|Moonblast,DazzlingGleam,CalmMind,Protect|||F|||50|,,,,,Poison]Amoonguss||SitrusBerry|Regenerator|ClearSmog,Spore,PollenPuff,RagePowder|||M|||50|,,,,,Water]Pelipper||ChoiceScarf|Drizzle|MuddyWater,Hurricane,Tailwind,WeatherBall|||F|||50|,,,,,Water]Garchomp||ClearAmulet|RoughSkin|StompingTantrum,DragonClaw,Earthquake,Protect|||F|||50|,,,,,Poison]Rillaboom||AssaultVest|GrassySurge|DrumBeating,GrassyGlide,HighHorsepower,FakeOut|||F|||50|,,,,,Fire
+|
+|t:|1757789768
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2a: Florges|Florges, L50, F|100/100
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|turn|1
+|
+|t:|1757789800
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Annihilape|Final Gambit|p2b: Garchomp
+|-damage|p2b: Garchomp|0 fnt
+|faint|p1a: Annihilape
+|faint|p2b: Garchomp
+|move|p1b: Ursaluna|Substitute|p1b: Ursaluna
+|-start|p1b: Ursaluna|Substitute
+|-damage|p1b: Ursaluna|76/100
+|
+|-weather|RainDance|[upkeep]
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757789814
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|2
+|
+|t:|1757789850
+|move|p2a: Pelipper|Muddy Water|p1b: Ursaluna|[spread] p1b
+|-miss|p2a: Pelipper|p1a: Indeedee
+|-supereffective|p1b: Ursaluna
+|-end|p1b: Ursaluna|Substitute
+|move|p2b: Rillaboom|Drum Beating|p1a: Indeedee
+|-damage|p1a: Indeedee|47/100
+|-unboost|p1a: Indeedee|spe|1
+|move|p1b: Ursaluna|Facade|p2b: Rillaboom
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Ursaluna|70/100 brn|[from] brn
+|upkeep
+|
+|t:|1757789863
+|switch|p2b: Florges|Florges, L50, F|100/100
+|turn|3
+|
+|t:|1757789881
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Ursaluna|Facade|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|move|p2b: Florges|Moonblast|p1a: Indeedee
+|-damage|p1a: Indeedee|20/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Ursaluna|64/100 brn|[from] brn
+|upkeep
+|turn|4
+|-message|psychic system forfeited.
+|
+|win|Scheetzy02
+||psychic system is ready for game 2.
+||Scheetzy02 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

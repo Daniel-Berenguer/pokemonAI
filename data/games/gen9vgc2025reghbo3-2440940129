@@ -1,0 +1,200 @@
+|j|☆EnzoPS
+|j|☆mjs_12
+|html|EnzoPSmjs_12    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757778794
+|gametype|doubles
+|player|p1|EnzoPS|cynthia-gen4|1138
+|player|p2|mjs_12|266|1108
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Maushold, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Dragapult, L50, F|
+|teampreview|4
+|showteam|p1|Pelipper||FocusSash|Drizzle|Protect,WeatherBall,Hurricane,Tailwind|||F|||50|,,,,,Ground]Amoonguss||SitrusBerry|Regenerator|Protect,Spore,RagePowder,PollenPuff|||F|||50|,,,,,Water]Archaludon||AssaultVest|Stamina|DragonPulse,ElectroShot,FlashCannon,BodyPress|||F|||50|,,,,,Grass]Basculegion||ChoiceBand|SwiftSwim|FlipTurn,WaveCrash,AquaJet,LastRespects|||M|||50|,,,,,Grass]Gholdengo||LifeOrb|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Ghost
+|showteam|p2|Whimsicott||FocusSash|Prankster|Tailwind,Moonblast,Encore,Protect|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Protect,Earthquake|||M|||50|,,,,,Ghost]Indeedee||ChoiceSpecs|PsychicSurge|ExpandingForce,DazzlingGleam,TeraBlast,EnergyBall|||M|||50|,,,,,Fighting]Maushold||PsychicSeed|FriendGuard|FollowMe,PopulationBomb,Taunt,HelpingHand||||||50|,,,,,Normal]Incineroar||AssaultVest|Intimidate|FakeOut,FlareBlitz,KnockOff,Uturn|||M|||50|,,,,,Grass]Dragapult||LifeOrb|ClearBody|DragonDarts,TeraBlast,Protect,PhantomForce|||F|||50|,,,,,Ghost
+|
+|t:|1757778821
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Gholdengo|atk|1
+|-unboost|p1b: Amoonguss|atk|1
+|turn|1
+|
+|t:|1757778841
+|-terastallize|p2a: Incineroar|Grass
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p1b: Amoonguss|Protect|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|Protect
+|move|p2b: Indeedee|Expanding Force|p1b: Amoonguss|[spread] 
+|-activate|p1a: Gholdengo|move: Protect
+|-activate|p1b: Amoonguss|move: Protect
+|move|p2a: Incineroar|Knock Off|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1757778856
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|-terastallize|p1b: Amoonguss|Water
+|move|p2b: Indeedee|Expanding Force|p1b: Amoonguss|[spread] p1b
+|-immune|p1a: Incineroar
+|-damage|p1b: Amoonguss|26/100
+|-enditem|p1b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1b: Amoonguss|51/100|[from] item: Sitrus Berry
+|move|p2a: Incineroar|Knock Off|p1a: Incineroar
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|87/100
+|-enditem|p1a: Incineroar|Safety Goggles|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1b: Amoonguss|Spore|p2b: Indeedee
+|-status|p2b: Indeedee|slp|[from] move: Spore
+|
+|upkeep
+|turn|3
+|
+|t:|1757778879
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|cant|p2b: Indeedee|slp
+|move|p1a: Incineroar|Knock Off|p2a: Ursaluna
+|-damage|p2a: Ursaluna|67/100
+|-enditem|p2a: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p1b: Amoonguss|Pollen Puff|p2a: Ursaluna
+|-damage|p2a: Ursaluna|51/100
+|
+|upkeep
+|turn|4
+|
+|t:|1757778890
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|cant|p2b: Indeedee|slp
+|move|p2a: Ursaluna|Headlong Rush|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Incineroar
+|
+|upkeep
+|
+|t:|1757778901
+|switch|p1a: Amoonguss|Amoonguss, L50, F, tera:Water|85/100
+|turn|5
+|
+|t:|1757778912
+|switch|p2b: Whimsicott|Whimsicott, L50, F|100/100
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p1b: Gholdengo|Make It Rain|p2a: Ursaluna|[spread] p2b
+|-activate|p2a: Ursaluna|move: Protect
+|-supereffective|p2b: Whimsicott
+|-enditem|p2b: Whimsicott|Focus Sash
+|-damage|p2b: Whimsicott|1/100
+|-unboost|p1b: Gholdengo|spa|1
+|-damage|p1b: Gholdengo|91/100|[from] item: Life Orb
+|
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1757778935
+|move|p1a: Amoonguss|Protect|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|Protect
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: mjs_12|move: Tailwind
+|move|p2a: Ursaluna|Earthquake|p1b: Gholdengo|[spread] p2b,p1b
+|-activate|p1a: Amoonguss|move: Protect
+|-resisted|p2b: Whimsicott
+|-supereffective|p1b: Gholdengo
+|-damage|p2b: Whimsicott|0 fnt
+|-damage|p1b: Gholdengo|8/100
+|faint|p2b: Whimsicott
+|move|p1b: Gholdengo|Make It Rain|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2a: Ursaluna
+|-damage|p1b: Gholdengo|0 fnt|[from] item: Life Orb
+|faint|p1b: Gholdengo
+|
+|upkeep
+|
+|t:|1757778948
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100 slp
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M, tera:Grass|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|-unboost|p1b: Archaludon|atk|1
+|turn|7
+|
+|t:|1757778970
+|-curestatus|p2b: Indeedee|slp|[msg]
+|move|p2b: Indeedee|Expanding Force|p1a: Amoonguss|[spread] p1a,p1b
+|-resisted|p1b: Archaludon
+|-damage|p1a: Amoonguss|6/100
+|-damage|p1b: Archaludon|67/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p2a: Incineroar|Knock Off|p1b: Archaludon
+|-damage|p1b: Archaludon|45/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|-enditem|p1b: Archaludon|Assault Vest|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p1b: Archaludon|Dragon Pulse|p2b: Indeedee
+|-damage|p2b: Indeedee|45/100
+|move|p1a: Amoonguss|Pollen Puff|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|upkeep
+|turn|8
+|
+|t:|1757778991
+|move|p2a: Incineroar|Flare Blitz|p1b: Archaludon
+|-damage|p1b: Archaludon|24/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|-damage|p2a: Incineroar|93/100|[from] Recoil
+|move|p1b: Archaludon|Dragon Pulse|p2a: Incineroar
+|-damage|p2a: Incineroar|69/100
+|move|p1a: Amoonguss|Pollen Puff|p1b: Archaludon
+|-heal|p1b: Archaludon|74/100
+|
+|upkeep
+|turn|9
+|-message|mjs_12 forfeited.
+|
+|win|EnzoPS
+|raw|EnzoPS's rating: 1138 → 1161(+23 for winning)
+|raw|mjs_12's rating: 1108 → 1085(-23 for losing)
+|l|☆mjs_12
+|player|p2|

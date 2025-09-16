@@ -1,0 +1,175 @@
+|j|☆Pickle315
+|j|☆detoxfilms
+|html|Pickle315detoxfilms    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756956244
+|gametype|doubles
+|player|p1|Pickle315|hilbert|1026
+|player|p2|detoxfilms|2|1027
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Dragapult, L50, M|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Gengar, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Primarina, L50, F|
+|teampreview|4
+|showteam|p1|Torkoal||CovertCloak|Drought|BodyPress,ClearSmog,HelpingHand,WillOWisp|||M|||50|,,,,,Fighting]Amoonguss||RockyHelmet|Regenerator|PollenPuff,RagePowder,Spore,Synthesis|||F|||50|,,,,,Water]Charizard||LifeOrb|SolarPower|TeraBlast,HeatWave,Protect,SolarBeam|||M|||50|,,,,,Flying]Kingambit||AssaultVest|Defiant|KowtowCleave,IronHead,SuckerPunch,BrickBreak|||M|||50|,,,,,Ghost]Rillaboom||SitrusBerry|GrassySurge|HighHorsepower,GrassyGlide,SolarBlade,FakeOut|||F|||50|,,,,,Electric]Dragapult||ColburBerry|ClearBody|SunnyDay,Protect,DracoMeteor,Thunderbolt|||M|||50|,,,,,Steel
+|showteam|p2|Gothitelle||SitrusBerry|ShadowTag|FakeOut,Psychic,TrickRoom,Protect|||F|||50|,,,,,Dark]Ursaluna||FlamePlate|Guts|Protect,Facade,HeadlongRush,Earthquake|||M|||50|,,,,,Ghost]Amoonguss||EjectButton|Regenerator|Protect,SludgeBomb,Spore,RagePowder|||F|||50|,,,,,Water]Gengar||FocusSash|CursedBody|Protect,ShadowBall,Encore,PerishSong|||M|||50|,,,,,Dark]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,PartingShot,Protect|||F|||50|,,,,,Ghost]Primarina||MysticWater|LiquidVoice|Protect,Moonblast,HyperVoice,PerishSong|||F|||50|,,,,,Water
+|
+|t:|1756956315
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragapult|Dragapult, L50, M|100/100
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2b: Gengar|Gengar, L50, M|100/100
+|turn|1
+|
+|t:|1756956348
+|move|p2b: Gengar|Protect|p2b: Gengar
+|-singleturn|p2b: Gengar|Protect
+|move|p1a: Dragapult|Protect|p1a: Dragapult
+|-singleturn|p1a: Dragapult|Protect
+|move|p1b: Kingambit|Kowtow Cleave|p2b: Gengar
+|-activate|p2b: Gengar|move: Protect
+|move|p2a: Amoonguss|Spore|p1b: Kingambit
+|-status|p1b: Kingambit|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1756956367
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p2b: Gengar|Shadow Ball|p1a: Torkoal
+|-damage|p1a: Torkoal|51/100
+|cant|p1b: Kingambit|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756956398
+|-terastallize|p2a: Amoonguss|Water
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p2b: Gengar|Shadow Ball|p1a: Torkoal
+|-damage|p1a: Torkoal|3/100
+|-curestatus|p1b: Kingambit|slp|[msg]
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Amoonguss
+|-damage|p2a: Amoonguss|46/100
+|-enditem|p2a: Amoonguss|Eject Button
+|
+|t:|1756956414
+|switch|p2a: Gothitelle|Gothitelle, L50, F|100/100
+|move|p1a: Torkoal|Clear Smog|p2b: Gengar
+|-resisted|p2b: Gengar
+|-damage|p2b: Gengar|97/100
+|-clearboost|p2b: Gengar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756956447
+|switch|p2b: Amoonguss|Amoonguss, L50, F, tera:Water|79/100
+|move|p2a: Gothitelle|Fake Out|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|move|p1b: Kingambit|Kowtow Cleave|p2b: Amoonguss
+|-damage|p2b: Amoonguss|21/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756956465
+|switch|p1a: Dragapult|Dragapult, L50, M|100/100
+|turn|5
+|
+|t:|1756956476
+|move|p2a: Gothitelle|Protect|p2a: Gothitelle
+|-singleturn|p2a: Gothitelle|Protect
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1a: Dragapult|Draco Meteor|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|-unboost|p1a: Dragapult|spa|2
+|faint|p2b: Amoonguss
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Gothitelle
+|-activate|p2a: Gothitelle|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756956488
+|switch|p2b: Primarina|Primarina, L50, F|100/100
+|turn|6
+|
+|t:|1756956499
+|switch|p1a: Charizard|Charizard, L50, M|100/100
+|move|p1b: Kingambit|Iron Head|p2b: Primarina
+|-damage|p2b: Primarina|41/100
+|move|p2b: Primarina|Moonblast|p1a: Charizard
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|75/100
+|move|p2a: Gothitelle|Trick Room|p2a: Gothitelle
+|-fieldstart|move: Trick Room|[of] p2a: Gothitelle
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1756956515
+|move|p1a: Charizard|Protect|p1a: Charizard
+|-singleturn|p1a: Charizard|Protect
+|move|p2b: Primarina|Hyper Voice|p1a: Charizard|[spread] p1b
+|-activate|p1a: Charizard|move: Protect
+|-damage|p1b: Kingambit|77/100
+|move|p2a: Gothitelle|Psychic|p1a: Charizard
+|-activate|p1a: Charizard|move: Protect
+|move|p1b: Kingambit|Iron Head|p2b: Primarina
+|-damage|p2b: Primarina|0 fnt
+|faint|p2b: Primarina
+|
+|upkeep
+|
+|t:|1756956523
+|switch|p2b: Gengar|Gengar, L50, M|97/100
+|turn|8
+|
+|t:|1756956537
+|move|p2a: Gothitelle|Psychic|p1a: Charizard
+|-damage|p1a: Charizard|38/100
+|move|p1b: Kingambit|Kowtow Cleave|p2b: Gengar
+|-supereffective|p2b: Gengar
+|-damage|p2b: Gengar|0 fnt
+|faint|p2b: Gengar
+|move|p1a: Charizard|Heat Wave|p2a: Gothitelle
+|-damage|p2a: Gothitelle|63/100
+|-damage|p1a: Charizard|28/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|-message|detoxfilms forfeited.
+|
+|win|Pickle315
+|l|☆detoxfilms
+|player|p2|
+||Pickle315 is ready for game 2.
+||detoxfilms is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

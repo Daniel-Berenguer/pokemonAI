@@ -1,0 +1,196 @@
+|j|☆arielrai
+|j|☆JavoNieto
+|html|arielraiJavoNieto    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757862315
+|gametype|doubles
+|player|p1|arielrai|1|1136
+|player|p2|JavoNieto|ghetsis-gen5bw|1148
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gothitelle, L50, F|
+|poke|p1|Politoed, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Breloom, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Kingdra, L50, M|
+|poke|p2|Politoed, L50, M|
+|poke|p2|Gothitelle, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Gothitelle||SitrusBerry|ShadowTag|HealPulse,FakeOut,ExpandingForce,TrickRoom|||F|||50|,,,,,Grass]Politoed||Leftovers|Drizzle|Protect,MuddyWater,IceBeam,EarthPower|||F|||50|,,,,,Water]Indeedee-F||RockyHelmet|PsychicSurge|FollowMe,Protect,TrickRoom,DazzlingGleam|||F|||50|,,,,,Fairy]Sneasler||PsychicSeed|Unburden|Protect,DireClaw,CloseCombat,ThroatChop|||M|||50|,,,,,Dark]Archaludon||AssaultVest|Stamina|ElectroShot,FlashCannon,DracoMeteor,BodyPress|||M|||50|,,,,,Grass]Breloom||FocusSash|Technician|CloseCombat,Spore,BulletSeed,Protect|||F|||50|,,,,,Grass
+|showteam|p2|Archaludon||PowerHerb|Sturdy|Protect,ElectroShot,DragonPulse,FlashCannon|||M|||50|,,,,,Electric]Kingdra||LifeOrb|SwiftSwim|Protect,WeatherBall,MuddyWater,DracoMeteor|||M|||50|,,,,,Stellar]Politoed||Leftovers|Drizzle|Protect,WeatherBall,PerishSong,Encore|||M|||50|,,,,,Grass]Gothitelle||SitrusBerry|ShadowTag|Protect,Psychic,FakeOut,TrickRoom|||F|||50|,,,,,Dark]Amoonguss||EjectButton|Regenerator|Protect,Spore,RagePowder,PollenPuff|||M|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|Protect,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost
+|
+|t:|1757862340
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|switch|p1b: Breloom|Breloom, L50, F|100/100
+|switch|p2a: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|switch|p2b: Kingdra|Kingdra, L50, M, shiny|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by arielrai)
+|
+|t:|1757862351
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p2b: Kingdra|Protect|p2b: Kingdra
+|-singleturn|p2b: Kingdra|Protect
+|move|p1b: Breloom|Spore|p2b: Kingdra
+|-activate|p2b: Kingdra|move: Protect
+|move|p2a: Amoonguss|Spore|p1a: Sneasler
+|-activate|p1a: Sneasler|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1757862363
+|switch|p2a: Politoed|Politoed, L50, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p2b: Kingdra|Weather Ball|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|-damage|p2b: Kingdra|91/100|[from] item: Life Orb
+|move|p1b: Breloom|Spore|p2b: Kingdra
+|-status|p2b: Kingdra|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757862380
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|turn|3
+|
+|t:|1757862395
+|-terastallize|p1b: Breloom|Grass
+|-terastallize|p2a: Politoed|Grass
+|cant|p2b: Kingdra|slp
+|move|p1b: Breloom|Bullet Seed|p2b: Kingdra
+|-damage|p2b: Kingdra|56/100 slp
+|-damage|p2b: Kingdra|26/100 slp
+|-hitcount|p2b: Kingdra|2
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Archaludon|perish3|[silent]
+|-start|p1b: Breloom|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-start|p2b: Kingdra|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Kingdra
+|-damage|p2b: Kingdra|0 fnt
+|faint|p2b: Kingdra
+|
+|-weather|RainDance|[upkeep]
+|-start|p1b: Breloom|perish3
+|-start|p1a: Archaludon|perish3
+|-start|p2a: Politoed|perish3
+|upkeep
+|
+|t:|1757862403
+|switch|p2b: Gothitelle|Gothitelle, L50, F|100/100
+|turn|4
+|inactive|JavoNieto has 30 seconds left.
+|
+|t:|1757862428
+|move|p2b: Gothitelle|Fake Out|p1b: Breloom
+|-damage|p1b: Breloom|91/100
+|cant|p1b: Breloom|flinch
+|move|p2a: Politoed|Encore|p1a: Archaludon
+|-start|p1a: Archaludon|Encore
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Gothitelle
+|-damage|p2b: Gothitelle|42/100
+|-enditem|p2b: Gothitelle|Sitrus Berry|[eat]
+|-heal|p2b: Gothitelle|67/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|-start|p1b: Breloom|perish2
+|-start|p1a: Archaludon|perish2
+|-start|p2a: Politoed|perish2
+|upkeep
+|turn|5
+|
+|t:|1757862447
+|switch|p2b: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|move|p1b: Breloom|Bullet Seed|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|95/100
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|90/100
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|85/100
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|80/100
+|-hitcount|p2b: Amoonguss|4
+|-enditem|p2b: Amoonguss|Eject Button
+|
+|t:|1757862455
+|switch|p2b: Gothitelle|Gothitelle, L50, F|67/100
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Gothitelle
+|-damage|p2b: Gothitelle|0 fnt
+|faint|p2b: Gothitelle
+|move|p2a: Politoed|Encore|p1b: Breloom
+|-start|p1b: Breloom|Encore
+|
+|-weather|RainDance|[upkeep]
+|-start|p1b: Breloom|perish1
+|-start|p2a: Politoed|perish1
+|-start|p1a: Archaludon|perish1
+|upkeep
+|
+|t:|1757862458
+|switch|p2b: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|turn|6
+|c|☆JavoNieto|missclicke XD
+|
+|t:|1757862477
+|switch|p1a: Politoed|Politoed, L50, F|100/100
+|move|p1b: Breloom|Bullet Seed|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|87/100
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|74/100
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|60/100
+|-hitcount|p2a: Politoed|3
+|move|p2a: Politoed|Weather Ball|p1a: Politoed
+|-resisted|p1a: Politoed
+|-damage|p1a: Politoed|81/100
+|move|p2b: Amoonguss|Spore|p1a: Politoed
+|-status|p1a: Politoed|slp|[from] move: Spore
+|
+|-weather|none
+|-heal|p2a: Politoed|66/100|[from] item: Leftovers
+|-heal|p1a: Politoed|87/100 slp|[from] item: Leftovers
+|-start|p1b: Breloom|perish0
+|-start|p2a: Politoed|perish0
+|upkeep
+|faint|p1b: Breloom
+|faint|p2a: Politoed
+|
+|t:|1757862481
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|turn|7
+|-message|JavoNieto forfeited.
+|
+|win|arielrai
+|l|☆JavoNieto
+|player|p2|
+||JavoNieto is ready for game 3.
+||arielrai is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

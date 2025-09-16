@@ -1,0 +1,157 @@
+|j|☆EggEngines2
+|j|☆5NitesAtTrickRoom
+|html|EggEngines25NitesAtTrickRoom    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757727137
+|gametype|doubles
+|player|p1|EggEngines2|collector|
+|player|p2|5NitesAtTrickRoom|hilbert|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Electabuzz, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Talonflame, L50, F|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Maushold, L50|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Kingambit, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,HelpingHand,Protect|||M|||50|,,,,,Psychic]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Protect|||F|||50|,,,,,Dragon]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Ghost]Talonflame||CovertCloak|GaleWings|FlareBlitz,DualWingbeat,WillOWisp,Tailwind|||F|||50|,,,,,Fairy
+|showteam|p2|Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Grass]Archaludon||AssaultVest|Stamina|FlashCannon,BodyPress,ElectroShot,Snarl|||F|||50|,,,,,Fighting]Sinistcha-Masterpiece||SitrusBerry|Hospitality|RagePowder,MatchaGotcha,TrickRoom,LifeDew||||||50|,,,,,Water]Maushold||WideLens|Technician|Protect,Taunt,PopulationBomb,FollowMe||||||50|,,,,,Ghost]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,AquaJet,FlipTurn|||M|||50|,,,,,Water]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark
+|
+|t:|1757727189
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Maushold|Maushold, L50|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757727201
+|move|p1b: Indeedee|Protect|p1b: Indeedee
+|-singleturn|p1b: Indeedee|Protect
+|move|p1a: Sneasler|Throat Chop|p2a: Basculegion
+|-supereffective|p2a: Basculegion
+|-damage|p2a: Basculegion|22/100
+|-start|p2a: Basculegion|Throat Chop|[silent]
+|move|p2a: Basculegion|Flip Turn|p1b: Indeedee
+|-activate|p1b: Indeedee|move: Protect
+|move|p2b: Maushold|Population Bomb|p1a: Sneasler
+|-damage|p1a: Sneasler|82/100
+|-damage|p1a: Sneasler|62/100
+|-damage|p1a: Sneasler|42/100
+|-damage|p1a: Sneasler|25/100
+|-damage|p1a: Sneasler|5/100
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|-hitcount|p1: Sneasler|6
+|
+|upkeep
+|
+|t:|1757727246
+|switch|p1a: Talonflame|Talonflame, L50, F|100/100
+|turn|2
+|
+|t:|1757727264
+|-terastallize|p1b: Indeedee|Psychic
+|move|p1a: Talonflame|Tailwind|p1a: Talonflame
+|-sidestart|p1: EggEngines2|move: Tailwind
+|move|p1b: Indeedee|Expanding Force|p2b: Maushold|[spread] p2a,p2b
+|-damage|p2a: Basculegion|0 fnt
+|-damage|p2b: Maushold|0 fnt
+|faint|p2a: Basculegion
+|faint|p2b: Maushold
+|
+|upkeep
+|
+|t:|1757727269
+|switch|p2b: Pelipper|Pelipper, L50, M, shiny|100/100
+|switch|p2a: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|3
+|
+|t:|1757727297
+|-terastallize|p2a: Sinistcha|Water
+|move|p2b: Pelipper|Protect|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Protect
+|move|p1a: Talonflame|Dual Wingbeat|p2a: Sinistcha
+|-activate|p2a: Sinistcha|move: Psychic Terrain
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|move|p2a: Sinistcha|Trick Room|p2a: Sinistcha
+|-fieldend|move: Trick Room
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1757727333
+|move|p1a: Talonflame|Flare Blitz|p2b: Pelipper
+|-resisted|p2b: Pelipper
+|-damage|p2b: Pelipper|87/100
+|-damage|p1a: Talonflame|97/100|[from] Recoil
+|move|p1b: Indeedee|Expanding Force|p2a: Sinistcha|[spread] p2a,p2b
+|-crit|p2b: Pelipper
+|-damage|p2a: Sinistcha|40/100
+|-damage|p2b: Pelipper|0 fnt
+|-enditem|p2a: Sinistcha|Sitrus Berry|[eat]
+|-heal|p2a: Sinistcha|65/100|[from] item: Sitrus Berry
+|faint|p2b: Pelipper
+|move|p2a: Sinistcha|Trick Room|p2a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2a: Sinistcha
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757727349
+|move|p1b: Indeedee|Protect|p1b: Indeedee
+|-singleturn|p1b: Indeedee|Protect
+|move|p2a: Sinistcha|Matcha Gotcha|p1b: Indeedee|[spread] p1a
+|-activate|p1b: Indeedee|move: Protect
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|87/100
+|-heal|p2a: Sinistcha|68/100|[from] drain|[of] p1a: Talonflame
+|move|p1a: Talonflame|Dual Wingbeat|p2a: Sinistcha
+|-crit|p2a: Sinistcha
+|-damage|p2a: Sinistcha|48/100
+|-damage|p2a: Sinistcha|35/100
+|-hitcount|p2a: Sinistcha|2
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: EggEngines2|move: Tailwind
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1757727361
+|move|p2a: Sinistcha|Matcha Gotcha|p1b: Indeedee|[spread] p1a,p1b
+|-resisted|p1a: Talonflame
+|-damage|p1a: Talonflame|79/100
+|-heal|p2a: Sinistcha|39/100|[from] drain|[of] p1a: Talonflame
+|-damage|p1b: Indeedee|67/100
+|-heal|p2a: Sinistcha|52/100|[from] drain|[of] p1b: Indeedee
+|move|p1b: Indeedee|Expanding Force|p2a: Sinistcha
+|-damage|p2a: Sinistcha|8/100
+|move|p1a: Talonflame|Dual Wingbeat|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|-hitcount|p2: Sinistcha|1
+|
+|win|EggEngines2
+||EggEngines2 is ready for game 2.
+||5NitesAtTrickRoom is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

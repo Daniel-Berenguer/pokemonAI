@@ -1,0 +1,175 @@
+|j|☆Voltage Gaming101
+|j|☆0pyr0
+|html|Voltage Gaming1010pyr0    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756943235
+|gametype|doubles
+|player|p1|Voltage Gaming101|red|
+|player|p2|0pyr0|ryuki|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Houndstone, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Sneasler, L50, F|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||M|||50|,,,,,Flying]Houndstone||SpellTag|SandRush|LastRespects,ShadowSneak,PlayRough,FireFang|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Garchomp||LoadedDice|RoughSkin|ScaleShot,Earthquake,SwordsDance,Protect|||M|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Water
+|showteam|p2|Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,HyperVoice,EarthPower,VacuumWave|||M|||50|,,,,,Normal]Porygon2||Eviolite|Trace|IceBeam,Thunderbolt,Recover,TrickRoom||||||50|,,,,,Ghost]Amoonguss||CovertCloak|Regenerator|Spore,RagePowder,PollenPuff,SludgeBomb|||M|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|KnockOff,FakeOut,PartingShot,FlareBlitz|||F|||50|,,,,,Ghost]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,PhantomForce,Uturn|||F|||50|,,,,,Dragon]Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,ThroatChop,FakeOut|||F|||50|,,,,,Dark
+|
+|t:|1756943278
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2b: Ursaluna|atk|1
+|turn|1
+|
+|t:|1756943307
+|-terastallize|p1a: Incineroar|Water
+|-terastallize|p2b: Ursaluna|Normal
+|move|p2a: Sneasler|Fake Out|p1a: Incineroar
+|-damage|p1a: Incineroar|90/100
+|cant|p1a: Incineroar|flinch
+|move|p2b: Ursaluna|Blood Moon|p1b: Amoonguss
+|-damage|p1b: Amoonguss|7/100
+|-enditem|p1b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1b: Amoonguss|32/100|[from] item: Sitrus Berry
+|move|p1b: Amoonguss|Spore|p2a: Sneasler
+|-status|p2a: Sneasler|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1756943330
+|move|p1b: Amoonguss|Protect|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|Protect
+|cant|p2a: Sneasler|slp
+|move|p1a: Incineroar|Knock Off|p2b: Ursaluna
+|-damage|p2b: Ursaluna|64/100
+|-enditem|p2b: Ursaluna|Assault Vest|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2b: Ursaluna|Hyper Voice|p1a: Incineroar|[spread] p1a
+|-activate|p1b: Amoonguss|move: Protect
+|-damage|p1a: Incineroar|42/100
+|
+|upkeep
+|turn|3
+|
+|t:|1756943352
+|cant|p2a: Sneasler|slp
+|move|p1a: Incineroar|Parting Shot|p2b: Ursaluna
+|-unboost|p2b: Ursaluna|atk|1
+|-unboost|p2b: Ursaluna|spa|1
+|
+|t:|1756943359
+|switch|p1a: Tyranitar|Tyranitar, L50, M, shiny|100/100|[from] Parting Shot
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2b: Ursaluna|Hyper Voice|p1b: Amoonguss|[spread] p1a,p1b
+|-resisted|p1a: Tyranitar
+|-damage|p1a: Tyranitar|94/100
+|-damage|p1b: Amoonguss|2/100
+|move|p1b: Amoonguss|Spore|p2b: Ursaluna
+|-status|p2b: Ursaluna|slp|[from] move: Spore
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sneasler|95/100 slp|[from] Sandstorm
+|-damage|p2b: Ursaluna|58/100 slp|[from] Sandstorm
+|-damage|p1b: Amoonguss|0 fnt|[from] Sandstorm
+|faint|p1b: Amoonguss
+|upkeep
+|
+|t:|1756943373
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny, tera:Water|42/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2b: Ursaluna|atk|1
+|turn|4
+|
+|t:|1756943410
+|switch|p2a: Dragapult|Dragapult, L50, F|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|move|p1b: Incineroar|Fake Out|p2a: Dragapult
+|-immune|p2a: Dragapult
+|move|p1a: Tyranitar|Low Kick|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|95/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|94/100|[from] Sandstorm
+|-damage|p2b: Amoonguss|89/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1756943456
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force
+|move|p1b: Incineroar|Flare Blitz|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-crit|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|-damage|p1b: Incineroar|10/100|[from] Recoil
+|move|p1a: Tyranitar|Knock Off|p2a: Dragapult|[miss]
+|-miss|p1a: Tyranitar|p2a: Dragapult
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756943464
+|switch|p2b: Sneasler|Sneasler, L50, F|95/100 slp
+|turn|6
+|
+|t:|1756943481
+|move|p2a: Dragapult|Phantom Force|p1b: Incineroar|[from] lockedmove
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|-curestatus|p2b: Sneasler|slp|[msg]
+|move|p2b: Sneasler|Close Combat|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Dragapult|82/100|[from] Sandstorm
+|-damage|p2b: Sneasler|89/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756943486
+|switch|p1b: Houndstone|Houndstone, L50, F, shiny|100/100
+|turn|7
+|
+|t:|1756943501
+|move|p1b: Houndstone|Shadow Sneak|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|15/100
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force
+|move|p2b: Sneasler|Throat Chop|p1b: Houndstone
+|-supereffective|p1b: Houndstone
+|-damage|p1b: Houndstone|37/100
+|-start|p1b: Houndstone|Throat Chop|[silent]
+|
+|-weather|none
+|upkeep
+|turn|8
+|-message|Voltage Gaming101 forfeited.
+|
+|win|0pyr0

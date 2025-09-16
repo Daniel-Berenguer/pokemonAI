@@ -1,0 +1,144 @@
+|j|☆Monkeydeska
+|j|☆Bruthathechosen
+|html|MonkeydeskaBruthathechosen    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757188725
+|gametype|doubles
+|player|p1|Monkeydeska|lady-gen4|1077
+|player|p2|Bruthathechosen|lady-gen4|1124
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Kommo-o, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Hydreigon, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Volcarona, L50, M|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||F|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|Earthquake,HighHorsepower,IronHead,Protect|||M|||50|,,,,,Ground]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|Spore,PollenPuff,ClearSmog,RagePowder|||F|||50|,,,,,Water]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,TeraBlast|||M|||50|,,,,,Grass]Kommo-o||ThroatSpray|Overcoat|ClangingScales,ClangorousSoul,AuraSphere,Protect|||M|||50|,,,,,Steel
+|showteam|p2|Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,SwordsDance,Protect|||M|||50|,,,,,Dark]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,HighHorsepower,Uturn|||F|||50|,,,,,Water]Hydreigon||ChoiceSpecs|Levitate|DarkPulse,DracoMeteor,Snarl,Uturn|||M|||50|,,,,,Ghost]Sneasler||GrassySeed|Unburden|FakeOut,CloseCombat,DireClaw,Protect|||F|||50|,,,,,Stellar]Electabuzz||Eviolite|VitalSpirit|Taunt,Thunderbolt,FollowMe,Protect|||M|||50|,,,,,Dragon]Volcarona||CovertCloak|FlameBody|QuiverDance,HeatWave,TeraBlast,Protect|||M|||50|,,,,,Fairy
+|
+|t:|1757188820
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|switch|p1b: Excadrill|Excadrill, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-enditem|p2b: Sneasler|Grassy Seed
+|-boost|p2b: Sneasler|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1757188871
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2b: Sneasler|Fake Out|p1b: Excadrill
+|-resisted|p1b: Excadrill
+|-damage|p1b: Excadrill|90/100
+|move|p2a: Rillaboom|Grassy Glide|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar
+|-damage|p1a: Tyranitar|42/100
+|cant|p1b: Excadrill|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sneasler|95/100|[from] Sandstorm
+|-damage|p2a: Rillaboom|95/100|[from] Sandstorm
+|-heal|p2b: Sneasler|100/100|[from] Grassy Terrain
+|-heal|p1b: Excadrill|96/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|100/100|[from] Grassy Terrain
+|-heal|p1a: Tyranitar|48/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1757188910
+|switch|p2a: Kingambit|Kingambit, L50, M|100/100
+|-terastallize|p1a: Tyranitar|Flying
+|move|p2b: Sneasler|Close Combat|p1b: Excadrill
+|-supereffective|p1b: Excadrill
+|-damage|p1b: Excadrill|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1b: Excadrill
+|move|p1a: Tyranitar|Tera Blast|p2a: Kingambit|[anim] Tera Blast Flying
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|83/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sneasler|95/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|42/100|[from] Sandstorm
+|-heal|p2b: Sneasler|100/100|[from] Grassy Terrain
+|-heal|p2a: Kingambit|89/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757188924
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|turn|3
+|
+|t:|1757188933
+|switch|p1b: Kommo-o|Kommo-o, L50, M|100/100
+|-terastallize|p2a: Kingambit|Dark
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p2b: Sneasler|Dire Claw|p1a: Tyranitar
+|-damage|p1a: Tyranitar|4/100
+|-status|p1a: Tyranitar|psn
+|move|p1a: Tyranitar|Low Kick|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|30/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sneasler|95/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|0 fnt|[from] Sandstorm
+|-damage|p2a: Kingambit|24/100|[from] Sandstorm
+|faint|p1a: Tyranitar
+|-heal|p2b: Sneasler|100/100|[from] Grassy Terrain
+|-heal|p2a: Kingambit|30/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757188950
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|turn|4
+|
+|t:|1757188963
+|move|p2a: Kingambit|Sucker Punch|p1a: Basculegion
+|-supereffective|p1a: Basculegion
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|move|p2b: Sneasler|Close Combat|p1b: Kommo-o
+|-damage|p1b: Kommo-o|42/100
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|move|p1b: Kommo-o|Aura Sphere|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sneasler|95/100|[from] Sandstorm
+|-heal|p2b: Sneasler|100/100|[from] Grassy Terrain
+|-heal|p1b: Kommo-o|48/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757188974
+|switch|p2a: Hydreigon|Hydreigon, L50, M|100/100
+|turn|5
+|-message|Monkeydeska forfeited.
+|
+|win|Bruthathechosen
+|l|☆Monkeydeska
+|player|p1|
+||Bruthathechosen is ready for game 2.
+||Monkeydeska is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

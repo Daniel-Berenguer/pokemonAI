@@ -1,0 +1,102 @@
+|j|☆Troutlegs
+|j|☆SRareFox
+|html|TroutlegsSRareFox    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757695075
+|gametype|doubles
+|player|p1|Troutlegs|workerice|1191
+|player|p2|SRareFox|170|1143
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Excadrill, L50, F|
+|poke|p1|Gyarados, L50, F|
+|poke|p1|Rotom-Mow, L50|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Porygon2, L50|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|Crunch,RockSlide,TeraBlast,LowKick|||M|||50|,,,,,Flying]Excadrill||ClearAmulet|SandRush|HighHorsepower,IronHead,RockSlide,Protect|||F|||50|,,,,,Ghost]Gyarados||CovertCloak|Intimidate|Waterfall,Taunt,ThunderWave,Protect|||F|||50|,,,,,Ground]Rotom-Mow||SitrusBerry|Levitate|Thunderbolt,LeafStorm,WillOWisp,Electroweb||||||50|,,,,,Ghost]Sneasler||PsychicSeed|Unburden|FakeOut,CloseCombat,DireClaw,Coaching|||F|||50|,,,,,Ghost]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,TeraBlast,Imprison|||M|||50|,,,,,Fairy
+|showteam|p2|Indeedee-F||SafetyGoggles|PsychicSurge|Psychic,FollowMe,TrickRoom,HelpingHand|||F|||50|,,,,,Water]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,MysticalFire|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Torkoal||Charcoal|Drought|Eruption,WeatherBall,ClearSmog,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|IceBeam,TeraBlast,TrickRoom,Recover||||||50|,,,,,Flying
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by SRareFox)
+|inactive|Troutlegs also wants the timer to be on.
+|
+|t:|1757695087
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757695099
+|move|p1a: Sneasler|Dire Claw|p2b: Gallade
+|-damage|p2b: Gallade|39/100
+|move|p1b: Indeedee|Imprison|p1b: Indeedee
+|-start|p1b: Indeedee|move: Imprison
+|move|p2a: Indeedee|Psychic|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|move|p2b: Gallade|Sacred Sword|p1b: Indeedee
+|-enditem|p1b: Indeedee|Focus Sash
+|-damage|p1b: Indeedee|1/100
+|
+|upkeep
+|
+|t:|1757695109
+|switch|p1a: Excadrill|Excadrill, L50, F|100/100
+|turn|2
+|
+|t:|1757695131
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Indeedee|Expanding Force|p2b: Gallade|[spread] p2a,p2b
+|-resisted|p2a: Indeedee
+|-damage|p2a: Indeedee|75/100
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|move|p1a: Excadrill|Iron Head|p2a: Indeedee
+|-damage|p2a: Indeedee|27/100
+|
+|upkeep
+|
+|t:|1757695139
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|3
+|
+|t:|1757695161
+|-terastallize|p2b: Torkoal|Fire
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Indeedee|Expanding Force|p2b: Torkoal|[spread] p2a,p2b
+|-resisted|p2a: Indeedee
+|-crit|p2a: Indeedee
+|-crit|p2b: Torkoal
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2a: Indeedee
+|faint|p2b: Torkoal
+|move|p1a: Excadrill|Iron Head|p2: Indeedee|[notarget]
+|-fail|p1a: Excadrill
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|SRareFox forfeited.
+|
+|win|Troutlegs

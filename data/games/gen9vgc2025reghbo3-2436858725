@@ -1,0 +1,225 @@
+|j|☆Sark_RL
+|j|☆Bellbottoms
+|html|Sark_RLBellbottoms    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757243193
+|gametype|doubles
+|player|p1|Sark_RL|rika|
+|player|p2|Bellbottoms|pokemonbreederf-gen4|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Corviknight, L50, M|
+|poke|p1|Dragapult, L50, M|
+|poke|p1|Kilowattrel, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Arcanine-Hisui, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Ninetales-Alola, L50, F|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||M|||50|,,,,,Flying]Corviknight||SitrusBerry|MirrorArmor|BraveBird,BodyPress,Tailwind,Roost|||M|||50|,,,,,Fire]Dragapult||LifeOrb|Infiltrator|ShadowBall,DracoMeteor,Flamethrower,Protect|||M|||50|,,,,,Stellar]Kilowattrel||FocusSash|Competitive|Thunderbolt,AirSlash,Tailwind,Protect|||M|||50|,,,,,Stellar]Garchomp||Leftovers|SandVeil|Earthquake,DragonClaw,Substitute,Protect|||M|||50|,,,,,Steel]Amoonguss||CovertCloak|Regenerator|PollenPuff,SludgeBomb,RagePowder,Spore|||F|||50|,,,,,Fairy
+|showteam|p2|Gholdengo||GrassySeed|GoodasGold|MakeItRain,NastyPlot,ShadowBall,Protect||||||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|DrumBeating,GrassyGlide,FakeOut,HighHorsepower|||F|||50|,,,,,Fire]Arcanine-Hisui||ClearAmulet|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||F|||50|,,,,,Water]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,Coaching,Protect|||F|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Protect,Tailwind|||F|||50|,,,,,Ground]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,IcyWind,AuroraVeil,Encore|||F|||50|,,,,,Ghost
+|
+|t:|1757243207
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Telephone|Kilowattrel, L50, M|100/100
+|switch|p1b: Poker Face|Garchomp, L50, M|100/100
+|switch|p2a: Gold Ship|Gholdengo, L50, shiny|100/100
+|switch|p2b: Grass Wonder|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Grass Wonder
+|-enditem|p2a: Gold Ship|Grassy Seed
+|-boost|p2a: Gold Ship|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1757243219
+|move|p2b: Grass Wonder|Fake Out|p1a: Telephone
+|-damage|p1a: Telephone|78/100
+|cant|p1a: Telephone|flinch
+|move|p1b: Poker Face|Earthquake|p2a: Gold Ship|[spread] p2a,p2b
+|-immune|p1a: Telephone
+|-supereffective|p2a: Gold Ship
+|-resisted|p2b: Grass Wonder
+|-damage|p2a: Gold Ship|76/100
+|-damage|p2b: Grass Wonder|91/100
+|move|p2a: Gold Ship|Nasty Plot|p2a: Gold Ship
+|-boost|p2a: Gold Ship|spa|2
+|
+|-heal|p2b: Grass Wonder|97/100|[from] Grassy Terrain
+|-heal|p2a: Gold Ship|82/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1757243244
+|move|p1a: Telephone|Thunderbolt|p2a: Gold Ship
+|-damage|p2a: Gold Ship|42/100
+|move|p2b: Grass Wonder|Drum Beating|p1b: Poker Face
+|-damage|p1b: Poker Face|62/100
+|-unboost|p1b: Poker Face|spe|1
+|move|p2a: Gold Ship|Shadow Ball|p1a: Telephone
+|-damage|p1a: Telephone|0 fnt
+|faint|p1a: Telephone
+|move|p1b: Poker Face|Substitute|p1b: Poker Face
+|-start|p1b: Poker Face|Substitute
+|-damage|p1b: Poker Face|38/100
+|
+|-heal|p2b: Grass Wonder|100/100|[from] Grassy Terrain
+|-heal|p2a: Gold Ship|48/100|[from] Grassy Terrain
+|-heal|p1b: Poker Face|44/100|[from] Grassy Terrain
+|-heal|p1b: Poker Face|50/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757243254
+|switch|p1a: Abracadabra|Dragapult, L50, M|100/100
+|turn|3
+|
+|t:|1757243260
+|move|p2a: Gold Ship|Protect|p2a: Gold Ship
+|-singleturn|p2a: Gold Ship|Protect
+|move|p1a: Abracadabra|Shadow Ball|p2a: Gold Ship
+|-activate|p2a: Gold Ship|move: Protect
+|move|p2b: Grass Wonder|Drum Beating|p1a: Abracadabra
+|-resisted|p1a: Abracadabra
+|-damage|p1a: Abracadabra|69/100
+|-unboost|p1a: Abracadabra|spe|1
+|move|p1b: Poker Face|Dragon Claw|p2b: Grass Wonder
+|-damage|p2b: Grass Wonder|59/100
+|
+|-heal|p2b: Grass Wonder|65/100|[from] Grassy Terrain
+|-heal|p2a: Gold Ship|54/100|[from] Grassy Terrain
+|-heal|p1a: Abracadabra|74/100|[from] Grassy Terrain
+|-heal|p1b: Poker Face|56/100|[from] Grassy Terrain
+|-heal|p1b: Poker Face|62/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1757243276
+|move|p1a: Abracadabra|Protect|p1a: Abracadabra
+|-singleturn|p1a: Abracadabra|Protect
+|move|p1b: Poker Face|Protect|p1b: Poker Face
+|-singleturn|p1b: Poker Face|Protect
+|move|p2b: Grass Wonder|Drum Beating|p1b: Poker Face
+|-activate|p1b: Poker Face|move: Protect
+|move|p2a: Gold Ship|Make It Rain|p1a: Abracadabra|[spread] 
+|-activate|p1a: Abracadabra|move: Protect
+|-activate|p1b: Poker Face|move: Protect
+|
+|-heal|p2b: Grass Wonder|70/100|[from] Grassy Terrain
+|-heal|p2a: Gold Ship|60/100|[from] Grassy Terrain
+|-heal|p1a: Abracadabra|80/100|[from] Grassy Terrain
+|-heal|p1b: Poker Face|68/100|[from] Grassy Terrain
+|-heal|p1b: Poker Face|74/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1757243285
+|switch|p1a: Paparazzi|Corviknight, L50, M|100/100
+|move|p2b: Grass Wonder|High Horsepower|p1b: Poker Face
+|-end|p1b: Poker Face|Substitute
+|move|p2a: Gold Ship|Make It Rain|p1b: Poker Face|[spread] p1a,p1b
+|-resisted|p1a: Paparazzi
+|-crit|p1b: Poker Face
+|-damage|p1a: Paparazzi|57/100
+|-damage|p1b: Poker Face|0 fnt
+|-unboost|p2a: Gold Ship|spa|1
+|faint|p1b: Poker Face
+|
+|-heal|p2b: Grass Wonder|76/100|[from] Grassy Terrain
+|-heal|p2a: Gold Ship|66/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1757243293
+|switch|p1b: Abracadabra|Dragapult, L50, M|80/100
+|turn|6
+|
+|t:|1757243301
+|switch|p2b: Maruzensky|Arcanine-Hisui, L50, F|100/100
+|-ability|p2b: Maruzensky|Intimidate|boost
+|-ability|p1a: Paparazzi|Mirror Armor
+|-fail|p2b: Maruzensky|unboost|[from] item: Clear Amulet|[of] p2b: Maruzensky
+|-unboost|p1b: Abracadabra|atk|1
+|move|p2a: Gold Ship|Protect|p2a: Gold Ship
+|-singleturn|p2a: Gold Ship|Protect
+|move|p1b: Abracadabra|Shadow Ball|p2a: Gold Ship
+|-activate|p2a: Gold Ship|move: Protect
+|move|p1a: Paparazzi|Brave Bird|p2b: Maruzensky
+|-resisted|p2b: Maruzensky
+|-damage|p2b: Maruzensky|80/100
+|-damage|p1a: Paparazzi|50/100|[from] Recoil
+|-enditem|p1a: Paparazzi|Sitrus Berry|[eat]
+|-heal|p1a: Paparazzi|75/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|7
+|
+|t:|1757243327
+|-terastallize|p2a: Gold Ship|Water
+|-terastallize|p1a: Paparazzi|Fire
+|move|p1b: Abracadabra|Shadow Ball|p2a: Gold Ship
+|-damage|p2a: Gold Ship|14/100
+|-damage|p1b: Abracadabra|71/100|[from] item: Life Orb
+|move|p2b: Maruzensky|Rock Slide|p1a: Paparazzi|[spread] p1a,p1b
+|-supereffective|p1a: Paparazzi
+|-damage|p1a: Paparazzi|38/100
+|-damage|p1b: Abracadabra|37/100
+|move|p2a: Gold Ship|Shadow Ball|p1a: Paparazzi
+|-damage|p1a: Paparazzi|0 fnt
+|faint|p1a: Paparazzi
+|
+|upkeep
+|turn|8
+|
+|t:|1757243345
+|switch|p2a: Grass Wonder|Rillaboom, L50, F|76/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Grass Wonder
+|move|p1b: Abracadabra|Shadow Ball|p2a: Grass Wonder
+|-damage|p2a: Grass Wonder|34/100
+|-damage|p1b: Abracadabra|27/100|[from] item: Life Orb
+|move|p2b: Maruzensky|Rock Slide|p1b: Abracadabra|[miss]
+|-miss|p2b: Maruzensky|p1b: Abracadabra
+|
+|-heal|p1b: Abracadabra|33/100|[from] Grassy Terrain
+|-heal|p2b: Maruzensky|85/100|[from] Grassy Terrain
+|-heal|p2a: Grass Wonder|40/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1757243355
+|switch|p2a: Oguri Cap|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Oguri Cap
+|move|p1b: Abracadabra|Shadow Ball|p2b: Maruzensky
+|-damage|p2b: Maruzensky|28/100
+|-damage|p1b: Abracadabra|24/100|[from] item: Life Orb
+|move|p2b: Maruzensky|Rock Slide|p1b: Abracadabra|[miss]
+|-miss|p2b: Maruzensky|p1b: Abracadabra
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Abracadabra|29/100|[from] Grassy Terrain
+|-heal|p2b: Maruzensky|34/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1757243370
+|move|p2b: Maruzensky|Protect|p2b: Maruzensky
+|-singleturn|p2b: Maruzensky|Protect
+|move|p1b: Abracadabra|Shadow Ball|p2a: Oguri Cap
+|-damage|p2a: Oguri Cap|42/100
+|-damage|p1b: Abracadabra|20/100|[from] item: Life Orb
+|move|p2a: Oguri Cap|Blizzard|p1b: Abracadabra
+|-supereffective|p1b: Abracadabra
+|-damage|p1b: Abracadabra|0 fnt
+|faint|p1b: Abracadabra
+|
+|win|Bellbottoms
+||Bellbottoms is ready for game 3.
+||Sark_RL is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

@@ -1,0 +1,499 @@
+|j|☆eualefvc
+|j|☆trafa preparate
+|html|eualefvctrafa preparate    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757689074
+|gametype|doubles
+|player|p1|eualefvc|2|1044
+|player|p2|trafa preparate|colress|1123
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Slowking, L50, M|
+|poke|p1|Glaceon, L50, F|
+|poke|p1|Minior, L50|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Corviknight, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Magmar, L50, F|
+|teampreview|4
+|showteam|p1|Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|GrassyGlide,HighHorsepower,Uturn,FakeOut|||F|||50|,,,,,Water]Slowking||MentalHerb|Regenerator|Scald,Disable,ChillyReception,TrickRoom|||M|||50|,,,,,Dragon]Glaceon||Leftovers|IceBody|Blizzard,ShadowBall,CalmMind,Protect|||F|||50|,,,,,Ghost]Minior||FocusSash|ShieldsDown|Acrobatics,RockSlide,ShellSmash,Protect||||||50|,,,,,Rock]Gholdengo||GrassySeed|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Flying
+|showteam|p2|Corviknight||PsychicSeed|MirrorArmor|BraveBird,BulkUp,Roost,PowerTrip|||M|||50|,,,,,Dragon]Tyranitar||AssaultVest|SandStream|KnockOff,TeraBlast,LowKick,RockSlide|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|Earthquake,RockSlide,Protect,IronHead|||M|||50|,,,,,Ghost]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Protect,Trick|||M|||50|,,,,,Fighting]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,Coaching,Protect|||M|||50|,,,,,Stellar]Magmar||Eviolite|VitalSpirit|FollowMe,HeatWave,Protect,WillOWisp|||F|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by trafa preparate)
+|
+|t:|1757689098
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Slowking|Slowking, L50, M|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1757689121
+|-terastallize|p2a: Tyranitar|Flying
+|move|p1b: Rillaboom|Fake Out|p2a: Tyranitar
+|-damage|p2a: Tyranitar|91/100
+|move|p2b: Indeedee|Trick|p1b: Rillaboom
+|-activate|p2b: Indeedee|move: Trick|[of] p1b: Rillaboom
+|-item|p1b: Rillaboom|Choice Scarf|[from] move: Trick
+|-item|p2b: Indeedee|Assault Vest|[from] move: Trick
+|cant|p2a: Tyranitar|flinch
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1757689134
+|switch|p1a: Glaceon|Glaceon, L50, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757689157
+|move|p1b: Rillaboom|U-turn|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|12/100
+|
+|t:|1757689162
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100|[from] U-turn
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|move|p2b: Indeedee|Expanding Force|p1a: Glaceon
+|-damage|p1a: Glaceon|69/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Glaceon|[spread] p1a,p1b
+|-supereffective|p1a: Glaceon
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Glaceon|41/100
+|-damage|p1b: Incineroar|71/100
+|move|p1a: Glaceon|Blizzard|p2a: Tyranitar|[spread] p2a,p2b
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|44/100
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Glaceon|46/100|[from] ability: Ice Body
+|-heal|p1a: Glaceon|52/100|[from] Grassy Terrain
+|-heal|p1a: Glaceon|58/100|[from] item: Leftovers
+|-heal|p1b: Incineroar|77/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757689174
+|switch|p2b: Magmar|Magmar, L50, F|100/100
+|turn|3
+|
+|t:|1757689185
+|move|p1b: Incineroar|Fake Out|p2a: Tyranitar
+|-damage|p2a: Tyranitar|34/100
+|move|p2b: Magmar|Heat Wave|p1a: Glaceon|[spread] p1a,p1b
+|-supereffective|p1a: Glaceon
+|-resisted|p1b: Incineroar
+|-damage|p1a: Glaceon|20/100
+|-damage|p1b: Incineroar|64/100
+|cant|p2a: Tyranitar|flinch
+|move|p1a: Glaceon|Blizzard|p2b: Magmar|[spread] p2a,p2b
+|-supereffective|p2a: Tyranitar
+|-resisted|p2b: Magmar
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p2b: Magmar|84/100
+|faint|p2a: Tyranitar
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Glaceon|25/100|[from] ability: Ice Body
+|-heal|p2b: Magmar|90/100|[from] Grassy Terrain
+|-heal|p1a: Glaceon|31/100|[from] Grassy Terrain
+|-heal|p1a: Glaceon|37/100|[from] item: Leftovers
+|-heal|p1b: Incineroar|70/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757689194
+|switch|p2a: Corviknight|Corviknight, L50, M|100/100
+|turn|4
+|
+|t:|1757689208
+|move|p1a: Glaceon|Protect|p1a: Glaceon
+|-singleturn|p1a: Glaceon|Protect
+|move|p2b: Magmar|Heat Wave|p1a: Glaceon|[spread] 
+|-activate|p1a: Glaceon|move: Protect
+|-miss|p2b: Magmar|p1b: Incineroar
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1b: Incineroar|Knock Off|p2b: Magmar
+|-damage|p2b: Magmar|50/100
+|-enditem|p2b: Magmar|Eviolite|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Glaceon|43/100|[from] ability: Ice Body
+|-heal|p2b: Magmar|56/100|[from] Grassy Terrain
+|-heal|p1a: Glaceon|49/100|[from] Grassy Terrain
+|-heal|p1a: Glaceon|55/100|[from] item: Leftovers
+|-heal|p1b: Incineroar|76/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1757689233
+|-terastallize|p1a: Glaceon|Ghost
+|move|p2b: Magmar|Heat Wave|p1b: Incineroar|[spread] 
+|-miss|p2b: Magmar|p1a: Glaceon
+|-miss|p2b: Magmar|p1b: Incineroar
+|move|p2a: Corviknight|Brave Bird|p1a: Glaceon
+|-damage|p1a: Glaceon|6/100
+|-damage|p2a: Corviknight|87/100|[from] Recoil
+|move|p1a: Glaceon|Blizzard|p2b: Magmar|[spread] p2a,p2b
+|-resisted|p2b: Magmar
+|-damage|p2a: Corviknight|49/100
+|-damage|p2b: Magmar|35/100
+|move|p1b: Incineroar|Flare Blitz|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|9/100
+|-damage|p1b: Incineroar|63/100|[from] Recoil
+|
+|-weather|none
+|-heal|p2b: Magmar|41/100|[from] Grassy Terrain
+|-heal|p1a: Glaceon|12/100|[from] Grassy Terrain
+|-heal|p1a: Glaceon|17/100|[from] item: Leftovers
+|-heal|p1b: Incineroar|69/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|6
+|inactive|eualefvc has 30 seconds left.
+|
+|t:|1757689259
+|move|p1a: Glaceon|Protect|p1a: Glaceon
+|-singleturn|p1a: Glaceon|Protect
+|move|p2b: Magmar|Heat Wave|p1b: Incineroar|[spread] p1b
+|-activate|p1a: Glaceon|move: Protect
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|57/100
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|59/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1b: Incineroar|Parting Shot|p2b: Magmar
+|-unboost|p2b: Magmar|atk|1
+|-unboost|p2b: Magmar|spa|1
+|
+|t:|1757689270
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100|[from] Parting Shot
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|
+|-heal|p2b: Magmar|47/100|[from] Grassy Terrain
+|-heal|p2a: Corviknight|65/100|[from] Grassy Terrain
+|-heal|p1a: Glaceon|23/100|[from] Grassy Terrain
+|-heal|p1a: Glaceon|29/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1757689281
+|move|p2b: Magmar|Protect|p2b: Magmar
+|-singleturn|p2b: Magmar|Protect
+|move|p1b: Rillaboom|Fake Out|p2b: Magmar
+|-activate|p2b: Magmar|move: Protect
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Glaceon|Blizzard|p2a: Corviknight|[spread] p2a
+|-activate|p2b: Magmar|move: Protect
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|82/100
+|
+|-heal|p2b: Magmar|53/100|[from] Grassy Terrain
+|-heal|p2a: Corviknight|88/100|[from] Grassy Terrain
+|-heal|p1a: Glaceon|35/100|[from] Grassy Terrain
+|-heal|p1a: Glaceon|41/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|trafa preparate has 30 seconds left.
+|
+|t:|1757689314
+|switch|p1b: Slowking|Slowking, L50, M|100/100
+|move|p2b: Magmar|Protect||[still]
+|-fail|p2b: Magmar
+|move|p2a: Corviknight|Brave Bird|p1b: Slowking
+|-damage|p1b: Slowking|62/100
+|-damage|p2a: Corviknight|75/100|[from] Recoil
+|move|p1a: Glaceon|Calm Mind|p1a: Glaceon
+|-boost|p1a: Glaceon|spa|1
+|-boost|p1a: Glaceon|spd|1
+|
+|-heal|p2b: Magmar|59/100|[from] Grassy Terrain
+|-heal|p1a: Glaceon|46/100|[from] Grassy Terrain
+|-heal|p1a: Glaceon|52/100|[from] item: Leftovers
+|-heal|p1b: Slowking|68/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|inactive|eualefvc has 30 seconds left.
+|
+|t:|1757689345
+|move|p2b: Magmar|Will-O-Wisp|p1a: Glaceon
+|-status|p1a: Glaceon|brn
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Glaceon|Calm Mind|p1a: Glaceon
+|-boost|p1a: Glaceon|spa|1
+|-boost|p1a: Glaceon|spd|1
+|move|p1b: Slowking|Disable|p2a: Corviknight
+|-start|p2a: Corviknight|Disable|Roost
+|
+|-heal|p2b: Magmar|65/100|[from] Grassy Terrain
+|-heal|p1a: Glaceon|58/100 brn|[from] Grassy Terrain
+|-heal|p1a: Glaceon|64/100 brn|[from] item: Leftovers
+|-heal|p1b: Slowking|74/100|[from] Grassy Terrain
+|-damage|p1a: Glaceon|58/100 brn|[from] brn
+|upkeep
+|turn|10
+|inactive|trafa preparate has 30 seconds left.
+|
+|t:|1757689374
+|move|p1a: Glaceon|Protect|p1a: Glaceon
+|-singleturn|p1a: Glaceon|Protect
+|move|p2b: Magmar|Heat Wave|p1b: Slowking|[spread] p1b
+|-activate|p1a: Glaceon|move: Protect
+|-resisted|p1b: Slowking
+|-damage|p1b: Slowking|66/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|-prepare|p1b: Slowking|Chilly Reception|[premajor]
+|move|p1b: Slowking|Chilly Reception|p1b: Slowking
+|-weather|Snowscape
+|
+|t:|1757689384
+|switch|p1b: Incineroar|Incineroar, L50, F|57/100|[from] Chilly Reception
+|-ability|p1b: Incineroar|Intimidate|boost
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1b: Incineroar|atk|1
+|-unboost|p2b: Magmar|atk|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Glaceon|64/100 brn|[from] ability: Ice Body
+|-heal|p2b: Magmar|71/100|[from] Grassy Terrain
+|-heal|p1a: Glaceon|70/100 brn|[from] Grassy Terrain
+|-heal|p1a: Glaceon|75/100 brn|[from] item: Leftovers
+|-heal|p1b: Incineroar|63/100|[from] Grassy Terrain
+|-damage|p1a: Glaceon|70/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1757689397
+|move|p2b: Magmar|Protect|p2b: Magmar
+|-singleturn|p2b: Magmar|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|99/100
+|cant|p2a: Corviknight|flinch
+|move|p1a: Glaceon|Blizzard|p2b: Magmar|[spread] p2a
+|-activate|p2b: Magmar|move: Protect
+|-damage|p2a: Corviknight|32/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Glaceon|75/100 brn|[from] ability: Ice Body
+|-heal|p1a: Glaceon|81/100 brn|[from] item: Leftovers
+|-damage|p1a: Glaceon|75/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1757689412
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p2b: Magmar|Heat Wave|p1a: Glaceon|[spread] p1a,p1b
+|-supereffective|p1b: Rillaboom
+|-damage|p1a: Glaceon|68/100 brn
+|-damage|p1b: Rillaboom|67/100
+|move|p2a: Corviknight|Power Trip|p1a: Glaceon
+|-supereffective|p1a: Glaceon
+|-damage|p1a: Glaceon|0 fnt
+|faint|p1a: Glaceon
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Rillaboom|73/100|[from] Grassy Terrain
+|-heal|p2b: Magmar|77/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757689429
+|switch|p1a: Incineroar|Incineroar, L50, F|63/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-ability|p2a: Corviknight|Mirror Armor
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p2b: Magmar|atk|1
+|turn|13
+|
+|t:|1757689450
+|move|p1b: Rillaboom|Fake Out|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|30/100
+|move|p2b: Magmar|Will-O-Wisp|p1b: Rillaboom
+|-status|p1b: Rillaboom|brn
+|cant|p2a: Corviknight|flinch
+|move|p1a: Incineroar|Flare Blitz|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|11/100
+|-damage|p1a: Incineroar|56/100|[from] Recoil
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Rillaboom|79/100 brn|[from] Grassy Terrain
+|-heal|p2b: Magmar|83/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|62/100|[from] Grassy Terrain
+|-damage|p1b: Rillaboom|73/100 brn|[from] brn
+|-end|p2a: Corviknight|Disable
+|upkeep
+|turn|14
+|
+|t:|1757689466
+|switch|p1b: Slowking|Slowking, L50, M|99/100
+|move|p2b: Magmar|Follow Me|p2b: Magmar
+|-singleturn|p2b: Magmar|move: Follow Me
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|62/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Incineroar|Flare Blitz|p2b: Magmar
+|-resisted|p2b: Magmar
+|-damage|p2b: Magmar|60/100
+|-damage|p1a: Incineroar|56/100|[from] Recoil
+|
+|-weather|none
+|-heal|p2b: Magmar|66/100|[from] Grassy Terrain
+|-heal|p2a: Corviknight|68/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|62/100|[from] Grassy Terrain
+|-heal|p1b: Slowking|100/100|[from] Grassy Terrain
+|upkeep
+|turn|15
+|
+|t:|1757689483
+|move|p2b: Magmar|Follow Me|p2b: Magmar
+|-singleturn|p2b: Magmar|move: Follow Me
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Incineroar|Flare Blitz|p2b: Magmar
+|-resisted|p2b: Magmar
+|-damage|p2b: Magmar|39/100
+|-damage|p1a: Incineroar|56/100|[from] Recoil
+|move|p1b: Slowking|Scald|p2b: Magmar
+|-supereffective|p2b: Magmar
+|-damage|p2b: Magmar|0 fnt
+|faint|p2b: Magmar
+|
+|-heal|p1a: Incineroar|62/100|[from] Grassy Terrain
+|upkeep
+|turn|16
+|inactive|eualefvc has 30 seconds left.
+|
+|t:|1757689512
+|switch|p1b: Rillaboom|Rillaboom, L50, F|73/100 brn
+|move|p2a: Corviknight|Power Trip|p1b: Rillaboom
+|-damage|p1b: Rillaboom|29/100 brn
+|move|p1a: Incineroar|Flare Blitz|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|82/100
+|-damage|p1a: Incineroar|55/100|[from] Recoil
+|
+|-heal|p1b: Rillaboom|35/100 brn|[from] Grassy Terrain
+|-heal|p1a: Incineroar|61/100|[from] Grassy Terrain
+|-damage|p1b: Rillaboom|29/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|17
+|
+|t:|1757689530
+|move|p1b: Rillaboom|Fake Out|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|81/100
+|cant|p2a: Corviknight|flinch
+|move|p1a: Incineroar|Flare Blitz|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|62/100
+|-damage|p1a: Incineroar|55/100|[from] Recoil
+|
+|-damage|p1b: Rillaboom|23/100 brn|[from] brn
+|upkeep
+|turn|18
+|
+|t:|1757689538
+|switch|p1b: Slowking|Slowking, L50, M|100/100
+|move|p2a: Corviknight|Brave Bird|p1a: Incineroar
+|-damage|p1a: Incineroar|4/100
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|29/100|[from] item: Sitrus Berry
+|-damage|p2a: Corviknight|45/100|[from] Recoil
+|move|p1a: Incineroar|Flare Blitz|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|26/100
+|-damage|p1a: Incineroar|23/100|[from] Recoil
+|
+|upkeep
+|turn|19
+|
+|t:|1757689553
+|switch|p1b: Rillaboom|Rillaboom, L50, F|23/100 brn
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|76/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Incineroar|Flare Blitz|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|52/100
+|-damage|p1a: Incineroar|15/100|[from] Recoil
+|
+|-heal|p1b: Rillaboom|29/100 brn|[from] Grassy Terrain
+|-heal|p2a: Corviknight|58/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|21/100|[from] Grassy Terrain
+|-damage|p1b: Rillaboom|23/100 brn|[from] brn
+|upkeep
+|turn|20
+|
+|t:|1757689568
+|move|p1b: Rillaboom|High Horsepower|p2a: Corviknight
+|-immune|p2a: Corviknight
+|move|p2a: Corviknight|Roost|p2a: Corviknight
+|-heal|p2a: Corviknight|100/100
+|-singleturn|p2a: Corviknight|move: Roost
+|move|p1a: Incineroar|Flare Blitz|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-damage|p2a: Corviknight|79/100
+|-damage|p1a: Incineroar|13/100|[from] Recoil
+|
+|-heal|p1b: Rillaboom|29/100 brn|[from] Grassy Terrain
+|-heal|p2a: Corviknight|85/100|[from] Grassy Terrain
+|-heal|p1a: Incineroar|19/100|[from] Grassy Terrain
+|-damage|p1b: Rillaboom|23/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1757689586
+|switch|p1b: Slowking|Slowking, L50, M|100/100
+|move|p2a: Corviknight|Bulk Up|p2a: Corviknight
+|-boost|p2a: Corviknight|atk|1
+|-boost|p2a: Corviknight|def|1
+|move|p1a: Incineroar|Flare Blitz|p2a: Corviknight
+|-supereffective|p2a: Corviknight
+|-crit|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|faint|p2a: Corviknight
+|-damage|p1a: Incineroar|0 fnt|[from] Recoil
+|faint|p1a: Incineroar
+|
+|win|eualefvc
+|inactive|eualefvc has 30 seconds to confirm battle start!
+|inactive|trafa preparate has 30 seconds to confirm battle start!
+||trafa preparate is ready for game 2.
+|l|☆trafa preparate
+|player|p2|
+||eualefvc is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

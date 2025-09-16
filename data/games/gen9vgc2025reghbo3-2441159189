@@ -1,0 +1,130 @@
+|j|☆GhostEcto
+|j|☆Zachary Keith
+|html|GhostEctoZachary Keith    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757806643
+|gametype|doubles
+|player|p1|GhostEcto|2|1203
+|player|p2|Zachary Keith|101|1131
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p2|Baxcalibur, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Dondozo, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Magmar, L50, F|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,TrickRoom,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,TrickRoom,WideGuard|||M|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|EarthPower,WeatherBall,Eruption,HeatWave|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Protect,SwordsDance,HeadlongRush,Facade|||F|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|TrickRoom,ExpandingForce,DazzlingGleam,Protect|||F|||50|,,,,,Psychic]Lilligant-Hisui||FocusSash|Chlorophyll|AfterYou,SleepPowder,CloseCombat,SolarBlade|||F|||50|,,,,,Ghost
+|showteam|p2|Baxcalibur||LoadedDice|ThermalExchange|IcicleSpear,IceShard,ScaleShot,Protect|||M|||50|,,,,,Ghost]Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,SwordsDance,Protect|||F|||50|,,,,,Dark]Dondozo||Leftovers|Unaware|WaveCrash,Fissure,Yawn,Protect|||F|||50|,,,,,Grass]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,Uturn|||M|||50|,,,,,Fire]Magmar||Eviolite|VitalSpirit|Overheat,WillOWisp,FollowMe,Protect|||F|||50|,,,,,Fairy]Sneasler||FocusSash|PoisonTouch|DireClaw,CloseCombat,Coaching,Protect|||M|||50|,,,,,Stellar
+|
+|t:|1757806661
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Donbozo|Dondozo, L50, F, shiny|100/100
+|switch|p2b: King Bug|Kingambit, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757806676
+|switch|p2b: Forest Dude|Rillaboom, L50, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Forest Dude
+|move|p1b: Gallade|Psycho Cut|p2b: Forest Dude
+|-crit|p2b: Forest Dude
+|-damage|p2b: Forest Dude|28/100
+|move|p2a: Donbozo|Yawn|p1a: Indeedee
+|-start|p1a: Indeedee|move: Yawn|[of] p2a: Donbozo
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|-heal|p2b: Forest Dude|33/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1757806698
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2b: Forest Dude|Fake Out|p1a: Torkoal
+|-damage|p1a: Torkoal|90/100
+|move|p2a: Donbozo|Yawn|p1b: Gallade
+|-start|p1b: Gallade|move: Yawn|[of] p2a: Donbozo
+|move|p1b: Gallade|Sacred Sword|p2b: Forest Dude
+|-damage|p2b: Forest Dude|0 fnt
+|faint|p2b: Forest Dude
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|96/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757806711
+|switch|p2b: Fire Chicken|Magmar, L50, F, shiny|100/100
+|turn|3
+|
+|t:|1757806723
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|move|p1a: Torkoal|Eruption|p2a: Donbozo|[spread] p2a,p2b
+|-resisted|p2a: Donbozo
+|-resisted|p2b: Fire Chicken
+|-damage|p2a: Donbozo|59/100
+|-damage|p2b: Fire Chicken|61/100
+|move|p2a: Donbozo|Yawn|p1a: Torkoal
+|-start|p1a: Torkoal|move: Yawn|[of] p2a: Donbozo
+|move|p2b: Fire Chicken|Overheat|p1b: Hatterene
+|-damage|p1b: Hatterene|25/100
+|-unboost|p2b: Fire Chicken|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Torkoal|100/100|[from] Grassy Terrain
+|-heal|p1b: Hatterene|31/100|[from] Grassy Terrain
+|-heal|p2a: Donbozo|65/100|[from] Grassy Terrain
+|-heal|p2a: Donbozo|72/100|[from] item: Leftovers
+|-heal|p2b: Fire Chicken|67/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1757806751
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p1b: Hatterene|Expanding Force|p2a: Donbozo|[spread] p2a,p2b
+|-damage|p2a: Donbozo|2/100
+|-damage|p2b: Fire Chicken|0 fnt
+|faint|p2b: Fire Chicken
+|-damage|p1b: Hatterene|21/100|[from] item: Life Orb
+|move|p2a: Donbozo|Wave Crash|p1a: Indeedee
+|-damage|p1a: Indeedee|78/100
+|-damage|p2a: Donbozo|0 fnt|[from] Recoil
+|faint|p2a: Donbozo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757806762
+|switch|p2b: King Bug|Kingambit, L50, F, shiny|100/100
+|turn|5
+|
+|t:|1757806773
+|-terastallize|p2b: King Bug|Dark
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Hatterene|Dazzling Gleam|p2b: King Bug
+|-supereffective|p2b: King Bug
+|-damage|p2b: King Bug|0 fnt
+|faint|p2b: King Bug
+|-damage|p1b: Hatterene|12/100|[from] item: Life Orb
+|
+|win|GhostEcto

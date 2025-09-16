@@ -1,0 +1,131 @@
+|j|☆Piccius
+|j|☆TeyOnTheRox
+|html|PicciusTeyOnTheRox    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757916265
+|gametype|doubles
+|player|p1|Piccius|rancher|1205
+|player|p2|TeyOnTheRox|benga|1327
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Weezing, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Toedscruel, L50, F|
+|poke|p1|Kilowattrel, L50, F|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Corviknight, L50, F|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|showteam|p1|Weezing||SitrusBerry|NeutralizingGas|SludgeBomb,WillOWisp,Taunt,Protect|||F|||50|,,,,,Grass]Incineroar||AbilityShield|Intimidate|KnockOff,FlareBlitz,PartingShot,FakeOut|||F|||50|,,,,,Ghost]Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,Outrage,Uturn|||F|||50|,,,,,Dragon]Ursaluna-Bloodmoon||AssaultVest|MindsEye|HyperVoice,EarthPower,VacuumWave,BloodMoon|||M|||50|,,,,,Water]Toedscruel||CovertCloak|MyceliumMight|EarthPower,EnergyBall,Spore,RagePowder|||F|||50|,,,,,Water]Kilowattrel||FocusSash|Competitive|Tailwind,AirSlash,Electroweb,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||F|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|IronHead,HighHorsepower,Earthquake,Protect|||M|||50|,,,,,Stellar]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Protect,Trick|||M|||50|,,,,,Psychic]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Roost,Tailwind|||F|||50|,,,,,Dragon]Annihilape||SafetyGoggles|Defiant|CloseCombat,FinalGambit,RageFist,Taunt|||M|||50|,,,,,Water
+|
+|t:|1757916320
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Toedscruel|Toedscruel, L50, F|100/100
+|switch|p1b: Dragapult|Dragapult, L50, F|100/100
+|switch|p2a: Chicks Hicks|Annihilape, L50, M|100/100
+|switch|p2b: Filmore|Indeedee, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Filmore
+|turn|1
+|
+|t:|1757916358
+|switch|p2a: Mack|Corviknight, L50, F|100/100
+|-terastallize|p2b: Filmore|Psychic
+|move|p2b: Filmore|Expanding Force|p1a: Toedscruel|[spread] p1a,p1b
+|-damage|p1a: Toedscruel|30/100
+|-damage|p1b: Dragapult|0 fnt
+|faint|p1b: Dragapult
+|move|p1a: Toedscruel|Spore|p2a: Mack
+|-status|p2a: Mack|slp|[from] move: Spore
+|
+|upkeep
+|
+|t:|1757916366
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-ability|p2a: Mack|Mirror Armor
+|-unboost|p1b: Incineroar|atk|1
+|-unboost|p2b: Filmore|atk|1
+|turn|2
+|
+|t:|1757916384
+|move|p2b: Filmore|Expanding Force|p1b: Incineroar|[spread] p1a
+|-immune|p1b: Incineroar
+|-damage|p1a: Toedscruel|0 fnt
+|faint|p1a: Toedscruel
+|cant|p2a: Mack|slp
+|move|p1b: Incineroar|Knock Off|p2b: Filmore
+|-supereffective|p2b: Filmore
+|-damage|p2b: Filmore|0 fnt
+|-enditem|p2b: Filmore|Choice Scarf|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2b: Filmore
+|
+|upkeep
+|
+|t:|1757916397
+|switch|p1a: Weezing|Weezing, L50, F|100/100
+|switch|p2b: Chicks Hicks|Annihilape, L50, M|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-block|p1b: Incineroar|item: Ability Shield
+|turn|3
+|
+|t:|1757916416
+|move|p2b: Chicks Hicks|Final Gambit|p1a: Weezing
+|-damage|p1a: Weezing|0 fnt
+|faint|p2b: Chicks Hicks
+|faint|p1a: Weezing
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|cant|p2a: Mack|slp
+|move|p1b: Incineroar|Flare Blitz|p2a: Mack
+|-supereffective|p2a: Mack
+|-damage|p2a: Mack|53/100 slp
+|-damage|p1b: Incineroar|84/100|[from] Recoil
+|
+|-heal|p2a: Mack|59/100 slp|[from] item: Leftovers
+|upkeep
+|
+|t:|1757916427
+|switch|p2b: Lightnin'|Sneasler, L50, F|100/100
+|-enditem|p2b: Lightnin'|Psychic Seed
+|-boost|p2b: Lightnin'|spd|1|[from] item: Psychic Seed
+|turn|4
+|
+|t:|1757916443
+|-terastallize|p1b: Incineroar|Ghost
+|move|p2b: Lightnin'|Dire Claw|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|65/100
+|-status|p1b: Incineroar|par
+|-curestatus|p2a: Mack|slp|[msg]
+|move|p2a: Mack|Brave Bird|p1b: Incineroar
+|-damage|p1b: Incineroar|27/100 par
+|-damage|p2a: Mack|47/100|[from] Recoil
+|move|p1b: Incineroar|Flare Blitz|p2b: Lightnin'
+|-damage|p2b: Lightnin'|51/100
+|-damage|p1b: Incineroar|14/100 par|[from] Recoil
+|
+|-heal|p2a: Mack|53/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1757916469
+|move|p2b: Lightnin'|Throat Chop|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|win|TeyOnTheRox
+||Piccius is ready for game 2.
+||TeyOnTheRox is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

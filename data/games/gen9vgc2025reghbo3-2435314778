@@ -1,0 +1,156 @@
+|j|☆Hikari.D9
+|j|☆Reg H merchant
+|html|Hikari.D9Reg H merchant    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757021058
+|gametype|doubles
+|player|p1|Hikari.D9|shadowtriad|1294
+|player|p2|Reg H merchant|hilbert|1346
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Ceruledge, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Dragonite, L50, M|
+|teampreview|4
+|showteam|p1|Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,HighHorsepower|||M|||50|,,,,,Fire]Ceruledge||GrassySeed|FlashFire|BitterBlade,ShadowSneak,SwordsDance,Protect|||F|||50|,,,,,Grass]Ninetales-Alola||FocusSash|SnowWarning|AuroraVeil,Blizzard,Encore,Protect|||M|||50|,,,,,Ghost]Annihilape||SafetyGoggles|Defiant|FinalGambit,CloseCombat,Coaching,RageFist|||M|||50|,,,,,Fire]Electabuzz||Eviolite|VitalSpirit|FollowMe,Taunt,Electroweb,Protect|||M|||50|,,,,,Ghost]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Protect|||M|||50|,,,,,Dragon]Sneasler||PsychicSeed|Unburden|DireClaw,ThroatChop,CloseCombat,Protect|||F|||50|,,,,,Dark]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Indeedee||FocusSash|PsychicSurge|ExpandingForce,Protect,TrickRoom,HelpingHand|||M|||50|,,,,,Psychic]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||F|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Protect,Tailwind|||M|||50|,,,,,Fairy
+|
+|t:|1757021089
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ceruledge|Ceruledge, L50, F|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Electabuzz|Electabuzz, L50, M|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-enditem|p1a: Ceruledge|Grassy Seed
+|-boost|p1a: Ceruledge|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1757021111
+|-terastallize|p2b: Ursaluna|Normal
+|move|p1b: Rillaboom|Fake Out|p2b: Ursaluna
+|-damage|p2b: Ursaluna|89/100
+|move|p2a: Electabuzz|Electroweb|p1b: Rillaboom|[spread] p1a,p1b
+|-resisted|p1b: Rillaboom
+|-damage|p1a: Ceruledge|87/100
+|-damage|p1b: Rillaboom|96/100
+|-unboost|p1a: Ceruledge|spe|1
+|-unboost|p1b: Rillaboom|spe|1
+|cant|p2b: Ursaluna|flinch
+|move|p1a: Ceruledge|Swords Dance|p1a: Ceruledge
+|-boost|p1a: Ceruledge|atk|2
+|
+|-heal|p2b: Ursaluna|95/100|[from] Grassy Terrain
+|-heal|p1a: Ceruledge|93/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|100/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1757021138
+|move|p1a: Ceruledge|Protect|p1a: Ceruledge
+|-singleturn|p1a: Ceruledge|Protect
+|move|p2a: Electabuzz|Electroweb|p1b: Rillaboom|[spread] 
+|-activate|p1a: Ceruledge|move: Protect
+|-miss|p2a: Electabuzz|p1b: Rillaboom
+|move|p2b: Ursaluna|Blood Moon|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|-damage|p2b: Ursaluna|86/100|[from] item: Life Orb
+|
+|-heal|p2b: Ursaluna|92/100|[from] Grassy Terrain
+|-heal|p1a: Ceruledge|99/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757021158
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|turn|3
+|
+|t:|1757021176
+|move|p1b: Ninetales|Blizzard|p2b: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Electabuzz|74/100
+|-damage|p2b: Ursaluna|47/100
+|move|p2a: Electabuzz|Electroweb|p1b: Ninetales|[spread] p1a,p1b
+|-damage|p1a: Ceruledge|85/100
+|-damage|p1b: Ninetales|84/100
+|-unboost|p1a: Ceruledge|spe|1
+|-unboost|p1b: Ninetales|spe|1
+|move|p2b: Ursaluna|Hyper Voice|p1b: Ninetales|[spread] p1a,p1b
+|-damage|p1a: Ceruledge|19/100
+|-damage|p1b: Ninetales|5/100
+|-damage|p2b: Ursaluna|38/100|[from] item: Life Orb
+|move|p1a: Ceruledge|Bitter Blade|p2a: Electabuzz
+|-crit|p2a: Electabuzz
+|-damage|p2a: Electabuzz|0 fnt
+|-heal|p1a: Ceruledge|51/100|[from] drain|[of] p2a: Electabuzz
+|faint|p2a: Electabuzz
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Ninetales|11/100|[from] Grassy Terrain
+|-heal|p2b: Ursaluna|43/100|[from] Grassy Terrain
+|-heal|p1a: Ceruledge|57/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757021190
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|4
+|
+|t:|1757021205
+|switch|p1b: Electabuzz|Electabuzz, L50, M|100/100
+|move|p1a: Ceruledge|Protect|p1a: Ceruledge
+|-singleturn|p1a: Ceruledge|Protect
+|move|p2a: Indeedee|Expanding Force|p1a: Ceruledge|[spread] p1b
+|-activate|p1a: Ceruledge|move: Protect
+|-damage|p1b: Electabuzz|59/100
+|move|p2b: Ursaluna|Hyper Voice|p1a: Ceruledge|[spread] p1b
+|-activate|p1a: Ceruledge|move: Protect
+|-damage|p1b: Electabuzz|10/100
+|-damage|p2b: Ursaluna|34/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757021221
+|move|p2a: Indeedee|Expanding Force|p1a: Ceruledge|[spread] p1a,p1b
+|-damage|p1a: Ceruledge|2/100
+|-damage|p1b: Electabuzz|0 fnt
+|faint|p1b: Electabuzz
+|move|p2b: Ursaluna|Hyper Voice|p1a: Ceruledge
+|-damage|p1a: Ceruledge|0 fnt
+|faint|p1a: Ceruledge
+|-damage|p2b: Ursaluna|24/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1757021226
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|11/100
+|turn|6
+|
+|t:|1757021231
+|move|p1b: Ninetales|Blizzard|p2b: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Indeedee|58/100
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|move|p2a: Indeedee|Expanding Force|p1b: Ninetales
+|-damage|p1b: Ninetales|0 fnt
+|faint|p1b: Ninetales
+|
+|win|Reg H merchant

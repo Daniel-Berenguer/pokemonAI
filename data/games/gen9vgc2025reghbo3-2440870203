@@ -1,0 +1,123 @@
+|j|☆HumanPlaysVGC
+|j|☆KnatterKnabe
+|html|HumanPlaysVGCKnatterKnabe    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1757770240
+|gametype|doubles
+|player|p1|HumanPlaysVGC|n-masters3|1113
+|player|p2|KnatterKnabe|101|1036
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Weezing-Galar, L50, F|
+|poke|p1|Toedscruel, L50, M|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Talonflame, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|showteam|p1|Weezing-Galar||SitrusBerry|NeutralizingGas|DazzlingGleam,SludgeBomb,Protect,Taunt|||F|||50|,,,,,Grass]Toedscruel||CovertCloak|MyceliumMight|Spore,RagePowder,EarthPower,AcidSpray|||M|||50|,,,,,Water]Corviknight||RockyHelmet|MirrorArmor|Tailwind,BraveBird,Protect,Roost|||F|||50|,,,,,Dragon]Incineroar||AbilityShield|Intimidate|FakeOut,KnockOff,PartingShot,Taunt|||F|||50|,,,,,Ghost]Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,Protect,StompingTantrum|||M|||50|,,,,,Ground]Indeedee||FocusSash|PsychicSurge|ExpandingForce,DazzlingGleam,Protect,TrickRoom|||M|||50|,,,,,Psychic
+|showteam|p2|Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Protect,Haze|||M|||50|,,,,,Fairy]Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,HyperVoice,EarthPower,VacuumWave|||M|||50|,,,,,Normal]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Rillaboom||MiracleSeed|GrassySurge|FakeOut,Uturn,WoodHammer,GrassyGlide|||F|||50|,,,,,Fire]Talonflame||CovertCloak|GaleWings|DualWingbeat,Tailwind,Protect,WillOWisp|||F|||50|,,,,,Ghost]Grimmsnarl||LightClay|Prankster|FoulPlay,LightScreen,Reflect,PartingShot|||M|||50|,,,,,Ghost
+|
+|t:|1757770270
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Weezing|Weezing-Galar, L50, F|100/100
+|switch|p1b: Toedscruel|Toedscruel, L50, M|100/100
+|switch|p2a: Talonflame|Talonflame, L50, F|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|turn|1
+|
+|t:|1757770286
+|-end|p1a: Weezing|ability: Neutralizing Gas
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2b: Rillaboom|Fake Out|p1b: Toedscruel
+|-activate|p1b: Toedscruel|move: Psychic Terrain
+|move|p2a: Talonflame|Dual Wingbeat|p1b: Toedscruel
+|-activate|p1b: Toedscruel|move: Psychic Terrain
+|move|p1b: Toedscruel|Spore|p2a: Talonflame
+|-status|p2a: Talonflame|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1757770317
+|cant|p2a: Talonflame|slp
+|move|p1b: Toedscruel|Acid Spray|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|82/100
+|-unboost|p2b: Rillaboom|spd|2
+|move|p1a: Indeedee|Expanding Force|p2a: Talonflame|[spread] p2a,p2b
+|-damage|p2a: Talonflame|10/100 slp
+|-damage|p2b: Rillaboom|0 fnt
+|faint|p2b: Rillaboom
+|
+|upkeep
+|
+|t:|1757770331
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|3
+|
+|t:|1757770353
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: KnatterKnabe|move: Light Screen
+|cant|p2a: Talonflame|slp
+|move|p1b: Toedscruel|Acid Spray|p2b: Grimmsnarl
+|-supereffective|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|90/100
+|-unboost|p2b: Grimmsnarl|spd|2
+|move|p1a: Indeedee|Dazzling Gleam|p2a: Talonflame|[spread] p2a,p2b
+|-resisted|p2a: Talonflame
+|-supereffective|p2b: Grimmsnarl
+|-damage|p2a: Talonflame|0 fnt
+|-damage|p2b: Grimmsnarl|38/100
+|faint|p2a: Talonflame
+|
+|upkeep
+|
+|t:|1757770366
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|4
+|
+|t:|1757770383
+|-terastallize|p2a: Ursaluna|Normal
+|move|p1b: Toedscruel|Acid Spray|p2a: Ursaluna
+|-damage|p2a: Ursaluna|97/100
+|-unboost|p2a: Ursaluna|spd|2
+|move|p1a: Indeedee|Dazzling Gleam|p2a: Ursaluna|[spread] p2a,p2b
+|-supereffective|p2b: Grimmsnarl
+|-damage|p2a: Ursaluna|80/100
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|move|p2a: Ursaluna|Blood Moon|p1b: Toedscruel
+|-damage|p1b: Toedscruel|10/100
+|
+|upkeep
+|turn|5
+|
+|t:|1757770400
+|move|p1b: Toedscruel|Acid Spray|p2a: Ursaluna
+|-damage|p2a: Ursaluna|74/100
+|-unboost|p2a: Ursaluna|spd|2
+|move|p1a: Indeedee|Expanding Force|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|win|HumanPlaysVGC
+|raw|HumanPlaysVGC's rating: 1113 → 1133(+20 for winning)
+|raw|KnatterKnabe's rating: 1036 → 1024(-12 for losing)
+|l|☆KnatterKnabe
+|player|p2|

@@ -1,0 +1,159 @@
+|j|☆FlareIsSolar
+|j|☆MidoMidori
+|html|FlareIsSolarMidoMidori    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757628374
+|gametype|doubles
+|player|p1|FlareIsSolar|volkner|1243
+|player|p2|MidoMidori|roxanne-gen6|1222
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Excadrill, L50, F|
+|poke|p1|Kommo-o, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|KnockOff,RockSlide,LowKick,TeraBlast|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|Earthquake,HighHorsepower,IronHead,Protect|||F|||50|,,,,,Ground]Kommo-o||ThroatSpray|Overcoat|ClangorousSoul,ClangingScales,AuraSphere,Protect|||M|||50|,,,,,Steel]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,AquaJet|||M|||50|,,,,,Grass]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|KnockOff,FlareBlitz,PartingShot,FakeOut|||M|||50|,,,,,Ghost
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TeraBlast,TrickRoom,Protect|||M|||50|,,,,,Fighting]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||M|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||M|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|
+|t:|1757628411
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Excadrill|Excadrill, L50, F|100/100
+|switch|p1b: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|1
+|
+|t:|1757628443
+|-terastallize|p1b: Tyranitar|Flying
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1a: Excadrill|Earthquake|p2a: Indeedee|[spread] p2a
+|-activate|p2b: Sneasler|move: Protect
+|-immune|p1b: Tyranitar
+|-damage|p2a: Indeedee|23/100
+|move|p2a: Indeedee|Expanding Force|p1b: Tyranitar|[spread] p1a,p1b
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|66/100
+|-damage|p1b: Tyranitar|69/100
+|move|p1b: Tyranitar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|-enditem|p2a: Indeedee|Focus Sash|[from] move: Knock Off|[of] p1b: Tyranitar
+|faint|p2a: Indeedee
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sneasler|95/100|[from] Sandstorm
+|-damage|p1b: Tyranitar|62/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757628451
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|turn|2
+|
+|t:|1757628480
+|switch|p1b: Amoonguss|Amoonguss, L50, M|100/100
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2b: Sneasler|Close Combat|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|move|p2a: Annihilape|Final Gambit|p1b: Amoonguss
+|-damage|p1b: Amoonguss|5/100
+|-enditem|p1b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1b: Amoonguss|30/100|[from] item: Sitrus Berry
+|faint|p2a: Annihilape
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sneasler|89/100|[from] Sandstorm
+|-damage|p1b: Amoonguss|25/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757628483
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|3
+|
+|t:|1757628505
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p1a: Excadrill|High Horsepower|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Protect
+|move|p2a: Ursaluna|Hyper Voice|p1a: Excadrill|[spread] p1a,p1b
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|29/100
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|-damage|p2a: Ursaluna|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sneasler|83/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757628510
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|turn|4
+|
+|t:|1757628519
+|-terastallize|p2b: Sneasler|Dark
+|move|p2b: Sneasler|Throat Chop|p1b: Basculegion
+|-supereffective|p1b: Basculegion
+|-damage|p1b: Basculegion|0 fnt
+|faint|p1b: Basculegion
+|move|p1a: Excadrill|High Horsepower|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|move|p2a: Ursaluna|Hyper Voice|p1a: Excadrill
+|-resisted|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|faint|p1a: Excadrill
+|-damage|p2a: Ursaluna|81/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1757628523
+|switch|p1b: Tyranitar|Tyranitar, L50, M, tera:Flying|62/100
+|turn|5
+|
+|t:|1757628531
+|move|p2a: Ursaluna|Blood Moon|p1b: Tyranitar
+|-damage|p1b: Tyranitar|2/100
+|-damage|p2a: Ursaluna|72/100|[from] item: Life Orb
+|move|p1b: Tyranitar|Knock Off|p2a: Ursaluna
+|-damage|p2a: Ursaluna|29/100
+|-enditem|p2a: Ursaluna|Life Orb|[from] move: Knock Off|[of] p1b: Tyranitar
+|
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1757628536
+|move|p2a: Ursaluna|Hyper Voice|p1b: Tyranitar
+|-damage|p1b: Tyranitar|0 fnt
+|faint|p1b: Tyranitar
+|
+|win|MidoMidori
+|raw|FlareIsSolar's rating: 1243 → 1216(-27 for losing)
+|raw|MidoMidori's rating: 1222 → 1249(+27 for winning)
+|l|☆FlareIsSolar
+|player|p1|

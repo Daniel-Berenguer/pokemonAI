@@ -1,0 +1,184 @@
+|j|☆smalltownkirlia
+|j|☆eltsurito
+|html|smalltownkirliaeltsurito    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756952952
+|gametype|doubles
+|player|p1|smalltownkirlia|whitney|
+|player|p2|eltsurito|2|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Maushold-Four, L50|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||F|||50|,,,,,Steel]Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,EarthPower,HyperVoice,VacuumWave|||M|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Maushold-Four||FocusSash|FriendGuard|SuperFang,FollowMe,BeatUp,Protect||||||50|,,,,,Ghost]Annihilape||SitrusBerry|Defiant|RageFist,DrainPunch,BulkUp,Protect|||M|||50|,,,,,Fire]Rillaboom||MiracleSeed|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||M|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||M|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by smalltownkirlia)
+|inactiveoff|Battle timer is now OFF.
+|
+|t:|1756953440
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Maushold|Maushold-Four, L50|100/100
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|turn|1
+|
+|t:|1756953472
+|-terastallize|p2b: Sneasler|Dark
+|move|p1b: Maushold|Follow Me|p1b: Maushold
+|-singleturn|p1b: Maushold|move: Follow Me
+|move|p2b: Sneasler|Throat Chop|p1b: Maushold
+|-damage|p1b: Maushold|48/100
+|-start|p1b: Maushold|Throat Chop|[silent]
+|move|p2a: Annihilape|Taunt|p1b: Maushold
+|-start|p1b: Maushold|move: Taunt
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1756953532
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-terastallize|p1a: Gholdengo|Water
+|move|p2b: Sneasler|Throat Chop|p1a: Gholdengo
+|-damage|p1a: Gholdengo|50/100
+|-start|p1a: Gholdengo|Throat Chop|[silent]
+|move|p2a: Annihilape|Close Combat|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|-unboost|p2a: Annihilape|def|1
+|-unboost|p2a: Annihilape|spd|1
+|faint|p1a: Gholdengo
+|
+|upkeep
+|
+|t:|1756953561
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|3
+|
+|t:|1756953616
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1b: Rillaboom|Wood Hammer|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Protect
+|move|p1a: Ursaluna|Hyper Voice|p2b: Sneasler|[spread] p2a
+|-activate|p2b: Sneasler|move: Protect
+|-damage|p2a: Indeedee|49/100
+|
+|upkeep
+|turn|4
+|
+|t:|1756953685
+|switch|p1b: Maushold|Maushold-Four, L50|48/100
+|move|p2b: Sneasler|Dire Claw|p1b: Maushold
+|-damage|p1b: Maushold|0 fnt
+|faint|p1b: Maushold
+|move|p2a: Indeedee|Expanding Force|p1a: Ursaluna
+|-damage|p1a: Ursaluna|49/100
+|move|p1a: Ursaluna|Hyper Voice|p2b: Sneasler|[spread] p2a,p2b
+|-damage|p2a: Indeedee|3/100
+|-damage|p2b: Sneasler|67/100
+|
+|upkeep
+|
+|t:|1756953711
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|5
+|
+|t:|1756953730
+|switch|p2a: Volcarona|Volcarona, L50, M|100/100
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1b: Rillaboom|Wood Hammer|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|70/100
+|-damage|p1b: Rillaboom|91/100|[from] Recoil
+|move|p1a: Ursaluna|Hyper Voice|p2b: Sneasler|[spread] p2a
+|-activate|p2b: Sneasler|move: Protect
+|-damage|p2a: Volcarona|32/100
+|-enditem|p2a: Volcarona|Sitrus Berry|[eat]
+|-heal|p2a: Volcarona|57/100|[from] item: Sitrus Berry
+|
+|-heal|p2b: Sneasler|73/100|[from] Grassy Terrain
+|-heal|p2a: Volcarona|63/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|97/100|[from] Grassy Terrain
+|-heal|p1a: Ursaluna|55/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|
+|t:|1756953762
+|move|p1b: Rillaboom|Grassy Glide|p2b: Sneasler
+|-crit|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|move|p1a: Ursaluna|Vacuum Wave|p2a: Volcarona
+|-resisted|p2a: Volcarona
+|-damage|p2a: Volcarona|57/100
+|move|p2a: Volcarona|Struggle Bug|p1a: Ursaluna|[spread] p1a,p1b
+|-supereffective|p1b: Rillaboom
+|-damage|p1a: Ursaluna|44/100
+|-damage|p1b: Rillaboom|66/100
+|-unboost|p1a: Ursaluna|spa|1
+|-unboost|p1b: Rillaboom|spa|1
+|
+|-heal|p2a: Volcarona|63/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|72/100|[from] Grassy Terrain
+|-heal|p1a: Ursaluna|50/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756953775
+|switch|p2b: Indeedee|Indeedee, L50, M|3/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|7
+|
+|t:|1756953828
+|move|p2b: Indeedee|Expanding Force|p1a: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|13/100
+|-damage|p1b: Rillaboom|13/100
+|move|p2a: Volcarona|Struggle Bug|p1b: Rillaboom|[spread] p1a,p1b
+|-supereffective|p1b: Rillaboom
+|-damage|p1a: Ursaluna|1/100
+|-damage|p1b: Rillaboom|0 fnt
+|-unboost|p1a: Ursaluna|spa|1
+|faint|p1b: Rillaboom
+|move|p1a: Ursaluna|Earth Power|p2a: Volcarona
+|-damage|p2a: Volcarona|39/100
+|
+|upkeep
+|turn|8
+|
+|t:|1756953855
+|move|p2b: Indeedee|Expanding Force|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|win|eltsurito
+|inactive|smalltownkirlia has 30 seconds to confirm battle start!
+|inactive|eltsurito has 30 seconds to confirm battle start!
+||smalltownkirlia is ready for game 2.
+|inactive|eltsurito has 20 seconds to confirm battle start!
+|inactive|eltsurito has 10 seconds to confirm battle start!
+||eltsurito is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

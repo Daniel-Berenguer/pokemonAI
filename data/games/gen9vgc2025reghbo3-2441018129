@@ -1,0 +1,129 @@
+|j|☆Hossss
+|j|☆WASHINGTONGARGACHA
+|html|HossssWASHINGTONGARGACHA    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757787662
+|gametype|doubles
+|player|p1|Hossss|n|1065
+|player|p2|WASHINGTONGARGACHA|266|1087
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Politoed, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Kingdra, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Gothitelle, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Electabuzz, L50, F|
+|teampreview|4
+|showteam|p1|Politoed||Leftovers|Drizzle|Protect,WeatherBall,PerishSong,Encore|||F|||50|,,,,,Grass]Archaludon||PowerHerb|Sturdy|Protect,ElectroShot,FlashCannon,DragonPulse|||M|||50|,,,,,Electric]Kingdra||LifeOrb|SwiftSwim|Protect,DracoMeteor,WeatherBall,MuddyWater|||M|||50|,,,,,Stellar]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Protect|||F|||50|,,,,,Ghost]Amoonguss||EjectButton|Regenerator|Protect,RagePowder,Spore,PollenPuff|||F|||50|,,,,,Fairy]Gothitelle||SitrusBerry|ShadowTag|Protect,Psychic,FakeOut,TrickRoom|||F|||50|,,,,,Dark
+|showteam|p2|Typhlosion-Hisui||ChoiceSpecs|Blaze|HeatWave,Eruption,ShadowBall,FocusPunch|||M|||50|,,,,,Fire]Whimsicott||CovertCloak|Prankster|Tailwind,Moonblast,SunnyDay,Encore|||M|||50|,,,,,Water]Dragapult||ChoiceBand|ClearBody|Uturn,SuckerPunch,DragonDarts,PhantomForce|||F|||50|,,,,,Dragon]Torkoal||LifeOrb|Drought|HeatWave,Eruption,Protect,WeatherBall|||F|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|CloseCombat,SleepPowder,AfterYou,LeafBlade|||F|||50|,,,,,Ghost]Electabuzz||Eviolite|VitalSpirit|FollowMe,Taunt,Electroweb,Protect|||F|||50|,,,,,Grass
+|
+|t:|1757787720
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|switch|p2b: Dragapult|Dragapult, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Typhlosion|atk|1
+|-fail|p2b: Dragapult|unboost|[from] ability: Clear Body|[of] p2b: Dragapult
+|turn|1
+|
+|t:|1757787772
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|-terastallize|p2a: Typhlosion|Fire
+|move|p1b: Archaludon|Protect|p1b: Archaludon
+|-singleturn|p1b: Archaludon|Protect
+|move|p2a: Typhlosion|Eruption|p1b: Archaludon|[spread] p1a
+|-activate|p1b: Archaludon|move: Protect
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|48/100
+|move|p1a: Incineroar|Knock Off|p2a: Typhlosion
+|-damage|p2a: Typhlosion|42/100
+|-enditem|p2a: Typhlosion|Choice Specs|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757787825
+|switch|p2b: Electabuzz|Electabuzz, L50, F|100/100
+|move|p2a: Typhlosion|Shadow Ball|p1b: Archaludon
+|-damage|p1b: Archaludon|43/100
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-enditem|p1b: Archaludon|Power Herb
+|-anim|p1b: Archaludon|Electro Shot|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|move|p1a: Incineroar|Parting Shot|p2b: Electabuzz
+|-unboost|p2b: Electabuzz|atk|1
+|-unboost|p2b: Electabuzz|spa|1
+|
+|t:|1757787840
+|switch|p1a: Gothitelle|Gothitelle, L50, F|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757787846
+|switch|p2a: Dragapult|Dragapult, L50, F|100/100
+|turn|3
+|
+|t:|1757787877
+|move|p2b: Electabuzz|Follow Me|p2b: Electabuzz
+|-singleturn|p2b: Electabuzz|move: Follow Me
+|move|p2a: Dragapult|Dragon Darts|p1b: Archaludon
+|-damage|p1b: Archaludon|8/100
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Gothitelle
+|-damage|p1a: Gothitelle|68/100
+|move|p1b: Archaludon|Dragon Pulse|p2b: Electabuzz
+|-damage|p2b: Electabuzz|53/100
+|move|p1a: Gothitelle|Trick Room|p1a: Gothitelle
+|-fieldstart|move: Trick Room|[of] p1a: Gothitelle
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1757787903
+|move|p2b: Electabuzz|Follow Me|p2b: Electabuzz
+|-singleturn|p2b: Electabuzz|move: Follow Me
+|move|p1a: Gothitelle|Psychic|p2b: Electabuzz
+|-damage|p2b: Electabuzz|28/100
+|move|p1b: Archaludon|Dragon Pulse|p2b: Electabuzz
+|-damage|p2b: Electabuzz|0 fnt
+|faint|p2b: Electabuzz
+|move|p2a: Dragapult|Dragon Darts|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|-anim|p2a: Dragapult|Dragon Darts|p1a: Gothitelle
+|-damage|p1a: Gothitelle|34/100
+|-enditem|p1a: Gothitelle|Sitrus Berry|[eat]
+|-heal|p1a: Gothitelle|59/100|[from] item: Sitrus Berry
+|faint|p1b: Archaludon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757787948
+|switch|p1b: Politoed|Politoed, L50, F|100/100
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Politoed
+|turn|5
+|-message|WASHINGTONGARGACHA forfeited.
+|
+|win|Hossss

@@ -1,0 +1,104 @@
+|j|☆elbarto95
+|j|☆Goddamnthesun_VGC
+|html|elbarto95Goddamnthesun_VGC    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756987626
+|gametype|doubles
+|player|p1|elbarto95|camper|1081
+|player|p2|Goddamnthesun_VGC|fisherman-gen4|1065
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Porygon2, L50|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Tyranitar, L50, F|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Volcarona, L50, M|
+|teampreview|4
+|showteam|p1|Porygon2||Eviolite|Download|IceBeam,TrickRoom,TeraBlast,Recover||||||50|,,,,,Fighting]Ursaluna||FlameOrb|Guts|HeadlongRush,Earthquake,Facade,Protect|||F|||50|,,,,,Ghost]Grimmsnarl||LightClay|Prankster|SpiritBreak,Reflect,LightScreen,Taunt|||M|||50|,,,,,Ghost]Volcarona||Leftovers|FlameBody|StruggleBug,Overheat,RagePowder,WillOWisp|||F|||50|,,,,,Grass]Gholdengo||LifeOrb|GoodasGold|NastyPlot,Protect,MakeItRain,ShadowBall||||||50|,,,,,Water]Tyranitar||AssaultVest|SandStream|KnockOff,LowKick,RockSlide,TeraBlast|||F|||50|,,,,,Flying
+|showteam|p2|Ninetales-Alola||LoadedDice|SnowWarning|AuroraVeil,Encore,IcicleSpear,Howl|||F|||50|,,,,,Ghost]Garchomp||LifeOrb|RoughSkin|Earthquake,StompingTantrum,DragonClaw,Protect|||M|||50|,,,,,Steel]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Dark]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Annihilape||SafetyGoggles|Defiant|RageFist,CloseCombat,Coaching,FinalGambit|||F|||50|,,,,,Steel]Volcarona||GrassySeed|FlameBody|HeatWave,GigaDrain,QuiverDance,RagePowder|||M|||50|,,,,,Grass
+|
+|t:|1756987693
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Volcarona|Volcarona, L50, F|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Annihilape|Annihilape, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1756987741
+|-terastallize|p2a: Rillaboom|Fire
+|move|p1a: Volcarona|Rage Powder|p1a: Volcarona
+|-singleturn|p1a: Volcarona|move: Rage Powder
+|move|p2b: Annihilape|Coaching|p2a: Rillaboom
+|-boost|p2a: Rillaboom|atk|1
+|-boost|p2a: Rillaboom|def|1
+|move|p2a: Rillaboom|High Horsepower|p1a: Volcarona|[miss]
+|-miss|p2a: Rillaboom|p1a: Volcarona
+|move|p1b: Gholdengo|Shadow Ball|p2b: Annihilape
+|-supereffective|p2b: Annihilape
+|-damage|p2b: Annihilape|0 fnt
+|faint|p2b: Annihilape
+|-damage|p1b: Gholdengo|91/100|[from] item: Life Orb
+|
+|-heal|p1b: Gholdengo|97/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756987762
+|switch|p2b: Volcarona|Volcarona, L50, M|100/100
+|-enditem|p2b: Volcarona|Grassy Seed
+|-boost|p2b: Volcarona|def|1|[from] item: Grassy Seed
+|turn|2
+|
+|t:|1756987799
+|switch|p1a: Porygon2|Porygon2, L50|100/100
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|move|p1b: Gholdengo|Protect|p1b: Gholdengo
+|-singleturn|p1b: Gholdengo|Protect
+|move|p2b: Volcarona|Quiver Dance|p2b: Volcarona
+|-boost|p2b: Volcarona|spa|1
+|-boost|p2b: Volcarona|spd|1
+|-boost|p2b: Volcarona|spe|1
+|move|p2a: Rillaboom|High Horsepower|p1b: Gholdengo
+|-activate|p1b: Gholdengo|move: Protect
+|
+|-heal|p1b: Gholdengo|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756987843
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|move|p2b: Volcarona|Heat Wave|p1b: Ursaluna|[spread] p1a,p1b
+|-crit|p1a: Porygon2
+|-damage|p1a: Porygon2|55/100
+|-damage|p1b: Ursaluna|51/100
+|move|p2a: Rillaboom|Wood Hammer|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|faint|p1a: Porygon2
+|-damage|p2a: Rillaboom|83/100|[from] Recoil
+|
+|-heal|p2a: Rillaboom|89/100|[from] Grassy Terrain
+|-heal|p1b: Ursaluna|57/100|[from] Grassy Terrain
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|-message|elbarto95 forfeited.
+|
+|win|Goddamnthesun_VGC
+|raw|elbarto95's rating: 1081 → 1058(-23 for losing)
+|raw|Goddamnthesun_VGC's rating: 1065 → 1097(+32 for winning)
+|l|☆elbarto95
+|player|p1|

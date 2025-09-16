@@ -1,0 +1,312 @@
+|j|☆sorrymaker234
+|j|☆shixueyi
+|html|sorrymaker234shixueyi    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757656725
+|gametype|doubles
+|player|p1|sorrymaker234|170|
+|player|p2|shixueyi|hilbert|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Snorlax, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Magmar, L50, M|
+|poke|p1|Golem-Alola, L50, F|
+|poke|p1|Lucario, L50, M|
+|poke|p2|Delphox, L50, F|
+|poke|p2|Gardevoir, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Banette, L50, M|
+|poke|p2|Dusknoir, L50, M|
+|poke|p2|Snorlax, L50, F|
+|teampreview|4
+|showteam|p1|Indeedee||ChoiceSpecs|PsychicSurge|Metronome|||M|||50|,,,,,Ghost]Snorlax||RockyHelmet|ThickFat|Metronome|||F|||50|,,,,,Normal]Ursaluna||ChoiceBand|Guts|Metronome|||M|||50|,,,,,Ghost]Magmar||Eviolite|FlameBody|Metronome|||M|||50|,,,,,Ghost]Golem-Alola||WeaknessPolicy|Galvanize|Metronome|||F|||50|,,,,,Electric]Lucario||CovertCloak|InnerFocus|Metronome|||M|||50|,,,,,Ghost
+|showteam|p2|Delphox|||Magician|Metronome|||F|||50|,,,,,Ghost]Gardevoir||ClearAmulet|Trace|Metronome|||F|||50|,,,,,Ghost]Hatterene||ChoiceSpecs|MagicBounce|Metronome|||F|||50|,,,,,Ghost]Banette||ChoiceBand|CursedBody|Metronome|||M|||50|,,,,,Ghost]Dusknoir||CovertCloak|Pressure|Metronome|||M|||50|,,,,,Ghost]Snorlax||WeaknessPolicy|ThickFat|Metronome|||F|||50|,,,,,Ghost
+|
+|t:|1757656743
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Lucario|Lucario, L50, M|100/100
+|switch|p2a: Dusknoir|Dusknoir, L50, M, shiny|100/100
+|switch|p2b: Delphox|Delphox, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-ability|p2a: Dusknoir|Pressure
+|turn|1
+|
+|t:|1757656754
+|move|p2b: Delphox|Metronome|p2b: Delphox
+|move|p2b: Delphox|Acrobatics|p1a: Indeedee|[from] move: Metronome
+|-damage|p1a: Indeedee|70/100
+|-item|p2b: Delphox|Choice Specs|[from] ability: Magician|[of] p1a: Indeedee
+|move|p1a: Indeedee|Metronome|p1a: Indeedee
+|move|p1a: Indeedee|Stockpile|p1a: Indeedee|[from] move: Metronome
+|-start|p1a: Indeedee|stockpile1
+|-boost|p1a: Indeedee|def|1
+|-boost|p1a: Indeedee|spd|1
+|move|p1b: Lucario|Metronome|p1b: Lucario
+|move|p1b: Lucario|Giga Drain|p2b: Delphox|[from] move: Metronome
+|-resisted|p2b: Delphox
+|-damage|p2b: Delphox|88/100
+|move|p2a: Dusknoir|Metronome|p2a: Dusknoir
+|move|p2a: Dusknoir|Stuff Cheeks||[from] move: Metronome|[still]
+|-fail|p2a: Dusknoir
+|
+|upkeep
+|turn|2
+|
+|t:|1757656771
+|move|p2b: Delphox|Metronome|p2b: Delphox
+|move|p2b: Delphox|Thrash|p1b: Lucario|[from] move: Metronome
+|-resisted|p1b: Lucario
+|-damage|p1b: Lucario|85/100
+|move|p1a: Indeedee|Metronome|p1a: Indeedee
+|move|p1a: Indeedee|Substitute|p1a: Indeedee|[from] move: Metronome
+|-start|p1a: Indeedee|Substitute
+|-damage|p1a: Indeedee|45/100
+|move|p1b: Lucario|Metronome|p1b: Lucario
+|move|p1b: Lucario|Round|p2a: Dusknoir|[from] move: Metronome
+|-immune|p2a: Dusknoir
+|move|p2a: Dusknoir|Metronome|p2a: Dusknoir
+|move|p2a: Dusknoir|Tailwind|p2a: Dusknoir|[from] move: Metronome
+|-sidestart|p2: shixueyi|move: Tailwind
+|
+|upkeep
+|turn|3
+|
+|t:|1757656785
+|move|p2b: Delphox|Thrash||[still]
+|-fail|p2b: Delphox
+|move|p2a: Dusknoir|Metronome|p2a: Dusknoir
+|move|p2a: Dusknoir|Lash Out|p1b: Lucario|[from] move: Metronome
+|-resisted|p1b: Lucario
+|-damage|p1b: Lucario|70/100
+|move|p1a: Indeedee|Metronome|p1a: Indeedee
+|move|p1a: Indeedee|Bleakwind Storm|p2b: Delphox|[from] move: Metronome|[spread] p2a,p2b
+|-crit|p2b: Delphox
+|-damage|p2a: Dusknoir|80/100
+|-damage|p2b: Delphox|52/100
+|move|p1b: Lucario|Metronome|p1b: Lucario
+|move|p1b: Lucario|Superpower|p2a: Dusknoir|[from] move: Metronome
+|-immune|p2a: Dusknoir
+|
+|-start|p2b: Delphox|confusion|[fatigue]
+|upkeep
+|turn|4
+|
+|t:|1757656802
+|-activate|p2b: Delphox|confusion
+|-damage|p2b: Delphox|42/100|[from] confusion
+|move|p2a: Dusknoir|Metronome|p2a: Dusknoir
+|move|p2a: Dusknoir|Barb Barrage|p1a: Indeedee|[from] move: Metronome
+|-activate|p1a: Indeedee|move: Substitute|[damage]
+|move|p1a: Indeedee|Metronome|p1a: Indeedee
+|move|p1a: Indeedee|Will-O-Wisp|p2a: Dusknoir|[from] move: Metronome
+|-status|p2a: Dusknoir|brn
+|move|p1b: Lucario|Metronome|p1b: Lucario
+|move|p1b: Lucario|Defog|p2b: Delphox|[from] move: Metronome
+|-unboost|p2b: Delphox|evasion|1
+|-fieldend|move: Psychic Terrain
+|
+|-damage|p2a: Dusknoir|75/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1757656817
+|-activate|p2b: Delphox|confusion
+|move|p2b: Delphox|Metronome|p2b: Delphox
+|move|p2b: Delphox|Glaive Rush|p1a: Indeedee|[from] move: Metronome
+|-end|p1a: Indeedee|Substitute
+|-singlemove|p2b: Delphox|Glaive Rush|[silent]
+|move|p2a: Dusknoir|Metronome|p2a: Dusknoir
+|move|p2a: Dusknoir|Teeter Dance|p1b: Lucario|[from] move: Metronome|[spread] p2b,p1a,p1b
+|-start|p1a: Indeedee|confusion
+|-start|p1b: Lucario|confusion
+|-activate|p1a: Indeedee|confusion
+|move|p1a: Indeedee|Metronome|p1a: Indeedee
+|move|p1a: Indeedee|Flamethrower|p2a: Dusknoir|[from] move: Metronome
+|-damage|p2a: Dusknoir|46/100 brn
+|-activate|p1b: Lucario|confusion
+|-damage|p1b: Lucario|50/100|[from] confusion
+|
+|-damage|p2a: Dusknoir|40/100 brn|[from] brn
+|-sideend|p2: shixueyi|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1757656833
+|-activate|p2b: Delphox|confusion
+|move|p2b: Delphox|Metronome|p2b: Delphox
+|move|p2b: Delphox|Bulldoze|p1b: Lucario|[from] move: Metronome|[spread] p2a,p1a,p1b
+|-supereffective|p1b: Lucario
+|-damage|p2a: Dusknoir|34/100 brn
+|-damage|p1a: Indeedee|38/100
+|-damage|p1b: Lucario|28/100
+|-unboost|p1a: Indeedee|spe|1
+|-activate|p1b: Lucario|confusion
+|move|p1b: Lucario|Metronome|p1b: Lucario
+|move|p1b: Lucario|Charge|p1b: Lucario|[from] move: Metronome
+|-boost|p1b: Lucario|spd|1
+|-start|p1b: Lucario|Charge
+|-activate|p1a: Indeedee|confusion
+|move|p1a: Indeedee|Metronome|p1a: Indeedee
+|move|p1a: Indeedee|Baby-Doll Eyes|p2b: Delphox|[from] move: Metronome
+|-unboost|p2b: Delphox|atk|1
+|move|p2a: Dusknoir|Metronome|p2a: Dusknoir
+|move|p2a: Dusknoir|Brine|p1b: Lucario|[from] move: Metronome
+|-damage|p1b: Lucario|9/100
+|
+|-damage|p2a: Dusknoir|28/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1757656850
+|-activate|p2b: Delphox|confusion
+|-damage|p2b: Delphox|34/100|[from] confusion
+|-activate|p1b: Lucario|confusion
+|-damage|p1b: Lucario|0 fnt|[from] confusion
+|faint|p1b: Lucario
+|-activate|p1a: Indeedee|confusion
+|move|p1a: Indeedee|Metronome|p1a: Indeedee
+|move|p1a: Indeedee|Mystical Power|p2a: Dusknoir|[from] move: Metronome
+|-damage|p2a: Dusknoir|0 fnt
+|-boost|p1a: Indeedee|spa|1
+|faint|p2a: Dusknoir
+|
+|upkeep
+|
+|t:|1757656862
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2a: Hatterene|Hatterene, L50, F|100/100
+|turn|8
+|
+|t:|1757656867
+|-end|p2b: Delphox|confusion
+|move|p2b: Delphox|Metronome|p2b: Delphox
+|move|p2b: Delphox|Ice Beam|p1b: Ursaluna|[from] move: Metronome
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|9/100
+|-activate|p1a: Indeedee|confusion
+|move|p1a: Indeedee|Metronome|p1a: Indeedee
+|move|p1a: Indeedee|Power Gem|p2a: Hatterene|[from] move: Metronome
+|-damage|p2a: Hatterene|62/100
+|move|p1b: Ursaluna|Metronome|p1b: Ursaluna
+|move|p1b: Ursaluna|Beat Up|p2b: Delphox|[from] move: Metronome
+|-supereffective|p2b: Delphox
+|-damage|p2b: Delphox|11/100
+|-supereffective|p2b: Delphox
+|-damage|p2b: Delphox|0 fnt
+|faint|p2b: Delphox
+|-hitcount|p2: Delphox|2
+|move|p2a: Hatterene|Metronome|p2a: Hatterene
+|move|p2a: Hatterene|Attract|p1b: Ursaluna|[from] move: Metronome
+|-start|p1b: Ursaluna|Attract
+|
+|upkeep
+|
+|t:|1757656884
+|switch|p2b: Snorlax|Snorlax, L50, F, shiny|100/100
+|turn|9
+|
+|t:|1757656891
+|switch|p1b: Golem|Golem-Alola, L50, F|100/100
+|-terastallize|p2b: Snorlax|Ghost
+|-end|p1a: Indeedee|confusion
+|move|p1a: Indeedee|Metronome|p1a: Indeedee
+|move|p1a: Indeedee|Gigaton Hammer|p2b: Snorlax|[from] move: Metronome
+|-damage|p2b: Snorlax|80/100
+|move|p2a: Hatterene|Metronome|p2a: Hatterene
+|move|p2a: Hatterene|Metal Burst||[from] move: Metronome|[still]
+|-fail|p2a: Hatterene
+|move|p2b: Snorlax|Metronome|p2b: Snorlax
+|move|p2b: Snorlax|Dazzling Gleam|p1b: Golem|[from] move: Metronome|[spread] p1a,p1b
+|-damage|p1a: Indeedee|30/100
+|-damage|p1b: Golem|83/100
+|
+|upkeep
+|turn|10
+|
+|t:|1757656906
+|move|p1a: Indeedee|Metronome|p1a: Indeedee
+|move|p1a: Indeedee|Blood Moon|p2b: Snorlax|[from] move: Metronome
+|-immune|p2b: Snorlax
+|move|p1b: Golem|Metronome|p1b: Golem
+|move|p1b: Golem|Ice Hammer|p2a: Hatterene|[from] move: Metronome
+|-damage|p2a: Hatterene|10/100
+|-unboost|p1b: Golem|spe|1
+|move|p2a: Hatterene|Metronome|p2a: Hatterene
+|move|p2a: Hatterene|Darkest Lariat|p1a: Indeedee|[from] move: Metronome
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|move|p2b: Snorlax|Metronome|p2b: Snorlax
+|move|p2b: Snorlax|Yawn|p1b: Golem|[from] move: Metronome
+|-start|p1b: Golem|move: Yawn|[of] p2b: Snorlax
+|
+|upkeep
+|
+|t:|1757656922
+|switch|p1a: Ursaluna|Ursaluna, L50, M|9/100
+|turn|11
+|
+|t:|1757656929
+|move|p1a: Ursaluna|Metronome|p1a: Ursaluna
+|move|p1a: Ursaluna|Thrash|p2b: Snorlax|[from] move: Metronome
+|-immune|p2b: Snorlax
+|move|p2a: Hatterene|Metronome|p2a: Hatterene
+|move|p2a: Hatterene|Fell Stinger|p1a: Ursaluna|[from] move: Metronome
+|-damage|p1a: Ursaluna|2/100
+|move|p2b: Snorlax|Metronome|p2b: Snorlax
+|move|p2b: Snorlax|Water Pulse|p1a: Ursaluna|[from] move: Metronome
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|move|p1b: Golem|Metronome|p1b: Golem
+|move|p1b: Golem|Matcha Gotcha|p2b: Snorlax|[from] move: Metronome|[spread] p2a,p2b
+|-crit|p2b: Snorlax
+|-damage|p2a: Hatterene|4/100
+|-heal|p1b: Golem|86/100|[from] drain|[of] p2a: Hatterene
+|-damage|p2b: Snorlax|73/100
+|-heal|p1b: Golem|93/100|[from] drain|[of] p2b: Snorlax
+|
+|-end|p1b: Golem|move: Yawn|[silent]
+|-status|p1b: Golem|slp
+|upkeep
+|turn|12
+|
+|t:|1757656950
+|-terastallize|p1b: Golem|Electric
+|move|p2a: Hatterene|Metronome|p2a: Hatterene
+|move|p2a: Hatterene|Mega Punch|p1b: Golem|[from] move: Metronome|[miss]
+|-miss|p2a: Hatterene|p1b: Golem
+|move|p2b: Snorlax|Metronome|p2b: Snorlax
+|move|p2b: Snorlax|Glare||[from] move: Metronome|[still]
+|-fail|p2b: Snorlax
+|cant|p1b: Golem|slp
+|
+|upkeep
+|turn|13
+|
+|t:|1757656962
+|move|p2a: Hatterene|Metronome|p2a: Hatterene
+|move|p2a: Hatterene|Muddy Water|p1b: Golem|[from] move: Metronome
+|-damage|p1b: Golem|17/100 slp
+|-unboost|p1b: Golem|accuracy|1
+|move|p2b: Snorlax|Metronome|p2b: Snorlax
+|move|p2b: Snorlax|Power Whip|p1b: Golem|[from] move: Metronome
+|-damage|p1b: Golem|0 fnt
+|faint|p1b: Golem
+|
+|win|shixueyi
+||sorrymaker234 is ready for game 3.
+||shixueyi is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆shixueyi
+|player|p2|
+|l|☆sorrymaker234
+|player|p1|

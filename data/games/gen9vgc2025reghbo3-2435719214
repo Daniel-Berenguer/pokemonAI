@@ -1,0 +1,139 @@
+|j|‽vilan333
+|j|☆Vugatti
+|html|vilan333Vugatti    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757081270
+|gametype|doubles
+|player|p1|vilan333|101|1183
+|player|p2|Vugatti|101|1223
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Maushold, L50|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|Protect,CloseCombat,DireClaw,ThroatChop|||M|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|Protect,TrickRoom,ExpandingForce,TeraBlast|||M|||50|,,,,,Fighting]Ursaluna-Bloodmoon||LifeOrb|MindsEye|Protect,HyperVoice,BloodMoon,EarthPower|||M|||50|,,,,,Normal]Electabuzz||Eviolite|VitalSpirit|Electroweb,Protect,Taunt,FollowMe|||M|||50|,,,,,Ghost]Talonflame||CovertCloak|GaleWings|Tailwind,WillOWisp,DualWingbeat,FlareBlitz|||M|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,FlareBlitz|||M|||50|,,,,,Ghost
+|showteam|p2|Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,WideGuard,TrickRoom|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Protect,Earthquake|||M|||50|,,,,,Ghost]Torkoal||ChoiceSpecs|Drought|Eruption,WeatherBall,HeatWave,EarthPower|||F|||50|,,,,,Fire]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,TrickRoom,Psychic,HelpingHand|||F|||50|,,,,,Water]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TeraBlast,TrickRoom|||F|||50|,,,,,Fire]Maushold||WideLens|Technician|PopulationBomb,Taunt,FollowMe,Protect||||||50|,,,,,Poison
+|
+|t:|1757081317
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Hatterene|Hatterene, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Hatterene|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757081339
+|-terastallize|p1a: Ursaluna|Normal
+|move|p1b: Incineroar|Parting Shot|p2a: Hatterene
+|move|p2a: Hatterene|Parting Shot|p1b: Incineroar|[from] ability: Magic Bounce
+|-unboost|p1b: Incineroar|atk|1
+|-unboost|p1b: Incineroar|spa|1
+|
+|t:|1757081347
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100|[from] Parting Shot
+|move|p1a: Ursaluna|Blood Moon|p2b: Indeedee
+|-damage|p2b: Indeedee|11/100
+|-damage|p1a: Ursaluna|91/100|[from] item: Life Orb
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1757081371
+|move|p2b: Indeedee|Helping Hand|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Helping Hand|[of] p2b: Indeedee
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Ursaluna|Facade|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-damage|p2a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|
+|t:|1757081384
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|turn|3
+|
+|t:|1757081395
+|switch|p1a: Electabuzz|Electabuzz, L50, M, shiny|100/100
+|move|p2a: Ursaluna|Facade|p1a: Electabuzz
+|-damage|p1a: Electabuzz|0 fnt
+|faint|p1a: Electabuzz
+|move|p2b: Indeedee|Psychic|p1b: Indeedee
+|-resisted|p1b: Indeedee
+|-damage|p1b: Indeedee|72/100
+|move|p1b: Indeedee|Expanding Force|p2b: Indeedee|[spread] p2a,p2b
+|-resisted|p2b: Indeedee
+|-damage|p2a: Ursaluna|44/100 brn
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|-damage|p2a: Ursaluna|38/100 brn|[from] brn
+|upkeep
+|
+|t:|1757081420
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M, tera:Normal|91/100
+|turn|4
+|
+|t:|1757081436
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p1b: Indeedee|Protect|p1b: Indeedee
+|-singleturn|p1b: Indeedee|Protect
+|move|p2a: Ursaluna|Facade|p1b: Indeedee
+|-activate|p1b: Indeedee|move: Protect
+|move|p2b: Gallade|Sacred Sword|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|
+|-damage|p2a: Ursaluna|32/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1757081456
+|move|p2a: Ursaluna|Facade|p1b: Indeedee
+|-crit|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p2b: Gallade|Sacred Sword|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|win|Vugatti
+|l|‽vilan333
+|player|p1|
+|inactive|vilan333 has 30 seconds to confirm battle start!
+|inactive|Vugatti has 30 seconds to confirm battle start!
+||vilan333 is ready for game 2.
+||Vugatti is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆Vugatti
+|player|p2|
+|j|‽vilan333
+|player|p1|vilan333|101|

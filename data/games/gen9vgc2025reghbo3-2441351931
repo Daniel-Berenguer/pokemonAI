@@ -1,0 +1,132 @@
+|j|☆bestboi8989
+|j|☆willquitecosstupid
+|html|bestboi8989willquitecosstupid    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757836084
+|gametype|doubles
+|player|p1|bestboi8989|169|1069
+|player|p2|willquitecosstupid|worker|1050
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Magmar, L50, M|
+|poke|p1|Corviknight, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Electabuzz, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Sneasler||WhiteHerb|Unburden|FakeOut,CloseCombat,DireClaw,Coaching|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|Earthquake,IronHead,SwordsDance,Protect|||M|||50|,,,,,Ground]Magmar||Eviolite|VitalSpirit|HeatWave,FollowMe,HelpingHand,Protect|||M|||50|,,,,,Flying]Corviknight||PsychicSeed|MirrorArmor|BraveBird,PowerTrip,BulkUp,Roost|||M|||50|,,,,,Water]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||F|||50|,,,,,Flying
+|showteam|p2|Volcarona||Leftovers|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||F|||50|,,,,,Fairy]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,FollowMe,Taunt,Protect|||M|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||F|||50|,,,,,Steel]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark]Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,FakeOut,Protect|||M|||50|,,,,,Stellar
+|
+|t:|1757836126
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p1b: Magmar|Magmar, L50, M|100/100
+|switch|p2a: Kingambit|Kingambit, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1757836168
+|-terastallize|p1a: Tyranitar|Flying
+|move|p2b: Sneasler|Fake Out|p1b: Magmar
+|-damage|p1b: Magmar|89/100
+|cant|p1b: Magmar|flinch
+|move|p1a: Tyranitar|Tera Blast|p2b: Sneasler|[anim] Tera Blast Flying
+|-supereffective|p2b: Sneasler
+|-enditem|p2b: Sneasler|Focus Sash
+|-damage|p2b: Sneasler|1/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sneasler|0 fnt|[from] Sandstorm
+|-damage|p1b: Magmar|84/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|95/100|[from] Sandstorm
+|faint|p2b: Sneasler
+|upkeep
+|
+|t:|1757836186
+|switch|p2b: Electabuzz|Electabuzz, L50, M|100/100
+|turn|2
+|
+|t:|1757836218
+|-terastallize|p2a: Kingambit|Dark
+|move|p2b: Electabuzz|Follow Me|p2b: Electabuzz
+|-singleturn|p2b: Electabuzz|move: Follow Me
+|move|p1b: Magmar|Follow Me|p1b: Magmar
+|-singleturn|p1b: Magmar|move: Follow Me
+|move|p1a: Tyranitar|Rock Slide|p2b: Electabuzz|[spread] p2a,p2b
+|-damage|p2a: Kingambit|79/100
+|-damage|p2b: Electabuzz|76/100
+|move|p2a: Kingambit|Kowtow Cleave|p1b: Magmar
+|-damage|p1b: Magmar|0 fnt
+|faint|p1b: Magmar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Electabuzz|70/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|89/100|[from] Sandstorm
+|-damage|p2a: Kingambit|73/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757836233
+|switch|p1b: Excadrill|Excadrill, L50, M|100/100
+|turn|3
+|
+|t:|1757836250
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p1b: Excadrill|Swords Dance|p1b: Excadrill
+|-boost|p1b: Excadrill|atk|2
+|move|p2b: Electabuzz|Thunderbolt|p1b: Excadrill
+|-immune|p1b: Excadrill
+|move|p1a: Tyranitar|Rock Slide|p2a: Kingambit|[spread] p2a,p2b
+|-damage|p2a: Kingambit|52/100
+|-damage|p2b: Electabuzz|46/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Electabuzz|40/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|83/100|[from] Sandstorm
+|-damage|p2a: Kingambit|46/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1757836274
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|move|p2a: Kingambit|Sucker Punch|p1b: Excadrill
+|-activate|p1b: Excadrill|move: Psychic Terrain
+|move|p1b: Excadrill|Earthquake|p2b: Electabuzz|[spread] p1a,p2a,p2b
+|-supereffective|p2b: Electabuzz
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p2a: Kingambit|0 fnt
+|-damage|p2b: Electabuzz|0 fnt
+|faint|p1a: Indeedee
+|faint|p2a: Kingambit
+|faint|p2b: Electabuzz
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|-message|willquitecosstupid forfeited.
+|
+|win|bestboi8989
+|raw|bestboi8989's rating: 1069 → 1097(+28 for winning)
+|raw|willquitecosstupid's rating: 1050 → 1033(-17 for losing)
+|l|☆willquitecosstupid
+|player|p2|
+|l|☆bestboi8989
+|player|p1|
+|j|☆bestboi8989
+|player|p1|bestboi8989|169|

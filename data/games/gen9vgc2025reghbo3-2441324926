@@ -1,0 +1,171 @@
+|j|☆felmaze
+|j|☆gladland
+|html|felmazegladland    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757830656
+|gametype|doubles
+|player|p1|felmaze|clerk-boss|1042
+|player|p2|gladland|2|1184
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Mamoswine, L50, F|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Kilowattrel, L50, F|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Delphox, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, F|
+|teampreview|4
+|showteam|p1|Mamoswine||FocusSash|Oblivious|HighHorsepower,Protect,Earthquake,IcicleCrash|||F|||50|,,,,,Ghost]Annihilape||Leftovers|Defiant|RageFist,Protect,DrainPunch,BulkUp|||M|||50|,,,,,Fire]Kilowattrel||CovertCloak|WindPower|AirSlash,Tailwind,Protect,Discharge|||F|||50|,,,,,Electric]Primarina||ThroatSpray|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||F|||50|,,,,,Grass]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,FlareBlitz|||F|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,SludgeBomb,Protect|||F|||50|,,,,,Water
+|showteam|p2|Kingambit||AirBalloon|Defiant|LowKick,IronHead,KowtowCleave,SuckerPunch|||F|||50|,,,,,Ghost]Delphox||FocusSash|Magician|ExpandingForce,DazzlingGleam,Flamethrower,Protect|||M|||50|,,,,,Fairy]Pelipper||SitrusBerry|Drizzle|Tailwind,Hurricane,Surf,RainDance|||F|||50|,,,,,Ground]Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,BodyPress,FlashCannon|||F|||50|,,,,,Electric]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,DazzlingGleam,ShadowBall,HyperVoice|||M|||50|,,,,,Steel]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark
+|
+|t:|1757830691
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Mamoswine|Mamoswine, L50, F|100/100
+|switch|p1b: Kilowattrel|Kilowattrel, L50, F|100/100
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1757830776
+|-terastallize|p1a: Mamoswine|Ghost
+|-terastallize|p2a: Pelipper|Ground
+|move|p1b: Kilowattrel|Tailwind|p1b: Kilowattrel
+|-sidestart|p1: felmaze|move: Tailwind
+|-start|p1b: Kilowattrel|Charge|Tailwind|[from] ability: Wind Power
+|move|p1a: Mamoswine|High Horsepower|p2b: Archaludon
+|-supereffective|p2b: Archaludon
+|-damage|p2b: Archaludon|24/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: gladland|move: Tailwind
+|move|p2b: Archaludon|Flash Cannon|p1a: Mamoswine
+|-damage|p1a: Mamoswine|32/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757830804
+|move|p1a: Mamoswine|Protect|p1a: Mamoswine
+|-singleturn|p1a: Mamoswine|Protect
+|move|p1b: Kilowattrel|Discharge|p2a: Pelipper|[spread] p2b
+|-activate|p1a: Mamoswine|move: Protect
+|-immune|p2a: Pelipper
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|1/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|-end|p1b: Kilowattrel|Charge|[silent]
+|move|p2a: Pelipper|Surf|p1b: Kilowattrel|[spread] p2b,p1b
+|-activate|p1a: Mamoswine|move: Protect
+|-resisted|p2b: Archaludon
+|-damage|p2b: Archaludon|0 fnt
+|-damage|p1b: Kilowattrel|38/100
+|faint|p2b: Archaludon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757830821
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|turn|3
+|
+|t:|1757830830
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1b: Kilowattrel|Air Slash|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Protect
+|move|p1a: Mamoswine|Icicle Crash|p2a: Pelipper
+|-supereffective|p2a: Pelipper
+|-damage|p2a: Pelipper|3/100
+|-enditem|p2a: Pelipper|Sitrus Berry|[eat]
+|-heal|p2a: Pelipper|28/100|[from] item: Sitrus Berry
+|move|p2a: Pelipper|Surf|p1a: Mamoswine|[spread] p1a,p1b
+|-activate|p2b: Sneasler|move: Protect
+|-damage|p1a: Mamoswine|0 fnt
+|-damage|p1b: Kilowattrel|0 fnt
+|faint|p1a: Mamoswine
+|faint|p1b: Kilowattrel
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757830846
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p1a: Annihilape|Annihilape, L50, M|100/100
+|turn|4
+|
+|t:|1757830872
+|move|p1a: Annihilape|Protect|p1a: Annihilape
+|-singleturn|p1a: Annihilape|Protect
+|move|p2b: Sneasler|Throat Chop|p1a: Annihilape
+|-activate|p1a: Annihilape|move: Protect
+|move|p2a: Pelipper|Hurricane|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|32/100
+|-enditem|p1b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1b: Amoonguss|57/100|[from] item: Sitrus Berry
+|move|p1b: Amoonguss|Spore|p2b: Sneasler
+|-status|p2b: Sneasler|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: gladland|move: Tailwind
+|-sideend|p1: felmaze|move: Tailwind
+|upkeep
+|turn|5
+|l|☆gladland
+|player|p2|
+|j|☆gladland
+|player|p2|gladland|2|
+|
+|t:|1757830914
+|cant|p2b: Sneasler|slp
+|move|p1a: Annihilape|Drain Punch|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|move|p1b: Amoonguss|Sludge Bomb|p2b: Sneasler
+|-resisted|p2b: Sneasler
+|-damage|p2b: Sneasler|81/100 slp
+|
+|-weather|none
+|upkeep
+|
+|t:|1757830923
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|6
+|
+|t:|1757830939
+|cant|p2b: Sneasler|slp
+|move|p2a: Indeedee|Expanding Force|p1b: Amoonguss|[spread] p1a,p1b
+|-supereffective|p1a: Annihilape
+|-supereffective|p1b: Amoonguss
+|-damage|p1a: Annihilape|0 fnt
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1a: Annihilape
+|faint|p1b: Amoonguss
+|
+|win|gladland
+||felmaze is ready for game 2.
+|l|☆gladland
+|player|p2|
+||gladland is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆felmaze
+|player|p1|

@@ -1,0 +1,154 @@
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up.
+|html|tk_feenixmyshirtisdirty    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756998490
+|gametype|doubles
+|player|p1|tk_feenix|101|
+|player|p2|myshirtisdirty|102|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Substitute,Protect|||F|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Amoonguss||RockyHelmet|Regenerator|Spore,PollenPuff,RagePowder,Protect|||M|||50|,,,,,Water]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||F|||50|,,,,,Flying
+|showteam|p2|Sneasler||PsychicSeed|Unburden|Protect,CloseCombat,DireClaw,ThroatChop|||M|||50|,,,,,Grass]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Garchomp||LifeOrb|RoughSkin|RockSlide,ScaleShot,StompingTantrum,Protect|||M|||50|,,,,,Fairy]Ninetales-Alola||CovertCloak|SnowWarning|FreezeDry,Protect,Blizzard,AuroraVeil|||F|||50|,,,,,Water]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,NightSlash,Protect|||M|||50|,,,,,Steel]Indeedee-F||SafetyGoggles|PsychicSurge|DazzlingGleam,HelpingHand,TrickRoom,FollowMe|||F|||50|,,,,,Water
+|inactive|tk_feenix has 60 seconds left.
+|inactive|myshirtisdirty has 60 seconds left.
+|inactive|tk_feenix has 30 seconds left.
+|
+|t:|1756998557
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-fail|p2b: Gallade|unboost|[from] item: Clear Amulet|[of] p2b: Gallade
+|turn|1
+|inactive|tk_feenix has 30 seconds left.
+|inactive|tk_feenix has 20 seconds left.
+|inactive|tk_feenix has 15 seconds left.
+|inactive|tk_feenix has 10 seconds left.
+|
+|t:|1756998604
+|-terastallize|p1b: Gholdengo|Dragon
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|move|p1a: Incineroar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|15/100
+|-enditem|p2a: Indeedee|Safety Goggles|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p2b: Gallade|Sacred Sword|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|upkeep
+|inactive|tk_feenix has 30 seconds left.
+|inactive|tk_feenix has 20 seconds left.
+|
+|t:|1756998642
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|2
+|inactive|myshirtisdirty has 30 seconds left.
+|inactive|tk_feenix has 30 seconds left.
+|inactive|myshirtisdirty has 20 seconds left.
+|inactive|myshirtisdirty has 15 seconds left.
+|inactive|myshirtisdirty has 10 seconds left.
+|
+|t:|1756998691
+|switch|p2a: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|-terastallize|p2b: Gallade|Steel
+|move|p1b: Gholdengo|Make It Rain|p2b: Gallade|[spread] p2a,p2b
+|-supereffective|p2a: Ninetales
+|-resisted|p2b: Gallade
+|-damage|p2a: Ninetales|0 fnt
+|-damage|p2b: Gallade|50/100
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2a: Ninetales
+|-damage|p1b: Gholdengo|91/100|[from] item: Life Orb
+|move|p2b: Gallade|Sacred Sword|p1a: Amoonguss
+|-resisted|p1a: Amoonguss
+|-damage|p1a: Amoonguss|67/100
+|-damage|p2b: Gallade|34/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1756998705
+|switch|p2a: Indeedee|Indeedee-F, L50, F|15/100
+|turn|3
+|
+|t:|1756998729
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p1b: Gholdengo|Make It Rain|p2a: Indeedee|[spread] p2a,p2b
+|-crit|p2a: Indeedee
+|-resisted|p2b: Gallade
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Gallade|0 fnt
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2a: Indeedee
+|faint|p2b: Gallade
+|-damage|p1b: Gholdengo|81/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1756998738
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|4
+|
+|t:|1756998753
+|move|p1a: Amoonguss|Rage Powder|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|move: Rage Powder
+|move|p2b: Sneasler|Dire Claw|p1a: Amoonguss
+|-damage|p1a: Amoonguss|20/100
+|-status|p1a: Amoonguss|par
+|-damage|p2b: Sneasler|84/100|[from] item: Rocky Helmet|[of] p1a: Amoonguss
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|inactive|tk_feenix has 30 seconds left.
+|
+|t:|1756998783
+|cant|p1a: Amoonguss|par
+|move|p2b: Sneasler|Dire Claw|p1b: Gholdengo
+|-damage|p1b: Gholdengo|36/100
+|move|p1b: Gholdengo|Make It Rain|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|-unboost|p1b: Gholdengo|spa|1
+|faint|p2b: Sneasler
+|-damage|p1b: Gholdengo|27/100|[from] item: Life Orb
+|
+|win|tk_feenix
+||tk_feenix is ready for game 2.

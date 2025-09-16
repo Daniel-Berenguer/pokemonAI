@@ -1,0 +1,154 @@
+|j|☆stalruth
+|j|☆RagingJudge
+|html|stalruthRagingJudge    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757652790
+|gametype|doubles
+|player|p1|stalruth|102|1049
+|player|p2|RagingJudge|silver|1084
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Electabuzz, L50, F|
+|poke|p2|Rotom-Frost, L50|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Kingambit, L50, M|
+|teampreview|4
+|showteam|p1|Volcarona||GrassySeed|FlameBody|HeatWave,GigaDrain,QuiverDance,Protect|||F|||50|,,,,,Grass]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,Outrage,FlipTurn|||M|||50|,,,,,Dragon]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||F|||50|,,,,,Fire]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,Encore,Disable,Protect|||M|||50|,,,,,Ghost]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,FollowMe,Taunt,HelpingHand|||F|||50|,,,,,Fairy
+|showteam|p2|Rotom-Frost||AssaultVest|Levitate|Blizzard,Thunderbolt,Electroweb,Trick||||||50|,,,,,Electric]Dragonite||LumBerry|Multiscale|TeraBlast,ExtremeSpeed,LowKick,Protect|||F|||50|,,,,,Flying]Amoonguss||SitrusBerry|Regenerator|PollenPuff,ClearSmog,Spore,RagePowder|||F|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Ninetales-Alola||LightClay|SnowWarning|Moonblast,Protect,AuroraVeil,FreezeDry|||M|||50|,,,,,Ice]Kingambit||BlackGlasses|Defiant|KowtowCleave,SwordsDance,SuckerPunch,Protect|||M|||50|,,,,,Dark
+|
+|t:|1757652885
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, L50, M|100/100
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-enditem|p1b: Volcarona|Grassy Seed
+|-boost|p1b: Volcarona|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1757652908
+|move|p1a: Rillaboom|Fake Out|p2b: Kingambit
+|-resisted|p2b: Kingambit
+|-damage|p2b: Kingambit|95/100
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: RagingJudge|move: Aurora Veil
+|move|p1b: Volcarona|Quiver Dance|p1b: Volcarona
+|-boost|p1b: Volcarona|spa|1
+|-boost|p1b: Volcarona|spd|1
+|-boost|p1b: Volcarona|spe|1
+|cant|p2b: Kingambit|flinch
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Kingambit|100/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1757652924
+|switch|p2a: Rotom|Rotom-Frost, L50|100/100
+|move|p1b: Volcarona|Heat Wave|p2b: Kingambit|[spread] p2a,p2b
+|-supereffective|p2a: Rotom
+|-supereffective|p2b: Kingambit
+|-damage|p2a: Rotom|49/100
+|-damage|p2b: Kingambit|27/100
+|move|p1a: Rillaboom|Wood Hammer|p2b: Kingambit
+|-resisted|p2b: Kingambit
+|-damage|p2b: Kingambit|6/100
+|-damage|p1a: Rillaboom|94/100|[from] Recoil
+|move|p2b: Kingambit|Swords Dance|p2b: Kingambit
+|-boost|p2b: Kingambit|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Rillaboom|99/100|[from] Grassy Terrain
+|-heal|p2b: Kingambit|12/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1757652947
+|move|p2b: Kingambit|Protect|p2b: Kingambit
+|-singleturn|p2b: Kingambit|Protect
+|move|p1a: Rillaboom|Grassy Glide|p2b: Kingambit
+|-activate|p2b: Kingambit|move: Protect
+|move|p1b: Volcarona|Heat Wave|p2a: Rotom|[spread] p2a
+|-activate|p2b: Kingambit|move: Protect
+|-supereffective|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Rillaboom|100/100|[from] Grassy Terrain
+|-heal|p2b: Kingambit|18/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757652956
+|switch|p2a: Ninetales|Ninetales-Alola, L50, M|100/100
+|turn|4
+|
+|t:|1757652966
+|-terastallize|p2b: Kingambit|Dark
+|move|p1a: Rillaboom|Grassy Glide|p2a: Ninetales
+|-damage|p2a: Ninetales|78/100
+|move|p2b: Kingambit|Sucker Punch|p1b: Volcarona
+|-damage|p1b: Volcarona|7/100
+|-status|p2b: Kingambit|brn|[from] ability: Flame Body|[of] p1b: Volcarona
+|move|p1b: Volcarona|Heat Wave|p2b: Kingambit|[spread] p2a
+|-miss|p1b: Volcarona|p2b: Kingambit
+|-supereffective|p2a: Ninetales
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Volcarona|13/100|[from] Grassy Terrain
+|-heal|p2b: Kingambit|24/100 brn|[from] Grassy Terrain
+|-damage|p2b: Kingambit|18/100 brn|[from] brn
+|upkeep
+|
+|t:|1757652980
+|switch|p2a: Dragonite|Dragonite, L50, F|100/100
+|turn|5
+|
+|t:|1757652989
+|move|p2a: Dragonite|Extreme Speed|p1b: Volcarona
+|-damage|p1b: Volcarona|0 fnt
+|-status|p2a: Dragonite|brn|[from] ability: Flame Body|[of] p1b: Volcarona
+|-enditem|p2a: Dragonite|Lum Berry|[eat]
+|-curestatus|p2a: Dragonite|brn|[msg]
+|faint|p1b: Volcarona
+|move|p1a: Rillaboom|Grassy Glide|p2b: Kingambit
+|-crit|p2b: Kingambit
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|
+|-weather|none
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1757652998
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|turn|6
+|-message|RagingJudge forfeited.
+|
+|win|stalruth
+|l|☆RagingJudge
+|player|p2|
+||stalruth is ready for game 2.
+||RagingJudge is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆stalruth
+|player|p1|

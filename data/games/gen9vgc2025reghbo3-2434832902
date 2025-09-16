@@ -1,0 +1,228 @@
+|j|ŌśåBlackStag52
+|j|Ōśåhouseofpros
+|html|BlackStag52houseofpros    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756956893
+|gametype|doubles
+|player|p1|BlackStag52|swimmerf|1139
+|player|p2|houseofpros|lucas-gen4pt|1096
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pok├®mon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Goodra-Hisui, L50, M|
+|poke|p2|Politoed, L50, M|
+|poke|p2|Ludicolo, L50, F|
+|poke|p2|Scizor, L50, M|
+|poke|p2|Tauros-Paldea-Aqua, L50, M|
+|teampreview|4
+|showteam|p1|Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,Protect,SwordsDance|||M|||50|,,,,,Psychic]Gallade||ClearAmulet|Sharpness|SacredSword,TrickRoom,PsychoCut,WideGuard|||M|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,HelpingHand,HyperVoice|||F|||50|,,,,,Fairy]Annihilape||ChoiceScarf|Defiant|FinalGambit,Uturn,Taunt,HelpingHand|||F|||50|,,,,,Fighting]Hatterene||LifeOrb|MagicBounce|ExpandingForce,TrickRoom,DazzlingGleam,MysticalFire|||F|||50|,,,,,Fire]Torkoal||ChoiceSpecs|Drought|Eruption,Overheat,WeatherBall,EarthPower|||M|||50|,,,,,Fire
+|showteam|p2|Amoonguss||RockyHelmet|Regenerator|Spore,RagePowder,PollenPuff,LeafStorm|||F|||50|,,,,,Bug]Goodra-Hisui||AssaultVest|SapSipper|HydroPump,DracoMeteor,HeavySlam,DragonPulse|||M|||50|,,,,,Stellar]Politoed||SitrusBerry|Drizzle|Protect,WeatherBall,HelpingHand,PerishSong|||M|||50|,,,,,Grass]Ludicolo||MysticWater|SwiftSwim|FakeOut,HydroPump,EnergyBall,Protect|||F|||50|,,,,,Stellar]Scizor||ClearAmulet|Technician|KnockOff,BulletPunch,BugBite,Protect|||M|||50|,,,,,Stellar]Tauros-Paldea-Aqua||SafetyGoggles|Intimidate|AquaJet,CloseCombat,WaveCrash,Protect|||M|||50|,,,,,Fighting
+|c|ŌśåBlackStag52|gonna run that calc later, but I swear Kingambit should've lived without the crit
+|c|Ōśåhouseofpros|oh 100%
+|
+|t:|1756956998
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2b: Scizor|Scizor, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756957085
+|switch|p2b: Goodra|Goodra-Hisui, L50, M, shiny|100/100
+|switch|p2a: Politoed|Politoed, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Hatterene|Trick Room|p1b: Hatterene
+|-fieldstart|move: Trick Room|[of] p1b: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756957154
+|move|p1a: Indeedee|Helping Hand|p1b: Hatterene
+|-singleturn|p1b: Hatterene|Helping Hand|[of] p1a: Indeedee
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1b: Hatterene|Expanding Force|p2a: Politoed|[spread] p2b
+|-activate|p2a: Politoed|move: Protect
+|-resisted|p2b: Goodra
+|-damage|p2b: Goodra|70/100
+|-damage|p1b: Hatterene|91/100|[from] item: Life Orb
+|move|p2b: Goodra|Heavy Slam|p1b: Hatterene
+|-supereffective|p1b: Hatterene
+|-damage|p1b: Hatterene|3/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756957204
+|switch|p2a: Scizor|Scizor, L50, M|100/100
+|move|p1a: Indeedee|Helping Hand|p1b: Hatterene
+|-singleturn|p1b: Hatterene|Helping Hand|[of] p1a: Indeedee
+|move|p1b: Hatterene|Expanding Force|p2b: Goodra|[spread] p2a,p2b
+|-resisted|p2a: Scizor
+|-resisted|p2b: Goodra
+|-damage|p2a: Scizor|24/100
+|-damage|p2b: Goodra|39/100
+|-damage|p1b: Hatterene|0 fnt|[from] item: Life Orb
+|faint|p1b: Hatterene
+|move|p2b: Goodra|Heavy Slam|p1a: Indeedee
+|-damage|p1a: Indeedee|60/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756957216
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|turn|4
+|
+|t:|1756957279
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p1b: Kingambit|Kowtow Cleave|p2b: Goodra
+|-damage|p2b: Goodra|0 fnt
+|faint|p2b: Goodra
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756957286
+|switch|p2b: Scizor|Scizor, L50, M|24/100
+|turn|5
+|
+|t:|1756957301
+|move|p2b: Scizor|Protect|p2b: Scizor
+|-singleturn|p2b: Scizor|Protect
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Amoonguss|Spore|p1a: Indeedee
+|-status|p1a: Indeedee|slp|[from] move: Spore
+|move|p1b: Kingambit|Swords Dance|p1b: Kingambit
+|-boost|p1b: Kingambit|atk|2
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756957371
+|cant|p1a: Indeedee|slp
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p2b: Scizor|Bug Bite|p1b: Kingambit
+|-damage|p1b: Kingambit|61/100
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Amoonguss
+|-damage|p2a: Amoonguss|9/100
+|-damage|p1b: Kingambit|44/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|
+|upkeep
+|turn|7
+|
+|t:|1756957426
+|cant|p1a: Indeedee|slp
+|move|p2b: Scizor|Bullet Punch|p1b: Kingambit
+|-resisted|p1b: Kingambit
+|-damage|p1b: Kingambit|32/100
+|move|p1b: Kingambit|Sucker Punch||[still]
+|-fail|p1b: Kingambit
+|move|p2a: Amoonguss|Pollen Puff|p2b: Scizor
+|-heal|p2b: Scizor|74/100
+|
+|upkeep
+|turn|8
+|
+|t:|1756957476
+|-curestatus|p1a: Indeedee|slp|[msg]
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p2b: Scizor|Bug Bite|p1a: Indeedee
+|-supereffective|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Amoonguss
+|-crit|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|-damage|p1b: Kingambit|15/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|faint|p2a: Amoonguss
+|
+|upkeep
+|
+|t:|1756957488
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|switch|p2a: Politoed|Politoed, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|9
+|c|Ōśåhouseofpros|WHAT
+|c|Ōśåhouseofpros|i thought sun would go first
+|c|Ōśåhouseofpros|damn
+|c|Ōśåhouseofpros|welp gg
+|c|ŌśåBlackStag52|nah, this is a HTR team, ofc my tork is slower lol
+|c|Ōśåhouseofpros|no no ik
+|c|Ōśåhouseofpros|i thought it was based on when they switched in
+|c|Ōśåhouseofpros|idk why i had that mixed in my head
+|
+|t:|1756957558
+|-terastallize|p1a: Torkoal|Fire
+|move|p2a: Politoed|Helping Hand|p2b: Scizor
+|-singleturn|p2b: Scizor|Helping Hand|[of] p2a: Politoed
+|move|p2b: Scizor|Bullet Punch|p1b: Kingambit
+|-resisted|p1b: Kingambit
+|-damage|p1b: Kingambit|0 fnt
+|faint|p1b: Kingambit
+|move|p1a: Torkoal|Eruption|p2a: Politoed|[spread] p2a,p2b
+|-resisted|p2a: Politoed
+|-supereffective|p2b: Scizor
+|-damage|p2a: Politoed|34/100
+|-damage|p2b: Scizor|0 fnt
+|-enditem|p2a: Politoed|Sitrus Berry|[eat]
+|-heal|p2a: Politoed|59/100|[from] item: Sitrus Berry
+|faint|p2b: Scizor
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1756957575
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1a: Torkoal|Eruption|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1756957582
+|move|p2a: Politoed|Weather Ball|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|76/100
+|move|p1a: Torkoal|Eruption|p2a: Politoed
+|-resisted|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|
+|win|BlackStag52

@@ -1,0 +1,185 @@
+|j|☆lilfishsticks
+|j|☆AemBigChilling
+|html|lilfishsticksAemBigChilling    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757149298
+|gametype|doubles
+|player|p1|lilfishsticks|roxie|
+|player|p2|AemBigChilling|lass-gen4|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Maushold, L50|
+|poke|p1|Armarouge, L50, F|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|showteam|p1|Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,Protect,TrickRoom|||F|||50|,,,,,Psychic]Indeedee-F||RockyHelmet|PsychicSurge|Psychic,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,EarthPower,WeatherBall|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||F|||50|,,,,,Ghost]Maushold||WideLens|Technician|PopulationBomb,FollowMe,Taunt,SunnyDay||||||50|,,,,,Poison]Armarouge||PowerHerb|FlashFire|ArmorCannon,ExpandingForce,MeteorBeam,TrickRoom|||F|||50|,,,,,Grass
+|showteam|p2|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,DragonPulse|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|IceBeam,TeraBlast,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost
+|
+|t:|1757149427
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Porygon2|Porygon2, L50|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Hatterene|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|atk|1
+|turn|1
+|
+|t:|1757149596
+|switch|p1b: Armarouge|Armarouge, L50, F|100/100
+|move|p2a: Incineroar|Parting Shot|p1a: Hatterene
+|move|p1a: Hatterene|Parting Shot|p2a: Incineroar|[from] ability: Magic Bounce
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2a: Incineroar|spa|1
+|
+|t:|1757149606
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100|[from] Parting Shot
+|move|p2b: Porygon2|Tera Blast|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|51/100
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1757149702
+|-terastallize|p1a: Ursaluna|Ghost
+|move|p2a: Incineroar|Knock Off|p1b: Armarouge
+|-supereffective|p1b: Armarouge
+|-damage|p1b: Armarouge|44/100
+|-enditem|p1b: Armarouge|Power Herb|[from] move: Knock Off|[of] p2a: Incineroar
+|move|p2b: Porygon2|Ice Beam|p1b: Armarouge
+|-resisted|p1b: Armarouge
+|-damage|p1b: Armarouge|30/100
+|move|p1a: Ursaluna|Facade|p2b: Porygon2
+|-damage|p2b: Porygon2|15/100
+|move|p1b: Armarouge|Trick Room|p1b: Armarouge
+|-fieldstart|move: Trick Room|[of] p1b: Armarouge
+|
+|-damage|p1a: Ursaluna|45/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1757149744
+|-terastallize|p2a: Incineroar|Ghost
+|move|p1a: Ursaluna|Headlong Rush|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Incineroar
+|move|p1b: Armarouge|Expanding Force|p2b: Porygon2
+|-damage|p2b: Porygon2|0 fnt
+|faint|p2b: Porygon2
+|
+|-damage|p1a: Ursaluna|39/100 brn|[from] brn
+|upkeep
+|
+|t:|1757149754
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|4
+|
+|t:|1757149813
+|move|p2a: Torkoal|Overheat|p1a: Ursaluna
+|-crit|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-unboost|p2a: Torkoal|spa|2
+|faint|p1a: Ursaluna
+|move|p1b: Armarouge|Expanding Force|p2a: Torkoal|[spread] p2a,p2b
+|-damage|p2a: Torkoal|8/100
+|-damage|p2b: Ursaluna|39/100
+|move|p2b: Ursaluna|Headlong Rush|p1b: Armarouge
+|-supereffective|p1b: Armarouge
+|-damage|p1b: Armarouge|0 fnt
+|-unboost|p2b: Ursaluna|def|1
+|-unboost|p2b: Ursaluna|spd|1
+|faint|p1b: Armarouge
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757149822
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|turn|5
+|
+|t:|1757149855
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p2a: Torkoal|Overheat|p1a: Hatterene
+|-damage|p1a: Hatterene|55/100
+|-unboost|p2a: Torkoal|spa|2
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldend|move: Trick Room
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|33/100 brn|[from] brn
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1757149873
+|move|p1b: Indeedee|Helping Hand|p1a: Hatterene
+|-singleturn|p1a: Hatterene|Helping Hand|[of] p1b: Indeedee
+|move|p2b: Ursaluna|Protect||[still]
+|-fail|p2b: Ursaluna
+|move|p2a: Torkoal|Overheat|p1a: Hatterene
+|-damage|p1a: Hatterene|27/100
+|-unboost|p2a: Torkoal|spa|2
+|move|p1a: Hatterene|Expanding Force|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|-damage|p1a: Hatterene|17/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1757149886
+|move|p1b: Indeedee|Helping Hand|p1a: Hatterene
+|-singleturn|p1a: Hatterene|Helping Hand|[of] p1b: Indeedee
+|move|p2a: Torkoal|Overheat|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1757149896
+|move|p2a: Torkoal|Overheat|p1b: Indeedee
+|-damage|p1b: Indeedee|78/100
+|move|p1b: Indeedee|Psychic|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|win|lilfishsticks
+|inactive|lilfishsticks has 30 seconds to confirm battle start!
+|inactive|AemBigChilling has 30 seconds to confirm battle start!
+|inactive|lilfishsticks has 20 seconds to confirm battle start!
+|inactive|AemBigChilling has 20 seconds to confirm battle start!
+|inactive|lilfishsticks has 10 seconds to confirm battle start!
+|inactive|AemBigChilling has 10 seconds to confirm battle start!
+|uhtml|next|Next: Game 2 of 3

@@ -1,0 +1,168 @@
+|j|‽IshtarVGC26
+|j|☆takeshivgc-test
+|html|IshtarVGC26takeshivgc-test    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757783197
+|gametype|doubles
+|player|p1|IshtarVGC26|juan|1154
+|player|p2|takeshivgc-test|sabrina|1195
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Excadrill, L50, F|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Braviary, L50, M|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Hatterene, L50, F|
+|teampreview|4
+|showteam|p1|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,BrickBreak|||M|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|Protect,DrillRun,Earthquake,IronHead|||F|||50|,,,,,Dragon]Sinistcha-Masterpiece||RockyHelmet|Hospitality|LifeDew,RagePowder,MatchaGotcha,TrickRoom||||||50|,,,,,Water]Primarina||ThroatSpray|LiquidVoice|Protect,HyperVoice,Moonblast,Haze|||F|||50|,,,,,Water]Volcarona||SitrusBerry|FlameBody|Protect,FieryDance,GigaDrain,QuiverDance|||F|||50|,,,,,Dragon]Braviary||SafetyGoggles|Defiant|Protect,BraveBird,CloseCombat,Tailwind|||M|||50|,,,,,Ghost
+|showteam|p2|Armarouge||PowerHerb|FlashFire|ArmorCannon,ExpandingForce,TrickRoom,MeteorBeam|||F|||50|,,,,,Grass]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,TrickRoom,FollowMe|||F|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,ClearSmog,WeatherBall,HeatWave|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,MysticalFire|||F|||50|,,,,,Fire
+|
+|t:|1757783222
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p1b: Excadrill|Excadrill, L50, F, shiny|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757783241
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|-terastallize|p1a: Tyranitar|Flying
+|move|p1b: Excadrill|Iron Head|p2a: Indeedee
+|-damage|p2a: Indeedee|56/100
+|move|p1a: Tyranitar|Tera Blast|p2b: Ursaluna|[anim] Tera Blast Flying
+|-damage|p2b: Ursaluna|66/100
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Indeedee|50/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|95/100|[from] Sandstorm
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1757783260
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|move|p2b: Ursaluna|Facade|p1a: Sinistcha
+|-immune|p1a: Sinistcha
+|move|p1b: Excadrill|Iron Head|p2b: Ursaluna
+|-damage|p2b: Ursaluna|32/100 brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|26/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1757783282
+|switch|p1a: Tyranitar|Tyranitar, L50, M, tera:Flying|95/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-terastallize|p2a: Torkoal|Fire
+|move|p1b: Excadrill|Protect|p1b: Excadrill
+|-singleturn|p1b: Excadrill|Protect
+|move|p2a: Torkoal|Eruption|p1a: Tyranitar|[spread] p1a
+|-activate|p1b: Excadrill|move: Protect
+|-damage|p1a: Tyranitar|33/100
+|move|p2b: Ursaluna|Facade|p1b: Excadrill
+|-activate|p1b: Excadrill|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Torkoal|94/100|[from] Sandstorm
+|-damage|p1a: Tyranitar|27/100|[from] Sandstorm
+|-damage|p2b: Ursaluna|20/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1757783323
+|move|p2a: Torkoal|Eruption|p1a: Tyranitar|[spread] p1a,p1b
+|-supereffective|p1b: Excadrill
+|-damage|p1a: Tyranitar|0 fnt
+|-enditem|p1b: Excadrill|Focus Sash
+|-damage|p1b: Excadrill|1/100
+|faint|p1a: Tyranitar
+|move|p2b: Ursaluna|Facade|p1b: Excadrill
+|-resisted|p1b: Excadrill
+|-damage|p1b: Excadrill|0 fnt
+|faint|p1b: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Torkoal|88/100|[from] Sandstorm
+|-damage|p2b: Ursaluna|14/100 brn|[from] brn
+|upkeep
+|
+|t:|1757783337
+|switch|p1a: Primarina|Primarina, L50, F|100/100
+|switch|p1b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|turn|5
+|
+|t:|1757783357
+|move|p1a: Primarina|Protect|p1a: Primarina
+|-singleturn|p1a: Primarina|Protect
+|move|p2a: Torkoal|Eruption|p1b: Sinistcha|[spread] p1b
+|-activate|p1a: Primarina|move: Protect
+|-supereffective|p1b: Sinistcha
+|-damage|p1b: Sinistcha|0 fnt
+|faint|p1b: Sinistcha
+|move|p2b: Ursaluna|Facade|p1a: Primarina
+|-activate|p1a: Primarina|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Torkoal|82/100|[from] Sandstorm
+|-damage|p1a: Primarina|94/100|[from] Sandstorm
+|-damage|p2b: Ursaluna|9/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1757783372
+|move|p1a: Primarina|Hyper Voice|p2a: Torkoal|[spread] p2a,p2b
+|-supereffective|p2a: Torkoal
+|-supereffective|p2b: Ursaluna
+|-damage|p2a: Torkoal|0 fnt
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2a: Torkoal
+|faint|p2b: Ursaluna
+|-enditem|p1a: Primarina|Throat Spray
+|-boost|p1a: Primarina|spa|1|[from] item: Throat Spray
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Primarina|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757783381
+|switch|p2b: Indeedee|Indeedee-F, L50, F|50/100
+|switch|p2a: Gallade|Gallade, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|7
+|
+|t:|1757783389
+|move|p2b: Indeedee|Helping Hand|p2a: Gallade
+|-singleturn|p2a: Gallade|Helping Hand|[of] p2b: Indeedee
+|move|p2a: Gallade|Psycho Cut|p1a: Primarina
+|-damage|p1a: Primarina|0 fnt
+|faint|p1a: Primarina
+|
+|win|takeshivgc-test
+||takeshivgc-test is ready for game 3.
+||IshtarVGC26 is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

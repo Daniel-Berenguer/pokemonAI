@@ -1,0 +1,128 @@
+|j|☆EnzoPS
+|j|☆takeshivgc-test
+|html|EnzoPStakeshivgc-test    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757781869
+|gametype|doubles
+|player|p1|EnzoPS|cynthia-gen4|1112
+|player|p2|takeshivgc-test|sabrina|1174
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Hatterene, L50, F|
+|teampreview|4
+|showteam|p1|Pelipper||FocusSash|Drizzle|Protect,WeatherBall,Hurricane,Tailwind|||F|||50|,,,,,Ground]Amoonguss||SitrusBerry|Regenerator|Protect,Spore,RagePowder,PollenPuff|||F|||50|,,,,,Water]Archaludon||AssaultVest|Stamina|DragonPulse,ElectroShot,FlashCannon,BodyPress|||M|||50|,,,,,Grass]Basculegion||ChoiceBand|SwiftSwim|FlipTurn,WaveCrash,AquaJet,LastRespects|||M|||50|,,,,,Grass]Gholdengo||LifeOrb|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Ghost
+|showteam|p2|Armarouge||PowerHerb|FlashFire|ArmorCannon,ExpandingForce,TrickRoom,MeteorBeam|||M|||50|,,,,,Grass]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,TrickRoom,FollowMe|||F|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,ClearSmog,WeatherBall,HeatWave|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,MysticalFire|||F|||50|,,,,,Fire
+|
+|t:|1757781879
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Armarouge|Armarouge, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Armarouge|atk|1
+|turn|1
+|
+|t:|1757781911
+|-terastallize|p1b: Incineroar|Ghost
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2b: Armarouge|Meteor Beam||[still]
+|-prepare|p2b: Armarouge|Meteor Beam
+|-boost|p2b: Armarouge|spa|1
+|-enditem|p2b: Armarouge|Power Herb
+|-anim|p2b: Armarouge|Meteor Beam|p1b: Incineroar
+|-damage|p1b: Incineroar|35/100
+|move|p1b: Incineroar|Knock Off|p2b: Armarouge
+|-supereffective|p2b: Armarouge
+|-damage|p2b: Armarouge|44/100
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1757781935
+|switch|p1b: Pelipper|Pelipper, L50, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Armarouge|Expanding Force|p1b: Pelipper|[spread] p1a,p1b
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|44/100
+|-enditem|p1b: Pelipper|Focus Sash
+|-damage|p1b: Pelipper|1/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Indeedee|[spread] p2a,p2b
+|-resisted|p2b: Armarouge
+|-damage|p2a: Indeedee|59/100
+|-damage|p2b: Armarouge|12/100
+|-unboost|p1a: Gholdengo|spa|1
+|-damage|p1a: Gholdengo|34/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757781959
+|move|p2a: Indeedee|Helping Hand|p2b: Armarouge
+|-singleturn|p2b: Armarouge|Helping Hand|[of] p2a: Indeedee
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2b: Armarouge|Expanding Force|p1a: Gholdengo|[spread] p1b
+|-activate|p1a: Gholdengo|move: Protect
+|-damage|p1b: Pelipper|0 fnt
+|faint|p1b: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757781969
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|turn|4
+|
+|t:|1757781976
+|switch|p1a: Incineroar|Incineroar, L50, F, tera:Ghost|35/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Armarouge|atk|1
+|-terastallize|p2a: Indeedee|Grass
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Amoonguss|Pollen Puff|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|33/100
+|move|p2b: Armarouge|Expanding Force|p1a: Incineroar|[spread] p1a,p1b
+|-supereffective|p1b: Amoonguss
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1a: Incineroar
+|faint|p1b: Amoonguss
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|EnzoPS forfeited.
+|
+|win|takeshivgc-test
+|raw|EnzoPS's rating: 1112 → 1091(-21 for losing)
+|raw|takeshivgc-test's rating: 1174 → 1195(+21 for winning)

@@ -1,0 +1,111 @@
+|j|☆Siegfried_TV
+|j|☆Mortimerd
+|html|Siegfried_TVMortimerd    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757190737
+|gametype|doubles
+|player|p1|Siegfried_TV|lance|1060
+|player|p2|Mortimerd|drayden|1059
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Torkoal, L50, F|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,FollowMe,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fire]Hatterene||LifeOrb|MagicBounce|ExpandingForce,TrickRoom,DazzlingGleam,Protect|||F|||50|,,,,,Psychic]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,SacredSword,WideGuard|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,SwordsDance,Protect|||M|||50|,,,,,Ghost]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,SleepPowder,CloseCombat,AfterYou|||F|||50|,,,,,Ghost]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire
+|showteam|p2|Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Tailwind,Protect|||F|||50|,,,,,Steel]Sneasler||FocusSash|Unburden|FakeOut,DireClaw,CloseCombat,Uturn|||M|||50|,,,,,Grass]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Normal]Whimsicott||CovertCloak|Prankster|Moonblast,Tailwind,Encore,SunnyDay|||M|||50|,,,,,Dark]Charizard||ChoiceSpecs|SolarPower|HeatWave,WeatherBall,Hurricane,ScorchingSands|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Overheat,HeatWave,HelpingHand,Protect|||F|||50|,,,,,Fire
+|
+|t:|1757190779
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: MOIN|Indeedee-F, L50, F, shiny|100/100
+|switch|p1b: Meister|Hatterene, L50, F, shiny|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Charizard|Charizard, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: MOIN
+|-enditem|p1a: MOIN|Psychic Seed
+|-boost|p1a: MOIN|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757190805
+|move|p2a: Whimsicott|Sunny Day|p2a: Whimsicott
+|-weather|SunnyDay
+|move|p2b: Charizard|Heat Wave|p1a: MOIN|[spread] p1a,p1b
+|-damage|p1a: MOIN|33/100
+|-damage|p1b: Meister|0 fnt
+|faint|p1b: Meister
+|move|p1a: MOIN|Trick Room|p1a: MOIN
+|-fieldstart|move: Trick Room|[of] p1a: MOIN
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Charizard|88/100|[from] ability: Solar Power|[of] p2b: Charizard
+|upkeep
+|
+|t:|1757190816
+|switch|p1b: Bruder?|Torkoal, L50, M, shiny|100/100
+|turn|2
+|
+|t:|1757190829
+|-terastallize|p1b: Bruder?|Fire
+|move|p1a: MOIN|Helping Hand|p1b: Bruder?
+|-singleturn|p1b: Bruder?|Helping Hand|[of] p1a: MOIN
+|move|p1b: Bruder?|Eruption|p2a: Whimsicott|[spread] p2a,p2b
+|-supereffective|p2a: Whimsicott
+|-resisted|p2b: Charizard
+|-damage|p2a: Whimsicott|0 fnt
+|-damage|p2b: Charizard|0 fnt
+|faint|p2a: Whimsicott
+|faint|p2b: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757190837
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|switch|p2a: Dragonite|Dragonite, L50, F|100/100
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Mortimerd)
+|
+|t:|1757190882
+|-terastallize|p2b: Torkoal|Fire
+|move|p1a: MOIN|Helping Hand|p1b: Bruder?
+|-singleturn|p1b: Bruder?|Helping Hand|[of] p1a: MOIN
+|move|p1b: Bruder?|Eruption|p2b: Torkoal|[spread] p2a,p2b
+|-resisted|p2a: Dragonite
+|-resisted|p2b: Torkoal
+|-damage|p2a: Dragonite|49/100
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|move|p2a: Dragonite|Scale Shot|p1a: MOIN
+|-damage|p1a: MOIN|20/100
+|-damage|p1a: MOIN|7/100
+|-damage|p1a: MOIN|0 fnt
+|faint|p1a: MOIN
+|-hitcount|p1: MOIN|3
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Mortimerd forfeited.
+|
+|win|Siegfried_TV
+|l|☆Mortimerd
+|player|p2|
+||Mortimerd is ready for game 2.
+||Siegfried_TV is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

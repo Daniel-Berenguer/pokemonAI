@@ -1,0 +1,156 @@
+|j|☆Pauliii23
+|j|☆detoxfilms
+|html|Pauliii23detoxfilms    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757699700
+|gametype|doubles
+|player|p1|Pauliii23|266|1241
+|player|p2|detoxfilms|clerk|1220
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Dragapult, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Lapras, L50, M|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|ElectroShot,FlashCannon,BodyPress,DracoMeteor|||F|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,WideGuard,Tailwind|||F|||50|,,,,,Ghost]Basculegion||MysticWater|SwiftSwim|LastRespects,Protect,WaveCrash,AquaJet|||M|||50|,,,,,Water]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,PhantomForce,Uturn|||M|||50|,,,,,Dragon]Sinistcha||SitrusBerry|Hospitality|TrickRoom,MatchaGotcha,LifeDew,RagePowder||||||50|,,,,,Fairy]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Grass
+|showteam|p2|Primarina||CovertCloak|LiquidVoice|Protect,HyperVoice,PerishSong,Encore|||F|||50|,,,,,Dark]Gothitelle||SitrusBerry|ShadowTag|Protect,FakeOut,Psychic,TrickRoom|||M|||50|,,,,,Psychic]Lapras||Leftovers|WaterAbsorb|Protect,MuddyWater,DragonCheer,PerishSong|||M|||50|,,,,,Grass]Dragapult||ChoiceBand|ClearBody|DragonDarts,TeraBlast,PhantomForce,Uturn|||F|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,PartingShot,Protect|||F|||50|,,,,,Bug]Amoonguss||EjectButton|Regenerator|Protect,SludgeBomb,Spore,RagePowder|||M|||50|,,,,,Grass
+|
+|t:|1757699724
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Suppenschluk|Sinistcha, L50|100/100
+|switch|p1b: Werbär|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Lapras|Lapras, L50, M|100/100
+|switch|p2b: Gothitelle|Gothitelle, L50, M|100/100
+|turn|1
+|
+|t:|1757699749
+|move|p2b: Gothitelle|Fake Out|p1b: Werbär
+|-damage|p1b: Werbär|96/100
+|cant|p1b: Werbär|flinch
+|move|p1a: Suppenschluk|Matcha Gotcha|p2a: Lapras|[spread] p2a,p2b
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|73/100
+|-damage|p2b: Gothitelle|85/100
+|move|p2a: Lapras|Perish Song|p2a: Lapras
+|-start|p1a: Suppenschluk|perish3|[silent]
+|-start|p1b: Werbär|perish3|[silent]
+|-start|p2a: Lapras|perish3|[silent]
+|-start|p2b: Gothitelle|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p2a: Lapras|79/100|[from] item: Leftovers
+|-start|p1b: Werbär|perish3
+|-start|p1a: Suppenschluk|perish3
+|-start|p2b: Gothitelle|perish3
+|-start|p2a: Lapras|perish3
+|upkeep
+|turn|2
+|
+|t:|1757699774
+|switch|p2a: Dragapult|Dragapult, L50, F|100/100
+|move|p2b: Gothitelle|Protect|p2b: Gothitelle
+|-singleturn|p2b: Gothitelle|Protect
+|move|p1b: Werbär|Blood Moon|p2b: Gothitelle
+|-activate|p2b: Gothitelle|move: Protect
+|move|p1a: Suppenschluk|Matcha Gotcha|p2b: Gothitelle|[spread] p2a
+|-activate|p2b: Gothitelle|move: Protect
+|-resisted|p2a: Dragapult
+|-damage|p2a: Dragapult|84/100
+|
+|-start|p1b: Werbär|perish2
+|-start|p1a: Suppenschluk|perish2
+|-start|p2b: Gothitelle|perish2
+|upkeep
+|turn|3
+|
+|t:|1757699800
+|-terastallize|p2a: Dragapult|Ghost
+|move|p2a: Dragapult|Tera Blast|p1a: Suppenschluk|[anim] Tera Blast Ghost
+|-supereffective|p1a: Suppenschluk
+|-damage|p1a: Suppenschluk|0 fnt
+|faint|p1a: Suppenschluk
+|move|p1b: Werbär|Hyper Voice|p2a: Dragapult|[spread] p2a,p2b
+|-damage|p2a: Dragapult|19/100
+|-damage|p2b: Gothitelle|49/100
+|-enditem|p2b: Gothitelle|Sitrus Berry|[eat]
+|-heal|p2b: Gothitelle|73/100|[from] item: Sitrus Berry
+|-damage|p1b: Werbär|86/100|[from] item: Life Orb
+|move|p2b: Gothitelle|Psychic|p1b: Werbär
+|-damage|p1b: Werbär|57/100
+|
+|-start|p1b: Werbär|perish1
+|-start|p2b: Gothitelle|perish1
+|upkeep
+|
+|t:|1757699812
+|switch|p1a: Mittelalter|Dragapult, L50, M|100/100
+|turn|4
+|
+|t:|1757699821
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|-terastallize|p1a: Mittelalter|Dragon
+|move|p2a: Dragapult|Tera Blast|p1a: Mittelalter|[anim] Tera Blast Ghost
+|-damage|p1a: Mittelalter|0 fnt
+|faint|p1a: Mittelalter
+|move|p1b: Werbär|Hyper Voice|p2a: Dragapult|[spread] p2a,p2b
+|-damage|p2a: Dragapult|0 fnt
+|-damage|p2b: Amoonguss|65/100
+|faint|p2a: Dragapult
+|-enditem|p2b: Amoonguss|Eject Button
+|-damage|p1b: Werbär|48/100|[from] item: Life Orb
+|
+|t:|1757699832
+|switch|p2b: Lapras|Lapras, L50, M|79/100
+|
+|-heal|p2b: Lapras|84/100|[from] item: Leftovers
+|-start|p1b: Werbär|perish0
+|upkeep
+|faint|p1b: Werbär
+|
+|t:|1757699836
+|switch|p2a: Gothitelle|Gothitelle, L50, M|73/100
+|switch|p1b: Privatsache|Archaludon, L50, F|100/100
+|turn|5
+|
+|t:|1757699842
+|move|p2a: Gothitelle|Fake Out|p1b: Privatsache
+|-resisted|p1b: Privatsache
+|-damage|p1b: Privatsache|98/100
+|-ability|p1b: Privatsache|Stamina|boost
+|-boost|p1b: Privatsache|def|1
+|cant|p1b: Privatsache|flinch
+|move|p2b: Lapras|Perish Song|p2b: Lapras
+|-start|p1b: Privatsache|perish3|[silent]
+|-start|p2a: Gothitelle|perish3|[silent]
+|-start|p2b: Lapras|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p2b: Lapras|90/100|[from] item: Leftovers
+|-start|p1b: Privatsache|perish3
+|-start|p2a: Gothitelle|perish3
+|-start|p2b: Lapras|perish3
+|upkeep
+|turn|6
+|-message|Pauliii23 forfeited.
+|
+|win|detoxfilms
+|l|☆Pauliii23
+|player|p1|
+||Pauliii23 is ready for game 3.
+||detoxfilms is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

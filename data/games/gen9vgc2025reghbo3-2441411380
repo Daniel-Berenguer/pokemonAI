@@ -1,0 +1,125 @@
+|j|☆MSAtlos
+|j|☆pgoiko
+|html|MSAtlospgoiko    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757847714
+|gametype|doubles
+|player|p1|MSAtlos|clair|1190
+|player|p2|pgoiko|2|1123
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Frosmoth, L50, M|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Frosmoth||Leftovers|IceScales|QuiverDance,Blizzard,TeraBlast,Protect|||M|||50|,,,,,Water]Ninetales-Alola||LightClay|SnowWarning|Blizzard,AuroraVeil,Disable,Encore|||F|||50|,,,,,Fire]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,Uturn|||M|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Poison]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||M|||50|,,,,,Steel
+|showteam|p2|Indeedee-F||RockyHelmet|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Armarouge||PowerHerb|FlashFire|ExpandingForce,ArmorCannon,MeteorBeam,TrickRoom|||F|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HeatWave,Protect|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Substitute,Protect|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Psychic]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,CloseCombat,SleepPowder,AfterYou|||F|||50|,,,,,Ghost
+|
+|t:|1757847752
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Frosmoth|Frosmoth, L50, M|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|switch|p2b: Lilligant|Lilligant-Hisui, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1757847808
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p1b: Rillaboom|Fake Out|p2a: Torkoal
+|-activate|p2a: Torkoal|move: Protect
+|move|p2b: Lilligant|Sleep Powder|p1a: Frosmoth
+|-status|p1a: Frosmoth|slp|[from] move: Sleep Powder
+|cant|p1a: Frosmoth|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757847839
+|-terastallize|p1a: Frosmoth|Water
+|move|p2b: Lilligant|After You|p2a: Torkoal
+|-activate|p2a: Torkoal|move: After You
+|move|p2a: Torkoal|Eruption|p1b: Rillaboom|[spread] p1a,p1b
+|-resisted|p1a: Frosmoth
+|-supereffective|p1b: Rillaboom
+|-damage|p1a: Frosmoth|73/100 slp
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|-curestatus|p1a: Frosmoth|slp|[msg]
+|move|p1a: Frosmoth|Quiver Dance|p1a: Frosmoth
+|-boost|p1a: Frosmoth|spa|1
+|-boost|p1a: Frosmoth|spd|1
+|-boost|p1a: Frosmoth|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Frosmoth|79/100|[from] Grassy Terrain
+|-heal|p1a: Frosmoth|84/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757847854
+|switch|p1b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|turn|3
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pgoiko)
+|
+|t:|1757847914
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|move|p1b: Ninetales|Aurora Veil|p1b: Ninetales
+|-sidestart|p1: MSAtlos|move: Aurora Veil
+|move|p2b: Lilligant|Sleep Powder|p1a: Frosmoth
+|-status|p1a: Frosmoth|slp|[from] move: Sleep Powder
+|cant|p1a: Frosmoth|slp
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Frosmoth|90/100 slp|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|MSAtlos has 30 seconds left.
+|inactive|MSAtlos has 20 seconds left.
+|inactive|MSAtlos has 15 seconds left.
+|
+|t:|1757847956
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p2b: Lilligant|Solar Blade||[still]
+|-prepare|p2b: Lilligant|Solar Blade
+|-anim|p2b: Lilligant|Solar Blade|p1a: Frosmoth
+|-supereffective|p1a: Frosmoth
+|-damage|p1a: Frosmoth|0 fnt
+|faint|p1a: Frosmoth
+|move|p1b: Ninetales|Disable||[still]
+|-fail|p1b: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757847963
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|5
+|-message|MSAtlos forfeited.
+|
+|win|pgoiko
+||MSAtlos is ready for game 3.
+||pgoiko is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆pgoiko
+|player|p2|

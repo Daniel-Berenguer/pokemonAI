@@ -1,0 +1,135 @@
+|j|☆danet
+|j|☆ThetaB
+|html|danetThetaB    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757191512
+|gametype|doubles
+|player|p1|danet|2|1040
+|player|p2|ThetaB|palmer|1170
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Electabuzz, L50, F|
+|poke|p1|Volcarona, L50, F|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Corviknight, L50, M|
+|poke|p2|Annihilape, L50, F|
+|teampreview|4
+|showteam|p1|Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||M|||50|,,,,,Fairy]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Dark]Sneasler||FocusSash|PoisonTouch|CloseCombat,Coaching,FakeOut,DireClaw|||M|||50|,,,,,Stellar]Rillaboom||AssaultVest|GrassySurge|GrassyGlide,HighHorsepower,WoodHammer,FakeOut|||F|||50|,,,,,Fire]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,FollowMe,Taunt,Protect|||F|||50|,,,,,Ghost]Volcarona||Leftovers|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||F|||50|,,,,,Fairy
+|showteam|p2|Excadrill||FocusSash|SandRush|IronHead,HighHorsepower,Earthquake,Protect|||M|||50|,,,,,Stellar]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Protect,Trick|||M|||50|,,,,,Psychic]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Roost,Tailwind|||M|||50|,,,,,Dragon]Annihilape||SafetyGoggles|Defiant|CloseCombat,FinalGambit,RageFist,Taunt|||F|||50|,,,,,Water
+|
+|t:|1757191546
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kingambit|Kingambit, L50, F|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M, shiny|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|1
+|
+|t:|1757191607
+|switch|p2b: Annihilape|Annihilape, L50, F|100/100
+|move|p1b: Rillaboom|Fake Out|p2a: Sneasler
+|-damage|p2a: Sneasler|76/100
+|cant|p2a: Sneasler|flinch
+|move|p1a: Kingambit|Swords Dance|p1a: Kingambit
+|-boost|p1a: Kingambit|atk|2
+|
+|-heal|p2a: Sneasler|82/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1757191643
+|switch|p1b: Electabuzz|Electabuzz, L50, F|100/100
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2a: Sneasler|Dire Claw|p1b: Electabuzz
+|-damage|p1b: Electabuzz|67/100
+|-status|p1b: Electabuzz|psn
+|move|p2b: Annihilape|Final Gambit|p1a: Kingambit
+|-activate|p1a: Kingambit|move: Protect
+|
+|-heal|p2a: Sneasler|88/100|[from] Grassy Terrain
+|-heal|p1b: Electabuzz|73/100 psn|[from] Grassy Terrain
+|-damage|p1b: Electabuzz|61/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1757191677
+|-terastallize|p1a: Kingambit|Dark
+|move|p1b: Electabuzz|Follow Me|p1b: Electabuzz
+|-singleturn|p1b: Electabuzz|move: Follow Me
+|move|p2a: Sneasler|Close Combat|p1b: Electabuzz
+|-damage|p1b: Electabuzz|7/100 psn
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|move|p2b: Annihilape|Close Combat|p1b: Electabuzz
+|-damage|p1b: Electabuzz|0 fnt
+|-unboost|p2b: Annihilape|def|1
+|-unboost|p2b: Annihilape|spd|1
+|faint|p1b: Electabuzz
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|upkeep
+|
+|t:|1757191694
+|switch|p2a: Corviknight|Corviknight, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|turn|4
+|
+|t:|1757191718
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p1b: Sneasler|Fake Out|p2a: Corviknight
+|-resisted|p2a: Corviknight
+|-damage|p2a: Corviknight|95/100
+|move|p2b: Annihilape|Close Combat|p1a: Kingambit
+|-activate|p1a: Kingambit|move: Protect
+|cant|p2a: Corviknight|flinch
+|
+|-heal|p2a: Corviknight|100/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1757191741
+|move|p1a: Kingambit|Sucker Punch|p2b: Annihilape
+|-damage|p2b: Annihilape|0 fnt
+|faint|p2b: Annihilape
+|move|p1b: Sneasler|Dire Claw|p2a: Corviknight
+|-immune|p2a: Corviknight
+|move|p2a: Corviknight|Brave Bird|p1a: Kingambit
+|-damage|p1a: Kingambit|67/100
+|-damage|p2a: Corviknight|89/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|95/100|[from] item: Leftovers
+|-heal|p1a: Kingambit|72/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1757191745
+|switch|p2b: Indeedee|Indeedee, L50, M, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|6
+|-message|ThetaB forfeited.
+|
+|win|danet
+|raw|danet's rating: 1040 → 1086(+46 for winning)
+|raw|ThetaB's rating: 1170 → 1136(-34 for losing)

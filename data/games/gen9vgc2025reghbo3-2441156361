@@ -1,0 +1,286 @@
+|j|☆Scheetzy02
+|j|☆toobadforalt
+|html|Scheetzy02toobadforalt    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757806269
+|gametype|doubles
+|player|p1|Scheetzy02|266|1102
+|player|p2|toobadforalt|102|1255
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Weezing-Galar, L50, F|
+|poke|p1|Toedscruel, L50, F|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Tatsugiri, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Typhlosion-Hisui, L50, F|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Magmar, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Milotic, L50, F|
+|teampreview|4
+|showteam|p1|Weezing-Galar||ChoiceSpecs|NeutralizingGas|DazzlingGleam,StrangeSteam,SludgeBomb,Flamethrower|||F|||50|,,,,,Fire]Toedscruel||CovertCloak|MyceliumMight|Spore,RagePowder,AcidSpray,EarthPower|||F|||50|,,,,,Water]Dondozo||Leftovers|Oblivious|WaveCrash,OrderUp,Earthquake,Protect|||M|||50|,,,,,Grass]Tatsugiri||FocusSash|Commander|DracoMeteor,HydroPump,Surf,Protect|||F|||50|,,,,,Stellar]Dragonite||ChoiceBand|InnerFocus|Outrage,TeraBlast,ExtremeSpeed,DragonClaw|||M|||50|,,,,,Flying]Typhlosion-Hisui||ChoiceScarf|Blaze|Eruption,ShadowBall,HeatWave,Overheat|||F|||50|,,,,,Fire
+|showteam|p2|Dragapult||ChoiceBand|ClearBody|DragonDarts,Uturn,PhantomForce,TeraBlast|||F|||50|,,,,,Ghost]Magmar||Eviolite|VitalSpirit|FollowMe,Overheat,Taunt,WillOWisp|||F|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,HighHorsepower|||F|||50|,,,,,Fire]Kingambit||SafetyGoggles|Defiant|SwordsDance,KowtowCleave,SuckerPunch,Protect|||F|||50|,,,,,Flying]Sneasler||FocusSash|Unburden|FakeOut,DireClaw,CloseCombat,Protect|||M|||50|,,,,,Stellar]Milotic||Leftovers|Competitive|Scald,IcyWind,Haze,Protect|||F|||50|,,,,,Grass
+|
+|t:|1757806320
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dondozo|Dondozo, L50, M|100/100
+|switch|p1b: Tatsugiri|Tatsugiri, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Kingambit|Kingambit, L50, F|100/100
+|-activate|p1b: Tatsugiri|ability: Commander|[of] p1a: Dondozo
+|-boost|p1a: Dondozo|atk|2
+|-boost|p1a: Dondozo|spa|2
+|-boost|p1a: Dondozo|spe|2
+|-boost|p1a: Dondozo|def|2
+|-boost|p1a: Dondozo|spd|2
+|turn|1
+|
+|t:|1757806343
+|switch|p2b: Milotic|Milotic, L50, F|100/100
+|move|p2a: Sneasler|Fake Out|p1a: Dondozo
+|-damage|p1a: Dondozo|95/100
+|cant|p1a: Dondozo|flinch
+|
+|-heal|p1a: Dondozo|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1757806362
+|switch|p2a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Dondozo|Order Up|p2a: Rillaboom
+|-damage|p2a: Rillaboom|54/100
+|-boost|p1a: Dondozo|atk|1
+|move|p2b: Milotic|Haze|p2b: Milotic
+|-clearallboost
+|
+|-heal|p2a: Rillaboom|60/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1757806379
+|move|p2a: Rillaboom|Fake Out|p1a: Dondozo
+|-damage|p1a: Dondozo|91/100
+|move|p2b: Milotic|Icy Wind|p1b: Tatsugiri|[spread] p1a
+|-miss|p2b: Milotic|p1b: Tatsugiri
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|86/100
+|-unboost|p1a: Dondozo|spe|1
+|cant|p1a: Dondozo|flinch
+|
+|-heal|p2a: Rillaboom|67/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|93/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|99/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1757806396
+|move|p2a: Rillaboom|Grassy Glide|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|51/100
+|move|p2b: Milotic|Scald|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-crit|p1a: Dondozo
+|-damage|p1a: Dondozo|30/100
+|move|p1a: Dondozo|Order Up|p2a: Rillaboom
+|-damage|p2a: Rillaboom|44/100
+|-boost|p1a: Dondozo|atk|1
+|
+|-heal|p2a: Rillaboom|50/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|36/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|42/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1757806415
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2b: Milotic|Scald|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p1a: Dondozo|48/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|54/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1757806431
+|move|p2a: Sneasler|Fake Out|p1a: Dondozo
+|-damage|p1a: Dondozo|44/100
+|move|p2b: Milotic|Scald|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|31/100
+|cant|p1a: Dondozo|flinch
+|
+|-heal|p1a: Dondozo|37/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|43/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1757806454
+|-terastallize|p2a: Sneasler|Stellar
+|move|p2a: Sneasler|Dire Claw|p1a: Dondozo
+|-damage|p1a: Dondozo|8/100
+|move|p2b: Milotic|Icy Wind|p1b: Tatsugiri|[spread] p1a
+|-miss|p2b: Milotic|p1b: Tatsugiri
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|2/100
+|-unboost|p1a: Dondozo|spe|1
+|move|p1a: Dondozo|Earthquake|p2a: Sneasler|[spread] p2a,p2b
+|-miss|p1a: Dondozo|p1b: Tatsugiri
+|-supereffective|p2a: Sneasler
+|-enditem|p2a: Sneasler|Focus Sash
+|-damage|p2a: Sneasler|1/100
+|-damage|p2b: Milotic|72/100
+|
+|-heal|p2b: Milotic|78/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|8/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1757806478
+|switch|p2a: Rillaboom|Rillaboom, L50, F|50/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2b: Milotic|Icy Wind|p1a: Dondozo|[spread] 
+|-miss|p2b: Milotic|p1b: Tatsugiri
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p2a: Rillaboom|56/100|[from] Grassy Terrain
+|-heal|p2b: Milotic|84/100|[from] Grassy Terrain
+|-heal|p2b: Milotic|90/100|[from] item: Leftovers
+|-heal|p1a: Dondozo|15/100|[from] Grassy Terrain
+|-heal|p1a: Dondozo|21/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1757806500
+|move|p2a: Rillaboom|Fake Out|p1a: Dondozo
+|-damage|p1a: Dondozo|11/100
+|move|p2b: Milotic|Scald|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|
+|-heal|p2a: Rillaboom|62/100|[from] Grassy Terrain
+|-heal|p2b: Milotic|96/100|[from] Grassy Terrain
+|-heal|p2b: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757806522
+|switch|p1a: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|turn|10
+|
+|t:|1757806559
+|move|p1b: Tatsugiri|Protect|p1b: Tatsugiri
+|-singleturn|p1b: Tatsugiri|Protect
+|move|p2b: Milotic|Protect|p2b: Milotic
+|-singleturn|p2b: Milotic|Protect
+|move|p2a: Rillaboom|Grassy Glide|p1b: Tatsugiri
+|-activate|p1b: Tatsugiri|move: Protect
+|move|p1a: Typhlosion|Overheat|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|-unboost|p1a: Typhlosion|spa|2
+|faint|p2a: Rillaboom
+|
+|upkeep
+|
+|t:|1757806574
+|switch|p2a: Sneasler|Sneasler, L50, M, tera:Stellar|1/100
+|turn|11
+|
+|t:|1757806616
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|move|p2a: Sneasler|Fake Out|p1b: Tatsugiri
+|-damage|p1b: Tatsugiri|69/100
+|cant|p1b: Tatsugiri|flinch
+|move|p2b: Milotic|Scald|p1a: Dragonite
+|-resisted|p1a: Dragonite
+|-damage|p1a: Dragonite|86/100
+|
+|-heal|p2a: Sneasler|7/100|[from] Grassy Terrain
+|-heal|p1b: Tatsugiri|75/100|[from] Grassy Terrain
+|upkeep
+|turn|12
+|
+|t:|1757806645
+|switch|p1b: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1a: Dragonite|Extreme Speed|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Protect
+|move|p2b: Milotic|Icy Wind|p1b: Typhlosion|[spread] p1a,p1b
+|-supereffective|p1a: Dragonite
+|-resisted|p1b: Typhlosion
+|-damage|p1a: Dragonite|40/100
+|-damage|p1b: Typhlosion|94/100
+|-unboost|p1a: Dragonite|spe|1
+|-unboost|p1b: Typhlosion|spe|1
+|
+|-heal|p2a: Sneasler|13/100|[from] Grassy Terrain
+|-heal|p1b: Typhlosion|99/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|13
+|
+|t:|1757806689
+|-terastallize|p1b: Typhlosion|Fire
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1a: Dragonite|Extreme Speed|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Protect
+|move|p1b: Typhlosion|Eruption|p2a: Sneasler|[spread] p2b
+|-activate|p2a: Sneasler|move: Protect
+|-resisted|p2b: Milotic
+|-damage|p2b: Milotic|71/100
+|move|p2b: Milotic|Icy Wind|p1a: Dragonite|[spread] p1a,p1b
+|-supereffective|p1a: Dragonite
+|-resisted|p1b: Typhlosion
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1b: Typhlosion|93/100
+|-unboost|p1b: Typhlosion|spe|1
+|faint|p1a: Dragonite
+|
+|-heal|p2b: Milotic|77/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757806709
+|switch|p1a: Tatsugiri|Tatsugiri, L50, F|75/100
+|turn|14
+|
+|t:|1757806730
+|move|p2b: Milotic|Protect|p2b: Milotic
+|-singleturn|p2b: Milotic|Protect
+|move|p2a: Sneasler|Close Combat|p1b: Typhlosion
+|-damage|p1b: Typhlosion|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1b: Typhlosion
+|move|p1a: Tatsugiri|Draco Meteor|p2b: Milotic
+|-activate|p2b: Milotic|move: Protect
+|
+|-heal|p2b: Milotic|83/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1757806745
+|move|p2a: Sneasler|Dire Claw|p1a: Tatsugiri
+|-damage|p1a: Tatsugiri|0 fnt
+|faint|p1a: Tatsugiri
+|
+|win|toobadforalt
+||toobadforalt is ready for game 2.
+||Scheetzy02 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

@@ -1,0 +1,114 @@
+|j|☆FakeOutPlot
+|j|☆Quill86
+|html|FakeOutPlotQuill86    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1756945248
+|gametype|doubles
+|player|p1|FakeOutPlot|iris|1454
+|player|p2|Quill86|lucas|1311
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Clefable, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Smeargle, L50, F|
+|teampreview|4
+|showteam|p1|Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|PartingShot,FlareBlitz,KnockOff,FakeOut|||F|||50|,,,,,Ghost]Sneasler||FocusSash|PoisonTouch|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Stellar]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Steel]Ursaluna-Bloodmoon||AssaultVest|MindsEye|HyperVoice,EarthPower,BloodMoon,VacuumWave|||M|||50|,,,,,Water]Clefable||SitrusBerry|Unaware|FollowMe,Moonblast,ThunderWave,Protect|||F|||50|,,,,,Water
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,TrickRoom,HelpingHand,DazzlingGleam|||F|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|SacredSword,WideGuard,TrickRoom,PsychoCut|||M|||50|,,,,,Grass]Torkoal||ChoiceSpecs|Drought|Eruption,WeatherBall,EarthPower,HeatWave|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Protect,HeadlongRush,Facade,Earthquake|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|DazzlingGleam,ExpandingForce,MysticalFire,TrickRoom|||F|||50|,,,,,Fire]Smeargle||FocusSash|Moody|FakeOut,Spore,Instruct,FollowMe|||F|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FakeOutPlot)
+|
+|t:|1756945273
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-fail|p2b: Gallade|unboost|[from] item: Clear Amulet|[of] p2b: Gallade
+|turn|1
+|
+|t:|1756945285
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Gholdengo|Shadow Ball|p2a: Indeedee
+|-immune|p2a: Indeedee
+|move|p1b: Incineroar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|43/100
+|move|p2b: Gallade|Sacred Sword|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|upkeep
+|
+|t:|1756945308
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|turn|2
+|
+|t:|1756945315
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Gholdengo|Make It Rain|p2b: Gallade|[spread] p2a,p2b
+|-damage|p2a: Indeedee|3/100
+|-damage|p2b: Gallade|51/100
+|-unboost|p1a: Gholdengo|spa|1
+|-damage|p1a: Gholdengo|91/100|[from] item: Life Orb
+|move|p1b: Dragonite|Scale Shot|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-hitcount|p2: Indeedee|1
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|move|p2b: Gallade|Trick Room|p2b: Gallade
+|-fieldstart|move: Trick Room|[of] p2b: Gallade
+|
+|upkeep
+|
+|t:|1756945340
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|3
+|
+|t:|1756945351
+|-terastallize|p2a: Torkoal|Fire
+|-terastallize|p1a: Gholdengo|Water
+|move|p1b: Dragonite|Protect|p1b: Dragonite
+|-singleturn|p1b: Dragonite|Protect
+|move|p2a: Torkoal|Eruption|p1a: Gholdengo|[spread] p1a
+|-activate|p1b: Dragonite|move: Protect
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|4/100
+|move|p2b: Gallade|Psycho Cut|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1756945352
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|turn|4
+|-message|FakeOutPlot forfeited.
+|
+|win|Quill86
+|raw|FakeOutPlot's rating: 1454 → 1426(-28 for losing)
+|raw|Quill86's rating: 1311 → 1339(+28 for winning)

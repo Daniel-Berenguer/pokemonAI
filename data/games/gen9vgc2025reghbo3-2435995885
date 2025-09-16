@@ -1,0 +1,196 @@
+|j|☆washingtongargacha
+|j|☆The median voter
+|html|washingtongargachaThe median voter    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757109889
+|gametype|doubles
+|player|p1|washingtongargacha|2|1099
+|player|p2|The median voter|scientist-gen4dp|1269
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p2|Arcanine-Hisui, L50, F|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Dragonite, L50, F|
+|teampreview|4
+|showteam|p1|Talonflame||CovertCloak|GaleWings|Tailwind,DualWingbeat,Taunt,FlareBlitz|||M|||50|,,,,,Ghost]Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,SteelBeam,ShadowBall,PowerGem||||||50|,,,,,Flying]Dragonite||LoadedDice|Multiscale|ScaleShot,IceSpinner,Haze,Protect|||F|||50|,,,,,Steel]Archaludon||PowerHerb|Sturdy|FlashCannon,ElectroShot,DracoMeteor,Protect|||M|||50|,,,,,Flying]Tyranitar||AssaultVest|SandStream|KnockOff,RockSlide,TeraBlast,LowKick|||M|||50|,,,,,Flying]Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,Earthquake,Protect|||M|||50|,,,,,Steel
+|showteam|p2|Arcanine-Hisui||ClearAmulet|Intimidate|FlareBlitz,RockSlide,Protect,ExtremeSpeed|||F|||50|,,,,,Water]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,IcyWind,AuroraVeil,Encore|||F|||50|,,,,,Ghost]Gholdengo||GrassySeed|GoodasGold|MakeItRain,NastyPlot,ShadowBall,Protect||||||50|,,,,,Water]Sneasler||WhiteHerb|Unburden|DireClaw,CloseCombat,Coaching,Protect|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,DrumBeating,HighHorsepower,GrassyGlide|||F|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,StompingTantrum,Tailwind|||F|||50|,,,,,Ground
+|
+|t:|1757109922
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-enditem|p2a: Gholdengo|Grassy Seed
+|-boost|p2a: Gholdengo|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1757109939
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p2b: Rillaboom|Drum Beating|p1b: Garchomp
+|-activate|p1b: Garchomp|move: Protect
+|move|p1a: Gholdengo|Shadow Ball|p2a: Gholdengo
+|-activate|p2a: Gholdengo|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1757109953
+|-terastallize|p2a: Gholdengo|Water
+|-terastallize|p1a: Gholdengo|Flying
+|move|p1b: Garchomp|Earthquake|p2a: Gholdengo|[spread] p2a,p2b
+|-immune|p1a: Gholdengo
+|-resisted|p2b: Rillaboom
+|-damage|p2a: Gholdengo|79/100
+|-damage|p2b: Rillaboom|89/100
+|-damage|p1b: Garchomp|91/100|[from] item: Life Orb
+|move|p2b: Rillaboom|Drum Beating|p1a: Gholdengo
+|-resisted|p1a: Gholdengo
+|-damage|p1a: Gholdengo|73/100
+|-unboost|p1a: Gholdengo|spe|1
+|move|p2a: Gholdengo|Shadow Ball|p1a: Gholdengo
+|-damage|p1a: Gholdengo|19/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Gholdengo
+|-damage|p2a: Gholdengo|1/100
+|
+|-heal|p1b: Garchomp|97/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|95/100|[from] Grassy Terrain
+|-heal|p2a: Gholdengo|7/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1757109973
+|switch|p1a: Talonflame|Talonflame, L50, M|100/100
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1b: Garchomp|Earthquake|p2b: Rillaboom|[spread] p2b
+|-activate|p2a: Gholdengo|move: Protect
+|-immune|p1a: Talonflame
+|-resisted|p2b: Rillaboom
+|-damage|p2b: Rillaboom|83/100
+|-damage|p1b: Garchomp|87/100|[from] item: Life Orb
+|move|p2b: Rillaboom|Drum Beating|p1b: Garchomp
+|-damage|p1b: Garchomp|41/100
+|-unboost|p1b: Garchomp|spe|1
+|
+|-heal|p2b: Rillaboom|89/100|[from] Grassy Terrain
+|-heal|p2a: Gholdengo|13/100|[from] Grassy Terrain
+|-heal|p1b: Garchomp|47/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1757109998
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p1a: Talonflame|Tailwind|p1a: Talonflame
+|-sidestart|p1: washingtongargacha|move: Tailwind
+|move|p2b: Rillaboom|Drum Beating|p1b: Garchomp
+|-activate|p1b: Garchomp|move: Protect
+|move|p2a: Gholdengo|Shadow Ball|p1a: Talonflame
+|-damage|p1a: Talonflame|50/100
+|
+|-heal|p1b: Garchomp|53/100|[from] Grassy Terrain
+|-heal|p2b: Rillaboom|95/100|[from] Grassy Terrain
+|-heal|p2a: Gholdengo|20/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1757110049
+|switch|p2a: Dragonite|Dragonite, L50, F|100/100
+|move|p1a: Talonflame|Dual Wingbeat|p2b: Rillaboom
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|69/100
+|-supereffective|p2b: Rillaboom
+|-damage|p2b: Rillaboom|47/100
+|-hitcount|p2b: Rillaboom|2
+|move|p1b: Garchomp|Earthquake|p2b: Rillaboom|[spread] p2b
+|-immune|p1a: Talonflame
+|-immune|p2a: Dragonite
+|-resisted|p2b: Rillaboom
+|-damage|p2b: Rillaboom|33/100
+|-damage|p1b: Garchomp|43/100|[from] item: Life Orb
+|move|p2b: Rillaboom|Drum Beating|p1b: Garchomp
+|-damage|p1b: Garchomp|0 fnt
+|faint|p1b: Garchomp
+|
+|-heal|p2b: Rillaboom|39/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1757110066
+|switch|p1b: Gholdengo|Gholdengo, L50, tera:Flying|19/100
+|turn|6
+|
+|t:|1757110080
+|switch|p2b: Gholdengo|Gholdengo, L50, tera:Water|20/100
+|move|p1a: Talonflame|Flare Blitz|p2b: Gholdengo
+|-resisted|p2b: Gholdengo
+|-damage|p2b: Gholdengo|0 fnt
+|faint|p2b: Gholdengo
+|-damage|p1a: Talonflame|44/100|[from] Recoil
+|move|p1b: Gholdengo|Steel Beam|p2a: Dragonite
+|-damage|p2a: Dragonite|30/100
+|-damage|p1b: Gholdengo|0 fnt|[from] steelbeam
+|faint|p1b: Gholdengo
+|move|p2a: Dragonite|Scale Shot|p1a: Talonflame|[miss]
+|-miss|p2a: Dragonite|p1a: Talonflame
+|
+|upkeep
+|
+|t:|1757110101
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|turn|7
+|
+|t:|1757110123
+|move|p1a: Talonflame|Dual Wingbeat|p2a: Dragonite
+|-damage|p2a: Dragonite|15/100
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|-hitcount|p2: Dragonite|2
+|move|p1b: Archaludon|Flash Cannon|p2b: Ninetales
+|-supereffective|p2b: Ninetales
+|-enditem|p2b: Ninetales|Focus Sash
+|-damage|p2b: Ninetales|1/100
+|move|p2b: Ninetales|Blizzard|p1b: Archaludon|[spread] p1a,p1b
+|-damage|p1a: Talonflame|2/100
+|-damage|p1b: Archaludon|55/100
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p1: washingtongargacha|move: Tailwind
+|upkeep
+|
+|t:|1757110128
+|switch|p2a: Rillaboom|Rillaboom, L50, F|39/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|8
+|
+|t:|1757110160
+|move|p2a: Rillaboom|Fake Out|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|move|p2b: Ninetales|Blizzard|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|faint|p1b: Archaludon
+|
+|win|The median voter

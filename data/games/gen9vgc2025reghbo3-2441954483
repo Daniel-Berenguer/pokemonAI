@@ -1,0 +1,172 @@
+|j|☆mister.ludicolo
+|j|☆ArielsHusband
+|html|mister.ludicoloArielsHusband    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757929754
+|gametype|doubles
+|player|p1|mister.ludicolo|waiter-gen4dp|1060
+|player|p2|ArielsHusband|169|1110
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ludicolo, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Politoed, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Ludicolo||LoadedDice|SwiftSwim|FakeOut,IceSpinner,BulletSeed,Surf|||F|||50|,,,,,Poison]Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,DracoMeteor,FlashCannon|||M|||50|,,,,,Grass]Politoed||ChoiceSpecs|Drizzle|IceBeam,EarthPower,WeatherBall,Surf|||M|||50|,,,,,Grass]Incineroar||SafetyGoggles|Intimidate|FakeOut,Uturn,KnockOff,Roar|||F|||50|,,,,,Ghost
+|showteam|p2|Hatterene||LifeOrb|MagicBounce|TrickRoom,DazzlingGleam,ExpandingForce,Protect|||F|||50|,,,,,Psychic]Ursaluna||FlameOrb|Guts|Facade,Protect,HeadlongRush,HighHorsepower|||F|||50|,,,,,Ghost]Torkoal||Charcoal|Drought|Eruption,Protect,HelpingHand,Overheat|||F|||50|,,,,,Grass]Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,DazzlingGleam,HelpingHand,TrickRoom|||F|||50|,,,,,Fairy]Armarouge||PowerHerb|FlashFire|ExpandingForce,ArmorCannon,TrickRoom,MeteorBeam|||M|||50|,,,,,Grass]Lilligant-Hisui||FocusSash|Chlorophyll|CloseCombat,AfterYou,SleepPowder,SolarBlade|||F|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mister.ludicolo)
+|
+|t:|1757929768
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ludicolo|Ludicolo, L50, F, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Hatterene|atk|1
+|turn|1
+|inactive|mister.ludicolo has 30 seconds left.
+|
+|t:|1757929799
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Ludicolo|Ice Spinner|p2a: Indeedee
+|-damage|p2a: Indeedee|85/100
+|-fieldend|move: Psychic Terrain
+|move|p1b: Incineroar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|23/100
+|move|p2b: Hatterene|Trick Room|p2b: Hatterene
+|-fieldstart|move: Trick Room|[of] p2b: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1757929821
+|switch|p2a: Ursaluna|Ursaluna, L50, F, shiny|100/100
+|-terastallize|p2b: Hatterene|Psychic
+|move|p2b: Hatterene|Expanding Force|p1a: Ludicolo
+|-damage|p1a: Ludicolo|11/100
+|-damage|p2b: Hatterene|91/100|[from] item: Life Orb
+|move|p1b: Incineroar|U-turn|p2a: Ursaluna
+|-damage|p2a: Ursaluna|87/100
+|
+|t:|1757929830
+|switch|p1b: Politoed|Politoed, L50, M, shiny|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Politoed
+|move|p1a: Ludicolo|Surf|p2a: Ursaluna|[spread] p1b,p2a,p2b
+|-resisted|p1b: Politoed
+|-supereffective|p2a: Ursaluna
+|-damage|p1b: Politoed|82/100
+|-damage|p2a: Ursaluna|13/100
+|-damage|p2b: Hatterene|49/100
+|
+|-weather|RainDance|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1757929852
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2b: Hatterene|atk|1
+|move|p2b: Hatterene|Expanding Force|p1b: Politoed
+|-damage|p1b: Politoed|10/100
+|-damage|p2b: Hatterene|39/100|[from] item: Life Orb
+|move|p2a: Ursaluna|Facade|p1b: Politoed
+|-damage|p1b: Politoed|0 fnt
+|faint|p1b: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Ursaluna|7/100 brn|[from] brn
+|upkeep
+|
+|t:|1757929867
+|switch|p1b: Ludicolo|Ludicolo, L50, F, shiny|11/100
+|turn|4
+|
+|t:|1757929888
+|switch|p2a: Indeedee|Indeedee-F, L50, F|23/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-terastallize|p1a: Incineroar|Ghost
+|move|p1b: Ludicolo|Fake Out|p2a: Indeedee
+|-activate|p2a: Indeedee|move: Psychic Terrain
+|move|p2b: Hatterene|Dazzling Gleam|p1b: Ludicolo|[spread] p1a,p1b
+|-damage|p1a: Incineroar|65/100
+|-damage|p1b: Ludicolo|0 fnt
+|faint|p1b: Ludicolo
+|-damage|p2b: Hatterene|29/100|[from] item: Life Orb
+|move|p1a: Incineroar|Knock Off|p2b: Hatterene
+|-supereffective|p2b: Hatterene
+|-damage|p2b: Hatterene|0 fnt
+|-enditem|p2b: Hatterene|Life Orb|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2b: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757929904
+|switch|p2b: Ursaluna|Ursaluna, L50, F, shiny|7/100 brn
+|switch|p1b: Archaludon|Archaludon, L50, M, shiny|100/100
+|turn|5
+|
+|t:|1757929925
+|switch|p2a: Lilligant|Lilligant-Hisui, L50, F, shiny|100/100
+|move|p1a: Incineroar|Knock Off|p2b: Ursaluna
+|-crit|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|-enditem|p2b: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2b: Ursaluna
+|move|p1b: Archaludon|Body Press|p2a: Lilligant
+|-damage|p2a: Lilligant|66/100
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1757929931
+|switch|p2b: Indeedee|Indeedee-F, L50, F|23/100
+|turn|6
+|
+|t:|1757929943
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Lilligant|Sleep Powder|p1a: Incineroar
+|-activate|p1a: Incineroar|item: Safety Goggles|Sleep Powder
+|move|p1b: Archaludon|Body Press|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|move|p1a: Incineroar|U-turn|p2a: Lilligant
+|-damage|p2a: Lilligant|40/100
+|
+|-weather|none
+|upkeep
+|turn|7
+|-message|ArielsHusband forfeited.
+|
+|win|mister.ludicolo
+|l|☆ArielsHusband
+|player|p2|
+||mister.ludicolo is ready for game 3.
+||ArielsHusband is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆mister.ludicolo
+|player|p1|

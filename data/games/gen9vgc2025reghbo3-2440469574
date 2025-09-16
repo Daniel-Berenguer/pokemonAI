@@ -1,0 +1,158 @@
+|j|☆detoxfilms
+|j|☆caluuben
+|html|detoxfilmscaluuben    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757708199
+|gametype|doubles
+|player|p1|detoxfilms|clerk|1213
+|player|p2|caluuben|266|1139
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Primarina, L50, F|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Lapras, L50, M|
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Weezing, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Porygon2, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Altaria, L50, F|
+|teampreview|4
+|showteam|p1|Primarina||CovertCloak|LiquidVoice|Protect,HyperVoice,PerishSong,Encore|||F|||50|,,,,,Dark]Gothitelle||SitrusBerry|ShadowTag|Protect,FakeOut,Psychic,TrickRoom|||M|||50|,,,,,Dark]Lapras||Leftovers|WaterAbsorb|Protect,MuddyWater,DragonCheer,PerishSong|||M|||50|,,,,,Grass]Dragapult||ChoiceBand|ClearBody|DragonDarts,TeraBlast,PhantomForce,Uturn|||F|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,PartingShot,Protect|||M|||50|,,,,,Bug]Weezing||AirBalloon|NeutralizingGas|Protect,SludgeBomb,Taunt,WillOWisp|||F|||50|,,,,,Dark
+|showteam|p2|Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,PartingShot,KnockOff|||M|||50|,,,,,Grass]Amoonguss||MentalHerb|Regenerator|Spore,RagePowder,PollenPuff,Protect|||M|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Steel]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,HyperVoice,EarthPower,VacuumWave|||M|||50|,,,,,Normal]Altaria||CovertCloak|CloudNine|WillOWisp,Tailwind,BreakingSwipe,Protect|||F|||50|,,,,,Steel
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by caluuben)
+|inactive|caluuben has 60 seconds left.
+|
+|t:|1757708256
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragapult|Dragapult, L50, F|100/100
+|switch|p1b: Lapras|Lapras, L50, M|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Dragapult|unboost|[from] ability: Clear Body|[of] p1a: Dragapult
+|-unboost|p1b: Lapras|atk|1
+|turn|1
+|
+|t:|1757708271
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|move|p1a: Dragapult|U-turn|p2b: Incineroar
+|-damage|p2b: Incineroar|72/100
+|
+|t:|1757708279
+|switch|p1a: Gothitelle|Gothitelle, L50, M|100/100|[from] U-turn
+|move|p2b: Incineroar|Knock Off|p1a: Gothitelle
+|-supereffective|p1a: Gothitelle
+|-damage|p1a: Gothitelle|15/100
+|-enditem|p1a: Gothitelle|Sitrus Berry|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1b: Lapras|Perish Song|p1b: Lapras
+|-start|p1a: Gothitelle|perish3|[silent]
+|-start|p1b: Lapras|perish3|[silent]
+|-start|p2a: Ursaluna|perish3|[silent]
+|-start|p2b: Incineroar|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-start|p2b: Incineroar|perish3
+|-start|p2a: Ursaluna|perish3
+|-start|p1a: Gothitelle|perish3
+|-start|p1b: Lapras|perish3
+|upkeep
+|turn|2
+|inactive|detoxfilms has 30 seconds left.
+|
+|t:|1757708310
+|switch|p1a: Dragapult|Dragapult, L50, F|100/100
+|move|p2b: Incineroar|Flare Blitz|p1b: Lapras
+|-damage|p1b: Lapras|50/100
+|-damage|p2b: Incineroar|51/100|[from] Recoil
+|move|p2a: Ursaluna|Hyper Voice|p1b: Lapras|[spread] p1a,p1b
+|-damage|p1a: Dragapult|49/100
+|-damage|p1b: Lapras|28/100
+|move|p1b: Lapras|Dragon Cheer|p1a: Dragapult
+|-start|p1a: Dragapult|move: Dragon Cheer
+|
+|-heal|p1b: Lapras|34/100|[from] item: Leftovers
+|-start|p2b: Incineroar|perish2
+|-start|p2a: Ursaluna|perish2
+|-start|p1b: Lapras|perish2
+|upkeep
+|turn|3
+|inactive|detoxfilms has 30 seconds left.
+|
+|t:|1757708339
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|move|p1b: Lapras|Protect|p1b: Lapras
+|-singleturn|p1b: Lapras|Protect
+|move|p1a: Dragapult|Dragon Darts|p2b: Incineroar
+|-crit|p2b: Incineroar
+|-damage|p2b: Incineroar|4/100
+|-enditem|p2b: Incineroar|Sitrus Berry|[eat]
+|-heal|p2b: Incineroar|28/100|[from] item: Sitrus Berry
+|-anim|p1a: Dragapult|Dragon Darts|p2a: Gholdengo
+|-resisted|p2a: Gholdengo
+|-damage|p2a: Gholdengo|78/100
+|move|p2b: Incineroar|Knock Off|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|-enditem|p1a: Dragapult|Choice Band|[from] move: Knock Off|[of] p2b: Incineroar
+|faint|p1a: Dragapult
+|
+|-heal|p1b: Lapras|40/100|[from] item: Leftovers
+|-start|p2b: Incineroar|perish1
+|-start|p1b: Lapras|perish1
+|upkeep
+|
+|t:|1757708353
+|switch|p1a: Weezing|Weezing, L50, F|100/100
+|-ability|p1a: Weezing|Neutralizing Gas
+|-item|p1a: Weezing|Air Balloon
+|turn|4
+|
+|t:|1757708366
+|move|p1a: Weezing|Protect|p1a: Weezing
+|-singleturn|p1a: Weezing|Protect
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p2b: Incineroar|Parting Shot|p1b: Lapras
+|-unboost|p1b: Lapras|atk|1
+|-unboost|p1b: Lapras|spa|1
+|
+|t:|1757708370
+|switch|p2b: Amoonguss|Amoonguss, L50, M, shiny|100/100|[from] Parting Shot
+|move|p1b: Lapras|Perish Song|p1b: Lapras
+|-start|p1a: Weezing|perish3|[silent]
+|-start|p2a: Gholdengo|perish3|[silent]
+|-start|p2b: Amoonguss|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p1b: Lapras|46/100|[from] item: Leftovers
+|-start|p2a: Gholdengo|perish3
+|-start|p1a: Weezing|perish3
+|-start|p1b: Lapras|perish0
+|-start|p2b: Amoonguss|perish3
+|faint|p1b: Lapras
+|upkeep
+|
+|t:|1757708378
+|switch|p1b: Gothitelle|Gothitelle, L50, M|15/100
+|turn|5
+|-message|detoxfilms forfeited.
+|
+|win|caluuben
+|l|☆detoxfilms
+|player|p1|
+||detoxfilms is ready for game 2.
+|inactive|caluuben has 30 seconds to confirm battle start!
+|l|☆caluuben
+|player|p2|
+||caluuben is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

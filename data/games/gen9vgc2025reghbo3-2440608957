@@ -1,0 +1,82 @@
+|j|☆EggEngines2
+|j|☆5NitesAtTrickRoom
+|html|EggEngines25NitesAtTrickRoom    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757725697
+|gametype|doubles
+|player|p1|EggEngines2|collector|
+|player|p2|5NitesAtTrickRoom|hilbert|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Tyranitar, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Maushold, L50|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Kingambit, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||F|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|showteam|p2|Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Grass]Archaludon||AssaultVest|Stamina|FlashCannon,BodyPress,ElectroShot,Snarl|||F|||50|,,,,,Fighting]Sinistcha-Masterpiece||SitrusBerry|Hospitality|RagePowder,MatchaGotcha,TrickRoom,LifeDew||||||50|,,,,,Water]Maushold||WideLens|Technician|Protect,RainDance,PopulationBomb,FollowMe||||||50|,,,,,Ghost]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,AquaJet,FlipTurn|||M|||50|,,,,,Water]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark
+|
+|t:|1757725743
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100
+|switch|p2a: Archaludon|Archaludon, L50, F|100/100
+|switch|p2b: Maushold|Maushold, L50|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|1
+|
+|t:|1757725768
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|-terastallize|p1a: Indeedee|Psychic
+|move|p1a: Indeedee|Expanding Force|p2a: Basculegion|[spread] p2a,p2b
+|-damage|p2a: Basculegion|16/100
+|-damage|p2b: Maushold|0 fnt
+|faint|p2b: Maushold
+|move|p1b: Annihilape|Close Combat|p2a: Basculegion
+|-immune|p2a: Basculegion
+|
+|upkeep
+|
+|t:|1757725780
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|turn|2
+|
+|t:|1757725814
+|-terastallize|p2b: Archaludon|Fighting
+|move|p2a: Basculegion|Aqua Jet|p2b: Archaludon
+|-damage|p2b: Archaludon|84/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p1a: Indeedee|Expanding Force|p2a: Basculegion|[spread] p2a,p2b
+|-supereffective|p2b: Archaludon
+|-damage|p2a: Basculegion|0 fnt
+|-damage|p2b: Archaludon|0 fnt
+|faint|p2a: Basculegion
+|faint|p2b: Archaludon
+|move|p1b: Annihilape|Close Combat|p2: Basculegion|[notarget]
+|-fail|p1b: Annihilape
+|
+|upkeep
+|
+|t:|1757725824
+|switch|p2b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|turn|3
+|-message|5NitesAtTrickRoom forfeited.
+|
+|win|EggEngines2
+||5NitesAtTrickRoom is ready for game 3.
+||EggEngines2 is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

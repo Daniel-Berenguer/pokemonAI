@@ -1,0 +1,220 @@
+|j|☆HalcyonJon
+|j|☆Alecat
+|html|HalcyonJonAlecat    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757724259
+|gametype|doubles
+|player|p1|HalcyonJon|pokemonbreeder|1132
+|player|p2|Alecat|scientistf|1104
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Magmar, L50, F|
+|poke|p1|Primarina, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Hydreigon, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Magmar, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Espathra, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Arcanine-Hisui, L50, M|
+|teampreview|4
+|showteam|p1|Ninetales-Alola||FocusSash|SnowWarning|Blizzard,FreezeDry,AuroraVeil,Protect|||M|||50|,,,,,Ice]Magmar||Eviolite|VitalSpirit|Overheat,ClearSmog,HelpingHand,FollowMe|||F|||50|,,,,,Water]Primarina||RoomService|LiquidVoice|Moonblast,HyperVoice,SparklingAria,Protect|||M|||50|,,,,,Steel]Sneasler||GrassySeed|Unburden|CloseCombat,DireClaw,SludgeWave,Protect|||F|||50|,,,,,Dark]Rillaboom||WeaknessPolicy|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Dark]Hydreigon||ThroatSpray|Levitate|DragonPulse,Snarl,Tailwind,Protect|||F|||50|,,,,,Fire
+|showteam|p2|Sneasler||FocusSash|Unburden|FakeOut,CloseCombat,DireClaw,Coaching|||M|||50|,,,,,Ghost]Magmar||Eviolite|VitalSpirit|FollowMe,HeatWave,Taunt,Protect|||F|||50|,,,,,Dragon]Rillaboom||AssaultVest|GrassySurge|FakeOut,WoodHammer,GrassyGlide,HighHorsepower|||F|||50|,,,,,Fire]Espathra||GrassySeed|SpeedBoost|StoredPower,TeraBlast,CalmMind,Protect|||M|||50|,,,,,Fighting]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Dark]Arcanine-Hisui||LoadedDice|Intimidate|FlareBlitz,RockBlast,ExtremeSpeed,Protect|||M|||50|,,,,,Ghost
+|
+|t:|1757724302
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hydreigon|Hydreigon, L50, F|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2a: Arcanine|Arcanine-Hisui, L50, M, shiny|100/100
+|switch|p2b: Espathra|Espathra, L50, M, shiny|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Hydreigon|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-enditem|p2b: Espathra|Grassy Seed
+|-boost|p2b: Espathra|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1757724340
+|switch|p2a: Kingambit|Kingambit, L50, F|100/100
+|move|p2b: Espathra|Protect|p2b: Espathra
+|-singleturn|p2b: Espathra|Protect
+|move|p1b: Rillaboom|Fake Out|p2a: Kingambit
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|98/100
+|move|p1a: Hydreigon|Tailwind|p1a: Hydreigon
+|-sidestart|p1: HalcyonJon|move: Tailwind
+|
+|-heal|p2a: Kingambit|100/100|[from] Grassy Terrain
+|-ability|p2b: Espathra|Speed Boost|boost
+|-boost|p2b: Espathra|spe|1
+|upkeep
+|turn|2
+|
+|t:|1757724401
+|-terastallize|p1b: Rillaboom|Dark
+|-terastallize|p2b: Espathra|Fighting
+|move|p1a: Hydreigon|Snarl|p2b: Espathra|[spread] p2a,p2b
+|-resisted|p2a: Kingambit
+|-resisted|p2b: Espathra
+|-damage|p2a: Kingambit|91/100
+|-damage|p2b: Espathra|87/100
+|-unboost|p2a: Kingambit|spa|1
+|-ability|p2a: Kingambit|Defiant|boost
+|-boost|p2a: Kingambit|atk|2
+|-unboost|p2b: Espathra|spa|1
+|-enditem|p1a: Hydreigon|Throat Spray
+|-boost|p1a: Hydreigon|spa|1|[from] item: Throat Spray
+|move|p1b: Rillaboom|High Horsepower|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-crit|p2a: Kingambit
+|-damage|p2a: Kingambit|21/100
+|move|p2b: Espathra|Tera Blast|p1a: Hydreigon|[anim] Tera Blast Fighting
+|-supereffective|p1a: Hydreigon
+|-crit|p1a: Hydreigon
+|-damage|p1a: Hydreigon|0 fnt
+|faint|p1a: Hydreigon
+|move|p2a: Kingambit|Kowtow Cleave|p1b: Rillaboom
+|-resisted|p1b: Rillaboom
+|-damage|p1b: Rillaboom|61/100
+|
+|-heal|p1b: Rillaboom|67/100|[from] Grassy Terrain
+|-heal|p2b: Espathra|93/100|[from] Grassy Terrain
+|-heal|p2a: Kingambit|27/100|[from] Grassy Terrain
+|-ability|p2b: Espathra|Speed Boost|boost
+|-boost|p2b: Espathra|spe|1
+|upkeep
+|
+|t:|1757724444
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|-enditem|p1a: Sneasler|Grassy Seed
+|-boost|p1a: Sneasler|def|1|[from] item: Grassy Seed
+|turn|3
+|
+|t:|1757724469
+|move|p2b: Espathra|Protect|p2b: Espathra
+|-singleturn|p2b: Espathra|Protect
+|move|p2a: Kingambit|Sucker Punch|p1a: Sneasler
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|55/100
+|move|p1a: Sneasler|Dire Claw|p2b: Espathra
+|-activate|p2b: Espathra|move: Protect
+|move|p1b: Rillaboom|High Horsepower|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|
+|-heal|p1a: Sneasler|61/100|[from] Grassy Terrain
+|-heal|p2b: Espathra|99/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|72/100|[from] Grassy Terrain
+|-ability|p2b: Espathra|Speed Boost|boost
+|-boost|p2b: Espathra|spe|1
+|upkeep
+|
+|t:|1757724494
+|switch|p2a: Magmar|Magmar, L50, F|100/100
+|turn|4
+|
+|t:|1757724530
+|move|p2a: Magmar|Follow Me|p2a: Magmar
+|-singleturn|p2a: Magmar|move: Follow Me
+|move|p1a: Sneasler|Dire Claw|p2a: Magmar
+|-damage|p2a: Magmar|55/100
+|-status|p2a: Magmar|par
+|move|p2b: Espathra|Tera Blast|p1b: Rillaboom|[anim] Tera Blast Fighting
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|31/100
+|-enditem|p1b: Rillaboom|Weakness Policy
+|-boost|p1b: Rillaboom|atk|2|[from] item: Weakness Policy
+|-boost|p1b: Rillaboom|spa|2|[from] item: Weakness Policy
+|move|p1b: Rillaboom|High Horsepower|p2a: Magmar
+|-supereffective|p2a: Magmar
+|-damage|p2a: Magmar|0 fnt
+|faint|p2a: Magmar
+|
+|-heal|p1a: Sneasler|67/100|[from] Grassy Terrain
+|-heal|p2b: Espathra|100/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|37/100|[from] Grassy Terrain
+|-sideend|p1: HalcyonJon|move: Tailwind
+|-ability|p2b: Espathra|Speed Boost|boost
+|-boost|p2b: Espathra|spe|1
+|upkeep
+|
+|t:|1757724551
+|switch|p2a: Arcanine|Arcanine-Hisui, L50, M, shiny|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|-unboost|p1b: Rillaboom|atk|1
+|turn|5
+|
+|t:|1757724589
+|move|p2a: Arcanine|Protect|p2a: Arcanine
+|-singleturn|p2a: Arcanine|Protect
+|move|p2b: Espathra|Stored Power|p1a: Sneasler
+|-supereffective|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|move|p1b: Rillaboom|Wood Hammer|p2b: Espathra
+|-damage|p2b: Espathra|43/100
+|-damage|p1b: Rillaboom|18/100|[from] Recoil
+|
+|-heal|p2b: Espathra|49/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|24/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|-ability|p2b: Espathra|Speed Boost|boost
+|-boost|p2b: Espathra|spe|1
+|upkeep
+|
+|t:|1757724603
+|switch|p1a: Magmar|Magmar, L50, F|100/100
+|turn|6
+|
+|t:|1757724625
+|move|p2b: Espathra|Protect|p2b: Espathra
+|-singleturn|p2b: Espathra|Protect
+|move|p1a: Magmar|Follow Me|p1a: Magmar
+|-singleturn|p1a: Magmar|move: Follow Me
+|move|p2a: Arcanine|Rock Blast|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|78/100
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|57/100
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|37/100
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|14/100
+|-hitcount|p1a: Magmar|4
+|move|p1b: Rillaboom|High Horsepower|p2a: Arcanine
+|-supereffective|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|
+|-ability|p2b: Espathra|Speed Boost|boost
+|-boost|p2b: Espathra|spe|1
+|upkeep
+|turn|7
+|
+|t:|1757724666
+|move|p2b: Espathra|Tera Blast|p1b: Rillaboom|[anim] Tera Blast Fighting
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|move|p1a: Magmar|Overheat|p2b: Espathra
+|-damage|p2b: Espathra|0 fnt
+|-unboost|p1a: Magmar|spa|2
+|faint|p2b: Espathra
+|
+|win|HalcyonJon
+|raw|HalcyonJon's rating: 1132 → 1155(+23 for winning)
+|raw|Alecat's rating: 1104 → 1081(-23 for losing)
+|l|☆HalcyonJon
+|player|p1|

@@ -1,0 +1,122 @@
+|j|☆menenjoyer14
+|j|☆server101
+|html|menenjoyer14server101    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757734644
+|gametype|doubles
+|player|p1|menenjoyer14|169|
+|player|p2|server101|clerkf|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Maushold, L50|
+|teampreview|4
+|showteam|p1|Indeedee||FocusSash|PsychicSurge|ExpandingForce,HelpingHand,TrickRoom,Protect|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|ThroatChop,DireClaw,CloseCombat,Protect|||M|||50|,,,,,Dark]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Protect,Haze|||F|||50|,,,,,Fairy]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,Protect,NastyPlot||||||50|,,,,,Steel]Amoonguss||SitrusBerry|Regenerator|Protect,Spore,RagePowder,PollenPuff|||F|||50|,,,,,Water]Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,HyperVoice,EarthPower,VacuumWave|||M|||50|,,,,,Normal
+|showteam|p2|Primarina||ThroatSpray|LiquidVoice|HyperVoice,IcyWind,Moonblast,Protect|||F|||50|,,,,,Poison]Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,BodyPress,FlashCannon|||M|||50|,,,,,Fairy]Pelipper||CovertCloak|Drizzle|WideGuard,Tailwind,Hurricane,IcyWind|||M|||50|,,,,,Grass]Indeedee||FocusSash|PsychicSurge|TrickRoom,ExpandingForce,HelpingHand,Protect|||M|||50|,,,,,Dark]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Maushold||SafetyGoggles|FriendGuard|RainDance,FollowMe,HelpingHand,BeatUp||||||50|,,,,,Ghost
+|
+|t:|1757734682
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|switch|p2b: Maushold|Maushold, L50, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757734744
+|move|p1b: Sneasler|Protect|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Protect
+|move|p2b: Maushold|Follow Me|p2b: Maushold
+|-singleturn|p2b: Maushold|move: Follow Me
+|move|p1a: Indeedee|Expanding Force|p2b: Maushold|[spread] p2a,p2b
+|-resisted|p2a: Archaludon
+|-crit|p2b: Maushold
+|-damage|p2a: Archaludon|81/100
+|-damage|p2b: Maushold|0 fnt
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|faint|p2b: Maushold
+|move|p2a: Archaludon|Body Press|p1a: Indeedee
+|-damage|p1a: Indeedee|27/100
+|
+|upkeep
+|
+|t:|1757734759
+|switch|p2b: Pelipper|Pelipper, L50, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|2
+|
+|t:|1757734793
+|move|p2b: Pelipper|Wide Guard|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Wide Guard
+|move|p1b: Sneasler|Dire Claw|p2b: Pelipper
+|-damage|p2b: Pelipper|50/100
+|move|p1a: Indeedee|Expanding Force|p2b: Pelipper|[spread] 
+|-activate|p2a: Archaludon|move: Wide Guard
+|-activate|p2b: Pelipper|move: Wide Guard
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1b: Sneasler
+|-damage|p1b: Sneasler|41/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757734828
+|move|p1a: Indeedee|Helping Hand|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Helping Hand|[of] p1a: Indeedee
+|move|p2b: Pelipper|Wide Guard|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Wide Guard
+|move|p1b: Sneasler|Close Combat|p2a: Archaludon
+|-supereffective|p2a: Archaludon
+|-damage|p2a: Archaludon|0 fnt
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|faint|p2a: Archaludon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757734840
+|switch|p2a: Primarina|Primarina, L50, F, shiny|100/100
+|turn|4
+|
+|t:|1757734913
+|-terastallize|p2a: Primarina|Poison
+|move|p1b: Sneasler|Dire Claw|p2a: Primarina
+|-resisted|p2a: Primarina
+|-damage|p2a: Primarina|75/100
+|move|p1a: Indeedee|Expanding Force|p2a: Primarina|[spread] p2a,p2b
+|-supereffective|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2a: Primarina
+|faint|p2b: Pelipper
+|
+|win|menenjoyer14
+|inactive|menenjoyer14 has 30 seconds to confirm battle start!
+|inactive|server101 has 30 seconds to confirm battle start!
+||server101 is ready for game 2.
+||menenjoyer14 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆menenjoyer14
+|player|p1|

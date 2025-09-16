@@ -1,0 +1,154 @@
+|j|☆Ztringz
+|j|☆MoodyMukVGC
+|html|ZtringzMoodyMukVGC    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757807633
+|gametype|doubles
+|player|p1|Ztringz|2|1082
+|player|p2|MoodyMukVGC|169|1154
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Porygon2, L50|
+|teampreview|4
+|showteam|p1|Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,SludgeBomb|||F|||50|,,,,,Dark]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,Taunt|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Normal]Volcarona||Leftovers|FlameBody|QuiverDance,Tailwind,GigaDrain,Protect|||M|||50|,,,,,Dragon
+|showteam|p2|Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,Tailwind,RagePowder|||M|||50|,,,,,Water]Charizard||ChoiceSpecs|SolarPower|AirSlash,HeatWave,Overheat,WeatherBall|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|ClearSmog,Eruption,Overheat,Protect|||M|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting
+|
+|t:|1757807704
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Charizard|Charizard, L50, M, shiny|100/100
+|switch|p2b: Jumpluff|Jumpluff, L50, M, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Charizard|atk|1
+|-unboost|p2b: Jumpluff|atk|1
+|turn|1
+|
+|t:|1757807741
+|-terastallize|p2a: Charizard|Ghost
+|move|p1b: Incineroar|Fake Out|p2a: Charizard
+|-immune|p2a: Charizard
+|move|p2b: Jumpluff|Sunny Day|p2b: Jumpluff
+|-weather|SunnyDay
+|move|p2a: Charizard|Overheat|p1b: Incineroar
+|-resisted|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p2a: Charizard|spa|2
+|faint|p1b: Incineroar
+|move|p1a: Gholdengo|Shadow Ball|p2a: Charizard
+|-supereffective|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|-damage|p1a: Gholdengo|91/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757807753
+|switch|p2a: Ursaluna|Ursaluna, L50, M, shiny|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|turn|2
+|
+|t:|1757807772
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Gholdengo|atk|1
+|-unboost|p1b: Amoonguss|atk|1
+|-terastallize|p1a: Gholdengo|Dragon
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p1b: Amoonguss|Spore|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1757807797
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|move|p2a: Ursaluna|Facade|p1b: Amoonguss
+|-damage|p1b: Amoonguss|1/100
+|-enditem|p1b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1b: Amoonguss|26/100|[from] item: Sitrus Berry
+|move|p1b: Amoonguss|Pollen Puff|p2b: Incineroar
+|-damage|p2b: Incineroar|83/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1757807823
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Gholdengo|Make It Rain|p2b: Incineroar|[spread] p2b
+|-activate|p2a: Ursaluna|move: Protect
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|22/100
+|-unboost|p1a: Gholdengo|spa|1
+|-damage|p1a: Gholdengo|81/100|[from] item: Life Orb
+|move|p2b: Incineroar|Knock Off|p1a: Gholdengo
+|-damage|p1a: Gholdengo|36/100
+|-enditem|p1a: Gholdengo|Life Orb|[from] move: Knock Off|[of] p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Ursaluna|88/100 brn|[from] brn
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|5
+|
+|t:|1757807842
+|move|p1a: Gholdengo|Make It Rain|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2b: Incineroar
+|-damage|p2a: Ursaluna|21/100 brn
+|-damage|p2b: Incineroar|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2b: Incineroar
+|move|p2a: Ursaluna|Earthquake|p1b: Ursaluna|[spread] p1a,p1b
+|-damage|p1a: Gholdengo|0 fnt
+|-damage|p1b: Ursaluna|52/100 brn
+|faint|p1a: Gholdengo
+|move|p1b: Ursaluna|Facade|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-weather|none
+|-damage|p1b: Ursaluna|46/100 brn|[from] brn
+|upkeep
+|-message|MoodyMukVGC forfeited.
+|
+|win|Ztringz
+|l|☆MoodyMukVGC
+|player|p2|
+||MoodyMukVGC is ready for game 3.
+||Ztringz is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆Ztringz
+|player|p1|
+|j|☆MoodyMukVGC
+|player|p2|MoodyMukVGC|169|

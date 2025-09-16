@@ -1,0 +1,126 @@
+|j|☆ChuckConde
+|j|☆Tartali
+|html|ChuckCondeTartali    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757083103
+|gametype|doubles
+|player|p1|ChuckConde|brycenman|1085
+|player|p2|Tartali|102|1050
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Politoed, L50, M|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Kingdra, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Lycanroc, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Politoed||Leftovers|Drizzle|Protect,WeatherBall,PerishSong,Encore|||M|||50|,,,,,Grass]Gothitelle||SitrusBerry|ShadowTag|Protect,Psychic,FakeOut,TrickRoom|||M|||50|,,,,,Dark]Incineroar||SafetyGoggles|Intimidate|Protect,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Amoonguss||EjectButton|Regenerator|Protect,RagePowder,PollenPuff,Spore|||M|||50|,,,,,Fairy]Kingdra||LifeOrb|SwiftSwim|Protect,WeatherBall,DracoMeteor,MuddyWater|||F|||50|,,,,,Stellar]Archaludon||PowerHerb|Sturdy|Protect,ElectroShot,DragonPulse,FlashCannon|||M|||50|,,,,,Electric
+|showteam|p2|Tyranitar||AssaultVest|SandStream|RockSlide,TeraBlast,IcePunch,KnockOff|||M|||50|,,,,,Flying]Lycanroc||FocusSash|SandRush|RockSlide,CloseCombat,Endeavor,Endure|||M|||50|,,,,,Ghost]Farigiraf||ThroatSpray|ArmorTail|HyperVoice,Psychic,TrickRoom,Protect|||F|||50|,,,,,Water]Rillaboom||MiracleSeed|GrassySurge|FakeOut,DrumBeating,GrassyGlide,Uturn|||F|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,DarkestLariat,PartingShot|||M|||50|,,,,,Psychic]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Normal
+|
+|t:|1757083127
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kingdra|Kingdra, L50, F|100/100
+|switch|p1b: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p2a: Lycanroc|Lycanroc, L50, M|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|turn|1
+|
+|t:|1757083164
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Lycanroc|atk|1
+|-unboost|p2b: Farigiraf|atk|1
+|-terastallize|p2a: Lycanroc|Ghost
+|move|p2a: Lycanroc|Rock Slide|p1b: Gothitelle|[spread] p1a,p1b
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|62/100
+|-damage|p1b: Gothitelle|81/100
+|move|p2b: Farigiraf|Hyper Voice|p1a: Incineroar|[spread] p1a,p1b
+|-crit|p1b: Gothitelle
+|-damage|p1a: Incineroar|38/100
+|-damage|p1b: Gothitelle|42/100
+|-enditem|p1b: Gothitelle|Sitrus Berry|[eat]
+|-heal|p1b: Gothitelle|67/100|[from] item: Sitrus Berry
+|-enditem|p2b: Farigiraf|Throat Spray
+|-boost|p2b: Farigiraf|spa|1|[from] item: Throat Spray
+|move|p1b: Gothitelle|Trick Room|p1b: Gothitelle
+|-fieldstart|move: Trick Room|[of] p1b: Gothitelle
+|
+|upkeep
+|turn|2
+|
+|t:|1757083192
+|switch|p2a: Ursaluna|Ursaluna, L50, F, shiny|100/100
+|move|p1a: Incineroar|Knock Off|p2b: Farigiraf
+|-supereffective|p2b: Farigiraf
+|-crit|p2b: Farigiraf
+|-damage|p2b: Farigiraf|25/100
+|move|p1b: Gothitelle|Psychic|p2a: Ursaluna
+|-damage|p2a: Ursaluna|75/100
+|move|p2b: Farigiraf|Hyper Voice|p1b: Gothitelle|[spread] p1a,p1b
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Gothitelle|28/100
+|faint|p1a: Incineroar
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757083209
+|switch|p1a: Politoed|Politoed, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|3
+|
+|t:|1757083221
+|move|p2b: Farigiraf|Protect|p2b: Farigiraf
+|-singleturn|p2b: Farigiraf|Protect
+|move|p1b: Gothitelle|Psychic|p2b: Farigiraf
+|-activate|p2b: Farigiraf|move: Protect
+|move|p2a: Ursaluna|Earthquake|p1b: Gothitelle|[spread] p1a,p1b
+|-activate|p2b: Farigiraf|move: Protect
+|-damage|p1a: Politoed|35/100
+|-damage|p1b: Gothitelle|0 fnt
+|faint|p1b: Gothitelle
+|move|p1a: Politoed|Weather Ball|p2a: Ursaluna
+|-supereffective|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Politoed|41/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757083235
+|switch|p1b: Kingdra|Kingdra, L50, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|4
+|
+|t:|1757083255
+|-terastallize|p1b: Kingdra|Stellar
+|move|p2b: Farigiraf|Hyper Voice|p1a: Politoed|[spread] p1a,p1b
+|-damage|p1a: Politoed|5/100
+|-damage|p1b: Kingdra|40/100
+|move|p2a: Tyranitar|Rock Slide|p1b: Kingdra|[spread] p1a,p1b
+|-damage|p1a: Politoed|0 fnt
+|-damage|p1b: Kingdra|0 fnt
+|faint|p1a: Politoed
+|faint|p1b: Kingdra
+|
+|win|Tartali
+|raw|ChuckConde's rating: 1085 → 1060(-25 for losing)
+|raw|Tartali's rating: 1050 → 1086(+36 for winning)
+|l|☆ChuckConde
+|player|p1|

@@ -1,0 +1,111 @@
+|j|☆RickCtrl
+|j|☆snoople boot
+|html|RickCtrlsnoople boot    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757003925
+|gametype|doubles
+|player|p1|RickCtrl|266|1167
+|player|p2|snoople boot|mars|1235
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Typhlosion-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Indeedee||FocusSash|PsychicSurge|ExpandingForce,Imprison,Protect,TrickRoom|||M|||50|,,,,,Fighting]Sneasler||PsychicSeed|Unburden|Protect,DireClaw,CloseCombat,ThroatChop|||F|||50|,,,,,Dark]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Electabuzz||Eviolite|VitalSpirit|Protect,Taunt,FollowMe,Electroweb|||M|||50|,,,,,Fairy]Talonflame||CovertCloak|GaleWings|Tailwind,WillOWisp,DualWingbeat,FlareBlitz|||M|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|Haze,StompingTantrum,ScaleShot,Tailwind|||M|||50|,,,,,Dragon
+|showteam|p2|Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,Earthquake,Protect|||M|||50|,,,,,Ground]Jumpluff||CovertCloak|Chlorophyll|LeafStorm,SleepPowder,HelpingHand,Tailwind|||F|||50|,,,,,Poison]Torkoal||EjectPack|Drought|Overheat,BurningJealousy,HelpingHand,Protect|||M|||50|,,,,,Flying]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Tailwind,Protect|||F|||50|,,,,,Fairy]Kingambit||AssaultVest|Defiant|IronHead,SuckerPunch,Assurance,LowKick|||M|||50|,,,,,Flying]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,ShadowBall,HeatWave,Overheat|||F|||50|,,,,,Stellar
+|
+|t:|1757003982
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee, L50, M, shiny|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F, shiny|100/100
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|switch|p2b: Jumpluff|Jumpluff, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by RickCtrl)
+|inactive|RickCtrl has 60 seconds left.
+|
+|t:|1757004021
+|move|p2b: Jumpluff|Sleep Powder|p1a: Indeedee
+|-status|p1a: Indeedee|slp|[from] move: Sleep Powder
+|move|p1b: Sneasler|Dire Claw|p2a: Torkoal
+|-damage|p2a: Torkoal|66/100
+|cant|p1a: Indeedee|slp
+|move|p2a: Torkoal|Burning Jealousy|p1a: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Indeedee|52/100 slp
+|-damage|p1b: Sneasler|69/100
+|-status|p1b: Sneasler|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Sneasler|64/100 brn|[from] brn
+|upkeep
+|turn|2
+|inactive|RickCtrl has 30 seconds left.
+|
+|t:|1757004049
+|move|p1b: Sneasler|Protect|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Protect
+|cant|p1a: Indeedee|slp
+|move|p2b: Jumpluff|Tailwind|p2b: Jumpluff
+|-sidestart|p2: snoople boot|move: Tailwind
+|move|p2a: Torkoal|Overheat|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|-unboost|p2a: Torkoal|spa|2
+|faint|p1a: Indeedee
+|-enditem|p2a: Torkoal|Eject Pack
+|
+|t:|1757004064
+|switch|p2a: Dragonite|Dragonite, L50, F|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Sneasler|58/100 brn|[from] brn
+|upkeep
+|
+|t:|1757004073
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|turn|3
+|
+|t:|1757004087
+|-terastallize|p2a: Dragonite|Fairy
+|move|p2b: Jumpluff|Sleep Powder|p1a: Dragonite
+|-status|p1a: Dragonite|slp|[from] move: Sleep Powder
+|move|p1b: Sneasler|Dire Claw|p2a: Dragonite
+|-supereffective|p2a: Dragonite
+|-damage|p2a: Dragonite|74/100
+|move|p2a: Dragonite|Scale Shot|p1b: Sneasler|[miss]
+|-miss|p2a: Dragonite|p1b: Sneasler
+|cant|p1a: Dragonite|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Sneasler|52/100 brn|[from] brn
+|upkeep
+|turn|4
+|-message|RickCtrl forfeited.
+|
+|win|snoople boot
+|l|☆RickCtrl
+|player|p1|
+||RickCtrl is ready for game 2.
+||snoople boot is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|j|☆RickCtrl
+|player|p1|RickCtrl|266|

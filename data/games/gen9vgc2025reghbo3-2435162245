@@ -1,0 +1,220 @@
+|j|☆yuriquars
+|j|☆PugBurro
+|html|yuriquarsPugBurro    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757005211
+|gametype|doubles
+|player|p1|yuriquars|elesa|
+|player|p2|PugBurro|red|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Dragonite, L50, F|
+|teampreview|4
+|showteam|p1|Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Ghost]Ursaluna-Bloodmoon||AssaultVest|MindsEye|HyperVoice,BloodMoon,EarthPower,VacuumWave|||M|||50|,,,,,Normal]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||F|||50|,,,,,Fairy]Rillaboom||MeadowPlate|GrassySurge|GrassyGlide,FakeOut,WoodHammer,HighHorsepower|||F|||50|,,,,,Fire]Annihilape||FocusSash|Defiant|RageFist,CloseCombat,Taunt,Coaching|||F|||50|,,,,,Stellar
+|showteam|p2|Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,FlashCannon,BodyPress|||F|||50|,,,,,Bug]Pelipper||CovertCloak|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Steel]Basculegion||MysticWater|SwiftSwim|WaveCrash,LastRespects,AquaJet,FlipTurn|||M|||50|,,,,,Grass]Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,FakeOut,Protect|||M|||50|,,,,,Stellar]Amoonguss||MentalHerb|Regenerator|Spore,RagePowder,PollenPuff,Protect|||M|||50|,,,,,Dark]Dragonite||LoadedDice|Multiscale|Protect,Haze,ScaleShot,Tailwind|||F|||50|,,,,,Fairy
+|
+|t:|1757005301
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M, shiny|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2b: Amoonguss|atk|1
+|turn|1
+|
+|t:|1757005325
+|switch|p2a: Pelipper|Pelipper, L50, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1b: Incineroar|Fake Out|p2a: Pelipper
+|-damage|p2a: Pelipper|86/100
+|move|p1a: Annihilape|Taunt|p2b: Amoonguss
+|-start|p2b: Amoonguss|move: Taunt
+|-enditem|p2b: Amoonguss|Mental Herb
+|-end|p2b: Amoonguss|move: Taunt
+|move|p2b: Amoonguss|Spore|p1a: Annihilape
+|-status|p1a: Annihilape|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757005350
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Pelipper|Hurricane|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|34/100
+|-start|p1b: Incineroar|confusion
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|58/100|[from] item: Sitrus Berry
+|-activate|p1b: Incineroar|confusion
+|move|p1b: Incineroar|Parting Shot|p2b: Amoonguss
+|-unboost|p2b: Amoonguss|atk|1
+|-unboost|p2b: Amoonguss|spa|1
+|
+|t:|1757005355
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100|[from] Parting Shot
+|move|p2b: Amoonguss|Spore|p1b: Dragonite
+|-status|p1b: Dragonite|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757005373
+|switch|p2a: Archaludon|Archaludon, L50, F, shiny|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M, shiny|100/100
+|cant|p1b: Dragonite|slp
+|move|p1a: Rillaboom|Wood Hammer|p2a: Archaludon
+|-resisted|p2a: Archaludon
+|-damage|p2a: Archaludon|83/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|-damage|p1a: Rillaboom|95/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rillaboom|100/100|[from] Grassy Terrain
+|-heal|p2a: Archaludon|90/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1757005381
+|move|p2b: Sneasler|Fake Out|p1b: Dragonite
+|-damage|p1b: Dragonite|93/100 slp
+|-curestatus|p1b: Dragonite|slp|[msg]
+|cant|p1b: Dragonite|flinch
+|move|p1a: Rillaboom|High Horsepower|p2a: Archaludon
+|-supereffective|p2a: Archaludon
+|-damage|p2a: Archaludon|61/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1b: Dragonite
+|-damage|p1b: Dragonite|32/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Archaludon|67/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1757005397
+|switch|p1b: Incineroar|Incineroar, L50, F|58/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Archaludon|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|-terastallize|p2b: Sneasler|Stellar
+|move|p2b: Sneasler|Dire Claw|p1a: Rillaboom
+|-supereffective|p1a: Rillaboom
+|-damage|p1a: Rillaboom|25/100
+|move|p1a: Rillaboom|High Horsepower|p2b: Sneasler
+|-supereffective|p2b: Sneasler
+|-enditem|p2b: Sneasler|Focus Sash
+|-damage|p2b: Sneasler|1/100
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|none
+|-heal|p2b: Sneasler|7/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|31/100|[from] Grassy Terrain
+|-heal|p2a: Archaludon|73/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757005416
+|switch|p1b: Dragonite|Dragonite, L50, F|32/100
+|turn|6
+|
+|t:|1757005423
+|switch|p2b: Pelipper|Pelipper, L50, M, shiny|86/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p1a: Rillaboom|Grassy Glide|p2b: Pelipper
+|-damage|p2b: Pelipper|32/100
+|move|p1b: Dragonite|Haze|p1b: Dragonite
+|-clearallboost
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1b: Dragonite
+|-crit|p1b: Dragonite
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1b: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rillaboom|37/100|[from] Grassy Terrain
+|-heal|p2a: Archaludon|79/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1757005428
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100 slp
+|turn|7
+|
+|t:|1757005451
+|move|p2b: Pelipper|Protect|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Protect
+|cant|p1b: Annihilape|slp
+|move|p1a: Rillaboom|Wood Hammer|p2b: Pelipper
+|-activate|p2b: Pelipper|move: Protect
+|move|p2a: Archaludon|Flash Cannon|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1757005465
+|-terastallize|p1b: Annihilape|Stellar
+|-curestatus|p1b: Annihilape|slp|[msg]
+|move|p1b: Annihilape|Close Combat|p2a: Archaludon
+|-supereffective|p2a: Archaludon
+|-damage|p2a: Archaludon|0 fnt
+|-unboost|p1b: Annihilape|def|1
+|-unboost|p1b: Annihilape|spd|1
+|faint|p2a: Archaludon
+|move|p2b: Pelipper|Hurricane|p1b: Annihilape
+|-supereffective|p1b: Annihilape
+|-enditem|p1b: Annihilape|Focus Sash
+|-damage|p1b: Annihilape|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757005470
+|switch|p2a: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|turn|9
+|
+|t:|1757005474
+|move|p2b: Pelipper|Protect|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Protect
+|move|p1b: Annihilape|Rage Fist|p2b: Pelipper
+|-activate|p2b: Pelipper|move: Protect
+|move|p2a: Amoonguss|Pollen Puff|p1b: Annihilape
+|-resisted|p1b: Annihilape
+|-damage|p1b: Annihilape|0 fnt
+|faint|p1b: Annihilape
+|
+|win|PugBurro

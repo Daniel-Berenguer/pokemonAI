@@ -1,0 +1,219 @@
+|j|☆cesar salada
+|j|☆plujaivent
+|html|cesar saladaplujaivent    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756996425
+|gametype|doubles
+|player|p1|cesar salada|266|1040
+|player|p2|plujaivent|hiker-gen4|1129
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Jumpluff, L50, F|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,Tailwind,RagePowder|||F|||50|,,,,,Water]Charizard||ChoiceSpecs|SolarPower|DragonPulse,HeatWave,Overheat,WeatherBall|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|ClearSmog,Eruption,Overheat,Protect|||F|||50|,,,,,Fire]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting
+|showteam|p2|Archaludon||AssaultVest|Stamina|DragonPulse,ElectroShot,FlashCannon,BodyPress|||F|||50|,,,,,Bug]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Ground]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,AquaJet,FlipTurn|||M|||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||F|||50|,,,,,Fairy]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Incineroar||RockyHelmet|Intimidate|KnockOff,Taunt,PartingShot,FakeOut|||F|||50|,,,,,Ghost
+|
+|t:|1756996456
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jumpluff|Jumpluff, L50, F|100/100
+|switch|p1b: Charizard|Charizard, L50, F|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Jumpluff|atk|1
+|-unboost|p1b: Charizard|atk|1
+|turn|1
+|
+|t:|1756996489
+|-terastallize|p2a: Gholdengo|Water
+|move|p1a: Jumpluff|Sleep Powder|p2b: Incineroar
+|-status|p2b: Incineroar|slp|[from] move: Sleep Powder
+|move|p1b: Charizard|Heat Wave|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Gholdengo
+|-resisted|p2b: Incineroar
+|-damage|p2a: Gholdengo|73/100
+|-damage|p2b: Incineroar|80/100 slp
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|cant|p2b: Incineroar|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1756996510
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1a: Jumpluff|Sunny Day|p1a: Jumpluff
+|-weather|SunnyDay
+|move|p1b: Charizard|Heat Wave|p2a: Gholdengo|[spread] p2b
+|-activate|p2a: Gholdengo|move: Protect
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|32/100 slp
+|-curestatus|p2b: Incineroar|slp|[msg]
+|move|p2b: Incineroar|Parting Shot|p1b: Charizard
+|-unboost|p1b: Charizard|atk|1
+|-unboost|p1b: Charizard|spa|1
+|
+|t:|1756996524
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|88/100|[from] ability: Solar Power|[of] p1b: Charizard
+|upkeep
+|turn|3
+|
+|t:|1756996532
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p1a: Jumpluff|Tailwind|p1a: Jumpluff
+|-sidestart|p1: cesar salada|move: Tailwind
+|move|p1b: Charizard|Heat Wave|p2a: Gholdengo|[spread] p2a,p2b
+|-resisted|p2a: Gholdengo
+|-resisted|p2b: Pelipper
+|-damage|p2a: Gholdengo|64/100
+|-damage|p2b: Pelipper|87/100
+|move|p2a: Gholdengo|Make It Rain|p1a: Jumpluff|[spread] p1a,p1b
+|-resisted|p1b: Charizard
+|-damage|p1a: Jumpluff|0 fnt
+|-damage|p1b: Charizard|7/100
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Jumpluff
+|-damage|p2a: Gholdengo|54/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756996544
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|4
+|
+|t:|1756996560
+|switch|p2b: Incineroar|Incineroar, L50, F|32/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1b: Charizard|atk|1
+|-enditem|p1a: Torkoal|Eject Pack
+|
+|t:|1756996565
+|switch|p1a: Porygon2|Porygon2, L50|100/100
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|spa|1
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1b: Charizard|Heat Wave|p2a: Gholdengo|[spread] p2b
+|-activate|p2a: Gholdengo|move: Protect
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|0 fnt|[from] ability: Solar Power|[of] p1b: Charizard
+|faint|p1b: Charizard
+|upkeep
+|
+|t:|1756996584
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|turn|5
+|
+|t:|1756996599
+|switch|p2b: Pelipper|Pelipper, L50, F|87/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|-terastallize|p1b: Torkoal|Fire
+|move|p2a: Gholdengo|Make It Rain|p1a: Porygon2|[spread] p1a,p1b
+|-resisted|p1b: Torkoal
+|-damage|p1a: Porygon2|45/100
+|-damage|p1b: Torkoal|46/100
+|-unboost|p2a: Gholdengo|spa|1
+|-damage|p2a: Gholdengo|45/100|[from] item: Life Orb
+|move|p1a: Porygon2|Ice Beam|p2b: Pelipper
+|-damage|p2b: Pelipper|18/100
+|move|p1b: Torkoal|Eruption|p2a: Gholdengo|[spread] p2a,p2b
+|-resisted|p2a: Gholdengo
+|-resisted|p2b: Pelipper
+|-damage|p2a: Gholdengo|37/100
+|-damage|p2b: Pelipper|7/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1756996619
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p2b: Pelipper|Protect|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Protect
+|move|p1b: Torkoal|Clear Smog|p2b: Pelipper
+|-activate|p2b: Pelipper|move: Protect
+|move|p1a: Porygon2|Trick Room|p1a: Porygon2
+|-fieldstart|move: Trick Room|[of] p1a: Porygon2
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: cesar salada|move: Tailwind
+|upkeep
+|turn|7
+|
+|t:|1756996631
+|move|p1b: Torkoal|Eruption|p2a: Gholdengo|[spread] p2a,p2b
+|-resisted|p2a: Gholdengo
+|-resisted|p2b: Pelipper
+|-damage|p2a: Gholdengo|29/100
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|move|p1a: Porygon2|Tera Blast|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756996640
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|turn|8
+|
+|t:|1756996652
+|move|p1b: Torkoal|Eruption|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|66/100
+|move|p2a: Amoonguss|Spore|p1b: Torkoal
+|-status|p1b: Torkoal|slp|[from] move: Spore
+|move|p1a: Porygon2|Tera Blast|p2a: Amoonguss
+|-damage|p2a: Amoonguss|16/100
+|-enditem|p2a: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2a: Amoonguss|41/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1756996663
+|cant|p1b: Torkoal|slp
+|move|p2a: Amoonguss|Pollen Puff|p1b: Torkoal
+|-resisted|p1b: Torkoal
+|-damage|p1b: Torkoal|34/100 slp
+|move|p1a: Porygon2|Tera Blast|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|
+|win|cesar salada
+||plujaivent is ready for game 2.
+||cesar salada is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

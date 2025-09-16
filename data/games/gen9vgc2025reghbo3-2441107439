@@ -1,0 +1,154 @@
+|j|☆JpmdPokemon1234
+|j|☆heliosan
+|html|JpmdPokemon1234heliosan    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1757798096
+|gametype|doubles
+|player|p1|JpmdPokemon1234|colress|1077
+|player|p2|heliosan|steven|1046
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Maushold-Four, L50|
+|poke|p1|Archaludon, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Dragonite, L50, M|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|||F|||50|,,,,,Ghost]Basculegion||MysticWater|SwiftSwim|Protect,WaveCrash,AquaJet,LastRespects|||M|||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,ClearSmog|||M|||50|,,,,,Water]Maushold-Four||WideLens|Technician|PopulationBomb,FollowMe,Taunt,Protect||||||50|,,,,,Grass]Archaludon||AssaultVest|Stamina|ElectroShot,DragonPulse,FlashCannon,BodyPress|||F|||50|,,,,,Grass
+|showteam|p2|Whimsicott||FocusSash|Prankster|Moonblast,Tailwind,Encore,Protect|||F|||50|,,,,,Ghost]Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,StompingTantrum,Protect|||M|||50|,,,,,Ground]Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,ShadowBall,Trick,Protect||||||50|,,,,,Steel]Incineroar||AssaultVest|Intimidate|FakeOut,FlareBlitz,KnockOff,Uturn|||F|||50|,,,,,Grass]Sneasler||WhiteHerb|Unburden|FakeOut,DireClaw,CloseCombat,Protect|||F|||50|,,,,,Stellar]Dragonite||ChoiceBand|InnerFocus|ExtremeSpeed,Outrage,IceSpinner,StompingTantrum|||M|||50|,,,,,Normal
+|j| T-Soro
+|l| T-Soro
+|
+|t:|1757798115
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Dragonite|Dragonite, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-fail|p2b: Dragonite|unboost|Attack|[from] ability: Inner Focus|[of] p2b: Dragonite
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|turn|1
+|
+|t:|1757798141
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Protect
+|move|p1b: Archaludon|Dragon Pulse|p2b: Dragonite
+|-supereffective|p2b: Dragonite
+|-damage|p2b: Dragonite|27/100
+|move|p2b: Dragonite|Stomping Tantrum|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|14/100
+|
+|upkeep
+|turn|2
+|
+|t:|1757798170
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Sneasler|Dire Claw|p1a: Pelipper
+|-damage|p1a: Pelipper|40/100
+|-status|p1a: Pelipper|par
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2b: Gholdengo
+|-damage|p2b: Gholdengo|38/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757798197
+|move|p1a: Pelipper|Protect|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Protect
+|move|p2a: Sneasler|Close Combat|p1b: Archaludon
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|2/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p2b: Gholdengo|Shadow Ball|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|faint|p1b: Archaludon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757798212
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|turn|4
+|
+|t:|1757798237
+|move|p2a: Sneasler|Dire Claw|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|move|p1b: Basculegion|Last Respects|p2b: Gholdengo
+|-supereffective|p2b: Gholdengo
+|-damage|p2b: Gholdengo|0 fnt
+|faint|p2b: Gholdengo
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757798247
+|switch|p1a: Incineroar|Incineroar, L50, M|14/100
+|switch|p2b: Dragonite|Dragonite, L50, M|27/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-fail|p2b: Dragonite|unboost|Attack|[from] ability: Inner Focus|[of] p2b: Dragonite
+|turn|5
+|
+|t:|1757798265
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Protect
+|move|p2b: Dragonite|Extreme Speed|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p1b: Basculegion|Last Respects|p2b: Dragonite
+|-damage|p2b: Dragonite|0 fnt
+|faint|p2b: Dragonite
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757798277
+|switch|p2b: Garchomp|Garchomp, L50, M|100/100
+|turn|6
+|
+|t:|1757798295
+|-terastallize|p2b: Garchomp|Ground
+|move|p2a: Sneasler|Dire Claw|p1b: Basculegion
+|-resisted|p1b: Basculegion
+|-damage|p1b: Basculegion|82/100
+|-status|p1b: Basculegion|slp
+|cant|p1b: Basculegion|slp
+|move|p2b: Garchomp|Stomping Tantrum|p1b: Basculegion
+|-damage|p1b: Basculegion|0 fnt
+|faint|p1b: Basculegion
+|-damage|p2b: Garchomp|91/100|[from] item: Life Orb
+|
+|win|heliosan
+|raw|JpmdPokemon1234's rating: 1077 → 1055(-22 for losing)
+|raw|heliosan's rating: 1076 → 1105(+29 for winning)

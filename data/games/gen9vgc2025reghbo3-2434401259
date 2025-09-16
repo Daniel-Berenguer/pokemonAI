@@ -1,0 +1,148 @@
+|j|☆fantasminha8
+|j|☆Blitzball Ace
+|html|fantasminha8Blitzball Ace    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756911478
+|gametype|doubles
+|player|p1|fantasminha8|170|1304
+|player|p2|Blitzball Ace|kamado-armor|1254
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Exeggutor, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Dragonite, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceScarf|SolarPower|HeatWave,SolarBeam,AirSlash,WeatherBall|||M|||50|,,,,,Fire]Indeedee-F||SafetyGoggles|PsychicSurge|FollowMe,HelpingHand,TrickRoom,AlluringVoice|||F|||50|,,,,,Fairy]Exeggutor||FocusSash|Chlorophyll|ExpandingForce,TrickRoom,EnergyBall,SleepPowder|||F|||50|,,,,,Psychic]Torkoal||EjectPack|Drought|Eruption,Overheat,Protect,ClearSmog|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Earthquake,Facade,Protect,HeadlongRush|||M|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|WideGuard,PsychoCut,SacredSword,TrickRoom|||M|||50|,,,,,Psychic
+|showteam|p2|Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||F|||50|,,,,,Steel
+|
+|t:|1756911498
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gallade|Gallade, L50, M, shiny|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Gholdengo|Gholdengo, L50, shiny|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Gallade|unboost|[from] item: Clear Amulet|[of] p1a: Gallade
+|-unboost|p1b: Indeedee|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1756911535
+|switch|p2b: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1a: Gallade|Sacred Sword|p2b: Amoonguss
+|-resisted|p2b: Amoonguss
+|-damage|p2b: Amoonguss|70/100
+|
+|upkeep
+|turn|2
+|
+|t:|1756911556
+|move|p1a: Gallade|Wide Guard|p1a: Gallade
+|-singleturn|p1a: Gallade|Wide Guard
+|move|p2a: Gholdengo|Make It Rain|p1b: Indeedee|[spread] 
+|-activate|p1a: Gallade|move: Wide Guard
+|-activate|p1b: Indeedee|move: Wide Guard
+|move|p2b: Amoonguss|Spore|p1a: Gallade
+|-status|p1a: Gallade|slp|[from] move: Spore
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|upkeep
+|turn|3
+|
+|t:|1756911581
+|switch|p2b: Ursaluna|Ursaluna, L50, F, shiny|100/100
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|cant|p1a: Gallade|slp
+|move|p2a: Gholdengo|Make It Rain|p1b: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Gallade|0 fnt
+|-damage|p1b: Indeedee|1/100
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Gallade
+|-damage|p2a: Gholdengo|91/100|[from] item: Life Orb
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756911590
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|4
+|
+|t:|1756911619
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|-enditem|p1a: Torkoal|Eject Pack
+|
+|t:|1756911624
+|switch|p1a: Charizard|Charizard, L50, M|100/100
+|move|p1b: Indeedee|Helping Hand|p1a: Charizard
+|-singleturn|p1a: Charizard|Helping Hand|[of] p1b: Indeedee
+|move|p2a: Gholdengo|Make It Rain|p1b: Indeedee|[spread] p1a,p1b
+|-resisted|p1a: Charizard
+|-damage|p1a: Charizard|42/100
+|-damage|p1b: Indeedee|0 fnt
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1b: Indeedee
+|-damage|p2a: Gholdengo|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|30/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+|
+|t:|1756911626
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|turn|5
+|
+|t:|1756911640
+|-terastallize|p2a: Gholdengo|Dragon
+|-terastallize|p1a: Charizard|Fire
+|move|p1b: Torkoal|Eruption|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Gholdengo
+|-resisted|p2b: Incineroar
+|-damage|p2a: Gholdengo|42/100
+|-damage|p2b: Incineroar|62/100
+|move|p2b: Incineroar|Knock Off|p1b: Torkoal
+|-damage|p1b: Torkoal|76/100
+|move|p2a: Gholdengo|Make It Rain|p1b: Torkoal|[spread] p1a,p1b
+|-resisted|p1a: Charizard
+|-resisted|p1b: Torkoal
+|-damage|p1a: Charizard|0 fnt
+|-damage|p1b: Torkoal|32/100
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Charizard
+|-damage|p2a: Gholdengo|33/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|-message|fantasminha8 forfeited.
+|
+|win|Blitzball Ace
+|raw|fantasminha8's rating: 1304 → 1281(-23 for losing)
+|raw|Blitzball Ace's rating: 1254 → 1283(+29 for winning)
+|l|☆fantasminha8
+|player|p1|

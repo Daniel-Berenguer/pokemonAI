@@ -1,0 +1,182 @@
+|j|☆SizzleG
+|j|☆monsoonisbest
+|html|SizzleGmonsoonisbest    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757021405
+|gametype|doubles
+|player|p1|SizzleG|102|1121
+|player|p2|monsoonisbest|266|1042
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Politoed, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Jumpluff, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, F|
+|poke|p2|Kingambit, L50, F|
+|teampreview|4
+|showteam|p1|Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Incineroar||AssaultVest|Intimidate|KnockOff,Uturn,FlareBlitz,FakeOut|||M|||50|,,,,,Grass]Farigiraf||FocusSash|ArmorTail|NastyPlot,TrickRoom,HyperVoice,Psychic|||M|||50|,,,,,Water]Gholdengo||MetalCoat|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Dragon]Amoonguss||MentalHerb|Regenerator|Spore,RagePowder,EnergyBall,PollenPuff|||F|||50|,,,,,Water]Politoed||SitrusBerry|Drizzle|Protect,WeatherBall,IceBeam,Encore|||F|||50|,,,,,Grass
+|showteam|p2|Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,Earthquake,Protect|||F|||50|,,,,,Fire]Jumpluff||CovertCloak|Chlorophyll|LeafStorm,SleepPowder,Encore,Tailwind|||M|||50|,,,,,Water]Torkoal||EjectPack|Drought|Overheat,BurningJealousy,HelpingHand,Protect|||M|||50|,,,,,Flying]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,IceSpinner,Protect|||F|||50|,,,,,Fairy]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,ShadowBall,HeatWave,Overheat|||F|||50|,,,,,Fire]Kingambit||AssaultVest|Defiant|SuckerPunch,Assurance,IronHead,LowKick|||F|||50|,,,,,Flying
+|
+|t:|1757021427
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Politoed|Politoed, L50, F|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2b: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Politoed
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Jumpluff|atk|1
+|-unboost|p2b: Typhlosion|atk|1
+|turn|1
+|
+|t:|1757021448
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|move|p2a: Jumpluff|Leaf Storm|p1b: Politoed
+|-supereffective|p1b: Politoed
+|-damage|p1b: Politoed|64/100
+|-unboost|p2a: Jumpluff|spa|2
+|move|p1b: Politoed|Weather Ball|p2b: Torkoal
+|-resisted|p2b: Torkoal
+|-damage|p2b: Torkoal|80/100
+|move|p1a: Incineroar|Knock Off|p2b: Torkoal
+|-damage|p2b: Torkoal|41/100
+|-enditem|p2b: Torkoal|Eject Pack|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757021489
+|move|p2a: Jumpluff|Sleep Powder|p1a: Incineroar
+|-status|p1a: Incineroar|slp|[from] move: Sleep Powder
+|move|p1b: Politoed|Ice Beam|p2a: Jumpluff
+|-supereffective|p2a: Jumpluff
+|-damage|p2a: Jumpluff|18/100
+|cant|p1a: Incineroar|slp
+|move|p2b: Torkoal|Overheat|p1b: Politoed|[miss]
+|-miss|p2b: Torkoal|p1b: Politoed
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757021515
+|move|p1b: Politoed|Protect|p1b: Politoed
+|-singleturn|p1b: Politoed|Protect
+|move|p2a: Jumpluff|Sleep Powder|p1b: Politoed
+|-activate|p1b: Politoed|move: Protect
+|cant|p1a: Incineroar|slp
+|move|p2b: Torkoal|Overheat|p1b: Politoed
+|-activate|p1b: Politoed|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1757021538
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|move|p2a: Jumpluff|Sleep Powder|p1b: Amoonguss
+|-immune|p1b: Amoonguss
+|cant|p1a: Incineroar|slp
+|move|p2b: Torkoal|Overheat|p1b: Amoonguss
+|-supereffective|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|-unboost|p2b: Torkoal|spa|2
+|faint|p1b: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757021551
+|switch|p1b: Politoed|Politoed, L50, F|64/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Politoed
+|turn|5
+|
+|t:|1757021562
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|-terastallize|p1b: Politoed|Grass
+|move|p2a: Jumpluff|Sleep Powder|p1b: Politoed
+|-immune|p1b: Politoed
+|move|p1b: Politoed|Weather Ball|p2b: Garchomp
+|-damage|p2b: Garchomp|50/100
+|-curestatus|p1a: Incineroar|slp|[msg]
+|move|p1a: Incineroar|Knock Off|p2a: Jumpluff
+|-damage|p2a: Jumpluff|0 fnt
+|-enditem|p2a: Jumpluff|Covert Cloak|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2a: Jumpluff
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757021567
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|turn|6
+|
+|t:|1757021582
+|switch|p2b: Torkoal|Torkoal, L50, M|41/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|move|p2a: Typhlosion|Eruption|p1b: Ursaluna|[spread] p1a,p1b
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|59/100
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|move|p1a: Incineroar|Knock Off|p2a: Typhlosion
+|-supereffective|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|-enditem|p2a: Typhlosion|Choice Specs|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2a: Typhlosion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757021591
+|switch|p2a: Garchomp|Garchomp, L50, F|50/100
+|switch|p1b: Politoed|Politoed, L50, F, tera:Grass|64/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Politoed
+|turn|7
+|
+|t:|1757021613
+|move|p2b: Torkoal|Helping Hand|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Helping Hand|[of] p2b: Torkoal
+|move|p1b: Politoed|Protect|p1b: Politoed
+|-singleturn|p1b: Politoed|Protect
+|move|p2a: Garchomp|Dragon Claw|p1b: Politoed
+|-activate|p1b: Politoed|move: Protect
+|move|p1a: Incineroar|Knock Off|p2a: Garchomp
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Incineroar|47/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-enditem|p2a: Garchomp|Life Orb|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1757021627
+|-terastallize|p2b: Torkoal|Flying
+|move|p1b: Politoed|Weather Ball|p2b: Torkoal
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|
+|win|SizzleG
+||SizzleG is ready for game 2.
+||monsoonisbest is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆SizzleG
+|player|p1|

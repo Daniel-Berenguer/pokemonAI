@@ -1,0 +1,108 @@
+|j|☆ToshiVGC
+|j|☆Heliosan
+|html|ToshiVGCHeliosan    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757836933
+|gametype|doubles
+|player|p1|ToshiVGC|elesa|1167
+|player|p2|Heliosan|266|1165
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Dragonite, L50, F|
+|teampreview|4
+|showteam|p1|Hatterene||LifeOrb|MagicBounce|DazzlingGleam,ExpandingForce,TrickRoom,Protect|||F|||50|,,,,,Psychic]Torkoal||Charcoal|Drought|Eruption,HeatWave,Protect,EarthPower|||M|||50|,,,,,Fire]Indeedee-F||PsychicSeed|PsychicSurge|DazzlingGleam,FollowMe,TrickRoom,HelpingHand|||F|||50|,,,,,Fairy]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,TrickRoom,WideGuard|||M|||50|,,,,,Grass]Lilligant-Hisui||FocusSash|Chlorophyll|CloseCombat,SolarBlade,SleepPowder,AfterYou|||F|||50|,,,,,Ghost
+|showteam|p2|Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,FinalGambit,Taunt|||F|||50|,,,,,Water]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Ursaluna-Bloodmoon||FocusSash|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||M|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||F|||50|,,,,,Steel
+|
+|t:|1757836999
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F, shiny|100/100
+|switch|p2a: Annihilape|Annihilape, L50, F|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757837030
+|move|p1b: Hatterene|Protect|p1b: Hatterene
+|-singleturn|p1b: Hatterene|Protect
+|move|p2a: Annihilape|Final Gambit|p1a: Indeedee
+|-damage|p1a: Indeedee|0 fnt
+|faint|p2a: Annihilape
+|faint|p1a: Indeedee
+|move|p2b: Gholdengo|Make It Rain|p1b: Hatterene
+|-activate|p1b: Hatterene|move: Protect
+|
+|upkeep
+|
+|t:|1757837048
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1a: Ursaluna|Ursaluna, L50, F, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|2
+|
+|t:|1757837068
+|switch|p1b: Torkoal|Torkoal, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|-terastallize|p2b: Gholdengo|Water
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2b: Gholdengo|Make It Rain|p1b: Torkoal|[spread] p1b
+|-activate|p1a: Ursaluna|move: Protect
+|-resisted|p1b: Torkoal
+|-damage|p1b: Torkoal|60/100
+|-unboost|p2b: Gholdengo|spa|1
+|-damage|p2b: Gholdengo|91/100|[from] item: Life Orb
+|move|p2a: Rillaboom|Wood Hammer|p1b: Torkoal
+|-resisted|p1b: Torkoal
+|-damage|p1b: Torkoal|30/100
+|-damage|p2a: Rillaboom|92/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Gholdengo|97/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|98/100|[from] Grassy Terrain
+|-heal|p1b: Torkoal|36/100|[from] Grassy Terrain
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|3
+|
+|t:|1757837118
+|switch|p1b: Hatterene|Hatterene, L50, F, shiny|100/100
+|move|p2b: Gholdengo|Shadow Ball|p1b: Hatterene
+|-supereffective|p1b: Hatterene
+|-damage|p1b: Hatterene|19/100
+|-damage|p2b: Gholdengo|88/100|[from] item: Life Orb
+|move|p2a: Rillaboom|Wood Hammer|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|-damage|p2a: Rillaboom|60/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Gholdengo|94/100|[from] Grassy Terrain
+|-heal|p2a: Rillaboom|66/100|[from] Grassy Terrain
+|-heal|p1b: Hatterene|25/100|[from] Grassy Terrain
+|upkeep
+|-message|ToshiVGC forfeited.
+|
+|win|Heliosan
+|l|☆ToshiVGC
+|player|p1|

@@ -1,0 +1,129 @@
+|j|☆deleno
+|j|☆WallType
+|html|delenoWallType    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757710288
+|gametype|doubles
+|player|p1|deleno|266|1124
+|player|p2|WallType|1|1209
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Excadrill, L50, F|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Corviknight, L50, M|
+|poke|p1|Primarina, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|showteam|p1|Excadrill||ClearAmulet|SandRush|Protect,Earthquake,IronHead,HighHorsepower|||F|||50|,,,,,Stellar]Tyranitar||AssaultVest|SandStream|LowKick,RockSlide,KnockOff,TeraBlast|||M|||50|,,,,,Flying]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Amoonguss||CovertCloak|Regenerator|Spore,RagePowder,SludgeBomb,Protect|||F|||50|,,,,,Water]Corviknight||Leftovers|MirrorArmor|Protect,BraveBird,Tailwind,BulkUp|||M|||50|,,,,,Dragon]Primarina||ThroatSpray|LiquidVoice|Protect,Moonblast,Haze,HyperVoice|||F|||50|,,,,,Water
+|showteam|p2|Archaludon||PowerHerb|Stalwart|Thunderbolt,ElectroShot,DragonPulse,Protect|||M|||50|,,,,,Electric]Incineroar||SitrusBerry|Intimidate|FakeOut,KnockOff,PartingShot,FlareBlitz|||M|||50|,,,,,Grass]Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,ExtremeSpeed,Haze|||M|||50|,,,,,Steel]Whimsicott||FocusSash|Prankster|Moonblast,FakeTears,Encore,Tailwind|||F|||50|,,,,,Ghost]Annihilape||SafetyGoggles|Defiant|Coaching,CloseCombat,FinalGambit,RageFist|||M|||50|,,,,,Water]Ursaluna-Bloodmoon||AssaultVest|MindsEye|HyperVoice,EarthPower,BloodMoon,VacuumWave|||M|||50|,,,,,Ghost
+|
+|t:|1757710314
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Annihilape|Annihilape, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Whimsicott|atk|1
+|-unboost|p2b: Annihilape|atk|1
+|-ability|p2b: Annihilape|Defiant|boost
+|-boost|p2b: Annihilape|atk|2
+|turn|1
+|
+|t:|1757710362
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|move|p2b: Annihilape|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2b: Annihilape|def|1
+|-unboost|p2b: Annihilape|spd|1
+|faint|p1a: Incineroar
+|move|p1b: Amoonguss|Sludge Bomb|p2a: Archaludon
+|-immune|p2a: Archaludon
+|
+|upkeep
+|
+|t:|1757710370
+|switch|p1a: Excadrill|Excadrill, L50, F, shiny|100/100
+|turn|2
+|
+|t:|1757710385
+|switch|p1b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|-terastallize|p1a: Excadrill|Stellar
+|move|p2a: Archaludon|Protect|p2a: Archaludon
+|-singleturn|p2a: Archaludon|Protect
+|move|p1a: Excadrill|High Horsepower|p2a: Archaludon
+|-activate|p2a: Archaludon|move: Protect
+|move|p2b: Annihilape|Close Combat|p1a: Excadrill
+|-supereffective|p1a: Excadrill
+|-damage|p1a: Excadrill|0 fnt
+|-unboost|p2b: Annihilape|def|1
+|-unboost|p2b: Annihilape|spd|1
+|faint|p1a: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1757710393
+|switch|p1a: Amoonguss|Amoonguss, L50, F|100/100
+|turn|3
+|
+|t:|1757710414
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|move|p2b: Annihilape|Close Combat|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar
+|-damage|p1b: Tyranitar|0 fnt
+|-unboost|p2b: Annihilape|def|1
+|-unboost|p2b: Annihilape|spd|1
+|faint|p1b: Tyranitar
+|move|p1a: Amoonguss|Sludge Bomb|p2b: Annihilape
+|-resisted|p2b: Annihilape
+|-damage|p2b: Annihilape|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Whimsicott|94/100|[from] Sandstorm
+|-damage|p1a: Amoonguss|95/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1757710438
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Amoonguss|atk|1
+|move|p2b: Annihilape|Rage Fist|p1a: Amoonguss
+|-damage|p1a: Amoonguss|34/100
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Incineroar
+|-damage|p2a: Incineroar|72/100
+|-status|p2a: Incineroar|psn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Incineroar|66/100 psn|[from] Sandstorm
+|-damage|p1a: Amoonguss|28/100|[from] Sandstorm
+|-damage|p2a: Incineroar|53/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1757710453
+|move|p2b: Annihilape|Rage Fist|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|win|WallType
+|raw|deleno's rating: 1124 → 1105(-19 for losing)
+|raw|WallType's rating: 1209 → 1228(+19 for winning)
+|l|☆deleno
+|player|p1|

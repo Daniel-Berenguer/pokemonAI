@@ -1,0 +1,128 @@
+|j|☆gray_Gak
+|j|☆Praiya
+|html|gray_GakPraiya    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757099763
+|gametype|doubles
+|player|p1|gray_Gak|flannery|1155
+|player|p2|Praiya|veteran|1066
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Wyrdeer, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Delphox, L50, F|
+|poke|p1|Kingambit, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Electabuzz, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Talonflame, L50, F|
+|teampreview|4
+|showteam|p1|Wyrdeer||LifeOrb|Intimidate|Protect,TrickRoom,ExpandingForce,EarthPower|||M|||50|,,,,,Ground]Indeedee-F||RockyHelmet|PsychicSurge|Imprison,FollowMe,TrickRoom,Psychic|||F|||50|,,,,,Grass]Annihilape||SafetyGoggles|Defiant|DrainPunch,ThroatChop,RageFist,Protect|||F|||50|,,,,,Fire]Torkoal||Charcoal|Drought|Eruption,HelpingHand,Protect,WeatherBall|||F|||50|,,,,,Grass]Delphox||ChoiceScarf|Blaze|HeatWave,ExpandingForce,DazzlingGleam,Flamethrower|||F|||50|,,,,,Fairy]Kingambit||AssaultVest|Defiant|KowtowCleave,SuckerPunch,PoisonJab,LowKick|||F|||50|,,,,,Poison
+|showteam|p2|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,HelpingHand,Protect|||M|||50|,,,,,Psychic]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Protect|||F|||50|,,,,,Dragon]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Ghost]Talonflame||CovertCloak|GaleWings|FlareBlitz,DualWingbeat,WillOWisp,Tailwind|||F|||50|,,,,,Fairy
+|
+|t:|1757099857
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kingambit|Kingambit, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Talonflame|Talonflame, L50, F|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1757099890
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Talonflame|Tailwind|p2a: Talonflame
+|-sidestart|p2: Praiya|move: Tailwind
+|move|p2b: Ursaluna|Blood Moon|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|-damage|p2b: Ursaluna|91/100|[from] item: Life Orb
+|move|p1a: Kingambit|Low Kick|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-crit|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|
+|upkeep
+|
+|t:|1757099907
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|switch|p1b: Wyrdeer|Wyrdeer, L50, M|100/100
+|-ability|p1b: Wyrdeer|Intimidate|boost
+|-unboost|p2a: Talonflame|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|2
+|
+|t:|1757099934
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2b: Sneasler|Throat Chop|p1b: Wyrdeer
+|-supereffective|p1b: Wyrdeer
+|-damage|p1b: Wyrdeer|52/100
+|-start|p1b: Wyrdeer|Throat Chop|[silent]
+|move|p2a: Talonflame|Flare Blitz|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|79/100
+|-damage|p2a: Talonflame|94/100|[from] Recoil
+|move|p1b: Wyrdeer|Trick Room|p1b: Wyrdeer
+|-fieldstart|move: Trick Room|[of] p1b: Wyrdeer
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757099977
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1a: Torkoal|Eruption|p2b: Sneasler|[spread] p2a
+|-activate|p2b: Sneasler|move: Protect
+|-damage|p2a: Indeedee|7/100
+|move|p1b: Wyrdeer|Expanding Force|p2b: Sneasler|[spread] p2a
+|-activate|p2b: Sneasler|move: Protect
+|-resisted|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|-damage|p1b: Wyrdeer|42/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1b: Wyrdeer|Throat Chop|[silent]
+|upkeep
+|
+|t:|1757099994
+|switch|p2a: Talonflame|Talonflame, L50, F|94/100
+|turn|4
+|
+|t:|1757100003
+|move|p1a: Torkoal|Eruption|p2a: Talonflame|[spread] p2a,p2b
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|40/100
+|-damage|p2b: Sneasler|32/100
+|move|p1b: Wyrdeer|Expanding Force|p2b: Sneasler|[spread] p2a,p2b
+|-supereffective|p2b: Sneasler
+|-damage|p2a: Talonflame|0 fnt
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2a: Talonflame
+|faint|p2b: Sneasler
+|-damage|p1b: Wyrdeer|32/100|[from] item: Life Orb
+|
+|win|gray_Gak
+||gray_Gak is ready for game 2.
+|inactive|Praiya has 30 seconds to confirm battle start!
+||Praiya is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆Praiya
+|player|p2|

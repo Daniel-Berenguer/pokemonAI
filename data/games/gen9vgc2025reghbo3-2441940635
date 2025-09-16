@@ -1,0 +1,136 @@
+|j|☆theolegoat
+|j|☆LeCehlou
+|html|theolegoatLeCehlou    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757927324
+|gametype|doubles
+|player|p1|theolegoat|ghetsis-gen5bw|
+|player|p2|LeCehlou|rocker-gen3|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gardevoir, L50, M|
+|poke|p1|Hippowdon, L50, M|
+|poke|p1|Houndstone, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Appletun, L50, F|
+|poke|p1|Cetitan, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|teampreview|4
+|showteam|p1|Gardevoir||LifeOrb|Telepathy|TrickRoom,Moonblast,Psychic,ShadowBall|||M|||50|,,,,,Psychic]Hippowdon||SmoothRock|SandStream|SlackOff,Yawn,Earthquake,StealthRock|||M|||50|,,,,,Ground]Houndstone||WeaknessPolicy|SandRush|DoubleEdge,Crunch,LastRespects,DestinyBond|||M|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Ghost]Appletun||SitrusBerry|Gluttony|AppleAcid,DragonPulse,DragonTail,Recover|||F|||50|,,,,,Steel]Cetitan||ChoiceBand|SheerForce|Avalanche,IcicleCrash,IceShard,Earthquake|||F|||50|,,,,,Ice
+|showteam|p2|Whimsicott||CovertCloak|Prankster|Tailwind,Moonblast,Encore,SunnyDay|||F|||50|,,,,,Steel]Ursaluna-Bloodmoon||LifeOrb|MindsEye|EarthPower,BloodMoon,HyperVoice,Protect|||M|||50|,,,,,Normal]Archaludon||PowerHerb|Sturdy|ElectroShot,FlashCannon,Protect,DracoMeteor|||F|||50|,,,,,Stellar]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,HeatWave,ShadowBall,Overheat|||F|||50|,,,,,Fire]Indeedee-F||SafetyGoggles|PsychicSurge|TrickRoom,FollowMe,Imprison,Psychic|||F|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|TrickRoom,PsychoCut,SacredSword,WideGuard|||M|||50|,,,,,Grass
+|
+|t:|1757927364
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hippowdon|Hippowdon, L50, M|100/100
+|switch|p1b: Houndstone|Houndstone, L50, M|100/100
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|1
+|
+|t:|1757927393
+|-terastallize|p2a: Ursaluna|Normal
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Houndstone|Destiny Bond|p1b: Houndstone
+|-singlemove|p1b: Houndstone|Destiny Bond
+|move|p2a: Ursaluna|Blood Moon|p1a: Hippowdon
+|-damage|p1a: Hippowdon|0 fnt
+|faint|p1a: Hippowdon
+|-damage|p2a: Ursaluna|91/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ursaluna|85/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757927407
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|turn|2
+|
+|t:|1757927417
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Psychic Terrain
+|move|p1b: Houndstone|Last Respects|p2b: Indeedee
+|-immune|p2b: Indeedee
+|move|p2b: Indeedee|Psychic|p1b: Houndstone
+|-damage|p1b: Houndstone|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ursaluna|79/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1757927432
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Houndstone|Crunch|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|54/100
+|-unboost|p2b: Indeedee|def|1
+|move|p2a: Ursaluna|Earth Power|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|-damage|p2a: Ursaluna|70/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ursaluna|64/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757927444
+|switch|p1a: Appletun|Appletun, L50, F|100/100
+|turn|4
+|
+|t:|1757927451
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Houndstone|Double-Edge|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|-damage|p1b: Houndstone|32/100|[from] Recoil
+|move|p2a: Ursaluna|Hyper Voice|p1b: Houndstone|[spread] p1a,p1b
+|-damage|p1a: Appletun|51/100
+|-damage|p1b: Houndstone|0 fnt
+|faint|p1b: Houndstone
+|-damage|p2a: Ursaluna|54/100|[from] item: Life Orb
+|move|p1a: Appletun|Apple Acid|p2a: Ursaluna
+|-damage|p2a: Ursaluna|18/100
+|-unboost|p2a: Ursaluna|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Ursaluna|12/100|[from] Sandstorm
+|-damage|p1a: Appletun|45/100|[from] Sandstorm
+|-enditem|p1a: Appletun|Sitrus Berry|[eat]
+|-heal|p1a: Appletun|70/100|[from] item: Sitrus Berry
+|upkeep
+|
+|t:|1757927457
+|switch|p2b: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|turn|5
+|
+|t:|1757927477
+|move|p2b: Typhlosion|Eruption|p1a: Appletun
+|-damage|p1a: Appletun|0 fnt
+|faint|p1a: Appletun
+|
+|win|LeCehlou
+|l|☆theolegoat
+|player|p1|
+|l|☆LeCehlou
+|player|p2|

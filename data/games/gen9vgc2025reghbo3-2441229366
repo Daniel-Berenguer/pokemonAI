@@ -1,0 +1,198 @@
+|j|☆MoodyMukVGC
+|j|☆Nathanthecabo
+|html|MoodyMukVGCNathanthecabo    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757815990
+|gametype|doubles
+|player|p1|MoodyMukVGC|169|1111
+|player|p2|Nathanthecabo|169|1048
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p2|Politoed, L50, M|
+|poke|p2|Ludicolo, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Gothitelle, L50, F|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,Tailwind,RagePowder|||M|||50|,,,,,Water]Charizard||ChoiceSpecs|SolarPower|AirSlash,HeatWave,Overheat,WeatherBall|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|ClearSmog,Eruption,Overheat,Protect|||M|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting
+|showteam|p2|Politoed||Leftovers|Drizzle|PerishSong,Protect,WeatherBall,Encore|||M|||50|,,,,,Grass]Ludicolo||LifeOrb|SwiftSwim|Protect,EnergyBall,HydroPump,IceBeam|||F|||50|,,,,,Water]Archaludon||PowerHerb|Stamina|Protect,ElectroShot,FlashCannon,BodyPress|||M|||50|,,,,,Electric]Amoonguss||EjectButton|Regenerator|Protect,Spore,PollenPuff,RagePowder|||M|||50|,,,,,Steel]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Gothitelle||SitrusBerry|ShadowTag|Psychic,Protect,FakeOut,FoulPlay|||F|||50|,,,,,Dark
+|
+|t:|1757816011
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jumpluff|Jumpluff, L50, M, shiny|100/100
+|switch|p1b: Charizard|Charizard, L50, M, shiny|100/100
+|switch|p2a: Politoed|Politoed, L50, M|100/100
+|switch|p2b: Ludicolo|Ludicolo, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|1
+|
+|t:|1757816049
+|switch|p2a: Amoonguss|Amoonguss, L50, M|100/100
+|-terastallize|p1b: Charizard|Ghost
+|move|p2b: Ludicolo|Ice Beam|p1a: Jumpluff
+|-supereffective|p1a: Jumpluff
+|-damage|p1a: Jumpluff|0 fnt
+|faint|p1a: Jumpluff
+|-damage|p2b: Ludicolo|91/100|[from] item: Life Orb
+|move|p1b: Charizard|Heat Wave|p2a: Amoonguss|[spread] p2a,p2b
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|67/100
+|-damage|p2b: Ludicolo|65/100
+|-enditem|p2a: Amoonguss|Eject Button
+|
+|t:|1757816063
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757816065
+|switch|p1a: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2b: Ludicolo|atk|1
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|turn|2
+|
+|t:|1757816077
+|move|p1a: Incineroar|Fake Out|p2a: Sneasler
+|-damage|p2a: Sneasler|79/100
+|cant|p2a: Sneasler|flinch
+|move|p2b: Ludicolo|Hydro Pump|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|-damage|p2b: Ludicolo|55/100|[from] item: Life Orb
+|move|p1b: Charizard|Heat Wave|p2a: Sneasler|[spread] p2a,p2b
+|-damage|p2a: Sneasler|44/100
+|-damage|p2b: Ludicolo|26/100
+|-status|p2b: Ludicolo|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2b: Ludicolo|20/100 brn|[from] brn
+|upkeep
+|
+|t:|1757816084
+|switch|p1a: Ursaluna|Ursaluna, L50, M, shiny|100/100
+|turn|3
+|
+|t:|1757816098
+|move|p1a: Ursaluna|Protect|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Protect
+|move|p2a: Sneasler|Close Combat|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|move|p2b: Ludicolo|Hydro Pump|p1a: Ursaluna
+|-activate|p1a: Ursaluna|move: Protect
+|move|p1b: Charizard|Heat Wave|p2a: Sneasler|[spread] p2a,p2b
+|-damage|p2a: Sneasler|11/100
+|-damage|p2b: Ludicolo|0 fnt
+|faint|p2b: Ludicolo
+|
+|-weather|RainDance|[upkeep]
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757816113
+|switch|p2b: Amoonguss|Amoonguss, L50, M|99/100
+|turn|4
+|
+|t:|1757816117
+|move|p2a: Sneasler|Close Combat|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1a: Ursaluna
+|move|p1b: Charizard|Heat Wave|p2b: Amoonguss|[spread] p2a,p2b
+|-supereffective|p2b: Amoonguss
+|-damage|p2a: Sneasler|0 fnt
+|-damage|p2b: Amoonguss|67/100
+|faint|p2a: Sneasler
+|move|p2b: Amoonguss|Spore|p1b: Charizard
+|-status|p1b: Charizard|slp|[from] move: Spore
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757816130
+|switch|p2a: Politoed|Politoed, L50, M|100/100
+|turn|5
+|
+|t:|1757816143
+|cant|p1b: Charizard|slp
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1b: Charizard|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-start|p2b: Amoonguss|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2b: Amoonguss|Pollen Puff|p2a: Politoed
+|
+|-weather|none
+|-start|p1b: Charizard|perish3
+|-start|p2a: Politoed|perish3
+|-start|p2b: Amoonguss|perish3
+|upkeep
+|turn|6
+|
+|t:|1757816154
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p2b: Amoonguss|Protect|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|Protect
+|cant|p1b: Charizard|slp
+|
+|-start|p1b: Charizard|perish2
+|-start|p2a: Politoed|perish2
+|-start|p2b: Amoonguss|perish2
+|upkeep
+|turn|7
+|
+|t:|1757816169
+|-curestatus|p1b: Charizard|slp|[msg]
+|move|p1b: Charizard|Heat Wave|p2b: Amoonguss|[spread] p2a,p2b
+|-resisted|p2a: Politoed
+|-supereffective|p2b: Amoonguss
+|-damage|p2a: Politoed|84/100
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|move|p2a: Politoed|Encore|p1b: Charizard
+|-start|p1b: Charizard|Encore
+|
+|-heal|p2a: Politoed|90/100|[from] item: Leftovers
+|-start|p1b: Charizard|perish1
+|-start|p2a: Politoed|perish1
+|upkeep
+|turn|8
+|
+|t:|1757816181
+|move|p2a: Politoed|Protect|p2a: Politoed
+|-singleturn|p2a: Politoed|Protect
+|move|p1b: Charizard|Heat Wave|p2a: Politoed
+|-activate|p2a: Politoed|move: Protect
+|
+|-heal|p2a: Politoed|96/100|[from] item: Leftovers
+|-start|p1b: Charizard|perish0
+|-start|p2a: Politoed|perish0
+|faint|p1b: Charizard
+|faint|p2a: Politoed
+|
+|win|Nathanthecabo
+||MoodyMukVGC is ready for game 3.
+|l|☆Nathanthecabo
+|player|p2|
+||Nathanthecabo is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

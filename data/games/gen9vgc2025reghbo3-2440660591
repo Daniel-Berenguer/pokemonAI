@@ -1,0 +1,97 @@
+|j|☆detoxfilms
+|j|☆Green-Dogi Ranger
+|html|detoxfilmsGreen-Dogi Ranger    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757732744
+|gametype|doubles
+|player|p1|detoxfilms|1|1115
+|player|p2|Green-Dogi Ranger|linebacker|1042
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gothitelle, L50, F|
+|poke|p1|Lapras, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Malamar, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Delphox, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|teampreview|4
+|showteam|p1|Gothitelle||SitrusBerry|ShadowTag|FakeOut,Psychic,TrickRoom,Protect|||F|||50|,,,,,Dark]Lapras||Leftovers|WaterAbsorb|Protect,MuddyWater,HelpingHand,PerishSong|||F|||50|,,,,,Dark]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,PartingShot,Protect|||F|||50|,,,,,Bug]Ursaluna||FlameOrb|Guts|Protect,Facade,HeadlongRush,Earthquake|||M|||50|,,,,,Ghost]Farigiraf||MentalHerb|ArmorTail|Protect,TeraBlast,ExpandingForce,TrickRoom|||M|||50|,,,,,Fighting]Amoonguss||RockyHelmet|Regenerator|Protect,Spore,RagePowder,SludgeBomb|||M|||50|,,,,,Dark
+|showteam|p2|Malamar||ChoiceScarf|Contrary|KnockOff,PsychoCut,Superpower,TopsyTurvy|||M|||50|,,,,,Fighting]Torkoal||EjectPack|Drought|Protect,Eruption,Overheat,HelpingHand|||M|||50|,,,,,Flying]Delphox||LifeOrb|Blaze|Flamethrower,ExpandingForce,DazzlingGleam,Protect|||F|||50|,,,,,Fairy]Indeedee-F||SafetyGoggles|PsychicSurge|FollowMe,Psychic,HelpingHand,TrickRoom|||F|||50|,,,,,Fairy]Sneasler||PsychicSeed|Unburden|Protect,CloseCombat,DireClaw,ThroatChop|||F|||50|,,,,,Dark]Ursaluna||FlameOrb|Guts|Protect,HeadlongRush,Earthquake,Facade|||M|||50|,,,,,Ghost
+|
+|t:|1757732784
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|turn|1
+|
+|t:|1757732837
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|-terastallize|p1a: Amoonguss|Dark
+|move|p1b: Incineroar|Protect|p1b: Incineroar
+|-singleturn|p1b: Incineroar|Protect
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Amoonguss|Spore|p2a: Indeedee
+|-activate|p2a: Indeedee|item: Safety Goggles|Spore
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1757732877
+|move|p1a: Amoonguss|Protect|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|Protect
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Incineroar|Flare Blitz|p2a: Indeedee
+|-damage|p2a: Indeedee|54/100
+|-damage|p1b: Incineroar|87/100|[from] Recoil
+|move|p2b: Ursaluna|Facade|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-damage|p2b: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Green-Dogi Ranger)
+|
+|t:|1757732889
+|switch|p1b: Lapras|Lapras, L50, F|100/100
+|turn|3
+|
+|t:|1757732906
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|-terastallize|p2b: Ursaluna|Ghost
+|move|p2b: Ursaluna|Facade|p1b: Lapras
+|-damage|p1b: Lapras|0 fnt
+|faint|p1b: Lapras
+|move|p1a: Amoonguss|Sludge Bomb|p2a: Sneasler
+|-resisted|p2a: Sneasler
+|-damage|p2a: Sneasler|82/100
+|
+|-damage|p2b: Ursaluna|88/100 brn|[from] brn
+|upkeep
+|-message|detoxfilms forfeited.
+|
+|win|Green-Dogi Ranger
+|l|☆detoxfilms
+|player|p1|

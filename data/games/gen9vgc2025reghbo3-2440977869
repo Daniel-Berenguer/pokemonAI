@@ -1,0 +1,205 @@
+|j|☆repdonovan
+|html|repdonovanYungLeon    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757783061
+|gametype|doubles
+|player|p1|repdonovan|266|1066
+|player|p2|YungLeon|2|1043
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garganacl, L50, F|
+|poke|p1|Trevenant, L50, F|
+|poke|p1|Glimmora, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Comfey, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Exeggutor, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Zoroark-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Garganacl||AguavBerry|PurifyingSalt|SaltCure,Protect,WideGuard,Recover|||F|||50|,,,,,Ghost]Trevenant||SitrusBerry|Harvest|HornLeech,LeechSeed,Protect,WillOWisp|||F|||50|,,,,,Normal]Glimmora||CovertCloak|Corrosion|MortalSpin,SpikyShield,EarthPower,DazzlingGleam|||M|||50|,,,,,Grass]Tyranitar||AssaultVest|SandStream|Crunch,RockSlide,IronHead,TeraBlast|||M|||50|,,,,,Flying]Comfey||SafetyGoggles|Triage|DrainingKiss,Taunt,FloralHealing,Protect|||F|||50|,,,,,Steel]Incineroar||RockyHelmet|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Water
+|showteam|p2|Ursaluna||FlameOrb|Guts|Protect,Facade,Earthquake,HeadlongRush|||M|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|TrickRoom,Psychic,FollowMe,HelpingHand|||F|||50|,,,,,Grass]Exeggutor||FocusSash|Chlorophyll|TrickRoom,ExpandingForce,EnergyBall,SleepPowder|||F|||50|,,,,,Psychic]Torkoal||Charcoal|Drought|Eruption,ClearSmog,Protect,WeatherBall|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,TrickRoom,WideGuard,SacredSword|||M|||50|,,,,,Fire]Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,Flamethrower,ShadowBall,TeraBlast|||F|||50|,,,,,Stellar
+|j|☆YungLeon
+|player|p2|YungLeon|2|
+|
+|t:|1757783101
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Garganacl|Garganacl, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Exeggutor|Exeggutor, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Exeggutor|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757783148
+|move|p2a: Exeggutor|Sleep Powder|p1b: Incineroar
+|-status|p1b: Incineroar|slp|[from] move: Sleep Powder
+|cant|p1b: Incineroar|slp
+|move|p1a: Garganacl|Salt Cure|p2b: Indeedee
+|-damage|p2b: Indeedee|88/100
+|-start|p2b: Indeedee|Salt Cure
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|-damage|p2b: Indeedee|76/100|[from] Salt Cure
+|upkeep
+|turn|2
+|
+|t:|1757783173
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|move|p1a: Garganacl|Salt Cure|p2a: Exeggutor
+|-damage|p2a: Exeggutor|83/100
+|-start|p2a: Exeggutor|Salt Cure
+|-curestatus|p1b: Incineroar|slp|[msg]
+|move|p1b: Incineroar|Knock Off|p2a: Exeggutor
+|-supereffective|p2a: Exeggutor
+|-damage|p2a: Exeggutor|0 fnt
+|-enditem|p2a: Exeggutor|Focus Sash|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2a: Exeggutor
+|
+|upkeep
+|
+|t:|1757783192
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|3
+|
+|t:|1757783216
+|switch|p1b: Comfey|Comfey, L50, F|100/100
+|move|p1a: Garganacl|Salt Cure|p2b: Gallade
+|-resisted|p2b: Gallade
+|-damage|p2b: Gallade|91/100
+|-start|p2b: Gallade|Salt Cure
+|move|p2a: Ursaluna|Headlong Rush|p1a: Garganacl
+|-supereffective|p1a: Garganacl
+|-damage|p1a: Garganacl|0 fnt
+|-unboost|p2a: Ursaluna|def|1
+|-unboost|p2a: Ursaluna|spd|1
+|faint|p1a: Garganacl
+|move|p2b: Gallade|Sacred Sword|p1b: Comfey
+|-resisted|p1b: Comfey
+|-damage|p1b: Comfey|58/100
+|
+|-damage|p2b: Gallade|79/100|[from] Salt Cure
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757783240
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|4
+|
+|t:|1757783256
+|-terastallize|p1a: Tyranitar|Flying
+|move|p1b: Comfey|Protect|p1b: Comfey
+|-singleturn|p1b: Comfey|Protect
+|move|p2a: Ursaluna|Headlong Rush|p1a: Tyranitar
+|-immune|p1a: Tyranitar
+|move|p2b: Gallade|Psycho Cut|p1b: Comfey
+|-activate|p1b: Comfey|move: Protect
+|move|p1a: Tyranitar|Tera Blast|p2b: Gallade|[anim] Tera Blast Flying
+|-supereffective|p2b: Gallade
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Tyranitar|94/100|[from] Sandstorm
+|-damage|p2a: Ursaluna|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1757783274
+|switch|p2b: Indeedee|Indeedee-F, L50, F|76/100
+|turn|5
+|
+|t:|1757783309
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Ursaluna|atk|1
+|-unboost|p2b: Indeedee|atk|1
+|move|p2a: Ursaluna|Facade|p1a: Incineroar
+|-damage|p1a: Incineroar|40/100
+|-damage|p2a: Ursaluna|78/100 brn|[from] item: Rocky Helmet|[of] p1a: Incineroar
+|move|p2b: Indeedee|Psychic|p1b: Comfey
+|-damage|p1b: Comfey|21/100
+|move|p1b: Comfey|Taunt|p2b: Indeedee
+|-start|p2b: Indeedee|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Indeedee|69/100|[from] Sandstorm
+|-damage|p1a: Incineroar|34/100|[from] Sandstorm
+|-damage|p2a: Ursaluna|72/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1757783346
+|move|p1b: Comfey|Floral Healing|p1a: Incineroar
+|-heal|p1a: Incineroar|84/100
+|move|p1a: Incineroar|Fake Out|p2a: Ursaluna
+|-damage|p2a: Ursaluna|60/100 brn
+|move|p2b: Indeedee|Psychic|p1b: Comfey
+|-damage|p1b: Comfey|0 fnt
+|faint|p1b: Comfey
+|cant|p2a: Ursaluna|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Incineroar|78/100|[from] Sandstorm
+|-damage|p2b: Indeedee|63/100|[from] Sandstorm
+|-damage|p2a: Ursaluna|54/100 brn|[from] brn
+|upkeep
+|
+|t:|1757783358
+|switch|p1b: Tyranitar|Tyranitar, L50, M, tera:Flying|94/100
+|turn|7
+|
+|t:|1757783381
+|move|p1b: Tyranitar|Tera Blast|p2a: Ursaluna|[anim] Tera Blast Flying
+|-damage|p2a: Ursaluna|8/100 brn
+|move|p1a: Incineroar|Knock Off|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|-enditem|p2a: Ursaluna|Flame Orb|[from] move: Knock Off|[of] p1a: Incineroar
+|faint|p2a: Ursaluna
+|move|p2b: Indeedee|Psychic|p1b: Tyranitar
+|-damage|p1b: Tyranitar|75/100
+|-unboost|p1b: Tyranitar|spd|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Tyranitar|69/100|[from] Sandstorm
+|-damage|p1a: Incineroar|72/100|[from] Sandstorm
+|-damage|p2b: Indeedee|57/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1757783398
+|move|p1b: Tyranitar|Crunch|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|win|repdonovan
+||repdonovan is ready for game 3.
+|l|☆YungLeon
+|player|p2|
+|c|☆repdonovan|gg2
+|inactive|YungLeon has 30 seconds to confirm battle start!
+|j|☆YungLeon
+|player|p2|YungLeon|2|
+|inactive|YungLeon has 20 seconds to confirm battle start!
+|inactive|YungLeon has 10 seconds to confirm battle start!
+|l|☆YungLeon
+|player|p2|
+|uhtml|next|Next: Game 3 of 3

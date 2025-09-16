@@ -1,0 +1,235 @@
+|j|☆TG511
+|j|☆ScrewSalesman
+|html|TG511ScrewSalesman    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757907295
+|gametype|doubles
+|player|p1|TG511|volkner|1275
+|player|p2|ScrewSalesman|cynthia-gen4|1349
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Tatsugiri, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Murkrow, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Jumpluff, L50, F|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Torkoal, L50, F|
+|teampreview|4
+|showteam|p1|Dondozo||Leftovers|Unaware|OrderUp,Earthquake,WaveCrash,Protect|||M|||50|,,,,,Grass]Tatsugiri||FocusSash|Commander|DracoMeteor,MuddyWater,IcyWind,Protect|||M|||50|,,,,,Stellar]Garchomp||LifeOrb|RoughSkin|Earthquake,StompingTantrum,DragonClaw,Protect|||M|||50|,,,,,Ground]Gholdengo||ChoiceSpecs|GoodasGold|MakeItRain,ShadowBall,SteelBeam,Thunderbolt||||||50|,,,,,Steel]Murkrow||Eviolite|Prankster|FoulPlay,Tailwind,Quash,Haze|||F|||50|,,,,,Ghost]Archaludon||PowerHerb|Sturdy|Earthquake,DragonPulse,Thunderbolt,Protect|||M|||50|,,,,,Electric
+|showteam|p2|Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|RagePowder,SunnyDay,Tailwind,SleepPowder|||F|||50|,,,,,Water]Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,SolarBeam|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Overheat,Eruption,HelpingHand,Protect|||F|||50|,,,,,Fire
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by ScrewSalesman)
+|
+|t:|1757907321
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Murkrow|Murkrow, L50, F|100/100
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|switch|p2a: Charizard|Charizard, L50, F, shiny|100/100
+|switch|p2b: Jumpluff|Jumpluff, L50, F|100/100
+|turn|1
+|
+|t:|1757907336
+|move|p1a: Murkrow|Tailwind|p1a: Murkrow
+|-sidestart|p1: TG511|move: Tailwind
+|move|p1b: Garchomp|Dragon Claw|p2a: Charizard
+|-damage|p2a: Charizard|25/100
+|-damage|p1b: Garchomp|91/100|[from] item: Life Orb
+|move|p2b: Jumpluff|Sleep Powder|p1b: Garchomp
+|-status|p1b: Garchomp|slp|[from] move: Sleep Powder
+|move|p2a: Charizard|Heat Wave|p1b: Garchomp|[spread] p1a,p1b
+|-resisted|p1b: Garchomp
+|-damage|p1a: Murkrow|49/100
+|-damage|p1b: Garchomp|63/100 slp
+|
+|upkeep
+|turn|2
+|
+|t:|1757907355
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Murkrow|atk|1
+|-unboost|p1b: Garchomp|atk|1
+|cant|p1b: Garchomp|slp
+|move|p1a: Murkrow|Foul Play|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|80/100
+|move|p2b: Jumpluff|Sleep Powder|p1a: Murkrow
+|-status|p1a: Murkrow|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|3
+|
+|t:|1757907370
+|cant|p1a: Murkrow|slp
+|cant|p1b: Garchomp|slp
+|move|p2b: Jumpluff|Tailwind|p2b: Jumpluff
+|-sidestart|p2: ScrewSalesman|move: Tailwind
+|move|p2a: Incineroar|Knock Off|p1b: Garchomp
+|-damage|p1b: Garchomp|16/100 slp
+|-damage|p2a: Incineroar|67/100|[from] ability: Rough Skin|[of] p1b: Garchomp
+|-enditem|p1b: Garchomp|Life Orb|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|turn|4
+|
+|t:|1757907387
+|-curestatus|p1a: Murkrow|slp|[msg]
+|move|p1a: Murkrow|Haze|p1a: Murkrow
+|-clearallboost
+|move|p2b: Jumpluff|Sunny Day|p2b: Jumpluff
+|-weather|SunnyDay
+|-curestatus|p1b: Garchomp|slp|[msg]
+|move|p1b: Garchomp|Earthquake|p2a: Incineroar|[spread] p2a
+|-immune|p1a: Murkrow
+|-immune|p2b: Jumpluff
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: TG511|move: Tailwind
+|upkeep
+|
+|t:|1757907399
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|turn|5
+|
+|t:|1757907409
+|move|p1a: Murkrow|Quash|p2b: Jumpluff
+|-activate|p2b: Jumpluff|move: Quash
+|move|p1b: Garchomp|Earthquake|p2a: Torkoal|[spread] p2a
+|-immune|p1a: Murkrow
+|-immune|p2b: Jumpluff
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|38/100
+|move|p2a: Torkoal|Eruption|p1a: Murkrow|[spread] p1a,p1b
+|-resisted|p1b: Garchomp
+|-damage|p1a: Murkrow|20/100
+|-damage|p1b: Garchomp|1/100
+|move|p2b: Jumpluff|Sleep Powder|p1b: Garchomp
+|-status|p1b: Garchomp|slp|[from] move: Sleep Powder
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1757907429
+|move|p1a: Murkrow|Tailwind|p1a: Murkrow
+|-sidestart|p1: TG511|move: Tailwind
+|move|p2b: Jumpluff|Sleep Powder|p1a: Murkrow
+|-status|p1a: Murkrow|slp|[from] move: Sleep Powder
+|cant|p1b: Garchomp|slp
+|move|p2a: Torkoal|Eruption|p1a: Murkrow|[spread] p1a,p1b
+|-resisted|p1b: Garchomp
+|-damage|p1a: Murkrow|0 fnt
+|-damage|p1b: Garchomp|0 fnt
+|faint|p1a: Murkrow
+|faint|p1b: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: ScrewSalesman|move: Tailwind
+|upkeep
+|
+|t:|1757907432
+|switch|p1b: Tatsugiri|Tatsugiri, L50, M, shiny|100/100
+|switch|p1a: Dondozo|Dondozo, L50, M|100/100
+|-activate|p1b: Tatsugiri|ability: Commander|[of] p1a: Dondozo
+|-boost|p1a: Dondozo|atk|2
+|-boost|p1a: Dondozo|spa|2
+|-boost|p1a: Dondozo|spe|2
+|-boost|p1a: Dondozo|def|2
+|-boost|p1a: Dondozo|spd|2
+|turn|7
+|
+|t:|1757907445
+|-terastallize|p1a: Dondozo|Grass
+|move|p2b: Jumpluff|Sleep Powder|p1a: Dondozo
+|-immune|p1a: Dondozo
+|move|p1a: Dondozo|Order Up|p2a: Torkoal
+|-damage|p2a: Torkoal|4/100
+|-boost|p1a: Dondozo|atk|1
+|move|p2a: Torkoal|Overheat|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|27/100
+|-unboost|p2a: Torkoal|spa|2
+|-enditem|p2a: Torkoal|Eject Pack
+|
+|t:|1757907451
+|switch|p2a: Charizard|Charizard, L50, F, shiny|25/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|12/100|[from] ability: Solar Power|[of] p2a: Charizard
+|-heal|p1a: Dondozo|33/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1757907462
+|move|p2b: Jumpluff|Tailwind|p2b: Jumpluff
+|-sidestart|p2: ScrewSalesman|move: Tailwind
+|move|p2a: Charizard|Weather Ball|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1757907478
+|move|p2b: Jumpluff|Sleep Powder|p1b: Tatsugiri
+|-status|p1b: Tatsugiri|slp|[from] move: Sleep Powder
+|move|p2a: Charizard|Weather Ball|p1b: Tatsugiri
+|-damage|p1b: Tatsugiri|69/100 slp
+|cant|p1b: Tatsugiri|slp
+|
+|-sideend|p1: TG511|move: Tailwind
+|upkeep
+|turn|10
+|
+|t:|1757907497
+|move|p2b: Jumpluff|Sunny Day|p2b: Jumpluff
+|-weather|SunnyDay
+|move|p2a: Charizard|Weather Ball|p1b: Tatsugiri
+|-resisted|p1b: Tatsugiri
+|-damage|p1b: Tatsugiri|23/100 slp
+|cant|p1b: Tatsugiri|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|0 fnt|[from] ability: Solar Power|[of] p2a: Charizard
+|faint|p2a: Charizard
+|upkeep
+|
+|t:|1757907502
+|switch|p2a: Torkoal|Torkoal, L50, F|4/100
+|turn|11
+|
+|t:|1757907524
+|-terastallize|p2a: Torkoal|Fire
+|move|p2b: Jumpluff|Rage Powder|p2b: Jumpluff
+|-singleturn|p2b: Jumpluff|move: Rage Powder
+|cant|p1b: Tatsugiri|slp
+|move|p2a: Torkoal|Overheat|p1b: Tatsugiri
+|-resisted|p1b: Tatsugiri
+|-damage|p1b: Tatsugiri|0 fnt
+|-unboost|p2a: Torkoal|spa|2
+|faint|p1b: Tatsugiri
+|
+|win|ScrewSalesman
+||TG511 is ready for game 2.
+||ScrewSalesman is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆TG511
+|player|p1|
+|l|☆ScrewSalesman
+|player|p2|

@@ -1,0 +1,264 @@
+|j|☆detoxfilms
+|j|☆FAMILIARCOL
+|html|detoxfilmsFAMILIARCOL    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757769721
+|gametype|doubles
+|player|p1|detoxfilms|170|1091
+|player|p2|FAMILIARCOL|102|1118
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gothitelle, L50, F|
+|poke|p1|Lapras, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Tatsugiri, L50, M|
+|poke|p1|Dragapult, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Murkrow, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Garchomp, L50, F|
+|teampreview|4
+|showteam|p1|Gothitelle||SitrusBerry|ShadowTag|FakeOut,Psychic,TrickRoom,Protect|||F|||50|,,,,,Dark]Lapras||Leftovers|WaterAbsorb|Protect,MuddyWater,HelpingHand,PerishSong|||M|||50|,,,,,Grass]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,PartingShot,Protect|||M|||50|,,,,,Bug]Dondozo||ClearAmulet|Unaware|Protect,WaveCrash,OrderUp,Yawn|||M|||50|,,,,,Grass]Tatsugiri||FocusSash|Commander|Protect,MuddyWater,DracoMeteor,HelpingHand|||M|||50|,,,,,Water]Dragapult||ChoiceBand|ClearBody|TeraBlast,PhantomForce,DragonDarts,Uturn|||F|||50|,,,,,Ghost
+|showteam|p2|Amoonguss||MentalHerb|Regenerator|Spore,RagePowder,PollenPuff,ClearSmog|||F|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,AerialAce,DragonDance|||F|||50|,,,,,Normal]Incineroar||SitrusBerry|Intimidate|FakeOut,KnockOff,WillOWisp,PartingShot|||F|||50|,,,,,Grass]Murkrow||Eviolite|Prankster|Tailwind,Haze,Taunt,FoulPlay|||M|||50|,,,,,Ghost]Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,HyperVoice,EarthPower,VacuumWave|||M|||50|,,,,,Normal]Garchomp||ClearAmulet|RoughSkin|Earthquake,RockSlide,DragonClaw,Protect|||F|||50|,,,,,Ground
+|j| icarus543
+|
+|t:|1757769768
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gothitelle|Gothitelle, L50, F|100/100
+|switch|p1b: Lapras|Lapras, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2b: Garchomp|Garchomp, L50, F, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Gothitelle|atk|1
+|-unboost|p1b: Lapras|atk|1
+|turn|1
+|
+|t:|1757769787
+|-terastallize|p2a: Incineroar|Grass
+|-terastallize|p1a: Gothitelle|Dark
+|move|p2a: Incineroar|Fake Out|p1a: Gothitelle
+|-damage|p1a: Gothitelle|88/100
+|cant|p1a: Gothitelle|flinch
+|move|p2b: Garchomp|Rock Slide|p1a: Gothitelle|[spread] p1b
+|-miss|p2b: Garchomp|p1a: Gothitelle
+|-supereffective|p1b: Lapras
+|-damage|p1b: Lapras|58/100
+|cant|p1b: Lapras|flinch
+|
+|-heal|p1b: Lapras|64/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1757769808
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2b: Garchomp|Rock Slide|p1b: Lapras|[spread] p1b
+|-activate|p1a: Gothitelle|move: Protect
+|-supereffective|p1b: Lapras
+|-damage|p1b: Lapras|22/100
+|move|p2a: Incineroar|Parting Shot|p1b: Lapras
+|-unboost|p1b: Lapras|atk|1
+|-unboost|p1b: Lapras|spa|1
+|
+|t:|1757769818
+|switch|p2a: Murkrow|Murkrow, L50, M, shiny|100/100|[from] Parting Shot
+|move|p1b: Lapras|Perish Song|p1b: Lapras
+|-start|p1a: Gothitelle|perish3|[silent]
+|-start|p1b: Lapras|perish3|[silent]
+|-start|p2a: Murkrow|perish3|[silent]
+|-start|p2b: Garchomp|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-heal|p1b: Lapras|28/100|[from] item: Leftovers
+|-start|p2b: Garchomp|perish3
+|-start|p2a: Murkrow|perish3
+|-start|p1a: Gothitelle|perish3
+|-start|p1b: Lapras|perish3
+|upkeep
+|turn|3
+|
+|t:|1757769842
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Murkrow|atk|1
+|-fail|p2b: Garchomp|unboost|[from] item: Clear Amulet|[of] p2b: Garchomp
+|move|p2b: Garchomp|Earthquake|p1b: Incineroar|[spread] p1a,p1b
+|-immune|p2a: Murkrow
+|-supereffective|p1b: Incineroar
+|-damage|p1a: Gothitelle|47/100
+|-damage|p1b: Incineroar|13/100
+|-enditem|p1a: Gothitelle|Sitrus Berry|[eat]
+|-heal|p1a: Gothitelle|72/100|[from] item: Sitrus Berry
+|move|p2a: Murkrow|Foul Play|p1a: Gothitelle
+|-resisted|p1a: Gothitelle
+|-damage|p1a: Gothitelle|64/100
+|move|p1a: Gothitelle|Psychic|p2b: Garchomp
+|-damage|p2b: Garchomp|70/100
+|
+|-start|p2b: Garchomp|perish2
+|-start|p2a: Murkrow|perish2
+|-start|p1a: Gothitelle|perish2
+|upkeep
+|turn|4
+|
+|t:|1757769870
+|move|p1b: Incineroar|Fake Out|p2b: Garchomp
+|-damage|p2b: Garchomp|61/100
+|-damage|p1b: Incineroar|1/100|[from] ability: Rough Skin|[of] p2b: Garchomp
+|cant|p2b: Garchomp|flinch
+|move|p2a: Murkrow|Foul Play|p1a: Gothitelle
+|-resisted|p1a: Gothitelle
+|-damage|p1a: Gothitelle|56/100
+|move|p1a: Gothitelle|Trick Room|p1a: Gothitelle
+|-fieldstart|move: Trick Room|[of] p1a: Gothitelle
+|
+|-start|p1a: Gothitelle|perish1
+|-start|p2a: Murkrow|perish1
+|-start|p2b: Garchomp|perish1
+|upkeep
+|turn|5
+|
+|t:|1757769900
+|switch|p1a: Dragapult|Dragapult, L50, F|100/100
+|move|p1b: Incineroar|Protect|p1b: Incineroar
+|-singleturn|p1b: Incineroar|Protect
+|move|p2a: Murkrow|Foul Play|p1a: Dragapult
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|move|p2b: Garchomp|Earthquake|p1b: Incineroar|[spread] 
+|-activate|p1b: Incineroar|move: Protect
+|-immune|p2a: Murkrow
+|
+|-start|p2a: Murkrow|perish0
+|-start|p2b: Garchomp|perish0
+|faint|p2a: Murkrow
+|faint|p2b: Garchomp
+|upkeep
+|
+|t:|1757769914
+|switch|p2a: Dragonite|Dragonite, L50, F, shiny|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F, shiny, tera:Grass|100/100
+|switch|p1a: Lapras|Lapras, L50, M|28/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Lapras|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|turn|6
+|
+|t:|1757769935
+|switch|p1b: Gothitelle|Gothitelle, L50, F, tera:Dark|56/100
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Lapras
+|-activate|p1a: Lapras|move: Protect
+|move|p2a: Dragonite|Extreme Speed|p1b: Gothitelle
+|-damage|p1b: Gothitelle|26/100
+|
+|-heal|p1a: Lapras|34/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1757769954
+|move|p1b: Gothitelle|Fake Out|p2a: Dragonite
+|-damage|p2a: Dragonite|97/100
+|cant|p2a: Dragonite|flinch
+|move|p1a: Lapras|Perish Song|p1a: Lapras
+|-start|p1a: Lapras|perish3|[silent]
+|-start|p1b: Gothitelle|perish3|[silent]
+|-start|p2a: Dragonite|perish3|[silent]
+|-start|p2b: Incineroar|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2b: Incineroar|Knock Off|p1b: Gothitelle
+|-resisted|p1b: Gothitelle
+|-damage|p1b: Gothitelle|12/100
+|
+|-heal|p1a: Lapras|40/100|[from] item: Leftovers
+|-start|p1a: Lapras|perish3
+|-start|p1b: Gothitelle|perish3
+|-start|p2b: Incineroar|perish3
+|-start|p2a: Dragonite|perish3
+|upkeep
+|turn|8
+|
+|t:|1757769971
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p1b: Gothitelle|Protect|p1b: Gothitelle
+|-singleturn|p1b: Gothitelle|Protect
+|move|p2b: Incineroar|Knock Off|p1a: Lapras
+|-activate|p1a: Lapras|move: Protect
+|move|p2a: Dragonite|Dragon Dance|p2a: Dragonite
+|-boost|p2a: Dragonite|atk|1
+|-boost|p2a: Dragonite|spe|1
+|
+|-heal|p1a: Lapras|46/100|[from] item: Leftovers
+|-start|p1a: Lapras|perish2
+|-start|p1b: Gothitelle|perish2
+|-start|p2b: Incineroar|perish2
+|-start|p2a: Dragonite|perish2
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|t:|1757769999
+|move|p2a: Dragonite|Extreme Speed|p1a: Lapras
+|-damage|p1a: Lapras|1/100
+|move|p2b: Incineroar|Knock Off|p1b: Gothitelle
+|-resisted|p1b: Gothitelle
+|-damage|p1b: Gothitelle|0 fnt
+|faint|p1b: Gothitelle
+|move|p1a: Lapras|Muddy Water|p2a: Dragonite|[spread] p2a,p2b
+|-resisted|p2a: Dragonite
+|-resisted|p2b: Incineroar
+|-damage|p2a: Dragonite|87/100
+|-damage|p2b: Incineroar|92/100
+|
+|-heal|p1a: Lapras|7/100|[from] item: Leftovers
+|-start|p2a: Dragonite|perish1
+|-start|p2b: Incineroar|perish1
+|-start|p1a: Lapras|perish1
+|upkeep
+|
+|t:|1757770006
+|switch|p1b: Incineroar|Incineroar, L50, M|1/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Dragonite|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|turn|10
+|
+|t:|1757770019
+|move|p1b: Incineroar|Protect|p1b: Incineroar
+|-singleturn|p1b: Incineroar|Protect
+|move|p1a: Lapras|Protect|p1a: Lapras
+|-singleturn|p1a: Lapras|Protect
+|move|p2a: Dragonite|Extreme Speed|p1b: Incineroar
+|-activate|p1b: Incineroar|move: Protect
+|move|p2b: Incineroar|Knock Off|p1a: Lapras
+|-activate|p1a: Lapras|move: Protect
+|
+|-heal|p1a: Lapras|13/100|[from] item: Leftovers
+|-start|p2a: Dragonite|perish0
+|-start|p2b: Incineroar|perish0
+|-start|p1a: Lapras|perish0
+|faint|p2a: Dragonite
+|faint|p2b: Incineroar
+|faint|p1a: Lapras
+|
+|win|detoxfilms
+|l|☆FAMILIARCOL
+|player|p2|
+||FAMILIARCOL is ready for game 3.
+|inactive|detoxfilms has 30 seconds to confirm battle start!
+|l| icarus543
+|inactive|detoxfilms has 20 seconds to confirm battle start!
+||detoxfilms is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

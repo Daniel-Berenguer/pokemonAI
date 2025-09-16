@@ -1,0 +1,174 @@
+|j|☆Killtoosad
+|j|☆takeshivgc-test
+|html|Killtoosadtakeshivgc-test    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756950026
+|gametype|doubles
+|player|p1|Killtoosad|170|
+|player|p2|takeshivgc-test|sabrina|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Illumise, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Primarina, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Hatterene, L50, F|
+|teampreview|4
+|showteam|p1|Illumise||CovertCloak|Prankster|Protect,Infestation,Tailwind,FakeTears|||F|||50|,,,,,Dark]Gholdengo||Leftovers|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water]Dragonite||ChoiceBand|InnerFocus|ExtremeSpeed,Outrage,AerialAce,StompingTantrum|||F|||50|,,,,,Normal]Incineroar||AssaultVest|Intimidate|FlareBlitz,KnockOff,Uturn,FakeOut|||F|||50|,,,,,Dragon]Primarina||LifeOrb|LiquidVoice|Protect,HyperVoice,Moonblast,PerishSong|||M|||50|,,,,,Steel]Tyranitar||ClearAmulet|SandStream|RockSlide,KnockOff,Protect,HighHorsepower|||F|||50|,,,,,Grass
+|showteam|p2|Armarouge||PowerHerb|FlashFire|ArmorCannon,ExpandingForce,TrickRoom,MeteorBeam|||M|||50|,,,,,Grass]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,TrickRoom,FollowMe|||F|||50|,,,,,Fairy]Torkoal||Charcoal|Drought|Eruption,Protect,WeatherBall,HeatWave|||M|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,MysticalFire|||F|||50|,,,,,Fire
+|
+|t:|1756950056
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p1b: Primarina|Primarina, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756950092
+|-terastallize|p2b: Gallade|Fire
+|move|p2b: Gallade|Wide Guard|p2b: Gallade
+|-singleturn|p2b: Gallade|Wide Guard
+|move|p1a: Tyranitar|Knock Off|p2b: Gallade
+|-damage|p2b: Gallade|18/100
+|-enditem|p2b: Gallade|Clear Amulet|[from] move: Knock Off|[of] p1a: Tyranitar
+|move|p1b: Primarina|Hyper Voice|p2b: Gallade|[spread] 
+|-activate|p2a: Indeedee|move: Wide Guard
+|-activate|p2b: Gallade|move: Wide Guard
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Indeedee|94/100|[from] Sandstorm
+|-damage|p1b: Primarina|94/100|[from] Sandstorm
+|-damage|p2b: Gallade|12/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1756950114
+|move|p2b: Gallade|Wide Guard|p2b: Gallade
+|-singleturn|p2b: Gallade|Wide Guard
+|move|p2a: Indeedee|Psychic|p1b: Primarina
+|-damage|p1b: Primarina|60/100
+|move|p1b: Primarina|Hyper Voice|p2b: Gallade|[spread] 
+|-activate|p2a: Indeedee|move: Wide Guard
+|-activate|p2b: Gallade|move: Wide Guard
+|move|p1a: Tyranitar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|19/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Indeedee|12/100|[from] Sandstorm
+|-damage|p1b: Primarina|54/100|[from] Sandstorm
+|-damage|p2b: Gallade|7/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1756950132
+|-terastallize|p1b: Primarina|Steel
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2b: Gallade|Wide Guard|p2b: Gallade
+|-singleturn|p2b: Gallade|Wide Guard
+|move|p2a: Indeedee|Psychic|p1b: Primarina
+|-resisted|p1b: Primarina
+|-damage|p1b: Primarina|37/100
+|move|p1b: Primarina|Hyper Voice|p2b: Gallade|[spread] 
+|-activate|p2a: Indeedee|move: Wide Guard
+|-activate|p2b: Gallade|move: Wide Guard
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Indeedee|6/100|[from] Sandstorm
+|-damage|p2b: Gallade|1/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1756950162
+|switch|p1a: Dragonite|Dragonite, L50, F|100/100
+|move|p2a: Indeedee|Psychic|p1b: Primarina
+|-resisted|p1b: Primarina
+|-damage|p1b: Primarina|19/100
+|move|p1b: Primarina|Hyper Voice|p2a: Indeedee|[spread] p2a,p2b
+|-supereffective|p2b: Gallade
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Gallade|0 fnt
+|faint|p2a: Indeedee
+|faint|p2b: Gallade
+|-damage|p1b: Primarina|10/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Dragonite|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756950175
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2b: Armarouge|Armarouge, L50, M|100/100
+|turn|5
+|
+|t:|1756950199
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|move|p2a: Ursaluna|Facade|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|move|p2b: Armarouge|Expanding Force|p1a: Gholdengo|[spread] p1a,p1b
+|-resisted|p1a: Gholdengo
+|-resisted|p1b: Primarina
+|-damage|p1a: Gholdengo|71/100
+|-damage|p1b: Primarina|0 fnt
+|faint|p1b: Primarina
+|
+|-weather|none
+|-heal|p1a: Gholdengo|77/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1756950213
+|switch|p1b: Dragonite|Dragonite, L50, F|94/100
+|turn|6
+|
+|t:|1756950229
+|move|p2a: Ursaluna|Protect|p2a: Ursaluna
+|-singleturn|p2a: Ursaluna|Protect
+|move|p1a: Gholdengo|Shadow Ball|p2b: Armarouge
+|-supereffective|p2b: Armarouge
+|-damage|p2b: Armarouge|0 fnt
+|faint|p2b: Armarouge
+|move|p1b: Dragonite|Outrage|p2a: Ursaluna
+|-activate|p2a: Ursaluna|move: Protect
+|
+|-heal|p1a: Gholdengo|83/100|[from] item: Leftovers
+|-damage|p2a: Ursaluna|95/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1756950242
+|move|p1a: Gholdengo|Make It Rain|p2a: Ursaluna
+|-damage|p2a: Ursaluna|31/100 brn
+|-unboost|p1a: Gholdengo|spa|1
+|move|p1b: Dragonite|Outrage|p2a: Ursaluna
+|-damage|p2a: Ursaluna|0 fnt
+|faint|p2a: Ursaluna
+|
+|win|Killtoosad
+||takeshivgc-test is ready for game 2.
+||Killtoosad is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆takeshivgc-test
+|player|p2|

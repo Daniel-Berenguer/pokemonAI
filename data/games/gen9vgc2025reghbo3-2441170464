@@ -1,0 +1,190 @@
+|j|☆detoxfilms
+|j|☆Sizzle2466
+|html|detoxfilmsSizzle2466    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757808155
+|gametype|doubles
+|player|p1|detoxfilms|clerk|1084
+|player|p2|Sizzle2466|102|1110
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Lapras, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Dondozo, L50, M|
+|poke|p1|Tatsugiri, L50, M|
+|poke|p1|Dragapult, L50, F|
+|poke|p2|Galvantula, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Palafin, L50, M|
+|poke|p2|Flamigo, L50, F|
+|teampreview|4
+|showteam|p1|Gothitelle||SitrusBerry|ShadowTag|FakeOut,Psychic,TrickRoom,Protect|||M|||50|,,,,,Dark]Lapras||Leftovers|WaterAbsorb|Protect,MuddyWater,HelpingHand,PerishSong|||M|||50|,,,,,Grass]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,PartingShot,Protect|||F|||50|,,,,,Bug]Dondozo||ClearAmulet|Unaware|Protect,WaveCrash,OrderUp,Yawn|||M|||50|,,,,,Grass]Tatsugiri||FocusSash|Commander|Protect,MuddyWater,DracoMeteor,HelpingHand|||M|||50|,,,,,Water]Dragapult||ChoiceBand|ClearBody|TeraBlast,PhantomForce,DragonDarts,Uturn|||F|||50|,,,,,Ghost
+|showteam|p2|Galvantula||AssaultVest|CompoundEyes|Electroweb,BugBuzz,Thunderbolt,VoltSwitch|||F|||50|,,,,,Electric]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Amoonguss||CovertCloak|Regenerator|Spore,RagePowder,SludgeBomb,PollenPuff|||M|||50|,,,,,Ghost]Gholdengo||SitrusBerry|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Dragon]Palafin||MysticWater|ZerotoHero|JetPunch,WaveCrash,Protect,FlipTurn|||M|||50|,,,,,Water]Flamigo||LifeOrb|Scrappy|BraveBird,CloseCombat,Detect,Tailwind|||F|||50|,,,,,Stellar
+|
+|t:|1757808174
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p1b: Dondozo|Dondozo, L50, M|100/100
+|switch|p2a: Galvantula|Galvantula, L50, F|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|turn|1
+|
+|t:|1757808188
+|-terastallize|p1b: Dondozo|Grass
+|-terastallize|p2b: Amoonguss|Ghost
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2a: Galvantula|Volt Switch|p1b: Dondozo
+|-resisted|p1b: Dondozo
+|-damage|p1b: Dondozo|89/100
+|
+|t:|1757808196
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100|[from] Volt Switch
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Gothitelle|atk|1
+|-fail|p1b: Dondozo|unboost|[from] item: Clear Amulet|[of] p1b: Dondozo
+|move|p1b: Dondozo|Yawn|p2b: Amoonguss
+|-start|p2b: Amoonguss|move: Yawn|[of] p1b: Dondozo
+|move|p2b: Amoonguss|Spore|p1b: Dondozo
+|-immune|p1b: Dondozo
+|
+|upkeep
+|turn|2
+|
+|t:|1757808221
+|switch|p1a: Lapras|Lapras, L50, M|100/100
+|move|p1b: Dondozo|Protect|p1b: Dondozo
+|-singleturn|p1b: Dondozo|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Dondozo
+|-activate|p1b: Dondozo|move: Protect
+|move|p2b: Amoonguss|Sludge Bomb|p1b: Dondozo
+|-activate|p1b: Dondozo|move: Protect
+|
+|-end|p2b: Amoonguss|move: Yawn|[silent]
+|-status|p2b: Amoonguss|slp
+|upkeep
+|turn|3
+|
+|t:|1757808240
+|switch|p1a: Tatsugiri|Tatsugiri, L50, M|100/100
+|-activate|p1a: Tatsugiri|ability: Commander|[of] p1b: Dondozo
+|-boost|p1b: Dondozo|atk|2
+|-boost|p1b: Dondozo|spa|2
+|-boost|p1b: Dondozo|spe|2
+|-boost|p1b: Dondozo|def|2
+|-boost|p1b: Dondozo|spd|2
+|move|p1b: Dondozo|Wave Crash|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|-damage|p1b: Dondozo|61/100|[from] Recoil
+|cant|p2b: Amoonguss|slp
+|
+|upkeep
+|
+|t:|1757808254
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|turn|4
+|
+|t:|1757808263
+|move|p2a: Gholdengo|Protect|p2a: Gholdengo
+|-singleturn|p2a: Gholdengo|Protect
+|move|p1b: Dondozo|Wave Crash|p2a: Gholdengo
+|-activate|p2a: Gholdengo|move: Protect
+|cant|p2b: Amoonguss|slp
+|
+|upkeep
+|turn|5
+|
+|t:|1757808273
+|switch|p2a: Galvantula|Galvantula, L50, F|100/100
+|move|p1b: Dondozo|Wave Crash|p2a: Galvantula
+|-damage|p2a: Galvantula|0 fnt
+|faint|p2a: Galvantula
+|-damage|p1b: Dondozo|39/100|[from] Recoil
+|-curestatus|p2b: Amoonguss|slp|[msg]
+|move|p2b: Amoonguss|Sludge Bomb|p1b: Dondozo
+|-supereffective|p1b: Dondozo
+|-damage|p1b: Dondozo|3/100
+|
+|upkeep
+|
+|t:|1757808284
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|turn|6
+|
+|t:|1757808292
+|move|p2b: Amoonguss|Rage Powder|p2b: Amoonguss
+|-singleturn|p2b: Amoonguss|move: Rage Powder
+|move|p1b: Dondozo|Wave Crash|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|-damage|p1b: Dondozo|0 fnt|[from] Recoil
+|faint|p1b: Dondozo
+|move|p2a: Gholdengo|Shadow Ball|p1a: Tatsugiri
+|-damage|p1a: Tatsugiri|46/100
+|
+|upkeep
+|
+|t:|1757808298
+|switch|p1b: Lapras|Lapras, L50, M|100/100
+|turn|7
+|
+|t:|1757808304
+|move|p1b: Lapras|Helping Hand|p1a: Tatsugiri
+|-singleturn|p1a: Tatsugiri|Helping Hand|[of] p1b: Lapras
+|move|p1a: Tatsugiri|Muddy Water|p2a: Gholdengo|[miss]
+|-miss|p1a: Tatsugiri|p2a: Gholdengo
+|move|p2a: Gholdengo|Make It Rain|p1b: Lapras|[spread] p1a,p1b
+|-resisted|p1a: Tatsugiri
+|-damage|p1a: Tatsugiri|19/100
+|-damage|p1b: Lapras|75/100
+|-unboost|p2a: Gholdengo|spa|1
+|
+|-heal|p1b: Lapras|81/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1757808316
+|move|p1b: Lapras|Helping Hand|p1a: Tatsugiri
+|-singleturn|p1a: Tatsugiri|Helping Hand|[of] p1b: Lapras
+|move|p1a: Tatsugiri|Muddy Water|p2a: Gholdengo
+|-damage|p2a: Gholdengo|42/100
+|-enditem|p2a: Gholdengo|Sitrus Berry|[eat]
+|-heal|p2a: Gholdengo|66/100|[from] item: Sitrus Berry
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|
+|-heal|p1b: Lapras|87/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1757808327
+|move|p1a: Tatsugiri|Muddy Water|p2a: Gholdengo
+|-damage|p2a: Gholdengo|23/100
+|move|p2a: Gholdengo|Make It Rain|p1b: Lapras|[spread] p1a,p1b
+|-resisted|p1a: Tatsugiri
+|-damage|p1a: Tatsugiri|0 fnt
+|-damage|p1b: Lapras|51/100
+|-unboost|p2a: Gholdengo|spa|1
+|faint|p1a: Tatsugiri
+|move|p1b: Lapras|Muddy Water|p2a: Gholdengo
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|win|detoxfilms
+|raw|detoxfilms's rating: 1084 → 1113(+29 for winning)
+|raw|Sizzle2466's rating: 1110 → 1083(-27 for losing)
+|l|☆Sizzle2466
+|player|p2|
+|l|☆detoxfilms
+|player|p1|

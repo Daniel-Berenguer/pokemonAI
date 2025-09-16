@@ -1,0 +1,208 @@
+|j|☆Aixote
+|j|☆Valarux
+|html|AixoteValarux    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757032810
+|gametype|doubles
+|player|p1|Aixote|170|
+|player|p2|Valarux|unknownf|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Typhlosion-Hisui, L50, F|
+|poke|p1|Ninetales, L50, F|
+|poke|p1|Salamence, L50, F|
+|poke|p1|Primarina, L50, F|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Alcremie-Salted-Cream, L50, F|
+|poke|p2|Palafin, L50, M|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Zoroark-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Rillaboom||MiracleSeed|GrassySurge|FakeOut,BrickBreak,Protect,WoodHammer|||M|||50|,,,,,Grass]Grimmsnarl||SafetyGoggles|Prankster|FakeOut,PartingShot,ThunderWave,Swagger|||M|||50|,,,,,Water]Typhlosion-Hisui||Charcoal|Blaze|Eruption,Protect,SolarBeam,LavaPlume|||F|||50|,,,,,Fire]Ninetales||EjectButton|Drought|HelpingHand,Safeguard,WeatherBall,SunnyDay|||F|||50|,,,,,Grass]Salamence||LumBerry|Intimidate|RockSlide,DragonDance,Earthquake,Protect|||F|||50|,,,,,Steel]Primarina||GrassySeed|LiquidVoice|CalmMind,HyperVoice,LifeDew,Haze|||F|||50|,,,,,Water
+|showteam|p2|Ninetales-Alola||LightClay|SnowWarning|Blizzard,AuroraVeil,Protect,Moonblast|||F|||50|,,,,,Ice]Amoonguss||RockyHelmet|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Water]Alcremie-Salted-Cream||SitrusBerry|SweetVeil|Decorate,DazzlingGleam,BabyDollEyes,Protect|||F|||50|,,,,,Fairy]Palafin||MysticWater|ZerotoHero|JetPunch,WaveCrash,Protect,FlipTurn|||M|||50|,,,,,Water]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,TrickRoom,WideGuard|||M|||50|,,,,,Fighting]Zoroark-Hisui||ChoiceSpecs|Illusion|HyperVoice,ShadowBall,TeraBlast,IcyWind|||F|||50|,,,,,Ghost
+|
+|t:|1757032842
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Salamence|Salamence, L50, F|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p2b: Gallade|Gallade, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|-ability|p1b: Salamence|Intimidate|boost
+|-unboost|p2a: Ninetales|atk|1
+|-fail|p2b: Gallade|unboost|[from] item: Clear Amulet|[of] p2b: Gallade
+|turn|1
+|
+|t:|1757032874
+|-terastallize|p1b: Salamence|Steel
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Ninetales
+|-unboost|p2a: Ninetales|atk|1
+|-unboost|p2a: Ninetales|spa|1
+|
+|t:|1757032879
+|switch|p1a: Ninetales|Ninetales, L50, F|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2a: Ninetales|Aurora Veil||[still]
+|-fail|p2a: Ninetales
+|move|p1b: Salamence|Dragon Dance|p1b: Salamence
+|-boost|p1b: Salamence|atk|1
+|-boost|p1b: Salamence|spe|1
+|move|p2b: Gallade|Sacred Sword|p1b: Salamence
+|-supereffective|p1b: Salamence
+|-damage|p1b: Salamence|0 fnt
+|faint|p1b: Salamence
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757032894
+|switch|p1b: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|turn|2
+|
+|t:|1757032914
+|switch|p2a: Palafin|Palafin, L50, M|100/100
+|move|p1a: Ninetales|Helping Hand|p1b: Typhlosion
+|-singleturn|p1b: Typhlosion|Helping Hand|[of] p1a: Ninetales
+|move|p1b: Typhlosion|Eruption|p2b: Gallade|[spread] p2a,p2b
+|-resisted|p2a: Palafin
+|-damage|p2a: Palafin|25/100
+|-damage|p2b: Gallade|0 fnt
+|faint|p2b: Gallade
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757032926
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|turn|3
+|
+|t:|1757032971
+|move|p2b: Ninetales|Aurora Veil|p2b: Ninetales
+|-sidestart|p2: Valarux|move: Aurora Veil
+|move|p1b: Typhlosion|Solar Beam||[still]
+|-prepare|p1b: Typhlosion|Solar Beam
+|move|p2a: Palafin|Flip Turn|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|36/100
+|-enditem|p1a: Ninetales|Eject Button
+|
+|t:|1757032983
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|c|☆Valarux|ah beans
+|
+|t:|1757033015
+|detailschange|p2a: Palafin|Palafin-Hero, L50, M
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|move|p1a: Grimmsnarl|Fake Out|p2a: Amoonguss
+|-damage|p2a: Amoonguss|95/100
+|-damage|p1a: Grimmsnarl|84/100|[from] item: Rocky Helmet|[of] p2a: Amoonguss
+|move|p2b: Ninetales|Blizzard|p1a: Grimmsnarl|[spread] p1a,p1b
+|-resisted|p1b: Typhlosion
+|-damage|p1a: Grimmsnarl|47/100
+|-damage|p1b: Typhlosion|78/100
+|move|p1b: Typhlosion|Solar Beam|p2a: Amoonguss|[from] lockedmove
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|92/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757033050
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Amoonguss
+|-unboost|p2a: Amoonguss|atk|1
+|-unboost|p2a: Amoonguss|spa|1
+|
+|t:|1757033055
+|switch|p1a: Ninetales|Ninetales, L50, F|36/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ninetales
+|move|p2b: Ninetales|Moonblast|p1a: Ninetales
+|-resisted|p1a: Ninetales
+|-damage|p1a: Ninetales|17/100
+|move|p1b: Typhlosion|Eruption|p2a: Amoonguss|[spread] p2a,p2b
+|-supereffective|p2a: Amoonguss
+|-supereffective|p2b: Ninetales
+|-damage|p2a: Amoonguss|10/100
+|-damage|p2b: Ninetales|0 fnt
+|faint|p2b: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757033067
+|switch|p2b: Palafin|Palafin-Hero, L50, M|25/100
+|-activate|p2b: Palafin|ability: Zero to Hero
+|turn|6
+|
+|t:|1757033081
+|-terastallize|p2b: Palafin|Water
+|move|p1a: Ninetales|Helping Hand|p1b: Typhlosion
+|-singleturn|p1b: Typhlosion|Helping Hand|[of] p1a: Ninetales
+|move|p2b: Palafin|Jet Punch|p1b: Typhlosion
+|-supereffective|p1b: Typhlosion
+|-damage|p1b: Typhlosion|0 fnt
+|faint|p1b: Typhlosion
+|move|p2a: Amoonguss|Pollen Puff|p2b: Palafin
+|-heal|p2b: Palafin|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757033092
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|47/100
+|turn|7
+|
+|t:|1757033102
+|move|p2a: Amoonguss|Protect|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|Protect
+|move|p2b: Palafin|Jet Punch|p1a: Ninetales
+|-supereffective|p1a: Ninetales
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|move|p1b: Grimmsnarl|Thunder Wave|p2b: Palafin|[miss]
+|-miss|p1b: Grimmsnarl|p2b: Palafin
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1757033114
+|move|p2b: Palafin|Jet Punch|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|24/100
+|move|p1b: Grimmsnarl|Swagger|p2b: Palafin
+|-boost|p2b: Palafin|atk|2
+|-start|p2b: Palafin|confusion
+|move|p2a: Amoonguss|Spore|p1b: Grimmsnarl
+|-activate|p1b: Grimmsnarl|item: Safety Goggles|Spore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1757033139
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p1b: Grimmsnarl|Thunder Wave|p2b: Palafin
+|-status|p2b: Palafin|par
+|-activate|p2b: Palafin|confusion
+|move|p2b: Palafin|Wave Crash|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|-damage|p2b: Palafin|67/100 par|[from] Recoil
+|
+|win|Valarux

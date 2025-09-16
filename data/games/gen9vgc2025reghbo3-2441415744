@@ -1,0 +1,180 @@
+|j|☆Leodess
+|j|☆daarpavgc
+|html|Leodessdaarpavgc    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757848538
+|gametype|doubles
+|player|p1|Leodess|blue|1100
+|player|p2|daarpavgc|101|1045
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Porygon2, L50|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Malamar, L50, M|
+|poke|p2|Dondozo, L50, M|
+|poke|p2|Glimmora, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Arboliva, L50, F|
+|poke|p2|Dragonite, L50, M|
+|teampreview|4
+|showteam|p1|Porygon2||Eviolite|Download|TeraBlast,TrickRoom,Recover,IceBeam||||||50|,,,,,Ghost]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,WeatherBall,EarthPower|||M|||50|,,,,,Fire]Jumpluff||CovertCloak|Chlorophyll|RagePowder,Tailwind,SunnyDay,SleepPowder|||M|||50|,,,,,Water]Charizard||Charcoal|SolarPower|WeatherBall,HeatWave,Protect,SolarBeam|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||M|||50|,,,,,Ghost]Incineroar||AssaultVest|Intimidate|FlareBlitz,FakeOut,KnockOff,Uturn|||M|||50|,,,,,Water
+|showteam|p2|Malamar||SitrusBerry|Contrary|Superpower,Protect,KnockOff,Taunt|||M|||50|,,,,,Fighting]Dondozo||Leftovers|Unaware|Bulldoze,WaveCrash,Avalanche,Protect|||M|||50|,,,,,Grass]Glimmora||FocusSash|ToxicDebris|SpikyShield,MortalSpin,EarthPower,SludgeBomb|||F|||50|,,,,,Flying]Incineroar||AssaultVest|Intimidate|Uturn,FakeOut,FlareBlitz,KnockOff|||M|||50|,,,,,Ghost]Arboliva||LifeOrb|SeedSower|GigaDrain,HyperVoice,EarthPower,Protect|||F|||50|,,,,,Fairy]Dragonite||LoadedDice|Multiscale|Tailwind,ScaleShot,ExtremeSpeed,Haze|||M|||50|,,,,,Fairy
+|
+|t:|1757848582
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, M|100/100
+|switch|p1b: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2a: Malamar|Malamar, L50, M, shiny|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|-unboost|p1b: Jumpluff|atk|1
+|turn|1
+|
+|t:|1757848605
+|move|p1a: Charizard|Protect|p1a: Charizard
+|-singleturn|p1a: Charizard|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Charizard
+|-activate|p1a: Charizard|move: Protect
+|move|p1b: Jumpluff|Sleep Powder|p2b: Incineroar|[miss]
+|-miss|p1b: Jumpluff|p2b: Incineroar
+|move|p2a: Malamar|Taunt|p1b: Jumpluff
+|-start|p1b: Jumpluff|move: Taunt
+|
+|upkeep
+|turn|2
+|
+|t:|1757848623
+|switch|p1b: Porygon2|Porygon2, L50|100/100
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|atk|1
+|move|p2a: Malamar|Protect|p2a: Malamar
+|-singleturn|p2a: Malamar|Protect
+|move|p1a: Charizard|Heat Wave|p2b: Incineroar|[spread] p2b
+|-activate|p2a: Malamar|move: Protect
+|-resisted|p2b: Incineroar
+|-damage|p2b: Incineroar|90/100
+|move|p2b: Incineroar|Flare Blitz|p1b: Porygon2
+|-damage|p1b: Porygon2|74/100
+|-damage|p2b: Incineroar|82/100|[from] Recoil
+|
+|upkeep
+|turn|3
+|
+|t:|1757848641
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p2a: Dondozo|Dondozo, L50, M|100/100
+|move|p2b: Incineroar|Knock Off|p1b: Porygon2
+|-damage|p1b: Porygon2|50/100
+|-enditem|p1b: Porygon2|Eviolite|[from] move: Knock Off|[of] p2b: Incineroar
+|move|p1b: Porygon2|Trick Room|p1b: Porygon2
+|-fieldstart|move: Trick Room|[of] p1b: Porygon2
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1757848689
+|switch|p2b: Arboliva|Arboliva, L50, F, shiny|100/100
+|move|p2a: Dondozo|Wave Crash|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|36/100 brn
+|-damage|p2a: Dondozo|81/100|[from] Recoil
+|move|p1a: Ursaluna|Facade|p2a: Dondozo
+|-damage|p2a: Dondozo|9/100
+|move|p1b: Porygon2|Tera Blast|p2a: Dondozo
+|-damage|p2a: Dondozo|0 fnt
+|faint|p2a: Dondozo
+|
+|-damage|p1a: Ursaluna|30/100 brn|[from] brn
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Leodess)
+|
+|t:|1757848730
+|switch|p2a: Incineroar|Incineroar, L50, M|82/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1b: Porygon2|atk|1
+|turn|5
+|
+|t:|1757848744
+|switch|p1a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2a: Malamar|Malamar, L50, M, shiny|100/100
+|move|p2b: Arboliva|Hyper Voice|p1a: Jumpluff|[spread] p1a,p1b
+|-damage|p1a: Jumpluff|55/100
+|-damage|p1b: Porygon2|5/100
+|-damage|p2b: Arboliva|91/100|[from] item: Life Orb
+|move|p1b: Porygon2|Ice Beam|p2b: Arboliva
+|-supereffective|p2b: Arboliva
+|-damage|p2b: Arboliva|50/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Seed Sower|[of] p2b: Arboliva
+|
+|-heal|p2b: Arboliva|56/100|[from] Grassy Terrain
+|-heal|p1b: Porygon2|10/100|[from] Grassy Terrain
+|upkeep
+|turn|6
+|inactive|Leodess has 30 seconds left.
+|inactive|Leodess has 20 seconds left.
+|inactive|Leodess has 15 seconds left.
+|inactive|Leodess has 10 seconds left.
+|inactive|Leodess has 5 seconds left.
+|
+|t:|1757848799
+|move|p1a: Jumpluff|Rage Powder|p1a: Jumpluff
+|-singleturn|p1a: Jumpluff|move: Rage Powder
+|move|p2b: Arboliva|Hyper Voice|p1a: Jumpluff|[spread] p1a,p1b
+|-damage|p1a: Jumpluff|5/100
+|-damage|p1b: Porygon2|0 fnt
+|faint|p1b: Porygon2
+|-damage|p2b: Arboliva|46/100|[from] item: Life Orb
+|move|p2a: Malamar|Superpower|p1a: Jumpluff
+|-resisted|p1a: Jumpluff
+|-damage|p1a: Jumpluff|0 fnt
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|faint|p1a: Jumpluff
+|
+|-heal|p2b: Arboliva|52/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757848803
+|switch|p1b: Charizard|Charizard, L50, M|100/100
+|switch|p1a: Ursaluna|Ursaluna, L50, M|30/100 brn
+|turn|7
+|inactive|daarpavgc has 30 seconds left.
+|inactive|daarpavgc has 20 seconds left.
+|inactive|daarpavgc has 15 seconds left.
+|
+|t:|1757848843
+|-terastallize|p1a: Ursaluna|Ghost
+|move|p1a: Ursaluna|Facade|p2a: Malamar
+|-damage|p2a: Malamar|18/100
+|-enditem|p2a: Malamar|Sitrus Berry|[eat]
+|-heal|p2a: Malamar|43/100|[from] item: Sitrus Berry
+|move|p2b: Arboliva|Giga Drain|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|-heal|p2b: Arboliva|71/100|[from] drain|[of] p1a: Ursaluna
+|faint|p1a: Ursaluna
+|-damage|p2b: Arboliva|62/100|[from] item: Life Orb
+|move|p2a: Malamar|Knock Off|p1b: Charizard
+|-crit|p1b: Charizard
+|-damage|p1b: Charizard|0 fnt
+|-enditem|p1b: Charizard|Charcoal|[from] move: Knock Off|[of] p2a: Malamar
+|faint|p1b: Charizard
+|
+|win|daarpavgc
+|inactive|Leodess has 30 seconds to confirm battle start!
+|inactive|daarpavgc has 30 seconds to confirm battle start!
+||Leodess is ready for game 2.
+||daarpavgc is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

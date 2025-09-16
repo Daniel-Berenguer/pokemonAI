@@ -1,0 +1,208 @@
+|j|☆Testbericht2
+|j|☆debouls
+|html|Testbericht2debouls    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757627473
+|gametype|doubles
+|player|p1|Testbericht2|101|1315
+|player|p2|debouls|102|1232
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Maushold, L50|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|teampreview|4
+|showteam|p1|Maushold||WideLens|Technician|PopulationBomb,FollowMe,Taunt,Protect||||||50|,,,,,Ghost]Pelipper||FocusSash|Drizzle|Hurricane,MuddyWater,Tailwind,Protect|||F|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|DracoMeteor,ElectroShot,BodyPress,FlashCannon|||M|||50|,,,,,Bug]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom||||||50|,,,,,Fairy]Basculegion||LifeOrb|SwiftSwim|AquaJet,Protect,LastRespects,WaveCrash|||M|||50|,,,,,Water
+|showteam|p2|Indeedee-F||PsychicSeed|PsychicSurge|Psychic,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,TrickRoom,Protect|||M|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,EarthPower,Protect|||F|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|TripleAxel,CloseCombat,SleepPowder,AfterYou|||F|||50|,,,,,Ghost]Armarouge||PowerHerb|FlashFire|ExpandingForce,ArmorCannon,TrickRoom,Protect|||M|||50|,,,,,Grass]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Testbericht2)
+|
+|t:|1757627500
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Maushold|Maushold, L50|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Lilligant|Lilligant-Hisui, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2a: Indeedee|Psychic Seed
+|-boost|p2a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|inactive|debouls has 30 seconds left.
+|inactive|debouls has 20 seconds left.
+|inactive|debouls has 15 seconds left.
+|inactive|debouls has 10 seconds left.
+|
+|t:|1757627546
+|move|p1a: Maushold|Taunt|p2b: Lilligant
+|-start|p2b: Lilligant|move: Taunt
+|cant|p2b: Lilligant|move: Taunt|Sleep Powder
+|move|p1b: Ursaluna|Headlong Rush|p2a: Indeedee
+|-damage|p2a: Indeedee|41/100
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|move|p2a: Indeedee|Psychic|p1b: Ursaluna
+|-damage|p1b: Ursaluna|45/100
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|inactive|Testbericht2 has 30 seconds left.
+|inactive|debouls has 30 seconds left.
+|
+|t:|1757627574
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Lilligant|Close Combat|p1a: Maushold
+|-supereffective|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|-unboost|p2b: Lilligant|def|1
+|-unboost|p2b: Lilligant|spd|1
+|faint|p1a: Maushold
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Ursaluna|39/100 brn|[from] brn
+|upkeep
+|
+|t:|1757627588
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|3
+|
+|t:|1757627608
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|41/100
+|move|p2b: Lilligant|Triple Axel|p1b: Sinistcha|[miss]
+|-miss|p2b: Lilligant|p1b: Sinistcha
+|move|p1a: Pelipper|Muddy Water|p2b: Lilligant|[spread] p2a,p2b
+|-resisted|p2b: Lilligant
+|-damage|p2a: Indeedee|2/100
+|-damage|p2b: Lilligant|53/100
+|-unboost|p2a: Indeedee|accuracy|1
+|
+|-weather|RainDance|[upkeep]
+|-end|p2b: Lilligant|move: Taunt
+|upkeep
+|turn|4
+|inactive|debouls has 30 seconds left.
+|
+|t:|1757627634
+|switch|p1a: Ursaluna|Ursaluna, L50, F|39/100 brn
+|move|p2b: Lilligant|After You|p2a: Indeedee
+|-activate|p2a: Indeedee|move: After You
+|move|p2a: Indeedee|Trick Room|p2a: Indeedee
+|-fieldstart|move: Trick Room|[of] p2a: Indeedee
+|move|p1b: Sinistcha|Matcha Gotcha|p2b: Lilligant|[spread] p2a,p2b
+|-resisted|p2b: Lilligant
+|-damage|p2a: Indeedee|0 fnt
+|-damage|p2b: Lilligant|23/100
+|faint|p2a: Indeedee
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Ursaluna|33/100 brn|[from] brn
+|upkeep
+|
+|t:|1757627651
+|switch|p2a: Armarouge|Armarouge, L50, M|100/100
+|turn|5
+|
+|t:|1757627664
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|move|p2a: Armarouge|Expanding Force|p1b: Sinistcha|[spread] p1a,p1b
+|-damage|p1a: Ursaluna|0 fnt
+|-damage|p1b: Sinistcha|43/100
+|-enditem|p1b: Sinistcha|Sitrus Berry|[eat]
+|-heal|p1b: Sinistcha|67/100|[from] item: Sitrus Berry
+|faint|p1a: Ursaluna
+|move|p1b: Sinistcha|Matcha Gotcha|p2b: Torkoal|[spread] p2a,p2b
+|-resisted|p2a: Armarouge
+|-resisted|p2b: Torkoal
+|-damage|p2a: Armarouge|88/100
+|-heal|p1b: Sinistcha|74/100|[from] drain|[of] p2a: Armarouge
+|-damage|p2b: Torkoal|85/100
+|-heal|p1b: Sinistcha|82/100|[from] drain|[of] p2b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|
+|t:|1757627677
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|6
+|
+|t:|1757627688
+|-terastallize|p1b: Sinistcha|Fairy
+|move|p1a: Pelipper|Protect|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Protect
+|move|p2b: Torkoal|Eruption|p1b: Sinistcha|[spread] p1b
+|-activate|p1a: Pelipper|move: Protect
+|-damage|p1b: Sinistcha|62/100
+|move|p2a: Armarouge|Expanding Force|p1a: Pelipper
+|-activate|p1a: Pelipper|move: Protect
+|move|p1b: Sinistcha|Trick Room|p1b: Sinistcha
+|-fieldend|move: Trick Room
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1757627713
+|switch|p2b: Lilligant|Lilligant-Hisui, L50, F|23/100
+|-terastallize|p2a: Armarouge|Grass
+|move|p1a: Pelipper|Muddy Water|p2b: Lilligant|[spread] p2a,p2b
+|-resisted|p2a: Armarouge
+|-resisted|p2b: Lilligant
+|-damage|p2a: Armarouge|63/100
+|-damage|p2b: Lilligant|0 fnt
+|-unboost|p2a: Armarouge|accuracy|1
+|faint|p2b: Lilligant
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Armarouge
+|-resisted|p2a: Armarouge
+|-damage|p2a: Armarouge|45/100
+|-heal|p1b: Sinistcha|71/100|[from] drain|[of] p2a: Armarouge
+|move|p2a: Armarouge|Trick Room|p2a: Armarouge
+|-fieldstart|move: Trick Room|[of] p2a: Armarouge
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757627728
+|switch|p2b: Torkoal|Torkoal, L50, F|85/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|8
+|
+|t:|1757627742
+|move|p1b: Sinistcha|Rage Powder|p1b: Sinistcha
+|-singleturn|p1b: Sinistcha|move: Rage Powder
+|move|p2b: Torkoal|Eruption|p1b: Sinistcha|[spread] p1a,p1b
+|-resisted|p1a: Pelipper
+|-crit|p1b: Sinistcha
+|-damage|p1a: Pelipper|38/100
+|-damage|p1b: Sinistcha|0 fnt
+|faint|p1b: Sinistcha
+|move|p2a: Armarouge|Expanding Force|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|win|debouls
+|raw|Testbericht2's rating: 1315 → 1290(-25 for losing)
+|raw|debouls's rating: 1232 → 1263(+31 for winning)
+|l|☆Testbericht2
+|player|p1|

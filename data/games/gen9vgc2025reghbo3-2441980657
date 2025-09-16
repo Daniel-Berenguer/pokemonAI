@@ -1,0 +1,127 @@
+|j|☆croweffect
+|j|☆MakeItSunn
+|html|croweffectMakeItSunn    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1757934043
+|gametype|doubles
+|player|p1|croweffect|1|1107
+|player|p2|MakeItSunn|elesa|1080
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Crawdaunt, L50, F|
+|poke|p1|Espathra, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p2|Oranguru, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Jumpluff, L50, M|
+|teampreview|4
+|showteam|p1|Farigiraf||MentalHerb|ArmorTail|TrickRoom,HelpingHand,Protect,HyperVoice|||F|||50|,,,,,Fairy]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Crawdaunt||ChoiceBand|Adaptability|Crabhammer,KnockOff,XScissor,RockSlide|||F|||50|,,,,,Bug]Espathra||FocusSash|SpeedBoost|LuminaCrash,Protect,DazzlingGleam,StoredPower|||F|||50|,,,,,Fairy]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,PartingShot,KnockOff|||F|||50|,,,,,Grass]Amoonguss||RockyHelmet|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Dark
+|showteam|p2|Oranguru||MentalHerb|Telepathy|Yawn,TrickRoom,Instruct,Gravity|||M|||50|,,,,,Steel]Ursaluna||FlameOrb|Guts|Earthquake,Facade,HeadlongRush,Protect|||M|||50|,,,,,Ghost]Indeedee-F||EjectButton|PsychicSurge|FollowMe,Psychic,HelpingHand,TrickRoom|||F|||50|,,,,,Fairy]Torkoal||EjectPack|Drought|Eruption,Overheat,EarthPower,Protect|||F|||50|,,,,,Fire]Armarouge||LifeOrb|FlashFire|ExpandingForce,ArmorCannon,WideGuard,Protect|||F|||50|,,,,,Grass]Jumpluff||CovertCloak|Chlorophyll|RagePowder,SleepPowder,Tailwind,SunnyDay|||M|||50|,,,,,Water
+|
+|t:|1757934082
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|1
+|
+|t:|1757934103
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2a: Jumpluff|Sleep Powder|p1a: Farigiraf
+|-status|p1a: Farigiraf|slp|[from] move: Sleep Powder
+|cant|p1a: Farigiraf|slp
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|2
+|
+|t:|1757934126
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|move|p2b: Ursaluna|Facade|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|-damage|p2b: Ursaluna|84/100 brn|[from] item: Rocky Helmet|[of] p1b: Amoonguss
+|faint|p1b: Amoonguss
+|cant|p1a: Farigiraf|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|78/100 brn|[from] brn
+|upkeep
+|
+|t:|1757934144
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|turn|3
+|
+|t:|1757934161
+|move|p2b: Ursaluna|Facade|p1b: Ursaluna
+|-damage|p1b: Ursaluna|8/100
+|move|p1b: Ursaluna|Blood Moon|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|-damage|p1b: Ursaluna|0 fnt|[from] item: Life Orb
+|faint|p1b: Ursaluna
+|cant|p1a: Farigiraf|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|72/100 brn|[from] brn
+|upkeep
+|
+|t:|1757934174
+|switch|p1b: Crawdaunt|Crawdaunt, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|4
+|c|☆croweffect|damn
+|c|☆croweffect|3 turn
+|c|☆croweffect|gg
+|
+|t:|1757934190
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Ursaluna|Facade|p1b: Crawdaunt
+|-damage|p1b: Crawdaunt|0 fnt
+|faint|p1b: Crawdaunt
+|-curestatus|p1a: Farigiraf|slp|[msg]
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Ursaluna|66/100 brn|[from] brn
+|upkeep
+|turn|5
+|c|☆MakeItSunn|why your team so slow lol
+|
+|t:|1757934208
+|-terastallize|p1a: Farigiraf|Fairy
+|move|p2a: Indeedee|Helping Hand|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Helping Hand|[of] p2a: Indeedee
+|move|p2b: Ursaluna|Facade|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|faint|p1a: Farigiraf
+|
+|win|MakeItSunn
+|raw|croweffect's rating: 1107 → 1080(-27 for losing)
+|raw|MakeItSunn's rating: 1080 → 1110(+30 for winning)
+|c|☆croweffect|because if you dont get 3 turn sleep on my TR setter, i'm faster
+|l|☆croweffect
+|player|p1|
+|l|☆MakeItSunn
+|player|p2|

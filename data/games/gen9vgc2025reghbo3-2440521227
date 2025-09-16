@@ -1,0 +1,149 @@
+|j|☆furnoz
+|j|☆so atey
+|html|furnozso atey    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757714097
+|gametype|doubles
+|player|p1|furnoz|169|1172
+|player|p2|so atey|cynthia|1215
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p2|Malamar, L50, F|
+|poke|p2|Magmar, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Luxray, L50, M|
+|poke|p2|Dragapult, L50, F|
+|teampreview|4
+|showteam|p1|Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|||F|||50|,,,,,Water]Indeedee-F||RockyHelmet|PsychicSurge|Psychic,FollowMe,TrickRoom,HelpingHand|||F|||50|,,,,,Grass]Torkoal||Charcoal|Drought|Eruption,WeatherBall,EarthPower,Protect|||F|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|SolarBlade,CloseCombat,SleepPowder,AfterYou|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|SacredSword,PsychoCut,TrickRoom,WideGuard|||M|||50|,,,,,Grass
+|showteam|p2|Malamar||Leftovers|Contrary|KnockOff,Superpower,TrickRoom,Protect|||F|||50|,,,,,Fire]Magmar||Eviolite|VitalSpirit|FollowMe,WillOWisp,Protect,HeatWave|||F|||50|,,,,,Dark]Torkoal||ChoiceSpecs|Drought|Eruption,FireBlast,SolarBeam,WeatherBall|||F|||50|,,,,,Fire]Lilligant-Hisui||FocusSash|Chlorophyll|CloseCombat,SleepPowder,AfterYou,Protect|||F|||50|,,,,,Ghost]Luxray||AssaultVest|Intimidate|Snarl,VoltSwitch,Electroweb,Thunderbolt|||M|||50|,,,,,Water]Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,PhantomForce,Uturn|||F|||50|,,,,,Dragon
+|
+|t:|1757714126
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Luxray|Luxray, L50, M, shiny|100/100
+|switch|p2b: Magmar|Magmar, L50, F, shiny|100/100
+|-ability|p2a: Luxray|Intimidate|boost
+|-unboost|p1a: Hatterene|atk|1
+|-unboost|p1b: Indeedee|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1757714133
+|move|p1a: Hatterene|Protect|p1a: Hatterene
+|-singleturn|p1a: Hatterene|Protect
+|move|p2a: Luxray|Snarl|p1b: Indeedee|[spread] p1b
+|-activate|p1a: Hatterene|move: Protect
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|81/100
+|-unboost|p1b: Indeedee|spa|1
+|move|p2b: Magmar|Heat Wave|p1b: Indeedee|[spread] p1b
+|-activate|p1a: Hatterene|move: Protect
+|-damage|p1b: Indeedee|59/100
+|move|p1b: Indeedee|Trick Room|p1b: Indeedee
+|-fieldstart|move: Trick Room|[of] p1b: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1757714152
+|move|p1b: Indeedee|Helping Hand|p1a: Hatterene
+|-singleturn|p1a: Hatterene|Helping Hand|[of] p1b: Indeedee
+|move|p1a: Hatterene|Expanding Force|p2a: Luxray|[spread] p2a,p2b
+|-damage|p2a: Luxray|0 fnt
+|-damage|p2b: Magmar|7/100
+|faint|p2a: Luxray
+|-damage|p1a: Hatterene|91/100|[from] item: Life Orb
+|move|p2b: Magmar|Heat Wave|p1b: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Hatterene|63/100
+|-damage|p1b: Indeedee|37/100
+|
+|upkeep
+|
+|t:|1757714158
+|switch|p2a: Torkoal|Torkoal, L50, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|3
+|
+|t:|1757714169
+|-terastallize|p2a: Torkoal|Fire
+|move|p1a: Hatterene|Protect|p1a: Hatterene
+|-singleturn|p1a: Hatterene|Protect
+|move|p2a: Torkoal|Eruption|p1a: Hatterene|[spread] p1b
+|-activate|p1a: Hatterene|move: Protect
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p2b: Magmar|Heat Wave|p1a: Hatterene
+|-activate|p1a: Hatterene|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757714176
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by so atey)
+|
+|t:|1757714217
+|-terastallize|p1b: Torkoal|Fire
+|move|p1a: Hatterene|Protect|p1a: Hatterene
+|-singleturn|p1a: Hatterene|Protect
+|move|p2b: Magmar|Follow Me|p2b: Magmar
+|-singleturn|p2b: Magmar|move: Follow Me
+|move|p2a: Torkoal|Eruption|p1a: Hatterene|[spread] p1b
+|-activate|p1a: Hatterene|move: Protect
+|-resisted|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757714231
+|switch|p1b: Lilligant|Lilligant-Hisui, L50, F|100/100
+|turn|5
+|inactive|so atey has 30 seconds left.
+|
+|t:|1757714259
+|move|p1a: Hatterene|Protect||[still]
+|-fail|p1a: Hatterene
+|move|p2b: Magmar|Protect|p2b: Magmar
+|-singleturn|p2b: Magmar|Protect
+|move|p2a: Torkoal|Eruption|p1a: Hatterene|[spread] p1a,p1b
+|-supereffective|p1b: Lilligant
+|-damage|p1a: Hatterene|0 fnt
+|-enditem|p1b: Lilligant|Focus Sash
+|-damage|p1b: Lilligant|1/100
+|faint|p1a: Hatterene
+|move|p1b: Lilligant|Close Combat|p2a: Torkoal
+|-damage|p2a: Torkoal|59/100
+|-unboost|p1b: Lilligant|def|1
+|-unboost|p1b: Lilligant|spd|1
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|-message|furnoz forfeited.
+|
+|win|so atey
+|raw|furnoz's rating: 1172 → 1150(-22 for losing)
+|raw|so atey's rating: 1215 → 1237(+22 for winning)
+|l|☆furnoz
+|player|p1|
+|l|☆so atey
+|player|p2|

@@ -1,0 +1,96 @@
+|j|â˜†lancerh
+|j|â˜†CretaceousDraconid
+|html|lancerhCretaceousDraconid    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757731162
+|gametype|doubles
+|player|p1|lancerh|169|1282
+|player|p2|CretaceousDraconid|zinnia-masters|1311
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each PokÃ©mon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Salamence, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|showteam|p1|Indeedee-F||PsychicSeed|PsychicSurge|FollowMe,TrickRoom,Psychic,HelpingHand|||F|||50|,,,,,Water]Torkoal||ChoiceSpecs|Drought|Eruption,HeatWave,ClearSmog,WeatherBall|||M|||50|,,,,,Fire]Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,HyperVoice,VacuumWave,EarthPower|||M|||50|,,,,,Ghost]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,Protect,TrickRoom|||F|||50|,,,,,Psychic]Armarouge||PowerHerb|FlashFire|ExpandingForce,HeatWave,MeteorBeam,Protect|||M|||50|,,,,,Grass]Annihilape||SafetyGoggles|Defiant|CloseCombat,FinalGambit,RageFist,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Kingambit||SafetyGoggles|Defiant|SuckerPunch,KowtowCleave,SwordsDance,Protect|||F|||50|,,,,,Dark]Whimsicott||CovertCloak|Prankster|Tailwind,FakeTears,Taunt,Moonblast|||F|||50|,,,,,Steel]Farigiraf||ThroatSpray|ArmorTail|PsychicNoise,HelpingHand,TrickRoom,HyperVoice|||F|||50|,,,,,Fairy]Salamence||ChoiceSpecs|Intimidate|DracoMeteor,Hurricane,HeatWave,AirSlash|||M|||50|,,,,,Fire]Sneasler||FocusSash|PoisonTouch|FakeOut,CloseCombat,DireClaw,Protect|||F|||50|,,,,,Fairy]Ursaluna-Bloodmoon||LifeOrb|MindsEye|EarthPower,BloodMoon,HyperVoice,Protect|||M|||50|,,,,,Normal
+|
+|t:|1757731208
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100
+|switch|p2a: Kingambit|Kingambit, L50, F|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1a: Indeedee|Psychic Seed
+|-boost|p1a: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757731243
+|switch|p2a: Salamence|Salamence, L50, M|100/100
+|-ability|p2a: Salamence|Intimidate|boost
+|-unboost|p1a: Indeedee|atk|1
+|-unboost|p1b: Annihilape|atk|1
+|-ability|p1b: Annihilape|Defiant|boost
+|-boost|p1b: Annihilape|atk|2
+|-terastallize|p2b: Ursaluna|Normal
+|move|p1b: Annihilape|Close Combat|p2a: Salamence
+|-resisted|p2a: Salamence
+|-crit|p2a: Salamence
+|-damage|p2a: Salamence|38/100
+|-unboost|p1b: Annihilape|def|1
+|-unboost|p1b: Annihilape|spd|1
+|move|p2b: Ursaluna|Blood Moon|p1a: Indeedee
+|-damage|p1a: Indeedee|17/100
+|-damage|p2b: Ursaluna|91/100|[from] item: Life Orb
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1757731269
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|move|p2b: Ursaluna|Hyper Voice|p1a: Indeedee|[spread] p1a,p1b
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Annihilape|6/100
+|faint|p1a: Indeedee
+|-damage|p2b: Ursaluna|81/100|[from] item: Life Orb
+|move|p1b: Annihilape|Close Combat|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|-unboost|p1b: Annihilape|def|1
+|-unboost|p1b: Annihilape|spd|1
+|faint|p2b: Ursaluna
+|
+|upkeep
+|
+|t:|1757731281
+|switch|p2b: Salamence|Salamence, L50, M|38/100
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|-ability|p2b: Salamence|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1b: Annihilape|atk|1
+|-ability|p1b: Annihilape|Defiant|boost
+|-boost|p1b: Annihilape|atk|2
+|turn|3
+|-message|CretaceousDraconid forfeited.
+|
+|win|lancerh
+||CretaceousDraconid is ready for game 2.

@@ -1,0 +1,219 @@
+|j|☆Garmas
+|j|☆Lightoz V
+|html|GarmasLightoz V    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756898748
+|gametype|doubles
+|player|p1|Garmas|ethan|1190
+|player|p2|Lightoz V|blue-gen2|1309
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Ghost]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Psychic]Ursaluna-Bloodmoon||AssaultVest|MindsEye|HyperVoice,BloodMoon,EarthPower,VacuumWave|||M|||50|,,,,,Water]Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Stellar]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||M|||50|,,,,,Fairy
+|showteam|p2|Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Coaching,FinalGambit|||F|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Tailwind,Haze,Protect|||F|||50|,,,,,Steel]Volcarona||Leftovers|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||F|||50|,,,,,Fairy]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Ursaluna-Bloodmoon||FocusSash|MindsEye|BloodMoon,EarthPower,HyperVoice,Protect|||M|||50|,,,,,Normal
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Lightoz V)
+|
+|t:|1756898792
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Annihilape|Annihilape, L50, F, shiny|100/100
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|turn|1
+|
+|t:|1756898811
+|move|p1a: Dragonite|Protect|p1a: Dragonite
+|-singleturn|p1a: Dragonite|Protect
+|move|p2a: Annihilape|Final Gambit|p1a: Dragonite
+|-activate|p1a: Dragonite|move: Protect
+|move|p2b: Volcarona|Quiver Dance|p2b: Volcarona
+|-boost|p2b: Volcarona|spa|1
+|-boost|p2b: Volcarona|spd|1
+|-boost|p2b: Volcarona|spe|1
+|move|p1b: Amoonguss|Spore|p2b: Volcarona
+|-status|p2b: Volcarona|slp|[from] move: Spore
+|
+|upkeep
+|turn|2
+|
+|t:|1756898829
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|cant|p2b: Volcarona|slp
+|move|p2a: Annihilape|Final Gambit|p1a: Dragonite
+|-damage|p1a: Dragonite|0 fnt
+|faint|p2a: Annihilape
+|faint|p1a: Dragonite
+|
+|upkeep
+|
+|t:|1756898838
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|-unboost|p1b: Amoonguss|atk|1
+|turn|3
+|
+|t:|1756898857
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|move|p2a: Incineroar|Fake Out|p1a: Ursaluna
+|-damage|p1a: Ursaluna|92/100
+|-curestatus|p2b: Volcarona|slp|[msg]
+|move|p2b: Volcarona|Heat Wave|p1a: Ursaluna|[spread] p1a,p1b
+|-supereffective|p1b: Amoonguss
+|-damage|p1a: Ursaluna|58/100
+|-damage|p1b: Amoonguss|12/100
+|-enditem|p1b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1b: Amoonguss|37/100|[from] item: Sitrus Berry
+|move|p1b: Amoonguss|Spore|p2a: Incineroar
+|-status|p2a: Incineroar|slp|[from] move: Spore
+|
+|upkeep
+|turn|4
+|
+|t:|1756898877
+|switch|p2a: Rillaboom|Rillaboom, L50, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|-terastallize|p1a: Ursaluna|Water
+|move|p1b: Amoonguss|Protect|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|Protect
+|move|p2b: Volcarona|Heat Wave|p1a: Ursaluna|[spread] p1a
+|-activate|p1b: Amoonguss|move: Protect
+|-resisted|p1a: Ursaluna
+|-damage|p1a: Ursaluna|41/100
+|move|p1a: Ursaluna|Blood Moon|p2b: Volcarona
+|-damage|p2b: Volcarona|48/100
+|
+|-heal|p2b: Volcarona|54/100|[from] Grassy Terrain
+|-heal|p2b: Volcarona|60/100|[from] item: Leftovers
+|-heal|p1a: Ursaluna|47/100|[from] Grassy Terrain
+|-heal|p1b: Amoonguss|43/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756898902
+|move|p2b: Volcarona|Heat Wave|p1b: Amoonguss|[spread] p1a
+|-miss|p2b: Volcarona|p1b: Amoonguss
+|-resisted|p1a: Ursaluna
+|-damage|p1a: Ursaluna|30/100
+|move|p2a: Rillaboom|Wood Hammer|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|-damage|p2a: Rillaboom|91/100|[from] Recoil
+|move|p1b: Amoonguss|Spore|p2b: Volcarona
+|-status|p2b: Volcarona|slp|[from] move: Spore
+|
+|-heal|p2b: Volcarona|67/100 slp|[from] Grassy Terrain
+|-heal|p2b: Volcarona|73/100 slp|[from] item: Leftovers
+|-heal|p2a: Rillaboom|97/100|[from] Grassy Terrain
+|-heal|p1b: Amoonguss|49/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756898917
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|turn|6
+|
+|t:|1756898926
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100 slp
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|-unboost|p1b: Amoonguss|atk|1
+|cant|p2b: Volcarona|slp
+|move|p1a: Sneasler|Dire Claw|p2a: Incineroar
+|-damage|p2a: Incineroar|80/100 slp
+|move|p1b: Amoonguss|Spore|p2a: Incineroar
+|-fail|p2a: Incineroar|slp
+|
+|-heal|p2b: Volcarona|79/100 slp|[from] Grassy Terrain
+|-heal|p2b: Volcarona|85/100 slp|[from] item: Leftovers
+|-heal|p2a: Incineroar|86/100 slp|[from] Grassy Terrain
+|-heal|p1b: Amoonguss|55/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1756898936
+|move|p1b: Amoonguss|Rage Powder|p1b: Amoonguss
+|-singleturn|p1b: Amoonguss|move: Rage Powder
+|cant|p2b: Volcarona|slp
+|move|p1a: Sneasler|Dire Claw|p2b: Volcarona
+|-damage|p2b: Volcarona|51/100 slp
+|cant|p2a: Incineroar|slp
+|
+|-heal|p2b: Volcarona|58/100 slp|[from] Grassy Terrain
+|-heal|p2b: Volcarona|64/100 slp|[from] item: Leftovers
+|-heal|p2a: Incineroar|92/100 slp|[from] Grassy Terrain
+|-heal|p1b: Amoonguss|61/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1756898951
+|cant|p2b: Volcarona|slp
+|move|p1a: Sneasler|Close Combat|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|33/100 slp
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|58/100 slp|[from] item: Sitrus Berry
+|cant|p2a: Incineroar|slp
+|move|p1b: Amoonguss|Pollen Puff|p2a: Incineroar
+|-damage|p2a: Incineroar|41/100 slp
+|
+|-heal|p2b: Volcarona|70/100 slp|[from] Grassy Terrain
+|-heal|p2b: Volcarona|76/100 slp|[from] item: Leftovers
+|-heal|p2a: Incineroar|47/100 slp|[from] Grassy Terrain
+|-heal|p1b: Amoonguss|67/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|9
+|inactive|Garmas has 30 seconds left.
+|
+|t:|1756898977
+|-curestatus|p2b: Volcarona|slp|[msg]
+|move|p2b: Volcarona|Heat Wave|p1a: Sneasler|[spread] p1a,p1b
+|-supereffective|p1b: Amoonguss
+|-enditem|p1a: Sneasler|Focus Sash
+|-damage|p1a: Sneasler|1/100
+|-damage|p1b: Amoonguss|0 fnt
+|-status|p1a: Sneasler|brn
+|faint|p1b: Amoonguss
+|move|p1a: Sneasler|Close Combat|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|20/100 slp
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|cant|p2a: Incineroar|slp
+|
+|-heal|p2b: Volcarona|82/100|[from] item: Leftovers
+|-damage|p1a: Sneasler|0 fnt|[from] brn
+|faint|p1a: Sneasler
+|
+|win|Lightoz V
+|raw|Garmas's rating: 1190 → 1173(-17 for losing)
+|raw|Lightoz V's rating: 1309 → 1322(+13 for winning)
+|l|☆Garmas
+|player|p1|
+|l|☆Lightoz V
+|player|p2|
+|j|☆Garmas
+|player|p1|Garmas|ethan|

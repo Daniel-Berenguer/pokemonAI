@@ -1,0 +1,160 @@
+|j|☆Bruthathechosen
+|j|☆D10_O1
+|html|BruthathechosenD10_O1    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757074259
+|gametype|doubles
+|player|p1|Bruthathechosen|lady-gen4|1146
+|player|p2|D10_O1|101|1131
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Hydreigon, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Electabuzz, L50, F|
+|poke|p1|Volcarona, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Baxcalibur, L50, F|
+|teampreview|4
+|showteam|p1|Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,SwordsDance,Protect|||M|||50|,,,,,Dark]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,HighHorsepower,Uturn|||F|||50|,,,,,Water]Hydreigon||ChoiceSpecs|Levitate|DarkPulse,DracoMeteor,Snarl,Uturn|||F|||50|,,,,,Ghost]Sneasler||GrassySeed|Unburden|FakeOut,CloseCombat,DireClaw,Protect|||M|||50|,,,,,Stellar]Electabuzz||Eviolite|VitalSpirit|Taunt,Thunderbolt,FollowMe,Protect|||F|||50|,,,,,Dragon]Volcarona||CovertCloak|FlameBody|QuiverDance,HeatWave,TeraBlast,Protect|||F|||50|,,,,,Fairy
+|showteam|p2|Rillaboom||MiracleSeed|GrassySurge|WoodHammer,GrassyGlide,FakeOut,Taunt|||M|||50|,,,,,Fire]Ninetales-Alola||NeverMeltIce|SnowWarning|Blizzard,Moonblast,AuroraVeil,Protect|||F|||50|,,,,,Fire]Volcarona||Leftovers|FlameBody|GigaDrain,FieryDance,QuiverDance,Protect|||F|||50|,,,,,Grass]Amoonguss||MentalHerb|Regenerator|Spore,RagePowder,Protect,SludgeBomb|||F|||50|,,,,,Water]Sneasler||GrassySeed|Unburden|CloseCombat,FakeOut,DireClaw,Coaching|||F|||50|,,,,,Dark]Baxcalibur||LoadedDice|ThermalExchange|ScaleShot,IcicleSpear,Protect,IceShard|||F|||50|,,,,,Poison
+|
+|t:|1757074286
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Volcarona|Volcarona, L50, F|100/100
+|switch|p1b: Rillaboom|Rillaboom, L50, F|100/100
+|switch|p2a: THE GOAT|Amoonguss, L50, F, shiny|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|-enditem|p2b: Sneasler|Grassy Seed
+|-boost|p2b: Sneasler|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1757074319
+|-terastallize|p1b: Rillaboom|Water
+|move|p2b: Sneasler|Fake Out|p1b: Rillaboom
+|-damage|p1b: Rillaboom|86/100
+|cant|p1b: Rillaboom|flinch
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: THE GOAT|Spore|p1a: Volcarona
+|-status|p1a: Volcarona|slp|[from] move: Spore
+|
+|-heal|p1b: Rillaboom|92/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1757074336
+|move|p2b: Sneasler|Dire Claw|p1a: Volcarona
+|-damage|p1a: Volcarona|46/100 slp
+|-status|p2b: Sneasler|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|cant|p1a: Volcarona|slp
+|move|p1b: Rillaboom|High Horsepower|p2a: THE GOAT
+|-damage|p2a: THE GOAT|67/100
+|move|p2a: THE GOAT|Spore|p1b: Rillaboom
+|-status|p1b: Rillaboom|slp|[from] move: Spore
+|
+|-heal|p1a: Volcarona|52/100 slp|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|98/100 slp|[from] Grassy Terrain
+|-heal|p2a: THE GOAT|73/100|[from] Grassy Terrain
+|-damage|p2b: Sneasler|95/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1757074356
+|switch|p2a: Big Bug|Volcarona, L50, F|100/100
+|move|p2b: Sneasler|Dire Claw|p1a: Volcarona
+|-damage|p1a: Volcarona|24/100 slp
+|-curestatus|p1a: Volcarona|slp|[msg]
+|move|p1a: Volcarona|Heat Wave|p2b: Sneasler|[spread] p2a,p2b
+|-damage|p2a: Big Bug|56/100
+|-damage|p2b: Sneasler|24/100 brn
+|cant|p1b: Rillaboom|slp
+|
+|-heal|p2b: Sneasler|30/100 brn|[from] Grassy Terrain
+|-heal|p1a: Volcarona|30/100|[from] Grassy Terrain
+|-heal|p2a: Big Bug|62/100|[from] Grassy Terrain
+|-heal|p2a: Big Bug|69/100|[from] item: Leftovers
+|-heal|p1b: Rillaboom|100/100 slp|[from] Grassy Terrain
+|-damage|p2b: Sneasler|24/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1757074382
+|move|p2b: Sneasler|Dire Claw|p1a: Volcarona
+|-damage|p1a: Volcarona|2/100
+|move|p1a: Volcarona|Heat Wave|p2b: Sneasler|[spread] p2a,p2b
+|-crit|p2a: Big Bug
+|-damage|p2a: Big Bug|3/100
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|move|p2a: Big Bug|Giga Drain|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|49/100 slp
+|-heal|p2a: Big Bug|33/100|[from] drain|[of] p1b: Rillaboom
+|-curestatus|p1b: Rillaboom|slp|[msg]
+|move|p1b: Rillaboom|High Horsepower|p2a: Big Bug
+|-damage|p2a: Big Bug|0 fnt
+|-status|p1b: Rillaboom|brn|[from] ability: Flame Body|[of] p2a: Big Bug
+|faint|p2a: Big Bug
+|
+|-heal|p1a: Volcarona|8/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|55/100 brn|[from] Grassy Terrain
+|-damage|p1b: Rillaboom|49/100 brn|[from] brn
+|upkeep
+|
+|t:|1757074386
+|switch|p2b: THE GOAT|Amoonguss, L50, F, shiny|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|5
+|
+|t:|1757074401
+|-terastallize|p2a: Ninetales|Fire
+|move|p2b: THE GOAT|Protect|p2b: THE GOAT
+|-singleturn|p2b: THE GOAT|Protect
+|move|p1b: Rillaboom|Grassy Glide|p2a: Ninetales
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|88/100
+|move|p1a: Volcarona|Heat Wave|p2b: THE GOAT|[spread] p2a
+|-activate|p2b: THE GOAT|move: Protect
+|-resisted|p2a: Ninetales
+|-damage|p2a: Ninetales|63/100
+|move|p2a: Ninetales|Blizzard|p1b: Rillaboom|[spread] p1a,p1b
+|-resisted|p1a: Volcarona
+|-resisted|p1b: Rillaboom
+|-damage|p1a: Volcarona|0 fnt
+|-damage|p1b: Rillaboom|39/100 brn
+|faint|p1a: Volcarona
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Ninetales|69/100|[from] Grassy Terrain
+|-heal|p1b: Rillaboom|44/100 brn|[from] Grassy Terrain
+|-damage|p1b: Rillaboom|39/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1757074417
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|turn|6
+|-message|D10_O1 forfeited.
+|
+|win|Bruthathechosen
+|l|☆D10_O1
+|player|p2|
+||D10_O1 is ready for game 2.
+||Bruthathechosen is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

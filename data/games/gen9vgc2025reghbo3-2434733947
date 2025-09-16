@@ -1,0 +1,200 @@
+|j|☆0pyr0
+|j|☆Voltage Gaming101
+|html|0pyr0Voltage Gaming101    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756944459
+|gametype|doubles
+|player|p1|0pyr0|ryuki|
+|player|p2|Voltage Gaming101|red|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Houndstone, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|showteam|p1|Dragonite||ChoiceBand|InnerFocus|ExtremeSpeed,AerialAce,Outrage,StompingTantrum|||F|||50|,,,,,Normal]Ursaluna-Bloodmoon||AssaultVest|MindsEye|Snarl,HyperVoice,BloodMoon,EarthPower|||M|||50|,,,,,Steel]Gholdengo||FocusSash|GoodasGold|Protect,NastyPlot,MakeItRain,ShadowBall||||||50|,,,,,Steel]Volcarona||SitrusBerry|FlameBody|Tailwind,RagePowder,StruggleBug,HeatWave|||M|||50|,,,,,Fairy]Amoonguss||CovertCloak|Regenerator|Protect,RagePowder,Spore,PollenPuff|||F|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|PartingShot,FakeOut,FlareBlitz,KnockOff|||M|||50|,,,,,Ghost
+|showteam|p2|Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||F|||50|,,,,,Flying]Houndstone||SpellTag|SandRush|LastRespects,ShadowSneak,PlayRough,FireFang|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Garchomp||LoadedDice|RoughSkin|ScaleShot,Earthquake,SwordsDance,Protect|||F|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Water
+|
+|t:|1756944502
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, F, shiny|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|turn|1
+|
+|t:|1756944524
+|switch|p2a: Garchomp|Garchomp, L50, F, shiny|100/100
+|move|p2b: Incineroar|Fake Out|p1a: Ursaluna
+|-damage|p1a: Ursaluna|94/100
+|move|p1b: Incineroar|Fake Out|p2a: Garchomp
+|-damage|p2a: Garchomp|93/100
+|-damage|p1b: Incineroar|88/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|cant|p1a: Ursaluna|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756944567
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1a: Ursaluna|Blood Moon|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Protect
+|move|p2b: Incineroar|Parting Shot|p1a: Ursaluna
+|-unboost|p1a: Ursaluna|atk|1
+|-unboost|p1a: Ursaluna|spa|1
+|
+|t:|1756944577
+|switch|p2b: Tyranitar|Tyranitar, L50, F, shiny|100/100|[from] Parting Shot
+|move|p1b: Incineroar|Parting Shot|p2b: Tyranitar
+|-unboost|p2b: Tyranitar|atk|1
+|-unboost|p2b: Tyranitar|spa|1
+|
+|t:|1756944591
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100|[from] Parting Shot
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756944645
+|-terastallize|p2b: Tyranitar|Flying
+|move|p2a: Garchomp|Swords Dance|p2a: Garchomp
+|-boost|p2a: Garchomp|atk|2
+|move|p1b: Gholdengo|Make It Rain|p2b: Tyranitar|[spread] p2a,p2b
+|-damage|p2a: Garchomp|37/100
+|-damage|p2b: Tyranitar|74/100
+|-unboost|p1b: Gholdengo|spa|1
+|move|p1a: Ursaluna|Hyper Voice|p2a: Garchomp|[spread] p2a,p2b
+|-damage|p2a: Garchomp|7/100
+|-damage|p2b: Tyranitar|60/100
+|move|p2b: Tyranitar|Rock Slide|p1b: Gholdengo|[spread] p1a,p1b
+|-resisted|p1a: Ursaluna
+|-resisted|p1b: Gholdengo
+|-damage|p1a: Ursaluna|87/100
+|-damage|p1b: Gholdengo|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Tyranitar|54/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1756944719
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1b: Gholdengo|Shadow Ball|p2b: Tyranitar
+|-damage|p2b: Tyranitar|39/100
+|-unboost|p2b: Tyranitar|spd|1
+|move|p1a: Ursaluna|Hyper Voice|p2b: Tyranitar|[spread] p2b
+|-activate|p2a: Garchomp|move: Protect
+|-damage|p2b: Tyranitar|16/100
+|move|p2b: Tyranitar|Low Kick|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|40/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Tyranitar|10/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1756944743
+|switch|p1a: Dragonite|Dragonite, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Dragonite|unboost|Attack|[from] ability: Inner Focus|[of] p1a: Dragonite
+|-unboost|p1b: Gholdengo|atk|1
+|move|p1b: Gholdengo|Protect|p1b: Gholdengo
+|-singleturn|p1b: Gholdengo|Protect
+|move|p2a: Garchomp|Earthquake|p1b: Gholdengo|[spread] p2b
+|-activate|p1b: Gholdengo|move: Protect
+|-immune|p1a: Dragonite
+|-supereffective|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|-weather|none
+|upkeep
+|
+|t:|1756944756
+|switch|p2b: Amoonguss|Amoonguss, L50, F, shiny|100/100
+|turn|6
+|
+|t:|1756944784
+|switch|p1a: Incineroar|Incineroar, L50, M|88/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|-unboost|p2b: Amoonguss|atk|1
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1b: Gholdengo|Make It Rain|p2b: Amoonguss|[spread] p2b
+|-activate|p2a: Garchomp|move: Protect
+|-damage|p2b: Amoonguss|74/100
+|-unboost|p1b: Gholdengo|spa|1
+|move|p2b: Amoonguss|Spore|p1a: Incineroar
+|-activate|p1a: Incineroar|item: Safety Goggles|Spore
+|
+|upkeep
+|turn|7
+|
+|t:|1756944840
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100
+|move|p2a: Garchomp|Protect||[still]
+|-fail|p2a: Garchomp
+|move|p1a: Incineroar|Fake Out|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p1a: Incineroar|76/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|faint|p2a: Garchomp
+|move|p2b: Amoonguss|Pollen Puff|p1a: Incineroar
+|-crit|p1a: Incineroar
+|-damage|p1a: Incineroar|57/100
+|
+|upkeep
+|
+|t:|1756944846
+|switch|p2a: Tyranitar|Tyranitar, L50, F, shiny, tera:Flying|10/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|8
+|
+|t:|1756944869
+|move|p1b: Dragonite|Extreme Speed|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|move|p1a: Incineroar|Flare Blitz|p2b: Amoonguss
+|-supereffective|p2b: Amoonguss
+|-damage|p2b: Amoonguss|2/100
+|-enditem|p2b: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2b: Amoonguss|27/100|[from] item: Sitrus Berry
+|-damage|p1a: Incineroar|32/100|[from] Recoil
+|move|p2b: Amoonguss|Pollen Puff|p2: Tyranitar|[notarget]
+|-fail|p2b: Amoonguss
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Dragonite|95/100|[from] Sandstorm
+|-damage|p2b: Amoonguss|21/100|[from] Sandstorm
+|upkeep
+|turn|9
+|-message|Voltage Gaming101 forfeited.
+|
+|win|0pyr0

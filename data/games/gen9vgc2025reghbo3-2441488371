@@ -1,0 +1,116 @@
+|j|â˜†Jorsemon_Go
+|j|â˜†cocacolaindahhouse
+|html|Jorsemon_Gococacolaindahhouse    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757859625
+|gametype|doubles
+|player|p1|Jorsemon_Go|1|
+|player|p2|cocacolaindahhouse|2|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each PokÃ©mon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Tyranitar, L50, M|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||M|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||F|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|showteam|p2|Ursaluna||FlameOrb|Guts|Facade,Protect,HeadlongRush,Earthquake|||M|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,Haze,Tailwind|||M|||50|,,,,,Fairy]Archaludon||AssaultVest|Stamina|FlashCannon,BodyPress,ElectroShot,Snarl|||M|||50|,,,,,Fighting]Sinistcha||SitrusBerry|Hospitality|LifeDew,MatchaGotcha,TrickRoom,RagePowder||||||50|,,,,,Dark]Pelipper||FocusSash|Drizzle|Hurricane,Tailwind,MuddyWater,Protect|||M|||50|,,,,,Ghost]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,Trick,TeraBlast||||||50|,,,,,Water
+|
+|t:|1757859710
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Dragonite|Dragonite, L50, M|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757859756
+|-terastallize|p1a: Sneasler|Dark
+|move|p1a: Sneasler|Throat Chop|p2b: Gholdengo
+|-supereffective|p2b: Gholdengo
+|-damage|p2b: Gholdengo|1/100
+|-start|p2b: Gholdengo|Throat Chop|[silent]
+|move|p1b: Indeedee|Expanding Force|p2a: Dragonite|[spread] p2a,p2b
+|-resisted|p2b: Gholdengo
+|-crit|p2b: Gholdengo
+|-damage|p2a: Dragonite|72/100
+|-damage|p2b: Gholdengo|0 fnt
+|faint|p2b: Gholdengo
+|move|p2a: Dragonite|Scale Shot|p1b: Indeedee
+|-damage|p1b: Indeedee|72/100
+|-damage|p1b: Indeedee|42/100
+|-damage|p1b: Indeedee|11/100
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|-hitcount|p1: Indeedee|4
+|-unboost|p2a: Dragonite|def|1
+|-boost|p2a: Dragonite|spe|1
+|
+|upkeep
+|
+|t:|1757859776
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2b: Sinistcha|Sinistcha, L50|100/100
+|-heal|p2a: Dragonite|97/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|turn|2
+|
+|t:|1757859830
+|move|p2b: Sinistcha|Rage Powder|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|move: Rage Powder
+|move|p1a: Sneasler|Dire Claw|p2b: Sinistcha
+|-damage|p2b: Sinistcha|65/100
+|-status|p2b: Sinistcha|slp
+|move|p2a: Dragonite|Scale Shot|p1a: Sneasler|[miss]
+|-miss|p2a: Dragonite|p1a: Sneasler
+|move|p1b: Ursaluna|Hyper Voice|p2a: Dragonite|[spread] p2a,p2b
+|-crit|p2b: Sinistcha
+|-damage|p2a: Dragonite|38/100
+|-damage|p2b: Sinistcha|0 fnt
+|faint|p2b: Sinistcha
+|-damage|p1b: Ursaluna|91/100|[from] item: Life Orb
+|
+|upkeep
+|c|â˜†cocacolaindahhouse|reg h gonna reg h :( haha
+|
+|t:|1757859848
+|switch|p2b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|3
+|c|â˜†Jorsemon_Go|Sorry man
+|
+|t:|1757859918
+|move|p1a: Sneasler|Throat Chop|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|move|p1b: Ursaluna|Hyper Voice|p2b: Ursaluna
+|-damage|p2b: Ursaluna|28/100
+|-damage|p1b: Ursaluna|81/100|[from] item: Life Orb
+|move|p2b: Ursaluna|Earthquake|p1a: Sneasler|[spread] p1a,p1b
+|-damage|p1a: Sneasler|19/100
+|-damage|p1b: Ursaluna|41/100
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|-message|cocacolaindahhouse forfeited.
+|
+|win|Jorsemon_Go
+|c|â˜†cocacolaindahhouse|gg
+|c|â˜†Jorsemon_Go|Gg
+|l|â˜†cocacolaindahhouse
+|player|p2|

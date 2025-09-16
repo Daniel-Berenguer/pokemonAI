@@ -1,0 +1,154 @@
+|j|☆Kommo-o Gaming1
+|j|☆A Regu1ar Guy
+|html|Kommo-o Gaming1A Regu1ar Guy    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757768282
+|gametype|doubles
+|player|p1|Kommo-o Gaming1|1|1408
+|player|p2|A Regu1ar Guy|elesa|1536
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Magmar, L50, F|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Tauros-Paldea-Aqua, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Dragonite, L50, F|
+|teampreview|4
+|showteam|p1|Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,HyperVoice,EarthPower,VacuumWave|||M|||50|,,,,,Dragon]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Dragonite||LoadedDice|InnerFocus|ScaleShot,ExtremeSpeed,Tailwind,Protect|||M|||50|,,,,,Steel]Annihilape||SafetyGoggles|Defiant|RageFist,DrainPunch,BulkUp,Protect|||M|||50|,,,,,Water]Ninetales-Alola||LightClay|SnowWarning|Blizzard,IcyWind,AuroraVeil,Encore|||F|||50|,,,,,Ghost]Magmar||Eviolite|FlameBody|Overheat,ClearSmog,FollowMe,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Volcarona||GrassySeed|FlameBody|HeatWave,GigaDrain,QuiverDance,Protect|||M|||50|,,,,,Grass]Rillaboom||MiracleSeed|GrassySurge|WoodHammer,GrassyGlide,FakeOut,HighHorsepower|||M|||50|,,,,,Fire]Tauros-Paldea-Aqua||MirrorHerb|Intimidate|WaveCrash,AquaJet,CloseCombat,Protect|||M|||50|,,,,,Water]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||M|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Tailwind,Protect|||F|||50|,,,,,Fairy
+|
+|t:|1757768330
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|switch|p2a: Tauros|Tauros-Paldea-Aqua, L50, M|100/100
+|switch|p2b: Annihilape|Annihilape, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|-ability|p2a: Tauros|Intimidate|boost
+|-unboost|p1a: Ninetales|atk|1
+|-unboost|p1b: Annihilape|atk|1
+|-ability|p1b: Annihilape|Defiant|boost
+|-boost|p1b: Annihilape|atk|2
+|-enditem|p2a: Tauros|Mirror Herb
+|-boost|p2a: Tauros|atk|2|[from] item: Mirror Herb
+|turn|1
+|
+|t:|1757768354
+|switch|p2b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|move|p1b: Annihilape|Protect|p1b: Annihilape
+|-singleturn|p1b: Annihilape|Protect
+|move|p1a: Ninetales|Aurora Veil||[still]
+|-fail|p1a: Ninetales
+|move|p2a: Tauros|Wave Crash|p1b: Annihilape
+|-activate|p1b: Annihilape|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninetales|95/100|[from] Sandstorm
+|-damage|p2a: Tauros|95/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1757768376
+|-terastallize|p1b: Annihilape|Water
+|-terastallize|p2b: Tyranitar|Flying
+|move|p1a: Ninetales|Icy Wind|p2a: Tauros|[spread] p2a,p2b
+|-resisted|p2a: Tauros
+|-supereffective|p2b: Tyranitar
+|-damage|p2a: Tauros|85/100
+|-damage|p2b: Tyranitar|82/100
+|-unboost|p2a: Tauros|spe|1
+|-unboost|p2b: Tyranitar|spe|1
+|move|p1b: Annihilape|Rage Fist|p2a: Tauros
+|-damage|p2a: Tauros|47/100
+|move|p2a: Tauros|Close Combat|p1b: Annihilape
+|-damage|p1b: Annihilape|0 fnt
+|-unboost|p2a: Tauros|def|1
+|-unboost|p2a: Tauros|spd|1
+|faint|p1b: Annihilape
+|move|p2b: Tyranitar|Rock Slide|p1a: Ninetales|[miss]
+|-miss|p2b: Tyranitar|p1a: Ninetales
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ninetales|89/100|[from] Sandstorm
+|-damage|p2a: Tauros|41/100|[from] Sandstorm
+|-damage|p2b: Tyranitar|76/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757768385
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|turn|3
+|
+|t:|1757768392
+|switch|p1a: Magmar|Magmar, L50, F|100/100
+|move|p1b: Dragonite|Scale Shot|p2b: Tyranitar
+|-damage|p2b: Tyranitar|64/100
+|-damage|p2b: Tyranitar|52/100
+|-damage|p2b: Tyranitar|40/100
+|-damage|p2b: Tyranitar|28/100
+|-hitcount|p2b: Tyranitar|4
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|move|p2a: Tauros|Wave Crash|p1b: Dragonite
+|-resisted|p1b: Dragonite
+|-damage|p1b: Dragonite|10/100
+|-damage|p2a: Tauros|9/100|[from] Recoil
+|move|p2b: Tyranitar|Rock Slide|p1a: Magmar|[spread] p1a,p1b
+|-supereffective|p1a: Magmar
+|-supereffective|p1b: Dragonite
+|-damage|p1a: Magmar|54/100
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1b: Dragonite
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Magmar|48/100|[from] Sandstorm
+|-damage|p2a: Tauros|3/100|[from] Sandstorm
+|-damage|p2b: Tyranitar|22/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757768401
+|switch|p1b: Ninetales|Ninetales-Alola, L50, F|89/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|turn|4
+|
+|t:|1757768408
+|switch|p2b: Annihilape|Annihilape, L50, M|100/100
+|move|p2a: Tauros|Aqua Jet|p1a: Magmar
+|-supereffective|p1a: Magmar
+|-damage|p1a: Magmar|0 fnt
+|-status|p2a: Tauros|brn|[from] ability: Flame Body|[of] p1a: Magmar
+|faint|p1a: Magmar
+|move|p1b: Ninetales|Blizzard|p2a: Tauros|[spread] p2a,p2b
+|-resisted|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|-damage|p2b: Annihilape|78/100
+|faint|p2a: Tauros
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1757768413
+|switch|p2a: Tyranitar|Tyranitar, L50, M, tera:Flying|22/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|5
+|-message|Kommo-o Gaming1 forfeited.
+|
+|win|A Regu1ar Guy
+||Kommo-o Gaming1 is ready for game 3.
+||A Regu1ar Guy is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆A Regu1ar Guy
+|player|p2|

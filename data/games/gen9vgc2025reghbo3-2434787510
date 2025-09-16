@@ -1,0 +1,210 @@
+|j|☆myshirtisdirty
+|j|☆I am the Sweeper
+|html|myshirtisdirtyI am the Sweeper    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756950978
+|gametype|doubles
+|player|p1|myshirtisdirty|1|1083
+|player|p2|I am the Sweeper|janitor|1064
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Gastrodon, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Maushold-Four, L50|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|Protect,CloseCombat,DireClaw,RockSlide|||F|||50|,,,,,Grass]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||F|||50|,,,,,Ghost]Ninetales-Alola||NeverMeltIce|SnowWarning|AuroraVeil,FreezeDry,Blizzard,Protect|||M|||50|,,,,,Fire]Garchomp||LifeOrb|RoughSkin|DragonClaw,ShadowClaw,StompingTantrum,Protect|||F|||50|,,,,,Fairy]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,DazzlingGleam,Protect|||M|||50|,,,,,Fairy]Gastrodon||Leftovers|StormDrain|ClearSmog,EarthPower,MuddyWater,Protect|||M|||50|,,,,,Fire
+|showteam|p2|Annihilape||Leftovers|Defiant|RageFist,DrainPunch,BulkUp,Protect|||F|||50|,,,,,Fire]Archaludon||AssaultVest|Stamina|ElectroShot,DragonPulse,Snarl,BodyPress|||F|||50|,,,,,Bug]Pelipper||LifeOrb|Drizzle|Tailwind,Hurricane,WeatherBall,Protect|||M|||50|,,,,,Stellar]Maushold-Four||SafetyGoggles|FriendGuard|SuperFang,FollowMe,BeatUp,Protect||||||50|,,,,,Ghost]Sinistcha||SitrusBerry|Hospitality|LifeDew,TrickRoom,StrengthSap,MatchaGotcha||||||50|,,,,,Water]Grimmsnarl||LightClay|Prankster|ThunderWave,LightScreen,Reflect,SpiritBreak|||M|||50|,,,,,Ghost
+|
+|t:|1756951003
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M, shiny|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|1
+|
+|t:|1756951037
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: I am the Sweeper|move: Light Screen
+|move|p1a: Ninetales|Freeze-Dry|p2b: Pelipper
+|-supereffective|p2b: Pelipper
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|move|p1b: Indeedee|Dazzling Gleam|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|74/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756951047
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|turn|2
+|
+|t:|1756951058
+|switch|p1a: Garchomp|Garchomp, L50, F|100/100
+|move|p1b: Indeedee|Dazzling Gleam|p2a: Grimmsnarl|[spread] p2a,p2b
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|54/100
+|-damage|p2b: Archaludon|93/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2b: Archaludon|Snarl|p1b: Indeedee|[spread] p1a,p1b
+|-supereffective|p1b: Indeedee
+|-damage|p1a: Garchomp|87/100
+|-damage|p1b: Indeedee|65/100
+|-unboost|p1a: Garchomp|spa|1
+|-unboost|p1b: Indeedee|spa|1
+|move|p2a: Grimmsnarl|Spirit Break|p1b: Indeedee
+|-damage|p1b: Indeedee|3/100
+|-unboost|p1b: Indeedee|spa|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1756951088
+|-terastallize|p2b: Archaludon|Bug
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: I am the Sweeper|Reflect
+|move|p1b: Indeedee|Dazzling Gleam|p2b: Archaludon|[spread] p2a,p2b
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|43/100
+|-damage|p2b: Archaludon|89/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Garchomp
+|-activate|p1a: Garchomp|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1756951130
+|move|p1a: Garchomp|Stomping Tantrum|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|9/100
+|-damage|p1a: Garchomp|77/100|[from] item: Life Orb
+|move|p1b: Indeedee|Dazzling Gleam|p2a: Grimmsnarl|[spread] p2a,p2b
+|-supereffective|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-damage|p2b: Archaludon|85/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|faint|p2a: Grimmsnarl
+|move|p2b: Archaludon|Body Press|p1a: Garchomp
+|-damage|p1a: Garchomp|19/100
+|-damage|p2b: Archaludon|73/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1756951146
+|switch|p2a: Sinistcha|Sinistcha, L50|100/100
+|-heal|p2b: Archaludon|98/100|[from] ability: Hospitality|[of] p2a: Sinistcha
+|turn|5
+|
+|t:|1756951162
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p1b: Indeedee|Protect|p1b: Indeedee
+|-singleturn|p1b: Indeedee|Protect
+|move|p2b: Archaludon|Snarl|p1a: Garchomp|[spread] 
+|-activate|p1a: Garchomp|move: Protect
+|-activate|p1b: Indeedee|move: Protect
+|move|p2a: Sinistcha|Trick Room|p2a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2a: Sinistcha
+|
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1756951196
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Garchomp|[spread] p1a,p1b
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1a: Garchomp
+|faint|p1b: Indeedee
+|move|p2b: Archaludon|Snarl|p1: Garchomp|[notarget]
+|-fail|p2b: Archaludon
+|
+|upkeep
+|
+|t:|1756951214
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|turn|7
+|
+|t:|1756951250
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Sneasler|[spread] p1a,p1b
+|-resisted|p1a: Sneasler
+|-damage|p1a: Sneasler|85/100
+|-damage|p1b: Ninetales|74/100
+|-status|p1b: Ninetales|brn
+|move|p2b: Archaludon|Dragon Pulse|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|move|p1b: Ninetales|Blizzard|p2b: Archaludon|[spread] p2a,p2b
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|56/100
+|-damage|p2b: Archaludon|81/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1b: Ninetales|68/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1756951286
+|move|p1b: Ninetales|Protect|p1b: Ninetales
+|-singleturn|p1b: Ninetales|Protect
+|move|p2a: Sinistcha|Life Dew|p2a: Sinistcha|[spread] p2a,p2b
+|-heal|p2a: Sinistcha|81/100
+|-heal|p2b: Archaludon|100/100
+|move|p2b: Archaludon|Body Press|p1b: Ninetales
+|-activate|p1b: Ninetales|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1b: Ninetales|62/100 brn|[from] brn
+|-sideend|p2: I am the Sweeper|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1756951328
+|move|p2a: Sinistcha|Life Dew||[still]|[spread] p2a,p2b
+|-heal|p2a: Sinistcha|100/100
+|-fail|p2b: Archaludon|heal
+|move|p2b: Archaludon|Body Press|p1b: Ninetales
+|-damage|p1b: Ninetales|0 fnt
+|faint|p1b: Ninetales
+|
+|win|I am the Sweeper
+|raw|myshirtisdirty's rating: 1083 → 1059(-24 for losing)
+|raw|I am the Sweeper's rating: 1064 → 1096(+32 for winning)
+|l|☆myshirtisdirty
+|player|p1|

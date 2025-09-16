@@ -1,0 +1,128 @@
+|j|☆pistachio jeff
+|j|☆k8mck
+|html|pistachio jeffk8mck    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1757907144
+|gametype|doubles
+|player|p1|pistachio jeff|1|1000
+|player|p2|k8mck|101|1022
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Ceruledge, L50, M|
+|poke|p1|Ditto, L50|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Murkrow, L50, F|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Indeedee, L50, M|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Facade,CloseCombat,HeadlongRush,Protect|||M|||50|,,,,,Ground]Amoonguss||RockyHelmet|Regenerator|Spore,SludgeBomb,RagePowder,PollenPuff|||F|||50|,,,,,Grass]Farigiraf||SafetyGoggles|ArmorTail|TrickRoom,CalmMind,ExpandingForce,HyperVoice|||M|||50|,,,,,Normal]Indeedee-F||SitrusBerry|PsychicSurge|FollowMe,HelpingHand,DazzlingGleam,Psychic|||F|||50|,,,,,Psychic]Ceruledge||FocusSash|FlashFire|DestinyBond,BitterBlade,Poltergeist,SwordsDance|||M|||50|,,,,,Fire]Ditto||ChoiceScarf|Imposter|Transform||||||50|,,,,,Normal
+|showteam|p2|Sneasler||PsychicSeed|Unburden|Protect,Taunt,DireClaw,CloseCombat|||F|||50|,,,,,Dark]Typhlosion-Hisui||ChoiceScarf|Blaze|Eruption,ShadowBall,HeatWave,Flamethrower|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,Protect,HeadlongRush,Earthquake|||F|||50|,,,,,Water]Murkrow||Eviolite|Prankster|Tailwind,FoulPlay,Haze,SunnyDay|||F|||50|,,,,,Steel]Volcarona||SitrusBerry|FlameBody|TeraBlast,RagePowder,Protect,FieryDance|||M|||50|,,,,,Fairy]Indeedee||FocusSash|PsychicSurge|Imprison,DazzlingGleam,TrickRoom,ExpandingForce|||M|||50|,,,,,Fairy
+|
+|t:|1757907183
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ditto|Ditto, L50|100/100
+|switch|p1b: Ceruledge|Ceruledge, L50, M|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|-transform|p1a: Ditto|p2b: Indeedee|[from] ability: Imposter
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by k8mck)
+|
+|t:|1757907257
+|-terastallize|p2a: Sneasler|Dark
+|move|p2a: Sneasler|Dire Claw|p1a: Ditto
+|-damage|p1a: Ditto|19/100
+|-status|p1a: Ditto|psn
+|move|p1a: Ditto|Imprison|p1a: Ditto
+|-start|p1a: Ditto|move: Imprison
+|move|p1b: Ceruledge|Swords Dance|p1b: Ceruledge
+|-boost|p1b: Ceruledge|atk|2
+|cant|p2b: Indeedee|move: Imprison|Expanding Force
+|
+|-damage|p1a: Ditto|7/100 psn|[from] psn
+|upkeep
+|turn|2
+|inactive|pistachio jeff has 30 seconds left.
+|inactive|k8mck has 30 seconds left.
+|inactive|k8mck has 20 seconds left.
+|
+|t:|1757907294
+|switch|p2b: Murkrow|Murkrow, L50, F|100/100
+|-terastallize|p1b: Ceruledge|Fire
+|move|p2a: Sneasler|Dire Claw|p1b: Ceruledge
+|-damage|p1b: Ceruledge|34/100
+|-status|p1b: Ceruledge|slp
+|move|p1a: Ditto|Imprison||[still]
+|-fail|p1a: Ditto
+|cant|p1b: Ceruledge|slp
+|
+|-damage|p1a: Ditto|0 fnt|[from] psn
+|faint|p1a: Ditto
+|upkeep
+|
+|t:|1757907306
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|turn|3
+|
+|t:|1757907323
+|move|p2a: Sneasler|Dire Claw|p1b: Ceruledge
+|-damage|p1b: Ceruledge|0 fnt
+|faint|p1b: Ceruledge
+|move|p2b: Murkrow|Foul Play|p1a: Ursaluna
+|-damage|p1a: Ursaluna|60/100
+|move|p1a: Ursaluna|Close Combat|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|-unboost|p1a: Ursaluna|def|1
+|-unboost|p1a: Ursaluna|spd|1
+|faint|p2a: Sneasler
+|
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|inactive|pistachio jeff has 30 seconds left.
+|
+|t:|1757907351
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|turn|4
+|
+|t:|1757907367
+|move|p1b: Indeedee|Helping Hand|p1a: Ursaluna
+|-singleturn|p1a: Ursaluna|Helping Hand|[of] p1b: Indeedee
+|move|p2a: Indeedee|Expanding Force|p1a: Ursaluna|[spread] p1a,p1b
+|-resisted|p1b: Indeedee
+|-damage|p1a: Ursaluna|0 fnt
+|-damage|p1b: Indeedee|77/100
+|faint|p1a: Ursaluna
+|move|p2b: Murkrow|Foul Play|p1b: Indeedee
+|-supereffective|p1b: Indeedee
+|-damage|p1b: Indeedee|42/100
+|-enditem|p1b: Indeedee|Sitrus Berry|[eat]
+|-heal|p1b: Indeedee|67/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|5
+|c|☆pistachio jeff|gg
+|c|☆k8mck|gg
+|-message|pistachio jeff forfeited.
+|
+|win|k8mck
+|raw|pistachio jeff's rating: 1000 → 1000(+0 for losing)
+|raw|k8mck's rating: 1022 → 1056(+34 for winning)
+|l|☆pistachio jeff
+|player|p1|

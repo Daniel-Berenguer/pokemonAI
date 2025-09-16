@@ -1,0 +1,164 @@
+|j|☆ChaosEV
+|j|☆fzntmk
+|html|ChaosEVfzntmk    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757909321
+|gametype|doubles
+|player|p1|ChaosEV|lucas-gen4pt|1000
+|player|p2|fzntmk|policeman|1061
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Leafeon, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Maushold, L50|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Amoonguss, L50, M|
+|teampreview|4
+|showteam|p1|Leafeon||MiracleSeed|Chlorophyll|LeafBlade,Detect,KnockOff,SwordsDance|||M|||50|,,,,,Fire]Torkoal||Charcoal|Drought|EarthPower,HeatWave,Protect,Eruption|||M|||50|,,,,,Fire]Grimmsnarl||LightClay|Prankster|ThunderWave,SpiritBreak,Reflect,LightScreen|||M|||50|,,,,,Dark]Dragapult||ChoiceBand|ClearBody|TeraBlast,PhantomForce,Uturn,DragonDarts|||F|||50|,,,,,Dragon]Basculegion||ChoiceScarf|Adaptability|WaveCrash,TeraBlast,FlipTurn,LastRespects|||M|||50|,,,,,Fighting]Maushold||SafetyGoggles|FriendGuard|Taunt,Protect,FollowMe,SuperFang||||||50|,,,,,Ghost
+|showteam|p2|Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,RainDance|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|FlashCannon,DracoMeteor,ElectroShot,BodyPress|||M|||50|,,,,,Fighting]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,LastRespects,FlipTurn,AquaJet|||M|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Flying]Incineroar||SafetyGoggles|Intimidate|FlareBlitz,KnockOff,PartingShot,FakeOut|||F|||50|,,,,,Water]Amoonguss||SitrusBerry|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Dark
+|
+|t:|1757909393
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Maushold|Maushold, L50|100/100
+|switch|p1b: Leafeon|Leafeon, L50, M|100/100
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1757909439
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|move|p1b: Leafeon|Detect|p1b: Leafeon
+|-singleturn|p1b: Leafeon|Protect
+|move|p1a: Maushold|Taunt|p2b: Basculegion
+|-start|p2b: Basculegion|move: Taunt
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: fzntmk|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757909477
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p1b: Leafeon|Leaf Blade|p2b: Basculegion
+|-supereffective|p2b: Basculegion
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|move|p2a: Pelipper|Hurricane|p1b: Leafeon|[miss]
+|-miss|p2a: Pelipper|p1b: Leafeon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757909497
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|turn|3
+|
+|t:|1757909519
+|switch|p1b: Dragapult|Dragapult, L50, F|100/100
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2a: Pelipper|Rain Dance|p2a: Pelipper
+|-weather|RainDance
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1757909564
+|switch|p1a: Maushold|Maushold, L50|100/100
+|move|p2a: Pelipper|Hurricane|p1b: Dragapult
+|-damage|p1b: Dragapult|45/100
+|-start|p1b: Dragapult|confusion
+|move|p2b: Gholdengo|Shadow Ball|p1b: Dragapult
+|-supereffective|p1b: Dragapult
+|-damage|p1b: Dragapult|0 fnt
+|faint|p1b: Dragapult
+|-damage|p2b: Gholdengo|91/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: fzntmk|move: Tailwind
+|upkeep
+|
+|t:|1757909576
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|5
+|
+|t:|1757909599
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1a: Maushold|Follow Me|p1a: Maushold
+|-singleturn|p1a: Maushold|move: Follow Me
+|move|p2a: Pelipper|Weather Ball|p1a: Maushold
+|-damage|p1a: Maushold|30/100
+|move|p1b: Torkoal|Eruption|p2a: Pelipper|[spread] p2a
+|-activate|p2b: Gholdengo|move: Protect
+|-resisted|p2a: Pelipper
+|-damage|p2a: Pelipper|41/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1757909655
+|move|p1a: Maushold|Protect|p1a: Maushold
+|-singleturn|p1a: Maushold|Protect
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: fzntmk|move: Tailwind
+|move|p2b: Gholdengo|Shadow Ball|p1b: Torkoal
+|-crit|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|-damage|p2b: Gholdengo|81/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757909665
+|switch|p1b: Leafeon|Leafeon, L50, M|100/100
+|turn|7
+|
+|t:|1757909680
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1b: Leafeon|Knock Off|p2b: Gholdengo
+|-activate|p2b: Gholdengo|move: Protect
+|move|p2a: Pelipper|Hurricane|p1b: Leafeon
+|-supereffective|p1b: Leafeon
+|-damage|p1b: Leafeon|0 fnt
+|faint|p1b: Leafeon
+|move|p1a: Maushold|Super Fang|p2a: Pelipper
+|-damage|p2a: Pelipper|21/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|-message|ChaosEV forfeited.
+|
+|win|fzntmk
+|raw|ChaosEV's rating: 1000 → 1000(+0 for losing)
+|raw|fzntmk's rating: 1061 → 1086(+25 for winning)
+|l|☆ChaosEV
+|player|p1|
+|l|☆fzntmk
+|player|p2|
+|j|☆ChaosEV
+|player|p1|ChaosEV|lucas-gen4pt|

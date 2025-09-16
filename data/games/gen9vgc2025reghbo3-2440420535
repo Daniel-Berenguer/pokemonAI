@@ -1,0 +1,131 @@
+|j|☆subert
+|j|☆Gotissues
+|html|subertGotissues    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757703028
+|gametype|doubles
+|player|p1|subert|2|1047
+|player|p2|Gotissues|hiker-gen4|1007
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Armarouge, L50, F|
+|poke|p1|Luvdisc, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Clefairy, L50, M|
+|poke|p2|Annihilape, L50, F|
+|teampreview|4
+|showteam|p1|Hatterene||Leftovers|MagicBounce|DazzlingGleam,TrickRoom,ExpandingForce,Protect|||F|||50|,,,,,Psychic]Indeedee-F||MentalHerb|PsychicSurge|FollowMe,HelpingHand,TrickRoom,Protect|||F|||50|,,,,,Psychic]Armarouge||WeaknessPolicy|WeakArmor|ArmorCannon,ExpandingForce,ScorchingSands,Protect|||F|||50|,,,,,Fairy]Luvdisc||FocusSash|SwiftSwim|FlipTurn,IcyWind,Endeavor,Protect|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Earthquake,Facade,ShadowClaw,Protect|||F|||50|,,,,,Ghost]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,RockSlide,Protect|||F|||50|,,,,,Rock
+|showteam|p2|Whimsicott||CovertCloak|Prankster|DazzlingGleam,Tailwind,BeatUp,SunnyDay|||M|||50|,,,,,Dark]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,HeatWave,ShadowBall,SolarBeam|||M|||50|,,,,,Fire]Farigiraf||ThroatSpray|ArmorTail|HyperVoice,DazzlingGleam,TrickRoom,Protect|||M|||50|,,,,,Dragon]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,Protect,EarthPower|||M|||50|,,,,,Normal]Clefairy||Eviolite|FriendGuard|FollowMe,Protect,AfterYou,HelpingHand|||M|||50|,,,,,Fairy]Annihilape||AssaultVest|Defiant|RageFist,CloseCombat,DrainPunch,FinalGambit|||F|||50|,,,,,Fire
+|
+|t:|1757703057
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M, shiny|100/100
+|switch|p2b: Annihilape|Annihilape, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757703096
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: Gotissues|move: Tailwind
+|move|p1b: Sneasler|Dire Claw|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|move|p2b: Annihilape|Drain Punch|p1b: Sneasler
+|-resisted|p1b: Sneasler
+|-damage|p1b: Sneasler|67/100
+|move|p1a: Indeedee|Trick Room|p1a: Indeedee
+|-fieldstart|move: Trick Room|[of] p1a: Indeedee
+|
+|upkeep
+|
+|t:|1757703110
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|turn|2
+|
+|t:|1757703120
+|switch|p2b: Clefairy|Clefairy, L50, M|100/100
+|-terastallize|p2a: Typhlosion|Fire
+|move|p1a: Indeedee|Follow Me|p1a: Indeedee
+|-singleturn|p1a: Indeedee|move: Follow Me
+|move|p2a: Typhlosion|Eruption|p1a: Indeedee|[spread] p1a,p1b
+|-crit|p1b: Sneasler
+|-damage|p1a: Indeedee|0 fnt
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1a: Indeedee
+|faint|p1b: Sneasler
+|
+|upkeep
+|
+|t:|1757703130
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|switch|p1b: Ursaluna|Ursaluna, L50, F|100/100
+|turn|3
+|
+|t:|1757703143
+|move|p1a: Hatterene|Expanding Force|p2b: Clefairy|[spread] p2a,p2b
+|-damage|p2a: Typhlosion|37/100
+|-damage|p2b: Clefairy|63/100
+|move|p1b: Ursaluna|Facade|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|move|p2b: Clefairy|After You|p2: Typhlosion|[notarget]
+|-fail|p2b: Clefairy
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757703155
+|switch|p2a: Annihilape|Annihilape, L50, F|100/100
+|turn|4
+|
+|t:|1757703166
+|move|p2b: Clefairy|Follow Me|p2b: Clefairy
+|-singleturn|p2b: Clefairy|move: Follow Me
+|move|p1a: Hatterene|Expanding Force|p2b: Clefairy|[spread] p2a,p2b
+|-supereffective|p2a: Annihilape
+|-damage|p2a: Annihilape|46/100
+|-damage|p2b: Clefairy|23/100
+|move|p1b: Ursaluna|Shadow Claw|p2b: Clefairy
+|-damage|p2b: Clefairy|0 fnt
+|faint|p2b: Clefairy
+|move|p2a: Annihilape|Rage Fist|p1a: Hatterene
+|-supereffective|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|
+|-damage|p1b: Ursaluna|95/100 brn|[from] brn
+|-sideend|p2: Gotissues|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1757703192
+|-terastallize|p1b: Ursaluna|Ghost
+|move|p1b: Ursaluna|Shadow Claw|p2a: Annihilape
+|-supereffective|p2a: Annihilape
+|-damage|p2a: Annihilape|0 fnt
+|faint|p2a: Annihilape
+|
+|win|subert
+|inactive|subert has 30 seconds to confirm battle start!
+|inactive|Gotissues has 30 seconds to confirm battle start!
+||subert is ready for game 2.
+||Gotissues is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

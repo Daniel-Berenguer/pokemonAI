@@ -1,0 +1,152 @@
+|j|☆WowieKazowee
+|j|☆megaLohgockex
+|html|WowieKazoweemegaLohgockex    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757157188
+|gametype|doubles
+|player|p1|WowieKazowee|idol|1088
+|player|p2|megaLohgockex|266|1208
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Ditto, L50|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Amoonguss, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Kingambit, L50, F|
+|teampreview|4
+|showteam|p1|Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,RainDance,WideGuard|||F|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,FlashCannon,BodyPress|||F|||50|,,,,,Grass]Basculegion||MysticWater|SwiftSwim|WaveCrash,LastRespects,AquaJet,Protect|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,SwordsDance,Protect|||M|||50|,,,,,Ghost]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,NastyPlot,TrickRoom,RagePowder||||||50|,,,,,Water]Ditto||ChoiceScarf|Imposter|Transform||||||50|,,,,,Fairy
+|showteam|p2|Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|||F|||50|,,,,,Stellar]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,FlipTurn,AquaJet,LastRespects|||M|||50|,,,,,Water]Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,FlashCannon,BodyPress|||F|||50|,,,,,Grass]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Psychic]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,Taunt,PartingShot|||F|||50|,,,,,Ghost]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Dark
+|
+|t:|1757157218
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Kingambit|Kingambit, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Pelipper|atk|1
+|-unboost|p1b: Archaludon|atk|1
+|turn|1
+|
+|t:|1757157235
+|-terastallize|p2b: Kingambit|Dark
+|move|p2a: Incineroar|Fake Out|p1a: Pelipper
+|-damage|p1a: Pelipper|90/100
+|move|p1b: Archaludon|Body Press|p2b: Kingambit
+|-supereffective|p2b: Kingambit
+|-damage|p2b: Kingambit|65/100
+|cant|p1a: Pelipper|flinch
+|move|p2b: Kingambit|Swords Dance|p2b: Kingambit
+|-boost|p2b: Kingambit|atk|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757157247
+|move|p2b: Kingambit|Protect|p2b: Kingambit
+|-singleturn|p2b: Kingambit|Protect
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2b: Kingambit
+|-activate|p2b: Kingambit|move: Protect
+|move|p1a: Pelipper|Weather Ball|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|5/100
+|move|p2a: Incineroar|Parting Shot|p1b: Archaludon
+|-unboost|p1b: Archaludon|atk|1
+|-unboost|p1b: Archaludon|spa|1
+|
+|t:|1757157261
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100|[from] Parting Shot
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757157273
+|switch|p1a: Ditto|Ditto, L50|100/100
+|-transform|p1a: Ditto|p2b: Kingambit|[from] ability: Imposter
+|move|p2b: Kingambit|Sucker Punch|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|faint|p1b: Archaludon
+|move|p2a: Basculegion|Wave Crash|p1a: Ditto
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|-damage|p2a: Basculegion|74/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757157285
+|switch|p1a: Pelipper|Pelipper, L50, F|90/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|turn|4
+|
+|t:|1757157301
+|switch|p2a: Incineroar|Incineroar, L50, F|5/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Pelipper|atk|1
+|-unboost|p1b: Basculegion|atk|1
+|-terastallize|p1b: Basculegion|Water
+|move|p2b: Kingambit|Protect|p2b: Kingambit
+|-singleturn|p2b: Kingambit|Protect
+|move|p1b: Basculegion|Last Respects|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|move|p1a: Pelipper|Hurricane|p2b: Kingambit
+|-activate|p2b: Kingambit|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757157309
+|switch|p2a: Amoonguss|Amoonguss, L50, F|100/100
+|turn|5
+|
+|t:|1757157323
+|move|p2a: Amoonguss|Rage Powder|p2a: Amoonguss
+|-singleturn|p2a: Amoonguss|move: Rage Powder
+|move|p1b: Basculegion|Wave Crash|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|64/100
+|-damage|p1b: Basculegion|87/100|[from] Recoil
+|move|p1a: Pelipper|Hurricane|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|0 fnt
+|faint|p2a: Amoonguss
+|move|p2b: Kingambit|Kowtow Cleave|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|-weather|none
+|upkeep
+|
+|t:|1757157328
+|switch|p2a: Basculegion|Basculegion, L50, M|74/100
+|turn|6
+|
+|t:|1757157339
+|move|p2b: Kingambit|Sucker Punch|p1b: Basculegion
+|-damage|p1b: Basculegion|0 fnt
+|faint|p1b: Basculegion
+|
+|win|megaLohgockex
+|raw|WowieKazowee's rating: 1088 → 1073(-15 for losing)
+|raw|megaLohgockex's rating: 1208 → 1225(+17 for winning)

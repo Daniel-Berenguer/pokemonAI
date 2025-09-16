@@ -1,0 +1,168 @@
+|j|☆PugBurro
+|j|☆nyakugan
+|html|PugBurronyakugan    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756922019
+|gametype|doubles
+|player|p1|PugBurro|red|
+|player|p2|nyakugan|psychic|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Maushold, L50|
+|poke|p2|Dragapult, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Kingambit, L50, M|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,FlashCannon,BodyPress|||F|||50|,,,,,Fairy]Pelipper||CovertCloak|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Steel]Basculegion||MysticWater|SwiftSwim|WaveCrash,LastRespects,AquaJet,Protect|||M|||50|,,,,,Grass]Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,FakeOut,Protect|||F|||50|,,,,,Stellar]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,ClearSmog|||M|||50|,,,,,Water]Maushold||WideLens|Technician|PopulationBomb,FollowMe,Taunt,Protect||||||50|,,,,,Ghost
+|showteam|p2|Dragapult||ChoiceBand|ClearBody|DragonDarts,Outrage,PhantomForce,Uturn|||M|||50|,,,,,Dragon]Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,Coaching,Protect|||M|||50|,,,,,Stellar]Volcarona||GrassySeed|FlameBody|FieryDance,TeraBlast,QuiverDance,Protect|||F|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|KnockOff,FakeOut,Taunt,PartingShot|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,Uturn,FakeOut|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark
+|
+|t:|1756922040
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, M, shiny|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F, shiny|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1756922073
+|move|p2b: Kingambit|Protect|p2b: Kingambit
+|-singleturn|p2b: Kingambit|Protect
+|move|p1b: Sneasler|Fake Out|p2a: Rillaboom
+|-damage|p2a: Rillaboom|86/100
+|cant|p2a: Rillaboom|flinch
+|move|p1a: Amoonguss|Spore|p2b: Kingambit
+|-activate|p2b: Kingambit|move: Protect
+|
+|-heal|p2a: Rillaboom|92/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756922118
+|-terastallize|p1b: Sneasler|Stellar
+|-terastallize|p2b: Kingambit|Dark
+|move|p1b: Sneasler|Dire Claw|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|move|p2b: Kingambit|Kowtow Cleave|p1a: Amoonguss
+|-damage|p1a: Amoonguss|36/100
+|-enditem|p1a: Amoonguss|Sitrus Berry|[eat]
+|-heal|p1a: Amoonguss|61/100|[from] item: Sitrus Berry
+|move|p1a: Amoonguss|Spore|p2b: Kingambit
+|-status|p2b: Kingambit|slp|[from] move: Spore
+|
+|-heal|p1a: Amoonguss|67/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756922136
+|switch|p2a: Dragapult|Dragapult, L50, M, shiny|100/100
+|turn|3
+|
+|t:|1756922158
+|switch|p2b: Sneasler|Sneasler, L50, M, shiny|100/100
+|move|p1b: Sneasler|Protect|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Protect
+|move|p2a: Dragapult|Outrage|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|upkeep
+|
+|t:|1756922173
+|switch|p1a: Pelipper|Pelipper, L50, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|4
+|
+|t:|1756922200
+|switch|p1b: Archaludon|Archaludon, L50, F, shiny|100/100
+|move|p2a: Dragapult|Outrage|p1b: Archaludon|[from] lockedmove
+|-crit|p1b: Archaludon
+|-damage|p1b: Archaludon|2/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|-start|p2a: Dragapult|confusion|[fatigue]
+|move|p2b: Sneasler|Dire Claw|p1b: Archaludon
+|-immune|p1b: Archaludon
+|move|p1a: Pelipper|Tailwind|p1a: Pelipper
+|-sidestart|p1: PugBurro|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Archaludon|8/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756922269
+|move|p1b: Archaludon|Draco Meteor|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-unboost|p1b: Archaludon|spa|2
+|faint|p2a: Dragapult
+|move|p1a: Pelipper|Hurricane|p2b: Sneasler
+|-supereffective|p2b: Sneasler
+|-enditem|p2b: Sneasler|Focus Sash
+|-damage|p2b: Sneasler|1/100
+|move|p2b: Sneasler|Close Combat|p1b: Archaludon
+|-supereffective|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1b: Archaludon
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Sneasler|7/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756922285
+|switch|p2a: Kingambit|Kingambit, L50, M, tera:Dark|100/100 slp
+|switch|p1b: Sneasler|Sneasler, L50, F, shiny, tera:Stellar|100/100
+|turn|6
+|
+|t:|1756922325
+|cant|p2a: Kingambit|slp
+|move|p2b: Sneasler|Dire Claw|p1b: Sneasler
+|-resisted|p1b: Sneasler
+|-damage|p1b: Sneasler|68/100
+|-status|p1b: Sneasler|par
+|move|p1a: Pelipper|Hurricane|p2a: Kingambit
+|-damage|p2a: Kingambit|55/100 slp
+|-start|p2a: Kingambit|confusion
+|move|p1b: Sneasler|Close Combat|p2a: Kingambit
+|-supereffective|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|faint|p2a: Kingambit
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1756922343
+|move|p2b: Sneasler|Dire Claw|p1a: Pelipper
+|-damage|p1a: Pelipper|50/100
+|move|p1a: Pelipper|Hurricane|p2b: Sneasler
+|-supereffective|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|win|PugBurro
+||PugBurro is ready for game 3.
+||nyakugan is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆PugBurro
+|player|p1|

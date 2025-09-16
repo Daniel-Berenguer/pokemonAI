@@ -1,0 +1,102 @@
+|j|☆Jorsemon_Go
+|j|☆Juanan151
+|html|Jorsemon_GoJuanan151    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757928928
+|gametype|doubles
+|player|p1|Jorsemon_Go|169|1032
+|player|p2|Juanan151|1|1108
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Corviknight, L50, F|
+|poke|p2|Annihilape, L50, F|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||M|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|showteam|p2|Excadrill||FocusSash|SandRush|IronHead,HighHorsepower,Earthquake,Protect|||F|||50|,,,,,Stellar]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Protect,Trick|||M|||50|,,,,,Psychic]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Roost,Tailwind|||F|||50|,,,,,Flying]Annihilape||SafetyGoggles|Defiant|RageFist,FinalGambit,CloseCombat,Taunt|||F|||50|,,,,,Fighting
+|
+|t:|1757928970
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Annihilape|Annihilape, L50, F|100/100
+|switch|p2b: Corviknight|Corviknight, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757929008
+|switch|p2b: Excadrill|Excadrill, L50, F|100/100
+|-terastallize|p1b: Indeedee|Psychic
+|move|p1a: Sneasler|Close Combat|p2b: Excadrill
+|-supereffective|p2b: Excadrill
+|-enditem|p2b: Excadrill|Focus Sash
+|-damage|p2b: Excadrill|1/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|move|p1b: Indeedee|Expanding Force|p2b: Excadrill|[spread] p2a,p2b
+|-supereffective|p2a: Annihilape
+|-resisted|p2b: Excadrill
+|-damage|p2a: Annihilape|0 fnt
+|-damage|p2b: Excadrill|0 fnt
+|faint|p2a: Annihilape
+|faint|p2b: Excadrill
+|
+|upkeep
+|
+|t:|1757929026
+|switch|p2b: Corviknight|Corviknight, L50, F|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|2
+|
+|t:|1757929056
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|move|p1a: Sneasler|Close Combat|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Tyranitar
+|move|p2b: Corviknight|Bulk Up|p2b: Corviknight
+|-boost|p2b: Corviknight|atk|1
+|-boost|p2b: Corviknight|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneasler|95/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1757929073
+|move|p1a: Sneasler|Close Combat|p2b: Corviknight
+|-damage|p2b: Corviknight|58/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|move|p1b: Annihilape|Final Gambit|p2b: Corviknight
+|-damage|p2b: Corviknight|0 fnt
+|faint|p1b: Annihilape
+|faint|p2b: Corviknight
+|
+|win|Jorsemon_Go
+||Juanan151 is ready for game 2.
+|inactive|Jorsemon_Go has 30 seconds to confirm battle start!
+||Jorsemon_Go is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆Juanan151
+|player|p2|

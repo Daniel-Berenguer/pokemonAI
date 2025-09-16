@@ -1,0 +1,182 @@
+|j|☆sedrav
+|j|☆aaugust
+|html|sedravaaugust    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757040368
+|gametype|doubles
+|player|p1|sedrav|hilbert|1201
+|player|p2|aaugust|265|1185
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Kilowattrel, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Garganacl, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|showteam|p1|Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,Earthquake,Protect|||F|||50|,,,,,Ground]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Flying]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||F|||50|,,,,,Flying]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,PollenPuff,Protect|||F|||50|,,,,,Water]Kilowattrel||FocusSash|Competitive|AirSlash,Tailwind,VoltSwitch,Protect|||M|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Ghost
+|showteam|p2|Amoonguss||SitrusBerry|Regenerator|RagePowder,Spore,PollenPuff,Protect|||M|||50|,,,,,Water]Torkoal||ChoiceSpecs|Drought|Overheat,Eruption,HeatWave,WeatherBall|||M|||50|,,,,,Fire]Farigiraf||MentalHerb|ArmorTail|TrickRoom,HelpingHand,FoulPlay,Protect|||M|||50|,,,,,Grass]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||F|||50|,,,,,Fairy]Garganacl||Leftovers|PurifyingSalt|SaltCure,Curse,WideGuard,Protect|||M|||50|,,,,,Flying]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by sedrav)
+|inactive|sedrav has 60 seconds left.
+|inactive|aaugust has 60 seconds left.
+|inactive|sedrav has 30 seconds left.
+|
+|t:|1757040441
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Farigiraf|atk|1
+|-unboost|p2b: Amoonguss|atk|1
+|turn|1
+|inactive|aaugust has 30 seconds left.
+|
+|t:|1757040467
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-terastallize|p2a: Farigiraf|Grass
+|move|p1a: Incineroar|Knock Off|p2a: Farigiraf
+|-damage|p2a: Farigiraf|60/100
+|-enditem|p2a: Farigiraf|Mental Herb|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p1b: Amoonguss|Spore|p2b: Ursaluna
+|-status|p2b: Ursaluna|slp|[from] move: Spore
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|upkeep
+|turn|2
+|inactive|sedrav has 30 seconds left.
+|
+|t:|1757040496
+|switch|p2a: Amoonguss|Amoonguss, L50, M|100/100
+|move|p1b: Amoonguss|Pollen Puff|p1a: Incineroar
+|cant|p2b: Ursaluna|slp
+|move|p1a: Incineroar|Flare Blitz|p2a: Amoonguss
+|-supereffective|p2a: Amoonguss
+|-damage|p2a: Amoonguss|5/100
+|-enditem|p2a: Amoonguss|Sitrus Berry|[eat]
+|-heal|p2a: Amoonguss|30/100|[from] item: Sitrus Berry
+|-damage|p1a: Incineroar|66/100|[from] Recoil
+|
+|upkeep
+|turn|3
+|
+|t:|1757040519
+|move|p1b: Amoonguss|Pollen Puff|p1a: Incineroar
+|-heal|p1a: Incineroar|100/100
+|move|p2a: Amoonguss|Pollen Puff|p1b: Amoonguss
+|-damage|p1b: Amoonguss|85/100
+|-curestatus|p2b: Ursaluna|slp|[msg]
+|move|p2b: Ursaluna|Blood Moon|p1b: Amoonguss
+|-damage|p1b: Amoonguss|0 fnt
+|faint|p1b: Amoonguss
+|-damage|p2b: Ursaluna|90/100|[from] item: Life Orb
+|move|p1a: Incineroar|Parting Shot|p2b: Ursaluna
+|-unboost|p2b: Ursaluna|atk|1
+|-unboost|p2b: Ursaluna|spa|1
+|
+|t:|1757040539
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100|[from] Parting Shot
+|
+|upkeep
+|
+|t:|1757040542
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Amoonguss|atk|1
+|-unboost|p2b: Ursaluna|atk|1
+|turn|4
+|inactive|sedrav has 30 seconds left.
+|inactive|aaugust has 30 seconds left.
+|inactive|aaugust has 20 seconds left.
+|
+|t:|1757040580
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p2b: Ursaluna|Earth Power|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|17/100
+|-damage|p2b: Ursaluna|80/100|[from] item: Life Orb
+|move|p1b: Incineroar|Knock Off|p2b: Ursaluna
+|-crit|p2b: Ursaluna
+|-damage|p2b: Ursaluna|39/100
+|-enditem|p2b: Ursaluna|Life Orb|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|inactive|sedrav has 30 seconds left.
+|inactive|aaugust has 30 seconds left.
+|
+|t:|1757040609
+|switch|p2b: Amoonguss|Amoonguss, L50, M|63/100
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2a: Torkoal|Eruption|p1b: Incineroar|[spread] p1b
+|-activate|p1a: Gholdengo|move: Protect
+|-resisted|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1757040620
+|switch|p1b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|6
+|inactive|sedrav has 30 seconds left.
+|
+|t:|1757040649
+|switch|p2a: Ursaluna|Ursaluna-Bloodmoon, L50, M|39/100
+|move|p1a: Gholdengo|Make It Rain|p2a: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Ursaluna|0 fnt
+|-damage|p2b: Amoonguss|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2a: Ursaluna
+|faint|p2b: Amoonguss
+|move|p1b: Tyranitar|Rock Slide|p2: Ursaluna|[notarget]
+|-fail|p1b: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1757040652
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M, tera:Grass|60/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|7
+|inactive|sedrav has 30 seconds left.
+|
+|t:|1757040687
+|-terastallize|p1a: Gholdengo|Flying
+|move|p1a: Gholdengo|Make It Rain|p2a: Torkoal|[spread] p2a,p2b
+|-resisted|p2a: Torkoal
+|-damage|p2a: Torkoal|46/100
+|-damage|p2b: Farigiraf|0 fnt
+|-unboost|p1a: Gholdengo|spa|1
+|faint|p2b: Farigiraf
+|move|p1b: Tyranitar|Rock Slide|p2a: Torkoal
+|-supereffective|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|win|sedrav
+||aaugust is ready for game 2.

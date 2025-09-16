@@ -1,0 +1,164 @@
+|j|â˜†guian_6
+|j|â˜†GetaJobApplication
+|html|guian_6GetaJobApplication    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757767618
+|gametype|doubles
+|player|p1|guian_6|101|1129
+|player|p2|GetaJobApplication|cynthia-gen4|1272
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each PokÃ©mon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Primarina, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Kommo-o, L50, M|
+|poke|p2|Amoonguss, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Lilligant-Hisui||FocusSash|Chlorophyll|AfterYou,SleepPowder,CloseCombat,SolarBlade|||F|||50|,,,,,Grass]Torkoal||EjectPack|Drought|Overheat,Eruption,EarthPower,Protect|||M|||50|,,,,,Fire]Farigiraf||ThroatSpray|ArmorTail|Protect,HyperVoice,Psychic,TrickRoom|||M|||50|,,,,,Normal]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Ground]Gallade||ClearAmulet|Sharpness|TrickRoom,SacredSword,PsychoCut,Protect|||M|||50|,,,,,Psychic]Primarina||AssaultVest|LiquidVoice|PsychicNoise,Moonblast,HyperVoice,FlipTurn|||M|||50|,,,,,Water
+|showteam|p2|Incineroar||AssaultVest|Intimidate|FakeOut,KnockOff,Uturn,FlareBlitz|||M|||50|,,,,,Bug]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,Trick,HelpingHand,DazzlingGleam|||M|||50|,,,,,Psychic]Kommo-o||ThroatSpray|Overcoat|ClangorousSoul,ClangingScales,Protect,Flamethrower|||M|||50|,,,,,Fire]Amoonguss||SitrusBerry|Regenerator|Spore,RagePowder,SludgeBomb,Protect|||M|||50|,,,,,Water]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Steel]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark
+|
+|t:|1757767669
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Lilligant|Lilligant-Hisui, L50, F|100/100
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|switch|p2a: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p2b: Kommo-o|Kommo-o, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|1
+|
+|t:|1757767683
+|-terastallize|p2a: Amoonguss|Water
+|move|p1a: Lilligant|After You|p1b: Torkoal
+|-activate|p1b: Torkoal|move: After You
+|move|p1b: Torkoal|Eruption|p2a: Amoonguss|[spread] p2a,p2b
+|-resisted|p2a: Amoonguss
+|-resisted|p2b: Kommo-o
+|-damage|p2a: Amoonguss|70/100
+|-damage|p2b: Kommo-o|63/100
+|move|p2b: Kommo-o|Clangorous Soul|p2b: Kommo-o
+|-boost|p2b: Kommo-o|atk|1
+|-boost|p2b: Kommo-o|def|1
+|-boost|p2b: Kommo-o|spa|1
+|-boost|p2b: Kommo-o|spd|1
+|-boost|p2b: Kommo-o|spe|1
+|-damage|p2b: Kommo-o|30/100
+|-enditem|p2b: Kommo-o|Throat Spray
+|-boost|p2b: Kommo-o|spa|1|[from] item: Throat Spray
+|move|p2a: Amoonguss|Spore|p1b: Torkoal
+|-status|p1b: Torkoal|slp|[from] move: Spore
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1757767717
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Lilligant|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|-enditem|p1b: Torkoal|Eject Pack
+|
+|t:|1757767721
+|switch|p1b: Primarina|Primarina, L50, M|100/100
+|move|p1a: Lilligant|Solar Blade||[still]
+|-prepare|p1a: Lilligant|Solar Blade
+|-anim|p1a: Lilligant|Solar Blade|p2a: Incineroar
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|83/100
+|move|p2b: Kommo-o|Clanging Scales|p1a: Lilligant|[spread] p1a
+|-immune|p1b: Primarina
+|-enditem|p1a: Lilligant|Focus Sash
+|-damage|p1a: Lilligant|1/100
+|-unboost|p2b: Kommo-o|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1757767736
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100 slp
+|move|p2a: Incineroar|Fake Out|p1b: Primarina
+|-damage|p1b: Primarina|87/100
+|move|p2b: Kommo-o|Flamethrower|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|45/100 slp
+|cant|p1b: Primarina|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1757767755
+|move|p2b: Kommo-o|Protect|p2b: Kommo-o
+|-singleturn|p2b: Kommo-o|Protect
+|move|p2a: Incineroar|U-turn|p1b: Primarina
+|-resisted|p1b: Primarina
+|-damage|p1b: Primarina|74/100
+|
+|t:|1757767759
+|switch|p2a: Amoonguss|Amoonguss, L50, M, tera:Water|100/100|[from] U-turn
+|move|p1b: Primarina|Moonblast|p2b: Kommo-o
+|-activate|p2b: Kommo-o|move: Protect
+|cant|p1a: Torkoal|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757767778
+|move|p2b: Kommo-o|Flamethrower|p1a: Torkoal
+|-resisted|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|move|p1b: Primarina|Flip Turn|p2a: Amoonguss
+|-resisted|p2a: Amoonguss
+|-damage|p2a: Amoonguss|98/100
+|
+|t:|1757767786
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100|[from] Flip Turn
+|move|p2a: Amoonguss|Sludge Bomb|p1b: Ursaluna
+|-resisted|p1b: Ursaluna
+|-damage|p1b: Ursaluna|84/100
+|
+|-weather|none
+|upkeep
+|
+|t:|1757767798
+|switch|p1a: Lilligant|Lilligant-Hisui, L50, F|1/100
+|turn|6
+|
+|t:|1757767806
+|switch|p2a: Incineroar|Incineroar, L50, M|83/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Lilligant|atk|1
+|-unboost|p1b: Ursaluna|atk|1
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2b: Kommo-o|Clanging Scales|p1a: Lilligant|[spread] p1a
+|-activate|p1b: Ursaluna|move: Protect
+|-damage|p1a: Lilligant|0 fnt
+|faint|p1a: Lilligant
+|-unboost|p2b: Kommo-o|def|1
+|
+|upkeep
+|-message|guian_6 forfeited.
+|
+|win|GetaJobApplication
+|raw|guian_6's rating: 1129 → 1114(-15 for losing)
+|raw|GetaJobApplication's rating: 1272 → 1287(+15 for winning)
+|l|â˜†guian_6
+|player|p1|
+|c|â˜†GetaJobApplication|gg

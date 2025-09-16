@@ -1,0 +1,128 @@
+|j|☆BackToTwork
+|j|☆marcosdeltasena31
+|html|BackToTworkmarcosdeltasena31    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757797590
+|gametype|doubles
+|player|p1|BackToTwork|102|1390
+|player|p2|marcosdeltasena31|hilbert|1429
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zoroark-Hisui, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Electabuzz, L50, F|
+|teampreview|4
+|showteam|p1|Zoroark-Hisui||FocusSash|Illusion|IcyWind,HyperVoice,ShadowBall,Protect|||M|||50|,,,,,Stellar]Archaludon||PowerHerb|Sturdy|ElectroShot,DragonPulse,Thunderbolt,Protect|||F|||50|,,,,,Electric]Sneasler||WhiteHerb|Unburden|FakeOut,CloseCombat,DireClaw,Protect|||F|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Taunt|||M|||50|,,,,,Ghost]Whimsicott||MentalHerb|Prankster|Moonblast,Encore,Tailwind,FakeTears|||M|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||F|||50|,,,,,Steel
+|showteam|p2|Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||F|||50|,,,,,Fairy]Sneasler||FocusSash|PoisonTouch|DireClaw,CloseCombat,FakeOut,Coaching|||F|||50|,,,,,Ghost]Volcarona||CovertCloak|FlameBody|HeatWave,TeraBlast,QuiverDance,Protect|||F|||50|,,,,,Fairy]Rillaboom||AssaultVest|GrassySurge|WoodHammer,FakeOut,GrassyGlide,HighHorsepower|||M|||50|,,,,,Fire]Kingambit||BlackGlasses|Defiant|KowtowCleave,SwordsDance,SuckerPunch,Protect|||F|||50|,,,,,Dark]Electabuzz||Eviolite|VitalSpirit|Thunderbolt,FollowMe,Taunt,Protect|||F|||50|,,,,,Ghost
+|
+|t:|1757797633
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Archaludon|Archaludon, L50, F|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2a: Kingambit|Kingambit, L50, F|100/100
+|switch|p2b: Electabuzz|Electabuzz, L50, F|100/100
+|turn|1
+|
+|t:|1757797642
+|-terastallize|p1a: Archaludon|Stellar
+|move|p2b: Electabuzz|Follow Me|p2b: Electabuzz
+|-singleturn|p2b: Electabuzz|move: Follow Me
+|move|p1b: Whimsicott|Fake Tears|p2b: Electabuzz
+|-unboost|p2b: Electabuzz|spd|2
+|move|p1a: Archaludon|Hyper Voice|p2a: Kingambit|[spread] p2a,p2b
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|78/100
+|-damage|p2b: Electabuzz|29/100
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1757797655
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|move|p2b: Electabuzz|Follow Me|p2b: Electabuzz
+|-singleturn|p2b: Electabuzz|move: Follow Me
+|move|p1a: Archaludon|Hyper Voice|p2a: Kingambit|[spread] p2a,p2b
+|-resisted|p2a: Kingambit
+|-damage|p2a: Kingambit|63/100
+|-damage|p2b: Electabuzz|0 fnt
+|faint|p2b: Electabuzz
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Archaludon
+|-supereffective|p1a: Archaludon
+|-enditem|p1a: Archaludon|Focus Sash
+|-damage|p1a: Archaludon|1/100
+|replace|p1a: Zoroark|Zoroark-Hisui, L50, M
+|-end|p1a: Zoroark|Illusion
+|
+|upkeep
+|
+|t:|1757797668
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|turn|3
+|
+|t:|1757797690
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|-terastallize|p2a: Kingambit|Dark
+|move|p1b: Sneasler|Fake Out|p2a: Kingambit
+|-damage|p2a: Kingambit|52/100
+|move|p2b: Rillaboom|Grassy Glide|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|76/100
+|cant|p2a: Kingambit|flinch
+|
+|-heal|p1a: Whimsicott|82/100|[from] Grassy Terrain
+|-heal|p2a: Kingambit|58/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1757797703
+|move|p2a: Kingambit|Protect|p2a: Kingambit
+|-singleturn|p2a: Kingambit|Protect
+|move|p1a: Whimsicott|Encore|p2b: Rillaboom
+|-start|p2b: Rillaboom|Encore
+|move|p1b: Sneasler|Close Combat|p2a: Kingambit
+|-activate|p2a: Kingambit|move: Protect
+|move|p2b: Rillaboom|Grassy Glide|p1a: Whimsicott
+|-resisted|p1a: Whimsicott
+|-damage|p1a: Whimsicott|59/100
+|
+|-heal|p1a: Whimsicott|65/100|[from] Grassy Terrain
+|-heal|p2a: Kingambit|64/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1757797718
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|move|p2a: Kingambit|Sucker Punch|p1b: Sneasler
+|-resisted|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|move|p1a: Whimsicott|Moonblast|p2b: Volcarona
+|-resisted|p2b: Volcarona
+|-damage|p2b: Volcarona|88/100
+|
+|-heal|p1a: Whimsicott|71/100|[from] Grassy Terrain
+|-heal|p2b: Volcarona|94/100|[from] Grassy Terrain
+|-heal|p2a: Kingambit|70/100|[from] Grassy Terrain
+|upkeep
+|-message|BackToTwork forfeited.
+|
+|win|marcosdeltasena31
+||BackToTwork is ready for game 2.

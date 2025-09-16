@@ -1,0 +1,193 @@
+|j|☆Kuribro
+|j|☆myshirtisdirty
+|html|Kuribromyshirtisdirty    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757917684
+|gametype|doubles
+|player|p1|Kuribro|170|1134
+|player|p2|myshirtisdirty|1|1243
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Azumarill, L50, M|
+|poke|p1|Porygon2, L50|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Lilligant-Hisui, L50, F|
+|teampreview|4
+|showteam|p1|Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||F|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|ElectroShot,DragonPulse,FlashCannon,BodyPress|||F|||50|,,,,,Bug]Amoonguss||CovertCloak|Regenerator|PollenPuff,RagePowder,Spore,Protect|||F|||50|,,,,,Psychic]Incineroar||SafetyGoggles|Intimidate|FakeOut,PartingShot,KnockOff,FlareBlitz|||M|||50|,,,,,Ghost]Azumarill||SitrusBerry|HugePower|AquaJet,PlayRough,BellyDrum,Protect|||M|||50|,,,,,Water]Porygon2||Eviolite|Download|TeraBlast,ShadowBall,TrickRoom,Recover||||||50|,,,,,Fighting
+|showteam|p2|Indeedee-F||SafetyGoggles|PsychicSurge|DazzlingGleam,HelpingHand,TrickRoom,FollowMe|||F|||50|,,,,,Fairy]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Steel]Ursaluna||FlameOrb|Guts|Facade,Earthquake,HeadlongRush,Protect|||F|||50|,,,,,Ghost]Torkoal||ChoiceSpecs|Drought|WeatherBall,HeatWave,Eruption,EarthPower|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,MysticalFire,TrickRoom|||F|||50|,,,,,Water]Lilligant-Hisui||FocusSash|Chlorophyll|SleepPowder,AfterYou,CloseCombat,SolarBlade|||F|||50|,,,,,Ghost
+|
+|t:|1757917711
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Indeedee|atk|1
+|-unboost|p2b: Hatterene|atk|1
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1757917727
+|-terastallize|p1b: Amoonguss|Psychic
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1a: Incineroar|Knock Off|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|4/100
+|-enditem|p2a: Indeedee|Safety Goggles|[from] move: Knock Off|[of] p1a: Incineroar
+|move|p1b: Amoonguss|Spore|p2a: Indeedee
+|-status|p2a: Indeedee|slp|[from] move: Spore
+|move|p2b: Hatterene|Trick Room|p2b: Hatterene
+|-fieldstart|move: Trick Room|[of] p2b: Hatterene
+|
+|upkeep
+|turn|2
+|
+|t:|1757917748
+|-terastallize|p2b: Hatterene|Water
+|cant|p2a: Indeedee|slp
+|move|p2b: Hatterene|Dazzling Gleam|p1b: Amoonguss|[spread] p1a,p1b
+|-damage|p1a: Incineroar|61/100
+|-damage|p1b: Amoonguss|61/100
+|-damage|p2b: Hatterene|91/100|[from] item: Life Orb
+|move|p1b: Amoonguss|Pollen Puff|p2b: Hatterene
+|-damage|p2b: Hatterene|71/100
+|move|p1a: Incineroar|Knock Off|p2b: Hatterene
+|-damage|p2b: Hatterene|24/100
+|-enditem|p2b: Hatterene|Life Orb|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|turn|3
+|
+|t:|1757917766
+|-curestatus|p2a: Indeedee|slp|[msg]
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p2b: Hatterene|Dazzling Gleam|p1b: Amoonguss|[spread] p1a,p1b
+|-damage|p1a: Incineroar|29/100
+|-damage|p1b: Amoonguss|30/100
+|move|p1b: Amoonguss|Pollen Puff|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|move|p1a: Incineroar|Knock Off|p2b: Hatterene
+|-damage|p2b: Hatterene|0 fnt
+|faint|p2b: Hatterene
+|
+|upkeep
+|
+|t:|1757917778
+|switch|p2b: Ursaluna|Ursaluna, L50, F|100/100
+|switch|p2a: Gallade|Gallade, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1757917806
+|switch|p1b: Porygon2|Porygon2, L50|100/100
+|-ability|p1b: Porygon2|Download|boost
+|-boost|p1b: Porygon2|atk|1
+|move|p2b: Ursaluna|Facade|p1b: Porygon2
+|-damage|p1b: Porygon2|72/100
+|move|p2a: Gallade|Sacred Sword|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-status|p2b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757917824
+|switch|p1a: Amoonguss|Amoonguss, L50, F, tera:Psychic|63/100
+|turn|5
+|
+|t:|1757917845
+|move|p1a: Amoonguss|Protect|p1a: Amoonguss
+|-singleturn|p1a: Amoonguss|Protect
+|move|p2a: Gallade|Wide Guard|p2a: Gallade
+|-singleturn|p2a: Gallade|Wide Guard
+|move|p2b: Ursaluna|Earthquake|p1b: Porygon2|[spread] p1b
+|-activate|p2a: Gallade|move: Wide Guard
+|-activate|p1a: Amoonguss|move: Protect
+|-damage|p1b: Porygon2|32/100
+|move|p1b: Porygon2|Shadow Ball|p2a: Gallade
+|-supereffective|p2a: Gallade
+|-damage|p2a: Gallade|56/100
+|
+|-damage|p2b: Ursaluna|95/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1757917882
+|move|p1b: Porygon2|Recover|p1b: Porygon2
+|-heal|p1b: Porygon2|82/100
+|move|p2a: Gallade|Sacred Sword|p1b: Porygon2
+|-supereffective|p1b: Porygon2
+|-crit|p1b: Porygon2
+|-damage|p1b: Porygon2|0 fnt
+|faint|p1b: Porygon2
+|move|p1a: Amoonguss|Spore|p2a: Gallade
+|-status|p2a: Gallade|slp|[from] move: Spore
+|move|p2b: Ursaluna|Facade|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|faint|p1a: Amoonguss
+|
+|-damage|p2b: Ursaluna|89/100 brn|[from] brn
+|upkeep
+|
+|t:|1757917887
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|7
+|
+|t:|1757917902
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1a: Pelipper|Weather Ball|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|cant|p2a: Gallade|slp
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2b: Ursaluna|83/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1757917911
+|move|p1a: Pelipper|Weather Ball|p2b: Ursaluna
+|-supereffective|p2b: Ursaluna
+|-damage|p2b: Ursaluna|0 fnt
+|faint|p2b: Ursaluna
+|cant|p2a: Gallade|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1757917917
+|move|p1a: Pelipper|Hurricane|p2a: Gallade
+|-supereffective|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|
+|win|Kuribro
+|raw|Kuribro's rating: 1134 → 1167(+33 for winning)
+|raw|myshirtisdirty's rating: 1243 → 1210(-33 for losing)
+|l|☆Kuribro
+|player|p1|
+|l|☆myshirtisdirty
+|player|p2|

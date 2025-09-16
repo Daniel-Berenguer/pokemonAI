@@ -1,0 +1,184 @@
+|j|☆EggEngines2
+|j|☆5NitesAtTrickRoom
+|html|EggEngines25NitesAtTrickRoom    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1757725830
+|gametype|doubles
+|player|p1|EggEngines2|collector|
+|player|p2|5NitesAtTrickRoom|hilbert|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Tyranitar, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Maushold, L50|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Kingambit, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Trick,Protect|||M|||50|,,,,,Psychic]Volcarona||SitrusBerry|FlameBody|Overheat,StruggleBug,RagePowder,Tailwind|||F|||50|,,,,,Grass]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||F|||50|,,,,,Fairy]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying
+|showteam|p2|Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Grass]Archaludon||AssaultVest|Stamina|FlashCannon,BodyPress,ElectroShot,Snarl|||F|||50|,,,,,Fighting]Sinistcha-Masterpiece||SitrusBerry|Hospitality|RagePowder,MatchaGotcha,TrickRoom,LifeDew||||||50|,,,,,Water]Maushold||WideLens|Technician|Protect,RainDance,PopulationBomb,FollowMe||||||50|,,,,,Ghost]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,AquaJet,FlipTurn|||M|||50|,,,,,Water]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark
+|
+|t:|1757725867
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Maushold|Maushold, L50|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1757725891
+|-terastallize|p1b: Indeedee|Psychic
+|move|p2a: Maushold|Protect|p2a: Maushold
+|-singleturn|p2a: Maushold|Protect
+|move|p1b: Indeedee|Expanding Force|p2a: Maushold|[spread] p2b
+|-activate|p2a: Maushold|move: Protect
+|-damage|p2b: Basculegion|17/100
+|move|p2b: Basculegion|Wave Crash|p1b: Indeedee
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|-damage|p2b: Basculegion|0 fnt|[from] Recoil
+|faint|p2b: Basculegion
+|move|p1a: Annihilape|Close Combat|p2a: Maushold
+|-activate|p2a: Maushold|move: Protect
+|
+|upkeep
+|
+|t:|1757725909
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Pelipper|Pelipper, L50, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|-enditem|p1b: Sneasler|Psychic Seed
+|-boost|p1b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|2
+|
+|t:|1757725932
+|switch|p1b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|switch|p2b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-terastallize|p2a: Maushold|Ghost
+|move|p2a: Maushold|Population Bomb|p1b: Tyranitar
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|96/100
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|91/100
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|86/100
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|82/100
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|76/100
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|72/100
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|67/100
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|62/100
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|57/100
+|-resisted|p1b: Tyranitar
+|-damage|p1b: Tyranitar|53/100
+|-hitcount|p1b: Tyranitar|10
+|move|p1a: Annihilape|Taunt|p2b: Sinistcha
+|-start|p2b: Sinistcha|move: Taunt
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Maushold|94/100|[from] Sandstorm
+|-damage|p2b: Sinistcha|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1757725961
+|move|p2a: Maushold|Protect|p2a: Maushold
+|-singleturn|p2a: Maushold|Protect
+|move|p1a: Annihilape|Rage Fist|p2b: Sinistcha
+|-supereffective|p2b: Sinistcha
+|-damage|p2b: Sinistcha|59/100
+|move|p1b: Tyranitar|Knock Off|p2b: Sinistcha
+|-supereffective|p2b: Sinistcha
+|-damage|p2b: Sinistcha|0 fnt
+|-enditem|p2b: Sinistcha|Sitrus Berry|[from] move: Knock Off|[of] p1b: Tyranitar
+|faint|p2b: Sinistcha
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Maushold|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757725969
+|switch|p2b: Pelipper|Pelipper, L50, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|4
+|
+|t:|1757726002
+|move|p2a: Maushold|Follow Me|p2a: Maushold
+|-singleturn|p2a: Maushold|move: Follow Me
+|move|p1a: Annihilape|Rage Fist|p2a: Maushold
+|-supereffective|p2a: Maushold
+|-damage|p2a: Maushold|20/100
+|move|p2b: Pelipper|Weather Ball|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar
+|-damage|p1b: Tyranitar|0 fnt
+|faint|p1b: Tyranitar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1757726010
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|turn|5
+|
+|t:|1757726027
+|move|p2a: Maushold|Population Bomb|p1b: Sneasler
+|-crit|p1b: Sneasler
+|-damage|p1b: Sneasler|71/100
+|-damage|p1b: Sneasler|51/100
+|-damage|p1b: Sneasler|34/100
+|-damage|p1b: Sneasler|14/100
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|-hitcount|p1: Sneasler|5
+|move|p1a: Annihilape|Rage Fist|p2b: Pelipper
+|-damage|p2b: Pelipper|74/100
+|move|p2b: Pelipper|Hurricane|p1a: Annihilape
+|-supereffective|p1a: Annihilape
+|-damage|p1a: Annihilape|5/100
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1757726037
+|move|p2a: Maushold|Follow Me|p2a: Maushold
+|-singleturn|p2a: Maushold|move: Follow Me
+|move|p1a: Annihilape|Rage Fist|p2a: Maushold
+|-supereffective|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|faint|p2a: Maushold
+|move|p2b: Pelipper|Hurricane|p1a: Annihilape
+|-supereffective|p1a: Annihilape
+|-damage|p1a: Annihilape|0 fnt
+|faint|p1a: Annihilape
+|
+|win|5NitesAtTrickRoom
+|c|☆EggEngines2|oh shoot i thought i was faster
+|c|☆5NitesAtTrickRoom|they were ada if iirc
+|c|☆EggEngines2|yeah
+|c|☆5NitesAtTrickRoom|did u double the peli?
+|c|☆EggEngines2|the seed ones always are
+|c|☆5NitesAtTrickRoom|right
+|c|☆5NitesAtTrickRoom|or so i assume
+|c|☆EggEngines2|no sneas attacked mice
+|c|☆5NitesAtTrickRoom|ah kk so then it comes down to if sneasler is jolly and KOs mice then if dire claw haxes/kills peli from there>
+|c|☆5NitesAtTrickRoom|?*

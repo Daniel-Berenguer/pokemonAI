@@ -1,0 +1,184 @@
+|j|☆rodjilius
+|j|☆Arkhept
+|html|rodjiliusArkhept    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757856545
+|gametype|doubles
+|player|p1|rodjilius|unknown|1269
+|player|p2|Arkhept|misty|1290
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Typhlosion-Hisui, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p2|Frosmoth, L50, M|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Meowscarada, L50, F|
+|teampreview|4
+|showteam|p1|Dragapult||ChoiceBand|ClearBody|DragonDarts,PhantomForce,Uturn,Outrage|||F|||50|,,,,,Dragon]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,Protect,ThroatChop|||M|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,Imprison,TeraBlast,TrickRoom|||M|||50|,,,,,Ground]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,PartingShot|||M|||50|,,,,,Bug]Typhlosion-Hisui||ChoiceSpecs|Blaze|Eruption,HeatWave,ShadowBall,Overheat|||F|||50|,,,,,Fire]Whimsicott||CovertCloak|Prankster|Moonblast,Protect,Tailwind,SunnyDay|||F|||50|,,,,,Steel
+|showteam|p2|Frosmoth||Leftovers|IceScales|QuiverDance,Blizzard,TeraBlast,Protect|||M|||50|,,,,,Water]Ninetales-Alola||LightClay|SnowWarning|Moonblast,AuroraVeil,Disable,Encore|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|WoodHammer,FakeOut,GrassyGlide,GrassPledge|||F|||50|,,,,,Electric]Incineroar||SafetyGoggles|Intimidate|FirePledge,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Primarina||LifeOrb|LiquidVoice|HyperVoice,Moonblast,WaterPledge,Protect|||M|||50|,,,,,Poison]Meowscarada||FocusSash|Overgrow|FlowerTrick,KnockOff,GrassPledge,Protect|||F|||50|,,,,,Ghost
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by rodjilius)
+|
+|t:|1757856569
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Dragapult|Dragapult, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Frosmoth|Frosmoth, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Frosmoth|atk|1
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-fail|p1b: Dragapult|unboost|[from] ability: Clear Body|[of] p1b: Dragapult
+|turn|1
+|
+|t:|1757856578
+|move|p2b: Frosmoth|Protect|p2b: Frosmoth
+|-singleturn|p2b: Frosmoth|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Frosmoth
+|-activate|p2b: Frosmoth|move: Protect
+|move|p1b: Dragapult|U-turn|p2a: Incineroar
+|-damage|p2a: Incineroar|69/100
+|
+|t:|1757856585
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100|[from] U-turn
+|move|p2a: Incineroar|Knock Off|p1b: Sneasler
+|-resisted|p1b: Sneasler
+|-damage|p1b: Sneasler|83/100
+|-enditem|p1b: Sneasler|Psychic Seed|[from] move: Knock Off|[of] p2a: Incineroar
+|
+|upkeep
+|turn|2
+|
+|t:|1757856600
+|switch|p2b: Primarina|Primarina, L50, M|100/100
+|move|p1b: Sneasler|Close Combat|p2a: Incineroar
+|-supereffective|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|faint|p2a: Incineroar
+|move|p1a: Incineroar|Knock Off|p2b: Primarina
+|-resisted|p2b: Primarina
+|-damage|p2b: Primarina|85/100
+|-enditem|p2b: Primarina|Life Orb|[from] move: Knock Off|[of] p1a: Incineroar
+|
+|upkeep
+|
+|t:|1757856611
+|switch|p2a: Meowscarada|Meowscarada, L50, F|100/100
+|turn|3
+|
+|t:|1757856634
+|move|p1b: Sneasler|Dire Claw|p2a: Meowscarada
+|-supereffective|p2a: Meowscarada
+|-crit|p2a: Meowscarada
+|-enditem|p2a: Meowscarada|Focus Sash
+|-damage|p2a: Meowscarada|1/100
+|move|p2a: Meowscarada|Grass Pledge|p1a: Incineroar
+|-waiting|p2a: Meowscarada|p2b: Primarina
+|move|p2b: Primarina|Water Pledge|p1a: Incineroar|[from] move: Grass Pledge
+|-combine
+|-resisted|p1a: Incineroar
+|-damage|p1a: Incineroar|63/100
+|-sidestart|p1: rodjilius|Grass Pledge
+|move|p1a: Incineroar|Knock Off|p2a: Meowscarada
+|-resisted|p2a: Meowscarada
+|-damage|p2a: Meowscarada|0 fnt
+|faint|p2a: Meowscarada
+|
+|upkeep
+|
+|t:|1757856645
+|switch|p2a: Frosmoth|Frosmoth, L50, M|100/100
+|turn|4
+|
+|t:|1757856655
+|-terastallize|p2a: Frosmoth|Water
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|move|p2b: Primarina|Hyper Voice|p1a: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Sneasler|23/100
+|faint|p1a: Incineroar
+|move|p1b: Sneasler|Dire Claw|p2b: Primarina
+|-supereffective|p2b: Primarina
+|-damage|p2b: Primarina|0 fnt
+|faint|p2b: Primarina
+|
+|upkeep
+|
+|t:|1757856668
+|switch|p1a: Dragapult|Dragapult, L50, F|100/100
+|turn|5
+|
+|t:|1757856677
+|switch|p1b: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|-terastallize|p1a: Dragapult|Dragon
+|move|p2a: Frosmoth|Blizzard|p1a: Dragapult|[spread] p1a
+|-miss|p2a: Frosmoth|p1b: Typhlosion
+|-supereffective|p1a: Dragapult
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|upkeep
+|
+|t:|1757856686
+|switch|p1a: Sneasler|Sneasler, L50, M|23/100
+|turn|6
+|
+|t:|1757856694
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p2a: Frosmoth|Quiver Dance|p2a: Frosmoth
+|-boost|p2a: Frosmoth|spa|1
+|-boost|p2a: Frosmoth|spd|1
+|-boost|p2a: Frosmoth|spe|1
+|move|p1b: Typhlosion|Shadow Ball|p2a: Frosmoth
+|-damage|p2a: Frosmoth|84/100
+|-unboost|p2a: Frosmoth|spd|1
+|
+|-heal|p2a: Frosmoth|90/100|[from] item: Leftovers
+|-sideend|p1: rodjilius|Grass Pledge
+|upkeep
+|turn|7
+|
+|t:|1757856705
+|move|p2a: Frosmoth|Tera Blast|p1a: Sneasler|[anim] Tera Blast Water
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|move|p1b: Typhlosion|Shadow Ball|p2a: Frosmoth
+|-damage|p2a: Frosmoth|68/100
+|
+|-heal|p2a: Frosmoth|75/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1757856709
+|move|p2a: Frosmoth|Tera Blast|p1b: Typhlosion|[anim] Tera Blast Water
+|-supereffective|p1b: Typhlosion
+|-damage|p1b: Typhlosion|0 fnt
+|faint|p1b: Typhlosion
+|
+|win|Arkhept
+||Arkhept is ready for game 3.
+||rodjilius is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆rodjilius
+|player|p1|

@@ -1,0 +1,325 @@
+|j|☆EggEngines2
+|j|☆5NitesAtTrickRoom
+|html|EggEngines25NitesAtTrickRoom    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1757726656
+|gametype|doubles
+|player|p1|EggEngines2|collector|
+|player|p2|5NitesAtTrickRoom|hilbert|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Dondozo, L50, F|
+|poke|p1|Tatsugiri, L50, F|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Maushold, L50|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Kingambit, L50, F|
+|teampreview|4
+|showteam|p1|Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||FocusSash|PsychicSurge|ExpandingForce,TrickRoom,HelpingHand,Protect|||M|||50|,,,,,Psychic]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Normal]Whimsicott||CovertCloak|Prankster|Moonblast,Tailwind,LightScreen,Encore|||M|||50|,,,,,Poison]Dondozo||Leftovers|Unaware|Protect,Earthquake,WaveCrash,OrderUp|||F|||50|,,,,,Grass]Tatsugiri||ChoiceScarf|Commander|DracoMeteor,HelpingHand,MuddyWater,DragonPulse|||F|||50|,,,,,Steel
+|showteam|p2|Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Grass]Archaludon||AssaultVest|Stamina|FlashCannon,BodyPress,ElectroShot,Snarl|||F|||50|,,,,,Fighting]Sinistcha-Masterpiece||SitrusBerry|Hospitality|RagePowder,MatchaGotcha,TrickRoom,LifeDew||||||50|,,,,,Water]Maushold||WideLens|Technician|Protect,Taunt,PopulationBomb,FollowMe||||||50|,,,,,Ghost]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,AquaJet,FlipTurn|||M|||50|,,,,,Water]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||F|||50|,,,,,Dark
+|
+|t:|1757726665
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dondozo|Dondozo, L50, F|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Maushold|Maushold, L50|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|turn|1
+|
+|t:|1757726676
+|switch|p1b: Tatsugiri|Tatsugiri, L50, F|100/100
+|-activate|p1b: Tatsugiri|ability: Commander|[of] p1a: Dondozo
+|-boost|p1a: Dondozo|atk|2
+|-boost|p1a: Dondozo|spa|2
+|-boost|p1a: Dondozo|spe|2
+|-boost|p1a: Dondozo|def|2
+|-boost|p1a: Dondozo|spd|2
+|move|p2a: Basculegion|Flip Turn|p1a: Dondozo
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|93/100
+|
+|t:|1757726686
+|switch|p2a: Sinistcha|Sinistcha-Masterpiece, L50|100/100|[from] Flip Turn
+|move|p1a: Dondozo|Earthquake|p2b: Maushold|[spread] p2a,p2b
+|-miss|p1a: Dondozo|p1b: Tatsugiri
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|84/100
+|-damage|p2b: Maushold|43/100
+|move|p2b: Maushold|Population Bomb|p1b: Tatsugiri|[miss]
+|-miss|p2b: Maushold|p1b: Tatsugiri
+|
+|-heal|p1a: Dondozo|99/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1757726707
+|switch|p2b: Pelipper|Pelipper, L50, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|-terastallize|p1a: Dondozo|Grass
+|move|p1a: Dondozo|Order Up|p2a: Sinistcha
+|-crit|p2a: Sinistcha
+|-damage|p2a: Sinistcha|36/100
+|-enditem|p2a: Sinistcha|Sitrus Berry|[eat]
+|-heal|p2a: Sinistcha|61/100|[from] item: Sitrus Berry
+|-boost|p1a: Dondozo|atk|1
+|move|p2a: Sinistcha|Trick Room|p2a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2a: Sinistcha
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dondozo|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1757726720
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Dondozo|[spread] 
+|-miss|p2a: Sinistcha|p1b: Tatsugiri
+|-activate|p1a: Dondozo|move: Protect
+|move|p2b: Pelipper|Hurricane|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1757726733
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Dondozo|[spread] p1a
+|-miss|p2a: Sinistcha|p1b: Tatsugiri
+|-resisted|p1a: Dondozo
+|-damage|p1a: Dondozo|96/100
+|-heal|p2a: Sinistcha|65/100|[from] drain|[of] p1a: Dondozo
+|move|p2b: Pelipper|Hurricane|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|52/100
+|move|p1a: Dondozo|Order Up|p2a: Sinistcha
+|-damage|p2a: Sinistcha|25/100
+|-boost|p1a: Dondozo|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dondozo|58/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1757726746
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2a: Sinistcha|Life Dew||[still]|[spread] p2a,p2b
+|-heal|p2a: Sinistcha|50/100
+|-fail|p2b: Pelipper|heal
+|move|p2b: Pelipper|Hurricane|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dondozo|65/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|
+|t:|1757726759
+|move|p2a: Sinistcha|Life Dew||[still]|[spread] p2a,p2b
+|-heal|p2a: Sinistcha|76/100
+|-fail|p2b: Pelipper|heal
+|move|p2b: Pelipper|Hurricane|p1a: Dondozo
+|-supereffective|p1a: Dondozo
+|-damage|p1a: Dondozo|20/100
+|-start|p1a: Dondozo|confusion
+|-activate|p1a: Dondozo|confusion
+|move|p1a: Dondozo|Order Up|p2b: Pelipper
+|-damage|p2b: Pelipper|28/100
+|-boost|p1a: Dondozo|atk|1
+|
+|-weather|none
+|-heal|p1a: Dondozo|26/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1757726772
+|move|p2b: Pelipper|Protect|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Protect
+|-end|p1a: Dondozo|confusion
+|move|p1a: Dondozo|Order Up|p2a: Sinistcha
+|-damage|p2a: Sinistcha|16/100
+|-boost|p1a: Dondozo|atk|1
+|move|p2a: Sinistcha|Trick Room|p2a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2a: Sinistcha
+|
+|-heal|p1a: Dondozo|32/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1757726782
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2a: Sinistcha|Life Dew|p2a: Sinistcha|[spread] p2a,p2b
+|-heal|p2a: Sinistcha|41/100
+|-heal|p2b: Pelipper|53/100
+|move|p2b: Pelipper|Hurricane|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p1a: Dondozo|38/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1757726790
+|move|p2a: Sinistcha|Life Dew|p2a: Sinistcha|[spread] p2a,p2b
+|-heal|p2a: Sinistcha|66/100
+|-heal|p2b: Pelipper|78/100
+|move|p2b: Pelipper|Hurricane|p1a: Dondozo|[miss]
+|-miss|p2b: Pelipper|p1a: Dondozo
+|move|p1a: Dondozo|Wave Crash|p2b: Pelipper
+|-resisted|p2b: Pelipper
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|-damage|p1a: Dondozo|23/100|[from] Recoil
+|
+|-heal|p1a: Dondozo|29/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757726799
+|switch|p2b: Maushold|Maushold, L50|43/100
+|turn|10
+|
+|t:|1757726810
+|move|p1a: Dondozo|Protect|p1a: Dondozo
+|-singleturn|p1a: Dondozo|Protect
+|move|p2a: Sinistcha|Life Dew|p2a: Sinistcha|[spread] p2a,p2b
+|-heal|p2a: Sinistcha|92/100
+|-heal|p2b: Maushold|68/100
+|move|p2b: Maushold|Population Bomb|p1a: Dondozo
+|-activate|p1a: Dondozo|move: Protect
+|
+|-heal|p1a: Dondozo|35/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1757726817
+|move|p2a: Sinistcha|Life Dew|p2a: Sinistcha|[spread] p2a,p2b
+|-heal|p2a: Sinistcha|100/100
+|-heal|p2b: Maushold|93/100
+|move|p2b: Maushold|Population Bomb|p1a: Dondozo
+|-damage|p1a: Dondozo|31/100
+|-damage|p1a: Dondozo|26/100
+|-damage|p1a: Dondozo|22/100
+|-damage|p1a: Dondozo|17/100
+|-damage|p1a: Dondozo|13/100
+|-damage|p1a: Dondozo|8/100
+|-damage|p1a: Dondozo|4/100
+|-damage|p1a: Dondozo|0 fnt
+|faint|p1a: Dondozo
+|-hitcount|p1: Dondozo|8
+|
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1757726831
+|switch|p1a: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1a: Indeedee
+|turn|12
+|
+|t:|1757726841
+|move|p2b: Maushold|Protect|p2b: Maushold
+|-singleturn|p2b: Maushold|Protect
+|move|p1a: Indeedee|Protect|p1a: Indeedee
+|-singleturn|p1a: Indeedee|Protect
+|move|p1b: Tatsugiri|Muddy Water|p2a: Sinistcha|[spread] 
+|-activate|p2b: Maushold|move: Protect
+|-miss|p1b: Tatsugiri|p2a: Sinistcha
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Indeedee|[spread] p1b
+|-activate|p1a: Indeedee|move: Protect
+|-damage|p1b: Tatsugiri|68/100
+|-status|p1b: Tatsugiri|brn
+|
+|-damage|p1b: Tatsugiri|63/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1757726857
+|move|p1b: Tatsugiri|Muddy Water|p2a: Sinistcha|[spread] p2a,p2b
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|85/100
+|-damage|p2b: Maushold|41/100
+|move|p2b: Maushold|Population Bomb|p1a: Indeedee
+|-damage|p1a: Indeedee|78/100
+|-damage|p1a: Indeedee|54/100
+|-damage|p1a: Indeedee|31/100
+|-damage|p1a: Indeedee|7/100
+|-damage|p1a: Indeedee|0 fnt
+|faint|p1a: Indeedee
+|-hitcount|p1: Indeedee|5
+|move|p2a: Sinistcha|Life Dew|p2a: Sinistcha|[spread] p2a,p2b
+|-heal|p2a: Sinistcha|100/100
+|-heal|p2b: Maushold|66/100
+|
+|-damage|p1b: Tatsugiri|57/100 brn|[from] brn
+|upkeep
+|
+|t:|1757726861
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|14
+|
+|t:|1757726879
+|move|p2b: Maushold|Follow Me|p2b: Maushold
+|-singleturn|p2b: Maushold|move: Follow Me
+|move|p1a: Sneasler|Throat Chop|p2b: Maushold
+|-damage|p2b: Maushold|15/100
+|-start|p2b: Maushold|Throat Chop|[silent]
+|move|p1b: Tatsugiri|Muddy Water|p2a: Sinistcha|[spread] p2a,p2b
+|-resisted|p2a: Sinistcha
+|-damage|p2a: Sinistcha|87/100
+|-damage|p2b: Maushold|0 fnt
+|faint|p2b: Maushold
+|move|p2a: Sinistcha|Trick Room|p2a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2a: Sinistcha
+|
+|-damage|p1b: Tatsugiri|52/100 brn|[from] brn
+|upkeep
+|
+|t:|1757726884
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|turn|15
+|
+|t:|1757726896
+|move|p2a: Sinistcha|Rage Powder|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|move: Rage Powder
+|move|p2b: Basculegion|Last Respects|p1b: Tatsugiri
+|-damage|p1b: Tatsugiri|0 fnt
+|faint|p1b: Tatsugiri
+|move|p1a: Sneasler|Throat Chop|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha
+|-damage|p2a: Sinistcha|29/100
+|-start|p2a: Sinistcha|Throat Chop|[silent]
+|
+|upkeep
+|turn|16
+|
+|t:|1757726905
+|move|p2a: Sinistcha|Life Dew||[still]|[spread] p2a,p2b
+|-heal|p2a: Sinistcha|54/100
+|-fail|p2b: Basculegion|heal
+|move|p2b: Basculegion|Last Respects|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|win|5NitesAtTrickRoom
+|c|☆5NitesAtTrickRoom|whew thats literally how i lsot last nite
+|c|☆5NitesAtTrickRoom|i brought gambit>basc tho
+|c|☆EggEngines2|you played that well. i think this MU isn't that bad as long as you don't lose the dozo switch 50/50 t1 or lose the sneasler t1 game
+|c|☆5NitesAtTrickRoom|missing canes sucks
+|c|☆EggEngines2|yeah i think basc is way better here
+|c|☆EggEngines2|ohko's everything except bear once it gets a stack

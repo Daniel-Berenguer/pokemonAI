@@ -1,0 +1,143 @@
+|j|☆wade connects
+|j|☆HalcyonJon
+|html|wade connectsHalcyonJon    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757649990
+|gametype|doubles
+|player|p1|wade connects|1|1086
+|player|p2|HalcyonJon|pokemonbreeder|1150
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Malamar, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Lilligant-Hisui, L50, F|
+|poke|p2|Espeon, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Glimmora, L50, F|
+|poke|p2|Houndstone, L50, F|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Tyranitar, L50, F|
+|teampreview|4
+|showteam|p1|Malamar||SafetyGoggles|Contrary|Protect,TrickRoom,Superpower,KnockOff|||M|||50|,,,,,Water]Indeedee-F||PsychicSeed|PsychicSurge|Protect,HelpingHand,FollowMe,TrickRoom|||F|||50|,,,,,Grass]Hatterene||LifeOrb|MagicBounce|Protect,TrickRoom,ExpandingForce,DazzlingGleam|||F|||50|,,,,,Water]Torkoal||Charcoal|Drought|Protect,Overheat,Eruption,HeatWave|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Protect,Facade,HeadlongRush,SwordsDance|||M|||50|,,,,,Ghost]Lilligant-Hisui||FocusSash|Chlorophyll|AfterYou,SleepPowder,LeafBlade,CloseCombat|||F|||50|,,,,,Ghost
+|showteam|p2|Espeon||FocusSash|MagicBounce|ExpandingForce,TeraBlast,SkillSwap,Detect|||F|||50|,,,,,Ground]Indeedee-F||RockyHelmet|PsychicSurge|Psychic,FollowMe,HelpingHand,TrickRoom|||F|||50|,,,,,Fairy]Glimmora||PowerHerb|ToxicDebris|SludgeBomb,MeteorBeam,StealthRock,SpikyShield|||F|||50|,,,,,Grass]Houndstone||ClearAmulet|SandRush|LastRespects,PhantomForce,PlayRough,Protect|||F|||50|,,,,,Fairy]Primarina||SafetyGoggles|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||F|||50|,,,,,Steel]Tyranitar||AssaultVest|SandStream|KnockOff,RockSlide,TeraBlast,BreakingSwipe|||F|||50|,,,,,Flying
+|
+|t:|1757650047
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Malamar|Malamar, L50, M, shiny|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p2a: Espeon|Espeon, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p1b: Indeedee|Psychic Seed
+|-boost|p1b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757650095
+|switch|p2a: Primarina|Primarina, L50, F|100/100
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p1a: Malamar|Superpower|p2b: Indeedee
+|-damage|p2b: Indeedee|71/100
+|-boost|p1a: Malamar|atk|1
+|-boost|p1a: Malamar|def|1
+|-damage|p1a: Malamar|84/100|[from] item: Rocky Helmet|[of] p2b: Indeedee
+|move|p2b: Indeedee|Trick Room|p2b: Indeedee
+|-fieldstart|move: Trick Room|[of] p2b: Indeedee
+|
+|upkeep
+|turn|2
+|
+|t:|1757650128
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1a: Malamar|Knock Off|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-damage|p1a: Malamar|68/100|[from] item: Rocky Helmet|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Rocky Helmet|[from] move: Knock Off|[of] p1a: Malamar
+|faint|p2b: Indeedee
+|move|p2a: Primarina|Haze|p2a: Primarina
+|-clearallboost
+|
+|upkeep
+|
+|t:|1757650146
+|switch|p2b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|turn|3
+|
+|t:|1757650171
+|switch|p2b: Espeon|Espeon, L50, F|100/100
+|move|p1b: Hatterene|Expanding Force|p2b: Espeon|[spread] p2a,p2b
+|-resisted|p2b: Espeon
+|-damage|p2a: Primarina|20/100
+|-damage|p2b: Espeon|42/100
+|-damage|p1b: Hatterene|91/100|[from] item: Life Orb
+|move|p1a: Malamar|Knock Off|p2b: Espeon
+|-supereffective|p2b: Espeon
+|-damage|p2b: Espeon|0 fnt
+|-enditem|p2b: Espeon|Focus Sash|[from] move: Knock Off|[of] p1a: Malamar
+|faint|p2b: Espeon
+|move|p2a: Primarina|Moonblast|p1a: Malamar
+|-supereffective|p1a: Malamar
+|-damage|p1a: Malamar|0 fnt
+|faint|p1a: Malamar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Hatterene|85/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757650187
+|switch|p1a: Indeedee|Indeedee-F, L50, F, shiny|100/100
+|switch|p2b: Tyranitar|Tyranitar, L50, F|100/100
+|turn|4
+|
+|t:|1757650202
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p1b: Hatterene|Dazzling Gleam|p2a: Primarina|[spread] p2a,p2b
+|-supereffective|p2b: Tyranitar
+|-damage|p2a: Primarina|0 fnt
+|-damage|p2b: Tyranitar|48/100
+|faint|p2a: Primarina
+|-damage|p1b: Hatterene|75/100|[from] item: Life Orb
+|move|p2b: Tyranitar|Rock Slide|p1b: Hatterene|[spread] p1a,p1b
+|-supereffective|p1a: Torkoal
+|-damage|p1a: Torkoal|49/100
+|-damage|p1b: Hatterene|38/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757650221
+|-terastallize|p1a: Torkoal|Fire
+|move|p1a: Torkoal|Overheat|p2b: Tyranitar
+|-resisted|p2b: Tyranitar
+|-damage|p2b: Tyranitar|10/100
+|-unboost|p1a: Torkoal|spa|2
+|move|p1b: Hatterene|Dazzling Gleam|p2b: Tyranitar
+|-supereffective|p2b: Tyranitar
+|-damage|p2b: Tyranitar|0 fnt
+|faint|p2b: Tyranitar
+|-damage|p1b: Hatterene|29/100|[from] item: Life Orb
+|
+|win|wade connects
+||HalcyonJon is ready for game 2.
+|inactive|wade connects has 30 seconds to confirm battle start!
+||wade connects is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆wade connects
+|player|p1|
+|l|☆HalcyonJon
+|player|p2|

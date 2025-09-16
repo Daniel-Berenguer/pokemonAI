@@ -1,0 +1,250 @@
+|j|☆hungry hillo
+|j|☆413XPlayz
+|html|hungry hillo413XPlayz    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756918253
+|gametype|doubles
+|player|p1|hungry hillo|n|1116
+|player|p2|413XPlayz|169|1253
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Electabuzz, L50, M|
+|poke|p1|Ursaluna-Bloodmoon, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p2|Rillaboom, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Arcanine-Hisui, L50, M|
+|poke|p2|Dragonite, L50, F|
+|teampreview|4
+|showteam|p1|Incineroar||MirrorHerb|Intimidate|FakeOut,KnockOff,PartingShot,FlareBlitz|||M|||50|,,,,,Bug]Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,SwordsDance,Protect|||F|||50|,,,,,Dark]Annihilape||SafetyGoggles|Defiant|BulkUp,DrainPunch,RageFist,Protect|||M|||50|,,,,,Fire]Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Protect|||M|||50|,,,,,Ghost]Ursaluna-Bloodmoon||LifeOrb|MindsEye|EarthPower,BloodMoon,HyperVoice,Protect|||M|||50|,,,,,Normal]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,WoodHammer,Uturn|||F|||50|,,,,,Water
+|showteam|p2|Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,DrumBeating,HighHorsepower|||M|||50|,,,,,Fire]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,Coaching,Protect|||M|||50|,,,,,Ghost]Gholdengo||GrassySeed|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,IcyWind,Encore,AuroraVeil|||M|||50|,,,,,Ghost]Arcanine-Hisui||ClearAmulet|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||M|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Tailwind,Protect|||F|||50|,,,,,Ground
+|
+|t:|1756918300
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Garfield|Incineroar, L50, M|100/100
+|switch|p1b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Rillaboom
+|-ability|p1a: Garfield|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2b: Rillaboom|atk|1
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|turn|1
+|
+|t:|1756918323
+|-terastallize|p1b: Ursaluna|Normal
+|move|p2b: Rillaboom|Fake Out|p1a: Garfield
+|-damage|p1a: Garfield|94/100
+|cant|p1a: Garfield|flinch
+|move|p2a: Sneasler|Close Combat|p1b: Ursaluna
+|-supereffective|p1b: Ursaluna
+|-damage|p1b: Ursaluna|4/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|move|p1b: Ursaluna|Hyper Voice|p2a: Sneasler|[spread] p2a,p2b
+|-damage|p2a: Sneasler|0 fnt
+|-damage|p2b: Rillaboom|52/100
+|faint|p2a: Sneasler
+|-damage|p1b: Ursaluna|0 fnt|[from] item: Life Orb
+|faint|p1b: Ursaluna
+|
+|-heal|p2b: Rillaboom|58/100|[from] Grassy Terrain
+|-heal|p1a: Garfield|99/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756918338
+|switch|p2a: Dragonite|Dragonite, L50, F|100/100
+|switch|p1b: Bumble bee|Electabuzz, L50, M|100/100
+|turn|2
+|
+|t:|1756918345
+|switch|p2b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|-terastallize|p2a: Dragonite|Ground
+|move|p1b: Bumble bee|Electroweb|p2a: Dragonite|[spread] p2b
+|-immune|p2a: Dragonite
+|-damage|p2b: Ninetales|84/100
+|-unboost|p2b: Ninetales|spe|1
+|move|p2a: Dragonite|Stomping Tantrum|p1a: Garfield
+|-supereffective|p1a: Garfield
+|-crit|p1a: Garfield
+|-damage|p1a: Garfield|0 fnt
+|faint|p1a: Garfield
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Ninetales|90/100|[from] Grassy Terrain
+|upkeep
+|c|☆413XPlayz|sry
+|
+|t:|1756918357
+|switch|p1a: Shang chi|Kingambit, L50, F, shiny|100/100
+|turn|3
+|
+|t:|1756918390
+|move|p1b: Bumble bee|Taunt|p2b: Ninetales
+|-start|p2b: Ninetales|move: Taunt
+|move|p2a: Dragonite|Stomping Tantrum|p1a: Shang chi
+|-supereffective|p1a: Shang chi
+|-damage|p1a: Shang chi|34/100
+|cant|p2b: Ninetales|move: Taunt|Aurora Veil
+|move|p1a: Shang chi|Swords Dance|p1a: Shang chi
+|-boost|p1a: Shang chi|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Ninetales|96/100|[from] Grassy Terrain
+|-heal|p1a: Shang chi|40/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756918403
+|move|p1b: Bumble bee|Follow Me|p1b: Bumble bee
+|-singleturn|p1b: Bumble bee|move: Follow Me
+|move|p1a: Shang chi|Sucker Punch|p2a: Dragonite
+|-damage|p2a: Dragonite|44/100
+|move|p2a: Dragonite|Stomping Tantrum|p1b: Bumble bee
+|-supereffective|p1b: Bumble bee
+|-damage|p1b: Bumble bee|22/100
+|move|p2b: Ninetales|Blizzard|p1a: Shang chi|[spread] p1a,p1b
+|-resisted|p1a: Shang chi
+|-damage|p1a: Shang chi|24/100
+|-damage|p1b: Bumble bee|0 fnt
+|faint|p1b: Bumble bee
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2a: Dragonite|50/100|[from] Grassy Terrain
+|-heal|p2b: Ninetales|100/100|[from] Grassy Terrain
+|-heal|p1a: Shang chi|29/100|[from] Grassy Terrain
+|upkeep
+|turn|5
+|
+|t:|1756918415
+|move|p1a: Shang chi|Sucker Punch|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|move|p2b: Ninetales|Blizzard|p1a: Shang chi
+|-resisted|p1a: Shang chi
+|-damage|p1a: Shang chi|9/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Shang chi|15/100|[from] Grassy Terrain
+|-end|p2b: Ninetales|move: Taunt
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756918418
+|switch|p2a: Rillaboom|Rillaboom, L50, M|58/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|6
+|
+|t:|1756918422
+|move|p1a: Shang chi|Protect|p1a: Shang chi
+|-singleturn|p1a: Shang chi|Protect
+|move|p2a: Rillaboom|Fake Out|p1a: Shang chi
+|-activate|p1a: Shang chi|move: Protect
+|move|p2b: Ninetales|Blizzard|p1a: Shang chi
+|-activate|p1a: Shang chi|move: Protect
+|
+|-weather|none
+|-heal|p2a: Rillaboom|64/100|[from] Grassy Terrain
+|-heal|p1a: Shang chi|21/100|[from] Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1756918426
+|move|p1a: Shang chi|Sucker Punch|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|move|p2b: Ninetales|Blizzard|p1a: Shang chi|[miss]
+|-miss|p2b: Ninetales|p1a: Shang chi
+|
+|-heal|p1a: Shang chi|27/100|[from] Grassy Terrain
+|upkeep
+|turn|8
+|
+|t:|1756918436
+|move|p1a: Shang chi|Sucker Punch||[still]
+|-fail|p1a: Shang chi
+|move|p2b: Ninetales|Encore|p1a: Shang chi
+|-start|p1a: Shang chi|Encore
+|
+|-heal|p1a: Shang chi|32/100|[from] Grassy Terrain
+|upkeep
+|turn|9
+|
+|t:|1756918440
+|move|p1a: Shang chi|Sucker Punch||[still]
+|-fail|p1a: Shang chi
+|move|p2b: Ninetales|Aurora Veil||[still]
+|-fail|p2b: Ninetales
+|
+|-heal|p1a: Shang chi|38/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1756918445
+|move|p1a: Shang chi|Sucker Punch||[still]
+|-fail|p1a: Shang chi
+|move|p2b: Ninetales|Aurora Veil||[still]
+|-fail|p2b: Ninetales
+|
+|-heal|p1a: Shang chi|44/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1756918448
+|move|p1a: Shang chi|Sucker Punch||[still]
+|-fail|p1a: Shang chi
+|move|p2b: Ninetales|Aurora Veil||[still]
+|-fail|p2b: Ninetales
+|
+|-end|p1a: Shang chi|Encore
+|upkeep
+|turn|12
+|
+|t:|1756918453
+|move|p2b: Ninetales|Encore|p1a: Shang chi
+|-start|p1a: Shang chi|Encore
+|move|p1a: Shang chi|Sucker Punch||[still]
+|-fail|p1a: Shang chi
+|
+|-end|p1a: Shang chi|Encore
+|upkeep
+|turn|13
+|
+|t:|1756918460
+|move|p2b: Ninetales|Blizzard|p1a: Shang chi|[miss]
+|-miss|p2b: Ninetales|p1a: Shang chi
+|move|p1a: Shang chi|Kowtow Cleave|p2b: Ninetales
+|-resisted|p2b: Ninetales
+|-damage|p2b: Ninetales|20/100
+|
+|upkeep
+|turn|14
+|
+|t:|1756918466
+|move|p2b: Ninetales|Blizzard|p1a: Shang chi
+|-resisted|p1a: Shang chi
+|-damage|p1a: Shang chi|25/100
+|move|p1a: Shang chi|Kowtow Cleave|p2b: Ninetales
+|-resisted|p2b: Ninetales
+|-damage|p2b: Ninetales|0 fnt
+|faint|p2b: Ninetales
+|
+|win|hungry hillo
+||hungry hillo is ready for game 3.
+||413XPlayz is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

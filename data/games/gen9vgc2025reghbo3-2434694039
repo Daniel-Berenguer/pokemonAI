@@ -1,0 +1,148 @@
+|j|☆KodeBeast0526
+|j|☆sbhaga34
+|html|KodeBeast0526sbhaga34    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756939655
+|gametype|doubles
+|player|p1|KodeBeast0526|sailor|1160
+|player|p2|sbhaga34|hugh|1237
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Annihilape, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Hydreigon, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Gardevoir, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|teampreview|4
+|showteam|p1|Excadrill||FocusSash|SandRush|IronHead,HighHorsepower,Earthquake,Protect|||M|||50|,,,,,Stellar]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||F|||50|,,,,,Flying]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Protect,Trick|||M|||50|,,,,,Psychic]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Roost,Tailwind|||F|||50|,,,,,Dragon]Annihilape||SafetyGoggles|Defiant|CloseCombat,FinalGambit,RageFist,Taunt|||M|||50|,,,,,Water
+|showteam|p2|Indeedee-F||SafetyGoggles|PsychicSurge|FollowMe,TrickRoom,HelpingHand,Psychic|||F|||50|,,,,,Fairy]Hydreigon||CovertCloak|Levitate|DracoMeteor,Flamethrower,Tailwind,Taunt|||M|||50|,,,,,Fire]Tyranitar||WeaknessPolicy|SandStream|RockSlide,KnockOff,LowKick,Protect|||F|||50|,,,,,Flying]Excadrill||FocusSash|SandRush|Earthquake,IronHead,SwordsDance,Protect|||F|||50|,,,,,Ground]Gardevoir||ChoiceScarf|Telepathy|ExpandingForce,DazzlingGleam,Moonblast,IcyWind|||M|||50|,,,,,Psychic]Ursaluna-Bloodmoon||AssaultVest|MindsEye|BloodMoon,HyperVoice,EarthPower,VacuumWave|||M|||50|,,,,,Water
+|
+|t:|1756939708
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, M, shiny|100/100
+|switch|p1b: Indeedee|Indeedee, L50, M, shiny|100/100
+|switch|p2a: Hydreigon|Hydreigon, L50, M|100/100
+|switch|p2b: Excadrill|Excadrill, L50, F, shiny|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Indeedee
+|-enditem|p1a: Sneasler|Psychic Seed
+|-boost|p1a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1756939727
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|-terastallize|p2b: Excadrill|Ground
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p2b: Excadrill|Earthquake|p1b: Indeedee|[spread] p2a,p1b
+|-activate|p1a: Sneasler|move: Protect
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|11/100
+|-damage|p1b: Indeedee|0 fnt
+|-enditem|p2a: Tyranitar|Weakness Policy
+|-boost|p2a: Tyranitar|atk|2|[from] item: Weakness Policy
+|-boost|p2a: Tyranitar|spa|2|[from] item: Weakness Policy
+|faint|p1b: Indeedee
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneasler|95/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756939751
+|switch|p1b: Excadrill|Excadrill, L50, M, shiny|100/100
+|turn|2
+|
+|t:|1756939791
+|move|p2b: Excadrill|Protect|p2b: Excadrill
+|-singleturn|p2b: Excadrill|Protect
+|move|p1a: Sneasler|Dire Claw|p2b: Excadrill
+|-activate|p2b: Excadrill|move: Protect
+|move|p1b: Excadrill|Iron Head|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneasler|89/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756939802
+|switch|p2a: Hydreigon|Hydreigon, L50, M|100/100
+|turn|3
+|
+|t:|1756939829
+|-terastallize|p1a: Sneasler|Dark
+|move|p1a: Sneasler|Dire Claw|p2b: Excadrill
+|-resisted|p2b: Excadrill
+|-damage|p2b: Excadrill|68/100
+|-status|p2b: Excadrill|par
+|move|p1b: Excadrill|Earthquake|p2b: Excadrill|[spread] p1a,p2b
+|-immune|p2a: Hydreigon|[from] ability: Levitate
+|-damage|p1a: Sneasler|19/100
+|-damage|p2b: Excadrill|4/100 par
+|move|p2a: Hydreigon|Tailwind|p2a: Hydreigon
+|-sidestart|p2: sbhaga34|move: Tailwind
+|cant|p2b: Excadrill|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneasler|13/100|[from] Sandstorm
+|-damage|p2a: Hydreigon|95/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1756939849
+|move|p1a: Sneasler|Close Combat|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon
+|-damage|p2a: Hydreigon|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Hydreigon
+|cant|p2b: Excadrill|par
+|move|p1b: Excadrill|High Horsepower|p2b: Excadrill|[miss]
+|-miss|p1b: Excadrill|p2b: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sneasler|8/100|[from] Sandstorm
+|upkeep
+|
+|t:|1756939862
+|switch|p2a: Gardevoir|Gardevoir, L50, M, shiny|100/100
+|turn|5
+|
+|t:|1756939870
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p2a: Gardevoir|Icy Wind|p1a: Sneasler|[spread] 
+|-activate|p1a: Sneasler|move: Protect
+|-miss|p2a: Gardevoir|p1b: Excadrill
+|move|p1b: Excadrill|Earthquake|p2a: Gardevoir|[spread] p2a,p2b
+|-activate|p1a: Sneasler|move: Protect
+|-damage|p2a: Gardevoir|42/100
+|-damage|p2b: Excadrill|0 fnt
+|faint|p2b: Excadrill
+|
+|-weather|none
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|-message|sbhaga34 forfeited.
+|
+|win|KodeBeast0526
+|l|☆sbhaga34
+|player|p2|
+||KodeBeast0526 is ready for game 2.
+||sbhaga34 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

@@ -1,0 +1,170 @@
+|j|☆natanlcz
+|j|☆LLKep10
+|html|natanlczLLKep10    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757852170
+|gametype|doubles
+|player|p1|natanlcz|169|
+|player|p2|LLKep10|265|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gothitelle, L50, F|
+|poke|p1|Politoed, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Gengar, L50, F|
+|poke|p1|Clefairy, L50, F|
+|poke|p2|Garganacl, L50, M|
+|poke|p2|Abomasnow, L50, F|
+|poke|p2|Maushold-Four, L50|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Scovillain, L50, M|
+|poke|p2|Bellibolt, L50, F|
+|teampreview|4
+|showteam|p1|Gothitelle||SitrusBerry|ShadowTag|TrickRoom,Protect,HealPulse,FakeOut|||F|||50|,,,,,Dark]Politoed||CovertCloak|Drizzle|PerishSong,Haze,WeatherBall,Protect|||F|||50|,,,,,Grass]Basculegion||MysticWater|SwiftSwim|LastRespects,Protect,AquaJet,WaveCrash|||M|||50|,,,,,Water]Incineroar||SafetyGoggles|Intimidate|Protect,PartingShot,FakeOut,KnockOff|||F|||50|,,,,,Fire]Gengar||FocusSash|CursedBody|Protect,PerishSong,ShadowBall,SludgeBomb|||F|||50|,,,,,Ghost]Clefairy||Eviolite|FriendGuard|FollowMe,BatonPass,LifeDew,CosmicPower|||F|||50|,,,,,Fairy
+|showteam|p2|Garganacl||SitrusBerry|PurifyingSalt|SaltCure,StealthRock,BodyPress,Protect|||M|||50|,,,,,Electric]Abomasnow||LightClay|SnowWarning|AuroraVeil,Blizzard,GigaDrain,WeatherBall|||F|||50|,,,,,Fairy]Maushold-Four||WideLens|Technician|PopulationBomb,TidyUp,Bite,Protect||||||50|,,,,,Fairy]Typhlosion-Hisui||ChoiceSpecs|Blaze|Overheat,ShadowBall,Protect,LavaPlume|||M|||50|,,,,,Fire]Scovillain||Leftovers|Moody|Substitute,EnergyBall,Flamethrower,GigaDrain|||M|||50|,,,,,Grass]Bellibolt|||Static|ChillingWater,ThunderWave,Protect,SlackOff|||F|||50|,,,,,Electric
+|
+|t:|1757852214
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gothitelle|Gothitelle, L50, F|100/100
+|switch|p1b: Politoed|Politoed, L50, F|100/100
+|switch|p2a: Abomasnow|Abomasnow, L50, F|100/100
+|switch|p2b: Scovillain|Scovillain, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Politoed
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|1
+|
+|t:|1757852257
+|move|p1a: Gothitelle|Fake Out|p2b: Scovillain
+|-damage|p2b: Scovillain|93/100
+|cant|p2b: Scovillain|flinch
+|move|p1b: Politoed|Perish Song|p1b: Politoed
+|-start|p1a: Gothitelle|perish3|[silent]
+|-start|p1b: Politoed|perish3|[silent]
+|-start|p2a: Abomasnow|perish3|[silent]
+|-start|p2b: Scovillain|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Abomasnow|Aurora Veil|p2a: Abomasnow
+|-sidestart|p2: LLKep10|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Scovillain|99/100|[from] item: Leftovers
+|-start|p1a: Gothitelle|perish3
+|-start|p2b: Scovillain|perish3
+|-start|p1b: Politoed|perish3
+|-start|p2a: Abomasnow|perish3
+|-ability|p2b: Scovillain|Moody|boost
+|-boost|p2b: Scovillain|atk|2
+|-unboost|p2b: Scovillain|spe|1
+|upkeep
+|turn|2
+|
+|t:|1757852304
+|switch|p1b: Clefairy|Clefairy, L50, F|100/100
+|move|p1a: Gothitelle|Protect|p1a: Gothitelle
+|-singleturn|p1a: Gothitelle|Protect
+|move|p2a: Abomasnow|Giga Drain|p1b: Clefairy
+|-damage|p1b: Clefairy|78/100
+|move|p2b: Scovillain|Energy Ball|p1b: Clefairy
+|-damage|p1b: Clefairy|51/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Scovillain|100/100|[from] item: Leftovers
+|-start|p1a: Gothitelle|perish2
+|-start|p2a: Abomasnow|perish2
+|-start|p2b: Scovillain|perish2
+|-ability|p2b: Scovillain|Moody|boost
+|-boost|p2b: Scovillain|spd|2
+|-unboost|p2b: Scovillain|atk|1
+|upkeep
+|turn|3
+|
+|t:|1757852338
+|move|p1a: Gothitelle|Heal Pulse|p1b: Clefairy
+|-heal|p1b: Clefairy|100/100
+|move|p2a: Abomasnow|Blizzard|p1a: Gothitelle|[spread] p1a,p1b
+|-damage|p1a: Gothitelle|81/100
+|-damage|p1b: Clefairy|78/100
+|move|p2b: Scovillain|Flamethrower|p1b: Clefairy
+|-damage|p1b: Clefairy|48/100
+|move|p1b: Clefairy|Cosmic Power|p1b: Clefairy
+|-boost|p1b: Clefairy|def|1
+|-boost|p1b: Clefairy|spd|1
+|
+|-weather|Snowscape|[upkeep]
+|-start|p1a: Gothitelle|perish1
+|-start|p2a: Abomasnow|perish1
+|-start|p2b: Scovillain|perish1
+|-ability|p2b: Scovillain|Moody|boost
+|-boost|p2b: Scovillain|spd|2
+|-unboost|p2b: Scovillain|def|1
+|upkeep
+|turn|4
+|
+|t:|1757852364
+|move|p1a: Gothitelle|Heal Pulse|p1b: Clefairy
+|-heal|p1b: Clefairy|98/100
+|move|p2a: Abomasnow|Aurora Veil||[still]
+|-fail|p2a: Abomasnow
+|move|p2b: Scovillain|Substitute|p2b: Scovillain
+|-start|p2b: Scovillain|Substitute
+|-damage|p2b: Scovillain|76/100
+|move|p1b: Clefairy|Life Dew|p1b: Clefairy|[spread] p1a,p1b
+|-heal|p1a: Gothitelle|100/100
+|-heal|p1b: Clefairy|100/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Scovillain|82/100|[from] item: Leftovers
+|-start|p1a: Gothitelle|perish0
+|-start|p2a: Abomasnow|perish0
+|-start|p2b: Scovillain|perish0
+|faint|p1a: Gothitelle
+|faint|p2a: Abomasnow
+|faint|p2b: Scovillain
+|upkeep
+|
+|t:|1757852381
+|switch|p1a: Politoed|Politoed, L50, F|100/100
+|switch|p2b: Bellibolt|Bellibolt, L50, F|100/100
+|switch|p2a: Garganacl|Garganacl, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|5
+|
+|t:|1757852413
+|move|p1a: Politoed|Perish Song|p1a: Politoed
+|-start|p1a: Politoed|perish3|[silent]
+|-start|p1b: Clefairy|perish3|[silent]
+|-start|p2a: Garganacl|perish3|[silent]
+|-start|p2b: Bellibolt|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2b: Bellibolt|Thunder Wave|p1a: Politoed
+|-status|p1a: Politoed|par
+|move|p2a: Garganacl|Salt Cure|p1b: Clefairy
+|-damage|p1b: Clefairy|90/100
+|-start|p1b: Clefairy|Salt Cure
+|move|p1b: Clefairy|Cosmic Power|p1b: Clefairy
+|-boost|p1b: Clefairy|def|1
+|-boost|p1b: Clefairy|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Clefairy|77/100|[from] Salt Cure
+|-start|p2b: Bellibolt|perish3
+|-start|p1b: Clefairy|perish3
+|-start|p2a: Garganacl|perish3
+|-start|p1a: Politoed|perish3
+|upkeep
+|turn|6
+|-message|LLKep10 forfeited.
+|
+|win|natanlcz
+|l|☆LLKep10
+|player|p2|
+||LLKep10 is ready for game 2.
+|inactive|natanlcz has 30 seconds to confirm battle start!
+||natanlcz is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

@@ -1,0 +1,161 @@
+|j|☆spearow's nest
+|j|☆luckstat10
+|html|spearow's nestluckstat10    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1757002736
+|gametype|doubles
+|player|p1|spearow's nest|lance|1203
+|player|p2|luckstat10|266|1197
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Dragapult, L50, F|
+|teampreview|4
+|showteam|p1|Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|Protect,ScaleShot,LowKick,Haze|||M|||50|,,,,,Fairy]Sneasler||WhiteHerb|Unburden|Protect,DireClaw,CloseCombat,Coaching|||M|||50|,,,,,Ghost]Ninetales-Alola||ChoiceSpecs|SnowWarning|Blizzard,IcyWind,Moonblast,FreezeDry|||F|||50|,,,,,Ghost]Kingambit||SafetyGoggles|Defiant|Protect,KowtowCleave,SuckerPunch,SwordsDance|||M|||50|,,,,,Dark]Volcarona||CovertCloak|FlameBody|StruggleBug,RagePowder,Overheat,WillOWisp|||F|||50|,,,,,Fairy
+|showteam|p2|Whimsicott||CovertCloak|Prankster|Tailwind,SunnyDay,Encore,Moonblast|||F|||50|,,,,,Fire]Typhlosion-Hisui||ChoiceScarf|Blaze|Eruption,HeatWave,ShadowBall,Flamethrower|||M|||50|,,,,,Fire]Ursaluna-Bloodmoon||LifeOrb|MindsEye|BloodMoon,HyperVoice,EarthPower,Protect|||M|||50|,,,,,Ghost]Indeedee||FocusSash|PsychicSurge|ExpandingForce,DazzlingGleam,HelpingHand,Protect|||M|||50|,,,,,Psychic]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Dragapult||ChoiceBand|ClearBody|DragonDarts,TeraBlast,PhantomForce,Uturn|||F|||50|,,,,,Ghost
+|
+|t:|1757002759
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757002785
+|switch|p2a: Dragapult|Dragapult, L50, F|100/100
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2b: Sneasler|Close Combat|p1a: Kingambit
+|-activate|p1a: Kingambit|move: Protect
+|move|p1b: Volcarona|Struggle Bug|p2b: Sneasler|[spread] p2a,p2b
+|-resisted|p2a: Dragapult
+|-resisted|p2b: Sneasler
+|-damage|p2a: Dragapult|89/100
+|-damage|p2b: Sneasler|97/100
+|-unboost|p2b: Sneasler|spa|1
+|
+|upkeep
+|turn|2
+|
+|t:|1757002825
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L50, M, shiny|100/100
+|-terastallize|p1b: Volcarona|Fairy
+|move|p1b: Volcarona|Rage Powder|p1b: Volcarona
+|-singleturn|p1b: Volcarona|move: Rage Powder
+|move|p2b: Sneasler|Dire Claw|p1b: Volcarona
+|-supereffective|p1b: Volcarona
+|-damage|p1b: Volcarona|0 fnt
+|-status|p2b: Sneasler|brn|[from] ability: Flame Body|[of] p1b: Volcarona
+|faint|p1b: Volcarona
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Typhlosion
+|-supereffective|p2a: Typhlosion
+|-damage|p2a: Typhlosion|0 fnt
+|faint|p2a: Typhlosion
+|
+|-damage|p2b: Sneasler|91/100 brn|[from] brn
+|upkeep
+|
+|t:|1757002854
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|switch|p2a: Dragapult|Dragapult, L50, F|89/100
+|turn|3
+|
+|t:|1757002894
+|move|p2b: Sneasler|Close Combat|p1a: Kingambit
+|-supereffective|p1a: Kingambit
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1a: Kingambit
+|move|p2a: Dragapult|Phantom Force||[still]
+|-prepare|p2a: Dragapult|Phantom Force
+|move|p1b: Dragonite|Scale Shot|p2a: Dragapult|[miss]
+|-miss|p1b: Dragonite|p2a: Dragapult
+|
+|-damage|p2b: Sneasler|85/100 brn|[from] brn
+|upkeep
+|
+|t:|1757002900
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|4
+|
+|t:|1757002918
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|move|p2a: Dragapult|Phantom Force|p1b: Dragonite|[from] lockedmove
+|-damage|p1b: Dragonite|66/100
+|move|p1b: Dragonite|Scale Shot|p2a: Dragapult
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|40/100
+|-supereffective|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|faint|p2a: Dragapult
+|-hitcount|p2: Dragapult|2
+|-unboost|p1b: Dragonite|def|1
+|-boost|p1b: Dragonite|spe|1
+|move|p1a: Rillaboom|Wood Hammer|p2b: Indeedee
+|-enditem|p2b: Indeedee|Focus Sash
+|-damage|p2b: Indeedee|1/100
+|-damage|p1a: Rillaboom|78/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1757002926
+|switch|p2a: Sneasler|Sneasler, L50, F|85/100 brn
+|turn|5
+|
+|t:|1757002952
+|move|p2b: Indeedee|Protect|p2b: Indeedee
+|-singleturn|p2b: Indeedee|Protect
+|move|p1b: Dragonite|Scale Shot|p2b: Indeedee
+|-activate|p2b: Indeedee|move: Protect
+|move|p2a: Sneasler|Dire Claw|p1b: Dragonite
+|-damage|p1b: Dragonite|24/100
+|-status|p1b: Dragonite|par
+|move|p1a: Rillaboom|High Horsepower|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|upkeep
+|turn|6
+|c|☆spearow's nest|gg
+|
+|t:|1757002968
+|-terastallize|p2b: Indeedee|Psychic
+|move|p2b: Indeedee|Expanding Force|p1a: Rillaboom|[spread] p1a,p1b
+|-damage|p1a: Rillaboom|29/100
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1b: Dragonite
+|move|p1a: Rillaboom|Grassy Glide|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|faint|p2b: Indeedee
+|
+|win|spearow's nest
+|raw|spearow's nest's rating: 1203 → 1228(+25 for winning)
+|raw|luckstat10's rating: 1197 → 1172(-25 for losing)
+|c|☆luckstat10|gg
+|l|☆luckstat10
+|player|p2|

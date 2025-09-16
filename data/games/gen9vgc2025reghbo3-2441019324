@@ -1,0 +1,133 @@
+|j|☆sameered
+|j|☆ariyanboy
+|html|sameeredariyanboy    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757787799
+|gametype|doubles
+|player|p1|sameered|266|
+|player|p2|ariyanboy|red|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Maushold, L50|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Electabuzz, L50, F|
+|poke|p2|Oricorio-Sensu, L50, F|
+|poke|p2|Rillaboom, L50, F|
+|poke|p2|Blastoise, L50, M|
+|poke|p2|Volcarona, L50, F|
+|teampreview|4
+|showteam|p1|Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,WideGuard,Tailwind|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|ElectroShot,DracoMeteor,FlashCannon,BodyPress|||F|||50|,,,,,Grass]Annihilape||SafetyGoggles|Defiant|RageFist,DrainPunch,BulkUp,Protect|||F|||50|,,,,,Fire]Maushold||SitrusBerry|FriendGuard|BeatUp,FollowMe,Taunt,Protect||||||50|,,,,,Ghost]Rillaboom||MiracleSeed|GrassySurge|FakeOut,GrassyGlide,WoodHammer,Uturn|||M|||50|,,,,,Fire]Basculegion||ChoiceBand|SwiftSwim|WaveCrash,AquaJet,LastRespects,FlipTurn|||M|||50|,,,,,Water
+|showteam|p2|Incineroar||SafetyGoggles|Intimidate|PartingShot,KnockOff,FlareBlitz,FakeOut|||F|||50|,,,,,Water]Electabuzz||Eviolite|VitalSpirit|FollowMe,Electroweb,HelpingHand,Taunt|||F|||50|,,,,,Flying]Oricorio-Sensu||AbilityShield|Dancer|Protect,RevelationDance,Safeguard,AirSlash|||F|||50|,,,,,Dark]Rillaboom||Leftovers|GrassySurge|GrassyGlide,DrainPunch,SwordsDance,GrassPledge|||F|||50|,,,,,Grass]Blastoise||WhiteHerb|Torrent|ShellSmash,WaterSpout,WaterPledge,IceBeam|||M|||50|,,,,,Water]Volcarona||CovertCloak|FlameBody|QuiverDance,FieryDance,BugBuzz,Protect|||F|||50|,,,,,Fairy
+|
+|t:|1757787828
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Rillaboom|Rillaboom, L50, F, shiny|100/100
+|switch|p2b: Blastoise|Blastoise, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2a: Rillaboom
+|turn|1
+|
+|t:|1757787855
+|move|p1b: Basculegion|Last Respects|p2b: Blastoise
+|-damage|p2b: Blastoise|59/100
+|move|p2b: Blastoise|Water Pledge|p1b: Basculegion
+|-waiting|p2b: Blastoise|p2a: Rillaboom
+|move|p2a: Rillaboom|Grass Pledge|p1b: Basculegion|[from] move: Water Pledge
+|-combine
+|-supereffective|p1b: Basculegion
+|-damage|p1b: Basculegion|1/100
+|-sidestart|p1: sameered|Grass Pledge
+|move|p1a: Pelipper|Hurricane|p2a: Rillaboom
+|-supereffective|p2a: Rillaboom
+|-damage|p2a: Rillaboom|0 fnt
+|faint|p2a: Rillaboom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Blastoise|65/100|[from] Grassy Terrain
+|-heal|p1b: Basculegion|7/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757787875
+|switch|p2a: Oricorio|Oricorio-Sensu, L50, F, shiny|100/100
+|turn|2
+|
+|t:|1757787890
+|move|p2a: Oricorio|Protect|p2a: Oricorio
+|-singleturn|p2a: Oricorio|Protect
+|move|p2b: Blastoise|Water Spout|p1a: Pelipper|[spread] p1a,p1b
+|-resisted|p1a: Pelipper
+|-resisted|p1b: Basculegion
+|-damage|p1a: Pelipper|63/100
+|-damage|p1b: Basculegion|0 fnt
+|faint|p1b: Basculegion
+|move|p1a: Pelipper|Tailwind|p1a: Pelipper
+|-sidestart|p1: sameered|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Blastoise|71/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757787902
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|turn|3
+|
+|t:|1757787914
+|move|p2a: Oricorio|Air Slash|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|45/100
+|move|p2b: Blastoise|Shell Smash|p2b: Blastoise
+|-unboost|p2b: Blastoise|def|1
+|-unboost|p2b: Blastoise|spd|1
+|-boost|p2b: Blastoise|atk|2
+|-boost|p2b: Blastoise|spa|2
+|-boost|p2b: Blastoise|spe|2
+|-enditem|p2b: Blastoise|White Herb
+|-clearnegativeboost|p2b: Blastoise|[silent]
+|move|p1a: Pelipper|Weather Ball|p2a: Oricorio
+|-damage|p2a: Oricorio|0 fnt
+|faint|p2a: Oricorio
+|move|p1b: Rillaboom|Wood Hammer|p2b: Blastoise
+|-supereffective|p2b: Blastoise
+|-damage|p2b: Blastoise|0 fnt
+|faint|p2b: Blastoise
+|-damage|p1b: Rillaboom|27/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Rillaboom|33/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757787933
+|switch|p2b: Volcarona|Volcarona, L50, F, shiny|100/100
+|turn|4
+|
+|t:|1757787953
+|move|p1b: Rillaboom|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1b: Rillaboom
+|move|p2b: Volcarona|Fiery Dance|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|move|p1a: Pelipper|Weather Ball|p2b: Volcarona
+|-supereffective|p2b: Volcarona
+|-damage|p2b: Volcarona|0 fnt
+|faint|p2b: Volcarona
+|
+|win|sameered
+|inactive|sameered has 30 seconds to confirm battle start!
+|inactive|ariyanboy has 30 seconds to confirm battle start!
+||sameered is ready for game 3.
+||ariyanboy is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

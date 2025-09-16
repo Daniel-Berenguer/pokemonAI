@@ -1,0 +1,185 @@
+|j|☆TreyBayBay
+|j|☆DrDroopy
+|html|TreyBayBayDrDroopy    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757633228
+|gametype|doubles
+|player|p1|TreyBayBay|ninjaboy|1115
+|player|p2|DrDroopy|lucas|1043
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Hydreigon, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Flamigo, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Ursaluna, L50, M|
+|poke|p2|Porygon2, L50|
+|poke|p2|Amoonguss, L50, F|
+|teampreview|4
+|showteam|p1|Ninetales-Alola||LightClay|SnowWarning|Protect,Blizzard,Moonblast,AuroraVeil|||M|||50|,,,,,Ghost]Farigiraf||ThroatSpray|ArmorTail|ExpandingForce,HyperVoice,TrickRoom,Imprison|||M|||50|,,,,,Fairy]Sneasler||FocusSash|PoisonTouch|FakeOut,DireClaw,CloseCombat,Taunt|||F|||50|,,,,,Stellar]Incineroar||SafetyGoggles|Intimidate|FakeOut,FlareBlitz,KnockOff,WillOWisp|||M|||50|,,,,,Ghost]Archaludon||AssaultVest|Stamina|DracoMeteor,FlashCannon,BodyPress,Snarl|||M|||50|,,,,,Bug]Hydreigon||CovertCloak|Levitate|DarkPulse,EarthPower,NastyPlot,Tailwind|||F|||50|,,,,,Ghost
+|showteam|p2|Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Dragon]Flamigo||FocusSash|Scrappy|CloseCombat,BraveBird,WideGuard,Protect|||M|||50|,,,,,Ghost]Incineroar||SafetyGoggles|Intimidate|KnockOff,FlareBlitz,PartingShot,FakeOut|||F|||50|,,,,,Ghost]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Normal]Porygon2||Eviolite|Download|TeraBlast,IceBeam,TrickRoom,Recover||||||50|,,,,,Fighting]Amoonguss||MentalHerb|EffectSpore|Spore,RagePowder,PollenPuff,SludgeBomb|||F|||50|,,,,,Water
+|
+|t:|1757633270
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Porygon2|Porygon2, L50|100/100
+|switch|p2b: Flamigo|Flamigo, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Porygon2|atk|1
+|-fail|p2b: Flamigo|unboost|Attack|[from] ability: Scrappy|[of] p2b: Flamigo
+|-ability|p2a: Porygon2|Download|boost
+|-boost|p2a: Porygon2|atk|1
+|turn|1
+|
+|t:|1757633327
+|-terastallize|p2b: Flamigo|Ghost
+|move|p1a: Sneasler|Fake Out|p2a: Porygon2
+|-damage|p2a: Porygon2|91/100
+|-status|p2a: Porygon2|psn|[from] ability: Poison Touch|[of] p1a: Sneasler
+|move|p2b: Flamigo|Close Combat|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-damage|p1b: Incineroar|2/100
+|-unboost|p2b: Flamigo|def|1
+|-unboost|p2b: Flamigo|spd|1
+|move|p1b: Incineroar|Will-O-Wisp|p2b: Flamigo
+|-status|p2b: Flamigo|brn
+|cant|p2a: Porygon2|flinch
+|
+|-damage|p2a: Porygon2|78/100 psn|[from] psn
+|-damage|p2b: Flamigo|95/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1757633365
+|switch|p1a: Farigiraf|Farigiraf, L50, M, shiny|100/100
+|move|p2b: Flamigo|Brave Bird|p1a: Farigiraf
+|-damage|p1a: Farigiraf|81/100
+|-damage|p2b: Flamigo|85/100 brn|[from] Recoil
+|move|p1b: Incineroar|Knock Off|p2a: Porygon2
+|-damage|p2a: Porygon2|50/100 psn
+|-enditem|p2a: Porygon2|Eviolite|[from] move: Knock Off|[of] p1b: Incineroar
+|move|p2a: Porygon2|Trick Room|p2a: Porygon2
+|-fieldstart|move: Trick Room|[of] p2a: Porygon2
+|
+|-damage|p2a: Porygon2|38/100 psn|[from] psn
+|-damage|p2b: Flamigo|79/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1757633395
+|switch|p2a: Ursaluna|Ursaluna, L50, M|100/100
+|move|p2b: Flamigo|Wide Guard|p2b: Flamigo
+|-singleturn|p2b: Flamigo|Wide Guard
+|move|p1a: Farigiraf|Hyper Voice|p2a: Ursaluna|[spread] 
+|-activate|p2a: Ursaluna|move: Wide Guard
+|-activate|p2b: Flamigo|move: Wide Guard
+|move|p1b: Incineroar|Flare Blitz|p2b: Flamigo
+|-damage|p2b: Flamigo|0 fnt
+|faint|p2b: Flamigo
+|-damage|p1b: Incineroar|0 fnt|[from] Recoil
+|faint|p1b: Incineroar
+|
+|-status|p2a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757633416
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Amoonguss|Amoonguss, L50, F|100/100
+|turn|4
+|
+|t:|1757633436
+|move|p1b: Sneasler|Fake Out|p2b: Amoonguss
+|-damage|p2b: Amoonguss|88/100
+|move|p2a: Ursaluna|Earthquake|p1a: Farigiraf|[spread] p2b,p1a,p1b
+|-supereffective|p1b: Sneasler
+|-damage|p2b: Amoonguss|37/100
+|-damage|p1a: Farigiraf|37/100
+|-enditem|p1b: Sneasler|Focus Sash
+|-damage|p1b: Sneasler|1/100
+|cant|p2b: Amoonguss|flinch
+|move|p1a: Farigiraf|Hyper Voice|p2b: Amoonguss|[spread] p2a,p2b
+|-crit|p2a: Ursaluna
+|-damage|p2a: Ursaluna|73/100 brn
+|-damage|p2b: Amoonguss|15/100
+|-enditem|p1a: Farigiraf|Throat Spray
+|-boost|p1a: Farigiraf|spa|1|[from] item: Throat Spray
+|
+|-damage|p2a: Ursaluna|67/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1757633463
+|switch|p2b: Porygon2|Porygon2, L50|38/100 psn
+|-ability|p2b: Porygon2|Download|boost
+|-boost|p2b: Porygon2|spa|1
+|move|p2a: Ursaluna|Earthquake|p1a: Farigiraf|[spread] p2b,p1a,p1b
+|-supereffective|p1b: Sneasler
+|-damage|p2b: Porygon2|0 fnt
+|-damage|p1a: Farigiraf|0 fnt
+|-damage|p1b: Sneasler|0 fnt
+|faint|p2b: Porygon2
+|faint|p1a: Farigiraf
+|faint|p1b: Sneasler
+|
+|-damage|p2a: Ursaluna|61/100 brn|[from] brn
+|upkeep
+|
+|t:|1757633474
+|switch|p2b: Amoonguss|Amoonguss, L50, F|15/100
+|switch|p1b: Hydreigon|Hydreigon, L50, F, shiny|100/100
+|turn|6
+|
+|t:|1757633486
+|-terastallize|p1b: Hydreigon|Ghost
+|move|p2a: Ursaluna|Facade|p1b: Hydreigon
+|-immune|p1b: Hydreigon
+|move|p2b: Amoonguss|Spore|p1b: Hydreigon
+|-status|p1b: Hydreigon|slp|[from] move: Spore
+|cant|p1b: Hydreigon|slp
+|
+|-damage|p2a: Ursaluna|56/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1757633500
+|cant|p1b: Hydreigon|slp
+|move|p2b: Amoonguss|Pollen Puff|p1b: Hydreigon
+|-resisted|p1b: Hydreigon
+|-damage|p1b: Hydreigon|91/100 slp
+|move|p2a: Ursaluna|Headlong Rush|p1b: Hydreigon
+|-immune|p1b: Hydreigon|[from] ability: Levitate
+|
+|-damage|p2a: Ursaluna|50/100 brn|[from] brn
+|upkeep
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TreyBayBay)
+|
+|t:|1757633524
+|-curestatus|p1b: Hydreigon|slp|[msg]
+|move|p1b: Hydreigon|Dark Pulse|p2b: Amoonguss
+|-damage|p2b: Amoonguss|0 fnt
+|faint|p2b: Amoonguss
+|move|p2a: Ursaluna|Facade|p1b: Hydreigon
+|-immune|p1b: Hydreigon
+|
+|-damage|p2a: Ursaluna|44/100 brn|[from] brn
+|upkeep
+|turn|9
+|-message|DrDroopy forfeited.
+|
+|win|TreyBayBay
+|l|☆DrDroopy
+|player|p2|

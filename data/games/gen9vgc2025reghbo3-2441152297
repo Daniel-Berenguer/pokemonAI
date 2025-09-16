@@ -1,0 +1,267 @@
+|j|☆ghostnotgoat
+|j|☆whoabear
+|html|ghostnotgoatwhoabear    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757805723
+|gametype|doubles
+|player|p1|ghostnotgoat|266|
+|player|p2|whoabear|1|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Meowscarada, L50, M|
+|poke|p1|Sylveon, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p2|Gardevoir, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Arcanine, L50, F|
+|poke|p2|Lapras, L50, F|
+|poke|p2|Glaceon, L50, M|
+|teampreview|4
+|showteam|p1|Incineroar||EjectButton|Intimidate|FakeOut,KnockOff,PartingShot,Protect|||M|||50|,,,,,Ghost]Sneasler||FocusSash|PoisonTouch|NightSlash,FakeOut,SwordsDance,DireClaw|||M|||50|,,,,,Dark]Tyranitar||AssaultVest|Unnerve|KnockOff,RockSlide,DarkPulse,Facade|||M|||50|,,,,,Rock]Meowscarada||BlackGlasses|Protean|DarkPulse,KnockOff,SuckerPunch,Uturn|||M|||50|,,,,,Grass]Sylveon||ChoiceSpecs|Pixilate|HyperVoice,TeraBlast,HyperBeam,Protect|||F|||50|,,,,,Fairy]Rillaboom||ChoiceBand|GrassySurge|GrassyGlide,KnockOff,TeraBlast,Uturn|||M|||50|,,,,,Rock
+|showteam|p2|Gardevoir||ChoiceSpecs|Trace|DazzlingGleam,ExpandingForce,AuraSphere,HyperVoice|||F|||50|,,,,,Steel]Indeedee-F||TerrainExtender|PsychicSurge|FollowMe,HelpingHand,Protect,DazzlingGleam|||F|||50|,,,,,Fairy]Ninetales-Alola||FocusSash|SnowWarning|FreezeDry,AuroraVeil,Blizzard,Protect|||M|||50|,,,,,Ice]Arcanine||ClearAmulet|Intimidate|CloseCombat,FlareBlitz,PsychicFangs,Protect|||F|||50|,,,,,Water]Lapras||Leftovers|ShellArmor|LifeDew,Protect,SparklingAria,Blizzard|||F|||50|,,,,,Dragon]Glaceon||RockyHelmet|IceBody|Protect,Blizzard,ShadowBall,CalmMind|||M|||50|,,,,,Ice
+|
+|t:|1757805756
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, M, shiny|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M, shiny|100/100
+|switch|p2a: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2b: Arcanine|Arcanine, L50, F, shiny|100/100
+|-ability|p2b: Arcanine|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Sneasler|atk|1
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|1
+|
+|t:|1757805786
+|switch|p2b: Gardevoir|Gardevoir, L50, F, shiny|100/100
+|-ability|p2b: Gardevoir|Poison Touch|Trace|[from] ability: Trace|[of] p1b: Sneasler
+|move|p2a: Indeedee|Follow Me|p2a: Indeedee
+|-singleturn|p2a: Indeedee|move: Follow Me
+|move|p1b: Sneasler|Dire Claw|p2a: Indeedee
+|-damage|p2a: Indeedee|54/100
+|-status|p2a: Indeedee|par
+|move|p1a: Rillaboom|U-turn|p2a: Indeedee
+|-supereffective|p2a: Indeedee
+|-damage|p2a: Indeedee|0 fnt
+|faint|p2a: Indeedee
+|
+|t:|1757805800
+|switch|p1a: Incineroar|Incineroar, L50, M, shiny|100/100|[from] U-turn
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2b: Gardevoir|atk|1
+|
+|upkeep
+|
+|t:|1757805806
+|switch|p2a: Arcanine|Arcanine, L50, F, shiny|100/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Sneasler|atk|1
+|turn|2
+|
+|t:|1757805847
+|-terastallize|p2b: Gardevoir|Steel
+|move|p1b: Sneasler|Dire Claw|p2b: Gardevoir
+|-immune|p2b: Gardevoir
+|move|p2a: Arcanine|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar
+|-damage|p1a: Incineroar|22/100
+|-unboost|p2a: Arcanine|def|1
+|-unboost|p2a: Arcanine|spd|1
+|-enditem|p1a: Incineroar|Eject Button
+|
+|t:|1757805869
+|switch|p1a: Rillaboom|Rillaboom, L50, M, shiny|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2b: Gardevoir|Expanding Force|p1b: Sneasler
+|-supereffective|p1b: Sneasler
+|-crit|p1b: Sneasler
+|-enditem|p1b: Sneasler|Focus Sash
+|-damage|p1b: Sneasler|1/100
+|
+|-heal|p1b: Sneasler|7/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1757805927
+|switch|p2a: Lapras|Lapras, L50, F, shiny|100/100
+|move|p1a: Rillaboom|Grassy Glide|p2b: Gardevoir
+|-resisted|p2b: Gardevoir
+|-damage|p2b: Gardevoir|50/100
+|move|p1b: Sneasler|Dire Claw|p2a: Lapras
+|-damage|p2a: Lapras|81/100
+|move|p2b: Gardevoir|Expanding Force|p1b: Sneasler
+|-supereffective|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|
+|-heal|p2b: Gardevoir|56/100|[from] Grassy Terrain
+|-heal|p2a: Lapras|87/100|[from] Grassy Terrain
+|-heal|p2a: Lapras|93/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1757805949
+|switch|p1b: Incineroar|Incineroar, L50, M, shiny|22/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Lapras|atk|1
+|-unboost|p2b: Gardevoir|atk|1
+|turn|4
+|
+|t:|1757805972
+|switch|p2b: Arcanine|Arcanine, L50, F, shiny|100/100
+|-ability|p2b: Arcanine|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|move|p1b: Incineroar|Fake Out|p2a: Lapras
+|-damage|p2a: Lapras|87/100
+|move|p1a: Rillaboom|Grassy Glide|p2b: Arcanine
+|-resisted|p2b: Arcanine
+|-damage|p2b: Arcanine|79/100
+|cant|p2a: Lapras|flinch
+|
+|-heal|p2b: Arcanine|85/100|[from] Grassy Terrain
+|-heal|p2a: Lapras|93/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|28/100|[from] Grassy Terrain
+|-heal|p2a: Lapras|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1757805998
+|-terastallize|p1a: Rillaboom|Rock
+|move|p1b: Incineroar|Protect|p1b: Incineroar
+|-singleturn|p1b: Incineroar|Protect
+|move|p1a: Rillaboom|Grassy Glide|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|30/100
+|move|p2b: Arcanine|Flare Blitz|p1a: Rillaboom
+|-resisted|p1a: Rillaboom
+|-damage|p1a: Rillaboom|70/100
+|-damage|p2b: Arcanine|74/100|[from] Recoil
+|move|p2a: Lapras|Blizzard|p1a: Rillaboom|[spread] p1a
+|-activate|p1b: Incineroar|move: Protect
+|-damage|p1a: Rillaboom|30/100
+|
+|-heal|p2b: Arcanine|80/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|36/100|[from] Grassy Terrain
+|-heal|p2a: Lapras|36/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|34/100|[from] Grassy Terrain
+|-heal|p2a: Lapras|41/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1757806036
+|move|p2a: Lapras|Protect|p2a: Lapras
+|-singleturn|p2a: Lapras|Protect
+|move|p1a: Rillaboom|Grassy Glide|p2a: Lapras
+|-activate|p2a: Lapras|move: Protect
+|move|p2b: Arcanine|Psychic Fangs|p1a: Rillaboom
+|-damage|p1a: Rillaboom|3/100
+|move|p1b: Incineroar|Parting Shot|p2b: Arcanine
+|-fail|p2b: Arcanine|unboost|[from] item: Clear Amulet|[of] p2b: Arcanine
+|
+|-heal|p2b: Arcanine|86/100|[from] Grassy Terrain
+|-heal|p1a: Rillaboom|9/100|[from] Grassy Terrain
+|-heal|p2a: Lapras|47/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|40/100|[from] Grassy Terrain
+|-heal|p2a: Lapras|53/100|[from] item: Leftovers
+|-fieldend|move: Grassy Terrain
+|upkeep
+|turn|7
+|
+|t:|1757806080
+|switch|p2b: Gardevoir|Gardevoir, L50, F, shiny, tera:Steel|56/100
+|-ability|p2b: Gardevoir|Grassy Surge|Trace|[from] ability: Trace|[of] p1a: Rillaboom
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p2b: Gardevoir
+|move|p1a: Rillaboom|Grassy Glide|p2a: Lapras
+|-supereffective|p2a: Lapras
+|-damage|p2a: Lapras|0 fnt
+|faint|p2a: Lapras
+|move|p1b: Incineroar|Knock Off|p2b: Gardevoir
+|-damage|p2b: Gardevoir|12/100
+|-enditem|p2b: Gardevoir|Choice Specs|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-heal|p1a: Rillaboom|15/100|[from] Grassy Terrain
+|-heal|p2b: Gardevoir|17/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|46/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757806097
+|switch|p2a: Arcanine|Arcanine, L50, F, shiny|86/100
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|turn|8
+|
+|t:|1757806125
+|move|p1b: Incineroar|Protect|p1b: Incineroar
+|-singleturn|p1b: Incineroar|Protect
+|move|p1a: Rillaboom|Grassy Glide|p2b: Gardevoir
+|-resisted|p2b: Gardevoir
+|-damage|p2b: Gardevoir|0 fnt
+|faint|p2b: Gardevoir
+|move|p2a: Arcanine|Psychic Fangs|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|-heal|p2a: Arcanine|92/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|52/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1757806137
+|switch|p1a: Meowscarada|Meowscarada, L50, M|100/100
+|turn|9
+|
+|t:|1757806153
+|move|p2a: Arcanine|Protect|p2a: Arcanine
+|-singleturn|p2a: Arcanine|Protect
+|move|p1b: Incineroar|Protect||[still]
+|-fail|p1b: Incineroar
+|move|p1a: Meowscarada|Knock Off|p2a: Arcanine
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-activate|p2a: Arcanine|move: Protect
+|
+|-heal|p2a: Arcanine|98/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|58/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1757806179
+|move|p1a: Meowscarada|Sucker Punch|p2a: Arcanine
+|-damage|p2a: Arcanine|45/100
+|move|p2a: Arcanine|Close Combat|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|-unboost|p2a: Arcanine|def|1
+|-unboost|p2a: Arcanine|spd|1
+|faint|p1a: Meowscarada
+|move|p1b: Incineroar|Knock Off|p2a: Arcanine
+|-damage|p2a: Arcanine|8/100
+|-enditem|p2a: Arcanine|Clear Amulet|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-heal|p2a: Arcanine|14/100|[from] Grassy Terrain
+|-heal|p1b: Incineroar|64/100|[from] Grassy Terrain
+|upkeep
+|turn|11
+|
+|t:|1757806218
+|move|p2a: Arcanine|Close Combat|p1b: Incineroar
+|-supereffective|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|-unboost|p2a: Arcanine|def|1
+|-unboost|p2a: Arcanine|spd|1
+|faint|p1b: Incineroar
+|
+|win|whoabear
+|l|☆ghostnotgoat
+|player|p1|

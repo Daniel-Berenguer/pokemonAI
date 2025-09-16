@@ -1,0 +1,159 @@
+|j|☆Welosethose!
+|j|☆fantasminha8
+|html|Welosethose!fantasminha8    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756944466
+|gametype|doubles
+|player|p1|Welosethose!|hilbert|1209
+|player|p2|fantasminha8|170|1250
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Politoed, L50, M|
+|poke|p1|Gothitelle, L50, M|
+|poke|p1|Kingdra, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Exeggutor, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Gallade, L50, M|
+|teampreview|4
+|showteam|p1|Politoed||Leftovers|Drizzle|WeatherBall,Encore,PerishSong,Protect|||M|||50|,,,,,Grass]Gothitelle||SitrusBerry|ShadowTag|FakeOut,Psychic,TrickRoom,Protect|||M|||50|,,,,,Dark]Kingdra||LifeOrb|SwiftSwim|WeatherBall,MuddyWater,DracoMeteor,Protect|||M|||50|,,,,,Stellar]Archaludon||PowerHerb|Sturdy|ElectroShot,FlashCannon,DragonPulse,Protect|||M|||50|,,,,,Electric]Amoonguss||EjectButton|Regenerator|PollenPuff,Spore,RagePowder,Protect|||M|||50|,,,,,Fairy]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,PartingShot,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Charizard||ChoiceScarf|SolarPower|HeatWave,SolarBeam,AirSlash,WeatherBall|||M|||50|,,,,,Fire]Indeedee-F||SafetyGoggles|PsychicSurge|FollowMe,HelpingHand,TrickRoom,AlluringVoice|||F|||50|,,,,,Fairy]Exeggutor||FocusSash|Chlorophyll|ExpandingForce,TrickRoom,EnergyBall,SleepPowder|||M|||50|,,,,,Psychic]Torkoal||EjectPack|Drought|Eruption,Overheat,Protect,ClearSmog|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Earthquake,Facade,Protect,HeadlongRush|||F|||50|,,,,,Ghost]Gallade||ClearAmulet|Sharpness|WideGuard,PsychoCut,SacredSword,TrickRoom|||M|||50|,,,,,Psychic
+|
+|t:|1756944520
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p1b: Kingdra|Kingdra, L50, M|100/100
+|switch|p2a: Gallade|Gallade, L50, M, shiny|100/100
+|switch|p2b: Exeggutor|Exeggutor, L50, M|100/100
+|turn|1
+|
+|t:|1756944554
+|move|p1a: Gothitelle|Fake Out|p2b: Exeggutor
+|-damage|p2b: Exeggutor|93/100
+|move|p1b: Kingdra|Draco Meteor|p2b: Exeggutor
+|-damage|p2b: Exeggutor|0 fnt
+|-unboost|p1b: Kingdra|spa|2
+|faint|p2b: Exeggutor
+|-damage|p1b: Kingdra|91/100|[from] item: Life Orb
+|move|p2a: Gallade|Sacred Sword|p1b: Kingdra
+|-damage|p1b: Kingdra|0 fnt
+|faint|p1b: Kingdra
+|
+|upkeep
+|
+|t:|1756944566
+|switch|p1b: Politoed|Politoed, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Politoed
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|turn|2
+|j| Arkhept
+|l| Arkhept
+|
+|t:|1756944602
+|-terastallize|p2a: Gallade|Psychic
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Politoed|Perish Song|p1b: Politoed
+|-start|p1a: Gothitelle|perish3|[silent]
+|-start|p1b: Politoed|perish3|[silent]
+|-start|p2a: Gallade|perish3|[silent]
+|-start|p2b: Indeedee|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Gallade|Psycho Cut|p1b: Politoed
+|-damage|p1b: Politoed|0 fnt
+|faint|p1b: Politoed
+|move|p1a: Gothitelle|Psychic|p2b: Indeedee
+|-resisted|p2b: Indeedee
+|-damage|p2b: Indeedee|83/100
+|
+|-weather|RainDance|[upkeep]
+|-start|p2b: Indeedee|perish3
+|-start|p2a: Gallade|perish3
+|-start|p1a: Gothitelle|perish3
+|upkeep
+|
+|t:|1756944608
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Gallade|unboost|[from] item: Clear Amulet|[of] p2a: Gallade
+|-unboost|p2b: Indeedee|atk|1
+|turn|3
+|
+|t:|1756944644
+|move|p1b: Incineroar|Protect|p1b: Incineroar
+|-singleturn|p1b: Incineroar|Protect
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p2a: Gallade|Sacred Sword|p1b: Incineroar
+|-activate|p1b: Incineroar|move: Protect
+|move|p1a: Gothitelle|Trick Room|p1a: Gothitelle
+|-fieldstart|move: Trick Room|[of] p1a: Gothitelle
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Gothitelle|perish2
+|-start|p2a: Gallade|perish2
+|-start|p2b: Indeedee|perish2
+|upkeep
+|turn|4
+|
+|t:|1756944654
+|-terastallize|p1b: Incineroar|Ghost
+|move|p2b: Indeedee|Follow Me|p2b: Indeedee
+|-singleturn|p2b: Indeedee|move: Follow Me
+|move|p1b: Incineroar|Knock Off|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-enditem|p2b: Indeedee|Safety Goggles|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2b: Indeedee
+|move|p1a: Gothitelle|Psychic|p2a: Gallade
+|-resisted|p2a: Gallade
+|-damage|p2a: Gallade|83/100
+|move|p2a: Gallade|Psycho Cut|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Gothitelle|perish1
+|-start|p2a: Gallade|perish1
+|upkeep
+|
+|t:|1756944665
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|5
+|
+|t:|1756944673
+|move|p2b: Torkoal|Protect|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Protect
+|move|p1a: Gothitelle|Psychic|p2b: Torkoal
+|-activate|p2b: Torkoal|move: Protect
+|move|p2a: Gallade|Sacred Sword|p1a: Gothitelle
+|-resisted|p1a: Gothitelle
+|-crit|p1a: Gothitelle
+|-damage|p1a: Gothitelle|50/100
+|-enditem|p1a: Gothitelle|Sitrus Berry|[eat]
+|-heal|p1a: Gothitelle|75/100|[from] item: Sitrus Berry
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1a: Gothitelle|perish0
+|-start|p2a: Gallade|perish0
+|faint|p1a: Gothitelle
+|faint|p2a: Gallade
+|
+|win|fantasminha8
+||Welosethose! is ready for game 2.
+|inactive|fantasminha8 has 30 seconds to confirm battle start!
+||fantasminha8 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

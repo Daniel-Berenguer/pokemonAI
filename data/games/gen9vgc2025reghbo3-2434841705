@@ -1,0 +1,164 @@
+|j|☆Freudianbreath
+|j|☆laly4493
+|html|Freudianbreathlaly4493    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756958158
+|gametype|doubles
+|player|p1|Freudianbreath|102|
+|player|p2|laly4493|169|
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Palafin, L50, F|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Primarina, L50, M|
+|poke|p2|Gothitelle, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Squawkabilly-Yellow, L50, M|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Hatterene, L50, F|
+|teampreview|4
+|showteam|p1|Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,WillOWisp,FlareBlitz|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,FakeOut,Uturn|||M|||50|,,,,,Fire]Palafin||Leftovers|ZerotoHero|BulkUp,JetPunch,DrainPunch,Protect|||F|||50|,,,,,Grass]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|||F|||50|,,,,,Stellar]Amoonguss||RockyHelmet|Regenerator|PollenPuff,Spore,RagePowder,Protect|||F|||50|,,,,,Fairy]Primarina||ThroatSpray|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|||M|||50|,,,,,Grass
+|showteam|p2|Gothitelle||ClearAmulet|Frisk|NastyPlot,RockSlide,FoulPlay,MirrorCoat|||M|||50|,,,,,Psychic]Farigiraf||MentalHerb|SapSipper|Earthquake,IronHead,ThunderWave,HelpingHand|||M|||50|,,,,,Normal]Garchomp||FocusSash|RoughSkin|SwordsDance,FireFang,Protect,ScorchingSands|||M|||50|,,,,,Dragon]Squawkabilly-Yellow||SitrusBerry|Intimidate|Tailwind,Hurricane,LashOut,DoubleEdge|||M|||50|,,,,,Normal]Volcarona||RockyHelmet|Swarm|LeechLife,WillOWisp,PoisonJab,Lunge|||F|||50|,,,,,Bug]Hatterene||Leftovers|Anticipation|LifeDew,MysticalFire,ThunderWave,PsychoCut|||F|||50|,,,,,Psychic
+|
+|t:|1756958272
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Pelipper|Pelipper, L50, F|100/100
+|switch|p2a: Gothitelle|Gothitelle, L50, M|100/100
+|switch|p2b: Squawkabilly|Squawkabilly-Yellow, L50, M|100/100
+|-ability|p2b: Squawkabilly|Intimidate|boost
+|-unboost|p1a: Rillaboom|atk|1
+|-unboost|p1b: Pelipper|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-item|p1a: Rillaboom|Assault Vest|[from] ability: Frisk|[of] p2a: Gothitelle
+|-item|p1b: Pelipper|Focus Sash|[from] ability: Frisk|[of] p2a: Gothitelle
+|turn|1
+|
+|t:|1756958338
+|move|p1a: Rillaboom|Fake Out|p2b: Squawkabilly
+|-damage|p2b: Squawkabilly|82/100
+|cant|p2b: Squawkabilly|flinch
+|move|p1b: Pelipper|Tailwind|p1b: Pelipper
+|-sidestart|p1: Freudianbreath|move: Tailwind
+|move|p2a: Gothitelle|Nasty Plot|p2a: Gothitelle
+|-boost|p2a: Gothitelle|spa|2
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1756958394
+|switch|p2b: Garchomp|Garchomp, L50, M|100/100
+|-terastallize|p1a: Rillaboom|Fire
+|move|p1a: Rillaboom|Grassy Glide|p2b: Garchomp
+|-damage|p2b: Garchomp|77/100
+|-damage|p1a: Rillaboom|88/100|[from] ability: Rough Skin|[of] p2b: Garchomp
+|move|p1b: Pelipper|Hurricane|p2b: Garchomp
+|-damage|p2b: Garchomp|18/100
+|move|p2a: Gothitelle|Rock Slide|p1b: Pelipper|[spread] p1b
+|-miss|p2a: Gothitelle|p1a: Rillaboom
+|-supereffective|p1b: Pelipper
+|-damage|p1b: Pelipper|77/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rillaboom|94/100|[from] Grassy Terrain
+|-heal|p2b: Garchomp|24/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|
+|t:|1756958543
+|move|p2b: Garchomp|Protect|p2b: Garchomp
+|-singleturn|p2b: Garchomp|Protect
+|move|p1b: Pelipper|Hurricane|p2b: Garchomp
+|-activate|p2b: Garchomp|move: Protect
+|move|p1a: Rillaboom|U-turn|p2a: Gothitelle
+|-supereffective|p2a: Gothitelle
+|-damage|p2a: Gothitelle|64/100
+|
+|t:|1756958554
+|switch|p1a: Primarina|Primarina, L50, M|100/100|[from] U-turn
+|move|p2a: Gothitelle|Foul Play|p1a: Primarina
+|-resisted|p1a: Primarina
+|-damage|p1a: Primarina|93/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Primarina|99/100|[from] Grassy Terrain
+|-heal|p2b: Garchomp|30/100|[from] Grassy Terrain
+|-heal|p2a: Gothitelle|70/100|[from] Grassy Terrain
+|upkeep
+|turn|4
+|
+|t:|1756958587
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|move|p1b: Pelipper|Hurricane|p2a: Gothitelle
+|-damage|p2a: Gothitelle|16/100
+|-start|p2a: Gothitelle|confusion
+|move|p1a: Primarina|Moonblast|p2b: Volcarona
+|-resisted|p2b: Volcarona
+|-damage|p2b: Volcarona|74/100
+|-unboost|p2b: Volcarona|spa|1
+|-activate|p2a: Gothitelle|confusion
+|-damage|p2a: Gothitelle|10/100|[from] confusion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Primarina|100/100|[from] Grassy Terrain
+|-heal|p2b: Volcarona|81/100|[from] Grassy Terrain
+|-heal|p2a: Gothitelle|16/100|[from] Grassy Terrain
+|-sideend|p1: Freudianbreath|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1756958648
+|move|p1b: Pelipper|Protect|p1b: Pelipper
+|-singleturn|p1b: Pelipper|Protect
+|move|p2b: Volcarona|Poison Jab|p1a: Primarina
+|-supereffective|p1a: Primarina
+|-damage|p1a: Primarina|57/100
+|move|p1a: Primarina|Hyper Voice|p2b: Volcarona|[spread] p2a,p2b
+|-supereffective|p2b: Volcarona
+|-damage|p2a: Gothitelle|0 fnt
+|-damage|p2b: Volcarona|0 fnt
+|faint|p2a: Gothitelle
+|faint|p2b: Volcarona
+|-enditem|p1a: Primarina|Throat Spray
+|-boost|p1a: Primarina|spa|1|[from] item: Throat Spray
+|
+|-weather|none
+|-heal|p1a: Primarina|63/100|[from] Grassy Terrain
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756958665
+|switch|p2b: Garchomp|Garchomp, L50, M|30/100
+|switch|p2a: Squawkabilly|Squawkabilly-Yellow, L50, M|82/100
+|-ability|p2a: Squawkabilly|Intimidate|boost
+|-unboost|p1a: Primarina|atk|1
+|-unboost|p1b: Pelipper|atk|1
+|turn|6
+|
+|t:|1756958720
+|switch|p1b: Amoonguss|Amoonguss, L50, F|100/100
+|-terastallize|p2b: Garchomp|Dragon
+|move|p2b: Garchomp|Scorching Sands|p1a: Primarina
+|-damage|p1a: Primarina|45/100
+|-status|p1a: Primarina|brn
+|move|p2a: Squawkabilly|Tailwind|p2a: Squawkabilly
+|-sidestart|p2: laly4493|move: Tailwind
+|move|p1a: Primarina|Hyper Voice|p2a: Squawkabilly|[spread] p2a,p2b
+|-resisted|p2b: Garchomp
+|-damage|p2a: Squawkabilly|0 fnt
+|-damage|p2b: Garchomp|0 fnt
+|faint|p2a: Squawkabilly
+|faint|p2b: Garchomp
+|
+|win|Freudianbreath

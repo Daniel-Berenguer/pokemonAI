@@ -1,0 +1,129 @@
+|j|☆pistachio jeff
+|j|☆k8mck
+|html|pistachio jeffk8mck    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757906901
+|gametype|doubles
+|player|p1|pistachio jeff|1|1000
+|player|p2|k8mck|101|1022
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ursaluna, L50, M|
+|poke|p1|Amoonguss, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Indeedee-F, L50, F|
+|poke|p1|Ceruledge, L50, M|
+|poke|p1|Ditto, L50|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Murkrow, L50, F|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Indeedee, L50, M|
+|teampreview|4
+|showteam|p1|Ursaluna||FlameOrb|Guts|Facade,CloseCombat,HeadlongRush,Protect|||M|||50|,,,,,Ground]Amoonguss||RockyHelmet|Regenerator|Spore,SludgeBomb,RagePowder,PollenPuff|||F|||50|,,,,,Grass]Farigiraf||SafetyGoggles|ArmorTail|TrickRoom,CalmMind,ExpandingForce,HyperVoice|||M|||50|,,,,,Normal]Indeedee-F||SitrusBerry|PsychicSurge|FollowMe,HelpingHand,DazzlingGleam,Psychic|||F|||50|,,,,,Psychic]Ceruledge||FocusSash|FlashFire|DestinyBond,BitterBlade,Poltergeist,SwordsDance|||M|||50|,,,,,Fire]Ditto||ChoiceScarf|Imposter|Transform||||||50|,,,,,Normal
+|showteam|p2|Sneasler||PsychicSeed|Unburden|Protect,Taunt,DireClaw,CloseCombat|||F|||50|,,,,,Dark]Typhlosion-Hisui||ChoiceScarf|Blaze|Eruption,ShadowBall,HeatWave,Flamethrower|||M|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,Protect,HeadlongRush,Earthquake|||F|||50|,,,,,Water]Murkrow||Eviolite|Prankster|Tailwind,FoulPlay,Haze,SunnyDay|||F|||50|,,,,,Steel]Volcarona||SitrusBerry|FlameBody|TeraBlast,RagePowder,Protect,FieryDance|||M|||50|,,,,,Fairy]Indeedee||FocusSash|PsychicSurge|Imprison,DazzlingGleam,TrickRoom,ExpandingForce|||M|||50|,,,,,Fairy
+|
+|t:|1757906962
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p1b: Indeedee|Indeedee-F, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2a: Sneasler|Psychic Seed
+|-boost|p2a: Sneasler|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757907013
+|move|p1b: Indeedee|Follow Me|p1b: Indeedee
+|-singleturn|p1b: Indeedee|move: Follow Me
+|move|p2a: Sneasler|Dire Claw|p1b: Indeedee
+|-damage|p1b: Indeedee|42/100
+|-enditem|p1b: Indeedee|Sitrus Berry|[eat]
+|-heal|p1b: Indeedee|67/100|[from] item: Sitrus Berry
+|move|p2b: Indeedee|Imprison|p2b: Indeedee
+|-start|p2b: Indeedee|move: Imprison
+|cant|p1a: Farigiraf|move: Imprison|Trick Room
+|
+|upkeep
+|turn|2
+|
+|t:|1757907042
+|move|p2a: Sneasler|Dire Claw|p1b: Indeedee
+|-damage|p1b: Indeedee|15/100
+|move|p2b: Indeedee|Dazzling Gleam|p1a: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Farigiraf|81/100
+|-damage|p1b: Indeedee|0 fnt
+|faint|p1b: Indeedee
+|move|p1a: Farigiraf|Hyper Voice|p2a: Sneasler|[spread] p2a,p2b
+|-damage|p2a: Sneasler|70/100
+|-damage|p2b: Indeedee|54/100
+|
+|upkeep
+|
+|t:|1757907052
+|switch|p1b: Ursaluna|Ursaluna, L50, M|100/100
+|turn|3
+|
+|t:|1757907064
+|move|p1b: Ursaluna|Protect|p1b: Ursaluna
+|-singleturn|p1b: Ursaluna|Protect
+|move|p2a: Sneasler|Close Combat|p1a: Farigiraf
+|-damage|p1a: Farigiraf|13/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|move|p2b: Indeedee|Expanding Force|p1a: Farigiraf|[spread] p1a
+|-activate|p1b: Ursaluna|move: Protect
+|-resisted|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|faint|p1a: Farigiraf
+|
+|-status|p1b: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|
+|t:|1757907073
+|switch|p1a: Amoonguss|Amoonguss, L50, F|100/100
+|turn|4
+|
+|t:|1757907084
+|-terastallize|p1b: Ursaluna|Ground
+|move|p2a: Sneasler|Taunt|p1a: Amoonguss
+|-start|p1a: Amoonguss|move: Taunt
+|move|p2b: Indeedee|Expanding Force|p1b: Ursaluna|[spread] p1a,p1b
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|-damage|p1b: Ursaluna|52/100 brn
+|faint|p1a: Amoonguss
+|move|p1b: Ursaluna|Headlong Rush|p2a: Sneasler
+|-supereffective|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|-unboost|p1b: Ursaluna|def|1
+|-unboost|p1b: Ursaluna|spd|1
+|faint|p2a: Sneasler
+|
+|-damage|p1b: Ursaluna|46/100 brn|[from] brn
+|upkeep
+|
+|t:|1757907099
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by k8mck)
+|
+|t:|1757907135
+|move|p2a: Typhlosion|Eruption|p1b: Ursaluna
+|-damage|p1b: Ursaluna|0 fnt
+|faint|p1b: Ursaluna
+|
+|win|k8mck
+||pistachio jeff is ready for game 3.
+||k8mck is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆pistachio jeff
+|player|p1|

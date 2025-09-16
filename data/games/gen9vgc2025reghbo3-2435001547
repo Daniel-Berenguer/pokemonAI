@@ -1,0 +1,216 @@
+|j|☆iflamercenar
+|j|☆MinasDevilCrobats
+|html|iflamercenarMinasDevilCrobats    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1756986525
+|gametype|doubles
+|player|p1|iflamercenar|acetrainer-gen4dp|1210
+|player|p2|MinasDevilCrobats|darach-caitlin|1304
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Magmar, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Dondozo, L50, F|
+|poke|p2|Tatsugiri, L50, F|
+|poke|p2|Talonflame, L50, F|
+|poke|p2|Glimmora, L50, F|
+|teampreview|4
+|showteam|p1|Sneasler||GrassySeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||M|||50|,,,,,Dark]Volcarona||Leftovers|FlameBody|HeatWave,QuiverDance,TeraBlast,Protect|||F|||50|,,,,,Fairy]Dragonite||LoadedDice|Multiscale|ScaleShot,ExtremeSpeed,Haze,Protect|||F|||50|,,,,,Steel]Rillaboom||AssaultVest|GrassySurge|WoodHammer,GrassyGlide,HighHorsepower,FakeOut|||M|||50|,,,,,Fire]Gholdengo||SitrusBerry|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect||||||50|,,,,,Water]Magmar||Eviolite|VitalSpirit|Overheat,FollowMe,Taunt,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,DazzlingGleam,Trick,Protect|||M|||50|,,,,,Fairy]Sneasler||PsychicSeed|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|||F|||50|,,,,,Dark]Dondozo||Leftovers|Unaware|WaveCrash,OrderUp,Earthquake,Protect|||F|||50|,,,,,Grass]Tatsugiri||LifeOrb|Commander|MuddyWater,DracoMeteor,DragonPulse,Protect|||F|||50|,,,,,Steel]Talonflame||CovertCloak|GaleWings|FlareBlitz,WillOWisp,Tailwind,Taunt|||F|||50|,,,,,Grass]Glimmora||PowerHerb|ToxicDebris|MeteorBeam,SludgeBomb,EarthPower,SpikyShield|||F|||50|,,,,,Grass
+|
+|t:|1756986546
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Indeedee|Indeedee, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|-enditem|p2b: Sneasler|Psychic Seed
+|-boost|p2b: Sneasler|spd|1|[from] item: Psychic Seed
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|-enditem|p1b: Sneasler|Grassy Seed
+|-boost|p1b: Sneasler|def|1|[from] item: Grassy Seed
+|turn|1
+|
+|t:|1756986573
+|switch|p2b: Glimmora|Glimmora, L50, F|100/100
+|-terastallize|p1b: Sneasler|Dark
+|-terastallize|p2a: Indeedee|Fairy
+|move|p1a: Rillaboom|Fake Out|p2b: Glimmora
+|-resisted|p2b: Glimmora
+|-damage|p2b: Glimmora|93/100
+|-activate|p2b: Glimmora|ability: Toxic Debris
+|-sidestart|p1: iflamercenar|move: Toxic Spikes
+|move|p1b: Sneasler|Throat Chop|p2a: Indeedee
+|-resisted|p2a: Indeedee
+|-damage|p2a: Indeedee|54/100
+|-start|p2a: Indeedee|Throat Chop|[silent]
+|move|p2a: Indeedee|Trick|p1b: Sneasler
+|-activate|p2a: Indeedee|move: Trick|[of] p1b: Sneasler
+|-item|p1b: Sneasler|Choice Scarf|[from] move: Trick
+|-enditem|p2a: Indeedee|Choice Scarf|[silent]|[from] move: Trick
+|
+|-heal|p2a: Indeedee|60/100|[from] Grassy Terrain
+|-heal|p2b: Glimmora|99/100|[from] Grassy Terrain
+|upkeep
+|turn|2
+|
+|t:|1756986602
+|move|p2a: Indeedee|Protect|p2a: Indeedee
+|-singleturn|p2a: Indeedee|Protect
+|move|p2b: Glimmora|Spiky Shield|p2b: Glimmora
+|-singleturn|p2b: Glimmora|move: Protect
+|move|p1b: Sneasler|Throat Chop|p2b: Glimmora
+|-activate|p2b: Glimmora|move: Protect
+|-damage|p1b: Sneasler|88/100|[from] Spiky Shield|[of] p2b: Glimmora
+|move|p1a: Rillaboom|Wood Hammer|p2a: Indeedee
+|-activate|p2a: Indeedee|move: Protect
+|
+|-heal|p1b: Sneasler|94/100|[from] Grassy Terrain
+|-heal|p2a: Indeedee|66/100|[from] Grassy Terrain
+|-heal|p2b: Glimmora|100/100|[from] Grassy Terrain
+|-end|p2a: Indeedee|Throat Chop|[silent]
+|upkeep
+|turn|3
+|
+|t:|1756986626
+|switch|p2a: Talonflame|Talonflame, L50, F|100/100
+|move|p1b: Sneasler|Throat Chop|p2b: Glimmora
+|-damage|p2b: Glimmora|43/100
+|-start|p2b: Glimmora|Throat Chop|[silent]
+|-activate|p2b: Glimmora|ability: Toxic Debris
+|-sidestart|p1: iflamercenar|move: Toxic Spikes
+|move|p2b: Glimmora|Meteor Beam||[still]
+|-prepare|p2b: Glimmora|Meteor Beam
+|-boost|p2b: Glimmora|spa|1
+|-enditem|p2b: Glimmora|Power Herb
+|-anim|p2b: Glimmora|Meteor Beam|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|move|p1a: Rillaboom|High Horsepower|p2a: Talonflame
+|-immune|p2a: Talonflame
+|
+|-heal|p2b: Glimmora|49/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756986639
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|turn|4
+|
+|t:|1756986668
+|switch|p1a: Dragonite|Dragonite, L50, F|100/100
+|move|p2b: Glimmora|Spiky Shield|p2b: Glimmora
+|-singleturn|p2b: Glimmora|move: Protect
+|move|p2a: Talonflame|Tailwind|p2a: Talonflame
+|-sidestart|p2: MinasDevilCrobats|move: Tailwind
+|move|p1b: Gholdengo|Make It Rain|p2b: Glimmora|[spread] p2a
+|-activate|p2b: Glimmora|move: Protect
+|-resisted|p2a: Talonflame
+|-damage|p2a: Talonflame|65/100
+|-unboost|p1b: Gholdengo|spa|1
+|
+|-heal|p2b: Glimmora|55/100|[from] Grassy Terrain
+|-end|p2b: Glimmora|Throat Chop|[silent]
+|upkeep
+|turn|5
+|
+|t:|1756986689
+|move|p2a: Talonflame|Will-O-Wisp|p1a: Dragonite
+|-status|p1a: Dragonite|brn
+|move|p2b: Glimmora|Earth Power|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|move|p1a: Dragonite|Scale Shot|p2a: Talonflame
+|-damage|p2a: Talonflame|54/100
+|-damage|p2a: Talonflame|43/100
+|-damage|p2a: Talonflame|32/100
+|-damage|p2a: Talonflame|22/100
+|-damage|p2a: Talonflame|10/100
+|-hitcount|p2a: Talonflame|5
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|
+|-heal|p2b: Glimmora|61/100|[from] Grassy Terrain
+|-damage|p1a: Dragonite|95/100 brn|[from] brn
+|-fieldend|move: Grassy Terrain
+|upkeep
+|
+|t:|1756986703
+|switch|p1b: Rillaboom|Rillaboom, L50, M|100/100
+|-status|p1b: Rillaboom|tox
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1b: Rillaboom
+|turn|6
+|
+|t:|1756986729
+|move|p2a: Talonflame|Flare Blitz|p1b: Rillaboom
+|-supereffective|p1b: Rillaboom
+|-damage|p1b: Rillaboom|16/100 tox
+|-damage|p2a: Talonflame|0 fnt|[from] Recoil
+|faint|p2a: Talonflame
+|move|p2b: Glimmora|Sludge Bomb|p1a: Dragonite
+|-damage|p1a: Dragonite|13/100 brn
+|move|p1a: Dragonite|Scale Shot|p2b: Glimmora
+|-damage|p2b: Glimmora|52/100
+|-damage|p2b: Glimmora|44/100
+|-damage|p2b: Glimmora|35/100
+|-damage|p2b: Glimmora|26/100
+|-damage|p2b: Glimmora|19/100
+|-hitcount|p2b: Glimmora|5
+|-unboost|p1a: Dragonite|def|1
+|-boost|p1a: Dragonite|spe|1
+|move|p1b: Rillaboom|High Horsepower|p2b: Glimmora
+|-supereffective|p2b: Glimmora
+|-damage|p2b: Glimmora|0 fnt
+|faint|p2b: Glimmora
+|
+|-heal|p1b: Rillaboom|22/100 tox|[from] Grassy Terrain
+|-damage|p1b: Rillaboom|16/100 tox|[from] psn
+|-damage|p1a: Dragonite|7/100 brn|[from] brn
+|upkeep
+|
+|t:|1756986739
+|switch|p2a: Indeedee|Indeedee, L50, M, tera:Fairy|66/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2a: Indeedee
+|turn|7
+|
+|t:|1756986747
+|move|p1a: Dragonite|Protect|p1a: Dragonite
+|-singleturn|p1a: Dragonite|Protect
+|move|p2b: Sneasler|Dire Claw|p1a: Dragonite
+|-activate|p1a: Dragonite|move: Protect
+|move|p2a: Indeedee|Expanding Force|p1a: Dragonite|[spread] p1b
+|-activate|p1a: Dragonite|move: Protect
+|-damage|p1b: Rillaboom|0 fnt
+|faint|p1b: Rillaboom
+|
+|-damage|p1a: Dragonite|1/100 brn|[from] brn
+|-sideend|p2: MinasDevilCrobats|move: Tailwind
+|upkeep
+|turn|8
+|
+|t:|1756986755
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p2a: Indeedee|Protect|p2a: Indeedee
+|-singleturn|p2a: Indeedee|Protect
+|move|p1a: Dragonite|Scale Shot|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Protect
+|
+|-damage|p1a: Dragonite|0 fnt|[from] brn
+|faint|p1a: Dragonite
+|
+|win|MinasDevilCrobats

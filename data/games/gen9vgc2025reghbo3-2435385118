@@ -1,0 +1,152 @@
+|j|☆asdjighadf
+|j|☆chefbenboyrd
+|html|asdjighadfchefbenboyrd    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757029509
+|gametype|doubles
+|player|p1|asdjighadf|265|1046
+|player|p2|chefbenboyrd|brawly|1079
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Ursaluna, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Hydreigon, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Dragonite, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||F|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|IceBeam,TeraBlast,TrickRoom,Recover||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||M|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||M|||50|,,,,,Ghost
+|showteam|p2|Whimsicott||FocusSash|Prankster|SunnyDay,Encore,Tailwind,Moonblast|||F|||50|,,,,,Ghost]Hydreigon||ChoiceSpecs|Levitate|HeatWave,DracoMeteor,Snarl,DarkPulse|||F|||50|,,,,,Fire]Incineroar||SafetyGoggles|Intimidate|KnockOff,FakeOut,PartingShot,FlareBlitz|||F|||50|,,,,,Ghost]Gholdengo||LifeOrb|GoodasGold|Protect,MakeItRain,ShadowBall,NastyPlot||||||50|,,,,,Water]Basculegion||ChoiceScarf|Adaptability|LastRespects,WaveCrash,AquaJet,FlipTurn|||M|||50|,,,,,Water]Dragonite||LoadedDice|Multiscale|ScaleShot,Protect,ExtremeSpeed,Haze|||M|||50|,,,,,Fairy
+|
+|t:|1757029533
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jumpluff|Jumpluff, L50, M|100/100
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Jumpluff|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|-enditem|p1b: Torkoal|Eject Pack
+|
+|t:|1757029547
+|switch|p1b: Charizard|Charizard, L50, F|100/100
+|turn|1
+|
+|t:|1757029579
+|switch|p2b: Dragonite|Dragonite, L50, M|100/100
+|-terastallize|p1b: Charizard|Ghost
+|move|p2a: Incineroar|Fake Out|p1b: Charizard
+|-immune|p1b: Charizard
+|move|p1a: Jumpluff|Sleep Powder|p2b: Dragonite|[miss]
+|-miss|p1a: Jumpluff|p2b: Dragonite
+|move|p1b: Charizard|Heat Wave|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar
+|-resisted|p2b: Dragonite
+|-damage|p2a: Incineroar|51/100
+|-damage|p2b: Dragonite|71/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|88/100|[from] ability: Solar Power|[of] p1b: Charizard
+|upkeep
+|turn|2
+|
+|t:|1757029598
+|move|p2b: Dragonite|Protect|p2b: Dragonite
+|-singleturn|p2b: Dragonite|Protect
+|move|p1a: Jumpluff|Sleep Powder|p2b: Dragonite
+|-activate|p2b: Dragonite|move: Protect
+|move|p1b: Charizard|Heat Wave|p2a: Incineroar|[spread] p2a
+|-activate|p2b: Dragonite|move: Protect
+|-resisted|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|76/100|[from] ability: Solar Power|[of] p1b: Charizard
+|upkeep
+|
+|t:|1757029610
+|switch|p2a: Hydreigon|Hydreigon, L50, F|100/100
+|turn|3
+|
+|t:|1757029628
+|-terastallize|p2a: Hydreigon|Fire
+|move|p1a: Jumpluff|Tailwind|p1a: Jumpluff
+|-sidestart|p1: asdjighadf|move: Tailwind
+|move|p1b: Charizard|Heat Wave|p2b: Dragonite|[spread] p2b
+|-miss|p1b: Charizard|p2a: Hydreigon
+|-resisted|p2b: Dragonite
+|-damage|p2b: Dragonite|14/100
+|-status|p2b: Dragonite|brn
+|move|p2a: Hydreigon|Heat Wave|p1b: Charizard|[spread] p1a,p1b
+|-supereffective|p1a: Jumpluff
+|-damage|p1a: Jumpluff|0 fnt
+|-damage|p1b: Charizard|0 fnt
+|faint|p1a: Jumpluff
+|faint|p1b: Charizard
+|move|p2b: Dragonite|Scale Shot|p1: Jumpluff|[notarget]
+|-fail|p2b: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Dragonite|8/100 brn|[from] brn
+|upkeep
+|
+|t:|1757029645
+|switch|p1a: Ursaluna|Ursaluna, L50, M|100/100
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|turn|4
+|
+|t:|1757029660
+|move|p2b: Dragonite|Extreme Speed|p1a: Ursaluna
+|-damage|p1a: Ursaluna|89/100
+|move|p1a: Ursaluna|Facade|p2a: Hydreigon
+|-damage|p2a: Hydreigon|52/100
+|move|p2a: Hydreigon|Heat Wave|p1b: Torkoal|[spread] p1a,p1b
+|-resisted|p1b: Torkoal
+|-damage|p1a: Ursaluna|5/100
+|-damage|p1b: Torkoal|38/100
+|-status|p1a: Ursaluna|brn
+|move|p1b: Torkoal|Eruption|p2a: Hydreigon|[spread] p2a,p2b
+|-resisted|p2a: Hydreigon
+|-resisted|p2b: Dragonite
+|-damage|p2a: Hydreigon|35/100
+|-damage|p2b: Dragonite|0 fnt
+|faint|p2b: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Ursaluna|0 fnt|[from] brn
+|faint|p1a: Ursaluna
+|upkeep
+|
+|t:|1757029676
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|turn|5
+|
+|t:|1757029685
+|move|p1b: Torkoal|Helping Hand|p1: Ursaluna|[notarget]
+|-fail|p1b: Torkoal
+|move|p2b: Basculegion|Wave Crash|p1b: Torkoal
+|-supereffective|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|-damage|p2b: Basculegion|89/100|[from] Recoil
+|
+|win|chefbenboyrd
+|raw|asdjighadf's rating: 1046 → 1031(-15 for losing)
+|raw|chefbenboyrd's rating: 1079 → 1104(+25 for winning)
+|l|☆chefbenboyrd
+|player|p2|

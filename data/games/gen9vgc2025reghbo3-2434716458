@@ -1,0 +1,140 @@
+|j|☆Arkhept
+|j|☆Reg H merchant
+|html|ArkheptReg H merchant    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1756942315
+|gametype|doubles
+|player|p1|Arkhept|misty|1260
+|player|p2|Reg H merchant|hilbert|1355
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Rillaboom, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Arcanine-Hisui, L50, F|
+|poke|p2|Electabuzz, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Ursaluna-Bloodmoon, L50, M|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Dragonite, L50, F|
+|teampreview|4
+|showteam|p1|Gholdengo||GrassySeed|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect||||||50|,,,,,Water]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,Coaching,Protect|||M|||50|,,,,,Ghost]Rillaboom||AssaultVest|GrassySurge|FakeOut,GrassyGlide,DrumBeating,HighHorsepower|||M|||50|,,,,,Fire]Dragonite||LoadedDice|Multiscale|ScaleShot,StompingTantrum,Tailwind,Protect|||F|||50|,,,,,Ground]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,IcyWind,Encore,AuroraVeil|||M|||50|,,,,,Ghost]Arcanine-Hisui||ClearAmulet|Intimidate|RockSlide,FlareBlitz,ExtremeSpeed,Protect|||F|||50|,,,,,Water
+|showteam|p2|Electabuzz||Eviolite|VitalSpirit|Electroweb,FollowMe,Taunt,Protect|||F|||50|,,,,,Dragon]Sneasler||PsychicSeed|Unburden|DireClaw,ThroatChop,CloseCombat,Protect|||M|||50|,,,,,Dark]Ursaluna-Bloodmoon||LifeOrb|MindsEye|HyperVoice,BloodMoon,EarthPower,Protect|||M|||50|,,,,,Normal]Indeedee||FocusSash|PsychicSurge|ExpandingForce,Protect,TrickRoom,HelpingHand|||M|||50|,,,,,Psychic]Incineroar||SafetyGoggles|Intimidate|FakeOut,KnockOff,FlareBlitz,PartingShot|||M|||50|,,,,,Ghost]Dragonite||LoadedDice|Multiscale|ScaleShot,Haze,Protect,Tailwind|||F|||50|,,,,,Fairy
+|
+|t:|1756942387
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Arcanine|Arcanine-Hisui, L50, F|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Electabuzz|Electabuzz, L50, F|100/100
+|switch|p2b: Ursaluna|Ursaluna-Bloodmoon, L50, M|100/100
+|-ability|p1a: Arcanine|Intimidate|boost
+|-unboost|p2a: Electabuzz|atk|1
+|-unboost|p2b: Ursaluna|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Arkhept)
+|
+|t:|1756942445
+|switch|p1a: Rillaboom|Rillaboom, L50, M|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|move|p2a: Electabuzz|Follow Me|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|move: Follow Me
+|move|p1b: Sneasler|Close Combat|p2a: Electabuzz
+|-crit|p2a: Electabuzz
+|-damage|p2a: Electabuzz|6/100
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|-enditem|p1b: Sneasler|White Herb
+|-clearnegativeboost|p1b: Sneasler|[silent]
+|move|p2b: Ursaluna|Earth Power|p1b: Sneasler
+|-supereffective|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|-damage|p2b: Ursaluna|91/100|[from] item: Life Orb
+|
+|-heal|p2a: Electabuzz|11/100|[from] Grassy Terrain
+|-heal|p2b: Ursaluna|97/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756942464
+|switch|p1b: Arcanine|Arcanine-Hisui, L50, F|100/100
+|-ability|p1b: Arcanine|Intimidate|boost
+|-unboost|p2a: Electabuzz|atk|1
+|-unboost|p2b: Ursaluna|atk|1
+|turn|2
+|
+|t:|1756942478
+|-terastallize|p1b: Arcanine|Water
+|move|p2a: Electabuzz|Protect|p2a: Electabuzz
+|-singleturn|p2a: Electabuzz|Protect
+|move|p2b: Ursaluna|Protect|p2b: Ursaluna
+|-singleturn|p2b: Ursaluna|Protect
+|move|p1b: Arcanine|Rock Slide|p2b: Ursaluna|[spread] 
+|-activate|p2a: Electabuzz|move: Protect
+|-activate|p2b: Ursaluna|move: Protect
+|move|p1a: Rillaboom|Drum Beating|p2b: Ursaluna
+|-activate|p2b: Ursaluna|move: Protect
+|
+|-heal|p2a: Electabuzz|17/100|[from] Grassy Terrain
+|-heal|p2b: Ursaluna|100/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|inactive|Reg H merchant has 30 seconds left.
+|
+|t:|1756942513
+|-terastallize|p2b: Ursaluna|Normal
+|move|p2a: Electabuzz|Electroweb|p1a: Rillaboom|[spread] p1a,p1b
+|-resisted|p1a: Rillaboom
+|-supereffective|p1b: Arcanine
+|-damage|p1a: Rillaboom|95/100
+|-damage|p1b: Arcanine|68/100
+|-unboost|p1a: Rillaboom|spe|1
+|move|p1b: Arcanine|Rock Slide|p2b: Ursaluna|[spread] p2a,p2b
+|-damage|p2a: Electabuzz|0 fnt
+|-damage|p2b: Ursaluna|80/100
+|faint|p2a: Electabuzz
+|move|p2b: Ursaluna|Blood Moon|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|-damage|p2b: Ursaluna|70/100|[from] item: Life Orb
+|
+|-heal|p1b: Arcanine|74/100|[from] Grassy Terrain
+|-heal|p2b: Ursaluna|76/100|[from] Grassy Terrain
+|upkeep
+|
+|t:|1756942538
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|-enditem|p1a: Gholdengo|Grassy Seed
+|-boost|p1a: Gholdengo|def|1|[from] item: Grassy Seed
+|turn|4
+|inactive|Reg H merchant has 30 seconds left.
+|inactive|Arkhept has 30 seconds left.
+|inactive|Reg H merchant has 20 seconds left.
+|inactive|Reg H merchant has 15 seconds left.
+|
+|t:|1756942582
+|move|p2a: Sneasler|Close Combat|p1b: Arcanine
+|-damage|p1b: Arcanine|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1b: Arcanine
+|move|p1a: Gholdengo|Nasty Plot|p1a: Gholdengo
+|-boost|p1a: Gholdengo|spa|2
+|move|p2b: Ursaluna|Earth Power|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|-damage|p2b: Ursaluna|67/100|[from] item: Life Orb
+|
+|win|Reg H merchant
+||Arkhept is ready for game 2.
+|inactive|Reg H merchant has 30 seconds to confirm battle start!

@@ -1,0 +1,126 @@
+|j|☆IceIceBaby98
+|j|☆SilkSongClave
+|html|IceIceBaby98SilkSongClave    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757708390
+|gametype|doubles
+|player|p1|IceIceBaby98|101|1135
+|player|p2|SilkSongClave|artist-gen4|1047
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Porygon2, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Jumpluff, L50, M|
+|poke|p1|Ursaluna, L50, F|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Indeedee, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Corviknight, L50, F|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||ChoiceSpecs|SolarPower|HeatWave,Overheat,WeatherBall,AirSlash|||M|||50|,,,,,Ghost]Torkoal||EjectPack|Drought|Eruption,Overheat,HelpingHand,Protect|||F|||50|,,,,,Fire]Porygon2||Eviolite|Download|TeraBlast,IceBeam,Recover,TrickRoom||||||50|,,,,,Fighting]Incineroar||SitrusBerry|Intimidate|FlareBlitz,KnockOff,FakeOut,PartingShot|||F|||50|,,,,,Ghost]Jumpluff||CovertCloak|Chlorophyll|SleepPowder,SunnyDay,RagePowder,Tailwind|||M|||50|,,,,,Water]Ursaluna||FlameOrb|Guts|HeadlongRush,Facade,Earthquake,Protect|||F|||50|,,,,,Ghost
+|showteam|p2|Excadrill||FocusSash|SandRush|IronHead,HighHorsepower,Earthquake,Protect|||F|||50|,,,,,Stellar]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Dark]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Protect,Trick|||M|||50|,,,,,Psychic]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,LowKick,TeraBlast|||F|||50|,,,,,Flying]Corviknight||SitrusBerry|MirrorArmor|BraveBird,Tailwind,Roost,BulkUp|||F|||50|,,,,,Dragon]Annihilape||SafetyGoggles|Defiant|CloseCombat,RageFist,Taunt,FinalGambit|||M|||50|,,,,,Water
+|
+|t:|1757708432
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Porygon2|Porygon2, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|switch|p2b: Indeedee|Indeedee, L50, M|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Annihilape|atk|1
+|-ability|p2a: Annihilape|Defiant|boost
+|-boost|p2a: Annihilape|atk|2
+|-unboost|p2b: Indeedee|atk|1
+|-ability|p1a: Porygon2|Download|boost
+|-boost|p1a: Porygon2|atk|1
+|turn|1
+|
+|t:|1757708465
+|move|p2b: Indeedee|Expanding Force|p1b: Incineroar|[spread] p1a
+|-immune|p1b: Incineroar
+|-damage|p1a: Porygon2|67/100
+|move|p2a: Annihilape|Close Combat|p1a: Porygon2
+|-supereffective|p1a: Porygon2
+|-damage|p1a: Porygon2|0 fnt
+|-unboost|p2a: Annihilape|def|1
+|-unboost|p2a: Annihilape|spd|1
+|faint|p1a: Porygon2
+|move|p1b: Incineroar|Knock Off|p2b: Indeedee
+|-supereffective|p2b: Indeedee
+|-damage|p2b: Indeedee|0 fnt
+|-enditem|p2b: Indeedee|Choice Scarf|[from] move: Knock Off|[of] p1b: Incineroar
+|faint|p2b: Indeedee
+|
+|upkeep
+|
+|t:|1757708485
+|switch|p2b: Excadrill|Excadrill, L50, F|100/100
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|2
+|
+|t:|1757708512
+|-terastallize|p1b: Incineroar|Ghost
+|move|p1a: Torkoal|Helping Hand|p1b: Incineroar
+|-singleturn|p1b: Incineroar|Helping Hand|[of] p1a: Torkoal
+|move|p2a: Annihilape|Final Gambit|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p2a: Annihilape
+|faint|p1a: Torkoal
+|move|p2b: Excadrill|High Horsepower|p1b: Incineroar
+|-crit|p1b: Incineroar
+|-damage|p1b: Incineroar|17/100
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|42/100|[from] item: Sitrus Berry
+|move|p1b: Incineroar|Knock Off|p2b: Excadrill
+|-damage|p2b: Excadrill|14/100
+|-enditem|p2b: Excadrill|Focus Sash|[from] move: Knock Off|[of] p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757708527
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p1a: Ursaluna|Ursaluna, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|3
+|
+|t:|1757708543
+|-terastallize|p2a: Tyranitar|Flying
+|move|p2b: Excadrill|Earthquake|p1b: Incineroar|[spread] p1a,p1b
+|-immune|p2a: Tyranitar
+|-damage|p1a: Ursaluna|64/100
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p2a: Tyranitar|Low Kick|p1a: Ursaluna
+|-supereffective|p1a: Ursaluna
+|-damage|p1a: Ursaluna|2/100
+|move|p1a: Ursaluna|Earthquake|p2b: Excadrill|[spread] p2b
+|-immune|p2a: Tyranitar
+|-supereffective|p2b: Excadrill
+|-damage|p2b: Excadrill|0 fnt
+|faint|p2b: Excadrill
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Tyranitar|95/100|[from] Sandstorm
+|-status|p1a: Ursaluna|brn|[from] item: Flame Orb
+|upkeep
+|turn|4
+|
+|t:|1757708556
+|move|p2a: Tyranitar|Tera Blast|p1a: Ursaluna|[anim] Tera Blast Flying
+|-damage|p1a: Ursaluna|0 fnt
+|faint|p1a: Ursaluna
+|
+|win|SilkSongClave

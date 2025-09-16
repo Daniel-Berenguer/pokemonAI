@@ -1,0 +1,148 @@
+|j|☆Blop_24
+|j|☆Crafter568
+|html|Blop_24Crafter568    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1757809284
+|gametype|doubles
+|player|p1|Blop_24|artist|1129
+|player|p2|Crafter568|hilbert-wonderlauncher|1144
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Indeedee, L50, M|
+|poke|p1|Corviknight, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Maushold, L50|
+|poke|p2|Ludicolo, L50, F|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|showteam|p1|Excadrill||FocusSash|SandRush|IronHead,HighHorsepower,Earthquake,Protect|||M|||50|,,,,,Stellar]Tyranitar||AssaultVest|SandStream|RockSlide,KnockOff,TeraBlast,LowKick|||M|||50|,,,,,Flying]Sneasler||PsychicSeed|Unburden|DireClaw,CloseCombat,ThroatChop,Protect|||F|||50|,,,,,Stellar]Indeedee||ChoiceScarf|PsychicSurge|ExpandingForce,TeraBlast,Protect,Trick|||M|||50|,,,,,Psychic]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Roost,Tailwind|||M|||50|,,,,,Dragon]Annihilape||SafetyGoggles|Defiant|CloseCombat,FinalGambit,RageFist,Taunt|||F|||50|,,,,,Water
+|showteam|p2|Archaludon||AssaultVest|Stamina|ElectroShot,BodyPress,DragonPulse,FlashCannon|||M|||50|,,,,,Fairy]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Stellar]Maushold||SafetyGoggles|FriendGuard|BeatUp,FollowMe,Taunt,Protect||||||50|,,,,,Ghost]Ludicolo||Leftovers|RainDish|Surf,GigaDrain,LeechSeed,Protect|||F|||50|,,,,,Steel]Sinistcha||RockyHelmet|Hospitality|MatchaGotcha,RagePowder,LifeDew,TrickRoom||||||50|,,,,,Fire]Annihilape||SitrusBerry|Defiant|RageFist,CloseCombat,DrainPunch,Protect|||M|||50|,,,,,Fairy
+|
+|t:|1757809316
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Horrocrux|Sneasler, L50, F|100/100
+|switch|p1b: Calima|Indeedee, L50, M|100/100
+|switch|p2a: Annihilape|Annihilape, L50, M|100/100
+|switch|p2b: Maushold|Maushold, L50|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p1b: Calima
+|-enditem|p1a: Horrocrux|Psychic Seed
+|-boost|p1a: Horrocrux|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757809353
+|-terastallize|p1b: Calima|Psychic
+|-terastallize|p2a: Annihilape|Fairy
+|move|p2b: Maushold|Follow Me|p2b: Maushold
+|-singleturn|p2b: Maushold|move: Follow Me
+|move|p1a: Horrocrux|Close Combat|p2b: Maushold
+|-supereffective|p2b: Maushold
+|-damage|p2b: Maushold|0 fnt
+|-unboost|p1a: Horrocrux|def|1
+|-unboost|p1a: Horrocrux|spd|1
+|faint|p2b: Maushold
+|move|p1b: Calima|Expanding Force|p2a: Annihilape
+|-damage|p2a: Annihilape|7/100
+|-enditem|p2a: Annihilape|Sitrus Berry|[eat]
+|-heal|p2a: Annihilape|32/100|[from] item: Sitrus Berry
+|move|p2a: Annihilape|Rage Fist|p1a: Horrocrux
+|-damage|p1a: Horrocrux|0 fnt
+|faint|p1a: Horrocrux
+|
+|upkeep
+|
+|t:|1757809382
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100
+|switch|p1a: Un grrr|Tyranitar, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Un grrr
+|turn|2
+|
+|t:|1757809396
+|move|p2a: Annihilape|Protect|p2a: Annihilape
+|-singleturn|p2a: Annihilape|Protect
+|move|p1b: Calima|Expanding Force|p2a: Annihilape|[spread] p2b
+|-activate|p2a: Annihilape|move: Protect
+|-enditem|p2b: Pelipper|Focus Sash
+|-damage|p2b: Pelipper|1/100
+|move|p2b: Pelipper|Tailwind|p2b: Pelipper
+|-sidestart|p2: Crafter568|move: Tailwind
+|move|p1a: Un grrr|Rock Slide|p2b: Pelipper|[spread] p2b
+|-activate|p2a: Annihilape|move: Protect
+|-supereffective|p2b: Pelipper
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Annihilape|26/100|[from] Sandstorm
+|-damage|p1b: Calima|95/100|[from] Sandstorm
+|upkeep
+|
+|t:|1757809410
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100
+|turn|3
+|
+|t:|1757809428
+|move|p2a: Annihilape|Rage Fist|p1b: Calima
+|-supereffective|p1b: Calima
+|-damage|p1b: Calima|0 fnt
+|faint|p1b: Calima
+|move|p2b: Archaludon|Body Press|p1a: Un grrr
+|-supereffective|p1a: Un grrr
+|-damage|p1a: Un grrr|8/100
+|move|p1a: Un grrr|Rock Slide|p2a: Annihilape|[spread] p2a,p2b
+|-resisted|p2b: Archaludon
+|-damage|p2a: Annihilape|0 fnt
+|-damage|p2b: Archaludon|90/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|faint|p2a: Annihilape
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1757809444
+|switch|p1b: Un que?|Excadrill, L50, M|100/100
+|turn|4
+|
+|t:|1757809453
+|move|p1b: Un que?|High Horsepower|p2b: Archaludon
+|-supereffective|p2b: Archaludon
+|-damage|p2b: Archaludon|40/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2b: Archaludon|Body Press|p1b: Un que?
+|-supereffective|p1b: Un que?
+|-enditem|p1b: Un que?|Focus Sash
+|-damage|p1b: Un que?|1/100
+|move|p1a: Un grrr|Low Kick|p2b: Archaludon
+|-supereffective|p2b: Archaludon
+|-damage|p2b: Archaludon|20/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1757809474
+|move|p1b: Un que?|High Horsepower|p2b: Archaludon
+|-supereffective|p2b: Archaludon
+|-damage|p2b: Archaludon|0 fnt
+|faint|p2b: Archaludon
+|
+|win|Blop_24
+||Crafter568 is ready for game 3.
+||Blop_24 is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

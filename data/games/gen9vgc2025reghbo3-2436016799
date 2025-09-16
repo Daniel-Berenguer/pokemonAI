@@ -1,0 +1,129 @@
+|j|☆C.Num8
+|j|☆washingtongargacha
+|html|C.Num8washingtongargacha    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1757112468
+|gametype|doubles
+|player|p1|C.Num8|shadowtriad|1173
+|player|p2|washingtongargacha|2|1151
+|gen|9
+|tier|[Gen 9] VGC 2025 Reg H (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Rillaboom, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Amoonguss, L50, M|
+|poke|p2|Lilligant-Hisui, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Ursaluna, L50, F|
+|poke|p2|Indeedee-F, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Gallade, L50, M|
+|teampreview|4
+|showteam|p1|Archaludon||AssaultVest|Stamina|DragonPulse,ElectroShot,BodyPress,Snarl|||F|||50|,,,,,Bug]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|||M|||50|,,,,,Ghost]Basculegion||ChoiceBand|SwiftSwim|AquaJet,WaveCrash,LastRespects,FlipTurn|||M|||50|,,,,,Water]Rillaboom||LoadedDice|GrassySurge|FakeOut,GrassyGlide,BulletSeed,Uturn|||F|||50|,,,,,Fire]Kingambit||SafetyGoggles|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|||M|||50|,,,,,Dark]Amoonguss||SitrusBerry|Regenerator|RagePowder,Spore,PollenPuff,Protect|||M|||50|,,,,,Fairy
+|showteam|p2|Lilligant-Hisui||FocusSash|Chlorophyll|TripleAxel,AfterYou,CloseCombat,SleepPowder|||F|||50|,,,,,Ghost]Hatterene||CovertCloak|MagicBounce|DazzlingGleam,ExpandingForce,TrickRoom,MysticalFire|||F|||50|,,,,,Fire]Ursaluna||FlameOrb|Guts|Facade,HeadlongRush,Earthquake,Protect|||F|||50|,,,,,Ghost]Indeedee-F||PsychicSeed|PsychicSurge|Psychic,TrickRoom,HelpingHand,FollowMe|||F|||50|,,,,,Dragon]Torkoal||FlamePlate|Drought|Eruption,WeatherBall,HeatWave,Protect|||F|||50|,,,,,Fire]Gallade||ClearAmulet|Sharpness|PsychoCut,SacredSword,TrickRoom,WideGuard|||M|||50|,,,,,Grass
+|
+|t:|1757112490
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Amoonguss|Amoonguss, L50, M|100/100
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|switch|p2a: Hatterene|Hatterene, L50, F|100/100
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|-enditem|p2b: Indeedee|Psychic Seed
+|-boost|p2b: Indeedee|spd|1|[from] item: Psychic Seed
+|turn|1
+|
+|t:|1757112508
+|-terastallize|p2a: Hatterene|Fire
+|move|p2b: Indeedee|Helping Hand|p2a: Hatterene
+|-singleturn|p2a: Hatterene|Helping Hand|[of] p2b: Indeedee
+|move|p1b: Kingambit|Swords Dance|p1b: Kingambit
+|-boost|p1b: Kingambit|atk|2
+|move|p1a: Amoonguss|Spore|p2b: Indeedee
+|-status|p2b: Indeedee|slp|[from] move: Spore
+|move|p2a: Hatterene|Mystical Fire|p1b: Kingambit
+|-supereffective|p1b: Kingambit
+|-damage|p1b: Kingambit|0 fnt
+|faint|p1b: Kingambit
+|
+|upkeep
+|
+|t:|1757112523
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|turn|2
+|
+|t:|1757112541
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|move|p1b: Pelipper|Hurricane|p2a: Hatterene|[miss]
+|-miss|p1b: Pelipper|p2a: Hatterene
+|move|p1a: Amoonguss|Spore|p2b: Torkoal
+|-status|p2b: Torkoal|slp|[from] move: Spore
+|move|p2a: Hatterene|Expanding Force|p1a: Amoonguss|[spread] p1a,p1b
+|-supereffective|p1a: Amoonguss
+|-damage|p1a: Amoonguss|0 fnt
+|-enditem|p1b: Pelipper|Focus Sash
+|-damage|p1b: Pelipper|1/100
+|faint|p1a: Amoonguss
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1757112548
+|switch|p1a: Rillaboom|Rillaboom, L50, F|100/100
+|-fieldstart|move: Grassy Terrain|[from] ability: Grassy Surge|[of] p1a: Rillaboom
+|turn|3
+|
+|t:|1757112565
+|switch|p2b: Indeedee|Indeedee-F, L50, F|100/100 slp
+|-fieldstart|move: Psychic Terrain|[from] ability: Psychic Surge|[of] p2b: Indeedee
+|move|p1b: Pelipper|Hurricane|p2a: Hatterene|[miss]
+|-miss|p1b: Pelipper|p2a: Hatterene
+|move|p1a: Rillaboom|Bullet Seed|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|93/100
+|-resisted|p2a: Hatterene
+|-crit|p2a: Hatterene
+|-damage|p2a: Hatterene|82/100
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|74/100
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|67/100
+|-hitcount|p2a: Hatterene|4
+|move|p2a: Hatterene|Expanding Force|p1b: Pelipper|[spread] p1a,p1b
+|-damage|p1a: Rillaboom|24/100
+|-damage|p1b: Pelipper|0 fnt
+|faint|p1b: Pelipper
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1757112586
+|cant|p2b: Indeedee|slp
+|move|p1a: Rillaboom|Bullet Seed|p2a: Hatterene
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|60/100
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|52/100
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|45/100
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|38/100
+|-resisted|p2a: Hatterene
+|-damage|p2a: Hatterene|30/100
+|-hitcount|p2a: Hatterene|5
+|move|p2a: Hatterene|Expanding Force|p1a: Rillaboom
+|-damage|p1a: Rillaboom|0 fnt
+|faint|p1a: Rillaboom
+|
+|win|washingtongargacha
