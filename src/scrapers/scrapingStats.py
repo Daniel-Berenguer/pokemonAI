@@ -73,6 +73,18 @@ for name in pokemonNames:
 
         stats = [type1, type2] + stats
 
+        try:
+            if "mega" in name and name != "meganium":
+                th = soup.find("th", string=lambda text: text and "Abilities" in text)
+                ab_tr = th.find_parent("tr")
+                td = ab_tr.find("td")
+                a = td.find("a")
+                ab = a.text
+                stats.append(ab.lower())
+
+        except Exception as e:
+            print(e)
+
         print(name, stats)
 
         pokemon[name] = stats

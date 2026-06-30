@@ -39,6 +39,14 @@ class Board:
           arr[0] = arr[1]
           arr[1] = temp
 
+     @staticmethod
+     def megaName2name(megaName):
+          if megaName == "floette-mega":
+               return "floette-eternal"
+          else:
+               megaName = megaName.split("-")
+               return megaName[0].lower()
+
      def switchSides(self):
           self.switchArr(self.tailwinds)
           self.switchArr(self.auroraveils)
@@ -83,14 +91,21 @@ class Board:
      
      @staticmethod
      def processName(name):
-          name = name.replace(" ", "-")
+          name = name.lower()
+          if "mega" in name:
+                    return Board.megaName2name(name)
           if name in pokemon_stats:
                return name
           else:
+               print(f"NAME {name} not found")
                names = name.split("-")
                if names[0] in pokemon_stats:
+                    print(f"Trying with name {names[0]}")
                     return names[0]
+               elif name == "floette":
+                    return "floette-eternal"
                else:
+                    print(f"No entra {names[0].lower()}")
                     raise Exception(f"KEY ERROR: {name}")
           
      def j2pokemon(self, i, j):
@@ -104,7 +119,7 @@ class Board:
                name = Board.processName(poke.split("|")[0])
                pokemon = Pokemon(name, player, poke, pokemon_stats, move_dict)
                self.pokemon[player].append(pokemon)
-               self.name2Indicies[player][name] = i
+               self.name2Indicies[player][name.lower()] = i
           if len(self.pokemon[player]) < 6:
                raise Exception("TOO FEW POKEMON")
 
@@ -120,15 +135,17 @@ class Board:
 
           poke = Board.processName(line[1].split(",")[0])
           if poke in self.name2Indicies[i]:
-               self.active[i][j] = self.name2Indicies[i][poke]
+               self.active[i][j] = self.name2Indicies[i][poke.lower()]
           else:
                # Alternate name
-               poke = line[1].split(",")[0]
+               poke = line[1].split(",")[0].lower()
+               print(f"IN SWITCH, ALTERNATE NAME EXAMPLE: {poke}")
                self.active[i][j] = self.name2Indicies[i][poke]
+
           self.pokemon[i][self.active[i][j]].shown = True
           hp = int(line[2].split("/")[0])
           if hp != self.pokemon[i][self.active[i][j]].hp:
-              print(f"Creo que amoonguss: {poke}")
+              print(f"Creo que regenerator: {poke}")
           self.pokemon[i][self.active[i][j]].updateHp(hp)
          
      def startField(self, line):
@@ -238,12 +255,6 @@ class Board:
           j = self.j2pokemon(i, j)
           self.pokemon[i][j].status = "none"
 
-     def tera(self, line):
-          line = line.split("|")
-          i, j = Board.player2indicies(line[0])
-          j = self.j2pokemon(i, j)
-          self.pokemon[i][j].tera = True
-
      def protected(self, line):
           line = line.split("|")
           i,k = Board.player2indicies(line[0])
@@ -269,6 +280,13 @@ class Board:
           j = self.j2pokemon(i, k)
           perishIx = 4 - int(line[1][-1])
           self.pokemon[i][j].perish = perishIx
+
+     def mega(self, line):
+          line = line.split("|")
+          i,k = Board.player2indicies(line[0])
+          j = self.j2pokemon(i, k)
+          mega_name = line[1].split(",")[0].lower()
+          self.pokemon[i][j].mega(mega_name, pokemon_stats)
 
      def nextTurn(self):
           if self.weather[0] != "none":

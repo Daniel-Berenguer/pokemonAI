@@ -23,7 +23,7 @@ rows = results.find_all("tr")
 items = []
 
 for i,row in enumerate(rows[1:]):
-    items.append(row.find("td").text.lower())
+    items.append(row.find("td").text.lower().replace(" ", "").replace("-",""))
 
 with open("data/items.csv", "w") as file:
     text = ""

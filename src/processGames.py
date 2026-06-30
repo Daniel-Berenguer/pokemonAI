@@ -38,6 +38,9 @@ def processGame(text, tensors, labels, augment=True):
         if line.startswith("|switch|"):
             board.switch(line[len("|switch|"):])
 
+        if line.startswith("|drag|"):
+            board.switch(line[len("|drag|"):])
+
         if line.startswith("|-fieldstart|"):
             board.startField(line[len("|-fieldstart|"):])
 
@@ -77,9 +80,6 @@ def processGame(text, tensors, labels, augment=True):
         if line.startswith("|-singleturn|") and "Protect" in line:
             board.protected(line[len("|-singleturn|"):])
 
-        if line.startswith("-terastallize"):
-            board.tera(line[len("-terastallize"):])
-
         if line.startswith("|-start|") and "Substitute" in line:
             board.startSub(line[len("|-start|"):])
 
@@ -88,6 +88,9 @@ def processGame(text, tensors, labels, augment=True):
 
         if line.startswith("|-start|") and "perish" in line:
             board.perish(line[len("|-start|"):])
+
+        if line.startswith("|-detailschange|"):
+            board.mega(line[len("|-detailschange|"):])
 
 
         if line.startswith("|turn|"):

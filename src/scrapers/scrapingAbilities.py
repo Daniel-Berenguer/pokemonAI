@@ -24,7 +24,7 @@ abilities = []
 for table in results[2:26]:
     rows = table.find_all("tr")
     for row in rows[1:]:
-        abilities.append(row.find("td").text.lower().strip("\n"))
+        abilities.append(row.find("td").text.lower().strip("\n").replace(" ", ""))
 
 with open("data/abilities.csv", "w") as file:
     text = ""

@@ -28,7 +28,7 @@ for i,row in enumerate(rows):
         cols = row.find_all("td")
         
         # Move Name
-        move.append(cols[0].text[:-1].lower())
+        move.append(cols[0].text[:-1].lower().replace(" ","").replace("-","").replace("'", ""))
 
         # Type
         move.append(cols[1].find("img")["alt"].split(" ")[0].lower())
@@ -49,6 +49,8 @@ for i,row in enumerate(rows):
         move.append(acc)
 
         moves.append(move)
+
+moves.append(["nothing", "none", "status", "0", "100"])
 
 with open("data/moves.csv", "w") as file:
     text = ""

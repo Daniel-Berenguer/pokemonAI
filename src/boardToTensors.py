@@ -28,7 +28,8 @@ pokemon2ix = dict()
 with open("data/pokemon-stats.csv", "r") as file:
     for i, pokeStats in enumerate(file.read().split("\n")):
         poke = pokeStats.split(",")[0]
-        pokemon2ix[poke] = i
+        if "mega" not in poke or poke == "meganium":
+            pokemon2ix[poke] = i
 
 type2ix = dict()
 
@@ -48,9 +49,9 @@ terrain2ix = {"none" : 0,
            "Electric Terrain" : 3,
            "Misty Terrain" : 4}
 
-class2ix = {"Status" : 0,
-            "Physical" : 1,
-            "Special" : 2}
+class2ix = {"status" : 0,
+            "physical" : 1,
+            "special" : 2}
 
 status2ix = {"none" : 0,
              "brn" : 1,
@@ -96,9 +97,6 @@ def board2tensor(board: Board):
     append(array, [x[1]/8 for x in board.lightscreens])
     append(array, [x[0] for x in board.lightscreens])
 
-
-    
-
     moveFeats = []
     moveInts = []
     pokeInts = []
@@ -117,8 +115,8 @@ def board2tensor(board: Board):
 
     boardIntTensor = torch.tensor(arrayInt, dtype=torch.long) # Shape (5) [tw1, tw2, tr, weather, terrain]
     boardTensor = torch.tensor(array, dtype=torch.float) # Shape (boardFDim=15)
-    pokeIntsTensor = torch.tensor(pokeInts, dtype=torch.long) # Shape (2, 6, 6) [poke, item, ab, typ1, typ2, tera]
-    pokeFeatsTensor = torch.tensor(pokeFeats, dtype=torch.float) # Shape (2, 6, pokeFeatDim=24)
+    pokeIntsTensor = torch.tensor(pokeInts, dtype=torch.long) # Shape (2, 6, 5) [poke, item, ab, typ1, typ2]
+    pokeFeatsTensor = torch.tensor(pokeFeats, dtype=torch.float) # Shape (2, 6, pokeFeatDim=25)
     moveIntsTensor = torch.tensor(moveInts, dtype=torch.long) # Move Types (2, 6, 4, 2) [moveName, moveType]
     moveFeatsTensor = torch.tensor(moveFeats, dtype=torch.float) # Move Features (2, 6, 4, moveFeatDim)
 
@@ -132,7 +130,7 @@ def pokemon2array(poke: Pokemon):
     intFeats.append(pokemon2ix[poke.name])
     intFeats.append(items2ix[poke.item])
     intFeats.append(ab2ix[poke.ability])
-    intFeats += [type2ix[poke.stats[0]], type2ix[poke.stats[1]], type2ix[poke.teratype]]
+    intFeats += [type2ix[poke.stats[0].lower()], type2ix[poke.stats[1].lower()]]
     stats = poke.stats[2:]
     # [HP, ATK, DEF, SPA, SPD, SPE]
     dividers = [255, 190, 230, 195, 230, 200]
@@ -145,7 +143,7 @@ def pokemon2array(poke: Pokemon):
         boosts[i] /= 6
     append(feats, boosts)
     feats.append(poke.hp/100)
-    feats.append(poke.tera)
+    feats.append(poke.mega_evolved)
     feats.append(poke.justProtected)
     feats.append(poke.fnt)
     feats.append(poke.sub)
@@ -164,7 +162,6 @@ def pokemon2array(poke: Pokemon):
         append(mvFt, onehot(len(class2ix), class2ix[move[2]]))
         mvFt.append(int(move[3])/150)
         mvFt.append(int(move[4])/100)
-        mvFt.append(int(move[5])/8)
         moveFeats.append(mvFt)
         moveInts.append(mvInt)
     
@@ -172,7 +169,7 @@ def pokemon2array(poke: Pokemon):
 
 
 if __name__ == "__main__":
-    with open("data/games/gen9vgc2025reghbo3-2414586101") as file:
+    with open("data/games/gen9championsvgc2026regmbbo3-2637379640") as file:
         lines = file.read().split("\n")
 
     board = Board()
