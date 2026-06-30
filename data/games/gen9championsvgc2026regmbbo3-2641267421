@@ -1,0 +1,297 @@
+|j|ÔİåIm_Neutro
+|j|Ôİåtestingsss
+|html|Im_Neutrotestingsss    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782761193
+|gametype|doubles
+|player|p1|Im_Neutro|noland|1180
+|player|p2|testingsss|unknown|1251
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pok├®mon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gengar, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Milotic, L50, F|
+|poke|p1|Kommo-o, L50, F|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Venusaur, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Sylveon, L50, F|
+|teampreview|4
+|showteam|p1|Gengar||Gengarite|CursedBody|PerishSong,Protect,ShadowBall,Disable|Timid||M|||50|]Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,FakeOut,Coaching|Jolly||M|||50|]Incineroar||PasshoBerry|Intimidate|FlareBlitz,FakeOut,PartingShot,Protect|Relaxed||F|||50|]Sinistcha||MentalHerb|Hospitality|MatchaGotcha,RagePowder,Protect,LifeDew|Bold|||||50|]Milotic||SitrusBerry|Competitive|Coil,MuddyWater,Recover,Hypnosis|Calm||F|||50|]Kommo-o||Leftovers|Soundproof|ClangorousSoul,ClangingScales,AuraSphere,Protect|Modest||F|||50|
+|showteam|p2|Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,SolarBeam,Protect|Modest||F|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,RockSlide,Protect|Jolly||F|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,DarkestLariat,PartingShot|Careful||M|||50|]Venusaur||FocusSash|Chlorophyll|LeafStorm,SludgeBomb,SleepPowder,Protect|Timid||F|||50|]Farigiraf||ColburBerry|ArmorTail|Psychic,Thunderbolt,HelpingHand,TrickRoom|Modest||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,Yawn,QuickAttack,Detect|Modest||F|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Im_Neutro)
+|inactive|testingsss also wants the timer to be on.
+|
+|t:|1782761220
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gengar|Gengar, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Charizard|Charizard, L50, F|100/100
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Charizard|atk|1
+|-unboost|p2b: Garchomp|atk|1
+|turn|1
+|
+|t:|1782761232
+|detailschange|p1a: Gengar|Gengar-Mega, L50, M
+|-mega|p1a: Gengar|Gengar|Gengarite
+|detailschange|p2a: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p2a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p1a: Gengar|Protect|p1a: Gengar
+|-singleturn|p1a: Gengar|Protect
+|move|p1b: Incineroar|Protect|p1b: Incineroar
+|-singleturn|p1b: Incineroar|Protect
+|move|p2b: Garchomp|Earthquake|p1a: Gengar|[spread] 
+|-activate|p1a: Gengar|move: Protect
+|-activate|p1b: Incineroar|move: Protect
+|-immune|p2a: Charizard
+|move|p2a: Charizard|Weather Ball|p1b: Incineroar
+|-activate|p1b: Incineroar|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1782761257
+|move|p1a: Gengar|Disable|p2b: Garchomp
+|-start|p2b: Garchomp|Disable|Earthquake
+|cant|p2b: Garchomp|Disable|Earthquake
+|move|p2a: Charizard|Heat Wave|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1b: Incineroar|1
+|-damage|p1a: Gengar|26/100
+|-damage|p1b: Incineroar|71/100
+|move|p1b: Incineroar|Parting Shot|p2a: Charizard
+|-unboost|p2a: Charizard|atk|1
+|-unboost|p2a: Charizard|spa|1
+|
+|t:|1782761272
+|switch|p1b: Kommo-o|Kommo-o, L50, F|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1782761282
+|move|p1b: Kommo-o|Protect|p1b: Kommo-o
+|-singleturn|p1b: Kommo-o|Protect
+|move|p1a: Gengar|Perish Song|p1a: Gengar
+|-start|p1a: Gengar|perish3|[silent]
+|-immune|p1b: Kommo-o|[from] ability: Soundproof
+|-start|p2a: Charizard|perish3|[silent]
+|-start|p2b: Garchomp|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2b: Garchomp|Dragon Claw|p1b: Kommo-o
+|-activate|p1b: Kommo-o|move: Protect
+|move|p2a: Charizard|Weather Ball|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2b: Garchomp|perish3
+|-start|p2a: Charizard|perish3
+|upkeep
+|
+|t:|1782761287
+|switch|p1a: Incineroar|Incineroar, L50, F|71/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Charizard|atk|1
+|-unboost|p2b: Garchomp|atk|1
+|turn|4
+|
+|t:|1782761294
+|switch|p2b: Sylveon|Sylveon, L50, F|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|move|p1a: Incineroar|Fake Out||[still]
+|cant|p2a: Farigiraf|ability: Armor Tail|Fake Out|[of] p1a: Incineroar
+|move|p1b: Kommo-o|Clangorous Soul|p1b: Kommo-o
+|-boost|p1b: Kommo-o|atk|1
+|-boost|p1b: Kommo-o|def|1
+|-boost|p1b: Kommo-o|spa|1
+|-boost|p1b: Kommo-o|spd|1
+|-boost|p1b: Kommo-o|spe|1
+|-damage|p1b: Kommo-o|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Kommo-o|73/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1782761306
+|move|p2b: Sylveon|Quick Attack|p1b: Kommo-o
+|-supereffective|p1b: Kommo-o|2
+|-damage|p1b: Kommo-o|43/100
+|move|p1b: Kommo-o|Aura Sphere|p2a: Farigiraf
+|-damage|p2a: Farigiraf|39/100
+|move|p1a: Incineroar|Parting Shot|p2b: Sylveon
+|-unboost|p2b: Sylveon|atk|1
+|-unboost|p2b: Sylveon|spa|1
+|
+|t:|1782761309
+|switch|p1a: Milotic|Milotic, L50, F|100/100|[from] Parting Shot
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|-weather|none
+|-heal|p1b: Kommo-o|50/100y|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1782761322
+|move|p1b: Kommo-o|Protect|p1b: Kommo-o
+|-singleturn|p1b: Kommo-o|Protect
+|move|p2a: Farigiraf|Thunderbolt|p1a: Milotic
+|-supereffective|p1a: Milotic|1
+|-damage|p1a: Milotic|69/100
+|move|p2b: Sylveon|Yawn|p1b: Kommo-o
+|-activate|p1b: Kommo-o|move: Protect
+|move|p1a: Milotic|Coil|p1a: Milotic
+|-boost|p1a: Milotic|atk|1
+|-boost|p1a: Milotic|def|1
+|-boost|p1a: Milotic|accuracy|1
+|
+|-heal|p1b: Kommo-o|56/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Im_Neutro has 30 seconds left.
+|inactive|Im_Neutro has 20 seconds left.
+|inactive|Im_Neutro has 15 seconds left.
+|
+|t:|1782761364
+|move|p2a: Farigiraf|Helping Hand|p2b: Sylveon
+|-singleturn|p2b: Sylveon|Helping Hand|[of] p2a: Farigiraf
+|move|p2b: Sylveon|Quick Attack|p1b: Kommo-o
+|-supereffective|p1b: Kommo-o|2
+|-damage|p1b: Kommo-o|26/100
+|move|p1a: Milotic|Muddy Water|p2a: Farigiraf|[spread] p2a,p2b
+|-damage|p2a: Farigiraf|14/100
+|-damage|p2b: Sylveon|79/100
+|move|p1b: Kommo-o|Aura Sphere|p2a: Farigiraf
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|
+|-heal|p1b: Kommo-o|32/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1782761377
+|switch|p2a: Charizard|Charizard-Mega-Y, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|turn|8
+|inactive|testingsss has 30 seconds left.
+|inactive|testingsss has 20 seconds left.
+|
+|t:|1782761413
+|move|p1b: Kommo-o|Protect|p1b: Kommo-o
+|-singleturn|p1b: Kommo-o|Protect
+|move|p2b: Sylveon|Yawn|p1a: Milotic
+|-start|p1a: Milotic|move: Yawn|[of] p2b: Sylveon
+|move|p1a: Milotic|Hypnosis|p2a: Charizard
+|-status|p2a: Charizard|slp|[from] move: Hypnosis
+|cant|p2a: Charizard|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Kommo-o|38/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1782761431
+|move|p2b: Sylveon|Quick Attack|p1b: Kommo-o
+|-supereffective|p1b: Kommo-o|2
+|-damage|p1b: Kommo-o|16/100
+|move|p1a: Milotic|Hypnosis|p2b: Sylveon
+|-status|p2b: Sylveon|slp|[from] move: Hypnosis
+|-curestatus|p2a: Charizard|slp|[msg]
+|move|p2a: Charizard|Weather Ball|p1b: Kommo-o
+|-resisted|p1b: Kommo-o|1
+|-damage|p1b: Kommo-o|0 fnt
+|faint|p1b: Kommo-o
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Milotic|move: Yawn|[silent]
+|-status|p1a: Milotic|slp
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1782761445
+|switch|p1b: Incineroar|Incineroar, L50, F|71/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Charizard|atk|1
+|-unboost|p2b: Sylveon|atk|1
+|turn|10
+|c|ÔİåIm_Neutro|how
+|c|Ôİåtestingsss|what
+|c|ÔİåIm_Neutro|1 turn?
+|inactive|Im_Neutro has 30 seconds left.
+|c|Ôİåtestingsss|1 turn wake up
+|c|Ôİåtestingsss|it's more common than u think
+|inactive|Im_Neutro has 20 seconds left.
+|c|Ôİåtestingsss|since they reworked sleep as a status
+|c|ÔİåIm_Neutro|i thought it was turn 0
+|inactive|Im_Neutro has 15 seconds left.
+|c|ÔİåIm_Neutro|ah
+|c|ÔİåIm_Neutro|my bad
+|inactive|Im_Neutro has 10 seconds left.
+|c|Ôİåtestingsss|dw
+|inactive|Im_Neutro has 5 seconds left.
+|
+|t:|1782761496
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|move|p1b: Incineroar|Fake Out|p2a: Charizard
+|-damage|p2a: Charizard|86/100
+|cant|p2a: Charizard|flinch
+|cant|p1a: Milotic|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1782761509
+|move|p2b: Garchomp|Earthquake|p1b: Incineroar|[spread] p1a,p1b
+|-immune|p2a: Charizard
+|-supereffective|p1b: Incineroar|1
+|-damage|p1a: Milotic|35/100 slp
+|-damage|p1b: Incineroar|1/100
+|-enditem|p1a: Milotic|Sitrus Berry|[eat]
+|-heal|p1a: Milotic|60/100 slp|[from] item: Sitrus Berry
+|-damage|p2b: Garchomp|90/100|[from] item: Life Orb
+|move|p2a: Charizard|Solar Beam||[still]
+|-prepare|p2a: Charizard|Solar Beam
+|-anim|p2a: Charizard|Solar Beam|p1a: Milotic
+|-supereffective|p1a: Milotic|1
+|-damage|p1a: Milotic|3/100 slp
+|cant|p1a: Milotic|slp
+|move|p1b: Incineroar|Parting Shot|p2a: Charizard
+|-unboost|p2a: Charizard|atk|1
+|-unboost|p2a: Charizard|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1782761522
+|move|p2b: Garchomp|Earthquake|p1a: Milotic|[spread] p1a,p1b
+|-immune|p2a: Charizard
+|-supereffective|p1b: Incineroar|1
+|-damage|p1a: Milotic|0 fnt
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1a: Milotic
+|faint|p1b: Incineroar
+|-damage|p2b: Garchomp|80/100|[from] item: Life Orb
+|
+|win|testingsss
+|raw|Im_Neutro's rating: 1180 → 1160(-20 for losing)
+|raw|testingsss's rating: 1251 → 1271(+20 for winning)
+|l|ÔİåIm_Neutro
+|player|p1|
+|c|Ôİåtestingsss|ggs

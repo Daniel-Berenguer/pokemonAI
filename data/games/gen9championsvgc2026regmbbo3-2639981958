@@ -1,0 +1,169 @@
+|j|☆steelag0
+|j|☆suminduta
+|html|steelag0suminduta    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782557669
+|gametype|doubles
+|player|p1|steelag0|265|1232
+|player|p2|suminduta|shadowtriad|1137
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Blaziken, L50, M|
+|poke|p1|Hydreigon, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Metagross, L50|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Froslass, L50, F|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Milotic, L50, M|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Blaziken||Blazikenite|SpeedBoost|FlareBlitz,CloseCombat,RockSlide,Detect|Adamant||M|||50|]Hydreigon||ChoiceScarf|Levitate|DracoMeteor,DarkPulse,EarthPower,Snarl|Modest||F|||50|]Basculegion||LifeOrb|Adaptability|WaveCrash,LastRespects,AquaJet,Protect|Adamant||M|||50|]Whimsicott||FocusSash|Prankster|Moonblast,Encore,Tailwind,Protect|Timid||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,Thunderbolt,Roar,TrickRoom|Bold||F|||50|]Metagross||Metagrossite|ClearBody|PsychicFangs,IronHead,StompingTantrum,Protect|Jolly|||||50|
+|showteam|p2|Volcarona||PasshoBerry|FlameBody|RagePowder,Tailwind,HeatWave,Protect|Bold||F|||50|]Froslass||Froslassite|SnowCloak|Blizzard,ShadowBall,Protect,NastyPlot|Timid||F|||50|]Ninetales-Alola||NeverMeltIce|SnowWarning|Blizzard,FreezeDry,AuroraVeil,Protect|Timid||F|||50|]Garchomp||ChoiceScarf|RoughSkin|StompingTantrum,RockSlide,DragonClaw|Jolly||M|||50|]Milotic||Leftovers|Competitive|Scald,MuddyWater,IcyWind,Protect|Modest||M|||50|]Sneasler||WhiteHerb|Unburden|FakeOut,CloseCombat,DireClaw,Protect|Adamant||M|||50|
+|
+|t:|1782557700
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hydreigon|Hydreigon, L50, F|100/100
+|switch|p1b: Metagross|Metagross, L50|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Milotic|Milotic, L50, M|100/100
+|turn|1
+|
+|t:|1782557729
+|detailschange|p1b: Metagross|Metagross-Mega, L50
+|-mega|p1b: Metagross|Metagross|Metagrossite
+|move|p2a: Sneasler|Fake Out|p1b: Metagross
+|-resisted|p1b: Metagross|1
+|-damage|p1b: Metagross|94/100
+|move|p1a: Hydreigon|Earth Power|p2a: Sneasler
+|-supereffective|p2a: Sneasler|1
+|-damage|p2a: Sneasler|10/100
+|cant|p1b: Metagross|flinch
+|move|p2b: Milotic|Icy Wind|p1b: Metagross|[spread] p1a,p1b
+|-supereffective|p1a: Hydreigon|1
+|-resisted|p1b: Metagross|1
+|-damage|p1a: Hydreigon|71/100
+|-damage|p1b: Metagross|88/100
+|-unboost|p1a: Hydreigon|spe|1
+|-unboost|p1b: Metagross|spe|1
+|
+|upkeep
+|turn|2
+|
+|t:|1782557751
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|move|p2a: Sneasler|Close Combat|p1b: Metagross
+|-damage|p1b: Metagross|35/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|move|p1b: Metagross|Psychic Fangs|p2b: Milotic
+|-damage|p2b: Milotic|43/100
+|move|p2b: Milotic|Scald|p1b: Metagross
+|-damage|p1b: Metagross|1/100
+|
+|-heal|p2b: Milotic|49/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1782557768
+|move|p1a: Basculegion|Aqua Jet|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|-damage|p1a: Basculegion|90/100|[from] item: Life Orb
+|move|p1b: Metagross|Psychic Fangs|p2b: Milotic
+|-damage|p2b: Milotic|0 fnt
+|faint|p2b: Milotic
+|
+|upkeep
+|
+|t:|1782557770
+|switch|p2a: Froslass|Froslass, L50, F|100/100
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by suminduta)
+|
+|t:|1782557796
+|detailschange|p2a: Froslass|Froslass-Mega, L50, F
+|-mega|p2a: Froslass|Froslass|Froslassite
+|move|p1a: Basculegion|Protect|p1a: Basculegion
+|-singleturn|p1a: Basculegion|Protect
+|move|p2a: Froslass|Nasty Plot|p2a: Froslass
+|-boost|p2a: Froslass|spa|2
+|move|p2b: Ninetales|Blizzard|p1a: Basculegion|[spread] p1b
+|-activate|p1a: Basculegion|move: Protect
+|-resisted|p1b: Metagross|1
+|-damage|p1b: Metagross|0 fnt
+|faint|p1b: Metagross
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1782557807
+|switch|p1b: Whimsicott|Whimsicott, L50, M|100/100
+|turn|5
+|
+|t:|1782557820
+|move|p2a: Froslass|Protect|p2a: Froslass
+|-singleturn|p2a: Froslass|Protect
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: steelag0|move: Tailwind
+|move|p1a: Basculegion|Last Respects|p2a: Froslass
+|-activate|p2a: Froslass|move: Protect
+|move|p2b: Ninetales|Freeze-Dry|p1a: Basculegion
+|-supereffective|p1a: Basculegion|1
+|-damage|p1a: Basculegion|18/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1782557836
+|move|p2a: Froslass|Protect||[still]
+|-fail|p2a: Froslass
+|move|p1b: Whimsicott|Moonblast|p2b: Ninetales
+|-damage|p2b: Ninetales|57/100
+|move|p1a: Basculegion|Last Respects|p2a: Froslass
+|-supereffective|p2a: Froslass|1
+|-damage|p2a: Froslass|0 fnt
+|faint|p2a: Froslass
+|-damage|p1a: Basculegion|8/100|[from] item: Life Orb
+|move|p2b: Ninetales|Blizzard|p1b: Whimsicott|[spread] p1a,p1b
+|-resisted|p1a: Basculegion|1
+|-supereffective|p1b: Whimsicott|1
+|-damage|p1a: Basculegion|0 fnt
+|-enditem|p1b: Whimsicott|Focus Sash
+|-damage|p1b: Whimsicott|1/100
+|faint|p1a: Basculegion
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|c|☆steelag0|gg
+|
+|t:|1782557853
+|switch|p1a: Hydreigon|Hydreigon, L50, F|71/100
+|turn|7
+|
+|t:|1782557860
+|move|p1a: Hydreigon|Earth Power|p2b: Ninetales
+|-damage|p2b: Ninetales|15/100
+|move|p1b: Whimsicott|Moonblast|p2b: Ninetales
+|-damage|p2b: Ninetales|0 fnt
+|faint|p2b: Ninetales
+|
+|win|steelag0
+|raw|steelag0's rating: 1232 → 1250(+18 for winning)
+|raw|suminduta's rating: 1137 → 1119(-18 for losing)
+|l|☆suminduta
+|player|p2|

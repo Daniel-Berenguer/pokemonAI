@@ -1,0 +1,150 @@
+|j|☆Testing987654
+|j|☆Icecreamboy340
+|html|Testing987654Icecreamboy340    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782742253
+|gametype|doubles
+|player|p1|Testing987654|2|1119
+|player|p2|Icecreamboy340|2|1044
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Staraptor, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Toxapex, L50, M|
+|poke|p1|Raichu, L50, F|
+|poke|p2|Sceptile, L50, M, shiny|
+|poke|p2|Basculegion, L50, M, shiny|
+|poke|p2|Pelipper, L50, M, shiny|
+|poke|p2|Rotom-Heat, L50|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Metagross, L50, shiny|
+|teampreview|4
+|showteam|p1|Staraptor||Staraptite|Intimidate|CloseCombat,DualWingbeat,Protect,Roost|Jolly||F|||50|]Grimmsnarl||LightClay|Prankster|Reflect,LightScreen,PartingShot,SpiritBreak|Careful||M|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,PartingShot,FlareBlitz,Protect|Careful||F|||50|]Sinistcha||KasibBerry|Hospitality|RagePowder,MatchaGotcha,Protect,ShadowBall|Bold|||||50|]Toxapex||Leftovers|Regenerator|Toxic,BanefulBunker,Infestation,Recover|Sassy||M|||50|]Raichu||FocusSash|LightningRod|FakeOut,Protect,GrassKnot,Thunderbolt|Modest||F|||50|
+|showteam|p2|Sceptile||Sceptilite|Overgrow|EarthPower,EnergyBall,DragonPulse,Protect|Modest||M|||50|]Basculegion||MysticWater|SwiftSwim|AquaJet,WaveCrash,LastRespects,Protect|Adamant||M|||50|]Pelipper||DampRock|Drizzle|Hurricane,WeatherBall,WideGuard,KnockOff|Relaxed||M|||50|]Rotom-Heat||ChoiceScarf|Levitate|Discharge,Overheat,WillOWisp,RainDance|Timid|||||50|]Farigiraf||Leftovers|ArmorTail|DazzlingGleam,EnergyBall,Imprison,TrickRoom|Quiet||F|||50|]Metagross||Metagrossite|ClearBody|Earthquake,BulletPunch,PsychicFangs,Protect|Jolly|||||50|
+|
+|t:|1782742280
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Sceptile|Sceptile, L50, M, shiny|100/100
+|switch|p2b: Rotom|Rotom-Heat, L50|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Sceptile|atk|1
+|-unboost|p2b: Rotom|atk|1
+|turn|1
+|
+|t:|1782742298
+|detailschange|p2a: Sceptile|Sceptile-Mega, L50, M, shiny
+|-mega|p2a: Sceptile|Sceptile|Sceptilite
+|move|p1b: Incineroar|Fake Out|p2a: Sceptile
+|-damage|p2a: Sceptile|84/100
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Testing987654|move: Light Screen
+|move|p2b: Rotom|Discharge|p1a: Grimmsnarl|[spread] p1a,p1b
+|-ability|p2a: Sceptile|Lightning Rod|boost
+|-boost|p2a: Sceptile|spa|1
+|-damage|p1a: Grimmsnarl|85/100
+|-damage|p1b: Incineroar|87/100
+|-status|p1b: Incineroar|par
+|cant|p2a: Sceptile|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1782742317
+|move|p2b: Rotom|Discharge|p1b: Incineroar|[spread] p1a,p1b
+|-ability|p2a: Sceptile|Lightning Rod|boost
+|-boost|p2a: Sceptile|spa|1
+|-crit|p1b: Incineroar
+|-damage|p1a: Grimmsnarl|70/100
+|-damage|p1b: Incineroar|59/100 par
+|move|p2a: Sceptile|Earth Power|p1b: Incineroar
+|-supereffective|p1b: Incineroar|1
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Grimmsnarl|Spirit Break|p2a: Sceptile
+|-supereffective|p2a: Sceptile|1
+|-damage|p2a: Sceptile|0 fnt
+|faint|p2a: Sceptile
+|
+|upkeep
+|
+|t:|1782742330
+|switch|p2a: Metagross|Metagross, L50, shiny|100/100
+|switch|p1b: Staraptor|Staraptor, L50, F|100/100
+|-ability|p1b: Staraptor|Intimidate|boost
+|-fail|p2a: Metagross|unboost|[from] ability: Clear Body|[of] p2a: Metagross
+|-unboost|p2b: Rotom|atk|1
+|turn|3
+|
+|t:|1782742339
+|detailschange|p1b: Staraptor|Staraptor-Mega, L50, F
+|-mega|p1b: Staraptor|Staraptor|Staraptite
+|move|p2a: Metagross|Protect|p2a: Metagross
+|-singleturn|p2a: Metagross|Protect
+|move|p1a: Grimmsnarl|Parting Shot|p1b: Staraptor
+|-boost|p1b: Staraptor|atk|1
+|-boost|p1b: Staraptor|spa|1
+|
+|t:|1782742342
+|switch|p1a: Raichu|Raichu, L50, F|100/100|[from] Parting Shot
+|move|p2b: Rotom|Discharge|p1a: Raichu|[spread] p1b
+|-activate|p2a: Metagross|move: Protect
+|-ability|p1a: Raichu|Lightning Rod|boost
+|-boost|p1a: Raichu|spa|1
+|-supereffective|p1b: Staraptor|1
+|-crit|p1b: Staraptor
+|-damage|p1b: Staraptor|18/100
+|-status|p1b: Staraptor|par
+|move|p1b: Staraptor|Close Combat|p2a: Metagross
+|-activate|p2a: Metagross|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1782742356
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|move|p1a: Raichu|Fake Out||[still]
+|cant|p2b: Farigiraf|ability: Armor Tail|Fake Out|[of] p1a: Raichu
+|move|p2a: Metagross|Bullet Punch|p1b: Staraptor
+|-damage|p1b: Staraptor|0 fnt
+|faint|p1b: Staraptor
+|
+|upkeep
+|
+|t:|1782742358
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|70/100
+|turn|5
+|
+|t:|1782742382
+|move|p1b: Grimmsnarl|Reflect|p1b: Grimmsnarl
+|-sidestart|p1: Testing987654|Reflect
+|move|p1a: Raichu|Thunderbolt|p2a: Metagross
+|-damage|p2a: Metagross|36/100
+|move|p2a: Metagross|Psychic Fangs|p1a: Raichu
+|-sideend|p1: Testing987654|Reflect
+|-sideend|p1: Testing987654|move: Light Screen
+|-damage|p1a: Raichu|9/100
+|move|p2b: Farigiraf|Dazzling Gleam|p1a: Raichu|[spread] p1a,p1b
+|-supereffective|p1b: Grimmsnarl|1
+|-damage|p1a: Raichu|0 fnt
+|-damage|p1b: Grimmsnarl|40/100
+|faint|p1a: Raichu
+|
+|upkeep
+|turn|6
+|-message|Testing987654 forfeited.
+|
+|win|Icecreamboy340
+|l|☆Testing987654
+|player|p1|
+||Testing987654 is ready for game 3.
+|inactive|Icecreamboy340 has 30 seconds to confirm battle start!

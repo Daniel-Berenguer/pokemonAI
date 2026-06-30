@@ -1,0 +1,310 @@
+|j|☆nutbuster151
+|j|☆testdigi
+|html|nutbuster151testdigi    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782483255
+|gametype|doubles
+|player|p1|nutbuster151|acetrainer|1136
+|player|p2|testdigi|1|1084
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p2|Hydreigon, L50, F|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Metagross, L50, shiny|
+|poke|p2|Grimmsnarl, L50, M, shiny|
+|poke|p2|Charizard, L50, F, shiny|
+|poke|p2|Toxapex, L50, F, shiny|
+|teampreview|4
+|showteam|p1|Floette-Eternal||Floettite|FlowerVeil|Moonblast,DazzlingGleam,LightofRuin,Protect|Modest||F|||50|]Charizard||CharizarditeY|Blaze|HeatWave,SolarBeam,WeatherBall,Protect|Modest||M|||50|]Whimsicott||FocusSash|Prankster|Moonblast,Tailwind,Encore,Protect|Timid||M|||50|]Garchomp||RoseliBerry|RoughSkin|DragonClaw,StompingTantrum,PoisonJab,RockSlide|Adamant||M|||50|]Basculegion||MysticWater|Adaptability|WaveCrash,LastRespects,AquaJet,Protect|Adamant||M|||50|]Kingambit||OccaBerry|Defiant|KowtowCleave,IronHead,SuckerPunch,Protect|Adamant||F|||50|
+|showteam|p2|Hydreigon||ChoiceScarf|Levitate|HeatWave,DarkPulse,DracoMeteor,Snarl|Modest||F|||50|]Garchomp||LifeOrb|RoughSkin|Protect,RockSlide,DragonClaw,Earthquake|Jolly||M|||50|]Metagross||Metagrossite|ClearBody|Protect,HammerArm,BulletPunch,IronHead|Brave|||||50|]Grimmsnarl||RoseliBerry|Prankster|FakeOut,LightScreen,Reflect,PartingShot|Sassy||M|||50|]Charizard||CharizarditeY|Blaze|Protect,HeatWave,SolarBeam,WeatherBall|Timid||F|||50|]Toxapex||Leftovers|Regenerator|Infestation,Toxic,BanefulBunker,WideGuard|Relaxed||F|||50|
+|
+|t:|1782483297
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|switch|p2b: Toxapex|Toxapex, L50, F, shiny|100/100
+|turn|1
+|
+|t:|1782483331
+|switch|p1a: Charizard|Charizard, L50, M|100/100
+|move|p2a: Grimmsnarl|Fake Out|p1b: Garchomp
+|-damage|p1b: Garchomp|89/100
+|-damage|p2a: Grimmsnarl|87/100|[from] ability: Rough Skin|[of] p1b: Garchomp
+|cant|p1b: Garchomp|flinch
+|move|p2b: Toxapex|Toxic|p1b: Garchomp
+|-status|p1b: Garchomp|tox
+|
+|-damage|p1b: Garchomp|83/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1782483354
+|switch|p1b: Whimsicott|Whimsicott, L50, M|100/100
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p2a: Grimmsnarl|Parting Shot|p1b: Whimsicott
+|-unboost|p1b: Whimsicott|atk|1
+|-unboost|p1b: Whimsicott|spa|1
+|
+|t:|1782483362
+|switch|p2a: Charizard|Charizard, L50, F, shiny|100/100|[from] Parting Shot
+|move|p1a: Charizard|Solar Beam||[still]
+|-prepare|p1a: Charizard|Solar Beam
+|-anim|p1a: Charizard|Solar Beam|p2b: Toxapex
+|-activate|p2b: Toxapex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1782483394
+|detailschange|p2a: Charizard|Charizard-Mega-Y, L50, F, shiny
+|-mega|p2a: Charizard|Charizard|Charizardite Y
+|move|p1b: Whimsicott|Encore|p2b: Toxapex
+|-start|p2b: Toxapex|Encore
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p2a: Charizard|Weather Ball|p1b: Whimsicott
+|-supereffective|p1b: Whimsicott|1
+|-enditem|p1b: Whimsicott|Focus Sash
+|-damage|p1b: Whimsicott|1/100
+|move|p1a: Charizard|Weather Ball|p2a: Charizard
+|-resisted|p2a: Charizard|1
+|-damage|p2a: Charizard|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1782483423
+|move|p2b: Toxapex|Baneful Bunker||[still]
+|-fail|p2b: Toxapex
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: nutbuster151|move: Tailwind
+|move|p1a: Charizard|Heat Wave|p2a: Charizard|[spread] p2a,p2b
+|-resisted|p2a: Charizard|1
+|-resisted|p2b: Toxapex|1
+|-damage|p2a: Charizard|26/100
+|-damage|p2b: Toxapex|77/100
+|-status|p2b: Toxapex|brn
+|move|p2a: Charizard|Heat Wave|p1b: Whimsicott|[spread] p1a,p1b
+|-resisted|p1a: Charizard|1
+|-supereffective|p1b: Whimsicott|1
+|-damage|p1a: Charizard|73/100
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Toxapex|82/100 brn|[from] item: Leftovers
+|-damage|p2b: Toxapex|77/100 brn|[from] brn
+|upkeep
+|
+|t:|1782483444
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|turn|5
+|
+|t:|1782483458
+|switch|p2a: Hydreigon|Hydreigon, L50, F|100/100
+|-heal|p2b: Toxapex|100/100 brn|[from] ability: Regenerator|[silent]
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M, shiny|87/100
+|move|p1a: Charizard|Weather Ball|p2a: Hydreigon
+|-resisted|p2a: Hydreigon|1
+|-damage|p2a: Hydreigon|47/100
+|move|p1b: Basculegion|Last Respects|p2b: Grimmsnarl
+|-resisted|p2b: Grimmsnarl|1
+|-damage|p2b: Grimmsnarl|51/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1782483487
+|switch|p2a: Toxapex|Toxapex, L50, F, shiny|100/100 brn
+|move|p1a: Charizard|Protect|p1a: Charizard
+|-singleturn|p1a: Charizard|Protect
+|move|p1b: Basculegion|Protect|p1b: Basculegion
+|-singleturn|p1b: Basculegion|Protect
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: testdigi|Reflect
+|
+|-weather|none
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1782483511
+|switch|p1a: Garchomp|Garchomp, L50, M|83/100 tox
+|move|p2b: Grimmsnarl|Parting Shot|p1b: Basculegion
+|-unboost|p1b: Basculegion|atk|1
+|-unboost|p1b: Basculegion|spa|1
+|
+|t:|1782483517
+|switch|p2b: Hydreigon|Hydreigon, L50, F|47/100|[from] Parting Shot
+|move|p1b: Basculegion|Wave Crash|p2b: Hydreigon
+|-resisted|p2b: Hydreigon|1
+|-crit|p2b: Hydreigon
+|-damage|p2b: Hydreigon|0 fnt
+|faint|p2b: Hydreigon
+|-damage|p1b: Basculegion|86/100|[from] Recoil
+|move|p2a: Toxapex|Toxic|p1b: Basculegion
+|-status|p1b: Basculegion|tox
+|
+|-heal|p2a: Toxapex|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Garchomp|77/100 tox|[from] psn
+|-damage|p1b: Basculegion|80/100 tox|[from] psn
+|-damage|p2a: Toxapex|94/100 brn|[from] brn
+|-sideend|p1: nutbuster151|move: Tailwind
+|upkeep
+|
+|t:|1782483520
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M, shiny|51/100
+|turn|8
+|
+|t:|1782483543
+|move|p2b: Grimmsnarl|Fake Out|p1a: Garchomp
+|-damage|p1a: Garchomp|65/100 tox
+|-damage|p2b: Grimmsnarl|39/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|cant|p1a: Garchomp|flinch
+|move|p1b: Basculegion|Wave Crash|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|-damage|p1b: Basculegion|67/100 tox|[from] Recoil
+|move|p2a: Toxapex|Infestation|p1a: Garchomp
+|-damage|p1a: Garchomp|61/100 tox
+|-activate|p1a: Garchomp|move: Infestation|[of] p2a: Toxapex
+|-damage|p2a: Toxapex|82/100 brn|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|-heal|p2a: Toxapex|87/100 brn|[from] item: Leftovers
+|-damage|p1a: Garchomp|49/100 tox|[from] psn
+|-damage|p1b: Basculegion|55/100 tox|[from] psn
+|-damage|p2a: Toxapex|82/100 brn|[from] brn
+|-damage|p1a: Garchomp|37/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1782483546
+|switch|p2b: Charizard|Charizard-Mega-Y, L50, F, shiny|26/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Charizard
+|turn|9
+|
+|t:|1782483576
+|move|p2b: Charizard|Protect|p2b: Charizard
+|-singleturn|p2b: Charizard|Protect
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Garchomp|Dragon Claw|p2b: Charizard
+|-activate|p2b: Charizard|move: Protect
+|move|p1b: Basculegion|Last Respects|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toxapex|87/100 brn|[from] item: Leftovers
+|-damage|p1a: Garchomp|19/100 tox|[from] psn
+|-damage|p1b: Basculegion|37/100 tox|[from] psn
+|-damage|p2a: Toxapex|82/100 brn|[from] brn
+|-damage|p1a: Garchomp|7/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|10
+|
+|t:|1782483597
+|switch|p1b: Charizard|Charizard-Mega-Y, L50, M|73/100
+|move|p2b: Charizard|Heat Wave|p1b: Charizard|[spread] p1a,p1b
+|-resisted|p1a: Garchomp|1
+|-resisted|p1b: Charizard|1
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p1b: Charizard|49/100
+|faint|p1a: Garchomp
+|move|p2a: Toxapex|Infestation|p1b: Charizard
+|-resisted|p1b: Charizard|2
+|-damage|p1b: Charizard|48/100
+|-activate|p1b: Charizard|move: Infestation|[of] p2a: Toxapex
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toxapex|87/100 brn|[from] item: Leftovers
+|-damage|p2a: Toxapex|82/100 brn|[from] brn
+|-damage|p1b: Charizard|36/100|[from] move: Infestation|[partiallytrapped]
+|-sideend|p2: testdigi|Reflect
+|upkeep
+|
+|t:|1782483612
+|switch|p1a: Basculegion|Basculegion, L50, M|37/100 tox
+|turn|11
+|
+|t:|1782483621
+|move|p2b: Charizard|Protect|p2b: Charizard
+|-singleturn|p2b: Charizard|Protect
+|move|p1a: Basculegion|Aqua Jet|p2b: Charizard
+|-activate|p2b: Charizard|move: Protect
+|move|p1b: Charizard|Solar Beam||[still]
+|-prepare|p1b: Charizard|Solar Beam
+|-anim|p1b: Charizard|Solar Beam|p2a: Toxapex
+|-damage|p2a: Toxapex|46/100 brn
+|move|p2a: Toxapex|Toxic|p1b: Charizard
+|-status|p1b: Charizard|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toxapex|52/100 brn|[from] item: Leftovers
+|-damage|p1b: Charizard|30/100 tox|[from] psn
+|-damage|p1a: Basculegion|31/100 tox|[from] psn
+|-damage|p2a: Toxapex|46/100 brn|[from] brn
+|-damage|p1b: Charizard|17/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|t:|1782483643
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Basculegion|Aqua Jet|p2b: Charizard
+|-supereffective|p2b: Charizard|1
+|-damage|p2b: Charizard|0 fnt
+|faint|p2b: Charizard
+|move|p1b: Charizard|Heat Wave|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toxapex|52/100 brn|[from] item: Leftovers
+|-damage|p1b: Charizard|5/100 tox|[from] psn
+|-damage|p1a: Basculegion|19/100 tox|[from] psn
+|-damage|p2a: Toxapex|46/100 brn|[from] brn
+|-damage|p1b: Charizard|0 fnt|[from] move: Infestation|[partiallytrapped]
+|faint|p1b: Charizard
+|upkeep
+|turn|13
+|c|☆nutbuster151|history repeats itself
+|
+|t:|1782483705
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Basculegion|Last Respects|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-weather|none
+|-heal|p2a: Toxapex|52/100 brn|[from] item: Leftovers
+|-damage|p1a: Basculegion|1/100 tox|[from] psn
+|-damage|p2a: Toxapex|46/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1782483719
+|move|p2a: Toxapex|Baneful Bunker||[still]
+|-fail|p2a: Toxapex
+|move|p1a: Basculegion|Last Respects|p2a: Toxapex
+|-damage|p2a: Toxapex|0 fnt
+|faint|p2a: Toxapex
+|
+|win|nutbuster151

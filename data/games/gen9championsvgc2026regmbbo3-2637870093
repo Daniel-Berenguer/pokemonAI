@@ -1,0 +1,143 @@
+|j|☆pikatrod
+|j|☆josedawp
+|html|pikatrodjosedawp    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782246075
+|gametype|doubles
+|player|p1|pikatrod|170|1323
+|player|p2|josedawp|hilbert|1256
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Pyroar, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Scrafty, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Charizard, L50, F, shiny|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Garchomp, L50, F, shiny|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Kangaskhan, L50, F, shiny|
+|poke|p2|Incineroar, L50, M, shiny|
+|teampreview|4
+|showteam|p1|Whimsicott||FairyFeather|Prankster|Tailwind,Moonblast,Protect,SunnyDay|Timid||F|||50|]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HelpingHand,Protect|Quiet||M|||50|]Pyroar||Pyroarite|Unnerve|HeatWave,Overheat,SolarBeam,Protect|Timid||M|||50|]Farigiraf||SitrusBerry|ArmorTail|TrickRoom,Protect,HelpingHand,Psychic|Quiet||M|||50|]Scrafty||Scraftinite|Intimidate|FakeOut,IcePunch,KnockOff,CloseCombat|Brave||F|||50|]Basculegion||FocusSash|Adaptability|LastRespects,Liquidation,AquaJet,Protect|Adamant||M|||50|
+|showteam|p2|Charizard||CharizarditeY|Blaze|WeatherBall,HeatWave,SolarBeam,Protect|Modest||F|||50|]Whimsicott||FocusSash|Prankster|Moonblast,Tailwind,Encore,Protect|Timid||F|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,RockSlide,Protect|Jolly||F|||50|]Gholdengo||SpellTag|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect|Modest|||||50|]Kangaskhan||Kangaskhanite|Scrappy|DoubleEdge,IcePunch,LowKick,FakeOut|Adamant||F|||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,ThroatChop,PartingShot,FakeOut|Careful||M|||50|
+|
+|t:|1782246127
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p1b: Scrafty|Scrafty, L50, F|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, L50, F, shiny|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Farigiraf|atk|1
+|-unboost|p1b: Scrafty|atk|1
+|-ability|p1b: Scrafty|Intimidate|boost
+|-fail|p2a: Kangaskhan|unboost|Attack|[from] ability: Scrappy|[of] p2a: Kangaskhan
+|-unboost|p2b: Incineroar|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by pikatrod)
+|
+|t:|1782246162
+|detailschange|p2a: Kangaskhan|Kangaskhan-Mega, L50, F, shiny
+|-mega|p2a: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p1b: Scrafty|Fake Out|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|91/100
+|cant|p2a: Kangaskhan|flinch
+|move|p2b: Incineroar|Throat Chop|p1a: Farigiraf
+|-supereffective|p1a: Farigiraf|1
+|-damage|p1a: Farigiraf|62/100
+|-start|p1a: Farigiraf|Throat Chop|[silent]
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1782246179
+|detailschange|p1b: Scrafty|Scrafty-Mega, L50, F
+|-mega|p1b: Scrafty|Scrafty|Scraftinite
+|-ability|p1b: Scrafty|Intimidate|boost
+|-unboost|p2a: Kangaskhan|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|move|p1a: Farigiraf|Helping Hand|p1b: Scrafty
+|-singleturn|p1b: Scrafty|Helping Hand|[of] p1a: Farigiraf
+|move|p1b: Scrafty|Close Combat|p2b: Incineroar
+|-supereffective|p2b: Incineroar|1
+|-damage|p2b: Incineroar|0 fnt
+|-unboost|p1b: Scrafty|def|1
+|-unboost|p1b: Scrafty|spd|1
+|faint|p2b: Incineroar
+|move|p2a: Kangaskhan|Double-Edge|p1a: Farigiraf
+|-damage|p1a: Farigiraf|21/100
+|-enditem|p1a: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1a: Farigiraf|46/100|[from] item: Sitrus Berry
+|-damage|p1a: Farigiraf|35/100
+|-hitcount|p1a: Farigiraf|2
+|-damage|p2a: Kangaskhan|73/100|[from] Recoil
+|
+|-end|p1a: Farigiraf|Throat Chop|[silent]
+|upkeep
+|
+|t:|1782246199
+|switch|p2b: Whimsicott|Whimsicott, L50, F|100/100
+|turn|3
+|
+|t:|1782246209
+|move|p1a: Farigiraf|Psychic|p2b: Whimsicott
+|-damage|p2b: Whimsicott|34/100
+|move|p1b: Scrafty|Close Combat|p2a: Kangaskhan
+|-supereffective|p2a: Kangaskhan|1
+|-damage|p2a: Kangaskhan|0 fnt
+|-unboost|p1b: Scrafty|def|1
+|-unboost|p1b: Scrafty|spd|1
+|faint|p2a: Kangaskhan
+|move|p2b: Whimsicott|Moonblast|p1b: Scrafty
+|-supereffective|p1b: Scrafty|2
+|-damage|p1b: Scrafty|0 fnt
+|faint|p1b: Scrafty
+|
+|upkeep
+|
+|t:|1782246218
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|switch|p2a: Garchomp|Garchomp, L50, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|4
+|
+|t:|1782246230
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1b: Torkoal|Eruption|p2b: Whimsicott|[spread] p2b
+|-activate|p2a: Garchomp|move: Protect
+|-supereffective|p2b: Whimsicott|1
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|move|p1a: Farigiraf|Psychic|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1782246241
+|move|p1b: Torkoal|Eruption|p2a: Garchomp
+|-resisted|p2a: Garchomp|1
+|-damage|p2a: Garchomp|37/100
+|move|p1a: Farigiraf|Psychic|p2a: Garchomp
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|win|pikatrod
+|raw|pikatrod's rating: 1323 → 1339(+16 for winning)
+|raw|josedawp's rating: 1256 → 1236(-20 for losing)
+|c|☆pikatrod|gg
+|l|☆josedawp
+|player|p2|

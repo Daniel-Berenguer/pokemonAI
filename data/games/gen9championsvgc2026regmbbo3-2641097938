@@ -1,0 +1,132 @@
+|j|☆DI2
+|j|☆ItsTatinn
+|html|DI2ItsTatinn    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1782740081
+|gametype|doubles
+|player|p1|DI2|102|
+|player|p2|ItsTatinn|2|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Vileplume, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Snorlax, L50, F|
+|poke|p1|Hawlucha, L50, F|
+|poke|p1|Oranguru, L50, M|
+|poke|p1|Kangaskhan, L50, F|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Lucario, L50, F|
+|poke|p2|Venusaur, L50, F|
+|poke|p2|Arcanine, L50, F|
+|poke|p2|Milotic, L50, M|
+|poke|p2|Clefable, L50, M|
+|teampreview|4
+|showteam|p1|Vileplume||FocusSash|Chlorophyll|SolarBeam,SludgeBomb,AfterYou,Protect|Modest||M|||50|]Torkoal||Charcoal|Drought|Eruption,HeatWave,WeatherBall,Protect|Modest||M|||50|]Snorlax||SitrusBerry|ThickFat|BodySlam,Fissure,BellyDrum,Protect|Brave||F|||50|]Hawlucha||Hawluchanite|MoldBreaker|HighJumpKick,DualWingbeat,Entrainment,Detect|Jolly||F|||50|]Oranguru||LumBerry|InnerFocus|FoulPlay,Instruct,TrickRoom,Protect|Bold||M|||50|]Kangaskhan||SilkScarf|EarlyBird|FakeOut,LastResort|Brave||F|||50|
+|showteam|p2|Charizard||CharizarditeY|Blaze|HeatWave,ScorchingSands,SunnyDay,Protect|Timid||M|||50|]Lucario||FocusSash|InnerFocus|CloseCombat,MeteorMash,ExtremeSpeed,Protect|Jolly||F|||50|]Venusaur||LifeOrb|Chlorophyll|SolarBeam,SludgeBomb,WeatherBall,SleepPowder|Modest||F|||50|]Arcanine||SitrusBerry|Intimidate|FlareBlitz,ExtremeSpeed,WillOWisp,Protect|Careful||F|||50|]Milotic||Leftovers|Competitive|Scald,IceBeam,Recover,Protect|Bold||M|||50|]Clefable||MentalHerb|Unaware|FollowMe,Moonblast,HelpingHand,Protect|Calm||M|||50|
+|
+|t:|1782740097
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dona Florinda|Kangaskhan, L50, F|100/100
+|switch|p1b: Gulliraz|Oranguru, L50, M|100/100
+|switch|p2a: Charizard|Charizard, L50, M|100/100
+|switch|p2b: Clefable|Clefable, L50, M|100/100
+|turn|1
+|
+|t:|1782740118
+|detailschange|p2a: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p2a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p1a: Dona Florinda|Fake Out|p2b: Clefable
+|-damage|p2b: Clefable|72/100
+|cant|p2b: Clefable|flinch
+|move|p2a: Charizard|Heat Wave|p1a: Dona Florinda|[spread] p1a,p1b
+|-damage|p1a: Dona Florinda|30/100
+|-damage|p1b: Gulliraz|47/100
+|move|p1b: Gulliraz|Trick Room|p1b: Gulliraz
+|-fieldstart|move: Trick Room|[of] p1b: Gulliraz
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1782740143
+|move|p2b: Clefable|Follow Me|p2b: Clefable
+|-singleturn|p2b: Clefable|move: Follow Me
+|move|p1b: Gulliraz|Instruct|p2b: Clefable
+|-singleturn|p2b: Clefable|move: Instruct|[of] p1b: Gulliraz
+|move|p2b: Clefable|Follow Me||[still]
+|-fail|p2b: Clefable
+|move|p1a: Dona Florinda|Last Resort|p2b: Clefable
+|-damage|p2b: Clefable|0 fnt
+|faint|p2b: Clefable
+|move|p2a: Charizard|Heat Wave|p1b: Gulliraz|[spread] p1b
+|-miss|p2a: Charizard|p1a: Dona Florinda
+|-damage|p1b: Gulliraz|0 fnt
+|faint|p1b: Gulliraz
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1782740161
+|switch|p2b: Venusaur|Venusaur, L50, F|100/100
+|switch|p1b: Gordão da XJ|Snorlax, L50, F|100/100
+|turn|3
+|
+|t:|1782740187
+|move|p2a: Charizard|Protect|p2a: Charizard
+|-singleturn|p2a: Charizard|Protect
+|move|p1b: Gordão da XJ|Belly Drum|p1b: Gordão da XJ
+|-damage|p1b: Gordão da XJ|50/100g
+|-setboost|p1b: Gordão da XJ|atk|6|[from] move: Belly Drum
+|move|p1a: Dona Florinda|Last Resort|p2a: Charizard
+|-activate|p2a: Charizard|move: Protect
+|move|p2b: Venusaur|Solar Beam||[still]
+|-prepare|p2b: Venusaur|Solar Beam
+|-anim|p2b: Venusaur|Solar Beam|p1b: Gordão da XJ
+|-damage|p1b: Gordão da XJ|1/100
+|-enditem|p1b: Gordão da XJ|Sitrus Berry|[eat]
+|-heal|p1b: Gordão da XJ|26/100|[from] item: Sitrus Berry
+|-damage|p2b: Venusaur|90/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1782740211
+|move|p1b: Gordão da XJ|Body Slam|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|move|p1a: Dona Florinda|Last Resort|p2b: Venusaur
+|-damage|p2b: Venusaur|0 fnt
+|faint|p2b: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1782740223
+|switch|p2a: Lucario|Lucario, L50, F|100/100
+|turn|5
+|
+|t:|1782740230
+|move|p1b: Gordão da XJ|Body Slam|p2a: Lucario
+|-resisted|p2a: Lucario|1
+|-enditem|p2a: Lucario|Focus Sash
+|-damage|p2a: Lucario|1/100
+|-status|p2a: Lucario|par
+|move|p2a: Lucario|Close Combat|p1b: Gordão da XJ
+|-supereffective|p1b: Gordão da XJ|1
+|-damage|p1b: Gordão da XJ|0 fnt
+|-unboost|p2a: Lucario|def|1
+|-unboost|p2a: Lucario|spd|1
+|faint|p1b: Gordão da XJ
+|move|p1a: Dona Florinda|Last Resort|p2a: Lucario
+|-resisted|p2a: Lucario|1
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|win|DI2

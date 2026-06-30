@@ -1,0 +1,163 @@
+|j|☆chamoy-pt2
+|j|☆fly butterfly fly
+|html|chamoy-pt2fly butterfly fly    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1782357561
+|gametype|doubles
+|player|p1|chamoy-pt2|sabrina|1148
+|player|p2|fly butterfly fly|101|1048
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Gengar, L50, F|
+|poke|p1|Vivillon-High Plains, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p2|Kangaskhan, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Vileplume, L50, M|
+|poke|p2|Kommo-o, L50, M|
+|poke|p2|Pyroar, L50, F|
+|teampreview|4
+|showteam|p1|Volcarona||Leftovers|FlameBody|QuiverDance,HeatWave,GigaDrain,Protect|Modest||F|||50|]Ninetales-Alola||LightClay|SnowWarning|AuroraVeil,Blizzard,Encore,Protect|Timid||M|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,PartingShot,FlareBlitz,DarkestLariat|Impish||M|||50|]Gengar||Gengarite|CursedBody|ShadowBall,SludgeBomb,Disable,Protect|Timid||F|||50|]Vivillon-High Plains||FocusSash|CompoundEyes|SleepPowder,RagePowder,PollenPuff,Protect|Timid||M|||50|]Sneasler||WhiteHerb|Unburden|FakeOut,CloseCombat,DireClaw,Protect|Adamant||F|||50|
+|showteam|p2|Kangaskhan||SilkScarf|Scrappy|FakeOut,LastResort|Adamant||F|||50|]Farigiraf||ColburBerry|ArmorTail|Psychic,Thunderbolt,Protect,TrickRoom|Bold||F|||50|]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HelpingHand,Protect|Quiet||F|||50|]Vileplume||FocusSash|Chlorophyll|SleepPowder,EnergyBall,SludgeBomb,AfterYou|Timid||M|||50|]Kommo-o||HabanBerry|Overcoat|ClangingScales,AuraSphere,ClangorousSoul,Protect|Modest||M|||50|]Pyroar||Pyroarite|Unnerve|HeatWave,Overheat,ScorchingSands,Protect|Timid||F|||50|
+|
+|t:|1782357606
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Volcarona|Volcarona, L50, F|100/100
+|switch|p1b: Vivillon|Vivillon-High Plains, L50, M|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, L50, F|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|turn|1
+|
+|t:|1782357635
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Kangaskhan|unboost|Attack|[from] ability: Scrappy|[of] p2a: Kangaskhan
+|-unboost|p2b: Farigiraf|atk|1
+|move|p2a: Kangaskhan|Fake Out|p1b: Incineroar
+|-damage|p1b: Incineroar|81/100
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1782357674
+|move|p2b: Farigiraf|Thunderbolt|p1b: Incineroar
+|-damage|p1b: Incineroar|58/100
+|move|p1b: Incineroar|Darkest Lariat|p2b: Farigiraf
+|-supereffective|p2b: Farigiraf|1
+|-crit|p2b: Farigiraf
+|-enditem|p2b: Farigiraf|Colbur Berry|[eat]
+|-enditem|p2b: Farigiraf|Colbur Berry|[weaken]
+|-damage|p2b: Farigiraf|55/100
+|move|p2a: Kangaskhan|Last Resort|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Volcarona|Heat Wave|p2b: Farigiraf|[spread] p2a,p2b
+|-damage|p2a: Kangaskhan|47/100
+|-damage|p2b: Farigiraf|3/100
+|-status|p2b: Farigiraf|brn
+|
+|-damage|p2b: Farigiraf|0 fnt|[from] brn
+|faint|p2b: Farigiraf
+|upkeep
+|
+|t:|1782357693
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|switch|p1b: Vivillon|Vivillon-High Plains, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|3
+|
+|t:|1782357708
+|move|p1b: Vivillon|Rage Powder|p1b: Vivillon
+|-singleturn|p1b: Vivillon|move: Rage Powder
+|move|p2b: Torkoal|Eruption|p1b: Vivillon|[spread] p1a,p1b
+|-supereffective|p1b: Vivillon|1
+|-damage|p1a: Volcarona|45/100
+|-enditem|p1b: Vivillon|Focus Sash
+|-damage|p1b: Vivillon|1/100
+|move|p2a: Kangaskhan|Last Resort|p1b: Vivillon
+|-damage|p1b: Vivillon|0 fnt
+|faint|p1b: Vivillon
+|move|p1a: Volcarona|Heat Wave|p2a: Kangaskhan|[spread] p2a,p2b
+|-resisted|p2b: Torkoal|1
+|-damage|p2a: Kangaskhan|0 fnt
+|-damage|p2b: Torkoal|47/100
+|faint|p2a: Kangaskhan
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Volcarona|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1782357723
+|switch|p2a: Kommo-o|Kommo-o, L50, M|100/100
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|turn|4
+|
+|t:|1782357779
+|move|p2a: Kommo-o|Protect|p2a: Kommo-o
+|-singleturn|p2a: Kommo-o|Protect
+|move|p2b: Torkoal|Eruption|p1b: Ninetales|[spread] p1a,p1b
+|-supereffective|p1b: Ninetales|1
+|-damage|p1a: Volcarona|32/100
+|-damage|p1b: Ninetales|40/100
+|move|p1b: Ninetales|Blizzard|p2a: Kommo-o|[spread] p2b
+|-activate|p2a: Kommo-o|move: Protect
+|-resisted|p2b: Torkoal|1
+|-damage|p2b: Torkoal|29/100
+|move|p1a: Volcarona|Giga Drain|p2b: Torkoal
+|-resisted|p2b: Torkoal|1
+|-damage|p2b: Torkoal|3/100
+|-heal|p1a: Volcarona|45/100|[from] drain|[of] p2b: Torkoal
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Volcarona|51/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1782357820
+|move|p2b: Torkoal|Helping Hand|p2a: Kommo-o
+|-singleturn|p2a: Kommo-o|Helping Hand|[of] p2b: Torkoal
+|move|p1b: Ninetales|Protect|p1b: Ninetales
+|-singleturn|p1b: Ninetales|Protect
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p2a: Kommo-o|Aura Sphere|p1b: Ninetales
+|-activate|p1b: Ninetales|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Volcarona|57/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1782357841
+|move|p2b: Torkoal|Helping Hand|p2a: Kommo-o
+|-singleturn|p2a: Kommo-o|Helping Hand|[of] p2b: Torkoal
+|move|p1a: Volcarona|Heat Wave|p2b: Torkoal|[spread] p2a,p2b
+|-resisted|p2a: Kommo-o|1
+|-resisted|p2b: Torkoal|1
+|-damage|p2a: Kommo-o|67/100
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|move|p1b: Ninetales|Blizzard|p2a: Kommo-o
+|-supereffective|p2a: Kommo-o|1
+|-damage|p2a: Kommo-o|0 fnt
+|faint|p2a: Kommo-o
+|
+|win|chamoy-pt2

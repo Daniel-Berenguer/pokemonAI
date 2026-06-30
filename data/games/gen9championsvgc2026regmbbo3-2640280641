@@ -1,0 +1,105 @@
+|j|☆frubulhus
+|j|☆Hashiwa
+|html|frubulhusHashiwa    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1782601795
+|gametype|doubles
+|player|p1|frubulhus|266|
+|player|p2|Hashiwa|swimmerf-gen4dp|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kangaskhan, L50, F|
+|poke|p1|Blastoise, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Vivillon, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Metagross, L50|
+|poke|p2|Zoroark-Hisui, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Raichu, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|showteam|p1|Kangaskhan||Kangaskhanite|InnerFocus|FakeOut,DoubleEdge,LowKick,IcePunch|Adamant||F|||50|]Blastoise||Blastoisinite|RainDish|WaterSpout,DarkPulse,ShellSmash,Protect|Quiet||F|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,Thunderbolt,TrickRoom,HelpingHand|Quiet||M|||50|]Torkoal||Charcoal|Drought|Eruption,HeatWave,WeatherBall,Protect|Quiet||M|||50|]Vivillon||ChoiceScarf|CompoundEyes|SleepPowder,RagePowder,Hurricane,RainDance|Timid||F|||50|]Basculegion||FocusSash|Adaptability|Liquidation,LastRespects,AquaJet,Protect|Brave||M|||50|
+|showteam|p2|Metagross||Metagrossite|ClearBody|PsychicFangs,IronHead,BulletPunch,Protect|Jolly|||||50|]Zoroark-Hisui||ChoiceScarf|Illusion|Psychic,HyperVoice,IcyWind,BitterMalice|Timid||M|||50|]Kingambit||ChopleBerry|Defiant|SuckerPunch,KowtowCleave,IronHead,Protect|Adamant||F|||50|]Raichu||RaichuniteX|LightningRod|FakeOut,Protect,ZapCannon,FocusBlast|Timid||F|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,PartingShot,FlareBlitz,Taunt|Timid||F|||50|]Grimmsnarl||LightClay|Prankster|LightScreen,PartingShot,Taunt,SpiritBreak|Careful||M|||50|
+|
+|t:|1782601853
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p1b: Blastoise|Blastoise, L50, F|100/100
+|switch|p2a: Raichu|Raichu, L50, F|100/100
+|switch|p2b: Kingambit|Kingambit, L50, F|100/100
+|turn|1
+|
+|t:|1782601952
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Farigiraf|atk|1
+|-unboost|p1b: Blastoise|atk|1
+|detailschange|p2a: Raichu|Raichu-Mega-X, L50, F
+|-mega|p2a: Raichu|Raichu|Raichunite X
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Raichu
+|detailschange|p1b: Blastoise|Blastoise-Mega, L50, F
+|-mega|p1b: Blastoise|Blastoise|Blastoisinite
+|move|p1b: Blastoise|Protect|p1b: Blastoise
+|-singleturn|p1b: Blastoise|Protect
+|move|p2a: Raichu|Zap Cannon|p1b: Blastoise
+|-activate|p1b: Blastoise|move: Protect
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1782602062
+|switch|p2a: Kingambit|Kingambit, L50, F|100/100
+|move|p1a: Farigiraf|Psychic|p2a: Kingambit
+|-immune|p2a: Kingambit
+|move|p1b: Blastoise|Water Spout|p2a: Kingambit|[spread] p2a,p2b
+|-supereffective|p2b: Incineroar|1
+|-damage|p2a: Kingambit|40/100
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|upkeep
+|
+|t:|1782602073
+|switch|p2b: Raichu|Raichu-Mega-X, L50, F|100/100
+|turn|3
+|
+|t:|1782602088
+|move|p2a: Kingambit|Protect|p2a: Kingambit
+|-singleturn|p2a: Kingambit|Protect
+|move|p1a: Farigiraf|Psychic|p2b: Raichu
+|-damage|p2b: Raichu|9/100
+|replace|p2b: Zoroark|Zoroark-Hisui, L50, M
+|-end|p2b: Zoroark|Illusion
+|move|p1b: Blastoise|Water Spout|p2b: Zoroark|[spread] p2b
+|-activate|p2a: Kingambit|move: Protect
+|-damage|p2b: Zoroark|0 fnt
+|faint|p2b: Zoroark
+|
+|upkeep
+|
+|t:|1782602096
+|switch|p2b: Raichu|Raichu-Mega-X, L50, F|100/100
+|turn|4
+|
+|t:|1782602101
+|move|p2a: Kingambit|Sucker Punch||[still]
+|cant|p1a: Farigiraf|ability: Armor Tail|Sucker Punch|[of] p2a: Kingambit
+|move|p1a: Farigiraf|Psychic|p2b: Raichu
+|-damage|p2b: Raichu|35/100
+|move|p1b: Blastoise|Water Spout|p2a: Kingambit|[spread] p2a,p2b
+|-damage|p2a: Kingambit|0 fnt
+|-damage|p2b: Raichu|0 fnt
+|faint|p2a: Kingambit
+|faint|p2b: Raichu
+|
+|win|frubulhus

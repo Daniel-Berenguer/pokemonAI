@@ -1,0 +1,270 @@
+|j|☆caterleigh
+|j|☆sig.kire
+|html|caterleighsig.kire    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1782383935
+|gametype|doubles
+|player|p1|caterleigh|waiter-gen4|1107
+|player|p2|sig.kire|ghetsis-gen5bw|1139
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Staraptor, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Scrafty, L50, F|
+|poke|p1|Mamoswine, L50, M|
+|poke|p1|Pyroar, L50, F|
+|poke|p2|Ceruledge, L50, M|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Milotic, L50, M|
+|poke|p2|Scrafty, L50, M|
+|poke|p2|Raichu, L50, F|
+|teampreview|4
+|showteam|p1|Torkoal||Charcoal|Drought|Eruption,WeatherBall,HelpingHand,Protect|Quiet||F|||50|]Staraptor||ChoiceScarf|Intimidate|BraveBird,CloseCombat,Tailwind,FinalGambit|Jolly||F|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,Thunderbolt,TrickRoom,Protect|Quiet||F|||50|]Scrafty||Scraftinite|Intimidate|KnockOff,DrainPunch,FakeOut,IcePunch|Adamant||F|||50|]Mamoswine||FocusSash|Oblivious|HighHorsepower,RockSlide,IceShard,Protect|Jolly||M|||50|]Pyroar||Pyroarite|Unnerve|HeatWave,Overheat,Yawn,Protect|Timid||F|||50|
+|showteam|p2|Ceruledge||ColburBerry|FlashFire|BitterBlade,ShadowSneak,BulkUp,Protect|Adamant||M|||50|]Floette-Eternal||Floettite|FlowerVeil|DazzlingGleam,DrainingKiss,CalmMind,Protect|Modest||F|||50|]Sinistcha-Masterpiece||SitrusBerry|Hospitality|Protect,MatchaGotcha,RagePowder,LifeDew|Relaxed|||||50|]Milotic||Leftovers|Competitive|Coil,MuddyWater,Hypnosis,Protect|Calm||M|||50|]Scrafty||Scraftinite|Intimidate|CloseCombat,KnockOff,FakeOut,Protect|Adamant||M|||50|]Raichu||FocusSash|LightningRod|FakeOut,GrassKnot,Nuzzle,VoltSwitch|Timid||F|||50|
+|
+|t:|1782383981
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pyroar|Pyroar, L50, F|100/100
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|switch|p2a: Ceruledge|Ceruledge, L50, M|100/100
+|switch|p2b: Raichu|Raichu, L50, F|100/100
+|-ability|p1a: Pyroar|Unnerve
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|1
+|
+|t:|1782383996
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|move|p2b: Raichu|Fake Out||[still]
+|cant|p1b: Farigiraf|ability: Armor Tail|Fake Out|[of] p2b: Raichu
+|move|p1a: Pyroar|Yawn|p2a: Ceruledge
+|-start|p2a: Ceruledge|move: Yawn|[of] p1a: Pyroar
+|move|p2a: Ceruledge|Bulk Up|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|1
+|-boost|p2a: Ceruledge|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1782384015
+|switch|p2a: Milotic|Milotic, L50, M|100/100
+|detailschange|p1a: Pyroar|Pyroar-Mega, L50, F
+|-mega|p1a: Pyroar|Pyroar|Pyroarite
+|move|p1a: Pyroar|Heat Wave|p2b: Raichu|[spread] p2a,p2b
+|-resisted|p2a: Milotic|1
+|-crit|p2a: Milotic
+|-damage|p2a: Milotic|57/100
+|-enditem|p2b: Raichu|Focus Sash
+|-damage|p2b: Raichu|1/100
+|move|p2b: Raichu|Volt Switch|p1a: Pyroar
+|-damage|p1a: Pyroar|62/100
+|
+|t:|1782384022
+|switch|p2b: Ceruledge|Ceruledge, L50, M|100/100|[from] Volt Switch
+|move|p1b: Farigiraf|Psychic|p2b: Ceruledge
+|-damage|p2b: Ceruledge|61/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Milotic|63/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1782384057
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|move|p1a: Pyroar|Yawn|p2b: Ceruledge
+|-start|p2b: Ceruledge|move: Yawn|[of] p1a: Pyroar
+|move|p2b: Ceruledge|Bitter Blade|p1b: Torkoal
+|-resisted|p1b: Torkoal|1
+|-damage|p1b: Torkoal|74/100
+|-heal|p2b: Ceruledge|74/100|[from] drain|[of] p1b: Torkoal
+|move|p2a: Milotic|Muddy Water|p1b: Torkoal|[spread] p1a,p1b
+|-supereffective|p1a: Pyroar|1
+|-supereffective|p1b: Torkoal|1
+|-damage|p1a: Pyroar|31/100
+|-damage|p1b: Torkoal|45/100
+|-unboost|p1a: Pyroar|accuracy|1
+|-unboost|p1b: Torkoal|accuracy|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Milotic|69/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1782384075
+|switch|p2b: Raichu|Raichu, L50, F|1/100
+|move|p1b: Torkoal|Helping Hand|p1a: Pyroar
+|-singleturn|p1a: Pyroar|Helping Hand|[of] p1b: Torkoal
+|move|p1a: Pyroar|Overheat|p2a: Milotic|[miss]
+|-miss|p1a: Pyroar|p2a: Milotic
+|move|p2a: Milotic|Muddy Water|p1a: Pyroar|[spread] p1a,p1b
+|-supereffective|p1a: Pyroar|1
+|-supereffective|p1b: Torkoal|1
+|-damage|p1a: Pyroar|4/100
+|-damage|p1b: Torkoal|15/100
+|-unboost|p1a: Pyroar|accuracy|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Milotic|75/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1782384097
+|switch|p2b: Ceruledge|Ceruledge, L50, M|74/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|move|p1a: Pyroar|Overheat|p2a: Milotic|[miss]
+|-miss|p1a: Pyroar|p2a: Milotic
+|move|p2a: Milotic|Muddy Water|p1a: Pyroar|[spread] p1a,p1b
+|-supereffective|p1a: Pyroar|1
+|-damage|p1a: Pyroar|0 fnt
+|-damage|p1b: Farigiraf|89/100
+|faint|p1a: Pyroar
+|
+|-weather|none
+|-heal|p2a: Milotic|81/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1782384110
+|switch|p1a: Mamoswine|Mamoswine, L50, M|100/100
+|turn|6
+|
+|t:|1782384121
+|move|p1a: Mamoswine|High Horsepower|p2b: Ceruledge
+|-supereffective|p2b: Ceruledge|1
+|-damage|p2b: Ceruledge|0 fnt
+|faint|p2b: Ceruledge
+|move|p2a: Milotic|Hypnosis|p1b: Farigiraf
+|-status|p1b: Farigiraf|slp|[from] move: Hypnosis
+|cant|p1b: Farigiraf|slp
+|
+|-heal|p2a: Milotic|87/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1782384126
+|switch|p2b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-heal|p2a: Milotic|100/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|turn|7
+|
+|t:|1782384144
+|move|p1a: Mamoswine|Rock Slide|p2a: Milotic|[spread] p2a,p2b
+|-damage|p2a: Milotic|83/100
+|-damage|p2b: Sinistcha|84/100
+|move|p2a: Milotic|Muddy Water|p1b: Farigiraf|[spread] p1a,p1b
+|-supereffective|p1a: Mamoswine|1
+|-damage|p1a: Mamoswine|34/100
+|-damage|p1b: Farigiraf|65/100 slp
+|move|p2b: Sinistcha|Matcha Gotcha|p1b: Farigiraf|[spread] p1a,p1b
+|-supereffective|p1a: Mamoswine|1
+|-damage|p1a: Mamoswine|0 fnt
+|-heal|p2b: Sinistcha|100/100|[from] drain|[of] p1a: Mamoswine
+|-damage|p1b: Farigiraf|41/100 slp
+|-enditem|p1b: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1b: Farigiraf|65/100 slp|[from] item: Sitrus Berry
+|faint|p1a: Mamoswine
+|cant|p1b: Farigiraf|slp
+|
+|-heal|p2a: Milotic|89/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1782384161
+|switch|p1a: Torkoal|Torkoal, L50, F|15/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|8
+|
+|t:|1782384170
+|switch|p2b: Raichu|Raichu, L50, F|1/100
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2a: Milotic|Muddy Water|p1b: Farigiraf|[spread] p1b
+|-activate|p1a: Torkoal|move: Protect
+|-damage|p1b: Farigiraf|56/100 slp
+|-curestatus|p1b: Farigiraf|slp|[msg]
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Milotic|95/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1782384194
+|move|p1a: Torkoal|Eruption|p2b: Raichu|[spread] p2a,p2b
+|-resisted|p2a: Milotic|1
+|-crit|p2b: Raichu
+|-damage|p2a: Milotic|91/100
+|-damage|p2b: Raichu|0 fnt
+|faint|p2b: Raichu
+|move|p1b: Farigiraf|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic|1
+|-damage|p2a: Milotic|54/100
+|-status|p2a: Milotic|par
+|move|p2a: Milotic|Muddy Water|p1a: Torkoal|[spread] p1b
+|-miss|p2a: Milotic|p1a: Torkoal
+|-damage|p1b: Farigiraf|46/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Milotic|60/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1782384197
+|switch|p2b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-heal|p2a: Milotic|85/100 par|[from] ability: Hospitality|[of] p2b: Sinistcha
+|turn|10
+|
+|t:|1782384213
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2b: Sinistcha|Protect|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|Protect
+|move|p2a: Milotic|Muddy Water|p1a: Torkoal|[spread] p1b
+|-activate|p1a: Torkoal|move: Protect
+|-damage|p1b: Farigiraf|36/100
+|move|p1b: Farigiraf|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic|1
+|-damage|p2a: Milotic|52/100 par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Milotic|58/100 par|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1782384228
+|move|p2b: Sinistcha|Protect||[still]
+|-fail|p2b: Sinistcha
+|move|p1a: Torkoal|Weather Ball|p2b: Sinistcha
+|-supereffective|p2b: Sinistcha|1
+|-damage|p2b: Sinistcha|0 fnt
+|faint|p2b: Sinistcha
+|move|p2a: Milotic|Muddy Water|p1b: Farigiraf|[spread] p1a
+|-miss|p2a: Milotic|p1b: Farigiraf
+|-supereffective|p1a: Torkoal|1
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|move|p1b: Farigiraf|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic|1
+|-damage|p2a: Milotic|22/100 par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Milotic|28/100 par|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1782384243
+|cant|p2a: Milotic|par
+|move|p1b: Farigiraf|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic|1
+|-damage|p2a: Milotic|0 fnt
+|faint|p2a: Milotic
+|
+|win|caterleigh
+|raw|caterleigh's rating: 1107 → 1134(+27 for winning)
+|raw|sig.kire's rating: 1139 → 1112(-27 for losing)
+|l|☆sig.kire
+|player|p2|

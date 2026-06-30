@@ -1,0 +1,231 @@
+|j|☆camala64
+|j|☆battle sim trainer
+|html|camala64battle sim trainer    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1782492185
+|gametype|doubles
+|player|p1|camala64|lance-masters2|
+|player|p2|battle sim trainer|turo|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F, shiny|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Sinistcha-Masterpiece, L50, shiny|
+|poke|p1|Toxapex, L50, F, shiny|
+|poke|p1|Garchomp, L50, M|
+|poke|p2|Swampert, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Venusaur, L50, M|
+|poke|p2|Staraptor, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,SolarBeam,Protect|Modest||F|||50|]Floette-Eternal||Floettite|FlowerVeil|Moonblast,DazzlingGleam,CalmMind,Protect|Modest||F|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,Taunt,PartingShot|Adamant||F|||50|]Sinistcha-Masterpiece||KasibBerry|Hospitality|MatchaGotcha,RagePowder,LifeDew,Protect|Bold|||||50|]Toxapex||Leftovers|Regenerator|Infestation,Toxic,Protect,WideGuard|Relaxed||F|||50|]Garchomp||ChoiceScarf|RoughSkin|Earthquake,StompingTantrum,DragonClaw,RockSlide|Adamant||M|||50|
+|showteam|p2|Swampert||Swampertite|Torrent|WaveCrash,Earthquake,IcePunch,Protect|Adamant||M|||50|]Archaludon||Magnet|Stamina|ElectroShot,FlashCannon,DragonPulse,Protect|Calm||F|||50|]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,WideGuard,Tailwind|Modest||F|||50|]Basculegion||ChoiceScarf|Adaptability|LastRespects,WaveCrash,AquaJet,FlipTurn|Jolly||M|||50|]Venusaur||Venusaurite|Chlorophyll|SludgeBomb,EnergyBall,Protect,EarthPower|Modest||M|||50|]Staraptor||LifeOrb|Intimidate|BraveBird,CloseCombat,Tailwind,Uturn|Adamant||M|||50|
+|c|☆battle sim trainer|fhlg
+|
+|t:|1782492269
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Charizard|Charizard, L50, F, shiny|100/100
+|switch|p2a: Staraptor|Staraptor, L50, M|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Charizard|atk|1
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Staraptor|atk|1
+|-unboost|p2b: Basculegion|atk|1
+|turn|1
+|
+|t:|1782492295
+|switch|p2a: Swampert|Swampert, L50, M|100/100
+|detailschange|p1b: Charizard|Charizard-Mega-Y, L50, F, shiny
+|-mega|p1b: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|move|p2b: Basculegion|Flip Turn|p1a: Incineroar
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|78/100
+|
+|t:|1782492303
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100|[from] Flip Turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p1b: Charizard|Solar Beam||[still]
+|-prepare|p1b: Charizard|Solar Beam
+|move|p1a: Incineroar|Parting Shot|p2a: Swampert
+|-unboost|p2a: Swampert|atk|1
+|-unboost|p2a: Swampert|spa|1
+|
+|t:|1782492310
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100|[from] Parting Shot
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1782492339
+|detailschange|p2a: Swampert|Swampert-Mega, L50, M
+|-mega|p2a: Swampert|Swampert|Swampertite
+|move|p2a: Swampert|Wave Crash|p1b: Charizard
+|-supereffective|p1b: Charizard|1
+|-damage|p1b: Charizard|0 fnt
+|faint|p1b: Charizard
+|-damage|p2a: Swampert|65/100|[from] Recoil
+|move|p1a: Garchomp|Rock Slide|p2a: Swampert|[spread] p2a,p2b
+|-resisted|p2a: Swampert|1
+|-supereffective|p2b: Pelipper|1
+|-damage|p2a: Swampert|55/100
+|-damage|p2b: Pelipper|43/100
+|cant|p2b: Pelipper|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1782492360
+|switch|p1b: Toxapex|Toxapex, L50, F, shiny|100/100
+|turn|3
+|
+|t:|1782492383
+|move|p2b: Pelipper|Wide Guard|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Wide Guard
+|move|p2a: Swampert|Wave Crash|p1a: Garchomp
+|-damage|p1a: Garchomp|20/100y
+|-damage|p2a: Swampert|42/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-damage|p2a: Swampert|15/100|[from] Recoil
+|move|p1a: Garchomp|Rock Slide|p2a: Swampert|[spread] 
+|-activate|p2a: Swampert|move: Wide Guard
+|-activate|p2b: Pelipper|move: Wide Guard
+|move|p1b: Toxapex|Toxic|p2a: Swampert
+|-status|p2a: Swampert|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Swampert|9/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1782492407
+|switch|p2a: Staraptor|Staraptor, L50, M|100/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|-unboost|p1b: Toxapex|atk|1
+|switch|p1a: Incineroar|Incineroar, L50, F|78/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Staraptor|atk|1
+|-unboost|p2b: Pelipper|atk|1
+|move|p2b: Pelipper|Weather Ball|p1a: Incineroar
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|move|p1b: Toxapex|Toxic|p2b: Pelipper
+|-status|p2b: Pelipper|tox
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2b: Pelipper|37/100 tox|[from] psn
+|upkeep
+|
+|t:|1782492419
+|switch|p1a: Garchomp|Garchomp, L50, M|20/100y
+|turn|5
+|
+|t:|1782492433
+|move|p2b: Pelipper|Wide Guard|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Wide Guard
+|move|p1a: Garchomp|Rock Slide|p2a: Staraptor|[spread] 
+|-activate|p2a: Staraptor|move: Wide Guard
+|-activate|p2b: Pelipper|move: Wide Guard
+|move|p2a: Staraptor|Tailwind|p2a: Staraptor
+|-sidestart|p2: battle sim trainer|move: Tailwind
+|move|p1b: Toxapex|Toxic|p2a: Staraptor
+|-status|p2a: Staraptor|tox
+|
+|-weather|none
+|-damage|p2a: Staraptor|93/100 tox|[from] psn
+|-damage|p2b: Pelipper|25/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1782492463
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|move|p2a: Staraptor|Brave Bird|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Staraptor|81/100 tox|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|-damage|p2a: Staraptor|74/100 tox|[from] Recoil
+|-damage|p2a: Staraptor|64/100 tox|[from] item: Life Orb
+|move|p1b: Toxapex|Toxic|p2b: Basculegion
+|-status|p2b: Basculegion|tox
+|
+|-damage|p2b: Basculegion|93/100 tox|[from] psn
+|-damage|p2a: Staraptor|52/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1782492494
+|move|p2b: Basculegion|Flip Turn|p1b: Toxapex
+|-resisted|p1b: Toxapex|1
+|-damage|p1b: Toxapex|87/100
+|
+|t:|1782492500
+|switch|p2b: Pelipper|Pelipper, L50, F|25/100 tox|[from] Flip Turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p2a: Staraptor|U-turn|p1b: Toxapex
+|-resisted|p1b: Toxapex|1
+|-crit|p1b: Toxapex
+|-damage|p1b: Toxapex|73/100
+|-damage|p2a: Staraptor|42/100 tox|[from] item: Life Orb
+|
+|t:|1782492507
+|switch|p2a: Swampert|Swampert-Mega, L50, M|9/100 tox|[from] U-turn
+|move|p1b: Toxapex|Infestation|p2b: Pelipper
+|-resisted|p2b: Pelipper|1
+|-damage|p2b: Pelipper|22/100 tox
+|-activate|p2b: Pelipper|move: Infestation|[of] p1b: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Toxapex|78/100|[from] item: Leftovers
+|-damage|p2a: Swampert|2/100 tox|[from] psn
+|-damage|p2b: Pelipper|16/100 tox|[from] psn
+|-damage|p2b: Pelipper|4/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|t:|1782492525
+|move|p1b: Toxapex|Protect|p1b: Toxapex
+|-singleturn|p1b: Toxapex|Protect
+|move|p2a: Swampert|Wave Crash|p1b: Toxapex
+|-activate|p1b: Toxapex|move: Protect
+|move|p2b: Pelipper|Hurricane|p1b: Toxapex
+|-activate|p1b: Toxapex|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Toxapex|84/100|[from] item: Leftovers
+|-damage|p2a: Swampert|0 fnt|[from] psn
+|faint|p2a: Swampert
+|-damage|p2b: Pelipper|0 fnt|[from] psn
+|faint|p2b: Pelipper
+|-sideend|p2: battle sim trainer|move: Tailwind
+|upkeep
+|
+|t:|1782492528
+|switch|p2a: Staraptor|Staraptor, L50, M|42/100 tox
+|switch|p2b: Basculegion|Basculegion, L50, M|93/100 tox
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1b: Toxapex|atk|1
+|turn|9
+|
+|t:|1782492542
+|move|p2b: Basculegion|Last Respects|p1b: Toxapex
+|-damage|p1b: Toxapex|23/100
+|move|p2a: Staraptor|Brave Bird|p1b: Toxapex
+|-damage|p1b: Toxapex|0 fnt
+|faint|p1b: Toxapex
+|-damage|p2a: Staraptor|35/100 tox|[from] Recoil
+|-damage|p2a: Staraptor|26/100 tox|[from] item: Life Orb
+|
+|win|battle sim trainer

@@ -1,0 +1,132 @@
+|j|☆fancy_0221
+|j|☆Glacia20
+|html|fancy_0221Glacia20    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1782500274
+|gametype|doubles
+|player|p1|fancy_0221|caitlin|
+|player|p2|Glacia20|hilda-wonderlauncher|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Staraptor, L50, M|
+|poke|p1|Raichu, L50, M|
+|poke|p1|Typhlosion, L50, M|
+|poke|p1|Snorlax, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Tyranitar, L50, M|
+|poke|p2|Floette-Eternal, L50, F, shiny|
+|poke|p2|Kommo-o, L50, F, shiny|
+|poke|p2|Sneasler, L50, F, shiny|
+|poke|p2|Politoed, L50, F|
+|poke|p2|Gliscor, L50, F|
+|poke|p2|Torterra, L50, F|
+|teampreview|4
+|showteam|p1|Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,Protect,Uturn|Jolly||M|||50|]Raichu||FocusSash|LightningRod|Thunderbolt,Charm,FakeOut,Nuzzle|Hasty||M|||50|]Typhlosion||ChoiceScarf|FlashFire|Eruption,FireBlast,Extrasensory,Overheat|Modest||M|||50|]Snorlax||Leftovers|ThickFat|HeavySlam,BodySlam,Yawn,Protect|Adamant||M|||50|]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,StrengthSap,RagePowder,Protect|Calm|||||50|]Tyranitar||RoseliBerry|SandStream|StoneEdge,Protect,IronHead,KnockOff|Adamant||M|||50|
+|showteam|p2|Floette-Eternal||Floettite|FlowerVeil|DazzlingGleam,GigaDrain,Protect,CalmMind|Timid||F|||50|]Kommo-o||SitrusBerry|Overcoat|FlashCannon,ClangingScales,DrainPunch,RockSlide|Naive||F|||50|]Sneasler||WhiteHerb|Unburden|DireClaw,FakeOut,CloseCombat,Protect|Adamant||F|||50|]Politoed||MysticWater|Drizzle|MuddyWater,Hypnosis,Encore,IceBeam|Bold||F|||50|]Gliscor|||HyperCutter|Acrobatics,HighHorsepower,Protect,RockSlide|Jolly||F|||50|]Torterra||Leftovers|ShellArmor|ShellSmash,HeadlongRush,RockSlide,SeedBomb|Careful||F|||50|
+|
+|t:|1782500331
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Raichu|Raichu, L50, M|100/100
+|switch|p1b: Snorlax|Snorlax, L50, M|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F, shiny|100/100
+|switch|p2b: Gliscor|Gliscor, L50, F|100/100
+|turn|1
+|
+|t:|1782500374
+|switch|p1b: Staraptor|Staraptor, L50, M|100/100
+|-ability|p1b: Staraptor|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-fail|p2b: Gliscor|unboost|Attack|[from] ability: Hyper Cutter|[of] p2b: Gliscor
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1a: Raichu|Fake Out|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Protect
+|move|p2b: Gliscor|High Horsepower|p1a: Raichu
+|-supereffective|p1a: Raichu|1
+|-enditem|p1a: Raichu|Focus Sash
+|-damage|p1a: Raichu|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1782500426
+|switch|p2a: Politoed|Politoed, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|detailschange|p1b: Staraptor|Staraptor-Mega, L50, M
+|-mega|p1b: Staraptor|Staraptor|Staraptite
+|move|p1a: Raichu|Charm|p1b: Staraptor
+|-boost|p1b: Staraptor|atk|2
+|move|p1b: Staraptor|Brave Bird|p2a: Politoed
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|-damage|p1b: Staraptor|66/100|[from] Recoil
+|move|p2b: Gliscor|Rock Slide|p1b: Staraptor|[spread] p1a,p1b
+|-damage|p1a: Raichu|0 fnt
+|-damage|p1b: Staraptor|47/100
+|faint|p1a: Raichu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1782500453
+|switch|p1a: Typhlosion|Typhlosion, L50, M|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F, shiny|100/100
+|turn|3
+|
+|t:|1782500507
+|move|p2a: Sneasler|Fake Out|p1a: Typhlosion
+|-damage|p1a: Typhlosion|76/100
+|cant|p1a: Typhlosion|flinch
+|move|p1b: Staraptor|Brave Bird|p2b: Gliscor
+|-damage|p2b: Gliscor|0 fnt
+|faint|p2b: Gliscor
+|-damage|p1b: Staraptor|16/100|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1782500517
+|switch|p2b: Floette|Floette-Eternal, L50, F, shiny|100/100
+|turn|4
+|
+|t:|1782500537
+|detailschange|p2b: Floette|Floette-Mega, L50, F, shiny
+|-mega|p2b: Floette|Floette|Floettite
+|-ability|p2b: Floette|Fairy Aura
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1a: Typhlosion|Extrasensory|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Protect
+|move|p1b: Staraptor|Brave Bird|p2b: Floette
+|-damage|p2b: Floette|0 fnt
+|faint|p2b: Floette
+|-damage|p1b: Staraptor|0 fnt|[from] Recoil
+|faint|p1b: Staraptor
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1782500550
+|switch|p1b: Snorlax|Snorlax, L50, M|100/100
+|turn|5
+|
+|t:|1782500562
+|move|p1b: Snorlax|Protect|p1b: Snorlax
+|-singleturn|p1b: Snorlax|Protect
+|move|p1a: Typhlosion|Extrasensory|p2a: Sneasler
+|-supereffective|p2a: Sneasler|2
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|
+|win|fancy_0221
+||fancy_0221 is ready for game 2.
+|inactive|Glacia20 has 30 seconds to confirm battle start!
+||Glacia20 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

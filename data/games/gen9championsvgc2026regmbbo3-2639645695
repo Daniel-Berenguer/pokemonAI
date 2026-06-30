@@ -1,0 +1,204 @@
+|j|☆tmmc01
+|j|☆Alysonz
+|html|tmmc01Alysonz    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782500880
+|gametype|doubles
+|player|p1|tmmc01|artist|1202
+|player|p2|Alysonz|170|1125
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Charizard, L50, F, shiny|
+|poke|p1|Sylveon, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Aerodactyl, L50, F|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Scizor, L50, F|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Sceptile, L50, M|
+|teampreview|4
+|showteam|p1|Farigiraf||SitrusBerry|ArmorTail|TrickRoom,Roar,GrassKnot,TwinBeam|Bold||M|||50|]Charizard||CharizarditeY|Blaze|Protect,HeatWave,SolarBeam,WeatherBall|Modest||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,Detect,QuickAttack,HyperBeam|Modest||F|||50|]Garchomp||LifeOrb|RoughSkin|Protect,Earthquake,StompingTantrum,DragonClaw|Jolly||M|||50|]Kingambit||FocusSash|Defiant|KowtowCleave,IronHead,SuckerPunch,LowKick|Adamant||F|||50|]Aerodactyl||Aerodactylite|RockHead|Tailwind,SunnyDay,DualWingbeat,RockSlide|Jolly||F|||50|
+|showteam|p2|Pelipper||DampRock|Drizzle|Protect,Surf,Hurricane,IceBeam|Modest||F|||50|]Basculegion||LifeOrb|SwiftSwim|AquaJet,Protect,WaveCrash,LastRespects|Adamant||M|||50|]Whimsicott||MentalHerb|Prankster|Encore,Tailwind,Taunt,DazzlingGleam|Timid||F|||50|]Scizor||Scizorite|Technician|BugBite,BulletPunch,CloseCombat,Protect|Adamant||F|||50|]Dragonite||Leftovers|Multiscale|Thunder,Earthquake,Hurricane,Tailwind|Naive||M|||50|]Sceptile||YacheBerry|Unburden|LeafStorm,EarthPower,EnergyBall,Protect|Timid||M|||50|
+|
+|t:|1782500941
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100
+|switch|p2a: Scizor|Scizor, L50, F|100/100
+|switch|p2b: Dragonite|Dragonite, L50, M|100/100
+|turn|1
+|
+|t:|1782500957
+|switch|p1a: Charizard|Charizard, L50, F, shiny|100/100
+|detailschange|p2a: Scizor|Scizor-Mega, L50, F
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p2b: Dragonite|Earthquake|p1a: Charizard|[spread] p2a,p1b
+|-immune|p1a: Charizard
+|-supereffective|p1b: Kingambit|1
+|-damage|p2a: Scizor|81/100
+|-damage|p1b: Kingambit|60/100
+|move|p1b: Kingambit|Low Kick|p2a: Scizor
+|-damage|p2a: Scizor|44/100
+|move|p2a: Scizor|Bug Bite|p1a: Charizard
+|-resisted|p1a: Charizard|2
+|-damage|p1a: Charizard|87/100
+|
+|upkeep
+|turn|2
+|
+|t:|1782500976
+|switch|p2a: Betelgeulse|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Betelgeulse
+|move|p1b: Kingambit|Sucker Punch||[still]
+|-fail|p1b: Kingambit
+|move|p1a: Charizard|Heat Wave|p2a: Betelgeulse|[spread] p2a,p2b
+|-resisted|p2a: Betelgeulse|1
+|-resisted|p2b: Dragonite|1
+|-damage|p2a: Betelgeulse|90/100
+|-damage|p2b: Dragonite|96/100
+|move|p2b: Dragonite|Tailwind|p2b: Dragonite
+|-sidestart|p2: Alysonz|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Dragonite|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1782501009
+|switch|p2a: Rigel|Basculegion, L50, M|100/100
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, F, shiny
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p1b: Kingambit|Sucker Punch||[still]
+|-fail|p1b: Kingambit
+|move|p2b: Dragonite|Hurricane|p1a: Charizard
+|-damage|p1a: Charizard|43/100
+|-start|p1a: Charizard|confusion
+|-activate|p1a: Charizard|confusion
+|move|p1a: Charizard|Heat Wave|p2b: Dragonite|[spread] p2a,p2b
+|-resisted|p2a: Rigel|1
+|-resisted|p2b: Dragonite|1
+|-damage|p2a: Rigel|64/100
+|-damage|p2b: Dragonite|85/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Dragonite|91/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1782501039
+|switch|p2a: Betelgeulse|Pelipper, L50, F|90/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Betelgeulse
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|move|p2b: Dragonite|Hurricane|p1a: Farigiraf
+|-damage|p1a: Farigiraf|50/100g
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Betelgeulse
+|-damage|p2a: Betelgeulse|27/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Dragonite|97/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1782501058
+|move|p1b: Kingambit|Sucker Punch|p2a: Betelgeulse
+|-damage|p2a: Betelgeulse|0 fnt
+|faint|p2a: Betelgeulse
+|move|p2b: Dragonite|Earthquake|p1b: Kingambit|[spread] p1a,p1b
+|-supereffective|p1b: Kingambit|1
+|-damage|p1a: Farigiraf|32/100
+|-damage|p1b: Kingambit|25/100
+|-enditem|p1a: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1a: Farigiraf|57/100|[from] item: Sitrus Berry
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Dragonite|100/100|[from] item: Leftovers
+|-sideend|p2: Alysonz|move: Tailwind
+|upkeep
+|
+|t:|1782501072
+|switch|p2a: Scizor|Scizor-Mega, L50, F|44/100
+|turn|6
+|
+|t:|1782501084
+|switch|p1a: Charizard|Charizard-Mega-Y, L50, F, shiny|43/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2a: Scizor|Bug Bite|p1a: Charizard
+|-resisted|p1a: Charizard|2
+|-damage|p1a: Charizard|30/100
+|move|p1b: Kingambit|Low Kick|p2a: Scizor
+|-damage|p2a: Scizor|8/100
+|move|p2b: Dragonite|Hurricane|p1b: Kingambit
+|-resisted|p1b: Kingambit|1
+|-damage|p1b: Kingambit|0 fnt
+|faint|p1b: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1782501097
+|switch|p1b: Sylveon|Sylveon, L50, F|100/100
+|turn|7
+|
+|t:|1782501129
+|move|p1b: Sylveon|Detect|p1b: Sylveon
+|-singleturn|p1b: Sylveon|Protect
+|move|p2a: Scizor|Bullet Punch|p1b: Sylveon
+|-activate|p1b: Sylveon|move: Protect
+|move|p2b: Dragonite|Hurricane|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆tmmc01|There is no way
+|
+|t:|1782501143
+|switch|p1a: Farigiraf|Farigiraf, L50, M|57/100
+|turn|8
+|
+|t:|1782501152
+|switch|p2b: Rigel|Basculegion, L50, M|64/100
+|move|p1a: Farigiraf|Twin Beam|p2b: Rigel
+|-damage|p2b: Rigel|47/100
+|-damage|p2b: Rigel|28/100
+|-hitcount|p2b: Rigel|2
+|move|p1b: Sylveon|Hyper Voice|p2a: Scizor|[spread] p2a,p2b
+|-resisted|p2a: Scizor|1
+|-damage|p2a: Scizor|0 fnt
+|-damage|p2b: Rigel|0 fnt
+|faint|p2a: Scizor
+|faint|p2b: Rigel
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1782501169
+|switch|p2b: Dragonite|Dragonite, L50, M|100/100
+|turn|9
+|
+|t:|1782501178
+|move|p1a: Farigiraf|Twin Beam|p2b: Dragonite
+|-damage|p2b: Dragonite|92/100
+|-damage|p2b: Dragonite|75/100
+|-hitcount|p2b: Dragonite|2
+|move|p1b: Sylveon|Hyper Voice|p2b: Dragonite
+|-supereffective|p2b: Dragonite|1
+|-damage|p2b: Dragonite|0 fnt
+|faint|p2b: Dragonite
+|
+|win|tmmc01
+|raw|tmmc01's rating: 1202 → 1222(+20 for winning)
+|raw|Alysonz's rating: 1125 → 1105(-20 for losing)

@@ -1,0 +1,107 @@
+|j|☆lettykings
+|j|☆tirion
+|html|lettykingstirion    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782460603
+|gametype|doubles
+|player|p1|lettykings|clair|1050
+|player|p2|tirion|266|1114
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Venusaur, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p2|Blastoise, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Politoed, L50, M|
+|poke|p2|Scizor, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|HeatWave,SolarBeam,WeatherBall,Protect|Modest||F|||50|]Garchomp||RoseliBerry|RoughSkin|Earthquake,DragonClaw,RockSlide,Protect|Jolly||M|||50|]Basculegion||LifeOrb|Adaptability|WaveCrash,LastRespects,AquaJet,Protect|Adamant||M|||50|]Incineroar||SitrusBerry|Intimidate|DarkestLariat,FlareBlitz,PartingShot,FakeOut|Careful||M|||50|]Venusaur||CobaBerry|Chlorophyll|GigaDrain,SludgeBomb,SleepPowder,Protect|Modest||M|||50|]Whimsicott||FocusSash|Prankster|Moonblast,Encore,Tailwind,Protect|Timid||M|||50|
+|showteam|p2|Blastoise||Blastoisinite|RainDish|WaterSpout,AuraSphere,DarkPulse,FakeOut|Quiet||F|||50|]Archaludon||Leftovers|Stamina|ElectroShot,AuraSphere,FlashCannon,Protect|Bold||M|||50|]Sinistcha||CobaBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,LifeDew|Sassy|||||50|]Politoed||MysticWater|Drizzle|ChillingWater,IceBeam,WeatherBall,HelpingHand|Bold||M|||50|]Scizor||Scizorite|Technician|BugBite,BulletPunch,KnockOff,SwordsDance|Brave||M|||50|]Farigiraf||ColburBerry|ArmorTail|TwinBeam,TrickRoom,RainDance,Protect|Relaxed||M|||50|
+|
+|t:|1782460691
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, F|100/100
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100
+|turn|1
+|
+|t:|1782460718
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2b: Archaludon|Protect|p2b: Archaludon
+|-singleturn|p2b: Archaludon|Protect
+|move|p1b: Garchomp|Earthquake|p2a: Farigiraf|[spread] p2a
+|-activate|p2b: Archaludon|move: Protect
+|-immune|p1a: Charizard
+|-damage|p2a: Farigiraf|70/100
+|move|p1a: Charizard|Weather Ball|p2a: Farigiraf
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1782460739
+|switch|p2a: Politoed|Politoed, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|2
+|
+|t:|1782460758
+|switch|p1a: Venusaur|Venusaur, L50, M|100/100
+|move|p1b: Garchomp|Dragon Claw|p2b: Archaludon
+|-damage|p2b: Archaludon|75/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Venusaur
+|-resisted|p1a: Venusaur|1
+|-damage|p1a: Venusaur|74/100
+|move|p2a: Politoed|Chilling Water|p1b: Garchomp
+|-damage|p1b: Garchomp|69/100
+|-unboost|p1b: Garchomp|atk|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|81/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1782460788
+|switch|p1b: Charizard|Charizard-Mega-Y, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|move|p1a: Venusaur|Giga Drain|p2a: Politoed
+|-supereffective|p2a: Politoed|1
+|-damage|p2a: Politoed|39/100
+|-heal|p1a: Venusaur|100/100|[from] drain|[of] p2a: Politoed
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|move|p2a: Politoed|Ice Beam|p1b: Charizard
+|-damage|p1b: Charizard|82/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Archaludon|87/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|-message|tirion forfeited.
+|
+|win|lettykings
+|raw|lettykings's rating: 1050 → 1088(+38 for winning)
+|raw|tirion's rating: 1114 → 1084(-30 for losing)
+|l|☆tirion
+|player|p2|

@@ -1,0 +1,102 @@
+|j|☆tirion
+|j|☆lox1sm
+|html|tirionlox1sm    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782656349
+|gametype|doubles
+|player|p1|tirion|266|1088
+|player|p2|lox1sm|veteran|1182
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Blastoise, L50, M|
+|poke|p1|Scizor, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Politoed, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Metagross, L50|
+|poke|p2|Aerodactyl, L50, M|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|showteam|p1|Blastoise||Blastoisinite|RainDish|WaterSpout,AuraSphere,DarkPulse,Protect|Quiet||M|||50|]Scizor||FocusSash|Technician|BugBite,BulletPunch,SwordsDance,Protect|Brave||M|||50|]Farigiraf||SitrusBerry|ArmorTail|TwinBeam,TrickRoom,RainDance,HelpingHand|Relaxed||M|||50|]Politoed||DampRock|Drizzle|WeatherBall,ChillingWater,HelpingHand,Hypnosis|Bold||M|||50|]Dragonite||Dragoninite|Multiscale|DracoMeteor,Hurricane,Thunder,ExtremeSpeed|Quiet||M|||50|]Sinistcha||CobaBerry|Hospitality|MatchaGotcha,LifeDew,TrickRoom,RagePowder|Relaxed|||||50|
+|showteam|p2|Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,SolarBeam,Protect|Modest||M|||50|]Metagross||Metagrossite|ClearBody|IronHead,PsychicFangs,StompingTantrum,Protect|Jolly|||||50|]Aerodactyl||SitrusBerry|Unnerve|RockSlide,IceFang,Tailwind,Protect|Jolly||M|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,RockSlide,Protect|Jolly||F|||50|]Kingambit||FocusSash|Defiant|KowtowCleave,SuckerPunch,IronHead,LowKick|Adamant||M|||50|]Farigiraf||ExpertBelt|ArmorTail|Psychic,DazzlingGleam,Thunderbolt,TrickRoom|Modest||F|||50|
+|
+|t:|1782656382
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|switch|p2a: Charizard|Charizard, L50, M|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|turn|1
+|
+|t:|1782656411
+|detailschange|p1b: Dragonite|Dragonite-Mega, L50, M
+|-mega|p1b: Dragonite|Dragonite|Dragoninite
+|move|p2a: Charizard|Protect|p2a: Charizard
+|-singleturn|p2a: Charizard|Protect
+|move|p1b: Dragonite|Thunder|p2a: Charizard
+|-activate|p2a: Charizard|move: Protect
+|move|p2b: Farigiraf|Dazzling Gleam|p1a: Farigiraf|[spread] p1a,p1b
+|-supereffective|p1b: Dragonite|1
+|-damage|p1a: Farigiraf|82/100
+|-damage|p1b: Dragonite|82/100
+|move|p1a: Farigiraf|Rain Dance|p1a: Farigiraf
+|-weather|RainDance
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1782656456
+|detailschange|p2a: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p2a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p2a: Charizard|Weather Ball|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|faint|p1a: Farigiraf
+|move|p1b: Dragonite|Draco Meteor|p2a: Charizard
+|-damage|p2a: Charizard|29/100
+|-unboost|p1b: Dragonite|spa|2
+|move|p2b: Farigiraf|Dazzling Gleam|p1b: Dragonite
+|-supereffective|p1b: Dragonite|1
+|-damage|p1b: Dragonite|31/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1782656473
+|switch|p1a: Sinistcha|Sinistcha, L50|100/100
+|-heal|p1b: Dragonite|56/100|[from] ability: Hospitality|[of] p1a: Sinistcha
+|turn|3
+|
+|t:|1782656511
+|switch|p2a: Kingambit|Kingambit, L50, M|100/100
+|move|p1b: Dragonite|Draco Meteor|p2a: Kingambit
+|-resisted|p2a: Kingambit|1
+|-damage|p2a: Kingambit|77/100
+|-unboost|p1b: Dragonite|spa|2
+|move|p2b: Farigiraf|Thunderbolt|p1b: Dragonite
+|-damage|p1b: Dragonite|31/100
+|move|p1a: Sinistcha|Life Dew||[still]|[spread] p1a,p1b
+|-fail|p1a: Sinistcha|heal
+|-heal|p1b: Dragonite|57/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|-message|tirion forfeited.
+|
+|win|lox1sm
+|raw|tirion's rating: 1088 → 1071(-17 for losing)
+|raw|lox1sm's rating: 1182 → 1200(+18 for winning)
+|l|☆tirion
+|player|p1|

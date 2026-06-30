@@ -1,0 +1,165 @@
+|j|☆chamoy-pt2
+|j|☆fly butterfly fly
+|html|chamoy-pt2fly butterfly fly    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1782358138
+|gametype|doubles
+|player|p1|chamoy-pt2|sabrina|1148
+|player|p2|fly butterfly fly|101|1048
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Gengar, L50, F|
+|poke|p1|Vivillon-High Plains, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p2|Kangaskhan, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Vileplume, L50, M|
+|poke|p2|Kommo-o, L50, F|
+|poke|p2|Pyroar, L50, F|
+|teampreview|4
+|showteam|p1|Volcarona||Leftovers|FlameBody|QuiverDance,HeatWave,GigaDrain,Protect|Modest||M|||50|]Ninetales-Alola||LightClay|SnowWarning|AuroraVeil,Blizzard,Encore,Protect|Timid||F|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,PartingShot,FlareBlitz,DarkestLariat|Impish||F|||50|]Gengar||Gengarite|CursedBody|ShadowBall,SludgeBomb,Disable,Protect|Timid||F|||50|]Vivillon-High Plains||FocusSash|CompoundEyes|SleepPowder,RagePowder,PollenPuff,Protect|Timid||M|||50|]Sneasler||WhiteHerb|Unburden|FakeOut,CloseCombat,DireClaw,Protect|Adamant||M|||50|
+|showteam|p2|Kangaskhan||SilkScarf|Scrappy|FakeOut,LastResort|Adamant||F|||50|]Farigiraf||ColburBerry|ArmorTail|Psychic,Thunderbolt,Protect,TrickRoom|Bold||M|||50|]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HelpingHand,Protect|Quiet||M|||50|]Vileplume||FocusSash|Chlorophyll|SleepPowder,EnergyBall,SludgeBomb,AfterYou|Timid||M|||50|]Kommo-o||HabanBerry|Overcoat|ClangingScales,AuraSphere,ClangorousSoul,Protect|Modest||F|||50|]Pyroar||Pyroarite|Unnerve|HeatWave,Overheat,ScorchingSands,Protect|Timid||F|||50|
+|
+|t:|1782358164
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Vivillon|Vivillon-High Plains, L50, M|100/100
+|switch|p1b: Gengar|Gengar, L50, F|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, L50, F|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|turn|1
+|
+|t:|1782358200
+|detailschange|p1b: Gengar|Gengar-Mega, L50, F
+|-mega|p1b: Gengar|Gengar|Gengarite
+|move|p1a: Vivillon|Protect|p1a: Vivillon
+|-singleturn|p1a: Vivillon|Protect
+|move|p2a: Kangaskhan|Fake Out|p1a: Vivillon
+|-activate|p1a: Vivillon|move: Protect
+|move|p1b: Gengar|Sludge Bomb|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|42/100
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1782358225
+|move|p2b: Farigiraf|Psychic|p1a: Vivillon
+|-damage|p1a: Vivillon|32/100
+|move|p2a: Kangaskhan|Last Resort|p1a: Vivillon
+|-damage|p1a: Vivillon|0 fnt
+|faint|p1a: Vivillon
+|move|p1b: Gengar|Sludge Bomb|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|upkeep
+|
+|t:|1782358235
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Farigiraf|atk|1
+|turn|3
+|
+|t:|1782358258
+|move|p1b: Gengar|Protect|p1b: Gengar
+|-singleturn|p1b: Gengar|Protect
+|move|p2a: Torkoal|Eruption|p1b: Gengar|[spread] p1a
+|-activate|p1b: Gengar|move: Protect
+|-resisted|p1a: Incineroar|1
+|-damage|p1a: Incineroar|61/100
+|move|p2b: Farigiraf|Thunderbolt|p1a: Incineroar
+|-crit|p1a: Incineroar
+|-damage|p1a: Incineroar|27/100
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|51/100|[from] item: Sitrus Berry
+|move|p1a: Incineroar|Parting Shot|p2a: Torkoal
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2a: Torkoal|spa|1
+|
+|t:|1782358270
+|switch|p1a: Ninetales|Ninetales-Alola, L50, F|100/100|[from] Parting Shot
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1782358293
+|switch|p1b: Incineroar|Incineroar, L50, F|51/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Farigiraf|atk|1
+|move|p2a: Torkoal|Eruption|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Ninetales|1
+|-resisted|p1b: Incineroar|1
+|-damage|p1a: Ninetales|10/100
+|-damage|p1b: Incineroar|32/100
+|move|p2b: Farigiraf|Thunderbolt|p1b: Incineroar
+|-damage|p1b: Incineroar|9/100
+|move|p1a: Ninetales|Blizzard|p2b: Farigiraf|[spread] p2a,p2b
+|-resisted|p2a: Torkoal|1
+|-damage|p2a: Torkoal|82/100
+|-damage|p2b: Farigiraf|73/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1782358338
+|switch|p2a: Pyroar|Pyroar, L50, F|100/100
+|-ability|p2a: Pyroar|Unnerve
+|move|p1a: Ninetales|Protect|p1a: Ninetales
+|-singleturn|p1a: Ninetales|Protect
+|move|p2b: Farigiraf|Thunderbolt|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1782358345
+|switch|p1b: Gengar|Gengar-Mega, L50, F|100/100
+|turn|6
+|
+|t:|1782358367
+|detailschange|p2a: Pyroar|Pyroar-Mega, L50, F
+|-mega|p2a: Pyroar|Pyroar|Pyroarite
+|move|p1b: Gengar|Shadow Ball|p2b: Farigiraf
+|-immune|p2b: Farigiraf
+|move|p2a: Pyroar|Heat Wave|p1b: Gengar|[spread] p1b
+|-miss|p2a: Pyroar|p1a: Ninetales
+|-crit|p1b: Gengar
+|-damage|p1b: Gengar|0 fnt
+|faint|p1b: Gengar
+|move|p1a: Ninetales|Blizzard|p2a: Pyroar|[spread] p2a,p2b
+|-resisted|p2a: Pyroar|1
+|-damage|p2a: Pyroar|81/100
+|-damage|p2b: Farigiraf|46/100
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|-message|chamoy-pt2 forfeited.
+|raw|chamoy-pt2's rating: 1148 → 1116(-32 for losing)
+|raw|fly butterfly fly's rating: 1048 → 1090(+42 for winning)
+|
+|win|fly butterfly fly
+|l|☆chamoy-pt2
+|player|p1|

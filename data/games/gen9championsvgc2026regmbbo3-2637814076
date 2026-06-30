@@ -1,0 +1,127 @@
+|j|☆SquisProjects
+|j|☆MrGardnHose
+|html|SquisProjectsMrGardnHose    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782239962
+|gametype|doubles
+|player|p1|SquisProjects|1|1091
+|player|p2|MrGardnHose|jasmine-masters2|1025
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Raichu, L50, M, shiny|
+|poke|p1|Froslass, L50, F|
+|poke|p1|Talonflame, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Hydreigon, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Metagross, L50|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Talonflame, L50, M|
+|poke|p2|Eelektross, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Kingambit, L50, F|
+|teampreview|4
+|showteam|p1|Raichu||RaichuniteY|LightningRod|GrassKnot,Protect,ZapCannon,FocusBlast|Timid||M|||50|]Froslass||Froslassite|SnowCloak|AuroraVeil,Blizzard,ShadowBall,Protect|Timid||F|||50|]Talonflame||ExpertBelt|GaleWings|Tailwind,Protect,FlareBlitz,BraveBird|Jolly||F|||50|]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,Protect,NastyPlot|Modest|||||50|]Hydreigon||FocusSash|Levitate|DarkPulse,DracoMeteor,Protect,EarthPower|Serious||M|||50|]Farigiraf||SitrusBerry|ArmorTail|DazzlingGleam,HyperVoice,Psychic,Protect|Modest||F|||50|
+|showteam|p2|Metagross||Metagrossite|ClearBody|IronHead,PsychicFangs,IcePunch,Protect|Timid|||||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,RockSlide,DragonClaw,Protect|Jolly||M|||50|]Talonflame||SharpBeak|GaleWings|DualWingbeat,FlareBlitz,Tailwind,UpperHand|Jolly||M|||50|]Eelektross||Eelektrossite|Levitate|Thunderbolt,Discharge,GigaDrain,Protect|Modest||F|||50|]Basculegion||MysticWater|Adaptability|AquaJet,WaveCrash,LastRespects,Protect|Adamant||M|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,LowKick,Protect|Adamant||F|||50|
+|
+|t:|1782239996
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hydreigon|Hydreigon, L50, M|100/100
+|switch|p1b: Talonflame|Talonflame, L50, F|100/100
+|switch|p2a: Talonflame|Talonflame, L50, M|100/100
+|switch|p2b: Kingambit|Kingambit, L50, F|100/100
+|turn|1
+|
+|t:|1782240016
+|move|p2b: Kingambit|Protect|p2b: Kingambit
+|-singleturn|p2b: Kingambit|Protect
+|move|p2a: Talonflame|Tailwind|p2a: Talonflame
+|-sidestart|p2: MrGardnHose|move: Tailwind
+|move|p1b: Talonflame|Tailwind|p1b: Talonflame
+|-sidestart|p1: SquisProjects|move: Tailwind
+|move|p1a: Hydreigon|Earth Power|p2b: Kingambit
+|-activate|p2b: Kingambit|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1782240076
+|move|p1b: Talonflame|Brave Bird|p2a: Talonflame
+|-crit|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|-damage|p1b: Talonflame|67/100|[from] Recoil
+|move|p2b: Kingambit|Sucker Punch||[still]
+|-fail|p2b: Kingambit
+|move|p1a: Hydreigon|Earth Power|p2b: Kingambit
+|-supereffective|p2b: Kingambit|1
+|-damage|p2b: Kingambit|36/100
+|-unboost|p2b: Kingambit|spd|1
+|-ability|p2b: Kingambit|Defiant|boost
+|-boost|p2b: Kingambit|atk|2
+|
+|upkeep
+|
+|t:|1782240090
+|switch|p2a: Garchomp|Garchomp, L50, M|100/100
+|turn|3
+|
+|t:|1782240113
+|move|p1b: Talonflame|Flare Blitz|p2b: Kingambit
+|-supereffective|p2b: Kingambit|1
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|-damage|p1b: Talonflame|50/100g|[from] Recoil
+|move|p2a: Garchomp|Rock Slide|p1a: Hydreigon|[spread] p1a,p1b
+|-supereffective|p1b: Talonflame|2
+|-damage|p1a: Hydreigon|68/100
+|-damage|p1b: Talonflame|0 fnt
+|faint|p1b: Talonflame
+|-damage|p2a: Garchomp|90/100|[from] item: Life Orb
+|cant|p1a: Hydreigon|flinch
+|
+|upkeep
+|
+|t:|1782240127
+|switch|p1b: Froslass|Froslass, L50, F|100/100
+|switch|p2b: Metagross|Metagross, L50|100/100
+|turn|4
+|
+|t:|1782240142
+|detailschange|p1b: Froslass|Froslass-Mega, L50, F
+|-mega|p1b: Froslass|Froslass|Froslassite
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Froslass
+|detailschange|p2b: Metagross|Metagross-Mega, L50
+|-mega|p2b: Metagross|Metagross|Metagrossite
+|move|p1b: Froslass|Blizzard|p2a: Garchomp|[spread] p2a,p2b
+|-supereffective|p2a: Garchomp|2
+|-resisted|p2b: Metagross|1
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p2b: Metagross|76/100
+|faint|p2a: Garchomp
+|move|p2b: Metagross|Iron Head|p1b: Froslass
+|-supereffective|p1b: Froslass|1
+|-damage|p1b: Froslass|0 fnt
+|faint|p1b: Froslass
+|move|p1a: Hydreigon|Draco Meteor|p2b: Metagross
+|-resisted|p2b: Metagross|1
+|-damage|p2b: Metagross|41/100
+|-unboost|p1a: Hydreigon|spa|2
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p2: MrGardnHose|move: Tailwind
+|-sideend|p1: SquisProjects|move: Tailwind
+|upkeep
+|
+|t:|1782240158
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|turn|5
+|-message|MrGardnHose forfeited.
+|
+|win|SquisProjects

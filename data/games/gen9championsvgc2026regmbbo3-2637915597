@@ -1,0 +1,143 @@
+|j|☆RrrrrMemes9
+|j|☆chargem13
+|html|RrrrrMemes9chargem13    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782251328
+|gametype|doubles
+|player|p1|RrrrrMemes9|n|
+|player|p2|chargem13|iris|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Heracross, L50, M|
+|poke|p1|Pidgeot, L50, M|
+|poke|p1|Ditto, L50, shiny|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Alakazam, L50, M|
+|poke|p1|Forretress, L50, F|
+|poke|p2|Gyarados, L50, F, shiny|
+|poke|p2|Sceptile, L50, M|
+|poke|p2|Mamoswine, L50, M, shiny|
+|poke|p2|Rotom-Heat, L50|
+|poke|p2|Gardevoir, L50, F, shiny|
+|poke|p2|Talonflame, L50, M, shiny|
+|teampreview|4
+|showteam|p1|Heracross||Heracronite|Moxie|CloseCombat,Megahorn,Counter,Detect|Impish||M|||50|]Pidgeot||Pidgeotite|BigPecks|HeatWave,Hurricane,Roost,Tailwind|Timid||M|||50|]Ditto||Leftovers|Imposter|Transform|Bold|||||50|]Sneasler||FocusSash|Unburden|DireClaw,CloseCombat,FakeOut,Uturn|Adamant||M|||50|]Alakazam||SitrusBerry|MagicGuard|ExpandingForce,Protect,CalmMind,PsychicTerrain|Timid||M|||50|]Forretress||QuickClaw|Sturdy|Explosion,Protect,IronDefense,BodyPress|Careful||F|||50|
+|showteam|p2|Gyarados||Leftovers|Intimidate|Protect,DragonDance,Earthquake,Waterfall|Jolly||F|||50|]Sceptile||Sceptilite|Overgrow|Detect,EarthPower,DragonPulse,LeafStorm|Timid||M|||50|]Mamoswine||SitrusBerry|Oblivious|Protect,IceShard,IcicleCrash,Earthquake|Adamant||M|||50|]Rotom-Heat||ChoiceScarf|Levitate|VoltSwitch,Discharge,Overheat,Trick|Timid|||||50|]Gardevoir||FocusSash|Telepathy|Imprison,TrickRoom,DazzlingGleam,Moonblast|Timid||F|||50|]Talonflame||LifeOrb|GaleWings|Tailwind,UpperHand,FlareBlitz,BraveBird|Jolly||M|||50|
+|
+|t:|1782251371
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Alakazam|Alakazam, L50, M|100/100
+|switch|p1b: Boom|Forretress, L50, F|100/100
+|switch|p2a: PizzaOven|Rotom-Heat, L50|100/100
+|switch|p2b: Extinctor|Mamoswine, L50, M, shiny|100/100
+|turn|1
+|
+|t:|1782251456
+|move|p1b: Boom|Protect|p1b: Boom
+|-singleturn|p1b: Boom|Protect
+|move|p2a: PizzaOven|Trick|p1a: Alakazam
+|-activate|p2a: PizzaOven|move: Trick|[of] p1a: Alakazam
+|-item|p1a: Alakazam|Choice Scarf|[from] move: Trick
+|-item|p2a: PizzaOven|Sitrus Berry|[from] move: Trick
+|move|p1a: Alakazam|Psychic Terrain|p1a: Alakazam
+|-fieldstart|move: Psychic Terrain
+|move|p2b: Extinctor|Earthquake|p1a: Alakazam|[spread] p1a
+|-activate|p1b: Boom|move: Protect
+|-immune|p2a: PizzaOven|[from] ability: Levitate
+|-damage|p1a: Alakazam|0 fnt
+|faint|p1a: Alakazam
+|
+|upkeep
+|
+|t:|1782251478
+|switch|p1a: Bois|Heracross, L50, M|100/100
+|turn|2
+|
+|t:|1782251506
+|detailschange|p1a: Bois|Heracross-Mega, L50, M
+|-mega|p1a: Bois|Heracross|Heracronite
+|move|p2b: Extinctor|Protect|p2b: Extinctor
+|-singleturn|p2b: Extinctor|Protect
+|move|p2a: PizzaOven|Overheat|p1b: Boom
+|-supereffective|p1b: Boom|2
+|-ability|p1b: Boom|Sturdy
+|-damage|p1b: Boom|1/100
+|-unboost|p2a: PizzaOven|spa|2
+|move|p1a: Bois|Close Combat|p2b: Extinctor
+|-activate|p2b: Extinctor|move: Protect
+|move|p1b: Boom|Explosion|p2b: Extinctor|[spread] p1a,p2a
+|-activate|p2b: Extinctor|move: Protect
+|-damage|p1a: Bois|74/100
+|-damage|p2a: PizzaOven|51/100
+|faint|p1b: Boom
+|
+|upkeep
+|
+|t:|1782251521
+|switch|p1b: You Who?|Ditto, L50, shiny|100/100
+|-transform|p1b: You Who?|p2a: PizzaOven|[from] ability: Imposter
+|turn|3
+|
+|t:|1782251546
+|move|p1b: You Who?|Overheat|p2b: Extinctor
+|-supereffective|p2b: Extinctor|1
+|-damage|p2b: Extinctor|40/100
+|-unboost|p1b: You Who?|spa|2
+|-enditem|p2b: Extinctor|Sitrus Berry|[eat]
+|-heal|p2b: Extinctor|65/100|[from] item: Sitrus Berry
+|move|p2a: PizzaOven|Volt Switch|p1a: Bois
+|-damage|p1a: Bois|60/100
+|
+|t:|1782251571
+|switch|p2a: RagingLight|Gyarados, L50, F, shiny|100/100|[from] Volt Switch
+|-ability|p2a: RagingLight|Intimidate|boost
+|-unboost|p1a: Bois|atk|1
+|-unboost|p1b: You Who?|atk|1
+|move|p2b: Extinctor|Icicle Crash|p1a: Bois
+|-damage|p1a: Bois|31/100
+|cant|p1a: Bois|flinch
+|
+|upkeep
+|turn|4
+|
+|t:|1782251613
+|move|p1a: Bois|Detect|p1a: Bois
+|-singleturn|p1a: Bois|Protect
+|move|p1b: You Who?|Discharge|p2b: Extinctor|[spread] p2a
+|-activate|p1a: Bois|move: Protect
+|-immune|p2b: Extinctor
+|-supereffective|p2a: RagingLight|2
+|-damage|p2a: RagingLight|57/100
+|move|p2a: RagingLight|Dragon Dance|p2a: RagingLight
+|-boost|p2a: RagingLight|atk|1
+|-boost|p2a: RagingLight|spe|1
+|move|p2b: Extinctor|Icicle Crash|p1a: Bois
+|-activate|p1a: Bois|move: Protect
+|
+|-heal|p2a: RagingLight|63/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1782251642
+|move|p2a: RagingLight|Waterfall|p1b: You Who?
+|-supereffective|p1b: You Who?|1
+|-damage|p1b: You Who?|0 fnt
+|faint|p1b: You Who?
+|move|p2b: Extinctor|Icicle Crash|p1a: Bois
+|-damage|p1a: Bois|1/100
+|cant|p1a: Bois|flinch
+|
+|-heal|p2a: RagingLight|69/100|[from] item: Leftovers
+|-fieldend|move: Psychic Terrain
+|upkeep
+|turn|6
+|-message|RrrrrMemes9 forfeited.
+|
+|win|chargem13
+|l|☆RrrrrMemes9
+|player|p1|

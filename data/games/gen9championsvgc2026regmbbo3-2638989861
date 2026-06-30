@@ -1,0 +1,157 @@
+|j|☆lphlphill
+|j|☆losandy
+|html|lphlphilllosandy    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1782406924
+|gametype|doubles
+|player|p1|lphlphill|n|1000
+|player|p2|losandy|acetrainer-gen4dp|1024
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Aegislash, L50, M, shiny|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Gardevoir, L50, M, shiny|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Rotom-Wash, L50|
+|poke|p1|Raichu, L50, F|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Volcarona, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Aegislash||SpellTag|StanceChange|ShadowSneak,KingsShield,Poltergeist,FlashCannon|Sassy||M|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,RockSlide,IronHead|Jolly||F|||50|]Gardevoir||Gardevoirite|Trace|HyperVoice,VacuumWave,CalmMind,Psychic|Modest||M|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,IronHead,SuckerPunch,SwordsDance|Adamant||M|||50|]Rotom-Wash||Leftovers|Levitate|HydroPump,Protect,VoltSwitch,WillOWisp|Calm|||||50|]Raichu||RaichuniteY|LightningRod|FakeOut,VoltSwitch,Thunderbolt,Surf|Hasty||F|||50|
+|showteam|p2|Floette-Eternal||Floettite|FlowerVeil|Moonblast,DazzlingGleam,LightofRuin,Protect|Timid||F|||50|]Volcarona||Leftovers|FlameBody|HeatWave,RagePowder,QuiverDance,Protect|Bold||M|||50|]Kingambit||FocusSash|Defiant|LowKick,SuckerPunch,KowtowCleave,IronHead|Adamant||F|||50|]Farigiraf||ChoiceScarf|ArmorTail|TwinBeam,HyperVoice,Thunderbolt,FoulPlay|Timid||F|||50|]Pelipper||SitrusBerry|Drizzle|WideGuard,Hurricane,IcyWind,WeatherBall|Modest||F|||50|]Basculegion||LifeOrb|SwiftSwim|WaveCrash,LastRespects,AquaJet,Protect|Adamant||M|||50|
+|
+|t:|1782406986
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gardevoir|Gardevoir, L50, M, shiny|100/100
+|switch|p1b: Aegislash|Aegislash, L50, M, shiny|100/100
+|switch|p2a: Kingambit|Kingambit, L50, F|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|-ability|p1a: Gardevoir|Armor Tail|Trace|[from] ability: Trace|[of] p2b: Farigiraf
+|turn|1
+|
+|t:|1782407025
+|move|p2a: Kingambit|Sucker Punch||[still]
+|cant|p1a: Gardevoir|ability: Armor Tail|Sucker Punch|[of] p2a: Kingambit
+|move|p1a: Gardevoir|Vacuum Wave||[still]
+|cant|p2b: Farigiraf|ability: Armor Tail|Vacuum Wave|[of] p1a: Gardevoir
+|move|p2b: Farigiraf|Hyper Voice|p1a: Gardevoir|[spread] p1a
+|-immune|p1b: Aegislash
+|-damage|p1a: Gardevoir|75/100
+|-formechange|p1b: Aegislash|Aegislash-Blade|
+|move|p1b: Aegislash|Poltergeist|p2b: Farigiraf
+|-immune|p2b: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1782407057
+|switch|p1a: Rotom|Rotom-Wash, L50|100/100
+|move|p2b: Farigiraf|Hyper Voice|p1b: Aegislash|[spread] p1a
+|-immune|p1b: Aegislash
+|-damage|p1a: Rotom|75/100
+|move|p2a: Kingambit|Kowtow Cleave|p1b: Aegislash
+|-supereffective|p1b: Aegislash|1
+|-damage|p1b: Aegislash|0 fnt
+|faint|p1b: Aegislash
+|
+|-heal|p1a: Rotom|80/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1782407071
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|turn|3
+|
+|t:|1782407091
+|switch|p2a: Volcarona|Volcarona, L50, M|100/100
+|move|p2b: Farigiraf|Hyper Voice|p1b: Garchomp|[spread] p1a,p1b
+|-damage|p1a: Rotom|59/100
+|-damage|p1b: Garchomp|67/100
+|move|p1b: Garchomp|Earthquake|p2b: Farigiraf|[spread] p2a,p2b
+|-immune|p1a: Rotom|[from] ability: Levitate
+|-damage|p2a: Volcarona|55/100
+|-damage|p2b: Farigiraf|36/100
+|-damage|p1b: Garchomp|57/100|[from] item: Life Orb
+|move|p1a: Rotom|Will-O-Wisp|p2a: Volcarona
+|-immune|p2a: Volcarona
+|
+|-heal|p2a: Volcarona|61/100|[from] item: Leftovers
+|-heal|p1a: Rotom|64/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1782407123
+|move|p2a: Volcarona|Protect|p2a: Volcarona
+|-singleturn|p2a: Volcarona|Protect
+|move|p2b: Farigiraf|Hyper Voice|p1b: Garchomp|[spread] p1a,p1b
+|-damage|p1a: Rotom|40/100
+|-damage|p1b: Garchomp|23/100
+|move|p1b: Garchomp|Rock Slide|p2a: Volcarona|[spread] p2b
+|-activate|p2a: Volcarona|move: Protect
+|-damage|p2b: Farigiraf|6/100
+|-damage|p1b: Garchomp|14/100|[from] item: Life Orb
+|move|p1a: Rotom|Volt Switch|p2a: Volcarona
+|-activate|p2a: Volcarona|move: Protect
+|
+|-heal|p2a: Volcarona|67/100|[from] item: Leftovers
+|-heal|p1a: Rotom|45/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1782407147
+|switch|p1b: Gardevoir|Gardevoir, L50, M, shiny|75/100
+|-ability|p1b: Gardevoir|Armor Tail|Trace|[from] ability: Trace|[of] p2b: Farigiraf
+|move|p2b: Farigiraf|Hyper Voice|p1b: Gardevoir|[spread] p1a,p1b
+|-damage|p1a: Rotom|22/100
+|-damage|p1b: Gardevoir|48/100
+|move|p2a: Volcarona|Quiver Dance|p2a: Volcarona
+|-boost|p2a: Volcarona|spa|1
+|-boost|p2a: Volcarona|spd|1
+|-boost|p2a: Volcarona|spe|1
+|move|p1a: Rotom|Hydro Pump|p2a: Volcarona
+|-supereffective|p2a: Volcarona|1
+|-damage|p2a: Volcarona|19/100
+|
+|-heal|p2a: Volcarona|26/100|[from] item: Leftovers
+|-heal|p1a: Rotom|28/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1782407173
+|detailschange|p1b: Gardevoir|Gardevoir-Mega, L50, M, shiny
+|-mega|p1b: Gardevoir|Gardevoir|Gardevoirite
+|move|p2b: Farigiraf|Hyper Voice|p1b: Gardevoir|[spread] p1a,p1b
+|-damage|p1a: Rotom|3/100
+|-damage|p1b: Gardevoir|25/100
+|move|p2a: Volcarona|Heat Wave|p1a: Rotom|[spread] p1a,p1b
+|-resisted|p1a: Rotom|1
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-damage|p1b: Gardevoir|0 fnt
+|faint|p1a: Rotom
+|faint|p1b: Gardevoir
+|
+|-heal|p2a: Volcarona|32/100|[from] item: Leftovers
+|upkeep
+|-message|lphlphill forfeited.
+|
+|win|losandy
+|l|☆lphlphill
+|player|p1|
+|j|☆lphlphill
+|player|p1|lphlphill|n|
+||losandy is ready for game 2.
+|inactive|lphlphill has 30 seconds to confirm battle start!
+||lphlphill is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆lphlphill
+|player|p1|

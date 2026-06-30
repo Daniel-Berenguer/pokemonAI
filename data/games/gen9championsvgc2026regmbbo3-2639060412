@@ -1,0 +1,153 @@
+|j|☆nuzzum
+|j|☆blackstormgames
+|html|nuzzumblackstormgames    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1782414824
+|gametype|doubles
+|player|p1|nuzzum|veteran|1131
+|player|p2|blackstormgames|lance|1262
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Raichu, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Swampert, L50, F|
+|poke|p1|Meowscarada, L50, M|
+|poke|p1|Scizor, L50, F|
+|poke|p2|Blaziken, L50, M|
+|poke|p2|Aerodactyl, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Sylveon, L50, F|
+|poke|p2|Torkoal, L50, F|
+|teampreview|4
+|showteam|p1|Raichu||RaichuniteX|Static|RisingVoltage,VoltSwitch,FakeOut,AlluringVoice|Modest||M|||50|]Archaludon||WhiteHerb|Stamina|ElectroShot,DracoMeteor,FlashCannon,AuraSphere|Modest||F|||50|]Pelipper||DampRock|Drizzle|Hurricane,HydroPump,Roost,Tailwind|Relaxed||M|||50|]Swampert||Swampertite|Torrent|WaveCrash,HighHorsepower,IcePunch,Protect|Adamant||F|||50|]Meowscarada||ChoiceScarf|Protean|KnockOff,FlowerTrick,TripleAxel,Uturn|Jolly||M|||50|]Scizor||LifeOrb|Technician|DualWingbeat,BulletPunch,CloseCombat,Protect|Adamant||F|||50|
+|showteam|p2|Blaziken||Blazikenite|SpeedBoost|FlareBlitz,CloseCombat,RockSlide,Protect|Adamant||M|||50|]Aerodactyl||Aerodactylite|Unnerve|RockSlide,DualWingbeat,IceFang,Tailwind|Jolly||F|||50|]Kingambit||LifeOrb|Defiant|KowtowCleave,SuckerPunch,IronHead,Protect|Adamant||M|||50|]Basculegion||FocusSash|Adaptability|Liquidation,AquaJet,LastRespects,Protect|Adamant||M|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,QuickAttack,Detect|Modest||F|||50|]Torkoal||Leftovers|Drought|Eruption,Yawn,WeatherBall,Protect|Quiet||F|||50|
+|
+|t:|1782414874
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Raichu|Raichu, L50, M|100/100
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|switch|p2a: Blaziken|Blaziken, L50, M|100/100
+|switch|p2b: Sylveon|Sylveon, L50, F|100/100
+|turn|1
+|
+|t:|1782414908
+|detailschange|p1a: Raichu|Raichu-Mega-X, L50, M
+|-mega|p1a: Raichu|Raichu|Raichunite X
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p1a: Raichu
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p2b: Sylveon|Detect|p2b: Sylveon
+|-singleturn|p2b: Sylveon|Protect
+|move|p1a: Raichu|Volt Switch|p2b: Sylveon
+|-activate|p2b: Sylveon|move: Protect
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|2
+|
+|t:|1782414926
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|detailschange|p2a: Blaziken|Blaziken-Mega, L50, M
+|-mega|p2a: Blaziken|Blaziken|Blazikenite
+|move|p2a: Blaziken|Close Combat|p1b: Archaludon
+|-supereffective|p1b: Archaludon|1
+|-damage|p1b: Archaludon|0 fnt
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|faint|p1b: Archaludon
+|move|p2b: Sylveon|Hyper Voice|p1a: Pelipper
+|-damage|p1a: Pelipper|13/100
+|
+|-weather|RainDance|[upkeep]
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1782414940
+|switch|p1b: Swampert|Swampert, L50, F|100/100
+|turn|3
+|
+|t:|1782414950
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p2b: Sylveon|Hyper Voice|p1b: Swampert|[spread] p1a,p1b
+|-damage|p1a: Pelipper|0 fnt
+|-damage|p1b: Swampert|54/100
+|faint|p1a: Pelipper
+|move|p1b: Swampert|Wave Crash|p2a: Torkoal
+|-supereffective|p2a: Torkoal|1
+|-damage|p2a: Torkoal|52/100
+|-damage|p1b: Swampert|41/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Torkoal|58/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1782414963
+|switch|p1a: Raichu|Raichu-Mega-X, L50, M|100/100
+|turn|4
+|
+|t:|1782414971
+|move|p1a: Raichu|Fake Out|p2b: Sylveon
+|-damage|p2b: Sylveon|86/100
+|cant|p2b: Sylveon|flinch
+|move|p1b: Swampert|High Horsepower|p2a: Torkoal
+|-supereffective|p2a: Torkoal|1
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1782414980
+|switch|p2a: Blaziken|Blaziken-Mega, L50, M|100/100
+|turn|5
+|
+|t:|1782414988
+|move|p2a: Blaziken|Protect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1b: Swampert|Protect|p1b: Swampert
+|-singleturn|p1b: Swampert|Protect
+|move|p1a: Raichu|Rising Voltage|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|move|p2b: Sylveon|Hyper Voice|p1b: Swampert|[spread] p1a
+|-activate|p1b: Swampert|move: Protect
+|-damage|p1a: Raichu|36/100
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Electric Terrain
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|6
+|
+|t:|1782415007
+|move|p2a: Blaziken|Close Combat|p1b: Swampert
+|-damage|p1b: Swampert|0 fnt
+|-unboost|p2a: Blaziken|def|1
+|-unboost|p2a: Blaziken|spd|1
+|faint|p1b: Swampert
+|move|p1a: Raichu|Alluring Voice|p2a: Blaziken
+|-damage|p2a: Blaziken|53/100
+|move|p2b: Sylveon|Hyper Voice|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|
+|win|blackstormgames
+||blackstormgames is ready for game 2.
+|inactive|nuzzum has 30 seconds to confirm battle start!
+||nuzzum is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

@@ -1,0 +1,230 @@
+|j|☆battle sim trainer
+|j|☆Fizzbamsen
+|html|battle sim trainerFizzbamsen    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782494490
+|gametype|doubles
+|player|p1|battle sim trainer|turo|1044
+|player|p2|Fizzbamsen|169|1088
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Swampert, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Venusaur, L50, M|
+|poke|p1|Staraptor, L50, F|
+|poke|p2|Staraptor, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, M|
+|poke|p2|Milotic, L50, F|
+|poke|p2|Sinistcha, L50|
+|teampreview|4
+|showteam|p1|Swampert||Swampertite|Torrent|WaveCrash,Earthquake,IcePunch,Protect|Adamant||F|||50|]Archaludon||Magnet|Stamina|ElectroShot,FlashCannon,DragonPulse,Protect|Calm||M|||50|]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,WideGuard,Tailwind|Modest||F|||50|]Basculegion||ChoiceScarf|Adaptability|LastRespects,WaveCrash,AquaJet,FlipTurn|Jolly||M|||50|]Venusaur||Venusaurite|Chlorophyll|SludgeBomb,EnergyBall,Protect,EarthPower|Modest||M|||50|]Staraptor||LifeOrb|Intimidate|BraveBird,CloseCombat,Tailwind,Uturn|Adamant||F|||50|
+|showteam|p2|Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,Roost,Protect|Adamant||F|||50|]Grimmsnarl||LightClay|Prankster|PartingShot,FoulPlay,LightScreen,Reflect|Calm||M|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,RockSlide,DragonClaw,Protect|Jolly||F|||50|]Typhlosion-Hisui||ChoiceScarf|Blaze|Eruption,Overheat,HeatWave,ShadowBall|Timid||M|||50|]Milotic||Leftovers|Competitive|IcyWind,Scald,LifeDew,Protect|Bold||F|||50|]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,StrengthSap,RagePowder,TrickRoom|Relaxed|||||50|
+|
+|t:|1782494532
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|switch|p1b: Pelipper|Pelipper, L50, F|100/100
+|switch|p2a: Typhlosion|Typhlosion-Hisui, L50, M|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|turn|1
+|
+|t:|1782494561
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|move|p2b: Grimmsnarl|Parting Shot|p1a: Archaludon
+|-unboost|p1a: Archaludon|atk|1
+|-unboost|p1a: Archaludon|spa|1
+|
+|t:|1782494566
+|switch|p2b: Staraptor|Staraptor, L50, F|100/100|[from] Parting Shot
+|-ability|p2b: Staraptor|Intimidate|boost
+|-unboost|p1a: Archaludon|atk|1
+|-unboost|p1b: Pelipper|atk|1
+|move|p1b: Pelipper|Tailwind|p1b: Pelipper
+|-sidestart|p1: battle sim trainer|move: Tailwind
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2a: Garchomp
+|-immune|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1782494594
+|detailschange|p2b: Staraptor|Staraptor-Mega, L50, F
+|-mega|p2b: Staraptor|Staraptor|Staraptite
+|move|p1a: Archaludon|Protect|p1a: Archaludon
+|-singleturn|p1a: Archaludon|Protect
+|move|p1b: Pelipper|Hurricane|p2a: Garchomp
+|-damage|p2a: Garchomp|41/100
+|move|p2a: Garchomp|Dragon Claw|p1b: Pelipper
+|-damage|p1b: Pelipper|33/100
+|-damage|p2a: Garchomp|31/100|[from] item: Life Orb
+|move|p2b: Staraptor|Close Combat|p1a: Archaludon
+|-activate|p1a: Archaludon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1782494617
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p2b: Staraptor|Protect|p2b: Staraptor
+|-singleturn|p2b: Staraptor|Protect
+|move|p1b: Pelipper|Weather Ball|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Protect
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Staraptor
+|-activate|p2b: Staraptor|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1782494654
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|move|p1b: Pelipper|Hurricane|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|55/100
+|move|p1a: Archaludon|Dragon Pulse|p2a: Garchomp
+|-supereffective|p2a: Garchomp|1
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p1: battle sim trainer|move: Tailwind
+|upkeep
+|
+|t:|1782494664
+|switch|p2a: Staraptor|Staraptor-Mega, L50, F|100/100
+|turn|5
+|
+|t:|1782494683
+|switch|p1b: Swampert|Swampert, L50, F|100/100
+|move|p1a: Archaludon|Protect|p1a: Archaludon
+|-singleturn|p1a: Archaludon|Protect
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: Fizzbamsen|move: Light Screen
+|move|p2a: Staraptor|Close Combat|p1b: Swampert
+|-damage|p1b: Swampert|26/100
+|-boost|p2a: Staraptor|def|1
+|-boost|p2a: Staraptor|spd|1
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1782494709
+|switch|p1a: Pelipper|Pelipper, L50, F|33/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|detailschange|p1b: Swampert|Swampert-Mega, L50, F
+|-mega|p1b: Swampert|Swampert|Swampertite
+|move|p2b: Grimmsnarl|Parting Shot|p1a: Pelipper
+|-unboost|p1a: Pelipper|atk|1
+|-unboost|p1a: Pelipper|spa|1
+|
+|t:|1782494716
+|switch|p2b: Typhlosion|Typhlosion-Hisui, L50, M|100/100|[from] Parting Shot
+|move|p1b: Swampert|Wave Crash|p2a: Staraptor
+|-damage|p2a: Staraptor|22/100
+|-damage|p1b: Swampert|2/100|[from] Recoil
+|move|p2a: Staraptor|Close Combat|p1a: Pelipper
+|-resisted|p1a: Pelipper|1
+|-damage|p1a: Pelipper|0 fnt
+|-boost|p2a: Staraptor|def|1
+|-boost|p2a: Staraptor|spd|1
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1782494743
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|turn|7
+|
+|t:|1782494790
+|move|p1b: Swampert|Wave Crash|p2a: Staraptor
+|-crit|p2a: Staraptor
+|-damage|p2a: Staraptor|0 fnt
+|faint|p2a: Staraptor
+|-damage|p1b: Swampert|0 fnt|[from] Recoil
+|faint|p1b: Swampert
+|move|p2b: Typhlosion|Heat Wave|p1a: Archaludon
+|-damage|p1a: Archaludon|78/100
+|-status|p1a: Archaludon|brn
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p1a: Archaludon|Dragon Pulse|p2b: Typhlosion
+|-damage|p2b: Typhlosion|67/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Archaludon|72/100 brn|[from] brn
+|upkeep
+|
+|t:|1782494802
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|55/100
+|switch|p1b: Staraptor|Staraptor, L50, F|100/100
+|-ability|p1b: Staraptor|Intimidate|boost
+|-unboost|p2a: Grimmsnarl|atk|1
+|-unboost|p2b: Typhlosion|atk|1
+|turn|8
+|c|☆battle sim trainer|gg
+|
+|t:|1782494820
+|move|p2b: Typhlosion|Heat Wave|p1b: Staraptor|[spread] p1a,p1b
+|-damage|p1a: Archaludon|57/100 brn
+|-damage|p1b: Staraptor|81/100
+|-status|p1b: Staraptor|brn
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p1b: Staraptor|Brave Bird|p2b: Typhlosion
+|-damage|p2b: Typhlosion|20/100y
+|-damage|p1b: Staraptor|69/100 brn|[from] Recoil
+|-damage|p1b: Staraptor|59/100 brn|[from] item: Life Orb
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Typhlosion
+|-damage|p2b: Typhlosion|0 fnt
+|faint|p2b: Typhlosion
+|move|p2a: Grimmsnarl|Foul Play|p1a: Archaludon
+|-crit|p1a: Archaludon
+|-damage|p1a: Archaludon|21/100 brn
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Staraptor|53/100 brn|[from] brn
+|-damage|p1a: Archaludon|15/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1782494847
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: Fizzbamsen|Reflect
+|move|p1b: Staraptor|Brave Bird|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|32/100
+|-damage|p1b: Staraptor|44/100 brn|[from] Recoil
+|-damage|p1b: Staraptor|34/100 brn|[from] item: Life Orb
+|move|p1a: Archaludon|Flash Cannon|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl|1
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|win|battle sim trainer
+|raw|battle sim trainer's rating: 1044 → 1082(+38 for winning)
+|raw|Fizzbamsen's rating: 1088 → 1062(-26 for losing)

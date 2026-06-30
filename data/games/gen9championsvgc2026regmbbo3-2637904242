@@ -1,0 +1,260 @@
+|j|☆itmaybetime
+|j|☆RandomSkyrimGuard
+|html|itmaybetimeRandomSkyrimGuard    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1782249929
+|gametype|doubles
+|player|p1|itmaybetime|101|1000
+|player|p2|RandomSkyrimGuard|2|1094
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Milotic, L50, M|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Scrafty, L50, F|
+|poke|p2|Rotom-Heat, L50|
+|teampreview|4
+|showteam|p1|Gholdengo||SpellTag|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect|Modest|||||50|]Incineroar||SitrusBerry|Intimidate|PartingShot,FlareBlitz,ThroatChop,FakeOut|Impish||M|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,RockSlide,Protect|Jolly||M|||50|]Charizard||CharizarditeY|Blaze|HeatWave,SolarBeam,WeatherBall,Protect|Modest||M|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,AquaJet,FlipTurn|Jolly||M|||50|]Whimsicott||FocusSash|Prankster|Tailwind,Encore,Moonblast,Protect|Timid||M|||50|
+|showteam|p2|Farigiraf||SitrusBerry|ArmorTail|Psychic,MirrorCoat,TrickRoom,Roar|Bold||M|||50|]Milotic||Leftovers|Competitive|MuddyWater,Hypnosis,Coil,Recover|Modest||M|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,RockSlide,Protect|Jolly||F|||50|]Tyranitar||Tyranitarite|SandStream|KnockOff,RockSlide,IcePunch,Protect|Adamant||F|||50|]Scrafty||Scraftinite|Intimidate|FakeOut,DrainPunch,KnockOff,Protect|Adamant||F|||50|]Rotom-Heat||ChestoBerry|Levitate|Overheat,Thunderbolt,Rest,Protect|Modest|||||50|
+|
+|t:|1782250055
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100
+|switch|p1b: Charizard|Charizard, L50, M|100/100
+|switch|p2a: Scrafty|Scrafty, L50, F|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|-ability|p2a: Scrafty|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|-unboost|p1b: Charizard|atk|1
+|turn|1
+|
+|t:|1782250089
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Scrafty|atk|1
+|-unboost|p2b: Farigiraf|atk|1
+|detailschange|p1b: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p1b: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|move|p2a: Scrafty|Fake Out|p1b: Charizard
+|-damage|p1b: Charizard|91/100
+|cant|p1b: Charizard|flinch
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1782250120
+|switch|p2b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|move|p2a: Scrafty|Drain Punch|p1a: Incineroar
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|66/100
+|move|p1a: Incineroar|Parting Shot|p2a: Scrafty
+|-unboost|p2a: Scrafty|atk|1
+|-unboost|p2a: Scrafty|spa|1
+|
+|t:|1782250130
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100|[from] Parting Shot
+|move|p1b: Charizard|Heat Wave|p2b: Tyranitar|[spread] p2a,p2b
+|-resisted|p2b: Tyranitar|1
+|-damage|p2a: Scrafty|61/100
+|-damage|p2b: Tyranitar|88/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Scrafty|55/100|[from] Sandstorm
+|-damage|p1b: Charizard|85/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1782250152
+|switch|p2a: Rotom|Rotom-Heat, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|66/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Rotom|atk|1
+|-unboost|p2b: Tyranitar|atk|1
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|detailschange|p2b: Tyranitar|Tyranitar-Mega, L50, F
+|-mega|p2b: Tyranitar|Tyranitar|Tyranitarite
+|move|p2b: Tyranitar|Rock Slide|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Gholdengo|1
+|-supereffective|p1b: Incineroar|1
+|-damage|p1a: Gholdengo|87/100
+|-damage|p1b: Incineroar|30/100
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|55/100|[from] item: Sitrus Berry
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Incineroar|49/100|[from] Sandstorm
+|-damage|p2a: Rotom|94/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1782250182
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100
+|move|p1b: Incineroar|Parting Shot|p2b: Tyranitar
+|-unboost|p2b: Tyranitar|atk|1
+|-unboost|p2b: Tyranitar|spa|1
+|
+|t:|1782250190
+|switch|p1b: Gholdengo|Gholdengo, L50|87/100|[from] Parting Shot
+|move|p2b: Tyranitar|Knock Off|p1a: Garchomp
+|-crit|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2b: Tyranitar|76/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|-enditem|p1a: Garchomp|Life Orb|[from] move: Knock Off|[of] p2b: Tyranitar
+|faint|p1a: Garchomp
+|move|p2a: Rotom|Overheat|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo|1
+|-damage|p1b: Gholdengo|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1b: Gholdengo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1782250208
+|switch|p1b: Charizard|Charizard-Mega-Y, L50, M|85/100
+|switch|p1a: Incineroar|Incineroar, L50, M|49/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Rotom|atk|1
+|-unboost|p2b: Tyranitar|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|turn|5
+|
+|t:|1782250233
+|switch|p2b: Scrafty|Scrafty, L50, F|55/100
+|-ability|p2b: Scrafty|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Charizard|atk|1
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|move|p1a: Incineroar|Throat Chop|p2a: Farigiraf
+|-supereffective|p2a: Farigiraf|1
+|-damage|p2a: Farigiraf|65/100
+|-start|p2a: Farigiraf|Throat Chop|[silent]
+|move|p1b: Charizard|Solar Beam||[still]
+|-prepare|p1b: Charizard|Solar Beam
+|-anim|p1b: Charizard|Solar Beam|p2b: Scrafty
+|-damage|p2b: Scrafty|15/100
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1782250270
+|move|p2b: Scrafty|Fake Out|p1b: Charizard
+|-damage|p1b: Charizard|72/100
+|cant|p1b: Charizard|flinch
+|move|p1a: Incineroar|Throat Chop|p2a: Farigiraf
+|-supereffective|p2a: Farigiraf|1
+|-damage|p2a: Farigiraf|30/100
+|-enditem|p2a: Farigiraf|Sitrus Berry|[eat]
+|-heal|p2a: Farigiraf|55/100|[from] item: Sitrus Berry
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Farigiraf|Throat Chop|[silent]
+|upkeep
+|turn|7
+|
+|t:|1782250291
+|move|p2b: Scrafty|Drain Punch|p1a: Incineroar
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|1/100
+|-heal|p2b: Scrafty|43/100|[from] drain|[of] p1a: Incineroar
+|move|p2a: Farigiraf|Psychic|p1b: Charizard
+|-crit|p1b: Charizard
+|-damage|p1b: Charizard|27/100
+|move|p1a: Incineroar|Flare Blitz|p2b: Scrafty
+|-damage|p2b: Scrafty|1/100
+|-damage|p1a: Incineroar|0 fnt|[from] Recoil
+|faint|p1a: Incineroar
+|move|p1b: Charizard|Heat Wave|p2a: Farigiraf|[spread] p2a,p2b
+|-damage|p2a: Farigiraf|1/100
+|-damage|p2b: Scrafty|0 fnt
+|faint|p2b: Scrafty
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1782250304
+|switch|p2b: Tyranitar|Tyranitar-Mega, L50, F|76/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|turn|8
+|
+|t:|1782250310
+|move|p1b: Charizard|Protect|p1b: Charizard
+|-singleturn|p1b: Charizard|Protect
+|move|p2a: Farigiraf|Psychic|p1b: Charizard
+|-activate|p1b: Charizard|move: Protect
+|move|p2b: Tyranitar|Knock Off|p1b: Charizard
+|-activate|p1b: Charizard|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Farigiraf|0 fnt|[from] Sandstorm
+|-damage|p1b: Charizard|21/100|[from] Sandstorm
+|faint|p2a: Farigiraf
+|upkeep
+|
+|t:|1782250313
+|switch|p2a: Rotom|Rotom-Heat, L50|88/100
+|turn|9
+|
+|t:|1782250322
+|move|p1b: Charizard|Protect|p1b: Charizard
+|-singleturn|p1b: Charizard|Protect
+|move|p2b: Tyranitar|Knock Off|p1b: Charizard
+|-activate|p1b: Charizard|move: Protect
+|move|p2a: Rotom|Thunderbolt|p1b: Charizard
+|-activate|p1b: Charizard|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|82/100|[from] Sandstorm
+|-damage|p1b: Charizard|16/100|[from] Sandstorm
+|upkeep
+|turn|10
+|
+|t:|1782250331
+|move|p1b: Charizard|Protect|p1b: Charizard
+|-singleturn|p1b: Charizard|Protect
+|move|p2b: Tyranitar|Knock Off|p1b: Charizard
+|-activate|p1b: Charizard|move: Protect
+|move|p2a: Rotom|Thunderbolt|p1b: Charizard
+|-activate|p1b: Charizard|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|77/100|[from] Sandstorm
+|-damage|p1b: Charizard|10/100|[from] Sandstorm
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1782250353
+|move|p1b: Charizard|Weather Ball|p2a: Rotom
+|-supereffective|p2a: Rotom|1
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|move|p2b: Tyranitar|Knock Off|p1b: Charizard
+|-damage|p1b: Charizard|0 fnt
+|faint|p1b: Charizard
+|
+|win|RandomSkyrimGuard
+||RandomSkyrimGuard is ready for game 2.

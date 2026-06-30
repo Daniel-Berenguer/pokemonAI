@@ -1,0 +1,176 @@
+|j|☆tuckerj752
+|j|☆Kylliza
+|html|tuckerj752Kylliza    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782337895
+|gametype|doubles
+|player|p1|tuckerj752|265|1069
+|player|p2|Kylliza|265|1100
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Swampert, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Blaziken, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Sylveon, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Froslass, L50, F|
+|teampreview|4
+|showteam|p1|Archaludon||Leftovers|Stamina|ElectroShot,DracoMeteor,Protect,FlashCannon|Quiet||F|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,PartingShot,DarkestLariat,FlareBlitz|Adamant||F|||50|]Floette-Eternal||Floettite|FlowerVeil|CalmMind,Psychic,Moonblast,Protect|Quiet||F|||50|]Pelipper||FocusSash|Drizzle|Protect,MuddyWater,Hurricane,Tailwind|Timid||F|||50|]Swampert||Swampertite|Torrent|Earthquake,IcePunch,Liquidation,Protect|Adamant||M|||50|]Grimmsnarl||LightClay|Prankster|LightScreen,Reflect,SpiritBreak,PartingShot|Careful||M|||50|
+|showteam|p2|Blaziken||Blazikenite|SpeedBoost|FlareBlitz,CloseCombat,RockSlide,Protect|Adamant||F|||50|]Whimsicott||FocusSash|Prankster|Moonblast,Tailwind,Encore,Protect|Timid||M|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,ThroatChop,PartingShot|Careful||M|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,QuickAttack,Protect|Modest||F|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,AquaJet,FlipTurn|Jolly||M|||50|]Froslass||Froslassite|CursedBody|Blizzard,ShadowBall,AuroraVeil,Protect|Timid||F|||50|
+|
+|t:|1782337905
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Archaludon|Archaludon, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Sylveon|Sylveon, L50, F|100/100
+|switch|p2b: Froslass|Froslass, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Sylveon|atk|1
+|-unboost|p2b: Froslass|atk|1
+|turn|1
+|
+|t:|1782337917
+|move|p2b: Froslass|Protect|p2b: Froslass
+|-singleturn|p2b: Froslass|Protect
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|move|p1a: Archaludon|Flash Cannon|p2b: Froslass
+|-activate|p2b: Froslass|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1782337945
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Archaludon|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|move|p1a: Archaludon|Flash Cannon|p2b: Incineroar
+|-resisted|p2b: Incineroar|1
+|-crit|p2b: Incineroar
+|-damage|p2b: Incineroar|75/100
+|-unboost|p2b: Incineroar|spd|1
+|move|p2a: Sylveon|Hyper Voice|p1a: Archaludon|[spread] p1a,p1b
+|-damage|p1a: Archaludon|25/100
+|-damage|p1b: Incineroar|53/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p1b: Incineroar|Parting Shot|p2a: Sylveon
+|-unboost|p2a: Sylveon|atk|1
+|-unboost|p2a: Sylveon|spa|1
+|
+|t:|1782337959
+|switch|p1b: Pelipper|Pelipper, L50, F|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Archaludon|31/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1782337975
+|move|p1a: Archaludon|Protect|p1a: Archaludon
+|-singleturn|p1a: Archaludon|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Pelipper
+|-damage|p1b: Pelipper|88/100
+|cant|p1b: Pelipper|flinch
+|move|p2a: Sylveon|Hyper Voice|p1b: Pelipper|[spread] p1b
+|-activate|p1a: Archaludon|move: Protect
+|-damage|p1b: Pelipper|35/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Archaludon|37/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1782338004
+|move|p1b: Pelipper|Muddy Water|p2a: Sylveon|[spread] p2a,p2b
+|-supereffective|p2b: Incineroar|1
+|-damage|p2a: Sylveon|73/100
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2a: Sylveon
+|-damage|p2a: Sylveon|13/100
+|move|p2a: Sylveon|Hyper Voice|p1b: Pelipper|[spread] p1a,p1b
+|-damage|p1a: Archaludon|0 fnt
+|-damage|p1b: Pelipper|0 fnt
+|faint|p1a: Archaludon
+|faint|p1b: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1782338018
+|switch|p1b: Incineroar|Incineroar, L50, F|53/100
+|switch|p1a: Swampert|Swampert, L50, M|100/100
+|switch|p2b: Froslass|Froslass, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Sylveon|atk|1
+|-unboost|p2b: Froslass|atk|1
+|turn|5
+|
+|t:|1782338057
+|detailschange|p2b: Froslass|Froslass-Mega, L50, F
+|-mega|p2b: Froslass|Froslass|Froslassite
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Froslass
+|detailschange|p1a: Swampert|Swampert-Mega, L50, M
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p1b: Incineroar|Fake Out|p2a: Sylveon
+|-damage|p2a: Sylveon|0 fnt
+|faint|p2a: Sylveon
+|move|p2b: Froslass|Blizzard|p1a: Swampert|[spread] p1a,p1b
+|-resisted|p1b: Incineroar|1
+|-damage|p1a: Swampert|66/100
+|-damage|p1b: Incineroar|36/100
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|61/100|[from] item: Sitrus Berry
+|move|p1a: Swampert|Liquidation|p2b: Froslass
+|-damage|p2b: Froslass|40/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1782338072
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|turn|6
+|
+|t:|1782338089
+|move|p2a: Basculegion|Wave Crash|p1b: Incineroar
+|-supereffective|p1b: Incineroar|1
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|-damage|p2a: Basculegion|79/100|[from] Recoil
+|move|p2b: Froslass|Blizzard|p1a: Swampert
+|-damage|p1a: Swampert|19/100
+|move|p1a: Swampert|Ice Punch|p2a: Basculegion
+|-resisted|p2a: Basculegion|1
+|-damage|p2a: Basculegion|59/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1782338102
+|move|p2a: Basculegion|Wave Crash|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|-damage|p2a: Basculegion|52/100|[from] Recoil
+|
+|win|Kylliza

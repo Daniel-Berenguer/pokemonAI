@@ -1,0 +1,203 @@
+|j|☆Copilot BOT 2
+|j|☆Chat GPT BOT 1
+|html|Copilot BOT 2Chat GPT BOT 1    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782262230
+|gametype|doubles
+|player|p1|Copilot BOT 2|blackbelt|
+|player|p2|Chat GPT BOT 1|2|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Venusaur, L50, F, shiny|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Rotom-Wash, L50, shiny|
+|poke|p1|Scrafty, L50, F|
+|poke|p2|Gardevoir, L50, F, shiny|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Whimsicott, L50, M, shiny|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Kingambit, L50, F, shiny|
+|poke|p2|Garchomp, L50, M|
+|teampreview|4
+|showteam|p1|Gholdengo||WiseGlasses|GoodasGold|MakeItRain,ShadowBall,Thunderbolt,Protect|Modest|||||50|]Torkoal||Charcoal|Drought|Eruption,HeatWave,EarthPower,Protect|Quiet||M|||50|]Venusaur||Venusaurite|Chlorophyll|GigaDrain,SludgeBomb,SleepPowder,Protect|Bold||F|||50|]Tyranitar||SmoothRock|SandStream|RockSlide,Crunch,LowKick,IcePunch|Careful||F|||50|]Rotom-Wash||SitrusBerry|Levitate|HydroPump,Thunderbolt,WillOWisp,VoltSwitch|Modest|||||50|]Scrafty||Leftovers|Intimidate|FakeOut,DrainPunch,KnockOff,Protect|Impish||F|||50|
+|showteam|p2|Gardevoir||Gardevoirite|Trace|HyperVoice,Psyshock,Protect,MysticalFire|Timid||F|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,Taunt,WillOWisp|Careful||F|||50|]Whimsicott||FocusSash|Prankster|Tailwind,Encore,Moonblast,Protect|Timid||M|||50|]Primarina||MysticWater|LiquidVoice|Moonblast,HydroPump,Protect,IceBeam|Modest||M|||50|]Kingambit||BlackGlasses|SupremeOverlord|KowtowCleave,IronHead,SuckerPunch,Protect|Adamant||F|||50|]Garchomp||YacheBerry|RoughSkin|Earthquake,DragonClaw,RockSlide,Protect|Jolly||M|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Copilot BOT 2)
+|inactive|Copilot BOT 2 has 60 seconds left.
+|inactive|Chat GPT BOT 1 has 60 seconds left.
+|inactiveoff|Battle timer is now OFF.
+|
+|t:|1782262399
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Rotom|Rotom-Wash, L50, shiny|100/100
+|switch|p2a: Gardevoir|Gardevoir, L50, F, shiny|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Gardevoir|Levitate|Trace|[from] ability: Trace|[of] p1b: Rotom
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Gholdengo|atk|1
+|-unboost|p1b: Rotom|atk|1
+|turn|1
+|
+|t:|1782262482
+|detailschange|p2a: Gardevoir|Gardevoir-Mega, L50, F, shiny
+|-mega|p2a: Gardevoir|Gardevoir|Gardevoirite
+|move|p2b: Incineroar|Fake Out|p1a: Gholdengo
+|-immune|p1a: Gholdengo
+|move|p2a: Gardevoir|Hyper Voice|p1a: Gholdengo|[spread] p1a,p1b
+|-resisted|p1a: Gholdengo|1
+|-damage|p1a: Gholdengo|72/100
+|-damage|p1b: Rotom|42/100
+|-enditem|p1b: Rotom|Sitrus Berry|[eat]
+|-heal|p1b: Rotom|67/100|[from] item: Sitrus Berry
+|move|p1a: Gholdengo|Make It Rain|p2b: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Gardevoir|1
+|-resisted|p2b: Incineroar|1
+|-damage|p2a: Gardevoir|0 fnt
+|-damage|p2b: Incineroar|78/100
+|-unboost|p1a: Gholdengo|spa|2
+|faint|p2a: Gardevoir
+|move|p1b: Rotom|Will-O-Wisp|p2b: Incineroar
+|-immune|p2b: Incineroar
+|
+|upkeep
+|
+|t:|1782262536
+|switch|p2a: Kingambit|Kingambit, L50, F, shiny|100/100
+|-activate|p2a: Kingambit|ability: Supreme Overlord
+|-start|p2a: Kingambit|fallen1|[silent]
+|turn|2
+|
+|t:|1782262628
+|switch|p1a: Scrafty|Scrafty, L50, F|100/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|move|p1b: Rotom|Hydro Pump|p2b: Incineroar
+|-supereffective|p2b: Incineroar|1
+|-damage|p2b: Incineroar|5/100
+|-enditem|p2b: Incineroar|Sitrus Berry|[eat]
+|-heal|p2b: Incineroar|30/100|[from] item: Sitrus Berry
+|move|p2b: Incineroar|Will-O-Wisp|p1b: Rotom|[miss]
+|-miss|p2b: Incineroar|p1b: Rotom
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Scrafty
+|-resisted|p1a: Scrafty|2
+|-damage|p1a: Scrafty|92/100
+|
+|-heal|p1a: Scrafty|98/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1782262715
+|move|p1a: Scrafty|Fake Out|p2a: Kingambit
+|-resisted|p2a: Kingambit|1
+|-damage|p2a: Kingambit|96/100
+|move|p1b: Rotom|Hydro Pump|p2b: Incineroar|[miss]
+|-miss|p1b: Rotom|p2b: Incineroar
+|move|p2b: Incineroar|Will-O-Wisp|p1a: Scrafty
+|-status|p1a: Scrafty|brn
+|cant|p2a: Kingambit|flinch
+|
+|-heal|p1a: Scrafty|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Scrafty|94/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1782262806
+|move|p1b: Rotom|Volt Switch|p2b: Incineroar
+|-damage|p2b: Incineroar|9/100
+|
+|t:|1782262847
+|switch|p1b: Venusaur|Venusaur, L50, F, shiny|100/100|[from] Volt Switch
+|move|p2b: Incineroar|Will-O-Wisp|p1b: Venusaur|[miss]
+|-miss|p2b: Incineroar|p1b: Venusaur
+|move|p1a: Scrafty|Drain Punch|p2b: Incineroar
+|-supereffective|p2b: Incineroar|1
+|-damage|p2b: Incineroar|0 fnt
+|-heal|p1a: Scrafty|100/100 brn|[from] drain|[of] p2b: Incineroar
+|faint|p2b: Incineroar
+|move|p2a: Kingambit|Iron Head|p1a: Scrafty
+|-damage|p1a: Scrafty|78/100 brn
+|
+|-heal|p1a: Scrafty|84/100 brn|[from] item: Leftovers
+|-damage|p1a: Scrafty|78/100 brn|[from] brn
+|upkeep
+|
+|t:|1782262885
+|switch|p2b: Whimsicott|Whimsicott, L50, M, shiny|100/100
+|turn|5
+|
+|t:|1782262944
+|detailschange|p1b: Venusaur|Venusaur-Mega, L50, F, shiny
+|-mega|p1b: Venusaur|Venusaur|Venusaurite
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: Chat GPT BOT 1|move: Tailwind
+|move|p2a: Kingambit|Iron Head|p1b: Venusaur
+|-crit|p1b: Venusaur
+|-damage|p1b: Venusaur|42/100
+|cant|p1b: Venusaur|flinch
+|move|p1a: Scrafty|Drain Punch|p2a: Kingambit
+|-supereffective|p2a: Kingambit|2
+|-damage|p2a: Kingambit|60/100
+|-heal|p1a: Scrafty|100/100 brn|[from] drain|[of] p2a: Kingambit
+|
+|-damage|p1a: Scrafty|94/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1782263066
+|move|p2b: Whimsicott|Moonblast|p1a: Scrafty
+|-supereffective|p1a: Scrafty|2
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|move|p2a: Kingambit|Iron Head|p1b: Venusaur
+|-damage|p1b: Venusaur|18/100
+|move|p1b: Venusaur|Sludge Bomb|p2b: Whimsicott
+|-supereffective|p2b: Whimsicott|2
+|-enditem|p2b: Whimsicott|Focus Sash
+|-damage|p2b: Whimsicott|1/100
+|
+|upkeep
+|
+|t:|1782263115
+|switch|p1a: Gholdengo|Gholdengo, L50|72/100
+|turn|7
+|
+|t:|1782263196
+|move|p2b: Whimsicott|Moonblast|p1a: Gholdengo
+|-resisted|p1a: Gholdengo|1
+|-damage|p1a: Gholdengo|50/100g
+|move|p2a: Kingambit|Iron Head|p1b: Venusaur
+|-damage|p1b: Venusaur|0 fnt
+|faint|p1b: Venusaur
+|move|p1a: Gholdengo|Make It Rain|p2b: Whimsicott|[spread] p2a,p2b
+|-resisted|p2a: Kingambit|1
+|-supereffective|p2b: Whimsicott|1
+|-damage|p2a: Kingambit|32/100
+|-damage|p2b: Whimsicott|0 fnt
+|-unboost|p1a: Gholdengo|spa|2
+|faint|p2b: Whimsicott
+|
+|upkeep
+|
+|t:|1782263212
+|switch|p1b: Rotom|Rotom-Wash, L50, shiny|67/100
+|turn|8
+|
+|t:|1782263286
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Gholdengo
+|-supereffective|p1a: Gholdengo|1
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|move|p1b: Rotom|Hydro Pump|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-end|p2a: Kingambit|fallen1|[silent]
+|
+|win|Copilot BOT 2

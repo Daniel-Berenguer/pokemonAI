@@ -1,0 +1,205 @@
+|j|☆MiCasa3112
+|j|☆MaeveOG
+|html|MiCasa3112MaeveOG    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1782317921
+|gametype|doubles
+|player|p1|MiCasa3112|lucas|
+|player|p2|MaeveOG|cynthia|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Sableye, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Basculegion-F, L50, F|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p2|Charizard, L50, M, shiny|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Kangaskhan, L50, F|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Archaludon||Leftovers|Stamina|ElectroShot,FlashCannon,DragonPulse,Protect|Modest||F|||50|]Sableye||RoseliBerry|Prankster|WillOWisp,LightScreen,Quash,RainDance|Impish||M|||50|]Incineroar||ChopleBerry|Intimidate|FakeOut,FlareBlitz,CloseCombat,PartingShot|Adamant||M|||50|]Basculegion-F||FocusSash|SwiftSwim|MuddyWater,AquaJet,ShadowBall,IcyWind|Modest||F|||50|]Floette-Eternal||Floettite|FlowerVeil|DazzlingGleam,DrainingKiss,CalmMind,Protect|Modest||F|||50|]Sinistcha||ColburBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,LifeDew|Bold|||||50|
+|showteam|p2|Charizard||CharizarditeY|SolarPower|WeatherBall,HeatWave,SolarBeam,Protect|Timid||M|||50|]Whimsicott||FocusSash|Prankster|Moonblast,Tailwind,SunnyDay,Encore|Timid||F|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,AquaJet,LastRespects,FlipTurn|Adamant||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,HyperVoice,HelpingHand,TrickRoom|Modest||F|||50|]Kangaskhan||Kangaskhanite|Scrappy|FakeOut,DoubleEdge,DrainPunch,SuckerPunch|Adamant||F|||50|]Sneasler||WhiteHerb|Unburden|FakeOut,CloseCombat,DireClaw,RockTomb|Adamant||M|||50|
+|
+|t:|1782317945
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sableye|Sableye, L50, M|100/100
+|switch|p1b: Basculegion|Basculegion-F, L50, F|100/100
+|switch|p2a: Charizard|Charizard, L50, M, shiny|100/100
+|switch|p2b: Kangaskhan|Kangaskhan, L50, F|100/100
+|turn|1
+|
+|t:|1782317972
+|detailschange|p2a: Charizard|Charizard-Mega-Y, L50, M, shiny
+|-mega|p2a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p2b: Kangaskhan|Fake Out|p1a: Sableye
+|-damage|p1a: Sableye|78/100
+|cant|p1a: Sableye|flinch
+|move|p2a: Charizard|Solar Beam||[still]
+|-prepare|p2a: Charizard|Solar Beam
+|-anim|p2a: Charizard|Solar Beam|p1b: Basculegion
+|-supereffective|p1b: Basculegion|1
+|-enditem|p1b: Basculegion|Focus Sash
+|-damage|p1b: Basculegion|1/100
+|move|p1b: Basculegion|Muddy Water|p2b: Kangaskhan|[spread] p2a,p2b
+|-supereffective|p2a: Charizard|1
+|-damage|p2a: Charizard|71/100
+|-damage|p2b: Kangaskhan|81/100
+|-unboost|p2a: Charizard|accuracy|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1782318012
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|move|p1a: Sableye|Rain Dance|p1a: Sableye
+|-weather|RainDance
+|move|p2a: Charizard|Heat Wave|p1b: Archaludon|[spread] p1a,p1b
+|-damage|p1a: Sableye|53/100
+|-damage|p1b: Archaludon|77/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p2b: Kangaskhan|Drain Punch|p1a: Sableye
+|-supereffective|p1a: Sableye|1
+|-damage|p1a: Sableye|0 fnt
+|-heal|p2b: Kangaskhan|100/100|[from] drain|[of] p1a: Sableye
+|faint|p1a: Sableye
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Archaludon|83/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1782318035
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Charizard|atk|1
+|-fail|p2b: Kangaskhan|unboost|Attack|[from] ability: Scrappy|[of] p2b: Kangaskhan
+|turn|3
+|
+|t:|1782318046
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|move|p1a: Incineroar|Fake Out|p2b: Kangaskhan
+|-damage|p2b: Kangaskhan|84/100
+|cant|p2b: Kangaskhan|flinch
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Sneasler
+|-damage|p2a: Sneasler|15/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Archaludon|89/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1782318073
+|move|p2a: Sneasler|Close Combat|p1b: Archaludon
+|-supereffective|p1b: Archaludon|1
+|-damage|p1b: Archaludon|26/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|move|p2b: Kangaskhan|Drain Punch|p1a: Incineroar
+|-supereffective|p1a: Incineroar|1
+|-enditem|p1a: Incineroar|Chople Berry|[eat]
+|-enditem|p1a: Incineroar|Chople Berry|[weaken]
+|-damage|p1a: Incineroar|76/100
+|-heal|p2b: Kangaskhan|97/100|[from] drain|[of] p1a: Incineroar
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2b: Kangaskhan
+|-damage|p2b: Kangaskhan|0 fnt
+|faint|p2b: Kangaskhan
+|move|p1a: Incineroar|Close Combat|p2a: Sneasler
+|-resisted|p2a: Sneasler|1
+|-damage|p2a: Sneasler|0 fnt
+|-unboost|p1a: Incineroar|def|1
+|-unboost|p1a: Incineroar|spd|1
+|faint|p2a: Sneasler
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Archaludon|32/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1782318100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Charizard|Charizard-Mega-Y, L50, M, shiny|71/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Charizard
+|turn|5
+|
+|t:|1782318114
+|switch|p1a: Basculegion|Basculegion-F, L50, F|1/100
+|move|p1b: Archaludon|Protect|p1b: Archaludon
+|-singleturn|p1b: Archaludon|Protect
+|move|p2a: Basculegion|Wave Crash|p1a: Basculegion
+|-resisted|p1a: Basculegion|1
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|-damage|p2a: Basculegion|99/100|[from] Recoil
+|move|p2b: Charizard|Heat Wave|p1b: Archaludon
+|-activate|p1b: Archaludon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Archaludon|37/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1782318128
+|switch|p1a: Incineroar|Incineroar, L50, M|76/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Basculegion|atk|1
+|-unboost|p2b: Charizard|atk|1
+|turn|6
+|
+|t:|1782318136
+|move|p1a: Incineroar|Fake Out|p2b: Charizard
+|-damage|p2b: Charizard|54/100
+|move|p2a: Basculegion|Wave Crash|p1a: Incineroar
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|20/100y
+|-damage|p2a: Basculegion|80/100|[from] Recoil
+|cant|p2b: Charizard|flinch
+|move|p1b: Archaludon|Dragon Pulse|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Archaludon|43/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1782318157
+|move|p1b: Archaludon|Protect|p1b: Archaludon
+|-singleturn|p1b: Archaludon|Protect
+|move|p2b: Charizard|Heat Wave|p1a: Incineroar|[spread] p1a
+|-activate|p1b: Archaludon|move: Protect
+|-resisted|p1a: Incineroar|1
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Archaludon|49/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1782318169
+|move|p2b: Charizard|Weather Ball|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|faint|p1b: Archaludon
+|
+|win|MaeveOG
+|l|☆MiCasa3112
+|player|p1|

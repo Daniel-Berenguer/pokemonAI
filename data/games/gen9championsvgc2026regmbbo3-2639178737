@@ -1,0 +1,116 @@
+|j|☆Joe870502
+|j|☆steelag0
+|html|Joe870502steelag0    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1782430029
+|gametype|doubles
+|player|p1|Joe870502|170|1230
+|player|p2|steelag0|169|1163
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pyroar, L50, F|
+|poke|p1|Mawile, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Kangaskhan, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p2|Blaziken, L50, M|
+|poke|p2|Hydreigon, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Metagross, L50|
+|teampreview|4
+|showteam|p1|Pyroar||Pyroarite|Rivalry|HeatWave,Overheat,SolarBeam,Protect|Modest||F|||50|]Mawile||Mawilite|Intimidate|SwordsDance,SuckerPunch,PlayRough,Protect|Adamant||F|||50|]Farigiraf||SitrusBerry|ArmorTail|TwinBeam,Thunderbolt,TrickRoom,HelpingHand|Bold||F|||50|]Kangaskhan||SilkScarf|Scrappy|FakeOut,LastResort|Adamant||F|||50|]Torkoal||Charcoal|Drought|Eruption,HeatWave,WeatherBall,Protect|Quiet||M|||50|]Gallade||IronBall|Sharpness|SacredSword,PsychoCut,LeafBlade,TrickRoom|Brave||M|||50|
+|showteam|p2|Blaziken||Blazikenite|SpeedBoost|FlareBlitz,CloseCombat,RockSlide,Detect|Adamant||M|||50|]Hydreigon||ChoiceScarf|Levitate|DracoMeteor,DarkPulse,EarthPower,Snarl|Modest||F|||50|]Basculegion||LifeOrb|Adaptability|WaveCrash,LastRespects,AquaJet,Protect|Adamant||M|||50|]Whimsicott||FocusSash|Prankster|Moonblast,EnergyBall,Tailwind,Protect|Timid||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,Thunderbolt,Roar,TrickRoom|Bold||M|||50|]Metagross||Metagrossite|ClearBody|PsychicFangs,IronHead,StompingTantrum,Protect|Jolly|||||50|
+|
+|t:|1782430091
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pyroar|Pyroar, L50, F|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|turn|1
+|
+|t:|1782430111
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|detailschange|p1a: Pyroar|Pyroar-Mega, L50, F
+|-mega|p1a: Pyroar|Pyroar|Pyroarite
+|move|p2a: Whimsicott|Moonblast|p1b: Torkoal
+|-resisted|p1b: Torkoal|1
+|-damage|p1b: Torkoal|75/100
+|move|p1a: Pyroar|Heat Wave|p2a: Whimsicott|[spread] p2a,p2b
+|-supereffective|p2a: Whimsicott|1
+|-enditem|p2a: Whimsicott|Focus Sash
+|-damage|p2a: Whimsicott|1/100
+|-damage|p2b: Farigiraf|20/100y
+|-enditem|p2b: Farigiraf|Sitrus Berry|[eat]
+|-heal|p2b: Farigiraf|45/100|[from] item: Sitrus Berry
+|move|p2b: Farigiraf|Psychic|p1a: Pyroar
+|-damage|p1a: Pyroar|55/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1782430138
+|switch|p2a: Blaziken|Blaziken, L50, M|100/100
+|switch|p2b: Hydreigon|Hydreigon, L50, F|100/100
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|move|p1a: Pyroar|Heat Wave|p2b: Hydreigon|[spread] p2b
+|-miss|p1a: Pyroar|p2a: Blaziken
+|-resisted|p2b: Hydreigon|1
+|-damage|p2b: Hydreigon|45/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1782430162
+|switch|p2b: Farigiraf|Farigiraf, L50, M|45/100
+|detailschange|p2a: Blaziken|Blaziken-Mega, L50, M
+|-mega|p2a: Blaziken|Blaziken|Blazikenite
+|move|p2a: Blaziken|Detect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1a: Pyroar|Heat Wave|p2a: Blaziken|[spread] p2b
+|-activate|p2a: Blaziken|move: Protect
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|move|p1b: Gallade|Trick Room|p1b: Gallade
+|-fieldstart|move: Trick Room|[of] p1b: Gallade
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|
+|t:|1782430175
+|switch|p2b: Hydreigon|Hydreigon, L50, F|45/100
+|turn|4
+|
+|t:|1782430184
+|move|p1b: Gallade|Psycho Cut|p2a: Blaziken
+|-supereffective|p2a: Blaziken|1
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|move|p1a: Pyroar|Heat Wave|p2b: Hydreigon
+|-resisted|p2b: Hydreigon|1
+|-damage|p2b: Hydreigon|0 fnt
+|faint|p2b: Hydreigon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|steelag0 forfeited.
+|
+|win|Joe870502
+|raw|Joe870502's rating: 1230 → 1250(+20 for winning)
+|raw|steelag0's rating: 1163 → 1143(-20 for losing)
+|l|☆Joe870502
+|player|p1|

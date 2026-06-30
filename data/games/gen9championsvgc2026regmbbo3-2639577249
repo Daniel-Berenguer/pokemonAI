@@ -1,0 +1,225 @@
+|j|☆camala64
+|j|☆battle sim trainer
+|html|camala64battle sim trainer    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1782492835
+|gametype|doubles
+|player|p1|camala64|lance-masters2|
+|player|p2|battle sim trainer|turo|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F, shiny|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Sinistcha-Masterpiece, L50, shiny|
+|poke|p1|Toxapex, L50, M, shiny|
+|poke|p1|Garchomp, L50, M|
+|poke|p2|Swampert, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Venusaur, L50, M|
+|poke|p2|Staraptor, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,SolarBeam,Protect|Modest||F|||50|]Floette-Eternal||Floettite|FlowerVeil|Moonblast,DazzlingGleam,CalmMind,Protect|Modest||F|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,Taunt,PartingShot|Adamant||F|||50|]Sinistcha-Masterpiece||KasibBerry|Hospitality|MatchaGotcha,RagePowder,LifeDew,Protect|Bold|||||50|]Toxapex||Leftovers|Regenerator|Infestation,Toxic,Protect,WideGuard|Relaxed||M|||50|]Garchomp||ChoiceScarf|RoughSkin|Earthquake,StompingTantrum,DragonClaw,RockSlide|Adamant||M|||50|
+|showteam|p2|Swampert||Swampertite|Torrent|WaveCrash,Earthquake,IcePunch,Protect|Adamant||M|||50|]Archaludon||Magnet|Stamina|ElectroShot,FlashCannon,DragonPulse,Protect|Calm||F|||50|]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,WideGuard,Tailwind|Modest||M|||50|]Basculegion||ChoiceScarf|Adaptability|LastRespects,WaveCrash,AquaJet,FlipTurn|Jolly||M|||50|]Venusaur||Venusaurite|Chlorophyll|SludgeBomb,EnergyBall,Protect,EarthPower|Modest||M|||50|]Staraptor||LifeOrb|Intimidate|BraveBird,CloseCombat,Tailwind,Uturn|Adamant||F|||50|
+|
+|t:|1782492877
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Toxapex|Toxapex, L50, M, shiny|100/100
+|switch|p2a: Staraptor|Staraptor, L50, F|100/100
+|switch|p2b: Venusaur|Venusaur, L50, M|100/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Toxapex|atk|1
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Staraptor|atk|1
+|-unboost|p2b: Venusaur|atk|1
+|turn|1
+|
+|t:|1782492901
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p2b: Venusaur|Earth Power|p1a: Incineroar
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|50/100g
+|move|p1a: Incineroar|Parting Shot|p2a: Pelipper
+|-unboost|p2a: Pelipper|atk|1
+|-unboost|p2a: Pelipper|spa|1
+|
+|t:|1782492913
+|switch|p1a: Charizard|Charizard, L50, F, shiny|100/100|[from] Parting Shot
+|move|p1b: Toxapex|Infestation|p2b: Venusaur
+|-damage|p2b: Venusaur|96/100
+|-activate|p2b: Venusaur|move: Infestation|[of] p1b: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2b: Venusaur|84/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1782492936
+|switch|p2a: Staraptor|Staraptor, L50, F|100/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|-unboost|p1b: Toxapex|atk|1
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, F, shiny
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2b: Venusaur|Protect|p2b: Venusaur
+|-singleturn|p2b: Venusaur|Protect
+|move|p1a: Charizard|Weather Ball|p2a: Staraptor
+|-damage|p2a: Staraptor|7/100
+|move|p1b: Toxapex|Infestation|p2a: Staraptor
+|-resisted|p2a: Staraptor|1
+|-damage|p2a: Staraptor|5/100
+|-activate|p2a: Staraptor|move: Infestation|[of] p1b: Toxapex
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Venusaur|72/100|[from] move: Infestation|[partiallytrapped]
+|-damage|p2a: Staraptor|0 fnt|[from] move: Infestation|[partiallytrapped]
+|faint|p2a: Staraptor
+|upkeep
+|
+|t:|1782492961
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|3
+|
+|t:|1782492985
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece, L50, shiny|100/100
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: battle sim trainer|move: Tailwind
+|move|p2b: Venusaur|Sludge Bomb|p1a: Sinistcha
+|-damage|p1a: Sinistcha|62/100
+|-status|p1a: Sinistcha|psn
+|move|p1b: Toxapex|Infestation|p2a: Pelipper
+|-resisted|p2a: Pelipper|1
+|-damage|p2a: Pelipper|97/100
+|-activate|p2a: Pelipper|move: Infestation|[of] p1b: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Sinistcha|49/100 psn|[from] psn
+|-damage|p2a: Pelipper|84/100|[from] move: Infestation|[partiallytrapped]
+|-damage|p2b: Venusaur|59/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1782493016
+|move|p2a: Pelipper|Hurricane|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha|1
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|move|p2b: Venusaur|Earth Power|p1b: Toxapex
+|-supereffective|p1b: Toxapex|1
+|-damage|p1b: Toxapex|59/100
+|move|p1b: Toxapex|Toxic|p2a: Pelipper
+|-status|p2a: Pelipper|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Toxapex|64/100|[from] item: Leftovers
+|-damage|p2a: Pelipper|78/100 tox|[from] psn
+|-damage|p2a: Pelipper|66/100 tox|[from] move: Infestation|[partiallytrapped]
+|-damage|p2b: Venusaur|47/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1782493030
+|switch|p1a: Charizard|Charizard-Mega-Y, L50, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|turn|5
+|
+|t:|1782493058
+|move|p2b: Venusaur|Protect|p2b: Venusaur
+|-singleturn|p2b: Venusaur|Protect
+|move|p1b: Toxapex|Protect|p1b: Toxapex
+|-singleturn|p1b: Toxapex|Protect
+|move|p2a: Pelipper|Hurricane|p1a: Charizard
+|-damage|p1a: Charizard|57/100
+|move|p1a: Charizard|Heat Wave|p2a: Pelipper|[spread] p2a
+|-activate|p2b: Venusaur|move: Protect
+|-resisted|p2a: Pelipper|1
+|-damage|p2a: Pelipper|11/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Toxapex|70/100|[from] item: Leftovers
+|-damage|p2a: Pelipper|0 fnt|[from] psn
+|faint|p2a: Pelipper
+|-damage|p2b: Venusaur|35/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1782493069
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|turn|6
+|
+|t:|1782493107
+|-heal|p1b: Toxapex|100/100|[from] ability: Regenerator|[silent]
+|switch|p1b: Incineroar|Incineroar, L50, F|50/100g
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Basculegion|atk|1
+|-unboost|p2b: Venusaur|atk|1
+|detailschange|p2b: Venusaur|Venusaur-Mega, L50, M
+|-mega|p2b: Venusaur|Venusaur|Venusaurite
+|move|p1a: Charizard|Protect|p1a: Charizard
+|-singleturn|p1a: Charizard|Protect
+|move|p2a: Basculegion|Last Respects|p1a: Charizard
+|-activate|p1a: Charizard|move: Protect
+|move|p2b: Venusaur|Earth Power|p1b: Incineroar
+|-supereffective|p1b: Incineroar|1
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2b: Venusaur|Infestation|[partiallytrapped]
+|-sideend|p2: battle sim trainer|move: Tailwind
+|upkeep
+|
+|t:|1782493123
+|switch|p1b: Toxapex|Toxapex, L50, M, shiny|100/100
+|turn|7
+|c|☆battle sim trainer|ggwp
+|
+|t:|1782493160
+|move|p2a: Basculegion|Last Respects|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|move|p2b: Venusaur|Earth Power|p1b: Toxapex
+|-supereffective|p1b: Toxapex|1
+|-damage|p1b: Toxapex|55/100
+|move|p1b: Toxapex|Toxic|p2a: Basculegion
+|-status|p2a: Basculegion|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Toxapex|61/100|[from] item: Leftovers
+|-damage|p2a: Basculegion|93/100 tox|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1782493173
+|move|p1b: Toxapex|Protect|p1b: Toxapex
+|-singleturn|p1b: Toxapex|Protect
+|move|p2a: Basculegion|Last Respects|p1b: Toxapex
+|-activate|p1b: Toxapex|move: Protect
+|move|p2b: Venusaur|Earth Power|p1b: Toxapex
+|-activate|p1b: Toxapex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Toxapex|66/100|[from] item: Leftovers
+|-damage|p2a: Basculegion|81/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1782493181
+|move|p2a: Basculegion|Last Respects|p1b: Toxapex
+|-damage|p1b: Toxapex|26/100
+|move|p2b: Venusaur|Earth Power|p1b: Toxapex
+|-supereffective|p1b: Toxapex|1
+|-damage|p1b: Toxapex|0 fnt
+|faint|p1b: Toxapex
+|
+|win|battle sim trainer

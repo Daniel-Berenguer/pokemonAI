@@ -1,0 +1,96 @@
+|j|☆psoto
+|j|☆JoSzb
+|html|psotoJoSzb    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782205924
+|gametype|doubles
+|player|p1|psoto|169|1113
+|player|p2|JoSzb|wallace|1140
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Swampert, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Eelektross, L50, M, shiny|
+|poke|p2|Metagross, L50, shiny|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Hydreigon, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Sylveon, L50, M|
+|teampreview|4
+|showteam|p1|Swampert||Swampertite|Damp|WaveCrash,HighHorsepower,IcePunch,Protect|Adamant||M|||50|]Pelipper||LifeOrb|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|Modest||M|||50|]Grimmsnarl||LightClay|Prankster|SpiritBreak,Reflect,LightScreen,PartingShot|Careful||M|||50|]Venusaur||Venusaurite|Chlorophyll|SludgeBomb,GigaDrain,EarthPower,Protect|Modest||F|||50|]Archaludon||Leftovers|Stamina|DragonPulse,FlashCannon,ElectroShot,Protect|Modest||F|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,AquaJet|Jolly||M|||50|
+|showteam|p2|Eelektross||Eelektrossite|Levitate|Thunderbolt,Flamethrower,GrassKnot,Protect|Modest||M|||50|]Metagross||Metagrossite|ClearBody|IronHead,PsychicFangs,StompingTantrum,Protect|Jolly|||||50|]Sinistcha-Masterpiece||SitrusBerry|Hospitality|MatchaGotcha,ShadowBall,RagePowder,TrickRoom|Calm|||||50|]Hydreigon||ChoiceScarf|Levitate|DracoMeteor,DarkPulse,EarthPower,Snarl|Modest||M|||50|]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,FakeOut,Coaching|Jolly||F|||50|]Sylveon||LifeOrb|Pixilate|Yawn,HyperVoice,Moonblast,Detect|Modest||M|||50|
+|
+|t:|1782206017
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Venusaur|Venusaur, L50, F|100/100
+|switch|p2a: Sylveon|Sylveon, L50, M|100/100
+|switch|p2b: Metagross|Metagross, L50, shiny|100/100
+|turn|1
+|
+|t:|1782206042
+|detailschange|p2b: Metagross|Metagross-Mega, L50, shiny
+|-mega|p2b: Metagross|Metagross|Metagrossite
+|detailschange|p1b: Venusaur|Venusaur-Mega, L50, F
+|-mega|p1b: Venusaur|Venusaur|Venusaurite
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: psoto|Reflect
+|move|p2b: Metagross|Psychic Fangs|p1b: Venusaur
+|-sideend|p1: psoto|Reflect
+|-supereffective|p1b: Venusaur|1
+|-damage|p1b: Venusaur|0 fnt
+|faint|p1b: Venusaur
+|move|p2a: Sylveon|Hyper Voice|p1a: Grimmsnarl
+|-supereffective|p1a: Grimmsnarl|1
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|-damage|p2a: Sylveon|90/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1782206056
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100
+|switch|p1a: Archaludon|Archaludon, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|turn|2
+|
+|t:|1782206085
+|move|p2b: Metagross|Stomping Tantrum|p1a: Archaludon
+|-supereffective|p1a: Archaludon|1
+|-damage|p1a: Archaludon|49/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p1b: Pelipper|Tailwind|p1b: Pelipper
+|-sidestart|p1: psoto|move: Tailwind
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2a: Sylveon
+|-damage|p2a: Sylveon|44/100
+|move|p2a: Sylveon|Hyper Voice|p1b: Pelipper|[spread] p1a,p1b
+|-damage|p1a: Archaludon|0 fnt
+|-damage|p1b: Pelipper|15/100
+|faint|p1a: Archaludon
+|-damage|p2a: Sylveon|35/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|c|☆JoSzb|gg
+|-message|psoto forfeited.
+|
+|win|JoSzb
+|raw|psoto's rating: 1113 → 1090(-23 for losing)
+|raw|JoSzb's rating: 1140 → 1163(+23 for winning)
+|l|☆psoto
+|player|p1|

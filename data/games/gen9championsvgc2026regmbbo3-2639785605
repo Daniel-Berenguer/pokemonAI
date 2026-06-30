@@ -1,0 +1,237 @@
+|j|☆javichicaino
+|j|☆mudkipc4
+|html|javichicainomudkipc4    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1782519764
+|gametype|doubles
+|player|p1|javichicaino|2|1110
+|player|p2|mudkipc4|pokemaniac|1122
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sinistcha, L50|
+|poke|p1|Swampert, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Metagross, L50|
+|poke|p2|Mawile, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Gengar, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Hydreigon, L50, M|
+|teampreview|4
+|showteam|p1|Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,Imprison|Bold|||||50|]Swampert||Swampertite|Torrent|WaveCrash,Earthquake,IcePunch,Protect|Adamant||F|||50|]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,Tailwind,WideGuard|Timid||M|||50|]Archaludon||Leftovers|Stamina|ElectroShot,DragonPulse,FlashCannon,Protect|Modest||F|||50|]Grimmsnarl||LightClay|Prankster|FoulPlay,PartingShot,Reflect,LightScreen|Careful||M|||50|]Metagross||Metagrossite|ClearBody|IronHead,PsychicFangs,Protect|Jolly|||||50|
+|showteam|p2|Mawile||Mawilite|Intimidate|PlayRough,IronHead,SuckerPunch,Protect|Brave||F|||50|]Farigiraf||SitrusBerry|ArmorTail|TrickRoom,Psychic,Protect,Imprison|Bold||F|||50|]Tyranitar||FocusSash|SandStream|RockSlide,BrickBreak,KnockOff,Protect|Adamant||M|||50|]Gengar||Gengarite|CursedBody|SludgeBomb,ShadowBall,Protect,WillOWisp|Timid||F|||50|]Grimmsnarl||LightClay|Prankster|FakeOut,PartingShot,Reflect,SpiritBreak|Impish||M|||50|]Hydreigon||ChoiceScarf|Levitate|DarkPulse,DracoMeteor,EarthPower,Snarl|Modest||M|||50|
+|
+|t:|1782519794
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Swampert|Swampert, L50, F|100/100
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100
+|switch|p2a: Charybdis|Gengar, L50, F|100/100
+|switch|p2b: Gorgon|Grimmsnarl, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|turn|1
+|
+|t:|1782519826
+|detailschange|p2a: Charybdis|Gengar-Mega, L50, F
+|-mega|p2a: Charybdis|Gengar|Gengarite
+|detailschange|p1a: Swampert|Swampert-Mega, L50, F
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p2b: Gorgon|Fake Out|p1a: Swampert
+|-damage|p1a: Swampert|90/100
+|cant|p1a: Swampert|flinch
+|move|p2a: Charybdis|Will-O-Wisp|p1a: Swampert|[miss]
+|-miss|p2a: Charybdis|p1a: Swampert
+|move|p1b: Pelipper|Tailwind|p1b: Pelipper
+|-sidestart|p1: javichicaino|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|c|☆mudkipc4|of course
+|
+|t:|1782519861
+|move|p2a: Charybdis|Protect|p2a: Charybdis
+|-singleturn|p2a: Charybdis|Protect
+|move|p2b: Gorgon|Parting Shot|p1b: Pelipper
+|-unboost|p1b: Pelipper|atk|1
+|-unboost|p1b: Pelipper|spa|1
+|
+|t:|1782519867
+|switch|p2b: Typhon|Tyranitar, L50, M|100/100|[from] Parting Shot
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Typhon
+|move|p1b: Pelipper|Hurricane|p2b: Typhon
+|-resisted|p2b: Typhon|1
+|-damage|p2b: Typhon|92/100
+|move|p1a: Swampert|Ice Punch|p2b: Typhon
+|-damage|p2b: Typhon|65/100
+|-status|p2b: Typhon|frz
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Pelipper|94/100|[from] Sandstorm
+|-damage|p2a: Charybdis|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1782519887
+|switch|p2a: Hydra|Hydreigon, L50, M|100/100
+|move|p1b: Pelipper|Weather Ball|p2b: Typhon
+|-damage|p2b: Typhon|54/100 frz
+|move|p1a: Swampert|Earthquake|p2b: Typhon|[spread] p2b
+|-immune|p1b: Pelipper
+|-immune|p2a: Hydra|[from] ability: Levitate
+|-supereffective|p2b: Typhon|1
+|-damage|p2b: Typhon|0 fnt
+|faint|p2b: Typhon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Pelipper|88/100|[from] Sandstorm
+|-damage|p2a: Hydra|94/100|[from] Sandstorm
+|upkeep
+|c|☆mudkipc4|of course
+|
+|t:|1782519897
+|switch|p2b: Charybdis|Gengar-Mega, L50, F|94/100
+|turn|4
+|
+|t:|1782519906
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2b: Charybdis|Protect|p2b: Charybdis
+|-singleturn|p2b: Charybdis|Protect
+|move|p1b: Pelipper|Weather Ball|p2a: Hydra
+|-damage|p2a: Hydra|73/100
+|move|p2a: Hydra|Dark Pulse|p1a: Swampert
+|-activate|p1a: Swampert|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Pelipper|82/100|[from] Sandstorm
+|-damage|p2a: Hydra|68/100|[from] Sandstorm
+|-damage|p2b: Charybdis|88/100|[from] Sandstorm
+|-sideend|p1: javichicaino|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1782519929
+|move|p2a: Hydra|Dark Pulse|p1b: Pelipper
+|-damage|p1b: Pelipper|1/100
+|move|p2b: Charybdis|Will-O-Wisp|p1a: Swampert
+|-status|p1a: Swampert|brn
+|move|p1b: Pelipper|Tailwind|p1b: Pelipper
+|-sidestart|p1: javichicaino|move: Tailwind
+|move|p1a: Swampert|Ice Punch|p2a: Hydra
+|-supereffective|p2a: Hydra|1
+|-damage|p2a: Hydra|31/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Pelipper|0 fnt|[from] Sandstorm
+|-damage|p2a: Hydra|25/100|[from] Sandstorm
+|-damage|p2b: Charybdis|82/100|[from] Sandstorm
+|faint|p1b: Pelipper
+|-damage|p1a: Swampert|84/100 brn|[from] brn
+|upkeep
+|
+|t:|1782519948
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|turn|6
+|
+|t:|1782519961
+|switch|p2a: Gorgon|Grimmsnarl, L50, M|100/100
+|move|p2b: Charybdis|Protect|p2b: Charybdis
+|-singleturn|p2b: Charybdis|Protect
+|move|p1b: Archaludon|Flash Cannon|p2a: Gorgon
+|-supereffective|p2a: Gorgon|1
+|-damage|p2a: Gorgon|30/100
+|move|p1a: Swampert|Wave Crash|p2b: Charybdis
+|-activate|p2b: Charybdis|move: Protect
+|
+|-weather|none
+|-damage|p1a: Swampert|78/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1782519973
+|move|p2a: Gorgon|Fake Out|p1b: Archaludon
+|-resisted|p1b: Archaludon|1
+|-damage|p1b: Archaludon|95/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|move|p1a: Swampert|Wave Crash|p2b: Charybdis
+|-damage|p2b: Charybdis|44/100
+|-damage|p1a: Swampert|67/100 brn|[from] Recoil
+|cant|p1b: Archaludon|flinch
+|move|p2b: Charybdis|Shadow Ball|p1b: Archaludon
+|-damage|p1b: Archaludon|56/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|
+|-heal|p1b: Archaludon|62/100|[from] item: Leftovers
+|-damage|p1a: Swampert|61/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1782519989
+|move|p2b: Charybdis|Protect|p2b: Charybdis
+|-singleturn|p2b: Charybdis|Protect
+|move|p1b: Archaludon|Flash Cannon|p2a: Gorgon
+|-supereffective|p2a: Gorgon|1
+|-damage|p2a: Gorgon|0 fnt
+|faint|p2a: Gorgon
+|move|p1a: Swampert|Wave Crash|p2b: Charybdis
+|-activate|p2b: Charybdis|move: Protect
+|
+|-heal|p1b: Archaludon|68/100|[from] item: Leftovers
+|-damage|p1a: Swampert|55/100 brn|[from] brn
+|-sideend|p1: javichicaino|move: Tailwind
+|upkeep
+|
+|t:|1782519993
+|switch|p2a: Hydra|Hydreigon, L50, M|25/100
+|turn|9
+|c|☆mudkipc4|a freeze and a 15% miss chance
+|c|☆mudkipc4|lucky much?
+|
+|t:|1782520043
+|move|p2a: Hydra|Earth Power|p1b: Archaludon
+|-supereffective|p1b: Archaludon|1
+|-crit|p1b: Archaludon
+|-damage|p1b: Archaludon|0 fnt
+|faint|p1b: Archaludon
+|move|p2b: Charybdis|Shadow Ball|p1a: Swampert
+|-damage|p1a: Swampert|16/100 brn
+|move|p1a: Swampert|Wave Crash|p2b: Charybdis
+|-damage|p2b: Charybdis|5/100
+|-damage|p1a: Swampert|5/100 brn|[from] Recoil
+|
+|-damage|p1a: Swampert|0 fnt|[from] brn
+|faint|p1a: Swampert
+|upkeep
+|
+|t:|1782520052
+|switch|p1a: Sinistcha|Sinistcha, L50|100/100
+|turn|10
+|c|☆mudkipc4|ggs though
+|c|☆mudkipc4|well played nonetheless
+|
+|t:|1782520067
+|move|p2a: Hydra|Earth Power|p1a: Sinistcha
+|-resisted|p1a: Sinistcha|1
+|-crit|p1a: Sinistcha
+|-damage|p1a: Sinistcha|74/100
+|move|p2b: Charybdis|Shadow Ball|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha|1
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|
+|win|mudkipc4
+|raw|javichicaino's rating: 1110 → 1086(-24 for losing)
+|raw|mudkipc4's rating: 1122 → 1146(+24 for winning)
+|l|☆javichicaino
+|player|p1|

@@ -1,0 +1,202 @@
+|j|☆frubulhus
+|j|☆Hashiwa
+|html|frubulhusHashiwa    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1782600879
+|gametype|doubles
+|player|p1|frubulhus|266|
+|player|p2|Hashiwa|swimmerf-gen4dp|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kangaskhan, L50, F|
+|poke|p1|Blastoise, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Vivillon, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Metagross, L50|
+|poke|p2|Zoroark-Hisui, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|showteam|p1|Kangaskhan||Kangaskhanite|InnerFocus|FakeOut,DoubleEdge,LowKick,IcePunch|Adamant||F|||50|]Blastoise||Blastoisinite|RainDish|WaterSpout,DarkPulse,ShellSmash,Protect|Quiet||F|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,Thunderbolt,TrickRoom,HelpingHand|Quiet||M|||50|]Torkoal||Charcoal|Drought|Eruption,HeatWave,WeatherBall,Protect|Quiet||M|||50|]Vivillon||ChoiceScarf|CompoundEyes|SleepPowder,RagePowder,Hurricane,RainDance|Timid||F|||50|]Basculegion||FocusSash|Adaptability|Liquidation,LastRespects,AquaJet,Protect|Brave||M|||50|
+|showteam|p2|Metagross||Metagrossite|ClearBody|PsychicFangs,IronHead,BulletPunch,Protect|Jolly|||||50|]Zoroark-Hisui||ChoiceScarf|Illusion|Psychic,HyperVoice,IcyWind,BitterMalice|Timid||M|||50|]Kingambit||ChopleBerry|Defiant|SuckerPunch,KowtowCleave,IronHead,Protect|Adamant||M|||50|]Raichu||RaichuniteX|LightningRod|FakeOut,Protect,ZapCannon,FocusBlast|Timid||M|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,PartingShot,FlareBlitz,Taunt|Timid||M|||50|]Grimmsnarl||LightClay|Prankster|LightScreen,PartingShot,Taunt,SpiritBreak|Careful||M|||50|
+|
+|t:|1782600942
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p1b: Kangaskhan|Kangaskhan, L50, F|100/100
+|switch|p2a: Kingambit|Kingambit, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Farigiraf|atk|1
+|-fail|p1b: Kangaskhan|unboost|Attack|[from] ability: Inner Focus|[of] p1b: Kangaskhan
+|turn|1
+|
+|t:|1782600988
+|move|p1b: Kangaskhan|Fake Out|p2a: Kingambit
+|-immune|p2a: Kingambit
+|move|p2a: Kingambit|Hyper Voice|p1b: Kangaskhan|[spread] p1a,p1b
+|-damage|p1a: Farigiraf|62/100
+|-damage|p1b: Kangaskhan|61/100
+|move|p2b: Incineroar|Taunt|p1a: Farigiraf
+|-start|p1a: Farigiraf|move: Taunt
+|cant|p1a: Farigiraf|move: Taunt|Trick Room
+|
+|upkeep
+|turn|2
+|
+|t:|1782601029
+|move|p2a: Kingambit|Hyper Voice|p1a: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Farigiraf|28/100
+|-damage|p1b: Kangaskhan|26/100
+|-enditem|p1a: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1a: Farigiraf|52/100|[from] item: Sitrus Berry
+|move|p1b: Kangaskhan|Low Kick|p2a: Kingambit
+|-immune|p2a: Kingambit
+|move|p2b: Incineroar|Parting Shot|p1b: Kangaskhan
+|-unboost|p1b: Kangaskhan|atk|1
+|-unboost|p1b: Kangaskhan|spa|1
+|
+|t:|1782601051
+|switch|p2b: Metagross|Metagross, L50|100/100|[from] Parting Shot
+|move|p1a: Farigiraf|Thunderbolt|p2a: Kingambit
+|-damage|p2a: Kingambit|32/100
+|replace|p2a: Zoroark|Zoroark-Hisui, L50, M
+|-end|p2a: Zoroark|Illusion
+|
+|upkeep
+|turn|3
+|
+|t:|1782601081
+|detailschange|p2b: Metagross|Metagross-Mega, L50
+|-mega|p2b: Metagross|Metagross|Metagrossite
+|detailschange|p1b: Kangaskhan|Kangaskhan-Mega, L50, F
+|-mega|p1b: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p2a: Zoroark|Hyper Voice|p1a: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Farigiraf|15/100
+|-damage|p1b: Kangaskhan|0 fnt
+|faint|p1b: Kangaskhan
+|move|p2b: Metagross|Iron Head|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|faint|p1a: Farigiraf
+|
+|upkeep
+|
+|t:|1782601091
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|4
+|
+|t:|1782601154
+|switch|p2a: Kingambit|Kingambit, L50, M|100/100
+|move|p2b: Metagross|Psychic Fangs|p1a: Torkoal
+|-damage|p1a: Torkoal|46/100
+|move|p1b: Basculegion|Last Respects|p2b: Metagross
+|-supereffective|p2b: Metagross|1
+|-damage|p2b: Metagross|0 fnt
+|faint|p2b: Metagross
+|move|p1a: Torkoal|Eruption|p2a: Kingambit
+|-supereffective|p2a: Kingambit|1
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1782601161
+|switch|p2b: Incineroar|Incineroar, L50, M|32/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1b: Basculegion|atk|1
+|turn|5
+|
+|t:|1782601201
+|move|p2a: Incineroar|Fake Out|p1a: Torkoal
+|-damage|p1a: Torkoal|37/100
+|move|p1b: Basculegion|Aqua Jet|p2a: Incineroar
+|-supereffective|p2a: Incineroar|1
+|-damage|p2a: Incineroar|84/100
+|move|p2b: Incineroar|Bitter Malice|p1b: Basculegion
+|-supereffective|p1b: Basculegion|1
+|-damage|p1b: Basculegion|25/100
+|-unboost|p1b: Basculegion|atk|1
+|cant|p1a: Torkoal|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1782601232
+|move|p1b: Basculegion|Protect|p1b: Basculegion
+|-singleturn|p1b: Basculegion|Protect
+|move|p2b: Incineroar|Bitter Malice|p1b: Basculegion
+|-activate|p1b: Basculegion|move: Protect
+|move|p2a: Incineroar|Flare Blitz|p1a: Torkoal
+|-resisted|p1a: Torkoal|1
+|-damage|p1a: Torkoal|7/100
+|-damage|p2a: Incineroar|76/100|[from] Recoil
+|move|p1a: Torkoal|Heat Wave|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar|1
+|-damage|p2a: Incineroar|54/100
+|-damage|p2b: Incineroar|0 fnt
+|replace|p2b: Zoroark|Zoroark-Hisui, L50, M
+|-end|p2b: Zoroark|Illusion
+|faint|p2b: Zoroark
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1782601287
+|move|p2a: Incineroar|Flare Blitz|p1a: Torkoal
+|-resisted|p1a: Torkoal|1
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|-damage|p2a: Incineroar|52/100|[from] Recoil
+|move|p1b: Basculegion|Liquidation|p2a: Incineroar
+|-supereffective|p2a: Incineroar|1
+|-damage|p2a: Incineroar|28/100
+|-unboost|p2a: Incineroar|def|1
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|53/100|[from] item: Sitrus Berry
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1782601300
+|move|p1b: Basculegion|Protect|p1b: Basculegion
+|-singleturn|p1b: Basculegion|Protect
+|move|p2a: Incineroar|Flare Blitz|p1b: Basculegion
+|-activate|p1b: Basculegion|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1782601307
+|move|p2a: Incineroar|Flare Blitz|p1b: Basculegion
+|-resisted|p1b: Basculegion|1
+|-damage|p1b: Basculegion|3/100
+|-damage|p2a: Incineroar|45/100|[from] Recoil
+|move|p1b: Basculegion|Liquidation|p2a: Incineroar
+|-supereffective|p2a: Incineroar|1
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|win|frubulhus
+|inactive|frubulhus has 30 seconds to confirm battle start!
+|inactive|Hashiwa has 30 seconds to confirm battle start!
+||frubulhus is ready for game 2.
+||Hashiwa is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

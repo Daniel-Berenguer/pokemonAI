@@ -1,0 +1,107 @@
+|j|☆Crimson Jake
+|j|☆Enigmma
+|html|Crimson JakeEnigmma    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782340658
+|gametype|doubles
+|player|p1|Crimson Jake|blue|1043
+|player|p2|Enigmma|1|1098
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Greninja, L50, M, shiny|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Metagross, L50, shiny|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|teampreview|4
+|showteam|p1|Pelipper||FocusSash|Drizzle|Hurricane,Tailwind,WeatherBall,AirSlash|Bold||M|||50|]Charizard||CharizarditeY|SolarPower|WeatherBall,HeatWave,SolarBeam,Protect|Timid||M|||50|]Archaludon||Leftovers|Stamina|ElectroShot,FlashCannon,MeteorBeam,DragonPulse|Timid||F|||50|]Greninja||Greninjite|Protean|WeatherBall,SludgeWave,DarkPulse,Surf|Timid||M|||50|]Grimmsnarl||LightClay|Prankster|Reflect,LightScreen,PartingShot,SpiritBreak|Careful||M|||50|]Sneasler||WhiteHerb|Unburden|FakeOut,BrickBreak,DireClaw,Protect|Adamant||F|||50|
+|showteam|p2|Tyranitar||Tyranitarite|SandStream|DragonDance,Earthquake,RockSlide,Protect|Jolly||F|||50|]Garchomp||LifeOrb|SandVeil|Earthquake,SwordsDance,Protect,DragonClaw|Jolly||F|||50|]Excadrill||Excadrite|SandRush|DrillRun,Earthquake,Protect,IronHead|Adamant||F|||50|]Grimmsnarl||Leftovers|Prankster|SpiritBreak,Protect,Reflect,LightScreen|Impish||M|||50|]Metagross||ExpertBelt|ClearBody|Agility,ZenHeadbutt,MeteorMash,Protect|Jolly|||||50|]Sinistcha-Masterpiece||SitrusBerry|Hospitality|MatchaGotcha,Protect,ShadowBall,RagePowder|Calm|||||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Enigmma)
+|
+|t:|1782340717
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Smee|Pelipper, L50, M|100/100
+|switch|p1b: Don|Archaludon, L50, F|100/100
+|switch|p2a: Imp|Grimmsnarl, L50, M|100/100
+|switch|p2b: Simon|Excadrill, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Smee
+|turn|1
+|
+|t:|1782340734
+|move|p2a: Imp|Light Screen|p2a: Imp
+|-sidestart|p2: Enigmma|move: Light Screen
+|move|p1b: Don|Flash Cannon|p2a: Imp
+|-supereffective|p2a: Imp|1
+|-damage|p2a: Imp|42/100
+|move|p2b: Simon|Drill Run|p1b: Don
+|-supereffective|p1b: Don|1
+|-damage|p1b: Don|12/100
+|-ability|p1b: Don|Stamina|boost
+|-boost|p1b: Don|def|1
+|move|p1a: Smee|Tailwind|p1a: Smee
+|-sidestart|p1: Crimson Jake|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Don|18/100|[from] item: Leftovers
+|-heal|p2a: Imp|48/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1782340758
+|switch|p1b: Pyro|Charizard, L50, M|100/100
+|switch|p2a: Grain|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Grain
+|detailschange|p2b: Simon|Excadrill-Mega, L50, F
+|-mega|p2b: Simon|Excadrill|Excadrite
+|move|p1a: Smee|Weather Ball|p2b: Simon
+|-resisted|p2b: Simon|2
+|-damage|p2b: Simon|94/100
+|move|p2b: Simon|Earthquake|p1a: Smee|[spread] p2a
+|-immune|p1a: Smee
+|-immune|p1b: Pyro
+|-supereffective|p2a: Grain|1
+|-damage|p2a: Grain|2/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Pyro|94/100|[from] Sandstorm
+|-damage|p1a: Smee|94/100|[from] Sandstorm
+|upkeep
+|turn|3
+|inactive|Crimson Jake has 30 seconds left.
+|
+|t:|1782340784
+|detailschange|p1b: Pyro|Charizard-Mega-Y, L50, M
+|-mega|p1b: Pyro|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Pyro
+|move|p1b: Pyro|Heat Wave|p2a: Grain|[spread] p2a,p2b
+|-resisted|p2a: Grain|1
+|-supereffective|p2b: Simon|1
+|-damage|p2a: Grain|0 fnt
+|-damage|p2b: Simon|0 fnt
+|faint|p2a: Grain
+|faint|p2b: Simon
+|move|p1a: Smee|Weather Ball|p2: Grain|[notarget]
+|-fail|p1a: Smee
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Enigmma forfeited.
+|raw|Crimson Jake's rating: 1043 → 1082(+39 for winning)
+|raw|Enigmma's rating: 1098 → 1069(-29 for losing)
+|
+|win|Crimson Jake
+|l|☆Enigmma
+|player|p2|

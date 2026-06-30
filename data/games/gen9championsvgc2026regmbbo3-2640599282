@@ -1,0 +1,184 @@
+|j|☆pm12356
+|j|☆duende tester
+|html|pm12356duende tester    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782660702
+|gametype|doubles
+|player|p1|pm12356|266|1085
+|player|p2|duende tester|169|1195
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Beedrill, L50, F|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Tsareena, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Aerodactyl, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Staraptor, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Venusaur, L50, M|
+|teampreview|4
+|showteam|p1|Beedrill||Beedrillite|Sniper|PoisonJab,Uturn,Round,KnockOff|Jolly||F|||50|]Sylveon||FairyFeather|Pixilate|Round,HyperVoice,Psychic,Protect|Modest||M|||50|]Tsareena||ChoiceScarf|QueenlyMajesty|TropKick,KnockOff,Taunt,Charm|Jolly||F|||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,DarkestLariat,PartingShot,FakeOut|Adamant||F|||50|]Aerodactyl||FocusSash|Unnerve|RockSlide,WideGuard,Tailwind,Protect|Jolly||F|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,IronHead,Protect|Adamant||M|||50|
+|showteam|p2|Staraptor||Staraptite|Intimidate|BraveBird,CloseCombat,Roost,Protect|Adamant||M|||50|]Grimmsnarl||LightClay|Prankster|SpiritBreak,PartingShot,LightScreen,Reflect|Careful||M|||50|]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,WideGuard|Modest||F|||50|]Archaludon||Leftovers|Stamina|ElectroShot,DragonPulse,FlashCannon,Protect|Modest||F|||50|]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,PowerGem,Thunderbolt|Modest|||||50|]Venusaur||Venusaurite|Overgrow|SludgeBomb,EarthPower,GigaDrain,Protect|Modest||M|||50|
+|
+|t:|1782660715
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Beedrill|Beedrill, L50, F|100/100
+|switch|p1b: Sylveon|Sylveon, L50, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Venusaur|Venusaur, L50, M|100/100
+|turn|1
+|
+|t:|1782660744
+|detailschange|p1a: Beedrill|Beedrill-Mega, L50, F
+|-mega|p1a: Beedrill|Beedrill|Beedrillite
+|detailschange|p2b: Venusaur|Venusaur-Mega, L50, M
+|-mega|p2b: Venusaur|Venusaur|Venusaurite
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: duende tester|move: Light Screen
+|move|p1a: Beedrill|U-turn|p2b: Venusaur
+|-damage|p2b: Venusaur|56/100
+|
+|t:|1782660756
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100|[from] U-turn
+|move|p2b: Venusaur|Sludge Bomb|p1b: Sylveon
+|-supereffective|p1b: Sylveon|1
+|-damage|p1b: Sylveon|36/100
+|move|p1b: Sylveon|Psychic|p2b: Venusaur
+|-supereffective|p2b: Venusaur|1
+|-damage|p2b: Venusaur|18/100
+|
+|upkeep
+|turn|2
+|
+|t:|1782660810
+|move|p2b: Venusaur|Protect|p2b: Venusaur
+|-singleturn|p2b: Venusaur|Protect
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: duende tester|Reflect
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p1b: Sylveon|Hyper Voice|p2a: Grimmsnarl|[spread] p2a
+|-activate|p2b: Venusaur|move: Protect
+|-supereffective|p2a: Grimmsnarl|1
+|-damage|p2a: Grimmsnarl|45/100
+|
+|upkeep
+|turn|3
+|
+|t:|1782660836
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|move|p2a: Grimmsnarl|Parting Shot|p1b: Sylveon
+|-unboost|p1b: Sylveon|atk|1
+|-unboost|p1b: Sylveon|spa|1
+|
+|t:|1782660851
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p1b: Sylveon|Hyper Voice|p2b: Archaludon|[spread] p2a,p2b
+|-damage|p2a: Pelipper|64/100
+|-damage|p2b: Archaludon|78/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|84/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1782660892
+|move|p2a: Pelipper|Weather Ball|p1a: Kingambit
+|-damage|p1a: Kingambit|38/100
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|move|p1b: Sylveon|Psychic|p2a: Pelipper
+|-damage|p2a: Pelipper|40/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|91/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1782660899
+|switch|p1a: Beedrill|Beedrill-Mega, L50, F|100/100
+|turn|5
+|
+|t:|1782660928
+|move|p1a: Beedrill|Round|p2b: Archaludon
+|-resisted|p2b: Archaludon|1
+|-damage|p2b: Archaludon|89/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p1b: Sylveon|Round|p2b: Archaludon|[from] move: Round
+|-damage|p2b: Archaludon|54/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: duende tester|move: Tailwind
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Beedrill
+|-damage|p1a: Beedrill|0 fnt
+|faint|p1a: Beedrill
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|60/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1782660944
+|switch|p1a: Aerodactyl|Aerodactyl, L50, F|100/100
+|-ability|p1a: Aerodactyl|Unnerve
+|turn|6
+|
+|t:|1782660964
+|move|p2a: Pelipper|Weather Ball|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl|1
+|-enditem|p1a: Aerodactyl|Focus Sash
+|-damage|p1a: Aerodactyl|1/100
+|move|p2b: Archaludon|Flash Cannon|p1b: Sylveon
+|-supereffective|p1b: Sylveon|1
+|-damage|p1b: Sylveon|0 fnt
+|faint|p1b: Sylveon
+|move|p1a: Aerodactyl|Tailwind|p1a: Aerodactyl
+|-sidestart|p1: pm12356|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|66/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1782660982
+|move|p1a: Aerodactyl|Rock Slide|p2a: Pelipper|[spread] p2a,p2b
+|-supereffective|p2a: Pelipper|1
+|-crit|p2a: Pelipper
+|-resisted|p2b: Archaludon|1
+|-damage|p2a: Pelipper|0 fnt
+|-damage|p2b: Archaludon|64/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|faint|p2a: Pelipper
+|move|p2b: Archaludon|Flash Cannon|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl|1
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|win|duende tester
+|raw|pm12356's rating: 1085 → 1069(-16 for losing)
+|raw|duende tester's rating: 1195 → 1212(+17 for winning)
+|l|☆pm12356
+|player|p1|

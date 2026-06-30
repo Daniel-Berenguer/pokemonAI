@@ -1,0 +1,235 @@
+|j|☆SANDSTORM3186
+|j|☆freudianbreath
+|html|SANDSTORM3186freudianbreath    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1782421431
+|gametype|doubles
+|player|p1|SANDSTORM3186|hilbert-wonderlauncher|1109
+|player|p2|freudianbreath|265|1177
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Blastoise, L50, M|
+|poke|p1|Gengar, L50, F|
+|poke|p1|Raichu, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Politoed, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p2|Staraptor, L50, M|
+|poke|p2|Meganium, L50, M|
+|poke|p2|Rotom-Heat, L50|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Clefable, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|teampreview|4
+|showteam|p1|Blastoise||Blastoisinite|RainDish|WaterSpout,DarkPulse,Protect,ShellSmash|Modest||M|||50|]Gengar||Gengarite|CursedBody|ShadowBall,Disable,Protect,PerishSong|Timid||F|||50|]Raichu||FocusSash|LightningRod|Protect,FakeOut,Thunder,VoltSwitch|Timid||M|||50|]Incineroar||ShucaBerry|Intimidate|PartingShot,Protect,ThroatChop,FakeOut|Impish||M|||50|]Politoed||SitrusBerry|Drizzle|MuddyWater,Protect,HelpingHand,PerishSong|Relaxed||M|||50|]Sinistcha||Leftovers|Hospitality|MatchaGotcha,Protect,LifeDew,RagePowder|Bold|||||50|
+|showteam|p2|Staraptor||ChoiceScarf|Intimidate|Uturn,CloseCombat,BraveBird,Tailwind|Jolly||M|||50|]Meganium||Meganiumite|Overgrow|Protect,SolarBeam,DazzlingGleam,WeatherBall|Timid||M|||50|]Rotom-Heat||SitrusBerry|Levitate|WillOWisp,VoltSwitch,LightScreen,Overheat|Timid|||||50|]Gholdengo||LifeOrb|GoodasGold|MakeItRain,NastyPlot,Protect,ShadowBall|Timid|||||50|]Clefable||Leftovers|Unaware|HelpingHand,FollowMe,Moonblast,FakeTears|Calm||M|||50|]Tyranitar||Tyranitarite|SandStream|RockSlide,KnockOff,LowKick,DragonDance|Adamant||F|||50|
+|
+|t:|1782421451
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gengar|Gengar, L50, F|100/100
+|switch|p1b: Raichu|Raichu, L50, M|100/100
+|switch|p2a: Meganium|Meganium, L50, M|100/100
+|switch|p2b: Staraptor|Staraptor, L50, M|100/100
+|-ability|p2b: Staraptor|Intimidate|boost
+|-unboost|p1a: Gengar|atk|1
+|-unboost|p1b: Raichu|atk|1
+|turn|1
+|
+|t:|1782421509
+|detailschange|p1a: Gengar|Gengar-Mega, L50, F
+|-mega|p1a: Gengar|Gengar|Gengarite
+|detailschange|p2a: Meganium|Meganium-Mega, L50, M
+|-mega|p2a: Meganium|Meganium|Meganiumite
+|move|p1b: Raichu|Fake Out|p2b: Staraptor
+|-damage|p2b: Staraptor|91/100
+|cant|p2b: Staraptor|flinch
+|move|p1a: Gengar|Perish Song|p1a: Gengar
+|-start|p1a: Gengar|perish3|[silent]
+|-start|p1b: Raichu|perish3|[silent]
+|-start|p2a: Meganium|perish3|[silent]
+|-start|p2b: Staraptor|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2a: Meganium|Weather Ball|p1b: Raichu
+|-damage|p1b: Raichu|7/100
+|
+|-start|p2b: Staraptor|perish3
+|-start|p1a: Gengar|perish3
+|-start|p1b: Raichu|perish3
+|-start|p2a: Meganium|perish3
+|upkeep
+|turn|2
+|
+|t:|1782421563
+|move|p1a: Gengar|Protect|p1a: Gengar
+|-singleturn|p1a: Gengar|Protect
+|move|p1b: Raichu|Protect|p1b: Raichu
+|-singleturn|p1b: Raichu|Protect
+|move|p2b: Staraptor|Tailwind|p2b: Staraptor
+|-sidestart|p2: freudianbreath|move: Tailwind
+|move|p2a: Meganium|Dazzling Gleam|p1a: Gengar|[spread] 
+|-activate|p1a: Gengar|move: Protect
+|-activate|p1b: Raichu|move: Protect
+|
+|-start|p2b: Staraptor|perish2
+|-start|p2a: Meganium|perish2
+|-start|p1a: Gengar|perish2
+|-start|p1b: Raichu|perish2
+|upkeep
+|turn|3
+|
+|t:|1782421613
+|switch|p1a: Politoed|Politoed, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2b: Staraptor|Tailwind||[still]
+|-fail|p2b: Staraptor
+|move|p2a: Meganium|Weather Ball|p1a: Politoed
+|-resisted|p1a: Politoed|1
+|-damage|p1a: Politoed|73/100
+|move|p1b: Raichu|Volt Switch|p2b: Staraptor
+|-supereffective|p2b: Staraptor|1
+|-crit|p2b: Staraptor
+|-damage|p2b: Staraptor|0 fnt
+|faint|p2b: Staraptor
+|
+|t:|1782421626
+|switch|p1b: Gengar|Gengar-Mega, L50, F|100/100|[from] Volt Switch
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Meganium|perish1
+|upkeep
+|
+|t:|1782421655
+|switch|p2b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|turn|4
+|
+|t:|1782421713
+|switch|p1a: Raichu|Raichu, L50, M|7/100
+|move|p1b: Gengar|Protect|p1b: Gengar
+|-singleturn|p1b: Gengar|Protect
+|move|p2a: Meganium|Solar Beam||[still]
+|-prepare|p2a: Meganium|Solar Beam
+|-activate|p2a: Meganium|ability: Mega Sol
+|-anim|p2a: Meganium|Solar Beam|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|move|p2b: Tyranitar|Knock Off|p1b: Gengar
+|-activate|p1b: Gengar|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Meganium|94/100|[from] Sandstorm
+|-damage|p1b: Gengar|94/100|[from] Sandstorm
+|-start|p2a: Meganium|perish0
+|faint|p2a: Meganium
+|upkeep
+|
+|t:|1782421728
+|switch|p1a: Sinistcha|Sinistcha, L50|100/100
+|switch|p2a: Rotom|Rotom-Heat, L50|100/100
+|-heal|p1b: Gengar|100/100|[from] ability: Hospitality|[of] p1a: Sinistcha
+|turn|5
+|
+|t:|1782421762
+|move|p1a: Sinistcha|Rage Powder|p1a: Sinistcha
+|-singleturn|p1a: Sinistcha|move: Rage Powder
+|move|p2a: Rotom|Overheat|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha|1
+|-damage|p1a: Sinistcha|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Sinistcha
+|move|p2b: Tyranitar|Knock Off|p1b: Gengar
+|-supereffective|p1b: Gengar|1
+|-damage|p1b: Gengar|6/100
+|move|p1b: Gengar|Perish Song|p1b: Gengar
+|-start|p1b: Gengar|perish3|[silent]
+|-start|p2a: Rotom|perish3|[silent]
+|-start|p2b: Tyranitar|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Rotom|93/100|[from] Sandstorm
+|-damage|p1b: Gengar|1/100|[from] Sandstorm
+|-start|p2a: Rotom|perish3
+|-start|p2b: Tyranitar|perish3
+|-start|p1b: Gengar|perish3
+|-sideend|p2: freudianbreath|move: Tailwind
+|upkeep
+|
+|t:|1782421773
+|switch|p1a: Politoed|Politoed, L50, M|73/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|6
+|
+|t:|1782421812
+|move|p1b: Gengar|Protect|p1b: Gengar
+|-singleturn|p1b: Gengar|Protect
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Rotom|Volt Switch|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|move|p2b: Tyranitar|Rock Slide|p1a: Politoed|[spread] 
+|-activate|p1a: Politoed|move: Protect
+|-activate|p1b: Gengar|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-start|p1b: Gengar|perish2
+|-start|p2a: Rotom|perish2
+|-start|p2b: Tyranitar|perish2
+|upkeep
+|turn|7
+|
+|t:|1782421847
+|move|p1b: Gengar|Disable|p2a: Rotom
+|-start|p2a: Rotom|Disable|Volt Switch
+|cant|p2a: Rotom|Disable|Volt Switch
+|move|p2b: Tyranitar|Rock Slide|p1a: Politoed|[spread] p1a,p1b
+|-damage|p1a: Politoed|47/100
+|-damage|p1b: Gengar|0 fnt
+|-enditem|p1a: Politoed|Sitrus Berry|[eat]
+|-heal|p1a: Politoed|72/100|[from] item: Sitrus Berry
+|faint|p1b: Gengar
+|move|p1a: Politoed|Muddy Water|p2a: Rotom|[spread] p2a,p2b
+|-supereffective|p2a: Rotom|1
+|-supereffective|p2b: Tyranitar|1
+|-damage|p2a: Rotom|4/100
+|-damage|p2b: Tyranitar|38/100
+|-unboost|p2b: Tyranitar|accuracy|1
+|-enditem|p2a: Rotom|Sitrus Berry|[eat]
+|-heal|p2a: Rotom|29/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Rotom|perish1
+|-start|p2b: Tyranitar|perish1
+|upkeep
+|turn|8
+|c|☆SANDSTORM3186|ggs
+|c|☆freudianbreath|Nice move
+|c|☆freudianbreath|Ggs
+|
+|t:|1782421871
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Rotom|Light Screen|p2a: Rotom
+|-sidestart|p2: freudianbreath|move: Light Screen
+|move|p2b: Tyranitar|Knock Off|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Rotom|perish0
+|-start|p2b: Tyranitar|perish0
+|faint|p2a: Rotom
+|faint|p2b: Tyranitar
+|
+|win|SANDSTORM3186
+|raw|SANDSTORM3186's rating: 1109 → 1139(+30 for winning)
+|raw|freudianbreath's rating: 1177 → 1147(-30 for losing)
+|c|☆SANDSTORM3186|nice team man, this was tough haha
+|c|☆freudianbreath|I thought I had you at the end damn
+|l|☆SANDSTORM3186
+|player|p1|

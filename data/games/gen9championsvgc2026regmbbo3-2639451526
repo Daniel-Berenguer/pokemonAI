@@ -1,0 +1,86 @@
+|j|☆Wild24
+|j|☆testdigi
+|html|Wild24testdigi    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1782477529
+|gametype|doubles
+|player|p1|Wild24|170|1000
+|player|p2|testdigi|1|1020
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gardevoir, L50, F|
+|poke|p1|Maushold, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p2|Hydreigon, L50, F|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Metagross, L50, shiny|
+|poke|p2|Grimmsnarl, L50, M, shiny|
+|poke|p2|Charizard, L50, M, shiny|
+|poke|p2|Toxapex, L50, F, shiny|
+|teampreview|4
+|showteam|p1|Gardevoir||Gardevoirite|Trace|Protect,Psychic,Moonblast,HyperVoice|Timid||F|||50|]Maushold||MentalHerb|FriendGuard|Protect,FollowMe,HelpingHand,SuperFang|Timid|||||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,DarkestLariat,PartingShot|Impish||F|||50|]Basculegion||ChoiceScarf|SwiftSwim|WaveCrash,AquaJet,LastRespects,PhantomForce|Jolly||M|||50|]Volcarona||Leftovers|FlameBody|RagePowder,Tailwind,Overheat,StruggleBug|Timid||M|||50|]Kingambit||FocusSash|Defiant|Protect,SuckerPunch,KowtowCleave,IronHead|Adamant||F|||50|
+|showteam|p2|Hydreigon||ChoiceScarf|Levitate|HeatWave,DarkPulse,DracoMeteor,Snarl|Modest||F|||50|]Garchomp||SitrusBerry|RoughSkin|Protect,RockSlide,DragonClaw,Earthquake|Adamant||M|||50|]Metagross||Metagrossite|ClearBody|Protect,HammerArm,BulletPunch,IronHead|Brave|||||50|]Grimmsnarl||RoseliBerry|Prankster|FakeOut,LightScreen,Reflect,PartingShot|Sassy||M|||50|]Charizard||CharizarditeY|Blaze|Protect,HeatWave,SolarBeam,WeatherBall|Timid||M|||50|]Toxapex||Leftovers|Regenerator|Infestation,Toxic,BanefulBunker,WideGuard|Relaxed||F|||50|
+|
+|t:|1782477566
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gardevoir|Gardevoir, L50, F|100/100
+|switch|p1b: Maushold|Maushold, L50|100/100
+|switch|p2a: Toxapex|Toxapex, L50, F, shiny|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|-ability|p1a: Gardevoir|Prankster|Trace|[from] ability: Trace|[of] p2b: Grimmsnarl
+|turn|1
+|
+|t:|1782477583
+|detailschange|p1a: Gardevoir|Gardevoir-Mega, L50, F
+|-mega|p1a: Gardevoir|Gardevoir|Gardevoirite
+|move|p1b: Maushold|Helping Hand|p1a: Gardevoir
+|-singleturn|p1a: Gardevoir|Helping Hand|[of] p1b: Maushold
+|move|p2b: Grimmsnarl|Fake Out|p1a: Gardevoir
+|-damage|p1a: Gardevoir|84/100
+|cant|p1a: Gardevoir|flinch
+|move|p2a: Toxapex|Toxic|p1a: Gardevoir
+|-status|p1a: Gardevoir|tox
+|
+|-damage|p1a: Gardevoir|78/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1782477605
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: testdigi|move: Light Screen
+|move|p1b: Maushold|Super Fang|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|-status|p1b: Maushold|psn
+|move|p1a: Gardevoir|Hyper Voice|p2b: Grimmsnarl|[spread] p2b
+|-activate|p2a: Toxapex|move: Protect
+|-supereffective|p2b: Grimmsnarl|1
+|-enditem|p2b: Grimmsnarl|Roseli Berry|[eat]
+|-enditem|p2b: Grimmsnarl|Roseli Berry|[weaken]
+|-damage|p2b: Grimmsnarl|68/100
+|
+|-damage|p1b: Maushold|87/100 psn|[from] psn
+|-damage|p1a: Gardevoir|66/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1782477625
+|move|p2b: Grimmsnarl|Parting Shot|p1a: Gardevoir
+|-unboost|p1a: Gardevoir|atk|1
+|-unboost|p1a: Gardevoir|spa|1
+|-message|Wild24 forfeited.
+|
+|win|testdigi
+|l|☆Wild24
+|player|p1|
+||testdigi is ready for game 2.

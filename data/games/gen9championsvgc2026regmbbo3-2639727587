@@ -1,0 +1,100 @@
+|j|☆Aeon_Twins
+|j|☆Tyruntula
+|html|Aeon_TwinsTyruntula    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782511318
+|gametype|doubles
+|player|p1|Aeon_Twins|n|1254
+|player|p2|Tyruntula|crasherwake|1135
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Staraptor, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Mawile, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Pyroar, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Aerodactyl, L50, F|
+|poke|p2|Metagross, L50|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Kingambit, L50, F|
+|teampreview|4
+|showteam|p1|Staraptor||ChoiceScarf|Intimidate|FinalGambit,CloseCombat,BraveBird,Uturn|Jolly||F|||50|]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,ShadowBall,RagePowder,TrickRoom|Modest|||||50|]Mawile||Mawilite|Intimidate|IronHead,PlayRough,SuckerPunch,Protect|Brave||F|||50|]Torkoal||Charcoal|Drought|Eruption,HeatWave,HelpingHand,Protect|Quiet||M|||50|]Farigiraf||ColburBerry|ArmorTail|Psychic,Thunderbolt,TrickRoom,HelpingHand|Sassy||M|||50|]Pyroar||Pyroarite|Rivalry|Overheat,HyperVoice,HeatWave,Protect|Timid||M|||50|
+|showteam|p2|Garchomp||LifeOrb|RoughSkin|Earthquake,StompingTantrum,RockSlide,Protect|Jolly||M|||50|]Aerodactyl||Aerodactylite|Unnerve|RockSlide,DualWingbeat,Tailwind,Protect|Jolly||F|||50|]Metagross||Metagrossite|ClearBody|IronHead,StompingTantrum,IcePunch,Protect|Jolly|||||50|]Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,Coaching,FakeOut|Jolly||F|||50|]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,Protect|Bold|||||50|]Kingambit||ChopleBerry|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|Adamant||F|||50|
+|
+|t:|1782511362
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Staraptor|Staraptor, L50, F|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Sinistcha|Sinistcha, L50|100/100
+|switch|p2b: Kingambit|Kingambit, L50, F|100/100
+|-ability|p1a: Staraptor|Intimidate|boost
+|-unboost|p2a: Sinistcha|atk|1
+|-unboost|p2b: Kingambit|atk|1
+|-ability|p2b: Kingambit|Defiant|boost
+|-boost|p2b: Kingambit|atk|2
+|turn|1
+|
+|t:|1782511390
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2b: Kingambit|Protect|p2b: Kingambit
+|-singleturn|p2b: Kingambit|Protect
+|move|p1b: Farigiraf|Psychic|p2a: Sinistcha
+|-damage|p2a: Sinistcha|64/100
+|move|p2a: Sinistcha|Trick Room|p2a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2a: Sinistcha
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1782511417
+|switch|p2a: Garchomp|Garchomp, L50, M|100/100
+|move|p1b: Farigiraf|Helping Hand|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Helping Hand|[of] p1b: Farigiraf
+|move|p2b: Kingambit|Protect||[still]
+|-fail|p2b: Kingambit
+|move|p1a: Torkoal|Eruption|p2a: Garchomp|[spread] p2a,p2b
+|-resisted|p2a: Garchomp|1
+|-supereffective|p2b: Kingambit|1
+|-damage|p2a: Garchomp|28/100
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1782511422
+|switch|p2b: Sinistcha|Sinistcha, L50|64/100
+|-heal|p2a: Garchomp|52/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|turn|3
+|
+|t:|1782511428
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1a: Torkoal|Eruption|p2b: Sinistcha|[spread] p2b
+|-activate|p2a: Garchomp|move: Protect
+|-supereffective|p2b: Sinistcha|1
+|-damage|p2b: Sinistcha|0 fnt
+|faint|p2b: Sinistcha
+|move|p1b: Farigiraf|Psychic|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Tyruntula forfeited.
+|raw|Aeon_Twins's rating: 1254 → 1271(+17 for winning)
+|raw|Tyruntula's rating: 1135 → 1118(-17 for losing)
+|
+|win|Aeon_Twins
+|l|☆Tyruntula
+|player|p2|

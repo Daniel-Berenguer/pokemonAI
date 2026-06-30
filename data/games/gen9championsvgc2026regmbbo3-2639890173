@@ -1,0 +1,210 @@
+|j|☆teyvgc
+|j|☆kheld
+|html|teyvgckheld    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782537134
+|gametype|doubles
+|player|p1|teyvgc|rood|1146
+|player|p2|kheld|2|1249
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Houndstone, L50, F|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Farigiraf, L50, M, shiny|
+|poke|p1|Garchomp, L50, M, shiny|
+|poke|p1|Corviknight, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Swampert, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Maushold, L50|
+|poke|p2|Gardevoir, L50, F, shiny|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Houndstone||FocusSash|SandRush|PsychicFangs,StompingTantrum,LastRespects,Protect|Adamant||F|||50|]Tyranitar||Tyranitarite|SandStream|RockSlide,KnockOff,LowKick,Protect|Adamant||F|||50|]Incineroar||PasshoBerry|Intimidate|FlareBlitz,DarkestLariat,FakeOut,PartingShot|Adamant||M|||50|]Farigiraf||TwistedSpoon|ArmorTail|HyperVoice,TwinBeam,TrickRoom,HelpingHand|Quiet||M|||50|]Garchomp||Garchompite|RoughSkin|StompingTantrum,DragonClaw,RockSlide,Protect|Adamant||M|||50|]Corviknight||Leftovers|MirrorArmor|BraveBird,IronHead,Tailwind,Roost|Careful||M|||50|
+|showteam|p2|Pelipper||LifeOrb|Drizzle|Tailwind,Hurricane,Protect,WeatherBall|Modest||M|||50|]Swampert||Swampertite|Torrent|IcePunch,WaveCrash,Earthquake,Protect|Adamant||M|||50|]Archaludon||Leftovers|Stamina|ElectroShot,FlashCannon,DragonPulse,Protect|Modest||M|||50|]Maushold||FocusSash|FriendGuard|SuperFang,RainDance,FollowMe,Protect|Jolly|||||50|]Gardevoir||Gardevoirite|Trace|HyperVoice,Psyshock,Protect,TrickRoom|Modest||F|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,AquaJet|Jolly||M|||50|
+|
+|t:|1782537155
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M, shiny|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Maushold|Maushold, L50|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Basculegion|atk|1
+|-unboost|p2b: Maushold|atk|1
+|turn|1
+|
+|t:|1782537180
+|move|p2b: Maushold|Protect|p2b: Maushold
+|-singleturn|p2b: Maushold|Protect
+|move|p2a: Basculegion|Flip Turn|p1a: Incineroar
+|-supereffective|p1a: Incineroar|1
+|-enditem|p1a: Incineroar|Passho Berry|[eat]
+|-enditem|p1a: Incineroar|Passho Berry|[weaken]
+|-damage|p1a: Incineroar|76/100
+|
+|t:|1782537191
+|switch|p2a: Gardevoir|Gardevoir, L50, F, shiny|100/100|[from] Flip Turn
+|-ability|p2a: Gardevoir|Intimidate|Trace|[from] ability: Trace|[of] p1a: Incineroar
+|-ability|p2a: Gardevoir|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Farigiraf|atk|1
+|move|p1a: Incineroar|Parting Shot|p2a: Gardevoir
+|-unboost|p2a: Gardevoir|atk|1
+|-unboost|p2a: Gardevoir|spa|1
+|
+|t:|1782537206
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100|[from] Parting Shot
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Farigiraf|93/100|[from] Sandstorm
+|-damage|p2a: Gardevoir|94/100|[from] Sandstorm
+|-damage|p2b: Maushold|93/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1782537223
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p1b: Farigiraf|Hyper Voice|p2a: Pelipper|[spread] p2a,p2b
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|45/100
+|-damage|p2b: Maushold|54/100
+|move|p2b: Maushold|Super Fang|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1782537254
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|detailschange|p1a: Tyranitar|Tyranitar-Mega, L50, F
+|-mega|p1a: Tyranitar|Tyranitar|Tyranitarite
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2b: Maushold|Protect|p2b: Maushold
+|-singleturn|p2b: Maushold|Protect
+|move|p1b: Farigiraf|Hyper Voice|p2b: Maushold|[spread] 
+|-activate|p2b: Maushold|move: Protect
+|-immune|p2a: Basculegion
+|move|p1a: Tyranitar|Rock Slide|p2b: Maushold|[spread] p2a
+|-activate|p2b: Maushold|move: Protect
+|-damage|p2a: Basculegion|64/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Farigiraf|87/100|[from] Sandstorm
+|-damage|p2b: Maushold|48/100|[from] Sandstorm
+|-damage|p2a: Basculegion|58/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1782537293
+|switch|p2a: Pelipper|Pelipper, L50, M|45/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1b: Farigiraf|Hyper Voice|p2b: Maushold|[spread] p2a,p2b
+|-damage|p2a: Pelipper|7/100
+|-damage|p2b: Maushold|11/100
+|move|p1a: Tyranitar|Rock Slide|p2b: Maushold|[spread] p2a
+|-miss|p1a: Tyranitar|p2b: Maushold
+|-supereffective|p2a: Pelipper|1
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|move|p2b: Maushold|Super Fang|p1a: Tyranitar|[miss]
+|-miss|p2b: Maushold|p1a: Tyranitar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1782537309
+|switch|p2a: Gardevoir|Gardevoir, L50, F, shiny|94/100
+|-ability|p2a: Gardevoir|Armor Tail|Trace|[from] ability: Trace|[of] p1b: Farigiraf
+|turn|5
+|
+|t:|1782537327
+|switch|p1a: Incineroar|Incineroar, L50, M|76/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Gardevoir|atk|1
+|-unboost|p2b: Maushold|atk|1
+|move|p2a: Gardevoir|Protect|p2a: Gardevoir
+|-singleturn|p2a: Gardevoir|Protect
+|move|p2b: Maushold|Protect|p2b: Maushold
+|-singleturn|p2b: Maushold|Protect
+|move|p1b: Farigiraf|Hyper Voice|p2b: Maushold|[spread] 
+|-activate|p2a: Gardevoir|move: Protect
+|-activate|p2b: Maushold|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1782537350
+|move|p1a: Incineroar|Fake Out||[still]
+|cant|p2a: Gardevoir|ability: Armor Tail|Fake Out|[of] p1a: Incineroar
+|move|p2b: Maushold|Super Fang|p1b: Farigiraf
+|-damage|p1b: Farigiraf|44/100
+|move|p2a: Gardevoir|Trick Room|p2a: Gardevoir
+|-fieldstart|move: Trick Room|[of] p2a: Gardevoir
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldend|move: Trick Room
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1782537380
+|detailschange|p2a: Gardevoir|Gardevoir-Mega, L50, F, shiny
+|-mega|p2a: Gardevoir|Gardevoir|Gardevoirite
+|move|p2b: Maushold|Super Fang|p1a: Incineroar
+|-damage|p1a: Incineroar|38/100
+|move|p2a: Gardevoir|Hyper Voice|p1a: Incineroar|[spread] p1a,p1b
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1a: Incineroar
+|faint|p1b: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1782537387
+|switch|p1a: Tyranitar|Tyranitar-Mega, L50, F|100/100
+|switch|p1b: Garchomp|Garchomp, L50, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|8
+|
+|t:|1782537402
+|move|p2b: Maushold|Rain Dance|p2b: Maushold
+|-weather|RainDance
+|move|p1b: Garchomp|Rock Slide|p2a: Gardevoir|[spread] p2a,p2b
+|-damage|p2a: Gardevoir|77/100
+|-damage|p2b: Maushold|0 fnt
+|faint|p2b: Maushold
+|move|p2a: Gardevoir|Hyper Voice|p1b: Garchomp|[spread] p1a,p1b
+|-supereffective|p1a: Tyranitar|1
+|-supereffective|p1b: Garchomp|1
+|-damage|p1a: Tyranitar|24/100
+|-damage|p1b: Garchomp|9/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Gardevoir
+|-damage|p2a: Gardevoir|18/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1782537410
+|switch|p2b: Basculegion|Basculegion, L50, M|58/100
+|turn|9
+|-message|teyvgc forfeited.
+|
+|win|kheld

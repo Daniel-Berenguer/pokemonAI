@@ -1,0 +1,121 @@
+|j|☆teyvgc
+|j|☆iota_002
+|html|teyvgciota_002    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1782617436
+|gametype|doubles
+|player|p1|teyvgc|rood|1215
+|player|p2|iota_002|ethan|1113
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Houndstone, L50, F|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Farigiraf, L50, M, shiny|
+|poke|p1|Garchomp, L50, M, shiny|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Beedrill, L50, F|
+|poke|p2|Slowking-Galar, L50, F|
+|poke|p2|Primarina, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Milotic, L50, F|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Houndstone||LifeOrb|SandRush|PsychicFangs,Poltergeist,LastRespects,Protect|Adamant||F|||50|]Tyranitar||Tyranitarite|SandStream|RockSlide,KnockOff,LowKick,Protect|Adamant||M|||50|]Incineroar||PasshoBerry|Intimidate|FlareBlitz,DarkestLariat,FakeOut,PartingShot|Adamant||M|||50|]Farigiraf||TwistedSpoon|ArmorTail|HyperVoice,TwinBeam,TrickRoom,HelpingHand|Quiet||M|||50|]Garchomp||Garchompite|RoughSkin|StompingTantrum,DragonClaw,RockSlide,Protect|Brave||M|||50|]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,Trick,PowerGem|Modest|||||50|
+|showteam|p2|Beedrill||Beedrillite|Sniper|Uturn,PoisonJab,DrillRun,Protect|Jolly||F|||50|]Slowking-Galar||BrightPowder|Regenerator|ChillyReception,WonderRoom,Bulldoze,Protect|Careful||F|||50|]Primarina||ExpertBelt|LiquidVoice|IcyWind,Blizzard,HyperVoice,Protect|Modest||M|||50|]Tyranitar||BlackBelt|Unnerve|BodyPress,IronDefense,RockSlide,Protect|Impish||F|||50|]Milotic||MysticWater|Competitive|Coil,MuddyWater,FlipTurn,Protect|Sassy||F|||50|]Incineroar||Leftovers|Intimidate|PartingShot,FakeOut,FlareBlitz,BrickBreak|Sassy||M|||50|
+|
+|t:|1782617531
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p1b: Garchomp|Garchomp, L50, M, shiny|100/100
+|switch|p2a: Slowking|Slowking-Galar, L50, F|100/100
+|switch|p2b: Beedrill|Beedrill, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1782617551
+|detailschange|p2b: Beedrill|Beedrill-Mega, L50, F
+|-mega|p2b: Beedrill|Beedrill|Beedrillite
+|detailschange|p1b: Garchomp|Garchomp-Mega, L50, M, shiny
+|-mega|p1b: Garchomp|Garchomp|Garchompite
+|move|p2b: Beedrill|Protect|p2b: Beedrill
+|-singleturn|p2b: Beedrill|Protect
+|move|p1b: Garchomp|Rock Slide|p2b: Beedrill|[spread] p2a
+|-activate|p2b: Beedrill|move: Protect
+|-damage|p2a: Slowking|63/100
+|move|p1a: Tyranitar|Knock Off|p2a: Slowking
+|-supereffective|p2a: Slowking|1
+|-damage|p2a: Slowking|0 fnt
+|-enditem|p2a: Slowking|Bright Powder|[from] move: Knock Off|[of] p1a: Tyranitar
+|faint|p2a: Slowking
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Beedrill|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1782617566
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1b: Garchomp|atk|1
+|turn|2
+|
+|t:|1782617578
+|move|p2a: Incineroar|Fake Out|p1b: Garchomp
+|-damage|p1b: Garchomp|91/100
+|move|p2b: Beedrill|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar|1
+|-damage|p1a: Tyranitar|14/100
+|
+|t:|1782617583
+|switch|p2b: Primarina|Primarina, L50, M|100/100|[from] U-turn
+|cant|p1b: Garchomp|flinch
+|move|p1a: Tyranitar|Rock Slide|p2b: Primarina|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar|1
+|-damage|p2a: Incineroar|63/100
+|-damage|p2b: Primarina|70/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Primarina|64/100|[from] Sandstorm
+|-damage|p2a: Incineroar|57/100|[from] Sandstorm
+|-heal|p2a: Incineroar|63/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1782617599
+|move|p1b: Garchomp|Rock Slide|p2b: Primarina|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar|1
+|-damage|p2a: Incineroar|28/100
+|-damage|p2b: Primarina|40/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar|1
+|-crit|p2b: Primarina
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Primarina|0 fnt
+|faint|p2a: Incineroar
+|faint|p2b: Primarina
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1782617620
+|switch|p2a: Beedrill|Beedrill-Mega, L50, F|94/100
+|turn|4
+|
+|t:|1782617630
+|move|p2a: Beedrill|U-turn|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar|1
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|move|p1b: Garchomp|Rock Slide|p2a: Beedrill
+|-supereffective|p2a: Beedrill|1
+|-damage|p2a: Beedrill|0 fnt
+|faint|p2a: Beedrill
+|
+|win|teyvgc

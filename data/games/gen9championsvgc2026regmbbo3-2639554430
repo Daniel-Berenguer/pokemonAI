@@ -1,0 +1,106 @@
+|j|☆Fell Blue
+|j|☆C.blaze
+|html|Fell BlueC.blaze    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782490223
+|gametype|doubles
+|player|p1|Fell Blue|fantina|1233
+|player|p2|C.blaze|2|1170
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Pyroar, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Mawile, L50, F|
+|poke|p1|Gyarados, L50, M|
+|poke|p1|Kangaskhan, L50, F|
+|poke|p2|Mawile, L50, M|
+|poke|p2|Hydreigon, L50, F|
+|poke|p2|Oranguru, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Rotom-Wash, L50|
+|poke|p2|Sylveon, L50, F|
+|teampreview|4
+|showteam|p1|Torkoal||Charcoal|Drought|Eruption,WeatherBall,HelpingHand,Protect|Quiet||M|||50|]Pyroar||Pyroarite|Rivalry|Overheat,HeatWave,SolarBeam,Protect|Timid||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,TrickRoom,HelpingHand,Protect|Bold||F|||50|]Mawile||Mawilite|HyperCutter|PlayRough,BrickBreak,SuckerPunch,Protect|Brave||F|||50|]Gyarados||ExpertBelt|Intimidate|StoneEdge,PowerWhip,IceFang,Protect|Adamant||M|||50|]Kangaskhan||SilkScarf|Scrappy|FakeOut,LastResort|Brave||F|||50|
+|showteam|p2|Mawile||Mawilite|Intimidate|PlayRough,IronHead,Protect,RockSlide|Brave||M|||50|]Hydreigon||HabanBerry|Levitate|DracoMeteor,DarkPulse,Protect,Snarl|Timid||F|||50|]Oranguru||MentalHerb|InnerFocus|Psychic,Encore,Instruct,TrickRoom|Sassy||F|||50|]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,Protect,FakeOut|Jolly||M|||50|]Rotom-Wash||SitrusBerry|Levitate|Thunderbolt,HydroPump,Electroweb,WillOWisp|Timid|||||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,Protect,MysticalFire|Modest||F|||50|
+|
+|t:|1782490264
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pyroar|Pyroar, L50, M|100/100
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|switch|p2a: Rotom|Rotom-Wash, L50|100/100
+|switch|p2b: Oranguru|Oranguru, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by C.blaze)
+|
+|t:|1782490281
+|detailschange|p1a: Pyroar|Pyroar-Mega, L50, M
+|-mega|p1a: Pyroar|Pyroar|Pyroarite
+|move|p1a: Pyroar|Solar Beam||[still]
+|-prepare|p1a: Pyroar|Solar Beam
+|-anim|p1a: Pyroar|Solar Beam|p2a: Rotom
+|-supereffective|p2a: Rotom|1
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|move|p2b: Oranguru|Instruct|p2: Rotom|[notarget]
+|-fail|p2b: Oranguru
+|move|p1b: Torkoal|Eruption|p2b: Oranguru
+|-damage|p2b: Oranguru|26/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1782490288
+|switch|p2a: Hydreigon|Hydreigon, L50, F|100/100
+|turn|2
+|
+|t:|1782490299
+|move|p1b: Torkoal|Helping Hand|p1a: Pyroar
+|-singleturn|p1a: Pyroar|Helping Hand|[of] p1b: Torkoal
+|move|p1a: Pyroar|Overheat|p2a: Hydreigon
+|-resisted|p2a: Hydreigon|1
+|-damage|p2a: Hydreigon|0 fnt
+|-unboost|p1a: Pyroar|spa|2
+|faint|p2a: Hydreigon
+|move|p2b: Oranguru|Instruct|p2: Hydreigon|[notarget]
+|-fail|p2b: Oranguru
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1782490305
+|switch|p2a: Mawile|Mawile, L50, M|100/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Pyroar|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|turn|3
+|
+|t:|1782490314
+|detailschange|p2a: Mawile|Mawile-Mega, L50, M
+|-mega|p2a: Mawile|Mawile|Mawilite
+|move|p1a: Pyroar|Heat Wave|p2b: Oranguru|[spread] p2a,p2b
+|-supereffective|p2a: Mawile|1
+|-damage|p2a: Mawile|3/100
+|-damage|p2b: Oranguru|0 fnt
+|-status|p2a: Mawile|brn
+|faint|p2b: Oranguru
+|move|p2a: Mawile|Rock Slide|p1a: Pyroar|[spread] p1a,p1b
+|-supereffective|p1a: Pyroar|1
+|-supereffective|p1b: Torkoal|1
+|-damage|p1a: Pyroar|54/100
+|-damage|p1b: Torkoal|74/100
+|move|p1b: Torkoal|Eruption|p2a: Mawile
+|-supereffective|p2a: Mawile|1
+|-damage|p2a: Mawile|0 fnt
+|faint|p2a: Mawile
+|
+|win|Fell Blue
+|raw|Fell Blue's rating: 1233 → 1254(+21 for winning)
+|raw|C.blaze's rating: 1170 → 1149(-21 for losing)

@@ -1,0 +1,202 @@
+|j|☆DI2
+|j|☆Akkachi
+|html|DI2Akkachi    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782436500
+|gametype|doubles
+|player|p1|DI2|169|
+|player|p2|Akkachi|hilbert|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Metagross, L50|
+|poke|p1|Trevenant, L50, M|
+|poke|p1|Alcremie, L50, F|
+|poke|p1|Tauros-Paldea-Blaze, L50, M|
+|poke|p1|Weavile, L50, F|
+|poke|p1|Sableye, L50, F|
+|poke|p2|Gengar, L50, F, shiny|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Vivillon-Pokeball, L50, F|
+|poke|p2|Ceruledge, L50, F|
+|poke|p2|Staraptor, L50, M|
+|teampreview|4
+|showteam|p1|Metagross||Metagrossite|ClearBody|IronHead,PsychicFangs,IcePunch,Protect|Adamant|||||50|]Trevenant||KasibBerry|Harvest|TrickRoom,HornLeech,Poltergeist,Protect|Brave||M|||50|]Alcremie||SitrusBerry|AromaVeil|DazzlingGleam,DrainingKiss,Decorate,Protect|Calm||F|||50|]Tauros-Paldea-Blaze||ChoiceScarf|Intimidate|FlareBlitz,CloseCombat,HighHorsepower,RockSlide|Adamant||M|||50|]Weavile||WideLens|Pressure|FakeOut,TripleAxel,KnockOff,Protect|Jolly||F|||50|]Sableye||LightClay|Prankster|FoulPlay,Reflect,LightScreen,Quash|Calm||F|||50|
+|showteam|p2|Gengar||Gengarite|CursedBody|PerishSong,WillOWisp,ShadowBall,Protect|Modest||F|||50|]Sneasler||WhiteHerb|Unburden|FakeOut,CloseCombat,DireClaw,Protect|Adamant||F|||50|]Dragonite||DragonFang|Multiscale|ExtremeSpeed,DragonClaw,LowKick,Protect|Adamant||F|||50|]Vivillon-Pokeball||FocusSash|CompoundEyes|SleepPowder,RagePowder,Hurricane,Protect|Timid||F|||50|]Ceruledge||ColburBerry|FlashFire|BitterBlade,ShadowSneak,BulkUp,Protect|Adamant||F|||50|]Staraptor||ChoiceScarf|Intimidate|BraveBird,CloseCombat,Uturn,FinalGambit|Jolly||M|||50|
+|
+|t:|1782436535
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Metagross|Metagross, L50|100/100
+|switch|p1b: Sableye|Sableye, L50, F|100/100
+|switch|p2a: Vivillon|Vivillon-Pokeball, L50, F|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|turn|1
+|
+|t:|1782436621
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1a: Metagross|Protect|p1a: Metagross
+|-singleturn|p1a: Metagross|Protect
+|move|p1b: Sableye|Light Screen|p1b: Sableye
+|-sidestart|p1: DI2|move: Light Screen
+|move|p2a: Vivillon|Sleep Powder|p1b: Sableye
+|-status|p1b: Sableye|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|2
+|
+|t:|1782436695
+|switch|p2b: Gasparzinho|Gengar, L50, F, shiny|100/100
+|detailschange|p1a: Metagross|Metagross-Mega, L50
+|-mega|p1a: Metagross|Metagross|Metagrossite
+|move|p2a: Vivillon|Protect|p2a: Vivillon
+|-singleturn|p2a: Vivillon|Protect
+|cant|p1b: Sableye|slp
+|move|p1a: Metagross|Ice Punch|p2a: Vivillon
+|-activate|p2a: Vivillon|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1782436714
+|detailschange|p2b: Gasparzinho|Gengar-Mega, L50, F, shiny
+|-mega|p2b: Gasparzinho|Gengar|Gengarite
+|move|p1a: Metagross|Protect|p1a: Metagross
+|-singleturn|p1a: Metagross|Protect
+|move|p2a: Vivillon|Rage Powder|p2a: Vivillon
+|-singleturn|p2a: Vivillon|move: Rage Powder
+|-curestatus|p1b: Sableye|slp|[msg]
+|move|p1b: Sableye|Quash||[still]
+|-fail|p1b: Sableye
+|move|p2b: Gasparzinho|Perish Song|p2b: Gasparzinho
+|-start|p1a: Metagross|perish3|[silent]
+|-start|p1b: Sableye|perish3|[silent]
+|-start|p2a: Vivillon|perish3|[silent]
+|-start|p2b: Gasparzinho|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-start|p2b: Gasparzinho|perish3
+|-start|p2a: Vivillon|perish3
+|-start|p1a: Metagross|perish3
+|-start|p1b: Sableye|perish3
+|upkeep
+|turn|4
+|
+|t:|1782436746
+|move|p2b: Gasparzinho|Protect|p2b: Gasparzinho
+|-singleturn|p2b: Gasparzinho|Protect
+|move|p2a: Vivillon|Sleep Powder|p1a: Metagross
+|-status|p1a: Metagross|slp|[from] move: Sleep Powder
+|cant|p1a: Metagross|slp
+|move|p1b: Sableye|Foul Play|p2b: Gasparzinho
+|-activate|p2b: Gasparzinho|move: Protect
+|
+|-start|p2b: Gasparzinho|perish2
+|-start|p2a: Vivillon|perish2
+|-start|p1a: Metagross|perish2
+|-start|p1b: Sableye|perish2
+|upkeep
+|turn|5
+|
+|t:|1782436771
+|move|p2b: Gasparzinho|Shadow Ball|p1b: Sableye
+|-damage|p1b: Sableye|55/100
+|move|p2a: Vivillon|Sleep Powder|p1b: Sableye
+|-status|p1b: Sableye|slp|[from] move: Sleep Powder
+|cant|p1a: Metagross|slp
+|cant|p1b: Sableye|slp
+|
+|-start|p2b: Gasparzinho|perish1
+|-start|p2a: Vivillon|perish1
+|-start|p1a: Metagross|perish1
+|-start|p1b: Sableye|perish1
+|upkeep
+|turn|6
+|
+|t:|1782436809
+|switch|p2b: Dragonite|Dragonite, L50, F|100/100
+|move|p2a: Vivillon|Rage Powder|p2a: Vivillon
+|-singleturn|p2a: Vivillon|move: Rage Powder
+|cant|p1b: Sableye|slp
+|-curestatus|p1a: Metagross|slp|[msg]
+|move|p1a: Metagross|Psychic Fangs|p2a: Vivillon
+|-crit|p2a: Vivillon
+|-enditem|p2a: Vivillon|Focus Sash
+|-damage|p2a: Vivillon|1/100
+|
+|-start|p2a: Vivillon|perish0
+|-start|p1a: Metagross|perish0
+|-start|p1b: Sableye|perish0
+|faint|p2a: Vivillon
+|faint|p1a: Metagross
+|faint|p1b: Sableye
+|upkeep
+|
+|t:|1782436833
+|switch|p2a: Gasparzinho|Gengar-Mega, L50, F, shiny|100/100
+|switch|p1a: Trevenant|Trevenant, L50, M|100/100
+|switch|p1b: Weavile|Weavile, L50, F|100/100
+|-ability|p1b: Weavile|Pressure
+|turn|7
+|
+|t:|1782436880
+|move|p2b: Dragonite|Protect|p2b: Dragonite
+|-singleturn|p2b: Dragonite|Protect
+|move|p1b: Weavile|Knock Off|p2a: Gasparzinho
+|-supereffective|p2a: Gasparzinho|1
+|-damage|p2a: Gasparzinho|0 fnt
+|faint|p2a: Gasparzinho
+|move|p1a: Trevenant|Trick Room|p1a: Trevenant
+|-fieldstart|move: Trick Room|[of] p1a: Trevenant
+|
+|upkeep
+|
+|t:|1782436891
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|turn|8
+|
+|t:|1782436924
+|move|p2a: Sneasler|Fake Out|p1b: Weavile
+|-damage|p1b: Weavile|75/100
+|move|p1a: Trevenant|Poltergeist|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Poltergeist|White Herb
+|-damage|p2a: Sneasler|19/100
+|move|p2b: Dragonite|Dragon Claw|p1a: Trevenant
+|-damage|p1a: Trevenant|43/100
+|cant|p1b: Weavile|flinch
+|
+|-sideend|p1: DI2|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1782437027
+|move|p1a: Trevenant|Poltergeist|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Poltergeist|White Herb
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|move|p2b: Dragonite|Low Kick|p1b: Weavile
+|-supereffective|p1b: Weavile|2
+|-damage|p1b: Weavile|0 fnt
+|faint|p1b: Weavile
+|
+|upkeep
+|turn|10
+|
+|t:|1782437041
+|move|p1a: Trevenant|Poltergeist|p2b: Dragonite
+|-activate|p2b: Dragonite|move: Poltergeist|Dragon Fang
+|-damage|p2b: Dragonite|77/100
+|move|p2b: Dragonite|Dragon Claw|p1a: Trevenant
+|-damage|p1a: Trevenant|0 fnt
+|faint|p1a: Trevenant
+|
+|win|Akkachi
+|inactive|DI2 has 30 seconds to confirm battle start!
+|inactive|Akkachi has 30 seconds to confirm battle start!
+||Akkachi is ready for game 3.
+|inactive|DI2 has 20 seconds to confirm battle start!

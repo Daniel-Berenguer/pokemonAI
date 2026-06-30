@@ -1,0 +1,314 @@
+|j|☆duende tester
+|j|☆Jj18697
+|html|duende testerJj18697    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782577819
+|gametype|doubles
+|player|p1|duende tester|169|1201
+|player|p2|Jj18697|fisherman-gen4|1087
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Staraptor, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Venusaur, L50, F|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Ceruledge, L50, F|
+|poke|p2|Froslass, L50, F|
+|poke|p2|Milotic, L50, M|
+|poke|p2|Vivillon-Pokeball, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Staraptor||Staraptite|Intimidate|BraveBird,CloseCombat,Roost,Protect|Adamant||M|||50|]Grimmsnarl||LightClay|Prankster|SpiritBreak,PartingShot,LightScreen,Reflect|Careful||M|||50|]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,WideGuard|Modest||F|||50|]Archaludon||Leftovers|Stamina|ElectroShot,DragonPulse,FlashCannon,Protect|Modest||F|||50|]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,PowerGem,Thunderbolt|Modest|||||50|]Venusaur||Venusaurite|Chlorophyll|SludgeBomb,EarthPower,GigaDrain,Protect|Modest||F|||50|
+|showteam|p2|Raichu||RaichuniteY|Static|FakeOut,ZapCannon,FocusBlast,Protect|Timid||M|||50|]Ceruledge||ColburBerry|FlashFire|BitterBlade,ShadowSneak,BulkUp,Protect|Adamant||F|||50|]Froslass||Froslassite|SnowCloak|Blizzard,ShadowBall,AuroraVeil,Protect|Timid||F|||50|]Milotic||Leftovers|MarvelScale|MuddyWater,Coil,Hypnosis,Protect|Calm||M|||50|]Vivillon-Pokeball||FocusSash|CompoundEyes|RagePowder,SleepPowder,Hurricane,Protect|Timid||M|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,PartingShot,FlareBlitz,ThroatChop|Careful||M|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Jj18697)
+|inactive|duende tester has 60 seconds left.
+|
+|t:|1782577851
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Venusaur|Venusaur, L50, F|100/100
+|switch|p2a: Vivillon|Vivillon-Pokeball, L50, M|100/100
+|switch|p2b: Froslass|Froslass, L50, F|100/100
+|turn|1
+|
+|t:|1782577870
+|detailschange|p1b: Venusaur|Venusaur-Mega, L50, F
+|-mega|p1b: Venusaur|Venusaur|Venusaurite
+|move|p2b: Froslass|Protect|p2b: Froslass
+|-singleturn|p2b: Froslass|Protect
+|move|p2a: Vivillon|Sleep Powder|p1a: Grimmsnarl
+|-status|p1a: Grimmsnarl|slp|[from] move: Sleep Powder
+|move|p1b: Venusaur|Sludge Bomb|p2a: Vivillon
+|-damage|p2a: Vivillon|24/100
+|cant|p1a: Grimmsnarl|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1782577887
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Grimmsnarl|atk|1
+|-unboost|p1b: Venusaur|atk|1
+|detailschange|p2b: Froslass|Froslass-Mega, L50, F
+|-mega|p2b: Froslass|Froslass|Froslassite
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Froslass
+|cant|p1a: Grimmsnarl|slp
+|move|p2b: Froslass|Blizzard|p1a: Grimmsnarl|[spread] p1a,p1b
+|-supereffective|p1b: Venusaur|1
+|-damage|p1a: Grimmsnarl|63/100 slp
+|-damage|p1b: Venusaur|59/100
+|move|p1b: Venusaur|Sludge Bomb|p2a: Incineroar
+|-damage|p2a: Incineroar|62/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|inactive|duende tester has 30 seconds left.
+|
+|t:|1782577919
+|move|p1b: Venusaur|Protect|p1b: Venusaur
+|-singleturn|p1b: Venusaur|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Venusaur
+|-activate|p1b: Venusaur|move: Protect
+|-curestatus|p1a: Grimmsnarl|slp|[msg]
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: duende tester|move: Light Screen
+|move|p2b: Froslass|Blizzard|p1b: Venusaur|[spread] p1a
+|-activate|p1b: Venusaur|move: Protect
+|-damage|p1a: Grimmsnarl|38/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|inactive|duende tester has 30 seconds left.
+|
+|t:|1782577945
+|move|p2b: Froslass|Protect|p2b: Froslass
+|-singleturn|p2b: Froslass|Protect
+|move|p1a: Grimmsnarl|Parting Shot|p2b: Froslass
+|-activate|p2b: Froslass|move: Protect
+|move|p1b: Venusaur|Sludge Bomb|p2a: Incineroar
+|-damage|p2a: Incineroar|20/100y
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|45/100|[from] item: Sitrus Berry
+|move|p2a: Incineroar|Parting Shot|p1b: Venusaur
+|-unboost|p1b: Venusaur|atk|1
+|-unboost|p1b: Venusaur|spa|1
+|
+|t:|1782577959
+|switch|p2a: Ceruledge|Ceruledge, L50, F|100/100|[from] Parting Shot
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|inactive|duende tester has 30 seconds left.
+|
+|t:|1782577988
+|switch|p2b: Incineroar|Incineroar, L50, M|45/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Grimmsnarl|atk|1
+|-unboost|p1b: Venusaur|atk|1
+|move|p1b: Venusaur|Protect|p1b: Venusaur
+|-singleturn|p1b: Venusaur|Protect
+|move|p1a: Grimmsnarl|Reflect|p1a: Grimmsnarl
+|-sidestart|p1: duende tester|Reflect
+|move|p2a: Ceruledge|Bulk Up|p2a: Ceruledge
+|-boost|p2a: Ceruledge|atk|1
+|-boost|p2a: Ceruledge|def|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|inactive|Jj18697 has 30 seconds left.
+|
+|t:|1782578029
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Ceruledge|Bitter Blade|p1a: Pelipper
+|-resisted|p1a: Pelipper|1
+|-damage|p1a: Pelipper|83/100
+|move|p1b: Venusaur|Sludge Bomb|p2b: Incineroar
+|-damage|p2b: Incineroar|21/100
+|-status|p2b: Incineroar|psn
+|move|p2b: Incineroar|Parting Shot|p1b: Venusaur
+|-unboost|p1b: Venusaur|atk|1
+|-unboost|p1b: Venusaur|spa|1
+|
+|t:|1782578042
+|switch|p2b: Froslass|Froslass-Mega, L50, F|100/100|[from] Parting Shot
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Froslass
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|inactive|duende tester has 30 seconds left.
+|
+|t:|1782578072
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100
+|move|p2b: Froslass|Shadow Ball|p1a: Pelipper
+|-damage|p1a: Pelipper|31/100
+|move|p1a: Pelipper|Tailwind|p1a: Pelipper
+|-sidestart|p1: duende tester|move: Tailwind
+|move|p2a: Ceruledge|Bitter Blade|p1b: Archaludon
+|-damage|p1b: Archaludon|64/100
+|-ability|p1b: Archaludon|Stamina|boost
+|-boost|p1b: Archaludon|def|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Archaludon|70/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|inactive|Jj18697 has 30 seconds left.
+|
+|t:|1782578099
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|38/100
+|switch|p2a: Incineroar|Incineroar, L50, M|21/100 psn
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Grimmsnarl|atk|1
+|-unboost|p1b: Archaludon|atk|1
+|move|p1b: Archaludon|Flash Cannon|p2b: Froslass
+|-supereffective|p2b: Froslass|1
+|-damage|p2b: Froslass|8/100
+|move|p2b: Froslass|Shadow Ball|p1a: Grimmsnarl
+|-resisted|p1a: Grimmsnarl|1
+|-damage|p1a: Grimmsnarl|26/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Archaludon|76/100|[from] item: Leftovers
+|-damage|p2a: Incineroar|8/100 psn|[from] psn
+|upkeep
+|turn|9
+|inactive|duende tester has 30 seconds left.
+|inactive|duende tester has 20 seconds left.
+|inactive|duende tester has 15 seconds left.
+|inactive|duende tester has 10 seconds left.
+|
+|t:|1782578148
+|move|p1b: Archaludon|Protect|p1b: Archaludon
+|-singleturn|p1b: Archaludon|Protect
+|move|p2a: Incineroar|Fake Out|p1b: Archaludon
+|-activate|p1b: Archaludon|move: Protect
+|move|p2b: Froslass|Blizzard|p1a: Grimmsnarl|[spread] p1a
+|-activate|p1b: Archaludon|move: Protect
+|-damage|p1a: Grimmsnarl|0 fnt
+|faint|p1a: Grimmsnarl
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Archaludon|82/100|[from] item: Leftovers
+|-damage|p2a: Incineroar|0 fnt|[from] psn
+|faint|p2a: Incineroar
+|upkeep
+|
+|t:|1782578164
+|switch|p2a: Vivillon|Vivillon-Pokeball, L50, M|24/100
+|switch|p1a: Pelipper|Pelipper, L50, F|31/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|10
+|inactive|Jj18697 has 30 seconds left.
+|
+|t:|1782578189
+|move|p2b: Froslass|Protect|p2b: Froslass
+|-singleturn|p2b: Froslass|Protect
+|move|p2a: Vivillon|Protect|p2a: Vivillon
+|-singleturn|p2a: Vivillon|Protect
+|move|p1a: Pelipper|Weather Ball|p2b: Froslass
+|-activate|p2b: Froslass|move: Protect
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Vivillon
+|-activate|p2a: Vivillon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Archaludon|89/100|[from] item: Leftovers
+|-sideend|p1: duende tester|move: Light Screen
+|-sideend|p1: duende tester|move: Tailwind
+|upkeep
+|turn|11
+|inactive|duende tester has 30 seconds left.
+|
+|t:|1782578220
+|switch|p2b: Ceruledge|Ceruledge, L50, F|100/100
+|switch|p1b: Venusaur|Venusaur-Mega, L50, F|59/100
+|move|p2a: Vivillon|Rage Powder|p2a: Vivillon
+|-singleturn|p2a: Vivillon|move: Rage Powder
+|move|p1a: Pelipper|Weather Ball|p2a: Vivillon
+|-damage|p2a: Vivillon|0 fnt
+|faint|p2a: Vivillon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1782578242
+|switch|p2a: Froslass|Froslass-Mega, L50, F|8/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Froslass
+|turn|12
+|inactive|Jj18697 has 30 seconds left.
+|
+|t:|1782578275
+|switch|p1a: Archaludon|Archaludon, L50, F|89/100
+|move|p1b: Venusaur|Protect|p1b: Venusaur
+|-singleturn|p1b: Venusaur|Protect
+|move|p2a: Froslass|Shadow Ball|p1a: Archaludon
+|-damage|p1a: Archaludon|47/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p2b: Ceruledge|Bitter Blade|p1b: Venusaur
+|-activate|p1b: Venusaur|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Archaludon|53/100|[from] item: Leftovers
+|-sideend|p1: duende tester|Reflect
+|upkeep
+|turn|13
+|inactive|Jj18697 has 30 seconds left.
+|
+|t:|1782578301
+|move|p2b: Ceruledge|Shadow Sneak|p1a: Archaludon
+|-damage|p1a: Archaludon|42/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p2a: Froslass|Shadow Ball|p1a: Archaludon
+|-damage|p1a: Archaludon|1/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|move|p1b: Venusaur|Giga Drain|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|-heal|p1b: Venusaur|63/100|[from] drain|[of] p2a: Froslass
+|faint|p2a: Froslass
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Archaludon|7/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1782578324
+|move|p2b: Ceruledge|Shadow Sneak|p1a: Archaludon
+|-damage|p1a: Archaludon|1/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p1a: Archaludon|Electro Shot|p2b: Ceruledge|[from] lockedmove
+|-damage|p2b: Ceruledge|45/100
+|move|p1b: Venusaur|Earth Power|p2b: Ceruledge
+|-supereffective|p2b: Ceruledge|1
+|-damage|p2b: Ceruledge|0 fnt
+|faint|p2b: Ceruledge
+|
+|win|duende tester
+|raw|duende tester's rating: 1201 → 1218(+17 for winning)
+|raw|Jj18697's rating: 1087 → 1071(-16 for losing)
+|l|☆Jj18697
+|player|p2|

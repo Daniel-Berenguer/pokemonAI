@@ -1,0 +1,215 @@
+|j|☆pati_patout
+|j|☆OdieVGC
+|html|pati_patoutOdieVGC    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1782768683
+|gametype|doubles
+|player|p1|pati_patout|101|1066
+|player|p2|OdieVGC|2|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Cofagrigus, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Aerodactyl, L50, M|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Staraptor, L50, F, shiny|
+|poke|p2|Delphox, L50, F, shiny|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Sinistcha-Masterpiece, L50, shiny|
+|teampreview|4
+|showteam|p1|Venusaur||LifeOrb|Chlorophyll|LeafStorm,SludgeBomb,EarthPower,SleepPowder|Modest||F|||50|]Torkoal||Charcoal|Drought|Protect,Eruption,HeatWave,HelpingHand|Modest||F|||50|]Annihilape||FocusSash|Defiant|CloseCombat,RageFist,Taunt,Coaching|Serious||F|||50|]Cofagrigus||ChestoBerry|Mummy|NightShade,Haze,TrickRoom,Rest|Careful||F|||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,ThroatChop,FakeOut,PartingShot|Adamant||F|||50|]Aerodactyl||Aerodactylite|RockHead|RockSlide,DualWingbeat,Tailwind,Protect|Timid||M|||50|
+|showteam|p2|Primarina||Leftovers|LiquidVoice|Protect,HyperVoice,CalmMind,Moonblast|Modest||F|||50|]Staraptor||Staraptite|Intimidate|Protect,BraveBird,Tailwind,CloseCombat|Jolly||F|||50|]Delphox||Delphoxite|Blaze|Protect,HeatWave,Encore,Psychic|Timid||F|||50|]Garchomp||LifeOrb|RoughSkin|Protect,DragonClaw,RockSlide,StompingTantrum|Jolly||M|||50|]Grimmsnarl||LightClay|Prankster|SpiritBreak,Reflect,LightScreen,PartingShot|Careful||M|||50|]Sinistcha-Masterpiece||KasibBerry|Hospitality|Protect,MatchaGotcha,RagePowder,StrengthSap|Bold|||||50|
+|
+|t:|1782768836
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100
+|switch|p1b: Aerodactyl|Aerodactyl, L50, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Primarina|Primarina, L50, F|100/100
+|turn|1
+|
+|t:|1782768868
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: OdieVGC|Reflect
+|move|p1b: Aerodactyl|Tailwind|p1b: Aerodactyl
+|-sidestart|p1: pati_patout|move: Tailwind
+|move|p1a: Annihilape|Taunt|p2a: Grimmsnarl
+|-start|p2a: Grimmsnarl|move: Taunt
+|move|p2b: Primarina|Calm Mind|p2b: Primarina
+|-boost|p2b: Primarina|spa|1
+|-boost|p2b: Primarina|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1782768911
+|switch|p1a: Venusaur|Venusaur, L50, F|100/100
+|detailschange|p1b: Aerodactyl|Aerodactyl-Mega, L50, M
+|-mega|p1b: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p1b: Aerodactyl|Rock Slide|p2a: Grimmsnarl|[spread] p2a,p2b
+|-damage|p2a: Grimmsnarl|80/100
+|-damage|p2b: Primarina|81/100
+|move|p2b: Primarina|Hyper Voice|p1a: Venusaur|[spread] p1a,p1b
+|-resisted|p1a: Venusaur|1
+|-supereffective|p1b: Aerodactyl|1
+|-damage|p1a: Venusaur|70/100
+|-damage|p1b: Aerodactyl|0 fnt
+|faint|p1b: Aerodactyl
+|move|p2a: Grimmsnarl|Spirit Break|p1a: Venusaur
+|-resisted|p1a: Venusaur|1
+|-damage|p1a: Venusaur|49/100
+|-unboost|p1a: Venusaur|spa|1
+|
+|-heal|p2b: Primarina|87/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1782768925
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|3
+|
+|t:|1782768945
+|move|p1b: Torkoal|Helping Hand|p1a: Venusaur
+|-singleturn|p1a: Venusaur|Helping Hand|[of] p1b: Torkoal
+|move|p2b: Primarina|Protect|p2b: Primarina
+|-singleturn|p2b: Primarina|Protect
+|move|p1a: Venusaur|Leaf Storm|p2b: Primarina
+|-activate|p2b: Primarina|move: Protect
+|move|p2a: Grimmsnarl|Spirit Break|p1b: Torkoal
+|-resisted|p1b: Torkoal|1
+|-damage|p1b: Torkoal|89/100
+|-unboost|p1b: Torkoal|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Primarina|93/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1782768966
+|switch|p2a: Delphox|Delphox, L50, F, shiny|100/100
+|move|p1a: Venusaur|Sleep Powder|p2b: Primarina
+|-status|p2b: Primarina|slp|[from] move: Sleep Powder
+|cant|p2b: Primarina|slp
+|move|p1b: Torkoal|Eruption|p2a: Delphox|[spread] p2a,p2b
+|-resisted|p2a: Delphox|1
+|-resisted|p2b: Primarina|1
+|-crit|p2b: Primarina
+|-damage|p2a: Delphox|71/100
+|-damage|p2b: Primarina|37/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Primarina|43/100 slp|[from] item: Leftovers
+|-sideend|p1: pati_patout|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1782769014
+|switch|p2b: Sinistcha|Sinistcha-Masterpiece, L50, shiny|100/100
+|-heal|p2a: Delphox|95/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|detailschange|p2a: Delphox|Delphox-Mega, L50, F, shiny
+|-mega|p2a: Delphox|Delphox|Delphoxite
+|move|p1a: Venusaur|Sludge Bomb|p2b: Sinistcha
+|-damage|p2b: Sinistcha|60/100
+|-damage|p1a: Venusaur|39/100|[from] item: Life Orb
+|move|p2a: Delphox|Psychic|p1b: Torkoal
+|-damage|p1b: Torkoal|28/100
+|move|p1b: Torkoal|Heat Wave|p2a: Delphox|[spread] p2a,p2b
+|-resisted|p2a: Delphox|1
+|-supereffective|p2b: Sinistcha|1
+|-damage|p2a: Delphox|77/100
+|-damage|p2b: Sinistcha|0 fnt
+|faint|p2b: Sinistcha
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1782769030
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|80/100
+|turn|6
+|
+|t:|1782769067
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100
+|move|p2b: Grimmsnarl|Parting Shot|p1b: Annihilape
+|-unboost|p1b: Annihilape|atk|1
+|-ability|p1b: Annihilape|Defiant|boost
+|-boost|p1b: Annihilape|atk|2
+|-unboost|p1b: Annihilape|spa|1
+|-ability|p1b: Annihilape|Defiant|boost
+|-boost|p1b: Annihilape|atk|2
+|
+|t:|1782769072
+|switch|p2b: Primarina|Primarina, L50, F|43/100 slp|[from] Parting Shot
+|move|p1a: Venusaur|Sleep Powder|p2a: Delphox
+|-status|p2a: Delphox|slp|[from] move: Sleep Powder
+|cant|p2a: Delphox|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Primarina|50/100y slp|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1782769089
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|80/100
+|move|p1a: Venusaur|Leaf Storm|p2b: Primarina|[miss]
+|-miss|p1a: Venusaur|p2b: Primarina
+|move|p1b: Annihilape|Rage Fist|p2a: Grimmsnarl
+|-resisted|p2a: Grimmsnarl|1
+|-damage|p2a: Grimmsnarl|60/100
+|-curestatus|p2b: Primarina|slp|[msg]
+|move|p2b: Primarina|Moonblast|p1b: Annihilape
+|-supereffective|p1b: Annihilape|1
+|-enditem|p1b: Annihilape|Focus Sash
+|-damage|p1b: Annihilape|1/100
+|-unboost|p1b: Annihilape|spa|1
+|-ability|p1b: Annihilape|Defiant|boost
+|-boost|p1b: Annihilape|atk|2
+|
+|-weather|none
+|-heal|p2b: Primarina|56/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1782769121
+|switch|p2b: Delphox|Delphox-Mega, L50, F, shiny|77/100 slp
+|move|p1b: Annihilape|Close Combat|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-unboost|p1b: Annihilape|def|1
+|-unboost|p1b: Annihilape|spd|1
+|faint|p2a: Grimmsnarl
+|move|p1a: Venusaur|Sleep Powder|p2b: Delphox
+|-fail|p2b: Delphox|slp
+|
+|-sideend|p2: OdieVGC|Reflect
+|upkeep
+|
+|t:|1782769131
+|switch|p2a: Primarina|Primarina, L50, F|56/100
+|turn|9
+|
+|t:|1782769154
+|cant|p2b: Delphox|slp
+|move|p1b: Annihilape|Rage Fist|p2b: Delphox
+|-supereffective|p2b: Delphox|1
+|-damage|p2b: Delphox|0 fnt
+|faint|p2b: Delphox
+|move|p1a: Venusaur|Leaf Storm|p2a: Primarina
+|-supereffective|p2a: Primarina|1
+|-crit|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|-unboost|p1a: Venusaur|spa|2
+|faint|p2a: Primarina
+|-damage|p1a: Venusaur|29/100|[from] item: Life Orb
+|
+|win|pati_patout
+|raw|pati_patout's rating: 1066 → 1090(+24 for winning)
+|raw|OdieVGC's rating: 1000 → 1000(+0 for losing)

@@ -9,16 +9,14 @@ existing_games = os.listdir("data/games/")
 
 new = 0
 
-for p in range(1,17):
+for p in range(75,150):
     print("Page number: ", p)
     options = Options()
     options.add_argument("--headless=new") 
     driver = webdriver.Chrome(options=options)
     options.add_argument("--headless=new")
     
-    driver.get(f"https://replay.pokemonshowdown.com/?format=%5BGen%209%5D%20VGC%202025%20Reg%20H%20(Bo3)&page={p}")
-    #driver.get(f"https://replay.pokemonshowdown.com/?format=%5BGen%209%5D%20VGC%202025%20Reg%20H%20(Bo3)&page={p}&sort=rating")
-
+    driver.get(f"https://replay.pokemonshowdown.com/?format=%5BGen%209%20Champions%5D%20VGC%202026%20Reg%20M-B%20(BO3)&page={p}")
     time.sleep(3)
 
     html = driver.page_source

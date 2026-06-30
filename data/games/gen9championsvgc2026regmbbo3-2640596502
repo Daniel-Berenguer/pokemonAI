@@ -1,0 +1,247 @@
+|j|☆pm12356
+|j|☆duende tester
+|html|pm12356duende tester    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1782660314
+|gametype|doubles
+|player|p1|pm12356|266|1085
+|player|p2|duende tester|169|1195
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Beedrill, L50, M|
+|poke|p1|Sylveon, L50, F|
+|poke|p1|Tsareena, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Aerodactyl, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Staraptor, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Venusaur, L50, F|
+|teampreview|4
+|showteam|p1|Beedrill||Beedrillite|Sniper|PoisonJab,Uturn,Round,KnockOff|Jolly||M|||50|]Sylveon||FairyFeather|Pixilate|Round,HyperVoice,Psychic,Protect|Modest||F|||50|]Tsareena||ChoiceScarf|QueenlyMajesty|TropKick,KnockOff,Taunt,Charm|Jolly||F|||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,DarkestLariat,PartingShot,FakeOut|Adamant||M|||50|]Aerodactyl||FocusSash|Unnerve|RockSlide,WideGuard,Tailwind,Protect|Jolly||F|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,IronHead,Protect|Adamant||M|||50|
+|showteam|p2|Staraptor||Staraptite|Intimidate|BraveBird,CloseCombat,Roost,Protect|Adamant||F|||50|]Grimmsnarl||LightClay|Prankster|SpiritBreak,PartingShot,LightScreen,Reflect|Careful||M|||50|]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,WideGuard|Modest||M|||50|]Archaludon||Leftovers|Stamina|ElectroShot,DragonPulse,FlashCannon,Protect|Modest||F|||50|]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,PowerGem,Thunderbolt|Modest|||||50|]Venusaur||Venusaurite|Overgrow|SludgeBomb,EarthPower,GigaDrain,Protect|Modest||F|||50|
+|
+|t:|1782660357
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, L50, F|100/100
+|switch|p1b: Sylveon|Sylveon, L50, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Staraptor|Staraptor, L50, F|100/100
+|-ability|p1a: Aerodactyl|Unnerve
+|-ability|p2b: Staraptor|Intimidate|boost
+|-unboost|p1a: Aerodactyl|atk|1
+|-unboost|p1b: Sylveon|atk|1
+|turn|1
+|
+|t:|1782660390
+|move|p2b: Staraptor|Protect|p2b: Staraptor
+|-singleturn|p2b: Staraptor|Protect
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: duende tester|move: Light Screen
+|move|p1a: Aerodactyl|Tailwind|p1a: Aerodactyl
+|-sidestart|p1: pm12356|move: Tailwind
+|move|p1b: Sylveon|Hyper Voice|p2a: Grimmsnarl|[spread] p2a
+|-activate|p2b: Staraptor|move: Protect
+|-supereffective|p2a: Grimmsnarl|1
+|-damage|p2a: Grimmsnarl|38/100
+|
+|upkeep
+|turn|2
+|
+|t:|1782660418
+|detailschange|p2b: Staraptor|Staraptor-Mega, L50, F
+|-mega|p2b: Staraptor|Staraptor|Staraptite
+|move|p2a: Grimmsnarl|Parting Shot|p1b: Sylveon
+|-unboost|p1b: Sylveon|atk|1
+|-unboost|p1b: Sylveon|spa|1
+|
+|t:|1782660423
+|switch|p2a: Archaludon|Archaludon, L50, F|100/100|[from] Parting Shot
+|move|p1a: Aerodactyl|Rock Slide|p2b: Staraptor|[spread] p2a,p2b
+|-resisted|p2a: Archaludon|1
+|-damage|p2a: Archaludon|95/100
+|-damage|p2b: Staraptor|83/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|cant|p2b: Staraptor|flinch
+|move|p1b: Sylveon|Hyper Voice|p2a: Archaludon|[spread] p2a,p2b
+|-supereffective|p2b: Staraptor|1
+|-damage|p2a: Archaludon|74/100
+|-damage|p2b: Staraptor|32/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|
+|-heal|p2a: Archaludon|80/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1782660453
+|move|p2b: Staraptor|Protect|p2b: Staraptor
+|-singleturn|p2b: Staraptor|Protect
+|move|p1a: Aerodactyl|Rock Slide|p2b: Staraptor|[spread] p2a
+|-activate|p2b: Staraptor|move: Protect
+|-resisted|p2a: Archaludon|1
+|-crit|p2a: Archaludon
+|-damage|p2a: Archaludon|68/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p1b: Sylveon|Hyper Voice|p2b: Staraptor|[spread] p2a
+|-activate|p2b: Staraptor|move: Protect
+|-damage|p2a: Archaludon|45/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2a: Archaludon|Flash Cannon|p1b: Sylveon
+|-supereffective|p1b: Sylveon|1
+|-damage|p1b: Sylveon|51/100
+|
+|-heal|p2a: Archaludon|51/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1782660478
+|move|p1a: Aerodactyl|Rock Slide|p2b: Staraptor|[spread] p2a,p2b
+|-resisted|p2a: Archaludon|1
+|-damage|p2a: Archaludon|49/100
+|-damage|p2b: Staraptor|17/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2b: Staraptor|Roost|p2b: Staraptor
+|-heal|p2b: Staraptor|67/100
+|-singleturn|p2b: Staraptor|move: Roost
+|move|p1b: Sylveon|Hyper Voice|p2b: Staraptor|[spread] p2a,p2b
+|-supereffective|p2b: Staraptor|1
+|-damage|p2a: Archaludon|26/100
+|-damage|p2b: Staraptor|18/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2a: Archaludon|Flash Cannon|p1b: Sylveon
+|-supereffective|p1b: Sylveon|1
+|-damage|p1b: Sylveon|0 fnt
+|faint|p1b: Sylveon
+|
+|-heal|p2a: Archaludon|33/100|[from] item: Leftovers
+|-sideend|p1: pm12356|move: Tailwind
+|upkeep
+|
+|t:|1782660499
+|switch|p1b: Beedrill|Beedrill, L50, M|100/100
+|turn|5
+|
+|t:|1782660539
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|38/100
+|detailschange|p1b: Beedrill|Beedrill-Mega, L50, M
+|-mega|p1b: Beedrill|Beedrill|Beedrillite
+|move|p1b: Beedrill|Knock Off|p2a: Archaludon
+|-damage|p2a: Archaludon|24/100
+|-enditem|p2a: Archaludon|Leftovers|[from] move: Knock Off|[of] p1b: Beedrill
+|move|p1a: Aerodactyl|Rock Slide|p2b: Grimmsnarl|[spread] p2a
+|-miss|p1a: Aerodactyl|p2b: Grimmsnarl
+|-resisted|p2a: Archaludon|1
+|-damage|p2a: Archaludon|23/100
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|
+|upkeep
+|turn|6
+|
+|t:|1782660582
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: duende tester|Reflect
+|move|p1b: Beedrill|Poison Jab|p2b: Grimmsnarl
+|-supereffective|p2b: Grimmsnarl|1
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|move|p1a: Aerodactyl|Rock Slide|p2a: Archaludon
+|-resisted|p2a: Archaludon|1
+|-damage|p2a: Archaludon|22/100
+|move|p2a: Archaludon|Electro Shot|p1b: Beedrill|[from] lockedmove
+|-damage|p1b: Beedrill|17/100
+|
+|upkeep
+|
+|t:|1782660595
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|7
+|
+|t:|1782660622
+|move|p1b: Beedrill|Poison Jab|p2b: Pelipper
+|-damage|p2b: Pelipper|42/100
+|move|p1a: Aerodactyl|Tailwind|p1a: Aerodactyl
+|-sidestart|p1: pm12356|move: Tailwind
+|move|p2b: Pelipper|Tailwind|p2b: Pelipper
+|-sidestart|p2: duende tester|move: Tailwind
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl|1
+|-enditem|p1a: Aerodactyl|Focus Sash
+|-damage|p1a: Aerodactyl|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1782660645
+|move|p2b: Pelipper|Wide Guard|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Wide Guard
+|move|p1b: Beedrill|Poison Jab|p2b: Pelipper
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|move|p1a: Aerodactyl|Rock Slide|p2a: Archaludon
+|-activate|p2a: Archaludon|move: Wide Guard
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1b: Beedrill
+|-damage|p1b: Beedrill|0 fnt
+|faint|p1b: Beedrill
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: duende tester|move: Light Screen
+|upkeep
+|
+|t:|1782660662
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|switch|p2b: Staraptor|Staraptor-Mega, L50, F|18/100
+|turn|9
+|
+|t:|1782660676
+|move|p1b: Kingambit|Sucker Punch|p2a: Archaludon
+|-damage|p2a: Archaludon|16/100
+|move|p1a: Aerodactyl|Rock Slide|p2b: Staraptor|[spread] p2a,p2b
+|-resisted|p2a: Archaludon|1
+|-damage|p2a: Archaludon|16/100
+|-damage|p2b: Staraptor|7/100
+|move|p2b: Staraptor|Roost|p2b: Staraptor
+|-heal|p2b: Staraptor|57/100
+|-singleturn|p2b: Staraptor|move: Roost
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1b: Kingambit
+|-damage|p1b: Kingambit|0 fnt
+|faint|p1b: Kingambit
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|-message|pm12356 forfeited.
+|
+|win|duende tester
+||pm12356 is ready for game 2.
+||duende tester is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆pm12356
+|player|p1|

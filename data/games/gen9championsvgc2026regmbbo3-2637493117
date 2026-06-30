@@ -1,0 +1,118 @@
+|j|☆Cucurella vgc
+|j|☆testy accounty 2
+|html|Cucurella vgctesty accounty 2    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782196093
+|gametype|doubles
+|player|p1|Cucurella vgc|266|1275
+|player|p2|testy accounty 2|102|1235
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Gengar, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Politoed, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Froslass, L50, F|
+|teampreview|4
+|showteam|p1|Floette-Eternal||Floettite|FlowerVeil|DazzlingGleam,Protect,Moonblast,LightofRuin|Modest||F|||50|]Charizard||CharizarditeY|SolarPower|Protect,SolarBeam,WeatherBall,HeatWave|Modest||M|||50|]Basculegion||ChoiceScarf|Adaptability|FlipTurn,WaveCrash,LastRespects,AquaJet|Jolly||M|||50|]Garchomp||LifeOrb|RoughSkin|Protect,Earthquake,DragonClaw,RockTomb|Adamant||M|||50|]Whimsicott||FairyFeather|Prankster|Moonblast,Encore,Protect,Tailwind|Timid||F|||50|]Kingambit||FocusSash|Defiant|Protect,KowtowCleave,IronHead,SuckerPunch|Adamant||M|||50|
+|showteam|p2|Gengar||Gengarite|CursedBody|ShadowBall,Disable,PerishSong,Protect|Timid||M|||50|]Sinistcha||KasibBerry|Hospitality|MatchaGotcha,TrickRoom,RagePowder,Protect|Calm|||||50|]Archaludon||Leftovers|Stamina|ElectroShot,DragonPulse,FlashCannon,Protect|Modest||M|||50|]Politoed||SitrusBerry|Drizzle|WeatherBall,PerishSong,Protect,Encore|Calm||F|||50|]Incineroar||ChopleBerry|Intimidate|FlareBlitz,FakeOut,PartingShot,Protect|Sassy||M|||50|]Froslass||Froslassite|CursedBody|Blizzard,AuroraVeil,ShadowBall,Protect|Timid||F|||50|
+|
+|t:|1782196109
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, M|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2a: Gengar|Gengar, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|-unboost|p1b: Whimsicott|atk|1
+|turn|1
+|
+|t:|1782196136
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|detailschange|p2a: Gengar|Gengar-Mega, L50, M
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p1a: Charizard|Protect|p1a: Charizard
+|-singleturn|p1a: Charizard|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Charizard
+|-activate|p1a: Charizard|move: Protect
+|move|p2a: Gengar|Perish Song|p2a: Gengar
+|-start|p1a: Charizard|perish3|[silent]
+|-start|p1b: Kingambit|perish3|[silent]
+|-start|p2a: Gengar|perish3|[silent]
+|-start|p2b: Incineroar|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-start|p2a: Gengar|perish3
+|-start|p1a: Charizard|perish3
+|-start|p1b: Kingambit|perish3
+|-start|p2b: Incineroar|perish3
+|upkeep
+|turn|2
+|
+|t:|1782196160
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p1a: Charizard|Heat Wave|p2b: Incineroar|[spread] p2b
+|-activate|p2a: Gengar|move: Protect
+|-resisted|p2b: Incineroar|1
+|-damage|p2b: Incineroar|88/100
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Gengar
+|-activate|p2a: Gengar|move: Protect
+|move|p2b: Incineroar|Parting Shot|p1a: Charizard
+|-unboost|p1a: Charizard|atk|1
+|-unboost|p1a: Charizard|spa|1
+|
+|t:|1782196173
+|switch|p2b: Politoed|Politoed, L50, F|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Politoed
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Gengar|perish2
+|-start|p1a: Charizard|perish2
+|-start|p1b: Kingambit|perish2
+|upkeep
+|turn|3
+|
+|t:|1782196180
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2a: Gengar|Disable|p1b: Kingambit
+|-start|p1b: Kingambit|Disable|Kowtow Cleave
+|move|p1a: Charizard|Weather Ball|p2a: Gengar
+|-damage|p2a: Gengar|34/100
+|move|p2b: Politoed|Encore|p1b: Kingambit
+|-start|p1b: Kingambit|Encore
+|cant|p1b: Kingambit|Disable|Kowtow Cleave
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2a: Gengar|perish1
+|-start|p1a: Charizard|perish1
+|-start|p1b: Kingambit|perish1
+|upkeep
+|turn|4
+|-message|Cucurella vgc forfeited.
+|
+|win|testy accounty 2
+|raw|Cucurella vgc's rating: 1275 → 1247(-28 for losing)
+|raw|testy accounty 2's rating: 1235 → 1263(+28 for winning)
+|l|☆Cucurella vgc
+|player|p1|
+|l|☆testy accounty 2
+|player|p2|
+|j|☆testy accounty 2
+|player|p2|testy accounty 2|102|

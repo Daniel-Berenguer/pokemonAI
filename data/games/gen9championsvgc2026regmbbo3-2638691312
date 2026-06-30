@@ -1,0 +1,168 @@
+|j|☆fly butterfly fly
+|j|☆Pineyfressh
+|html|fly butterfly flyPineyfressh    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1782360020
+|gametype|doubles
+|player|p1|fly butterfly fly|101|1137
+|player|p2|Pineyfressh|102|1128
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kangaskhan, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Vileplume, L50, M|
+|poke|p1|Kommo-o, L50, F|
+|poke|p1|Pyroar, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Toxapex, L50, F|
+|poke|p2|Scovillain, L50, F|
+|poke|p2|Golurk, L50|
+|poke|p2|Hatterene, L50, F|
+|teampreview|4
+|showteam|p1|Kangaskhan||SilkScarf|Scrappy|FakeOut,LastResort|Adamant||F|||50|]Farigiraf||ColburBerry|ArmorTail|Psychic,Thunderbolt,Protect,TrickRoom|Bold||M|||50|]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HelpingHand,Protect|Quiet||F|||50|]Vileplume||FocusSash|Chlorophyll|SleepPowder,EnergyBall,SludgeBomb,AfterYou|Timid||M|||50|]Kommo-o||HabanBerry|Overcoat|ClangingScales,AuraSphere,ClangorousSoul,Protect|Modest||F|||50|]Pyroar||Pyroarite|Unnerve|HeatWave,Overheat,ScorchingSands,Protect|Timid||F|||50|
+|showteam|p2|Kingambit||BlackGlasses|Defiant|SuckerPunch,IronHead,BrickBreak,Protect|Adamant||M|||50|]Farigiraf||Leftovers|ArmorTail|TrickRoom,Protect,TwinBeam,DazzlingGleam|Relaxed||M|||50|]Toxapex||SitrusBerry|Regenerator|BanefulBunker,Toxic,Protect,Infestation|Bold||F|||50|]Scovillain||Scovillainite|Chlorophyll|LeechSeed,Protect,GigaDrain,Flamethrower|Calm||F|||50|]Golurk||Golurkite|NoGuard|Earthquake,Protect,KnockOff,PhantomForce|Adamant|||||50|]Hatterene||MentalHerb|MagicBounce|TrickRoom,DazzlingGleam,Protect,Psychic|Sassy||F|||50|
+|
+|t:|1782360061
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|switch|p1b: Pyroar|Pyroar, L50, F|100/100
+|switch|p2a: Golurk|Golurk, L50|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|-ability|p1b: Pyroar|Unnerve
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1782360094
+|detailschange|p1b: Pyroar|Pyroar-Mega, L50, F
+|-mega|p1b: Pyroar|Pyroar|Pyroarite
+|detailschange|p2a: Golurk|Golurk-Mega, L50
+|-mega|p2a: Golurk|Golurk|Golurkite
+|move|p1a: Torkoal|Helping Hand|p1b: Pyroar
+|-singleturn|p1b: Pyroar|Helping Hand|[of] p1a: Torkoal
+|move|p2a: Golurk|Protect|p2a: Golurk
+|-singleturn|p2a: Golurk|Protect
+|move|p1b: Pyroar|Overheat|p2a: Golurk
+|-activate|p2a: Golurk|move: Protect
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1782360126
+|move|p2b: Farigiraf|Protect|p2b: Farigiraf
+|-singleturn|p2b: Farigiraf|Protect
+|move|p1b: Pyroar|Protect|p1b: Pyroar
+|-singleturn|p1b: Pyroar|Protect
+|move|p1a: Torkoal|Eruption|p2b: Farigiraf|[spread] p2a
+|-activate|p2b: Farigiraf|move: Protect
+|-damage|p2a: Golurk|26/100
+|move|p2a: Golurk|Earthquake|p1b: Pyroar|[spread] p1a
+|-activate|p2b: Farigiraf|move: Protect
+|-activate|p1b: Pyroar|move: Protect
+|-supereffective|p1a: Torkoal|1
+|-damage|p1a: Torkoal|31/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1782360156
+|move|p2b: Farigiraf|Protect||[still]
+|-fail|p2b: Farigiraf
+|move|p2a: Golurk|Protect|p2a: Golurk
+|-singleturn|p2a: Golurk|Protect
+|move|p1a: Torkoal|Weather Ball|p2a: Golurk
+|-activate|p2a: Golurk|move: Protect
+|move|p1b: Pyroar|Heat Wave|p2a: Golurk|[spread] p2b
+|-activate|p2a: Golurk|move: Protect
+|-damage|p2b: Farigiraf|12/100
+|-status|p2b: Farigiraf|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Farigiraf|18/100 brn|[from] item: Leftovers
+|-damage|p2b: Farigiraf|12/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1782360177
+|move|p1a: Torkoal|Weather Ball|p2a: Golurk
+|-damage|p2a: Golurk|0 fnt
+|faint|p2a: Golurk
+|move|p2b: Farigiraf|Twin Beam|p1b: Pyroar
+|-damage|p1b: Pyroar|81/100
+|-damage|p1b: Pyroar|61/100
+|-hitcount|p1b: Pyroar|2
+|move|p1b: Pyroar|Heat Wave|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1782360197
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: Toxapex|Toxapex, L50, F|100/100
+|turn|5
+|
+|t:|1782360214
+|switch|p1a: Kangaskhan|Kangaskhan, L50, F|100/100
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1b: Pyroar|Protect|p1b: Pyroar
+|-singleturn|p1b: Pyroar|Protect
+|move|p2b: Hatterene|Psychic|p1a: Kangaskhan
+|-crit|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|37/100
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1782360243
+|switch|p1a: Torkoal|Torkoal, L50, F|31/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p1b: Pyroar|Heat Wave|p2a: Toxapex|[spread] p2a,p2b
+|-resisted|p2a: Toxapex|1
+|-damage|p2a: Toxapex|68/100
+|-damage|p2b: Hatterene|39/100
+|move|p2a: Toxapex|Infestation|p1b: Pyroar
+|-resisted|p1b: Pyroar|1
+|-damage|p1b: Pyroar|60/100
+|-activate|p1b: Pyroar|move: Infestation|[of] p2a: Toxapex
+|move|p2b: Hatterene|Trick Room|p2b: Hatterene
+|-fieldstart|move: Trick Room|[of] p2b: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Pyroar|47/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1782360274
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Torkoal|Weather Ball|p2b: Hatterene
+|-damage|p2b: Hatterene|0 fnt
+|faint|p2b: Hatterene
+|move|p1b: Pyroar|Overheat|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Pyroar|35/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|8
+|-message|Pineyfressh forfeited.
+|
+|win|fly butterfly fly
+|l|☆Pineyfressh
+|player|p2|

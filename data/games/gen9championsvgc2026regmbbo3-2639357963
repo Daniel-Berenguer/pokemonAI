@@ -1,0 +1,164 @@
+|j|☆lettykings
+|j|☆tirion
+|html|lettykingstirion    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1782460296
+|gametype|doubles
+|player|p1|lettykings|clair|1050
+|player|p2|tirion|266|1114
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p2|Blastoise, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Politoed, L50, F|
+|poke|p2|Scizor, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|HeatWave,SolarBeam,WeatherBall,Protect|Modest||M|||50|]Garchomp||RoseliBerry|RoughSkin|Earthquake,DragonClaw,RockSlide,Protect|Jolly||F|||50|]Basculegion||LifeOrb|Adaptability|WaveCrash,LastRespects,AquaJet,Protect|Adamant||M|||50|]Incineroar||SitrusBerry|Intimidate|DarkestLariat,FlareBlitz,PartingShot,FakeOut|Careful||M|||50|]Venusaur||CobaBerry|Chlorophyll|GigaDrain,SludgeBomb,SleepPowder,Protect|Modest||F|||50|]Whimsicott||FocusSash|Prankster|Moonblast,Encore,Tailwind,Protect|Timid||F|||50|
+|showteam|p2|Blastoise||Blastoisinite|RainDish|WaterSpout,AuraSphere,DarkPulse,FakeOut|Quiet||F|||50|]Archaludon||Leftovers|Stamina|ElectroShot,AuraSphere,FlashCannon,Protect|Bold||F|||50|]Sinistcha||CobaBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,LifeDew|Sassy|||||50|]Politoed||MysticWater|Drizzle|ChillingWater,IceBeam,WeatherBall,HelpingHand|Bold||F|||50|]Scizor||Scizorite|Technician|BugBite,BulletPunch,KnockOff,SwordsDance|Brave||M|||50|]Farigiraf||ColburBerry|ArmorTail|TwinBeam,TrickRoom,RainDance,Protect|Relaxed||F|||50|
+|
+|t:|1782460351
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, M|100/100
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2b: Scizor|Scizor, L50, M|100/100
+|turn|1
+|
+|t:|1782460382
+|switch|p2b: Blastoise|Blastoise, L50, F|100/100
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p1b: Garchomp|Earthquake|p2b: Blastoise|[spread] p2a,p2b
+|-immune|p1a: Charizard
+|-damage|p2a: Farigiraf|70/100
+|-damage|p2b: Blastoise|62/100
+|move|p1a: Charizard|Heat Wave|p2b: Blastoise|[spread] p2a,p2b
+|-resisted|p2b: Blastoise|1
+|-damage|p2a: Farigiraf|14/100
+|-damage|p2b: Blastoise|36/100
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1782460409
+|switch|p1a: Venusaur|Venusaur, L50, F|100/100
+|detailschange|p2b: Blastoise|Blastoise-Mega, L50, F
+|-mega|p2b: Blastoise|Blastoise|Blastoisinite
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p2a: Farigiraf|Rain Dance|p2a: Farigiraf
+|-weather|RainDance
+|move|p2b: Blastoise|Water Spout|p1a: Venusaur|[spread] p1a
+|-activate|p1b: Garchomp|move: Protect
+|-resisted|p1a: Venusaur|1
+|-damage|p1a: Venusaur|83/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1782460430
+|switch|p2b: Sinistcha|Sinistcha, L50|100/100
+|-heal|p2a: Farigiraf|39/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|move|p2a: Farigiraf|Twin Beam|p1a: Venusaur
+|-supereffective|p1a: Venusaur|1
+|-damage|p1a: Venusaur|54/100
+|-supereffective|p1a: Venusaur|1
+|-damage|p1a: Venusaur|27/100
+|-hitcount|p1a: Venusaur|2
+|move|p1a: Venusaur|Giga Drain|p2b: Sinistcha
+|-resisted|p2b: Sinistcha|1
+|-damage|p2b: Sinistcha|84/100
+|-heal|p1a: Venusaur|34/100|[from] drain|[of] p2b: Sinistcha
+|move|p1b: Garchomp|Dragon Claw|p2a: Farigiraf
+|-damage|p2a: Farigiraf|2/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1782460472
+|switch|p2a: Blastoise|Blastoise-Mega, L50, F|36/100
+|switch|p1a: Charizard|Charizard-Mega-Y, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2b: Sinistcha|Life Dew|p2b: Sinistcha|[spread] p2a,p2b
+|-heal|p2a: Blastoise|61/100
+|-heal|p2b: Sinistcha|100/100
+|move|p1b: Garchomp|Earthquake|p2a: Blastoise|[spread] p2a,p2b
+|-immune|p1a: Charizard
+|-resisted|p2b: Sinistcha|1
+|-damage|p2a: Blastoise|32/100
+|-damage|p2b: Sinistcha|83/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1782460506
+|switch|p2b: Farigiraf|Farigiraf, L50, F|2/100
+|switch|p1a: Venusaur|Venusaur, L50, F|34/100
+|move|p2a: Blastoise|Fake Out|p1a: Venusaur
+|-damage|p1a: Venusaur|24/100
+|move|p1b: Garchomp|Dragon Claw|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1782460520
+|switch|p2b: Sinistcha|Sinistcha, L50|83/100
+|-heal|p2a: Blastoise|56/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|turn|6
+|
+|t:|1782460538
+|move|p2b: Sinistcha|Rage Powder|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|move: Rage Powder
+|move|p1a: Venusaur|Sludge Bomb|p2b: Sinistcha
+|-damage|p2b: Sinistcha|42/100
+|-status|p2b: Sinistcha|psn
+|move|p1b: Garchomp|Dragon Claw|p2b: Sinistcha
+|-crit|p2b: Sinistcha
+|-damage|p2b: Sinistcha|0 fnt
+|faint|p2b: Sinistcha
+|move|p2a: Blastoise|Dark Pulse|p1a: Venusaur
+|-crit|p1a: Venusaur
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1782460571
+|switch|p1a: Charizard|Charizard-Mega-Y, L50, M|100/100
+|switch|p2b: Scizor|Scizor, L50, M|100/100
+|turn|7
+|-message|tirion forfeited.
+|
+|win|lettykings
+|l|☆tirion
+|player|p2|
+||tirion is ready for game 2.
+|inactive|lettykings has 30 seconds to confirm battle start!
+|inactive|lettykings has 20 seconds to confirm battle start!
+||lettykings is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

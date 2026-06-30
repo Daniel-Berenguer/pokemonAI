@@ -1,0 +1,354 @@
+|j|☆sydneeysweeny67
+|j|☆MuseigenTest
+|html|sydneeysweeny67MuseigenTest    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782529483
+|gametype|doubles
+|player|p1|sydneeysweeny67|lady-gen4|1040
+|player|p2|MuseigenTest|102|1169
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kingambit, L50, F, shiny|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Sinistcha, L50, shiny|
+|poke|p1|Toxapex, L50, F, shiny|
+|poke|p1|Delphox, L50, M, shiny|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Sinistcha, L50, shiny|
+|poke|p2|Incineroar, L50, M, shiny|
+|poke|p2|Milotic, L50, F|
+|poke|p2|Scrafty, L50, M|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Kingambit||BlackGlasses|Defiant|KowtowCleave,SwordsDance,SuckerPunch,Protect|Adamant||F|||50|]Floette-Eternal||Floettite|FlowerVeil|DazzlingGleam,Moonblast,CalmMind,Protect|Modest||F|||50|]Sinistcha||KasibBerry|Hospitality|MatchaGotcha,TrickRoom,RagePowder,Protect|Bold|||||50|]Toxapex||Leftovers|Regenerator|Toxic,Infestation,WideGuard,BanefulBunker|Bold||F|||50|]Delphox||Delphoxite|Blaze|NastyPlot,Psyshock,HeatWave,Protect|Timid||M|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,PartingShot,FlareBlitz,ThroatChop|Impish||F|||50|
+|showteam|p2|Sinistcha||KasibBerry|Hospitality|Protect,RagePowder,MatchaGotcha,LifeDew|Calm|||||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,ThroatChop,FlareBlitz,PartingShot|Impish||M|||50|]Milotic||Leftovers|Competitive|Coil,MuddyWater,Hypnosis,Protect|Bold||F|||50|]Scrafty||Scraftinite|Intimidate|DrainPunch,SwordsDance,KnockOff,FakeOut|Careful||M|||50|]Floette-Eternal||Floettite|FlowerVeil|Protect,DrainingKiss,CalmMind,DazzlingGleam|Timid||F|||50|]Sneasler||FocusSash|PoisonTouch|FakeOut,CloseCombat,DireClaw,Coaching|Jolly||M|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MuseigenTest)
+|inactive|MuseigenTest has 60 seconds left.
+|
+|t:|1782529529
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Toxapex|Toxapex, L50, F, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Milotic|Milotic, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Sneasler|atk|1
+|-unboost|p2b: Milotic|atk|1
+|-ability|p2b: Milotic|Competitive|boost
+|-boost|p2b: Milotic|spa|2
+|turn|1
+|inactive|MuseigenTest has 30 seconds left.
+|
+|t:|1782529557
+|move|p2a: Sneasler|Fake Out|p1b: Incineroar
+|-damage|p1b: Incineroar|92/100
+|cant|p1b: Incineroar|flinch
+|move|p2b: Milotic|Coil|p2b: Milotic
+|-boost|p2b: Milotic|atk|1
+|-boost|p2b: Milotic|def|1
+|-boost|p2b: Milotic|accuracy|1
+|move|p1a: Toxapex|Toxic|p2b: Milotic
+|-status|p2b: Milotic|tox
+|
+|-damage|p2b: Milotic|94/100 tox|[from] psn
+|upkeep
+|turn|2
+|inactive|MuseigenTest has 30 seconds left.
+|
+|t:|1782529585
+|switch|p1b: Sinistcha|Sinistcha, L50, shiny|100/100
+|move|p2a: Sneasler|Dire Claw|p1b: Sinistcha
+|-damage|p1b: Sinistcha|77/100
+|-status|p1b: Sinistcha|par
+|move|p2b: Milotic|Hypnosis|p1a: Toxapex
+|-status|p1a: Toxapex|slp|[from] move: Hypnosis
+|cant|p1a: Toxapex|slp
+|
+|-heal|p2b: Milotic|100/100 tox|[from] item: Leftovers
+|-damage|p2b: Milotic|88/100 tox|[from] psn
+|upkeep
+|turn|3
+|inactive|MuseigenTest has 30 seconds left.
+|
+|t:|1782529613
+|switch|p2a: Floette|Floette-Eternal, L50, F|100/100
+|move|p2b: Milotic|Muddy Water|p1b: Sinistcha|[spread] p1a,p1b
+|-resisted|p1a: Toxapex|1
+|-resisted|p1b: Sinistcha|1
+|-crit|p1b: Sinistcha
+|-damage|p1a: Toxapex|82/100 slp
+|-damage|p1b: Sinistcha|44/100 par
+|-unboost|p1b: Sinistcha|accuracy|1
+|-curestatus|p1a: Toxapex|slp|[msg]
+|move|p1a: Toxapex|Infestation|p2b: Milotic
+|-damage|p2b: Milotic|85/100 tox
+|-activate|p2b: Milotic|move: Infestation|[of] p1a: Toxapex
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Floette|[spread] p2a,p2b
+|-supereffective|p2b: Milotic|1
+|-damage|p2a: Floette|76/100
+|-heal|p1b: Sinistcha|54/100 par|[from] drain|[of] p2a: Floette
+|-damage|p2b: Milotic|50/100y tox
+|-heal|p1b: Sinistcha|74/100 par|[from] drain|[of] p2b: Milotic
+|
+|-heal|p2b: Milotic|55/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|88/100|[from] item: Leftovers
+|-damage|p2b: Milotic|38/100 tox|[from] psn
+|-damage|p2b: Milotic|25/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|4
+|inactive|MuseigenTest has 30 seconds left.
+|
+|t:|1782529647
+|switch|p2a: Sinistcha|Sinistcha, L50, shiny|100/100
+|-heal|p2b: Milotic|50/100g tox|[from] ability: Hospitality|[of] p2a: Sinistcha
+|move|p1b: Sinistcha|Rage Powder|p1b: Sinistcha
+|-singleturn|p1b: Sinistcha|move: Rage Powder
+|move|p2b: Milotic|Muddy Water|p1a: Toxapex|[spread] p1a,p1b
+|-resisted|p1a: Toxapex|1
+|-resisted|p1b: Sinistcha|1
+|-damage|p1a: Toxapex|70/100
+|-damage|p1b: Sinistcha|52/100 par
+|move|p1a: Toxapex|Toxic|p2a: Sinistcha
+|-status|p2a: Sinistcha|tox
+|
+|-heal|p2b: Milotic|56/100 tox|[from] item: Leftovers
+|-heal|p1a: Toxapex|76/100|[from] item: Leftovers
+|-damage|p2b: Milotic|32/100 tox|[from] psn
+|-damage|p2a: Sinistcha|93/100 tox|[from] psn
+|-damage|p2b: Milotic|20/100y tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1782529672
+|move|p2b: Milotic|Muddy Water|p1a: Toxapex|[spread] p1a,p1b
+|-resisted|p1a: Toxapex|1
+|-resisted|p1b: Sinistcha|1
+|-damage|p1a: Toxapex|58/100
+|-damage|p1b: Sinistcha|30/100 par
+|-unboost|p1a: Toxapex|accuracy|1
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Toxapex|[spread] p1b
+|-miss|p2a: Sinistcha|p1a: Toxapex
+|-resisted|p1b: Sinistcha|1
+|-damage|p1b: Sinistcha|18/100 par
+|-heal|p2a: Sinistcha|100/100 tox|[from] drain|[of] p1b: Sinistcha
+|move|p1a: Toxapex|Infestation|p2a: Sinistcha
+|-damage|p2a: Sinistcha|97/100 tox
+|-activate|p2a: Sinistcha|move: Infestation|[of] p1a: Toxapex
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Sinistcha|[spread] p2a,p2b
+|-resisted|p2a: Sinistcha|1
+|-supereffective|p2b: Milotic|1
+|-damage|p2a: Sinistcha|86/100 tox
+|-heal|p1b: Sinistcha|24/100 par|[from] drain|[of] p2a: Sinistcha
+|-damage|p2b: Milotic|0 fnt
+|-heal|p1b: Sinistcha|35/100 par|[from] drain|[of] p2b: Milotic
+|faint|p2b: Milotic
+|
+|-heal|p1a: Toxapex|64/100|[from] item: Leftovers
+|-damage|p2a: Sinistcha|74/100 tox|[from] psn
+|-damage|p2a: Sinistcha|61/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1782529687
+|switch|p2b: Floette|Floette-Eternal, L50, F|76/100
+|turn|6
+|
+|t:|1782529700
+|switch|p1b: Incineroar|Incineroar, L50, F|92/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-block|p2a: Sinistcha|ability: Flower Veil|[of] p2b: Floette
+|-unboost|p2b: Floette|atk|1
+|detailschange|p2b: Floette|Floette-Mega, L50, F
+|-mega|p2b: Floette|Floette|Floettite
+|-ability|p2b: Floette|Fairy Aura
+|move|p2a: Sinistcha|Rage Powder|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|move: Rage Powder
+|move|p2b: Floette|Calm Mind|p2b: Floette
+|-boost|p2b: Floette|spa|1
+|-boost|p2b: Floette|spd|1
+|move|p1a: Toxapex|Toxic|p2a: Sinistcha
+|-fail|p2a: Sinistcha|tox
+|
+|-heal|p1a: Toxapex|70/100|[from] item: Leftovers
+|-damage|p2a: Sinistcha|43/100 tox|[from] psn
+|-damage|p2a: Sinistcha|30/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|7
+|inactive|MuseigenTest has 30 seconds left.
+|
+|t:|1782529726
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|move|p2b: Floette|Dazzling Gleam|p1a: Toxapex|[spread] p1a,p1b
+|-resisted|p1a: Toxapex|1
+|-damage|p1a: Toxapex|49/100
+|-damage|p1b: Incineroar|38/100
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|63/100|[from] item: Sitrus Berry
+|move|p1b: Incineroar|Flare Blitz|p2b: Floette
+|-damage|p2b: Floette|30/100
+|-status|p2b: Floette|brn
+|-damage|p1b: Incineroar|51/100|[from] Recoil
+|move|p1a: Toxapex|Infestation|p2b: Floette
+|-resisted|p2b: Floette|1
+|-damage|p2b: Floette|29/100 brn
+|-activate|p2b: Floette|move: Infestation|[of] p1a: Toxapex
+|
+|-heal|p1a: Toxapex|54/100|[from] item: Leftovers
+|-damage|p2b: Floette|23/100 brn|[from] brn
+|-damage|p2b: Floette|11/100 brn|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|t:|1782529750
+|switch|p2a: Sinistcha|Sinistcha, L50, shiny|30/100 tox
+|-heal|p2b: Floette|36/100 brn|[from] ability: Hospitality|[of] p2a: Sinistcha
+|switch|p1b: Sinistcha|Sinistcha, L50, shiny|35/100 par
+|-heal|p1a: Toxapex|79/100|[from] ability: Hospitality|[of] p1b: Sinistcha
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2b: Floette|Draining Kiss|p1b: Sinistcha
+|-damage|p1b: Sinistcha|0 fnt
+|-heal|p2b: Floette|67/100 brn|[from] drain|[of] p1b: Sinistcha
+|faint|p1b: Sinistcha
+|
+|-heal|p1a: Toxapex|85/100|[from] item: Leftovers
+|-damage|p2a: Sinistcha|24/100 tox|[from] psn
+|-damage|p2b: Floette|61/100 brn|[from] brn
+|-damage|p2b: Floette|49/100 brn|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1782529755
+|switch|p1b: Floette|Floette-Eternal, L50, F|100/100
+|turn|9
+|inactive|MuseigenTest has 30 seconds left.
+|
+|t:|1782529787
+|detailschange|p1b: Floette|Floette-Mega, L50, F
+|-mega|p1b: Floette|Floette|Floettite
+|-ability|p1b: Floette|Fairy Aura
+|move|p1a: Toxapex|Wide Guard|p1a: Toxapex
+|-singleturn|p1a: Toxapex|Wide Guard
+|move|p2b: Floette|Draining Kiss|p1b: Floette
+|-damage|p1b: Floette|56/100
+|-heal|p2b: Floette|82/100 brn|[from] drain|[of] p1b: Floette
+|move|p1b: Floette|Calm Mind|p1b: Floette
+|-boost|p1b: Floette|spa|1
+|-boost|p1b: Floette|spd|1
+|move|p2a: Sinistcha|Life Dew|p2a: Sinistcha|[spread] p2a,p2b
+|-heal|p2a: Sinistcha|50/100y tox
+|-heal|p2b: Floette|100/100 brn
+|
+|-heal|p1a: Toxapex|91/100|[from] item: Leftovers
+|-damage|p2a: Sinistcha|37/100 tox|[from] psn
+|-damage|p2b: Floette|94/100 brn|[from] brn
+|-damage|p2b: Floette|81/100 brn|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|10
+|inactive|MuseigenTest has 30 seconds left.
+|
+|t:|1782529814
+|-heal|p1a: Toxapex|100/100|[from] ability: Regenerator|[silent]
+|switch|p1a: Incineroar|Incineroar, L50, F|51/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Sinistcha|atk|1
+|-unboost|p2b: Floette|atk|1
+|move|p1b: Floette|Protect|p1b: Floette
+|-singleturn|p1b: Floette|Protect
+|move|p2b: Floette|Calm Mind|p2b: Floette
+|-boost|p2b: Floette|spa|1
+|-boost|p2b: Floette|spd|1
+|move|p2a: Sinistcha|Life Dew|p2a: Sinistcha|[spread] p2a,p2b
+|-heal|p2a: Sinistcha|62/100 tox
+|-heal|p2b: Floette|100/100 brn
+|
+|-damage|p2a: Sinistcha|44/100 tox|[from] psn
+|-damage|p2b: Floette|94/100 brn|[from] brn
+|-end|p2b: Floette|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|turn|11
+|inactive|MuseigenTest has 30 seconds left.
+|
+|t:|1782529841
+|move|p2b: Floette|Protect|p2b: Floette
+|-singleturn|p2b: Floette|Protect
+|move|p2a: Sinistcha|Protect|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Floette
+|-activate|p2b: Floette|move: Protect
+|move|p1b: Floette|Calm Mind|p1b: Floette
+|-boost|p1b: Floette|spa|1
+|-boost|p1b: Floette|spd|1
+|
+|-damage|p2a: Sinistcha|19/100 tox|[from] psn
+|-damage|p2b: Floette|88/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1782529863
+|switch|p1a: Toxapex|Toxapex, L50, F, shiny|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|move|p2b: Floette|Dazzling Gleam|p1a: Toxapex|[spread] p1a,p1b
+|-resisted|p1a: Toxapex|1
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|52/100
+|-damage|p1b: Floette|23/100
+|move|p1b: Floette|Moonblast|p2b: Floette
+|-damage|p2b: Floette|30/100 brn
+|
+|-heal|p1a: Toxapex|57/100|[from] item: Leftovers
+|-damage|p2b: Floette|24/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1782529886
+|move|p1b: Floette|Protect|p1b: Floette
+|-singleturn|p1b: Floette|Protect
+|move|p2a: Sneasler|Fake Out|p1a: Toxapex
+|-damage|p1a: Toxapex|49/100
+|move|p2b: Floette|Draining Kiss|p1b: Floette
+|-activate|p1b: Floette|move: Protect
+|cant|p1a: Toxapex|flinch
+|
+|-heal|p1a: Toxapex|54/100|[from] item: Leftovers
+|-damage|p2b: Floette|18/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1782529905
+|switch|p2a: Sinistcha|Sinistcha, L50, shiny|19/100 tox
+|-heal|p2b: Floette|43/100 brn|[from] ability: Hospitality|[of] p2a: Sinistcha
+|move|p2b: Floette|Draining Kiss|p1b: Floette
+|-damage|p1b: Floette|0 fnt
+|-heal|p2b: Floette|61/100 brn|[from] drain|[of] p1b: Floette
+|faint|p1b: Floette
+|move|p1a: Toxapex|Infestation|p2b: Floette
+|-resisted|p2b: Floette|1
+|-damage|p2b: Floette|61/100 brn
+|-activate|p2b: Floette|move: Infestation|[of] p1a: Toxapex
+|
+|-heal|p1a: Toxapex|60/100|[from] item: Leftovers
+|-damage|p2a: Sinistcha|13/100 tox|[from] psn
+|-damage|p2b: Floette|55/100 brn|[from] brn
+|-damage|p2b: Floette|43/100 brn|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1782529911
+|switch|p1b: Incineroar|Incineroar, L50, F|51/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Sinistcha|atk|1
+|-unboost|p2b: Floette|atk|1
+|turn|15
+|-message|sydneeysweeny67 forfeited.
+|
+|win|MuseigenTest
+|l|☆sydneeysweeny67
+|player|p1|
+||sydneeysweeny67 is ready for game 3.
+||MuseigenTest is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

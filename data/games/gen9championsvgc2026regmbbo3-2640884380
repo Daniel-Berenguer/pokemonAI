@@ -1,0 +1,326 @@
+|j|☆Abrasian
+|j|☆camala64
+|html|Abrasiancamala64    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782700138
+|gametype|doubles
+|player|p1|Abrasian|1|1244
+|player|p2|camala64|lance-masters2|1184
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Hydreigon, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Metagross, L50|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Toxapex, L50, M|
+|poke|p2|Froslass, L50, F|
+|poke|p2|Garchomp, L50, F, shiny|
+|poke|p2|Corviknight, L50, M, shiny|
+|poke|p2|Toxapex, L50, F, shiny|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Sneasler, L50, F, shiny|
+|teampreview|4
+|showteam|p1|Hydreigon||ChoiceScarf|Levitate|HeatWave,DarkPulse,DracoMeteor,Snarl|Modest||M|||50|]Garchomp||SitrusBerry|RoughSkin|Earthquake,RockSlide,DragonClaw,Protect|Adamant||F|||50|]Metagross||Metagrossite|ClearBody|IronHead,HammerArm,BulletPunch,Protect|Adamant|||||50|]Charizard||CharizarditeY|Blaze|Protect,HeatWave,SolarBeam,WeatherBall|Timid||F|||50|]Grimmsnarl||RoseliBerry|Prankster|FakeOut,FoulPlay,Reflect,PartingShot|Sassy||M|||50|]Toxapex||Leftovers|Regenerator|Infestation,Toxic,BanefulBunker,WideGuard|Bold||M|||50|
+|showteam|p2|Froslass||Froslassite|SnowCloak|ShadowBall,Blizzard,AuroraVeil,Protect|Modest||F|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,StompingTantrum,DragonClaw,Protect|Adamant||F|||50|]Corviknight||SitrusBerry|MirrorArmor|IronHead,BraveBird,Roost,BulkUp|Adamant||M|||50|]Toxapex||Leftovers|Regenerator|Infestation,Toxic,BanefulBunker,Recover|Relaxed||F|||50|]Incineroar||PasshoBerry|Intimidate|FakeOut,FlareBlitz,ThroatChop,PartingShot|Relaxed||M|||50|]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,RockTomb,FakeOut|Jolly||F|||50|
+|
+|t:|1782700164
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Toxapex|Toxapex, L50, M|100/100
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Garchomp|Garchomp, L50, F, shiny|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Toxapex|atk|1
+|-unboost|p1b: Garchomp|atk|1
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Abrasian)
+|
+|t:|1782700192
+|switch|p1b: Hydreigon|Hydreigon, L50, M|100/100
+|move|p2b: Garchomp|Protect|p2b: Garchomp
+|-singleturn|p2b: Garchomp|Protect
+|move|p2a: Incineroar|Parting Shot|p1b: Hydreigon
+|-unboost|p1b: Hydreigon|atk|1
+|-unboost|p1b: Hydreigon|spa|1
+|
+|t:|1782700204
+|switch|p2a: Froslass|Froslass, L50, F|100/100|[from] Parting Shot
+|move|p1a: Toxapex|Toxic|p2a: Froslass
+|-status|p2a: Froslass|tox
+|
+|-damage|p2a: Froslass|93/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1782700219
+|detailschange|p2a: Froslass|Froslass-Mega, L50, F
+|-mega|p2a: Froslass|Froslass|Froslassite
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Froslass
+|move|p1b: Hydreigon|Draco Meteor|p2b: Garchomp
+|-supereffective|p2b: Garchomp|1
+|-damage|p2b: Garchomp|6/100
+|-unboost|p1b: Hydreigon|spa|2
+|move|p2a: Froslass|Blizzard|p1a: Toxapex|[spread] p1a,p1b
+|-resisted|p1a: Toxapex|1
+|-crit|p1a: Toxapex
+|-supereffective|p1b: Hydreigon|1
+|-damage|p1a: Toxapex|77/100
+|-damage|p1b: Hydreigon|9/100
+|move|p2b: Garchomp|Stomping Tantrum|p1a: Toxapex
+|-supereffective|p1a: Toxapex|1
+|-damage|p1a: Toxapex|17/100
+|-damage|p2b: Garchomp|0 fnt|[from] item: Life Orb
+|faint|p2b: Garchomp
+|move|p1a: Toxapex|Toxic|p2a: Froslass
+|-fail|p2a: Froslass|tox
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Toxapex|23/100|[from] item: Leftovers
+|-damage|p2a: Froslass|81/100 tox|[from] psn
+|upkeep
+|
+|t:|1782700241
+|switch|p2b: Toxapex|Toxapex, L50, F, shiny|100/100
+|turn|3
+|
+|t:|1782700259
+|switch|p1b: Charizard|Charizard, L50, F|100/100
+|move|p1a: Toxapex|Wide Guard|p1a: Toxapex
+|-singleturn|p1a: Toxapex|Wide Guard
+|move|p2a: Froslass|Blizzard|p1b: Charizard|[spread] 
+|-activate|p1a: Toxapex|move: Wide Guard
+|-activate|p1b: Charizard|move: Wide Guard
+|move|p2b: Toxapex|Infestation|p1b: Charizard
+|-resisted|p1b: Charizard|2
+|-damage|p1b: Charizard|99/100
+|-activate|p1b: Charizard|move: Infestation|[of] p2b: Toxapex
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Toxapex|29/100|[from] item: Leftovers
+|-damage|p2a: Froslass|62/100 tox|[from] psn
+|-damage|p1b: Charizard|87/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1782700276
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Toxapex|atk|1
+|-unboost|p1b: Charizard|atk|1
+|detailschange|p1b: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p1b: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|move|p1b: Charizard|Heat Wave|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar|1
+|-resisted|p2b: Toxapex|1
+|-damage|p2a: Incineroar|71/100
+|-damage|p2b: Toxapex|80/100
+|move|p1a: Toxapex|Toxic|p2a: Incineroar
+|-status|p2a: Incineroar|tox
+|move|p2b: Toxapex|Toxic|p1b: Charizard
+|-status|p1b: Charizard|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Toxapex|35/100|[from] item: Leftovers
+|-heal|p2b: Toxapex|85/100|[from] item: Leftovers
+|-damage|p1b: Charizard|81/100 tox|[from] psn
+|-damage|p2a: Incineroar|65/100 tox|[from] psn
+|-damage|p1b: Charizard|69/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1782700297
+|-heal|p1a: Toxapex|68/100|[from] ability: Regenerator|[silent]
+|switch|p1a: Garchomp|Garchomp, L50, F|100/100
+|move|p2a: Incineroar|Fake Out|p1b: Charizard
+|-damage|p1b: Charizard|57/100 tox
+|cant|p1b: Charizard|flinch
+|move|p2b: Toxapex|Infestation|p1a: Garchomp
+|-damage|p1a: Garchomp|97/100
+|-activate|p1a: Garchomp|move: Infestation|[of] p2b: Toxapex
+|-damage|p2b: Toxapex|73/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Toxapex|79/100|[from] item: Leftovers
+|-damage|p1b: Charizard|46/100 tox|[from] psn
+|-damage|p2a: Incineroar|53/100 tox|[from] psn
+|-damage|p1b: Charizard|34/100 tox|[from] move: Infestation|[partiallytrapped]
+|-damage|p1a: Garchomp|85/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|6
+|inactive|camala64 has 30 seconds left.
+|
+|t:|1782700324
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p1b: Charizard|Heat Wave|p2a: Incineroar|[spread] p2a
+|-activate|p2b: Toxapex|move: Protect
+|-resisted|p2a: Incineroar|1
+|-damage|p2a: Incineroar|29/100 tox
+|move|p1a: Garchomp|Earthquake|p2a: Incineroar|[spread] p2a
+|-activate|p2b: Toxapex|move: Protect
+|-immune|p1b: Charizard
+|-supereffective|p2a: Incineroar|1
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Toxapex|85/100|[from] item: Leftovers
+|-damage|p1b: Charizard|16/100 tox|[from] psn
+|-damage|p1b: Charizard|4/100 tox|[from] move: Infestation|[partiallytrapped]
+|-damage|p1a: Garchomp|72/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1782700333
+|switch|p2a: Froslass|Froslass-Mega, L50, F|62/100 tox
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Froslass
+|turn|7
+|
+|t:|1782700339
+|move|p1b: Charizard|Protect|p1b: Charizard
+|-singleturn|p1b: Charizard|Protect
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2a: Froslass|Blizzard|p1b: Charizard|[spread] 
+|-activate|p1a: Garchomp|move: Protect
+|-activate|p1b: Charizard|move: Protect
+|move|p2b: Toxapex|Infestation|p1a: Garchomp
+|-activate|p1a: Garchomp|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Toxapex|91/100|[from] item: Leftovers
+|-damage|p2a: Froslass|56/100 tox|[from] psn
+|-damage|p1b: Charizard|0 fnt|[from] psn
+|faint|p1b: Charizard
+|-damage|p1a: Garchomp|60/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1782700353
+|switch|p1b: Hydreigon|Hydreigon, L50, M|9/100
+|turn|8
+|
+|t:|1782700375
+|move|p2a: Froslass|Protect|p2a: Froslass
+|-singleturn|p2a: Froslass|Protect
+|move|p1b: Hydreigon|Dark Pulse|p2a: Froslass
+|-activate|p2a: Froslass|move: Protect
+|move|p1a: Garchomp|Earthquake|p2b: Toxapex|[spread] p2b
+|-activate|p2a: Froslass|move: Protect
+|-immune|p1b: Hydreigon|[from] ability: Levitate
+|-supereffective|p2b: Toxapex|1
+|-damage|p2b: Toxapex|40/100
+|move|p2b: Toxapex|Infestation|p1b: Hydreigon
+|-supereffective|p1b: Hydreigon|1
+|-damage|p1b: Hydreigon|2/100
+|-activate|p1b: Hydreigon|move: Infestation|[of] p2b: Toxapex
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Toxapex|45/100|[from] item: Leftovers
+|-damage|p2a: Froslass|44/100 tox|[from] psn
+|-damage|p1b: Hydreigon|0 fnt|[from] move: Infestation|[partiallytrapped]
+|faint|p1b: Hydreigon
+|-damage|p1a: Garchomp|48/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|-enditem|p1a: Garchomp|Sitrus Berry|[eat]
+|-heal|p1a: Garchomp|73/100|[from] item: Sitrus Berry
+|
+|t:|1782700378
+|switch|p1b: Toxapex|Toxapex, L50, M|68/100
+|turn|9
+|
+|t:|1782700395
+|move|p1b: Toxapex|Wide Guard|p1b: Toxapex
+|-singleturn|p1b: Toxapex|Wide Guard
+|move|p2a: Froslass|Aurora Veil|p2a: Froslass
+|-sidestart|p2: camala64|move: Aurora Veil
+|move|p1a: Garchomp|Earthquake|p2b: Toxapex|[spread] p2a,p2b
+|-activate|p1b: Toxapex|move: Wide Guard
+|-supereffective|p2b: Toxapex|1
+|-damage|p2a: Froslass|22/100 tox
+|-damage|p2b: Toxapex|9/100
+|move|p2b: Toxapex|Recover|p2b: Toxapex
+|-heal|p2b: Toxapex|59/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Toxapex|73/100|[from] item: Leftovers
+|-heal|p2b: Toxapex|65/100|[from] item: Leftovers
+|-damage|p2a: Froslass|3/100 tox|[from] psn
+|-end|p1a: Garchomp|Infestation|[partiallytrapped]
+|upkeep
+|turn|10
+|inactive|camala64 has 30 seconds left.
+|
+|t:|1782700423
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2a: Froslass|Shadow Ball|p1a: Garchomp
+|-activate|p1a: Garchomp|move: Protect
+|move|p1b: Toxapex|Infestation|p2b: Toxapex
+|-resisted|p2b: Toxapex|1
+|-damage|p2b: Toxapex|64/100
+|-activate|p2b: Toxapex|move: Infestation|[of] p1b: Toxapex
+|move|p2b: Toxapex|Toxic|p1a: Garchomp
+|-activate|p1a: Garchomp|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Toxapex|79/100|[from] item: Leftovers
+|-heal|p2b: Toxapex|70/100|[from] item: Leftovers
+|-damage|p2a: Froslass|0 fnt|[from] psn
+|faint|p2a: Froslass
+|-damage|p2b: Toxapex|58/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|11
+|
+|t:|1782700432
+|move|p1b: Toxapex|Wide Guard|p1b: Toxapex
+|-singleturn|p1b: Toxapex|Wide Guard
+|move|p1a: Garchomp|Earthquake|p2b: Toxapex|[spread] p2b
+|-activate|p1b: Toxapex|move: Wide Guard
+|-supereffective|p2b: Toxapex|1
+|-damage|p2b: Toxapex|25/100
+|move|p2b: Toxapex|Toxic|p1a: Garchomp
+|-status|p1a: Garchomp|tox
+|
+|-weather|none
+|-heal|p1b: Toxapex|85/100|[from] item: Leftovers
+|-heal|p2b: Toxapex|31/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|67/100 tox|[from] psn
+|-damage|p2b: Toxapex|19/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|12
+|
+|t:|1782700442
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p1a: Garchomp|Dragon Claw|p2b: Toxapex
+|-activate|p2b: Toxapex|move: Protect
+|move|p1b: Toxapex|Infestation|p2b: Toxapex
+|-activate|p2b: Toxapex|move: Protect
+|
+|-heal|p1b: Toxapex|91/100|[from] item: Leftovers
+|-heal|p2b: Toxapex|24/100|[from] item: Leftovers
+|-damage|p1a: Garchomp|55/100 tox|[from] psn
+|-damage|p2b: Toxapex|12/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|13
+|
+|t:|1782700450
+|move|p1b: Toxapex|Wide Guard|p1b: Toxapex
+|-singleturn|p1b: Toxapex|Wide Guard
+|move|p1a: Garchomp|Earthquake|p2b: Toxapex|[spread] p2b
+|-activate|p1b: Toxapex|move: Wide Guard
+|-supereffective|p2b: Toxapex|1
+|-damage|p2b: Toxapex|0 fnt
+|faint|p2b: Toxapex
+|
+|win|Abrasian
+||Abrasian is ready for game 3.
+||camala64 is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

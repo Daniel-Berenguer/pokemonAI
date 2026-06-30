@@ -1,0 +1,218 @@
+|j|☆is_katabo
+|j|☆Ugoeze
+|html|is_kataboUgoeze    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1782328114
+|gametype|doubles
+|player|p1|is_katabo|youngster-gen4dp|1179
+|player|p2|Ugoeze|266|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Delphox, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Staraptor, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p2|Raichu, L50, F|
+|poke|p2|Swampert, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Garchomp, L50, M|
+|teampreview|4
+|showteam|p1|Incineroar||PasshoBerry|Intimidate|FakeOut,ThroatChop,FlareBlitz,PartingShot|Impish||M|||50|]Delphox||Delphoxite|Blaze|HeatWave,Psyshock,NastyPlot,Protect|Timid||M|||50|]Garchomp||SitrusBerry|RoughSkin|DragonClaw,Earthquake,RockSlide,Protect|Jolly||M|||50|]Kingambit||ChopleBerry|Defiant|KowtowCleave,SuckerPunch,IronHead,Protect|Adamant||F|||50|]Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,Roost,Protect|Jolly||M|||50|]Sinistcha||OccaBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,Protect|Bold|||||50|
+|showteam|p2|Raichu||RaichuniteY|LightningRod|ZapCannon,FocusBlast,Surf,FakeOut|Mild||F|||50|]Swampert||Swampertite|Torrent|WaveCrash,Earthquake,BodyPress,Protect|Adamant||M|||50|]Pelipper||LifeOrb|Drizzle|Hurricane,Surf,WideGuard,Tailwind|Modest||F|||50|]Gholdengo||MetalCoat|GoodasGold|MakeItRain,NastyPlot,DazzlingGleam,Protect|Timid|||||50|]Sinistcha-Masterpiece||BigRoot|Hospitality|TrickRoom,MatchaGotcha,RagePowder,ShadowBall|Serious|||||50|]Garchomp||Garchompite|RoughSkin|Earthquake,SwordsDance,ScaleShot,Protect|Jolly||M|||50|
+|
+|t:|1782328151
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Swampert|Swampert, L50, M|100/100
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|-unboost|p2b: Pelipper|atk|1
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|1
+|
+|t:|1782328177
+|move|p2a: Swampert|Protect|p2a: Swampert
+|-singleturn|p2a: Swampert|Protect
+|move|p1a: Garchomp|Rock Slide|p2a: Swampert|[spread] p2b
+|-activate|p2a: Swampert|move: Protect
+|-supereffective|p2b: Pelipper|1
+|-damage|p2b: Pelipper|61/100
+|move|p1b: Incineroar|Parting Shot|p2b: Pelipper
+|-unboost|p2b: Pelipper|atk|1
+|-unboost|p2b: Pelipper|spa|1
+|
+|t:|1782328190
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100|[from] Parting Shot
+|move|p2b: Pelipper|Surf|p1b: Sinistcha|[spread] p1a,p1b
+|-activate|p2a: Swampert|move: Protect
+|-resisted|p1b: Sinistcha|1
+|-crit|p1b: Sinistcha
+|-damage|p1a: Garchomp|55/100
+|-damage|p1b: Sinistcha|53/100
+|-damage|p2b: Pelipper|52/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1782328207
+|switch|p2a: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-heal|p2b: Pelipper|76/100|[from] ability: Hospitality|[of] p2a: Sinistcha
+|move|p1a: Garchomp|Dragon Claw|p2a: Sinistcha
+|-damage|p2a: Sinistcha|58/100
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Sinistcha|[spread] p2a,p2b
+|-resisted|p2a: Sinistcha|1
+|-damage|p2a: Sinistcha|48/100
+|-heal|p1b: Sinistcha|58/100|[from] drain|[of] p2a: Sinistcha
+|-damage|p2b: Pelipper|40/100
+|-heal|p1b: Sinistcha|76/100|[from] drain|[of] p2b: Pelipper
+|-status|p2b: Pelipper|brn
+|move|p2b: Pelipper|Tailwind|p2b: Pelipper
+|-sidestart|p2: Ugoeze|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2b: Pelipper|34/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1782328243
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Sinistcha|atk|1
+|-unboost|p2b: Pelipper|atk|1
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2a: Sinistcha|Shadow Ball|p1b: Incineroar
+|-resisted|p1b: Incineroar|1
+|-damage|p1b: Incineroar|85/100
+|move|p2b: Pelipper|Hurricane|p1b: Incineroar
+|-damage|p1b: Incineroar|46/100
+|-damage|p2b: Pelipper|24/100 brn|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2b: Pelipper|18/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1782328268
+|switch|p2a: Garchomp|Garchomp, L50, M|100/100
+|move|p2b: Pelipper|Wide Guard|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Wide Guard
+|move|p1b: Incineroar|Fake Out|p2b: Pelipper
+|-damage|p2b: Pelipper|7/100 brn
+|move|p1a: Garchomp|Rock Slide|p2a: Garchomp|[spread] 
+|-activate|p2a: Garchomp|move: Wide Guard
+|-activate|p2b: Pelipper|move: Wide Guard
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2b: Pelipper|1/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1782328294
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2a: Garchomp|Scale Shot|p1a: Garchomp
+|-activate|p1a: Garchomp|move: Protect
+|move|p2b: Pelipper|Hurricane|p1b: Incineroar
+|-damage|p1b: Incineroar|7/100
+|-damage|p2b: Pelipper|0 fnt|[from] item: Life Orb
+|faint|p2b: Pelipper
+|move|p1b: Incineroar|Parting Shot|p2a: Garchomp
+|-unboost|p2a: Garchomp|atk|1
+|-unboost|p2a: Garchomp|spa|1
+|
+|t:|1782328306
+|switch|p1b: Sinistcha|Sinistcha, L50|76/100|[from] Parting Shot
+|-heal|p1a: Garchomp|80/100|[from] ability: Hospitality|[of] p1b: Sinistcha
+|
+|-weather|none
+|-sideend|p2: Ugoeze|move: Tailwind
+|upkeep
+|
+|t:|1782328324
+|switch|p2b: Swampert|Swampert, L50, M|100/100
+|turn|6
+|
+|t:|1782328345
+|detailschange|p2b: Swampert|Swampert-Mega, L50, M
+|-mega|p2b: Swampert|Swampert|Swampertite
+|move|p1a: Garchomp|Dragon Claw|p2a: Garchomp
+|-supereffective|p2a: Garchomp|1
+|-damage|p2a: Garchomp|12/100
+|-damage|p1a: Garchomp|67/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|move|p2a: Garchomp|Scale Shot|p1b: Sinistcha
+|-damage|p1b: Sinistcha|68/100
+|-damage|p1b: Sinistcha|61/100
+|-hitcount|p1b: Sinistcha|2
+|-unboost|p2a: Garchomp|def|1
+|-boost|p2a: Garchomp|spe|1
+|move|p2b: Swampert|Wave Crash|p1b: Sinistcha
+|-resisted|p1b: Sinistcha|1
+|-damage|p1b: Sinistcha|31/100
+|-damage|p2b: Swampert|90/100|[from] Recoil
+|move|p1b: Sinistcha|Matcha Gotcha|p2b: Swampert|[spread] p2a,p2b
+|-supereffective|p2b: Swampert|2
+|-damage|p2a: Garchomp|0 fnt
+|-heal|p1b: Sinistcha|38/100|[from] drain|[of] p2a: Garchomp
+|-damage|p2b: Swampert|0 fnt
+|-heal|p1b: Sinistcha|83/100|[from] drain|[of] p2b: Swampert
+|faint|p2a: Garchomp
+|faint|p2b: Swampert
+|
+|upkeep
+|
+|t:|1782328381
+|switch|p2a: Sinistcha|Sinistcha-Masterpiece, L50|48/100
+|turn|7
+|
+|t:|1782328389
+|move|p1a: Garchomp|Dragon Claw|p2a: Sinistcha
+|-damage|p2a: Sinistcha|6/100
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Garchomp|[spread] p1a,p1b
+|-resisted|p1b: Sinistcha|1
+|-damage|p1a: Garchomp|43/100
+|-heal|p2a: Sinistcha|23/100|[from] drain|[of] p1a: Garchomp
+|-damage|p1b: Sinistcha|71/100
+|-heal|p2a: Sinistcha|30/100|[from] drain|[of] p1b: Sinistcha
+|-status|p1a: Garchomp|brn
+|-enditem|p1a: Garchomp|Sitrus Berry|[eat]
+|-heal|p1a: Garchomp|67/100 brn|[from] item: Sitrus Berry
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Sinistcha|[miss]
+|-miss|p1b: Sinistcha|p2a: Sinistcha
+|
+|-damage|p1a: Garchomp|62/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1782328422
+|move|p1a: Garchomp|Dragon Claw|p2a: Sinistcha
+|-damage|p2a: Sinistcha|12/100
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Sinistcha
+|-resisted|p2a: Sinistcha|1
+|-damage|p2a: Sinistcha|0 fnt
+|-heal|p1b: Sinistcha|77/100|[from] drain|[of] p2a: Sinistcha
+|faint|p2a: Sinistcha
+|
+|win|is_katabo
+||is_katabo is ready for game 2.
+|inactive|Ugoeze has 30 seconds to confirm battle start!
+|inactive|Ugoeze has 20 seconds to confirm battle start!
+|l|☆Ugoeze
+|player|p2|
+|inactive|Ugoeze has 10 seconds to confirm battle start!
+|j|☆Ugoeze
+|player|p2|Ugoeze|266|
+|uhtml|next|Next: Game 2 of 3

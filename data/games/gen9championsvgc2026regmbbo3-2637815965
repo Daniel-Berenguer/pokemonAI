@@ -1,0 +1,184 @@
+|j|☆bellytelevision
+|j|☆olafac
+|html|bellytelevisionolafac    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1782240168
+|gametype|doubles
+|player|p1|bellytelevision|biker|1000
+|player|p2|olafac|cyrus|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Venusaur, L50, M, shiny|
+|poke|p1|Swampert, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Archaludon, L50, M, shiny|
+|poke|p1|Sableye, L50, M, shiny|
+|poke|p2|Blaziken, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Sylveon, L50, F|
+|poke|p2|Metagross, L50|
+|poke|p2|Sinistcha, L50|
+|teampreview|4
+|showteam|p1|Venusaur||Venusaurite|Chlorophyll|GigaDrain,SludgeBomb,Protect,EarthPower|Modest||M|||50|]Swampert||Swampertite|Torrent|WaveCrash,IcePunch,HighHorsepower,Protect|Adamant||M|||50|]Sinistcha||CobaBerry|Hospitality|RagePowder,MatchaGotcha,LifeDew,TrickRoom|Sassy|||||50|]Pelipper||SitrusBerry|Drizzle|Tailwind,Hurricane,WeatherBall,WideGuard|Bold||F|||50|]Archaludon||Leftovers|Stamina|ElectroShot,FlashCannon,DragonPulse,Protect|Modest||M|||50|]Sableye||LightClay|Prankster|RainDance,Reflect,LightScreen,WillOWisp|Sassy||M|||50|
+|showteam|p2|Blaziken||Blazikenite|SpeedBoost|Protect,SwordsDance,CloseCombat,FlareBlitz|Adamant||M|||50|]Annihilape||LifeOrb|Defiant|RageFist,DrainPunch,BulkUp,Protect|Jolly||F|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,DarkestLariat,FlareBlitz,PartingShot|Adamant||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,CalmMind,Protect|Modest||F|||50|]Metagross||Metagrossite|ClearBody|PsychicFangs,BodyPress,IronHead,Protect|Jolly|||||50|]Sinistcha||Leftovers|Hospitality|MatchaGotcha,ShadowBall,LifeDew,CalmMind|Modest|||||50|
+|
+|t:|1782240206
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|switch|p1b: Venusaur|Venusaur, L50, M, shiny|100/100
+|switch|p2a: Sylveon|Sylveon, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Pelipper|atk|1
+|-unboost|p1b: Venusaur|atk|1
+|turn|1
+|
+|t:|1782240231
+|switch|p1a: Archaludon|Archaludon, L50, M, shiny|100/100
+|move|p1b: Venusaur|Protect|p1b: Venusaur
+|-singleturn|p1b: Venusaur|Protect
+|move|p2a: Sylveon|Protect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Archaludon
+|-resisted|p1a: Archaludon|1
+|-damage|p1a: Archaludon|94/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Archaludon|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1782240248
+|switch|p2a: Metagross|Metagross, L50|100/100
+|detailschange|p1b: Venusaur|Venusaur-Mega, L50, M, shiny
+|-mega|p1b: Venusaur|Venusaur|Venusaurite
+|move|p1a: Archaludon|Flash Cannon|p2a: Metagross
+|-resisted|p2a: Metagross|1
+|-damage|p2a: Metagross|78/100
+|move|p1b: Venusaur|Sludge Bomb|p2a: Metagross
+|-immune|p2a: Metagross
+|move|p2b: Incineroar|Parting Shot|p1a: Archaludon
+|-unboost|p1a: Archaludon|atk|1
+|-unboost|p1a: Archaludon|spa|1
+|
+|t:|1782240266
+|switch|p2b: Sinistcha|Sinistcha, L50|100/100|[from] Parting Shot
+|-heal|p2a: Metagross|100/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1782240285
+|switch|p1b: Pelipper|Pelipper, L50, F|100/100
+|detailschange|p2a: Metagross|Metagross-Mega, L50
+|-mega|p2a: Metagross|Metagross|Metagrossite
+|move|p2a: Metagross|Psychic Fangs|p1b: Pelipper
+|-damage|p1b: Pelipper|36/100
+|-enditem|p1b: Pelipper|Sitrus Berry|[eat]
+|-heal|p1b: Pelipper|61/100|[from] item: Sitrus Berry
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Sinistcha
+|-resisted|p2b: Sinistcha|1
+|-damage|p2b: Sinistcha|76/100
+|move|p2b: Sinistcha|Calm Mind|p2b: Sinistcha
+|-boost|p2b: Sinistcha|spa|1
+|-boost|p2b: Sinistcha|spd|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Sinistcha|82/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1782240313
+|move|p2a: Metagross|Psychic Fangs|p1b: Pelipper
+|-damage|p1b: Pelipper|0 fnt
+|faint|p1b: Pelipper
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Sinistcha
+|-resisted|p2b: Sinistcha|1
+|-damage|p2b: Sinistcha|59/100
+|move|p2b: Sinistcha|Shadow Ball|p1a: Archaludon
+|-damage|p1a: Archaludon|32/100
+|-unboost|p1a: Archaludon|spd|1
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Archaludon|39/100|[from] item: Leftovers
+|-heal|p2b: Sinistcha|65/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1782240329
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|-heal|p1a: Archaludon|64/100|[from] ability: Hospitality|[of] p1b: Sinistcha
+|turn|5
+|
+|t:|1782240342
+|move|p1b: Sinistcha|Rage Powder|p1b: Sinistcha
+|-singleturn|p1b: Sinistcha|move: Rage Powder
+|move|p2a: Metagross|Body Press|p1b: Sinistcha
+|-immune|p1b: Sinistcha
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Sinistcha
+|-resisted|p2b: Sinistcha|1
+|-damage|p2b: Sinistcha|36/100
+|move|p2b: Sinistcha|Shadow Ball|p1a: Archaludon
+|-crit|p1a: Archaludon
+|-damage|p1a: Archaludon|0 fnt
+|faint|p1a: Archaludon
+|
+|-weather|none
+|-heal|p2b: Sinistcha|42/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1782240359
+|switch|p1a: Venusaur|Venusaur-Mega, L50, M, shiny|100/100
+|turn|6
+|
+|t:|1782240366
+|move|p1b: Sinistcha|Rage Powder|p1b: Sinistcha
+|-singleturn|p1b: Sinistcha|move: Rage Powder
+|move|p2a: Metagross|Psychic Fangs|p1b: Sinistcha
+|-damage|p1b: Sinistcha|40/100
+|move|p1a: Venusaur|Earth Power|p2b: Sinistcha
+|-resisted|p2b: Sinistcha|1
+|-damage|p2b: Sinistcha|30/100
+|move|p2b: Sinistcha|Shadow Ball|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha|1
+|-damage|p1b: Sinistcha|0 fnt
+|faint|p1b: Sinistcha
+|
+|-heal|p2b: Sinistcha|36/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|c|☆bellytelevision|gg
+|-message|bellytelevision forfeited.
+|
+|win|olafac
+|raw|bellytelevision's rating: 1000 → 1000(+0 for losing)
+|raw|olafac's rating: 1000 → 1040(+40 for winning)
+|l|☆bellytelevision
+|player|p1|
+|c|☆olafac|gg
+|l|☆olafac
+|player|p2|
+|j|☆bellytelevision
+|player|p1|bellytelevision|biker|

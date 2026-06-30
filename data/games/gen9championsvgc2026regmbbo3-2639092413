@@ -1,0 +1,413 @@
+|j|☆CTM_Charion
+|j|☆sergiovj
+|html|CTM_Charionsergiovj    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782418622
+|gametype|doubles
+|player|p1|CTM_Charion|chase|
+|player|p2|sergiovj|266|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Staraptor, L50, F|
+|poke|p1|Maushold-Four, L50|
+|poke|p1|Delphox, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p2|Hydreigon, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Metagross, L50|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Toxapex, L50, M|
+|teampreview|4
+|showteam|p1|Staraptor||Staraptite|Intimidate|DualWingbeat,CloseCombat,Tailwind,Protect|Jolly||F|||50|]Maushold-Four||ChopleBerry|FriendGuard|SuperFang,FollowMe,BeatUp,Protect|Jolly|||||50|]Delphox||Delphoxite|Blaze|HeatWave,Psychic,NastyPlot,Protect|Timid||M|||50|]Sinistcha||CobaBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,Protect|Bold|||||50|]Annihilape||Leftovers|Defiant|RageFist,DrainPunch,BulkUp,Protect|Jolly||M|||50|]Whimsicott||FocusSash|Prankster|Moonblast,Tailwind,SunnyDay,Protect|Timid||M|||50|
+|showteam|p2|Hydreigon||ChoiceScarf|Levitate|HeatWave,DarkPulse,DracoMeteor,Snarl|Modest||F|||50|]Garchomp||SitrusBerry|RoughSkin|Earthquake,RockSlide,DragonClaw,Protect|Adamant||F|||50|]Metagross||Metagrossite|ClearBody|IronHead,HammerArm,BulletPunch,Protect|Adamant|||||50|]Charizard||CharizarditeY|Blaze|Protect,HeatWave,SolarBeam,WeatherBall|Timid||F|||50|]Grimmsnarl||RoseliBerry|Prankster|FakeOut,FoulPlay,Reflect,PartingShot|Sassy||M|||50|]Toxapex||Leftovers|Regenerator|Infestation,Toxic,BanefulBunker,WideGuard|Bold||M|||50|
+|
+|t:|1782418658
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Staraptor|Staraptor, L50, F|100/100
+|switch|p1b: Maushold|Maushold-Four, L50|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Toxapex|Toxapex, L50, M|100/100
+|-ability|p1a: Staraptor|Intimidate|boost
+|-unboost|p2a: Grimmsnarl|atk|1
+|-unboost|p2b: Toxapex|atk|1
+|turn|1
+|
+|t:|1782418700
+|detailschange|p1a: Staraptor|Staraptor-Mega, L50, F
+|-mega|p1a: Staraptor|Staraptor|Staraptite
+|move|p1a: Staraptor|Protect|p1a: Staraptor
+|-singleturn|p1a: Staraptor|Protect
+|move|p2a: Grimmsnarl|Fake Out|p1b: Maushold
+|-damage|p1b: Maushold|89/100
+|cant|p1b: Maushold|flinch
+|move|p2b: Toxapex|Toxic|p1a: Staraptor
+|-activate|p1a: Staraptor|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1782418720
+|switch|p1a: Annihilape|Annihilape, L50, M|100/100
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: sergiovj|Reflect
+|move|p1b: Maushold|Super Fang|p2b: Toxapex
+|-damage|p2b: Toxapex|50/100g
+|move|p2b: Toxapex|Toxic|p1a: Annihilape
+|-status|p1a: Annihilape|tox
+|
+|-heal|p2b: Toxapex|56/100|[from] item: Leftovers
+|-damage|p1a: Annihilape|93/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1782418754
+|move|p1b: Maushold|Super Fang|p2a: Grimmsnarl|[miss]
+|-miss|p1b: Maushold|p2a: Grimmsnarl
+|move|p1a: Annihilape|Bulk Up|p1a: Annihilape
+|-boost|p1a: Annihilape|atk|1
+|-boost|p1a: Annihilape|def|1
+|move|p2a: Grimmsnarl|Foul Play|p1a: Annihilape
+|-damage|p1a: Annihilape|64/100 tox
+|move|p2b: Toxapex|Infestation|p1a: Annihilape
+|-resisted|p1a: Annihilape|2
+|-damage|p1a: Annihilape|64/100 tox
+|-activate|p1a: Annihilape|move: Infestation|[of] p2b: Toxapex
+|
+|-heal|p1a: Annihilape|70/100 tox|[from] item: Leftovers
+|-heal|p2b: Toxapex|61/100|[from] item: Leftovers
+|-damage|p1a: Annihilape|57/100 tox|[from] psn
+|-damage|p1a: Annihilape|45/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1782418794
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p1b: Maushold|Super Fang|p2b: Toxapex
+|-activate|p2b: Toxapex|move: Protect
+|-status|p1b: Maushold|psn
+|move|p1a: Annihilape|Drain Punch|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|73/100
+|-heal|p1a: Annihilape|58/100 tox|[from] drain|[of] p2a: Grimmsnarl
+|move|p2a: Grimmsnarl|Foul Play|p1a: Annihilape
+|-damage|p1a: Annihilape|31/100 tox
+|
+|-heal|p1a: Annihilape|37/100 tox|[from] item: Leftovers
+|-heal|p2b: Toxapex|67/100|[from] item: Leftovers
+|-damage|p1b: Maushold|77/100 psn|[from] psn
+|-damage|p1a: Annihilape|18/100 tox|[from] psn
+|-damage|p1a: Annihilape|6/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|5
+|
+|t:|1782418820
+|move|p1b: Maushold|Beat Up|p2b: Toxapex
+|-damage|p2b: Toxapex|66/100
+|-damage|p2b: Toxapex|64/100
+|-damage|p2b: Toxapex|63/100
+|-hitcount|p2b: Toxapex|3
+|move|p1a: Annihilape|Rage Fist|p2b: Toxapex
+|-damage|p2b: Toxapex|10/100
+|move|p2a: Grimmsnarl|Foul Play|p1b: Maushold
+|-damage|p1b: Maushold|41/100 psn
+|move|p2b: Toxapex|Infestation|p1b: Maushold
+|-damage|p1b: Maushold|38/100 psn
+|-activate|p1b: Maushold|move: Infestation|[of] p2b: Toxapex
+|
+|-heal|p1a: Annihilape|12/100 tox|[from] item: Leftovers
+|-heal|p2b: Toxapex|15/100|[from] item: Leftovers
+|-damage|p1b: Maushold|25/100 psn|[from] psn
+|-damage|p1a: Annihilape|0 fnt|[from] psn
+|faint|p1a: Annihilape
+|-damage|p1b: Maushold|13/100 psn|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1782418834
+|switch|p1a: Staraptor|Staraptor-Mega, L50, F|100/100
+|turn|6
+|
+|t:|1782418864
+|-heal|p2b: Toxapex|49/100|[from] ability: Regenerator|[silent]
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|move|p1b: Maushold|Follow Me|p1b: Maushold
+|-singleturn|p1b: Maushold|move: Follow Me
+|move|p1a: Staraptor|Close Combat|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|33/100
+|-boost|p1a: Staraptor|def|1
+|-boost|p1a: Staraptor|spd|1
+|move|p2a: Grimmsnarl|Foul Play|p1b: Maushold
+|-damage|p1b: Maushold|0 fnt
+|faint|p1b: Maushold
+|
+|-sideend|p2: sergiovj|Reflect
+|upkeep
+|
+|t:|1782418874
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|turn|7
+|
+|t:|1782418890
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: sergiovj|Reflect
+|move|p1a: Staraptor|Close Combat|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|-boost|p1a: Staraptor|def|1
+|-boost|p1a: Staraptor|spd|1
+|faint|p2a: Grimmsnarl
+|move|p2b: Garchomp|Dragon Claw|p1b: Sinistcha
+|-damage|p1b: Sinistcha|64/100
+|move|p1b: Sinistcha|Matcha Gotcha|p2b: Garchomp
+|-damage|p2b: Garchomp|70/100
+|-heal|p1b: Sinistcha|82/100|[from] drain|[of] p2b: Garchomp
+|-status|p2b: Garchomp|brn
+|
+|-damage|p2b: Garchomp|64/100 brn|[from] brn
+|upkeep
+|
+|t:|1782418901
+|switch|p2a: Toxapex|Toxapex, L50, M|49/100
+|turn|8
+|
+|t:|1782418935
+|move|p1a: Staraptor|Protect|p1a: Staraptor
+|-singleturn|p1a: Staraptor|Protect
+|move|p2b: Garchomp|Rock Slide|p1a: Staraptor|[spread] p1b
+|-activate|p1a: Staraptor|move: Protect
+|-damage|p1b: Sinistcha|74/100
+|move|p1b: Sinistcha|Matcha Gotcha|p2b: Garchomp|[spread] p2a,p2b
+|-damage|p2a: Toxapex|29/100
+|-heal|p1b: Sinistcha|83/100|[from] drain|[of] p2a: Toxapex
+|-damage|p2b: Garchomp|42/100 brn
+|-heal|p1b: Sinistcha|96/100|[from] drain|[of] p2b: Garchomp
+|-enditem|p2b: Garchomp|Sitrus Berry|[eat]
+|-heal|p2b: Garchomp|67/100 brn|[from] item: Sitrus Berry
+|move|p2a: Toxapex|Toxic|p1a: Staraptor
+|-activate|p1a: Staraptor|move: Protect
+|
+|-heal|p2a: Toxapex|35/100|[from] item: Leftovers
+|-damage|p2b: Garchomp|61/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1782418965
+|-heal|p2a: Toxapex|68/100|[from] ability: Regenerator|[silent]
+|switch|p2a: Charizard|Charizard, L50, F|100/100
+|move|p1a: Staraptor|Close Combat|p2a: Charizard
+|-resisted|p2a: Charizard|1
+|-damage|p2a: Charizard|79/100
+|-boost|p1a: Staraptor|def|1
+|-boost|p1a: Staraptor|spd|1
+|move|p2b: Garchomp|Rock Slide|p1a: Staraptor|[spread] p1a,p1b
+|-damage|p1a: Staraptor|96/100
+|-damage|p1b: Sinistcha|88/100
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Charizard|[spread] p2a,p2b
+|-resisted|p2a: Charizard|2
+|-damage|p2a: Charizard|72/100
+|-heal|p1b: Sinistcha|92/100|[from] drain|[of] p2a: Charizard
+|-damage|p2b: Garchomp|40/100 brn
+|-heal|p1b: Sinistcha|100/100|[from] drain|[of] p2b: Garchomp
+|
+|-damage|p2b: Garchomp|34/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1782418987
+|switch|p2b: Toxapex|Toxapex, L50, M|68/100
+|detailschange|p2a: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p2a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p1b: Sinistcha|Protect|p1b: Sinistcha
+|-singleturn|p1b: Sinistcha|Protect
+|move|p1a: Staraptor|Dual Wingbeat|p2a: Charizard
+|-damage|p2a: Charizard|58/100
+|-damage|p2a: Charizard|43/100
+|-hitcount|p2a: Charizard|2
+|move|p2a: Charizard|Weather Ball|p1b: Sinistcha
+|-activate|p1b: Sinistcha|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Toxapex|73/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1782419019
+|move|p1b: Sinistcha|Protect|p1b: Sinistcha
+|-singleturn|p1b: Sinistcha|Protect
+|move|p1a: Staraptor|Dual Wingbeat|p2a: Charizard
+|-damage|p2a: Charizard|28/100
+|-damage|p2a: Charizard|15/100
+|-hitcount|p2a: Charizard|2
+|move|p2a: Charizard|Weather Ball|p1b: Sinistcha
+|-activate|p1b: Sinistcha|move: Protect
+|move|p2b: Toxapex|Toxic|p1a: Staraptor
+|-status|p1a: Staraptor|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Toxapex|79/100|[from] item: Leftovers
+|-damage|p1a: Staraptor|90/100 tox|[from] psn
+|-sideend|p2: sergiovj|Reflect
+|upkeep
+|turn|12
+|
+|t:|1782419043
+|move|p2a: Charizard|Protect|p2a: Charizard
+|-singleturn|p2a: Charizard|Protect
+|move|p1a: Staraptor|Close Combat|p2a: Charizard
+|-activate|p2a: Charizard|move: Protect
+|move|p1b: Sinistcha|Matcha Gotcha|p2b: Toxapex|[spread] p2b
+|-activate|p2a: Charizard|move: Protect
+|-damage|p2b: Toxapex|59/100
+|-status|p2b: Toxapex|brn
+|move|p2b: Toxapex|Infestation|p1a: Staraptor
+|-resisted|p1a: Staraptor|2
+|-damage|p1a: Staraptor|89/100 tox
+|-activate|p1a: Staraptor|move: Infestation|[of] p2b: Toxapex
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Toxapex|65/100 brn|[from] item: Leftovers
+|-damage|p1a: Staraptor|77/100 tox|[from] psn
+|-damage|p2b: Toxapex|59/100 brn|[from] brn
+|-damage|p1a: Staraptor|65/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|13
+|
+|t:|1782419069
+|-heal|p2b: Toxapex|92/100 brn|[from] ability: Regenerator|[silent]
+|switch|p2b: Garchomp|Garchomp, L50, F|34/100 brn
+|move|p1a: Staraptor|Close Combat|p2a: Charizard
+|-resisted|p2a: Charizard|1
+|-damage|p2a: Charizard|0 fnt
+|-boost|p1a: Staraptor|def|1
+|-boost|p1a: Staraptor|spd|1
+|faint|p2a: Charizard
+|move|p1b: Sinistcha|Life Dew||[still]|[spread] p1a,p1b
+|-heal|p1a: Staraptor|90/100 tox
+|-fail|p1b: Sinistcha|heal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Staraptor|72/100 tox|[from] psn
+|-damage|p2b: Garchomp|28/100 brn|[from] brn
+|-end|p1a: Staraptor|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1782419081
+|switch|p2a: Toxapex|Toxapex, L50, M|92/100 brn
+|turn|14
+|
+|t:|1782419096
+|move|p2b: Garchomp|Protect|p2b: Garchomp
+|-singleturn|p2b: Garchomp|Protect
+|move|p1a: Staraptor|Close Combat|p2b: Garchomp
+|-activate|p2b: Garchomp|move: Protect
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Toxapex|[spread] p2a
+|-activate|p2b: Garchomp|move: Protect
+|-damage|p2a: Toxapex|73/100 brn
+|move|p2a: Toxapex|Toxic|p1b: Sinistcha
+|-status|p1b: Sinistcha|tox
+|
+|-weather|none
+|-heal|p2a: Toxapex|78/100 brn|[from] item: Leftovers
+|-damage|p1a: Staraptor|48/100 tox|[from] psn
+|-damage|p1b: Sinistcha|93/100 tox|[from] psn
+|-damage|p2b: Garchomp|21/100 brn|[from] brn
+|-damage|p2a: Toxapex|73/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1782419125
+|move|p1a: Staraptor|Close Combat|p2a: Toxapex
+|-resisted|p2a: Toxapex|1
+|-damage|p2a: Toxapex|54/100 brn
+|-boost|p1a: Staraptor|def|1
+|-boost|p1a: Staraptor|spd|1
+|move|p2b: Garchomp|Rock Slide|p1a: Staraptor|[spread] p1a,p1b
+|-damage|p1a: Staraptor|45/100 tox
+|-damage|p1b: Sinistcha|87/100 tox
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Toxapex|[spread] p2a,p2b
+|-damage|p2a: Toxapex|36/100 brn
+|-heal|p1b: Sinistcha|94/100 tox|[from] drain|[of] p2a: Toxapex
+|-damage|p2b: Garchomp|0 fnt
+|-heal|p1b: Sinistcha|100/100 tox|[from] drain|[of] p2b: Garchomp
+|faint|p2b: Garchomp
+|move|p2a: Toxapex|Infestation|p1a: Staraptor
+|-resisted|p1a: Staraptor|2
+|-damage|p1a: Staraptor|45/100 tox
+|-activate|p1a: Staraptor|move: Infestation|[of] p2a: Toxapex
+|
+|-heal|p2a: Toxapex|42/100 brn|[from] item: Leftovers
+|-damage|p1a: Staraptor|15/100 tox|[from] psn
+|-damage|p1b: Sinistcha|87/100 tox|[from] psn
+|-damage|p2a: Toxapex|36/100 brn|[from] brn
+|-damage|p1a: Staraptor|3/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|16
+|
+|t:|1782419151
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Staraptor|Tailwind|p1a: Staraptor
+|-sidestart|p1: CTM_Charion|move: Tailwind
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|42/100 brn|[from] item: Leftovers
+|-damage|p1a: Staraptor|0 fnt|[from] psn
+|faint|p1a: Staraptor
+|-damage|p1b: Sinistcha|69/100 tox|[from] psn
+|-damage|p2a: Toxapex|36/100 brn|[from] brn
+|upkeep
+|turn|17
+|
+|t:|1782419182
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Toxapex
+|-damage|p2a: Toxapex|13/100 brn
+|-heal|p1b: Sinistcha|79/100 tox|[from] drain|[of] p2a: Toxapex
+|move|p2a: Toxapex|Infestation|p1b: Sinistcha
+|-damage|p1b: Sinistcha|75/100 tox
+|-activate|p1b: Sinistcha|move: Infestation|[of] p2a: Toxapex
+|
+|-heal|p2a: Toxapex|19/100 brn|[from] item: Leftovers
+|-damage|p1b: Sinistcha|51/100 tox|[from] psn
+|-damage|p2a: Toxapex|13/100 brn|[from] brn
+|-damage|p1b: Sinistcha|38/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|18
+|
+|t:|1782419204
+|move|p1b: Sinistcha|Life Dew|p1b: Sinistcha
+|-heal|p1b: Sinistcha|64/100 tox
+|move|p2a: Toxapex|Infestation|p1b: Sinistcha
+|-damage|p1b: Sinistcha|60/100 tox
+|
+|-heal|p2a: Toxapex|19/100 brn|[from] item: Leftovers
+|-damage|p1b: Sinistcha|29/100 tox|[from] psn
+|-damage|p2a: Toxapex|13/100 brn|[from] brn
+|-damage|p1b: Sinistcha|17/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|19
+|
+|t:|1782419219
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Toxapex
+|-activate|p2a: Toxapex|move: Protect
+|
+|-heal|p2a: Toxapex|19/100 brn|[from] item: Leftovers
+|-damage|p1b: Sinistcha|0 fnt|[from] psn
+|faint|p1b: Sinistcha
+|
+|win|sergiovj
+|c|☆sergiovj|GG
+|inactive|CTM_Charion has 30 seconds to confirm battle start!
+|inactive|sergiovj has 30 seconds to confirm battle start!
+||sergiovj is ready for game 3.
+||CTM_Charion is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

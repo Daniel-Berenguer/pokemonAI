@@ -1,0 +1,210 @@
+|j|☆Koraidonn3
+|j|☆testdigi
+|html|Koraidonn3testdigi    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1782482145
+|gametype|doubles
+|player|p1|Koraidonn3|170|1065
+|player|p2|testdigi|1|1112
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Delphox, L50, F|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Hydreigon, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Metagross, L50, shiny|
+|poke|p2|Grimmsnarl, L50, M, shiny|
+|poke|p2|Charizard, L50, M, shiny|
+|poke|p2|Toxapex, L50, M, shiny|
+|teampreview|4
+|showteam|p1|Delphox||Delphoxite|Blaze|HeatWave,Psychic,NastyPlot,Protect|Timid||F|||50|]Excadrill||FocusSash|MoldBreaker|StompingTantrum,IronHead,SwordsDance,Protect|Adamant||M|||50|]Whimsicott||OccaBerry|Prankster|Moonblast,Tailwind,Encore,Protect|Bold||F|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,ThroatChop,PartingShot,Taunt|Careful||F|||50|]Sinistcha||ColburBerry|Hospitality|MatchaGotcha,RagePowder,LifeDew,TrickRoom|Relaxed|||||50|]Grimmsnarl||LightClay|Prankster|SpiritBreak,LightScreen,PartingShot,Protect|Careful||M|||50|
+|showteam|p2|Hydreigon||ChoiceScarf|Levitate|HeatWave,DarkPulse,DracoMeteor,Snarl|Modest||F|||50|]Garchomp||LifeOrb|RoughSkin|Protect,RockSlide,DragonClaw,Earthquake|Jolly||F|||50|]Metagross||Metagrossite|ClearBody|Protect,HammerArm,BulletPunch,IronHead|Brave|||||50|]Grimmsnarl||RoseliBerry|Prankster|FakeOut,LightScreen,Reflect,PartingShot|Sassy||M|||50|]Charizard||CharizarditeY|Blaze|Protect,HeatWave,SolarBeam,WeatherBall|Timid||M|||50|]Toxapex||Leftovers|Regenerator|Infestation,Toxic,BanefulBunker,WideGuard|Relaxed||M|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Koraidonn3)
+|
+|t:|1782482207
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Excadrill|Excadrill, L50, M|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Toxapex|Toxapex, L50, M, shiny|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|-ability|p1a: Excadrill|Mold Breaker
+|turn|1
+|
+|t:|1782482226
+|move|p1b: Grimmsnarl|Protect|p1b: Grimmsnarl
+|-singleturn|p1b: Grimmsnarl|Protect
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2b: Grimmsnarl|Fake Out|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|move|p2a: Toxapex|Infestation|p1b: Grimmsnarl
+|-activate|p1b: Grimmsnarl|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1782482249
+|move|p1b: Grimmsnarl|Parting Shot|p2a: Toxapex
+|-unboost|p2a: Toxapex|atk|1
+|-unboost|p2a: Toxapex|spa|1
+|
+|t:|1782482252
+|switch|p1b: Delphox|Delphox, L50, F|100/100|[from] Parting Shot
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: testdigi|Reflect
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2a: Toxapex|Toxic|p1b: Delphox
+|-status|p1b: Delphox|tox
+|
+|-damage|p1b: Delphox|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1782482274
+|detailschange|p1b: Delphox|Delphox-Mega, L50, F
+|-mega|p1b: Delphox|Delphox|Delphoxite
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p2b: Grimmsnarl|Parting Shot|p1a: Excadrill
+|-unboost|p1a: Excadrill|atk|1
+|-unboost|p1a: Excadrill|spa|1
+|
+|t:|1782482284
+|switch|p2b: Hydreigon|Hydreigon, L50, F|100/100|[from] Parting Shot
+|move|p1b: Delphox|Nasty Plot|p1b: Delphox
+|-boost|p1b: Delphox|spa|2
+|move|p1a: Excadrill|Iron Head|p2b: Hydreigon
+|-damage|p2b: Hydreigon|48/100
+|
+|-damage|p1b: Delphox|82/100 tox|[from] psn
+|upkeep
+|turn|4
+|inactive|testdigi has 30 seconds left.
+|inactive|testdigi has 20 seconds left.
+|
+|t:|1782482322
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|move|p1b: Delphox|Protect|p1b: Delphox
+|-singleturn|p1b: Delphox|Protect
+|move|p1a: Excadrill|Iron Head|p2b: Garchomp
+|-damage|p2b: Garchomp|56/100
+|-damage|p1a: Excadrill|87/100|[from] ability: Rough Skin|[of] p2b: Garchomp
+|move|p2a: Toxapex|Infestation|p1b: Delphox
+|-activate|p1b: Delphox|move: Protect
+|
+|-damage|p1b: Delphox|64/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1782482346
+|move|p2a: Toxapex|Wide Guard|p2a: Toxapex
+|-singleturn|p2a: Toxapex|Wide Guard
+|move|p1b: Delphox|Psychic|p2b: Garchomp
+|-damage|p2b: Garchomp|0 fnt
+|faint|p2b: Garchomp
+|move|p1a: Excadrill|Stomping Tantrum|p2a: Toxapex
+|-supereffective|p2a: Toxapex|1
+|-damage|p2a: Toxapex|41/100
+|
+|-heal|p2a: Toxapex|47/100|[from] item: Leftovers
+|-damage|p1b: Delphox|40/100 tox|[from] psn
+|upkeep
+|
+|t:|1782482352
+|switch|p2b: Hydreigon|Hydreigon, L50, F|48/100
+|turn|6
+|inactive|Koraidonn3 has 30 seconds left.
+|
+|t:|1782482380
+|-heal|p2a: Toxapex|80/100|[from] ability: Regenerator|[silent]
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|move|p2b: Hydreigon|Snarl|p1b: Delphox|[spread] p1a,p1b
+|-supereffective|p1b: Delphox|1
+|-damage|p1a: Excadrill|58/100
+|-damage|p1b: Delphox|0 fnt
+|-unboost|p1a: Excadrill|spa|1
+|faint|p1b: Delphox
+|move|p1a: Excadrill|Iron Head|p2b: Hydreigon
+|-damage|p2b: Hydreigon|0 fnt
+|faint|p2b: Hydreigon
+|
+|-sideend|p2: testdigi|Reflect
+|upkeep
+|
+|t:|1782482389
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Toxapex|Toxapex, L50, M, shiny|80/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Grimmsnarl|atk|1
+|-unboost|p2b: Toxapex|atk|1
+|turn|7
+|
+|t:|1782482396
+|move|p1b: Incineroar|Fake Out|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|89/100
+|cant|p2a: Grimmsnarl|flinch
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p2b: Toxapex|Infestation|p1a: Excadrill
+|-resisted|p1a: Excadrill|1
+|-crit|p1a: Excadrill
+|-damage|p1a: Excadrill|55/100
+|-activate|p1a: Excadrill|move: Infestation|[of] p2b: Toxapex
+|
+|-heal|p2b: Toxapex|85/100|[from] item: Leftovers
+|-damage|p1a: Excadrill|43/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|8
+|
+|t:|1782482411
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: testdigi|Reflect
+|move|p1a: Excadrill|Iron Head|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl|1
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|move|p1b: Incineroar|Throat Chop|p2b: Toxapex
+|-damage|p2b: Toxapex|73/100
+|-start|p2b: Toxapex|Throat Chop|[silent]
+|move|p2b: Toxapex|Toxic|p1b: Incineroar
+|-status|p1b: Incineroar|tox
+|
+|-heal|p2b: Toxapex|78/100|[from] item: Leftovers
+|-damage|p1b: Incineroar|94/100 tox|[from] psn
+|-damage|p1a: Excadrill|31/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|t:|1782482425
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p1a: Excadrill|Swords Dance|p1a: Excadrill
+|-boost|p1a: Excadrill|atk|2
+|move|p1b: Incineroar|Throat Chop|p2b: Toxapex
+|-activate|p2b: Toxapex|move: Protect
+|
+|-heal|p2b: Toxapex|84/100|[from] item: Leftovers
+|-damage|p1b: Incineroar|82/100 tox|[from] psn
+|-damage|p1a: Excadrill|18/100|[from] move: Infestation|[partiallytrapped]
+|-end|p2b: Toxapex|Throat Chop|[silent]
+|upkeep
+|turn|10
+|
+|t:|1782482431
+|move|p1a: Excadrill|Stomping Tantrum|p2b: Toxapex
+|-supereffective|p2b: Toxapex|1
+|-damage|p2b: Toxapex|0 fnt
+|faint|p2b: Toxapex
+|
+|win|Koraidonn3

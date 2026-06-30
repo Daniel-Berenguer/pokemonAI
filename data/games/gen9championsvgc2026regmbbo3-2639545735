@@ -1,0 +1,111 @@
+|j|☆steelag0
+|j|☆Beggins
+|html|steelag0Beggins    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782489227
+|gametype|doubles
+|player|p1|steelag0|1|1185
+|player|p2|Beggins|n|1188
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Blaziken, L50, M|
+|poke|p1|Hydreigon, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Metagross, L50|
+|poke|p2|Staraptor, L50, F|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Kingambit, L50, F|
+|teampreview|4
+|showteam|p1|Blaziken||Blazikenite|SpeedBoost|FlareBlitz,CloseCombat,RockSlide,Detect|Adamant||M|||50|]Hydreigon||ChoiceScarf|Levitate|DracoMeteor,DarkPulse,EarthPower,Snarl|Modest||M|||50|]Basculegion||LifeOrb|Adaptability|WaveCrash,LastRespects,AquaJet,Protect|Adamant||M|||50|]Whimsicott||FocusSash|Prankster|Moonblast,Encore,Tailwind,Protect|Timid||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,Thunderbolt,Roar,TrickRoom|Bold||F|||50|]Metagross||Metagrossite|ClearBody|PsychicFangs,IronHead,StompingTantrum,Protect|Jolly|||||50|
+|showteam|p2|Staraptor||Staraptite|Intimidate|BraveBird,CloseCombat,Uturn,Protect|Jolly||F|||50|]Raichu||FocusSash|LightningRod|FakeOut,Nuzzle,VoltSwitch,Protect|Timid||M|||50|]Gholdengo||Leftovers|GoodasGold|MakeItRain,ShadowBall,Thunderbolt,Protect|Modest|||||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,ThroatChop,PartingShot,FakeOut|Careful||M|||50|]Sinistcha||KasibBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,Protect|Bold|||||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,IronHead,Protect|Brave||F|||50|
+|
+|t:|1782489237
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Metagross|Metagross, L50|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2a: Staraptor|Staraptor, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-fail|p1a: Metagross|unboost|[from] ability: Clear Body|[of] p1a: Metagross
+|-unboost|p1b: Whimsicott|atk|1
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Metagross|unboost|[from] ability: Clear Body|[of] p1a: Metagross
+|-unboost|p1b: Whimsicott|atk|1
+|turn|1
+|
+|t:|1782489267
+|detailschange|p2a: Staraptor|Staraptor-Mega, L50, F
+|-mega|p2a: Staraptor|Staraptor|Staraptite
+|move|p1b: Whimsicott|Protect|p1b: Whimsicott
+|-singleturn|p1b: Whimsicott|Protect
+|move|p1a: Metagross|Protect|p1a: Metagross
+|-singleturn|p1a: Metagross|Protect
+|move|p2a: Staraptor|Close Combat|p1a: Metagross
+|-activate|p1a: Metagross|move: Protect
+|move|p2b: Incineroar|Throat Chop|p1a: Metagross
+|-activate|p1a: Metagross|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1782489282
+|detailschange|p1a: Metagross|Metagross-Mega, L50
+|-mega|p1a: Metagross|Metagross|Metagrossite
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: steelag0|move: Tailwind
+|move|p1a: Metagross|Psychic Fangs|p2a: Staraptor
+|-supereffective|p2a: Staraptor|1
+|-damage|p2a: Staraptor|0 fnt
+|faint|p2a: Staraptor
+|move|p2b: Incineroar|Throat Chop|p1a: Metagross
+|-supereffective|p1a: Metagross|1
+|-damage|p1a: Metagross|52/100
+|-start|p1a: Metagross|Throat Chop|[silent]
+|
+|upkeep
+|
+|t:|1782489305
+|switch|p2a: Sinistcha|Sinistcha, L50|100/100
+|turn|3
+|
+|t:|1782489319
+|move|p1b: Whimsicott|Moonblast|p2b: Incineroar
+|-damage|p2b: Incineroar|71/100
+|move|p1a: Metagross|Stomping Tantrum|p2b: Incineroar
+|-supereffective|p2b: Incineroar|1
+|-damage|p2b: Incineroar|17/100
+|-enditem|p2b: Incineroar|Sitrus Berry|[eat]
+|-heal|p2b: Incineroar|42/100|[from] item: Sitrus Berry
+|move|p2b: Incineroar|Throat Chop|p1a: Metagross
+|-supereffective|p1a: Metagross|1
+|-damage|p1a: Metagross|4/100
+|move|p2a: Sinistcha|Trick Room|p2a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2a: Sinistcha
+|
+|-end|p1a: Metagross|Throat Chop|[silent]
+|upkeep
+|turn|4
+|l|☆Beggins
+|player|p2|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by steelag0)
+|inactive|Beggins has 30 seconds to reconnect!
+|inactive|Beggins has 20 seconds to reconnect!
+|inactive|Beggins has 15 seconds to reconnect!
+|inactive|Beggins has 10 seconds to reconnect!
+|inactive|Beggins has 5 seconds to reconnect!
+|-message|Beggins lost due to inactivity.
+|
+|win|steelag0
+|raw|steelag0's rating: 1185 → 1208(+23 for winning)
+|raw|Beggins's rating: 1158 → 1135(-23 for losing)

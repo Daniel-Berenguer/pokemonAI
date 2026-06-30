@@ -1,0 +1,140 @@
+|j|☆Alfaceb
+|j|☆LekyS3
+|html|AlfacebLekyS3    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1782652634
+|gametype|doubles
+|player|p1|Alfaceb|pokefan|1135
+|player|p2|LekyS3|266|1264
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Aerodactyl, L50, M, shiny|
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Clefable, L50, M|
+|poke|p1|Blastoise, L50, M|
+|poke|p1|Kangaskhan, L50, F|
+|poke|p2|Sceptile, L50, M|
+|poke|p2|Milotic, L50, F|
+|poke|p2|Alcremie, L50, F|
+|poke|p2|Rotom-Heat, L50|
+|poke|p2|Sableye, L50, M|
+|poke|p2|Beedrill, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|SolarPower|HeatWave,WeatherBall,Protect,SolarBeam|Modest||F|||50|]Aerodactyl||FocusSash|Unnerve|DualWingbeat,RockSlide,Protect,Tailwind|Jolly||M|||50|]Venusaur||LifeOrb|Chlorophyll|SleepPowder,SludgeBomb,EnergyBall,Protect|Modest||F|||50|]Clefable||FairyFeather|Unaware|FollowMe,Moonblast,LifeDew,HelpingHand|Modest||M|||50|]Blastoise||Blastoisinite|Torrent|ShellSmash,WaterSpout,AuraSphere,Protect|Modest||M|||50|]Kangaskhan||SilkScarf|Scrappy|FakeOut,LastResort|Adamant||F|||50|
+|showteam|p2|Sceptile||Sceptilite|Overgrow|DragonPulse,GigaDrain,Protect,Substitute|Timid||M|||50|]Milotic||Leftovers|Competitive|Hypnosis,Coil,MuddyWater,Recover|Calm||F|||50|]Alcremie||FocusSash|AromaVeil|Decorate,AlluringVoice,Protect,Charm|Timid||F|||50|]Rotom-Heat||ChoiceScarf|Levitate|Discharge,Overheat,VoltSwitch,WillOWisp|Timid|||||50|]Sableye||Sablenite|Prankster|SkillSwap,FakeOut,Encore,Disable|Impish||M|||50|]Beedrill||Beedrillite|Sniper|Uturn,PoisonJab,DualWingbeat,DrillRun|Jolly||M|||50|
+|
+|t:|1782652692
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, F|100/100
+|switch|p1b: Kangaskhan|Kangaskhan, L50, F|100/100
+|switch|p2a: Sableye|Sableye, L50, M|100/100
+|switch|p2b: Milotic|Milotic, L50, F|100/100
+|turn|1
+|
+|t:|1782652709
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p1b: Kangaskhan|Fake Out|p2a: Sableye
+|-damage|p2a: Sableye|73/100
+|cant|p2a: Sableye|flinch
+|move|p1a: Charizard|Solar Beam||[still]
+|-prepare|p1a: Charizard|Solar Beam
+|-anim|p1a: Charizard|Solar Beam|p2b: Milotic
+|-supereffective|p2b: Milotic|1
+|-damage|p2b: Milotic|43/100
+|move|p2b: Milotic|Coil|p2b: Milotic
+|-boost|p2b: Milotic|atk|1
+|-boost|p2b: Milotic|def|1
+|-boost|p2b: Milotic|accuracy|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Milotic|49/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1782652735
+|switch|p1b: Venusaur|Venusaur, L50, F|100/100
+|move|p2a: Sableye|Disable|p1a: Charizard
+|-start|p1a: Charizard|Disable|Solar Beam
+|move|p1a: Charizard|Heat Wave|p2b: Milotic|[spread] p2a,p2b
+|-resisted|p2b: Milotic|1
+|-crit|p2b: Milotic
+|-damage|p2a: Sableye|0 fnt
+|-damage|p2b: Milotic|21/100
+|faint|p2a: Sableye
+|move|p2b: Milotic|Coil|p2b: Milotic
+|-boost|p2b: Milotic|atk|1
+|-boost|p2b: Milotic|def|1
+|-boost|p2b: Milotic|accuracy|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Milotic|27/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1782652744
+|switch|p2a: Rotom|Rotom-Heat, L50|100/100
+|turn|3
+|
+|t:|1782652759
+|move|p1b: Venusaur|Sleep Powder|p2a: Rotom
+|-status|p2a: Rotom|slp|[from] move: Sleep Powder
+|cant|p2a: Rotom|slp
+|move|p1a: Charizard|Heat Wave|p2b: Milotic|[spread] p2a,p2b
+|-resisted|p2a: Rotom|1
+|-resisted|p2b: Milotic|1
+|-damage|p2a: Rotom|55/100 slp
+|-damage|p2b: Milotic|9/100
+|move|p2b: Milotic|Recover|p2b: Milotic
+|-heal|p2b: Milotic|59/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Milotic|65/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1782652776
+|move|p1b: Venusaur|Energy Ball|p2b: Milotic
+|-supereffective|p2b: Milotic|1
+|-damage|p2b: Milotic|2/100
+|-damage|p1b: Venusaur|90/100|[from] item: Life Orb
+|cant|p2a: Rotom|slp
+|move|p1a: Charizard|Weather Ball|p2a: Rotom
+|-resisted|p2a: Rotom|1
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|move|p2b: Milotic|Hypnosis|p1b: Venusaur
+|-status|p1b: Venusaur|slp|[from] move: Hypnosis
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Milotic|8/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1782652784
+|switch|p2a: Alcremie|Alcremie, L50, F|100/100
+|turn|5
+|
+|t:|1782652805
+|switch|p1b: Kangaskhan|Kangaskhan, L50, F|100/100
+|move|p1a: Charizard|Weather Ball|p2b: Milotic
+|-resisted|p2b: Milotic|1
+|-damage|p2b: Milotic|0 fnt
+|faint|p2b: Milotic
+|move|p2a: Alcremie|Decorate|p2: Milotic|[notarget]
+|-fail|p2a: Alcremie
+|
+|-weather|none
+|-end|p1a: Charizard|Disable
+|upkeep
+|turn|6
+|-message|LekyS3 forfeited.
+|
+|win|Alfaceb
+||LekyS3 is ready for game 2.
