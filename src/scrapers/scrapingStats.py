@@ -12,7 +12,6 @@ missing_pokemon = []
 pokemon = {}
 
 for name in pokemonNames:
-    name = name.replace(" ", "-")
     url = f"https://pokemondb.net/pokedex/{name}"
     page = requests.get(url)
 
@@ -25,19 +24,16 @@ for name in pokemonNames:
         first = splitted_name[0]
         second = splitted_name[1]
 
-        name = name.replace(" ", "-")
         url = f"https://pokemondb.net/pokedex/{first}"
         page = requests.get(url)
 
         soup = BeautifulSoup(page.content, "html.parser")
 
-        TABS = {"Calyrex-Shadow" : 2, "Calyrex-Ice" : 1, "Urshifu-Rapid-Strike" : 1, "Urshifu-Single-Strike" : 0,
-                "Zamazenta-Crowned" : 1, "Zacian-Crowned" : 1, "Ogerpon-Wellspring" : 1, "Ogerpon-Hearthflame" : 2,
-                "Ogerpon-Cornerstone" : 3, "Indeedee-M" : 0, "Indeedee-F" : 1, "Ursaluna-Bloodmoon" : 1, "Necrozma-Dawn-Wings" : 2,
-                "Necrozma-Dusk-Mane" : 1, "Kyurem-White" : 1, "Kyurem-Black" : 2, "Rotom-Heat" : 1, "Rotom-Wash" : 2, "Rotom-Frost" : 3,
-                "Rotom-Fan" : 4, "Rotom-Mow" : 5, "Tauros-Paldea-Aqua" : 3, "Tauros-Paldea-Blaze" : 2, "Basculegion-M" : 0,
-                "Basculegion-F" : 1, "Oricorio-Pom-Pom" : 1, "Oricorio-Sensu" : 3, "Slowbro-Galar" : 2
-                }
+        TABS = {"raichu-alola" : 1, "slowbro-galar" : 2, "floette-eternal" : 1, "floette-mega" : 2, "rotom-heat" : 1, "rotom-wash" : 2,
+                "rotom-frost" : 3, "rotom-fan" : 4, "rotom-mow" : 5, "tauros-paldea-combat" : 1, "tauros-paldea-aqua" : 3,
+                "tauros-paldea-blaze" : 2, "slowbro-mega" : 1, "absol-mega" : 1, "garchomp-mega" : 1, "lucario-mega" : 1,
+                "greninja-mega" : 2, "meowstic-mega" : 2, "charizard-mega-x" : 1, "charizard-mega-y" : 2,
+                "raichu-mega-x" : 2, "raichu-mega-y" : 3}
 
         tab_list = soup.find("div", class_="sv-tabs-panel-list")
         tabs = tab_list.find_all(recursive=False)
@@ -45,7 +41,7 @@ for name in pokemonNames:
         if name in TABS:
             soup = tabs[TABS[name]]
             h2 = soup.find("h2", string=lambda text: text and "base stats" in text.lower())
-        elif second in ["Hisui", "Alola", "Galar", "Origin", "Therian"] and len(tabs) == 2:
+        elif second in ["hisui", "alola", "galar", "paldea", "mega"] and len(tabs) == 2:
             soup = tabs[1]
             h2 = soup.find("h2", string=lambda text: text and "base stats" in text.lower())
 
