@@ -20,15 +20,15 @@ soup = BeautifulSoup(html, "html.parser")
 results = soup.find_all("table")[1]
 rows = results.find_all("tr")
 
-items = []
+items = [""]
 
 for i,row in enumerate(rows[1:]):
-    items.append(row.find("td").text.lower().replace(" ", "").replace("-",""))
+    items.append(row.find("td").text.lower().replace(" ", "").replace("-", "").replace("'", ""))
 
 with open("data/items.csv", "w") as file:
     text = ""
     for item in items:
         text += item + "\n"
-    file.write(text.strip("\n"))
+    file.write(text[:-1])
 
 print(len(items))

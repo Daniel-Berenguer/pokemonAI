@@ -31,9 +31,6 @@ for row in rows[1:]:
     if "floette" in name:
         name = "floette-eternal"
 
-    if name == "mr. rime":
-        name = "mr-rime"
-
     pokes.append(name)
 
 pokes.append("rotom-heat")

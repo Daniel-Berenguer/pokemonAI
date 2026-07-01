@@ -14,8 +14,8 @@ cuda = torch.device('cuda')
 
 
 class TypeEncoder(nn.Module):
-    NUM_TYPES = 20
-    def __init__(self, nhidden=10):
+    NUM_TYPES = 19
+    def __init__(self, nhidden=15):
         super().__init__()
         self.emb = nn.Embedding(self.NUM_TYPES, nhidden)
 
@@ -24,10 +24,11 @@ class TypeEncoder(nn.Module):
     
 
 class MoveEncoder(nn.Module):
-    NUM_MOVES = 388
-    MOVE_FEATS_SIZE = 6
+    NUM_MOVES = 497
+    MOVE_FEATS_SIZE = 5
     MOVE_DIM = 32
-    def __init__(self, nhidden=64, typeEmbeddingSize=10):
+
+    def __init__(self, nhidden=64, typeEmbeddingSize=15):
         super().__init__()
         self.emb = nn.Embedding(self.NUM_MOVES, self.MOVE_DIM) # Embeds move (move name, to capture effects I have not included in features)
         self.U = nn.Parameter(torch.randn(typeEmbeddingSize, self.MOVE_DIM)) # Multiplies type embedding before adding to move embedding
@@ -50,16 +51,16 @@ class MoveEncoder(nn.Module):
         #return torch.relu(self.lin2(self.ln2(x)))
     
 class PokeEncoder(nn.Module):
-    N_POKES = 261
-    N_ABS = 212
-    N_ITEMS = 134
-    FEATS_DIM = 25
+    N_POKES = 228
+    N_ABS = 200
+    N_ITEMS = 149
+    FEATS_DIM = 24
 
     POKE_EMB = 32
     AB_EMB = 32
     ITEM_EMB = 32
 
-    def __init__(self, nhidden=128, moveHidden=64, typeEmb=10):
+    def __init__(self, nhidden=128, moveHidden=64, typeEmb=15):
         super().__init__()
 
         self.pokeEmb = nn.Embedding(self.N_POKES, self.POKE_EMB)
@@ -76,7 +77,7 @@ class PokeEncoder(nn.Module):
         self.featsW = nn.Parameter(torch.randn(self.FEATS_DIM, nhidden))
         nn.init.kaiming_normal_(self.featsW)"""
 
-        concatDim = moveHidden + self.POKE_EMB + self.ITEM_EMB + self.AB_EMB + typeEmb*3 + self.FEATS_DIM
+        concatDim = moveHidden + self.POKE_EMB + self.ITEM_EMB + self.AB_EMB + typeEmb*2 + self.FEATS_DIM
         self.ln = nn.LayerNorm(concatDim)
         self.linear = nn.Linear(concatDim, nhidden)
 
@@ -85,11 +86,11 @@ class PokeEncoder(nn.Module):
         moves = self.moveEncoder.forward(moveInts, moveFeats, self.typeEncoder)
         
         # Embeds Rest
-        # pokeInts (BATCH, 2, 6, 6) [poke, item, ab, typ1, typ2, tera]
+        # pokeInts (BATCH, 2, 6, 6) [poke, item, ab, typ1, typ2]
         poke = self.pokeEmb(pokeInts[:, :, :, 0])
         item = self.itemEmb(pokeInts[:, :, :, 1])
         ab = self.abEmb(pokeInts[:, :, :, 2])
-        types = self.typeEncoder(pokeInts[:, :, :, 3:6]).flatten(start_dim=3)
+        types = self.typeEncoder(pokeInts[:, :, :, 3:5]).flatten(start_dim=3)
 
         # Concatenate everything
         concat = torch.cat([poke, item, ab, types, pokeFeats, moves], dim=-1)
@@ -186,7 +187,7 @@ class Block(nn.Module):
 #moveFeatsTensor (2, 6, 4, moveFeatDim)
 class Model(nn.Module):
     BOARD_HIDDEN = 32
-    TYPE_EMB = 10
+    TYPE_EMB = 15
     POKE_HIDDEN = 128
     MOVE_HIDDEN = 64
     DROPOUT_PROB = 0.35
@@ -202,7 +203,7 @@ class Model(nn.Module):
         concatDim = 2*self.POKE_HIDDEN + self.BOARD_HIDDEN
 
         self.block1 = Block(8, self.POKE_HIDDEN//8, self.POKE_HIDDEN)
-        #self.block2 = Block(8, self.POKE_HIDDEN//8, self.POKE_HIDDEN)
+        self.block2 = Block(8, self.POKE_HIDDEN//8, self.POKE_HIDDEN)
         #self.block3 = Block(8, self.POKE_HIDDEN//8, self.POKE_HIDDEN)
 
         self.attn_pool = nn.Linear(self.POKE_HIDDEN, 1)
@@ -228,7 +229,7 @@ class Model(nn.Module):
         # Flattens and feeds into transformer
         pokes = pokes.flatten(start_dim=1, end_dim=2) # (B, 2, 6, pokeDim) --> (B, 12, pokeDim)
         pokes = self.block1(pokes)
-        #pokes = self.block2(pokes)
+        pokes = self.block2(pokes)
         #pokes = self.block3(pokes)
         # Transforms back into teams
         pokes = pokes.reshape(-1, 2, 6, self.POKE_HIDDEN)
@@ -250,7 +251,7 @@ class Model(nn.Module):
 
 
 
-def bce_with_logits_label_smoothing(logits, targets, smoothing=0.1):
+def bce_with_logits_label_smoothing(logits, targets, smoothing=0.05):
     # targets are {0,1}, same shape as logits
     with torch.no_grad():
         targets = targets * (1 - 2*smoothing) + smoothing
@@ -261,7 +262,7 @@ if __name__ == "__main__":
 
     with open("data/data.pickle", "rb") as file:
         # X is boardIntTensor, boardTensor, pokeIntsTensor, pokeFeatsTensor, moveFeatsTensor, moveIntsTensor
-        X, Y = pickle.load(file)
+        X_train, Y_train, X_test, Y_test = pickle.load(file)
 
 
     model = Model().to(cuda)
@@ -274,17 +275,8 @@ if __name__ == "__main__":
 
     optimizer = torch.optim.AdamW(model.parameters(), lr=0.0001, weight_decay=0.01)
 
-    print(Y.shape)
-    print(X[0].shape)
-
-    n = int(Y.size(0)*0.85)
-    print(f"Dataset size: {Y.size(0)}")
-
-    # Train test-split
-    X_train = [X[i][:n] for i in range(len(X))]
-    Y_train = Y[:n]
-    X_test =  [X[i][n:] for i in range(len(X))]
-    Y_test = Y[n:]
+    n = Y_train.size(0)
+    print(f"Train Dataset size: {Y_train.size(0)}")
 
     print(X_train[0].shape)
     print(Y_train.shape)

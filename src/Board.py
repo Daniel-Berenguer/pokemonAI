@@ -181,7 +181,7 @@ class Board:
           else:
                splitted = line[1].split(":")
                if len(splitted) <= 1:
-                    raise Exception(f"UNKNOWN EFFECT: {line[1]}")
+                    raise Exception(f"UNKNOWN EFFECT1: {line[1]}")
                effect = splitted[1][1:]
                if effect == "Aurora Veil":
                     self.auroraveils[player] = [start, 0]
@@ -203,7 +203,7 @@ class Board:
                elif effect == "Stealth Rock":
                     self.stealthrocks[player] = start
                else:
-                    raise Exception(f"UNKNOWN EFFECT: {effect}")
+                    raise Exception(f"UNKNOWN EFFECT:{effect}")
 
      def boost(self, line):
           line = line.split("|")

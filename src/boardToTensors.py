@@ -79,8 +79,8 @@ def onehot(size, ix):
 
 
 def board2tensor(board: Board):
-    array = []
-    arrayInt = []
+    array = []          # Features that will be treated as floats
+    arrayInt = []       # Integer features that will be embeded
 
     append(arrayInt, board.tailwinds) # 2 ints (0-5)
     append(arrayInt, board.trickroom) # 1 int (0-5)
@@ -133,7 +133,7 @@ def pokemon2array(poke: Pokemon):
     intFeats += [type2ix[poke.stats[0].lower()], type2ix[poke.stats[1].lower()]]
     stats = poke.stats[2:]
     # [HP, ATK, DEF, SPA, SPD, SPE]
-    dividers = [255, 190, 230, 195, 230, 200]
+    dividers = [255, 255, 255, 255, 255, 255]
     for i, div in enumerate(dividers):
         stats[i] = int(stats[i]) / div
 
@@ -148,7 +148,6 @@ def pokemon2array(poke: Pokemon):
     feats.append(poke.fnt)
     feats.append(poke.sub)
     feats.append(poke.lostItem)
-    feats.append(poke.team)
     append(feats, onehot(len(status2ix), status2ix[poke.status]))
 
     moveFeats = []

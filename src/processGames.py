@@ -128,19 +128,27 @@ if __name__ == "__main__":
     import os
     total = 0
     errors = 0
-    tensors = [[],[],[],[],[],[]]
-    labels = []
+    train_tensors = [[],[],[],[],[],[]]
+    train_labels = []
+    test_tensors = [[],[],[],[],[],[]]
+    test_labels = []
     filenames = os.listdir("data/games")
     random.shuffle(filenames)
+
+    N_FILES = len(filenames)
+    N_TEST = N_FILES*0.15
+
     error_dict = dict()
-    for filename in filenames:
-            
+    for i,filename in enumerate(filenames):
         with open(f"data/games/{filename}", encoding="utf-8") as file:
             text = file.read()
         print(filename)
         total += 1
         try:
-            processGame(text, tensors, labels)
+            if i <= N_TEST:
+                processGame(text, test_tensors, test_labels)
+            else:
+                processGame(text, train_tensors, train_labels)
         except Exception as e:
             print(e)
             err = str(e)
@@ -153,15 +161,16 @@ if __name__ == "__main__":
 
     print(f"Processed {processed}/{total}")
     print(f"{processed/total:.2%}")
-    print(f"Data points: {len(tensors[0])}")
+    print(f"Data points: {len(train_tensors[0]) + len(test_tensors[0])}")
 
-    X = [torch.stack(tensor) for tensor in tensors]
-    Y = torch.stack(labels).float()
 
-    print(X[0].shape)
-    print(Y.shape)
+    X_train = [torch.stack(tensor) for tensor in train_tensors]
+    Y_train = torch.stack(train_labels).float()
+
+    X_test = [torch.stack(tensor) for tensor in test_tensors]
+    Y_test = torch.stack(test_labels).float()
 
     print(error_dict)
 
     with open("data/data.pickle", "wb") as file:
-        pickle.dump([X, Y], file)
+        pickle.dump([X_train, Y_train, X_test, Y_test], file)
