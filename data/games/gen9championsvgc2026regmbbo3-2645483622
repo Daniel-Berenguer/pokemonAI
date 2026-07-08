@@ -1,0 +1,187 @@
+|j|☆Keith Jones
+|j|☆sapo relajao
+|html|Keith Jonessapo relajao    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783442099
+|gametype|doubles
+|player|p1|Keith Jones|benga|1441
+|player|p2|sapo relajao|102|1364
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Raichu, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Gyarados, L50, M|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Gengar, L50, M, shiny|
+|poke|p2|Swampert, L50, F, shiny|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Politoed, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Vivillon, L50, M|
+|teampreview|4
+|showteam|p1|Raichu||RaichuniteY|LightningRod|ZapCannon,FocusBlast,FakeOut,Protect|Timid||M|||50|]Garchomp||RoseliBerry|RoughSkin|DragonClaw,StompingTantrum,Earthquake,PoisonJab|Jolly||F|||50|]Gyarados||SitrusBerry|Intimidate|Waterfall,IceFang,PowerWhip,Protect|Adamant||M|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,Yawn,Detect|Modest||M|||50|]Gholdengo||LifeOrb|GoodasGold|MakeItRain,Hex,NastyPlot,Protect|Modest|||||50|]Incineroar||Charcoal|Intimidate|FlareBlitz,ThroatChop,PartingShot,FakeOut|Adamant||M|||50|
+|showteam|p2|Gengar||Gengarite|CursedBody|SludgeBomb,ShadowBall,PerishSong,Protect|Calm||M|||50|]Swampert||Swampertite|Damp|WaveCrash,Earthquake,IcePunch,Protect|Adamant||F|||50|]Incineroar||PasshoBerry|Intimidate|ThroatChop,PartingShot,FakeOut,Protect|Relaxed||F|||50|]Politoed||SitrusBerry|Drizzle|WeatherBall,PerishSong,Encore,Protect|Calm||M|||50|]Archaludon||Leftovers|Stamina|DragonPulse,FlashCannon,ElectroShot,Protect|Bold||F|||50|]Vivillon||FocusSash|CompoundEyes|Hurricane,SleepPowder,RagePowder,Protect|Timid||M|||50|
+|
+|t:|1783442135
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gyarados|Gyarados, L50, M|100/100
+|switch|p1b: Sylveon|Sylveon, L50, M|100/100
+|switch|p2a: PANDERETA|Gengar, L50, M, shiny|100/100
+|switch|p2b: Vivillon|Vivillon, L50, M|100/100
+|-ability|p1a: Gyarados|Intimidate|boost
+|-unboost|p2a: PANDERETA|atk|1
+|-unboost|p2b: Vivillon|atk|1
+|turn|1
+|
+|t:|1783442160
+|detailschange|p2a: PANDERETA|Gengar-Mega, L50, M, shiny
+|-mega|p2a: PANDERETA|Gengar|Gengarite
+|move|p2b: Vivillon|Sleep Powder|p1a: Gyarados
+|-status|p1a: Gyarados|slp|[from] move: Sleep Powder
+|move|p2a: PANDERETA|Perish Song|p2a: PANDERETA
+|-start|p1a: Gyarados|perish3|[silent]
+|-start|p1b: Sylveon|perish3|[silent]
+|-start|p2a: PANDERETA|perish3|[silent]
+|-start|p2b: Vivillon|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|cant|p1a: Gyarados|slp
+|move|p1b: Sylveon|Yawn|p2a: PANDERETA
+|-start|p2a: PANDERETA|move: Yawn|[of] p1b: Sylveon
+|
+|-start|p2b: Vivillon|perish3
+|-start|p2a: PANDERETA|perish3
+|-start|p1a: Gyarados|perish3
+|-start|p1b: Sylveon|perish3
+|upkeep
+|turn|2
+|
+|t:|1783442173
+|move|p2b: Vivillon|Sleep Powder|p1b: Sylveon
+|-status|p1b: Sylveon|slp|[from] move: Sleep Powder
+|move|p2a: PANDERETA|Sludge Bomb|p1b: Sylveon
+|-supereffective|p1b: Sylveon|1
+|-damage|p1b: Sylveon|33/100 slp
+|cant|p1a: Gyarados|slp
+|cant|p1b: Sylveon|slp
+|
+|-end|p2a: PANDERETA|move: Yawn|[silent]
+|-status|p2a: PANDERETA|slp
+|-start|p2b: Vivillon|perish2
+|-start|p2a: PANDERETA|perish2
+|-start|p1a: Gyarados|perish2
+|-start|p1b: Sylveon|perish2
+|upkeep
+|turn|3
+|
+|t:|1783442208
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Gyarados|atk|1
+|-unboost|p1b: Sylveon|atk|1
+|cant|p2a: PANDERETA|slp
+|-curestatus|p1a: Gyarados|slp|[msg]
+|move|p1a: Gyarados|Waterfall|p2b: Incineroar
+|-supereffective|p2b: Incineroar|1
+|-enditem|p2b: Incineroar|Passho Berry|[eat]
+|-enditem|p2b: Incineroar|Passho Berry|[weaken]
+|-damage|p2b: Incineroar|80/100
+|cant|p1b: Sylveon|slp
+|
+|-start|p2a: PANDERETA|perish1
+|-start|p1a: Gyarados|perish1
+|-start|p1b: Sylveon|perish1
+|upkeep
+|turn|4
+|
+|t:|1783442233
+|switch|p2a: Archaludon|Archaludon, L50, F|100/100
+|move|p1a: Gyarados|Waterfall|p2a: Archaludon
+|-resisted|p2a: Archaludon|1
+|-damage|p2a: Archaludon|90/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|-curestatus|p1b: Sylveon|slp|[msg]
+|move|p1b: Sylveon|Hyper Beam|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|-mustrecharge|p1b: Sylveon
+|faint|p2b: Incineroar
+|
+|-heal|p2a: Archaludon|96/100|[from] item: Leftovers
+|-start|p1a: Gyarados|perish0
+|-start|p1b: Sylveon|perish0
+|faint|p1a: Gyarados
+|faint|p1b: Sylveon
+|upkeep
+|
+|t:|1783442247
+|switch|p1a: Garchomp|Garchomp, L50, F|100/100
+|switch|p1b: Raichu|Raichu, L50, M|100/100
+|switch|p2b: PANDERETA|Gengar-Mega, L50, M, shiny|100/100 slp
+|turn|5
+|
+|t:|1783442260
+|detailschange|p1b: Raichu|Raichu-Mega-Y, L50, M
+|-mega|p1b: Raichu|Raichu|Raichunite Y
+|move|p2a: Archaludon|Protect|p2a: Archaludon
+|-singleturn|p2a: Archaludon|Protect
+|move|p1b: Raichu|Focus Blast|p2a: Archaludon
+|-activate|p2a: Archaludon|move: Protect
+|move|p1a: Garchomp|Stomping Tantrum|p2b: PANDERETA
+|-supereffective|p2b: PANDERETA|1
+|-damage|p2b: PANDERETA|16/100 slp
+|cant|p2b: PANDERETA|slp
+|
+|-heal|p2a: Archaludon|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1783442301
+|move|p1b: Raichu|Protect|p1b: Raichu
+|-singleturn|p1b: Raichu|Protect
+|move|p1a: Garchomp|Earthquake|p2a: Archaludon|[spread] p2a,p2b
+|-activate|p1b: Raichu|move: Protect
+|-supereffective|p2a: Archaludon|1
+|-supereffective|p2b: PANDERETA|1
+|-damage|p2a: Archaludon|68/100
+|-damage|p2b: PANDERETA|0 fnt
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|faint|p2b: PANDERETA
+|move|p2a: Archaludon|Dragon Pulse|p1a: Garchomp
+|-supereffective|p1a: Garchomp|1
+|-damage|p1a: Garchomp|17/100
+|
+|-heal|p2a: Archaludon|74/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783442306
+|switch|p2b: Vivillon|Vivillon, L50, M|100/100
+|turn|7
+|
+|t:|1783442328
+|move|p2b: Vivillon|Protect|p2b: Vivillon
+|-singleturn|p2b: Vivillon|Protect
+|move|p1b: Raichu|Focus Blast|p2a: Archaludon
+|-supereffective|p2a: Archaludon|1
+|-damage|p2a: Archaludon|0 fnt
+|faint|p2a: Archaludon
+|move|p1a: Garchomp|Dragon Claw|p2b: Vivillon
+|-activate|p2b: Vivillon|move: Protect
+|
+|upkeep
+|turn|8
+|-message|sapo relajao forfeited.
+|
+|win|Keith Jones
+|raw|Keith Jones's rating: 1441 → 1457(+16 for winning)
+|raw|sapo relajao's rating: 1364 → 1348(-16 for losing)
+|l|☆sapo relajao
+|player|p2|

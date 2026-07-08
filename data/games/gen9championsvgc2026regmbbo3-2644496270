@@ -1,0 +1,249 @@
+|j|☆KrasseKrabbe
+|j|☆Firebro2026
+|html|KrasseKrabbeFirebro2026    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783281738
+|gametype|doubles
+|player|p1|KrasseKrabbe|benga|
+|player|p2|Firebro2026|benga|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Metagross, L50, shiny|
+|poke|p1|Gyarados, L50, F, shiny|
+|poke|p1|Talonflame, L50, M, shiny|
+|poke|p1|Toxicroak, L50, M|
+|poke|p2|Blastoise, L50, M|
+|poke|p2|Gengar, L50, M|
+|poke|p2|Staraptor, L50, M|
+|poke|p2|Klefki, L50, M|
+|poke|p2|Politoed, L50, M|
+|poke|p2|Palafin, L50, F|
+|teampreview|4
+|showteam|p1|Garchomp||ChoiceScarf|RoughSkin|Earthquake,RockSlide,ScaleShot,DragonClaw|Jolly||M|||50|]Grimmsnarl||LightClay|Prankster|FakeOut,LightScreen,Reflect,SpiritBreak|Careful||M|||50|]Metagross||Metagrossite|ClearBody|ZenHeadbutt,MeteorMash,BulletPunch,IcePunch|Adamant|||||50|]Gyarados||SitrusBerry|Intimidate|Waterfall,IceFang,Earthquake,Protect|Adamant||F|||50|]Talonflame||SharpBeak|GaleWings|Tailwind,BraveBird,FlareBlitz,Protect|Jolly||M|||50|]Toxicroak||FocusSash|DrySkin|FakeOut,SuckerPunch,GunkShot,DrainPunch|Adamant||M|||50|
+|showteam|p2|Blastoise||Leftovers|RainDish|FakeOut,FlipTurn,Liquidation,Protect|Careful||M|||50|]Gengar||Gengarite|CursedBody|PerishSong,Protect,ShadowBall,Disable|Timid||M|||50|]Staraptor||Staraptite|Intimidate|CloseCombat,Roost,Protect,BraveBird|Adamant||M|||50|]Klefki||LightClay|Prankster|LightScreen,Reflect,ThunderWave,DazzlingGleam|Bold||M|||50|]Politoed||SitrusBerry|Drizzle|Protect,WeatherBall,Encore,PerishSong|Calm||M|||50|]Palafin||MysticWater|ZerotoHero|JetPunch,WaveCrash,FlipTurn,IcePunch|Jolly||F|||50|
+|
+|t:|1783281766
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Metagross|Metagross, L50, shiny|100/100
+|switch|p1b: Toxicroak|Toxicroak, L50, M|100/100
+|switch|p2a: Staraptor|Staraptor, L50, M|100/100
+|switch|p2b: Klefki|Klefki, L50, M|100/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-fail|p1a: Metagross|unboost|[from] ability: Clear Body|[of] p1a: Metagross
+|-unboost|p1b: Toxicroak|atk|1
+|turn|1
+|
+|t:|1783281784
+|detailschange|p1a: Metagross|Metagross-Mega, L50, shiny
+|-mega|p1a: Metagross|Metagross|Metagrossite
+|detailschange|p2a: Staraptor|Staraptor-Mega, L50, M
+|-mega|p2a: Staraptor|Staraptor|Staraptite
+|move|p1b: Toxicroak|Fake Out|p2a: Staraptor
+|-damage|p2a: Staraptor|91/100
+|move|p2b: Klefki|Reflect|p2b: Klefki
+|-sidestart|p2: Firebro2026|Reflect
+|move|p1a: Metagross|Zen Headbutt|p2a: Staraptor
+|-supereffective|p2a: Staraptor|1
+|-damage|p2a: Staraptor|4/100
+|cant|p2a: Staraptor|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1783281805
+|move|p1b: Toxicroak|Sucker Punch||[still]
+|-fail|p1b: Toxicroak
+|move|p2b: Klefki|Thunder Wave|p1a: Metagross
+|-status|p1a: Metagross|par
+|move|p2a: Staraptor|Roost|p2a: Staraptor
+|-heal|p2a: Staraptor|54/100
+|-singleturn|p2a: Staraptor|move: Roost
+|move|p1a: Metagross|Meteor Mash|p2b: Klefki
+|-damage|p2b: Klefki|57/100
+|
+|upkeep
+|turn|3
+|
+|t:|1783281822
+|switch|p1b: Talonflame|Talonflame, L50, M, shiny|100/100
+|move|p2b: Klefki|Thunder Wave|p1b: Talonflame
+|-status|p1b: Talonflame|par
+|move|p2a: Staraptor|Close Combat|p1a: Metagross
+|-damage|p1a: Metagross|38/100 par
+|-boost|p2a: Staraptor|def|1
+|-boost|p2a: Staraptor|spd|1
+|cant|p1a: Metagross|par
+|
+|upkeep
+|turn|4
+|
+|t:|1783281842
+|move|p2a: Staraptor|Protect|p2a: Staraptor
+|-singleturn|p2a: Staraptor|Protect
+|move|p1b: Talonflame|Brave Bird|p2a: Staraptor
+|-activate|p2a: Staraptor|move: Protect
+|move|p2b: Klefki|Dazzling Gleam|p1a: Metagross|[spread] p1a,p1b
+|-resisted|p1a: Metagross|1
+|-resisted|p1b: Talonflame|1
+|-damage|p1a: Metagross|28/100 par
+|-damage|p1b: Talonflame|88/100 par
+|move|p1a: Metagross|Meteor Mash|p2b: Klefki
+|-damage|p2b: Klefki|20/100y
+|
+|upkeep
+|turn|5
+|
+|t:|1783281889
+|move|p2b: Klefki|Light Screen|p2b: Klefki
+|-sidestart|p2: Firebro2026|move: Light Screen
+|move|p2a: Staraptor|Close Combat|p1a: Metagross
+|-damage|p1a: Metagross|0 fnt
+|-boost|p2a: Staraptor|def|1
+|-boost|p2a: Staraptor|spd|1
+|faint|p1a: Metagross
+|move|p1b: Talonflame|Tailwind|p1b: Talonflame
+|-sidestart|p1: KrasseKrabbe|move: Tailwind
+|
+|upkeep
+|
+|t:|1783281899
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100
+|turn|6
+|
+|t:|1783281910
+|switch|p2b: Blastoise|Blastoise, L50, M|100/100
+|move|p2a: Staraptor|Protect|p2a: Staraptor
+|-singleturn|p2a: Staraptor|Protect
+|move|p1a: Garchomp|Scale Shot|p2a: Staraptor
+|-activate|p2a: Staraptor|move: Protect
+|move|p1b: Talonflame|Flare Blitz|p2b: Blastoise
+|-resisted|p2b: Blastoise|1
+|-damage|p2b: Blastoise|87/100
+|-damage|p1b: Talonflame|84/100 par|[from] Recoil
+|
+|-heal|p2b: Blastoise|93/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1783281940
+|move|p2b: Blastoise|Fake Out|p1a: Garchomp
+|-damage|p1a: Garchomp|91/100
+|-damage|p2b: Blastoise|81/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|cant|p1a: Garchomp|flinch
+|cant|p1b: Talonflame|par
+|move|p2a: Staraptor|Roost|p2a: Staraptor
+|-heal|p2a: Staraptor|100/100
+|-singleturn|p2a: Staraptor|move: Roost
+|
+|-heal|p2b: Blastoise|87/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1783281954
+|move|p2a: Staraptor|Protect|p2a: Staraptor
+|-singleturn|p2a: Staraptor|Protect
+|move|p1a: Garchomp|Scale Shot|p2a: Staraptor
+|-activate|p2a: Staraptor|move: Protect
+|move|p1b: Talonflame|Brave Bird|p2a: Staraptor
+|-activate|p2a: Staraptor|move: Protect
+|move|p2b: Blastoise|Liquidation|p1b: Talonflame
+|-supereffective|p1b: Talonflame|1
+|-damage|p1b: Talonflame|16/100 par
+|
+|-heal|p2b: Blastoise|93/100|[from] item: Leftovers
+|-sideend|p2: Firebro2026|Reflect
+|-sideend|p1: KrasseKrabbe|move: Tailwind
+|upkeep
+|turn|9
+|
+|t:|1783281976
+|move|p1a: Garchomp|Scale Shot|p2a: Staraptor
+|-damage|p2a: Staraptor|93/100
+|-damage|p2a: Staraptor|86/100
+|-damage|p2a: Staraptor|79/100
+|-damage|p2a: Staraptor|72/100
+|-hitcount|p2a: Staraptor|4
+|-unboost|p1a: Garchomp|def|1
+|-boost|p1a: Garchomp|spe|1
+|move|p2a: Staraptor|Close Combat|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-boost|p2a: Staraptor|def|1
+|-boost|p2a: Staraptor|spd|1
+|-damage|p2a: Staraptor|60/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|move|p2b: Blastoise|Liquidation|p1b: Talonflame
+|-supereffective|p1b: Talonflame|1
+|-damage|p1b: Talonflame|0 fnt
+|faint|p1b: Talonflame
+|
+|-heal|p2b: Blastoise|98/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783281982
+|switch|p1b: Toxicroak|Toxicroak, L50, M|100/100
+|turn|10
+|
+|t:|1783281989
+|move|p2a: Staraptor|Protect|p2a: Staraptor
+|-singleturn|p2a: Staraptor|Protect
+|move|p2b: Blastoise|Protect|p2b: Blastoise
+|-singleturn|p2b: Blastoise|Protect
+|move|p1b: Toxicroak|Drain Punch|p2a: Staraptor
+|-activate|p2a: Staraptor|move: Protect
+|
+|-heal|p2b: Blastoise|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1783281998
+|move|p1b: Toxicroak|Drain Punch|p2a: Staraptor
+|-resisted|p2a: Staraptor|1
+|-damage|p2a: Staraptor|53/100
+|move|p2a: Staraptor|Brave Bird|p1b: Toxicroak
+|-supereffective|p1b: Toxicroak|1
+|-enditem|p1b: Toxicroak|Focus Sash
+|-damage|p1b: Toxicroak|1/100
+|-damage|p2a: Staraptor|26/100|[from] Recoil
+|move|p2b: Blastoise|Liquidation|p1b: Toxicroak
+|-heal|p1b: Toxicroak|25/100|[from] ability: Dry Skin|[of] p2b: Blastoise
+|
+|upkeep
+|turn|12
+|
+|t:|1783282004
+|move|p2b: Blastoise|Protect|p2b: Blastoise
+|-singleturn|p2b: Blastoise|Protect
+|move|p1b: Toxicroak|Drain Punch|p2a: Staraptor
+|-resisted|p2a: Staraptor|1
+|-damage|p2a: Staraptor|19/100
+|-heal|p1b: Toxicroak|30/100|[from] drain|[of] p2a: Staraptor
+|move|p2a: Staraptor|Roost|p2a: Staraptor
+|-heal|p2a: Staraptor|70/100
+|-singleturn|p2a: Staraptor|move: Roost
+|
+|-sideend|p2: Firebro2026|move: Light Screen
+|upkeep
+|turn|13
+|c|☆Firebro2026|Ggs
+|
+|t:|1783282015
+|move|p1b: Toxicroak|Drain Punch|p2a: Staraptor
+|-resisted|p2a: Staraptor|1
+|-damage|p2a: Staraptor|62/100
+|-heal|p1b: Toxicroak|34/100|[from] drain|[of] p2a: Staraptor
+|move|p2a: Staraptor|Brave Bird|p1b: Toxicroak
+|-supereffective|p1b: Toxicroak|1
+|-damage|p1b: Toxicroak|0 fnt
+|faint|p1b: Toxicroak
+|-damage|p2a: Staraptor|53/100|[from] Recoil
+|
+|win|Firebro2026
+|l|☆KrasseKrabbe
+|player|p1|

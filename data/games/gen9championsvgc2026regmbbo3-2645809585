@@ -1,0 +1,241 @@
+|j|☆BigWy2000
+|j|☆KodeBeast0526
+|html|BigWy2000KodeBeast0526    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783488657
+|gametype|doubles
+|player|p1|BigWy2000|1|1096
+|player|p2|KodeBeast0526|hiker|1165
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Rotom-Wash, L50|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Milotic, L50, M|
+|poke|p2|Gengar, L50, F|
+|poke|p2|Swampert, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Politoed, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Vivillon-Ocean, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|HeatWave,Overheat,SolarBeam,Protect|Timid||M|||50|]Garchomp||ChoiceScarf|RoughSkin|Earthquake,RockSlide,DragonClaw,IronHead|Jolly||M|||50|]Rotom-Wash||Magnet|Levitate|Thunderbolt,HydroPump,WillOWisp,Protect|Calm|||||50|]Torkoal||Charcoal|Drought|Eruption,HeatWave,Protect,EarthPower|Modest||M|||50|]Venusaur||FocusSash|Chlorophyll|SleepPowder,SludgeBomb,GigaDrain,Protect|Modest||F|||50|]Milotic||Leftovers|Competitive|Hypnosis,Scald,Recover,Coil|Bold||M|||50|
+|showteam|p2|Gengar||Gengarite|CursedBody|ShadowBall,PerishSong,SludgeBomb,Protect|Timid||F|||50|]Swampert||Swampertite|Torrent|WaveCrash,Earthquake,IcePunch,Protect|Adamant||M|||50|]Incineroar||PasshoBerry|Intimidate|ThroatChop,PartingShot,FakeOut,Protect|Sassy||F|||50|]Politoed||SitrusBerry|Drizzle|WeatherBall,PerishSong,Encore,Protect|Calm||F|||50|]Archaludon||Leftovers|Stamina|DragonPulse,FlashCannon,ElectroShot,Protect|Bold||F|||50|]Vivillon-Ocean||FocusSash|CompoundEyes|Hurricane,SleepPowder,RagePowder,Protect|Timid||F|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by BigWy2000)
+|
+|t:|1783488687
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|switch|p1b: Venusaur|Venusaur, L50, F|100/100
+|switch|p2a: Gengar|Gengar, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1b: Venusaur|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1783488704
+|detailschange|p2a: Gengar|Gengar-Mega, L50, F
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2b: Incineroar|Fake Out|p1a: Torkoal
+|-damage|p1a: Torkoal|91/100
+|move|p1b: Venusaur|Sleep Powder|p2a: Gengar
+|-status|p2a: Gengar|slp|[from] move: Sleep Powder
+|cant|p2a: Gengar|slp
+|cant|p1a: Torkoal|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1783488723
+|switch|p2a: Politoed|Politoed, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1b: Venusaur|Sludge Bomb|p2b: Incineroar
+|-damage|p2b: Incineroar|68/100
+|move|p2b: Incineroar|Parting Shot|p1b: Venusaur
+|-unboost|p1b: Venusaur|atk|1
+|-unboost|p1b: Venusaur|spa|1
+|
+|t:|1783488734
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100|[from] Parting Shot
+|move|p1a: Torkoal|Eruption|p2a: Politoed|[spread] p2a,p2b
+|-resisted|p2a: Politoed|1
+|-damage|p2a: Politoed|90/100
+|-damage|p2b: Archaludon|74/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|80/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1783488751
+|switch|p2b: Gengar|Gengar-Mega, L50, F|100/100 slp
+|switch|p1a: Milotic|Milotic, L50, M|100/100
+|move|p1b: Venusaur|Giga Drain|p2a: Politoed
+|-supereffective|p2a: Politoed|1
+|-damage|p2a: Politoed|50/100g
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Milotic|perish3|[silent]
+|-start|p1b: Venusaur|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-start|p2b: Gengar|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-start|p2b: Gengar|perish3
+|-start|p1b: Venusaur|perish3
+|-start|p1a: Milotic|perish3
+|-start|p2a: Politoed|perish3
+|upkeep
+|turn|4
+|inactive|BigWy2000 has 30 seconds left.
+|
+|t:|1783488777
+|switch|p2a: Archaludon|Archaludon, L50, F|80/100
+|cant|p2b: Gengar|slp
+|move|p1b: Venusaur|Giga Drain|p2b: Gengar
+|-resisted|p2b: Gengar|1
+|-damage|p2b: Gengar|86/100 slp
+|move|p1a: Milotic|Scald|p2b: Gengar
+|-damage|p2b: Gengar|41/100 slp
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Archaludon|86/100|[from] item: Leftovers
+|-start|p2b: Gengar|perish2
+|-start|p1b: Venusaur|perish2
+|-start|p1a: Milotic|perish2
+|upkeep
+|turn|5
+|
+|t:|1783488797
+|-curestatus|p2b: Gengar|slp|[msg]
+|move|p2b: Gengar|Protect|p2b: Gengar
+|-singleturn|p2b: Gengar|Protect
+|move|p1b: Venusaur|Giga Drain|p2b: Gengar
+|-activate|p2b: Gengar|move: Protect
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Milotic
+|-supereffective|p1a: Milotic|1
+|-damage|p1a: Milotic|24/100
+|move|p1a: Milotic|Scald|p2b: Gengar
+|-activate|p2b: Gengar|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Archaludon|92/100|[from] item: Leftovers
+|-heal|p1a: Milotic|30/100|[from] item: Leftovers
+|-start|p2b: Gengar|perish1
+|-start|p1b: Venusaur|perish1
+|-start|p1a: Milotic|perish1
+|upkeep
+|turn|6
+|
+|t:|1783488820
+|switch|p2b: Incineroar|Incineroar, L50, F|68/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Milotic|atk|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|-unboost|p1b: Venusaur|atk|1
+|move|p2a: Archaludon|Protect|p2a: Archaludon
+|-singleturn|p2a: Archaludon|Protect
+|move|p1b: Venusaur|Sleep Powder|p2a: Archaludon
+|-activate|p2a: Archaludon|move: Protect
+|move|p1a: Milotic|Hypnosis|p2a: Archaludon
+|-activate|p2a: Archaludon|move: Protect
+|
+|-weather|none
+|-heal|p2a: Archaludon|98/100|[from] item: Leftovers
+|-heal|p1a: Milotic|36/100|[from] item: Leftovers
+|-start|p1b: Venusaur|perish0
+|-start|p1a: Milotic|perish0
+|faint|p1b: Venusaur
+|faint|p1a: Milotic
+|upkeep
+|
+|t:|1783488836
+|switch|p1b: Torkoal|Torkoal, L50, M|91/100
+|switch|p1a: Charizard|Charizard, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|7
+|
+|t:|1783488858
+|move|p2b: Incineroar|Fake Out|p1b: Torkoal
+|-damage|p1b: Torkoal|83/100
+|move|p1a: Charizard|Heat Wave|p2a: Archaludon|[spread] p2a,p2b
+|-resisted|p2b: Incineroar|1
+|-damage|p2a: Archaludon|42/100
+|-damage|p2b: Incineroar|50/100g
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|cant|p1b: Torkoal|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Archaludon|48/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1783488882
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|move|p2b: Incineroar|Protect|p2b: Incineroar
+|-singleturn|p2b: Incineroar|Protect
+|move|p1a: Charizard|Overheat|p2a: Archaludon
+|-damage|p2a: Archaludon|0 fnt
+|-unboost|p1a: Charizard|spa|2
+|faint|p2a: Archaludon
+|move|p1b: Torkoal|Eruption|p2b: Incineroar
+|-activate|p2b: Incineroar|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783488885
+|switch|p2a: Politoed|Politoed, L50, F|50/100g
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|9
+|
+|t:|1783488899
+|move|p1a: Charizard|Solar Beam||[still]
+|-prepare|p1a: Charizard|Solar Beam
+|move|p2a: Politoed|Weather Ball|p1b: Torkoal
+|-supereffective|p1b: Torkoal|1
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|move|p2b: Incineroar|Throat Chop|p1a: Charizard
+|-damage|p1a: Charizard|53/100
+|-start|p1a: Charizard|Throat Chop|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1783488908
+|move|p1a: Charizard|Solar Beam|p2a: Politoed|[from] lockedmove
+|-supereffective|p2a: Politoed|1
+|-damage|p2a: Politoed|31/100
+|-enditem|p2a: Politoed|Sitrus Berry|[eat]
+|-heal|p2a: Politoed|56/100|[from] item: Sitrus Berry
+|move|p2a: Politoed|Weather Ball|p1a: Charizard
+|-supereffective|p1a: Charizard|1
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|win|KodeBeast0526
+||BigWy2000 is ready for game 2.

@@ -1,0 +1,153 @@
+|j|☆leonidos1
+|j|☆Phonx_Ghost
+|html|leonidos1Phonx_Ghost    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783208499
+|gametype|doubles
+|player|p1|leonidos1|cynthia|1149
+|player|p2|Phonx_Ghost|will|1044
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Sylveon, L50, F|
+|poke|p1|Venusaur, L50, F|
+|poke|p2|Golurk, L50, shiny|
+|poke|p2|Oranguru, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Staraptor, L50, M|
+|poke|p2|Venusaur, L50, F|
+|poke|p2|Milotic, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|WeatherBall,HeatWave,SolarBeam,Protect|Modest||F|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,DarkestLariat,PartingShot|Adamant||F|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,RockSlide,Earthquake,Protect|Jolly||F|||50|]Farigiraf||ColburBerry|ArmorTail|TwinBeam,Thunderbolt,HelpingHand,TrickRoom|Sassy||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,QuickAttack,Protect|Quiet||F|||50|]Venusaur||FocusSash|Chlorophyll|SleepPowder,EnergyBall,SludgeBomb,Protect|Modest||F|||50|
+|showteam|p2|Golurk||Golurkite|IronFist|Poltergeist,DrainPunch,Earthquake,Protect|Adamant|||||50|]Oranguru||ColburBerry|Telepathy|TrickRoom,Instruct,ExpandingForce,FoulPlay|Bold||F|||50|]Torkoal||HeatRock|Drought|Eruption,BodyPress,Protect,StealthRock|Careful||M|||50|]Staraptor|||Intimidate|CloseCombat,Acrobatics,Facade,Protect|Adamant||M|||50|]Venusaur||Venusaurite|Overgrow|EnergyBall,SludgeWave,EarthPower,Protect|Timid||F|||50|]Milotic||WideLens|Competitive|IceBeam,HydroPump,AlluringVoice,Protect|Timid||M|||50|
+|
+|t:|1783208563
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, F|100/100
+|switch|p1b: Venusaur|Venusaur, L50, F|100/100
+|switch|p2a: Cranky Kong|Oranguru, L50, F|100/100
+|switch|p2b: Mary|Milotic, L50, M|100/100
+|turn|1
+|
+|t:|1783208600
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2b: Mary|Protect|p2b: Mary
+|-singleturn|p2b: Mary|Protect
+|move|p1b: Venusaur|Sleep Powder|p2a: Cranky Kong
+|-status|p2a: Cranky Kong|slp|[from] move: Sleep Powder
+|move|p1a: Charizard|Solar Beam||[still]
+|-prepare|p1a: Charizard|Solar Beam
+|-anim|p1a: Charizard|Solar Beam|p2b: Mary
+|-activate|p2b: Mary|move: Protect
+|cant|p2a: Cranky Kong|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1783208622
+|switch|p2b: Edgar|Staraptor, L50, M|100/100
+|-ability|p2b: Edgar|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|-unboost|p1b: Venusaur|atk|1
+|move|p1b: Venusaur|Energy Ball|p2b: Edgar
+|-resisted|p2b: Edgar|1
+|-damage|p2b: Edgar|64/100
+|move|p1a: Charizard|Solar Beam||[still]
+|-prepare|p1a: Charizard|Solar Beam
+|-anim|p1a: Charizard|Solar Beam|p2b: Edgar
+|-resisted|p2b: Edgar|1
+|-damage|p2b: Edgar|25/100
+|-curestatus|p2a: Cranky Kong|slp|[msg]
+|move|p2a: Cranky Kong|Expanding Force|p1b: Venusaur
+|-supereffective|p1b: Venusaur|1
+|-damage|p1b: Venusaur|37/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1783208654
+|move|p1b: Venusaur|Sleep Powder|p2b: Edgar
+|-status|p2b: Edgar|slp|[from] move: Sleep Powder
+|cant|p2b: Edgar|slp
+|move|p1a: Charizard|Weather Ball|p2a: Cranky Kong
+|-damage|p2a: Cranky Kong|21/100
+|move|p2a: Cranky Kong|Instruct||[still]
+|-fail|p2a: Cranky Kong
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1783208687
+|move|p1b: Venusaur|Energy Ball|p2a: Cranky Kong
+|-damage|p2a: Cranky Kong|0 fnt
+|faint|p2a: Cranky Kong
+|cant|p2b: Edgar|slp
+|move|p1a: Charizard|Weather Ball|p2b: Edgar
+|-damage|p2b: Edgar|0 fnt
+|faint|p2b: Edgar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783208700
+|switch|p2b: Mary|Milotic, L50, M|100/100
+|switch|p2a: Reginaldo-Prime|Golurk, L50, shiny|100/100
+|turn|5
+|
+|t:|1783208726
+|switch|p1a: Sylveon|Sylveon, L50, F|100/100
+|detailschange|p2a: Reginaldo-Prime|Golurk-Mega, L50, shiny
+|-mega|p2a: Reginaldo-Prime|Golurk|Golurkite
+|move|p2a: Reginaldo-Prime|Protect|p2a: Reginaldo-Prime
+|-singleturn|p2a: Reginaldo-Prime|Protect
+|move|p1b: Venusaur|Sleep Powder|p2b: Mary
+|-status|p2b: Mary|slp|[from] move: Sleep Powder
+|cant|p2b: Mary|slp
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1783208746
+|move|p1b: Venusaur|Energy Ball|p2b: Mary
+|-supereffective|p2b: Mary|1
+|-damage|p2b: Mary|37/100 slp
+|cant|p2b: Mary|slp
+|move|p2a: Reginaldo-Prime|Poltergeist|p1b: Venusaur|[miss]
+|-miss|p2a: Reginaldo-Prime|p1b: Venusaur
+|move|p1a: Sylveon|Hyper Voice|p2a: Reginaldo-Prime|[spread] p2a,p2b
+|-damage|p2a: Reginaldo-Prime|56/100
+|-damage|p2b: Mary|2/100 slp
+|
+|upkeep
+|turn|7
+|
+|t:|1783208763
+|move|p1a: Sylveon|Quick Attack|p2b: Mary
+|-damage|p2b: Mary|0 fnt
+|faint|p2b: Mary
+|move|p1b: Venusaur|Energy Ball|p2a: Reginaldo-Prime
+|-supereffective|p2a: Reginaldo-Prime|1
+|-damage|p2a: Reginaldo-Prime|0 fnt
+|faint|p2a: Reginaldo-Prime
+|
+|win|leonidos1
+||Phonx_Ghost is ready for game 2.
+||leonidos1 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆Phonx_Ghost
+|player|p2|

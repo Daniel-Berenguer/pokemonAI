@@ -1,0 +1,142 @@
+|j|☆farangjake
+|j|☆sleepykittybun
+|html|farangjakesleepykittybun    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783190573
+|gametype|doubles
+|player|p1|farangjake|hilbert|
+|player|p2|sleepykittybun|candice|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Sylveon, L50, F, shiny|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Delphox, L50, M, shiny|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Venusaur, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Klefki, L50, M|
+|poke|p2|Rotom-Wash, L50|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|SolarBeam,Overheat,HeatWave,Protect|Timid||F|||50|]Whimsicott||FocusSash|Prankster|Moonblast,SunnyDay,Encore,Tailwind|Timid||F|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,AquaJet|Jolly||M|||50|]Garchomp||Garchompite|RoughSkin|DragonClaw,Earthquake,Protect,RockSlide|Jolly||M|||50|]Sylveon||FairyFeather|Pixilate|QuickAttack,HyperVoice,HyperBeam,Protect|Bold||F|||50|]Farigiraf||SitrusBerry|ArmorTail|TwinBeam,Protect,TrickRoom,HelpingHand|Bold||M|||50|
+|showteam|p2|Delphox||Delphoxite|Blaze|HeatWave,Psyshock,NastyPlot,Protect|Timid||M|||50|]Torkoal||Charcoal|Drought|Eruption,HelpingHand,Protect,WeatherBall|Quiet||M|||50|]Venusaur||Venusaurite|Chlorophyll|GigaDrain,SludgeBomb,EarthPower,Protect|Modest||M|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,RockSlide,Protect|Jolly||M|||50|]Klefki||LightClay|Prankster|TrickRoom,SunnyDay,LightScreen,Reflect|Bold||M|||50|]Rotom-Wash||Leftovers|Levitate|Thunderbolt,HydroPump,Electroweb,WillOWisp|Calm|||||50|
+|
+|t:|1783190650
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, F|100/100
+|switch|p1b: Sylveon|Sylveon, L50, F, shiny|100/100
+|switch|p2a: Rotom|Rotom-Wash, L50|100/100
+|switch|p2b: Venusaur|Venusaur, L50, M|100/100
+|turn|1
+|
+|t:|1783190676
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|move|p2b: Venusaur|Protect|p2b: Venusaur
+|-singleturn|p2b: Venusaur|Protect
+|move|p2a: Rotom|Electroweb|p1b: Sylveon|[spread] p1a,p1b
+|-damage|p1a: Farigiraf|85/100
+|-damage|p1b: Sylveon|87/100
+|-unboost|p1a: Farigiraf|spe|1
+|-unboost|p1b: Sylveon|spe|1
+|move|p1b: Sylveon|Hyper Voice|p2b: Venusaur|[spread] p2a
+|-activate|p2b: Venusaur|move: Protect
+|-crit|p2a: Rotom
+|-damage|p2a: Rotom|48/100
+|
+|-heal|p2a: Rotom|54/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1783190708
+|detailschange|p2b: Venusaur|Venusaur-Mega, L50, M
+|-mega|p2b: Venusaur|Venusaur|Venusaurite
+|move|p2a: Rotom|Thunderbolt|p1a: Farigiraf
+|-damage|p1a: Farigiraf|55/100
+|move|p2b: Venusaur|Sludge Bomb|p1a: Farigiraf
+|-damage|p1a: Farigiraf|5/100
+|-enditem|p1a: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1a: Farigiraf|30/100|[from] item: Sitrus Berry
+|move|p1b: Sylveon|Hyper Voice|p2b: Venusaur|[spread] p2a,p2b
+|-resisted|p2b: Venusaur|1
+|-damage|p2a: Rotom|13/100
+|-damage|p2b: Venusaur|81/100
+|move|p1a: Farigiraf|Twin Beam|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|-hitcount|p2: Rotom|1
+|
+|upkeep
+|
+|t:|1783190725
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|3
+|
+|t:|1783190746
+|move|p2b: Venusaur|Sludge Bomb|p1b: Sylveon
+|-supereffective|p1b: Sylveon|1
+|-damage|p1b: Sylveon|0 fnt
+|faint|p1b: Sylveon
+|move|p1a: Farigiraf|Twin Beam|p2a: Torkoal
+|-damage|p2a: Torkoal|80/100
+|-damage|p2a: Torkoal|59/100
+|-hitcount|p2a: Torkoal|2
+|move|p2a: Torkoal|Eruption|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|faint|p1a: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783190756
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p1a: Charizard|Charizard, L50, F|100/100
+|turn|4
+|
+|t:|1783190767
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|move|p2a: Torkoal|Helping Hand|p2b: Venusaur
+|-singleturn|p2b: Venusaur|Helping Hand|[of] p2a: Torkoal
+|move|p1b: Basculegion|Last Respects|p2b: Venusaur
+|-damage|p2b: Venusaur|10/100
+|move|p1a: Charizard|Heat Wave|p2b: Venusaur|[spread] p2a,p2b
+|-resisted|p2a: Torkoal|1
+|-supereffective|p2b: Venusaur|1
+|-damage|p2a: Torkoal|19/100
+|-damage|p2b: Venusaur|0 fnt
+|faint|p2b: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783190778
+|switch|p2b: Garchomp|Garchomp, L50, M|100/100
+|turn|5
+|
+|t:|1783190796
+|move|p2a: Torkoal|Helping Hand|p2b: Garchomp
+|-singleturn|p2b: Garchomp|Helping Hand|[of] p2a: Torkoal
+|move|p1a: Charizard|Protect|p1a: Charizard
+|-singleturn|p1a: Charizard|Protect
+|move|p1b: Basculegion|Last Respects|p2b: Garchomp
+|-damage|p2b: Garchomp|20/100r
+|move|p2b: Garchomp|Rock Slide|p1a: Charizard|[spread] p1b
+|-activate|p1a: Charizard|move: Protect
+|-damage|p1b: Basculegion|58/100
+|-damage|p2b: Garchomp|10/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|-message|sleepykittybun forfeited.
+|
+|win|farangjake

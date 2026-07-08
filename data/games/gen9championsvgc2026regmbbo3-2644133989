@@ -1,0 +1,112 @@
+|j|☆circuitosomador
+|j|☆naibot2814
+|html|circuitosomadornaibot2814    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783216846
+|gametype|doubles
+|player|p1|circuitosomador|norman|1159
+|player|p2|naibot2814|ghetsis|1288
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Rotom-Wash, L50|
+|poke|p1|Delphox, L50, M|
+|poke|p1|Kommo-o, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Sinistcha, L50, shiny|
+|poke|p2|Maushold-Four, L50|
+|poke|p2|Delphox, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Blastoise, L50, M|
+|teampreview|4
+|showteam|p1|Excadrill||FocusSash|SandRush|Earthquake,IronHead,HighHorsepower,Protect|Adamant||M|||50|]Tyranitar||Tyranitarite|SandStream|Crunch,RockSlide,Protect,IcePunch|Adamant||M|||50|]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Roost,Tailwind|Adamant||F|||50|]Rotom-Wash||SitrusBerry|Levitate|Thunderbolt,HydroPump,WillOWisp,Protect|Bold|||||50|]Delphox||Delphoxite|Blaze|Psychic,HeatWave,NastyPlot,Protect|Timid||M|||50|]Kommo-o||ChoiceScarf|Soundproof|ClangingScales,DracoMeteor,AuraSphere,Flamethrower|Modest||F|||50|
+|showteam|p2|Incineroar||SitrusBerry|Intimidate|FakeOut,DarkestLariat,FlareBlitz,PartingShot|Impish||M|||50|]Sinistcha||KasibBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,Protect|Bold|||||50|]Maushold-Four||ChopleBerry|FriendGuard|SuperFang,Feint,FollowMe,Protect|Impish|||||50|]Delphox||Delphoxite|Blaze|HeatWave,Psyshock,NastyPlot,Protect|Timid||F|||50|]Sneasler||FocusSash|PoisonTouch|FakeOut,PoisonJab,CloseCombat,QuickGuard|Jolly||M|||50|]Blastoise||Blastoisinite|Torrent|WaterSpout,DarkPulse,ShellSmash,Protect|Modest||M|||50|
+|
+|t:|1783216887
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kommo-o|Kommo-o, L50, F|100/100
+|switch|p1b: Rotom|Rotom-Wash, L50|100/100
+|switch|p2a: Blastoise|Blastoise, L50, M|100/100
+|switch|p2b: Gumball|Incineroar, L50, M|100/100
+|-ability|p2b: Gumball|Intimidate|boost
+|-unboost|p1a: Kommo-o|atk|1
+|-unboost|p1b: Rotom|atk|1
+|turn|1
+|
+|t:|1783216916
+|detailschange|p2a: Blastoise|Blastoise-Mega, L50, M
+|-mega|p2a: Blastoise|Blastoise|Blastoisinite
+|move|p2b: Gumball|Fake Out|p1b: Rotom
+|-damage|p1b: Rotom|91/100
+|move|p1a: Kommo-o|Clanging Scales|p2a: Blastoise|[spread] p2a,p2b
+|-damage|p2a: Blastoise|60/100
+|-damage|p2b: Gumball|63/100
+|-unboost|p1a: Kommo-o|def|1
+|move|p2a: Blastoise|Shell Smash|p2a: Blastoise
+|-unboost|p2a: Blastoise|def|1
+|-unboost|p2a: Blastoise|spd|1
+|-boost|p2a: Blastoise|atk|2
+|-boost|p2a: Blastoise|spa|2
+|-boost|p2a: Blastoise|spe|2
+|cant|p1b: Rotom|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1783216946
+|move|p2a: Blastoise|Protect|p2a: Blastoise
+|-singleturn|p2a: Blastoise|Protect
+|move|p1b: Rotom|Protect|p1b: Rotom
+|-singleturn|p1b: Rotom|Protect
+|move|p1a: Kommo-o|Clanging Scales|p2b: Gumball|[spread] p2b
+|-activate|p2a: Blastoise|move: Protect
+|-damage|p2b: Gumball|30/100
+|-enditem|p2b: Gumball|Sitrus Berry|[eat]
+|-heal|p2b: Gumball|55/100|[from] item: Sitrus Berry
+|-unboost|p1a: Kommo-o|def|1
+|move|p2b: Gumball|Parting Shot|p1b: Rotom
+|-activate|p1b: Rotom|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1783216973
+|switch|p1b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|switch|p2b: Sinistcha|Sinistcha, L50, shiny|100/100
+|-heal|p2a: Blastoise|85/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|move|p2a: Blastoise|Dark Pulse|p1b: Tyranitar
+|-resisted|p1b: Tyranitar|1
+|-damage|p1b: Tyranitar|74/100
+|move|p1a: Kommo-o|Clanging Scales|p2a: Blastoise|[spread] p2a,p2b
+|-damage|p2a: Blastoise|29/100
+|-damage|p2b: Sinistcha|61/100
+|-unboost|p1a: Kommo-o|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blastoise|23/100|[from] Sandstorm
+|-damage|p1a: Kommo-o|94/100|[from] Sandstorm
+|-damage|p2b: Sinistcha|55/100|[from] Sandstorm
+|upkeep
+|turn|4
+|-message|naibot2814 forfeited.
+|
+|win|circuitosomador
+|l|☆naibot2814
+|player|p2|
+||naibot2814 is ready for game 2.
+|inactive|circuitosomador has 30 seconds to confirm battle start!
+||circuitosomador is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆circuitosomador
+|player|p1|
+|j|☆naibot2814
+|player|p2|naibot2814|ghetsis|

@@ -1,0 +1,140 @@
+|j|☆SomeKidJon
+|j|☆new mental
+|html|SomeKidJonnew mental    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783269583
+|gametype|doubles
+|player|p1|SomeKidJon|scientistf|1333
+|player|p2|new mental|volkner|1390
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Camerupt, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Lopunny, L50, M|
+|poke|p1|Ditto, L50|
+|poke|p2|Aerodactyl, L50, M|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Sylveon, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|showteam|p1|Camerupt||Cameruptite|SolidRock|AncientPower,HeatWave,EarthPower,Protect|Quiet||F|||50|]Farigiraf||SitrusBerry|ArmorTail|Protect,HelpingHand,DazzlingGleam,TrickRoom|Bold||M|||50|]Primarina||Leftovers|LiquidVoice|HyperVoice,Protect,Moonblast,CalmMind|Modest||F|||50|]Hatterene||LifeOrb|MagicBounce|Psychic,Protect,DazzlingGleam,TrickRoom|Quiet||F|||50|]Lopunny||Lopunnite|Klutz|FakeOut,CloseCombat,AfterYou,TripleAxel|Jolly||M|||50|]Ditto||ChoiceScarf|Imposter|Transform|Docile|||||50|
+|showteam|p2|Aerodactyl||Aerodactylite|Unnerve|IceFang,RockSlide,Tailwind,DualWingbeat|Jolly||M|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,Earthquake,Protect|Jolly||F|||50|]Kingambit||FocusSash|Defiant|SuckerPunch,KowtowCleave,IronHead,LowKick|Adamant||F|||50|]Charizard||CharizarditeY|SolarPower|Protect,HeatWave,SolarBeam,WeatherBall|Timid||F|||50|]Sylveon||FairyFeather|Pixilate|Protect,HyperVoice,HyperBeam,QuickAttack|Modest||M|||50|]Farigiraf||SitrusBerry|ArmorTail|TrickRoom,Thunderbolt,Psychic,Roar|Bold||F|||50|
+|
+|t:|1783269660
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Lopunny|Lopunny, L50, M|100/100
+|switch|p1b: Primarina|Primarina, L50, F|100/100
+|switch|p2a: Charizard|Charizard, L50, F|100/100
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|turn|1
+|
+|t:|1783269673
+|detailschange|p1a: Lopunny|Lopunny-Mega, L50, M
+|-mega|p1a: Lopunny|Lopunny|Lopunnite
+|move|p2b: Garchomp|Protect|p2b: Garchomp
+|-singleturn|p2b: Garchomp|Protect
+|move|p2a: Charizard|Protect|p2a: Charizard
+|-singleturn|p2a: Charizard|Protect
+|move|p1a: Lopunny|Fake Out|p2a: Charizard
+|-activate|p2a: Charizard|move: Protect
+|move|p1b: Primarina|Calm Mind|p1b: Primarina
+|-boost|p1b: Primarina|spa|1
+|-boost|p1b: Primarina|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1783269680
+|detailschange|p2a: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p2a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p1a: Lopunny|Triple Axel|p2b: Garchomp
+|-supereffective|p2b: Garchomp|2
+|-damage|p2b: Garchomp|68/100
+|-damage|p1a: Lopunny|88/100|[from] ability: Rough Skin|[of] p2b: Garchomp
+|-hitcount|p2b: Garchomp|1
+|move|p2b: Garchomp|Earthquake|p1b: Primarina|[spread] p1a,p1b
+|-immune|p2a: Charizard
+|-damage|p1a: Lopunny|19/100
+|-damage|p1b: Primarina|54/100
+|-damage|p2b: Garchomp|58/100|[from] item: Life Orb
+|move|p2a: Charizard|Solar Beam||[still]
+|-prepare|p2a: Charizard|Solar Beam
+|-anim|p2a: Charizard|Solar Beam|p1b: Primarina
+|-supereffective|p1b: Primarina|1
+|-damage|p1b: Primarina|10/100
+|move|p1b: Primarina|Hyper Voice|p2b: Garchomp|[spread] p2a,p2b
+|-supereffective|p2a: Charizard|1
+|-crit|p2a: Charizard
+|-damage|p2a: Charizard|40/100
+|-damage|p2b: Garchomp|31/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Primarina|16/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1783269694
+|move|p1a: Lopunny|After You|p1b: Primarina
+|-activate|p1b: Primarina|move: After You
+|move|p1b: Primarina|Hyper Voice|p2a: Charizard|[spread] p2a,p2b
+|-supereffective|p2a: Charizard|1
+|-crit|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|-damage|p2b: Garchomp|5/100
+|faint|p2a: Charizard
+|move|p2b: Garchomp|Earthquake|p1b: Primarina|[spread] p1a,p1b
+|-damage|p1a: Lopunny|0 fnt
+|-damage|p1b: Primarina|0 fnt
+|faint|p1a: Lopunny
+|faint|p1b: Primarina
+|-damage|p2b: Garchomp|0 fnt|[from] item: Life Orb
+|faint|p2b: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783269703
+|switch|p1a: Ditto|Ditto, L50|100/100
+|switch|p2b: Sylveon|Sylveon, L50, M|100/100
+|switch|p2a: Kingambit|Kingambit, L50, F|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|-transform|p1a: Ditto|p2b: Sylveon|[from] ability: Imposter
+|turn|4
+|
+|t:|1783269710
+|move|p1a: Ditto|Hyper Voice|p2b: Sylveon|[spread] p2a,p2b
+|-damage|p2a: Kingambit|52/100
+|-damage|p2b: Sylveon|70/100
+|move|p2a: Kingambit|Iron Head|p1a: Ditto
+|-supereffective|p1a: Ditto|1
+|-damage|p1a: Ditto|0 fnt
+|faint|p1a: Ditto
+|move|p2b: Sylveon|Hyper Voice|p1b: Hatterene
+|-damage|p1b: Hatterene|34/100
+|move|p1b: Hatterene|Dazzling Gleam|p2a: Kingambit|[spread] p2a,p2b
+|-damage|p2a: Kingambit|2/100
+|-damage|p2b: Sylveon|36/100
+|-damage|p1b: Hatterene|24/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|-message|SomeKidJon forfeited.
+|
+|win|new mental
+|l|☆SomeKidJon
+|player|p1|
+||new mental is ready for game 2.
+||SomeKidJon is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

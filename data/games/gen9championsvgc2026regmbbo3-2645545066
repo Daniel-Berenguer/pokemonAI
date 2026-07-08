@@ -1,0 +1,145 @@
+|j|☆new mental
+|j|☆Roamingboob
+|html|new mentalRoamingboob    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783449994
+|gametype|doubles
+|player|p1|new mental|volkner|1230
+|player|p2|Roamingboob|102|1233
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Aerodactyl, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Meganium, L50, M|
+|poke|p2|Aerodactyl, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Politoed, L50, F|
+|teampreview|4
+|showteam|p1|Aerodactyl||Aerodactylite|Unnerve|IceFang,RockSlide,Tailwind,DualWingbeat|Jolly||M|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,Earthquake,Protect|Jolly||F|||50|]Kingambit||FocusSash|Defiant|SuckerPunch,KowtowCleave,IronHead,LowKick|Adamant||M|||50|]Charizard||CharizarditeY|SolarPower|Protect,HeatWave,SolarBeam,WeatherBall|Timid||F|||50|]Sylveon||FairyFeather|Pixilate|Protect,HyperVoice,HyperBeam,QuickAttack|Modest||M|||50|]Farigiraf||SitrusBerry|ArmorTail|TrickRoom,Thunderbolt,Psychic,Roar|Bold||M|||50|
+|showteam|p2|Meganium||Meganiumite|Overgrow|WeatherBall,Protect,SolarBeam,DazzlingGleam|Modest||M|||50|]Aerodactyl||Aerodactylite|Unnerve|Tailwind,RockSlide,DualWingbeat,Protect|Jolly||F|||50|]Farigiraf||MentalHerb|ArmorTail|TrickRoom,Protect,Psychic,HyperVoice|Quiet||M|||50|]Archaludon||Leftovers|Sturdy|DracoMeteor,FlashCannon,Protect,ElectroShot|Modest||F|||50|]Sneasler||WhiteHerb|Unburden|DireClaw,CloseCombat,Protect,FakeOut|Adamant||M|||50|]Politoed||MysticWater|Drizzle|WeatherBall,Encore,Protect,IceBeam|Quiet||F|||50|
+|
+|t:|1783450028
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, L50, F|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|-ability|p2a: Aerodactyl|Unnerve
+|turn|1
+|
+|t:|1783450050
+|switch|p2b: Politoed|Politoed, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Politoed
+|detailschange|p2a: Aerodactyl|Aerodactyl-Mega, L50, F
+|-mega|p2a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p2a: Aerodactyl|Rock Slide|p1b: Farigiraf|[spread] p1a,p1b
+|-resisted|p1a: Kingambit|1
+|-damage|p1a: Kingambit|86/100
+|-damage|p1b: Farigiraf|77/100
+|move|p1a: Kingambit|Iron Head|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl|1
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|cant|p1b: Farigiraf|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1783450065
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|turn|2
+|
+|t:|1783450073
+|move|p1a: Kingambit|Sucker Punch|p2b: Politoed
+|-damage|p2b: Politoed|54/100
+|move|p2a: Sneasler|Close Combat|p1b: Farigiraf
+|-damage|p1b: Farigiraf|28/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-enditem|p1b: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1b: Farigiraf|53/100|[from] item: Sitrus Berry
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|move|p2b: Politoed|Weather Ball|p1b: Farigiraf
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1783450088
+|switch|p1b: Charizard|Charizard, L50, F|100/100
+|turn|3
+|
+|t:|1783450094
+|detailschange|p1b: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p1b: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|move|p2a: Sneasler|Dire Claw|p1b: Charizard
+|-damage|p1b: Charizard|53/100
+|-status|p1b: Charizard|psn
+|move|p1b: Charizard|Heat Wave|p2b: Politoed|[spread] p2a,p2b
+|-resisted|p2b: Politoed|1
+|-damage|p2a: Sneasler|18/100
+|-damage|p2b: Politoed|28/100
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Politoed
+|-damage|p2b: Politoed|0 fnt
+|faint|p2b: Politoed
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|41/100 psn|[from] psn
+|upkeep
+|
+|t:|1783450107
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|turn|4
+|
+|t:|1783450120
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p1b: Charizard|Weather Ball|p2b: Archaludon
+|-damage|p2b: Archaludon|7/100
+|move|p2b: Archaludon|Draco Meteor|p1b: Charizard
+|-damage|p1b: Charizard|0 fnt
+|-unboost|p2b: Archaludon|spa|2
+|faint|p1b: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Archaludon|13/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783450122
+|switch|p1b: Sylveon|Sylveon, L50, M|100/100
+|turn|5
+|
+|t:|1783450128
+|move|p1a: Kingambit|Sucker Punch|p2a: Sneasler
+|-resisted|p2a: Sneasler|1
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|move|p2b: Archaludon|Flash Cannon|p1b: Sylveon
+|-supereffective|p1b: Sylveon|1
+|-damage|p1b: Sylveon|68/100
+|move|p1b: Sylveon|Hyper Voice|p2b: Archaludon
+|-damage|p2b: Archaludon|0 fnt
+|faint|p2b: Archaludon
+|
+|win|new mental
+||Roamingboob is ready for game 3.
+|inactive|new mental has 30 seconds to confirm battle start!
+||new mental is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

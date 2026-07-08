@@ -1,0 +1,192 @@
+|j|☆KodeBeast0526
+|j|☆quatrokilla
+|html|KodeBeast0526quatrokilla    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783438692
+|gametype|doubles
+|player|p1|KodeBeast0526|hiker|1153
+|player|p2|quatrokilla|170|1154
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gengar, L50, F|
+|poke|p1|Swampert, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Politoed, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Vivillon-Ocean, L50, F|
+|poke|p2|Glimmora, L50, F|
+|poke|p2|Toxapex, L50, F|
+|poke|p2|Venusaur, L50, M|
+|poke|p2|Rotom-Wash, L50|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|showteam|p1|Gengar||Gengarite|CursedBody|ShadowBall,PerishSong,SludgeBomb,Protect|Timid||F|||50|]Swampert||Swampertite|Torrent|WaveCrash,Earthquake,IcePunch,Protect|Adamant||F|||50|]Incineroar||PasshoBerry|Intimidate|ThroatChop,PartingShot,FakeOut,Protect|Sassy||F|||50|]Politoed||SitrusBerry|Drizzle|WeatherBall,PerishSong,Encore,Protect|Calm||M|||50|]Archaludon||Leftovers|Stamina|DragonPulse,FlashCannon,ElectroShot,Protect|Bold||F|||50|]Vivillon-Ocean||FocusSash|CompoundEyes|Hurricane,SleepPowder,RagePowder,Protect|Timid||F|||50|
+|showteam|p2|Glimmora||FocusSash|ToxicDebris|SpikyShield,MortalSpin,Venoshock,EarthPower|Timid||F|||50|]Toxapex||SitrusBerry|Regenerator|Toxic,Infestation,WideGuard,BanefulBunker|Bold||F|||50|]Venusaur||Venusaurite|Chlorophyll|Protect,SludgeBomb,LeechSeed,GigaDrain|Bold||M|||50|]Rotom-Wash||ChoiceScarf|Levitate|Electroweb,Trick,VoltSwitch,HydroPump|Timid|||||50|]Sinistcha||Leftovers|Hospitality|Hex,TrickRoom,MatchaGotcha,RagePowder|Sassy|||||50|]Incineroar||ChopleBerry|Intimidate|FakeOut,PartingShot,DarkestLariat,WillOWisp|Careful||F|||50|
+|
+|t:|1783438710
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Swampert|Swampert, L50, F|100/100
+|switch|p1b: Politoed|Politoed, L50, M|100/100
+|switch|p2a: Glimmora|Glimmora, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Politoed
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|-unboost|p1b: Politoed|atk|1
+|turn|1
+|
+|t:|1783438717
+|switch|p1a: Vivillon|Vivillon-Ocean, L50, F|100/100
+|move|p2b: Incineroar|Fake Out|p1a: Vivillon
+|-damage|p1a: Vivillon|77/100
+|move|p2a: Glimmora|Mortal Spin|p1a: Vivillon|[spread] p1a,p1b
+|-damage|p1a: Vivillon|69/100
+|-damage|p1b: Politoed|95/100
+|-status|p1a: Vivillon|psn
+|-status|p1b: Politoed|psn
+|move|p1b: Politoed|Perish Song|p1b: Politoed
+|-start|p1a: Vivillon|perish3|[silent]
+|-start|p1b: Politoed|perish3|[silent]
+|-start|p2a: Glimmora|perish3|[silent]
+|-start|p2b: Incineroar|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Vivillon|57/100 psn|[from] psn
+|-damage|p1b: Politoed|83/100 psn|[from] psn
+|-start|p1a: Vivillon|perish3
+|-start|p2a: Glimmora|perish3
+|-start|p1b: Politoed|perish3
+|-start|p2b: Incineroar|perish3
+|upkeep
+|turn|2
+|
+|t:|1783438738
+|switch|p2b: Rotom|Rotom-Wash, L50|100/100
+|move|p2a: Glimmora|Spiky Shield|p2a: Glimmora
+|-singleturn|p2a: Glimmora|move: Protect
+|move|p1a: Vivillon|Hurricane|p2a: Glimmora
+|-activate|p2a: Glimmora|move: Protect
+|move|p1b: Politoed|Weather Ball|p2a: Glimmora
+|-activate|p2a: Glimmora|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Vivillon|45/100 psn|[from] psn
+|-damage|p1b: Politoed|70/100 psn|[from] psn
+|-start|p1a: Vivillon|perish2
+|-start|p2a: Glimmora|perish2
+|-start|p1b: Politoed|perish2
+|upkeep
+|turn|3
+|
+|t:|1783438762
+|switch|p1b: Swampert|Swampert, L50, F|100/100
+|move|p2b: Rotom|Volt Switch|p1a: Vivillon
+|-supereffective|p1a: Vivillon|1
+|-damage|p1a: Vivillon|0 fnt
+|faint|p1a: Vivillon
+|
+|t:|1783438768
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100|[from] Volt Switch
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1b: Swampert|atk|1
+|move|p2a: Glimmora|Venoshock|p1b: Swampert
+|-resisted|p1b: Swampert|1
+|-damage|p1b: Swampert|81/100
+|
+|-weather|RainDance|[upkeep]
+|-start|p2a: Glimmora|perish1
+|upkeep
+|
+|t:|1783438771
+|switch|p1a: Politoed|Politoed, L50, M|70/100 psn
+|turn|4
+|
+|t:|1783438785
+|switch|p2a: Rotom|Rotom-Wash, L50|100/100
+|switch|p2b: Venusaur|Venusaur, L50, M|100/100
+|detailschange|p1b: Swampert|Swampert-Mega, L50, F
+|-mega|p1b: Swampert|Swampert|Swampertite
+|move|p1b: Swampert|Earthquake|p2b: Venusaur|[spread] p1a,p2b
+|-immune|p2a: Rotom|[from] ability: Levitate
+|-damage|p1a: Politoed|39/100 psn
+|-damage|p2b: Venusaur|68/100
+|-enditem|p1a: Politoed|Sitrus Berry|[eat]
+|-heal|p1a: Politoed|64/100 psn|[from] item: Sitrus Berry
+|move|p1a: Politoed|Weather Ball|p2b: Venusaur
+|-resisted|p2b: Venusaur|1
+|-damage|p2b: Venusaur|47/100
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1a: Politoed|52/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1783438805
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Rotom|atk|1
+|-unboost|p2b: Venusaur|atk|1
+|detailschange|p2b: Venusaur|Venusaur-Mega, L50, M
+|-mega|p2b: Venusaur|Venusaur|Venusaurite
+|move|p2b: Venusaur|Protect|p2b: Venusaur
+|-singleturn|p2b: Venusaur|Protect
+|move|p2a: Rotom|Volt Switch|p1a: Politoed
+|-supereffective|p1a: Politoed|1
+|-crit|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|
+|t:|1783438819
+|switch|p2a: Glimmora|Glimmora, L50, F|100/100|[from] Volt Switch
+|
+|-weather|none
+|upkeep
+|
+|t:|1783438822
+|switch|p1a: Swampert|Swampert-Mega, L50, F|81/100
+|turn|6
+|
+|t:|1783438831
+|move|p1b: Incineroar|Fake Out|p2a: Glimmora
+|-resisted|p2a: Glimmora|1
+|-damage|p2a: Glimmora|93/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: KodeBeast0526|move: Toxic Spikes
+|cant|p2a: Glimmora|flinch
+|move|p1a: Swampert|Earthquake|p2a: Glimmora|[spread] p1b,p2a,p2b
+|-supereffective|p1b: Incineroar|1
+|-supereffective|p2a: Glimmora|2
+|-damage|p1b: Incineroar|15/100
+|-damage|p2a: Glimmora|0 fnt
+|-damage|p2b: Venusaur|13/100
+|-activate|p2a: Glimmora|ability: Toxic Debris
+|-sidestart|p1: KodeBeast0526|move: Toxic Spikes
+|faint|p2a: Glimmora
+|move|p2b: Venusaur|Giga Drain|p1a: Swampert
+|-supereffective|p1a: Swampert|2
+|-damage|p1a: Swampert|0 fnt
+|-heal|p2b: Venusaur|57/100|[from] drain|[of] p1a: Swampert
+|faint|p1a: Swampert
+|
+|upkeep
+|
+|t:|1783438839
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1b: Incineroar|atk|1
+|turn|7
+|-message|KodeBeast0526 forfeited.
+|
+|win|quatrokilla
+|l|☆KodeBeast0526
+|player|p1|
+|j|☆KodeBeast0526
+|player|p1|KodeBeast0526|hiker|

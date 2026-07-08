@@ -1,0 +1,208 @@
+|j|☆FruitloopsFL
+|j|☆M00ncell
+|html|FruitloopsFLM00ncell    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1783337230
+|gametype|doubles
+|player|p1|FruitloopsFL|alder|
+|player|p2|M00ncell|plasmagrunt|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Toucannon, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Raichu, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Volcarona, L50, F|
+|poke|p2|Staraptor, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Charizard, L50, M|
+|teampreview|4
+|showteam|p1|Toucannon||SilkScarf|SkillLink|Tailwind,BulletSeed,Boomburst,Protect|Impish||F|||50|]Grimmsnarl||LightClay|Prankster|FakeOut,PartingShot,Reflect,LightScreen|Careful||M|||50|]Raichu||RaichuniteY|LightningRod|FakeOut,GrassKnot,FocusBlast,ZapCannon|Hasty||F|||50|]Garchomp||LifeOrb|RoughSkin|RockSlide,Earthquake,DragonClaw,Protect|Jolly||M|||50|]Annihilape||Leftovers|Defiant|IcePunch,RageFist,DrainPunch,Protect|Adamant||F|||50|]Volcarona||ChartiBerry|FlameBody|RagePowder,MorningSun,WillOWisp,HeatWave|Calm||F|||50|
+|showteam|p2|Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,Protect,Roost|Jolly||M|||50|]Whimsicott||FocusSash|Prankster|Moonblast,Tailwind,Encore,Protect|Timid||M|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,Protect,Earthquake,RockSlide|Jolly||M|||50|]Basculegion||ChoiceScarf|Adaptability|LastRespects,AquaJet,WaveCrash,FlipTurn|Adamant||M|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,PartingShot,FlareBlitz,ThroatChop|Careful||F|||50|]Charizard||CharizarditeY|Blaze|Protect,HeatWave,SolarBeam,WeatherBall|Modest||M|||50|
+|
+|t:|1783337361
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Raichu|Raichu, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Grimmsnarl|atk|1
+|-unboost|p1b: Raichu|atk|1
+|turn|1
+|
+|t:|1783337389
+|detailschange|p1b: Raichu|Raichu-Mega-Y, L50, F
+|-mega|p1b: Raichu|Raichu|Raichunite Y
+|move|p1a: Grimmsnarl|Fake Out|p2a: Incineroar
+|-damage|p2a: Incineroar|93/100
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: M00ncell|move: Tailwind
+|move|p1b: Raichu|Zap Cannon|p2a: Incineroar
+|-damage|p2a: Incineroar|36/100
+|-status|p2a: Incineroar|par
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|61/100 par|[from] item: Sitrus Berry
+|cant|p2a: Incineroar|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1783337415
+|switch|p2a: Garchomp|Garchomp, L50, M|100/100
+|move|p2b: Whimsicott|Encore|p1b: Raichu
+|-start|p1b: Raichu|Encore
+|move|p1a: Grimmsnarl|Parting Shot|p2b: Whimsicott
+|-unboost|p2b: Whimsicott|atk|1
+|-unboost|p2b: Whimsicott|spa|1
+|
+|t:|1783337425
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100|[from] Parting Shot
+|move|p1b: Raichu|Zap Cannon|p2b: Whimsicott
+|-resisted|p2b: Whimsicott|1
+|-damage|p2b: Whimsicott|40/100
+|-status|p2b: Whimsicott|par
+|
+|upkeep
+|turn|3
+|
+|t:|1783337471
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|move|p2b: Whimsicott|Protect|p2b: Whimsicott
+|-singleturn|p2b: Whimsicott|Protect
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2a: Garchomp|Earthquake|p1b: Grimmsnarl|[spread] p1b
+|-activate|p2b: Whimsicott|move: Protect
+|-activate|p1a: Garchomp|move: Protect
+|-damage|p1b: Grimmsnarl|38/100
+|-damage|p2a: Garchomp|90/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1783337513
+|switch|p1a: Volcarona|Volcarona, L50, F|100/100
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1b: Grimmsnarl|Reflect|p1b: Grimmsnarl
+|-sidestart|p1: FruitloopsFL|Reflect
+|move|p2b: Whimsicott|Moonblast|p1a: Volcarona
+|-resisted|p1a: Volcarona|1
+|-damage|p1a: Volcarona|92/100
+|
+|-sideend|p2: M00ncell|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1783337536
+|switch|p2a: Incineroar|Incineroar, L50, F|61/100 par
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Volcarona|atk|1
+|-unboost|p1b: Grimmsnarl|atk|1
+|move|p2b: Whimsicott|Encore|p1b: Grimmsnarl
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1b: Grimmsnarl
+|move|p1b: Grimmsnarl|Parting Shot|p2a: Incineroar
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2a: Incineroar
+|move|p1a: Volcarona|Heat Wave|p2a: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Incineroar|1
+|-supereffective|p2b: Whimsicott|1
+|-damage|p2a: Incineroar|49/100 par
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|
+|upkeep
+|
+|t:|1783337554
+|switch|p2b: Garchomp|Garchomp, L50, M|90/100
+|turn|6
+|
+|t:|1783337572
+|move|p2a: Incineroar|Fake Out|p1a: Volcarona
+|-damage|p1a: Volcarona|83/100
+|move|p1b: Grimmsnarl|Parting Shot|p2b: Garchomp
+|-unboost|p2b: Garchomp|atk|1
+|-unboost|p2b: Garchomp|spa|1
+|
+|t:|1783337591
+|switch|p1b: Raichu|Raichu-Mega-Y, L50, F|100/100|[from] Parting Shot
+|move|p2b: Garchomp|Rock Slide|p1a: Volcarona|[spread] p1a,p1b
+|-supereffective|p1a: Volcarona|2
+|-enditem|p1a: Volcarona|Charti Berry|[eat]
+|-enditem|p1a: Volcarona|Charti Berry|[weaken]
+|-damage|p1a: Volcarona|54/100
+|-damage|p1b: Raichu|74/100
+|-damage|p2b: Garchomp|80/100|[from] item: Life Orb
+|cant|p1a: Volcarona|flinch
+|
+|upkeep
+|turn|7
+|
+|t:|1783337638
+|move|p1b: Raichu|Zap Cannon|p2a: Incineroar
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|move|p2b: Garchomp|Rock Slide|p1b: Raichu|[spread] p1a,p1b
+|-supereffective|p1a: Volcarona|2
+|-damage|p1a: Volcarona|0 fnt
+|-damage|p1b: Raichu|48/100
+|faint|p1a: Volcarona
+|-damage|p2b: Garchomp|70/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1783337648
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100
+|switch|p2a: Staraptor|Staraptor, L50, M|100/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|-unboost|p1b: Raichu|atk|1
+|turn|8
+|
+|t:|1783337706
+|detailschange|p2a: Staraptor|Staraptor-Mega, L50, M
+|-mega|p2a: Staraptor|Staraptor|Staraptite
+|move|p2a: Staraptor|Protect|p2a: Staraptor
+|-singleturn|p2a: Staraptor|Protect
+|move|p1b: Raichu|Zap Cannon|p2a: Staraptor
+|-activate|p2a: Staraptor|move: Protect
+|move|p1a: Garchomp|Dragon Claw|p2b: Garchomp
+|-supereffective|p2b: Garchomp|1
+|-damage|p2b: Garchomp|0 fnt
+|-damage|p1a: Garchomp|87/100|[from] ability: Rough Skin|[of] p2b: Garchomp
+|faint|p2b: Garchomp
+|-damage|p1a: Garchomp|77/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|
+|t:|1783337800
+|move|p1b: Raichu|Zap Cannon|p2a: Staraptor
+|-supereffective|p2a: Staraptor|1
+|-damage|p2a: Staraptor|0 fnt
+|faint|p2a: Staraptor
+|
+|win|FruitloopsFL
+|c|☆M00ncell|gg
+|c|☆FruitloopsFL|gg
+|c|☆M00ncell|losing the speed tie hurts
+|c|☆FruitloopsFL|would -1 have killed?
+|c|☆M00ncell|the raichu, yea
+|c|☆FruitloopsFL|oh I see
+|c|☆FruitloopsFL|yeah that was unlucky
+|c|☆FruitloopsFL|are you going to send the replays or shall I?
+|c|☆M00ncell|i can
+|c|☆FruitloopsFL|cool, thanks
+|l|☆M00ncell
+|player|p2|

@@ -1,0 +1,131 @@
+|j|â˜†AGreatRobot
+|j|â˜†Gabeeel
+|html|AGreatRobotGabeeel    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783200286
+|gametype|doubles
+|player|p1|AGreatRobot|medium|
+|player|p2|Gabeeel|iris|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each PokÃ©mon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Aerodactyl, L50, F|
+|poke|p1|Blaziken, L50, M|
+|poke|p1|Roserade, L50, F|
+|poke|p1|Rotom-Wash, L50|
+|poke|p1|Scizor, L50, F|
+|poke|p2|Scrafty, L50, M|
+|poke|p2|Slowking-Galar, L50, F|
+|poke|p2|Palafin, L50, F|
+|poke|p2|Volcarona, L50, F|
+|poke|p2|Meowscarada, L50, F|
+|poke|p2|Metagross, L50|
+|teampreview|4
+|showteam|p1|Annihilape||SitrusBerry|Defiant|RageFist,DrainPunch,BulkUp,Protect|Careful||M|||50|]Aerodactyl||FocusSash|Pressure|RockSlide,WideGuard,Tailwind,Taunt|Jolly||F|||50|]Blaziken||Blazikenite|SpeedBoost|FlareBlitz,CloseCombat,SwordsDance,Detect|Adamant||M|||50|]Roserade||WideLens|PoisonPoint|PinMissile,SleepPowder,LifeDew,LeafStorm|Timid||F|||50|]Rotom-Wash||ChoiceScarf|Levitate|HydroPump,Electroweb,VoltSwitch,Thunderbolt|Modest|||||50|]Scizor||LifeOrb|Technician|Assurance,BulletPunch,Uturn,Protect|Adamant||F|||50|
+|showteam|p2|Scrafty||Scraftinite|Intimidate|FakeOut,KnockOff,DrainPunch,SwordsDance|Adamant||M|||50|]Slowking-Galar||LifeOrb|Regenerator|SludgeBomb,Psychic,TrickRoom,Protect|Quiet||F|||50|]Palafin||MysticWater|ZerotoHero|WaveCrash,FlipTurn,JetPunch,Protect|Adamant||F|||50|]Volcarona||Leftovers|FlameBody|HeatWave,GigaDrain,QuiverDance,Protect|Modest||F|||50|]Meowscarada||FocusSash|Overgrow|FlowerTrick,KnockOff,SuckerPunch,Protect|Jolly||F|||50|]Metagross||MetalCoat|ClearBody|BulletPunch,IronHead,PsychicFangs,Protect|Adamant|||||50|
+|c|â˜†AGreatRobot|Hf
+|c|â˜†Gabeeel|glhf
+|
+|t:|1783200342
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Roserade|Roserade, L50, F|100/100
+|switch|p1b: Aerodactyl|Aerodactyl, L50, F|100/100
+|switch|p2a: Metagross|Metagross, L50|100/100
+|switch|p2b: Slowking|Slowking-Galar, L50, F|100/100
+|-ability|p1b: Aerodactyl|Pressure
+|turn|1
+|
+|t:|1783200362
+|move|p2b: Slowking|Protect|p2b: Slowking
+|-singleturn|p2b: Slowking|Protect
+|move|p1b: Aerodactyl|Taunt|p2b: Slowking
+|-activate|p2b: Slowking|move: Protect
+|move|p1a: Roserade|Sleep Powder|p2a: Metagross|[miss]
+|-miss|p1a: Roserade|p2a: Metagross
+|move|p2a: Metagross|Iron Head|p1b: Aerodactyl
+|-supereffective|p1b: Aerodactyl|1
+|-enditem|p1b: Aerodactyl|Focus Sash
+|-damage|p1b: Aerodactyl|1/100
+|
+|upkeep
+|turn|2
+|
+|t:|1783200374
+|move|p2a: Metagross|Bullet Punch|p1b: Aerodactyl
+|-supereffective|p1b: Aerodactyl|1
+|-damage|p1b: Aerodactyl|0 fnt
+|faint|p1b: Aerodactyl
+|move|p1a: Roserade|Sleep Powder|p2a: Metagross
+|-status|p2a: Metagross|slp|[from] move: Sleep Powder
+|move|p2b: Slowking|Trick Room|p2b: Slowking
+|-fieldstart|move: Trick Room|[of] p2b: Slowking
+|
+|upkeep
+|
+|t:|1783200377
+|switch|p1b: Rotom|Rotom-Wash, L50|100/100
+|turn|3
+|
+|t:|1783200388
+|move|p2b: Slowking|Psychic|p1a: Roserade
+|-supereffective|p1a: Roserade|1
+|-crit|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|faint|p1a: Roserade
+|-damage|p2b: Slowking|90/100|[from] item: Life Orb
+|cant|p2a: Metagross|slp
+|move|p1b: Rotom|Thunderbolt|p2b: Slowking
+|-damage|p2b: Slowking|59/100
+|
+|upkeep
+|
+|t:|1783200392
+|switch|p1a: Blaziken|Blaziken, L50, M|100/100
+|turn|4
+|
+|t:|1783200397
+|move|p1a: Blaziken|Detect|p1a: Blaziken
+|-singleturn|p1a: Blaziken|Protect
+|move|p2b: Slowking|Psychic|p1a: Blaziken
+|-activate|p1a: Blaziken|move: Protect
+|cant|p2a: Metagross|slp
+|move|p1b: Rotom|Thunderbolt|p2b: Slowking
+|-damage|p2b: Slowking|28/100
+|-status|p2b: Slowking|par
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|5
+|
+|t:|1783200414
+|switch|p2a: Palafin|Palafin, L50, F|100/100
+|detailschange|p1a: Blaziken|Blaziken-Mega, L50, M
+|-mega|p1a: Blaziken|Blaziken|Blazikenite
+|move|p2b: Slowking|Psychic|p1a: Blaziken
+|-supereffective|p1a: Blaziken|1
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|-damage|p2b: Slowking|18/100 par|[from] item: Life Orb
+|move|p1b: Rotom|Thunderbolt|p2b: Slowking
+|-damage|p2b: Slowking|0 fnt
+|faint|p2b: Slowking
+|
+|upkeep
+|
+|t:|1783200422
+|switch|p2b: Volcarona|Volcarona, L50, F|100/100
+|turn|6
+|-message|AGreatRobot forfeited.
+|
+|win|Gabeeel
+|l|â˜†AGreatRobot
+|player|p1|
+||Gabeeel is ready for game 2.
+||AGreatRobot is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

@@ -1,0 +1,130 @@
+|j|☆pronounced_bilth
+|j|☆bil101010
+|html|pronounced_bilthbil101010    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782958628
+|gametype|doubles
+|player|p1|pronounced_bilth|li|1000
+|player|p2|bil101010|101|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Raichu, L50, F|
+|poke|p1|Jolteon, L50, M|
+|poke|p1|Swampert, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Pelipper, L50, M|
+|poke|p2|Malamar, L50, F|
+|poke|p2|Scolipede, L50, F|
+|poke|p2|Meowstic, L50, M|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Raichu||RaichuniteX|LightningRod|FakeOut,Encore,RisingVoltage,Protect|Timid||F|||50|]Jolteon||FocusSash|VoltAbsorb|Thunder,Discharge,RainDance,Detect|Timid||M|||50|]Swampert||Swampertite|Torrent|WaveCrash,Earthquake,IcePunch,Protect|Adamant||M|||50|]Archaludon||Leftovers|Stamina|ElectroShot,AuraSphere,FlashCannon,DracoMeteor|Timid||M|||50|]Sinistcha||LifeOrb|Hospitality|RagePowder,MatchaGotcha,LifeDew,Imprison|Bold|||||50|]Pelipper||SitrusBerry|Drizzle|Tailwind,Hurricane,WeatherBall,WideGuard|Timid||M|||50|
+|showteam|p2|Malamar||Malamarite|Contrary|Superpower,BatonPass,StoredPower,KnockOff|Relaxed||F|||50|]Scolipede||Scolipite|SpeedBoost|Protect,PoisonJab,LeechLife,IronDefense|Careful||F|||50|]Meowstic||FocusSash|Prankster|FakeOut,FakeTears,Tickle,LightScreen|Careful||M|||50|]Annihilape||Leftovers|VitalSpirit|BulkUp,RageFist,DrainPunch,Substitute|Adamant||F|||50|]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,CalmMind,RagePowder,Protect|Bold|||||50|]Incineroar||Charcoal|Intimidate|FlareBlitz,FakeOut,DarkestLariat,PartingShot|Adamant||M|||50|
+|j| Jmfat
+|l| Jmfat
+|
+|t:|1782958659
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Jolteon|Jolteon, L50, M|100/100
+|switch|p1b: Swampert|Swampert, L50, M|100/100
+|switch|p2a: Malamar|Malamar, L50, F|100/100
+|switch|p2b: Meowstic|Meowstic, L50, M|100/100
+|turn|1
+|
+|t:|1782958691
+|detailschange|p1b: Swampert|Swampert-Mega, L50, M
+|-mega|p1b: Swampert|Swampert|Swampertite
+|detailschange|p2a: Malamar|Malamar-Mega, L50, F
+|-mega|p2a: Malamar|Malamar|Malamarite
+|move|p2b: Meowstic|Tickle|p2a: Malamar
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|move|p1a: Jolteon|Rain Dance|p1a: Jolteon
+|-weather|RainDance
+|move|p1b: Swampert|Wave Crash|p2a: Malamar
+|-damage|p2a: Malamar|43/100
+|-damage|p1b: Swampert|79/100|[from] Recoil
+|move|p2a: Malamar|Superpower|p1a: Jolteon
+|-damage|p1a: Jolteon|24/100
+|-boost|p2a: Malamar|atk|1
+|-boost|p2a: Malamar|def|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1782958726
+|switch|p1a: Sinistcha|Sinistcha, L50|100/100
+|-heal|p1b: Swampert|100/100|[from] ability: Hospitality|[of] p1a: Sinistcha
+|switch|p2b: Sinistcha|Sinistcha, L50|100/100
+|-heal|p2a: Malamar|68/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|move|p1b: Swampert|Earthquake|p2a: Malamar|[spread] p1a,p2a,p2b
+|-resisted|p1a: Sinistcha|1
+|-resisted|p2b: Sinistcha|1
+|-damage|p1a: Sinistcha|81/100
+|-damage|p2a: Malamar|50/100g
+|-damage|p2b: Sinistcha|82/100
+|move|p2a: Malamar|Superpower|p1a: Sinistcha
+|-immune|p1a: Sinistcha
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1782958766
+|move|p1b: Swampert|Protect|p1b: Swampert
+|-singleturn|p1b: Swampert|Protect
+|move|p2a: Malamar|Baton Pass|p2a: Malamar
+|
+|t:|1782958773
+|switch|p2a: Annihilape|Annihilape, L50, F|100/100|[from] Baton Pass
+|move|p1a: Sinistcha|Imprison|p1a: Sinistcha
+|-start|p1a: Sinistcha|move: Imprison
+|cant|p2b: Sinistcha|move: Imprison|Matcha Gotcha
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1782958797
+|switch|p2b: Malamar|Malamar-Mega, L50, F|50/100g
+|move|p1b: Swampert|Wave Crash|p2a: Annihilape
+|-damage|p2a: Annihilape|44/100
+|-damage|p1b: Swampert|77/100|[from] Recoil
+|move|p2a: Annihilape|Substitute|p2a: Annihilape
+|-start|p2a: Annihilape|Substitute
+|-damage|p2a: Annihilape|19/100
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Annihilape|[spread] p2a,p2b
+|-end|p2a: Annihilape|Substitute
+|-heal|p1a: Sinistcha|96/100|[from] drain|[of] p2a: Annihilape
+|-damage|p2b: Malamar|25/100
+|-heal|p1a: Sinistcha|100/100|[from] drain|[of] p2b: Malamar
+|-status|p2b: Malamar|brn
+|-damage|p1a: Sinistcha|90/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Annihilape|25/100|[from] item: Leftovers
+|-damage|p2b: Malamar|19/100 brn|[from] brn
+|upkeep
+|turn|5
+|-message|bil101010 forfeited.
+|
+|win|pronounced_bilth
+|l|☆bil101010
+|player|p2|
+||bil101010 is ready for game 3.
+||pronounced_bilth is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆pronounced_bilth
+|player|p1|
+|j|☆bil101010
+|player|p2|bil101010|101|

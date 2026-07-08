@@ -1,0 +1,143 @@
+|j|☆al.fo1234
+|j|☆Plopy14
+|html|al.fo1234Plopy14    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783174313
+|gametype|doubles
+|player|p1|al.fo1234|acetrainer-gen4dp|1121
+|player|p2|Plopy14|bugcatcher|1220
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M, shiny|
+|poke|p1|Venusaur, L50, M|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Delphox, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Kingambit, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|Protect,WeatherBall,HeatWave,SolarBeam|Serious||M|||50|]Venusaur||FocusSash|Chlorophyll|SludgeBomb,EnergyBall,SleepPowder,Protect|Modest||M|||50|]Sylveon||FairyFeather|Pixilate|Protect,HyperBeam,HyperVoice,QuickAttack|Modest||M|||50|]Farigiraf||ColburBerry|ArmorTail|TrickRoom,Thunderbolt,Psychic,HelpingHand|Quiet||F|||50|]Incineroar||SitrusBerry|Intimidate|PartingShot,FlareBlitz,ThroatChop,FakeOut|Careful||M|||50|]Garchomp||LifeOrb|RoughSkin|Protect,Earthquake,RockSlide,DragonClaw|Serious||M|||50|
+|showteam|p2|Floette-Eternal||Floettite|FlowerVeil|DazzlingGleam,Moonblast,CalmMind,Protect|Modest||F|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,ThroatChop,PartingShot|Careful||M|||50|]Sinistcha||OccaBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,Protect|Bold|||||50|]Delphox||Delphoxite|Blaze|HeatWave,Psyshock,NastyPlot,Protect|Timid||F|||50|]Sneasler||FocusSash|PoisonTouch|FakeOut,PoisonJab,CloseCombat,QuickGuard|Jolly||F|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|Adamant||M|||50|
+|
+|t:|1783174339
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Delphox|Delphox, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Delphox|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Farigiraf|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|turn|1
+|
+|t:|1783174355
+|detailschange|p2a: Delphox|Delphox-Mega, L50, F
+|-mega|p2a: Delphox|Delphox|Delphoxite
+|move|p2a: Delphox|Nasty Plot|p2a: Delphox
+|-boost|p2a: Delphox|spa|2
+|move|p1b: Incineroar|Parting Shot|p2a: Delphox
+|-unboost|p2a: Delphox|atk|1
+|-unboost|p2a: Delphox|spa|1
+|
+|t:|1783174363
+|switch|p1b: Sylveon|Sylveon, L50, M|100/100|[from] Parting Shot
+|move|p2b: Incineroar|Throat Chop|p1b: Sylveon
+|-resisted|p1b: Sylveon|1
+|-damage|p1b: Sylveon|90/100
+|-start|p1b: Sylveon|Throat Chop|[silent]
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1783174401
+|move|p1a: Farigiraf|Helping Hand|p1b: Sylveon
+|-singleturn|p1b: Sylveon|Helping Hand|[of] p1a: Farigiraf
+|move|p1b: Sylveon|Hyper Beam|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|-mustrecharge|p1b: Sylveon
+|faint|p2b: Incineroar
+|move|p2a: Delphox|Nasty Plot|p2a: Delphox
+|-boost|p2a: Delphox|spa|2
+|
+|-end|p1b: Sylveon|Throat Chop|[silent]
+|upkeep
+|
+|t:|1783174420
+|switch|p2b: Sinistcha|Sinistcha, L50|100/100
+|turn|3
+|
+|t:|1783174431
+|move|p1a: Farigiraf|Psychic|p2b: Sinistcha
+|-damage|p2b: Sinistcha|60/100
+|cant|p1b: Sylveon|recharge
+|move|p2a: Delphox|Heat Wave|p1a: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Farigiraf|16/100
+|-damage|p1b: Sylveon|18/100
+|move|p2b: Sinistcha|Trick Room|p2b: Sinistcha
+|-fieldend|move: Trick Room
+|
+|upkeep
+|turn|4
+|
+|t:|1783174452
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Delphox|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|move|p1b: Sylveon|Quick Attack|p2a: Delphox
+|-resisted|p2a: Delphox|1
+|-damage|p2a: Delphox|90/100
+|move|p2a: Delphox|Heat Wave|p1b: Sylveon|[spread] p1a,p1b
+|-resisted|p1a: Incineroar|1
+|-damage|p1a: Incineroar|56/100
+|-damage|p1b: Sylveon|0 fnt
+|faint|p1b: Sylveon
+|
+|upkeep
+|
+|t:|1783174464
+|switch|p1b: Charizard|Charizard, L50, M, shiny|100/100
+|turn|5
+|
+|t:|1783174481
+|switch|p2b: Sinistcha|Sinistcha, L50|60/100
+|-heal|p2a: Delphox|100/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|detailschange|p1b: Charizard|Charizard-Mega-Y, L50, M, shiny
+|-mega|p1b: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|move|p2a: Delphox|Protect|p2a: Delphox
+|-singleturn|p2a: Delphox|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Sinistcha
+|-immune|p2b: Sinistcha
+|move|p1b: Charizard|Heat Wave|p2a: Delphox|[spread] p2b
+|-activate|p2a: Delphox|move: Protect
+|-supereffective|p2b: Sinistcha|1
+|-enditem|p2b: Sinistcha|Occa Berry|[eat]
+|-enditem|p2b: Sinistcha|Occa Berry|[weaken]
+|-damage|p2b: Sinistcha|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|-message|al.fo1234 forfeited.
+|
+|win|Plopy14
+|raw|al.fo1234's rating: 1121 → 1103(-18 for losing)
+|raw|Plopy14's rating: 1220 → 1238(+18 for winning)

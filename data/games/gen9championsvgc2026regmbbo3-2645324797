@@ -1,0 +1,105 @@
+|j|☆BVSelf
+|j|☆A_TerroneVGC
+|html|BVSelfA_TerroneVGC    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783418129
+|gametype|doubles
+|player|p1|BVSelf|juan|1363
+|player|p2|A_TerroneVGC|266|1386
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Venusaur, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Scrafty, L50, M|
+|poke|p1|Mamoswine, L50, F|
+|poke|p1|Pyroar, L50, M|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Delphox, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Torkoal||HeatRock|Drought|Eruption,WeatherBall,HelpingHand,Protect|Quiet||M|||50|]Venusaur||LifeOrb|Chlorophyll|EnergyBall,SludgeBomb,EarthPower,Protect|Modest||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,Thunderbolt,TrickRoom,Protect|Bold||M|||50|]Scrafty||Scraftinite|Intimidate|KnockOff,DrainPunch,IcePunch,FakeOut|Adamant||M|||50|]Mamoswine||FocusSash|Oblivious|HighHorsepower,RockSlide,IceShard,Protect|Adamant||F|||50|]Pyroar||Pyroarite|Unnerve|HeatWave,Overheat,Yawn,Protect|Timid||M|||50|
+|showteam|p2|Floette-Eternal||Floettite|FlowerVeil|Moonblast,DazzlingGleam,CalmMind,Protect|Modest||F|||50|]Delphox||Delphoxite|Blaze|HeatWave,Psyshock,NastyPlot,Protect|Timid||F|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|Adamant||M|||50|]Sneasler||FocusSash|PoisonTouch|CloseCombat,DireClaw,FakeOut,QuickGuard|Jolly||M|||50|]Sinistcha||KasibBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,Protect|Bold|||||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,ThroatChop,FakeOut,PartingShot|Careful||M|||50|
+|
+|t:|1783418170
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Scrafty|Scrafty, L50, M|100/100
+|switch|p1b: Mamoswine|Mamoswine, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Delphox|Delphox, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Scrafty|atk|1
+|-fail|p1b: Mamoswine|unboost|Attack|[from] ability: Oblivious|[of] p1b: Mamoswine
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Delphox|atk|1
+|turn|1
+|
+|t:|1783418210
+|detailschange|p2b: Delphox|Delphox-Mega, L50, F
+|-mega|p2b: Delphox|Delphox|Delphoxite
+|detailschange|p1a: Scrafty|Scrafty-Mega, L50, M
+|-mega|p1a: Scrafty|Scrafty|Scraftinite
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Delphox|atk|1
+|move|p1a: Scrafty|Fake Out|p2a: Incineroar
+|-damage|p2a: Incineroar|91/100
+|cant|p2a: Incineroar|flinch
+|move|p2b: Delphox|Nasty Plot|p2b: Delphox
+|-boost|p2b: Delphox|spa|2
+|move|p1b: Mamoswine|Rock Slide|p2a: Incineroar|[spread] p2a
+|-miss|p1b: Mamoswine|p2b: Delphox
+|-supereffective|p2a: Incineroar|1
+|-damage|p2a: Incineroar|56/100
+|
+|upkeep
+|turn|2
+|
+|t:|1783418259
+|switch|p2a: Sinistcha|Sinistcha, L50|100/100
+|move|p2b: Delphox|Heat Wave|p1b: Mamoswine|[spread] p1a,p1b
+|-supereffective|p1b: Mamoswine|1
+|-damage|p1a: Scrafty|42/100
+|-enditem|p1b: Mamoswine|Focus Sash
+|-damage|p1b: Mamoswine|1/100
+|move|p1b: Mamoswine|High Horsepower|p2a: Sinistcha
+|-resisted|p2a: Sinistcha|1
+|-damage|p2a: Sinistcha|78/100
+|move|p1a: Scrafty|Knock Off|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha|1
+|-damage|p2a: Sinistcha|11/100
+|-enditem|p2a: Sinistcha|Kasib Berry|[from] move: Knock Off|[of] p1a: Scrafty
+|
+|upkeep
+|turn|3
+|
+|t:|1783418279
+|switch|p2a: Incineroar|Incineroar, L50, M|56/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Scrafty|atk|1
+|-fail|p1b: Mamoswine|unboost|Attack|[from] ability: Oblivious|[of] p1b: Mamoswine
+|move|p1b: Mamoswine|Protect|p1b: Mamoswine
+|-singleturn|p1b: Mamoswine|Protect
+|move|p2b: Delphox|Heat Wave|p1b: Mamoswine|[spread] p1a
+|-activate|p1b: Mamoswine|move: Protect
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|
+|upkeep
+|-message|BVSelf forfeited.
+|
+|win|A_TerroneVGC
+|raw|BVSelf's rating: 1363 → 1344(-19 for losing)
+|raw|A_TerroneVGC's rating: 1386 → 1405(+19 for winning)
+|l|☆A_TerroneVGC
+|player|p2|

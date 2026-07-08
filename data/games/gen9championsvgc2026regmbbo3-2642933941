@@ -1,0 +1,341 @@
+|j|☆MoldyDolphin
+|j|☆Beanybag
+|html|MoldyDolphinBeanybag    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783018527
+|gametype|doubles
+|player|p1|MoldyDolphin|170|1083
+|player|p2|Beanybag|169|1099
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Falinks, L50|
+|poke|p1|Dragalge, L50, M|
+|poke|p1|Aerodactyl, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Sylveon, L50, F|
+|poke|p2|Ampharos, L50, F|
+|poke|p2|Lopunny, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Bellibolt, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Toxapex, L50, F|
+|teampreview|4
+|showteam|p1|Falinks||Falinksite|Defiant|CloseCombat,SeedBomb,KnockOff,Protect|Adamant|||||50|]Dragalge||LifeOrb|Adaptability|DracoMeteor,SludgeBomb,FocusBlast,Protect|Modest||M|||50|]Aerodactyl||Aerodactylite|Unnerve|RockSlide,DualWingbeat,IceFang,Tailwind|Jolly||M|||50|]Kingambit||FocusSash|Defiant|KowtowCleave,IronHead,SuckerPunch,LowKick|Adamant||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,TrickRoom,HelpingHand,Protect|Bold||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,QuickAttack,Detect|Modest||F|||50|
+|showteam|p2|Ampharos||Ampharosite|Static|CottonGuard,ParabolicCharge,DragonPulse,Protect|Sassy||F|||50|]Lopunny||Lopunnite|Limber|FakeOut,CloseCombat,SwordsDance,BrutalSwing|Jolly||F|||50|]Grimmsnarl||SitrusBerry|Prankster|FakeOut,PartingShot,SpiritBreak,LightScreen|Brave||M|||50|]Bellibolt||ShucaBerry|Electromorphosis|Soak,Toxic,VoltSwitch,SlackOff|Relaxed||M|||50|]Sinistcha||FocusSash|Hospitality|MatchaGotcha,RagePowder,Protect,TrickRoom|Quiet|||||50|]Toxapex||Leftovers|Merciless|BanefulBunker,Stockpile,Recover,PoisonJab|Careful||F|||50|
+|
+|t:|1783018591
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, L50, M|100/100
+|switch|p1b: Dragalge|Dragalge, L50, M|100/100
+|switch|p2a: Bellibolt|Bellibolt, L50, M|100/100
+|switch|p2b: Toxapex|Toxapex, L50, F|100/100
+|-ability|p1a: Aerodactyl|Unnerve
+|turn|1
+|
+|t:|1783018614
+|move|p1a: Aerodactyl|Rock Slide|p2b: Toxapex|[spread] p2b
+|-miss|p1a: Aerodactyl|p2a: Bellibolt
+|-damage|p2b: Toxapex|82/100
+|move|p1b: Dragalge|Sludge Bomb|p2a: Bellibolt
+|-damage|p2a: Bellibolt|28/100
+|-start|p2a: Bellibolt|Charge|Sludge Bomb|[from] ability: Electromorphosis
+|-damage|p1b: Dragalge|90/100|[from] item: Life Orb
+|move|p2b: Toxapex|Stockpile|p2b: Toxapex
+|-start|p2b: Toxapex|stockpile1
+|-boost|p2b: Toxapex|def|1
+|-boost|p2b: Toxapex|spd|1
+|move|p2a: Bellibolt|Volt Switch|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl|1
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|-end|p2a: Bellibolt|Charge|[silent]
+|
+|t:|1783018622
+|switch|p2a: Sinistcha|Sinistcha, L50|100/100|[from] Volt Switch
+|-heal|p2b: Toxapex|100/100|[from] ability: Hospitality|[of] p2a: Sinistcha
+|
+|upkeep
+|
+|t:|1783018631
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|turn|2
+|
+|t:|1783018670
+|move|p1a: Farigiraf|Psychic|p2b: Toxapex
+|-supereffective|p2b: Toxapex|1
+|-damage|p2b: Toxapex|71/100
+|move|p1b: Dragalge|Draco Meteor|p2b: Toxapex
+|-damage|p2b: Toxapex|22/100
+|-unboost|p1b: Dragalge|spa|2
+|-damage|p1b: Dragalge|81/100|[from] item: Life Orb
+|move|p2b: Toxapex|Stockpile|p2b: Toxapex
+|-start|p2b: Toxapex|stockpile2
+|-boost|p2b: Toxapex|def|1
+|-boost|p2b: Toxapex|spd|1
+|move|p2a: Sinistcha|Trick Room|p2a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2a: Sinistcha
+|
+|-heal|p2b: Toxapex|28/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1783018692
+|switch|p1b: Sylveon|Sylveon, L50, F|100/100
+|switch|p2a: Bellibolt|Bellibolt, L50, M|28/100
+|move|p2b: Toxapex|Recover|p2b: Toxapex
+|-heal|p2b: Toxapex|78/100
+|move|p1a: Farigiraf|Psychic|p2b: Toxapex
+|-supereffective|p2b: Toxapex|1
+|-damage|p2b: Toxapex|54/100
+|
+|-heal|p2b: Toxapex|59/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1783018713
+|move|p1b: Sylveon|Detect|p1b: Sylveon
+|-singleturn|p1b: Sylveon|Protect
+|move|p2a: Bellibolt|Slack Off|p2a: Bellibolt
+|-heal|p2a: Bellibolt|79/100
+|move|p2b: Toxapex|Poison Jab|p1b: Sylveon
+|-activate|p1b: Sylveon|move: Protect
+|move|p1a: Farigiraf|Psychic|p2a: Bellibolt
+|-damage|p2a: Bellibolt|46/100
+|-start|p2a: Bellibolt|Charge|Psychic|[from] ability: Electromorphosis
+|
+|-heal|p2b: Toxapex|65/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1783018738
+|move|p2a: Bellibolt|Slack Off|p2a: Bellibolt
+|-heal|p2a: Bellibolt|96/100
+|move|p2b: Toxapex|Poison Jab|p1b: Sylveon
+|-supereffective|p1b: Sylveon|1
+|-damage|p1b: Sylveon|57/100
+|move|p1a: Farigiraf|Psychic|p2a: Bellibolt
+|-damage|p2a: Bellibolt|66/100
+|-unboost|p2a: Bellibolt|spd|1
+|-start|p2a: Bellibolt|Charge|Psychic|[from] ability: Electromorphosis
+|move|p1b: Sylveon|Hyper Voice|p2a: Bellibolt|[spread] p2a,p2b
+|-resisted|p2b: Toxapex|1
+|-damage|p2a: Bellibolt|0 fnt
+|-damage|p2b: Toxapex|57/100
+|faint|p2a: Bellibolt
+|
+|-heal|p2b: Toxapex|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783018751
+|switch|p2a: Sinistcha|Sinistcha, L50|100/100
+|-heal|p2b: Toxapex|88/100|[from] ability: Hospitality|[of] p2a: Sinistcha
+|turn|6
+|
+|t:|1783018760
+|switch|p1a: Dragalge|Dragalge, L50, M|81/100
+|move|p2a: Sinistcha|Protect|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|Protect
+|move|p1b: Sylveon|Detect|p1b: Sylveon
+|-singleturn|p1b: Sylveon|Protect
+|move|p2b: Toxapex|Poison Jab|p1b: Sylveon
+|-activate|p1b: Sylveon|move: Protect
+|
+|-heal|p2b: Toxapex|94/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1783018783
+|move|p1b: Sylveon|Hyper Voice|p2b: Toxapex|[spread] p2a,p2b
+|-resisted|p2b: Toxapex|1
+|-damage|p2a: Sinistcha|44/100
+|-damage|p2b: Toxapex|86/100
+|move|p1a: Dragalge|Sludge Bomb|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|-damage|p1a: Dragalge|71/100|[from] item: Life Orb
+|move|p2b: Toxapex|Poison Jab|p1b: Sylveon
+|-supereffective|p1b: Sylveon|1
+|-damage|p1b: Sylveon|15/100
+|-status|p1b: Sylveon|psn
+|
+|-heal|p2b: Toxapex|92/100|[from] item: Leftovers
+|-damage|p1b: Sylveon|3/100 psn|[from] psn
+|upkeep
+|
+|t:|1783018788
+|switch|p2a: Lopunny|Lopunny, L50, F|100/100
+|turn|8
+|
+|t:|1783018823
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|detailschange|p2a: Lopunny|Lopunny-Mega, L50, F
+|-mega|p2a: Lopunny|Lopunny|Lopunnite
+|move|p2a: Lopunny|Fake Out||[still]
+|cant|p1b: Farigiraf|ability: Armor Tail|Fake Out|[of] p2a: Lopunny
+|move|p1a: Dragalge|Draco Meteor|p2a: Lopunny
+|-damage|p2a: Lopunny|0 fnt
+|-unboost|p1a: Dragalge|spa|2
+|faint|p2a: Lopunny
+|-damage|p1a: Dragalge|62/100|[from] item: Life Orb
+|move|p2b: Toxapex|Stockpile|p2b: Toxapex
+|-start|p2b: Toxapex|stockpile3
+|-boost|p2b: Toxapex|def|1
+|-boost|p2b: Toxapex|spd|1
+|
+|-heal|p2b: Toxapex|98/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1783018852
+|move|p1b: Farigiraf|Psychic|p2b: Toxapex
+|-supereffective|p2b: Toxapex|1
+|-damage|p2b: Toxapex|77/100
+|move|p1a: Dragalge|Draco Meteor|p2b: Toxapex
+|-damage|p2b: Toxapex|63/100
+|-unboost|p1a: Dragalge|spa|2
+|-damage|p1a: Dragalge|52/100|[from] item: Life Orb
+|move|p2b: Toxapex|Poison Jab|p1b: Farigiraf
+|-damage|p1b: Farigiraf|85/100
+|
+|-heal|p2b: Toxapex|68/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1783018863
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p1b: Farigiraf|Psychic|p2b: Toxapex
+|-activate|p2b: Toxapex|move: Protect
+|move|p1a: Dragalge|Draco Meteor|p2b: Toxapex
+|-activate|p2b: Toxapex|move: Protect
+|
+|-heal|p2b: Toxapex|74/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1783018867
+|move|p1b: Farigiraf|Psychic|p2b: Toxapex
+|-supereffective|p2b: Toxapex|1
+|-damage|p2b: Toxapex|55/100
+|move|p1a: Dragalge|Draco Meteor|p2b: Toxapex
+|-damage|p2b: Toxapex|45/100
+|-unboost|p1a: Dragalge|spa|2
+|-damage|p1a: Dragalge|43/100|[from] item: Life Orb
+|move|p2b: Toxapex|Poison Jab|p1b: Farigiraf
+|-damage|p1b: Farigiraf|71/100
+|-status|p1b: Farigiraf|psn
+|
+|-heal|p2b: Toxapex|50/100g|[from] item: Leftovers
+|-damage|p1b: Farigiraf|59/100 psn|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1783018877
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p1b: Farigiraf|Psychic|p2b: Toxapex
+|-activate|p2b: Toxapex|move: Protect
+|move|p1a: Dragalge|Sludge Bomb|p2b: Toxapex
+|-activate|p2b: Toxapex|move: Protect
+|
+|-heal|p2b: Toxapex|56/100|[from] item: Leftovers
+|-damage|p1b: Farigiraf|46/100 psn|[from] psn
+|upkeep
+|-enditem|p1b: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1b: Farigiraf|71/100 psn|[from] item: Sitrus Berry
+|turn|13
+|
+|t:|1783018883
+|move|p1b: Farigiraf|Psychic|p2b: Toxapex
+|-supereffective|p2b: Toxapex|1
+|-damage|p2b: Toxapex|40/100
+|move|p1a: Dragalge|Draco Meteor|p2b: Toxapex
+|-damage|p2b: Toxapex|29/100
+|-damage|p1a: Dragalge|33/100|[from] item: Life Orb
+|move|p2b: Toxapex|Recover|p2b: Toxapex
+|-heal|p2b: Toxapex|80/100
+|
+|-heal|p2b: Toxapex|85/100|[from] item: Leftovers
+|-damage|p1b: Farigiraf|59/100 psn|[from] psn
+|upkeep
+|turn|14
+|
+|t:|1783018895
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p1b: Farigiraf|Psychic|p2b: Toxapex
+|-activate|p2b: Toxapex|move: Protect
+|move|p1a: Dragalge|Sludge Bomb|p2b: Toxapex
+|-activate|p2b: Toxapex|move: Protect
+|
+|-heal|p2b: Toxapex|91/100|[from] item: Leftovers
+|-damage|p1b: Farigiraf|47/100 psn|[from] psn
+|upkeep
+|turn|15
+|
+|t:|1783018903
+|move|p1b: Farigiraf|Psychic|p2b: Toxapex
+|-supereffective|p2b: Toxapex|1
+|-crit|p2b: Toxapex
+|-damage|p2b: Toxapex|25/100
+|move|p1a: Dragalge|Draco Meteor|p2b: Toxapex
+|-damage|p2b: Toxapex|17/100
+|-damage|p1a: Dragalge|24/100|[from] item: Life Orb
+|move|p2b: Toxapex|Poison Jab|p1b: Farigiraf
+|-crit|p1b: Farigiraf
+|-damage|p1b: Farigiraf|22/100 psn
+|
+|-heal|p2b: Toxapex|22/100|[from] item: Leftovers
+|-damage|p1b: Farigiraf|10/100 psn|[from] psn
+|upkeep
+|turn|16
+|
+|t:|1783018912
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p1b: Farigiraf|Psychic|p2b: Toxapex
+|-activate|p2b: Toxapex|move: Protect
+|move|p1a: Dragalge|Draco Meteor|p2b: Toxapex
+|-activate|p2b: Toxapex|move: Protect
+|
+|-heal|p2b: Toxapex|28/100|[from] item: Leftovers
+|-damage|p1b: Farigiraf|0 fnt|[from] psn
+|faint|p1b: Farigiraf
+|upkeep
+|
+|t:|1783018914
+|switch|p1b: Sylveon|Sylveon, L50, F|3/100 psn
+|turn|17
+|
+|t:|1783018921
+|move|p1b: Sylveon|Hyper Beam|p2b: Toxapex
+|-resisted|p2b: Toxapex|1
+|-damage|p2b: Toxapex|14/100
+|-mustrecharge|p1b: Sylveon
+|move|p1a: Dragalge|Sludge Bomb|p2b: Toxapex
+|-resisted|p2b: Toxapex|1
+|-damage|p2b: Toxapex|10/100
+|-damage|p1a: Dragalge|14/100|[from] item: Life Orb
+|move|p2b: Toxapex|Recover|p2b: Toxapex
+|-heal|p2b: Toxapex|61/100
+|
+|-heal|p2b: Toxapex|66/100|[from] item: Leftovers
+|-damage|p1b: Sylveon|0 fnt|[from] psn
+|faint|p1b: Sylveon
+|upkeep
+|turn|18
+|-message|MoldyDolphin forfeited.
+|
+|win|Beanybag
+|l|☆MoldyDolphin
+|player|p1|
+|raw|MoldyDolphin's rating: 1083 → 1062(-21 for losing)
+|raw|Beanybag's rating: 1099 → 1123(+24 for winning)

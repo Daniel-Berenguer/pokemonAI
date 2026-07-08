@@ -1,0 +1,172 @@
+|j|☆aaroncito4
+|j|☆breloomb01
+|html|aaroncito4breloomb01    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1783009885
+|gametype|doubles
+|player|p1|aaroncito4|101|1203
+|player|p2|breloomb01|roughneck|1218
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Aerodactyl, L50, M|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Gengar, L50, M, shiny|
+|poke|p2|Swampert, L50, M, shiny|
+|poke|p2|Incineroar, L50, M, shiny|
+|poke|p2|Politoed, L50, M, shiny|
+|poke|p2|Archaludon, L50, M, shiny|
+|poke|p2|Vivillon-Polar, L50, M|
+|teampreview|4
+|showteam|p1|Garchomp||LifeOrb|RoughSkin|StompingTantrum,RockSlide,DragonClaw,Protect|Jolly||M|||50|]Kingambit||FocusSash|Defiant|LowKick,KowtowCleave,SuckerPunch,IronHead|Adamant||F|||50|]Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,SolarBeam,Protect|Modest||M|||50|]Aerodactyl||Aerodactylite|Pressure|RockSlide,DualWingbeat,Tailwind,IceFang|Jolly||M|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,Detect,QuickAttack|Modest||M|||50|]Farigiraf||SitrusBerry|ArmorTail|TwinBeam,Thunderbolt,TrickRoom,Protect|Modest||F|||50|
+|showteam|p2|Gengar||Gengarite|CursedBody|ShadowBall,PerishSong,SludgeBomb,Protect|Timid||M|||50|]Swampert||Swampertite|Torrent|WaveCrash,Earthquake,IcePunch,Protect|Adamant||M|||50|]Incineroar||PasshoBerry|Intimidate|ThroatChop,PartingShot,FakeOut,Protect|Sassy||M|||50|]Politoed||SitrusBerry|Drizzle|WeatherBall,PerishSong,Encore,Protect|Calm||M|||50|]Archaludon||Leftovers|Stamina|DragonPulse,FlashCannon,ElectroShot,Protect|Bold||M|||50|]Vivillon-Polar||FocusSash|CompoundEyes|Hurricane,SleepPowder,RagePowder,Protect|Timid||M|||50|
+|
+|t:|1783009903
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1b: Charizard|Charizard, L50, M|100/100
+|switch|p2a: Gengar|Gengar, L50, M, shiny|100/100
+|switch|p2b: Vivillon|Vivillon-Polar, L50, M|100/100
+|turn|1
+|
+|t:|1783009932
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100
+|detailschange|p2a: Gengar|Gengar-Mega, L50, M, shiny
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p1b: Charizard|Protect|p1b: Charizard
+|-singleturn|p1b: Charizard|Protect
+|move|p2a: Gengar|Perish Song|p2a: Gengar
+|-start|p1a: Garchomp|perish3|[silent]
+|-start|p1b: Charizard|perish3|[silent]
+|-start|p2a: Gengar|perish3|[silent]
+|-start|p2b: Vivillon|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2b: Vivillon|Sleep Powder|p1a: Garchomp
+|-status|p1a: Garchomp|slp|[from] move: Sleep Powder
+|
+|-start|p2a: Gengar|perish3
+|-start|p1a: Garchomp|perish3
+|-start|p2b: Vivillon|perish3
+|-start|p1b: Charizard|perish3
+|upkeep
+|turn|2
+|
+|t:|1783009951
+|detailschange|p1b: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p1b: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|move|p2a: Gengar|Shadow Ball|p1a: Garchomp
+|-damage|p1a: Garchomp|52/100 slp
+|cant|p1a: Garchomp|slp
+|move|p2b: Vivillon|Sleep Powder|p1b: Charizard
+|-status|p1b: Charizard|slp|[from] move: Sleep Powder
+|cant|p1b: Charizard|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2a: Gengar|perish2
+|-start|p1a: Garchomp|perish2
+|-start|p2b: Vivillon|perish2
+|-start|p1b: Charizard|perish2
+|upkeep
+|turn|3
+|
+|t:|1783009969
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|-unboost|p1b: Charizard|atk|1
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|-curestatus|p1a: Garchomp|slp|[msg]
+|move|p1a: Garchomp|Rock Slide|p2b: Incineroar|[spread] p2b
+|-activate|p2a: Gengar|move: Protect
+|-supereffective|p2b: Incineroar|1
+|-damage|p2b: Incineroar|72/100
+|-damage|p1a: Garchomp|42/100|[from] item: Life Orb
+|-curestatus|p1b: Charizard|slp|[msg]
+|move|p1b: Charizard|Heat Wave|p2b: Incineroar|[spread] p2b
+|-activate|p2a: Gengar|move: Protect
+|-resisted|p2b: Incineroar|1
+|-damage|p2b: Incineroar|47/100
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2a: Gengar|perish1
+|-start|p1a: Garchomp|perish1
+|-start|p1b: Charizard|perish1
+|upkeep
+|turn|4
+|
+|t:|1783009994
+|switch|p2a: Politoed|Politoed, L50, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1a: Garchomp|Rock Slide|p2b: Incineroar|[spread] p2a
+|-miss|p1a: Garchomp|p2b: Incineroar
+|-damage|p2a: Politoed|84/100
+|-damage|p1a: Garchomp|32/100|[from] item: Life Orb
+|move|p1b: Charizard|Heat Wave|p2a: Politoed|[spread] p2a,p2b
+|-resisted|p2a: Politoed|1
+|-resisted|p2b: Incineroar|1
+|-damage|p2a: Politoed|75/100
+|-damage|p2b: Incineroar|38/100
+|move|p2b: Incineroar|Parting Shot|p1b: Charizard
+|-unboost|p1b: Charizard|atk|1
+|-unboost|p1b: Charizard|spa|1
+|
+|t:|1783010004
+|switch|p2b: Vivillon|Vivillon-Polar, L50, M|100/100|[from] Parting Shot
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Garchomp|perish0
+|-start|p1b: Charizard|perish0
+|upkeep
+|faint|p1a: Garchomp
+|faint|p1b: Charizard
+|
+|t:|1783010010
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1b: Sylveon|Sylveon, L50, M|100/100
+|turn|5
+|
+|t:|1783010016
+|move|p2b: Vivillon|Sleep Powder|p1b: Sylveon
+|-status|p1b: Sylveon|slp|[from] move: Sleep Powder
+|move|p2a: Politoed|Perish Song|p2a: Politoed
+|-start|p1a: Farigiraf|perish3|[silent]
+|-start|p1b: Sylveon|perish3|[silent]
+|-start|p2a: Politoed|perish3|[silent]
+|-start|p2b: Vivillon|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|cant|p1b: Sylveon|slp
+|move|p1a: Farigiraf|Thunderbolt|p2a: Politoed
+|-supereffective|p2a: Politoed|1
+|-damage|p2a: Politoed|31/100
+|-enditem|p2a: Politoed|Sitrus Berry|[eat]
+|-heal|p2a: Politoed|56/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|-start|p2b: Vivillon|perish3
+|-start|p2a: Politoed|perish3
+|-start|p1b: Sylveon|perish3
+|-start|p1a: Farigiraf|perish3
+|upkeep
+|turn|6
+|-message|aaroncito4 forfeited.
+|raw|aaroncito4's rating: 1203 → 1179(-24 for losing)
+|raw|breloomb01's rating: 1218 → 1242(+24 for winning)
+|
+|win|breloomb01
+|l|☆aaroncito4
+|player|p1|
+|l|☆breloomb01
+|player|p2|
+|j|☆breloomb01
+|player|p2|breloomb01|roughneck|

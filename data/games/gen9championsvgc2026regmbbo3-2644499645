@@ -1,0 +1,110 @@
+|j|☆elchiiiiiiii
+|j|☆bsyhead
+|html|elchiiiiiiiibsyhead    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783282252
+|gametype|doubles
+|player|p1|elchiiiiiiii|2|1056
+|player|p2|bsyhead|fisherman-gen4|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lopunny, L50, M|
+|poke|p1|Meowscarada, L50, M|
+|poke|p1|Liepard, L50, M|
+|poke|p1|Glimmora, L50, M|
+|poke|p1|Barbaracle, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Maushold-Four, L50|
+|poke|p2|Gardevoir, L50, F|
+|poke|p2|Swampert, L50, F|
+|teampreview|4
+|showteam|p1|Lopunny||Lopunnite|Limber|FakeOut,TripleAxel,CloseCombat,Protect|Jolly||M|||50|]Meowscarada||ChoiceScarf|Protean|FlowerTrick,KnockOff,Uturn,BrickBreak|Jolly||M|||50|]Liepard||MentalHerb|Prankster|Uturn,Encore,Taunt,Protect|Careful||M|||50|]Glimmora||FocusSash|ToxicDebris|EarthPower,SludgeBomb,PowerGem,Protect|Modest||M|||50|]Barbaracle||Barbaracite|ToughClaws|Liquidation,Facade,RockSlide,Protect|Adamant||F|||50|]Volcarona||Leftovers|FlameBody|QuiverDance,BugBuzz,HeatWave,Protect|Timid||M|||50|
+|showteam|p2|Archaludon||Leftovers|Stamina|DragonPulse,FlashCannon,ElectroShot,Protect|Calm||M|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,FlipTurn,LastRespects,AquaJet|Jolly||M|||50|]Pelipper||SitrusBerry|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|Modest||M|||50|]Maushold-Four||FocusSash|FriendGuard|SuperFang,RainDance,FollowMe,Protect|Timid|||||50|]Gardevoir||Gardevoirite|Synchronize|Psyshock,TrickRoom,HyperVoice,Protect|Modest||F|||50|]Swampert||Swampertite|Torrent|WaveCrash,HighHorsepower,IcePunch,Protect|Adamant||F|||50|
+|
+|t:|1783282282
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Volcarona|Volcarona, L50, M|100/100
+|switch|p1b: Lopunny|Lopunny, L50, M|100/100
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100
+|switch|p2b: Swampert|Swampert, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1783282306
+|detailschange|p1b: Lopunny|Lopunny-Mega, L50, M
+|-mega|p1b: Lopunny|Lopunny|Lopunnite
+|detailschange|p2b: Swampert|Swampert-Mega, L50, F
+|-mega|p2b: Swampert|Swampert|Swampertite
+|move|p2b: Swampert|Protect|p2b: Swampert
+|-singleturn|p2b: Swampert|Protect
+|move|p1b: Lopunny|Fake Out|p2b: Swampert
+|-activate|p2b: Swampert|move: Protect
+|move|p1a: Volcarona|Quiver Dance|p1a: Volcarona
+|-boost|p1a: Volcarona|spa|1
+|-boost|p1a: Volcarona|spd|1
+|-boost|p1a: Volcarona|spe|1
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: bsyhead|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1783282329
+|move|p1a: Volcarona|Protect|p1a: Volcarona
+|-singleturn|p1a: Volcarona|Protect
+|move|p2b: Swampert|Wave Crash|p1a: Volcarona
+|-activate|p1a: Volcarona|move: Protect
+|move|p2a: Pelipper|Hurricane|p1b: Lopunny
+|-supereffective|p1b: Lopunny|1
+|-damage|p1b: Lopunny|0 fnt
+|faint|p1b: Lopunny
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1783282337
+|switch|p1b: Meowscarada|Meowscarada, L50, M|100/100
+|turn|3
+|
+|t:|1783282370
+|move|p2b: Swampert|Wave Crash|p1a: Volcarona
+|-supereffective|p1a: Volcarona|1
+|-damage|p1a: Volcarona|0 fnt
+|-status|p2b: Swampert|brn|[from] ability: Flame Body|[of] p1a: Volcarona
+|faint|p1a: Volcarona
+|-damage|p2b: Swampert|71/100 brn|[from] Recoil
+|move|p1b: Meowscarada|Flower Trick|p2a: Pelipper
+|-start|p1b: Meowscarada|typechange|Grass|[from] ability: Protean
+|-crit|p2a: Pelipper
+|-damage|p2a: Pelipper|40/100
+|-enditem|p2a: Pelipper|Sitrus Berry|[eat]
+|-heal|p2a: Pelipper|64/100|[from] item: Sitrus Berry
+|move|p2a: Pelipper|Hurricane|p1b: Meowscarada
+|-supereffective|p1b: Meowscarada|1
+|-damage|p1b: Meowscarada|0 fnt
+|faint|p1b: Meowscarada
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2b: Swampert|66/100 brn|[from] brn
+|upkeep
+|
+|t:|1783282389
+|switch|p1b: Barbaracle|Barbaracle, L50, F|100/100
+|turn|4
+|-message|elchiiiiiiii forfeited.
+|
+|win|bsyhead
+|raw|elchiiiiiiii's rating: 1056 → 1035(-21 for losing)
+|raw|bsyhead's rating: 1000 → 1046(+46 for winning)
+|l|☆elchiiiiiiii
+|player|p1|

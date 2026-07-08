@@ -1,0 +1,100 @@
+|j|☆Carrielis
+|j|☆mudkipc4
+|html|Carrielismudkipc4    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783393130
+|gametype|doubles
+|player|p1|Carrielis|erika-masters3|1124
+|player|p2|mudkipc4|pokemaniac|1123
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Delphox, L50, F|
+|poke|p1|Toxapex, L50, F, shiny|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Kingambit, L50, F, shiny|
+|poke|p1|Ninetales-Alola, L50, F, shiny|
+|poke|p2|Mawile, L50, M|
+|poke|p2|Gengar, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Aerodactyl, L50, M|
+|teampreview|4
+|showteam|p1|Delphox||Delphoxite|Blaze|HeatWave,Psyshock,NastyPlot,Protect|Modest||F|||50|]Toxapex||Leftovers|Regenerator|WideGuard,Toxic,Infestation,BanefulBunker|Calm||F|||50|]Sinistcha-Masterpiece||KasibBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,Protect|Bold|||||50|]Sneasler||WhiteHerb|Unburden|FakeOut,DireClaw,CloseCombat,Protect|Adamant||M|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|Adamant||F|||50|]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,FreezeDry,AuroraVeil,Protect|Timid||F|||50|
+|showteam|p2|Mawile||Mawilite|HyperCutter|PlayRough,RockSlide,SuckerPunch,Protect|Brave||M|||50|]Gengar||Gengarite|CursedBody|ShadowBall,SludgeBomb,WillOWisp,Protect|Timid||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,TrickRoom,Protect,Imprison|Bold||F|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,StompingTantrum,DragonClaw,Protect|Jolly||F|||50|]Torkoal||Charcoal|Drought|Eruption,Yawn,WeatherBall,Protect|Quiet||F|||50|]Aerodactyl||FocusSash|Unnerve|Tailwind,Taunt,RockSlide,WideGuard|Jolly||M|||50|
+|
+|t:|1783393155
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, L50, F, shiny|100/100
+|switch|p1b: Kingambit|Kingambit, L50, F, shiny|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1783393166
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|move|p1a: Ninetales|Blizzard|p2b: Torkoal|[spread] p2a,p2b
+|-resisted|p2b: Torkoal|1
+|-damage|p2a: Farigiraf|71/100
+|-damage|p2b: Torkoal|77/100
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Farigiraf
+|-supereffective|p2a: Farigiraf|1
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783393177
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|turn|2
+|
+|t:|1783393187
+|switch|p1b: Delphox|Delphox, L50, F|100/100
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1a: Ninetales|Freeze-Dry|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Protect
+|move|p2b: Torkoal|Weather Ball|p1b: Delphox
+|-resisted|p1b: Delphox|1
+|-damage|p1b: Delphox|62/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1783393204
+|switch|p2a: Mawile|Mawile, L50, M|100/100
+|detailschange|p1b: Delphox|Delphox-Mega, L50, F
+|-mega|p1b: Delphox|Delphox|Delphoxite
+|move|p1a: Ninetales|Freeze-Dry|p2a: Mawile
+|-resisted|p2a: Mawile|1
+|-damage|p2a: Mawile|75/100
+|move|p1b: Delphox|Heat Wave|p2a: Mawile|[spread] p2a,p2b
+|-supereffective|p2a: Mawile|1
+|-crit|p2a: Mawile
+|-resisted|p2b: Torkoal|1
+|-crit|p2b: Torkoal
+|-damage|p2a: Mawile|0 fnt
+|-damage|p2b: Torkoal|9/100
+|faint|p2a: Mawile
+|move|p2b: Torkoal|Yawn|p1a: Ninetales
+|-start|p1a: Ninetales|move: Yawn|[of] p2b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|mudkipc4 forfeited.
+|
+|win|Carrielis
+||mudkipc4 is ready for game 3.
+||Carrielis is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

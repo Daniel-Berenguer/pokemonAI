@@ -1,0 +1,102 @@
+|j|☆new mental
+|j|☆Drunk express
+|html|new mentalDrunk express    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783520747
+|gametype|doubles
+|player|p1|new mental|volkner|1263
+|player|p2|Drunk express|102|1158
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Sylveon, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Aerodactyl, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Pelipper, L50, F, shiny|
+|poke|p2|Raichu, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Volcarona, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|SolarPower|Protect,HeatWave,SolarBeam,WeatherBall|Modest||F|||50|]Kingambit||FocusSash|Defiant|IronHead,SuckerPunch,KowtowCleave,LowKick|Adamant||M|||50|]Sylveon||FairyFeather|Pixilate|Detect,HyperVoice,HyperBeam,QuickAttack|Modest||F|||50|]Garchomp||LifeOrb|RoughSkin|Protect,DragonClaw,Earthquake,RockSlide|Jolly||F|||50|]Aerodactyl||Aerodactylite|Unnerve|IceFang,RockSlide,Tailwind,DualWingbeat|Jolly||M|||50|]Farigiraf||SitrusBerry|ArmorTail|TrickRoom,Psychic,Thunderbolt,Roar|Bold||M|||50|
+|showteam|p2|Tyranitar||Tyranitarite|Unnerve|DragonDance,RockSlide,Protect,KnockOff|Adamant||F|||50|]Pelipper||FocusSash|Drizzle|Tailwind,Hurricane,WeatherBall,WideGuard|Modest||F|||50|]Raichu||RaichuniteY|LightningRod|FakeOut,FocusBlast,ZapCannon,Protect|Timid||F|||50|]Archaludon||ShucaBerry|Stalwart|ElectroShot,DracoMeteor,Protect,FlashCannon|Modest||M|||50|]Ninetales-Alola||LightClay|SnowWarning|AuroraVeil,Protect,Moonblast,IcyWind|Timid||M|||50|]Volcarona||SitrusBerry|FlameBody|RagePowder,Protect,HeatWave,GigaDrain|Timid||M|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Drunk express)
+|
+|t:|1783520771
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sylveon|Sylveon, L50, F|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p2b: Raichu|Raichu, L50, F|100/100
+|-ability|p2a: Tyranitar|Unnerve
+|turn|1
+|
+|t:|1783520782
+|detailschange|p2b: Raichu|Raichu-Mega-Y, L50, F
+|-mega|p2b: Raichu|Raichu|Raichunite Y
+|move|p2b: Raichu|Zap Cannon|p1a: Sylveon
+|-damage|p1a: Sylveon|36/100
+|-status|p1a: Sylveon|par
+|move|p2a: Tyranitar|Knock Off|p1b: Farigiraf
+|-supereffective|p1b: Farigiraf|1
+|-damage|p1b: Farigiraf|10/100
+|-enditem|p1b: Farigiraf|Sitrus Berry|[from] move: Knock Off|[of] p2a: Tyranitar
+|move|p1a: Sylveon|Hyper Voice|p2b: Raichu|[spread] p2a,p2b
+|-supereffective|p2a: Tyranitar|1
+|-damage|p2a: Tyranitar|6/100
+|-damage|p2b: Raichu|22/100
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1783520794
+|move|p1a: Sylveon|Hyper Voice|p2b: Raichu|[spread] p2a,p2b
+|-supereffective|p2a: Tyranitar|1
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p2b: Raichu|0 fnt
+|faint|p2a: Tyranitar
+|faint|p2b: Raichu
+|move|p1b: Farigiraf|Psychic|p2: Tyranitar|[notarget]
+|-fail|p1b: Farigiraf
+|
+|upkeep
+|
+|t:|1783520797
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|switch|p2b: Pelipper|Pelipper, L50, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|3
+|
+|t:|1783520803
+|move|p2b: Pelipper|Wide Guard|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Wide Guard
+|move|p1a: Sylveon|Hyper Beam|p2a: Archaludon
+|-damage|p2a: Archaludon|0 fnt
+|-mustrecharge|p1a: Sylveon
+|faint|p2a: Archaludon
+|move|p1b: Farigiraf|Thunderbolt|p2b: Pelipper
+|-supereffective|p2b: Pelipper|2
+|-enditem|p2b: Pelipper|Focus Sash
+|-damage|p2b: Pelipper|1/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|-message|Drunk express forfeited.
+|
+|win|new mental
+|raw|new mental's rating: 1263 → 1281(+18 for winning)
+|raw|Drunk express's rating: 1158 → 1140(-18 for losing)
+|l|☆Drunk express
+|player|p2|

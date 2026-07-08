@@ -1,0 +1,129 @@
+|j|☆ZKShadows
+|j|☆Yoshabie
+|html|ZKShadowsYoshabie    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783470358
+|gametype|doubles
+|player|p1|ZKShadows|giovanni|
+|player|p2|Yoshabie|winona|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Scrafty, L50, F|
+|poke|p1|Vileplume, L50, M|
+|poke|p1|Staraptor, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p2|Froslass, L50, F, shiny|
+|poke|p2|Meowscarada, L50, F|
+|poke|p2|Meowstic, L50, M|
+|poke|p2|Milotic, L50, F, shiny|
+|poke|p2|Gardevoir, L50, F, shiny|
+|poke|p2|Goodra-Hisui, L50, M|
+|teampreview|4
+|showteam|p1|Scrafty||Scraftinite|Intimidate|CloseCombat,KnockOff,IronHead,FakeOut|Brave||F|||50|]Vileplume||FocusSash|Chlorophyll|SludgeBomb,SleepPowder,AfterYou,LeafStorm|Timid||M|||50|]Staraptor||ChoiceScarf|Intimidate|BraveBird,CloseCombat,Uturn,FinalGambit|Jolly||F|||50|]Farigiraf||SitrusBerry|ArmorTail|Protect,TwinBeam,Thunderbolt,TrickRoom|Sassy||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,QuickAttack,HyperBeam,Detect|Quiet||M|||50|]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HeatWave,Protect|Quiet||M|||50|
+|showteam|p2|Froslass||Froslassite|SnowCloak|Blizzard,WeatherBall,ShadowBall,Protect|Serious||F|||50|]Meowscarada||FocusSash|Protean|FlowerTrick,KnockOff,PollenPuff,LowKick|Jolly||F|||50|]Meowstic||SitrusBerry|Prankster|RainDance,SunnyDay,Gravity,Yawn|Bold||M|||50|]Milotic||Leftovers|Competitive|Scald,Hypnosis,WeatherBall,IcyWind|Bold||F|||50|]Gardevoir||Gardevoirite|Trace|FocusBlast,Protect,HyperVoice,Psyshock|Modest||F|||50|]Goodra-Hisui||LifeOrb|ShellArmor|SteelBeam,DracoMeteor,Protect,WeatherBall|Modest||M|||50|
+|
+|t:|1783470407
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Vileplume|Vileplume, L50, M|100/100
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|switch|p2a: Mesmerizer|Meowstic, L50, M|100/100
+|switch|p2b: Snow Miku|Froslass, L50, F, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|1
+|
+|t:|1783470443
+|switch|p1a: Scrafty|Scrafty, L50, F|100/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Mesmerizer|atk|1
+|-unboost|p2b: Snow Miku|atk|1
+|detailschange|p2b: Snow Miku|Froslass-Mega, L50, F, shiny
+|-mega|p2b: Snow Miku|Froslass|Froslassite
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Snow Miku
+|move|p2a: Mesmerizer|Rain Dance|p2a: Mesmerizer
+|-weather|RainDance
+|move|p2b: Snow Miku|Weather Ball|p1b: Torkoal
+|-supereffective|p1b: Torkoal|1
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1783470456
+|switch|p1b: Staraptor|Staraptor, L50, F|100/100
+|-ability|p1b: Staraptor|Intimidate|boost
+|-unboost|p2a: Mesmerizer|atk|1
+|-unboost|p2b: Snow Miku|atk|1
+|turn|2
+|
+|t:|1783470467
+|detailschange|p1a: Scrafty|Scrafty-Mega, L50, F
+|-mega|p1a: Scrafty|Scrafty|Scraftinite
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Mesmerizer|atk|1
+|-unboost|p2b: Snow Miku|atk|1
+|move|p2a: Mesmerizer|Gravity|p2a: Mesmerizer
+|-fieldstart|move: Gravity
+|move|p1b: Staraptor|U-turn|p2a: Mesmerizer
+|-supereffective|p2a: Mesmerizer|1
+|-damage|p2a: Mesmerizer|57/100
+|
+|t:|1783470474
+|switch|p1b: Vileplume|Vileplume, L50, M|100/100|[from] U-turn
+|move|p2b: Snow Miku|Blizzard|p1a: Scrafty|[spread] p1a,p1b
+|-supereffective|p1b: Vileplume|1
+|-damage|p1a: Scrafty|65/100
+|-enditem|p1b: Vileplume|Focus Sash
+|-damage|p1b: Vileplume|1/100
+|-status|p1a: Scrafty|frz
+|-status|p1b: Vileplume|frz
+|cant|p1a: Scrafty|frz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1783470501
+|move|p2a: Mesmerizer|Yawn|p1a: Scrafty
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p1a: Scrafty
+|move|p2b: Snow Miku|Blizzard|p1b: Vileplume|[spread] p1a,p1b
+|-supereffective|p1b: Vileplume|1
+|-damage|p1a: Scrafty|30/100 frz
+|-damage|p1b: Vileplume|0 fnt
+|faint|p1b: Vileplume
+|cant|p1a: Scrafty|frz
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1783470509
+|switch|p1b: Staraptor|Staraptor, L50, F|100/100
+|-ability|p1b: Staraptor|Intimidate|boost
+|-unboost|p2a: Mesmerizer|atk|1
+|-unboost|p2b: Snow Miku|atk|1
+|turn|4
+|
+|t:|1783470521
+|move|p2a: Mesmerizer|Yawn|p1b: Staraptor
+|-start|p1b: Staraptor|move: Yawn|[of] p2a: Mesmerizer
+|move|p1b: Staraptor|Brave Bird|p2b: Snow Miku
+|-damage|p2b: Snow Miku|22/100
+|-damage|p1b: Staraptor|79/100|[from] Recoil
+|move|p2b: Snow Miku|Blizzard|p1b: Staraptor|[spread] p1a,p1b
+|-supereffective|p1b: Staraptor|1
+|-damage|p1a: Scrafty|0 fnt
+|-damage|p1b: Staraptor|0 fnt
+|faint|p1a: Scrafty
+|faint|p1b: Staraptor
+|
+|win|Yoshabie
+||ZKShadows is ready for game 3.
+|inactive|Yoshabie has 30 seconds to confirm battle start!

@@ -1,0 +1,123 @@
+|j|☆PNW Renegade
+|j|‽Xjshx
+|html|PNW RenegadeXjshx    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783095506
+|gametype|doubles
+|player|p1|PNW Renegade|unknown|1000
+|player|p2|Xjshx|harlequin|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Aerodactyl, L50, M|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Ampharos, L50, M|
+|poke|p2|Sceptile, L50, M|
+|teampreview|4
+|showteam|p1|Aerodactyl||Aerodactylite|Unnerve|RockSlide,Crunch,Tailwind,Protect|Jolly||M|||50|]Floette-Eternal||Floettite|FlowerVeil|DrainingKiss,DazzlingGleam,CalmMind,Protect|Modest||F|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,StompingTantrum,DragonClaw,Protect|Jolly||M|||50|]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,FakeOut,Protect|Jolly||M|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,IronHead,Protect|Adamant||F|||50|]Basculegion||MysticWater|Adaptability|WaveCrash,LastRespects,AquaJet,Protect|Adamant||M|||50|
+|showteam|p2|Gholdengo||Leftovers|GoodasGold|Surf,MakeItRain,ShadowBall,NastyPlot|Timid|||||50|]Incineroar||SitrusBerry|Intimidate|PartingShot,FakeOut,FlareBlitz,DarkestLariat|Adamant||F|||50|]Sneasler||WhiteHerb|Unburden|CloseCombat,Protect,DireClaw,Coaching|Jolly||M|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,RockSlide,Protect|Jolly||F|||50|]Ampharos||Ampharosite|Static|Electroweb,HelpingHand,CottonGuard,Rest|Calm||M|||50|]Sceptile||Sceptilite|Overgrow|DragonPulse,EnergyBall,Protect,LeechSeed|Timid||M|||50|
+|
+|t:|1783095549
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100
+|switch|p2a: Ampharos|Ampharos, L50, M|100/100
+|switch|p2b: Sceptile|Sceptile, L50, M|100/100
+|turn|1
+|
+|t:|1783095573
+|move|p2b: Sceptile|Leech Seed|p1a: Sneasler
+|-start|p1a: Sneasler|move: Leech Seed
+|move|p1a: Sneasler|Close Combat|p2a: Ampharos
+|-damage|p2a: Ampharos|30/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-enditem|p1a: Sneasler|White Herb
+|-clearnegativeboost|p1a: Sneasler|[silent]
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Ampharos
+|-damage|p2a: Ampharos|0 fnt
+|faint|p2a: Ampharos
+|
+|-damage|p1a: Sneasler|87/100|[from] Leech Seed|[of] p2b: Sceptile
+|upkeep
+|
+|t:|1783095589
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|turn|2
+|
+|t:|1783095615
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|detailschange|p2b: Sceptile|Sceptile-Mega, L50, M
+|-mega|p2b: Sceptile|Sceptile|Sceptilite
+|move|p1a: Sneasler|Close Combat|p2a: Sneasler
+|-resisted|p2a: Sneasler|1
+|-damage|p2a: Sneasler|43/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|move|p2b: Sceptile|Dragon Pulse|p1a: Sneasler
+|-damage|p1a: Sneasler|3/100
+|move|p2a: Sneasler|Close Combat|p1b: Basculegion
+|-immune|p1b: Basculegion
+|
+|-damage|p1a: Sneasler|0 fnt|[from] Leech Seed|[of] p2b: Sceptile
+|faint|p1a: Sneasler
+|upkeep
+|
+|t:|1783095622
+|switch|p1a: Floette|Floette-Eternal, L50, F|100/100
+|turn|3
+|
+|t:|1783095642
+|detailschange|p1a: Floette|Floette-Mega, L50, F
+|-mega|p1a: Floette|Floette|Floettite
+|-ability|p1a: Floette|Fairy Aura
+|move|p1b: Basculegion|Aqua Jet|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|move|p2b: Sceptile|Energy Ball|p1b: Basculegion
+|-supereffective|p1b: Basculegion|1
+|-damage|p1b: Basculegion|4/100
+|move|p1a: Floette|Calm Mind|p1a: Floette
+|-boost|p1a: Floette|spa|1
+|-boost|p1a: Floette|spd|1
+|
+|upkeep
+|
+|t:|1783095655
+|switch|p2a: Gholdengo|Gholdengo, L50|100/100
+|turn|4
+|
+|t:|1783095665
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100
+|move|p1a: Floette|Protect|p1a: Floette
+|-singleturn|p1a: Floette|Protect
+|move|p2b: Sceptile|Energy Ball|p1a: Floette
+|-activate|p1a: Floette|move: Protect
+|move|p2a: Gholdengo|Make It Rain|p1b: Kingambit|[spread] p1b
+|-activate|p1a: Floette|move: Protect
+|-resisted|p1b: Kingambit|1
+|-damage|p1b: Kingambit|75/100
+|-unboost|p2a: Gholdengo|spa|2
+|
+|upkeep
+|turn|5
+|-message|Xjshx forfeited.
+|raw|PNW Renegade's rating: 1000 → 1040(+40 for winning)
+|raw|Xjshx's rating: 1000 → 1000(+0 for losing)
+|
+|win|PNW Renegade
+|l|‽Xjshx
+|player|p2|

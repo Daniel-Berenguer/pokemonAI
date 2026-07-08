@@ -1,0 +1,108 @@
+|j|☆Pytonia
+|j|☆Big_Shot_King
+|html|PytoniaBig_Shot_King    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783164705
+|gametype|doubles
+|player|p1|Pytonia|lucian|1156
+|player|p2|Big_Shot_King|101|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Scolipede, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Malamar, L50, M|
+|poke|p1|Rotom-Heat, L50|
+|poke|p2|Meganium, L50, M|
+|poke|p2|Gallade, L50, M, shiny|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Greninja, L50, M|
+|poke|p2|Gyarados, L50, M, shiny|
+|poke|p2|Garchomp, L50, F|
+|teampreview|4
+|showteam|p1|Scolipede||Scolipite|SpeedBoost|PoisonJab,LeechLife,Earthquake,Protect|Adamant||M|||50|]Farigiraf||SitrusBerry|ArmorTail|PsychicNoise,TrickRoom,HelpingHand,Protect|Bold||M|||50|]Tyranitar||Tyranitarite|SandStream|RockSlide,KnockOff,IcePunch,Protect|Adamant||F|||50|]Sinistcha||ColburBerry|Hospitality|RagePowder,MatchaGotcha,TrickRoom,LifeDew|Bold|||||50|]Malamar||Leftovers|Contrary|Superpower,PsychoCut,KnockOff,Protect|Careful||M|||50|]Rotom-Heat||PasshoBerry|Levitate|Overheat,WillOWisp,Protect,Thunderbolt|Modest|||||50|
+|showteam|p2|Meganium||Meganiumite|Overgrow|LightScreen,DazzlingGleam,SolarBeam,Synthesis|Modest||M|||50|]Gallade||MuscleBand|Sharpness|Reflect,CloseCombat,PsychoCut,Protect|Jolly||M|||50|]Charizard||ExpertBelt|Blaze|AirSlash,DragonPulse,HeatWave,ScorchingSands|Timid||M|||50|]Greninja||FocusSash|Protean|Extrasensory,WaterShuriken,Blizzard,DarkPulse|Timid||M|||50|]Gyarados||Leftovers|Intimidate|DragonTail,DragonDance,IceFang,Crunch|Jolly||M|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,Liquidation,Outrage,RockSlide|Jolly||F|||50|
+|j| Feena
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Big_Shot_King)
+|
+|t:|1783164755
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Scolipede|Scolipede, L50, M|100/100
+|switch|p1b: Rotom|Rotom-Heat, L50|100/100
+|switch|p2a: Incendium|Charizard, L50, M|100/100
+|switch|p2b: Tiamat|Garchomp, L50, F|100/100
+|turn|1
+|
+|t:|1783164767
+|move|p1a: Scolipede|Protect|p1a: Scolipede
+|-singleturn|p1a: Scolipede|Protect
+|move|p2b: Tiamat|Rock Slide|p1a: Scolipede|[spread] p1b
+|-activate|p1a: Scolipede|move: Protect
+|-supereffective|p1b: Rotom|1
+|-damage|p1b: Rotom|45/100
+|-damage|p2b: Tiamat|90/100|[from] item: Life Orb
+|move|p2a: Incendium|Heat Wave|p1a: Scolipede|[spread] p1b
+|-activate|p1a: Scolipede|move: Protect
+|-resisted|p1b: Rotom|1
+|-damage|p1b: Rotom|29/100
+|cant|p1b: Rotom|flinch
+|
+|-ability|p1a: Scolipede|Speed Boost|boost
+|-boost|p1a: Scolipede|spe|1
+|upkeep
+|turn|2
+|inactive|Pytonia has 30 seconds left.
+|inactive|Pytonia has 20 seconds left.
+|inactive|Pytonia has 15 seconds left.
+|
+|t:|1783164809
+|switch|p1a: Sinistcha|Sinistcha, L50|100/100
+|-heal|p1b: Rotom|54/100|[from] ability: Hospitality|[of] p1a: Sinistcha
+|move|p1b: Rotom|Protect|p1b: Rotom
+|-singleturn|p1b: Rotom|Protect
+|move|p2b: Tiamat|Rock Slide|p1a: Sinistcha|[spread] 
+|-activate|p1b: Rotom|move: Protect
+|-miss|p2b: Tiamat|p1a: Sinistcha
+|move|p2a: Incendium|Heat Wave|p1a: Sinistcha|[spread] p1a
+|-activate|p1b: Rotom|move: Protect
+|-supereffective|p1a: Sinistcha|1
+|-damage|p1a: Sinistcha|19/100
+|
+|upkeep
+|turn|3
+|inactive|Big_Shot_King has 30 seconds left.
+|
+|t:|1783164838
+|switch|p1a: Malamar|Malamar, L50, M|100/100
+|move|p2b: Tiamat|Liquidation|p1b: Rotom
+|-supereffective|p1b: Rotom|1
+|-enditem|p1b: Rotom|Passho Berry|[eat]
+|-enditem|p1b: Rotom|Passho Berry|[weaken]
+|-damage|p1b: Rotom|12/100
+|-damage|p2b: Tiamat|80/100|[from] item: Life Orb
+|move|p2a: Incendium|Heat Wave|p1b: Rotom|[spread] p1a,p1b
+|-resisted|p1b: Rotom|1
+|-damage|p1a: Malamar|71/100
+|-damage|p1b: Rotom|0 fnt
+|-status|p1a: Malamar|brn
+|faint|p1b: Rotom
+|
+|-heal|p1a: Malamar|76/100 brn|[from] item: Leftovers
+|-damage|p1a: Malamar|71/100 brn|[from] brn
+|upkeep
+|-message|Pytonia forfeited.
+|
+|win|Big_Shot_King
+||Pytonia is ready for game 3.
+|l| Feena
+||Big_Shot_King is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆Big_Shot_King
+|player|p2|

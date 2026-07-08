@@ -1,0 +1,192 @@
+|j|☆GetSlagged
+|j|☆MK_Hero1
+|html|GetSlaggedMK_Hero1    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783056112
+|gametype|doubles
+|player|p1|GetSlagged|miku-water|
+|player|p2|MK_Hero1|170|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Glalie, L50, M, shiny|
+|poke|p1|Liepard, L50, M|
+|poke|p1|Venusaur, L50, M|
+|poke|p1|Empoleon, L50, F|
+|poke|p1|Swampert, L50, F|
+|poke|p1|Salazzle, L50, F|
+|poke|p2|Metagross, L50, shiny|
+|poke|p2|Eelektross, L50, M|
+|poke|p2|Dragapult, L50, M, shiny|
+|poke|p2|Houndoom, L50, M|
+|poke|p2|Polteageist, L50, shiny|
+|poke|p2|Meganium, L50, F, shiny|
+|teampreview|4
+|showteam|p1|Glalie||Glalitite|Moody|Protect,Substitute,Blizzard,FreezeDry|Timid||M|||50|]Liepard||FocusSash|Prankster|Substitute,BatonPass,Snarl,NastyPlot|Calm||M|||50|]Venusaur||BrightPowder|Chlorophyll|SleepPowder,SludgeBomb,EarthPower,WeatherBall|Modest||M|||50|]Empoleon||IcyRock|Competitive|Snowscape,Blizzard,HydroPump,Protect|Calm||F|||50|]Swampert||QuickClaw|Torrent|Earthquake,Blizzard,RockSlide,Surf|Brave||F|||50|]Salazzle||Charcoal|Corrosion|HeatWave,Toxic,Substitute,Protect|Timid||F|||50|
+|showteam|p2|Metagross||Metagrossite|ClearBody|IronHead,PsychicFangs,Trailblaze,Protect|Jolly|||||50|]Eelektross||Leftovers|Levitate|VoltSwitch,DragonTail,Flamethrower,Electroweb|Quiet||M|||50|]Dragapult||FocusSash|ClearBody|DragonDarts,PhantomForce,SuckerPunch,Uturn|Jolly||M|||50|]Houndoom||ChoiceScarf|FlashFire|Protect,HeatWave,DarkPulse,ScorchingSands|Timid||M|||50|]Polteageist||WhiteHerb|WeakArmor|ShellSmash,Protect,ShadowBall,StoredPower|Modest|||||50|]Meganium||LightClay|LeafGuard|HelpingHand,LeechSeed,LightScreen,Protect|Calm||F|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by GetSlagged)
+|
+|t:|1783056158
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Venusaur|Venusaur, L50, M|100/100
+|switch|p1b: Liepard|Liepard, L50, M|100/100
+|switch|p2a: Houndoom|Houndoom, L50, M|100/100
+|switch|p2b: Meganium|Meganium, L50, F, shiny|100/100
+|turn|1
+|
+|t:|1783056174
+|move|p1b: Liepard|Nasty Plot|p1b: Liepard
+|-boost|p1b: Liepard|spa|2
+|move|p2a: Houndoom|Heat Wave|p1b: Liepard|[spread] p1a,p1b
+|-supereffective|p1a: Venusaur|1
+|-damage|p1a: Venusaur|31/100
+|-damage|p1b: Liepard|62/100
+|move|p1a: Venusaur|Sleep Powder|p2a: Houndoom
+|-status|p2a: Houndoom|slp|[from] move: Sleep Powder
+|move|p2b: Meganium|Light Screen|p2b: Meganium
+|-sidestart|p2: MK_Hero1|move: Light Screen
+|
+|upkeep
+|turn|2
+|
+|t:|1783056192
+|move|p1b: Liepard|Baton Pass|p1b: Liepard
+|
+|t:|1783056194
+|switch|p1b: Glalie|Glalie, L50, M, shiny|100/100|[from] Baton Pass
+|cant|p2a: Houndoom|slp
+|move|p1a: Venusaur|Sludge Bomb|p2b: Meganium
+|-supereffective|p2b: Meganium|1
+|-damage|p2b: Meganium|61/100
+|move|p2b: Meganium|Leech Seed|p1b: Glalie
+|-start|p1b: Glalie|move: Leech Seed
+|
+|-damage|p1b: Glalie|87/100|[from] Leech Seed|[of] p2b: Meganium
+|-heal|p2b: Meganium|71/100|[silent]
+|-ability|p1b: Glalie|Moody|boost
+|-boost|p1b: Glalie|def|2
+|-unboost|p1b: Glalie|atk|1
+|upkeep
+|turn|3
+|
+|t:|1783056210
+|move|p1b: Glalie|Protect|p1b: Glalie
+|-singleturn|p1b: Glalie|Protect
+|move|p2b: Meganium|Protect|p2b: Meganium
+|-singleturn|p2b: Meganium|Protect
+|-curestatus|p2a: Houndoom|slp|[msg]
+|move|p2a: Houndoom|Heat Wave|p1a: Venusaur|[spread] p1a
+|-activate|p1b: Glalie|move: Protect
+|-supereffective|p1a: Venusaur|1
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|-damage|p1b: Glalie|75/100|[from] Leech Seed|[of] p2b: Meganium
+|-heal|p2b: Meganium|81/100|[silent]
+|-ability|p1b: Glalie|Moody|boost
+|-boost|p1b: Glalie|spd|2
+|-unboost|p1b: Glalie|spa|1
+|upkeep
+|
+|t:|1783056222
+|switch|p1a: Empoleon|Empoleon, L50, F|100/100
+|turn|4
+|
+|t:|1783056232
+|detailschange|p1b: Glalie|Glalie-Mega, L50, M, shiny
+|-mega|p1b: Glalie|Glalie|Glalitite
+|move|p2b: Meganium|Helping Hand|p2a: Houndoom
+|-singleturn|p2a: Houndoom|Helping Hand|[of] p2b: Meganium
+|move|p2a: Houndoom|Heat Wave|p1b: Glalie|[spread] p1a,p1b
+|-supereffective|p1b: Glalie|1
+|-damage|p1a: Empoleon|69/100
+|-damage|p1b: Glalie|13/100
+|move|p1b: Glalie|Substitute|p1b: Glalie
+|-fail|p1b: Glalie|move: Substitute|[weak]
+|move|p1a: Empoleon|Snowscape|p1a: Empoleon
+|-weather|Snowscape
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1b: Glalie|1/100|[from] Leech Seed|[of] p2b: Meganium
+|-heal|p2b: Meganium|91/100|[silent]
+|upkeep
+|turn|5
+|
+|t:|1783056249
+|switch|p1b: Liepard|Liepard, L50, M|62/100
+|move|p2a: Houndoom|Heat Wave|p1b: Liepard|[spread] p1a,p1b
+|-damage|p1a: Empoleon|47/100
+|-damage|p1b: Liepard|28/100
+|move|p2b: Meganium|Leech Seed|p1a: Empoleon|[miss]
+|-miss|p2b: Meganium|p1a: Empoleon
+|move|p1a: Empoleon|Hydro Pump|p2a: Houndoom|[miss]
+|-miss|p1a: Empoleon|p2a: Houndoom
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1783056265
+|move|p2b: Meganium|Helping Hand|p2a: Houndoom
+|-singleturn|p2a: Houndoom|Helping Hand|[of] p2b: Meganium
+|move|p2a: Houndoom|Heat Wave|p1a: Empoleon|[spread] p1a,p1b
+|-damage|p1a: Empoleon|12/100
+|-damage|p1b: Liepard|0 fnt
+|faint|p1b: Liepard
+|move|p1a: Empoleon|Hydro Pump|p2a: Houndoom
+|-supereffective|p2a: Houndoom|1
+|-damage|p2a: Houndoom|19/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1783056267
+|switch|p1b: Glalie|Glalie-Mega, L50, M, shiny|1/100
+|turn|7
+|
+|t:|1783056279
+|move|p1b: Glalie|Protect|p1b: Glalie
+|-singleturn|p1b: Glalie|Protect
+|move|p2b: Meganium|Protect|p2b: Meganium
+|-singleturn|p2b: Meganium|Protect
+|move|p2a: Houndoom|Heat Wave|p1a: Empoleon|[spread] 
+|-activate|p1b: Glalie|move: Protect
+|-miss|p2a: Houndoom|p1a: Empoleon
+|move|p1a: Empoleon|Hydro Pump|p2a: Houndoom|[miss]
+|-miss|p1a: Empoleon|p2a: Houndoom
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1783056290
+|move|p2b: Meganium|Helping Hand|p2a: Houndoom
+|-singleturn|p2a: Houndoom|Helping Hand|[of] p2b: Meganium
+|move|p1b: Glalie|Protect|p1b: Glalie
+|-singleturn|p1b: Glalie|Protect
+|move|p1a: Empoleon|Protect|p1a: Empoleon
+|-singleturn|p1a: Empoleon|Protect
+|move|p2a: Houndoom|Heat Wave|p1a: Empoleon|[spread] 
+|-activate|p1a: Empoleon|move: Protect
+|-activate|p1b: Glalie|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-sideend|p2: MK_Hero1|move: Light Screen
+|upkeep
+|turn|9
+|
+|t:|1783056303
+|move|p2a: Houndoom|Heat Wave|p1a: Empoleon|[spread] p1a,p1b
+|-supereffective|p1b: Glalie|1
+|-damage|p1a: Empoleon|0 fnt
+|-damage|p1b: Glalie|0 fnt
+|faint|p1a: Empoleon
+|faint|p1b: Glalie
+|
+|win|MK_Hero1
+|l|☆GetSlagged
+|player|p1|

@@ -1,0 +1,210 @@
+|j|☆pokeopposition
+|j|☆msjefnije
+|html|pokeoppositionmsjefnije    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783195029
+|gametype|doubles
+|player|p1|pokeopposition|silver|1141
+|player|p2|msjefnije|101|1065
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Steelix, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Sinistcha, L50, shiny|
+|poke|p1|Rotom-Wash, L50|
+|poke|p2|Staraptor, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Metagross, L50|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Steelix||Steelixite|Sturdy|HighHorsepower,HeavySlam,WideGuard,Protect|Brave||M|||50|]Tyranitar||Tyranitarite|SandStream|KnockOff,DragonDance,RockSlide,Protect|Jolly||F|||50|]Incineroar||PasshoBerry|Intimidate|FakeOut,PartingShot,FlareBlitz,ThroatChop|Careful||M|||50|]Sneasler||WhiteHerb|Unburden|FakeOut,Protect,CloseCombat,DireClaw|Jolly||M|||50|]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,TrickRoom,RagePowder,Protect|Relaxed|||||50|]Rotom-Wash||Leftovers|Levitate|WillOWisp,HydroPump,Thunderbolt,LightScreen|Bold|||||50|
+|showteam|p2|Staraptor||Staraptite|Intimidate|CloseCombat,DualWingbeat,Roost,Protect|Adamant||M|||50|]Whimsicott||FocusSash|Prankster|Encore,Tailwind,Charm,DazzlingGleam|Timid||M|||50|]Metagross||Metagrossite|ClearBody|BulletPunch,PsychicFangs,Protect,IcePunch|Adamant|||||50|]Garchomp||LifeOrb|RoughSkin|Protect,DragonClaw,RockSlide,StompingTantrum|Adamant||F|||50|]Basculegion||MysticWater|Adaptability|AquaJet,FlipTurn,LastRespects,WaveCrash|Adamant||M|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,CloseCombat,DarkestLariat,FlareBlitz|Adamant||M|||50|
+|
+|t:|1783195041
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sinistcha|Sinistcha, L50, shiny|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Staraptor|Staraptor, L50, M|100/100
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Sinistcha|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Staraptor|atk|1
+|-unboost|p2b: Garchomp|atk|1
+|turn|1
+|
+|t:|1783195061
+|detailschange|p2a: Staraptor|Staraptor-Mega, L50, M
+|-mega|p2a: Staraptor|Staraptor|Staraptite
+|move|p1b: Incineroar|Fake Out|p2a: Staraptor
+|-damage|p2a: Staraptor|92/100
+|cant|p2a: Staraptor|flinch
+|move|p2b: Garchomp|Rock Slide|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1b: Incineroar|1
+|-damage|p1a: Sinistcha|83/100
+|-damage|p1b: Incineroar|71/100
+|-damage|p2b: Garchomp|90/100|[from] item: Life Orb
+|move|p1a: Sinistcha|Trick Room|p1a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p1a: Sinistcha
+|
+|upkeep
+|turn|2
+|
+|t:|1783195080
+|move|p1a: Sinistcha|Rage Powder|p1a: Sinistcha
+|-singleturn|p1a: Sinistcha|move: Rage Powder
+|move|p1b: Incineroar|Parting Shot|p2b: Garchomp
+|-unboost|p2b: Garchomp|atk|1
+|-unboost|p2b: Garchomp|spa|1
+|
+|t:|1783195084
+|switch|p1b: Tyranitar|Tyranitar, L50, F|100/100|[from] Parting Shot
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|move|p2b: Garchomp|Stomping Tantrum|p1a: Sinistcha
+|-resisted|p1a: Sinistcha|1
+|-damage|p1a: Sinistcha|73/100
+|-damage|p2b: Garchomp|80/100|[from] item: Life Orb
+|move|p2a: Staraptor|Dual Wingbeat|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha|1
+|-damage|p1a: Sinistcha|46/100
+|-enditem|p1a: Sinistcha|Sitrus Berry|[eat]
+|-heal|p1a: Sinistcha|70/100|[from] item: Sitrus Berry
+|-supereffective|p1a: Sinistcha|1
+|-damage|p1a: Sinistcha|46/100
+|-hitcount|p1a: Sinistcha|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sinistcha|39/100|[from] Sandstorm
+|-damage|p2a: Staraptor|86/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1783195112
+|move|p1a: Sinistcha|Rage Powder|p1a: Sinistcha
+|-singleturn|p1a: Sinistcha|move: Rage Powder
+|move|p1b: Tyranitar|Rock Slide|p2b: Garchomp|[spread] p2a,p2b
+|-resisted|p2b: Garchomp|1
+|-damage|p2a: Staraptor|54/100
+|-damage|p2b: Garchomp|65/100
+|move|p2b: Garchomp|Dragon Claw|p1a: Sinistcha
+|-damage|p1a: Sinistcha|15/100
+|-damage|p2b: Garchomp|56/100|[from] item: Life Orb
+|move|p2a: Staraptor|Close Combat|p1a: Sinistcha
+|-immune|p1a: Sinistcha
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sinistcha|9/100|[from] Sandstorm
+|-damage|p2a: Staraptor|48/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1783195135
+|move|p1a: Sinistcha|Matcha Gotcha|p2b: Garchomp|[spread] p2a,p2b
+|-resisted|p2a: Staraptor|1
+|-damage|p2a: Staraptor|33/100
+|-heal|p1a: Sinistcha|16/100|[from] drain|[of] p2a: Staraptor
+|-damage|p2b: Garchomp|30/100
+|-heal|p1a: Sinistcha|29/100|[from] drain|[of] p2b: Garchomp
+|-status|p2a: Staraptor|brn
+|move|p1b: Tyranitar|Rock Slide|p2a: Staraptor|[spread] p2a,p2b
+|-resisted|p2b: Garchomp|1
+|-damage|p2a: Staraptor|2/100 brn
+|-damage|p2b: Garchomp|15/100
+|move|p2b: Garchomp|Dragon Claw|p1a: Sinistcha
+|-crit|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|-damage|p2b: Garchomp|5/100|[from] item: Life Orb
+|cant|p2a: Staraptor|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Staraptor|0 fnt|[from] Sandstorm
+|faint|p2a: Staraptor
+|upkeep
+|
+|t:|1783195158
+|switch|p1a: Steelix|Steelix, L50, M|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|turn|5
+|
+|t:|1783195186
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Steelix|atk|1
+|-unboost|p1b: Tyranitar|atk|1
+|detailschange|p1a: Steelix|Steelix-Mega, L50, M
+|-mega|p1a: Steelix|Steelix|Steelixite
+|move|p1a: Steelix|High Horsepower|p2a: Incineroar
+|-supereffective|p2a: Incineroar|1
+|-damage|p2a: Incineroar|13/100
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|38/100|[from] item: Sitrus Berry
+|move|p1b: Tyranitar|Dragon Dance|p1b: Tyranitar
+|-boost|p1b: Tyranitar|atk|1
+|-boost|p1b: Tyranitar|spe|1
+|move|p2b: Garchomp|Stomping Tantrum|p1a: Steelix
+|-supereffective|p1a: Steelix|1
+|-damage|p1a: Steelix|69/100
+|-damage|p2b: Garchomp|0 fnt|[from] item: Life Orb
+|faint|p2b: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Incineroar|32/100|[from] Sandstorm
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1783195205
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|turn|6
+|
+|t:|1783195217
+|switch|p1a: Incineroar|Incineroar, L50, M|71/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Basculegion|atk|1
+|move|p1b: Tyranitar|Protect|p1b: Tyranitar
+|-singleturn|p1b: Tyranitar|Protect
+|move|p2b: Basculegion|Wave Crash|p1a: Incineroar
+|-supereffective|p1a: Incineroar|1
+|-enditem|p1a: Incineroar|Passho Berry|[eat]
+|-enditem|p1a: Incineroar|Passho Berry|[weaken]
+|-damage|p1a: Incineroar|14/100
+|-damage|p2b: Basculegion|80/100|[from] Recoil
+|move|p2a: Incineroar|Close Combat|p1b: Tyranitar
+|-activate|p1b: Tyranitar|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1783195261
+|move|p1a: Incineroar|Fake Out|p2a: Incineroar
+|-damage|p2a: Incineroar|22/100
+|move|p1b: Tyranitar|Knock Off|p2b: Basculegion
+|-supereffective|p2b: Basculegion|1
+|-damage|p2b: Basculegion|0 fnt
+|-enditem|p2b: Basculegion|Mystic Water|[from] move: Knock Off|[of] p1b: Tyranitar
+|faint|p2b: Basculegion
+|cant|p2a: Incineroar|flinch
+|
+|upkeep
+|turn|8
+|
+|t:|1783195276
+|move|p1b: Tyranitar|Rock Slide|p2a: Incineroar
+|-supereffective|p2a: Incineroar|1
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|win|pokeopposition

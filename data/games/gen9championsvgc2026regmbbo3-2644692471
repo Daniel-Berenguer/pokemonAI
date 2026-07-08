@@ -1,0 +1,160 @@
+|j|☆MessyBench
+|j|☆TeyVgc
+|html|MessyBenchTeyVgc    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783312884
+|gametype|doubles
+|player|p1|MessyBench|101|1201
+|player|p2|TeyVgc|rood|1301
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gengar, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Kommo-o, L50, M|
+|poke|p1|Drampa, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Garchomp, L50, M|
+|teampreview|4
+|showteam|p1|Gengar||Gengarite|CursedBody|Protect,ShadowBall,SludgeBomb,Disable|Timid||F|||50|]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,FreezeDry,Protect,Encore|Timid||M|||50|]Whimsicott||FairyFeather|Prankster|Tailwind,Moonblast,Encore,FakeTears|Bold||F|||50|]Kommo-o||Leftovers|Soundproof|BulkUp,BodyPress,Protect,BreakingSwipe|Jolly||M|||50|]Drampa||Drampanite|CloudNine|Protect,EarthPower,HyperVoice,DracoMeteor|Quiet||M|||50|]Farigiraf||ColburBerry|ArmorTail|Protect,TrickRoom,TwinBeam,HyperVoice|Modest||F|||50|
+|showteam|p2|Sneasler||WhiteHerb|Unburden|CloseCombat,GunkShot,Coaching,FakeOut|Jolly||F|||50|]Floette-Eternal||Floettite|FlowerVeil|CalmMind,Protect,Moonblast,DazzlingGleam|Modest||F|||50|]Sinistcha||ColburBerry|Hospitality|MatchaGotcha,Protect,RagePowder,TrickRoom|Bold|||||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,ThroatChop,PartingShot|Impish||M|||50|]Kingambit||ChopleBerry|Defiant|KowtowCleave,SuckerPunch,IronHead,Protect|Adamant||M|||50|]Garchomp||Garchompite|RoughSkin|DragonClaw,Earthquake,SwordsDance,Protect|Adamant||M|||50|
+|
+|t:|1783312909
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gengar|Gengar, L50, F|100/100
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|turn|1
+|
+|t:|1783312929
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|move|p2a: Sneasler|Gunk Shot|p1b: Ninetales
+|-supereffective|p1b: Ninetales|1
+|-enditem|p1b: Ninetales|Focus Sash
+|-damage|p1b: Ninetales|1/100
+|move|p1b: Ninetales|Blizzard|p2b: Kingambit|[spread] p2a,p2b
+|-resisted|p2b: Kingambit|1
+|-damage|p2a: Sneasler|53/100
+|-damage|p2b: Kingambit|85/100
+|move|p2b: Kingambit|Kowtow Cleave|p1a: Farigiraf
+|-supereffective|p1a: Farigiraf|1
+|-enditem|p1a: Farigiraf|Colbur Berry|[eat]
+|-enditem|p1a: Farigiraf|Colbur Berry|[weaken]
+|-damage|p1a: Farigiraf|55/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1783312944
+|move|p1b: Ninetales|Protect|p1b: Ninetales
+|-singleturn|p1b: Ninetales|Protect
+|move|p2a: Sneasler|Close Combat|p1b: Ninetales
+|-activate|p1b: Ninetales|move: Protect
+|move|p1a: Farigiraf|Twin Beam|p2a: Sneasler
+|-supereffective|p2a: Sneasler|2
+|-crit|p2a: Sneasler
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|-hitcount|p2: Sneasler|1
+|move|p2b: Kingambit|Kowtow Cleave|p1a: Farigiraf
+|-supereffective|p1a: Farigiraf|1
+|-crit|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|faint|p1a: Farigiraf
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1783312951
+|switch|p2a: Floette|Floette-Eternal, L50, F|100/100
+|switch|p1a: Kommo-o|Kommo-o, L50, M|100/100
+|turn|3
+|
+|t:|1783312967
+|switch|p1a: Gengar|Gengar, L50, F|100/100
+|detailschange|p2a: Floette|Floette-Mega, L50, F
+|-mega|p2a: Floette|Floette|Floettite
+|-ability|p2a: Floette|Fairy Aura
+|move|p2b: Kingambit|Sucker Punch||[still]
+|-fail|p2b: Kingambit
+|move|p1b: Ninetales|Encore|p2b: Kingambit
+|-start|p2b: Kingambit|Encore
+|move|p2a: Floette|Dazzling Gleam|p1a: Gengar|[spread] p1a,p1b
+|-resisted|p1a: Gengar|1
+|-damage|p1a: Gengar|63/100
+|-damage|p1b: Ninetales|0 fnt
+|-start|p2a: Floette|Disable|Dazzling Gleam|[from] ability: Cursed Body|[of] p1a: Gengar
+|faint|p1b: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1783312984
+|switch|p1b: Kommo-o|Kommo-o, L50, M|100/100
+|turn|4
+|
+|t:|1783313004
+|detailschange|p1a: Gengar|Gengar-Mega, L50, F
+|-mega|p1a: Gengar|Gengar|Gengarite
+|move|p1b: Kommo-o|Protect|p1b: Kommo-o
+|-singleturn|p1b: Kommo-o|Protect
+|move|p2b: Kingambit|Sucker Punch||[still]
+|-fail|p2b: Kingambit
+|move|p1a: Gengar|Disable|p2b: Kingambit
+|-start|p2b: Kingambit|Disable|Sucker Punch
+|move|p2a: Floette|Moonblast|p1b: Kommo-o
+|-activate|p1b: Kommo-o|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1783313052
+|move|p1a: Gengar|Sludge Bomb|p2a: Floette
+|-supereffective|p2a: Floette|1
+|-damage|p2a: Floette|19/100
+|move|p1b: Kommo-o|Body Press|p2b: Kingambit
+|-supereffective|p2b: Kingambit|2
+|-enditem|p2b: Kingambit|Chople Berry|[eat]
+|-enditem|p2b: Kingambit|Chople Berry|[weaken]
+|-damage|p2b: Kingambit|36/100
+|move|p2a: Floette|Moonblast|p1b: Kommo-o
+|-supereffective|p1b: Kommo-o|2
+|-damage|p1b: Kommo-o|0 fnt
+|faint|p1b: Kommo-o
+|-activate|p2b: Kingambit|move: Struggle
+|move|p2b: Kingambit|Struggle|p1a: Gengar
+|-damage|p1a: Gengar|30/100
+|-damage|p2b: Kingambit|11/100|[from] recoil
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1783313068
+|move|p1a: Gengar|Sludge Bomb|p2a: Floette
+|-supereffective|p2a: Floette|1
+|-damage|p2a: Floette|0 fnt
+|faint|p2a: Floette
+|-activate|p2b: Kingambit|move: Struggle
+|move|p2b: Kingambit|Struggle|p1a: Gengar
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|-damage|p2b: Kingambit|0 fnt|[from] recoil
+|faint|p2b: Kingambit
+|
+|win|TeyVgc

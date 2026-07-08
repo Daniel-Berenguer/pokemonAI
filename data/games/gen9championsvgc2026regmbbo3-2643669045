@@ -1,0 +1,122 @@
+|j|☆circuitosomador
+|j|☆gluttorn
+|html|circuitosomadorgluttorn    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783134817
+|gametype|doubles
+|player|p1|circuitosomador|norman|1134
+|player|p2|gluttorn|169|1138
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Rotom-Wash, L50|
+|poke|p1|Delphox, L50, F|
+|poke|p1|Kommo-o, L50, F|
+|poke|p2|Scrafty, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Vileplume, L50, F|
+|poke|p2|Lucario, L50, M|
+|teampreview|4
+|showteam|p1|Excadrill||FocusSash|SandRush|Earthquake,IronHead,HighHorsepower,Protect|Adamant||M|||50|]Tyranitar||Tyranitarite|SandStream|Crunch,RockSlide,Protect,IcePunch|Adamant||F|||50|]Corviknight||Leftovers|MirrorArmor|BraveBird,BulkUp,Roost,Tailwind|Adamant||F|||50|]Rotom-Wash||SitrusBerry|Levitate|Thunderbolt,HydroPump,WillOWisp,Protect|Bold|||||50|]Delphox||Delphoxite|Blaze|Psychic,HeatWave,NastyPlot,Protect|Timid||F|||50|]Kommo-o||ChoiceScarf|Soundproof|ClangingScales,DracoMeteor,AuraSphere,Flamethrower|Modest||F|||50|
+|showteam|p2|Scrafty||Scraftinite|Intimidate|FakeOut,KnockOff,DrainPunch,RockSlide|Brave||M|||50|]Torkoal||Charcoal|Drought|EarthPower,HeatWave,Eruption,Protect|Quiet||M|||50|]Farigiraf||MentalHerb|ArmorTail|Protect,HelpingHand,TrickRoom,Psychic|Calm||M|||50|]Hatterene||LifeOrb|MagicBounce|DazzlingGleam,Psychic,TrickRoom,Protect|Modest||F|||50|]Vileplume||FocusSash|Chlorophyll|AfterYou,Protect,EnergyBall,SludgeBomb|Timid||F|||50|]Lucario||Lucarionite|InnerFocus|ThunderPunch,BulletPunch,CloseCombat,Protect|Adamant||M|||50|
+|
+|t:|1783134861
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Corviknight|Corviknight, L50, F|100/100
+|switch|p1b: Delphox|Delphox, L50, F|100/100
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|switch|p2b: Vileplume|Vileplume, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by gluttorn)
+|
+|t:|1783134908
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|detailschange|p1b: Delphox|Delphox-Mega, L50, F
+|-mega|p1b: Delphox|Delphox|Delphoxite
+|move|p1b: Delphox|Psychic|p2b: Vileplume
+|-supereffective|p2b: Vileplume|1
+|-enditem|p2b: Vileplume|Focus Sash
+|-damage|p2b: Vileplume|1/100
+|move|p2b: Vileplume|After You|p2a: Torkoal
+|-activate|p2a: Torkoal|move: After You
+|move|p2a: Torkoal|Eruption|p1a: Tyranitar|[spread] p1a,p1b
+|-resisted|p1a: Tyranitar|1
+|-resisted|p1b: Delphox|1
+|-damage|p1a: Tyranitar|82/100
+|-damage|p1b: Delphox|72/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Delphox|66/100|[from] Sandstorm
+|-damage|p2b: Vileplume|0 fnt|[from] Sandstorm
+|-damage|p2a: Torkoal|93/100|[from] Sandstorm
+|faint|p2b: Vileplume
+|upkeep
+|
+|t:|1783134931
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|turn|2
+|
+|t:|1783134952
+|move|p2b: Farigiraf|Protect|p2b: Farigiraf
+|-singleturn|p2b: Farigiraf|Protect
+|move|p1b: Delphox|Heat Wave|p2b: Farigiraf|[spread] p2a
+|-activate|p2b: Farigiraf|move: Protect
+|-resisted|p2a: Torkoal|1
+|-damage|p2a: Torkoal|70/100
+|move|p1a: Tyranitar|Rock Slide|p2b: Farigiraf|[spread] p2a
+|-activate|p2b: Farigiraf|move: Protect
+|-supereffective|p2a: Torkoal|1
+|-damage|p2a: Torkoal|22/100
+|move|p2a: Torkoal|Earth Power|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar|1
+|-damage|p1a: Tyranitar|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Delphox|60/100|[from] Sandstorm
+|-damage|p2b: Farigiraf|93/100|[from] Sandstorm
+|-damage|p2a: Torkoal|15/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1783134973
+|move|p1b: Delphox|Heat Wave|p2a: Torkoal|[spread] p2a,p2b
+|-resisted|p2a: Torkoal|1
+|-damage|p2a: Torkoal|0 fnt
+|-damage|p2b: Farigiraf|63/100
+|faint|p2a: Torkoal
+|move|p1a: Tyranitar|Crunch|p2b: Farigiraf
+|-supereffective|p2b: Farigiraf|1
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Delphox|53/100|[from] Sandstorm
+|upkeep
+|
+|t:|1783134985
+|switch|p2a: Lucario|Lucario, L50, M|100/100
+|turn|4
+|
+|t:|1783134996
+|switch|p1a: Corviknight|Corviknight, L50, F|100/100
+|detailschange|p2a: Lucario|Lucario-Mega, L50, M
+|-mega|p2a: Lucario|Lucario|Lucarionite
+|move|p1b: Delphox|Heat Wave|p2a: Lucario
+|-supereffective|p2a: Lucario|1
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|
+|win|circuitosomador
+||circuitosomador is ready for game 2.

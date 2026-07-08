@@ -1,0 +1,320 @@
+|j|☆Beanybag
+|j|☆lox1sm
+|html|Beanybaglox1sm    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783081931
+|gametype|doubles
+|player|p1|Beanybag|2|1179
+|player|p2|lox1sm|veteran|1269
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ampharos, L50, F|
+|poke|p1|Lopunny, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Bellibolt, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Toxapex, L50, F|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Aerodactyl, L50, F|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Primarina, L50, M|
+|teampreview|4
+|showteam|p1|Ampharos||Ampharosite|Static|CottonGuard,ParabolicCharge,DragonPulse,Protect|Sassy||F|||50|]Lopunny||Lopunnite|Limber|FakeOut,CloseCombat,SwordsDance,BrutalSwing|Jolly||F|||50|]Grimmsnarl||SitrusBerry|Prankster|FakeOut,PartingShot,SpiritBreak,LightScreen|Brave||M|||50|]Bellibolt||ShucaBerry|Electromorphosis|Soak,Toxic,VoltSwitch,SlackOff|Relaxed||F|||50|]Sinistcha||FocusSash|Hospitality|MatchaGotcha,RagePowder,Protect,TrickRoom|Quiet|||||50|]Toxapex||Leftovers|Merciless|BanefulBunker,Stockpile,Recover,PoisonJab|Careful||F|||50|
+|showteam|p2|Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,SolarBeam,Protect|Modest||F|||50|]Aerodactyl||Aerodactylite|RockHead|RockSlide,IceFang,Tailwind,Protect|Jolly||F|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,RockSlide,Protect|Jolly||M|||50|]Kingambit||FocusSash|Defiant|KowtowCleave,SuckerPunch,IronHead,LowKick|Adamant||M|||50|]Farigiraf||ExpertBelt|ArmorTail|Psychic,DazzlingGleam,Thunderbolt,TrickRoom|Modest||M|||50|]Primarina||MysticWater|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|Modest||M|||50|
+|
+|t:|1783082084
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, L50, F|100/100
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|turn|1
+|
+|t:|1783082119
+|detailschange|p2a: Aerodactyl|Aerodactyl-Mega, L50, F
+|-mega|p2a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p1a: Grimmsnarl|Fake Out|p2a: Aerodactyl
+|-resisted|p2a: Aerodactyl|1
+|-damage|p2a: Aerodactyl|91/100
+|cant|p2a: Aerodactyl|flinch
+|move|p2b: Kingambit|Kowtow Cleave|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha|1
+|-crit|p1b: Sinistcha
+|-enditem|p1b: Sinistcha|Focus Sash
+|-damage|p1b: Sinistcha|1/100
+|move|p1b: Sinistcha|Trick Room|p1b: Sinistcha
+|-fieldstart|move: Trick Room|[of] p1b: Sinistcha
+|
+|upkeep
+|turn|2
+|
+|t:|1783082142
+|move|p1b: Sinistcha|Protect|p1b: Sinistcha
+|-singleturn|p1b: Sinistcha|Protect
+|move|p1a: Grimmsnarl|Parting Shot|p2a: Aerodactyl
+|-unboost|p2a: Aerodactyl|atk|1
+|-unboost|p2a: Aerodactyl|spa|1
+|
+|t:|1783082147
+|switch|p1a: Bellibolt|Bellibolt, L50, F|100/100|[from] Parting Shot
+|move|p2b: Kingambit|Iron Head|p1a: Bellibolt
+|-resisted|p1a: Bellibolt|1
+|-crit|p1a: Bellibolt
+|-damage|p1a: Bellibolt|75/100
+|-start|p1a: Bellibolt|Charge|Iron Head|[from] ability: Electromorphosis
+|move|p2a: Aerodactyl|Ice Fang|p1a: Bellibolt
+|-damage|p1a: Bellibolt|62/100
+|-start|p1a: Bellibolt|Charge|Ice Fang|[from] ability: Electromorphosis
+|
+|upkeep
+|turn|3
+|
+|t:|1783082166
+|move|p2a: Aerodactyl|Protect|p2a: Aerodactyl
+|-singleturn|p2a: Aerodactyl|Protect
+|move|p1a: Bellibolt|Soak|p2b: Kingambit
+|-start|p2b: Kingambit|typechange|Water
+|move|p1b: Sinistcha|Matcha Gotcha|p2b: Kingambit|[spread] p2b
+|-activate|p2a: Aerodactyl|move: Protect
+|-supereffective|p2b: Kingambit|1
+|-damage|p2b: Kingambit|18/100
+|-heal|p1b: Sinistcha|41/100|[from] drain|[of] p2b: Kingambit
+|move|p2b: Kingambit|Iron Head|p1b: Sinistcha
+|-damage|p1b: Sinistcha|12/100
+|
+|upkeep
+|turn|4
+|
+|t:|1783082198
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|move|p2b: Kingambit|Sucker Punch|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha|1
+|-damage|p1b: Sinistcha|0 fnt
+|faint|p1b: Sinistcha
+|move|p1a: Bellibolt|Soak|p2a: Farigiraf
+|-start|p2a: Farigiraf|typechange|Water
+|
+|upkeep
+|
+|t:|1783082203
+|switch|p1b: Toxapex|Toxapex, L50, F|100/100
+|turn|5
+|
+|t:|1783082226
+|switch|p2b: Garchomp|Garchomp, L50, M|100/100
+|move|p1a: Bellibolt|Toxic|p2a: Farigiraf
+|-status|p2a: Farigiraf|tox
+|move|p1b: Toxapex|Stockpile|p1b: Toxapex
+|-start|p1b: Toxapex|stockpile1
+|-boost|p1b: Toxapex|def|1
+|-boost|p1b: Toxapex|spd|1
+|move|p2a: Farigiraf|Psychic|p1b: Toxapex
+|-supereffective|p1b: Toxapex|1
+|-damage|p1b: Toxapex|68/100
+|
+|-heal|p1b: Toxapex|73/100|[from] item: Leftovers
+|-damage|p2a: Farigiraf|94/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1783082242
+|switch|p2a: Aerodactyl|Aerodactyl-Mega, L50, F|91/100
+|move|p1b: Toxapex|Baneful Bunker|p1b: Toxapex
+|-singleturn|p1b: Toxapex|move: Protect
+|move|p2b: Garchomp|Earthquake|p1b: Toxapex|[spread] p1a
+|-activate|p1b: Toxapex|move: Protect
+|-immune|p2a: Aerodactyl
+|-supereffective|p1a: Bellibolt|1
+|-enditem|p1a: Bellibolt|Shuca Berry|[eat]
+|-enditem|p1a: Bellibolt|Shuca Berry|[weaken]
+|-damage|p1a: Bellibolt|31/100
+|-start|p1a: Bellibolt|Charge|Earthquake|[from] ability: Electromorphosis
+|-damage|p2b: Garchomp|90/100|[from] item: Life Orb
+|move|p1a: Bellibolt|Soak|p2b: Garchomp
+|-start|p2b: Garchomp|typechange|Water
+|
+|-heal|p1b: Toxapex|79/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1783082278
+|move|p2a: Aerodactyl|Rock Slide|p1a: Bellibolt|[spread] p1a,p1b
+|-damage|p1a: Bellibolt|13/100
+|-damage|p1b: Toxapex|64/100
+|-start|p1a: Bellibolt|Charge|Rock Slide|[from] ability: Electromorphosis
+|move|p2b: Garchomp|Earthquake|p1a: Bellibolt|[spread] p1a,p1b
+|-immune|p2a: Aerodactyl
+|-supereffective|p1a: Bellibolt|1
+|-supereffective|p1b: Toxapex|1
+|-damage|p1a: Bellibolt|0 fnt
+|-damage|p1b: Toxapex|24/100
+|faint|p1a: Bellibolt
+|-damage|p2b: Garchomp|80/100|[from] item: Life Orb
+|move|p1b: Toxapex|Recover|p1b: Toxapex
+|-heal|p1b: Toxapex|75/100
+|
+|-heal|p1b: Toxapex|80/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783082282
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|8
+|
+|t:|1783082306
+|switch|p2b: Farigiraf|Farigiraf, L50, M|94/100 tox
+|move|p1a: Grimmsnarl|Fake Out||[still]
+|cant|p2b: Farigiraf|ability: Armor Tail|Fake Out|[of] p1a: Grimmsnarl
+|move|p2a: Aerodactyl|Rock Slide|p1b: Toxapex|[spread] p1a,p1b
+|-damage|p1a: Grimmsnarl|68/100
+|-damage|p1b: Toxapex|66/100
+|move|p1b: Toxapex|Poison Jab|p2b: Farigiraf
+|-crit|p2b: Farigiraf
+|-damage|p2b: Farigiraf|65/100 tox
+|
+|-heal|p1b: Toxapex|72/100|[from] item: Leftovers
+|-damage|p2b: Farigiraf|59/100 tox|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1783082332
+|switch|p2b: Kingambit|Kingambit, L50, M|18/100
+|move|p2a: Aerodactyl|Rock Slide|p1a: Grimmsnarl|[spread] p1a,p1b
+|-damage|p1a: Grimmsnarl|37/100
+|-damage|p1b: Toxapex|57/100
+|-enditem|p1a: Grimmsnarl|Sitrus Berry|[eat]
+|-heal|p1a: Grimmsnarl|61/100|[from] item: Sitrus Berry
+|move|p1a: Grimmsnarl|Spirit Break|p2b: Kingambit
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|move|p1b: Toxapex|Stockpile|p1b: Toxapex
+|-start|p1b: Toxapex|stockpile2
+|-boost|p1b: Toxapex|def|1
+|-boost|p1b: Toxapex|spd|1
+|
+|-heal|p1b: Toxapex|63/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783082357
+|switch|p2b: Farigiraf|Farigiraf, L50, M|59/100 tox
+|turn|10
+|
+|t:|1783082376
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: Beanybag|move: Light Screen
+|move|p2a: Aerodactyl|Rock Slide|p1a: Grimmsnarl|[spread] p1a,p1b
+|-damage|p1a: Grimmsnarl|28/100
+|-damage|p1b: Toxapex|52/100
+|move|p2b: Farigiraf|Dazzling Gleam|p1b: Toxapex|[spread] p1a,p1b
+|-supereffective|p1a: Grimmsnarl|1
+|-resisted|p1b: Toxapex|1
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p1b: Toxapex|50/100g
+|faint|p1a: Grimmsnarl
+|move|p1b: Toxapex|Recover|p1b: Toxapex
+|-heal|p1b: Toxapex|100/100
+|
+|-damage|p2b: Farigiraf|53/100 tox|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1783082387
+|move|p2a: Aerodactyl|Rock Slide|p1b: Toxapex
+|-damage|p1b: Toxapex|84/100
+|move|p2b: Farigiraf|Psychic|p1b: Toxapex
+|-supereffective|p1b: Toxapex|1
+|-damage|p1b: Toxapex|59/100
+|cant|p1b: Toxapex|flinch
+|
+|-heal|p1b: Toxapex|64/100|[from] item: Leftovers
+|-damage|p2b: Farigiraf|42/100 tox|[from] psn
+|upkeep
+|turn|12
+|
+|t:|1783082399
+|move|p1b: Toxapex|Baneful Bunker|p1b: Toxapex
+|-singleturn|p1b: Toxapex|move: Protect
+|move|p2a: Aerodactyl|Rock Slide|p1b: Toxapex
+|-activate|p1b: Toxapex|move: Protect
+|move|p2b: Farigiraf|Psychic|p1b: Toxapex
+|-activate|p1b: Toxapex|move: Protect
+|
+|-heal|p1b: Toxapex|70/100|[from] item: Leftovers
+|-damage|p2b: Farigiraf|24/100 tox|[from] psn
+|upkeep
+|turn|13
+|
+|t:|1783082413
+|switch|p2b: Garchomp|Garchomp, L50, M|80/100
+|move|p2a: Aerodactyl|Rock Slide|p1b: Toxapex
+|-damage|p1b: Toxapex|55/100
+|cant|p1b: Toxapex|flinch
+|
+|-heal|p1b: Toxapex|61/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1783082422
+|move|p1b: Toxapex|Baneful Bunker|p1b: Toxapex
+|-singleturn|p1b: Toxapex|move: Protect
+|move|p2a: Aerodactyl|Rock Slide|p1b: Toxapex
+|-activate|p1b: Toxapex|move: Protect
+|move|p2b: Garchomp|Earthquake|p1b: Toxapex|[spread] 
+|-activate|p1b: Toxapex|move: Protect
+|-immune|p2a: Aerodactyl
+|
+|-heal|p1b: Toxapex|66/100|[from] item: Leftovers
+|-sideend|p1: Beanybag|move: Light Screen
+|upkeep
+|turn|15
+|
+|t:|1783082425
+|move|p2a: Aerodactyl|Rock Slide|p1b: Toxapex
+|-damage|p1b: Toxapex|51/100
+|move|p2b: Garchomp|Earthquake|p1b: Toxapex|[spread] p1b
+|-immune|p2a: Aerodactyl
+|-supereffective|p1b: Toxapex|1
+|-damage|p1b: Toxapex|12/100
+|-damage|p2b: Garchomp|70/100|[from] item: Life Orb
+|cant|p1b: Toxapex|flinch
+|
+|-heal|p1b: Toxapex|17/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|c|☆lox1sm|jesus
+|
+|t:|1783082440
+|move|p1b: Toxapex|Baneful Bunker|p1b: Toxapex
+|-singleturn|p1b: Toxapex|move: Protect
+|move|p2a: Aerodactyl|Rock Slide|p1b: Toxapex
+|-activate|p1b: Toxapex|move: Protect
+|move|p2b: Garchomp|Earthquake|p1b: Toxapex|[spread] 
+|-activate|p1b: Toxapex|move: Protect
+|-immune|p2a: Aerodactyl
+|
+|-heal|p1b: Toxapex|23/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|c|☆lox1sm|it's toasted cmon man
+|
+|t:|1783082451
+|move|p2a: Aerodactyl|Rock Slide|p1b: Toxapex
+|-damage|p1b: Toxapex|9/100
+|move|p2b: Garchomp|Earthquake|p1b: Toxapex|[spread] p1b
+|-immune|p2a: Aerodactyl
+|-supereffective|p1b: Toxapex|1
+|-damage|p1b: Toxapex|0 fnt
+|faint|p1b: Toxapex
+|-damage|p2b: Garchomp|61/100|[from] item: Life Orb
+|
+|win|lox1sm
+|raw|Beanybag's rating: 1179 → 1160(-19 for losing)
+|raw|lox1sm's rating: 1269 → 1288(+19 for winning)

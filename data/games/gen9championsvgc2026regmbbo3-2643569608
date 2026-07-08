@@ -1,0 +1,162 @@
+|j|☆bighamsterbaseball
+|j|☆jahose
+|html|bighamsterbaseballjahose    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783117849
+|gametype|doubles
+|player|p1|bighamsterbaseball|pokemaniac|1149
+|player|p2|jahose|lucas-gen4pt|1057
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pyroar, L50, M|
+|poke|p1|Scrafty, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Venusaur, L50, M|
+|poke|p1|Mamoswine, L50, M|
+|poke|p2|Aerodactyl, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Sylveon, L50, F|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|showteam|p1|Pyroar||Pyroarite|Unnerve|HeatWave,Overheat,Yawn,Protect|Timid||M|||50|]Scrafty||Scraftinite|Intimidate|FakeOut,DrainPunch,KnockOff,IcePunch|Adamant||F|||50|]Torkoal||HeatRock|Drought|Eruption,WeatherBall,HelpingHand,Protect|Quiet||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,Thunderbolt,TrickRoom,Protect|Quiet||F|||50|]Venusaur||LifeOrb|Chlorophyll|EnergyBall,SludgeBomb,EarthPower,Protect|Modest||M|||50|]Mamoswine||FocusSash|Oblivious|IceShard,HighHorsepower,RockSlide,Protect|Adamant||M|||50|
+|showteam|p2|Aerodactyl||Aerodactylite|Unnerve|IceFang,RockSlide,Tailwind,DualWingbeat|Jolly||F|||50|]Kingambit||FocusSash|Defiant|SuckerPunch,IronHead,LowKick,KowtowCleave|Adamant||M|||50|]Charizard||CharizarditeY|Blaze|WeatherBall,HeatWave,SolarBeam,Protect|Modest||F|||50|]Sylveon||FairyFeather|Pixilate|Protect,QuickAttack,HyperVoice,HyperBeam|Modest||F|||50|]Garchomp||LifeOrb|RoughSkin|StompingTantrum,DragonClaw,Earthquake,Protect|Jolly||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,TrickRoom,GrassKnot,Thunderbolt|Modest||M|||50|
+|
+|t:|1783117904
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pyroar|Pyroar, L50, M|100/100
+|switch|p1b: Scrafty|Scrafty, L50, F|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|-ability|p1a: Pyroar|Unnerve
+|-ability|p1b: Scrafty|Intimidate|boost
+|-unboost|p2a: Farigiraf|atk|1
+|-unboost|p2b: Kingambit|atk|1
+|-ability|p2b: Kingambit|Defiant|boost
+|-boost|p2b: Kingambit|atk|2
+|turn|1
+|
+|t:|1783117950
+|switch|p2b: Sylveon|Sylveon, L50, F|100/100
+|move|p1a: Pyroar|Yawn|p2b: Sylveon
+|-start|p2b: Sylveon|move: Yawn|[of] p1a: Pyroar
+|move|p2a: Farigiraf|Psychic|p1a: Pyroar
+|-damage|p1a: Pyroar|41/100
+|move|p1b: Scrafty|Knock Off|p2a: Farigiraf
+|-supereffective|p2a: Farigiraf|1
+|-damage|p2a: Farigiraf|11/100
+|-enditem|p2a: Farigiraf|Sitrus Berry|[from] move: Knock Off|[of] p1b: Scrafty
+|
+|upkeep
+|turn|2
+|
+|t:|1783117981
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|detailschange|p1a: Pyroar|Pyroar-Mega, L50, M
+|-mega|p1a: Pyroar|Pyroar|Pyroarite
+|move|p1a: Pyroar|Heat Wave|p2a: Farigiraf|[spread] p2a,p2b
+|-damage|p2a: Farigiraf|0 fnt
+|-damage|p2b: Sylveon|32/100
+|faint|p2a: Farigiraf
+|move|p2b: Sylveon|Hyper Voice|p1a: Pyroar|[spread] p1a,p1b
+|-resisted|p1a: Pyroar|1
+|-resisted|p1b: Torkoal|1
+|-damage|p1a: Pyroar|11/100
+|-damage|p1b: Torkoal|67/100
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2b: Sylveon|move: Yawn|[silent]
+|-status|p2b: Sylveon|slp
+|upkeep
+|
+|t:|1783117995
+|switch|p2a: Charizard|Charizard, L50, F|100/100
+|turn|3
+|
+|t:|1783118018
+|move|p1b: Torkoal|Helping Hand|p1a: Pyroar
+|-singleturn|p1a: Pyroar|Helping Hand|[of] p1b: Torkoal
+|cant|p2b: Sylveon|slp
+|move|p1a: Pyroar|Heat Wave|p2a: Charizard|[spread] p2a,p2b
+|-resisted|p2a: Charizard|1
+|-damage|p2a: Charizard|20/100y
+|-damage|p2b: Sylveon|0 fnt
+|faint|p2b: Sylveon
+|move|p2a: Charizard|Heat Wave|p1b: Torkoal|[spread] p1a,p1b
+|-resisted|p1a: Pyroar|1
+|-resisted|p1b: Torkoal|1
+|-damage|p1a: Pyroar|0 fnt
+|-damage|p1b: Torkoal|24/100
+|faint|p1a: Pyroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783118036
+|switch|p1a: Mamoswine|Mamoswine, L50, M|100/100
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|turn|4
+|
+|t:|1783118057
+|move|p1a: Mamoswine|Protect|p1a: Mamoswine
+|-singleturn|p1a: Mamoswine|Protect
+|move|p1b: Torkoal|Protect|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Protect
+|move|p2b: Kingambit|Sucker Punch||[still]
+|-fail|p2b: Kingambit
+|move|p2a: Charizard|Weather Ball|p1a: Mamoswine
+|-activate|p1a: Mamoswine|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1783118093
+|move|p1a: Mamoswine|Ice Shard|p2a: Charizard
+|-damage|p2a: Charizard|0 fnt
+|faint|p2a: Charizard
+|move|p2b: Kingambit|Sucker Punch|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783118098
+|switch|p1b: Scrafty|Scrafty, L50, F|100/100
+|-ability|p1b: Scrafty|Intimidate|boost
+|-unboost|p2b: Kingambit|atk|1
+|-ability|p2b: Kingambit|Defiant|boost
+|-boost|p2b: Kingambit|atk|2
+|turn|6
+|
+|t:|1783118110
+|move|p1b: Scrafty|Fake Out|p2b: Kingambit
+|-resisted|p2b: Kingambit|1
+|-damage|p2b: Kingambit|95/100
+|move|p1a: Mamoswine|High Horsepower|p2b: Kingambit
+|-supereffective|p2b: Kingambit|1
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|
+|win|bighamsterbaseball
+|inactive|bighamsterbaseball has 30 seconds to confirm battle start!
+|inactive|jahose has 30 seconds to confirm battle start!
+|l|☆jahose
+|player|p2|
+||bighamsterbaseball is ready for game 2.
+||jahose is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆bighamsterbaseball
+|player|p1|
+|j|☆bighamsterbaseball
+|player|p1|bighamsterbaseball|pokemaniac|

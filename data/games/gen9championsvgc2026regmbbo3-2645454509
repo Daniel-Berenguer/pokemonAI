@@ -1,0 +1,181 @@
+|j|☆Xeroxyx
+|j|☆Sculked
+|html|XeroxyxSculked    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783438408
+|gametype|doubles
+|player|p1|Xeroxyx|hilbert|
+|player|p2|Sculked|will|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Whimsicott, L50, M|
+|poke|p2|Blastoise, L50, F|
+|poke|p2|Meowstic, L50, M|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Farigiraf, L50, M, shiny|
+|poke|p2|Staraptor, L50, M, shiny|
+|teampreview|4
+|showteam|p1|Gholdengo||SpellTag|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect|Modest|||||50|]Incineroar||SitrusBerry|Intimidate|PartingShot,FlareBlitz,ThroatChop,FakeOut|Impish||M|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,AquaJet,FlipTurn|Jolly||M|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,RockSlide,Protect|Jolly||F|||50|]Charizard||CharizarditeY|Blaze|HeatWave,SolarBeam,WeatherBall,Protect|Modest||F|||50|]Whimsicott||FocusSash|Prankster|Tailwind,Encore,Moonblast,Protect|Timid||M|||50|
+|showteam|p2|Blastoise||WhiteHerb|RainDish|ShellSmash,TerrainPulse,AuraSphere,Protect|Modest||F|||50|]Meowstic||BrightPowder|Prankster|PsychicTerrain,ExpandingForce,BatonPass,CalmMind|Modest||M|||50|]Raichu||RaichuniteY|LightningRod|ZapCannon,Discharge,Protect,FocusBlast|Bold||M|||50|]Dragonite||LifeOrb|Multiscale|IceSpinner,DragonDance,ExtremeSpeed,Earthquake|Jolly||F|||50|]Farigiraf||SitrusBerry|CudChew|PsychicTerrain,EnergyBall,ExpandingForce,Wish|Bold||M|||50|]Staraptor||BlackBelt|Intimidate|CloseCombat,Roost,SteelWing,BlazeKick|Jolly||M|||50|
+|c|☆Xeroxyx|glhf!
+|
+|t:|1783438469
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Meowstic|Meowstic, L50, M|100/100
+|switch|p2b: Ryu|Blastoise, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Meowstic|atk|1
+|-unboost|p2b: Ryu|atk|1
+|-enditem|p2b: Ryu|White Herb
+|-clearnegativeboost|p2b: Ryu|[silent]
+|turn|1
+|
+|t:|1783438493
+|move|p1a: Incineroar|Fake Out|p2b: Ryu
+|-damage|p2b: Ryu|89/100
+|move|p2a: Meowstic|Calm Mind|p2a: Meowstic
+|-boost|p2a: Meowstic|spa|1
+|-boost|p2a: Meowstic|spd|1
+|move|p1b: Basculegion|Flip Turn|p2a: Meowstic
+|-damage|p2a: Meowstic|59/100
+|
+|t:|1783438505
+|switch|p1b: Charizard|Charizard, L50, F|100/100|[from] Flip Turn
+|cant|p2b: Ryu|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1783438526
+|detailschange|p1b: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p1b: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|move|p1b: Charizard|Protect|p1b: Charizard
+|-singleturn|p1b: Charizard|Protect
+|move|p2a: Meowstic|Psychic Terrain|p2a: Meowstic
+|-fieldstart|move: Psychic Terrain
+|move|p2b: Ryu|Shell Smash|p2b: Ryu
+|-unboost|p2b: Ryu|def|1
+|-unboost|p2b: Ryu|spd|1
+|-boost|p2b: Ryu|atk|2
+|-boost|p2b: Ryu|spa|2
+|-boost|p2b: Ryu|spe|2
+|move|p1a: Incineroar|Throat Chop|p2a: Meowstic
+|-supereffective|p2a: Meowstic|1
+|-damage|p2a: Meowstic|0 fnt
+|faint|p2a: Meowstic
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783438544
+|switch|p2a: Mocha|Staraptor, L50, M, shiny|100/100
+|-ability|p2a: Mocha|Intimidate|boost
+|-unboost|p1a: Incineroar|atk|1
+|-unboost|p1b: Charizard|atk|1
+|turn|3
+|
+|t:|1783438562
+|move|p2b: Ryu|Terrain Pulse|p1b: Charizard
+|-damage|p1b: Charizard|28/100
+|move|p2a: Mocha|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|22/100
+|-unboost|p2a: Mocha|def|1
+|-unboost|p2a: Mocha|spd|1
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|47/100|[from] item: Sitrus Berry
+|move|p1b: Charizard|Solar Beam||[still]
+|-prepare|p1b: Charizard|Solar Beam
+|-anim|p1b: Charizard|Solar Beam|p2b: Ryu
+|-supereffective|p2b: Ryu|1
+|-damage|p2b: Ryu|0 fnt
+|faint|p2b: Ryu
+|move|p1a: Incineroar|Parting Shot|p2a: Mocha
+|-unboost|p2a: Mocha|atk|1
+|-unboost|p2a: Mocha|spa|1
+|
+|t:|1783438582
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783438586
+|switch|p2b: Rhubarb|Farigiraf, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1783438602
+|move|p1b: Charizard|Protect|p1b: Charizard
+|-singleturn|p1b: Charizard|Protect
+|move|p1a: Basculegion|Flip Turn|p2a: Mocha
+|-crit|p2a: Mocha
+|-damage|p2a: Mocha|45/100
+|
+|t:|1783438609
+|switch|p1a: Incineroar|Incineroar, L50, M|47/100|[from] Flip Turn
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Mocha|atk|1
+|-unboost|p2b: Rhubarb|atk|1
+|move|p2a: Mocha|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|6/100
+|-unboost|p2a: Mocha|def|1
+|-unboost|p2a: Mocha|spd|1
+|move|p2b: Rhubarb|Expanding Force|p1b: Charizard|[spread] 
+|-activate|p1b: Charizard|move: Protect
+|-immune|p1a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1783438645
+|move|p2a: Mocha|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2a: Mocha|def|1
+|-unboost|p2a: Mocha|spd|1
+|faint|p1a: Incineroar
+|move|p1b: Charizard|Heat Wave|p2b: Rhubarb|[spread] p2a,p2b
+|-damage|p2a: Mocha|0 fnt
+|-damage|p2b: Rhubarb|49/100
+|-enditem|p2b: Rhubarb|Sitrus Berry|[eat]
+|-heal|p2b: Rhubarb|74/100|[from] item: Sitrus Berry
+|faint|p2a: Mocha
+|move|p2b: Rhubarb|Expanding Force|p1b: Charizard
+|-damage|p1b: Charizard|0 fnt
+|faint|p1b: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783438658
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|turn|6
+|
+|t:|1783438674
+|move|p1a: Basculegion|Wave Crash|p2b: Rhubarb
+|-damage|p2b: Rhubarb|42/100
+|-damage|p1a: Basculegion|87/100|[from] Recoil
+|move|p1b: Garchomp|Dragon Claw|p2b: Rhubarb
+|-damage|p2b: Rhubarb|0 fnt
+|faint|p2b: Rhubarb
+|-damage|p1b: Garchomp|90/100|[from] item: Life Orb
+|
+|win|Xeroxyx
+|c|☆Xeroxyx|ggwp

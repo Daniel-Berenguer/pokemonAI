@@ -1,0 +1,222 @@
+|j|☆Jabby Wabby
+|j|☆Randompanda2
+|html|Jabby WabbyRandompanda2    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1782997698
+|gametype|doubles
+|player|p1|Jabby Wabby|morty|
+|player|p2|Randompanda2|giovanni|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Scrafty, L50, F, shiny|
+|poke|p1|Glimmora, L50, M, shiny|
+|poke|p1|Chandelure, L50, F, shiny|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Mimikyu, L50, M, shiny|
+|poke|p1|Meowstic, L50, M, shiny|
+|poke|p2|Gardevoir, L50, M|
+|poke|p2|Scizor, L50, F|
+|poke|p2|Ditto, L50|
+|poke|p2|Gyarados, L50, M|
+|poke|p2|Umbreon, L50, M|
+|poke|p2|Chandelure, L50, F|
+|teampreview|4
+|showteam|p1|Scrafty||LifeOrb|Intimidate|FirePunch,IronHead,DrainPunch,KnockOff|Adamant||F|||50|]Glimmora||Glimmoranite|ToxicDebris|EarthPower,SludgeBomb,PowerGem,SpikyShield|Timid||M|||50|]Chandelure||Chandelurite|FlashFire|HeatWave,ShadowBall,Protect,Overheat|Modest||F|||50|]Sinistcha||Leftovers|Hospitality|MatchaGotcha,RagePowder,Protect,LifeDew|Bold|||||50|]Mimikyu||ChoiceScarf|Disguise|ShadowClaw,WillOWisp,DestinyBond,DrainPunch|Adamant||M|||50|]Meowstic||LightClay|Prankster|FakeOut,LightScreen,Reflect,Psychic|Bold||M|||50|
+|showteam|p2|Gardevoir||Gardevoirite|Synchronize|DrainingKiss,HyperVoice,Psychic,Protect|Timid||M|||50|]Scizor||LifeOrb|Technician|SwordsDance,BulletPunch,BugBite,DualWingbeat|Adamant||F|||50|]Ditto||ChoiceScarf|Imposter|Transform|Bold|||||50|]Gyarados||FocusSash|Intimidate|DragonDance,Earthquake,Waterfall,Outrage|Adamant||M|||50|]Umbreon||Leftovers|Synchronize|FoulPlay,Moonlight,Toxic,Reflect|Calm||M|||50|]Chandelure||ExpertBelt|FlashFire|Flamethrower,Curse,Hex,Trailblaze|Hasty||F|||50|
+|
+|t:|1782997755
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Scrafty|Scrafty, L50, F, shiny|100/100
+|switch|p1b: Meowstic|Meowstic, L50, M, shiny|100/100
+|switch|p2a: Ditto|Ditto, L50|100/100
+|switch|p2b: Chandelure|Chandelure, L50, F|100/100
+|-transform|p2a: Ditto|p1b: Meowstic|[from] ability: Imposter
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Ditto|atk|1
+|-unboost|p2b: Chandelure|atk|1
+|turn|1
+|
+|t:|1782997781
+|move|p2a: Ditto|Fake Out|p1a: Scrafty
+|-damage|p1a: Scrafty|96/100
+|move|p1b: Meowstic|Fake Out|p2a: Ditto
+|-damage|p2a: Ditto|94/100
+|move|p2b: Chandelure|Curse|p1b: Meowstic
+|-start|p1b: Meowstic|Curse|[of] p2b: Chandelure
+|-damage|p2b: Chandelure|50/100g
+|cant|p1a: Scrafty|flinch
+|
+|-damage|p1b: Meowstic|75/100|[from] Curse
+|upkeep
+|turn|2
+|
+|t:|1782997798
+|switch|p2a: Scizor|Scizor, L50, F|100/100
+|switch|p2b: Gyarados|Gyarados, L50, M|100/100
+|-ability|p2b: Gyarados|Intimidate|boost
+|-unboost|p1a: Scrafty|atk|1
+|-unboost|p1b: Meowstic|atk|1
+|move|p1b: Meowstic|Light Screen|p1b: Meowstic
+|-sidestart|p1: Jabby Wabby|move: Light Screen
+|move|p1a: Scrafty|Knock Off|p2b: Gyarados
+|-damage|p2b: Gyarados|53/100
+|-enditem|p2b: Gyarados|Focus Sash|[from] move: Knock Off|[of] p1a: Scrafty
+|-damage|p1a: Scrafty|86/100|[from] item: Life Orb
+|
+|-damage|p1b: Meowstic|50/100g|[from] Curse
+|upkeep
+|turn|3
+|
+|t:|1782997831
+|move|p1b: Meowstic|Reflect|p1b: Meowstic
+|-sidestart|p1: Jabby Wabby|Reflect
+|move|p2b: Gyarados|Dragon Dance|p2b: Gyarados
+|-boost|p2b: Gyarados|atk|1
+|-boost|p2b: Gyarados|spe|1
+|move|p2a: Scizor|Dual Wingbeat|p1a: Scrafty
+|-supereffective|p1a: Scrafty|1
+|-damage|p1a: Scrafty|48/100
+|-supereffective|p1a: Scrafty|1
+|-damage|p1a: Scrafty|13/100
+|-hitcount|p1a: Scrafty|2
+|-damage|p2a: Scizor|90/100|[from] item: Life Orb
+|move|p1a: Scrafty|Fire Punch|p2a: Scizor
+|-supereffective|p2a: Scizor|2
+|-damage|p2a: Scizor|14/100
+|-damage|p1a: Scrafty|4/100|[from] item: Life Orb
+|
+|-damage|p1b: Meowstic|25/100|[from] Curse
+|upkeep
+|turn|4
+|
+|t:|1782997871
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|-heal|p1a: Scrafty|29/100|[from] ability: Hospitality|[of] p1b: Sinistcha
+|move|p2a: Scizor|Bullet Punch|p1b: Sinistcha
+|-damage|p1b: Sinistcha|79/100
+|-damage|p2a: Scizor|4/100|[from] item: Life Orb
+|move|p2b: Gyarados|Waterfall|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|
+|-heal|p1b: Sinistcha|85/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1782997884
+|switch|p1a: Meowstic|Meowstic, L50, M, shiny|25/100
+|turn|5
+|
+|t:|1782997900
+|move|p1a: Meowstic|Fake Out|p2b: Gyarados
+|-damage|p2b: Gyarados|47/100
+|cant|p2b: Gyarados|flinch
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Scizor|[spread] p2a,p2b
+|-resisted|p2a: Scizor|2
+|-damage|p2a: Scizor|0 fnt
+|-heal|p1b: Sinistcha|87/100|[from] drain|[of] p2a: Scizor
+|-damage|p2b: Gyarados|22/100
+|-heal|p1b: Sinistcha|100/100|[from] drain|[of] p2b: Gyarados
+|-status|p2b: Gyarados|brn
+|faint|p2a: Scizor
+|
+|-damage|p2b: Gyarados|16/100 brn|[from] brn
+|upkeep
+|
+|t:|1782997917
+|switch|p2a: Ditto|Ditto, L50|94/100
+|-transform|p2a: Ditto|p1b: Sinistcha|[from] ability: Imposter
+|-heal|p2b: Gyarados|40/100 brn|[from] ability: Hospitality|[of] p2a: Ditto
+|turn|6
+|
+|t:|1782997941
+|move|p2b: Gyarados|Earthquake|p1b: Sinistcha|[spread] p2a,p1a,p1b
+|-resisted|p2a: Ditto|1
+|-resisted|p1b: Sinistcha|1
+|-damage|p2a: Ditto|87/100
+|-damage|p1a: Meowstic|14/100
+|-damage|p1b: Sinistcha|95/100
+|move|p2a: Ditto|Life Dew|p2a: Ditto|[spread] p2a,p2b
+|-heal|p2a: Ditto|100/100
+|-heal|p2b: Gyarados|66/100 brn
+|move|p1a: Meowstic|Psychic|p2b: Gyarados
+|-damage|p2b: Gyarados|39/100 brn
+|move|p1b: Sinistcha|Matcha Gotcha|p2b: Gyarados|[spread] p2a,p2b
+|-resisted|p2a: Ditto|1
+|-damage|p2a: Ditto|82/100
+|-heal|p1b: Sinistcha|100/100|[from] drain|[of] p2a: Ditto
+|-damage|p2b: Gyarados|12/100 brn
+|
+|-damage|p2b: Gyarados|7/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1782997967
+|move|p2b: Gyarados|Waterfall|p1a: Meowstic
+|-damage|p1a: Meowstic|0 fnt
+|faint|p1a: Meowstic
+|move|p2a: Ditto|Life Dew|p2a: Ditto|[spread] p2a,p2b
+|-heal|p2a: Ditto|100/100
+|-heal|p2b: Gyarados|32/100 brn
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Ditto|[spread] p2a,p2b
+|-resisted|p2a: Ditto|1
+|-damage|p2a: Ditto|83/100
+|-damage|p2b: Gyarados|7/100 brn
+|
+|-damage|p2b: Gyarados|1/100 brn|[from] brn
+|upkeep
+|
+|t:|1782997980
+|switch|p1a: Glimmora|Glimmora, L50, M, shiny|100/100
+|turn|8
+|
+|t:|1782997987
+|detailschange|p1a: Glimmora|Glimmora-Mega, L50, M, shiny
+|-mega|p1a: Glimmora|Glimmora|Glimmoranite
+|move|p1a: Glimmora|Spiky Shield|p1a: Glimmora
+|-singleturn|p1a: Glimmora|move: Protect
+|move|p2b: Gyarados|Waterfall|p1a: Glimmora
+|-activate|p1a: Glimmora|move: Protect
+|-damage|p2b: Gyarados|0 fnt|[from] Spiky Shield|[of] p1a: Glimmora
+|faint|p2b: Gyarados
+|move|p2a: Ditto|Life Dew|p2a: Ditto
+|-heal|p2a: Ditto|100/100
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Ditto
+|-resisted|p2a: Ditto|1
+|-damage|p2a: Ditto|79/100
+|
+|upkeep
+|
+|t:|1782998003
+|switch|p2b: Chandelure|Chandelure, L50, F|50/100g
+|turn|9
+|
+|t:|1782998014
+|move|p1a: Glimmora|Power Gem|p2b: Chandelure
+|-supereffective|p2b: Chandelure|1
+|-damage|p2b: Chandelure|0 fnt
+|faint|p2b: Chandelure
+|move|p2a: Ditto|Life Dew|p2a: Ditto
+|-heal|p2a: Ditto|100/100
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Ditto
+|-resisted|p2a: Ditto|1
+|-damage|p2a: Ditto|79/100
+|-status|p2a: Ditto|brn
+|
+|-damage|p2a: Ditto|73/100 brn|[from] brn
+|-sideend|p1: Jabby Wabby|move: Light Screen
+|upkeep
+|turn|10
+|
+|t:|1782998032
+|move|p1a: Glimmora|Sludge Bomb|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|
+|win|Jabby Wabby
+|l|☆Randompanda2
+|player|p2|

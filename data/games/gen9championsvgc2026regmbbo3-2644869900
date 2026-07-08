@@ -1,0 +1,118 @@
+|j|☆thepokecrafter13
+|j|‽ghostofphantasm
+|html|thepokecrafter13ghostofphantasm    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783348036
+|gametype|doubles
+|player|p1|thepokecrafter13|266|
+|player|p2|ghostofphantasm|lady-gen4|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Milotic, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Meowstic-F, L50, F, shiny|
+|poke|p2|Gengar, L50, F, shiny|
+|poke|p2|Roserade, L50, M|
+|poke|p2|Castform, L50, M, shiny|
+|poke|p2|Rotom-Fan, L50|
+|teampreview|4
+|showteam|p1|Garchomp||YacheBerry|RoughSkin|Earthquake,DragonClaw,SwordsDance,IronHead|Jolly||F|||50|]Kingambit||BlackGlasses|SupremeOverlord|KowtowCleave,SuckerPunch,IronHead,LowKick|Adamant||M|||50|]Milotic||Leftovers|Competitive|Scald,Recover,IceBeam,Hypnosis|Bold||M|||50|]Whimsicott||MentalHerb|Prankster|Encore,Moonblast,Tailwind,Taunt|Bold||F|||50|]Charizard||CharizarditeY|Blaze|WeatherBall,SolarBeam,ScorchingSands,FocusBlast|Timid||M|||50|]Sneasler||FocusSash|Unburden|DireClaw,CloseCombat,FakeOut,Uturn|Adamant||F|||50|
+|showteam|p2|Floette-Eternal||Floettite|FlowerVeil|Protect,Substitute,Synthesis,Wish|Bold||F|||50|]Meowstic-F||Meowsticite|KeenEye|Gravity,LightScreen,Reflect,SleepTalk|Naive||F|||50|]Gengar||Gengarite|CursedBody|Spite,SunnyDay,SelfDestruct,CorrosiveGas|Modest||F|||50|]Roserade||FocusSash|PoisonPoint|Rest,SleepTalk,Snore,SleepPowder|Naughty||M|||50|]Castform||HabanBerry|Forecast|SunnyDay,RainDance,Snowscape,GuardSwap|Timid||M|||50|]Rotom-Fan||ChoiceScarf|Levitate|NastyPlot,Trick,ThunderWave,Charge|Modest|||||50|
+|
+|t:|1783348068
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|switch|p2a: Castform|Castform, L50, M, shiny|100/100
+|switch|p2b: Rotom|Rotom-Fan, L50|100/100
+|turn|1
+|
+|t:|1783348086
+|move|p1a: Whimsicott|Taunt|p2a: Castform
+|-start|p2a: Castform|move: Taunt
+|move|p2b: Rotom|Trick|p1b: Kingambit
+|-activate|p2b: Rotom|move: Trick|[of] p1b: Kingambit
+|-item|p1b: Kingambit|Choice Scarf|[from] move: Trick
+|-item|p2b: Rotom|Black Glasses|[from] move: Trick
+|cant|p2a: Castform|move: Taunt|Guard Swap
+|move|p1b: Kingambit|Kowtow Cleave|p2b: Rotom
+|-damage|p2b: Rotom|37/100
+|
+|upkeep
+|turn|2
+|
+|t:|1783348105
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: thepokecrafter13|move: Tailwind
+|move|p1b: Kingambit|Kowtow Cleave|p2b: Rotom
+|-damage|p2b: Rotom|0 fnt
+|faint|p2b: Rotom
+|-activate|p2a: Castform|move: Struggle
+|move|p2a: Castform|Struggle|p1a: Whimsicott
+|-damage|p1a: Whimsicott|92/100
+|-damage|p2a: Castform|75/100|[from] recoil
+|
+|upkeep
+|
+|t:|1783348116
+|switch|p2b: Meowstic|Meowstic-F, L50, F, shiny|100/100
+|turn|3
+|
+|t:|1783348128
+|detailschange|p2b: Meowstic|Meowstic-F-Mega, L50, F, shiny
+|-mega|p2b: Meowstic|Meowstic|Meowsticite
+|-ability|p2b: Meowstic|Supreme Overlord|Trace|[from] ability: Trace|[of] p1b: Kingambit
+|-activate|p2b: Meowstic|ability: Supreme Overlord
+|-start|p2b: Meowstic|fallen1|[silent]
+|move|p1a: Whimsicott|Taunt|p2b: Meowstic
+|-start|p2b: Meowstic|move: Taunt
+|move|p1b: Kingambit|Kowtow Cleave|p2b: Meowstic
+|-supereffective|p2b: Meowstic|1
+|-damage|p2b: Meowstic|0 fnt
+|faint|p2b: Meowstic
+|-end|p2b: Meowstic|fallen1|[silent]
+|-activate|p2a: Castform|move: Struggle
+|move|p2a: Castform|Struggle|p1b: Kingambit
+|-damage|p1b: Kingambit|94/100
+|-damage|p2a: Castform|50/100g|[from] recoil
+|
+|-end|p2a: Castform|move: Taunt
+|upkeep
+|
+|t:|1783348145
+|switch|p2b: Roserade|Roserade, L50, M|100/100
+|turn|4
+|
+|t:|1783348163
+|move|p1a: Whimsicott|Taunt|p2b: Roserade
+|-start|p2b: Roserade|move: Taunt
+|move|p1b: Kingambit|Kowtow Cleave|p2b: Roserade
+|-damage|p2b: Roserade|6/100
+|cant|p2b: Roserade|move: Taunt|Rest
+|move|p2a: Castform|Guard Swap|p1b: Kingambit
+|-swapboost|p2a: Castform|p1b: Kingambit|def, spd|[from] move: Guard Swap
+|
+|upkeep
+|turn|5
+|
+|t:|1783348185
+|move|p1a: Whimsicott|Moonblast|p2b: Roserade
+|-resisted|p2b: Roserade|1
+|-damage|p2b: Roserade|0 fnt
+|faint|p2b: Roserade
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Castform
+|-damage|p2a: Castform|0 fnt
+|faint|p2a: Castform
+|
+|win|thepokecrafter13
+|c|☆thepokecrafter13|gg

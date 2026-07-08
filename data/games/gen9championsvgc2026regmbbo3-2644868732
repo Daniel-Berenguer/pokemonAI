@@ -1,0 +1,117 @@
+|j|☆thepokecrafter13
+|j|‽ghostofphantasm
+|html|thepokecrafter13ghostofphantasm    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783347885
+|gametype|doubles
+|player|p1|thepokecrafter13|266|
+|player|p2|ghostofphantasm|lady-gen4|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Milotic, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Meowstic-F, L50, F, shiny|
+|poke|p2|Gengar, L50, F, shiny|
+|poke|p2|Roserade, L50, M|
+|poke|p2|Castform, L50, M, shiny|
+|poke|p2|Rotom-Fan, L50|
+|teampreview|4
+|showteam|p1|Garchomp||YacheBerry|RoughSkin|Earthquake,DragonClaw,SwordsDance,IronHead|Jolly||F|||50|]Kingambit||BlackGlasses|SupremeOverlord|KowtowCleave,SuckerPunch,IronHead,LowKick|Adamant||M|||50|]Milotic||Leftovers|Competitive|Scald,Recover,IceBeam,Hypnosis|Bold||M|||50|]Whimsicott||MentalHerb|Prankster|Encore,Moonblast,Tailwind,Taunt|Bold||F|||50|]Charizard||CharizarditeY|Blaze|WeatherBall,SolarBeam,ScorchingSands,FocusBlast|Timid||M|||50|]Sneasler||FocusSash|Unburden|DireClaw,CloseCombat,FakeOut,Uturn|Adamant||F|||50|
+|showteam|p2|Floette-Eternal||Floettite|FlowerVeil|Protect,Substitute,Synthesis,Wish|Bold||F|||50|]Meowstic-F||Meowsticite|KeenEye|Gravity,LightScreen,Reflect,SleepTalk|Naive||F|||50|]Gengar||Gengarite|CursedBody|Spite,SunnyDay,SelfDestruct,CorrosiveGas|Modest||F|||50|]Roserade||FocusSash|PoisonPoint|Rest,SleepTalk,Snore,SleepPowder|Naughty||M|||50|]Castform||HabanBerry|Forecast|SunnyDay,RainDance,Snowscape,GuardSwap|Timid||M|||50|]Rotom-Fan||ChoiceScarf|Levitate|NastyPlot,Trick,ThunderWave,Charge|Modest|||||50|
+|
+|t:|1783347925
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Charizard|Charizard, L50, M|100/100
+|switch|p2a: Gengar|Gengar, L50, F, shiny|100/100
+|switch|p2b: Floette|Floette-Eternal, L50, F|100/100
+|turn|1
+|
+|t:|1783347950
+|detailschange|p1b: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p1b: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|detailschange|p2a: Gengar|Gengar-Mega, L50, F, shiny
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2b: Floette|Protect|p2b: Floette
+|-singleturn|p2b: Floette|Protect
+|move|p1a: Sneasler|Fake Out|p2b: Floette
+|-activate|p2b: Floette|move: Protect
+|move|p2a: Gengar|Self-Destruct|p1a: Sneasler|[spread] p1a,p1b
+|-activate|p2b: Floette|move: Protect
+|-crit|p1b: Charizard
+|-damage|p1a: Sneasler|63/100
+|-damage|p1b: Charizard|51/100
+|faint|p2a: Gengar
+|move|p1b: Charizard|Scorching Sands|p2b: Floette
+|-activate|p2b: Floette|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783347967
+|switch|p2a: Roserade|Roserade, L50, M|100/100
+|turn|2
+|
+|t:|1783347976
+|move|p1a: Sneasler|Dire Claw|p2b: Floette
+|-supereffective|p2b: Floette|1
+|-damage|p2b: Floette|4/100
+|move|p1b: Charizard|Weather Ball|p2a: Roserade
+|-supereffective|p2a: Roserade|1
+|-enditem|p2a: Roserade|Focus Sash
+|-damage|p2a: Roserade|1/100
+|move|p2a: Roserade|Rest|p2a: Roserade
+|-status|p2a: Roserade|slp|[from] move: Rest
+|-heal|p2a: Roserade|100/100 slp|[silent]
+|move|p2b: Floette|Substitute|p2b: Floette
+|-fail|p2b: Floette|move: Substitute|[weak]
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1783347997
+|move|p1a: Sneasler|Dire Claw|p2b: Floette
+|-supereffective|p2b: Floette|1
+|-damage|p2b: Floette|0 fnt
+|faint|p2b: Floette
+|move|p1b: Charizard|Weather Ball|p2a: Roserade
+|-supereffective|p2a: Roserade|1
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783348009
+|switch|p2a: Rotom|Rotom-Fan, L50|100/100
+|turn|4
+|
+|t:|1783348022
+|move|p2a: Rotom|Charge|p2a: Rotom
+|-boost|p2a: Rotom|spd|1
+|-start|p2a: Rotom|Charge
+|move|p1a: Sneasler|Dire Claw|p2a: Rotom
+|-damage|p2a: Rotom|37/100
+|move|p1b: Charizard|Weather Ball|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|thepokecrafter13
+|inactive|thepokecrafter13 has 30 seconds to confirm battle start!
+|inactive|ghostofphantasm has 30 seconds to confirm battle start!
+||ghostofphantasm is ready for game 2.
+|c|☆thepokecrafter13|gg
+||thepokecrafter13 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

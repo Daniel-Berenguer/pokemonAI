@@ -1,0 +1,134 @@
+|j|☆teyvgc
+|j|☆Piccone Baldo
+|html|teyvgcPiccone Baldo    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783201209
+|gametype|doubles
+|player|p1|teyvgc|1|1224
+|player|p2|Piccone Baldo|ingo|1332
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Staraptor, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Milotic, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Aerodactyl, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Sylveon, L50, F|
+|teampreview|4
+|showteam|p1|Excadrill||FocusSash|SandRush|Earthquake,IronHead,RockSlide,Protect|Adamant||M|||50|]Tyranitar||Tyranitarite|SandStream|RockSlide,KnockOff,DragonDance,Protect|Adamant||F|||50|]Staraptor||Staraptite|Intimidate|BraveBird,CloseCombat,Tailwind,Protect|Jolly||F|||50|]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,LifeDew,TrickRoom|Calm|||||50|]Milotic||Leftovers|Competitive|Scald,IceBeam,Recover,Protect|Modest||F|||50|]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect|Modest|||||50|
+|showteam|p2|Kingambit||FocusSash|Defiant|KowtowCleave,IronHead,SuckerPunch,LowKick|Adamant||F|||50|]Charizard||CharizarditeY|Blaze|HeatWave,SolarBeam,WeatherBall,Protect|Modest||M|||50|]Aerodactyl||Aerodactylite|Unnerve|RockSlide,DualWingbeat,IceFang,Tailwind|Jolly||F|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,Thunderbolt,TrickRoom,Roar|Bold||F|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,StompingTantrum,Protect|Jolly||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,QuickAttack,Protect|Modest||F|||50|
+|
+|t:|1783201234
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Staraptor|Staraptor, L50, F|100/100
+|switch|p1b: Milotic|Milotic, L50, F|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, L50, F|100/100
+|switch|p2b: Sylveon|Sylveon, L50, F|100/100
+|-ability|p2a: Aerodactyl|Unnerve
+|-ability|p1a: Staraptor|Intimidate|boost
+|-unboost|p2a: Aerodactyl|atk|1
+|-unboost|p2b: Sylveon|atk|1
+|turn|1
+|
+|t:|1783201254
+|move|p2a: Aerodactyl|Tailwind|p2a: Aerodactyl
+|-sidestart|p2: Piccone Baldo|move: Tailwind
+|move|p2b: Sylveon|Hyper Voice|p1b: Milotic|[spread] p1a,p1b
+|-damage|p1a: Staraptor|32/100
+|-damage|p1b: Milotic|65/100
+|move|p1a: Staraptor|Tailwind|p1a: Staraptor
+|-sidestart|p1: teyvgc|move: Tailwind
+|move|p1b: Milotic|Scald|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl|1
+|-damage|p2a: Aerodactyl|10/100
+|-status|p2a: Aerodactyl|brn
+|
+|-heal|p1b: Milotic|71/100|[from] item: Leftovers
+|-damage|p2a: Aerodactyl|4/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1783201282
+|move|p1a: Staraptor|Protect|p1a: Staraptor
+|-singleturn|p1a: Staraptor|Protect
+|move|p2a: Aerodactyl|Rock Slide|p1a: Staraptor|[spread] p1b
+|-activate|p1a: Staraptor|move: Protect
+|-damage|p1b: Milotic|65/100
+|move|p1b: Milotic|Scald|p2b: Sylveon
+|-damage|p2b: Sylveon|73/100
+|move|p2b: Sylveon|Hyper Voice|p1a: Staraptor|[spread] p1b
+|-activate|p1a: Staraptor|move: Protect
+|-damage|p1b: Milotic|31/100
+|
+|-heal|p1b: Milotic|37/100|[from] item: Leftovers
+|-damage|p2a: Aerodactyl|0 fnt|[from] brn
+|faint|p2a: Aerodactyl
+|upkeep
+|
+|t:|1783201298
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|turn|3
+|
+|t:|1783201334
+|move|p1b: Milotic|Protect|p1b: Milotic
+|-singleturn|p1b: Milotic|Protect
+|move|p2a: Garchomp|Stomping Tantrum|p1a: Staraptor
+|-immune|p1a: Staraptor
+|move|p1a: Staraptor|Brave Bird|p2a: Garchomp
+|-damage|p2a: Garchomp|52/100
+|-damage|p1a: Staraptor|19/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Staraptor|4/100|[from] Recoil
+|move|p2b: Sylveon|Hyper Voice|p1b: Milotic|[spread] p1a
+|-activate|p1b: Milotic|move: Protect
+|-damage|p1a: Staraptor|0 fnt
+|faint|p1a: Staraptor
+|
+|-heal|p1b: Milotic|43/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783201355
+|switch|p1a: Excadrill|Excadrill, L50, M|100/100
+|turn|4
+|
+|t:|1783201379
+|switch|p1b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|switch|p2b: Charizard|Charizard, L50, M|100/100
+|move|p1a: Excadrill|Earthquake|p2a: Garchomp|[spread] p1b,p2a
+|-immune|p2b: Charizard
+|-supereffective|p1b: Tyranitar|1
+|-damage|p1b: Tyranitar|22/100
+|-damage|p2a: Garchomp|11/100
+|move|p2a: Garchomp|Earthquake|p1b: Tyranitar|[spread] p1a,p1b
+|-immune|p2b: Charizard
+|-supereffective|p1a: Excadrill|1
+|-crit|p1a: Excadrill
+|-supereffective|p1b: Tyranitar|1
+|-enditem|p1a: Excadrill|Focus Sash
+|-damage|p1a: Excadrill|1/100
+|-damage|p1b: Tyranitar|0 fnt
+|faint|p1b: Tyranitar
+|-damage|p2a: Garchomp|1/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Charizard|93/100|[from] Sandstorm
+|-sideend|p2: Piccone Baldo|move: Tailwind
+|-sideend|p1: teyvgc|move: Tailwind
+|upkeep
+|-message|teyvgc forfeited.
+|
+|win|Piccone Baldo
+|raw|teyvgc's rating: 1224 → 1207(-17 for losing)
+|raw|Piccone Baldo's rating: 1332 → 1346(+14 for winning)

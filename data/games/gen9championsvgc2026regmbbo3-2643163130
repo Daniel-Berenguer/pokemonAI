@@ -1,0 +1,133 @@
+|j|☆circuitosomador
+|j|☆dabean16
+|html|circuitosomadordabean16    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783052118
+|gametype|doubles
+|player|p1|circuitosomador|norman|1205
+|player|p2|dabean16|2|1222
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Delphox, L50, M|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p2|Dragonite, L50, F, shiny|
+|poke|p2|Scizor, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Pelipper, L50, M, shiny|
+|poke|p2|Basculegion, L50, M, shiny|
+|poke|p2|Archaludon, L50, F|
+|teampreview|4
+|showteam|p1|Delphox||Delphoxite|Blaze|Psychic,HeatWave,NastyPlot,Protect|Timid||M|||50|]Floette-Eternal||Floettite|FlowerVeil|DazzlingGleam,LightofRuin,Moonblast,Protect|Modest||F|||50|]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,StrengthSap,TrickRoom|Bold|||||50|]Basculegion||KasibBerry|Adaptability|LastRespects,WaveCrash,AquaJet,Protect|Adamant||M|||50|]Excadrill||FocusSash|SandRush|RockSlide,HighHorsepower,IronHead,Protect|Adamant||M|||50|]Tyranitar||ChoiceScarf|SandStream|RockSlide,KnockOff,LowKick,IcePunch|Jolly||F|||50|
+|showteam|p2|Dragonite||Dragoninite|Multiscale|Tailwind,Protect,DragonPulse,Hurricane|Modest||F|||50|]Scizor||Scizorite|Technician|Protect,SwordsDance,CloseCombat,BulletPunch|Adamant||F|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,ThroatChop,PartingShot,FlareBlitz|Careful||F|||50|]Pelipper||FocusSash|Drizzle|Tailwind,Hurricane,WeatherBall,Protect|Modest||M|||50|]Basculegion||ChoiceScarf|Adaptability|LastRespects,WaveCrash,FlipTurn,AquaJet|Adamant||M|||50|]Archaludon||ChopleBerry|Stamina|ElectroShot,Protect,DragonPulse,AuraSphere|Calm||F|||50|
+|
+|t:|1783052166
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Delphox|Delphox, L50, M|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Scizor|Scizor, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Delphox|atk|1
+|-unboost|p1b: Basculegion|atk|1
+|turn|1
+|
+|t:|1783052230
+|detailschange|p1a: Delphox|Delphox-Mega, L50, M
+|-mega|p1a: Delphox|Delphox|Delphoxite
+|detailschange|p2a: Scizor|Scizor-Mega, L50, F
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p2b: Incineroar|Fake Out|p1a: Delphox
+|-damage|p1a: Delphox|85/100
+|cant|p1a: Delphox|flinch
+|move|p1b: Basculegion|Wave Crash|p2b: Incineroar
+|-supereffective|p2b: Incineroar|1
+|-damage|p2b: Incineroar|10/100
+|-enditem|p2b: Incineroar|Sitrus Berry|[eat]
+|-heal|p2b: Incineroar|35/100|[from] item: Sitrus Berry
+|-damage|p1b: Basculegion|70/100|[from] Recoil
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|upkeep
+|turn|2
+|
+|t:|1783052290
+|move|p1a: Delphox|Protect|p1a: Delphox
+|-singleturn|p1a: Delphox|Protect
+|move|p2a: Scizor|Protect|p2a: Scizor
+|-singleturn|p2a: Scizor|Protect
+|move|p1b: Basculegion|Wave Crash|p2b: Incineroar
+|-supereffective|p2b: Incineroar|1
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|-damage|p1b: Basculegion|57/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1783052300
+|switch|p2b: Pelipper|Pelipper, L50, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|3
+|
+|t:|1783052328
+|switch|p1b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|move|p2a: Scizor|Bullet Punch|p1a: Delphox
+|-resisted|p1a: Delphox|1
+|-damage|p1a: Delphox|35/100
+|move|p1a: Delphox|Heat Wave|p2b: Pelipper|[spread] p2a,p2b
+|-supereffective|p2a: Scizor|2
+|-resisted|p2b: Pelipper|1
+|-damage|p2a: Scizor|0 fnt
+|-damage|p2b: Pelipper|69/100
+|faint|p2a: Scizor
+|move|p2b: Pelipper|Weather Ball|p1a: Delphox
+|-supereffective|p1a: Delphox|1
+|-damage|p1a: Delphox|0 fnt
+|faint|p1a: Delphox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Pelipper|63/100|[from] Sandstorm
+|upkeep
+|
+|t:|1783052345
+|switch|p1a: Excadrill|Excadrill, L50, M|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M, shiny|100/100
+|turn|4
+|
+|t:|1783052364
+|move|p1a: Excadrill|High Horsepower|p2a: Basculegion
+|-damage|p2a: Basculegion|30/100
+|move|p2a: Basculegion|Wave Crash|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar|1
+|-damage|p1b: Tyranitar|0 fnt
+|faint|p1b: Tyranitar
+|-damage|p2a: Basculegion|1/100|[from] Recoil
+|move|p2b: Pelipper|Tailwind|p2b: Pelipper
+|-sidestart|p2: dabean16|move: Tailwind
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Basculegion|0 fnt|[from] Sandstorm
+|-damage|p2b: Pelipper|57/100|[from] Sandstorm
+|faint|p2a: Basculegion
+|upkeep
+|
+|t:|1783052376
+|switch|p1b: Basculegion|Basculegion, L50, M|57/100
+|turn|5
+|-message|dabean16 forfeited.
+|
+|win|circuitosomador
+||dabean16 is ready for game 2.
+||circuitosomador is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

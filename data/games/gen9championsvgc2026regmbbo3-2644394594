@@ -1,0 +1,200 @@
+|j|☆munjah 14
+|j|☆Aquarior_testing2
+|html|munjah 14Aquarior_testing2    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783268129
+|gametype|doubles
+|player|p1|munjah 14|101|1111
+|player|p2|Aquarior_testing2|mustard-master|1089
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, F, shiny|
+|poke|p1|Talonflame, L50, M, shiny|
+|poke|p1|Sneasler, L50, M, shiny|
+|poke|p1|Grimmsnarl, L50, M, shiny|
+|poke|p1|Venusaur, L50, M, shiny|
+|poke|p1|Rotom-Wash, L50, shiny|
+|poke|p2|Kingambit, L50, M, shiny|
+|poke|p2|Charizard, L50, M, shiny|
+|poke|p2|Aerodactyl, L50, M, shiny|
+|poke|p2|Farigiraf, L50, F, shiny|
+|poke|p2|Garchomp, L50, F, shiny|
+|poke|p2|Sylveon, L50, F, shiny|
+|teampreview|4
+|showteam|p1|Tyranitar||Tyranitarite|SandStream|DragonDance,RockSlide,KnockOff,Protect|Jolly||F|||50|]Talonflame||SharpBeak|GaleWings|Tailwind,FlareBlitz,BraveBird,Protect|Jolly||M|||50|]Sneasler||WhiteHerb|Unburden|FakeOut,CloseCombat,DireClaw,Protect|Jolly||M|||50|]Grimmsnarl||LightClay|Prankster|Reflect,LightScreen,PartingShot,FoulPlay|Careful||M|||50|]Venusaur||Venusaurite|Chlorophyll|SleepPowder,SludgeBomb,EnergyBall,Protect|Modest||M|||50|]Rotom-Wash||WideLens|Levitate|HydroPump,Thunderbolt,WillOWisp,VoltSwitch|Modest|||||50|
+|showteam|p2|Kingambit||FocusSash|Defiant|KowtowCleave,SuckerPunch,IronHead,LowKick|Adamant||M|||50|]Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,SolarBeam,Protect|Serious||M|||50|]Aerodactyl||Aerodactylite|Unnerve|RockSlide,DualWingbeat,IceFang,Tailwind|Jolly||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,Thunderbolt,TrickRoom,Protect|Bold||F|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,StompingTantrum,DragonClaw,Protect|Jolly||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,QuickAttack,Detect|Modest||F|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Aquarior_testing2)
+|
+|t:|1783268177
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, M, shiny|100/100
+|switch|p1b: Venusaur|Venusaur, L50, M, shiny|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, F, shiny|100/100
+|switch|p2b: Garchomp|Garchomp, L50, F, shiny|100/100
+|turn|1
+|
+|t:|1783268193
+|switch|p1a: Rotom|Rotom-Wash, L50, shiny|100/100
+|move|p2b: Garchomp|Stomping Tantrum|p1a: Rotom
+|-immune|p1a: Rotom|[from] ability: Levitate
+|move|p1b: Venusaur|Sleep Powder|p2a: Farigiraf|[miss]
+|-miss|p1b: Venusaur|p2a: Farigiraf
+|move|p2a: Farigiraf|Psychic|p1b: Venusaur
+|-supereffective|p1b: Venusaur|1
+|-damage|p1b: Venusaur|34/100
+|
+|upkeep
+|turn|2
+|
+|t:|1783268212
+|switch|p2b: Charizard|Charizard, L50, M, shiny|100/100
+|move|p1a: Rotom|Will-O-Wisp|p2b: Charizard
+|-immune|p2b: Charizard
+|move|p1b: Venusaur|Sleep Powder|p2a: Farigiraf|[miss]
+|-miss|p1b: Venusaur|p2a: Farigiraf
+|move|p2a: Farigiraf|Psychic|p1b: Venusaur
+|-supereffective|p1b: Venusaur|1
+|-damage|p1b: Venusaur|0 fnt
+|faint|p1b: Venusaur
+|
+|upkeep
+|
+|t:|1783268225
+|switch|p1b: Tyranitar|Tyranitar, L50, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|3
+|
+|t:|1783268241
+|move|p1b: Tyranitar|Protect|p1b: Tyranitar
+|-singleturn|p1b: Tyranitar|Protect
+|move|p2b: Charizard|Protect|p2b: Charizard
+|-singleturn|p2b: Charizard|Protect
+|move|p2a: Farigiraf|Protect|p2a: Farigiraf
+|-singleturn|p2a: Farigiraf|Protect
+|move|p1a: Rotom|Volt Switch|p2b: Charizard
+|-activate|p2b: Charizard|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Charizard|93/100|[from] Sandstorm
+|-damage|p1a: Rotom|94/100|[from] Sandstorm
+|-damage|p2a: Farigiraf|94/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1783268261
+|switch|p1b: Sneasler|Sneasler, L50, M, shiny|100/100
+|switch|p2b: Sylveon|Sylveon, L50, F, shiny|100/100
+|move|p1a: Rotom|Thunderbolt|p2b: Sylveon
+|-damage|p2b: Sylveon|64/100
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Farigiraf|88/100|[from] Sandstorm
+|-damage|p2b: Sylveon|58/100|[from] Sandstorm
+|-damage|p1a: Rotom|88/100|[from] Sandstorm
+|-damage|p1b: Sneasler|94/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1783268279
+|move|p1b: Sneasler|Protect|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Protect
+|move|p2a: Farigiraf|Psychic|p1b: Sneasler
+|-activate|p1b: Sneasler|move: Protect
+|move|p2b: Sylveon|Hyper Voice|p1b: Sneasler|[spread] p1a
+|-activate|p1b: Sneasler|move: Protect
+|-damage|p1a: Rotom|38/100
+|move|p1a: Rotom|Volt Switch|p2a: Farigiraf
+|-damage|p2a: Farigiraf|59/100
+|
+|t:|1783268289
+|switch|p1a: Tyranitar|Tyranitar, L50, F, shiny|100/100|[from] Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Farigiraf|54/100|[from] Sandstorm
+|-damage|p2b: Sylveon|52/100|[from] Sandstorm
+|-damage|p1b: Sneasler|88/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1783268311
+|detailschange|p1a: Tyranitar|Tyranitar-Mega, L50, F, shiny
+|-mega|p1a: Tyranitar|Tyranitar|Tyranitarite
+|move|p2b: Sylveon|Detect|p2b: Sylveon
+|-singleturn|p2b: Sylveon|Protect
+|move|p1b: Sneasler|Protect|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Protect
+|move|p2a: Farigiraf|Psychic|p1b: Sneasler
+|-activate|p1b: Sneasler|move: Protect
+|move|p1a: Tyranitar|Rock Slide|p2a: Farigiraf|[spread] p2a
+|-activate|p2b: Sylveon|move: Protect
+|-damage|p2a: Farigiraf|25/100
+|-enditem|p2a: Farigiraf|Sitrus Berry|[eat]
+|-heal|p2a: Farigiraf|50/100y|[from] item: Sitrus Berry
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Farigiraf|44/100|[from] Sandstorm
+|-damage|p2b: Sylveon|46/100|[from] Sandstorm
+|-damage|p1b: Sneasler|82/100|[from] Sandstorm
+|upkeep
+|turn|7
+|inactive|munjah 14 has 30 seconds left.
+|
+|t:|1783268336
+|switch|p1a: Rotom|Rotom-Wash, L50, shiny|38/100
+|move|p2a: Farigiraf|Psychic|p1b: Sneasler
+|-supereffective|p1b: Sneasler|2
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|move|p2b: Sylveon|Hyper Beam|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|-mustrecharge|p2b: Sylveon
+|faint|p1a: Rotom
+|
+|-weather|none
+|upkeep
+|
+|t:|1783268348
+|switch|p1b: Tyranitar|Tyranitar-Mega, L50, F, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|8
+|
+|t:|1783268353
+|move|p2a: Farigiraf|Protect|p2a: Farigiraf
+|-singleturn|p2a: Farigiraf|Protect
+|cant|p2b: Sylveon|recharge
+|move|p1b: Tyranitar|Dragon Dance|p1b: Tyranitar
+|-boost|p1b: Tyranitar|atk|1
+|-boost|p1b: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Farigiraf|38/100|[from] Sandstorm
+|-damage|p2b: Sylveon|41/100|[from] Sandstorm
+|-fieldend|move: Trick Room
+|upkeep
+|turn|9
+|
+|t:|1783268363
+|move|p1b: Tyranitar|Rock Slide|p2b: Sylveon|[spread] p2a
+|-miss|p1b: Tyranitar|p2b: Sylveon
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|move|p2b: Sylveon|Hyper Beam|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar|1
+|-damage|p1b: Tyranitar|0 fnt
+|-mustrecharge|p2b: Sylveon
+|faint|p1b: Tyranitar
+|
+|win|Aquarior_testing2
+||Aquarior_testing2 is ready for game 2.
+||munjah 14 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆munjah 14
+|player|p1|

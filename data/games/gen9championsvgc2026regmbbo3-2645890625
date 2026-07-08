@@ -1,0 +1,153 @@
+|j|‽Shellsmashr
+|j|☆Testingdeez
+|html|ShellsmashrTestingdeez    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783506784
+|gametype|doubles
+|player|p1|Shellsmashr|266|1212
+|player|p2|Testingdeez|170|1293
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sinistcha, L50|
+|poke|p1|Delphox, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Kingambit, L50, F, shiny|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Blastoise, L50, M|
+|poke|p2|Gengar, L50, F, shiny|
+|poke|p2|Swampert, L50, F|
+|poke|p2|Politoed, L50, F, shiny|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Archaludon, L50, M, shiny|
+|poke|p2|Vivillon, L50, F, shiny|
+|teampreview|4
+|showteam|p1|Sinistcha||OccaBerry|Hospitality|TrickRoom,RagePowder,MatchaGotcha,Protect|Bold|||||50|]Delphox||Delphoxite|Blaze|HeatWave,Psychic,NastyPlot,Protect|Timid||F|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,HelpingHand,PartingShot|Careful||M|||50|]Kingambit||LifeOrb|Defiant|Protect,SwordsDance,KowtowCleave,SuckerPunch|Adamant||F|||50|]Sneasler||FocusSash|PoisonTouch|PoisonJab,CloseCombat,FakeOut,QuickGuard|Jolly||F|||50|]Blastoise||Blastoisinite|Torrent|WaterSpout,DarkPulse,ShellSmash,Protect|Modest||M|||50|
+|showteam|p2|Gengar||Gengarite|CursedBody|SludgeBomb,ShadowBall,PerishSong,Protect|Timid||F|||50|]Swampert||Swampertite|Damp|WaveCrash,Earthquake,IcePunch,Protect|Adamant||F|||50|]Politoed||SitrusBerry|Drizzle|WeatherBall,PerishSong,Encore,Protect|Calm||F|||50|]Incineroar||PasshoBerry|Intimidate|DarkestLariat,FakeOut,PartingShot,Protect|Sassy||M|||50|]Archaludon||Leftovers|Stamina|FlashCannon,ElectroShot,DragonPulse,Protect|Bold||M|||50|]Vivillon||FocusSash|CompoundEyes|Hurricane,RagePowder,SleepPowder,Protect|Timid||F|||50|
+|
+|t:|1783506826
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kingambit|Kingambit, L50, F, shiny|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2a: Swampert|Swampert, L50, F|100/100
+|switch|p2b: Vivillon|Vivillon, L50, F, shiny|100/100
+|turn|1
+|
+|t:|1783506862
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|-unboost|p2b: Vivillon|atk|1
+|detailschange|p2a: Swampert|Swampert-Mega, L50, F
+|-mega|p2a: Swampert|Swampert|Swampertite
+|move|p1b: Sneasler|Poison Jab|p2a: Swampert
+|-resisted|p2a: Swampert|1
+|-damage|p2a: Swampert|80/100
+|-status|p2a: Swampert|psn
+|move|p2b: Vivillon|Sleep Powder|p1a: Incineroar
+|-status|p1a: Incineroar|slp|[from] move: Sleep Powder
+|move|p2a: Swampert|Earthquake|p1b: Sneasler|[spread] p1a,p1b
+|-immune|p2b: Vivillon
+|-supereffective|p1a: Incineroar|1
+|-supereffective|p1b: Sneasler|1
+|-damage|p1a: Incineroar|36/100 slp
+|-enditem|p1b: Sneasler|Focus Sash
+|-damage|p1b: Sneasler|1/100
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|61/100 slp|[from] item: Sitrus Berry
+|
+|-damage|p2a: Swampert|68/100 psn|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1783506904
+|switch|p2b: Politoed|Politoed, L50, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Politoed
+|cant|p1a: Incineroar|slp
+|move|p2a: Swampert|Earthquake|p1b: Sneasler|[spread] p2b,p1a,p1b
+|-crit|p2b: Politoed
+|-supereffective|p1a: Incineroar|1
+|-supereffective|p1b: Sneasler|1
+|-damage|p2b: Politoed|38/100
+|-damage|p1a: Incineroar|6/100 slp
+|-damage|p1b: Sneasler|0 fnt
+|-enditem|p2b: Politoed|Sitrus Berry|[eat]
+|-heal|p2b: Politoed|63/100|[from] item: Sitrus Berry
+|faint|p1b: Sneasler
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2a: Swampert|56/100 psn|[from] psn
+|upkeep
+|
+|t:|1783506921
+|switch|p1b: Blastoise|Blastoise, L50, M|100/100
+|turn|3
+|
+|t:|1783506934
+|switch|p2b: Vivillon|Vivillon, L50, F, shiny|100/100
+|detailschange|p1b: Blastoise|Blastoise-Mega, L50, M
+|-mega|p1b: Blastoise|Blastoise|Blastoisinite
+|cant|p1a: Incineroar|slp
+|move|p2a: Swampert|Earthquake|p1b: Blastoise|[spread] p1a,p1b
+|-immune|p2b: Vivillon
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Blastoise|71/100
+|faint|p1a: Incineroar
+|move|p1b: Blastoise|Water Spout|p2a: Swampert|[spread] p2a,p2b
+|-damage|p2a: Swampert|0 fnt
+|-enditem|p2b: Vivillon|Focus Sash
+|-damage|p2b: Vivillon|1/100
+|faint|p2a: Swampert
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1783506950
+|switch|p2a: Archaludon|Archaludon, L50, M, shiny|100/100
+|switch|p1a: Kingambit|Kingambit, L50, F, shiny|100/100
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Testingdeez)
+|
+|t:|1783507016
+|switch|p2b: Politoed|Politoed, L50, F, shiny|63/100
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p1b: Blastoise|Water Spout|p2a: Archaludon|[spread] p2a,p2b
+|-resisted|p2a: Archaludon|1
+|-resisted|p2b: Politoed|1
+|-damage|p2a: Archaludon|70/100
+|-damage|p2b: Politoed|35/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1b: Blastoise
+|-supereffective|p1b: Blastoise|1
+|-damage|p1b: Blastoise|0 fnt
+|faint|p1b: Blastoise
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Archaludon|76/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|inactive|Shellsmashr has 30 seconds left.
+|inactive|Testingdeez has 30 seconds left.
+|inactive|Shellsmashr has 20 seconds left.
+|-message|Shellsmashr forfeited.
+|
+|win|Testingdeez
+|l|‽Shellsmashr
+|player|p1|
+|j|‽Shellsmashr
+|player|p1|Shellsmashr|266|
+||Testingdeez is ready for game 2.
+|inactive|Shellsmashr has 30 seconds to confirm battle start!
+||Shellsmashr is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

@@ -1,0 +1,204 @@
+|j|☆zaharba
+|j|☆ackergaul
+|html|zaharbaackergaul    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783197978
+|gametype|doubles
+|player|p1|zaharba|170|1093
+|player|p2|ackergaul|pilot|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Raichu, L50, M, shiny|
+|poke|p1|Vivillon, L50, F|
+|poke|p1|Ninetales-Alola, L50, F, shiny|
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Basculegion-F, L50, F|
+|poke|p1|Talonflame, L50, M|
+|poke|p2|Sceptile, L50, M|
+|poke|p2|Rotom-Heat, L50|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Manectric, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Raichu||RaichuniteY|LightningRod|FocusBlast,ZapCannon,UpperHand,FakeOut|Timid||M|||50|]Vivillon||ChoiceScarf|CompoundEyes|SleepPowder,RagePowder,Hurricane,Tailwind|Timid||F|||50|]Ninetales-Alola||NeverMeltIce|SnowWarning|Protect,FreezeDry,Blizzard,Encore|Timid||F|||50|]Tyranitar||PasshoBerry|SandStream|RockSlide,HighHorsepower,Protect,DragonDance|Adamant||M|||50|]Basculegion-F||SpellTag|Adaptability|Protect,Hex,HydroPump,MuddyWater|Modest||F|||50|]Talonflame||LifeOrb|GaleWings|Whirlwind,BraveBird,Overheat,Tailwind|Naive||M|||50|
+|showteam|p2|Sceptile||Sceptilite|Overgrow|DragonPulse,GigaDrain,EarthPower,Detect|Timid||M|||50|]Rotom-Heat||ChoiceScarf|Levitate|Overheat,Discharge,VoltSwitch,Trick|Timid|||||50|]Garchomp||SitrusBerry|RoughSkin|StompingTantrum,RockSlide,DragonClaw,Protect|Jolly||M|||50|]Manectric||Manectite|LightningRod|Snarl,Discharge,VoltSwitch,Protect|Timid||M|||50|]Grimmsnarl||LightClay|Prankster|Reflect,LightScreen,PartingShot,SpiritBreak|Impish||M|||50|]Sneasler||WhiteHerb|Unburden|CloseCombat,GunkShot,FakeOut,Protect|Adamant||M|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by zaharba)
+|inactive|ackergaul has 60 seconds left.
+|
+|t:|1783198038
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Raichu|Raichu, L50, M, shiny|100/100
+|switch|p1b: Vivillon|Vivillon, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Manectric|Manectric, L50, M|100/100
+|turn|1
+|
+|t:|1783198058
+|move|p1a: Raichu|Fake Out|p2a: Sneasler
+|-damage|p2a: Sneasler|87/100
+|cant|p2a: Sneasler|flinch
+|move|p1b: Vivillon|Sleep Powder|p2b: Manectric
+|-status|p2b: Manectric|slp|[from] move: Sleep Powder
+|cant|p2b: Manectric|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1783198076
+|detailschange|p1a: Raichu|Raichu-Mega-Y, L50, M, shiny
+|-mega|p1a: Raichu|Raichu|Raichunite Y
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1b: Vivillon|Sleep Powder|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Protect
+|move|p1a: Raichu|Focus Blast|p2b: Manectric
+|-damage|p2b: Manectric|10/100 slp
+|cant|p2b: Manectric|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1783198097
+|-curestatus|p2b: Manectric|slp|[msg]
+|move|p2b: Manectric|Protect|p2b: Manectric
+|-singleturn|p2b: Manectric|Protect
+|move|p1b: Vivillon|Sleep Powder|p2a: Sneasler
+|-status|p2a: Sneasler|slp|[from] move: Sleep Powder
+|move|p1a: Raichu|Focus Blast|p2b: Manectric
+|-activate|p2b: Manectric|move: Protect
+|cant|p2a: Sneasler|slp
+|
+|upkeep
+|turn|4
+|
+|t:|1783198119
+|switch|p1b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|move|p1a: Raichu|Focus Blast|p2b: Grimmsnarl
+|-crit|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|39/100
+|cant|p2a: Sneasler|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Raichu|94/100|[from] Sandstorm
+|-damage|p2a: Sneasler|81/100 slp|[from] Sandstorm
+|-damage|p2b: Grimmsnarl|33/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1783198142
+|move|p2b: Grimmsnarl|Light Screen|p2b: Grimmsnarl
+|-sidestart|p2: ackergaul|move: Light Screen
+|move|p1a: Raichu|Zap Cannon|p2a: Sneasler
+|-damage|p2a: Sneasler|16/100 slp
+|-curestatus|p2a: Sneasler|slp|[msg]
+|move|p2a: Sneasler|Gunk Shot|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|faint|p1a: Raichu
+|move|p1b: Tyranitar|Dragon Dance|p1b: Tyranitar
+|-boost|p1b: Tyranitar|atk|1
+|-boost|p1b: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sneasler|10/100|[from] Sandstorm
+|-damage|p2b: Grimmsnarl|27/100|[from] Sandstorm
+|upkeep
+|inactive|zaharba has 30 seconds left.
+|
+|t:|1783198167
+|switch|p1a: Vivillon|Vivillon, L50, F|100/100
+|turn|6
+|
+|t:|1783198186
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: ackergaul|Reflect
+|move|p1a: Vivillon|Sleep Powder|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Protect
+|move|p1b: Tyranitar|Rock Slide|p2a: Sneasler|[spread] p2b
+|-activate|p2a: Sneasler|move: Protect
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2b: Grimmsnarl
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Vivillon|94/100|[from] Sandstorm
+|-damage|p2a: Sneasler|5/100|[from] Sandstorm
+|upkeep
+|
+|t:|1783198202
+|switch|p2b: Garchomp|Garchomp, L50, M|100/100
+|turn|7
+|
+|t:|1783198218
+|move|p1a: Vivillon|Sleep Powder|p2b: Garchomp
+|-status|p2b: Garchomp|slp|[from] move: Sleep Powder
+|move|p2a: Sneasler|Close Combat|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar|2
+|-damage|p1b: Tyranitar|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1b: Tyranitar
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|cant|p2b: Garchomp|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sneasler|0 fnt|[from] Sandstorm
+|-damage|p1a: Vivillon|88/100|[from] Sandstorm
+|faint|p2a: Sneasler
+|upkeep
+|
+|t:|1783198232
+|switch|p2a: Manectric|Manectric, L50, M|10/100
+|switch|p1b: Ninetales|Ninetales-Alola, L50, F, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|turn|8
+|
+|t:|1783198244
+|detailschange|p2a: Manectric|Manectric-Mega, L50, M
+|-mega|p2a: Manectric|Manectric|Manectite
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Vivillon|atk|1
+|-unboost|p1b: Ninetales|atk|1
+|move|p2a: Manectric|Protect|p2a: Manectric
+|-singleturn|p2a: Manectric|Protect
+|-curestatus|p2b: Garchomp|slp|[msg]
+|move|p2b: Garchomp|Protect|p2b: Garchomp
+|-singleturn|p2b: Garchomp|Protect
+|move|p1a: Vivillon|Sleep Powder|p2a: Manectric
+|-activate|p2a: Manectric|move: Protect
+|move|p1b: Ninetales|Blizzard|p2b: Garchomp|[spread] 
+|-activate|p2a: Manectric|move: Protect
+|-activate|p2b: Garchomp|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1783198267
+|move|p1a: Vivillon|Sleep Powder|p2a: Manectric
+|-status|p2a: Manectric|slp|[from] move: Sleep Powder
+|cant|p2a: Manectric|slp
+|move|p1b: Ninetales|Blizzard|p2b: Garchomp|[spread] p2a,p2b
+|-supereffective|p2b: Garchomp|2
+|-damage|p2a: Manectric|0 fnt
+|-damage|p2b: Garchomp|0 fnt
+|faint|p2a: Manectric
+|faint|p2b: Garchomp
+|
+|win|zaharba
+||ackergaul is ready for game 3.
+|inactive|zaharba has 30 seconds to confirm battle start!
+||zaharba is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆zaharba
+|player|p1|

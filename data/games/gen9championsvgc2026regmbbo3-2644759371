@@ -1,0 +1,180 @@
+|j|☆kanonkugle
+|j|‽ghostofphantasm
+|html|kanonkugleghostofphantasm    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783327926
+|gametype|doubles
+|player|p1|kanonkugle|unknown|
+|player|p2|ghostofphantasm|lady-gen4|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Eelektross, L50, F|
+|poke|p1|Basculegion-F, L50, F|
+|poke|p1|Politoed, L50, M|
+|poke|p1|Roserade, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Meowstic-F, L50, F, shiny|
+|poke|p2|Gengar, L50, F, shiny|
+|poke|p2|Roserade, L50, M|
+|poke|p2|Castform, L50, F, shiny|
+|poke|p2|Rotom-Fan, L50|
+|teampreview|4
+|showteam|p1|Pelipper||DampRock|Drizzle|Hurricane,HydroPump,Tailwind,Uturn|Modest||F|||50|]Eelektross||Eelektrossite|Levitate|Thunder,Liquidation,ThunderWave,Coil|Hasty||F|||50|]Basculegion-F||LifeOrb|SwiftSwim|LastRespects,Waterfall,AquaJet,IceFang|Adamant||F|||50|]Politoed||Leftovers|Drizzle|HelpingHand,IcyWind,HydroPump,Rest|Modest||M|||50|]Roserade||BigRoot|PoisonPoint|LeechSeed,Toxic,SludgeBomb,GigaDrain|Calm||M|||50|]Archaludon||SitrusBerry|Stamina|ElectroShot,FlashCannon,AuraSphere,Protect|Timid||M|||50|
+|showteam|p2|Floette-Eternal||Floettite|FlowerVeil|Protect,Substitute,Synthesis,Wish|Bold||F|||50|]Meowstic-F||Meowsticite|KeenEye|Gravity,LightScreen,Reflect,SleepTalk|Naive||F|||50|]Gengar||Gengarite|CursedBody|Spite,SunnyDay,SelfDestruct,CorrosiveGas|Modest||F|||50|]Roserade||FocusSash|PoisonPoint|Rest,SleepTalk,Snore,SleepPowder|Naughty||M|||50|]Castform||HabanBerry|Forecast|SunnyDay,RainDance,Snowscape,GuardSwap|Timid||F|||50|]Rotom-Fan||ChoiceScarf|Levitate|NastyPlot,Trick,ThunderWave,Charge|Modest|||||50|
+|
+|t:|1783327973
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|switch|p1b: Archaludon|Archaludon, L50, M|100/100
+|switch|p2a: Roserade|Roserade, L50, M|100/100
+|switch|p2b: Floette|Floette-Eternal, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1783328004
+|move|p2b: Floette|Protect|p2b: Floette
+|-singleturn|p2b: Floette|Protect
+|move|p1b: Archaludon|Flash Cannon|p2b: Floette
+|-activate|p2b: Floette|move: Protect
+|move|p2a: Roserade|Sleep Powder|p1a: Pelipper
+|-status|p1a: Pelipper|slp|[from] move: Sleep Powder
+|cant|p1a: Pelipper|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1783328024
+|move|p1b: Archaludon|Flash Cannon|p2b: Floette
+|-supereffective|p2b: Floette|1
+|-damage|p2b: Floette|40/100
+|move|p2a: Roserade|Sleep Powder|p1b: Archaludon|[miss]
+|-miss|p2a: Roserade|p1b: Archaludon
+|move|p2b: Floette|Substitute|p2b: Floette
+|-start|p2b: Floette|Substitute
+|-damage|p2b: Floette|15/100
+|cant|p1a: Pelipper|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1783328039
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2b: Floette
+|-end|p2b: Floette|Substitute
+|move|p2a: Roserade|Sleep Powder|p1b: Archaludon
+|-status|p1b: Archaludon|slp|[from] move: Sleep Powder
+|move|p2b: Floette|Synthesis|p2b: Floette
+|-heal|p2b: Floette|41/100
+|-curestatus|p1a: Pelipper|slp|[msg]
+|move|p1a: Pelipper|Tailwind|p1a: Pelipper
+|-sidestart|p1: kanonkugle|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1783328057
+|move|p2b: Floette|Protect|p2b: Floette
+|-singleturn|p2b: Floette|Protect
+|cant|p1b: Archaludon|slp
+|move|p1a: Pelipper|Hurricane|p2a: Roserade
+|-supereffective|p2a: Roserade|1
+|-enditem|p2a: Roserade|Focus Sash
+|-damage|p2a: Roserade|1/100
+|-start|p2a: Roserade|confusion
+|-activate|p2a: Roserade|confusion
+|move|p2a: Roserade|Sleep Powder|p1a: Pelipper|[miss]
+|-miss|p2a: Roserade|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1783328076
+|cant|p1b: Archaludon|slp
+|move|p1a: Pelipper|U-turn|p2a: Roserade
+|-damage|p2a: Roserade|0 fnt
+|faint|p2a: Roserade
+|
+|t:|1783328082
+|switch|p1a: Eelektross|Eelektross, L50, F|100/100|[from] U-turn
+|move|p2b: Floette|Wish|p2b: Floette
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|j| Juxlos1
+|
+|t:|1783328088
+|switch|p2a: Gengar|Gengar, L50, F, shiny|100/100
+|turn|6
+|
+|t:|1783328100
+|detailschange|p1a: Eelektross|Eelektross-Mega, L50, F
+|-mega|p1a: Eelektross|Eelektross|Eelektrossite
+|detailschange|p2a: Gengar|Gengar-Mega, L50, F, shiny
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2b: Floette|Protect|p2b: Floette
+|-singleturn|p2b: Floette|Protect
+|-curestatus|p1b: Archaludon|slp|[msg]
+|move|p1b: Archaludon|Electro Shot||[still]
+|-prepare|p1b: Archaludon|Electro Shot
+|-boost|p1b: Archaludon|spa|1
+|-anim|p1b: Archaludon|Electro Shot|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|move|p1a: Eelektross|Thunder|p2b: Floette
+|-activate|p2b: Floette|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Floette|90/100|[from] move: Wish|[wisher] Floette
+|-sideend|p1: kanonkugle|move: Tailwind
+|upkeep
+|
+|t:|1783328117
+|switch|p2a: Rotom|Rotom-Fan, L50|100/100
+|turn|7
+|
+|t:|1783328131
+|move|p2a: Rotom|Trick|p1b: Archaludon
+|-activate|p2a: Rotom|move: Trick|[of] p1b: Archaludon
+|-item|p1b: Archaludon|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Sitrus Berry|[from] move: Trick
+|move|p1b: Archaludon|Flash Cannon|p2b: Floette
+|-supereffective|p2b: Floette|1
+|-damage|p2b: Floette|0 fnt
+|faint|p2b: Floette
+|move|p1a: Eelektross|Liquidation|p2a: Rotom
+|-damage|p2a: Rotom|39/100
+|-enditem|p2a: Rotom|Sitrus Berry|[eat]
+|-heal|p2a: Rotom|63/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1783328149
+|move|p1b: Archaludon|Flash Cannon|p2a: Rotom
+|-resisted|p2a: Rotom|1
+|-damage|p2a: Rotom|11/100
+|move|p1a: Eelektross|Liquidation|p2a: Rotom
+|-damage|p2a: Rotom|0 fnt
+|faint|p2a: Rotom
+|
+|win|kanonkugle
+|c|☆kanonkugle|gg
+||kanonkugle is ready for game 2.
+|inactive|ghostofphantasm has 30 seconds to confirm battle start!
+||ghostofphantasm is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l| Juxlos1

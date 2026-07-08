@@ -1,0 +1,187 @@
+|j|☆Fayz Sharpie
+|j|☆kirbyhat5
+|html|Fayz Sharpiekirbyhat5    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783019401
+|gametype|doubles
+|player|p1|Fayz Sharpie|koga|
+|player|p2|kirbyhat5|unknown|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|raw|1 custom rule: !Force Open Team Sheets
+|clearpoke
+|poke|p1|Aerodactyl, L50, F|
+|poke|p1|Orthworm, L50, F|
+|poke|p1|Scrafty, L50, M|
+|poke|p1|Mamoswine, L50, F|
+|poke|p1|Cofagrigus, L50, F|
+|poke|p1|Slowbro, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Talonflame, L50, M|
+|poke|p2|Empoleon, L50, M|
+|poke|p2|Meowscarada, L50, F|
+|poke|p2|Gardevoir, L50, M|
+|poke|p2|Delphox, L50, M|
+|teampreview|4
+|
+|t:|1783019519
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Cofagrigus|Cofagrigus, L50, F|100/100
+|switch|p1b: Scrafty|Scrafty, L50, M|100/100
+|switch|p2a: Talonflame|Talonflame, L50, M|100/100
+|switch|p2b: Empoleon|Empoleon, L50, M|100/100
+|-ability|p1b: Scrafty|Intimidate|boost
+|-unboost|p2a: Talonflame|atk|1
+|-unboost|p2b: Empoleon|atk|1
+|-ability|p2b: Empoleon|Competitive|boost
+|-boost|p2b: Empoleon|spa|2
+|-enditem|p2a: Talonflame|White Herb
+|-clearnegativeboost|p2a: Talonflame|[silent]
+|turn|1
+|
+|t:|1783019566
+|move|p2b: Empoleon|Protect|p2b: Empoleon
+|-singleturn|p2b: Empoleon|Protect
+|move|p1b: Scrafty|Fake Out|p2b: Empoleon
+|-activate|p2b: Empoleon|move: Protect
+|move|p2a: Talonflame|Overheat|p1b: Scrafty
+|-damage|p1b: Scrafty|66/100
+|-unboost|p2a: Talonflame|spa|2
+|move|p1a: Cofagrigus|Trick Room|p1a: Cofagrigus
+|-fieldstart|move: Trick Room|[of] p1a: Cofagrigus
+|
+|upkeep
+|turn|2
+|
+|t:|1783019587
+|move|p2a: Talonflame|Acrobatics|p1b: Scrafty
+|-supereffective|p1b: Scrafty|1
+|-damage|p1b: Scrafty|9/100
+|move|p1a: Cofagrigus|Body Press|p2b: Empoleon
+|-supereffective|p2b: Empoleon|1
+|-damage|p2b: Empoleon|42/100
+|move|p1b: Scrafty|Drain Punch|p2b: Empoleon
+|-supereffective|p2b: Empoleon|1
+|-damage|p2b: Empoleon|0 fnt
+|-heal|p1b: Scrafty|33/100|[from] drain|[of] p2b: Empoleon
+|faint|p2b: Empoleon
+|
+|upkeep
+|
+|t:|1783019597
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|turn|3
+|
+|t:|1783019615
+|move|p2a: Talonflame|Acrobatics|p1b: Scrafty
+|-supereffective|p1b: Scrafty|1
+|-damage|p1b: Scrafty|0 fnt
+|faint|p1b: Scrafty
+|move|p1a: Cofagrigus|Iron Defense|p1a: Cofagrigus
+|-boost|p1a: Cofagrigus|def|2
+|move|p2b: Garchomp|Earthquake|p1a: Cofagrigus|[spread] p1a
+|-immune|p2a: Talonflame
+|-damage|p1a: Cofagrigus|82/100
+|-damage|p2b: Garchomp|90/100|[from] item: Life Orb
+|
+|-heal|p1a: Cofagrigus|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783019627
+|switch|p1b: Slowbro|Slowbro, L50, F|100/100
+|turn|4
+|
+|t:|1783019663
+|switch|p2a: Gardevoir|Gardevoir, L50, M|100/100
+|move|p1b: Slowbro|Scald|p2a: Gardevoir
+|-damage|p2a: Gardevoir|45/100
+|-damage|p1b: Slowbro|90/100|[from] item: Life Orb
+|move|p1a: Cofagrigus|Poltergeist|p2b: Garchomp
+|-activate|p2b: Garchomp|move: Poltergeist|Life Orb
+|-damage|p2b: Garchomp|55/100
+|move|p2b: Garchomp|Earthquake|p1a: Cofagrigus|[spread] p1a,p1b
+|-activate|p2a: Gardevoir|ability: Telepathy
+|-crit|p1b: Slowbro
+|-damage|p1a: Cofagrigus|70/100
+|-damage|p1b: Slowbro|23/100
+|-damage|p2b: Garchomp|45/100|[from] item: Life Orb
+|
+|-heal|p1a: Cofagrigus|76/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1783019685
+|move|p2b: Garchomp|Protect|p2b: Garchomp
+|-singleturn|p2b: Garchomp|Protect
+|move|p1b: Slowbro|Ice Beam|p2b: Garchomp
+|-activate|p2b: Garchomp|move: Protect
+|move|p1a: Cofagrigus|Poltergeist|p2a: Gardevoir
+|-activate|p2a: Gardevoir|move: Poltergeist|Choice Scarf
+|-supereffective|p2a: Gardevoir|1
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|
+|-heal|p1a: Cofagrigus|83/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1783019694
+|switch|p2a: Talonflame|Talonflame, L50, M|100/100
+|turn|6
+|
+|t:|1783019700
+|move|p2a: Talonflame|Overheat|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|48/100
+|-unboost|p2a: Talonflame|spa|2
+|move|p2b: Garchomp|Earthquake|p1a: Cofagrigus|[spread] p1a,p1b
+|-immune|p2a: Talonflame
+|-damage|p1a: Cofagrigus|30/100
+|-damage|p1b: Slowbro|0 fnt
+|faint|p1b: Slowbro
+|-damage|p2b: Garchomp|36/100|[from] item: Life Orb
+|move|p1a: Cofagrigus|Poltergeist|p2b: Garchomp
+|-activate|p2b: Garchomp|move: Poltergeist|Life Orb
+|-damage|p2b: Garchomp|2/100
+|
+|-heal|p1a: Cofagrigus|36/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783019705
+|switch|p1b: Aerodactyl|Aerodactyl, L50, F|100/100
+|-ability|p1b: Aerodactyl|Unnerve
+|turn|7
+|
+|t:|1783019716
+|move|p1b: Aerodactyl|Protect|p1b: Aerodactyl
+|-singleturn|p1b: Aerodactyl|Protect
+|move|p2a: Talonflame|Acrobatics|p1a: Cofagrigus
+|-damage|p1a: Cofagrigus|25/100
+|-activate|p1a: Cofagrigus|ability: Mummy|p2a: Talonflame|[ability] Gale Wings
+|move|p2b: Garchomp|Rock Slide|p1a: Cofagrigus|[spread] p1a
+|-activate|p1b: Aerodactyl|move: Protect
+|-damage|p1a: Cofagrigus|15/100
+|-damage|p2b: Garchomp|0 fnt|[from] item: Life Orb
+|faint|p2b: Garchomp
+|move|p1a: Cofagrigus|Body Press|p2a: Talonflame
+|-resisted|p2a: Talonflame|1
+|-damage|p2a: Talonflame|62/100
+|
+|-heal|p1a: Cofagrigus|21/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|c|☆Fayz Sharpie|gg
+|c|☆kirbyhat5|gg
+|
+|t:|1783019735
+|detailschange|p1b: Aerodactyl|Aerodactyl-Mega, L50, F
+|-mega|p1b: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p1b: Aerodactyl|Rock Slide|p2a: Talonflame
+|-supereffective|p2a: Talonflame|2
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|
+|win|Fayz Sharpie

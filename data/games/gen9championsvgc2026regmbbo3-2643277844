@@ -1,0 +1,154 @@
+|j|☆mygreat
+|j|☆Verycreativname
+|html|mygreatVerycreativname    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783076085
+|gametype|doubles
+|player|p1|mygreat|veteran|1179
+|player|p2|Verycreativname|hilbert-wonderlauncher|1162
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Staraptor, L50, M|
+|poke|p2|Ceruledge, L50, M|
+|poke|p2|Milotic, L50, F|
+|poke|p2|Scizor, L50, M|
+|teampreview|4
+|showteam|p1|Whimsicott||FocusSash|Prankster|Tailwind,Moonblast,Encore,Protect|Timid||F|||50|]Charizard||CharizarditeY|Blaze|SolarBeam,WeatherBall,HeatWave,Protect|Modest||M|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,RockSlide,Earthquake,Protect|Jolly||M|||50|]Sneasler||WhiteHerb|Unburden|DireClaw,CloseCombat,FakeOut,Protect|Adamant||M|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|Adamant||M|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,AquaJet,FlipTurn,LastRespects|Jolly||M|||50|
+|showteam|p2|Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,IronHead,Protect|Adamant||F|||50|]Whimsicott||FocusSash|Prankster|Protect,Charm,Moonblast,Tailwind|Calm||M|||50|]Staraptor||Staraptite|Intimidate|BraveBird,CloseCombat,Roost,Protect|Adamant||M|||50|]Ceruledge||ColburBerry|FlashFire|BitterBlade,Protect,Poltergeist,ShadowSneak|Adamant||M|||50|]Milotic||Leftovers|Competitive|IceBeam,HydroPump,Recover,Protect|Bold||F|||50|]Scizor||Scizorite|Technician|BulletPunch,BugBite,SwordsDance,Protect|Adamant||M|||50|
+|
+|t:|1783076114
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, M|100/100
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|switch|p2a: Staraptor|Staraptor, L50, M|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, M|100/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|-unboost|p1b: Garchomp|atk|1
+|turn|1
+|
+|t:|1783076146
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|detailschange|p2a: Staraptor|Staraptor-Mega, L50, M
+|-mega|p2a: Staraptor|Staraptor|Staraptite
+|move|p2b: Whimsicott|Charm|p2a: Staraptor
+|-boost|p2a: Staraptor|atk|2
+|move|p2a: Staraptor|Brave Bird|p1a: Charizard
+|-crit|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|-damage|p2a: Staraptor|69/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783076159
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100
+|turn|2
+|
+|t:|1783076171
+|move|p2b: Whimsicott|Charm|p1a: Garchomp
+|-unboost|p1a: Garchomp|atk|2
+|move|p1b: Whimsicott|Moonblast|p2a: Staraptor
+|-supereffective|p2a: Staraptor|1
+|-damage|p2a: Staraptor|0 fnt
+|faint|p2a: Staraptor
+|move|p1a: Garchomp|Rock Slide|p2b: Whimsicott
+|-damage|p2b: Whimsicott|79/100
+|-damage|p1a: Garchomp|90/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783076183
+|switch|p2a: Milotic|Milotic, L50, F|100/100
+|turn|3
+|
+|t:|1783076194
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: Verycreativname|move: Tailwind
+|move|p2a: Milotic|Ice Beam|p1a: Basculegion
+|-resisted|p1a: Basculegion|1
+|-damage|p1a: Basculegion|87/100
+|move|p1b: Whimsicott|Moonblast|p2b: Whimsicott
+|-damage|p2b: Whimsicott|43/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1783076210
+|move|p2b: Whimsicott|Charm|p1a: Basculegion
+|-unboost|p1a: Basculegion|atk|2
+|move|p1a: Basculegion|Last Respects|p2a: Milotic
+|-damage|p2a: Milotic|71/100
+|move|p2a: Milotic|Ice Beam|p1b: Whimsicott
+|-supereffective|p1b: Whimsicott|1
+|-damage|p1b: Whimsicott|32/100
+|move|p1b: Whimsicott|Moonblast|p2b: Whimsicott
+|-damage|p2b: Whimsicott|10/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Milotic|77/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1783076226
+|move|p2b: Whimsicott|Charm|p1a: Basculegion
+|-unboost|p1a: Basculegion|atk|2
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: mygreat|move: Tailwind
+|move|p1a: Basculegion|Last Respects|p2a: Milotic
+|-damage|p2a: Milotic|59/100
+|move|p2a: Milotic|Ice Beam|p1b: Whimsicott
+|-supereffective|p1b: Whimsicott|1
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|
+|-weather|none
+|-heal|p2a: Milotic|65/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783076230
+|switch|p1b: Garchomp|Garchomp, L50, M|90/100
+|turn|6
+|
+|t:|1783076243
+|move|p2b: Whimsicott|Charm|p1b: Garchomp
+|-unboost|p1b: Garchomp|atk|2
+|move|p1a: Basculegion|Last Respects|p2a: Milotic
+|-damage|p2a: Milotic|38/100
+|move|p1b: Garchomp|Earthquake|p2a: Milotic|[spread] p1a,p2a,p2b
+|-crit|p1a: Basculegion
+|-resisted|p2b: Whimsicott|1
+|-crit|p2b: Whimsicott
+|-damage|p1a: Basculegion|0 fnt
+|-damage|p2a: Milotic|17/100
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p1a: Basculegion
+|faint|p2b: Whimsicott
+|-damage|p1b: Garchomp|80/100|[from] item: Life Orb
+|move|p2a: Milotic|Ice Beam|p1b: Garchomp
+|-supereffective|p1b: Garchomp|2
+|-damage|p1b: Garchomp|0 fnt
+|faint|p1b: Garchomp
+|
+|win|Verycreativname

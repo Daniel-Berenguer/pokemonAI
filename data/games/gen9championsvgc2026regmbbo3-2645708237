@@ -1,0 +1,87 @@
+|j|☆elgra
+|j|☆M1melo
+|html|elgraM1melo    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783472435
+|gametype|doubles
+|player|p1|elgra|proton|1000
+|player|p2|M1melo|2|1061
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Orthworm, L50, M|
+|poke|p1|Gengar, L50, F|
+|poke|p1|Oranguru, L50, F|
+|poke|p1|Rhyperior, L50, F|
+|poke|p1|Chimecho, L50, M|
+|poke|p2|Staraptor, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Rotom-Wash, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Charizard, L50, F, shiny|
+|teampreview|4
+|showteam|p1|Incineroar||ChestoBerry|Intimidate|FakeOut,PartingShot,Taunt,FlareBlitz|Adamant||M|||50|]Orthworm||SitrusBerry|EarthEater|ShedTail,Protect,HelpingHand,BodyPress|Impish||M|||50|]Gengar||Gengarite|CursedBody|ShadowBall,SludgeWave,Thunderbolt,Protect|Timid||F|||50|]Oranguru||MentalHerb|Telepathy|TrickRoom,Instruct,Taunt,Protect|Impish||F|||50|]Rhyperior||SoftSand|SolidRock|Earthquake,RockWrecker,RockSlide,Protect|Adamant||F|||50|]Chimecho||Chimechite|Levitate|Protect,Boomburst,FlashCannon,TrickRoom|Quiet||M|||50|
+|showteam|p2|Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,Protect,Roost|Adamant||M|||50|]Whimsicott||FocusSash|Prankster|Taunt,Tailwind,Encore,Charm|Timid||M|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,RockSlide,DragonClaw,Protect|Jolly||M|||50|]Rotom-Wash||SitrusBerry|Levitate|HydroPump,Thunderbolt,Discharge,Protect|Timid|||||50|]Grimmsnarl||LightClay|Prankster|FakeOut,PartingShot,Reflect,LightScreen|Adamant||M|||50|]Charizard||CharizarditeY|SolarPower|HeatWave,WeatherBall,SolarBeam,Protect|Timid||F|||50|
+|
+|t:|1783472443
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Oranguru|Oranguru, L50, F|100/100
+|switch|p1b: Orthworm|Orthworm, L50, M|100/100
+|switch|p2a: Staraptor|Staraptor, L50, M|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, M|100/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Oranguru|atk|1
+|-unboost|p1b: Orthworm|atk|1
+|turn|1
+|
+|t:|1783472456
+|move|p2b: Whimsicott|Taunt|p1a: Oranguru
+|-start|p1a: Oranguru|move: Taunt
+|-enditem|p1a: Oranguru|Mental Herb
+|-end|p1a: Oranguru|move: Taunt
+|move|p2a: Staraptor|Close Combat|p1b: Orthworm
+|-supereffective|p1b: Orthworm|1
+|-damage|p1b: Orthworm|48/100
+|-unboost|p2a: Staraptor|def|1
+|-unboost|p2a: Staraptor|spd|1
+|-enditem|p1b: Orthworm|Sitrus Berry|[eat]
+|-heal|p1b: Orthworm|72/100|[from] item: Sitrus Berry
+|move|p1b: Orthworm|Shed Tail|p1b: Orthworm
+|-start|p1b: Orthworm|Substitute|[from] move: Shed Tail
+|-damage|p1b: Orthworm|22/100
+|
+|t:|1783472470
+|switch|p1b: Rhyperior|Rhyperior, L50, F|100/100|[from] Shed Tail
+|move|p1a: Oranguru|Trick Room|p1a: Oranguru
+|-fieldstart|move: Trick Room|[of] p1a: Oranguru
+|
+|upkeep
+|turn|2
+|
+|t:|1783472485
+|switch|p1a: Orthworm|Orthworm, L50, M|22/100
+|detailschange|p2a: Staraptor|Staraptor-Mega, L50, M
+|-mega|p2a: Staraptor|Staraptor|Staraptite
+|move|p2b: Whimsicott|Encore||[still]
+|-fail|p2b: Whimsicott
+|move|p1b: Rhyperior|Rock Slide|p2b: Whimsicott|[spread] p2a,p2b
+|-damage|p2a: Staraptor|43/100
+|-damage|p2b: Whimsicott|60/100
+|cant|p2a: Staraptor|flinch
+|
+|upkeep
+|turn|3
+|-message|M1melo forfeited.
+|
+|win|elgra
+|raw|elgra's rating: 1000 → 1047(+47 for winning)
+|raw|M1melo's rating: 1061 → 1039(-22 for losing)
+|l|☆M1melo
+|player|p2|

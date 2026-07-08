@@ -1,0 +1,198 @@
+|j|☆bighamsterbaseball
+|j|☆Chestnutsroastin
+|html|bighamsterbaseballChestnutsroastin    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1783184119
+|gametype|doubles
+|player|p1|bighamsterbaseball|pokemaniac|1162
+|player|p2|Chestnutsroastin|veteranf|1115
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pyroar, L50, F|
+|poke|p1|Scrafty, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Mamoswine, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Mawile, L50, F, shiny|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Venusaur, L50, F, shiny|
+|poke|p2|Hydreigon, L50, M|
+|teampreview|4
+|showteam|p1|Pyroar||Pyroarite|Unnerve|HeatWave,Overheat,Yawn,Protect|Timid||F|||50|]Scrafty||Scraftinite|Intimidate|FakeOut,DrainPunch,KnockOff,IcePunch|Adamant||M|||50|]Torkoal||HeatRock|Drought|Eruption,WeatherBall,HelpingHand,Protect|Quiet||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,Thunderbolt,TrickRoom,Protect|Quiet||M|||50|]Venusaur||LifeOrb|Chlorophyll|EnergyBall,SludgeBomb,EarthPower,Protect|Modest||F|||50|]Mamoswine||FocusSash|Oblivious|IceShard,HighHorsepower,RockSlide,Protect|Adamant||M|||50|
+|showteam|p2|Farigiraf||IronBall|ArmorTail|HelpingHand,TrickRoom,SunnyDay,HyperVoice|Relaxed||M|||50|]Mawile||Mawilite|HyperCutter|SuckerPunch,PlayRough,RockSlide,Protect|Brave||F|||50|]Incineroar||LifeOrb|Intimidate|FakeOut,DarkestLariat,FlareBlitz,CloseCombat|Adamant||F|||50|]Torkoal||Charcoal|Drought|WeatherBall,Eruption,SolarBeam,HelpingHand|Quiet||F|||50|]Venusaur||Venusaurite|Chlorophyll|SludgeBomb,GigaDrain,EarthPower,Protect|Modest||F|||50|]Hydreigon||ChoiceScarf|Levitate|DracoMeteor,DarkPulse,Snarl,HeatWave|Timid||M|||50|
+|
+|t:|1783184195
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|switch|p1b: Venusaur|Venusaur, L50, F|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2b: Hydreigon|Hydreigon, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1783184241
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p1b: Venusaur|Sludge Bomb|p2b: Hydreigon
+|-damage|p2b: Hydreigon|31/100
+|-damage|p1b: Venusaur|90/100|[from] item: Life Orb
+|move|p2b: Hydreigon|Draco Meteor|p1a: Torkoal
+|-activate|p1a: Torkoal|move: Protect
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1783184255
+|switch|p1b: Scrafty|Scrafty, L50, M|100/100
+|-ability|p1b: Scrafty|Intimidate|boost
+|-unboost|p2a: Farigiraf|atk|1
+|-unboost|p2b: Hydreigon|atk|1
+|move|p2a: Farigiraf|Hyper Voice|p1b: Scrafty|[spread] p1a,p1b
+|-crit|p1b: Scrafty
+|-damage|p1a: Torkoal|67/100
+|-damage|p1b: Scrafty|65/100
+|move|p1a: Torkoal|Eruption|p2b: Hydreigon|[spread] p2a,p2b
+|-resisted|p2b: Hydreigon|1
+|-damage|p2a: Farigiraf|54/100
+|-damage|p2b: Hydreigon|3/100
+|move|p2b: Hydreigon|Draco Meteor|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|-unboost|p2b: Hydreigon|spa|2
+|faint|p1a: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783184264
+|switch|p1a: Mamoswine|Mamoswine, L50, M|100/100
+|turn|3
+|
+|t:|1783184290
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Mamoswine|unboost|Attack|[from] ability: Oblivious|[of] p1a: Mamoswine
+|-unboost|p1b: Scrafty|atk|1
+|move|p1b: Scrafty|Drain Punch|p2a: Incineroar
+|-supereffective|p2a: Incineroar|1
+|-damage|p2a: Incineroar|58/100
+|-heal|p1b: Scrafty|89/100|[from] drain|[of] p2a: Incineroar
+|move|p1a: Mamoswine|Rock Slide|p2a: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar|1
+|-damage|p2a: Incineroar|16/100
+|-damage|p2b: Hydreigon|0 fnt
+|faint|p2b: Hydreigon
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783184307
+|switch|p2b: Mawile|Mawile, L50, F, shiny|100/100
+|turn|4
+|
+|t:|1783184319
+|switch|p1b: Venusaur|Venusaur, L50, F|90/100
+|detailschange|p2b: Mawile|Mawile-Mega, L50, F, shiny
+|-mega|p2b: Mawile|Mawile|Mawilite
+|move|p1a: Mamoswine|Protect|p1a: Mamoswine
+|-singleturn|p1a: Mamoswine|Protect
+|move|p2b: Mawile|Rock Slide|p1b: Venusaur|[spread] p1b
+|-activate|p1a: Mamoswine|move: Protect
+|-damage|p1b: Venusaur|45/100
+|move|p2a: Incineroar|Close Combat|p1a: Mamoswine
+|-activate|p1a: Mamoswine|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1783184340
+|move|p1b: Venusaur|Protect|p1b: Venusaur
+|-singleturn|p1b: Venusaur|Protect
+|move|p2b: Mawile|Rock Slide|p1a: Mamoswine|[spread] p1a
+|-activate|p1b: Venusaur|move: Protect
+|-damage|p1a: Mamoswine|58/100
+|move|p2a: Incineroar|Close Combat|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine|1
+|-damage|p1a: Mamoswine|0 fnt
+|-unboost|p2a: Incineroar|def|1
+|-unboost|p2a: Incineroar|spd|1
+|faint|p1a: Mamoswine
+|-damage|p2a: Incineroar|6/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1783184346
+|switch|p1a: Scrafty|Scrafty, L50, M|89/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Mawile|atk|1
+|turn|6
+|
+|t:|1783184378
+|switch|p2b: Farigiraf|Farigiraf, L50, M|54/100
+|move|p1b: Venusaur|Earth Power|p2b: Farigiraf
+|-damage|p2b: Farigiraf|15/100
+|-damage|p1b: Venusaur|36/100|[from] item: Life Orb
+|move|p2a: Incineroar|Close Combat|p1a: Scrafty
+|-supereffective|p1a: Scrafty|1
+|-damage|p1a: Scrafty|24/100
+|-unboost|p2a: Incineroar|def|1
+|-unboost|p2a: Incineroar|spd|1
+|-damage|p2a: Incineroar|0 fnt|[from] item: Life Orb
+|faint|p2a: Incineroar
+|move|p1a: Scrafty|Drain Punch|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|-heal|p1a: Scrafty|34/100|[from] drain|[of] p2b: Farigiraf
+|faint|p2b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783184389
+|switch|p2b: Mawile|Mawile-Mega, L50, F, shiny|100/100
+|turn|7
+|
+|t:|1783184414
+|detailschange|p1a: Scrafty|Scrafty-Mega, L50, M
+|-mega|p1a: Scrafty|Scrafty|Scraftinite
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2b: Mawile|atk|1
+|move|p1b: Venusaur|Protect|p1b: Venusaur
+|-singleturn|p1b: Venusaur|Protect
+|move|p1a: Scrafty|Drain Punch|p2b: Mawile
+|-damage|p2b: Mawile|59/100
+|-heal|p1a: Scrafty|52/100|[from] drain|[of] p2b: Mawile
+|move|p2b: Mawile|Play Rough|p1a: Scrafty
+|-supereffective|p1a: Scrafty|2
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1783184419
+|move|p2b: Mawile|Sucker Punch|p1b: Venusaur
+|-damage|p1b: Venusaur|0 fnt
+|faint|p1b: Venusaur
+|
+|win|Chestnutsroastin
+|raw|bighamsterbaseball's rating: 1162 → 1134(-28 for losing)
+|raw|Chestnutsroastin's rating: 1115 → 1143(+28 for winning)
+|c|☆Chestnutsroastin|gg
+|c|☆bighamsterbaseball|gg
+|j| The Educated Fool

@@ -1,0 +1,134 @@
+|j|☆MessyBench
+|j|☆TeyVgc
+|html|MessyBenchTeyVgc    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783313075
+|gametype|doubles
+|player|p1|MessyBench|101|1201
+|player|p2|TeyVgc|rood|1301
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gengar, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Kommo-o, L50, M|
+|poke|p1|Drampa, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Garchomp, L50, M|
+|teampreview|4
+|showteam|p1|Gengar||Gengarite|CursedBody|Protect,ShadowBall,SludgeBomb,Disable|Timid||F|||50|]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,FreezeDry,Protect,Encore|Timid||M|||50|]Whimsicott||FairyFeather|Prankster|Tailwind,Moonblast,Encore,FakeTears|Bold||M|||50|]Kommo-o||Leftovers|Soundproof|BulkUp,BodyPress,Protect,BreakingSwipe|Jolly||M|||50|]Drampa||Drampanite|CloudNine|Protect,EarthPower,HyperVoice,DracoMeteor|Quiet||M|||50|]Farigiraf||ColburBerry|ArmorTail|Protect,TrickRoom,TwinBeam,HyperVoice|Modest||M|||50|
+|showteam|p2|Sneasler||WhiteHerb|Unburden|CloseCombat,GunkShot,Coaching,FakeOut|Jolly||M|||50|]Floette-Eternal||Floettite|FlowerVeil|CalmMind,Protect,Moonblast,DazzlingGleam|Modest||F|||50|]Sinistcha||ColburBerry|Hospitality|MatchaGotcha,Protect,RagePowder,TrickRoom|Bold|||||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,ThroatChop,PartingShot|Impish||M|||50|]Kingambit||ChopleBerry|Defiant|KowtowCleave,SuckerPunch,IronHead,Protect|Adamant||M|||50|]Garchomp||Garchompite|RoughSkin|DragonClaw,Earthquake,SwordsDance,Protect|Adamant||M|||50|
+|
+|t:|1783313100
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kommo-o|Kommo-o, L50, M|100/100
+|switch|p1b: Gengar|Gengar, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|turn|1
+|
+|t:|1783313124
+|detailschange|p1b: Gengar|Gengar-Mega, L50, F
+|-mega|p1b: Gengar|Gengar|Gengarite
+|move|p1b: Gengar|Protect|p1b: Gengar
+|-singleturn|p1b: Gengar|Protect
+|move|p2a: Sneasler|Gunk Shot|p1a: Kommo-o
+|-damage|p1a: Kommo-o|50/100y
+|-status|p1a: Kommo-o|psn
+|move|p1a: Kommo-o|Bulk Up|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|move|p2b: Kingambit|Kowtow Cleave|p1b: Gengar
+|-activate|p1b: Gengar|move: Protect
+|
+|-heal|p1a: Kommo-o|56/100 psn|[from] item: Leftovers
+|-damage|p1a: Kommo-o|43/100 psn|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1783313141
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|move|p2a: Sneasler|Gunk Shot|p1a: Kommo-o
+|-damage|p1a: Kommo-o|12/100 psn
+|move|p1a: Kommo-o|Body Press|p2b: Kingambit
+|-supereffective|p2b: Kingambit|2
+|-enditem|p2b: Kingambit|Chople Berry|[eat]
+|-enditem|p2b: Kingambit|Chople Berry|[weaken]
+|-damage|p2b: Kingambit|24/100
+|move|p2b: Kingambit|Kowtow Cleave|p1b: Ninetales
+|-resisted|p1b: Ninetales|1
+|-damage|p1b: Ninetales|75/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Kommo-o|18/100 psn|[from] item: Leftovers
+|-damage|p1a: Kommo-o|6/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1783313158
+|move|p1a: Kommo-o|Protect|p1a: Kommo-o
+|-singleturn|p1a: Kommo-o|Protect
+|move|p2b: Kingambit|Sucker Punch||[still]
+|-fail|p2b: Kingambit
+|move|p2a: Sneasler|Gunk Shot|p1b: Ninetales
+|-supereffective|p1b: Ninetales|1
+|-damage|p1b: Ninetales|0 fnt
+|faint|p1b: Ninetales
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Kommo-o|12/100 psn|[from] item: Leftovers
+|-damage|p1a: Kommo-o|0 fnt|[from] psn
+|faint|p1a: Kommo-o
+|upkeep
+|
+|t:|1783313162
+|switch|p1b: Gengar|Gengar-Mega, L50, F|100/100
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|turn|4
+|
+|t:|1783313197
+|move|p1b: Gengar|Protect|p1b: Gengar
+|-singleturn|p1b: Gengar|Protect
+|move|p2a: Sneasler|Close Combat|p1a: Farigiraf
+|-damage|p1a: Farigiraf|41/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|move|p1a: Farigiraf|Twin Beam|p2a: Sneasler
+|-supereffective|p2a: Sneasler|2
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|-hitcount|p2: Sneasler|1
+|move|p2b: Kingambit|Kowtow Cleave|p1a: Farigiraf
+|-supereffective|p1a: Farigiraf|1
+|-enditem|p1a: Farigiraf|Colbur Berry|[eat]
+|-enditem|p1a: Farigiraf|Colbur Berry|[weaken]
+|-damage|p1a: Farigiraf|0 fnt
+|faint|p1a: Farigiraf
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1783313208
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1b: Gengar|atk|1
+|turn|5
+|-message|MessyBench forfeited.
+|
+|win|TeyVgc
+|raw|MessyBench's rating: 1201 → 1183(-18 for losing)
+|raw|TeyVgc's rating: 1301 → 1315(+14 for winning)

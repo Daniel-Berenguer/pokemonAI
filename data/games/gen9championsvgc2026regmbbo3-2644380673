@@ -1,0 +1,156 @@
+|j|☆new mental
+|j|☆BVSelf
+|html|new mentalBVSelf    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783266170
+|gametype|doubles
+|player|p1|new mental|volkner|1287
+|player|p2|BVSelf|juan|1342
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Aerodactyl, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Venusaur, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Scrafty, L50, F|
+|poke|p2|Mamoswine, L50, F|
+|poke|p2|Pyroar, L50, M|
+|teampreview|4
+|showteam|p1|Aerodactyl||Aerodactylite|Unnerve|IceFang,RockSlide,Tailwind,DualWingbeat|Jolly||F|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,Earthquake,Protect|Jolly||F|||50|]Kingambit||FocusSash|Defiant|SuckerPunch,KowtowCleave,IronHead,LowKick|Adamant||M|||50|]Charizard||CharizarditeY|SolarPower|Protect,HeatWave,SolarBeam,WeatherBall|Timid||M|||50|]Sylveon||FairyFeather|Pixilate|Protect,HyperVoice,HyperBeam,QuickAttack|Modest||M|||50|]Farigiraf||SitrusBerry|ArmorTail|TrickRoom,Thunderbolt,Psychic,Roar|Bold||F|||50|
+|showteam|p2|Torkoal||HeatRock|Drought|Eruption,WeatherBall,HelpingHand,Protect|Quiet||F|||50|]Venusaur||LifeOrb|Chlorophyll|EnergyBall,SludgeBomb,EarthPower,Protect|Modest||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,Thunderbolt,TrickRoom,Protect|Quiet||F|||50|]Scrafty||Scraftinite|Intimidate|KnockOff,DrainPunch,IcePunch,FakeOut|Adamant||F|||50|]Mamoswine||FocusSash|Oblivious|HighHorsepower,IcicleCrash,IceShard,Protect|Adamant||F|||50|]Pyroar||Pyroarite|Unnerve|HeatWave,Overheat,Yawn,Protect|Timid||M|||50|
+|
+|t:|1783266247
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, L50, F|100/100
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|switch|p2a: Mamoswine|Mamoswine, L50, F|100/100
+|switch|p2b: Pyroar|Pyroar, L50, M|100/100
+|-ability|p1a: Aerodactyl|Unnerve
+|-ability|p2b: Pyroar|Unnerve
+|turn|1
+|
+|t:|1783266260
+|detailschange|p1a: Aerodactyl|Aerodactyl-Mega, L50, F
+|-mega|p1a: Aerodactyl|Aerodactyl|Aerodactylite
+|detailschange|p2b: Pyroar|Pyroar-Mega, L50, M
+|-mega|p2b: Pyroar|Pyroar|Pyroarite
+|move|p2a: Mamoswine|Ice Shard|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl|1
+|-damage|p1a: Aerodactyl|42/100
+|move|p1b: Kingambit|Sucker Punch||[still]
+|-fail|p1b: Kingambit
+|move|p1a: Aerodactyl|Rock Slide|p2b: Pyroar|[spread] p2a,p2b
+|-supereffective|p2b: Pyroar|1
+|-damage|p2a: Mamoswine|70/100
+|-damage|p2b: Pyroar|32/100
+|cant|p2b: Pyroar|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1783266286
+|move|p2a: Mamoswine|Ice Shard|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl|1
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|move|p1b: Kingambit|Sucker Punch||[still]
+|-fail|p1b: Kingambit
+|move|p2b: Pyroar|Yawn|p1b: Kingambit
+|-start|p1b: Kingambit|move: Yawn|[of] p2b: Pyroar
+|
+|upkeep
+|
+|t:|1783266295
+|switch|p1a: Sylveon|Sylveon, L50, M|100/100
+|turn|3
+|
+|t:|1783266317
+|switch|p1b: Charizard|Charizard, L50, M|100/100
+|move|p2b: Pyroar|Protect|p2b: Pyroar
+|-singleturn|p2b: Pyroar|Protect
+|move|p2a: Mamoswine|Protect|p2a: Mamoswine
+|-singleturn|p2a: Mamoswine|Protect
+|move|p1a: Sylveon|Hyper Voice|p2b: Pyroar|[spread] 
+|-activate|p2a: Mamoswine|move: Protect
+|-activate|p2b: Pyroar|move: Protect
+|
+|upkeep
+|turn|4
+|
+|t:|1783266337
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p2b: Pyroar|Overheat|p1b: Charizard
+|-resisted|p1b: Charizard|1
+|-damage|p1b: Charizard|12/100
+|-unboost|p2b: Pyroar|spa|2
+|move|p1b: Charizard|Heat Wave|p2b: Pyroar|[spread] p2a,p2b
+|-resisted|p2a: Torkoal|1
+|-resisted|p2b: Pyroar|1
+|-damage|p2a: Torkoal|62/100
+|-damage|p2b: Pyroar|0 fnt
+|faint|p2b: Pyroar
+|move|p1a: Sylveon|Hyper Voice|p2a: Torkoal
+|-resisted|p2a: Torkoal|1
+|-damage|p2a: Torkoal|20/100y
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|1/100|[from] ability: Solar Power|[of] p1b: Charizard
+|upkeep
+|
+|t:|1783266347
+|switch|p2b: Scrafty|Scrafty, L50, F|100/100
+|-ability|p2b: Scrafty|Intimidate|boost
+|-unboost|p1a: Sylveon|atk|1
+|-unboost|p1b: Charizard|atk|1
+|turn|5
+|
+|t:|1783266357
+|move|p1b: Charizard|Protect|p1b: Charizard
+|-singleturn|p1b: Charizard|Protect
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2b: Scrafty|Fake Out|p1b: Charizard
+|-activate|p1b: Charizard|move: Protect
+|move|p2a: Torkoal|Weather Ball|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Charizard|0 fnt|[from] ability: Solar Power|[of] p1b: Charizard
+|faint|p1b: Charizard
+|upkeep
+|
+|t:|1783266365
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|turn|6
+|
+|t:|1783266374
+|move|p1b: Kingambit|Iron Head|p2a: Torkoal
+|-resisted|p2a: Torkoal|1
+|-damage|p2a: Torkoal|3/100
+|move|p1a: Sylveon|Hyper Voice|p2b: Scrafty|[spread] p2a,p2b
+|-resisted|p2a: Torkoal|1
+|-supereffective|p2b: Scrafty|2
+|-damage|p2a: Torkoal|0 fnt
+|-damage|p2b: Scrafty|0 fnt
+|faint|p2a: Torkoal
+|faint|p2b: Scrafty
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|BVSelf forfeited.
+|
+|win|new mental
+|raw|new mental's rating: 1287 → 1316(+29 for winning)
+|raw|BVSelf's rating: 1342 → 1319(-23 for losing)

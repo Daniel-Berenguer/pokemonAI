@@ -1,0 +1,271 @@
+|j|☆new mental
+|j|☆sille rovert
+|html|new mentalsille rovert    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783349950
+|gametype|doubles
+|player|p1|new mental|volkner|1438
+|player|p2|sille rovert|trevor|1407
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Aerodactyl, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Gengar, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Politoed, L50, F|
+|poke|p2|Vivillon-Pokeball, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Froslass, L50, F|
+|teampreview|4
+|showteam|p1|Aerodactyl||Aerodactylite|Unnerve|IceFang,RockSlide,Tailwind,DualWingbeat|Jolly||F|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,Earthquake,Protect|Jolly||M|||50|]Kingambit||FocusSash|Defiant|SuckerPunch,KowtowCleave,IronHead,LowKick|Adamant||M|||50|]Charizard||CharizarditeY|SolarPower|Protect,HeatWave,SolarBeam,WeatherBall|Timid||M|||50|]Sylveon||FairyFeather|Pixilate|Protect,HyperVoice,HyperBeam,QuickAttack|Modest||M|||50|]Farigiraf||SitrusBerry|ArmorTail|TrickRoom,Thunderbolt,Psychic,Roar|Bold||F|||50|
+|showteam|p2|Gengar||Gengarite|CursedBody|ShadowBall,Disable,PerishSong,Protect|Modest||F|||50|]Archaludon||Leftovers|Stamina|ElectroShot,DragonPulse,FlashCannon,Protect|Bold||M|||50|]Politoed||SitrusBerry|Drizzle|WeatherBall,Encore,PerishSong,Protect|Calm||F|||50|]Vivillon-Pokeball||ChoiceScarf|CompoundEyes|SleepPowder,RagePowder,Hurricane,PollenPuff|Timid||F|||50|]Incineroar||PasshoBerry|Intimidate|ThroatChop,PartingShot,FakeOut,Protect|Relaxed||F|||50|]Froslass||Froslassite|SnowCloak|Blizzard,AuroraVeil,RainDance,Protect|Timid||F|||50|
+|
+|t:|1783349969
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sylveon|Sylveon, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: Vivillon|Vivillon-Pokeball, L50, F|100/100
+|switch|p2b: Gengar|Gengar, L50, F|100/100
+|turn|1
+|
+|t:|1783349978
+|detailschange|p2b: Gengar|Gengar-Mega, L50, F
+|-mega|p2b: Gengar|Gengar|Gengarite
+|move|p2a: Vivillon|Sleep Powder|p1b: Farigiraf
+|-status|p1b: Farigiraf|slp|[from] move: Sleep Powder
+|move|p2b: Gengar|Perish Song|p2b: Gengar
+|-start|p1a: Sylveon|perish3|[silent]
+|-start|p1b: Farigiraf|perish3|[silent]
+|-start|p2a: Vivillon|perish3|[silent]
+|-start|p2b: Gengar|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Sylveon|Hyper Voice|p2b: Gengar|[spread] p2a,p2b
+|-resisted|p2b: Gengar|1
+|-damage|p2a: Vivillon|25/100
+|-damage|p2b: Gengar|77/100
+|cant|p1b: Farigiraf|slp
+|
+|-start|p2a: Vivillon|perish3
+|-start|p2b: Gengar|perish3
+|-start|p1a: Sylveon|perish3
+|-start|p1b: Farigiraf|perish3
+|upkeep
+|turn|2
+|
+|t:|1783349988
+|move|p1a: Sylveon|Quick Attack|p2a: Vivillon
+|-damage|p2a: Vivillon|4/100
+|move|p2a: Vivillon|Sleep Powder|p1a: Sylveon
+|-status|p1a: Sylveon|slp|[from] move: Sleep Powder
+|move|p2b: Gengar|Shadow Ball|p1a: Sylveon
+|-damage|p1a: Sylveon|63/100 slp
+|cant|p1b: Farigiraf|slp
+|
+|-start|p2a: Vivillon|perish2
+|-start|p2b: Gengar|perish2
+|-start|p1a: Sylveon|perish2
+|-start|p1b: Farigiraf|perish2
+|upkeep
+|turn|3
+|
+|t:|1783350006
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Sylveon|atk|1
+|-unboost|p1b: Farigiraf|atk|1
+|switch|p2b: Politoed|Politoed, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Politoed
+|cant|p1a: Sylveon|slp
+|-curestatus|p1b: Farigiraf|slp|[msg]
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|-start|p1b: Farigiraf|perish1
+|-start|p1a: Sylveon|perish1
+|upkeep
+|turn|4
+|
+|t:|1783350028
+|switch|p1b: Charizard|Charizard, L50, M|100/100
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|move|p2a: Incineroar|Parting Shot|p1b: Charizard
+|-unboost|p1b: Charizard|atk|1
+|-unboost|p1b: Charizard|spa|1
+|
+|t:|1783350037
+|switch|p2a: Gengar|Gengar-Mega, L50, F|77/100|[from] Parting Shot
+|move|p2b: Politoed|Perish Song|p2b: Politoed
+|-start|p1a: Kingambit|perish3|[silent]
+|-start|p1b: Charizard|perish3|[silent]
+|-start|p2a: Gengar|perish3|[silent]
+|-start|p2b: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-start|p1a: Kingambit|perish3
+|-start|p2b: Politoed|perish3
+|-start|p1b: Charizard|perish3
+|-start|p2a: Gengar|perish3
+|upkeep
+|turn|5
+|
+|t:|1783350050
+|detailschange|p1b: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p1b: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Gengar
+|-activate|p2a: Gengar|move: Protect
+|move|p2b: Politoed|Weather Ball|p1a: Kingambit
+|-supereffective|p1a: Kingambit|1
+|-damage|p1a: Kingambit|22/100
+|move|p1b: Charizard|Heat Wave|p2b: Politoed|[spread] p2b
+|-activate|p2a: Gengar|move: Protect
+|-resisted|p2b: Politoed|1
+|-damage|p2b: Politoed|83/100
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1a: Kingambit|perish2
+|-start|p2b: Politoed|perish2
+|-start|p1b: Charizard|perish2
+|-start|p2a: Gengar|perish2
+|upkeep
+|turn|6
+|
+|t:|1783350064
+|switch|p2a: Vivillon|Vivillon-Pokeball, L50, F|4/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Vivillon
+|-damage|p2a: Vivillon|0 fnt
+|faint|p2a: Vivillon
+|move|p2b: Politoed|Weather Ball|p1a: Kingambit
+|-supereffective|p1a: Kingambit|1
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|move|p1b: Charizard|Solar Beam||[still]
+|-prepare|p1b: Charizard|Solar Beam
+|-anim|p1b: Charizard|Solar Beam|p2b: Politoed
+|-supereffective|p2b: Politoed|1
+|-damage|p2b: Politoed|40/100
+|-enditem|p2b: Politoed|Sitrus Berry|[eat]
+|-heal|p2b: Politoed|64/100|[from] item: Sitrus Berry
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p2b: Politoed|perish1
+|-start|p1b: Charizard|perish1
+|upkeep
+|
+|t:|1783350072
+|switch|p1a: Sylveon|Sylveon, L50, M|63/100 slp
+|switch|p2a: Gengar|Gengar-Mega, L50, F|77/100
+|turn|7
+|
+|t:|1783350085
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Sylveon|atk|1
+|-unboost|p1b: Charizard|atk|1
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|-curestatus|p1a: Sylveon|slp|[msg]
+|move|p1a: Sylveon|Hyper Voice|p2b: Incineroar|[spread] p2b
+|-activate|p2a: Gengar|move: Protect
+|-damage|p2b: Incineroar|58/100
+|move|p1b: Charizard|Weather Ball|p2b: Incineroar
+|-resisted|p2b: Incineroar|1
+|-damage|p2b: Incineroar|34/100
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1b: Charizard|perish0
+|-fieldend|move: Trick Room
+|faint|p1b: Charizard
+|upkeep
+|
+|t:|1783350089
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|turn|8
+|
+|t:|1783350109
+|move|p2a: Gengar|Disable|p1a: Sylveon
+|-start|p1a: Sylveon|Disable|Hyper Voice
+|move|p1a: Sylveon|Hyper Beam|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|-mustrecharge|p1a: Sylveon
+|faint|p2b: Incineroar
+|move|p1b: Farigiraf|Psychic|p2a: Gengar
+|-supereffective|p2a: Gengar|1
+|-damage|p2a: Gengar|12/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783350114
+|switch|p2b: Politoed|Politoed, L50, F|64/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Politoed
+|turn|9
+|
+|t:|1783350139
+|move|p2a: Gengar|Disable|p1b: Farigiraf
+|-start|p1b: Farigiraf|Disable|Psychic
+|move|p2b: Politoed|Encore|p1b: Farigiraf
+|-start|p1b: Farigiraf|Encore
+|cant|p1a: Sylveon|recharge
+|cant|p1b: Farigiraf|Disable|Psychic
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1783350161
+|move|p1a: Sylveon|Quick Attack|p2a: Gengar
+|-resisted|p2a: Gengar|1
+|-damage|p2a: Gengar|7/100
+|move|p2a: Gengar|Shadow Ball|p1a: Sylveon
+|-damage|p1a: Sylveon|24/100
+|move|p2b: Politoed|Weather Ball|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|faint|p1a: Sylveon
+|-activate|p1b: Farigiraf|move: Struggle
+|move|p1b: Farigiraf|Struggle|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|-damage|p1b: Farigiraf|75/100|[from] recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1783350169
+|move|p2b: Politoed|Weather Ball|p1b: Farigiraf
+|-damage|p1b: Farigiraf|31/100
+|-enditem|p1b: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1b: Farigiraf|56/100|[from] item: Sitrus Berry
+|-activate|p1b: Farigiraf|move: Struggle
+|move|p1b: Farigiraf|Struggle|p2b: Politoed
+|-damage|p2b: Politoed|55/100
+|-damage|p1b: Farigiraf|31/100|[from] recoil
+|
+|-weather|RainDance|[upkeep]
+|-end|p1b: Farigiraf|Encore
+|upkeep
+|turn|12
+|
+|t:|1783350177
+|move|p2b: Politoed|Weather Ball|p1b: Farigiraf
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|
+|win|sille rovert
+|raw|new mental's rating: 1438 → 1416(-22 for losing)
+|raw|sille rovert's rating: 1407 → 1429(+22 for winning)

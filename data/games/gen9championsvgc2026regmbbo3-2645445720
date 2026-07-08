@@ -1,0 +1,203 @@
+|j|☆Treit_3
+|j|☆FocusRanja
+|html|Treit_3FocusRanja    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1783437313
+|gametype|doubles
+|player|p1|Treit_3|marshal|1112
+|player|p2|FocusRanja|265|1125
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Scrafty, L50, F|
+|poke|p1|Blaziken, L50, M|
+|poke|p1|Torterra, L50, M|
+|poke|p1|Milotic, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Mawile, L50, F|
+|poke|p2|Aerodactyl, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Rotom-Wash, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Sinistcha, L50|
+|teampreview|4
+|showteam|p1|Scrafty||Scraftinite|Intimidate|FakeOut,Coaching,DrainPunch,ThroatChop|Adamant||F|||50|]Blaziken||Blazikenite|SpeedBoost|Detect,RockSlide,FlareBlitz,CloseCombat|Adamant||M|||50|]Torterra||Leftovers|ShellArmor|Protect,WideGuard,HeadlongRush,WoodHammer|Brave||M|||50|]Milotic||MysticWater|Competitive|Protect,Scald,MuddyWater,IceBeam|Modest||F|||50|]Gholdengo||LifeOrb|GoodasGold|Protect,NastyPlot,MakeItRain,ShadowBall|Modest|||||50|]Farigiraf||SitrusBerry|ArmorTail|Protect,TrickRoom,Thunderbolt,HyperVoice|Bold||M|||50|
+|showteam|p2|Mawile||Mawilite|HyperCutter|IronHead,SuckerPunch,Protect,PlayRough|Brave||F|||50|]Aerodactyl||Aerodactylite|Unnerve|RockSlide,DualWingbeat,Protect,Tailwind|Jolly||M|||50|]Farigiraf||ColburBerry|ArmorTail|Psychic,HyperVoice,TrickRoom,HelpingHand|Relaxed||M|||50|]Rotom-Wash||SitrusBerry|Levitate|Thunderbolt,HydroPump,WillOWisp,Protect|Modest|||||50|]Incineroar||PasshoBerry|Intimidate|FlareBlitz,DarkestLariat,FakeOut,PartingShot|Brave||F|||50|]Sinistcha||Leftovers|Hospitality|MatchaGotcha,RagePowder,Protect,TrickRoom|Quiet|||||50|
+|
+|t:|1783437376
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Scrafty|Scrafty, L50, F|100/100
+|switch|p1b: Blaziken|Blaziken, L50, M|100/100
+|switch|p2a: Sinistcha|Sinistcha, L50|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Sinistcha|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Scrafty|atk|1
+|-unboost|p1b: Blaziken|atk|1
+|turn|1
+|
+|t:|1783437404
+|move|p2b: Incineroar|Fake Out|p1b: Blaziken
+|-damage|p1b: Blaziken|88/100
+|cant|p1b: Blaziken|flinch
+|move|p1a: Scrafty|Throat Chop|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha|1
+|-damage|p2a: Sinistcha|57/100
+|-start|p2a: Sinistcha|Throat Chop|[silent]
+|move|p2a: Sinistcha|Trick Room|p2a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2a: Sinistcha
+|
+|-heal|p2a: Sinistcha|64/100|[from] item: Leftovers
+|-ability|p1b: Blaziken|Speed Boost|boost
+|-boost|p1b: Blaziken|spe|1
+|upkeep
+|turn|2
+|
+|t:|1783437426
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|move|p2a: Sinistcha|Protect|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|Protect
+|move|p2b: Incineroar|Parting Shot|p1b: Blaziken
+|-unboost|p1b: Blaziken|atk|1
+|-unboost|p1b: Blaziken|spa|1
+|
+|t:|1783437436
+|switch|p2b: Mawile|Mawile, L50, F|100/100|[from] Parting Shot
+|move|p1b: Blaziken|Flare Blitz|p2a: Sinistcha
+|-activate|p2a: Sinistcha|move: Protect
+|
+|-heal|p2a: Sinistcha|70/100|[from] item: Leftovers
+|-end|p2a: Sinistcha|Throat Chop|[silent]
+|-ability|p1b: Blaziken|Speed Boost|boost
+|-boost|p1b: Blaziken|spe|1
+|upkeep
+|turn|3
+|
+|t:|1783437459
+|switch|p1b: Milotic|Milotic, L50, F|100/100
+|detailschange|p2b: Mawile|Mawile-Mega, L50, F
+|-mega|p2b: Mawile|Mawile|Mawilite
+|move|p2b: Mawile|Play Rough|p1a: Farigiraf
+|-damage|p1a: Farigiraf|29/100
+|-enditem|p1a: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1a: Farigiraf|54/100|[from] item: Sitrus Berry
+|move|p2a: Sinistcha|Matcha Gotcha|p1b: Milotic|[spread] p1a
+|-miss|p2a: Sinistcha|p1b: Milotic
+|-damage|p1a: Farigiraf|22/100
+|-heal|p2a: Sinistcha|90/100|[from] drain|[of] p1a: Farigiraf
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldend|move: Trick Room
+|
+|-heal|p2a: Sinistcha|97/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1783437497
+|move|p1b: Milotic|Scald|p2b: Mawile
+|-damage|p2b: Mawile|48/100
+|move|p1a: Farigiraf|Thunderbolt|p2a: Sinistcha
+|-resisted|p2a: Sinistcha|1
+|-damage|p2a: Sinistcha|84/100
+|move|p2b: Mawile|Play Rough|p1b: Milotic
+|-damage|p1b: Milotic|18/100
+|move|p2a: Sinistcha|Trick Room|p2a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2a: Sinistcha
+|
+|-heal|p2a: Sinistcha|90/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1783437513
+|switch|p1a: Scrafty|Scrafty, L50, F|100/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Sinistcha|atk|1
+|-unboost|p2b: Mawile|atk|1
+|move|p2b: Mawile|Iron Head|p1a: Scrafty
+|-damage|p1a: Scrafty|52/100
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Scrafty|[spread] p1b
+|-miss|p2a: Sinistcha|p1a: Scrafty
+|-supereffective|p1b: Milotic|1
+|-damage|p1b: Milotic|0 fnt
+|-heal|p2a: Sinistcha|100/100|[from] drain|[of] p1b: Milotic
+|faint|p1b: Milotic
+|
+|upkeep
+|
+|t:|1783437536
+|switch|p1b: Farigiraf|Farigiraf, L50, M|22/100
+|turn|6
+|
+|t:|1783437549
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|detailschange|p1a: Scrafty|Scrafty-Mega, L50, F
+|-mega|p1a: Scrafty|Scrafty|Scraftinite
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Farigiraf|atk|1
+|-unboost|p2b: Mawile|atk|1
+|move|p2b: Mawile|Play Rough|p1a: Scrafty
+|-supereffective|p1a: Scrafty|2
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldend|move: Trick Room
+|
+|upkeep
+|
+|t:|1783437559
+|switch|p1a: Blaziken|Blaziken, L50, M|88/100
+|turn|7
+|
+|t:|1783437582
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Blaziken|atk|1
+|-unboost|p1b: Farigiraf|atk|1
+|move|p1a: Blaziken|Flare Blitz|p2a: Farigiraf
+|-damage|p2a: Farigiraf|61/100
+|-damage|p1a: Blaziken|70/100|[from] Recoil
+|move|p1b: Farigiraf|Hyper Voice|p2b: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Farigiraf|38/100
+|-damage|p2b: Incineroar|76/100
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|8
+|
+|t:|1783437602
+|move|p1b: Farigiraf|Protect|p1b: Farigiraf
+|-singleturn|p1b: Farigiraf|Protect
+|move|p2a: Farigiraf|Psychic|p1a: Blaziken
+|-supereffective|p1a: Blaziken|1
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|move|p2b: Incineroar|Darkest Lariat|p1b: Farigiraf
+|-activate|p1b: Farigiraf|move: Protect
+|
+|upkeep
+|turn|9
+|c|☆Treit_3|gg
+|
+|t:|1783437613
+|move|p2a: Farigiraf|Psychic|p1b: Farigiraf
+|-resisted|p1b: Farigiraf|1
+|-damage|p1b: Farigiraf|3/100
+|-unboost|p1b: Farigiraf|spd|1
+|move|p2b: Incineroar|Darkest Lariat|p1b: Farigiraf
+|-supereffective|p1b: Farigiraf|1
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|
+|win|FocusRanja
+|raw|Treit_3's rating: 1112 → 1088(-24 for losing)
+|raw|FocusRanja's rating: 1125 → 1149(+24 for winning)

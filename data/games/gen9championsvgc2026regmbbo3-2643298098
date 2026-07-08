@@ -1,0 +1,196 @@
+|j|☆syll0gism
+|j|☆DxJack
+|html|syll0gismDxJack    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783080021
+|gametype|doubles
+|player|p1|syll0gism|170|1111
+|player|p2|DxJack|lucas|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Rotom-Heat, L50|
+|poke|p2|Metagross, L50, shiny|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Charizard, L50, M, shiny|
+|poke|p2|Aerodactyl, L50, F, shiny|
+|poke|p2|Sylveon, L50, F, shiny|
+|teampreview|4
+|showteam|p1|Grimmsnarl||BlackGlasses|Prankster|FakeOut,SuckerPunch,SpiritBreak,PartingShot|Adamant||M|||50|]Incineroar||PasshoBerry|Intimidate|FakeOut,FlareBlitz,ThroatChop,PartingShot|Careful||F|||50|]Floette-Eternal||Floettite|FlowerVeil|Moonblast,DrainingKiss,CalmMind,Protect|Modest||F|||50|]Annihilape||Leftovers|Defiant|RageFist,DrainPunch,BulkUp,Protect|Jolly||F|||50|]Dragonite||LifeOrb|InnerFocus|BreakingSwipe,ExtremeSpeed,LowKick,Protect|Adamant||M|||50|]Rotom-Heat||WideLens|Levitate|Overheat,VoltSwitch,WillOWisp,Protect|Modest|||||50|
+|showteam|p2|Metagross||Metagrossite|ClearBody|BulletPunch,PsychicFangs,BodyPress,Protect|Adamant|||||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,RockSlide,Protect|Jolly||F|||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,DarkestLariat,FakeOut,PartingShot|Careful||F|||50|]Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,SolarBeam,Protect|Modest||M|||50|]Aerodactyl||FocusSash|Unnerve|RockSlide,DualWingbeat,WideGuard,Tailwind|Jolly||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,QuickAttack,Yawn,Protect|Modest||F|||50|
+|
+|t:|1783080073
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Floette|Floette-Eternal, L50, F|100/100
+|switch|p2a: Metagross|Metagross, L50, shiny|100/100
+|switch|p2b: Sylveon|Sylveon, L50, F, shiny|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Metagross|unboost|[from] ability: Clear Body|[of] p2a: Metagross
+|-unboost|p2b: Sylveon|atk|1
+|turn|1
+|
+|t:|1783080150
+|switch|p1b: Rotom|Rotom-Heat, L50|100/100
+|move|p2a: Metagross|Protect|p2a: Metagross
+|-singleturn|p2a: Metagross|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Metagross
+|-activate|p2a: Metagross|move: Protect
+|move|p2b: Sylveon|Yawn|p1b: Rotom
+|-start|p1b: Rotom|move: Yawn|[of] p2b: Sylveon
+|
+|upkeep
+|turn|2
+|
+|t:|1783080219
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|move|p1b: Rotom|Overheat|p2a: Garchomp
+|-resisted|p2a: Garchomp|1
+|-crit|p2a: Garchomp
+|-damage|p2a: Garchomp|53/100
+|-unboost|p1b: Rotom|spa|2
+|move|p1a: Incineroar|Flare Blitz|p2a: Garchomp
+|-resisted|p2a: Garchomp|1
+|-damage|p2a: Garchomp|32/100
+|-damage|p1a: Incineroar|87/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|-damage|p1a: Incineroar|81/100|[from] Recoil
+|move|p2b: Sylveon|Hyper Voice|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1b: Rotom|1
+|-damage|p1a: Incineroar|42/100
+|-damage|p1b: Rotom|75/100
+|
+|-end|p1b: Rotom|move: Yawn|[silent]
+|-status|p1b: Rotom|slp
+|upkeep
+|turn|3
+|
+|t:|1783080248
+|switch|p2b: Aerodactyl|Aerodactyl, L50, F, shiny|100/100
+|-ability|p2b: Aerodactyl|Unnerve
+|move|p2a: Garchomp|Earthquake|p1b: Rotom|[spread] p1a
+|-immune|p2b: Aerodactyl
+|-immune|p1b: Rotom|[from] ability: Levitate
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|-damage|p2a: Garchomp|22/100|[from] item: Life Orb
+|cant|p1b: Rotom|slp
+|
+|upkeep
+|
+|t:|1783080264
+|switch|p1a: Floette|Floette-Eternal, L50, F|100/100
+|turn|4
+|
+|t:|1783080280
+|detailschange|p1a: Floette|Floette-Mega, L50, F
+|-mega|p1a: Floette|Floette|Floettite
+|-ability|p1a: Floette|Fairy Aura
+|move|p2b: Aerodactyl|Tailwind|p2b: Aerodactyl
+|-sidestart|p2: DxJack|move: Tailwind
+|move|p2a: Garchomp|Rock Slide|p1b: Rotom|[spread] p1a,p1b
+|-supereffective|p1b: Rotom|1
+|-damage|p1a: Floette|75/100
+|-damage|p1b: Rotom|27/100 slp
+|-damage|p2a: Garchomp|12/100|[from] item: Life Orb
+|move|p1a: Floette|Draining Kiss|p2b: Aerodactyl
+|-crit|p2b: Aerodactyl
+|-damage|p2b: Aerodactyl|15/100
+|-heal|p1a: Floette|100/100|[from] drain|[of] p2b: Aerodactyl
+|-curestatus|p1b: Rotom|slp|[msg]
+|move|p1b: Rotom|Volt Switch|p2b: Aerodactyl
+|-supereffective|p2b: Aerodactyl|1
+|-damage|p2b: Aerodactyl|0 fnt
+|faint|p2b: Aerodactyl
+|
+|t:|1783080297
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100|[from] Volt Switch
+|
+|upkeep
+|
+|t:|1783080320
+|switch|p2b: Sylveon|Sylveon, L50, F, shiny|100/100
+|turn|5
+|
+|t:|1783080360
+|move|p1b: Grimmsnarl|Parting Shot|p2a: Garchomp
+|-unboost|p2a: Garchomp|atk|1
+|-unboost|p2a: Garchomp|spa|1
+|
+|t:|1783080363
+|switch|p1b: Rotom|Rotom-Heat, L50|27/100|[from] Parting Shot
+|move|p2a: Garchomp|Rock Slide|p1b: Rotom|[spread] p1a,p1b
+|-supereffective|p1b: Rotom|1
+|-damage|p1a: Floette|85/100
+|-damage|p1b: Rotom|0 fnt
+|faint|p1b: Rotom
+|-damage|p2a: Garchomp|2/100|[from] item: Life Orb
+|move|p2b: Sylveon|Yawn|p1a: Floette
+|-start|p1a: Floette|move: Yawn|[of] p2b: Sylveon
+|move|p1a: Floette|Moonblast|p2b: Sylveon
+|-damage|p2b: Sylveon|41/100
+|
+|upkeep
+|
+|t:|1783080380
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|6
+|
+|t:|1783080406
+|move|p1b: Grimmsnarl|Fake Out|p2b: Sylveon
+|-damage|p2b: Sylveon|25/100
+|move|p2a: Garchomp|Rock Slide|p1b: Grimmsnarl|[spread] p1a,p1b
+|-damage|p1a: Floette|70/100
+|-damage|p1b: Grimmsnarl|80/100
+|-damage|p2a: Garchomp|0 fnt|[from] item: Life Orb
+|faint|p2a: Garchomp
+|cant|p2b: Sylveon|flinch
+|move|p1a: Floette|Moonblast|p2b: Sylveon
+|-damage|p2b: Sylveon|0 fnt
+|faint|p2b: Sylveon
+|
+|-end|p1a: Floette|move: Yawn|[silent]
+|-status|p1a: Floette|slp
+|upkeep
+|
+|t:|1783080420
+|switch|p2a: Metagross|Metagross, L50, shiny|100/100
+|turn|7
+|
+|t:|1783080449
+|detailschange|p2a: Metagross|Metagross-Mega, L50, shiny
+|-mega|p2a: Metagross|Metagross|Metagrossite
+|move|p2a: Metagross|Bullet Punch|p1b: Grimmsnarl
+|-supereffective|p1b: Grimmsnarl|1
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|cant|p1a: Floette|slp
+|
+|-sideend|p2: DxJack|move: Tailwind
+|upkeep
+|turn|8
+|
+|t:|1783080457
+|move|p2a: Metagross|Bullet Punch|p1a: Floette
+|-supereffective|p1a: Floette|1
+|-damage|p1a: Floette|13/100 slp
+|cant|p1a: Floette|slp
+|
+|upkeep
+|turn|9
+|-message|syll0gism forfeited.
+|
+|win|DxJack
+|raw|syll0gism's rating: 1111 → 1078(-33 for losing)
+|raw|DxJack's rating: 1000 → 1052(+52 for winning)

@@ -1,0 +1,212 @@
+|j|☆M1To006
+|j|☆Kravell
+|html|M1To006Kravell    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1783068843
+|gametype|doubles
+|player|p1|M1To006|170|1189
+|player|p2|Kravell|backersf|1389
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Aerodactyl, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Blastoise, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Delphox, L50, M|
+|poke|p2|Kingambit, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|WeatherBall,HeatWave,SolarBeam,Protect|Modest||F|||50|]Aerodactyl||Aerodactylite|Unnerve|DualWingbeat,RockSlide,Tailwind,IceFang|Jolly||M|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,StompingTantrum,Protect|Jolly||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,QuickAttack,Protect|Modest||M|||50|]Kingambit||FocusSash|Defiant|KowtowCleave,IronHead,SuckerPunch,LowKick|Adamant||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,Thunderbolt,TrickRoom,Roar|Bold||M|||50|
+|showteam|p2|Blastoise||Blastoisinite|RainDish|WaterSpout,DarkPulse,ShellSmash,Protect|Modest||M|||50|]Sinistcha||KasibBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,Protect|Relaxed|||||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,FakeOut,PartingShot,HelpingHand|Impish||F|||50|]Sneasler||FocusSash|Unburden|DireClaw,CloseCombat,FakeOut,QuickGuard|Jolly||M|||50|]Delphox||Delphoxite|Blaze|HeatWave,Psychic,NastyPlot,Protect|Timid||M|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|Adamant||F|||50|
+|
+|t:|1783068916
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Delphox|Delphox, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|-unboost|p1b: Farigiraf|atk|1
+|turn|1
+|
+|t:|1783068939
+|switch|p2b: Kingambit|Kingambit, L50, F|100/100
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p2a: Incineroar|Flare Blitz|p1a: Kingambit
+|-supereffective|p1a: Kingambit|1
+|-damage|p1a: Kingambit|17/100
+|-status|p1a: Kingambit|brn
+|-damage|p2a: Incineroar|76/100|[from] Recoil
+|move|p1b: Farigiraf|Thunderbolt|p2a: Incineroar
+|-damage|p2a: Incineroar|56/100
+|
+|-damage|p1a: Kingambit|11/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1783068990
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|switch|p2b: Sinistcha|Sinistcha, L50|100/100
+|-heal|p2a: Incineroar|81/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|move|p1a: Kingambit|Low Kick|p2a: Incineroar
+|-supereffective|p2a: Incineroar|1
+|-damage|p2a: Incineroar|45/100
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|69/100|[from] item: Sitrus Berry
+|move|p2a: Incineroar|Parting Shot|p1b: Garchomp
+|-unboost|p1b: Garchomp|atk|1
+|-unboost|p1b: Garchomp|spa|1
+|
+|t:|1783069008
+|switch|p2a: Delphox|Delphox, L50, M|100/100|[from] Parting Shot
+|
+|-damage|p1a: Kingambit|5/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1783069024
+|detailschange|p2a: Delphox|Delphox-Mega, L50, M
+|-mega|p2a: Delphox|Delphox|Delphoxite
+|move|p2b: Sinistcha|Rage Powder|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|move: Rage Powder
+|move|p2a: Delphox|Nasty Plot|p2a: Delphox
+|-boost|p2a: Delphox|spa|2
+|move|p1b: Garchomp|Dragon Claw|p2b: Sinistcha
+|-damage|p2b: Sinistcha|70/100
+|-damage|p1b: Garchomp|90/100|[from] item: Life Orb
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Sinistcha
+|-supereffective|p2b: Sinistcha|1
+|-damage|p2b: Sinistcha|2/100
+|
+|-damage|p1a: Kingambit|0 fnt|[from] brn
+|faint|p1a: Kingambit
+|upkeep
+|
+|t:|1783069041
+|switch|p1a: Aerodactyl|Aerodactyl, L50, M|100/100
+|-ability|p1a: Aerodactyl|Unnerve
+|turn|4
+|
+|t:|1783069056
+|switch|p2b: Incineroar|Incineroar, L50, F|69/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Aerodactyl|atk|1
+|-unboost|p1b: Garchomp|atk|1
+|detailschange|p1a: Aerodactyl|Aerodactyl-Mega, L50, M
+|-mega|p1a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p1a: Aerodactyl|Rock Slide|p2b: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Delphox|1
+|-supereffective|p2b: Incineroar|1
+|-damage|p2a: Delphox|60/100
+|-damage|p2b: Incineroar|43/100
+|cant|p2a: Delphox|flinch
+|move|p1b: Garchomp|Dragon Claw|p2a: Delphox
+|-damage|p2a: Delphox|29/100
+|-damage|p1b: Garchomp|80/100|[from] item: Life Orb
+|
+|upkeep
+|turn|5
+|
+|t:|1783069092
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2b: Sinistcha|Sinistcha, L50|2/100
+|-heal|p2a: Delphox|54/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|move|p2a: Delphox|Protect|p2a: Delphox
+|-singleturn|p2a: Delphox|Protect
+|move|p1a: Aerodactyl|Rock Slide|p2b: Sinistcha|[spread] p2b
+|-activate|p2a: Delphox|move: Protect
+|-damage|p2b: Sinistcha|0 fnt
+|faint|p2b: Sinistcha
+|
+|upkeep
+|
+|t:|1783069103
+|switch|p2b: Incineroar|Incineroar, L50, F|43/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Aerodactyl|atk|1
+|-unboost|p1b: Farigiraf|atk|1
+|turn|6
+|
+|t:|1783069132
+|move|p1a: Aerodactyl|Rock Slide|p2b: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Delphox|1
+|-supereffective|p2b: Incineroar|1
+|-damage|p2a: Delphox|22/100
+|-damage|p2b: Incineroar|21/100
+|cant|p2a: Delphox|flinch
+|cant|p2b: Incineroar|flinch
+|move|p1b: Farigiraf|Thunderbolt|p2a: Delphox
+|-damage|p2a: Delphox|4/100
+|-status|p2a: Delphox|par
+|
+|upkeep
+|turn|7
+|c|☆Kravell|Yea ok
+|c|☆Kravell|That's enough pokemon for today
+|
+|t:|1783069180
+|switch|p2b: Kingambit|Kingambit, L50, F|100/100
+|move|p1a: Aerodactyl|Rock Slide|p2b: Kingambit|[spread] p2a,p2b
+|-supereffective|p2a: Delphox|1
+|-resisted|p2b: Kingambit|1
+|-damage|p2a: Delphox|0 fnt
+|-damage|p2b: Kingambit|95/100
+|faint|p2a: Delphox
+|move|p1b: Farigiraf|Thunderbolt|p2b: Kingambit
+|-damage|p2b: Kingambit|72/100
+|
+|upkeep
+|
+|t:|1783069182
+|switch|p2a: Incineroar|Incineroar, L50, F|21/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Aerodactyl|atk|1
+|-unboost|p1b: Farigiraf|atk|1
+|turn|8
+|
+|t:|1783069209
+|switch|p1a: Garchomp|Garchomp, L50, F|80/100
+|move|p2a: Incineroar|Parting Shot|p1a: Garchomp
+|-unboost|p1a: Garchomp|atk|1
+|-unboost|p1a: Garchomp|spa|1
+|move|p1b: Farigiraf|Thunderbolt|p2b: Kingambit
+|-damage|p2b: Kingambit|51/100
+|move|p2b: Kingambit|Swords Dance|p2b: Kingambit
+|-boost|p2b: Kingambit|atk|2
+|
+|upkeep
+|turn|9
+|
+|t:|1783069242
+|move|p2b: Kingambit|Sucker Punch||[still]
+|cant|p1b: Farigiraf|ability: Armor Tail|Sucker Punch|[of] p2b: Kingambit
+|move|p1a: Garchomp|Earthquake|p2a: Incineroar|[spread] p1b,p2a,p2b
+|-supereffective|p2a: Incineroar|1
+|-supereffective|p2b: Kingambit|1
+|-damage|p1b: Farigiraf|74/100
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Kingambit|2/100
+|faint|p2a: Incineroar
+|-damage|p1a: Garchomp|70/100|[from] item: Life Orb
+|move|p1b: Farigiraf|Thunderbolt|p2b: Kingambit
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|
+|win|M1To006
+|raw|M1To006's rating: 1189 → 1227(+38 for winning)
+|raw|Kravell's rating: 1389 → 1359(-30 for losing)

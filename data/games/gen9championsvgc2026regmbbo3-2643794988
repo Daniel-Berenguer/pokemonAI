@@ -1,0 +1,165 @@
+|j|☆mygreat
+|j|☆UchitaWyrm
+|html|mygreatUchitaWyrm    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783162893
+|gametype|doubles
+|player|p1|mygreat|veteran|1225
+|player|p2|UchitaWyrm|rocketgrunt|1123
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Aerodactyl, L50, F|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Sylveon, L50, F|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Froslass, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Glimmora, L50, F|
+|poke|p2|Rotom-Wash, L50|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Clefable, L50, M|
+|teampreview|4
+|showteam|p1|Aerodactyl||Aerodactylite|Unnerve|WideGuard,RockSlide,DualWingbeat,Tailwind|Jolly||F|||50|]Charizard||CharizarditeY|Blaze|SolarBeam,WeatherBall,HeatWave,Protect|Modest||F|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,RockSlide,Earthquake,Protect|Jolly||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,QuickAttack,Protect|Modest||F|||50|]Kingambit||FocusSash|Defiant|LowKick,IronHead,KowtowCleave,SuckerPunch|Adamant||F|||50|]Farigiraf||SitrusBerry|ArmorTail|Thunderbolt,Psychic,TrickRoom,HelpingHand|Bold||F|||50|
+|showteam|p2|Froslass||Froslassite|SnowCloak|Blizzard,AuroraVeil,ShadowBall,Protect|Timid||F|||50|]Basculegion||LifeOrb|Adaptability|WaveCrash,AquaJet,LastRespects,Protect|Jolly||M|||50|]Glimmora||FocusSash|ToxicDebris|SpikyShield,PowerGem,SludgeBomb,EarthPower|Timid||F|||50|]Rotom-Wash||ChoiceScarf|Levitate|Trick,VoltSwitch,Electroweb,HydroPump|Timid|||||50|]Kingambit||BlackGlasses|Defiant|SuckerPunch,IronHead,KowtowCleave,BrickBreak|Adamant||F|||50|]Clefable||SitrusBerry|Unaware|Moonblast,FollowMe,HelpingHand,Protect|Bold||M|||50|
+|
+|t:|1783162909
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kingambit|Kingambit, L50, F|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: Glimmora|Glimmora, L50, F|100/100
+|switch|p2b: Rotom|Rotom-Wash, L50|100/100
+|turn|1
+|
+|t:|1783162922
+|move|p2b: Rotom|Trick|p1b: Farigiraf
+|-activate|p2b: Rotom|move: Trick|[of] p1b: Farigiraf
+|-item|p1b: Farigiraf|Choice Scarf|[from] move: Trick
+|-item|p2b: Rotom|Sitrus Berry|[from] move: Trick
+|move|p2a: Glimmora|Earth Power|p1a: Kingambit
+|-supereffective|p1a: Kingambit|1
+|-damage|p1a: Kingambit|24/100
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Rotom
+|-damage|p2b: Rotom|31/100
+|-enditem|p2b: Rotom|Sitrus Berry|[eat]
+|-heal|p2b: Rotom|55/100|[from] item: Sitrus Berry
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1783162943
+|switch|p1b: Sylveon|Sylveon, L50, F|100/100
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Rotom
+|-damage|p2b: Rotom|0 fnt
+|faint|p2b: Rotom
+|move|p2a: Glimmora|Earth Power|p1a: Kingambit
+|-supereffective|p1a: Kingambit|1
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|
+|upkeep
+|
+|t:|1783162953
+|switch|p1a: Charizard|Charizard, L50, F|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|turn|3
+|
+|t:|1783162967
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p1b: Sylveon|Hyper Voice|p2a: Glimmora|[spread] p2a,p2b
+|-resisted|p2a: Glimmora|1
+|-damage|p2a: Glimmora|66/100
+|-damage|p2b: Basculegion|44/100
+|move|p1a: Charizard|Solar Beam||[still]
+|-prepare|p1a: Charizard|Solar Beam
+|-anim|p1a: Charizard|Solar Beam|p2a: Glimmora
+|-damage|p2a: Glimmora|7/100
+|move|p2b: Basculegion|Wave Crash|p1a: Charizard
+|-supereffective|p1a: Charizard|1
+|-damage|p1a: Charizard|14/100
+|-damage|p2b: Basculegion|18/100|[from] Recoil
+|-damage|p2b: Basculegion|8/100|[from] item: Life Orb
+|move|p2a: Glimmora|Power Gem|p1a: Charizard
+|-supereffective|p1a: Charizard|2
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783162976
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|turn|4
+|
+|t:|1783162987
+|move|p2b: Basculegion|Protect|p2b: Basculegion
+|-singleturn|p2b: Basculegion|Protect
+|move|p2a: Glimmora|Spiky Shield|p2a: Glimmora
+|-singleturn|p2a: Glimmora|move: Protect
+|move|p1b: Sylveon|Hyper Voice|p2b: Basculegion|[spread] 
+|-activate|p2a: Glimmora|move: Protect
+|-activate|p2b: Basculegion|move: Protect
+|move|p1a: Farigiraf|Psychic|p2b: Basculegion
+|-activate|p2b: Basculegion|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1783162993
+|move|p2b: Basculegion|Protect||[still]
+|-fail|p2b: Basculegion
+|move|p2a: Glimmora|Spiky Shield||[still]
+|-fail|p2a: Glimmora
+|move|p1b: Sylveon|Hyper Voice|p2a: Glimmora|[spread] p2a,p2b
+|-resisted|p2a: Glimmora|1
+|-damage|p2a: Glimmora|0 fnt
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2a: Glimmora
+|faint|p2b: Basculegion
+|move|p1a: Farigiraf|Psychic|p2: Glimmora|[notarget]
+|-fail|p1a: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1783162999
+|switch|p2b: Froslass|Froslass, L50, F|100/100
+|turn|6
+|
+|t:|1783163003
+|detailschange|p2b: Froslass|Froslass-Mega, L50, F
+|-mega|p2b: Froslass|Froslass|Froslassite
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Froslass
+|move|p2b: Froslass|Aurora Veil|p2b: Froslass
+|-sidestart|p2: UchitaWyrm|move: Aurora Veil
+|move|p1a: Farigiraf|Psychic|p2b: Froslass
+|-damage|p2b: Froslass|72/100
+|move|p1b: Sylveon|Hyper Voice|p2b: Froslass
+|-damage|p2b: Froslass|22/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1783163006
+|move|p2b: Froslass|Blizzard|p1a: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Farigiraf|56/100
+|-damage|p1b: Sylveon|64/100
+|move|p1a: Farigiraf|Psychic|p2b: Froslass
+|-damage|p2b: Froslass|0 fnt
+|faint|p2b: Froslass
+|
+|win|mygreat

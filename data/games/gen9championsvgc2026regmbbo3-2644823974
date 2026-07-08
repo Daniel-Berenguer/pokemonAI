@@ -1,0 +1,90 @@
+|j|☆gg.exe
+|j|☆bancomat 2
+|html|gg.exebancomat 2    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783341257
+|gametype|doubles
+|player|p1|gg.exe|pokekid|1000
+|player|p2|bancomat 2|volkner|1040
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Malamar, L50, M|
+|poke|p1|Dragapult, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Pyroar, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Meowstic, L50, M|
+|poke|p2|Charizard, L50, M, shiny|
+|poke|p2|Aerodactyl, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Sylveon, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Malamar||Leftovers|Contrary|TopsyTurvy,Protect,Superpower,SkillSwap|Impish||M|||50|]Dragapult||DragonFang|Infiltrator|DracoMeteor,Flamethrower,ShadowBall,Protect|Timid||F|||50|]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,Protect,ShadowBall,Trick|Timid|||||50|]Pyroar||Pyroarite|Unnerve|Overheat,Protect,HeatWave,HyperVoice|Timid||M|||50|]Archaludon||SitrusBerry|Stamina|FlashCannon,Snarl,Protect,DracoMeteor|Calm||F|||50|]Meowstic||FocusSash|Prankster|TrickRoom,FakeOut,Protect,Psychic|Sassy||M|||50|
+|showteam|p2|Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,SolarBeam,Protect|Modest||M|||50|]Aerodactyl||Aerodactylite|Unnerve|RockSlide,DualWingbeat,Tailwind,IceFang|Jolly||M|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,RockTomb,Protect|Jolly||M|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,QuickAttack,Detect|Modest||M|||50|]Kingambit||FocusSash|Defiant|KowtowCleave,SuckerPunch,IronHead,LowKick|Adamant||M|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,AquaJet,LastRespects,FlipTurn|Jolly||M|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by bancomat 2)
+|
+|t:|1783341298
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|switch|p1b: Malamar|Malamar, L50, M|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, L50, M|100/100
+|switch|p2b: Garchomp|Garchomp, L50, M|100/100
+|-ability|p2a: Aerodactyl|Unnerve
+|turn|1
+|
+|t:|1783341322
+|switch|p2a: Charizard|Charizard, L50, M, shiny|100/100
+|move|p1a: Gholdengo|Trick||[still]
+|-fail|p1a: Gholdengo
+|move|p2b: Garchomp|Earthquake|p1a: Gholdengo|[spread] p1a,p1b
+|-immune|p2a: Charizard
+|-supereffective|p1a: Gholdengo|1
+|-damage|p1a: Gholdengo|0 fnt
+|-damage|p1b: Malamar|67/100
+|faint|p1a: Gholdengo
+|-damage|p2b: Garchomp|90/100|[from] item: Life Orb
+|move|p1b: Malamar|Superpower|p2b: Garchomp
+|-damage|p2b: Garchomp|67/100
+|-boost|p1b: Malamar|atk|1
+|-boost|p1b: Malamar|def|1
+|-damage|p1b: Malamar|55/100|[from] ability: Rough Skin|[of] p2b: Garchomp
+|
+|-heal|p1b: Malamar|61/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783341332
+|switch|p1a: Pyroar|Pyroar, L50, M|100/100
+|-ability|p1a: Pyroar|Unnerve
+|turn|2
+|inactive|gg.exe has 30 seconds left.
+|
+|t:|1783341362
+|move|p2a: Charizard|Protect|p2a: Charizard
+|-singleturn|p2a: Charizard|Protect
+|move|p1a: Pyroar|Overheat|p2b: Garchomp
+|-resisted|p2b: Garchomp|1
+|-damage|p2b: Garchomp|37/100
+|-unboost|p1a: Pyroar|spa|2
+|move|p2b: Garchomp|Earthquake|p1b: Malamar|[spread] p1a,p1b
+|-activate|p2a: Charizard|move: Protect
+|-supereffective|p1a: Pyroar|1
+|-damage|p1a: Pyroar|0 fnt
+|-damage|p1b: Malamar|37/100
+|faint|p1a: Pyroar
+|-damage|p2b: Garchomp|27/100|[from] item: Life Orb
+|move|p1b: Malamar|Topsy-Turvy|p1: Pyroar|[notarget]
+|-fail|p1b: Malamar
+|
+|-heal|p1b: Malamar|43/100|[from] item: Leftovers
+|upkeep
+|-message|gg.exe forfeited.
+|
+|win|bancomat 2

@@ -1,0 +1,217 @@
+|j|☆C.blaze
+|j|☆battle sim trainer
+|html|C.blazebattle sim trainer    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783376900
+|gametype|doubles
+|player|p1|C.blaze|170|1111
+|player|p2|battle sim trainer|turo|1133
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Staraptor, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Hydreigon, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Rotom-Wash, L50|
+|poke|p2|Swampert, L50, F|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Mawile, L50, F|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Samurott-Hisui, L50, M|
+|teampreview|4
+|showteam|p1|Staraptor||Staraptite|Intimidate|BraveBird,CloseCombat,Protect,Roost|Jolly||M|||50|]Grimmsnarl||LightClay|Prankster|SpiritBreak,LightScreen,FakeOut,PartingShot|Careful||M|||50|]Hydreigon||HabanBerry|Levitate|DracoMeteor,DarkPulse,Protect,Snarl|Timid||F|||50|]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,Protect,NastyPlot|Timid|||||50|]Talonflame||SharpBeak|GaleWings|DualWingbeat,FlareBlitz,Protect,Tailwind|Jolly||M|||50|]Rotom-Wash||Leftovers|Levitate|Thunderbolt,HydroPump,Protect,Electroweb|Modest|||||50|
+|showteam|p2|Swampert||Swampertite|Damp|WaveCrash,Earthquake,IcePunch,Protect|Adamant||F|||50|]Pelipper||SitrusBerry|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|Modest||F|||50|]Archaludon||Leftovers|Stamina|ElectroShot,DragonPulse,FlashCannon,Protect|Modest||M|||50|]Mawile||Mawilite|HyperCutter|SwordsDance,SuckerPunch,IronHead,PsychicFangs|Adamant||F|||50|]Sinistcha||KasibBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,LifeDew|Bold|||||50|]Samurott-Hisui||FocusSash|Sharpness|AquaCutter,SacredSword,NightSlash,Protect|Adamant||M|||50|
+|
+|t:|1783376930
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rotom|Rotom-Wash, L50|100/100
+|switch|p1b: Hydreigon|Hydreigon, L50, F|100/100
+|switch|p2a: Mawile|Mawile, L50, F|100/100
+|switch|p2b: Sinistcha|Sinistcha, L50|100/100
+|turn|1
+|
+|t:|1783376943
+|detailschange|p2a: Mawile|Mawile-Mega, L50, F
+|-mega|p2a: Mawile|Mawile|Mawilite
+|move|p1b: Hydreigon|Dark Pulse|p2b: Sinistcha
+|-supereffective|p2b: Sinistcha|1
+|-damage|p2b: Sinistcha|12/100
+|move|p1a: Rotom|Thunderbolt|p2b: Sinistcha
+|-resisted|p2b: Sinistcha|1
+|-damage|p2b: Sinistcha|0 fnt
+|faint|p2b: Sinistcha
+|move|p2a: Mawile|Swords Dance|p2a: Mawile
+|-boost|p2a: Mawile|atk|2
+|
+|upkeep
+|
+|t:|1783376954
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100
+|turn|2
+|
+|t:|1783376972
+|move|p1b: Hydreigon|Protect|p1b: Hydreigon
+|-singleturn|p1b: Hydreigon|Protect
+|move|p2b: Archaludon|Protect|p2b: Archaludon
+|-singleturn|p2b: Archaludon|Protect
+|move|p2a: Mawile|Sucker Punch|p1a: Rotom
+|-damage|p1a: Rotom|6/100
+|move|p1a: Rotom|Hydro Pump|p2a: Mawile
+|-damage|p2a: Mawile|31/100
+|
+|-heal|p1a: Rotom|12/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1783377006
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1b: Hydreigon|Draco Meteor|p2b: Archaludon
+|-damage|p2b: Archaludon|28/100
+|-unboost|p1b: Hydreigon|spa|2
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|34/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783377027
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100
+|turn|4
+|
+|t:|1783377054
+|move|p2b: Archaludon|Protect|p2b: Archaludon
+|-singleturn|p2b: Archaludon|Protect
+|move|p1b: Hydreigon|Dark Pulse|p2a: Pelipper
+|-damage|p2a: Pelipper|76/100
+|move|p1a: Gholdengo|Shadow Ball|p2a: Pelipper
+|-damage|p2a: Pelipper|19/100
+|-enditem|p2a: Pelipper|Sitrus Berry|[eat]
+|-heal|p2a: Pelipper|43/100|[from] item: Sitrus Berry
+|-damage|p1a: Gholdengo|90/100|[from] item: Life Orb
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: battle sim trainer|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|40/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|l|☆C.blaze
+|player|p1|
+|j|☆C.blaze
+|player|p1|C.blaze|170|
+|
+|t:|1783377085
+|move|p1a: Gholdengo|Protect|p1a: Gholdengo
+|-singleturn|p1a: Gholdengo|Protect
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Gholdengo
+|-activate|p1a: Gholdengo|move: Protect
+|move|p2a: Pelipper|Hurricane|p1b: Hydreigon
+|-damage|p1b: Hydreigon|56/100
+|move|p1b: Hydreigon|Snarl|p2a: Pelipper|[spread] p2a,p2b
+|-damage|p2a: Pelipper|32/100
+|-damage|p2b: Archaludon|29/100
+|-unboost|p2a: Pelipper|spa|1
+|-unboost|p2b: Archaludon|spa|1
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|36/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1783377103
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Gholdengo
+|-damage|p1a: Gholdengo|0 fnt
+|faint|p1a: Gholdengo
+|move|p2a: Pelipper|Hurricane|p1b: Hydreigon
+|-damage|p1b: Hydreigon|26/100
+|move|p1b: Hydreigon|Draco Meteor|p2b: Archaludon
+|-damage|p2b: Archaludon|1/100
+|-unboost|p1b: Hydreigon|spa|2
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|6/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783377115
+|switch|p1a: Staraptor|Staraptor, L50, M|100/100
+|-ability|p1a: Staraptor|Intimidate|boost
+|-unboost|p2a: Pelipper|atk|1
+|-unboost|p2b: Archaludon|atk|1
+|turn|7
+|
+|t:|1783377138
+|move|p1a: Staraptor|Protect|p1a: Staraptor
+|-singleturn|p1a: Staraptor|Protect
+|move|p1b: Hydreigon|Protect|p1b: Hydreigon
+|-singleturn|p1b: Hydreigon|Protect
+|move|p2b: Archaludon|Dragon Pulse|p1b: Hydreigon
+|-activate|p1b: Hydreigon|move: Protect
+|move|p2a: Pelipper|Hurricane|p1a: Staraptor
+|-activate|p1a: Staraptor|move: Protect
+|
+|-weather|none
+|-heal|p2b: Archaludon|12/100|[from] item: Leftovers
+|-sideend|p2: battle sim trainer|move: Tailwind
+|upkeep
+|turn|8
+|
+|t:|1783377163
+|detailschange|p1a: Staraptor|Staraptor-Mega, L50, M
+|-mega|p1a: Staraptor|Staraptor|Staraptite
+|move|p2b: Archaludon|Protect|p2b: Archaludon
+|-singleturn|p2b: Archaludon|Protect
+|move|p1a: Staraptor|Brave Bird|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|-damage|p1a: Staraptor|88/100|[from] Recoil
+|move|p1b: Hydreigon|Draco Meteor|p2b: Archaludon
+|-activate|p2b: Archaludon|move: Protect
+|
+|-heal|p2b: Archaludon|18/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783377173
+|switch|p2a: Mawile|Mawile-Mega, L50, F|31/100
+|turn|9
+|
+|t:|1783377183
+|move|p2a: Mawile|Sucker Punch|p1a: Staraptor
+|-resisted|p1a: Staraptor|1
+|-damage|p1a: Staraptor|63/100
+|move|p1a: Staraptor|Close Combat|p2a: Mawile
+|-damage|p2a: Mawile|0 fnt
+|-boost|p1a: Staraptor|def|1
+|-boost|p1a: Staraptor|spd|1
+|faint|p2a: Mawile
+|move|p1b: Hydreigon|Draco Meteor|p2b: Archaludon
+|-damage|p2b: Archaludon|0 fnt
+|-unboost|p1b: Hydreigon|spa|2
+|faint|p2b: Archaludon
+|
+|win|C.blaze

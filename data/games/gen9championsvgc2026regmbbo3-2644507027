@@ -1,0 +1,193 @@
+|j|☆AtomicTwilight
+|j|☆erporros
+|html|AtomicTwilighterporros    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783283354
+|gametype|doubles
+|player|p1|AtomicTwilight|canari|1158
+|player|p2|erporros|169|1198
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Greninja, L50, M|
+|poke|p1|Raichu-Alola, L50, F|
+|poke|p1|Ditto, L50|
+|poke|p1|Slowking-Galar, L50, F|
+|poke|p1|Arcanine, L50, M|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p2|Maushold-Four, L50|
+|poke|p2|Annihilape, L50, M|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Kommo-o, L50, F|
+|poke|p2|Scovillain, L50, M, shiny|
+|teampreview|4
+|showteam|p1|Greninja||Greninjite|Protean|Blizzard,DarkPulse,Extrasensory,Protect|Modest||M|||50|]Raichu-Alola||ColburBerry|SurgeSurfer|Electroweb,FakeOut,VoltSwitch,Protect|Hasty||F|||50|]Ditto||FocusSash|Imposter|Transform|Bold|||||50|]Slowking-Galar||Leftovers|Regenerator|ChillyReception,Protect,Toxic,ChillingWater|Calm||F|||50|]Arcanine||Charcoal|Intimidate|ExtremeSpeed,FlareBlitz,WillOWisp,Protect|Jolly||M|||50|]Floette-Eternal||FairyFeather|FlowerVeil|Moonblast,DazzlingGleam,Protect,LightofRuin|Timid||F|||50|
+|showteam|p2|Maushold-Four||WideLens|Technician|FollowMe,Protect,PopulationBomb,Bite|Jolly|||||50|]Annihilape||SitrusBerry|Defiant|DrainPunch,BulkUp,RageFist,Protect|Jolly||M|||50|]Floette-Eternal||Floettite|FlowerVeil|Protect,DazzlingGleam,Moonblast,LightofRuin|Modest||F|||50|]Whimsicott||FocusSash|Prankster|Moonblast,Encore,Protect,Tailwind|Timid||F|||50|]Kommo-o||Leftovers|Bulletproof|ClangingScales,AuraSphere,Protect,ClangorousSoul|Modest||F|||50|]Scovillain||Scovillainite|Moody|RagePowder,Overheat,Protect,LeechSeed|Calm||M|||50|
+|
+|t:|1783283393
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Raichu|Raichu-Alola, L50, F|100/100
+|switch|p1b: Slowking|Slowking-Galar, L50, F|100/100
+|switch|p2a: Scovillain|Scovillain, L50, M, shiny|100/100
+|switch|p2b: Kommo-o|Kommo-o, L50, F|100/100
+|turn|1
+|
+|t:|1783283421
+|move|p2b: Kommo-o|Protect|p2b: Kommo-o
+|-singleturn|p2b: Kommo-o|Protect
+|move|p2a: Scovillain|Protect|p2a: Scovillain
+|-singleturn|p2a: Scovillain|Protect
+|move|p1a: Raichu|Fake Out|p2b: Kommo-o
+|-activate|p2b: Kommo-o|move: Protect
+|-prepare|p1b: Slowking|Chilly Reception|[premajor]
+|move|p1b: Slowking|Chilly Reception|p1b: Slowking
+|-weather|Snowscape
+|
+|t:|1783283430
+|switch|p1b: Greninja|Greninja, L50, M|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-ability|p2a: Scovillain|Moody|boost
+|-boost|p2a: Scovillain|spd|2
+|-unboost|p2a: Scovillain|spa|1
+|upkeep
+|turn|2
+|
+|t:|1783283451
+|detailschange|p1b: Greninja|Greninja-Mega, L50, M
+|-mega|p1b: Greninja|Greninja|Greninjite
+|detailschange|p2a: Scovillain|Scovillain-Mega, L50, M, shiny
+|-mega|p2a: Scovillain|Scovillain|Scovillainite
+|move|p2a: Scovillain|Rage Powder|p2a: Scovillain
+|-singleturn|p2a: Scovillain|move: Rage Powder
+|move|p1b: Greninja|Blizzard|p2a: Scovillain|[spread] p2a,p2b
+|-start|p1b: Greninja|typechange|Ice|[from] ability: Protean
+|-supereffective|p2b: Kommo-o|1
+|-damage|p2a: Scovillain|79/100
+|-damage|p2b: Kommo-o|8/100
+|-status|p1b: Greninja|brn|[from] ability: Spicy Spray|[of] p2a: Scovillain
+|move|p1a: Raichu|Volt Switch|p2a: Scovillain
+|-resisted|p2a: Scovillain|1
+|-damage|p2a: Scovillain|73/100
+|-status|p1a: Raichu|brn|[from] ability: Spicy Spray|[of] p2a: Scovillain
+|
+|t:|1783283465
+|switch|p1a: Slowking|Slowking-Galar, L50, F|100/100|[from] Volt Switch
+|move|p2b: Kommo-o|Clangorous Soul||[still]
+|-fail|p2b: Kommo-o
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Kommo-o|13/100|[from] item: Leftovers
+|-damage|p1b: Greninja|93/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1783283486
+|move|p2b: Kommo-o|Protect|p2b: Kommo-o
+|-singleturn|p2b: Kommo-o|Protect
+|move|p1b: Greninja|Blizzard|p2b: Kommo-o|[spread] p2a
+|-activate|p2b: Kommo-o|move: Protect
+|-damage|p2a: Scovillain|52/100
+|-status|p2a: Scovillain|frz
+|cant|p2a: Scovillain|frz
+|move|p1a: Slowking|Toxic||[still]
+|-fail|p1a: Slowking
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Kommo-o|19/100|[from] item: Leftovers
+|-damage|p1b: Greninja|87/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1783283514
+|switch|p2b: Annihilape|Annihilape, L50, M|100/100
+|move|p1b: Greninja|Blizzard|p2a: Scovillain|[spread] p2a,p2b
+|-damage|p2a: Scovillain|29/100 frz
+|-damage|p2b: Annihilape|58/100
+|-status|p2b: Annihilape|frz
+|cant|p2a: Scovillain|frz
+|move|p1a: Slowking|Toxic||[still]
+|-fail|p1a: Slowking
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1b: Greninja|81/100 brn|[from] brn
+|upkeep
+|turn|5
+|c|☆erporros|Wtf
+|
+|t:|1783283578
+|move|p1b: Greninja|Blizzard|p2a: Scovillain|[spread] p2a,p2b
+|-damage|p2a: Scovillain|8/100 frz
+|-damage|p2b: Annihilape|13/100 frz
+|-enditem|p2b: Annihilape|Sitrus Berry|[eat]
+|-heal|p2b: Annihilape|38/100 frz|[from] item: Sitrus Berry
+|cant|p2b: Annihilape|frz
+|-curestatus|p2a: Scovillain|frz|[msg]
+|move|p2a: Scovillain|Leech Seed|p1a: Slowking
+|-start|p1a: Slowking|move: Leech Seed
+|move|p1a: Slowking|Chilling Water|p2a: Scovillain
+|-damage|p2a: Scovillain|1/100
+|-unboost|p2a: Scovillain|atk|1
+|-status|p1a: Slowking|brn|[from] ability: Spicy Spray|[of] p2a: Scovillain
+|
+|-weather|none
+|-damage|p1a: Slowking|87/100 brn|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|16/100|[silent]
+|-damage|p1b: Greninja|75/100 brn|[from] brn
+|-damage|p1a: Slowking|81/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1783283601
+|move|p2a: Scovillain|Protect|p2a: Scovillain
+|-singleturn|p2a: Scovillain|Protect
+|move|p1b: Greninja|Extrasensory|p2b: Annihilape
+|-supereffective|p2b: Annihilape|1
+|-damage|p2b: Annihilape|0 fnt
+|faint|p2b: Annihilape
+|-prepare|p1a: Slowking|Chilly Reception|[premajor]
+|move|p1a: Slowking|Chilly Reception|p1a: Slowking
+|-weather|Snowscape
+|
+|t:|1783283609
+|-heal|p1a: Slowking|100/100 brn|[from] ability: Regenerator|[silent]
+|switch|p1a: Floette|Floette-Eternal, L50, F|100/100|[from] Chilly Reception
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1b: Greninja|69/100 brn|[from] brn
+|upkeep
+|
+|t:|1783283613
+|switch|p2b: Maushold|Maushold-Four, L50|100/100
+|turn|7
+|
+|t:|1783283623
+|move|p1b: Greninja|Blizzard|p2a: Scovillain|[spread] p2a,p2b
+|-damage|p2a: Scovillain|0 fnt
+|-damage|p2b: Maushold|32/100
+|-status|p2b: Maushold|frz
+|faint|p2a: Scovillain
+|cant|p2b: Maushold|frz
+|move|p1a: Floette|Moonblast|p2b: Maushold
+|-crit|p2b: Maushold
+|-damage|p2b: Maushold|0 fnt
+|faint|p2b: Maushold
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1b: Greninja|63/100 brn|[from] brn
+|upkeep
+|-message|erporros forfeited.
+|
+|win|AtomicTwilight
+|inactive|AtomicTwilight has 30 seconds to confirm battle start!
+|inactive|erporros has 30 seconds to confirm battle start!
+||erporros is ready for game 2.
+|inactive|AtomicTwilight has 20 seconds to confirm battle start!
+|inactive|AtomicTwilight has 10 seconds to confirm battle start!
+|uhtml|next|Next: Game 2 of 3

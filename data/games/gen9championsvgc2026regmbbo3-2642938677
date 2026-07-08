@@ -1,0 +1,165 @@
+|j|☆Fayz Sharpie
+|j|☆kirbyhat5
+|html|Fayz Sharpiekirbyhat5    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783019126
+|gametype|doubles
+|player|p1|Fayz Sharpie|koga|
+|player|p2|kirbyhat5|unknown|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|raw|1 custom rule: !Force Open Team Sheets
+|clearpoke
+|poke|p1|Aerodactyl, L50, F|
+|poke|p1|Orthworm, L50, F|
+|poke|p1|Scrafty, L50, F|
+|poke|p1|Mamoswine, L50, F|
+|poke|p1|Cofagrigus, L50, F|
+|poke|p1|Slowbro, L50, F|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Talonflame, L50, F|
+|poke|p2|Empoleon, L50, M|
+|poke|p2|Meowscarada, L50, F|
+|poke|p2|Gardevoir, L50, F|
+|poke|p2|Delphox, L50, F|
+|teampreview|4
+|c|☆Fayz Sharpie|gl hf
+|c|☆kirbyhat5|glhf
+|
+|t:|1783019253
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, L50, F|100/100
+|switch|p1b: Mamoswine|Mamoswine, L50, F|100/100
+|switch|p2a: Gardevoir|Gardevoir, L50, F|100/100
+|switch|p2b: Empoleon|Empoleon, L50, M|100/100
+|-ability|p1a: Aerodactyl|Unnerve
+|turn|1
+|
+|t:|1783019281
+|switch|p1a: Orthworm|Orthworm, L50, F|100/100
+|move|p2a: Gardevoir|Trick|p1a: Orthworm
+|-activate|p2a: Gardevoir|move: Trick|[of] p1a: Orthworm
+|-item|p1a: Orthworm|Choice Scarf|[from] move: Trick
+|-item|p2a: Gardevoir|Sitrus Berry|[from] move: Trick
+|move|p1b: Mamoswine|High Horsepower|p2b: Empoleon
+|-supereffective|p2b: Empoleon|1
+|-damage|p2b: Empoleon|0 fnt
+|faint|p2b: Empoleon
+|
+|upkeep
+|
+|t:|1783019290
+|switch|p2b: Delphox|Delphox, L50, F|100/100
+|turn|2
+|
+|t:|1783019301
+|detailschange|p2b: Delphox|Delphox-Mega, L50, F
+|-mega|p2b: Delphox|Delphox|Delphoxite
+|move|p1b: Mamoswine|Protect|p1b: Mamoswine
+|-singleturn|p1b: Mamoswine|Protect
+|move|p2b: Delphox|Heat Wave|p1b: Mamoswine|[spread] p1a
+|-activate|p1b: Mamoswine|move: Protect
+|-supereffective|p1a: Orthworm|1
+|-damage|p1a: Orthworm|0 fnt
+|faint|p1a: Orthworm
+|move|p2a: Gardevoir|Icy Wind|p1b: Mamoswine
+|-activate|p1b: Mamoswine|move: Protect
+|
+|upkeep
+|
+|t:|1783019315
+|switch|p1a: Aerodactyl|Aerodactyl, L50, F|100/100
+|-ability|p1a: Aerodactyl|Unnerve
+|turn|3
+|
+|t:|1783019319
+|switch|p1b: Slowbro|Slowbro, L50, F|100/100
+|detailschange|p1a: Aerodactyl|Aerodactyl-Mega, L50, F
+|-mega|p1a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p2b: Delphox|Protect|p2b: Delphox
+|-singleturn|p2b: Delphox|Protect
+|move|p1a: Aerodactyl|Rock Slide|p2b: Delphox|[spread] p2a
+|-activate|p2b: Delphox|move: Protect
+|-damage|p2a: Gardevoir|52/100
+|cant|p2a: Gardevoir|flinch
+|
+|upkeep
+|turn|4
+|
+|t:|1783019338
+|switch|p2b: Meowscarada|Meowscarada, L50, F|100/100
+|move|p1a: Aerodactyl|Rock Slide|p2b: Meowscarada|[spread] p2a,p2b
+|-damage|p2a: Gardevoir|1/100
+|-damage|p2b: Meowscarada|56/100
+|-enditem|p2a: Gardevoir|Sitrus Berry|[eat]
+|-heal|p2a: Gardevoir|25/100|[from] item: Sitrus Berry
+|move|p2a: Gardevoir|Icy Wind|p1b: Slowbro|[spread] p1a,p1b
+|-supereffective|p1a: Aerodactyl|1
+|-resisted|p1b: Slowbro|1
+|-damage|p1a: Aerodactyl|69/100
+|-damage|p1b: Slowbro|93/100
+|-unboost|p1a: Aerodactyl|spe|1
+|-unboost|p1b: Slowbro|spe|1
+|move|p1b: Slowbro|Scald|p2b: Meowscarada
+|-resisted|p2b: Meowscarada|1
+|-crit|p2b: Meowscarada
+|-damage|p2b: Meowscarada|1/100
+|-status|p2b: Meowscarada|brn
+|-damage|p1b: Slowbro|83/100|[from] item: Life Orb
+|
+|-damage|p2b: Meowscarada|0 fnt|[from] brn
+|faint|p2b: Meowscarada
+|upkeep
+|
+|t:|1783019352
+|switch|p2b: Delphox|Delphox-Mega, L50, F|100/100
+|turn|5
+|
+|t:|1783019360
+|move|p2b: Delphox|Psychic|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|5/100
+|move|p1a: Aerodactyl|Tailwind|p1a: Aerodactyl
+|-sidestart|p1: Fayz Sharpie|move: Tailwind
+|move|p2a: Gardevoir|Moonblast|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|move|p1b: Slowbro|Scald|p2b: Delphox
+|-supereffective|p2b: Delphox|1
+|-damage|p2b: Delphox|9/100
+|-damage|p1b: Slowbro|73/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1783019367
+|switch|p1a: Mamoswine|Mamoswine, L50, F|100/100
+|turn|6
+|
+|t:|1783019377
+|move|p2b: Delphox|Protect|p2b: Delphox
+|-singleturn|p2b: Delphox|Protect
+|move|p1a: Mamoswine|Ice Shard|p2b: Delphox
+|-activate|p2b: Delphox|move: Protect
+|move|p2a: Gardevoir|Moonblast|p1a: Mamoswine
+|-damage|p1a: Mamoswine|25/100
+|move|p1b: Slowbro|Scald|p2a: Gardevoir
+|-damage|p2a: Gardevoir|0 fnt
+|faint|p2a: Gardevoir
+|-damage|p1b: Slowbro|63/100|[from] item: Life Orb
+|
+|upkeep
+|turn|7
+|
+|t:|1783019396
+|move|p1a: Mamoswine|Ice Shard|p2b: Delphox
+|-resisted|p2b: Delphox|1
+|-damage|p2b: Delphox|0 fnt
+|faint|p2b: Delphox
+|
+|win|Fayz Sharpie
+||kirbyhat5 is ready for game 2.
+||Fayz Sharpie is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

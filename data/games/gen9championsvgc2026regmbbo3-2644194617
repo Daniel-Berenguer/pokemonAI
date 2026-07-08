@@ -1,0 +1,196 @@
+|j|☆informtech
+|j|☆Pledgen
+|html|informtechPledgen    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783228260
+|gametype|doubles
+|player|p1|informtech|lucas|1191
+|player|p2|Pledgen|2|1173
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Staraptor, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p2|Primarina, L50, M, shiny|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Mawile, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Sylveon, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,Protect,Roost|Adamant||M|||50|]Whimsicott||FocusSash|Prankster|Tailwind,TrickRoom,Moonblast,Tickle|Quiet||F|||50|]Basculegion||SitrusBerry|Adaptability|LastRespects,Protect,AquaJet,WaveCrash|Jolly||M|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,RockSlide,Earthquake,Protect|Adamant||M|||50|]Charizard||CharizarditeY|SolarPower|HeatWave,AirSlash,SolarBeam,Protect|Modest||M|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,Protect,IronHead|Adamant||F|||50|
+|showteam|p2|Primarina||LifeOrb|LiquidVoice|HyperVoice,Moonblast,Protect,IceBeam|Quiet||M|||50|]Farigiraf||SitrusBerry|ArmorTail|TrickRoom,TwinBeam,HelpingHand,Protect|Relaxed||M|||50|]Mawile||Mawilite|Intimidate|SuckerPunch,PlayRough,IronHead,Protect|Adamant||F|||50|]Torkoal||Charcoal|Drought|Eruption,SolarBeam,EarthPower,Protect|Modest||F|||50|]Sylveon||BabiriBerry|Pixilate|HyperVoice,HyperBeam,Moonblast,Detect|Quiet||M|||50|]Incineroar||Leftovers|Intimidate|FlareBlitz,DarkestLariat,PartingShot,FakeOut|Adamant||M|||50|
+|
+|t:|1783228299
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|1
+|
+|t:|1783228320
+|move|p1b: Kingambit|Sucker Punch||[still]
+|cant|p2a: Farigiraf|ability: Armor Tail|Sucker Punch|[of] p1b: Kingambit
+|move|p1a: Basculegion|Wave Crash|p2b: Torkoal
+|-supereffective|p2b: Torkoal|1
+|-damage|p2b: Torkoal|45/100
+|-damage|p1a: Basculegion|85/100|[from] Recoil
+|move|p2b: Torkoal|Solar Beam||[still]
+|-prepare|p2b: Torkoal|Solar Beam
+|-anim|p2b: Torkoal|Solar Beam|p1a: Basculegion
+|-supereffective|p1a: Basculegion|1
+|-damage|p1a: Basculegion|8/100
+|-enditem|p1a: Basculegion|Sitrus Berry|[eat]
+|-heal|p1a: Basculegion|33/100|[from] item: Sitrus Berry
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1783228341
+|switch|p1a: Charizard|Charizard, L50, M|100/100
+|move|p2a: Farigiraf|Helping Hand|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Helping Hand|[of] p2a: Farigiraf
+|move|p1b: Kingambit|Protect|p1b: Kingambit
+|-singleturn|p1b: Kingambit|Protect
+|move|p2b: Torkoal|Eruption|p1b: Kingambit|[spread] p1a
+|-activate|p1b: Kingambit|move: Protect
+|-resisted|p1a: Charizard|1
+|-damage|p1a: Charizard|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Charizard|53/100|[from] ability: Solar Power|[of] p1a: Charizard
+|upkeep
+|turn|3
+|
+|t:|1783228361
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|move|p2a: Farigiraf|Helping Hand|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Helping Hand|[of] p2a: Farigiraf
+|move|p2b: Torkoal|Eruption|p1b: Garchomp|[spread] p1a,p1b
+|-resisted|p1a: Charizard|1
+|-crit|p1a: Charizard
+|-resisted|p1b: Garchomp|1
+|-damage|p1a: Charizard|9/100
+|-damage|p1b: Garchomp|73/100
+|move|p1a: Charizard|Heat Wave|p2a: Farigiraf|[spread] p2a,p2b
+|-resisted|p2b: Torkoal|1
+|-damage|p2a: Farigiraf|33/100
+|-damage|p2b: Torkoal|3/100
+|-enditem|p2a: Farigiraf|Sitrus Berry|[eat]
+|-heal|p2a: Farigiraf|58/100|[from] item: Sitrus Berry
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1783228378
+|move|p1a: Charizard|Protect|p1a: Charizard
+|-singleturn|p1a: Charizard|Protect
+|move|p2b: Torkoal|Solar Beam||[still]
+|-prepare|p2b: Torkoal|Solar Beam
+|-anim|p2b: Torkoal|Solar Beam|p1b: Garchomp
+|-damage|p1b: Garchomp|40/100
+|move|p2a: Farigiraf|Twin Beam|p1a: Charizard
+|-activate|p1a: Charizard|move: Protect
+|move|p1b: Garchomp|Earthquake|p2a: Farigiraf|[spread] p2a,p2b
+|-activate|p1a: Charizard|move: Protect
+|-supereffective|p2b: Torkoal|1
+|-damage|p2a: Farigiraf|18/100
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|-damage|p1b: Garchomp|30/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783228386
+|switch|p2b: Sylveon|Sylveon, L50, M|100/100
+|turn|5
+|
+|t:|1783228398
+|switch|p1a: Kingambit|Kingambit, L50, F|100/100
+|move|p2a: Farigiraf|Helping Hand|p2b: Sylveon
+|-singleturn|p2b: Sylveon|Helping Hand|[of] p2a: Farigiraf
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p2b: Sylveon|Hyper Voice|p1a: Kingambit|[spread] p1a
+|-activate|p1b: Garchomp|move: Protect
+|-damage|p1a: Kingambit|33/100
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1783228430
+|move|p2a: Farigiraf|Helping Hand|p2b: Sylveon
+|-singleturn|p2b: Sylveon|Helping Hand|[of] p2a: Farigiraf
+|move|p1b: Garchomp|Rock Slide|p2a: Farigiraf|[spread] p2a,p2b
+|-damage|p2a: Farigiraf|0 fnt
+|-damage|p2b: Sylveon|67/100
+|faint|p2a: Farigiraf
+|-damage|p1b: Garchomp|20/100y|[from] item: Life Orb
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Sylveon
+|-resisted|p2b: Sylveon|1
+|-crit|p2b: Sylveon
+|-damage|p2b: Sylveon|12/100
+|cant|p2b: Sylveon|flinch
+|
+|upkeep
+|
+|t:|1783228440
+|switch|p2a: Mawile|Mawile, L50, F|100/100
+|-ability|p2a: Mawile|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|-unboost|p1b: Garchomp|atk|1
+|turn|7
+|
+|t:|1783228451
+|detailschange|p2a: Mawile|Mawile-Mega, L50, F
+|-mega|p2a: Mawile|Mawile|Mawilite
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2b: Sylveon|Detect|p2b: Sylveon
+|-singleturn|p2b: Sylveon|Protect
+|move|p1b: Garchomp|Earthquake|p2a: Mawile|[spread] p2a
+|-activate|p1a: Kingambit|move: Protect
+|-activate|p2b: Sylveon|move: Protect
+|-supereffective|p2a: Mawile|1
+|-damage|p2a: Mawile|30/100
+|-damage|p1b: Garchomp|10/100|[from] item: Life Orb
+|move|p2a: Mawile|Play Rough|p1b: Garchomp|[miss]
+|-miss|p2a: Mawile|p1b: Garchomp
+|
+|upkeep
+|turn|8
+|c|☆Pledgen|NICE
+|c|☆Pledgen|BRO
+|c|☆informtech|ggs
+|c|☆Pledgen|IF IT'S THE NOT THE FLINCH THAT STOPPED BOTH OF THEM FROM GETTING KOED
+|c|☆Pledgen|ITS THE MISSING PLAY ROUGH
+|-message|Pledgen forfeited.
+|
+|win|informtech
+|raw|informtech's rating: 1191 → 1215(+24 for winning)
+|raw|Pledgen's rating: 1173 → 1149(-24 for losing)
+|l|☆Pledgen
+|player|p2|
+|c|☆informtech|yeah that was so rough for you im sorry

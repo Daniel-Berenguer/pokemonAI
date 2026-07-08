@@ -1,0 +1,191 @@
+|j|☆DGAvalon
+|j|☆Jsnobs
+|html|DGAvalonJsnobs    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1783165931
+|gametype|doubles
+|player|p1|DGAvalon|169|
+|player|p2|Jsnobs|acetrainer-gen4dp|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Swampert, L50, F|
+|poke|p1|Sableye, L50, M|
+|poke|p1|Vivillon-Fancy, L50, M|
+|poke|p1|Politoed, L50, M|
+|poke|p1|Raichu, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p2|Sceptile, L50, M, shiny|
+|poke|p2|Meowstic, L50, M, shiny|
+|poke|p2|Oranguru, L50, M, shiny|
+|poke|p2|Torkoal, L50, M, shiny|
+|poke|p2|Araquanid, L50, M, shiny|
+|poke|p2|Mawile, L50, F, shiny|
+|teampreview|4
+|showteam|p1|Swampert||Swampertite|Torrent|IcePunch,Earthquake,SmackDown,WideGuard|Adamant||F|||50|]Sableye||SitrusBerry|Prankster|RainDance,Quash,Taunt,NightShade|Calm||M|||50|]Vivillon-Fancy||FocusSash|CompoundEyes|SleepPowder,Hurricane,PollenPuff,RagePowder|Timid||M|||50|]Politoed||Leftovers|Drizzle|EarthPower,IceBeam,Protect,HelpingHand|Calm||M|||50|]Raichu||RaichuniteY|LightningRod|FakeOut,AlluringVoice,Thunderbolt,Protect|Timid||M|||50|]Gholdengo||LifeOrb|GoodasGold|MakeItRain,PowerGem,NastyPlot,Protect|Modest|||||50|
+|showteam|p2|Sceptile||Sceptilite|Overgrow|Detect,LeafStorm,DragonPulse,EarthPower|Timid||M|||50|]Meowstic||FocusSash|Prankster|FakeOut,SunnyDay,LightScreen,ShadowBall|Timid||M|||50|]Oranguru||MentalHerb|InnerFocus|Protect,TrickRoom,Instruct,Encore|Sassy||M|||50|]Torkoal||Charcoal|Drought|Protect,Eruption,Flamethrower,SolarBeam|Quiet||M|||50|]Araquanid||MysticWater|WaterBubble|Protect,Liquidation,LeechLife,IcyWind|Brave||M|||50|]Mawile||Mawilite|HyperCutter|Protect,PlayRough,KnockOff,SuckerPunch|Brave||F|||50|
+|
+|t:|1783165968
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Swampert|Swampert, L50, F|100/100
+|switch|p1b: Raichu|Raichu, L50, M|100/100
+|switch|p2a: Meowstic|Meowstic, L50, M, shiny|100/100
+|switch|p2b: Araquanid|Araquanid, L50, M, shiny|100/100
+|turn|1
+|
+|t:|1783165995
+|switch|p2b: Oranguru|Oranguru, L50, M, shiny|100/100
+|move|p1b: Raichu|Fake Out|p2a: Meowstic
+|-damage|p2a: Meowstic|88/100
+|cant|p2a: Meowstic|flinch
+|move|p1a: Swampert|Smack Down|p2b: Oranguru
+|-damage|p2b: Oranguru|85/100
+|
+|upkeep
+|turn|2
+|
+|t:|1783166024
+|detailschange|p1a: Swampert|Swampert-Mega, L50, F
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p1b: Raichu|Protect|p1b: Raichu
+|-singleturn|p1b: Raichu|Protect
+|move|p2a: Meowstic|Sunny Day|p2a: Meowstic
+|-weather|SunnyDay
+|move|p1a: Swampert|Earthquake|p2a: Meowstic|[spread] p2a,p2b
+|-activate|p1b: Raichu|move: Protect
+|-damage|p2a: Meowstic|23/100
+|-damage|p2b: Oranguru|40/100
+|move|p2b: Oranguru|Trick Room|p2b: Oranguru
+|-fieldstart|move: Trick Room|[of] p2b: Oranguru
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1783166062
+|switch|p1b: Sableye|Sableye, L50, M|100/100
+|move|p2b: Oranguru|Protect|p2b: Oranguru
+|-singleturn|p2b: Oranguru|Protect
+|move|p1a: Swampert|Earthquake|p2b: Oranguru|[spread] p1b,p2a
+|-activate|p2b: Oranguru|move: Protect
+|-damage|p1b: Sableye|32/100
+|-damage|p2a: Meowstic|0 fnt
+|-enditem|p1b: Sableye|Sitrus Berry|[eat]
+|-heal|p1b: Sableye|57/100|[from] item: Sitrus Berry
+|faint|p2a: Meowstic
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783166074
+|switch|p2a: Mawile|Mawile, L50, F, shiny|100/100
+|turn|4
+|
+|t:|1783166107
+|detailschange|p2a: Mawile|Mawile-Mega, L50, F, shiny
+|-mega|p2a: Mawile|Mawile|Mawilite
+|move|p1b: Sableye|Quash|p2a: Mawile
+|-activate|p2a: Mawile|move: Quash
+|move|p2b: Oranguru|Instruct||[still]
+|-fail|p2b: Oranguru
+|move|p1a: Swampert|Earthquake|p2a: Mawile|[spread] p1b,p2a,p2b
+|-supereffective|p2a: Mawile|1
+|-damage|p1b: Sableye|0 fnt
+|-damage|p2a: Mawile|12/100
+|-damage|p2b: Oranguru|1/100
+|faint|p1b: Sableye
+|move|p2a: Mawile|Play Rough|p1a: Swampert
+|-damage|p1a: Swampert|22/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783166122
+|switch|p1b: Raichu|Raichu, L50, M|100/100
+|turn|5
+|
+|t:|1783166130
+|switch|p1a: Politoed|Politoed, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2a: Mawile|Protect|p2a: Mawile
+|-singleturn|p2a: Mawile|Protect
+|move|p2b: Oranguru|Protect|p2b: Oranguru
+|-singleturn|p2b: Oranguru|Protect
+|move|p1b: Raichu|Fake Out|p2a: Mawile
+|-activate|p2a: Mawile|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1783166154
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p1b: Raichu|Protect|p1b: Raichu
+|-singleturn|p1b: Raichu|Protect
+|move|p2a: Mawile|Play Rough|p1b: Raichu
+|-activate|p1b: Raichu|move: Protect
+|move|p2b: Oranguru|Instruct|p2a: Mawile
+|-singleturn|p2a: Mawile|move: Instruct|[of] p2b: Oranguru
+|move|p2a: Mawile|Play Rough|p1b: Raichu
+|-activate|p1b: Raichu|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1783166172
+|move|p2a: Mawile|Sucker Punch|p1b: Raichu
+|-damage|p1b: Raichu|21/100
+|move|p1b: Raichu|Thunderbolt|p2b: Oranguru
+|-damage|p2b: Oranguru|0 fnt
+|faint|p2b: Oranguru
+|move|p1a: Politoed|Earth Power|p2a: Mawile
+|-supereffective|p2a: Mawile|1
+|-damage|p2a: Mawile|0 fnt
+|faint|p2a: Mawile
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Jsnobs|gg
+|
+|t:|1783166190
+|switch|p2a: Araquanid|Araquanid, L50, M, shiny|100/100
+|turn|8
+|c|☆DGAvalon|I dunno Araquanid can be a menace!
+|
+|t:|1783166205
+|move|p1b: Raichu|Thunderbolt|p2a: Araquanid
+|-supereffective|p2a: Araquanid|1
+|-damage|p2a: Araquanid|52/100
+|move|p1a: Politoed|Ice Beam|p2a: Araquanid
+|-resisted|p2a: Araquanid|1
+|-damage|p2a: Araquanid|44/100
+|move|p2a: Araquanid|Liquidation|p1b: Raichu
+|-damage|p1b: Raichu|0 fnt
+|faint|p1b: Raichu
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1783166214
+|switch|p1b: Swampert|Swampert-Mega, L50, F|22/100
+|turn|9
+|
+|t:|1783166220
+|move|p1a: Politoed|Helping Hand|p1b: Swampert
+|-singleturn|p1b: Swampert|Helping Hand|[of] p1a: Politoed
+|move|p1b: Swampert|Smack Down|p2a: Araquanid
+|-supereffective|p2a: Araquanid|1
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|win|DGAvalon
+|c|☆DGAvalon|GGWP
+|c|☆DGAvalon|I'll post replays
+|c|☆Jsnobs|thanks ggs that was some good pokemon

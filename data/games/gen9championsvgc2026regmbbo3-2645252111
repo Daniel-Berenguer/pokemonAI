@@ -1,0 +1,226 @@
+|j|☆HeatInSeven14
+|j|☆TeyVgc
+|html|HeatInSeven14TeyVgc    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783401876
+|gametype|doubles
+|player|p1|HeatInSeven14|102|1158
+|player|p2|TeyVgc|rood|1298
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Farigiraf, L50, M, shiny|
+|poke|p1|Kangaskhan, L50, F, shiny|
+|poke|p1|Hydrapple, L50, M, shiny|
+|poke|p1|Torkoal, L50, M, shiny|
+|poke|p1|Mawile, L50, M|
+|poke|p1|Vivillon-Pokeball, L50, M|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Ceruledge, L50, F|
+|poke|p2|Milotic, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Floette-Eternal, L50, F|
+|teampreview|4
+|showteam|p1|Farigiraf||SitrusBerry|ArmorTail|TwinBeam,Thunderbolt,TrickRoom,Protect|Bold||M|||50|]Kangaskhan||Kangaskhanite|Scrappy|FakeOut,DoubleEdge,DrainPunch,RockSlide|Brave||F|||50|]Hydrapple||LifeOrb|Regenerator|FickleBeam,EnergyBall,EarthPower,Protect|Quiet||M|||50|]Torkoal||Charcoal|Drought|Eruption,WeatherBall,EarthPower,WillOWisp|Quiet||M|||50|]Mawile||Mawilite|HyperCutter|PlayRough,IronHead,SuckerPunch,Protect|Adamant||M|||50|]Vivillon-Pokeball||FocusSash|CompoundEyes|RagePowder,Hurricane,SleepPowder,Protect|Timid||M|||50|
+|showteam|p2|Raichu||RaichuniteY|LightningRod|ZapCannon,FocusBlast,FakeOut,Protect|Timid||M|||50|]Sinistcha||KasibBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,Protect|Relaxed|||||50|]Ceruledge||ColburBerry|FlashFire|BitterBlade,ShadowSneak,BulkUp,Protect|Adamant||F|||50|]Milotic||Leftovers|Competitive|MuddyWater,Coil,Hypnosis,Protect|Calm||M|||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,ThroatChop,FakeOut,PartingShot|Impish||F|||50|]Floette-Eternal||Floettite|FlowerVeil|CalmMind,Protect,Moonblast,DazzlingGleam|Modest||F|||50|
+|
+|t:|1783401917
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, M, shiny|100/100
+|switch|p1b: Vivillon|Vivillon-Pokeball, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Ceruledge|Ceruledge, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Farigiraf|atk|1
+|-unboost|p1b: Vivillon|atk|1
+|turn|1
+|
+|t:|1783401955
+|move|p1b: Vivillon|Sleep Powder|p2a: Incineroar
+|-status|p2a: Incineroar|slp|[from] move: Sleep Powder
+|move|p2b: Ceruledge|Bitter Blade|p1b: Vivillon
+|-supereffective|p1b: Vivillon|1
+|-enditem|p1b: Vivillon|Focus Sash
+|-damage|p1b: Vivillon|1/100
+|cant|p2a: Incineroar|slp
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1783401983
+|switch|p1b: Torkoal|Torkoal, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|move|p1a: Farigiraf|Twin Beam|p2b: Ceruledge
+|-crit|p2b: Ceruledge
+|-damage|p2b: Ceruledge|78/100
+|-damage|p2b: Ceruledge|63/100
+|-hitcount|p2b: Ceruledge|2
+|cant|p2a: Incineroar|slp
+|move|p2b: Ceruledge|Bitter Blade|p1b: Torkoal
+|-resisted|p1b: Torkoal|1
+|-damage|p1b: Torkoal|69/100
+|-heal|p2b: Ceruledge|78/100|[from] drain|[of] p1b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1783402004
+|switch|p1a: Hydrapple|Hydrapple, L50, M, shiny|100/100
+|move|p1b: Torkoal|Earth Power|p2b: Ceruledge
+|-supereffective|p2b: Ceruledge|1
+|-damage|p2b: Ceruledge|26/100
+|-curestatus|p2a: Incineroar|slp|[msg]
+|move|p2a: Incineroar|Throat Chop|p1a: Hydrapple
+|-damage|p1a: Hydrapple|74/100
+|-start|p1a: Hydrapple|Throat Chop|[silent]
+|move|p2b: Ceruledge|Bitter Blade|p1b: Torkoal
+|-resisted|p1b: Torkoal|1
+|-damage|p1b: Torkoal|38/100
+|-heal|p2b: Ceruledge|41/100|[from] drain|[of] p1b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TeyVgc)
+|
+|t:|1783402063
+|move|p2b: Ceruledge|Protect|p2b: Ceruledge
+|-singleturn|p2b: Ceruledge|Protect
+|move|p1b: Torkoal|Earth Power|p2a: Incineroar
+|-supereffective|p2a: Incineroar|1
+|-damage|p2a: Incineroar|54/100
+|move|p1a: Hydrapple|Earth Power|p2a: Incineroar
+|-supereffective|p2a: Incineroar|1
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|-damage|p1a: Hydrapple|64/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Hydrapple|Throat Chop|[silent]
+|upkeep
+|
+|t:|1783402075
+|switch|p2a: Sinistcha|Sinistcha, L50|100/100
+|-heal|p2b: Ceruledge|66/100|[from] ability: Hospitality|[of] p2a: Sinistcha
+|turn|5
+|inactive|HeatInSeven14 has 30 seconds left.
+|inactive|HeatInSeven14 has 20 seconds left.
+|inactive|HeatInSeven14 has 15 seconds left.
+|inactive|HeatInSeven14 has 10 seconds left.
+|inactive|HeatInSeven14 has 5 seconds left.
+|
+|t:|1783402130
+|move|p2a: Sinistcha|Rage Powder|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|move: Rage Powder
+|move|p1b: Torkoal|Eruption|p2a: Sinistcha|[spread] p2a
+|-start|p2b: Ceruledge|ability: Flash Fire
+|-supereffective|p2a: Sinistcha|1
+|-damage|p2a: Sinistcha|32/100
+|move|p1a: Hydrapple|Fickle Beam|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|-damage|p1a: Hydrapple|54/100|[from] item: Life Orb
+|move|p2b: Ceruledge|Bitter Blade|p1a: Hydrapple
+|-damage|p1a: Hydrapple|0 fnt
+|-heal|p2b: Ceruledge|98/100|[from] drain|[of] p1a: Hydrapple
+|faint|p1a: Hydrapple
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1783402146
+|switch|p2a: Milotic|Milotic, L50, M|100/100
+|switch|p1a: Vivillon|Vivillon-Pokeball, L50, M|1/100
+|turn|6
+|
+|t:|1783402156
+|switch|p1b: Farigiraf|Farigiraf, L50, M, shiny|100/100
+|move|p2b: Ceruledge|Shadow Sneak||[still]
+|cant|p1b: Farigiraf|ability: Armor Tail|Shadow Sneak|[of] p2b: Ceruledge
+|move|p1a: Vivillon|Sleep Powder|p2b: Ceruledge
+|-status|p2b: Ceruledge|slp|[from] move: Sleep Powder
+|move|p2a: Milotic|Muddy Water|p1a: Vivillon|[spread] p1b
+|-miss|p2a: Milotic|p1a: Vivillon
+|-damage|p1b: Farigiraf|90/100
+|-unboost|p1b: Farigiraf|accuracy|1
+|
+|-weather|none
+|upkeep
+|turn|7
+|inactive|HeatInSeven14 has 30 seconds left.
+|inactive|HeatInSeven14 has 20 seconds left.
+|inactive|HeatInSeven14 has 15 seconds left.
+|inactive|HeatInSeven14 has 10 seconds left.
+|
+|t:|1783402205
+|move|p1a: Vivillon|Sleep Powder|p2a: Milotic
+|-status|p2a: Milotic|slp|[from] move: Sleep Powder
+|cant|p2b: Ceruledge|slp
+|cant|p2a: Milotic|slp
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|upkeep
+|turn|8
+|
+|t:|1783402224
+|move|p1b: Farigiraf|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic|1
+|-damage|p2a: Milotic|68/100 slp
+|-curestatus|p2a: Milotic|slp|[msg]
+|move|p2a: Milotic|Muddy Water|p1a: Vivillon|[spread] p1a,p1b
+|-damage|p1a: Vivillon|0 fnt
+|-damage|p1b: Farigiraf|71/100
+|-unboost|p1b: Farigiraf|accuracy|1
+|faint|p1a: Vivillon
+|-curestatus|p2b: Ceruledge|slp|[msg]
+|move|p2b: Ceruledge|Bitter Blade|p1b: Farigiraf
+|-damage|p1b: Farigiraf|19/100
+|-heal|p2b: Ceruledge|100/100|[from] drain|[of] p1b: Farigiraf
+|-enditem|p1b: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1b: Farigiraf|44/100|[from] item: Sitrus Berry
+|
+|-heal|p2a: Milotic|74/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783402231
+|switch|p1a: Torkoal|Torkoal, L50, M, shiny|38/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|9
+|
+|t:|1783402244
+|move|p1a: Torkoal|Earth Power|p2b: Ceruledge
+|-supereffective|p2b: Ceruledge|1
+|-damage|p2b: Ceruledge|50/100g
+|move|p1b: Farigiraf|Twin Beam|p2a: Milotic
+|-damage|p2a: Milotic|63/100
+|-damage|p2a: Milotic|54/100
+|-hitcount|p2a: Milotic|2
+|move|p2a: Milotic|Muddy Water|p1b: Farigiraf|[spread] p1a,p1b
+|-supereffective|p1a: Torkoal|1
+|-damage|p1a: Torkoal|7/100
+|-damage|p1b: Farigiraf|33/100
+|move|p2b: Ceruledge|Bitter Blade|p1b: Farigiraf
+|-damage|p1b: Farigiraf|0 fnt
+|-heal|p2b: Ceruledge|71/100|[from] drain|[of] p1b: Farigiraf
+|faint|p1b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Milotic|60/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|-message|HeatInSeven14 forfeited.
+|raw|HeatInSeven14's rating: 1158 → 1143(-15 for losing)
+|raw|TeyVgc's rating: 1298 → 1313(+15 for winning)
+|
+|win|TeyVgc
