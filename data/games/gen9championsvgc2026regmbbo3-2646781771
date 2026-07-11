@@ -1,0 +1,110 @@
+|j|☆lox1sm
+|j|☆Zukato1XD
+|html|lox1smZukato1XD    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783640315
+|gametype|doubles
+|player|p1|lox1sm|veteran|1237
+|player|p2|Zukato1XD|1|1191
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Aerodactyl, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Primarina, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Charizard, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,SolarBeam,Protect|Modest||F|||50|]Aerodactyl||Aerodactylite|Unnerve|RockSlide,IceFang,Tailwind,Protect|Jolly||F|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,RockSlide,Protect|Jolly||F|||50|]Kingambit||FocusSash|Defiant|KowtowCleave,SuckerPunch,IronHead,LowKick|Adamant||F|||50|]Farigiraf||ExpertBelt|ArmorTail|Psychic,DazzlingGleam,Thunderbolt,TrickRoom|Modest||M|||50|]Primarina||MysticWater|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|Modest||M|||50|
+|showteam|p2|Kingambit||Leftovers|Defiant|KowtowCleave,SuckerPunch,IronHead,Protect|Adamant||F|||50|]Basculegion||ChoiceScarf|Adaptability|FlipTurn,WaveCrash,AquaJet,LastRespects|Jolly||M|||50|]Whimsicott||FocusSash|Prankster|Taunt,Moonblast,Tailwind,Encore|Timid||F|||50|]Sneasler||WhiteHerb|Unburden|CloseCombat,FakeOut,DireClaw,Protect|Jolly||F|||50|]Floette-Eternal||Floettite|FlowerVeil|Protect,DazzlingGleam,Moonblast,CalmMind|Timid||F|||50|]Charizard||CharizarditeY|Blaze|HeatWave,SolarBeam,ScorchingSands,Protect|Modest||F|||50|
+|
+|t:|1783640406
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, L50, F|100/100
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, F|100/100
+|-ability|p1a: Aerodactyl|Unnerve
+|turn|1
+|
+|t:|1783640466
+|move|p1a: Aerodactyl|Protect|p1a: Aerodactyl
+|-singleturn|p1a: Aerodactyl|Protect
+|move|p2a: Basculegion|Aqua Jet|p1a: Aerodactyl
+|-activate|p1a: Aerodactyl|move: Protect
+|move|p2b: Whimsicott|Taunt|p1a: Aerodactyl
+|-activate|p1a: Aerodactyl|move: Protect
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Basculegion
+|-supereffective|p2a: Basculegion|1
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|
+|upkeep
+|
+|t:|1783640480
+|switch|p2a: Kingambit|Kingambit, L50, F|100/100
+|turn|2
+|
+|t:|1783640502
+|switch|p1a: Charizard|Charizard, L50, F|100/100
+|move|p2b: Whimsicott|Encore||[still]
+|-fail|p2b: Whimsicott
+|move|p1b: Kingambit|Low Kick|p2a: Kingambit
+|-supereffective|p2a: Kingambit|2
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|
+|upkeep
+|
+|t:|1783640512
+|switch|p2a: Floette|Floette-Eternal, L50, F|100/100
+|turn|3
+|
+|t:|1783640539
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2b: Whimsicott|Moonblast|p1b: Kingambit
+|-damage|p1b: Kingambit|67/100
+|move|p2a: Floette|Moonblast|p1b: Kingambit
+|-damage|p1b: Kingambit|14/100
+|move|p1a: Charizard|Weather Ball|p2a: Floette
+|-damage|p2a: Floette|14/100
+|move|p1b: Kingambit|Iron Head|p2a: Floette
+|-supereffective|p2a: Floette|1
+|-damage|p2a: Floette|0 fnt
+|faint|p2a: Floette
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1783640564
+|move|p1b: Kingambit|Sucker Punch|p2b: Whimsicott
+|-resisted|p2b: Whimsicott|1
+|-damage|p2b: Whimsicott|77/100
+|move|p2b: Whimsicott|Moonblast|p1b: Kingambit
+|-damage|p1b: Kingambit|0 fnt
+|faint|p1b: Kingambit
+|move|p1a: Charizard|Weather Ball|p2b: Whimsicott
+|-supereffective|p2b: Whimsicott|1
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2b: Whimsicott
+|
+|win|lox1sm
+||Zukato1XD is ready for game 2.
+|inactive|lox1sm has 30 seconds to confirm battle start!
+||lox1sm is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

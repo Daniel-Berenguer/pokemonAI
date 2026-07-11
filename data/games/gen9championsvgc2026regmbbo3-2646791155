@@ -1,0 +1,118 @@
+|j|☆Backwards_Aerial
+|j|☆GabeLev
+|html|Backwards_AerialGabeLev    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783641814
+|gametype|doubles
+|player|p1|Backwards_Aerial|palmer|
+|player|p2|GabeLev|1|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Swampert, L50, F|
+|poke|p1|Noivern, L50, M|
+|poke|p1|Scrafty, L50, M|
+|poke|p1|Politoed, L50, M|
+|poke|p1|Hydreigon, L50, F|
+|poke|p1|Sceptile, L50, F|
+|poke|p2|Hippowdon, L50, M|
+|poke|p2|Excadrill, L50, M, shiny|
+|poke|p2|Sinistcha-Masterpiece, L50, shiny|
+|poke|p2|Scovillain, L50, M, shiny|
+|poke|p2|Slowbro-Galar, L50, M, shiny|
+|poke|p2|Kommo-o, L50, M, shiny|
+|teampreview|4
+|showteam|p1|Swampert||Swampertite|Torrent|WaveCrash,Earthquake,FlipTurn,Protect|Adamant||F|||50|]Noivern||LifeOrb|Telepathy|Hurricane,Tailwind,DracoMeteor,Protect|Modest||M|||50|]Scrafty||SitrusBerry|Intimidate|FakeOut,KnockOff,CloseCombat,Protect|Impish||M|||50|]Politoed||RindoBerry|Drizzle|WeatherBall,RainDance,Encore,Protect|Calm||M|||50|]Hydreigon||ChoiceScarf|Levitate|DarkPulse,DracoMeteor,Surf,Protect|Modest||F|||50|]Sceptile||Sceptilite|Overgrow|GrassKnot,DragonPulse,EarthPower,Protect|Modest||F|||50|
+|showteam|p2|Hippowdon||PasshoBerry|SandStream|HighHorsepower,Protect,RockSlide,Yawn|Impish||M|||50|]Excadrill||LifeOrb|SandRush|Earthquake,IronHead,HighHorsepower,Protect|Adamant||M|||50|]Sinistcha-Masterpiece||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,ShadowBall|Modest|||||50|]Scovillain||Scovillainite|Moody|EnergyBall,Overheat,RagePowder,Protect|Modest||M|||50|]Slowbro-Galar||QuickClaw|QuickDraw|ShellSideArm,Psychic,IceBeam,Protect|Quiet||M|||50|]Kommo-o||DragonFang|Overcoat|ClangorousSoul,ClangingScales,AuraSphere,Sandstorm|Modest||M|||50|
+|
+|t:|1783641841
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: echo gecho|Noivern, L50, M|100/100
+|switch|p1b: mahoraga|Hydreigon, L50, F|100/100
+|switch|p2a: Kirk|Slowbro-Galar, L50, M, shiny|100/100
+|switch|p2b: Big Billy|Kommo-o, L50, M, shiny|100/100
+|turn|1
+|
+|t:|1783641863
+|move|p1b: mahoraga|Dark Pulse|p2a: Kirk
+|-supereffective|p2a: Kirk|1
+|-damage|p2a: Kirk|4/100
+|move|p1a: echo gecho|Draco Meteor|p2b: Big Billy|[miss]
+|-miss|p1a: echo gecho|p2b: Big Billy
+|move|p2b: Big Billy|Aura Sphere|p1b: mahoraga
+|-supereffective|p1b: mahoraga|1
+|-damage|p1b: mahoraga|24/100
+|move|p2a: Kirk|Ice Beam|p1a: echo gecho
+|-supereffective|p1a: echo gecho|2
+|-damage|p1a: echo gecho|0 fnt
+|faint|p1a: echo gecho
+|
+|upkeep
+|
+|t:|1783641878
+|switch|p1a: WolfeyVGCfromTemu|Scrafty, L50, M|100/100
+|-ability|p1a: WolfeyVGCfromTemu|Intimidate|boost
+|-unboost|p2a: Kirk|atk|1
+|-unboost|p2b: Big Billy|atk|1
+|turn|2
+|
+|t:|1783641893
+|move|p2a: Kirk|Protect|p2a: Kirk
+|-singleturn|p2a: Kirk|Protect
+|move|p1a: WolfeyVGCfromTemu|Fake Out|p2a: Kirk
+|-activate|p2a: Kirk|move: Protect
+|move|p1b: mahoraga|Dark Pulse|p2b: Big Billy
+|-resisted|p2b: Big Billy|1
+|-damage|p2b: Big Billy|76/100
+|move|p2b: Big Billy|Clangorous Soul|p2b: Big Billy
+|-boost|p2b: Big Billy|atk|1
+|-boost|p2b: Big Billy|def|1
+|-boost|p2b: Big Billy|spa|1
+|-boost|p2b: Big Billy|spd|1
+|-boost|p2b: Big Billy|spe|1
+|-damage|p2b: Big Billy|43/100
+|
+|upkeep
+|turn|3
+|
+|t:|1783641911
+|switch|p2a: Soup|Sinistcha-Masterpiece, L50, shiny|100/100
+|-heal|p2b: Big Billy|68/100|[from] ability: Hospitality|[of] p2a: Soup
+|move|p1a: WolfeyVGCfromTemu|Protect|p1a: WolfeyVGCfromTemu
+|-singleturn|p1a: WolfeyVGCfromTemu|Protect
+|move|p2b: Big Billy|Clanging Scales|p1b: mahoraga|[spread] p1b
+|-activate|p1a: WolfeyVGCfromTemu|move: Protect
+|-supereffective|p1b: mahoraga|1
+|-damage|p1b: mahoraga|0 fnt
+|faint|p1b: mahoraga
+|-unboost|p2b: Big Billy|def|1
+|
+|upkeep
+|
+|t:|1783641921
+|switch|p1b: gecko ecko|Sceptile, L50, F|100/100
+|turn|4
+|
+|t:|1783641982
+|detailschange|p1b: gecko ecko|Sceptile-Mega, L50, F
+|-mega|p1b: gecko ecko|Sceptile|Sceptilite
+|move|p2a: Soup|Rage Powder|p2a: Soup
+|-singleturn|p2a: Soup|move: Rage Powder
+|move|p2b: Big Billy|Clanging Scales|p1a: WolfeyVGCfromTemu|[spread] p1a,p1b
+|-crit|p1a: WolfeyVGCfromTemu
+|-supereffective|p1b: gecko ecko|1
+|-damage|p1a: WolfeyVGCfromTemu|0 fnt
+|-damage|p1b: gecko ecko|0 fnt
+|faint|p1a: WolfeyVGCfromTemu
+|faint|p1b: gecko ecko
+|
+|win|GabeLev
+||Backwards_Aerial is ready for game 3.
+|inactive|GabeLev has 30 seconds to confirm battle start!
+|inactive|GabeLev has 20 seconds to confirm battle start!
+||GabeLev is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

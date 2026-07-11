@@ -1,0 +1,936 @@
+|j|☆Welwitchia
+|j|☆Discushead
+|html|WelwitchiaDiscushead    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783764456
+|gametype|doubles
+|player|p1|Welwitchia|pokemonbreeder-gen4|1000
+|player|p2|Discushead|bugcatcher-gen4dp|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Corviknight, L50, M|
+|poke|p1|Tyranitar, L50, F, shiny|
+|poke|p1|Trevenant, L50, M|
+|poke|p1|Azumarill, L50, F, shiny|
+|poke|p1|Slowking-Galar, L50, M|
+|poke|p1|Camerupt, L50, F, shiny|
+|poke|p2|Politoed, L50, M, shiny|
+|poke|p2|Vaporeon, L50, M|
+|poke|p2|Basculegion, L50, M, shiny|
+|poke|p2|Primarina, L50, F, shiny|
+|poke|p2|Heliolisk, L50, M|
+|poke|p2|Toxicroak, L50, M|
+|teampreview|4
+|showteam|p1|Corviknight||Leftovers|Pressure|Spite,IronHead,Roost,Protect|Impish||M|||50|]Tyranitar||Tyranitarite|SandStream|Spite,Protect,RockSlide,LowKick|Careful||F|||50|]Trevenant||SitrusBerry|Harvest|PainSplit,FoulPlay,ForestsCurse,BurningJealousy|Calm||M|||50|]Azumarill||FairyFeather|SapSipper|BellyDrum,AquaJet,IceSpinner,DrainingKiss|Brave||F|||50|]Slowking-Galar||ShucaBerry|CuriousMedicine|SkillSwap,ThunderWave,EerieSpell,TrickRoom|Sassy||M|||50|]Camerupt||Cameruptite|SolidRock|EarthPower,HeatWave,SolarBeam,StealthRock|Modest||F|||50|
+|showteam|p2|Politoed||WacanBerry|Drizzle|Haze,BrickBreak,HelpingHand,WeatherBall|Calm||M|||50|]Vaporeon||Leftovers|WaterAbsorb|Protect,AquaRing,AcidArmor,Scald|Bold||M|||50|]Basculegion||ChoiceScarf|SwiftSwim|LastRespects,WaveCrash,Protect,FlipTurn|Lonely||M|||50|]Primarina||ExpertBelt|LiquidVoice|PsychicNoise,Moonblast,DrainingKiss,AlluringVoice|Modest||F|||50|]Heliolisk||LightClay|DrySkin|ThunderWave,LightScreen,ParabolicCharge,VoltSwitch|Modest||M|||50|]Toxicroak||LifeOrb|DrySkin|CloseCombat,DrainPunch,LowKick,PoisonJab|Careful||M|||50|
+|
+|t:|1783764500
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Trevenant|Trevenant, L50, M|100/100
+|switch|p1b: Tyranitar|Tyranitar, L50, F, shiny|100/100
+|switch|p2a: Politoed|Politoed, L50, M, shiny|100/100
+|switch|p2b: Vaporeon|Vaporeon, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|1
+|
+|t:|1783764562
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p2b: Vaporeon|Scald|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar|1
+|-crit|p1b: Tyranitar
+|-damage|p1b: Tyranitar|29/100
+|move|p1b: Tyranitar|Rock Slide|p2b: Vaporeon|[spread] p2a,p2b
+|-damage|p2a: Politoed|74/100
+|-damage|p2b: Vaporeon|80/100
+|move|p1a: Trevenant|Forest's Curse|p1b: Tyranitar
+|-start|p1b: Tyranitar|typeadd|Grass|[from] move: Forest's Curse
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Politoed|68/100|[from] Sandstorm
+|-damage|p2b: Vaporeon|74/100|[from] Sandstorm
+|-damage|p1a: Trevenant|94/100|[from] Sandstorm
+|-heal|p2b: Vaporeon|80/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1783764596
+|move|p2a: Politoed|Weather Ball|p1a: Trevenant
+|-damage|p1a: Trevenant|77/100
+|move|p2b: Vaporeon|Scald|p1b: Tyranitar
+|-damage|p1b: Tyranitar|13/100
+|move|p1b: Tyranitar|Rock Slide|p2a: Politoed|[spread] p2a,p2b
+|-crit|p2b: Vaporeon
+|-damage|p2a: Politoed|42/100
+|-damage|p2b: Vaporeon|49/100
+|move|p1a: Trevenant|Pain Split|p1b: Tyranitar
+|-sethp|p1b: Tyranitar|42/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Trevenant|45/100|[from] move: Pain Split
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|70/100|[from] item: Sitrus Berry
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Politoed|36/100|[from] Sandstorm
+|-damage|p2b: Vaporeon|43/100|[from] Sandstorm
+|-damage|p1a: Trevenant|64/100|[from] Sandstorm
+|-heal|p2b: Vaporeon|49/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1783764620
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p2b: Vaporeon|Scald|p1b: Tyranitar
+|-damage|p1b: Tyranitar|18/100
+|-status|p1b: Tyranitar|brn
+|move|p1b: Tyranitar|Rock Slide|p2a: Politoed|[spread] p2a
+|-miss|p1b: Tyranitar|p2b: Vaporeon
+|-damage|p2a: Politoed|24/100
+|move|p1a: Trevenant|Pain Split|p1b: Tyranitar
+|-sethp|p1b: Tyranitar|38/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Trevenant|41/100|[from] move: Pain Split
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Politoed|18/100|[from] Sandstorm
+|-damage|p2b: Vaporeon|43/100|[from] Sandstorm
+|-damage|p1a: Trevenant|36/100|[from] Sandstorm
+|-heal|p2b: Vaporeon|49/100|[from] item: Leftovers
+|-damage|p1b: Tyranitar|32/100 brn|[from] brn
+|-item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|60/100|[from] item: Sitrus Berry
+|turn|4
+|
+|t:|1783764643
+|move|p2a: Politoed|Brick Break|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar|2
+|-damage|p1b: Tyranitar|0 fnt
+|faint|p1b: Tyranitar
+|move|p2b: Vaporeon|Aqua Ring|p2b: Vaporeon
+|-start|p2b: Vaporeon|Aqua Ring
+|move|p1a: Trevenant|Pain Split|p1: Tyranitar|[notarget]
+|-fail|p1a: Trevenant
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Politoed|12/100|[from] Sandstorm
+|-damage|p2b: Vaporeon|43/100|[from] Sandstorm
+|-damage|p1a: Trevenant|54/100|[from] Sandstorm
+|-heal|p2b: Vaporeon|49/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|55/100|[from] Aqua Ring
+|upkeep
+|
+|t:|1783764652
+|switch|p1b: Corviknight|Corviknight, L50, M|100/100
+|-ability|p1b: Corviknight|Pressure
+|turn|5
+|
+|t:|1783764681
+|switch|p2a: Heliolisk|Heliolisk, L50, M|100/100
+|move|p2b: Vaporeon|Protect|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Protect
+|move|p1b: Corviknight|Spite|p2b: Vaporeon
+|-activate|p2b: Vaporeon|move: Protect
+|move|p1a: Trevenant|Forest's Curse|p1b: Corviknight
+|-start|p1b: Corviknight|typeadd|Grass|[from] move: Forest's Curse
+|
+|-weather|none
+|-heal|p2b: Vaporeon|60/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|66/100|[from] Aqua Ring
+|-item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|6
+|
+|t:|1783764718
+|switch|p2a: Politoed|Politoed, L50, M, shiny|12/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1b: Corviknight|Spite|p2b: Vaporeon
+|-activate|p2b: Vaporeon|move: Spite|Protect|4
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|2
+|move|p1a: Trevenant|Pain Split|p2a: Politoed
+|-sethp|p2a: Politoed|37/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Trevenant|32/100|[from] move: Pain Split
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|57/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Vaporeon|72/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|78/100|[from] Aqua Ring
+|-item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|7
+|
+|t:|1783764750
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p1b: Corviknight|Protect|p1b: Corviknight
+|-singleturn|p1b: Corviknight|Protect
+|move|p2b: Vaporeon|Scald|p1a: Trevenant
+|-resisted|p1a: Trevenant|1
+|-damage|p1a: Trevenant|25/100
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|50/100g|[from] item: Sitrus Berry
+|move|p1a: Trevenant|Burning Jealousy|p2a: Politoed|[spread] p2a,p2b
+|-resisted|p2a: Politoed|1
+|-resisted|p2b: Vaporeon|1
+|-damage|p2a: Politoed|36/100
+|-damage|p2b: Vaporeon|76/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Vaporeon|82/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|88/100|[from] Aqua Ring
+|-item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|8
+|
+|t:|1783764778
+|move|p2a: Politoed|Brick Break|p1b: Corviknight
+|-damage|p1b: Corviknight|92/100
+|move|p1b: Corviknight|Spite|p2b: Vaporeon
+|-activate|p2b: Vaporeon|move: Spite|Scald|4
+|move|p2b: Vaporeon|Scald|p1a: Trevenant
+|-resisted|p1a: Trevenant|1
+|-damage|p1a: Trevenant|30/100
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|54/100|[from] item: Sitrus Berry
+|move|p1a: Trevenant|Pain Split|p2b: Vaporeon
+|-sethp|p2b: Vaporeon|69/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Trevenant|74/100|[from] move: Pain Split
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Corviknight|98/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|75/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|81/100|[from] Aqua Ring
+|upkeep
+|turn|9
+|
+|t:|1783764813
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p1b: Corviknight|Spite|p2b: Vaporeon
+|-activate|p2b: Vaporeon|move: Spite|Scald|4
+|move|p2b: Vaporeon|Scald|p1b: Corviknight
+|-resisted|p1b: Corviknight|1
+|-damage|p1b: Corviknight|55/100
+|move|p1a: Trevenant|Burning Jealousy|p2b: Vaporeon|[spread] p2a,p2b
+|-resisted|p2a: Politoed|1
+|-resisted|p2b: Vaporeon|1
+|-damage|p2a: Politoed|35/100
+|-damage|p2b: Vaporeon|79/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Corviknight|61/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|85/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|91/100|[from] Aqua Ring
+|upkeep
+|turn|10
+|
+|t:|1783764851
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p1b: Corviknight|Iron Head|p2a: Politoed
+|-resisted|p2a: Politoed|1
+|-damage|p2a: Politoed|23/100
+|move|p2b: Vaporeon|Scald|p1b: Corviknight
+|-resisted|p1b: Corviknight|1
+|-damage|p1b: Corviknight|21/100
+|move|p1a: Trevenant|Burning Jealousy|p2b: Vaporeon|[spread] p2a,p2b
+|-resisted|p2a: Politoed|1
+|-resisted|p2b: Vaporeon|1
+|-crit|p2b: Vaporeon
+|-damage|p2a: Politoed|21/100
+|-damage|p2b: Vaporeon|88/100
+|
+|-weather|none
+|-heal|p1b: Corviknight|27/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|94/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100|[from] Aqua Ring
+|-item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|11
+|
+|t:|1783764878
+|switch|p2b: Primarina|Primarina, L50, F, shiny|100/100
+|move|p2a: Politoed|Brick Break|p1b: Corviknight
+|-damage|p1b: Corviknight|19/100
+|move|p1b: Corviknight|Roost|p1b: Corviknight
+|-heal|p1b: Corviknight|69/100
+|-singleturn|p1b: Corviknight|move: Roost
+|move|p1a: Trevenant|Pain Split|p1b: Corviknight
+|-sethp|p1b: Corviknight|69/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Trevenant|74/100|[from] move: Pain Split
+|
+|-heal|p1b: Corviknight|75/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1783764902
+|move|p2a: Politoed|Helping Hand|p2b: Primarina
+|-singleturn|p2b: Primarina|Helping Hand|[of] p2a: Politoed
+|move|p1b: Corviknight|Protect|p1b: Corviknight
+|-singleturn|p1b: Corviknight|Protect
+|move|p2b: Primarina|Moonblast|p1a: Trevenant
+|-damage|p1a: Trevenant|18/100
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|43/100|[from] item: Sitrus Berry
+|move|p1a: Trevenant|Foul Play|p2a: Politoed
+|-damage|p2a: Politoed|6/100
+|
+|-heal|p1b: Corviknight|80/100|[from] item: Leftovers
+|-item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|68/100|[from] item: Sitrus Berry
+|turn|13
+|
+|t:|1783764940
+|switch|p2a: Vaporeon|Vaporeon, L50, M|100/100
+|switch|p1a: Slowking|Slowking-Galar, L50, M|100/100
+|-clearboost|p1b: Corviknight|[from] ability: Curious Medicine|[of] p1a: Slowking
+|move|p1b: Corviknight|Spite|p2b: Primarina
+|-activate|p2b: Primarina|move: Spite|Moonblast|4
+|move|p2b: Primarina|Psychic Noise|p1a: Slowking
+|-damage|p1a: Slowking|74/100
+|-start|p1a: Slowking|move: Heal Block
+|
+|-heal|p1b: Corviknight|86/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1783764970
+|switch|p2a: Politoed|Politoed, L50, M, shiny|6/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p1b: Corviknight|Spite|p2b: Primarina
+|-activate|p2b: Primarina|move: Spite|Psychic Noise|4
+|move|p2b: Primarina|Alluring Voice|p1a: Slowking
+|-damage|p1a: Slowking|31/100
+|move|p1a: Slowking|Eerie Spell|p2b: Primarina
+|-damage|p2b: Primarina|74/100
+|-activate|p2b: Primarina|move: Eerie Spell|Alluring Voice|3
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Corviknight|92/100|[from] item: Leftovers
+|-end|p1a: Slowking|move: Heal Block
+|upkeep
+|turn|15
+|
+|t:|1783764999
+|switch|p1a: Trevenant|Trevenant, L50, M|68/100
+|move|p2a: Politoed|Weather Ball|p1a: Trevenant
+|-resisted|p1a: Trevenant|1
+|-crit|p1a: Trevenant
+|-damage|p1a: Trevenant|42/100
+|move|p1b: Corviknight|Spite|p2b: Primarina
+|-activate|p2b: Primarina|move: Spite|Alluring Voice|4
+|move|p2b: Primarina|Draining Kiss|p1a: Trevenant
+|-damage|p1a: Trevenant|22/100
+|-heal|p2b: Primarina|89/100|[from] drain|[of] p1a: Trevenant
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Corviknight|98/100|[from] item: Leftovers
+|-item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|-enditem|p1a: Trevenant|Sitrus Berry|[eat]
+|-heal|p1a: Trevenant|47/100|[from] item: Sitrus Berry
+|turn|16
+|
+|t:|1783765026
+|move|p2a: Politoed|Weather Ball|p1a: Trevenant
+|-resisted|p1a: Trevenant|1
+|-damage|p1a: Trevenant|28/100
+|move|p1b: Corviknight|Spite|p2b: Primarina
+|-activate|p2b: Primarina|move: Spite|Draining Kiss|4
+|move|p2b: Primarina|Psychic Noise|p1a: Trevenant
+|-resisted|p1a: Trevenant|1
+|-damage|p1a: Trevenant|6/100
+|-start|p1a: Trevenant|move: Heal Block
+|move|p1a: Trevenant|Pain Split|p2b: Primarina
+|-sethp|p2b: Primarina|48/100|[from] move: Pain Split|[silent]
+|-sethp|p1a: Trevenant|47/100|[from] move: Pain Split
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Corviknight|100/100|[from] item: Leftovers
+|-item|p1a: Trevenant|Sitrus Berry|[from] ability: Harvest
+|upkeep
+|turn|17
+|c|☆Discushead|thats bullshit
+|c|☆Discushead|I have the heal block
+|c|☆Discushead|and pain split goes through lol
+|
+|t:|1783765060
+|move|p2a: Politoed|Helping Hand|p2b: Primarina
+|-singleturn|p2b: Primarina|Helping Hand|[of] p2a: Politoed
+|move|p1b: Corviknight|Spite|p2b: Primarina
+|-activate|p2b: Primarina|move: Spite|Psychic Noise|4
+|move|p2b: Primarina|Moonblast|p1a: Trevenant
+|-damage|p1a: Trevenant|0 fnt
+|faint|p1a: Trevenant
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|c|☆Welwitchia|Pain split isn't healing
+|
+|t:|1783765072
+|switch|p1a: Slowking|Slowking-Galar, L50, M|31/100
+|-clearboost|p1b: Corviknight|[from] ability: Curious Medicine|[of] p1a: Slowking
+|turn|18
+|
+|t:|1783765092
+|move|p2a: Politoed|Helping Hand|p2b: Primarina
+|-singleturn|p2b: Primarina|Helping Hand|[of] p2a: Politoed
+|move|p1b: Corviknight|Spite|p2b: Primarina
+|-activate|p2b: Primarina|move: Spite|Moonblast|4
+|move|p2b: Primarina|Draining Kiss|p1a: Slowking
+|-resisted|p1a: Slowking|1
+|-damage|p1a: Slowking|19/100
+|-heal|p2b: Primarina|58/100|[from] drain|[of] p1a: Slowking
+|move|p1a: Slowking|Eerie Spell|p2b: Primarina
+|-damage|p2b: Primarina|33/100
+|-activate|p2b: Primarina|move: Eerie Spell|Draining Kiss|3
+|
+|-weather|none
+|upkeep
+|turn|19
+|c|☆Discushead|GG
+|
+|t:|1783765120
+|switch|p2a: Heliolisk|Heliolisk, L50, M|100/100
+|switch|p2b: Vaporeon|Vaporeon, L50, M|100/100
+|move|p1b: Corviknight|Spite||[still]
+|-fail|p1b: Corviknight
+|move|p1a: Slowking|Eerie Spell|p2b: Vaporeon
+|-damage|p2b: Vaporeon|75/100
+|
+|-heal|p2b: Vaporeon|80/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1783765148
+|move|p2a: Heliolisk|Light Screen|p2a: Heliolisk
+|-sidestart|p2: Discushead|move: Light Screen
+|move|p1b: Corviknight|Iron Head|p2b: Vaporeon
+|-resisted|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|70/100
+|move|p2b: Vaporeon|Aqua Ring|p2b: Vaporeon
+|-start|p2b: Vaporeon|Aqua Ring
+|move|p1a: Slowking|Skill Swap|p2a: Heliolisk
+|-activate|p1a: Slowking|Skill Swap|Dry Skin|Curious Medicine|[of] p2a: Heliolisk
+|-clearboost|p2b: Vaporeon|[from] ability: Curious Medicine|[of] p2a: Heliolisk
+|
+|-heal|p2b: Vaporeon|76/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|82/100|[from] Aqua Ring
+|upkeep
+|turn|21
+|
+|t:|1783765184
+|move|p1b: Corviknight|Protect|p1b: Corviknight
+|-singleturn|p1b: Corviknight|Protect
+|move|p2a: Heliolisk|Volt Switch|p1a: Slowking
+|-damage|p1a: Slowking|1/100
+|
+|t:|1783765192
+|switch|p2a: Politoed|Politoed, L50, M, shiny|6/100|[from] Volt Switch
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|2
+|move|p1a: Slowking|Eerie Spell|p2b: Vaporeon
+|-damage|p2b: Vaporeon|62/100
+|-activate|p2b: Vaporeon|move: Eerie Spell|Acid Armor|3
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|13/100|[from] ability: Dry Skin
+|-heal|p2b: Vaporeon|68/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|74/100|[from] Aqua Ring
+|upkeep
+|turn|22
+|
+|t:|1783765224
+|move|p2b: Vaporeon|Protect|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Protect
+|move|p2a: Politoed|Brick Break|p1a: Slowking
+|-resisted|p1a: Slowking|2
+|-damage|p1a: Slowking|10/100
+|move|p1b: Corviknight|Iron Head|p2a: Politoed
+|-resisted|p2a: Politoed|1
+|-damage|p2a: Politoed|0 fnt
+|faint|p2a: Politoed
+|move|p1a: Slowking|Thunder Wave|p2b: Vaporeon
+|-activate|p2b: Vaporeon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|23/100|[from] ability: Dry Skin
+|-heal|p2b: Vaporeon|80/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|86/100|[from] Aqua Ring
+|upkeep
+|
+|t:|1783765232
+|switch|p2a: Primarina|Primarina, L50, F, shiny|33/100
+|turn|23
+|
+|t:|1783765245
+|move|p1b: Corviknight|Spite||[still]
+|-fail|p1b: Corviknight
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|2
+|move|p2a: Primarina|Moonblast|p1a: Slowking
+|-resisted|p1a: Slowking|1
+|-damage|p1a: Slowking|6/100
+|move|p1a: Slowking|Eerie Spell|p2a: Primarina
+|-damage|p2a: Primarina|16/100
+|-activate|p2a: Primarina|move: Eerie Spell|Moonblast|3
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|19/100|[from] ability: Dry Skin
+|-heal|p2b: Vaporeon|92/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|98/100|[from] Aqua Ring
+|upkeep
+|turn|24
+|
+|t:|1783765264
+|move|p1b: Corviknight|Iron Head|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|2
+|move|p1a: Slowking|Thunder Wave|p2b: Vaporeon
+|-status|p2b: Vaporeon|par
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Slowking|31/100|[from] ability: Dry Skin
+|-heal|p2b: Vaporeon|100/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1783765274
+|switch|p2a: Heliolisk|Heliolisk, L50, M|100/100
+|turn|25
+|
+|t:|1783765298
+|cant|p2b: Vaporeon|par
+|move|p2a: Heliolisk|Parabolic Charge|p1b: Corviknight|[spread] p2b,p1a,p1b
+|-supereffective|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|72/100 par
+|-damage|p1a: Slowking|17/100
+|-damage|p1b: Corviknight|75/100
+|move|p1b: Corviknight|Iron Head|p2a: Heliolisk
+|-resisted|p2a: Heliolisk|1
+|-damage|p2a: Heliolisk|78/100
+|move|p1a: Slowking|Eerie Spell|p2a: Heliolisk
+|-damage|p2a: Heliolisk|53/100
+|-activate|p2a: Heliolisk|move: Eerie Spell|Parabolic Charge|3
+|
+|-weather|none
+|-heal|p1b: Corviknight|80/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|78/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|83/100 par|[from] Aqua Ring
+|upkeep
+|turn|26
+|
+|t:|1783765320
+|move|p2b: Vaporeon|Protect|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Protect
+|move|p2a: Heliolisk|Parabolic Charge|p1b: Corviknight|[spread] p1a,p1b
+|-activate|p2b: Vaporeon|move: Protect
+|-damage|p1a: Slowking|4/100
+|-heal|p2a: Heliolisk|62/100|[from] drain|[of] p1a: Slowking
+|-damage|p1b: Corviknight|59/100
+|-heal|p2a: Heliolisk|77/100|[from] drain|[of] p1b: Corviknight
+|move|p1b: Corviknight|Iron Head|p2a: Heliolisk
+|-resisted|p2a: Heliolisk|1
+|-crit|p2a: Heliolisk
+|-damage|p2a: Heliolisk|38/100
+|move|p1a: Slowking|Eerie Spell|p2a: Heliolisk
+|-damage|p2a: Heliolisk|14/100
+|-activate|p2a: Heliolisk|move: Eerie Spell|Parabolic Charge|3
+|
+|-heal|p1b: Corviknight|64/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|89/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|95/100 par|[from] Aqua Ring
+|upkeep
+|turn|27
+|
+|t:|1783765349
+|move|p2a: Heliolisk|Parabolic Charge|p1b: Corviknight|[spread] p2b,p1a,p1b
+|-supereffective|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|70/100 par
+|-heal|p2a: Heliolisk|31/100|[from] drain|[of] p2b: Vaporeon
+|-damage|p1a: Slowking|0 fnt
+|-heal|p2a: Heliolisk|34/100|[from] drain|[of] p1a: Slowking
+|-damage|p1b: Corviknight|43/100
+|-heal|p2a: Heliolisk|49/100|[from] drain|[of] p1b: Corviknight
+|faint|p1a: Slowking
+|move|p1b: Corviknight|Iron Head|p2a: Heliolisk
+|-resisted|p2a: Heliolisk|1
+|-damage|p2a: Heliolisk|26/100
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|0
+|
+|-heal|p1b: Corviknight|49/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|76/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|81/100 par|[from] Aqua Ring
+|-sideend|p2: Discushead|move: Light Screen
+|upkeep
+|turn|28
+|
+|t:|1783765370
+|move|p2a: Heliolisk|Parabolic Charge|p1b: Corviknight|[spread] p2b,p1b
+|-supereffective|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|43/100 par
+|-heal|p2a: Heliolisk|51/100|[from] drain|[of] p2b: Vaporeon
+|-damage|p1b: Corviknight|28/100
+|-heal|p2a: Heliolisk|65/100|[from] drain|[of] p1b: Corviknight
+|move|p1b: Corviknight|Roost|p1b: Corviknight
+|-heal|p1b: Corviknight|79/100
+|-singleturn|p1b: Corviknight|move: Roost
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-heal|p1b: Corviknight|84/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|49/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|55/100 par|[from] Aqua Ring
+|upkeep
+|turn|29
+|
+|t:|1783765391
+|move|p2a: Heliolisk|Parabolic Charge|p1b: Corviknight|[spread] p2b,p1b
+|-supereffective|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|13/100 par
+|-heal|p2a: Heliolisk|93/100|[from] drain|[of] p2b: Vaporeon
+|-damage|p1b: Corviknight|63/100
+|-heal|p2a: Heliolisk|100/100|[from] drain|[of] p1b: Corviknight
+|move|p1b: Corviknight|Iron Head|p2a: Heliolisk
+|-resisted|p2a: Heliolisk|1
+|-damage|p2a: Heliolisk|76/100
+|cant|p2b: Vaporeon|par
+|
+|-heal|p1b: Corviknight|69/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|19/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|25/100 par|[from] Aqua Ring
+|upkeep
+|turn|30
+|
+|t:|1783765408
+|move|p1b: Corviknight|Protect|p1b: Corviknight
+|-singleturn|p1b: Corviknight|Protect
+|move|p2b: Vaporeon|Protect|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Protect
+|move|p2a: Heliolisk|Thunder Wave|p1b: Corviknight
+|-activate|p1b: Corviknight|move: Protect
+|
+|-heal|p1b: Corviknight|75/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|31/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|37/100 par|[from] Aqua Ring
+|upkeep
+|turn|31
+|
+|t:|1783765419
+|move|p2a: Heliolisk|Thunder Wave|p1b: Corviknight
+|-status|p1b: Corviknight|par
+|move|p1b: Corviknight|Iron Head|p2a: Heliolisk
+|-resisted|p2a: Heliolisk|1
+|-damage|p2a: Heliolisk|50/100g
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-heal|p1b: Corviknight|81/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|42/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|48/100 par|[from] Aqua Ring
+|upkeep
+|turn|32
+|
+|t:|1783765435
+|move|p1b: Corviknight|Protect|p1b: Corviknight
+|-singleturn|p1b: Corviknight|Protect
+|move|p2a: Heliolisk|Volt Switch|p1b: Corviknight
+|-activate|p1b: Corviknight|move: Protect
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-heal|p1b: Corviknight|87/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|54/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|60/100 par|[from] Aqua Ring
+|upkeep
+|turn|33
+|
+|t:|1783765445
+|move|p2a: Heliolisk|Light Screen|p2a: Heliolisk
+|-sidestart|p2: Discushead|move: Light Screen
+|move|p1b: Corviknight|Iron Head|p2a: Heliolisk
+|-resisted|p2a: Heliolisk|1
+|-damage|p2a: Heliolisk|25/100
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-heal|p1b: Corviknight|93/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|66/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|72/100 par|[from] Aqua Ring
+|upkeep
+|turn|34
+|
+|t:|1783765456
+|move|p2a: Heliolisk|Parabolic Charge|p1b: Corviknight|[spread] p2b,p1b
+|-supereffective|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|46/100 par
+|-heal|p2a: Heliolisk|43/100|[from] drain|[of] p2b: Vaporeon
+|-damage|p1b: Corviknight|70/100 par
+|-heal|p2a: Heliolisk|58/100|[from] drain|[of] p1b: Corviknight
+|move|p1b: Corviknight|Iron Head|p2a: Heliolisk
+|-resisted|p2a: Heliolisk|1
+|-damage|p2a: Heliolisk|34/100
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-heal|p1b: Corviknight|76/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|52/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|58/100 par|[from] Aqua Ring
+|upkeep
+|turn|35
+|
+|t:|1783765475
+|move|p1b: Corviknight|Protect|p1b: Corviknight
+|-singleturn|p1b: Corviknight|Protect
+|move|p2a: Heliolisk|Parabolic Charge|p1b: Corviknight|[spread] p2b
+|-activate|p1b: Corviknight|move: Protect
+|-supereffective|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|32/100 par
+|-heal|p2a: Heliolisk|50/100g|[from] drain|[of] p2b: Vaporeon
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-heal|p1b: Corviknight|82/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|38/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|44/100 par|[from] Aqua Ring
+|upkeep
+|turn|36
+|
+|t:|1783765493
+|move|p2a: Heliolisk|Volt Switch|p1b: Corviknight
+|-damage|p1b: Corviknight|52/100 par
+|move|p1b: Corviknight|Iron Head|p2b: Vaporeon
+|-resisted|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|41/100 par
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-heal|p1b: Corviknight|58/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|47/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|53/100 par|[from] Aqua Ring
+|upkeep
+|turn|37
+|
+|t:|1783765508
+|move|p1b: Corviknight|Protect|p1b: Corviknight
+|-singleturn|p1b: Corviknight|Protect
+|move|p2a: Heliolisk|Volt Switch|p1b: Corviknight
+|-activate|p1b: Corviknight|move: Protect
+|cant|p2b: Vaporeon|par
+|
+|-heal|p1b: Corviknight|64/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|59/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|65/100 par|[from] Aqua Ring
+|upkeep
+|turn|38
+|
+|t:|1783765513
+|move|p2a: Heliolisk|Volt Switch|p1b: Corviknight
+|-damage|p1b: Corviknight|33/100 par
+|move|p1b: Corviknight|Roost|p1b: Corviknight
+|-heal|p1b: Corviknight|83/100 par
+|-singleturn|p1b: Corviknight|move: Roost
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|0
+|
+|-heal|p1b: Corviknight|89/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|71/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|77/100 par|[from] Aqua Ring
+|upkeep
+|turn|39
+|
+|t:|1783765521
+|move|p2a: Heliolisk|Volt Switch|p1b: Corviknight
+|-damage|p1b: Corviknight|55/100 par
+|move|p1b: Corviknight|Iron Head|p2a: Heliolisk
+|-resisted|p2a: Heliolisk|1
+|-damage|p2a: Heliolisk|26/100
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|0
+|
+|-heal|p1b: Corviknight|61/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|82/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|88/100 par|[from] Aqua Ring
+|upkeep
+|turn|40
+|
+|t:|1783765529
+|move|p1b: Corviknight|Protect|p1b: Corviknight
+|-singleturn|p1b: Corviknight|Protect
+|move|p2a: Heliolisk|Volt Switch|p1b: Corviknight
+|-activate|p1b: Corviknight|move: Protect
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|0
+|
+|-heal|p1b: Corviknight|67/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|94/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100 par|[from] Aqua Ring
+|-sideend|p2: Discushead|move: Light Screen
+|upkeep
+|turn|41
+|
+|t:|1783765572
+|move|p2a: Heliolisk|Volt Switch|p1b: Corviknight
+|-damage|p1b: Corviknight|36/100 par
+|move|p1b: Corviknight|Iron Head|p2a: Heliolisk
+|-resisted|p2a: Heliolisk|1
+|-damage|p2a: Heliolisk|1/100
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|0
+|
+|-heal|p1b: Corviknight|42/100 par|[from] item: Leftovers
+|upkeep
+|turn|42
+|
+|t:|1783765593
+|move|p2a: Heliolisk|Volt Switch|p1b: Corviknight
+|-damage|p1b: Corviknight|8/100 par
+|move|p1b: Corviknight|Iron Head|p2a: Heliolisk
+|-resisted|p2a: Heliolisk|1
+|-damage|p2a: Heliolisk|0 fnt
+|faint|p2a: Heliolisk
+|cant|p2b: Vaporeon|par
+|
+|-heal|p1b: Corviknight|14/100 par|[from] item: Leftovers
+|upkeep
+|turn|43
+|c|☆Discushead|NOOOOOOOO!
+|c|☆Discushead|well 19 more rounds till i get struggle
+|
+|t:|1783765617
+|move|p1b: Corviknight|Roost|p1b: Corviknight
+|-heal|p1b: Corviknight|64/100 par
+|-singleturn|p1b: Corviknight|move: Roost
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|0
+|
+|-heal|p1b: Corviknight|70/100 par|[from] item: Leftovers
+|upkeep
+|turn|44
+|c|☆Discushead|5 more for u
+|
+|t:|1783765628
+|move|p1b: Corviknight|Iron Head|p2b: Vaporeon
+|-resisted|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|97/100 par
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|0
+|
+|-heal|p1b: Corviknight|76/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|45
+|
+|t:|1783765637
+|move|p1b: Corviknight|Roost|p1b: Corviknight
+|-heal|p1b: Corviknight|100/100 par
+|-singleturn|p1b: Corviknight|move: Roost
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|0
+|
+|upkeep
+|turn|46
+|
+|t:|1783765643
+|move|p1b: Corviknight|Roost||[still]
+|-fail|p1b: Corviknight|heal
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|0
+|
+|upkeep
+|turn|47
+|
+|t:|1783765647
+|move|p1b: Corviknight|Roost||[still]
+|-fail|p1b: Corviknight|heal
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|0
+|
+|upkeep
+|turn|48
+|
+|t:|1783765652
+|move|p1b: Corviknight|Roost||[still]
+|-fail|p1b: Corviknight|heal
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|0
+|
+|upkeep
+|turn|49
+|
+|t:|1783765657
+|-activate|p1b: Corviknight|move: Struggle
+|move|p1b: Corviknight|Struggle|p2b: Vaporeon
+|-damage|p2b: Vaporeon|97/100 par
+|-damage|p1b: Corviknight|75/100 par|[from] recoil
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|0
+|
+|-heal|p1b: Corviknight|80/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|50
+|c|☆Discushead|LMAO
+|
+|t:|1783765665
+|-activate|p1b: Corviknight|move: Struggle
+|move|p1b: Corviknight|Struggle|p2b: Vaporeon
+|-damage|p2b: Vaporeon|97/100 par
+|-damage|p1b: Corviknight|56/100 par|[from] recoil
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-heal|p1b: Corviknight|61/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|51
+|c|☆Welwitchia|GG
+|
+|t:|1783765673
+|-activate|p1b: Corviknight|move: Struggle
+|move|p1b: Corviknight|Struggle|p2b: Vaporeon
+|-damage|p2b: Vaporeon|97/100 par
+|-damage|p1b: Corviknight|37/100 par|[from] recoil
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|0
+|
+|-heal|p1b: Corviknight|42/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|52
+|
+|t:|1783765681
+|-activate|p1b: Corviknight|move: Struggle
+|move|p1b: Corviknight|Struggle|p2b: Vaporeon
+|-damage|p2b: Vaporeon|97/100 par
+|-damage|p1b: Corviknight|18/100 par|[from] recoil
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-heal|p1b: Corviknight|23/100 par|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100 par|[from] item: Leftovers
+|upkeep
+|turn|53
+|
+|t:|1783765689
+|-activate|p1b: Corviknight|move: Struggle
+|move|p1b: Corviknight|Struggle|p2b: Vaporeon
+|-damage|p2b: Vaporeon|97/100 par
+|-damage|p1b: Corviknight|0 fnt|[from] recoil
+|faint|p1b: Corviknight
+|
+|win|Discushead

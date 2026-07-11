@@ -1,0 +1,180 @@
+|j|☆FruitloopsFL
+|j|☆Cheery Cinccino
+|html|FruitloopsFLCheery Cinccino    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783681526
+|gametype|doubles
+|player|p1|FruitloopsFL|alder|
+|player|p2|Cheery Cinccino|265|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Toucannon, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Raichu, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Volcarona, L50, M|
+|poke|p2|Raichu, L50, F|
+|poke|p2|Sceptile, L50, F|
+|poke|p2|Metagross, L50|
+|poke|p2|Staraptor, L50, F|
+|poke|p2|Eelektross, L50, M|
+|poke|p2|Dragalge, L50, M|
+|teampreview|4
+|showteam|p1|Toucannon||SilkScarf|SkillLink|Tailwind,BulletSeed,Boomburst,Protect|Impish||M|||50|]Grimmsnarl||LightClay|Prankster|FakeOut,PartingShot,Reflect,LightScreen|Careful||M|||50|]Raichu||RaichuniteY|LightningRod|FakeOut,GrassKnot,FocusBlast,ZapCannon|Hasty||M|||50|]Garchomp||LifeOrb|RoughSkin|RockSlide,Earthquake,DragonClaw,Protect|Jolly||M|||50|]Annihilape||Leftovers|Defiant|IcePunch,RageFist,DrainPunch,Protect|Adamant||F|||50|]Volcarona||ChartiBerry|FlameBody|RagePowder,MorningSun,WillOWisp,HeatWave|Calm||M|||50|
+|showteam|p2|Raichu|||Static|VoltSwitch,FocusBlast,Agility,FakeOut|Mild||F|||50|]Sceptile|||Overgrow|DragonPulse,LeafBlade,SwordsDance,Acrobatics|Serious||F|||50|]Metagross||Metagrossite|ClearBody|Psychic,Earthquake,IronHead,Explosion|Serious|||||50|]Staraptor||SitrusBerry|Intimidate|AirSlash,CloseCombat,BraveBird,Agility|Serious||F|||50|]Eelektross|||Levitate|Thunderbolt,Flamethrower,Uturn,Crunch|Serious||M|||50|]Dragalge||Leftovers|PoisonPoint|AcidArmor,SludgeBomb,ToxicSpikes,DragonTail|Serious||M|||50|
+|c|☆FruitloopsFL|glhf
+|
+|t:|1783681602
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Annihilape|Annihilape, L50, F|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Zoro|Sceptile, L50, F|100/100
+|switch|p2b: Seija|Staraptor, L50, F|100/100
+|-ability|p2b: Seija|Intimidate|boost
+|-unboost|p1a: Annihilape|atk|1
+|-ability|p1a: Annihilape|Defiant|boost
+|-boost|p1a: Annihilape|atk|2
+|-unboost|p1b: Grimmsnarl|atk|1
+|turn|1
+|
+|t:|1783681721
+|move|p1a: Annihilape|Protect|p1a: Annihilape
+|-singleturn|p1a: Annihilape|Protect
+|move|p1b: Grimmsnarl|Fake Out|p2b: Seija
+|-damage|p2b: Seija|89/100
+|move|p2a: Zoro|Acrobatics|p1a: Annihilape
+|-activate|p1a: Annihilape|move: Protect
+|cant|p2b: Seija|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1783681740
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100
+|move|p1b: Grimmsnarl|Reflect|p1b: Grimmsnarl
+|-sidestart|p1: FruitloopsFL|Reflect
+|move|p2a: Zoro|Acrobatics|p1a: Garchomp
+|-damage|p1a: Garchomp|83/100
+|-damage|p2a: Zoro|87/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|move|p2b: Seija|Air Slash|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|87/100
+|
+|upkeep
+|turn|3
+|
+|t:|1783681783
+|move|p1b: Grimmsnarl|Parting Shot|p2a: Zoro
+|-unboost|p2a: Zoro|atk|1
+|-unboost|p2a: Zoro|spa|1
+|
+|t:|1783681804
+|switch|p1b: Volcarona|Volcarona, L50, M|100/100|[from] Parting Shot
+|move|p2a: Zoro|Dragon Pulse|p1a: Garchomp
+|-supereffective|p1a: Garchomp|1
+|-damage|p1a: Garchomp|55/100
+|move|p1a: Garchomp|Rock Slide|p2a: Zoro|[spread] p2a,p2b
+|-supereffective|p2b: Seija|1
+|-damage|p2a: Zoro|42/100
+|-damage|p2b: Seija|14/100
+|-enditem|p2b: Seija|Sitrus Berry|[eat]
+|-heal|p2b: Seija|39/100|[from] item: Sitrus Berry
+|-damage|p1a: Garchomp|45/100|[from] item: Life Orb
+|move|p2b: Seija|Close Combat|p1b: Volcarona
+|-resisted|p1b: Volcarona|1
+|-damage|p1b: Volcarona|82/100
+|-unboost|p2b: Seija|def|1
+|-unboost|p2b: Seija|spd|1
+|-status|p2b: Seija|brn|[from] ability: Flame Body|[of] p1b: Volcarona
+|
+|-damage|p2b: Seija|33/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1783681865
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|87/100
+|move|p2a: Zoro|Dragon Pulse|p1a: Grimmsnarl
+|-immune|p1a: Grimmsnarl
+|move|p2b: Seija|Brave Bird|p1b: Volcarona
+|-supereffective|p1b: Volcarona|1
+|-damage|p1b: Volcarona|37/100
+|-damage|p2b: Seija|15/100 brn|[from] Recoil
+|move|p1b: Volcarona|Heat Wave|p2a: Zoro|[spread] p2a,p2b
+|-supereffective|p2a: Zoro|1
+|-damage|p2a: Zoro|0 fnt
+|-damage|p2b: Seija|0 fnt
+|faint|p2a: Zoro
+|faint|p2b: Seija
+|
+|upkeep
+|
+|t:|1783681883
+|switch|p2a: Nacho|Raichu, L50, F|100/100
+|switch|p2b: Tidal Wave|Eelektross, L50, M|100/100
+|turn|5
+|
+|t:|1783681926
+|move|p1b: Volcarona|Rage Powder|p1b: Volcarona
+|-singleturn|p1b: Volcarona|move: Rage Powder
+|move|p1a: Grimmsnarl|Light Screen|p1a: Grimmsnarl
+|-sidestart|p1: FruitloopsFL|move: Light Screen
+|move|p2a: Nacho|Focus Blast|p1b: Volcarona
+|-resisted|p1b: Volcarona|1
+|-damage|p1b: Volcarona|30/100
+|move|p2b: Tidal Wave|Thunderbolt|p1b: Volcarona
+|-damage|p1b: Volcarona|15/100
+|
+|upkeep
+|turn|6
+|
+|t:|1783681956
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100
+|move|p1a: Grimmsnarl|Parting Shot|p2b: Tidal Wave
+|-unboost|p2b: Tidal Wave|atk|1
+|-unboost|p2b: Tidal Wave|spa|1
+|
+|t:|1783681965
+|switch|p1a: Garchomp|Garchomp, L50, M|45/100|[from] Parting Shot
+|move|p2a: Nacho|Focus Blast|p1a: Garchomp
+|-damage|p1a: Garchomp|25/100
+|move|p2b: Tidal Wave|Flamethrower|p1b: Annihilape
+|-damage|p1b: Annihilape|91/100
+|
+|-heal|p1b: Annihilape|97/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1783681994
+|move|p1a: Garchomp|Rock Slide|p2b: Tidal Wave|[spread] p2a,p2b
+|-damage|p2a: Nacho|41/100
+|-damage|p2b: Tidal Wave|73/100
+|-damage|p1a: Garchomp|15/100|[from] item: Life Orb
+|cant|p2a: Nacho|flinch
+|move|p1b: Annihilape|Drain Punch|p2b: Tidal Wave
+|-damage|p2b: Tidal Wave|30/100
+|-heal|p1b: Annihilape|100/100|[from] drain|[of] p2b: Tidal Wave
+|cant|p2b: Tidal Wave|flinch
+|
+|upkeep
+|turn|8
+|
+|t:|1783682053
+|move|p1a: Garchomp|Rock Slide|p2a: Nacho|[spread] p2a,p2b
+|-damage|p2a: Nacho|0 fnt
+|-damage|p2b: Tidal Wave|0 fnt
+|faint|p2a: Nacho
+|faint|p2b: Tidal Wave
+|-damage|p1a: Garchomp|5/100|[from] item: Life Orb
+|
+|win|FruitloopsFL
+|inactive|FruitloopsFL has 30 seconds to confirm battle start!
+|inactive|Cheery Cinccino has 30 seconds to confirm battle start!
+|c|☆FruitloopsFL|gg
+||FruitloopsFL is ready for game 2.
+||Cheery Cinccino is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

@@ -1,0 +1,112 @@
+|j|☆Mebbyaids
+|j|☆theghostgymleader
+|html|Mebbyaidstheghostgymleader    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1783793209
+|gametype|doubles
+|player|p1|Mebbyaids|102|
+|player|p2|theghostgymleader|brycenman|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Starmie, L50|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Meowscarada, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Raichu, L50, M|
+|poke|p2|Gengar, L50, M, shiny|
+|poke|p2|Froslass, L50, F, shiny|
+|poke|p2|Decidueye, L50, M, shiny|
+|poke|p2|Skeledirge, L50, F, shiny|
+|poke|p2|Basculegion, L50, M, shiny|
+|poke|p2|Sableye, L50, F|
+|teampreview|4
+|showteam|p1|Starmie||Starminite|Illuminate|RapidSpin,IceSpinner,Liquidation,ZenHeadbutt|Jolly|||||50|]Pelipper||MysticWater|Drizzle|Hurricane,Surf,Protect,Tailwind|Bold||F|||50|]Archaludon||LifeOrb|Stamina|ElectroShot,DragonPulse,FlashCannon,MirrorCoat|Timid||F|||50|]Meowscarada||ChoiceScarf|Protean|FlowerTrick,KnockOff,PlayRough,Uturn|Jolly||M|||50|]Annihilape||ExpertBelt|Defiant|DrainPunch,RageFist,Earthquake,SeedBomb|Jolly||F|||50|]Raichu||RaichuniteY|Static|FocusBlast,ZapCannon,Surf,AlluringVoice|Timid||M|||50|
+|showteam|p2|Gengar||Gengarite|CursedBody|SludgeBomb,Thunderbolt,Protect,DazzlingGleam|Modest||M|||50|]Froslass||Froslassite|CursedBody|Blizzard,DestinyBond,ShadowBall,AuroraVeil|Timid||F|||50|]Decidueye||FocusSash|LongReach|Tailwind,LeafBlade,SuckerPunch,BraveBird|Adamant||M|||50|]Skeledirge||Leftovers|Unaware|TorchSong,WillOWisp,Hex,SlackOff|Bold||F|||50|]Basculegion||ChoiceScarf|Adaptability|AquaJet,LastRespects,WaveCrash,FlipTurn|Jolly||M|||50|]Sableye||RoseliBerry|Prankster|Quash,Disable,Encore,WillOWisp|Calm||F|||50|
+|
+|t:|1783793230
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Archaludon|Archaludon, L50, F|100/100
+|switch|p1b: Raichu|Raichu, L50, M|100/100
+|switch|p2a: Yuki-onna|Froslass, L50, F, shiny|100/100
+|switch|p2b: Gengar|Gengar, L50, M, shiny|100/100
+|turn|1
+|
+|t:|1783793251
+|detailschange|p2a: Yuki-onna|Froslass-Mega, L50, F, shiny
+|-mega|p2a: Yuki-onna|Froslass|Froslassite
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Yuki-onna
+|detailschange|p1b: Raichu|Raichu-Mega-Y, L50, M
+|-mega|p1b: Raichu|Raichu|Raichunite Y
+|move|p1b: Raichu|Zap Cannon|p2b: Gengar
+|-damage|p2b: Gengar|0 fnt
+|-start|p1b: Raichu|Disable|Zap Cannon|[from] ability: Cursed Body|[of] p2b: Gengar
+|faint|p2b: Gengar
+|move|p2a: Yuki-onna|Blizzard|p1b: Raichu|[spread] p1a,p1b
+|-crit|p1b: Raichu
+|-damage|p1a: Archaludon|32/100
+|-damage|p1b: Raichu|1/100
+|-status|p1a: Archaludon|frz
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|-curestatus|p1a: Archaludon|frz|[msg]
+|move|p1a: Archaludon|Flash Cannon|p2a: Yuki-onna
+|-supereffective|p2a: Yuki-onna|1
+|-crit|p2a: Yuki-onna
+|-damage|p2a: Yuki-onna|0 fnt
+|faint|p2a: Yuki-onna
+|-damage|p1a: Archaludon|23/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1783793272
+|switch|p2a: Legion|Basculegion, L50, M, shiny|100/100
+|switch|p2b: Nymph|Sableye, L50, F|100/100
+|turn|2
+|
+|t:|1783793283
+|switch|p1a: Meowscarada|Meowscarada, L50, M|100/100
+|move|p2b: Nymph|Encore|p1b: Raichu
+|-start|p1b: Raichu|Encore
+|move|p2a: Legion|Last Respects|p1a: Meowscarada
+|-resisted|p1a: Meowscarada|1
+|-damage|p1a: Meowscarada|21/100
+|cant|p1b: Raichu|Disable|Zap Cannon
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1783793303
+|move|p2b: Nymph|Quash|p1b: Raichu
+|-activate|p1b: Raichu|move: Quash
+|move|p1a: Meowscarada|Knock Off|p2a: Legion
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-supereffective|p2a: Legion|1
+|-damage|p2a: Legion|0 fnt
+|-enditem|p2a: Legion|Choice Scarf|[from] move: Knock Off|[of] p1a: Meowscarada
+|faint|p2a: Legion
+|-activate|p1b: Raichu|move: Struggle
+|move|p1b: Raichu|Struggle|p2b: Nymph
+|-damage|p2b: Nymph|85/100
+|-damage|p1b: Raichu|0 fnt|[from] recoil
+|faint|p1b: Raichu
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1783793310
+|switch|p1b: Archaludon|Archaludon, L50, F|23/100
+|turn|4
+|-message|theghostgymleader forfeited.
+|
+|win|Mebbyaids
+|c|☆Mebbyaids|ggs
+|l|☆theghostgymleader
+|player|p2|

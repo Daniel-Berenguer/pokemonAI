@@ -1,0 +1,804 @@
+|j|☆Welwitchia
+|j|☆Discushead
+|html|WelwitchiaDiscushead    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1783766313
+|gametype|doubles
+|player|p1|Welwitchia|pokemonbreeder-gen4|1000
+|player|p2|Discushead|bugcatcher-gen4dp|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Corviknight, L50, M|
+|poke|p1|Tyranitar, L50, F, shiny|
+|poke|p1|Trevenant, L50, M|
+|poke|p1|Azumarill, L50, F, shiny|
+|poke|p1|Slowking-Galar, L50, M|
+|poke|p1|Camerupt, L50, F, shiny|
+|poke|p2|Politoed, L50, M, shiny|
+|poke|p2|Vaporeon, L50, M|
+|poke|p2|Basculegion, L50, M, shiny|
+|poke|p2|Primarina, L50, F, shiny|
+|poke|p2|Heliolisk, L50, M|
+|poke|p2|Toxicroak, L50, M|
+|teampreview|4
+|showteam|p1|Corviknight||Leftovers|Pressure|Spite,IronHead,Roost,Protect|Impish||M|||50|]Tyranitar||Tyranitarite|SandStream|Spite,Protect,RockSlide,LowKick|Careful||F|||50|]Trevenant||SitrusBerry|Harvest|PainSplit,FoulPlay,ForestsCurse,BurningJealousy|Calm||M|||50|]Azumarill||FairyFeather|SapSipper|BellyDrum,AquaJet,IceSpinner,DrainingKiss|Brave||F|||50|]Slowking-Galar||ShucaBerry|CuriousMedicine|SkillSwap,ThunderWave,EerieSpell,TrickRoom|Sassy||M|||50|]Camerupt||Cameruptite|SolidRock|EarthPower,HeatWave,SolarBeam,StealthRock|Modest||F|||50|
+|showteam|p2|Politoed||WacanBerry|Drizzle|Haze,BrickBreak,HelpingHand,WeatherBall|Calm||M|||50|]Vaporeon||Leftovers|WaterAbsorb|Protect,AquaRing,AcidArmor,Scald|Bold||M|||50|]Basculegion||ChoiceScarf|SwiftSwim|LastRespects,WaveCrash,Protect,FlipTurn|Lonely||M|||50|]Primarina||ExpertBelt|LiquidVoice|PsychicNoise,Moonblast,DrainingKiss,AlluringVoice|Modest||F|||50|]Heliolisk||LightClay|DrySkin|ThunderWave,LightScreen,ParabolicCharge,VoltSwitch|Modest||M|||50|]Toxicroak||LifeOrb|DrySkin|CloseCombat,DrainPunch,LowKick,PoisonJab|Careful||M|||50|
+|
+|t:|1783766337
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Tyranitar|Tyranitar, L50, F, shiny|100/100
+|switch|p1b: Trevenant|Trevenant, L50, M|100/100
+|switch|p2a: Politoed|Politoed, L50, M, shiny|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1783766367
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2b: Basculegion|Wave Crash|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Protect
+|move|p2a: Politoed|Brick Break|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Protect
+|move|p1b: Trevenant|Foul Play|p2b: Basculegion
+|-supereffective|p2b: Basculegion|1
+|-damage|p2b: Basculegion|10/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Basculegion|4/100|[from] Sandstorm
+|-damage|p2a: Politoed|93/100|[from] Sandstorm
+|-damage|p1b: Trevenant|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1783766416
+|move|p2b: Basculegion|Wave Crash|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar|1
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|-damage|p2b: Basculegion|0 fnt|[from] Recoil
+|faint|p2b: Basculegion
+|move|p2a: Politoed|Brick Break|p1b: Trevenant
+|-immune|p1b: Trevenant
+|move|p1b: Trevenant|Forest's Curse|p1: Tyranitar|[notarget]
+|-fail|p1b: Trevenant
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Politoed|87/100|[from] Sandstorm
+|-damage|p1b: Trevenant|88/100|[from] Sandstorm
+|upkeep
+|
+|t:|1783766428
+|switch|p2b: Toxicroak|Toxicroak, L50, M|100/100
+|switch|p1a: Corviknight|Corviknight, L50, M|100/100
+|-ability|p1a: Corviknight|Pressure
+|turn|3
+|
+|t:|1783766447
+|move|p2a: Politoed|Helping Hand|p2b: Toxicroak
+|-singleturn|p2b: Toxicroak|Helping Hand|[of] p2a: Politoed
+|move|p2b: Toxicroak|Close Combat|p1a: Corviknight
+|-damage|p1a: Corviknight|32/100
+|-unboost|p2b: Toxicroak|def|1
+|-unboost|p2b: Toxicroak|spd|1
+|-damage|p2b: Toxicroak|90/100|[from] item: Life Orb
+|move|p1a: Corviknight|Spite|p2b: Toxicroak
+|-activate|p2b: Toxicroak|move: Spite|Close Combat|4
+|move|p1b: Trevenant|Forest's Curse|p1a: Corviknight
+|-start|p1a: Corviknight|typeadd|Grass|[from] move: Forest's Curse
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Toxicroak|84/100|[from] Sandstorm
+|-damage|p2a: Politoed|81/100|[from] Sandstorm
+|-damage|p1b: Trevenant|82/100|[from] Sandstorm
+|-heal|p1a: Corviknight|38/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1783766468
+|move|p2a: Politoed|Helping Hand|p2b: Toxicroak
+|-singleturn|p2b: Toxicroak|Helping Hand|[of] p2a: Politoed
+|move|p1a: Corviknight|Protect|p1a: Corviknight
+|-singleturn|p1a: Corviknight|Protect
+|move|p2b: Toxicroak|Poison Jab|p1b: Trevenant
+|-damage|p1b: Trevenant|2/100
+|-status|p1b: Trevenant|psn
+|-enditem|p1b: Trevenant|Sitrus Berry|[eat]
+|-heal|p1b: Trevenant|27/100 psn|[from] item: Sitrus Berry
+|-damage|p2b: Toxicroak|75/100|[from] item: Life Orb
+|move|p1b: Trevenant|Burning Jealousy|p2a: Politoed|[spread] p2a,p2b
+|-resisted|p2a: Politoed|1
+|-damage|p2a: Politoed|78/100
+|-damage|p2b: Toxicroak|55/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Toxicroak|49/100|[from] Sandstorm
+|-damage|p2a: Politoed|72/100|[from] Sandstorm
+|-damage|p1b: Trevenant|21/100 psn|[from] Sandstorm
+|-heal|p1a: Corviknight|44/100|[from] item: Leftovers
+|-damage|p1b: Trevenant|9/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1783766487
+|switch|p1b: Camerupt|Camerupt, L50, F, shiny|100/100
+|move|p2b: Toxicroak|Drain Punch|p1a: Corviknight
+|-damage|p1a: Corviknight|17/100
+|-heal|p2b: Toxicroak|67/100|[from] drain|[of] p1a: Corviknight
+|-damage|p2b: Toxicroak|57/100|[from] item: Life Orb
+|move|p2a: Politoed|Weather Ball|p1b: Camerupt
+|-damage|p1b: Camerupt|72/100
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|67/100
+|-singleturn|p1a: Corviknight|move: Roost
+|
+|-weather|none
+|-heal|p1a: Corviknight|73/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1783766523
+|detailschange|p1b: Camerupt|Camerupt-Mega, L50, F, shiny
+|-mega|p1b: Camerupt|Camerupt|Cameruptite
+|move|p2b: Toxicroak|Drain Punch|p1b: Camerupt
+|-damage|p1b: Camerupt|23/100
+|-heal|p2b: Toxicroak|84/100|[from] drain|[of] p1b: Camerupt
+|-damage|p2b: Toxicroak|75/100|[from] item: Life Orb
+|move|p2a: Politoed|Brick Break|p1b: Camerupt
+|-damage|p1b: Camerupt|11/100
+|move|p1a: Corviknight|Spite|p2b: Toxicroak
+|-activate|p2b: Toxicroak|move: Spite|Drain Punch|4
+|move|p1b: Camerupt|Stealth Rock|p2b: Toxicroak
+|-sidestart|p2: Discushead|move: Stealth Rock
+|
+|-heal|p1a: Corviknight|79/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1783766546
+|move|p2b: Toxicroak|Drain Punch|p1a: Corviknight
+|-damage|p1a: Corviknight|52/100
+|-heal|p2b: Toxicroak|93/100|[from] drain|[of] p1a: Corviknight
+|-damage|p2b: Toxicroak|83/100|[from] item: Life Orb
+|move|p2a: Politoed|Brick Break|p1b: Camerupt
+|-damage|p1b: Camerupt|0 fnt
+|faint|p1b: Camerupt
+|move|p1a: Corviknight|Iron Head|p2b: Toxicroak
+|-damage|p2b: Toxicroak|23/100
+|
+|-heal|p1a: Corviknight|58/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783766554
+|switch|p1b: Trevenant|Trevenant, L50, M|9/100 psn
+|turn|8
+|c|☆Discushead|See Mega evolvs are for loserz
+|
+|t:|1783766575
+|move|p2b: Toxicroak|Low Kick|p1a: Corviknight
+|-damage|p1a: Corviknight|29/100
+|-damage|p2b: Toxicroak|13/100|[from] item: Life Orb
+|move|p2a: Politoed|Brick Break|p1a: Corviknight
+|-damage|p1a: Corviknight|21/100
+|move|p1a: Corviknight|Spite|p2a: Politoed
+|-activate|p2a: Politoed|move: Spite|Brick Break|4
+|move|p1b: Trevenant|Pain Split|p2a: Politoed
+|-sethp|p2a: Politoed|41/100|[from] move: Pain Split|[silent]
+|-sethp|p1b: Trevenant|36/100 psn|[from] move: Pain Split
+|
+|-heal|p1a: Corviknight|27/100|[from] item: Leftovers
+|-damage|p1b: Trevenant|24/100 psn|[from] psn
+|upkeep
+|turn|9
+|
+|t:|1783766594
+|move|p2a: Politoed|Helping Hand|p2b: Toxicroak
+|-singleturn|p2b: Toxicroak|Helping Hand|[of] p2a: Politoed
+|move|p1a: Corviknight|Protect|p1a: Corviknight
+|-singleturn|p1a: Corviknight|Protect
+|move|p2b: Toxicroak|Drain Punch|p1a: Corviknight
+|-activate|p1a: Corviknight|move: Protect
+|move|p1b: Trevenant|Burning Jealousy|p2a: Politoed|[spread] p2a,p2b
+|-resisted|p2a: Politoed|1
+|-damage|p2a: Politoed|38/100
+|-damage|p2b: Toxicroak|0 fnt
+|faint|p2b: Toxicroak
+|
+|-heal|p1a: Corviknight|33/100|[from] item: Leftovers
+|-damage|p1b: Trevenant|12/100 psn|[from] psn
+|upkeep
+|
+|t:|1783766598
+|switch|p2b: Vaporeon|Vaporeon, L50, M|100/100
+|-damage|p2b: Vaporeon|87/100|[from] Stealth Rock
+|turn|10
+|
+|t:|1783766617
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|83/100
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2b: Vaporeon|Scald|p1b: Trevenant
+|-resisted|p1b: Trevenant|1
+|-damage|p1b: Trevenant|0 fnt
+|faint|p1b: Trevenant
+|
+|-heal|p1a: Corviknight|89/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|93/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1783766645
+|move|p2a: Politoed|Haze|p2a: Politoed
+|-clearallboost
+|move|p1a: Corviknight|Spite|p2b: Vaporeon
+|-activate|p2b: Vaporeon|move: Spite|Scald|4
+|move|p2b: Vaporeon|Aqua Ring|p2b: Vaporeon
+|-start|p2b: Vaporeon|Aqua Ring
+|
+|-heal|p1a: Corviknight|95/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|99/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100|[from] Aqua Ring
+|upkeep
+|turn|12
+|
+|t:|1783766659
+|move|p2a: Politoed|Brick Break|p1a: Corviknight
+|-damage|p1a: Corviknight|87/100
+|move|p1a: Corviknight|Spite|p2b: Vaporeon
+|-activate|p2b: Vaporeon|move: Spite|Aqua Ring|4
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|2
+|
+|-heal|p1a: Corviknight|93/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1783766678
+|move|p2a: Politoed|Weather Ball|p1a: Corviknight
+|-resisted|p1a: Corviknight|1
+|-damage|p1a: Corviknight|88/100
+|move|p1a: Corviknight|Spite|p2b: Vaporeon
+|-activate|p2b: Vaporeon|move: Spite|Acid Armor|4
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|2
+|
+|-heal|p1a: Corviknight|94/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1783766695
+|move|p2a: Politoed|Brick Break|p1a: Corviknight
+|-damage|p1a: Corviknight|85/100
+|move|p1a: Corviknight|Spite|p2b: Vaporeon
+|-activate|p2b: Vaporeon|move: Spite|Acid Armor|4
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|2
+|
+|-heal|p1a: Corviknight|91/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|
+|t:|1783766718
+|move|p2b: Vaporeon|Protect|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Protect
+|move|p2a: Politoed|Brick Break|p1a: Corviknight
+|-damage|p1a: Corviknight|83/100
+|move|p1a: Corviknight|Spite|p2b: Vaporeon
+|-activate|p2b: Vaporeon|move: Protect
+|
+|-heal|p1a: Corviknight|89/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1783766744
+|move|p1a: Corviknight|Protect|p1a: Corviknight
+|-singleturn|p1a: Corviknight|Protect
+|move|p2b: Vaporeon|Protect||[still]
+|-fail|p2b: Vaporeon
+|move|p2a: Politoed|Weather Ball|p1a: Corviknight
+|-activate|p1a: Corviknight|move: Protect
+|
+|-heal|p1a: Corviknight|95/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|
+|t:|1783766757
+|move|p2a: Politoed|Weather Ball|p1a: Corviknight
+|-resisted|p1a: Corviknight|1
+|-damage|p1a: Corviknight|89/100
+|move|p1a: Corviknight|Spite|p2b: Vaporeon
+|-activate|p2b: Vaporeon|move: Spite|Protect|4
+|move|p2b: Vaporeon|Scald|p1a: Corviknight
+|-resisted|p1a: Corviknight|1
+|-damage|p1a: Corviknight|70/100
+|
+|-heal|p1a: Corviknight|76/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1783766781
+|move|p2b: Vaporeon|Protect|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Protect
+|move|p2a: Politoed|Weather Ball|p1a: Corviknight
+|-resisted|p1a: Corviknight|1
+|-damage|p1a: Corviknight|71/100
+|move|p1a: Corviknight|Spite|p2a: Politoed
+|-activate|p2a: Politoed|move: Spite|Weather Ball|3
+|
+|-heal|p1a: Corviknight|77/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1783766810
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p1a: Corviknight|Spite|p2b: Vaporeon
+|-activate|p2b: Vaporeon|move: Spite|Protect|1
+|move|p2b: Vaporeon|Scald|p1a: Corviknight
+|-resisted|p1a: Corviknight|1
+|-damage|p1a: Corviknight|47/100
+|-status|p1a: Corviknight|brn
+|
+|-heal|p1a: Corviknight|53/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|47/100 brn|[from] brn
+|upkeep
+|turn|20
+|c|☆Discushead|the burns gonna do it man
+|c|☆Discushead|gg this was fun
+|c|☆Discushead|we'd be frends in irl
+|
+|t:|1783766841
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|97/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2b: Vaporeon|Scald|p1a: Corviknight
+|-resisted|p1a: Corviknight|1
+|-damage|p1a: Corviknight|68/100 brn
+|
+|-heal|p1a: Corviknight|74/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|68/100 brn|[from] brn
+|upkeep
+|turn|21
+|
+|t:|1783766860
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p1a: Corviknight|Protect|p1a: Corviknight
+|-singleturn|p1a: Corviknight|Protect
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-heal|p1a: Corviknight|74/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|68/100 brn|[from] brn
+|upkeep
+|turn|22
+|
+|t:|1783766873
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p1a: Corviknight|Iron Head|p2b: Vaporeon
+|-resisted|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|98/100
+|move|p2b: Vaporeon|Scald|p1a: Corviknight
+|-resisted|p1a: Corviknight|1
+|-damage|p1a: Corviknight|39/100 brn
+|
+|-heal|p1a: Corviknight|44/100 brn|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|39/100 brn|[from] brn
+|upkeep
+|turn|23
+|
+|t:|1783766889
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|89/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2b: Vaporeon|Scald|p1a: Corviknight
+|-resisted|p1a: Corviknight|1
+|-damage|p1a: Corviknight|60/100 brn
+|
+|-heal|p1a: Corviknight|65/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|60/100 brn|[from] brn
+|upkeep
+|turn|24
+|
+|t:|1783766905
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p1a: Corviknight|Spite|p2b: Vaporeon
+|-activate|p2b: Vaporeon|move: Spite|Scald|1
+|cant|p2b: Vaporeon|nopp|Scald
+|
+|-heal|p1a: Corviknight|65/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|60/100 brn|[from] brn
+|upkeep
+|turn|25
+|
+|t:|1783766919
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p1a: Corviknight|Iron Head|p2b: Vaporeon
+|-resisted|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|99/100
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|0
+|
+|-heal|p1a: Corviknight|65/100 brn|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|60/100 brn|[from] brn
+|upkeep
+|turn|26
+|
+|t:|1783766930
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p1a: Corviknight|Iron Head|p2b: Vaporeon
+|-resisted|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|98/100
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-heal|p1a: Corviknight|65/100 brn|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|60/100 brn|[from] brn
+|upkeep
+|turn|27
+|
+|t:|1783766943
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p1a: Corviknight|Iron Head|p2b: Vaporeon
+|-resisted|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|98/100
+|cant|p2b: Vaporeon|flinch
+|
+|-heal|p1a: Corviknight|65/100 brn|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|60/100 brn|[from] brn
+|upkeep
+|turn|28
+|
+|t:|1783766953
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p1a: Corviknight|Iron Head|p2b: Vaporeon
+|-resisted|p2b: Vaporeon|1
+|-crit|p2b: Vaporeon
+|-damage|p2b: Vaporeon|92/100
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|0
+|
+|-heal|p1a: Corviknight|65/100 brn|[from] item: Leftovers
+|-heal|p2b: Vaporeon|98/100|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100|[from] Aqua Ring
+|-damage|p1a: Corviknight|60/100 brn|[from] brn
+|upkeep
+|turn|29
+|
+|t:|1783766973
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p1a: Corviknight|Iron Head|p2b: Vaporeon
+|-resisted|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|98/100
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|0
+|
+|-heal|p1a: Corviknight|65/100 brn|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|60/100 brn|[from] brn
+|upkeep
+|turn|30
+|
+|t:|1783766986
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p1a: Corviknight|Iron Head|p2b: Vaporeon
+|-resisted|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|98/100
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|0
+|
+|-heal|p1a: Corviknight|65/100 brn|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|60/100 brn|[from] brn
+|upkeep
+|turn|31
+|
+|t:|1783766998
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p1a: Corviknight|Iron Head|p2b: Vaporeon
+|-resisted|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|98/100
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|0
+|
+|-heal|p1a: Corviknight|65/100 brn|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|60/100 brn|[from] brn
+|upkeep
+|turn|32
+|
+|t:|1783767014
+|move|p2a: Politoed|Haze|p2a: Politoed
+|-clearallboost
+|move|p1a: Corviknight|Iron Head|p2b: Vaporeon
+|-resisted|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|94/100
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|2
+|
+|-heal|p1a: Corviknight|65/100 brn|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|60/100 brn|[from] brn
+|upkeep
+|turn|33
+|
+|t:|1783767042
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p1a: Corviknight|Iron Head|p2b: Vaporeon
+|-resisted|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|97/100
+|cant|p2b: Vaporeon|flinch
+|
+|-heal|p1a: Corviknight|65/100 brn|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|60/100 brn|[from] brn
+|upkeep
+|turn|34
+|
+|t:|1783767049
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p1a: Corviknight|Iron Head|p2b: Vaporeon
+|-resisted|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|97/100
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|2
+|
+|-heal|p1a: Corviknight|65/100 brn|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|60/100 brn|[from] brn
+|upkeep
+|turn|35
+|
+|t:|1783767060
+|move|p2a: Politoed|Helping Hand|p2b: Vaporeon
+|-singleturn|p2b: Vaporeon|Helping Hand|[of] p2a: Politoed
+|move|p1a: Corviknight|Iron Head|p2b: Vaporeon
+|-resisted|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|98/100
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|2
+|
+|-heal|p1a: Corviknight|65/100 brn|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|60/100 brn|[from] brn
+|upkeep
+|turn|36
+|
+|t:|1783767074
+|move|p2a: Politoed|Haze|p2a: Politoed
+|-clearallboost
+|move|p1a: Corviknight|Iron Head|p2b: Vaporeon
+|-resisted|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|95/100
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-heal|p1a: Corviknight|65/100 brn|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|60/100 brn|[from] brn
+|upkeep
+|turn|37
+|
+|t:|1783767085
+|move|p2a: Politoed|Haze|p2a: Politoed
+|-clearallboost
+|move|p1a: Corviknight|Iron Head|p2b: Vaporeon
+|-resisted|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|95/100
+|cant|p2b: Vaporeon|flinch
+|
+|-heal|p1a: Corviknight|65/100 brn|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|60/100 brn|[from] brn
+|upkeep
+|turn|38
+|
+|t:|1783767098
+|move|p2a: Politoed|Haze|p2a: Politoed
+|-clearallboost
+|move|p1a: Corviknight|Iron Head|p2b: Vaporeon
+|-resisted|p2b: Vaporeon|1
+|-damage|p2b: Vaporeon|94/100
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-heal|p1a: Corviknight|65/100 brn|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|60/100 brn|[from] brn
+|upkeep
+|turn|39
+|
+|t:|1783767114
+|move|p1a: Corviknight|Protect|p1a: Corviknight
+|-singleturn|p1a: Corviknight|Protect
+|move|p2a: Politoed|Haze|p2a: Politoed
+|-clearallboost
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-heal|p1a: Corviknight|65/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|60/100 brn|[from] brn
+|upkeep
+|turn|40
+|
+|t:|1783767133
+|move|p2a: Politoed|Haze|p2a: Politoed
+|-clearallboost
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-damage|p1a: Corviknight|94/100 brn|[from] brn
+|upkeep
+|turn|41
+|
+|t:|1783767145
+|move|p1a: Corviknight|Protect|p1a: Corviknight
+|-singleturn|p1a: Corviknight|Protect
+|move|p2a: Politoed|Haze|p2a: Politoed
+|-clearallboost
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-heal|p1a: Corviknight|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|94/100 brn|[from] brn
+|upkeep
+|turn|42
+|
+|t:|1783767163
+|move|p1a: Corviknight|Protect|p1a: Corviknight
+|-singleturn|p1a: Corviknight|Protect
+|move|p2a: Politoed|Haze|p2a: Politoed
+|-clearallboost
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-heal|p1a: Corviknight|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|94/100 brn|[from] brn
+|upkeep
+|turn|43
+|
+|t:|1783767173
+|move|p1a: Corviknight|Protect||[still]
+|-fail|p1a: Corviknight
+|move|p2a: Politoed|Haze|p2a: Politoed
+|-clearallboost
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-heal|p1a: Corviknight|100/100 brn|[from] item: Leftovers
+|-damage|p1a: Corviknight|94/100 brn|[from] brn
+|upkeep
+|turn|44
+|
+|t:|1783767187
+|-activate|p2a: Politoed|move: Struggle
+|move|p2a: Politoed|Struggle|p1a: Corviknight
+|-damage|p1a: Corviknight|88/100 brn
+|-damage|p2a: Politoed|13/100|[from] recoil
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-damage|p1a: Corviknight|94/100 brn|[from] brn
+|upkeep
+|turn|45
+|
+|t:|1783767210
+|-activate|p2a: Politoed|move: Struggle
+|move|p2a: Politoed|Struggle|p1a: Corviknight
+|-damage|p1a: Corviknight|88/100 brn
+|-damage|p2a: Politoed|0 fnt|[from] recoil
+|faint|p2a: Politoed
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-damage|p1a: Corviknight|94/100 brn|[from] brn
+|upkeep
+|turn|46
+|
+|t:|1783767231
+|move|p1a: Corviknight|Roost|p1a: Corviknight
+|-heal|p1a: Corviknight|100/100 brn
+|-singleturn|p1a: Corviknight|move: Roost
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-damage|p1a: Corviknight|94/100 brn|[from] brn
+|upkeep
+|turn|47
+|c|☆Discushead|The opposing Corviknight is gay
+|c|☆Welwitchia|Judgy
+|
+|t:|1783767248
+|-activate|p1a: Corviknight|move: Struggle
+|move|p1a: Corviknight|Struggle|p2b: Vaporeon
+|-damage|p2b: Vaporeon|95/100
+|-damage|p1a: Corviknight|69/100 brn|[from] recoil
+|move|p2b: Vaporeon|Acid Armor|p2b: Vaporeon
+|-boost|p2b: Vaporeon|def|2
+|
+|-heal|p1a: Corviknight|75/100 brn|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|69/100 brn|[from] brn
+|upkeep
+|turn|48
+|
+|t:|1783767258
+|-activate|p1a: Corviknight|move: Struggle
+|move|p1a: Corviknight|Struggle|p2b: Vaporeon
+|-damage|p2b: Vaporeon|98/100
+|-damage|p1a: Corviknight|44/100 brn|[from] recoil
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-heal|p1a: Corviknight|50/100g brn|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|44/100 brn|[from] brn
+|upkeep
+|turn|49
+|c|☆Welwitchia|So is ur mermaid boi
+|
+|t:|1783767273
+|-activate|p1a: Corviknight|move: Struggle
+|move|p1a: Corviknight|Struggle|p2b: Vaporeon
+|-damage|p2b: Vaporeon|97/100
+|-damage|p1a: Corviknight|19/100 brn|[from] recoil
+|move|p2b: Vaporeon|Aqua Ring||[still]
+|-fail|p2b: Vaporeon
+|
+|-heal|p1a: Corviknight|25/100 brn|[from] item: Leftovers
+|-heal|p2b: Vaporeon|100/100|[from] item: Leftovers
+|-damage|p1a: Corviknight|19/100 brn|[from] brn
+|upkeep
+|turn|50
+|c|☆Discushead|Mermaid boy kills if he doesnt get lame ass spited and eeried
+|c|☆Welwitchia|GG
+|c|☆Discushead|so it wouldnt be 100 turns for this shit
+|
+|t:|1783767308
+|-activate|p1a: Corviknight|move: Struggle
+|move|p1a: Corviknight|Struggle|p2b: Vaporeon
+|-damage|p2b: Vaporeon|97/100
+|-damage|p1a: Corviknight|0 fnt|[from] recoil
+|faint|p1a: Corviknight
+|
+|win|Discushead
+|raw|Welwitchia's rating: 1000 → 1000(+0 for losing)
+|raw|Discushead's rating: 1000 → 1040(+40 for winning)
+|c|☆Welwitchia|It's 50

@@ -2,8 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import pickle
-
-cuda = torch.device('cuda')
+import math
 
 CHART = [
 # NONE  NOR  FIR  WAT  ELE  GRS  ICE  FIG  POI  GRO  FLY  PSY  BUG  ROC  GHO  DRG  DAR  STE  FAI
@@ -28,9 +27,21 @@ CHART = [
   [ 1,  1, 0.5,   1,   1,   1,   1,   2, 0.5,   1,   1,   1,   1,   1,   1,   2,   2, 0.5,   1],  # Fairy
 ]
 
-typeChart = torch.tensor(CHART)
-print(typeChart[:,1])
+class AttentionPool(nn.Module):
+    def __init__(self, feature_dim):
+        super().__init__()
+        self.query = nn.Parameter(torch.randn(1, 1, feature_dim))  # learned "summary" query
+        self.att = MultiHeadAttention(feature_dim, n_heads=4, key_query_dim=feature_dim, head_dim=int(feature_dim/4))
 
+    def forward(self, x, move=False):
+        # MOVE FALSE: x: (batch, 6, featureDim)
+        # MOVE TRUE:  x: (BATCH, TEAM, POKE, MOVES, nHidden)
+        if not move:
+            q = self.query.expand(x.size(0), -1, -1)  # (batch, 1, featureDim)
+        else:
+            q = self.query.expand(x.size(0), x.size(1), x.size(2), -1, -1)
+        out = self.att.forward(q, x, x)           # (batch, 1, featureDim)
+        return out.squeeze(1)     
     
 
 class MoveEncoder(nn.Module):
@@ -52,6 +63,8 @@ class MoveEncoder(nn.Module):
         self.ln1 = nn.LayerNorm(concat_dim)
         self.lin1 = nn.Linear(concat_dim, nhidden)
 
+        self.attPool = AttentionPool(nhidden)
+
         self.ln2 = nn.LayerNorm(nhidden)
         self.lin2 = nn.Linear(nhidden, move_dim)
 
@@ -60,13 +73,13 @@ class MoveEncoder(nn.Module):
         move_type = moveInts[:, :, :, :, 1]
 
         concat = torch.cat(
-            (self.emb(move_name), F.one_hot(move_type, num_classes=self.nTypes), moveFeats)
+            (self.emb(move_name), F.one_hot(move_type, num_classes=self.nTypes), moveFeats), dim=-1
         ) # (BATCH, TEAM, POKE, MOVES, move_dim + type_dim + moveFeatDim)
 
         x = torch.relu(self.lin1(self.ln1(concat))) # (BATCH, TEAM, POKE, MOVES, nHidden)
 
-        # Sum across move dim
-        x = x.sum(dim=3) # (BATCH, TEAM, POKE, nHidden)
+        # Aggregate via attention pool
+        x = self.attPool(x, move=True).squeeze(3) # (BATCH, TEAM, POKE, nHidden)
 
         x = torch.relu(self.lin2(self.ln2(x))) # (BATCH, TEAM, POKE, moveDim)
         
@@ -86,7 +99,7 @@ class AttentionHead(nn.Module):
         Q = self.Wq(q_in) # (BATCH, 2, 6, KQ_dim)
         K = self.Wk(k_in) # (BATCH, 2, 6, KQ_dim)
         V = self.Wv(v_in) # (BATCH, 2, 6, V_dim)
-        Y = torch.softmax(Q @ K.transpose(-2,-1) / torch.sqrt(self.key_query_dim), dim=-1) @ V
+        Y = torch.softmax(Q @ K.transpose(-2,-1) / math.sqrt(self.key_query_dim), dim=-1) @ V
         return Y
     
 
@@ -116,6 +129,26 @@ class SelfAttTransformerLayer(nn.Module):
     def forward(self, x):
         normed_x = self.ln1(x)
         x = x + self.dropout1(self.mha(normed_x, normed_x, normed_x))
+        x = x + self.dropout2(self.lin2(self.relu(self.lin1(self.ln2(x)))))
+        return x
+    
+class CrossAttTransformerLayer(nn.Module):
+    def __init__(self, in_dim, n_heads, key_query_dim, head_dim, hidden_dim, dropout):
+        super().__init__()
+        self.mha = MultiHeadAttention(in_dim, n_heads, key_query_dim, head_dim)
+        self.ln1_x = nn.LayerNorm(in_dim)
+        self.ln1_y = nn.LayerNorm(in_dim)
+        self.dropout1 = nn.Dropout(dropout)
+        self.lin1 = nn.Linear(in_dim, hidden_dim)
+        self.relu = nn.ReLU()
+        self.ln2 = nn.LayerNorm(in_dim)
+        self.dropout2 = nn.Dropout(dropout)
+        self.lin2 = nn.Linear(hidden_dim, in_dim)
+
+    def forward(self, x, y):
+        normed_x = self.ln1_x(x)
+        normed_y = self.ln1_y(y)
+        x = x + self.dropout1(self.mha(normed_x, normed_y, normed_y))
         x = x + self.dropout2(self.lin2(self.relu(self.lin1(self.ln2(x)))))
         return x
 
@@ -149,29 +182,26 @@ class PokeEncoder(nn.Module):
     [ 1,  1, 0.5,   1,   1,   1,   1,   2, 0.5,   1,   1,   1,   1,   1,   1,   2,   2, 0.5,   1],  # Fairy
     ]
 
-    def __init__(self, nhidden, moveHidden, moveDim, typeEmb, pokeEmb, abEmb, itemEmb, n_heads):
+    def __init__(self, moveHidden, moveDim, pokeEmb, abEmb, itemEmb, pokeDim):
         super().__init__()
 
         self.pokeEmb = nn.Embedding(self.N_POKES, pokeEmb)
         self.abEmb = nn.Embedding(self.N_ABS, abEmb)
         self.itemEmb = nn.Embedding(self.N_ITEMS, itemEmb)
-        self.type_chart = torch.tensor(self.TYPE_CHART, requires_grad=False)
+        self.register_buffer('type_chart', torch.tensor(self.TYPE_CHART), persistent=True)
 
         self.moveEncoder = MoveEncoder(nhidden=moveHidden, move_dim=moveDim, nTypes=self.N_TYPES)
 
-        """self.typeW = nn.Parameter(torch.randn(typeEmb, nhidden))
-        nn.init.kaiming_normal_(self.typeW)
-        self.teraW = nn.Parameter(torch.randn(typeEmb, nhidden))
-        nn.init.kaiming_normal_(self.teraW)
-        self.featsW = nn.Parameter(torch.randn(self.FEATS_DIM, nhidden))
-        nn.init.kaiming_normal_(self.featsW)"""
-
         concatDim = moveDim + pokeEmb + abEmb + itemEmb + self.N_TYPES*4 + self.FEATS_DIM
-        self.selfAttTransformerLayer = SelfAttTransformerLayer(concatDim, 10, concatDim, concatDim/n_heads, concatDim*2, dropout=0.3)
+
+        self.dropout = nn.Dropout(0.25)
+        self.ln = nn.LayerNorm(concatDim)
+        self.linear = nn.Linear(concatDim, pokeDim)
+
 
     def forward(self, pokeInts, pokeFeats, moveInts, moveFeats):
         # Encodes Moves
-        moves = self.moveEncoder.forward(moveInts, moveFeats, self.typeEncoder)
+        moves = self.moveEncoder.forward(moveInts, moveFeats)
         
         # Embeds Rest
         # pokeInts (BATCH, 2, 6, 6) [poke, item, ab, typ1, typ2]
@@ -179,12 +209,10 @@ class PokeEncoder(nn.Module):
         item = self.itemEmb(pokeInts[:, :, :, 1])
         ab = self.abEmb(pokeInts[:, :, :, 2])
         types = F.one_hot(pokeInts[:, :, :, 3:5], num_classes=self.N_TYPES).flatten(start_dim=3)
-        types_def = self.type_chart[:, pokeInts[:, :, :, 3:5]].flatten(start_dim=3)
+        types_def = self.type_chart[:, pokeInts[:, :, :, 3:5]].permute(1, 2, 3, 4, 0).flatten(start_dim=3)
 
         # Concatenate everything
-        concat = torch.cat([poke, item, ab, types, pokeFeats, types_def, moves], dim=-1) # (BATCH, 2, 6, concatDim)
-        x = self.selfAttTransformerLayer(concat)
-
+        concat = self.dropout(torch.cat([poke, item, ab, types, pokeFeats, types_def, moves], dim=-1)) # (BATCH, 2, 6, concatDim)
         
         return torch.relu(self.linear(self.ln(concat)))
     
@@ -196,17 +224,17 @@ class BoardEncoder(nn.Module):
     NEMB = 4
     NFEATS = 15
     
-    def __init__(self, nhidden):
+    def __init__(self, boardDim):
         super().__init__()
         self.twEmb = nn.Embedding(self.NTURNS, self.NEMB)
         self.trEmb = nn.Embedding(self.NTURNS, self.NEMB)
         self.weatherEmb = nn.Embedding(self.NWEATHERS, self.NEMB)
         self.terrainEmb = nn.Embedding(self.NTERRAINS, self.NEMB)
 
-        newDim = self.NEMB*3 + self.NEMB + self.NEMB + self.NFEATS
+        newDim = self.NEMB*5 + self.NFEATS
 
         self.ln = nn.LayerNorm(newDim)
-        self.lin = nn.Linear(newDim, nhidden)
+        self.lin = nn.Linear(newDim, boardDim)
 
     def forward(self, boardInts, boardFeats):
         # Embeds Ints 
@@ -219,3 +247,76 @@ class BoardEncoder(nn.Module):
         comb = torch.cat([tws, tr, weather, terrain, boardFeats], dim=-1)
 
         return torch.relu(self.lin(self.ln(comb)))
+
+                 # (batch, featureDim)
+
+class TurnEncoder(nn.Module):
+    MOVE_DIM = 32
+    MOVE_HIDDEN = 128
+    POKE_EMB = 64
+    AB_EMB = 32
+    IT_EMB = 32
+    BOARD_DIM = 32
+    POKE_DIM = 128
+    N_HEADS = 16
+
+    #MLP LAYER
+    HIDDEN_LAY_1 = 128
+    HIDDEN_LAY_2 = 32
+
+
+    def __init__(self):
+        super().__init__()
+        self.pokeEncoder = PokeEncoder(self.MOVE_HIDDEN, self.MOVE_DIM, self.POKE_EMB, self.AB_EMB, self.IT_EMB, self.POKE_DIM)
+        self.boardEncoder = BoardEncoder(self.BOARD_DIM)
+        self.board2token = nn.Linear(self.BOARD_DIM, self.POKE_DIM)
+        self.selfAttTransformerLayer1 = SelfAttTransformerLayer(in_dim=self.POKE_DIM, n_heads=self.N_HEADS, key_query_dim=int(self.POKE_DIM/self.N_HEADS),
+                                                                head_dim=int(self.POKE_DIM/self.N_HEADS), hidden_dim=self.POKE_DIM*2, dropout=0.45)
+        #self.selfAttTransformerLayer2 = SelfAttTransformerLayer(in_dim=self.POKE_DIM, n_heads=self.N_HEADS, key_query_dim=self.POKE_DIM,
+        #                                                        head_dim=int(self.POKE_DIM/self.N_HEADS), hidden_dim=self.POKE_DIM*2, dropout=0.3)
+        self.crossAttTransformerLayer1 = CrossAttTransformerLayer(in_dim=self.POKE_DIM, n_heads=self.N_HEADS, key_query_dim=int(self.POKE_DIM/self.N_HEADS),
+                                                                head_dim=int(self.POKE_DIM/self.N_HEADS), hidden_dim=self.POKE_DIM*2, dropout=0.45)
+        #self.crossAttTransformerLayer2 = CrossAttTransformerLayer(in_dim=self.POKE_DIM, n_heads=self.N_HEADS, key_query_dim=self.POKE_DIM,
+        #                                                        head_dim=int(self.POKE_DIM/self.N_HEADS), hidden_dim=self.POKE_DIM*2, dropout=0.3)
+        self.attPool = AttentionPool(self.POKE_DIM)
+
+        # Final MLP
+        self.ln1 = nn.LayerNorm(self.POKE_DIM*2)
+        self.lin1 = nn.Linear(self.POKE_DIM*2, self.HIDDEN_LAY_1)
+        self.dropout1 = nn.Dropout(0.35)
+
+        self.ln2 = nn.LayerNorm(self.HIDDEN_LAY_1)
+        self.lin2 = nn.Linear(self.HIDDEN_LAY_1, self.HIDDEN_LAY_2)
+        self.dropout2 = nn.Dropout(0.15)
+
+        self.ln3 = nn.LayerNorm(self.HIDDEN_LAY_2)
+        self.lin3 = nn.Linear(self.HIDDEN_LAY_2, 1)
+
+
+    def forward(self, pokeInts, pokeFeats, moveInts, moveFeats, boardInts, boardFeats):
+        teams = self.pokeEncoder(pokeInts, pokeFeats, moveInts, moveFeats) # (BATCH, 2, 6, pokeDim)
+        board_token = self.board2token(self.boardEncoder(boardInts, boardFeats)) # (BATCH, pokeDim)
+        board_token = board_token[:, None, None, :].expand(-1, 2, 1, -1) # (BATCH, 2, 1, pokeDim)
+        x = torch.cat([teams, board_token], dim=2)
+
+        x = self.selfAttTransformerLayer1(x)
+        #x = self.selfAttTransformerLayer2(x)
+
+        team_1 = x[:,0,:,:]
+        team_2 = x[:,1,:,:]
+        team_1_summary = self.attPool(self.crossAttTransformerLayer1(team_1, team_2))
+        team_2_summary = self.attPool(self.crossAttTransformerLayer1(team_2, team_1))
+
+        #x = torch.cat([team_1_summary, team_2_summary, team_1_summary-team_2_summary, team_1_summary*team_2_summary], dim=1)
+        x = torch.cat([team_1_summary, team_2_summary], dim=1)
+        x = self.dropout1(torch.relu(self.lin1(self.ln1(x))))
+        x = self.dropout2(torch.relu(self.lin2(self.ln2(x))))
+        x = self.lin3(self.ln3(x))
+
+        return x.squeeze(-1)
+
+
+if __name__ == "__main__":
+    a = TurnEncoder()
+    total_params = sum(p.numel() for p in a.parameters())
+    print(f"Number of parameters: {total_params}")

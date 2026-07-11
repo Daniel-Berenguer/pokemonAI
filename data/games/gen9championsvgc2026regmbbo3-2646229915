@@ -1,0 +1,147 @@
+|j|☆NightshadeAI
+|j|☆keahi
+|html|NightshadeAIkeahi    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783553201
+|gametype|doubles
+|player|p1|NightshadeAI|265|1120
+|player|p2|keahi|giovanni|1168
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Kingambit, L50, F|
+|poke|p2|Scovillain, L50, F, shiny|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Talonflame, L50, F|
+|poke|p2|Sylveon, L50, M, shiny|
+|poke|p2|Araquanid, L50, F|
+|teampreview|4
+|showteam|p1|Whimsicott||FocusSash|Prankster|Moonblast,Tailwind,Encore,Protect|Timid||F|||50|]Charizard||CharizarditeY|Blaze|WeatherBall,SolarBeam,HeatWave,Protect|Modest||M|||50|]Basculegion||MysticWater|Adaptability|LastRespects,WaveCrash,AquaJet,Protect|Adamant||M|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,RockSlide,Protect|Adamant||M|||50|]Floette-Eternal||Floettite|FlowerVeil|DazzlingGleam,LightofRuin,Moonblast,Protect|Modest||F|||50|]Kingambit||ChopleBerry|Defiant|KowtowCleave,SuckerPunch,IronHead,LowKick|Adamant||F|||50|
+|showteam|p2|Scovillain||Scovillainite|Moody|Protect,GigaDrain,Flamethrower,RagePowder|Bold||F|||50|]Tyranitar||Tyranitarite|SandStream|RockSlide,Protect,Assurance,LowKick|Adamant||F|||50|]Excadrill||FocusSash|SandRush|HighHorsepower,IronHead,Protect,RockSlide|Adamant||F|||50|]Talonflame||SharpBeak|GaleWings|BraveBird,Tailwind,FlareBlitz,Protect|Jolly||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,Detect,QuickAttack,HyperBeam|Modest||M|||50|]Araquanid||MysticWater|WaterBubble|Liquidation,LeechLife,WideGuard,Protect|Careful||F|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by NightshadeAI)
+|
+|t:|1783553216
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2a: Sylveon|Sylveon, L50, M, shiny|100/100
+|switch|p2b: Scovillain|Scovillain, L50, F, shiny|100/100
+|turn|1
+|
+|t:|1783553223
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: NightshadeAI|move: Tailwind
+|move|p1a: Garchomp|Earthquake|p2a: Sylveon|[spread] p1b,p2a,p2b
+|-resisted|p1b: Whimsicott|1
+|-damage|p1b: Whimsicott|64/100
+|-damage|p2a: Sylveon|19/100
+|-damage|p2b: Scovillain|40/100
+|-damage|p1a: Garchomp|90/100|[from] item: Life Orb
+|move|p2a: Sylveon|Hyper Voice|p1a: Garchomp|[spread] p1a,p1b
+|-supereffective|p1a: Garchomp|1
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1a: Garchomp
+|faint|p1b: Whimsicott
+|move|p2b: Scovillain|Flamethrower|p1: Garchomp|[notarget]
+|-fail|p2b: Scovillain
+|
+|-ability|p2b: Scovillain|Moody|boost
+|-boost|p2b: Scovillain|spd|2
+|-unboost|p2b: Scovillain|spa|1
+|upkeep
+|
+|t:|1783553223
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p1a: Charizard|Charizard, L50, M|100/100
+|turn|2
+|
+|t:|1783553242
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|detailschange|p2b: Scovillain|Scovillain-Mega, L50, F, shiny
+|-mega|p2b: Scovillain|Scovillain|Scovillainite
+|move|p2a: Sylveon|Detect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1a: Charizard|Heat Wave|p2a: Sylveon|[spread] p2b
+|-activate|p2a: Sylveon|move: Protect
+|-damage|p2b: Scovillain|5/100
+|-immune|p1a: Charizard
+|move|p1b: Basculegion|Last Respects|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|move|p2b: Scovillain|Giga Drain|p1b: Basculegion
+|-supereffective|p1b: Basculegion|1
+|-damage|p1b: Basculegion|54/100
+|-heal|p2b: Scovillain|33/100|[from] drain|[of] p1b: Basculegion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1783553260
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p2b: Scovillain|Rage Powder|p2b: Scovillain
+|-singleturn|p2b: Scovillain|move: Rage Powder
+|move|p1a: Charizard|Heat Wave|p2b: Scovillain|[spread] p2a,p2b
+|-resisted|p2a: Tyranitar|1
+|-damage|p2a: Tyranitar|85/100
+|-damage|p2b: Scovillain|10/100
+|-immune|p1a: Charizard
+|move|p1b: Basculegion|Last Respects|p2b: Scovillain
+|-damage|p2b: Scovillain|0 fnt
+|-status|p1b: Basculegion|brn|[from] ability: Spicy Spray|[of] p2b: Scovillain
+|faint|p2b: Scovillain
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|94/100|[from] Sandstorm
+|-damage|p1b: Basculegion|47/100 brn|[from] Sandstorm
+|-damage|p1b: Basculegion|41/100 brn|[from] brn
+|upkeep
+|
+|t:|1783553268
+|switch|p2b: Excadrill|Excadrill, L50, F|100/100
+|turn|4
+|
+|t:|1783553273
+|move|p1a: Charizard|Heat Wave|p2b: Excadrill|[spread] p2a,p2b
+|-resisted|p2a: Tyranitar|1
+|-supereffective|p2b: Excadrill|1
+|-damage|p2a: Tyranitar|73/100
+|-enditem|p2b: Excadrill|Focus Sash
+|-damage|p2b: Excadrill|1/100
+|move|p2b: Excadrill|High Horsepower|p1b: Basculegion
+|-damage|p1b: Basculegion|0 fnt
+|faint|p1b: Basculegion
+|move|p2a: Tyranitar|Rock Slide|p1a: Charizard|[miss]
+|-miss|p2a: Tyranitar|p1a: Charizard
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|88/100|[from] Sandstorm
+|-sideend|p1: NightshadeAI|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1783553277
+|move|p2b: Excadrill|Rock Slide|p1a: Charizard
+|-supereffective|p1a: Charizard|2
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|win|keahi
+||keahi is ready for game 3.
+|inactive|NightshadeAI has 30 seconds to confirm battle start!
+|inactive|NightshadeAI has 20 seconds to confirm battle start!
+|inactive|NightshadeAI has 10 seconds to confirm battle start!

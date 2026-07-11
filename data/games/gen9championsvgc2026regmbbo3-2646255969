@@ -1,0 +1,207 @@
+|j|☆Luck Bound Luxrays
+|j|☆bacooverlord
+|html|Luck Bound Luxraysbacooverlord    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783557286
+|gametype|doubles
+|player|p1|Luck Bound Luxrays|volkner|
+|player|p2|bacooverlord|2|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|raw|1 custom rule: !Force Open Team Sheets
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Oranguru, L50, M|
+|poke|p1|Houndoom, L50, F|
+|poke|p1|Golurk, L50, shiny|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p2|Gardevoir, L50, F, shiny|
+|poke|p2|Meowstic, L50, M|
+|poke|p2|Krookodile, L50, F|
+|poke|p2|Hydreigon, L50, M|
+|poke|p2|Trevenant, L50, M|
+|poke|p2|Slowking-Galar, L50, M|
+|teampreview|4
+|
+|t:|1783557363
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Algo|Golurk, L50, shiny|100/100
+|switch|p1b: Oranguru|Oranguru, L50, M|100/100
+|switch|p2a: Dundee|Krookodile, L50, F|100/100
+|switch|p2b: Dr. Nefario|Meowstic, L50, M|100/100
+|-ability|p2a: Dundee|Intimidate|boost
+|-unboost|p1a: Algo|atk|1
+|-fail|p1b: Oranguru|unboost|Attack|[from] ability: Inner Focus|[of] p1b: Oranguru
+|turn|1
+|
+|t:|1783557397
+|switch|p2b: Fraud|Hydreigon, L50, M|100/100
+|detailschange|p1a: Algo|Golurk-Mega, L50, shiny
+|-mega|p1a: Algo|Golurk|Golurkite
+|move|p2a: Dundee|Taunt|p1b: Oranguru
+|-start|p1b: Oranguru|move: Taunt
+|-enditem|p1b: Oranguru|Mental Herb
+|-end|p1b: Oranguru|move: Taunt
+|move|p1a: Algo|Drain Punch|p2a: Dundee
+|-supereffective|p2a: Dundee|1
+|-damage|p2a: Dundee|58/100
+|move|p1b: Oranguru|Trick Room|p1b: Oranguru
+|-fieldstart|move: Trick Room|[of] p1b: Oranguru
+|
+|upkeep
+|turn|2
+|
+|t:|1783557454
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Mr Snips|Trevenant, L50, M|100/100
+|-item|p1a: Algo|Golurkite|[from] ability: Frisk|[of] p2b: Mr Snips
+|-item|p1b: Sneasler|Payapa Berry|[from] ability: Frisk|[of] p2b: Mr Snips
+|move|p2a: Dundee|Protect|p2a: Dundee
+|-singleturn|p2a: Dundee|Protect
+|move|p1a: Algo|Drain Punch|p2a: Dundee
+|-supereffective|p2a: Dundee|1
+|-ability|p1a: Algo|Unseen Fist
+|-zbroken|p2a: Dundee
+|-damage|p2a: Dundee|48/100
+|
+|upkeep
+|turn|3
+|
+|t:|1783557486
+|switch|p2a: Dr. Nefario|Meowstic, L50, M|100/100
+|move|p1b: Sneasler|Protect|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Protect
+|move|p2b: Mr Snips|Will-O-Wisp|p1a: Algo|[miss]
+|-miss|p2b: Mr Snips|p1a: Algo
+|move|p1a: Algo|Poltergeist|p2b: Mr Snips
+|-activate|p2b: Mr Snips|move: Poltergeist|Iron Ball
+|-supereffective|p2b: Mr Snips|1
+|-damage|p2b: Mr Snips|25/100
+|
+|upkeep
+|turn|4
+|
+|t:|1783557531
+|move|p2a: Dr. Nefario|Fake Out|p1b: Sneasler
+|-damage|p1b: Sneasler|92/100
+|move|p2b: Mr Snips|Will-O-Wisp|p1a: Algo
+|-status|p1a: Algo|brn
+|move|p1a: Algo|Poltergeist|p2a: Dr. Nefario
+|-activate|p2a: Dr. Nefario|move: Poltergeist|Focus Sash
+|-supereffective|p2a: Dr. Nefario|1
+|-damage|p2a: Dr. Nefario|63/100
+|cant|p1b: Sneasler|flinch
+|
+|-damage|p1a: Algo|93/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1783557560
+|move|p1b: Sneasler|Protect|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Protect
+|move|p2b: Mr Snips|Horn Leech|p1a: Algo
+|-supereffective|p1a: Algo|1
+|-damage|p1a: Algo|50/100y brn
+|-heal|p2b: Mr Snips|47/100|[from] drain|[of] p1a: Algo
+|move|p1a: Algo|Poltergeist|p2b: Mr Snips
+|-activate|p2b: Mr Snips|move: Poltergeist|Iron Ball
+|-supereffective|p2b: Mr Snips|1
+|-damage|p2b: Mr Snips|12/100
+|move|p2a: Dr. Nefario|Psychic|p1b: Sneasler
+|-activate|p1b: Sneasler|move: Protect
+|
+|-damage|p1a: Algo|43/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1783557626
+|switch|p2a: Dundee|Krookodile, L50, F|48/100
+|-ability|p2a: Dundee|Intimidate|boost
+|-unboost|p1a: Algo|atk|1
+|-unboost|p1b: Sneasler|atk|1
+|switch|p1a: Houndoom|Houndoom, L50, F|100/100
+|-ability|p1a: Houndoom|Unnerve
+|move|p1b: Sneasler|Dire Claw|p2b: Mr Snips
+|-damage|p2b: Mr Snips|0 fnt
+|faint|p2b: Mr Snips
+|
+|upkeep
+|
+|t:|1783557638
+|switch|p2b: Fraud|Hydreigon, L50, M|100/100
+|turn|7
+|
+|t:|1783557684
+|move|p1a: Houndoom|Helping Hand|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Helping Hand|[of] p1a: Houndoom
+|move|p1b: Sneasler|Close Combat|p2b: Fraud
+|-supereffective|p2b: Fraud|1
+|-damage|p2b: Fraud|0 fnt
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|faint|p2b: Fraud
+|move|p2a: Dundee|Knock Off|p1b: Sneasler
+|-resisted|p1b: Sneasler|1
+|-crit|p1b: Sneasler
+|-damage|p1b: Sneasler|0 fnt
+|-enditem|p1b: Sneasler|Payapa Berry|[from] move: Knock Off|[of] p2a: Dundee
+|faint|p1b: Sneasler
+|-damage|p2a: Dundee|38/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1783557703
+|switch|p1b: Algo|Golurk-Mega, L50, shiny|43/100 brn
+|switch|p2b: Dr. Nefario|Meowstic, L50, M|63/100
+|turn|8
+|
+|t:|1783557730
+|move|p2b: Dr. Nefario|Fake Out|p1a: Houndoom
+|-damage|p1a: Houndoom|91/100
+|cant|p1a: Houndoom|flinch
+|move|p2a: Dundee|Knock Off|p1b: Algo
+|-supereffective|p1b: Algo|1
+|-damage|p1b: Algo|0 fnt
+|faint|p1b: Algo
+|-damage|p2a: Dundee|28/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1783557739
+|switch|p1b: Oranguru|Oranguru, L50, M|100/100
+|turn|9
+|
+|t:|1783557758
+|move|p1b: Oranguru|Protect|p1b: Oranguru
+|-singleturn|p1b: Oranguru|Protect
+|move|p2b: Dr. Nefario|Fake Tears|p1b: Oranguru
+|-activate|p1b: Oranguru|move: Protect
+|move|p1a: Houndoom|Dark Pulse|p2b: Dr. Nefario
+|-supereffective|p2b: Dr. Nefario|1
+|-damage|p2b: Dr. Nefario|0 fnt
+|faint|p2b: Dr. Nefario
+|move|p2a: Dundee|High Horsepower|p1a: Houndoom
+|-supereffective|p1a: Houndoom|1
+|-damage|p1a: Houndoom|0 fnt
+|faint|p1a: Houndoom
+|-damage|p2a: Dundee|18/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|t:|1783557773
+|move|p2a: Dundee|Knock Off|p1b: Oranguru
+|-supereffective|p1b: Oranguru|1
+|-damage|p1b: Oranguru|11/100
+|-damage|p2a: Dundee|8/100|[from] item: Life Orb
+|move|p1b: Oranguru|Hyper Voice|p2a: Dundee
+|-damage|p2a: Dundee|0 fnt
+|faint|p2a: Dundee
+|
+|win|Luck Bound Luxrays

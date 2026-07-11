@@ -1,0 +1,234 @@
+|j|☆Tempyies
+|j|☆keahi
+|html|Tempyieskeahi    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783552208
+|gametype|doubles
+|player|p1|Tempyies|101|1141
+|player|p2|keahi|giovanni|1143
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Mawile, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Milotic, L50, M|
+|poke|p2|Scovillain, L50, M, shiny|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Talonflame, L50, M|
+|poke|p2|Sylveon, L50, F, shiny|
+|poke|p2|Araquanid, L50, M|
+|teampreview|4
+|showteam|p1|Mawile||Mawilite|Intimidate|RockSlide,PlayRough,SuckerPunch,Protect|Brave||M|||50|]Torkoal||Charcoal|Drought|Eruption,HeatWave,SolarBeam,Protect|Quiet||F|||50|]Incineroar||ChopleBerry|Intimidate|FlareBlitz,FakeOut,DarkestLariat,PartingShot|Brave||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Protect,TrickRoom,Psychic,HyperVoice|Sassy||F|||50|]Charizard||CharizarditeY|Blaze|WeatherBall,HeatWave,SolarBeam,Protect|Modest||F|||50|]Milotic||Leftovers|Competitive|Scald,Recover,Coil,Hypnosis|Bold||M|||50|
+|showteam|p2|Scovillain||Scovillainite|Moody|Protect,GigaDrain,Flamethrower,RagePowder|Bold||M|||50|]Tyranitar||Tyranitarite|SandStream|RockSlide,Protect,Assurance,LowKick|Adamant||M|||50|]Excadrill||FocusSash|SandRush|HighHorsepower,IronHead,Protect,RockSlide|Adamant||F|||50|]Talonflame||SharpBeak|GaleWings|BraveBird,Tailwind,FlareBlitz,Protect|Jolly||M|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,Detect,QuickAttack,HyperBeam|Modest||F|||50|]Araquanid||MysticWater|WaterBubble|Liquidation,LeechLife,WideGuard,Protect|Careful||M|||50|
+|
+|t:|1783552257
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1b: Milotic|Milotic, L50, M|100/100
+|switch|p2a: Scovillain|Scovillain, L50, M, shiny|100/100
+|switch|p2b: Sylveon|Sylveon, L50, F, shiny|100/100
+|turn|1
+|
+|t:|1783552275
+|move|p1a: Farigiraf|Protect|p1a: Farigiraf
+|-singleturn|p1a: Farigiraf|Protect
+|move|p1b: Milotic|Coil|p1b: Milotic
+|-boost|p1b: Milotic|atk|1
+|-boost|p1b: Milotic|def|1
+|-boost|p1b: Milotic|accuracy|1
+|move|p2a: Scovillain|Giga Drain|p1b: Milotic
+|-supereffective|p1b: Milotic|1
+|-damage|p1b: Milotic|55/100
+|move|p2b: Sylveon|Hyper Beam|p1a: Farigiraf
+|-activate|p1a: Farigiraf|move: Protect
+|
+|-heal|p1b: Milotic|61/100|[from] item: Leftovers
+|-ability|p2a: Scovillain|Moody|boost
+|-boost|p2a: Scovillain|atk|2
+|-unboost|p2a: Scovillain|spd|1
+|upkeep
+|turn|2
+|
+|t:|1783552293
+|move|p2a: Scovillain|Rage Powder|p2a: Scovillain
+|-singleturn|p2a: Scovillain|move: Rage Powder
+|move|p1b: Milotic|Hypnosis|p2a: Scovillain
+|-status|p2a: Scovillain|slp|[from] move: Hypnosis
+|move|p2b: Sylveon|Hyper Beam|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|-mustrecharge|p2b: Sylveon
+|faint|p1a: Farigiraf
+|
+|-heal|p1b: Milotic|67/100|[from] item: Leftovers
+|-ability|p2a: Scovillain|Moody|boost
+|-boost|p2a: Scovillain|atk|2
+|-unboost|p2a: Scovillain|spa|1
+|upkeep
+|
+|t:|1783552307
+|switch|p1a: Mawile|Mawile, L50, M|100/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2a: Scovillain|atk|1
+|-unboost|p2b: Sylveon|atk|1
+|turn|3
+|
+|t:|1783552322
+|switch|p2a: Araquanid|Araquanid, L50, M|100/100
+|detailschange|p1a: Mawile|Mawile-Mega, L50, M
+|-mega|p1a: Mawile|Mawile|Mawilite
+|move|p1b: Milotic|Hypnosis|p2b: Sylveon
+|-status|p2b: Sylveon|slp|[from] move: Hypnosis
+|cant|p2b: Sylveon|recharge
+|move|p1a: Mawile|Rock Slide|p2a: Araquanid|[spread] p2a,p2b
+|-supereffective|p2a: Araquanid|1
+|-damage|p2a: Araquanid|21/100
+|-damage|p2b: Sylveon|51/100 slp
+|
+|-heal|p1b: Milotic|73/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1783552350
+|move|p2a: Araquanid|Protect|p2a: Araquanid
+|-singleturn|p2a: Araquanid|Protect
+|move|p1b: Milotic|Scald|p2a: Araquanid
+|-activate|p2a: Araquanid|move: Protect
+|cant|p2b: Sylveon|slp
+|move|p1a: Mawile|Play Rough|p2b: Sylveon
+|-damage|p2b: Sylveon|0 fnt
+|faint|p2b: Sylveon
+|
+|-heal|p1b: Milotic|79/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783552357
+|switch|p2b: Scovillain|Scovillain, L50, M, shiny|100/100 slp
+|turn|5
+|
+|t:|1783552396
+|detailschange|p2b: Scovillain|Scovillain-Mega, L50, M, shiny
+|-mega|p2b: Scovillain|Scovillain|Scovillainite
+|move|p2a: Araquanid|Protect|p2a: Araquanid
+|-singleturn|p2a: Araquanid|Protect
+|move|p1b: Milotic|Hypnosis|p2b: Scovillain|[miss]
+|-miss|p1b: Milotic|p2b: Scovillain
+|cant|p2b: Scovillain|slp
+|move|p1a: Mawile|Play Rough|p2a: Araquanid
+|-activate|p2a: Araquanid|move: Protect
+|
+|-heal|p1b: Milotic|85/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1783552413
+|move|p1a: Mawile|Protect|p1a: Mawile
+|-singleturn|p1a: Mawile|Protect
+|move|p1b: Milotic|Hypnosis|p2a: Araquanid|[miss]
+|-miss|p1b: Milotic|p2a: Araquanid
+|cant|p2b: Scovillain|slp
+|move|p2a: Araquanid|Liquidation|p1a: Mawile
+|-activate|p1a: Mawile|move: Protect
+|
+|-heal|p1b: Milotic|91/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1783552430
+|move|p1b: Milotic|Scald|p2b: Scovillain
+|-crit|p2b: Scovillain
+|-damage|p2b: Scovillain|57/100 slp
+|-status|p1b: Milotic|brn|[from] ability: Spicy Spray|[of] p2b: Scovillain
+|-curestatus|p2b: Scovillain|slp|[msg]
+|move|p2b: Scovillain|Giga Drain|p1b: Milotic
+|-supereffective|p1b: Milotic|1
+|-damage|p1b: Milotic|39/100 brn
+|-heal|p2b: Scovillain|87/100|[from] drain|[of] p1b: Milotic
+|move|p1a: Mawile|Rock Slide|p2b: Scovillain|[spread] p2a,p2b
+|-supereffective|p2a: Araquanid|1
+|-supereffective|p2b: Scovillain|1
+|-damage|p2a: Araquanid|0 fnt
+|-damage|p2b: Scovillain|18/100
+|-status|p1a: Mawile|brn|[from] ability: Spicy Spray|[of] p2b: Scovillain
+|faint|p2a: Araquanid
+|
+|-heal|p1b: Milotic|45/100 brn|[from] item: Leftovers
+|-damage|p1b: Milotic|39/100 brn|[from] brn
+|-damage|p1a: Mawile|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1783552442
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|8
+|
+|t:|1783552459
+|move|p1b: Milotic|Hypnosis|p2a: Tyranitar
+|-status|p2a: Tyranitar|slp|[from] move: Hypnosis
+|move|p2b: Scovillain|Giga Drain|p1b: Milotic
+|-supereffective|p1b: Milotic|1
+|-damage|p1b: Milotic|0 fnt
+|-heal|p2b: Scovillain|41/100|[from] drain|[of] p1b: Milotic
+|faint|p1b: Milotic
+|cant|p2a: Tyranitar|slp
+|move|p1a: Mawile|Rock Slide|p2a: Tyranitar|[spread] p2a,p2b
+|-supereffective|p2b: Scovillain|1
+|-damage|p2a: Tyranitar|84/100 slp
+|-damage|p2b: Scovillain|8/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Scovillain|2/100|[from] Sandstorm
+|-damage|p1a: Mawile|88/100 brn|[from] brn
+|upkeep
+|
+|t:|1783552464
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|9
+|
+|t:|1783552481
+|move|p1a: Mawile|Protect|p1a: Mawile
+|-singleturn|p1a: Mawile|Protect
+|move|p2b: Scovillain|Flamethrower|p1a: Mawile
+|-activate|p1a: Mawile|move: Protect
+|cant|p2a: Tyranitar|slp
+|move|p1b: Torkoal|Heat Wave|p2b: Scovillain|[spread] p2a,p2b
+|-resisted|p2a: Tyranitar|1
+|-damage|p2a: Tyranitar|62/100 slp
+|-damage|p2b: Scovillain|0 fnt
+|-immune|p1b: Torkoal
+|faint|p2b: Scovillain
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Mawile|82/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1783552487
+|-curestatus|p2a: Tyranitar|slp|[msg]
+|move|p2a: Tyranitar|Rock Slide|p1b: Torkoal|[spread] p1a,p1b
+|-resisted|p1a: Mawile|1
+|-supereffective|p1b: Torkoal|1
+|-damage|p1a: Mawile|68/100 brn
+|-damage|p1b: Torkoal|49/100
+|move|p1a: Mawile|Play Rough|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar|1
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|win|Tempyies
+|l|☆Tempyies
+|player|p1|
+|inactive|Tempyies has 30 seconds to confirm battle start!
+|inactive|keahi has 30 seconds to confirm battle start!
+||Tempyies is ready for game 2.
+||keahi is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

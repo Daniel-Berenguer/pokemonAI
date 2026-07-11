@@ -1,0 +1,133 @@
+|j|☆II Nydalos II
+|j|☆maksimilian123
+|html|II Nydalos IImaksimilian123    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783635476
+|gametype|doubles
+|player|p1|II Nydalos II|101|1049
+|player|p2|maksimilian123|266|1044
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Raichu, L50, F|
+|poke|p1|Feraligatr, L50, F|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Decidueye-Hisui, L50, M|
+|poke|p1|Volcarona, L50, F|
+|poke|p2|Gardevoir, L50, M|
+|poke|p2|Talonflame, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Vileplume, L50, M|
+|poke|p2|Rotom-Wash, L50|
+|poke|p2|Garchomp, L50, F|
+|teampreview|4
+|showteam|p1|Kingambit||OccaBerry|Defiant|KowtowCleave,SuckerPunch,IronHead,Protect|Adamant||F|||50|]Raichu||RaichuniteY|LightningRod|ZapCannon,FocusBlast,FakeOut,Protect|Timid||F|||50|]Feraligatr||Feraligite|SheerForce|Liquidation,DoubleEdge,AquaJet,Protect|Jolly||F|||50|]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,FreezeDry,AuroraVeil,Protect|Serious||F|||50|]Decidueye-Hisui||ScopeLens|Scrappy|TripleArrows,LeafBlade,BraveBird,Protect|Adamant||M|||50|]Volcarona||Leftovers|FlameBody|Overheat,RagePowder,Tailwind,Protect|Timid||F|||50|
+|showteam|p2|Gardevoir||Gardevoirite|Synchronize|HyperVoice,Psychic,EnergyBall,CalmMind|Timid||M|||50|]Talonflame||FocusSash|GaleWings|Tailwind,Protect,FlareBlitz,BraveBird|Adamant||M|||50|]Torkoal||Charcoal|Drought|Eruption,Yawn,Protect,SolarBeam|Modest||M|||50|]Vileplume||SitrusBerry|Chlorophyll|SolarBeam,SleepPowder,AfterYou,PollenPuff|Timid||M|||50|]Rotom-Wash||ChoiceScarf|Levitate|Electroweb,Trick,VoltSwitch,HydroPump|Timid|||||50|]Garchomp||LifeOrb|RoughSkin|RockSlide,Earthquake,DragonClaw,Protect|Jolly||F|||50|
+|
+|t:|1783635505
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p1b: Feraligatr|Feraligatr, L50, F|100/100
+|switch|p2a: Vileplume|Vileplume, L50, M|100/100
+|switch|p2b: Gardevoir|Gardevoir, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|1
+|
+|t:|1783635519
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|move|p2a: Vileplume|Sleep Powder|p1b: Feraligatr
+|-status|p1b: Feraligatr|slp|[from] move: Sleep Powder
+|move|p1a: Ninetales|Blizzard|p2a: Vileplume|[spread] p2a,p2b
+|-supereffective|p2a: Vileplume|1
+|-resisted|p2b: Torkoal|1
+|-damage|p2a: Vileplume|27/100
+|-damage|p2b: Torkoal|77/100
+|-enditem|p2a: Vileplume|Sitrus Berry|[eat]
+|-heal|p2a: Vileplume|52/100|[from] item: Sitrus Berry
+|cant|p1b: Feraligatr|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1783635546
+|move|p2a: Vileplume|Sleep Powder|p1a: Ninetales
+|-status|p1a: Ninetales|slp|[from] move: Sleep Powder
+|cant|p1a: Ninetales|slp
+|cant|p1b: Feraligatr|slp
+|move|p2b: Torkoal|Eruption|p1a: Ninetales|[spread] p1a,p1b
+|-supereffective|p1a: Ninetales|1
+|-resisted|p1b: Feraligatr|1
+|-enditem|p1a: Ninetales|Focus Sash
+|-damage|p1a: Ninetales|1/100 slp
+|-damage|p1b: Feraligatr|57/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1783635554
+|move|p2a: Vileplume|Solar Beam||[still]
+|-prepare|p2a: Vileplume|Solar Beam
+|-anim|p2a: Vileplume|Solar Beam|p1b: Feraligatr
+|-supereffective|p1b: Feraligatr|1
+|-damage|p1b: Feraligatr|0 fnt
+|faint|p1b: Feraligatr
+|cant|p1a: Ninetales|slp
+|move|p2b: Torkoal|Eruption|p1a: Ninetales
+|-supereffective|p1a: Ninetales|1
+|-damage|p1a: Ninetales|0 fnt
+|faint|p1a: Ninetales
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783635558
+|switch|p1a: Raichu|Raichu, L50, F|100/100
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100
+|turn|4
+|
+|t:|1783635567
+|move|p1a: Raichu|Protect|p1a: Raichu
+|-singleturn|p1a: Raichu|Protect
+|move|p2a: Vileplume|Sleep Powder|p1b: Kingambit
+|-status|p1b: Kingambit|slp|[from] move: Sleep Powder
+|cant|p1b: Kingambit|slp
+|move|p2b: Torkoal|Eruption|p1b: Kingambit|[spread] p1b
+|-activate|p1a: Raichu|move: Protect
+|-supereffective|p1b: Kingambit|1
+|-crit|p1b: Kingambit
+|-enditem|p1b: Kingambit|Occa Berry|[eat]
+|-enditem|p1b: Kingambit|Occa Berry|[weaken]
+|-damage|p1b: Kingambit|6/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1783635581
+|detailschange|p1a: Raichu|Raichu-Mega-Y, L50, F
+|-mega|p1a: Raichu|Raichu|Raichunite Y
+|move|p2a: Vileplume|Sleep Powder|p1a: Raichu
+|-status|p1a: Raichu|slp|[from] move: Sleep Powder
+|cant|p1a: Raichu|slp
+|-curestatus|p1b: Kingambit|slp|[msg]
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|move|p2b: Torkoal|Eruption|p1b: Kingambit|[spread] p1a,p1b
+|-supereffective|p1b: Kingambit|1
+|-damage|p1a: Raichu|0 fnt
+|-damage|p1b: Kingambit|0 fnt
+|faint|p1a: Raichu
+|faint|p1b: Kingambit
+|
+|win|maksimilian123
+||maksimilian123 is ready for game 2.

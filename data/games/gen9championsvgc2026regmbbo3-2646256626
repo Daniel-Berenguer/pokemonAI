@@ -1,0 +1,180 @@
+|j|☆AtomicTwilight
+|j|☆horseki
+|html|AtomicTwilighthorseki    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783557393
+|gametype|doubles
+|player|p1|AtomicTwilight|265|
+|player|p2|horseki|clerkf|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Greninja, L50, M|
+|poke|p1|Slowking-Galar, L50, M|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Rotom-Frost, L50|
+|poke|p1|Krookodile, L50, F|
+|poke|p1|Klefki, L50, F|
+|poke|p2|Krookodile, L50, F|
+|poke|p2|Gengar, L50, F|
+|poke|p2|Rotom-Mow, L50|
+|poke|p2|Salazzle, L50, F|
+|poke|p2|Barbaracle, L50, F|
+|poke|p2|Empoleon, L50, F|
+|teampreview|4
+|showteam|p1|Greninja||Greninjite|Protean|Blizzard,DarkPulse,Extrasensory,Protect|Modest||M|||50|]Slowking-Galar||Leftovers|Regenerator|ChillyReception,Protect,Toxic,ChillingWater|Calm||M|||50|]Floette-Eternal||FairyFeather|FlowerVeil|DazzlingGleam,LightofRuin,Moonblast,Protect|Timid||F|||50|]Rotom-Frost||ChoiceScarf|Levitate|VoltSwitch,Electroweb,Discharge,Blizzard|Timid|||||50|]Krookodile||LifeOrb|Intimidate|Earthquake,KnockOff,CloseCombat,Protect|Jolly||F|||50|]Klefki||LightClay|Prankster|Reflect,LightScreen,ThunderWave,DazzlingGleam|Bold||F|||50|
+|showteam|p2|Krookodile||LifeOrb|Intimidate|Crunch,HighHorsepower,Taunt,Protect|Adamant||F|||50|]Gengar||FocusSash|CursedBody|IcyWind,ShadowBall,SludgeBomb,Protect|Hasty||F|||50|]Rotom-Mow||OccaBerry|Levitate|Thunderbolt,LeafStorm,Protect,HelpingHand|Modest|||||50|]Salazzle||WideLens|Oblivious|HeatWave,SludgeBomb,FakeOut,Protect|Hasty||F|||50|]Barbaracle||WhiteHerb|ToughClaws|ShellSmash,Liquidation,RockSlide,Protect|Adamant||F|||50|]Empoleon||Leftovers|Competitive|HydroPump,FlashCannon,IceBeam,Protect|Modest||F|||50|
+|
+|t:|1783557417
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rotom|Rotom-Frost, L50|100/100
+|switch|p1b: Slowking|Slowking-Galar, L50, M|100/100
+|switch|p2a: Salazzle|Salazzle, L50, F|100/100
+|switch|p2b: Barbaracle|Barbaracle, L50, F|100/100
+|turn|1
+|
+|t:|1783557450
+|move|p1b: Slowking|Protect|p1b: Slowking
+|-singleturn|p1b: Slowking|Protect
+|move|p2a: Salazzle|Fake Out|p1a: Rotom
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|86/100
+|cant|p1a: Rotom|flinch
+|move|p2b: Barbaracle|Shell Smash|p2b: Barbaracle
+|-unboost|p2b: Barbaracle|def|1
+|-unboost|p2b: Barbaracle|spd|1
+|-boost|p2b: Barbaracle|atk|2
+|-boost|p2b: Barbaracle|spa|2
+|-boost|p2b: Barbaracle|spe|2
+|-enditem|p2b: Barbaracle|White Herb
+|-clearnegativeboost|p2b: Barbaracle|[silent]
+|
+|upkeep
+|turn|2
+|
+|t:|1783557472
+|switch|p1b: Krookodile|Krookodile, L50, F|100/100
+|-ability|p1b: Krookodile|Intimidate|boost
+|-fail|p2a: Salazzle|unboost|Attack|[from] ability: Oblivious|[of] p2a: Salazzle
+|-unboost|p2b: Barbaracle|atk|1
+|move|p1a: Rotom|Electroweb|p2b: Barbaracle|[spread] p2a,p2b
+|-supereffective|p2b: Barbaracle|1
+|-damage|p2a: Salazzle|66/100
+|-damage|p2b: Barbaracle|56/100
+|-unboost|p2a: Salazzle|spe|1
+|-unboost|p2b: Barbaracle|spe|1
+|move|p2b: Barbaracle|Rock Slide|p1b: Krookodile|[spread] p1a,p1b
+|-supereffective|p1a: Rotom|1
+|-resisted|p1b: Krookodile|1
+|-damage|p1a: Rotom|0 fnt
+|-damage|p1b: Krookodile|72/100
+|faint|p1a: Rotom
+|move|p2a: Salazzle|Heat Wave|p1b: Krookodile
+|-damage|p1b: Krookodile|9/100
+|
+|upkeep
+|
+|t:|1783557487
+|switch|p1a: Greninja|Greninja, L50, M|100/100
+|turn|3
+|
+|t:|1783557519
+|switch|p1b: Slowking|Slowking-Galar, L50, M|100/100
+|move|p1a: Greninja|Protect|p1a: Greninja
+|-start|p1a: Greninja|typechange|Normal|[from] ability: Protean
+|-singleturn|p1a: Greninja|Protect
+|move|p2b: Barbaracle|Rock Slide|p1b: Slowking|[spread] p1b
+|-activate|p1a: Greninja|move: Protect
+|-damage|p1b: Slowking|53/100
+|move|p2a: Salazzle|Sludge Bomb|p1a: Greninja
+|-activate|p1a: Greninja|move: Protect
+|
+|-heal|p1b: Slowking|59/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1783557538
+|switch|p1a: Krookodile|Krookodile, L50, F|9/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-fail|p2a: Salazzle|unboost|Attack|[from] ability: Oblivious|[of] p2a: Salazzle
+|-unboost|p2b: Barbaracle|atk|1
+|move|p2b: Barbaracle|Protect|p2b: Barbaracle
+|-singleturn|p2b: Barbaracle|Protect
+|move|p2a: Salazzle|Heat Wave|p1a: Krookodile|[spread] p1a,p1b
+|-damage|p1a: Krookodile|0 fnt
+|-damage|p1b: Slowking|40/100
+|faint|p1a: Krookodile
+|move|p1b: Slowking|Toxic|p2b: Barbaracle
+|-activate|p2b: Barbaracle|move: Protect
+|
+|-heal|p1b: Slowking|46/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783557546
+|switch|p1a: Greninja|Greninja, L50, M|100/100
+|turn|5
+|
+|t:|1783557590
+|move|p1a: Greninja|Extrasensory|p2a: Salazzle
+|-start|p1a: Greninja|typechange|Psychic|[from] ability: Protean
+|-supereffective|p2a: Salazzle|1
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|move|p2b: Barbaracle|Rock Slide|p1b: Slowking|[spread] p1a
+|-miss|p2b: Barbaracle|p1b: Slowking
+|-damage|p1a: Greninja|55/100
+|-prepare|p1b: Slowking|Chilly Reception|[premajor]
+|move|p1b: Slowking|Chilly Reception|p1b: Slowking
+|-weather|Snowscape
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Slowking|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783557611
+|switch|p2a: Gengar|Gengar, L50, F|100/100
+|turn|6
+|
+|t:|1783557628
+|detailschange|p1a: Greninja|Greninja-Mega, L50, M
+|-mega|p1a: Greninja|Greninja|Greninjite
+|move|p1a: Greninja|Blizzard|p2a: Gengar|[spread] p2a,p2b
+|-start|p1a: Greninja|typechange|Ice|[from] ability: Protean
+|-resisted|p2b: Barbaracle|1
+|-damage|p2a: Gengar|12/100
+|-damage|p2b: Barbaracle|28/100
+|move|p2a: Gengar|Shadow Ball|p1b: Slowking
+|-supereffective|p1b: Slowking|1
+|-damage|p1b: Slowking|6/100
+|move|p2b: Barbaracle|Liquidation|p1a: Greninja
+|-damage|p1a: Greninja|2/100
+|move|p1b: Slowking|Chilling Water|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|-start|p1b: Slowking|Disable|Chilling Water|[from] ability: Cursed Body|[of] p2a: Gengar
+|faint|p2a: Gengar
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Slowking|12/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783557643
+|switch|p2a: Krookodile|Krookodile, L50, F|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-unboost|p1a: Greninja|atk|1
+|-unboost|p1b: Slowking|atk|1
+|turn|7
+|
+|t:|1783557656
+|move|p1a: Greninja|Blizzard|p2a: Krookodile|[spread] p2a,p2b
+|-supereffective|p2a: Krookodile|1
+|-resisted|p2b: Barbaracle|1
+|-damage|p2a: Krookodile|0 fnt
+|-damage|p2b: Barbaracle|0 fnt
+|faint|p2a: Krookodile
+|faint|p2b: Barbaracle
+|
+|win|AtomicTwilight

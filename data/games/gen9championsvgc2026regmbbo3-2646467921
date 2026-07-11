@@ -1,0 +1,122 @@
+|j|☆rafa0145
+|j|☆Xxxxcvvvc
+|html|rafa0145Xxxxcvvvc    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783598093
+|gametype|doubles
+|player|p1|rafa0145|101|1088
+|player|p2|Xxxxcvvvc|169|1031
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Aerodactyl, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Pyroar, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Vileplume, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Tinkaton, L50, F|
+|poke|p2|Hydreigon, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|SolarPower|Protect,HeatWave,SolarBeam,WeatherBall|Modest||M|||50|]Kingambit||FocusSash|Defiant|IronHead,SuckerPunch,KowtowCleave,LowKick|Adamant||F|||50|]Sylveon||FairyFeather|Pixilate|Detect,HyperVoice,HyperBeam,QuickAttack|Modest||M|||50|]Garchomp||LifeOrb|RoughSkin|Protect,DragonClaw,Earthquake,RockSlide|Jolly||F|||50|]Aerodactyl||Aerodactylite|Unnerve|IceFang,RockSlide,Tailwind,DualWingbeat|Jolly||M|||50|]Farigiraf||SitrusBerry|ArmorTail|TrickRoom,Psychic,Thunderbolt,Protect|Bold||M|||50|
+|showteam|p2|Pyroar||Pyroarite|Unnerve|HeatWave,FireBlast,SolarBeam,Protect|Timid||F|||50|]Torkoal||Charcoal|Drought|WeatherBall,Eruption,Yawn,Protect|Quiet||F|||50|]Vileplume||FocusSash|Chlorophyll|SolarBeam,SludgeBomb,AfterYou,Protect|Timid||F|||50|]Farigiraf||SitrusBerry|ArmorTail|TwinBeam,Thunderbolt,HelpingHand,TrickRoom|Relaxed||M|||50|]Tinkaton||ShucaBerry|OwnTempo|GigatonHammer,Encore,HelpingHand,FakeOut|Adamant||F|||50|]Hydreigon||WhiteHerb|Levitate|DracoMeteor,DarkPulse,EarthPower,Protect|Modest||M|||50|
+|
+|t:|1783598119
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, L50, M|100/100
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|switch|p2b: Vileplume|Vileplume, L50, F|100/100
+|-ability|p1a: Aerodactyl|Unnerve
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1783598139
+|detailschange|p1a: Aerodactyl|Aerodactyl-Mega, L50, M
+|-mega|p1a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p2b: Vileplume|After You|p2a: Torkoal
+|-activate|p2a: Torkoal|move: After You
+|move|p2a: Torkoal|Eruption|p1a: Aerodactyl|[spread] p1a,p1b
+|-resisted|p1a: Aerodactyl|1
+|-resisted|p1b: Garchomp|1
+|-damage|p1a: Aerodactyl|62/100
+|-damage|p1b: Garchomp|60/100
+|move|p1a: Aerodactyl|Rock Slide|p2b: Vileplume|[spread] p2a,p2b
+|-supereffective|p2a: Torkoal|1
+|-damage|p2a: Torkoal|55/100
+|-damage|p2b: Vileplume|64/100
+|move|p1b: Garchomp|Earthquake|p2b: Vileplume|[spread] p2a,p2b
+|-immune|p1a: Aerodactyl
+|-supereffective|p2a: Torkoal|1
+|-damage|p2a: Torkoal|0 fnt
+|-damage|p2b: Vileplume|0 fnt
+|faint|p2a: Torkoal
+|faint|p2b: Vileplume
+|-damage|p1b: Garchomp|50/100g|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783598160
+|switch|p2b: Pyroar|Pyroar, L50, F|100/100
+|switch|p2a: Tinkaton|Tinkaton, L50, F|100/100
+|-ability|p2b: Pyroar|Unnerve
+|turn|2
+|
+|t:|1783598174
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|detailschange|p2b: Pyroar|Pyroar-Mega, L50, F
+|-mega|p2b: Pyroar|Pyroar|Pyroarite
+|move|p2a: Tinkaton|Fake Out||[still]
+|cant|p1a: Farigiraf|ability: Armor Tail|Fake Out|[of] p2a: Tinkaton
+|move|p2b: Pyroar|Heat Wave|p1a: Farigiraf|[spread] p1a,p1b
+|-resisted|p1b: Garchomp|1
+|-damage|p1a: Farigiraf|18/100
+|-damage|p1b: Garchomp|1/100
+|-enditem|p1a: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1a: Farigiraf|43/100|[from] item: Sitrus Berry
+|move|p1b: Garchomp|Earthquake|p2a: Tinkaton|[spread] p1a,p2a,p2b
+|-supereffective|p2a: Tinkaton|1
+|-enditem|p2a: Tinkaton|Shuca Berry|[eat]
+|-enditem|p2a: Tinkaton|Shuca Berry|[weaken]
+|-supereffective|p2b: Pyroar|1
+|-damage|p1a: Farigiraf|5/100
+|-damage|p2a: Tinkaton|48/100
+|-damage|p2b: Pyroar|0 fnt
+|faint|p2b: Pyroar
+|-damage|p1b: Garchomp|0 fnt|[from] item: Life Orb
+|faint|p1b: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783598189
+|switch|p1b: Aerodactyl|Aerodactyl-Mega, L50, M|62/100
+|turn|3
+|
+|t:|1783598202
+|move|p1b: Aerodactyl|Dual Wingbeat|p2a: Tinkaton
+|-resisted|p2a: Tinkaton|1
+|-damage|p2a: Tinkaton|36/100
+|-resisted|p2a: Tinkaton|1
+|-damage|p2a: Tinkaton|24/100
+|-hitcount|p2a: Tinkaton|2
+|move|p2a: Tinkaton|Gigaton Hammer|p1b: Aerodactyl
+|-supereffective|p1b: Aerodactyl|1
+|-damage|p1b: Aerodactyl|0 fnt
+|faint|p1b: Aerodactyl
+|move|p1a: Farigiraf|Thunderbolt|p2a: Tinkaton
+|-crit|p2a: Tinkaton
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|
+|win|rafa0145

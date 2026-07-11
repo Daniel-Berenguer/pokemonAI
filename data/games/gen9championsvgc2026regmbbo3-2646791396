@@ -1,0 +1,182 @@
+|j|☆xanian7
+|j|☆brush44
+|html|xanian7brush44    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783641853
+|gametype|doubles
+|player|p1|xanian7|101|
+|player|p2|brush44|102|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Aerodactyl, L50, F, shiny|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Typhlosion-Hisui, L50, F|
+|poke|p1|Rotom-Wash, L50, shiny|
+|poke|p1|Tinkaton, L50, F, shiny|
+|poke|p1|Sceptile, L50, F, shiny|
+|poke|p2|Noivern, L50, F, shiny|
+|poke|p2|Staraptor, L50, F, shiny|
+|poke|p2|Arcanine, L50, M|
+|poke|p2|Araquanid, L50, F, shiny|
+|poke|p2|Metagross, L50, shiny|
+|poke|p2|Grimmsnarl, L50, M, shiny|
+|teampreview|4
+|showteam|p1|Aerodactyl||FocusSash|Unnerve|DualWingbeat,RockSlide,Tailwind,Protect|Jolly||F|||50|]Gholdengo||LifeOrb|GoodasGold|NastyPlot,ShadowBall,MakeItRain,Protect|Modest|||||50|]Typhlosion-Hisui||ChoiceScarf|Blaze|Eruption,HeatWave,ShadowBall,Flamethrower|Modest||F|||50|]Rotom-Wash||SitrusBerry|Levitate|Discharge,HydroPump,ThunderWave,WillOWisp|Bold|||||50|]Tinkaton||ChopleBerry|OwnTempo|BrickBreak,GigatonHammer,FakeOut,PlayRough|Adamant||F|||50|]Sceptile||Sceptilite|Overgrow|DragonPulse,EarthPower,EnergyBall,Detect|Modest||F|||50|
+|showteam|p2|Noivern||FocusSash|Telepathy|Tailwind,DracoMeteor,AirSlash,Flamethrower|Timid||F|||50|]Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,DualWingbeat,Protect|Jolly||F|||50|]Arcanine||ChoiceScarf|Intimidate|BurnUp,Protect,HeatWave,Crunch|Timid||M|||50|]Araquanid||Leftovers|WaterBubble|Infestation,StickyWeb,Liquidation,Protect|Impish||F|||50|]Metagross||Metagrossite|ClearBody|BulletPunch,Protect,PsychicFangs,IronHead|Jolly|||||50|]Grimmsnarl||LightClay|Prankster|PartingShot,FakeOut,SuckerPunch,LightScreen|Adamant||M|||50|
+|
+|t:|1783641955
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, L50, F, shiny|100/100
+|switch|p1b: Tinkaton|Tinkaton, L50, F, shiny|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|switch|p2b: Arcanine|Arcanine, L50, M|100/100
+|-ability|p1a: Aerodactyl|Unnerve
+|-ability|p2b: Arcanine|Intimidate|boost
+|-unboost|p1a: Aerodactyl|atk|1
+|-fail|p1b: Tinkaton|unboost|Attack|[from] ability: Own Tempo|[of] p1b: Tinkaton
+|turn|1
+|
+|t:|1783642043
+|move|p1b: Tinkaton|Fake Out|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|85/100
+|cant|p2a: Grimmsnarl|flinch
+|move|p2b: Arcanine|Burn Up|p1b: Tinkaton
+|-supereffective|p1b: Tinkaton|1
+|-damage|p1b: Tinkaton|0 fnt
+|-start|p2b: Arcanine|typechange|???|[from] move: Burn Up
+|faint|p1b: Tinkaton
+|move|p1a: Aerodactyl|Tailwind|p1a: Aerodactyl
+|-sidestart|p1: xanian7|move: Tailwind
+|
+|upkeep
+|
+|t:|1783642058
+|switch|p1b: Sceptile|Sceptile, L50, F, shiny|100/100
+|turn|2
+|
+|t:|1783642091
+|detailschange|p1b: Sceptile|Sceptile-Mega, L50, F, shiny
+|-mega|p1b: Sceptile|Sceptile|Sceptilite
+|move|p2a: Grimmsnarl|Sucker Punch|p1b: Sceptile
+|-damage|p1b: Sceptile|40/100
+|move|p1a: Aerodactyl|Rock Slide|p2b: Arcanine|[spread] p2a,p2b
+|-damage|p2a: Grimmsnarl|66/100
+|-damage|p2b: Arcanine|77/100
+|move|p1b: Sceptile|Earth Power|p2b: Arcanine
+|-damage|p2b: Arcanine|28/100
+|move|p2b: Arcanine|Burn Up||[still]
+|-fail|p2b: Arcanine|move: Burn Up
+|
+|upkeep
+|turn|3
+|
+|t:|1783642142
+|switch|p2b: Staraptor|Staraptor, L50, F, shiny|100/100
+|-ability|p2b: Staraptor|Intimidate|boost
+|-unboost|p1a: Aerodactyl|atk|1
+|-unboost|p1b: Sceptile|atk|1
+|move|p1b: Sceptile|Detect|p1b: Sceptile
+|-singleturn|p1b: Sceptile|Protect
+|move|p2a: Grimmsnarl|Parting Shot|p1b: Sceptile
+|-activate|p1b: Sceptile|move: Protect
+|move|p1a: Aerodactyl|Rock Slide|p2b: Staraptor|[spread] p2a,p2b
+|-supereffective|p2b: Staraptor|1
+|-damage|p2a: Grimmsnarl|48/100
+|-damage|p2b: Staraptor|62/100
+|
+|upkeep
+|turn|4
+|
+|t:|1783642191
+|switch|p1a: Typhlosion|Typhlosion-Hisui, L50, F|100/100
+|detailschange|p2b: Staraptor|Staraptor-Mega, L50, F, shiny
+|-mega|p2b: Staraptor|Staraptor|Staraptite
+|move|p2a: Grimmsnarl|Parting Shot|p2b: Staraptor
+|-boost|p2b: Staraptor|atk|1
+|-boost|p2b: Staraptor|spa|1
+|
+|t:|1783642198
+|switch|p2a: Arcanine|Arcanine, L50, M|28/100|[from] Parting Shot
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Typhlosion|atk|1
+|-unboost|p1b: Sceptile|atk|1
+|move|p1b: Sceptile|Dragon Pulse|p2a: Arcanine
+|-damage|p2a: Arcanine|0 fnt
+|faint|p2a: Arcanine
+|move|p2b: Staraptor|Close Combat|p1a: Typhlosion
+|-immune|p1a: Typhlosion
+|
+|-sideend|p1: xanian7|move: Tailwind
+|upkeep
+|
+|t:|1783642208
+|switch|p2a: Araquanid|Araquanid, L50, F, shiny|100/100
+|turn|5
+|
+|t:|1783642254
+|move|p2b: Staraptor|Protect|p2b: Staraptor
+|-singleturn|p2b: Staraptor|Protect
+|move|p1a: Typhlosion|Shadow Ball|p2b: Staraptor
+|-activate|p2b: Staraptor|move: Protect
+|move|p1b: Sceptile|Energy Ball|p2a: Araquanid
+|-damage|p2a: Araquanid|52/100
+|move|p2a: Araquanid|Liquidation|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion|1
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|
+|-heal|p2a: Araquanid|58/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783642267
+|switch|p1a: Aerodactyl|Aerodactyl, L50, F, shiny|100/100
+|-ability|p1a: Aerodactyl|Unnerve
+|turn|6
+|
+|t:|1783642293
+|move|p1a: Aerodactyl|Rock Slide|p2b: Staraptor|[spread] p2b
+|-miss|p1a: Aerodactyl|p2a: Araquanid
+|-damage|p2b: Staraptor|34/100
+|move|p1b: Sceptile|Dragon Pulse|p2b: Staraptor
+|-damage|p2b: Staraptor|0 fnt
+|faint|p2b: Staraptor
+|move|p2a: Araquanid|Liquidation|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl|1
+|-enditem|p1a: Aerodactyl|Focus Sash
+|-damage|p1a: Aerodactyl|1/100
+|
+|-heal|p2a: Araquanid|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783642306
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M, shiny|48/100
+|turn|7
+|
+|t:|1783642355
+|move|p2b: Grimmsnarl|Sucker Punch|p1b: Sceptile
+|-damage|p1b: Sceptile|0 fnt
+|faint|p1b: Sceptile
+|move|p1a: Aerodactyl|Rock Slide|p2a: Araquanid|[spread] p2a,p2b
+|-supereffective|p2a: Araquanid|1
+|-damage|p2a: Araquanid|6/100
+|-damage|p2b: Grimmsnarl|19/100
+|cant|p2a: Araquanid|flinch
+|
+|-heal|p2a: Araquanid|12/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1783642368
+|move|p2b: Grimmsnarl|Sucker Punch|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|win|brush44
+||brush44 is ready for game 2.
+||xanian7 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

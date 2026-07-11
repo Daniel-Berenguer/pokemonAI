@@ -1,0 +1,238 @@
+|j|☆xanian7
+|j|☆brush44
+|html|xanian7brush44    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1783642910
+|gametype|doubles
+|player|p1|xanian7|101|
+|player|p2|brush44|102|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Aerodactyl, L50, F, shiny|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Typhlosion-Hisui, L50, F|
+|poke|p1|Rotom-Wash, L50, shiny|
+|poke|p1|Tinkaton, L50, F, shiny|
+|poke|p1|Sceptile, L50, F, shiny|
+|poke|p2|Noivern, L50, M, shiny|
+|poke|p2|Staraptor, L50, F, shiny|
+|poke|p2|Arcanine, L50, M|
+|poke|p2|Araquanid, L50, F, shiny|
+|poke|p2|Metagross, L50, shiny|
+|poke|p2|Grimmsnarl, L50, M, shiny|
+|teampreview|4
+|showteam|p1|Aerodactyl||FocusSash|Unnerve|DualWingbeat,RockSlide,Tailwind,Protect|Jolly||F|||50|]Gholdengo||LifeOrb|GoodasGold|NastyPlot,ShadowBall,MakeItRain,Protect|Modest|||||50|]Typhlosion-Hisui||ChoiceScarf|Blaze|Eruption,HeatWave,ShadowBall,Flamethrower|Modest||F|||50|]Rotom-Wash||SitrusBerry|Levitate|Discharge,HydroPump,ThunderWave,WillOWisp|Bold|||||50|]Tinkaton||ChopleBerry|OwnTempo|BrickBreak,GigatonHammer,FakeOut,PlayRough|Adamant||F|||50|]Sceptile||Sceptilite|Overgrow|DragonPulse,EarthPower,EnergyBall,Detect|Modest||F|||50|
+|showteam|p2|Noivern||FocusSash|Telepathy|Tailwind,DracoMeteor,AirSlash,Flamethrower|Timid||M|||50|]Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,DualWingbeat,Protect|Jolly||F|||50|]Arcanine||ChoiceScarf|Intimidate|BurnUp,Protect,HeatWave,Crunch|Timid||M|||50|]Araquanid||Leftovers|WaterBubble|Infestation,StickyWeb,Liquidation,Protect|Impish||F|||50|]Metagross||Metagrossite|ClearBody|BulletPunch,Protect,PsychicFangs,IronHead|Jolly|||||50|]Grimmsnarl||LightClay|Prankster|PartingShot,FakeOut,SuckerPunch,LightScreen|Adamant||M|||50|
+|
+|t:|1783643066
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, L50, F, shiny|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Arcanine|Arcanine, L50, M|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|-ability|p1a: Aerodactyl|Unnerve
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Aerodactyl|atk|1
+|-unboost|p1b: Gholdengo|atk|1
+|turn|1
+|
+|t:|1783643113
+|switch|p1b: Rotom|Rotom-Wash, L50, shiny|100/100
+|move|p1a: Aerodactyl|Protect|p1a: Aerodactyl
+|-singleturn|p1a: Aerodactyl|Protect
+|move|p2b: Grimmsnarl|Fake Out|p1a: Aerodactyl
+|-activate|p1a: Aerodactyl|move: Protect
+|move|p2a: Arcanine|Burn Up|p1b: Rotom
+|-resisted|p1b: Rotom|1
+|-damage|p1b: Rotom|66/100
+|-start|p2a: Arcanine|typechange|???|[from] move: Burn Up
+|
+|upkeep
+|turn|2
+|
+|t:|1783643170
+|switch|p2a: Araquanid|Araquanid, L50, F, shiny|100/100
+|move|p2b: Grimmsnarl|Sucker Punch|p1b: Rotom
+|-damage|p1b: Rotom|21/100
+|-enditem|p1b: Rotom|Sitrus Berry|[eat]
+|-heal|p1b: Rotom|45/100|[from] item: Sitrus Berry
+|move|p1a: Aerodactyl|Rock Slide|p2a: Araquanid|[spread] p2a,p2b
+|-supereffective|p2a: Araquanid|1
+|-damage|p2a: Araquanid|65/100
+|-damage|p2b: Grimmsnarl|77/100
+|move|p1b: Rotom|Hydro Pump|p2a: Araquanid
+|-resisted|p2a: Araquanid|1
+|-damage|p2a: Araquanid|47/100
+|
+|-heal|p2a: Araquanid|52/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1783643219
+|move|p2b: Grimmsnarl|Sucker Punch||[still]
+|-fail|p2b: Grimmsnarl
+|move|p1a: Aerodactyl|Dual Wingbeat|p2a: Araquanid
+|-supereffective|p2a: Araquanid|1
+|-damage|p2a: Araquanid|28/100
+|-supereffective|p2a: Araquanid|1
+|-damage|p2a: Araquanid|3/100
+|-hitcount|p2a: Araquanid|2
+|move|p1b: Rotom|Thunder Wave|p2b: Grimmsnarl
+|-status|p2b: Grimmsnarl|par
+|move|p2a: Araquanid|Liquidation|p1a: Aerodactyl
+|-supereffective|p1a: Aerodactyl|1
+|-enditem|p1a: Aerodactyl|Focus Sash
+|-damage|p1a: Aerodactyl|1/100
+|
+|-heal|p2a: Araquanid|9/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1783643266
+|move|p2a: Araquanid|Protect|p2a: Araquanid
+|-singleturn|p2a: Araquanid|Protect
+|move|p2b: Grimmsnarl|Parting Shot|p1b: Rotom
+|-unboost|p1b: Rotom|atk|1
+|-unboost|p1b: Rotom|spa|1
+|
+|t:|1783643272
+|switch|p2b: Arcanine|Arcanine, L50, M|100/100|[from] Parting Shot
+|-ability|p2b: Arcanine|Intimidate|boost
+|-unboost|p1a: Aerodactyl|atk|1
+|-unboost|p1b: Rotom|atk|1
+|move|p1a: Aerodactyl|Tailwind|p1a: Aerodactyl
+|-sidestart|p1: xanian7|move: Tailwind
+|move|p1b: Rotom|Hydro Pump|p2b: Arcanine|[miss]
+|-miss|p1b: Rotom|p2b: Arcanine
+|
+|-heal|p2a: Araquanid|15/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1783643344
+|move|p1a: Aerodactyl|Dual Wingbeat|p2a: Araquanid
+|-supereffective|p2a: Araquanid|1
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|-hitcount|p2: Araquanid|1
+|move|p1b: Rotom|Hydro Pump|p2b: Arcanine|[miss]
+|-miss|p1b: Rotom|p2b: Arcanine
+|move|p2b: Arcanine|Burn Up|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl|1
+|-damage|p1a: Aerodactyl|0 fnt
+|-start|p2b: Arcanine|typechange|???|[from] move: Burn Up
+|faint|p1a: Aerodactyl
+|
+|upkeep
+|
+|t:|1783643367
+|switch|p1a: Sceptile|Sceptile, L50, F, shiny|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M, shiny|77/100 par
+|turn|6
+|
+|t:|1783643416
+|switch|p2b: Staraptor|Staraptor, L50, F, shiny|100/100
+|-ability|p2b: Staraptor|Intimidate|boost
+|-unboost|p1a: Sceptile|atk|1
+|-unboost|p1b: Rotom|atk|1
+|detailschange|p1a: Sceptile|Sceptile-Mega, L50, F, shiny
+|-mega|p1a: Sceptile|Sceptile|Sceptilite
+|move|p1a: Sceptile|Detect|p1a: Sceptile
+|-singleturn|p1a: Sceptile|Protect
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: brush44|move: Light Screen
+|move|p1b: Rotom|Hydro Pump|p2b: Staraptor
+|-damage|p2b: Staraptor|65/100
+|
+|upkeep
+|turn|7
+|
+|t:|1783643468
+|move|p2b: Staraptor|Protect|p2b: Staraptor
+|-singleturn|p2b: Staraptor|Protect
+|move|p2a: Grimmsnarl|Sucker Punch|p1b: Rotom
+|-damage|p1b: Rotom|4/100
+|move|p1a: Sceptile|Dragon Pulse|p2b: Staraptor
+|-activate|p2b: Staraptor|move: Protect
+|move|p1b: Rotom|Discharge|p2b: Staraptor|[spread] p2a
+|-activate|p2b: Staraptor|move: Protect
+|-ability|p1a: Sceptile|Lightning Rod|boost
+|-boost|p1a: Sceptile|spa|1
+|-damage|p2a: Grimmsnarl|66/100 par
+|
+|-sideend|p1: xanian7|move: Tailwind
+|upkeep
+|turn|8
+|
+|t:|1783643501
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|move|p2a: Grimmsnarl|Parting Shot|p2b: Staraptor
+|-unboost|p2b: Staraptor|atk|1
+|-unboost|p2b: Staraptor|spa|1
+|
+|t:|1783643507
+|switch|p2a: Arcanine|Arcanine, L50, M|100/100|[from] Parting Shot
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Sceptile|atk|1
+|-unboost|p1b: Gholdengo|atk|1
+|move|p1a: Sceptile|Dragon Pulse|p2b: Staraptor
+|-damage|p2b: Staraptor|0 fnt
+|faint|p2b: Staraptor
+|
+|upkeep
+|
+|t:|1783643515
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M, shiny|66/100 par
+|turn|9
+|
+|t:|1783643542
+|move|p1b: Gholdengo|Protect|p1b: Gholdengo
+|-singleturn|p1b: Gholdengo|Protect
+|move|p2b: Grimmsnarl|Fake Out|p1a: Sceptile
+|-damage|p1a: Sceptile|78/100
+|move|p2a: Arcanine|Heat Wave|p1a: Sceptile|[spread] p1a
+|-activate|p1b: Gholdengo|move: Protect
+|-damage|p1a: Sceptile|35/100
+|cant|p1a: Sceptile|flinch
+|
+|upkeep
+|turn|10
+|
+|t:|1783643566
+|move|p2b: Grimmsnarl|Sucker Punch||[still]
+|-fail|p2b: Grimmsnarl
+|move|p2a: Arcanine|Heat Wave|p1b: Gholdengo|[spread] p1a
+|-miss|p2a: Arcanine|p1b: Gholdengo
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|
+|upkeep
+|
+|t:|1783643576
+|switch|p1a: Rotom|Rotom-Wash, L50, shiny|4/100
+|turn|11
+|
+|t:|1783643603
+|move|p2b: Grimmsnarl|Sucker Punch|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo|1
+|-damage|p1b: Gholdengo|15/100
+|move|p2a: Arcanine|Heat Wave|p1a: Rotom|[spread] p1a,p1b
+|-resisted|p1a: Rotom|1
+|-supereffective|p1b: Gholdengo|1
+|-damage|p1a: Rotom|0 fnt
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1a: Rotom
+|faint|p1b: Gholdengo
+|
+|win|brush44
+|l|☆brush44
+|player|p2|
+|j|☆brush44
+|player|p2|brush44|102|

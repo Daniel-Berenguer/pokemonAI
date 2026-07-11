@@ -1,0 +1,150 @@
+|j|☆phuc_lamvgc
+|j|☆Omarro
+|html|phuc_lamvgcOmarro    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783669749
+|gametype|doubles
+|player|p1|phuc_lamvgc|miku-ghost|1066
+|player|p2|Omarro|dragontamer|1097
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pyroar, L50, F, shiny|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Vileplume, L50, M|
+|poke|p2|Hydrapple, L50, M, shiny|
+|poke|p2|Volcarona, L50, M, shiny|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Talonflame, L50, M|
+|poke|p2|Steelix, L50, M|
+|poke|p2|Malamar, L50, M|
+|teampreview|4
+|showteam|p1|Pyroar||Pyroarite|Unnerve|Overheat,SolarBeam,HeatWave,Protect|Timid||F|||50|]Floette-Eternal||Floettite|FlowerVeil|Moonblast,DrainingKiss,CalmMind,Protect|Modest||F|||50|]Incineroar||WhiteHerb|Intimidate|FakeOut,FlareBlitz,DarkestLariat,CloseCombat|Brave||M|||50|]Farigiraf||SitrusBerry|ArmorTail|HelpingHand,TrickRoom,Psychic,Thunderbolt|Relaxed||M|||50|]Torkoal||Charcoal|Drought|WeatherBall,Eruption,HelpingHand,Protect|Quiet||M|||50|]Vileplume||FocusSash|Chlorophyll|SolarBeam,SludgeBomb,SleepPowder,AfterYou|Timid||M|||50|
+|showteam|p2|Hydrapple||SitrusBerry|SupersweetSyrup|Protect,LeafStorm,HydroPump,DracoMeteor|Quiet||M|||50|]Volcarona||Charcoal|FlameBody|QuiverDance,GigaDrain,FieryDance,BugBuzz|Modest||M|||50|]Tyranitar||ChopleBerry|SandStream|Protect,Crunch,RockSlide,IcePunch|Adamant||M|||50|]Talonflame||SharpBeak|GaleWings|Tailwind,Protect,WillOWisp,BraveBird|Jolly||M|||50|]Steelix||Steelixite|RockHead|Protect,WideGuard,HeavySlam,HighHorsepower|Impish||M|||50|]Malamar||FocusSash|Contrary|PsychoCut,KnockOff,SkillSwap,TrickRoom|Brave||M|||50|
+|
+|t:|1783669768
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|switch|p1b: Vileplume|Vileplume, L50, M|100/100
+|switch|p2a: Hydrapple|Hydrapple, L50, M, shiny|100/100
+|switch|p2b: Malamar|Malamar, L50, M|100/100
+|-ability|p2a: Hydrapple|Supersweet Syrup
+|-unboost|p1a: Torkoal|evasion|1
+|-unboost|p1b: Vileplume|evasion|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1783669786
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Hydrapple|atk|1
+|-boost|p2b: Malamar|atk|1
+|move|p2a: Hydrapple|Protect|p2a: Hydrapple
+|-singleturn|p2a: Hydrapple|Protect
+|move|p1b: Vileplume|Sludge Bomb|p2a: Hydrapple
+|-activate|p2a: Hydrapple|move: Protect
+|move|p2b: Malamar|Trick Room|p2b: Malamar
+|-fieldstart|move: Trick Room|[of] p2b: Malamar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1783669806
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|move|p1a: Incineroar|Fake Out|p2b: Malamar
+|-damage|p2b: Malamar|84/100
+|move|p2a: Hydrapple|Hydro Pump|p1a: Incineroar
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|62/100
+|cant|p2b: Malamar|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1783669821
+|move|p1b: Torkoal|Eruption|p2a: Hydrapple|[spread] p2a,p2b
+|-damage|p2a: Hydrapple|15/100
+|-damage|p2b: Malamar|0 fnt
+|-enditem|p2a: Hydrapple|Sitrus Berry|[eat]
+|-heal|p2a: Hydrapple|40/100|[from] item: Sitrus Berry
+|faint|p2b: Malamar
+|move|p2a: Hydrapple|Hydro Pump|p1b: Torkoal
+|-supereffective|p1b: Torkoal|1
+|-damage|p1b: Torkoal|50/100g
+|move|p1a: Incineroar|Flare Blitz|p2a: Hydrapple
+|-damage|p2a: Hydrapple|0 fnt
+|faint|p2a: Hydrapple
+|-damage|p1a: Incineroar|48/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783669838
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p2b: Steelix|Steelix, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|4
+|
+|t:|1783669850
+|switch|p1b: Vileplume|Vileplume, L50, M|100/100
+|detailschange|p2b: Steelix|Steelix-Mega, L50, M
+|-mega|p2b: Steelix|Steelix|Steelixite
+|move|p2b: Steelix|Protect|p2b: Steelix
+|-singleturn|p2b: Steelix|Protect
+|move|p1a: Incineroar|Close Combat|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar|2
+|-enditem|p2a: Tyranitar|Chople Berry|[eat]
+|-enditem|p2a: Tyranitar|Chople Berry|[weaken]
+|-damage|p2a: Tyranitar|35/100
+|-unboost|p1a: Incineroar|def|1
+|-unboost|p1a: Incineroar|spd|1
+|-enditem|p1a: Incineroar|White Herb
+|-clearnegativeboost|p1a: Incineroar|[silent]
+|move|p2a: Tyranitar|Rock Slide|p1b: Vileplume|[spread] p1a,p1b
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Vileplume|53/100
+|faint|p1a: Incineroar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Vileplume|48/100|[from] Sandstorm
+|upkeep
+|
+|t:|1783669859
+|switch|p1a: Torkoal|Torkoal, L50, M|50/100g
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|5
+|
+|t:|1783669881
+|switch|p1b: Floette|Floette-Eternal, L50, F|100/100
+|move|p2a: Tyranitar|Protect|p2a: Tyranitar
+|-singleturn|p2a: Tyranitar|Protect
+|move|p1a: Torkoal|Weather Ball|p2b: Steelix
+|-supereffective|p2b: Steelix|1
+|-damage|p2b: Steelix|0 fnt
+|faint|p2b: Steelix
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|-message|Omarro forfeited.
+|
+|win|phuc_lamvgc
+|l|☆Omarro
+|player|p2|
+||phuc_lamvgc is ready for game 2.
+|inactive|Omarro has 30 seconds to confirm battle start!
+|inactive|Omarro has 20 seconds to confirm battle start!
+|inactive|Omarro has 9 seconds to confirm battle start!
+|uhtml|next|Next: Game 2 of 3

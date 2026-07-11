@@ -1,0 +1,154 @@
+|j|☆lethimcook26
+|j|☆MrParcheggio
+|html|lethimcook26MrParcheggio    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783601805
+|gametype|doubles
+|player|p1|lethimcook26|266|1100
+|player|p2|MrParcheggio|koga|1066
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Empoleon, L50, M|
+|poke|p1|Bastiodon, L50, M|
+|poke|p1|Medicham, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Scizor, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Sceptile, L50, F, shiny|
+|poke|p2|Hawlucha, L50, M|
+|teampreview|4
+|showteam|p1|Ninetales-Alola||LightClay|SnowWarning|AuroraVeil,Blizzard,WeatherBall,FreezeDry|Modest||F|||50|]Empoleon||ChopleBerry|Competitive|ChillingWater,WeatherBall,Yawn,AirSlash|Modest||M|||50|]Bastiodon||Leftovers|Sturdy|BodyPress,IronDefense,MetalBurst,WideGuard|Sassy||M|||50|]Medicham||Medichamite|PurePower|FakeOut,QuickGuard,RockTomb,CloseCombat|Adamant||M|||50|]Tyranitar||FocusSash|SandStream|ThunderPunch,RockSlide,Protect,ThunderWave|Adamant||F|||50|]Dragonite||LumBerry|Multiscale|DragonDance,Roost,AerialAce,StompingTantrum|Adamant||M|||50|
+|showteam|p2|Pelipper||FocusSash|Drizzle|Tailwind,HydroPump,Uturn,WeatherBall|Modest||F|||50|]Scizor||OccaBerry|Technician|BugBite,BulletPunch,Protect,SwordsDance|Adamant||M|||50|]Archaludon||ZoomLens|Stalwart|ElectroShot,DracoMeteor,FlashCannon,Protect|Timid||F|||50|]Basculegion||ChoiceScarf|SwiftSwim|FlipTurn,LastRespects,WaveCrash,IceFang|Adamant||M|||50|]Sceptile||Sceptilite|Unburden|EnergyBall,EarthPower,LeechSeed,Protect|Timid||F|||50|]Hawlucha||Hawluchanite|MoldBreaker|BraveBird,CloseCombat,Detect,SwordsDance|Jolly||M|||50|
+|
+|t:|1783601905
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Bastiodon|Bastiodon, L50, M|100/100
+|switch|p1b: Medicham|Medicham, L50, M|100/100
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100
+|switch|p2b: Sceptile|Sceptile, L50, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|1
+|
+|t:|1783601948
+|detailschange|p2b: Sceptile|Sceptile-Mega, L50, F, shiny
+|-mega|p2b: Sceptile|Sceptile|Sceptilite
+|move|p1b: Medicham|Fake Out|p2a: Pelipper
+|-damage|p2a: Pelipper|78/100
+|move|p2b: Sceptile|Energy Ball|p1b: Medicham
+|-crit|p1b: Medicham
+|-damage|p1b: Medicham|1/100
+|-unboost|p1b: Medicham|spd|1
+|cant|p2a: Pelipper|flinch
+|move|p1a: Bastiodon|Metal Burst||[still]
+|-fail|p1a: Bastiodon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1783601987
+|switch|p1b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|move|p2b: Sceptile|Leech Seed|p1a: Bastiodon
+|-start|p1a: Bastiodon|move: Leech Seed
+|move|p2a: Pelipper|U-turn|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar|1
+|-damage|p1b: Tyranitar|84/100
+|
+|t:|1783601996
+|switch|p2a: Scizor|Scizor, L50, M|100/100|[from] U-turn
+|move|p1a: Bastiodon|Metal Burst||[still]
+|-fail|p1a: Bastiodon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sceptile|93/100|[from] Sandstorm
+|-damage|p1a: Bastiodon|88/100|[from] Leech Seed|[of] p2b: Sceptile
+|-heal|p2b: Sceptile|100/100|[silent]
+|upkeep
+|turn|3
+|
+|t:|1783602033
+|move|p2b: Sceptile|Earth Power|p1a: Bastiodon
+|-supereffective|p1a: Bastiodon|2
+|-damage|p1a: Bastiodon|37/100
+|move|p1b: Tyranitar|Thunder Wave|p2b: Sceptile
+|-activate|p2b: Sceptile|ability: Lightning Rod
+|-ability|p2b: Sceptile|Lightning Rod|boost
+|-boost|p2b: Sceptile|spa|1
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|move|p1a: Bastiodon|Metal Burst|p2b: Sceptile
+|-damage|p2b: Sceptile|28/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sceptile|22/100|[from] Sandstorm
+|-heal|p1a: Bastiodon|43/100|[from] item: Leftovers
+|-damage|p1a: Bastiodon|31/100|[from] Leech Seed|[of] p2b: Sceptile
+|-heal|p2b: Sceptile|33/100|[silent]
+|upkeep
+|turn|4
+|c|☆lethimcook26|lol i should read the teams sheet, im playing on vibes
+|
+|t:|1783602073
+|move|p2b: Sceptile|Energy Ball|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar|1
+|-damage|p1b: Tyranitar|4/100
+|-unboost|p1b: Tyranitar|spd|1
+|move|p1b: Tyranitar|Rock Slide|p2a: Scizor|[spread] p2a
+|-miss|p1b: Tyranitar|p2b: Sceptile
+|-damage|p2a: Scizor|68/100
+|move|p2a: Scizor|Bug Bite|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar|1
+|-damage|p1b: Tyranitar|0 fnt
+|faint|p1b: Tyranitar
+|move|p1a: Bastiodon|Metal Burst||[still]
+|-fail|p1a: Bastiodon
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sceptile|27/100|[from] Sandstorm
+|-heal|p1a: Bastiodon|37/100|[from] item: Leftovers
+|-damage|p1a: Bastiodon|25/100|[from] Leech Seed|[of] p2b: Sceptile
+|-heal|p2b: Sceptile|38/100|[silent]
+|upkeep
+|
+|t:|1783602090
+|switch|p1b: Medicham|Medicham, L50, M|1/100
+|turn|5
+|
+|t:|1783602126
+|detailschange|p1b: Medicham|Medicham-Mega, L50, M
+|-mega|p1b: Medicham|Medicham|Medichamite
+|move|p2b: Sceptile|Protect|p2b: Sceptile
+|-singleturn|p2b: Sceptile|Protect
+|move|p1b: Medicham|Fake Out|p2b: Sceptile
+|-activate|p2b: Sceptile|move: Protect
+|move|p2a: Scizor|Bullet Punch|p1b: Medicham
+|-damage|p1b: Medicham|0 fnt
+|faint|p1b: Medicham
+|move|p1a: Bastiodon|Body Press|p2a: Scizor
+|-damage|p2a: Scizor|36/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sceptile|32/100|[from] Sandstorm
+|-heal|p1a: Bastiodon|31/100|[from] item: Leftovers
+|-damage|p1a: Bastiodon|19/100|[from] Leech Seed|[of] p2b: Sceptile
+|-heal|p2b: Sceptile|44/100|[silent]
+|upkeep
+|-message|lethimcook26 forfeited.
+|
+|win|MrParcheggio
+||lethimcook26 is ready for game 3.
+||MrParcheggio is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆MrParcheggio
+|player|p2|

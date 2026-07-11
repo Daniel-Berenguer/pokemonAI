@@ -1,0 +1,80 @@
+|j|☆TrashTest6116
+|j|☆Esah
+|html|TrashTest6116Esah    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783695796
+|gametype|doubles
+|player|p1|TrashTest6116|colress|1000
+|player|p2|Esah|clair|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Blastoise, L50, F|
+|poke|p1|Delphox, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p1|Kingambit, L50, F|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Sylveon, L50, F|
+|poke|p2|Sceptile, L50, M|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Ditto, L50|
+|teampreview|4
+|showteam|p1|Blastoise||Blastoisinite|Torrent|Protect,ShellSmash,WaterSpout,DarkPulse|Modest||F|||50|]Delphox||Delphoxite|Blaze|Protect,NastyPlot,HeatWave,Psyshock|Timid||M|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,HelpingHand,PartingShot|Impish||F|||50|]Sneasler||FocusSash|PoisonTouch|CloseCombat,PoisonJab,FakeOut,QuickGuard|Jolly||M|||50|]Sinistcha-Masterpiece||OccaBerry|Hospitality|Protect,MatchaGotcha,RagePowder,LifeDew|Bold|||||50|]Kingambit||LifeOrb|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|Adamant||F|||50|
+|showteam|p2|Kingambit||ChopleBerry|Defiant|KowtowCleave,SuckerPunch,IronHead,Protect|Brave||F|||50|]Basculegion||ChoiceScarf|Adaptability|FlipTurn,WaveCrash,Protect,LastRespects|Jolly||M|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,Yawn,Detect|Timid||F|||50|]Sceptile||Sceptilite|Overgrow|Protect,LeafStorm,DragonPulse,EarthPower|Timid||M|||50|]Charizard||CharizarditeX|SolarPower|FlareBlitz,DragonClaw,DragonDance,Protect|Adamant||F|||50|]Ditto||FocusSash|Imposter|Transform|Serious|||||50|
+|
+|t:|1783695838
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Delphox|Delphox, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Kingambit|Kingambit, L50, F|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|-ability|p2a: Kingambit|Defiant|boost
+|-boost|p2a: Kingambit|atk|2
+|-unboost|p2b: Basculegion|atk|1
+|turn|1
+|
+|t:|1783695865
+|move|p1a: Delphox|Protect|p1a: Delphox
+|-singleturn|p1a: Delphox|Protect
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p2b: Basculegion|Flip Turn|p1a: Delphox
+|-activate|p1a: Delphox|move: Protect
+|move|p1b: Incineroar|Parting Shot|p2b: Basculegion
+|-unboost|p2b: Basculegion|atk|1
+|-unboost|p2b: Basculegion|spa|1
+|
+|t:|1783695878
+|switch|p1b: Sinistcha|Sinistcha-Masterpiece, L50|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|2
+|
+|t:|1783695887
+|switch|p2b: Ditto|Ditto, L50|100/100
+|-transform|p2b: Ditto|p1a: Delphox|[from] ability: Imposter
+|detailschange|p1a: Delphox|Delphox-Mega, L50, M
+|-mega|p1a: Delphox|Delphox|Delphoxite
+|move|p2a: Kingambit|Sucker Punch|p1a: Delphox
+|-supereffective|p1a: Delphox|1
+|-damage|p1a: Delphox|0 fnt
+|faint|p1a: Delphox
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Kingambit|[spread] p2a
+|-miss|p1b: Sinistcha|p2b: Ditto
+|-resisted|p2a: Kingambit|1
+|-damage|p2a: Kingambit|89/100
+|
+|upkeep
+|-message|TrashTest6116 forfeited.
+|
+|win|Esah

@@ -1,0 +1,166 @@
+|j|☆iwillbeausername
+|j|☆maksimilian123
+|html|iwillbeausernamemaksimilian123    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783635235
+|gametype|doubles
+|player|p1|iwillbeausername|2|1157
+|player|p2|maksimilian123|266|1057
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Blaziken, L50, F|
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Lycanroc-Dusk, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Gardevoir, L50, M|
+|poke|p2|Talonflame, L50, F|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Vileplume, L50, M|
+|poke|p2|Rotom-Wash, L50|
+|poke|p2|Garchomp, L50, F|
+|teampreview|4
+|showteam|p1|Blaziken||Blazikenite|SpeedBoost|FlareBlitz,CloseCombat,Detect,KnockOff|Jolly||F|||50|]Venusaur||Venusaurite|Chlorophyll|GigaDrain,SludgeBomb,EarthPower,Protect|Modest||F|||50|]Ninetales-Alola||NeverMeltIce|SnowWarning|Blizzard,FreezeDry,Encore,Protect|Timid||M|||50|]Lycanroc-Dusk||FocusSash|ToughClaws|Accelerock,RockSlide,CloseCombat,Protect|Adamant||M|||50|]Kingambit||LifeOrb|Defiant|SuckerPunch,KowtowCleave,IronHead,Protect|Adamant||F|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,FlipTurn,AquaJet,LastRespects|Jolly||M|||50|
+|showteam|p2|Gardevoir||Gardevoirite|Synchronize|HyperVoice,Psychic,EnergyBall,CalmMind|Timid||M|||50|]Talonflame||FocusSash|GaleWings|Tailwind,Protect,FlareBlitz,BraveBird|Adamant||F|||50|]Torkoal||Charcoal|Drought|Eruption,Yawn,Protect,SolarBeam|Modest||F|||50|]Vileplume||SitrusBerry|Chlorophyll|SolarBeam,SleepPowder,AfterYou,PollenPuff|Timid||M|||50|]Rotom-Wash||ChoiceScarf|Levitate|Electroweb,Trick,VoltSwitch,HydroPump|Timid|||||50|]Garchomp||LifeOrb|RoughSkin|RockSlide,Earthquake,DragonClaw,Protect|Jolly||F|||50|
+|
+|t:|1783635264
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Lycanroc|Lycanroc-Dusk, L50, M|100/100
+|switch|p1b: Venusaur|Venusaur, L50, F|100/100
+|switch|p2a: Vileplume|Vileplume, L50, M|100/100
+|switch|p2b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|1
+|
+|t:|1783635280
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|move|p2b: Torkoal|Protect|p2b: Torkoal
+|-singleturn|p2b: Torkoal|Protect
+|move|p1a: Lycanroc|Rock Slide|p2a: Vileplume|[spread] p2a
+|-activate|p2b: Torkoal|move: Protect
+|-damage|p2a: Vileplume|65/100
+|move|p2a: Vileplume|Sleep Powder|p1a: Lycanroc
+|-status|p1a: Lycanroc|slp|[from] move: Sleep Powder
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1783635296
+|switch|p2b: Talonflame|Talonflame, L50, F|100/100
+|cant|p1a: Lycanroc|slp
+|move|p1b: Ninetales|Blizzard|p2b: Talonflame|[spread] p2a,p2b
+|-supereffective|p2a: Vileplume|1
+|-damage|p2a: Vileplume|0 fnt
+|-damage|p2b: Talonflame|45/100
+|faint|p2a: Vileplume
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1783635305
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|3
+|
+|t:|1783635317
+|move|p2b: Talonflame|Protect|p2b: Talonflame
+|-singleturn|p2b: Talonflame|Protect
+|move|p1b: Ninetales|Blizzard|p2b: Talonflame|[spread] p2a
+|-activate|p2b: Talonflame|move: Protect
+|-resisted|p2a: Torkoal|1
+|-damage|p2a: Torkoal|76/100
+|cant|p1a: Lycanroc|slp
+|move|p2a: Torkoal|Solar Beam||[still]
+|-prepare|p2a: Torkoal|Solar Beam
+|-anim|p2a: Torkoal|Solar Beam|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc|1
+|-enditem|p1a: Lycanroc|Focus Sash
+|-damage|p1a: Lycanroc|1/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1783635338
+|move|p2b: Talonflame|Protect||[still]
+|-fail|p2b: Talonflame
+|-curestatus|p1a: Lycanroc|slp|[msg]
+|move|p1a: Lycanroc|Accelerock|p2a: Torkoal
+|-supereffective|p2a: Torkoal|1
+|-damage|p2a: Torkoal|28/100
+|move|p1b: Ninetales|Freeze-Dry|p2b: Talonflame
+|-damage|p2b: Talonflame|0 fnt
+|faint|p2b: Talonflame
+|move|p2a: Torkoal|Solar Beam||[still]
+|-prepare|p2a: Torkoal|Solar Beam
+|-anim|p2a: Torkoal|Solar Beam|p1a: Lycanroc
+|-supereffective|p1a: Lycanroc|1
+|-damage|p1a: Lycanroc|0 fnt
+|faint|p1a: Lycanroc
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783635351
+|switch|p2b: Gardevoir|Gardevoir, L50, M|100/100
+|switch|p1a: Kingambit|Kingambit, L50, F|100/100
+|turn|5
+|
+|t:|1783635361
+|switch|p1b: Venusaur|Venusaur, L50, F|100/100
+|detailschange|p2b: Gardevoir|Gardevoir-Mega, L50, M
+|-mega|p2b: Gardevoir|Gardevoir|Gardevoirite
+|move|p2b: Gardevoir|Hyper Voice|p1a: Kingambit|[spread] p1a,p1b
+|-resisted|p1b: Venusaur|1
+|-damage|p1a: Kingambit|51/100
+|-damage|p1b: Venusaur|73/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|-damage|p1a: Kingambit|42/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1783635373
+|move|p1b: Venusaur|Sludge Bomb|p2b: Gardevoir
+|-supereffective|p2b: Gardevoir|1
+|-damage|p2b: Gardevoir|24/100
+|move|p2b: Gardevoir|Hyper Voice|p1a: Kingambit|[spread] p1a,p1b
+|-resisted|p1b: Venusaur|1
+|-damage|p1a: Kingambit|0 fnt
+|-damage|p1b: Venusaur|47/100
+|faint|p1a: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783635379
+|switch|p1a: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Ninetales
+|turn|7
+|
+|t:|1783635384
+|detailschange|p1b: Venusaur|Venusaur-Mega, L50, F
+|-mega|p1b: Venusaur|Venusaur|Venusaurite
+|move|p1a: Ninetales|Blizzard|p2b: Gardevoir
+|-crit|p2b: Gardevoir
+|-damage|p2b: Gardevoir|0 fnt
+|faint|p2b: Gardevoir
+|
+|win|iwillbeausername
+||iwillbeausername is ready for game 2.
+||maksimilian123 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆iwillbeausername
+|player|p1|

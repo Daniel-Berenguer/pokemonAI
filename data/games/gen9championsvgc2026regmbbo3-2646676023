@@ -1,0 +1,106 @@
+|j|☆TokepaMelon
+|j|☆NoitUK_VGC
+|html|TokepaMelonNoitUK_VGC    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783625630
+|gametype|doubles
+|player|p1|TokepaMelon|sabrina|1000
+|player|p2|NoitUK_VGC|170|1041
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kangaskhan, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Mawile, L50, F|
+|poke|p1|Pyroar, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Gengar, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Kangaskhan||SilkScarf|Scrappy|FakeOut,LastResort|Brave||F|||50|]Farigiraf||SitrusBerry|ArmorTail|HelpingHand,TrickRoom,Psychic,Thunderbolt|Quiet||F|||50|]Torkoal||Charcoal|Drought|Protect,Eruption,WeatherBall,EarthPower|Quiet||F|||50|]Mawile||Mawilite|HyperCutter|Protect,PlayRough,RockSlide,SuckerPunch|Brave||F|||50|]Pyroar||Pyroarite|Rivalry|Protect,HeatWave,Overheat,SolarBeam|Timid||M|||50|]Gallade||WhiteHerb|Sharpness|SacredSword,PsychoCut,LeafBlade,TrickRoom|Brave||M|||50|
+|showteam|p2|Ninetales-Alola||NeverMeltIce|SnowWarning|Blizzard,Encore,Disable,Protect|Timid||F|||50|]Gengar||Gengarite|CursedBody|ShadowBall,SludgeBomb,PerishSong,Protect|Timid||F|||50|]Kingambit||ChopleBerry|Defiant|KowtowCleave,SuckerPunch,LowKick,Protect|Adamant||M|||50|]Incineroar||ShucaBerry|Intimidate|PartingShot,FlareBlitz,FakeOut,Protect|Careful||M|||50|]Dragonite||DragonFang|Multiscale|ExtremeSpeed,DragonClaw,LowKick,Protect|Jolly||M|||50|]Sneasler||WhiteHerb|Unburden|CloseCombat,Taunt,FakeOut,Protect|Adamant||M|||50|
+|
+|t:|1783625666
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gallade|Gallade, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: Gengar|Gengar, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Gallade|atk|1
+|-unboost|p1b: Farigiraf|atk|1
+|-enditem|p1a: Gallade|White Herb
+|-clearnegativeboost|p1a: Gallade|[silent]
+|turn|1
+|
+|t:|1783625684
+|detailschange|p2a: Gengar|Gengar-Mega, L50, F
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2a: Gengar|Shadow Ball|p1a: Gallade
+|-supereffective|p1a: Gallade|1
+|-damage|p1a: Gallade|26/100
+|-unboost|p1a: Gallade|spd|1
+|move|p1a: Gallade|Sacred Sword|p2b: Incineroar
+|-supereffective|p2b: Incineroar|1
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|upkeep
+|
+|t:|1783625695
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|turn|2
+|
+|t:|1783625711
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p2b: Kingambit|Kowtow Cleave|p1b: Farigiraf
+|-supereffective|p1b: Farigiraf|1
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|move|p1a: Gallade|Sacred Sword|p2b: Kingambit
+|-supereffective|p2b: Kingambit|2
+|-crit|p2b: Kingambit
+|-enditem|p2b: Kingambit|Chople Berry|[eat]
+|-enditem|p2b: Kingambit|Chople Berry|[weaken]
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|
+|upkeep
+|
+|t:|1783625725
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|turn|3
+|
+|t:|1783625741
+|move|p1b: Torkoal|Eruption|p2a: Gengar|[spread] p2a,p2b
+|-supereffective|p2b: Ninetales|1
+|-damage|p2a: Gengar|39/100
+|-damage|p2b: Ninetales|0 fnt
+|faint|p2b: Ninetales
+|move|p1a: Gallade|Psycho Cut|p2a: Gengar
+|-supereffective|p2a: Gengar|1
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|win|TokepaMelon
+|raw|TokepaMelon's rating: 1000 → 1045(+45 for winning)
+|raw|NoitUK_VGC's rating: 1041 → 1023(-18 for losing)
+|l|☆NoitUK_VGC
+|player|p2|
+|n| TopekaMelon|tokepamelon

@@ -1,0 +1,170 @@
+|j|☆maksimilian123
+|j|☆Vfi
+|html|maksimilian123Vfi    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783637181
+|gametype|doubles
+|player|p1|maksimilian123|266|1078
+|player|p2|Vfi|170|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gardevoir, L50, M|
+|poke|p1|Talonflame, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Vileplume, L50, F|
+|poke|p1|Rotom-Wash, L50|
+|poke|p1|Garchomp, L50, F|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Swampert, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Sableye, L50, M|
+|teampreview|4
+|showteam|p1|Gardevoir||Gardevoirite|Synchronize|HyperVoice,Psychic,EnergyBall,CalmMind|Timid||M|||50|]Talonflame||FocusSash|GaleWings|Tailwind,Protect,FlareBlitz,BraveBird|Adamant||F|||50|]Torkoal||Charcoal|Drought|Eruption,Yawn,Protect,SolarBeam|Modest||F|||50|]Vileplume||SitrusBerry|Chlorophyll|SolarBeam,SleepPowder,AfterYou,PollenPuff|Timid||F|||50|]Rotom-Wash||ChoiceScarf|Levitate|Electroweb,Trick,VoltSwitch,HydroPump|Timid|||||50|]Garchomp||LifeOrb|RoughSkin|RockSlide,Earthquake,DragonClaw,Protect|Jolly||F|||50|
+|showteam|p2|Pelipper||FocusSash|Drizzle|Hurricane,Tailwind,Protect,WeatherBall|Modest||M|||50|]Swampert||Swampertite|Damp|WaveCrash,Protect,HighHorsepower,IcePunch|Adamant||M|||50|]Archaludon||Leftovers|Stamina|ElectroShot,DragonPulse,Protect,FlashCannon|Calm||F|||50|]Kingambit||ChopleBerry|Defiant|IronHead,KowtowCleave,SuckerPunch,LowKick|Adamant||M|||50|]Sinistcha||KasibBerry|Hospitality|LifeDew,RagePowder,MatchaGotcha,TrickRoom|Bold|||||50|]Sableye||LightClay|Prankster|RainDance,LightScreen,Reflect,Quash|Careful||M|||50|
+|
+|t:|1783637204
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Vileplume|Vileplume, L50, F|100/100
+|switch|p1b: Gardevoir|Gardevoir, L50, M|100/100
+|switch|p2a: Sableye|Sableye, L50, M|100/100
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|turn|1
+|
+|t:|1783637230
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|move|p2a: Sableye|Light Screen|p2a: Sableye
+|-sidestart|p2: Vfi|move: Light Screen
+|move|p1a: Vileplume|Sleep Powder|p2b: Archaludon
+|-status|p2b: Archaludon|slp|[from] move: Sleep Powder
+|cant|p2b: Archaludon|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1783637264
+|switch|p2b: Swampert|Swampert, L50, M|100/100
+|move|p2a: Sableye|Rain Dance|p2a: Sableye
+|-weather|RainDance
+|move|p1a: Vileplume|Sleep Powder|p2a: Sableye
+|-status|p2a: Sableye|slp|[from] move: Sleep Powder
+|move|p1b: Torkoal|Eruption|p2b: Swampert|[spread] p2a,p2b
+|-resisted|p2b: Swampert|1
+|-damage|p2a: Sableye|78/100 slp
+|-damage|p2b: Swampert|89/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1783637291
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|detailschange|p2b: Swampert|Swampert-Mega, L50, M
+|-mega|p2b: Swampert|Swampert|Swampertite
+|cant|p2a: Sableye|slp
+|move|p2b: Swampert|Wave Crash|p1b: Garchomp
+|-damage|p1b: Garchomp|0 fnt
+|-damage|p2b: Swampert|77/100|[from] ability: Rough Skin|[of] p1b: Garchomp
+|faint|p1b: Garchomp
+|-damage|p2b: Swampert|42/100|[from] Recoil
+|move|p1a: Vileplume|Sleep Powder|p2b: Swampert
+|-status|p2b: Swampert|slp|[from] move: Sleep Powder
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1783637300
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|4
+|
+|t:|1783637310
+|cant|p2b: Swampert|slp
+|cant|p2a: Sableye|slp
+|move|p1a: Vileplume|Solar Beam||[still]
+|-prepare|p1a: Vileplume|Solar Beam
+|-anim|p1a: Vileplume|Solar Beam|p2b: Swampert
+|-supereffective|p2b: Swampert|2
+|-damage|p2b: Swampert|0 fnt
+|faint|p2b: Swampert
+|move|p1b: Torkoal|Eruption|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783637317
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100 slp
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|5
+|
+|t:|1783637330
+|switch|p1b: Gardevoir|Gardevoir, L50, M|100/100
+|cant|p2b: Archaludon|slp
+|move|p2a: Pelipper|Hurricane|p1a: Vileplume
+|-supereffective|p1a: Vileplume|1
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1783637332
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|6
+|
+|t:|1783637344
+|detailschange|p1b: Gardevoir|Gardevoir-Mega, L50, M
+|-mega|p1b: Gardevoir|Gardevoir|Gardevoirite
+|move|p1b: Gardevoir|Hyper Voice|p2b: Archaludon|[spread] p2a,p2b
+|-crit|p2a: Pelipper
+|-enditem|p2a: Pelipper|Focus Sash
+|-damage|p2a: Pelipper|1/100
+|-damage|p2b: Archaludon|68/100 slp
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|-curestatus|p2b: Archaludon|slp|[msg]
+|move|p2b: Archaludon|Flash Cannon|p1b: Gardevoir
+|-supereffective|p1b: Gardevoir|1
+|-damage|p1b: Gardevoir|28/100
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: Vfi|move: Tailwind
+|move|p1a: Torkoal|Eruption|p2b: Archaludon|[spread] p2a,p2b
+|-resisted|p2a: Pelipper|1
+|-damage|p2a: Pelipper|0 fnt
+|-damage|p2b: Archaludon|14/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|faint|p2a: Pelipper
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Archaludon|20/100y|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1783637366
+|move|p2b: Archaludon|Flash Cannon|p1b: Gardevoir
+|-supereffective|p1b: Gardevoir|1
+|-damage|p1b: Gardevoir|0 fnt
+|faint|p1b: Gardevoir
+|move|p1a: Torkoal|Eruption|p2b: Archaludon
+|-damage|p2b: Archaludon|0 fnt
+|faint|p2b: Archaludon
+|
+|win|maksimilian123
+|raw|maksimilian123's rating: 1078 → 1100(+22 for winning)
+|raw|Vfi's rating: 1000 → 1000(+0 for losing)
+|l|☆Vfi
+|player|p2|
