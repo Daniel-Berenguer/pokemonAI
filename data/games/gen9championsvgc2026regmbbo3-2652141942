@@ -1,0 +1,115 @@
+|j|☆TrashTest6116
+|j|☆memeberserk
+|html|TrashTest6116memeberserk    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1784566891
+|gametype|doubles
+|player|p1|TrashTest6116|colress|1159
+|player|p2|memeberserk|lance|1260
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Blastoise, L50, F|
+|poke|p1|Delphox, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p1|Kingambit, L50, F|
+|poke|p2|Raichu, L50, F|
+|poke|p2|Corviknight, L50, M|
+|poke|p2|Sylveon, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Mamoswine, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|teampreview|4
+|showteam|p1|Blastoise||Blastoisinite|Torrent|Protect,ShellSmash,WaterSpout,DarkPulse|Modest||F|||50|]Delphox||Delphoxite|Blaze|Protect,NastyPlot,HeatWave,Psyshock|Timid||M|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,HelpingHand,PartingShot|Impish||F|||50|]Sneasler||FocusSash|PoisonTouch|CloseCombat,PoisonJab,FakeOut,QuickGuard|Jolly||M|||50|]Sinistcha-Masterpiece||OccaBerry|Hospitality|Protect,MatchaGotcha,RagePowder,LifeDew|Bold|||||50|]Kingambit||LifeOrb|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|Adamant||F|||50|
+|showteam|p2|Raichu||RaichuniteY|LightningRod|ZapCannon,FocusBlast,FakeOut,Protect|Timid||F|||50|]Corviknight||Leftovers|Unnerve|BraveBird,IronHead,Tailwind,Protect|Careful||M|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,QuickAttack,Protect,Yawn|Modest||F|||50|]Basculegion||MysticWater|SwiftSwim|WaveCrash,LastRespects,AquaJet,Protect|Adamant||M|||50|]Mamoswine||LifeOrb|Oblivious|HighHorsepower,IceShard,IcicleCrash,Protect|Adamant||F|||50|]Tyranitar||FocusSash|SandStream|RockSlide,KnockOff,Superpower,Protect|Adamant||M|||50|
+|
+|t:|1784566909
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Blastoise|Blastoise, L50, F|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Mamoswine|Mamoswine, L50, F|100/100
+|switch|p2b: Raichu|Raichu, L50, F|100/100
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by memeberserk)
+|
+|t:|1784566927
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Mamoswine|unboost|Attack|[from] ability: Oblivious|[of] p2a: Mamoswine
+|-unboost|p2b: Raichu|atk|1
+|detailschange|p2b: Raichu|Raichu-Mega-Y, L50, F
+|-mega|p2b: Raichu|Raichu|Raichunite Y
+|move|p1a: Blastoise|Protect|p1a: Blastoise
+|-singleturn|p1a: Blastoise|Protect
+|move|p2b: Raichu|Zap Cannon|p1a: Blastoise
+|-activate|p1a: Blastoise|move: Protect
+|move|p2a: Mamoswine|High Horsepower|p1a: Blastoise
+|-activate|p1a: Blastoise|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1784566947
+|detailschange|p1a: Blastoise|Blastoise-Mega, L50, F
+|-mega|p1a: Blastoise|Blastoise|Blastoisinite
+|move|p1b: Incineroar|Fake Out|p2b: Raichu
+|-damage|p2b: Raichu|81/100
+|cant|p2b: Raichu|flinch
+|move|p2a: Mamoswine|High Horsepower|p1a: Blastoise
+|-damage|p1a: Blastoise|34/100
+|-damage|p2a: Mamoswine|90/100|[from] item: Life Orb
+|move|p1a: Blastoise|Shell Smash|p1a: Blastoise
+|-unboost|p1a: Blastoise|def|1
+|-unboost|p1a: Blastoise|spd|1
+|-boost|p1a: Blastoise|atk|2
+|-boost|p1a: Blastoise|spa|2
+|-boost|p1a: Blastoise|spe|2
+|
+|upkeep
+|turn|3
+|
+|t:|1784566966
+|switch|p1b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-heal|p1a: Blastoise|58/100|[from] ability: Hospitality|[of] p1b: Sinistcha
+|move|p1a: Blastoise|Water Spout|p2b: Raichu|[spread] p2a,p2b
+|-supereffective|p2a: Mamoswine|1
+|-damage|p2a: Mamoswine|0 fnt
+|-damage|p2b: Raichu|0 fnt
+|faint|p2a: Mamoswine
+|faint|p2b: Raichu
+|
+|upkeep
+|
+|t:|1784566975
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Corviknight|Corviknight, L50, M|100/100
+|-ability|p2a: Corviknight|Unnerve
+|turn|4
+|
+|t:|1784566986
+|move|p1b: Sinistcha|Rage Powder|p1b: Sinistcha
+|-singleturn|p1b: Sinistcha|move: Rage Powder
+|move|p1a: Blastoise|Dark Pulse|p2b: Basculegion
+|-supereffective|p2b: Basculegion|1
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|move|p2a: Corviknight|Brave Bird|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha|1
+|-damage|p1b: Sinistcha|31/100
+|-damage|p2a: Corviknight|80/100|[from] Recoil
+|
+|-heal|p2a: Corviknight|86/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|-message|memeberserk forfeited.
+|
+|win|TrashTest6116
+|raw|TrashTest6116's rating: 1159 → 1191(+32 for winning)
+|raw|memeberserk's rating: 1260 → 1228(-32 for losing)

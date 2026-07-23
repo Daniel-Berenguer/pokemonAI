@@ -1,0 +1,196 @@
+|j|☆exessvgc
+|j|☆Maffles
+|html|exessvgcMaffles    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783862783
+|gametype|doubles
+|player|p1|exessvgc|169|1158
+|player|p2|Maffles|101|1244
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Blaziken, L50, F|
+|poke|p1|Aerodactyl, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p2|Gengar, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Toxapex, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Lopunny, L50, M|
+|teampreview|4
+|showteam|p1|Blaziken||Blazikenite|SpeedBoost|FlareBlitz,CloseCombat,Protect,RockSlide|Adamant||F|||50|]Aerodactyl||Aerodactylite|Unnerve|RockSlide,DualWingbeat,IceFang,Tailwind|Jolly||M|||50|]Kingambit||LifeOrb|Defiant|KowtowCleave,Protect,IronHead,SuckerPunch|Adamant||F|||50|]Basculegion||FocusSash|Adaptability|Liquidation,Protect,LastRespects,AquaJet|Adamant||M|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,Moonblast,QuickAttack,Protect|Modest||M|||50|]Torkoal||Leftovers|Drought|BurningJealousy,WeatherBall,Protect,Yawn|Relaxed||F|||50|
+|showteam|p2|Gengar||Gengarite|CursedBody|SludgeBomb,Disable,PerishSong,Protect|Timid||M|||50|]Kingambit||ChopleBerry|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|Brave||M|||50|]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,Moonblast,Encore,Protect|Timid||M|||50|]Toxapex||Leftovers|Regenerator|Infestation,Toxic,WideGuard,BanefulBunker|Bold||F|||50|]Basculegion||SitrusBerry|Adaptability|LastRespects,FlipTurn,Soak,Protect|Sassy||M|||50|]Lopunny||Lopunnite|CuteCharm|CloseCombat,FakeOut,Encore,Protect|Jolly||M|||50|
+|
+|t:|1783862819
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Blaziken|Blaziken, L50, F|100/100
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100
+|switch|p2a: Gengar|Gengar, L50, M|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|turn|1
+|
+|t:|1783862841
+|detailschange|p2a: Gengar|Gengar-Mega, L50, M
+|-mega|p2a: Gengar|Gengar|Gengarite
+|detailschange|p1a: Blaziken|Blaziken-Mega, L50, F
+|-mega|p1a: Blaziken|Blaziken|Blazikenite
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p1b: Kingambit|Sucker Punch||[still]
+|-fail|p1b: Kingambit
+|move|p1a: Blaziken|Flare Blitz|p2a: Gengar
+|-activate|p2a: Gengar|move: Protect
+|move|p2b: Basculegion|Soak|p1b: Kingambit
+|-start|p1b: Kingambit|typechange|Water
+|
+|-ability|p1a: Blaziken|Speed Boost|boost
+|-boost|p1a: Blaziken|spe|1
+|upkeep
+|turn|2
+|
+|t:|1783862873
+|switch|p2a: Toxapex|Toxapex, L50, F|100/100
+|move|p1a: Blaziken|Flare Blitz|p2b: Basculegion
+|-resisted|p2b: Basculegion|1
+|-damage|p2b: Basculegion|63/100
+|-damage|p1a: Blaziken|83/100|[from] Recoil
+|move|p2b: Basculegion|Flip Turn|p1a: Blaziken
+|-supereffective|p1a: Blaziken|1
+|-damage|p1a: Blaziken|0 fnt
+|faint|p1a: Blaziken
+|
+|t:|1783862882
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100|[from] Flip Turn
+|move|p1b: Kingambit|Kowtow Cleave|p2b: Kingambit
+|-resisted|p2b: Kingambit|1
+|-damage|p2b: Kingambit|85/100
+|-damage|p1b: Kingambit|90/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1783862891
+|switch|p1a: Aerodactyl|Aerodactyl, L50, M|100/100
+|-ability|p1a: Aerodactyl|Unnerve
+|turn|3
+|
+|t:|1783862903
+|move|p1a: Aerodactyl|Rock Slide|p2a: Toxapex|[spread] p2a,p2b
+|-resisted|p2b: Kingambit|1
+|-damage|p2a: Toxapex|87/100
+|-damage|p2b: Kingambit|78/100
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Toxapex
+|-damage|p2a: Toxapex|59/100
+|-damage|p1b: Kingambit|80/100|[from] item: Life Orb
+|cant|p2b: Kingambit|flinch
+|cant|p2a: Toxapex|flinch
+|
+|-heal|p2a: Toxapex|65/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1783862924
+|move|p2a: Toxapex|Wide Guard|p2a: Toxapex
+|-singleturn|p2a: Toxapex|Wide Guard
+|move|p1a: Aerodactyl|Ice Fang|p2a: Toxapex
+|-resisted|p2a: Toxapex|1
+|-damage|p2a: Toxapex|59/100
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Toxapex
+|-damage|p2a: Toxapex|31/100
+|-damage|p1b: Kingambit|71/100|[from] item: Life Orb
+|move|p2b: Kingambit|Swords Dance|p2b: Kingambit
+|-boost|p2b: Kingambit|atk|2
+|
+|-heal|p2a: Toxapex|37/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1783862946
+|-heal|p2a: Toxapex|70/100|[from] ability: Regenerator|[silent]
+|switch|p2a: Basculegion|Basculegion, L50, M|63/100
+|move|p1b: Kingambit|Sucker Punch|p2b: Kingambit
+|-resisted|p2b: Kingambit|1
+|-damage|p2b: Kingambit|65/100
+|-damage|p1b: Kingambit|61/100|[from] item: Life Orb
+|move|p2b: Kingambit|Sucker Punch|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|0 fnt
+|faint|p1a: Aerodactyl
+|
+|upkeep
+|
+|t:|1783862959
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|turn|6
+|
+|t:|1783862969
+|move|p1a: Basculegion|Aqua Jet|p2b: Kingambit
+|-damage|p2b: Kingambit|47/100
+|move|p1b: Kingambit|Sucker Punch|p2a: Basculegion
+|-supereffective|p2a: Basculegion|1
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|-damage|p1b: Kingambit|52/100|[from] item: Life Orb
+|move|p2b: Kingambit|Kowtow Cleave|p1a: Basculegion
+|-supereffective|p1a: Basculegion|1
+|-enditem|p1a: Basculegion|Focus Sash
+|-damage|p1a: Basculegion|1/100
+|
+|upkeep
+|
+|t:|1783862975
+|switch|p2a: Toxapex|Toxapex, L50, F|70/100
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Maffles)
+|
+|t:|1783863026
+|move|p1a: Basculegion|Protect|p1a: Basculegion
+|-singleturn|p1a: Basculegion|Protect
+|move|p1b: Kingambit|Sucker Punch|p2a: Toxapex
+|-damage|p2a: Toxapex|47/100
+|-damage|p1b: Kingambit|42/100|[from] item: Life Orb
+|move|p2b: Kingambit|Sucker Punch||[still]
+|-fail|p2b: Kingambit
+|move|p2a: Toxapex|Infestation|p1a: Basculegion
+|-activate|p1a: Basculegion|move: Protect
+|
+|-heal|p2a: Toxapex|53/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1783863049
+|move|p2b: Kingambit|Sucker Punch|p1a: Basculegion
+|-supereffective|p1a: Basculegion|1
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|move|p1b: Kingambit|Iron Head|p2b: Kingambit
+|-resisted|p2b: Kingambit|1
+|-damage|p2b: Kingambit|32/100
+|-damage|p1b: Kingambit|33/100|[from] item: Life Orb
+|move|p2a: Toxapex|Infestation|p1b: Kingambit
+|-damage|p1b: Kingambit|29/100
+|-activate|p1b: Kingambit|move: Infestation|[of] p2a: Toxapex
+|
+|-heal|p2a: Toxapex|59/100|[from] item: Leftovers
+|-damage|p1b: Kingambit|17/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|9
+|-message|exessvgc forfeited.
+|
+|win|Maffles
+|l|☆exessvgc
+|player|p1|
+||exessvgc is ready for game 3.
+||Maffles is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆Maffles
+|player|p2|
+|j|☆exessvgc
+|player|p1|exessvgc|169|

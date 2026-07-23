@@ -1,0 +1,106 @@
+|j|☆ghjk07
+|j|☆chizblitzn
+|html|ghjk07chizblitzn    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784386735
+|gametype|doubles
+|player|p1|ghjk07|hilbert|1034
+|player|p2|chizblitzn|169|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Mawile, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Crabominable, L50, M|
+|poke|p2|Pidgeot, L50, M|
+|poke|p2|Mamoswine, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Venusaur, L50, M|
+|poke|p2|Ninetales, L50, F|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Sneasler||IronBall|PoisonTouch|DireClaw,CloseCombat,Protect,FakeOut|Adamant||M|||50|]Farigiraf||ColburBerry|ArmorTail|TrickRoom,TwinBeam,Thunderbolt,Protect|Relaxed||M|||50|]Torkoal||Charcoal|Drought|Eruption,EarthPower,WeatherBall,SolarBeam|Quiet||M|||50|]Mawile||Mawilite|HyperCutter|PlayRough,ThunderPunch,SuckerPunch,Protect|Brave||F|||50|]Kingambit||BlackGlasses|Defiant|IronHead,KowtowCleave,SuckerPunch,Protect|Brave||M|||50|]Crabominable||Crabominite|HyperCutter|DrainPunch,IceHammer,Protect,ThunderPunch|Brave||M|||50|
+|showteam|p2|Pidgeot||Pidgeotite|TangledFeet|Hurricane,HeatWave,Tailwind,AirSlash|Modest||M|||50|]Mamoswine||FocusSash|Oblivious|IceShard,Earthquake,HighHorsepower,GigaImpact|Adamant||F|||50|]Sneasler||WhiteHerb|Unburden|LowKick,DireClaw,CloseCombat,GunkShot|Adamant||M|||50|]Venusaur||WideLens|Chlorophyll|LeafStorm,SludgeBomb,SleepPowder,EarthPower|Modest||M|||50|]Ninetales||LifeOrb|Drought|HeatWave,SolarBeam,ShadowBall,WillOWisp|Timid||F|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,AquaJet,LastRespects,FlipTurn|Jolly||M|||50|
+|
+|t:|1784386787
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Mamoswine|Mamoswine, L50, F|100/100
+|switch|p2b: Venusaur|Venusaur, L50, M|100/100
+|turn|1
+|
+|t:|1784386809
+|move|p1a: Sneasler|Fake Out|p2b: Venusaur
+|-damage|p2b: Venusaur|82/100
+|move|p2a: Mamoswine|High Horsepower|p1a: Sneasler
+|-supereffective|p1a: Sneasler|1
+|-crit|p1a: Sneasler
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|cant|p2b: Venusaur|flinch
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|upkeep
+|
+|t:|1784386820
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|2
+|
+|t:|1784386835
+|move|p1a: Torkoal|Eruption|p2b: Venusaur|[spread] p2a,p2b
+|-supereffective|p2a: Mamoswine|1
+|-supereffective|p2b: Venusaur|1
+|-enditem|p2a: Mamoswine|Focus Sash
+|-damage|p2a: Mamoswine|1/100
+|-damage|p2b: Venusaur|0 fnt
+|faint|p2b: Venusaur
+|move|p1b: Farigiraf|Twin Beam|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|-hitcount|p2: Mamoswine|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1784386860
+|switch|p2a: Pidgeot|Pidgeot, L50, M|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|turn|3
+|
+|t:|1784386886
+|move|p1a: Torkoal|Solar Beam||[still]
+|-prepare|p1a: Torkoal|Solar Beam
+|-anim|p1a: Torkoal|Solar Beam|p2b: Basculegion
+|-supereffective|p2b: Basculegion|1
+|-damage|p2b: Basculegion|18/100
+|move|p1b: Farigiraf|Thunderbolt|p2a: Pidgeot
+|-supereffective|p2a: Pidgeot|1
+|-damage|p2a: Pidgeot|28/100
+|-status|p2a: Pidgeot|par
+|cant|p2a: Pidgeot|par
+|move|p2b: Basculegion|Wave Crash|p1a: Torkoal
+|-supereffective|p1a: Torkoal|1
+|-damage|p1a: Torkoal|50/100g
+|-damage|p2b: Basculegion|4/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|-message|chizblitzn forfeited.
+|
+|win|ghjk07
+|raw|ghjk07's rating: 1034 → 1065(+31 for winning)
+|raw|chizblitzn's rating: 1000 → 1000(+0 for losing)
+|l|☆chizblitzn
+|player|p2|

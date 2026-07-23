@@ -1,0 +1,203 @@
+|j|☆ace.bnz
+|j|☆GholdenGonzaa
+|html|ace.bnzGholdenGonzaa    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1784656895
+|gametype|doubles
+|player|p1|ace.bnz|benga|
+|player|p2|GholdenGonzaa|265|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p2|Venusaur, L50, M|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Pelipper, L50, F|
+|teampreview|4
+|showteam|p1|Kingambit||ChopleBerry|Defiant|Protect,KowtowCleave,SuckerPunch,IronHead|Adamant||M|||50|]Whimsicott||FocusSash|Prankster|Protect,Moonblast,Encore,Tailwind|Timid||F|||50|]Garchomp||RoseliBerry|RoughSkin|RockTomb,PoisonJab,DragonClaw,Earthquake|Adamant||F|||50|]Charizard||CharizarditeY|SolarPower|Protect,WeatherBall,SolarBeam,HeatWave|Modest||F|||50|]Basculegion||SitrusBerry|Adaptability|Protect,WaveCrash,AquaJet,LastRespects|Adamant||M|||50|]Dragonite||Dragoninite|Multiscale|Protect,HeatWave,Thunderbolt,DragonPulse|Modest||M|||50|
+|showteam|p2|Venusaur||FocusSash|Chlorophyll|SludgeBomb,EarthPower,SleepPowder,Protect|Modest||M|||50|]Charizard||CharizarditeY|Blaze|Protect,HeatWave,SolarBeam,WeatherBall|Modest||M|||50|]Grimmsnarl||LightClay|Prankster|SpiritBreak,LightScreen,Reflect,PartingShot|Sassy||M|||50|]Archaludon||Leftovers|Stamina|ElectroShot,DragonPulse,FlashCannon,Protect|Calm||F|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,AquaJet,FlipTurn|Jolly||M|||50|]Pelipper||SitrusBerry|Drizzle|Hurricane,WeatherBall,Tailwind,WideGuard|Modest||F|||50|
+|
+|t:|1784656954
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|turn|1
+|
+|t:|1784656974
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: GholdenGonzaa|move: Light Screen
+|move|p2b: Basculegion|Flip Turn|p1b: Dragonite
+|-resisted|p1b: Dragonite|1
+|-damage|p1b: Dragonite|89/100
+|
+|t:|1784656980
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100|[from] Flip Turn
+|move|p1a: Whimsicott|Moonblast|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl|1
+|-damage|p2a: Grimmsnarl|58/100
+|move|p1b: Dragonite|Thunderbolt|p2b: Archaludon
+|-resisted|p2b: Archaludon|1
+|-damage|p2b: Archaludon|90/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|
+|-heal|p2b: Archaludon|96/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1784657004
+|move|p2a: Grimmsnarl|Parting Shot|p1b: Dragonite
+|-unboost|p1b: Dragonite|atk|1
+|-unboost|p1b: Dragonite|spa|1
+|
+|t:|1784657009
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Whimsicott|Moonblast|p2b: Archaludon
+|-damage|p2b: Archaludon|76/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p1b: Dragonite|Heat Wave|p2a: Pelipper|[spread] p2a
+|-miss|p1b: Dragonite|p2b: Archaludon
+|-resisted|p2a: Pelipper|1
+|-damage|p2a: Pelipper|97/100
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Whimsicott
+|-resisted|p1a: Whimsicott|1
+|-damage|p1a: Whimsicott|56/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|82/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1784657039
+|detailschange|p1b: Dragonite|Dragonite-Mega, L50, M
+|-mega|p1b: Dragonite|Dragonite|Dragoninite
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: ace.bnz|move: Tailwind
+|move|p1b: Dragonite|Thunderbolt|p2a: Pelipper
+|-supereffective|p2a: Pelipper|2
+|-damage|p2a: Pelipper|8/100
+|-enditem|p2a: Pelipper|Sitrus Berry|[eat]
+|-heal|p2a: Pelipper|33/100|[from] item: Sitrus Berry
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Whimsicott
+|-resisted|p1a: Whimsicott|1
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|move|p2a: Pelipper|Tailwind|p2a: Pelipper
+|-sidestart|p2: GholdenGonzaa|move: Tailwind
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|88/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1784657055
+|switch|p1a: Charizard|Charizard, L50, F|100/100
+|turn|4
+|
+|t:|1784657089
+|switch|p1a: Garchomp|Garchomp, L50, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|58/100
+|move|p2b: Archaludon|Protect|p2b: Archaludon
+|-singleturn|p2b: Archaludon|Protect
+|move|p1b: Dragonite|Thunderbolt|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|43/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|94/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1784657109
+|switch|p1b: Charizard|Charizard, L50, F|100/100
+|move|p2a: Grimmsnarl|Reflect|p2a: Grimmsnarl
+|-sidestart|p2: GholdenGonzaa|Reflect
+|move|p1a: Garchomp|Earthquake|p2b: Archaludon|[spread] p2a,p2b
+|-immune|p1b: Charizard
+|-supereffective|p2b: Archaludon|1
+|-damage|p2a: Grimmsnarl|16/100
+|-damage|p2b: Archaludon|72/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2b: Archaludon|Dragon Pulse|p1b: Charizard
+|-damage|p1b: Charizard|5/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|78/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1784657133
+|move|p2a: Grimmsnarl|Parting Shot|p1b: Charizard
+|-unboost|p1b: Charizard|atk|1
+|-unboost|p1b: Charizard|spa|1
+|
+|t:|1784657136
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100|[from] Parting Shot
+|move|p1b: Charizard|Heat Wave|p2b: Archaludon|[spread] p2a,p2b
+|-resisted|p2a: Basculegion|1
+|-damage|p2a: Basculegion|96/100
+|-damage|p2b: Archaludon|73/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p1a: Garchomp|Earthquake|p2b: Archaludon|[spread] p2a,p2b
+|-immune|p1b: Charizard
+|-supereffective|p2b: Archaludon|1
+|-damage|p2a: Basculegion|65/100
+|-damage|p2b: Archaludon|60/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2b: Archaludon|Dragon Pulse|p1a: Garchomp
+|-supereffective|p1a: Garchomp|1
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|-weather|none
+|-heal|p2b: Archaludon|66/100|[from] item: Leftovers
+|-sideend|p2: GholdenGonzaa|move: Tailwind
+|-sideend|p1: ace.bnz|move: Tailwind
+|upkeep
+|
+|t:|1784657151
+|switch|p1a: Dragonite|Dragonite-Mega, L50, M|89/100
+|turn|7
+|
+|t:|1784657170
+|move|p1b: Charizard|Protect|p1b: Charizard
+|-singleturn|p1b: Charizard|Protect
+|move|p2a: Basculegion|Aqua Jet|p1b: Charizard
+|-activate|p1b: Charizard|move: Protect
+|move|p1a: Dragonite|Thunderbolt|p2a: Basculegion
+|-supereffective|p2a: Basculegion|1
+|-damage|p2a: Basculegion|4/100
+|move|p2b: Archaludon|Dragon Pulse|p1a: Dragonite
+|-supereffective|p1a: Dragonite|1
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-heal|p2b: Archaludon|72/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|-message|ace.bnz forfeited.
+|
+|win|GholdenGonzaa

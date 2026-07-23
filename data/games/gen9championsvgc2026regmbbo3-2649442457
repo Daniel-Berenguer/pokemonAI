@@ -1,0 +1,177 @@
+|j|☆Khenzhu
+|j|☆swooshcel
+|html|Khenzhuswooshcel    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784093016
+|gametype|doubles
+|player|p1|Khenzhu|cynthia|
+|player|p2|swooshcel|102|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Vileplume, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Leafeon, L50, F|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Corviknight, L50, M|
+|poke|p2|Glimmora, L50, F|
+|poke|p2|Aurorus, L50, F|
+|poke|p2|Froslass, L50, F|
+|teampreview|4
+|showteam|p1|Dragonite||Dragoninite|Multiscale|Tailwind,DragonPulse,AirSlash,Protect|Modest||F|||50|]Torkoal||Charcoal|Drought|HelpingHand,Eruption,Protect,WeatherBall|Bold||F|||50|]Hatterene||LifeOrb|MagicBounce|TrickRoom,DazzlingGleam,Psychic,Protect|Bold||F|||50|]Vileplume||MentalHerb|Chlorophyll|AfterYou,Protect,SleepPowder,SludgeBomb|Bold||F|||50|]Sneasler||FocusSash|PoisonTouch|CloseCombat,FakeOut,DireClaw,Protect|Jolly||F|||50|]Leafeon||CobaBerry|Chlorophyll|KnockOff,LeafBlade,Protect,SolarBlade|Adamant||F|||50|
+|showteam|p2|Sinistcha-Masterpiece||SitrusBerry|Hospitality|MatchaGotcha,Scald,ShadowBall,RagePowder|Timid|||||50|]Basculegion||ChoiceScarf|Adaptability|IceFang,WaveCrash,LastRespects,FlipTurn|Jolly||M|||50|]Corviknight||FocusSash|Pressure|BraveBird,BodyPress,Tailwind,IronDefense|Impish||M|||50|]Glimmora||Glimmoranite|ToxicDebris|PowerGem,Protect,SludgeWave,Explosion|Modest||F|||50|]Aurorus||LightClay|SnowWarning|AuroraVeil,Blizzard,FlashCannon,Encore|Bold||F|||50|]Froslass||Froslassite|SnowCloak|Blizzard,Protect,NastyPlot,ShadowBall|Modest||F|||50|
+|
+|t:|1784093039
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|switch|p1b: Hatterene|Hatterene, L50, F|100/100
+|switch|p2a: train neck|Glimmora, L50, F|100/100
+|switch|p2b: aurora veil slave|Aurorus, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: aurora veil slave
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1784093057
+|switch|p2b: rime shank|Froslass, L50, F|100/100
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2a: train neck|Power Gem|p1a: Torkoal
+|-activate|p1a: Torkoal|move: Protect
+|move|p1b: Hatterene|Trick Room|p1b: Hatterene
+|-fieldstart|move: Trick Room|[of] p1b: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1784093072
+|switch|p2b: aurora veil slave|Aurorus, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: aurora veil slave
+|move|p1a: Torkoal|Eruption|p2b: aurora veil slave|[spread] p2a,p2b
+|-resisted|p2a: train neck|1
+|-damage|p2a: train neck|75/100
+|-damage|p2b: aurora veil slave|70/100
+|move|p1b: Hatterene|Psychic|p2a: train neck
+|-supereffective|p2a: train neck|1
+|-damage|p2a: train neck|0 fnt
+|faint|p2a: train neck
+|-damage|p1b: Hatterene|90/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1784093088
+|switch|p2a: roland|Basculegion, L50, M|100/100
+|turn|3
+|
+|t:|1784093101
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p1b: Hatterene|Dazzling Gleam|p2b: aurora veil slave|[spread] p2a,p2b
+|-damage|p2a: roland|60/100
+|-damage|p2b: aurora veil slave|43/100
+|-damage|p1b: Hatterene|80/100|[from] item: Life Orb
+|move|p2b: aurora veil slave|Aurora Veil|p2b: aurora veil slave
+|-sidestart|p2: swooshcel|move: Aurora Veil
+|move|p2a: roland|Wave Crash|p1a: Torkoal
+|-activate|p1a: Torkoal|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1784093119
+|move|p1a: Torkoal|Eruption|p2b: aurora veil slave|[spread] p2a,p2b
+|-resisted|p2a: roland|1
+|-damage|p2a: roland|45/100
+|-damage|p2b: aurora veil slave|23/100
+|move|p1b: Hatterene|Psychic|p2b: aurora veil slave
+|-damage|p2b: aurora veil slave|0 fnt
+|faint|p2b: aurora veil slave
+|-damage|p1b: Hatterene|70/100|[from] item: Life Orb
+|move|p2a: roland|Wave Crash|p1a: Torkoal
+|-supereffective|p1a: Torkoal|1
+|-damage|p1a: Torkoal|14/100
+|-damage|p2a: roland|20/100y|[from] Recoil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1784093131
+|switch|p2b: rime shank|Froslass, L50, F|100/100
+|turn|5
+|
+|t:|1784093142
+|detailschange|p2b: rime shank|Froslass-Mega, L50, F
+|-mega|p2b: rime shank|Froslass|Froslassite
+|move|p1a: Torkoal|Eruption|p2a: roland|[spread] p2a,p2b
+|-resisted|p2a: roland|1
+|-supereffective|p2b: rime shank|1
+|-damage|p2a: roland|18/100
+|-damage|p2b: rime shank|91/100
+|move|p1b: Hatterene|Dazzling Gleam|p2b: rime shank|[spread] p2a,p2b
+|-damage|p2a: roland|0 fnt
+|-damage|p2b: rime shank|62/100
+|faint|p2a: roland
+|-damage|p1b: Hatterene|60/100|[from] item: Life Orb
+|move|p2b: rime shank|Shadow Ball|p1b: Hatterene
+|-supereffective|p1b: Hatterene|1
+|-damage|p1b: Hatterene|0 fnt
+|faint|p1b: Hatterene
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1784093158
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100
+|turn|6
+|
+|t:|1784093175
+|detailschange|p1b: Dragonite|Dragonite-Mega, L50, F
+|-mega|p1b: Dragonite|Dragonite|Dragoninite
+|move|p2b: rime shank|Blizzard|p1a: Torkoal|[spread] p1a,p1b
+|-resisted|p1a: Torkoal|1
+|-supereffective|p1b: Dragonite|2
+|-damage|p1a: Torkoal|0 fnt
+|-damage|p1b: Dragonite|21/100
+|faint|p1a: Torkoal
+|move|p1b: Dragonite|Tailwind|p1b: Dragonite
+|-sidestart|p1: Khenzhu|move: Tailwind
+|
+|-weather|none
+|upkeep
+|
+|t:|1784093183
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|turn|7
+|
+|t:|1784093203
+|move|p1a: Sneasler|Fake Out|p2b: rime shank
+|-immune|p2b: rime shank
+|move|p1b: Dragonite|Air Slash|p2b: rime shank
+|-damage|p2b: rime shank|26/100
+|move|p2b: rime shank|Blizzard|p1b: Dragonite|[spread] p1a
+|-miss|p2b: rime shank|p1b: Dragonite
+|-damage|p1a: Sneasler|30/100
+|
+|upkeep
+|turn|8
+|
+|t:|1784093216
+|move|p1a: Sneasler|Dire Claw|p2b: rime shank
+|-resisted|p2b: rime shank|1
+|-damage|p2b: rime shank|2/100
+|move|p1b: Dragonite|Air Slash|p2b: rime shank
+|-damage|p2b: rime shank|0 fnt
+|faint|p2b: rime shank
+|
+|win|Khenzhu

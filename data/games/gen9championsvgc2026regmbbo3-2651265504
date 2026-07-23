@@ -1,0 +1,166 @@
+|j|☆sadkoolaid
+|j|☆Galactikitty
+|html|sadkoolaidGalactikitty    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784404406
+|gametype|doubles
+|player|p1|sadkoolaid|aaron|
+|player|p2|Galactikitty|galacticgruntf|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gengar, L50, F|
+|poke|p1|Kommo-o, L50, M|
+|poke|p1|Simisear, L50, F|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Sableye, L50, M|
+|poke|p2|Houndoom, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Leafeon, L50, F|
+|poke|p2|Araquanid, L50, M|
+|poke|p2|Florges, L50, F|
+|poke|p2|Drampa, L50, F|
+|teampreview|4
+|showteam|p1|Gengar||Gengarite|CursedBody|ShadowBall,SludgeBomb,PerishSong,Protect|Timid||F|||50|]Kommo-o||Leftovers|Soundproof|ClangingScales,Protect,AuraSphere,ClangorousSoul|Modest||M|||50|]Simisear||Charcoal|Blaze|FakeOut,Protect,Yawn,HeatWave|Hasty||F|||50|]Tyranitar||Tyranitarite|SandStream|Protect,Assurance,RockSlide,DragonDance|Adamant||F|||50|]Sneasler||WhiteHerb|Unburden|DireClaw,FakeOut,Acrobatics,CloseCombat|Adamant||M|||50|]Sableye||RoseliBerry|Prankster|Feint,Encore,ThunderWave,Hex|Relaxed||M|||50|
+|showteam|p2|Houndoom||Houndoominite|FlashFire|DarkPulse,SludgeBomb,HeatWave,Protect|Timid||F|||50|]Torkoal||Charcoal|Drought|Eruption,Protect,HelpingHand,Flamethrower|Calm||M|||50|]Leafeon||FocusSash|Chlorophyll|LeafBlade,SolarBlade,Protect,QuickAttack|Adamant||F|||50|]Araquanid||Leftovers|WaterBubble|LeechLife,Liquidation,WideGuard,Crunch|Adamant||M|||50|]Florges||ChoiceScarf|FlowerVeil|Moonblast,PsychicNoise,GigaDrain,Trick|Modest||F|||50|]Drampa||Drampanite|SapSipper|DragonPulse,EarthPower,IceBeam,Thunderbolt|Modest||F|||50|
+|j| Milkshook♡
+|
+|t:|1784404430
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: sqrt(40000)|Tyranitar, L50, F|100/100
+|switch|p1b: 4^3.821928094887|Sableye, L50, M|100/100
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|switch|p2b: Houndoom|Houndoom, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: sqrt(40000)
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1784404445
+|switch|p2b: Florges|Florges, L50, F|100/100
+|switch|p2a: Araquanid|Araquanid, L50, M|100/100
+|move|p1b: 4^3.821928094887|Feint|p2b: Florges
+|-damage|p2b: Florges|90/100
+|move|p1a: sqrt(40000)|Rock Slide|p2a: Araquanid|[spread] p2a,p2b
+|-supereffective|p2a: Araquanid|1
+|-damage|p2a: Araquanid|24/100
+|-damage|p2b: Florges|40/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Araquanid|30/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1784404464
+|detailschange|p1a: sqrt(40000)|Tyranitar-Mega, L50, F
+|-mega|p1a: sqrt(40000)|Tyranitar|Tyranitarite
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: sqrt(40000)
+|move|p1b: 4^3.821928094887|Thunder Wave|p2b: Florges|[miss]
+|-miss|p1b: 4^3.821928094887|p2b: Florges
+|move|p2b: Florges|Moonblast|p1b: 4^3.821928094887
+|-supereffective|p1b: 4^3.821928094887|1
+|-enditem|p1b: 4^3.821928094887|Roseli Berry|[eat]
+|-enditem|p1b: 4^3.821928094887|Roseli Berry|[weaken]
+|-damage|p1b: 4^3.821928094887|15/100
+|move|p1a: sqrt(40000)|Rock Slide|p2b: Florges|[spread] p2a
+|-miss|p1a: sqrt(40000)|p2b: Florges
+|-supereffective|p2a: Araquanid|1
+|-damage|p2a: Araquanid|0 fnt
+|faint|p2a: Araquanid
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Florges|34/100|[from] Sandstorm
+|-damage|p1b: 4^3.821928094887|10/100|[from] Sandstorm
+|upkeep
+|
+|t:|1784404484
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|3
+|
+|t:|1784404512
+|switch|p1a: 10x20|Gengar, L50, F|100/100
+|move|p1b: 4^3.821928094887|Thunder Wave|p2b: Florges
+|-status|p2b: Florges|par
+|move|p2b: Florges|Moonblast|p1a: 10x20
+|-resisted|p1a: 10x20|1
+|-damage|p1a: 10x20|66/100
+|move|p2a: Torkoal|Eruption|p1b: 4^3.821928094887|[spread] p1a,p1b
+|-damage|p1a: 10x20|0 fnt
+|-damage|p1b: 4^3.821928094887|0 fnt
+|-start|p2a: Torkoal|Disable|Eruption|[from] ability: Cursed Body|[of] p1a: 10x20
+|faint|p1a: 10x20
+|faint|p1b: 4^3.821928094887
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1784404523
+|switch|p1a: 133+67|Kommo-o, L50, M|100/100
+|switch|p1b: sqrt(40000)|Tyranitar-Mega, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: sqrt(40000)
+|turn|4
+|
+|t:|1784404533
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p1a: 133+67|Clangorous Soul|p1a: 133+67
+|-boost|p1a: 133+67|atk|1
+|-boost|p1a: 133+67|def|1
+|-boost|p1a: 133+67|spa|1
+|-boost|p1a: 133+67|spd|1
+|-boost|p1a: 133+67|spe|1
+|-damage|p1a: 133+67|67/100
+|move|p1b: sqrt(40000)|Rock Slide|p2a: Torkoal|[spread] p2b
+|-activate|p2a: Torkoal|move: Protect
+|-damage|p2b: Florges|0 fnt
+|faint|p2b: Florges
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 133+67|60/100|[from] Sandstorm
+|-damage|p2a: Torkoal|93/100|[from] Sandstorm
+|-heal|p1a: 133+67|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1784404545
+|switch|p2b: Houndoom|Houndoom, L50, F|100/100
+|turn|5
+|
+|t:|1784404554
+|detailschange|p2b: Houndoom|Houndoom-Mega, L50, F
+|-mega|p2b: Houndoom|Houndoom|Houndoominite
+|move|p2a: Torkoal|Helping Hand|p2b: Houndoom
+|-singleturn|p2b: Houndoom|Helping Hand|[of] p2a: Torkoal
+|move|p1a: 133+67|Aura Sphere|p2b: Houndoom
+|-supereffective|p2b: Houndoom|1
+|-damage|p2b: Houndoom|0 fnt
+|faint|p2b: Houndoom
+|move|p1b: sqrt(40000)|Rock Slide|p2a: Torkoal
+|-supereffective|p2a: Torkoal|1
+|-damage|p2a: Torkoal|14/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: 133+67|60/100|[from] Sandstorm
+|-damage|p2a: Torkoal|8/100|[from] Sandstorm
+|-heal|p1a: 133+67|67/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1784404568
+|move|p1a: 133+67|Aura Sphere|p2a: Torkoal
+|-damage|p2a: Torkoal|0 fnt
+|faint|p2a: Torkoal
+|
+|win|sadkoolaid
+||Galactikitty is ready for game 3.
+||sadkoolaid is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l| Milkshook♡
+|l|☆sadkoolaid
+|player|p1|
+|j|☆sadkoolaid
+|player|p1|sadkoolaid|aaron|

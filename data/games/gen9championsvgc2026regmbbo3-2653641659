@@ -1,0 +1,169 @@
+|j|☆ManiacTest09
+|j|☆standardamerican
+|html|ManiacTest09standardamerican    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1784815537
+|gametype|doubles
+|player|p1|ManiacTest09|2|1124
+|player|p2|standardamerican|169|1198
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Mawile, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Armarouge, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Hydreigon, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Milotic, L50, F|
+|poke|p2|Raichu, L50, F|
+|poke|p2|Gardevoir, L50, F|
+|poke|p2|Ceruledge, L50, F|
+|teampreview|4
+|showteam|p1|Tyranitar||Tyranitarite|SandStream|RockSlide,Protect,Crunch,HighHorsepower|Adamant||M|||50|]Mawile||Mawilite|HyperCutter|SuckerPunch,Protect,PlayRough,IronHead|Adamant||M|||50|]Farigiraf||ColburBerry|ArmorTail|TrickRoom,TwinBeam,Roar,FoulPlay|Sassy||F|||50|]Armarouge||FocusSash|FlashFire|TrickRoom,ArmorCannon,Protect,AuraSphere|Quiet||M|||50|]Basculegion||MysticWater|Adaptability|AquaJet,LastRespects,WaveCrash,Protect|Adamant||M|||50|]Hydreigon||ChoiceScarf|Levitate|EarthPower,DracoMeteor,Snarl,DarkPulse|Timid||M|||50|
+|showteam|p2|Sinistcha||KasibBerry|Hospitality|MatchaGotcha,Imprison,RagePowder,Protect|Bold|||||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,DarkestLariat,FakeOut,PartingShot|Careful||M|||50|]Milotic||Leftovers|Competitive|MuddyWater,Coil,Hypnosis,Protect|Calm||F|||50|]Raichu||RaichuniteY|LightningRod|ZapCannon,FocusBlast,FakeOut,Protect|Timid||F|||50|]Gardevoir||Gardevoirite|Trace|HyperVoice,Psyshock,TrickRoom,Protect|Modest||F|||50|]Ceruledge||ColburBerry|FlashFire|BitterBlade,ShadowSneak,BulkUp,Protect|Adamant||F|||50|
+|
+|t:|1784815628
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hydreigon|Hydreigon, L50, M|100/100
+|switch|p1b: Mawile|Mawile, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Gardevoir|Gardevoir, L50, F|100/100
+|-ability|p2b: Gardevoir|Hyper Cutter|Trace|[from] ability: Trace|[of] p1b: Mawile
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Hydreigon|atk|1
+|-fail|p1b: Mawile|unboost|Attack|[from] ability: Hyper Cutter|[of] p1b: Mawile
+|turn|1
+|
+|t:|1784815676
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|detailschange|p2b: Gardevoir|Gardevoir-Mega, L50, F
+|-mega|p2b: Gardevoir|Gardevoir|Gardevoirite
+|detailschange|p1b: Mawile|Mawile-Mega, L50, M
+|-mega|p1b: Mawile|Mawile|Mawilite
+|move|p2a: Incineroar|Fake Out||[still]
+|cant|p1a: Farigiraf|ability: Armor Tail|Fake Out|[of] p2a: Incineroar
+|move|p2b: Gardevoir|Hyper Voice|p1b: Mawile|[spread] p1a,p1b
+|-resisted|p1b: Mawile|1
+|-crit|p1b: Mawile
+|-damage|p1a: Farigiraf|62/100
+|-damage|p1b: Mawile|52/100
+|move|p1b: Mawile|Iron Head|p2b: Gardevoir
+|-supereffective|p2b: Gardevoir|1
+|-damage|p2b: Gardevoir|0 fnt
+|faint|p2b: Gardevoir
+|
+|upkeep
+|
+|t:|1784815691
+|switch|p2b: Sinistcha|Sinistcha, L50|100/100
+|turn|2
+|
+|t:|1784815732
+|move|p1b: Mawile|Protect|p1b: Mawile
+|-singleturn|p1b: Mawile|Protect
+|move|p2b: Sinistcha|Matcha Gotcha|p1b: Mawile|[spread] p1a
+|-activate|p1b: Mawile|move: Protect
+|-damage|p1a: Farigiraf|41/100
+|move|p2a: Incineroar|Flare Blitz|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|faint|p1a: Farigiraf
+|-damage|p2a: Incineroar|84/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1784815743
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|turn|3
+|
+|t:|1784815767
+|move|p2b: Sinistcha|Rage Powder|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|move: Rage Powder
+|move|p1a: Basculegion|Aqua Jet|p2b: Sinistcha
+|-resisted|p2b: Sinistcha|1
+|-damage|p2b: Sinistcha|85/100
+|move|p1b: Mawile|Sucker Punch||[still]
+|-fail|p1b: Mawile
+|move|p2a: Incineroar|Flare Blitz|p1b: Mawile
+|-supereffective|p1b: Mawile|1
+|-damage|p1b: Mawile|0 fnt
+|faint|p1b: Mawile
+|-damage|p2a: Incineroar|71/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1784815772
+|switch|p1b: Hydreigon|Hydreigon, L50, M|100/100
+|turn|4
+|
+|t:|1784815802
+|move|p2b: Sinistcha|Rage Powder|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|move: Rage Powder
+|move|p1b: Hydreigon|Dark Pulse|p2b: Sinistcha
+|-supereffective|p2b: Sinistcha|1
+|-damage|p2b: Sinistcha|5/100
+|move|p1a: Basculegion|Wave Crash|p2b: Sinistcha
+|-resisted|p2b: Sinistcha|1
+|-damage|p2b: Sinistcha|0 fnt
+|faint|p2b: Sinistcha
+|-damage|p1a: Basculegion|98/100|[from] Recoil
+|move|p2a: Incineroar|Parting Shot|p1b: Hydreigon
+|-unboost|p1b: Hydreigon|atk|1
+|-unboost|p1b: Hydreigon|spa|1
+|
+|t:|1784815813
+|switch|p2a: Milotic|Milotic, L50, F|100/100|[from] Parting Shot
+|
+|upkeep
+|
+|t:|1784815817
+|switch|p2b: Incineroar|Incineroar, L50, M|71/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Basculegion|atk|1
+|-unboost|p1b: Hydreigon|atk|1
+|turn|5
+|
+|t:|1784815835
+|move|p1b: Hydreigon|Dark Pulse|p2b: Incineroar
+|-resisted|p2b: Incineroar|1
+|-damage|p2b: Incineroar|60/100
+|move|p2a: Milotic|Coil|p2a: Milotic
+|-boost|p2a: Milotic|atk|1
+|-boost|p2a: Milotic|def|1
+|-boost|p2a: Milotic|accuracy|1
+|move|p1a: Basculegion|Last Respects|p2a: Milotic
+|-damage|p2a: Milotic|59/100
+|move|p2b: Incineroar|Darkest Lariat|p1a: Basculegion
+|-supereffective|p1a: Basculegion|1
+|-damage|p1a: Basculegion|22/100
+|
+|-heal|p2a: Milotic|65/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1784815856
+|move|p2a: Milotic|Protect|p2a: Milotic
+|-singleturn|p2a: Milotic|Protect
+|move|p1b: Hydreigon|Dark Pulse|p2a: Milotic
+|-activate|p2a: Milotic|move: Protect
+|move|p1a: Basculegion|Last Respects|p2a: Milotic
+|-activate|p2a: Milotic|move: Protect
+|move|p2b: Incineroar|Darkest Lariat|p1a: Basculegion
+|-supereffective|p1a: Basculegion|1
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|-heal|p2a: Milotic|71/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|-message|ManiacTest09 forfeited.
+|
+|win|standardamerican
+||ManiacTest09 is ready for game 2.

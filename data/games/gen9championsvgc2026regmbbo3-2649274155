@@ -1,0 +1,144 @@
+|j|☆cri96
+|j|☆lovetolearn
+|html|cri96lovetolearn    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784065180
+|gametype|doubles
+|player|p1|cri96|169|1000
+|player|p2|lovetolearn|101|1083
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Staraptor, L50, M|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Manectric, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p2|Mawile, L50, M, shiny|
+|poke|p2|Farigiraf, L50, F, shiny|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Vivillon-Monsoon, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Gallade, L50, M, shiny|
+|teampreview|4
+|showteam|p1|Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,Roost,Protect|Adamant||M|||50|]Grimmsnarl||MentalHerb|Prankster|PartingShot,SpiritBreak,LightScreen,Reflect|Careful||M|||50|]Basculegion||FocusSash|Adaptability|AquaJet,LastRespects,WaveCrash,Protect|Adamant||M|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,RockSlide,Protect,SwordsDance|Jolly||M|||50|]Manectric||Magnet|LightningRod|ChargeBeam,ScaryFace,Protect,PsychicFangs|Hasty||M|||50|]Sneasler||BlackBelt|Unburden|BrickBreak,FakeOut,RockSlide,Uturn|Adamant||F|||50|
+|showteam|p2|Mawile||Mawilite|HyperCutter|PlayRough,SuckerPunch,RockSlide,Protect|Brave||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,Thunderbolt,TrickRoom,Protect|Quiet||F|||50|]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HelpingHand,Protect|Quiet||M|||50|]Vivillon-Monsoon||FocusSash|CompoundEyes|Hurricane,SleepPowder,RagePowder,Protect|Timid||M|||50|]Incineroar||LifeOrb|Intimidate|FlareBlitz,DarkestLariat,CloseCombat,FakeOut|Brave||M|||50|]Gallade||IronBall|Sharpness|SacredSword,PsychoCut,LeafBlade,TrickRoom|Brave||M|||50|
+|
+|t:|1784065205
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Staraptor|Staraptor, L50, M|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, F, shiny|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Staraptor|Intimidate|boost
+|-unboost|p2a: Farigiraf|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|-unboost|p1b: Staraptor|atk|1
+|turn|1
+|
+|t:|1784065243
+|detailschange|p1b: Staraptor|Staraptor-Mega, L50, M
+|-mega|p1b: Staraptor|Staraptor|Staraptite
+|move|p1b: Staraptor|Protect|p1b: Staraptor
+|-singleturn|p1b: Staraptor|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Staraptor
+|-activate|p1b: Staraptor|move: Protect
+|move|p1a: Sneasler|U-turn|p2a: Farigiraf
+|-supereffective|p2a: Farigiraf|1
+|-damage|p2a: Farigiraf|68/100
+|
+|t:|1784065258
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100|[from] U-turn
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1784065271
+|switch|p2b: Gallade|Gallade, L50, M, shiny|100/100
+|move|p1a: Grimmsnarl|Parting Shot|p1b: Staraptor
+|-boost|p1b: Staraptor|atk|1
+|-boost|p1b: Staraptor|spa|1
+|
+|t:|1784065276
+|switch|p1a: Manectric|Manectric, L50, M|100/100|[from] Parting Shot
+|move|p2a: Farigiraf|Thunderbolt|p1a: Manectric
+|-activate|p1a: Manectric|ability: Lightning Rod
+|-ability|p1a: Manectric|Lightning Rod|boost
+|-boost|p1a: Manectric|spa|1
+|move|p1b: Staraptor|Close Combat|p2b: Gallade
+|-resisted|p2b: Gallade|1
+|-damage|p2b: Gallade|44/100
+|-boost|p1b: Staraptor|def|1
+|-boost|p1b: Staraptor|spd|1
+|
+|upkeep
+|turn|3
+|
+|t:|1784065316
+|move|p2b: Gallade|Sacred Sword|p1a: Manectric
+|-damage|p1a: Manectric|0 fnt
+|faint|p1a: Manectric
+|move|p2a: Farigiraf|Psychic|p1b: Staraptor
+|-supereffective|p1b: Staraptor|1
+|-damage|p1b: Staraptor|46/100
+|move|p1b: Staraptor|Close Combat|p2b: Gallade
+|-resisted|p2b: Gallade|1
+|-damage|p2b: Gallade|0 fnt
+|-boost|p1b: Staraptor|def|1
+|-boost|p1b: Staraptor|spd|1
+|faint|p2b: Gallade
+|
+|upkeep
+|
+|t:|1784065336
+|switch|p2b: Mawile|Mawile, L50, M, shiny|100/100
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|turn|4
+|
+|t:|1784065368
+|detailschange|p2b: Mawile|Mawile-Mega, L50, M, shiny
+|-mega|p2b: Mawile|Mawile|Mawilite
+|move|p2b: Mawile|Rock Slide|p1b: Staraptor|[spread] p1a,p1b
+|-resisted|p1a: Sneasler|1
+|-damage|p1a: Sneasler|66/100
+|-damage|p1b: Staraptor|30/100
+|move|p2a: Farigiraf|Psychic|p1b: Staraptor
+|-supereffective|p1b: Staraptor|1
+|-crit|p1b: Staraptor
+|-damage|p1b: Staraptor|0 fnt
+|faint|p1b: Staraptor
+|cant|p1a: Sneasler|flinch
+|
+|upkeep
+|
+|t:|1784065386
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|5
+|
+|t:|1784065404
+|move|p1b: Grimmsnarl|Parting Shot||[still]
+|cant|p2a: Farigiraf|ability: Armor Tail|Parting Shot|[of] p1b: Grimmsnarl
+|move|p2b: Mawile|Play Rough|p1b: Grimmsnarl
+|-supereffective|p1b: Grimmsnarl|1
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|move|p2a: Farigiraf|Psychic|p1a: Sneasler
+|-supereffective|p1a: Sneasler|2
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|
+|win|lovetolearn
+|raw|cri96's rating: 1000 → 1000(+0 for losing)
+|raw|lovetolearn's rating: 1083 → 1104(+21 for winning)
+|l|☆cri96
+|player|p1|

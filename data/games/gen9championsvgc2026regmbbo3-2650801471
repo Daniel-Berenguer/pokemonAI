@@ -1,0 +1,107 @@
+|j|☆ceruleancrow
+|j|☆AtomicTwilight
+|html|ceruleancrowAtomicTwilight    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1784319590
+|gametype|doubles
+|player|p1|ceruleancrow|1|
+|player|p2|AtomicTwilight|canari|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Diggersby, L50, M|
+|poke|p1|Altaria, L50, M|
+|poke|p1|Serperior, L50, M|
+|poke|p1|Salazzle, L50, F|
+|poke|p1|Lucario, L50, M|
+|poke|p1|Noivern, L50, F|
+|poke|p2|Greninja, L50, M|
+|poke|p2|Slowking-Galar, L50, M|
+|poke|p2|Rotom-Frost, L50|
+|poke|p2|Klefki, L50, F|
+|poke|p2|Krookodile, L50, M|
+|poke|p2|Chesnaught, L50, F|
+|teampreview|4
+|showteam|p1|Diggersby||LifeOrb|HugePower|Protect,Earthquake,RockSlide,HighHorsepower|Adamant||M|||50|]Altaria||Altarianite|CloudNine|Protect,HyperVoice,Tailwind,PerishSong|Modest||M|||50|]Serperior||SitrusBerry|Contrary|LeafStorm,Glare,Taunt,Protect|Timid||M|||50|]Salazzle||FocusSash|Oblivious|Flamethrower,SludgeBomb,Encore,FakeOut|Timid||F|||50|]Lucario||Lucarionite|InnerFocus|Detect,FlashCannon,AuraSphere,QuickGuard|Timid||M|||50|]Noivern||WhiteHerb|Infiltrator|Protect,AirSlash,DracoMeteor,Tailwind|Timid||F|||50|
+|showteam|p2|Greninja||Greninjite|Torrent|Blizzard,DarkPulse,Extrasensory,Protect|Modest||M|||50|]Slowking-Galar||Leftovers|Regenerator|ChillyReception,Protect,Toxic,ChillingWater|Calm||M|||50|]Rotom-Frost||ChoiceScarf|Levitate|VoltSwitch,Blizzard,Discharge,Electroweb|Timid|||||50|]Klefki||LightClay|Prankster|ThunderWave,Reflect,LightScreen,DazzlingGleam|Timid||F|||50|]Krookodile||LifeOrb|Intimidate|Earthquake,Crunch,CloseCombat,Protect|Jolly||M|||50|]Chesnaught||RoseliBerry|Bulletproof|HammerArm,WoodHammer,WideGuard,SpikyShield|Adamant||F|||50|
+|
+|t:|1784319689
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Salazzle|Salazzle, L50, F|100/100
+|switch|p1b: Lucario|Lucario, L50, M|100/100
+|switch|p2a: Slowking|Slowking-Galar, L50, M|100/100
+|switch|p2b: Krookodile|Krookodile, L50, M|100/100
+|-ability|p2b: Krookodile|Intimidate|boost
+|-fail|p1a: Salazzle|unboost|Attack|[from] ability: Oblivious|[of] p1a: Salazzle
+|-fail|p1b: Lucario|unboost|Attack|[from] ability: Inner Focus|[of] p1b: Lucario
+|turn|1
+|
+|t:|1784319731
+|detailschange|p1b: Lucario|Lucario-Mega, L50, M
+|-mega|p1b: Lucario|Lucario|Lucarionite
+|move|p2b: Krookodile|Protect|p2b: Krookodile
+|-singleturn|p2b: Krookodile|Protect
+|move|p2a: Slowking|Protect|p2a: Slowking
+|-singleturn|p2a: Slowking|Protect
+|move|p1a: Salazzle|Fake Out|p2a: Slowking
+|-activate|p2a: Slowking|move: Protect
+|move|p1b: Lucario|Aura Sphere|p2b: Krookodile
+|-activate|p2b: Krookodile|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1784319762
+|switch|p2b: Greninja|Greninja, L50, M|100/100
+|move|p1a: Salazzle|Encore|p2a: Slowking
+|-start|p2a: Slowking|Encore
+|move|p2a: Slowking|Protect||[still]
+|-fail|p2a: Slowking
+|move|p1b: Lucario|Aura Sphere|p2b: Greninja
+|-supereffective|p2b: Greninja|1
+|-damage|p2b: Greninja|0 fnt
+|faint|p2b: Greninja
+|
+|upkeep
+|
+|t:|1784319771
+|switch|p2b: Rotom|Rotom-Frost, L50|100/100
+|turn|3
+|
+|t:|1784319783
+|switch|p2a: Krookodile|Krookodile, L50, M|100/100
+|-ability|p2a: Krookodile|Intimidate|boost
+|-fail|p1a: Salazzle|unboost|Attack|[from] ability: Oblivious|[of] p1a: Salazzle
+|-unboost|p1b: Lucario|atk|1
+|move|p2b: Rotom|Electroweb|p1a: Salazzle|[spread] p1a,p1b
+|-damage|p1a: Salazzle|64/100
+|-damage|p1b: Lucario|66/100
+|-unboost|p1a: Salazzle|spe|1
+|-unboost|p1b: Lucario|spe|1
+|move|p1a: Salazzle|Flamethrower|p2b: Rotom
+|-supereffective|p2b: Rotom|1
+|-damage|p2b: Rotom|0 fnt
+|faint|p2b: Rotom
+|move|p1b: Lucario|Aura Sphere|p2a: Krookodile
+|-supereffective|p2a: Krookodile|1
+|-damage|p2a: Krookodile|0 fnt
+|faint|p2a: Krookodile
+|
+|upkeep
+|
+|t:|1784319799
+|switch|p2a: Slowking|Slowking-Galar, L50, M|100/100
+|turn|4
+|-message|AtomicTwilight forfeited.
+|
+|win|ceruleancrow
+||AtomicTwilight is ready for game 2.
+|c|☆ceruleancrow|gg
+|c|☆AtomicTwilight|gg
+|inactive|ceruleancrow has 30 seconds to confirm battle start!
+||ceruleancrow is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

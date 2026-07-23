@@ -1,0 +1,311 @@
+|j|☆Adriatic Tides
+|j|☆DrTid
+|html|Adriatic TidesDrTid    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784772814
+|gametype|doubles
+|player|p1|Adriatic Tides|leon|1152
+|player|p2|DrTid|1|1040
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Excadrill, L50, F|
+|poke|p1|Delphox, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Rotom-Wash, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Sceptile, L50, M|
+|poke|p2|Blastoise, L50, M|
+|poke|p2|Ditto, L50|
+|poke|p2|Sableye, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Clefable, L50, F|
+|teampreview|4
+|showteam|p1|Tyranitar||Tyranitarite|SandStream|KnockOff,RockSlide,Protect,LowKick|Adamant||M|||50|]Excadrill||FocusSash|SandRush|Protect,Earthquake,IronHead,RockSlide|Adamant||F|||50|]Delphox||Delphoxite|Blaze|NastyPlot,HeatWave,Psyshock,Protect|Timid||F|||50|]Sinistcha||ColburBerry|Hospitality|TrickRoom,MatchaGotcha,Protect,RagePowder|Bold|||||50|]Rotom-Wash||Leftovers|Levitate|Electroweb,HydroPump,Protect,Thunderbolt|Modest|||||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,PartingShot,ThroatChop|Careful||F|||50|
+|showteam|p2|Sceptile||SitrusBerry|Unburden|ShedTail,Protect,Acrobatics,EnergyBall|Brave||M|||50|]Blastoise||Blastoisinite|RainDish|WaterSpout,MuddyWater,Protect,IceBeam|Modest||M|||50|]Ditto||BrightPowder|Imposter|Transform|Bold|||||50|]Sableye||RoseliBerry|Prankster|Encore,Disable,Detect,WillOWisp|Relaxed||M|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,Protect,DracoMeteor,RockSlide|Naive||M|||50|]Clefable||Leftovers|Unaware|FollowMe,Protect,DrainingKiss,HelpingHand|Calm||F|||50|
+|
+|t:|1784772831
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Delphox|Delphox, L50, F|100/100
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|switch|p2a: Garchomp|Garchomp, L50, M|100/100
+|switch|p2b: Sableye|Sableye, L50, M|100/100
+|turn|1
+|
+|t:|1784772856
+|detailschange|p1a: Delphox|Delphox-Mega, L50, F
+|-mega|p1a: Delphox|Delphox|Delphoxite
+|move|p2b: Sableye|Detect|p2b: Sableye
+|-singleturn|p2b: Sableye|Protect
+|move|p1a: Delphox|Heat Wave|p2a: Garchomp|[spread] p2a
+|-activate|p2b: Sableye|move: Protect
+|-resisted|p2a: Garchomp|1
+|-damage|p2a: Garchomp|73/100
+|move|p2a: Garchomp|Earthquake|p1b: Sinistcha|[spread] p1b
+|-activate|p2b: Sableye|move: Protect
+|-immune|p1a: Delphox|[from] ability: Levitate
+|-resisted|p1b: Sinistcha|1
+|-damage|p1b: Sinistcha|80/100
+|-damage|p2a: Garchomp|63/100|[from] item: Life Orb
+|move|p1b: Sinistcha|Matcha Gotcha|p2b: Sableye|[spread] p2a
+|-activate|p2b: Sableye|move: Protect
+|-damage|p2a: Garchomp|32/100
+|-heal|p1b: Sinistcha|96/100|[from] drain|[of] p2a: Garchomp
+|
+|upkeep
+|turn|2
+|
+|t:|1784772885
+|move|p2b: Sableye|Disable|p1a: Delphox
+|-start|p1a: Delphox|Disable|Heat Wave
+|cant|p1a: Delphox|Disable|Heat Wave
+|move|p2a: Garchomp|Rock Slide|p1a: Delphox|[spread] p1a,p1b
+|-supereffective|p1a: Delphox|1
+|-crit|p1b: Sinistcha
+|-damage|p1a: Delphox|14/100
+|-damage|p1b: Sinistcha|70/100
+|-damage|p2a: Garchomp|22/100|[from] item: Life Orb
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Garchomp|[spread] p2b
+|-miss|p1b: Sinistcha|p2a: Garchomp
+|-damage|p2b: Sableye|61/100
+|-heal|p1b: Sinistcha|87/100|[from] drain|[of] p2b: Sableye
+|
+|upkeep
+|turn|3
+|
+|t:|1784772906
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|-unboost|p2b: Sableye|atk|1
+|move|p1a: Delphox|Protect|p1a: Delphox
+|-singleturn|p1a: Delphox|Protect
+|move|p2b: Sableye|Encore|p1a: Delphox
+|-activate|p1a: Delphox|move: Protect
+|move|p2a: Garchomp|Rock Slide|p1a: Delphox|[spread] p1b
+|-activate|p1a: Delphox|move: Protect
+|-supereffective|p1b: Incineroar|1
+|-damage|p1b: Incineroar|70/100
+|-damage|p2a: Garchomp|12/100|[from] item: Life Orb
+|
+|upkeep
+|turn|4
+|
+|t:|1784772923
+|switch|p1a: Sinistcha|Sinistcha, L50|87/100
+|-heal|p1b: Incineroar|95/100|[from] ability: Hospitality|[of] p1a: Sinistcha
+|move|p2b: Sableye|Detect|p2b: Sableye
+|-singleturn|p2b: Sableye|Protect
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1b: Incineroar|Flare Blitz|p2b: Sableye
+|-activate|p2b: Sableye|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1784772944
+|move|p2b: Sableye|Will-O-Wisp|p1a: Sinistcha
+|-status|p1a: Sinistcha|brn
+|move|p2a: Garchomp|Rock Slide|p1a: Sinistcha|[spread] p1a
+|-miss|p2a: Garchomp|p1b: Incineroar
+|-damage|p1a: Sinistcha|75/100 brn
+|-damage|p2a: Garchomp|2/100|[from] item: Life Orb
+|cant|p1a: Sinistcha|flinch
+|move|p1b: Incineroar|Flare Blitz|p2b: Sableye
+|-damage|p2b: Sableye|15/100
+|-damage|p1b: Incineroar|83/100|[from] Recoil
+|
+|-damage|p1a: Sinistcha|69/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1784772982
+|move|p2b: Sableye|Detect|p2b: Sableye
+|-singleturn|p2b: Sableye|Protect
+|move|p2a: Garchomp|Draco Meteor|p1b: Incineroar
+|-damage|p1b: Incineroar|46/100
+|-unboost|p2a: Garchomp|spa|2
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|71/100|[from] item: Sitrus Berry
+|-damage|p2a: Garchomp|0 fnt|[from] item: Life Orb
+|faint|p2a: Garchomp
+|move|p1a: Sinistcha|Matcha Gotcha|p2b: Sableye
+|-activate|p2b: Sableye|move: Protect
+|move|p1b: Incineroar|Parting Shot|p2b: Sableye
+|-activate|p2b: Sableye|move: Protect
+|
+|-damage|p1a: Sinistcha|62/100 brn|[from] brn
+|upkeep
+|
+|t:|1784773001
+|switch|p2a: Blastoise|Blastoise, L50, M|100/100
+|turn|7
+|
+|t:|1784773016
+|detailschange|p2a: Blastoise|Blastoise-Mega, L50, M
+|-mega|p2a: Blastoise|Blastoise|Blastoisinite
+|move|p2a: Blastoise|Protect|p2a: Blastoise
+|-singleturn|p2a: Blastoise|Protect
+|move|p2b: Sableye|Disable|p1a: Sinistcha
+|-start|p1a: Sinistcha|Disable|Matcha Gotcha
+|cant|p1a: Sinistcha|Disable|Matcha Gotcha
+|move|p1b: Incineroar|Parting Shot|p2a: Blastoise
+|-activate|p2a: Blastoise|move: Protect
+|
+|-damage|p1a: Sinistcha|56/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1784773035
+|move|p1a: Sinistcha|Protect|p1a: Sinistcha
+|-singleturn|p1a: Sinistcha|Protect
+|move|p2b: Sableye|Encore|p1a: Sinistcha
+|-activate|p1a: Sinistcha|move: Protect
+|move|p2a: Blastoise|Muddy Water|p1a: Sinistcha|[spread] 
+|-activate|p1a: Sinistcha|move: Protect
+|-miss|p2a: Blastoise|p1b: Incineroar
+|move|p1b: Incineroar|Flare Blitz|p2b: Sableye
+|-damage|p2b: Sableye|0 fnt
+|faint|p2b: Sableye
+|-damage|p1b: Incineroar|67/100|[from] Recoil
+|
+|-damage|p1a: Sinistcha|50/100g brn|[from] brn
+|upkeep
+|
+|t:|1784773048
+|switch|p2b: Clefable|Clefable, L50, F|100/100
+|turn|9
+|
+|t:|1784773081
+|switch|p1a: Delphox|Delphox-Mega, L50, F|14/100
+|move|p2b: Clefable|Follow Me|p2b: Clefable
+|-singleturn|p2b: Clefable|move: Follow Me
+|move|p2a: Blastoise|Water Spout|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Delphox|1
+|-supereffective|p1b: Incineroar|1
+|-damage|p1a: Delphox|0 fnt
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1a: Delphox
+|faint|p1b: Incineroar
+|
+|upkeep
+|
+|t:|1784773088
+|switch|p1a: Rotom|Rotom-Wash, L50|100/100
+|switch|p1b: Sinistcha|Sinistcha, L50|50/100g brn
+|turn|10
+|
+|t:|1784773102
+|move|p1a: Rotom|Electroweb|p2a: Blastoise|[spread] p2a,p2b
+|-supereffective|p2a: Blastoise|1
+|-damage|p2a: Blastoise|70/100
+|-damage|p2b: Clefable|89/100
+|-unboost|p2a: Blastoise|spe|1
+|-unboost|p2b: Clefable|spe|1
+|move|p1b: Sinistcha|Matcha Gotcha|p2b: Clefable|[spread] p2a,p2b
+|-supereffective|p2a: Blastoise|1
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|6/100
+|-heal|p1b: Sinistcha|84/100 brn|[from] drain|[of] p2a: Blastoise
+|-damage|p2b: Clefable|71/100
+|-heal|p1b: Sinistcha|94/100 brn|[from] drain|[of] p2b: Clefable
+|-status|p2b: Clefable|brn
+|move|p2a: Blastoise|Ice Beam|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha|1
+|-damage|p1b: Sinistcha|15/100 brn
+|move|p2b: Clefable|Draining Kiss|p1a: Rotom
+|-damage|p1a: Rotom|82/100
+|-heal|p2b: Clefable|81/100 brn|[from] drain|[of] p1a: Rotom
+|
+|-heal|p1a: Rotom|88/100|[from] item: Leftovers
+|-heal|p2b: Clefable|87/100 brn|[from] item: Leftovers
+|-damage|p1b: Sinistcha|9/100 brn|[from] brn
+|-damage|p2b: Clefable|81/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1784773127
+|move|p2a: Blastoise|Protect|p2a: Blastoise
+|-singleturn|p2a: Blastoise|Protect
+|move|p2b: Clefable|Protect|p2b: Clefable
+|-singleturn|p2b: Clefable|Protect
+|move|p1a: Rotom|Electroweb|p2b: Clefable|[spread] 
+|-activate|p2a: Blastoise|move: Protect
+|-activate|p2b: Clefable|move: Protect
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Blastoise|[spread] 
+|-activate|p2a: Blastoise|move: Protect
+|-activate|p2b: Clefable|move: Protect
+|
+|-heal|p1a: Rotom|94/100|[from] item: Leftovers
+|-heal|p2b: Clefable|87/100 brn|[from] item: Leftovers
+|-damage|p1b: Sinistcha|3/100 brn|[from] brn
+|-damage|p2b: Clefable|81/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1784773150
+|move|p1a: Rotom|Electroweb|p2b: Clefable|[spread] p2a,p2b
+|-supereffective|p2a: Blastoise|1
+|-crit|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|-damage|p2b: Clefable|70/100 brn
+|-unboost|p2b: Clefable|spe|1
+|faint|p2a: Blastoise
+|move|p1b: Sinistcha|Matcha Gotcha|p2b: Clefable
+|-damage|p2b: Clefable|47/100 brn
+|-heal|p1b: Sinistcha|16/100 brn|[from] drain|[of] p2b: Clefable
+|move|p2b: Clefable|Draining Kiss|p1a: Rotom
+|-damage|p1a: Rotom|76/100
+|-heal|p2b: Clefable|57/100 brn|[from] drain|[of] p1a: Rotom
+|
+|-heal|p1a: Rotom|82/100|[from] item: Leftovers
+|-heal|p2b: Clefable|63/100 brn|[from] item: Leftovers
+|-damage|p1b: Sinistcha|10/100 brn|[from] brn
+|-damage|p2b: Clefable|57/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1784773168
+|move|p2b: Clefable|Protect|p2b: Clefable
+|-singleturn|p2b: Clefable|Protect
+|move|p1a: Rotom|Thunderbolt|p2b: Clefable
+|-activate|p2b: Clefable|move: Protect
+|move|p1b: Sinistcha|Matcha Gotcha|p2b: Clefable
+|-activate|p2b: Clefable|move: Protect
+|
+|-heal|p1a: Rotom|87/100|[from] item: Leftovers
+|-heal|p2b: Clefable|63/100 brn|[from] item: Leftovers
+|-damage|p1b: Sinistcha|3/100 brn|[from] brn
+|-damage|p2b: Clefable|57/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1784773179
+|move|p2b: Clefable|Protect||[still]
+|-fail|p2b: Clefable
+|move|p1a: Rotom|Thunderbolt|p2b: Clefable
+|-damage|p2b: Clefable|35/100 brn
+|move|p1b: Sinistcha|Matcha Gotcha|p2b: Clefable
+|-damage|p2b: Clefable|10/100 brn
+|-heal|p1b: Sinistcha|17/100 brn|[from] drain|[of] p2b: Clefable
+|
+|-heal|p1a: Rotom|93/100|[from] item: Leftovers
+|-heal|p2b: Clefable|16/100 brn|[from] item: Leftovers
+|-damage|p1b: Sinistcha|11/100 brn|[from] brn
+|-damage|p2b: Clefable|10/100 brn|[from] brn
+|upkeep
+|turn|15
+|-message|DrTid forfeited.
+|
+|win|Adriatic Tides
+|raw|Adriatic Tides's rating: 1152 → 1169(+17 for winning)
+|raw|DrTid's rating: 1040 → 1029(-11 for losing)
+|l|☆DrTid
+|player|p2|

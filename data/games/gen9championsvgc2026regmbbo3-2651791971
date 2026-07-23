@@ -1,0 +1,171 @@
+|j|☆pizzawing
+|j|☆failandimprove5
+|html|pizzawingfailandimprove5    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784501208
+|gametype|doubles
+|player|p1|pizzawing|170|1410
+|player|p2|failandimprove5|266|1365
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Aerodactyl, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Venusaur, L50, M|
+|poke|p1|Conkeldurr, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Venusaur, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Toxapex, L50, M|
+|poke|p2|Annihilape, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|SolarPower|HeatWave,WeatherBall,AncientPower,Protect|Timid||F|||50|]Aerodactyl||Aerodactylite|Unnerve|RockSlide,Tailwind,DualWingbeat,IceFang|Jolly||F|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,HyperVoice,TrickRoom,Protect|Quiet||F|||50|]Venusaur||LifeOrb|Chlorophyll|EnergyBall,EarthPower,SludgeBomb,Protect|Modest||M|||50|]Conkeldurr||BlackBelt|IronFist|DrainPunch,MachPunch,IcePunch,ThunderPunch|Brave||F|||50|]Incineroar||ShucaBerry|Intimidate|FlareBlitz,FakeOut,ThroatChop,PartingShot|Adamant||F|||50|
+|showteam|p2|Garchomp||ChoiceScarf|RoughSkin|Earthquake,RockSlide,DragonClaw,StompingTantrum|Adamant||F|||50|]Venusaur||LifeOrb|Chlorophyll|SludgeBomb,SolarBeam,EarthPower,Protect|Modest||M|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,ThroatChop,PartingShot|Impish||F|||50|]Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,HelpingHand,Protect|Modest||M|||50|]Toxapex||Leftovers|Regenerator|Infestation,Toxic,WideGuard,BanefulBunker|Bold||M|||50|]Annihilape||FocusSash|Defiant|CloseCombat,PhantomForce,RockTomb,Protect|Jolly||M|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by failandimprove5)
+|
+|t:|1784501240
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, L50, F|100/100
+|switch|p1b: Charizard|Charizard, L50, F|100/100
+|switch|p2a: Toxapex|Toxapex, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1a: Aerodactyl|Unnerve
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Aerodactyl|atk|1
+|-unboost|p1b: Charizard|atk|1
+|turn|1
+|inactive|failandimprove5 has 30 seconds left.
+|
+|t:|1784501268
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|move|p1a: Aerodactyl|Rock Slide|p2b: Incineroar|[spread] p2a,p2b
+|-supereffective|p2b: Incineroar|1
+|-damage|p2a: Toxapex|88/100
+|-damage|p2b: Incineroar|73/100
+|cant|p2b: Incineroar|flinch
+|move|p2a: Toxapex|Infestation|p1b: Farigiraf
+|-supereffective|p1b: Farigiraf|1
+|-damage|p1b: Farigiraf|93/100
+|-activate|p1b: Farigiraf|move: Infestation|[of] p2a: Toxapex
+|
+|-heal|p2a: Toxapex|94/100|[from] item: Leftovers
+|-damage|p1b: Farigiraf|81/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1784501292
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Aerodactyl|Rock Slide|p2b: Garchomp|[spread] 
+|-activate|p2a: Toxapex|move: Protect
+|-miss|p1a: Aerodactyl|p2b: Garchomp
+|move|p1b: Farigiraf|Hyper Voice|p2b: Garchomp|[spread] p2b
+|-activate|p2a: Toxapex|move: Protect
+|-damage|p2b: Garchomp|64/100
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Leftovers
+|-damage|p1b: Farigiraf|69/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1784501310
+|move|p2b: Garchomp|Rock Slide|p1b: Farigiraf|[spread] p1a,p1b
+|-supereffective|p1a: Aerodactyl|1
+|-damage|p1a: Aerodactyl|24/100
+|-damage|p1b: Farigiraf|47/100
+|-enditem|p1b: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1b: Farigiraf|72/100|[from] item: Sitrus Berry
+|move|p1a: Aerodactyl|Ice Fang|p2b: Garchomp
+|-supereffective|p2b: Garchomp|2
+|-crit|p2b: Garchomp
+|-damage|p2b: Garchomp|0 fnt
+|-damage|p1a: Aerodactyl|12/100|[from] ability: Rough Skin|[of] p2b: Garchomp
+|faint|p2b: Garchomp
+|move|p1b: Farigiraf|Hyper Voice|p2a: Toxapex
+|-damage|p2a: Toxapex|68/100
+|move|p2a: Toxapex|Toxic|p1b: Farigiraf
+|-status|p1b: Farigiraf|tox
+|
+|-heal|p2a: Toxapex|74/100|[from] item: Leftovers
+|-damage|p1b: Farigiraf|65/100 tox|[from] psn
+|-damage|p1b: Farigiraf|53/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1784501325
+|switch|p2b: Annihilape|Annihilape, L50, M|100/100
+|turn|4
+|
+|t:|1784501334
+|move|p2b: Annihilape|Protect|p2b: Annihilape
+|-singleturn|p2b: Annihilape|Protect
+|move|p1a: Aerodactyl|Tailwind|p1a: Aerodactyl
+|-sidestart|p1: pizzawing|move: Tailwind
+|move|p1b: Farigiraf|Psychic|p2b: Annihilape
+|-activate|p2b: Annihilape|move: Protect
+|move|p2a: Toxapex|Infestation|p1a: Aerodactyl
+|-resisted|p1a: Aerodactyl|1
+|-damage|p1a: Aerodactyl|10/100
+|-activate|p1a: Aerodactyl|move: Infestation|[of] p2a: Toxapex
+|
+|-heal|p2a: Toxapex|80/100|[from] item: Leftovers
+|-damage|p1b: Farigiraf|41/100 tox|[from] psn
+|-damage|p1a: Aerodactyl|0 fnt|[from] move: Infestation|[partiallytrapped]
+|faint|p1a: Aerodactyl
+|-damage|p1b: Farigiraf|28/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1784501347
+|switch|p1a: Venusaur|Venusaur, L50, M|100/100
+|turn|5
+|
+|t:|1784501371
+|move|p2a: Toxapex|Baneful Bunker|p2a: Toxapex
+|-singleturn|p2a: Toxapex|move: Protect
+|move|p1a: Venusaur|Earth Power|p2b: Annihilape
+|-damage|p2b: Annihilape|63/100
+|-damage|p1a: Venusaur|90/100|[from] item: Life Orb
+|move|p2b: Annihilape|Phantom Force||[still]
+|-prepare|p2b: Annihilape|Phantom Force
+|move|p1b: Farigiraf|Psychic|p2b: Annihilape|[miss]
+|-miss|p1b: Farigiraf|p2b: Annihilape
+|
+|-heal|p2a: Toxapex|85/100|[from] item: Leftovers
+|-damage|p1b: Farigiraf|10/100 tox|[from] psn
+|-end|p1b: Farigiraf|Infestation|[partiallytrapped]
+|upkeep
+|turn|6
+|
+|t:|1784501390
+|-heal|p2a: Toxapex|100/100|[from] ability: Regenerator|[silent]
+|switch|p2a: Incineroar|Incineroar, L50, F|73/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Venusaur|atk|1
+|-unboost|p1b: Farigiraf|atk|1
+|move|p1a: Venusaur|Earth Power|p2a: Incineroar
+|-supereffective|p2a: Incineroar|1
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|-damage|p1a: Venusaur|80/100|[from] item: Life Orb
+|move|p2b: Annihilape|Phantom Force|p1a: Venusaur|[from] lockedmove
+|-damage|p1a: Venusaur|23/100
+|move|p1b: Farigiraf|Psychic|p2b: Annihilape
+|-supereffective|p2b: Annihilape|1
+|-damage|p2b: Annihilape|0 fnt
+|faint|p2b: Annihilape
+|
+|-damage|p1b: Farigiraf|0 fnt|[from] psn
+|faint|p1b: Farigiraf
+|upkeep
+|inactive|failandimprove5 has 30 seconds left.
+|-message|failandimprove5 forfeited.
+|
+|win|pizzawing

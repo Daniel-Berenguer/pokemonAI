@@ -1,0 +1,252 @@
+|j|☆SoupForSale
+|j|☆Aotearoa Barrage
+|html|SoupForSaleAotearoa Barrage    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784013293
+|gametype|doubles
+|player|p1|SoupForSale|gambler|
+|player|p2|Aotearoa Barrage|265|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Scrafty, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Vileplume, L50, M|
+|poke|p1|Rhyperior, L50, M|
+|poke|p1|Sharpedo, L50, M|
+|poke|p1|Delphox, L50, F|
+|poke|p2|Gengar, L50, F|
+|poke|p2|Aerodactyl, L50, F|
+|poke|p2|Maushold-Four, L50|
+|poke|p2|Milotic, L50, M|
+|poke|p2|Liepard, L50, M|
+|poke|p2|Dedenne, L50, M|
+|teampreview|4
+|showteam|p1|Scrafty||Scraftinite|Moxie|FakeOut,DrainPunch,Detect,Crunch|Brave||M|||50|]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HelpingHand,Protect|Quiet||M|||50|]Vileplume||LifeOrb|Chlorophyll|SolarBeam,AfterYou,Protect,WeatherBall|Timid||M|||50|]Rhyperior||Leftovers|SolidRock|Earthquake,RockSlide,Protect,HammerArm|Adamant||M|||50|]Sharpedo||FocusSash|SpeedBoost|Liquidation,Crunch,Protect,IcyWind|Jolly||M|||50|]Delphox||Delphoxite|Blaze|LightScreen,TrickRoom,Psyshock,Protect|Timid||F|||50|
+|showteam|p2|Gengar||Gengarite|CursedBody|Disable,PerishSong,ShadowBall,Protect|Serious||F|||50|]Aerodactyl||Aerodactylite|RockHead|RockSlide,DragonDance,Protect,WideGuard|Jolly||F|||50|]Maushold-Four||KingsRock|FriendGuard|Agility,BatonPass,Encore,PopulationBomb|Impish|||||50|]Milotic||Leftovers|Competitive|PsychUp,IceBeam,Scald,DrainingKiss|Calm||M|||50|]Liepard||ChopleBerry|Prankster|Encore,FakeOut,DoubleTeam,DarkPulse|Modest||M|||50|]Dedenne||BrightPowder|Plus|Entrainment,DazzlingGleam,LightScreen,Nuzzle|Timid||M|||50|
+|
+|t:|1784013384
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ra|Torkoal, L50, M|100/100
+|switch|p1b: Sobek|Sharpedo, L50, M|100/100
+|switch|p2a: Gengar|Gengar, L50, F|100/100
+|switch|p2b: Dedenne|Dedenne, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ra
+|turn|1
+|
+|t:|1784013433
+|switch|p1a: Osiris|Scrafty, L50, M|100/100
+|detailschange|p2a: Gengar|Gengar-Mega, L50, F
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p1b: Sobek|Protect|p1b: Sobek
+|-singleturn|p1b: Sobek|Protect
+|move|p2b: Dedenne|Nuzzle|p1a: Osiris
+|-damage|p1a: Osiris|95/100
+|-status|p1a: Osiris|par
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1b: Sobek|Speed Boost|boost
+|-boost|p1b: Sobek|spe|1
+|upkeep
+|turn|2
+|
+|t:|1784013460
+|switch|p2a: Liepard|Liepard, L50, M|100/100
+|detailschange|p1a: Osiris|Scrafty-Mega, L50, M
+|-mega|p1a: Osiris|Scrafty|Scraftinite
+|-ability|p1a: Osiris|Intimidate|boost
+|-unboost|p2a: Liepard|atk|1
+|-unboost|p2b: Dedenne|atk|1
+|move|p1a: Osiris|Fake Out|p2b: Dedenne
+|-damage|p2b: Dedenne|74/100
+|move|p1b: Sobek|Crunch|p2a: Liepard
+|-resisted|p2a: Liepard|1
+|-damage|p2a: Liepard|67/100
+|cant|p2b: Dedenne|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1b: Sobek|Speed Boost|boost
+|-boost|p1b: Sobek|spe|1
+|upkeep
+|turn|3
+|
+|t:|1784013484
+|move|p2a: Liepard|Fake Out|p1b: Sobek
+|-damage|p1b: Sobek|87/100
+|cant|p1b: Sobek|flinch
+|move|p2b: Dedenne|Dazzling Gleam|p1a: Osiris|[spread] p1a,p1b
+|-supereffective|p1a: Osiris|2
+|-supereffective|p1b: Sobek|1
+|-damage|p1a: Osiris|30/100 par
+|-damage|p1b: Sobek|0 fnt
+|faint|p1b: Sobek
+|move|p1a: Osiris|Drain Punch|p2a: Liepard
+|-supereffective|p2a: Liepard|1
+|-enditem|p2a: Liepard|Chople Berry|[eat]
+|-enditem|p2a: Liepard|Chople Berry|[weaken]
+|-damage|p2a: Liepard|1/100
+|-heal|p1a: Osiris|61/100 par|[from] drain|[of] p2a: Liepard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆SoupForSale|Woah!!
+|c|☆SoupForSale|What a turn for you!
+|
+|t:|1784013507
+|switch|p1b: Khepri|Vileplume, L50, M|100/100
+|turn|4
+|c|☆Aotearoa Barrage|got the dogs out front
+|
+|t:|1784013533
+|cant|p1a: Osiris|par
+|move|p2a: Liepard|Double Team|p2a: Liepard
+|-boost|p2a: Liepard|evasion|1
+|move|p1b: Khepri|Solar Beam||[still]
+|-prepare|p1b: Khepri|Solar Beam
+|-anim|p1b: Khepri|Solar Beam|p2b: Dedenne
+|-damage|p2b: Dedenne|0 fnt
+|faint|p2b: Dedenne
+|-damage|p1b: Khepri|90/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|c|☆SoupForSale|Dedenne packing heat
+|
+|t:|1784013548
+|switch|p2b: Gengar|Gengar-Mega, L50, F|100/100
+|turn|5
+|c|☆Aotearoa Barrage|thang on him
+|
+|t:|1784013586
+|move|p2b: Gengar|Protect|p2b: Gengar
+|-singleturn|p2b: Gengar|Protect
+|move|p2a: Liepard|Double Team|p2a: Liepard
+|-boost|p2a: Liepard|evasion|1
+|move|p1b: Khepri|After You|p1a: Osiris
+|-activate|p1a: Osiris|move: After You
+|move|p1a: Osiris|Crunch|p2b: Gengar
+|-activate|p2b: Gengar|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1784013622
+|move|p2b: Gengar|Disable|p1a: Osiris
+|-start|p1a: Osiris|Disable|Crunch
+|move|p2a: Liepard|Dark Pulse|p1b: Khepri
+|-damage|p1b: Khepri|50/100g
+|cant|p1b: Khepri|flinch
+|cant|p1a: Osiris|Disable|Crunch
+|
+|upkeep
+|turn|7
+|c|☆SoupForSale|Brah you’re slapping me around hagaha
+|c|☆Aotearoa Barrage|flinch goes crazy
+|
+|t:|1784013668
+|move|p1b: Khepri|Protect|p1b: Khepri
+|-singleturn|p1b: Khepri|Protect
+|move|p2b: Gengar|Shadow Ball|p1b: Khepri
+|-activate|p1b: Khepri|move: Protect
+|move|p2a: Liepard|Dark Pulse|p1b: Khepri
+|-activate|p1b: Khepri|move: Protect
+|move|p1a: Osiris|Drain Punch|p2a: Liepard
+|-supereffective|p2a: Liepard|1
+|-damage|p2a: Liepard|0 fnt
+|-heal|p1a: Osiris|62/100 par|[from] drain|[of] p2a: Liepard
+|faint|p2a: Liepard
+|
+|upkeep
+|c|☆Aotearoa Barrage|my cat!
+|
+|t:|1784013687
+|switch|p2a: Milotic|Milotic, L50, M|100/100
+|turn|8
+|c|☆SoupForSale|Had to go, sort Liepard
+|c|☆Aotearoa Barrage|all that double team not to dodge a damn thing huh
+|
+|t:|1784013726
+|move|p1a: Osiris|Detect|p1a: Osiris
+|-singleturn|p1a: Osiris|Protect
+|move|p2b: Gengar|Shadow Ball|p1a: Osiris
+|-activate|p1a: Osiris|move: Protect
+|move|p1b: Khepri|Solar Beam||[still]
+|-prepare|p1b: Khepri|Solar Beam
+|move|p2a: Milotic|Ice Beam|p1b: Khepri
+|-supereffective|p1b: Khepri|1
+|-damage|p1b: Khepri|0 fnt
+|faint|p1b: Khepri
+|
+|upkeep
+|
+|t:|1784013736
+|switch|p1b: Ra|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Ra
+|turn|9
+|
+|t:|1784013753
+|move|p1b: Ra|Helping Hand|p1a: Osiris
+|-singleturn|p1a: Osiris|Helping Hand|[of] p1b: Ra
+|move|p2b: Gengar|Shadow Ball|p1b: Ra
+|-damage|p1b: Ra|38/100
+|-unboost|p1b: Ra|spd|1
+|move|p2a: Milotic|Draining Kiss|p1a: Osiris
+|-supereffective|p1a: Osiris|2
+|-damage|p1a: Osiris|18/100 par
+|move|p1a: Osiris|Drain Punch|p2a: Milotic
+|-damage|p2a: Milotic|34/100
+|-heal|p1a: Osiris|54/100 par|[from] drain|[of] p2a: Milotic
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Milotic|39/100|[from] item: Leftovers
+|-end|p1a: Osiris|Disable
+|upkeep
+|turn|10
+|
+|t:|1784013822
+|move|p1b: Ra|Helping Hand|p1a: Osiris
+|-singleturn|p1a: Osiris|Helping Hand|[of] p1b: Ra
+|move|p2b: Gengar|Protect|p2b: Gengar
+|-singleturn|p2b: Gengar|Protect
+|move|p2a: Milotic|Draining Kiss|p1a: Osiris
+|-supereffective|p1a: Osiris|2
+|-damage|p1a: Osiris|8/100 par
+|-heal|p2a: Milotic|71/100|[from] drain|[of] p1a: Osiris
+|cant|p1a: Osiris|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Milotic|76/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|c|☆SoupForSale|These are the toughest points in games for me
+|c|☆SoupForSale|Oh dear, that’s a terrible paralysis
+|c|☆Aotearoa Barrage|yeah brain is working on over time
+|c|☆Aotearoa Barrage|yeah that hurt
+|c|☆Aotearoa Barrage|you were gonna punch again?
+|c|☆SoupForSale|Gg man!
+|
+|t:|1784013857
+|move|p2b: Gengar|Shadow Ball|p1b: Ra
+|-damage|p1b: Ra|0 fnt
+|faint|p1b: Ra
+|move|p2a: Milotic|Draining Kiss|p1a: Osiris
+|-supereffective|p1a: Osiris|2
+|-damage|p1a: Osiris|0 fnt
+|-heal|p2a: Milotic|82/100|[from] drain|[of] p1a: Osiris
+|faint|p1a: Osiris
+|
+|win|Aotearoa Barrage
+|c|☆SoupForSale|Yeah Drain Punch again
+|c|☆SoupForSale|But you have me some mad insight, thank you king
+|c|☆Aotearoa Barrage|churrr happy to!
+|l|☆SoupForSale
+|player|p1|
+|j|☆SoupForSale
+|player|p1|SoupForSale|gambler|

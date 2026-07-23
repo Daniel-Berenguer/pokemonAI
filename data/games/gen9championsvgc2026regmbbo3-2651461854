@@ -1,0 +1,286 @@
+|j|☆Chelicerate1
+|j|☆lobitooooo
+|html|Chelicerate1lobitooooo    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1784438376
+|gametype|doubles
+|player|p1|Chelicerate1|ethan|1278
+|player|p2|lobitooooo|linebacker|1187
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Venusaur, L50, M|
+|poke|p1|Archaludon, L50, M|
+|poke|p2|Sceptile, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Swampert, L50, F|
+|poke|p2|Rotom-Heat, L50|
+|poke|p2|Sneasler, L50, F|
+|teampreview|4
+|showteam|p1|Grimmsnarl||LightClay|Prankster|SpiritBreak,PartingShot,Reflect,LightScreen|Sassy||M|||50|]Basculegion||ChoiceScarf|Adaptability|LastRespects,WaveCrash,AquaJet,FlipTurn|Jolly||M|||50|]Charizard||CharizarditeY|Blaze|Protect,HeatWave,WeatherBall,SolarBeam|Modest||F|||50|]Pelipper||SitrusBerry|Drizzle|Hurricane,WeatherBall,Tailwind,WideGuard|Modest||M|||50|]Venusaur||FocusSash|Chlorophyll|SludgeBomb,SleepPowder,EarthPower,Protect|Modest||M|||50|]Archaludon||Leftovers|Stamina|ElectroShot,DragonPulse,FlashCannon,Protect|Calm||M|||50|
+|showteam|p2|Sceptile||Sceptilite|Unburden|EnergyBall,DragonPulse,EarthPower,Detect|Calm||M|||50|]Archaludon||Leftovers|Stamina|DracoMeteor,Protect,FlashCannon,ElectroShot|Modest||M|||50|]Pelipper||SitrusBerry|Drizzle|Tailwind,WideGuard,WeatherBall,Hurricane|Modest||F|||50|]Swampert||Swampertite|Torrent|IcePunch,Protect,WaveCrash,Earthquake|Adamant||F|||50|]Rotom-Heat||ChoiceScarf|Levitate|Overheat,VoltSwitch,WillOWisp,Discharge|Timid|||||50|]Sneasler||WhiteHerb|Unburden|FakeOut,CloseCombat,DireClaw,Protect|Jolly||F|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Chelicerate1)
+|
+|t:|1784438388
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, F|100/100
+|switch|p1b: Venusaur|Venusaur, L50, M|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Archaludon|Archaludon, L50, M|100/100
+|turn|1
+|
+|t:|1784438400
+|move|p1a: Charizard|Protect|p1a: Charizard
+|-singleturn|p1a: Charizard|Protect
+|move|p1b: Venusaur|Protect|p1b: Venusaur
+|-singleturn|p1b: Venusaur|Protect
+|move|p2a: Sneasler|Fake Out|p1b: Venusaur
+|-activate|p1b: Venusaur|move: Protect
+|move|p2b: Archaludon|Draco Meteor|p1a: Charizard
+|-activate|p1a: Charizard|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1784438420
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2b: Archaludon|Protect|p2b: Archaludon
+|-singleturn|p2b: Archaludon|Protect
+|move|p1b: Venusaur|Sleep Powder|p2a: Sneasler
+|-status|p2a: Sneasler|slp|[from] move: Sleep Powder
+|cant|p2a: Sneasler|slp
+|move|p1a: Charizard|Weather Ball|p2b: Archaludon
+|-activate|p2b: Archaludon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1784438438
+|switch|p2b: Rotom|Rotom-Heat, L50|100/100
+|cant|p2a: Sneasler|slp
+|move|p1b: Venusaur|Sleep Powder|p2b: Rotom|[miss]
+|-miss|p1b: Venusaur|p2b: Rotom
+|move|p1a: Charizard|Heat Wave|p2b: Rotom|[spread] p2a,p2b
+|-resisted|p2b: Rotom|1
+|-damage|p2a: Sneasler|22/100 slp
+|-damage|p2b: Rotom|61/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1784438457
+|-curestatus|p2a: Sneasler|slp|[msg]
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1b: Venusaur|Sleep Powder|p2b: Rotom|[miss]
+|-miss|p1b: Venusaur|p2b: Rotom
+|move|p2b: Rotom|Discharge|p1a: Charizard|[spread] p1a,p1b
+|-activate|p2a: Sneasler|move: Protect
+|-supereffective|p1a: Charizard|1
+|-resisted|p1b: Venusaur|1
+|-damage|p1a: Charizard|52/100
+|-damage|p1b: Venusaur|84/100
+|-status|p1a: Charizard|par
+|-status|p1b: Venusaur|par
+|move|p1a: Charizard|Heat Wave|p2a: Sneasler|[spread] p2b
+|-activate|p2a: Sneasler|move: Protect
+|-resisted|p2b: Rotom|1
+|-damage|p2b: Rotom|19/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|inactive|Chelicerate1 has 30 seconds left.
+|inactive|lobitooooo has 30 seconds left.
+|
+|t:|1784438494
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|move|p1a: Charizard|Protect|p1a: Charizard
+|-singleturn|p1a: Charizard|Protect
+|move|p2b: Rotom|Discharge|p1a: Charizard|[spread] p2a,p1b
+|-activate|p1a: Charizard|move: Protect
+|-resisted|p2a: Archaludon|1
+|-crit|p2a: Archaludon
+|-resisted|p1b: Venusaur|1
+|-damage|p2a: Archaludon|77/100
+|-damage|p1b: Venusaur|68/100 par
+|-status|p2a: Archaludon|par
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p1b: Venusaur|Earth Power|p2a: Archaludon
+|-supereffective|p2a: Archaludon|1
+|-damage|p2a: Archaludon|8/100 par
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Archaludon|14/100 par|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1784438515
+|move|p2a: Archaludon|Protect|p2a: Archaludon
+|-singleturn|p2a: Archaludon|Protect
+|move|p2b: Rotom|Discharge|p1a: Charizard|[spread] p1a,p1b
+|-activate|p2a: Archaludon|move: Protect
+|-supereffective|p1a: Charizard|1
+|-resisted|p1b: Venusaur|1
+|-damage|p1a: Charizard|2/100 par
+|-damage|p1b: Venusaur|52/100 par
+|move|p1b: Venusaur|Sleep Powder|p2b: Rotom
+|-status|p2b: Rotom|slp|[from] move: Sleep Powder
+|move|p1a: Charizard|Heat Wave|p2a: Archaludon|[spread] 
+|-activate|p2a: Archaludon|move: Protect
+|-miss|p1a: Charizard|p2b: Rotom
+|
+|-weather|none
+|-heal|p2a: Archaludon|20/100y par|[from] item: Leftovers
+|upkeep
+|turn|7
+|inactive|Chelicerate1 has 30 seconds left.
+|inactive|lobitooooo has 30 seconds left.
+|inactive|lobitooooo has 20 seconds left.
+|
+|t:|1784438552
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|cant|p2b: Rotom|slp
+|move|p1b: Venusaur|Earth Power|p2a: Archaludon
+|-supereffective|p2a: Archaludon|1
+|-damage|p2a: Archaludon|0 fnt
+|faint|p2a: Archaludon
+|
+|upkeep
+|
+|t:|1784438562
+|switch|p2a: Sneasler|Sneasler, L50, F|22/100
+|turn|8
+|inactive|Chelicerate1 has 30 seconds left.
+|inactive|Chelicerate1 has 20 seconds left.
+|inactive|Chelicerate1 has 15 seconds left.
+|inactive|Chelicerate1 has 10 seconds left.
+|
+|t:|1784438611
+|switch|p2b: Sceptile|Sceptile, L50, M|100/100
+|move|p2a: Sneasler|Close Combat|p1a: Archaludon
+|-supereffective|p1a: Archaludon|1
+|-damage|p1a: Archaludon|19/100
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|-enditem|p2a: Sneasler|White Herb
+|-clearnegativeboost|p2a: Sneasler|[silent]
+|move|p1a: Archaludon|Dragon Pulse|p2b: Sceptile
+|-damage|p2b: Sceptile|70/100
+|move|p1b: Venusaur|Sleep Powder|p2a: Sneasler
+|-status|p2a: Sneasler|slp|[from] move: Sleep Powder
+|
+|-heal|p1a: Archaludon|25/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|inactive|Chelicerate1 has 30 seconds left.
+|inactive|Chelicerate1 has 20 seconds left.
+|inactive|Chelicerate1 has 15 seconds left.
+|inactive|lobitooooo has 30 seconds left.
+|
+|t:|1784438654
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|detailschange|p2b: Sceptile|Sceptile-Mega, L50, M
+|-mega|p2b: Sceptile|Sceptile|Sceptilite
+|cant|p2a: Sneasler|slp
+|move|p2b: Sceptile|Earth Power|p1b: Venusaur
+|-crit|p1b: Venusaur
+|-damage|p1b: Venusaur|3/100 par
+|move|p1b: Venusaur|Sludge Bomb|p2b: Sceptile
+|-supereffective|p2b: Sceptile|1
+|-damage|p2b: Sceptile|0 fnt
+|faint|p2b: Sceptile
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1784438670
+|switch|p2b: Rotom|Rotom-Heat, L50|19/100 slp
+|turn|10
+|
+|t:|1784438686
+|-curestatus|p2a: Sneasler|slp|[msg]
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|cant|p2b: Rotom|slp
+|move|p1a: Pelipper|Tailwind|p1a: Pelipper
+|-sidestart|p1: Chelicerate1|move: Tailwind
+|move|p1b: Venusaur|Earth Power|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|11
+|
+|t:|1784438706
+|move|p2a: Sneasler|Dire Claw|p1b: Venusaur
+|-damage|p1b: Venusaur|0 fnt
+|-fail|p1b: Venusaur|par
+|faint|p1b: Venusaur
+|-curestatus|p2b: Rotom|slp|[msg]
+|move|p2b: Rotom|Discharge|p1a: Pelipper|[spread] p2a,p1a
+|-supereffective|p1a: Pelipper|2
+|-damage|p2a: Sneasler|0 fnt
+|-damage|p1a: Pelipper|0 fnt
+|faint|p2a: Sneasler
+|faint|p1a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1784438731
+|switch|p1b: Charizard|Charizard-Mega-Y, L50, F|2/100 par
+|switch|p1a: Archaludon|Archaludon, L50, M|25/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|turn|12
+|
+|t:|1784438746
+|move|p1a: Archaludon|Protect|p1a: Archaludon
+|-singleturn|p1a: Archaludon|Protect
+|move|p1b: Charizard|Protect|p1b: Charizard
+|-singleturn|p1b: Charizard|Protect
+|move|p2b: Rotom|Discharge|p1a: Archaludon|[spread] 
+|-activate|p1a: Archaludon|move: Protect
+|-activate|p1b: Charizard|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Archaludon|31/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1784438761
+|move|p2b: Rotom|Discharge|p1b: Charizard|[spread] p1a,p1b
+|-resisted|p1a: Archaludon|1
+|-supereffective|p1b: Charizard|1
+|-damage|p1a: Archaludon|20/100y
+|-damage|p1b: Charizard|0 fnt
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|faint|p1b: Charizard
+|move|p1a: Archaludon|Dragon Pulse|p2b: Rotom
+|-damage|p2b: Rotom|0 fnt
+|faint|p2b: Rotom
+|
+|win|Chelicerate1
+|raw|Chelicerate1's rating: 1278 → 1297(+19 for winning)
+|raw|lobitooooo's rating: 1187 → 1168(-19 for losing)

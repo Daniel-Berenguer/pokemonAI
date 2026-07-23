@@ -1,0 +1,121 @@
+|j|☆Akkachi
+|j|☆Asladom
+|html|AkkachiAsladom    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1784073890
+|gametype|doubles
+|player|p1|Akkachi|hilbert|
+|player|p2|Asladom|pokekid|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gengar, L50, M, shiny|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Vivillon-Pokeball, L50, M|
+|poke|p1|Ceruledge, L50, F|
+|poke|p1|Staraptor, L50, M|
+|poke|p2|Falinks, L50|
+|poke|p2|Malamar, L50, M|
+|poke|p2|Clefable, L50, F|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Empoleon, L50, F|
+|poke|p2|Ninetales-Alola, L50, F|
+|teampreview|4
+|showteam|p1|Gengar||Gengarite|CursedBody|PerishSong,WillOWisp,ShadowBall,Protect|Modest||M|||50|]Sneasler||WhiteHerb|Unburden|FakeOut,CloseCombat,DireClaw,Protect|Adamant||F|||50|]Dragonite||DragonFang|Multiscale|ExtremeSpeed,DragonClaw,LowKick,Protect|Adamant||M|||50|]Vivillon-Pokeball||FocusSash|CompoundEyes|SleepPowder,RagePowder,Hurricane,Protect|Timid||M|||50|]Ceruledge||ColburBerry|FlashFire|BitterBlade,ShadowSneak,BulkUp,Protect|Adamant||F|||50|]Staraptor||ChoiceScarf|Intimidate|BraveBird,CloseCombat,Uturn,FinalGambit|Jolly||M|||50|
+|showteam|p2|Falinks||Falinksite|Defiant|CloseCombat,KnockOff,NoRetreat,Protect|Jolly|||||50|]Malamar||SitrusBerry|Contrary|StoredPower,PsychUp,SkillSwap,Protect|Timid||M|||50|]Clefable||Clefablite|Unaware|Moonblast,DrainingKiss,LifeDew,FollowMe|Bold||F|||50|]Armarouge||FocusSash|WeakArmor|ArmorCannon,Psychic,PsychUp,Protect|Modest||F|||50|]Empoleon||Leftovers|Competitive|IceBeam,FlashCannon,ChillingWater,Protect|Modest||F|||50|]Ninetales-Alola||LightClay|SnowWarning|Blizzard,DazzlingGleam,AuroraVeil,Protect|Timid||F|||50|
+|
+|t:|1784073935
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Vivillon|Vivillon-Pokeball, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2a: Falinks|Falinks, L50|100/100
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|turn|1
+|
+|t:|1784073961
+|move|p2a: Falinks|Protect|p2a: Falinks
+|-singleturn|p2a: Falinks|Protect
+|move|p1b: Sneasler|Fake Out|p2b: Ninetales
+|-damage|p2b: Ninetales|84/100
+|cant|p2b: Ninetales|flinch
+|move|p1a: Vivillon|Sleep Powder|p2a: Falinks
+|-activate|p2a: Falinks|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1784073985
+|detailschange|p2a: Falinks|Falinks-Mega, L50
+|-mega|p2a: Falinks|Falinks|Falinksite
+|move|p2b: Ninetales|Blizzard|p1a: Vivillon|[spread] p1a,p1b
+|-supereffective|p1a: Vivillon|1
+|-enditem|p1a: Vivillon|Focus Sash
+|-damage|p1a: Vivillon|1/100
+|-damage|p1b: Sneasler|57/100
+|move|p1b: Sneasler|Dire Claw|p2b: Ninetales
+|-supereffective|p2b: Ninetales|1
+|-damage|p2b: Ninetales|0 fnt
+|faint|p2b: Ninetales
+|move|p2a: Falinks|No Retreat|p2a: Falinks
+|-boost|p2a: Falinks|atk|1
+|-boost|p2a: Falinks|def|1
+|-boost|p2a: Falinks|spa|1
+|-boost|p2a: Falinks|spd|1
+|-boost|p2a: Falinks|spe|1
+|-start|p2a: Falinks|move: No Retreat
+|move|p1a: Vivillon|Hurricane|p2a: Falinks
+|-supereffective|p2a: Falinks|1
+|-damage|p2a: Falinks|9/100
+|-start|p2a: Falinks|confusion
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1784074003
+|switch|p2b: Armarouge|Armarouge, L50, F|100/100
+|turn|3
+|
+|t:|1784074015
+|-activate|p2a: Falinks|confusion
+|move|p2a: Falinks|Protect|p2a: Falinks
+|-singleturn|p2a: Falinks|Protect
+|move|p1b: Sneasler|Close Combat|p2a: Falinks
+|-activate|p2a: Falinks|move: Protect
+|move|p1a: Vivillon|Sleep Powder|p2b: Armarouge
+|-status|p2b: Armarouge|slp|[from] move: Sleep Powder
+|cant|p2b: Armarouge|slp
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1784074033
+|move|p1b: Sneasler|Protect|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Protect
+|-activate|p2a: Falinks|confusion
+|-damage|p2a: Falinks|0 fnt|[from] confusion
+|faint|p2a: Falinks
+|move|p1a: Vivillon|Hurricane|p2b: Armarouge
+|-damage|p2b: Armarouge|40/100 slp
+|-curestatus|p2b: Armarouge|slp|[msg]
+|move|p2b: Armarouge|Psych Up|p2: Falinks|[notarget]
+|-fail|p2b: Armarouge
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1784074043
+|switch|p2a: Clefable|Clefable, L50, F|100/100
+|turn|5
+|-message|Asladom forfeited.
+|
+|win|Akkachi
+|l|☆Asladom
+|player|p2|

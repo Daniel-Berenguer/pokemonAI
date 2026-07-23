@@ -1,0 +1,109 @@
+|j|鈽咶lashStatic
+|j|鈽唜ebec22$$
+|html|FlashStaticxebec22$$    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783831441
+|gametype|doubles
+|player|p1|FlashStatic|volkner|
+|player|p2|xebec22$$|brycenman|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pok茅mon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Greninja, L50, M, shiny|
+|poke|p1|Toxicroak, L50, F|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Metagross, L50, shiny|
+|poke|p1|Volcarona, L50, M, shiny|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p2|Lucario, L50, F|
+|poke|p2|Alakazam, L50, F|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Zoroark, L50, M|
+|poke|p2|Leafeon, L50, F|
+|poke|p2|Lopunny, L50, F|
+|teampreview|4
+|showteam|p1|Greninja||Greninjite|Protean|BrickBreak,Uturn,Waterfall,ShadowSneak|Jolly||M|||50|]Toxicroak||FocusSash|PoisonTouch|CloseCombat,SuckerPunch,UpperHand,RockSlide|Jolly||F|||50|]Talonflame||SitrusBerry|GaleWings|DualWingbeat,Tailwind,FlareBlitz,WillOWisp|Jolly||M|||50|]Metagross||Metagrossite|ClearBody|BodyPress,BulletPunch,IronHead,ThunderPunch|Jolly|||||50|]Volcarona||LumBerry|FlameBody|BugBuzz,FieryDance,GigaDrain,QuiverDance|Modest||M|||50|]Grimmsnarl||Leftovers|Prankster|FakeOut,LightScreen,SpiritBreak,SuckerPunch|Adamant||M|||50|
+|showteam|p2|Lucario||Lucarionite|Steadfast|BlazeKick,AuraSphere,DarkPulse|Serious||F|||50|]Alakazam||Alakazite|Synchronize|DazzlingGleam,FoulPlay,FutureSight,ShadowBall|Serious||F|||50|]Charizard|||Blaze|FlameCharge,Flamethrower,Inferno,AncientPower|Serious||F|||50|]Zoroark|||Illusion|NightSlash,BurningJealousy,Crunch,DarkPulse|Serious||M|||50|]Leafeon|||LeafGuard|LeafBlade,AlluringVoice,Dig,QuickAttack|Serious||F|||50|]Lopunny|||CuteCharm|AuraSphere,CircleThrow,DrainingKiss,TripleAxel|Serious||F|||50|
+|c|鈽咶lashStatic|your lucario only has 3 moves
+|c|鈽咶lashStatic|you can fix it
+|
+|t:|1783831597
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Talonflame|Talonflame, L50, M|100/100
+|switch|p1b: Greninja|Greninja, L50, M, shiny|100/100
+|switch|p2a: Alakazam|Alakazam, L50, F|100/100
+|switch|p2b: Lopunny|Lopunny, L50, F|100/100
+|turn|1
+|
+|t:|1783831618
+|move|p1a: Talonflame|Tailwind|p1a: Talonflame
+|-sidestart|p1: FlashStatic|move: Tailwind
+|move|p1b: Greninja|U-turn|p2a: Alakazam
+|-start|p1b: Greninja|typechange|Bug|[from] ability: Protean
+|-supereffective|p2a: Alakazam|1
+|-damage|p2a: Alakazam|0 fnt
+|faint|p2a: Alakazam
+|
+|t:|1783831629
+|switch|p1b: Toxicroak|Toxicroak, L50, F|100/100|[from] U-turn
+|move|p2b: Lopunny|Aura Sphere|p1b: Toxicroak
+|-resisted|p1b: Toxicroak|1
+|-damage|p1b: Toxicroak|89/100
+|
+|upkeep
+|
+|t:|1783831643
+|switch|p2a: Leafeon|Leafeon, L50, F|100/100
+|turn|2
+|
+|t:|1783831664
+|move|p1a: Talonflame|Dual Wingbeat|p2a: Leafeon
+|-damage|p2a: Leafeon|73/100
+|replace|p2a: Zoroark|Zoroark, L50, M
+|-end|p2a: Zoroark|Illusion
+|-damage|p2a: Zoroark|46/100
+|-hitcount|p2a: Zoroark|2
+|move|p1b: Toxicroak|Close Combat|p2b: Lopunny
+|-supereffective|p2b: Lopunny|1
+|-crit|p2b: Lopunny
+|-damage|p2b: Lopunny|0 fnt
+|-unboost|p1b: Toxicroak|def|1
+|-unboost|p1b: Toxicroak|spd|1
+|faint|p2b: Lopunny
+|move|p2a: Zoroark|Burning Jealousy|p1b: Toxicroak|[spread] p1a,p1b
+|-resisted|p1a: Talonflame|1
+|-damage|p1a: Talonflame|87/100
+|-damage|p1b: Toxicroak|54/100
+|
+|upkeep
+|
+|t:|1783831679
+|switch|p2b: Leafeon|Leafeon, L50, F|100/100
+|turn|3
+|
+|t:|1783831697
+|move|p1a: Talonflame|Flare Blitz|p2b: Leafeon
+|-supereffective|p2b: Leafeon|1
+|-crit|p2b: Leafeon
+|-damage|p2b: Leafeon|0 fnt
+|faint|p2b: Leafeon
+|-damage|p1a: Talonflame|55/100|[from] Recoil
+|move|p1b: Toxicroak|Close Combat|p2a: Zoroark
+|-supereffective|p2a: Zoroark|1
+|-damage|p2a: Zoroark|0 fnt
+|-unboost|p1b: Toxicroak|def|1
+|-unboost|p1b: Toxicroak|spd|1
+|faint|p2a: Zoroark
+|
+|win|FlashStatic
+||FlashStatic is ready for game 2.
+|inactive|xebec22$$ has 30 seconds to confirm battle start!
+|l|鈽唜ebec22$$
+|player|p2|
+|inactive|xebec22$$ has 20 seconds to confirm battle start!
+|inactive|xebec22$$ has 10 seconds to confirm battle start!
+|uhtml|next|Next: Game 2 of 3

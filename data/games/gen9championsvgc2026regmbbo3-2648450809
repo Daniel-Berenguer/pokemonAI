@@ -1,0 +1,277 @@
+|j|☆Ballfondler400
+|j|☆kmf.dsnsla
+|html|Ballfondler400kmf.dsnsla    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783937307
+|gametype|doubles
+|player|p1|Ballfondler400|102|1040
+|player|p2|kmf.dsnsla|169|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sylveon, L50, F, shiny|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Swampert, L50, F, shiny|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Dragalge, L50, F, shiny|
+|poke|p2|Greninja, L50, F|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Staraptor, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Venusaur, L50, F|
+|teampreview|4
+|showteam|p1|Sylveon||IronBall|Pixilate|HyperVoice,Protect,HyperBeam,Copycat|Quiet||F|||50|]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,TrickRoom,RagePowder,LifeDew|Calm|||||50|]Swampert||Swampertite|Torrent|Protect,IcePunch,WaveCrash,HighHorsepower|Adamant||F|||50|]Pelipper||FocusSash|Drizzle|Tailwind,WideGuard,Protect,WeatherBall|Serious||F|||50|]Archaludon||Leftovers|Stamina|FlashCannon,ElectroShot,DracoMeteor,Protect|Calm||F|||50|]Dragalge||Dragalgite|Adaptability|Toxic,DragonPulse,SludgeBomb,Protect|Modest||F|||50|
+|showteam|p2|Greninja||Greninjite|Protean|WeatherBall,SludgeWave,IcyWind,Protect|Serious||F|||50|]Charizard||CharizarditeY|SolarPower|HeatWave,DragonPulse,Flamethrower,SolarBeam|Timid||F|||50|]Farigiraf||Leftovers|ArmorTail|SkillSwap,Protect,Roar,Psychic|Calm||M|||50|]Staraptor||MentalHerb|Intimidate|FinalGambit,BraveBird,CloseCombat,Roost|Jolly||F|||50|]Whimsicott||FocusSash|Prankster|Tailwind,Encore,SunnyDay,GigaDrain|Timid||F|||50|]Venusaur||SitrusBerry|Chlorophyll|SleepPowder,SolarBeam,SludgeBomb,Protect|Modest||F|||50|
+|
+|t:|1783937356
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sylveon|Sylveon, L50, F, shiny|100/100
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Venusaur|Venusaur, L50, F|100/100
+|turn|1
+|
+|t:|1783937382
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: kmf.dsnsla|move: Tailwind
+|move|p2b: Venusaur|Sleep Powder|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|move|p1b: Sinistcha|Trick Room|p1b: Sinistcha
+|-fieldstart|move: Trick Room|[of] p1b: Sinistcha
+|
+|upkeep
+|turn|2
+|
+|t:|1783937408
+|move|p1b: Sinistcha|Rage Powder|p1b: Sinistcha
+|-singleturn|p1b: Sinistcha|move: Rage Powder
+|move|p2a: Whimsicott|Encore|p1b: Sinistcha
+|-start|p1b: Sinistcha|Encore
+|move|p1a: Sylveon|Hyper Beam|p2a: Whimsicott
+|-enditem|p2a: Whimsicott|Focus Sash
+|-damage|p2a: Whimsicott|1/100
+|-mustrecharge|p1a: Sylveon
+|move|p2b: Venusaur|Sludge Bomb|p1a: Sylveon
+|-supereffective|p1a: Sylveon|1
+|-damage|p1a: Sylveon|32/100
+|
+|upkeep
+|turn|3
+|
+|t:|1783937444
+|switch|p1b: Dragalge|Dragalge, L50, F, shiny|100/100
+|move|p2a: Whimsicott|Sunny Day|p2a: Whimsicott
+|-weather|SunnyDay
+|cant|p1a: Sylveon|recharge
+|move|p2b: Venusaur|Sleep Powder|p1a: Sylveon
+|-status|p1a: Sylveon|slp|[from] move: Sleep Powder
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1783937481
+|cant|p1a: Sylveon|slp
+|move|p1b: Dragalge|Dragon Pulse|p2b: Venusaur
+|-damage|p2b: Venusaur|51/100
+|move|p2a: Whimsicott|Giga Drain|p1b: Dragalge
+|-resisted|p1b: Dragalge|2
+|-damage|p1b: Dragalge|95/100
+|-heal|p2a: Whimsicott|2/100|[from] drain|[of] p1b: Dragalge
+|move|p2b: Venusaur|Sleep Powder|p1b: Dragalge
+|-status|p1b: Dragalge|slp|[from] move: Sleep Powder
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: kmf.dsnsla|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1783937515
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|-heal|p1a: Sylveon|57/100 slp|[from] ability: Hospitality|[of] p1b: Sinistcha
+|-curestatus|p1a: Sylveon|slp|[msg]
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2a: Whimsicott|Giga Drain|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|move|p2b: Venusaur|Sludge Bomb|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1783937549
+|switch|p2a: Greninja|Greninja, L50, F|100/100
+|move|p1b: Sinistcha|Rage Powder|p1b: Sinistcha
+|-singleturn|p1b: Sinistcha|move: Rage Powder
+|move|p2b: Venusaur|Sludge Bomb|p1b: Sinistcha
+|-damage|p1b: Sinistcha|66/100
+|-status|p1b: Sinistcha|psn
+|move|p1a: Sylveon|Hyper Voice|p2a: Greninja|[spread] p2a,p2b
+|-supereffective|p2a: Greninja|1
+|-crit|p2a: Greninja
+|-resisted|p2b: Venusaur|1
+|-damage|p2a: Greninja|0 fnt
+|-damage|p2b: Venusaur|31/100
+|-enditem|p2b: Venusaur|Sitrus Berry|[eat]
+|-heal|p2b: Venusaur|55/100|[from] item: Sitrus Berry
+|faint|p2a: Greninja
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Sinistcha|53/100 psn|[from] psn
+|upkeep
+|
+|t:|1783937567
+|switch|p2a: Whimsicott|Whimsicott, L50, F|2/100
+|turn|7
+|
+|t:|1783937605
+|switch|p1b: Dragalge|Dragalge, L50, F, shiny|95/100 slp
+|switch|p1a: Archaludon|Archaludon, L50, F|100/100
+|move|p2a: Whimsicott|Encore||[still]
+|-fail|p2a: Whimsicott
+|move|p2b: Venusaur|Sleep Powder|p1a: Archaludon
+|-status|p1a: Archaludon|slp|[from] move: Sleep Powder
+|
+|-weather|none
+|upkeep
+|turn|8
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by kmf.dsnsla)
+|inactive|Ballfondler400 has 60 seconds left.
+|inactive|kmf.dsnsla has 60 seconds left.
+|
+|t:|1783937647
+|switch|p2b: Staraptor|Staraptor, L50, F|100/100
+|-ability|p2b: Staraptor|Intimidate|boost
+|-unboost|p1a: Archaludon|atk|1
+|-unboost|p1b: Dragalge|atk|1
+|switch|p1a: Sinistcha|Sinistcha, L50|53/100 psn
+|-heal|p1b: Dragalge|100/100 slp|[from] ability: Hospitality|[of] p1a: Sinistcha
+|detailschange|p1b: Dragalge|Dragalge-Mega, L50, F, shiny
+|-mega|p1b: Dragalge|Dragalge|Dragalgite
+|cant|p1b: Dragalge|slp
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: kmf.dsnsla|move: Tailwind
+|
+|-damage|p1a: Sinistcha|41/100 psn|[from] psn
+|upkeep
+|-enditem|p1a: Sinistcha|Sitrus Berry|[eat]
+|-heal|p1a: Sinistcha|66/100 psn|[from] item: Sitrus Berry
+|turn|9
+|inactive|Ballfondler400 has 30 seconds left.
+|inactive|kmf.dsnsla has 30 seconds left.
+|inactive|kmf.dsnsla has 20 seconds left.
+|
+|t:|1783937684
+|switch|p1a: Sylveon|Sylveon, L50, F, shiny|57/100
+|move|p2a: Whimsicott|Sunny Day|p2a: Whimsicott
+|-weather|SunnyDay
+|move|p2b: Staraptor|Brave Bird|p1a: Sylveon
+|-damage|p1a: Sylveon|0 fnt
+|faint|p1a: Sylveon
+|-damage|p2b: Staraptor|82/100|[from] Recoil
+|cant|p1b: Dragalge|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783937696
+|switch|p1a: Archaludon|Archaludon, L50, F|100/100 slp
+|turn|10
+|
+|t:|1783937716
+|cant|p1a: Archaludon|slp
+|move|p2a: Whimsicott|Giga Drain|p1b: Dragalge
+|-resisted|p1b: Dragalge|2
+|-damage|p1b: Dragalge|96/100 slp
+|-heal|p2a: Whimsicott|4/100|[from] drain|[of] p1b: Dragalge
+|move|p2b: Staraptor|Final Gambit|p1b: Dragalge
+|-damage|p1b: Dragalge|4/100 slp
+|faint|p2b: Staraptor
+|-curestatus|p1b: Dragalge|slp|[msg]
+|move|p1b: Dragalge|Toxic|p2a: Whimsicott
+|-status|p2a: Whimsicott|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Whimsicott|0 fnt|[from] psn
+|faint|p2a: Whimsicott
+|upkeep
+|
+|t:|1783937736
+|switch|p2b: Venusaur|Venusaur, L50, F|55/100
+|turn|11
+|
+|t:|1783937744
+|switch|p1a: Sinistcha|Sinistcha, L50|66/100 psn
+|-heal|p1b: Dragalge|29/100|[from] ability: Hospitality|[of] p1a: Sinistcha
+|move|p1b: Dragalge|Protect|p1b: Dragalge
+|-singleturn|p1b: Dragalge|Protect
+|move|p2b: Venusaur|Solar Beam||[still]
+|-prepare|p2b: Venusaur|Solar Beam
+|-anim|p2b: Venusaur|Solar Beam|p1b: Dragalge
+|-activate|p1b: Dragalge|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Sinistcha|53/100 psn|[from] psn
+|-sideend|p2: kmf.dsnsla|move: Tailwind
+|upkeep
+|turn|12
+|inactive|Ballfondler400 has 30 seconds left.
+|inactive|Ballfondler400 has 20 seconds left.
+|inactive|Ballfondler400 has 15 seconds left.
+|
+|t:|1783937788
+|-heal|p1b: Dragalge|62/100|[from] ability: Regenerator|[silent]
+|switch|p1b: Archaludon|Archaludon, L50, F|100/100 slp
+|move|p2b: Venusaur|Sludge Bomb|p1a: Sinistcha
+|-damage|p1a: Sinistcha|16/100 psn
+|move|p1a: Sinistcha|Life Dew||[still]|[spread] p1a,p1b
+|-heal|p1a: Sinistcha|41/100 psn
+|-fail|p1b: Archaludon|heal
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Sinistcha|29/100 psn|[from] psn
+|upkeep
+|turn|13
+|inactive|Ballfondler400 has 30 seconds left.
+|
+|t:|1783937816
+|move|p1a: Sinistcha|Rage Powder|p1a: Sinistcha
+|-singleturn|p1a: Sinistcha|move: Rage Powder
+|move|p2b: Venusaur|Sludge Bomb|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|cant|p1b: Archaludon|slp
+|
+|-weather|none
+|upkeep
+|
+|t:|1783937822
+|switch|p1a: Dragalge|Dragalge-Mega, L50, F, shiny|62/100
+|turn|14
+|
+|t:|1783937829
+|move|p2b: Venusaur|Sleep Powder|p1a: Dragalge
+|-status|p1a: Dragalge|slp|[from] move: Sleep Powder
+|-curestatus|p1b: Archaludon|slp|[msg]
+|move|p1b: Archaludon|Draco Meteor|p2b: Venusaur
+|-damage|p2b: Venusaur|0 fnt
+|-unboost|p1b: Archaludon|spa|2
+|faint|p2b: Venusaur
+|
+|win|Ballfondler400
+||Ballfondler400 is ready for game 2.
+|inactive|kmf.dsnsla has 30 seconds to confirm battle start!
+||kmf.dsnsla is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

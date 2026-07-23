@@ -1,0 +1,343 @@
+|j|☆execute order 222
+|j|☆Mr James Freak
+|html|execute order 222Mr James Freak    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784142958
+|gametype|doubles
+|player|p1|execute order 222|courtney|1386
+|player|p2|Mr James Freak|scientist|1382
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Raichu, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Milotic, L50, F|
+|poke|p1|Ceruledge, L50, M|
+|poke|p2|Sinistcha-Masterpiece, L50, shiny|
+|poke|p2|Sneasler, L50, F, shiny|
+|poke|p2|Delphox, L50, M, shiny|
+|poke|p2|Kingambit, L50, F, shiny|
+|poke|p2|Incineroar, L50, F, shiny|
+|poke|p2|Ninetales-Alola, L50, F, shiny|
+|teampreview|4
+|showteam|p1|Floette-Eternal||Floettite|FlowerVeil|DazzlingGleam,DrainingKiss,CalmMind,Protect|Timid||F|||50|]Raichu||RaichuniteY|LightningRod|ZapCannon,FocusBlast,FakeOut,Protect|Timid||F|||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,ThroatChop,FakeOut,PartingShot|Careful||M|||50|]Sinistcha||KasibBerry|Hospitality|MatchaGotcha,RagePowder,LifeDew,Protect|Relaxed|||||50|]Milotic||Leftovers|Competitive|MuddyWater,Hypnosis,Coil,Recover|Calm||F|||50|]Ceruledge||ColburBerry|FlashFire|BitterBlade,ShadowSneak,BulkUp,Protect|Adamant||M|||50|
+|showteam|p2|Sinistcha-Masterpiece||OccaBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,Protect|Bold|||||50|]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,FakeOut,QuickGuard|Jolly||F|||50|]Delphox||Delphoxite|Blaze|HeatWave,Psyshock,NastyPlot,Protect|Timid||M|||50|]Kingambit||ChopleBerry|Defiant|KowtowCleave,SuckerPunch,LowKick,Protect|Adamant||F|||50|]Incineroar||PasshoBerry|Intimidate|FakeOut,PartingShot,FlareBlitz,ThroatChop|Careful||F|||50|]Ninetales-Alola||FocusSash|SnowWarning|Blizzard,FreezeDry,Encore,Protect|Timid||F|||50|
+|
+|t:|1784142987
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: RatGPT|Raichu, L50, F|100/100
+|switch|p1b: GirlbossDozo|Milotic, L50, F|100/100
+|switch|p2a: Sinistcha|Sinistcha-Masterpiece, L50, shiny|100/100
+|switch|p2b: Delphox|Delphox, L50, M, shiny|100/100
+|turn|1
+|
+|t:|1784143003
+|detailschange|p2b: Delphox|Delphox-Mega, L50, M, shiny
+|-mega|p2b: Delphox|Delphox|Delphoxite
+|detailschange|p1a: RatGPT|Raichu-Mega-Y, L50, F
+|-mega|p1a: RatGPT|Raichu|Raichunite Y
+|move|p2b: Delphox|Protect|p2b: Delphox
+|-singleturn|p2b: Delphox|Protect
+|move|p1a: RatGPT|Fake Out|p2b: Delphox
+|-activate|p2b: Delphox|move: Protect
+|move|p1b: GirlbossDozo|Coil|p1b: GirlbossDozo
+|-boost|p1b: GirlbossDozo|atk|1
+|-boost|p1b: GirlbossDozo|def|1
+|-boost|p1b: GirlbossDozo|accuracy|1
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: RatGPT|[spread] p1a,p1b
+|-supereffective|p1b: GirlbossDozo|1
+|-damage|p1a: RatGPT|67/100
+|-damage|p1b: GirlbossDozo|69/100
+|
+|-heal|p1b: GirlbossDozo|75/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1784143034
+|move|p2b: Delphox|Nasty Plot|p2b: Delphox
+|-boost|p2b: Delphox|spa|2
+|move|p1a: RatGPT|Zap Cannon|p2b: Delphox
+|-damage|p2b: Delphox|43/100
+|-status|p2b: Delphox|par
+|move|p1b: GirlbossDozo|Muddy Water|p2b: Delphox|[spread] p2a,p2b
+|-resisted|p2a: Sinistcha|1
+|-supereffective|p2b: Delphox|1
+|-damage|p2a: Sinistcha|87/100
+|-damage|p2b: Delphox|6/100 par
+|-unboost|p2b: Delphox|accuracy|1
+|move|p2a: Sinistcha|Trick Room|p2a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2a: Sinistcha
+|
+|-heal|p1b: GirlbossDozo|81/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1784143057
+|switch|p1a: The Drink|Sinistcha, L50|100/100
+|-heal|p1b: GirlbossDozo|100/100|[from] ability: Hospitality|[of] p1a: The Drink
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: The Drink|[spread] p1a,p1b
+|-resisted|p1a: The Drink|1
+|-supereffective|p1b: GirlbossDozo|1
+|-damage|p1a: The Drink|88/100
+|-heal|p2a: Sinistcha|93/100|[from] drain|[of] p1a: The Drink
+|-damage|p1b: GirlbossDozo|67/100
+|-heal|p2a: Sinistcha|100/100|[from] drain|[of] p1b: GirlbossDozo
+|-status|p1b: GirlbossDozo|brn
+|move|p2b: Delphox|Heat Wave|p1a: The Drink|[spread] p1b
+|-miss|p2b: Delphox|p1a: The Drink
+|-resisted|p1b: GirlbossDozo|1
+|-damage|p1b: GirlbossDozo|41/100 brn
+|move|p1b: GirlbossDozo|Muddy Water|p2a: Sinistcha|[spread] p2a,p2b
+|-resisted|p2a: Sinistcha|1
+|-crit|p2a: Sinistcha
+|-supereffective|p2b: Delphox|1
+|-damage|p2a: Sinistcha|82/100
+|-damage|p2b: Delphox|0 fnt
+|faint|p2b: Delphox
+|
+|-heal|p1b: GirlbossDozo|47/100 brn|[from] item: Leftovers
+|-damage|p1b: GirlbossDozo|41/100 brn|[from] brn
+|upkeep
+|
+|t:|1784143079
+|switch|p2b: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: The Drink|atk|1
+|-unboost|p1b: GirlbossDozo|atk|1
+|-ability|p1b: GirlbossDozo|Competitive|boost
+|-boost|p1b: GirlbossDozo|spa|2
+|turn|4
+|
+|t:|1784143085
+|move|p2b: Incineroar|Fake Out|p1b: GirlbossDozo
+|-damage|p1b: GirlbossDozo|34/100 brn
+|move|p1a: The Drink|Life Dew|p1a: The Drink|[spread] p1a,p1b
+|-heal|p1a: The Drink|100/100
+|-heal|p1b: GirlbossDozo|59/100 brn
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: The Drink|[spread] p1a,p1b
+|-resisted|p1a: The Drink|1
+|-supereffective|p1b: GirlbossDozo|1
+|-damage|p1a: The Drink|87/100
+|-heal|p2a: Sinistcha|88/100|[from] drain|[of] p1a: The Drink
+|-damage|p1b: GirlbossDozo|28/100 brn
+|-heal|p2a: Sinistcha|100/100|[from] drain|[of] p1b: GirlbossDozo
+|cant|p1b: GirlbossDozo|flinch
+|
+|-heal|p1b: GirlbossDozo|34/100 brn|[from] item: Leftovers
+|-damage|p1b: GirlbossDozo|28/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1784143103
+|move|p1a: The Drink|Life Dew|p1a: The Drink|[spread] p1a,p1b
+|-heal|p1a: The Drink|100/100
+|-heal|p1b: GirlbossDozo|53/100 brn
+|move|p2b: Incineroar|Throat Chop|p1b: GirlbossDozo
+|-damage|p1b: GirlbossDozo|32/100 brn
+|-start|p1b: GirlbossDozo|Throat Chop|[silent]
+|move|p2a: Sinistcha|Matcha Gotcha|p1b: GirlbossDozo|[spread] p1a,p1b
+|-resisted|p1a: The Drink|1
+|-supereffective|p1b: GirlbossDozo|1
+|-damage|p1a: The Drink|88/100
+|-damage|p1b: GirlbossDozo|1/100 brn
+|move|p1b: GirlbossDozo|Recover|p1b: GirlbossDozo
+|-heal|p1b: GirlbossDozo|52/100 brn
+|
+|-heal|p1b: GirlbossDozo|58/100 brn|[from] item: Leftovers
+|-damage|p1b: GirlbossDozo|52/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1784143124
+|move|p1a: The Drink|Life Dew|p1a: The Drink|[spread] p1a,p1b
+|-heal|p1a: The Drink|100/100
+|-heal|p1b: GirlbossDozo|77/100 brn
+|move|p2b: Incineroar|Flare Blitz|p1a: The Drink
+|-supereffective|p1a: The Drink|1
+|-damage|p1a: The Drink|25/100
+|-damage|p2b: Incineroar|78/100|[from] Recoil
+|move|p2a: Sinistcha|Matcha Gotcha|p1b: GirlbossDozo|[spread] p1a,p1b
+|-resisted|p1a: The Drink|1
+|-supereffective|p1b: GirlbossDozo|1
+|-crit|p1b: GirlbossDozo
+|-damage|p1a: The Drink|12/100
+|-damage|p1b: GirlbossDozo|32/100 brn
+|-status|p1a: The Drink|brn
+|move|p1b: GirlbossDozo|Recover|p1b: GirlbossDozo
+|-heal|p1b: GirlbossDozo|82/100 brn
+|
+|-heal|p1b: GirlbossDozo|88/100 brn|[from] item: Leftovers
+|-damage|p1a: The Drink|6/100 brn|[from] brn
+|-damage|p1b: GirlbossDozo|82/100 brn|[from] brn
+|-end|p1b: GirlbossDozo|Throat Chop|[silent]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1784143154
+|switch|p2b: Sneasler|Sneasler, L50, F, shiny|100/100
+|move|p2a: Sinistcha|Protect|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|Protect
+|move|p1a: The Drink|Rage Powder|p1a: The Drink
+|-singleturn|p1a: The Drink|move: Rage Powder
+|move|p1b: GirlbossDozo|Hypnosis|p2a: Sinistcha
+|-activate|p2a: Sinistcha|move: Protect
+|
+|-heal|p1b: GirlbossDozo|88/100 brn|[from] item: Leftovers
+|-damage|p1b: GirlbossDozo|82/100 brn|[from] brn
+|-damage|p1a: The Drink|0 fnt|[from] brn
+|faint|p1a: The Drink
+|upkeep
+|
+|t:|1784143159
+|switch|p1a: Command Grab|Incineroar, L50, M|100/100
+|-ability|p1a: Command Grab|Intimidate|boost
+|-unboost|p2a: Sinistcha|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|-enditem|p2b: Sneasler|White Herb
+|-clearnegativeboost|p2b: Sneasler|[silent]
+|turn|8
+|
+|t:|1784143188
+|move|p2b: Sneasler|Fake Out|p1b: GirlbossDozo
+|-damage|p1b: GirlbossDozo|72/100 brn
+|cant|p1b: GirlbossDozo|flinch
+|move|p2a: Sinistcha|Matcha Gotcha|p1b: GirlbossDozo|[spread] p1a,p1b
+|-resisted|p1a: Command Grab|1
+|-supereffective|p1b: GirlbossDozo|1
+|-damage|p1a: Command Grab|91/100
+|-damage|p1b: GirlbossDozo|41/100 brn
+|move|p1a: Command Grab|Parting Shot|p2b: Sneasler
+|-unboost|p2b: Sneasler|atk|1
+|-unboost|p2b: Sneasler|spa|1
+|
+|t:|1784143199
+|switch|p1a: RatGPT|Raichu-Mega-Y, L50, F|67/100|[from] Parting Shot
+|
+|-heal|p1b: GirlbossDozo|47/100 brn|[from] item: Leftovers
+|-damage|p1b: GirlbossDozo|41/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1784143217
+|move|p2b: Sneasler|Dire Claw|p1a: RatGPT
+|-damage|p1a: RatGPT|24/100
+|move|p1a: RatGPT|Zap Cannon|p2a: Sinistcha
+|-resisted|p2a: Sinistcha|1
+|-damage|p2a: Sinistcha|69/100
+|-status|p2a: Sinistcha|par
+|move|p1b: GirlbossDozo|Recover|p1b: GirlbossDozo
+|-heal|p1b: GirlbossDozo|92/100 brn
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: RatGPT|[spread] p1a,p1b
+|-supereffective|p1b: GirlbossDozo|1
+|-damage|p1a: RatGPT|0 fnt
+|-heal|p2a: Sinistcha|80/100 par|[from] drain|[of] p1a: RatGPT
+|-damage|p1b: GirlbossDozo|59/100 brn
+|-heal|p2a: Sinistcha|99/100 par|[from] drain|[of] p1b: GirlbossDozo
+|faint|p1a: RatGPT
+|
+|-heal|p1b: GirlbossDozo|65/100 brn|[from] item: Leftovers
+|-damage|p1b: GirlbossDozo|59/100 brn|[from] brn
+|upkeep
+|
+|t:|1784143227
+|switch|p1a: Command Grab|Incineroar, L50, M|91/100
+|-ability|p1a: Command Grab|Intimidate|boost
+|-unboost|p2a: Sinistcha|atk|1
+|-unboost|p2b: Sneasler|atk|1
+|turn|10
+|
+|t:|1784143248
+|move|p1a: Command Grab|Fake Out|p2b: Sneasler
+|-damage|p2b: Sneasler|80/100
+|cant|p2b: Sneasler|flinch
+|move|p1b: GirlbossDozo|Hypnosis|p2b: Sneasler
+|-status|p2b: Sneasler|slp|[from] move: Hypnosis
+|cant|p2a: Sinistcha|par
+|
+|-heal|p1b: GirlbossDozo|65/100 brn|[from] item: Leftovers
+|-damage|p1b: GirlbossDozo|59/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1784143260
+|cant|p2b: Sneasler|slp
+|move|p1b: GirlbossDozo|Muddy Water|p2b: Sneasler|[spread] p2a,p2b
+|-resisted|p2a: Sinistcha|1
+|-damage|p2a: Sinistcha|75/100 par
+|-damage|p2b: Sneasler|12/100 slp
+|-unboost|p2b: Sneasler|accuracy|1
+|move|p1a: Command Grab|Throat Chop|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha|1
+|-damage|p2a: Sinistcha|30/100 par
+|-start|p2a: Sinistcha|Throat Chop|[silent]
+|cant|p2a: Sinistcha|par
+|
+|-heal|p1b: GirlbossDozo|65/100 brn|[from] item: Leftovers
+|-damage|p1b: GirlbossDozo|59/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1784143277
+|move|p2a: Sinistcha|Protect|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|Protect
+|cant|p2b: Sneasler|slp
+|move|p1b: GirlbossDozo|Muddy Water|p2a: Sinistcha|[spread] p2b
+|-activate|p2a: Sinistcha|move: Protect
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|move|p1a: Command Grab|Throat Chop|p2a: Sinistcha
+|-activate|p2a: Sinistcha|move: Protect
+|
+|-heal|p1b: GirlbossDozo|65/100 brn|[from] item: Leftovers
+|-damage|p1b: GirlbossDozo|59/100 brn|[from] brn
+|-end|p2a: Sinistcha|Throat Chop|[silent]
+|upkeep
+|
+|t:|1784143282
+|switch|p2b: Incineroar|Incineroar, L50, F, shiny|78/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Command Grab|atk|1
+|-unboost|p1b: GirlbossDozo|atk|1
+|-ability|p1b: GirlbossDozo|Competitive|boost
+|-boost|p1b: GirlbossDozo|spa|2
+|turn|13
+|
+|t:|1784143301
+|move|p2b: Incineroar|Fake Out|p1b: GirlbossDozo
+|-damage|p1b: GirlbossDozo|51/100 brn
+|cant|p1b: GirlbossDozo|flinch
+|move|p1a: Command Grab|Throat Chop|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha|1
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|
+|-heal|p1b: GirlbossDozo|57/100 brn|[from] item: Leftovers
+|-damage|p1b: GirlbossDozo|51/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1784143310
+|move|p1b: GirlbossDozo|Muddy Water|p2b: Incineroar
+|-supereffective|p2b: Incineroar|1
+|-enditem|p2b: Incineroar|Passho Berry|[eat]
+|-enditem|p2b: Incineroar|Passho Berry|[weaken]
+|-damage|p2b: Incineroar|5/100
+|move|p1a: Command Grab|Flare Blitz|p2b: Incineroar
+|-resisted|p2b: Incineroar|1
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|-damage|p1a: Command Grab|89/100|[from] Recoil
+|
+|win|execute order 222
+|raw|execute order 222's rating: 1386 → 1406(+20 for winning)
+|raw|Mr James Freak's rating: 1382 → 1362(-20 for losing)
+|l|☆Mr James Freak
+|player|p2|

@@ -1,0 +1,129 @@
+|j|☆testdigi
+|j|☆Sao Pescador
+|html|testdigiSao Pescador    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1784312668
+|gametype|doubles
+|player|p1|testdigi|1|1113
+|player|p2|Sao Pescador|fisherman-gen4|1026
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Delphox, L50, F, shiny|
+|poke|p1|Kingambit, L50, F, shiny|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Blastoise, L50, M|
+|poke|p2|Meganium, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Overqwil, L50, M|
+|poke|p2|Vileplume, L50, F|
+|teampreview|4
+|showteam|p1|Sneasler||FocusSash|PoisonTouch|PoisonJab,QuickGuard,CloseCombat,FakeOut|Jolly||M|||50|]Delphox||Delphoxite|Blaze|HeatWave,Psychic,NastyPlot,Protect|Timid||F|||50|]Kingambit||LifeOrb|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|Adamant||F|||50|]Sinistcha||ColburBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,Protect|Bold|||||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,HelpingHand,PartingShot,FakeOut|Impish||F|||50|]Blastoise||Blastoisinite|RainDish|WaterSpout,DarkPulse,ShellSmash,Protect|Modest||M|||50|
+|showteam|p2|Meganium||Meganiumite|LeafGuard|DazzlingGleam,SolarBeam,Protect,WeatherBall|Timid||F|||50|]Archaludon||Leftovers|Stamina|ElectroShot,FlashCannon,Protect,DragonPulse|Timid||M|||50|]Basculegion||ChoiceScarf|Adaptability|LastRespects,FlipTurn,WaveCrash,PhantomForce|Jolly||M|||50|]Pelipper||FocusSash|Drizzle|Tailwind,Hurricane,Protect,WeatherBall|Bold||F|||50|]Overqwil||SitrusBerry|Intimidate|BarbBarrage,ThroatChop,Taunt,Protect|Jolly||M|||50|]Vileplume||LifeOrb|EffectSpore|LeechSeed,Protect,Toxic,LeafStorm|Calm||F|||50|
+|
+|t:|1784312709
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Archaludon|atk|1
+|-unboost|p2b: Basculegion|atk|1
+|turn|1
+|
+|t:|1784312740
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p1b: Incineroar|Fake Out|p2a: Archaludon
+|-resisted|p2a: Archaludon|1
+|-damage|p2a: Archaludon|95/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p1a: Sneasler|Poison Jab|p2b: Pelipper
+|-damage|p2b: Pelipper|67/100
+|cant|p2a: Archaludon|flinch
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Archaludon|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1784312762
+|switch|p1b: Kingambit|Kingambit, L50, F, shiny|100/100
+|move|p1a: Sneasler|Close Combat|p2a: Archaludon
+|-supereffective|p2a: Archaludon|1
+|-damage|p2a: Archaludon|23/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Sneasler
+|-enditem|p1a: Sneasler|Focus Sash
+|-damage|p1a: Sneasler|1/100
+|move|p2b: Pelipper|Hurricane|p1b: Kingambit
+|-resisted|p1b: Kingambit|1
+|-damage|p1b: Kingambit|81/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Archaludon|29/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1784312801
+|switch|p2b: Meganium|Meganium, L50, F|100/100
+|move|p2a: Archaludon|Protect|p2a: Archaludon
+|-singleturn|p2a: Archaludon|Protect
+|move|p1a: Sneasler|Poison Jab|p2b: Meganium
+|-supereffective|p2b: Meganium|1
+|-damage|p2b: Meganium|0 fnt
+|faint|p2b: Meganium
+|move|p1b: Kingambit|Swords Dance|p1b: Kingambit
+|-boost|p1b: Kingambit|atk|2
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Archaludon|35/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1784312814
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|turn|4
+|
+|t:|1784312840
+|move|p1b: Kingambit|Sucker Punch|p2b: Basculegion
+|-supereffective|p2b: Basculegion|1
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|-damage|p1b: Kingambit|71/100|[from] item: Life Orb
+|move|p1a: Sneasler|Close Combat|p2a: Archaludon
+|-supereffective|p2a: Archaludon|1
+|-damage|p2a: Archaludon|0 fnt
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|faint|p2a: Archaludon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|Sao Pescador forfeited.
+|
+|win|testdigi
+|l|☆Sao Pescador
+|player|p2|
+||Sao Pescador is ready for game 2.
+|inactive|testdigi has 30 seconds to confirm battle start!
+|inactive|testdigi has 20 seconds to confirm battle start!
+|inactive|testdigi has 10 seconds to confirm battle start!
+||testdigi is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

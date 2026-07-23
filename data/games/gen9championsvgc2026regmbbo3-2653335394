@@ -1,0 +1,179 @@
+|j|☆Jab01
+|j|☆kosircapo
+|html|Jab01kosircapo    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784758304
+|gametype|doubles
+|player|p1|Jab01|linebacker|1050
+|player|p2|kosircapo|170|1072
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Mawile, L50, M|
+|poke|p1|Sylveon, L50, F|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p2|Garchomp, L50, M, shiny|
+|poke|p2|Sylveon, L50, M|
+|poke|p2|Aerodactyl, L50, M|
+|poke|p2|Metagross, L50|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|showteam|p1|Farigiraf||SitrusBerry|ArmorTail|TrickRoom,Psychic,HelpingHand,Protect|Bold||M|||50|]Mawile||Mawilite|Intimidate|PlayRough,SuckerPunch,Protect,IronHead|Brave||M|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,QuickAttack,HyperBeam,Detect|Modest||F|||50|]Kingambit||ChopleBerry|Defiant|SuckerPunch,KowtowCleave,IronDefense,Protect|Adamant||F|||50|]Torkoal||Charcoal|Drought|Eruption,Protect,WeatherBall,HeatWave|Quiet||F|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,RockSlide,Earthquake,Protect|Jolly||M|||50|
+|showteam|p2|Garchomp||LifeOrb|RoughSkin|Protect,RockSlide,Earthquake,DragonClaw|Jolly||M|||50|]Sylveon||FairyFeather|Pixilate|Detect,QuickAttack,HyperVoice,HyperBeam|Modest||M|||50|]Aerodactyl||FocusSash|Unnerve|Protect,RockSlide,Tailwind,DualWingbeat|Jolly||M|||50|]Metagross||Metagrossite|ClearBody|Protect,PsychicFangs,BulletPunch,BodyPress|Adamant|||||50|]Charizard||CharizarditeY|Blaze|Protect,HeatWave,SolarBeam,WeatherBall|Modest||F|||50|]Incineroar||SitrusBerry|Intimidate|PartingShot,FakeOut,DarkestLariat,FlareBlitz|Careful||F|||50|
+|
+|t:|1784758323
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p1b: Mawile|Mawile, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Metagross|Metagross, L50|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Farigiraf|atk|1
+|-unboost|p1b: Mawile|atk|1
+|-ability|p1b: Mawile|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-fail|p2b: Metagross|unboost|[from] ability: Clear Body|[of] p2b: Metagross
+|turn|1
+|
+|t:|1784758357
+|detailschange|p2b: Metagross|Metagross-Mega, L50
+|-mega|p2b: Metagross|Metagross|Metagrossite
+|detailschange|p1b: Mawile|Mawile-Mega, L50, M
+|-mega|p1b: Mawile|Mawile|Mawilite
+|move|p1a: Farigiraf|Protect|p1a: Farigiraf
+|-singleturn|p1a: Farigiraf|Protect
+|move|p1b: Mawile|Protect|p1b: Mawile
+|-singleturn|p1b: Mawile|Protect
+|move|p2b: Metagross|Body Press|p1a: Farigiraf
+|-activate|p1a: Farigiraf|move: Protect
+|move|p2a: Incineroar|Darkest Lariat|p1a: Farigiraf
+|-activate|p1a: Farigiraf|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1784758377
+|move|p1b: Mawile|Sucker Punch|p2b: Metagross
+|-supereffective|p2b: Metagross|1
+|-damage|p2b: Metagross|57/100
+|move|p2b: Metagross|Body Press|p1b: Mawile
+|-damage|p1b: Mawile|66/100
+|move|p2a: Incineroar|Flare Blitz|p1b: Mawile
+|-supereffective|p1b: Mawile|1
+|-damage|p1b: Mawile|5/100
+|-damage|p2a: Incineroar|84/100|[from] Recoil
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|turn|3
+|
+|t:|1784758401
+|move|p1a: Farigiraf|Helping Hand|p1b: Mawile
+|-singleturn|p1b: Mawile|Helping Hand|[of] p1a: Farigiraf
+|move|p1b: Mawile|Play Rough|p2a: Incineroar
+|-damage|p2a: Incineroar|6/100
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|31/100|[from] item: Sitrus Berry
+|move|p2a: Incineroar|Darkest Lariat|p1a: Farigiraf
+|-supereffective|p1a: Farigiraf|1
+|-damage|p1a: Farigiraf|62/100
+|move|p2b: Metagross|Body Press|p1a: Farigiraf
+|-damage|p1a: Farigiraf|33/100
+|-enditem|p1a: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1a: Farigiraf|58/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|4
+|
+|t:|1784758438
+|move|p1a: Farigiraf|Helping Hand|p1b: Mawile
+|-singleturn|p1b: Mawile|Helping Hand|[of] p1a: Farigiraf
+|move|p1b: Mawile|Sucker Punch|p2b: Metagross
+|-supereffective|p2b: Metagross|1
+|-damage|p2b: Metagross|0 fnt
+|faint|p2b: Metagross
+|move|p2a: Incineroar|Flare Blitz|p1b: Mawile
+|-supereffective|p1b: Mawile|1
+|-damage|p1b: Mawile|0 fnt
+|faint|p1b: Mawile
+|-damage|p2a: Incineroar|29/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1784758452
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100
+|switch|p2b: Aerodactyl|Aerodactyl, L50, M|100/100
+|-ability|p2b: Aerodactyl|Unnerve
+|turn|5
+|
+|t:|1784758478
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p1b: Kingambit|Protect|p1b: Kingambit
+|-singleturn|p1b: Kingambit|Protect
+|move|p2a: Incineroar|Flare Blitz|p1b: Kingambit
+|-activate|p1b: Kingambit|move: Protect
+|move|p2b: Aerodactyl|Rock Slide|p1b: Kingambit|[spread] p1a
+|-activate|p1b: Kingambit|move: Protect
+|-supereffective|p1a: Torkoal|1
+|-damage|p1a: Torkoal|59/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1784758508
+|move|p2b: Aerodactyl|Protect|p2b: Aerodactyl
+|-singleturn|p2b: Aerodactyl|Protect
+|move|p1b: Kingambit|Sucker Punch||[still]
+|-fail|p1b: Kingambit
+|move|p1a: Torkoal|Heat Wave|p2a: Incineroar|[spread] 
+|-activate|p2b: Aerodactyl|move: Protect
+|-miss|p1a: Torkoal|p2a: Incineroar
+|move|p2a: Incineroar|Parting Shot|p1a: Torkoal
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1a: Torkoal|spa|1
+|
+|t:|1784758518
+|switch|p2a: Garchomp|Garchomp, L50, M, shiny|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1784758533
+|switch|p1a: Farigiraf|Farigiraf, L50, M|58/100
+|move|p2b: Aerodactyl|Rock Slide|p1a: Farigiraf|[spread] p1a,p1b
+|-resisted|p1b: Kingambit|1
+|-damage|p1a: Farigiraf|38/100
+|-damage|p1b: Kingambit|90/100
+|move|p2a: Garchomp|Earthquake|p1a: Farigiraf|[spread] p1a,p1b
+|-immune|p2b: Aerodactyl
+|-supereffective|p1b: Kingambit|1
+|-damage|p1a: Farigiraf|0 fnt
+|-damage|p1b: Kingambit|15/100
+|faint|p1a: Farigiraf
+|-damage|p2a: Garchomp|90/100|[from] item: Life Orb
+|cant|p1b: Kingambit|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|n|!Jab01|jab01
+|
+|t:|1784758553
+|switch|p1a: Torkoal|Torkoal, L50, F|59/100
+|turn|8
+|-message|Jab01 forfeited.
+|
+|win|kosircapo

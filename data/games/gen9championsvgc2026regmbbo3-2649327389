@@ -1,0 +1,143 @@
+|j|☆Akkachi
+|j|☆Asladom
+|html|AkkachiAsladom    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1784073258
+|gametype|doubles
+|player|p1|Akkachi|hilbert|
+|player|p2|Asladom|pokekid|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gengar, L50, F, shiny|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Vivillon-Pokeball, L50, F|
+|poke|p1|Ceruledge, L50, M|
+|poke|p1|Staraptor, L50, M|
+|poke|p2|Falinks, L50|
+|poke|p2|Malamar, L50, F|
+|poke|p2|Clefable, L50, F|
+|poke|p2|Armarouge, L50, M|
+|poke|p2|Empoleon, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|teampreview|4
+|showteam|p1|Gengar||Gengarite|CursedBody|PerishSong,WillOWisp,ShadowBall,Protect|Modest||F|||50|]Sneasler||WhiteHerb|Unburden|FakeOut,CloseCombat,DireClaw,Protect|Adamant||M|||50|]Dragonite||DragonFang|Multiscale|ExtremeSpeed,DragonClaw,LowKick,Protect|Adamant||M|||50|]Vivillon-Pokeball||FocusSash|CompoundEyes|SleepPowder,RagePowder,Hurricane,Protect|Timid||F|||50|]Ceruledge||ColburBerry|FlashFire|BitterBlade,ShadowSneak,BulkUp,Protect|Adamant||M|||50|]Staraptor||ChoiceScarf|Intimidate|BraveBird,CloseCombat,Uturn,FinalGambit|Jolly||M|||50|
+|showteam|p2|Falinks||Falinksite|Defiant|CloseCombat,KnockOff,NoRetreat,Protect|Jolly|||||50|]Malamar||SitrusBerry|Contrary|StoredPower,PsychUp,SkillSwap,Protect|Timid||F|||50|]Clefable||Clefablite|Unaware|Moonblast,DrainingKiss,LifeDew,FollowMe|Bold||F|||50|]Armarouge||FocusSash|WeakArmor|ArmorCannon,Psychic,PsychUp,Protect|Modest||M|||50|]Empoleon||Leftovers|Competitive|IceBeam,FlashCannon,ChillingWater,Protect|Modest||M|||50|]Ninetales-Alola||LightClay|SnowWarning|Blizzard,DazzlingGleam,AuroraVeil,Protect|Timid||F|||50|
+|
+|t:|1784073313
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Vivillon|Vivillon-Pokeball, L50, F|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Falinks|Falinks, L50|100/100
+|switch|p2b: Armarouge|Armarouge, L50, M|100/100
+|turn|1
+|
+|t:|1784073343
+|detailschange|p2a: Falinks|Falinks-Mega, L50
+|-mega|p2a: Falinks|Falinks|Falinksite
+|move|p1b: Sneasler|Fake Out|p2a: Falinks
+|-damage|p2a: Falinks|86/100
+|cant|p2a: Falinks|flinch
+|move|p1a: Vivillon|Sleep Powder|p2b: Armarouge
+|-status|p2b: Armarouge|slp|[from] move: Sleep Powder
+|cant|p2b: Armarouge|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1784073364
+|switch|p1b: Gasparzinho|Gengar, L50, F, shiny|100/100
+|move|p2a: Falinks|No Retreat|p2a: Falinks
+|-boost|p2a: Falinks|atk|1
+|-boost|p2a: Falinks|def|1
+|-boost|p2a: Falinks|spa|1
+|-boost|p2a: Falinks|spd|1
+|-boost|p2a: Falinks|spe|1
+|-start|p2a: Falinks|move: No Retreat
+|move|p1a: Vivillon|Hurricane|p2a: Falinks
+|-supereffective|p2a: Falinks|1
+|-damage|p2a: Falinks|6/100
+|-curestatus|p2b: Armarouge|slp|[msg]
+|move|p2b: Armarouge|Psych Up|p2a: Falinks
+|-copyboost|p2b: Armarouge|p2a: Falinks|[from] move: Psych Up
+|
+|upkeep
+|turn|3
+|
+|t:|1784073386
+|detailschange|p1b: Gasparzinho|Gengar-Mega, L50, F, shiny
+|-mega|p1b: Gasparzinho|Gengar|Gengarite
+|move|p1a: Vivillon|Rage Powder|p1a: Vivillon
+|-singleturn|p1a: Vivillon|move: Rage Powder
+|move|p2a: Falinks|Knock Off|p1a: Vivillon
+|-damage|p1a: Vivillon|13/100
+|-enditem|p1a: Vivillon|Focus Sash|[from] move: Knock Off|[of] p2a: Falinks
+|move|p2b: Armarouge|Psychic|p1a: Vivillon
+|-damage|p1a: Vivillon|0 fnt
+|faint|p1a: Vivillon
+|move|p1b: Gasparzinho|Perish Song|p1b: Gasparzinho
+|-start|p1b: Gasparzinho|perish3|[silent]
+|-start|p2a: Falinks|perish3|[silent]
+|-start|p2b: Armarouge|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-start|p2a: Falinks|perish3
+|-start|p2b: Armarouge|perish3
+|-start|p1b: Gasparzinho|perish3
+|upkeep
+|
+|t:|1784073401
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|turn|4
+|
+|t:|1784073417
+|move|p1a: Dragonite|Extreme Speed|p2a: Falinks
+|-damage|p2a: Falinks|0 fnt
+|faint|p2a: Falinks
+|move|p2b: Armarouge|Psychic|p1b: Gasparzinho
+|-supereffective|p1b: Gasparzinho|1
+|-damage|p1b: Gasparzinho|0 fnt
+|faint|p1b: Gasparzinho
+|
+|-start|p2b: Armarouge|perish2
+|upkeep
+|
+|t:|1784073426
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|5
+|
+|t:|1784073486
+|move|p1a: Dragonite|Protect|p1a: Dragonite
+|-singleturn|p1a: Dragonite|Protect
+|move|p2b: Armarouge|Psychic|p1b: Sneasler
+|-supereffective|p1b: Sneasler|2
+|-damage|p1b: Sneasler|0 fnt
+|faint|p1b: Sneasler
+|move|p2a: Ninetales|Aurora Veil|p2a: Ninetales
+|-sidestart|p2: Asladom|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|-start|p2b: Armarouge|perish1
+|upkeep
+|turn|6
+|
+|t:|1784073501
+|move|p1a: Dragonite|Extreme Speed|p2a: Ninetales
+|-damage|p2a: Ninetales|78/100
+|move|p2b: Armarouge|Psychic|p1a: Dragonite
+|-damage|p1a: Dragonite|64/100
+|move|p2a: Ninetales|Blizzard|p1a: Dragonite
+|-supereffective|p1a: Dragonite|2
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|win|Asladom
+|inactive|Akkachi has 30 seconds to confirm battle start!
+|inactive|Asladom has 30 seconds to confirm battle start!

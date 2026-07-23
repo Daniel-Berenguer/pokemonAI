@@ -1,0 +1,153 @@
+|j|☆Pelosis
+|j|☆townline
+|html|Pelosistownline    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1783965955
+|gametype|doubles
+|player|p1|Pelosis|265|1011
+|player|p2|townline|266|1108
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Mawile, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Scrafty, L50, M|
+|poke|p2|Staraptor, L50, F|
+|poke|p2|Feraligatr, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Vileplume, L50, F|
+|poke|p2|Sceptile, L50, F|
+|poke|p2|Houndoom, L50, M|
+|teampreview|4
+|showteam|p1|Mawile||Mawilite|HyperCutter|Protect,PlayRough,SwordsDance,SuckerPunch|Brave||F|||50|]Farigiraf||SitrusBerry|ArmorTail|TrickRoom,TwinBeam,Thunderbolt,HelpingHand|Quiet||M|||50|]Incineroar||WhiteHerb|Intimidate|FakeOut,CloseCombat,FlareBlitz,ThroatChop|Brave||M|||50|]Torkoal||Charcoal|Drought|Protect,Eruption,HeatWave,WeatherBall|Quiet||F|||50|]Venusaur||FocusSash|Chlorophyll|SleepPowder,EarthPower,EnergyBall,SludgeBomb|Modest||F|||50|]Scrafty||Scraftinite|Intimidate|FakeOut,CloseCombat,KnockOff,IcePunch|Brave||M|||50|
+|showteam|p2|Staraptor||Staraptite|Intimidate|BraveBird,CloseCombat,Protect,Roost|Jolly||F|||50|]Feraligatr||LifeOrb|SheerForce|Liquidation,RockSlide,AquaJet,IcePunch|Adamant||M|||50|]Gholdengo||SitrusBerry|GoodasGold|MakeItRain,NastyPlot,Protect,ShadowBall|Modest|||||50|]Vileplume||BigRoot|EffectSpore|SludgeBomb,GigaDrain,StrengthSap,LeechSeed|Relaxed||F|||50|]Sceptile||WhiteHerb|Unburden|LeafStorm,RockTomb,QuickGuard,EarthPower|Serious||F|||50|]Houndoom||FocusSash|FlashFire|SuckerPunch,HeatWave,Protect,Snarl|Hasty||M|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Pelosis)
+|
+|t:|1783965991
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, F|100/100
+|switch|p1b: Venusaur|Venusaur, L50, F|100/100
+|switch|p2a: Houndoom|Houndoom, L50, M|100/100
+|switch|p2b: Vileplume|Vileplume, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|inactive|Pelosis has 30 seconds left.
+|inactive|townline has 30 seconds left.
+|inactive|Pelosis has 20 seconds left.
+|inactive|Pelosis has 15 seconds left.
+|inactive|Pelosis has 10 seconds left.
+|
+|t:|1783966039
+|move|p1b: Venusaur|Sleep Powder|p2a: Houndoom
+|-status|p2a: Houndoom|slp|[from] move: Sleep Powder
+|cant|p2a: Houndoom|slp
+|move|p2b: Vileplume|Leech Seed|p1a: Torkoal
+|-start|p1a: Torkoal|move: Leech Seed
+|move|p1a: Torkoal|Eruption|p2b: Vileplume|[spread] p2b
+|-start|p2a: Houndoom|ability: Flash Fire
+|-supereffective|p2b: Vileplume|1
+|-damage|p2b: Vileplume|0 fnt
+|faint|p2b: Vileplume
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783966051
+|switch|p2b: Feraligatr|Feraligatr, L50, M|100/100
+|turn|2
+|
+|t:|1783966068
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|move|p1b: Venusaur|Energy Ball|p2b: Feraligatr
+|-supereffective|p2b: Feraligatr|1
+|-damage|p2b: Feraligatr|20/100y
+|cant|p2a: Houndoom|slp
+|move|p2b: Feraligatr|Ice Punch|p1b: Venusaur
+|-supereffective|p1b: Venusaur|1
+|-damage|p1b: Venusaur|7/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1783966092
+|move|p1b: Venusaur|Sleep Powder|p2b: Feraligatr|[miss]
+|-miss|p1b: Venusaur|p2b: Feraligatr
+|-curestatus|p2a: Houndoom|slp|[msg]
+|move|p2a: Houndoom|Snarl|p1b: Venusaur|[spread] p1a,p1b
+|-supereffective|p1a: Farigiraf|1
+|-damage|p1a: Farigiraf|66/100
+|-damage|p1b: Venusaur|0 fnt
+|-unboost|p1a: Farigiraf|spa|1
+|faint|p1b: Venusaur
+|move|p2b: Feraligatr|Rock Slide|p1a: Farigiraf
+|-damage|p1a: Farigiraf|33/100
+|-enditem|p1a: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1a: Farigiraf|58/100|[from] item: Sitrus Berry
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783966107
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|turn|4
+|
+|t:|1783966127
+|switch|p2b: Staraptor|Staraptor, L50, F|100/100
+|-ability|p2b: Staraptor|Intimidate|boost
+|-unboost|p1a: Farigiraf|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|move|p1b: Torkoal|Weather Ball|p2b: Staraptor
+|-damage|p2b: Staraptor|0 fnt
+|faint|p2b: Staraptor
+|move|p1a: Farigiraf|Thunderbolt|p2a: Houndoom
+|-damage|p2a: Houndoom|74/100
+|move|p2a: Houndoom|Snarl|p1a: Farigiraf|[spread] p1a,p1b
+|-supereffective|p1a: Farigiraf|1
+|-damage|p1a: Farigiraf|22/100
+|-damage|p1b: Torkoal|74/100
+|-unboost|p1a: Farigiraf|spa|1
+|-unboost|p1b: Torkoal|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783966142
+|switch|p2b: Feraligatr|Feraligatr, L50, M|20/100y
+|turn|5
+|
+|t:|1783966149
+|switch|p1a: Mawile|Mawile, L50, F|100/100
+|move|p1b: Torkoal|Weather Ball|p2b: Feraligatr
+|-resisted|p2b: Feraligatr|1
+|-damage|p2b: Feraligatr|0 fnt
+|faint|p2b: Feraligatr
+|move|p2a: Houndoom|Snarl|p1b: Torkoal|[spread] p1a,p1b
+|-resisted|p1a: Mawile|1
+|-damage|p1a: Mawile|84/100
+|-damage|p1b: Torkoal|50/100g
+|-unboost|p1a: Mawile|spa|1
+|-unboost|p1b: Torkoal|spa|1
+|
+|-weather|none
+|upkeep
+|turn|6
+|inactive|Pelosis has 30 seconds left.
+|inactive|townline has 30 seconds left.
+|-message|townline forfeited.
+|
+|win|Pelosis
+|raw|Pelosis's rating: 1011 → 1060(+49 for winning)
+|raw|townline's rating: 1108 → 1076(-32 for losing)
+|l|☆townline
+|player|p2|

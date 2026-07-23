@@ -1,0 +1,123 @@
+|j|☆comanderchacha
+|j|☆c00ldyl
+|html|comanderchachac00ldyl    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784160666
+|gametype|doubles
+|player|p1|comanderchacha|1|
+|player|p2|c00ldyl|gentleman-gen4dp|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Palafin, L50, M|
+|poke|p1|Venusaur, L50, M|
+|poke|p1|Espathra, L50, M|
+|poke|p2|Lucario, L50, M|
+|poke|p2|Gardevoir, L50, M|
+|poke|p2|Wyrdeer, L50, M|
+|poke|p2|Vileplume, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Scrafty, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|HeatWave,SolarBeam,BrickBreak,Protect|Hasty||F|||50|]Floette-Eternal||Floettite|FlowerVeil|CalmMind,LightofRuin,DazzlingGleam,DrainingKiss|Timid||F|||50|]Corviknight||Leftovers|MirrorArmor|Roost,BodyPress,IronDefense,Tailwind|Bold||F|||50|]Palafin||ChoiceScarf|ZerotoHero|AquaJet,CloseCombat,FlipTurn,WaveCrash|Jolly||M|||50|]Venusaur||FocusSash|Chlorophyll|GigaDrain,SleepPowder,SludgeBomb,Protect|Modest||M|||50|]Espathra||MentalHerb|SpeedBoost|BatonPass,CalmMind,StoredPower,Protect|Modest||M|||50|
+|showteam|p2|Lucario||Lucarionite|InnerFocus|CloseCombat,StoneEdge,MeteorMash,Detect|Adamant||M|||50|]Gardevoir||Gardevoirite|Telepathy|HyperVoice,Psychic,TrickRoom,Protect|Modest||M|||50|]Wyrdeer||SitrusBerry|SapSipper|SkillSwap,PsyshieldBash,Gravity,TrickRoom|Brave||M|||50|]Vileplume||LifeOrb|Chlorophyll|SleepPowder,AfterYou,LeafStorm,SludgeBomb|Modest||M|||50|]Torkoal||Charcoal|Drought|Eruption,Overheat,Protect,HelpingHand|Modest||F|||50|]Scrafty||Scraftinite|Intimidate|FakeOut,DrainPunch,KnockOff,RockSlide|Adamant||M|||50|
+|
+|t:|1784160680
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, F|100/100
+|switch|p1b: Venusaur|Venusaur, L50, M|100/100
+|switch|p2a: Vileplume|Vileplume, L50, M|100/100
+|switch|p2b: Nacho|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Nacho
+|turn|1
+|
+|t:|1784160707
+|switch|p2b: Wyrdeer|Wyrdeer, L50, M|100/100
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|move|p1b: Venusaur|Protect|p1b: Venusaur
+|-singleturn|p1b: Venusaur|Protect
+|move|p2a: Vileplume|Sleep Powder|p1a: Charizard
+|-status|p1a: Charizard|slp|[from] move: Sleep Powder
+|cant|p1a: Charizard|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1784160730
+|move|p1b: Venusaur|Sleep Powder|p2b: Wyrdeer
+|-ability|p2b: Wyrdeer|Sap Sipper|boost
+|-boost|p2b: Wyrdeer|atk|1
+|move|p2a: Vileplume|Sludge Bomb|p1b: Venusaur
+|-damage|p1b: Venusaur|31/100
+|-damage|p2a: Vileplume|90/100|[from] item: Life Orb
+|cant|p1a: Charizard|slp
+|move|p2b: Wyrdeer|Psyshield Bash|p1b: Venusaur
+|-supereffective|p1b: Venusaur|1
+|-damage|p1b: Venusaur|0 fnt
+|-boost|p2b: Wyrdeer|def|1
+|faint|p1b: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1784160749
+|switch|p1b: Corviknight|Corviknight, L50, F|100/100
+|turn|3
+|
+|t:|1784160763
+|move|p2a: Vileplume|Sleep Powder|p1b: Corviknight
+|-status|p1b: Corviknight|slp|[from] move: Sleep Powder
+|-curestatus|p1a: Charizard|slp|[msg]
+|move|p1a: Charizard|Heat Wave|p2a: Vileplume|[spread] p2a,p2b
+|-supereffective|p2a: Vileplume|1
+|-damage|p2a: Vileplume|0 fnt
+|-damage|p2b: Wyrdeer|52/100
+|faint|p2a: Vileplume
+|cant|p1b: Corviknight|slp
+|move|p2b: Wyrdeer|Trick Room|p2b: Wyrdeer
+|-fieldstart|move: Trick Room|[of] p2b: Wyrdeer
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1784160774
+|switch|p2a: Nacho|Torkoal, L50, F|100/100
+|turn|4
+|
+|t:|1784160795
+|move|p2a: Nacho|Eruption|p1a: Charizard|[spread] p1a,p1b
+|-resisted|p1a: Charizard|1
+|-supereffective|p1b: Corviknight|1
+|-damage|p1a: Charizard|55/100
+|-damage|p1b: Corviknight|0 fnt
+|faint|p1b: Corviknight
+|move|p2b: Wyrdeer|Psyshield Bash|p1a: Charizard
+|-damage|p1a: Charizard|0 fnt
+|-boost|p2b: Wyrdeer|def|1
+|faint|p1a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1784160827
+|switch|p1a: Floette|Floette-Eternal, L50, F|100/100
+|turn|5
+|
+|t:|1784160835
+|move|p2a: Nacho|Eruption|p1a: Floette
+|-damage|p1a: Floette|0 fnt
+|faint|p1a: Floette
+|
+|win|c00ldyl
+||c00ldyl is ready for game 3.
+||comanderchacha is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

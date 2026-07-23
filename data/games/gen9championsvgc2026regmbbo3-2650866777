@@ -1,0 +1,126 @@
+|j|☆Prepucio Santos
+|j|☆TopekaMelon
+|html|Prepucio SantosTopekaMelon    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784329254
+|gametype|doubles
+|player|p1|Prepucio Santos|striker|1199
+|player|p2|TopekaMelon|psychic-gen4|1228
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Sylveon, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Aerodactyl, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Kangaskhan, L50, F|
+|poke|p2|Vivillon-Elegant, L50, M|
+|poke|p2|Gardevoir, L50, F|
+|poke|p2|Kingambit, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|SolarPower|WeatherBall,HeatWave,SolarBeam,Protect|Modest||M|||50|]Kingambit||FocusSash|Defiant|IronHead,SuckerPunch,KowtowCleave,LowKick|Adamant||M|||50|]Sylveon||FairyFeather|Pixilate|Protect,HyperVoice,HyperBeam,QuickAttack|Modest||F|||50|]Garchomp||LifeOrb|RoughSkin|Protect,DragonClaw,Earthquake,RockSlide|Jolly||F|||50|]Aerodactyl||Aerodactylite|Unnerve|IceFang,RockSlide,Tailwind,DualWingbeat|Jolly||M|||50|]Farigiraf||SitrusBerry|ArmorTail|TrickRoom,Psychic,Thunderbolt,SunnyDay|Bold||M|||50|
+|showteam|p2|Farigiraf||ColburBerry|ArmorTail|Protect,TrickRoom,Thunderbolt,Psychic|Quiet||F|||50|]Torkoal||Charcoal|Drought|Protect,EarthPower,WeatherBall,Eruption|Quiet||M|||50|]Kangaskhan||Kangaskhanite|Scrappy|DoubleEdge,HammerArm,IcePunch,FakeOut|Brave||F|||50|]Vivillon-Elegant||FocusSash|CompoundEyes|Protect,RagePowder,SleepPowder,Hurricane|Timid||M|||50|]Gardevoir||Gardevoirite|Telepathy|Protect,TrickRoom,Psychic,HyperVoice|Quiet||F|||50|]Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,LowKick,IronHead|Brave||M|||50|
+|
+|t:|1784329276
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p1b: Sylveon|Sylveon, L50, F|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, L50, F|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|turn|1
+|
+|t:|1784329300
+|switch|p2a: Kingambit|Kingambit, L50, M|100/100
+|move|p1b: Sylveon|Hyper Beam|p2b: Farigiraf
+|-damage|p2b: Farigiraf|3/100
+|-mustrecharge|p1b: Sylveon
+|move|p1a: Farigiraf|Thunderbolt|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|
+|upkeep
+|
+|t:|1784329311
+|switch|p2b: Kangaskhan|Kangaskhan, L50, F|100/100
+|turn|2
+|
+|t:|1784329320
+|detailschange|p2b: Kangaskhan|Kangaskhan-Mega, L50, F
+|-mega|p2b: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p2b: Kangaskhan|Double-Edge|p1a: Farigiraf
+|-damage|p1a: Farigiraf|48/100
+|-enditem|p1a: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1a: Farigiraf|73/100|[from] item: Sitrus Berry
+|-crit|p1a: Farigiraf
+|-damage|p1a: Farigiraf|54/100
+|-hitcount|p1a: Farigiraf|2
+|-damage|p2b: Kangaskhan|75/100|[from] Recoil
+|cant|p1b: Sylveon|recharge
+|move|p1a: Farigiraf|Psychic|p2b: Kangaskhan
+|-damage|p2b: Kangaskhan|47/100
+|move|p2a: Kingambit|Iron Head|p1b: Sylveon
+|-supereffective|p1b: Sylveon|1
+|-damage|p1b: Sylveon|0 fnt
+|faint|p1b: Sylveon
+|
+|upkeep
+|
+|t:|1784329336
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|turn|3
+|
+|t:|1784329350
+|move|p2a: Kingambit|Sucker Punch||[still]
+|cant|p1a: Farigiraf|ability: Armor Tail|Sucker Punch|[of] p2a: Kingambit
+|move|p1b: Garchomp|Earthquake|p2b: Kangaskhan|[spread] p1a,p2a,p2b
+|-supereffective|p2a: Kingambit|1
+|-damage|p1a: Farigiraf|14/100
+|-damage|p2a: Kingambit|32/100
+|-damage|p2b: Kangaskhan|3/100
+|-damage|p1b: Garchomp|90/100|[from] item: Life Orb
+|move|p2b: Kangaskhan|Ice Punch|p1b: Garchomp
+|-supereffective|p1b: Garchomp|2
+|-damage|p1b: Garchomp|0 fnt
+|-damage|p2b: Kangaskhan|0 fnt|[from] ability: Rough Skin|[of] p1b: Garchomp
+|faint|p1b: Garchomp
+|faint|p2b: Kangaskhan
+|move|p1a: Farigiraf|Thunderbolt|p2a: Kingambit
+|-damage|p2a: Kingambit|9/100
+|
+|upkeep
+|
+|t:|1784329364
+|switch|p1b: Aerodactyl|Aerodactyl, L50, M|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-ability|p1b: Aerodactyl|Unnerve
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|4
+|
+|t:|1784329379
+|detailschange|p1b: Aerodactyl|Aerodactyl-Mega, L50, M
+|-mega|p1b: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p1b: Aerodactyl|Rock Slide|p2a: Kingambit|[spread] p2a,p2b
+|-resisted|p2a: Kingambit|1
+|-supereffective|p2b: Torkoal|1
+|-damage|p2a: Kingambit|0 fnt
+|-damage|p2b: Torkoal|59/100
+|faint|p2a: Kingambit
+|move|p1a: Farigiraf|Psychic|p2b: Torkoal
+|-damage|p2b: Torkoal|16/100
+|cant|p2b: Torkoal|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|-message|TopekaMelon forfeited.
+|
+|win|Prepucio Santos

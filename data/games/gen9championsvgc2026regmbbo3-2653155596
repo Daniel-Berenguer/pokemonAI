@@ -1,0 +1,223 @@
+|j|☆al.fo1234
+|j|☆robinrambles
+|html|al.fo1234robinrambles    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1784734727
+|gametype|doubles
+|player|p1|al.fo1234|acetrainer-gen4dp|1236
+|player|p2|robinrambles|dawn-gen4pt|1112
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Toxapex, L50, F|
+|poke|p1|Annihilape, L50, F|
+|poke|p2|Staraptor, L50, M|
+|poke|p2|Metagross, L50|
+|poke|p2|Kangaskhan, L50, F|
+|poke|p2|Ceruledge, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|showteam|p1|Garchomp||ChoiceScarf|RoughSkin|RockSlide,DragonClaw,Earthquake,StompingTantrum|Adamant||F|||50|]Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,HelpingHand,Protect|Modest||F|||50|]Venusaur||LifeOrb|Chlorophyll|Protect,EarthPower,SludgeBomb,LeafStorm|Modest||F|||50|]Incineroar||SitrusBerry|Intimidate|PartingShot,ThroatChop,FlareBlitz,FakeOut|Impish||M|||50|]Toxapex||Leftovers|Regenerator|Toxic,BanefulBunker,Infestation,WideGuard|Bold||F|||50|]Annihilape||FocusSash|Defiant|CloseCombat,PhantomForce,RockTomb,Protect|Jolly||F|||50|
+|showteam|p2|Staraptor||Staraptite|Intimidate|Roost,Protect,CloseCombat,BraveBird|Adamant||M|||50|]Metagross||Metagrossite|ClearBody|BulletPunch,PsychicFangs,MeteorMash,StompingTantrum|Jolly|||||50|]Kangaskhan||SilkScarf|Scrappy|FakeOut,LastResort|Jolly||F|||50|]Ceruledge||ColburBerry|FlashFire|BitterBlade,ShadowSneak,Protect,BulkUp|Jolly||M|||50|]Whimsicott||FocusSash|Prankster|Tailwind,Taunt,Charm,Moonblast|Timid||M|||50|]Farigiraf||ExpertBelt|ArmorTail|TwinBeam,Thunderbolt,Protect,HelpingHand|Calm||F|||50|
+|
+|t:|1784734758
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, L50, F|100/100
+|switch|p2b: Whimsicott|Whimsicott, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Kangaskhan|unboost|Attack|[from] ability: Scrappy|[of] p2a: Kangaskhan
+|-unboost|p2b: Whimsicott|atk|1
+|turn|1
+|
+|t:|1784734776
+|switch|p2b: Ceruledge|Ceruledge, L50, M|100/100
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2a: Kangaskhan|Fake Out|p1b: Incineroar
+|-damage|p1b: Incineroar|84/100
+|move|p1a: Charizard|Heat Wave|p2b: Ceruledge|[spread] p2a
+|-start|p2b: Ceruledge|ability: Flash Fire
+|-damage|p2a: Kangaskhan|27/100
+|-status|p2a: Kangaskhan|brn
+|cant|p1b: Incineroar|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Kangaskhan|21/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1784734801
+|move|p2b: Ceruledge|Protect|p2b: Ceruledge
+|-singleturn|p2b: Ceruledge|Protect
+|move|p1a: Charizard|Protect|p1a: Charizard
+|-singleturn|p1a: Charizard|Protect
+|move|p2a: Kangaskhan|Last Resort|p1b: Incineroar
+|-damage|p1b: Incineroar|56/100
+|move|p1b: Incineroar|Parting Shot|p2b: Ceruledge
+|-activate|p2b: Ceruledge|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Kangaskhan|15/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1784734828
+|move|p1a: Charizard|Helping Hand|p1b: Incineroar
+|-singleturn|p1b: Incineroar|Helping Hand|[of] p1a: Charizard
+|move|p2a: Kangaskhan|Last Resort|p1b: Incineroar
+|-damage|p1b: Incineroar|29/100
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|54/100|[from] item: Sitrus Berry
+|move|p2b: Ceruledge|Bitter Blade|p1b: Incineroar
+|-resisted|p1b: Incineroar|1
+|-damage|p1b: Incineroar|15/100
+|move|p1b: Incineroar|Throat Chop|p2b: Ceruledge
+|-supereffective|p2b: Ceruledge|1
+|-enditem|p2b: Ceruledge|Colbur Berry|[eat]
+|-enditem|p2b: Ceruledge|Colbur Berry|[weaken]
+|-damage|p2b: Ceruledge|38/100
+|-start|p2b: Ceruledge|Throat Chop|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Kangaskhan|9/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1784734850
+|move|p2a: Kangaskhan|Last Resort|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p2b: Ceruledge|Bitter Blade|p1a: Charizard
+|-resisted|p1a: Charizard|1
+|-damage|p1a: Charizard|48/100
+|-heal|p2b: Ceruledge|69/100|[from] drain|[of] p1a: Charizard
+|move|p1a: Charizard|Weather Ball|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2b: Ceruledge|Throat Chop|[silent]
+|upkeep
+|
+|t:|1784734863
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p1b: Annihilape|Annihilape, L50, F|100/100
+|turn|5
+|
+|t:|1784734873
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: robinrambles|move: Tailwind
+|move|p2b: Ceruledge|Bitter Blade|p1b: Annihilape
+|-enditem|p1b: Annihilape|Focus Sash
+|-damage|p1b: Annihilape|1/100
+|-heal|p2b: Ceruledge|100/100|[from] drain|[of] p1b: Annihilape
+|move|p1b: Annihilape|Phantom Force||[still]
+|-prepare|p1b: Annihilape|Phantom Force
+|move|p1a: Charizard|Weather Ball|p2a: Whimsicott
+|-supereffective|p2a: Whimsicott|1
+|-enditem|p2a: Whimsicott|Focus Sash
+|-damage|p2a: Whimsicott|1/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1784734896
+|-end|p2b: Ceruledge|ability: Flash Fire|[silent]
+|switch|p2b: Staraptor|Staraptor, L50, M|100/100
+|-ability|p2b: Staraptor|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|-unboost|p1b: Annihilape|atk|1
+|-ability|p1b: Annihilape|Defiant|boost
+|-boost|p1b: Annihilape|atk|2
+|switch|p1a: Garchomp|Garchomp, L50, F|100/100
+|move|p2a: Whimsicott|Taunt|p1a: Garchomp
+|-start|p1a: Garchomp|move: Taunt
+|move|p1b: Annihilape|Phantom Force|p2b: Staraptor|[from] lockedmove
+|-immune|p2b: Staraptor
+|
+|upkeep
+|turn|7
+|
+|t:|1784734915
+|detailschange|p2b: Staraptor|Staraptor-Mega, L50, M
+|-mega|p2b: Staraptor|Staraptor|Staraptite
+|move|p1b: Annihilape|Protect|p1b: Annihilape
+|-singleturn|p1b: Annihilape|Protect
+|move|p2a: Whimsicott|Moonblast|p1b: Annihilape
+|-activate|p1b: Annihilape|move: Protect
+|move|p2b: Staraptor|Close Combat|p1a: Garchomp
+|-damage|p1a: Garchomp|39/100
+|-boost|p2b: Staraptor|def|1
+|-boost|p2b: Staraptor|spd|1
+|-damage|p2b: Staraptor|87/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|move|p1a: Garchomp|Rock Slide|p2a: Whimsicott|[spread] p2a,p2b
+|-damage|p2a: Whimsicott|0 fnt
+|-damage|p2b: Staraptor|75/100
+|faint|p2a: Whimsicott
+|
+|upkeep
+|
+|t:|1784734929
+|switch|p2a: Ceruledge|Ceruledge, L50, M|100/100
+|turn|8
+|
+|t:|1784734940
+|switch|p1b: Charizard|Charizard-Mega-Y, L50, F|48/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|move|p2a: Ceruledge|Shadow Sneak|p1b: Charizard
+|-damage|p1b: Charizard|29/100
+|move|p2b: Staraptor|Close Combat|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|-boost|p2b: Staraptor|def|1
+|-boost|p2b: Staraptor|spd|1
+|-damage|p2b: Staraptor|62/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: robinrambles|move: Tailwind
+|upkeep
+|
+|t:|1784734953
+|switch|p1a: Annihilape|Annihilape, L50, F|1/100
+|turn|9
+|
+|t:|1784734966
+|move|p2b: Staraptor|Protect|p2b: Staraptor
+|-singleturn|p2b: Staraptor|Protect
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Annihilape
+|-supereffective|p1a: Annihilape|1
+|-damage|p1a: Annihilape|0 fnt
+|faint|p1a: Annihilape
+|move|p1b: Charizard|Weather Ball|p2b: Staraptor
+|-activate|p2b: Staraptor|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|l|☆al.fo1234
+|player|p1|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by robinrambles)
+|inactive|al.fo1234 has 30 seconds to reconnect!
+|inactive|al.fo1234 has 20 seconds to reconnect!
+|inactive|al.fo1234 has 15 seconds to reconnect!
+|inactive|al.fo1234 has 10 seconds to reconnect!
+|inactive|al.fo1234 has 5 seconds to reconnect!
+|-message|al.fo1234 lost due to inactivity.
+|
+|win|robinrambles
+|raw|al.fo1234's rating: 1236 → 1202(-34 for losing)
+|raw|robinrambles's rating: 1112 → 1146(+34 for winning)

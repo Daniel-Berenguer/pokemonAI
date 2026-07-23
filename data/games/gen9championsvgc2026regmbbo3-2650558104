@@ -1,0 +1,233 @@
+|j|â˜†IdiotGo
+|j|â˜†AltBugCoreDefense
+|html|IdiotGoAltBugCoreDefense    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784283885
+|gametype|doubles
+|player|p1|IdiotGo|depotagent|
+|player|p2|AltBugCoreDefense|workerice|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each PokÃ©mon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ceruledge, L50, F|
+|poke|p1|Lucario, L50, M|
+|poke|p1|Palafin, L50, F|
+|poke|p1|Toxapex, L50, F|
+|poke|p1|Tinkaton, L50, F|
+|poke|p1|Talonflame, L50, M|
+|poke|p2|Barbaracle, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Milotic, L50, F|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Ceruledge||LifeOrb|FlashFire|BitterBlade,ShadowSneak,Poltergeist,Protect|Adamant||F|||50|]Lucario||Lucarionite|InnerFocus|VacuumWave,ShadowBall,FlashCannon,Protect|Timid||M|||50|]Palafin||MysticWater|ZerotoHero|Protect,CloseCombat,JetPunch,WaveCrash|Adamant||F|||50|]Toxapex||Leftovers|Regenerator|BanefulBunker,Toxic,Recover,Liquidation|Impish||F|||50|]Tinkaton||MetalCoat|MoldBreaker|FakeOut,GigatonHammer,PlayRough,Protect|Adamant||F|||50|]Talonflame|||GaleWings|Acrobatics,BlazeKick,SteelWing,Tailwind|Adamant||M|||50|
+|showteam|p2|Barbaracle||Barbaracite|ToughClaws|RockSlide,CloseCombat,ShellSmash,Protect|Adamant||F|||50|]Tyranitar||Tyranitarite|SandStream|RockSlide,LowKick,KnockOff,IcePunch|Adamant||M|||50|]Excadrill||FocusSash|SandRush|HighHorsepower,IronHead,RockSlide,Protect|Adamant||F|||50|]Milotic||Leftovers|Competitive|Scald,IceBeam,IcyWind,Protect|Modest||F|||50|]Sinistcha-Masterpiece||SitrusBerry|Hospitality|RagePowder,MatchaGotcha,TrickRoom,Protect|Relaxed|||||50|]Gholdengo||LifeOrb|GoodasGold|NastyPlot,MakeItRain,ShadowBall,Protect|Timid|||||50|
+|
+|t:|1784283906
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ceruledge|Ceruledge, L50, F|100/100
+|switch|p1b: Talonflame|Talonflame, L50, M|100/100
+|switch|p2a: Barbaracle|Barbaracle, L50, F|100/100
+|switch|p2b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|turn|1
+|
+|t:|1784283930
+|move|p1b: Talonflame|Tailwind|p1b: Talonflame
+|-sidestart|p1: IdiotGo|move: Tailwind
+|move|p1a: Ceruledge|Poltergeist|p2a: Barbaracle
+|-activate|p2a: Barbaracle|move: Poltergeist|Barbaracite
+|-damage|p2a: Barbaracle|7/100
+|-damage|p1a: Ceruledge|90/100|[from] item: Life Orb
+|move|p2a: Barbaracle|Rock Slide|p1a: Ceruledge|[spread] p1a
+|-miss|p2a: Barbaracle|p1b: Talonflame
+|-supereffective|p1a: Ceruledge|1
+|-damage|p1a: Ceruledge|24/100
+|move|p2b: Sinistcha|Trick Room|p2b: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2b: Sinistcha
+|
+|upkeep
+|turn|2
+|
+|t:|1784283951
+|switch|p2b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|move|p1b: Talonflame|Acrobatics|p2a: Barbaracle
+|-resisted|p2a: Barbaracle|1
+|-damage|p2a: Barbaracle|0 fnt
+|faint|p2a: Barbaracle
+|move|p1a: Ceruledge|Bitter Blade|p2b: Tyranitar
+|-resisted|p2b: Tyranitar|1
+|-damage|p2b: Tyranitar|74/100
+|-heal|p1a: Ceruledge|38/100|[from] drain|[of] p2b: Tyranitar
+|-damage|p1a: Ceruledge|28/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Ceruledge|22/100|[from] Sandstorm
+|-damage|p1b: Talonflame|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1784283968
+|switch|p2a: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-heal|p2b: Tyranitar|99/100|[from] ability: Hospitality|[of] p2a: Sinistcha
+|turn|3
+|
+|t:|1784283981
+|switch|p1b: Toxapex|Toxapex, L50, F|100/100
+|move|p2a: Sinistcha|Protect|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|Protect
+|move|p1a: Ceruledge|Protect|p1a: Ceruledge
+|-singleturn|p1a: Ceruledge|Protect
+|move|p2b: Tyranitar|Rock Slide|p1a: Ceruledge|[spread] p1b
+|-activate|p1a: Ceruledge|move: Protect
+|-damage|p1b: Toxapex|78/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sinistcha|93/100|[from] Sandstorm
+|-damage|p1b: Toxapex|73/100|[from] Sandstorm
+|-damage|p1a: Ceruledge|16/100|[from] Sandstorm
+|-heal|p1b: Toxapex|78/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1784284006
+|switch|p1a: Tinkaton|Tinkaton, L50, F|100/100
+|-ability|p1a: Tinkaton|Mold Breaker
+|move|p2a: Sinistcha|Protect|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|Protect
+|move|p2b: Tyranitar|Rock Slide|p1b: Toxapex|[spread] p1a,p1b
+|-resisted|p1a: Tinkaton|1
+|-damage|p1a: Tinkaton|81/100
+|-damage|p1b: Toxapex|57/100
+|move|p1b: Toxapex|Toxic|p2b: Tyranitar
+|-status|p2b: Tyranitar|tox
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Sinistcha|87/100|[from] Sandstorm
+|-damage|p1b: Toxapex|51/100|[from] Sandstorm
+|-heal|p1b: Toxapex|57/100|[from] item: Leftovers
+|-damage|p2b: Tyranitar|93/100 tox|[from] psn
+|-sideend|p1: IdiotGo|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1784284040
+|move|p1b: Toxapex|Baneful Bunker|p1b: Toxapex
+|-singleturn|p1b: Toxapex|move: Protect
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Tinkaton|[spread] p1a
+|-activate|p1b: Toxapex|move: Protect
+|-resisted|p1a: Tinkaton|1
+|-damage|p1a: Tinkaton|70/100
+|-heal|p2a: Sinistcha|93/100|[from] drain|[of] p1a: Tinkaton
+|move|p2b: Tyranitar|Knock Off|p1a: Tinkaton
+|-resisted|p1a: Tinkaton|1
+|-damage|p1a: Tinkaton|36/100
+|-enditem|p1a: Tinkaton|Metal Coat|[from] move: Knock Off|[of] p2b: Tyranitar
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Sinistcha
+|-damage|p2a: Sinistcha|49/100
+|-enditem|p2a: Sinistcha|Sitrus Berry|[eat]
+|-heal|p2a: Sinistcha|74/100|[from] item: Sitrus Berry
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Toxapex|51/100|[from] Sandstorm
+|-damage|p2a: Sinistcha|67/100|[from] Sandstorm
+|-heal|p1b: Toxapex|57/100|[from] item: Leftovers
+|-damage|p2b: Tyranitar|82/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1784284071
+|switch|p2b: Excadrill|Excadrill, L50, F|100/100
+|move|p1a: Tinkaton|Play Rough|p2b: Excadrill
+|-resisted|p2b: Excadrill|1
+|-damage|p2b: Excadrill|76/100
+|move|p1b: Toxapex|Liquidation|p2b: Excadrill
+|-supereffective|p2b: Excadrill|1
+|-damage|p2b: Excadrill|20/100y
+|move|p2a: Sinistcha|Trick Room|p2a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2a: Sinistcha
+|
+|-weather|none
+|-heal|p1b: Toxapex|63/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1784284090
+|move|p2a: Sinistcha|Rage Powder|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|move: Rage Powder
+|move|p1b: Toxapex|Liquidation|p2a: Sinistcha
+|-resisted|p2a: Sinistcha|1
+|-damage|p2a: Sinistcha|60/100
+|move|p1a: Tinkaton|Gigaton Hammer|p2a: Sinistcha
+|-damage|p2a: Sinistcha|17/100
+|move|p2b: Excadrill|High Horsepower|p1a: Tinkaton
+|-supereffective|p1a: Tinkaton|1
+|-damage|p1a: Tinkaton|0 fnt
+|faint|p1a: Tinkaton
+|
+|-heal|p1b: Toxapex|68/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1784284103
+|switch|p1a: Ceruledge|Ceruledge, L50, F|16/100
+|turn|8
+|
+|t:|1784284119
+|move|p1a: Ceruledge|Protect|p1a: Ceruledge
+|-singleturn|p1a: Ceruledge|Protect
+|move|p2a: Sinistcha|Rage Powder|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|move: Rage Powder
+|move|p1b: Toxapex|Toxic|p2a: Sinistcha
+|-status|p2a: Sinistcha|tox
+|move|p2b: Excadrill|High Horsepower|p1b: Toxapex
+|-supereffective|p1b: Toxapex|1
+|-damage|p1b: Toxapex|0 fnt
+|faint|p1b: Toxapex
+|
+|-damage|p2a: Sinistcha|11/100 tox|[from] psn
+|upkeep
+|
+|t:|1784284130
+|switch|p1b: Talonflame|Talonflame, L50, M|94/100
+|turn|9
+|
+|t:|1784284143
+|move|p1a: Ceruledge|Shadow Sneak|p2b: Excadrill
+|-damage|p2b: Excadrill|0 fnt
+|faint|p2b: Excadrill
+|-damage|p1a: Ceruledge|6/100|[from] item: Life Orb
+|move|p2a: Sinistcha|Matcha Gotcha|p1a: Ceruledge|[spread] p1a,p1b
+|-resisted|p1a: Ceruledge|1
+|-resisted|p1b: Talonflame|2
+|-damage|p1a: Ceruledge|0 fnt
+|-heal|p2a: Sinistcha|15/100 tox|[from] drain|[of] p1a: Ceruledge
+|-damage|p1b: Talonflame|85/100
+|-heal|p2a: Sinistcha|19/100 tox|[from] drain|[of] p1b: Talonflame
+|faint|p1a: Ceruledge
+|move|p1b: Talonflame|Acrobatics|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha|1
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|
+|upkeep
+|
+|t:|1784284162
+|switch|p2a: Tyranitar|Tyranitar, L50, M|82/100 tox
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|10
+|
+|t:|1784284170
+|detailschange|p2a: Tyranitar|Tyranitar-Mega, L50, M
+|-mega|p2a: Tyranitar|Tyranitar|Tyranitarite
+|move|p2a: Tyranitar|Rock Slide|p1b: Talonflame
+|-supereffective|p1b: Talonflame|2
+|-damage|p1b: Talonflame|0 fnt
+|faint|p1b: Talonflame
+|
+|win|AltBugCoreDefense

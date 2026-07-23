@@ -1,0 +1,198 @@
+|j|☆Fluffleaf
+|j|☆ChickenTheCat
+|html|FluffleafChickenTheCat    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783813665
+|gametype|doubles
+|player|p1|Fluffleaf|2|
+|player|p2|ChickenTheCat|flannery|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Primarina, L50, M|
+|poke|p1|Mudsdale, L50, M|
+|poke|p1|Goodra-Hisui, L50, F|
+|poke|p1|Espathra, L50, M|
+|poke|p1|Hippowdon, L50, M|
+|poke|p2|Sinistcha, L50, shiny|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Abomasnow, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Steelix, L50, F|
+|poke|p2|Toxapex, L50, F|
+|teampreview|4
+|showteam|p1|Incineroar||SitrusBerry|Intimidate|FakeOut,PartingShot,FlareBlitz,WillOWisp|Careful||M|||50|]Primarina||LifeOrb|LiquidVoice|HyperVoice,Moonblast,CalmMind,Protect|Modest||M|||50|]Mudsdale||IronBall|Stamina|HighHorsepower,RockSlide,BodyPress,Protect|Impish||M|||50|]Goodra-Hisui||ChopleBerry|SapSipper|BodyPress,HeavySlam,IceBeam,Protect|Sassy||F|||50|]Espathra||FocusSash|SpeedBoost|LuminaCrash,DazzlingGleam,CalmMind,Protect|Modest||M|||50|]Hippowdon||Leftovers|SandStream|HighHorsepower,SlackOff,Yawn,Protect|Impish||M|||50|
+|showteam|p2|Sinistcha||ColburBerry|Hospitality|MatchaGotcha,Protect,TrickRoom,RagePowder|Bold|||||50|]Gallade||IronBall|Sharpness|LeafBlade,SacredSword,PsychoCut,TrickRoom|Brave||M|||50|]Abomasnow||Abomasite|SnowWarning|Protect,Blizzard,AuroraVeil,EnergyBall|Quiet||M|||50|]Hatterene||WiseGlasses|MagicBounce|DarkPulse,DazzlingGleam,Psychic,ShadowBall|Modest||F|||50|]Steelix||Steelixite|Sturdy|Protect,HighHorsepower,HeavySlam,WideGuard|Adamant||F|||50|]Toxapex||Leftovers|Regenerator|BanefulBunker,Recover,Toxic,Infestation|Bold||F|||50|
+|
+|t:|1783813691
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Crowbar|Incineroar, L50, M|100/100
+|switch|p1b: Sledgehammer|Mudsdale, L50, M|100/100
+|switch|p2a: Gallade|Gallade, L50, M|100/100
+|switch|p2b: Toxapex|Toxapex, L50, F|100/100
+|-ability|p1a: Crowbar|Intimidate|boost
+|-unboost|p2a: Gallade|atk|1
+|-unboost|p2b: Toxapex|atk|1
+|turn|1
+|
+|t:|1783813722
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p1a: Crowbar|Fake Out|p2a: Gallade
+|-damage|p2a: Gallade|85/100
+|move|p1b: Sledgehammer|Rock Slide|p2a: Gallade|[spread] p2a
+|-activate|p2b: Toxapex|move: Protect
+|-resisted|p2a: Gallade|1
+|-crit|p2a: Gallade
+|-damage|p2a: Gallade|68/100
+|cant|p2a: Gallade|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1783813753
+|move|p1a: Crowbar|Flare Blitz|p2a: Gallade
+|-crit|p2a: Gallade
+|-damage|p2a: Gallade|0 fnt
+|faint|p2a: Gallade
+|-damage|p1a: Crowbar|80/100|[from] Recoil
+|move|p2b: Toxapex|Toxic|p1a: Crowbar
+|-status|p1a: Crowbar|tox
+|move|p1b: Sledgehammer|Rock Slide|p2b: Toxapex
+|-damage|p2b: Toxapex|87/100
+|
+|-heal|p2b: Toxapex|92/100|[from] item: Leftovers
+|-damage|p1a: Crowbar|74/100 tox|[from] psn
+|upkeep
+|
+|t:|1783813767
+|switch|p2a: Steelix|Steelix, L50, F|100/100
+|turn|3
+|
+|t:|1783813777
+|detailschange|p2a: Steelix|Steelix-Mega, L50, F
+|-mega|p2a: Steelix|Steelix|Steelixite
+|move|p1a: Crowbar|Will-O-Wisp|p2a: Steelix
+|-status|p2a: Steelix|brn
+|move|p2b: Toxapex|Toxic|p1b: Sledgehammer
+|-status|p1b: Sledgehammer|tox
+|move|p2a: Steelix|High Horsepower|p1a: Crowbar
+|-supereffective|p1a: Crowbar|1
+|-damage|p1a: Crowbar|25/100 tox
+|-enditem|p1a: Crowbar|Sitrus Berry|[eat]
+|-heal|p1a: Crowbar|50/100g tox|[from] item: Sitrus Berry
+|move|p1b: Sledgehammer|High Horsepower|p2b: Toxapex
+|-supereffective|p2b: Toxapex|1
+|-damage|p2b: Toxapex|47/100
+|
+|-heal|p2b: Toxapex|52/100|[from] item: Leftovers
+|-damage|p1a: Crowbar|38/100 tox|[from] psn
+|-damage|p1b: Sledgehammer|94/100 tox|[from] psn
+|-damage|p2a: Steelix|93/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1783813808
+|move|p1a: Crowbar|Flare Blitz|p2a: Steelix
+|-supereffective|p2a: Steelix|1
+|-damage|p2a: Steelix|47/100 brn
+|-damage|p1a: Crowbar|24/100 tox|[from] Recoil
+|move|p2b: Toxapex|Recover|p2b: Toxapex
+|-heal|p2b: Toxapex|100/100
+|move|p2a: Steelix|High Horsepower|p1a: Crowbar
+|-supereffective|p1a: Crowbar|1
+|-damage|p1a: Crowbar|0 fnt
+|faint|p1a: Crowbar
+|move|p1b: Sledgehammer|Body Press|p2a: Steelix
+|-supereffective|p2a: Steelix|1
+|-damage|p2a: Steelix|22/100 brn
+|
+|-damage|p1b: Sledgehammer|82/100 tox|[from] psn
+|-damage|p2a: Steelix|16/100 brn|[from] brn
+|upkeep
+|
+|t:|1783813823
+|switch|p1a: Pressure Washer|Primarina, L50, M|100/100
+|turn|5
+|
+|t:|1783813836
+|move|p2a: Steelix|Wide Guard|p2a: Steelix
+|-singleturn|p2a: Steelix|Wide Guard
+|move|p1a: Pressure Washer|Calm Mind|p1a: Pressure Washer
+|-boost|p1a: Pressure Washer|spa|1
+|-boost|p1a: Pressure Washer|spd|1
+|move|p2b: Toxapex|Infestation|p1b: Sledgehammer
+|-damage|p1b: Sledgehammer|79/100 tox
+|-activate|p1b: Sledgehammer|move: Infestation|[of] p2b: Toxapex
+|-ability|p1b: Sledgehammer|Stamina|boost
+|-boost|p1b: Sledgehammer|def|1
+|move|p1b: Sledgehammer|Body Press|p2a: Steelix
+|-supereffective|p2a: Steelix|1
+|-damage|p2a: Steelix|0 fnt
+|faint|p2a: Steelix
+|
+|-damage|p1b: Sledgehammer|62/100 tox|[from] psn
+|-damage|p1b: Sledgehammer|50/100g tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1783813850
+|switch|p2a: Sinistcha|Sinistcha, L50, shiny|100/100
+|turn|6
+|
+|t:|1783813872
+|move|p1a: Pressure Washer|Moonblast|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|-damage|p1a: Pressure Washer|90/100|[from] item: Life Orb
+|move|p2b: Toxapex|Toxic|p1a: Pressure Washer
+|-status|p1a: Pressure Washer|tox
+|move|p1b: Sledgehammer|Rock Slide|p2b: Toxapex
+|-damage|p2b: Toxapex|87/100
+|
+|-heal|p2b: Toxapex|92/100|[from] item: Leftovers
+|-damage|p1a: Pressure Washer|84/100 tox|[from] psn
+|-damage|p1b: Sledgehammer|27/100 tox|[from] psn
+|-damage|p1b: Sledgehammer|14/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1783813898
+|move|p1a: Pressure Washer|Moonblast|p2b: Toxapex
+|-resisted|p2b: Toxapex|1
+|-damage|p2b: Toxapex|50/100g
+|-damage|p1a: Pressure Washer|74/100 tox|[from] item: Life Orb
+|move|p2b: Toxapex|Infestation|p1a: Pressure Washer
+|-resisted|p1a: Pressure Washer|1
+|-damage|p1a: Pressure Washer|73/100 tox
+|-activate|p1a: Pressure Washer|move: Infestation|[of] p2b: Toxapex
+|move|p1b: Sledgehammer|High Horsepower|p2b: Toxapex
+|-supereffective|p2b: Toxapex|1
+|-damage|p2b: Toxapex|1/100
+|
+|-heal|p2b: Toxapex|7/100|[from] item: Leftovers
+|-damage|p1a: Pressure Washer|62/100 tox|[from] psn
+|-damage|p1b: Sledgehammer|0 fnt|[from] psn
+|faint|p1b: Sledgehammer
+|-damage|p1a: Pressure Washer|49/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1783813912
+|switch|p1b: Belt Sander|Hippowdon, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Belt Sander
+|turn|8
+|
+|t:|1783813949
+|move|p1a: Pressure Washer|Moonblast|p2b: Toxapex
+|-resisted|p2b: Toxapex|1
+|-damage|p2b: Toxapex|0 fnt
+|faint|p2b: Toxapex
+|-damage|p1a: Pressure Washer|40/100 tox|[from] item: Life Orb
+|
+|win|Fluffleaf
+|c|☆Fluffleaf|ggs
+|c|☆ChickenTheCat|gg

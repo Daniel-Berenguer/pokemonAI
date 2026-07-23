@@ -1,0 +1,284 @@
+|j|☆ZZSACHI
+|j|☆KodeBeast0526
+|html|ZZSACHIKodeBeast0526    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783955146
+|gametype|doubles
+|player|p1|ZZSACHI|170|1308
+|player|p2|KodeBeast0526|hiker|1268
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Annihilape, L50, F|
+|poke|p1|Toxapex, L50, F|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Aerodactyl, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Sylveon, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Annihilape||FocusSash|Defiant|Protect,RageFist,CloseCombat,PhantomForce|Jolly||F|||50|]Toxapex||Leftovers|Regenerator|BanefulBunker,Toxic,Infestation,WideGuard|Bold||F|||50|]Charizard||CharizarditeY|Blaze|Protect,WeatherBall,HeatWave,SolarBeam|Modest||M|||50|]Venusaur||LifeOrb|Chlorophyll|Protect,SludgeBomb,EarthPower,SleepPowder|Modest||F|||50|]Garchomp||ChoiceScarf|RoughSkin|StompingTantrum,Earthquake,DragonClaw,RockSlide|Jolly||F|||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,ThroatChop,PartingShot,FakeOut|Careful||F|||50|
+|showteam|p2|Aerodactyl||Aerodactylite|Unnerve|RockSlide,IceFang,Tailwind,WideGuard|Jolly||M|||50|]Kingambit||FocusSash|Defiant|KowtowCleave,SuckerPunch,IronHead,Protect|Adamant||M|||50|]Sylveon||FairyFeather|Pixilate|Detect,HyperVoice,HyperBeam,QuickAttack|Modest||M|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,StompingTantrum,Protect|Jolly||M|||50|]Charizard||CharizarditeY|Blaze|Protect,HeatWave,SolarBeam,WeatherBall|Modest||M|||50|]Incineroar||SitrusBerry|Intimidate|DarkestLariat,FlareBlitz,FakeOut,PartingShot|Impish||M|||50|
+|
+|t:|1783955206
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Toxapex|Toxapex, L50, F|100/100
+|switch|p1b: Charizard|Charizard, L50, M|100/100
+|switch|p2a: Sylveon|Sylveon, L50, M|100/100
+|switch|p2b: Aerodactyl|Aerodactyl, L50, M|100/100
+|-ability|p2b: Aerodactyl|Unnerve
+|turn|1
+|
+|t:|1783955237
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Sylveon|atk|1
+|-unboost|p2b: Aerodactyl|atk|1
+|detailschange|p2b: Aerodactyl|Aerodactyl-Mega, L50, M
+|-mega|p2b: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p2b: Aerodactyl|Tailwind|p2b: Aerodactyl
+|-sidestart|p2: KodeBeast0526|move: Tailwind
+|move|p2a: Sylveon|Hyper Beam|p1b: Incineroar
+|-damage|p1b: Incineroar|28/100
+|-mustrecharge|p2a: Sylveon
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|53/100|[from] item: Sitrus Berry
+|move|p1a: Toxapex|Toxic|p2b: Aerodactyl
+|-status|p2b: Aerodactyl|tox
+|
+|-damage|p2b: Aerodactyl|93/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1783955257
+|switch|p2b: Garchomp|Garchomp, L50, M|100/100
+|move|p1b: Incineroar|Fake Out|p2b: Garchomp
+|-damage|p2b: Garchomp|87/100
+|-damage|p1b: Incineroar|41/100|[from] ability: Rough Skin|[of] p2b: Garchomp
+|cant|p2a: Sylveon|recharge
+|move|p1a: Toxapex|Toxic|p2a: Sylveon
+|-status|p2a: Sylveon|tox
+|
+|-damage|p2a: Sylveon|94/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1783955281
+|switch|p2a: Aerodactyl|Aerodactyl-Mega, L50, M|93/100 tox
+|move|p1a: Toxapex|Wide Guard|p1a: Toxapex
+|-singleturn|p1a: Toxapex|Wide Guard
+|move|p2b: Garchomp|Stomping Tantrum|p1a: Toxapex
+|-supereffective|p1a: Toxapex|1
+|-damage|p1a: Toxapex|32/100
+|-damage|p2b: Garchomp|78/100|[from] item: Life Orb
+|move|p1b: Incineroar|Parting Shot|p2b: Garchomp
+|-unboost|p2b: Garchomp|atk|1
+|-unboost|p2b: Garchomp|spa|1
+|
+|t:|1783955295
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100|[from] Parting Shot
+|
+|-heal|p1a: Toxapex|38/100|[from] item: Leftovers
+|-damage|p2a: Aerodactyl|87/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1783955311
+|-heal|p1a: Toxapex|72/100|[from] ability: Regenerator|[silent]
+|switch|p1a: Incineroar|Incineroar, L50, F|41/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Aerodactyl|atk|1
+|-unboost|p2b: Garchomp|atk|1
+|move|p2a: Aerodactyl|Ice Fang|p1b: Garchomp
+|-supereffective|p1b: Garchomp|2
+|-damage|p1b: Garchomp|20/100r
+|-damage|p2a: Aerodactyl|75/100 tox|[from] ability: Rough Skin|[of] p1b: Garchomp
+|move|p2b: Garchomp|Earthquake|p1b: Garchomp|[spread] p1a,p1b
+|-immune|p2a: Aerodactyl
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Garchomp|0 fnt
+|faint|p1a: Incineroar
+|faint|p1b: Garchomp
+|-damage|p2b: Garchomp|68/100|[from] item: Life Orb
+|
+|-damage|p2a: Aerodactyl|63/100 tox|[from] psn
+|-sideend|p2: KodeBeast0526|move: Tailwind
+|upkeep
+|
+|t:|1783955324
+|switch|p1b: Charizard|Charizard, L50, M|100/100
+|switch|p1a: Toxapex|Toxapex, L50, F|72/100
+|turn|5
+|
+|t:|1783955345
+|switch|p2b: Sylveon|Sylveon, L50, M|94/100 tox
+|detailschange|p1b: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p1b: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|move|p1a: Toxapex|Wide Guard|p1a: Toxapex
+|-singleturn|p1a: Toxapex|Wide Guard
+|move|p2a: Aerodactyl|Tailwind|p2a: Aerodactyl
+|-sidestart|p2: KodeBeast0526|move: Tailwind
+|move|p1b: Charizard|Solar Beam||[still]
+|-prepare|p1b: Charizard|Solar Beam
+|-anim|p1b: Charizard|Solar Beam|p2b: Sylveon
+|-damage|p2b: Sylveon|57/100 tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Toxapex|78/100|[from] item: Leftovers
+|-damage|p2a: Aerodactyl|45/100 tox|[from] psn
+|-damage|p2b: Sylveon|52/100 tox|[from] psn
+|upkeep
+|turn|6
+|
+|t:|1783955365
+|move|p1b: Charizard|Protect|p1b: Charizard
+|-singleturn|p1b: Charizard|Protect
+|move|p1a: Toxapex|Baneful Bunker||[still]
+|-fail|p1a: Toxapex
+|move|p2a: Aerodactyl|Rock Slide|p1b: Charizard|[spread] p1a
+|-activate|p1b: Charizard|move: Protect
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|52/100
+|move|p2b: Sylveon|Hyper Beam|p1b: Charizard
+|-activate|p1b: Charizard|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Toxapex|58/100|[from] item: Leftovers
+|-damage|p2a: Aerodactyl|21/100 tox|[from] psn
+|-damage|p2b: Sylveon|40/100 tox|[from] psn
+|upkeep
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KodeBeast0526)
+|
+|t:|1783955400
+|move|p1a: Toxapex|Wide Guard|p1a: Toxapex
+|-singleturn|p1a: Toxapex|Wide Guard
+|move|p2a: Aerodactyl|Ice Fang|p1a: Toxapex
+|-resisted|p1a: Toxapex|1
+|-crit|p1a: Toxapex
+|-damage|p1a: Toxapex|45/100
+|move|p2b: Sylveon|Hyper Beam|p1a: Toxapex|[miss]
+|-miss|p2b: Sylveon|p1a: Toxapex
+|move|p1b: Charizard|Weather Ball|p2b: Sylveon
+|-damage|p2b: Sylveon|0 fnt
+|faint|p2b: Sylveon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Toxapex|51/100|[from] item: Leftovers
+|-damage|p2a: Aerodactyl|0 fnt|[from] psn
+|faint|p2a: Aerodactyl
+|upkeep
+|
+|t:|1783955410
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Garchomp|Garchomp, L50, M|68/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Toxapex|atk|1
+|-unboost|p1b: Charizard|atk|1
+|turn|8
+|inactive|ZZSACHI has 30 seconds left.
+|inactive|ZZSACHI has 20 seconds left.
+|inactive|ZZSACHI has 15 seconds left.
+|
+|t:|1783955450
+|move|p1a: Toxapex|Baneful Bunker||[still]
+|-fail|p1a: Toxapex
+|move|p2a: Incineroar|Fake Out|p2b: Garchomp
+|-damage|p2b: Garchomp|57/100
+|-damage|p2a: Incineroar|87/100|[from] ability: Rough Skin|[of] p2b: Garchomp
+|cant|p2b: Garchomp|flinch
+|move|p1b: Charizard|Solar Beam||[still]
+|-prepare|p1b: Charizard|Solar Beam
+|-anim|p1b: Charizard|Solar Beam|p2b: Garchomp
+|-damage|p2b: Garchomp|6/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Toxapex|57/100|[from] item: Leftovers
+|-sideend|p2: KodeBeast0526|move: Tailwind
+|upkeep
+|turn|9
+|inactive|ZZSACHI has 30 seconds left.
+|inactive|ZZSACHI has 20 seconds left.
+|
+|t:|1783955487
+|move|p2b: Garchomp|Stomping Tantrum|p1a: Toxapex
+|-supereffective|p1a: Toxapex|1
+|-damage|p1a: Toxapex|0 fnt
+|faint|p1a: Toxapex
+|-damage|p2b: Garchomp|0 fnt|[from] item: Life Orb
+|faint|p2b: Garchomp
+|move|p1b: Charizard|Heat Wave|p2a: Incineroar
+|-resisted|p2a: Incineroar|1
+|-damage|p2a: Incineroar|47/100
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|72/100|[from] item: Sitrus Berry
+|move|p2a: Incineroar|Parting Shot|p1b: Charizard
+|-unboost|p1b: Charizard|atk|1
+|-unboost|p1b: Charizard|spa|1
+|
+|-weather|none
+|upkeep
+|turn|10
+|
+|t:|1783955499
+|move|p1b: Charizard|Heat Wave|p2a: Incineroar
+|-resisted|p2a: Incineroar|1
+|-damage|p2a: Incineroar|53/100
+|move|p2a: Incineroar|Parting Shot|p1b: Charizard
+|-unboost|p1b: Charizard|atk|1
+|-unboost|p1b: Charizard|spa|1
+|
+|upkeep
+|turn|11
+|
+|t:|1783955502
+|move|p1b: Charizard|Heat Wave|p2a: Incineroar
+|-resisted|p2a: Incineroar|1
+|-damage|p2a: Incineroar|42/100
+|move|p2a: Incineroar|Darkest Lariat|p1b: Charizard
+|-damage|p1b: Charizard|68/100
+|
+|upkeep
+|turn|12
+|
+|t:|1783955506
+|move|p1b: Charizard|Heat Wave|p2a: Incineroar
+|-resisted|p2a: Incineroar|1
+|-damage|p2a: Incineroar|30/100
+|move|p2a: Incineroar|Darkest Lariat|p1b: Charizard
+|-damage|p1b: Charizard|37/100
+|
+|upkeep
+|turn|13
+|
+|t:|1783955510
+|move|p1b: Charizard|Heat Wave|p2a: Incineroar
+|-resisted|p2a: Incineroar|1
+|-damage|p2a: Incineroar|17/100
+|move|p2a: Incineroar|Darkest Lariat|p1b: Charizard
+|-damage|p1b: Charizard|4/100
+|
+|upkeep
+|turn|14
+|
+|t:|1783955519
+|move|p1b: Charizard|Heat Wave|p2a: Incineroar
+|-resisted|p2a: Incineroar|1
+|-damage|p2a: Incineroar|4/100
+|move|p2a: Incineroar|Darkest Lariat|p1b: Charizard
+|-damage|p1b: Charizard|0 fnt
+|faint|p1b: Charizard
+|
+|win|KodeBeast0526

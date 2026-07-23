@@ -1,0 +1,160 @@
+|j|☆FunkleVGC
+|j|☆TheFitZz35
+|html|FunkleVGCTheFitZz35    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1784212256
+|gametype|doubles
+|player|p1|FunkleVGC|fisherman-gen4|1133
+|player|p2|TheFitZz35|swimmer-gen4|1135
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Maushold, L50|
+|poke|p1|Annihilape, L50, F, shiny|
+|poke|p1|Sylveon, L50, F, shiny|
+|poke|p1|Aegislash, L50, M, shiny|
+|poke|p1|Hydreigon, L50, F|
+|poke|p1|Aerodactyl, L50, F|
+|poke|p2|Blastoise, L50, M|
+|poke|p2|Pelipper, L50, M, shiny|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Manectric, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Sinistcha, L50|
+|teampreview|4
+|showteam|p1|Maushold||ChopleBerry|FriendGuard|Protect,BeatUp,SuperFang,FollowMe|Jolly|||||50|]Annihilape||SitrusBerry|Defiant|Protect,BulkUp,DrainPunch,RageFist|Careful||F|||50|]Sylveon||FairyFeather|Pixilate|Protect,HyperVoice,HyperBeam,QuickAttack|Modest||F|||50|]Aegislash||SpellTag|StanceChange|KingsShield,Poltergeist,ShadowSneak,IronHead|Adamant||M|||50|]Hydreigon||ChoiceScarf|Levitate|DarkPulse,Snarl,DracoMeteor,EarthPower|Modest||F|||50|]Aerodactyl||Aerodactylite|Unnerve|WideGuard,RockSlide,DualWingbeat,Tailwind|Jolly||F|||50|
+|showteam|p2|Blastoise||Blastoisinite|Torrent|ShellSmash,WaterSpout,Protect,AuraSphere|Modest||M|||50|]Pelipper||FocusSash|Drizzle|WeatherBall,HelpingHand,Protect,Hurricane|Rash||M|||50|]Incineroar||MentalHerb|Intimidate|FakeOut,PartingShot,FlareBlitz,DarkestLariat|Impish||F|||50|]Manectric||Magnet|LightningRod|Thunder,Protect,Snarl,Discharge|Modest||F|||50|]Farigiraf||SitrusBerry|ArmorTail|HelpingHand,Thunderbolt,TrickRoom,Psychic|Modest||F|||50|]Sinistcha||CobaBerry|Hospitality|RagePowder,MatchaGotcha,LifeDew,Protect|Calm|||||50|
+|
+|t:|1784212291
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hydreigon|Hydreigon, L50, F|100/100
+|switch|p1b: Sylveon|Sylveon, L50, F, shiny|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Hydreigon|atk|1
+|-unboost|p1b: Sylveon|atk|1
+|turn|1
+|
+|t:|1784212314
+|move|p2a: Incineroar|Fake Out|p1b: Sylveon
+|-damage|p1b: Sylveon|84/100
+|move|p1a: Hydreigon|Dark Pulse|p2b: Farigiraf
+|-supereffective|p2b: Farigiraf|1
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|cant|p1b: Sylveon|flinch
+|
+|upkeep
+|
+|t:|1784212337
+|switch|p2b: BellPepper|Pelipper, L50, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: BellPepper
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FunkleVGC)
+|
+|t:|1784212351
+|move|p2b: BellPepper|Protect|p2b: BellPepper
+|-singleturn|p2b: BellPepper|Protect
+|move|p1a: Hydreigon|Dark Pulse|p2b: BellPepper
+|-activate|p2b: BellPepper|move: Protect
+|move|p1b: Sylveon|Hyper Voice|p2a: Incineroar|[spread] p2a
+|-activate|p2b: BellPepper|move: Protect
+|-damage|p2a: Incineroar|41/100
+|move|p2a: Incineroar|Parting Shot|p1a: Hydreigon
+|-unboost|p1a: Hydreigon|atk|1
+|-unboost|p1a: Hydreigon|spa|1
+|
+|t:|1784212362
+|switch|p2a: Blastoise|Blastoise, L50, M|100/100|[from] Parting Shot
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1784212382
+|detailschange|p2a: Blastoise|Blastoise-Mega, L50, M
+|-mega|p2a: Blastoise|Blastoise|Blastoisinite
+|move|p1a: Hydreigon|Dark Pulse|p2a: Blastoise
+|-damage|p2a: Blastoise|72/100
+|cant|p2a: Blastoise|flinch
+|move|p2b: BellPepper|Weather Ball|p1b: Sylveon
+|-damage|p1b: Sylveon|31/100
+|move|p1b: Sylveon|Hyper Voice|p2a: Blastoise|[spread] p2a,p2b
+|-damage|p2a: Blastoise|20/100y
+|-damage|p2b: BellPepper|16/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|inactive|TheFitZz35 has 30 seconds left.
+|
+|t:|1784212408
+|switch|p2a: Incineroar|Incineroar, L50, F|41/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Hydreigon|atk|1
+|-unboost|p1b: Sylveon|atk|1
+|move|p2b: BellPepper|Protect|p2b: BellPepper
+|-singleturn|p2b: BellPepper|Protect
+|move|p1b: Sylveon|Quick Attack|p2a: Incineroar
+|-damage|p2a: Incineroar|36/100
+|move|p1a: Hydreigon|Dark Pulse|p2b: BellPepper
+|-activate|p2b: BellPepper|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1784212432
+|move|p2a: Incineroar|Fake Out|p1b: Sylveon
+|-damage|p1b: Sylveon|16/100
+|move|p1a: Hydreigon|Dark Pulse|p2b: BellPepper
+|-damage|p2b: BellPepper|0 fnt
+|faint|p2b: BellPepper
+|cant|p1b: Sylveon|flinch
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1784212440
+|switch|p2b: Blastoise|Blastoise-Mega, L50, M|20/100y
+|turn|6
+|
+|t:|1784212453
+|switch|p1b: Maushold|Maushold, L50|100/100
+|move|p1a: Hydreigon|Dark Pulse|p2b: Blastoise
+|-damage|p2b: Blastoise|0 fnt
+|faint|p2b: Blastoise
+|move|p2a: Incineroar|Darkest Lariat|p1b: Maushold
+|-damage|p1b: Maushold|53/100
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1784212467
+|move|p1a: Hydreigon|Dark Pulse|p2a: Incineroar
+|-resisted|p2a: Incineroar|1
+|-damage|p2a: Incineroar|20/100y
+|move|p1b: Maushold|Super Fang|p2a: Incineroar
+|-damage|p2a: Incineroar|10/100
+|move|p2a: Incineroar|Darkest Lariat|p1b: Maushold
+|-damage|p1b: Maushold|6/100
+|
+|upkeep
+|turn|8
+|
+|t:|1784212482
+|move|p1b: Maushold|Protect|p1b: Maushold
+|-singleturn|p1b: Maushold|Protect
+|move|p1a: Hydreigon|Dark Pulse|p2a: Incineroar
+|-resisted|p2a: Incineroar|1
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|win|FunkleVGC

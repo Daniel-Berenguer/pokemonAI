@@ -1,0 +1,103 @@
+|j|☆UncAshty
+|j|☆Slinky35
+|html|UncAshtySlinky35    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783985546
+|gametype|doubles
+|player|p1|UncAshty|170|
+|player|p2|Slinky35|169|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Palafin, L50, M|
+|poke|p1|Swampert, L50, F|
+|poke|p1|Raichu, L50, F|
+|poke|p1|Toxicroak, L50, F|
+|poke|p1|Meganium, L50, F|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Gyarados, L50, F|
+|poke|p2|Gliscor, L50, F|
+|poke|p2|Jolteon, L50, F|
+|poke|p2|Vileplume, L50, M|
+|poke|p2|Froslass, L50, F|
+|teampreview|4
+|showteam|p1|Pelipper||DampRock|Drizzle|Hurricane,Tailwind,WideGuard,Surf|Modest||F|||50|]Palafin||MysticWater|ZerotoHero|JetPunch,WaveCrash,Protect,CloseCombat|Jolly||M|||50|]Swampert||Swampertite|Torrent|Earthquake,IcePunch,Protect,Liquidation|Adamant||F|||50|]Raichu||FocusSash|LightningRod|FakeOut,Nuzzle,Thunder,Protect|Hasty||F|||50|]Toxicroak||Leftovers|DrySkin|FakeOut,CloseCombat,IcePunch,Protect|Jolly||F|||50|]Meganium||Meganiumite|Overgrow|Reflect,LightScreen,GigaDrain,LeechSeed|Calm||F|||50|
+|showteam|p2|Kingambit||BlackGlasses|SupremeOverlord|KowtowCleave,SuckerPunch,BrickBreak,IronHead|Adamant||F|||50|]Gyarados||Leftovers|Intimidate|Waterfall,ThunderWave,IceFang,Protect|Careful||F|||50|]Gliscor||ChestoBerry|SandVeil|Earthquake,RockSlide,Uturn,Protect|Impish||F|||50|]Jolteon||FocusSash|VoltAbsorb|Thunder,WeatherBall,Protect,VoltSwitch|Timid||F|||50|]Vileplume||BrightPowder|EffectSpore|SleepPowder,GigaDrain,SludgeBomb,StrengthSap|Bold||M|||50|]Froslass||Froslassite|SnowCloak|Blizzard,ShadowBall,WillOWisp,DestinyBond|Timid||F|||50|
+|
+|t:|1783985560
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|switch|p1b: Swampert|Swampert, L50, F|100/100
+|switch|p2a: Jolteon|Jolteon, L50, F|100/100
+|switch|p2b: Vileplume|Vileplume, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|turn|1
+|
+|t:|1783985580
+|detailschange|p1b: Swampert|Swampert-Mega, L50, F
+|-mega|p1b: Swampert|Swampert|Swampertite
+|move|p2a: Jolteon|Volt Switch|p1a: Pelipper
+|-supereffective|p1a: Pelipper|2
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|
+|t:|1783985592
+|switch|p2a: Froslass|Froslass, L50, F|100/100|[from] Volt Switch
+|move|p1b: Swampert|Earthquake|p2a: Froslass|[spread] p2a,p2b
+|-damage|p2a: Froslass|29/100
+|-damage|p2b: Vileplume|65/100
+|move|p2b: Vileplume|Giga Drain|p1b: Swampert
+|-supereffective|p1b: Swampert|2
+|-damage|p1b: Swampert|7/100
+|-heal|p2b: Vileplume|100/100|[from] drain|[of] p1b: Swampert
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1783985619
+|switch|p1a: Meganium|Meganium, L50, F|100/100
+|turn|2
+|
+|t:|1783985644
+|detailschange|p2a: Froslass|Froslass-Mega, L50, F
+|-mega|p2a: Froslass|Froslass|Froslassite
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Froslass
+|move|p2a: Froslass|Blizzard|p1a: Meganium|[spread] p1a,p1b
+|-supereffective|p1a: Meganium|1
+|-damage|p1a: Meganium|41/100
+|-damage|p1b: Swampert|0 fnt
+|-status|p1a: Meganium|frz
+|faint|p1b: Swampert
+|-curestatus|p1a: Meganium|frz|[msg]
+|move|p1a: Meganium|Leech Seed|p2a: Froslass
+|-start|p2a: Froslass|move: Leech Seed
+|move|p2b: Vileplume|Sludge Bomb|p1a: Meganium
+|-supereffective|p1a: Meganium|1
+|-damage|p1a: Meganium|0 fnt
+|faint|p1a: Meganium
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1783985687
+|switch|p1b: Raichu|Raichu, L50, F|100/100
+|turn|3
+|
+|t:|1783985708
+|move|p2a: Froslass|Destiny Bond|p2a: Froslass
+|-singlemove|p2a: Froslass|Destiny Bond
+|move|p1b: Raichu|Thunder|p2a: Froslass
+|-damage|p2a: Froslass|0 fnt
+|faint|p2a: Froslass
+|-activate|p2a: Froslass|move: Destiny Bond
+|faint|p1b: Raichu
+|
+|win|Slinky35
+|l|☆UncAshty
+|player|p1|
+|j| xanian7

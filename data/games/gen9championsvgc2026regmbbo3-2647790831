@@ -1,0 +1,289 @@
+|j|☆Fluffleaf
+|j|☆ChickenTheCat
+|html|FluffleafChickenTheCat    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783813185
+|gametype|doubles
+|player|p1|Fluffleaf|2|
+|player|p2|ChickenTheCat|flannery|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Primarina, L50, F|
+|poke|p1|Mudsdale, L50, F|
+|poke|p1|Goodra-Hisui, L50, F|
+|poke|p1|Espathra, L50, M|
+|poke|p1|Hippowdon, L50, M|
+|poke|p2|Sinistcha, L50, shiny|
+|poke|p2|Gallade, L50, M|
+|poke|p2|Abomasnow, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Steelix, L50, F|
+|poke|p2|Toxapex, L50, F|
+|teampreview|4
+|showteam|p1|Incineroar||SitrusBerry|Intimidate|FakeOut,PartingShot,FlareBlitz,WillOWisp|Careful||M|||50|]Primarina||LifeOrb|LiquidVoice|HyperVoice,Moonblast,CalmMind,Protect|Modest||F|||50|]Mudsdale||IronBall|Stamina|HighHorsepower,RockSlide,BodyPress,Protect|Impish||F|||50|]Goodra-Hisui||ChopleBerry|SapSipper|BodyPress,HeavySlam,IceBeam,Protect|Sassy||F|||50|]Espathra||FocusSash|SpeedBoost|LuminaCrash,DazzlingGleam,CalmMind,Protect|Modest||M|||50|]Hippowdon||Leftovers|SandStream|HighHorsepower,SlackOff,Yawn,Protect|Impish||M|||50|
+|showteam|p2|Sinistcha||ColburBerry|Hospitality|MatchaGotcha,Protect,TrickRoom,RagePowder|Bold|||||50|]Gallade||IronBall|Sharpness|LeafBlade,SacredSword,PsychoCut,TrickRoom|Brave||M|||50|]Abomasnow||Abomasite|SnowWarning|Protect,Blizzard,AuroraVeil,EnergyBall|Quiet||F|||50|]Hatterene||WiseGlasses|MagicBounce|DarkPulse,DazzlingGleam,Psychic,ShadowBall|Modest||F|||50|]Steelix||Steelixite|Sturdy|Protect,HighHorsepower,HeavySlam,WideGuard|Adamant||F|||50|]Toxapex||Leftovers|Regenerator|BanefulBunker,Recover,Toxic,Infestation|Bold||F|||50|
+|
+|t:|1783813238
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Crowbar|Incineroar, L50, M|100/100
+|switch|p1b: Sledgehammer|Mudsdale, L50, F|100/100
+|switch|p2a: Gallade|Gallade, L50, M|100/100
+|switch|p2b: Toxapex|Toxapex, L50, F|100/100
+|-ability|p1a: Crowbar|Intimidate|boost
+|-unboost|p2a: Gallade|atk|1
+|-unboost|p2b: Toxapex|atk|1
+|turn|1
+|
+|t:|1783813307
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p1a: Crowbar|Flare Blitz|p2a: Gallade
+|-damage|p2a: Gallade|37/100
+|-damage|p1a: Crowbar|82/100|[from] Recoil
+|move|p1b: Sledgehammer|Rock Slide|p2a: Gallade|[spread] 
+|-activate|p2b: Toxapex|move: Protect
+|-miss|p1b: Sledgehammer|p2a: Gallade
+|move|p2a: Gallade|Trick Room|p2a: Gallade
+|-fieldstart|move: Trick Room|[of] p2a: Gallade
+|
+|upkeep
+|turn|2
+|
+|t:|1783813352
+|move|p1b: Sledgehammer|Rock Slide|p2b: Toxapex|[spread] p2a,p2b
+|-resisted|p2a: Gallade|1
+|-damage|p2a: Gallade|25/100
+|-damage|p2b: Toxapex|91/100
+|cant|p2a: Gallade|flinch
+|cant|p2b: Toxapex|flinch
+|move|p1a: Crowbar|Parting Shot|p2b: Toxapex
+|-unboost|p2b: Toxapex|atk|1
+|-unboost|p2b: Toxapex|spa|1
+|c|☆Fluffleaf|yippee
+|
+|t:|1783813366
+|switch|p1a: Buzz Saw|Espathra, L50, M|100/100|[from] Parting Shot
+|
+|-heal|p2b: Toxapex|96/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1783813397
+|move|p1b: Sledgehammer|Rock Slide|p2b: Toxapex|[spread] p2a,p2b
+|-resisted|p2a: Gallade|1
+|-damage|p2a: Gallade|15/100
+|-damage|p2b: Toxapex|87/100
+|move|p2a: Gallade|Leaf Blade|p1b: Sledgehammer
+|-supereffective|p1b: Sledgehammer|1
+|-damage|p1b: Sledgehammer|56/100
+|-ability|p1b: Sledgehammer|Stamina|boost
+|-boost|p1b: Sledgehammer|def|1
+|move|p2b: Toxapex|Toxic|p1a: Buzz Saw
+|-status|p1a: Buzz Saw|tox
+|move|p1a: Buzz Saw|Dazzling Gleam|p2b: Toxapex|[spread] p2a,p2b
+|-supereffective|p2a: Gallade|1
+|-resisted|p2b: Toxapex|1
+|-damage|p2a: Gallade|0 fnt
+|-damage|p2b: Toxapex|78/100
+|faint|p2a: Gallade
+|
+|-heal|p2b: Toxapex|84/100|[from] item: Leftovers
+|-damage|p1a: Buzz Saw|94/100 tox|[from] psn
+|-ability|p1a: Buzz Saw|Speed Boost|boost
+|-boost|p1a: Buzz Saw|spe|1
+|upkeep
+|
+|t:|1783813416
+|switch|p2a: Abomasnow|Abomasnow, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|4
+|
+|t:|1783813446
+|detailschange|p2a: Abomasnow|Abomasnow-Mega, L50, F
+|-mega|p2a: Abomasnow|Abomasnow|Abomasite
+|move|p1a: Buzz Saw|Protect|p1a: Buzz Saw
+|-singleturn|p1a: Buzz Saw|Protect
+|move|p1b: Sledgehammer|Body Press|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow|1
+|-damage|p2a: Abomasnow|53/100
+|move|p2a: Abomasnow|Aurora Veil|p2a: Abomasnow
+|-sidestart|p2: ChickenTheCat|move: Aurora Veil
+|move|p2b: Toxapex|Infestation|p1a: Buzz Saw
+|-activate|p1a: Buzz Saw|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Toxapex|90/100|[from] item: Leftovers
+|-damage|p1a: Buzz Saw|82/100 tox|[from] psn
+|-ability|p1a: Buzz Saw|Speed Boost|boost
+|-boost|p1a: Buzz Saw|spe|1
+|upkeep
+|turn|5
+|
+|t:|1783813481
+|switch|p1a: Pressure Washer|Primarina, L50, F|100/100
+|move|p1b: Sledgehammer|Body Press|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow|1
+|-damage|p2a: Abomasnow|22/100
+|move|p2a: Abomasnow|Energy Ball|p1b: Sledgehammer
+|-supereffective|p1b: Sledgehammer|1
+|-damage|p1b: Sledgehammer|0 fnt
+|faint|p1b: Sledgehammer
+|move|p2b: Toxapex|Infestation|p1a: Pressure Washer
+|-resisted|p1a: Pressure Washer|1
+|-damage|p1a: Pressure Washer|98/100
+|-activate|p1a: Pressure Washer|move: Infestation|[of] p2b: Toxapex
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Toxapex|96/100|[from] item: Leftovers
+|-damage|p1a: Pressure Washer|86/100|[from] move: Infestation|[partiallytrapped]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1783813495
+|switch|p1b: Crowbar|Incineroar, L50, M|82/100
+|-ability|p1b: Crowbar|Intimidate|boost
+|-unboost|p2a: Abomasnow|atk|1
+|-unboost|p2b: Toxapex|atk|1
+|turn|6
+|
+|t:|1783813508
+|move|p2a: Abomasnow|Protect|p2a: Abomasnow
+|-singleturn|p2a: Abomasnow|Protect
+|move|p1b: Crowbar|Flare Blitz|p2a: Abomasnow
+|-activate|p2a: Abomasnow|move: Protect
+|move|p1a: Pressure Washer|Calm Mind|p1a: Pressure Washer
+|-boost|p1a: Pressure Washer|spa|1
+|-boost|p1a: Pressure Washer|spd|1
+|move|p2b: Toxapex|Toxic|p1b: Crowbar
+|-status|p1b: Crowbar|tox
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Toxapex|100/100|[from] item: Leftovers
+|-damage|p1b: Crowbar|76/100 tox|[from] psn
+|-damage|p1a: Pressure Washer|74/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1783813534
+|move|p2a: Abomasnow|Protect||[still]
+|-fail|p2a: Abomasnow
+|move|p1b: Crowbar|Flare Blitz|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow|2
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|-damage|p1b: Crowbar|68/100 tox|[from] Recoil
+|move|p1a: Pressure Washer|Calm Mind|p1a: Pressure Washer
+|-boost|p1a: Pressure Washer|spa|1
+|-boost|p1a: Pressure Washer|spd|1
+|move|p2b: Toxapex|Toxic|p1a: Pressure Washer
+|-status|p1a: Pressure Washer|tox
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1a: Pressure Washer|68/100 tox|[from] psn
+|-damage|p1b: Crowbar|56/100 tox|[from] psn
+|-damage|p1a: Pressure Washer|56/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1783813548
+|switch|p2a: Sinistcha|Sinistcha, L50, shiny|100/100
+|turn|8
+|
+|t:|1783813562
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p1a: Pressure Washer|Hyper Voice|p2a: Sinistcha|[spread] p2a
+|-activate|p2b: Toxapex|move: Protect
+|-resisted|p2a: Sinistcha|1
+|-damage|p2a: Sinistcha|71/100
+|-damage|p1a: Pressure Washer|46/100 tox|[from] item: Life Orb
+|move|p1b: Crowbar|Parting Shot|p2a: Sinistcha
+|-unboost|p2a: Sinistcha|atk|1
+|-unboost|p2a: Sinistcha|spa|1
+|
+|t:|1783813572
+|switch|p1b: Buzz Saw|Espathra, L50, M|82/100 tox|[from] Parting Shot
+|move|p2a: Sinistcha|Trick Room|p2a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p2a: Sinistcha
+|
+|-weather|none
+|-damage|p1a: Pressure Washer|34/100 tox|[from] psn
+|-damage|p1b: Buzz Saw|76/100 tox|[from] psn
+|-damage|p1a: Pressure Washer|22/100 tox|[from] move: Infestation|[partiallytrapped]
+|-sideend|p2: ChickenTheCat|move: Aurora Veil
+|upkeep
+|turn|9
+|
+|t:|1783813596
+|move|p2b: Toxapex|Infestation|p1b: Buzz Saw
+|-supereffective|p1b: Buzz Saw|1
+|-damage|p1b: Buzz Saw|69/100 tox
+|-activate|p1b: Buzz Saw|move: Infestation|[of] p2b: Toxapex
+|move|p1a: Pressure Washer|Hyper Voice|p2a: Sinistcha|[spread] p2a,p2b
+|-resisted|p2a: Sinistcha|1
+|-resisted|p2b: Toxapex|1
+|-damage|p2a: Sinistcha|23/100
+|-damage|p2b: Toxapex|60/100
+|-damage|p1a: Pressure Washer|12/100 tox|[from] item: Life Orb
+|move|p2a: Sinistcha|Matcha Gotcha|p1b: Buzz Saw|[spread] p1a,p1b
+|-supereffective|p1a: Pressure Washer|1
+|-damage|p1a: Pressure Washer|0 fnt
+|-heal|p2a: Sinistcha|30/100|[from] drain|[of] p1a: Pressure Washer
+|-damage|p1b: Buzz Saw|46/100 tox
+|-heal|p2a: Sinistcha|41/100|[from] drain|[of] p1b: Buzz Saw
+|faint|p1a: Pressure Washer
+|move|p1b: Buzz Saw|Lumina Crash|p2b: Toxapex
+|-supereffective|p2b: Toxapex|1
+|-damage|p2b: Toxapex|0 fnt
+|faint|p2b: Toxapex
+|
+|-damage|p1b: Buzz Saw|34/100 tox|[from] psn
+|-end|p1b: Buzz Saw|Infestation|[partiallytrapped]|[silent]
+|-ability|p1b: Buzz Saw|Speed Boost|boost
+|-boost|p1b: Buzz Saw|spe|1
+|upkeep
+|
+|t:|1783813617
+|switch|p1a: Crowbar|Incineroar, L50, M|56/100 tox
+|-ability|p1a: Crowbar|Intimidate|boost
+|-unboost|p2a: Sinistcha|atk|1
+|turn|10
+|
+|t:|1783813636
+|move|p2a: Sinistcha|Protect|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|Protect
+|move|p1a: Crowbar|Flare Blitz|p2a: Sinistcha
+|-activate|p2a: Sinistcha|move: Protect
+|move|p1b: Buzz Saw|Dazzling Gleam|p2a: Sinistcha
+|-activate|p2a: Sinistcha|move: Protect
+|
+|-damage|p1a: Crowbar|50/100g tox|[from] psn
+|-damage|p1b: Buzz Saw|17/100 tox|[from] psn
+|-ability|p1b: Buzz Saw|Speed Boost|boost
+|-boost|p1b: Buzz Saw|spe|1
+|upkeep
+|turn|11
+|
+|t:|1783813648
+|move|p1a: Crowbar|Flare Blitz|p2a: Sinistcha
+|-supereffective|p2a: Sinistcha|1
+|-damage|p2a: Sinistcha|0 fnt
+|faint|p2a: Sinistcha
+|-damage|p1a: Crowbar|39/100 tox|[from] Recoil
+|-enditem|p1a: Crowbar|Sitrus Berry|[eat]
+|-heal|p1a: Crowbar|63/100 tox|[from] item: Sitrus Berry
+|
+|win|Fluffleaf
+||ChickenTheCat is ready for game 2.
+|inactive|Fluffleaf has 30 seconds to confirm battle start!
+||Fluffleaf is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆Fluffleaf
+|player|p1|
+|j|☆Fluffleaf
+|player|p1|Fluffleaf|2|

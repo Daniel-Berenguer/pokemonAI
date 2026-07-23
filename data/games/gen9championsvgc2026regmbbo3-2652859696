@@ -1,0 +1,289 @@
+|j|☆plusjoe
+|j|☆MCFIC1
+|html|plusjoeMCFIC1    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1784680196
+|gametype|doubles
+|player|p1|plusjoe|170|
+|player|p2|MCFIC1|ltsurge|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Delphox, L50, M|
+|poke|p1|Serperior, L50, M|
+|poke|p1|Aggron, L50, F|
+|poke|p1|Kommo-o, L50, M|
+|poke|p1|Milotic, L50, M|
+|poke|p1|Wyrdeer, L50, M|
+|poke|p2|Raichu, L50, M, shiny|
+|poke|p2|Drampa, L50, M, shiny|
+|poke|p2|Azumarill, L50, M, shiny|
+|poke|p2|Rhyperior, L50, M, shiny|
+|poke|p2|Reuniclus, L50, M, shiny|
+|poke|p2|Kingambit, L50, M, shiny|
+|teampreview|4
+|showteam|p1|Delphox||Delphoxite|Blaze|Psychic,CalmMind,DazzlingGleam,MysticalFire|Timid||M|||50|]Serperior||SitrusBerry|Contrary|LeafStorm,DragonPulse,Protect,LightScreen|Timid||M|||50|]Aggron||Aggronite|HeavyMetal|IronDefense,BodyPress,HighHorsepower,HeavySlam|Sassy||F|||50|]Kommo-o||DragonFang|Bulletproof|ClangorousSoul,DragonClaw,CloseCombat,ThunderPunch|Adamant||M|||50|]Milotic||Leftovers|Competitive|MuddyWater,LifeDew,Hypnosis,IceBeam|Calm||M|||50|]Wyrdeer||ColburBerry|Intimidate|PsyshieldBash,TrickRoom,Hypnosis,Gravity|Careful||M|||50|
+|showteam|p2|Raichu||RaichuniteY|LightningRod|ZapCannon,AlluringVoice,FocusBlast,FakeOut|Timid||M|||50|]Drampa||Drampanite|Berserk|DracoMeteor,HyperVoice,Flamethrower,Thunderbolt|Modest||M|||50|]Azumarill||SitrusBerry|HugePower|BellyDrum,AquaJet,Liquidation,PlayRough|Adamant||M|||50|]Rhyperior||LifeOrb|SolidRock|Earthquake,TemperFlare,IcePunch,FlashCannon|Adamant||M|||50|]Reuniclus||QuickClaw|MagicGuard|Psychic,TrickRoom,EnergyBall,FlashCannon|Quiet||M|||50|]Kingambit||Leftovers|SupremeOverlord|KowtowCleave,SuckerPunch,IronHead,LowKick|Adamant||M|||50|
+|
+|t:|1784680238
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Wet Snek|Milotic, L50, M|100/100
+|switch|p1b: Weird Deer|Wyrdeer, L50, M|100/100
+|switch|p2a: Fetus|Reuniclus, L50, M, shiny|100/100
+|switch|p2b: Azula|Azumarill, L50, M, shiny|100/100
+|-ability|p1b: Weird Deer|Intimidate|boost
+|-unboost|p2a: Fetus|atk|1
+|-unboost|p2b: Azula|atk|1
+|turn|1
+|
+|t:|1784680254
+|move|p1b: Weird Deer|Gravity|p1b: Weird Deer
+|-fieldstart|move: Gravity
+|move|p1a: Wet Snek|Hypnosis|p2b: Azula
+|-status|p2b: Azula|slp|[from] move: Hypnosis
+|cant|p2b: Azula|slp
+|move|p2a: Fetus|Trick Room|p2a: Fetus
+|-fieldstart|move: Trick Room|[of] p2a: Fetus
+|
+|upkeep
+|turn|2
+|
+|t:|1784680277
+|cant|p2b: Azula|slp
+|move|p2a: Fetus|Energy Ball|p1a: Wet Snek
+|-supereffective|p1a: Wet Snek|1
+|-damage|p1a: Wet Snek|56/100
+|move|p1a: Wet Snek|Hypnosis|p2a: Fetus
+|-status|p2a: Fetus|slp|[from] move: Hypnosis
+|move|p1b: Weird Deer|Psyshield Bash|p2b: Azula
+|-damage|p2b: Azula|66/100 slp
+|-boost|p1b: Weird Deer|def|1
+|
+|-heal|p1a: Wet Snek|62/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1784680295
+|switch|p1a: Snek|Serperior, L50, M|100/100
+|cant|p2a: Fetus|slp
+|-curestatus|p2b: Azula|slp|[msg]
+|move|p2b: Azula|Belly Drum|p2b: Azula
+|-damage|p2b: Azula|16/100
+|-setboost|p2b: Azula|atk|6|[from] move: Belly Drum
+|-enditem|p2b: Azula|Sitrus Berry|[eat]
+|-heal|p2b: Azula|41/100|[from] item: Sitrus Berry
+|move|p1b: Weird Deer|Psyshield Bash|p2a: Fetus
+|-resisted|p2a: Fetus|1
+|-damage|p2a: Fetus|83/100 slp
+|-boost|p1b: Weird Deer|def|1
+|
+|upkeep
+|turn|4
+|-activate|p2a: Fetus|item: Quick Claw
+|
+|t:|1784680313
+|move|p2b: Azula|Aqua Jet|p1b: Weird Deer
+|-damage|p1b: Weird Deer|40/100
+|-curestatus|p2a: Fetus|slp|[msg]
+|move|p2a: Fetus|Psychic|p1a: Snek
+|-damage|p1a: Snek|50/100g
+|move|p1b: Weird Deer|Hypnosis|p2b: Azula
+|-status|p2b: Azula|slp|[from] move: Hypnosis
+|move|p1a: Snek|Leaf Storm|p2b: Azula
+|-supereffective|p2b: Azula|1
+|-damage|p2b: Azula|0 fnt
+|-boost|p1a: Snek|spa|2
+|faint|p2b: Azula
+|
+|upkeep
+|
+|t:|1784680327
+|switch|p2b: EddieHall|Rhyperior, L50, M, shiny|100/100
+|turn|5
+|
+|t:|1784680335
+|move|p1a: Snek|Protect|p1a: Snek
+|-singleturn|p1a: Snek|Protect
+|move|p2a: Fetus|Psychic|p1b: Weird Deer
+|-resisted|p1b: Weird Deer|1
+|-damage|p1b: Weird Deer|20/100y
+|move|p2b: EddieHall|Temper Flare|p1a: Snek
+|-activate|p1a: Snek|move: Protect
+|move|p1b: Weird Deer|Hypnosis|p2b: EddieHall
+|-status|p2b: EddieHall|slp|[from] move: Hypnosis
+|
+|-fieldend|move: Trick Room
+|-fieldend|move: Gravity
+|upkeep
+|turn|6
+|
+|t:|1784680355
+|move|p1a: Snek|Leaf Storm|p2b: EddieHall
+|-supereffective|p2b: EddieHall|2
+|-damage|p2b: EddieHall|0 fnt
+|-boost|p1a: Snek|spa|2
+|faint|p2b: EddieHall
+|move|p1b: Weird Deer|Gravity|p1b: Weird Deer
+|-fieldstart|move: Gravity
+|move|p2a: Fetus|Trick Room|p2a: Fetus
+|-fieldstart|move: Trick Room|[of] p2a: Fetus
+|
+|upkeep
+|
+|t:|1784680364
+|switch|p2b: Ogopogo|Drampa, L50, M, shiny|100/100
+|turn|7
+|
+|t:|1784680383
+|detailschange|p2b: Ogopogo|Drampa-Mega, L50, M, shiny
+|-mega|p2b: Ogopogo|Drampa|Drampanite
+|move|p2a: Fetus|Psychic|p1b: Weird Deer
+|-resisted|p1b: Weird Deer|1
+|-damage|p1b: Weird Deer|1/100
+|move|p2b: Ogopogo|Flamethrower|p1a: Snek
+|-supereffective|p1a: Snek|1
+|-damage|p1a: Snek|0 fnt
+|faint|p1a: Snek
+|move|p1b: Weird Deer|Trick Room|p1b: Weird Deer
+|-fieldend|move: Trick Room
+|
+|upkeep
+|
+|t:|1784680393
+|switch|p1a: Wet Snek|Milotic, L50, M|62/100
+|turn|8
+|
+|t:|1784680408
+|move|p1b: Weird Deer|Hypnosis|p2b: Ogopogo
+|-status|p2b: Ogopogo|slp|[from] move: Hypnosis
+|move|p1a: Wet Snek|Hypnosis|p2a: Fetus
+|-status|p2a: Fetus|slp|[from] move: Hypnosis
+|cant|p2b: Ogopogo|slp
+|cant|p2a: Fetus|slp
+|
+|-heal|p1a: Wet Snek|68/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1784680422
+|move|p1b: Weird Deer|Psyshield Bash|p2b: Ogopogo
+|-damage|p2b: Ogopogo|70/100 slp
+|-boost|p1b: Weird Deer|def|1
+|move|p1a: Wet Snek|Life Dew|p1a: Wet Snek|[spread] p1a,p1b
+|-heal|p1a: Wet Snek|93/100
+|-heal|p1b: Weird Deer|26/100
+|-curestatus|p2b: Ogopogo|slp|[msg]
+|move|p2b: Ogopogo|Draco Meteor|p1a: Wet Snek
+|-damage|p1a: Wet Snek|32/100
+|-unboost|p2b: Ogopogo|spa|2
+|cant|p2a: Fetus|slp
+|
+|-heal|p1a: Wet Snek|38/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1784680442
+|move|p1b: Weird Deer|Hypnosis|p2b: Ogopogo
+|-status|p2b: Ogopogo|slp|[from] move: Hypnosis
+|move|p1a: Wet Snek|Life Dew|p1a: Wet Snek|[spread] p1a,p1b
+|-heal|p1a: Wet Snek|63/100
+|-heal|p1b: Weird Deer|51/100
+|cant|p2b: Ogopogo|slp
+|-curestatus|p2a: Fetus|slp|[msg]
+|move|p2a: Fetus|Energy Ball|p1a: Wet Snek
+|-supereffective|p1a: Wet Snek|1
+|-damage|p1a: Wet Snek|19/100
+|
+|-heal|p1a: Wet Snek|25/100|[from] item: Leftovers
+|-fieldend|move: Gravity
+|upkeep
+|turn|11
+|
+|t:|1784680467
+|move|p1b: Weird Deer|Gravity|p1b: Weird Deer
+|-fieldstart|move: Gravity
+|move|p1a: Wet Snek|Hypnosis|p2a: Fetus
+|-status|p2a: Fetus|slp|[from] move: Hypnosis
+|-curestatus|p2b: Ogopogo|slp|[msg]
+|move|p2b: Ogopogo|Flamethrower|p1b: Weird Deer
+|-damage|p1b: Weird Deer|33/100
+|-status|p1b: Weird Deer|brn
+|cant|p2a: Fetus|slp
+|
+|-heal|p1a: Wet Snek|31/100|[from] item: Leftovers
+|-damage|p1b: Weird Deer|27/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1784680488
+|move|p1b: Weird Deer|Hypnosis|p2b: Ogopogo
+|-status|p2b: Ogopogo|slp|[from] move: Hypnosis
+|move|p1a: Wet Snek|Life Dew|p1a: Wet Snek|[spread] p1a,p1b
+|-heal|p1a: Wet Snek|56/100
+|-heal|p1b: Weird Deer|52/100 brn
+|cant|p2b: Ogopogo|slp
+|cant|p2a: Fetus|slp
+|
+|-heal|p1a: Wet Snek|62/100|[from] item: Leftovers
+|-damage|p1b: Weird Deer|46/100 brn|[from] brn
+|upkeep
+|turn|13
+|-activate|p2a: Fetus|item: Quick Claw
+|
+|t:|1784680515
+|move|p1b: Weird Deer|Psyshield Bash|p2b: Ogopogo
+|-damage|p2b: Ogopogo|55/100 slp
+|-boost|p1b: Weird Deer|def|1
+|move|p1a: Wet Snek|Muddy Water|p2b: Ogopogo|[spread] p2a,p2b
+|-resisted|p2b: Ogopogo|1
+|-damage|p2a: Fetus|61/100 slp
+|-damage|p2b: Ogopogo|45/100 slp
+|-ability|p2b: Ogopogo|Berserk|boost
+|-boost|p2b: Ogopogo|spa|1
+|-curestatus|p2b: Ogopogo|slp|[msg]
+|move|p2b: Ogopogo|Thunderbolt|p1a: Wet Snek
+|-supereffective|p1a: Wet Snek|1
+|-damage|p1a: Wet Snek|28/100
+|-curestatus|p2a: Fetus|slp|[msg]
+|move|p2a: Fetus|Trick Room|p2a: Fetus
+|-fieldstart|move: Trick Room|[of] p2a: Fetus
+|
+|-heal|p1a: Wet Snek|34/100|[from] item: Leftovers
+|-damage|p1b: Weird Deer|40/100 brn|[from] brn
+|upkeep
+|turn|14
+|
+|t:|1784680581
+|move|p2a: Fetus|Energy Ball|p1a: Wet Snek
+|-supereffective|p1a: Wet Snek|1
+|-damage|p1a: Wet Snek|0 fnt
+|faint|p1a: Wet Snek
+|move|p2b: Ogopogo|Flamethrower|p1b: Weird Deer
+|-damage|p1b: Weird Deer|16/100 brn
+|move|p1b: Weird Deer|Psyshield Bash|p2a: Fetus
+|-resisted|p2a: Fetus|1
+|-damage|p2a: Fetus|52/100
+|-boost|p1b: Weird Deer|def|1
+|
+|-damage|p1b: Weird Deer|10/100 brn|[from] brn
+|upkeep
+|
+|t:|1784680598
+|switch|p1a: Weird Snek|Kommo-o, L50, M|100/100
+|turn|15
+|
+|t:|1784680623
+|move|p2a: Fetus|Psychic|p1a: Weird Snek
+|-supereffective|p1a: Weird Snek|1
+|-damage|p1a: Weird Snek|0 fnt
+|faint|p1a: Weird Snek
+|move|p2b: Ogopogo|Draco Meteor|p1b: Weird Deer
+|-damage|p1b: Weird Deer|0 fnt
+|-unboost|p2b: Ogopogo|spa|2
+|faint|p1b: Weird Deer
+|
+|win|MCFIC1

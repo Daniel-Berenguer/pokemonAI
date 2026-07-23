@@ -1,0 +1,254 @@
+|j|☆PiercingPotato
+|j|☆Whitegangsta
+|html|PiercingPotatoWhitegangsta    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784167871
+|gametype|doubles
+|player|p1|PiercingPotato|medium|
+|player|p2|Whitegangsta|266|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Overqwil, L50, F|
+|poke|p1|Toxapex, L50, F|
+|poke|p1|Bastiodon, L50, M|
+|poke|p1|Raichu, L50, F|
+|poke|p1|Metagross, L50|
+|poke|p1|Politoed, L50, M|
+|poke|p2|Incineroar, L50, F, shiny|
+|poke|p2|Sceptile, L50, M, shiny|
+|poke|p2|Steelix, L50, M, shiny|
+|poke|p2|Gengar, L50, M, shiny|
+|poke|p2|Ditto, L50, shiny|
+|poke|p2|Slowbro, L50, M, shiny|
+|teampreview|4
+|showteam|p1|Overqwil||MentalHerb|Intimidate|Taunt,ThroatChop,Protect,DestinyBond|Jolly||F|||50|]Toxapex||WiseGlasses|Merciless|BanefulBunker,Liquidation,AcidSpray,Surf|Quiet||F|||50|]Bastiodon||ChopleBerry|Sturdy|Counter,Protect,HeavySlam,FoulPlay|Impish||M|||50|]Raichu||RaichuniteX|Static|Encore,FakeOut,Protect,Thunderbolt|Hasty||F|||50|]Metagross||Metagrossite|ClearBody|Explosion,PsychicFangs,BulletPunch,Protect|Jolly|||||50|]Politoed||ExpertBelt|Drizzle|Encore,Protect,PsychUp,BrickBreak|Careful||M|||50|
+|showteam|p2|Incineroar||LifeOrb|Intimidate|Overheat,FakeOut,PartingShot,Protect|Quiet||F|||50|]Sceptile||SitrusBerry|Overgrow|ShedTail,EnergyBall,Detect,LeechSeed|Timid||M|||50|]Steelix||Steelixite|RockHead|HeavySlam,Protect,Facade,BodyPress|Adamant||M|||50|]Gengar||Gengarite|CursedBody|Protect,ShadowBall,PerishSong,SludgeBomb|Modest||M|||50|]Ditto||ChoiceScarf|Imposter|Transform|Timid|||||50|]Slowbro||Leftovers|Oblivious|TrickRoom,HealPulse,Yawn,Scald|Calm||M|||50|
+|j| DarKn04
+|j| ghrill
+|
+|t:|1784167906
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Metagross|Metagross, L50|100/100
+|switch|p1b: Bastiodon|Bastiodon, L50, M|100/100
+|switch|p2a: Slowbro|Slowbro, L50, M, shiny|100/100
+|switch|p2b: Sceptile|Sceptile, L50, M, shiny|100/100
+|turn|1
+|
+|t:|1784167935
+|detailschange|p1a: Metagross|Metagross-Mega, L50
+|-mega|p1a: Metagross|Metagross|Metagrossite
+|move|p1b: Bastiodon|Protect|p1b: Bastiodon
+|-singleturn|p1b: Bastiodon|Protect
+|move|p2b: Sceptile|Shed Tail|p2b: Sceptile
+|-start|p2b: Sceptile|Substitute|[from] move: Shed Tail
+|-damage|p2b: Sceptile|50/100y
+|-enditem|p2b: Sceptile|Sitrus Berry|[eat]
+|-heal|p2b: Sceptile|75/100|[from] item: Sitrus Berry
+|
+|t:|1784167944
+|switch|p2b: Incineroar|Incineroar, L50, F, shiny|100/100|[from] Shed Tail
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Metagross|atk|1
+|-unboost|p1b: Bastiodon|atk|1
+|move|p1a: Metagross|Explosion|p2a: Slowbro|[spread] p2a,p2b
+|-activate|p1b: Bastiodon|move: Protect
+|-end|p2b: Incineroar|Substitute
+|-damage|p2a: Slowbro|64/100
+|faint|p1a: Metagross
+|move|p2a: Slowbro|Trick Room|p2a: Slowbro
+|-fieldstart|move: Trick Room|[of] p2a: Slowbro
+|
+|-heal|p2a: Slowbro|70/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1784167962
+|switch|p1a: Politoed|Politoed, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|2
+|
+|t:|1784167996
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|move|p1b: Bastiodon|Foul Play|p2a: Slowbro
+|-supereffective|p2a: Slowbro|1
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|32/100
+|move|p2a: Slowbro|Scald|p1b: Bastiodon
+|-supereffective|p1b: Bastiodon|1
+|-damage|p1b: Bastiodon|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Slowbro|38/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1784168019
+|move|p1b: Bastiodon|Protect|p1b: Bastiodon
+|-singleturn|p1b: Bastiodon|Protect
+|move|p2b: Incineroar|Protect|p2b: Incineroar
+|-singleturn|p2b: Incineroar|Protect
+|move|p2a: Slowbro|Scald|p1b: Bastiodon
+|-activate|p1b: Bastiodon|move: Protect
+|move|p1a: Politoed|Encore|p2b: Incineroar
+|-activate|p2b: Incineroar|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Slowbro|44/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1784168043
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p1b: Bastiodon|Heavy Slam|p2a: Slowbro
+|-resisted|p2a: Slowbro|1
+|-crit|p2a: Slowbro
+|-damage|p2a: Slowbro|39/100
+|move|p2a: Slowbro|Scald|p1b: Bastiodon
+|-supereffective|p1b: Bastiodon|1
+|-damage|p1b: Bastiodon|0 fnt
+|faint|p1b: Bastiodon
+|move|p2b: Incineroar|Parting Shot|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Slowbro|45/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1784168060
+|switch|p1b: Toxapex|Toxapex, L50, F|100/100
+|turn|5
+|
+|t:|1784168079
+|move|p1b: Toxapex|Liquidation|p2b: Incineroar
+|-supereffective|p2b: Incineroar|1
+|-crit|p2b: Incineroar
+|-damage|p2b: Incineroar|12/100
+|move|p2a: Slowbro|Yawn|p1b: Toxapex
+|-start|p1b: Toxapex|move: Yawn|[of] p2a: Slowbro
+|move|p2b: Incineroar|Parting Shot|p1a: Politoed
+|-unboost|p1a: Politoed|atk|1
+|-unboost|p1a: Politoed|spa|1
+|
+|t:|1784168089
+|switch|p2b: Sceptile|Sceptile, L50, M, shiny|75/100|[from] Parting Shot
+|move|p1a: Politoed|Brick Break|p2b: Sceptile
+|-damage|p2b: Sceptile|61/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Slowbro|50/100g|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1784168107
+|move|p2b: Sceptile|Energy Ball|p1a: Politoed
+|-supereffective|p1a: Politoed|1
+|-damage|p1a: Politoed|59/100
+|move|p1a: Politoed|Encore|p2a: Slowbro
+|-start|p2a: Slowbro|Encore
+|move|p2a: Slowbro|Yawn||[still]
+|-fail|p2a: Slowbro
+|move|p1b: Toxapex|Acid Spray|p2b: Sceptile
+|-supereffective|p2b: Sceptile|1
+|-damage|p2b: Sceptile|26/100
+|-unboost|p2b: Sceptile|spd|2
+|
+|-weather|none
+|-heal|p2a: Slowbro|56/100|[from] item: Leftovers
+|-end|p1b: Toxapex|move: Yawn|[silent]
+|-status|p1b: Toxapex|slp
+|upkeep
+|turn|7
+|
+|t:|1784168143
+|move|p2b: Sceptile|Energy Ball|p1a: Politoed
+|-supereffective|p1a: Politoed|1
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|move|p2a: Slowbro|Yawn||[still]
+|-fail|p2a: Slowbro
+|cant|p1b: Toxapex|slp
+|
+|-heal|p2a: Slowbro|62/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1784168159
+|switch|p2a: Steelix|Steelix, L50, M, shiny|100/100
+|-curestatus|p1b: Toxapex|slp|[msg]
+|move|p1b: Toxapex|Baneful Bunker|p1b: Toxapex
+|-singleturn|p1b: Toxapex|move: Protect
+|move|p2b: Sceptile|Energy Ball|p1b: Toxapex
+|-activate|p1b: Toxapex|move: Protect
+|
+|upkeep
+|turn|9
+|
+|t:|1784168177
+|detailschange|p2a: Steelix|Steelix-Mega, L50, M, shiny
+|-mega|p2a: Steelix|Steelix|Steelixite
+|move|p2b: Sceptile|Energy Ball|p1b: Toxapex
+|-damage|p1b: Toxapex|61/100
+|move|p2a: Steelix|Heavy Slam|p1b: Toxapex
+|-resisted|p1b: Toxapex|1
+|-damage|p1b: Toxapex|32/100
+|move|p1b: Toxapex|Acid Spray|p2b: Sceptile
+|-supereffective|p2b: Sceptile|1
+|-damage|p2b: Sceptile|0 fnt
+|faint|p2b: Sceptile
+|
+|upkeep
+|
+|t:|1784168194
+|switch|p2b: Incineroar|Incineroar, L50, F, shiny|12/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1b: Toxapex|atk|1
+|turn|10
+|
+|t:|1784168202
+|move|p1b: Toxapex|Baneful Bunker|p1b: Toxapex
+|-singleturn|p1b: Toxapex|move: Protect
+|move|p2b: Incineroar|Fake Out|p1b: Toxapex
+|-activate|p1b: Toxapex|move: Protect
+|-status|p2b: Incineroar|psn
+|move|p2a: Steelix|Heavy Slam|p1b: Toxapex
+|-activate|p1b: Toxapex|move: Protect
+|
+|-damage|p2b: Incineroar|1/100 psn|[from] psn
+|upkeep
+|turn|11
+|
+|t:|1784168226
+|move|p1b: Toxapex|Baneful Bunker|p1b: Toxapex
+|-singleturn|p1b: Toxapex|move: Protect
+|move|p2b: Incineroar|Overheat|p1b: Toxapex
+|-activate|p1b: Toxapex|move: Protect
+|move|p2a: Steelix|Heavy Slam|p1b: Toxapex
+|-activate|p1b: Toxapex|move: Protect
+|
+|-damage|p2b: Incineroar|0 fnt|[from] psn
+|faint|p2b: Incineroar
+|upkeep
+|
+|t:|1784168238
+|switch|p2b: Slowbro|Slowbro, L50, M, shiny|62/100
+|turn|12
+|
+|t:|1784168247
+|move|p2b: Slowbro|Scald|p1b: Toxapex
+|-resisted|p1b: Toxapex|1
+|-damage|p1b: Toxapex|21/100
+|move|p2a: Steelix|Heavy Slam|p1b: Toxapex
+|-resisted|p1b: Toxapex|1
+|-damage|p1b: Toxapex|0 fnt
+|faint|p1b: Toxapex
+|
+|win|Whitegangsta

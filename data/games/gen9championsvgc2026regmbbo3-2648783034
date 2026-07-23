@@ -1,0 +1,203 @@
+|j|☆babayaga27
+|j|☆shasaora
+|html|babayaga27shasaora    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783985122
+|gametype|doubles
+|player|p1|babayaga27|1|
+|player|p2|shasaora|1|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Delphox, L50, M, shiny|
+|poke|p1|Tsareena, L50, F, shiny|
+|poke|p1|Kangaskhan, L50, F|
+|poke|p1|Ninetales-Alola, L50, F, shiny|
+|poke|p1|Greninja, L50, M, shiny|
+|poke|p1|Whimsicott, L50, F, shiny|
+|poke|p2|Sceptile, L50, M|
+|poke|p2|Bellibolt, L50, M|
+|poke|p2|Meowscarada, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Ditto, L50|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|showteam|p1|Delphox||Delphoxite|Blaze|Psychic,CalmMind,HeatWave,Protect|Timid||M|||50|]Tsareena||KebiaBerry|QueenlyMajesty|TropKick,Protect,TripleAxel,Trailblaze|Adamant||F|||50|]Kangaskhan||SilkScarf|InnerFocus|FakeOut,LastResort|Adamant||F|||50|]Ninetales-Alola||ChoiceScarf|SnowWarning|Blizzard,Moonblast,FreezeDry,IceBeam|Modest||F|||50|]Greninja||LifeOrb|Protean|Protect,Blizzard,DarkPulse,IcyWind|Timid||M|||50|]Whimsicott||FocusSash|Prankster|Tailwind,Moonblast,Protect,Encore|Modest||F|||50|
+|showteam|p2|Sceptile||Sceptilite|Overgrow|Detect,EarthPower,DragonPulse,GigaDrain|Modest||M|||50|]Bellibolt||Leftovers|Electromorphosis|Protect,ParabolicCharge,Soak,Electroweb|Bold||M|||50|]Meowscarada||LifeOrb|Protean|TripleAxel,FlowerTrick,SuckerPunch,KnockOff|Jolly||F|||50|]Sneasler||KingsRock|Unburden|FakeOut,CloseCombat,DireClaw,Fling|Jolly||M|||50|]Ditto||ChoiceScarf|Imposter|Transform|Calm|||||50|]Grimmsnarl||LightClay|Prankster|SpiritBreak,LightScreen,PartingShot,FakeOut|Careful||M|||50|
+|
+|t:|1783985212
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Whims|Whimsicott, L50, F, shiny|100/100
+|switch|p1b: Ninja-san|Greninja, L50, M, shiny|100/100
+|switch|p2a: Ambiguous|Meowscarada, L50, F|100/100
+|switch|p2b: Trickster|Sneasler, L50, M|100/100
+|turn|1
+|j| Aynvl1
+|
+|t:|1783985242
+|switch|p2b: Aha|Ditto, L50|100/100
+|-transform|p2b: Aha|p1a: Whims|[from] ability: Imposter
+|move|p1a: Whims|Protect|p1a: Whims
+|-singleturn|p1a: Whims|Protect
+|move|p2a: Ambiguous|Flower Trick|p1b: Ninja-san
+|-start|p2a: Ambiguous|typechange|Grass|[from] ability: Protean
+|-supereffective|p1b: Ninja-san|1
+|-crit|p1b: Ninja-san
+|-damage|p1b: Ninja-san|0 fnt
+|faint|p1b: Ninja-san
+|-damage|p2a: Ambiguous|90/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1783985256
+|switch|p1b: Mommy|Kangaskhan, L50, F|100/100
+|turn|2
+|
+|t:|1783985288
+|switch|p2a: Pagal|Grimmsnarl, L50, M|100/100
+|move|p1b: Mommy|Fake Out|p2a: Pagal
+|-damage|p2a: Pagal|71/100
+|move|p2b: Aha|Encore|p1a: Whims
+|-start|p1a: Whims|Encore
+|move|p1a: Whims|Protect||[still]
+|-fail|p1a: Whims
+|
+|upkeep
+|turn|3
+|
+|t:|1783985314
+|switch|p1a: Magician|Delphox, L50, M, shiny|100/100
+|move|p2b: Aha|Encore|p1b: Mommy
+|-start|p1b: Mommy|Encore
+|move|p1b: Mommy|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p1b: Mommy
+|move|p2a: Pagal|Spirit Break|p1b: Mommy
+|-damage|p1b: Mommy|68/100
+|-unboost|p1b: Mommy|spa|1
+|
+|upkeep
+|turn|4
+|
+|t:|1783985358
+|switch|p1b: Whims|Whimsicott, L50, F, shiny|100/100
+|detailschange|p1a: Magician|Delphox-Mega, L50, M, shiny
+|-mega|p1a: Magician|Delphox|Delphoxite
+|move|p2b: Aha|Encore||[still]
+|-fail|p2b: Aha
+|move|p2a: Pagal|Light Screen|p2a: Pagal
+|-sidestart|p2: shasaora|move: Light Screen
+|move|p1a: Magician|Heat Wave|p2b: Aha|[spread] p2b
+|-miss|p1a: Magician|p2a: Pagal
+|-supereffective|p2b: Aha|1
+|-damage|p2b: Aha|32/100
+|
+|upkeep
+|turn|5
+|
+|t:|1783985402
+|switch|p2b: Trickster|Sneasler, L50, M|100/100
+|move|p1b: Whims|Tailwind|p1b: Whims
+|-sidestart|p1: babayaga27|move: Tailwind
+|move|p1a: Magician|Heat Wave|p2a: Pagal|[spread] p2a,p2b
+|-damage|p2a: Pagal|48/100
+|-damage|p2b: Trickster|63/100
+|move|p2a: Pagal|Spirit Break|p1a: Magician
+|-resisted|p1a: Magician|1
+|-damage|p1a: Magician|78/100
+|-unboost|p1a: Magician|spa|1
+|
+|upkeep
+|turn|6
+|
+|t:|1783985429
+|move|p1b: Whims|Protect|p1b: Whims
+|-singleturn|p1b: Whims|Protect
+|move|p1a: Magician|Protect|p1a: Magician
+|-singleturn|p1a: Magician|Protect
+|move|p2b: Trickster|Fake Out|p1a: Magician
+|-activate|p1a: Magician|move: Protect
+|move|p2a: Pagal|Parting Shot|p1a: Magician
+|-activate|p1a: Magician|move: Protect
+|
+|upkeep
+|turn|7
+|
+|t:|1783985452
+|move|p2a: Pagal|Parting Shot|p1a: Magician
+|-unboost|p1a: Magician|atk|1
+|-unboost|p1a: Magician|spa|1
+|
+|t:|1783985457
+|switch|p2a: Aha|Ditto, L50|32/100|[from] Parting Shot
+|-transform|p2a: Aha|p1b: Whims|[from] ability: Imposter
+|move|p1a: Magician|Psychic|p2b: Trickster
+|-supereffective|p2b: Trickster|2
+|-damage|p2b: Trickster|0 fnt
+|faint|p2b: Trickster
+|move|p1b: Whims|Moonblast|p2a: Aha
+|-damage|p2a: Aha|1/100
+|
+|upkeep
+|
+|t:|1783985469
+|switch|p2b: Pagal|Grimmsnarl, L50, M|48/100
+|turn|8
+|
+|t:|1783985491
+|move|p2b: Pagal|Fake Out|p1a: Magician
+|-damage|p1a: Magician|61/100
+|move|p2a: Aha|Tailwind|p2a: Aha
+|-sidestart|p2: shasaora|move: Tailwind
+|cant|p1a: Magician|flinch
+|move|p1b: Whims|Moonblast|p2b: Pagal
+|-supereffective|p2b: Pagal|1
+|-damage|p2b: Pagal|6/100
+|
+|-sideend|p1: babayaga27|move: Tailwind
+|upkeep
+|turn|9
+|
+|t:|1783985526
+|switch|p2a: Ambiguous|Meowscarada, L50, F|90/100
+|move|p2b: Pagal|Parting Shot|p1a: Magician
+|-unboost|p1a: Magician|atk|1
+|-unboost|p1a: Magician|spa|1
+|
+|t:|1783985534
+|switch|p2b: Aha|Ditto, L50|1/100|[from] Parting Shot
+|-transform|p2b: Aha|p1a: Magician|[from] ability: Imposter
+|move|p1a: Magician|Heat Wave|p2a: Ambiguous|[spread] p2a,p2b
+|-supereffective|p2a: Ambiguous|1
+|-resisted|p2b: Aha|1
+|-damage|p2a: Ambiguous|52/100
+|-damage|p2b: Aha|0 fnt
+|faint|p2b: Aha
+|move|p1b: Whims|Moonblast|p2a: Ambiguous
+|-supereffective|p2a: Ambiguous|1
+|-damage|p2a: Ambiguous|0 fnt
+|faint|p2a: Ambiguous
+|
+|upkeep
+|
+|t:|1783985552
+|switch|p2b: Pagal|Grimmsnarl, L50, M|6/100
+|turn|10
+|
+|t:|1783985558
+|move|p2b: Pagal|Fake Out|p1a: Magician
+|-damage|p1a: Magician|45/100
+|cant|p1a: Magician|flinch
+|move|p1b: Whims|Moonblast|p2b: Pagal
+|-supereffective|p2b: Pagal|1
+|-damage|p2b: Pagal|0 fnt
+|faint|p2b: Pagal
+|
+|win|babayaga27
+|l| Aynvl1
+|inactive|babayaga27 has 30 seconds to confirm battle start!
+|inactive|shasaora has 30 seconds to confirm battle start!

@@ -1,0 +1,317 @@
+|j|☆OssiGT
+|j|☆TopekaMelon
+|html|OssiGTTopekaMelon    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783957833
+|gametype|doubles
+|player|p1|OssiGT|colress|1241
+|player|p2|TopekaMelon|sabrina|1312
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Raichu, L50, M|
+|poke|p1|Mawile, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Ceruledge, L50, F|
+|poke|p1|Milotic, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Vivillon-Elegant, L50, F|
+|poke|p2|Gardevoir, L50, M|
+|poke|p2|Mudsdale, L50, F|
+|teampreview|4
+|showteam|p1|Raichu||RaichuniteY|LightningRod|ZapCannon,FocusBlast,FakeOut,Protect|Timid||M|||50|]Mawile||Mawilite|HyperCutter|PlayRough,SuckerPunch,SwordsDance,Protect|Adamant||M|||50|]Sinistcha||KasibBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,Protect|Relaxed|||||50|]Ceruledge||ColburBerry|FlashFire|BitterBlade,ShadowSneak,BulkUp,Protect|Adamant||F|||50|]Milotic||Leftovers|Competitive|MuddyWater,Coil,Hypnosis,Protect|Calm||F|||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,ThroatChop,FakeOut,PartingShot|Impish||F|||50|
+|showteam|p2|Farigiraf||SitrusBerry|ArmorTail|Protect,TrickRoom,Thunderbolt,Psychic|Sassy||F|||50|]Torkoal||Charcoal|Drought|Protect,SolarBeam,WeatherBall,Eruption|Quiet||M|||50|]Incineroar||WhiteHerb|Intimidate|FlareBlitz,DarkestLariat,CloseCombat,FakeOut|Brave||F|||50|]Vivillon-Elegant||FocusSash|CompoundEyes|Protect,RagePowder,SleepPowder,Hurricane|Timid||F|||50|]Gardevoir||Gardevoirite|Telepathy|Protect,TrickRoom,Psychic,HyperVoice|Quiet||M|||50|]Mudsdale||LifeOrb|InnerFocus|Earthquake,HighHorsepower,HeavySlam,RockSlide|Brave||F|||50|
+|
+|t:|1783957852
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Milotic|Milotic, L50, F|100/100
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|switch|p2a: Vivillon|Vivillon-Elegant, L50, F|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|turn|1
+|
+|t:|1783957880
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p1b: Sinistcha|Rage Powder|p1b: Sinistcha
+|-singleturn|p1b: Sinistcha|move: Rage Powder
+|move|p1a: Milotic|Coil|p1a: Milotic
+|-boost|p1a: Milotic|atk|1
+|-boost|p1a: Milotic|def|1
+|-boost|p1a: Milotic|accuracy|1
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1783957904
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Farigiraf|atk|1
+|move|p2a: Torkoal|Solar Beam||[still]
+|-prepare|p2a: Torkoal|Solar Beam
+|-anim|p2a: Torkoal|Solar Beam|p1a: Milotic
+|-supereffective|p1a: Milotic|1
+|-crit|p1a: Milotic
+|-damage|p1a: Milotic|36/100
+|move|p2b: Farigiraf|Thunderbolt|p1a: Milotic
+|-supereffective|p1a: Milotic|1
+|-damage|p1a: Milotic|4/100
+|move|p1a: Milotic|Hypnosis|p2a: Torkoal
+|-status|p2a: Torkoal|slp|[from] move: Hypnosis
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Milotic|10/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1783957929
+|move|p2b: Farigiraf|Protect|p2b: Farigiraf
+|-singleturn|p2b: Farigiraf|Protect
+|move|p1a: Milotic|Protect|p1a: Milotic
+|-singleturn|p1a: Milotic|Protect
+|cant|p2a: Torkoal|slp
+|move|p1b: Incineroar|Parting Shot|p2a: Torkoal
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2a: Torkoal|spa|1
+|
+|t:|1783957938
+|switch|p1b: Raichu|Raichu, L50, M|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Milotic|16/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1783957960
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|-heal|p1a: Milotic|41/100|[from] ability: Hospitality|[of] p1b: Sinistcha
+|cant|p2a: Torkoal|slp
+|move|p2b: Farigiraf|Psychic|p1b: Sinistcha
+|-damage|p1b: Sinistcha|69/100
+|move|p1a: Milotic|Hypnosis|p2b: Farigiraf
+|-status|p2b: Farigiraf|slp|[from] move: Hypnosis
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Milotic|47/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1783957978
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Farigiraf|atk|1
+|move|p1a: Milotic|Protect|p1a: Milotic
+|-singleturn|p1a: Milotic|Protect
+|-curestatus|p2a: Torkoal|slp|[msg]
+|move|p2a: Torkoal|Eruption|p1a: Milotic|[spread] p1b
+|-activate|p1a: Milotic|move: Protect
+|-resisted|p1b: Incineroar|1
+|-damage|p1b: Incineroar|74/100
+|cant|p2b: Farigiraf|slp
+|
+|-weather|none
+|-heal|p1a: Milotic|53/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by OssiGT)
+|
+|t:|1783958021
+|switch|p2a: Vivillon|Vivillon-Elegant, L50, F|100/100
+|-curestatus|p2b: Farigiraf|slp|[msg]
+|move|p2b: Farigiraf|Protect|p2b: Farigiraf
+|-singleturn|p2b: Farigiraf|Protect
+|move|p1a: Milotic|Hypnosis|p2a: Vivillon
+|-status|p2a: Vivillon|slp|[from] move: Hypnosis
+|move|p1b: Incineroar|Throat Chop|p2b: Farigiraf
+|-activate|p2b: Farigiraf|move: Protect
+|
+|-heal|p1a: Milotic|59/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1783958043
+|move|p2b: Farigiraf|Protect||[still]
+|-fail|p2b: Farigiraf
+|cant|p2a: Vivillon|slp
+|move|p1a: Milotic|Hypnosis|p2b: Farigiraf
+|-status|p2b: Farigiraf|slp|[from] move: Hypnosis
+|move|p1b: Incineroar|Flare Blitz|p2a: Vivillon
+|-supereffective|p2a: Vivillon|1
+|-enditem|p2a: Vivillon|Focus Sash
+|-damage|p2a: Vivillon|1/100 slp
+|-damage|p1b: Incineroar|49/100|[from] Recoil
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|74/100|[from] item: Sitrus Berry
+|
+|-heal|p1a: Milotic|65/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1783958063
+|-curestatus|p2a: Vivillon|slp|[msg]
+|move|p2a: Vivillon|Hurricane|p1b: Incineroar
+|-damage|p1b: Incineroar|36/100
+|-start|p1b: Incineroar|confusion
+|move|p1a: Milotic|Muddy Water|p2a: Vivillon|[spread] p2a,p2b
+|-damage|p2a: Vivillon|0 fnt
+|-damage|p2b: Farigiraf|80/100 slp
+|faint|p2a: Vivillon
+|-activate|p1b: Incineroar|confusion
+|-damage|p1b: Incineroar|28/100|[from] confusion
+|cant|p2b: Farigiraf|slp
+|
+|-heal|p1a: Milotic|71/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783958078
+|switch|p2a: Mudsdale|Mudsdale, L50, F|100/100
+|turn|9
+|
+|t:|1783958095
+|move|p1a: Milotic|Hypnosis|p2a: Mudsdale
+|-status|p2a: Mudsdale|slp|[from] move: Hypnosis
+|-activate|p1b: Incineroar|confusion
+|move|p1b: Incineroar|Parting Shot|p2a: Mudsdale
+|-unboost|p2a: Mudsdale|atk|1
+|-unboost|p2a: Mudsdale|spa|1
+|
+|t:|1783958101
+|switch|p1b: Sinistcha|Sinistcha, L50|69/100|[from] Parting Shot
+|-heal|p1a: Milotic|96/100|[from] ability: Hospitality|[of] p1b: Sinistcha
+|cant|p2a: Mudsdale|slp
+|-curestatus|p2b: Farigiraf|slp|[msg]
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|inactive|TopekaMelon has 30 seconds left.
+|
+|t:|1783958126
+|cant|p2a: Mudsdale|slp
+|move|p2b: Farigiraf|Thunderbolt|p1a: Milotic
+|-supereffective|p1a: Milotic|1
+|-damage|p1a: Milotic|71/100
+|move|p1b: Sinistcha|Matcha Gotcha|p2b: Farigiraf|[spread] p2a,p2b
+|-supereffective|p2a: Mudsdale|1
+|-damage|p2a: Mudsdale|49/100 slp
+|-heal|p1b: Sinistcha|98/100|[from] drain|[of] p2a: Mudsdale
+|-damage|p2b: Farigiraf|63/100
+|-heal|p1b: Sinistcha|100/100|[from] drain|[of] p2b: Farigiraf
+|-status|p2b: Farigiraf|brn
+|move|p1a: Milotic|Hypnosis|p2a: Mudsdale
+|-fail|p2a: Mudsdale|slp
+|
+|-heal|p1a: Milotic|77/100|[from] item: Leftovers
+|-damage|p2b: Farigiraf|57/100 brn|[from] brn
+|upkeep
+|turn|11
+|inactive|OssiGT has 30 seconds left.
+|
+|t:|1783958151
+|move|p1a: Milotic|Protect|p1a: Milotic
+|-singleturn|p1a: Milotic|Protect
+|-curestatus|p2a: Mudsdale|slp|[msg]
+|move|p2a: Mudsdale|High Horsepower|p1a: Milotic
+|-activate|p1a: Milotic|move: Protect
+|move|p2b: Farigiraf|Thunderbolt|p1a: Milotic
+|-activate|p1a: Milotic|move: Protect
+|move|p1b: Sinistcha|Matcha Gotcha|p2b: Farigiraf|[spread] p2a,p2b
+|-supereffective|p2a: Mudsdale|1
+|-damage|p2a: Mudsdale|2/100
+|-damage|p2b: Farigiraf|38/100 brn
+|-enditem|p2b: Farigiraf|Sitrus Berry|[eat]
+|-heal|p2b: Farigiraf|63/100 brn|[from] item: Sitrus Berry
+|
+|-heal|p1a: Milotic|83/100|[from] item: Leftovers
+|-damage|p2b: Farigiraf|57/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1783958172
+|move|p1b: Sinistcha|Rage Powder|p1b: Sinistcha
+|-singleturn|p1b: Sinistcha|move: Rage Powder
+|move|p2a: Mudsdale|High Horsepower|p1b: Sinistcha
+|-resisted|p1b: Sinistcha|1
+|-damage|p1b: Sinistcha|80/100
+|-damage|p2a: Mudsdale|0 fnt|[from] item: Life Orb
+|faint|p2a: Mudsdale
+|move|p2b: Farigiraf|Thunderbolt|p1b: Sinistcha
+|-resisted|p1b: Sinistcha|1
+|-damage|p1b: Sinistcha|69/100
+|move|p1a: Milotic|Hypnosis||[still]
+|-fail|p1a: Milotic
+|
+|-heal|p1a: Milotic|89/100|[from] item: Leftovers
+|-damage|p2b: Farigiraf|50/100g brn|[from] brn
+|upkeep
+|
+|t:|1783958185
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|13
+|
+|t:|1783958196
+|switch|p1b: Incineroar|Incineroar, L50, F|28/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Farigiraf|atk|1
+|move|p1a: Milotic|Protect|p1a: Milotic
+|-singleturn|p1a: Milotic|Protect
+|move|p2a: Torkoal|Eruption|p1a: Milotic|[spread] p1b
+|-activate|p1a: Milotic|move: Protect
+|-resisted|p1b: Incineroar|1
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p2b: Farigiraf|Thunderbolt|p1a: Milotic
+|-activate|p1a: Milotic|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Milotic|95/100|[from] item: Leftovers
+|-damage|p2b: Farigiraf|44/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1783958202
+|switch|p1b: Raichu|Raichu, L50, M|100/100
+|turn|14
+|inactive|TopekaMelon has 30 seconds left.
+|
+|t:|1783958228
+|detailschange|p1b: Raichu|Raichu-Mega-Y, L50, M
+|-mega|p1b: Raichu|Raichu|Raichunite Y
+|move|p2a: Torkoal|Protect|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Protect
+|move|p1b: Raichu|Zap Cannon|p2b: Farigiraf
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|move|p1a: Milotic|Hypnosis|p2a: Torkoal
+|-activate|p2a: Torkoal|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|-message|TopekaMelon forfeited.
+|
+|win|OssiGT
+||TopekaMelon is ready for game 3.
+||OssiGT is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆OssiGT
+|player|p1|

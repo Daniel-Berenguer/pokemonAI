@@ -1,0 +1,253 @@
+|j|☆JVoid
+|j|☆purpen
+|html|JVoidpurpen    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1784590699
+|gametype|doubles
+|player|p1|JVoid|lucas-gen4pt|
+|player|p2|purpen|2|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Blastoise, L50, M|
+|poke|p1|Politoed, L50, F|
+|poke|p1|Glaceon, L50, M|
+|poke|p1|Mr. Rime, L50, M|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Maushold, L50|
+|poke|p2|Froslass, L50, F|
+|poke|p2|Weavile, L50, F|
+|poke|p2|Kommo-o, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Gengar, L50, F|
+|poke|p2|Scovillain, L50, F|
+|teampreview|4
+|showteam|p1|Blastoise||Blastoisinite|Torrent|WaterPulse,DarkPulse,ShellSmash,Protect|Modest||M|||50|]Politoed||SitrusBerry|Drizzle|Protect,IceBeam,MuddyWater,HelpingHand|Bold||F|||50|]Glaceon||ChoiceScarf|IceBody|Blizzard,FreezeDry,WeatherBall,ShadowBall|Modest||M|||50|]Mr. Rime||MentalHerb|IceBody|TrickRoom,FakeOut,FreezeDry,ShadowBall|Bold||M|||50|]Ninetales-Alola||FocusSash|SnowWarning|AuroraVeil,HelpingHand,Protect,DazzlingGleam|Timid||M|||50|]Maushold||ChopleBerry|FriendGuard|Protect,FollowMe,SuperFang,Encore|Jolly|||||50|
+|showteam|p2|Froslass||Froslassite|CursedBody|AuroraVeil,Blizzard,Protect,Taunt|Timid||F|||50|]Weavile||FocusSash|Pickpocket|FakeOut,IceSpinner,ThroatChop,Protect|Jolly||F|||50|]Kommo-o||Leftovers|Bulletproof|ClangorousSoul,ClangingScales,AuraSphere,Protect|Timid||M|||50|]Farigiraf||SitrusBerry|ArmorTail|TwinBeam,TrickRoom,AllySwitch,Protect|Sassy||F|||50|]Gengar||ChoiceScarf|CursedBody|Thunder,SludgeBomb,ShadowBall,Trick|Timid||F|||50|]Scovillain||Scovillainite|Moody|Protect,GigaDrain,RagePowder,LeechSeed|Calm||F|||50|
+|j| rat2
+|c|☆JVoid|glhf
+|c|☆purpen|u2
+|
+|t:|1784590800
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Blastoise|Blastoise, L50, M|100/100
+|switch|p1b: Maushold|Maushold, L50|100/100
+|switch|p2a: Weavile|Weavile, L50, F|100/100
+|switch|p2b: Gengar|Gengar, L50, F|100/100
+|turn|1
+|
+|t:|1784590861
+|switch|p2a: Scovillain|Scovillain, L50, F|100/100
+|move|p1a: Blastoise|Protect|p1a: Blastoise
+|-singleturn|p1a: Blastoise|Protect
+|move|p2b: Gengar|Trick|p1b: Maushold
+|-activate|p2b: Gengar|move: Trick|[of] p1b: Maushold
+|-item|p1b: Maushold|Choice Scarf|[from] move: Trick
+|-item|p2b: Gengar|Chople Berry|[from] move: Trick
+|move|p1b: Maushold|Super Fang|p2a: Scovillain
+|-damage|p2a: Scovillain|50/100g
+|
+|-ability|p2a: Scovillain|Moody|boost
+|-boost|p2a: Scovillain|spd|2
+|-unboost|p2a: Scovillain|atk|1
+|upkeep
+|turn|2
+|
+|t:|1784590897
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|detailschange|p1a: Blastoise|Blastoise-Mega, L50, M
+|-mega|p1a: Blastoise|Blastoise|Blastoisinite
+|detailschange|p2a: Scovillain|Scovillain-Mega, L50, F
+|-mega|p2a: Scovillain|Scovillain|Scovillainite
+|move|p2b: Gengar|Thunder|p1a: Blastoise
+|-supereffective|p1a: Blastoise|1
+|-damage|p1a: Blastoise|19/100
+|move|p1a: Blastoise|Dark Pulse|p2b: Gengar
+|-supereffective|p2b: Gengar|1
+|-crit|p2b: Gengar
+|-damage|p2b: Gengar|0 fnt
+|faint|p2b: Gengar
+|move|p2a: Scovillain|Leech Seed|p1b: Ninetales
+|-start|p1b: Ninetales|move: Leech Seed
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1b: Ninetales|88/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|60/100|[silent]
+|upkeep
+|
+|t:|1784590916
+|switch|p2b: Weavile|Weavile, L50, F|100/100
+|turn|3
+|
+|t:|1784590934
+|move|p2b: Weavile|Fake Out|p1b: Ninetales
+|-damage|p1b: Ninetales|73/100
+|cant|p1b: Ninetales|flinch
+|move|p1a: Blastoise|Shell Smash|p1a: Blastoise
+|-unboost|p1a: Blastoise|def|1
+|-unboost|p1a: Blastoise|spd|1
+|-boost|p1a: Blastoise|atk|2
+|-boost|p1a: Blastoise|spa|2
+|-boost|p1a: Blastoise|spe|2
+|move|p2a: Scovillain|Giga Drain|p1a: Blastoise
+|-supereffective|p1a: Blastoise|1
+|-damage|p1a: Blastoise|0 fnt
+|-heal|p2a: Scovillain|69/100|[from] drain|[of] p1a: Blastoise
+|faint|p1a: Blastoise
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1b: Ninetales|61/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|80/100|[silent]
+|upkeep
+|
+|t:|1784590950
+|switch|p1a: Maushold|Maushold, L50|100/100
+|turn|4
+|j| Hugh r
+|
+|t:|1784590983
+|move|p2a: Scovillain|Rage Powder|p2a: Scovillain
+|-singleturn|p2a: Scovillain|move: Rage Powder
+|move|p1a: Maushold|Encore|p2a: Scovillain
+|-start|p2a: Scovillain|Encore
+|move|p2b: Weavile|Ice Spinner|p1a: Maushold
+|-damage|p1a: Maushold|51/100
+|move|p1b: Ninetales|Aurora Veil|p1b: Ninetales
+|-sidestart|p1: JVoid|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|-damage|p1b: Ninetales|49/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|90/100|[silent]
+|upkeep
+|turn|5
+|l| rat2
+|
+|t:|1784591001
+|switch|p1a: Glaceon|Glaceon, L50, M|100/100
+|move|p2a: Scovillain|Rage Powder|p2a: Scovillain
+|-singleturn|p2a: Scovillain|move: Rage Powder
+|move|p2b: Weavile|Ice Spinner|p1a: Glaceon
+|-resisted|p1a: Glaceon|1
+|-damage|p1a: Glaceon|89/100
+|move|p1b: Ninetales|Dazzling Gleam|p2b: Weavile|[spread] p2a,p2b
+|-resisted|p2a: Scovillain|1
+|-supereffective|p2b: Weavile|1
+|-damage|p2a: Scovillain|85/100
+|-damage|p2b: Weavile|37/100
+|-status|p1b: Ninetales|brn|[from] ability: Spicy Spray|[of] p2a: Scovillain
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Glaceon|95/100|[from] ability: Ice Body
+|-damage|p1b: Ninetales|37/100 brn|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|95/100|[silent]
+|-damage|p1b: Ninetales|31/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1784591025
+|move|p1b: Ninetales|Helping Hand|p1a: Glaceon
+|-singleturn|p1a: Glaceon|Helping Hand|[of] p1b: Ninetales
+|move|p2b: Weavile|Protect|p2b: Weavile
+|-singleturn|p2b: Weavile|Protect
+|move|p2a: Scovillain|Rage Powder|p2a: Scovillain
+|-singleturn|p2a: Scovillain|move: Rage Powder
+|move|p1a: Glaceon|Blizzard|p2a: Scovillain|[spread] p2a
+|-activate|p2b: Weavile|move: Protect
+|-damage|p2a: Scovillain|67/100
+|-status|p1a: Glaceon|brn|[from] ability: Spicy Spray|[of] p2a: Scovillain
+|
+|-weather|none
+|-damage|p1b: Ninetales|19/100 brn|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|78/100|[silent]
+|-damage|p1b: Ninetales|13/100 brn|[from] brn
+|-damage|p1a: Glaceon|89/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1784591055
+|switch|p1a: Maushold|Maushold, L50|51/100
+|move|p1b: Ninetales|Protect|p1b: Ninetales
+|-singleturn|p1b: Ninetales|Protect
+|move|p2a: Scovillain|Rage Powder|p2a: Scovillain
+|-singleturn|p2a: Scovillain|move: Rage Powder
+|move|p2b: Weavile|Throat Chop|p1a: Maushold
+|-damage|p1a: Maushold|16/100
+|-start|p1a: Maushold|Throat Chop|[silent]
+|
+|-damage|p1b: Ninetales|1/100 brn|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|88/100|[silent]
+|-damage|p1b: Ninetales|0 fnt|[from] brn
+|faint|p1b: Ninetales
+|-end|p2a: Scovillain|Encore
+|upkeep
+|j| enzothegamer
+|
+|t:|1784591075
+|switch|p1b: Glaceon|Glaceon, L50, M|89/100 brn
+|turn|8
+|
+|t:|1784591115
+|move|p2a: Scovillain|Protect|p2a: Scovillain
+|-singleturn|p2a: Scovillain|Protect
+|move|p1a: Maushold|Super Fang|p2a: Scovillain
+|-activate|p2a: Scovillain|move: Protect
+|move|p2b: Weavile|Throat Chop|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|move|p1b: Glaceon|Blizzard|p2b: Weavile|[spread] p2b
+|-activate|p2a: Scovillain|move: Protect
+|-resisted|p2b: Weavile|1
+|-damage|p2b: Weavile|6/100
+|
+|-damage|p1b: Glaceon|83/100 brn|[from] brn
+|-sideend|p1: JVoid|move: Aurora Veil
+|upkeep
+|turn|9
+|
+|t:|1784591130
+|move|p2b: Weavile|Protect|p2b: Weavile
+|-singleturn|p2b: Weavile|Protect
+|move|p1b: Glaceon|Blizzard|p2b: Weavile|[spread] p2a
+|-activate|p2b: Weavile|move: Protect
+|-damage|p2a: Scovillain|69/100
+|move|p2a: Scovillain|Leech Seed|p1b: Glaceon
+|-start|p1b: Glaceon|move: Leech Seed
+|
+|-damage|p1b: Glaceon|71/100 brn|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|79/100|[silent]
+|-damage|p1b: Glaceon|66/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1784591145
+|move|p2b: Weavile|Throat Chop|p1b: Glaceon
+|-damage|p1b: Glaceon|19/100 brn
+|-start|p1b: Glaceon|Throat Chop|[silent]
+|move|p1b: Glaceon|Blizzard|p2a: Scovillain|[spread] p2a,p2b
+|-resisted|p2b: Weavile|1
+|-damage|p2a: Scovillain|58/100
+|-damage|p2b: Weavile|0 fnt
+|faint|p2b: Weavile
+|move|p2a: Scovillain|Giga Drain|p1b: Glaceon
+|-damage|p1b: Glaceon|0 fnt
+|-heal|p2a: Scovillain|66/100|[from] drain|[of] p1b: Glaceon
+|faint|p1b: Glaceon
+|
+|win|purpen
+|inactive|JVoid has 30 seconds to confirm battle start!
+|inactive|purpen has 30 seconds to confirm battle start!
+|c| Hugh r|Sp deffend boots is so right in time😭
+|c| Hugh r|Bulky
+|c|☆purpen|holy scov carry oml
+|inactive|JVoid has 20 seconds to confirm battle start!
+|inactive|purpen has 20 seconds to confirm battle start!
+||purpen is ready for game 2.
+||JVoid is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l| Hugh r
+|j| rat2

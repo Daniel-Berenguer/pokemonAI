@@ -1,0 +1,144 @@
+|j|☆dimee
+|j|☆DibraldinhoVGC
+|html|dimeeDibraldinhoVGC    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784682845
+|gametype|doubles
+|player|p1|dimee|lance|
+|player|p2|DibraldinhoVGC|1|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Vileplume, L50, M|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Aegislash, L50, M|
+|poke|p1|Malamar, L50, M|
+|poke|p1|Sableye, L50, F|
+|poke|p2|Grimmsnarl, L50, M, shiny|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Venusaur, L50, F|
+|poke|p2|Charizard, L50, M, shiny|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Vileplume||SitrusBerry|EffectSpore|SludgeBomb,SleepPowder,GigaDrain,Protect|Modest||M|||50|]Charizard||CharizarditeY|Blaze|HeatWave,Overheat,SolarBeam,Protect|Timid||F|||50|]Torkoal||ExpertBelt|Drought|HeatWave,Protect,Overheat,EarthPower|Quiet||F|||50|]Aegislash||FocusSash|StanceChange|IronHead,CloseCombat,KingsShield,ShadowSneak|Adamant||M|||50|]Malamar||QuickClaw|Contrary|KnockOff,TrickRoom,TopsyTurvy,Superpower|Brave||M|||50|]Sableye||Leftovers|Prankster|FoulPlay,Quash,WillOWisp,Reflect|Relaxed||F|||50|
+|showteam|p2|Grimmsnarl||LightClay|Prankster|SpiritBreak,PartingShot,Reflect,LightScreen|Sassy||M|||50|]Pelipper||SitrusBerry|Drizzle|Hurricane,WeatherBall,Tailwind,WideGuard|Modest||M|||50|]Archaludon||Leftovers|Stamina|ElectroShot,DragonPulse,FlashCannon,Protect|Modest||M|||50|]Venusaur||FocusSash|Chlorophyll|SludgeBomb,EarthPower,SleepPowder,Protect|Modest||F|||50|]Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,SolarBeam,Protect|Modest||M|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,AquaJet|Jolly||M|||50|
+|
+|t:|1784682888
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, F|100/100
+|switch|p1b: Sableye|Sableye, L50, F|100/100
+|switch|p2a: Venusaur|Venusaur, L50, F|100/100
+|switch|p2b: Charizard|Charizard, L50, M, shiny|100/100
+|turn|1
+|
+|t:|1784682925
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|detailschange|p2b: Charizard|Charizard-Mega-Y, L50, M, shiny
+|-mega|p2b: Charizard|Charizard|Charizardite Y
+|move|p1b: Sableye|Quash|p2a: Venusaur
+|-activate|p2a: Venusaur|move: Quash
+|move|p1a: Charizard|Overheat|p2a: Venusaur
+|-supereffective|p2a: Venusaur|1
+|-enditem|p2a: Venusaur|Focus Sash
+|-damage|p2a: Venusaur|1/100
+|-unboost|p1a: Charizard|spa|2
+|move|p2b: Charizard|Heat Wave|p1b: Sableye|[spread] p1b
+|-miss|p2b: Charizard|p1a: Charizard
+|-damage|p1b: Sableye|15/100
+|move|p2a: Venusaur|Sleep Powder|p1a: Charizard|[miss]
+|-miss|p2a: Venusaur|p1a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Sableye|21/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1784682969
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|move|p1a: Charizard|Protect|p1a: Charizard
+|-singleturn|p1a: Charizard|Protect
+|move|p2b: Charizard|Heat Wave|p1a: Charizard|[spread] p1b
+|-activate|p1a: Charizard|move: Protect
+|-damage|p1b: Sableye|0 fnt
+|faint|p1b: Sableye
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1784682988
+|switch|p1b: Malamar|Malamar, L50, M|100/100
+|turn|3
+|
+|t:|1784683009
+|move|p2a: Basculegion|Last Respects|p1b: Malamar
+|-damage|p1b: Malamar|72/100
+|move|p1a: Charizard|Solar Beam||[still]
+|-prepare|p1a: Charizard|Solar Beam
+|-anim|p1a: Charizard|Solar Beam|p2a: Basculegion
+|-supereffective|p2a: Basculegion|1
+|-crit|p2a: Basculegion
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|move|p2b: Charizard|Weather Ball|p1b: Malamar
+|-damage|p1b: Malamar|0 fnt
+|faint|p1b: Malamar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1784683031
+|switch|p2a: Venusaur|Venusaur, L50, F|1/100
+|switch|p1b: Vileplume|Vileplume, L50, M|100/100
+|turn|4
+|
+|t:|1784683054
+|move|p1a: Charizard|Protect|p1a: Charizard
+|-singleturn|p1a: Charizard|Protect
+|move|p2a: Venusaur|Sleep Powder|p1a: Charizard
+|-activate|p1a: Charizard|move: Protect
+|move|p2b: Charizard|Weather Ball|p1b: Vileplume
+|-supereffective|p1b: Vileplume|1
+|-damage|p1b: Vileplume|0 fnt
+|faint|p1b: Vileplume
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1784683071
+|move|p2a: Venusaur|Sleep Powder|p1a: Charizard
+|-status|p1a: Charizard|slp|[from] move: Sleep Powder
+|cant|p1a: Charizard|slp
+|move|p2b: Charizard|Weather Ball|p1a: Charizard
+|-resisted|p1a: Charizard|1
+|-damage|p1a: Charizard|58/100 slp
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1784683082
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|-curestatus|p1a: Charizard|slp|[msg]
+|move|p1a: Charizard|Heat Wave|p2b: Charizard|[spread] p2a,p2b
+|-resisted|p2a: Pelipper|1
+|-resisted|p2b: Charizard|1
+|-damage|p2a: Pelipper|95/100
+|-damage|p2b: Charizard|95/100
+|move|p2b: Charizard|Weather Ball|p1a: Charizard
+|-supereffective|p1a: Charizard|1
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|win|DibraldinhoVGC
+|l|☆dimee
+|player|p1|

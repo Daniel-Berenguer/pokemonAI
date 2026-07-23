@@ -1,0 +1,118 @@
+|j|☆GreyJohn
+|j|☆FollowBrandn
+|html|GreyJohnFollowBrandn    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1784167384
+|gametype|doubles
+|player|p1|GreyJohn|blackbelt-gen4dp|
+|player|p2|FollowBrandn|unknown|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Altaria, L50, F|
+|poke|p1|Weavile, L50, F|
+|poke|p1|Meowscarada, L50, M|
+|poke|p1|Sceptile, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Rotom-Mow, L50|
+|poke|p2|Noivern, L50, F|
+|poke|p2|Primarina, L50, F|
+|poke|p2|Delphox, L50, M|
+|teampreview|4
+|showteam|p1|Whimsicott||OccaBerry|Prankster|Moonblast,Encore,Tailwind,Protect|Bold||F|||50|]Altaria||YacheBerry|CloudNine|DracoMeteor,HelpingHand,Tailwind,Protect|Modest||F|||50|]Weavile||WideLens|Pressure|TripleAxel,KnockOff,FakeOut,Protect|Jolly||F|||50|]Meowscarada||ExpertBelt|Protean|BrickBreak,FlowerTrick,TripleAxel,Taunt|Jolly||M|||50|]Sceptile||Sceptilite|Overgrow|DragonPulse,LeafStorm,EarthPower,Protect|Modest||M|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,RockSlide,SwordsDance,Protect|Adamant||F|||50|
+|showteam|p2|Tyranitar||Tyranitarite|SandStream|RockSlide,DragonDance,Protect,IcePunch|Jolly||M|||50|]Excadrill||FocusSash|SandRush|HighHorsepower,Protect,IronHead,RockSlide|Adamant||M|||50|]Rotom-Mow||SitrusBerry|Levitate|Protect,LeafStorm,Thunderbolt,WillOWisp|Calm|||||50|]Noivern||WhiteHerb|Frisk|Tailwind,Taunt,Protect,DracoMeteor|Timid||F|||50|]Primarina||Leftovers|Torrent|HyperVoice,IcyWind,Moonblast,Protect|Modest||F|||50|]Delphox||Delphoxite|Blaze|Substitute,NastyPlot,HeatWave,Psyshock|Timid||M|||50|
+|
+|t:|1784167510
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Carnegie|Weavile, L50, F|100/100
+|switch|p1b: Nebraska|Garchomp, L50, F|100/100
+|switch|p2a: Noivern|Noivern, L50, F|100/100
+|switch|p2b: Delphox|Delphox, L50, M|100/100
+|-ability|p1a: Carnegie|Pressure
+|-item|p1a: Carnegie|Wide Lens|[from] ability: Frisk|[of] p2a: Noivern
+|-item|p1b: Nebraska|Life Orb|[from] ability: Frisk|[of] p2a: Noivern
+|turn|1
+|c|☆FollowBrandn|!dt wide lens
+|c|☆FollowBrandn|/raw  Wide Lens The accuracy of attacks by the holder is 1.1x. 
+|c|☆FollowBrandn|/raw Gen: 4 |  Fling Base Power: 10
+
+|
+|t:|1784167547
+|switch|p2a: Primarina|Primarina, L50, F|100/100
+|detailschange|p2b: Delphox|Delphox-Mega, L50, M
+|-mega|p2b: Delphox|Delphox|Delphoxite
+|move|p1a: Carnegie|Fake Out|p2a: Primarina
+|-damage|p2a: Primarina|87/100
+|move|p2b: Delphox|Substitute|p2b: Delphox
+|-start|p2b: Delphox|Substitute
+|-damage|p2b: Delphox|75/100
+|move|p1b: Nebraska|Swords Dance|p1b: Nebraska
+|-boost|p1b: Nebraska|atk|2
+|
+|-heal|p2a: Primarina|93/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1784167589
+|move|p2b: Delphox|Heat Wave|p1b: Nebraska|[spread] p1a,p1b
+|-supereffective|p1a: Carnegie|1
+|-resisted|p1b: Nebraska|1
+|-damage|p1a: Carnegie|0 fnt
+|-damage|p1b: Nebraska|75/100
+|faint|p1a: Carnegie
+|move|p1b: Nebraska|Rock Slide|p2a: Primarina|[spread] p2a,p2b
+|-supereffective|p2b: Delphox|1
+|-end|p2b: Delphox|Substitute
+|-damage|p2a: Primarina|34/100
+|-damage|p1b: Nebraska|66/100|[from] item: Life Orb
+|move|p2a: Primarina|Icy Wind|p1b: Nebraska
+|-supereffective|p1b: Nebraska|2
+|-damage|p1b: Nebraska|0 fnt
+|faint|p1b: Nebraska
+|
+|-heal|p2a: Primarina|40/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1784167615
+|switch|p1a: Lafayette|Whimsicott, L50, F|100/100
+|switch|p1b: Rock Creek|Meowscarada, L50, M|100/100
+|turn|3
+|
+|t:|1784167691
+|move|p1a: Lafayette|Tailwind|p1a: Lafayette
+|-sidestart|p1: GreyJohn|move: Tailwind
+|move|p1b: Rock Creek|Flower Trick|p2a: Primarina
+|-start|p1b: Rock Creek|typechange|Grass|[from] ability: Protean
+|-supereffective|p2a: Primarina|1
+|-crit|p2a: Primarina
+|-damage|p2a: Primarina|0 fnt
+|faint|p2a: Primarina
+|move|p2b: Delphox|Heat Wave|p1b: Rock Creek|[spread] p1a,p1b
+|-supereffective|p1a: Lafayette|1
+|-enditem|p1a: Lafayette|Occa Berry|[eat]
+|-enditem|p1a: Lafayette|Occa Berry|[weaken]
+|-supereffective|p1b: Rock Creek|1
+|-damage|p1a: Lafayette|46/100
+|-damage|p1b: Rock Creek|0 fnt
+|faint|p1b: Rock Creek
+|
+|upkeep
+|
+|t:|1784167709
+|switch|p2a: Noivern|Noivern, L50, F|100/100
+|turn|4
+|-message|GreyJohn forfeited.
+|
+|win|FollowBrandn
+||GreyJohn is ready for game 2.
+|inactive|FollowBrandn has 30 seconds to confirm battle start!
+|inactive|FollowBrandn has 20 seconds to confirm battle start!
+|inactive|FollowBrandn has 10 seconds to confirm battle start!
+|uhtml|next|Next: Game 2 of 3

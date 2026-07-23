@@ -1,0 +1,201 @@
+|j|☆PeePeeSwagMan
+|j|☆whipq
+|html|PeePeeSwagManwhipq    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784605002
+|gametype|doubles
+|player|p1|PeePeeSwagMan|1|
+|player|p2|whipq|266|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Primarina, L50, M|
+|poke|p1|Venusaur, L50, M|
+|poke|p1|Volcarona, L50, M|
+|poke|p1|Scrafty, L50, M|
+|poke|p2|Camerupt, L50, F, shiny|
+|poke|p2|Oranguru, L50, M, shiny|
+|poke|p2|Aegislash, L50, F, shiny|
+|poke|p2|Aurorus, L50, F, shiny|
+|poke|p2|Simipour, L50, M, shiny|
+|poke|p2|Snorlax, L50, F, shiny|
+|teampreview|4
+|showteam|p1|Floette-Eternal||Floettite|FlowerVeil|DazzlingGleam,Moonblast,CalmMind,Protect|Modest||F|||50|]Charizard||CharizarditeY|Blaze|Protect,Overheat,AirSlash,HeatWave|Modest||M|||50|]Primarina||LifeOrb|LiquidVoice|SparklingAria,Moonblast,HyperVoice,Protect|Modest||M|||50|]Venusaur||Leftovers|Chlorophyll|SolarBeam,EarthPower,SleepPowder,Protect|Modest||M|||50|]Volcarona||FocusSash|FlameBody|RagePowder,Tailwind,BugBuzz,FieryDance|Timid||M|||50|]Scrafty||BlackGlasses|Intimidate|FakeOut,KnockOff,DrainPunch,Protect|Jolly||M|||50|
+|showteam|p2|Camerupt||Cameruptite|MagmaArmor|Eruption,EarthPower,HeatWave,Protect|Modest||F|||50|]Oranguru||Leftovers|InnerFocus|Instruct,Protect,TrickRoom,FutureSight|Sassy||M|||50|]Aegislash||OccaBerry|StanceChange|DestinyBond,KingsShield,WideGuard,IronHead|Careful||F|||50|]Aurorus||BrightPowder|SnowWarning|Blizzard,RockSlide,AuroraVeil,Protect|Sassy||F|||50|]Simipour||SitrusBerry|Gluttony|FlipTurn,FakeOut,IcePunch,Liquidation|Jolly||M|||50|]Snorlax||ChestoBerry|ThickFat|Rest,SleepTalk,ZenHeadbutt,BodySlam|Adamant||F|||50|
+|j| KoopaPlays
+|j| xanian7
+|
+|t:|1784605100
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Scrafty|Scrafty, L50, M|100/100
+|switch|p1b: Volcarona|Volcarona, L50, M|100/100
+|switch|p2a: Simipour|Simipour, L50, M, shiny|100/100
+|switch|p2b: Snorlax|Snorlax, L50, F, shiny|100/100
+|-ability|p1a: Scrafty|Intimidate|boost
+|-unboost|p2a: Simipour|atk|1
+|-unboost|p2b: Snorlax|atk|1
+|turn|1
+|
+|t:|1784605172
+|move|p2a: Simipour|Fake Out|p1a: Scrafty
+|-damage|p1a: Scrafty|90/100
+|move|p1b: Volcarona|Tailwind|p1b: Volcarona
+|-sidestart|p1: PeePeeSwagMan|move: Tailwind
+|cant|p1a: Scrafty|flinch
+|move|p2b: Snorlax|Body Slam|p1b: Volcarona
+|-damage|p1b: Volcarona|53/100
+|-status|p2b: Snorlax|brn|[from] ability: Flame Body|[of] p1b: Volcarona
+|
+|-damage|p2b: Snorlax|94/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1784605192
+|move|p1b: Volcarona|Rage Powder|p1b: Volcarona
+|-singleturn|p1b: Volcarona|move: Rage Powder
+|move|p1a: Scrafty|Drain Punch|p2b: Snorlax
+|-supereffective|p2b: Snorlax|1
+|-damage|p2b: Snorlax|33/100 brn
+|-heal|p1a: Scrafty|100/100|[from] drain|[of] p2b: Snorlax
+|move|p2a: Simipour|Flip Turn|p1b: Volcarona
+|-supereffective|p1b: Volcarona|1
+|-damage|p1b: Volcarona|0 fnt
+|faint|p1b: Volcarona
+|
+|t:|1784605205
+|switch|p2a: Camerupt|Camerupt, L50, F, shiny|100/100|[from] Flip Turn
+|move|p2b: Snorlax|Rest|p2b: Snorlax
+|-status|p2b: Snorlax|slp|[from] move: Rest
+|-heal|p2b: Snorlax|100/100 slp|[silent]
+|-enditem|p2b: Snorlax|Chesto Berry|[eat]
+|-curestatus|p2b: Snorlax|slp|[msg]
+|
+|upkeep
+|
+|t:|1784605219
+|switch|p1b: Venusaur|Venusaur, L50, M|100/100
+|turn|3
+|
+|t:|1784605251
+|detailschange|p2a: Camerupt|Camerupt-Mega, L50, F, shiny
+|-mega|p2a: Camerupt|Camerupt|Cameruptite
+|move|p1b: Venusaur|Earth Power|p2a: Camerupt
+|-supereffective|p2a: Camerupt|1
+|-damage|p2a: Camerupt|42/100
+|move|p1a: Scrafty|Drain Punch|p2b: Snorlax
+|-supereffective|p2b: Snorlax|1
+|-damage|p2b: Snorlax|46/100
+|move|p2b: Snorlax|Body Slam|p1a: Scrafty
+|-damage|p1a: Scrafty|66/100
+|-status|p1a: Scrafty|par
+|move|p2a: Camerupt|Heat Wave|p1b: Venusaur|[spread] p1a,p1b
+|-supereffective|p1b: Venusaur|1
+|-damage|p1a: Scrafty|1/100 par
+|-damage|p1b: Venusaur|0 fnt
+|faint|p1b: Venusaur
+|
+|upkeep
+|
+|t:|1784605267
+|switch|p1b: Charizard|Charizard, L50, M|100/100
+|turn|4
+|
+|t:|1784605302
+|switch|p2a: Simipour|Simipour, L50, M, shiny|100/100
+|detailschange|p1b: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p1b: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|move|p1b: Charizard|Air Slash|p2a: Simipour
+|-damage|p2a: Simipour|7/100
+|-enditem|p2a: Simipour|Sitrus Berry|[eat]
+|-heal|p2a: Simipour|32/100|[from] item: Sitrus Berry
+|cant|p1a: Scrafty|par
+|move|p2b: Snorlax|Rest|p2b: Snorlax
+|-status|p2b: Snorlax|slp|[from] move: Rest
+|-heal|p2b: Snorlax|100/100 slp|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p1: PeePeeSwagMan|move: Tailwind
+|upkeep
+|turn|5
+|c| KoopaPlays|damn the full para just saved yo ass
+|
+|t:|1784605350
+|move|p1b: Charizard|Protect|p1b: Charizard
+|-singleturn|p1b: Charizard|Protect
+|move|p1a: Scrafty|Protect|p1a: Scrafty
+|-singleturn|p1a: Scrafty|Protect
+|move|p2a: Simipour|Fake Out|p1b: Charizard
+|-activate|p1b: Charizard|move: Protect
+|cant|p2b: Snorlax|slp
+|move|p2b: Snorlax|Sleep Talk|p2b: Snorlax
+|move|p2b: Snorlax|Rest||[from] move: Sleep Talk|[still]
+|-fail|p2b: Snorlax
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1784605387
+|move|p2a: Simipour|Flip Turn|p1a: Scrafty
+|-damage|p1a: Scrafty|0 fnt
+|faint|p1a: Scrafty
+|
+|t:|1784605393
+|switch|p2a: Camerupt|Camerupt-Mega, L50, F, shiny|42/100|[from] Flip Turn
+|move|p1b: Charizard|Air Slash|p2a: Camerupt
+|-damage|p2a: Camerupt|0 fnt
+|faint|p2a: Camerupt
+|cant|p2b: Snorlax|slp
+|move|p2b: Snorlax|Sleep Talk|p2b: Snorlax
+|move|p2b: Snorlax|Zen Headbutt|p1b: Charizard|[from] move: Sleep Talk
+|-damage|p1b: Charizard|73/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1784605396
+|switch|p2a: Simipour|Simipour, L50, M, shiny|32/100
+|turn|7
+|
+|t:|1784605407
+|move|p1b: Charizard|Protect|p1b: Charizard
+|-singleturn|p1b: Charizard|Protect
+|move|p2a: Simipour|Fake Out|p1b: Charizard
+|-activate|p1b: Charizard|move: Protect
+|-curestatus|p2b: Snorlax|slp|[msg]
+|move|p2b: Snorlax|Sleep Talk||[still]
+|-fail|p2b: Snorlax
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1784605422
+|move|p2a: Simipour|Flip Turn|p1b: Charizard
+|-supereffective|p1b: Charizard|1
+|-damage|p1b: Charizard|37/100
+|
+|t:|1784605426
+|switch|p2a: Oranguru|Oranguru, L50, M, shiny|100/100|[from] Flip Turn
+|move|p1b: Charizard|Air Slash|p2a: Oranguru
+|-damage|p2a: Oranguru|67/100
+|move|p2b: Snorlax|Body Slam|p1b: Charizard
+|-damage|p1b: Charizard|0 fnt
+|faint|p1b: Charizard
+|
+|win|whipq
+|inactive|PeePeeSwagMan has 30 seconds to confirm battle start!
+|inactive|whipq has 30 seconds to confirm battle start!
+||PeePeeSwagMan is ready for game 3.
+||whipq is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l| xanian7
+|l|☆whipq
+|player|p2|

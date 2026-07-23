@@ -1,0 +1,111 @@
+|j|☆jchof
+|j|☆rafa0145
+|html|jchofrafa0145    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783938427
+|gametype|doubles
+|player|p1|jchof|101|1178
+|player|p2|rafa0145|170|1179
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Staraptor, L50, F|
+|poke|p1|Vileplume, L50, F|
+|poke|p1|Feraligatr, L50, M|
+|poke|p1|Sceptile, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Houndoom, L50, F|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Sylveon, L50, F|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Aerodactyl, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|teampreview|4
+|showteam|p1|Staraptor||Staraptite|Intimidate|BraveBird,CloseCombat,Protect,Roost|Jolly||F|||50|]Vileplume||BigRoot|EffectSpore|SludgeBomb,GigaDrain,StrengthSap,LeechSeed|Relaxed||F|||50|]Feraligatr||LifeOrb|SheerForce|Liquidation,RockSlide,AquaJet,IcePunch|Adamant||M|||50|]Sceptile||WhiteHerb|Unburden|LeafStorm,RockTomb,QuickGuard,EarthPower|Timid||M|||50|]Gholdengo||SitrusBerry|GoodasGold|MakeItRain,NastyPlot,Protect,ShadowBall|Modest|||||50|]Houndoom||FocusSash|FlashFire|SuckerPunch,HeatWave,Protect,Snarl|Hasty||F|||50|
+|showteam|p2|Charizard||CharizarditeY|SolarPower|Protect,HeatWave,SolarBeam,WeatherBall|Modest||F|||50|]Kingambit||FocusSash|Defiant|IronHead,SuckerPunch,KowtowCleave,LowKick|Adamant||F|||50|]Sylveon||FairyFeather|Pixilate|Detect,HyperVoice,HyperBeam,QuickAttack|Modest||F|||50|]Garchomp||LifeOrb|RoughSkin|Protect,DragonClaw,Earthquake,RockSlide|Jolly||M|||50|]Aerodactyl||Aerodactylite|Unnerve|IceFang,RockSlide,Tailwind,DualWingbeat|Jolly||M|||50|]Farigiraf||SitrusBerry|ArmorTail|TrickRoom,Psychic,Thunderbolt,Roar|Bold||M|||50|
+|
+|t:|1783938448
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Houndoom|Houndoom, L50, F|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, L50, M|100/100
+|switch|p2b: Charizard|Charizard, L50, F|100/100
+|-ability|p2a: Aerodactyl|Unnerve
+|turn|1
+|
+|t:|1783938465
+|switch|p1b: Feraligatr|Feraligatr, L50, M|100/100
+|detailschange|p2b: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p2b: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Charizard
+|move|p2a: Aerodactyl|Rock Slide|p1a: Houndoom|[spread] p1a,p1b
+|-supereffective|p1a: Houndoom|1
+|-damage|p1a: Houndoom|8/100
+|-damage|p1b: Feraligatr|79/100
+|move|p1a: Houndoom|Snarl|p2a: Aerodactyl|[spread] p2a,p2b
+|-damage|p2a: Aerodactyl|74/100
+|-damage|p2b: Charizard|83/100
+|-unboost|p2a: Aerodactyl|spa|1
+|-unboost|p2b: Charizard|spa|1
+|move|p2b: Charizard|Weather Ball|p1b: Feraligatr
+|-resisted|p1b: Feraligatr|1
+|-damage|p1b: Feraligatr|56/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1783938487
+|move|p1a: Houndoom|Sucker Punch|p2b: Charizard
+|-damage|p2b: Charizard|61/100
+|move|p2a: Aerodactyl|Rock Slide|p1a: Houndoom|[spread] p1a,p1b
+|-supereffective|p1a: Houndoom|1
+|-crit|p1b: Feraligatr
+|-damage|p1a: Houndoom|0 fnt
+|-damage|p1b: Feraligatr|24/100
+|faint|p1a: Houndoom
+|move|p2b: Charizard|Solar Beam||[still]
+|-prepare|p2b: Charizard|Solar Beam
+|-anim|p2b: Charizard|Solar Beam|p1b: Feraligatr
+|-supereffective|p1b: Feraligatr|1
+|-damage|p1b: Feraligatr|0 fnt
+|faint|p1b: Feraligatr
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783938495
+|switch|p1a: Sceptile|Sceptile, L50, M|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|turn|3
+|
+|t:|1783938509
+|move|p2a: Aerodactyl|Tailwind|p2a: Aerodactyl
+|-sidestart|p2: rafa0145|move: Tailwind
+|move|p2b: Charizard|Weather Ball|p1a: Sceptile
+|-supereffective|p1a: Sceptile|1
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|move|p1b: Gholdengo|Make It Rain|p2a: Aerodactyl|[spread] p2a,p2b
+|-supereffective|p2a: Aerodactyl|1
+|-resisted|p2b: Charizard|1
+|-damage|p2a: Aerodactyl|0 fnt
+|-damage|p2b: Charizard|39/100
+|-unboost|p1b: Gholdengo|spa|2
+|faint|p2a: Aerodactyl
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783938517
+|switch|p2a: Garchomp|Garchomp, L50, M|100/100
+|turn|4
+|-message|jchof forfeited.
+|
+|win|rafa0145

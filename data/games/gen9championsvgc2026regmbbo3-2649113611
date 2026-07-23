@@ -1,0 +1,151 @@
+|j|☆lucky777n
+|j|☆Moonlight Flutter
+|html|lucky777nMoonlight Flutter    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784044266
+|gametype|doubles
+|player|p1|lucky777n|boarder|
+|player|p2|Moonlight Flutter|miku-flying|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gengar, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Snorlax, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Sneasler, L50, F|
+|poke|p2|Blaziken, L50, M|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Venusaur, L50, M|
+|poke|p2|Lycanroc-Dusk, L50, M|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Gengar||Gengarite|CursedBody|ShadowBall,Disable,PerishSong,Protect|Timid||M|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,PartingShot,Protect|Relaxed||F|||50|]Snorlax||Leftovers|ThickFat|Fissure,Encore,Yawn,Protect|Relaxed||F|||50|]Ninetales-Alola||NeverMeltIce|SnowWarning|Blizzard,FreezeDry,Encore,Protect|Timid||M|||50|]Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,SwordsDance,Protect|Adamant||M|||50|]Sneasler||WhiteHerb|Unburden|FakeOut,CloseCombat,GunkShot,Protect|Jolly||F|||50|
+|showteam|p2|Blaziken||Blazikenite|SpeedBoost|FlareBlitz,CloseCombat,StoneEdge,Protect|Adamant||M|||50|]Ninetales-Alola||NeverMeltIce|SnowWarning|Blizzard,FreezeDry,Encore,Protect|Timid||F|||50|]Kingambit||LifeOrb|Defiant|KowtowCleave,IronHead,SuckerPunch,Protect|Adamant||F|||50|]Venusaur||Venusaurite|Chlorophyll|GigaDrain,SludgeBomb,EarthPower,Protect|Modest||M|||50|]Lycanroc-Dusk||FocusSash|ToughClaws|RockSlide,CloseCombat,Accelerock,Protect|Adamant||M|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,AquaJet,FlipTurn|Jolly||M|||50|
+|
+|t:|1784044326
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, F|100/100
+|switch|p2a: Lycanroc|Lycanroc-Dusk, L50, M|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|turn|1
+|
+|t:|1784044345
+|switch|p2b: Blaziken|Blaziken, L50, M|100/100
+|move|p2a: Lycanroc|Protect|p2a: Lycanroc
+|-singleturn|p2a: Lycanroc|Protect
+|move|p1a: Kingambit|Sucker Punch||[still]
+|-fail|p1a: Kingambit
+|move|p1b: Sneasler|Close Combat|p2a: Lycanroc
+|-activate|p2a: Lycanroc|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1784044362
+|detailschange|p2b: Blaziken|Blaziken-Mega, L50, M
+|-mega|p2b: Blaziken|Blaziken|Blazikenite
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p1b: Sneasler|Close Combat|p2a: Lycanroc
+|-supereffective|p2a: Lycanroc|1
+|-enditem|p2a: Lycanroc|Focus Sash
+|-damage|p2a: Lycanroc|1/100
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|-enditem|p1b: Sneasler|White Herb
+|-clearnegativeboost|p1b: Sneasler|[silent]
+|move|p2a: Lycanroc|Close Combat|p1a: Kingambit
+|-activate|p1a: Kingambit|move: Protect
+|move|p2b: Blaziken|Flare Blitz|p1b: Sneasler
+|-damage|p1b: Sneasler|17/100
+|-damage|p2b: Blaziken|69/100|[from] Recoil
+|
+|-ability|p2b: Blaziken|Speed Boost|boost
+|-boost|p2b: Blaziken|spe|1
+|upkeep
+|turn|3
+|
+|t:|1784044398
+|switch|p1b: Gengar|Gengar, L50, M|100/100
+|move|p2a: Lycanroc|Accelerock|p1b: Gengar
+|-crit|p1b: Gengar
+|-damage|p1b: Gengar|36/100
+|-start|p2a: Lycanroc|Disable|Accelerock|[from] ability: Cursed Body|[of] p1b: Gengar
+|move|p1a: Kingambit|Sucker Punch|p2b: Blaziken
+|-resisted|p2b: Blaziken|1
+|-damage|p2b: Blaziken|36/100
+|move|p2b: Blaziken|Close Combat|p1a: Kingambit
+|-supereffective|p1a: Kingambit|2
+|-damage|p1a: Kingambit|0 fnt
+|-unboost|p2b: Blaziken|def|1
+|-unboost|p2b: Blaziken|spd|1
+|faint|p1a: Kingambit
+|
+|-ability|p2b: Blaziken|Speed Boost|boost
+|-boost|p2b: Blaziken|spe|1
+|upkeep
+|
+|t:|1784044422
+|switch|p1a: Sneasler|Sneasler, L50, F|17/100
+|turn|4
+|
+|t:|1784044440
+|detailschange|p1b: Gengar|Gengar-Mega, L50, M
+|-mega|p1b: Gengar|Gengar|Gengarite
+|move|p2b: Blaziken|Protect|p2b: Blaziken
+|-singleturn|p2b: Blaziken|Protect
+|move|p1a: Sneasler|Fake Out|p2b: Blaziken
+|-activate|p2b: Blaziken|move: Protect
+|move|p1b: Gengar|Shadow Ball|p2a: Lycanroc
+|-damage|p2a: Lycanroc|0 fnt
+|faint|p2a: Lycanroc
+|
+|-ability|p2b: Blaziken|Speed Boost|boost
+|-boost|p2b: Blaziken|spe|1
+|upkeep
+|
+|t:|1784044449
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|turn|5
+|
+|t:|1784044463
+|move|p2b: Blaziken|Close Combat|p1a: Sneasler
+|-resisted|p1a: Sneasler|1
+|-damage|p1a: Sneasler|0 fnt
+|-unboost|p2b: Blaziken|def|1
+|-unboost|p2b: Blaziken|spd|1
+|faint|p1a: Sneasler
+|move|p2a: Basculegion|Wave Crash|p1b: Gengar
+|-damage|p1b: Gengar|0 fnt
+|faint|p1b: Gengar
+|-damage|p2a: Basculegion|89/100|[from] Recoil
+|
+|-ability|p2b: Blaziken|Speed Boost|boost
+|-boost|p2b: Blaziken|spe|1
+|upkeep
+|
+|t:|1784044468
+|switch|p1b: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|turn|6
+|
+|t:|1784044475
+|move|p2b: Blaziken|Flare Blitz|p1b: Ninetales
+|-supereffective|p1b: Ninetales|1
+|-damage|p1b: Ninetales|0 fnt
+|faint|p1b: Ninetales
+|-damage|p2b: Blaziken|2/100|[from] Recoil
+|
+|win|Moonlight Flutter
+|l|☆lucky777n
+|player|p1|
+|j|☆lucky777n
+|player|p1|lucky777n|boarder|

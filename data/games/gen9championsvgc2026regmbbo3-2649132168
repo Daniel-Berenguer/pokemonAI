@@ -1,0 +1,111 @@
+|j|☆IngeVGC
+|j|☆jdog1613
+|html|IngeVGCjdog1613    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1784046574
+|gametype|doubles
+|player|p1|IngeVGC|265|1000
+|player|p2|jdog1613|266|1027
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Aerodactyl, L50, M|
+|poke|p1|Kingambit, L50, F, shiny|
+|poke|p1|Farigiraf, L50, F, shiny|
+|poke|p1|Charizard, L50, F, shiny|
+|poke|p1|Sylveon, L50, M, shiny|
+|poke|p1|Garchomp, L50, M, shiny|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Swampert, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Mawile, L50, M|
+|teampreview|4
+|showteam|p1|Aerodactyl||Aerodactylite|Unnerve|IceFang,DualWingbeat,RockSlide,Tailwind|Jolly||M|||50|]Kingambit||FocusSash|Defiant|KowtowCleave,IronHead,SuckerPunch,LowKick|Adamant||F|||50|]Farigiraf||SitrusBerry|ArmorTail|TrickRoom,Psychic,Thunderbolt,Roar|Bold||F|||50|]Charizard||CharizarditeY|SolarPower|HeatWave,WeatherBall,SolarBeam,Protect|Modest||F|||50|]Sylveon||FairyFeather|Pixilate|Detect,HyperVoice,HyperBeam,QuickAttack|Modest||M|||50|]Garchomp||LifeOrb|RoughSkin|Protect,DragonClaw,Earthquake,StompingTantrum|Jolly||M|||50|
+|showteam|p2|Pelipper||LifeOrb|Drizzle|WideGuard,WeatherBall,Hurricane,Tailwind|Modest||F|||50|]Swampert||Swampertite|Damp|Earthquake,WaveCrash,IcePunch,Protect|Adamant||M|||50|]Archaludon||Leftovers|Stamina|ElectroShot,DragonPulse,FlashCannon,Protect|Modest||F|||50|]Grimmsnarl||LightClay|Prankster|PartingShot,FoulPlay,Reflect,LightScreen|Careful||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,TrickRoom,Protect,Thunderbolt|Quiet||F|||50|]Mawile||Mawilite|Intimidate|PlayRough,IronHead,SuckerPunch,Protect|Adamant||M|||50|
+|
+|t:|1784046653
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, F, shiny|100/100
+|switch|p1b: Sylveon|Sylveon, L50, M, shiny|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|turn|1
+|
+|t:|1784046663
+|move|p2b: Archaludon|Flash Cannon|p1b: Sylveon
+|-supereffective|p1b: Sylveon|1
+|-damage|p1b: Sylveon|31/100
+|move|p1b: Sylveon|Hyper Beam|p2b: Archaludon
+|-crit|p2b: Archaludon
+|-damage|p2b: Archaludon|0 fnt
+|-mustrecharge|p1b: Sylveon
+|faint|p2b: Archaludon
+|move|p2a: Farigiraf|Psychic|p1b: Sylveon
+|-damage|p1b: Sylveon|0 fnt
+|faint|p1b: Sylveon
+|move|p1a: Farigiraf|Roar|p1: Sylveon|[notarget]
+|-fail|p1a: Farigiraf
+|
+|upkeep
+|
+|t:|1784046676
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100
+|switch|p1b: Kingambit|Kingambit, L50, F, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|2
+|
+|t:|1784046691
+|move|p2a: Farigiraf|Protect|p2a: Farigiraf
+|-singleturn|p2a: Farigiraf|Protect
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Farigiraf
+|-activate|p2a: Farigiraf|move: Protect
+|move|p2b: Pelipper|Weather Ball|p1b: Kingambit
+|-enditem|p1b: Kingambit|Focus Sash
+|-damage|p1b: Kingambit|1/100
+|-damage|p2b: Pelipper|90/100|[from] item: Life Orb
+|move|p1a: Farigiraf|Thunderbolt|p2b: Pelipper
+|-supereffective|p2b: Pelipper|2
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1784046706
+|switch|p2b: Mawile|Mawile, L50, M|100/100
+|-ability|p2b: Mawile|Intimidate|boost
+|-unboost|p1a: Farigiraf|atk|1
+|-unboost|p1b: Kingambit|atk|1
+|-ability|p1b: Kingambit|Defiant|boost
+|-boost|p1b: Kingambit|atk|2
+|turn|3
+|
+|t:|1784046717
+|detailschange|p2b: Mawile|Mawile-Mega, L50, M
+|-mega|p2b: Mawile|Mawile|Mawilite
+|move|p2b: Mawile|Sucker Punch||[still]
+|cant|p1a: Farigiraf|ability: Armor Tail|Sucker Punch|[of] p2b: Mawile
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Farigiraf
+|-supereffective|p2a: Farigiraf|1
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|move|p1a: Farigiraf|Thunderbolt|p2b: Mawile
+|-damage|p2b: Mawile|71/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|-message|jdog1613 forfeited.
+|
+|win|IngeVGC
+|raw|IngeVGC's rating: 1000 → 1043(+43 for winning)
+|raw|jdog1613's rating: 1027 → 1012(-15 for losing)
+|l|☆jdog1613
+|player|p2|

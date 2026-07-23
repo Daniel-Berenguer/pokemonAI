@@ -1,0 +1,107 @@
+|j|☆palle synchro
+|j|☆JJack_Olanturn
+|html|palle synchroJJack_Olanturn    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784841162
+|gametype|doubles
+|player|p1|palle synchro|volkner|1356
+|player|p2|JJack_Olanturn|benga|1289
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Venusaur, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Tyranitar, L50, M, shiny|
+|poke|p2|Hydreigon, L50, M|
+|poke|p2|Excadrill, L50, M, shiny|
+|poke|p2|Toxapex, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Staraptor, L50, F, shiny|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,SolarBeam,Protect|Modest||M|||50|]Venusaur||FocusSash|Chlorophyll|SludgeBomb,EarthPower,SleepPowder,Protect|Modest||M|||50|]Dragonite||Dragoninite|Multiscale|DragonPulse,Flamethrower,Tailwind,Protect|Modest||M|||50|]Archaludon||Leftovers|Stamina|ElectroShot,DragonPulse,FlashCannon,Protect|Modest||F|||50|]Pelipper||SitrusBerry|Drizzle|WeatherBall,Hurricane,Tailwind,Protect|Modest||M|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,AquaJet|Jolly||M|||50|
+|showteam|p2|Tyranitar||Tyranitarite|SandStream|RockSlide,KnockOff,StompingTantrum,Protect|Jolly||M|||50|]Hydreigon||ChoiceScarf|Levitate|DarkPulse,DracoMeteor,EarthPower,Snarl|Modest||M|||50|]Excadrill||FocusSash|SandRush|HighHorsepower,IronHead,RockSlide,Protect|Adamant||M|||50|]Toxapex||Leftovers|Regenerator|Toxic,Infestation,WideGuard,BanefulBunker|Relaxed||M|||50|]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect|Modest|||||50|]Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,Tailwind,Protect|Jolly||F|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by palle synchro)
+|inactive|JJack_Olanturn has 60 seconds left.
+|
+|t:|1784841200
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Archaludon|Archaludon, L50, F|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Sandman|Tyranitar, L50, M, shiny|100/100
+|switch|p2b: The Bunker|Toxapex, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Sandman
+|turn|1
+|
+|t:|1784841217
+|switch|p2a: Terrify|Hydreigon, L50, M|100/100
+|move|p1b: Basculegion|Flip Turn|p2b: The Bunker
+|-resisted|p2b: The Bunker|1
+|-damage|p2b: The Bunker|86/100
+|
+|t:|1784841221
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100|[from] Flip Turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: The Bunker
+|-supereffective|p2b: The Bunker|1
+|-damage|p2b: The Bunker|0 fnt
+|faint|p2b: The Bunker
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1784841232
+|switch|p2b: Sandman|Tyranitar, L50, M, shiny|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Sandman
+|turn|2
+|
+|t:|1784841244
+|move|p1a: Archaludon|Protect|p1a: Archaludon
+|-singleturn|p1a: Archaludon|Protect
+|move|p2a: Terrify|Earth Power|p1a: Archaludon
+|-activate|p1a: Archaludon|move: Protect
+|move|p2b: Sandman|Knock Off|p1b: Pelipper
+|-damage|p1b: Pelipper|48/100
+|-enditem|p1b: Pelipper|Sitrus Berry|[from] move: Knock Off|[of] p2b: Sandman
+|move|p1b: Pelipper|Tailwind|p1b: Pelipper
+|-sidestart|p1: palle synchro|move: Tailwind
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Terrify|94/100|[from] Sandstorm
+|-damage|p1b: Pelipper|42/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1784841265
+|switch|p1b: Dragonite|Dragonite, L50, M|100/100
+|move|p1a: Archaludon|Dragon Pulse|p2a: Terrify
+|-supereffective|p2a: Terrify|1
+|-crit|p2a: Terrify
+|-damage|p2a: Terrify|0 fnt
+|faint|p2a: Terrify
+|move|p2b: Sandman|Rock Slide|p1a: Archaludon|[spread] p1a,p1b
+|-resisted|p1a: Archaludon|1
+|-supereffective|p1b: Dragonite|1
+|-damage|p1a: Archaludon|90/100
+|-damage|p1b: Dragonite|69/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Dragonite|63/100|[from] Sandstorm
+|-heal|p1a: Archaludon|96/100|[from] item: Leftovers
+|upkeep
+|-message|JJack_Olanturn forfeited.
+|
+|win|palle synchro

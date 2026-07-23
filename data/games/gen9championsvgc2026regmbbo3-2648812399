@@ -1,0 +1,130 @@
+|j|☆dhrx
+|j|☆jcoisa
+|html|dhrxjcoisa    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783989738
+|gametype|doubles
+|player|p1|dhrx|lucian|
+|player|p2|jcoisa|1|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Mawile, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Vivillon, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Tsareena, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Manectric, L50, M|
+|teampreview|4
+|showteam|p1|Mawile||Mawilite|HyperCutter|PlayRough,RockSlide,SuckerPunch,Protect|Brave||F|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,Thunderbolt,TrickRoom,Protect|Quiet||F|||50|]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HelpingHand,Protect|Quiet||M|||50|]Vivillon||FocusSash|CompoundEyes|Hurricane,SleepPowder,RagePowder,Protect|Timid||M|||50|]Incineroar||LifeOrb|Intimidate|FlareBlitz,DarkestLariat,CloseCombat,FakeOut|Brave||M|||50|]Gallade||IronBall|Sharpness|SacredSword,PsychoCut,LeafBlade,TrickRoom|Brave||M|||50|
+|showteam|p2|Basculegion||MysticWater|SwiftSwim|WaveCrash,AquaJet,LastRespects,Protect|Adamant||M|||50|]Sneasler||WhiteHerb|Unburden|DireClaw,CloseCombat,FakeOut,Protect|Adamant||F|||50|]Pelipper||SitrusBerry|Drizzle|WeatherBall,Hurricane,Tailwind,WideGuard|Modest||F|||50|]Tsareena||ChoiceScarf|QueenlyMajesty|TropKick,TripleAxel,ZenHeadbutt,Uturn|Jolly||F|||50|]Archaludon||Leftovers|Stamina|ElectroShot,DracoMeteor,AuraSphere,Protect|Modest||F|||50|]Manectric||Manectite|LightningRod|Thunder,VoltSwitch,Snarl,Protect|Timid||M|||50|
+|
+|t:|1783989786
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: Tsareena|Tsareena, L50, F|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Tsareena|atk|1
+|-unboost|p2b: Basculegion|atk|1
+|turn|1
+|
+|t:|1783989822
+|move|p2a: Tsareena|U-turn|p1a: Incineroar
+|-damage|p1a: Incineroar|84/100
+|
+|t:|1783989832
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p2b: Basculegion|Wave Crash|p1a: Incineroar
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|0 fnt
+|faint|p1a: Incineroar
+|-damage|p2b: Basculegion|71/100|[from] Recoil
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1783989845
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|2
+|
+|t:|1783989873
+|switch|p2a: Manectric|Manectric, L50, M|100/100
+|move|p2b: Basculegion|Protect|p2b: Basculegion
+|-singleturn|p2b: Basculegion|Protect
+|move|p1a: Torkoal|Weather Ball|p2b: Basculegion
+|-activate|p2b: Basculegion|move: Protect
+|move|p1b: Farigiraf|Thunderbolt|p2a: Manectric
+|-ability|p2a: Manectric|Lightning Rod|boost
+|-boost|p2a: Manectric|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1783989907
+|switch|p2b: Tsareena|Tsareena, L50, F|100/100
+|detailschange|p2a: Manectric|Manectric-Mega, L50, M
+|-mega|p2a: Manectric|Manectric|Manectite
+|-ability|p2a: Manectric|Intimidate|boost
+|-unboost|p1a: Torkoal|atk|1
+|-unboost|p1b: Farigiraf|atk|1
+|move|p1a: Torkoal|Eruption|p2b: Tsareena|[spread] p2a,p2b
+|-supereffective|p2b: Tsareena|1
+|-damage|p2a: Manectric|0 fnt
+|-damage|p2b: Tsareena|0 fnt
+|faint|p2a: Manectric
+|faint|p2b: Tsareena
+|move|p1b: Farigiraf|Psychic|p2: Manectric|[notarget]
+|-fail|p1b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783989927
+|switch|p2b: Basculegion|Basculegion, L50, M|71/100
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|turn|4
+|
+|t:|1783989939
+|move|p1a: Torkoal|Helping Hand|p1b: Farigiraf
+|-singleturn|p1b: Farigiraf|Helping Hand|[of] p1a: Torkoal
+|move|p1b: Farigiraf|Thunderbolt|p2b: Basculegion
+|-supereffective|p2b: Basculegion|1
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|move|p2a: Pelipper|Weather Ball|p1b: Farigiraf
+|-damage|p1b: Farigiraf|31/100
+|-enditem|p1b: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1b: Farigiraf|56/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1783989965
+|move|p1a: Torkoal|Weather Ball|p2a: Pelipper
+|-resisted|p2a: Pelipper|1
+|-damage|p2a: Pelipper|68/100
+|move|p1b: Farigiraf|Thunderbolt|p2a: Pelipper
+|-supereffective|p2a: Pelipper|2
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|
+|win|dhrx

@@ -1,0 +1,254 @@
+|j|☆notoank
+|j|☆iebilish
+|html|notoankiebilish    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1784746335
+|gametype|doubles
+|player|p1|notoank|burgh|
+|player|p2|iebilish|1|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Excadrill, L50, F|
+|poke|p1|Rotom-Wash, L50, shiny|
+|poke|p1|Gliscor, L50, M|
+|poke|p1|Gengar, L50, M, shiny|
+|poke|p1|Hatterene, L50, F|
+|poke|p2|Tyranitar, L50, F, shiny|
+|poke|p2|Excadrill, L50, M, shiny|
+|poke|p2|Incineroar, L50, M, shiny|
+|poke|p2|Primarina, L50, M, shiny|
+|poke|p2|Mimikyu, L50, F, shiny|
+|poke|p2|Conkeldurr, L50, M, shiny|
+|teampreview|4
+|showteam|p1|Tyranitar||SmoothRock|SandStream|KnockOff,RockSlide,LowKick,Protect|Careful||M|||50|]Excadrill||LifeOrb|SandRush|Earthquake,IronHead,RockSlide,Protect|Adamant||F|||50|]Rotom-Wash||SitrusBerry|Levitate|Discharge,HydroPump,VoltSwitch,Protect|Modest|||||50|]Gliscor||Leftovers|PoisonHeal|Earthquake,SwordsDance,Tailwind,Substitute|Jolly||M|||50|]Gengar||FocusSash|CursedBody|ClearSmog,Toxic,WillOWisp,PerishSong|Timid||M|||50|]Hatterene||MentalHerb|MagicBounce|HealPulse,LightScreen,Reflect,Protect|Calm||F|||50|
+|showteam|p2|Tyranitar||Tyranitarite|SandStream|RockSlide,KnockOff,Earthquake,Protect|Adamant||F|||50|]Excadrill||Excadrite|SandRush|Earthquake,RockSlide,HighHorsepower,Protect|Jolly||M|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,DarkestLariat,WillOWisp,Protect|Careful||M|||50|]Primarina||FocusSash|LiquidVoice|HyperVoice,DazzlingGleam,CalmMind,Protect|Quiet||M|||50|]Mimikyu||MentalHerb|Disguise|TrickRoom,PlayRough,ShadowSneak,Protect|Sassy||F|||50|]Conkeldurr||LifeOrb|SheerForce|DrainPunch,MachPunch,IcePunch,Detect|Adamant||M|||50|
+|
+|t:|1784746369
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gliscor|Gliscor, L50, M|100/100
+|switch|p1b: Gengar|Gengar, L50, M, shiny|100/100
+|switch|p2a: Mimikyu|Mimikyu, L50, F, shiny|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Gliscor|atk|1
+|-unboost|p1b: Gengar|atk|1
+|turn|1
+|
+|t:|1784746397
+|move|p2b: Incineroar|Fake Out|p1a: Gliscor
+|-damage|p1a: Gliscor|90/100
+|move|p2a: Mimikyu|Shadow Sneak|p1b: Gengar
+|-supereffective|p1b: Gengar|1
+|-damage|p1b: Gengar|59/100
+|-start|p2a: Mimikyu|Disable|Shadow Sneak|[from] ability: Cursed Body|[of] p1b: Gengar
+|-enditem|p2a: Mimikyu|Mental Herb
+|-end|p2a: Mimikyu|Disable
+|move|p1b: Gengar|Toxic|p1a: Gliscor
+|-status|p1a: Gliscor|tox
+|cant|p1a: Gliscor|flinch
+|
+|-heal|p1a: Gliscor|96/100 tox|[from] item: Leftovers
+|-heal|p1a: Gliscor|100/100 tox|[from] ability: Poison Heal
+|upkeep
+|turn|2
+|
+|t:|1784746416
+|switch|p2b: Primarina|Primarina, L50, M, shiny|100/100
+|move|p1b: Gengar|Will-O-Wisp|p2a: Mimikyu
+|-status|p2a: Mimikyu|brn
+|move|p1a: Gliscor|Substitute|p1a: Gliscor
+|-start|p1a: Gliscor|Substitute
+|-damage|p1a: Gliscor|75/100 tox
+|move|p2a: Mimikyu|Trick Room|p2a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p2a: Mimikyu
+|
+|-heal|p1a: Gliscor|81/100 tox|[from] item: Leftovers
+|-heal|p1a: Gliscor|93/100 tox|[from] ability: Poison Heal
+|-damage|p2a: Mimikyu|93/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1784746443
+|switch|p2a: Conkeldurr|Conkeldurr, L50, M, shiny|100/100
+|move|p2b: Primarina|Hyper Voice|p1a: Gliscor|[spread] p1a,p1b
+|-supereffective|p1a: Gliscor|1
+|-damage|p1a: Gliscor|0 fnt
+|-damage|p1b: Gengar|13/100
+|faint|p1a: Gliscor
+|move|p1b: Gengar|Toxic|p2b: Primarina
+|-status|p2b: Primarina|tox
+|
+|-damage|p2b: Primarina|94/100 tox|[from] psn
+|upkeep
+|
+|t:|1784746460
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|turn|4
+|
+|t:|1784746498
+|move|p2a: Conkeldurr|Detect|p2a: Conkeldurr
+|-singleturn|p2a: Conkeldurr|Protect
+|move|p1a: Hatterene|Heal Pulse|p1b: Gengar
+|-heal|p1b: Gengar|64/100
+|move|p2b: Primarina|Hyper Voice|p1b: Gengar|[spread] p1a,p1b
+|-damage|p1a: Hatterene|71/100
+|-damage|p1b: Gengar|9/100
+|-start|p2b: Primarina|Disable|Hyper Voice|[from] ability: Cursed Body|[of] p1b: Gengar
+|move|p1b: Gengar|Will-O-Wisp|p2a: Conkeldurr
+|-activate|p2a: Conkeldurr|move: Protect
+|
+|-damage|p2b: Primarina|82/100 tox|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1784746523
+|move|p1a: Hatterene|Heal Pulse|p1b: Gengar
+|-heal|p1b: Gengar|59/100
+|move|p2a: Conkeldurr|Ice Punch|p1b: Gengar
+|-damage|p1b: Gengar|0 fnt
+|-start|p2a: Conkeldurr|Disable|Ice Punch|[from] ability: Cursed Body|[of] p1b: Gengar
+|faint|p1b: Gengar
+|move|p2b: Primarina|Calm Mind|p2b: Primarina
+|-boost|p2b: Primarina|spa|1
+|-boost|p2b: Primarina|spd|1
+|
+|-damage|p2b: Primarina|64/100 tox|[from] psn
+|upkeep
+|
+|t:|1784746534
+|switch|p1b: Zap|Rotom-Wash, L50, shiny|100/100
+|turn|6
+|
+|t:|1784746545
+|move|p1b: Zap|Protect|p1b: Zap
+|-singleturn|p1b: Zap|Protect
+|move|p2a: Conkeldurr|Mach Punch|p1b: Zap
+|-activate|p1b: Zap|move: Protect
+|move|p1a: Hatterene|Reflect|p1a: Hatterene
+|-sidestart|p1: notoank|Reflect
+|move|p2b: Primarina|Dazzling Gleam|p1a: Hatterene|[spread] p1a
+|-activate|p1b: Zap|move: Protect
+|-damage|p1a: Hatterene|34/100
+|
+|-damage|p2b: Primarina|41/100 tox|[from] psn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1784746561
+|switch|p2b: Mimikyu|Mimikyu, L50, F, shiny|93/100 brn
+|move|p2a: Conkeldurr|Detect|p2a: Conkeldurr
+|-singleturn|p2a: Conkeldurr|Protect
+|move|p1a: Hatterene|Protect|p1a: Hatterene
+|-singleturn|p1a: Hatterene|Protect
+|move|p1b: Zap|Discharge|p2b: Mimikyu|[spread] p2b
+|-activate|p1a: Hatterene|move: Protect
+|-activate|p2a: Conkeldurr|move: Protect
+|-activate|p2b: Mimikyu|ability: Disguise
+|-damage|p2b: Mimikyu|93/100 brn
+|detailschange|p2b: Mimikyu|Mimikyu-Busted, L50, F, shiny
+|-damage|p2b: Mimikyu|81/100 brn|[from] pokemon: Mimikyu-Busted
+|
+|-damage|p2b: Mimikyu|75/100 brn|[from] brn
+|upkeep
+|turn|8
+|
+|t:|1784746599
+|move|p1a: Hatterene|Protect||[still]
+|-fail|p1a: Hatterene
+|move|p2a: Conkeldurr|Mach Punch|p1b: Zap
+|-crit|p1b: Zap
+|-damage|p1b: Zap|42/100
+|-enditem|p1b: Zap|Sitrus Berry|[eat]
+|-heal|p1b: Zap|67/100|[from] item: Sitrus Berry
+|-damage|p2a: Conkeldurr|90/100|[from] item: Life Orb
+|move|p1b: Zap|Hydro Pump|p2a: Conkeldurr|[miss]
+|-miss|p1b: Zap|p2a: Conkeldurr
+|move|p2b: Mimikyu|Trick Room|p2b: Mimikyu
+|-fieldstart|move: Trick Room|[of] p2b: Mimikyu
+|
+|-damage|p2b: Mimikyu|69/100 brn|[from] brn
+|-end|p2a: Conkeldurr|Disable
+|upkeep
+|turn|9
+|
+|t:|1784746650
+|move|p2b: Mimikyu|Shadow Sneak|p1a: Hatterene
+|-supereffective|p1a: Hatterene|1
+|-damage|p1a: Hatterene|25/100
+|move|p1a: Hatterene|Heal Pulse|p1b: Zap
+|-heal|p1b: Zap|100/100
+|move|p2a: Conkeldurr|Ice Punch|p1a: Hatterene
+|-damage|p1a: Hatterene|0 fnt
+|faint|p1a: Hatterene
+|move|p1b: Zap|Hydro Pump|p2b: Mimikyu
+|-damage|p2b: Mimikyu|25/100 brn
+|
+|-damage|p2b: Mimikyu|19/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1784746670
+|move|p2a: Conkeldurr|Drain Punch|p1b: Zap
+|-damage|p1b: Zap|60/100
+|-heal|p2a: Conkeldurr|100/100|[from] drain|[of] p1b: Zap
+|-damage|p2a: Conkeldurr|90/100|[from] item: Life Orb
+|move|p2b: Mimikyu|Play Rough|p1b: Zap
+|-damage|p1b: Zap|49/100
+|-unboost|p1b: Zap|atk|1
+|move|p1b: Zap|Discharge|p2b: Mimikyu|[spread] p2a,p2b
+|-damage|p2a: Conkeldurr|54/100
+|-damage|p2b: Mimikyu|0 fnt
+|-status|p2a: Conkeldurr|par
+|faint|p2b: Mimikyu
+|
+|-sideend|p1: notoank|Reflect
+|upkeep
+|
+|t:|1784746685
+|switch|p2b: Incineroar|Incineroar, L50, M, shiny|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1b: Zap|atk|1
+|turn|11
+|
+|t:|1784746697
+|move|p1b: Zap|Protect|p1b: Zap
+|-singleturn|p1b: Zap|Protect
+|move|p2b: Incineroar|Fake Out|p1b: Zap
+|-activate|p1b: Zap|move: Protect
+|move|p2a: Conkeldurr|Drain Punch|p1b: Zap
+|-activate|p1b: Zap|move: Protect
+|
+|upkeep
+|turn|12
+|
+|t:|1784746711
+|cant|p2a: Conkeldurr|par
+|move|p2b: Incineroar|Darkest Lariat|p1b: Zap
+|-damage|p1b: Zap|11/100
+|move|p1b: Zap|Discharge|p2b: Incineroar|[spread] p2a,p2b
+|-crit|p2b: Incineroar
+|-damage|p2a: Conkeldurr|21/100 par
+|-damage|p2b: Incineroar|68/100
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|13
+|
+|t:|1784746724
+|move|p2a: Conkeldurr|Mach Punch|p1b: Zap
+|-damage|p1b: Zap|0 fnt
+|faint|p1b: Zap
+|-damage|p2a: Conkeldurr|11/100 par|[from] item: Life Orb
+|
+|win|iebilish
+||iebilish is ready for game 2.
+|inactive|notoank has 30 seconds to confirm battle start!
+||notoank is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

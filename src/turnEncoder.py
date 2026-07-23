@@ -278,7 +278,6 @@ class TurnEncoder(nn.Module):
                                                                 head_dim=int(self.POKE_DIM/self.N_HEADS), hidden_dim=self.POKE_DIM*2, dropout=0.45)
         #self.crossAttTransformerLayer2 = CrossAttTransformerLayer(in_dim=self.POKE_DIM, n_heads=self.N_HEADS, key_query_dim=self.POKE_DIM,
         #                                                        head_dim=int(self.POKE_DIM/self.N_HEADS), hidden_dim=self.POKE_DIM*2, dropout=0.3)
-        self.attPool = AttentionPool(self.POKE_DIM)
 
         # Final MLP
         self.ln1 = nn.LayerNorm(self.POKE_DIM*2)
@@ -289,6 +288,8 @@ class TurnEncoder(nn.Module):
         self.lin2 = nn.Linear(self.HIDDEN_LAY_1, self.HIDDEN_LAY_2)
         self.dropout2 = nn.Dropout(0.15)
 
+        self.class_tokens = nn.Parameter(torch.randn((2,1,self.POKE_DIM)))
+
         self.ln3 = nn.LayerNorm(self.HIDDEN_LAY_2)
         self.lin3 = nn.Linear(self.HIDDEN_LAY_2, 1)
 
@@ -297,15 +298,16 @@ class TurnEncoder(nn.Module):
         teams = self.pokeEncoder(pokeInts, pokeFeats, moveInts, moveFeats) # (BATCH, 2, 6, pokeDim)
         board_token = self.board2token(self.boardEncoder(boardInts, boardFeats)) # (BATCH, pokeDim)
         board_token = board_token[:, None, None, :].expand(-1, 2, 1, -1) # (BATCH, 2, 1, pokeDim)
-        x = torch.cat([teams, board_token], dim=2)
+        class_tokens = self.class_tokens.expand(board_token.shape[0], 2, 1, self.POKE_DIM) # (BATCH, 2, 1, pokeDim)
+        x = torch.cat([teams, board_token, class_tokens], dim=2)
 
         x = self.selfAttTransformerLayer1(x)
         #x = self.selfAttTransformerLayer2(x)
 
         team_1 = x[:,0,:,:]
         team_2 = x[:,1,:,:]
-        team_1_summary = self.attPool(self.crossAttTransformerLayer1(team_1, team_2))
-        team_2_summary = self.attPool(self.crossAttTransformerLayer1(team_2, team_1))
+        team_1_summary = self.crossAttTransformerLayer1(team_1, team_2)[:,-1,:]
+        team_2_summary = self.crossAttTransformerLayer1(team_2, team_1)[:,-1,:]
 
         #x = torch.cat([team_1_summary, team_2_summary, team_1_summary-team_2_summary, team_1_summary*team_2_summary], dim=1)
         x = torch.cat([team_1_summary, team_2_summary], dim=1)

@@ -1,0 +1,128 @@
+|j|☆conmur313
+|j|☆andiom123
+|html|conmur313andiom123    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1784773331
+|gametype|doubles
+|player|p1|conmur313|linebacker|1147
+|player|p2|andiom123|red|1079
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Scrafty, L50, M, shiny|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Vileplume, L50, M|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Staraptor, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Sylveon, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Kangaskhan, L50, F|
+|poke|p2|Mudsdale, L50, M|
+|teampreview|4
+|showteam|p1|Farigiraf||SitrusBerry|ArmorTail|Protect,Thunderbolt,TwinBeam,TrickRoom|Sassy||F|||50|]Scrafty||Scraftinite|Intimidate|FakeOut,IronHead,KnockOff,CloseCombat|Brave||M|||50|]Torkoal||Charcoal|Drought|HeatWave,WeatherBall,Eruption,Protect|Quiet||M|||50|]Vileplume||FocusSash|Chlorophyll|SludgeBomb,SleepPowder,AfterYou,LeafStorm|Serious||M|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,QuickAttack,HyperBeam,Detect|Quiet||M|||50|]Staraptor||ChoiceScarf|Intimidate|BraveBird,CloseCombat,Uturn,FinalGambit|Jolly||F|||50|
+|showteam|p2|Incineroar||MuscleBand|Intimidate|ThroatChop,FlareBlitz,FakeOut,PartingShot|Brave||F|||50|]Farigiraf||SitrusBerry|ArmorTail|FoulPlay,PsychicNoise,TrickRoom,HelpingHand|Relaxed||M|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,Yawn,Detect|Modest||F|||50|]Torkoal||Charcoal|Drought|Eruption,EarthPower,Flamethrower,Protect|Quiet||M|||50|]Kangaskhan||Kangaskhanite|Scrappy|DoubleEdge,FakeOut,IcePunch,HammerArm|Brave||F|||50|]Mudsdale||LifeOrb|InnerFocus|HighHorsepower,Earthquake,RockSlide,HeavySlam|Brave||M|||50|
+|
+|t:|1784773345
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Staraptor|Staraptor, L50, F|100/100
+|switch|p1b: Scrafty|Scrafty, L50, M, shiny|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2b: Kangaskhan|Kangaskhan, L50, F|100/100
+|-ability|p1a: Staraptor|Intimidate|boost
+|-unboost|p2a: Farigiraf|atk|1
+|-fail|p2b: Kangaskhan|unboost|Attack|[from] ability: Scrappy|[of] p2b: Kangaskhan
+|-ability|p1b: Scrafty|Intimidate|boost
+|-unboost|p2a: Farigiraf|atk|1
+|-fail|p2b: Kangaskhan|unboost|Attack|[from] ability: Scrappy|[of] p2b: Kangaskhan
+|turn|1
+|
+|t:|1784773369
+|detailschange|p2b: Kangaskhan|Kangaskhan-Mega, L50, F
+|-mega|p2b: Kangaskhan|Kangaskhan|Kangaskhanite
+|detailschange|p1b: Scrafty|Scrafty-Mega, L50, M, shiny
+|-mega|p1b: Scrafty|Scrafty|Scraftinite
+|-ability|p1b: Scrafty|Intimidate|boost
+|-unboost|p2a: Farigiraf|atk|1
+|-unboost|p2b: Kangaskhan|atk|1
+|move|p1a: Staraptor|Final Gambit|p2b: Kangaskhan
+|-damage|p2b: Kangaskhan|9/100
+|faint|p1a: Staraptor
+|move|p2b: Kangaskhan|Double-Edge|p1b: Scrafty
+|-damage|p1b: Scrafty|61/100
+|-damage|p1b: Scrafty|52/100
+|-hitcount|p1b: Scrafty|2
+|-damage|p2b: Kangaskhan|0 fnt|[from] Recoil
+|faint|p2b: Kangaskhan
+|move|p1b: Scrafty|Knock Off|p2a: Farigiraf
+|-supereffective|p2a: Farigiraf|1
+|-damage|p2a: Farigiraf|8/100
+|-enditem|p2a: Farigiraf|Sitrus Berry|[from] move: Knock Off|[of] p1b: Scrafty
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|upkeep
+|
+|t:|1784773392
+|switch|p2b: Mudsdale|Mudsdale, L50, M|100/100
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|2
+|
+|t:|1784773405
+|move|p2a: Farigiraf|Helping Hand|p2b: Mudsdale
+|-singleturn|p2b: Mudsdale|Helping Hand|[of] p2a: Farigiraf
+|move|p1a: Torkoal|Eruption|p2a: Farigiraf|[spread] p2a,p2b
+|-damage|p2a: Farigiraf|0 fnt
+|-damage|p2b: Mudsdale|13/100
+|faint|p2a: Farigiraf
+|move|p2b: Mudsdale|Earthquake|p1b: Scrafty|[spread] p1a,p1b
+|-supereffective|p1a: Torkoal|1
+|-damage|p1a: Torkoal|0 fnt
+|-damage|p1b: Scrafty|0 fnt
+|faint|p1a: Torkoal
+|faint|p1b: Scrafty
+|-damage|p2b: Mudsdale|3/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1784773418
+|switch|p1a: Vileplume|Vileplume, L50, M|100/100
+|switch|p2a: Sylveon|Sylveon, L50, F|100/100
+|turn|3
+|
+|t:|1784773430
+|move|p2b: Mudsdale|Rock Slide|p1a: Vileplume
+|-damage|p1a: Vileplume|48/100
+|-damage|p2b: Mudsdale|0 fnt|[from] item: Life Orb
+|faint|p2b: Mudsdale
+|move|p2a: Sylveon|Hyper Voice|p1a: Vileplume
+|-resisted|p1a: Vileplume|1
+|-damage|p1a: Vileplume|10/100
+|move|p1a: Vileplume|Sludge Bomb|p2a: Sylveon
+|-supereffective|p2a: Sylveon|1
+|-damage|p2a: Sylveon|32/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1784773444
+|move|p2a: Sylveon|Hyper Voice|p1a: Vileplume
+|-resisted|p1a: Vileplume|1
+|-damage|p1a: Vileplume|0 fnt
+|faint|p1a: Vileplume
+|
+|win|andiom123
+|raw|conmur313's rating: 1147 → 1117(-30 for losing)
+|raw|andiom123's rating: 1079 → 1113(+34 for winning)
+|l|☆conmur313
+|player|p1|

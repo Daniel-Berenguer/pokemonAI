@@ -1,0 +1,321 @@
+|j|☆Vagrahb
+|j|☆DamoVGC
+|html|VagrahbDamoVGC    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784380266
+|gametype|doubles
+|player|p1|Vagrahb|170|
+|player|p2|DamoVGC|2|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Blastoise, L50, M|
+|poke|p1|Meowscarada, L50, M|
+|poke|p1|Meowstic, L50, M|
+|poke|p1|Araquanid, L50, M|
+|poke|p1|Sceptile, L50, F|
+|poke|p1|Bellibolt, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Swampert, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Floette-Eternal, L50, F|
+|teampreview|4
+|showteam|p1|Blastoise||WhiteHerb|RainDish|WaterSpout,Protect,IceBeam,ShellSmash|Modest||M|||50|]Meowscarada||WideLens|Protean|FlowerTrick,TripleAxel,ThroatChop,BrickBreak|Adamant||M|||50|]Meowstic||FocusBand|Prankster|FakeOut,RainDance,TrickRoom,Psychic|Bold||M|||50|]Araquanid||MysticWater|WaterBubble|Liquidation,Soak,WideGuard,Protect|Adamant||M|||50|]Sceptile||Sceptilite|Overgrow|EnergyBall,Detect,EarthPower,UpperHand|Modest||F|||50|]Bellibolt||SitrusBerry|Electromorphosis|ParabolicCharge,Soak,AcidSpray,Protect|Modest||M|||50|
+|showteam|p2|Grimmsnarl||RoseliBerry|Prankster|FoulPlay,PartingShot,Reflect,LightScreen|Careful||M|||50|]Swampert||Swampertite|Damp|WaveCrash,Earthquake,IcePunch,Protect|Adamant||M|||50|]Pelipper||SitrusBerry|Drizzle|Hurricane,WeatherBall,Tailwind,WideGuard|Modest||M|||50|]Archaludon||Leftovers|Stamina|ElectroShot,DragonPulse,FlashCannon,Protect|Modest||F|||50|]Sinistcha||CobaBerry|Hospitality|MatchaGotcha,RagePowder,LifeDew,Protect|Relaxed|||||50|]Floette-Eternal||Floettite|FlowerVeil|Moonblast,DazzlingGleam,CalmMind,Protect|Modest||F|||50|
+|
+|t:|1784380295
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Bellibolt|Bellibolt, L50, M|100/100
+|switch|p1b: Araquanid|Araquanid, L50, M|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|turn|1
+|
+|t:|1784380313
+|move|p2a: Grimmsnarl|Parting Shot|p1b: Araquanid
+|-unboost|p1b: Araquanid|atk|1
+|-unboost|p1b: Araquanid|spa|1
+|
+|t:|1784380317
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1b: Araquanid
+|-supereffective|p1b: Araquanid|1
+|-damage|p1b: Araquanid|0 fnt
+|faint|p1b: Araquanid
+|move|p1a: Bellibolt|Soak|p2b: Archaludon
+|-start|p2b: Archaludon|typechange|Water
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1784380337
+|switch|p1b: Sceptile|Sceptile, L50, F|100/100
+|turn|2
+|
+|t:|1784380369
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|move|p1b: Sceptile|Detect|p1b: Sceptile
+|-singleturn|p1b: Sceptile|Protect
+|move|p2a: Pelipper|Hurricane|p1b: Sceptile
+|-activate|p1b: Sceptile|move: Protect
+|move|p1a: Bellibolt|Parabolic Charge|p2b: Grimmsnarl|[spread] p2a,p2b
+|-activate|p1b: Sceptile|move: Protect
+|-supereffective|p2a: Pelipper|2
+|-damage|p2a: Pelipper|0 fnt
+|-damage|p2b: Grimmsnarl|79/100
+|faint|p2a: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1784380377
+|switch|p2a: Archaludon|Archaludon, L50, F|100/100
+|turn|3
+|
+|t:|1784380409
+|move|p1b: Sceptile|Energy Ball|p2b: Grimmsnarl
+|-damage|p2b: Grimmsnarl|41/100
+|move|p2a: Archaludon|Dragon Pulse|p1b: Sceptile
+|-damage|p1b: Sceptile|50/100g
+|move|p2b: Grimmsnarl|Foul Play|p1b: Sceptile
+|-damage|p1b: Sceptile|1/100
+|move|p1a: Bellibolt|Soak|p2a: Archaludon
+|-start|p2a: Archaludon|typechange|Water
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1784380429
+|switch|p2a: Sinistcha|Sinistcha, L50|100/100
+|-heal|p2b: Grimmsnarl|66/100|[from] ability: Hospitality|[of] p2a: Sinistcha
+|detailschange|p1b: Sceptile|Sceptile-Mega, L50, F
+|-mega|p1b: Sceptile|Sceptile|Sceptilite
+|move|p2b: Grimmsnarl|Parting Shot|p1a: Bellibolt
+|-unboost|p1a: Bellibolt|atk|1
+|-unboost|p1a: Bellibolt|spa|1
+|
+|t:|1784380437
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100|[from] Parting Shot
+|move|p1b: Sceptile|Energy Ball|p2a: Sinistcha
+|-resisted|p2a: Sinistcha|1
+|-damage|p2a: Sinistcha|74/100
+|-unboost|p2a: Sinistcha|spd|1
+|move|p1a: Bellibolt|Parabolic Charge|p2a: Sinistcha|[spread] p2a,p2b
+|-ability|p1b: Sceptile|Lightning Rod|boost
+|-boost|p1b: Sceptile|spa|1
+|-resisted|p2a: Sinistcha|1
+|-resisted|p2b: Archaludon|1
+|-damage|p2a: Sinistcha|65/100
+|-damage|p2b: Archaludon|93/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Archaludon|99/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1784380461
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|66/100
+|move|p2b: Archaludon|Protect|p2b: Archaludon
+|-singleturn|p2b: Archaludon|Protect
+|move|p1b: Sceptile|Earth Power|p2b: Archaludon
+|-activate|p2b: Archaludon|move: Protect
+|move|p1a: Bellibolt|Soak|p2a: Grimmsnarl
+|-start|p2a: Grimmsnarl|typechange|Water
+|
+|-weather|none
+|-heal|p2b: Archaludon|100/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1784380489
+|move|p1b: Sceptile|Detect|p1b: Sceptile
+|-singleturn|p1b: Sceptile|Protect
+|move|p2a: Grimmsnarl|Parting Shot|p1b: Sceptile
+|-activate|p1b: Sceptile|move: Protect
+|move|p2b: Archaludon|Dragon Pulse|p1b: Sceptile
+|-activate|p1b: Sceptile|move: Protect
+|move|p1a: Bellibolt|Soak|p2b: Archaludon
+|-start|p2b: Archaludon|typechange|Water
+|
+|upkeep
+|turn|7
+|
+|t:|1784380512
+|switch|p2b: Sinistcha|Sinistcha, L50|65/100
+|-heal|p2a: Grimmsnarl|91/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|move|p1b: Sceptile|Energy Ball|p2b: Sinistcha
+|-resisted|p2b: Sinistcha|1
+|-crit|p2b: Sinistcha
+|-damage|p2b: Sinistcha|8/100
+|move|p2a: Grimmsnarl|Foul Play|p1b: Sceptile
+|-damage|p1b: Sceptile|0 fnt
+|faint|p1b: Sceptile
+|move|p1a: Bellibolt|Parabolic Charge|p2a: Grimmsnarl|[spread] p2a,p2b
+|-supereffective|p2a: Grimmsnarl|1
+|-resisted|p2b: Sinistcha|1
+|-damage|p2a: Grimmsnarl|64/100
+|-damage|p2b: Sinistcha|2/100
+|
+|upkeep
+|
+|t:|1784380526
+|switch|p1b: Meowscarada|Meowscarada, L50, M|100/100
+|turn|8
+|
+|t:|1784380556
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Bellibolt
+|-unboost|p1a: Bellibolt|atk|1
+|-unboost|p1a: Bellibolt|spa|1
+|
+|t:|1784380562
+|switch|p2a: Sinistcha|Sinistcha, L50|2/100|[from] Parting Shot
+|move|p1b: Meowscarada|Brick Break|p2a: Sinistcha
+|-start|p1b: Meowscarada|typechange|Fighting|[from] ability: Protean
+|-immune|p2a: Sinistcha
+|move|p1a: Bellibolt|Parabolic Charge|p2a: Sinistcha|[spread] p1b,p2a,p2b
+|-resisted|p2a: Sinistcha|1
+|-resisted|p2b: Archaludon|1
+|-crit|p2b: Archaludon
+|-damage|p1b: Meowscarada|83/100
+|-damage|p2a: Sinistcha|0 fnt
+|-damage|p2b: Archaludon|83/100
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|faint|p2a: Sinistcha
+|
+|-heal|p2b: Archaludon|89/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1784380564
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|64/100
+|turn|9
+|
+|t:|1784380587
+|move|p1b: Meowscarada|Brick Break|p2b: Archaludon
+|-supereffective|p2b: Archaludon|1
+|-damage|p2b: Archaludon|50/100g
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|move|p2b: Archaludon|Dragon Pulse|p1b: Meowscarada
+|-damage|p1b: Meowscarada|22/100
+|move|p2a: Grimmsnarl|Foul Play|p1b: Meowscarada
+|-resisted|p1b: Meowscarada|1
+|-damage|p1b: Meowscarada|0 fnt
+|faint|p1b: Meowscarada
+|move|p1a: Bellibolt|Soak|p2a: Grimmsnarl
+|-start|p2a: Grimmsnarl|typechange|Water
+|
+|-heal|p2b: Archaludon|56/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1784380604
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Bellibolt
+|-unboost|p1a: Bellibolt|atk|1
+|-unboost|p1a: Bellibolt|spa|1
+|move|p2b: Archaludon|Dragon Pulse|p1a: Bellibolt
+|-damage|p1a: Bellibolt|63/100
+|-start|p1a: Bellibolt|Charge|Dragon Pulse|[from] ability: Electromorphosis
+|move|p1a: Bellibolt|Parabolic Charge|p2a: Grimmsnarl|[spread] p2a,p2b
+|-supereffective|p2a: Grimmsnarl|1
+|-resisted|p2b: Archaludon|1
+|-damage|p2a: Grimmsnarl|31/100
+|-heal|p1a: Bellibolt|81/100|[from] drain|[of] p2a: Grimmsnarl
+|-damage|p2b: Archaludon|48/100
+|-heal|p1a: Bellibolt|85/100|[from] drain|[of] p2b: Archaludon
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|-heal|p2b: Archaludon|54/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1784380623
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Bellibolt
+|-unboost|p1a: Bellibolt|atk|1
+|-unboost|p1a: Bellibolt|spa|1
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|move|p1a: Bellibolt|Soak|p2b: Archaludon
+|-start|p2b: Archaludon|typechange|Water
+|
+|-heal|p2b: Archaludon|60/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1784380633
+|move|p2b: Archaludon|Electro Shot|p1a: Bellibolt|[from] lockedmove
+|-resisted|p1a: Bellibolt|1
+|-damage|p1a: Bellibolt|61/100
+|-start|p1a: Bellibolt|Charge|Electro Shot|[from] ability: Electromorphosis
+|move|p2a: Grimmsnarl|Foul Play|p1a: Bellibolt
+|-damage|p1a: Bellibolt|57/100
+|-start|p1a: Bellibolt|Charge|Foul Play|[from] ability: Electromorphosis
+|move|p1a: Bellibolt|Parabolic Charge|p2b: Archaludon|[spread] p2a,p2b
+|-supereffective|p2a: Grimmsnarl|1
+|-supereffective|p2b: Archaludon|1
+|-damage|p2a: Grimmsnarl|7/100
+|-heal|p1a: Bellibolt|70/100|[from] drain|[of] p2a: Grimmsnarl
+|-damage|p2b: Archaludon|31/100
+|-heal|p1a: Bellibolt|85/100|[from] drain|[of] p2b: Archaludon
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|-heal|p2b: Archaludon|38/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1784380651
+|move|p2b: Archaludon|Dragon Pulse|p1a: Bellibolt
+|-damage|p1a: Bellibolt|51/100
+|-start|p1a: Bellibolt|Charge|Dragon Pulse|[from] ability: Electromorphosis
+|move|p2a: Grimmsnarl|Foul Play|p1a: Bellibolt
+|-damage|p1a: Bellibolt|46/100
+|-start|p1a: Bellibolt|Charge|Foul Play|[from] ability: Electromorphosis
+|-enditem|p1a: Bellibolt|Sitrus Berry|[eat]
+|-heal|p1a: Bellibolt|71/100|[from] item: Sitrus Berry
+|move|p1a: Bellibolt|Parabolic Charge|p2b: Archaludon|[spread] p2a,p2b
+|-supereffective|p2a: Grimmsnarl|1
+|-supereffective|p2b: Archaludon|1
+|-damage|p2a: Grimmsnarl|0 fnt
+|-heal|p1a: Bellibolt|76/100|[from] drain|[of] p2a: Grimmsnarl
+|-damage|p2b: Archaludon|7/100
+|-heal|p1a: Bellibolt|92/100|[from] drain|[of] p2b: Archaludon
+|-ability|p2b: Archaludon|Stamina|boost
+|-boost|p2b: Archaludon|def|1
+|faint|p2a: Grimmsnarl
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|-heal|p2b: Archaludon|13/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1784380671
+|move|p2b: Archaludon|Dragon Pulse|p1a: Bellibolt
+|-damage|p1a: Bellibolt|59/100
+|-start|p1a: Bellibolt|Charge|Dragon Pulse|[from] ability: Electromorphosis
+|move|p1a: Bellibolt|Parabolic Charge|p2b: Archaludon
+|-supereffective|p2b: Archaludon|1
+|-damage|p2b: Archaludon|0 fnt
+|-heal|p1a: Bellibolt|67/100|[from] drain|[of] p2b: Archaludon
+|faint|p2b: Archaludon
+|-end|p1a: Bellibolt|Charge|[silent]
+|
+|win|Vagrahb

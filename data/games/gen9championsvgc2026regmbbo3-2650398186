@@ -1,0 +1,124 @@
+|j|☆gallium1005
+|j|☆ghjk09
+|html|gallium1005ghjk09    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1784251124
+|gametype|doubles
+|player|p1|gallium1005|hilbert|1136
+|player|p2|ghjk09|hilbert|1037
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Swampert, L50, F|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p2|Tauros-Paldea-Blaze, L50, M|
+|poke|p2|Meowscarada, L50, F|
+|poke|p2|Glalie, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Swampert||Swampertite|Torrent|WaveCrash,Earthquake,KnockOff,Protect|Adamant||F|||50|]Archaludon||Leftovers|Stamina|ElectroShot,DragonPulse,FlashCannon,Protect|Modest||M|||50|]Pelipper||FocusSash|Drizzle|Tailwind,Hurricane,WeatherBall,Protect|Timid||F|||50|]Sneasler||WhiteHerb|Unburden|FakeOut,DireClaw,CloseCombat,Protect|Jolly||M|||50|]Floette-Eternal||Floettite|FlowerVeil|DrainingKiss,DazzlingGleam,CalmMind,Protect|Modest||F|||50|]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,Protect|Bold|||||50|
+|showteam|p2|Tauros-Paldea-Blaze||ShucaBerry|AngerPoint|Earthquake,FlameCharge,RockSlide,Protect|Jolly||M|||50|]Meowscarada||ChoiceScarf|Protean|FlowerTrick,ThunderPunch,TripleAxel,Uturn|Timid||F|||50|]Glalie||Glalitite|InnerFocus|FrostBreath,Explosion,Protect,BodySlam|Adamant||M|||50|]Whimsicott||MentalHerb|Prankster|Moonblast,Tailwind,Encore,Protect|Bold||F|||50|]Pelipper||SitrusBerry|Drizzle|WeatherBall,Hurricane,Protect,Tailwind|Modest||F|||50|]Basculegion||FocusSash|Adaptability|AquaJet,FlipTurn,LastRespects,WaveCrash|Adamant||M|||50|
+|
+|t:|1784251148
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Glalie|Glalie, L50, M|100/100
+|turn|1
+|
+|t:|1784251175
+|detailschange|p2b: Glalie|Glalie-Mega, L50, M
+|-mega|p2b: Glalie|Glalie|Glalitite
+|move|p2a: Whimsicott|Protect|p2a: Whimsicott
+|-singleturn|p2a: Whimsicott|Protect
+|move|p2b: Glalie|Protect|p2b: Glalie
+|-singleturn|p2b: Glalie|Protect
+|move|p1b: Sneasler|Fake Out|p2a: Whimsicott
+|-activate|p2a: Whimsicott|move: Protect
+|move|p1a: Archaludon|Flash Cannon|p2b: Glalie
+|-activate|p2b: Glalie|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1784251192
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: ghjk09|move: Tailwind
+|move|p2b: Glalie|Explosion|p1a: Archaludon|[spread] p2a,p1a,p1b
+|-supereffective|p2a: Whimsicott|1
+|-damage|p2a: Whimsicott|0 fnt
+|-damage|p1a: Archaludon|12/100
+|-damage|p1b: Sneasler|0 fnt
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|faint|p2b: Glalie
+|faint|p2a: Whimsicott
+|faint|p1b: Sneasler
+|move|p1a: Archaludon|Flash Cannon|p2: Whimsicott|[notarget]
+|-fail|p1a: Archaludon
+|
+|-heal|p1a: Archaludon|18/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1784251212
+|switch|p1b: Pelipper|Pelipper, L50, F|100/100
+|switch|p2b: Meowscarada|Meowscarada, L50, F|100/100
+|switch|p2a: Tauros|Tauros-Paldea-Blaze, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|turn|3
+|
+|t:|1784251237
+|move|p1b: Pelipper|Protect|p1b: Pelipper
+|-singleturn|p1b: Pelipper|Protect
+|move|p2b: Meowscarada|Flower Trick|p2a: Tauros
+|-start|p2b: Meowscarada|typechange|Grass|[from] ability: Protean
+|-resisted|p2a: Tauros|1
+|-crit|p2a: Tauros
+|-damage|p2a: Tauros|78/100
+|-setboost|p2a: Tauros|atk|6|[from] ability: Anger Point
+|move|p2a: Tauros|Rock Slide|p1a: Archaludon|[spread] p1a
+|-activate|p1b: Pelipper|move: Protect
+|-resisted|p1a: Archaludon|1
+|-damage|p1a: Archaludon|1/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2a: Tauros
+|-damage|p2a: Tauros|0 fnt
+|faint|p2a: Tauros
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Archaludon|6/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1784251280
+|move|p1a: Archaludon|Protect|p1a: Archaludon
+|-singleturn|p1a: Archaludon|Protect
+|move|p2b: Meowscarada|Flower Trick|p1a: Archaludon
+|-activate|p1a: Archaludon|move: Protect
+|move|p1b: Pelipper|Hurricane|p2b: Meowscarada
+|-supereffective|p2b: Meowscarada|1
+|-damage|p2b: Meowscarada|0 fnt
+|faint|p2b: Meowscarada
+|
+|win|gallium1005
+|raw|gallium1005's rating: 1136 → 1154(+18 for winning)
+|raw|ghjk09's rating: 1037 → 1026(-11 for losing)
+|c|☆gallium1005|gg
+|l|☆ghjk09
+|player|p2|

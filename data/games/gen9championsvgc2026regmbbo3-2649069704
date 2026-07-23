@@ -1,0 +1,130 @@
+|j|☆G_Lucc1
+|j|☆Guitarspear
+|html|G_Lucc1Guitarspear    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1784038552
+|gametype|doubles
+|player|p1|G_Lucc1|giovanni|1040
+|player|p2|Guitarspear|266|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Hatterene, L50, F, shiny|
+|poke|p1|Kangaskhan, L50, F, shiny|
+|poke|p1|Hydrapple, L50, M, shiny|
+|poke|p1|Polteageist-Antique, L50, shiny|
+|poke|p1|Malamar, L50, M, shiny|
+|poke|p1|Primarina, L50, M, shiny|
+|poke|p2|Noivern, L50, M|
+|poke|p2|Azumarill, L50, M|
+|poke|p2|Sceptile, L50, M, shiny|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Metagross, L50|
+|teampreview|4
+|showteam|p1|Hatterene||LightClay|MagicBounce|TrickRoom,BatonPass,HelpingHand,Psychic|Quiet||F|||50|]Kangaskhan||SilkScarf|Scrappy|FakeOut,LastResort|Brave||F|||50|]Hydrapple||LifeOrb|Regenerator|DragonPulse,GigaDrain,NastyPlot,Protect|Quiet||M|||50|]Polteageist-Antique||ColburBerry|CursedBody|TrickRoom,StrengthSap,ConfuseRay,ShadowBall|Quiet|||||50|]Malamar||Malamarite|Contrary|Superpower,TrickRoom,DarkPulse,Protect|Quiet||M|||50|]Primarina||MysticWater|LiquidVoice|HyperVoice,DrainingKiss,CalmMind,Protect|Quiet||M|||50|
+|showteam|p2|Noivern||MentalHerb|Frisk|Tailwind,DragonCheer,DracoMeteor,Hurricane|Timid||M|||50|]Azumarill||SitrusBerry|HugePower|AquaJet,BellyDrum,PlayRough,Protect|Adamant||M|||50|]Sceptile||Sceptilite|Overgrow|SwordsDance,LeafBlade,CrossPoison,Detect|Adamant||M|||50|]Farigiraf||SilkScarf|ArmorTail|HyperVoice,TrickRoom,Imprison,Psychic|Modest||F|||50|]Sneasler||FocusSash|Unburden|CloseCombat,DireClaw,FakeOut,Coaching|Jolly||M|||50|]Metagross||LifeOrb|ClearBody|Protect,StompingTantrum,BulletPunch,MeteorMash|Adamant|||||50|
+|
+|t:|1784038574
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hatterene|Hatterene, L50, F, shiny|100/100
+|switch|p1b: Kangaskhan|Kangaskhan, L50, F, shiny|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2b: Azumarill|Azumarill, L50, M|100/100
+|turn|1
+|
+|t:|1784038605
+|move|p1b: Kangaskhan|Fake Out||[still]
+|cant|p2a: Farigiraf|ability: Armor Tail|Fake Out|[of] p1b: Kangaskhan
+|move|p2a: Farigiraf|Imprison|p2a: Farigiraf
+|-start|p2a: Farigiraf|move: Imprison
+|move|p2b: Azumarill|Belly Drum|p2b: Azumarill
+|-damage|p2b: Azumarill|50/100y
+|-setboost|p2b: Azumarill|atk|6|[from] move: Belly Drum
+|-enditem|p2b: Azumarill|Sitrus Berry|[eat]
+|-heal|p2b: Azumarill|74/100|[from] item: Sitrus Berry
+|cant|p1a: Hatterene|move: Imprison|Trick Room
+|
+|upkeep
+|turn|2
+|
+|t:|1784038625
+|move|p2b: Azumarill|Aqua Jet|p1b: Kangaskhan
+|-damage|p1b: Kangaskhan|0 fnt
+|faint|p1b: Kangaskhan
+|move|p2a: Farigiraf|Hyper Voice|p1a: Hatterene
+|-damage|p1a: Hatterene|45/100
+|move|p1a: Hatterene|Baton Pass|p1a: Hatterene
+|
+|t:|1784038632
+|switch|p1a: Hydrapple|Hydrapple, L50, M, shiny|100/100|[from] Baton Pass
+|
+|upkeep
+|
+|t:|1784038635
+|switch|p1b: Malamar|Malamar, L50, M, shiny|100/100
+|turn|3
+|
+|t:|1784038646
+|detailschange|p1b: Malamar|Malamar-Mega, L50, M, shiny
+|-mega|p1b: Malamar|Malamar|Malamarite
+|move|p2a: Farigiraf|Hyper Voice|p1b: Malamar|[spread] p1a,p1b
+|-crit|p1a: Hydrapple
+|-damage|p1a: Hydrapple|50/100g
+|-damage|p1b: Malamar|73/100
+|move|p1b: Malamar|Superpower|p2a: Farigiraf
+|-damage|p2a: Farigiraf|68/100
+|-boost|p1b: Malamar|atk|1
+|-boost|p1b: Malamar|def|1
+|move|p2b: Azumarill|Play Rough|p1b: Malamar
+|-supereffective|p1b: Malamar|1
+|-damage|p1b: Malamar|0 fnt
+|faint|p1b: Malamar
+|move|p1a: Hydrapple|Giga Drain|p2b: Azumarill
+|-supereffective|p2b: Azumarill|1
+|-damage|p2b: Azumarill|0 fnt
+|-heal|p1a: Hydrapple|92/100|[from] drain|[of] p2b: Azumarill
+|faint|p2b: Azumarill
+|-damage|p1a: Hydrapple|82/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1784038669
+|switch|p1b: Hatterene|Hatterene, L50, F, shiny|45/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|turn|4
+|
+|t:|1784038690
+|move|p1b: Hatterene|Helping Hand|p1a: Hydrapple
+|-singleturn|p1a: Hydrapple|Helping Hand|[of] p1b: Hatterene
+|move|p2b: Sneasler|Fake Out|p1a: Hydrapple
+|-damage|p1a: Hydrapple|70/100
+|move|p2a: Farigiraf|Hyper Voice|p1b: Hatterene|[spread] p1a,p1b
+|-damage|p1a: Hydrapple|37/100
+|-damage|p1b: Hatterene|6/100
+|cant|p1a: Hydrapple|flinch
+|
+|upkeep
+|turn|5
+|
+|t:|1784038703
+|move|p1b: Hatterene|Helping Hand|p1a: Hydrapple
+|-singleturn|p1a: Hydrapple|Helping Hand|[of] p1b: Hatterene
+|move|p2b: Sneasler|Dire Claw|p1a: Hydrapple
+|-supereffective|p1a: Hydrapple|1
+|-damage|p1a: Hydrapple|0 fnt
+|faint|p1a: Hydrapple
+|move|p2a: Farigiraf|Hyper Voice|p1b: Hatterene
+|-damage|p1b: Hatterene|0 fnt
+|faint|p1b: Hatterene
+|
+|win|Guitarspear
+|l|☆G_Lucc1
+|player|p1|
+|raw|G_Lucc1's rating: 1040 → 1022(-18 for losing)
+|raw|Guitarspear's rating: 1000 → 1045(+45 for winning)

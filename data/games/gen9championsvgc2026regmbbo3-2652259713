@@ -1,0 +1,127 @@
+|j|☆hotellicker
+|j|☆Wendiigo
+|html|hotellickerWendiigo    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784582483
+|gametype|doubles
+|player|p1|hotellicker|265|
+|player|p2|Wendiigo|hilbert-wonderlauncher|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Mawile, L50, F|
+|poke|p1|Gallade, L50, M, shiny|
+|poke|p1|Milotic, L50, F|
+|poke|p1|Abomasnow, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Lycanroc-Dusk, L50, M|
+|poke|p2|Tyranitar, L50, M, shiny|
+|poke|p2|Excadrill, L50, F, shiny|
+|poke|p2|Reuniclus, L50, M, shiny|
+|poke|p2|Clefable, L50, M|
+|poke|p2|Rotom, L50|
+|poke|p2|Infernape, L50, F, shiny|
+|teampreview|4
+|showteam|p1|Mawile||Mawilite|Intimidate|PlayRough,RockSlide,IronHead,Protect|Brave||F|||50|]Gallade||FocusSash|Sharpness|SacredSword,PsychoCut,TrickRoom,WideGuard|Brave||M|||50|]Milotic||ZoomLens|Competitive|MuddyWater,Hypnosis,Coil,LifeDew|Sassy||F|||50|]Abomasnow||Abomasite|SnowWarning|Blizzard,EnergyBall,EarthPower,Protect|Quiet||M|||50|]Farigiraf||ColburBerry|ArmorTail|TrickRoom,HelpingHand,Psychic,Thunderbolt|Relaxed||M|||50|]Lycanroc-Dusk||IronBall|ToughClaws|RockSlide,CloseCombat,Accelerock,Protect|Brave||M|||50|
+|showteam|p2|Tyranitar||Tyranitarite|SandStream|RockSlide,KnockOff,DragonDance,Protect|Adamant||M|||50|]Excadrill||LifeOrb|SandRush|Earthquake,IronHead,Megahorn,Protect|Adamant||F|||50|]Reuniclus||MentalHerb|MagicGuard|Psychic,FocusBlast,TrickRoom,Protect|Quiet||M|||50|]Clefable||Clefablite|MagicGuard|Moonblast,Flamethrower,FollowMe,Protect|Modest||M|||50|]Rotom||ChoiceScarf|Levitate|ShadowBall,Electroweb,Thunderbolt,Trick|Timid|||||50|]Infernape||Charcoal|Blaze|Taunt,AuraSphere,Flamethrower,Protect|Modest||F|||50|
+|
+|t:|1784582526
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Milotic|Milotic, L50, F|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Rotom|Rotom, L50|100/100
+|switch|p2b: Infernape|Infernape, L50, F, shiny|100/100
+|turn|1
+|
+|t:|1784582556
+|move|p2a: Rotom|Trick|p1b: Farigiraf
+|-activate|p2a: Rotom|move: Trick|[of] p1b: Farigiraf
+|-item|p1b: Farigiraf|Choice Scarf|[from] move: Trick
+|-item|p2a: Rotom|Colbur Berry|[from] move: Trick
+|move|p2b: Infernape|Taunt|p1a: Milotic
+|-start|p1a: Milotic|move: Taunt
+|move|p1b: Farigiraf|Psychic|p2a: Rotom
+|-damage|p2a: Rotom|42/100
+|cant|p1a: Milotic|move: Taunt|Coil
+|
+|upkeep
+|turn|2
+|
+|t:|1784582617
+|switch|p2b: Clefable|Clefable, L50, M|100/100
+|move|p2a: Rotom|Thunderbolt|p1a: Milotic
+|-supereffective|p1a: Milotic|1
+|-damage|p1a: Milotic|52/100
+|move|p1b: Farigiraf|Psychic|p2b: Clefable
+|-damage|p2b: Clefable|58/100
+|move|p1a: Milotic|Muddy Water|p2b: Clefable|[spread] p2a,p2b
+|-damage|p2a: Rotom|0 fnt
+|-damage|p2b: Clefable|32/100
+|-unboost|p2b: Clefable|accuracy|1
+|faint|p2a: Rotom
+|
+|upkeep
+|
+|t:|1784582634
+|switch|p2a: Excadrill|Excadrill, L50, F, shiny|100/100
+|turn|3
+|
+|t:|1784582697
+|detailschange|p2b: Clefable|Clefable-Mega, L50, M
+|-mega|p2b: Clefable|Clefable|Clefablite
+|move|p2b: Clefable|Moonblast|p1a: Milotic
+|-damage|p1a: Milotic|11/100
+|-unboost|p1a: Milotic|spa|1
+|-ability|p1a: Milotic|Competitive|boost
+|-boost|p1a: Milotic|spa|2
+|move|p2a: Excadrill|Megahorn|p1b: Farigiraf
+|-supereffective|p1b: Farigiraf|1
+|-damage|p1b: Farigiraf|9/100
+|-damage|p2a: Excadrill|90/100|[from] item: Life Orb
+|move|p1b: Farigiraf|Psychic|p2a: Excadrill
+|-resisted|p2a: Excadrill|1
+|-damage|p2a: Excadrill|70/100
+|move|p1a: Milotic|Muddy Water|p2a: Excadrill|[spread] p2a,p2b
+|-supereffective|p2a: Excadrill|1
+|-damage|p2a: Excadrill|0 fnt
+|-damage|p2b: Clefable|0 fnt
+|faint|p2a: Excadrill
+|faint|p2b: Clefable
+|
+|-end|p1a: Milotic|move: Taunt
+|upkeep
+|
+|t:|1784582716
+|switch|p2b: Infernape|Infernape, L50, F, shiny|100/100
+|turn|4
+|
+|t:|1784582725
+|move|p2b: Infernape|Aura Sphere|p1a: Milotic
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|move|p1b: Farigiraf|Psychic|p2b: Infernape
+|-supereffective|p2b: Infernape|1
+|-damage|p2b: Infernape|11/100
+|
+|upkeep
+|
+|t:|1784582732
+|switch|p1a: Gallade|Gallade, L50, M, shiny|100/100
+|turn|5
+|
+|t:|1784582736
+|move|p2b: Infernape|Flamethrower|p1b: Farigiraf
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|move|p1a: Gallade|Psycho Cut|p2b: Infernape
+|-supereffective|p2b: Infernape|1
+|-damage|p2b: Infernape|0 fnt
+|faint|p2b: Infernape
+|
+|win|hotellicker
+|l|☆hotellicker
+|player|p1|

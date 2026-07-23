@@ -1,0 +1,118 @@
+|j|☆lolgz
+|j|‽mewelperro
+|html|lolgzmewelperro    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1784834857
+|gametype|doubles
+|player|p1|lolgz|dawn|1172
+|player|p2|mewelperro|169|1192
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Blastoise, L50, M|
+|poke|p1|Vivillon, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Camerupt, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Swampert, L50, M|
+|poke|p2|Metagross, L50, shiny|
+|teampreview|4
+|showteam|p1|Blastoise||Blastoisinite|Torrent|WaterSpout,DarkPulse,FakeOut,ShellSmash|Modest||M|||50|]Vivillon||ChoiceScarf|CompoundEyes|SleepPowder,RagePowder,Tailwind,Hurricane|Timid||F|||50|]Farigiraf||SitrusBerry|ArmorTail|TrickRoom,Psychic,HelpingHand,Protect|Relaxed||F|||50|]Gallade||IronBall|Sharpness|SacredSword,PsychoCut,LeafBlade,TrickRoom|Brave||M|||50|]Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,IronHead,Protect|Brave||M|||50|]Camerupt||Cameruptite|MagmaArmor|HeatWave,EarthPower,AncientPower,Protect|Quiet||M|||50|
+|showteam|p2|Archaludon||Leftovers|Stamina|ElectroShot,AuraSphere,FlashCannon,Protect|Modest||M|||50|]Pelipper||SitrusBerry|Drizzle|Tailwind,WeatherBall,Hurricane,WideGuard|Modest||M|||50|]Grimmsnarl||LightClay|Prankster|PartingShot,SpiritBreak,Reflect,LightScreen|Calm||M|||50|]Sinistcha||KasibBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom|Calm|||||50|]Swampert||Swampertite|Torrent|WaveCrash,Earthquake,IcePunch,Protect|Adamant||M|||50|]Metagross||Metagrossite|ClearBody|BodyPress,IronHead,PsychicFangs,Protect|Adamant|||||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by lolgz)
+|
+|t:|1784834880
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Vivillon|Vivillon, L50, F|100/100
+|switch|p1b: Blastoise|Blastoise, L50, M|100/100
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|1
+|
+|t:|1784834898
+|detailschange|p1b: Blastoise|Blastoise-Mega, L50, M
+|-mega|p1b: Blastoise|Blastoise|Blastoisinite
+|move|p2b: Grimmsnarl|Parting Shot|p1a: Vivillon
+|-unboost|p1a: Vivillon|atk|1
+|-unboost|p1a: Vivillon|spa|1
+|
+|t:|1784834903
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100|[from] Parting Shot
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p1a: Vivillon|Sleep Powder|p2a: Archaludon
+|-status|p2a: Archaludon|slp|[from] move: Sleep Powder
+|move|p1b: Blastoise|Shell Smash|p1b: Blastoise
+|-unboost|p1b: Blastoise|def|1
+|-unboost|p1b: Blastoise|spd|1
+|-boost|p1b: Blastoise|atk|2
+|-boost|p1b: Blastoise|spa|2
+|-boost|p1b: Blastoise|spe|2
+|cant|p2a: Archaludon|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1784834914
+|move|p2b: Pelipper|Wide Guard|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Wide Guard
+|move|p1b: Blastoise|Shell Smash|p1b: Blastoise
+|-unboost|p1b: Blastoise|def|1
+|-unboost|p1b: Blastoise|spd|1
+|-boost|p1b: Blastoise|atk|2
+|-boost|p1b: Blastoise|spa|2
+|-boost|p1b: Blastoise|spe|2
+|move|p1a: Vivillon|Sleep Powder|p2b: Pelipper
+|-status|p2b: Pelipper|slp|[from] move: Sleep Powder
+|cant|p2a: Archaludon|slp
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1784834929
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|-curestatus|p2a: Archaludon|slp|[msg]
+|move|p2a: Archaludon|Protect|p2a: Archaludon
+|-singleturn|p2a: Archaludon|Protect
+|cant|p2b: Pelipper|slp
+|move|p1b: Blastoise|Water Spout|p2a: Archaludon|[spread] p2b
+|-activate|p2a: Archaludon|move: Protect
+|-resisted|p2b: Pelipper|1
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1784834944
+|switch|p2b: Swampert|Swampert, L50, M|100/100
+|turn|4
+|
+|t:|1784834954
+|detailschange|p2b: Swampert|Swampert-Mega, L50, M
+|-mega|p2b: Swampert|Swampert|Swampertite
+|move|p1a: Farigiraf|Helping Hand|p1b: Blastoise
+|-singleturn|p1b: Blastoise|Helping Hand|[of] p1a: Farigiraf
+|move|p1b: Blastoise|Water Spout|p2a: Archaludon|[spread] p2a,p2b
+|-resisted|p2a: Archaludon|1
+|-damage|p2a: Archaludon|0 fnt
+|-damage|p2b: Swampert|0 fnt
+|faint|p2a: Archaludon
+|faint|p2b: Swampert
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|mewelperro forfeited.
+|
+|win|lolgz

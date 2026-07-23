@@ -1,0 +1,174 @@
+|j|☆Ghfufugugi
+|j|☆rgangel
+|html|Ghfufugugirgangel    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783901392
+|gametype|doubles
+|player|p1|Ghfufugugi|1|1000
+|player|p2|rgangel|cynthia|1153
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Starmie, L50|
+|poke|p1|Sneasler, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Primarina, L50, M|
+|poke|p2|Camerupt, L50, F|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Araquanid, L50, M|
+|poke|p2|Abomasnow, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Medicham, L50, F|
+|teampreview|4
+|showteam|p1|Whimsicott||FocusSash|Prankster|Tailwind,FakeTears,Encore,Moonblast|Naive||F|||50|]Starmie||Starminite|Illuminate|Facade,Protect,FlipTurn,PsychoCut|Jolly|||||50|]Sneasler||WhiteHerb|Unburden|DireClaw,CloseCombat,Protect,FakeOut|Adamant||F|||50|]Garchomp||ExpertBelt|RoughSkin|RockSlide,StompingTantrum,DragonClaw,Protect|Jolly||M|||50|]Dragonite||Dragoninite|Multiscale|DracoMeteor,AirSlash,Flamethrower,Protect|Modest||M|||50|]Primarina||SitrusBerry|LiquidVoice|HyperVoice,Moonblast,Protect,IcyWind|Hasty||M|||50|
+|showteam|p2|Camerupt||Cameruptite|MagmaArmor|EarthPower,Eruption,AncientPower,Protect|Quiet||F|||50|]Farigiraf||ColburBerry|ArmorTail|TwinBeam,HyperVoice,TrickRoom,Protect|Relaxed||F|||50|]Araquanid||LifeOrb|WaterBubble|Liquidation,Protect,WideGuard,BugBite|Brave||M|||50|]Abomasnow||Abomasite|SnowWarning|GigaDrain,Blizzard,AuroraVeil,Protect|Quiet||F|||50|]Incineroar||ChopleBerry|Intimidate|PartingShot,FlareBlitz,DarkestLariat,FakeOut|Careful||M|||50|]Medicham||FocusSash|PurePower|FakeOut,Feint,TrickRoom,DrainPunch|Brave||F|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by rgangel)
+|inactive|rgangel has 60 seconds left.
+|
+|t:|1783901432
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, F|100/100
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|-unboost|p1b: Garchomp|atk|1
+|-enditem|p1a: Sneasler|White Herb
+|-clearnegativeboost|p1a: Sneasler|[silent]
+|turn|1
+|
+|t:|1783901447
+|move|p2b: Incineroar|Fake Out|p1a: Sneasler
+|-damage|p1a: Sneasler|80/100
+|cant|p1a: Sneasler|flinch
+|move|p1b: Garchomp|Rock Slide|p2a: Farigiraf|[spread] p2b
+|-miss|p1b: Garchomp|p2a: Farigiraf
+|-supereffective|p2b: Incineroar|1
+|-damage|p2b: Incineroar|71/100
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1783901460
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p2a: Farigiraf|Twin Beam|p1a: Sneasler
+|-activate|p1a: Sneasler|move: Protect
+|move|p2b: Incineroar|Parting Shot|p1b: Garchomp
+|-unboost|p1b: Garchomp|atk|1
+|-unboost|p1b: Garchomp|spa|1
+|
+|t:|1783901468
+|switch|p2b: Abomasnow|Abomasnow, L50, F|100/100|[from] Parting Shot
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Abomasnow
+|move|p1b: Garchomp|Stomping Tantrum|p2b: Abomasnow
+|-resisted|p2b: Abomasnow|1
+|-damage|p2b: Abomasnow|92/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1783901481
+|switch|p1a: Primarina|Primarina, L50, M|100/100
+|detailschange|p2b: Abomasnow|Abomasnow-Mega, L50, F
+|-mega|p2b: Abomasnow|Abomasnow|Abomasite
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p2b: Abomasnow|Giga Drain|p1b: Garchomp
+|-activate|p1b: Garchomp|move: Protect
+|move|p2a: Farigiraf|Twin Beam|p1a: Primarina
+|-damage|p1a: Primarina|87/100
+|-damage|p1a: Primarina|73/100
+|-hitcount|p1a: Primarina|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1783901501
+|switch|p1b: Starmie|Starmie, L50|100/100
+|move|p2b: Abomasnow|Giga Drain|p1a: Primarina
+|-supereffective|p1a: Primarina|1
+|-damage|p1a: Primarina|0 fnt
+|-heal|p2b: Abomasnow|100/100|[from] drain|[of] p1a: Primarina
+|faint|p1a: Primarina
+|move|p2a: Farigiraf|Twin Beam|p1b: Starmie
+|-resisted|p1b: Starmie|1
+|-damage|p1b: Starmie|89/100
+|-resisted|p1b: Starmie|1
+|-damage|p1b: Starmie|78/100
+|-hitcount|p1b: Starmie|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1783901510
+|switch|p1a: Sneasler|Sneasler, L50, F|80/100
+|turn|5
+|
+|t:|1783901519
+|switch|p2b: Incineroar|Incineroar, L50, M|71/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|-unboost|p1b: Starmie|atk|1
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p1b: Starmie|Protect|p1b: Starmie
+|-singleturn|p1b: Starmie|Protect
+|move|p2a: Farigiraf|Twin Beam|p1a: Sneasler
+|-activate|p1a: Sneasler|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1783901534
+|detailschange|p1b: Starmie|Starmie-Mega, L50
+|-mega|p1b: Starmie|Starmie|Starminite
+|move|p2b: Incineroar|Fake Out|p1b: Starmie
+|-damage|p1b: Starmie|64/100
+|cant|p1b: Starmie|flinch
+|move|p1a: Sneasler|Close Combat|p2b: Incineroar
+|-supereffective|p2b: Incineroar|1
+|-enditem|p2b: Incineroar|Chople Berry|[eat]
+|-enditem|p2b: Incineroar|Chople Berry|[weaken]
+|-damage|p2b: Incineroar|29/100
+|-unboost|p1a: Sneasler|def|1
+|-unboost|p1a: Sneasler|spd|1
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1783901548
+|move|p1a: Sneasler|Protect|p1a: Sneasler
+|-singleturn|p1a: Sneasler|Protect
+|move|p2a: Farigiraf|Twin Beam|p1a: Sneasler
+|-activate|p1a: Sneasler|move: Protect
+|move|p2b: Incineroar|Darkest Lariat|p1b: Starmie
+|-supereffective|p1b: Starmie|1
+|-damage|p1b: Starmie|0 fnt
+|faint|p1b: Starmie
+|
+|upkeep
+|-message|Ghfufugugi forfeited.
+|raw|Ghfufugugi's rating: 1000 → 1000(+0 for losing)
+|raw|rgangel's rating: 1153 → 1168(+15 for winning)
+|
+|win|rgangel
+|l|☆Ghfufugugi
+|player|p1|

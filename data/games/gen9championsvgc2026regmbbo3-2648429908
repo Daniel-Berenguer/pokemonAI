@@ -1,0 +1,201 @@
+|j|☆RoronoaLeighton
+|j|☆wontonsoup1
+|html|RoronoaLeightonwontonsoup1    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783932497
+|gametype|doubles
+|player|p1|RoronoaLeighton|101|
+|player|p2|wontonsoup1|2|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Scizor, L50, F|
+|poke|p1|Politoed, L50, M|
+|poke|p1|Umbreon, L50, M|
+|poke|p1|Infernape, L50, M|
+|poke|p1|Torterra, L50, F|
+|poke|p1|Klefki, L50, M|
+|poke|p2|Camerupt, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Sableye, L50, F|
+|poke|p2|Snorlax, L50, M|
+|poke|p2|Tinkaton, L50, F|
+|teampreview|4
+|showteam|p1|Scizor||Scizorite|Technician|BulletPunch,CloseCombat,Uturn,Protect|Adamant||F|||50|]Politoed||SitrusBerry|Drizzle|PerishSong,Encore,Protect,WeatherBall|Calm||M|||50|]Umbreon||Leftovers|InnerFocus|Protect,Snarl,HelpingHand,Yawn|Calm||M|||50|]Infernape||FocusSash|Blaze|VacuumWave,FakeOut,Flamethrower,Protect|Modest||M|||50|]Torterra||IronBall|ShellArmor|HeadlongRush,StompingTantrum,Curse,Protect|Brave||F|||50|]Klefki||MentalHerb|Prankster|TrickRoom,Reflect,LightScreen,Imprison|Calm||M|||50|
+|showteam|p2|Camerupt||Cameruptite|MagmaArmor|Eruption,Protect,EarthPower,HeatWave|Quiet||F|||50|]Hatterene||SitrusBerry|MagicBounce|TrickRoom,DazzlingGleam,Psychic,HealPulse|Modest||F|||50|]Kingambit||ChopleBerry|Defiant|KowtowCleave,IronHead,SwordsDance,SuckerPunch|Brave||M|||50|]Sableye||MentalHerb|Prankster|LightScreen,Reflect,Quash,FakeOut|Sassy||F|||50|]Snorlax||SilkScarf|ThickFat|SelfDestruct,Curse,BodySlam,BodyPress|Relaxed||M|||50|]Tinkaton||FocusSash|OwnTempo|FakeOut,Feint,GigatonHammer,HelpingHand|Adamant||F|||50|
+|
+|t:|1783932539
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Politoed|Politoed, L50, M|100/100
+|switch|p1b: Umbreon|Umbreon, L50, M|100/100
+|switch|p2a: Sableye|Sableye, L50, F|100/100
+|switch|p2b: Snorlax|Snorlax, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|turn|1
+|
+|t:|1783932580
+|move|p1b: Umbreon|Helping Hand|p1a: Politoed
+|-singleturn|p1a: Politoed|Helping Hand|[of] p1b: Umbreon
+|move|p2a: Sableye|Fake Out|p1a: Politoed
+|-damage|p1a: Politoed|92/100
+|cant|p1a: Politoed|flinch
+|move|p2b: Snorlax|Self-Destruct|p1a: Politoed|[spread] p1a,p1b
+|-immune|p2a: Sableye
+|-damage|p1a: Politoed|30/100
+|-damage|p1b: Umbreon|49/100
+|-enditem|p1a: Politoed|Sitrus Berry|[eat]
+|-heal|p1a: Politoed|55/100|[from] item: Sitrus Berry
+|faint|p2b: Snorlax
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Umbreon|54/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783932597
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|turn|2
+|
+|t:|1783932624
+|move|p2a: Sableye|Light Screen|p2a: Sableye
+|-sidestart|p2: wontonsoup1|move: Light Screen
+|move|p1a: Politoed|Encore|p2a: Sableye
+|-start|p2a: Sableye|Encore
+|-enditem|p2a: Sableye|Mental Herb
+|-end|p2a: Sableye|Encore
+|move|p1b: Umbreon|Snarl|p2b: Hatterene|[spread] p2a,p2b
+|-damage|p2a: Sableye|92/100
+|-damage|p2b: Hatterene|93/100
+|-unboost|p2a: Sableye|spa|1
+|-unboost|p2b: Hatterene|spa|1
+|move|p2b: Hatterene|Trick Room|p2b: Hatterene
+|-fieldstart|move: Trick Room|[of] p2b: Hatterene
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Umbreon|60/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1783932657
+|move|p2a: Sableye|Quash|p1a: Politoed
+|-activate|p1a: Politoed|move: Quash
+|move|p2b: Hatterene|Dazzling Gleam|p1a: Politoed|[spread] p1a,p1b
+|-supereffective|p1b: Umbreon|1
+|-damage|p1a: Politoed|38/100
+|-damage|p1b: Umbreon|36/100
+|move|p1b: Umbreon|Yawn|p2a: Sableye
+|-start|p2a: Sableye|move: Yawn|[of] p1b: Umbreon
+|move|p1a: Politoed|Perish Song|p1a: Politoed
+|-start|p1a: Politoed|perish3|[silent]
+|-start|p1b: Umbreon|perish3|[silent]
+|-start|p2a: Sableye|perish3|[silent]
+|-start|p2b: Hatterene|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Umbreon|42/100|[from] item: Leftovers
+|-start|p2b: Hatterene|perish3
+|-start|p2a: Sableye|perish3
+|-start|p1b: Umbreon|perish3
+|-start|p1a: Politoed|perish3
+|upkeep
+|turn|4
+|
+|t:|1783932690
+|switch|p2a: Camerupt|Camerupt, L50, F|100/100
+|move|p1b: Umbreon|Helping Hand|p1a: Politoed
+|-singleturn|p1a: Politoed|Helping Hand|[of] p1b: Umbreon
+|move|p2b: Hatterene|Psychic|p1a: Politoed
+|-damage|p1a: Politoed|9/100
+|move|p1a: Politoed|Weather Ball|p2b: Hatterene
+|-damage|p2b: Hatterene|46/100
+|-enditem|p2b: Hatterene|Sitrus Berry|[eat]
+|-heal|p2b: Hatterene|71/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Umbreon|48/100|[from] item: Leftovers
+|-start|p2b: Hatterene|perish2
+|-start|p1b: Umbreon|perish2
+|-start|p1a: Politoed|perish2
+|upkeep
+|turn|5
+|
+|t:|1783932734
+|detailschange|p2a: Camerupt|Camerupt-Mega, L50, F
+|-mega|p2a: Camerupt|Camerupt|Cameruptite
+|move|p1b: Umbreon|Protect|p1b: Umbreon
+|-singleturn|p1b: Umbreon|Protect
+|move|p2a: Camerupt|Eruption|p1b: Umbreon|[spread] p1a
+|-activate|p1b: Umbreon|move: Protect
+|-resisted|p1a: Politoed|1
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|move|p2b: Hatterene|Dazzling Gleam|p1b: Umbreon
+|-activate|p1b: Umbreon|move: Protect
+|
+|-weather|none
+|-heal|p1b: Umbreon|53/100|[from] item: Leftovers
+|-start|p2b: Hatterene|perish1
+|-start|p1b: Umbreon|perish1
+|upkeep
+|
+|t:|1783932754
+|switch|p1a: Torterra|Torterra, L50, F|100/100
+|turn|6
+|
+|t:|1783932767
+|switch|p2b: Sableye|Sableye, L50, F|92/100
+|move|p1b: Umbreon|Helping Hand|p1a: Torterra
+|-singleturn|p1a: Torterra|Helping Hand|[of] p1b: Umbreon
+|move|p2a: Camerupt|Protect|p2a: Camerupt
+|-singleturn|p2a: Camerupt|Protect
+|move|p1a: Torterra|Headlong Rush|p2a: Camerupt
+|-activate|p2a: Camerupt|move: Protect
+|
+|-heal|p1b: Umbreon|59/100|[from] item: Leftovers
+|-start|p1b: Umbreon|perish0
+|-sideend|p2: wontonsoup1|move: Light Screen
+|-fieldend|move: Trick Room
+|faint|p1b: Umbreon
+|upkeep
+|
+|t:|1783932779
+|switch|p1b: Scizor|Scizor, L50, F|100/100
+|turn|7
+|
+|t:|1783932807
+|detailschange|p1b: Scizor|Scizor-Mega, L50, F
+|-mega|p1b: Scizor|Scizor|Scizorite
+|move|p1a: Torterra|Protect|p1a: Torterra
+|-singleturn|p1a: Torterra|Protect
+|move|p2b: Sableye|Fake Out|p1a: Torterra
+|-activate|p1a: Torterra|move: Protect
+|move|p1b: Scizor|Close Combat|p2a: Camerupt
+|-damage|p2a: Camerupt|45/100
+|-unboost|p1b: Scizor|def|1
+|-unboost|p1b: Scizor|spd|1
+|move|p2a: Camerupt|Heat Wave|p1b: Scizor|[spread] p1b
+|-activate|p1a: Torterra|move: Protect
+|-supereffective|p1b: Scizor|2
+|-crit|p1b: Scizor
+|-damage|p1b: Scizor|0 fnt
+|faint|p1b: Scizor
+|
+|upkeep
+|turn|8
+|
+|t:|1783932832
+|move|p2b: Sableye|Reflect|p2b: Sableye
+|-sidestart|p2: wontonsoup1|Reflect
+|move|p2a: Camerupt|Heat Wave|p1a: Torterra
+|-supereffective|p1a: Torterra|1
+|-damage|p1a: Torterra|0 fnt
+|faint|p1a: Torterra
+|
+|win|wontonsoup1
+|l|☆RoronoaLeighton
+|player|p1|

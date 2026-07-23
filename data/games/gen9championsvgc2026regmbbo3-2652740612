@@ -1,0 +1,115 @@
+|j|☆new mental
+|j|☆Nogueda
+|html|new mentalNogueda    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784662998
+|gametype|doubles
+|player|p1|new mental|volkner|1224
+|player|p2|Nogueda|2|1165
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Aerodactyl, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Aerodactyl, L50, F|
+|poke|p2|Aegislash, L50, M|
+|poke|p2|Starmie, L50|
+|teampreview|4
+|showteam|p1|Aerodactyl||Aerodactylite|Unnerve|IceFang,RockSlide,Tailwind,DualWingbeat|Jolly||M|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,RockSlide,Earthquake,Protect|Jolly||F|||50|]Kingambit||FocusSash|Defiant|SuckerPunch,KowtowCleave,IronHead,LowKick|Adamant||F|||50|]Charizard||CharizarditeY|SolarPower|Protect,WeatherBall,HeatWave,SolarBeam|Modest||F|||50|]Sylveon||FairyFeather|Pixilate|Protect,HyperVoice,HyperBeam,QuickAttack|Modest||M|||50|]Farigiraf||SitrusBerry|ArmorTail|TrickRoom,Thunderbolt,Roar,Psychic|Bold||M|||50|
+|showteam|p2|Sneasler||LumBerry|Unburden|DireClaw,Protect,CloseCombat,XScissor|Adamant||F|||50|]Grimmsnarl||FocusSash|Prankster|Swagger,DazzlingGleam,PartingShot,FakeOut|Sassy||M|||50|]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,ShadowBall|Bold|||||50|]Aerodactyl||Aerodactylite|RockHead|RockSlide,WideGuard,DualWingbeat,Tailwind|Jolly||F|||50|]Aegislash||LifeOrb|StanceChange|KingsShield,SwordsDance,Poltergeist,IronHead|Adamant||M|||50|]Starmie||Starminite|Illuminate|ZenHeadbutt,Liquidation,AquaJet,IceSpinner|Jolly|||||50|
+|
+|t:|1784663042
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sylveon|Sylveon, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|1
+|
+|t:|1784663060
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2b: Grimmsnarl|Swagger|p2a: Sneasler
+|-boost|p2a: Sneasler|atk|2
+|-start|p2a: Sneasler|confusion
+|-enditem|p2a: Sneasler|Lum Berry|[eat]
+|-end|p2a: Sneasler|confusion
+|move|p2a: Sneasler|X-Scissor|p1b: Farigiraf
+|-supereffective|p1b: Farigiraf|1
+|-damage|p1b: Farigiraf|10/100
+|-enditem|p1b: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1b: Farigiraf|35/100|[from] item: Sitrus Berry
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by new mental)
+|
+|t:|1784663089
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p2b: Grimmsnarl|Parting Shot||[still]
+|cant|p1b: Farigiraf|ability: Armor Tail|Parting Shot|[of] p2b: Grimmsnarl
+|move|p1b: Farigiraf|Psychic|p2a: Sneasler
+|-activate|p2a: Sneasler|move: Protect
+|move|p1a: Sylveon|Hyper Voice|p2a: Sneasler|[spread] p2b
+|-activate|p2a: Sneasler|move: Protect
+|-supereffective|p2b: Grimmsnarl|1
+|-damage|p2b: Grimmsnarl|30/100
+|
+|upkeep
+|turn|3
+|inactive|Nogueda has 30 seconds left.
+|
+|t:|1784663115
+|switch|p2b: Aerodactyl|Aerodactyl, L50, F|100/100
+|move|p2a: Sneasler|Protect||[still]
+|-fail|p2a: Sneasler
+|move|p1b: Farigiraf|Psychic|p2a: Sneasler
+|-supereffective|p2a: Sneasler|2
+|-damage|p2a: Sneasler|0 fnt
+|faint|p2a: Sneasler
+|move|p1a: Sylveon|Hyper Voice|p2b: Aerodactyl
+|-damage|p2b: Aerodactyl|11/100
+|
+|upkeep
+|
+|t:|1784663128
+|switch|p2a: Sinistcha|Sinistcha, L50|100/100
+|-heal|p2b: Aerodactyl|36/100|[from] ability: Hospitality|[of] p2a: Sinistcha
+|turn|4
+|
+|t:|1784663147
+|detailschange|p2b: Aerodactyl|Aerodactyl-Mega, L50, F
+|-mega|p2b: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p2b: Aerodactyl|Wide Guard|p2b: Aerodactyl
+|-singleturn|p2b: Aerodactyl|Wide Guard
+|move|p2a: Sinistcha|Rage Powder|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|move: Rage Powder
+|move|p1b: Farigiraf|Thunderbolt|p2a: Sinistcha
+|-resisted|p2a: Sinistcha|1
+|-damage|p2a: Sinistcha|86/100
+|move|p1a: Sylveon|Hyper Beam|p2a: Sinistcha
+|-damage|p2a: Sinistcha|0 fnt
+|-mustrecharge|p1a: Sylveon
+|faint|p2a: Sinistcha
+|
+|upkeep
+|-message|Nogueda forfeited.
+|raw|new mental's rating: 1224 → 1245(+21 for winning)
+|raw|Nogueda's rating: 1165 → 1144(-21 for losing)
+|
+|win|new mental

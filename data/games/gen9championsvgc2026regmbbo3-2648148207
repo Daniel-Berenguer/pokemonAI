@@ -1,0 +1,176 @@
+|j|☆ace.bnz
+|j|☆puppeteer35
+|html|ace.bnzpuppeteer35    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783882629
+|gametype|doubles
+|player|p1|ace.bnz|102|1137
+|player|p2|puppeteer35|colress|1059
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p2|Froslass, L50, F, shiny|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Aerodactyl, L50, M, shiny|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Rotom-Heat, L50|
+|teampreview|4
+|showteam|p1|Kingambit||ChopleBerry|Defiant|Protect,KowtowCleave,SuckerPunch,IronHead|Adamant||M|||50|]Whimsicott||FocusSash|Prankster|Protect,Moonblast,Encore,Tailwind|Timid||F|||50|]Garchomp||RoseliBerry|RoughSkin|RockTomb,PoisonJab,DragonClaw,Earthquake|Adamant||M|||50|]Charizard||CharizarditeY|SolarPower|Protect,WeatherBall,SolarBeam,HeatWave|Modest||F|||50|]Basculegion||SitrusBerry|Adaptability|Protect,WaveCrash,AquaJet,LastRespects|Adamant||M|||50|]Dragonite||Dragoninite|Multiscale|Protect,HeatWave,Thunderbolt,DragonPulse|Modest||F|||50|
+|showteam|p2|Froslass||Froslassite|SnowCloak|Blizzard,ShadowBall,AuroraVeil,Protect|Modest||F|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,RockSlide,Protect|Jolly||F|||50|]Aerodactyl||Aerodactylite|Unnerve|RockSlide,DualWingbeat,Tailwind,WideGuard|Jolly||M|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,IronHead,Protect|Adamant||M|||50|]Sneasler||WhiteHerb|Unburden|DireClaw,CloseCombat,FakeOut,Protect|Jolly||M|||50|]Rotom-Heat||ChoiceScarf|Levitate|Thunderbolt,Electroweb,Overheat,VoltSwitch|Timid|||||50|
+|
+|t:|1783882656
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, L50, M, shiny|100/100
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|-ability|p2a: Aerodactyl|Unnerve
+|turn|1
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by puppeteer35)
+|
+|t:|1783882683
+|detailschange|p2a: Aerodactyl|Aerodactyl-Mega, L50, M, shiny
+|-mega|p2a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p1b: Basculegion|Aqua Jet|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl|1
+|-damage|p2a: Aerodactyl|21/100
+|move|p2b: Kingambit|Sucker Punch||[still]
+|-fail|p2b: Kingambit
+|move|p2a: Aerodactyl|Rock Slide|p1b: Basculegion|[spread] p1a,p1b
+|-damage|p1a: Whimsicott|57/100
+|-damage|p1b: Basculegion|69/100
+|move|p1a: Whimsicott|Moonblast|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|upkeep
+|
+|t:|1783882697
+|switch|p2a: Rotom|Rotom-Heat, L50|100/100
+|turn|2
+|
+|t:|1783882713
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: ace.bnz|move: Tailwind
+|move|p2a: Rotom|Overheat|p1a: Whimsicott|[miss]
+|-miss|p2a: Rotom|p1a: Whimsicott
+|move|p2b: Kingambit|Kowtow Cleave|p1b: Garchomp
+|-damage|p1b: Garchomp|47/100
+|-damage|p2b: Kingambit|87/100|[from] ability: Rough Skin|[of] p1b: Garchomp
+|
+|upkeep
+|turn|3
+|
+|t:|1783882731
+|move|p2b: Kingambit|Protect|p2b: Kingambit
+|-singleturn|p2b: Kingambit|Protect
+|move|p1a: Whimsicott|Moonblast|p2b: Kingambit
+|-activate|p2b: Kingambit|move: Protect
+|move|p1b: Garchomp|Earthquake|p2a: Rotom|[spread] p1a
+|-activate|p2b: Kingambit|move: Protect
+|-immune|p2a: Rotom|[from] ability: Levitate
+|-resisted|p1a: Whimsicott|1
+|-damage|p1a: Whimsicott|30/100
+|move|p2a: Rotom|Overheat|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott|1
+|-damage|p1a: Whimsicott|0 fnt
+|-unboost|p2a: Rotom|spa|2
+|faint|p1a: Whimsicott
+|
+|upkeep
+|
+|t:|1783882738
+|switch|p1a: Charizard|Charizard, L50, F|100/100
+|turn|4
+|
+|t:|1783882754
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2b: Kingambit|Sucker Punch|p1b: Garchomp
+|-damage|p1b: Garchomp|0 fnt
+|-damage|p2b: Kingambit|75/100|[from] ability: Rough Skin|[of] p1b: Garchomp
+|faint|p1b: Garchomp
+|move|p1a: Charizard|Heat Wave|p2a: Garchomp|[spread] p2a,p2b
+|-resisted|p2a: Garchomp|1
+|-supereffective|p2b: Kingambit|1
+|-damage|p2a: Garchomp|67/100
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783882770
+|switch|p1b: Basculegion|Basculegion, L50, M|69/100
+|switch|p2b: Rotom|Rotom-Heat, L50|100/100
+|turn|5
+|
+|t:|1783882786
+|move|p1a: Charizard|Heat Wave|p2a: Garchomp|[spread] p2a,p2b
+|-resisted|p2a: Garchomp|1
+|-resisted|p2b: Rotom|1
+|-damage|p2a: Garchomp|35/100
+|-damage|p2b: Rotom|62/100
+|-status|p2a: Garchomp|brn
+|move|p1b: Basculegion|Last Respects|p2b: Rotom
+|-damage|p2b: Rotom|0 fnt
+|faint|p2b: Rotom
+|move|p2a: Garchomp|Rock Slide|p1b: Basculegion|[spread] p1a,p1b
+|-supereffective|p1a: Charizard|2
+|-damage|p1a: Charizard|46/100
+|-damage|p1b: Basculegion|54/100
+|-damage|p2a: Garchomp|25/100 brn|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Garchomp|19/100 brn|[from] brn
+|-sideend|p1: ace.bnz|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1783882807
+|move|p2a: Garchomp|Rock Slide|p1b: Basculegion|[spread] p1a,p1b
+|-supereffective|p1a: Charizard|2
+|-damage|p1a: Charizard|0 fnt
+|-damage|p1b: Basculegion|41/100
+|-enditem|p1b: Basculegion|Sitrus Berry|[eat]
+|-heal|p1b: Basculegion|65/100|[from] item: Sitrus Berry
+|faint|p1a: Charizard
+|-damage|p2a: Garchomp|9/100 brn|[from] item: Life Orb
+|cant|p1b: Basculegion|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Garchomp|3/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1783882821
+|move|p1b: Basculegion|Protect|p1b: Basculegion
+|-singleturn|p1b: Basculegion|Protect
+|move|p2a: Garchomp|Dragon Claw|p1b: Basculegion
+|-activate|p1b: Basculegion|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Garchomp|0 fnt|[from] brn
+|faint|p2a: Garchomp
+|
+|win|ace.bnz
+|raw|ace.bnz's rating: 1137 → 1156(+19 for winning)
+|raw|puppeteer35's rating: 1059 → 1044(-15 for losing)
+|c|☆ace.bnz|gg
+|l|☆puppeteer35
+|player|p2|

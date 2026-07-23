@@ -9,7 +9,7 @@ existing_games = os.listdir("data/games/")
 
 new = 0
 
-for p in range(1,46):
+for p in range(17,28):
     print("Page number: ", p)
     options = Options()
     options.add_argument("--headless=new") 

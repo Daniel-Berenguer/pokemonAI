@@ -1,0 +1,227 @@
+|j|☆Shahrozkhan096
+|j|☆cbilla
+|html|Shahrozkhan096cbilla    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1784464996
+|gametype|doubles
+|player|p1|Shahrozkhan096|101|
+|player|p2|cbilla|101|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F, shiny|
+|poke|p1|Tyrantrum, L50, F, shiny|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Milotic, L50, M, shiny|
+|poke|p1|Machamp, L50, F|
+|poke|p2|Klefki, L50, F|
+|poke|p2|Hippowdon, L50, M|
+|poke|p2|Roserade, L50, F|
+|poke|p2|Archaludon, L50, M, shiny|
+|poke|p2|Tauros-Paldea-Blaze, L50, M, shiny|
+|poke|p2|Staraptor, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,SolarBeam,Protect|Modest||F|||50|]Tyrantrum||ChoiceScarf|RockHead|HeadSmash,RockSlide,DragonClaw,Crunch|Jolly||F|||50|]Talonflame||FocusSash|GaleWings|Tailwind,BraveBird,FlareBlitz,Protect|Adamant||M|||50|]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,Protect,StrengthSap|Bold|||||50|]Milotic||Leftovers|Competitive|Scald,IceBeam,Protect,Recover|Modest||M|||50|]Machamp||QuickClaw|NoGuard|DynamicPunch,Detect,BrickBreak,StoneEdge|Adamant||F|||50|
+|showteam|p2|Klefki||LightClay|Prankster|LightScreen,Reflect,ThunderWave,DazzlingGleam|Bold||F|||50|]Hippowdon||SitrusBerry|SandStream|Earthquake,RockSlide,Yawn,Protect|Impish||M|||50|]Roserade||FocusSash|NaturalCure|SludgeBomb,EnergyBall,SleepPowder,Protect|Timid||F|||50|]Archaludon||Leftovers|Stamina|AuraSphere,FlashCannon,DracoMeteor,Protect|Modest||M|||50|]Tauros-Paldea-Blaze||LifeOrb|Intimidate|FlareBlitz,CloseCombat,RockSlide,Protect|Jolly||M|||50|]Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,Roost,Protect|Adamant||F|||50|
+|j| babayaga27
+|
+|t:|1784465174
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Talonflame|Talonflame, L50, M|100/100
+|switch|p1b: Milotic|Milotic, L50, M, shiny|100/100
+|switch|p2a: Klefki|Klefki, L50, F|100/100
+|switch|p2b: Roserade|Roserade, L50, F|100/100
+|turn|1
+|
+|t:|1784465221
+|move|p1b: Milotic|Protect|p1b: Milotic
+|-singleturn|p1b: Milotic|Protect
+|move|p2a: Klefki|Light Screen|p2a: Klefki
+|-sidestart|p2: cbilla|move: Light Screen
+|move|p1a: Talonflame|Flare Blitz|p2b: Roserade
+|-supereffective|p2b: Roserade|1
+|-enditem|p2b: Roserade|Focus Sash
+|-damage|p2b: Roserade|1/100
+|-damage|p1a: Talonflame|70/100|[from] Recoil
+|move|p2b: Roserade|Sleep Powder|p1a: Talonflame
+|-status|p1a: Talonflame|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|2
+|
+|t:|1784465256
+|switch|p1a: Machamp|Machamp, L50, F|100/100
+|move|p2b: Roserade|Protect|p2b: Roserade
+|-singleturn|p2b: Roserade|Protect
+|move|p2a: Klefki|Thunder Wave|p1b: Milotic
+|-status|p1b: Milotic|par
+|move|p1b: Milotic|Ice Beam|p2b: Roserade
+|-activate|p2b: Roserade|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1784465292
+|move|p2a: Klefki|Reflect|p2a: Klefki
+|-sidestart|p2: cbilla|Reflect
+|move|p2b: Roserade|Sleep Powder|p1a: Machamp
+|-status|p1a: Machamp|slp|[from] move: Sleep Powder
+|cant|p1a: Machamp|slp
+|move|p1b: Milotic|Scald|p2a: Klefki
+|-damage|p2a: Klefki|70/100
+|
+|upkeep
+|turn|4
+|
+|t:|1784465314
+|move|p2b: Roserade|Energy Ball|p1b: Milotic
+|-supereffective|p1b: Milotic|1
+|-crit|p1b: Milotic
+|-damage|p1b: Milotic|1/100 par
+|move|p2a: Klefki|Dazzling Gleam|p1b: Milotic|[spread] p1a,p1b
+|-supereffective|p1a: Machamp|1
+|-damage|p1a: Machamp|63/100 slp
+|-damage|p1b: Milotic|0 fnt
+|faint|p1b: Milotic
+|-curestatus|p1a: Machamp|slp|[msg]
+|move|p1a: Machamp|Brick Break|p2b: Roserade
+|-sideend|p2: cbilla|Reflect
+|-sideend|p2: cbilla|move: Light Screen
+|-resisted|p2b: Roserade|1
+|-damage|p2b: Roserade|0 fnt
+|faint|p2b: Roserade
+|
+|upkeep
+|
+|t:|1784465335
+|switch|p2b: Tauros|Tauros-Paldea-Blaze, L50, M, shiny|100/100
+|switch|p1b: Talonflame|Talonflame, L50, M|70/100 slp
+|-ability|p2b: Tauros|Intimidate|boost
+|-unboost|p1a: Machamp|atk|1
+|-unboost|p1b: Talonflame|atk|1
+|turn|5
+|
+|t:|1784465369
+|move|p2a: Klefki|Reflect|p2a: Klefki
+|-sidestart|p2: cbilla|Reflect
+|move|p2b: Tauros|Rock Slide|p1b: Talonflame|[spread] p1a,p1b
+|-resisted|p1a: Machamp|1
+|-supereffective|p1b: Talonflame|2
+|-damage|p1a: Machamp|52/100
+|-damage|p1b: Talonflame|0 fnt
+|faint|p1b: Talonflame
+|-damage|p2b: Tauros|90/100|[from] item: Life Orb
+|move|p1a: Machamp|Dynamic Punch|p2b: Tauros
+|-damage|p2b: Tauros|59/100
+|-start|p2b: Tauros|confusion
+|
+|upkeep
+|
+|t:|1784465381
+|switch|p1b: Charizard|Charizard, L50, F, shiny|100/100
+|turn|6
+|
+|t:|1784465397
+|detailschange|p1b: Charizard|Charizard-Mega-Y, L50, F, shiny
+|-mega|p1b: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|move|p2a: Klefki|Thunder Wave|p1b: Charizard
+|-status|p1b: Charizard|par
+|-activate|p2b: Tauros|confusion
+|-damage|p2b: Tauros|45/100|[from] confusion
+|move|p1b: Charizard|Heat Wave|p2b: Tauros|[spread] p2a,p2b
+|-supereffective|p2a: Klefki|1
+|-resisted|p2b: Tauros|1
+|-damage|p2a: Klefki|0 fnt
+|-damage|p2b: Tauros|0 fnt
+|faint|p2a: Klefki
+|faint|p2b: Tauros
+|move|p1a: Machamp|Brick Break|p2: Klefki|[notarget]
+|-fail|p1a: Machamp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1784465416
+|switch|p2b: Staraptor|Staraptor, L50, F|100/100
+|-ability|p2b: Staraptor|Intimidate|boost
+|-unboost|p1a: Machamp|atk|1
+|-unboost|p1b: Charizard|atk|1
+|turn|7
+|
+|t:|1784465445
+|detailschange|p2b: Staraptor|Staraptor-Mega, L50, F
+|-mega|p2b: Staraptor|Staraptor|Staraptite
+|move|p2b: Staraptor|Brave Bird|p1b: Charizard
+|-damage|p1b: Charizard|1/100 par
+|-damage|p2b: Staraptor|73/100|[from] Recoil
+|cant|p1b: Charizard|par
+|move|p1a: Machamp|Dynamic Punch|p2b: Staraptor
+|-resisted|p2b: Staraptor|1
+|-damage|p2b: Staraptor|64/100
+|-start|p2b: Staraptor|confusion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1784465461
+|-activate|p2b: Staraptor|confusion
+|move|p2b: Staraptor|Close Combat|p1b: Charizard
+|-resisted|p1b: Charizard|1
+|-damage|p1b: Charizard|0 fnt
+|-boost|p2b: Staraptor|def|1
+|-boost|p2b: Staraptor|spd|1
+|faint|p1b: Charizard
+|move|p1a: Machamp|Stone Edge|p2b: Staraptor
+|-crit|p2b: Staraptor
+|-damage|p2b: Staraptor|10/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|-activate|p1a: Machamp|item: Quick Claw
+|
+|t:|1784465477
+|move|p1a: Machamp|Stone Edge|p2b: Staraptor
+|-damage|p2b: Staraptor|1/100
+|-activate|p2b: Staraptor|confusion
+|move|p2b: Staraptor|Roost|p2b: Staraptor
+|-heal|p2b: Staraptor|51/100
+|-singleturn|p2b: Staraptor|move: Roost
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|10
+|
+|t:|1784465520
+|-activate|p2b: Staraptor|confusion
+|-damage|p2b: Staraptor|41/100|[from] confusion
+|move|p1a: Machamp|Brick Break|p2b: Staraptor
+|-sideend|p2: cbilla|Reflect
+|-resisted|p2b: Staraptor|1
+|-damage|p2b: Staraptor|35/100
+|
+|-weather|none
+|upkeep
+|turn|11
+|-activate|p1a: Machamp|item: Quick Claw
+|
+|t:|1784465538
+|move|p1a: Machamp|Stone Edge|p2b: Staraptor
+|-damage|p2b: Staraptor|23/100
+|-activate|p2b: Staraptor|confusion
+|move|p2b: Staraptor|Close Combat|p1a: Machamp
+|-damage|p1a: Machamp|0 fnt
+|-boost|p2b: Staraptor|def|1
+|-boost|p2b: Staraptor|spd|1
+|faint|p1a: Machamp
+|
+|win|cbilla
+|inactive|Shahrozkhan096 has 30 seconds to confirm battle start!
+|inactive|cbilla has 30 seconds to confirm battle start!

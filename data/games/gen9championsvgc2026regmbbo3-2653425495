@@ -1,0 +1,230 @@
+|j|☆Adriatic Tides
+|j|☆DrTid
+|html|Adriatic TidesDrTid    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1784772536
+|gametype|doubles
+|player|p1|Adriatic Tides|leon|1152
+|player|p2|DrTid|1|1040
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Delphox, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Rotom-Wash, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Sceptile, L50, M|
+|poke|p2|Blastoise, L50, F|
+|poke|p2|Ditto, L50|
+|poke|p2|Sableye, L50, F|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Clefable, L50, F|
+|teampreview|4
+|showteam|p1|Tyranitar||Tyranitarite|SandStream|KnockOff,RockSlide,Protect,LowKick|Adamant||M|||50|]Excadrill||FocusSash|SandRush|Protect,Earthquake,IronHead,RockSlide|Adamant||M|||50|]Delphox||Delphoxite|Blaze|NastyPlot,HeatWave,Psyshock,Protect|Timid||M|||50|]Sinistcha||ColburBerry|Hospitality|TrickRoom,MatchaGotcha,Protect,RagePowder|Bold|||||50|]Rotom-Wash||Leftovers|Levitate|Electroweb,HydroPump,Protect,Thunderbolt|Modest|||||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,PartingShot,ThroatChop|Careful||M|||50|
+|showteam|p2|Sceptile||SitrusBerry|Unburden|ShedTail,Protect,Acrobatics,EnergyBall|Brave||M|||50|]Blastoise||Blastoisinite|RainDish|WaterSpout,MuddyWater,Protect,IceBeam|Modest||F|||50|]Ditto||BrightPowder|Imposter|Transform|Bold|||||50|]Sableye||RoseliBerry|Prankster|Encore,Disable,Detect,WillOWisp|Relaxed||F|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,Protect,DracoMeteor,RockSlide|Naive||M|||50|]Clefable||Leftovers|Unaware|FollowMe,Protect,DrainingKiss,HelpingHand|Calm||F|||50|
+|
+|t:|1784772564
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p1b: Excadrill|Excadrill, L50, M|100/100
+|switch|p2a: Sceptile|Sceptile, L50, M|100/100
+|switch|p2b: Garchomp|Garchomp, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1784772601
+|switch|p1a: Rotom|Rotom-Wash, L50|100/100
+|move|p2a: Sceptile|Protect|p2a: Sceptile
+|-singleturn|p2a: Sceptile|Protect
+|move|p1b: Excadrill|Rock Slide|p2a: Sceptile|[spread] p2b
+|-activate|p2a: Sceptile|move: Protect
+|-resisted|p2b: Garchomp|1
+|-damage|p2b: Garchomp|89/100
+|move|p2b: Garchomp|Earthquake|p1b: Excadrill|[spread] p1b
+|-activate|p2a: Sceptile|move: Protect
+|-immune|p1a: Rotom|[from] ability: Levitate
+|-supereffective|p1b: Excadrill|1
+|-enditem|p1b: Excadrill|Focus Sash
+|-damage|p1b: Excadrill|1/100
+|-damage|p2b: Garchomp|79/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|94/100|[from] Sandstorm
+|-damage|p2a: Sceptile|93/100|[from] Sandstorm
+|-heal|p1a: Rotom|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1784772625
+|move|p1b: Excadrill|Earthquake|p2a: Sceptile|[spread] p2a,p2b
+|-immune|p1a: Rotom|[from] ability: Levitate
+|-resisted|p2a: Sceptile|1
+|-damage|p2a: Sceptile|65/100
+|-damage|p2b: Garchomp|31/100
+|move|p2b: Garchomp|Rock Slide|p1b: Excadrill|[spread] p1a,p1b
+|-resisted|p1b: Excadrill|2
+|-damage|p1a: Rotom|73/100
+|-damage|p1b: Excadrill|0 fnt
+|faint|p1b: Excadrill
+|-damage|p2b: Garchomp|21/100|[from] item: Life Orb
+|move|p1a: Rotom|Hydro Pump|p2b: Garchomp|[miss]
+|-miss|p1a: Rotom|p2b: Garchomp
+|move|p2a: Sceptile|Shed Tail|p2a: Sceptile
+|-start|p2a: Sceptile|Substitute|[from] move: Shed Tail
+|-damage|p2a: Sceptile|15/100
+|-enditem|p2a: Sceptile|Sitrus Berry|[eat]
+|-heal|p2a: Sceptile|40/100|[from] item: Sitrus Berry
+|
+|t:|1784772641
+|switch|p2a: Blastoise|Blastoise, L50, F|100/100|[from] Shed Tail
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|67/100|[from] Sandstorm
+|-damage|p2a: Blastoise|94/100|[from] Sandstorm
+|-heal|p1a: Rotom|73/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1784772645
+|switch|p1b: Sinistcha|Sinistcha, L50|100/100
+|-heal|p1a: Rotom|98/100|[from] ability: Hospitality|[of] p1b: Sinistcha
+|turn|3
+|
+|t:|1784772667
+|detailschange|p2a: Blastoise|Blastoise-Mega, L50, F
+|-mega|p2a: Blastoise|Blastoise|Blastoisinite
+|move|p2a: Blastoise|Protect|p2a: Blastoise
+|-singleturn|p2a: Blastoise|Protect
+|move|p2b: Garchomp|Draco Meteor|p1a: Rotom
+|-damage|p1a: Rotom|43/100
+|-unboost|p2b: Garchomp|spa|2
+|-damage|p2b: Garchomp|12/100|[from] item: Life Orb
+|move|p1a: Rotom|Thunderbolt|p2a: Blastoise
+|-activate|p2a: Blastoise|move: Protect
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Blastoise|[spread] p2b
+|-activate|p2a: Blastoise|move: Protect
+|-damage|p2b: Garchomp|0 fnt
+|faint|p2b: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Rotom|37/100|[from] Sandstorm
+|-damage|p2a: Blastoise|88/100|[from] Sandstorm
+|-damage|p1b: Sinistcha|93/100|[from] Sandstorm
+|-heal|p1a: Rotom|43/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1784772689
+|switch|p2b: Sceptile|Sceptile, L50, M|40/100
+|turn|4
+|
+|t:|1784772710
+|move|p1a: Rotom|Thunderbolt|p2a: Blastoise
+|-supereffective|p2a: Blastoise|1
+|-end|p2a: Blastoise|Substitute
+|move|p2b: Sceptile|Energy Ball|p1a: Rotom
+|-supereffective|p1a: Rotom|1
+|-crit|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|move|p2a: Blastoise|Ice Beam|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha|1
+|-damage|p1b: Sinistcha|18/100
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Blastoise|[spread] p2a,p2b
+|-supereffective|p2a: Blastoise|1
+|-resisted|p2b: Sceptile|1
+|-damage|p2a: Blastoise|51/100
+|-heal|p1b: Sinistcha|37/100|[from] drain|[of] p2a: Blastoise
+|-damage|p2b: Sceptile|24/100
+|-heal|p1b: Sinistcha|45/100|[from] drain|[of] p2b: Sceptile
+|-status|p2b: Sceptile|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sceptile|18/100 brn|[from] Sandstorm
+|-damage|p2a: Blastoise|45/100|[from] Sandstorm
+|-damage|p1b: Sinistcha|39/100|[from] Sandstorm
+|-damage|p2b: Sceptile|12/100 brn|[from] brn
+|upkeep
+|
+|t:|1784772716
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|turn|5
+|
+|t:|1784772745
+|move|p1b: Sinistcha|Protect|p1b: Sinistcha
+|-singleturn|p1b: Sinistcha|Protect
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2b: Sceptile|Energy Ball|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Protect
+|move|p2a: Blastoise|Muddy Water|p1a: Tyranitar|[spread] 
+|-activate|p1a: Tyranitar|move: Protect
+|-activate|p1b: Sinistcha|move: Protect
+|
+|-weather|none
+|-damage|p2b: Sceptile|6/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1784772762
+|detailschange|p1a: Tyranitar|Tyranitar-Mega, L50, M
+|-mega|p1a: Tyranitar|Tyranitar|Tyranitarite
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2a: Blastoise|Protect|p2a: Blastoise
+|-singleturn|p2a: Blastoise|Protect
+|move|p2b: Sceptile|Energy Ball|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar|1
+|-damage|p1a: Tyranitar|65/100
+|move|p1a: Tyranitar|Knock Off|p2a: Blastoise
+|-activate|p2a: Blastoise|move: Protect
+|move|p1b: Sinistcha|Matcha Gotcha|p2a: Blastoise|[spread] p2b
+|-activate|p2a: Blastoise|move: Protect
+|-resisted|p2b: Sceptile|1
+|-damage|p2b: Sceptile|0 fnt
+|-heal|p1b: Sinistcha|42/100|[from] drain|[of] p2b: Sceptile
+|faint|p2b: Sceptile
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blastoise|39/100|[from] Sandstorm
+|-damage|p1b: Sinistcha|36/100|[from] Sandstorm
+|upkeep
+|
+|t:|1784772780
+|switch|p2b: Ditto|Ditto, L50|100/100
+|-transform|p2b: Ditto|p1a: Tyranitar|[from] ability: Imposter
+|turn|7
+|
+|t:|1784772796
+|move|p2a: Blastoise|Ice Beam|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha|1
+|-damage|p1b: Sinistcha|0 fnt
+|faint|p1b: Sinistcha
+|move|p1a: Tyranitar|Low Kick|p2b: Ditto
+|-supereffective|p2b: Ditto|2
+|-damage|p2b: Ditto|0 fnt
+|faint|p2b: Ditto
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Blastoise|33/100|[from] Sandstorm
+|upkeep
+|turn|8
+|
+|t:|1784772807
+|move|p2a: Blastoise|Water Spout|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar|1
+|-damage|p1a: Tyranitar|35/100
+|move|p1a: Tyranitar|Low Kick|p2a: Blastoise
+|-damage|p2a: Blastoise|0 fnt
+|faint|p2a: Blastoise
+|
+|win|Adriatic Tides
+||Adriatic Tides is ready for game 2.
+||DrTid is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆DrTid
+|player|p2|

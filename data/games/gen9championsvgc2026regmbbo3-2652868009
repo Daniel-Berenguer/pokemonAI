@@ -1,0 +1,251 @@
+|j|☆mumu2
+|j|☆PatuDucc
+|html|mumu2PatuDucc    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1784681539
+|gametype|doubles
+|player|p1|mumu2|cyclistf|
+|player|p2|PatuDucc|170|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Toxapex, L50, F|
+|poke|p2|Gardevoir, L50, M, shiny|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Talonflame, L50, M|
+|poke|p2|Maushold, L50|
+|poke|p2|Kingambit, L50, M, shiny|
+|poke|p2|Kommo-o, L50, M, shiny|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,HelpingHand,Protect|Modest||M|||50|]Venusaur||LifeOrb|Chlorophyll|SludgeBomb,SolarBeam,EarthPower,Protect|Modest||F|||50|]Garchomp||ChoiceScarf|RoughSkin|DragonClaw,Earthquake,RockSlide,StompingTantrum|Adamant||F|||50|]Annihilape||FocusSash|Defiant|PhantomForce,CloseCombat,Protect,RockTomb|Jolly||M|||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,ThroatChop,PartingShot,FakeOut|Impish||M|||50|]Toxapex||Leftovers|Regenerator|Toxic,Infestation,WideGuard,BanefulBunker|Bold||F|||50|
+|showteam|p2|Gardevoir||Gardevoirite|Synchronize|HyperVoice,Psyshock,Thunderbolt,Protect|Modest||M|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,AquaJet|Jolly||M|||50|]Talonflame||SharpBeak|GaleWings|DualWingbeat,FlareBlitz,Tailwind,Protect|Jolly||M|||50|]Maushold||FocusSash|FriendGuard|SuperFang,Feint,FollowMe,Protect|Jolly|||||50|]Kingambit||ExpertBelt|Defiant|KowtowCleave,SuckerPunch,IronHead,LowKick|Jolly||M|||50|]Kommo-o||LifeOrb|Soundproof|ClangingScales,DracoMeteor,AuraSphere,Protect|Modest||M|||50|
+|
+|t:|1784681614
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, M|100/100
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Talonflame|Talonflame, L50, M|100/100
+|turn|1
+|
+|t:|1784681649
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Basculegion|atk|1
+|-unboost|p2b: Talonflame|atk|1
+|move|p1b: Annihilape|Protect|p1b: Annihilape
+|-singleturn|p1b: Annihilape|Protect
+|move|p2b: Talonflame|Dual Wingbeat|p1b: Annihilape
+|-activate|p1b: Annihilape|move: Protect
+|move|p2a: Basculegion|Flip Turn|p1a: Incineroar
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|62/100
+|
+|t:|1784681666
+|switch|p2a: Gardevoir|Gardevoir, L50, M, shiny|100/100|[from] Flip Turn
+|
+|upkeep
+|turn|2
+|
+|t:|1784681685
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|move|p1a: Incineroar|Fake Out|p2b: Talonflame
+|-damage|p2b: Talonflame|82/100
+|cant|p2b: Talonflame|flinch
+|move|p1b: Annihilape|Phantom Force||[still]
+|-prepare|p1b: Annihilape|Phantom Force
+|
+|upkeep
+|turn|3
+|
+|t:|1784681703
+|switch|p2a: Maushold|Maushold, L50|100/100
+|move|p2b: Talonflame|Tailwind|p2b: Talonflame
+|-sidestart|p2: PatuDucc|move: Tailwind
+|move|p1b: Annihilape|Phantom Force|p2a: Maushold|[from] lockedmove
+|-immune|p2a: Maushold
+|move|p1a: Incineroar|Parting Shot|p2b: Talonflame
+|-unboost|p2b: Talonflame|atk|1
+|-unboost|p2b: Talonflame|spa|1
+|
+|t:|1784681711
+|switch|p1a: Charizard|Charizard, L50, M|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|4
+|
+|t:|1784681733
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2a: Maushold|Protect|p2a: Maushold
+|-singleturn|p2a: Maushold|Protect
+|move|p1b: Annihilape|Protect|p1b: Annihilape
+|-singleturn|p1b: Annihilape|Protect
+|move|p1a: Charizard|Weather Ball|p2a: Maushold
+|-activate|p2a: Maushold|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1784681754
+|switch|p1a: Incineroar|Incineroar, L50, M|62/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Maushold|atk|1
+|-unboost|p2b: Basculegion|atk|1
+|move|p2a: Maushold|Feint|p1a: Incineroar
+|-damage|p1a: Incineroar|57/100
+|move|p2b: Basculegion|Wave Crash|p1a: Incineroar
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|22/100
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|47/100|[from] item: Sitrus Berry
+|-damage|p2b: Basculegion|87/100|[from] Recoil
+|move|p1b: Annihilape|Phantom Force||[still]
+|-prepare|p1b: Annihilape|Phantom Force
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1784681772
+|switch|p2b: Talonflame|Talonflame, L50, M|82/100
+|move|p2a: Maushold|Protect|p2a: Maushold
+|-singleturn|p2a: Maushold|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Maushold
+|-activate|p2a: Maushold|move: Protect
+|move|p1b: Annihilape|Phantom Force|p2b: Talonflame|[from] lockedmove
+|-damage|p2b: Talonflame|37/100
+|
+|-weather|SunnyDay|[upkeep]
+|-sideend|p2: PatuDucc|move: Tailwind
+|upkeep
+|turn|7
+|
+|t:|1784681788
+|move|p1b: Annihilape|Protect|p1b: Annihilape
+|-singleturn|p1b: Annihilape|Protect
+|move|p2a: Maushold|Feint|p1b: Annihilape
+|-immune|p1b: Annihilape
+|move|p2b: Talonflame|Dual Wingbeat|p1b: Annihilape
+|-activate|p1b: Annihilape|move: Protect
+|move|p1a: Incineroar|Flare Blitz|p2b: Talonflame
+|-resisted|p2b: Talonflame|1
+|-damage|p2b: Talonflame|0 fnt
+|faint|p2b: Talonflame
+|-damage|p1a: Incineroar|37/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1784681802
+|switch|p2b: Gardevoir|Gardevoir, L50, M, shiny|100/100
+|turn|8
+|
+|t:|1784681811
+|switch|p1b: Venusaur|Venusaur, L50, F|100/100
+|detailschange|p2b: Gardevoir|Gardevoir-Mega, L50, M, shiny
+|-mega|p2b: Gardevoir|Gardevoir|Gardevoirite
+|move|p2a: Maushold|Follow Me|p2a: Maushold
+|-singleturn|p2a: Maushold|move: Follow Me
+|move|p2b: Gardevoir|Hyper Voice|p1b: Venusaur|[spread] p1a,p1b
+|-resisted|p1b: Venusaur|1
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Venusaur|69/100
+|faint|p1a: Incineroar
+|
+|-weather|none
+|upkeep
+|
+|t:|1784681816
+|switch|p1a: Charizard|Charizard-Mega-Y, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|turn|9
+|
+|t:|1784681828
+|move|p1b: Venusaur|Protect|p1b: Venusaur
+|-singleturn|p1b: Venusaur|Protect
+|move|p2a: Maushold|Follow Me|p2a: Maushold
+|-singleturn|p2a: Maushold|move: Follow Me
+|move|p2b: Gardevoir|Psyshock|p1b: Venusaur
+|-activate|p1b: Venusaur|move: Protect
+|move|p1a: Charizard|Heat Wave|p2a: Maushold|[spread] p2a,p2b
+|-damage|p2a: Maushold|25/100
+|-damage|p2b: Gardevoir|53/100
+|-status|p2a: Maushold|brn
+|-status|p2b: Gardevoir|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Maushold|19/100 brn|[from] brn
+|-damage|p2b: Gardevoir|46/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1784681862
+|move|p2a: Maushold|Protect|p2a: Maushold
+|-singleturn|p2a: Maushold|Protect
+|move|p1b: Venusaur|Solar Beam||[still]
+|-prepare|p1b: Venusaur|Solar Beam
+|-anim|p1b: Venusaur|Solar Beam|p2a: Maushold
+|-activate|p2a: Maushold|move: Protect
+|move|p2b: Gardevoir|Psyshock|p1b: Venusaur
+|-supereffective|p1b: Venusaur|1
+|-damage|p1b: Venusaur|0 fnt
+|faint|p1b: Venusaur
+|move|p1a: Charizard|Weather Ball|p2b: Gardevoir
+|-damage|p2b: Gardevoir|0 fnt
+|faint|p2b: Gardevoir
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Maushold|13/100 brn|[from] brn
+|upkeep
+|
+|t:|1784681877
+|switch|p2b: Basculegion|Basculegion, L50, M|87/100
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100
+|turn|11
+|
+|t:|1784681888
+|move|p2a: Maushold|Feint|p1a: Charizard
+|-damage|p1a: Charizard|97/100
+|move|p2b: Basculegion|Wave Crash|p1a: Charizard
+|-supereffective|p1a: Charizard|1
+|-damage|p1a: Charizard|26/100
+|-damage|p2b: Basculegion|66/100|[from] Recoil
+|move|p1b: Annihilape|Phantom Force||[still]
+|-prepare|p1b: Annihilape|Phantom Force
+|move|p1a: Charizard|Weather Ball|p2a: Maushold
+|-damage|p2a: Maushold|0 fnt
+|faint|p2a: Maushold
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|12
+|
+|t:|1784681902
+|move|p1a: Charizard|Helping Hand|p1b: Annihilape
+|-singleturn|p1b: Annihilape|Helping Hand|[of] p1a: Charizard
+|move|p2b: Basculegion|Wave Crash|p1a: Charizard
+|-supereffective|p1a: Charizard|1
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|-damage|p2b: Basculegion|58/100|[from] Recoil
+|move|p1b: Annihilape|Phantom Force|p2b: Basculegion|[from] lockedmove
+|-supereffective|p2b: Basculegion|1
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|
+|win|mumu2
+|l|☆PatuDucc
+|player|p2|

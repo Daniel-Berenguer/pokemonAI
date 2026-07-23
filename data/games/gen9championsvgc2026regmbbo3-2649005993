@@ -1,0 +1,137 @@
+|j|☆shaboogles
+|j|☆3Soul3
+|html|shaboogles3Soul3    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784028043
+|gametype|doubles
+|player|p1|shaboogles|rosa|
+|player|p2|3Soul3|iris-gen5bw2|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Chandelure, L50, M|
+|poke|p1|Chesnaught, L50, F|
+|poke|p1|Greninja, L50, M|
+|poke|p1|Rotom-Mow, L50|
+|poke|p1|Krookodile, L50, F|
+|poke|p1|Ariados, L50, F|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Scovillain, L50, F|
+|poke|p2|Ampharos, L50, M|
+|poke|p2|Hawlucha, L50, F|
+|poke|p2|Salazzle, L50, F|
+|poke|p2|Absol, L50, M|
+|teampreview|4
+|showteam|p1|Chandelure||Chandelurite|Infiltrator|HeatWave,ShadowBall,TrickRoom,Protect|Modest||M|||50|]Chesnaught||RoseliBerry|Bulletproof|WoodHammer,SpikyShield,HammerArm,WideGuard|Adamant||F|||50|]Greninja||Greninjite|Torrent|IcyWind,Protect,HydroPump,DarkPulse|Timid||M|||50|]Rotom-Mow||ChoiceScarf|Levitate|Thunderbolt,LeafStorm,Electroweb,VoltSwitch|Timid|||||50|]Krookodile||PasshoBerry|Intimidate|Crunch,Taunt,Protect,HighHorsepower|Adamant||F|||50|]Ariados||ScopeLens|Sniper|CrossPoison,Protect,RagePowder|Impish||F|||50|
+|showteam|p2|Floette-Eternal||FairyFeather|FlowerVeil|CalmMind,DazzlingGleam,Moonblast,Protect|Modest||F|||50|]Scovillain||FocusSash|Moody|RagePowder,HelpingHand,Flamethrower,Protect|Serious||F|||50|]Ampharos||Ampharosite|Static|Discharge,Thunderbolt,DragonPulse,Protect|Quiet||M|||50|]Hawlucha||Hawluchanite|MoldBreaker|FlyingPress,Encore,Detect,BulkUp|Jolly||F|||50|]Salazzle||SitrusBerry|Oblivious|WillOWisp,HelpingHand,FakeOut,Flamethrower|Timid||F|||50|]Absol||ChoiceScarf|SuperLuck|NightSlash,CloseCombat,PsychoCut,Megahorn|Jolly||M|||50|
+|
+|t:|1784028111
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ariados|Ariados, L50, F|100/100
+|switch|p1b: Chandelure|Chandelure, L50, M|100/100
+|switch|p2a: Salazzle|Salazzle, L50, F|100/100
+|switch|p2b: Absol|Absol, L50, M|100/100
+|turn|1
+|
+|t:|1784028157
+|move|p1b: Chandelure|Protect|p1b: Chandelure
+|-singleturn|p1b: Chandelure|Protect
+|move|p1a: Ariados|Protect|p1a: Ariados
+|-singleturn|p1a: Ariados|Protect
+|move|p2a: Salazzle|Fake Out|p1a: Ariados
+|-activate|p1a: Ariados|move: Protect
+|move|p2b: Absol|Megahorn|p1b: Chandelure
+|-activate|p1b: Chandelure|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1784028198
+|switch|p2b: Floette|Floette-Eternal, L50, F|100/100
+|switch|p1a: Krookodile|Krookodile, L50, F|100/100
+|-ability|p1a: Krookodile|Intimidate|boost
+|-fail|p2a: Salazzle|unboost|Attack|[from] ability: Oblivious|[of] p2a: Salazzle
+|-unboost|p2b: Floette|atk|1
+|detailschange|p1b: Chandelure|Chandelure-Mega, L50, M
+|-mega|p1b: Chandelure|Chandelure|Chandelurite
+|move|p2a: Salazzle|Flamethrower|p1a: Krookodile
+|-damage|p1a: Krookodile|65/100
+|move|p1b: Chandelure|Trick Room|p1b: Chandelure
+|-fieldstart|move: Trick Room|[of] p1b: Chandelure
+|
+|upkeep
+|turn|3
+|
+|t:|1784028244
+|move|p2a: Salazzle|Helping Hand|p2b: Floette
+|-singleturn|p2b: Floette|Helping Hand|[of] p2a: Salazzle
+|move|p1b: Chandelure|Heat Wave|p2b: Floette|[spread] p2a,p2b
+|-resisted|p2a: Salazzle|1
+|-damage|p2a: Salazzle|61/100
+|-damage|p2b: Floette|59/100
+|move|p1a: Krookodile|High Horsepower|p2b: Floette
+|-damage|p2b: Floette|0 fnt
+|faint|p2b: Floette
+|
+|upkeep
+|
+|t:|1784028259
+|switch|p2b: Hawlucha|Hawlucha, L50, F|100/100
+|-ability|p2b: Hawlucha|Mold Breaker
+|turn|4
+|
+|t:|1784028282
+|detailschange|p2b: Hawlucha|Hawlucha-Mega, L50, F
+|-mega|p2b: Hawlucha|Hawlucha|Hawluchanite
+|move|p2b: Hawlucha|Detect|p2b: Hawlucha
+|-singleturn|p2b: Hawlucha|Protect
+|move|p1b: Chandelure|Heat Wave|p2a: Salazzle|[spread] 
+|-activate|p2b: Hawlucha|move: Protect
+|-miss|p1b: Chandelure|p2a: Salazzle
+|move|p1a: Krookodile|High Horsepower|p2a: Salazzle
+|-supereffective|p2a: Salazzle|2
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|
+|upkeep
+|
+|t:|1784028295
+|switch|p2a: Absol|Absol, L50, M|100/100
+|turn|5
+|
+|t:|1784028311
+|move|p1b: Chandelure|Heat Wave|p2b: Hawlucha|[spread] p2a,p2b
+|-damage|p2a: Absol|2/100
+|-damage|p2b: Hawlucha|37/100
+|move|p1a: Krookodile|High Horsepower|p2a: Absol
+|-damage|p2a: Absol|0 fnt
+|faint|p2a: Absol
+|move|p2b: Hawlucha|Flying Press|p1a: Krookodile
+|-supereffective|p1a: Krookodile|1
+|-damage|p1a: Krookodile|0 fnt
+|faint|p1a: Krookodile
+|
+|upkeep
+|
+|t:|1784028314
+|switch|p1a: Ariados|Ariados, L50, F|100/100
+|turn|6
+|
+|t:|1784028332
+|move|p1a: Ariados|Cross Poison|p2b: Hawlucha
+|-damage|p2b: Hawlucha|10/100
+|move|p1b: Chandelure|Shadow Ball|p2b: Hawlucha
+|-damage|p2b: Hawlucha|0 fnt
+|faint|p2b: Hawlucha
+|
+|win|shaboogles
+||shaboogles is ready for game 3.
+|inactive|3Soul3 has 30 seconds to confirm battle start!
+||3Soul3 is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆3Soul3
+|player|p2|

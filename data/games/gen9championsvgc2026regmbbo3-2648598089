@@ -1,0 +1,104 @@
+|j|☆Descugi
+|j|☆Kalycgos
+|html|DescugiKalycgos    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1783960778
+|gametype|doubles
+|player|p1|Descugi|101|1114
+|player|p2|Kalycgos|169|1123
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Talonflame, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Raichu, L50, M|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p2|Garchomp, L50, M, shiny|
+|poke|p2|Charizard, L50, M, shiny|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Talonflame||Charcoal|GaleWings|BraveBird,Overheat,Tailwind,Protect|Naive||F|||50|]Gholdengo||SpellTag|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect|Modest|||||50|]Raichu||RaichuniteY|Static|ZapCannon,FocusBlast,FakeOut,Protect|Modest||M|||50|]Floette-Eternal||Floettite|FlowerVeil|Moonblast,DazzlingGleam,LightofRuin,Protect|Modest||F|||50|]Ninetales-Alola||NeverMeltIce|SnowWarning|Blizzard,FreezeDry,Encore,Protect|Timid||F|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,StompingTantrum,RockSlide,Protect|Jolly||M|||50|
+|showteam|p2|Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,RockSlide,Protect|Jolly||M|||50|]Charizard||CharizarditeY|Blaze|HeatWave,SolarBeam,AncientPower,Protect|Modest||M|||50|]Whimsicott||FocusSash|Prankster|Moonblast,Tailwind,Encore,Protect|Timid||M|||50|]Floette-Eternal||Floettite|FlowerVeil|LightofRuin,Moonblast,DazzlingGleam,Protect|Timid||F|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,LowKick,Protect|Adamant||M|||50|]Basculegion||MysticWater|Adaptability|LastRespects,WaveCrash,AquaJet,Protect|Adamant||M|||50|
+|
+|t:|1783960814
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Talonflame|Talonflame, L50, F|100/100
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|switch|p2a: Bard|Whimsicott, L50, M|100/100
+|switch|p2b: Reaper|Basculegion, L50, M|100/100
+|turn|1
+|
+|t:|1783960844
+|move|p1a: Talonflame|Brave Bird|p2b: Reaper
+|-damage|p2b: Reaper|61/100
+|-damage|p1a: Talonflame|83/100|[from] Recoil
+|move|p2b: Reaper|Aqua Jet|p1b: Garchomp
+|-damage|p1b: Garchomp|67/100
+|-damage|p2b: Reaper|48/100|[from] ability: Rough Skin|[of] p1b: Garchomp
+|move|p2a: Bard|Moonblast|p1b: Garchomp
+|-supereffective|p1b: Garchomp|1
+|-damage|p1b: Garchomp|0 fnt
+|faint|p1b: Garchomp
+|
+|upkeep
+|
+|t:|1783960855
+|switch|p1b: Floette|Floette-Eternal, L50, F|100/100
+|turn|2
+|
+|t:|1783960864
+|detailschange|p1b: Floette|Floette-Mega, L50, F
+|-mega|p1b: Floette|Floette|Floettite
+|-ability|p1b: Floette|Fairy Aura
+|move|p2a: Bard|Tailwind|p2a: Bard
+|-sidestart|p2: Kalycgos|move: Tailwind
+|move|p2b: Reaper|Wave Crash|p1b: Floette
+|-damage|p1b: Floette|0 fnt
+|faint|p1b: Floette
+|-damage|p2b: Reaper|22/100|[from] Recoil
+|move|p1a: Talonflame|Tailwind|p1a: Talonflame
+|-sidestart|p1: Descugi|move: Tailwind
+|
+|upkeep
+|
+|t:|1783960871
+|switch|p1b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Ninetales
+|turn|3
+|
+|t:|1783960877
+|move|p2a: Bard|Encore|p1a: Talonflame
+|-start|p1a: Talonflame|Encore
+|move|p1a: Talonflame|Tailwind||[still]
+|-fail|p1a: Talonflame
+|move|p1b: Ninetales|Blizzard|p2a: Bard|[spread] p2a,p2b
+|-supereffective|p2a: Bard|1
+|-resisted|p2b: Reaper|1
+|-enditem|p2a: Bard|Focus Sash
+|-damage|p2a: Bard|1/100
+|-damage|p2b: Reaper|3/100
+|move|p2b: Reaper|Wave Crash|p1b: Ninetales
+|-damage|p1b: Ninetales|0 fnt
+|faint|p1b: Ninetales
+|-damage|p2b: Reaper|0 fnt|[from] Recoil
+|faint|p2b: Reaper
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|-message|Descugi forfeited.
+|
+|win|Kalycgos
+|raw|Descugi's rating: 1114 → 1090(-24 for losing)
+|raw|Kalycgos's rating: 1123 → 1147(+24 for winning)
+|l|☆Descugi
+|player|p1|

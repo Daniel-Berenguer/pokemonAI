@@ -1,0 +1,155 @@
+|j|‽CaratroncoSun
+|j|☆crosseczek
+|html|CaratroncoSuncrosseczek    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784114215
+|gametype|doubles
+|player|p1|CaratroncoSun|juan|1261
+|player|p2|crosseczek|maid|1326
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M, shiny|
+|poke|p1|Venusaur, L50, M, shiny|
+|poke|p1|Whimsicott, L50, M, shiny|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Mamoswine, L50, M|
+|poke|p2|Mawile, L50, F|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|Protect,SolarBeam,HeatWave,AirSlash|Modest||M|||50|]Venusaur||WideLens|Chlorophyll|Protect,GigaDrain,EarthPower,SleepPowder|Modest||M|||50|]Whimsicott||FocusSash|Prankster|Protect,Moonblast,Tailwind,Encore|Timid||M|||50|]Basculegion||MysticWater|Adaptability|Protect,AquaJet,WaveCrash,LastRespects|Adamant||M|||50|]Tyranitar||Tyranitarite|SandStream|Protect,RockSlide,KnockOff,LowKick|Adamant||F|||50|]Mamoswine||LifeOrb|Oblivious|Protect,HighHorsepower,StoneEdge,IceShard|Adamant||M|||50|
+|showteam|p2|Mawile||Mawilite|HyperCutter|PlayRough,SuckerPunch,SwordsDance,Protect|Brave||F|||50|]Garchomp||LifeOrb|SandVeil|DragonClaw,StompingTantrum,RockSlide,Protect|Adamant||M|||50|]Whimsicott||FocusSash|Prankster|Moonblast,Encore,Tailwind,Protect|Modest||F|||50|]Raichu||RaichuniteY|LightningRod|ZapCannon,FocusBlast,GrassKnot,Protect|Modest||M|||50|]Incineroar||Charcoal|Intimidate|FlareBlitz,ThroatChop,PartingShot,FakeOut|Adamant||M|||50|]Farigiraf||ColburBerry|ArmorTail|Psychic,Imprison,TrickRoom,Protect|Modest||F|||50|
+|
+|t:|1784114256
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, M, shiny|100/100
+|switch|p1b: Venusaur|Venusaur, L50, M, shiny|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|-unboost|p1b: Venusaur|atk|1
+|turn|1
+|
+|t:|1784114271
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, M, shiny
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2a: Farigiraf|Protect|p2a: Farigiraf
+|-singleturn|p2a: Farigiraf|Protect
+|move|p1b: Venusaur|Sleep Powder|p2b: Incineroar
+|-status|p2b: Incineroar|slp|[from] move: Sleep Powder
+|move|p1a: Charizard|Heat Wave|p2b: Incineroar|[spread] p2b
+|-activate|p2a: Farigiraf|move: Protect
+|-resisted|p2b: Incineroar|1
+|-damage|p2b: Incineroar|70/100 slp
+|cant|p2b: Incineroar|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1784114292
+|move|p2a: Farigiraf|Protect|p2a: Farigiraf
+|-singleturn|p2a: Farigiraf|Protect
+|move|p1b: Venusaur|Sleep Powder|p2a: Farigiraf
+|-activate|p2a: Farigiraf|move: Protect
+|move|p1a: Charizard|Air Slash|p2b: Incineroar
+|-damage|p2b: Incineroar|28/100 slp
+|-curestatus|p2b: Incineroar|slp|[msg]
+|move|p2b: Incineroar|Flare Blitz|p1b: Venusaur
+|-supereffective|p1b: Venusaur|1
+|-damage|p1b: Venusaur|0 fnt
+|faint|p1b: Venusaur
+|-damage|p2b: Incineroar|2/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1784114309
+|switch|p1b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|3
+|
+|t:|1784114319
+|move|p1a: Charizard|Heat Wave|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2b: Incineroar|1
+|-damage|p2a: Farigiraf|59/100
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p1b: Tyranitar|Knock Off|p2a: Farigiraf
+|-supereffective|p2a: Farigiraf|1
+|-enditem|p2a: Farigiraf|Colbur Berry|[eat]
+|-enditem|p2a: Farigiraf|Colbur Berry|[weaken]
+|-damage|p2a: Farigiraf|10/100
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Farigiraf|3/100|[from] Sandstorm
+|-damage|p1a: Charizard|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1784114333
+|switch|p2b: Garchomp|Garchomp, L50, M|100/100
+|turn|4
+|
+|t:|1784114348
+|move|p1a: Charizard|Protect|p1a: Charizard
+|-singleturn|p1a: Charizard|Protect
+|move|p1b: Tyranitar|Knock Off|p2b: Garchomp
+|-damage|p2b: Garchomp|47/100
+|-enditem|p2b: Garchomp|Life Orb|[from] move: Knock Off|[of] p1b: Tyranitar
+|move|p2a: Farigiraf|Psychic|p1a: Charizard
+|-activate|p1a: Charizard|move: Protect
+|move|p2b: Garchomp|Stomping Tantrum|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar|1
+|-damage|p1b: Tyranitar|35/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Farigiraf|0 fnt|[from] Sandstorm
+|-damage|p1a: Charizard|88/100|[from] Sandstorm
+|faint|p2a: Farigiraf
+|upkeep
+|
+|t:|1784114352
+|switch|p2a: Mawile|Mawile, L50, F|100/100
+|turn|5
+|
+|t:|1784114383
+|detailschange|p2a: Mawile|Mawile-Mega, L50, F
+|-mega|p2a: Mawile|Mawile|Mawilite
+|move|p2a: Mawile|Play Rough|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar|1
+|-damage|p1b: Tyranitar|0 fnt
+|faint|p1b: Tyranitar
+|move|p2b: Garchomp|Rock Slide|p1a: Charizard
+|-supereffective|p1a: Charizard|2
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1784114396
+|switch|p1b: Mamoswine|Mamoswine, L50, M|100/100
+|turn|6
+|
+|t:|1784114406
+|move|p2b: Garchomp|Protect|p2b: Garchomp
+|-singleturn|p2b: Garchomp|Protect
+|move|p2a: Mawile|Play Rough|p1b: Mamoswine
+|-damage|p1b: Mamoswine|0 fnt
+|faint|p1b: Mamoswine
+|
+|win|crosseczek

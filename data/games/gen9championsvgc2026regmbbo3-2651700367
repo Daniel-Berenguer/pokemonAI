@@ -1,0 +1,233 @@
+|j|☆69swagman
+|j|☆monsoonisbest
+|html|69swagmanmonsoonisbest    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784485829
+|gametype|doubles
+|player|p1|69swagman|102|1170
+|player|p2|monsoonisbest|1|1223
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Chesnaught, L50, M|
+|poke|p1|Hydreigon, L50, F|
+|poke|p1|Ceruledge, L50, F|
+|poke|p1|Barbaracle, L50, F|
+|poke|p1|Milotic, L50, M|
+|poke|p1|Maushold, L50|
+|poke|p2|Gengar, L50, F|
+|poke|p2|Swampert, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Politoed, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Vivillon-Monsoon, L50, F|
+|teampreview|4
+|showteam|p1|Chesnaught||Chesnaughtite|Bulletproof|BellyDrum,SeedBomb,DrainPunch,Protect|Relaxed||M|||50|]Hydreigon||ChoiceScarf|Levitate|Snarl,DracoMeteor,HeatWave,DarkPulse|Timid||F|||50|]Ceruledge||ColburBerry|FlashFire|BitterBlade,ShadowSneak,BulkUp,Protect|Adamant||F|||50|]Barbaracle||Barbaracite|Pickpocket|RockSlide,CloseCombat,ShellSmash,Protect|Adamant||F|||50|]Milotic||Leftovers|Competitive|Coil,Hypnosis,MuddyWater,Protect|Modest||M|||50|]Maushold||WideLens|Technician|FollowMe,Encore,PopulationBomb,Protect|Adamant|||||50|
+|showteam|p2|Gengar||Gengarite|CursedBody|ShadowBall,PerishSong,SludgeBomb,Protect|Timid||F|||50|]Swampert||Swampertite|Damp|WaveCrash,Earthquake,IcePunch,Protect|Adamant||F|||50|]Incineroar||PasshoBerry|Intimidate|ThroatChop,PartingShot,FakeOut,Protect|Sassy||F|||50|]Politoed||SitrusBerry|Drizzle|WeatherBall,PerishSong,Encore,Protect|Calm||F|||50|]Archaludon||Leftovers|Stamina|DragonPulse,FlashCannon,ElectroShot,Protect|Bold||M|||50|]Vivillon-Monsoon||FocusSash|CompoundEyes|Hurricane,SleepPowder,RagePowder,Protect|Timid||F|||50|
+|
+|t:|1784485859
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Chesnaught|Chesnaught, L50, M|100/100
+|switch|p1b: Milotic|Milotic, L50, M|100/100
+|switch|p2a: Swampert|Swampert, L50, F|100/100
+|switch|p2b: Vivillon|Vivillon-Monsoon, L50, F|100/100
+|turn|1
+|
+|t:|1784485886
+|detailschange|p2a: Swampert|Swampert-Mega, L50, F
+|-mega|p2a: Swampert|Swampert|Swampertite
+|detailschange|p1a: Chesnaught|Chesnaught-Mega, L50, M
+|-mega|p1a: Chesnaught|Chesnaught|Chesnaughtite
+|move|p1b: Milotic|Protect|p1b: Milotic
+|-singleturn|p1b: Milotic|Protect
+|move|p2b: Vivillon|Hurricane|p1a: Chesnaught|[miss]
+|-miss|p2b: Vivillon|p1a: Chesnaught
+|move|p2a: Swampert|Earthquake|p1b: Milotic|[spread] p1a
+|-activate|p1b: Milotic|move: Protect
+|-immune|p2b: Vivillon
+|-resisted|p1a: Chesnaught|1
+|-damage|p1a: Chesnaught|87/100
+|move|p1a: Chesnaught|Seed Bomb|p2a: Swampert
+|-supereffective|p2a: Swampert|2
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|
+|upkeep
+|
+|t:|1784485894
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|turn|2
+|
+|t:|1784485916
+|move|p1a: Chesnaught|Protect|p1a: Chesnaught
+|-singleturn|p1a: Chesnaught|Protect
+|move|p2b: Vivillon|Hurricane|p1a: Chesnaught
+|-activate|p1a: Chesnaught|move: Protect
+|move|p1b: Milotic|Hypnosis|p2b: Vivillon
+|-status|p2b: Vivillon|slp|[from] move: Hypnosis
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|
+|upkeep
+|turn|3
+|
+|t:|1784485934
+|switch|p1b: Hydreigon|Hydreigon, L50, F|100/100
+|cant|p2b: Vivillon|slp
+|move|p2a: Archaludon|Electro Shot|p1b: Hydreigon|[from] lockedmove
+|-resisted|p1b: Hydreigon|1
+|-damage|p1b: Hydreigon|66/100
+|move|p1a: Chesnaught|Belly Drum|p1a: Chesnaught
+|-damage|p1a: Chesnaught|37/100
+|-setboost|p1a: Chesnaught|atk|6|[from] move: Belly Drum
+|
+|upkeep
+|turn|4
+|
+|t:|1784485957
+|move|p1b: Hydreigon|Snarl|p2a: Archaludon|[spread] p2a,p2b
+|-crit|p2a: Archaludon
+|-damage|p2a: Archaludon|71/100
+|-damage|p2b: Vivillon|62/100 slp
+|-unboost|p2a: Archaludon|spa|1
+|-unboost|p2b: Vivillon|spa|1
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|-curestatus|p2b: Vivillon|slp|[msg]
+|move|p2b: Vivillon|Hurricane|p1a: Chesnaught
+|-supereffective|p1a: Chesnaught|2
+|-damage|p1a: Chesnaught|0 fnt
+|faint|p1a: Chesnaught
+|move|p2a: Archaludon|Dragon Pulse|p1b: Hydreigon
+|-supereffective|p1b: Hydreigon|1
+|-damage|p1b: Hydreigon|0 fnt
+|faint|p1b: Hydreigon
+|
+|-heal|p2a: Archaludon|77/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1784485973
+|switch|p1b: Milotic|Milotic, L50, M|100/100
+|switch|p1a: Maushold|Maushold, L50|100/100
+|turn|5
+|
+|t:|1784486012
+|move|p1a: Maushold|Population Bomb|p2b: Vivillon
+|-damage|p2b: Vivillon|40/100
+|-damage|p2b: Vivillon|16/100
+|-damage|p2b: Vivillon|0 fnt
+|faint|p2b: Vivillon
+|-hitcount|p2: Vivillon|3
+|move|p1b: Milotic|Hypnosis|p2a: Archaludon|[miss]
+|-miss|p1b: Milotic|p2a: Archaludon
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|
+|-heal|p2a: Archaludon|83/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1784486017
+|switch|p2b: Politoed|Politoed, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Politoed
+|turn|6
+|
+|t:|1784486040
+|move|p1a: Maushold|Protect|p1a: Maushold
+|-singleturn|p1a: Maushold|Protect
+|move|p1b: Milotic|Protect|p1b: Milotic
+|-singleturn|p1b: Milotic|Protect
+|move|p2a: Archaludon|Electro Shot|p1b: Milotic|[from] lockedmove
+|-activate|p1b: Milotic|move: Protect
+|move|p2b: Politoed|Weather Ball|p1a: Maushold
+|-activate|p1a: Maushold|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Archaludon|89/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1784486083
+|move|p1a: Maushold|Population Bomb|p2b: Politoed
+|-damage|p2b: Politoed|88/100
+|-damage|p2b: Politoed|76/100
+|-damage|p2b: Politoed|64/100
+|-damage|p2b: Politoed|53/100
+|-damage|p2b: Politoed|42/100
+|-enditem|p2b: Politoed|Sitrus Berry|[eat]
+|-heal|p2b: Politoed|67/100|[from] item: Sitrus Berry
+|-damage|p2b: Politoed|56/100
+|-damage|p2b: Politoed|45/100
+|-damage|p2b: Politoed|35/100
+|-damage|p2b: Politoed|22/100
+|-damage|p2b: Politoed|10/100
+|-hitcount|p2b: Politoed|10
+|move|p1b: Milotic|Hypnosis|p2a: Archaludon|[miss]
+|-miss|p1b: Milotic|p2a: Archaludon
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|move|p2b: Politoed|Encore|p1b: Milotic
+|-start|p1b: Milotic|Encore
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Archaludon|95/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1784486111
+|move|p1b: Milotic|Hypnosis|p2a: Archaludon
+|-status|p2a: Archaludon|slp|[from] move: Hypnosis
+|cant|p2a: Archaludon|slp
+|move|p2b: Politoed|Perish Song|p2b: Politoed
+|-start|p1b: Milotic|perish3|[silent]
+|-start|p2a: Archaludon|perish3|[silent]
+|-start|p2b: Politoed|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Archaludon|100/100 slp|[from] item: Leftovers
+|-start|p1b: Milotic|perish3
+|-start|p2a: Archaludon|perish3
+|-start|p2b: Politoed|perish3
+|upkeep
+|turn|9
+|
+|t:|1784486123
+|move|p2b: Politoed|Protect|p2b: Politoed
+|-singleturn|p2b: Politoed|Protect
+|move|p1b: Milotic|Hypnosis|p2b: Politoed
+|-activate|p2b: Politoed|move: Protect
+|cant|p2a: Archaludon|slp
+|
+|-weather|RainDance|[upkeep]
+|-start|p1b: Milotic|perish2
+|-start|p2a: Archaludon|perish2
+|-start|p2b: Politoed|perish2
+|upkeep
+|turn|10
+|
+|t:|1784486137
+|move|p1b: Milotic|Hypnosis|p2b: Politoed|[miss]
+|-miss|p1b: Milotic|p2b: Politoed
+|-curestatus|p2a: Archaludon|slp|[msg]
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1b: Milotic
+|-supereffective|p1b: Milotic|1
+|-damage|p1b: Milotic|0 fnt
+|faint|p1b: Milotic
+|
+|win|monsoonisbest
+|raw|69swagman's rating: 1170 → 1149(-21 for losing)
+|raw|monsoonisbest's rating: 1223 → 1244(+21 for winning)

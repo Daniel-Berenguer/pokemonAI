@@ -1,0 +1,140 @@
+|j|☆ProfessorSorin
+|j|☆Hehehewoiwoiwoi
+|html|ProfessorSorinHehehewoiwoiwoi    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1784515438
+|gametype|doubles
+|player|p1|ProfessorSorin|169|1084
+|player|p2|Hehehewoiwoiwoi|1|1052
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Farigiraf, L50, M, shiny|
+|poke|p1|Blastoise, L50, F, shiny|
+|poke|p1|Sylveon, L50, F, shiny|
+|poke|p1|Torkoal, L50, F, shiny|
+|poke|p1|Vileplume, L50, M, shiny|
+|poke|p1|Kingambit, L50, F, shiny|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Blastoise, L50, M|
+|poke|p2|Vivillon, L50, F|
+|poke|p2|Oranguru, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Farigiraf||SitrusBerry|ArmorTail|TrickRoom,Protect,Imprison,Psychic|Relaxed||M|||50|]Blastoise||Blastoisinite|RainDish|WaterSpout,AuraSphere,DarkPulse,FakeOut|Quiet||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,MysticalFire,CalmMind,Detect|Quiet||F|||50|]Torkoal||Charcoal|Drought|Eruption,HeatWave,Protect,WeatherBall|Quiet||F|||50|]Vileplume||FocusSash|Chlorophyll|AfterYou,EnergyBall,SludgeBomb,SleepPowder|Timid||M|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,IronHead,SuckerPunch,Protect|Brave||F|||50|
+|showteam|p2|Farigiraf||SitrusBerry|ArmorTail|TrickRoom,HelpingHand,Roar,ThunderWave|Relaxed||M|||50|]Blastoise||Blastoisinite|RainDish|ShellSmash,WaterSpout,DarkPulse,Protect|Quiet||M|||50|]Vivillon||FocusSash|CompoundEyes|RagePowder,SleepPowder,Uturn,PollenPuff|Timid||F|||50|]Oranguru||MentalHerb|InnerFocus|Instruct,TrickRoom,KnockOff,Protect|Sassy||M|||50|]Pelipper||DampRock|Drizzle|WeatherBall,Hurricane,Roost,Uturn|Relaxed||M|||50|]Basculegion||LifeOrb|Adaptability|WaveCrash,FlipTurn,LastRespects,AquaJet|Brave||M|||50|
+|
+|t:|1784515457
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, F, shiny|100/100
+|switch|p1b: Vileplume|Vileplume, L50, M, shiny|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2b: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1784515479
+|move|p1b: Vileplume|Sleep Powder|p2b: Pelipper
+|-status|p2b: Pelipper|slp|[from] move: Sleep Powder
+|cant|p2b: Pelipper|slp
+|move|p1a: Torkoal|Eruption|p2b: Pelipper|[spread] p2a,p2b
+|-resisted|p2b: Pelipper|1
+|-damage|p2a: Farigiraf|20/100r
+|-damage|p2b: Pelipper|28/100 slp
+|-enditem|p2a: Farigiraf|Sitrus Berry|[eat]
+|-heal|p2a: Farigiraf|44/100|[from] item: Sitrus Berry
+|move|p2a: Farigiraf|Roar|p1b: Vileplume
+|drag|p1b: Kingambit|Kingambit, L50, F, shiny|100/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1784515503
+|switch|p1b: Farigiraf|Farigiraf, L50, M, shiny|100/100
+|cant|p2b: Pelipper|slp
+|move|p2a: Farigiraf|Thunder Wave|p1a: Torkoal
+|-status|p1a: Torkoal|par
+|move|p1a: Torkoal|Eruption|p2b: Pelipper|[spread] p2a,p2b
+|-resisted|p2b: Pelipper|1
+|-damage|p2a: Farigiraf|0 fnt
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2a: Farigiraf
+|faint|p2b: Pelipper
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1784515514
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|switch|p2a: Blastoise|Blastoise, L50, M|100/100
+|turn|3
+|
+|t:|1784515525
+|detailschange|p2a: Blastoise|Blastoise-Mega, L50, M
+|-mega|p2a: Blastoise|Blastoise|Blastoisinite
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2a: Blastoise|Water Spout|p1a: Torkoal|[spread] p1b
+|-activate|p1a: Torkoal|move: Protect
+|-damage|p1b: Farigiraf|71/100
+|move|p2b: Basculegion|Wave Crash|p1a: Torkoal
+|-activate|p1a: Torkoal|move: Protect
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1784515553
+|move|p1a: Torkoal|Heat Wave|p2a: Blastoise|[spread] p2a,p2b
+|-resisted|p2a: Blastoise|1
+|-resisted|p2b: Basculegion|1
+|-damage|p2a: Blastoise|77/100
+|-damage|p2b: Basculegion|74/100
+|move|p1b: Farigiraf|Psychic|p2b: Basculegion
+|-damage|p2b: Basculegion|40/100
+|move|p2a: Blastoise|Water Spout|p1a: Torkoal|[spread] p1a,p1b
+|-supereffective|p1a: Torkoal|1
+|-damage|p1a: Torkoal|38/100 par
+|-damage|p1b: Farigiraf|48/100
+|-enditem|p1b: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1b: Farigiraf|72/100|[from] item: Sitrus Berry
+|move|p2b: Basculegion|Last Respects|p1a: Torkoal
+|-damage|p1a: Torkoal|0 fnt
+|faint|p1a: Torkoal
+|-damage|p2b: Basculegion|30/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1784515559
+|switch|p1a: Kingambit|Kingambit, L50, F, shiny|100/100
+|turn|5
+|
+|t:|1784515574
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Blastoise
+|-damage|p2a: Blastoise|29/100
+|move|p1b: Farigiraf|Psychic|p2b: Basculegion
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|move|p2a: Blastoise|Water Spout|p1b: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Kingambit|90/100
+|-damage|p1b: Farigiraf|64/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|-message|Hehehewoiwoiwoi forfeited.
+|
+|win|ProfessorSorin
+|l|☆Hehehewoiwoiwoi
+|player|p2|

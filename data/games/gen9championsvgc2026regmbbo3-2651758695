@@ -1,0 +1,118 @@
+|j|☆FlashStatic
+|j|☆Zonzuki
+|html|FlashStaticZonzuki    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784495100
+|gametype|doubles
+|player|p1|FlashStatic|palmer|
+|player|p2|Zonzuki|hilbert-wonderlauncher|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Greninja, L50, M, shiny|
+|poke|p1|Volcarona, L50, M, shiny|
+|poke|p1|Starmie, L50|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Roserade, L50, M|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Delphox, L50, F|
+|poke|p2|Rotom-Wash, L50|
+|poke|p2|Kangaskhan, L50, F|
+|poke|p2|Gourgeist-Super, L50, F|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Greninja||Greninjite|Protean|DarkPulse,Extrasensory,GrassKnot,IceBeam|Timid||M|||50|]Volcarona||ChartiBerry|FlameBody|FieryDance,GigaDrain,Psychic,QuiverDance|Modest||M|||50|]Starmie||LifeOrb|NaturalCure|Psychic,Thunderbolt,HydroPump,IceBeam|Timid|||||50|]Grimmsnarl||Leftovers|Prankster|FakeOut,LightScreen,SpiritBreak,SuckerPunch|Adamant||M|||50|]Talonflame||SitrusBerry|GaleWings|DualWingbeat,FlareBlitz,Tailwind,WillOWisp|Jolly||M|||50|]Roserade||ChoiceScarf|PoisonPoint|EnergyBall,DazzlingGleam,ShadowBall,SludgeBomb|Timid||M|||50|
+|showteam|p2|Garchomp||LifeOrb|RoughSkin|RockSlide,Earthquake,Protect,IronHead|Adamant||F|||50|]Delphox||Delphoxite|Blaze|HeatWave,CalmMind,Psychic,Protect|Modest||F|||50|]Rotom-Wash||SitrusBerry|Levitate|VoltSwitch,HydroPump,WillOWisp,Protect|Calm|||||50|]Kangaskhan||SilkScarf|InnerFocus|FakeOut,LastResort|Adamant||F|||50|]Gourgeist-Super||ZoomLens|Frisk|ShadowSneak,Protect,LeechSeed,Hypnosis|Sassy||F|||50|]Gholdengo||WhiteHerb|GoodasGold|ShadowBall,MakeItRain,Protect,NastyPlot|Modest|||||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by FlashStatic)
+|inactive|Zonzuki has 60 seconds left.
+|
+|t:|1784495181
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Talonflame|Talonflame, L50, M|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, L50, F|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|turn|1
+|
+|t:|1784495201
+|move|p2a: Kangaskhan|Fake Out|p1a: Talonflame
+|-damage|p1a: Talonflame|66/100
+|move|p1b: Grimmsnarl|Light Screen|p1b: Grimmsnarl
+|-sidestart|p1: FlashStatic|move: Light Screen
+|cant|p1a: Talonflame|flinch
+|move|p2b: Gholdengo|Make It Rain|p1b: Grimmsnarl|[spread] p1b
+|-miss|p2b: Gholdengo|p1a: Talonflame
+|-supereffective|p1b: Grimmsnarl|1
+|-damage|p1b: Grimmsnarl|22/100
+|-unboost|p2b: Gholdengo|spa|2
+|-enditem|p2b: Gholdengo|White Herb
+|-clearnegativeboost|p2b: Gholdengo|[silent]
+|
+|-heal|p1b: Grimmsnarl|28/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|inactive|FlashStatic has 30 seconds left.
+|inactive|Zonzuki has 30 seconds left.
+|inactive|Zonzuki has 20 seconds left.
+|
+|t:|1784495238
+|move|p1b: Grimmsnarl|Sucker Punch||[still]
+|-fail|p1b: Grimmsnarl
+|move|p1a: Talonflame|Tailwind|p1a: Talonflame
+|-sidestart|p1: FlashStatic|move: Tailwind
+|move|p2a: Kangaskhan|Last Resort|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|
+|-heal|p1b: Grimmsnarl|34/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1784495248
+|switch|p1a: Greninja|Greninja, L50, M, shiny|100/100
+|turn|3
+|
+|t:|1784495255
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1b: Grimmsnarl|Sucker Punch||[still]
+|-fail|p1b: Grimmsnarl
+|move|p1a: Greninja|Dark Pulse|p2b: Gholdengo
+|-start|p1a: Greninja|typechange|Dark|[from] ability: Protean
+|-activate|p2b: Gholdengo|move: Protect
+|move|p2a: Kangaskhan|Last Resort|p1a: Greninja
+|-damage|p1a: Greninja|0 fnt
+|faint|p1a: Greninja
+|
+|-heal|p1b: Grimmsnarl|40/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1784495268
+|switch|p1a: Roserade|Roserade, L50, M|100/100
+|turn|4
+|
+|t:|1784495277
+|move|p1b: Grimmsnarl|Sucker Punch|p2b: Gholdengo
+|-supereffective|p2b: Gholdengo|1
+|-damage|p2b: Gholdengo|22/100
+|move|p1a: Roserade|Energy Ball|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|51/100
+|move|p2a: Kangaskhan|Last Resort|p1b: Grimmsnarl
+|-damage|p1b: Grimmsnarl|0 fnt
+|faint|p1b: Grimmsnarl
+|move|p2b: Gholdengo|Make It Rain|p1a: Roserade
+|-damage|p1a: Roserade|0 fnt
+|-unboost|p2b: Gholdengo|spa|2
+|faint|p1a: Roserade
+|
+|win|Zonzuki
+|c|☆FlashStatic|gg
+|c|☆Zonzuki|gg
+|l|☆FlashStatic
+|player|p1|

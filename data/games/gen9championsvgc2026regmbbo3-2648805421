@@ -1,0 +1,171 @@
+|j|☆dhrx
+|j|☆jcoisa
+|html|dhrxjcoisa    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783988636
+|gametype|doubles
+|player|p1|dhrx|lucian|
+|player|p2|jcoisa|1|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Mawile, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Vivillon, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Gallade, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Tsareena, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Manectric, L50, M|
+|teampreview|4
+|showteam|p1|Mawile||Mawilite|HyperCutter|PlayRough,RockSlide,SuckerPunch,Protect|Brave||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,Thunderbolt,TrickRoom,Protect|Quiet||F|||50|]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HelpingHand,Protect|Quiet||M|||50|]Vivillon||FocusSash|CompoundEyes|Hurricane,SleepPowder,RagePowder,Protect|Timid||F|||50|]Incineroar||LifeOrb|Intimidate|FlareBlitz,DarkestLariat,CloseCombat,FakeOut|Brave||M|||50|]Gallade||IronBall|Sharpness|SacredSword,PsychoCut,LeafBlade,TrickRoom|Brave||M|||50|
+|showteam|p2|Basculegion||MysticWater|SwiftSwim|WaveCrash,AquaJet,LastRespects,Protect|Adamant||M|||50|]Sneasler||WhiteHerb|Unburden|DireClaw,CloseCombat,FakeOut,Protect|Adamant||F|||50|]Pelipper||SitrusBerry|Drizzle|WeatherBall,Hurricane,Tailwind,WideGuard|Modest||F|||50|]Tsareena||ChoiceScarf|QueenlyMajesty|TropKick,TripleAxel,ZenHeadbutt,Uturn|Jolly||F|||50|]Archaludon||Leftovers|Stamina|ElectroShot,DracoMeteor,AuraSphere,Protect|Modest||F|||50|]Manectric||Manectite|LightningRod|Thunder,VoltSwitch,Snarl,Protect|Timid||M|||50|
+|
+|t:|1783988706
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Vivillon|Vivillon, L50, F|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: Archaludon|Archaludon, L50, F|100/100
+|switch|p2b: Tsareena|Tsareena, L50, F|100/100
+|turn|1
+|
+|t:|1783988738
+|move|p2b: Tsareena|U-turn|p1b: Farigiraf
+|-supereffective|p1b: Farigiraf|1
+|-damage|p1b: Farigiraf|57/100
+|
+|t:|1783988741
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p1a: Vivillon|Sleep Powder|p2a: Archaludon
+|-status|p2a: Archaludon|slp|[from] move: Sleep Powder
+|cant|p2a: Archaludon|slp
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1783988772
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|cant|p2a: Archaludon|slp
+|move|p2b: Pelipper|Hurricane|p1a: Vivillon|[miss]
+|-miss|p2b: Pelipper|p1a: Vivillon
+|move|p1a: Vivillon|Hurricane|p2b: Pelipper
+|-damage|p2b: Pelipper|30/100
+|-enditem|p2b: Pelipper|Sitrus Berry|[eat]
+|-heal|p2b: Pelipper|55/100|[from] item: Sitrus Berry
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1783988793
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|-curestatus|p2a: Archaludon|slp|[msg]
+|move|p2a: Archaludon|Protect|p2a: Archaludon
+|-singleturn|p2a: Archaludon|Protect
+|move|p1b: Torkoal|Eruption|p2b: Basculegion|[spread] p2b
+|-activate|p2a: Archaludon|move: Protect
+|-resisted|p2b: Basculegion|1
+|-damage|p2b: Basculegion|46/100
+|move|p1a: Vivillon|Hurricane|p2b: Basculegion
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1783988811
+|switch|p2b: Pelipper|Pelipper, L50, F|55/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|turn|4
+|
+|t:|1783988835
+|switch|p1b: Farigiraf|Farigiraf, L50, F|57/100
+|move|p2b: Pelipper|Hurricane|p1a: Vivillon
+|-supereffective|p1a: Vivillon|1
+|-enditem|p1a: Vivillon|Focus Sash
+|-damage|p1a: Vivillon|1/100
+|-start|p1a: Vivillon|confusion
+|move|p2a: Archaludon|Draco Meteor|p1b: Farigiraf
+|-crit|p1b: Farigiraf
+|-damage|p1b: Farigiraf|0 fnt
+|-unboost|p2a: Archaludon|spa|2
+|faint|p1b: Farigiraf
+|-activate|p1a: Vivillon|confusion
+|move|p1a: Vivillon|Sleep Powder|p2a: Archaludon
+|-status|p2a: Archaludon|slp|[from] move: Sleep Powder
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1783988856
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|5
+|
+|t:|1783988867
+|switch|p1b: Gallade|Gallade, L50, M|100/100
+|cant|p2a: Archaludon|slp
+|move|p2b: Pelipper|Wide Guard|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Wide Guard
+|-end|p1a: Vivillon|confusion
+|move|p1a: Vivillon|Hurricane|p2b: Pelipper
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1783988882
+|switch|p2b: Tsareena|Tsareena, L50, F|100/100
+|turn|6
+|
+|t:|1783988900
+|cant|p2a: Archaludon|slp
+|move|p1a: Vivillon|Rage Powder|p1a: Vivillon
+|-singleturn|p1a: Vivillon|move: Rage Powder
+|move|p2b: Tsareena|Zen Headbutt|p1b: Gallade
+|-damage|p1b: Gallade|61/100
+|move|p1b: Gallade|Trick Room|p1b: Gallade
+|-fieldstart|move: Trick Room|[of] p1b: Gallade
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1783988914
+|-curestatus|p2a: Archaludon|slp|[msg]
+|move|p2a: Archaludon|Protect|p2a: Archaludon
+|-singleturn|p2a: Archaludon|Protect
+|move|p1b: Gallade|Sacred Sword|p2a: Archaludon
+|-activate|p2a: Archaludon|move: Protect
+|move|p1a: Vivillon|Hurricane|p2b: Tsareena
+|-supereffective|p2b: Tsareena|1
+|-damage|p2b: Tsareena|0 fnt
+|faint|p2b: Tsareena
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1783988930
+|move|p1b: Gallade|Sacred Sword|p2a: Archaludon
+|-supereffective|p2a: Archaludon|1
+|-damage|p2a: Archaludon|0 fnt
+|faint|p2a: Archaludon
+|
+|win|dhrx
+||dhrx is ready for game 2.

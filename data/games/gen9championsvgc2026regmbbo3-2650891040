@@ -1,0 +1,208 @@
+|j|☆maviuc
+|j|☆carmelotb
+|html|maviuccarmelotb    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784333282
+|gametype|doubles
+|player|p1|maviuc|elesa|1118
+|player|p2|carmelotb|pilot|1072
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Aerodactyl, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Sceptile, L50, M|
+|poke|p2|Rotom-Wash, L50|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Mamoswine, L50, F|
+|poke|p2|Salazzle, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,SolarBeam,Protect|Modest||F|||50|]Incineroar||Charcoal|Intimidate|FlareBlitz,DarkestLariat,FakeOut,PartingShot|Brave||M|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,Yawn,QuickAttack,Protect|Modest||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psyshock,HelpingHand,TrickRoom,Protect|Calm||M|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,Protect,DragonClaw,StompingTantrum|Jolly||F|||50|]Aerodactyl||FocusSash|Unnerve|RockSlide,Tailwind,WideGuard,Protect|Jolly||M|||50|
+|showteam|p2|Whimsicott||MentalHerb|Prankster|GrassyTerrain,EnergyBall,Tailwind,SunnyDay|Timid||F|||50|]Sceptile||Sceptilite|Overgrow|EarthPower,Substitute,GigaDrain,DragonPulse|Timid||M|||50|]Rotom-Wash||Magnet|Levitate|Discharge,HydroPump,VoltSwitch,Protect|Modest|||||50|]Charizard||CharizarditeX|Blaze|Protect,DragonDance,DragonClaw,FlareBlitz|Jolly||M|||50|]Mamoswine||ChoiceScarf|Oblivious|IcicleCrash,IronHead,Earthquake,RockSlide|Adamant||F|||50|]Salazzle||FocusSash|Corrosion|FakeOut,SludgeBomb,Overheat,Toxic|Timid||F|||50|
+|
+|t:|1784333314
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sylveon|Sylveon, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Salazzle|Salazzle, L50, F|100/100
+|switch|p2b: Mamoswine|Mamoswine, L50, F|100/100
+|turn|1
+|
+|t:|1784333350
+|move|p1a: Sylveon|Protect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p2b: Mamoswine|Rock Slide|p1b: Farigiraf|[spread] p1b
+|-activate|p1a: Sylveon|move: Protect
+|-damage|p1b: Farigiraf|78/100
+|move|p2a: Salazzle|Sludge Bomb|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|cant|p1b: Farigiraf|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1784333371
+|switch|p1a: Garchomp|Garchomp, L50, F|100/100
+|move|p2b: Mamoswine|Rock Slide|p1a: Garchomp|[spread] p1a,p1b
+|-resisted|p1a: Garchomp|1
+|-damage|p1a: Garchomp|88/100
+|-damage|p1b: Farigiraf|57/100
+|move|p2a: Salazzle|Toxic|p1b: Farigiraf
+|-status|p1b: Farigiraf|tox
+|move|p1b: Farigiraf|Psyshock|p2a: Salazzle
+|-supereffective|p2a: Salazzle|1
+|-enditem|p2a: Salazzle|Focus Sash
+|-damage|p2a: Salazzle|1/100
+|
+|-damage|p1b: Farigiraf|51/100 tox|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1784333401
+|switch|p1a: Sylveon|Sylveon, L50, M|100/100
+|move|p2b: Mamoswine|Rock Slide|p1a: Sylveon|[spread] p1a,p1b
+|-damage|p1a: Sylveon|74/100
+|-damage|p1b: Farigiraf|28/100 tox
+|-enditem|p1b: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1b: Farigiraf|52/100 tox|[from] item: Sitrus Berry
+|move|p2a: Salazzle|Toxic|p1a: Sylveon
+|-status|p1a: Sylveon|tox
+|cant|p1b: Farigiraf|flinch
+|
+|-damage|p1a: Sylveon|68/100 tox|[from] psn
+|-damage|p1b: Farigiraf|40/100 tox|[from] psn
+|upkeep
+|turn|4
+|
+|t:|1784333419
+|switch|p1a: Garchomp|Garchomp, L50, F|88/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Salazzle|atk|1
+|-fail|p2b: Mamoswine|unboost|Attack|[from] ability: Oblivious|[of] p2b: Mamoswine
+|move|p2b: Mamoswine|Rock Slide|p1b: Incineroar|[spread] p1b
+|-miss|p2b: Mamoswine|p1a: Garchomp
+|-supereffective|p1b: Incineroar|1
+|-damage|p1b: Incineroar|60/100
+|move|p2a: Salazzle|Sludge Bomb|p1b: Incineroar
+|-damage|p1b: Incineroar|18/100
+|
+|upkeep
+|turn|5
+|
+|t:|1784333442
+|move|p1b: Incineroar|Fake Out|p2a: Salazzle
+|-damage|p2a: Salazzle|0 fnt
+|faint|p2a: Salazzle
+|move|p2b: Mamoswine|Rock Slide|p1a: Garchomp|[spread] p1b
+|-miss|p2b: Mamoswine|p1a: Garchomp
+|-supereffective|p1b: Incineroar|1
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Garchomp|Dragon Claw|p2b: Mamoswine
+|-damage|p2b: Mamoswine|37/100
+|-damage|p1a: Garchomp|78/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1784333457
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p1b: Sylveon|Sylveon, L50, M|68/100 tox
+|turn|6
+|
+|t:|1784333486
+|move|p2a: Whimsicott|Grassy Terrain|p2a: Whimsicott
+|-fieldstart|move: Grassy Terrain
+|move|p2b: Mamoswine|Rock Slide|p1b: Sylveon|[spread] p1a,p1b
+|-resisted|p1a: Garchomp|1
+|-damage|p1a: Garchomp|67/100
+|-damage|p1b: Sylveon|40/100 tox
+|cant|p1a: Garchomp|flinch
+|cant|p1b: Sylveon|flinch
+|
+|-heal|p2b: Mamoswine|43/100|[from] Grassy Terrain
+|-heal|p1a: Garchomp|73/100|[from] Grassy Terrain
+|-heal|p1b: Sylveon|46/100 tox|[from] Grassy Terrain
+|-damage|p1b: Sylveon|40/100 tox|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1784333509
+|move|p2b: Mamoswine|Rock Slide|p1b: Sylveon|[spread] p1a,p1b
+|-resisted|p1a: Garchomp|1
+|-damage|p1a: Garchomp|62/100
+|-damage|p1b: Sylveon|15/100 tox
+|move|p2a: Whimsicott|Energy Ball|p1a: Garchomp
+|-damage|p1a: Garchomp|16/100
+|cant|p1a: Garchomp|flinch
+|move|p1b: Sylveon|Hyper Voice|p2a: Whimsicott|[spread] p2a,p2b
+|-damage|p2a: Whimsicott|20/100y
+|-damage|p2b: Mamoswine|0 fnt
+|faint|p2b: Mamoswine
+|
+|-heal|p2a: Whimsicott|26/100|[from] Grassy Terrain
+|-heal|p1a: Garchomp|22/100|[from] Grassy Terrain
+|-heal|p1b: Sylveon|21/100 tox|[from] Grassy Terrain
+|-damage|p1b: Sylveon|9/100 tox|[from] psn
+|upkeep
+|
+|t:|1784333522
+|switch|p2b: Charizard|Charizard, L50, M|100/100
+|turn|8
+|
+|t:|1784333531
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: carmelotb|move: Tailwind
+|move|p1b: Sylveon|Quick Attack|p2a: Whimsicott
+|-damage|p2a: Whimsicott|5/100
+|move|p2b: Charizard|Dragon Claw|p1a: Garchomp
+|-activate|p1a: Garchomp|move: Protect
+|
+|-heal|p2a: Whimsicott|11/100|[from] Grassy Terrain
+|-heal|p1a: Garchomp|28/100|[from] Grassy Terrain
+|-heal|p1b: Sylveon|15/100 tox|[from] Grassy Terrain
+|-damage|p1b: Sylveon|0 fnt|[from] psn
+|faint|p1b: Sylveon
+|upkeep
+|
+|t:|1784333540
+|switch|p1b: Farigiraf|Farigiraf, L50, M|40/100 tox
+|turn|9
+|
+|t:|1784333549
+|detailschange|p2b: Charizard|Charizard-Mega-X, L50, M
+|-mega|p2b: Charizard|Charizard|Charizardite X
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2a: Whimsicott|Energy Ball|p1a: Garchomp
+|-activate|p1a: Garchomp|move: Protect
+|move|p2b: Charizard|Dragon Claw|p1b: Farigiraf
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|
+|-heal|p2a: Whimsicott|17/100|[from] Grassy Terrain
+|-heal|p1a: Garchomp|34/100|[from] Grassy Terrain
+|upkeep
+|turn|10
+|
+|t:|1784333562
+|move|p2a: Whimsicott|Energy Ball|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|
+|win|carmelotb
+||maviuc is ready for game 3.
+||carmelotb is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

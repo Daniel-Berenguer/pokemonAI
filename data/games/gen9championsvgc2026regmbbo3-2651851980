@@ -1,0 +1,214 @@
+|j|☆DaGondy
+|j|☆doatzmgoatz
+|html|DaGondydoatzmgoatz    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784511478
+|gametype|doubles
+|player|p1|DaGondy|mars|
+|player|p2|doatzmgoatz|102|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ditto, L50, shiny|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Eelektross, L50, F|
+|poke|p1|Roserade, L50, M|
+|poke|p1|Lycanroc-Dusk, L50, M, shiny|
+|poke|p1|Whimsicott, L50, M|
+|poke|p2|Gengar, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Hydreigon, L50, M|
+|poke|p2|Clefable, L50, F|
+|poke|p2|Vaporeon, L50, M|
+|poke|p2|Noivern, L50, F|
+|teampreview|4
+|showteam|p1|Ditto||FocusSash|Imposter|Transform|Bold|||||50|]Pelipper||SitrusBerry|Drizzle|Tailwind,Hurricane,Roost,Protect|Bold||F|||50|]Eelektross||Eelektrossite|Levitate|Flamethrower,GrassKnot,Thunder,VoltSwitch|Timid||F|||50|]Roserade||PoisonBarb|PoisonPoint|Extrasensory,LeafStorm,SleepPowder,SludgeBomb|Timid||M|||50|]Lycanroc-Dusk||HardStone|ToughClaws|Accelerock,CloseCombat,StoneEdge,BrickBreak|Jolly||M|||50|]Whimsicott||Leftovers|Prankster|Tailwind,Moonblast,Uturn,Encore|Bold||M|||50|
+|showteam|p2|Gengar||Gengarite|CursedBody|SludgeWave,ShadowBall,NastyPlot,Substitute|Timid||M|||50|]Incineroar||SitrusBerry|Intimidate|BrickBreak,Earthquake,PartingShot,FakeOut|Adamant||M|||50|]Hydreigon||LifeOrb|Levitate|EarthPower,DracoMeteor,DarkPulse,Uturn|Timid||M|||50|]Clefable||Leftovers|MagicGuard|FollowMe,LightScreen,DazzlingGleam,Gravity|Calm||F|||50|]Vaporeon||MysticWater|WaterAbsorb|Scald,Protect,RainDance,IceBeam|Bold||M|||50|]Noivern||ExpertBelt|Telepathy|Tailwind,Boomburst,Hurricane,Uturn|Timid||F|||50|
+|
+|t:|1784511515
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ditto|Ditto, L50, shiny|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|switch|p2b: Clefable|Clefable, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Ditto|atk|1
+|-unboost|p1b: Whimsicott|atk|1
+|-transform|p1a: Ditto|p2b: Clefable|[from] ability: Imposter
+|turn|1
+|
+|t:|1784511561
+|move|p2a: Incineroar|Fake Out|p1b: Whimsicott
+|-damage|p1b: Whimsicott|88/100
+|move|p1a: Ditto|Follow Me|p1a: Ditto
+|-singleturn|p1a: Ditto|move: Follow Me
+|cant|p1b: Whimsicott|flinch
+|move|p2b: Clefable|Light Screen|p2b: Clefable
+|-sidestart|p2: doatzmgoatz|move: Light Screen
+|
+|-heal|p1b: Whimsicott|94/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1784511588
+|move|p1a: Ditto|Follow Me|p1a: Ditto
+|-singleturn|p1a: Ditto|move: Follow Me
+|move|p2b: Clefable|Follow Me|p2b: Clefable
+|-singleturn|p2b: Clefable|move: Follow Me
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: DaGondy|move: Tailwind
+|move|p2a: Incineroar|Parting Shot|p1a: Ditto
+|-unboost|p1a: Ditto|atk|1
+|-unboost|p1a: Ditto|spa|1
+|
+|t:|1784511595
+|switch|p2a: Gengar|Gengar, L50, M|100/100|[from] Parting Shot
+|
+|-heal|p1b: Whimsicott|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1784511609
+|detailschange|p2a: Gengar|Gengar-Mega, L50, M
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2b: Clefable|Follow Me|p2b: Clefable
+|-singleturn|p2b: Clefable|move: Follow Me
+|move|p1b: Whimsicott|U-turn|p2b: Clefable
+|-resisted|p2b: Clefable|1
+|-damage|p2b: Clefable|95/100
+|
+|t:|1784511615
+|switch|p1b: Pelipper|Pelipper, L50, F|100/100|[from] U-turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|move|p2a: Gengar|Sludge Wave|p1b: Pelipper|[spread] p2b,p1a,p1b
+|-supereffective|p2b: Clefable|1
+|-supereffective|p1a: Ditto|1
+|-damage|p2b: Clefable|55/100
+|-damage|p1a: Ditto|14/100
+|-damage|p1b: Pelipper|40/100
+|-enditem|p1b: Pelipper|Sitrus Berry|[eat]
+|-heal|p1b: Pelipper|64/100|[from] item: Sitrus Berry
+|move|p1a: Ditto|Light Screen|p1a: Ditto
+|-sidestart|p1: DaGondy|move: Light Screen
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Clefable|61/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1784511648
+|move|p2a: Gengar|Sludge Wave|p1a: Ditto|[spread] p2b,p1a,p1b
+|-supereffective|p2b: Clefable|1
+|-supereffective|p1a: Ditto|1
+|-damage|p2b: Clefable|22/100
+|-damage|p1a: Ditto|0 fnt
+|-damage|p1b: Pelipper|19/100
+|faint|p1a: Ditto
+|move|p1b: Pelipper|Hurricane|p2a: Gengar
+|-damage|p2a: Gengar|67/100
+|-start|p2a: Gengar|confusion
+|move|p2b: Clefable|Gravity|p2b: Clefable
+|-fieldstart|move: Gravity
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Clefable|28/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1784511659
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|turn|5
+|
+|t:|1784511698
+|switch|p2a: Noivern|Noivern, L50, F|100/100
+|move|p1a: Whimsicott|Moonblast|p2b: Clefable
+|-damage|p2b: Clefable|15/100
+|move|p1b: Pelipper|Hurricane|p2a: Noivern
+|-damage|p2a: Noivern|65/100
+|move|p2b: Clefable|Dazzling Gleam|p1a: Whimsicott|[spread] p1a,p1b
+|-damage|p1a: Whimsicott|80/100
+|-damage|p1b: Pelipper|1/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Whimsicott|86/100|[from] item: Leftovers
+|-heal|p2b: Clefable|21/100|[from] item: Leftovers
+|-sideend|p2: doatzmgoatz|move: Light Screen
+|-sideend|p1: DaGondy|move: Tailwind
+|upkeep
+|turn|6
+|
+|t:|1784511727
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: DaGondy|move: Tailwind
+|move|p2a: Noivern|Hurricane|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott|1
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|move|p1b: Pelipper|Roost|p1b: Pelipper
+|-heal|p1b: Pelipper|52/100
+|-singleturn|p1b: Pelipper|move: Roost
+|move|p2b: Clefable|Dazzling Gleam|p1b: Pelipper
+|-damage|p1b: Pelipper|26/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Clefable|27/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1784511739
+|switch|p1a: Eelektross|Eelektross, L50, F|100/100
+|turn|7
+|
+|t:|1784511767
+|detailschange|p1a: Eelektross|Eelektross-Mega, L50, F
+|-mega|p1a: Eelektross|Eelektross|Eelektrossite
+|move|p1b: Pelipper|Protect|p1b: Pelipper
+|-singleturn|p1b: Pelipper|Protect
+|move|p2b: Clefable|Follow Me|p2b: Clefable
+|-singleturn|p2b: Clefable|move: Follow Me
+|move|p1a: Eelektross|Thunder|p2b: Clefable
+|-damage|p2b: Clefable|0 fnt
+|faint|p2b: Clefable
+|-ability|p1a: Eelektross|Eelevate|boost
+|-boost|p1a: Eelektross|spa|1
+|move|p2a: Noivern|Tailwind|p2a: Noivern
+|-sidestart|p2: doatzmgoatz|move: Tailwind
+|
+|-weather|none
+|-sideend|p1: DaGondy|move: Light Screen
+|upkeep
+|
+|t:|1784511783
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Eelektross|atk|1
+|-unboost|p1b: Pelipper|atk|1
+|turn|8
+|
+|t:|1784511794
+|move|p2a: Noivern|Hurricane|p1b: Pelipper
+|-crit|p1b: Pelipper
+|-damage|p1b: Pelipper|0 fnt
+|faint|p1b: Pelipper
+|move|p1a: Eelektross|Thunder|p2b: Incineroar
+|-damage|p2b: Incineroar|18/100
+|-enditem|p2b: Incineroar|Sitrus Berry|[eat]
+|-heal|p2b: Incineroar|43/100|[from] item: Sitrus Berry
+|move|p2b: Incineroar|Earthquake|p1a: Eelektross|[spread] p1a
+|-activate|p2a: Noivern|ability: Telepathy
+|-supereffective|p1a: Eelektross|1
+|-damage|p1a: Eelektross|29/100
+|
+|-fieldend|move: Gravity
+|upkeep
+|turn|9
+|
+|t:|1784511818
+|move|p2a: Noivern|Boomburst|p1a: Eelektross|[spread] p2b,p1a
+|-damage|p2b: Incineroar|13/100
+|-damage|p1a: Eelektross|0 fnt
+|faint|p1a: Eelektross
+|
+|win|doatzmgoatz

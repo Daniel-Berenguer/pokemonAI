@@ -1,0 +1,108 @@
+|j|☆Frakub
+|j|☆thedrq
+|html|Frakubthedrq    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1784204240
+|gametype|doubles
+|player|p1|Frakub|acetrainer-gen4dp|1000
+|player|p2|thedrq|169|1088
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Mawile, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Sableye, L50, F|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Swampert, L50, M|
+|poke|p2|Charizard, L50, M|
+|teampreview|4
+|showteam|p1|Mawile||Mawilite|Intimidate|PlayRough,IronHead,RockSlide,Protect|Brave||F|||50|]Torkoal||Charcoal|Drought|Eruption,HeatWave,SolarBeam,Protect|Quiet||F|||50|]Farigiraf||SitrusBerry|ArmorTail|TwinBeam,Thunderbolt,HelpingHand,TrickRoom|Relaxed||M|||50|]Incineroar||PasshoBerry|Intimidate|FlareBlitz,ThroatChop,PartingShot,FakeOut|Relaxed||M|||50|]Sinistcha||OccaBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,Protect|Bold|||||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|Adamant||M|||50|
+|showteam|p2|Sableye||LightClay|Prankster|LightScreen,FoulPlay,Quash,RainDance|Bold||F|||50|]Archaludon||Leftovers|Stamina|ElectroShot,DragonPulse,FlashCannon,Protect|Timid||M|||50|]Garchomp||ChoiceScarf|RoughSkin|DragonClaw,RockSlide,StompingTantrum,PoisonJab|Jolly||F|||50|]Pelipper||FocusSash|Drizzle|Hurricane,WeatherBall,Tailwind,WideGuard|Timid||F|||50|]Swampert||Swampertite|Torrent|WaveCrash,HighHorsepower,IceBeam,Protect|Lonely||M|||50|]Charizard||CharizarditeY|SolarPower|HeatWave,WeatherBall,SolarBeam,Protect|Timid||M|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Frakub)
+|
+|t:|1784204261
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Charizard|Charizard, L50, M|100/100
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Charizard|atk|1
+|-unboost|p2b: Garchomp|atk|1
+|turn|1
+|
+|t:|1784204279
+|switch|p2a: Archaludon|Archaludon, L50, M|100/100
+|move|p1b: Incineroar|Fake Out|p2a: Archaludon
+|-resisted|p2a: Archaludon|1
+|-damage|p2a: Archaludon|95/100
+|-ability|p2a: Archaludon|Stamina|boost
+|-boost|p2a: Archaludon|def|1
+|move|p2b: Garchomp|Rock Slide|p1b: Incineroar|[spread] p1a,p1b
+|-supereffective|p1b: Incineroar|1
+|-damage|p1a: Farigiraf|90/100
+|-damage|p1b: Incineroar|79/100
+|cant|p1a: Farigiraf|flinch
+|
+|-heal|p2a: Archaludon|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1784204296
+|switch|p2b: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2b: Pelipper
+|move|p2a: Archaludon|Electro Shot||[still]
+|-prepare|p2a: Archaludon|Electro Shot
+|-boost|p2a: Archaludon|spa|1
+|-anim|p2a: Archaludon|Electro Shot|p1a: Farigiraf
+|-damage|p1a: Farigiraf|29/100
+|-enditem|p1a: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1a: Farigiraf|54/100|[from] item: Sitrus Berry
+|move|p1b: Incineroar|Parting Shot|p2b: Pelipper
+|-unboost|p2b: Pelipper|atk|1
+|-unboost|p2b: Pelipper|spa|1
+|
+|t:|1784204311
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1784204322
+|move|p1a: Farigiraf|Helping Hand|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Helping Hand|[of] p1a: Farigiraf
+|move|p2b: Pelipper|Wide Guard|p2b: Pelipper
+|-singleturn|p2b: Pelipper|Wide Guard
+|move|p1b: Torkoal|Eruption|p2b: Pelipper|[spread] 
+|-activate|p2a: Archaludon|move: Wide Guard
+|-activate|p2b: Pelipper|move: Wide Guard
+|move|p2a: Archaludon|Dragon Pulse|p1b: Torkoal
+|-crit|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Frakub forfeited.
+|
+|win|thedrq
+||Frakub is ready for game 2.
+||thedrq is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆thedrq
+|player|p2|

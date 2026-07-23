@@ -1,0 +1,124 @@
+|j|☆signorfog
+|j|☆lucky777n
+|html|signorfoglucky777n    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784034041
+|gametype|doubles
+|player|p1|signorfog|2|1000
+|player|p2|lucky777n|boarder|1091
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Gallade, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Mawile, L50, F|
+|poke|p1|Abomasnow, L50, M|
+|poke|p2|Gengar, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Snorlax, L50, F|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Sneasler, L50, F|
+|teampreview|4
+|showteam|p1|Incineroar||LifeOrb|Intimidate|FakeOut,FlareBlitz,DarkestLariat,CloseCombat|Adamant||M|||50|]Farigiraf||ColburBerry|ArmorTail|Psychic,Thunderbolt,TrickRoom,Protect|Quiet||F|||50|]Gallade||FocusSash|Sharpness|SacredSword,PsychoCut,LeafBlade,TrickRoom|Brave||M|||50|]Torkoal||Charcoal|Drought|Eruption,WeatherBall,EarthPower,HelpingHand|Quiet||F|||50|]Mawile||Mawilite|Intimidate|PlayRough,SuckerPunch,RockSlide,SwordsDance|Adamant||F|||50|]Abomasnow||Abomasite|SnowWarning|Blizzard,EnergyBall,EarthPower,IceShard|Quiet||M|||50|
+|showteam|p2|Gengar||Gengarite|CursedBody|ShadowBall,Disable,PerishSong,Protect|Timid||M|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,PartingShot,Protect|Relaxed||M|||50|]Snorlax||Leftovers|ThickFat|Fissure,Encore,Yawn,Protect|Relaxed||F|||50|]Ninetales-Alola||NeverMeltIce|SnowWarning|Blizzard,FreezeDry,Encore,Protect|Timid||M|||50|]Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,SwordsDance,Protect|Adamant||F|||50|]Sneasler||WhiteHerb|Unburden|FakeOut,CloseCombat,GunkShot,Protect|Jolly||F|||50|
+|
+|t:|1784034070
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: Kingambit|Kingambit, L50, F|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Kingambit|atk|1
+|-ability|p2a: Kingambit|Defiant|boost
+|-boost|p2a: Kingambit|atk|2
+|-unboost|p2b: Sneasler|atk|1
+|-enditem|p2b: Sneasler|White Herb
+|-clearnegativeboost|p2b: Sneasler|[silent]
+|turn|1
+|
+|t:|1784034104
+|move|p1a: Incineroar|Fake Out|p2a: Kingambit
+|-resisted|p2a: Kingambit|1
+|-damage|p2a: Kingambit|93/100
+|-damage|p1a: Incineroar|90/100|[from] item: Life Orb
+|move|p2b: Sneasler|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1a: Incineroar
+|move|p1b: Farigiraf|Psychic|p2b: Sneasler
+|-supereffective|p2b: Sneasler|2
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|cant|p2a: Kingambit|flinch
+|
+|upkeep
+|
+|t:|1784034121
+|switch|p2b: Gengar|Gengar, L50, M|100/100
+|switch|p1a: Gallade|Gallade, L50, M|100/100
+|turn|2
+|
+|t:|1784034152
+|detailschange|p2b: Gengar|Gengar-Mega, L50, M
+|-mega|p2b: Gengar|Gengar|Gengarite
+|move|p2b: Gengar|Protect|p2b: Gengar
+|-singleturn|p2b: Gengar|Protect
+|move|p1a: Gallade|Sacred Sword|p2a: Kingambit
+|-supereffective|p2a: Kingambit|2
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|upkeep
+|
+|t:|1784034176
+|switch|p2a: Snorlax|Snorlax, L50, F|100/100
+|turn|3
+|
+|t:|1784034195
+|move|p2a: Snorlax|Fissure|p1a: Gallade
+|-enditem|p1a: Gallade|Focus Sash
+|-damage|p1a: Gallade|1/100
+|move|p1b: Farigiraf|Psychic|p2b: Gengar
+|-supereffective|p2b: Gengar|1
+|-damage|p2b: Gengar|18/100
+|move|p1a: Gallade|Sacred Sword|p2a: Snorlax
+|-supereffective|p2a: Snorlax|1
+|-damage|p2a: Snorlax|0 fnt
+|faint|p2a: Snorlax
+|move|p2b: Gengar|Shadow Ball|p1a: Gallade
+|-supereffective|p1a: Gallade|1
+|-damage|p1a: Gallade|0 fnt
+|faint|p1a: Gallade
+|
+|upkeep
+|
+|t:|1784034218
+|switch|p1a: Mawile|Mawile, L50, F|100/100
+|-ability|p1a: Mawile|Intimidate|boost
+|-unboost|p2b: Gengar|atk|1
+|turn|4
+|
+|t:|1784034226
+|detailschange|p1a: Mawile|Mawile-Mega, L50, F
+|-mega|p1a: Mawile|Mawile|Mawilite
+|move|p1a: Mawile|Sucker Punch|p2b: Gengar
+|-supereffective|p2b: Gengar|1
+|-damage|p2b: Gengar|0 fnt
+|faint|p2b: Gengar
+|
+|win|signorfog
+|raw|signorfog's rating: 1000 → 1050(+50 for winning)
+|raw|lucky777n's rating: 1091 → 1061(-30 for losing)

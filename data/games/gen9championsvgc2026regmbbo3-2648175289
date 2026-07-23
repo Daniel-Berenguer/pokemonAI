@@ -1,0 +1,187 @@
+|j|☆hello for none
+|j|☆exessvgc
+|html|hello for noneexessvgc    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1783886488
+|gametype|doubles
+|player|p1|hello for none|2|1050
+|player|p2|exessvgc|266|1181
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Gengar, L50, M|
+|poke|p1|Alakazam, L50, M|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Steelix, L50, M, shiny|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Rotom-Wash, L50, shiny|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Talonflame, L50, F, shiny|
+|teampreview|4
+|showteam|p1|Farigiraf||Leftovers|ArmorTail|Protect,TrickRoom,HyperVoice,HelpingHand|Bold||F|||50|]Gengar||Gengarite|CursedBody|IcyWind,Protect,ShadowBall,SludgeWave|Timid||M|||50|]Alakazam||Alakazite|InnerFocus|Psychic,Protect,DazzlingGleam,EnergyBall|Timid||M|||50|]Pelipper||FocusSash|Drizzle|Tailwind,Hurricane,WeatherBall,Protect|Bold||F|||50|]Sinistcha-Masterpiece||MiracleSeed|Hospitality|MatchaGotcha,Protect,RagePowder,Hex|Bold|||||50|]Basculegion||ChoiceScarf|Adaptability|Liquidation,FlipTurn,LastRespects,HeadSmash|Jolly||M|||50|
+|showteam|p2|Steelix||Steelixite|Sturdy|Protect,WideGuard,HeavySlam,HighHorsepower|Brave||M|||50|]Tyranitar||Tyranitarite|SandStream|Protect,RockSlide,KnockOff,DragonDance|Jolly||M|||50|]Sinistcha||SitrusBerry|Hospitality|Protect,TrickRoom,RagePowder,MatchaGotcha|Relaxed|||||50|]Rotom-Wash||Leftovers|Levitate|Thunderbolt,HydroPump,WillOWisp,LightScreen|Bold|||||50|]Sneasler||WhiteHerb|Unburden|Protect,FakeOut,CloseCombat,DireClaw|Jolly||F|||50|]Talonflame||SharpBeak|GaleWings|Protect,BraveBird,SwordsDance,FlareBlitz|Jolly||F|||50|
+|
+|t:|1783886588
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: Steelix|Steelix, L50, M, shiny|100/100
+|switch|p2b: Sinistcha|Sinistcha, L50|100/100
+|turn|1
+|
+|t:|1783886622
+|detailschange|p2a: Steelix|Steelix-Mega, L50, M, shiny
+|-mega|p2a: Steelix|Steelix|Steelixite
+|move|p1b: Farigiraf|Helping Hand|p1a: Basculegion
+|-singleturn|p1a: Basculegion|Helping Hand|[of] p1b: Farigiraf
+|move|p2b: Sinistcha|Protect|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|Protect
+|move|p1a: Basculegion|Last Respects|p2b: Sinistcha
+|-activate|p2b: Sinistcha|move: Protect
+|move|p2a: Steelix|High Horsepower|p1a: Basculegion
+|-damage|p1a: Basculegion|32/100
+|
+|upkeep
+|turn|2
+|
+|t:|1783886650
+|switch|p2b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|move|p1b: Farigiraf|Helping Hand|p1a: Basculegion
+|-singleturn|p1a: Basculegion|Helping Hand|[of] p1b: Farigiraf
+|move|p1a: Basculegion|Last Respects|p2b: Tyranitar
+|-resisted|p2b: Tyranitar|1
+|-damage|p2b: Tyranitar|77/100
+|move|p2a: Steelix|Heavy Slam|p1b: Farigiraf
+|-damage|p1b: Farigiraf|37/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Basculegion|26/100|[from] Sandstorm
+|-damage|p1b: Farigiraf|31/100|[from] Sandstorm
+|-heal|p1b: Farigiraf|37/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1783886679
+|switch|p1a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p1b: Farigiraf|Protect|p1b: Farigiraf
+|-singleturn|p1b: Farigiraf|Protect
+|move|p2b: Tyranitar|Dragon Dance|p2b: Tyranitar
+|-boost|p2b: Tyranitar|atk|1
+|-boost|p2b: Tyranitar|spe|1
+|move|p2a: Steelix|Heavy Slam|p1b: Farigiraf
+|-activate|p1b: Farigiraf|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Farigiraf|43/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1783886717
+|switch|p2a: Sinistcha|Sinistcha, L50|100/100
+|-heal|p2b: Tyranitar|100/100|[from] ability: Hospitality|[of] p2a: Sinistcha
+|move|p1b: Farigiraf|Helping Hand|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Helping Hand|[of] p1b: Farigiraf
+|move|p2b: Tyranitar|Rock Slide|p1b: Farigiraf|[spread] p1a,p1b
+|-supereffective|p1a: Pelipper|1
+|-damage|p1a: Pelipper|16/100
+|-damage|p1b: Farigiraf|5/100
+|move|p1a: Pelipper|Weather Ball|p2a: Sinistcha
+|-resisted|p2a: Sinistcha|1
+|-damage|p2a: Sinistcha|61/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Farigiraf|11/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1783886747
+|move|p1a: Pelipper|Protect|p1a: Pelipper
+|-singleturn|p1a: Pelipper|Protect
+|move|p2b: Tyranitar|Knock Off|p1a: Pelipper
+|-activate|p1a: Pelipper|move: Protect
+|move|p2a: Sinistcha|Matcha Gotcha|p1b: Farigiraf|[spread] 
+|-activate|p1a: Pelipper|move: Protect
+|-miss|p2a: Sinistcha|p1b: Farigiraf
+|move|p1b: Farigiraf|Hyper Voice|p2b: Tyranitar|[spread] p2b
+|-immune|p2a: Sinistcha
+|-resisted|p2b: Tyranitar|1
+|-damage|p2b: Tyranitar|87/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Farigiraf|17/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1783886765
+|move|p1b: Farigiraf|Protect|p1b: Farigiraf
+|-singleturn|p1b: Farigiraf|Protect
+|move|p2b: Tyranitar|Knock Off|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|-enditem|p1a: Pelipper|Focus Sash|[from] move: Knock Off|[of] p2b: Tyranitar
+|faint|p1a: Pelipper
+|move|p2a: Sinistcha|Matcha Gotcha|p1b: Farigiraf
+|-activate|p1b: Farigiraf|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1b: Farigiraf|23/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1783886776
+|switch|p1a: Basculegion|Basculegion, L50, M|26/100
+|turn|7
+|
+|t:|1783886787
+|move|p1b: Farigiraf|Helping Hand|p1a: Basculegion
+|-singleturn|p1a: Basculegion|Helping Hand|[of] p1b: Farigiraf
+|move|p2a: Sinistcha|Rage Powder|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|move: Rage Powder
+|move|p1a: Basculegion|Flip Turn|p2a: Sinistcha
+|-resisted|p2a: Sinistcha|1
+|-damage|p2a: Sinistcha|24/100
+|-enditem|p2a: Sinistcha|Sitrus Berry|[eat]
+|-heal|p2a: Sinistcha|48/100|[from] item: Sitrus Berry
+|
+|t:|1783886795
+|switch|p1a: Alakazam|Alakazam, L50, M|100/100|[from] Flip Turn
+|move|p2b: Tyranitar|Rock Slide|p1b: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Alakazam|0 fnt
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1a: Alakazam
+|faint|p1b: Farigiraf
+|
+|-weather|none
+|upkeep
+|
+|t:|1783886804
+|switch|p1b: Basculegion|Basculegion, L50, M|26/100
+|turn|8
+|
+|t:|1783886817
+|move|p2a: Sinistcha|Protect|p2a: Sinistcha
+|-singleturn|p2a: Sinistcha|Protect
+|move|p1b: Basculegion|Last Respects|p2a: Sinistcha
+|-activate|p2a: Sinistcha|move: Protect
+|move|p2b: Tyranitar|Knock Off|p1b: Basculegion
+|-supereffective|p1b: Basculegion|1
+|-damage|p1b: Basculegion|0 fnt
+|-enditem|p1b: Basculegion|Choice Scarf|[from] move: Knock Off|[of] p2b: Tyranitar
+|faint|p1b: Basculegion
+|
+|win|exessvgc
+||hello for none is ready for game 2.
+|inactive|exessvgc has 30 seconds to confirm battle start!
+||exessvgc is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆hello for none
+|player|p1|

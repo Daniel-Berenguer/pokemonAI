@@ -1,0 +1,108 @@
+|j|☆senseii trey
+|j|☆1208wither
+|html|senseii trey1208wither    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1784688604
+|gametype|doubles
+|player|p1|senseii trey|unknown|1040
+|player|p2|1208wither|2|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Mimikyu, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Rotom-Heat, L50|
+|poke|p1|Charizard, L50, M|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Swampert, L50, F|
+|poke|p2|Wyrdeer, L50, F|
+|teampreview|4
+|showteam|p1|Mimikyu||WhiteHerb|Disguise|ShadowClaw,WoodHammer,WillOWisp,TrickRoom|Sassy||F|||50|]Pelipper||MysticWater|Drizzle|IceBeam,Tailwind,WideGuard,MuddyWater|Bold||M|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,PartingShot,ThroatChop|Adamant||M|||50|]Garchomp||DragonFang|RoughSkin|RockSlide,DragonClaw,Protect,Earthquake|Adamant||F|||50|]Rotom-Heat||WiseGlasses|Levitate|Discharge,Protect,VoltSwitch,Overheat|Timid|||||50|]Charizard||CharizarditeY|Blaze|DragonPulse,Protect,SolarBeam,HeatWave|Timid||M|||50|
+|showteam|p2|Archaludon||Leftovers|Stamina|ElectroShot,DragonPulse,FlashCannon,Protect|Timid||F|||50|]Pelipper||FocusSash|Drizzle|Hurricane,Uturn,IceBeam,WideGuard|Modest||M|||50|]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,Protect,ShadowBall|Bold|||||50|]Basculegion||MentalHerb|SwiftSwim|LastRespects,AquaJet,WaveCrash,PsychicFangs|Adamant||M|||50|]Swampert||Swampertite|Torrent|WaveCrash,Earthquake,IcePunch,Protect|Adamant||F|||50|]Wyrdeer||ColburBerry|SapSipper|SkillSwap,Protect,ThroatChop,DoubleEdge|Careful||F|||50|
+|
+|t:|1784688632
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Mimikyu|Mimikyu, L50, F|100/100
+|switch|p1b: Rotom|Rotom-Heat, L50|100/100
+|switch|p2a: Swampert|Swampert, L50, F|100/100
+|switch|p2b: Wyrdeer|Wyrdeer, L50, F|100/100
+|turn|1
+|
+|t:|1784688654
+|detailschange|p2a: Swampert|Swampert-Mega, L50, F
+|-mega|p2a: Swampert|Swampert|Swampertite
+|move|p1b: Rotom|Volt Switch|p2b: Wyrdeer
+|-damage|p2b: Wyrdeer|72/100
+|
+|t:|1784688659
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100|[from] Volt Switch
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Swampert|atk|1
+|-unboost|p2b: Wyrdeer|atk|1
+|move|p2a: Swampert|Wave Crash|p1b: Incineroar
+|-supereffective|p1b: Incineroar|1
+|-damage|p1b: Incineroar|1/100
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|25/100|[from] item: Sitrus Berry
+|-damage|p2a: Swampert|62/100|[from] Recoil
+|move|p2b: Wyrdeer|Skill Swap|p2a: Swampert
+|-activate|p2b: Wyrdeer|Skill Swap|||[of] p2a: Swampert
+|move|p1a: Mimikyu|Trick Room|p1a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p1a: Mimikyu
+|
+|upkeep
+|turn|2
+|
+|t:|1784688679
+|switch|p2b: Sinistcha|Sinistcha, L50|100/100
+|-heal|p2a: Swampert|87/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|move|p1b: Incineroar|Parting Shot|p2b: Sinistcha
+|-unboost|p2b: Sinistcha|atk|1
+|-unboost|p2b: Sinistcha|spa|1
+|
+|t:|1784688688
+|switch|p1b: Rotom|Rotom-Heat, L50|100/100|[from] Parting Shot
+|move|p2a: Swampert|Earthquake|p1a: Mimikyu|[spread] p2b,p1a
+|-immune|p1b: Rotom|[from] ability: Levitate
+|-resisted|p2b: Sinistcha|1
+|-damage|p2b: Sinistcha|89/100
+|-activate|p1a: Mimikyu|ability: Disguise
+|-damage|p1a: Mimikyu|100/100
+|detailschange|p1a: Mimikyu|Mimikyu-Busted, L50, F
+|-damage|p1a: Mimikyu|87/100|[from] pokemon: Mimikyu-Busted
+|move|p1a: Mimikyu|Wood Hammer|p2a: Swampert
+|-ability|p2a: Swampert|Sap Sipper|boost
+|-boost|p2a: Swampert|atk|1
+|
+|upkeep
+|turn|3
+|
+|t:|1784688723
+|move|p2b: Sinistcha|Protect|p2b: Sinistcha
+|-singleturn|p2b: Sinistcha|Protect
+|move|p2a: Swampert|Wave Crash|p1b: Rotom
+|-supereffective|p1b: Rotom|1
+|-damage|p1b: Rotom|0 fnt
+|faint|p1b: Rotom
+|-damage|p2a: Swampert|63/100|[from] Recoil
+|move|p1a: Mimikyu|Shadow Claw|p2b: Sinistcha
+|-activate|p2b: Sinistcha|move: Protect
+|
+|upkeep
+|-message|senseii trey forfeited.
+|raw|senseii trey's rating: 1040 → 1022(-18 for losing)
+|raw|1208wither's rating: 1000 → 1045(+45 for winning)
+|
+|win|1208wither
+|l|☆senseii trey
+|player|p1|

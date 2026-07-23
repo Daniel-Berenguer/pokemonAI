@@ -1,0 +1,182 @@
+|j|☆hotellicker
+|j|☆Wendiigo
+|html|hotellickerWendiigo    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1784582134
+|gametype|doubles
+|player|p1|hotellicker|265|
+|player|p2|Wendiigo|hilbert-wonderlauncher|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Mawile, L50, F|
+|poke|p1|Gallade, L50, M, shiny|
+|poke|p1|Milotic, L50, F|
+|poke|p1|Abomasnow, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Lycanroc-Dusk, L50, M|
+|poke|p2|Tyranitar, L50, F, shiny|
+|poke|p2|Excadrill, L50, F, shiny|
+|poke|p2|Reuniclus, L50, F, shiny|
+|poke|p2|Clefable, L50, F|
+|poke|p2|Rotom, L50|
+|poke|p2|Infernape, L50, F, shiny|
+|teampreview|4
+|showteam|p1|Mawile||Mawilite|Intimidate|PlayRough,RockSlide,IronHead,Protect|Brave||F|||50|]Gallade||FocusSash|Sharpness|SacredSword,PsychoCut,TrickRoom,WideGuard|Brave||M|||50|]Milotic||ZoomLens|Competitive|MuddyWater,Hypnosis,Coil,LifeDew|Sassy||F|||50|]Abomasnow||Abomasite|SnowWarning|Blizzard,EnergyBall,EarthPower,Protect|Quiet||M|||50|]Farigiraf||ColburBerry|ArmorTail|TrickRoom,HelpingHand,Psychic,Thunderbolt|Relaxed||M|||50|]Lycanroc-Dusk||IronBall|ToughClaws|RockSlide,CloseCombat,Accelerock,Protect|Brave||M|||50|
+|showteam|p2|Tyranitar||Tyranitarite|SandStream|RockSlide,KnockOff,DragonDance,Protect|Adamant||F|||50|]Excadrill||LifeOrb|SandRush|Earthquake,IronHead,Megahorn,Protect|Adamant||F|||50|]Reuniclus||MentalHerb|MagicGuard|Psychic,FocusBlast,TrickRoom,Protect|Quiet||F|||50|]Clefable||Clefablite|MagicGuard|Moonblast,Flamethrower,FollowMe,Protect|Modest||F|||50|]Rotom||ChoiceScarf|Levitate|ShadowBall,Electroweb,Thunderbolt,Trick|Timid|||||50|]Infernape||Charcoal|Blaze|Taunt,AuraSphere,Flamethrower,Protect|Modest||F|||50|
+|
+|t:|1784582173
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gallade|Gallade, L50, M, shiny|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Infernape|Infernape, L50, F, shiny|100/100
+|switch|p2b: Rotom|Rotom, L50|100/100
+|turn|1
+|
+|t:|1784582205
+|move|p2b: Rotom|Shadow Ball|p1a: Gallade
+|-supereffective|p1a: Gallade|1
+|-damage|p1a: Gallade|35/100
+|move|p2a: Infernape|Taunt|p1b: Farigiraf
+|-start|p1b: Farigiraf|move: Taunt
+|move|p1b: Farigiraf|Psychic|p2a: Infernape
+|-supereffective|p2a: Infernape|1
+|-damage|p2a: Infernape|13/100
+|move|p1a: Gallade|Trick Room|p1a: Gallade
+|-fieldstart|move: Trick Room|[of] p1a: Gallade
+|
+|upkeep
+|turn|2
+|
+|t:|1784582281
+|switch|p2b: Excadrill|Excadrill, L50, F, shiny|100/100
+|move|p2a: Infernape|Protect|p2a: Infernape
+|-singleturn|p2a: Infernape|Protect
+|move|p1b: Farigiraf|Thunderbolt|p2a: Infernape
+|-activate|p2a: Infernape|move: Protect
+|move|p1a: Gallade|Psycho Cut|p2b: Excadrill
+|-resisted|p2b: Excadrill|1
+|-damage|p2b: Excadrill|62/100
+|
+|upkeep
+|turn|3
+|
+|t:|1784582304
+|switch|p2a: Clefable|Clefable, L50, F|100/100
+|move|p2b: Excadrill|Protect|p2b: Excadrill
+|-singleturn|p2b: Excadrill|Protect
+|move|p1b: Farigiraf|Thunderbolt|p2a: Clefable
+|-damage|p2a: Clefable|74/100
+|move|p1a: Gallade|Sacred Sword|p2b: Excadrill
+|-activate|p2b: Excadrill|move: Protect
+|
+|-end|p1b: Farigiraf|move: Taunt
+|upkeep
+|turn|4
+|
+|t:|1784582345
+|detailschange|p2a: Clefable|Clefable-Mega, L50, F
+|-mega|p2a: Clefable|Clefable|Clefablite
+|move|p2a: Clefable|Follow Me|p2a: Clefable
+|-singleturn|p2a: Clefable|move: Follow Me
+|move|p1b: Farigiraf|Thunderbolt|p2a: Clefable
+|-supereffective|p2a: Clefable|1
+|-damage|p2a: Clefable|33/100
+|move|p1a: Gallade|Psycho Cut|p2a: Clefable
+|-damage|p2a: Clefable|0 fnt
+|faint|p2a: Clefable
+|move|p2b: Excadrill|Earthquake|p1a: Gallade|[spread] p1a,p1b
+|-damage|p1a: Gallade|0 fnt
+|-damage|p1b: Farigiraf|59/100
+|faint|p1a: Gallade
+|-damage|p2b: Excadrill|52/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1784582361
+|switch|p1a: Abomasnow|Abomasnow, L50, M|100/100
+|switch|p2a: Infernape|Infernape, L50, F, shiny|13/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1a: Abomasnow
+|turn|5
+|
+|t:|1784582370
+|move|p1b: Farigiraf|Helping Hand|p1a: Abomasnow
+|-singleturn|p1a: Abomasnow|Helping Hand|[of] p1b: Farigiraf
+|move|p2b: Excadrill|Protect|p2b: Excadrill
+|-singleturn|p2b: Excadrill|Protect
+|move|p2a: Infernape|Protect|p2a: Infernape
+|-singleturn|p2a: Infernape|Protect
+|move|p1a: Abomasnow|Blizzard|p2b: Excadrill|[spread] 
+|-activate|p2a: Infernape|move: Protect
+|-activate|p2b: Excadrill|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1784582395
+|move|p1a: Abomasnow|Protect|p1a: Abomasnow
+|-singleturn|p1a: Abomasnow|Protect
+|move|p2a: Infernape|Flamethrower|p1a: Abomasnow
+|-activate|p1a: Abomasnow|move: Protect
+|move|p2b: Excadrill|Megahorn|p1b: Farigiraf
+|-supereffective|p1b: Farigiraf|1
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|-damage|p2b: Excadrill|42/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|c|☆hotellicker|wp
+|
+|t:|1784582405
+|switch|p1b: Mawile|Mawile, L50, F|100/100
+|-ability|p1b: Mawile|Intimidate|boost
+|-unboost|p2a: Infernape|atk|1
+|-unboost|p2b: Excadrill|atk|1
+|turn|7
+|
+|t:|1784582425
+|detailschange|p1b: Mawile|Mawile-Mega, L50, F
+|-mega|p1b: Mawile|Mawile|Mawilite
+|move|p2b: Excadrill|Protect|p2b: Excadrill
+|-singleturn|p2b: Excadrill|Protect
+|move|p1a: Abomasnow|Protect||[still]
+|-fail|p1a: Abomasnow
+|move|p2a: Infernape|Flamethrower|p1a: Abomasnow
+|-supereffective|p1a: Abomasnow|2
+|-damage|p1a: Abomasnow|0 fnt
+|faint|p1a: Abomasnow
+|move|p1b: Mawile|Rock Slide|p2a: Infernape|[spread] p2a
+|-activate|p2b: Excadrill|move: Protect
+|-damage|p2a: Infernape|0 fnt
+|faint|p2a: Infernape
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1784582439
+|switch|p2a: Rotom|Rotom, L50|100/100
+|turn|8
+|
+|t:|1784582451
+|move|p2a: Rotom|Thunderbolt|p1b: Mawile
+|-damage|p1b: Mawile|53/100
+|move|p2b: Excadrill|Earthquake|p1b: Mawile|[spread] p1b
+|-immune|p2a: Rotom|[from] ability: Levitate
+|-supereffective|p1b: Mawile|1
+|-damage|p1b: Mawile|0 fnt
+|faint|p1b: Mawile
+|-damage|p2b: Excadrill|33/100|[from] item: Life Orb
+|
+|win|Wendiigo
+|l|☆hotellicker
+|player|p1|
+|inactive|hotellicker has 30 seconds to confirm battle start!
+|inactive|Wendiigo has 30 seconds to confirm battle start!
+||hotellicker is ready for game 2.

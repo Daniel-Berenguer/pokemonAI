@@ -1,0 +1,208 @@
+|j|☆Scoseb
+|j|☆VenusaurBot
+|html|ScosebVenusaurBot    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1784488339
+|gametype|doubles
+|player|p1|Scoseb|brycenman|1268
+|player|p2|VenusaurBot|koga|1226
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gholdengo, L50|
+|poke|p1|Zoroark-Hisui, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Staraptor, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p2|Blaziken, L50, F|
+|poke|p2|Venusaur, L50, F|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Gholdengo||LifeOrb|GoodasGold|PowerGem,Protect,MakeItRain,ShadowBall|Modest|||||50|]Zoroark-Hisui||FocusSash|Illusion|Taunt,IcyWind,FakeTears,BitterMalice|Timid||M|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,PartingShot,FlareBlitz,DarkestLariat|Careful||F|||50|]Whimsicott||FairyFeather|Prankster|Moonblast,Tailwind,Charm,Encore|Modest||F|||50|]Staraptor||Staraptite|Reckless|CloseCombat,Protect,BraveBird,Roost|Jolly||M|||50|]Garchomp||Garchompite|RoughSkin|Protect,Earthquake,DragonClaw,RockSlide|Adamant||M|||50|
+|showteam|p2|Blaziken||Blazikenite|SpeedBoost|Protect,FlareBlitz,CloseCombat,RockSlide|Adamant||F|||50|]Venusaur||Venusaurite|Chlorophyll|Protect,EarthPower,SludgeBomb,GigaDrain|Modest||F|||50|]Ninetales-Alola||NeverMeltIce|SnowWarning|Protect,Blizzard,FreezeDry,Encore|Timid||F|||50|]Dragonite||LifeOrb|InnerFocus|Protect,ExtremeSpeed,DragonClaw,LowKick|Adamant||F|||50|]Kingambit||BlackGlasses|Defiant|Protect,KowtowCleave,SuckerPunch,IronHead|Adamant||M|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,FlipTurn,AquaJet,LastRespects|Jolly||M|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Scoseb)
+|inactive|VenusaurBot has 60 seconds left.
+|inactive|VenusaurBot has 30 seconds left.
+|
+|t:|1784488402
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Staraptor|Staraptor, L50, M|100/100
+|switch|p2a: Dragonite|Dragonite, L50, F|100/100
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Dragonite|unboost|Attack|[from] ability: Inner Focus|[of] p2a: Dragonite
+|-unboost|p2b: Basculegion|atk|1
+|turn|1
+|
+|t:|1784488424
+|detailschange|p1b: Staraptor|Staraptor-Mega, L50, M
+|-mega|p1b: Staraptor|Staraptor|Staraptite
+|move|p1b: Staraptor|Protect|p1b: Staraptor
+|-singleturn|p1b: Staraptor|Protect
+|move|p2b: Basculegion|Flip Turn|p1a: Incineroar
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|56/100
+|
+|t:|1784488431
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100|[from] Flip Turn
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|move|p2a: Dragonite|Dragon Claw|p1a: Incineroar
+|-damage|p1a: Incineroar|5/100
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|30/100|[from] item: Sitrus Berry
+|-damage|p2a: Dragonite|90/100|[from] item: Life Orb
+|move|p1a: Incineroar|Parting Shot|p2b: Ninetales
+|-unboost|p2b: Ninetales|atk|1
+|-unboost|p2b: Ninetales|spa|1
+|
+|t:|1784488444
+|switch|p1a: Gholdengo|Gholdengo, L50|100/100|[from] Parting Shot
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1784488459
+|switch|p1b: Incineroar|Incineroar, L50, F|30/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Dragonite|unboost|Attack|[from] ability: Inner Focus|[of] p2a: Dragonite
+|-unboost|p2b: Ninetales|atk|1
+|switch|p2a: Kingambit|Kingambit, L50, M|100/100
+|move|p2b: Ninetales|Encore||[still]
+|-fail|p2b: Ninetales
+|move|p1a: Gholdengo|Make It Rain|p2b: Ninetales|[spread] p2a,p2b
+|-resisted|p2a: Kingambit|1
+|-supereffective|p2b: Ninetales|2
+|-damage|p2a: Kingambit|69/100
+|-damage|p2b: Ninetales|0 fnt
+|-unboost|p1a: Gholdengo|spa|2
+|faint|p2b: Ninetales
+|-damage|p1a: Gholdengo|90/100|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|inactive|VenusaurBot has 30 seconds left.
+|
+|t:|1784488490
+|switch|p2b: Dragonite|Dragonite, L50, F|90/100
+|turn|3
+|
+|t:|1784488498
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|move|p1b: Incineroar|Fake Out|p2a: Kingambit
+|-resisted|p2a: Kingambit|1
+|-damage|p2a: Kingambit|65/100
+|move|p2b: Dragonite|Dragon Claw|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|-damage|p2b: Dragonite|80/100|[from] item: Life Orb
+|cant|p2a: Kingambit|flinch
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1784488510
+|switch|p1b: Staraptor|Staraptor-Mega, L50, M|100/100
+|turn|4
+|
+|t:|1784488520
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|move|p2b: Dragonite|Extreme Speed|p1b: Staraptor
+|-damage|p1b: Staraptor|59/100
+|-damage|p2b: Dragonite|71/100|[from] item: Life Orb
+|move|p1a: Whimsicott|Charm|p2b: Dragonite
+|-unboost|p2b: Dragonite|atk|2
+|move|p1b: Staraptor|Close Combat|p2a: Basculegion
+|-immune|p2a: Basculegion
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|inactive|VenusaurBot has 30 seconds left.
+|
+|t:|1784488553
+|move|p1b: Staraptor|Protect|p1b: Staraptor
+|-singleturn|p1b: Staraptor|Protect
+|move|p2b: Dragonite|Extreme Speed|p1a: Whimsicott
+|-damage|p1a: Whimsicott|73/100
+|-damage|p2b: Dragonite|61/100|[from] item: Life Orb
+|move|p1a: Whimsicott|Charm|p2a: Basculegion
+|-unboost|p2a: Basculegion|atk|2
+|move|p2a: Basculegion|Last Respects|p1b: Staraptor
+|-activate|p1b: Staraptor|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|6
+|inactive|VenusaurBot has 30 seconds left.
+|inactive|Scoseb has 30 seconds left.
+|
+|t:|1784488587
+|switch|p2a: Kingambit|Kingambit, L50, M|65/100
+|move|p2b: Dragonite|Extreme Speed|p1b: Staraptor
+|-damage|p1b: Staraptor|39/100
+|-damage|p2b: Dragonite|52/100|[from] item: Life Orb
+|move|p1b: Staraptor|Brave Bird|p2a: Kingambit
+|-resisted|p2a: Kingambit|1
+|-damage|p2a: Kingambit|43/100
+|-damage|p1b: Staraptor|31/100|[from] Recoil
+|move|p1a: Whimsicott|Moonblast|p2a: Kingambit
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|
+|upkeep
+|
+|t:|1784488600
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|turn|7
+|
+|t:|1784488610
+|move|p1b: Staraptor|Protect|p1b: Staraptor
+|-singleturn|p1b: Staraptor|Protect
+|move|p2b: Dragonite|Extreme Speed|p1b: Staraptor
+|-activate|p1b: Staraptor|move: Protect
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: Scoseb|move: Tailwind
+|move|p2a: Basculegion|Last Respects|p1a: Whimsicott
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|upkeep
+|
+|t:|1784488620
+|switch|p1a: Gholdengo|Gholdengo, L50|90/100
+|turn|8
+|
+|t:|1784488629
+|move|p1b: Staraptor|Roost|p1b: Staraptor
+|-heal|p1b: Staraptor|81/100
+|-singleturn|p1b: Staraptor|move: Roost
+|move|p1a: Gholdengo|Shadow Ball|p2a: Basculegion
+|-supereffective|p2a: Basculegion|1
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|-damage|p1a: Gholdengo|80/100|[from] item: Life Orb
+|move|p2b: Dragonite|Dragon Claw|p1b: Staraptor
+|-damage|p1b: Staraptor|52/100
+|-damage|p2b: Dragonite|42/100|[from] item: Life Orb
+|
+|upkeep
+|turn|9
+|-message|VenusaurBot forfeited.
+|
+|win|Scoseb
+|raw|Scoseb's rating: 1268 → 1290(+22 for winning)
+|raw|VenusaurBot's rating: 1226 → 1204(-22 for losing)
+|c|☆Scoseb|ggs
+|l|☆Scoseb
+|player|p1|

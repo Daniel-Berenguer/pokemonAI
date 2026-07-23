@@ -1,0 +1,230 @@
+|j|☆KieramX
+|j|☆Drzuloaga
+|html|KieramXDrzuloaga    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784650012
+|gametype|doubles
+|player|p1|KieramX|n|1138
+|player|p2|Drzuloaga|265|1031
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F, shiny|
+|poke|p1|Garchomp, L50, M, shiny|
+|poke|p1|Incineroar, L50, F, shiny|
+|poke|p1|Venusaur, L50, M, shiny|
+|poke|p1|Toxapex, L50, M, shiny|
+|poke|p1|Sylveon, L50, M, shiny|
+|poke|p2|Gengar, L50, M|
+|poke|p2|Tinkaton, L50, F, shiny|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Kingambit, L50, M, shiny|
+|poke|p2|Altaria, L50, F|
+|poke|p2|Annihilape, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|SolarPower|WeatherBall,HeatWave,AncientPower,Protect|Modest||F|||50|]Garchomp||ChoiceScarf|RoughSkin|RockSlide,DragonClaw,Earthquake,StompingTantrum|Adamant||M|||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,FakeOut,DarkestLariat,PartingShot|Impish||F|||50|]Venusaur||LifeOrb|Chlorophyll|SludgeBomb,LeafStorm,EarthPower,Protect|Modest||M|||50|]Toxapex||Leftovers|Regenerator|Infestation,Toxic,WideGuard,BanefulBunker|Bold||M|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,QuickAttack,Yawn,Detect|Modest||M|||50|
+|showteam|p2|Gengar||Gengarite|CursedBody|Protect,PerishSong,ShadowBall,Disable|Timid||M|||50|]Tinkaton||ShucaBerry|MoldBreaker|Protect,FakeOut,Encore,GigatonHammer|Jolly||F|||50|]Incineroar||PasshoBerry|Intimidate|Protect,FakeOut,PartingShot,ThroatChop|Relaxed||M|||50|]Kingambit||BlackGlasses|Defiant|Protect,SuckerPunch,SwordsDance,KowtowCleave|Adamant||M|||50|]Altaria||Leftovers|CloudNine|Protect,PerishSong,WillOWisp,FireSpin|Bold||F|||50|]Annihilape||ChoiceScarf|Defiant|Uturn,CloseCombat,IcePunch,PhantomForce|Adamant||F|||50|
+|
+|t:|1784650050
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sylveon|Sylveon, L50, M, shiny|100/100
+|switch|p1b: Garchomp|Garchomp, L50, M, shiny|100/100
+|switch|p2a: Gengar|Gengar, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Sylveon|atk|1
+|-unboost|p1b: Garchomp|atk|1
+|turn|1
+|
+|t:|1784650078
+|detailschange|p2a: Gengar|Gengar-Mega, L50, M
+|-mega|p2a: Gengar|Gengar|Gengarite
+|move|p2b: Incineroar|Fake Out|p1b: Garchomp
+|-damage|p1b: Garchomp|89/100
+|-damage|p2b: Incineroar|87/100|[from] ability: Rough Skin|[of] p1b: Garchomp
+|cant|p1b: Garchomp|flinch
+|move|p2a: Gengar|Perish Song|p2a: Gengar
+|-start|p1a: Sylveon|perish3|[silent]
+|-start|p1b: Garchomp|perish3|[silent]
+|-start|p2a: Gengar|perish3|[silent]
+|-start|p2b: Incineroar|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p1a: Sylveon|Yawn|p2a: Gengar
+|-start|p2a: Gengar|move: Yawn|[of] p1a: Sylveon
+|
+|-start|p1b: Garchomp|perish3
+|-start|p2a: Gengar|perish3
+|-start|p1a: Sylveon|perish3
+|-start|p2b: Incineroar|perish3
+|upkeep
+|turn|2
+|
+|t:|1784650104
+|switch|p2a: Altaria|Altaria, L50, F|100/100
+|-ability|p2a: Altaria|Cloud Nine
+|move|p1b: Garchomp|Rock Slide|p2a: Altaria|[spread] p2a,p2b
+|-supereffective|p2a: Altaria|1
+|-supereffective|p2b: Incineroar|1
+|-crit|p2b: Incineroar
+|-damage|p2a: Altaria|75/100
+|-damage|p2b: Incineroar|45/100
+|move|p1a: Sylveon|Hyper Voice|p2b: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Altaria|1
+|-damage|p2a: Altaria|2/100
+|-damage|p2b: Incineroar|7/100
+|cant|p2b: Incineroar|flinch
+|
+|-heal|p2a: Altaria|8/100|[from] item: Leftovers
+|-start|p1b: Garchomp|perish2
+|-start|p1a: Sylveon|perish2
+|-start|p2b: Incineroar|perish2
+|upkeep
+|turn|3
+|
+|t:|1784650150
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Altaria|atk|1
+|-unboost|p2b: Incineroar|atk|1
+|switch|p1a: Charizard|Charizard, L50, F, shiny|100/100
+|move|p2a: Altaria|Perish Song|p2a: Altaria
+|-start|p1a: Charizard|perish3|[silent]
+|-start|p1b: Incineroar|perish3|[silent]
+|-start|p2a: Altaria|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|move|p2b: Incineroar|Parting Shot|p1b: Incineroar
+|-unboost|p1b: Incineroar|atk|1
+|-unboost|p1b: Incineroar|spa|1
+|
+|t:|1784650160
+|switch|p2b: Gengar|Gengar-Mega, L50, M|100/100|[from] Parting Shot
+|
+|-heal|p2a: Altaria|14/100|[from] item: Leftovers
+|-start|p1a: Charizard|perish3
+|-start|p2a: Altaria|perish3
+|-start|p1b: Incineroar|perish3
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by KieramX)
+|
+|t:|1784650189
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, F, shiny
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2b: Gengar|Protect|p2b: Gengar
+|-singleturn|p2b: Gengar|Protect
+|move|p2a: Altaria|Protect|p2a: Altaria
+|-singleturn|p2a: Altaria|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Altaria
+|-activate|p2a: Altaria|move: Protect
+|move|p1a: Charizard|Ancient Power|p2a: Altaria
+|-activate|p2a: Altaria|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Altaria|20/100y|[from] item: Leftovers
+|-start|p1a: Charizard|perish2
+|-start|p2a: Altaria|perish2
+|-start|p1b: Incineroar|perish2
+|upkeep
+|turn|5
+|inactive|Drzuloaga has 30 seconds left.
+|inactive|Drzuloaga has 20 seconds left.
+|inactive|Drzuloaga has 15 seconds left.
+|
+|t:|1784650230
+|switch|p2b: Incineroar|Incineroar, L50, M|7/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|move|p1a: Charizard|Heat Wave|p2b: Incineroar|[spread] p2a,p2b
+|-resisted|p2a: Altaria|1
+|-resisted|p2b: Incineroar|1
+|-damage|p2a: Altaria|3/100
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Altaria|Fire Spin|p1a: Charizard
+|-resisted|p1a: Charizard|1
+|-damage|p1a: Charizard|97/100
+|-activate|p1a: Charizard|move: Fire Spin|[of] p2a: Altaria
+|move|p1b: Incineroar|Darkest Lariat|p2a: Altaria
+|-damage|p2a: Altaria|0 fnt
+|faint|p2a: Altaria
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1a: Charizard|Fire Spin|[partiallytrapped]|[silent]
+|-start|p1a: Charizard|perish1
+|-start|p1b: Incineroar|perish1
+|upkeep
+|
+|t:|1784650248
+|switch|p2a: Gengar|Gengar-Mega, L50, M|100/100
+|switch|p2b: Tinkaton|Tinkaton, L50, F, shiny|100/100
+|-ability|p2b: Tinkaton|Mold Breaker
+|turn|6
+|inactive|Drzuloaga has 30 seconds left.
+|
+|t:|1784650280
+|move|p2b: Tinkaton|Fake Out|p1a: Charizard
+|-damage|p1a: Charizard|90/100
+|move|p2a: Gengar|Disable|p1b: Incineroar
+|-start|p1b: Incineroar|Disable|Darkest Lariat
+|cant|p1a: Charizard|flinch
+|cant|p1b: Incineroar|Disable|Darkest Lariat
+|
+|-weather|SunnyDay|[upkeep]
+|-start|p1a: Charizard|perish0
+|-start|p1b: Incineroar|perish0
+|upkeep
+|faint|p1a: Charizard
+|faint|p1b: Incineroar
+|
+|t:|1784650289
+|switch|p1a: Sylveon|Sylveon, L50, M, shiny|100/100
+|switch|p1b: Garchomp|Garchomp, L50, M, shiny|89/100
+|turn|7
+|
+|t:|1784650311
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p1a: Sylveon|Detect|p1a: Sylveon
+|-singleturn|p1a: Sylveon|Protect
+|move|p1b: Garchomp|Earthquake|p2a: Gengar|[spread] p2b
+|-activate|p1a: Sylveon|move: Protect
+|-activate|p2a: Gengar|move: Protect
+|-supereffective|p2b: Tinkaton|1
+|-enditem|p2b: Tinkaton|Shuca Berry|[eat]
+|-enditem|p2b: Tinkaton|Shuca Berry|[weaken]
+|-damage|p2b: Tinkaton|50/100g
+|move|p2b: Tinkaton|Gigaton Hammer|p1a: Sylveon
+|-activate|p1a: Sylveon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|inactive|Drzuloaga has 30 seconds left.
+|
+|t:|1784650336
+|move|p1b: Garchomp|Earthquake|p2a: Gengar|[spread] p1a,p2a,p2b
+|-supereffective|p2a: Gengar|1
+|-supereffective|p2b: Tinkaton|1
+|-damage|p1a: Sylveon|58/100
+|-damage|p2a: Gengar|0 fnt
+|-damage|p2b: Tinkaton|0 fnt
+|faint|p2a: Gengar
+|faint|p2b: Tinkaton
+|
+|win|KieramX
+||Drzuloaga is ready for game 3.
+||KieramX is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆KieramX
+|player|p1|
+|l|☆Drzuloaga
+|player|p2|
+|j|☆KieramX
+|player|p1|KieramX|n|
