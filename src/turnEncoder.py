@@ -3,6 +3,8 @@ import torch.nn as nn
 import torch.nn.functional as F
 import pickle
 import math
+from dataclasses import dataclass
+
 
 CHART = [
 # NONE  NOR  FIR  WAT  ELE  GRS  ICE  FIG  POI  GRO  FLY  PSY  BUG  ROC  GHO  DRG  DAR  STE  FAI
@@ -26,6 +28,31 @@ CHART = [
   [ 1,  1, 0.5, 0.5, 0.5,   1,   2,   1,   1,   1,   1,   1,   1,   2,   1,   1,   1, 0.5,   2],  # Steel
   [ 1,  1, 0.5,   1,   1,   1,   1,   2, 0.5,   1,   1,   1,   1,   1,   1,   2,   2, 0.5,   1],  # Fairy
 ]
+
+@dataclass
+class TurnEncoderConfig:
+    """Has all hyperparameters"""
+    MOVE_DIM: int = 32
+    MOVE_HIDDEN: int = 128
+    POKE_EMB: int = 64
+    AB_EMB: int = 32
+    IT_EMB: int = 32
+    BOARD_DIM: int = 32
+    POKE_DIM: int = 128
+    N_HEADS: int = 16
+    HIDDEN_LAY_1: int = 128
+    HIDDEN_LAY_2: int = 32
+    poke_dropout: float = 0.25
+    self_att_dropout: float = 0.45
+    cross_att_dropout: float = 0.45
+    mlp_dropout1: float = 0.35
+    mlp_dropout2: float = 0.15
+
+    def __post_init__(self):
+        if self.POKE_DIM % self.N_HEADS != 0:
+            raise ValueError(
+                f"POKE_DIM ({self.POKE_DIM}) must be divisible by N_HEADS ({self.N_HEADS})"
+            )
 
 class AttentionPool(nn.Module):
     def __init__(self, feature_dim):
@@ -182,7 +209,7 @@ class PokeEncoder(nn.Module):
     [ 1,  1, 0.5,   1,   1,   1,   1,   2, 0.5,   1,   1,   1,   1,   1,   1,   2,   2, 0.5,   1],  # Fairy
     ]
 
-    def __init__(self, moveHidden, moveDim, pokeEmb, abEmb, itemEmb, pokeDim):
+    def __init__(self, moveHidden, moveDim, pokeEmb, abEmb, itemEmb, pokeDim, dropout):
         super().__init__()
 
         self.pokeEmb = nn.Embedding(self.N_POKES, pokeEmb)
@@ -194,7 +221,7 @@ class PokeEncoder(nn.Module):
 
         concatDim = moveDim + pokeEmb + abEmb + itemEmb + self.N_TYPES*4 + self.FEATS_DIM
 
-        self.dropout = nn.Dropout(0.25)
+        self.dropout = nn.Dropout(dropout)
         self.ln = nn.LayerNorm(concatDim)
         self.linear = nn.Linear(concatDim, pokeDim)
 
@@ -251,58 +278,48 @@ class BoardEncoder(nn.Module):
                  # (batch, featureDim)
 
 class TurnEncoder(nn.Module):
-    MOVE_DIM = 32
-    MOVE_HIDDEN = 128
-    POKE_EMB = 64
-    AB_EMB = 32
-    IT_EMB = 32
-    BOARD_DIM = 32
-    POKE_DIM = 128
-    N_HEADS = 16
-
-    #MLP LAYER
-    HIDDEN_LAY_1 = 128
-    HIDDEN_LAY_2 = 32
-
-
-    def __init__(self):
+    def __init__(self, cfg: TurnEncoderConfig = None):
         super().__init__()
-        self.pokeEncoder = PokeEncoder(self.MOVE_HIDDEN, self.MOVE_DIM, self.POKE_EMB, self.AB_EMB, self.IT_EMB, self.POKE_DIM)
-        self.boardEncoder = BoardEncoder(self.BOARD_DIM)
-        self.board2token = nn.Linear(self.BOARD_DIM, self.POKE_DIM)
-        self.selfAttTransformerLayer1 = SelfAttTransformerLayer(in_dim=self.POKE_DIM, n_heads=self.N_HEADS, key_query_dim=int(self.POKE_DIM/self.N_HEADS),
-                                                                head_dim=int(self.POKE_DIM/self.N_HEADS), hidden_dim=self.POKE_DIM*2, dropout=0.45)
-        #self.selfAttTransformerLayer2 = SelfAttTransformerLayer(in_dim=self.POKE_DIM, n_heads=self.N_HEADS, key_query_dim=self.POKE_DIM,
-        #                                                        head_dim=int(self.POKE_DIM/self.N_HEADS), hidden_dim=self.POKE_DIM*2, dropout=0.3)
-        self.crossAttTransformerLayer1 = CrossAttTransformerLayer(in_dim=self.POKE_DIM, n_heads=self.N_HEADS, key_query_dim=int(self.POKE_DIM/self.N_HEADS),
-                                                                head_dim=int(self.POKE_DIM/self.N_HEADS), hidden_dim=self.POKE_DIM*2, dropout=0.45)
-        #self.crossAttTransformerLayer2 = CrossAttTransformerLayer(in_dim=self.POKE_DIM, n_heads=self.N_HEADS, key_query_dim=self.POKE_DIM,
-        #                                                        head_dim=int(self.POKE_DIM/self.N_HEADS), hidden_dim=self.POKE_DIM*2, dropout=0.3)
+
+        if cfg is None:
+            cfg = TurnEncoderConfig()
+        self.cfg = cfg
+
+        self.pokeEncoder = PokeEncoder(cfg.MOVE_HIDDEN, cfg.MOVE_DIM, cfg.POKE_EMB, cfg.AB_EMB, cfg.IT_EMB, cfg.POKE_DIM,
+                                       dropout=cfg.poke_dropout)
+        self.boardEncoder = BoardEncoder(cfg.BOARD_DIM)
+        self.board2token = nn.Linear(cfg.BOARD_DIM, cfg.POKE_DIM)
+        self.selfAttTransformerLayer1 = SelfAttTransformerLayer(in_dim=cfg.POKE_DIM, n_heads=cfg.N_HEADS, key_query_dim=int(cfg.POKE_DIM/cfg.N_HEADS),
+                                                                head_dim=int(cfg.POKE_DIM/cfg.N_HEADS), hidden_dim=cfg.POKE_DIM*2, dropout=cfg.self_att_dropout)
+
+
+        self.crossAttTransformerLayer1 = CrossAttTransformerLayer(in_dim=cfg.POKE_DIM, n_heads=cfg.N_HEADS, key_query_dim=int(cfg.POKE_DIM/cfg.N_HEADS),
+                                                                head_dim=int(cfg.POKE_DIM/cfg.N_HEADS), hidden_dim=cfg.POKE_DIM*2, dropout=cfg.cross_att_dropout)
+        
 
         # Final MLP
-        self.ln1 = nn.LayerNorm(self.POKE_DIM*2)
-        self.lin1 = nn.Linear(self.POKE_DIM*2, self.HIDDEN_LAY_1)
-        self.dropout1 = nn.Dropout(0.35)
+        self.ln1 = nn.LayerNorm(cfg.POKE_DIM*2)
+        self.lin1 = nn.Linear(cfg.POKE_DIM*2, cfg.HIDDEN_LAY_1)
+        self.dropout1 = nn.Dropout(cfg.mlp_dropout1)
 
-        self.ln2 = nn.LayerNorm(self.HIDDEN_LAY_1)
-        self.lin2 = nn.Linear(self.HIDDEN_LAY_1, self.HIDDEN_LAY_2)
-        self.dropout2 = nn.Dropout(0.15)
+        self.ln2 = nn.LayerNorm(cfg.HIDDEN_LAY_1)
+        self.lin2 = nn.Linear(cfg.HIDDEN_LAY_1, cfg.HIDDEN_LAY_2)
+        self.dropout2 = nn.Dropout(cfg.mlp_dropout2)
 
-        self.class_tokens = nn.Parameter(torch.randn((2,1,self.POKE_DIM)))
+        self.class_tokens = nn.Parameter(torch.randn((2,1,cfg.POKE_DIM)))
 
-        self.ln3 = nn.LayerNorm(self.HIDDEN_LAY_2)
-        self.lin3 = nn.Linear(self.HIDDEN_LAY_2, 1)
+        self.ln3 = nn.LayerNorm(cfg.HIDDEN_LAY_2)
+        self.lin3 = nn.Linear(cfg.HIDDEN_LAY_2, 1)
 
 
     def forward(self, pokeInts, pokeFeats, moveInts, moveFeats, boardInts, boardFeats):
         teams = self.pokeEncoder(pokeInts, pokeFeats, moveInts, moveFeats) # (BATCH, 2, 6, pokeDim)
         board_token = self.board2token(self.boardEncoder(boardInts, boardFeats)) # (BATCH, pokeDim)
         board_token = board_token[:, None, None, :].expand(-1, 2, 1, -1) # (BATCH, 2, 1, pokeDim)
-        class_tokens = self.class_tokens.expand(board_token.shape[0], 2, 1, self.POKE_DIM) # (BATCH, 2, 1, pokeDim)
+        class_tokens = self.class_tokens.expand(board_token.shape[0], 2, 1, self.cfg.POKE_DIM) # (BATCH, 2, 1, pokeDim)
         x = torch.cat([teams, board_token, class_tokens], dim=2)
 
         x = self.selfAttTransformerLayer1(x)
-        #x = self.selfAttTransformerLayer2(x)
 
         team_1 = x[:,0,:,:]
         team_2 = x[:,1,:,:]
