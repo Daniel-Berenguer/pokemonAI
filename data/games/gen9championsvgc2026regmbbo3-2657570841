@@ -1,0 +1,175 @@
+|j|☆gbaromsenjoyer
+|j|☆marillrag1
+|html|gbaromsenjoyermarillrag1    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785476840
+|gametype|doubles
+|player|p1|gbaromsenjoyer|170|1188
+|player|p2|marillrag1|170|1329
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Camerupt, L50, F|
+|poke|p1|Abomasnow, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Vivillon, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Kommo-o, L50, M|
+|poke|p2|Glimmora, L50, F|
+|teampreview|4
+|showteam|p1|Camerupt||Cameruptite|SolidRock|EarthPower,HeatWave,AncientPower,Protect|Quiet||F|||50|]Abomasnow||Abomasite|SnowWarning|Blizzard,IceShard,GrassKnot,EarthPower|Quiet||F|||50|]Incineroar||LifeOrb|Intimidate|FlareBlitz,DarkestLariat,PartingShot,FakeOut|Brave||M|||50|]Kingambit||BlackGlasses|Defiant|SuckerPunch,KowtowCleave,SwordsDance,Protect|Brave||M|||50|]Vivillon||FocusSash|CompoundEyes|Hurricane,SleepPowder,RagePowder,Protect|Timid||F|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,Protect,TrickRoom,HelpingHand|Sassy||F|||50|
+|showteam|p2|Charizard||CharizarditeY|Blaze|Protect,HeatWave,SolarBeam,WeatherBall|Modest||F|||50|]Kingambit||BlackGlasses|Defiant|Protect,KowtowCleave,IronHead,SuckerPunch|Adamant||M|||50|]Whimsicott||FocusSash|Prankster|Protect,Moonblast,Tailwind,Encore|Timid||M|||50|]Ninetales-Alola||NeverMeltIce|SnowWarning|Protect,Blizzard,Disable,FreezeDry|Timid||M|||50|]Kommo-o||LifeOrb|Overcoat|Protect,AuraSphere,ClangingScales,VacuumWave|Modest||M|||50|]Glimmora||Glimmoranite|ToxicDebris|SpikyShield,SludgeBomb,PowerGem,EarthPower|Modest||F|||50|
+|
+|t:|1785476877
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: Kommo-o|Kommo-o, L50, M|100/100
+|switch|p2b: Charizard|Charizard, L50, F|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Kommo-o|atk|1
+|-unboost|p2b: Charizard|atk|1
+|turn|1
+|
+|t:|1785476889
+|detailschange|p2b: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p2b: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Charizard
+|move|p1a: Incineroar|Fake Out|p2a: Kommo-o
+|-damage|p2a: Kommo-o|83/100
+|-damage|p1a: Incineroar|90/100|[from] item: Life Orb
+|move|p2b: Charizard|Heat Wave|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar|1
+|-crit|p1b: Farigiraf
+|-damage|p1a: Incineroar|63/100
+|-damage|p1b: Farigiraf|27/100
+|-enditem|p1b: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1b: Farigiraf|51/100|[from] item: Sitrus Berry
+|cant|p2a: Kommo-o|flinch
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1785476916
+|move|p1b: Farigiraf|Protect|p1b: Farigiraf
+|-singleturn|p1b: Farigiraf|Protect
+|move|p2a: Kommo-o|Protect|p2a: Kommo-o
+|-singleturn|p2a: Kommo-o|Protect
+|move|p1a: Incineroar|Parting Shot|p2a: Kommo-o
+|-activate|p2a: Kommo-o|move: Protect
+|move|p2b: Charizard|Heat Wave|p1b: Farigiraf|[spread] p1a
+|-activate|p1b: Farigiraf|move: Protect
+|-resisted|p1a: Incineroar|1
+|-damage|p1a: Incineroar|33/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1785476948
+|switch|p2a: Kingambit|Kingambit, L50, M|100/100
+|move|p1a: Incineroar|Flare Blitz|p2b: Charizard
+|-resisted|p2b: Charizard|1
+|-damage|p2b: Charizard|35/100
+|-damage|p1a: Incineroar|15/100|[from] Recoil
+|-damage|p1a: Incineroar|5/100|[from] item: Life Orb
+|move|p1b: Farigiraf|Psychic|p2a: Kingambit
+|-immune|p2a: Kingambit
+|move|p2b: Charizard|Heat Wave|p1b: Farigiraf|[spread] p1a,p1b
+|-resisted|p1a: Incineroar|1
+|-crit|p1b: Farigiraf
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1a: Incineroar
+|faint|p1b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785476962
+|switch|p1a: Camerupt|Camerupt, L50, F|100/100
+|switch|p1b: Abomasnow|Abomasnow, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p1b: Abomasnow
+|turn|4
+|
+|t:|1785477016
+|switch|p2b: Glimmora|Glimmora, L50, F|100/100
+|detailschange|p1a: Camerupt|Camerupt-Mega, L50, F
+|-mega|p1a: Camerupt|Camerupt|Cameruptite
+|move|p2a: Kingambit|Protect|p2a: Kingambit
+|-singleturn|p2a: Kingambit|Protect
+|move|p1a: Camerupt|Heat Wave|p2a: Kingambit|[spread] p2b
+|-activate|p2a: Kingambit|move: Protect
+|-resisted|p2b: Glimmora|1
+|-damage|p2b: Glimmora|68/100
+|move|p1b: Abomasnow|Blizzard|p2a: Kingambit|[spread] p2b
+|-activate|p2a: Kingambit|move: Protect
+|-damage|p2b: Glimmora|21/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1785477036
+|move|p2b: Glimmora|Spiky Shield|p2b: Glimmora
+|-singleturn|p2b: Glimmora|move: Protect
+|move|p2a: Kingambit|Sucker Punch|p1a: Camerupt
+|-damage|p1a: Camerupt|49/100
+|move|p1a: Camerupt|Heat Wave|p2b: Glimmora|[spread] p2a
+|-activate|p2b: Glimmora|move: Protect
+|-supereffective|p2a: Kingambit|1
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|move|p1b: Abomasnow|Blizzard|p2b: Glimmora
+|-activate|p2b: Glimmora|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1785477042
+|switch|p2a: Charizard|Charizard-Mega-Y, L50, F|35/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|turn|6
+|
+|t:|1785477071
+|move|p1a: Camerupt|Protect|p1a: Camerupt
+|-singleturn|p1a: Camerupt|Protect
+|move|p2a: Charizard|Weather Ball|p1b: Abomasnow
+|-supereffective|p1b: Abomasnow|2
+|-damage|p1b: Abomasnow|0 fnt
+|faint|p1b: Abomasnow
+|move|p2b: Glimmora|Earth Power|p1a: Camerupt
+|-activate|p1a: Camerupt|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1785477082
+|move|p2a: Charizard|Weather Ball|p1a: Camerupt
+|-resisted|p1a: Camerupt|1
+|-damage|p1a: Camerupt|10/100
+|move|p2b: Glimmora|Earth Power|p1a: Camerupt
+|-supereffective|p1a: Camerupt|1
+|-damage|p1a: Camerupt|0 fnt
+|faint|p1a: Camerupt
+|
+|win|marillrag1
+|raw|gbaromsenjoyer's rating: 1188 → 1173(-15 for losing)
+|raw|marillrag1's rating: 1329 → 1341(+12 for winning)
+|l|☆gbaromsenjoyer
+|player|p1|

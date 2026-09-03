@@ -1,0 +1,158 @@
+|j|☆TMJS01
+|j|☆el bamdara
+|html|TMJS01el bamdara    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785193726
+|gametype|doubles
+|player|p1|TMJS01|unknown|
+|player|p2|el bamdara|265|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sinistcha, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Camerupt, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Pyroar, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Venusaur, L50, F|
+|poke|p2|Scrafty, L50, M|
+|poke|p2|Mamoswine, L50, F|
+|teampreview|4
+|showteam|p1|Sinistcha||ColburBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,LifeDew|Relaxed|||||50|]Incineroar||PasshoBerry|Intimidate|ThroatChop,FlareBlitz,PartingShot,FakeOut|Adamant||M|||50|]Floette-Eternal||Floettite|FlowerVeil|Protect,CalmMind,Moonblast,DazzlingGleam|Modest||F|||50|]Kingambit||FocusSash|Defiant|SuckerPunch,IronHead,KowtowCleave,LowKick|Brave||M|||50|]Camerupt||Cameruptite|SolidRock|AncientPower,HeatWave,EarthPower,Protect|Quiet||F|||50|]Farigiraf||SitrusBerry|ArmorTail|Thunderbolt,TwinBeam,TrickRoom,HelpingHand|Relaxed||F|||50|
+|showteam|p2|Torkoal||HeatRock|Drought|WeatherBall,Eruption,Protect,HelpingHand|Quiet||M|||50|]Pyroar||Pyroarite|Unnerve|HeatWave,Overheat,Yawn,Protect|Timid||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Protect,Thunderbolt,Psychic,TrickRoom|Quiet||F|||50|]Venusaur||LifeOrb|Chlorophyll|EnergyBall,EarthPower,SludgeBomb,Protect|Modest||F|||50|]Scrafty||Scraftinite|Intimidate|DrainPunch,KnockOff,FakeOut,IcePunch|Adamant||M|||50|]Mamoswine||FocusSash|Oblivious|RockSlide,IceShard,HighHorsepower,Protect|Jolly||F|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by TMJS01)
+|
+|t:|1785193741
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: Mamoswine|Mamoswine, L50, F|100/100
+|switch|p2b: Pyroar|Pyroar, L50, M|100/100
+|-ability|p2b: Pyroar|Unnerve
+|-ability|p1a: Incineroar|Intimidate|boost
+|-fail|p2a: Mamoswine|unboost|Attack|[from] ability: Oblivious|[of] p2a: Mamoswine
+|-unboost|p2b: Pyroar|atk|1
+|turn|1
+|
+|t:|1785193765
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|move|p2a: Mamoswine|Rock Slide|p1a: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Incineroar|1
+|-crit|p1b: Farigiraf
+|-damage|p1a: Incineroar|72/100
+|-damage|p1b: Farigiraf|80/100
+|move|p1a: Incineroar|Flare Blitz|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine|1
+|-enditem|p2a: Mamoswine|Focus Sash
+|-damage|p2a: Mamoswine|1/100
+|-damage|p1a: Incineroar|41/100|[from] Recoil
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1785193787
+|move|p1b: Farigiraf|Helping Hand|p1a: Incineroar
+|-singleturn|p1a: Incineroar|Helping Hand|[of] p1b: Farigiraf
+|move|p2a: Mamoswine|Protect|p2a: Mamoswine
+|-singleturn|p2a: Mamoswine|Protect
+|move|p1a: Incineroar|Throat Chop|p2b: Farigiraf
+|-supereffective|p2b: Farigiraf|1
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|
+|upkeep
+|
+|t:|1785193791
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|3
+|
+|t:|1785193802
+|switch|p2a: Pyroar|Pyroar, L50, M|100/100
+|-ability|p2a: Pyroar|Unnerve
+|move|p2b: Torkoal|Eruption|p1a: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Incineroar|1
+|-damage|p1a: Incineroar|17/100
+|-damage|p1b: Farigiraf|28/100
+|move|p1b: Farigiraf|Twin Beam|p2a: Pyroar
+|-damage|p2a: Pyroar|77/100
+|-damage|p2a: Pyroar|50/100g
+|-hitcount|p2a: Pyroar|2
+|move|p1a: Incineroar|Flare Blitz|p2b: Torkoal
+|-resisted|p2b: Torkoal|1
+|-damage|p2b: Torkoal|64/100
+|-damage|p1a: Incineroar|8/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1785193816
+|move|p2a: Pyroar|Protect|p2a: Pyroar
+|-singleturn|p2a: Pyroar|Protect
+|move|p2b: Torkoal|Eruption|p1b: Farigiraf|[spread] p1a,p1b
+|-resisted|p1a: Incineroar|1
+|-damage|p1a: Incineroar|0 fnt
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1a: Incineroar
+|faint|p1b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785193818
+|switch|p1b: Camerupt|Camerupt, L50, F|100/100
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|turn|5
+|
+|t:|1785193829
+|switch|p2a: Mamoswine|Mamoswine, L50, F|1/100
+|detailschange|p1b: Camerupt|Camerupt-Mega, L50, F
+|-mega|p1b: Camerupt|Camerupt|Cameruptite
+|move|p1b: Camerupt|Earth Power|p2b: Torkoal
+|-supereffective|p2b: Torkoal|1
+|-damage|p2b: Torkoal|0 fnt
+|faint|p2b: Torkoal
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Mamoswine
+|-damage|p2a: Mamoswine|0 fnt
+|faint|p2a: Mamoswine
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1785193832
+|switch|p2b: Pyroar|Pyroar, L50, M|50/100g
+|-ability|p2b: Pyroar|Unnerve
+|turn|6
+|
+|t:|1785193838
+|detailschange|p2b: Pyroar|Pyroar-Mega, L50, M
+|-mega|p2b: Pyroar|Pyroar|Pyroarite
+|move|p1a: Kingambit|Sucker Punch|p2b: Pyroar
+|-damage|p2b: Pyroar|4/100
+|move|p2b: Pyroar|Heat Wave|p1a: Kingambit|[spread] p1a,p1b
+|-supereffective|p1a: Kingambit|1
+|-resisted|p1b: Camerupt|1
+|-enditem|p1a: Kingambit|Focus Sash
+|-damage|p1a: Kingambit|1/100
+|-damage|p1b: Camerupt|69/100
+|move|p1b: Camerupt|Earth Power|p2b: Pyroar
+|-supereffective|p2b: Pyroar|1
+|-damage|p2b: Pyroar|0 fnt
+|faint|p2b: Pyroar
+|
+|win|TMJS01
+|l|☆el bamdara
+|player|p2|
+|c|☆TMJS01|Ggs

@@ -1,0 +1,116 @@
+|j|☆hadecat
+|j|☆grrimm32
+|html|hadecatgrrimm32    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1785666466
+|gametype|doubles
+|player|p1|hadecat|169|
+|player|p2|grrimm32|iono-masters|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Heliolisk, L50, F|
+|poke|p1|Simisear, L50, F|
+|poke|p1|Zoroark, L50, M|
+|poke|p1|Runerigus, L50, F|
+|poke|p1|Tinkaton, L50, F|
+|poke|p1|Toucannon, L50, F|
+|poke|p2|Heliolisk, L50, F|
+|poke|p2|Tinkaton, L50, F, shiny|
+|poke|p2|Toucannon, L50, M, shiny|
+|poke|p2|Simisear, L50, F|
+|poke|p2|Zoroark, L50, M, shiny|
+|poke|p2|Simisage, L50, F|
+|teampreview|4
+|showteam|p1|Heliolisk||FocusSash|SolarPower|Electroweb,VoltSwitch,Discharge,GrassKnot|Timid||F|||50|]Simisear||HeatRock|Blaze|SunnyDay,Protect,FlareBlitz,FakeOut|Jolly||F|||50|]Zoroark||ChoiceScarf|Illusion|HyperVoice,Flamethrower,SludgeBomb,NightDaze|Timid||M|||50|]Runerigus||Leftovers|WanderingSpirit|BodyPress,Poltergeist,RockSlide,Protect|Impish||F|||50|]Tinkaton||ShucaBerry|MoldBreaker|GigatonHammer,PlayRough,SwordsDance,KnockOff|Jolly||F|||50|]Toucannon||ExpertBelt|SkillLink|FlameCharge,BulletSeed,RockBlast,Tailwind|Jolly||F|||50|
+|showteam|p2|Heliolisk||LifeOrb|DrySkin|Thunderbolt,HyperVoice,Protect,GrassKnot|Timid||F|||50|]Tinkaton||Leftovers|MoldBreaker|FakeOut,KnockOff,GigatonHammer,ThunderWave|Jolly||F|||50|]Toucannon||WacanBerry|SkillLink|Tailwind,TemperFlare,Protect,BraveBird|Adamant||M|||50|]Simisear||SitrusBerry|Blaze|FakeOut,WillOWisp,Protect,Flamethrower|Timid||F|||50|]Zoroark||FocusSash|Illusion|NastyPlot,Protect,DarkPulse,Flamethrower|Timid||M|||50|]Simisage||MiracleSeed|Overgrow|FakeOut,RockSlide,SeedBomb,HelpingHand|Jolly||F|||50|
+|
+|t:|1785666517
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Simisear|Simisear, L50, F|100/100
+|switch|p1b: Tinkaton|Tinkaton, L50, F|100/100
+|switch|p2a: Toucannon|Toucannon, L50, M, shiny|100/100
+|switch|p2b: Heliolisk|Heliolisk, L50, F|100/100
+|turn|1
+|
+|t:|1785666587
+|move|p2a: Toucannon|Protect|p2a: Toucannon
+|-singleturn|p2a: Toucannon|Protect
+|move|p1a: Simisear|Fake Out|p2a: Toucannon
+|-activate|p2a: Toucannon|move: Protect
+|move|p1b: Tinkaton|Flamethrower|p2b: Heliolisk
+|-damage|p2b: Heliolisk|36/100
+|replace|p2b: Zoroark|Zoroark, L50, M, shiny
+|-end|p2b: Zoroark|Illusion
+|move|p2b: Zoroark|Nasty Plot|p2b: Zoroark
+|-boost|p2b: Zoroark|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1785666605
+|move|p2b: Zoroark|Protect|p2b: Zoroark
+|-singleturn|p2b: Zoroark|Protect
+|move|p1b: Tinkaton|Flamethrower|p2b: Zoroark
+|-activate|p2b: Zoroark|move: Protect
+|move|p1a: Simisear|Sunny Day|p1a: Simisear
+|-weather|SunnyDay
+|move|p2a: Toucannon|Tailwind|p2a: Toucannon
+|-sidestart|p2: grrimm32|move: Tailwind
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1785666623
+|move|p2b: Zoroark|Flamethrower|p1b: Tinkaton
+|-crit|p1b: Tinkaton
+|-damage|p1b: Tinkaton|0 fnt
+|replace|p1b: Zoroark|Zoroark, L50, M
+|-end|p1b: Zoroark|Illusion
+|faint|p1b: Zoroark
+|move|p2a: Toucannon|Brave Bird|p1a: Simisear
+|-damage|p1a: Simisear|0 fnt
+|faint|p1a: Simisear
+|-damage|p2a: Toucannon|72/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785666651
+|switch|p1b: Tinkaton|Tinkaton, L50, F|100/100
+|switch|p1a: Runerigus|Runerigus, L50, F|100/100
+|-ability|p1b: Tinkaton|Mold Breaker
+|turn|4
+|
+|t:|1785666700
+|move|p2b: Zoroark|Protect|p2b: Zoroark
+|-singleturn|p2b: Zoroark|Protect
+|move|p2a: Toucannon|Temper Flare|p1b: Tinkaton
+|-supereffective|p1b: Tinkaton|1
+|-damage|p1b: Tinkaton|0 fnt
+|faint|p1b: Tinkaton
+|move|p1a: Runerigus|Rock Slide|p2a: Toucannon|[spread] p2a
+|-activate|p2b: Zoroark|move: Protect
+|-supereffective|p2a: Toucannon|1
+|-damage|p2a: Toucannon|40/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1785666712
+|move|p2b: Zoroark|Dark Pulse|p1a: Runerigus
+|-supereffective|p1a: Runerigus|1
+|-damage|p1a: Runerigus|0 fnt
+|faint|p1a: Runerigus
+|
+|win|grrimm32
+|c|☆grrimm32|gg
+|c|☆hadecat|gg
+|l|☆hadecat
+|player|p1|

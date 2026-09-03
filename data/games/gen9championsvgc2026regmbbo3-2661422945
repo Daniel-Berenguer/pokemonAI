@@ -1,0 +1,163 @@
+|j|☆chatgptdraftduel
+|j|☆rager88
+|html|chatgptdraftduelrager88    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1786131272
+|gametype|doubles
+|player|p1|chatgptdraftduel|169|
+|player|p2|rager88|101|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Skarmory, L50, F|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Slowking, L50, F|
+|poke|p1|Arcanine, L50, M|
+|poke|p1|Heracross, L50, F|
+|poke|p1|Ampharos, L50, M|
+|poke|p2|Sableye, L50, F|
+|poke|p2|Dragonite, L50, M|
+|poke|p2|Milotic, L50, M|
+|poke|p2|Starmie, L50|
+|poke|p2|Ariados, L50, F|
+|poke|p2|Scizor, L50, M|
+|teampreview|4
+|showteam|p1|Skarmory||Skarmorite|Sturdy|BraveBird,IronHead,SwordsDance,DrillRun|Jolly||F|||50|]Tyranitar||ChopleBerry|SandStream|RockSlide,Crunch,IcePunch,LowKick|Adamant||F|||50|]Slowking||Leftovers|Regenerator|Scald,Psychic,TrickRoom,SlackOff|Bold||F|||50|]Arcanine||Charcoal|Intimidate|FlareBlitz,ExtremeSpeed,WillOWisp,Protect|Adamant||M|||50|]Heracross||ChoiceScarf|Moxie|CloseCombat,Megahorn,RockSlide,Earthquake|Jolly||F|||50|]Ampharos||Ampharosite|Static|Thunderbolt,DragonPulse,VoltSwitch,Protect|Modest||M|||50|
+|showteam|p2|Sableye||DampRock|Prankster|FakeOut,RainDance,Encore,Quash|Careful||F|||50|]Dragonite||Dragoninite|Multiscale|DracoMeteor,Thunder,Hurricane,Tailwind|Modest||M|||50|]Milotic||Leftovers|Competitive|Coil,Hypnosis,IcyWind,Scald|Bold||M|||50|]Starmie||Starminite|Illuminate|Waterfall,IceSpinner,ZenHeadbutt,BulkUp|Adamant|||||50|]Ariados||BrightPowder|Sniper|RagePowder,StringShot,Protect,CrossPoison|Impish||F|||50|]Scizor||SitrusBerry|Technician|SwordsDance,BulletPunch,CloseCombat,BugBite|Adamant||M|||50|
+|
+|t:|1786131436
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p1b: Arcanine|Arcanine, L50, M|100/100
+|switch|p2a: Sableye|Sableye, L50, F|100/100
+|switch|p2b: Milotic|Milotic, L50, M|100/100
+|-ability|p1b: Arcanine|Intimidate|boost
+|-unboost|p2a: Sableye|atk|1
+|-unboost|p2b: Milotic|atk|1
+|-ability|p2b: Milotic|Competitive|boost
+|-boost|p2b: Milotic|spa|2
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|1
+|
+|t:|1786131495
+|move|p1b: Arcanine|Protect|p1b: Arcanine
+|-singleturn|p1b: Arcanine|Protect
+|move|p2a: Sableye|Fake Out|p1a: Tyranitar
+|-resisted|p1a: Tyranitar|1
+|-damage|p1a: Tyranitar|97/100
+|move|p2b: Milotic|Coil|p2b: Milotic
+|-boost|p2b: Milotic|atk|1
+|-boost|p2b: Milotic|def|1
+|-boost|p2b: Milotic|accuracy|1
+|cant|p1a: Tyranitar|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Arcanine|94/100|[from] Sandstorm
+|-damage|p2b: Milotic|94/100|[from] Sandstorm
+|-damage|p2a: Sableye|94/100|[from] Sandstorm
+|-heal|p2b: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1786131623
+|move|p2a: Sableye|Encore|p1b: Arcanine
+|-start|p1b: Arcanine|Encore
+|move|p1b: Arcanine|Protect||[still]
+|-fail|p1b: Arcanine
+|move|p2b: Milotic|Hypnosis|p1a: Tyranitar
+|-status|p1a: Tyranitar|slp|[from] move: Hypnosis
+|cant|p1a: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Arcanine|88/100|[from] Sandstorm
+|-damage|p2b: Milotic|94/100|[from] Sandstorm
+|-damage|p2a: Sableye|88/100|[from] Sandstorm
+|-heal|p2b: Milotic|100/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1786131983
+|switch|p1b: Skarmory|Skarmory, L50, F|100/100
+|move|p2a: Sableye|Rain Dance|p2a: Sableye
+|-weather|RainDance
+|move|p2b: Milotic|Scald|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar|1
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1786132039
+|switch|p1a: Heracross|Heracross, L50, F|100/100
+|turn|4
+|
+|t:|1786132092
+|detailschange|p1b: Skarmory|Skarmory-Mega, L50, F
+|-mega|p1b: Skarmory|Skarmory|Skarmorite
+|move|p2a: Sableye|Quash|p1b: Skarmory
+|-activate|p1b: Skarmory|move: Quash
+|move|p1a: Heracross|Close Combat|p2b: Milotic
+|-damage|p2b: Milotic|69/100
+|-unboost|p1a: Heracross|def|1
+|-unboost|p1a: Heracross|spd|1
+|move|p2b: Milotic|Scald|p1b: Skarmory
+|-damage|p1b: Skarmory|0 fnt
+|faint|p1b: Skarmory
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Milotic|75/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1786132105
+|switch|p1b: Arcanine|Arcanine, L50, M|88/100
+|-ability|p1b: Arcanine|Intimidate|boost
+|-unboost|p2a: Sableye|atk|1
+|-unboost|p2b: Milotic|atk|1
+|-ability|p2b: Milotic|Competitive|boost
+|-boost|p2b: Milotic|spa|2
+|turn|5
+|
+|t:|1786132272
+|move|p2a: Sableye|Quash|p1a: Heracross
+|-activate|p1a: Heracross|move: Quash
+|move|p1b: Arcanine|Flare Blitz|p2a: Sableye
+|-damage|p2a: Sableye|42/100
+|-status|p2a: Sableye|brn
+|-damage|p1b: Arcanine|75/100|[from] Recoil
+|move|p2b: Milotic|Scald|p1a: Heracross
+|-damage|p1a: Heracross|0 fnt
+|faint|p1a: Heracross
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2b: Milotic|81/100|[from] item: Leftovers
+|-damage|p2a: Sableye|36/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1786132353
+|move|p2a: Sableye|Encore|p1b: Arcanine
+|-start|p1b: Arcanine|Encore
+|move|p1b: Arcanine|Flare Blitz|p2a: Sableye
+|-damage|p2a: Sableye|0 fnt
+|faint|p2a: Sableye
+|-damage|p1b: Arcanine|65/100|[from] Recoil
+|move|p2b: Milotic|Scald|p1b: Arcanine
+|-supereffective|p1b: Arcanine|1
+|-damage|p1b: Arcanine|0 fnt
+|faint|p1b: Arcanine
+|
+|win|rager88
+|inactive|chatgptdraftduel has 30 seconds to confirm battle start!
+|inactive|rager88 has 30 seconds to confirm battle start!
+|inactive|chatgptdraftduel has 20 seconds to confirm battle start!
+|inactive|rager88 has 20 seconds to confirm battle start!
+|inactive|chatgptdraftduel has 10 seconds to confirm battle start!
+|inactive|rager88 has 10 seconds to confirm battle start!
+|inactive|chatgptdraftduel has 0 seconds to confirm battle start!
+|inactive|rager88 has 0 seconds to confirm battle start!
+|uhtml|next|Next: Game 2 of 3

@@ -1,0 +1,236 @@
+|j|☆andiom123
+|j|☆baggedchikin
+|html|andiom123baggedchikin    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1785868474
+|gametype|doubles
+|player|p1|andiom123|red|1257
+|player|p2|baggedchikin|170|1300
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Kangaskhan, L50, F|
+|poke|p1|Mudsdale, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Milotic, L50, M|
+|poke|p2|Delphox, L50, M|
+|teampreview|4
+|showteam|p1|Incineroar||MuscleBand|Intimidate|ThroatChop,FlareBlitz,FakeOut,PartingShot|Brave||M|||50|]Farigiraf||SitrusBerry|ArmorTail|FoulPlay,PsychicNoise,TrickRoom,HelpingHand|Relaxed||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,Yawn,Detect|Modest||M|||50|]Torkoal||Charcoal|Drought|Eruption,EarthPower,Flamethrower,Protect|Quiet||F|||50|]Kangaskhan||Kangaskhanite|Scrappy|DoubleEdge,FakeOut,IcePunch,HammerArm|Brave||F|||50|]Mudsdale||LifeOrb|InnerFocus|HighHorsepower,Earthquake,RockSlide,HeavySlam|Brave||M|||50|
+|showteam|p2|Tyranitar||Tyranitarite|SandStream|Protect,RockSlide,KnockOff,DragonDance|Jolly||F|||50|]Excadrill||LifeOrb|SandRush|Protect,IronHead,HighHorsepower,Earthquake|Adamant||M|||50|]Whimsicott||FocusSash|Prankster|Protect,Tailwind,Moonblast,Encore|Timid||F|||50|]Gholdengo||ColburBerry|GoodasGold|Protect,NastyPlot,MakeItRain,ShadowBall|Modest|||||50|]Milotic||Leftovers|Competitive|Protect,Coil,Hypnosis,MuddyWater|Bold||M|||50|]Delphox||Delphoxite|Blaze|Protect,HeatWave,Psychic,NastyPlot|Timid||M|||50|
+|
+|t:|1785868517
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1b: Kangaskhan|Kangaskhan, L50, F|100/100
+|switch|p2a: Milotic|Milotic, L50, M|100/100
+|switch|p2b: Delphox|Delphox, L50, M|100/100
+|turn|1
+|
+|t:|1785868536
+|detailschange|p1b: Kangaskhan|Kangaskhan-Mega, L50, F
+|-mega|p1b: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p1b: Kangaskhan|Fake Out|p2b: Delphox
+|-damage|p2b: Delphox|63/100
+|-damage|p2b: Delphox|54/100
+|-hitcount|p2b: Delphox|2
+|cant|p2b: Delphox|flinch
+|move|p2a: Milotic|Coil|p2a: Milotic
+|-boost|p2a: Milotic|atk|1
+|-boost|p2a: Milotic|def|1
+|-boost|p2a: Milotic|accuracy|1
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1785868561
+|move|p2b: Delphox|Protect|p2b: Delphox
+|-singleturn|p2b: Delphox|Protect
+|move|p1a: Farigiraf|Psychic Noise|p2a: Milotic
+|-damage|p2a: Milotic|80/100
+|-start|p2a: Milotic|move: Heal Block
+|move|p2a: Milotic|Hypnosis|p1b: Kangaskhan|[miss]
+|-miss|p2a: Milotic|p1b: Kangaskhan
+|move|p1b: Kangaskhan|Double-Edge|p2b: Delphox
+|-activate|p2b: Delphox|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1785868596
+|switch|p2b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|move|p1a: Farigiraf|Foul Play|p2b: Tyranitar
+|-resisted|p2b: Tyranitar|1
+|-damage|p2b: Tyranitar|84/100
+|move|p2a: Milotic|Coil|p2a: Milotic
+|-boost|p2a: Milotic|atk|1
+|-boost|p2a: Milotic|def|1
+|-boost|p2a: Milotic|accuracy|1
+|move|p1b: Kangaskhan|Hammer Arm|p2b: Tyranitar
+|-supereffective|p2b: Tyranitar|2
+|-damage|p2b: Tyranitar|0 fnt
+|-unboost|p1b: Kangaskhan|spe|1
+|faint|p2b: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Kangaskhan|93/100|[from] Sandstorm
+|-damage|p1a: Farigiraf|93/100|[from] Sandstorm
+|-damage|p2a: Milotic|74/100|[from] Sandstorm
+|-end|p2a: Milotic|move: Heal Block
+|upkeep
+|
+|t:|1785868606
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|turn|4
+|
+|t:|1785868626
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1b: Kangaskhan|Double-Edge|p2a: Milotic
+|-damage|p2a: Milotic|49/100
+|-damage|p2a: Milotic|43/100
+|-hitcount|p2a: Milotic|2
+|-damage|p1b: Kangaskhan|83/100|[from] Recoil
+|move|p1a: Farigiraf|Psychic Noise|p2a: Milotic
+|-damage|p2a: Milotic|21/100
+|-start|p2a: Milotic|move: Heal Block
+|move|p2a: Milotic|Hypnosis|p1b: Kangaskhan
+|-status|p1b: Kangaskhan|slp|[from] move: Hypnosis
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Kangaskhan|77/100 slp|[from] Sandstorm
+|-damage|p1a: Farigiraf|87/100|[from] Sandstorm
+|-damage|p2a: Milotic|15/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1785868669
+|move|p2a: Milotic|Protect|p2a: Milotic
+|-singleturn|p2a: Milotic|Protect
+|move|p1a: Farigiraf|Psychic Noise|p2a: Milotic
+|-activate|p2a: Milotic|move: Protect
+|cant|p1b: Kangaskhan|slp
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Kangaskhan|71/100 slp|[from] Sandstorm
+|-damage|p1a: Farigiraf|81/100|[from] Sandstorm
+|-damage|p2a: Milotic|9/100|[from] Sandstorm
+|-end|p2a: Milotic|move: Heal Block
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1785868690
+|move|p2b: Gholdengo|Make It Rain|p1a: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Farigiraf|0 fnt
+|-damage|p1b: Kangaskhan|0 fnt
+|-unboost|p2b: Gholdengo|spa|2
+|faint|p1a: Farigiraf
+|faint|p1b: Kangaskhan
+|move|p2a: Milotic|Hypnosis|p1: Farigiraf|[notarget]
+|-fail|p2a: Milotic
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|3/100|[from] Sandstorm
+|-heal|p2a: Milotic|9/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1785868701
+|switch|p1b: Sylveon|Sylveon, L50, M|100/100
+|switch|p1a: Mudsdale|Mudsdale, L50, M|100/100
+|turn|7
+|
+|t:|1785868723
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p2a: Milotic|Protect|p2a: Milotic
+|-singleturn|p2a: Milotic|Protect
+|move|p1b: Sylveon|Hyper Voice|p2b: Gholdengo|[spread] 
+|-activate|p2a: Milotic|move: Protect
+|-activate|p2b: Gholdengo|move: Protect
+|move|p1a: Mudsdale|High Horsepower|p2b: Gholdengo
+|-activate|p2b: Gholdengo|move: Protect
+|
+|-weather|none
+|-heal|p2a: Milotic|15/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1785868737
+|move|p1b: Sylveon|Detect|p1b: Sylveon
+|-singleturn|p1b: Sylveon|Protect
+|move|p2b: Gholdengo|Make It Rain|p1b: Sylveon|[spread] p1a
+|-activate|p1b: Sylveon|move: Protect
+|-crit|p1a: Mudsdale
+|-damage|p1a: Mudsdale|27/100
+|-unboost|p2b: Gholdengo|spa|2
+|move|p2a: Milotic|Hypnosis|p1a: Mudsdale
+|-status|p1a: Mudsdale|slp|[from] move: Hypnosis
+|cant|p1a: Mudsdale|slp
+|
+|-heal|p2a: Milotic|21/100|[from] item: Leftovers
+|upkeep
+|turn|9
+|
+|t:|1785868760
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p2a: Milotic|Muddy Water|p1b: Sylveon|[spread] p1a,p1b
+|-supereffective|p1a: Mudsdale|1
+|-damage|p1a: Mudsdale|0 fnt
+|-damage|p1b: Sylveon|80/100
+|-unboost|p1b: Sylveon|accuracy|1
+|faint|p1a: Mudsdale
+|move|p1b: Sylveon|Hyper Voice|p2b: Gholdengo|[spread] p2a,p2b
+|-resisted|p2b: Gholdengo|1
+|-damage|p2a: Milotic|0 fnt
+|-damage|p2b: Gholdengo|77/100
+|faint|p2a: Milotic
+|
+|upkeep
+|
+|t:|1785868767
+|switch|p2a: Delphox|Delphox, L50, M|54/100
+|turn|10
+|
+|t:|1785868785
+|detailschange|p2a: Delphox|Delphox-Mega, L50, M
+|-mega|p2a: Delphox|Delphox|Delphoxite
+|move|p2a: Delphox|Psychic|p1b: Sylveon
+|-damage|p1b: Sylveon|35/100
+|move|p2b: Gholdengo|Shadow Ball|p1b: Sylveon
+|-damage|p1b: Sylveon|3/100
+|move|p1b: Sylveon|Hyper Voice|p2b: Gholdengo|[spread] p2a
+|-miss|p1b: Sylveon|p2b: Gholdengo
+|-resisted|p2a: Delphox|1
+|-damage|p2a: Delphox|31/100
+|
+|upkeep
+|turn|11
+|
+|t:|1785868801
+|move|p2a: Delphox|Psychic|p1b: Sylveon
+|-damage|p1b: Sylveon|0 fnt
+|faint|p1b: Sylveon
+|
+|win|baggedchikin
+|raw|andiom123's rating: 1257 → 1235(-22 for losing)
+|raw|baggedchikin's rating: 1300 → 1322(+22 for winning)
+|l|☆baggedchikin
+|player|p2|

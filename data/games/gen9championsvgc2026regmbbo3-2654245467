@@ -1,0 +1,175 @@
+|j|☆redjaguar
+|j|‽MPM1998
+|html|redjaguarMPM1998    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1784912893
+|gametype|doubles
+|player|p1|redjaguar|gambler|1053
+|player|p2|MPM1998|266|1168
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Gardevoir, L50, F|
+|poke|p1|Raichu, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Empoleon, L50, F|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Swampert, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Sylveon, L50, F|
+|teampreview|4
+|showteam|p1|Dragonite||ExpertBelt|Multiscale|IceSpinner,StompingTantrum,ExtremeSpeed,Protect|Adamant||M|||50|]Gardevoir||Gardevoirite|Trace|HyperVoice,MysticalFire,Protect,Psychic|Timid||F|||50|]Raichu||SitrusBerry|LightningRod|FakeOut,HelpingHand,Nuzzle,Encore|Timid||M|||50|]Kingambit||BlackGlasses|SupremeOverlord|KowtowCleave,SuckerPunch,Protect,IronHead|Adamant||M|||50|]Incineroar||WhiteHerb|Intimidate|FakeOut,FlareBlitz,PartingShot,Taunt|Impish||F|||50|]Empoleon||Leftovers|Competitive|IcyWind,Protect,FlashCannon,HydroCannon|Modest||F|||50|
+|showteam|p2|Pelipper||FocusSash|Drizzle|Tailwind,Hurricane,WeatherBall,Protect|Timid||F|||50|]Sneasler||WhiteHerb|Unburden|FakeOut,CloseCombat,DireClaw,Protect|Adamant||M|||50|]Archaludon||SitrusBerry|Stamina|FlashCannon,DragonPulse,ElectroShot,Protect|Modest||M|||50|]Swampert||Swampertite|Torrent|WaveCrash,HighHorsepower,IcePunch,Protect|Adamant||F|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,FlipTurn,LastRespects,AquaJet|Jolly||M|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,QuickAttack,Protect|Modest||F|||50|
+|
+|t:|1784912912
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Raichu|Raichu, L50, M|100/100
+|switch|p1b: Empoleon|Empoleon, L50, F|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Sylveon|Sylveon, L50, F|100/100
+|turn|1
+|
+|t:|1784912937
+|move|p1a: Raichu|Fake Out|p2a: Sneasler
+|-damage|p2a: Sneasler|86/100
+|cant|p2a: Sneasler|flinch
+|move|p2b: Sylveon|Hyper Beam|p1a: Raichu
+|-damage|p1a: Raichu|0 fnt
+|-mustrecharge|p2b: Sylveon
+|faint|p1a: Raichu
+|move|p1b: Empoleon|Flash Cannon|p2b: Sylveon
+|-supereffective|p2b: Sylveon|1
+|-damage|p2b: Sylveon|40/100
+|
+|upkeep
+|
+|t:|1784912952
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|turn|2
+|
+|t:|1784912965
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p1a: Dragonite|Stomping Tantrum|p2a: Pelipper
+|-immune|p2a: Pelipper
+|cant|p2b: Sylveon|recharge
+|move|p1b: Empoleon|Flash Cannon|p2b: Sylveon
+|-supereffective|p2b: Sylveon|1
+|-damage|p2b: Sylveon|0 fnt
+|faint|p2b: Sylveon
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1784912975
+|switch|p2b: Sneasler|Sneasler, L50, M|86/100
+|turn|3
+|
+|t:|1784912991
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p2a: Pelipper|Hurricane|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|66/100
+|move|p1a: Dragonite|Stomping Tantrum|p2b: Sneasler
+|-activate|p2b: Sneasler|move: Protect
+|move|p1b: Empoleon|Icy Wind|p2b: Sneasler|[spread] p2a
+|-activate|p2b: Sneasler|move: Protect
+|-damage|p2a: Pelipper|77/100
+|-unboost|p2a: Pelipper|spe|1
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1784913026
+|switch|p2a: Swampert|Swampert, L50, F|100/100
+|move|p1b: Empoleon|Protect|p1b: Empoleon
+|-singleturn|p1b: Empoleon|Protect
+|move|p2b: Sneasler|Close Combat|p1b: Empoleon
+|-activate|p1b: Empoleon|move: Protect
+|move|p1a: Dragonite|Stomping Tantrum|p2b: Sneasler
+|-supereffective|p2b: Sneasler|1
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1784913029
+|switch|p2b: Pelipper|Pelipper, L50, F|77/100
+|turn|5
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by MPM1998)
+|
+|t:|1784913067
+|detailschange|p2a: Swampert|Swampert-Mega, L50, F
+|-mega|p2a: Swampert|Swampert|Swampertite
+|move|p1a: Dragonite|Extreme Speed|p2a: Swampert
+|-damage|p2a: Swampert|69/100
+|move|p2a: Swampert|High Horsepower|p1b: Empoleon
+|-supereffective|p1b: Empoleon|1
+|-damage|p1b: Empoleon|0 fnt
+|faint|p1b: Empoleon
+|move|p2b: Pelipper|Hurricane|p1a: Dragonite
+|-crit|p1a: Dragonite
+|-damage|p1a: Dragonite|7/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1784913078
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|-activate|p1b: Kingambit|ability: Supreme Overlord
+|-start|p1b: Kingambit|fallen2|[silent]
+|turn|6
+|inactive|MPM1998 has 30 seconds left.
+|
+|t:|1784913107
+|move|p1a: Dragonite|Extreme Speed|p2a: Swampert
+|-damage|p2a: Swampert|44/100
+|move|p1b: Kingambit|Sucker Punch|p2a: Swampert
+|-damage|p2a: Swampert|0 fnt
+|faint|p2a: Swampert
+|move|p2b: Pelipper|Weather Ball|p1a: Dragonite
+|-resisted|p1a: Dragonite|1
+|-damage|p1a: Dragonite|0 fnt
+|faint|p1a: Dragonite
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1784913127
+|move|p2b: Pelipper|Hurricane|p1b: Kingambit
+|-resisted|p1b: Kingambit|1
+|-damage|p1b: Kingambit|75/100
+|move|p1b: Kingambit|Kowtow Cleave|p2b: Pelipper
+|-damage|p2b: Pelipper|4/100
+|
+|upkeep
+|turn|8
+|
+|t:|1784913139
+|move|p2b: Pelipper|Tailwind|p2b: Pelipper
+|-sidestart|p2: MPM1998|move: Tailwind
+|move|p1b: Kingambit|Kowtow Cleave|p2b: Pelipper
+|-damage|p2b: Pelipper|0 fnt
+|faint|p2b: Pelipper
+|
+|win|redjaguar
+|inactive|redjaguar has 30 seconds to confirm battle start!
+|inactive|MPM1998 has 30 seconds to confirm battle start!
+||redjaguar is ready for game 2.
+||MPM1998 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|‽MPM1998
+|player|p2|

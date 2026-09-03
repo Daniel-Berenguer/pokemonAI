@@ -1,0 +1,125 @@
+|j|☆clarocojones
+|j|☆HopsVGC
+|html|clarocojonesHopsVGC    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785600360
+|gametype|doubles
+|player|p1|clarocojones|striker|1248
+|player|p2|HopsVGC|102|1296
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M, shiny|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Sinistcha-Masterpiece, L50, shiny|
+|poke|p1|Kommo-o, L50, M|
+|poke|p1|Kingambit, L50, F, shiny|
+|poke|p1|Aerodactyl, L50, M|
+|poke|p2|Delphox, L50, F, shiny|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Hydreigon, L50, M, shiny|
+|poke|p2|Sneasler, L50, F|
+|teampreview|4
+|showteam|p1|Incineroar||SitrusBerry|Intimidate|FakeOut,PartingShot,HelpingHand,FlareBlitz|Careful||M|||50|]Floette-Eternal||Floettite|FlowerVeil|Moonblast,DazzlingGleam,CalmMind,Protect|Modest||F|||50|]Sinistcha-Masterpiece||ColburBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,TrickRoom|Bold|||||50|]Kommo-o||Leftovers|Overcoat|ClangingScales,AuraSphere,ClangorousSoul,Protect|Modest||M|||50|]Kingambit||FocusSash|Defiant|KowtowCleave,SuckerPunch,IronHead,Protect|Adamant||F|||50|]Aerodactyl||Aerodactylite|Unnerve|Protect,RockSlide,Tailwind,DualWingbeat|Jolly||M|||50|
+|showteam|p2|Delphox||Delphoxite|Blaze|HeatWave,Psychic,NastyPlot,Protect|Timid||F|||50|]Excadrill||FocusSash|SandRush|Earthquake,RockSlide,IronHead,Protect|Adamant||M|||50|]Tyranitar||Tyranitarite|SandStream|RockSlide,KnockOff,DragonDance,Protect|Adamant||F|||50|]Sinistcha||SitrusBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,Protect|Relaxed|||||50|]Hydreigon||ChoiceScarf|Levitate|Snarl,DarkPulse,EarthPower,DragonPulse|Modest||M|||50|]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,FakeOut,Protect|Adamant||F|||50|
+|
+|t:|1785600397
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, L50, M|100/100
+|switch|p1b: Kingambit|Kingambit, L50, F, shiny|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p2b: Excadrill|Excadrill, L50, M|100/100
+|-ability|p1a: Aerodactyl|Unnerve
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|1
+|
+|t:|1785600442
+|switch|p1a: Friends Take|Incineroar, L50, M, shiny|100/100
+|-ability|p1a: Friends Take|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2b: Excadrill|atk|1
+|move|p2b: Excadrill|Iron Head|p1a: Friends Take
+|-resisted|p1a: Friends Take|1
+|-damage|p1a: Friends Take|84/100
+|move|p1b: Kingambit|Iron Head|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar|1
+|-damage|p2a: Tyranitar|19/100
+|move|p2a: Tyranitar|Dragon Dance|p2a: Tyranitar
+|-boost|p2a: Tyranitar|atk|1
+|-boost|p2a: Tyranitar|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Friends Take|78/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1785600548
+|move|p2b: Excadrill|Protect|p2b: Excadrill
+|-singleturn|p2b: Excadrill|Protect
+|move|p2a: Tyranitar|Protect|p2a: Tyranitar
+|-singleturn|p2a: Tyranitar|Protect
+|move|p1a: Friends Take|Fake Out|p2b: Excadrill
+|-activate|p2b: Excadrill|move: Protect
+|move|p1b: Kingambit|Iron Head|p2a: Tyranitar
+|-activate|p2a: Tyranitar|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Friends Take|72/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1785600611
+|switch|p1a: Kommo-o|Kommo-o, L50, M|100/100
+|move|p1b: Kingambit|Protect|p1b: Kingambit
+|-singleturn|p1b: Kingambit|Protect
+|move|p2b: Excadrill|Earthquake|p1b: Kingambit|[spread] p2a,p1a
+|-activate|p1b: Kingambit|move: Protect
+|-supereffective|p2a: Tyranitar|1
+|-damage|p2a: Tyranitar|0 fnt
+|-damage|p1a: Kommo-o|71/100
+|faint|p2a: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Kommo-o|77/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1785600615
+|switch|p2a: Delphox|Delphox, L50, F, shiny|100/100
+|turn|4
+|
+|t:|1785600627
+|detailschange|p2a: Delphox|Delphox-Mega, L50, F, shiny
+|-mega|p2a: Delphox|Delphox|Delphoxite
+|move|p1b: Kingambit|Sucker Punch|p2a: Delphox
+|-supereffective|p2a: Delphox|1
+|-damage|p2a: Delphox|0 fnt
+|faint|p2a: Delphox
+|move|p2b: Excadrill|Earthquake|p1a: Kommo-o|[spread] p1a,p1b
+|-supereffective|p1b: Kingambit|1
+|-damage|p1a: Kommo-o|50/100g
+|-damage|p1b: Kingambit|52/100
+|move|p1a: Kommo-o|Clangorous Soul|p1a: Kommo-o
+|-boost|p1a: Kommo-o|atk|1
+|-boost|p1a: Kommo-o|def|1
+|-boost|p1a: Kommo-o|spa|1
+|-boost|p1a: Kommo-o|spd|1
+|-boost|p1a: Kommo-o|spe|1
+|-damage|p1a: Kommo-o|18/100
+|
+|-weather|Sandstorm|[upkeep]
+|-heal|p1a: Kommo-o|24/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1785600631
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|turn|5
+|-message|HopsVGC forfeited.
+|
+|win|clarocojones

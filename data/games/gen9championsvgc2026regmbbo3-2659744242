@@ -1,0 +1,189 @@
+|j|☆GGGoper
+|j|☆pokebaited
+|html|GGGoperpokebaited    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785860055
+|gametype|doubles
+|player|p1|GGGoper|preschoolerf|
+|player|p2|pokebaited|fisherman-gen4|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Zoroark, L50, F, shiny|
+|poke|p1|Slowbro, L50, F|
+|poke|p1|Simisage, L50, F, shiny|
+|poke|p1|Simisear, L50, M, shiny|
+|poke|p1|Simipour, L50, F|
+|poke|p1|Heliolisk, L50, F, shiny|
+|poke|p2|Tinkaton, L50, F|
+|poke|p2|Slowbro, L50, M|
+|poke|p2|Abomasnow, L50, F|
+|poke|p2|Emboar, L50, M|
+|poke|p2|Steelix, L50, F|
+|poke|p2|Heliolisk, L50, F|
+|teampreview|4
+|showteam|p1|Zoroark||FocusSash|Illusion|Protect,Flamethrower,NightDaze,NastyPlot|Timid||F|||50|]Slowbro||Slowbronite|Regenerator|SlackOff,Psyshock,TrickRoom,MuddyWater|Quiet||F|||50|]Simisage||MiracleSeed|Overgrow|FakeOut,SeedBomb,RockSlide,Protect|Jolly||F|||50|]Simisear||SitrusBerry|Blaze|Protect,FakeOut,HeatWave,Overheat|Timid||M|||50|]Simipour||KingsRock|Torrent|Protect,IcyWind,FakeOut,Waterfall|Jolly||F|||50|]Heliolisk||ChoiceScarf|SandVeil|Thunderbolt,DarkPulse,HyperVoice,DragonPulse|Modest||F|||50|
+|showteam|p2|Tinkaton||SitrusBerry|MoldBreaker|FakeOut,GigatonHammer,PlayRough,HelpingHand|Careful||F|||50|]Slowbro||MentalHerb|Oblivious|TrickRoom,Surf,Psyshock,Protect|Bold||M|||50|]Abomasnow||Abomasite|SnowWarning|AuroraVeil,Blizzard,EnergyBall,IceShard|Quiet||F|||50|]Emboar||LifeOrb|Reckless|FlareBlitz,HeadSmash,Superpower,Protect|Brave||M|||50|]Steelix||SoftSand|SheerForce|HighHorsepower,HeavySlam,RockSlide,Protect|Brave||F|||50|]Heliolisk||Magnet|DrySkin|Thunderbolt,HyperVoice,Electroweb,Protect|Timid||F|||50|
+|
+|t:|1785860111
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Heliolisk|Heliolisk, L50, F, shiny|100/100
+|switch|p1b: Simisear|Simisear, L50, M, shiny|100/100
+|switch|p2a: Tinkaton|Tinkaton, L50, F|100/100
+|switch|p2b: Slowbro|Slowbro, L50, M|100/100
+|-ability|p2a: Tinkaton|Mold Breaker
+|turn|1
+|
+|t:|1785860170
+|move|p1b: Simisear|Fake Out|p2a: Tinkaton
+|-resisted|p2a: Tinkaton|1
+|-damage|p2a: Tinkaton|95/100
+|move|p1a: Heliolisk|Nasty Plot|p1a: Heliolisk
+|-boost|p1a: Heliolisk|spa|2
+|cant|p2a: Tinkaton|flinch
+|move|p2b: Slowbro|Trick Room|p2b: Slowbro
+|-fieldstart|move: Trick Room|[of] p2b: Slowbro
+|
+|upkeep
+|turn|2
+|
+|t:|1785860245
+|move|p1b: Simisear|Protect|p1b: Simisear
+|-singleturn|p1b: Simisear|Protect
+|move|p1a: Heliolisk|Protect|p1a: Heliolisk
+|-singleturn|p1a: Heliolisk|Protect
+|move|p2b: Slowbro|Psyshock|p1a: Heliolisk
+|-activate|p1a: Heliolisk|move: Protect
+|move|p2a: Tinkaton|Gigaton Hammer|p1b: Simisear
+|-activate|p1b: Simisear|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1785860327
+|move|p2b: Slowbro|Psyshock|p1b: Simisear
+|-damage|p1b: Simisear|55/100
+|move|p2a: Tinkaton|Play Rough|p1a: Heliolisk
+|-supereffective|p1a: Heliolisk|1
+|-enditem|p1a: Heliolisk|Focus Sash
+|-damage|p1a: Heliolisk|1/100
+|replace|p1a: Zoroark|Zoroark, L50, F, shiny
+|-end|p1a: Zoroark|Illusion
+|move|p1b: Simisear|Overheat|p2a: Tinkaton
+|-supereffective|p2a: Tinkaton|1
+|-damage|p2a: Tinkaton|20/100y
+|-unboost|p1b: Simisear|spa|2
+|-enditem|p2a: Tinkaton|Sitrus Berry|[eat]
+|-heal|p2a: Tinkaton|45/100|[from] item: Sitrus Berry
+|move|p1a: Zoroark|Night Daze|p2b: Slowbro
+|-supereffective|p2b: Slowbro|1
+|-damage|p2b: Slowbro|0 fnt
+|faint|p2b: Slowbro
+|
+|upkeep
+|
+|t:|1785860389
+|switch|p2b: Abomasnow|Abomasnow, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Abomasnow
+|turn|4
+|
+|t:|1785860412
+|detailschange|p2b: Abomasnow|Abomasnow-Mega, L50, F
+|-mega|p2b: Abomasnow|Abomasnow|Abomasite
+|move|p1b: Simisear|Protect|p1b: Simisear
+|-singleturn|p1b: Simisear|Protect
+|move|p1a: Zoroark|Protect|p1a: Zoroark
+|-singleturn|p1a: Zoroark|Protect
+|move|p2b: Abomasnow|Blizzard|p1b: Simisear|[spread] 
+|-activate|p1a: Zoroark|move: Protect
+|-activate|p1b: Simisear|move: Protect
+|move|p2a: Tinkaton|Play Rough|p1b: Simisear
+|-activate|p1b: Simisear|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1785860445
+|switch|p1b: Simipour|Simipour, L50, F|100/100
+|move|p1a: Zoroark|Protect|p1a: Zoroark
+|-singleturn|p1a: Zoroark|Protect
+|move|p2b: Abomasnow|Blizzard|p1a: Zoroark|[spread] p1b
+|-activate|p1a: Zoroark|move: Protect
+|-resisted|p1b: Simipour|1
+|-damage|p1b: Simipour|59/100
+|-status|p1b: Simipour|frz
+|move|p2a: Tinkaton|Play Rough|p1b: Simipour
+|-damage|p1b: Simipour|17/100 frz
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1785860502
+|move|p1a: Zoroark|Flamethrower|p2b: Abomasnow
+|-supereffective|p2b: Abomasnow|2
+|-damage|p2b: Abomasnow|0 fnt
+|faint|p2b: Abomasnow
+|cant|p1b: Simipour|frz
+|move|p2a: Tinkaton|Play Rough|p1a: Zoroark
+|-supereffective|p1a: Zoroark|1
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1785860540
+|switch|p1a: Heliolisk|Heliolisk, L50, F, shiny|100/100
+|switch|p2b: Heliolisk|Heliolisk, L50, F|100/100
+|turn|7
+|
+|t:|1785860618
+|move|p1a: Heliolisk|Hyper Voice|p2a: Tinkaton|[spread] p2a,p2b
+|-resisted|p2a: Tinkaton|1
+|-damage|p2a: Tinkaton|33/100
+|-damage|p2b: Heliolisk|51/100
+|move|p2b: Heliolisk|Thunderbolt|p1b: Simipour
+|-supereffective|p1b: Simipour|1
+|-damage|p1b: Simipour|0 fnt
+|faint|p1b: Simipour
+|move|p2a: Tinkaton|Play Rough|p1a: Heliolisk
+|-damage|p1a: Heliolisk|44/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1785860625
+|switch|p1b: Simisear|Simisear, L50, M, shiny|55/100
+|turn|8
+|
+|t:|1785860700
+|move|p1b: Simisear|Fake Out|p2b: Heliolisk
+|-damage|p2b: Heliolisk|35/100
+|move|p1a: Heliolisk|Hyper Voice|p2a: Tinkaton|[spread] p2a,p2b
+|-resisted|p2a: Tinkaton|1
+|-damage|p2a: Tinkaton|22/100
+|-damage|p2b: Heliolisk|0 fnt
+|faint|p2b: Heliolisk
+|move|p2a: Tinkaton|Gigaton Hammer|p1a: Heliolisk
+|-resisted|p1a: Heliolisk|1
+|-damage|p1a: Heliolisk|0 fnt
+|faint|p1a: Heliolisk
+|
+|-weather|none
+|upkeep
+|turn|9
+|
+|t:|1785860752
+|move|p1b: Simisear|Heat Wave|p2a: Tinkaton
+|-supereffective|p2a: Tinkaton|1
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|
+|win|GGGoper

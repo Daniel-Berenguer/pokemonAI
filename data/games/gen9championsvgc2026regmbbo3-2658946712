@@ -1,0 +1,122 @@
+|j|☆Sobblesweep
+|j|☆stolik44
+|html|Sobblesweepstolik44    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785723650
+|gametype|doubles
+|player|p1|Sobblesweep|firebreather|
+|player|p2|stolik44|heroine2-conquest|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Raichu, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Quaquaval, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Florges, L50, F|
+|poke|p1|Torterra, L50, F|
+|poke|p2|Kangaskhan, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Alakazam, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Qwilfish, L50, F|
+|teampreview|4
+|showteam|p1|Raichu||RaichuniteY|Static|ZapCannon,FocusBlast,Surf,DazzlingGleam|Modest||F|||50|]Pelipper||DampRock|Drizzle|Hurricane,WeatherBall,Protect,IceBeam|Modest||M|||50|]Quaquaval||LifeOrb|Moxie|AquaStep,CloseCombat,BraveBird,IceSpinner|Jolly||M|||50|]Archaludon||ShucaBerry|Stamina|ElectroShot,DracoMeteor,DarkPulse,Protect|Modest||F|||50|]Florges||Leftovers|Symbiosis|Wish,Moonblast,PollenPuff,CalmMind|Bold||F|||50|]Torterra||WhiteHerb|ShellArmor|ShellSmash,Outrage,HeadlongRush,WoodHammer|Adamant||F|||50|
+|showteam|p2|Kangaskhan||SilkScarf|InnerFocus|FakeOut,LastResort|Jolly||F|||50|]Basculegion||FocusSash|Adaptability|Protect,LastRespects,Liquidation,AquaJet|Adamant||M|||50|]Alakazam||Alakazite|Synchronize|Protect,Encore,FocusBlast,Psychic|Timid||F|||50|]Garchomp||LifeOrb|RoughSkin|Protect,SwordsDance,StompingTantrum,DragonClaw|Adamant||F|||50|]Floette-Eternal||FairyFeather|FlowerVeil|Protect,DazzlingGleam,Moonblast,LightofRuin|Timid||F|||50|]Qwilfish||WacanBerry|Intimidate|FlipTurn,Liquidation,AquaJet,DestinyBond|Careful||F|||50|
+|
+|t:|1785723688
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Raichu|Raichu, L50, F|100/100
+|switch|p1b: Torterra|Torterra, L50, F|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, L50, F|100/100
+|switch|p2b: Floette|Floette-Eternal, L50, F|100/100
+|turn|1
+|
+|t:|1785723720
+|detailschange|p1a: Raichu|Raichu-Mega-Y, L50, F
+|-mega|p1a: Raichu|Raichu|Raichunite Y
+|move|p2a: Kangaskhan|Fake Out|p1a: Raichu
+|-crit|p1a: Raichu
+|-damage|p1a: Raichu|32/100
+|cant|p1a: Raichu|flinch
+|move|p2b: Floette|Dazzling Gleam|p1a: Raichu|[spread] p1a,p1b
+|-damage|p1a: Raichu|0 fnt
+|-damage|p1b: Torterra|62/100
+|faint|p1a: Raichu
+|move|p1b: Torterra|Shell Smash|p1b: Torterra
+|-unboost|p1b: Torterra|def|1
+|-unboost|p1b: Torterra|spd|1
+|-boost|p1b: Torterra|atk|2
+|-boost|p1b: Torterra|spa|2
+|-boost|p1b: Torterra|spe|2
+|-enditem|p1b: Torterra|White Herb
+|-clearnegativeboost|p1b: Torterra|[silent]
+|
+|upkeep
+|
+|t:|1785723736
+|switch|p1a: Quaquaval|Quaquaval, L50, M|100/100
+|turn|2
+|
+|t:|1785723755
+|move|p1b: Torterra|Wood Hammer|p2a: Kangaskhan
+|-crit|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|-damage|p1b: Torterra|33/100|[from] Recoil
+|move|p2b: Floette|Dazzling Gleam|p1a: Quaquaval|[spread] p1a,p1b
+|-supereffective|p1a: Quaquaval|1
+|-damage|p1a: Quaquaval|0 fnt
+|-damage|p1b: Torterra|0 fnt
+|faint|p1a: Quaquaval
+|faint|p1b: Torterra
+|
+|upkeep
+|
+|t:|1785723766
+|switch|p2a: Alakazam|Alakazam, L50, F|100/100
+|switch|p1a: Florges|Florges, L50, F|100/100
+|turn|3
+|
+|t:|1785723774
+|detailschange|p2a: Alakazam|Alakazam-Mega, L50, F
+|-mega|p2a: Alakazam|Alakazam|Alakazite
+|-ability|p2a: Alakazam|Symbiosis|Trace|[from] ability: Trace|[of] p1a: Florges
+|move|p2a: Alakazam|Psychic|p1a: Florges
+|-damage|p1a: Florges|61/100
+|move|p2b: Floette|Light of Ruin|p1a: Florges
+|-damage|p1a: Florges|7/100
+|-damage|p2b: Floette|66/100|[from] Recoil
+|move|p1a: Florges|Moonblast|p2b: Floette
+|-damage|p2b: Floette|27/100
+|
+|-heal|p1a: Florges|13/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|c|☆Sobblesweep|GGs I HATE this format
+|c|☆Sobblesweep|as we know
+|
+|t:|1785723792
+|move|p2b: Floette|Protect|p2b: Floette
+|-singleturn|p2b: Floette|Protect
+|move|p2a: Alakazam|Psychic|p1a: Florges
+|-crit|p1a: Florges
+|-damage|p1a: Florges|0 fnt
+|faint|p1a: Florges
+|
+|win|stolik44
+|c|☆Sobblesweep|Gl
+|c|☆stolik44|yea vgc is not for everyone
+|c|☆stolik44|gg
+|l|☆Sobblesweep
+|player|p1|
+|c|☆stolik44|esp champs
+|l|☆stolik44
+|player|p2|
+|j|☆stolik44
+|player|p2|stolik44|heroine2-conquest|

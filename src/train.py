@@ -16,16 +16,31 @@ print(X_test[0].shape)
 print(Y_test.shape)
 
 
-# --- This is where you plug in the winning config from your sweep ---
 run_cfg = RunConfig(
-    name="final",
-    model=TurnEncoderConfig(),   # defaults == original hardcoded values; edit here after sweeping
-    lr=1e-4,
-    weight_decay=0.05,
-    batch_size=64,
-    epochs=2,
-    check_interval=200,
-)
+                name=f"final",
+                model=TurnEncoderConfig(
+                    MOVE_DIM=32,
+                    MOVE_HIDDEN=128,
+                    POKE_EMB=64,
+                    AB_EMB=16,
+                    IT_EMB=16,
+                    BOARD_DIM=32,
+                    POKE_DIM=256,
+                    N_HEADS=32,
+                    HIDDEN_LAY_1=128,
+                    HIDDEN_LAY_2=16,
+                    poke_dropout=0.2,
+                    self_att_dropout=0.4,
+                    cross_att_dropout=0.35,
+                    mlp_dropout1=0.4,
+                    mlp_dropout2=0.2,
+                ),
+
+                lr=1e-5,
+                weight_decay=5e-5,
+                batch_size=64,
+                epochs=5
+            )
 
 model, history, final_metrics = train_one_run(run_cfg, X_train, Y_train, X_test, Y_test, device)
 

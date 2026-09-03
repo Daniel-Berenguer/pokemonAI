@@ -1,0 +1,284 @@
+|j|☆ultimatecoward
+|j|☆jicxy
+|html|ultimatecowardjicxy    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785412189
+|gametype|doubles
+|player|p1|ultimatecoward|medium|1078
+|player|p2|jicxy|dancer|1055
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Maushold, L50|
+|poke|p1|Sableye, L50, M|
+|poke|p1|Gengar, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Charizard, L50, M, shiny|
+|poke|p1|Garchomp, L50, F, shiny|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Zoroark-Hisui, L50, F|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Lucario, L50, F|
+|poke|p2|Rotom-Wash, L50|
+|poke|p2|Garchomp, L50, M|
+|teampreview|4
+|showteam|p1|Maushold||KingsRock|Technician|PopulationBomb,FollowMe,Encore,Protect|Jolly|||||50|]Sableye||SitrusBerry|Prankster|Gravity,Encore,Disable,RainDance|Careful||M|||50|]Gengar||Gengarite|CursedBody|Hex,Disable,Hypnosis,Protect|Timid||M|||50|]Kingambit||FocusSash|Defiant|KowtowCleave,SuckerPunch,IronHead,LowKick|Adamant||M|||50|]Charizard||CharizarditeY|Blaze|HeatWave,FocusBlast,SolarBeam,Protect|Modest||M|||50|]Garchomp||ChoiceScarf|RoughSkin|StompingTantrum,RockSlide,DragonClaw,Earthquake|Jolly||F|||50|
+|showteam|p2|Tyranitar||Tyranitarite|SandStream|Avalanche,RockSlide,Protect,LowKick|Adamant||M|||50|]Zoroark-Hisui||FocusSash|Illusion|HyperBeam,BitterMalice,NastyPlot,Protect|Timid||F|||50|]Sinistcha||Leftovers|Hospitality|MatchaGotcha,TrickRoom,StrengthSap,Protect|Relaxed|||||50|]Lucario||Lucarionite|InnerFocus|BulletPunch,CloseCombat,IcePunch,SwordsDance|Jolly||F|||50|]Rotom-Wash||ExpertBelt|Levitate|WillOWisp,VoltSwitch,HydroPump,Protect|Calm|||||50|]Garchomp||ChoiceScarf|SandVeil|Earthquake,RockSlide,DragonRush,Protect|Jolly||M|||50|
+|
+|t:|1785412246
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sableye|Sableye, L50, M|100/100
+|switch|p1b: Gengar|Gengar, L50, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|switch|p2b: Rotom|Rotom-Wash, L50|100/100
+|turn|1
+|
+|t:|1785412295
+|detailschange|p1b: Gengar|Gengar-Mega, L50, M
+|-mega|p1b: Gengar|Gengar|Gengarite
+|move|p1a: Sableye|Gravity|p1a: Sableye
+|-fieldstart|move: Gravity
+|move|p1b: Gengar|Hypnosis|p2a: Tyranitar
+|-status|p2a: Tyranitar|slp|[from] move: Hypnosis
+|cant|p2a: Tyranitar|slp
+|move|p2b: Rotom|Hydro Pump|p1a: Sableye
+|-damage|p1a: Sableye|56/100
+|
+|upkeep
+|turn|2
+|
+|t:|1785412341
+|-curestatus|p2a: Tyranitar|slp|[msg]
+|move|p2a: Tyranitar|Protect|p2a: Tyranitar
+|-singleturn|p2a: Tyranitar|Protect
+|move|p1a: Sableye|Disable|p2b: Rotom
+|-start|p2b: Rotom|Disable|Hydro Pump
+|move|p1b: Gengar|Hex|p2a: Tyranitar
+|-activate|p2a: Tyranitar|move: Protect
+|cant|p2b: Rotom|Disable|Hydro Pump
+|
+|upkeep
+|turn|3
+|
+|t:|1785412363
+|move|p1a: Sableye|Encore|p2b: Rotom
+|-start|p2b: Rotom|Encore
+|move|p1b: Gengar|Hypnosis|p2a: Tyranitar
+|-status|p2a: Tyranitar|slp|[from] move: Hypnosis
+|cant|p2a: Tyranitar|slp
+|cant|p2b: Rotom|Disable|Hydro Pump
+|
+|upkeep
+|turn|4
+|
+|t:|1785412386
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|move|p1b: Gengar|Hex|p2a: Tyranitar
+|-immune|p2a: Tyranitar
+|cant|p2a: Tyranitar|slp
+|-activate|p2b: Rotom|move: Struggle
+|move|p2b: Rotom|Struggle|p1b: Gengar
+|-damage|p1b: Gengar|90/100
+|-damage|p2b: Rotom|75/100|[from] recoil
+|
+|upkeep
+|turn|5
+|
+|t:|1785412407
+|move|p1b: Gengar|Protect|p1b: Gengar
+|-singleturn|p1b: Gengar|Protect
+|-curestatus|p2a: Tyranitar|slp|[msg]
+|move|p2a: Tyranitar|Protect|p2a: Tyranitar
+|-singleturn|p2a: Tyranitar|Protect
+|-activate|p2b: Rotom|move: Struggle
+|move|p2b: Rotom|Struggle|p1a: Kingambit
+|-damage|p1a: Kingambit|94/100
+|-damage|p2b: Rotom|50/100g|[from] recoil
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Tyranitar
+|-activate|p2a: Tyranitar|move: Protect
+|
+|-end|p2b: Rotom|Encore
+|-end|p2b: Rotom|Disable
+|-fieldend|move: Gravity
+|upkeep
+|turn|6
+|
+|t:|1785412472
+|switch|p1b: Sableye|Sableye, L50, M|56/100
+|move|p2a: Tyranitar|Bitter Malice|p1b: Sableye
+|-damage|p1b: Sableye|12/100
+|-unboost|p1b: Sableye|atk|1
+|-enditem|p1b: Sableye|Sitrus Berry|[eat]
+|-heal|p1b: Sableye|36/100|[from] item: Sitrus Berry
+|move|p2b: Rotom|Will-O-Wisp|p1a: Kingambit
+|-status|p1a: Kingambit|brn
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar|1
+|-damage|p2a: Tyranitar|6/100
+|replace|p2a: Zoroark|Zoroark-Hisui, L50, F
+|-end|p2a: Zoroark|Illusion
+|
+|-damage|p1a: Kingambit|88/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1785412528
+|move|p1a: Kingambit|Sucker Punch|p2a: Zoroark
+|-supereffective|p2a: Zoroark|1
+|-damage|p2a: Zoroark|0 fnt
+|faint|p2a: Zoroark
+|move|p1b: Sableye|Disable|p2b: Rotom
+|-start|p2b: Rotom|Disable|Will-O-Wisp
+|move|p2b: Rotom|Hydro Pump|p1a: Kingambit
+|-damage|p1a: Kingambit|49/100 brn
+|
+|-damage|p1a: Kingambit|43/100 brn|[from] brn
+|upkeep
+|
+|t:|1785412541
+|switch|p2a: Lucario|Lucario, L50, F|100/100
+|turn|8
+|
+|t:|1785412569
+|detailschange|p2a: Lucario|Lucario-Mega, L50, F
+|-mega|p2a: Lucario|Lucario|Lucarionite
+|move|p2a: Lucario|Bullet Punch|p1b: Sableye
+|-damage|p1b: Sableye|0 fnt
+|faint|p1b: Sableye
+|move|p1a: Kingambit|Sucker Punch|p2b: Rotom
+|-damage|p2b: Rotom|29/100
+|move|p2b: Rotom|Hydro Pump|p1a: Kingambit
+|-crit|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|
+|upkeep
+|
+|t:|1785412582
+|switch|p1a: Garchomp|Garchomp, L50, F, shiny|100/100
+|switch|p1b: Gengar|Gengar-Mega, L50, M|90/100
+|turn|9
+|
+|t:|1785412621
+|move|p1a: Garchomp|Stomping Tantrum|p2a: Lucario
+|-supereffective|p2a: Lucario|1
+|-damage|p2a: Lucario|0 fnt
+|faint|p2a: Lucario
+|move|p1b: Gengar|Hex|p2b: Rotom
+|-damage|p2b: Rotom|0 fnt
+|faint|p2b: Rotom
+|
+|upkeep
+|
+|t:|1785412650
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|turn|10
+|
+|t:|1785412664
+|move|p1a: Garchomp|Stomping Tantrum|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar|1
+|-damage|p2a: Tyranitar|32/100
+|move|p1b: Gengar|Hypnosis|p2a: Tyranitar|[miss]
+|-miss|p1b: Gengar|p2a: Tyranitar
+|move|p2a: Tyranitar|Avalanche|p1a: Garchomp
+|-supereffective|p1a: Garchomp|2
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p2a: Tyranitar|20/100y|[from] ability: Rough Skin|[of] p1a: Garchomp
+|faint|p1a: Garchomp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Gengar|84/100|[from] Sandstorm
+|upkeep
+|turn|11
+|
+|t:|1785412685
+|move|p1b: Gengar|Hypnosis|p2a: Tyranitar|[miss]
+|-miss|p1b: Gengar|p2a: Tyranitar
+|move|p2a: Tyranitar|Rock Slide|p1b: Gengar
+|-damage|p1b: Gengar|26/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Gengar|20/100y|[from] Sandstorm
+|upkeep
+|turn|12
+|
+|t:|1785412694
+|move|p2a: Tyranitar|Protect|p2a: Tyranitar
+|-singleturn|p2a: Tyranitar|Protect
+|move|p1b: Gengar|Hypnosis|p2a: Tyranitar
+|-activate|p2a: Tyranitar|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Gengar|14/100|[from] Sandstorm
+|upkeep
+|turn|13
+|
+|t:|1785412700
+|move|p1b: Gengar|Hypnosis|p2a: Tyranitar
+|-status|p2a: Tyranitar|slp|[from] move: Hypnosis
+|cant|p2a: Tyranitar|slp
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Gengar|8/100|[from] Sandstorm
+|upkeep
+|turn|14
+|
+|t:|1785412708
+|-curestatus|p2a: Tyranitar|slp|[msg]
+|move|p2a: Tyranitar|Protect|p2a: Tyranitar
+|-singleturn|p2a: Tyranitar|Protect
+|move|p1b: Gengar|Hex|p2a: Tyranitar
+|-activate|p2a: Tyranitar|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|15
+|
+|t:|1785412716
+|move|p1b: Gengar|Hypnosis|p2a: Tyranitar
+|-status|p2a: Tyranitar|slp|[from] move: Hypnosis
+|cant|p2a: Tyranitar|slp
+|
+|upkeep
+|turn|16
+|
+|t:|1785412722
+|-curestatus|p2a: Tyranitar|slp|[msg]
+|move|p2a: Tyranitar|Protect|p2a: Tyranitar
+|-singleturn|p2a: Tyranitar|Protect
+|move|p1b: Gengar|Hex|p2a: Tyranitar
+|-activate|p2a: Tyranitar|move: Protect
+|
+|upkeep
+|turn|17
+|
+|t:|1785412729
+|move|p1b: Gengar|Hypnosis|p2a: Tyranitar
+|-status|p2a: Tyranitar|slp|[from] move: Hypnosis
+|cant|p2a: Tyranitar|slp
+|
+|upkeep
+|turn|18
+|
+|t:|1785412738
+|cant|p2a: Tyranitar|slp
+|move|p1b: Gengar|Hex|p2a: Tyranitar
+|-resisted|p2a: Tyranitar|1
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|
+|win|ultimatecoward
+|raw|ultimatecoward's rating: 1078 → 1104(+26 for winning)
+|raw|jicxy's rating: 1055 → 1038(-17 for losing)
+|l|☆jicxy
+|player|p2|
+|l|☆ultimatecoward
+|player|p1|
+|j|☆ultimatecoward
+|player|p1|ultimatecoward|medium|

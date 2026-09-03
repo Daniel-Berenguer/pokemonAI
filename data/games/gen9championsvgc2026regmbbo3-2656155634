@@ -1,0 +1,150 @@
+|j|☆testdigi
+|j|☆spain core
+|html|testdigispain core    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785251309
+|gametype|doubles
+|player|p1|testdigi|169|1106
+|player|p2|spain core|leon|1193
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Staraptor, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Delphox, L50, M|
+|poke|p1|Kingambit, L50, F, shiny|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p2|Kangaskhan, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Torkoal, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Venusaur, L50, F|
+|teampreview|4
+|showteam|p1|Staraptor||Staraptite|Intimidate|Protect,Roost,CloseCombat,BraveBird|Adamant||M|||50|]Garchomp||LifeOrb|RoughSkin|Protect,RockSlide,Earthquake,DragonClaw|Jolly||M|||50|]Whimsicott||FocusSash|Prankster|Moonblast,Tailwind,Charm,FakeTears|Timid||F|||50|]Delphox||Delphoxite|Magician|Protect,Psychic,HeatWave,Substitute|Modest||M|||50|]Kingambit||ChopleBerry|Defiant|KowtowCleave,Protect,SuckerPunch,LowKick|Serious||F|||50|]Sinistcha-Masterpiece||ColburBerry|Hospitality|MatchaGotcha,LifeDew,TrickRoom,Protect|Relaxed|||||50|
+|showteam|p2|Kangaskhan||Kangaskhanite|Scrappy|FakeOut,DoubleEdge,Crunch,DrainPunch|Brave||F|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,HyperVoice,TrickRoom,Protect|Quiet||M|||50|]Torkoal||Charcoal|Drought|Eruption,WeatherBall,EarthPower,Protect|Quiet||F|||50|]Hatterene||LifeOrb|MagicBounce|Psychic,DazzlingGleam,Protect,TrickRoom|Quiet||F|||50|]Kingambit||ExpertBelt|Defiant|KowtowCleave,SuckerPunch,IronHead,LowKick|Brave||M|||50|]Venusaur||FocusSash|Chlorophyll|EarthPower,SludgeBomb,SleepPowder,Protect|Modest||F|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by spain core)
+|
+|t:|1785251337
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kingambit|Kingambit, L50, F, shiny|100/100
+|switch|p1b: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|switch|p2a: Torkoal|Torkoal, L50, F|100/100
+|switch|p2b: Venusaur|Venusaur, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|inactive|testdigi has 30 seconds left.
+|
+|t:|1785251372
+|move|p2b: Venusaur|Sleep Powder|p1a: Kingambit
+|-status|p1a: Kingambit|slp|[from] move: Sleep Powder
+|move|p1b: Sinistcha|Matcha Gotcha|p2b: Venusaur|[spread] p2a,p2b
+|-resisted|p2a: Torkoal|1
+|-resisted|p2b: Venusaur|2
+|-damage|p2a: Torkoal|84/100
+|-damage|p2b: Venusaur|92/100
+|cant|p1a: Kingambit|slp
+|move|p2a: Torkoal|Weather Ball|p1b: Sinistcha
+|-supereffective|p1b: Sinistcha|1
+|-damage|p1b: Sinistcha|0 fnt
+|faint|p1b: Sinistcha
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785251383
+|switch|p1b: Staraptor|Staraptor, L50, M|100/100
+|-ability|p1b: Staraptor|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Venusaur|atk|1
+|turn|2
+|
+|t:|1785251399
+|detailschange|p1b: Staraptor|Staraptor-Mega, L50, M
+|-mega|p1b: Staraptor|Staraptor|Staraptite
+|move|p2b: Venusaur|Sleep Powder|p1b: Staraptor
+|-status|p1b: Staraptor|slp|[from] move: Sleep Powder
+|cant|p1b: Staraptor|slp
+|-curestatus|p1a: Kingambit|slp|[msg]
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Torkoal
+|-damage|p2a: Torkoal|50/100g
+|move|p2a: Torkoal|Weather Ball|p1a: Kingambit
+|-supereffective|p1a: Kingambit|1
+|-damage|p1a: Kingambit|0 fnt
+|faint|p1a: Kingambit
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785251410
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|turn|3
+|
+|t:|1785251431
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|move|p1a: Whimsicott|Charm|p1b: Staraptor
+|-boost|p1b: Staraptor|atk|2
+|move|p2b: Venusaur|Sludge Bomb|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott|2
+|-enditem|p1a: Whimsicott|Focus Sash
+|-damage|p1a: Whimsicott|1/100
+|-curestatus|p1b: Staraptor|slp|[msg]
+|move|p1b: Staraptor|Close Combat|p2a: Farigiraf
+|-damage|p2a: Farigiraf|0 fnt
+|-boost|p1b: Staraptor|def|1
+|-boost|p1b: Staraptor|spd|1
+|faint|p2a: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785251444
+|switch|p2a: Hatterene|Hatterene, L50, F|100/100
+|turn|4
+|
+|t:|1785251464
+|move|p1a: Whimsicott|Fake Tears|p1b: Staraptor
+|-boost|p1b: Staraptor|spd|2
+|move|p2b: Venusaur|Sleep Powder|p1b: Staraptor
+|-status|p1b: Staraptor|slp|[from] move: Sleep Powder
+|cant|p1b: Staraptor|slp
+|move|p2a: Hatterene|Trick Room|p2a: Hatterene
+|-fieldstart|move: Trick Room|[of] p2a: Hatterene
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1785251483
+|move|p1a: Whimsicott|Fake Tears|p1b: Staraptor
+|-boost|p1b: Staraptor|spd|2
+|move|p2a: Hatterene|Psychic|p1b: Staraptor
+|-supereffective|p1b: Staraptor|1
+|-damage|p1b: Staraptor|58/100 slp
+|-damage|p2a: Hatterene|90/100|[from] item: Life Orb
+|cant|p1b: Staraptor|slp
+|move|p2b: Venusaur|Sludge Bomb|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott|2
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1785251498
+|move|p2a: Hatterene|Psychic|p1b: Staraptor
+|-supereffective|p1b: Staraptor|1
+|-damage|p1b: Staraptor|16/100 slp
+|-damage|p2a: Hatterene|81/100|[from] item: Life Orb
+|move|p2b: Venusaur|Sludge Bomb|p1b: Staraptor
+|-damage|p1b: Staraptor|0 fnt
+|faint|p1b: Staraptor
+|
+|win|spain core

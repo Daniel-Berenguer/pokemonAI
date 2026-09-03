@@ -1,0 +1,219 @@
+|j|☆Bazilvts
+|j|☆icemonggs
+|html|Bazilvtsicemonggs    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785007030
+|gametype|doubles
+|player|p1|Bazilvts|265|1232
+|player|p2|icemonggs|cilan|1211
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Blaziken, L50, M|
+|poke|p1|Meowscarada, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Mudsdale, L50, M|
+|poke|p2|Dragonite, L50, F, shiny|
+|poke|p2|Toxapex, L50, F, shiny|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Kingambit, L50, M, shiny|
+|poke|p2|Charizard, L50, M, shiny|
+|poke|p2|Froslass, L50, F, shiny|
+|teampreview|4
+|showteam|p1|Blaziken||Blazikenite|Blaze|CloseCombat,FlareBlitz,RockSlide,Protect|Jolly||M|||50|]Meowscarada||LifeOrb|Overgrow|FlowerTrick,TripleAxel,SuckerPunch,Protect|Jolly||M|||50|]Gholdengo||ChoiceScarf|GoodasGold|MakeItRain,ShadowBall,PowerGem,FocusBlast|Modest|||||50|]Dragonite||WhiteHerb|Multiscale|ScaleShot,Superpower,ExtremeSpeed,Protect|Adamant||M|||50|]Sylveon||FocusSash|Pixilate|HyperVoice,QuickAttack,Yawn,Detect|Timid||M|||50|]Mudsdale||SitrusBerry|InnerFocus|Earthquake,HeavySlam,Protect,Curse|Brave||M|||50|
+|showteam|p2|Dragonite||LifeOrb|InnerFocus|DragonClaw,ExtremeSpeed,LowKick,Protect|Adamant||F|||50|]Toxapex||Leftovers|Regenerator|Infestation,Toxic,WideGuard,BanefulBunker|Bold||F|||50|]Sneasler||FocusSash|PoisonTouch|CloseCombat,PoisonJab,FakeOut,Protect|Jolly||M|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SwordsDance,SuckerPunch,Protect|Adamant||M|||50|]Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,SolarBeam,Protect|Modest||M|||50|]Froslass||Froslassite|CursedBody|Blizzard,ShadowBall,AuroraVeil,Protect|Modest||F|||50|
+|
+|t:|1785007047
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, M|100/100
+|switch|p1b: Mudsdale|Mudsdale, L50, M|100/100
+|switch|p2a: Sneasler|Sneasler, L50, M|100/100
+|switch|p2b: Kingambit|Kingambit, L50, M, shiny|100/100
+|turn|1
+|
+|t:|1785007059
+|switch|p2b: Froslass|Froslass, L50, F, shiny|100/100
+|move|p2a: Sneasler|Fake Out|p1a: Dragonite
+|-damage|p1a: Dragonite|92/100
+|cant|p1a: Dragonite|flinch
+|move|p1b: Mudsdale|Earthquake|p2a: Sneasler|[spread] p2a,p2b
+|-immune|p1a: Dragonite
+|-supereffective|p2a: Sneasler|1
+|-enditem|p2a: Sneasler|Focus Sash
+|-damage|p2a: Sneasler|1/100
+|-damage|p2b: Froslass|44/100
+|
+|upkeep
+|turn|2
+|
+|t:|1785007077
+|switch|p2a: Kingambit|Kingambit, L50, M, shiny|100/100
+|detailschange|p2b: Froslass|Froslass-Mega, L50, F, shiny
+|-mega|p2b: Froslass|Froslass|Froslassite
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Froslass
+|move|p1a: Dragonite|Protect|p1a: Dragonite
+|-singleturn|p1a: Dragonite|Protect
+|move|p2b: Froslass|Blizzard|p1b: Mudsdale|[spread] p1b
+|-activate|p1a: Dragonite|move: Protect
+|-supereffective|p1b: Mudsdale|1
+|-damage|p1b: Mudsdale|17/100
+|-enditem|p1b: Mudsdale|Sitrus Berry|[eat]
+|-heal|p1b: Mudsdale|42/100|[from] item: Sitrus Berry
+|move|p1b: Mudsdale|Earthquake|p2b: Froslass|[spread] p2a,p2b
+|-activate|p1a: Dragonite|move: Protect
+|-supereffective|p2a: Kingambit|1
+|-damage|p2a: Kingambit|43/100
+|-damage|p2b: Froslass|7/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1785007105
+|move|p2b: Froslass|Blizzard|p1a: Dragonite|[spread] p1a,p1b
+|-supereffective|p1a: Dragonite|2
+|-supereffective|p1b: Mudsdale|1
+|-damage|p1a: Dragonite|0 fnt
+|-damage|p1b: Mudsdale|0 fnt
+|faint|p1a: Dragonite
+|faint|p1b: Mudsdale
+|move|p2a: Kingambit|Swords Dance|p2a: Kingambit
+|-boost|p2a: Kingambit|atk|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1785007113
+|switch|p1a: Meowscarada|Meowscarada, L50, M|100/100
+|switch|p1b: Blaziken|Blaziken, L50, M|100/100
+|turn|4
+|
+|t:|1785007126
+|detailschange|p1b: Blaziken|Blaziken-Mega, L50, M
+|-mega|p1b: Blaziken|Blaziken|Blazikenite
+|move|p1a: Meowscarada|Protect|p1a: Meowscarada
+|-singleturn|p1a: Meowscarada|Protect
+|move|p1b: Blaziken|Protect|p1b: Blaziken
+|-singleturn|p1b: Blaziken|Protect
+|move|p2a: Kingambit|Sucker Punch||[still]
+|-fail|p2a: Kingambit
+|move|p2b: Froslass|Aurora Veil|p2b: Froslass
+|-sidestart|p2: icemonggs|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|-ability|p1b: Blaziken|Speed Boost|boost
+|-boost|p1b: Blaziken|spe|1
+|upkeep
+|turn|5
+|
+|t:|1785007142
+|move|p2a: Kingambit|Sucker Punch|p1a: Meowscarada
+|-resisted|p1a: Meowscarada|1
+|-damage|p1a: Meowscarada|30/100
+|move|p1b: Blaziken|Rock Slide|p2a: Kingambit|[spread] p2b
+|-miss|p1b: Blaziken|p2a: Kingambit
+|-supereffective|p2b: Froslass|1
+|-damage|p2b: Froslass|0 fnt
+|faint|p2b: Froslass
+|move|p1a: Meowscarada|Flower Trick|p2a: Kingambit
+|-resisted|p2a: Kingambit|1
+|-crit|p2a: Kingambit
+|-damage|p2a: Kingambit|10/100
+|-damage|p1a: Meowscarada|20/100y|[from] item: Life Orb
+|
+|-weather|Snowscape|[upkeep]
+|-ability|p1b: Blaziken|Speed Boost|boost
+|-boost|p1b: Blaziken|spe|1
+|upkeep
+|
+|t:|1785007146
+|switch|p2b: Toxapex|Toxapex, L50, F, shiny|100/100
+|turn|6
+|
+|t:|1785007177
+|move|p1a: Meowscarada|Sucker Punch|p2a: Kingambit
+|-resisted|p2a: Kingambit|1
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-damage|p1a: Meowscarada|10/100|[from] item: Life Orb
+|move|p1b: Blaziken|Rock Slide|p2b: Toxapex
+|-damage|p2b: Toxapex|85/100
+|move|p2b: Toxapex|Toxic|p1b: Blaziken
+|-status|p1b: Blaziken|tox
+|
+|-weather|none
+|-heal|p2b: Toxapex|91/100|[from] item: Leftovers
+|-damage|p1b: Blaziken|94/100 tox|[from] psn
+|-ability|p1b: Blaziken|Speed Boost|boost
+|-boost|p1b: Blaziken|spe|1
+|upkeep
+|
+|t:|1785007181
+|switch|p2a: Sneasler|Sneasler, L50, M|1/100
+|turn|7
+|
+|t:|1785007192
+|move|p1b: Blaziken|Protect|p1b: Blaziken
+|-singleturn|p1b: Blaziken|Protect
+|move|p1a: Meowscarada|Protect|p1a: Meowscarada
+|-singleturn|p1a: Meowscarada|Protect
+|move|p2a: Sneasler|Fake Out|p1b: Blaziken
+|-activate|p1b: Blaziken|move: Protect
+|move|p2b: Toxapex|Infestation|p1a: Meowscarada
+|-activate|p1a: Meowscarada|move: Protect
+|
+|-heal|p2b: Toxapex|97/100|[from] item: Leftovers
+|-damage|p1b: Blaziken|82/100 tox|[from] psn
+|-ability|p1b: Blaziken|Speed Boost|boost
+|-boost|p1b: Blaziken|spe|1
+|upkeep
+|turn|8
+|
+|t:|1785007207
+|move|p2a: Sneasler|Protect|p2a: Sneasler
+|-singleturn|p2a: Sneasler|Protect
+|move|p1b: Blaziken|Rock Slide|p2a: Sneasler|[spread] p2b
+|-activate|p2a: Sneasler|move: Protect
+|-damage|p2b: Toxapex|87/100
+|move|p1a: Meowscarada|Flower Trick|p2b: Toxapex
+|-crit|p2b: Toxapex
+|-damage|p2b: Toxapex|19/100
+|-damage|p1a: Meowscarada|1/100|[from] item: Life Orb
+|move|p2b: Toxapex|Infestation|p1a: Meowscarada
+|-supereffective|p1a: Meowscarada|2
+|-crit|p1a: Meowscarada
+|-damage|p1a: Meowscarada|0 fnt
+|faint|p1a: Meowscarada
+|
+|-heal|p2b: Toxapex|25/100|[from] item: Leftovers
+|-damage|p1b: Blaziken|65/100 tox|[from] psn
+|-sideend|p2: icemonggs|move: Aurora Veil
+|-ability|p1b: Blaziken|Speed Boost|boost
+|-boost|p1b: Blaziken|spe|1
+|upkeep
+|turn|9
+|
+|t:|1785007229
+|move|p2b: Toxapex|Wide Guard|p2b: Toxapex
+|-singleturn|p2b: Toxapex|Wide Guard
+|move|p1b: Blaziken|Rock Slide|p2a: Sneasler|[spread] 
+|-activate|p2a: Sneasler|move: Wide Guard
+|-activate|p2b: Toxapex|move: Wide Guard
+|move|p2a: Sneasler|Close Combat|p1b: Blaziken
+|-damage|p1b: Blaziken|0 fnt
+|-unboost|p2a: Sneasler|def|1
+|-unboost|p2a: Sneasler|spd|1
+|faint|p1b: Blaziken
+|
+|win|icemonggs
+|raw|Bazilvts's rating: 1232 → 1205(-27 for losing)
+|raw|icemonggs's rating: 1211 → 1238(+27 for winning)
+|l|☆Bazilvts
+|player|p1|

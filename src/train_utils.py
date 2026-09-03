@@ -33,15 +33,15 @@ def evaluate(model, test_loader, loss_f, Y_test, device):
     model.eval()
     with torch.no_grad():
         all_logits = []
-        for boardIntTest, boardFeatTest, pokeIntTest, pokeFeatTest, moveIntTest, moveFeatTest, y_batch in test_loader:
-            boardIntTest = boardIntTest.to(device)
+        for boardSideTest, boardFeatTest, pokeIntTest, pokeFeatTest, moveIntTest, moveFeatTest, y_batch in test_loader:
+            boardSideTest = boardSideTest.to(device)
             boardFeatTest = boardFeatTest.to(device)
             pokeIntTest = pokeIntTest.to(device)
             pokeFeatTest = pokeFeatTest.to(device)
             moveIntTest = moveIntTest.to(device)
             moveFeatTest = moveFeatTest.to(device)
 
-            logits = model.forward(pokeIntTest, pokeFeatTest, moveIntTest, moveFeatTest, boardIntTest, boardFeatTest)
+            logits = model.forward(pokeIntTest, pokeFeatTest, moveIntTest, moveFeatTest, boardSideTest, boardFeatTest)
             all_logits.append(logits.cpu())
 
         logits = torch.cat(all_logits)
@@ -84,8 +84,8 @@ def train_one_run(run_cfg: RunConfig, X_train, Y_train, X_test, Y_test, device, 
     start_time = time.time()
 
     for epoch in range(run_cfg.epochs):
-        for boardIntBatch, boardFeatBatch, pokeIntBatch, pokeFeatBatch, moveIntBatch, moveFeatBatch, Y_batch in train_loader:
-            boardIntBatch = boardIntBatch.to(device)
+        for boardSideBatch, boardFeatBatch, pokeIntBatch, pokeFeatBatch, moveIntBatch, moveFeatBatch, Y_batch in train_loader:
+            boardSideBatch = boardSideBatch.to(device)
             boardFeatBatch = boardFeatBatch.to(device)
             pokeIntBatch = pokeIntBatch.to(device)
             pokeFeatBatch = pokeFeatBatch.to(device)
@@ -93,7 +93,7 @@ def train_one_run(run_cfg: RunConfig, X_train, Y_train, X_test, Y_test, device, 
             moveFeatBatch = moveFeatBatch.to(device)
             Y_batch = Y_batch.to(device)
 
-            logits = model.forward(pokeIntBatch, pokeFeatBatch, moveIntBatch, moveFeatBatch, boardIntBatch, boardFeatBatch)
+            logits = model.forward(pokeIntBatch, pokeFeatBatch, moveIntBatch, moveFeatBatch, boardSideBatch, boardFeatBatch)
             loss = loss_f(logits, Y_batch)
 
             optimiser.zero_grad()

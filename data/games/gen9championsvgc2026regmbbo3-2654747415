@@ -1,0 +1,187 @@
+|j|☆ghjk09
+|j|☆jicxy
+|html|ghjk09jicxy    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785003297
+|gametype|doubles
+|player|p1|ghjk09|hilbert|1042
+|player|p2|jicxy|dancer|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Ariados, L50, F|
+|poke|p1|Beedrill, L50, F|
+|poke|p1|Ditto, L50|
+|poke|p1|Vivillon, L50, M|
+|poke|p1|Pikachu, L50, F|
+|poke|p1|Sableye, L50, M|
+|poke|p2|Rhyperior, L50, F|
+|poke|p2|Tsareena, L50, F|
+|poke|p2|Morpeko, L50, F|
+|poke|p2|Qwilfish, L50, F|
+|poke|p2|Gardevoir, L50, M|
+|poke|p2|Blastoise, L50, F|
+|teampreview|4
+|showteam|p1|Ariados||MentalHerb|Insomnia|Infestation,Protect,StickyWeb,ToxicThread|Relaxed||F|||50|]Beedrill||Beedrillite|Swarm|DrillRun,PoisonJab,Protect,Lunge|Jolly||F|||50|]Ditto||QuickClaw|Imposter|Transform|Timid|||||50|]Vivillon||FocusSash|CompoundEyes|Hurricane,SleepPowder,Protect,Tailwind|Timid||M|||50|]Pikachu||LightBall|LightningRod|Thunderbolt,AlluringVoice,Protect,GrassKnot|Modest||F|||50|]Sableye|||Prankster|Disable,Encore,Protect,Quash|Serious||M|||50|
+|showteam|p2|Rhyperior||BrightPowder|SolidRock|Earthquake,HeatCrash,Protect,RockSlide|Careful||F|||50|]Tsareena||CobaBerry|QueenlyMajesty|TropKick,LowKick,TripleAxel,Protect|Adamant||F|||50|]Morpeko||FocusSash|HungerSwitch|AuraWheel,PartingShot,Protect,Outrage|Jolly||F|||50|]Qwilfish||LifeOrb|Intimidate|BarbBarrage,AquaJet,DestinyBond,SwordsDance|Jolly||F|||50|]Gardevoir||Gardevoirite|Synchronize|HyperVoice,MysticalFire,TrickRoom,Protect|Sassy||M|||50|]Blastoise||WhiteHerb|RainDish|ShellSmash,MuddyWater,AuraSphere,Protect|Modest||F|||50|
+|
+|t:|1785003337
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Vivillon|Vivillon, L50, M|100/100
+|switch|p1b: Beedrill|Beedrill, L50, F|100/100
+|switch|p2a: Blastoise|Blastoise, L50, F|100/100
+|switch|p2b: Gardevoir|Gardevoir, L50, M|100/100
+|turn|1
+|
+|t:|1785003367
+|detailschange|p1b: Beedrill|Beedrill-Mega, L50, F
+|-mega|p1b: Beedrill|Beedrill|Beedrillite
+|detailschange|p2b: Gardevoir|Gardevoir-Mega, L50, M
+|-mega|p2b: Gardevoir|Gardevoir|Gardevoirite
+|move|p1b: Beedrill|Poison Jab|p2b: Gardevoir
+|-supereffective|p2b: Gardevoir|1
+|-damage|p2b: Gardevoir|0 fnt
+|faint|p2b: Gardevoir
+|move|p1a: Vivillon|Sleep Powder|p2a: Blastoise
+|-status|p2a: Blastoise|slp|[from] move: Sleep Powder
+|cant|p2a: Blastoise|slp
+|
+|upkeep
+|
+|t:|1785003379
+|switch|p2b: Rhyperior|Rhyperior, L50, F|100/100
+|turn|2
+|
+|t:|1785003395
+|move|p1b: Beedrill|Drill Run|p2b: Rhyperior
+|-supereffective|p2b: Rhyperior|1
+|-damage|p2b: Rhyperior|67/100
+|move|p1a: Vivillon|Sleep Powder|p2b: Rhyperior
+|-status|p2b: Rhyperior|slp|[from] move: Sleep Powder
+|-curestatus|p2a: Blastoise|slp|[msg]
+|move|p2a: Blastoise|Shell Smash|p2a: Blastoise
+|-unboost|p2a: Blastoise|def|1
+|-unboost|p2a: Blastoise|spd|1
+|-boost|p2a: Blastoise|atk|2
+|-boost|p2a: Blastoise|spa|2
+|-boost|p2a: Blastoise|spe|2
+|-enditem|p2a: Blastoise|White Herb
+|-clearnegativeboost|p2a: Blastoise|[silent]
+|cant|p2b: Rhyperior|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1785003427
+|move|p1b: Beedrill|Protect|p1b: Beedrill
+|-singleturn|p1b: Beedrill|Protect
+|cant|p2b: Rhyperior|slp
+|move|p2a: Blastoise|Muddy Water|p1b: Beedrill|[spread] p1a
+|-activate|p1b: Beedrill|move: Protect
+|-damage|p1a: Vivillon|14/100
+|move|p1a: Vivillon|Hurricane|p2a: Blastoise
+|-damage|p2a: Blastoise|62/100
+|-start|p2a: Blastoise|confusion
+|
+|upkeep
+|turn|4
+|
+|t:|1785003456
+|move|p1a: Vivillon|Protect|p1a: Vivillon
+|-singleturn|p1a: Vivillon|Protect
+|move|p1b: Beedrill|Poison Jab|p2a: Blastoise
+|-damage|p2a: Blastoise|4/100
+|-status|p2a: Blastoise|psn
+|-activate|p2a: Blastoise|confusion
+|move|p2a: Blastoise|Muddy Water|p1a: Vivillon|[spread] p1b
+|-activate|p1a: Vivillon|move: Protect
+|-damage|p1b: Beedrill|30/100
+|-unboost|p1b: Beedrill|accuracy|1
+|-curestatus|p2b: Rhyperior|slp|[msg]
+|move|p2b: Rhyperior|Rock Slide|p1a: Vivillon|[spread] p1b
+|-activate|p1a: Vivillon|move: Protect
+|-supereffective|p1b: Beedrill|1
+|-damage|p1b: Beedrill|0 fnt
+|faint|p1b: Beedrill
+|
+|-damage|p2a: Blastoise|0 fnt|[from] psn
+|faint|p2a: Blastoise
+|upkeep
+|
+|t:|1785003485
+|switch|p1b: Pikachu|Pikachu, L50, F|100/100
+|switch|p2a: Tsareena|Tsareena, L50, F|100/100
+|turn|5
+|
+|t:|1785003525
+|move|p1a: Vivillon|Protect||[still]
+|-fail|p1a: Vivillon
+|move|p2b: Rhyperior|Protect|p2b: Rhyperior
+|-singleturn|p2b: Rhyperior|Protect
+|move|p1b: Pikachu|Grass Knot|p2b: Rhyperior
+|-activate|p2b: Rhyperior|move: Protect
+|move|p2a: Tsareena|Triple Axel|p1a: Vivillon
+|-supereffective|p1a: Vivillon|1
+|-damage|p1a: Vivillon|0 fnt
+|faint|p1a: Vivillon
+|-hitcount|p1: Vivillon|1
+|
+|upkeep
+|
+|t:|1785003541
+|switch|p1a: Ditto|Ditto, L50|100/100
+|-transform|p1a: Ditto|p2b: Rhyperior|[from] ability: Imposter
+|turn|6
+|j| bollcaps
+|
+|t:|1785003568
+|move|p2b: Rhyperior|Protect|p2b: Rhyperior
+|-singleturn|p2b: Rhyperior|Protect
+|move|p1b: Pikachu|Grass Knot|p2b: Rhyperior
+|-activate|p2b: Rhyperior|move: Protect
+|move|p2a: Tsareena|Triple Axel|p1b: Pikachu
+|-damage|p1b: Pikachu|75/100
+|-damage|p1b: Pikachu|30/100
+|-damage|p1b: Pikachu|0 fnt
+|faint|p1b: Pikachu
+|-hitcount|p1: Pikachu|3
+|move|p1a: Ditto|Heat Crash|p2a: Tsareena
+|-supereffective|p2a: Tsareena|1
+|-damage|p2a: Tsareena|8/100
+|
+|upkeep
+|turn|7
+|
+|t:|1785003594
+|move|p2a: Tsareena|Protect|p2a: Tsareena
+|-singleturn|p2a: Tsareena|Protect
+|move|p2b: Rhyperior|Earthquake|p1a: Ditto|[spread] p1a
+|-activate|p2a: Tsareena|move: Protect
+|-supereffective|p1a: Ditto|1
+|-damage|p1a: Ditto|39/100
+|move|p1a: Ditto|Earthquake|p2b: Rhyperior|[spread] p2b
+|-activate|p2a: Tsareena|move: Protect
+|-supereffective|p2b: Rhyperior|1
+|-damage|p2b: Rhyperior|29/100
+|
+|upkeep
+|turn|8
+|-activate|p1a: Ditto|item: Quick Claw
+|
+|t:|1785003609
+|move|p1a: Ditto|Earthquake|p2a: Tsareena|[spread] p2a,p2b
+|-resisted|p2a: Tsareena|1
+|-supereffective|p2b: Rhyperior|1
+|-damage|p2a: Tsareena|0 fnt
+|-damage|p2b: Rhyperior|0 fnt
+|faint|p2a: Tsareena
+|faint|p2b: Rhyperior
+|
+|win|ghjk09
+|raw|ghjk09's rating: 1042 → 1072(+30 for winning)
+|raw|jicxy's rating: 1000 → 1000(+0 for losing)

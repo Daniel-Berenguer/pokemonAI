@@ -245,37 +245,24 @@ class PokeEncoder(nn.Module):
     
 
 class BoardEncoder(nn.Module):
-    NTURNS = 5
-    NWEATHERS = 5
-    NTERRAINS = 5
-    NEMB = 4
-    NFEATS = 15
+    N_SIDE_FEATS = 12
+    N_BOARD_FEATS = 19
+    
     
     def __init__(self, boardDim):
         super().__init__()
-        self.twEmb = nn.Embedding(self.NTURNS, self.NEMB)
-        self.trEmb = nn.Embedding(self.NTURNS, self.NEMB)
-        self.weatherEmb = nn.Embedding(self.NWEATHERS, self.NEMB)
-        self.terrainEmb = nn.Embedding(self.NTERRAINS, self.NEMB)
 
-        newDim = self.NEMB*5 + self.NFEATS
+        self.ln1 = nn.LayerNorm(self.N_SIDE_FEATS)
+        self.lin1 = nn.Linear(self.N_SIDE_FEATS, boardDim)
 
-        self.ln = nn.LayerNorm(newDim)
-        self.lin = nn.Linear(newDim, boardDim)
+        self.ln2 = nn.LayerNorm(self.N_BOARD_FEATS)
+        self.lin2 = nn.Linear(self.N_BOARD_FEATS, boardDim)
 
-    def forward(self, boardInts, boardFeats):
-        # Embeds Ints 
-        tws = torch.flatten(self.twEmb(boardInts[:, 0:2]), start_dim=1)
-        tr = self.trEmb(boardInts[:, 2])
-        weather = self.weatherEmb(boardInts[:, 3])
-        terrain = self.terrainEmb(boardInts[:, 4])
+    def forward(self, boardSides, boardFeats):
+        boardSides = torch.relu(self.lin1(self.ln1(boardSides)))
+        boardFeats = torch.relu(self.lin2(self.ln2(boardFeats)))
 
-        # Concats
-        comb = torch.cat([tws, tr, weather, terrain, boardFeats], dim=-1)
-
-        return torch.relu(self.lin(self.ln(comb)))
-
-                 # (batch, featureDim)
+        return boardSides, boardFeats
 
 class TurnEncoder(nn.Module):
     def __init__(self, cfg: TurnEncoderConfig = None):
@@ -288,13 +275,18 @@ class TurnEncoder(nn.Module):
         self.pokeEncoder = PokeEncoder(cfg.MOVE_HIDDEN, cfg.MOVE_DIM, cfg.POKE_EMB, cfg.AB_EMB, cfg.IT_EMB, cfg.POKE_DIM,
                                        dropout=cfg.poke_dropout)
         self.boardEncoder = BoardEncoder(cfg.BOARD_DIM)
-        self.board2token = nn.Linear(cfg.BOARD_DIM, cfg.POKE_DIM)
+        self.boardFeat2token = nn.Linear(cfg.BOARD_DIM, cfg.POKE_DIM)
+        self.boardSide2token = nn.Linear(cfg.BOARD_DIM, cfg.POKE_DIM)
+
         self.selfAttTransformerLayer1 = SelfAttTransformerLayer(in_dim=cfg.POKE_DIM, n_heads=cfg.N_HEADS, key_query_dim=int(cfg.POKE_DIM/cfg.N_HEADS),
                                                                 head_dim=int(cfg.POKE_DIM/cfg.N_HEADS), hidden_dim=cfg.POKE_DIM*2, dropout=cfg.self_att_dropout)
 
 
         self.crossAttTransformerLayer1 = CrossAttTransformerLayer(in_dim=cfg.POKE_DIM, n_heads=cfg.N_HEADS, key_query_dim=int(cfg.POKE_DIM/cfg.N_HEADS),
                                                                 head_dim=int(cfg.POKE_DIM/cfg.N_HEADS), hidden_dim=cfg.POKE_DIM*2, dropout=cfg.cross_att_dropout)
+
+        self.crossAttTransformerLayer2 = CrossAttTransformerLayer(in_dim=cfg.POKE_DIM, n_heads=cfg.N_HEADS, key_query_dim=int(cfg.POKE_DIM/cfg.N_HEADS),
+                                                                        head_dim=int(cfg.POKE_DIM/cfg.N_HEADS), hidden_dim=cfg.POKE_DIM*2, dropout=cfg.cross_att_dropout)
         
 
         # Final MLP
@@ -312,19 +304,27 @@ class TurnEncoder(nn.Module):
         self.lin3 = nn.Linear(cfg.HIDDEN_LAY_2, 1)
 
 
-    def forward(self, pokeInts, pokeFeats, moveInts, moveFeats, boardInts, boardFeats):
+    def forward(self, pokeInts, pokeFeats, moveInts, moveFeats, boardSides, boardFeats):
         teams = self.pokeEncoder(pokeInts, pokeFeats, moveInts, moveFeats) # (BATCH, 2, 6, pokeDim)
-        board_token = self.board2token(self.boardEncoder(boardInts, boardFeats)) # (BATCH, pokeDim)
-        board_token = board_token[:, None, None, :].expand(-1, 2, 1, -1) # (BATCH, 2, 1, pokeDim)
-        class_tokens = self.class_tokens.expand(board_token.shape[0], 2, 1, self.cfg.POKE_DIM) # (BATCH, 2, 1, pokeDim)
-        x = torch.cat([teams, board_token, class_tokens], dim=2)
+        boardSides, boardFeats = self.boardEncoder(boardSides, boardFeats) # (BATCH, 2, boardDim) and (BATCH, boardDim)
+        board_side_token = self.boardSide2token(boardSides) # (BATCH, 2, pokeDim)
+        board_feat_token = self.boardFeat2token(boardFeats) # (BATCH, pokeDim)
+        board_side_token = board_side_token[:, :, None, :].expand(-1, -1, 1, -1) # (BATCH, 2, 1, pokeDim)
+        board_feat_token = board_feat_token[:, None, None, :].expand(-1, 2, 1, -1) # (BATCH, 2, 1, pokeDim)
+
+        class_tokens = self.class_tokens.expand(board_feat_token.shape[0], 2, 1, self.cfg.POKE_DIM) # (BATCH, 2, 1, pokeDim)
+        x = torch.cat([teams, board_side_token, board_feat_token, class_tokens], dim=2)
 
         x = self.selfAttTransformerLayer1(x)
 
         team_1 = x[:,0,:,:]
         team_2 = x[:,1,:,:]
-        team_1_summary = self.crossAttTransformerLayer1(team_1, team_2)[:,-1,:]
-        team_2_summary = self.crossAttTransformerLayer1(team_2, team_1)[:,-1,:]
+
+        team_1_1cross = self.crossAttTransformerLayer1(team_1, team_2)
+        team_2_1cross = self.crossAttTransformerLayer1(team_2, team_1)
+
+        team_1_summary = self.crossAttTransformerLayer2(team_1_1cross, team_2_1cross)[:,-1,:]
+        team_2_summary = self.crossAttTransformerLayer2(team_2_1cross, team_1_1cross)[:,-1,:]
 
         #x = torch.cat([team_1_summary, team_2_summary, team_1_summary-team_2_summary, team_1_summary*team_2_summary], dim=1)
         x = torch.cat([team_1_summary, team_2_summary], dim=1)

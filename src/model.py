@@ -5,8 +5,8 @@ import pickle
 
 cuda = torch.device('cuda')
     
-#boardIntTensor (5) [tw1, tw2, tr, weather, terrain]
-#boardTensor (boardFDim=15)
+#boardSideTensor (2, boardSideDim=12)
+#boardTensor (boardFDim=19)
 #pokeIntsTensor (2, 6, 6) [poke, item, ab, typ1, typ2, tera]
 #pokeFeatsTensor (2, 6, pokeFeatDim=17)
 #moveIntsTensor (2, 6, 4, 2) [moveName, moveType]
@@ -116,7 +116,7 @@ class BoardEncoder(nn.Module):
         self.ln = nn.LayerNorm(newDim)
         self.lin = nn.Linear(newDim, nhidden)
 
-    def forward(self, boardInts, boardFeats):
+    def forward(self, boardSides, boardFeats):
         # Embeds Ints 
         tws = torch.flatten(self.twEmb(boardInts[:, 0:2]), start_dim=1)
         tr = self.trEmb(boardInts[:, 2])
@@ -179,7 +179,7 @@ class Block(nn.Module):
         return x
         
         
-#boardIntTensor (5) [tw1, tw2, tr, weather, terrain]
+#boardSideTensor (5) [tw1, tw2, tr, weather, terrain]
 #boardTensor (boardFDim=15)
 #pokeIntsTensor (2, 6, 6) [poke, item, ab, typ1, typ2, tera]
 #pokeFeatsTensor (2, 6, pokeFeatDim=17)
@@ -221,9 +221,9 @@ class Model(nn.Module):
                                  
         self.finalLinear = nn.Linear(16, 1)
 
-    def forward(self, boardInts, boardFeats, pokeInts, pokeFeats, moveInts, moveFeats):
+    def forward(self, boardSides, boardFeats, pokeInts, pokeFeats, moveInts, moveFeats):
         # Encodes
-        board = self.boardEncoder.forward(boardInts, boardFeats)
+        board = self.boardEncoder.forward(boardSides, boardFeats)
         pokes = self.pokeEncoder.forward(pokeInts, pokeFeats, moveInts, moveFeats)
         
         # Flattens and feeds into transformer
@@ -261,7 +261,7 @@ def bce_with_logits_label_smoothing(logits, targets, smoothing=0.05):
 if __name__ == "__main__":
 
     with open("data/data.pickle", "rb") as file:
-        # X is boardIntTensor, boardTensor, pokeIntsTensor, pokeFeatsTensor, moveFeatsTensor, moveIntsTensor
+        # X is boardSideTensor, boardTensor, pokeIntsTensor, pokeFeatsTensor, moveFeatsTensor, moveIntsTensor
         X_train, Y_train, X_test, Y_test = pickle.load(file)
 
 
@@ -300,8 +300,8 @@ if __name__ == "__main__":
 
     for i in range(ITERS+1):
         ix = torch.randint(0, Y_train.size(0), (BATCH_SIZE,))  # random indices
-        #boardIntTensor, boardTensor, pokeIntsTensor, pokeFeatsTensor, moveFeatsTensor, moveIntsTensor
-        boardIntBatch = X_train[0][ix].to(cuda)
+        #boardSideTensor, boardTensor, pokeIntsTensor, pokeFeatsTensor, moveFeatsTensor, moveIntsTensor
+        boardSideBatch = X_train[0][ix].to(cuda)
         boardFeatBatch = X_train[1][ix].to(cuda)
         pokeIntBatch = X_train[2][ix].to(cuda)
         pokeFeatBatch = X_train[3][ix].to(cuda)
@@ -310,7 +310,7 @@ if __name__ == "__main__":
 
         Y_batch = Y_train[ix].to(cuda)
 
-        logits = model.forward(boardIntBatch, boardFeatBatch, pokeIntBatch, pokeFeatBatch, moveIntBatch, moveFeatBatch)
+        logits = model.forward(boardSideBatch, boardFeatBatch, pokeIntBatch, pokeFeatBatch, moveIntBatch, moveFeatBatch)
 
         loss = bce_with_logits_label_smoothing(logits, Y_batch, smoothing=0.1)
 
@@ -327,14 +327,14 @@ if __name__ == "__main__":
             model.eval()
             # Test loss
             with torch.no_grad():
-                boardIntTest = X_test[0].to(cuda)
+                boardSideTest = X_test[0].to(cuda)
                 boardFeatTest = X_test[1].to(cuda)
                 pokeIntTest = X_test[2].to(cuda)
                 pokeFeatTest = X_test[3].to(cuda)
                 moveIntTest = X_test[4].to(cuda)
                 moveFeatTest = X_test[5].to(cuda)
                 Y_test = Y_test.to(cuda)
-                logits = model.forward(boardIntTest, boardFeatTest, pokeIntTest, pokeFeatTest, moveIntTest, moveFeatTest)
+                logits = model.forward(boardSideTest, boardFeatTest, pokeIntTest, pokeFeatTest, moveIntTest, moveFeatTest)
                 loss = bce_with_logits_label_smoothing(logits, Y_test, smoothing=0.1)
                 print(f"Test loss: {loss.item():.4f}")
                 probs = F.sigmoid(logits)
@@ -347,14 +347,14 @@ if __name__ == "__main__":
     model.eval()
     # Test loss
     with torch.no_grad():
-        boardIntTest = X_test[0].to(cuda)
+        boardSideTest = X_test[0].to(cuda)
         boardFeatTest = X_test[1].to(cuda)
         pokeIntTest = X_test[2].to(cuda)
         pokeFeatTest = X_test[3].to(cuda)
         moveIntTest = X_test[4].to(cuda)
         moveFeatTest = X_test[5].to(cuda)
         Y_test = Y_test.to(cuda)
-        logits = model.forward(boardIntTest, boardFeatTest, pokeIntTest, pokeFeatTest, moveIntTest, moveFeatTest)
+        logits = model.forward(boardSideTest, boardFeatTest, pokeIntTest, pokeFeatTest, moveIntTest, moveFeatTest)
         loss = bce_with_logits_label_smoothing(logits, Y_test, smoothing=0.1)
         print(f"Test loss: {loss.item():.4f}")
         probs = F.sigmoid(logits)

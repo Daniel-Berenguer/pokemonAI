@@ -1,0 +1,180 @@
+|j|☆Jsnobs
+|j|☆BloomingDino
+|html|JsnobsBloomingDino    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784993004
+|gametype|doubles
+|player|p1|Jsnobs|acetrainer-gen4dp|
+|player|p2|BloomingDino|1|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Aerodactyl, L50, M, shiny|
+|poke|p1|Gardevoir, L50, F, shiny|
+|poke|p1|Blastoise, L50, M, shiny|
+|poke|p1|Sharpedo, L50, F, shiny|
+|poke|p1|Volcarona, L50, M, shiny|
+|poke|p1|Slowbro-Galar, L50, M, shiny|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Grimmsnarl, L50, M, shiny|
+|poke|p2|Arcanine-Hisui, L50, F, shiny|
+|poke|p2|Samurott-Hisui, L50, F, shiny|
+|poke|p2|Ninetales-Alola, L50, F, shiny|
+|poke|p2|Sneasler, L50, F, shiny|
+|teampreview|4
+|showteam|p1|Aerodactyl||FocusSash|Unnerve|Protect,Tailwind,DualWingbeat,RockSlide|Jolly||M|||50|]Gardevoir||Gardevoirite|Trace|Protect,HyperVoice,Psyshock,MysticalFire|Modest||F|||50|]Blastoise||MysticWater|RainDish|FakeOut,WaterSpout,HydroPump,IcyWind|Modest||M|||50|]Sharpedo||LifeOrb|SpeedBoost|Protect,PoisonJab,PsychicFangs,Liquidation|Adamant||F|||50|]Volcarona||Leftovers|FlameBody|Protect,FieryDance,BugBuzz,RagePowder|Modest||M|||50|]Slowbro-Galar||QuickClaw|QuickDraw|Protect,SludgeBomb,ChillingWater,GrassKnot|Modest||M|||50|
+|showteam|p2|Floette-Eternal||Floettite|FlowerVeil|LightofRuin,Moonblast,Wish,EnergyBall|Modest||F|||50|]Grimmsnarl||LightClay|Prankster|LightScreen,Reflect,SuckerPunch,HammerArm|Adamant||M|||50|]Arcanine-Hisui||ChoiceScarf|Intimidate|HeadSmash,StealthRock,FlareBlitz,CloseCombat|Jolly||F|||50|]Samurott-Hisui||ExpertBelt|Sharpness|CeaselessEdge,HelpingHand,RazorShell,Megahorn|Jolly||F|||50|]Ninetales-Alola||BabiriBerry|SnowWarning|Moonblast,Blizzard,DarkPulse,IceShard|Hasty||F|||50|]Sneasler||BlackBelt|Unburden|FakeOut,CloseCombat,DireClaw,FirePunch|Adamant||F|||50|
+|
+|t:|1784993075
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Yip Yip|Aerodactyl, L50, M, shiny|100/100
+|switch|p1b: Ticket|Sharpedo, L50, F, shiny|100/100
+|switch|p2a: Arcanine|Arcanine-Hisui, L50, F, shiny|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F, shiny|100/100
+|-ability|p1a: Yip Yip|Unnerve
+|-ability|p2a: Arcanine|Intimidate|boost
+|-unboost|p1a: Yip Yip|atk|1
+|-unboost|p1b: Ticket|atk|1
+|turn|1
+|
+|t:|1784993134
+|move|p1a: Yip Yip|Protect|p1a: Yip Yip
+|-singleturn|p1a: Yip Yip|Protect
+|move|p1b: Ticket|Protect|p1b: Ticket
+|-singleturn|p1b: Ticket|Protect
+|move|p2a: Arcanine|Close Combat|p1a: Yip Yip
+|-activate|p1a: Yip Yip|move: Protect
+|move|p2b: Sneasler|Close Combat|p1b: Ticket
+|-activate|p1b: Ticket|move: Protect
+|
+|-ability|p1b: Ticket|Speed Boost|boost
+|-boost|p1b: Ticket|spe|1
+|upkeep
+|turn|2
+|
+|t:|1784993161
+|switch|p2a: Samurott|Samurott-Hisui, L50, F, shiny|100/100
+|move|p1b: Ticket|Psychic Fangs|p2b: Sneasler
+|-supereffective|p2b: Sneasler|2
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|-damage|p1b: Ticket|90/100|[from] item: Life Orb
+|move|p1a: Yip Yip|Tailwind|p1a: Yip Yip
+|-sidestart|p1: Jsnobs|move: Tailwind
+|
+|-ability|p1b: Ticket|Speed Boost|boost
+|-boost|p1b: Ticket|spe|1
+|upkeep
+|
+|t:|1784993174
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M, shiny|100/100
+|turn|3
+|
+|t:|1784993200
+|switch|p1b: High Noon|Slowbro-Galar, L50, M, shiny|100/100
+|move|p2b: Grimmsnarl|Reflect|p2b: Grimmsnarl
+|-sidestart|p2: BloomingDino|Reflect
+|move|p1a: Yip Yip|Rock Slide|p2b: Grimmsnarl|[spread] p2a,p2b
+|-damage|p2a: Samurott|86/100
+|-damage|p2b: Grimmsnarl|87/100
+|move|p2a: Samurott|Razor Shell|p1a: Yip Yip
+|-supereffective|p1a: Yip Yip|1
+|-enditem|p1a: Yip Yip|Focus Sash
+|-damage|p1a: Yip Yip|1/100
+|
+|upkeep
+|turn|4
+|
+|t:|1784993219
+|move|p1a: Yip Yip|Protect|p1a: Yip Yip
+|-singleturn|p1a: Yip Yip|Protect
+|move|p2b: Grimmsnarl|Sucker Punch||[still]
+|-fail|p2b: Grimmsnarl
+|move|p2a: Samurott|Ceaseless Edge|p1b: High Noon
+|-supereffective|p1b: High Noon|1
+|-damage|p1b: High Noon|0 fnt
+|-sidestart|p1: Jsnobs|Spikes
+|faint|p1b: High Noon
+|
+|upkeep
+|
+|t:|1784993228
+|switch|p1b: Esdeath|Gardevoir, L50, F, shiny|100/100
+|-damage|p1b: Esdeath|87/100|[from] Spikes
+|-ability|p1b: Esdeath|Sharpness|Trace|[from] ability: Trace|[of] p2a: Samurott
+|turn|5
+|
+|t:|1784993267
+|detailschange|p1b: Esdeath|Gardevoir-Mega, L50, F, shiny
+|-mega|p1b: Esdeath|Gardevoir|Gardevoirite
+|move|p2b: Grimmsnarl|Sucker Punch|p1b: Esdeath
+|-damage|p1b: Esdeath|15/100
+|move|p1a: Yip Yip|Rock Slide|p2b: Grimmsnarl|[spread] p2a,p2b
+|-damage|p2a: Samurott|73/100
+|-damage|p2b: Grimmsnarl|72/100
+|move|p1b: Esdeath|Hyper Voice|p2a: Samurott|[spread] p2a,p2b
+|-supereffective|p2a: Samurott|1
+|-supereffective|p2b: Grimmsnarl|1
+|-damage|p2a: Samurott|0 fnt
+|-damage|p2b: Grimmsnarl|0 fnt
+|faint|p2a: Samurott
+|faint|p2b: Grimmsnarl
+|
+|-sideend|p1: Jsnobs|move: Tailwind
+|upkeep
+|
+|t:|1784993283
+|switch|p2b: Arcanine|Arcanine-Hisui, L50, F, shiny|100/100
+|-ability|p2b: Arcanine|Intimidate|boost
+|-unboost|p1a: Yip Yip|atk|1
+|-unboost|p1b: Esdeath|atk|1
+|turn|6
+|
+|t:|1784993323
+|move|p2b: Arcanine|Flare Blitz|p1b: Esdeath
+|-damage|p1b: Esdeath|0 fnt
+|faint|p1b: Esdeath
+|-damage|p2b: Arcanine|95/100|[from] Recoil
+|move|p1a: Yip Yip|Rock Slide|p2b: Arcanine
+|-supereffective|p2b: Arcanine|1
+|-damage|p2b: Arcanine|67/100
+|
+|upkeep
+|
+|t:|1784993332
+|switch|p1b: Ticket|Sharpedo, L50, F, shiny|90/100
+|-damage|p1b: Ticket|78/100|[from] Spikes
+|turn|7
+|
+|t:|1784993339
+|move|p1a: Yip Yip|Protect|p1a: Yip Yip
+|-singleturn|p1a: Yip Yip|Protect
+|move|p1b: Ticket|Protect|p1b: Ticket
+|-singleturn|p1b: Ticket|Protect
+|move|p2b: Arcanine|Flare Blitz|p1b: Ticket
+|-activate|p1b: Ticket|move: Protect
+|
+|-ability|p1b: Ticket|Speed Boost|boost
+|-boost|p1b: Ticket|spe|1
+|upkeep
+|turn|8
+|
+|t:|1784993354
+|move|p2b: Arcanine|Flare Blitz|p1b: Ticket
+|-resisted|p1b: Ticket|1
+|-damage|p1b: Ticket|12/100
+|-damage|p2b: Arcanine|48/100|[from] Recoil
+|move|p1b: Ticket|Liquidation|p2b: Arcanine
+|-supereffective|p2b: Arcanine|2
+|-damage|p2b: Arcanine|0 fnt
+|faint|p2b: Arcanine
+|-damage|p1b: Ticket|2/100|[from] item: Life Orb
+|
+|win|Jsnobs
+|l|☆BloomingDino
+|player|p2|
+|c|☆Jsnobs|ggs

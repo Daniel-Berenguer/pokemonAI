@@ -1,0 +1,210 @@
+|j|☆JC0410
+|j|☆pat_con5
+|html|JC0410pat_con5    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785636840
+|gametype|doubles
+|player|p1|JC0410|volkner|
+|player|p2|pat_con5|crasherwake|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Metagross, L50, shiny|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Rotom-Wash, L50|
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Sylveon, L50, F|
+|poke|p2|Swampert, L50, M|
+|poke|p2|Pelipper, L50, M|
+|poke|p2|Hydreigon, L50, F|
+|poke|p2|Glimmora, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Metagross, L50|
+|teampreview|4
+|showteam|p1|Metagross||Metagrossite|ClearBody|IronHead,IcePunch,PsychicFangs,Protect|Jolly|||||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,DarkestLariat,PartingShot,FakeOut|Impish||M|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,RockSlide,Protect|Jolly||M|||50|]Rotom-Wash||Leftovers|Levitate|HydroPump,Electroweb,WillOWisp,LightScreen|Bold|||||50|]Venusaur||Venusaurite|Chlorophyll|SludgeBomb,EnergyBall,EarthPower,Protect|Modest||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,QuickAttack,Protect|Quiet||F|||50|
+|showteam|p2|Swampert||Swampertite|Torrent|Protect,WaveCrash,Earthquake,IcePunch|Adamant||M|||50|]Pelipper||SitrusBerry|Drizzle|Protect,WeatherBall,Hurricane,Tailwind|Modest||M|||50|]Hydreigon||ChoiceScarf|Levitate|DracoMeteor,DarkPulse,EarthPower,Uturn|Modest||F|||50|]Glimmora||FocusSash|ToxicDebris|SpikyShield,SludgeBomb,PowerGem,EarthPower|Timid||M|||50|]Sinistcha||OccaBerry|Hospitality|Protect,MatchaGotcha,RagePowder|Bold|||||50|]Metagross||Metagrossite|ClearBody|Protect,MeteorMash,PsychicFangs,BulletPunch|Adamant|||||50|
+|
+|t:|1785636893
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rotom|Rotom-Wash, L50|100/100
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|switch|p2a: Hydreigon|Hydreigon, L50, F|100/100
+|switch|p2b: Swampert|Swampert, L50, M|100/100
+|turn|1
+|
+|t:|1785636925
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Hydreigon|atk|1
+|-unboost|p2b: Swampert|atk|1
+|switch|p2b: Glimmora|Glimmora, L50, M|100/100
+|move|p2a: Hydreigon|Draco Meteor|p1a: Rotom|[miss]
+|-miss|p2a: Hydreigon|p1a: Rotom
+|move|p1a: Rotom|Light Screen|p1a: Rotom
+|-sidestart|p1: JC0410|move: Light Screen
+|
+|upkeep
+|turn|2
+|
+|t:|1785636956
+|move|p2a: Hydreigon|Draco Meteor|p1b: Incineroar
+|-damage|p1b: Incineroar|58/100
+|-unboost|p2a: Hydreigon|spa|2
+|move|p2b: Glimmora|Power Gem|p1b: Incineroar
+|-supereffective|p1b: Incineroar|1
+|-damage|p1b: Incineroar|9/100
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|34/100|[from] item: Sitrus Berry
+|move|p1a: Rotom|Hydro Pump|p2b: Glimmora
+|-supereffective|p2b: Glimmora|1
+|-enditem|p2b: Glimmora|Focus Sash
+|-damage|p2b: Glimmora|1/100
+|move|p1b: Incineroar|Darkest Lariat|p2b: Glimmora
+|-damage|p2b: Glimmora|0 fnt
+|-activate|p2b: Glimmora|ability: Toxic Debris
+|-sidestart|p1: JC0410|move: Toxic Spikes
+|faint|p2b: Glimmora
+|
+|upkeep
+|
+|t:|1785636964
+|switch|p2b: Swampert|Swampert, L50, M|100/100
+|turn|3
+|
+|t:|1785636986
+|switch|p2a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|detailschange|p2b: Swampert|Swampert-Mega, L50, M
+|-mega|p2b: Swampert|Swampert|Swampertite
+|move|p2b: Swampert|Earthquake|p1a: Rotom|[spread] p1b
+|-immune|p2a: Pelipper
+|-immune|p1a: Rotom|[from] ability: Levitate
+|-supereffective|p1b: Incineroar|1
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p1a: Rotom|Will-O-Wisp|p2b: Swampert
+|-status|p2b: Swampert|brn
+|
+|-weather|RainDance|[upkeep]
+|-damage|p2b: Swampert|94/100 brn|[from] brn
+|upkeep
+|
+|t:|1785637021
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|-status|p1b: Garchomp|psn
+|turn|4
+|
+|t:|1785637029
+|move|p2a: Pelipper|Protect|p2a: Pelipper
+|-singleturn|p2a: Pelipper|Protect
+|move|p2b: Swampert|Ice Punch|p1b: Garchomp
+|-supereffective|p1b: Garchomp|2
+|-damage|p1b: Garchomp|35/100 psn
+|-damage|p2b: Swampert|82/100 brn|[from] ability: Rough Skin|[of] p1b: Garchomp
+|move|p1b: Garchomp|Dragon Claw|p2a: Pelipper
+|-activate|p2a: Pelipper|move: Protect
+|move|p1a: Rotom|Electroweb|p2a: Pelipper|[spread] 
+|-activate|p2a: Pelipper|move: Protect
+|-immune|p2b: Swampert
+|
+|-weather|RainDance|[upkeep]
+|-damage|p1b: Garchomp|22/100 psn|[from] psn
+|-damage|p2b: Swampert|76/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1785637049
+|move|p2b: Swampert|Earthquake|p1a: Rotom|[spread] p1b
+|-immune|p2a: Pelipper
+|-immune|p1a: Rotom|[from] ability: Levitate
+|-damage|p1b: Garchomp|0 fnt
+|faint|p1b: Garchomp
+|move|p1a: Rotom|Electroweb|p2b: Swampert|[spread] p2a
+|-immune|p2b: Swampert
+|-supereffective|p2a: Pelipper|2
+|-damage|p2a: Pelipper|16/100
+|-unboost|p2a: Pelipper|spe|1
+|-enditem|p2a: Pelipper|Sitrus Berry|[eat]
+|-heal|p2a: Pelipper|40/100|[from] item: Sitrus Berry
+|move|p2a: Pelipper|Hurricane|p1a: Rotom
+|-resisted|p1a: Rotom|1
+|-damage|p1a: Rotom|80/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|86/100|[from] item: Leftovers
+|-damage|p2b: Swampert|70/100 brn|[from] brn
+|-sideend|p1: JC0410|move: Light Screen
+|upkeep
+|
+|t:|1785637064
+|switch|p1b: Venusaur|Venusaur, L50, F|100/100
+|-sideend|p1: JC0410|move: Toxic Spikes|[of] p1b: Venusaur
+|turn|6
+|
+|t:|1785637075
+|detailschange|p1b: Venusaur|Venusaur-Mega, L50, F
+|-mega|p1b: Venusaur|Venusaur|Venusaurite
+|move|p2a: Pelipper|Protect|p2a: Pelipper
+|-singleturn|p2a: Pelipper|Protect
+|move|p2b: Swampert|Wave Crash|p1a: Rotom
+|-resisted|p1a: Rotom|1
+|-damage|p1a: Rotom|61/100
+|-damage|p2b: Swampert|64/100 brn|[from] Recoil
+|move|p1b: Venusaur|Energy Ball|p2b: Swampert
+|-supereffective|p2b: Swampert|2
+|-damage|p2b: Swampert|0 fnt
+|faint|p2b: Swampert
+|move|p1a: Rotom|Electroweb|p2a: Pelipper
+|-activate|p2a: Pelipper|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Rotom|67/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1785637082
+|switch|p2b: Hydreigon|Hydreigon, L50, F|100/100
+|turn|7
+|
+|t:|1785637090
+|move|p2b: Hydreigon|Dark Pulse|p1a: Rotom
+|-damage|p1a: Rotom|18/100
+|move|p1b: Venusaur|Energy Ball|p2a: Pelipper
+|-damage|p2a: Pelipper|0 fnt
+|faint|p2a: Pelipper
+|move|p1a: Rotom|Light Screen|p1a: Rotom
+|-sidestart|p1: JC0410|move: Light Screen
+|
+|-weather|none
+|-heal|p1a: Rotom|24/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1785637103
+|move|p2b: Hydreigon|Dark Pulse|p1a: Rotom
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|move|p1b: Venusaur|Sludge Bomb|p2b: Hydreigon
+|-damage|p2b: Hydreigon|46/100
+|
+|upkeep
+|turn|9
+|
+|t:|1785637111
+|move|p2b: Hydreigon|Dark Pulse|p1b: Venusaur
+|-damage|p1b: Venusaur|69/100
+|move|p1b: Venusaur|Sludge Bomb|p2b: Hydreigon
+|-damage|p2b: Hydreigon|0 fnt
+|faint|p2b: Hydreigon
+|
+|win|JC0410
+||pat_con5 is ready for game 3.
+|inactive|JC0410 has 30 seconds to confirm battle start!
+||JC0410 is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆JC0410
+|player|p1|

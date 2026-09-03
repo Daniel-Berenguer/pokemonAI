@@ -1,0 +1,217 @@
+|j|☆iamflorete
+|j|☆redjaguar
+|html|iamfloreteredjaguar    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1784923945
+|gametype|doubles
+|player|p1|iamflorete|266|1038
+|player|p2|redjaguar|gambler|1027
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pyroar, L50, F|
+|poke|p1|Ninetales, L50, M, shiny|
+|poke|p1|Vileplume, L50, M, shiny|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Mimikyu, L50, M|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p2|Dragonite, L50, F|
+|poke|p2|Gardevoir, L50, F|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Kingambit, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Empoleon, L50, F|
+|teampreview|4
+|showteam|p1|Pyroar||Pyroarite|Unnerve|HeatWave,SolarBeam,Protect,Snarl|Timid||F|||50|]Ninetales||ChoiceScarf|Drought|HeatWave,Extrasensory,Overheat,SolarBeam|Timid||M|||50|]Vileplume||WideLens|Chlorophyll|SleepPowder,SludgeBomb,Protect,StrengthSap|Timid||M|||50|]Kingambit||BlackGlasses|Defiant|Protect,SwordsDance,KowtowCleave,SuckerPunch|Adamant||F|||50|]Mimikyu||MentalHerb|Disguise|TrickRoom,WillOWisp,ShadowClaw,Protect|Brave||M|||50|]Floette-Eternal||Floettite|FlowerVeil|CalmMind,DrainingKiss,DazzlingGleam,Protect|Quiet||F|||50|
+|showteam|p2|Dragonite||ExpertBelt|Multiscale|IceSpinner,StompingTantrum,ExtremeSpeed,Protect|Adamant||F|||50|]Gardevoir||Gardevoirite|Trace|HyperVoice,MysticalFire,Protect,Psychic|Timid||F|||50|]Raichu||SitrusBerry|LightningRod|FakeOut,HelpingHand,Nuzzle,VoltSwitch|Timid||M|||50|]Kingambit||BlackGlasses|SupremeOverlord|KowtowCleave,SuckerPunch,Protect,IronHead|Adamant||F|||50|]Incineroar||WhiteHerb|Intimidate|FakeOut,FlareBlitz,PartingShot,Taunt|Impish||F|||50|]Empoleon||Leftovers|Competitive|IcyWind,Protect,FlashCannon,HydroPump|Modest||F|||50|
+|
+|t:|1784923980
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Vileplume|Vileplume, L50, M, shiny|100/100
+|switch|p1b: Ninetales|Ninetales, L50, M, shiny|100/100
+|switch|p2a: Raichu|Raichu, L50, M|100/100
+|switch|p2b: Empoleon|Empoleon, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Ninetales
+|turn|1
+|
+|t:|1784923998
+|move|p2a: Raichu|Fake Out|p1a: Vileplume
+|-damage|p1a: Vileplume|91/100
+|move|p1b: Ninetales|Heat Wave|p2a: Raichu|[spread] p2a,p2b
+|-damage|p2a: Raichu|45/100
+|-damage|p2b: Empoleon|63/100
+|-status|p2a: Raichu|brn
+|-enditem|p2a: Raichu|Sitrus Berry|[eat]
+|-heal|p2a: Raichu|70/100 brn|[from] item: Sitrus Berry
+|cant|p1a: Vileplume|flinch
+|move|p2b: Empoleon|Hydro Pump|p1b: Ninetales
+|-supereffective|p1b: Ninetales|1
+|-damage|p1b: Ninetales|40/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Empoleon|69/100|[from] item: Leftovers
+|-damage|p2a: Raichu|64/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1784924043
+|switch|p1b: Mimikyu|Mimikyu, L50, M|100/100
+|move|p2b: Empoleon|Protect|p2b: Empoleon
+|-singleturn|p2b: Empoleon|Protect
+|move|p1a: Vileplume|Sludge Bomb|p2a: Raichu
+|-damage|p2a: Raichu|18/100 brn
+|move|p2a: Raichu|Nuzzle|p1a: Vileplume
+|-resisted|p1a: Vileplume|1
+|-damage|p1a: Vileplume|89/100
+|-status|p1a: Vileplume|par
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Empoleon|75/100|[from] item: Leftovers
+|-damage|p2a: Raichu|12/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1784924073
+|move|p2a: Raichu|Volt Switch|p1b: Mimikyu
+|-activate|p1b: Mimikyu|ability: Disguise
+|-damage|p1b: Mimikyu|100/100
+|detailschange|p1b: Mimikyu|Mimikyu-Busted, L50, M
+|-damage|p1b: Mimikyu|87/100|[from] pokemon: Mimikyu-Busted
+|
+|t:|1784924079
+|switch|p2a: Dragonite|Dragonite, L50, F|100/100|[from] Volt Switch
+|move|p1a: Vileplume|Sleep Powder|p2b: Empoleon
+|-status|p2b: Empoleon|slp|[from] move: Sleep Powder
+|move|p1b: Mimikyu|Shadow Claw|p2a: Dragonite
+|-crit|p2a: Dragonite
+|-damage|p2a: Dragonite|78/100
+|cant|p2b: Empoleon|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Empoleon|81/100 slp|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1784924101
+|move|p1a: Vileplume|Protect|p1a: Vileplume
+|-singleturn|p1a: Vileplume|Protect
+|move|p2a: Dragonite|Ice Spinner|p1a: Vileplume
+|-activate|p1a: Vileplume|move: Protect
+|move|p1b: Mimikyu|Will-O-Wisp|p2a: Dragonite
+|-status|p2a: Dragonite|brn
+|cant|p2b: Empoleon|slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Empoleon|86/100 slp|[from] item: Leftovers
+|-damage|p2a: Dragonite|72/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1784924129
+|switch|p1a: Pyroar|Pyroar, L50, F|100/100
+|-ability|p1a: Pyroar|Unnerve
+|move|p2a: Dragonite|Stomping Tantrum|p1a: Pyroar
+|-supereffective|p1a: Pyroar|1
+|-damage|p1a: Pyroar|55/100
+|move|p1b: Mimikyu|Shadow Claw|p2b: Empoleon
+|-damage|p2b: Empoleon|51/100 slp
+|-curestatus|p2b: Empoleon|slp|[msg]
+|move|p2b: Empoleon|Flash Cannon|p1b: Mimikyu
+|-supereffective|p1b: Mimikyu|1
+|-damage|p1b: Mimikyu|6/100
+|
+|-weather|none
+|-heal|p2b: Empoleon|57/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|66/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1784924159
+|switch|p1b: Ninetales|Ninetales, L50, M, shiny|40/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Ninetales
+|detailschange|p1a: Pyroar|Pyroar-Mega, L50, F
+|-mega|p1a: Pyroar|Pyroar|Pyroarite
+|move|p1a: Pyroar|Protect|p1a: Pyroar
+|-singleturn|p1a: Pyroar|Protect
+|move|p2a: Dragonite|Stomping Tantrum|p1a: Pyroar
+|-activate|p1a: Pyroar|move: Protect
+|move|p2b: Empoleon|Icy Wind|p1a: Pyroar|[spread] p1b
+|-activate|p1a: Pyroar|move: Protect
+|-resisted|p1b: Ninetales|1
+|-damage|p1b: Ninetales|32/100
+|-unboost|p1b: Ninetales|spe|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Empoleon|63/100|[from] item: Leftovers
+|-damage|p2a: Dragonite|60/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1784924185
+|move|p2a: Dragonite|Extreme Speed|p1b: Ninetales
+|-damage|p1b: Ninetales|10/100
+|move|p1a: Pyroar|Heat Wave|p2a: Dragonite|[spread] p2a,p2b
+|-resisted|p2a: Dragonite|1
+|-damage|p2a: Dragonite|23/100 brn
+|-damage|p2b: Empoleon|0 fnt
+|faint|p2b: Empoleon
+|move|p1b: Ninetales|Heat Wave|p2a: Dragonite
+|-resisted|p2a: Dragonite|1
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1784924196
+|switch|p2a: Raichu|Raichu, L50, M|12/100 brn
+|switch|p2b: Gardevoir|Gardevoir, L50, F|100/100
+|-ability|p2b: Gardevoir|Fire Mane|Trace|[from] ability: Trace|[of] p1a: Pyroar
+|turn|8
+|
+|t:|1784924210
+|switch|p1b: Mimikyu|Mimikyu-Busted, L50, M|6/100
+|detailschange|p2b: Gardevoir|Gardevoir-Mega, L50, F
+|-mega|p2b: Gardevoir|Gardevoir|Gardevoirite
+|move|p1a: Pyroar|Protect|p1a: Pyroar
+|-singleturn|p1a: Pyroar|Protect
+|move|p2a: Raichu|Fake Out|p1a: Pyroar
+|-activate|p1a: Pyroar|move: Protect
+|move|p2b: Gardevoir|Hyper Voice|p1a: Pyroar|[spread] p1b
+|-activate|p1a: Pyroar|move: Protect
+|-damage|p1b: Mimikyu|0 fnt
+|faint|p1b: Mimikyu
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Raichu|6/100 brn|[from] brn
+|upkeep
+|
+|t:|1784924226
+|switch|p1b: Vileplume|Vileplume, L50, M, shiny|89/100 par
+|turn|9
+|
+|t:|1784924240
+|move|p2a: Raichu|Helping Hand|p2b: Gardevoir
+|-singleturn|p2b: Gardevoir|Helping Hand|[of] p2a: Raichu
+|move|p1a: Pyroar|Heat Wave|p2b: Gardevoir|[spread] p2a,p2b
+|-damage|p2a: Raichu|0 fnt
+|-damage|p2b: Gardevoir|20/100y
+|faint|p2a: Raichu
+|move|p2b: Gardevoir|Psychic|p1a: Pyroar
+|-damage|p1a: Pyroar|0 fnt
+|faint|p1a: Pyroar
+|move|p1b: Vileplume|Sludge Bomb|p2b: Gardevoir
+|-supereffective|p2b: Gardevoir|1
+|-damage|p2b: Gardevoir|0 fnt
+|faint|p2b: Gardevoir
+|
+|win|iamflorete
+|raw|iamflorete's rating: 1038 → 1071(+33 for winning)
+|raw|redjaguar's rating: 1027 → 1013(-14 for losing)
+|l|☆iamflorete
+|player|p1|

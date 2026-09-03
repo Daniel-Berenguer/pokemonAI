@@ -1,0 +1,182 @@
+|j|☆raccan
+|j|☆Wolferus
+|html|raccanWolferus    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785028249
+|gametype|doubles
+|player|p1|raccan|hilbert|
+|player|p2|Wolferus|grimsley|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Meganium, L50, F, shiny|
+|poke|p1|Sableye, L50, M, shiny|
+|poke|p1|Noivern, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Golurk, L50, shiny|
+|poke|p1|Goodra-Hisui, L50, F|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Zoroark-Hisui, L50, F, shiny|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Toxapex, L50, F|
+|poke|p2|Armarouge, L50, F|
+|poke|p2|Hydreigon, L50, M|
+|teampreview|4
+|showteam|p1|Meganium||Meganiumite|Overgrow|Protect,SolarBeam,WeatherBall,DazzlingGleam|Timid||F|||50|]Sableye||Sablenite|Prankster|Reflect,LightScreen,Quash,FakeOut|Sassy||M|||50|]Noivern||WhiteHerb|Frisk|DarkPulse,Protect,DracoMeteor,Uturn|Timid||M|||50|]Basculegion||ChoiceScarf|Adaptability|AquaJet,LastRespects,FlipTurn,WaveCrash|Adamant||M|||50|]Golurk||Golurkite|NoGuard|Poltergeist,DynamicPunch,Protect,KnockOff|Adamant|||||50|]Goodra-Hisui||Leftovers|ShellArmor|DragonPulse,IceBeam,FlashCannon,LifeDew|Bold||F|||50|
+|showteam|p2|Garchomp||Garchompite|RoughSkin|SwordsDance,Earthquake,Protect,RockSlide|Jolly||M|||50|]Zoroark-Hisui||FocusSash|Illusion|ShadowBall,HyperVoice,WillOWisp,Protect|Timid||F|||50|]Ninetales-Alola||LightClay|SnowWarning|AuroraVeil,FreezeDry,Encore,Moonblast|Timid||M|||50|]Toxapex||Leftovers|Regenerator|BanefulBunker,Haze,WideGuard,Recover|Impish||F|||50|]Armarouge||LifeOrb|FlashFire|HeatWave,AuraSphere,Protect,Psychic|Modest||F|||50|]Hydreigon||ExpertBelt|Levitate|DarkPulse,EarthPower,DracoMeteor,FireBlast|Timid||M|||50|
+|
+|t:|1785028274
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Noivern|Noivern, L50, M|100/100
+|switch|p1b: Sableye|Sableye, L50, M, shiny|100/100
+|switch|p2a: Kurama-Snow|Ninetales-Alola, L50, M|100/100
+|switch|p2b: Hydranoid|Hydreigon, L50, M|100/100
+|-item|p2a: Kurama-Snow|Light Clay|[from] ability: Frisk|[of] p1a: Noivern
+|-item|p2b: Hydranoid|Focus Sash|[from] ability: Frisk|[of] p1a: Noivern
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Kurama-Snow
+|turn|1
+|
+|t:|1785028303
+|move|p2b: Hydranoid|Protect|p2b: Hydranoid
+|-singleturn|p2b: Hydranoid|Protect
+|move|p1b: Sableye|Fake Out|p2a: Kurama-Snow
+|-damage|p2a: Kurama-Snow|92/100
+|move|p1a: Noivern|Draco Meteor|p2b: Hydranoid
+|-activate|p2b: Hydranoid|move: Protect
+|cant|p2a: Kurama-Snow|flinch
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1785028332
+|move|p1b: Sableye|Light Screen|p1b: Sableye
+|-sidestart|p1: raccan|move: Light Screen
+|move|p1a: Noivern|Draco Meteor|p2b: Hydranoid
+|-enditem|p2b: Hydranoid|Focus Sash
+|-damage|p2b: Hydranoid|1/100
+|-unboost|p1a: Noivern|spa|2
+|replace|p2b: Sindel|Zoroark-Hisui, L50, F, shiny
+|-end|p2b: Sindel|Illusion
+|-enditem|p1a: Noivern|White Herb
+|-clearnegativeboost|p1a: Noivern|[silent]
+|move|p2b: Sindel|Shadow Ball|p1b: Sableye
+|-damage|p1b: Sableye|66/100
+|move|p2a: Kurama-Snow|Freeze-Dry|p1a: Noivern
+|-supereffective|p1a: Noivern|2
+|-damage|p1a: Noivern|11/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1785028391
+|move|p2b: Sindel|Protect|p2b: Sindel
+|-singleturn|p2b: Sindel|Protect
+|move|p1b: Sableye|Reflect|p1b: Sableye
+|-sidestart|p1: raccan|Reflect
+|move|p1a: Noivern|Dark Pulse|p2b: Sindel
+|-activate|p2b: Sindel|move: Protect
+|move|p2a: Kurama-Snow|Moonblast|p1b: Sableye
+|-supereffective|p1b: Sableye|1
+|-damage|p1b: Sableye|10/100
+|-unboost|p1b: Sableye|spa|1
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1785028428
+|move|p1b: Sableye|Quash|p2b: Sindel
+|-activate|p2b: Sindel|move: Quash
+|move|p1a: Noivern|Dark Pulse|p2b: Sindel
+|-supereffective|p2b: Sindel|1
+|-damage|p2b: Sindel|0 fnt
+|faint|p2b: Sindel
+|move|p2a: Kurama-Snow|Aurora Veil|p2a: Kurama-Snow
+|-sidestart|p2: Wolferus|move: Aurora Veil
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1785028437
+|switch|p2b: Anna|Armarouge, L50, F|100/100
+|turn|5
+|
+|t:|1785028480
+|move|p2b: Anna|Protect|p2b: Anna
+|-singleturn|p2b: Anna|Protect
+|move|p1b: Sableye|Quash|p2a: Kurama-Snow
+|-activate|p2a: Kurama-Snow|move: Quash
+|move|p1a: Noivern|Dark Pulse|p2b: Anna
+|-activate|p2b: Anna|move: Protect
+|move|p2a: Kurama-Snow|Moonblast|p1a: Noivern
+|-supereffective|p1a: Noivern|1
+|-damage|p1a: Noivern|0 fnt
+|faint|p1a: Noivern
+|
+|-weather|none
+|upkeep
+|
+|t:|1785028494
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|turn|6
+|
+|t:|1785028529
+|switch|p2b: Hydranoid|Hydreigon, L50, M|100/100
+|move|p1b: Sableye|Quash|p2a: Kurama-Snow
+|-activate|p2a: Kurama-Snow|move: Quash
+|move|p1a: Basculegion|Last Respects|p2b: Hydranoid
+|-resisted|p2b: Hydranoid|1
+|-damage|p2b: Hydranoid|75/100
+|move|p2a: Kurama-Snow|Freeze-Dry|p1a: Basculegion
+|-supereffective|p1a: Basculegion|1
+|-crit|p1a: Basculegion
+|-damage|p1a: Basculegion|14/100
+|
+|-sideend|p1: raccan|move: Light Screen
+|upkeep
+|turn|7
+|
+|t:|1785028554
+|move|p1b: Sableye|Light Screen|p1b: Sableye
+|-sidestart|p1: raccan|move: Light Screen
+|move|p1a: Basculegion|Last Respects|p2a: Kurama-Snow
+|-damage|p2a: Kurama-Snow|16/100
+|move|p2a: Kurama-Snow|Moonblast|p1b: Sableye
+|-supereffective|p1b: Sableye|1
+|-damage|p1b: Sableye|0 fnt
+|faint|p1b: Sableye
+|move|p2b: Hydranoid|Dark Pulse|p1a: Basculegion
+|-supereffective|p1a: Basculegion|1
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|-sideend|p1: raccan|Reflect
+|upkeep
+|
+|t:|1785028567
+|switch|p1b: Meganium|Meganium, L50, F, shiny|100/100
+|turn|8
+|
+|t:|1785028579
+|detailschange|p1b: Meganium|Meganium-Mega, L50, F, shiny
+|-mega|p1b: Meganium|Meganium|Meganiumite
+|move|p2a: Kurama-Snow|Freeze-Dry|p1b: Meganium
+|-supereffective|p1b: Meganium|1
+|-damage|p1b: Meganium|61/100
+|move|p2b: Hydranoid|Fire Blast|p1b: Meganium
+|-supereffective|p1b: Meganium|1
+|-damage|p1b: Meganium|0 fnt
+|faint|p1b: Meganium
+|
+|win|Wolferus
+||raccan is ready for game 3.
+||Wolferus is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆Wolferus
+|player|p2|

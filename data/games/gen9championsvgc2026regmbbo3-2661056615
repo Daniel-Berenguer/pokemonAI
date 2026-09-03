@@ -1,0 +1,357 @@
+|j|☆Gus_0Z
+|j|☆airslashesfolante
+|html|Gus_0Zairslashesfolante    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1786068292
+|gametype|doubles
+|player|p1|Gus_0Z|volo|
+|player|p2|airslashesfolante|roxie-masters|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Goodra-Hisui, L50, M|
+|poke|p1|Sableye, L50, F|
+|poke|p1|Meganium, L50, M|
+|poke|p1|Vivillon, L50, M|
+|poke|p1|Aurorus, L50, F|
+|poke|p1|Quaquaval, L50, M|
+|poke|p2|Chimecho, L50, F|
+|poke|p2|Altaria, L50, F|
+|poke|p2|Sableye, L50, M|
+|poke|p2|Heliolisk, L50, M|
+|poke|p2|Quaquaval, L50, M|
+|poke|p2|Mr. Rime, L50, F|
+|teampreview|4
+|showteam|p1|Goodra-Hisui||Leftovers|ShellArmor|Curse,IronHead,DragonClaw,Protect|Sassy||M|||50|]Sableye||LightClay|Prankster|Reflect,LightScreen,FakeOut,FoulPlay|Impish||F|||50|]Meganium||Meganiumite|Overgrow|SolarBeam,WeatherBall,DazzlingGleam,Protect|Timid||M|||50|]Vivillon||FocusSash|CompoundEyes|Hurricane,RagePowder,SleepPowder,Protect|Timid||M|||50|]Aurorus||NeverMeltIce|Refrigerate|HyperVoice,HyperBeam,Protect,AncientPower|Modest||F|||50|]Quaquaval||LifeOrb|Moxie|AquaStep,CloseCombat,Detect,FlipTurn|Jolly||M|||50|
+|showteam|p2|Chimecho||Chimechite|Levitate|CalmMind,Recover,Psyshock,FlashCannon|Bold||F|||50|]Altaria||SitrusBerry|CloudNine|WillOWisp,Tailwind,Acrobatics,Protect|Impish||F|||50|]Sableye||LightClay|Prankster|SkillSwap,Reflect,LightScreen,FoulPlay|Bold||M|||50|]Heliolisk||ChoiceScarf|DrySkin|HyperVoice,VoltSwitch,Electroweb,Thunderbolt|Timid||M|||50|]Quaquaval||LifeOrb|Moxie|AquaStep,CloseCombat,TripleAxel,Protect|Jolly||M|||50|]Mr. Rime||NeverMeltIce|ScreenCleaner|FakeOut,FreezeDry,Taunt,Protect|Modest||F|||50|
+|
+|t:|1786068362
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sableye|Sableye, L50, F|100/100
+|switch|p1b: Meganium|Meganium, L50, M|100/100
+|switch|p2a: Altaria|Altaria, L50, F|100/100
+|switch|p2b: Mr. Rime|Mr. Rime, L50, F|100/100
+|-ability|p2a: Altaria|Cloud Nine
+|turn|1
+|
+|t:|1786068404
+|switch|p1b: Goodra|Goodra-Hisui, L50, M|100/100
+|move|p2b: Mr. Rime|Fake Out|p1b: Goodra
+|-resisted|p1b: Goodra|1
+|-damage|p1b: Goodra|96/100
+|move|p1a: Sableye|Fake Out|p2a: Altaria
+|-damage|p2a: Altaria|92/100
+|cant|p2a: Altaria|flinch
+|
+|-heal|p1b: Goodra|100/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|j| GustaEiras
+|
+|t:|1786068446
+|switch|p1a: Vivillon|Vivillon, L50, M|100/100
+|move|p1b: Goodra|Protect|p1b: Goodra
+|-singleturn|p1b: Goodra|Protect
+|move|p2b: Mr. Rime|Taunt|p1b: Goodra
+|-activate|p1b: Goodra|move: Protect
+|move|p2a: Altaria|Will-O-Wisp|p1b: Goodra
+|-activate|p1b: Goodra|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1786068463
+|move|p1a: Vivillon|Sleep Powder|p2a: Altaria
+|-status|p2a: Altaria|slp|[from] move: Sleep Powder
+|move|p2b: Mr. Rime|Taunt|p1a: Vivillon
+|-start|p1a: Vivillon|move: Taunt
+|cant|p2a: Altaria|slp
+|move|p1b: Goodra|Iron Head|p2b: Mr. Rime
+|-supereffective|p2b: Mr. Rime|1
+|-damage|p2b: Mr. Rime|37/100
+|
+|upkeep
+|turn|4
+|
+|t:|1786068484
+|move|p1a: Vivillon|Hurricane|p2b: Mr. Rime
+|-damage|p2b: Mr. Rime|0 fnt
+|faint|p2b: Mr. Rime
+|cant|p2a: Altaria|slp
+|move|p1b: Goodra|Curse|p1b: Goodra
+|-unboost|p1b: Goodra|spe|1
+|-boost|p1b: Goodra|atk|1
+|-boost|p1b: Goodra|def|1
+|
+|upkeep
+|
+|t:|1786068490
+|switch|p2b: Chimecho|Chimecho, L50, F|100/100
+|turn|5
+|
+|t:|1786068530
+|detailschange|p2b: Chimecho|Chimecho-Mega, L50, F
+|-mega|p2b: Chimecho|Chimecho|Chimechite
+|move|p1a: Vivillon|Hurricane|p2a: Altaria
+|-damage|p2a: Altaria|58/100 slp
+|-curestatus|p2a: Altaria|slp|[msg]
+|move|p2a: Altaria|Tailwind|p2a: Altaria
+|-sidestart|p2: airslashesfolante|move: Tailwind
+|move|p2b: Chimecho|Calm Mind|p2b: Chimecho
+|-boost|p2b: Chimecho|spa|1
+|-boost|p2b: Chimecho|spd|1
+|move|p1b: Goodra|Curse|p1b: Goodra
+|-unboost|p1b: Goodra|spe|1
+|-boost|p1b: Goodra|atk|1
+|-boost|p1b: Goodra|def|1
+|
+|upkeep
+|turn|6
+|c| GustaEiras|x1 das lendas
+|
+|t:|1786068601
+|move|p1b: Goodra|Protect|p1b: Goodra
+|-singleturn|p1b: Goodra|Protect
+|move|p2a: Altaria|Will-O-Wisp|p1b: Goodra
+|-activate|p1b: Goodra|move: Protect
+|move|p2b: Chimecho|Flash Cannon|p1a: Vivillon
+|-damage|p1a: Vivillon|6/100
+|move|p1a: Vivillon|Hurricane|p2a: Altaria
+|-damage|p2a: Altaria|25/100
+|-enditem|p2a: Altaria|Sitrus Berry|[eat]
+|-heal|p2a: Altaria|49/100|[from] item: Sitrus Berry
+|
+|-end|p1a: Vivillon|move: Taunt
+|upkeep
+|turn|7
+|
+|t:|1786068635
+|move|p2a: Altaria|Protect|p2a: Altaria
+|-singleturn|p2a: Altaria|Protect
+|move|p1b: Goodra|Protect|p1b: Goodra
+|-singleturn|p1b: Goodra|Protect
+|move|p2b: Chimecho|Flash Cannon|p1a: Vivillon
+|-damage|p1a: Vivillon|0 fnt
+|faint|p1a: Vivillon
+|
+|upkeep
+|
+|t:|1786068644
+|switch|p1a: Sableye|Sableye, L50, F|100/100
+|turn|8
+|
+|t:|1786068653
+|move|p1a: Sableye|Fake Out|p2a: Altaria
+|-damage|p2a: Altaria|42/100
+|cant|p2a: Altaria|flinch
+|move|p2b: Chimecho|Calm Mind|p2b: Chimecho
+|-boost|p2b: Chimecho|spa|1
+|-boost|p2b: Chimecho|spd|1
+|move|p1b: Goodra|Dragon Claw|p2a: Altaria
+|-supereffective|p2a: Altaria|1
+|-damage|p2a: Altaria|0 fnt
+|faint|p2a: Altaria
+|
+|-sideend|p2: airslashesfolante|move: Tailwind
+|upkeep
+|
+|t:|1786068656
+|switch|p2a: Quaquaval|Quaquaval, L50, M|100/100
+|turn|9
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by Gus_0Z)
+|
+|t:|1786068684
+|move|p2a: Quaquaval|Protect|p2a: Quaquaval
+|-singleturn|p2a: Quaquaval|Protect
+|move|p1b: Goodra|Protect|p1b: Goodra
+|-singleturn|p1b: Goodra|Protect
+|move|p1a: Sableye|Reflect|p1a: Sableye
+|-sidestart|p1: Gus_0Z|Reflect
+|move|p2b: Chimecho|Flash Cannon|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|upkeep
+|
+|t:|1786068694
+|switch|p1a: Meganium|Meganium, L50, M|100/100
+|turn|10
+|
+|t:|1786068703
+|detailschange|p1a: Meganium|Meganium-Mega, L50, M
+|-mega|p1a: Meganium|Meganium|Meganiumite
+|move|p2a: Quaquaval|Close Combat|p1b: Goodra
+|-supereffective|p1b: Goodra|1
+|-damage|p1b: Goodra|52/100
+|-unboost|p2a: Quaquaval|def|1
+|-unboost|p2a: Quaquaval|spd|1
+|-damage|p2a: Quaquaval|90/100|[from] item: Life Orb
+|move|p1a: Meganium|Solar Beam||[still]
+|-prepare|p1a: Meganium|Solar Beam
+|-activate|p1a: Meganium|ability: Mega Sol
+|-anim|p1a: Meganium|Solar Beam|p2a: Quaquaval
+|-supereffective|p2a: Quaquaval|1
+|-damage|p2a: Quaquaval|0 fnt
+|faint|p2a: Quaquaval
+|move|p2b: Chimecho|Flash Cannon|p1a: Meganium
+|-supereffective|p1a: Meganium|1
+|-damage|p1a: Meganium|0 fnt
+|faint|p1a: Meganium
+|move|p1b: Goodra|Dragon Claw|p2b: Chimecho
+|-resisted|p2b: Chimecho|1
+|-damage|p2b: Chimecho|82/100
+|
+|-heal|p1b: Goodra|58/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|c|☆Gus_0Z|MDS
+|c|☆Gus_0Z|18
+|inactive|Gus_0Z has 30 seconds left.
+|c| GustaEiras|KKKKKKKK
+|c|☆airslashesfolante|um de nós tem recover
+|c|☆airslashesfolante|o outro leftovers
+|
+|t:|1786068737
+|move|p2b: Chimecho|Calm Mind|p2b: Chimecho
+|-boost|p2b: Chimecho|spa|1
+|-boost|p2b: Chimecho|spd|1
+|move|p1b: Goodra|Dragon Claw|p2b: Chimecho
+|-resisted|p2b: Chimecho|1
+|-damage|p2b: Chimecho|62/100
+|
+|-heal|p1b: Goodra|64/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1786068744
+|move|p2b: Chimecho|Recover|p2b: Chimecho
+|-heal|p2b: Chimecho|100/100
+|move|p1b: Goodra|Dragon Claw|p2b: Chimecho
+|-resisted|p2b: Chimecho|1
+|-damage|p2b: Chimecho|83/100
+|
+|-heal|p1b: Goodra|70/100|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1786068750
+|move|p2b: Chimecho|Flash Cannon|p1b: Goodra
+|-resisted|p1b: Goodra|1
+|-damage|p1b: Goodra|48/100
+|move|p1b: Goodra|Curse|p1b: Goodra
+|-unboost|p1b: Goodra|spe|1
+|-boost|p1b: Goodra|atk|1
+|-boost|p1b: Goodra|def|1
+|
+|-heal|p1b: Goodra|54/100|[from] item: Leftovers
+|upkeep
+|turn|14
+|c| GustaEiras|flincha com iron head
+|c| GustaEiras|duvido
+|c| GustaEiras|a n
+|c| GustaEiras|tu é mais lento
+|inactive|Gus_0Z has 30 seconds left.
+|
+|t:|1786068780
+|move|p2b: Chimecho|Calm Mind|p2b: Chimecho
+|-boost|p2b: Chimecho|spa|1
+|-boost|p2b: Chimecho|spd|1
+|move|p1b: Goodra|Dragon Claw|p2b: Chimecho
+|-resisted|p2b: Chimecho|1
+|-damage|p2b: Chimecho|60/100
+|
+|-heal|p1b: Goodra|60/100|[from] item: Leftovers
+|upkeep
+|turn|15
+|c| GustaEiras|esqueci desse detalhe
+|
+|t:|1786068787
+|move|p2b: Chimecho|Calm Mind|p2b: Chimecho
+|-boost|p2b: Chimecho|spa|1
+|-boost|p2b: Chimecho|spd|1
+|move|p1b: Goodra|Curse|p1b: Goodra
+|-unboost|p1b: Goodra|spe|1
+|-boost|p1b: Goodra|atk|1
+|-boost|p1b: Goodra|def|1
+|
+|-heal|p1b: Goodra|66/100|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1786068794
+|move|p2b: Chimecho|Calm Mind|p2b: Chimecho
+|-boost|p2b: Chimecho|spa|1
+|-boost|p2b: Chimecho|spd|1
+|move|p1b: Goodra|Curse|p1b: Goodra
+|-unboost|p1b: Goodra|spe|1
+|-boost|p1b: Goodra|atk|1
+|-boost|p1b: Goodra|def|1
+|
+|-heal|p1b: Goodra|72/100|[from] item: Leftovers
+|-sideend|p1: Gus_0Z|Reflect
+|upkeep
+|turn|17
+|
+|t:|1786068801
+|move|p2b: Chimecho|Flash Cannon|p1b: Goodra
+|-resisted|p1b: Goodra|1
+|-damage|p1b: Goodra|32/100
+|move|p1b: Goodra|Dragon Claw|p2b: Chimecho
+|-resisted|p2b: Chimecho|1
+|-damage|p2b: Chimecho|30/100
+|
+|-heal|p1b: Goodra|38/100|[from] item: Leftovers
+|upkeep
+|turn|18
+|
+|t:|1786068809
+|move|p2b: Chimecho|Recover|p2b: Chimecho
+|-heal|p2b: Chimecho|80/100
+|move|p1b: Goodra|Dragon Claw|p2b: Chimecho
+|-resisted|p2b: Chimecho|1
+|-damage|p2b: Chimecho|50/100g
+|
+|-heal|p1b: Goodra|44/100|[from] item: Leftovers
+|upkeep
+|turn|19
+|
+|t:|1786068813
+|move|p2b: Chimecho|Flash Cannon|p1b: Goodra
+|-resisted|p1b: Goodra|1
+|-damage|p1b: Goodra|5/100
+|move|p1b: Goodra|Dragon Claw|p2b: Chimecho
+|-resisted|p2b: Chimecho|1
+|-damage|p2b: Chimecho|18/100
+|
+|-heal|p1b: Goodra|11/100|[from] item: Leftovers
+|upkeep
+|turn|20
+|
+|t:|1786068818
+|move|p1b: Goodra|Protect|p1b: Goodra
+|-singleturn|p1b: Goodra|Protect
+|move|p2b: Chimecho|Flash Cannon|p1b: Goodra
+|-activate|p1b: Goodra|move: Protect
+|
+|-heal|p1b: Goodra|17/100|[from] item: Leftovers
+|upkeep
+|turn|21
+|c|☆Gus_0Z|Ganhou
+|c|☆Gus_0Z|Joguei que nem uma
+|c|☆Gus_0Z|E achei que dava mais dano
+|c|☆airslashesfolante|rahhhh
+|
+|t:|1786068840
+|move|p1b: Goodra|Protect||[still]
+|-fail|p1b: Goodra
+|move|p2b: Chimecho|Flash Cannon|p1b: Goodra
+|-resisted|p1b: Goodra|1
+|-damage|p1b: Goodra|0 fnt
+|faint|p1b: Goodra
+|
+|win|airslashesfolante
+|l| GustaEiras

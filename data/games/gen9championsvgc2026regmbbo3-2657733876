@@ -1,0 +1,224 @@
+|j|☆kimu dora
+|j|☆BreathingBag
+|html|kimu doraBreathingBag    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785509341
+|gametype|doubles
+|player|p1|kimu dora|102|
+|player|p2|BreathingBag|170|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Glimmora, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Kommo-o, L50, M|
+|poke|p2|Staraptor, L50, M|
+|poke|p2|Milotic, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Sinistcha, L50|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,SolarBeam,Protect|Modest||M|||50|]Glimmora||Glimmoranite|ToxicDebris|SludgeBomb,PowerGem,EarthPower,SpikyShield|Modest||M|||50|]Whimsicott||FocusSash|Prankster|Moonblast,Tailwind,Encore,Protect|Timid||F|||50|]Ninetales-Alola||NeverMeltIce|SnowWarning|Blizzard,FreezeDry,Disable,Protect|Timid||F|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,IronHead,Protect|Adamant||M|||50|]Kommo-o||LifeOrb|Overcoat|ClangingScales,AuraSphere,VacuumWave,Protect|Modest||M|||50|
+|showteam|p2|Staraptor||Staraptite|Intimidate|BraveBird,CloseCombat,Tailwind,Protect|Jolly||M|||50|]Milotic||SitrusBerry|Competitive|Scald,IceBeam,IcyWind,Recover|Modest||F|||50|]Tyranitar||Tyranitarite|SandStream|RockSlide,KnockOff,LowKick,Protect|Adamant||M|||50|]Gholdengo||LifeOrb|GoodasGold|ShadowBall,MakeItRain,NastyPlot,Protect|Modest|||||50|]Excadrill||FocusSash|SandRush|HighHorsepower,IronHead,RockSlide,Protect|Adamant||M|||50|]Sinistcha||ColburBerry|Hospitality|MatchaGotcha,RagePowder,TrickRoom,Protect|Bold|||||50|
+|
+|t:|1785509390
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, M|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2a: Staraptor|Staraptor, L50, M|100/100
+|switch|p2b: Tyranitar|Tyranitar, L50, M|100/100
+|-ability|p2a: Staraptor|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|-unboost|p1b: Whimsicott|atk|1
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|turn|1
+|
+|t:|1785509453
+|move|p1a: Charizard|Protect|p1a: Charizard
+|-singleturn|p1a: Charizard|Protect
+|move|p2b: Tyranitar|Protect|p2b: Tyranitar
+|-singleturn|p2b: Tyranitar|Protect
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: kimu dora|move: Tailwind
+|move|p2a: Staraptor|Tailwind|p2a: Staraptor
+|-sidestart|p2: BreathingBag|move: Tailwind
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Whimsicott|94/100|[from] Sandstorm
+|-damage|p2a: Staraptor|93/100|[from] Sandstorm
+|-damage|p1a: Charizard|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1785509514
+|switch|p1a: Kommo-o|Kommo-o, L50, M|100/100
+|move|p1b: Whimsicott|Encore|p2a: Staraptor
+|-start|p2a: Staraptor|Encore
+|move|p2a: Staraptor|Tailwind||[still]
+|-fail|p2a: Staraptor
+|move|p2b: Tyranitar|Rock Slide|p1b: Whimsicott|[spread] p1b
+|-miss|p2b: Tyranitar|p1a: Kommo-o
+|-damage|p1b: Whimsicott|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Whimsicott|43/100|[from] Sandstorm
+|-damage|p2a: Staraptor|87/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1785509560
+|switch|p2a: Milotic|Milotic, L50, F|100/100
+|move|p2b: Tyranitar|Protect|p2b: Tyranitar
+|-singleturn|p2b: Tyranitar|Protect
+|move|p1b: Whimsicott|Moonblast|p2a: Milotic
+|-damage|p2a: Milotic|74/100
+|move|p1a: Kommo-o|Aura Sphere|p2b: Tyranitar
+|-activate|p2b: Tyranitar|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Whimsicott|37/100|[from] Sandstorm
+|-damage|p2a: Milotic|68/100|[from] Sandstorm
+|upkeep
+|turn|4
+|
+|t:|1785509584
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|move|p1b: Whimsicott|Protect|p1b: Whimsicott
+|-singleturn|p1b: Whimsicott|Protect
+|move|p1a: Kommo-o|Clanging Scales|p2a: Milotic|[spread] p2a,p2b
+|-resisted|p2b: Gholdengo|1
+|-damage|p2a: Milotic|33/100
+|-damage|p2b: Gholdengo|74/100
+|-enditem|p2a: Milotic|Sitrus Berry|[eat]
+|-heal|p2a: Milotic|57/100|[from] item: Sitrus Berry
+|-unboost|p1a: Kommo-o|def|1
+|-damage|p1a: Kommo-o|90/100|[from] item: Life Orb
+|move|p2a: Milotic|Icy Wind|p1b: Whimsicott|[spread] p1a
+|-activate|p1b: Whimsicott|move: Protect
+|-supereffective|p1a: Kommo-o|1
+|-damage|p1a: Kommo-o|64/100
+|-unboost|p1a: Kommo-o|spe|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Whimsicott|31/100|[from] Sandstorm
+|-damage|p2a: Milotic|51/100|[from] Sandstorm
+|-sideend|p2: BreathingBag|move: Tailwind
+|-sideend|p1: kimu dora|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1785509642
+|switch|p1a: Charizard|Charizard, L50, M|94/100
+|move|p1b: Whimsicott|Encore|p2a: Milotic
+|-start|p2a: Milotic|Encore
+|move|p2b: Gholdengo|Shadow Ball|p1a: Charizard
+|-damage|p1a: Charizard|31/100
+|-unboost|p1a: Charizard|spd|1
+|-damage|p2b: Gholdengo|65/100|[from] item: Life Orb
+|move|p2a: Milotic|Icy Wind|p1b: Whimsicott|[spread] p1a
+|-miss|p2a: Milotic|p1b: Whimsicott
+|-damage|p1a: Charizard|9/100
+|-unboost|p1a: Charizard|spe|1
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1785509665
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: kimu dora|move: Tailwind
+|move|p1a: Charizard|Heat Wave|p2a: Tyranitar|[spread] p2a,p2b
+|-resisted|p2a: Tyranitar|1
+|-supereffective|p2b: Gholdengo|1
+|-damage|p2a: Tyranitar|69/100
+|-damage|p2b: Gholdengo|0 fnt
+|faint|p2b: Gholdengo
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785509682
+|switch|p2b: Staraptor|Staraptor, L50, M|87/100
+|-ability|p2b: Staraptor|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|-unboost|p1b: Whimsicott|atk|1
+|turn|7
+|
+|t:|1785509707
+|switch|p2b: Milotic|Milotic, L50, F|51/100
+|detailschange|p2a: Tyranitar|Tyranitar-Mega, L50, M
+|-mega|p2a: Tyranitar|Tyranitar|Tyranitarite
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1b: Whimsicott|Moonblast|p2b: Milotic
+|-damage|p2b: Milotic|26/100
+|move|p1a: Charizard|Heat Wave|p2a: Tyranitar|[spread] p2a,p2b
+|-resisted|p2a: Tyranitar|1
+|-resisted|p2b: Milotic|1
+|-damage|p2a: Tyranitar|58/100
+|-damage|p2b: Milotic|11/100
+|move|p2a: Tyranitar|Rock Slide|p1a: Charizard|[spread] p1b
+|-miss|p2a: Tyranitar|p1a: Charizard
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|3/100|[from] Sandstorm
+|-damage|p2b: Milotic|5/100|[from] Sandstorm
+|upkeep
+|
+|t:|1785509725
+|switch|p1b: Kommo-o|Kommo-o, L50, M|64/100
+|turn|8
+|
+|t:|1785509744
+|move|p2a: Tyranitar|Protect|p2a: Tyranitar
+|-singleturn|p2a: Tyranitar|Protect
+|move|p1b: Kommo-o|Aura Sphere|p2a: Tyranitar
+|-activate|p2a: Tyranitar|move: Protect
+|move|p1a: Charizard|Weather Ball|p2b: Milotic
+|-damage|p2b: Milotic|0 fnt
+|faint|p2b: Milotic
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Charizard|0 fnt|[from] Sandstorm
+|faint|p1a: Charizard
+|upkeep
+|
+|t:|1785509756
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|switch|p2b: Staraptor|Staraptor, L50, M|87/100
+|-ability|p2b: Staraptor|Intimidate|boost
+|-unboost|p1a: Kingambit|atk|1
+|-ability|p1a: Kingambit|Defiant|boost
+|-boost|p1a: Kingambit|atk|2
+|-unboost|p1b: Kommo-o|atk|1
+|turn|9
+|
+|t:|1785509804
+|move|p2a: Tyranitar|Protect||[still]
+|-fail|p2a: Tyranitar
+|move|p1b: Kommo-o|Aura Sphere|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar|2
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|-damage|p1b: Kommo-o|54/100|[from] item: Life Orb
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Staraptor
+|-damage|p2b: Staraptor|0 fnt
+|faint|p2b: Staraptor
+|
+|win|kimu dora
+|l|☆BreathingBag
+|player|p2|

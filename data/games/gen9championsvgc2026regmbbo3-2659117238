@@ -1,0 +1,124 @@
+|j|☆florb morb
+|j|☆testdigi
+|html|florb morbtestdigi    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1785759727
+|gametype|doubles
+|player|p1|florb morb|benga|1121
+|player|p2|testdigi|266|1178
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Staraptor, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Mawile, L50, M|
+|poke|p1|Vileplume, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Milotic, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Staraptor, L50, F|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Farigiraf||ColburBerry|ArmorTail|TrickRoom,Protect,HelpingHand,Thunderbolt|Modest||M|||50|]Torkoal||Charcoal|Drought|Eruption,HeatWave,EarthPower,Protect|Quiet||M|||50|]Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,FinalGambit,Protect|Jolly||F|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,DarkestLariat,PartingShot|Adamant||F|||50|]Mawile||Mawilite|HyperCutter|RockSlide,PlayRough,SuckerPunch,Protect|Brave||M|||50|]Vileplume||FocusSash|Chlorophyll|SludgeBomb,SolarBeam,AfterYou,Protect|Timid||M|||50|
+|showteam|p2|Tyranitar||Tyranitarite|SandStream|RockSlide,LowKick,KnockOff,Protect|Jolly||M|||50|]Excadrill||FocusSash|SandRush|RockSlide,IronHead,HighHorsepower,Protect|Jolly||M|||50|]Milotic||SitrusBerry|Competitive|Scald,IceBeam,IcyWind,Protect|Calm||M|||50|]Sinistcha||ColburBerry|Hospitality|MatchaGotcha,RagePowder,ShadowBall,TrickRoom|Relaxed|||||50|]Staraptor||Staraptite|Intimidate|BraveBird,Tailwind,CloseCombat,Protect|Jolly||F|||50|]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect|Modest|||||50|
+|
+|t:|1785759809
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|switch|p1b: Vileplume|Vileplume, L50, M|100/100
+|switch|p2a: Milotic|Milotic, L50, M|100/100
+|switch|p2b: Sinistcha|Sinistcha, L50|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|1
+|
+|t:|1785759850
+|switch|p2b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|switch|p1a: Staraptor|Staraptor, L50, F|100/100
+|-ability|p1a: Staraptor|Intimidate|boost
+|-unboost|p2a: Milotic|atk|1
+|-ability|p2a: Milotic|Competitive|boost
+|-boost|p2a: Milotic|spa|2
+|-unboost|p2b: Tyranitar|atk|1
+|move|p1b: Vileplume|Solar Beam||[still]
+|-prepare|p1b: Vileplume|Solar Beam
+|move|p2a: Milotic|Scald|p1a: Staraptor
+|-damage|p1a: Staraptor|15/100
+|-status|p1a: Staraptor|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Staraptor|8/100 brn|[from] Sandstorm
+|-damage|p1b: Vileplume|94/100|[from] Sandstorm
+|-damage|p2a: Milotic|94/100|[from] Sandstorm
+|-damage|p1a: Staraptor|2/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1785759876
+|detailschange|p1a: Staraptor|Staraptor-Mega, L50, F
+|-mega|p1a: Staraptor|Staraptor|Staraptite
+|move|p2b: Tyranitar|Protect|p2b: Tyranitar
+|-singleturn|p2b: Tyranitar|Protect
+|move|p2a: Milotic|Protect|p2a: Milotic
+|-singleturn|p2a: Milotic|Protect
+|move|p1a: Staraptor|Close Combat|p2b: Tyranitar
+|-activate|p2b: Tyranitar|move: Protect
+|move|p1b: Vileplume|Solar Beam|p2a: Milotic|[from] lockedmove
+|-activate|p2a: Milotic|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Staraptor|0 fnt|[from] Sandstorm
+|-damage|p1b: Vileplume|88/100|[from] Sandstorm
+|-damage|p2a: Milotic|88/100|[from] Sandstorm
+|faint|p1a: Staraptor
+|upkeep
+|
+|t:|1785759885
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|3
+|
+|t:|1785759899
+|detailschange|p2b: Tyranitar|Tyranitar-Mega, L50, M
+|-mega|p2b: Tyranitar|Tyranitar|Tyranitarite
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|move|p2b: Tyranitar|Rock Slide|p1a: Torkoal|[spread] p1a,p1b
+|-supereffective|p1a: Torkoal|1
+|-damage|p1a: Torkoal|68/100
+|-damage|p1b: Vileplume|57/100
+|move|p1b: Vileplume|Solar Beam||[still]
+|-prepare|p1b: Vileplume|Solar Beam
+|move|p2a: Milotic|Ice Beam|p1b: Vileplume
+|-supereffective|p1b: Vileplume|1
+|-damage|p1b: Vileplume|0 fnt
+|faint|p1b: Vileplume
+|move|p1a: Torkoal|Earth Power|p2b: Tyranitar
+|-supereffective|p2b: Tyranitar|1
+|-damage|p2b: Tyranitar|71/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|82/100|[from] Sandstorm
+|-damage|p1a: Torkoal|62/100|[from] Sandstorm
+|upkeep
+|
+|t:|1785759903
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Milotic|atk|1
+|-ability|p2a: Milotic|Competitive|boost
+|-boost|p2a: Milotic|spa|2
+|-unboost|p2b: Tyranitar|atk|1
+|turn|4
+|-message|florb morb forfeited.
+|raw|florb morb's rating: 1121 → 1100(-21 for losing)
+|raw|testdigi's rating: 1178 → 1199(+21 for winning)
+|
+|win|testdigi

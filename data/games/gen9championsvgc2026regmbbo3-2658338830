@@ -1,0 +1,146 @@
+|j|☆tt/el.glenko
+|j|☆tmmc01
+|html|tt/el.glenkotmmc01    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785614740
+|gametype|doubles
+|player|p1|tt/el.glenko|101|
+|player|p2|tmmc01|artist|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Crabominable, L50, M|
+|poke|p1|Oranguru, L50, M|
+|poke|p2|Aerodactyl, L50, M|
+|poke|p2|Sylveon, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Charizard, L50, F, shiny|
+|poke|p2|Garchomp, L50, F|
+|teampreview|4
+|showteam|p1|Kingambit||ChopleBerry|Defiant|KowtowCleave,Protect,LowKick,SuckerPunch|Brave||F|||50|]Pelipper||FocusSash|Drizzle|WeatherBall,Hurricane,WideGuard,Tailwind|Modest||M|||50|]Archaludon||Leftovers|Stamina|Protect,ElectroShot,DragonPulse,FlashCannon|Modest||F|||50|]Sylveon||FairyFeather|Pixilate|Detect,HyperVoice,QuickAttack,DrainingKiss|Quiet||M|||50|]Crabominable||Crabominite|IronFist|DrainPunch,IceHammer,MachPunch,Protect|Brave||M|||50|]Oranguru||MentalHerb|InnerFocus|Psychic,TrickRoom,Instruct,Protect|Sassy||M|||50|
+|showteam|p2|Aerodactyl||FocusSash|Unnerve|RockSlide,Tailwind,WideGuard,Sandstorm|Jolly||M|||50|]Sylveon||LifeOrb|Pixilate|HyperVoice,HyperBeam,QuickAttack,Detect|Modest||F|||50|]Incineroar||PasshoBerry|Intimidate|FlareBlitz,DarkestLariat,FakeOut,PartingShot|Adamant||F|||50|]Farigiraf||TwistedSpoon|ArmorTail|Thunderbolt,TwinBeam,TrickRoom,HelpingHand|Quiet||M|||50|]Charizard||CharizarditeY|Blaze|Protect,HeatWave,SolarBeam,WeatherBall|Modest||F|||50|]Garchomp||Garchompite|RoughSkin|Protect,Earthquake,StompingTantrum,DragonClaw|Adamant||F|||50|
+|
+|t:|1785614785
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Oranguru|Oranguru, L50, M|100/100
+|switch|p1b: Sylveon|Sylveon, L50, M|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, L50, M|100/100
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|-ability|p2a: Aerodactyl|Unnerve
+|turn|1
+|
+|t:|1785614802
+|detailschange|p2b: Garchomp|Garchomp-Mega, L50, F
+|-mega|p2b: Garchomp|Garchomp|Garchompite
+|move|p2a: Aerodactyl|Rock Slide|p1b: Sylveon|[spread] p1a,p1b
+|-damage|p1a: Oranguru|71/100
+|-damage|p1b: Sylveon|72/100
+|move|p2b: Garchomp|Earthquake|p1a: Oranguru|[spread] p1a,p1b
+|-immune|p2a: Aerodactyl
+|-damage|p1a: Oranguru|15/100
+|-damage|p1b: Sylveon|19/100
+|move|p1b: Sylveon|Hyper Voice|p2b: Garchomp|[spread] p2a,p2b
+|-supereffective|p2b: Garchomp|1
+|-damage|p2a: Aerodactyl|36/100
+|-damage|p2b: Garchomp|10/100
+|move|p1a: Oranguru|Trick Room|p1a: Oranguru
+|-fieldstart|move: Trick Room|[of] p1a: Oranguru
+|
+|upkeep
+|turn|2
+|
+|t:|1785614835
+|move|p2a: Aerodactyl|Wide Guard|p2a: Aerodactyl
+|-singleturn|p2a: Aerodactyl|Wide Guard
+|move|p1b: Sylveon|Draining Kiss|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|0 fnt
+|-heal|p1b: Sylveon|41/100|[from] drain|[of] p2a: Aerodactyl
+|faint|p2a: Aerodactyl
+|move|p1a: Oranguru|Psychic|p2b: Garchomp
+|-damage|p2b: Garchomp|0 fnt
+|faint|p2b: Garchomp
+|
+|upkeep
+|
+|t:|1785614842
+|switch|p2b: Sylveon|Sylveon, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-fail|p1a: Oranguru|unboost|Attack|[from] ability: Inner Focus|[of] p1a: Oranguru
+|-unboost|p1b: Sylveon|atk|1
+|turn|3
+|
+|t:|1785614881
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|move|p2a: Incineroar|Fake Out|p1b: Sylveon
+|-damage|p1b: Sylveon|28/100
+|cant|p1b: Sylveon|flinch
+|move|p2b: Sylveon|Hyper Voice|p1a: Pelipper|[spread] p1a,p1b
+|-damage|p1a: Pelipper|35/100
+|-damage|p1b: Sylveon|0 fnt
+|faint|p1b: Sylveon
+|-damage|p2b: Sylveon|90/100|[from] item: Life Orb
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1785614895
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100
+|turn|4
+|
+|t:|1785614923
+|move|p1b: Kingambit|Protect|p1b: Kingambit
+|-singleturn|p1b: Kingambit|Protect
+|move|p1a: Pelipper|Weather Ball|p2b: Sylveon
+|-damage|p2b: Sylveon|36/100
+|move|p2a: Incineroar|Darkest Lariat|p1a: Pelipper
+|-damage|p1a: Pelipper|0 fnt
+|faint|p1a: Pelipper
+|move|p2b: Sylveon|Hyper Beam|p1b: Kingambit
+|-activate|p1b: Kingambit|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1785614933
+|switch|p1a: Oranguru|Oranguru, L50, M|15/100
+|turn|5
+|
+|t:|1785614952
+|move|p2b: Sylveon|Detect|p2b: Sylveon
+|-singleturn|p2b: Sylveon|Protect
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Incineroar
+|-resisted|p2a: Incineroar|1
+|-damage|p2a: Incineroar|74/100
+|move|p1a: Oranguru|Psychic|p2b: Sylveon
+|-activate|p2b: Sylveon|move: Protect
+|move|p2a: Incineroar|Darkest Lariat|p1a: Oranguru
+|-supereffective|p1a: Oranguru|1
+|-damage|p1a: Oranguru|0 fnt
+|faint|p1a: Oranguru
+|
+|-weather|RainDance|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|-message|tt/el.glenko forfeited.
+|
+|win|tmmc01
+|c|☆tt/el.glenko|ggs
+|c|☆tmmc01|Gg
+|l|☆tmmc01
+|player|p2|
+|l|☆tt/el.glenko
+|player|p1|
+|j|☆tmmc01
+|player|p2|tmmc01|artist|

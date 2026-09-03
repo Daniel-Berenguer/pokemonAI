@@ -1,0 +1,155 @@
+|j|☆hadecat
+|j|☆meattea
+|html|hadecatmeattea    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1785842189
+|gametype|doubles
+|player|p1|hadecat|265|
+|player|p2|meattea|scientist-gen4|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Heliolisk, L50, F|
+|poke|p1|Simisear, L50, M|
+|poke|p1|Zoroark, L50, F|
+|poke|p1|Steelix, L50, M|
+|poke|p1|Emboar, L50, M|
+|poke|p1|Simisage, L50, F|
+|poke|p2|Abomasnow, L50, M|
+|poke|p2|Simipour, L50, M|
+|poke|p2|Slowbro, L50, F|
+|poke|p2|Runerigus, L50, F|
+|poke|p2|Emboar, L50, M|
+|poke|p2|Mr. Rime, L50, F|
+|teampreview|4
+|showteam|p1|Heliolisk||FocusSash|SolarPower|Electroweb,VoltSwitch,Discharge,GrassKnot|Timid||F|||50|]Simisear||HeatRock|Blaze|SunnyDay,Protect,HeatWave,FakeOut|Hasty||M|||50|]Zoroark||ChoiceScarf|Illusion|HyperVoice,Flamethrower,Psychic,DarkPulse|Timid||F|||50|]Steelix||Leftovers|RockHead|BodyPress,RockSlide,HighHorsepower,Protect|Impish||M|||50|]Emboar||Emboarite|Reckless|FlareBlitz,FlameCharge,CloseCombat,BulkUp|Jolly||M|||50|]Simisage||MiracleSeed|Overgrow|FakeOut,SolarBlade,RockSlide,Taunt|Jolly||F|||50|
+|showteam|p2|Abomasnow||Abomasite|SnowWarning|AuroraVeil,WoodHammer,IceShard,IceHammer|Brave||M|||50|]Simipour||MysticWater|Torrent|FakeOut,Blizzard,Scald,Protect|Quiet||M|||50|]Slowbro||Leftovers|Regenerator|Scald,TrickRoom,SlackOff,Flamethrower|Sassy||F|||50|]Runerigus||MentalHerb|WanderingSpirit|TrickRoom,Earthquake,Poltergeist,WillOWisp|Brave||F|||50|]Emboar||Emboarite|Reckless|WildCharge,BulkUp,FlareBlitz,DrainPunch|Brave||M|||50|]Mr. Rime||LifeOrb|IceBody|FakeOut,Blizzard,Psychic,Protect|Quiet||F|||50|
+|
+|t:|1785842283
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Simisage|Simisage, L50, F|100/100
+|switch|p1b: Simisear|Simisear, L50, M|100/100
+|switch|p2a: Runerigus|Runerigus, L50, F|100/100
+|switch|p2b: Slowbro|Slowbro, L50, F|100/100
+|turn|1
+|
+|t:|1785842313
+|switch|p2b: Emboar|Emboar, L50, M|100/100
+|move|p1b: Simisear|Fake Out|p2b: Emboar
+|-damage|p2b: Emboar|90/100
+|move|p1a: Simisage|Taunt|p2a: Runerigus
+|-start|p2a: Runerigus|move: Taunt
+|-enditem|p2a: Runerigus|Mental Herb
+|-end|p2a: Runerigus|move: Taunt
+|move|p2a: Runerigus|Trick Room|p2a: Runerigus
+|-fieldstart|move: Trick Room|[of] p2a: Runerigus
+|
+|upkeep
+|turn|2
+|
+|t:|1785842375
+|move|p2a: Runerigus|Poltergeist|p1b: Simisear|[miss]
+|-miss|p2a: Runerigus|p1b: Simisear
+|move|p2b: Emboar|Bulk Up|p2b: Emboar
+|-boost|p2b: Emboar|atk|1
+|-boost|p2b: Emboar|def|1
+|move|p1a: Simisage|Solar Blade||[still]
+|-prepare|p1a: Simisage|Solar Blade
+|move|p1b: Simisear|Sunny Day|p1b: Simisear
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1785842406
+|move|p1b: Simisear|Protect|p1b: Simisear
+|-singleturn|p1b: Simisear|Protect
+|move|p2a: Runerigus|Poltergeist|p1b: Simisear
+|-activate|p1b: Simisear|move: Protect
+|move|p2b: Emboar|Flare Blitz|p1a: Simisage
+|-supereffective|p1a: Simisage|1
+|-damage|p1a: Simisage|0 fnt
+|faint|p1a: Simisage
+|-damage|p2b: Emboar|63/100|[from] Recoil
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785842425
+|switch|p1a: Steelix|Steelix, L50, M|100/100
+|turn|4
+|
+|t:|1785842460
+|switch|p2a: Slowbro|Slowbro, L50, F|100/100
+|switch|p1b: Heliolisk|Heliolisk, L50, F|100/100
+|detailschange|p2b: Emboar|Emboar-Mega, L50, M
+|-mega|p2b: Emboar|Emboar|Emboarite
+|-ability|p2b: Emboar|Mold Breaker
+|move|p1a: Steelix|Body Press|p2b: Emboar
+|-damage|p2b: Emboar|36/100
+|move|p2b: Emboar|Drain Punch|p1a: Steelix
+|-supereffective|p1a: Steelix|1
+|-damage|p1a: Steelix|36/100
+|-heal|p2b: Emboar|67/100|[from] drain|[of] p1a: Steelix
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Heliolisk|87/100|[from] ability: Solar Power|[of] p1b: Heliolisk
+|-heal|p1a: Steelix|42/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1785842496
+|move|p2a: Slowbro|Scald|p1b: Heliolisk
+|-damage|p1b: Heliolisk|67/100
+|-status|p1b: Heliolisk|brn
+|move|p1a: Steelix|High Horsepower|p2b: Emboar
+|-supereffective|p2b: Emboar|1
+|-damage|p2b: Emboar|30/100
+|move|p2b: Emboar|Drain Punch|p1b: Heliolisk
+|-supereffective|p1b: Heliolisk|1
+|-damage|p1b: Heliolisk|0 fnt
+|-heal|p2b: Emboar|56/100|[from] drain|[of] p1b: Heliolisk
+|faint|p1b: Heliolisk
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Steelix|48/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1785842505
+|switch|p1b: Simisear|Simisear, L50, M|100/100
+|turn|6
+|
+|t:|1785842532
+|move|p1b: Simisear|Fake Out|p2a: Slowbro
+|-damage|p2a: Slowbro|90/100
+|move|p2b: Emboar|Drain Punch|p1a: Steelix
+|-supereffective|p1a: Steelix|1
+|-damage|p1a: Steelix|0 fnt
+|-heal|p2b: Emboar|80/100|[from] drain|[of] p1a: Steelix
+|faint|p1a: Steelix
+|cant|p2a: Slowbro|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Slowbro|96/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1785842546
+|move|p1b: Simisear|Heat Wave|p2b: Emboar|[spread] p2a
+|-miss|p1b: Simisear|p2b: Emboar
+|-resisted|p2a: Slowbro|1
+|-damage|p2a: Slowbro|82/100
+|move|p2b: Emboar|Drain Punch|p1b: Simisear
+|-damage|p1b: Simisear|0 fnt
+|-heal|p2b: Emboar|100/100|[from] drain|[of] p1b: Simisear
+|faint|p1b: Simisear
+|
+|win|meattea
+|c|☆hadecat|гг
+|c|☆meattea|uu

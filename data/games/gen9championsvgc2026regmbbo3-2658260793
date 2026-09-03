@@ -1,0 +1,245 @@
+|j|☆natsukookie
+|j|☆lanagram
+|html|natsukookielanagram    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785602676
+|gametype|doubles
+|player|p1|natsukookie|102|1099
+|player|p2|lanagram|102|1151
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Hatterene, L50, F|
+|poke|p1|Oranguru, L50, F|
+|poke|p1|Mawile, L50, M|
+|poke|p1|Kangaskhan, L50, F|
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p2|Gengar, L50, M|
+|poke|p2|Altaria, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Hawlucha, L50, F|
+|poke|p2|Snorlax, L50, F|
+|poke|p2|Clefable, L50, F|
+|teampreview|4
+|showteam|p1|Hatterene||LifeOrb|MagicBounce|Protect,Psychic,TrickRoom,DazzlingGleam|Quiet||F|||50|]Oranguru||MentalHerb|InnerFocus|Protect,Instruct,Psychic,TrickRoom|Bold||F|||50|]Mawile||Mawilite|HyperCutter|SuckerPunch,PlayRough,Protect,IronHead|Brave||M|||50|]Kangaskhan||SilkScarf|Scrappy|LastResort,FakeOut|Brave||F|||50|]Venusaur||FocusSash|Chlorophyll|LeafStorm,SludgeBomb,SleepPowder,Protect|Modest||F|||50|]Torkoal||Charcoal|Drought|Eruption,Protect,EarthPower,HeatWave|Quiet||F|||50|
+|showteam|p2|Gengar||Gengarite|CursedBody|ShadowBall,SludgeBomb,PerishSong,Protect|Timid||M|||50|]Altaria||YacheBerry|CloudNine|FireSpin,CottonGuard,Roost,Haze|Serious||F|||50|]Grimmsnarl||RoseliBerry|Prankster|FakeOut,Superpower,PartingShot,MistyTerrain|Adamant||M|||50|]Hawlucha||Hawluchanite|Limber|CrossChop,Entrainment,DualWingbeat,Protect|Jolly||F|||50|]Snorlax||Leftovers|ThickFat|Fissure,Stockpile,BodyPress,Protect|Bold||F|||50|]Clefable||SitrusBerry|Unaware|FollowMe,DazzlingGleam,LifeDew,Gravity|Bold||F|||50|
+|
+|t:|1785602727
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Venusaur|Venusaur, L50, F|100/100
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|switch|p2a: Hawlucha|Hawlucha, L50, F|100/100
+|switch|p2b: Snorlax|Snorlax, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|1
+|
+|t:|1785602752
+|switch|p2b: Altaria|Altaria, L50, F|100/100
+|-ability|p2b: Altaria|Cloud Nine
+|detailschange|p2a: Hawlucha|Hawlucha-Mega, L50, F
+|-mega|p2a: Hawlucha|Hawlucha|Hawluchanite
+|move|p2a: Hawlucha|Dual Wingbeat|p1a: Venusaur
+|-supereffective|p1a: Venusaur|1
+|-damage|p1a: Venusaur|53/100
+|-supereffective|p1a: Venusaur|1
+|-damage|p1a: Venusaur|3/100
+|-hitcount|p1a: Venusaur|2
+|move|p1a: Venusaur|Sleep Powder|p2a: Hawlucha
+|-status|p2a: Hawlucha|slp|[from] move: Sleep Powder
+|move|p1b: Torkoal|Eruption|p2a: Hawlucha|[spread] p2a,p2b
+|-resisted|p2b: Altaria|1
+|-damage|p2a: Hawlucha|39/100 slp
+|-damage|p2b: Altaria|77/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1785602788
+|switch|p2a: Snorlax|Snorlax, L50, F|100/100
+|move|p1a: Venusaur|Sleep Powder|p2b: Altaria
+|-status|p2b: Altaria|slp|[from] move: Sleep Powder
+|cant|p2b: Altaria|slp
+|move|p1b: Torkoal|Heat Wave|p2a: Snorlax|[spread] p2a,p2b
+|-resisted|p2b: Altaria|1
+|-damage|p2a: Snorlax|88/100
+|-damage|p2b: Altaria|63/100 slp
+|-status|p2a: Snorlax|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Snorlax|94/100 brn|[from] item: Leftovers
+|-damage|p2a: Snorlax|88/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1785602810
+|move|p1a: Venusaur|Sleep Powder||[still]
+|-fail|p1a: Venusaur
+|cant|p2b: Altaria|slp
+|move|p2a: Snorlax|Stockpile|p2a: Snorlax
+|-start|p2a: Snorlax|stockpile1
+|-boost|p2a: Snorlax|def|1
+|-boost|p2a: Snorlax|spd|1
+|move|p1b: Torkoal|Eruption|p2a: Snorlax|[spread] p2a,p2b
+|-resisted|p2b: Altaria|1
+|-damage|p2a: Snorlax|77/100 brn
+|-damage|p2b: Altaria|41/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Snorlax|83/100 brn|[from] item: Leftovers
+|-damage|p2a: Snorlax|77/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1785602843
+|move|p1a: Venusaur|Sleep Powder||[still]
+|-fail|p1a: Venusaur
+|-curestatus|p2b: Altaria|slp|[msg]
+|move|p2b: Altaria|Roost|p2b: Altaria
+|-heal|p2b: Altaria|91/100
+|-singleturn|p2b: Altaria|move: Roost
+|move|p2a: Snorlax|Stockpile|p2a: Snorlax
+|-start|p2a: Snorlax|stockpile2
+|-boost|p2a: Snorlax|def|1
+|-boost|p2a: Snorlax|spd|1
+|move|p1b: Torkoal|Eruption|p2b: Altaria|[spread] p2a,p2b
+|-resisted|p2b: Altaria|1
+|-damage|p2a: Snorlax|68/100 brn
+|-damage|p2b: Altaria|69/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Snorlax|74/100 brn|[from] item: Leftovers
+|-damage|p2a: Snorlax|68/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1785602870
+|move|p1b: Torkoal|Protect|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Protect
+|move|p1a: Venusaur|Sleep Powder|p2b: Altaria
+|-status|p2b: Altaria|slp|[from] move: Sleep Powder
+|cant|p2b: Altaria|slp
+|move|p2a: Snorlax|Body Press|p1b: Torkoal
+|-activate|p1b: Torkoal|move: Protect
+|
+|-weather|none
+|-heal|p2a: Snorlax|74/100 brn|[from] item: Leftovers
+|-damage|p2a: Snorlax|68/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1785602938
+|switch|p1b: Mawile|Mawile, L50, M|100/100
+|move|p1a: Venusaur|Sludge Bomb|p2b: Altaria
+|-damage|p2b: Altaria|35/100 slp
+|-curestatus|p2b: Altaria|slp|[msg]
+|move|p2b: Altaria|Fire Spin|p1b: Mawile
+|-supereffective|p1b: Mawile|1
+|-damage|p1b: Mawile|77/100
+|-activate|p1b: Mawile|move: Fire Spin|[of] p2b: Altaria
+|move|p2a: Snorlax|Stockpile|p2a: Snorlax
+|-start|p2a: Snorlax|stockpile3
+|-boost|p2a: Snorlax|def|1
+|-boost|p2a: Snorlax|spd|1
+|
+|-heal|p2a: Snorlax|74/100 brn|[from] item: Leftovers
+|-damage|p2a: Snorlax|68/100 brn|[from] brn
+|-damage|p1b: Mawile|64/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|7
+|
+|t:|1785602995
+|detailschange|p1b: Mawile|Mawile-Mega, L50, M
+|-mega|p1b: Mawile|Mawile|Mawilite
+|move|p1a: Venusaur|Sludge Bomb|p2b: Altaria
+|-damage|p2b: Altaria|1/100
+|move|p2b: Altaria|Fire Spin|p1b: Mawile
+|-supereffective|p1b: Mawile|1
+|-damage|p1b: Mawile|48/100
+|move|p1b: Mawile|Iron Head|p2a: Snorlax
+|-damage|p2a: Snorlax|47/100 brn
+|move|p2a: Snorlax|Body Press|p1a: Venusaur
+|-resisted|p1a: Venusaur|1
+|-damage|p1a: Venusaur|0 fnt
+|faint|p1a: Venusaur
+|
+|-heal|p2a: Snorlax|53/100 brn|[from] item: Leftovers
+|-damage|p2a: Snorlax|47/100 brn|[from] brn
+|-damage|p1b: Mawile|36/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|
+|t:|1785603014
+|switch|p1a: Hatterene|Hatterene, L50, F|100/100
+|turn|8
+|
+|t:|1785603052
+|move|p2a: Snorlax|Protect|p2a: Snorlax
+|-singleturn|p2a: Snorlax|Protect
+|move|p1a: Hatterene|Protect|p1a: Hatterene
+|-singleturn|p1a: Hatterene|Protect
+|move|p2b: Altaria|Fire Spin|p1b: Mawile
+|-supereffective|p1b: Mawile|1
+|-damage|p1b: Mawile|21/100
+|move|p1b: Mawile|Play Rough|p2a: Snorlax
+|-activate|p2a: Snorlax|move: Protect
+|
+|-heal|p2a: Snorlax|53/100 brn|[from] item: Leftovers
+|-damage|p2a: Snorlax|47/100 brn|[from] brn
+|-damage|p1b: Mawile|8/100|[from] move: Fire Spin|[partiallytrapped]
+|upkeep
+|turn|9
+|
+|t:|1785603075
+|move|p2b: Altaria|Fire Spin|p1b: Mawile|[miss]
+|-miss|p2b: Altaria|p1b: Mawile
+|move|p1b: Mawile|Play Rough|p2a: Snorlax
+|-damage|p2a: Snorlax|26/100 brn
+|move|p2a: Snorlax|Body Press|p1b: Mawile
+|-damage|p1b: Mawile|0 fnt
+|faint|p1b: Mawile
+|move|p1a: Hatterene|Trick Room|p1a: Hatterene
+|-fieldstart|move: Trick Room|[of] p1a: Hatterene
+|
+|-heal|p2a: Snorlax|32/100 brn|[from] item: Leftovers
+|-damage|p2a: Snorlax|26/100 brn|[from] brn
+|upkeep
+|
+|t:|1785603087
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|10
+|
+|t:|1785603098
+|move|p1b: Torkoal|Eruption|p2b: Altaria|[spread] p2a,p2b
+|-resisted|p2b: Altaria|1
+|-damage|p2a: Snorlax|19/100 brn
+|-damage|p2b: Altaria|0 fnt
+|faint|p2b: Altaria
+|move|p1a: Hatterene|Dazzling Gleam|p2a: Snorlax
+|-damage|p2a: Snorlax|4/100 brn
+|-damage|p1a: Hatterene|90/100|[from] item: Life Orb
+|move|p2a: Snorlax|Body Press|p1b: Torkoal
+|-damage|p1b: Torkoal|81/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Snorlax|10/100 brn|[from] item: Leftovers
+|-damage|p2a: Snorlax|4/100 brn|[from] brn
+|upkeep
+|
+|t:|1785603102
+|switch|p2b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|11
+|-message|lanagram forfeited.
+|
+|win|natsukookie
+|l|☆lanagram
+|player|p2|
+||lanagram is ready for game 3.
+||natsukookie is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

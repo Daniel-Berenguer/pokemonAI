@@ -1,0 +1,250 @@
+|j|☆testdigi
+|j|☆strye
+|html|testdigistrye    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1785330548
+|gametype|doubles
+|player|p1|testdigi|169|1110
+|player|p2|strye|169|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Excadrill, L50, F|
+|poke|p1|Gholdengo, L50, shiny|
+|poke|p1|Milotic, L50, F, shiny|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Staraptor, L50, F|
+|poke|p2|Mawile, L50, F, shiny|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Maushold, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Incineroar, L50, F, shiny|
+|teampreview|4
+|showteam|p1|Tyranitar||Tyranitarite|SandStream|RockSlide,KnockOff,LowKick,Protect|Jolly||F|||50|]Excadrill||FocusSash|SandRush|HighHorsepower,IronHead,RockSlide,Protect|Adamant||F|||50|]Gholdengo||LifeOrb|GoodasGold|ShadowBall,MakeItRain,NastyPlot,Protect|Modest|||||50|]Milotic||SitrusBerry|Competitive|Scald,IceBeam,IcyWind,Protect|Calm||F|||50|]Sinistcha||ColburBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,Protect|Bold|||||50|]Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,Tailwind,Protect|Jolly||F|||50|
+|showteam|p2|Mawile||Mawilite|HyperCutter|PlayRough,SuckerPunch,RockSlide,BrickBreak|Brave||F|||50|]Charizard||CharizarditeY|SolarPower|HeatWave,WeatherBall,SolarBeam,Protect|Modest||F|||50|]Maushold||WideLens|Technician|PopulationBomb,Feint,FollowMe,Protect|Jolly|||||50|]Farigiraf||ColburBerry|ArmorTail|TwinBeam,Thunderbolt,HelpingHand,TrickRoom|Relaxed||M|||50|]Basculegion||LifeOrb|Adaptability|WaveCrash,AquaJet,LastRespects,Protect|Adamant||M|||50|]Incineroar||Charcoal|Intimidate|FakeOut,FlareBlitz,DarkestLariat,PartingShot|Brave||F|||50|
+|
+|t:|1785330571
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Tyranitar|Tyranitar, L50, F|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50, shiny|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1b: Gholdengo|atk|1
+|turn|1
+|
+|t:|1785330595
+|move|p2a: Incineroar|Fake Out|p1a: Tyranitar
+|-resisted|p1a: Tyranitar|1
+|-damage|p1a: Tyranitar|94/100
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|cant|p1a: Tyranitar|flinch
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Farigiraf|93/100|[from] Sandstorm
+|-damage|p2a: Incineroar|94/100|[from] Sandstorm
+|upkeep
+|turn|2
+|
+|t:|1785330616
+|switch|p2b: Mawile|Mawile, L50, F, shiny|100/100
+|move|p1b: Gholdengo|Protect|p1b: Gholdengo
+|-singleturn|p1b: Gholdengo|Protect
+|move|p2a: Incineroar|Flare Blitz|p1b: Gholdengo
+|-activate|p1b: Gholdengo|move: Protect
+|move|p1a: Tyranitar|Rock Slide|p2a: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar|1
+|-resisted|p2b: Mawile|1
+|-damage|p2a: Incineroar|58/100
+|-damage|p2b: Mawile|87/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Incineroar|52/100|[from] Sandstorm
+|upkeep
+|turn|3
+|
+|t:|1785330658
+|switch|p1b: Milotic|Milotic, L50, F, shiny|100/100
+|detailschange|p2b: Mawile|Mawile-Mega, L50, F, shiny
+|-mega|p2b: Mawile|Mawile|Mawilite
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2b: Mawile|Play Rough|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Protect
+|move|p2a: Incineroar|Flare Blitz|p1b: Milotic
+|-resisted|p1b: Milotic|1
+|-damage|p1b: Milotic|64/100
+|-status|p1b: Milotic|brn
+|-damage|p2a: Incineroar|40/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Incineroar|34/100|[from] Sandstorm
+|-damage|p1b: Milotic|58/100 brn|[from] Sandstorm
+|-damage|p1b: Milotic|52/100 brn|[from] brn
+|upkeep
+|turn|4
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by strye)
+|
+|t:|1785330691
+|switch|p1a: Sinistcha|Sinistcha, L50|100/100
+|-heal|p1b: Milotic|77/100 brn|[from] ability: Hospitality|[of] p1a: Sinistcha
+|move|p2b: Mawile|Play Rough|p1a: Sinistcha
+|-damage|p1a: Sinistcha|32/100
+|move|p2a: Incineroar|Darkest Lariat|p1b: Milotic
+|-crit|p1b: Milotic
+|-damage|p1b: Milotic|17/100 brn
+|-enditem|p1b: Milotic|Sitrus Berry|[eat]
+|-heal|p1b: Milotic|42/100 brn|[from] item: Sitrus Berry
+|move|p1b: Milotic|Scald|p2a: Incineroar
+|-supereffective|p2a: Incineroar|1
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sinistcha|26/100|[from] Sandstorm
+|-damage|p1b: Milotic|36/100 brn|[from] Sandstorm
+|-damage|p1b: Milotic|30/100 brn|[from] brn
+|upkeep
+|
+|t:|1785330706
+|switch|p2a: Farigiraf|Farigiraf, L50, M|93/100
+|turn|5
+|inactive|testdigi has 30 seconds left.
+|
+|t:|1785330737
+|switch|p1b: Gholdengo|Gholdengo, L50, shiny|100/100
+|move|p2a: Farigiraf|Helping Hand|p2b: Mawile
+|-singleturn|p2b: Mawile|Helping Hand|[of] p2a: Farigiraf
+|move|p1a: Sinistcha|Protect|p1a: Sinistcha
+|-singleturn|p1a: Sinistcha|Protect
+|move|p2b: Mawile|Rock Slide|p1a: Sinistcha|[spread] p1b
+|-activate|p1a: Sinistcha|move: Protect
+|-resisted|p1b: Gholdengo|1
+|-damage|p1b: Gholdengo|68/100
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1785330760
+|move|p2b: Mawile|Sucker Punch||[still]
+|-fail|p2b: Mawile
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|move|p1a: Sinistcha|Life Dew|p1a: Sinistcha|[spread] p1a
+|-immune|p1b: Gholdengo|[from] ability: Good as Gold
+|-heal|p1a: Sinistcha|52/100
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|upkeep
+|turn|7
+|inactive|strye has 30 seconds left.
+|
+|t:|1785330786
+|move|p1a: Sinistcha|Rage Powder|p1a: Sinistcha
+|-singleturn|p1a: Sinistcha|move: Rage Powder
+|move|p2b: Mawile|Play Rough|p1a: Sinistcha
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|move|p2a: Farigiraf|Twin Beam|p1b: Gholdengo
+|-resisted|p1b: Gholdengo|1
+|-damage|p1b: Gholdengo|59/100
+|-resisted|p1b: Gholdengo|1
+|-damage|p1b: Gholdengo|50/100g
+|-hitcount|p1b: Gholdengo|2
+|move|p1b: Gholdengo|Shadow Ball|p2b: Mawile
+|-damage|p2b: Mawile|0 fnt
+|faint|p2b: Mawile
+|-damage|p1b: Gholdengo|41/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1785330799
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|switch|p1a: Tyranitar|Tyranitar, L50, F|94/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|8
+|
+|t:|1785330812
+|detailschange|p1a: Tyranitar|Tyranitar-Mega, L50, F
+|-mega|p1a: Tyranitar|Tyranitar|Tyranitarite
+|move|p2a: Farigiraf|Thunderbolt|p1b: Gholdengo
+|-damage|p1b: Gholdengo|15/100
+|move|p2b: Basculegion|Wave Crash|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar|1
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|-damage|p2b: Basculegion|72/100|[from] Recoil
+|-damage|p2b: Basculegion|62/100|[from] item: Life Orb
+|move|p1b: Gholdengo|Shadow Ball|p2b: Basculegion
+|-supereffective|p2b: Basculegion|1
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|-damage|p1b: Gholdengo|5/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Farigiraf|87/100|[from] Sandstorm
+|upkeep
+|
+|t:|1785330818
+|switch|p1a: Milotic|Milotic, L50, F, shiny|30/100 brn
+|turn|9
+|
+|t:|1785330833
+|move|p1b: Gholdengo|Protect|p1b: Gholdengo
+|-singleturn|p1b: Gholdengo|Protect
+|move|p2a: Farigiraf|Thunderbolt|p1b: Gholdengo
+|-activate|p1b: Gholdengo|move: Protect
+|move|p1a: Milotic|Scald|p2a: Farigiraf
+|-damage|p2a: Farigiraf|60/100
+|-status|p2a: Farigiraf|brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Farigiraf|54/100 brn|[from] Sandstorm
+|-damage|p1a: Milotic|24/100 brn|[from] Sandstorm
+|-damage|p2a: Farigiraf|48/100 brn|[from] brn
+|-damage|p1a: Milotic|18/100 brn|[from] brn
+|upkeep
+|turn|10
+|
+|t:|1785330846
+|move|p1b: Gholdengo|Protect||[still]
+|-fail|p1b: Gholdengo
+|move|p2a: Farigiraf|Thunderbolt|p1b: Gholdengo
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|move|p1a: Milotic|Scald|p2a: Farigiraf
+|-damage|p2a: Farigiraf|23/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Farigiraf|17/100 brn|[from] Sandstorm
+|-damage|p1a: Milotic|12/100 brn|[from] Sandstorm
+|-damage|p2a: Farigiraf|11/100 brn|[from] brn
+|-damage|p1a: Milotic|6/100 brn|[from] brn
+|-fieldend|move: Trick Room
+|upkeep
+|turn|11
+|
+|t:|1785330860
+|move|p1a: Milotic|Scald|p2a: Farigiraf
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|
+|win|testdigi
+||testdigi is ready for game 2.
+||strye is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

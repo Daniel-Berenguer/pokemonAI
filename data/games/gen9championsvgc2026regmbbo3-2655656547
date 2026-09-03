@@ -1,0 +1,243 @@
+|j|☆babydimelavelda
+|j|☆testdigi
+|html|babydimelaveldatestdigi    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785169374
+|gametype|doubles
+|player|p1|babydimelavelda|265|1172
+|player|p2|testdigi|169|1227
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Mawile, L50, F|
+|poke|p1|Raichu, L50, F|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Vivillon, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Toxapex, L50, F|
+|poke|p2|Mamoswine, L50, F|
+|poke|p2|Sylveon, L50, M|
+|poke|p2|Corviknight, L50, F|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Mawile||Mawilite|Intimidate|PlayRough,SuckerPunch,Protect,SwordsDance|Brave||F|||50|]Raichu||RaichuniteY|LightningRod|ZapCannon,FocusBlast,GrassKnot,Protect|Timid||F|||50|]Farigiraf||SitrusBerry|ArmorTail|TwinBeam,TrickRoom,HelpingHand,Thunderbolt|Modest||F|||50|]Garchomp||LifeOrb|SandVeil|Earthquake,DragonClaw,RockSlide,Protect|Jolly||M|||50|]Vivillon||FocusSash|CompoundEyes|Hurricane,Protect,SleepPowder,RagePowder|Timid||M|||50|]Torkoal||Charcoal|Drought|Eruption,EarthPower,WeatherBall,Protect|Quiet||M|||50|
+|showteam|p2|Raichu||RaichuniteY|LightningRod|ZapCannon,FocusBlast,FakeOut,Protect|Timid||M|||50|]Toxapex||Leftovers|Regenerator|Infestation,Toxic,Recover,BanefulBunker|Relaxed||F|||50|]Mamoswine||LifeOrb|Oblivious|StompingTantrum,IceShard,RockSlide,Protect|Adamant||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,QuickAttack,Yawn,Detect|Modest||M|||50|]Corviknight||OccaBerry|MirrorArmor|IronHead,BraveBird,Tailwind,Protect|Adamant||F|||50|]Basculegion||FocusSash|Adaptability|LastRespects,Liquidation,AquaJet,Protect|Jolly||M|||50|
+|
+|t:|1785169401
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Vivillon|Vivillon, L50, M|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: Raichu|Raichu, L50, M|100/100
+|switch|p2b: Sylveon|Sylveon, L50, M|100/100
+|turn|1
+|
+|t:|1785169425
+|detailschange|p2a: Raichu|Raichu-Mega-Y, L50, M
+|-mega|p2a: Raichu|Raichu|Raichunite Y
+|move|p1a: Vivillon|Rage Powder|p1a: Vivillon
+|-singleturn|p1a: Vivillon|move: Rage Powder
+|move|p2a: Raichu|Zap Cannon|p1a: Vivillon
+|-supereffective|p1a: Vivillon|1
+|-enditem|p1a: Vivillon|Focus Sash
+|-damage|p1a: Vivillon|1/100
+|-status|p1a: Vivillon|par
+|move|p2b: Sylveon|Yawn||[still]
+|-fail|p2b: Sylveon
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1785169447
+|move|p2a: Raichu|Protect|p2a: Raichu
+|-singleturn|p2a: Raichu|Protect
+|move|p1a: Vivillon|Sleep Powder|p2b: Sylveon
+|-status|p2b: Sylveon|slp|[from] move: Sleep Powder
+|move|p1b: Farigiraf|Twin Beam|p2a: Raichu
+|-activate|p2a: Raichu|move: Protect
+|cant|p2b: Sylveon|slp
+|
+|upkeep
+|turn|3
+|
+|t:|1785169464
+|move|p1a: Vivillon|Rage Powder|p1a: Vivillon
+|-singleturn|p1a: Vivillon|move: Rage Powder
+|move|p1b: Farigiraf|Twin Beam|p2b: Sylveon
+|-damage|p2b: Sylveon|87/100 slp
+|-damage|p2b: Sylveon|74/100 slp
+|-hitcount|p2b: Sylveon|2
+|cant|p2b: Sylveon|slp
+|move|p2a: Raichu|Zap Cannon|p1a: Vivillon
+|-supereffective|p1a: Vivillon|1
+|-damage|p1a: Vivillon|0 fnt
+|faint|p1a: Vivillon
+|
+|upkeep
+|
+|t:|1785169468
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|turn|4
+|
+|t:|1785169481
+|move|p1b: Farigiraf|Helping Hand|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Helping Hand|[of] p1b: Farigiraf
+|-curestatus|p2b: Sylveon|slp|[msg]
+|move|p2b: Sylveon|Detect|p2b: Sylveon
+|-singleturn|p2b: Sylveon|Protect
+|move|p2a: Raichu|Protect|p2a: Raichu
+|-singleturn|p2a: Raichu|Protect
+|move|p1a: Torkoal|Eruption|p2b: Sylveon|[spread] 
+|-activate|p2a: Raichu|move: Protect
+|-activate|p2b: Sylveon|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1785169490
+|switch|p2a: Toxapex|Toxapex, L50, F|100/100
+|move|p1b: Farigiraf|Helping Hand|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Helping Hand|[of] p1b: Farigiraf
+|move|p1a: Torkoal|Eruption|p2a: Toxapex|[spread] p2a,p2b
+|-resisted|p2a: Toxapex|1
+|-damage|p2a: Toxapex|50/100g
+|-damage|p2b: Sylveon|0 fnt
+|faint|p2b: Sylveon
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toxapex|56/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1785169498
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|turn|6
+|
+|t:|1785169520
+|move|p1a: Torkoal|Protect|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Protect
+|move|p2b: Basculegion|Liquidation|p1b: Farigiraf
+|-damage|p1b: Farigiraf|77/100
+|-unboost|p1b: Farigiraf|def|1
+|move|p2a: Toxapex|Toxic|p1a: Torkoal
+|-activate|p1a: Torkoal|move: Protect
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toxapex|61/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1785169536
+|move|p1a: Torkoal|Eruption|p2b: Basculegion|[spread] p2a,p2b
+|-resisted|p2a: Toxapex|1
+|-resisted|p2b: Basculegion|1
+|-damage|p2a: Toxapex|28/100
+|-damage|p2b: Basculegion|55/100
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|78/100
+|move|p1b: Farigiraf|Twin Beam|p2a: Toxapex
+|-supereffective|p2a: Toxapex|1
+|-damage|p2a: Toxapex|52/100
+|-supereffective|p2a: Toxapex|1
+|-damage|p2a: Toxapex|28/100
+|-hitcount|p2a: Toxapex|2
+|move|p2b: Basculegion|Liquidation|p1a: Torkoal
+|-supereffective|p1a: Torkoal|1
+|-damage|p1a: Torkoal|55/100
+|-unboost|p1a: Torkoal|def|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Toxapex|33/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1785169563
+|move|p1b: Farigiraf|Helping Hand|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Helping Hand|[of] p1b: Farigiraf
+|move|p1a: Torkoal|Weather Ball|p2b: Basculegion
+|-resisted|p2b: Basculegion|1
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|move|p2a: Toxapex|Recover|p2a: Toxapex
+|-heal|p2a: Toxapex|84/100
+|
+|-weather|none
+|-heal|p2a: Toxapex|89/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1785169568
+|switch|p2b: Raichu|Raichu-Mega-Y, L50, M|100/100
+|turn|9
+|
+|t:|1785169591
+|move|p1b: Farigiraf|Helping Hand|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Helping Hand|[of] p1b: Farigiraf
+|move|p2b: Raichu|Protect|p2b: Raichu
+|-singleturn|p2b: Raichu|Protect
+|move|p1a: Torkoal|Earth Power|p2b: Raichu
+|-activate|p2b: Raichu|move: Protect
+|move|p2a: Toxapex|Toxic|p1b: Farigiraf
+|-status|p1b: Farigiraf|tox
+|
+|-heal|p2a: Toxapex|95/100|[from] item: Leftovers
+|-damage|p1b: Farigiraf|71/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1785169607
+|move|p1b: Farigiraf|Helping Hand|p1a: Torkoal
+|-singleturn|p1a: Torkoal|Helping Hand|[of] p1b: Farigiraf
+|move|p1a: Torkoal|Earth Power|p2b: Raichu
+|-supereffective|p2b: Raichu|1
+|-damage|p2b: Raichu|0 fnt
+|faint|p2b: Raichu
+|move|p2a: Toxapex|Infestation|p1b: Farigiraf
+|-supereffective|p1b: Farigiraf|1
+|-damage|p1b: Farigiraf|65/100 tox
+|-activate|p1b: Farigiraf|move: Infestation|[of] p2a: Toxapex
+|
+|-heal|p2a: Toxapex|100/100|[from] item: Leftovers
+|-damage|p1b: Farigiraf|53/100 tox|[from] psn
+|-damage|p1b: Farigiraf|41/100 tox|[from] move: Infestation|[partiallytrapped]
+|-fieldend|move: Trick Room
+|upkeep
+|-enditem|p1b: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1b: Farigiraf|66/100 tox|[from] item: Sitrus Berry
+|turn|11
+|
+|t:|1785169616
+|move|p1b: Farigiraf|Twin Beam|p2a: Toxapex
+|-supereffective|p2a: Toxapex|1
+|-damage|p2a: Toxapex|71/100
+|-supereffective|p2a: Toxapex|1
+|-damage|p2a: Toxapex|47/100
+|-hitcount|p2a: Toxapex|2
+|move|p2a: Toxapex|Infestation|p1a: Torkoal
+|-resisted|p1a: Torkoal|1
+|-damage|p1a: Torkoal|53/100
+|-activate|p1a: Torkoal|move: Infestation|[of] p2a: Toxapex
+|move|p1a: Torkoal|Earth Power|p2a: Toxapex
+|-supereffective|p2a: Toxapex|1
+|-damage|p2a: Toxapex|8/100
+|
+|-heal|p2a: Toxapex|14/100|[from] item: Leftovers
+|-damage|p1b: Farigiraf|49/100 tox|[from] psn
+|-damage|p1b: Farigiraf|36/100 tox|[from] move: Infestation|[partiallytrapped]
+|-damage|p1a: Torkoal|41/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|12
+|-message|testdigi forfeited.
+|
+|win|babydimelavelda

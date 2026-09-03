@@ -1,0 +1,147 @@
+|j|☆glen2
+|j|☆jiggyjagga
+|html|glen2jiggyjagga    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1785158177
+|gametype|doubles
+|player|p1|glen2|265|
+|player|p2|jiggyjagga|1|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M, shiny|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Toxapex, L50, F, shiny|
+|poke|p1|Klefki, L50, F, shiny|
+|poke|p1|Aerodactyl, L50, F|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Incineroar, L50, F, shiny|
+|poke|p2|Kingambit, L50, M, shiny|
+|poke|p2|Gholdengo, L50, shiny|
+|poke|p2|Wyrdeer, L50, F, shiny|
+|poke|p2|Pikachu, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|WeatherBall,ScorchingSands,SolarBeam,Protect|Modest||M|||50|]Sneasler||WhiteHerb|Unburden|DireClaw,CloseCombat,FakeOut,Taunt|Adamant||M|||50|]Garchomp||LifeOrb|RoughSkin|Protect,DragonClaw,Earthquake,StompingTantrum|Jolly||F|||50|]Toxapex||Leftovers|Regenerator|Infestation,WideGuard,BanefulBunker,ChillingWater|Bold||F|||50|]Klefki||LightClay|Prankster|LightScreen,SunnyDay,Reflect,DazzlingGleam|Bold||F|||50|]Aerodactyl||Aerodactylite|Unnerve|Tailwind,RockSlide,DualWingbeat,WideGuard|Jolly||F|||50|
+|showteam|p2|Floette-Eternal||Floettite|FlowerVeil|LightofRuin,DazzlingGleam,Moonblast,Protect|Modest||F|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,PartingShot,FlareBlitz,HelpingHand|Adamant||F|||50|]Kingambit||ChopleBerry|Defiant|KowtowCleave,IronHead,Protect,SuckerPunch|Adamant||M|||50|]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect|Modest|||||50|]Wyrdeer||Leftovers|Intimidate|PsyshieldBash,TrickRoom,EarthPower,Protect|Sassy||F|||50|]Pikachu||FocusSash|Static|FakeOut,Nuzzle,Wish,Encore|Jolly||F|||50|
+|
+|t:|1785158216
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, M, shiny|100/100
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|switch|p2a: Floette|Floette-Eternal, L50, F|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|-unboost|p1b: Garchomp|atk|1
+|turn|1
+|
+|t:|1785158231
+|detailschange|p2a: Floette|Floette-Mega, L50, F
+|-mega|p2a: Floette|Floette|Floettite
+|-ability|p2a: Floette|Fairy Aura
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, M, shiny
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p2b: Incineroar|Fake Out|p1a: Charizard
+|-damage|p1a: Charizard|86/100
+|move|p2a: Floette|Dazzling Gleam|p1b: Garchomp|[spread] p1a
+|-activate|p1b: Garchomp|move: Protect
+|-resisted|p1a: Charizard|1
+|-damage|p1a: Charizard|65/100
+|cant|p1a: Charizard|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1785158257
+|move|p2a: Floette|Protect|p2a: Floette
+|-singleturn|p2a: Floette|Protect
+|move|p1b: Garchomp|Earthquake|p2b: Incineroar|[spread] p2b
+|-activate|p2a: Floette|move: Protect
+|-immune|p1a: Charizard
+|-supereffective|p2b: Incineroar|1
+|-crit|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|-damage|p1b: Garchomp|90/100|[from] item: Life Orb
+|move|p1a: Charizard|Scorching Sands|p2a: Floette
+|-activate|p2a: Floette|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785158265
+|switch|p2b: Pikachu|Pikachu, L50, F|100/100
+|turn|3
+|
+|t:|1785158286
+|switch|p2a: Gholdengo|Gholdengo, L50, shiny|100/100
+|move|p2b: Pikachu|Fake Out|p1a: Charizard
+|-damage|p1a: Charizard|56/100
+|move|p1b: Garchomp|Earthquake|p2b: Pikachu|[spread] p2a,p2b
+|-immune|p1a: Charizard
+|-supereffective|p2a: Gholdengo|1
+|-supereffective|p2b: Pikachu|1
+|-damage|p2a: Gholdengo|39/100
+|-enditem|p2b: Pikachu|Focus Sash
+|-damage|p2b: Pikachu|1/100
+|-damage|p1b: Garchomp|80/100|[from] item: Life Orb
+|cant|p1a: Charizard|flinch
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1785158312
+|move|p1b: Garchomp|Earthquake|p2a: Gholdengo|[spread] p2a,p2b
+|-immune|p1a: Charizard
+|-supereffective|p2a: Gholdengo|1
+|-supereffective|p2b: Pikachu|1
+|-crit|p2b: Pikachu
+|-damage|p2a: Gholdengo|0 fnt
+|-damage|p2b: Pikachu|0 fnt
+|faint|p2a: Gholdengo
+|faint|p2b: Pikachu
+|-damage|p1b: Garchomp|70/100|[from] item: Life Orb
+|move|p1a: Charizard|Weather Ball|p2: Gholdengo|[notarget]
+|-fail|p1a: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785158315
+|switch|p2a: Floette|Floette-Mega, L50, F|100/100
+|-ability|p2a: Floette|Fairy Aura
+|turn|5
+|
+|t:|1785158320
+|move|p1b: Garchomp|Earthquake|p2a: Floette|[spread] p2a
+|-immune|p1a: Charizard
+|-damage|p2a: Floette|53/100
+|-damage|p1b: Garchomp|61/100|[from] item: Life Orb
+|move|p2a: Floette|Dazzling Gleam|p1b: Garchomp|[spread] p1a,p1b
+|-resisted|p1a: Charizard|1
+|-supereffective|p1b: Garchomp|1
+|-damage|p1a: Charizard|36/100
+|-damage|p1b: Garchomp|0 fnt
+|faint|p1b: Garchomp
+|move|p1a: Charizard|Weather Ball|p2a: Floette
+|-damage|p2a: Floette|0 fnt
+|faint|p2a: Floette
+|
+|win|glen2
+||glen2 is ready for game 2.
+||jiggyjagga is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆jiggyjagga
+|player|p2|
+|j|☆jiggyjagga
+|player|p2|jiggyjagga|1|

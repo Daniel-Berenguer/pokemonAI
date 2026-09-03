@@ -1,0 +1,208 @@
+|j|☆florb morb
+|j|☆testdigi
+|html|florb morbtestdigi    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1785759160
+|gametype|doubles
+|player|p1|florb morb|benga|1121
+|player|p2|testdigi|266|1178
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Staraptor, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Mawile, L50, F|
+|poke|p1|Vileplume, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Milotic, L50, M|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Staraptor, L50, M|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Farigiraf||ColburBerry|ArmorTail|TrickRoom,Protect,HelpingHand,Thunderbolt|Modest||F|||50|]Torkoal||Charcoal|Drought|Eruption,HeatWave,EarthPower,Protect|Quiet||F|||50|]Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,FinalGambit,Protect|Jolly||F|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,DarkestLariat,PartingShot|Adamant||M|||50|]Mawile||Mawilite|HyperCutter|RockSlide,PlayRough,SuckerPunch,Protect|Brave||F|||50|]Vileplume||FocusSash|Chlorophyll|SludgeBomb,SolarBeam,AfterYou,Protect|Timid||F|||50|
+|showteam|p2|Tyranitar||Tyranitarite|SandStream|RockSlide,LowKick,KnockOff,Protect|Jolly||M|||50|]Excadrill||FocusSash|SandRush|RockSlide,IronHead,HighHorsepower,Protect|Jolly||M|||50|]Milotic||SitrusBerry|Competitive|Scald,IceBeam,IcyWind,Protect|Calm||M|||50|]Sinistcha||ColburBerry|Hospitality|MatchaGotcha,RagePowder,ShadowBall,TrickRoom|Relaxed|||||50|]Staraptor||Staraptite|Intimidate|BraveBird,Tailwind,CloseCombat,Protect|Jolly||M|||50|]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect|Modest|||||50|
+|
+|t:|1785759225
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1b: Staraptor|Staraptor, L50, F|100/100
+|switch|p2a: Milotic|Milotic, L50, M|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|-ability|p1b: Staraptor|Intimidate|boost
+|-unboost|p2a: Milotic|atk|1
+|-ability|p2a: Milotic|Competitive|boost
+|-boost|p2a: Milotic|spa|2
+|-unboost|p2b: Gholdengo|atk|1
+|turn|1
+|
+|t:|1785759240
+|move|p2a: Milotic|Protect|p2a: Milotic
+|-singleturn|p2a: Milotic|Protect
+|move|p1b: Staraptor|Final Gambit|p2a: Milotic
+|-activate|p2a: Milotic|move: Protect
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1785759264
+|move|p1a: Farigiraf|Protect|p1a: Farigiraf
+|-singleturn|p1a: Farigiraf|Protect
+|move|p2a: Milotic|Scald|p1a: Farigiraf
+|-activate|p1a: Farigiraf|move: Protect
+|move|p2b: Gholdengo|Make It Rain|p1b: Staraptor|[spread] p1b
+|-activate|p1a: Farigiraf|move: Protect
+|-damage|p1b: Staraptor|0 fnt
+|-unboost|p2b: Gholdengo|spa|2
+|faint|p1b: Staraptor
+|-damage|p2b: Gholdengo|90/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1785759274
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|3
+|
+|t:|1785759292
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1b: Torkoal|Eruption|p2a: Milotic|[spread] p2a
+|-activate|p2b: Gholdengo|move: Protect
+|-resisted|p2a: Milotic|1
+|-damage|p2a: Milotic|69/100
+|move|p1a: Farigiraf|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic|1
+|-damage|p2a: Milotic|27/100
+|-enditem|p2a: Milotic|Sitrus Berry|[eat]
+|-heal|p2a: Milotic|51/100|[from] item: Sitrus Berry
+|move|p2a: Milotic|Scald|p1b: Torkoal
+|-supereffective|p1b: Torkoal|1
+|-damage|p1b: Torkoal|15/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1785759308
+|switch|p2b: Sinistcha|Sinistcha, L50|100/100
+|-heal|p2a: Milotic|76/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|move|p1b: Torkoal|Heat Wave|p2b: Sinistcha|[spread] p2a,p2b
+|-resisted|p2a: Milotic|1
+|-supereffective|p2b: Sinistcha|1
+|-damage|p2a: Milotic|59/100
+|-damage|p2b: Sinistcha|0 fnt
+|faint|p2b: Sinistcha
+|move|p1a: Farigiraf|Thunderbolt|p2a: Milotic
+|-supereffective|p2a: Milotic|1
+|-damage|p2a: Milotic|19/100
+|move|p2a: Milotic|Scald|p1a: Farigiraf
+|-damage|p1a: Farigiraf|65/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785759327
+|switch|p2b: Staraptor|Staraptor, L50, M|100/100
+|-ability|p2b: Staraptor|Intimidate|boost
+|-unboost|p1a: Farigiraf|atk|1
+|-unboost|p1b: Torkoal|atk|1
+|turn|5
+|
+|t:|1785759349
+|detailschange|p2b: Staraptor|Staraptor-Mega, L50, M
+|-mega|p2b: Staraptor|Staraptor|Staraptite
+|move|p1a: Farigiraf|Helping Hand|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Helping Hand|[of] p1a: Farigiraf
+|move|p2a: Milotic|Protect|p2a: Milotic
+|-singleturn|p2a: Milotic|Protect
+|move|p2b: Staraptor|Protect|p2b: Staraptor
+|-singleturn|p2b: Staraptor|Protect
+|move|p1b: Torkoal|Heat Wave|p2a: Milotic|[spread] 
+|-activate|p2a: Milotic|move: Protect
+|-activate|p2b: Staraptor|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1785759376
+|move|p1a: Farigiraf|Protect|p1a: Farigiraf
+|-singleturn|p1a: Farigiraf|Protect
+|move|p2b: Staraptor|Close Combat|p1a: Farigiraf
+|-activate|p1a: Farigiraf|move: Protect
+|move|p2a: Milotic|Scald|p1a: Farigiraf
+|-activate|p1a: Farigiraf|move: Protect
+|move|p1b: Torkoal|Heat Wave|p2b: Staraptor|[spread] p2a,p2b
+|-resisted|p2a: Milotic|1
+|-damage|p2a: Milotic|0 fnt
+|-damage|p2b: Staraptor|45/100
+|faint|p2a: Milotic
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785759380
+|switch|p2a: Gholdengo|Gholdengo, L50|90/100
+|turn|7
+|
+|t:|1785759409
+|move|p2b: Staraptor|Close Combat|p1a: Farigiraf
+|-damage|p1a: Farigiraf|11/100
+|-boost|p2b: Staraptor|def|1
+|-boost|p2b: Staraptor|spd|1
+|move|p2a: Gholdengo|Make It Rain|p1a: Farigiraf|[spread] p1a,p1b
+|-resisted|p1b: Torkoal|1
+|-damage|p1a: Farigiraf|0 fnt
+|-damage|p1b: Torkoal|0 fnt
+|-unboost|p2a: Gholdengo|spa|2
+|faint|p1a: Farigiraf
+|faint|p1b: Torkoal
+|-damage|p2a: Gholdengo|81/100|[from] item: Life Orb
+|
+|-weather|none
+|upkeep
+|
+|t:|1785759418
+|switch|p1b: Mawile|Mawile, L50, F|100/100
+|turn|8
+|
+|t:|1785759437
+|detailschange|p1b: Mawile|Mawile-Mega, L50, F
+|-mega|p1b: Mawile|Mawile|Mawilite
+|move|p2b: Staraptor|Close Combat|p1b: Mawile
+|-damage|p1b: Mawile|48/100
+|-boost|p2b: Staraptor|def|1
+|-boost|p2b: Staraptor|spd|1
+|move|p2a: Gholdengo|Nasty Plot|p2a: Gholdengo
+|-boost|p2a: Gholdengo|spa|2
+|move|p1b: Mawile|Play Rough|p2b: Staraptor
+|-supereffective|p2b: Staraptor|1
+|-damage|p2b: Staraptor|0 fnt
+|faint|p2b: Staraptor
+|
+|upkeep
+|turn|9
+|
+|t:|1785759454
+|move|p1b: Mawile|Sucker Punch|p2a: Gholdengo
+|-supereffective|p2a: Gholdengo|1
+|-damage|p2a: Gholdengo|0 fnt
+|faint|p2a: Gholdengo
+|
+|win|florb morb
+||testdigi is ready for game 2.
+||florb morb is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

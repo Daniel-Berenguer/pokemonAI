@@ -1,0 +1,123 @@
+|j|☆hadecat
+|j|☆meattea
+|html|hadecatmeattea    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1785841671
+|gametype|doubles
+|player|p1|hadecat|265|
+|player|p2|meattea|scientist-gen4|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Heliolisk, L50, M|
+|poke|p1|Simisear, L50, F|
+|poke|p1|Zoroark, L50, M|
+|poke|p1|Steelix, L50, F|
+|poke|p1|Emboar, L50, F|
+|poke|p1|Simisage, L50, M|
+|poke|p2|Abomasnow, L50, M|
+|poke|p2|Simipour, L50, M|
+|poke|p2|Slowbro, L50, M|
+|poke|p2|Runerigus, L50, F|
+|poke|p2|Emboar, L50, M|
+|poke|p2|Mr. Rime, L50, F|
+|teampreview|4
+|showteam|p1|Heliolisk||FocusSash|SolarPower|Electroweb,VoltSwitch,Discharge,GrassKnot|Timid||M|||50|]Simisear||HeatRock|Blaze|SunnyDay,Protect,HeatWave,FakeOut|Hasty||F|||50|]Zoroark||ChoiceScarf|Illusion|HyperVoice,Flamethrower,Psychic,DarkPulse|Timid||M|||50|]Steelix||Leftovers|RockHead|BodyPress,RockSlide,HighHorsepower,Protect|Impish||F|||50|]Emboar||Emboarite|Reckless|FlareBlitz,FlameCharge,CloseCombat,BulkUp|Jolly||F|||50|]Simisage||MiracleSeed|Overgrow|FakeOut,SolarBlade,RockSlide,Taunt|Jolly||M|||50|
+|showteam|p2|Abomasnow||Abomasite|SnowWarning|AuroraVeil,WoodHammer,IceShard,IceHammer|Brave||M|||50|]Simipour||MysticWater|Torrent|FakeOut,Blizzard,Scald,Protect|Quiet||M|||50|]Slowbro||Leftovers|Regenerator|Scald,TrickRoom,SlackOff,Flamethrower|Sassy||M|||50|]Runerigus||MentalHerb|WanderingSpirit|TrickRoom,Earthquake,Poltergeist,WillOWisp|Brave||F|||50|]Emboar||Emboarite|Reckless|WildCharge,BulkUp,FlareBlitz,DrainPunch|Brave||M|||50|]Mr. Rime||LifeOrb|IceBody|FakeOut,Blizzard,Psychic,Protect|Quiet||F|||50|
+|
+|t:|1785841791
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Emboar|Emboar, L50, F|100/100
+|switch|p1b: Simisear|Simisear, L50, F|100/100
+|switch|p2a: Simipour|Simipour, L50, M|100/100
+|switch|p2b: Runerigus|Runerigus, L50, F|100/100
+|turn|1
+|
+|t:|1785841821
+|move|p1b: Simisear|Fake Out|p2a: Simipour
+|-damage|p2a: Simipour|86/100
+|move|p1a: Emboar|Dark Pulse|p2b: Runerigus
+|-supereffective|p2b: Runerigus|1
+|-damage|p2b: Runerigus|26/100
+|cant|p2a: Simipour|flinch
+|move|p2b: Runerigus|Trick Room|p2b: Runerigus
+|-fieldstart|move: Trick Room|[of] p2b: Runerigus
+|
+|upkeep
+|turn|2
+|
+|t:|1785841866
+|move|p2b: Runerigus|Earthquake|p1b: Simisear|[spread] p2a,p1a,p1b
+|-supereffective|p1b: Simisear|1
+|-damage|p2a: Simipour|26/100
+|-damage|p1a: Emboar|27/100
+|-damage|p1b: Simisear|0 fnt
+|replace|p1a: Zoroark|Zoroark, L50, M
+|-end|p1a: Zoroark|Illusion
+|faint|p1b: Simisear
+|move|p2a: Simipour|Scald|p1a: Zoroark
+|-damage|p1a: Zoroark|0 fnt
+|faint|p1a: Zoroark
+|
+|upkeep
+|
+|t:|1785841876
+|switch|p1b: Emboar|Emboar, L50, F|100/100
+|switch|p1a: Simisage|Simisage, L50, M|100/100
+|turn|3
+|
+|t:|1785841903
+|move|p2a: Simipour|Protect|p2a: Simipour
+|-singleturn|p2a: Simipour|Protect
+|move|p2b: Runerigus|Earthquake|p1a: Simisage|[spread] p1a,p1b
+|-activate|p2a: Simipour|move: Protect
+|-resisted|p1a: Simisage|1
+|-supereffective|p1b: Emboar|1
+|-damage|p1a: Simisage|72/100
+|-damage|p1b: Emboar|13/100
+|move|p1b: Emboar|Bulk Up|p1b: Emboar
+|-boost|p1b: Emboar|atk|1
+|-boost|p1b: Emboar|def|1
+|move|p1a: Simisage|Rock Slide|p2b: Runerigus|[spread] p2b
+|-activate|p2a: Simipour|move: Protect
+|-resisted|p2b: Runerigus|1
+|-damage|p2b: Runerigus|19/100
+|
+|upkeep
+|turn|4
+|
+|t:|1785841933
+|move|p2b: Runerigus|Poltergeist|p1b: Emboar
+|-activate|p1b: Emboar|move: Poltergeist|Emboarite
+|-damage|p1b: Emboar|0 fnt
+|faint|p1b: Emboar
+|move|p2a: Simipour|Blizzard|p1a: Simisage|[miss]
+|-miss|p2a: Simipour|p1a: Simisage
+|move|p1a: Simisage|Rock Slide|p2a: Simipour|[spread] p2a,p2b
+|-resisted|p2b: Runerigus|1
+|-damage|p2a: Simipour|1/100
+|-damage|p2b: Runerigus|12/100
+|
+|upkeep
+|turn|5
+|
+|t:|1785841950
+|move|p2b: Runerigus|Poltergeist|p1a: Simisage|[miss]
+|-miss|p2b: Runerigus|p1a: Simisage
+|move|p2a: Simipour|Blizzard|p1a: Simisage
+|-supereffective|p1a: Simisage|1
+|-damage|p1a: Simisage|0 fnt
+|faint|p1a: Simisage
+|
+|win|meattea
+|inactive|hadecat has 30 seconds to confirm battle start!
+|inactive|meattea has 30 seconds to confirm battle start!
+|inactive|hadecat has 20 seconds to confirm battle start!
+|inactive|meattea has 20 seconds to confirm battle start!
+||meattea is ready for game 2.
+|inactive|hadecat has 10 seconds to confirm battle start!
+|uhtml|next|Next: Game 2 of 3

@@ -1,0 +1,189 @@
+|j|☆guillelona
+|j|☆vicburgos
+|html|guillelonavicburgos    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1784986207
+|gametype|doubles
+|player|p1|guillelona|2|1129
+|player|p2|vicburgos|170|1149
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Vivillon-Tundra, L50, F|
+|poke|p1|Mawile, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Raichu, L50, F|
+|poke|p2|Raichu, L50, F|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Vaporeon, L50, F|
+|poke|p2|Maushold-Four, L50|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|showteam|p1|Vivillon-Tundra||FocusSash|CompoundEyes|Hurricane,SleepPowder,RagePowder,Protect|Timid||F|||50|]Mawile||Mawilite|Intimidate|PlayRough,RockSlide,SuckerPunch,Protect|Adamant||M|||50|]Torkoal||Charcoal|Drought|Eruption,WeatherBall,Protect,EarthPower|Quiet||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,Thunderbolt,TrickRoom,HelpingHand|Relaxed||M|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,RockSlide,Protect|Jolly||M|||50|]Raichu||RaichuniteY|LightningRod|ZapCannon,FocusBlast,FakeOut,Protect|Timid||F|||50|
+|showteam|p2|Raichu||RaichuniteX|LightningRod|VoltTackle,FakeOut,KnockOff,Nuzzle|Jolly||F|||50|]Annihilape||SitrusBerry|Defiant|RageFist,Protect,BulkUp,DrainPunch|Careful||F|||50|]Sinistcha||BigRoot|Hospitality|MatchaGotcha,Protect,RagePowder,LifeDew|Bold|||||50|]Vaporeon||Leftovers|WaterAbsorb|Scald,Protect,Roar,IceBeam|Bold||F|||50|]Maushold-Four||WideLens|FriendGuard|PopulationBomb,Protect,FollowMe,ThunderWave|Jolly|||||50|]Incineroar||ChopleBerry|Intimidate|FlareBlitz,FakeOut,DarkestLariat,PartingShot|Adamant||F|||50|
+|
+|t:|1784986226
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Vivillon|Vivillon-Tundra, L50, F|100/100
+|switch|p1b: Raichu|Raichu, L50, F|100/100
+|switch|p2a: Raichu|Raichu, L50, F|100/100
+|switch|p2b: Annihilape|Annihilape, L50, F|100/100
+|turn|1
+|
+|t:|1784986260
+|detailschange|p2a: Raichu|Raichu-Mega-X, L50, F
+|-mega|p2a: Raichu|Raichu|Raichunite X
+|-fieldstart|move: Electric Terrain|[from] ability: Electric Surge|[of] p2a: Raichu
+|detailschange|p1b: Raichu|Raichu-Mega-Y, L50, F
+|-mega|p1b: Raichu|Raichu|Raichunite Y
+|move|p1b: Raichu|Fake Out|p2a: Raichu
+|-damage|p2a: Raichu|90/100
+|cant|p2a: Raichu|flinch
+|move|p1a: Vivillon|Hurricane|p2b: Annihilape
+|-supereffective|p2b: Annihilape|1
+|-damage|p2b: Annihilape|38/100
+|-enditem|p2b: Annihilape|Sitrus Berry|[eat]
+|-heal|p2b: Annihilape|63/100|[from] item: Sitrus Berry
+|move|p2b: Annihilape|Bulk Up|p2b: Annihilape
+|-boost|p2b: Annihilape|atk|1
+|-boost|p2b: Annihilape|def|1
+|
+|upkeep
+|turn|2
+|
+|t:|1784986291
+|move|p1b: Raichu|Protect|p1b: Raichu
+|-singleturn|p1b: Raichu|Protect
+|move|p2b: Annihilape|Protect|p2b: Annihilape
+|-singleturn|p2b: Annihilape|Protect
+|move|p2a: Raichu|Nuzzle|p1a: Vivillon
+|-supereffective|p1a: Vivillon|1
+|-damage|p1a: Vivillon|56/100
+|-status|p1a: Vivillon|par
+|move|p1a: Vivillon|Hurricane|p2b: Annihilape
+|-activate|p2b: Annihilape|move: Protect
+|
+|upkeep
+|turn|3
+|
+|t:|1784986300
+|switch|p2a: Maushold|Maushold-Four, L50|100/100
+|move|p1a: Vivillon|Rage Powder|p1a: Vivillon
+|-singleturn|p1a: Vivillon|move: Rage Powder
+|move|p1b: Raichu|Zap Cannon|p2b: Annihilape
+|-damage|p2b: Annihilape|23/100
+|-status|p2b: Annihilape|par
+|cant|p2b: Annihilape|par
+|
+|upkeep
+|turn|4
+|
+|t:|1784986318
+|move|p2a: Maushold|Protect|p2a: Maushold
+|-singleturn|p2a: Maushold|Protect
+|move|p1b: Raichu|Focus Blast|p2a: Maushold
+|-activate|p2a: Maushold|move: Protect
+|move|p1a: Vivillon|Hurricane|p2b: Annihilape
+|-supereffective|p2b: Annihilape|1
+|-damage|p2b: Annihilape|0 fnt
+|faint|p2b: Annihilape
+|
+|upkeep
+|
+|t:|1784986331
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Vivillon|atk|1
+|-unboost|p1b: Raichu|atk|1
+|turn|5
+|
+|t:|1784986339
+|switch|p2a: Raichu|Raichu-Mega-X, L50, F|90/100
+|move|p1b: Raichu|Protect|p1b: Raichu
+|-singleturn|p1b: Raichu|Protect
+|move|p1a: Vivillon|Protect|p1a: Vivillon
+|-singleturn|p1a: Vivillon|Protect
+|move|p2b: Incineroar|Parting Shot|p1b: Raichu
+|-activate|p1b: Raichu|move: Protect
+|
+|-fieldend|move: Electric Terrain
+|upkeep
+|turn|6
+|
+|t:|1784986361
+|move|p1b: Raichu|Focus Blast|p2b: Incineroar
+|-supereffective|p2b: Incineroar|1
+|-enditem|p2b: Incineroar|Chople Berry|[eat]
+|-enditem|p2b: Incineroar|Chople Berry|[weaken]
+|-damage|p2b: Incineroar|61/100
+|move|p2a: Raichu|Volt Tackle|p1a: Vivillon
+|-supereffective|p1a: Vivillon|1
+|-damage|p1a: Vivillon|0 fnt
+|faint|p1a: Vivillon
+|-damage|p2a: Raichu|72/100|[from] Recoil
+|move|p2b: Incineroar|Darkest Lariat|p1b: Raichu
+|-damage|p1b: Raichu|32/100
+|
+|upkeep
+|
+|t:|1784986366
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|turn|7
+|
+|t:|1784986393
+|move|p1b: Raichu|Focus Blast|p2b: Incineroar
+|-supereffective|p2b: Incineroar|1
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|move|p2a: Raichu|Knock Off|p1a: Farigiraf
+|-supereffective|p1a: Farigiraf|1
+|-damage|p1a: Farigiraf|54/100
+|-enditem|p1a: Farigiraf|Sitrus Berry|[from] move: Knock Off|[of] p2a: Raichu
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|
+|t:|1784986407
+|switch|p2b: Maushold|Maushold-Four, L50|100/100
+|turn|8
+|
+|t:|1784986420
+|move|p1a: Farigiraf|Psychic|p2a: Raichu
+|-damage|p2a: Raichu|45/100
+|move|p2a: Raichu|Nuzzle|p1a: Farigiraf
+|-damage|p1a: Farigiraf|47/100
+|-status|p1a: Farigiraf|par
+|move|p2b: Maushold|Population Bomb|p1b: Raichu
+|-damage|p1b: Raichu|23/100
+|-damage|p1b: Raichu|14/100
+|-damage|p1b: Raichu|5/100
+|-damage|p1b: Raichu|0 fnt
+|faint|p1b: Raichu
+|-hitcount|p1: Raichu|4
+|
+|upkeep
+|
+|t:|1784986429
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|9
+|-message|vicburgos forfeited.
+|
+|win|guillelona
+|raw|guillelona's rating: 1129 → 1155(+26 for winning)
+|raw|vicburgos's rating: 1149 → 1123(-26 for losing)
+|l|☆vicburgos
+|player|p2|
+|l|☆guillelona
+|player|p1|
+|j|☆guillelona
+|player|p1|guillelona|2|

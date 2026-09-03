@@ -1,0 +1,104 @@
+|j|☆melon storme
+|j|☆kerzz49
+|html|melon stormekerzz49    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1786033891
+|gametype|doubles
+|player|p1|melon storme|kieran-masters|1249
+|player|p2|kerzz49|cilan|1327
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Pyroar, L50, F|
+|poke|p1|Aerodactyl, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Vileplume, L50, M|
+|poke|p1|Farigiraf, L50, F, shiny|
+|poke|p1|Mawile, L50, F|
+|poke|p2|Ninetales-Alola, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Glimmora, L50, F|
+|poke|p2|Kommo-o, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Pyroar||Pyroarite|Rivalry|Taunt,HeatWave,Overheat,Protect|Timid||F|||50|]Aerodactyl||SitrusBerry|Unnerve|RockSlide,Tailwind,WideGuard,DualWingbeat|Jolly||M|||50|]Torkoal||Charcoal|Drought|Eruption,HeatWave,SolarBeam,Protect|Quiet||M|||50|]Vileplume||FocusSash|Chlorophyll|EnergyBall,SludgeBomb,AfterYou,SleepPowder|Timid||M|||50|]Farigiraf||Leftovers|ArmorTail|HyperVoice,Psychic,Protect,TrickRoom|Relaxed||F|||50|]Mawile||Mawilite|Intimidate|IronHead,PlayRough,SwordsDance,SuckerPunch|Sassy||F|||50|
+|showteam|p2|Ninetales-Alola||NeverMeltIce|SnowWarning|Protect,Blizzard,FreezeDry,HelpingHand|Timid||F|||50|]Kingambit||ChopleBerry|Defiant|Protect,KowtowCleave,LowKick,SuckerPunch|Adamant||M|||50|]Glimmora||Glimmoranite|ToxicDebris|PowerGem,SludgeBomb,EarthPower,SpikyShield|Modest||F|||50|]Kommo-o||LifeOrb|Soundproof|AuraSphere,ClangingScales,VacuumWave,Protect|Modest||M|||50|]Whimsicott||FocusSash|Prankster|Protect,Moonblast,Tailwind,Encore|Timid||F|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,AquaJet|Jolly||M|||50|
+|
+|t:|1786033934
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Mahrukasha|Aerodactyl, L50, M|100/100
+|switch|p1b: Can of Soup|Farigiraf, L50, F, shiny|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|-ability|p1a: Mahrukasha|Unnerve
+|turn|1
+|
+|t:|1786033969
+|move|p2a: Basculegion|Flip Turn|p1a: Mahrukasha
+|-supereffective|p1a: Mahrukasha|1
+|-damage|p1a: Mahrukasha|0 fnt
+|faint|p1a: Mahrukasha
+|
+|t:|1786033981
+|switch|p2a: Glimmora|Glimmora, L50, F|100/100|[from] Flip Turn
+|move|p2b: Kingambit|Kowtow Cleave|p1b: Can of Soup
+|-supereffective|p1b: Can of Soup|1
+|-damage|p1b: Can of Soup|28/100
+|move|p1b: Can of Soup|Trick Room|p1b: Can of Soup
+|-fieldstart|move: Trick Room|[of] p1b: Can of Soup
+|
+|-heal|p1b: Can of Soup|34/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1786033987
+|switch|p1a: Ghengas Khan|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Ghengas Khan
+|turn|2
+|
+|t:|1786034038
+|move|p2a: Glimmora|Spiky Shield|p2a: Glimmora
+|-singleturn|p2a: Glimmora|move: Protect
+|move|p1a: Ghengas Khan|Eruption|p2a: Glimmora|[spread] p2b
+|-activate|p2a: Glimmora|move: Protect
+|-supereffective|p2b: Kingambit|1
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|move|p1b: Can of Soup|Psychic|p2a: Glimmora
+|-activate|p2a: Glimmora|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Can of Soup|40/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1786034049
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|turn|3
+|
+|t:|1786034071
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|move|p1a: Ghengas Khan|Eruption|p2a: Basculegion|[spread] p2a,p2b
+|-resisted|p2a: Basculegion|1
+|-supereffective|p2b: Ninetales|1
+|-damage|p2a: Basculegion|69/100
+|-damage|p2b: Ninetales|0 fnt
+|faint|p2b: Ninetales
+|move|p1b: Can of Soup|Psychic|p2a: Basculegion
+|-damage|p2a: Basculegion|28/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1b: Can of Soup|46/100|[from] item: Leftovers
+|upkeep
+|-message|kerzz49 forfeited.
+|
+|win|melon storme
+|raw|melon storme's rating: 1249 → 1280(+31 for winning)
+|raw|kerzz49's rating: 1327 → 1303(-24 for losing)
+|l|☆kerzz49
+|player|p2|

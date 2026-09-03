@@ -1,0 +1,298 @@
+|j|☆elpibevgc
+|j|☆lanagram
+|html|elpibevgclanagram    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1785615544
+|gametype|doubles
+|player|p1|elpibevgc|lucas|1104
+|player|p2|lanagram|102|1155
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gengar, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Politoed, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Vivillon-Jungle, L50, M|
+|poke|p1|Swampert, L50, M|
+|poke|p2|Gengar, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Hawlucha, L50, M|
+|poke|p2|Snorlax, L50, F|
+|poke|p2|Ditto, L50|
+|poke|p2|Hydreigon, L50, M|
+|teampreview|4
+|showteam|p1|Gengar||Gengarite|CursedBody|ShadowBall,PerishSong,SludgeBomb,Protect|Modest||F|||50|]Incineroar||PasshoBerry|Intimidate|ThroatChop,PartingShot,FakeOut,Protect|Impish||M|||50|]Politoed||SitrusBerry|Drizzle|WeatherBall,PerishSong,Encore,Protect|Calm||M|||50|]Archaludon||Leftovers|Stamina|DragonPulse,FlashCannon,ElectroShot,Protect|Bold||F|||50|]Vivillon-Jungle||FocusSash|CompoundEyes|Hurricane,SleepPowder,RagePowder,Protect|Timid||M|||50|]Swampert||Swampertite|Torrent|WaveCrash,Earthquake,IcePunch,Protect|Adamant||M|||50|
+|showteam|p2|Gengar||Gengarite|CursedBody|ShadowBall,SludgeBomb,PerishSong,Protect|Timid||F|||50|]Grimmsnarl||RoseliBerry|Prankster|FakeOut,Superpower,PartingShot,ThroatChop|Adamant||M|||50|]Hawlucha||Hawluchanite|Limber|CrossChop,Entrainment,DualWingbeat,Protect|Jolly||M|||50|]Snorlax||Leftovers|ThickFat|Fissure,Stockpile,BodyPress,Protect|Bold||F|||50|]Ditto||ChoiceScarf|Imposter|Transform|Bold|||||50|]Hydreigon||LifeOrb|Levitate|DracoMeteor,Snarl,Uturn,Protect|Timid||M|||50|
+|
+|t:|1785615565
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Vivillon|Vivillon-Jungle, L50, M|100/100
+|switch|p1b: Swampert|Swampert, L50, M|100/100
+|switch|p2a: Hawlucha|Hawlucha, L50, M|100/100
+|switch|p2b: Snorlax|Snorlax, L50, F|100/100
+|turn|1
+|
+|t:|1785615607
+|detailschange|p2a: Hawlucha|Hawlucha-Mega, L50, M
+|-mega|p2a: Hawlucha|Hawlucha|Hawluchanite
+|detailschange|p1b: Swampert|Swampert-Mega, L50, M
+|-mega|p1b: Swampert|Swampert|Swampertite
+|move|p1a: Vivillon|Protect|p1a: Vivillon
+|-singleturn|p1a: Vivillon|Protect
+|move|p2a: Hawlucha|Dual Wingbeat|p1a: Vivillon
+|-activate|p1a: Vivillon|move: Protect
+|move|p1b: Swampert|Ice Punch|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha|1
+|-damage|p2a: Hawlucha|39/100
+|-status|p2a: Hawlucha|frz
+|move|p2b: Snorlax|Stockpile|p2b: Snorlax
+|-start|p2b: Snorlax|stockpile1
+|-boost|p2b: Snorlax|def|1
+|-boost|p2b: Snorlax|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1785615643
+|switch|p2a: Ditto|Ditto, L50|100/100
+|-transform|p2a: Ditto|p1b: Swampert|[from] ability: Imposter
+|switch|p1a: Politoed|Politoed, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|move|p2b: Snorlax|Protect|p2b: Snorlax
+|-singleturn|p2b: Snorlax|Protect
+|move|p1b: Swampert|Ice Punch|p2a: Ditto
+|-damage|p2a: Ditto|67/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1785615675
+|move|p1b: Swampert|Protect|p1b: Swampert
+|-singleturn|p1b: Swampert|Protect
+|move|p2a: Ditto|Wave Crash|p1b: Swampert
+|-activate|p1b: Swampert|move: Protect
+|move|p1a: Politoed|Encore|p2b: Snorlax
+|-start|p2b: Snorlax|Encore
+|move|p2b: Snorlax|Protect||[still]
+|-fail|p2b: Snorlax
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1785615693
+|move|p2b: Snorlax|Protect|p2b: Snorlax
+|-singleturn|p2b: Snorlax|Protect
+|move|p2a: Ditto|Wave Crash|p1a: Politoed
+|-resisted|p1a: Politoed|1
+|-damage|p1a: Politoed|45/100
+|-enditem|p1a: Politoed|Sitrus Berry|[eat]
+|-heal|p1a: Politoed|70/100|[from] item: Sitrus Berry
+|-damage|p2a: Ditto|44/100|[from] Recoil
+|move|p1b: Swampert|Wave Crash|p2a: Ditto
+|-damage|p2a: Ditto|0 fnt
+|faint|p2a: Ditto
+|-damage|p1b: Swampert|87/100|[from] Recoil
+|move|p1a: Politoed|Weather Ball|p2b: Snorlax
+|-activate|p2b: Snorlax|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1785615700
+|switch|p2a: Hydreigon|Hydreigon, L50, M|100/100
+|turn|5
+|
+|t:|1785615742
+|switch|p1b: Vivillon|Vivillon-Jungle, L50, M|100/100
+|move|p2b: Snorlax|Protect|p2b: Snorlax
+|-singleturn|p2b: Snorlax|Protect
+|move|p2a: Hydreigon|Draco Meteor|p1a: Politoed
+|-damage|p1a: Politoed|1/100
+|-unboost|p2a: Hydreigon|spa|2
+|-damage|p2a: Hydreigon|90/100|[from] item: Life Orb
+|move|p1a: Politoed|Weather Ball|p2a: Hydreigon
+|-resisted|p2a: Hydreigon|1
+|-damage|p2a: Hydreigon|62/100
+|
+|-weather|RainDance|[upkeep]
+|-end|p2b: Snorlax|Encore
+|upkeep
+|turn|6
+|
+|t:|1785615762
+|move|p2a: Hydreigon|Snarl|p1b: Vivillon|[spread] p1a,p1b
+|-damage|p1a: Politoed|0 fnt
+|-damage|p1b: Vivillon|74/100
+|-unboost|p1b: Vivillon|spa|1
+|faint|p1a: Politoed
+|-damage|p2a: Hydreigon|52/100|[from] item: Life Orb
+|move|p1b: Vivillon|Sleep Powder|p2b: Snorlax
+|-status|p2b: Snorlax|slp|[from] move: Sleep Powder
+|cant|p2b: Snorlax|slp
+|
+|-weather|none
+|upkeep
+|
+|t:|1785615774
+|switch|p1a: Swampert|Swampert-Mega, L50, M|87/100
+|turn|7
+|
+|t:|1785615782
+|move|p2a: Hydreigon|Protect|p2a: Hydreigon
+|-singleturn|p2a: Hydreigon|Protect
+|move|p1b: Vivillon|Rage Powder|p1b: Vivillon
+|-singleturn|p1b: Vivillon|move: Rage Powder
+|move|p1a: Swampert|Ice Punch|p2a: Hydreigon
+|-activate|p2a: Hydreigon|move: Protect
+|-curestatus|p2b: Snorlax|slp|[msg]
+|move|p2b: Snorlax|Stockpile|p2b: Snorlax
+|-start|p2b: Snorlax|stockpile2
+|-boost|p2b: Snorlax|def|1
+|-boost|p2b: Snorlax|spd|1
+|
+|upkeep
+|turn|8
+|
+|t:|1785615799
+|move|p2a: Hydreigon|Draco Meteor|p1b: Vivillon|[miss]
+|-miss|p2a: Hydreigon|p1b: Vivillon
+|move|p1b: Vivillon|Sleep Powder|p2b: Snorlax
+|-status|p2b: Snorlax|slp|[from] move: Sleep Powder
+|move|p1a: Swampert|Ice Punch|p2a: Hydreigon
+|-supereffective|p2a: Hydreigon|1
+|-damage|p2a: Hydreigon|0 fnt
+|faint|p2a: Hydreigon
+|cant|p2b: Snorlax|slp
+|
+|upkeep
+|
+|t:|1785615802
+|switch|p2a: Hawlucha|Hawlucha-Mega, L50, M|39/100 frz
+|turn|9
+|
+|t:|1785615818
+|cant|p2a: Hawlucha|frz
+|move|p1b: Vivillon|Hurricane|p2a: Hawlucha
+|-supereffective|p2a: Hawlucha|1
+|-damage|p2a: Hawlucha|0 fnt
+|faint|p2a: Hawlucha
+|move|p1a: Swampert|Earthquake|p2b: Snorlax|[spread] p2b
+|-immune|p1b: Vivillon
+|-damage|p2b: Snorlax|83/100 slp
+|cant|p2b: Snorlax|slp
+|
+|-heal|p2b: Snorlax|89/100 slp|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1785615838
+|move|p1b: Vivillon|Hurricane|p2b: Snorlax
+|-damage|p2b: Snorlax|80/100 slp
+|move|p1a: Swampert|Wave Crash|p2b: Snorlax
+|-damage|p2b: Snorlax|56/100 slp
+|-damage|p1a: Swampert|74/100|[from] Recoil
+|-curestatus|p2b: Snorlax|slp|[msg]
+|move|p2b: Snorlax|Stockpile|p2b: Snorlax
+|-start|p2b: Snorlax|stockpile3
+|-boost|p2b: Snorlax|def|1
+|-boost|p2b: Snorlax|spd|1
+|
+|-heal|p2b: Snorlax|62/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1785615856
+|move|p2b: Snorlax|Protect|p2b: Snorlax
+|-singleturn|p2b: Snorlax|Protect
+|move|p1b: Vivillon|Sleep Powder|p2b: Snorlax
+|-activate|p2b: Snorlax|move: Protect
+|move|p1a: Swampert|Wave Crash|p2b: Snorlax
+|-activate|p2b: Snorlax|move: Protect
+|
+|-heal|p2b: Snorlax|68/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1785615871
+|move|p1b: Vivillon|Sleep Powder|p2b: Snorlax
+|-status|p2b: Snorlax|slp|[from] move: Sleep Powder
+|move|p1a: Swampert|Wave Crash|p2b: Snorlax
+|-damage|p2b: Snorlax|47/100 slp
+|-damage|p1a: Swampert|64/100|[from] Recoil
+|cant|p2b: Snorlax|slp
+|
+|-heal|p2b: Snorlax|53/100 slp|[from] item: Leftovers
+|upkeep
+|turn|13
+|
+|t:|1785615890
+|move|p1b: Vivillon|Hurricane|p2b: Snorlax|[miss]
+|-miss|p1b: Vivillon|p2b: Snorlax
+|move|p1a: Swampert|Wave Crash|p2b: Snorlax
+|-damage|p2b: Snorlax|34/100 slp
+|-damage|p1a: Swampert|54/100|[from] Recoil
+|cant|p2b: Snorlax|slp
+|
+|-heal|p2b: Snorlax|40/100 slp|[from] item: Leftovers
+|upkeep
+|turn|14
+|
+|t:|1785615904
+|move|p1b: Vivillon|Hurricane|p2b: Snorlax
+|-damage|p2b: Snorlax|33/100 slp
+|move|p1a: Swampert|Wave Crash|p2b: Snorlax
+|-damage|p2b: Snorlax|13/100 slp
+|-damage|p1a: Swampert|44/100|[from] Recoil
+|-curestatus|p2b: Snorlax|slp|[msg]
+|move|p2b: Snorlax|Body Press|p1a: Swampert
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|-heal|p2b: Snorlax|19/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1785615916
+|switch|p1a: Archaludon|Archaludon, L50, F|100/100
+|turn|15
+|
+|t:|1785615924
+|move|p1b: Vivillon|Sleep Powder|p2b: Snorlax
+|-status|p2b: Snorlax|slp|[from] move: Sleep Powder
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|cant|p2b: Snorlax|slp
+|
+|-heal|p2b: Snorlax|25/100 slp|[from] item: Leftovers
+|upkeep
+|turn|16
+|
+|t:|1785615935
+|move|p1b: Vivillon|Hurricane|p2b: Snorlax
+|-damage|p2b: Snorlax|18/100 slp
+|-start|p2b: Snorlax|confusion
+|move|p1a: Archaludon|Electro Shot|p2b: Snorlax|[from] lockedmove
+|-damage|p2b: Snorlax|4/100 slp
+|-curestatus|p2b: Snorlax|slp|[msg]
+|-activate|p2b: Snorlax|confusion
+|move|p2b: Snorlax|Fissure|p1a: Archaludon|[miss]
+|-miss|p2b: Snorlax|p1a: Archaludon
+|
+|-heal|p2b: Snorlax|10/100|[from] item: Leftovers
+|upkeep
+|turn|17
+|-message|lanagram forfeited.
+|raw|elpibevgc's rating: 1104 → 1133(+29 for winning)
+|raw|lanagram's rating: 1155 → 1126(-29 for losing)
+|
+|win|elpibevgc
+|l|☆lanagram
+|player|p2|

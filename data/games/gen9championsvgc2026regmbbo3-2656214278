@@ -1,0 +1,185 @@
+|j|☆Coolastepojken
+|j|☆aqueousbloop
+|html|Coolastepojkenaqueousbloop    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1785258933
+|gametype|doubles
+|player|p1|Coolastepojken|swimmer-gen4dp|1041
+|player|p2|aqueousbloop|2|1097
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Aromatisse, L50, F|
+|poke|p1|Mimikyu, L50, F|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Oranguru, L50, F|
+|poke|p2|Mawile, L50, M|
+|poke|p2|Kangaskhan, L50, F|
+|poke|p2|Venusaur, L50, F|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Farigiraf||ColburBerry|ArmorTail|TrickRoom,HelpingHand,Psychic,Protect|Sassy||F|||50|]Torkoal||Charcoal|Drought|Eruption,WeatherBall,Protect,SolarBeam|Modest||M|||50|]Aromatisse||FocusSash|Healer|NastyPlot,Protect,Thunderbolt,Moonblast|Modest||F|||50|]Mimikyu||LifeOrb|Disguise|SwordsDance,TrickRoom,PlayRough,ShadowSneak|Brave||F|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,PartingShot,DarkestLariat,WillOWisp|Careful||F|||50|]Sinistcha-Masterpiece||Leftovers|Hospitality|MatchaGotcha,RagePowder,TrickRoom,LifeDew|Relaxed|||||50|
+|showteam|p2|Hatterene||LifeOrb|MagicBounce|Protect,Psychic,TrickRoom,DazzlingGleam|Quiet||F|||50|]Oranguru||MentalHerb|InnerFocus|Protect,Instruct,Psychic,TrickRoom|Bold||F|||50|]Mawile||Mawilite|HyperCutter|SuckerPunch,PlayRough,Protect,IronHead|Brave||M|||50|]Kangaskhan||SilkScarf|Scrappy|LastResort,FakeOut|Brave||F|||50|]Venusaur||FocusSash|Chlorophyll|LeafStorm,SludgeBomb,SleepPowder,Protect|Modest||F|||50|]Torkoal||Charcoal|Drought|Eruption,Protect,EarthPower,HeatWave|Quiet||M|||50|
+|
+|t:|1785259011
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, F|100/100
+|switch|p1b: Mimikyu|Mimikyu, L50, F|100/100
+|switch|p2a: Venusaur|Venusaur, L50, F|100/100
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Venusaur|atk|1
+|-unboost|p2b: Torkoal|atk|1
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Torkoal
+|turn|1
+|
+|t:|1785259053
+|switch|p2b: Oranguru|Oranguru, L50, F|100/100
+|move|p2a: Venusaur|Protect|p2a: Venusaur
+|-singleturn|p2a: Venusaur|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Venusaur
+|-activate|p2a: Venusaur|move: Protect
+|move|p1b: Mimikyu|Swords Dance|p1b: Mimikyu
+|-boost|p1b: Mimikyu|atk|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1785259097
+|move|p1b: Mimikyu|Shadow Sneak|p2a: Venusaur
+|-damage|p2a: Venusaur|32/100
+|-damage|p1b: Mimikyu|90/100|[from] item: Life Orb
+|move|p2a: Venusaur|Sleep Powder|p1a: Incineroar
+|-status|p1a: Incineroar|slp|[from] move: Sleep Powder
+|move|p2b: Oranguru|Psychic|p1b: Mimikyu
+|-activate|p1b: Mimikyu|ability: Disguise
+|-damage|p1b: Mimikyu|90/100
+|detailschange|p1b: Mimikyu|Mimikyu-Busted, L50, F
+|-damage|p1b: Mimikyu|77/100|[from] pokemon: Mimikyu-Busted
+|cant|p1a: Incineroar|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1785259138
+|move|p2a: Venusaur|Sludge Bomb|p1b: Mimikyu
+|-damage|p1b: Mimikyu|34/100
+|move|p2b: Oranguru|Instruct|p2a: Venusaur
+|-singleturn|p2a: Venusaur|move: Instruct|[of] p2b: Oranguru
+|move|p2a: Venusaur|Sludge Bomb|p1b: Mimikyu
+|-damage|p1b: Mimikyu|0 fnt
+|faint|p1b: Mimikyu
+|-curestatus|p1a: Incineroar|slp|[msg]
+|move|p1a: Incineroar|Parting Shot|p2b: Oranguru
+|-unboost|p2b: Oranguru|atk|1
+|-unboost|p2b: Oranguru|spa|1
+|
+|t:|1785259153
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece, L50|100/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785259159
+|switch|p1b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Venusaur|atk|1
+|-fail|p2b: Oranguru|unboost|Attack|[from] ability: Inner Focus|[of] p2b: Oranguru
+|turn|4
+|
+|t:|1785259175
+|move|p2a: Venusaur|Sleep Powder|p1b: Incineroar
+|-status|p1b: Incineroar|slp|[from] move: Sleep Powder
+|cant|p1b: Incineroar|slp
+|move|p1a: Sinistcha|Trick Room|p1a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p1a: Sinistcha
+|move|p2b: Oranguru|Trick Room|p2b: Oranguru
+|-fieldend|move: Trick Room
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1785259205
+|move|p2a: Venusaur|Sludge Bomb|p1a: Sinistcha
+|-damage|p1a: Sinistcha|51/100
+|cant|p1b: Incineroar|slp
+|move|p2b: Oranguru|Instruct|p2a: Venusaur
+|-singleturn|p2a: Venusaur|move: Instruct|[of] p2b: Oranguru
+|move|p2a: Venusaur|Sludge Bomb|p1a: Sinistcha
+|-damage|p1a: Sinistcha|1/100
+|move|p1a: Sinistcha|Trick Room|p1a: Sinistcha
+|-fieldstart|move: Trick Room|[of] p1a: Sinistcha
+|
+|-weather|none
+|-heal|p1a: Sinistcha|7/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1785259252
+|switch|p1a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Torkoal
+|move|p2b: Oranguru|Psychic|p1a: Torkoal
+|-damage|p1a: Torkoal|76/100
+|-curestatus|p1b: Incineroar|slp|[msg]
+|move|p1b: Incineroar|Darkest Lariat|p2b: Oranguru
+|-supereffective|p2b: Oranguru|1
+|-damage|p2b: Oranguru|42/100
+|move|p2a: Venusaur|Sludge Bomb|p1a: Torkoal
+|-damage|p1a: Torkoal|15/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1785259291
+|switch|p2b: Torkoal|Torkoal, L50, M|100/100
+|move|p2a: Venusaur|Protect|p2a: Venusaur
+|-singleturn|p2a: Venusaur|Protect
+|move|p1a: Torkoal|Weather Ball|p2a: Venusaur
+|-activate|p2a: Venusaur|move: Protect
+|move|p1b: Incineroar|Darkest Lariat|p2b: Torkoal
+|-damage|p2b: Torkoal|75/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|8
+|
+|t:|1785259323
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece, L50|7/100
+|move|p2b: Torkoal|Eruption|p1a: Sinistcha|[spread] p1a,p1b
+|-supereffective|p1a: Sinistcha|1
+|-resisted|p1b: Incineroar|1
+|-damage|p1a: Sinistcha|0 fnt
+|-damage|p1b: Incineroar|77/100
+|faint|p1a: Sinistcha
+|move|p1b: Incineroar|Parting Shot|p2b: Torkoal
+|-unboost|p2b: Torkoal|atk|1
+|-unboost|p2b: Torkoal|spa|1
+|
+|t:|1785259332
+|switch|p1b: Torkoal|Torkoal, L50, M|15/100|[from] Parting Shot
+|move|p2a: Venusaur|Sludge Bomb|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|-message|Coolastepojken forfeited.
+|raw|Coolastepojken's rating: 1041 → 1027(-14 for losing)
+|raw|aqueousbloop's rating: 1097 → 1118(+21 for winning)
+|
+|win|aqueousbloop
+|l|☆Coolastepojken
+|player|p1|

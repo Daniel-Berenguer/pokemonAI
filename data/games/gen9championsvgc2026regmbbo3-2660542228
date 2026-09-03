@@ -1,0 +1,134 @@
+|j|☆2BStellar
+|j|☆Dabigmurph
+|html|2BStellarDabigmurph    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785983725
+|gametype|doubles
+|player|p1|2BStellar|hilbert-wonderlauncher|1168
+|player|p2|Dabigmurph|hiker-gen4|1099
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sylveon, L50, F, shiny|
+|poke|p1|Garchomp, L50, M, shiny|
+|poke|p1|Kingambit, L50, M, shiny|
+|poke|p1|Charizard, L50, M, shiny|
+|poke|p1|Aerodactyl, L50, M, shiny|
+|poke|p1|Farigiraf, L50, F, shiny|
+|poke|p2|Pyroar, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Vileplume, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Crabominable, L50, F|
+|teampreview|4
+|showteam|p1|Sylveon||FairyFeather|Pixilate|Detect,HyperVoice,QuickAttack,HyperBeam|Modest||F|||50|]Garchomp||LifeOrb|RoughSkin|Protect,Earthquake,DragonClaw,StoneEdge|Jolly||M|||50|]Kingambit||FocusSash|Defiant|SuckerPunch,KowtowCleave,IronHead,BrickBreak|Jolly||M|||50|]Charizard||CharizarditeY|Blaze|Protect,HeatWave,SolarBeam,WeatherBall|Modest||M|||50|]Aerodactyl||Aerodactylite|Unnerve|Tailwind,RockSlide,IceFang,DualWingbeat|Jolly||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Protect,Thunderbolt,TwinBeam,TrickRoom|Bold||F|||50|
+|showteam|p2|Pyroar||Pyroarite|Moxie|HeatWave,HyperVoice,Flamethrower,Protect|Timid||M|||50|]Torkoal||Charcoal|Drought|Eruption,EarthPower,HelpingHand,Protect|Quiet||M|||50|]Incineroar||WhiteHerb|Intimidate|FakeOut,FlareBlitz,DarkestLariat,CloseCombat|Adamant||M|||50|]Vileplume||LifeOrb|Chlorophyll|SludgeBomb,SolarBeam,SleepPowder,AfterYou|Modest||M|||50|]Farigiraf||SitrusBerry|ArmorTail|TwinBeam,Protect,TrickRoom,HelpingHand|Relaxed||M|||50|]Crabominable||Crabominite|HyperCutter|IceHammer,DrainPunch,MachPunch,Protect|Adamant||F|||50|
+|
+|t:|1785983751
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: e4e5f4|Kingambit, L50, M, shiny|100/100
+|switch|p1b: AAAAAA|Aerodactyl, L50, M, shiny|100/100
+|switch|p2a: Pyroar|Pyroar, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: AAAAAA|Unnerve
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: e4e5f4|atk|1
+|-ability|p1a: e4e5f4|Defiant|boost
+|-boost|p1a: e4e5f4|atk|2
+|-unboost|p1b: AAAAAA|atk|1
+|turn|1
+|
+|t:|1785983780
+|switch|p1a: giraf|Farigiraf, L50, F, shiny|100/100
+|detailschange|p1b: AAAAAA|Aerodactyl-Mega, L50, M, shiny
+|-mega|p1b: AAAAAA|Aerodactyl|Aerodactylite
+|detailschange|p2a: Pyroar|Pyroar-Mega, L50, M
+|-mega|p2a: Pyroar|Pyroar|Pyroarite
+|move|p1b: AAAAAA|Rock Slide|p2b: Incineroar|[spread] p2a,p2b
+|-supereffective|p2a: Pyroar|1
+|-supereffective|p2b: Incineroar|1
+|-damage|p2a: Pyroar|52/100
+|-damage|p2b: Incineroar|59/100
+|move|p2a: Pyroar|Heat Wave|p1b: AAAAAA|[spread] p1a,p1b
+|-resisted|p1b: AAAAAA|1
+|-damage|p1a: giraf|48/100
+|-damage|p1b: AAAAAA|63/100
+|-enditem|p1a: giraf|Sitrus Berry|[eat]
+|-heal|p1a: giraf|72/100|[from] item: Sitrus Berry
+|move|p2b: Incineroar|Close Combat|p1a: giraf
+|-damage|p1a: giraf|38/100
+|-unboost|p2b: Incineroar|def|1
+|-unboost|p2b: Incineroar|spd|1
+|-enditem|p2b: Incineroar|White Herb
+|-clearnegativeboost|p2b: Incineroar|[silent]
+|
+|upkeep
+|turn|2
+|
+|t:|1785983813
+|move|p1b: AAAAAA|Rock Slide|p2a: Pyroar|[spread] p2b
+|-miss|p1b: AAAAAA|p2a: Pyroar
+|-supereffective|p2b: Incineroar|1
+|-damage|p2b: Incineroar|18/100
+|move|p2a: Pyroar|Heat Wave|p1b: AAAAAA|[spread] p1a,p1b
+|-resisted|p1b: AAAAAA|1
+|-damage|p1a: giraf|0 fnt
+|-damage|p1b: AAAAAA|33/100
+|-status|p1b: AAAAAA|brn
+|faint|p1a: giraf
+|move|p2b: Incineroar|Darkest Lariat|p1b: AAAAAA
+|-damage|p1b: AAAAAA|0 fnt
+|faint|p1b: AAAAAA
+|
+|upkeep
+|
+|t:|1785983821
+|switch|p1b: piano|Garchomp, L50, M, shiny|100/100
+|switch|p1a: e4e5f4|Kingambit, L50, M, shiny|100/100
+|turn|3
+|
+|t:|1785983849
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|move|p1a: e4e5f4|Sucker Punch||[still]
+|cant|p2b: Farigiraf|ability: Armor Tail|Sucker Punch|[of] p1a: e4e5f4
+|move|p2a: Pyroar|Heat Wave|p1a: e4e5f4|[spread] p1a,p1b
+|-supereffective|p1a: e4e5f4|1
+|-resisted|p1b: piano|1
+|-enditem|p1a: e4e5f4|Focus Sash
+|-damage|p1a: e4e5f4|1/100
+|-damage|p1b: piano|68/100
+|move|p1b: piano|Stone Edge|p2a: Pyroar|[miss]
+|-miss|p1b: piano|p2a: Pyroar
+|
+|upkeep
+|turn|4
+|
+|t:|1785983869
+|move|p2a: Pyroar|Heat Wave|p1a: e4e5f4|[spread] p1a,p1b
+|-supereffective|p1a: e4e5f4|1
+|-resisted|p1b: piano|1
+|-damage|p1a: e4e5f4|0 fnt
+|-damage|p1b: piano|37/100
+|faint|p1a: e4e5f4
+|move|p1b: piano|Earthquake|p2b: Farigiraf|[spread] p2a,p2b
+|-supereffective|p2a: Pyroar|1
+|-damage|p2a: Pyroar|0 fnt
+|-damage|p2b: Farigiraf|65/100
+|faint|p2a: Pyroar
+|-damage|p1b: piano|27/100|[from] item: Life Orb
+|move|p2b: Farigiraf|Twin Beam|p1b: piano
+|-damage|p1b: piano|9/100
+|-damage|p1b: piano|0 fnt
+|faint|p1b: piano
+|-hitcount|p1: piano|2
+|
+|win|Dabigmurph
+|raw|2BStellar's rating: 1168 → 1138(-30 for losing)
+|raw|Dabigmurph's rating: 1099 → 1129(+30 for winning)
+|c|☆2BStellar|ggs

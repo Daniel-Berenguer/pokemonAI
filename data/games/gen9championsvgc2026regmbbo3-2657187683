@@ -1,0 +1,175 @@
+|j|☆natsukivgc
+|j|‽MrBurning
+|html|natsukivgcMrBurning    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785419419
+|gametype|doubles
+|player|p1|natsukivgc|265|1204
+|player|p2|MrBurning|101|1099
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Staraptor, L50, M|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Sneasler, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|HeatWave,SolarBeam,WeatherBall,Protect|Modest||F|||50|]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,FakeOut,Coaching|Jolly||M|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|Adamant||M|||50|]Dragonite||LifeOrb|InnerFocus|DragonClaw,LowKick,ExtremeSpeed,Protect|Adamant||F|||50|]Floette-Eternal||Floettite|FlowerVeil|Moonblast,DazzlingGleam,LightofRuin,Protect|Modest||F|||50|]Whimsicott||FocusSash|Prankster|Moonblast,Tailwind,Encore,Protect|Timid||F|||50|
+|showteam|p2|Raichu||RaichuniteY|LightningRod|ZapCannon,FakeOut,Protect,FocusBlast|Timid||M|||50|]Kingambit||ChopleBerry|Defiant|KowtowCleave,IronHead,SuckerPunch,Protect|Adamant||M|||50|]Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,Roost,Protect|Jolly||M|||50|]Ninetales-Alola||NeverMeltIce|SnowWarning|Blizzard,FreezeDry,Encore,Protect|Timid||M|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,FlipTurn,LastRespects,AquaJet|Jolly||M|||50|]Sneasler||WhiteHerb|Unburden|Taunt,CloseCombat,DireClaw,Protect|Adamant||M|||50|
+|
+|t:|1785419438
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sneasler|Sneasler, L50, M|100/100
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100
+|switch|p2a: Kingambit|Kingambit, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|turn|1
+|
+|t:|1785419483
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|move|p1a: Sneasler|Coaching|p1b: Dragonite
+|-boost|p1b: Dragonite|atk|1
+|-boost|p1b: Dragonite|def|1
+|move|p2b: Sneasler|Dire Claw|p1b: Dragonite
+|-damage|p1b: Dragonite|67/100
+|move|p1b: Dragonite|Dragon Claw|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|-damage|p1b: Dragonite|58/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1785419509
+|switch|p2b: Staraptor|Staraptor, L50, M|100/100
+|-ability|p2b: Staraptor|Intimidate|boost
+|-unboost|p1a: Sneasler|atk|1
+|-fail|p1b: Dragonite|unboost|Attack|[from] ability: Inner Focus|[of] p1b: Dragonite
+|-enditem|p1a: Sneasler|White Herb
+|-clearnegativeboost|p1a: Sneasler|[silent]
+|turn|2
+|
+|t:|1785419540
+|detailschange|p2b: Staraptor|Staraptor-Mega, L50, M
+|-mega|p2b: Staraptor|Staraptor|Staraptite
+|move|p1b: Dragonite|Protect|p1b: Dragonite
+|-singleturn|p1b: Dragonite|Protect
+|move|p1a: Sneasler|Dire Claw|p2b: Staraptor
+|-damage|p2b: Staraptor|57/100
+|-status|p2b: Staraptor|psn
+|move|p2a: Basculegion|Last Respects|p1b: Dragonite
+|-activate|p1b: Dragonite|move: Protect
+|move|p2b: Staraptor|Close Combat|p1b: Dragonite
+|-activate|p1b: Dragonite|move: Protect
+|
+|-damage|p2b: Staraptor|45/100 psn|[from] psn
+|upkeep
+|turn|3
+|
+|t:|1785419562
+|switch|p2b: Kingambit|Kingambit, L50, M|100/100
+|move|p1b: Dragonite|Extreme Speed|p2b: Kingambit
+|-resisted|p2b: Kingambit|1
+|-damage|p2b: Kingambit|78/100
+|-damage|p1b: Dragonite|48/100|[from] item: Life Orb
+|move|p1a: Sneasler|Dire Claw|p2b: Kingambit
+|-immune|p2b: Kingambit
+|move|p2a: Basculegion|Last Respects|p1a: Sneasler
+|-damage|p1a: Sneasler|7/100
+|
+|upkeep
+|turn|4
+|
+|t:|1785419581
+|move|p2b: Kingambit|Sucker Punch|p1a: Sneasler
+|-resisted|p1a: Sneasler|1
+|-damage|p1a: Sneasler|0 fnt
+|faint|p1a: Sneasler
+|move|p2a: Basculegion|Last Respects|p1b: Dragonite
+|-damage|p1b: Dragonite|3/100
+|move|p1b: Dragonite|Dragon Claw|p2b: Kingambit
+|-resisted|p2b: Kingambit|1
+|-damage|p2b: Kingambit|46/100
+|-damage|p1b: Dragonite|0 fnt|[from] item: Life Orb
+|faint|p1b: Dragonite
+|
+|upkeep
+|
+|t:|1785419592
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|turn|5
+|
+|t:|1785419604
+|move|p1b: Whimsicott|Tailwind|p1b: Whimsicott
+|-sidestart|p1: natsukivgc|move: Tailwind
+|move|p2a: Basculegion|Last Respects|p1b: Whimsicott
+|-damage|p1b: Whimsicott|9/100
+|move|p1a: Kingambit|Kowtow Cleave|p2a: Basculegion
+|-supereffective|p2a: Basculegion|1
+|-damage|p2a: Basculegion|0 fnt
+|faint|p2a: Basculegion
+|move|p2b: Kingambit|Iron Head|p1b: Whimsicott
+|-supereffective|p1b: Whimsicott|1
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|
+|upkeep
+|
+|t:|1785419611
+|switch|p2a: Staraptor|Staraptor-Mega, L50, M|45/100 psn
+|turn|6
+|
+|t:|1785419642
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2a: Staraptor|Close Combat|p1a: Kingambit
+|-activate|p1a: Kingambit|move: Protect
+|move|p2b: Kingambit|Kowtow Cleave|p1a: Kingambit
+|-activate|p1a: Kingambit|move: Protect
+|
+|-damage|p2a: Staraptor|32/100 psn|[from] psn
+|upkeep
+|turn|7
+|
+|t:|1785419662
+|move|p2a: Staraptor|Roost|p2a: Staraptor
+|-heal|p2a: Staraptor|83/100 psn
+|-singleturn|p2a: Staraptor|move: Roost
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Kingambit
+|-resisted|p2b: Kingambit|1
+|-damage|p2b: Kingambit|28/100
+|move|p2b: Kingambit|Kowtow Cleave|p1a: Kingambit
+|-resisted|p1a: Kingambit|1
+|-damage|p1a: Kingambit|82/100
+|
+|-damage|p2a: Staraptor|70/100 psn|[from] psn
+|upkeep
+|turn|8
+|
+|t:|1785419675
+|move|p1a: Kingambit|Sucker Punch|p2a: Staraptor
+|-resisted|p2a: Staraptor|1
+|-damage|p2a: Staraptor|49/100 psn
+|move|p2a: Staraptor|Close Combat|p1a: Kingambit
+|-supereffective|p1a: Kingambit|2
+|-damage|p1a: Kingambit|0 fnt
+|-boost|p2a: Staraptor|def|1
+|-boost|p2a: Staraptor|spd|1
+|faint|p1a: Kingambit
+|
+|win|MrBurning
+|raw|natsukivgc's rating: 1204 → 1172(-32 for losing)
+|raw|MrBurning's rating: 1099 → 1132(+33 for winning)

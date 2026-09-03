@@ -1,0 +1,159 @@
+|j|☆shawnie.d
+|j|☆badluckryan
+|html|shawnie.dbadluckryan    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785288866
+|gametype|doubles
+|player|p1|shawnie.d|170|
+|player|p2|badluckryan|266|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Chandelure, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Scolipede, L50, M|
+|poke|p1|Tsareena, L50, F|
+|poke|p1|Whimsicott, L50, M, shiny|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Alakazam, L50, F|
+|poke|p2|Meowstic, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Scrafty, L50, M|
+|poke|p2|Emboar, L50, M|
+|poke|p2|Politoed, L50, M|
+|teampreview|4
+|showteam|p1|Chandelure||Chandelurite|Infiltrator|HeatWave,ShadowBall,Protect,TrickRoom|Modest||F|||50|]Garchomp||LifeOrb|RoughSkin|StompingTantrum,DragonClaw,Protect,RockSlide|Jolly||M|||50|]Scolipede||Scolipite|SpeedBoost|PoisonJab,LeechLife,Protect,SwordsDance|Adamant||M|||50|]Tsareena||WideLens|QueenlyMajesty|PowerWhip,TripleAxel,Protect,HelpingHand|Adamant||F|||50|]Whimsicott||FocusSash|Prankster|Moonblast,GigaDrain,SunnyDay,Tailwind|Modest||M|||50|]Basculegion||ChoiceScarf|Adaptability|LastRespects,FlipTurn,AquaJet,WaveCrash|Jolly||M|||50|
+|showteam|p2|Alakazam||Alakazite|InnerFocus|ExpandingForce,DazzlingGleam,FocusBlast,Protect|Modest||F|||50|]Meowstic||TwistedSpoon|Prankster|FakeOut,ExpandingForce,PsychicTerrain,Protect|Modest||M|||50|]Sneasler||FocusSash|Unburden|DireClaw,CloseCombat,FakeOut,Protect|Adamant||M|||50|]Scrafty||SitrusBerry|Intimidate|FakeOut,KnockOff,CloseCombat,Protect|Careful||M|||50|]Emboar||Emboarite|Reckless|BulkUp,FlareBlitz,DrainPunch,Protect|Adamant||M|||50|]Politoed||Leftovers|Drizzle|MuddyWater,EarthPower,PerishSong,Protect|Modest||M|||50|
+|
+|t:|1785288899
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, M, shiny|100/100
+|switch|p1b: Chandelure|Chandelure, L50, F|100/100
+|switch|p2a: Meowstic|Meowstic, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|turn|1
+|j| myriadonphone
+|
+|t:|1785288934
+|switch|p2a: Scrafty|Scrafty, L50, M|100/100
+|-ability|p2a: Scrafty|Intimidate|boost
+|-unboost|p1a: Whimsicott|atk|1
+|-unboost|p1b: Chandelure|atk|1
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|detailschange|p1b: Chandelure|Chandelure-Mega, L50, F
+|-mega|p1b: Chandelure|Chandelure|Chandelurite
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1b: Chandelure|Heat Wave|p2a: Scrafty|[spread] p2a
+|-activate|p2b: Sneasler|move: Protect
+|-damage|p2a: Scrafty|62/100
+|
+|upkeep
+|turn|2
+|
+|t:|1785288968
+|switch|p2b: Emboar|Emboar, L50, M|100/100
+|move|p1a: Basculegion|Flip Turn|p2b: Emboar
+|-supereffective|p2b: Emboar|1
+|-damage|p2b: Emboar|15/100
+|
+|t:|1785288978
+|switch|p1a: Whimsicott|Whimsicott, L50, M, shiny|100/100|[from] Flip Turn
+|move|p1b: Chandelure|Heat Wave|p2b: Emboar|[spread] p2a,p2b
+|-resisted|p2b: Emboar|1
+|-damage|p2a: Scrafty|27/100
+|-damage|p2b: Emboar|0 fnt
+|-enditem|p2a: Scrafty|Sitrus Berry|[eat]
+|-heal|p2a: Scrafty|52/100|[from] item: Sitrus Berry
+|faint|p2b: Emboar
+|move|p2a: Scrafty|Knock Off|p1a: Whimsicott
+|-resisted|p1a: Whimsicott|1
+|-damage|p1a: Whimsicott|78/100
+|-enditem|p1a: Whimsicott|Focus Sash|[from] move: Knock Off|[of] p2a: Scrafty
+|
+|upkeep
+|
+|t:|1785289012
+|switch|p2b: Sneasler|Sneasler, L50, M|100/100
+|turn|3
+|
+|t:|1785289034
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: shawnie.d|move: Tailwind
+|move|p1b: Chandelure|Heat Wave|p2a: Scrafty|[spread] p2a,p2b
+|-damage|p2a: Scrafty|18/100
+|-damage|p2b: Sneasler|38/100
+|move|p2b: Sneasler|Dire Claw|p1a: Whimsicott
+|-supereffective|p1a: Whimsicott|2
+|-damage|p1a: Whimsicott|0 fnt
+|faint|p1a: Whimsicott
+|move|p2a: Scrafty|Knock Off|p1b: Chandelure
+|-supereffective|p1b: Chandelure|1
+|-crit|p1b: Chandelure
+|-damage|p1b: Chandelure|22/100
+|
+|upkeep
+|
+|t:|1785289049
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100
+|turn|4
+|
+|t:|1785289083
+|switch|p2a: Meowstic|Meowstic, L50, M|100/100
+|move|p2b: Sneasler|Protect|p2b: Sneasler
+|-singleturn|p2b: Sneasler|Protect
+|move|p1a: Garchomp|Rock Slide|p2a: Meowstic|[spread] p2a
+|-activate|p2b: Sneasler|move: Protect
+|-damage|p2a: Meowstic|65/100
+|-damage|p1a: Garchomp|90/100|[from] item: Life Orb
+|move|p1b: Chandelure|Heat Wave|p2b: Sneasler|[spread] p2a
+|-activate|p2b: Sneasler|move: Protect
+|-damage|p2a: Meowstic|1/100
+|
+|upkeep
+|turn|5
+|
+|t:|1785289114
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2a: Meowstic|Fake Out|p1a: Garchomp
+|-activate|p1a: Garchomp|move: Protect
+|move|p1b: Chandelure|Heat Wave|p2b: Sneasler|[spread] p2a,p2b
+|-damage|p2a: Meowstic|0 fnt
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2a: Meowstic
+|faint|p2b: Sneasler
+|
+|upkeep
+|
+|t:|1785289128
+|switch|p2a: Scrafty|Scrafty, L50, M|18/100
+|-ability|p2a: Scrafty|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|-unboost|p1b: Chandelure|atk|1
+|turn|6
+|
+|t:|1785289146
+|move|p1b: Chandelure|Protect|p1b: Chandelure
+|-singleturn|p1b: Chandelure|Protect
+|move|p2a: Scrafty|Fake Out|p1a: Garchomp
+|-damage|p1a: Garchomp|80/100
+|-damage|p2a: Scrafty|5/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|cant|p1a: Garchomp|flinch
+|
+|-sideend|p1: shawnie.d|move: Tailwind
+|upkeep
+|turn|7
+|
+|t:|1785289162
+|move|p1a: Garchomp|Dragon Claw|p2a: Scrafty
+|-damage|p2a: Scrafty|0 fnt
+|faint|p2a: Scrafty
+|-damage|p1a: Garchomp|70/100|[from] item: Life Orb
+|
+|win|shawnie.d
+|l| myriadonphone

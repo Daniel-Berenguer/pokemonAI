@@ -66,7 +66,7 @@ for filename in filenames:
     X = [torch.stack(tensor) for tensor in tensors]
     Y = torch.stack(labels).float()
 
-    boardInt = X[0].to(cuda)
+    boardSide = X[0].to(cuda)
     boardFeat = X[1].to(cuda)
     pokeInt = X[2].to(cuda)
     pokeFeat = X[3].to(cuda)
@@ -75,7 +75,7 @@ for filename in filenames:
 
     print(moveInt.shape)
 
-    logits = model.forward(pokeInt, pokeFeat, moveInt, moveFeat,boardInt, boardFeat)
+    logits = model.forward(pokeInt, pokeFeat, moveInt, moveFeat,boardSide, boardFeat)
 
     output = torch.sigmoid(logits)
 

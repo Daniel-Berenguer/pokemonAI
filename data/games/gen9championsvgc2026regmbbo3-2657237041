@@ -1,0 +1,112 @@
+|j|☆Seteshy
+|j|☆pastao
+|html|Seteshypastao    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1785426105
+|gametype|doubles
+|player|p1|Seteshy|1|
+|player|p2|pastao|1|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Glimmora, L50, M|
+|poke|p1|Garganacl, L50, F|
+|poke|p1|Kleavor, L50, M|
+|poke|p1|Arcanine-Hisui, L50, F|
+|poke|p1|Aerodactyl, L50, F|
+|poke|p2|Tsareena, L50, F|
+|poke|p2|Venusaur, L50, F|
+|poke|p2|Sceptile, L50, F|
+|poke|p2|Meowscarada, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Scovillain, L50, M|
+|teampreview|4
+|showteam|p1|Tyranitar||Tyranitarite|SandStream|RockSlide,KnockOff,Protect,HighHorsepower|Adamant||M|||50|]Glimmora||FocusSash|ToxicDebris|PowerGem,SpikyShield,EarthPower,MortalSpin|Modest||M|||50|]Garganacl||Leftovers|PurifyingSalt|SaltCure,BodyPress,IronDefense,Recover|Careful||F|||50|]Kleavor||ChoiceScarf|Sharpness|StoneAxe,XScissor,Uturn,CloseCombat|Adamant||M|||50|]Arcanine-Hisui||LifeOrb|RockHead|FlareBlitz,HeadSmash,WildCharge,ExtremeSpeed|Adamant||F|||50|]Aerodactyl||Aerodactylite|Unnerve|RockSlide,Tailwind,DualWingbeat,Protect|Jolly||F|||50|
+|showteam|p2|Tsareena||WideLens|QueenlyMajesty|TripleAxel,Protect,TropKick,LowKick|Adamant||F|||50|]Venusaur||Venusaurite|Chlorophyll|SludgeBomb,Protect,EarthPower,GigaDrain|Modest||F|||50|]Sceptile||Sceptilite|Overgrow|DragonPulse,EarthPower,Detect,EnergyBall|Timid||F|||50|]Meowscarada||ChoiceScarf|Protean|FlowerTrick,TripleAxel,KnockOff,Uturn|Jolly||M|||50|]Whimsicott||FocusSash|Prankster|SunnyDay,Tailwind,Encore,Protect|Timid||M|||50|]Scovillain||QuickClaw|Chlorophyll|RagePowder,Protect,GigaDrain,Flamethrower|Bold||M|||50|
+|
+|t:|1785426151
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Aerodactyl|Aerodactyl, L50, F|100/100
+|switch|p1b: Arcanine|Arcanine-Hisui, L50, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Meowscarada|Meowscarada, L50, M|100/100
+|-ability|p1a: Aerodactyl|Unnerve
+|turn|1
+|
+|t:|1785426198
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: pastao|move: Tailwind
+|move|p2b: Meowscarada|U-turn|p1b: Arcanine
+|-start|p2b: Meowscarada|typechange|Bug|[from] ability: Protean
+|-resisted|p1b: Arcanine|1
+|-damage|p1b: Arcanine|81/100
+|
+|t:|1785426212
+|switch|p2b: Venusaur|Venusaur, L50, F|100/100|[from] U-turn
+|move|p1a: Aerodactyl|Tailwind|p1a: Aerodactyl
+|-sidestart|p1: Seteshy|move: Tailwind
+|move|p1b: Arcanine|Flare Blitz|p2b: Venusaur
+|-supereffective|p2b: Venusaur|1
+|-damage|p2b: Venusaur|0 fnt
+|faint|p2b: Venusaur
+|-damage|p1b: Arcanine|71/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1785426236
+|switch|p2b: Tsareena|Tsareena, L50, F|100/100
+|turn|2
+|
+|t:|1785426262
+|detailschange|p1a: Aerodactyl|Aerodactyl-Mega, L50, F
+|-mega|p1a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p2a: Whimsicott|Encore|p1a: Aerodactyl
+|-start|p1a: Aerodactyl|Encore
+|move|p1a: Aerodactyl|Tailwind||[still]
+|-fail|p1a: Aerodactyl
+|move|p1b: Arcanine|Flare Blitz|p2b: Tsareena
+|-supereffective|p2b: Tsareena|1
+|-damage|p2b: Tsareena|0 fnt
+|faint|p2b: Tsareena
+|-damage|p1b: Arcanine|61/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1785426272
+|switch|p2b: Meowscarada|Meowscarada, L50, M|100/100
+|turn|3
+|
+|t:|1785426294
+|move|p2a: Whimsicott|Protect|p2a: Whimsicott
+|-singleturn|p2a: Whimsicott|Protect
+|move|p2b: Meowscarada|Flower Trick|p1b: Arcanine
+|-start|p2b: Meowscarada|typechange|Grass|[from] ability: Protean
+|-crit|p1b: Arcanine
+|-damage|p1b: Arcanine|4/100
+|move|p1a: Aerodactyl|Tailwind||[still]
+|-fail|p1a: Aerodactyl
+|move|p1b: Arcanine|Flare Blitz|p2b: Meowscarada
+|-supereffective|p2b: Meowscarada|1
+|-damage|p2b: Meowscarada|0 fnt
+|faint|p2b: Meowscarada
+|-damage|p1b: Arcanine|0 fnt|[from] item: Life Orb
+|faint|p1b: Arcanine
+|
+|upkeep
+|
+|t:|1785426310
+|switch|p1b: Kleavor|Kleavor, L50, M|100/100
+|turn|4
+|-message|pastao forfeited.
+|
+|win|Seteshy
+||Seteshy is ready for game 2.
+||pastao is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆pastao
+|player|p2|

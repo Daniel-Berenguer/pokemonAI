@@ -1,0 +1,214 @@
+|j|☆NandoGTG
+|j|☆Craser13
+|html|NandoGTGCraser13    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1785282331
+|gametype|doubles
+|player|p1|NandoGTG|cheren|
+|player|p2|Craser13|265|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Hydreigon, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Toxapex, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Venusaur, L50, M|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Kingambit, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,SolarBeam,Protect|Modest||F|||50|]Hydreigon||ChoiceScarf|Levitate|DarkPulse,DracoMeteor,Snarl,EarthPower|Modest||F|||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,ThroatChop,FakeOut,PartingShot|Impish||M|||50|]Toxapex||Leftovers|Regenerator|Infestation,Toxic,WideGuard,BanefulBunker|Bold||F|||50|]Garchomp||HabanBerry|RoughSkin|DragonClaw,Earthquake,RockTomb,Protect|Jolly||F|||50|]Venusaur||FocusSash|Chlorophyll|SludgeBomb,EarthPower,SleepPowder,Protect|Modest||M|||50|
+|showteam|p2|Floette-Eternal||Floettite|FlowerVeil|Moonblast,DazzlingGleam,LightofRuin,Protect|Modest||F|||50|]Charizard||CharizarditeY|Blaze|HeatWave,SolarBeam,WeatherBall,Protect|Timid||M|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,RockSlide,DragonClaw,Protect|Jolly||M|||50|]Whimsicott||FocusSash|Prankster|Moonblast,Tailwind,Encore,Protect|Timid||F|||50|]Basculegion||MysticWater|Adaptability|WaveCrash,LastRespects,AquaJet,Protect|Adamant||M|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,LowKick,Protect|Adamant||F|||50|
+|
+|t:|1785282459
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Venusaur|Venusaur, L50, M|100/100
+|switch|p1b: Charizard|Charizard, L50, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2b: Kingambit|Kingambit, L50, F|100/100
+|turn|1
+|
+|t:|1785282477
+|switch|p2b: Garchomp|Garchomp, L50, M|100/100
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: Craser13|move: Tailwind
+|move|p1b: Charizard|Heat Wave|p2a: Whimsicott|[spread] p2a,p2b
+|-supereffective|p2a: Whimsicott|1
+|-resisted|p2b: Garchomp|1
+|-enditem|p2a: Whimsicott|Focus Sash
+|-damage|p2a: Whimsicott|1/100
+|-damage|p2b: Garchomp|84/100
+|move|p1a: Venusaur|Sleep Powder|p2b: Garchomp
+|-status|p2b: Garchomp|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|2
+|
+|t:|1785282502
+|detailschange|p1b: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p1b: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|move|p2a: Whimsicott|Protect|p2a: Whimsicott
+|-singleturn|p2a: Whimsicott|Protect
+|move|p1a: Venusaur|Protect|p1a: Venusaur
+|-singleturn|p1a: Venusaur|Protect
+|cant|p2b: Garchomp|slp
+|move|p1b: Charizard|Heat Wave|p2a: Whimsicott|[spread] p2b
+|-activate|p2a: Whimsicott|move: Protect
+|-resisted|p2b: Garchomp|1
+|-damage|p2b: Garchomp|51/100 slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1785282552
+|switch|p1b: Toxapex|Toxapex, L50, F|100/100
+|move|p2a: Whimsicott|Encore|p1a: Venusaur
+|-start|p1a: Venusaur|Encore
+|move|p1a: Venusaur|Protect||[still]
+|-fail|p1a: Venusaur
+|-curestatus|p2b: Garchomp|slp|[msg]
+|move|p2b: Garchomp|Rock Slide|p1a: Venusaur|[spread] p1a,p1b
+|-damage|p1a: Venusaur|67/100
+|-damage|p1b: Toxapex|82/100
+|-damage|p2b: Garchomp|41/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Toxapex|88/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1785282578
+|switch|p1a: Charizard|Charizard-Mega-Y, L50, F|100/100
+|move|p1b: Toxapex|Wide Guard|p1b: Toxapex
+|-singleturn|p1b: Toxapex|Wide Guard
+|move|p2a: Whimsicott|Moonblast|p1b: Toxapex
+|-resisted|p1b: Toxapex|1
+|-damage|p1b: Toxapex|75/100
+|move|p2b: Garchomp|Dragon Claw|p1b: Toxapex
+|-damage|p1b: Toxapex|39/100
+|-damage|p2b: Garchomp|31/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Toxapex|45/100|[from] item: Leftovers
+|-sideend|p2: Craser13|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1785282613
+|move|p1b: Toxapex|Baneful Bunker|p1b: Toxapex
+|-singleturn|p1b: Toxapex|move: Protect
+|move|p2a: Whimsicott|Encore|p1b: Toxapex
+|-activate|p1b: Toxapex|move: Protect
+|move|p2b: Garchomp|Dragon Claw|p1a: Charizard
+|-damage|p1a: Charizard|48/100
+|-damage|p2b: Garchomp|21/100|[from] item: Life Orb
+|move|p1a: Charizard|Heat Wave|p2a: Whimsicott|[spread] p2a,p2b
+|-supereffective|p2a: Whimsicott|1
+|-resisted|p2b: Garchomp|1
+|-damage|p2a: Whimsicott|0 fnt
+|-damage|p2b: Garchomp|0 fnt
+|faint|p2a: Whimsicott
+|faint|p2b: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1b: Toxapex|50/100g|[from] item: Leftovers
+|upkeep
+|
+|t:|1785282625
+|switch|p2a: Floette|Floette-Eternal, L50, F|100/100
+|switch|p2b: Kingambit|Kingambit, L50, F|100/100
+|turn|6
+|
+|t:|1785282655
+|-heal|p1b: Toxapex|84/100|[from] ability: Regenerator|[silent]
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|detailschange|p2a: Floette|Floette-Mega, L50, F
+|-mega|p2a: Floette|Floette|Floettite
+|-ability|p2a: Floette|Fairy Aura
+|move|p1a: Charizard|Protect|p1a: Charizard
+|-singleturn|p1a: Charizard|Protect
+|move|p2b: Kingambit|Sucker Punch||[still]
+|-fail|p2b: Kingambit
+|move|p2a: Floette|Moonblast|p1a: Charizard
+|-activate|p1a: Charizard|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1785282738
+|switch|p1a: Toxapex|Toxapex, L50, F|84/100
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p2b: Kingambit|Sucker Punch||[still]
+|-fail|p2b: Kingambit
+|move|p2a: Floette|Dazzling Gleam|p1b: Garchomp|[spread] p1a
+|-activate|p1b: Garchomp|move: Protect
+|-resisted|p1a: Toxapex|1
+|-damage|p1a: Toxapex|66/100
+|
+|-heal|p1a: Toxapex|71/100|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1785282758
+|move|p1b: Garchomp|Rock Tomb|p2a: Floette
+|-damage|p2a: Floette|74/100
+|-unboost|p2a: Floette|spe|1
+|move|p2a: Floette|Moonblast|p1b: Garchomp
+|-supereffective|p1b: Garchomp|1
+|-damage|p1b: Garchomp|0 fnt
+|faint|p1b: Garchomp
+|move|p2b: Kingambit|Kowtow Cleave|p1a: Toxapex
+|-damage|p1a: Toxapex|33/100
+|move|p1a: Toxapex|Toxic|p2a: Floette
+|-status|p2a: Floette|tox
+|
+|-heal|p1a: Toxapex|39/100|[from] item: Leftovers
+|-damage|p2a: Floette|68/100 tox|[from] psn
+|upkeep
+|
+|t:|1785282766
+|switch|p1b: Venusaur|Venusaur, L50, M|67/100
+|turn|9
+|
+|t:|1785282785
+|-heal|p1a: Toxapex|72/100|[from] ability: Regenerator|[silent]
+|switch|p1a: Charizard|Charizard-Mega-Y, L50, F|48/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2b: Kingambit|Sucker Punch||[still]
+|-fail|p2b: Kingambit
+|move|p1b: Venusaur|Sleep Powder|p2b: Kingambit
+|-status|p2b: Kingambit|slp|[from] move: Sleep Powder
+|move|p2a: Floette|Moonblast|p1b: Venusaur
+|-resisted|p1b: Venusaur|1
+|-damage|p1b: Venusaur|22/100
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Floette|56/100 tox|[from] psn
+|upkeep
+|turn|10
+|
+|t:|1785282809
+|move|p1b: Venusaur|Sludge Bomb|p2a: Floette
+|-supereffective|p2a: Floette|1
+|-damage|p2a: Floette|0 fnt
+|faint|p2a: Floette
+|move|p1a: Charizard|Weather Ball|p2b: Kingambit
+|-supereffective|p2b: Kingambit|1
+|-crit|p2b: Kingambit
+|-damage|p2b: Kingambit|0 fnt
+|faint|p2b: Kingambit
+|
+|win|NandoGTG

@@ -1,0 +1,135 @@
+|j|☆Voltage fis
+|j|☆aqueousbloop
+|html|Voltage fisaqueousbloop    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785221640
+|gametype|doubles
+|player|p1|Voltage fis|102|1000
+|player|p2|aqueousbloop|265|1040
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Houndoom, L50, F|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Goodra-Hisui, L50, F|
+|poke|p1|Araquanid, L50, F|
+|poke|p1|Noivern, L50, F|
+|poke|p1|Krookodile, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Oranguru, L50, M|
+|poke|p2|Mawile, L50, F|
+|poke|p2|Kangaskhan, L50, F|
+|poke|p2|Venusaur, L50, M|
+|poke|p2|Torkoal, L50, M|
+|teampreview|4
+|showteam|p1|Houndoom||Houndoominite|FlashFire|DarkPulse,Flamethrower,NastyPlot,HyperVoice|Timid||F|||50|]Whimsicott||FocusSash|Prankster|Tailwind,Moonblast,Encore,EnergyBall|Timid||M|||50|]Goodra-Hisui||SitrusBerry|Gooey|Curse,KnockOff,DragonClaw,GyroBall|Brave||F|||50|]Araquanid||Leftovers|WaterBubble|Liquidation,LeechLife,PoisonJab,StickyWeb|Adamant||F|||50|]Noivern||YacheBerry|Telepathy|SunnyDay,Boomburst,DracoMeteor,AirSlash|Timid||F|||50|]Krookodile||LifeOrb|Intimidate|CloseCombat,Earthquake,DragonClaw,ThroatChop|Jolly||F|||50|
+|showteam|p2|Hatterene||LifeOrb|MagicBounce|Protect,Psychic,TrickRoom,DazzlingGleam|Quiet||F|||50|]Oranguru||MentalHerb|InnerFocus|Protect,Instruct,Psychic,TrickRoom|Bold||M|||50|]Mawile||Mawilite|HyperCutter|SuckerPunch,PlayRough,Protect,IronHead|Brave||F|||50|]Kangaskhan||SilkScarf|Scrappy|LastResort,FakeOut|Brave||F|||50|]Venusaur||FocusSash|Chlorophyll|LeafStorm,SludgeBomb,SleepPowder,Protect|Modest||M|||50|]Torkoal||Charcoal|Drought|Eruption,Protect,EarthPower,HeatWave|Quiet||M|||50|
+|
+|t:|1785221655
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Goodra|Goodra-Hisui, L50, F|100/100
+|switch|p1b: Araquanid|Araquanid, L50, F|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, L50, F|100/100
+|switch|p2b: Oranguru|Oranguru, L50, M|100/100
+|turn|1
+|
+|t:|1785221689
+|switch|p2b: Hatterene|Hatterene, L50, F|100/100
+|move|p2a: Kangaskhan|Fake Out|p1b: Araquanid
+|-damage|p1b: Araquanid|77/100
+|move|p1a: Goodra|Curse|p1a: Goodra
+|-unboost|p1a: Goodra|spe|1
+|-boost|p1a: Goodra|atk|1
+|-boost|p1a: Goodra|def|1
+|cant|p1b: Araquanid|flinch
+|
+|-heal|p1b: Araquanid|82/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1785221707
+|move|p2a: Kangaskhan|Last Resort|p1b: Araquanid
+|-damage|p1b: Araquanid|0 fnt
+|faint|p1b: Araquanid
+|move|p1a: Goodra|Gyro Ball|p2b: Hatterene
+|-supereffective|p2b: Hatterene|1
+|-damage|p2b: Hatterene|59/100
+|move|p2b: Hatterene|Dazzling Gleam|p1a: Goodra
+|-damage|p1a: Goodra|58/100
+|-damage|p2b: Hatterene|50/100y|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1785221724
+|switch|p1b: Krookodile|Krookodile, L50, F|100/100
+|-ability|p1b: Krookodile|Intimidate|boost
+|-fail|p2a: Kangaskhan|unboost|Attack|[from] ability: Scrappy|[of] p2a: Kangaskhan
+|-unboost|p2b: Hatterene|atk|1
+|turn|3
+|
+|t:|1785221741
+|move|p1b: Krookodile|Close Combat|p2a: Kangaskhan
+|-supereffective|p2a: Kangaskhan|1
+|-damage|p2a: Kangaskhan|0 fnt
+|-unboost|p1b: Krookodile|def|1
+|-unboost|p1b: Krookodile|spd|1
+|faint|p2a: Kangaskhan
+|-damage|p1b: Krookodile|90/100|[from] item: Life Orb
+|move|p1a: Goodra|Gyro Ball|p2b: Hatterene
+|-supereffective|p2b: Hatterene|1
+|-damage|p2b: Hatterene|9/100
+|move|p2b: Hatterene|Dazzling Gleam|p1b: Krookodile|[spread] p1a,p1b
+|-supereffective|p1b: Krookodile|1
+|-damage|p1a: Goodra|26/100
+|-damage|p1b: Krookodile|0 fnt
+|-enditem|p1a: Goodra|Sitrus Berry|[eat]
+|-heal|p1a: Goodra|50/100g|[from] item: Sitrus Berry
+|faint|p1b: Krookodile
+|-damage|p2b: Hatterene|0 fnt|[from] item: Life Orb
+|faint|p2b: Hatterene
+|
+|upkeep
+|
+|t:|1785221761
+|switch|p1b: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2a: Mawile|Mawile, L50, F|100/100
+|switch|p2b: Oranguru|Oranguru, L50, M|100/100
+|turn|4
+|
+|t:|1785221789
+|detailschange|p2a: Mawile|Mawile-Mega, L50, F
+|-mega|p2a: Mawile|Mawile|Mawilite
+|move|p1b: Whimsicott|Moonblast|p2a: Mawile
+|-resisted|p2a: Mawile|1
+|-damage|p2a: Mawile|78/100
+|move|p2b: Oranguru|Psychic|p1b: Whimsicott
+|-damage|p1b: Whimsicott|53/100
+|move|p2a: Mawile|Play Rough|p1a: Goodra
+|-damage|p1a: Goodra|0 fnt
+|-ability|p1a: Goodra|Gooey
+|-unboost|p2a: Mawile|spe|1
+|faint|p1a: Goodra
+|
+|upkeep
+|turn|5
+|
+|t:|1785221815
+|move|p1b: Whimsicott|Moonblast|p2b: Oranguru
+|-damage|p2b: Oranguru|72/100
+|-unboost|p2b: Oranguru|spa|1
+|move|p2b: Oranguru|Instruct|p2a: Mawile
+|-singleturn|p2a: Mawile|move: Instruct|[of] p2b: Oranguru
+|move|p2a: Mawile|Play Rough|p1b: Whimsicott
+|-damage|p1b: Whimsicott|0 fnt
+|faint|p1b: Whimsicott
+|
+|win|aqueousbloop
+|raw|Voltage fis's rating: 1000 → 1000(+0 for losing)
+|raw|aqueousbloop's rating: 1040 → 1070(+30 for winning)
+|l|☆Voltage fis
+|player|p1|

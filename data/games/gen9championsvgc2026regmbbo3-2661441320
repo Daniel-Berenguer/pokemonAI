@@ -1,0 +1,214 @@
+|j|☆Crowy09
+|j|☆Hellfridge
+|html|Crowy09Hellfridge    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1786133786
+|gametype|doubles
+|player|p1|Crowy09|chuck|1000
+|player|p2|Hellfridge|170|1022
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Annihilape, L50, M|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Toxapex, L50, F|
+|poke|p1|Metagross, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Hydreigon, L50, M|
+|poke|p2|Starmie, L50|
+|poke|p2|Scizor, L50, M|
+|poke|p2|Umbreon, L50, M|
+|poke|p2|Dragapult, L50, F|
+|poke|p2|Maushold-Four, L50|
+|poke|p2|Garchomp, L50, M|
+|teampreview|4
+|showteam|p1|Annihilape||FocusSash|Defiant|PhantomForce,CloseCombat,RockTomb,Protect|Adamant||M|||50|]Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,SolarBeam,Protect|Modest||M|||50|]Toxapex||Leftovers|Regenerator|Toxic,Infestation,WideGuard,BanefulBunker|Bold||F|||50|]Metagross||Metagrossite|ClearBody|BulletPunch,PsychicFangs,StompingTantrum,Protect|Jolly|||||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,ThroatChop,PartingShot,FakeOut|Impish||M|||50|]Hydreigon||ChoiceScarf|Levitate|DarkPulse,DracoMeteor,Snarl,HeatWave|Modest||M|||50|
+|showteam|p2|Starmie||Starminite|NaturalCure|SkillSwap,Protect,IcyWind,Scald|Timid|||||50|]Scizor||SitrusBerry|Technician|BulletPunch,CloseCombat,Lunge,Protect|Adamant||M|||50|]Umbreon||Leftovers|InnerFocus|Taunt,Toxic,FoulPlay,Detect|Bold||M|||50|]Dragapult||FocusSash|CursedBody|DragonDarts,PhantomForce,PsychicFangs,Protect|Jolly||F|||50|]Maushold-Four||ChopleBerry|FriendGuard|Protect,FollowMe,PopulationBomb,Feint|Impish|||||50|]Garchomp||Garchompite|RoughSkin|EarthPower,DragonPulse,Protect,PowerGem|Modest||M|||50|
+|
+|t:|1786133844
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Hydreigon|Hydreigon, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Dragapult|Dragapult, L50, F|100/100
+|switch|p2b: Maushold|Maushold-Four, L50|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Dragapult|atk|1
+|-unboost|p2b: Maushold|atk|1
+|turn|1
+|
+|t:|1786133864
+|move|p1b: Incineroar|Fake Out|p2b: Maushold
+|-damage|p2b: Maushold|86/100
+|cant|p2b: Maushold|flinch
+|move|p1a: Hydreigon|Dark Pulse|p2a: Dragapult
+|-supereffective|p2a: Dragapult|1
+|-damage|p2a: Dragapult|15/100
+|-start|p1a: Hydreigon|Disable|Dark Pulse|[from] ability: Cursed Body|[of] p2a: Dragapult
+|move|p2a: Dragapult|Dragon Darts|p1a: Hydreigon
+|-supereffective|p1a: Hydreigon|1
+|-damage|p1a: Hydreigon|63/100
+|-anim|p2a: Dragapult|Dragon Darts|p1b: Incineroar
+|-damage|p1b: Incineroar|87/100
+|
+|upkeep
+|turn|2
+|
+|t:|1786133889
+|switch|p1a: Metagross|Metagross, L50|100/100
+|move|p2b: Maushold|Follow Me|p2b: Maushold
+|-singleturn|p2b: Maushold|move: Follow Me
+|move|p2a: Dragapult|Dragon Darts|p1a: Metagross
+|-resisted|p1a: Metagross|1
+|-damage|p1a: Metagross|92/100
+|-anim|p2a: Dragapult|Dragon Darts|p1b: Incineroar
+|-damage|p1b: Incineroar|73/100
+|move|p1b: Incineroar|Parting Shot|p2b: Maushold
+|-unboost|p2b: Maushold|atk|1
+|-unboost|p2b: Maushold|spa|1
+|
+|t:|1786133911
+|switch|p1b: Annihilape|Annihilape, L50, M|100/100|[from] Parting Shot
+|
+|upkeep
+|turn|3
+|
+|t:|1786133926
+|detailschange|p1a: Metagross|Metagross-Mega, L50
+|-mega|p1a: Metagross|Metagross|Metagrossite
+|move|p2b: Maushold|Protect|p2b: Maushold
+|-singleturn|p2b: Maushold|Protect
+|move|p1a: Metagross|Bullet Punch|p2a: Dragapult
+|-damage|p2a: Dragapult|0 fnt
+|-start|p1a: Metagross|Disable|Bullet Punch|[from] ability: Cursed Body|[of] p2a: Dragapult
+|faint|p2a: Dragapult
+|move|p1b: Annihilape|Close Combat|p2b: Maushold
+|-activate|p2b: Maushold|move: Protect
+|
+|upkeep
+|
+|t:|1786133939
+|switch|p2a: Starmie|Starmie, L50|100/100
+|turn|4
+|
+|t:|1786133949
+|switch|p2b: Scizor|Scizor, L50, M|100/100
+|detailschange|p2a: Starmie|Starmie-Mega, L50
+|-mega|p2a: Starmie|Starmie|Starminite
+|move|p1a: Metagross|Protect|p1a: Metagross
+|-singleturn|p1a: Metagross|Protect
+|move|p2a: Starmie|Skill Swap|p2b: Scizor
+|-activate|p2a: Starmie|Skill Swap|||[of] p2b: Scizor
+|move|p1b: Annihilape|Phantom Force||[still]
+|-prepare|p1b: Annihilape|Phantom Force
+|
+|upkeep
+|turn|5
+|
+|t:|1786133977
+|switch|p1a: Incineroar|Incineroar, L50, M|73/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Starmie|atk|1
+|-unboost|p2b: Scizor|atk|1
+|move|p2a: Starmie|Protect|p2a: Starmie
+|-singleturn|p2a: Starmie|Protect
+|move|p1b: Annihilape|Phantom Force|p2a: Starmie|[from] lockedmove
+|-activate|p2a: Starmie|move: Phantom Force|[broken]
+|-supereffective|p2a: Starmie|1
+|-damage|p2a: Starmie|0 fnt
+|faint|p2a: Starmie
+|move|p2b: Scizor|Lunge|p1a: Incineroar
+|-damage|p1a: Incineroar|30/100
+|-unboost|p1a: Incineroar|atk|1
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|55/100|[from] item: Sitrus Berry
+|
+|upkeep
+|
+|t:|1786133993
+|switch|p2a: Maushold|Maushold-Four, L50|86/100
+|turn|6
+|
+|t:|1786134031
+|move|p1a: Incineroar|Fake Out|p2b: Scizor
+|-resisted|p2b: Scizor|1
+|-damage|p2b: Scizor|97/100
+|move|p2a: Maushold|Follow Me|p2a: Maushold
+|-singleturn|p2a: Maushold|move: Follow Me
+|cant|p2b: Scizor|flinch
+|move|p1b: Annihilape|Close Combat|p2a: Maushold
+|-supereffective|p2a: Maushold|1
+|-enditem|p2a: Maushold|Chople Berry|[eat]
+|-enditem|p2a: Maushold|Chople Berry|[weaken]
+|-damage|p2a: Maushold|6/100
+|-unboost|p1b: Annihilape|def|1
+|-unboost|p1b: Annihilape|spd|1
+|
+|upkeep
+|turn|7
+|
+|t:|1786134068
+|move|p2a: Maushold|Population Bomb|p1a: Incineroar
+|-damage|p1a: Incineroar|50/100g
+|-damage|p1a: Incineroar|46/100
+|-damage|p1a: Incineroar|41/100
+|-damage|p1a: Incineroar|37/100
+|-damage|p1a: Incineroar|32/100
+|-damage|p1a: Incineroar|28/100
+|-damage|p1a: Incineroar|23/100
+|-crit|p1a: Incineroar
+|-damage|p1a: Incineroar|17/100
+|-damage|p1a: Incineroar|13/100
+|-damage|p1a: Incineroar|8/100
+|-hitcount|p1a: Incineroar|10
+|move|p1b: Annihilape|Close Combat|p2a: Maushold
+|-supereffective|p2a: Maushold|1
+|-damage|p2a: Maushold|0 fnt
+|-unboost|p1b: Annihilape|def|1
+|-unboost|p1b: Annihilape|spd|1
+|faint|p2a: Maushold
+|move|p2b: Scizor|Close Combat|p1a: Incineroar
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|0 fnt
+|-unboost|p2b: Scizor|def|1
+|-unboost|p2b: Scizor|spd|1
+|faint|p1a: Incineroar
+|
+|upkeep
+|
+|t:|1786134098
+|switch|p1a: Metagross|Metagross-Mega, L50|92/100
+|turn|8
+|
+|t:|1786134122
+|move|p2b: Scizor|Bullet Punch|p1b: Annihilape
+|-damage|p1b: Annihilape|24/100
+|move|p1a: Metagross|Stomping Tantrum|p2b: Scizor
+|-damage|p2b: Scizor|45/100
+|-enditem|p2b: Scizor|Sitrus Berry|[eat]
+|-heal|p2b: Scizor|70/100|[from] item: Sitrus Berry
+|move|p1b: Annihilape|Phantom Force||[still]
+|-prepare|p1b: Annihilape|Phantom Force
+|
+|upkeep
+|turn|9
+|
+|t:|1786134134
+|move|p1a: Metagross|Psychic Fangs|p2b: Scizor
+|-resisted|p2b: Scizor|1
+|-damage|p2b: Scizor|27/100
+|move|p1b: Annihilape|Phantom Force|p2b: Scizor|[from] lockedmove
+|-damage|p2b: Scizor|0 fnt
+|faint|p2b: Scizor
+|
+|win|Crowy09
+|raw|Crowy09's rating: 1000 → 1043(+43 for winning)
+|raw|Hellfridge's rating: 1022 → 1008(-14 for losing)
+|c|☆Crowy09|ggwp :)
+|c|☆Hellfridge|gg :)
+|l|☆Hellfridge
+|player|p2|

@@ -1,0 +1,275 @@
+|j|☆almiavgc
+|j|☆GS Barnabe
+|html|almiavgcGS Barnabe    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1785599363
+|gametype|doubles
+|player|p1|almiavgc|hilbert|1167
+|player|p2|GS Barnabe|2|1180
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Venusaur, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Toxapex, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p2|Meowstic, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Scovillain, L50, M|
+|poke|p2|Houndstone, L50, M|
+|poke|p2|Rotom-Wash, L50|
+|poke|p2|Aerodactyl, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,HelpingHand,Protect|Timid||M|||50|]Venusaur||LifeOrb|Chlorophyll|SludgeBomb,SolarBeam,EarthPower,Protect|Modest||M|||50|]Garchomp||ChoiceScarf|RoughSkin|Earthquake,DragonClaw,RockSlide,StompingTantrum|Adamant||M|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,ThroatChop,PartingShot|Impish||M|||50|]Toxapex||Leftovers|Regenerator|Infestation,Toxic,WideGuard,BanefulBunker|Relaxed||F|||50|]Kingambit||FocusSash|Defiant|KowtowCleave,LowKick,SuckerPunch,Protect|Adamant||M|||50|
+|showteam|p2|Meowstic||LightClay|Prankster|FakeOut,Reflect,LightScreen,PsychicNoise|Bold||M|||50|]Tyranitar||ChoiceScarf|SandStream|RockSlide,KnockOff,IcePunch,Superpower|Jolly||F|||50|]Scovillain||Scovillainite|Moody|Overheat,LeechSeed,RagePowder,Protect|Calm||M|||50|]Houndstone||SitrusBerry|SandRush|LastRespects,Disable,AllySwitch,Protect|Adamant||M|||50|]Rotom-Wash||Leftovers|Levitate|HydroPump,VoltSwitch,WillOWisp,Protect|Calm|||||50|]Aerodactyl||Aerodactylite|RockHead|RockSlide,DualWingbeat,Tailwind,Protect|Jolly||M|||50|
+|
+|t:|1785599414
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, L50, M|100/100
+|switch|p2b: Rotom|Rotom-Wash, L50|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Aerodactyl|atk|1
+|-unboost|p2b: Rotom|atk|1
+|turn|1
+|
+|t:|1785599440
+|move|p2a: Aerodactyl|Protect|p2a: Aerodactyl
+|-singleturn|p2a: Aerodactyl|Protect
+|move|p1a: Incineroar|Fake Out|p2b: Rotom
+|-damage|p2b: Rotom|89/100
+|move|p1b: Garchomp|Rock Slide|p2a: Aerodactyl|[spread] 
+|-activate|p2a: Aerodactyl|move: Protect
+|-miss|p1b: Garchomp|p2b: Rotom
+|cant|p2b: Rotom|flinch
+|
+|-heal|p2b: Rotom|94/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1785599469
+|switch|p1b: Venusaur|Venusaur, L50, M|100/100
+|detailschange|p2a: Aerodactyl|Aerodactyl-Mega, L50, M
+|-mega|p2a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p2a: Aerodactyl|Rock Slide|p1a: Incineroar|[spread] p1a
+|-miss|p2a: Aerodactyl|p1b: Venusaur
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|67/100
+|move|p2b: Rotom|Will-O-Wisp|p1b: Venusaur
+|-status|p1b: Venusaur|brn
+|cant|p1a: Incineroar|flinch
+|
+|-heal|p2b: Rotom|100/100|[from] item: Leftovers
+|-damage|p1b: Venusaur|94/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1785599503
+|move|p2a: Aerodactyl|Dual Wingbeat|p1b: Venusaur
+|-supereffective|p1b: Venusaur|1
+|-damage|p1b: Venusaur|51/100 brn
+|-supereffective|p1b: Venusaur|1
+|-damage|p1b: Venusaur|8/100 brn
+|-hitcount|p1b: Venusaur|2
+|move|p2b: Rotom|Hydro Pump|p1a: Incineroar|[miss]
+|-miss|p2b: Rotom|p1a: Incineroar
+|move|p1b: Venusaur|Sludge Bomb|p2b: Rotom
+|-damage|p2b: Rotom|49/100
+|-status|p2b: Rotom|psn
+|-damage|p1b: Venusaur|0 fnt|[from] item: Life Orb
+|faint|p1b: Venusaur
+|move|p1a: Incineroar|Parting Shot|p2b: Rotom
+|-unboost|p2b: Rotom|atk|1
+|-unboost|p2b: Rotom|spa|1
+|
+|t:|1785599507
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100|[from] Parting Shot
+|
+|-heal|p2b: Rotom|55/100 psn|[from] item: Leftovers
+|-damage|p2b: Rotom|42/100 psn|[from] psn
+|upkeep
+|
+|t:|1785599512
+|switch|p1b: Incineroar|Incineroar, L50, M|67/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Aerodactyl|atk|1
+|-unboost|p2b: Rotom|atk|1
+|turn|4
+|
+|t:|1785599534
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p2b: Rotom|Protect|p2b: Rotom
+|-singleturn|p2b: Rotom|Protect
+|move|p1b: Incineroar|Fake Out|p2b: Rotom
+|-activate|p2b: Rotom|move: Protect
+|move|p1a: Garchomp|Rock Slide|p2a: Tyranitar|[spread] p2a
+|-activate|p2b: Rotom|move: Protect
+|-damage|p2a: Tyranitar|80/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Rotom|37/100 psn|[from] Sandstorm
+|-damage|p1b: Incineroar|61/100|[from] Sandstorm
+|-heal|p2b: Rotom|42/100 psn|[from] item: Leftovers
+|-damage|p2b: Rotom|30/100 psn|[from] psn
+|upkeep
+|turn|5
+|
+|t:|1785599558
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|move|p2a: Tyranitar|Rock Slide|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Kingambit|1
+|-supereffective|p1b: Incineroar|1
+|-damage|p1a: Kingambit|86/100
+|-damage|p1b: Incineroar|13/100
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|38/100|[from] item: Sitrus Berry
+|move|p2b: Rotom|Will-O-Wisp|p1a: Kingambit
+|-status|p1a: Kingambit|brn
+|move|p1b: Incineroar|Parting Shot|p2a: Tyranitar
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2a: Tyranitar|spa|1
+|
+|t:|1785599568
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100|[from] Parting Shot
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Rotom|25/100 psn|[from] Sandstorm
+|-heal|p2b: Rotom|30/100 psn|[from] item: Leftovers
+|-damage|p2b: Rotom|18/100 psn|[from] psn
+|-damage|p1a: Kingambit|80/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1785599604
+|switch|p2a: Aerodactyl|Aerodactyl-Mega, L50, M|100/100
+|move|p1b: Garchomp|Rock Slide|p2b: Rotom|[spread] p2a,p2b
+|-supereffective|p2a: Aerodactyl|1
+|-damage|p2a: Aerodactyl|46/100
+|-damage|p2b: Rotom|0 fnt
+|faint|p2b: Rotom
+|move|p1a: Kingambit|Low Kick|p2a: Aerodactyl
+|-damage|p2a: Aerodactyl|27/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Kingambit|74/100 brn|[from] brn
+|upkeep
+|
+|t:|1785599635
+|switch|p2b: Tyranitar|Tyranitar, L50, F|80/100
+|turn|7
+|
+|t:|1785599647
+|switch|p1a: Incineroar|Incineroar, L50, M|38/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Aerodactyl|atk|1
+|-unboost|p2b: Tyranitar|atk|1
+|move|p1b: Garchomp|Rock Slide|p2a: Aerodactyl|[spread] p2a,p2b
+|-supereffective|p2a: Aerodactyl|1
+|-damage|p2a: Aerodactyl|0 fnt
+|-damage|p2b: Tyranitar|58/100
+|faint|p2a: Aerodactyl
+|move|p2b: Tyranitar|Rock Slide|p1b: Garchomp|[spread] p1a,p1b
+|-supereffective|p1a: Incineroar|1
+|-resisted|p1b: Garchomp|1
+|-damage|p1a: Incineroar|7/100
+|-damage|p1b: Garchomp|90/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Incineroar|1/100|[from] Sandstorm
+|upkeep
+|
+|t:|1785599664
+|switch|p2a: Houndstone|Houndstone, L50, M|100/100
+|turn|8
+|
+|t:|1785599675
+|switch|p1a: Kingambit|Kingambit, L50, M|74/100 brn
+|move|p1b: Garchomp|Rock Slide|p2b: Tyranitar|[spread] p2a,p2b
+|-damage|p2a: Houndstone|80/100
+|-damage|p2b: Tyranitar|40/100
+|move|p2a: Houndstone|Last Respects|p1b: Garchomp
+|-damage|p1b: Garchomp|26/100
+|move|p2b: Tyranitar|Rock Slide|p1b: Garchomp|[spread] p1a,p1b
+|-resisted|p1a: Kingambit|1
+|-resisted|p1b: Garchomp|1
+|-damage|p1a: Kingambit|66/100 brn
+|-damage|p1b: Garchomp|16/100
+|
+|-weather|none
+|-damage|p1a: Kingambit|59/100 brn|[from] brn
+|upkeep
+|turn|9
+|
+|t:|1785599719
+|switch|p1b: Incineroar|Incineroar, L50, M|1/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Houndstone|atk|1
+|-unboost|p2b: Tyranitar|atk|1
+|move|p1a: Kingambit|Protect|p1a: Kingambit
+|-singleturn|p1a: Kingambit|Protect
+|move|p2b: Tyranitar|Rock Slide|p1b: Incineroar|[spread] p1b
+|-activate|p1a: Kingambit|move: Protect
+|-supereffective|p1b: Incineroar|1
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|move|p2a: Houndstone|Last Respects|p1a: Kingambit
+|-activate|p1a: Kingambit|move: Protect
+|
+|-damage|p1a: Kingambit|53/100 brn|[from] brn
+|upkeep
+|
+|t:|1785599721
+|switch|p1b: Garchomp|Garchomp, L50, M|16/100
+|turn|10
+|
+|t:|1785599760
+|move|p2a: Houndstone|Ally Switch|p2a: Houndstone
+|swap|p2a: Houndstone|1|[from] move: Ally Switch
+|move|p1a: Kingambit|Sucker Punch|p2a: Tyranitar
+|-resisted|p2a: Tyranitar|1
+|-damage|p2a: Tyranitar|30/100
+|move|p1b: Garchomp|Stomping Tantrum|p2b: Houndstone
+|-damage|p2b: Houndstone|40/100
+|-enditem|p2b: Houndstone|Sitrus Berry|[eat]
+|-heal|p2b: Houndstone|65/100|[from] item: Sitrus Berry
+|move|p2a: Tyranitar|Rock Slide|p1a: Kingambit|[spread] p1a,p1b
+|-resisted|p1a: Kingambit|1
+|-resisted|p1b: Garchomp|1
+|-damage|p1a: Kingambit|48/100 brn
+|-damage|p1b: Garchomp|8/100
+|
+|-damage|p1a: Kingambit|41/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1785599805
+|move|p1b: Garchomp|Stomping Tantrum|p2a: Tyranitar
+|-supereffective|p2a: Tyranitar|1
+|-damage|p2a: Tyranitar|0 fnt
+|faint|p2a: Tyranitar
+|move|p2b: Houndstone|Disable|p1a: Kingambit
+|-start|p1a: Kingambit|Disable|Sucker Punch
+|move|p1a: Kingambit|Kowtow Cleave|p2b: Houndstone
+|-supereffective|p2b: Houndstone|1
+|-damage|p2b: Houndstone|17/100
+|
+|-damage|p1a: Kingambit|35/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1785599820
+|move|p1b: Garchomp|Stomping Tantrum|p2b: Houndstone
+|-damage|p2b: Houndstone|0 fnt
+|faint|p2b: Houndstone
+|
+|win|almiavgc
+||almiavgc is ready for game 2.

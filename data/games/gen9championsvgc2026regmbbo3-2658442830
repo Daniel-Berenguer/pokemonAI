@@ -1,0 +1,197 @@
+|j|☆Brunito zambonin
+|j|☆GS Barnabe
+|html|Brunito zamboninGS Barnabe    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1785632073
+|gametype|doubles
+|player|p1|Brunito zambonin|265|1197
+|player|p2|GS Barnabe|1|1228
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Meowstic, L50, M|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Scovillain, L50, M|
+|poke|p2|Houndstone, L50, M|
+|poke|p2|Rotom-Wash, L50|
+|poke|p2|Aerodactyl, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|Protect,SolarBeam,WeatherBall,HeatWave|Modest||F|||50|]Whimsicott||FocusSash|Prankster|Moonblast,Encore,Tailwind,Protect|Timid||F|||50|]Garchomp||LifeOrb|RoughSkin|Protect,RockSlide,DragonClaw,Earthquake|Adamant||F|||50|]Kingambit||ChopleBerry|Defiant|LowKick,SuckerPunch,IronHead,KowtowCleave|Adamant||M|||50|]Sylveon||FairyFeather|Pixilate|Protect,HyperVoice,HyperBeam,QuickAttack|Modest||M|||50|]Basculegion||MysticWater|Adaptability|Protect,WaveCrash,AquaJet,LastRespects|Adamant||M|||50|
+|showteam|p2|Meowstic||LightClay|Prankster|FakeOut,Reflect,LightScreen,PsychicNoise|Bold||M|||50|]Tyranitar||ChoiceScarf|SandStream|RockSlide,KnockOff,IcePunch,Superpower|Jolly||F|||50|]Scovillain||Scovillainite|Moody|Overheat,LeechSeed,RagePowder,Protect|Calm||M|||50|]Houndstone||SitrusBerry|SandRush|LastRespects,Disable,AllySwitch,Protect|Adamant||M|||50|]Rotom-Wash||Leftovers|Levitate|HydroPump,VoltSwitch,WillOWisp,Protect|Calm|||||50|]Aerodactyl||Aerodactylite|RockHead|RockSlide,DualWingbeat,Tailwind,Protect|Jolly||M|||50|
+|
+|t:|1785632091
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Garchomp|Garchomp, L50, F|100/100
+|switch|p1b: Sylveon|Sylveon, L50, M|100/100
+|switch|p2a: Scovillain|Scovillain, L50, M|100/100
+|switch|p2b: Meowstic|Meowstic, L50, M|100/100
+|turn|1
+|
+|t:|1785632128
+|detailschange|p2a: Scovillain|Scovillain-Mega, L50, M
+|-mega|p2a: Scovillain|Scovillain|Scovillainite
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2b: Meowstic|Fake Out|p1a: Garchomp
+|-activate|p1a: Garchomp|move: Protect
+|move|p2a: Scovillain|Leech Seed|p1b: Sylveon
+|-start|p1b: Sylveon|move: Leech Seed
+|move|p1b: Sylveon|Hyper Beam|p2b: Meowstic
+|-damage|p2b: Meowstic|0 fnt
+|-mustrecharge|p1b: Sylveon
+|faint|p2b: Meowstic
+|
+|-damage|p1b: Sylveon|87/100|[from] Leech Seed|[of] p2a: Scovillain
+|upkeep
+|
+|t:|1785632147
+|switch|p2b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|turn|2
+|
+|t:|1785632167
+|move|p2b: Tyranitar|Ice Punch|p1a: Garchomp
+|-supereffective|p1a: Garchomp|2
+|-damage|p1a: Garchomp|1/100
+|-damage|p2b: Tyranitar|88/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|move|p1a: Garchomp|Rock Slide|p2a: Scovillain|[spread] p2a,p2b
+|-supereffective|p2a: Scovillain|1
+|-damage|p2a: Scovillain|45/100
+|-damage|p2b: Tyranitar|65/100
+|-status|p1a: Garchomp|brn|[from] ability: Spicy Spray|[of] p2a: Scovillain
+|-damage|p1a: Garchomp|0 fnt|[from] item: Life Orb
+|faint|p1a: Garchomp
+|move|p2a: Scovillain|Leech Seed||[still]
+|-fail|p2a: Scovillain
+|cant|p1b: Sylveon|recharge
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Scovillain|39/100|[from] Sandstorm
+|-damage|p1b: Sylveon|81/100|[from] Sandstorm
+|-damage|p1b: Sylveon|68/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|52/100|[silent]
+|upkeep
+|
+|t:|1785632184
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|turn|3
+|
+|t:|1785632204
+|switch|p2b: Rotom|Rotom-Wash, L50|100/100
+|move|p2a: Scovillain|Protect|p2a: Scovillain
+|-singleturn|p2a: Scovillain|Protect
+|move|p1a: Basculegion|Wave Crash|p2a: Scovillain
+|-activate|p2a: Scovillain|move: Protect
+|move|p1b: Sylveon|Hyper Voice|p2a: Scovillain|[spread] p2b
+|-activate|p2a: Scovillain|move: Protect
+|-damage|p2b: Rotom|53/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Rotom|48/100|[from] Sandstorm
+|-damage|p1a: Basculegion|93/100|[from] Sandstorm
+|-damage|p2a: Scovillain|46/100|[from] Sandstorm
+|-damage|p1b: Sylveon|62/100|[from] Sandstorm
+|-heal|p2b: Rotom|53/100|[from] item: Leftovers
+|-damage|p1b: Sylveon|50/100g|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|59/100|[silent]
+|upkeep
+|turn|4
+|
+|t:|1785632244
+|move|p1a: Basculegion|Protect|p1a: Basculegion
+|-singleturn|p1a: Basculegion|Protect
+|move|p2b: Rotom|Volt Switch|p1a: Basculegion
+|-activate|p1a: Basculegion|move: Protect
+|move|p2a: Scovillain|Leech Seed|p1a: Basculegion
+|-activate|p1a: Basculegion|move: Protect
+|move|p1b: Sylveon|Hyper Beam|p2b: Rotom
+|-damage|p2b: Rotom|0 fnt
+|-mustrecharge|p1b: Sylveon
+|faint|p2b: Rotom
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Basculegion|87/100|[from] Sandstorm
+|-damage|p2a: Scovillain|53/100|[from] Sandstorm
+|-damage|p1b: Sylveon|44/100|[from] Sandstorm
+|-damage|p1b: Sylveon|31/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|66/100|[silent]
+|upkeep
+|
+|t:|1785632248
+|switch|p2b: Tyranitar|Tyranitar, L50, F|65/100
+|turn|5
+|
+|t:|1785632285
+|move|p2b: Tyranitar|Superpower|p1b: Sylveon
+|-resisted|p1b: Sylveon|1
+|-damage|p1b: Sylveon|9/100
+|-unboost|p2b: Tyranitar|atk|1
+|-unboost|p2b: Tyranitar|def|1
+|move|p1a: Basculegion|Wave Crash|p2b: Tyranitar
+|-supereffective|p2b: Tyranitar|1
+|-damage|p2b: Tyranitar|0 fnt
+|faint|p2b: Tyranitar
+|-damage|p1a: Basculegion|68/100|[from] Recoil
+|move|p2a: Scovillain|Leech Seed|p1a: Basculegion
+|-start|p1a: Basculegion|move: Leech Seed
+|cant|p1b: Sylveon|recharge
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Basculegion|62/100|[from] Sandstorm
+|-damage|p2a: Scovillain|60/100|[from] Sandstorm
+|-damage|p1b: Sylveon|3/100|[from] Sandstorm
+|-damage|p1a: Basculegion|49/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|74/100|[silent]
+|-damage|p1b: Sylveon|0 fnt|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|77/100|[silent]
+|faint|p1b: Sylveon
+|upkeep
+|
+|t:|1785632305
+|switch|p1b: Kingambit|Kingambit, L50, M|100/100
+|turn|6
+|
+|t:|1785632334
+|move|p2a: Scovillain|Protect|p2a: Scovillain
+|-singleturn|p2a: Scovillain|Protect
+|move|p1a: Basculegion|Last Respects|p2a: Scovillain
+|-activate|p2a: Scovillain|move: Protect
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Scovillain
+|-activate|p2a: Scovillain|move: Protect
+|
+|-weather|none
+|-damage|p1a: Basculegion|37/100|[from] Leech Seed|[of] p2a: Scovillain
+|-heal|p2a: Scovillain|91/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1785632351
+|move|p1a: Basculegion|Last Respects|p2a: Scovillain
+|-damage|p2a: Scovillain|4/100
+|-status|p1a: Basculegion|brn|[from] ability: Spicy Spray|[of] p2a: Scovillain
+|move|p2a: Scovillain|Overheat|p1b: Kingambit
+|-supereffective|p1b: Kingambit|1
+|-damage|p1b: Kingambit|4/100
+|-unboost|p2a: Scovillain|spa|2
+|move|p1b: Kingambit|Kowtow Cleave|p2a: Scovillain
+|-damage|p2a: Scovillain|0 fnt
+|-status|p1b: Kingambit|brn|[from] ability: Spicy Spray|[of] p2a: Scovillain
+|faint|p2a: Scovillain
+|
+|win|Brunito zambonin
+|raw|Brunito zambonin's rating: 1197 → 1224(+27 for winning)
+|raw|GS Barnabe's rating: 1228 → 1201(-27 for losing)
+|c|☆Brunito zambonin|chupla
+|c|☆Brunito zambonin|chupala
+|c|☆Brunito zambonin|chupala

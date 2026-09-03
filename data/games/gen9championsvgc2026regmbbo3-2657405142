@@ -1,0 +1,194 @@
+|j|☆notoriousczr
+|j|☆4prongedutsenil
+|html|notoriousczr4prongedutsenil    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785448481
+|gametype|doubles
+|player|p1|notoriousczr|clown|
+|player|p2|4prongedutsenil|dawn|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Drampa, L50, F|
+|poke|p1|Diggersby, L50, M|
+|poke|p1|Zoroark-Hisui, L50, M|
+|poke|p1|Kangaskhan, L50, F|
+|poke|p1|Staraptor, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Lucario, L50, F|
+|poke|p2|Scrafty, L50, M|
+|poke|p2|Quaquaval, L50, F|
+|poke|p2|Blaziken, L50, F|
+|poke|p2|Falinks, L50|
+|teampreview|4
+|showteam|p1|Drampa||SitrusBerry|Berserk|DragonPulse,HyperVoice,HeatWave,Protect|Modest||F|||50|]Diggersby||SilkScarf|HugePower|BodySlam,HighHorsepower,QuickAttack,Protect|Adamant||M|||50|]Zoroark-Hisui||LifeOrb|Illusion|BitterMalice,Snarl,HyperVoice,Protect|Timid||M|||50|]Kangaskhan||Kangaskhanite|Scrappy|FakeOut,HammerArm,DoubleEdge,SuckerPunch|Adamant||F|||50|]Staraptor||FocusSash|Intimidate|DualWingbeat,CloseCombat,Tailwind,Protect|Jolly||M|||50|]Farigiraf||ColburBerry|ArmorTail|TrickRoom,Protect,HyperVoice,Psychic|Quiet||M|||50|
+|showteam|p2|Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,ThroatChop,Protect|Adamant||M|||50|]Lucario||Lucarionite|Steadfast|AuraSphere,FlashCannon,VacuumWave,Detect|Timid||F|||50|]Scrafty||SitrusBerry|Intimidate|FakeOut,KnockOff,Detect,DrainPunch|Careful||M|||50|]Quaquaval||FocusSash|Moxie|CloseCombat,Protect,AquaStep,WaveCrash|Jolly||F|||50|]Blaziken||Charcoal|SpeedBoost|Coaching,Detect,HeatWave,AuraSphere|Modest||F|||50|]Falinks||Falinksite|Defiant|NoRetreat,Protect,CloseCombat,RockSlide|Jolly|||||50|
+|
+|t:|1785448510
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: MonoNormal(genius)|Kangaskhan, L50, F|100/100
+|switch|p1b: MonoPsychic|Farigiraf, L50, M|100/100
+|switch|p2a: Falinks|Falinks, L50|100/100
+|switch|p2b: Blaziken|Blaziken, L50, F|100/100
+|turn|1
+|
+|t:|1785448537
+|detailschange|p2a: Falinks|Falinks-Mega, L50
+|-mega|p2a: Falinks|Falinks|Falinksite
+|detailschange|p1a: MonoNormal(genius)|Kangaskhan-Mega, L50, F
+|-mega|p1a: MonoNormal(genius)|Kangaskhan|Kangaskhanite
+|move|p1a: MonoNormal(genius)|Fake Out|p2a: Falinks
+|-damage|p2a: Falinks|76/100
+|-damage|p2a: Falinks|71/100
+|-hitcount|p2a: Falinks|2
+|cant|p2a: Falinks|flinch
+|move|p2b: Blaziken|Heat Wave|p1b: MonoPsychic|[spread] p1a,p1b
+|-damage|p1a: MonoNormal(genius)|61/100
+|-damage|p1b: MonoPsychic|55/100
+|move|p1b: MonoPsychic|Trick Room|p1b: MonoPsychic
+|-fieldstart|move: Trick Room|[of] p1b: MonoPsychic
+|
+|-ability|p2b: Blaziken|Speed Boost|boost
+|-boost|p2b: Blaziken|spe|1
+|upkeep
+|turn|2
+|
+|t:|1785448571
+|switch|p2b: Scrafty|Scrafty, L50, M|100/100
+|-ability|p2b: Scrafty|Intimidate|boost
+|-unboost|p1a: MonoNormal(genius)|atk|1
+|-unboost|p1b: MonoPsychic|atk|1
+|move|p1b: MonoPsychic|Psychic|p2a: Falinks
+|-supereffective|p2a: Falinks|1
+|-damage|p2a: Falinks|0 fnt
+|faint|p2a: Falinks
+|move|p1a: MonoNormal(genius)|Hammer Arm|p2b: Scrafty|[miss]
+|-miss|p1a: MonoNormal(genius)|p2b: Scrafty
+|
+|upkeep
+|
+|t:|1785448597
+|switch|p2a: Blaziken|Blaziken, L50, F|100/100
+|turn|3
+|
+|t:|1785448605
+|switch|p1a: MonoFlying|Staraptor, L50, M|100/100
+|-ability|p1a: MonoFlying|Intimidate|boost
+|-unboost|p2a: Blaziken|atk|1
+|-unboost|p2b: Scrafty|atk|1
+|move|p2a: Blaziken|Detect|p2a: Blaziken
+|-singleturn|p2a: Blaziken|Protect
+|move|p1b: MonoPsychic|Psychic|p2a: Blaziken
+|-activate|p2a: Blaziken|move: Protect
+|move|p2b: Scrafty|Knock Off|p1a: MonoFlying
+|-damage|p1a: MonoFlying|68/100
+|-enditem|p1a: MonoFlying|Focus Sash|[from] move: Knock Off|[of] p2b: Scrafty
+|
+|-ability|p2a: Blaziken|Speed Boost|boost
+|-boost|p2a: Blaziken|spe|1
+|upkeep
+|turn|4
+|
+|t:|1785448626
+|move|p1b: MonoPsychic|Psychic|p2a: Blaziken
+|-supereffective|p2a: Blaziken|1
+|-crit|p2a: Blaziken
+|-damage|p2a: Blaziken|0 fnt
+|faint|p2a: Blaziken
+|move|p2b: Scrafty|Knock Off|p1b: MonoPsychic
+|-supereffective|p1b: MonoPsychic|1
+|-enditem|p1b: MonoPsychic|Colbur Berry|[eat]
+|-enditem|p1b: MonoPsychic|Colbur Berry|[weaken]
+|-damage|p1b: MonoPsychic|39/100
+|move|p1a: MonoFlying|Dual Wingbeat|p2b: Scrafty|[miss]
+|-miss|p1a: MonoFlying|p2b: Scrafty
+|
+|upkeep
+|
+|t:|1785448629
+|switch|p2a: Quaquaval|Quaquaval, L50, F|100/100
+|turn|5
+|
+|t:|1785448644
+|move|p2b: Scrafty|Detect|p2b: Scrafty
+|-singleturn|p2b: Scrafty|Protect
+|move|p1a: MonoFlying|Protect|p1a: MonoFlying
+|-singleturn|p1a: MonoFlying|Protect
+|move|p1b: MonoPsychic|Psychic|p2a: Quaquaval
+|-supereffective|p2a: Quaquaval|1
+|-damage|p2a: Quaquaval|3/100
+|move|p2a: Quaquaval|Aqua Step|p1a: MonoFlying
+|-activate|p1a: MonoFlying|move: Protect
+|
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1785448664
+|move|p1a: MonoFlying|Close Combat|p2a: Quaquaval
+|-damage|p2a: Quaquaval|0 fnt
+|-unboost|p1a: MonoFlying|def|1
+|-unboost|p1a: MonoFlying|spd|1
+|faint|p2a: Quaquaval
+|move|p2b: Scrafty|Drain Punch|p1a: MonoFlying
+|-damage|p1a: MonoFlying|34/100
+|move|p1b: MonoPsychic|Hyper Voice|p2b: Scrafty
+|-damage|p2b: Scrafty|73/100
+|
+|upkeep
+|turn|7
+|
+|t:|1785448675
+|move|p1a: MonoFlying|Dual Wingbeat|p2b: Scrafty
+|-supereffective|p2b: Scrafty|1
+|-damage|p2b: Scrafty|38/100
+|-enditem|p2b: Scrafty|Sitrus Berry|[eat]
+|-heal|p2b: Scrafty|63/100|[from] item: Sitrus Berry
+|-supereffective|p2b: Scrafty|1
+|-damage|p2b: Scrafty|25/100
+|-hitcount|p2b: Scrafty|2
+|move|p2b: Scrafty|Drain Punch|p1a: MonoFlying
+|-damage|p1a: MonoFlying|0 fnt
+|-heal|p2b: Scrafty|41/100|[from] drain|[of] p1a: MonoFlying
+|faint|p1a: MonoFlying
+|move|p1b: MonoPsychic|Hyper Voice|p2b: Scrafty
+|-damage|p2b: Scrafty|13/100
+|
+|upkeep
+|
+|t:|1785448683
+|switch|p1a: MonoGround|Diggersby, L50, M|100/100
+|turn|8
+|
+|t:|1785448691
+|move|p2b: Scrafty|Detect|p2b: Scrafty
+|-singleturn|p2b: Scrafty|Protect
+|move|p1a: MonoGround|Quick Attack|p2b: Scrafty
+|-activate|p2b: Scrafty|move: Protect
+|move|p1b: MonoPsychic|Hyper Voice|p2b: Scrafty
+|-activate|p2b: Scrafty|move: Protect
+|
+|upkeep
+|turn|9
+|
+|t:|1785448699
+|move|p1a: MonoGround|Quick Attack|p2b: Scrafty
+|-damage|p2b: Scrafty|0 fnt
+|faint|p2b: Scrafty
+|
+|win|notoriousczr
+|l|☆4prongedutsenil
+|player|p2|
+|j|☆4prongedutsenil
+|player|p2|4prongedutsenil|dawn|
+|l|☆4prongedutsenil
+|player|p2|
+|l|☆notoriousczr
+|player|p1|
+|j|☆notoriousczr
+|player|p1|notoriousczr|clown|

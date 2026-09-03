@@ -1,0 +1,212 @@
+|j|☆testdigi
+|j|☆strye
+|html|testdigistrye    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785330865
+|gametype|doubles
+|player|p1|testdigi|169|1110
+|player|p2|strye|169|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Gholdengo, L50, shiny|
+|poke|p1|Milotic, L50, M, shiny|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Staraptor, L50, M|
+|poke|p2|Mawile, L50, F, shiny|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Maushold, L50|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Incineroar, L50, F, shiny|
+|teampreview|4
+|showteam|p1|Tyranitar||Tyranitarite|SandStream|RockSlide,KnockOff,LowKick,Protect|Jolly||M|||50|]Excadrill||FocusSash|SandRush|HighHorsepower,IronHead,RockSlide,Protect|Adamant||M|||50|]Gholdengo||LifeOrb|GoodasGold|ShadowBall,MakeItRain,NastyPlot,Protect|Modest|||||50|]Milotic||SitrusBerry|Competitive|Scald,IceBeam,IcyWind,Protect|Calm||M|||50|]Sinistcha||ColburBerry|Hospitality|MatchaGotcha,LifeDew,RagePowder,Protect|Bold|||||50|]Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,Tailwind,Protect|Jolly||M|||50|
+|showteam|p2|Mawile||Mawilite|HyperCutter|PlayRough,SuckerPunch,RockSlide,BrickBreak|Brave||F|||50|]Charizard||CharizarditeY|SolarPower|HeatWave,WeatherBall,SolarBeam,Protect|Modest||F|||50|]Maushold||WideLens|Technician|PopulationBomb,Feint,FollowMe,Protect|Jolly|||||50|]Farigiraf||ColburBerry|ArmorTail|TwinBeam,Thunderbolt,HelpingHand,TrickRoom|Relaxed||M|||50|]Basculegion||LifeOrb|Adaptability|WaveCrash,AquaJet,LastRespects,Protect|Adamant||M|||50|]Incineroar||Charcoal|Intimidate|FakeOut,FlareBlitz,DarkestLariat,PartingShot|Brave||F|||50|
+|
+|t:|1785330940
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Staraptor|Staraptor, L50, M|100/100
+|switch|p1b: Milotic|Milotic, L50, M, shiny|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, M|100/100
+|-ability|p1a: Staraptor|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Farigiraf|atk|1
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Staraptor|atk|1
+|-unboost|p1b: Milotic|atk|1
+|-ability|p1b: Milotic|Competitive|boost
+|-boost|p1b: Milotic|spa|2
+|turn|1
+|
+|t:|1785330955
+|detailschange|p1a: Staraptor|Staraptor-Mega, L50, M
+|-mega|p1a: Staraptor|Staraptor|Staraptite
+|move|p2a: Incineroar|Fake Out|p1b: Milotic
+|-damage|p1b: Milotic|91/100
+|move|p1a: Staraptor|Close Combat|p2a: Incineroar
+|-supereffective|p2a: Incineroar|1
+|-damage|p2a: Incineroar|31/100
+|-boost|p1a: Staraptor|def|1
+|-boost|p1a: Staraptor|spd|1
+|cant|p1b: Milotic|flinch
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1785330971
+|move|p1a: Staraptor|Protect|p1a: Staraptor
+|-singleturn|p1a: Staraptor|Protect
+|move|p2a: Incineroar|Flare Blitz|p1a: Staraptor
+|-activate|p1a: Staraptor|move: Protect
+|move|p2b: Farigiraf|Thunderbolt|p1b: Milotic
+|-supereffective|p1b: Milotic|1
+|-damage|p1b: Milotic|58/100
+|move|p1b: Milotic|Scald|p2b: Farigiraf
+|-damage|p2b: Farigiraf|50/100g
+|
+|upkeep
+|turn|3
+|
+|t:|1785330990
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|move|p2b: Farigiraf|Thunderbolt|p1b: Milotic
+|-supereffective|p1b: Milotic|1
+|-damage|p1b: Milotic|26/100
+|-enditem|p1b: Milotic|Sitrus Berry|[eat]
+|-heal|p1b: Milotic|51/100|[from] item: Sitrus Berry
+|move|p2a: Incineroar|Flare Blitz|p1a: Tyranitar
+|-resisted|p1a: Tyranitar|1
+|-damage|p1a: Tyranitar|79/100
+|-damage|p2a: Incineroar|25/100|[from] Recoil
+|move|p1b: Milotic|Scald|p2a: Incineroar
+|-supereffective|p2a: Incineroar|1
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Farigiraf|44/100|[from] Sandstorm
+|-damage|p1b: Milotic|45/100|[from] Sandstorm
+|upkeep
+|
+|t:|1785331005
+|switch|p2a: Mawile|Mawile, L50, F, shiny|100/100
+|turn|4
+|
+|t:|1785331025
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|switch|p1a: Sinistcha|Sinistcha, L50|100/100
+|-heal|p1b: Milotic|70/100|[from] ability: Hospitality|[of] p1a: Sinistcha
+|detailschange|p2a: Mawile|Mawile-Mega, L50, F, shiny
+|-mega|p2a: Mawile|Mawile|Mawilite
+|move|p1b: Milotic|Protect|p1b: Milotic
+|-singleturn|p1b: Milotic|Protect
+|move|p2a: Mawile|Play Rough|p1b: Milotic
+|-activate|p1b: Milotic|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sinistcha|94/100|[from] Sandstorm
+|-damage|p1b: Milotic|64/100|[from] Sandstorm
+|-damage|p2b: Basculegion|93/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1785331064
+|move|p1a: Sinistcha|Protect|p1a: Sinistcha
+|-singleturn|p1a: Sinistcha|Protect
+|move|p2a: Mawile|Play Rough|p1b: Milotic
+|-damage|p1b: Milotic|0 fnt
+|faint|p1b: Milotic
+|move|p2b: Basculegion|Last Respects|p1a: Sinistcha
+|-activate|p1a: Sinistcha|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sinistcha|88/100|[from] Sandstorm
+|-damage|p2b: Basculegion|87/100|[from] Sandstorm
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1785331071
+|switch|p1b: Staraptor|Staraptor-Mega, L50, M|100/100
+|turn|6
+|
+|t:|1785331093
+|switch|p2a: Farigiraf|Farigiraf, L50, M|44/100
+|move|p1a: Sinistcha|Rage Powder|p1a: Sinistcha
+|-singleturn|p1a: Sinistcha|move: Rage Powder
+|move|p1b: Staraptor|Close Combat|p2a: Farigiraf
+|-damage|p2a: Farigiraf|0 fnt
+|-boost|p1b: Staraptor|def|1
+|-boost|p1b: Staraptor|spd|1
+|faint|p2a: Farigiraf
+|move|p2b: Basculegion|Last Respects|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha|1
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|-damage|p2b: Basculegion|77/100|[from] item: Life Orb
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Staraptor|94/100|[from] Sandstorm
+|-damage|p2b: Basculegion|71/100|[from] Sandstorm
+|upkeep
+|
+|t:|1785331104
+|switch|p1a: Tyranitar|Tyranitar, L50, M|79/100
+|switch|p2a: Mawile|Mawile-Mega, L50, F, shiny|100/100
+|turn|7
+|
+|t:|1785331124
+|move|p1a: Tyranitar|Protect|p1a: Tyranitar
+|-singleturn|p1a: Tyranitar|Protect
+|move|p2b: Basculegion|Protect|p2b: Basculegion
+|-singleturn|p2b: Basculegion|Protect
+|move|p1b: Staraptor|Brave Bird|p2b: Basculegion
+|-activate|p2b: Basculegion|move: Protect
+|move|p2a: Mawile|Play Rough|p1a: Tyranitar
+|-activate|p1a: Tyranitar|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|8
+|
+|t:|1785331147
+|move|p1b: Staraptor|Brave Bird|p2b: Basculegion
+|-damage|p2b: Basculegion|13/100
+|-damage|p1b: Staraptor|73/100|[from] Recoil
+|move|p1a: Tyranitar|Low Kick|p2a: Mawile
+|-damage|p2a: Mawile|85/100
+|move|p2b: Basculegion|Last Respects|p1b: Staraptor
+|-damage|p1b: Staraptor|0 fnt
+|faint|p1b: Staraptor
+|-damage|p2b: Basculegion|4/100|[from] item: Life Orb
+|move|p2a: Mawile|Play Rough|p1a: Tyranitar|[miss]
+|-miss|p2a: Mawile|p1a: Tyranitar
+|
+|upkeep
+|turn|9
+|
+|t:|1785331168
+|move|p2b: Basculegion|Aqua Jet|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar|1
+|-damage|p1a: Tyranitar|9/100
+|-damage|p2b: Basculegion|0 fnt|[from] item: Life Orb
+|faint|p2b: Basculegion
+|move|p1a: Tyranitar|Rock Slide|p2a: Mawile
+|-resisted|p2a: Mawile|1
+|-damage|p2a: Mawile|66/100
+|move|p2a: Mawile|Play Rough|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar|1
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|win|strye

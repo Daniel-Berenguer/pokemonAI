@@ -1,0 +1,278 @@
+|j|☆CPT WHOOSH
+|j|☆Ibuki Quinn
+|html|CPT WHOOSHIbuki Quinn    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1786066920
+|gametype|doubles
+|player|p1|CPT WHOOSH|hiker-gen4|
+|player|p2|Ibuki Quinn|harlequin|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Weavile, L50, M|
+|poke|p1|Metagross, L50|
+|poke|p1|Volcarona, L50, F|
+|poke|p1|Chandelure, L50, M|
+|poke|p1|Araquanid, L50, M|
+|poke|p1|Slowbro-Galar, L50, F|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Garganacl, L50, F|
+|poke|p2|Mawile, L50, M|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Pyroar, L50, F|
+|poke|p2|Vileplume, L50, F|
+|teampreview|4
+|showteam|p1|Weavile||FocusSash|Pickpocket|FakeOut,KnockOff,TripleAxel,Protect|Jolly||M|||50|]Metagross||Metagrossite|ClearBody|PsychicFangs,BulletPunch,RockSlide,Protect|Jolly|||||50|]Volcarona||ChartiBerry|FlameBody|GigaDrain,WillOWisp,Tailwind,RagePowder|Calm||F|||50|]Chandelure||Chandelurite|FlashFire|ShadowBall,HeatWave,Curse,Protect|Timid||M|||50|]Araquanid||SitrusBerry|WaterBubble|Liquidation,LeechLife,WideGuard,Protect|Careful||M|||50|]Slowbro-Galar||Leftovers|Regenerator|ShellSideArm,Psychic,HealPulse,Protect|Quiet||F|||50|
+|showteam|p2|Hatterene||LifeOrb|MagicBounce|DazzlingGleam,Psychic,TrickRoom,Protect|Quiet||F|||50|]Garganacl||PasshoBerry|PurifyingSalt|SaltCure,StoneEdge,WideGuard,Protect|Sassy||F|||50|]Mawile||Mawilite|Intimidate|PlayRough,IronHead,KnockOff,Protect|Brave||M|||50|]Whimsicott||FocusSash|Prankster|Tailwind,Encore,Moonblast,SunnyDay|Timid||M|||50|]Pyroar||Pyroarite|Unnerve|HeatWave,HyperVoice,SolarBeam,Protect|Timid||F|||50|]Vileplume||Leftovers|Chlorophyll|SleepPowder,SludgeBomb,AfterYou,Protect|Timid||F|||50|
+|
+|t:|1786066939
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Weavile|Weavile, L50, M|100/100
+|switch|p1b: Volcarona|Volcarona, L50, F|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Vileplume|Vileplume, L50, F|100/100
+|turn|1
+|
+|t:|1786066959
+|move|p2a: Whimsicott|Encore||[still]
+|-fail|p2a: Whimsicott
+|move|p1a: Weavile|Knock Off|p2a: Whimsicott
+|-resisted|p2a: Whimsicott|1
+|-crit|p2a: Whimsicott
+|-damage|p2a: Whimsicott|45/100
+|-enditem|p2a: Whimsicott|Focus Sash|[from] move: Knock Off|[of] p1a: Weavile
+|move|p1b: Volcarona|Tailwind|p1b: Volcarona
+|-sidestart|p1: CPT WHOOSH|move: Tailwind
+|move|p2b: Vileplume|Sleep Powder|p1a: Weavile
+|-status|p1a: Weavile|slp|[from] move: Sleep Powder
+|
+|upkeep
+|turn|2
+|
+|t:|1786067000
+|switch|p1a: Slowbro|Slowbro-Galar, L50, F|100/100
+|move|p1b: Volcarona|Rage Powder|p1b: Volcarona
+|-singleturn|p1b: Volcarona|move: Rage Powder
+|move|p2a: Whimsicott|Sunny Day|p2a: Whimsicott
+|-weather|SunnyDay
+|move|p2b: Vileplume|Sleep Powder|p1b: Volcarona
+|-status|p1b: Volcarona|slp|[from] move: Sleep Powder
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1786067035
+|switch|p2a: Pyroar|Pyroar, L50, F|100/100
+|-ability|p2a: Pyroar|Unnerve
+|cant|p1b: Volcarona|slp
+|move|p2b: Vileplume|Sleep Powder|p1a: Slowbro|[miss]
+|-miss|p2b: Vileplume|p1a: Slowbro
+|move|p1a: Slowbro|Shell Side Arm|p2a: Pyroar|[anim] Shell Side Arm Special
+|-damage|p2a: Pyroar|47/100
+|-hint|Special Shell Side Arm
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1786067092
+|move|p2a: Pyroar|Protect|p2a: Pyroar
+|-singleturn|p2a: Pyroar|Protect
+|move|p1a: Slowbro|Protect|p1a: Slowbro
+|-singleturn|p1a: Slowbro|Protect
+|-curestatus|p1b: Volcarona|slp|[msg]
+|move|p1b: Volcarona|Giga Drain|p2b: Vileplume
+|-resisted|p2b: Vileplume|2
+|-damage|p2b: Vileplume|92/100
+|move|p2b: Vileplume|Sleep Powder|p1a: Slowbro
+|-activate|p1a: Slowbro|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Vileplume|98/100|[from] item: Leftovers
+|-sideend|p1: CPT WHOOSH|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1786067114
+|detailschange|p2a: Pyroar|Pyroar-Mega, L50, F
+|-mega|p2a: Pyroar|Pyroar|Pyroarite
+|move|p2b: Vileplume|After You|p2a: Pyroar
+|-activate|p2a: Pyroar|move: After You
+|move|p2a: Pyroar|Heat Wave|p1b: Volcarona|[spread] p1a,p1b
+|-damage|p1a: Slowbro|33/100
+|-damage|p1b: Volcarona|50/100y
+|move|p1b: Volcarona|Tailwind|p1b: Volcarona
+|-sidestart|p1: CPT WHOOSH|move: Tailwind
+|move|p1a: Slowbro|Psychic|p2b: Vileplume
+|-supereffective|p2b: Vileplume|1
+|-damage|p2b: Vileplume|10/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Vileplume|16/100|[from] item: Leftovers
+|-heal|p1a: Slowbro|39/100|[from] item: Leftovers
+|upkeep
+|turn|6
+|
+|t:|1786067143
+|move|p1b: Volcarona|Rage Powder|p1b: Volcarona
+|-singleturn|p1b: Volcarona|move: Rage Powder
+|move|p2b: Vileplume|After You|p2a: Pyroar
+|-activate|p2a: Pyroar|move: After You
+|move|p2a: Pyroar|Heat Wave|p1a: Slowbro|[spread] p1b
+|-miss|p2a: Pyroar|p1a: Slowbro
+|-damage|p1b: Volcarona|0 fnt
+|faint|p1b: Volcarona
+|move|p1a: Slowbro|Heal Pulse|p1: Volcarona|[notarget]
+|-fail|p1a: Slowbro
+|
+|-weather|none
+|-heal|p2b: Vileplume|22/100|[from] item: Leftovers
+|-heal|p1a: Slowbro|45/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1786067156
+|switch|p1b: Metagross|Metagross, L50|100/100
+|turn|7
+|
+|t:|1786067189
+|detailschange|p1b: Metagross|Metagross-Mega, L50
+|-mega|p1b: Metagross|Metagross|Metagrossite
+|move|p2a: Pyroar|Protect|p2a: Pyroar
+|-singleturn|p2a: Pyroar|Protect
+|move|p2b: Vileplume|Protect|p2b: Vileplume
+|-singleturn|p2b: Vileplume|Protect
+|move|p1a: Slowbro|Protect|p1a: Slowbro
+|-singleturn|p1a: Slowbro|Protect
+|move|p1b: Metagross|Rock Slide|p2a: Pyroar|[spread] 
+|-activate|p2a: Pyroar|move: Protect
+|-activate|p2b: Vileplume|move: Protect
+|
+|-heal|p2b: Vileplume|28/100|[from] item: Leftovers
+|-heal|p1a: Slowbro|50/100g|[from] item: Leftovers
+|upkeep
+|turn|8
+|
+|t:|1786067220
+|switch|p2a: Whimsicott|Whimsicott, L50, M|45/100
+|move|p1b: Metagross|Protect|p1b: Metagross
+|-singleturn|p1b: Metagross|Protect
+|move|p2b: Vileplume|Sleep Powder|p1a: Slowbro|[miss]
+|-miss|p2b: Vileplume|p1a: Slowbro
+|move|p1a: Slowbro|Shell Side Arm|p2a: Whimsicott|[anim] Shell Side Arm Special
+|-supereffective|p2a: Whimsicott|2
+|-damage|p2a: Whimsicott|0 fnt
+|-hint|Special Shell Side Arm
+|faint|p2a: Whimsicott
+|
+|-heal|p2b: Vileplume|34/100|[from] item: Leftovers
+|-heal|p1a: Slowbro|56/100|[from] item: Leftovers
+|-sideend|p1: CPT WHOOSH|move: Tailwind
+|upkeep
+|
+|t:|1786067234
+|switch|p2a: Garganacl|Garganacl, L50, F|100/100
+|turn|9
+|
+|t:|1786067245
+|move|p1a: Slowbro|Protect|p1a: Slowbro
+|-singleturn|p1a: Slowbro|Protect
+|move|p2a: Garganacl|Wide Guard|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Wide Guard
+|move|p1b: Metagross|Bullet Punch|p2a: Garganacl
+|-supereffective|p2a: Garganacl|1
+|-damage|p2a: Garganacl|58/100
+|move|p2b: Vileplume|Sleep Powder|p1b: Metagross|[miss]
+|-miss|p2b: Vileplume|p1b: Metagross
+|
+|-heal|p2b: Vileplume|40/100|[from] item: Leftovers
+|-heal|p1a: Slowbro|62/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1786067278
+|move|p1b: Metagross|Psychic Fangs|p2b: Vileplume
+|-supereffective|p2b: Vileplume|1
+|-damage|p2b: Vileplume|0 fnt
+|faint|p2b: Vileplume
+|move|p2a: Garganacl|Stone Edge|p1a: Slowbro
+|-damage|p1a: Slowbro|28/100
+|move|p1a: Slowbro|Psychic|p2a: Garganacl
+|-damage|p2a: Garganacl|33/100
+|
+|-heal|p1a: Slowbro|34/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1786067288
+|switch|p2b: Pyroar|Pyroar-Mega, L50, F|47/100
+|turn|11
+|
+|t:|1786067308
+|-heal|p1a: Slowbro|67/100|[from] ability: Regenerator|[silent]
+|switch|p1a: Weavile|Weavile, L50, M|100/100 slp
+|move|p1b: Metagross|Protect|p1b: Metagross
+|-singleturn|p1b: Metagross|Protect
+|move|p2a: Garganacl|Wide Guard|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Wide Guard
+|move|p2b: Pyroar|Heat Wave|p1b: Metagross|[spread] 
+|-activate|p1b: Metagross|move: Protect
+|-miss|p2b: Pyroar|p1a: Weavile
+|
+|upkeep
+|turn|12
+|
+|t:|1786067333
+|move|p2b: Pyroar|Protect|p2b: Pyroar
+|-singleturn|p2b: Pyroar|Protect
+|move|p1b: Metagross|Bullet Punch|p2a: Garganacl
+|-supereffective|p2a: Garganacl|1
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|cant|p1a: Weavile|slp
+|
+|upkeep
+|turn|13
+|
+|t:|1786067343
+|switch|p1a: Slowbro|Slowbro-Galar, L50, F|67/100
+|move|p2b: Pyroar|Heat Wave|p1b: Metagross|[spread] p1a,p1b
+|-supereffective|p1b: Metagross|1
+|-damage|p1a: Slowbro|15/100
+|-damage|p1b: Metagross|0 fnt
+|-status|p1a: Slowbro|brn
+|faint|p1b: Metagross
+|
+|-heal|p1a: Slowbro|21/100 brn|[from] item: Leftovers
+|-damage|p1a: Slowbro|15/100 brn|[from] brn
+|upkeep
+|
+|t:|1786067354
+|switch|p1b: Weavile|Weavile, L50, M|100/100 slp
+|turn|14
+|
+|t:|1786067364
+|move|p1a: Slowbro|Protect|p1a: Slowbro
+|-singleturn|p1a: Slowbro|Protect
+|-curestatus|p1b: Weavile|slp|[msg]
+|move|p1b: Weavile|Fake Out|p2b: Pyroar
+|-damage|p2b: Pyroar|31/100
+|cant|p2b: Pyroar|flinch
+|
+|-heal|p1a: Slowbro|21/100 brn|[from] item: Leftovers
+|-damage|p1a: Slowbro|15/100 brn|[from] brn
+|upkeep
+|turn|15
+|
+|t:|1786067381
+|move|p2b: Pyroar|Heat Wave|p1a: Slowbro|[spread] 
+|-miss|p2b: Pyroar|p1a: Slowbro
+|-miss|p2b: Pyroar|p1b: Weavile
+|move|p1b: Weavile|Knock Off|p2b: Pyroar
+|-damage|p2b: Pyroar|0 fnt
+|faint|p2b: Pyroar
+|
+|win|CPT WHOOSH

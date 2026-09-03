@@ -1,0 +1,151 @@
+|j|☆ClasiusClap
+|j|☆2584.DRT
+|html|ClasiusClap2584.DRT    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1786204530
+|gametype|doubles
+|player|p1|ClasiusClap|2|1083
+|player|p2|2584.DRT|1|1062
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Sylveon, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Clawitzer, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Mawile, L50, M|
+|poke|p2|Ampharos, L50, F|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|HeatWave,SolarBeam,WeatherBall,Protect|Timid||F|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,StompingTantrum,Protect|Jolly||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,Yawn,Detect|Modest||F|||50|]Incineroar||PasshoBerry|Intimidate|ThroatChop,FlareBlitz,FakeOut,PartingShot|Impish||M|||50|]Whimsicott||FocusSash|Prankster|Tailwind,Moonblast,Encore,Protect|Timid||F|||50|]Basculegion||MysticWater|Adaptability|WaveCrash,AquaJet,LastRespects,Protect|Adamant||M|||50|
+|showteam|p2|Clawitzer||LifeOrb|MegaLauncher|WaterPulse,DarkPulse,AuraSphere,Protect|Quiet||M|||50|]Farigiraf||SitrusBerry|ArmorTail|TwinBeam,HelpingHand,TrickRoom,Protect|Relaxed||M|||50|]Sneasler||WhiteHerb|Pressure|FakeOut,CloseCombat,DireClaw,Protect|Jolly||F|||50|]Mawile||Mawilite|Intimidate|SuckerPunch,PlayRough,IronHead,SwordsDance|Brave||M|||50|]Ampharos||Ampharosite|Static|DragonPulse,Thunderbolt,DazzlingGleam,Protect|Quiet||F|||50|]Incineroar|||Intimidate|FlareBlitz,DarkestLariat,PartingShot,FakeOut|Impish||F|||50|
+|
+|t:|1786204564
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Garchomp|Garchomp, L50, F|100/100
+|switch|p1b: Charizard|Charizard, L50, F|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|-ability|p2b: Sneasler|Pressure
+|turn|1
+|
+|t:|1786204578
+|detailschange|p1b: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p1b: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|move|p2b: Sneasler|Fake Out|p1a: Garchomp
+|-crit|p1a: Garchomp
+|-damage|p1a: Garchomp|78/100
+|-damage|p2b: Sneasler|87/100|[from] ability: Rough Skin|[of] p1a: Garchomp
+|cant|p1a: Garchomp|flinch
+|move|p1b: Charizard|Weather Ball|p2a: Farigiraf
+|-damage|p2a: Farigiraf|24/100
+|-enditem|p2a: Farigiraf|Sitrus Berry|[eat]
+|-heal|p2a: Farigiraf|48/100|[from] item: Sitrus Berry
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1786204616
+|move|p2a: Farigiraf|Twin Beam|p1a: Garchomp
+|-damage|p1a: Garchomp|63/100
+|-damage|p1a: Garchomp|47/100
+|-hitcount|p1a: Garchomp|2
+|move|p1b: Charizard|Heat Wave|p2a: Farigiraf|[spread] p2a,p2b
+|-damage|p2a: Farigiraf|0 fnt
+|-damage|p2b: Sneasler|5/100
+|faint|p2a: Farigiraf
+|move|p1a: Garchomp|Earthquake|p2b: Sneasler|[spread] p2b
+|-immune|p1b: Charizard
+|-supereffective|p2b: Sneasler|1
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|-damage|p1a: Garchomp|38/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1786204631
+|switch|p2a: Clawitzer|Clawitzer, L50, M|100/100
+|switch|p2b: Mawile|Mawile, L50, M|100/100
+|-ability|p2b: Mawile|Intimidate|boost
+|-unboost|p1a: Garchomp|atk|1
+|-unboost|p1b: Charizard|atk|1
+|turn|3
+|
+|t:|1786204639
+|move|p1b: Charizard|Protect|p1b: Charizard
+|-singleturn|p1b: Charizard|Protect
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2b: Mawile|Swords Dance|p2b: Mawile
+|-boost|p2b: Mawile|atk|2
+|move|p2a: Clawitzer|Water Pulse|p1b: Charizard
+|-activate|p1b: Charizard|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1786204665
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|detailschange|p2b: Mawile|Mawile-Mega, L50, M
+|-mega|p2b: Mawile|Mawile|Mawilite
+|move|p2b: Mawile|Iron Head|p1b: Basculegion
+|-resisted|p1b: Basculegion|1
+|-damage|p1b: Basculegion|11/100
+|move|p2a: Clawitzer|Water Pulse|p1b: Basculegion
+|-resisted|p1b: Basculegion|1
+|-damage|p1b: Basculegion|0 fnt
+|faint|p1b: Basculegion
+|-damage|p2a: Clawitzer|90/100|[from] item: Life Orb
+|move|p1a: Garchomp|Stomping Tantrum|p2b: Mawile
+|-supereffective|p2b: Mawile|1
+|-damage|p2b: Mawile|20/100y
+|-damage|p1a: Garchomp|28/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1786204684
+|switch|p1b: Sylveon|Sylveon, L50, F|100/100
+|turn|5
+|
+|t:|1786204690
+|move|p2b: Mawile|Iron Head|p1b: Sylveon
+|-supereffective|p1b: Sylveon|1
+|-damage|p1b: Sylveon|0 fnt
+|faint|p1b: Sylveon
+|move|p2a: Clawitzer|Water Pulse|p1a: Garchomp
+|-damage|p1a: Garchomp|0 fnt
+|faint|p1a: Garchomp
+|-damage|p2a: Clawitzer|80/100|[from] item: Life Orb
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1786204697
+|switch|p1b: Charizard|Charizard-Mega-Y, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|turn|6
+|
+|t:|1786204708
+|move|p2b: Mawile|Sucker Punch|p1b: Charizard
+|-damage|p1b: Charizard|0 fnt
+|faint|p1b: Charizard
+|
+|win|2584.DRT

@@ -1,0 +1,164 @@
+|j|☆jeanryupr
+|j|☆remitigate
+|html|jeanryuprremitigate    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1785197078
+|gametype|doubles
+|player|p1|jeanryupr|265|1148
+|player|p2|remitigate|gardenia|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Staraptor, L50, M|
+|poke|p1|Glimmora, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Delphox, L50, M|
+|poke|p2|Klefki, L50, F|
+|poke|p2|Drampa, L50, M|
+|poke|p2|Reuniclus, L50, F|
+|poke|p2|Garganacl, L50, M|
+|poke|p2|Toxapex, L50, F|
+|poke|p2|Audino, L50, M|
+|teampreview|4
+|showteam|p1|Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,Roost,Protect|Jolly||M|||50|]Glimmora||FocusSash|ToxicDebris|PowerGem,SludgeBomb,EarthPower,SpikyShield|Modest||F|||50|]Whimsicott||OccaBerry|Prankster|Tailwind,Moonblast,Charm,LightScreen|Timid||F|||50|]Kingambit||ChopleBerry|Defiant|KowtowCleave,IronHead,LowKick,SuckerPunch|Adamant||M|||50|]Garchomp||ChoiceScarf|RoughSkin|Earthquake,DragonClaw,RockSlide,StompingTantrum|Adamant||M|||50|]Delphox||Delphoxite|Blaze|HeatWave,Psychic,Encore,Protect|Timid||M|||50|
+|showteam|p2|Klefki||Leftovers|Prankster|TrickRoom,Reflect,LightScreen,DazzlingGleam|Sassy||F|||50|]Drampa||Drampanite|CloudNine|Roost,DragonPulse,Protect,HyperVoice|Sassy||M|||50|]Reuniclus||ChoiceScarf|Regenerator|TrickRoom,Trick,ExpandingForce,PsychicTerrain|Relaxed||F|||50|]Garganacl||PasshoBerry|PurifyingSalt|BodyPress,WideGuard,RockSlide,Protect|Relaxed||M|||50|]Toxapex||PoisonBarb|Merciless|BanefulBunker,ToxicSpikes,Recover,Venoshock|Modest||F|||50|]Audino||Audinite|Healer|HelpingHand,SimpleBeam,DrainingKiss,HealPulse|Modest||M|||50|
+|
+|t:|1785197145
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Staraptor|Staraptor, L50, M|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, F|100/100
+|switch|p2a: Klefki|Klefki, L50, F|100/100
+|switch|p2b: Audino|Audino, L50, M|100/100
+|-ability|p1a: Staraptor|Intimidate|boost
+|-unboost|p2a: Klefki|atk|1
+|-unboost|p2b: Audino|atk|1
+|turn|1
+|
+|t:|1785197188
+|detailschange|p1a: Staraptor|Staraptor-Mega, L50, M
+|-mega|p1a: Staraptor|Staraptor|Staraptite
+|detailschange|p2b: Audino|Audino-Mega, L50, M
+|-mega|p2b: Audino|Audino|Audinite
+|move|p1b: Whimsicott|Charm|p1a: Staraptor
+|-boost|p1a: Staraptor|atk|2
+|move|p1a: Staraptor|Close Combat|p2a: Klefki
+|-damage|p2a: Klefki|0 fnt
+|-boost|p1a: Staraptor|def|1
+|-boost|p1a: Staraptor|spd|1
+|faint|p2a: Klefki
+|move|p2b: Audino|Simple Beam|p1a: Staraptor
+|-ability|p1a: Staraptor|Simple|Contrary|[from] move: Simple Beam
+|
+|upkeep
+|
+|t:|1785197203
+|switch|p2a: Garganacl|Garganacl, L50, M|100/100
+|turn|2
+|
+|t:|1785197241
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1a: Staraptor|Close Combat|p2b: Audino
+|-damage|p2b: Audino|18/100
+|-unboost|p1a: Staraptor|def|2
+|-unboost|p1a: Staraptor|spd|2
+|move|p1b: Whimsicott|Moonblast|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|move|p2b: Audino|Draining Kiss|p1a: Staraptor
+|-supereffective|p1a: Staraptor|1
+|-damage|p1a: Staraptor|34/100
+|-heal|p2b: Audino|63/100|[from] drain|[of] p1a: Staraptor
+|
+|upkeep
+|turn|3
+|
+|t:|1785197269
+|switch|p1a: Glimmora|Glimmora, L50, F|100/100
+|move|p2b: Audino|Helping Hand|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Helping Hand|[of] p2b: Audino
+|move|p1b: Whimsicott|Moonblast|p2a: Garganacl
+|-damage|p2a: Garganacl|75/100
+|move|p2a: Garganacl|Rock Slide|p1a: Glimmora|[spread] p1a,p1b
+|-damage|p1a: Glimmora|64/100
+|-damage|p1b: Whimsicott|72/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: remitigate|move: Toxic Spikes
+|
+|upkeep
+|turn|4
+|
+|t:|1785197298
+|move|p1b: Whimsicott|Light Screen|p1b: Whimsicott
+|-sidestart|p1: jeanryupr|move: Light Screen
+|move|p1a: Glimmora|Earth Power|p2a: Garganacl
+|-supereffective|p2a: Garganacl|1
+|-damage|p2a: Garganacl|19/100
+|move|p2b: Audino|Draining Kiss|p1b: Whimsicott
+|-damage|p1b: Whimsicott|54/100
+|-heal|p2b: Audino|74/100|[from] drain|[of] p1b: Whimsicott
+|move|p2a: Garganacl|Body Press|p1a: Glimmora
+|-damage|p1a: Glimmora|27/100
+|-activate|p1a: Glimmora|ability: Toxic Debris
+|-sidestart|p2: remitigate|move: Toxic Spikes
+|
+|upkeep
+|turn|5
+|
+|t:|1785197326
+|move|p2a: Garganacl|Protect|p2a: Garganacl
+|-singleturn|p2a: Garganacl|Protect
+|move|p1b: Whimsicott|Moonblast|p2b: Audino
+|-damage|p2b: Audino|56/100
+|move|p1a: Glimmora|Sludge Bomb|p2a: Garganacl
+|-activate|p2a: Garganacl|move: Protect
+|move|p2b: Audino|Heal Pulse|p1b: Whimsicott
+|-heal|p1b: Whimsicott|100/100
+|
+|upkeep
+|turn|6
+|
+|t:|1785197364
+|switch|p2b: Reuniclus|Reuniclus, L50, F|100/100
+|-status|p2b: Reuniclus|tox
+|move|p1b: Whimsicott|Moonblast|p2b: Reuniclus
+|-damage|p2b: Reuniclus|74/100 tox
+|move|p1a: Glimmora|Earth Power|p2a: Garganacl
+|-supereffective|p2a: Garganacl|1
+|-damage|p2a: Garganacl|0 fnt
+|faint|p2a: Garganacl
+|
+|-damage|p2b: Reuniclus|68/100 tox|[from] psn
+|upkeep
+|
+|t:|1785197376
+|switch|p2a: Audino|Audino-Mega, L50, M|56/100
+|-status|p2a: Audino|tox
+|turn|7
+|
+|t:|1785197419
+|move|p1b: Whimsicott|Moonblast|p2b: Reuniclus
+|-crit|p2b: Reuniclus
+|-damage|p2b: Reuniclus|32/100 tox
+|move|p1a: Glimmora|Earth Power|p2b: Reuniclus
+|-crit|p2b: Reuniclus
+|-damage|p2b: Reuniclus|0 fnt
+|faint|p2b: Reuniclus
+|move|p2a: Audino|Draining Kiss|p1b: Whimsicott
+|-damage|p1b: Whimsicott|79/100
+|-heal|p2a: Audino|69/100 tox|[from] drain|[of] p1b: Whimsicott
+|
+|-damage|p2a: Audino|62/100 tox|[from] psn
+|upkeep
+|turn|8
+|-message|remitigate forfeited.
+|raw|jeanryupr's rating: 1148 → 1163(+15 for winning)
+|raw|remitigate's rating: 1000 → 1000(+0 for losing)
+|
+|win|jeanryupr

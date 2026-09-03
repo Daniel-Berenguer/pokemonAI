@@ -1,0 +1,173 @@
+|j|☆elpibevgc
+|j|☆lanagram
+|html|elpibevgclanagram    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785615185
+|gametype|doubles
+|player|p1|elpibevgc|lucas|1104
+|player|p2|lanagram|102|1155
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gengar, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Politoed, L50, F|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Vivillon-Jungle, L50, M|
+|poke|p1|Swampert, L50, F|
+|poke|p2|Gengar, L50, M|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Hawlucha, L50, M|
+|poke|p2|Snorlax, L50, M|
+|poke|p2|Ditto, L50|
+|poke|p2|Hydreigon, L50, M|
+|teampreview|4
+|showteam|p1|Gengar||Gengarite|CursedBody|ShadowBall,PerishSong,SludgeBomb,Protect|Modest||M|||50|]Incineroar||PasshoBerry|Intimidate|ThroatChop,PartingShot,FakeOut,Protect|Impish||M|||50|]Politoed||SitrusBerry|Drizzle|WeatherBall,PerishSong,Encore,Protect|Calm||F|||50|]Archaludon||Leftovers|Stamina|DragonPulse,FlashCannon,ElectroShot,Protect|Bold||F|||50|]Vivillon-Jungle||FocusSash|CompoundEyes|Hurricane,SleepPowder,RagePowder,Protect|Timid||M|||50|]Swampert||Swampertite|Torrent|WaveCrash,Earthquake,IcePunch,Protect|Adamant||F|||50|
+|showteam|p2|Gengar||Gengarite|CursedBody|ShadowBall,SludgeBomb,PerishSong,Protect|Timid||M|||50|]Grimmsnarl||RoseliBerry|Prankster|FakeOut,Superpower,PartingShot,ThroatChop|Adamant||M|||50|]Hawlucha||Hawluchanite|Limber|CrossChop,Entrainment,DualWingbeat,Protect|Jolly||M|||50|]Snorlax||Leftovers|ThickFat|Fissure,Stockpile,BodyPress,Protect|Bold||M|||50|]Ditto||ChoiceScarf|Imposter|Transform|Bold|||||50|]Hydreigon||LifeOrb|Levitate|DracoMeteor,Snarl,Uturn,Protect|Timid||M|||50|
+|
+|t:|1785615209
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Archaludon|Archaludon, L50, F|100/100
+|switch|p1b: Swampert|Swampert, L50, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2b: Hydreigon|Hydreigon, L50, M|100/100
+|turn|1
+|
+|t:|1785615252
+|move|p1b: Swampert|Protect|p1b: Swampert
+|-singleturn|p1b: Swampert|Protect
+|move|p1a: Archaludon|Protect|p1a: Archaludon
+|-singleturn|p1a: Archaludon|Protect
+|move|p2a: Grimmsnarl|Fake Out|p1b: Swampert
+|-activate|p1b: Swampert|move: Protect
+|move|p2b: Hydreigon|Snarl|p1a: Archaludon|[spread] 
+|-activate|p1a: Archaludon|move: Protect
+|-activate|p1b: Swampert|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1785615283
+|switch|p1a: Politoed|Politoed, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Politoed
+|detailschange|p1b: Swampert|Swampert-Mega, L50, F
+|-mega|p1b: Swampert|Swampert|Swampertite
+|move|p2a: Grimmsnarl|Parting Shot|p1a: Politoed
+|-unboost|p1a: Politoed|atk|1
+|-unboost|p1a: Politoed|spa|1
+|
+|t:|1785615291
+|switch|p2a: Ditto|Ditto, L50|100/100|[from] Parting Shot
+|-transform|p2a: Ditto|p1b: Swampert|[from] ability: Imposter
+|move|p1b: Swampert|Ice Punch|p2b: Hydreigon
+|-supereffective|p2b: Hydreigon|1
+|-damage|p2b: Hydreigon|23/100
+|move|p2b: Hydreigon|Draco Meteor|p1b: Swampert|[miss]
+|-miss|p2b: Hydreigon|p1b: Swampert
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1785615346
+|switch|p1b: Vivillon|Vivillon-Jungle, L50, M|100/100
+|move|p2b: Hydreigon|Protect|p2b: Hydreigon
+|-singleturn|p2b: Hydreigon|Protect
+|move|p2a: Ditto|Earthquake|p1a: Politoed|[spread] p1a
+|-activate|p2b: Hydreigon|move: Protect
+|-immune|p1b: Vivillon
+|-damage|p1a: Politoed|55/100
+|move|p1a: Politoed|Weather Ball|p2a: Ditto
+|-damage|p2a: Ditto|64/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1785615397
+|move|p2a: Ditto|Earthquake|p1a: Politoed|[spread] p1a
+|-immune|p2b: Hydreigon|[from] ability: Levitate
+|-immune|p1b: Vivillon
+|-damage|p1a: Politoed|8/100
+|-enditem|p1a: Politoed|Sitrus Berry|[eat]
+|-heal|p1a: Politoed|33/100|[from] item: Sitrus Berry
+|move|p2b: Hydreigon|Draco Meteor|p1b: Vivillon
+|-enditem|p1b: Vivillon|Focus Sash
+|-damage|p1b: Vivillon|1/100
+|-unboost|p2b: Hydreigon|spa|2
+|-damage|p2b: Hydreigon|13/100|[from] item: Life Orb
+|move|p1b: Vivillon|Hurricane|p2b: Hydreigon
+|-damage|p2b: Hydreigon|0 fnt
+|faint|p2b: Hydreigon
+|move|p1a: Politoed|Weather Ball|p2a: Ditto
+|-damage|p2a: Ditto|27/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1785615421
+|switch|p2b: Gengar|Gengar, L50, M|100/100
+|turn|5
+|
+|t:|1785615450
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|detailschange|p2b: Gengar|Gengar-Mega, L50, M
+|-mega|p2b: Gengar|Gengar|Gengarite
+|move|p2b: Gengar|Shadow Ball|p1b: Vivillon
+|-damage|p1b: Vivillon|0 fnt
+|faint|p1b: Vivillon
+|move|p1a: Politoed|Weather Ball|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|62/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1785615467
+|switch|p1b: Swampert|Swampert-Mega, L50, F|100/100
+|turn|6
+|
+|t:|1785615472
+|move|p1b: Swampert|Protect|p1b: Swampert
+|-singleturn|p1b: Swampert|Protect
+|move|p1a: Politoed|Protect|p1a: Politoed
+|-singleturn|p1a: Politoed|Protect
+|move|p2a: Grimmsnarl|Fake Out|p1b: Swampert
+|-activate|p1b: Swampert|move: Protect
+|move|p2b: Gengar|Sludge Bomb|p1a: Politoed
+|-activate|p1a: Politoed|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1785615508
+|move|p1a: Politoed|Protect||[still]
+|-fail|p1a: Politoed
+|move|p2a: Grimmsnarl|Parting Shot|p1b: Swampert
+|-unboost|p1b: Swampert|atk|1
+|-unboost|p1b: Swampert|spa|1
+|
+|t:|1785615514
+|switch|p2a: Ditto|Ditto, L50|27/100|[from] Parting Shot
+|-transform|p2a: Ditto|p1b: Swampert|[from] ability: Imposter
+|move|p2b: Gengar|Sludge Bomb|p1a: Politoed
+|-damage|p1a: Politoed|0 fnt
+|faint|p1a: Politoed
+|move|p1b: Swampert|Earthquake|p2a: Ditto|[spread] p2a,p2b
+|-supereffective|p2b: Gengar|1
+|-damage|p2a: Ditto|0 fnt
+|-damage|p2b: Gengar|15/100
+|faint|p2a: Ditto
+|
+|upkeep
+|-message|lanagram forfeited.
+|
+|win|elpibevgc
+|l|☆lanagram
+|player|p2|
+||lanagram is ready for game 3.

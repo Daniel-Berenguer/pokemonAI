@@ -1,0 +1,196 @@
+|j|☆DonpiDavs
+|j|☆guillelona
+|html|DonpiDavsguillelona    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1785067113
+|gametype|doubles
+|player|p1|DonpiDavs|265|1360
+|player|p2|guillelona|2|1272
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Pelipper, L50, F|
+|poke|p1|Venusaur, L50, M|
+|poke|p1|Archaludon, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Vivillon-Tundra, L50, M|
+|poke|p2|Mawile, L50, F|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Raichu, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,SolarBeam,Protect|Modest||M|||50|]Pelipper||SitrusBerry|Drizzle|Hurricane,WeatherBall,WideGuard,Tailwind|Modest||F|||50|]Venusaur||FocusSash|Chlorophyll|SleepPowder,SludgeBomb,LeafStorm,Protect|Modest||M|||50|]Archaludon||Leftovers|Stamina|FlashCannon,DragonPulse,ElectroShot,Protect|Calm||F|||50|]Grimmsnarl||LightClay|Prankster|SpiritBreak,Reflect,LightScreen,PartingShot|Careful||M|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,FlipTurn,AquaJet|Jolly||M|||50|
+|showteam|p2|Vivillon-Tundra||FocusSash|CompoundEyes|Hurricane,SleepPowder,RagePowder,Protect|Timid||M|||50|]Mawile||Mawilite|Intimidate|PlayRough,RockSlide,SuckerPunch,Protect|Adamant||F|||50|]Torkoal||Charcoal|Drought|Eruption,WeatherBall,Protect,EarthPower|Quiet||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,Thunderbolt,TrickRoom,HelpingHand|Relaxed||M|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,RockSlide,Protect|Jolly||M|||50|]Raichu||RaichuniteY|LightningRod|ZapCannon,FocusBlast,FakeOut,Protect|Timid||M|||50|
+|
+|t:|1785067150
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, M|100/100
+|switch|p1b: Venusaur|Venusaur, L50, M|100/100
+|switch|p2a: Vivillon|Vivillon-Tundra, L50, M|100/100
+|switch|p2b: Raichu|Raichu, L50, M|100/100
+|turn|1
+|
+|t:|1785067167
+|detailschange|p2b: Raichu|Raichu-Mega-Y, L50, M
+|-mega|p2b: Raichu|Raichu|Raichunite Y
+|move|p1a: Charizard|Protect|p1a: Charizard
+|-singleturn|p1a: Charizard|Protect
+|move|p1b: Venusaur|Protect|p1b: Venusaur
+|-singleturn|p1b: Venusaur|Protect
+|move|p2b: Raichu|Fake Out|p1b: Venusaur
+|-activate|p1b: Venusaur|move: Protect
+|move|p2a: Vivillon|Sleep Powder|p1a: Charizard
+|-activate|p1a: Charizard|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1785067190
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2b: Raichu|Protect|p2b: Raichu
+|-singleturn|p2b: Raichu|Protect
+|move|p1b: Venusaur|Sleep Powder|p2b: Raichu
+|-activate|p2b: Raichu|move: Protect
+|move|p2a: Vivillon|Sleep Powder|p1a: Charizard
+|-status|p1a: Charizard|slp|[from] move: Sleep Powder
+|cant|p1a: Charizard|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1785067205
+|move|p2a: Vivillon|Rage Powder|p2a: Vivillon
+|-singleturn|p2a: Vivillon|move: Rage Powder
+|move|p1b: Venusaur|Sleep Powder|p2b: Raichu
+|-status|p2b: Raichu|slp|[from] move: Sleep Powder
+|cant|p2b: Raichu|slp
+|cant|p1a: Charizard|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1785067219
+|-curestatus|p2b: Raichu|slp|[msg]
+|move|p2b: Raichu|Protect|p2b: Raichu
+|-singleturn|p2b: Raichu|Protect
+|move|p1b: Venusaur|Leaf Storm|p2b: Raichu
+|-activate|p2b: Raichu|move: Protect
+|move|p2a: Vivillon|Hurricane|p1b: Venusaur|[miss]
+|-miss|p2a: Vivillon|p1b: Venusaur
+|-curestatus|p1a: Charizard|slp|[msg]
+|move|p1a: Charizard|Heat Wave|p2a: Vivillon|[spread] p2a
+|-activate|p2b: Raichu|move: Protect
+|-supereffective|p2a: Vivillon|1
+|-enditem|p2a: Vivillon|Focus Sash
+|-damage|p2a: Vivillon|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1785067234
+|move|p1a: Charizard|Protect|p1a: Charizard
+|-singleturn|p1a: Charizard|Protect
+|move|p1b: Venusaur|Sleep Powder|p2b: Raichu
+|-status|p2b: Raichu|slp|[from] move: Sleep Powder
+|cant|p2b: Raichu|slp
+|move|p2a: Vivillon|Hurricane|p1b: Venusaur
+|-supereffective|p1b: Venusaur|1
+|-enditem|p1b: Venusaur|Focus Sash
+|-damage|p1b: Venusaur|1/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1785067246
+|-curestatus|p2b: Raichu|slp|[msg]
+|move|p2b: Raichu|Protect|p2b: Raichu
+|-singleturn|p2b: Raichu|Protect
+|move|p2a: Vivillon|Rage Powder|p2a: Vivillon
+|-singleturn|p2a: Vivillon|move: Rage Powder
+|move|p1b: Venusaur|Sludge Bomb|p2a: Vivillon
+|-damage|p2a: Vivillon|0 fnt
+|faint|p2a: Vivillon
+|move|p1a: Charizard|Weather Ball|p2b: Raichu
+|-activate|p2b: Raichu|move: Protect
+|
+|-weather|none
+|upkeep
+|
+|t:|1785067254
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|turn|7
+|
+|t:|1785067276
+|move|p2b: Raichu|Zap Cannon|p1a: Charizard
+|-supereffective|p1a: Charizard|1
+|-damage|p1a: Charizard|0 fnt
+|faint|p1a: Charizard
+|move|p1b: Venusaur|Leaf Storm|p2b: Raichu
+|-damage|p2b: Raichu|21/100
+|-unboost|p1b: Venusaur|spa|2
+|move|p2a: Farigiraf|Psychic|p1b: Venusaur
+|-supereffective|p1b: Venusaur|1
+|-damage|p1b: Venusaur|0 fnt
+|faint|p1b: Venusaur
+|
+|upkeep
+|
+|t:|1785067280
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|switch|p1b: Pelipper|Pelipper, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|turn|8
+|
+|t:|1785067300
+|move|p2b: Raichu|Protect|p2b: Raichu
+|-singleturn|p2b: Raichu|Protect
+|move|p1a: Basculegion|Last Respects|p2b: Raichu
+|-activate|p2b: Raichu|move: Protect
+|move|p1b: Pelipper|Hurricane|p2a: Farigiraf
+|-damage|p2a: Farigiraf|57/100
+|-start|p2a: Farigiraf|confusion
+|-activate|p2a: Farigiraf|confusion
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1785067320
+|-end|p2a: Farigiraf|confusion
+|move|p2a: Farigiraf|Thunderbolt|p1b: Pelipper
+|-supereffective|p1b: Pelipper|2
+|-damage|p1b: Pelipper|0 fnt
+|faint|p1b: Pelipper
+|move|p2b: Raichu|Zap Cannon|p1a: Basculegion
+|-supereffective|p1a: Basculegion|1
+|-damage|p1a: Basculegion|0 fnt
+|faint|p1a: Basculegion
+|
+|win|guillelona
+||DonpiDavs is ready for game 2.
+|inactive|guillelona has 30 seconds to confirm battle start!
+|l|☆guillelona
+|player|p2|
+|inactive|guillelona has 20 seconds to confirm battle start!
+||guillelona is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆DonpiDavs
+|player|p1|
+|j|☆guillelona
+|player|p2|guillelona|2|

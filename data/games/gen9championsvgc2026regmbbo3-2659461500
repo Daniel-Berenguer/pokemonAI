@@ -1,0 +1,143 @@
+|j|☆Pixyire
+|j|☆Ceriii
+|html|PixyireCeriii    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1785808512
+|gametype|doubles
+|player|p1|Pixyire|colress|
+|player|p2|Ceriii|miku-flying|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Staraptor, L50, M|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Metagross, L50|
+|poke|p1|Dragapult, L50, M|
+|poke|p1|Arcanine-Hisui, L50, F|
+|poke|p2|Typhlosion-Hisui, L50, F|
+|poke|p2|Ninetales, L50, M, shiny|
+|poke|p2|Raichu, L50, F|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Venusaur, L50, M|
+|teampreview|4
+|showteam|p1|Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,SkyAttack,GigaImpact|Jolly||M|||50|]Garchomp||FocusSash|RoughSkin|Earthquake,Outrage,StoneEdge,IronTail|Jolly||M|||50|]Floette-Eternal||ChoiceScarf|FlowerVeil|LightofRuin,HyperBeam,PetalDance,SolarBeam|Modest||F|||50|]Metagross||Metagrossite|ClearBody|Explosion,Earthquake,StoneEdge,SteelBeam|Naive|||||50|]Dragapult||LifeOrb|ClearBody|DracoMeteor,FireBlast,HydroPump,Thunder|Timid||M|||50|]Arcanine-Hisui||BrightPowder|Intimidate|HeadSmash,CloseCombat,FlareBlitz,Outrage|Jolly||F|||50|
+|showteam|p2|Typhlosion-Hisui||ChoiceScarf|Blaze|Eruption,Overheat,SolarBeam,FocusBlast|Timid||F|||50|]Ninetales||LifeOrb|Drought|Overheat,SolarBeam,Inferno,FireBlast|Timid||M|||50|]Raichu||RaichuniteY|LightningRod|HyperBeam,ZapCannon,FocusBlast|Timid||F|||50|]Floette-Eternal||Floettite|FlowerVeil|LightofRuin,HyperBeam,PetalDance,SolarBeam|Timid||F|||50|]Garchomp||FocusSash|RoughSkin|Earthquake,Outrage,StoneEdge,IronTail|Jolly||F|||50|]Venusaur||MiracleSeed|Overgrow|LeafStorm,SolarBeam,FrenzyPlant,PetalDance|Timid||M|||50|
+|
+|t:|1785808547
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Garchomp|Garchomp, L50, M|100/100
+|switch|p1b: Metagross|Metagross, L50|100/100
+|switch|p2a: Venusaur|Venusaur, L50, M|100/100
+|switch|p2b: Ninetales|Ninetales, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Ninetales
+|turn|1
+|
+|t:|1785808580
+|move|p1a: Garchomp|Earthquake|p2a: Venusaur|[spread] p1b,p2a,p2b
+|-supereffective|p1b: Metagross|1
+|-supereffective|p2b: Ninetales|1
+|-damage|p1b: Metagross|30/100
+|-damage|p2a: Venusaur|45/100
+|-damage|p2b: Ninetales|0 fnt
+|faint|p2b: Ninetales
+|move|p2a: Venusaur|Solar Beam||[still]
+|-prepare|p2a: Venusaur|Solar Beam
+|-anim|p2a: Venusaur|Solar Beam|p1a: Garchomp
+|-damage|p1a: Garchomp|29/100
+|move|p1b: Metagross|Stone Edge|p2a: Venusaur
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785808590
+|switch|p2b: Floette|Floette-Eternal, L50, F|100/100
+|switch|p2a: Timmyphlosion|Typhlosion-Hisui, L50, F|100/100
+|turn|2
+|
+|t:|1785808617
+|detailschange|p2b: Floette|Floette-Mega, L50, F
+|-mega|p2b: Floette|Floette|Floettite
+|-ability|p2b: Floette|Fairy Aura
+|move|p2a: Timmyphlosion|Eruption|p1a: Garchomp|[spread] p1a,p1b
+|-resisted|p1a: Garchomp|1
+|-supereffective|p1b: Metagross|1
+|-damage|p1a: Garchomp|0 fnt
+|-damage|p1b: Metagross|0 fnt
+|faint|p1a: Garchomp
+|faint|p1b: Metagross
+|move|p2b: Floette|Solar Beam||[still]
+|-prepare|p2b: Floette|Solar Beam
+|-anim|p2b: Floette|Solar Beam|p1: Garchomp|[notarget]
+|-fail|p2b: Floette
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785808631
+|switch|p1a: Dragapult|Dragapult, L50, M|100/100
+|switch|p1b: Arcanine|Arcanine-Hisui, L50, F|100/100
+|-ability|p1b: Arcanine|Intimidate|boost
+|-unboost|p2a: Timmyphlosion|atk|1
+|-unboost|p2b: Floette|atk|1
+|turn|3
+|
+|t:|1785808653
+|move|p2a: Timmyphlosion|Eruption|p1a: Dragapult|[spread] p1a,p1b
+|-resisted|p1a: Dragapult|1
+|-resisted|p1b: Arcanine|2
+|-damage|p1a: Dragapult|46/100
+|-damage|p1b: Arcanine|73/100
+|move|p1a: Dragapult|Hydro Pump|p2a: Timmyphlosion
+|-supereffective|p2a: Timmyphlosion|1
+|-damage|p2a: Timmyphlosion|39/100
+|-damage|p1a: Dragapult|36/100|[from] item: Life Orb
+|move|p2b: Floette|Solar Beam||[still]
+|-prepare|p2b: Floette|Solar Beam
+|-anim|p2b: Floette|Solar Beam|p1b: Arcanine
+|-damage|p1b: Arcanine|16/100
+|move|p1b: Arcanine|Head Smash|p2a: Timmyphlosion|[miss]
+|-miss|p1b: Arcanine|p2a: Timmyphlosion
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|c|☆Pixyire|eruption is hard to deal with damn
+|c|☆Ceriii|fr
+|
+|t:|1785808684
+|move|p2a: Timmyphlosion|Eruption|p1b: Arcanine|[spread] p1a,p1b
+|-resisted|p1a: Dragapult|1
+|-resisted|p1b: Arcanine|2
+|-damage|p1a: Dragapult|13/100
+|-damage|p1b: Arcanine|7/100
+|move|p1a: Dragapult|Fire Blast|p2b: Floette
+|-damage|p2b: Floette|45/100
+|-damage|p1a: Dragapult|3/100|[from] item: Life Orb
+|move|p2b: Floette|Solar Beam||[still]
+|-prepare|p2b: Floette|Solar Beam
+|-anim|p2b: Floette|Solar Beam|p1b: Arcanine
+|-crit|p1b: Arcanine
+|-damage|p1b: Arcanine|0 fnt
+|faint|p1b: Arcanine
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1785808703
+|move|p2a: Timmyphlosion|Eruption|p1a: Dragapult
+|-resisted|p1a: Dragapult|1
+|-damage|p1a: Dragapult|0 fnt
+|faint|p1a: Dragapult
+|
+|win|Ceriii
+|c|☆Ceriii|GGs
+|c|☆Pixyire|ggsss

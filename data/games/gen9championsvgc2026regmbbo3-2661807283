@@ -1,0 +1,164 @@
+|j|☆ClasiusClap
+|j|☆2584.DRT
+|html|ClasiusClap2584.DRT    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1786204334
+|gametype|doubles
+|player|p1|ClasiusClap|2|1083
+|player|p2|2584.DRT|1|1062
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Incineroar, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Clawitzer, L50, F|
+|poke|p2|Farigiraf, L50, M|
+|poke|p2|Sneasler, L50, M|
+|poke|p2|Mawile, L50, F|
+|poke|p2|Ampharos, L50, M|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|HeatWave,SolarBeam,WeatherBall,Protect|Timid||F|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,StompingTantrum,Protect|Jolly||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,Yawn,Detect|Modest||M|||50|]Incineroar||PasshoBerry|Intimidate|ThroatChop,FlareBlitz,FakeOut,PartingShot|Impish||F|||50|]Whimsicott||FocusSash|Prankster|Tailwind,Moonblast,Encore,Protect|Timid||F|||50|]Basculegion||MysticWater|Adaptability|WaveCrash,AquaJet,LastRespects,Protect|Adamant||M|||50|
+|showteam|p2|Clawitzer||LifeOrb|MegaLauncher|WaterPulse,DarkPulse,AuraSphere,Protect|Quiet||F|||50|]Farigiraf||SitrusBerry|ArmorTail|TwinBeam,HelpingHand,TrickRoom,Protect|Relaxed||M|||50|]Sneasler||WhiteHerb|Pressure|FakeOut,CloseCombat,DireClaw,Protect|Jolly||M|||50|]Mawile||Mawilite|Intimidate|SuckerPunch,PlayRough,IronHead,SwordsDance|Brave||F|||50|]Ampharos||Ampharosite|Static|DragonPulse,Thunderbolt,DazzlingGleam,Protect|Quiet||M|||50|]Incineroar|||Intimidate|FlareBlitz,DarkestLariat,PartingShot,FakeOut|Impish||M|||50|
+|
+|t:|1786204377
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, F|100/100
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|switch|p2a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|-unboost|p1b: Garchomp|atk|1
+|turn|1
+|
+|t:|1786204391
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, F
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2b: Incineroar|Fake Out|p1a: Charizard
+|-damage|p1a: Charizard|87/100
+|move|p1b: Garchomp|Earthquake|p2a: Farigiraf|[spread] p2a,p2b
+|-immune|p1a: Charizard
+|-supereffective|p2b: Incineroar|1
+|-damage|p2a: Farigiraf|70/100
+|-damage|p2b: Incineroar|52/100
+|-damage|p1b: Garchomp|90/100|[from] item: Life Orb
+|cant|p1a: Charizard|flinch
+|move|p2a: Farigiraf|Trick Room|p2a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2a: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1786204409
+|move|p1a: Charizard|Protect|p1a: Charizard
+|-singleturn|p1a: Charizard|Protect
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p2a: Farigiraf|Twin Beam|p1b: Garchomp
+|-activate|p1b: Garchomp|move: Protect
+|move|p2b: Incineroar|Parting Shot|p1a: Charizard
+|-activate|p1a: Charizard|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1786204430
+|switch|p1b: Sylveon|Sylveon, L50, M|100/100
+|move|p2a: Farigiraf|Twin Beam|p1b: Sylveon
+|-damage|p1b: Sylveon|87/100
+|-damage|p1b: Sylveon|75/100
+|-hitcount|p1b: Sylveon|2
+|move|p2b: Incineroar|Parting Shot|p1a: Charizard
+|-unboost|p1a: Charizard|atk|1
+|-unboost|p1a: Charizard|spa|1
+|
+|t:|1786204443
+|switch|p2b: Ampharos|Ampharos, L50, M|100/100|[from] Parting Shot
+|move|p1a: Charizard|Weather Ball|p2a: Farigiraf
+|-damage|p2a: Farigiraf|19/100
+|-enditem|p2a: Farigiraf|Sitrus Berry|[eat]
+|-heal|p2a: Farigiraf|44/100|[from] item: Sitrus Berry
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1786204454
+|switch|p1a: Garchomp|Garchomp, L50, F|90/100
+|detailschange|p2b: Ampharos|Ampharos-Mega, L50, M
+|-mega|p2b: Ampharos|Ampharos|Ampharosite
+|-ability|p2b: Ampharos|Mold Breaker
+|move|p2a: Farigiraf|Helping Hand|p2b: Ampharos
+|-singleturn|p2b: Ampharos|Helping Hand|[of] p2a: Farigiraf
+|move|p2b: Ampharos|Thunderbolt|p1b: Sylveon
+|-damage|p1b: Sylveon|6/100
+|move|p1b: Sylveon|Hyper Voice|p2a: Farigiraf|[spread] p2a,p2b
+|-supereffective|p2b: Ampharos|1
+|-damage|p2a: Farigiraf|7/100
+|-damage|p2b: Ampharos|20/100y
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1786204469
+|move|p1b: Sylveon|Detect|p1b: Sylveon
+|-singleturn|p1b: Sylveon|Protect
+|move|p1a: Garchomp|Protect|p1a: Garchomp
+|-singleturn|p1a: Garchomp|Protect
+|move|p2b: Ampharos|Dragon Pulse|p1a: Garchomp
+|-activate|p1a: Garchomp|move: Protect
+|move|p2a: Farigiraf|Twin Beam|p1b: Sylveon
+|-activate|p1b: Sylveon|move: Protect
+|
+|-weather|none
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1786204484
+|move|p2b: Ampharos|Protect|p2b: Ampharos
+|-singleturn|p2b: Ampharos|Protect
+|move|p1a: Garchomp|Stomping Tantrum|p2a: Farigiraf
+|-damage|p2a: Farigiraf|0 fnt
+|faint|p2a: Farigiraf
+|-damage|p1a: Garchomp|80/100|[from] item: Life Orb
+|move|p1b: Sylveon|Hyper Voice|p2b: Ampharos
+|-activate|p2b: Ampharos|move: Protect
+|
+|upkeep
+|
+|t:|1786204495
+|switch|p2a: Clawitzer|Clawitzer, L50, F|100/100
+|turn|7
+|
+|t:|1786204504
+|move|p2b: Ampharos|Protect|p2b: Ampharos
+|-singleturn|p2b: Ampharos|Protect
+|move|p1a: Garchomp|Stomping Tantrum|p2a: Clawitzer
+|-damage|p2a: Clawitzer|44/100
+|-damage|p1a: Garchomp|71/100|[from] item: Life Orb
+|move|p1b: Sylveon|Hyper Voice|p2a: Clawitzer|[spread] p2a
+|-activate|p2b: Ampharos|move: Protect
+|-damage|p2a: Clawitzer|0 fnt
+|faint|p2a: Clawitzer
+|
+|upkeep
+|-message|2584.DRT forfeited.
+|
+|win|ClasiusClap
+|l|☆2584.DRT
+|player|p2|

@@ -1,0 +1,136 @@
+|j|☆Sum00
+|j|☆newcolas
+|html|Sum00newcolas    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1786145388
+|gametype|doubles
+|player|p1|Sum00|265|
+|player|p2|newcolas|2|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Camerupt, L50, F|
+|poke|p1|Sylveon, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Kangaskhan, L50, F|
+|poke|p2|Aerodactyl, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Sylveon, L50, M|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Incineroar, L50, F|
+|teampreview|4
+|showteam|p1|Camerupt||Cameruptite|SolidRock|HeatWave,EarthPower,AncientPower,Protect|Quiet||F|||50|]Sylveon||LifeOrb|Pixilate|HyperVoice,HyperBeam,QuickAttack,Detect|Modest||F|||50|]Sneasler||IronBall|PoisonTouch|DireClaw,CloseCombat,FakeOut,Fling|Brave||M|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,Thunderbolt,HelpingHand,TrickRoom|Relaxed||F|||50|]Basculegion||FocusSash|Adaptability|LastRespects,Liquidation,AquaJet,Protect|Adamant||M|||50|]Kangaskhan||Kangaskhanite|Scrappy|DoubleEdge,FakeOut,HammerArm,IcePunch|Brave||F|||50|
+|showteam|p2|Aerodactyl||Aerodactylite|Unnerve|RockSlide,IceFang,Tailwind,WideGuard|Jolly||F|||50|]Kingambit||FocusSash|Defiant|KowtowCleave,SuckerPunch,IronHead,Protect|Adamant||M|||50|]Sylveon||FairyFeather|Pixilate|Detect,HyperVoice,HyperBeam,QuickAttack|Modest||M|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,DragonClaw,StompingTantrum,Protect|Jolly||F|||50|]Charizard||CharizarditeY|Blaze|Protect,HeatWave,SolarBeam,WeatherBall|Modest||M|||50|]Incineroar||SitrusBerry|Intimidate|DarkestLariat,FlareBlitz,FakeOut,PartingShot|Impish||F|||50|
+|
+|t:|1786145423
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Charizard|Charizard, L50, M|100/100
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|turn|1
+|
+|t:|1786145434
+|detailschange|p2a: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p2a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p1b: Sneasler|Fake Out|p2a: Charizard
+|-damage|p2a: Charizard|85/100
+|-status|p2a: Charizard|psn|[from] ability: Poison Touch|[of] p1b: Sneasler
+|move|p2b: Garchomp|Earthquake|p1b: Sneasler|[spread] p1a,p1b
+|-immune|p2a: Charizard
+|-supereffective|p1b: Sneasler|1
+|-damage|p1a: Farigiraf|41/100
+|-damage|p1b: Sneasler|0 fnt
+|-enditem|p1a: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1a: Farigiraf|66/100|[from] item: Sitrus Berry
+|faint|p1b: Sneasler
+|-damage|p2b: Garchomp|90/100|[from] item: Life Orb
+|cant|p2a: Charizard|flinch
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|73/100 psn|[from] psn
+|upkeep
+|
+|t:|1786145452
+|switch|p1b: Camerupt|Camerupt, L50, F|100/100
+|turn|2
+|
+|t:|1786145464
+|detailschange|p1b: Camerupt|Camerupt-Mega, L50, F
+|-mega|p1b: Camerupt|Camerupt|Cameruptite
+|move|p2a: Charizard|Protect|p2a: Charizard
+|-singleturn|p2a: Charizard|Protect
+|move|p1b: Camerupt|Earth Power|p2b: Garchomp
+|-damage|p2b: Garchomp|24/100
+|move|p1a: Farigiraf|Thunderbolt|p2a: Charizard
+|-activate|p2a: Charizard|move: Protect
+|move|p2b: Garchomp|Earthquake|p1a: Farigiraf|[spread] p1a,p1b
+|-activate|p2a: Charizard|move: Protect
+|-supereffective|p1b: Camerupt|1
+|-damage|p1a: Farigiraf|12/100
+|-damage|p1b: Camerupt|0 fnt
+|faint|p1b: Camerupt
+|-damage|p2b: Garchomp|14/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Charizard|61/100 psn|[from] psn
+|upkeep
+|
+|t:|1786145480
+|switch|p1b: Basculegion|Basculegion, L50, M|100/100
+|turn|3
+|
+|t:|1786145502
+|switch|p2a: Kingambit|Kingambit, L50, M|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Farigiraf|atk|1
+|-unboost|p1b: Basculegion|atk|1
+|move|p1a: Farigiraf|Thunderbolt|p2a: Kingambit
+|-damage|p2a: Kingambit|75/100
+|move|p1b: Basculegion|Last Respects|p2a: Kingambit
+|-resisted|p2a: Kingambit|1
+|-damage|p2a: Kingambit|54/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1786145533
+|move|p1a: Farigiraf|Helping Hand|p1b: Basculegion
+|-singleturn|p1b: Basculegion|Helping Hand|[of] p1a: Farigiraf
+|move|p2b: Incineroar|Flare Blitz|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|faint|p1a: Farigiraf
+|-damage|p2b: Incineroar|96/100|[from] Recoil
+|move|p2a: Kingambit|Kowtow Cleave|p1b: Basculegion
+|-supereffective|p1b: Basculegion|1
+|-enditem|p1b: Basculegion|Focus Sash
+|-damage|p1b: Basculegion|1/100
+|move|p1b: Basculegion|Last Respects|p2a: Kingambit
+|-resisted|p2a: Kingambit|1
+|-damage|p2a: Kingambit|7/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1786145551
+|move|p2a: Kingambit|Sucker Punch|p1b: Basculegion
+|-supereffective|p1b: Basculegion|1
+|-damage|p1b: Basculegion|0 fnt
+|faint|p1b: Basculegion
+|
+|win|newcolas
+||newcolas is ready for game 2.
+|inactive|Sum00 has 30 seconds to confirm battle start!

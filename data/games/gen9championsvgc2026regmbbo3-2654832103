@@ -1,0 +1,162 @@
+|j|☆masello
+|j|☆ghjk09
+|html|maselloghjk09    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1785016683
+|gametype|doubles
+|player|p1|masello|1|1029
+|player|p2|ghjk09|hilbert|1065
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Staraptor, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Ceruledge, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Goodra-Hisui, L50, M|
+|poke|p2|Oranguru, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Lucario, L50, M|
+|poke|p2|Camerupt, L50, M|
+|poke|p2|Hatterene, L50, F|
+|poke|p2|Abomasnow, L50, F|
+|teampreview|4
+|showteam|p1|Whimsicott||MentalHerb|Prankster|Moonblast,Tailwind,FakeTears,Charm|Timid||F|||50|]Staraptor||Staraptite|Intimidate|DualWingbeat,Roost,CloseCombat,Protect|Jolly||M|||50|]Gholdengo||SitrusBerry|GoodasGold|NastyPlot,ShadowBall,MakeItRain,Protect|Modest|||||50|]Ceruledge||LifeOrb|FlashFire|BitterBlade,BulkUp,ShadowSneak,PhantomForce|Adamant||F|||50|]Garchomp||LumBerry|RoughSkin|SwordsDance,RockSlide,StompingTantrum,Protect|Jolly||M|||50|]Goodra-Hisui||Leftovers|SapSipper|Curse,IronHead,BodyPress,WeatherBall|Sassy||M|||50|
+|showteam|p2|Oranguru||MentalHerb|InnerFocus|ExpandingForce,TrickRoom,Instruct,PsychicTerrain|Relaxed||M|||50|]Torkoal||Charcoal|Drought|Eruption,EarthPower,HeatWave,SolarBeam|Quiet||M|||50|]Lucario||ChoiceScarf|InnerFocus|FinalGambit,QuickGuard,Coaching,CloseCombat|Jolly||M|||50|]Camerupt||Cameruptite|SolidRock|EarthPower,Eruption,HeatWave,AncientPower|Quiet||M|||50|]Hatterene||LifeOrb|MagicBounce|ExpandingForce,DazzlingGleam,TrickRoom,Protect|Quiet||F|||50|]Abomasnow||Abomasite|SnowWarning|Blizzard,WeatherBall,GigaDrain,EarthPower|Quiet||F|||50|
+|
+|t:|1785016722
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Goodra|Goodra-Hisui, L50, M|100/100
+|switch|p1b: Ceruledge|Ceruledge, L50, F|100/100
+|switch|p2a: Lucario|Lucario, L50, M|100/100
+|switch|p2b: Oranguru|Oranguru, L50, M|100/100
+|turn|1
+|
+|t:|1785016736
+|move|p2a: Lucario|Final Gambit|p1a: Goodra
+|-damage|p1a: Goodra|5/100
+|faint|p2a: Lucario
+|move|p1b: Ceruledge|Bulk Up|p1b: Ceruledge
+|-boost|p1b: Ceruledge|atk|1
+|-boost|p1b: Ceruledge|def|1
+|move|p1a: Goodra|Curse|p1a: Goodra
+|-unboost|p1a: Goodra|spe|1
+|-boost|p1a: Goodra|atk|1
+|-boost|p1a: Goodra|def|1
+|move|p2b: Oranguru|Trick Room|p2b: Oranguru
+|-fieldstart|move: Trick Room|[of] p2b: Oranguru
+|
+|-heal|p1a: Goodra|11/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1785016769
+|switch|p2a: Abomasnow|Abomasnow, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|2
+|
+|t:|1785016789
+|detailschange|p2a: Abomasnow|Abomasnow-Mega, L50, F
+|-mega|p2a: Abomasnow|Abomasnow|Abomasite
+|move|p2a: Abomasnow|Earth Power|p1b: Ceruledge
+|-supereffective|p1b: Ceruledge|1
+|-damage|p1b: Ceruledge|17/100
+|move|p1a: Goodra|Body Press|p2a: Abomasnow
+|-supereffective|p2a: Abomasnow|1
+|-damage|p2a: Abomasnow|62/100
+|move|p2b: Oranguru|Instruct|p2a: Abomasnow
+|-singleturn|p2a: Abomasnow|move: Instruct|[of] p2b: Oranguru
+|move|p2a: Abomasnow|Earth Power|p1b: Ceruledge
+|-supereffective|p1b: Ceruledge|1
+|-damage|p1b: Ceruledge|0 fnt
+|faint|p1b: Ceruledge
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Goodra|17/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1785016813
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|turn|3
+|
+|t:|1785016826
+|move|p1b: Gholdengo|Protect|p1b: Gholdengo
+|-singleturn|p1b: Gholdengo|Protect
+|move|p2a: Abomasnow|Blizzard|p1a: Goodra|[spread] p1a
+|-activate|p1b: Gholdengo|move: Protect
+|-damage|p1a: Goodra|0 fnt
+|faint|p1a: Goodra
+|move|p2b: Oranguru|Instruct|p2a: Abomasnow
+|-singleturn|p2a: Abomasnow|move: Instruct|[of] p2b: Oranguru
+|move|p2a: Abomasnow|Blizzard|p1b: Gholdengo
+|-activate|p1b: Gholdengo|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1785016840
+|switch|p1a: Staraptor|Staraptor, L50, M|100/100
+|-ability|p1a: Staraptor|Intimidate|boost
+|-unboost|p2a: Abomasnow|atk|1
+|-fail|p2b: Oranguru|unboost|Attack|[from] ability: Inner Focus|[of] p2b: Oranguru
+|turn|4
+|
+|t:|1785016851
+|detailschange|p1a: Staraptor|Staraptor-Mega, L50, M
+|-mega|p1a: Staraptor|Staraptor|Staraptite
+|move|p2a: Abomasnow|Blizzard|p1b: Gholdengo|[spread] p1a,p1b
+|-supereffective|p1a: Staraptor|1
+|-crit|p1a: Staraptor
+|-resisted|p1b: Gholdengo|1
+|-damage|p1a: Staraptor|0 fnt
+|-damage|p1b: Gholdengo|72/100
+|faint|p1a: Staraptor
+|move|p2b: Oranguru|Instruct|p2a: Abomasnow
+|-singleturn|p2a: Abomasnow|move: Instruct|[of] p2b: Oranguru
+|move|p2a: Abomasnow|Blizzard|p1b: Gholdengo
+|-resisted|p1b: Gholdengo|1
+|-damage|p1b: Gholdengo|36/100
+|-enditem|p1b: Gholdengo|Sitrus Berry|[eat]
+|-heal|p1b: Gholdengo|61/100|[from] item: Sitrus Berry
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1785016873
+|move|p1b: Gholdengo|Protect|p1b: Gholdengo
+|-singleturn|p1b: Gholdengo|Protect
+|move|p2a: Abomasnow|Earth Power|p1b: Gholdengo
+|-activate|p1b: Gholdengo|move: Protect
+|move|p2b: Oranguru|Instruct|p2a: Abomasnow
+|-singleturn|p2a: Abomasnow|move: Instruct|[of] p2b: Oranguru
+|move|p2a: Abomasnow|Earth Power|p1b: Gholdengo
+|-activate|p1b: Gholdengo|move: Protect
+|
+|-weather|Snowscape|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|
+|t:|1785016888
+|move|p1b: Gholdengo|Make It Rain|p2b: Oranguru|[spread] p2b
+|-miss|p1b: Gholdengo|p2a: Abomasnow
+|-damage|p2b: Oranguru|14/100
+|-unboost|p1b: Gholdengo|spa|2
+|move|p2a: Abomasnow|Earth Power|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo|1
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|
+|win|ghjk09
+|l|☆masello
+|player|p1|
+|raw|masello's rating: 1029 → 1016(-13 for losing)
+|raw|ghjk09's rating: 1065 → 1092(+27 for winning)

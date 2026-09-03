@@ -1,0 +1,181 @@
+|j|☆TourneyPracticing
+|j|☆papipopper11
+|html|TourneyPracticingpapipopper11    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785352805
+|gametype|doubles
+|player|p1|TourneyPracticing|101|1058
+|player|p2|papipopper11|101|1079
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Raichu, L50, F|
+|poke|p1|Gardevoir, L50, M|
+|poke|p1|Kingambit, L50, F|
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Primarina, L50, M|
+|poke|p2|Farigiraf, L50, F|
+|poke|p2|Torkoal, L50, M, shiny|
+|poke|p2|Chesnaught, L50, F, shiny|
+|poke|p2|Kangaskhan, L50, F|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Heracross, L50, M, shiny|
+|teampreview|4
+|showteam|p1|Raichu||FocusSash|LightningRod|FakeOut,Nuzzle,Electroweb,VoltSwitch|Timid||F|||50|]Gardevoir||Gardevoirite|Synchronize|HyperVoice,Psychic,Moonblast,Protect|Timid||M|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,IronHead,SuckerPunch,Protect|Adamant||F|||50|]Garchomp||LumBerry|RoughSkin|StompingTantrum,DragonClaw,RockSlide,Protect|Jolly||M|||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,PartingShot,FlareBlitz,ThroatChop|Careful||M|||50|]Primarina||Leftovers|LiquidVoice|HyperVoice,Moonblast,Haze,Protect|Modest||M|||50|
+|showteam|p2|Farigiraf||ColburBerry|ArmorTail|HyperVoice,HelpingHand,TrickRoom,Protect|Relaxed||F|||50|]Torkoal||Charcoal|Drought|Eruption,HeatWave,SolarBeam,Protect|Quiet||M|||50|]Chesnaught||Chesnaughtite|Bulletproof|BodyPress,WoodHammer,IronDefense,SpikyShield|Relaxed||F|||50|]Kangaskhan||ChopleBerry|Scrappy|DoubleEdge,LowKick,FakeOut,Protect|Adamant||F|||50|]Raichu||FocusSash|LightningRod|Thunderbolt,DrainingKiss,FakeOut,Nuzzle|Modest||M|||50|]Heracross||Heracronite|Moxie|CloseCombat,PinMissile,RockBlast,Protect|Brave||M|||50|
+|
+|t:|1785352852
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Raichu|Raichu, L50, F|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Kangaskhan|Kangaskhan, L50, F|100/100
+|switch|p2b: Farigiraf|Farigiraf, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Kangaskhan|unboost|Attack|[from] ability: Scrappy|[of] p2a: Kangaskhan
+|-unboost|p2b: Farigiraf|atk|1
+|turn|1
+|
+|t:|1785352884
+|move|p2b: Farigiraf|Protect|p2b: Farigiraf
+|-singleturn|p2b: Farigiraf|Protect
+|move|p1a: Raichu|Nuzzle|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|93/100
+|-status|p2a: Kangaskhan|par
+|move|p1b: Incineroar|Parting Shot|p2b: Farigiraf
+|-activate|p2b: Farigiraf|move: Protect
+|move|p2a: Kangaskhan|Double-Edge|p1a: Raichu
+|-damage|p1a: Raichu|9/100
+|-damage|p2a: Kangaskhan|70/100 par|[from] Recoil
+|
+|upkeep
+|turn|2
+|
+|t:|1785352908
+|move|p1a: Raichu|Volt Switch|p2b: Farigiraf
+|-damage|p2b: Farigiraf|78/100
+|
+|t:|1785352918
+|switch|p1a: Gardevoir|Gardevoir, L50, M|100/100|[from] Volt Switch
+|move|p1b: Incineroar|Parting Shot|p2b: Farigiraf
+|-unboost|p2b: Farigiraf|atk|1
+|-unboost|p2b: Farigiraf|spa|1
+|
+|t:|1785352925
+|switch|p1b: Kingambit|Kingambit, L50, F|100/100|[from] Parting Shot
+|move|p2a: Kangaskhan|Low Kick|p1a: Gardevoir
+|-resisted|p1a: Gardevoir|2
+|-damage|p1a: Gardevoir|92/100
+|move|p2b: Farigiraf|Trick Room|p2b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p2b: Farigiraf
+|
+|upkeep
+|turn|3
+|
+|t:|1785352947
+|detailschange|p1a: Gardevoir|Gardevoir-Mega, L50, M
+|-mega|p1a: Gardevoir|Gardevoir|Gardevoirite
+|move|p2b: Farigiraf|Helping Hand|p2a: Kangaskhan
+|-singleturn|p2a: Kangaskhan|Helping Hand|[of] p2b: Farigiraf
+|move|p2a: Kangaskhan|Low Kick|p1b: Kingambit
+|-supereffective|p1b: Kingambit|2
+|-damage|p1b: Kingambit|0 fnt
+|faint|p1b: Kingambit
+|move|p1a: Gardevoir|Hyper Voice|p2b: Farigiraf|[spread] p2a,p2b
+|-damage|p2a: Kangaskhan|22/100 par
+|-damage|p2b: Farigiraf|24/100
+|
+|upkeep
+|
+|t:|1785352963
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-fail|p2a: Kangaskhan|unboost|Attack|[from] ability: Scrappy|[of] p2a: Kangaskhan
+|-unboost|p2b: Farigiraf|atk|1
+|turn|4
+|
+|t:|1785352977
+|move|p2b: Farigiraf|Helping Hand|p2a: Kangaskhan
+|-singleturn|p2a: Kangaskhan|Helping Hand|[of] p2b: Farigiraf
+|move|p1a: Gardevoir|Protect|p1a: Gardevoir
+|-singleturn|p1a: Gardevoir|Protect
+|move|p2a: Kangaskhan|Double-Edge|p1a: Gardevoir
+|-activate|p1a: Gardevoir|move: Protect
+|move|p1b: Incineroar|Throat Chop|p2a: Kangaskhan
+|-damage|p2a: Kangaskhan|0 fnt
+|faint|p2a: Kangaskhan
+|
+|upkeep
+|
+|t:|1785352992
+|switch|p2a: Torkoal|Torkoal, L50, M, shiny|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|5
+|
+|t:|1785353002
+|switch|p1a: Raichu|Raichu, L50, F|9/100
+|move|p2b: Farigiraf|Helping Hand|p2a: Torkoal
+|-singleturn|p2a: Torkoal|Helping Hand|[of] p2b: Farigiraf
+|move|p2a: Torkoal|Eruption|p1a: Raichu|[spread] p1a,p1b
+|-resisted|p1b: Incineroar|1
+|-damage|p1a: Raichu|0 fnt
+|-damage|p1b: Incineroar|54/100
+|faint|p1a: Raichu
+|move|p1b: Incineroar|Parting Shot|p2a: Torkoal
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2a: Torkoal|spa|1
+|
+|t:|1785353009
+|switch|p1b: Gardevoir|Gardevoir-Mega, L50, M|92/100|[from] Parting Shot
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785353011
+|switch|p1a: Incineroar|Incineroar, L50, M|54/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Torkoal|atk|1
+|-unboost|p2b: Farigiraf|atk|1
+|turn|6
+|
+|t:|1785353030
+|switch|p2a: Chesnaught|Chesnaught, L50, F, shiny|100/100
+|move|p2b: Farigiraf|Protect|p2b: Farigiraf
+|-singleturn|p2b: Farigiraf|Protect
+|move|p1b: Gardevoir|Protect|p1b: Gardevoir
+|-singleturn|p1b: Gardevoir|Protect
+|move|p1a: Incineroar|Throat Chop|p2a: Chesnaught
+|-resisted|p2a: Chesnaught|1
+|-damage|p2a: Chesnaught|88/100
+|-start|p2a: Chesnaught|Throat Chop|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|7
+|
+|t:|1785353050
+|move|p2a: Chesnaught|Spiky Shield|p2a: Chesnaught
+|-singleturn|p2a: Chesnaught|move: Protect
+|move|p1b: Gardevoir|Hyper Voice|p2b: Farigiraf|[spread] p2b
+|-activate|p2a: Chesnaught|move: Protect
+|-damage|p2b: Farigiraf|0 fnt
+|faint|p2b: Farigiraf
+|move|p1a: Incineroar|Parting Shot|p2a: Chesnaught
+|-activate|p2a: Chesnaught|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p2a: Chesnaught|Throat Chop|[silent]
+|upkeep
+|c|☆papipopper11|Ggs
+|j| tedidn
+|-message|papipopper11 forfeited.
+|raw|TourneyPracticing's rating: 1058 → 1091(+33 for winning)
+|raw|papipopper11's rating: 1079 → 1056(-23 for losing)
+|
+|win|TourneyPracticing

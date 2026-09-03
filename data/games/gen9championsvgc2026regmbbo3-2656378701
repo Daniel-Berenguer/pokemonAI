@@ -1,0 +1,165 @@
+|j|☆mumu2
+|j|☆PatuDucc
+|html|mumu2PatuDucc    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785280904
+|gametype|doubles
+|player|p1|mumu2|cyclistf|
+|player|p2|PatuDucc|ingo|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Hydreigon, L50, M|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p1|Skarmory, L50, M|
+|poke|p1|Rotom-Wash, L50|
+|poke|p2|Gardevoir, L50, F, shiny|
+|poke|p2|Tauros-Paldea-Aqua, L50, M|
+|poke|p2|Talonflame, L50, F|
+|poke|p2|Maushold, L50|
+|poke|p2|Scizor, L50, F|
+|poke|p2|Hydreigon, L50, M, shiny|
+|teampreview|4
+|showteam|p1|Tyranitar||Tyranitarite|SandStream|RockSlide,KnockOff,Earthquake,Protect|Adamant||M|||50|]Excadrill||LifeOrb|SandRush|Earthquake,IronHead,RockSlide,Protect|Adamant||M|||50|]Hydreigon||ChoiceScarf|Levitate|DracoMeteor,DarkPulse,Snarl,FocusBlast|Timid||M|||50|]Ninetales-Alola||NeverMeltIce|SnowWarning|Blizzard,FreezeDry,Moonblast,Protect|Timid||F|||50|]Skarmory||Skarmorite|Sturdy|BraveBird,Taunt,Protect,DrillPeck|Jolly||M|||50|]Rotom-Wash||SitrusBerry|Levitate|Discharge,HydroPump,VoltSwitch,WillOWisp|Modest|||||50|
+|showteam|p2|Gardevoir||Gardevoirite|Synchronize|HyperVoice,Psyshock,EnergyBall,Protect|Modest||F|||50|]Tauros-Paldea-Aqua||ChoiceScarf|Intimidate|WaveCrash,CloseCombat,RagingBull,RockSlide|Adamant||M|||50|]Talonflame||SharpBeak|GaleWings|BraveBird,FlareBlitz,Tailwind,Taunt|Jolly||F|||50|]Maushold||FocusSash|FriendGuard|SuperFang,Feint,FollowMe,Protect|Jolly|||||50|]Scizor||Scizorite|Technician|BulletPunch,BugBite,SwordsDance,Protect|Adamant||F|||50|]Hydreigon||LifeOrb|Levitate|DragonPulse,DarkPulse,EarthPower,Protect|Timid||M|||50|
+|
+|t:|1785281045
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Excadrill|Excadrill, L50, M|100/100
+|switch|p1b: Rotom|Rotom-Wash, L50|100/100
+|switch|p2a: Scizor|Scizor, L50, F|100/100
+|switch|p2b: Maushold|Maushold, L50|100/100
+|turn|1
+|j| FIR Zants
+|
+|t:|1785281077
+|detailschange|p2a: Scizor|Scizor-Mega, L50, F
+|-mega|p2a: Scizor|Scizor|Scizorite
+|move|p2b: Maushold|Follow Me|p2b: Maushold
+|-singleturn|p2b: Maushold|move: Follow Me
+|move|p1a: Excadrill|Earthquake|p2b: Maushold|[spread] p2a,p2b
+|-immune|p1b: Rotom|[from] ability: Levitate
+|-crit|p2b: Maushold
+|-damage|p2a: Scizor|67/100
+|-enditem|p2b: Maushold|Focus Sash
+|-damage|p2b: Maushold|1/100
+|-damage|p1a: Excadrill|90/100|[from] item: Life Orb
+|move|p1b: Rotom|Discharge|p2b: Maushold|[spread] p2a,p2b
+|-immune|p1a: Excadrill
+|-damage|p2a: Scizor|48/100
+|-damage|p2b: Maushold|0 fnt
+|-status|p2a: Scizor|par
+|faint|p2b: Maushold
+|move|p2a: Scizor|Swords Dance|p2a: Scizor
+|-boost|p2a: Scizor|atk|2
+|
+|upkeep
+|
+|t:|1785281165
+|switch|p2b: Tauros|Tauros-Paldea-Aqua, L50, M|100/100
+|-ability|p2b: Tauros|Intimidate|boost
+|-unboost|p1a: Excadrill|atk|1
+|-unboost|p1b: Rotom|atk|1
+|turn|2
+|
+|t:|1785281218
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2b: Tauros|Close Combat|p1b: Rotom
+|-damage|p1b: Rotom|40/100
+|-unboost|p2b: Tauros|def|1
+|-unboost|p2b: Tauros|spd|1
+|-enditem|p1b: Rotom|Sitrus Berry|[eat]
+|-heal|p1b: Rotom|65/100|[from] item: Sitrus Berry
+|move|p1b: Rotom|Volt Switch|p2a: Scizor
+|-damage|p2a: Scizor|14/100 par
+|
+|t:|1785281235
+|switch|p1b: Tyranitar|Tyranitar, L50, M|100/100|[from] Volt Switch
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|move|p2a: Scizor|Bug Bite|p1b: Tyranitar
+|-supereffective|p1b: Tyranitar|1
+|-damage|p1b: Tyranitar|0 fnt
+|faint|p1b: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Tauros|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1785281248
+|switch|p1b: Rotom|Rotom-Wash, L50|65/100
+|turn|3
+|
+|t:|1785281270
+|move|p2a: Scizor|Protect|p2a: Scizor
+|-singleturn|p2a: Scizor|Protect
+|move|p1a: Excadrill|Earthquake|p2b: Tauros|[spread] p2b
+|-activate|p2a: Scizor|move: Protect
+|-immune|p1b: Rotom|[from] ability: Levitate
+|-damage|p2b: Tauros|25/100
+|-damage|p1a: Excadrill|80/100|[from] item: Life Orb
+|move|p2b: Tauros|Close Combat|p1a: Excadrill
+|-supereffective|p1a: Excadrill|1
+|-damage|p1a: Excadrill|0 fnt
+|-unboost|p2b: Tauros|def|1
+|-unboost|p2b: Tauros|spd|1
+|faint|p1a: Excadrill
+|move|p1b: Rotom|Volt Switch|p2b: Tauros
+|-supereffective|p2b: Tauros|1
+|-damage|p2b: Tauros|0 fnt
+|faint|p2b: Tauros
+|
+|t:|1785281285
+|switch|p1b: Hydreigon|Hydreigon, L50, M|100/100|[from] Volt Switch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Hydreigon|93/100|[from] Sandstorm
+|upkeep
+|
+|t:|1785281291
+|switch|p2b: Talonflame|Talonflame, L50, F|100/100
+|switch|p1a: Rotom|Rotom-Wash, L50|65/100
+|turn|4
+|
+|t:|1785281351
+|move|p2b: Talonflame|Brave Bird|p1a: Rotom
+|-resisted|p1a: Rotom|1
+|-damage|p1a: Rotom|36/100
+|-damage|p2b: Talonflame|90/100|[from] Recoil
+|move|p2a: Scizor|Bullet Punch|p1a: Rotom
+|-resisted|p1a: Rotom|2
+|-damage|p1a: Rotom|18/100
+|move|p1b: Hydreigon|Dark Pulse|p2a: Scizor
+|-damage|p2a: Scizor|0 fnt
+|faint|p2a: Scizor
+|move|p1a: Rotom|Discharge|p2b: Talonflame|[spread] p1b,p2b
+|-resisted|p1b: Hydreigon|1
+|-supereffective|p2b: Talonflame|1
+|-damage|p1b: Hydreigon|80/100
+|-damage|p2b: Talonflame|7/100
+|-status|p1b: Hydreigon|par
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Talonflame|1/100|[from] Sandstorm
+|-damage|p1b: Hydreigon|74/100 par|[from] Sandstorm
+|-damage|p1a: Rotom|12/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1785281378
+|move|p2b: Talonflame|Brave Bird|p1a: Rotom
+|-resisted|p1a: Rotom|1
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|-damage|p2b: Talonflame|0 fnt|[from] Recoil
+|faint|p2b: Talonflame
+|
+|win|mumu2
+|l|☆PatuDucc
+|player|p2|

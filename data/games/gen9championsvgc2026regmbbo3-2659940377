@@ -1,0 +1,249 @@
+|j|☆andiom123
+|j|☆jellytelescope
+|html|andiom123jellytelescope    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785886589
+|gametype|doubles
+|player|p1|andiom123|red|1190
+|player|p2|jellytelescope|169|1070
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Torkoal, L50, M|
+|poke|p1|Kangaskhan, L50, F|
+|poke|p1|Mudsdale, L50, M|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Bellibolt, L50, F|
+|poke|p2|Blaziken, L50, M|
+|poke|p2|Banette, L50, F|
+|poke|p2|Blastoise, L50, F|
+|poke|p2|Barbaracle, L50, M|
+|teampreview|4
+|showteam|p1|Incineroar||MuscleBand|Intimidate|ThroatChop,FlareBlitz,FakeOut,PartingShot|Brave||M|||50|]Farigiraf||SitrusBerry|ArmorTail|FoulPlay,PsychicNoise,TrickRoom,HelpingHand|Relaxed||M|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,Yawn,Detect|Modest||M|||50|]Torkoal||Charcoal|Drought|Eruption,EarthPower,Flamethrower,Protect|Quiet||M|||50|]Kangaskhan||Kangaskhanite|Scrappy|DoubleEdge,FakeOut,IcePunch,HammerArm|Brave||F|||50|]Mudsdale||LifeOrb|InnerFocus|HighHorsepower,Earthquake,RockSlide,HeavySlam|Brave||M|||50|
+|showteam|p2|Basculegion||FocusSash|Adaptability|Protect,WaveCrash,LastRespects,AquaJet|Jolly||M|||50|]Bellibolt||Leftovers|Electromorphosis|Protect,Thunderbolt,MuddyWater,VoltSwitch|Bold||F|||50|]Blaziken||Blazikenite|SpeedBoost|Detect,SwordsDance,CloseCombat,FlareBlitz|Adamant||M|||50|]Banette||ColburBerry|Insomnia|RainDance,TrickRoom,WillOWisp,Encore|Serious||F|||50|]Blastoise||Blastoisinite|RainDish|Protect,WaterSpout,FakeOut,DarkPulse|Modest||F|||50|]Barbaracle||Barbaracite|ToughClaws|Protect,CloseCombat,RockSlide,ShellSmash|Adamant||M|||50|
+|
+|t:|1785886631
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p1b: Kangaskhan|Kangaskhan, L50, F|100/100
+|switch|p2a: Barbaracle|Barbaracle, L50, M|100/100
+|switch|p2b: Banette|Banette, L50, F|100/100
+|turn|1
+|
+|t:|1785886654
+|detailschange|p2a: Barbaracle|Barbaracle-Mega, L50, M
+|-mega|p2a: Barbaracle|Barbaracle|Barbaracite
+|move|p1b: Kangaskhan|Fake Out|p2a: Barbaracle
+|-resisted|p2a: Barbaracle|1
+|-damage|p2a: Barbaracle|92/100
+|cant|p2a: Barbaracle|flinch
+|move|p2b: Banette|Rain Dance|p2b: Banette
+|-weather|RainDance
+|move|p1a: Farigiraf|Foul Play|p2b: Banette
+|-supereffective|p2b: Banette|1
+|-enditem|p2b: Banette|Colbur Berry|[eat]
+|-enditem|p2b: Banette|Colbur Berry|[weaken]
+|-damage|p2b: Banette|73/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1785886671
+|switch|p1b: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|move|p2a: Barbaracle|Close Combat|p1b: Torkoal
+|-damage|p1b: Torkoal|35/100
+|-unboost|p2a: Barbaracle|def|1
+|-unboost|p2a: Barbaracle|spd|1
+|move|p2b: Banette|Will-O-Wisp|p1b: Torkoal
+|-immune|p1b: Torkoal
+|move|p1a: Farigiraf|Psychic Noise|p2a: Barbaracle
+|-supereffective|p2a: Barbaracle|1
+|-damage|p2a: Barbaracle|6/100
+|-start|p2a: Barbaracle|move: Heal Block
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1785886701
+|switch|p1b: Kangaskhan|Kangaskhan, L50, F|100/100
+|move|p2a: Barbaracle|Rock Slide|p1a: Farigiraf|[spread] p1a,p1b
+|-damage|p1a: Farigiraf|75/100
+|-damage|p1b: Kangaskhan|65/100
+|move|p2b: Banette|Rain Dance|p2b: Banette
+|-weather|RainDance
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|-end|p2a: Barbaracle|move: Heal Block
+|upkeep
+|turn|4
+|
+|t:|1785886715
+|switch|p2a: Bellibolt|Bellibolt, L50, F|100/100
+|move|p1a: Farigiraf|Psychic Noise|p2a: Bellibolt
+|-damage|p2a: Bellibolt|73/100
+|-start|p2a: Bellibolt|move: Heal Block
+|-start|p2a: Bellibolt|Charge|Psychic Noise|[from] ability: Electromorphosis
+|move|p2b: Banette|Will-O-Wisp|p1b: Kangaskhan|[miss]
+|-miss|p2b: Banette|p1b: Kangaskhan
+|move|p1b: Kangaskhan|Double-Edge|p2b: Banette
+|-damage|p2b: Banette|19/100
+|-damage|p1b: Kangaskhan|50/100g|[from] Recoil
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1785886744
+|detailschange|p1b: Kangaskhan|Kangaskhan-Mega, L50, F
+|-mega|p1b: Kangaskhan|Kangaskhan|Kangaskhanite
+|move|p2a: Bellibolt|Thunderbolt|p1b: Kangaskhan
+|-damage|p1b: Kangaskhan|0 fnt
+|faint|p1b: Kangaskhan
+|-end|p2a: Bellibolt|Charge|[silent]
+|move|p1a: Farigiraf|Foul Play|p2b: Banette
+|-supereffective|p2b: Banette|1
+|-damage|p2b: Banette|0 fnt
+|faint|p2b: Banette
+|
+|-weather|RainDance|[upkeep]
+|-end|p2a: Bellibolt|move: Heal Block
+|upkeep
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by andiom123)
+|
+|t:|1785886771
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|switch|p1b: Mudsdale|Mudsdale, L50, M|100/100
+|turn|6
+|
+|t:|1785886778
+|move|p2a: Bellibolt|Protect|p2a: Bellibolt
+|-singleturn|p2a: Bellibolt|Protect
+|move|p1b: Mudsdale|Earthquake|p2b: Basculegion|[spread] p1a,p2b
+|-activate|p2a: Bellibolt|move: Protect
+|-damage|p1a: Farigiraf|37/100
+|-damage|p2b: Basculegion|24/100
+|-enditem|p1a: Farigiraf|Sitrus Berry|[eat]
+|-heal|p1a: Farigiraf|62/100|[from] item: Sitrus Berry
+|-damage|p1b: Mudsdale|90/100|[from] item: Life Orb
+|move|p1a: Farigiraf|Foul Play|p2b: Basculegion
+|-supereffective|p2b: Basculegion|1
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|
+|-weather|RainDance|[upkeep]
+|-heal|p2a: Bellibolt|79/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1785886790
+|switch|p2b: Barbaracle|Barbaracle-Mega, L50, M|6/100
+|turn|7
+|
+|t:|1785886798
+|move|p2a: Bellibolt|Protect||[still]
+|-fail|p2a: Bellibolt
+|move|p2b: Barbaracle|Protect|p2b: Barbaracle
+|-singleturn|p2b: Barbaracle|Protect
+|move|p1b: Mudsdale|High Horsepower|p2a: Bellibolt|[miss]
+|-miss|p1b: Mudsdale|p2a: Bellibolt
+|move|p1a: Farigiraf|Psychic Noise|p2b: Barbaracle
+|-activate|p2b: Barbaracle|move: Protect
+|
+|-weather|none
+|-heal|p2a: Bellibolt|85/100|[from] item: Leftovers
+|-fieldend|move: Trick Room
+|upkeep
+|turn|8
+|inactive|andiom123 has 30 seconds left.
+|inactive|andiom123 has 20 seconds left.
+|
+|t:|1785886836
+|move|p2b: Barbaracle|Close Combat|p1b: Mudsdale
+|-damage|p1b: Mudsdale|10/100
+|-unboost|p2b: Barbaracle|def|1
+|-unboost|p2b: Barbaracle|spd|1
+|move|p1a: Farigiraf|Psychic Noise|p2b: Barbaracle
+|-supereffective|p2b: Barbaracle|1
+|-damage|p2b: Barbaracle|0 fnt
+|faint|p2b: Barbaracle
+|move|p2a: Bellibolt|Muddy Water|p1b: Mudsdale|[spread] p1a,p1b
+|-supereffective|p1b: Mudsdale|1
+|-damage|p1a: Farigiraf|45/100
+|-damage|p1b: Mudsdale|0 fnt
+|faint|p1b: Mudsdale
+|
+|-heal|p2a: Bellibolt|91/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1785886849
+|switch|p1b: Torkoal|Torkoal, L50, M|35/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|9
+|
+|t:|1785886871
+|move|p1b: Torkoal|Protect|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Protect
+|move|p2a: Bellibolt|Thunderbolt|p1a: Farigiraf
+|-damage|p1a: Farigiraf|15/100
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Bellibolt|97/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1785886881
+|move|p1a: Farigiraf|Helping Hand|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Helping Hand|[of] p1a: Farigiraf
+|move|p2a: Bellibolt|Protect|p2a: Bellibolt
+|-singleturn|p2a: Bellibolt|Protect
+|move|p1b: Torkoal|Earth Power|p2a: Bellibolt
+|-activate|p2a: Bellibolt|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Bellibolt|100/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1785886896
+|move|p1a: Farigiraf|Helping Hand|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Helping Hand|[of] p1a: Farigiraf
+|move|p1b: Torkoal|Earth Power|p2a: Bellibolt
+|-supereffective|p2a: Bellibolt|1
+|-damage|p2a: Bellibolt|20/100y
+|-start|p2a: Bellibolt|Charge|Earth Power|[from] ability: Electromorphosis
+|move|p2a: Bellibolt|Thunderbolt|p1b: Torkoal
+|-damage|p1b: Torkoal|0 fnt
+|faint|p1b: Torkoal
+|-end|p2a: Bellibolt|Charge|[silent]
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Bellibolt|26/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1785886916
+|move|p2a: Bellibolt|Thunderbolt|p1a: Farigiraf
+|-crit|p1a: Farigiraf
+|-damage|p1a: Farigiraf|0 fnt
+|faint|p1a: Farigiraf
+|
+|win|jellytelescope
+|l|☆jellytelescope
+|player|p2|
+||andiom123 is ready for game 3.
+||jellytelescope is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

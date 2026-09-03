@@ -1,0 +1,181 @@
+|j|☆Leafeon Main?
+|j|☆Fayz Sharpie
+|html|Leafeon Main?Fayz Sharpie    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1784902528
+|gametype|doubles
+|player|p1|Leafeon Main?|cheryl|
+|player|p2|Fayz Sharpie|koga|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|raw|1 custom rule: !Force Open Team Sheets
+|clearpoke
+|poke|p1|Blastoise, L50, F|
+|poke|p1|Jolteon, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Politoed, L50, F|
+|poke|p1|Gengar, L50, M|
+|poke|p1|Ninetales-Alola, L50, F|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Orthworm, L50, F|
+|poke|p2|Scrafty, L50, M|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Vileplume, L50, M|
+|poke|p2|Aerodactyl, L50, F|
+|teampreview|4
+|
+|t:|1784902576
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Ranger|Blastoise, L50, F|100/100
+|switch|p1b: Sorcerer|Gengar, L50, M|100/100
+|switch|p2a: Aerodactyl|Aerodactyl, L50, F|100/100
+|switch|p2b: Raichu|Raichu, L50, M|100/100
+|-ability|p2a: Aerodactyl|Unnerve
+|turn|1
+|
+|t:|1784902597
+|switch|p1b: Bard|Politoed, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Bard
+|detailschange|p2a: Aerodactyl|Aerodactyl-Mega, L50, F
+|-mega|p2a: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p2a: Aerodactyl|Tailwind|p2a: Aerodactyl
+|-sidestart|p2: Fayz Sharpie|move: Tailwind
+|move|p2b: Raichu|Nuzzle|p1b: Bard
+|-supereffective|p1b: Bard|1
+|-enditem|p1b: Bard|Wacan Berry|[eat]
+|-enditem|p1b: Bard|Wacan Berry|[weaken]
+|-damage|p1b: Bard|92/100
+|-status|p1b: Bard|par
+|move|p1a: Ranger|Weather Ball|p2a: Aerodactyl
+|-supereffective|p2a: Aerodactyl|1
+|-damage|p2a: Aerodactyl|0 fnt
+|faint|p2a: Aerodactyl
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1784902602
+|switch|p2a: Vileplume|Vileplume, L50, M|100/100
+|turn|2
+|
+|t:|1784902634
+|move|p1b: Bard|Protect|p1b: Bard
+|-singleturn|p1b: Bard|Protect
+|move|p2b: Raichu|Thunderbolt|p1a: Ranger
+|-supereffective|p1a: Ranger|1
+|-damage|p1a: Ranger|51/100
+|move|p2a: Vileplume|Leaf Storm|p1b: Bard
+|-activate|p1b: Bard|move: Protect
+|move|p1a: Ranger|Ice Beam|p2a: Vileplume
+|-supereffective|p2a: Vileplume|1
+|-damage|p2a: Vileplume|39/100
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Ranger|57/100|[from] ability: Rain Dish
+|upkeep
+|turn|3
+|
+|t:|1784902678
+|switch|p1b: Sorcerer|Gengar, L50, M|100/100
+|move|p2b: Raichu|Volt Switch|p1a: Ranger
+|-supereffective|p1a: Ranger|1
+|-damage|p1a: Ranger|17/100
+|
+|t:|1784902681
+|switch|p2b: Scrafty|Scrafty, L50, M|100/100|[from] Volt Switch
+|-ability|p2b: Scrafty|Intimidate|boost
+|-unboost|p1a: Ranger|atk|1
+|-unboost|p1b: Sorcerer|atk|1
+|move|p2a: Vileplume|Sludge Bomb|p1a: Ranger
+|-damage|p1a: Ranger|0 fnt
+|faint|p1a: Ranger
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1784902691
+|switch|p1a: Wizard|Jolteon, L50, F|100/100
+|turn|4
+|
+|t:|1784902714
+|detailschange|p1b: Sorcerer|Gengar-Mega, L50, M
+|-mega|p1b: Sorcerer|Gengar|Gengarite
+|move|p2a: Vileplume|Sleep Powder|p1a: Wizard
+|-status|p1a: Wizard|slp|[from] move: Sleep Powder
+|move|p1b: Sorcerer|Dazzling Gleam|p2a: Vileplume|[spread] p2a,p2b
+|-resisted|p2a: Vileplume|1
+|-supereffective|p2b: Scrafty|2
+|-enditem|p2b: Scrafty|Roseli Berry|[eat]
+|-enditem|p2b: Scrafty|Roseli Berry|[weaken]
+|-damage|p2a: Vileplume|22/100
+|-damage|p2b: Scrafty|50/100y
+|cant|p1a: Wizard|slp
+|move|p2b: Scrafty|Throat Chop|p1b: Sorcerer
+|-supereffective|p1b: Sorcerer|1
+|-damage|p1b: Sorcerer|0 fnt
+|faint|p1b: Sorcerer
+|
+|-weather|RainDance|[upkeep]
+|-sideend|p2: Fayz Sharpie|move: Tailwind
+|upkeep
+|
+|t:|1784902728
+|switch|p1b: Bard|Politoed, L50, F|92/100 par
+|turn|5
+|
+|t:|1784902737
+|cant|p1a: Wizard|slp
+|move|p2a: Vileplume|Leaf Storm|p1b: Bard
+|-supereffective|p1b: Bard|1
+|-damage|p1b: Bard|9/100 par
+|-unboost|p2a: Vileplume|spa|2
+|move|p2b: Scrafty|Drain Punch|p1a: Wizard
+|-damage|p1a: Wizard|30/100 slp
+|-heal|p2b: Scrafty|79/100|[from] drain|[of] p1a: Wizard
+|move|p1b: Bard|Weather Ball|p2b: Scrafty
+|-damage|p2b: Scrafty|38/100
+|
+|-weather|none
+|upkeep
+|turn|6
+|
+|t:|1784902754
+|-curestatus|p1a: Wizard|slp|[msg]
+|move|p1a: Wizard|Shadow Ball|p2a: Vileplume
+|-damage|p2a: Vileplume|0 fnt
+|faint|p2a: Vileplume
+|move|p2b: Scrafty|Drain Punch|p1a: Wizard
+|-damage|p1a: Wizard|0 fnt
+|-heal|p2b: Scrafty|51/100|[from] drain|[of] p1a: Wizard
+|faint|p1a: Wizard
+|move|p1b: Bard|Perish Song|p1b: Bard
+|-start|p1b: Bard|perish3|[silent]
+|-start|p2b: Scrafty|perish3|[silent]
+|-fieldactivate|move: Perish Song
+|
+|-start|p2b: Scrafty|perish3
+|-start|p1b: Bard|perish3
+|upkeep
+|
+|t:|1784902756
+|switch|p2a: Raichu|Raichu, L50, M|100/100
+|turn|7
+|c|☆Fayz Sharpie|gg
+|c|☆Leafeon Main?|gg
+|
+|t:|1784902783
+|move|p2a: Raichu|Thunderbolt|p1b: Bard
+|-supereffective|p1b: Bard|1
+|-damage|p1b: Bard|0 fnt
+|faint|p1b: Bard
+|
+|win|Fayz Sharpie
+||Leafeon Main? is ready for game 3.
+|l|☆Fayz Sharpie
+|player|p2|
+||Fayz Sharpie is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

@@ -1,0 +1,188 @@
+|j|☆strye
+|j|☆yingziw2
+|html|stryeyingziw2    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785245977
+|gametype|doubles
+|player|p1|strye|170|
+|player|p2|yingziw2|iono|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Mawile, L50, F, shiny|
+|poke|p1|Charizard, L50, M|
+|poke|p1|Maushold, L50|
+|poke|p1|Farigiraf, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Incineroar, L50, F, shiny|
+|poke|p2|Sylveon, L50, M|
+|poke|p2|Venusaur, L50, M|
+|poke|p2|Pelipper, L50, F|
+|poke|p2|Archaludon, L50, F|
+|poke|p2|Grimmsnarl, L50, M|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Mawile||Mawilite|HyperCutter|PlayRough,SuckerPunch,RockSlide,KnockOff|Brave||F|||50|]Charizard||CharizarditeY|SolarPower|HeatWave,WeatherBall,SolarBeam,Protect|Modest||M|||50|]Maushold||WideLens|Technician|PopulationBomb,Feint,FollowMe,Protect|Jolly|||||50|]Farigiraf||ColburBerry|ArmorTail|TwinBeam,Thunderbolt,HelpingHand,TrickRoom|Relaxed||F|||50|]Basculegion||LifeOrb|Adaptability|WaveCrash,AquaJet,LastRespects,Protect|Adamant||M|||50|]Incineroar||Charcoal|Intimidate|FakeOut,FlareBlitz,DarkestLariat,PartingShot|Brave||F|||50|
+|showteam|p2|Sylveon||FairyFeather|Pixilate|HyperVoice,QuickAttack,Roar,Protect|Modest||M|||50|]Venusaur||Venusaurite|Overgrow|GigaDrain,EarthPower,SludgeBomb,Protect|Modest||M|||50|]Pelipper||SitrusBerry|Drizzle|WeatherBall,Hurricane,RainDance,Tailwind|Modest||F|||50|]Archaludon||Leftovers|Stamina|DragonPulse,ElectroShot,FlashCannon,Protect|Modest||F|||50|]Grimmsnarl||LightClay|Prankster|FoulPlay,Reflect,LightScreen,PartingShot|Impish||M|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,AquaJet,FlipTurn|Jolly||M|||50|
+|
+|t:|1785246019
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Maushold|Maushold, L50|100/100
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|100/100
+|switch|p2a: Basculegion|Basculegion, L50, M|100/100
+|switch|p2b: Archaludon|Archaludon, L50, F|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Basculegion|atk|1
+|-unboost|p2b: Archaludon|atk|1
+|turn|1
+|
+|t:|1785246042
+|move|p1a: Maushold|Follow Me|p1a: Maushold
+|-singleturn|p1a: Maushold|move: Follow Me
+|move|p2a: Basculegion|Flip Turn|p1a: Maushold
+|-damage|p1a: Maushold|60/100
+|
+|t:|1785246064
+|switch|p2a: Pelipper|Pelipper, L50, F|100/100|[from] Flip Turn
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Maushold
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|move|p1b: Incineroar|Darkest Lariat|p2a: Pelipper
+|-damage|p2a: Pelipper|49/100
+|-enditem|p2a: Pelipper|Sitrus Berry|[eat]
+|-heal|p2a: Pelipper|74/100|[from] item: Sitrus Berry
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1785246076
+|switch|p1a: Charizard|Charizard, L50, M|100/100
+|turn|2
+|
+|t:|1785246090
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2b: Archaludon|Protect|p2b: Archaludon
+|-singleturn|p2b: Archaludon|Protect
+|move|p1a: Charizard|Solar Beam||[still]
+|-prepare|p1a: Charizard|Solar Beam
+|-anim|p1a: Charizard|Solar Beam|p2a: Pelipper
+|-damage|p2a: Pelipper|13/100
+|move|p2a: Pelipper|Rain Dance|p2a: Pelipper
+|-weather|RainDance
+|move|p1b: Incineroar|Parting Shot|p2b: Archaludon
+|-activate|p2b: Archaludon|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1785246135
+|switch|p1a: Farigiraf|Farigiraf, L50, F|100/100
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1b: Incineroar
+|-damage|p1b: Incineroar|28/100
+|move|p1b: Incineroar|Parting Shot|p2b: Archaludon
+|-unboost|p2b: Archaludon|atk|1
+|-unboost|p2b: Archaludon|spa|1
+|
+|t:|1785246147
+|switch|p1b: Charizard|Charizard-Mega-Y, L50, M|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1785246170
+|move|p1a: Farigiraf|Helping Hand|p1b: Charizard
+|-singleturn|p1b: Charizard|Helping Hand|[of] p1a: Farigiraf
+|move|p2b: Archaludon|Protect|p2b: Archaludon
+|-singleturn|p2b: Archaludon|Protect
+|move|p2a: Grimmsnarl|Light Screen|p2a: Grimmsnarl
+|-sidestart|p2: yingziw2|move: Light Screen
+|move|p1b: Charizard|Heat Wave|p2a: Grimmsnarl|[spread] p2a
+|-activate|p2b: Archaludon|move: Protect
+|-damage|p2a: Grimmsnarl|33/100
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1785246208
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|28/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Grimmsnarl|atk|1
+|-unboost|p2b: Archaludon|atk|1
+|switch|p2a: Pelipper|Pelipper, L50, F|13/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Pelipper
+|move|p2b: Archaludon|Electro Shot||[still]
+|-prepare|p2b: Archaludon|Electro Shot
+|-boost|p2b: Archaludon|spa|1
+|-anim|p2b: Archaludon|Electro Shot|p1a: Farigiraf
+|-damage|p1a: Farigiraf|35/100
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1785246239
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|33/100
+|move|p1a: Farigiraf|Thunderbolt|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|17/100
+|move|p1b: Incineroar|Parting Shot|p2b: Archaludon
+|-unboost|p2b: Archaludon|atk|1
+|-unboost|p2b: Archaludon|spa|1
+|
+|t:|1785246247
+|switch|p1b: Charizard|Charizard-Mega-Y, L50, M|100/100|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Charizard
+|move|p2b: Archaludon|Dragon Pulse|p1b: Charizard
+|-damage|p1b: Charizard|50/100g
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|7
+|
+|t:|1785246273
+|switch|p1b: Incineroar|Incineroar, L50, F, shiny|28/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Grimmsnarl|atk|1
+|-unboost|p2b: Archaludon|atk|1
+|move|p1a: Farigiraf|Thunderbolt|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|1/100
+|move|p2a: Grimmsnarl|Foul Play|p1b: Incineroar
+|-resisted|p1b: Incineroar|1
+|-damage|p1b: Incineroar|4/100
+|move|p2b: Archaludon|Dragon Pulse|p1b: Incineroar
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785246283
+|switch|p1b: Charizard|Charizard-Mega-Y, L50, M|50/100g
+|turn|8
+|-message|strye forfeited.
+|
+|win|yingziw2
+|l|☆strye
+|player|p1|
+||yingziw2 is ready for game 3.
+||strye is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

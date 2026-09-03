@@ -1,0 +1,132 @@
+|j|☆Misaple
+|j|☆xysting
+|html|Misaplexysting    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785823330
+|gametype|doubles
+|player|p1|Misaple|pilot|
+|player|p2|xysting|2|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Camerupt, L50, F|
+|poke|p1|Mawile, L50, M|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Mimikyu, L50, F|
+|poke|p1|Araquanid, L50, M|
+|poke|p1|Vileplume, L50, F|
+|poke|p2|Metagross, L50|
+|poke|p2|Excadrill, L50, F|
+|poke|p2|Mamoswine, L50, F|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Abomasnow, L50, M|
+|teampreview|4
+|showteam|p1|Camerupt||Cameruptite|SolidRock|HeatWave,EarthPower,AncientPower,Protect|Quiet||F|||50|]Mawile||Mawilite|Intimidate|PlayRough,IronHead,SuckerPunch,Protect|Brave||M|||50|]Farigiraf||MentalHerb|ArmorTail|TrickRoom,HelpingHand,PsychicNoise,Protect|Sassy||M|||50|]Mimikyu||SpellTag|Disguise|TrickRoom,PlayRough,ShadowSneak,Taunt|Brave||F|||50|]Araquanid||MysticWater|WaterBubble|Liquidation,LeechLife,WideGuard,Protect|Brave||M|||50|]Vileplume||FocusSash|EffectSpore|SleepPowder,SludgeBomb,GigaDrain,Protect|Quiet||F|||50|
+|showteam|p2|Metagross||Metagrossite|ClearBody|Earthquake,BodySlam,HammerArm,IcePunch|Adamant|||||50|]Excadrill||Excadrite|SandRush|FocusBlast,IronHead,RockBlast,ThroatChop|Adamant||F|||50|]Mamoswine||FocusSash|Oblivious|Avalanche,HeavySlam,IcicleSpear,Trailblaze|Careful||F|||50|]Raichu||ChoiceScarf|Static|Facade,DrainingKiss,FocusBlast,Thunder|Gentle||M|||50|]Charizard||Leftovers|Blaze|AirSlash,DragonClaw,FlareBlitz,IronTail|Hasty||M|||50|]Abomasnow||MentalHerb|SnowWarning|GigaDrain,WeatherBall,BodySlam,IceBeam|Quiet||M|||50|
+|
+|t:|1785823355
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Araquanid|Araquanid, L50, M|100/100
+|switch|p1b: Camerupt|Camerupt, L50, F|100/100
+|switch|p2a: Metagross|Metagross, L50|100/100
+|switch|p2b: Excadrill|Excadrill, L50, F|100/100
+|turn|1
+|
+|t:|1785823370
+|detailschange|p2a: Metagross|Metagross-Mega, L50
+|-mega|p2a: Metagross|Metagross|Metagrossite
+|detailschange|p1b: Camerupt|Camerupt-Mega, L50, F
+|-mega|p1b: Camerupt|Camerupt|Cameruptite
+|move|p1a: Araquanid|Wide Guard|p1a: Araquanid
+|-singleturn|p1a: Araquanid|Wide Guard
+|move|p2a: Metagross|Earthquake|p1a: Araquanid|[spread] p2b
+|-activate|p1a: Araquanid|move: Wide Guard
+|-activate|p1b: Camerupt|move: Wide Guard
+|-supereffective|p2b: Excadrill|1
+|-damage|p2b: Excadrill|27/100
+|move|p2b: Excadrill|Rock Blast|p1a: Araquanid
+|-supereffective|p1a: Araquanid|1
+|-damage|p1a: Araquanid|80/100
+|-supereffective|p1a: Araquanid|1
+|-damage|p1a: Araquanid|57/100
+|-hitcount|p1a: Araquanid|2
+|move|p1b: Camerupt|Heat Wave|p2b: Excadrill|[spread] p2a,p2b
+|-supereffective|p2a: Metagross|1
+|-supereffective|p2b: Excadrill|1
+|-damage|p2a: Metagross|3/100
+|-damage|p2b: Excadrill|0 fnt
+|faint|p2b: Excadrill
+|
+|upkeep
+|
+|t:|1785823389
+|switch|p2b: Charizard|Charizard, L50, M|100/100
+|turn|2
+|
+|t:|1785823398
+|move|p2b: Charizard|Air Slash|p1a: Araquanid
+|-supereffective|p1a: Araquanid|1
+|-damage|p1a: Araquanid|13/100
+|move|p2a: Metagross|Earthquake|p1b: Camerupt|[spread] p1a,p1b
+|-immune|p2b: Charizard
+|-resisted|p1a: Araquanid|1
+|-supereffective|p1b: Camerupt|1
+|-damage|p1a: Araquanid|0 fnt
+|-damage|p1b: Camerupt|46/100
+|faint|p1a: Araquanid
+|move|p1b: Camerupt|Ancient Power|p2a: Metagross
+|-resisted|p2a: Metagross|1
+|-damage|p2a: Metagross|0 fnt
+|faint|p2a: Metagross
+|
+|upkeep
+|
+|t:|1785823410
+|switch|p2a: Abomasnow|Abomasnow, L50, M|100/100
+|switch|p1a: Mimikyu|Mimikyu, L50, F|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|3
+|
+|t:|1785823440
+|move|p1b: Camerupt|Protect|p1b: Camerupt
+|-singleturn|p1b: Camerupt|Protect
+|move|p2b: Charizard|Iron Tail|p1b: Camerupt
+|-activate|p1b: Camerupt|move: Protect
+|move|p2a: Abomasnow|Ice Beam|p1b: Camerupt
+|-activate|p1b: Camerupt|move: Protect
+|move|p1a: Mimikyu|Trick Room|p1a: Mimikyu
+|-fieldstart|move: Trick Room|[of] p1a: Mimikyu
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1785823456
+|move|p1b: Camerupt|Heat Wave|p2a: Abomasnow|[spread] p2a
+|-miss|p1b: Camerupt|p2b: Charizard
+|-supereffective|p2a: Abomasnow|2
+|-damage|p2a: Abomasnow|0 fnt
+|faint|p2a: Abomasnow
+|move|p1a: Mimikyu|Play Rough|p2b: Charizard
+|-resisted|p2b: Charizard|1
+|-damage|p2b: Charizard|67/100
+|move|p2b: Charizard|Dragon Claw|p1b: Camerupt
+|-damage|p1b: Camerupt|24/100
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Charizard|73/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1785823472
+|move|p1b: Camerupt|Ancient Power|p2b: Charizard
+|-supereffective|p2b: Charizard|2
+|-damage|p2b: Charizard|0 fnt
+|faint|p2b: Charizard
+|
+|win|Misaple

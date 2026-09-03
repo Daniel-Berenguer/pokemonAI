@@ -1,0 +1,223 @@
+|j|☆thenoraax
+|j|☆testdigi
+|html|thenoraaxtestdigi    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785409464
+|gametype|doubles
+|player|p1|thenoraax|1|1152
+|player|p2|testdigi|169|1162
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Scrafty, L50, M|
+|poke|p1|Delphox, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Aerodactyl, L50, F|
+|poke|p1|Goodra-Hisui, L50, F|
+|poke|p1|Sneasler, L50, F|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Gholdengo, L50, shiny|
+|poke|p2|Milotic, L50, M, shiny|
+|poke|p2|Sinistcha, L50|
+|poke|p2|Staraptor, L50, M|
+|teampreview|4
+|showteam|p1|Scrafty||Scraftinite|Intimidate|FakeOut,KnockOff,DrainPunch,BulkUp|Adamant||M|||50|]Delphox||Delphoxite|Blaze|NastyPlot,HeatWave,Psychic,Protect|Timid||F|||50|]Sinistcha||Leftovers|Hospitality|MatchaGotcha,RagePowder,TrickRoom,LifeDew|Bold|||||50|]Aerodactyl||FocusSash|Unnerve|RockSlide,DualWingbeat,Tailwind,WideGuard|Jolly||F|||50|]Goodra-Hisui||SitrusBerry|Gooey|DracoMeteor,FlashCannon,LifeDew,Protect|Modest||F|||50|]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,FakeOut,Protect|Jolly||F|||50|
+|showteam|p2|Tyranitar||Tyranitarite|SandStream|RockSlide,KnockOff,LowKick,Protect|Jolly||M|||50|]Excadrill||FocusSash|SandRush|HighHorsepower,IronHead,RockTomb,Protect|Adamant||M|||50|]Gholdengo||LifeOrb|GoodasGold|ShadowBall,MakeItRain,NastyPlot,Protect|Modest|||||50|]Milotic||Leftovers|Competitive|Scald,Recover,IcyWind,Protect|Calm||M|||50|]Sinistcha||ColburBerry|Hospitality|MatchaGotcha,StrengthSap,RagePowder,Protect|Bold|||||50|]Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,Tailwind,Protect|Jolly||M|||50|
+|
+|t:|1785409496
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sinistcha|Sinistcha, L50|100/100
+|switch|p1b: Aerodactyl|Aerodactyl, L50, F|100/100
+|switch|p2a: Milotic|Milotic, L50, M, shiny|100/100
+|switch|p2b: Staraptor|Staraptor, L50, M|100/100
+|-ability|p1b: Aerodactyl|Unnerve
+|-ability|p2b: Staraptor|Intimidate|boost
+|-unboost|p1a: Sinistcha|atk|1
+|-unboost|p1b: Aerodactyl|atk|1
+|turn|1
+|
+|t:|1785409527
+|detailschange|p2b: Staraptor|Staraptor-Mega, L50, M
+|-mega|p2b: Staraptor|Staraptor|Staraptite
+|move|p2b: Staraptor|Protect|p2b: Staraptor
+|-singleturn|p2b: Staraptor|Protect
+|move|p1b: Aerodactyl|Wide Guard|p1b: Aerodactyl
+|-singleturn|p1b: Aerodactyl|Wide Guard
+|move|p2a: Milotic|Icy Wind|p1a: Sinistcha|[spread] 
+|-activate|p1a: Sinistcha|move: Wide Guard
+|-activate|p1b: Aerodactyl|move: Wide Guard
+|move|p1a: Sinistcha|Matcha Gotcha|p2b: Staraptor|[spread] p2a
+|-activate|p2b: Staraptor|move: Protect
+|-supereffective|p2a: Milotic|1
+|-damage|p2a: Milotic|66/100
+|
+|-heal|p2a: Milotic|72/100|[from] item: Leftovers
+|upkeep
+|turn|2
+|
+|t:|1785409553
+|switch|p2b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|move|p1b: Aerodactyl|Dual Wingbeat|p2b: Tyranitar
+|-resisted|p2b: Tyranitar|1
+|-damage|p2b: Tyranitar|93/100
+|-resisted|p2b: Tyranitar|1
+|-crit|p2b: Tyranitar
+|-damage|p2b: Tyranitar|81/100
+|-hitcount|p2b: Tyranitar|2
+|move|p2a: Milotic|Scald|p1b: Aerodactyl
+|-supereffective|p1b: Aerodactyl|1
+|-damage|p1b: Aerodactyl|46/100
+|-status|p1b: Aerodactyl|brn
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Milotic|[spread] p2a,p2b
+|-supereffective|p2a: Milotic|1
+|-crit|p2a: Milotic
+|-supereffective|p2b: Tyranitar|1
+|-damage|p2a: Milotic|24/100
+|-damage|p2b: Tyranitar|49/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Milotic|18/100|[from] Sandstorm
+|-damage|p1a: Sinistcha|93/100|[from] Sandstorm
+|-heal|p2a: Milotic|24/100|[from] item: Leftovers
+|-heal|p1a: Sinistcha|100/100|[from] item: Leftovers
+|-damage|p1b: Aerodactyl|40/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1785409577
+|move|p1b: Aerodactyl|Tailwind|p1b: Aerodactyl
+|-sidestart|p1: thenoraax|move: Tailwind
+|move|p1a: Sinistcha|Matcha Gotcha|p2b: Tyranitar|[spread] p2a,p2b
+|-supereffective|p2a: Milotic|1
+|-supereffective|p2b: Tyranitar|1
+|-damage|p2a: Milotic|0 fnt
+|-damage|p2b: Tyranitar|20/100y
+|-status|p2b: Tyranitar|brn
+|faint|p2a: Milotic
+|move|p2b: Tyranitar|Knock Off|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha|1
+|-damage|p1a: Sinistcha|64/100
+|-enditem|p1a: Sinistcha|Leftovers|[from] move: Knock Off|[of] p2b: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sinistcha|57/100|[from] Sandstorm
+|-damage|p1b: Aerodactyl|35/100 brn|[from] brn
+|-damage|p2b: Tyranitar|14/100 brn|[from] brn
+|upkeep
+|
+|t:|1785409584
+|switch|p2a: Staraptor|Staraptor-Mega, L50, M|100/100
+|turn|4
+|
+|t:|1785409599
+|switch|p2b: Sinistcha|Sinistcha, L50|100/100
+|move|p1b: Aerodactyl|Dual Wingbeat|p2a: Staraptor
+|-supereffective|p2a: Staraptor|1
+|-crit|p2a: Staraptor
+|-damage|p2a: Staraptor|76/100
+|-supereffective|p2a: Staraptor|1
+|-damage|p2a: Staraptor|64/100
+|-hitcount|p2a: Staraptor|2
+|move|p1a: Sinistcha|Matcha Gotcha|p2b: Sinistcha|[spread] p2a,p2b
+|-resisted|p2a: Staraptor|1
+|-resisted|p2b: Sinistcha|1
+|-damage|p2a: Staraptor|53/100
+|-heal|p1a: Sinistcha|64/100|[from] drain|[of] p2a: Staraptor
+|-damage|p2b: Sinistcha|89/100
+|-heal|p1a: Sinistcha|69/100|[from] drain|[of] p2b: Sinistcha
+|move|p2a: Staraptor|Tailwind|p2a: Staraptor
+|-sidestart|p2: testdigi|move: Tailwind
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Staraptor|46/100|[from] Sandstorm
+|-damage|p2b: Sinistcha|83/100|[from] Sandstorm
+|-damage|p1a: Sinistcha|63/100|[from] Sandstorm
+|-damage|p1b: Aerodactyl|29/100 brn|[from] brn
+|upkeep
+|turn|5
+|
+|t:|1785409651
+|switch|p2b: Tyranitar|Tyranitar, L50, M|14/100 brn
+|move|p2a: Staraptor|Protect|p2a: Staraptor
+|-singleturn|p2a: Staraptor|Protect
+|move|p1b: Aerodactyl|Rock Slide|p2a: Staraptor|[spread] p2b
+|-activate|p2a: Staraptor|move: Protect
+|-damage|p2b: Tyranitar|6/100 brn
+|move|p1a: Sinistcha|Life Dew|p1a: Sinistcha|[spread] p1a,p1b
+|-heal|p1a: Sinistcha|88/100
+|-heal|p1b: Aerodactyl|54/100 brn
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Staraptor|40/100|[from] Sandstorm
+|-damage|p1a: Sinistcha|82/100|[from] Sandstorm
+|-damage|p1b: Aerodactyl|48/100 brn|[from] brn
+|-damage|p2b: Tyranitar|1/100 brn|[from] brn
+|upkeep
+|turn|6
+|
+|t:|1785409669
+|switch|p2b: Sinistcha|Sinistcha, L50|83/100
+|-heal|p2a: Staraptor|65/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|move|p1b: Aerodactyl|Dual Wingbeat|p2a: Staraptor
+|-supereffective|p2a: Staraptor|1
+|-damage|p2a: Staraptor|54/100
+|-supereffective|p2a: Staraptor|1
+|-damage|p2a: Staraptor|42/100
+|-hitcount|p2a: Staraptor|2
+|move|p2a: Staraptor|Close Combat|p1b: Aerodactyl
+|-damage|p1b: Aerodactyl|0 fnt
+|-boost|p2a: Staraptor|def|1
+|-boost|p2a: Staraptor|spd|1
+|faint|p1b: Aerodactyl
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Staraptor|[spread] p2a,p2b
+|-resisted|p2a: Staraptor|1
+|-resisted|p2b: Sinistcha|1
+|-damage|p2a: Staraptor|34/100
+|-heal|p1a: Sinistcha|87/100|[from] drain|[of] p2a: Staraptor
+|-damage|p2b: Sinistcha|70/100
+|-heal|p1a: Sinistcha|93/100|[from] drain|[of] p2b: Sinistcha
+|
+|-weather|none
+|-sideend|p1: thenoraax|move: Tailwind
+|upkeep
+|
+|t:|1785409691
+|switch|p1b: Delphox|Delphox, L50, F|100/100
+|turn|7
+|
+|t:|1785409707
+|switch|p2b: Tyranitar|Tyranitar, L50, M|1/100 brn
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|detailschange|p1b: Delphox|Delphox-Mega, L50, F
+|-mega|p1b: Delphox|Delphox|Delphoxite
+|move|p2a: Staraptor|Protect|p2a: Staraptor
+|-singleturn|p2a: Staraptor|Protect
+|move|p1a: Sinistcha|Rage Powder|p1a: Sinistcha
+|-singleturn|p1a: Sinistcha|move: Rage Powder
+|move|p1b: Delphox|Heat Wave|p2b: Tyranitar|[spread] p2b
+|-activate|p2a: Staraptor|move: Protect
+|-resisted|p2b: Tyranitar|1
+|-damage|p2b: Tyranitar|0 fnt
+|faint|p2b: Tyranitar
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Staraptor|28/100|[from] Sandstorm
+|-damage|p1b: Delphox|93/100|[from] Sandstorm
+|-damage|p1a: Sinistcha|87/100|[from] Sandstorm
+|-sideend|p2: testdigi|move: Tailwind
+|upkeep
+|
+|t:|1785409712
+|switch|p2b: Sinistcha|Sinistcha, L50|70/100
+|-heal|p2a: Staraptor|53/100|[from] ability: Hospitality|[of] p2b: Sinistcha
+|turn|8
+|-message|testdigi forfeited.
+|
+|win|thenoraax

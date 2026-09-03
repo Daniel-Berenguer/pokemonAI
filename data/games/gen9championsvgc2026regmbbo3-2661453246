@@ -1,0 +1,186 @@
+|j|☆chatgptdraftduel
+|j|☆rager88
+|html|chatgptdraftduelrager88    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1786135462
+|gametype|doubles
+|player|p1|chatgptdraftduel|169|
+|player|p2|rager88|101|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Swampert, L50, M|
+|poke|p1|Pelipper, L50, M|
+|poke|p1|Blaziken, L50, M|
+|poke|p1|Sceptile, L50, F|
+|poke|p1|Gardevoir, L50, M|
+|poke|p1|Steelix, L50, M|
+|poke|p2|Vaporeon, L50, M|
+|poke|p2|Torkoal, L50, M|
+|poke|p2|Mawile, L50, M|
+|poke|p2|Slowking-Galar, L50, F|
+|poke|p2|Vileplume, L50, F|
+|poke|p2|Meganium, L50, M|
+|teampreview|4
+|showteam|p1|Swampert||Swampertite|Torrent|Waterfall,Earthquake,IcePunch,Protect|Adamant||M|||50|]Pelipper||DampRock|Drizzle|Hurricane,WeatherBall,Tailwind,Protect|Modest||M|||50|]Blaziken||LifeOrb|SpeedBoost|FlareBlitz,CloseCombat,RockSlide,Protect|Adamant||M|||50|]Sceptile||FocusSash|Overgrow|LeafStorm,DragonPulse,EnergyBall,Protect|Timid||F|||50|]Gardevoir||Gardevoirite|Trace|HyperVoice,Psychic,TrickRoom,Protect|Calm||M|||50|]Steelix||Leftovers|Sturdy|IronHead,Earthquake,BodyPress,Protect|Impish||M|||50|
+|showteam|p2|Vaporeon||Leftovers|WaterAbsorb|Copycat,CalmMind,Scald,Protect|Relaxed||M|||50|]Torkoal||Charcoal|Drought|SolarBeam,HeatWave,Protect,Eruption|Quiet||M|||50|]Mawile||Mawilite|HyperCutter|IronHead,SuckerPunch,PlayRough,Protect|Brave||M|||50|]Slowking-Galar||SitrusBerry|Regenerator|TrickRoom,SludgeBomb,HealPulse,HelpingHand|Bold||F|||50|]Vileplume||FocusSash|Chlorophyll|SleepPowder,AfterYou,SludgeBomb,SolarBeam|Timid||F|||50|]Meganium||Meganiumite|LeafGuard|SolarBeam,DazzlingGleam,WeatherBall,Synthesis|Modest||M|||50|
+|
+|t:|1786135537
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Swampert|Swampert, L50, M|100/100
+|switch|p1b: Sceptile|Sceptile, L50, F|100/100
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|switch|p2b: Vileplume|Vileplume, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|turn|1
+|
+|t:|1786135651
+|switch|p1a: Pelipper|Pelipper, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Pelipper
+|switch|p2a: Vaporeon|Vaporeon, L50, M|100/100
+|move|p1b: Sceptile|Protect|p1b: Sceptile
+|-singleturn|p1b: Sceptile|Protect
+|move|p2b: Vileplume|Sludge Bomb|p1b: Sceptile
+|-activate|p1b: Sceptile|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|2
+|
+|t:|1786135766
+|switch|p2a: Torkoal|Torkoal, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p2b: Vileplume|Sleep Powder|p1a: Pelipper
+|-status|p1a: Pelipper|slp|[from] move: Sleep Powder
+|move|p1b: Sceptile|Leaf Storm|p2a: Torkoal
+|-resisted|p2a: Torkoal|1
+|-damage|p2a: Torkoal|63/100
+|-unboost|p1b: Sceptile|spa|2
+|cant|p1a: Pelipper|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1786135887
+|switch|p1a: Swampert|Swampert, L50, M|100/100
+|move|p2b: Vileplume|After You|p2a: Torkoal
+|-activate|p2a: Torkoal|move: After You
+|move|p2a: Torkoal|Heat Wave|p1b: Sceptile|[spread] p1a,p1b
+|-resisted|p1a: Swampert|1
+|-supereffective|p1b: Sceptile|1
+|-damage|p1a: Swampert|72/100
+|-enditem|p1b: Sceptile|Focus Sash
+|-damage|p1b: Sceptile|1/100
+|move|p1b: Sceptile|Leaf Storm|p2a: Torkoal
+|-resisted|p2a: Torkoal|1
+|-damage|p2a: Torkoal|33/100
+|-unboost|p1b: Sceptile|spa|2
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1786136027
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100 slp
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|switch|p2a: Mawile|Mawile, L50, M|100/100
+|detailschange|p1a: Swampert|Swampert-Mega, L50, M
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p1a: Swampert|Protect|p1a: Swampert
+|-singleturn|p1a: Swampert|Protect
+|move|p2b: Vileplume|Sleep Powder|p1a: Swampert
+|-activate|p1a: Swampert|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|5
+|
+|t:|1786136151
+|switch|p1b: Blaziken|Blaziken, L50, M|100/100
+|switch|p2a: Torkoal|Torkoal, L50, M|33/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p2b: Vileplume|Solar Beam||[still]
+|-prepare|p2b: Vileplume|Solar Beam
+|-anim|p2b: Vileplume|Solar Beam|p1a: Swampert
+|-supereffective|p1a: Swampert|2
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1786136210
+|switch|p1a: Sceptile|Sceptile, L50, F|1/100
+|turn|6
+|
+|t:|1786136294
+|switch|p2a: Vaporeon|Vaporeon, L50, M|100/100
+|move|p1a: Sceptile|Protect|p1a: Sceptile
+|-singleturn|p1a: Sceptile|Protect
+|move|p2b: Vileplume|Sludge Bomb|p1a: Sceptile
+|-activate|p1a: Sceptile|move: Protect
+|move|p1b: Blaziken|Rock Slide|p2b: Vileplume|[spread] p2a,p2b
+|-damage|p2a: Vaporeon|78/100
+|-damage|p2b: Vileplume|65/100
+|-damage|p1b: Blaziken|90/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Vaporeon|84/100|[from] item: Leftovers
+|-ability|p1b: Blaziken|Speed Boost|boost
+|-boost|p1b: Blaziken|spe|1
+|upkeep
+|turn|7
+|
+|t:|1786136448
+|move|p2b: Vileplume|Sludge Bomb|p1a: Sceptile
+|-supereffective|p1a: Sceptile|1
+|-damage|p1a: Sceptile|0 fnt
+|faint|p1a: Sceptile
+|move|p1b: Blaziken|Close Combat|p2a: Vaporeon
+|-damage|p2a: Vaporeon|17/100
+|-unboost|p1b: Blaziken|def|1
+|-unboost|p1b: Blaziken|spd|1
+|-damage|p1b: Blaziken|80/100|[from] item: Life Orb
+|move|p2a: Vaporeon|Scald|p1b: Blaziken
+|-supereffective|p1b: Blaziken|1
+|-damage|p1b: Blaziken|0 fnt
+|faint|p1b: Blaziken
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Vaporeon|23/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1786136461
+|switch|p1b: Pelipper|Pelipper, L50, M|100/100 slp
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Pelipper
+|turn|8
+|
+|t:|1786136558
+|switch|p2a: Torkoal|Torkoal, L50, M|33/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Torkoal
+|move|p2b: Vileplume|Solar Beam||[still]
+|-prepare|p2b: Vileplume|Solar Beam
+|-anim|p2b: Vileplume|Solar Beam|p1b: Pelipper
+|-damage|p1b: Pelipper|15/100 slp
+|cant|p1b: Pelipper|slp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|turn|9
+|
+|t:|1786136620
+|switch|p2a: Vaporeon|Vaporeon, L50, M|23/100
+|move|p2b: Vileplume|Solar Beam||[still]
+|-prepare|p2b: Vileplume|Solar Beam
+|-anim|p2b: Vileplume|Solar Beam|p1b: Pelipper
+|-damage|p1b: Pelipper|0 fnt
+|faint|p1b: Pelipper
+|
+|win|rager88
+|l|☆chatgptdraftduel
+|player|p1|

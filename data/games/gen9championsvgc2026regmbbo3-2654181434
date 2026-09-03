@@ -1,0 +1,138 @@
+|j|☆testdigi
+|j|☆Pikapower25
+|html|testdigiPikapower25    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1784904295
+|gametype|doubles
+|player|p1|testdigi|101|1109
+|player|p2|Pikapower25|2|1107
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Raichu, L50, F|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Sylveon, L50, F|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Tyranitar, L50, M|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Mamoswine, L50, F|
+|poke|p2|Chandelure, L50, M|
+|poke|p2|Corviknight, L50, F|
+|poke|p2|Alcremie, L50, F|
+|poke|p2|Mr. Rime, L50, F|
+|teampreview|4
+|showteam|p1|Raichu||RaichuniteY|LightningRod|ZapCannon,FocusBlast,FakeOut,Protect|Timid||F|||50|]Sinistcha||KasibBerry|Hospitality|MatchaGotcha,ShadowBall,RagePowder,Protect|Modest|||||50|]Corviknight||OccaBerry|MirrorArmor|IronHead,BraveBird,Tailwind,Protect|Adamant||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,QuickAttack,Yawn,Detect|Modest||F|||50|]Garchomp||SitrusBerry|RoughSkin|DragonClaw,StompingTantrum,RockSlide,Protect|Adamant||F|||50|]Tyranitar||FocusSash|SandStream|RockSlide,KnockOff,Superpower,Protect|Adamant||M|||50|
+|showteam|p2|Raichu||RaichuniteY|LightningRod|ZapCannon,FocusBlast,FakeOut,Protect|Timid||M|||50|]Mamoswine||LifeOrb|Oblivious|HighHorsepower,IcicleCrash,IceShard,Protect|Adamant||F|||50|]Chandelure||Chandelurite|FlashFire|HeatWave,ShadowBall,EnergyBall,Protect|Modest||M|||50|]Corviknight||Leftovers|MirrorArmor|Roost,BodyPress,HeavySlam,BulkUp|Adamant||F|||50|]Alcremie||FairyFeather|AromaVeil|Decorate,HelpingHand,EnergyBall,AlluringVoice|Timid||F|||50|]Mr. Rime||SitrusBerry|ScreenCleaner|SheerCold,Psychic,Protect,RolePlay|Bold||F|||50|
+|
+|t:|1784904314
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Raichu|Raichu, L50, F|100/100
+|switch|p1b: Corviknight|Corviknight, L50, F|100/100
+|switch|p2a: Raichu|Raichu, L50, M|100/100
+|switch|p2b: Chandelure|Chandelure, L50, M|100/100
+|turn|1
+|
+|t:|1784904338
+|detailschange|p1a: Raichu|Raichu-Mega-Y, L50, F
+|-mega|p1a: Raichu|Raichu|Raichunite Y
+|detailschange|p2b: Chandelure|Chandelure-Mega, L50, M
+|-mega|p2b: Chandelure|Chandelure|Chandelurite
+|move|p1a: Raichu|Fake Out|p2a: Raichu
+|-damage|p2a: Raichu|88/100
+|cant|p2a: Raichu|flinch
+|move|p2b: Chandelure|Heat Wave|p1a: Raichu|[spread] p1a,p1b
+|-supereffective|p1b: Corviknight|1
+|-enditem|p1b: Corviknight|Occa Berry|[eat]
+|-enditem|p1b: Corviknight|Occa Berry|[weaken]
+|-damage|p1a: Raichu|37/100
+|-damage|p1b: Corviknight|50/100y
+|move|p1b: Corviknight|Tailwind|p1b: Corviknight
+|-sidestart|p1: testdigi|move: Tailwind
+|
+|upkeep
+|turn|2
+|
+|t:|1784904359
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|move|p1a: Raichu|Focus Blast|p2a: Raichu
+|-damage|p2a: Raichu|37/100
+|move|p2a: Raichu|Focus Blast|p1a: Raichu
+|-damage|p1a: Raichu|7/100
+|move|p2b: Chandelure|Heat Wave|p1a: Raichu|[spread] p1a,p1b
+|-resisted|p1b: Garchomp|1
+|-damage|p1a: Raichu|0 fnt
+|-damage|p1b: Garchomp|77/100
+|faint|p1a: Raichu
+|
+|upkeep
+|
+|t:|1784904370
+|switch|p1a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Tyranitar
+|turn|3
+|
+|t:|1784904380
+|move|p2b: Chandelure|Protect|p2b: Chandelure
+|-singleturn|p2b: Chandelure|Protect
+|move|p1b: Garchomp|Rock Slide|p2a: Raichu|[spread] p2a
+|-activate|p2b: Chandelure|move: Protect
+|-damage|p2a: Raichu|7/100
+|move|p1a: Tyranitar|Rock Slide|p2a: Raichu|[spread] p2a
+|-activate|p2b: Chandelure|move: Protect
+|-damage|p2a: Raichu|0 fnt
+|faint|p2a: Raichu
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Chandelure|94/100|[from] Sandstorm
+|upkeep
+|
+|t:|1784904400
+|switch|p2a: Mamoswine|Mamoswine, L50, F|100/100
+|turn|4
+|
+|t:|1784904418
+|switch|p2b: Corviknight|Corviknight, L50, F|100/100
+|move|p2a: Mamoswine|Ice Shard|p1b: Garchomp
+|-supereffective|p1b: Garchomp|2
+|-damage|p1b: Garchomp|0 fnt
+|faint|p1b: Garchomp
+|-damage|p2a: Mamoswine|90/100|[from] item: Life Orb
+|move|p1a: Tyranitar|Superpower|p2a: Mamoswine
+|-supereffective|p2a: Mamoswine|1
+|-damage|p2a: Mamoswine|0 fnt
+|-unboost|p1a: Tyranitar|atk|1
+|-unboost|p1a: Tyranitar|def|1
+|faint|p2a: Mamoswine
+|
+|-weather|Sandstorm|[upkeep]
+|-sideend|p1: testdigi|move: Tailwind
+|upkeep
+|
+|t:|1784904434
+|switch|p1b: Corviknight|Corviknight, L50, F|50/100y
+|switch|p2a: Chandelure|Chandelure-Mega, L50, M|94/100
+|turn|5
+|
+|t:|1784904443
+|move|p1a: Tyranitar|Rock Slide|p2a: Chandelure|[spread] p2a,p2b
+|-supereffective|p2a: Chandelure|1
+|-damage|p2a: Chandelure|50/100g
+|-damage|p2b: Corviknight|81/100
+|move|p2a: Chandelure|Heat Wave|p1b: Corviknight|[spread] p1a,p1b
+|-resisted|p1a: Tyranitar|1
+|-supereffective|p1b: Corviknight|1
+|-damage|p1a: Tyranitar|82/100
+|-damage|p1b: Corviknight|0 fnt
+|faint|p1b: Corviknight
+|move|p2b: Corviknight|Body Press|p1a: Tyranitar
+|-supereffective|p1a: Tyranitar|2
+|-damage|p1a: Tyranitar|0 fnt
+|faint|p1a: Tyranitar
+|
+|win|Pikapower25

@@ -79,24 +79,26 @@ def onehot(size, ix):
 
 
 def board2tensor(board: Board):
-    array = []          # Features that will be treated as floats
-    arrayInt = []       # Integer features that will be embeded
+    array = []          # Board features that are of the board in general
+    arraySide = [[],[]]      # Board features that are of one specific side (player)
 
-    append(arrayInt, board.tailwinds) # 2 ints (0-5)
-    append(arrayInt, board.trickroom) # 1 int (0-5)
-    append(arrayInt, weather2ix[board.weather[0]]) # 1 int (0-4)
-    append(arrayInt, terrain2ix[board.terrain[0]]) # 1 int (0-4)
+    for x in range(2):
+        append(arraySide[x], onehot(6, board.tailwinds[x]))
+        arraySide[x].append(board.auroraveils[x][0])
+        arraySide[x].append(board.auroraveils[x][1]/8)
+        arraySide[x].append(board.reflects[x][0])
+        arraySide[x].append(board.reflects[x][1]/8)
+        arraySide[x].append(board.lightscreens[x][0])
+        arraySide[x].append(board.lightscreens[x][1]/8)
     
-    append(array, board.gravity/5)
-    append(array, board.weather[1]/8)
-    append(array, board.terrain[1]/8)
-    append(array, [x[1]/8 for x in board.auroraveils])
-    append(array, [x[0] for x in board.auroraveils])
-    append(array, [x[1]/8 for x in board.reflects])
-    append(array, [x[0] for x in board.reflects])
-    append(array, [x[1]/8 for x in board.lightscreens])
-    append(array, [x[0] for x in board.lightscreens])
 
+    append(array, onehot(6, board.trickroom)) # one-hot (0-5)
+    append(array, onehot(5, weather2ix[board.weather[0]])) # one-hot (0-4)
+    append(array, board.weather[1]/8)
+    append(array, onehot(5, terrain2ix[board.terrain[0]])) # one-hot (0-4)
+    append(array, board.terrain[1]/8)
+    append(array, board.gravity/5)
+    
     moveFeats = []
     moveInts = []
     pokeInts = []
@@ -113,14 +115,14 @@ def board2tensor(board: Board):
             pokeInts[i].append(pokeInt)
             pokeFeats[i].append(pokeFeat)
 
-    boardIntTensor = torch.tensor(arrayInt, dtype=torch.long) # Shape (5) [tw1, tw2, tr, weather, terrain]
-    boardTensor = torch.tensor(array, dtype=torch.float) # Shape (boardFDim=15)
+    boardSideTensor = torch.tensor(arraySide, dtype=torch.float) # Shape (2, boardSideDim=12)
+    boardTensor = torch.tensor(array, dtype=torch.float) # Shape (boardDim=19)
     pokeIntsTensor = torch.tensor(pokeInts, dtype=torch.long) # Shape (2, 6, 5) [poke, item, ab, typ1, typ2]
     pokeFeatsTensor = torch.tensor(pokeFeats, dtype=torch.float) # Shape (2, 6, pokeFeatDim=25)
     moveIntsTensor = torch.tensor(moveInts, dtype=torch.long) # Move Types (2, 6, 4, 2) [moveName, moveType]
     moveFeatsTensor = torch.tensor(moveFeats, dtype=torch.float) # Move Features (2, 6, 4, moveFeatDim)
 
-    return (boardIntTensor, boardTensor, pokeIntsTensor, pokeFeatsTensor, moveIntsTensor, moveFeatsTensor)
+    return (boardSideTensor, boardTensor, pokeIntsTensor, pokeFeatsTensor, moveIntsTensor, moveFeatsTensor)
 
 
 def pokemon2array(poke: Pokemon):

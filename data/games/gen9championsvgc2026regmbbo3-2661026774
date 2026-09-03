@@ -1,0 +1,188 @@
+|j|☆Derro RX
+|j|☆kcro-01
+|html|Derro RXkcro-01    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1786063538
+|gametype|doubles
+|player|p1|Derro RX|pokemonrangerf|
+|player|p2|kcro-01|266|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Absol, L50, M, shiny|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Heliolisk, L50, M, shiny|
+|poke|p1|Skeledirge, L50, M, shiny|
+|poke|p1|Meowscarada, L50, M|
+|poke|p2|Tyranitar, L50, M|
+|poke|p2|Medicham, L50, M|
+|poke|p2|Skarmory, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Metagross, L50, shiny|
+|poke|p2|Meganium, L50, M|
+|teampreview|4
+|showteam|p1|Absol||Absolite|SuperLuck|SuckerPunch,KnockOff,Protect,SwordsDance|Jolly||M|||50|]Sinistcha||MentalHerb|Hospitality|MatchaGotcha,Protect,Scald,SolarBeam|Modest|||||50|]Charizard||CharizarditeY|SolarPower|BlastBurn,ScorchingSands,Protect,AirSlash|Modest||F|||50|]Heliolisk||ChoiceScarf|SolarPower|ShedTail,Glare,HyperVoice,VoltSwitch|Modest||M|||50|]Skeledirge||Metronome|Unaware|TorchSong,HyperVoice,EarthPower,ShadowBall|Modest||M|||50|]Meowscarada||LifeOrb|Protean|FlowerTrick,KnockOff,SuckerPunch,LowSweep|Jolly||M|||50|
+|showteam|p2|Tyranitar||LifeOrb|SandStream|RockSlide,Protect,IcePunch,HighHorsepower|Adamant||M|||50|]Medicham||BrightPowder|PurePower|FakeOut,Protect,SkillSwap,FirePunch|Jolly||M|||50|]Skarmory||Leftovers|Sturdy|RockSlide,Tailwind,Protect,BodyPress|Impish||M|||50|]Sneasler||FocusSash|Unburden|Acrobatics,FakeOut,DireClaw,Protect|Adamant||F|||50|]Metagross||Metagrossite|ClearBody|IcePunch,RockSlide,ShadowClaw,PsychicFangs|Jolly|||||50|]Meganium||Meganiumite|Overgrow|WeatherBall,SolarBeam,DazzlingGleam,Protect|Timid||M|||50|
+|
+|t:|1786063657
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Meowscarada|Meowscarada, L50, M|100/100
+|switch|p1b: Heliolisk|Heliolisk, L50, M, shiny|100/100
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|switch|p2b: Skarmory|Skarmory, L50, M|100/100
+|turn|1
+|
+|t:|1786063724
+|move|p2a: Sneasler|Fake Out|p1a: Meowscarada
+|-damage|p1a: Meowscarada|73/100
+|move|p1b: Heliolisk|Shed Tail|p1b: Heliolisk
+|-start|p1b: Heliolisk|Substitute|[from] move: Shed Tail
+|-damage|p1b: Heliolisk|49/100
+|
+|t:|1786063735
+|switch|p1b: Skeledirge|Skeledirge, L50, M, shiny|100/100|[from] Shed Tail
+|cant|p1a: Meowscarada|flinch
+|move|p2b: Skarmory|Tailwind|p2b: Skarmory
+|-sidestart|p2: kcro-01|move: Tailwind
+|
+|upkeep
+|turn|2
+|
+|t:|1786063786
+|switch|p2a: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p1a: Meowscarada|Sucker Punch||[still]
+|-fail|p1a: Meowscarada
+|move|p2b: Skarmory|Rock Slide|p1b: Skeledirge|[spread] p1a,p1b
+|-supereffective|p1b: Skeledirge|1
+|-end|p1b: Skeledirge|Substitute
+|-damage|p1a: Meowscarada|56/100
+|move|p1b: Skeledirge|Torch Song|p2b: Skarmory
+|-supereffective|p2b: Skarmory|1
+|-ability|p2b: Skarmory|Sturdy
+|-damage|p2b: Skarmory|1/100
+|-boost|p1b: Skeledirge|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Meowscarada|50/100g|[from] Sandstorm
+|-damage|p1b: Skeledirge|93/100|[from] Sandstorm
+|-heal|p2b: Skarmory|6/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1786063863
+|move|p2b: Skarmory|Protect|p2b: Skarmory
+|-singleturn|p2b: Skarmory|Protect
+|move|p1a: Meowscarada|Knock Off|p2a: Tyranitar
+|-start|p1a: Meowscarada|typechange|Dark|[from] ability: Protean
+|-resisted|p2a: Tyranitar|1
+|-crit|p2a: Tyranitar
+|-damage|p2a: Tyranitar|66/100
+|-enditem|p2a: Tyranitar|Life Orb|[from] move: Knock Off|[of] p1a: Meowscarada
+|-damage|p1a: Meowscarada|41/100|[from] item: Life Orb
+|move|p2a: Tyranitar|Rock Slide|p1a: Meowscarada|[spread] p1a,p1b
+|-supereffective|p1b: Skeledirge|1
+|-damage|p1a: Meowscarada|0 fnt
+|-damage|p1b: Skeledirge|34/100
+|faint|p1a: Meowscarada
+|move|p1b: Skeledirge|Torch Song|p2a: Tyranitar
+|-resisted|p2a: Tyranitar|1
+|-damage|p2a: Tyranitar|46/100
+|-boost|p1b: Skeledirge|spa|1
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Skeledirge|27/100|[from] Sandstorm
+|-heal|p2b: Skarmory|12/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1786063885
+|switch|p1a: Heliolisk|Heliolisk, L50, M, shiny|49/100
+|turn|4
+|
+|t:|1786063919
+|move|p1a: Heliolisk|Volt Switch|p2b: Skarmory
+|-supereffective|p2b: Skarmory|1
+|-damage|p2b: Skarmory|0 fnt
+|faint|p2b: Skarmory
+|
+|t:|1786063924
+|switch|p1a: Sinistcha|Sinistcha, L50|100/100|[from] Volt Switch
+|-heal|p1b: Skeledirge|52/100|[from] ability: Hospitality|[of] p1a: Sinistcha
+|move|p2a: Tyranitar|Rock Slide|p1b: Skeledirge|[spread] p1b
+|-miss|p2a: Tyranitar|p1a: Sinistcha
+|-supereffective|p1b: Skeledirge|1
+|-damage|p1b: Skeledirge|0 fnt
+|faint|p1b: Skeledirge
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sinistcha|93/100|[from] Sandstorm
+|-sideend|p2: kcro-01|move: Tailwind
+|upkeep
+|
+|t:|1786063971
+|switch|p2b: Metagross|Metagross, L50, shiny|100/100
+|switch|p1b: Heliolisk|Heliolisk, L50, M, shiny|49/100
+|turn|5
+|
+|t:|1786064000
+|detailschange|p2b: Metagross|Metagross-Mega, L50, shiny
+|-mega|p2b: Metagross|Metagross|Metagrossite
+|move|p1b: Heliolisk|Hyper Voice|p2b: Metagross|[spread] p2a,p2b
+|-resisted|p2a: Tyranitar|1
+|-resisted|p2b: Metagross|1
+|-damage|p2a: Tyranitar|36/100
+|-damage|p2b: Metagross|82/100
+|move|p2b: Metagross|Ice Punch|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha|1
+|-damage|p1a: Sinistcha|20/100y
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Tyranitar|[spread] p2a,p2b
+|-supereffective|p2a: Tyranitar|1
+|-resisted|p2b: Metagross|1
+|-damage|p2a: Tyranitar|1/100
+|-heal|p1a: Sinistcha|41/100|[from] drain|[of] p2a: Tyranitar
+|-damage|p2b: Metagross|68/100
+|-heal|p1a: Sinistcha|47/100|[from] drain|[of] p2b: Metagross
+|-status|p2a: Tyranitar|brn
+|move|p2a: Tyranitar|High Horsepower|p1b: Heliolisk
+|-supereffective|p1b: Heliolisk|1
+|-damage|p1b: Heliolisk|0 fnt
+|faint|p1b: Heliolisk
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Sinistcha|41/100|[from] Sandstorm
+|-damage|p2a: Tyranitar|0 fnt|[from] brn
+|faint|p2a: Tyranitar
+|upkeep
+|
+|t:|1786064023
+|switch|p2a: Sneasler|Sneasler, L50, F|100/100
+|turn|6
+|
+|t:|1786064039
+|move|p1a: Sinistcha|Protect|p1a: Sinistcha
+|-singleturn|p1a: Sinistcha|Protect
+|move|p2b: Metagross|Ice Punch|p1a: Sinistcha
+|-activate|p1a: Sinistcha|move: Protect
+|move|p2a: Sneasler|Acrobatics|p1a: Sinistcha
+|-activate|p1a: Sinistcha|move: Protect
+|
+|-weather|none
+|upkeep
+|turn|7
+|
+|t:|1786064054
+|move|p2b: Metagross|Ice Punch|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha|1
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|
+|win|kcro-01
+|c|☆Derro RX|GG
+||Derro RX is ready for game 2.
+||kcro-01 is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

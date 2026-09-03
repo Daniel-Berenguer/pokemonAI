@@ -1,0 +1,170 @@
+|j|☆tipolucha
+|j|☆testdigi
+|html|tipoluchatestdigi    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785170714
+|gametype|doubles
+|player|p1|tipolucha|2|1093
+|player|p2|testdigi|169|1191
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Delphox, L50, F|
+|poke|p1|Milotic, L50, F|
+|poke|p1|Tsareena, L50, F|
+|poke|p1|Scizor, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Toxapex, L50, F|
+|poke|p2|Mamoswine, L50, F|
+|poke|p2|Sylveon, L50, M|
+|poke|p2|Corviknight, L50, F|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Whimsicott||FocusSash|Prankster|Tailwind,Moonblast,Encore,Protect|Timid||F|||50|]Delphox||Delphoxite|Blaze|HeatWave,Psychic,ShadowBall,Protect|Timid||F|||50|]Milotic||MysticWater|Competitive|IceBeam,Scald,IcyWind,Protect|Modest||F|||50|]Tsareena||LifeOrb|QueenlyMajesty|LowKick,KnockOff,TropKick,Protect|Adamant||F|||50|]Scizor||Scizorite|Technician|BugBite,BulletPunch,Assurance,Protect|Adamant||F|||50|]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,RockSlide,Protect|Adamant||M|||50|
+|showteam|p2|Raichu||RaichuniteY|LightningRod|ZapCannon,FocusBlast,FakeOut,Protect|Timid||M|||50|]Toxapex||Leftovers|Regenerator|Infestation,Toxic,WideGuard,BanefulBunker|Relaxed||F|||50|]Mamoswine||LifeOrb|Oblivious|StompingTantrum,IceShard,RockSlide,Protect|Adamant||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,QuickAttack,Yawn,Detect|Modest||M|||50|]Corviknight||OccaBerry|MirrorArmor|IronHead,BraveBird,Tailwind,Protect|Adamant||F|||50|]Basculegion||FocusSash|Adaptability|LastRespects,Liquidation,AquaJet,Protect|Jolly||M|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by testdigi)
+|
+|t:|1785170749
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Tsareena|Tsareena, L50, F|100/100
+|switch|p1b: Sneasler|Sneasler, L50, M|100/100
+|switch|p2a: Sylveon|Sylveon, L50, M|100/100
+|switch|p2b: Toxapex|Toxapex, L50, F|100/100
+|turn|1
+|inactive|testdigi has 30 seconds left.
+|
+|t:|1785170777
+|move|p2a: Sylveon|Detect|p2a: Sylveon
+|-singleturn|p2a: Sylveon|Protect
+|move|p1b: Sneasler|Dire Claw|p2a: Sylveon
+|-activate|p2a: Sylveon|move: Protect
+|move|p1a: Tsareena|Knock Off|p2b: Toxapex
+|-damage|p2b: Toxapex|68/100
+|-enditem|p2b: Toxapex|Leftovers|[from] move: Knock Off|[of] p1a: Tsareena
+|-damage|p1a: Tsareena|90/100|[from] item: Life Orb
+|move|p2b: Toxapex|Infestation|p1a: Tsareena
+|-supereffective|p1a: Tsareena|1
+|-damage|p1a: Tsareena|83/100
+|-activate|p1a: Tsareena|move: Infestation|[of] p2b: Toxapex
+|
+|-damage|p1a: Tsareena|71/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1785170798
+|switch|p2a: Corviknight|Corviknight, L50, F|100/100
+|move|p1b: Sneasler|Dire Claw|p2a: Corviknight
+|-immune|p2a: Corviknight
+|move|p1a: Tsareena|Trop Kick|p2b: Toxapex
+|-damage|p2b: Toxapex|28/100
+|-unboost|p2b: Toxapex|atk|1
+|-damage|p1a: Tsareena|62/100|[from] item: Life Orb
+|move|p2b: Toxapex|Infestation|p1b: Sneasler
+|-resisted|p1b: Sneasler|2
+|-damage|p1b: Sneasler|99/100
+|-activate|p1b: Sneasler|move: Infestation|[of] p2b: Toxapex
+|
+|-damage|p1b: Sneasler|87/100|[from] move: Infestation|[partiallytrapped]
+|-damage|p1a: Tsareena|49/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1785170810
+|move|p1a: Tsareena|Protect|p1a: Tsareena
+|-singleturn|p1a: Tsareena|Protect
+|move|p1b: Sneasler|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|40/100
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|-enditem|p1b: Sneasler|White Herb
+|-clearnegativeboost|p1b: Sneasler|[silent]
+|move|p2a: Corviknight|Tailwind|p2a: Corviknight
+|-sidestart|p2: testdigi|move: Tailwind
+|move|p2b: Toxapex|Infestation|p1b: Sneasler
+|-resisted|p1b: Sneasler|2
+|-damage|p1b: Sneasler|86/100
+|
+|-damage|p1b: Sneasler|74/100|[from] move: Infestation|[partiallytrapped]
+|-damage|p1a: Tsareena|37/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1785170823
+|move|p2a: Corviknight|Protect|p2a: Corviknight
+|-singleturn|p2a: Corviknight|Protect
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p1b: Sneasler|Close Combat|p2a: Corviknight
+|-activate|p2a: Corviknight|move: Protect
+|move|p1a: Tsareena|Trop Kick|p2b: Toxapex
+|-activate|p2b: Toxapex|move: Protect
+|-status|p1a: Tsareena|psn
+|
+|-damage|p1a: Tsareena|25/100 psn|[from] psn
+|-damage|p1b: Sneasler|62/100|[from] move: Infestation|[partiallytrapped]
+|-damage|p1a: Tsareena|12/100 psn|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|5
+|inactive|testdigi has 30 seconds left.
+|
+|t:|1785170850
+|-heal|p2b: Toxapex|61/100|[from] ability: Regenerator|[silent]
+|switch|p2b: Sylveon|Sylveon, L50, M|100/100
+|move|p1b: Sneasler|Close Combat|p2a: Corviknight
+|-damage|p2a: Corviknight|0 fnt
+|-unboost|p1b: Sneasler|def|1
+|-unboost|p1b: Sneasler|spd|1
+|faint|p2a: Corviknight
+|move|p1a: Tsareena|Trop Kick|p2b: Sylveon
+|-damage|p2b: Sylveon|40/100
+|-unboost|p2b: Sylveon|atk|1
+|-damage|p1a: Tsareena|3/100 psn|[from] item: Life Orb
+|
+|-damage|p1a: Tsareena|0 fnt|[from] psn
+|faint|p1a: Tsareena
+|-end|p1b: Sneasler|Infestation|[partiallytrapped]|[silent]
+|upkeep
+|
+|t:|1785170864
+|switch|p2a: Raichu|Raichu, L50, M|100/100
+|switch|p1a: Whimsicott|Whimsicott, L50, F|100/100
+|turn|6
+|
+|t:|1785170873
+|detailschange|p2a: Raichu|Raichu-Mega-Y, L50, M
+|-mega|p2a: Raichu|Raichu|Raichunite Y
+|move|p1a: Whimsicott|Protect|p1a: Whimsicott
+|-singleturn|p1a: Whimsicott|Protect
+|move|p1b: Sneasler|Protect|p1b: Sneasler
+|-singleturn|p1b: Sneasler|Protect
+|move|p2a: Raichu|Fake Out|p1b: Sneasler
+|-activate|p1b: Sneasler|move: Protect
+|move|p2b: Sylveon|Yawn|p1a: Whimsicott
+|-activate|p1a: Whimsicott|move: Protect
+|
+|-sideend|p2: testdigi|move: Tailwind
+|upkeep
+|turn|7
+|
+|t:|1785170885
+|move|p1a: Whimsicott|Encore|p2a: Raichu
+|-start|p2a: Raichu|Encore
+|move|p2a: Raichu|Fake Out||[still]
+|-hint|Fake Out only works on your first turn out.
+|-fail|p2a: Raichu
+|move|p1b: Sneasler|Dire Claw|p2b: Sylveon
+|-supereffective|p2b: Sylveon|1
+|-damage|p2b: Sylveon|0 fnt
+|faint|p2b: Sylveon
+|
+|upkeep
+|-message|testdigi forfeited.
+|
+|win|tipolucha

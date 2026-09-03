@@ -8,7 +8,7 @@ from turnEncoder import TurnEncoderConfig
 from train_utils import RunConfig, load_data, train_one_run
 
 
-def build_configs(n_trials=10, seed=900):
+def build_configs(n_trials=10, seed=2):
     random.seed(seed)
 
     configs = []
@@ -16,21 +16,21 @@ def build_configs(n_trials=10, seed=900):
     for i in range(n_trials):
         move_dim = 32
         move_hidden = 128
-        poke_emb = random.choice([64, 128])
+        poke_emb = 64
         ab_emb = 16
         it_emb = 16
         board_dim = 16
-        poke_dim = random.choice([128, 192, 256])
-        n_heads = 16
-        hidden_lay_1 = random.choice([64, 128])
-        hidden_lay_2 = random.choice([16, 32])
-        poke_dropout = random.choice([0.25, 0.35])
-        self_att_dropout = random.choice([0.3, 0.45, 0.5])
-        cross_att_dropout = random.choice([0.3, 0.45, 0.5])
-        mlp_dropout1 = random.choice([0.2, 0.35, 0.4])
-        mlp_dropout2 = random.choice([0.05, 0.15, 0.25])
-        lr = 10 ** random.uniform(-5, -4)
-        weight_decay = 10 ** random.uniform(-6, -2)
+        poke_dim = random.choice([96, 128, 192, 256])
+        n_heads = random.choice([8,16,32])
+        hidden_lay_1 = random.randint(64, 128)
+        hidden_lay_2 = 32
+        poke_dropout = 0.25
+        self_att_dropout = 0.45
+        cross_att_dropout = 0.45
+        mlp_dropout1 = 0.35
+        mlp_dropout2 = 0.1
+        lr=2.5e-5
+        weight_decay=1.5e-4
         batch_size = 64
         
 
@@ -62,7 +62,7 @@ def build_configs(n_trials=10, seed=900):
                 lr=lr,      # 1e-5 to 1e-3 (log-uniform)
                 weight_decay=weight_decay,
                 batch_size=batch_size,
-                epochs=4
+                epochs=2
             )
         )
 

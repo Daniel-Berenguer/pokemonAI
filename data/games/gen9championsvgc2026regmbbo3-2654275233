@@ -1,0 +1,186 @@
+|j|☆kloetenkurt
+|j|☆mumutests
+|html|kloetenkurtmumutests    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1784916954
+|gametype|doubles
+|player|p1|kloetenkurt|266|1098
+|player|p2|mumutests|cyclistf|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Lucario, L50, M, shiny|
+|poke|p1|Dragonite, L50, M, shiny|
+|poke|p1|Politoed, L50, M, shiny|
+|poke|p1|Weavile, L50, M, shiny|
+|poke|p1|Basculegion, L50, M, shiny|
+|poke|p1|Aerodactyl, L50, M, shiny|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Venusaur, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Annihilape, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Toxapex, L50, M|
+|teampreview|4
+|showteam|p1|Lucario||Lucarionite|Steadfast|Protect,AuraSphere,FlashCannon,DarkPulse|Calm||M|||50|]Dragonite||Leftovers|Multiscale|Protect,ExtremeSpeed,DragonClaw,Tailwind|Adamant||M|||50|]Politoed||ExpertBelt|Drizzle|Protect,IceBeam,WeatherBall,EarthPower|Serious||M|||50|]Weavile||FocusSash|Pickpocket|FakeOut,TripleAxel,KnockOff,Feint|Serious||M|||50|]Basculegion||LifeOrb|SwiftSwim|AquaJet,LastRespects,WaveCrash,FlipTurn|Adamant||M|||50|]Aerodactyl||Aerodactylite|Unnerve|RockSlide,IceFang,Tailwind,DualWingbeat|Jolly||M|||50|
+|showteam|p2|Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,HelpingHand,Protect|Modest||M|||50|]Venusaur||LifeOrb|Chlorophyll|SludgeBomb,SolarBeam,EarthPower,Protect|Modest||F|||50|]Garchomp||ChoiceScarf|RoughSkin|DragonClaw,Earthquake,RockSlide,StompingTantrum|Adamant||F|||50|]Annihilape||FocusSash|Defiant|PhantomForce,CloseCombat,Protect,RockTomb|Jolly||F|||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,ThroatChop,PartingShot,FakeOut|Impish||M|||50|]Toxapex||Leftovers|Regenerator|Toxic,Infestation,WideGuard,BanefulBunker|Bold||M|||50|
+|
+|t:|1784917023
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Dragonite|Dragonite, L50, M, shiny|100/100
+|switch|p1b: Weavile|Weavile, L50, M, shiny|100/100
+|switch|p2a: Charizard|Charizard, L50, M|100/100
+|switch|p2b: Toxapex|Toxapex, L50, M|100/100
+|turn|1
+|
+|t:|1784917038
+|detailschange|p2a: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p2a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Charizard
+|move|p2a: Charizard|Protect|p2a: Charizard
+|-singleturn|p2a: Charizard|Protect
+|move|p1b: Weavile|Fake Out|p2a: Charizard
+|-activate|p2a: Charizard|move: Protect
+|move|p1a: Dragonite|Tailwind|p1a: Dragonite
+|-sidestart|p1: kloetenkurt|move: Tailwind
+|move|p2b: Toxapex|Toxic|p1a: Dragonite
+|-status|p1a: Dragonite|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Dragonite|93/100 tox|[from] psn
+|upkeep
+|turn|2
+|
+|t:|1784917064
+|switch|p1b: Politoed|Politoed, L50, M, shiny|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Politoed
+|move|p1a: Dragonite|Dragon Claw|p2a: Charizard
+|-damage|p2a: Charizard|53/100
+|move|p2a: Charizard|Weather Ball|p1b: Politoed
+|-resisted|p1b: Politoed|1
+|-damage|p1b: Politoed|69/100
+|move|p2b: Toxapex|Infestation|p1b: Politoed
+|-damage|p1b: Politoed|65/100
+|-activate|p1b: Politoed|move: Infestation|[of] p2b: Toxapex
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|100/100 tox|[from] item: Leftovers
+|-damage|p1a: Dragonite|87/100 tox|[from] psn
+|-damage|p1b: Politoed|53/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1784917097
+|move|p2a: Charizard|Protect|p2a: Charizard
+|-singleturn|p2a: Charizard|Protect
+|move|p1b: Politoed|Earth Power|p2b: Toxapex
+|-supereffective|p2b: Toxapex|1
+|-damage|p2b: Toxapex|54/100
+|move|p1a: Dragonite|Dragon Claw|p2b: Toxapex
+|-damage|p2b: Toxapex|24/100
+|move|p2b: Toxapex|Toxic|p1b: Politoed
+|-status|p1b: Politoed|tox
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|93/100 tox|[from] item: Leftovers
+|-heal|p2b: Toxapex|30/100|[from] item: Leftovers
+|-damage|p1b: Politoed|47/100 tox|[from] psn
+|-damage|p1a: Dragonite|75/100 tox|[from] psn
+|-damage|p1b: Politoed|35/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|4
+|
+|t:|1784917122
+|switch|p2a: Venusaur|Venusaur, L50, F|100/100
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p1b: Politoed|Weather Ball|p2a: Venusaur
+|-resisted|p2a: Venusaur|1
+|-damage|p2a: Venusaur|62/100
+|move|p1a: Dragonite|Dragon Claw|p2b: Toxapex
+|-activate|p2b: Toxapex|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Dragonite|81/100 tox|[from] item: Leftovers
+|-heal|p2b: Toxapex|36/100|[from] item: Leftovers
+|-damage|p1b: Politoed|23/100 tox|[from] psn
+|-damage|p1a: Dragonite|57/100 tox|[from] psn
+|-damage|p1b: Politoed|11/100 tox|[from] move: Infestation|[partiallytrapped]
+|-sideend|p1: kloetenkurt|move: Tailwind
+|upkeep
+|turn|5
+|
+|t:|1784917143
+|-heal|p2b: Toxapex|69/100|[from] ability: Regenerator|[silent]
+|switch|p2b: Charizard|Charizard-Mega-Y, L50, M|53/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Charizard
+|move|p2a: Venusaur|Protect|p2a: Venusaur
+|-singleturn|p2a: Venusaur|Protect
+|move|p1b: Politoed|Ice Beam|p2a: Venusaur
+|-activate|p2a: Venusaur|move: Protect
+|move|p1a: Dragonite|Dragon Claw|p2b: Charizard
+|-damage|p2b: Charizard|8/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Dragonite|63/100 tox|[from] item: Leftovers
+|-damage|p1b: Politoed|0 fnt|[from] psn
+|faint|p1b: Politoed
+|-damage|p1a: Dragonite|33/100 tox|[from] psn
+|upkeep
+|
+|t:|1784917161
+|switch|p1b: Weavile|Weavile, L50, M, shiny|100/100
+|turn|6
+|
+|t:|1784917166
+|switch|p2a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Dragonite|atk|1
+|-unboost|p1b: Weavile|atk|1
+|switch|p2b: Toxapex|Toxapex, L50, M|69/100
+|move|p1a: Dragonite|Extreme Speed|p2b: Toxapex
+|-damage|p2b: Toxapex|56/100
+|move|p1b: Weavile|Triple Axel|p2a: Incineroar
+|-resisted|p2a: Incineroar|1
+|-damage|p2a: Incineroar|97/100
+|-resisted|p2a: Incineroar|1
+|-damage|p2a: Incineroar|92/100
+|-resisted|p2a: Incineroar|1
+|-damage|p2a: Incineroar|85/100
+|-hitcount|p2a: Incineroar|3
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Dragonite|39/100 tox|[from] item: Leftovers
+|-heal|p2b: Toxapex|61/100|[from] item: Leftovers
+|-damage|p1a: Dragonite|3/100 tox|[from] psn
+|upkeep
+|turn|7
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by mumutests)
+|l|☆mumutests
+|inactive|mumutests disconnected and has a minute to reconnect!
+|player|p2|
+|j|☆mumutests
+|inactive|mumutests reconnected.
+|player|p2|mumutests|cyclistf|
+|inactive|kloetenkurt has 60 seconds left.
+|inactive|kloetenkurt has 30 seconds left.
+|inactive|kloetenkurt has 20 seconds left.
+|inactive|kloetenkurt has 15 seconds left.
+|l|☆kloetenkurt
+|inactive|kloetenkurt disconnected and has a minute to reconnect!
+|player|p1|
+|inactive|kloetenkurt has 10 seconds left.
+|inactive|kloetenkurt has 5 seconds left.
+|-message|kloetenkurt lost due to inactivity.
+|
+|win|mumutests
+||mumutests is ready for game 2.
+|inactive|kloetenkurt has 30 seconds to confirm battle start!
+|inactive|kloetenkurt has 20 seconds to confirm battle start!
+|inactive|kloetenkurt has 10 seconds to confirm battle start!
+|uhtml|next|Next: Game 2 of 3

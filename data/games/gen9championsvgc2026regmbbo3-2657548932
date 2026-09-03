@@ -1,0 +1,171 @@
+|j|☆natsukivgc
+|j|☆olafac
+|html|natsukivgcolafac    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785472181
+|gametype|doubles
+|player|p1|natsukivgc|1|1083
+|player|p2|olafac|cyrus|1043
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, F|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Dragonite, L50, F|
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Whimsicott, L50, M|
+|poke|p2|Ceruledge, L50, M|
+|poke|p2|Raichu, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Sylveon, L50, F|
+|poke|p2|Lopunny, L50, M|
+|poke|p2|Sinistcha, L50|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|HeatWave,SolarBeam,WeatherBall,Protect|Modest||F|||50|]Sneasler||WhiteHerb|Unburden|CloseCombat,DireClaw,FakeOut,Coaching|Jolly||M|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|Adamant||M|||50|]Dragonite||LifeOrb|InnerFocus|DragonClaw,LowKick,ExtremeSpeed,Protect|Adamant||F|||50|]Floette-Eternal||Floettite|FlowerVeil|Moonblast,DazzlingGleam,LightofRuin,Protect|Modest||F|||50|]Whimsicott||FocusSash|Prankster|Moonblast,Tailwind,Encore,Protect|Timid||M|||50|
+|showteam|p2|Ceruledge||FocusSash|WeakArmor|BitterBlade,ShadowSneak,SwordsDance,CloseCombat|Jolly||M|||50|]Raichu||RaichuniteY|LightningRod|ZapCannon,FocusBlast,Protect,NastyPlot|Hasty||F|||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,PartingShot,FakeOut,DarkestLariat|Adamant||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,CalmMind,Protect|Modest||F|||50|]Lopunny||Lopunnite|Limber|Acrobatics,FakeOut,CloseCombat,Protect|Jolly||M|||50|]Sinistcha||Leftovers|Hospitality|MatchaGotcha,RagePowder,ShadowBall,Protect|Bold|||||50|
+|
+|t:|1785472188
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p1b: Floette|Floette-Eternal, L50, F|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Sylveon|Sylveon, L50, F|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-block|p1a: Whimsicott|ability: Flower Veil|[of] p1b: Floette
+|-unboost|p1b: Floette|atk|1
+|turn|1
+|
+|t:|1785472217
+|detailschange|p1b: Floette|Floette-Mega, L50, F
+|-mega|p1b: Floette|Floette|Floettite
+|-ability|p1b: Floette|Fairy Aura
+|move|p1a: Whimsicott|Protect|p1a: Whimsicott
+|-singleturn|p1a: Whimsicott|Protect
+|move|p2a: Incineroar|Fake Out|p1a: Whimsicott
+|-activate|p1a: Whimsicott|move: Protect
+|move|p1b: Floette|Dazzling Gleam|p2a: Incineroar|[spread] p2a,p2b
+|-damage|p2a: Incineroar|52/100
+|-damage|p2b: Sylveon|65/100
+|move|p2b: Sylveon|Calm Mind|p2b: Sylveon
+|-boost|p2b: Sylveon|spa|1
+|-boost|p2b: Sylveon|spd|1
+|
+|upkeep
+|turn|2
+|
+|t:|1785472241
+|move|p2b: Sylveon|Protect|p2b: Sylveon
+|-singleturn|p2b: Sylveon|Protect
+|move|p1a: Whimsicott|Tailwind|p1a: Whimsicott
+|-sidestart|p1: natsukivgc|move: Tailwind
+|move|p1b: Floette|Dazzling Gleam|p2b: Sylveon|[spread] p2a
+|-activate|p2b: Sylveon|move: Protect
+|-damage|p2a: Incineroar|4/100
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|29/100|[from] item: Sitrus Berry
+|move|p2a: Incineroar|Flare Blitz|p1b: Floette
+|-damage|p1b: Floette|24/100
+|-damage|p2a: Incineroar|9/100|[from] Recoil
+|
+|upkeep
+|turn|3
+|
+|t:|1785472263
+|move|p1a: Whimsicott|Encore|p2b: Sylveon
+|-start|p2b: Sylveon|Encore
+|move|p2b: Sylveon|Protect||[still]
+|-fail|p2b: Sylveon
+|move|p1b: Floette|Dazzling Gleam|p2b: Sylveon|[spread] p2a,p2b
+|-damage|p2a: Incineroar|0 fnt
+|-damage|p2b: Sylveon|43/100
+|faint|p2a: Incineroar
+|
+|upkeep
+|
+|t:|1785472265
+|switch|p2a: Ceruledge|Ceruledge, L50, M|100/100
+|turn|4
+|
+|t:|1785472286
+|move|p2b: Sylveon|Protect|p2b: Sylveon
+|-singleturn|p2b: Sylveon|Protect
+|move|p2a: Ceruledge|Shadow Sneak|p1b: Floette
+|-damage|p1b: Floette|0 fnt
+|faint|p1b: Floette
+|move|p1a: Whimsicott|Moonblast|p2a: Ceruledge
+|-resisted|p2a: Ceruledge|1
+|-damage|p2a: Ceruledge|78/100
+|
+|upkeep
+|
+|t:|1785472297
+|switch|p1b: Dragonite|Dragonite, L50, F|100/100
+|turn|5
+|
+|t:|1785472322
+|move|p2b: Sylveon|Protect||[still]
+|-fail|p2b: Sylveon
+|move|p1a: Whimsicott|Encore|p2a: Ceruledge
+|-start|p2a: Ceruledge|Encore
+|move|p2a: Ceruledge|Shadow Sneak|p1a: Whimsicott
+|-damage|p1a: Whimsicott|70/100
+|move|p1b: Dragonite|Dragon Claw|p2a: Ceruledge
+|-damage|p2a: Ceruledge|0 fnt
+|faint|p2a: Ceruledge
+|-damage|p1b: Dragonite|90/100|[from] item: Life Orb
+|
+|-end|p2b: Sylveon|Encore
+|-sideend|p1: natsukivgc|move: Tailwind
+|upkeep
+|
+|t:|1785472334
+|switch|p2a: Lopunny|Lopunny, L50, M|100/100
+|turn|6
+|
+|t:|1785472357
+|detailschange|p2a: Lopunny|Lopunny-Mega, L50, M
+|-mega|p2a: Lopunny|Lopunny|Lopunnite
+|move|p2a: Lopunny|Fake Out|p1a: Whimsicott
+|-damage|p1a: Whimsicott|37/100
+|cant|p1a: Whimsicott|flinch
+|move|p1b: Dragonite|Low Kick|p2a: Lopunny
+|-supereffective|p2a: Lopunny|1
+|-damage|p2a: Lopunny|19/100
+|-damage|p1b: Dragonite|81/100|[from] item: Life Orb
+|move|p2b: Sylveon|Hyper Voice|p1a: Whimsicott|[spread] p1a,p1b
+|-supereffective|p1b: Dragonite|1
+|-damage|p1a: Whimsicott|0 fnt
+|-damage|p1b: Dragonite|0 fnt
+|faint|p1a: Whimsicott
+|faint|p1b: Dragonite
+|
+|upkeep
+|
+|t:|1785472375
+|switch|p1a: Kingambit|Kingambit, L50, M|100/100
+|turn|7
+|
+|t:|1785472383
+|move|p1a: Kingambit|Sucker Punch|p2a: Lopunny
+|-resisted|p2a: Lopunny|1
+|-damage|p2a: Lopunny|0 fnt
+|faint|p2a: Lopunny
+|move|p2b: Sylveon|Hyper Beam|p1a: Kingambit|[miss]
+|-miss|p2b: Sylveon|p1a: Kingambit
+|
+|upkeep
+|turn|8
+|
+|t:|1785472393
+|move|p2b: Sylveon|Hyper Beam|p1a: Kingambit
+|-damage|p1a: Kingambit|0 fnt
+|-mustrecharge|p2b: Sylveon
+|faint|p1a: Kingambit
+|
+|win|olafac

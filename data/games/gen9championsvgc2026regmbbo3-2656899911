@@ -1,0 +1,278 @@
+|j|☆Takao
+|j|☆ANoiteFoiLonga
+|html|TakaoANoiteFoiLonga    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785365356
+|gametype|doubles
+|player|p1|Takao|swimmer|
+|player|p2|ANoiteFoiLonga|roxie|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sableye, L50, M|
+|poke|p1|Arcanine, L50, F|
+|poke|p1|Lucario, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Dragonite, L50, M|
+|poke|p1|Vivillon, L50, F|
+|poke|p2|Maushold, L50|
+|poke|p2|Venusaur, L50, M|
+|poke|p2|Talonflame, L50, M|
+|poke|p2|Mr. Rime, L50, M|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Sableye, L50, F|
+|teampreview|4
+|showteam|p1|Sableye||MentalHerb|Prankster|LightScreen,SunnyDay,WillOWisp,Snarl|Bold||M|||50|]Arcanine||SitrusBerry|FlashFire|HeatWave,MorningSun,ScorchingSands,Protect|Timid||F|||50|]Lucario||Lucarionite|Steadfast|Psychic,VacuumWave,DarkPulse,Protect|Modest||F|||50|]Basculegion||LifeOrb|Adaptability|PsychicFangs,AquaJet,LastRespects,Protect|Adamant||M|||50|]Dragonite||Leftovers|Multiscale|AirSlash,Flamethrower,HydroPump,Protect|Calm||M|||50|]Vivillon||FocusSash|CompoundEyes|SleepPowder,Hurricane,Tailwind,Protect|Timid||F|||50|
+|showteam|p2|Maushold||WideLens|Technician|ShadowClaw,PopulationBomb,Protect,FollowMe|Adamant|||||50|]Venusaur||Venusaurite|Overgrow|SleepPowder,Protect,LeechSeed,GigaDrain|Relaxed||M|||50|]Talonflame||LifeOrb|GaleWings|QuickGuard,DualWingbeat,Tailwind,FeatherDance|Adamant||M|||50|]Mr. Rime||NeverMeltIce|ScreenCleaner|FreezeDry,ThunderWave,Psychic,Protect|Timid||M|||50|]Gholdengo||OccaBerry|GoodasGold|MakeItRain,Hex,Protect,NastyPlot|Modest|||||50|]Sableye||Sablenite|Prankster|Protect,DarkPulse,PainSplit,SkillSwap|Relaxed||F|||50|
+|j| Julio Potencia
+|
+|t:|1785365417
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Arcanine|Arcanine, L50, F|100/100
+|switch|p1b: Sableye|Sableye, L50, M|100/100
+|switch|p2a: Venusaur|Venusaur, L50, M|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|turn|1
+|
+|t:|1785365447
+|detailschange|p2a: Venusaur|Venusaur-Mega, L50, M
+|-mega|p2a: Venusaur|Venusaur|Venusaurite
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p1b: Sableye|Sunny Day|p1b: Sableye
+|-weather|SunnyDay
+|move|p1a: Arcanine|Heat Wave|p2a: Venusaur|[spread] p2a
+|-activate|p2b: Gholdengo|move: Protect
+|-supereffective|p2a: Venusaur|1
+|-damage|p2a: Venusaur|63/100
+|-status|p2a: Venusaur|brn
+|move|p2a: Venusaur|Sleep Powder|p1a: Arcanine
+|-status|p1a: Arcanine|slp|[from] move: Sleep Powder
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2a: Venusaur|57/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1785365469
+|cant|p1a: Arcanine|slp
+|move|p2b: Gholdengo|Hex|p1a: Arcanine
+|-damage|p1a: Arcanine|1/100 slp
+|-enditem|p1a: Arcanine|Sitrus Berry|[eat]
+|-heal|p1a: Arcanine|26/100 slp|[from] item: Sitrus Berry
+|move|p2a: Venusaur|Leech Seed|p1b: Sableye
+|-start|p1b: Sableye|move: Leech Seed
+|move|p1b: Sableye|Snarl|p2a: Venusaur|[spread] p2a,p2b
+|-supereffective|p2b: Gholdengo|1
+|-damage|p2a: Venusaur|49/100 brn
+|-damage|p2b: Gholdengo|80/100
+|-unboost|p2a: Venusaur|spa|1
+|-unboost|p2b: Gholdengo|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Sableye|87/100|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|59/100 brn|[silent]
+|-damage|p2a: Venusaur|53/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1785365493
+|cant|p1a: Arcanine|slp
+|move|p2a: Venusaur|Protect|p2a: Venusaur
+|-singleturn|p2a: Venusaur|Protect
+|move|p1b: Sableye|Light Screen|p1b: Sableye
+|-sidestart|p1: Takao|move: Light Screen
+|move|p2b: Gholdengo|Hex|p1a: Arcanine
+|-damage|p1a: Arcanine|0 fnt
+|faint|p1a: Arcanine
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1b: Sableye|75/100|[from] Leech Seed|[of] p2a: Venusaur
+|-heal|p2a: Venusaur|63/100 brn|[silent]
+|-damage|p2a: Venusaur|57/100 brn|[from] brn
+|upkeep
+|
+|t:|1785365508
+|switch|p1a: Lucario|Lucario, L50, F|100/100
+|turn|4
+|
+|t:|1785365543
+|detailschange|p1a: Lucario|Lucario-Mega, L50, F
+|-mega|p1a: Lucario|Lucario|Lucarionite
+|move|p1a: Lucario|Psychic|p2a: Venusaur
+|-supereffective|p2a: Venusaur|1
+|-damage|p2a: Venusaur|0 fnt
+|faint|p2a: Venusaur
+|move|p2b: Gholdengo|Hex|p1a: Lucario
+|-damage|p1a: Lucario|71/100
+|move|p1b: Sableye|Snarl|p2b: Gholdengo
+|-supereffective|p2b: Gholdengo|1
+|-damage|p2b: Gholdengo|51/100
+|-unboost|p2b: Gholdengo|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785365550
+|switch|p2a: Talonflame|Talonflame, L50, M|100/100
+|turn|5
+|
+|t:|1785365572
+|move|p1a: Lucario|Protect|p1a: Lucario
+|-singleturn|p1a: Lucario|Protect
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p2a: Talonflame|Tailwind|p2a: Talonflame
+|-sidestart|p2: ANoiteFoiLonga|move: Tailwind
+|move|p1b: Sableye|Snarl|p2a: Talonflame|[spread] p2a
+|-activate|p2b: Gholdengo|move: Protect
+|-damage|p2a: Talonflame|85/100
+|-unboost|p2a: Talonflame|spa|1
+|
+|-weather|none
+|-damage|p1b: Sableye|63/100|[from] Leech Seed|[of] p2a: Talonflame
+|-heal|p2a: Talonflame|97/100|[silent]
+|upkeep
+|turn|6
+|
+|t:|1785365624
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|move|p2a: Talonflame|Dual Wingbeat|p1b: Sableye
+|-damage|p1b: Sableye|43/100
+|-damage|p1b: Sableye|21/100
+|-hitcount|p1b: Sableye|2
+|-damage|p2a: Talonflame|87/100|[from] item: Life Orb
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|move|p1b: Sableye|Snarl|p2b: Gholdengo|[spread] p2a,p2b
+|-supereffective|p2b: Gholdengo|1
+|-damage|p2a: Talonflame|71/100
+|-damage|p2b: Gholdengo|29/100
+|-unboost|p2a: Talonflame|spa|1
+|-unboost|p2b: Gholdengo|spa|1
+|
+|-damage|p1b: Sableye|8/100|[from] Leech Seed|[of] p2a: Talonflame
+|-heal|p2a: Talonflame|82/100|[silent]
+|upkeep
+|turn|7
+|
+|t:|1785365664
+|switch|p1b: Lucario|Lucario-Mega, L50, F|71/100
+|move|p1a: Basculegion|Aqua Jet|p2b: Gholdengo
+|-damage|p2b: Gholdengo|0 fnt
+|faint|p2b: Gholdengo
+|-damage|p1a: Basculegion|90/100|[from] item: Life Orb
+|move|p2a: Talonflame|Feather Dance|p1a: Basculegion
+|-unboost|p1a: Basculegion|atk|2
+|
+|-sideend|p1: Takao|move: Light Screen
+|upkeep
+|
+|t:|1785365673
+|switch|p2b: Maushold|Maushold, L50|100/100
+|turn|8
+|
+|t:|1785365679
+|switch|p1a: Sableye|Sableye, L50, M|8/100
+|move|p2a: Talonflame|Quick Guard|p2a: Talonflame
+|-singleturn|p2a: Talonflame|Quick Guard
+|move|p1b: Lucario|Vacuum Wave|p2b: Maushold
+|-activate|p2b: Maushold|move: Quick Guard
+|move|p2b: Maushold|Population Bomb|p1b: Lucario
+|-resisted|p1b: Lucario|1
+|-damage|p1b: Lucario|64/100
+|-resisted|p1b: Lucario|1
+|-damage|p1b: Lucario|55/100
+|-resisted|p1b: Lucario|1
+|-damage|p1b: Lucario|48/100
+|-resisted|p1b: Lucario|1
+|-damage|p1b: Lucario|40/100
+|-resisted|p1b: Lucario|1
+|-damage|p1b: Lucario|33/100
+|-resisted|p1b: Lucario|1
+|-crit|p1b: Lucario
+|-damage|p1b: Lucario|22/100
+|-resisted|p1b: Lucario|1
+|-damage|p1b: Lucario|15/100
+|-resisted|p1b: Lucario|1
+|-damage|p1b: Lucario|6/100
+|-resisted|p1b: Lucario|1
+|-damage|p1b: Lucario|0 fnt
+|faint|p1b: Lucario
+|-hitcount|p1: Lucario|9
+|
+|-sideend|p2: ANoiteFoiLonga|move: Tailwind
+|upkeep
+|
+|t:|1785365700
+|switch|p1b: Basculegion|Basculegion, L50, M|90/100
+|turn|9
+|
+|t:|1785365716
+|move|p2b: Maushold|Protect|p2b: Maushold
+|-singleturn|p2b: Maushold|Protect
+|move|p1a: Sableye|Will-O-Wisp|p2b: Maushold
+|-activate|p2b: Maushold|move: Protect
+|move|p2a: Talonflame|Feather Dance|p1b: Basculegion
+|-unboost|p1b: Basculegion|atk|2
+|move|p1b: Basculegion|Last Respects|p2a: Talonflame
+|-damage|p2a: Talonflame|0 fnt
+|faint|p2a: Talonflame
+|-damage|p1b: Basculegion|80/100|[from] item: Life Orb
+|
+|upkeep
+|turn|10
+|
+|t:|1785365732
+|move|p1b: Basculegion|Aqua Jet|p2b: Maushold
+|-damage|p2b: Maushold|67/100
+|-damage|p1b: Basculegion|70/100|[from] item: Life Orb
+|move|p1a: Sableye|Will-O-Wisp|p2b: Maushold
+|-status|p2b: Maushold|brn
+|move|p2b: Maushold|Shadow Claw|p1a: Sableye
+|-crit|p1a: Sableye
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|-damage|p2b: Maushold|61/100 brn|[from] brn
+|upkeep
+|turn|11
+|
+|t:|1785365744
+|move|p1b: Basculegion|Protect|p1b: Basculegion
+|-singleturn|p1b: Basculegion|Protect
+|move|p2b: Maushold|Shadow Claw|p1b: Basculegion
+|-activate|p1b: Basculegion|move: Protect
+|
+|-damage|p2b: Maushold|55/100 brn|[from] brn
+|upkeep
+|turn|12
+|
+|t:|1785365752
+|move|p1b: Basculegion|Aqua Jet|p2b: Maushold
+|-damage|p2b: Maushold|24/100 brn
+|-damage|p1b: Basculegion|61/100|[from] item: Life Orb
+|move|p2b: Maushold|Shadow Claw|p1b: Basculegion
+|-supereffective|p1b: Basculegion|1
+|-crit|p1b: Basculegion
+|-damage|p1b: Basculegion|24/100
+|
+|-damage|p2b: Maushold|18/100 brn|[from] brn
+|upkeep
+|turn|13
+|
+|t:|1785365764
+|move|p1b: Basculegion|Aqua Jet|p2b: Maushold
+|-damage|p2b: Maushold|0 fnt
+|faint|p2b: Maushold
+|-damage|p1b: Basculegion|14/100|[from] item: Life Orb
+|
+|win|Takao
+|c|☆ANoiteFoiLonga|gg
+|l|☆ANoiteFoiLonga
+|player|p2|
+|c|☆Takao|gg

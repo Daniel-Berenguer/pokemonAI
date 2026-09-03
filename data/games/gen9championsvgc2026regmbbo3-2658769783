@@ -1,0 +1,156 @@
+|j|☆bluefox08
+|j|☆Pever3ll
+|html|bluefox08Pever3ll    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785696109
+|gametype|doubles
+|player|p1|bluefox08|hugh|
+|player|p2|Pever3ll|miku-flying|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Floette-Eternal, L50, F|
+|poke|p1|Lucario, L50, M|
+|poke|p1|Decidueye, L50, M|
+|poke|p1|Talonflame, L50, F|
+|poke|p1|Rotom-Wash, L50|
+|poke|p1|Garchomp, L50, M|
+|poke|p2|Tauros, L50, M|
+|poke|p2|Vivillon-Pokeball, L50, M|
+|poke|p2|Archaludon, L50, M|
+|poke|p2|Swampert, L50, F|
+|poke|p2|Politoed, L50, F|
+|poke|p2|Meganium, L50, M|
+|teampreview|4
+|showteam|p1|Floette-Eternal||Floettite|FlowerVeil|DazzlingGleam,Moonblast,Protect,GigaDrain|Timid||F|||50|]Lucario||Lucarionite|Steadfast|ExtremeSpeed,CloseCombat,BulletPunch,Protect|Jolly||M|||50|]Decidueye||Leftovers|Overgrow|LeafBlade,Tailwind,SpiritShackle,Protect|Adamant||M|||50|]Talonflame||FocusSash|FlameBody|Tailwind,Protect,Acrobatics,WillOWisp|Jolly||F|||50|]Rotom-Wash||SitrusBerry|Levitate|Electroweb,WillOWisp,Discharge,HydroPump|Timid|||||50|]Garchomp||LifeOrb|RoughSkin|PoisonJab,Earthquake,Protect,StompingTantrum|Jolly||M|||50|
+|showteam|p2|Tauros||FocusSash|Intimidate|IcyWind,RagingBull,Protect,RainDance|Jolly||M|||50|]Vivillon-Pokeball||ChoiceScarf|CompoundEyes|Hurricane,SleepPowder,RagePowder,Tailwind|Timid||M|||50|]Archaludon||LifeOrb|Stalwart|FlashCannon,DragonPulse,ElectroShot,Protect|Modest||M|||50|]Swampert||Swampertite|Torrent|WaveCrash,HighHorsepower,IcePunch,Protect|Adamant||F|||50|]Politoed||SitrusBerry|Drizzle|WeatherBall,IceBeam,Protect,IcyWind|Calm||F|||50|]Meganium||Meganiumite|Overgrow|SolarBeam,DazzlingGleam,Protect,WeatherBall|Modest||M|||50|
+|
+|t:|1785696151
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Floette|Floette-Eternal, L50, F|100/100
+|switch|p1b: Decidueye|Decidueye, L50, M|100/100
+|switch|p2a: Vivillon|Vivillon-Pokeball, L50, M|100/100
+|switch|p2b: Meganium|Meganium, L50, M|100/100
+|turn|1
+|
+|t:|1785696173
+|detailschange|p1a: Floette|Floette-Mega, L50, F
+|-mega|p1a: Floette|Floette|Floettite
+|-ability|p1a: Floette|Fairy Aura
+|detailschange|p2b: Meganium|Meganium-Mega, L50, M
+|-mega|p2b: Meganium|Meganium|Meganiumite
+|move|p1a: Floette|Protect|p1a: Floette
+|-singleturn|p1a: Floette|Protect
+|move|p2a: Vivillon|Sleep Powder|p1a: Floette
+|-activate|p1a: Floette|move: Protect
+|move|p2b: Meganium|Weather Ball|p1b: Decidueye
+|-supereffective|p1b: Decidueye|1
+|-damage|p1b: Decidueye|0 fnt
+|faint|p1b: Decidueye
+|
+|upkeep
+|j| sebrai
+|
+|t:|1785696189
+|switch|p1b: Garchomp|Garchomp, L50, M|100/100
+|turn|2
+|
+|t:|1785696211
+|move|p1b: Garchomp|Protect|p1b: Garchomp
+|-singleturn|p1b: Garchomp|Protect
+|move|p2a: Vivillon|Sleep Powder|p1a: Floette
+|-status|p1a: Floette|slp|[from] move: Sleep Powder
+|cant|p1a: Floette|slp
+|move|p2b: Meganium|Dazzling Gleam|p1b: Garchomp|[spread] p1a
+|-activate|p1b: Garchomp|move: Protect
+|-damage|p1a: Floette|61/100 slp
+|
+|upkeep
+|turn|3
+|
+|t:|1785696225
+|switch|p1a: Rotom|Rotom-Wash, L50|100/100
+|move|p2a: Vivillon|Sleep Powder|p1b: Garchomp
+|-status|p1b: Garchomp|slp|[from] move: Sleep Powder
+|cant|p1b: Garchomp|slp
+|move|p2b: Meganium|Solar Beam||[still]
+|-prepare|p2b: Meganium|Solar Beam
+|-activate|p2b: Meganium|ability: Mega Sol
+|-anim|p2b: Meganium|Solar Beam|p1a: Rotom
+|-supereffective|p1a: Rotom|1
+|-damage|p1a: Rotom|0 fnt
+|faint|p1a: Rotom
+|
+|upkeep
+|
+|t:|1785696236
+|switch|p1a: Floette|Floette-Mega, L50, F|61/100 slp
+|-ability|p1a: Floette|Fairy Aura
+|turn|4
+|
+|t:|1785696253
+|move|p2a: Vivillon|Sleep Powder|p1a: Floette
+|-fail|p1a: Floette|slp
+|cant|p1b: Garchomp|slp
+|-curestatus|p1a: Floette|slp|[msg]
+|move|p1a: Floette|Dazzling Gleam|p2a: Vivillon|[spread] p2a,p2b
+|-damage|p2a: Vivillon|14/100
+|-damage|p2b: Meganium|53/100
+|move|p2b: Meganium|Solar Beam||[still]
+|-prepare|p2b: Meganium|Solar Beam
+|-activate|p2b: Meganium|ability: Mega Sol
+|-anim|p2b: Meganium|Solar Beam|p1a: Floette
+|-damage|p1a: Floette|1/100
+|
+|upkeep
+|turn|5
+|
+|t:|1785696270
+|move|p1a: Floette|Protect|p1a: Floette
+|-singleturn|p1a: Floette|Protect
+|move|p2a: Vivillon|Sleep Powder|p1a: Floette
+|-activate|p1a: Floette|move: Protect
+|-curestatus|p1b: Garchomp|slp|[msg]
+|move|p1b: Garchomp|Poison Jab|p2a: Vivillon
+|-damage|p2a: Vivillon|0 fnt
+|faint|p2a: Vivillon
+|-damage|p1b: Garchomp|90/100|[from] item: Life Orb
+|move|p2b: Meganium|Dazzling Gleam|p1b: Garchomp|[spread] p1b
+|-activate|p1a: Floette|move: Protect
+|-supereffective|p1b: Garchomp|1
+|-damage|p1b: Garchomp|0 fnt
+|faint|p1b: Garchomp
+|
+|upkeep
+|
+|t:|1785696273
+|switch|p2a: Politoed|Politoed, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p2a: Politoed
+|turn|6
+|
+|t:|1785696288
+|move|p1a: Floette|Dazzling Gleam|p2b: Meganium|[spread] p2a,p2b
+|-damage|p2a: Politoed|61/100
+|-damage|p2b: Meganium|14/100
+|move|p2b: Meganium|Solar Beam||[still]
+|-prepare|p2b: Meganium|Solar Beam
+|-activate|p2b: Meganium|ability: Mega Sol
+|-anim|p2b: Meganium|Solar Beam|p1a: Floette
+|-damage|p1a: Floette|0 fnt
+|faint|p1a: Floette
+|
+|win|Pever3ll
+||bluefox08 is ready for game 3.
+||Pever3ll is ready for game 3.
+|uhtml|next|Next: Game 3 of 3
+|l|☆Pever3ll
+|player|p2|
+|l|☆bluefox08
+|player|p1|
+|l| sebrai
+|j|☆Pever3ll
+|player|p2|Pever3ll|miku-flying|

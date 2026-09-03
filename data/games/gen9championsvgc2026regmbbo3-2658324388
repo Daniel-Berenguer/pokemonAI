@@ -1,0 +1,126 @@
+|j|☆lanagram
+|j|☆busterbunner
+|html|lanagrambusterbunner    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1785612468
+|gametype|doubles
+|player|p1|lanagram|102|1140
+|player|p2|busterbunner|clair|1137
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gengar, L50, F|
+|poke|p1|Grimmsnarl, L50, M|
+|poke|p1|Hawlucha, L50, F|
+|poke|p1|Snorlax, L50, F|
+|poke|p1|Sceptile, L50, M|
+|poke|p1|Typhlosion-Hisui, L50, F|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Delphox, L50, F|
+|poke|p2|Staraptor, L50, F|
+|poke|p2|Gholdengo, L50|
+|teampreview|4
+|showteam|p1|Gengar||Gengarite|CursedBody|ShadowBall,SludgeBomb,PerishSong,Protect|Timid||F|||50|]Grimmsnarl||RoseliBerry|Prankster|FakeOut,Superpower,PartingShot,ThroatChop|Adamant||M|||50|]Hawlucha||Hawluchanite|Limber|CrossChop,Entrainment,DualWingbeat,Protect|Jolly||F|||50|]Snorlax||Leftovers|ThickFat|Fissure,Stockpile,BodyPress,Protect|Bold||F|||50|]Sceptile||FocusSash|Overgrow|ShedTail,GigaDrain,Endeavor,Protect|Timid||M|||50|]Typhlosion-Hisui||ChoiceScarf|Blaze|Eruption,ShadowBall,HeatWave,Roar|Timid||F|||50|
+|showteam|p2|Whimsicott||FocusSash|Prankster|Moonblast,Encore,Tailwind,Protect|Timid||M|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,RockSlide,Protect|Jolly||F|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,IronHead,Protect|Adamant||M|||50|]Delphox||Delphoxite|Blaze|HeatWave,Protect,Psyshock,Substitute|Timid||F|||50|]Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,Roost,Protect|Jolly||F|||50|]Gholdengo||MetalCoat|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect|Timid|||||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by busterbunner)
+|inactive|lanagram has 60 seconds left.
+|inactive|busterbunner has 60 seconds left.
+|
+|t:|1785612506
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sceptile|Sceptile, L50, M|100/100
+|switch|p1b: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|switch|p2a: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|turn|1
+|
+|t:|1785612519
+|move|p1b: Grimmsnarl|Fake Out|p2a: Whimsicott
+|-damage|p2a: Whimsicott|82/100
+|cant|p2a: Whimsicott|flinch
+|move|p1a: Sceptile|Shed Tail|p1a: Sceptile
+|-start|p1a: Sceptile|Substitute|[from] move: Shed Tail
+|-damage|p1a: Sceptile|49/100
+|
+|t:|1785612531
+|switch|p1a: Typhlosion|Typhlosion-Hisui, L50, F|100/100|[from] Shed Tail
+|move|p2b: Gholdengo|Nasty Plot|p2b: Gholdengo
+|-boost|p2b: Gholdengo|spa|2
+|
+|upkeep
+|turn|2
+|
+|t:|1785612542
+|move|p2b: Gholdengo|Protect|p2b: Gholdengo
+|-singleturn|p2b: Gholdengo|Protect
+|move|p2a: Whimsicott|Tailwind|p2a: Whimsicott
+|-sidestart|p2: busterbunner|move: Tailwind
+|move|p1b: Grimmsnarl|Parting Shot|p2a: Whimsicott
+|-unboost|p2a: Whimsicott|atk|1
+|-unboost|p2a: Whimsicott|spa|1
+|
+|t:|1785612554
+|switch|p1b: Gengar|Gengar, L50, F|100/100|[from] Parting Shot
+|move|p1a: Typhlosion|Eruption|p2b: Gholdengo|[spread] p2a
+|-activate|p2b: Gholdengo|move: Protect
+|-supereffective|p2a: Whimsicott|1
+|-damage|p2a: Whimsicott|0 fnt
+|faint|p2a: Whimsicott
+|
+|upkeep
+|
+|t:|1785612564
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|turn|3
+|
+|t:|1785612576
+|detailschange|p1b: Gengar|Gengar-Mega, L50, F
+|-mega|p1b: Gengar|Gengar|Gengarite
+|move|p2a: Garchomp|Rock Slide|p1a: Typhlosion|[spread] p1a,p1b
+|-supereffective|p1a: Typhlosion|1
+|-end|p1a: Typhlosion|Substitute
+|-damage|p1b: Gengar|65/100
+|-damage|p2a: Garchomp|90/100|[from] item: Life Orb
+|move|p2b: Gholdengo|Shadow Ball|p1a: Typhlosion
+|-supereffective|p1a: Typhlosion|1
+|-damage|p1a: Typhlosion|0 fnt
+|faint|p1a: Typhlosion
+|move|p1b: Gengar|Shadow Ball|p2b: Gholdengo
+|-supereffective|p2b: Gholdengo|1
+|-damage|p2b: Gholdengo|9/100
+|
+|upkeep
+|
+|t:|1785612593
+|switch|p1a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|4
+|
+|t:|1785612611
+|switch|p1b: Sceptile|Sceptile, L50, M|49/100
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1a: Grimmsnarl|Fake Out|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Protect
+|move|p2b: Gholdengo|Make It Rain|p1b: Sceptile|[spread] p1a,p1b
+|-supereffective|p1a: Grimmsnarl|1
+|-damage|p1a: Grimmsnarl|0 fnt
+|-damage|p1b: Sceptile|0 fnt
+|-unboost|p2b: Gholdengo|spa|2
+|faint|p1a: Grimmsnarl
+|faint|p1b: Sceptile
+|
+|upkeep
+|-message|lanagram forfeited.
+|
+|win|busterbunner
+|l|☆lanagram
+|player|p1|
+|raw|lanagram's rating: 1140 → 1115(-25 for losing)
+|raw|busterbunner's rating: 1137 → 1162(+25 for winning)

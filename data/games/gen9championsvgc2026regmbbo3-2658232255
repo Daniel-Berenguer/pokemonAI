@@ -1,0 +1,154 @@
+|j|☆fly butterfly fly
+|j|☆azumzen
+|html|fly butterfly flyazumzen    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1785598208
+|gametype|doubles
+|player|p1|fly butterfly fly|265|1175
+|player|p2|azumzen|steven|1154
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Kangaskhan, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Kommo-o, L50, M|
+|poke|p1|Pyroar, L50, F|
+|poke|p2|Mawile, L50, F, shiny|
+|poke|p2|Eelektross, L50, F|
+|poke|p2|Whimsicott, L50, F|
+|poke|p2|Kingambit, L50, M, shiny|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Incineroar, L50, M|
+|teampreview|4
+|showteam|p1|Kangaskhan||SilkScarf|Scrappy|FakeOut,LastResort|Adamant||F|||50|]Farigiraf||ColburBerry|ArmorTail|Psychic,Thunderbolt,HelpingHand,TrickRoom|Bold||M|||50|]Torkoal||Charcoal|Drought|Eruption,WeatherBall,HelpingHand,Protect|Quiet||F|||50|]Venusaur||LifeOrb|Chlorophyll|SolarBeam,SludgeBomb,EarthPower,Protect|Modest||F|||50|]Kommo-o||HabanBerry|Overcoat|ClangingScales,AuraSphere,ClangorousSoul,Protect|Modest||M|||50|]Pyroar||Pyroarite|Unnerve|HeatWave,Overheat,ScorchingSands,Protect|Timid||F|||50|
+|showteam|p2|Mawile||Mawilite|HyperCutter|SuckerPunch,PlayRough,SwordsDance,Protect|Adamant||F|||50|]Eelektross||Eelektrossite|Levitate|Thunderbolt,GigaDrain,RockSlide,Protect|Quiet||F|||50|]Whimsicott||FocusSash|Prankster|Tailwind,Encore,Moonblast,TrickRoom|Timid||F|||50|]Kingambit||BlackGlasses|Defiant|IronHead,Protect,SuckerPunch,KowtowCleave|Adamant||M|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,RockSlide,Earthquake,Protect|Adamant||F|||50|]Incineroar||ShucaBerry|Intimidate|FlareBlitz,FakeOut,ThroatChop,PartingShot|Relaxed||M|||50|
+|
+|t:|1785598226
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Kangaskhan|Kangaskhan, L50, F|100/100
+|switch|p1b: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p2a: Kingambit|Kingambit, L50, M, shiny|100/100
+|switch|p2b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-fail|p1a: Kangaskhan|unboost|Attack|[from] ability: Scrappy|[of] p1a: Kangaskhan
+|-unboost|p1b: Farigiraf|atk|1
+|turn|1
+|
+|t:|1785598252
+|move|p2a: Kingambit|Protect|p2a: Kingambit
+|-singleturn|p2a: Kingambit|Protect
+|move|p1a: Kangaskhan|Fake Out|p2a: Kingambit
+|-activate|p2a: Kingambit|move: Protect
+|move|p2b: Incineroar|Throat Chop|p1b: Farigiraf
+|-supereffective|p1b: Farigiraf|1
+|-enditem|p1b: Farigiraf|Colbur Berry|[eat]
+|-enditem|p1b: Farigiraf|Colbur Berry|[weaken]
+|-damage|p1b: Farigiraf|73/100
+|-start|p1b: Farigiraf|Throat Chop|[silent]
+|move|p1b: Farigiraf|Trick Room|p1b: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1b: Farigiraf
+|
+|upkeep
+|turn|2
+|
+|t:|1785598287
+|move|p1b: Farigiraf|Helping Hand|p1a: Kangaskhan
+|-singleturn|p1a: Kangaskhan|Helping Hand|[of] p1b: Farigiraf
+|move|p2a: Kingambit|Kowtow Cleave|p1b: Farigiraf
+|-supereffective|p1b: Farigiraf|1
+|-damage|p1b: Farigiraf|0 fnt
+|faint|p1b: Farigiraf
+|move|p2b: Incineroar|Flare Blitz|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|54/100
+|-damage|p2b: Incineroar|84/100|[from] Recoil
+|move|p1a: Kangaskhan|Last Resort|p2b: Incineroar
+|-damage|p2b: Incineroar|0 fnt
+|faint|p2b: Incineroar
+|
+|upkeep
+|
+|t:|1785598302
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|3
+|
+|t:|1785598332
+|move|p1b: Torkoal|Helping Hand|p1a: Kangaskhan
+|-singleturn|p1a: Kangaskhan|Helping Hand|[of] p1b: Torkoal
+|move|p2a: Kingambit|Protect|p2a: Kingambit
+|-singleturn|p2a: Kingambit|Protect
+|move|p1a: Kangaskhan|Last Resort|p2b: Garchomp
+|-damage|p2b: Garchomp|0 fnt
+|-damage|p1a: Kangaskhan|42/100|[from] ability: Rough Skin|[of] p2b: Garchomp
+|faint|p2b: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785598339
+|switch|p2b: Whimsicott|Whimsicott, L50, F|100/100
+|turn|4
+|
+|t:|1785598360
+|move|p2b: Whimsicott|Encore|p1b: Torkoal
+|-start|p1b: Torkoal|Encore
+|move|p1b: Torkoal|Helping Hand|p1a: Kangaskhan
+|-singleturn|p1a: Kangaskhan|Helping Hand|[of] p1b: Torkoal
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Kangaskhan
+|-damage|p1a: Kangaskhan|0 fnt
+|faint|p1a: Kangaskhan
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785598370
+|switch|p1a: Venusaur|Venusaur, L50, F|100/100
+|turn|5
+|
+|t:|1785598396
+|move|p1b: Torkoal|Helping Hand|p1a: Venusaur
+|-singleturn|p1a: Venusaur|Helping Hand|[of] p1b: Torkoal
+|move|p2a: Kingambit|Kowtow Cleave|p1a: Venusaur
+|-damage|p1a: Venusaur|24/100
+|move|p2b: Whimsicott|Moonblast|p1b: Torkoal
+|-resisted|p1b: Torkoal|1
+|-damage|p1b: Torkoal|78/100
+|move|p1a: Venusaur|Earth Power|p2a: Kingambit
+|-supereffective|p2a: Kingambit|1
+|-damage|p2a: Kingambit|0 fnt
+|faint|p2a: Kingambit
+|-damage|p1a: Venusaur|15/100|[from] item: Life Orb
+|
+|-weather|SunnyDay|[upkeep]
+|-fieldend|move: Trick Room
+|upkeep
+|turn|6
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by azumzen)
+|
+|t:|1785598456
+|move|p1b: Torkoal|Helping Hand|p1a: Venusaur
+|-singleturn|p1a: Venusaur|Helping Hand|[of] p1b: Torkoal
+|move|p1a: Venusaur|Protect|p1a: Venusaur
+|-singleturn|p1a: Venusaur|Protect
+|move|p2b: Whimsicott|Moonblast|p1a: Venusaur
+|-activate|p1a: Venusaur|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-end|p1b: Torkoal|Encore
+|upkeep
+|turn|7
+|-message|azumzen forfeited.
+|
+|win|fly butterfly fly
+|raw|fly butterfly fly's rating: 1175 → 1198(+23 for winning)
+|raw|azumzen's rating: 1154 → 1131(-23 for losing)
+|l|☆azumzen
+|player|p2|

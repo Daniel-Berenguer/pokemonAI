@@ -1,0 +1,165 @@
+|j|☆PopoVGC
+|j|☆Trail 4
+|html|PopoVGCTrail 4    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785810647
+|gametype|doubles
+|player|p1|PopoVGC|silver|1113
+|player|p2|Trail 4|lucas|1119
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tsareena, L50, F|
+|poke|p1|Excadrill, L50, M|
+|poke|p1|Tyranitar, L50, F|
+|poke|p1|Pidgeot, L50, M|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Rotom-Wash, L50|
+|poke|p2|Gholdengo, L50|
+|poke|p2|Whimsicott, L50, M|
+|poke|p2|Garchomp, L50, M|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Staraptor, L50, F|
+|teampreview|4
+|showteam|p1|Tsareena||ChoiceScarf|QueenlyMajesty|PowerWhip,TripleAxel,Uturn,LowKick|Jolly||F|||50|]Excadrill||FocusSash|SandRush|IronHead,RockSlide,Earthquake,Protect|Adamant||M|||50|]Tyranitar||Tyranitarite|SandStream|RockSlide,KnockOff,LowKick,Protect|Jolly||F|||50|]Pidgeot||Pidgeotite|BigPecks|Hurricane,HeatWave,Protect,Tailwind|Timid||M|||50|]Gholdengo||LifeOrb|GoodasGold|ShadowBall,MakeItRain,NastyPlot,Protect|Timid|||||50|]Rotom-Wash||SitrusBerry|Levitate|Thunderbolt,HydroPump,Protect,WillOWisp|Bold|||||50|
+|showteam|p2|Gholdengo||Leftovers|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect|Modest|||||50|]Whimsicott||FocusSash|Prankster|Charm,Tailwind,Encore,Moonblast|Timid||M|||50|]Garchomp||LifeOrb|RoughSkin|DragonClaw,Earthquake,StompingTantrum,Protect|Jolly||M|||50|]Floette-Eternal||Floettite|FlowerVeil|DazzlingGleam,Moonblast,Substitute,Protect|Timid||F|||50|]Incineroar||PasshoBerry|Intimidate|FakeOut,FlareBlitz,DarkestLariat,PartingShot|Adamant||F|||50|]Staraptor||Staraptite|Intimidate|Roost,CloseCombat,BraveBird,Protect|Jolly||F|||50|
+|
+|t:|1785810669
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Pidgeot|Pidgeot, L50, M|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Staraptor|Staraptor, L50, F|100/100
+|-ability|p2b: Staraptor|Intimidate|boost
+|-unboost|p1a: Pidgeot|atk|1
+|-unboost|p1b: Gholdengo|atk|1
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Pidgeot|atk|1
+|-unboost|p1b: Gholdengo|atk|1
+|turn|1
+|
+|t:|1785810699
+|detailschange|p1a: Pidgeot|Pidgeot-Mega, L50, M
+|-mega|p1a: Pidgeot|Pidgeot|Pidgeotite
+|detailschange|p2b: Staraptor|Staraptor-Mega, L50, F
+|-mega|p2b: Staraptor|Staraptor|Staraptite
+|move|p2b: Staraptor|Protect|p2b: Staraptor
+|-singleturn|p2b: Staraptor|Protect
+|move|p1a: Pidgeot|Hurricane|p2b: Staraptor
+|-activate|p2b: Staraptor|move: Protect
+|move|p1b: Gholdengo|Nasty Plot|p1b: Gholdengo
+|-boost|p1b: Gholdengo|spa|2
+|move|p2a: Incineroar|Flare Blitz|p1b: Gholdengo
+|-supereffective|p1b: Gholdengo|1
+|-damage|p1b: Gholdengo|0 fnt
+|faint|p1b: Gholdengo
+|-damage|p2a: Incineroar|72/100|[from] Recoil
+|
+|upkeep
+|
+|t:|1785810710
+|switch|p1b: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|turn|2
+|
+|t:|1785810729
+|switch|p2b: Gholdengo|Gholdengo, L50|100/100
+|move|p1a: Pidgeot|Hurricane|p2b: Gholdengo
+|-resisted|p2b: Gholdengo|1
+|-damage|p2b: Gholdengo|71/100
+|move|p1b: Tyranitar|Rock Slide|p2b: Gholdengo|[spread] p2a,p2b
+|-supereffective|p2a: Incineroar|1
+|-resisted|p2b: Gholdengo|1
+|-damage|p2a: Incineroar|23/100
+|-damage|p2b: Gholdengo|58/100
+|move|p2a: Incineroar|Flare Blitz|p1a: Pidgeot
+|-damage|p1a: Pidgeot|23/100
+|-damage|p2a: Incineroar|3/100|[from] Recoil
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pidgeot|18/100|[from] Sandstorm
+|-damage|p2a: Incineroar|0 fnt|[from] Sandstorm
+|faint|p2a: Incineroar
+|-heal|p2b: Gholdengo|64/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1785810750
+|switch|p2a: Staraptor|Staraptor-Mega, L50, F|100/100
+|turn|3
+|
+|t:|1785810771
+|move|p2a: Staraptor|Protect|p2a: Staraptor
+|-singleturn|p2a: Staraptor|Protect
+|move|p1a: Pidgeot|Tailwind|p1a: Pidgeot
+|-sidestart|p1: PopoVGC|move: Tailwind
+|move|p1b: Tyranitar|Knock Off|p2b: Gholdengo
+|-supereffective|p2b: Gholdengo|1
+|-damage|p2b: Gholdengo|0 fnt
+|-enditem|p2b: Gholdengo|Leftovers|[from] move: Knock Off|[of] p1b: Tyranitar
+|faint|p2b: Gholdengo
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Pidgeot|12/100|[from] Sandstorm
+|-damage|p2a: Staraptor|93/100|[from] Sandstorm
+|upkeep
+|
+|t:|1785810784
+|switch|p2b: Whimsicott|Whimsicott, L50, M|100/100
+|turn|4
+|
+|t:|1785810791
+|switch|p1a: Excadrill|Excadrill, L50, M|100/100
+|move|p1b: Tyranitar|Protect|p1b: Tyranitar
+|-singleturn|p1b: Tyranitar|Protect
+|move|p2b: Whimsicott|Encore||[still]
+|-fail|p2b: Whimsicott
+|move|p2a: Staraptor|Close Combat|p1b: Tyranitar
+|-activate|p1b: Tyranitar|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Whimsicott|94/100|[from] Sandstorm
+|-damage|p2a: Staraptor|87/100|[from] Sandstorm
+|upkeep
+|turn|5
+|
+|t:|1785810813
+|move|p2a: Staraptor|Protect|p2a: Staraptor
+|-singleturn|p2a: Staraptor|Protect
+|move|p1a: Excadrill|Iron Head|p2a: Staraptor
+|-activate|p2a: Staraptor|move: Protect
+|move|p1b: Tyranitar|Rock Slide|p2b: Whimsicott|[spread] p2b
+|-activate|p2a: Staraptor|move: Protect
+|-damage|p2b: Whimsicott|49/100
+|move|p2b: Whimsicott|Moonblast|p1a: Excadrill
+|-resisted|p1a: Excadrill|1
+|-damage|p1a: Excadrill|75/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Whimsicott|43/100|[from] Sandstorm
+|-damage|p2a: Staraptor|81/100|[from] Sandstorm
+|upkeep
+|turn|6
+|
+|t:|1785810836
+|move|p2b: Whimsicott|Tailwind|p2b: Whimsicott
+|-sidestart|p2: Trail 4|move: Tailwind
+|move|p1a: Excadrill|Iron Head|p2a: Staraptor
+|-damage|p2a: Staraptor|29/100
+|cant|p2a: Staraptor|flinch
+|move|p1b: Tyranitar|Rock Slide|p2a: Staraptor|[spread] p2a,p2b
+|-damage|p2a: Staraptor|0 fnt
+|-damage|p2b: Whimsicott|0 fnt
+|faint|p2a: Staraptor
+|faint|p2b: Whimsicott
+|
+|win|PopoVGC
+|raw|PopoVGC's rating: 1113 → 1138(+25 for winning)
+|raw|Trail 4's rating: 1119 → 1094(-25 for losing)
+|l|☆Trail 4
+|player|p2|

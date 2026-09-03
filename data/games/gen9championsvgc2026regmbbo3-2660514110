@@ -1,0 +1,225 @@
+|j|☆LotadLover
+|j|☆MasamuneTL
+|html|LotadLoverMasamuneTL    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1785979269
+|gametype|doubles
+|player|p1|LotadLover|fisherman-gen4|
+|player|p2|MasamuneTL|170|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Orthworm, L50, F|
+|poke|p1|Blaziken, L50, M, shiny|
+|poke|p1|Krookodile, L50, M|
+|poke|p1|Rotom-Wash, L50|
+|poke|p1|Hydrapple, L50, M|
+|poke|p1|Talonflame, L50, M|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Sinistcha-Masterpiece, L50|
+|poke|p2|Mawile, L50, F, shiny|
+|poke|p2|Starmie, L50|
+|poke|p2|Tyranitar, L50, F|
+|poke|p2|Sableye, L50, F|
+|teampreview|4
+|showteam|p1|Orthworm||SitrusBerry|EarthEater|ShedTail,Earthquake,HelpingHand,BodyPress|Impish||F|||50|]Blaziken||Blazikenite|SpeedBoost|Protect,SwordsDance,BrickBreak,FlareBlitz|Adamant||M|||50|]Krookodile||WhiteHerb|Intimidate|Protect,KnockOff,Taunt,HighHorsepower|Adamant||M|||50|]Rotom-Wash||LightClay|Levitate|Reflect,VoltSwitch,LightScreen,HelpingHand|Bold|||||50|]Hydrapple||QuickClaw|Regenerator|GigaDrain,NastyPlot,EarthPower,Protect|Modest||M|||50|]Talonflame||ChartiBerry|GaleWings|Tailwind,WillOWisp,Uturn,SunnyDay|Impish||M|||50|
+|showteam|p2|Excadrill||FocusSash|SandRush|XScissor,HighHorsepower,RockSlide,Protect|Adamant||M|||50|]Sinistcha-Masterpiece||Leftovers|Hospitality|MatchaGotcha,Scald,TrickRoom,RagePowder|Quiet|||||50|]Mawile||Mawilite|Intimidate|PlayRough,SuckerPunch,Protect,ThunderPunch|Adamant||F|||50|]Starmie||WacanBerry|NaturalCure|AllySwitch,TrickRoom,IceBeam,Scald|Modest|||||50|]Tyranitar||ChopleBerry|SandStream|PowerGem,Flamethrower,Protect,IceBeam|Modest||F|||50|]Sableye||SitrusBerry|Prankster|FakeOut,Quash,Encore,Taunt|Impish||F|||50|
+|
+|t:|1785979306
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Talonflame|Talonflame, L50, M|100/100
+|switch|p1b: Krookodile|Krookodile, L50, M|100/100
+|switch|p2a: Sableye|Sableye, L50, F|100/100
+|switch|p2b: Starmie|Starmie, L50|100/100
+|-ability|p1b: Krookodile|Intimidate|boost
+|-unboost|p2a: Sableye|atk|1
+|-unboost|p2b: Starmie|atk|1
+|turn|1
+|
+|t:|1785979334
+|move|p2a: Sableye|Fake Out|p1b: Krookodile
+|-damage|p1b: Krookodile|93/100
+|move|p1a: Talonflame|U-turn|p2a: Sableye
+|-damage|p2a: Sableye|85/100
+|
+|t:|1785979340
+|switch|p1a: Orthworm|Orthworm, L50, F|100/100|[from] U-turn
+|cant|p1b: Krookodile|flinch
+|move|p2b: Starmie|Scald|p1a: Orthworm
+|-damage|p1a: Orthworm|43/100
+|-enditem|p1a: Orthworm|Sitrus Berry|[eat]
+|-heal|p1a: Orthworm|68/100|[from] item: Sitrus Berry
+|
+|upkeep
+|turn|2
+|
+|t:|1785979370
+|move|p2a: Sableye|Taunt|p1a: Orthworm
+|-start|p1a: Orthworm|move: Taunt
+|move|p1b: Krookodile|Knock Off|p2b: Starmie
+|-supereffective|p2b: Starmie|1
+|-damage|p2b: Starmie|0 fnt
+|-enditem|p2b: Starmie|Wacan Berry|[from] move: Knock Off|[of] p1b: Krookodile
+|faint|p2b: Starmie
+|cant|p1a: Orthworm|move: Taunt|Shed Tail
+|
+|upkeep
+|
+|t:|1785979381
+|switch|p2b: Excadrill|Excadrill, L50, M|100/100
+|turn|3
+|
+|t:|1785979408
+|move|p2a: Sableye|Encore||[still]
+|-fail|p2a: Sableye
+|move|p1b: Krookodile|Taunt|p2a: Sableye
+|-start|p2a: Sableye|move: Taunt
+|move|p2b: Excadrill|X-Scissor|p1b: Krookodile
+|-supereffective|p1b: Krookodile|1
+|-damage|p1b: Krookodile|20/100y
+|move|p1a: Orthworm|Body Press|p2b: Excadrill
+|-supereffective|p2b: Excadrill|1
+|-damage|p2b: Excadrill|1/100
+|
+|upkeep
+|turn|4
+|
+|t:|1785979430
+|switch|p1b: Talonflame|Talonflame, L50, M|100/100
+|switch|p2a: Tyranitar|Tyranitar, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2a: Tyranitar
+|move|p2b: Excadrill|Protect|p2b: Excadrill
+|-singleturn|p2b: Excadrill|Protect
+|move|p1a: Orthworm|Earthquake|p2b: Excadrill|[spread] p2a
+|-activate|p2b: Excadrill|move: Protect
+|-immune|p1b: Talonflame
+|-supereffective|p2a: Tyranitar|1
+|-damage|p2a: Tyranitar|73/100
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Talonflame|94/100|[from] Sandstorm
+|-end|p1a: Orthworm|move: Taunt
+|upkeep
+|turn|5
+|
+|t:|1785979462
+|switch|p1b: Krookodile|Krookodile, L50, M|20/100y
+|-ability|p1b: Krookodile|Intimidate|boost
+|-unboost|p2a: Tyranitar|atk|1
+|-unboost|p2b: Excadrill|atk|1
+|move|p2b: Excadrill|Rock Slide|p1a: Orthworm|[spread] p1a,p1b
+|-resisted|p1a: Orthworm|1
+|-resisted|p1b: Krookodile|1
+|-damage|p1a: Orthworm|64/100
+|-damage|p1b: Krookodile|11/100
+|move|p2a: Tyranitar|Flamethrower|p1a: Orthworm
+|-supereffective|p1a: Orthworm|1
+|-damage|p1a: Orthworm|0 fnt
+|faint|p1a: Orthworm
+|
+|-weather|Sandstorm|[upkeep]
+|upkeep
+|
+|t:|1785979480
+|switch|p1a: Talonflame|Talonflame, L50, M|94/100
+|turn|6
+|
+|t:|1785979508
+|move|p2a: Tyranitar|Protect|p2a: Tyranitar
+|-singleturn|p2a: Tyranitar|Protect
+|move|p2b: Excadrill|Rock Slide|p1b: Krookodile|[spread] p1a,p1b
+|-supereffective|p1a: Talonflame|2
+|-enditem|p1a: Talonflame|Charti Berry|[eat]
+|-enditem|p1a: Talonflame|Charti Berry|[weaken]
+|-resisted|p1b: Krookodile|1
+|-damage|p1a: Talonflame|69/100
+|-damage|p1b: Krookodile|3/100
+|cant|p1a: Talonflame|flinch
+|cant|p1b: Krookodile|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1a: Talonflame|63/100|[from] Sandstorm
+|upkeep
+|turn|7
+|
+|t:|1785979541
+|switch|p2a: Sableye|Sableye, L50, F|85/100
+|move|p2b: Excadrill|Rock Slide|p1b: Krookodile|[spread] p1a,p1b
+|-supereffective|p1a: Talonflame|2
+|-resisted|p1b: Krookodile|1
+|-damage|p1a: Talonflame|9/100
+|-damage|p1b: Krookodile|0 fnt
+|faint|p1b: Krookodile
+|move|p1a: Talonflame|Sunny Day|p1a: Talonflame
+|-weather|SunnyDay
+|
+|-weather|SunnyDay|[upkeep]
+|upkeep
+|
+|t:|1785979549
+|switch|p1b: Blaziken|Blaziken, L50, M, shiny|100/100
+|turn|8
+|
+|t:|1785979571
+|detailschange|p1b: Blaziken|Blaziken-Mega, L50, M, shiny
+|-mega|p1b: Blaziken|Blaziken|Blazikenite
+|move|p1b: Blaziken|Protect|p1b: Blaziken
+|-singleturn|p1b: Blaziken|Protect
+|move|p2b: Excadrill|Protect|p2b: Excadrill
+|-singleturn|p2b: Excadrill|Protect
+|move|p2a: Sableye|Fake Out|p1a: Talonflame
+|-crit|p1a: Talonflame
+|-damage|p1a: Talonflame|0 fnt
+|faint|p1a: Talonflame
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1b: Blaziken|Speed Boost|boost
+|-boost|p1b: Blaziken|spe|1
+|upkeep
+|turn|9
+|
+|t:|1785979593
+|move|p2a: Sableye|Quash|p1b: Blaziken
+|-activate|p1b: Blaziken|move: Quash
+|move|p2b: Excadrill|High Horsepower|p1b: Blaziken
+|-supereffective|p1b: Blaziken|1
+|-damage|p1b: Blaziken|1/100
+|move|p1b: Blaziken|Brick Break|p2b: Excadrill
+|-supereffective|p2b: Excadrill|1
+|-damage|p2b: Excadrill|0 fnt
+|faint|p2b: Excadrill
+|
+|-weather|SunnyDay|[upkeep]
+|-ability|p1b: Blaziken|Speed Boost|boost
+|-boost|p1b: Blaziken|spe|1
+|upkeep
+|
+|t:|1785979597
+|switch|p2b: Tyranitar|Tyranitar, L50, F|73/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p2b: Tyranitar
+|turn|10
+|
+|t:|1785979607
+|move|p2b: Tyranitar|Protect|p2b: Tyranitar
+|-singleturn|p2b: Tyranitar|Protect
+|move|p2a: Sableye|Quash|p1b: Blaziken
+|-activate|p1b: Blaziken|move: Quash
+|move|p1b: Blaziken|Brick Break|p2b: Tyranitar
+|-activate|p2b: Tyranitar|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p1b: Blaziken|0 fnt|[from] Sandstorm
+|-damage|p2a: Sableye|79/100|[from] Sandstorm
+|faint|p1b: Blaziken
+|
+|win|MasamuneTL
+|inactive|LotadLover has 30 seconds to confirm battle start!
+|inactive|MasamuneTL has 30 seconds to confirm battle start!
+||LotadLover is ready for game 2.
+|inactive|MasamuneTL has 20 seconds to confirm battle start!
+||MasamuneTL is ready for game 2.
+|uhtml|next|Next: Game 2 of 3

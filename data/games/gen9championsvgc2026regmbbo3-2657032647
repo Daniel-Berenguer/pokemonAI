@@ -1,0 +1,102 @@
+|j|☆natsukivgc
+|j|☆Pineyfressh
+|html|natsukivgcPineyfressh    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1785387319
+|gametype|doubles
+|player|p1|natsukivgc|1|1153
+|player|p2|Pineyfressh|102|1113
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Garchomp, L50, M|
+|poke|p1|Venusaur, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Charizard, L50, F|
+|poke|p1|Toxapex, L50, M|
+|poke|p1|Annihilape, L50, F|
+|poke|p2|Sableye, L50, M|
+|poke|p2|Flapple, L50, F|
+|poke|p2|Milotic, L50, F|
+|poke|p2|Pyroar, L50, M|
+|poke|p2|Ninetales, L50, F|
+|poke|p2|Beedrill, L50, M|
+|teampreview|4
+|showteam|p1|Garchomp||ChoiceScarf|RoughSkin|Earthquake,DragonClaw,StompingTantrum,RockSlide|Adamant||M|||50|]Venusaur||LifeOrb|Chlorophyll|SolarBeam,SludgeBomb,EarthPower,Protect|Modest||F|||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,ThroatChop,FakeOut,PartingShot|Impish||M|||50|]Charizard||CharizarditeY|Blaze|HeatWave,WeatherBall,HelpingHand,Protect|Modest||F|||50|]Toxapex||Leftovers|Regenerator|Infestation,Toxic,WideGuard,BanefulBunker|Bold||M|||50|]Annihilape||FocusSash|Defiant|CloseCombat,PhantomForce,StealthRock,Protect|Jolly||F|||50|
+|showteam|p2|Sableye||MentalHerb|Prankster|Gravity,LightScreen,FakeOut,FoulPlay|Bold||M|||50|]Flapple||ChoiceScarf|Hustle|GravApple,DualWingbeat,SuckerPunch,DragonRush|Jolly||F|||50|]Milotic||Leftovers|Competitive|Haze,IcyWind,Scald,Hypnosis|Timid||F|||50|]Pyroar||Pyroarite|Rivalry|HyperVoice,HeatWave,Overheat,Protect|Timid||M|||50|]Ninetales||HeatRock|Drought|Hypnosis,HeatWave,Encore,Protect|Serious||F|||50|]Beedrill||Beedrillite|Swarm|FellStinger,PoisonJab,Uturn,Protect|Jolly||M|||50|
+|
+|t:|1785387338
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Toxapex|Toxapex, L50, M|100/100
+|switch|p1b: Charizard|Charizard, L50, F|100/100
+|switch|p2a: Ninetales|Ninetales, L50, F|100/100
+|switch|p2b: Pyroar|Pyroar, L50, M|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p2a: Ninetales
+|turn|1
+|
+|t:|1785387376
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Ninetales|atk|1
+|-unboost|p2b: Pyroar|atk|1
+|detailschange|p2b: Pyroar|Pyroar-Mega, L50, M
+|-mega|p2b: Pyroar|Pyroar|Pyroarite
+|move|p2b: Pyroar|Heat Wave|p1a: Toxapex|[spread] 
+|-miss|p2b: Pyroar|p1a: Toxapex
+|-miss|p2b: Pyroar|p1b: Incineroar
+|move|p2a: Ninetales|Hypnosis|p1b: Incineroar|[miss]
+|-miss|p2a: Ninetales|p1b: Incineroar
+|move|p1a: Toxapex|Infestation|p2b: Pyroar
+|-resisted|p2b: Pyroar|1
+|-damage|p2b: Pyroar|98/100
+|-activate|p2b: Pyroar|move: Infestation|[of] p1a: Toxapex
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p2b: Pyroar|85/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|2
+|
+|t:|1785387399
+|move|p1b: Incineroar|Fake Out|p2a: Ninetales
+|-damage|p2a: Ninetales|86/100
+|move|p2b: Pyroar|Heat Wave|p1b: Incineroar|[spread] p1a,p1b
+|-resisted|p1a: Toxapex|1
+|-resisted|p1b: Incineroar|1
+|-damage|p1a: Toxapex|66/100
+|-damage|p1b: Incineroar|65/100
+|cant|p2a: Ninetales|flinch
+|move|p1a: Toxapex|Toxic|p2b: Pyroar
+|-status|p2b: Pyroar|tox
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p1a: Toxapex|72/100|[from] item: Leftovers
+|-damage|p2b: Pyroar|79/100 tox|[from] psn
+|-damage|p2b: Pyroar|67/100 tox|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|3
+|
+|t:|1785387422
+|move|p1a: Toxapex|Baneful Bunker|p1a: Toxapex
+|-singleturn|p1a: Toxapex|move: Protect
+|move|p2b: Pyroar|Hyper Voice|p1a: Toxapex|[spread] p1b
+|-activate|p1a: Toxapex|move: Protect
+|-damage|p1b: Incineroar|34/100
+|-enditem|p1b: Incineroar|Sitrus Berry|[eat]
+|-heal|p1b: Incineroar|58/100|[from] item: Sitrus Berry
+|move|p2a: Ninetales|Heat Wave|p1a: Toxapex|[spread] p1b
+|-activate|p1a: Toxapex|move: Protect
+|-resisted|p1b: Incineroar|1
+|-damage|p1b: Incineroar|44/100
+|move|p1b: Incineroar|Parting Shot|p2b: Pyroar
+|-unboost|p2b: Pyroar|atk|1
+|-unboost|p2b: Pyroar|spa|1
+|-message|Pineyfressh forfeited.
+|raw|natsukivgc's rating: 1153 → 1175(+22 for winning)
+|raw|Pineyfressh's rating: 1113 → 1091(-22 for losing)
+|
+|win|natsukivgc

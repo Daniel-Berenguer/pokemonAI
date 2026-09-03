@@ -1,0 +1,193 @@
+|j|☆Leafeon Main?
+|j|☆Fayz Sharpie
+|html|Leafeon Main?Fayz Sharpie    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1784902787
+|gametype|doubles
+|player|p1|Leafeon Main?|cheryl|
+|player|p2|Fayz Sharpie|koga|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|raw|1 custom rule: !Force Open Team Sheets
+|clearpoke
+|poke|p1|Blastoise, L50, F|
+|poke|p1|Jolteon, L50, F|
+|poke|p1|Whimsicott, L50, F|
+|poke|p1|Politoed, L50, F|
+|poke|p1|Gengar, L50, F|
+|poke|p1|Ninetales-Alola, L50, M|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Orthworm, L50, M|
+|poke|p2|Scrafty, L50, M|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Vileplume, L50, F|
+|poke|p2|Aerodactyl, L50, F|
+|teampreview|4
+|
+|t:|1784902840
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Rogue|Whimsicott, L50, F|100/100
+|switch|p1b: Sorcerer|Gengar, L50, F|100/100
+|switch|p2a: Orthworm|Orthworm, L50, M|100/100
+|switch|p2b: Scrafty|Scrafty, L50, M|100/100
+|-ability|p2b: Scrafty|Intimidate|boost
+|-unboost|p1a: Rogue|atk|1
+|-unboost|p1b: Sorcerer|atk|1
+|turn|1
+|
+|t:|1784902883
+|switch|p2b: Charizard|Charizard, L50, M|100/100
+|detailschange|p1b: Sorcerer|Gengar-Mega, L50, F
+|-mega|p1b: Sorcerer|Gengar|Gengarite
+|move|p1b: Sorcerer|Dazzling Gleam|p2a: Orthworm|[spread] p2a,p2b
+|-resisted|p2a: Orthworm|1
+|-resisted|p2b: Charizard|1
+|-damage|p2a: Orthworm|86/100
+|-damage|p2b: Charizard|82/100
+|move|p1a: Rogue|Moonblast|p2b: Charizard
+|-resisted|p2b: Charizard|1
+|-damage|p2b: Charizard|65/100
+|move|p2a: Orthworm|Shed Tail|p2a: Orthworm
+|-start|p2a: Orthworm|Substitute|[from] move: Shed Tail
+|-damage|p2a: Orthworm|36/100
+|-enditem|p2a: Orthworm|Sitrus Berry|[eat]
+|-heal|p2a: Orthworm|61/100|[from] item: Sitrus Berry
+|
+|t:|1784902893
+|switch|p2a: Scrafty|Scrafty, L50, M|100/100|[from] Shed Tail
+|-ability|p2a: Scrafty|Intimidate|boost
+|-unboost|p1a: Rogue|atk|1
+|-unboost|p1b: Sorcerer|atk|1
+|
+|upkeep
+|turn|2
+|
+|t:|1784902913
+|detailschange|p2b: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p2b: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p2b: Charizard
+|move|p2a: Scrafty|Fake Out|p1a: Rogue
+|-damage|p1a: Rogue|89/100
+|cant|p1a: Rogue|flinch
+|move|p1b: Sorcerer|Shadow Ball|p2b: Charizard
+|-damage|p2b: Charizard|10/100
+|move|p2b: Charizard|Heat Wave|p1a: Rogue|[spread] p1a,p1b
+|-supereffective|p1a: Rogue|1
+|-enditem|p1a: Rogue|Occa Berry|[eat]
+|-enditem|p1a: Rogue|Occa Berry|[weaken]
+|-damage|p1a: Rogue|1/100
+|-damage|p1b: Sorcerer|7/100
+|-status|p1a: Rogue|brn
+|
+|-weather|SunnyDay|[upkeep]
+|-damage|p1a: Rogue|0 fnt|[from] brn
+|faint|p1a: Rogue
+|upkeep
+|
+|t:|1784902931
+|switch|p1a: Bard|Politoed, L50, F|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1a: Bard
+|turn|3
+|
+|t:|1784902973
+|move|p1b: Sorcerer|Protect|p1b: Sorcerer
+|-singleturn|p1b: Sorcerer|Protect
+|move|p2b: Charizard|Protect|p2b: Charizard
+|-singleturn|p2b: Charizard|Protect
+|move|p1a: Bard|Weather Ball|p2b: Charizard
+|-activate|p2b: Charizard|move: Protect
+|move|p2a: Scrafty|Throat Chop|p1b: Sorcerer
+|-activate|p1b: Sorcerer|move: Protect
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|4
+|
+|t:|1784902988
+|switch|p1b: Wizard|Jolteon, L50, F|100/100
+|move|p2b: Charizard|Weather Ball|p1b: Wizard
+|-damage|p1b: Wizard|11/100
+|move|p1a: Bard|Weather Ball|p2b: Charizard
+|-supereffective|p2b: Charizard|1
+|-damage|p2b: Charizard|0 fnt
+|faint|p2b: Charizard
+|move|p2a: Scrafty|Throat Chop|p1b: Wizard
+|-damage|p1b: Wizard|0 fnt
+|faint|p1b: Wizard
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1784903003
+|switch|p1b: Sorcerer|Gengar-Mega, L50, F|7/100
+|switch|p2b: Orthworm|Orthworm, L50, M|61/100
+|turn|5
+|
+|t:|1784903026
+|move|p1b: Sorcerer|Protect|p1b: Sorcerer
+|-singleturn|p1b: Sorcerer|Protect
+|move|p1a: Bard|Weather Ball|p2b: Orthworm
+|-damage|p2b: Orthworm|3/100
+|move|p2b: Orthworm|Heavy Slam|p1b: Sorcerer
+|-activate|p1b: Sorcerer|move: Protect
+|move|p2a: Scrafty|Throat Chop|p1a: Bard
+|-damage|p1a: Bard|56/100
+|-start|p1a: Bard|Throat Chop|[silent]
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|turn|6
+|
+|t:|1784903062
+|move|p1b: Sorcerer|Dazzling Gleam|p2a: Scrafty|[spread] p2a,p2b
+|-supereffective|p2a: Scrafty|2
+|-crit|p2a: Scrafty
+|-end|p2a: Scrafty|Substitute
+|-resisted|p2b: Orthworm|1
+|-damage|p2b: Orthworm|0 fnt
+|faint|p2b: Orthworm
+|move|p1a: Bard|Weather Ball|p2a: Scrafty
+|-damage|p2a: Scrafty|54/100
+|move|p2a: Scrafty|Throat Chop|p1b: Sorcerer
+|-supereffective|p1b: Sorcerer|1
+|-damage|p1b: Sorcerer|0 fnt
+|faint|p1b: Sorcerer
+|
+|-weather|RainDance|[upkeep]
+|-end|p1a: Bard|Throat Chop|[silent]
+|upkeep
+|
+|t:|1784903071
+|switch|p2b: Raichu|Raichu, L50, M|100/100
+|turn|7
+|
+|t:|1784903080
+|move|p2b: Raichu|Nuzzle|p1a: Bard
+|-supereffective|p1a: Bard|1
+|-enditem|p1a: Bard|Wacan Berry|[eat]
+|-enditem|p1a: Bard|Wacan Berry|[weaken]
+|-damage|p1a: Bard|50/100g
+|-status|p1a: Bard|par
+|move|p2a: Scrafty|Drain Punch|p1a: Bard
+|-damage|p1a: Bard|10/100 par
+|-heal|p2a: Scrafty|77/100|[from] drain|[of] p1a: Bard
+|move|p1a: Bard|Weather Ball|p2a: Scrafty
+|-damage|p2a: Scrafty|33/100
+|
+|-weather|none
+|upkeep
+|turn|8
+|c|☆Leafeon Main?|gg
+|c|☆Fayz Sharpie|gg
+|
+|t:|1784903112
+|move|p2b: Raichu|Thunderbolt|p1a: Bard
+|-supereffective|p1a: Bard|1
+|-damage|p1a: Bard|0 fnt
+|faint|p1a: Bard
+|
+|win|Fayz Sharpie

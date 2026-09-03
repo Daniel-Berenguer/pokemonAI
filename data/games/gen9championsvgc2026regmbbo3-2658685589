@@ -1,0 +1,232 @@
+|j|☆new mental
+|j|☆moriganpipe
+|html|new mentalmoriganpipe    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785683625
+|gametype|doubles
+|player|p1|new mental|volkner|1373
+|player|p2|moriganpipe|169|1229
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Incineroar, L50, M|
+|poke|p1|Venusaur, L50, M|
+|poke|p1|Toxapex, L50, M|
+|poke|p1|Sylveon, L50, M|
+|poke|p2|Froslass, L50, F|
+|poke|p2|Rotom-Frost, L50|
+|poke|p2|Incineroar, L50, F|
+|poke|p2|Lycanroc-Dusk, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Toxapex, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|WeatherBall,HeatWave,AncientPower,Protect|Modest||M|||50|]Garchomp||ChoiceScarf|RoughSkin|RockSlide,DragonClaw,Earthquake,StompingTantrum|Adamant||F|||50|]Incineroar||SitrusBerry|Intimidate|FlareBlitz,FakeOut,DarkestLariat,PartingShot|Impish||M|||50|]Venusaur||LifeOrb|Chlorophyll|SludgeBomb,LeafStorm,EarthPower,Protect|Modest||M|||50|]Toxapex||Leftovers|Regenerator|Infestation,Toxic,WideGuard,BanefulBunker|Bold||M|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,QuickAttack,Yawn,Detect|Modest||M|||50|
+|showteam|p2|Froslass||Froslassite|CursedBody|Protect,Blizzard,ShadowBall,AuroraVeil|Timid||F|||50|]Rotom-Frost||ChoiceScarf|Levitate|Thunderbolt,Electroweb,Blizzard,Trick|Timid|||||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,ThroatChop,PartingShot|Impish||F|||50|]Lycanroc-Dusk||FocusSash|ToughClaws|Protect,Accelerock,RockSlide,CloseCombat|Jolly||F|||50|]Garchomp||LifeOrb|RoughSkin|Protect,DragonClaw,StompingTantrum,RockSlide|Jolly||F|||50|]Toxapex||Leftovers|Regenerator|BanefulBunker,Infestation,Toxic,Haze|Bold||M|||50|
+|
+|t:|1785683639
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, M|100/100
+|switch|p1b: Incineroar|Incineroar, L50, M|100/100
+|switch|p2a: Incineroar|Incineroar, L50, F|100/100
+|switch|p2b: Toxapex|Toxapex, L50, M|100/100
+|-ability|p2a: Incineroar|Intimidate|boost
+|-unboost|p1a: Charizard|atk|1
+|-unboost|p1b: Incineroar|atk|1
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Incineroar|atk|1
+|-unboost|p2b: Toxapex|atk|1
+|turn|1
+|
+|t:|1785683650
+|switch|p1b: Garchomp|Garchomp, L50, F|100/100
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2a: Incineroar|Fake Out|p1b: Garchomp
+|-damage|p1b: Garchomp|93/100
+|-damage|p2a: Incineroar|87/100|[from] ability: Rough Skin|[of] p1b: Garchomp
+|move|p1a: Charizard|Ancient Power|p2a: Incineroar
+|-supereffective|p2a: Incineroar|1
+|-damage|p2a: Incineroar|43/100
+|-enditem|p2a: Incineroar|Sitrus Berry|[eat]
+|-heal|p2a: Incineroar|68/100|[from] item: Sitrus Berry
+|move|p2b: Toxapex|Infestation|p1b: Garchomp
+|-damage|p1b: Garchomp|89/100
+|-activate|p1b: Garchomp|move: Infestation|[of] p2b: Toxapex
+|-damage|p2b: Toxapex|87/100|[from] ability: Rough Skin|[of] p1b: Garchomp
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Toxapex|93/100|[from] item: Leftovers
+|-damage|p1b: Garchomp|77/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|2
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by new mental)
+|
+|t:|1785683681
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p1b: Garchomp|Earthquake|p2a: Incineroar|[spread] p2a
+|-activate|p2b: Toxapex|move: Protect
+|-immune|p1a: Charizard
+|-supereffective|p2a: Incineroar|1
+|-damage|p2a: Incineroar|4/100
+|move|p1a: Charizard|Heat Wave|p2a: Incineroar|[spread] p2a
+|-activate|p2b: Toxapex|move: Protect
+|-resisted|p2a: Incineroar|1
+|-damage|p2a: Incineroar|0 fnt
+|faint|p2a: Incineroar
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Toxapex|99/100|[from] item: Leftovers
+|-damage|p1b: Garchomp|65/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1785683696
+|switch|p2a: Froslass|Froslass, L50, F|100/100
+|turn|3
+|
+|t:|1785683704
+|detailschange|p2a: Froslass|Froslass-Mega, L50, F
+|-mega|p2a: Froslass|Froslass|Froslassite
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Froslass
+|move|p1b: Garchomp|Earthquake|p2a: Froslass|[spread] p2a,p2b
+|-immune|p1a: Charizard
+|-supereffective|p2b: Toxapex|1
+|-damage|p2a: Froslass|62/100
+|-damage|p2b: Toxapex|42/100
+|move|p2a: Froslass|Blizzard|p1b: Garchomp|[spread] p1a,p1b
+|-supereffective|p1b: Garchomp|2
+|-damage|p1a: Charizard|58/100
+|-damage|p1b: Garchomp|0 fnt
+|faint|p1b: Garchomp
+|move|p1a: Charizard|Heat Wave|p2b: Toxapex|[spread] p2a,p2b
+|-supereffective|p2a: Froslass|1
+|-resisted|p2b: Toxapex|1
+|-damage|p2a: Froslass|0 fnt
+|-damage|p2b: Toxapex|26/100
+|-status|p2b: Toxapex|brn
+|faint|p2a: Froslass
+|move|p2b: Toxapex|Toxic|p1a: Charizard
+|-status|p1a: Charizard|tox
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Toxapex|32/100 brn|[from] item: Leftovers
+|-damage|p1a: Charizard|52/100 tox|[from] psn
+|-damage|p2b: Toxapex|26/100 brn|[from] brn
+|upkeep
+|
+|t:|1785683720
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|switch|p1b: Venusaur|Venusaur, L50, M|100/100
+|turn|4
+|
+|t:|1785683732
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Garchomp|atk|1
+|-unboost|p2b: Toxapex|atk|1
+|move|p2a: Garchomp|Rock Slide|p1a: Incineroar|[spread] p1a,p1b
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|72/100
+|-damage|p1b: Venusaur|79/100
+|-damage|p2a: Garchomp|90/100|[from] item: Life Orb
+|cant|p1b: Venusaur|flinch
+|move|p2b: Toxapex|Infestation|p1a: Incineroar
+|-damage|p1a: Incineroar|69/100
+|-activate|p1a: Incineroar|move: Infestation|[of] p2b: Toxapex
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Toxapex|32/100 brn|[from] item: Leftovers
+|-damage|p2b: Toxapex|26/100 brn|[from] brn
+|-damage|p1a: Incineroar|57/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|turn|5
+|inactive|new mental has 30 seconds left.
+|
+|t:|1785683758
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1a: Incineroar|Fake Out|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Protect
+|move|p1b: Venusaur|Leaf Storm|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Protect
+|move|p2b: Toxapex|Haze|p2b: Toxapex
+|-clearallboost
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p2b: Toxapex|32/100 brn|[from] item: Leftovers
+|-damage|p2b: Toxapex|26/100 brn|[from] brn
+|-damage|p1a: Incineroar|45/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|69/100|[from] item: Sitrus Berry
+|turn|6
+|inactive|moriganpipe has 30 seconds left.
+|
+|t:|1785683786
+|move|p1b: Venusaur|Protect|p1b: Venusaur
+|-singleturn|p1b: Venusaur|Protect
+|move|p2a: Garchomp|Dragon Claw|p1b: Venusaur
+|-activate|p1b: Venusaur|move: Protect
+|move|p1a: Incineroar|Parting Shot|p2a: Garchomp
+|-unboost|p2a: Garchomp|atk|1
+|-unboost|p2a: Garchomp|spa|1
+|
+|t:|1785683788
+|switch|p1a: Charizard|Charizard-Mega-Y, L50, M|52/100 tox|[from] Parting Shot
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p2b: Toxapex|Infestation|p1b: Venusaur
+|-activate|p1b: Venusaur|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Toxapex|32/100 brn|[from] item: Leftovers
+|-damage|p1a: Charizard|46/100 tox|[from] psn
+|-damage|p2b: Toxapex|26/100 brn|[from] brn
+|upkeep
+|turn|7
+|
+|t:|1785683794
+|move|p1b: Venusaur|Leaf Storm|p2a: Garchomp
+|-damage|p2a: Garchomp|9/100
+|-unboost|p1b: Venusaur|spa|2
+|-damage|p1b: Venusaur|70/100|[from] item: Life Orb
+|move|p2a: Garchomp|Rock Slide|p1a: Charizard|[spread] p1a,p1b
+|-supereffective|p1a: Charizard|2
+|-damage|p1a: Charizard|0 fnt
+|-damage|p1b: Venusaur|48/100
+|faint|p1a: Charizard
+|-damage|p2a: Garchomp|0 fnt|[from] item: Life Orb
+|faint|p2a: Garchomp
+|move|p2b: Toxapex|Infestation|p1b: Venusaur
+|-damage|p1b: Venusaur|44/100
+|-activate|p1b: Venusaur|move: Infestation|[of] p2b: Toxapex
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Toxapex|32/100 brn|[from] item: Leftovers
+|-damage|p2b: Toxapex|26/100 brn|[from] brn
+|-damage|p1b: Venusaur|32/100|[from] move: Infestation|[partiallytrapped]
+|upkeep
+|
+|t:|1785683796
+|switch|p1a: Incineroar|Incineroar, L50, M|69/100
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2b: Toxapex|atk|1
+|turn|8
+|
+|t:|1785683810
+|move|p1a: Incineroar|Fake Out|p2b: Toxapex
+|-damage|p2b: Toxapex|19/100 brn
+|move|p1b: Venusaur|Earth Power|p2b: Toxapex
+|-supereffective|p2b: Toxapex|1
+|-damage|p2b: Toxapex|0 fnt
+|faint|p2b: Toxapex
+|-damage|p1b: Venusaur|22/100|[from] item: Life Orb
+|
+|win|new mental

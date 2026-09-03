@@ -1,0 +1,117 @@
+|j|☆babydimelavelda
+|j|☆testdigi
+|html|babydimelaveldatestdigi    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1785169205
+|gametype|doubles
+|player|p1|babydimelavelda|265|1172
+|player|p2|testdigi|169|1227
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Mawile, L50, M|
+|poke|p1|Raichu, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Vivillon, L50, M|
+|poke|p1|Torkoal, L50, F|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Toxapex, L50, F|
+|poke|p2|Mamoswine, L50, F|
+|poke|p2|Sylveon, L50, M|
+|poke|p2|Corviknight, L50, F|
+|poke|p2|Basculegion, L50, M|
+|teampreview|4
+|showteam|p1|Mawile||Mawilite|Intimidate|PlayRough,SuckerPunch,Protect,SwordsDance|Brave||M|||50|]Raichu||RaichuniteY|LightningRod|ZapCannon,FocusBlast,GrassKnot,Protect|Timid||F|||50|]Farigiraf||SitrusBerry|ArmorTail|TwinBeam,TrickRoom,HelpingHand,Thunderbolt|Modest||M|||50|]Garchomp||LifeOrb|SandVeil|Earthquake,DragonClaw,RockSlide,Protect|Jolly||F|||50|]Vivillon||FocusSash|CompoundEyes|Hurricane,Protect,SleepPowder,RagePowder|Timid||M|||50|]Torkoal||Charcoal|Drought|Eruption,EarthPower,WeatherBall,Protect|Quiet||F|||50|
+|showteam|p2|Raichu||RaichuniteY|LightningRod|ZapCannon,FocusBlast,FakeOut,Protect|Timid||M|||50|]Toxapex||Leftovers|Regenerator|Infestation,Toxic,Recover,BanefulBunker|Relaxed||F|||50|]Mamoswine||LifeOrb|Oblivious|StompingTantrum,IceShard,RockSlide,Protect|Adamant||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,QuickAttack,Yawn,Detect|Modest||M|||50|]Corviknight||OccaBerry|MirrorArmor|IronHead,BraveBird,Tailwind,Protect|Adamant||F|||50|]Basculegion||FocusSash|Adaptability|LastRespects,Liquidation,AquaJet,Protect|Jolly||M|||50|
+|
+|t:|1785169249
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Farigiraf|Farigiraf, L50, M|100/100
+|switch|p1b: Vivillon|Vivillon, L50, M|100/100
+|switch|p2a: Mamoswine|Mamoswine, L50, F|100/100
+|switch|p2b: Raichu|Raichu, L50, M|100/100
+|turn|1
+|
+|t:|1785169272
+|detailschange|p2b: Raichu|Raichu-Mega-Y, L50, M
+|-mega|p2b: Raichu|Raichu|Raichunite Y
+|move|p2b: Raichu|Zap Cannon|p1b: Vivillon
+|-supereffective|p1b: Vivillon|1
+|-enditem|p1b: Vivillon|Focus Sash
+|-damage|p1b: Vivillon|1/100
+|-status|p1b: Vivillon|par
+|move|p2a: Mamoswine|Rock Slide|p1a: Farigiraf|[spread] p1a,p1b
+|-supereffective|p1b: Vivillon|2
+|-damage|p1a: Farigiraf|74/100
+|-damage|p1b: Vivillon|0 fnt
+|faint|p1b: Vivillon
+|-damage|p2a: Mamoswine|90/100|[from] item: Life Orb
+|move|p1a: Farigiraf|Trick Room|p1a: Farigiraf
+|-fieldstart|move: Trick Room|[of] p1a: Farigiraf
+|
+|upkeep
+|
+|t:|1785169288
+|switch|p1b: Torkoal|Torkoal, L50, F|100/100
+|-weather|SunnyDay|[from] ability: Drought|[of] p1b: Torkoal
+|turn|2
+|
+|t:|1785169311
+|switch|p2b: Toxapex|Toxapex, L50, F|100/100
+|move|p1a: Farigiraf|Helping Hand|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Helping Hand|[of] p1a: Farigiraf
+|move|p2a: Mamoswine|Protect|p2a: Mamoswine
+|-singleturn|p2a: Mamoswine|Protect
+|move|p1b: Torkoal|Eruption|p2a: Mamoswine|[spread] p2b
+|-activate|p2a: Mamoswine|move: Protect
+|-resisted|p2b: Toxapex|1
+|-damage|p2b: Toxapex|50/100g
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Toxapex|56/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1785169335
+|move|p1a: Farigiraf|Helping Hand|p1b: Torkoal
+|-singleturn|p1b: Torkoal|Helping Hand|[of] p1a: Farigiraf
+|move|p1b: Torkoal|Eruption|p2b: Toxapex|[spread] p2a,p2b
+|-supereffective|p2a: Mamoswine|1
+|-resisted|p2b: Toxapex|1
+|-damage|p2a: Mamoswine|0 fnt
+|-damage|p2b: Toxapex|10/100
+|faint|p2a: Mamoswine
+|move|p2b: Toxapex|Recover|p2b: Toxapex
+|-heal|p2b: Toxapex|60/100
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Toxapex|66/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1785169344
+|switch|p2a: Raichu|Raichu-Mega-Y, L50, M|100/100
+|turn|4
+|
+|t:|1785169352
+|move|p2b: Toxapex|Baneful Bunker|p2b: Toxapex
+|-singleturn|p2b: Toxapex|move: Protect
+|move|p2a: Raichu|Protect|p2a: Raichu
+|-singleturn|p2a: Raichu|Protect
+|move|p1b: Torkoal|Weather Ball|p2a: Raichu
+|-activate|p2a: Raichu|move: Protect
+|move|p1a: Farigiraf|Twin Beam|p2b: Toxapex
+|-activate|p2b: Toxapex|move: Protect
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Toxapex|71/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|-message|testdigi forfeited.
+|
+|win|babydimelavelda

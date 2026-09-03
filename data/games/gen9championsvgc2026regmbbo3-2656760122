@@ -1,0 +1,235 @@
+|j|☆testdigi
+|j|☆Toxapqex
+|html|testdigiToxapqex    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1785346749
+|gametype|doubles
+|player|p1|testdigi|169|1147
+|player|p2|Toxapqex|brycen|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Tyranitar, L50, M|
+|poke|p1|Excadrill, L50, F|
+|poke|p1|Gholdengo, L50, shiny|
+|poke|p1|Milotic, L50, M, shiny|
+|poke|p1|Sinistcha, L50|
+|poke|p1|Staraptor, L50, F|
+|poke|p2|Ninetales-Alola, L50, M|
+|poke|p2|Blaziken, L50, M|
+|poke|p2|Venusaur, L50, M, shiny|
+|poke|p2|Mudsdale, L50, F|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Dragonite, L50, M|
+|teampreview|4
+|showteam|p1|Tyranitar||Tyranitarite|SandStream|RockSlide,KnockOff,LowKick,Protect|Jolly||M|||50|]Excadrill||FocusSash|SandRush|HighHorsepower,IronHead,RockSlide,Protect|Adamant||F|||50|]Gholdengo||LifeOrb|GoodasGold|ShadowBall,MakeItRain,NastyPlot,Protect|Modest|||||50|]Milotic||Leftovers|Competitive|Scald,Recover,IcyWind,Protect|Calm||M|||50|]Sinistcha||ColburBerry|Hospitality|MatchaGotcha,EnergyBall,RagePowder,Protect|Bold|||||50|]Staraptor||Staraptite|Intimidate|CloseCombat,BraveBird,Tailwind,Protect|Jolly||F|||50|
+|showteam|p2|Ninetales-Alola||FocusSash|SnowWarning|Blizzard,FreezeDry,Protect,AuroraVeil|Timid||M|||50|]Blaziken||Blazikenite|SpeedBoost|Protect,FlareBlitz,CloseCombat,RockSlide|Adamant||M|||50|]Venusaur||Venusaurite|Chlorophyll|SludgeBomb,GigaDrain,Protect,EarthPower|Modest||M|||50|]Mudsdale||SitrusBerry|InnerFocus|Earthquake,Curse,Protect,HeavySlam|Sassy||F|||50|]Kingambit||ChopleBerry|Defiant|SuckerPunch,LowKick,IronHead,KowtowCleave|Adamant||M|||50|]Dragonite||WhiteHerb|InnerFocus|ExtremeSpeed,Superpower,Protect,DragonClaw|Adamant||M|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by testdigi)
+|
+|t:|1785346810
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Milotic|Milotic, L50, M, shiny|100/100
+|switch|p1b: Staraptor|Staraptor, L50, F|100/100
+|switch|p2a: Blaziken|Blaziken, L50, M|100/100
+|switch|p2b: Dragonite|Dragonite, L50, M|100/100
+|-ability|p1b: Staraptor|Intimidate|boost
+|-unboost|p2a: Blaziken|atk|1
+|-fail|p2b: Dragonite|unboost|Attack|[from] ability: Inner Focus|[of] p2b: Dragonite
+|turn|1
+|inactive|Toxapqex has 30 seconds left.
+|inactive|Toxapqex has 20 seconds left.
+|inactive|Toxapqex has 15 seconds left.
+|
+|t:|1785346854
+|switch|p2a: Kingambit|Kingambit, L50, M|100/100
+|detailschange|p1b: Staraptor|Staraptor-Mega, L50, F
+|-mega|p1b: Staraptor|Staraptor|Staraptite
+|move|p1b: Staraptor|Close Combat|p2a: Kingambit
+|-supereffective|p2a: Kingambit|2
+|-crit|p2a: Kingambit
+|-enditem|p2a: Kingambit|Chople Berry|[eat]
+|-enditem|p2a: Kingambit|Chople Berry|[weaken]
+|-damage|p2a: Kingambit|0 fnt
+|-boost|p1b: Staraptor|def|1
+|-boost|p1b: Staraptor|spd|1
+|faint|p2a: Kingambit
+|move|p2b: Dragonite|Dragon Claw|p1b: Staraptor
+|-damage|p1b: Staraptor|71/100
+|move|p1a: Milotic|Icy Wind|p2b: Dragonite
+|-supereffective|p2b: Dragonite|2
+|-damage|p2b: Dragonite|44/100
+|-unboost|p2b: Dragonite|spe|1
+|-enditem|p2b: Dragonite|White Herb
+|-clearnegativeboost|p2b: Dragonite|[silent]
+|
+|upkeep
+|
+|t:|1785346877
+|switch|p2a: Ninetales|Ninetales-Alola, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|2
+|
+|t:|1785346893
+|move|p1b: Staraptor|Protect|p1b: Staraptor
+|-singleturn|p1b: Staraptor|Protect
+|move|p2b: Dragonite|Protect|p2b: Dragonite
+|-singleturn|p2b: Dragonite|Protect
+|move|p2a: Ninetales|Blizzard|p1b: Staraptor|[spread] p1a
+|-activate|p1b: Staraptor|move: Protect
+|-resisted|p1a: Milotic|1
+|-damage|p1a: Milotic|90/100
+|move|p1a: Milotic|Icy Wind|p2a: Ninetales|[spread] p2a
+|-activate|p2b: Dragonite|move: Protect
+|-resisted|p2a: Ninetales|1
+|-damage|p2a: Ninetales|94/100
+|-unboost|p2a: Ninetales|spe|1
+|
+|-weather|Snowscape|[upkeep]
+|-heal|p1a: Milotic|96/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1785346917
+|switch|p1b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|switch|p2b: Blaziken|Blaziken, L50, M|100/100
+|move|p2a: Ninetales|Protect|p2a: Ninetales
+|-singleturn|p2a: Ninetales|Protect
+|move|p1a: Milotic|Scald|p2a: Ninetales
+|-activate|p2a: Ninetales|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Blaziken|94/100|[from] Sandstorm
+|-damage|p2a: Ninetales|88/100|[from] Sandstorm
+|-damage|p1a: Milotic|90/100|[from] Sandstorm
+|-heal|p1a: Milotic|96/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|inactive|Toxapqex has 30 seconds left.
+|
+|t:|1785346944
+|detailschange|p2b: Blaziken|Blaziken-Mega, L50, M
+|-mega|p2b: Blaziken|Blaziken|Blazikenite
+|move|p1b: Tyranitar|Protect|p1b: Tyranitar
+|-singleturn|p1b: Tyranitar|Protect
+|move|p2b: Blaziken|Close Combat|p1a: Milotic
+|-damage|p1a: Milotic|25/100
+|-unboost|p2b: Blaziken|def|1
+|-unboost|p2b: Blaziken|spd|1
+|move|p2a: Ninetales|Freeze-Dry|p1a: Milotic
+|-supereffective|p1a: Milotic|1
+|-damage|p1a: Milotic|0 fnt
+|faint|p1a: Milotic
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Blaziken|88/100|[from] Sandstorm
+|-damage|p2a: Ninetales|82/100|[from] Sandstorm
+|-ability|p2b: Blaziken|Speed Boost|boost
+|-boost|p2b: Blaziken|spe|1
+|upkeep
+|
+|t:|1785346954
+|switch|p1a: Excadrill|Excadrill, L50, F|100/100
+|turn|5
+|
+|t:|1785346975
+|switch|p2a: Dragonite|Dragonite, L50, M|44/100
+|move|p2b: Blaziken|Protect|p2b: Blaziken
+|-singleturn|p2b: Blaziken|Protect
+|move|p1a: Excadrill|Iron Head|p2a: Dragonite
+|-damage|p2a: Dragonite|0 fnt
+|faint|p2a: Dragonite
+|move|p1b: Tyranitar|Rock Slide|p2b: Blaziken
+|-activate|p2b: Blaziken|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Blaziken|82/100|[from] Sandstorm
+|-ability|p2b: Blaziken|Speed Boost|boost
+|-boost|p2b: Blaziken|spe|1
+|upkeep
+|
+|t:|1785346984
+|switch|p2a: Ninetales|Ninetales-Alola, L50, M|82/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Ninetales
+|turn|6
+|
+|t:|1785347005
+|switch|p1b: Staraptor|Staraptor-Mega, L50, F|71/100
+|move|p1a: Excadrill|Protect|p1a: Excadrill
+|-singleturn|p1a: Excadrill|Protect
+|move|p2b: Blaziken|Flare Blitz|p1a: Excadrill
+|-activate|p1a: Excadrill|move: Protect
+|move|p2a: Ninetales|Blizzard|p1a: Excadrill|[spread] p1b
+|-activate|p1a: Excadrill|move: Protect
+|-supereffective|p1b: Staraptor|1
+|-damage|p1b: Staraptor|11/100
+|
+|-weather|Snowscape|[upkeep]
+|-ability|p2b: Blaziken|Speed Boost|boost
+|-boost|p2b: Blaziken|spe|1
+|upkeep
+|turn|7
+|inactive|Toxapqex has 30 seconds left.
+|inactive|testdigi has 30 seconds left.
+|inactive|Toxapqex has 20 seconds left.
+|inactive|Toxapqex has 15 seconds left.
+|inactive|testdigi has 20 seconds left.
+|inactive|Toxapqex has 10 seconds left.
+|
+|t:|1785347054
+|switch|p1b: Tyranitar|Tyranitar, L50, M|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Tyranitar
+|move|p2b: Blaziken|Flare Blitz|p1a: Excadrill
+|-supereffective|p1a: Excadrill|1
+|-enditem|p1a: Excadrill|Focus Sash
+|-damage|p1a: Excadrill|1/100
+|-damage|p2b: Blaziken|43/100|[from] Recoil
+|move|p1a: Excadrill|Iron Head|p2a: Ninetales
+|-supereffective|p2a: Ninetales|2
+|-damage|p2a: Ninetales|0 fnt
+|faint|p2a: Ninetales
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Blaziken|38/100|[from] Sandstorm
+|-ability|p2b: Blaziken|Speed Boost|boost
+|-boost|p2b: Blaziken|spe|1
+|upkeep
+|turn|8
+|
+|t:|1785347073
+|move|p2b: Blaziken|Rock Slide|p1a: Excadrill|[spread] p1a,p1b
+|-resisted|p1a: Excadrill|2
+|-damage|p1a: Excadrill|0 fnt
+|-damage|p1b: Tyranitar|77/100
+|faint|p1a: Excadrill
+|cant|p1b: Tyranitar|flinch
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Blaziken|32/100|[from] Sandstorm
+|-ability|p2b: Blaziken|Speed Boost|boost
+|-boost|p2b: Blaziken|spe|1
+|upkeep
+|
+|t:|1785347076
+|switch|p1a: Staraptor|Staraptor-Mega, L50, F|11/100
+|turn|9
+|
+|t:|1785347090
+|move|p2b: Blaziken|Rock Slide|p1b: Tyranitar|[spread] p1a,p1b
+|-damage|p1a: Staraptor|0 fnt
+|-damage|p1b: Tyranitar|56/100
+|faint|p1a: Staraptor
+|move|p1b: Tyranitar|Rock Slide|p2b: Blaziken
+|-damage|p2b: Blaziken|0 fnt
+|faint|p2b: Blaziken
+|
+|win|testdigi
+||testdigi is ready for game 3.
+|inactive|Toxapqex has 30 seconds to confirm battle start!
+||Toxapqex is ready for game 3.
+|uhtml|next|Next: Game 3 of 3

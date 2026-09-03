@@ -1,0 +1,144 @@
+|j|☆vpandur
+|j|☆xysting
+|html|vpandurxysting    
+|uhtml|bestof|Game 3 of a best-of-3
+|t:|1785267904
+|gametype|doubles
+|player|p1|vpandur|102|
+|player|p2|xysting|169|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gardevoir, L50, F|
+|poke|p1|Talonflame, L50, M|
+|poke|p1|Maushold, L50|
+|poke|p1|Kommo-o, L50, M|
+|poke|p1|Weavile, L50, M|
+|poke|p1|Gengar, L50, F|
+|poke|p2|Metagross, L50|
+|poke|p2|Excadrill, L50, M|
+|poke|p2|Mamoswine, L50, M|
+|poke|p2|Raichu, L50, M|
+|poke|p2|Charizard, L50, M|
+|poke|p2|Abomasnow, L50, M|
+|teampreview|4
+|showteam|p1|Gardevoir||Gardevoirite|Trace|HyperVoice,Protect,Psychic,VacuumWave|Timid||F|||50|]Talonflame||SharpBeak|GaleWings|BraveBird,FlareBlitz,Protect,Tailwind|Adamant||M|||50|]Maushold||SitrusBerry|FriendGuard|FollowMe,Protect,SuperFang,Encore|Timid|||||50|]Kommo-o||Leftovers|Overcoat|AuraSphere,ClangingScales,ClangorousSoul,Protect|Timid||M|||50|]Weavile||FocusSash|Pickpocket|FakeOut,Protect,TripleAxel,KnockOff|Jolly||M|||50|]Gengar||LifeOrb|CursedBody|ShadowBall,Protect,SludgeBomb,Disable|Timid||F|||50|
+|showteam|p2|Metagross||Metagrossite|ClearBody|Earthquake,BodySlam,HammerArm,IcePunch|Adamant|||||50|]Excadrill||Excadrite|SandRush|FocusBlast,IronHead,RockBlast,ThroatChop|Adamant||M|||50|]Mamoswine||FocusSash|Oblivious|Avalanche,HeavySlam,IcicleSpear,Trailblaze|Careful||M|||50|]Raichu||ChoiceScarf|Static|Facade,DrainingKiss,FocusBlast,Thunder|Gentle||M|||50|]Charizard||Leftovers|Blaze|AirSlash,DragonClaw,FlareBlitz,IronTail|Hasty||M|||50|]Abomasnow||MentalHerb|SnowWarning|GigaDrain,WeatherBall,BodySlam,IceBeam|Quiet||M|||50|
+|
+|t:|1785267925
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Gengar|Gengar, L50, F|100/100
+|switch|p1b: Weavile|Weavile, L50, M|100/100
+|switch|p2a: Raichu|Raichu, L50, M|100/100
+|switch|p2b: Excadrill|Excadrill, L50, M|100/100
+|turn|1
+|
+|t:|1785267948
+|move|p1b: Weavile|Fake Out|p2a: Raichu
+|-damage|p2a: Raichu|77/100
+|cant|p2a: Raichu|flinch
+|move|p1a: Gengar|Shadow Ball|p2a: Raichu
+|-damage|p2a: Raichu|28/100
+|-damage|p1a: Gengar|90/100|[from] item: Life Orb
+|move|p2b: Excadrill|Throat Chop|p1a: Gengar
+|-supereffective|p1a: Gengar|1
+|-damage|p1a: Gengar|0 fnt
+|faint|p1a: Gengar
+|
+|upkeep
+|
+|t:|1785267960
+|switch|p1a: Maushold|Maushold, L50|100/100
+|turn|2
+|
+|t:|1785267983
+|move|p1a: Maushold|Follow Me|p1a: Maushold
+|-singleturn|p1a: Maushold|move: Follow Me
+|move|p2a: Raichu|Focus Blast|p1a: Maushold
+|-supereffective|p1a: Maushold|1
+|-damage|p1a: Maushold|30/100
+|-enditem|p1a: Maushold|Sitrus Berry|[eat]
+|-heal|p1a: Maushold|55/100|[from] item: Sitrus Berry
+|move|p1b: Weavile|Knock Off|p2a: Raichu
+|-damage|p2a: Raichu|0 fnt
+|-status|p1b: Weavile|par|[from] ability: Static|[of] p2a: Raichu
+|-enditem|p2a: Raichu|Choice Scarf|[from] move: Knock Off|[of] p1b: Weavile
+|faint|p2a: Raichu
+|move|p2b: Excadrill|Focus Blast|p1a: Maushold
+|-supereffective|p1a: Maushold|1
+|-damage|p1a: Maushold|17/100
+|
+|upkeep
+|
+|t:|1785267999
+|switch|p2a: Charizard|Charizard, L50, M|100/100
+|turn|3
+|
+|t:|1785268027
+|move|p1a: Maushold|Follow Me|p1a: Maushold
+|-singleturn|p1a: Maushold|move: Follow Me
+|move|p2a: Charizard|Iron Tail|p1a: Maushold|[miss]
+|-miss|p2a: Charizard|p1a: Maushold
+|move|p2b: Excadrill|Focus Blast|p1a: Maushold
+|-supereffective|p1a: Maushold|1
+|-damage|p1a: Maushold|0 fnt
+|faint|p1a: Maushold
+|move|p1b: Weavile|Triple Axel|p2a: Charizard
+|-damage|p2a: Charizard|84/100
+|-damage|p2a: Charizard|54/100
+|-damage|p2a: Charizard|8/100
+|-hitcount|p2a: Charizard|3
+|
+|-heal|p2a: Charizard|14/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1785268042
+|switch|p1a: Talonflame|Talonflame, L50, M|100/100
+|turn|4
+|
+|t:|1785268057
+|move|p1a: Talonflame|Flare Blitz|p2b: Excadrill
+|-supereffective|p2b: Excadrill|1
+|-damage|p2b: Excadrill|0 fnt
+|faint|p2b: Excadrill
+|-damage|p1a: Talonflame|54/100|[from] Recoil
+|move|p2a: Charizard|Flare Blitz|p1b: Weavile
+|-supereffective|p1b: Weavile|1
+|-enditem|p1b: Weavile|Focus Sash
+|-damage|p1b: Weavile|1/100 par
+|-damage|p2a: Charizard|0 fnt|[from] Recoil
+|-enditem|p2a: Charizard|Leftovers|[silent]|[from] ability: Pickpocket|[of] p2a: Charizard
+|-item|p1b: Weavile|Leftovers|[from] ability: Pickpocket|[of] p2a: Charizard
+|faint|p2a: Charizard
+|move|p1b: Weavile|Knock Off|p2: Charizard|[notarget]
+|-fail|p1b: Weavile
+|
+|-heal|p1b: Weavile|6/100 par|[from] item: Leftovers
+|upkeep
+|
+|t:|1785268076
+|switch|p2b: Metagross|Metagross, L50|100/100
+|turn|5
+|
+|t:|1785268105
+|detailschange|p2b: Metagross|Metagross-Mega, L50
+|-mega|p2b: Metagross|Metagross|Metagrossite
+|move|p1a: Talonflame|Flare Blitz|p2b: Metagross
+|-supereffective|p2b: Metagross|1
+|-damage|p2b: Metagross|28/100
+|-damage|p1a: Talonflame|26/100|[from] Recoil
+|move|p2b: Metagross|Hammer Arm|p1a: Talonflame
+|-resisted|p1a: Talonflame|1
+|-damage|p1a: Talonflame|0 fnt
+|-unboost|p2b: Metagross|spe|1
+|faint|p1a: Talonflame
+|move|p1b: Weavile|Knock Off|p2b: Metagross
+|-supereffective|p2b: Metagross|1
+|-damage|p2b: Metagross|0 fnt
+|faint|p2b: Metagross
+|
+|win|vpandur

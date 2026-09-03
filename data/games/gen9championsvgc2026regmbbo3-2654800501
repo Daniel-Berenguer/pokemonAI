@@ -1,0 +1,174 @@
+|j|☆dapmagikarp
+|j|☆palle synchro
+|html|dapmagikarppalle synchro    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1785011643
+|gametype|doubles
+|player|p1|dapmagikarp|sada-ai|1436
+|player|p2|palle synchro|volkner|1479
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Gengar, L50, M, shiny|
+|poke|p1|Archaludon, L50, M|
+|poke|p1|Politoed, L50, M|
+|poke|p1|Swampert, L50, M, shiny|
+|poke|p1|Vivillon, L50, F, shiny|
+|poke|p1|Incineroar, L50, F|
+|poke|p2|Incineroar, L50, F, shiny|
+|poke|p2|Gengar, L50, F, shiny|
+|poke|p2|Ninetales-Alola, L50, F, shiny|
+|poke|p2|Volcarona, L50, F, shiny|
+|poke|p2|Kommo-o, L50, F|
+|poke|p2|Raichu, L50, F|
+|teampreview|4
+|showteam|p1|Gengar||Gengarite|CursedBody|ShadowBall,SludgeBomb,PerishSong,Protect|Modest||M|||50|]Archaludon||Leftovers|Stamina|ElectroShot,DragonPulse,FlashCannon,Protect|Bold||M|||50|]Politoed||SitrusBerry|Drizzle|WeatherBall,Hypnosis,PerishSong,Protect|Calm||M|||50|]Swampert||Swampertite|Torrent|WaveCrash,Earthquake,IcePunch,Protect|Adamant||M|||50|]Vivillon||FocusSash|CompoundEyes|Hurricane,SleepPowder,RagePowder,Protect|Timid||F|||50|]Incineroar||PasshoBerry|Intimidate|ThroatChop,FakeOut,PartingShot,Protect|Impish||F|||50|
+|showteam|p2|Incineroar||PasshoBerry|Intimidate|FlareBlitz,ThroatChop,FakeOut,PartingShot|Adamant||F|||50|]Gengar||Gengarite|CursedBody|SludgeBomb,ShadowBall,Substitute,Protect|Modest||F|||50|]Ninetales-Alola||ChoiceScarf|SnowWarning|Blizzard,FreezeDry,IcyWind,Moonblast|Timid||F|||50|]Volcarona||SitrusBerry|FlameBody|Flamethrower,StruggleBug,RagePowder,Protect|Bold||F|||50|]Kommo-o||Leftovers|Soundproof|ClangingScales,AuraSphere,ClangorousSoul,Protect|Modest||F|||50|]Raichu||RaichuniteX|LightningRod|VoltTackle,VoltSwitch,FakeOut,Protect|Jolly||F|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by dapmagikarp)
+|
+|t:|1785011665
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Swampert|Swampert, L50, M, shiny|100/100
+|switch|p1b: Vivillon|Vivillon, L50, F, shiny|100/100
+|switch|p2a: Gengar|Gengar, L50, F, shiny|100/100
+|switch|p2b: Incineroar|Incineroar, L50, F, shiny|100/100
+|-ability|p2b: Incineroar|Intimidate|boost
+|-unboost|p1a: Swampert|atk|1
+|-unboost|p1b: Vivillon|atk|1
+|turn|1
+|
+|t:|1785011686
+|detailschange|p2a: Gengar|Gengar-Mega, L50, F, shiny
+|-mega|p2a: Gengar|Gengar|Gengarite
+|detailschange|p1a: Swampert|Swampert-Mega, L50, M, shiny
+|-mega|p1a: Swampert|Swampert|Swampertite
+|move|p2b: Incineroar|Fake Out|p1a: Swampert
+|-damage|p1a: Swampert|88/100
+|move|p2a: Gengar|Substitute|p2a: Gengar
+|-start|p2a: Gengar|Substitute
+|-damage|p2a: Gengar|75/100
+|move|p1b: Vivillon|Sleep Powder|p2b: Incineroar
+|-status|p2b: Incineroar|slp|[from] move: Sleep Powder
+|cant|p1a: Swampert|flinch
+|
+|upkeep
+|turn|2
+|
+|t:|1785011701
+|switch|p2b: Ninetales|Ninetales-Alola, L50, F, shiny|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2b: Ninetales
+|move|p2a: Gengar|Protect|p2a: Gengar
+|-singleturn|p2a: Gengar|Protect
+|move|p1b: Vivillon|Hurricane|p2a: Gengar
+|-activate|p2a: Gengar|move: Protect
+|move|p1a: Swampert|Earthquake|p2b: Ninetales|[spread] p2b
+|-activate|p2a: Gengar|move: Protect
+|-immune|p1b: Vivillon
+|-damage|p2b: Ninetales|67/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|turn|3
+|
+|t:|1785011722
+|move|p1b: Vivillon|Rage Powder|p1b: Vivillon
+|-singleturn|p1b: Vivillon|move: Rage Powder
+|move|p2b: Ninetales|Freeze-Dry|p1b: Vivillon
+|-supereffective|p1b: Vivillon|1
+|-enditem|p1b: Vivillon|Focus Sash
+|-damage|p1b: Vivillon|1/100
+|move|p2a: Gengar|Sludge Bomb|p1b: Vivillon
+|-damage|p1b: Vivillon|0 fnt
+|faint|p1b: Vivillon
+|move|p1a: Swampert|Earthquake|p2a: Gengar|[spread] p2a,p2b
+|-supereffective|p2a: Gengar|1
+|-end|p2a: Gengar|Substitute
+|-damage|p2b: Ninetales|36/100
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1785011736
+|switch|p1b: Politoed|Politoed, L50, M|100/100
+|-weather|RainDance|[from] ability: Drizzle|[of] p1b: Politoed
+|turn|4
+|
+|t:|1785011752
+|move|p2b: Ninetales|Freeze-Dry|p1a: Swampert
+|-supereffective|p1a: Swampert|2
+|-damage|p1a: Swampert|0 fnt
+|faint|p1a: Swampert
+|move|p2a: Gengar|Sludge Bomb|p1b: Politoed
+|-damage|p1b: Politoed|57/100
+|move|p1b: Politoed|Weather Ball|p2a: Gengar
+|-damage|p2a: Gengar|29/100
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|
+|t:|1785011755
+|switch|p1a: Archaludon|Archaludon, L50, M|100/100
+|turn|5
+|
+|t:|1785011770
+|move|p1b: Politoed|Protect|p1b: Politoed
+|-singleturn|p1b: Politoed|Protect
+|move|p2b: Ninetales|Freeze-Dry|p1b: Politoed
+|-activate|p1b: Politoed|move: Protect
+|move|p2a: Gengar|Shadow Ball|p1a: Archaludon
+|-damage|p1a: Archaludon|55/100
+|-ability|p1a: Archaludon|Stamina|boost
+|-boost|p1a: Archaludon|def|1
+|move|p1a: Archaludon|Electro Shot||[still]
+|-prepare|p1a: Archaludon|Electro Shot
+|-boost|p1a: Archaludon|spa|1
+|-anim|p1a: Archaludon|Electro Shot|p2b: Ninetales
+|-damage|p2b: Ninetales|0 fnt
+|faint|p2b: Ninetales
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Archaludon|61/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1785011778
+|switch|p2b: Kommo-o|Kommo-o, L50, F|100/100
+|turn|6
+|
+|t:|1785011786
+|move|p1a: Archaludon|Protect|p1a: Archaludon
+|-singleturn|p1a: Archaludon|Protect
+|move|p2a: Gengar|Sludge Bomb|p1b: Politoed
+|-damage|p1b: Politoed|15/100
+|-enditem|p1b: Politoed|Sitrus Berry|[eat]
+|-heal|p1b: Politoed|40/100|[from] item: Sitrus Berry
+|move|p2b: Kommo-o|Aura Sphere|p1a: Archaludon
+|-activate|p1a: Archaludon|move: Protect
+|move|p1b: Politoed|Hypnosis|p2b: Kommo-o|[miss]
+|-miss|p1b: Politoed|p2b: Kommo-o
+|
+|-weather|RainDance|[upkeep]
+|-heal|p1a: Archaludon|67/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1785011801
+|move|p2a: Gengar|Sludge Bomb|p1b: Politoed
+|-damage|p1b: Politoed|2/100
+|move|p2b: Kommo-o|Aura Sphere|p1a: Archaludon
+|-supereffective|p1a: Archaludon|1
+|-damage|p1a: Archaludon|0 fnt
+|faint|p1a: Archaludon
+|move|p1b: Politoed|Weather Ball|p2a: Gengar
+|-damage|p2a: Gengar|0 fnt
+|faint|p2a: Gengar
+|
+|-weather|RainDance|[upkeep]
+|upkeep
+|-message|dapmagikarp forfeited.
+|
+|win|palle synchro

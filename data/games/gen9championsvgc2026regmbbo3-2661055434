@@ -1,0 +1,120 @@
+|j|☆chuwayo
+|j|☆Usernamecdat
+|html|chuwayoUsernamecdat    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1786068115
+|gametype|doubles
+|player|p1|chuwayo|102|1166
+|player|p2|Usernamecdat|170|1000
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Scovillain, L50, F|
+|poke|p1|Gholdengo, L50|
+|poke|p1|Sylveon, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p1|Kommo-o, L50, M|
+|poke|p1|Aerodactyl, L50, F|
+|poke|p2|Garchomp, L50, F|
+|poke|p2|Noivern, L50, M|
+|poke|p2|Charizard, L50, F|
+|poke|p2|Salazzle, L50, F|
+|poke|p2|Staraptor, L50, F, shiny|
+|poke|p2|Grimmsnarl, L50, M|
+|teampreview|4
+|showteam|p1|Scovillain||Scovillainite|Moody|Overheat,GigaDrain,RagePowder,Protect|Calm||F|||50|]Gholdengo||LifeOrb|GoodasGold|MakeItRain,ShadowBall,NastyPlot,Protect|Modest|||||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,HyperBeam,QuickAttack,Protect|Modest||F|||50|]Basculegion||ChoiceScarf|Adaptability|WaveCrash,LastRespects,AquaJet,FlipTurn|Jolly||M|||50|]Kommo-o||Leftovers|Overcoat|ClangingScales,AuraSphere,ClangorousSoul,Protect|Timid||M|||50|]Aerodactyl||Aerodactylite|Unnerve|RockSlide,DualWingbeat,Tailwind,Protect|Jolly||F|||50|
+|showteam|p2|Garchomp||ScopeLens|RoughSkin|Earthquake,DragonClaw,Protect,PoisonJab|Jolly||F|||50|]Noivern||ChoiceScarf|Frisk|HyperVoice,DragonCheer,DragonPulse,Uturn|Modest||M|||50|]Charizard||CharizarditeX|Blaze|DragonDance,DragonClaw,FlareBlitz,Protect|Adamant||F|||50|]Salazzle||FocusSash|Corrosion|FakeOut,DragonCheer,SludgeWave,Protect|Timid||F|||50|]Staraptor||Staraptite|Intimidate|CloseCombat,Roost,BraveBird,Protect|Careful||F|||50|]Grimmsnarl||LightClay|Prankster|LightScreen,PartingShot,ScaryFace,SpiritBreak|Careful||M|||50|
+|
+|t:|1786068158
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|switch|p1b: Gholdengo|Gholdengo, L50|100/100
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|switch|p2b: Noivern|Noivern, L50, M|100/100
+|-item|p1a: Basculegion|Choice Scarf|[from] ability: Frisk|[of] p2b: Noivern
+|-item|p1b: Gholdengo|Life Orb|[from] ability: Frisk|[of] p2b: Noivern
+|turn|1
+|
+|t:|1786068183
+|move|p2a: Garchomp|Protect|p2a: Garchomp
+|-singleturn|p2a: Garchomp|Protect
+|move|p1b: Gholdengo|Protect|p1b: Gholdengo
+|-singleturn|p1b: Gholdengo|Protect
+|move|p2b: Noivern|Dragon Cheer|p2a: Garchomp
+|-start|p2a: Garchomp|move: Dragon Cheer
+|move|p1a: Basculegion|Flip Turn|p2a: Garchomp
+|-activate|p2a: Garchomp|move: Protect
+|
+|upkeep
+|turn|2
+|
+|t:|1786068205
+|switch|p2b: Staraptor|Staraptor, L50, F, shiny|100/100
+|-ability|p2b: Staraptor|Intimidate|boost
+|-unboost|p1a: Basculegion|atk|1
+|-unboost|p1b: Gholdengo|atk|1
+|switch|p1b: Sylveon|Sylveon, L50, F|100/100
+|move|p1a: Basculegion|Flip Turn|p2a: Garchomp
+|-damage|p2a: Garchomp|72/100
+|-damage|p1a: Basculegion|87/100|[from] ability: Rough Skin|[of] p2a: Garchomp
+|
+|t:|1786068209
+|switch|p1a: Aerodactyl|Aerodactyl, L50, F|100/100|[from] Flip Turn
+|-ability|p1a: Aerodactyl|Unnerve
+|move|p2a: Garchomp|Earthquake|p1b: Sylveon|[spread] p1b
+|-immune|p2b: Staraptor
+|-immune|p1a: Aerodactyl
+|-crit|p1b: Sylveon
+|-damage|p1b: Sylveon|39/100
+|
+|upkeep
+|turn|3
+|
+|t:|1786068233
+|detailschange|p1a: Aerodactyl|Aerodactyl-Mega, L50, F
+|-mega|p1a: Aerodactyl|Aerodactyl|Aerodactylite
+|detailschange|p2b: Staraptor|Staraptor-Mega, L50, F, shiny
+|-mega|p2b: Staraptor|Staraptor|Staraptite
+|move|p1a: Aerodactyl|Tailwind|p1a: Aerodactyl
+|-sidestart|p1: chuwayo|move: Tailwind
+|move|p1b: Sylveon|Hyper Voice|p2a: Garchomp|[spread] p2a,p2b
+|-supereffective|p2a: Garchomp|1
+|-supereffective|p2b: Staraptor|1
+|-damage|p2a: Garchomp|0 fnt
+|-damage|p2b: Staraptor|8/100
+|faint|p2a: Garchomp
+|move|p2b: Staraptor|Close Combat|p1a: Aerodactyl
+|-damage|p1a: Aerodactyl|20/100y
+|-boost|p2b: Staraptor|def|1
+|-boost|p2b: Staraptor|spd|1
+|
+|upkeep
+|
+|t:|1786068258
+|switch|p2a: Grimmsnarl|Grimmsnarl, L50, M|100/100
+|turn|4
+|
+|t:|1786068272
+|move|p2a: Grimmsnarl|Scary Face|p2b: Staraptor
+|-boost|p2b: Staraptor|spe|2
+|move|p1a: Aerodactyl|Rock Slide|p2a: Grimmsnarl|[spread] p2a,p2b
+|-damage|p2a: Grimmsnarl|74/100
+|-damage|p2b: Staraptor|0 fnt
+|faint|p2b: Staraptor
+|move|p1b: Sylveon|Hyper Voice|p2a: Grimmsnarl
+|-supereffective|p2a: Grimmsnarl|1
+|-crit|p2a: Grimmsnarl
+|-damage|p2a: Grimmsnarl|0 fnt
+|faint|p2a: Grimmsnarl
+|
+|upkeep
+|-message|Usernamecdat forfeited.
+|raw|chuwayo's rating: 1166 → 1180(+14 for winning)
+|raw|Usernamecdat's rating: 1000 → 1000(+0 for losing)
+|
+|win|chuwayo

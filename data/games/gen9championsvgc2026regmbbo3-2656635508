@@ -1,0 +1,305 @@
+|j|☆0oBRUNCHo0
+|j|☆ultimatecoward
+|html|0oBRUNCHo0ultimatecoward    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1785329932
+|gametype|doubles
+|player|p1|0oBRUNCHo0|rood|1102
+|player|p2|ultimatecoward|medium|1082
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Aerodactyl, L50, M|
+|poke|p1|Aggron, L50, M, shiny|
+|poke|p1|Kingambit, L50, M|
+|poke|p1|Sneasler, L50, M|
+|poke|p1|Sinistcha-Masterpiece, L50|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Maushold, L50|
+|poke|p2|Sableye, L50, M|
+|poke|p2|Gengar, L50, M|
+|poke|p2|Kingambit, L50, M|
+|poke|p2|Milotic, L50, M|
+|poke|p2|Garchomp, L50, F|
+|teampreview|4
+|showteam|p1|Aerodactyl||Aerodactylite|Unnerve|RockSlide,IceFang,Tailwind,DualWingbeat|Jolly||M|||50|]Aggron||Aggronite|HeavyMetal|BodyPress,HeavySlam,Protect,IronDefense|Sassy||M|||50|]Kingambit||LifeOrb|Defiant|KowtowCleave,SuckerPunch,SwordsDance,Protect|Adamant||M|||50|]Sneasler||FocusSash|PoisonTouch|CloseCombat,PoisonJab,FakeOut,Protect|Jolly||M|||50|]Sinistcha-Masterpiece||ColburBerry|Hospitality|MatchaGotcha,RagePowder,LifeDew,TrickRoom|Calm|||||50|]Incineroar||SitrusBerry|Intimidate|FakeOut,FlareBlitz,ThroatChop,PartingShot|Impish||M|||50|
+|showteam|p2|Maushold||KingsRock|Technician|PopulationBomb,FollowMe,Encore,Protect|Jolly|||||50|]Sableye||Sablenite|Prankster|Gravity,Encore,Disable,RainDance|Sassy||M|||50|]Gengar||Gengarite|CursedBody|Hex,Disable,Hypnosis,Protect|Timid||M|||50|]Kingambit||BlackGlasses|Defiant|KowtowCleave,SuckerPunch,IronHead,LowKick|Adamant||M|||50|]Milotic||Leftovers|Competitive|HydroPump,Hypnosis,Recover,Protect|Bold||M|||50|]Garchomp||ChoiceScarf|RoughSkin|StompingTantrum,RockSlide,DragonClaw,PoisonJab|Jolly||F|||50|
+|
+|t:|1785330012
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Incineroar|Incineroar, L50, M|100/100
+|switch|p1b: Aerodactyl|Aerodactyl, L50, M|100/100
+|switch|p2a: Sableye|Sableye, L50, M|100/100
+|switch|p2b: Gengar|Gengar, L50, M|100/100
+|-ability|p1b: Aerodactyl|Unnerve
+|-ability|p1a: Incineroar|Intimidate|boost
+|-unboost|p2a: Sableye|atk|1
+|-unboost|p2b: Gengar|atk|1
+|turn|1
+|
+|t:|1785330051
+|detailschange|p2b: Gengar|Gengar-Mega, L50, M
+|-mega|p2b: Gengar|Gengar|Gengarite
+|move|p2a: Sableye|Gravity|p2a: Sableye
+|-fieldstart|move: Gravity
+|move|p2b: Gengar|Hypnosis|p1a: Incineroar
+|-status|p1a: Incineroar|slp|[from] move: Hypnosis
+|move|p1b: Aerodactyl|Rock Slide|p2b: Gengar|[spread] p2a,p2b
+|-damage|p2a: Sableye|74/100
+|-damage|p2b: Gengar|74/100
+|cant|p1a: Incineroar|slp
+|
+|upkeep
+|turn|2
+|
+|t:|1785330089
+|switch|p2a: Milotic|Milotic, L50, M|100/100
+|detailschange|p1b: Aerodactyl|Aerodactyl-Mega, L50, M
+|-mega|p1b: Aerodactyl|Aerodactyl|Aerodactylite
+|move|p1b: Aerodactyl|Rock Slide|p2a: Milotic|[spread] p2a,p2b
+|-damage|p2a: Milotic|80/100
+|-damage|p2b: Gengar|43/100
+|move|p2b: Gengar|Hypnosis|p1b: Aerodactyl
+|-status|p1b: Aerodactyl|slp|[from] move: Hypnosis
+|cant|p1a: Incineroar|slp
+|
+|-heal|p2a: Milotic|86/100|[from] item: Leftovers
+|upkeep
+|turn|3
+|
+|t:|1785330127
+|move|p2b: Gengar|Protect|p2b: Gengar
+|-singleturn|p2b: Gengar|Protect
+|cant|p1b: Aerodactyl|slp
+|move|p2a: Milotic|Hydro Pump|p1a: Incineroar
+|-supereffective|p1a: Incineroar|1
+|-damage|p1a: Incineroar|19/100 slp
+|-enditem|p1a: Incineroar|Sitrus Berry|[eat]
+|-heal|p1a: Incineroar|44/100 slp|[from] item: Sitrus Berry
+|-curestatus|p1a: Incineroar|slp|[msg]
+|move|p1a: Incineroar|Throat Chop|p2b: Gengar
+|-activate|p2b: Gengar|move: Protect
+|
+|-heal|p2a: Milotic|92/100|[from] item: Leftovers
+|upkeep
+|turn|4
+|
+|t:|1785330160
+|cant|p1b: Aerodactyl|slp
+|move|p2b: Gengar|Hypnosis|p1a: Incineroar
+|-status|p1a: Incineroar|slp|[from] move: Hypnosis
+|move|p2a: Milotic|Hydro Pump|p1b: Aerodactyl
+|-supereffective|p1b: Aerodactyl|1
+|-damage|p1b: Aerodactyl|17/100 slp
+|cant|p1a: Incineroar|slp
+|
+|-heal|p2a: Milotic|98/100|[from] item: Leftovers
+|upkeep
+|turn|5
+|
+|t:|1785330180
+|move|p2b: Gengar|Protect|p2b: Gengar
+|-singleturn|p2b: Gengar|Protect
+|-curestatus|p1b: Aerodactyl|slp|[msg]
+|move|p1b: Aerodactyl|Rock Slide|p2b: Gengar|[spread] p2a
+|-activate|p2b: Gengar|move: Protect
+|-damage|p2a: Milotic|78/100
+|cant|p2a: Milotic|flinch
+|cant|p1a: Incineroar|slp
+|
+|-heal|p2a: Milotic|84/100|[from] item: Leftovers
+|-fieldend|move: Gravity
+|upkeep
+|turn|6
+|
+|t:|1785330216
+|switch|p2b: Garchomp|Garchomp, L50, F|100/100
+|move|p1b: Aerodactyl|Rock Slide|p2a: Milotic|[spread] p2a,p2b
+|-resisted|p2b: Garchomp|1
+|-damage|p2a: Milotic|63/100
+|-damage|p2b: Garchomp|87/100
+|cant|p2a: Milotic|flinch
+|-curestatus|p1a: Incineroar|slp|[msg]
+|move|p1a: Incineroar|Flare Blitz|p2b: Garchomp
+|-resisted|p2b: Garchomp|1
+|-damage|p2b: Garchomp|65/100
+|-damage|p1a: Incineroar|32/100|[from] ability: Rough Skin|[of] p2b: Garchomp
+|-damage|p1a: Incineroar|25/100|[from] Recoil
+|
+|-heal|p2a: Milotic|69/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1785330262
+|switch|p2a: Sableye|Sableye, L50, M|74/100
+|switch|p1a: Sinistcha|Sinistcha-Masterpiece, L50|100/100
+|-heal|p1b: Aerodactyl|42/100|[from] ability: Hospitality|[of] p1a: Sinistcha
+|move|p2b: Garchomp|Stomping Tantrum|p1a: Sinistcha
+|-resisted|p1a: Sinistcha|1
+|-damage|p1a: Sinistcha|83/100
+|move|p1b: Aerodactyl|Ice Fang|p2b: Garchomp
+|-supereffective|p2b: Garchomp|2
+|-damage|p2b: Garchomp|0 fnt
+|-damage|p1b: Aerodactyl|30/100|[from] ability: Rough Skin|[of] p2b: Garchomp
+|faint|p2b: Garchomp
+|
+|upkeep
+|
+|t:|1785330281
+|switch|p2b: Gengar|Gengar-Mega, L50, M|43/100
+|turn|8
+|
+|t:|1785330305
+|move|p2b: Gengar|Protect|p2b: Gengar
+|-singleturn|p2b: Gengar|Protect
+|move|p1a: Sinistcha|Rage Powder|p1a: Sinistcha
+|-singleturn|p1a: Sinistcha|move: Rage Powder
+|move|p2a: Sableye|Gravity|p2a: Sableye
+|-fieldstart|move: Gravity
+|move|p1b: Aerodactyl|Rock Slide|p2b: Gengar|[spread] p2a
+|-activate|p2b: Gengar|move: Protect
+|-damage|p2a: Sableye|39/100
+|
+|upkeep
+|turn|9
+|
+|t:|1785330322
+|switch|p2a: Milotic|Milotic, L50, M|69/100
+|move|p1a: Sinistcha|Rage Powder|p1a: Sinistcha
+|-singleturn|p1a: Sinistcha|move: Rage Powder
+|move|p1b: Aerodactyl|Rock Slide|p2b: Gengar|[spread] p2a,p2b
+|-damage|p2a: Milotic|49/100
+|-damage|p2b: Gengar|8/100
+|cant|p2b: Gengar|flinch
+|
+|-heal|p2a: Milotic|54/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1785330376
+|move|p2b: Gengar|Protect|p2b: Gengar
+|-singleturn|p2b: Gengar|Protect
+|move|p1b: Aerodactyl|Tailwind|p1b: Aerodactyl
+|-sidestart|p1: 0oBRUNCHo0|move: Tailwind
+|move|p1a: Sinistcha|Matcha Gotcha|p2b: Gengar|[spread] p2a
+|-activate|p2b: Gengar|move: Protect
+|-supereffective|p2a: Milotic|1
+|-damage|p2a: Milotic|21/100
+|-heal|p1a: Sinistcha|100/100|[from] drain|[of] p2a: Milotic
+|move|p2a: Milotic|Recover|p2a: Milotic
+|-heal|p2a: Milotic|71/100
+|
+|-heal|p2a: Milotic|77/100|[from] item: Leftovers
+|upkeep
+|turn|11
+|
+|t:|1785330405
+|switch|p2b: Sableye|Sableye, L50, M|39/100
+|move|p1a: Sinistcha|Rage Powder|p1a: Sinistcha
+|-singleturn|p1a: Sinistcha|move: Rage Powder
+|move|p1b: Aerodactyl|Rock Slide|p2b: Sableye|[spread] p2a,p2b
+|-damage|p2a: Milotic|54/100
+|-damage|p2b: Sableye|4/100
+|move|p2a: Milotic|Hypnosis|p1a: Sinistcha
+|-status|p1a: Sinistcha|slp|[from] move: Hypnosis
+|
+|-heal|p2a: Milotic|60/100|[from] item: Leftovers
+|upkeep
+|turn|12
+|
+|t:|1785330437
+|cant|p1a: Sinistcha|slp
+|move|p2b: Sableye|Disable|p1b: Aerodactyl
+|-start|p1b: Aerodactyl|Disable|Rock Slide
+|cant|p1b: Aerodactyl|Disable|Rock Slide
+|move|p2a: Milotic|Hydro Pump|p1b: Aerodactyl
+|-supereffective|p1b: Aerodactyl|1
+|-damage|p1b: Aerodactyl|0 fnt
+|faint|p1b: Aerodactyl
+|
+|-heal|p2a: Milotic|66/100|[from] item: Leftovers
+|-fieldend|move: Gravity
+|upkeep
+|
+|t:|1785330451
+|switch|p1b: Incineroar|Incineroar, L50, M|25/100
+|-ability|p1b: Incineroar|Intimidate|boost
+|-unboost|p2a: Milotic|atk|1
+|-ability|p2a: Milotic|Competitive|boost
+|-boost|p2a: Milotic|spa|2
+|-unboost|p2b: Sableye|atk|1
+|turn|13
+|
+|t:|1785330468
+|move|p2a: Milotic|Protect|p2a: Milotic
+|-singleturn|p2a: Milotic|Protect
+|move|p1b: Incineroar|Fake Out|p2a: Milotic
+|-activate|p2a: Milotic|move: Protect
+|move|p2b: Sableye|Gravity|p2b: Sableye
+|-fieldstart|move: Gravity
+|cant|p1a: Sinistcha|slp
+|
+|-heal|p2a: Milotic|72/100|[from] item: Leftovers
+|-sideend|p1: 0oBRUNCHo0|move: Tailwind
+|upkeep
+|turn|14
+|
+|t:|1785330513
+|move|p2b: Sableye|Disable|p1a: Sinistcha
+|-start|p1a: Sinistcha|Disable|Rage Powder
+|move|p2a: Milotic|Hypnosis|p1b: Incineroar
+|-status|p1b: Incineroar|slp|[from] move: Hypnosis
+|cant|p1b: Incineroar|slp
+|-curestatus|p1a: Sinistcha|slp|[msg]
+|move|p1a: Sinistcha|Matcha Gotcha|p2a: Milotic|[spread] p2a,p2b
+|-supereffective|p2a: Milotic|1
+|-damage|p2a: Milotic|40/100
+|-damage|p2b: Sableye|0 fnt
+|faint|p2b: Sableye
+|
+|-heal|p2a: Milotic|46/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1785330527
+|switch|p2b: Gengar|Gengar-Mega, L50, M|8/100
+|turn|15
+|
+|t:|1785330560
+|move|p2b: Gengar|Hypnosis|p1a: Sinistcha
+|-status|p1a: Sinistcha|slp|[from] move: Hypnosis
+|move|p2a: Milotic|Hydro Pump|p1b: Incineroar
+|-supereffective|p1b: Incineroar|1
+|-damage|p1b: Incineroar|0 fnt
+|faint|p1b: Incineroar
+|cant|p1a: Sinistcha|slp
+|
+|-heal|p2a: Milotic|51/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1785330566
+|switch|p1b: Aggron|Aggron, L50, M, shiny|100/100
+|turn|16
+|
+|t:|1785330604
+|move|p2b: Gengar|Hex|p1a: Sinistcha
+|-supereffective|p1a: Sinistcha|1
+|-damage|p1a: Sinistcha|0 fnt
+|faint|p1a: Sinistcha
+|move|p2a: Milotic|Hydro Pump|p1b: Aggron
+|-supereffective|p1b: Aggron|1
+|-damage|p1b: Aggron|0 fnt
+|faint|p1b: Aggron
+|
+|win|ultimatecoward
+||0oBRUNCHo0 is ready for game 2.
+||ultimatecoward is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
+|l|☆ultimatecoward
+|player|p2|
+|j|☆ultimatecoward
+|player|p2|ultimatecoward|medium|

@@ -1,0 +1,93 @@
+|j|☆iwinmaybe
+|j|☆DinomonTrainer
+|html|iwinmaybeDinomonTrainer    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1785163956
+|gametype|doubles
+|player|p1|iwinmaybe|102|1000
+|player|p2|DinomonTrainer|101|1052
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Charizard, L50, M|
+|poke|p1|Whimsicott, L50, M|
+|poke|p1|Garchomp, L50, F|
+|poke|p1|Farigiraf, L50, M|
+|poke|p1|Venusaur, L50, M|
+|poke|p1|Incineroar, L50, M|
+|poke|p2|Chesnaught, L50, M, shiny|
+|poke|p2|Florges-Blue, L50, F|
+|poke|p2|Floette-Eternal, L50, F|
+|poke|p2|Gourgeist-Super, L50, M|
+|poke|p2|Meganium, L50, M|
+|poke|p2|Roserade, L50, M|
+|teampreview|4
+|showteam|p1|Charizard||CharizarditeY|Blaze|HeatWave,SolarBeam,WeatherBall,Protect|Modest||M|||50|]Whimsicott||FocusSash|Prankster|Tailwind,Taunt,SunnyDay,Moonblast|Calm||M|||50|]Garchomp||YacheBerry|RoughSkin|RockSlide,DragonClaw,StompingTantrum,Protect|Impish||F|||50|]Farigiraf||SitrusBerry|ArmorTail|Psychic,TrickRoom,HelpingHand,Protect|Modest||M|||50|]Venusaur||LifeOrb|Chlorophyll|WeatherBall,GigaDrain,SludgeBomb,SleepPowder|Modest||M|||50|]Incineroar||Leftovers|Intimidate|FakeOut,Protect,FlareBlitz,PartingShot|Careful||M|||50|
+|showteam|p2|Chesnaught||Chesnaughtite|Bulletproof|LeechSeed,GrassyGlide,DrainPunch,SpikyShield|Careful||M|||50|]Florges-Blue||SitrusBerry|FlowerVeil|GrassyTerrain,Synthesis,Moonblast,Protect|Calm||F|||50|]Floette-Eternal||Floettite|FlowerVeil|EnergyBall,DazzlingGleam,DrainingKiss,Protect|Timid||F|||50|]Gourgeist-Super||MentalHerb|Frisk|TrickRoom,WillOWisp,AllySwitch,Poltergeist|Sassy||M|||50|]Meganium||Meganiumite|LeafGuard|SolarBeam,DazzlingGleam,Synthesis,Protect|Modest||M|||50|]Roserade||FocusSash|NaturalCure|GrassyTerrain,LifeDew,RainDance,SludgeBomb|Calm||M|||50|
+|inactive|Battle timer is ON: inactive players will automatically lose when time's up. (requested by DinomonTrainer)
+|inactive|DinomonTrainer has 60 seconds left.
+|
+|t:|1785164006
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Charizard|Charizard, L50, M|100/100
+|switch|p1b: Whimsicott|Whimsicott, L50, M|100/100
+|switch|p2a: Florges|Florges-Blue, L50, F|100/100
+|switch|p2b: Gourgeist|Gourgeist-Super, L50, M|100/100
+|-item|p1a: Charizard|Charizardite Y|[from] ability: Frisk|[of] p2b: Gourgeist
+|-item|p1b: Whimsicott|Focus Sash|[from] ability: Frisk|[of] p2b: Gourgeist
+|turn|1
+|
+|t:|1785164030
+|detailschange|p1a: Charizard|Charizard-Mega-Y, L50, M
+|-mega|p1a: Charizard|Charizard|Charizardite Y
+|-weather|SunnyDay|[from] ability: Drought|[of] p1a: Charizard
+|move|p1b: Whimsicott|Taunt|p2b: Gourgeist
+|-start|p2b: Gourgeist|move: Taunt
+|-enditem|p2b: Gourgeist|Mental Herb
+|-end|p2b: Gourgeist|move: Taunt
+|move|p1a: Charizard|Heat Wave|p2a: Florges|[spread] p2a,p2b
+|-supereffective|p2b: Gourgeist|1
+|-damage|p2a: Florges|64/100
+|-damage|p2b: Gourgeist|0 fnt
+|faint|p2b: Gourgeist
+|move|p2a: Florges|Grassy Terrain|p2a: Florges
+|-fieldstart|move: Grassy Terrain
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2a: Florges|70/100|[from] Grassy Terrain
+|upkeep
+|j| tedidn
+|
+|t:|1785164046
+|switch|p2b: Roserade|Roserade, L50, M|100/100
+|turn|2
+|
+|t:|1785164061
+|move|p1b: Whimsicott|Taunt|p2b: Roserade
+|-start|p2b: Roserade|move: Taunt
+|move|p1a: Charizard|Heat Wave|p2a: Florges|[spread] p2a,p2b
+|-supereffective|p2b: Roserade|1
+|-damage|p2a: Florges|34/100
+|-enditem|p2b: Roserade|Focus Sash
+|-damage|p2b: Roserade|1/100
+|-enditem|p2a: Florges|Sitrus Berry|[eat]
+|-heal|p2a: Florges|58/100|[from] item: Sitrus Berry
+|cant|p2b: Roserade|move: Taunt|Rain Dance
+|move|p2a: Florges|Moonblast|p1a: Charizard
+|-resisted|p1a: Charizard|1
+|-damage|p1a: Charizard|82/100
+|-unboost|p1a: Charizard|spa|1
+|
+|-weather|SunnyDay|[upkeep]
+|-heal|p2b: Roserade|6/100|[from] Grassy Terrain
+|-heal|p2a: Florges|64/100|[from] Grassy Terrain
+|upkeep
+|turn|3
+|-message|DinomonTrainer forfeited.
+|
+|win|iwinmaybe

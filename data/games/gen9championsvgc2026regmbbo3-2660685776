@@ -1,0 +1,224 @@
+|j|☆GGGoper
+|j|‽LovelyDovelyMoment
+|html|GGGoperLovelyDovelyMoment    
+|uhtml|bestof|Game 2 of a best-of-3
+|t:|1786014428
+|gametype|doubles
+|player|p1|GGGoper|preschoolerf|
+|player|p2|LovelyDovelyMoment|iris-gen5bw2|
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Sableye, L50, M, shiny|
+|poke|p1|Hippowdon, L50, F|
+|poke|p1|Kleavor, L50, F|
+|poke|p1|Steelix, L50, F|
+|poke|p1|Heliolisk, L50, F|
+|poke|p1|Runerigus, L50, F|
+|poke|p2|Tinkaton, L50, F|
+|poke|p2|Runerigus, L50, F|
+|poke|p2|Sableye, L50, F|
+|poke|p2|Hippowdon, L50, M|
+|poke|p2|Steelix, L50, M|
+|poke|p2|Abomasnow, L50, M|
+|teampreview|4
+|showteam|p1|Sableye||SitrusBerry|Prankster|Encore,PainSplit,FakeOut,WillOWisp|Sassy||M|||50|]Hippowdon||Leftovers|SandStream|SlackOff,Yawn,HighHorsepower,FireFang|Brave||F|||50|]Kleavor||ChoiceScarf|Sharpness|StoneAxe,CloseCombat,NightSlash,XScissor|Adamant||F|||50|]Steelix||Steelixite|RockHead|HeadSmash,DoubleEdge,BodyPress,Protect|Brave||F|||50|]Heliolisk||BrightPowder|SandVeil|Thunderbolt,WeatherBall,HyperVoice,Protect|Timid||F|||50|]Runerigus||MentalHerb|WanderingSpirit|TrickRoom,Protect,Imprison,Poltergeist|Sassy||F|||50|
+|showteam|p2|Tinkaton||SitrusBerry|Pickpocket|FakeOut,GigatonHammer,PlayRough,Protect|Adamant||F|||50|]Runerigus||Leftovers|WanderingSpirit|Imprison,TrickRoom,Protect,Earthquake|Relaxed||F|||50|]Sableye||FocusSash|Prankster|Encore,FakeOut,Quash,Detect|Relaxed||F|||50|]Hippowdon||SmoothRock|SandStream|Protect,Earthquake,SlackOff,Whirlwind|Brave||M|||50|]Steelix||Steelixite|SheerForce|Earthquake,PsychicFangs,HeavySlam,Protect|Brave||M|||50|]Abomasnow||Abomasite|SnowWarning|EnergyBall,Blizzard,AuroraVeil,Protect|Quiet||M|||50|
+|
+|t:|1786014465
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Sableye|Sableye, L50, M, shiny|100/100
+|switch|p1b: Kleavor|Kleavor, L50, F|100/100
+|switch|p2a: Tinkaton|Tinkaton, L50, F|100/100
+|switch|p2b: Runerigus|Runerigus, L50, F|100/100
+|turn|1
+|
+|t:|1786014499
+|move|p2a: Tinkaton|Fake Out|p1b: Kleavor
+|-resisted|p1b: Kleavor|1
+|-damage|p1b: Kleavor|93/100
+|move|p1a: Sableye|Will-O-Wisp|p2a: Tinkaton
+|-status|p2a: Tinkaton|brn
+|cant|p1b: Kleavor|flinch
+|move|p2b: Runerigus|Trick Room|p2b: Runerigus
+|-fieldstart|move: Trick Room|[of] p2b: Runerigus
+|
+|-damage|p2a: Tinkaton|93/100 brn|[from] brn
+|upkeep
+|turn|2
+|
+|t:|1786014550
+|move|p2b: Runerigus|Protect|p2b: Runerigus
+|-singleturn|p2b: Runerigus|Protect
+|move|p1a: Sableye|Encore|p2b: Runerigus
+|-activate|p2b: Runerigus|move: Protect
+|move|p2a: Tinkaton|Play Rough|p1a: Sableye
+|-supereffective|p1a: Sableye|1
+|-damage|p1a: Sableye|46/100
+|-unboost|p1a: Sableye|atk|1
+|-enditem|p1a: Sableye|Sitrus Berry|[eat]
+|-heal|p1a: Sableye|71/100|[from] item: Sitrus Berry
+|move|p1b: Kleavor|Close Combat|p2a: Tinkaton
+|-damage|p2a: Tinkaton|41/100 brn
+|-unboost|p1b: Kleavor|def|1
+|-unboost|p1b: Kleavor|spd|1
+|-enditem|p2a: Tinkaton|Sitrus Berry|[eat]
+|-heal|p2a: Tinkaton|66/100 brn|[from] item: Sitrus Berry
+|-enditem|p1b: Kleavor|Choice Scarf|[silent]|[from] ability: Pickpocket|[of] p1b: Kleavor
+|-item|p2a: Tinkaton|Choice Scarf|[from] ability: Pickpocket|[of] p1b: Kleavor
+|
+|-damage|p2a: Tinkaton|59/100 brn|[from] brn
+|upkeep
+|turn|3
+|
+|t:|1786014615
+|switch|p2b: Sableye|Sableye, L50, F|100/100
+|move|p1a: Sableye|Encore|p2b: Sableye
+|-hint|Since gen 7, Dark is immune to Prankster moves.
+|-immune|p2b: Sableye
+|move|p1b: Kleavor|Night Slash|p2b: Sableye
+|-crit|p2b: Sableye
+|-damage|p2b: Sableye|35/100
+|move|p2a: Tinkaton|Play Rough|p1a: Sableye
+|-supereffective|p1a: Sableye|1
+|-damage|p1a: Sableye|17/100
+|
+|-damage|p2a: Tinkaton|53/100 brn|[from] brn
+|upkeep
+|turn|4
+|
+|t:|1786014630
+|move|p2b: Sableye|Fake Out|p1b: Kleavor
+|-resisted|p1b: Kleavor|1
+|-damage|p1b: Kleavor|86/100
+|move|p1a: Sableye|Pain Split|p2a: Tinkaton
+|-sethp|p2a: Tinkaton|32/100 brn|[from] move: Pain Split|[silent]
+|-sethp|p1a: Sableye|49/100|[from] move: Pain Split
+|cant|p1b: Kleavor|flinch
+|move|p2a: Tinkaton|Play Rough|p1a: Sableye
+|-supereffective|p1a: Sableye|1
+|-damage|p1a: Sableye|0 fnt
+|faint|p1a: Sableye
+|
+|-damage|p2a: Tinkaton|26/100 brn|[from] brn
+|upkeep
+|
+|t:|1786014646
+|switch|p1a: Hippowdon|Hippowdon, L50, F|100/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1a: Hippowdon
+|turn|5
+|
+|t:|1786014688
+|move|p2b: Sableye|Detect|p2b: Sableye
+|-singleturn|p2b: Sableye|Protect
+|move|p1a: Hippowdon|High Horsepower|p2a: Tinkaton
+|-supereffective|p2a: Tinkaton|1
+|-damage|p2a: Tinkaton|0 fnt
+|faint|p2a: Tinkaton
+|move|p1b: Kleavor|Night Slash|p2b: Sableye
+|-activate|p2b: Sableye|move: Protect
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sableye|29/100|[from] Sandstorm
+|-fieldend|move: Trick Room
+|upkeep
+|
+|t:|1786014697
+|switch|p2a: Runerigus|Runerigus, L50, F|100/100
+|turn|6
+|
+|t:|1786014716
+|move|p2b: Sableye|Encore|p1a: Hippowdon
+|-start|p1a: Hippowdon|Encore
+|move|p1b: Kleavor|Night Slash|p2a: Runerigus
+|-supereffective|p2a: Runerigus|1
+|-damage|p2a: Runerigus|52/100
+|-activate|p1b: Kleavor|Skill Swap|Wandering Spirit|Sharpness|[of] p2a: Runerigus
+|move|p1a: Hippowdon|High Horsepower|p2a: Runerigus
+|-damage|p2a: Runerigus|25/100
+|move|p2a: Runerigus|Trick Room|p2a: Runerigus
+|-fieldstart|move: Trick Room|[of] p2a: Runerigus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sableye|23/100|[from] Sandstorm
+|-heal|p2a: Runerigus|31/100|[from] item: Leftovers
+|upkeep
+|turn|7
+|
+|t:|1786014777
+|move|p2b: Sableye|Detect|p2b: Sableye
+|-singleturn|p2b: Sableye|Protect
+|move|p2a: Runerigus|Earthquake|p1b: Kleavor|[spread] p1a,p1b
+|-activate|p2b: Sableye|move: Protect
+|-damage|p1a: Hippowdon|84/100
+|-damage|p1b: Kleavor|41/100
+|move|p1a: Hippowdon|High Horsepower|p2a: Runerigus|[miss]
+|-miss|p1a: Hippowdon|p2a: Runerigus
+|move|p1b: Kleavor|Night Slash|p2a: Runerigus
+|-supereffective|p2a: Runerigus|1
+|-damage|p2a: Runerigus|0 fnt
+|faint|p2a: Runerigus
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2b: Sableye|17/100|[from] Sandstorm
+|-heal|p1a: Hippowdon|90/100|[from] item: Leftovers
+|upkeep
+|
+|t:|1786014783
+|switch|p2a: Abomasnow|Abomasnow, L50, M|100/100
+|-weather|Snowscape|[from] ability: Snow Warning|[of] p2a: Abomasnow
+|turn|8
+|
+|t:|1786014811
+|switch|p1a: Steelix|Steelix, L50, F|100/100
+|detailschange|p2a: Abomasnow|Abomasnow-Mega, L50, M
+|-mega|p2a: Abomasnow|Abomasnow|Abomasite
+|move|p2b: Sableye|Encore|p1b: Kleavor
+|-start|p1b: Kleavor|Encore
+|move|p2a: Abomasnow|Blizzard|p1a: Steelix|[spread] p1a,p1b
+|-damage|p1a: Steelix|36/100
+|-damage|p1b: Kleavor|0 fnt
+|faint|p1b: Kleavor
+|
+|-weather|Snowscape|[upkeep]
+|upkeep
+|
+|t:|1786014819
+|switch|p1b: Hippowdon|Hippowdon, L50, F|90/100
+|-weather|Sandstorm|[from] ability: Sand Stream|[of] p1b: Hippowdon
+|turn|9
+|
+|t:|1786014849
+|detailschange|p1a: Steelix|Steelix-Mega, L50, F
+|-mega|p1a: Steelix|Steelix|Steelixite
+|move|p2b: Sableye|Quash|p1a: Steelix
+|-activate|p1a: Steelix|move: Quash
+|move|p2a: Abomasnow|Energy Ball|p1a: Steelix
+|-damage|p1a: Steelix|0 fnt
+|faint|p1a: Steelix
+|move|p1b: Hippowdon|Fire Fang|p2b: Sableye
+|-damage|p2b: Sableye|0 fnt
+|faint|p2b: Sableye
+|
+|-weather|Sandstorm|[upkeep]
+|-damage|p2a: Abomasnow|93/100|[from] Sandstorm
+|-heal|p1b: Hippowdon|96/100|[from] item: Leftovers
+|upkeep
+|turn|10
+|
+|t:|1786014861
+|move|p2a: Abomasnow|Energy Ball|p1b: Hippowdon
+|-supereffective|p1b: Hippowdon|1
+|-damage|p1b: Hippowdon|0 fnt
+|faint|p1b: Hippowdon
+|
+|win|LovelyDovelyMoment
+|l|‽LovelyDovelyMoment
+|player|p2|
+|j|‽LovelyDovelyMoment
+|player|p2|LovelyDovelyMoment|iris-gen5bw2|
+|n|‽LovelyDovelyMoment|lovelydovelymoment

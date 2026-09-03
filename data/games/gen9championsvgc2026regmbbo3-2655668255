@@ -1,0 +1,117 @@
+|j|☆testdigi
+|j|☆Deuz7
+|html|testdigiDeuz7    
+|uhtml|bestof|Game 1 of a best-of-3
+|t:|1785170899
+|gametype|doubles
+|player|p1|testdigi|169|1159
+|player|p2|Deuz7|102|1172
+|gen|9
+|tier|[Gen 9 Champions] VGC 2026 Reg M-B (Bo3)
+|rated|
+|rule|Species Clause: Limit one of each Pokémon
+|rule|Item Clause: Limit 1 of each item
+|clearpoke
+|poke|p1|Raichu, L50, M|
+|poke|p1|Toxapex, L50, F|
+|poke|p1|Mamoswine, L50, F|
+|poke|p1|Sylveon, L50, M|
+|poke|p1|Corviknight, L50, F|
+|poke|p1|Basculegion, L50, M|
+|poke|p2|Delphox, L50, F|
+|poke|p2|Aerodactyl, L50, F|
+|poke|p2|Incineroar, L50, M|
+|poke|p2|Sneasler, L50, F|
+|poke|p2|Basculegion, L50, M|
+|poke|p2|Garchomp, L50, F|
+|teampreview|4
+|showteam|p1|Raichu||RaichuniteY|LightningRod|ZapCannon,FocusBlast,FakeOut,Protect|Timid||M|||50|]Toxapex||Leftovers|Regenerator|Infestation,Toxic,WideGuard,BanefulBunker|Relaxed||F|||50|]Mamoswine||LifeOrb|Oblivious|StompingTantrum,IceShard,RockSlide,Protect|Adamant||F|||50|]Sylveon||FairyFeather|Pixilate|HyperVoice,QuickAttack,Yawn,Detect|Modest||M|||50|]Corviknight||OccaBerry|MirrorArmor|IronHead,BraveBird,Tailwind,Protect|Adamant||F|||50|]Basculegion||FocusSash|Adaptability|LastRespects,Liquidation,AquaJet,Protect|Jolly||M|||50|
+|showteam|p2|Delphox||Delphoxite|Blaze|NastyPlot,HeatWave,Psyshock,Protect|Modest||F|||50|]Aerodactyl||Aerodactylite|RockHead|RockSlide,DualWingbeat,WideGuard,Tailwind|Adamant||F|||50|]Incineroar||SitrusBerry|Intimidate|Roar,DarkestLariat,FakeOut,PartingShot|Impish||M|||50|]Sneasler||FocusSash|PoisonTouch|FakeOut,Protect,CloseCombat,DireClaw|Jolly||F|||50|]Basculegion||ChoiceScarf|Adaptability|AquaJet,LastRespects,WaveCrash,FlipTurn|Adamant||M|||50|]Garchomp||LifeOrb|RoughSkin|Earthquake,ScaleShot,StompingTantrum,Protect|Jolly||F|||50|
+|
+|t:|1785170921
+|teamsize|p1|4
+|teamsize|p2|4
+|start
+|switch|p1a: Mamoswine|Mamoswine, L50, F|100/100
+|switch|p1b: Raichu|Raichu, L50, M|100/100
+|switch|p2a: Garchomp|Garchomp, L50, F|100/100
+|switch|p2b: Sneasler|Sneasler, L50, F|100/100
+|turn|1
+|
+|t:|1785170947
+|detailschange|p1b: Raichu|Raichu-Mega-Y, L50, M
+|-mega|p1b: Raichu|Raichu|Raichunite Y
+|move|p1b: Raichu|Fake Out|p2b: Sneasler
+|-damage|p2b: Sneasler|85/100
+|cant|p2b: Sneasler|flinch
+|move|p1a: Mamoswine|Ice Shard|p2a: Garchomp
+|-supereffective|p2a: Garchomp|2
+|-damage|p2a: Garchomp|0 fnt
+|faint|p2a: Garchomp
+|-damage|p1a: Mamoswine|90/100|[from] item: Life Orb
+|
+|upkeep
+|
+|t:|1785170960
+|switch|p2a: Delphox|Delphox, L50, F|100/100
+|turn|2
+|
+|t:|1785170970
+|detailschange|p2a: Delphox|Delphox-Mega, L50, F
+|-mega|p2a: Delphox|Delphox|Delphoxite
+|move|p1b: Raichu|Zap Cannon|p2a: Delphox
+|-damage|p2a: Delphox|37/100
+|-status|p2a: Delphox|par
+|move|p2b: Sneasler|Close Combat|p1a: Mamoswine
+|-supereffective|p1a: Mamoswine|1
+|-damage|p1a: Mamoswine|0 fnt
+|-unboost|p2b: Sneasler|def|1
+|-unboost|p2b: Sneasler|spd|1
+|faint|p1a: Mamoswine
+|cant|p2a: Delphox|par
+|
+|upkeep
+|
+|t:|1785170982
+|switch|p1a: Basculegion|Basculegion, L50, M|100/100
+|turn|3
+|
+|t:|1785170994
+|move|p2a: Delphox|Protect|p2a: Delphox
+|-singleturn|p2a: Delphox|Protect
+|move|p1a: Basculegion|Aqua Jet|p2a: Delphox
+|-activate|p2a: Delphox|move: Protect
+|move|p1b: Raichu|Zap Cannon|p2b: Sneasler
+|-damage|p2b: Sneasler|0 fnt
+|faint|p2b: Sneasler
+|
+|upkeep
+|
+|t:|1785171005
+|switch|p2b: Basculegion|Basculegion, L50, M|100/100
+|turn|4
+|
+|t:|1785171015
+|move|p1b: Raichu|Protect|p1b: Raichu
+|-singleturn|p1b: Raichu|Protect
+|move|p1a: Basculegion|Aqua Jet|p2a: Delphox
+|-supereffective|p2a: Delphox|1
+|-crit|p2a: Delphox
+|-damage|p2a: Delphox|0 fnt
+|faint|p2a: Delphox
+|move|p2b: Basculegion|Last Respects|p1b: Raichu
+|-activate|p1b: Raichu|move: Protect
+|
+|upkeep
+|turn|5
+|
+|t:|1785171026
+|move|p1b: Raichu|Zap Cannon|p2b: Basculegion
+|-supereffective|p2b: Basculegion|1
+|-damage|p2b: Basculegion|0 fnt
+|faint|p2b: Basculegion
+|
+|win|testdigi
+||Deuz7 is ready for game 2.
+||testdigi is ready for game 2.
+|uhtml|next|Next: Game 2 of 3
